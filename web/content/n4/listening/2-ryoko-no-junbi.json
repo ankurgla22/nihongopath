@@ -1,0 +1,75 @@
+{
+  "id": "n4-listening-2",
+  "slug": "2-ryoko-no-junbi",
+  "level": "n4",
+  "order": 2,
+  "kind": "task",
+  "title": "旅行の準備",
+  "setting": "家で、女の人と男の人が話しています。男の人が持っていかないものは何ですか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "明日の旅行、準備できた？"
+    },
+    {
+      "speaker": "男",
+      "line": "うん。カメラと着替えは入れたよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "山は寒いから、上着も持っていったほうがいいよ。"
+    },
+    {
+      "speaker": "男",
+      "line": "そうだね。あ、かさはいる？"
+    },
+    {
+      "speaker": "女",
+      "line": "天気予報は晴れだから、かさはいらないと思う。それより、水を忘れないで。"
+    },
+    {
+      "speaker": "男",
+      "line": "うん、コンビニで買って持っていく。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "準備",
+      "reading": "じゅんび",
+      "meaning": "preparation"
+    },
+    {
+      "word": "着替え",
+      "reading": "きがえ",
+      "meaning": "change of clothes"
+    },
+    {
+      "word": "上着",
+      "reading": "うわぎ",
+      "meaning": "jacket"
+    },
+    {
+      "word": "〜たほうがいい",
+      "reading": "たほうがいい",
+      "meaning": "had better"
+    },
+    {
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "weather forecast"
+    },
+    {
+      "word": "いらない",
+      "reading": "いらない",
+      "meaning": "not needed"
+    },
+    {
+      "word": "それより",
+      "reading": "それより",
+      "meaning": "more importantly"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-2-1"
+  ]
+}

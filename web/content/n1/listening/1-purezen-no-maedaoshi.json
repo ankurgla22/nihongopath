@@ -1,0 +1,93 @@
+{
+  "id": "n1-listening-1",
+  "slug": "1-purezen-no-maedaoshi",
+  "level": "n1",
+  "order": 1,
+  "kind": "task",
+  "title": "プレゼンの前倒し",
+  "setting": "会社で、男の人と女の人が話しています。女の人はこのあとまず何をしなければなりませんか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "佐藤さん、来週のプレゼンの件なんだけど、先方から連絡があって、開始が一時間前倒しになったんだ。"
+    },
+    {
+      "speaker": "女",
+      "line": "一時間前倒しですか。となると、会場の設営が間に合うかどうか…。"
+    },
+    {
+      "speaker": "男",
+      "line": "設営は業者に頼んであるから、僕から連絡しとく。それより、資料のほうはどう？"
+    },
+    {
+      "speaker": "女",
+      "line": "本文はほぼ固まってます。ただ、最後の見積もりの部分が、経理の確認待ちでして。"
+    },
+    {
+      "speaker": "男",
+      "line": "それ、今日中に出ないとまずいな。経理に催促しといて。あと、参加者に時間変更のメールも流しといてくれる？"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。ただ、参加者リストがまだ営業から届いてないんです。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃ、まず営業にリストをもらって、それから一斉送信だな。経理への催促はその後でいいよ。時間変更を知らせるほうが先だから。"
+    },
+    {
+      "speaker": "女",
+      "line": "承知しました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "先方",
+      "reading": "せんぽう",
+      "meaning": "the other party"
+    },
+    {
+      "word": "前倒し",
+      "reading": "まえだおし",
+      "meaning": "moving up (a schedule)"
+    },
+    {
+      "word": "設営",
+      "reading": "せつえい",
+      "meaning": "setup (of venue)"
+    },
+    {
+      "word": "固まる",
+      "reading": "かたまる",
+      "meaning": "to be finalised"
+    },
+    {
+      "word": "見積もり",
+      "reading": "みつもり",
+      "meaning": "estimate"
+    },
+    {
+      "word": "経理",
+      "reading": "けいり",
+      "meaning": "accounting"
+    },
+    {
+      "word": "催促",
+      "reading": "さいそく",
+      "meaning": "reminder, urging"
+    },
+    {
+      "word": "一斉送信",
+      "reading": "いっせいそうしん",
+      "meaning": "mass mailing"
+    },
+    {
+      "word": "承知しました",
+      "reading": "しょうちしました",
+      "meaning": "understood (humble)"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-1-1"
+  ]
+}

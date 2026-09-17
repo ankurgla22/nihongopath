@@ -1,0 +1,81 @@
+{
+  "id": "n5-reading-8",
+  "slug": "8-tenki",
+  "level": "n5",
+  "order": 8,
+  "kind": "short",
+  "title": "今週（こんしゅう）の天気（てんき）",
+  "paragraphs": [
+    "今日（きょう）は月曜日（げつようび）です。朝（あさ）から雨（あめ）が降（ふ）っています。少（すこ）し寒（さむ）いです。",
+    "テレビの天気（てんき）予報（よほう）によると、あしたも雨です。でも、水曜日（すいようび）から晴（は）れます。木曜日（もくようび）と金曜日（きんようび）はとてもいい天気で、暖（あたた）かくなります。",
+    "土曜日（どようび）は友（とも）だちと山（やま）へ行（い）きますから、いい天気になってほしいです。土曜日はまだわかりません。"
+  ],
+  "vocab": [
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "meaning": "this week"
+    },
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "meaning": "weather"
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain"
+    },
+    {
+      "word": "降る",
+      "reading": "ふる",
+      "meaning": "to fall (rain)"
+    },
+    {
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "a little"
+    },
+    {
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "weather forecast"
+    },
+    {
+      "word": "〜によると",
+      "reading": "によると",
+      "meaning": "according to ..."
+    },
+    {
+      "word": "晴れる",
+      "reading": "はれる",
+      "meaning": "to clear up, be sunny"
+    },
+    {
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meaning": "warm"
+    },
+    {
+      "word": "〜てほしい",
+      "reading": "てほしい",
+      "meaning": "want (something) to happen"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "still, not yet"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-8-1",
+    "q-n5-r-8-2",
+    "q-n5-r-8-3"
+  ],
+  "strategyNotes": [
+    "Weather passages are day-by-day. Make a mini calendar as you read: 月 雨, 火 雨, 水 晴れ ...",
+    "〜によると introduces a source (the TV forecast). Facts after it are what the forecast says.",
+    "まだわかりません (not known yet) is a classic trap: do not assume Saturday is sunny."
+  ],
+  "timeLimitSeconds": 150
+}

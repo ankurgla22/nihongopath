@@ -1,0 +1,66 @@
+{
+  "id": "n5-listening-8",
+  "slug": "8-doyobi-no-eiga",
+  "level": "n5",
+  "order": 8,
+  "kind": "point",
+  "title": "土曜日の映画",
+  "setting": "女の人と男の人が話しています。男の人はどうして土曜日に映画に行きませんか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "土曜日、映画に行きませんか。"
+    },
+    {
+      "speaker": "男",
+      "line": "土曜日は、ちょっと…。"
+    },
+    {
+      "speaker": "女",
+      "line": "仕事ですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "いいえ、仕事は休みです。母が来ます。いっしょに買い物に行きます。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。じゃあ、また今度。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "映画",
+      "reading": "えいが",
+      "meaning": "movie"
+    },
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "meaning": "work"
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning": "day off"
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "meaning": "(my) mother"
+    },
+    {
+      "word": "買い物",
+      "reading": "かいもの",
+      "meaning": "shopping"
+    },
+    {
+      "word": "また今度",
+      "reading": "またこんど",
+      "meaning": "another time"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-8-1"
+  ]
+}

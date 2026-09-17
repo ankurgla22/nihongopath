@@ -1,0 +1,75 @@
+{
+  "id": "n4-listening-3",
+  "slug": "3-toshokan-de-henkyaku",
+  "level": "n4",
+  "order": 3,
+  "kind": "task",
+  "title": "図書館で返却",
+  "setting": "図書館で、男の人と係の人が話しています。男の人はこのあと何をしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません、この本を返したいんですが。"
+    },
+    {
+      "speaker": "係",
+      "line": "はい。あ、この本、返す日が三日過ぎていますね。"
+    },
+    {
+      "speaker": "男",
+      "line": "すみません。"
+    },
+    {
+      "speaker": "係",
+      "line": "今回は大丈夫ですが、次からは気をつけてください。それから、新しい本は今日は借りられません。一週間後から借りられます。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。じゃあ、予約だけしてもいいですか。"
+    },
+    {
+      "speaker": "係",
+      "line": "はい、予約はできます。この紙に書いてください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return"
+    },
+    {
+      "word": "係",
+      "reading": "かかり",
+      "meaning": "person in charge"
+    },
+    {
+      "word": "過ぎる",
+      "reading": "すぎる",
+      "meaning": "to pass (time)"
+    },
+    {
+      "word": "今回",
+      "reading": "こんかい",
+      "meaning": "this time"
+    },
+    {
+      "word": "借りられる",
+      "reading": "かりられる",
+      "meaning": "can borrow"
+    },
+    {
+      "word": "一週間後",
+      "reading": "いっしゅうかんご",
+      "meaning": "a week later"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-3-1"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "n1-listening-13",
+  "slug": "13-pakkeji-an-no-kettei",
+  "level": "n1",
+  "order": 13,
+  "kind": "integrated",
+  "title": "パッケージ案の決定",
+  "setting": "会社で、課長、デザイン担当の女の人、営業担当の男の人が、新商品のパッケージについて話しています。",
+  "script": [
+    {
+      "speaker": "課長",
+      "line": "じゃ、新商品のパッケージ案、AとBのどっちで行くか決めよう。デザイン担当から説明を。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。A案はこれまでのシリーズと同じ落ち着いた色使いで、棚に並んだときの統一感を重視しました。B案は若い層向けに、思い切って鮮やかな色にしています。"
+    },
+    {
+      "speaker": "男",
+      "line": "営業としては、正直B案ですね。今回は二十代がターゲットですし、店頭で目立たないと、そもそも手に取ってもらえません。"
+    },
+    {
+      "speaker": "女",
+      "line": "ただ、B案はシリーズの他の商品と並ぶと、浮いてしまうんです。ブランドのイメージが崩れるという声も社内にありました。"
+    },
+    {
+      "speaker": "課長",
+      "line": "うーん。統一感か、目立つか、だな。"
+    },
+    {
+      "speaker": "男",
+      "line": "折衷案として、B案の色を少し抑えるというのはどうでしょう。"
+    },
+    {
+      "speaker": "女",
+      "line": "それだと、どっちつかずになって、結局誰にも刺さらない気がします。やるなら思い切ったほうが。"
+    },
+    {
+      "speaker": "課長",
+      "line": "わかった。今回は新しい層を取りに行く商品だ。ブランドの統一感は、売れてから考えればいい。B案で進めよう。ただし、ロゴの位置だけは他の商品と揃えてくれ。"
+    },
+    {
+      "speaker": "女",
+      "line": "承知しました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "統一感",
+      "reading": "とういつかん",
+      "meaning": "sense of unity"
+    },
+    {
+      "word": "鮮やか",
+      "reading": "あざやか",
+      "meaning": "vivid"
+    },
+    {
+      "word": "ターゲット",
+      "reading": "ターゲット",
+      "meaning": "target audience"
+    },
+    {
+      "word": "店頭",
+      "reading": "てんとう",
+      "meaning": "in store, on the shelf"
+    },
+    {
+      "word": "浮く",
+      "reading": "うく",
+      "meaning": "to stand out awkwardly"
+    },
+    {
+      "word": "折衷案",
+      "reading": "せっちゅうあん",
+      "meaning": "compromise plan"
+    },
+    {
+      "word": "どっちつかず",
+      "reading": "どっちつかず",
+      "meaning": "neither one nor the other"
+    },
+    {
+      "word": "刺さる",
+      "reading": "ささる",
+      "meaning": "to resonate with"
+    },
+    {
+      "word": "揃える",
+      "reading": "そろえる",
+      "meaning": "to align"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-13-1",
+    "q-n1-l-13-2"
+  ]
+}

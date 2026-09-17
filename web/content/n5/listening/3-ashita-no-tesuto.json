@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-3",
+  "slug": "3-ashita-no-tesuto",
+  "level": "n5",
+  "order": 3,
+  "kind": "task",
+  "title": "明日のテスト",
+  "setting": "教室で、先生が話しています。学生は明日、何を持ってきますか。",
+  "script": [
+    {
+      "speaker": "先生",
+      "line": "明日はテストです。えんぴつと消しゴムを持ってきてください。"
+    },
+    {
+      "speaker": "学生",
+      "line": "先生、辞書はいいですか。"
+    },
+    {
+      "speaker": "先生",
+      "line": "辞書はだめです。教科書もだめです。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "テスト",
+      "reading": "テスト",
+      "meaning": "test"
+    },
+    {
+      "word": "えんぴつ",
+      "reading": "えんぴつ",
+      "meaning": "pencil"
+    },
+    {
+      "word": "消しゴム",
+      "reading": "けしゴム",
+      "meaning": "eraser"
+    },
+    {
+      "word": "持ってきます",
+      "reading": "もってきます",
+      "meaning": "to bring"
+    },
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning": "dictionary"
+    },
+    {
+      "word": "教科書",
+      "reading": "きょうかしょ",
+      "meaning": "textbook"
+    },
+    {
+      "word": "だめ",
+      "reading": "だめ",
+      "meaning": "not allowed"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-3-1"
+  ]
+}

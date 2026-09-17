@@ -1,0 +1,62 @@
+{
+  "id": "n4-listening-9",
+  "slug": "9-pati-no-keki",
+  "level": "n4",
+  "order": 9,
+  "kind": "point",
+  "title": "パーティーのケーキ",
+  "setting": "男の人と女の人が話しています。女の人はどうしてケーキを作りませんか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "土曜日のパーティー、ケーキ作ってくれる？前に作ってくれたの、おいしかったから。"
+    },
+    {
+      "speaker": "女",
+      "line": "作りたいんだけど、今週はオーブンが壊れてて、使えないの。"
+    },
+    {
+      "speaker": "男",
+      "line": "そっか。じゃあ、買っていく？"
+    },
+    {
+      "speaker": "女",
+      "line": "うん。代わりに、サラダを作っていくよ。オーブンはいらないから。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "パーティー",
+      "reading": "パーティー",
+      "meaning": "party"
+    },
+    {
+      "word": "オーブン",
+      "reading": "オーブン",
+      "meaning": "oven"
+    },
+    {
+      "word": "壊れる",
+      "reading": "こわれる",
+      "meaning": "to break"
+    },
+    {
+      "word": "代わりに",
+      "reading": "かわりに",
+      "meaning": "instead"
+    },
+    {
+      "word": "サラダ",
+      "reading": "サラダ",
+      "meaning": "salad"
+    },
+    {
+      "word": "〜てくれる",
+      "reading": "てくれる",
+      "meaning": "to do for me"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-9-1"
+  ]
+}

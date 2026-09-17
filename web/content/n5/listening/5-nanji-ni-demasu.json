@@ -1,0 +1,62 @@
+{
+  "id": "n5-listening-5",
+  "slug": "5-nanji-ni-demasu",
+  "level": "n5",
+  "order": 5,
+  "kind": "task",
+  "title": "何時に出ますか",
+  "setting": "家で、男の人と女の人が話しています。女の人は明日、何時に家を出ますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "明日の電車は何時？"
+    },
+    {
+      "speaker": "女",
+      "line": "九時の電車です。駅まで二十分かかります。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、八時半に出る？"
+    },
+    {
+      "speaker": "女",
+      "line": "うーん、八時半はちょっと遅いです。八時二十分に出ます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train"
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "meaning": "station"
+    },
+    {
+      "word": "かかります",
+      "reading": "かかります",
+      "meaning": "to take (time)"
+    },
+    {
+      "word": "出ます",
+      "reading": "でます",
+      "meaning": "to leave"
+    },
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "meaning": "late"
+    },
+    {
+      "word": "半",
+      "reading": "はん",
+      "meaning": "half past"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-5-1"
+  ]
+}

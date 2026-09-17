@@ -1,0 +1,80 @@
+{
+  "id": "n5-reading-2",
+  "slug": "2-ichinichi",
+  "level": "n5",
+  "order": 2,
+  "kind": "short",
+  "title": "わたしの一日（いちにち）",
+  "paragraphs": [
+    "わたしは毎朝（まいあさ）六時半（ろくじはん）に起（お）きます。七時（しちじ）にパンとたまごを食（た）べて、コーヒーを飲（の）みます。八時（はちじ）に家（いえ）を出（で）て、電車（でんしゃ）で会社（かいしゃ）へ行（い）きます。",
+    "会社は九時（くじ）から五時（ごじ）までです。昼（ひる）ごはんは会社の近（ちか）くの店（みせ）で食べます。夜（よる）は七時ごろ家に帰（かえ）って、テレビを見（み）ます。十一時（じゅういちじ）に寝（ね）ます。"
+  ],
+  "vocab": [
+    {
+      "word": "毎朝",
+      "reading": "まいあさ",
+      "meaning": "every morning"
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to get up"
+    },
+    {
+      "word": "たまご",
+      "reading": "たまご",
+      "meaning": "egg"
+    },
+    {
+      "word": "家を出る",
+      "reading": "いえをでる",
+      "meaning": "to leave the house"
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train"
+    },
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meaning": "company, office"
+    },
+    {
+      "word": "昼ごはん",
+      "reading": "ひるごはん",
+      "meaning": "lunch"
+    },
+    {
+      "word": "近く",
+      "reading": "ちかく",
+      "meaning": "nearby"
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "night"
+    },
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "to go home"
+    },
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning": "to go to bed"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-2-1",
+    "q-n5-r-2-2",
+    "q-n5-r-2-3"
+  ],
+  "strategyNotes": [
+    "Daily-schedule passages are tested on times. Write each time next to its verb as you read: 6:30 起きる, 8:00 出る, and so on.",
+    "Watch for ごろ (around) versus に (exactly). 七時ごろ means 'about seven'.",
+    "The question may ask about transport (で = by means of). Find the noun before で."
+  ],
+  "timeLimitSeconds": 150
+}

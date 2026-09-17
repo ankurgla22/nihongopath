@@ -1,0 +1,86 @@
+{
+  "id": "n5-reading-5",
+  "slug": "5-menyu",
+  "level": "n5",
+  "order": 5,
+  "kind": "short",
+  "title": "レストランのメニュー",
+  "paragraphs": [
+    "さくら食堂（しょくどう）　メニュー",
+    "カレーライス　七百円（ななひゃくえん）",
+    "ラーメン　六百五十円（ろっぴゃくごじゅうえん）",
+    "サンドイッチ　四百円（よんひゃくえん）",
+    "コーヒー　三百円（さんびゃくえん）",
+    "お茶（ちゃ）　二百円（にひゃくえん）",
+    "※ランチセット（十一時（じゅういちじ）から二時（にじ）まで）：カレーライスかラーメン＋コーヒーかお茶で八百円（はっぴゃくえん）",
+    "※水（みず）はただです。"
+  ],
+  "vocab": [
+    {
+      "word": "食堂",
+      "reading": "しょくどう",
+      "meaning": "cafeteria, diner"
+    },
+    {
+      "word": "メニュー",
+      "reading": "めにゅー",
+      "meaning": "menu"
+    },
+    {
+      "word": "カレーライス",
+      "reading": "かれーらいす",
+      "meaning": "curry and rice"
+    },
+    {
+      "word": "円",
+      "reading": "えん",
+      "meaning": "yen"
+    },
+    {
+      "word": "サンドイッチ",
+      "reading": "さんどいっち",
+      "meaning": "sandwich"
+    },
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning": "tea"
+    },
+    {
+      "word": "ランチセット",
+      "reading": "らんちせっと",
+      "meaning": "lunch set"
+    },
+    {
+      "word": "〜か〜",
+      "reading": "か",
+      "meaning": "A or B"
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "meaning": "water"
+    },
+    {
+      "word": "ただ",
+      "reading": "ただ",
+      "meaning": "free of charge"
+    },
+    {
+      "word": "から〜まで",
+      "reading": "から〜まで",
+      "meaning": "from ... to ..."
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-5-1",
+    "q-n5-r-5-2",
+    "q-n5-r-5-3"
+  ],
+  "strategyNotes": [
+    "Menu questions are arithmetic in disguise. Add the prices carefully and compare with the set price.",
+    "The ※ mark introduces conditions. Read the time range (十一時から二時まで) before deciding whether a set applies.",
+    "か between nouns means 'or': カレーライスかラーメン = curry OR ramen, not both."
+  ],
+  "timeLimitSeconds": 150
+}

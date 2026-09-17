@@ -1,0 +1,66 @@
+{
+  "id": "n5-listening-1",
+  "slug": "1-supa-de-kaimono",
+  "level": "n5",
+  "order": 1,
+  "kind": "task",
+  "title": "スーパーで買い物",
+  "setting": "スーパーで、女の人と店の人が話しています。女の人は何を買いますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません。たまごは、どこですか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "たまごは、あちらです。牛乳のとなりです。"
+    },
+    {
+      "speaker": "女",
+      "line": "ありがとうございます。あ、パンもほしいです。"
+    },
+    {
+      "speaker": "店員",
+      "line": "すみません。パンは、今日はありません。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。じゃあ、たまごと牛乳を買います。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "たまご",
+      "reading": "たまご",
+      "meaning": "egg"
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meaning": "milk"
+    },
+    {
+      "word": "となり",
+      "reading": "となり",
+      "meaning": "next to"
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meaning": "bread"
+    },
+    {
+      "word": "ほしい",
+      "reading": "ほしい",
+      "meaning": "want"
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "today"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-1-1"
+  ]
+}

@@ -1,0 +1,4232 @@
+[
+  {
+    "id": "q-n5-r-1-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-1"
+    },
+    "prompt": "リンさんは今、何をしていますか。",
+    "context": "",
+    "options": [
+      "会社（かいしゃ）で働（はたら）いています。",
+      "日本語学校の学生です。",
+      "中国の学校の先生（せんせい）です。",
+      "大阪で店（みせ）をしています。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「今、大阪の日本語学校の学生です」: Lin is currently a student at a Japanese language school in Osaka.",
+    "distractorExplanations": [
+      "The text says 学生 (student), not a company worker; the part-time job is only on Saturdays.",
+      "(correct answer)",
+      "Lin came from China but is now a student in Osaka, not a teacher.",
+      "No shop is mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-1-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-1"
+    },
+    "prompt": "リンさんはいつアルバイトをしますか。",
+    "context": "",
+    "options": [
+      "月曜日",
+      "金曜日",
+      "土曜日",
+      "日曜日"
+    ],
+    "answerIndex": 2,
+    "explanation": "「土曜日はアルバイトをします」: the part-time job is on Saturday.",
+    "distractorExplanations": [
+      "Monday is a school day (月曜日から金曜日まで).",
+      "Friday is the last school day.",
+      "(correct answer)",
+      "Sunday is for shopping with friends."
+    ]
+  },
+  {
+    "id": "q-n5-r-1-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-1"
+    },
+    "prompt": "リンさんは日曜日に何をしますか。",
+    "context": "",
+    "options": [
+      "学校へ行きます。",
+      "アルバイトをします。",
+      "すしを作（つく）ります。",
+      "友だちと買い物に行きます。"
+    ],
+    "answerIndex": 3,
+    "explanation": "「日曜日は友だちと買い物に行きます」: on Sunday Lin goes shopping with friends.",
+    "distractorExplanations": [
+      "School is Monday to Friday.",
+      "The part-time job is Saturday.",
+      "Lin loves sushi but the text says nothing about making it.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n5-r-2-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "daily schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-2"
+    },
+    "prompt": "この人は何時に家を出ますか。",
+    "context": "",
+    "options": [
+      "六時半",
+      "七時",
+      "八時",
+      "九時"
+    ],
+    "answerIndex": 2,
+    "explanation": "「八時に家を出て」: the writer leaves home at eight.",
+    "distractorExplanations": [
+      "6:30 is when the writer gets up.",
+      "7:00 is breakfast time.",
+      "(correct answer)",
+      "9:00 is when work starts."
+    ]
+  },
+  {
+    "id": "q-n5-r-2-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "daily schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-2"
+    },
+    "prompt": "この人はどうやって会社へ行きますか。",
+    "context": "",
+    "options": [
+      "バスで",
+      "電車で",
+      "車（くるま）で",
+      "歩（ある）いて"
+    ],
+    "answerIndex": 1,
+    "explanation": "「電車で会社へ行きます」: the writer goes to the office by train.",
+    "distractorExplanations": [
+      "No bus is mentioned.",
+      "(correct answer)",
+      "No car is mentioned.",
+      "The writer does not walk; the text says 電車で."
+    ]
+  },
+  {
+    "id": "q-n5-r-2-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "daily schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-2"
+    },
+    "prompt": "この人は夜、何をしますか。",
+    "context": "",
+    "options": [
+      "店で昼ごはんを食べます。",
+      "コーヒーを飲みます。",
+      "テレビを見ます。",
+      "友だちに会（あ）います。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「夜は七時ごろ家に帰って、テレビを見ます」: at night the writer goes home and watches TV.",
+    "distractorExplanations": [
+      "Lunch at the shop is during the day, not at night.",
+      "Coffee is drunk in the morning at seven.",
+      "(correct answer)",
+      "Meeting friends is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-3-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "shopping note",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-3"
+    },
+    "prompt": "牛乳はいくつ買いますか。",
+    "context": "",
+    "options": [
+      "一本",
+      "二本",
+      "三本",
+      "十本"
+    ],
+    "answerIndex": 1,
+    "explanation": "「牛乳を二本」: two bottles of milk.",
+    "distractorExplanations": [
+      "One is not stated.",
+      "(correct answer)",
+      "Three (三つ) is for apples.",
+      "Ten (十個) is for eggs."
+    ]
+  },
+  {
+    "id": "q-n5-r-3-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "shopping note",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-3"
+    },
+    "prompt": "お母さんは何を買わなくてもいいですか。",
+    "context": "",
+    "options": [
+      "たまご",
+      "りんご",
+      "肉",
+      "パン"
+    ],
+    "answerIndex": 2,
+    "explanation": "「肉は買わなくてもいいです。きのう買いました」: meat is not needed because it was bought yesterday.",
+    "distractorExplanations": [
+      "Eggs are on the list.",
+      "Apples are on the list.",
+      "(correct answer)",
+      "Bread is on the list."
+    ]
+  },
+  {
+    "id": "q-n5-r-3-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "shopping note",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-3"
+    },
+    "prompt": "お金はどこにありますか。",
+    "context": "",
+    "options": [
+      "スーパーに",
+      "テーブルの上に",
+      "かばんの中（なか）に",
+      "お母さんのへやに"
+    ],
+    "answerIndex": 1,
+    "explanation": "「お金はテーブルの上にあります」: the money is on the table.",
+    "distractorExplanations": [
+      "The supermarket is where to shop, not where the money is.",
+      "(correct answer)",
+      "No bag is mentioned.",
+      "No room is mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-4-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-4"
+    },
+    "prompt": "このはがきを書（か）いた人はだれですか。",
+    "context": "",
+    "options": [
+      "山田さん",
+      "中村さん",
+      "家族",
+      "北海道の人"
+    ],
+    "answerIndex": 1,
+    "explanation": "The postcard ends with the writer's name: 中村. 山田 is the receiver (山田さん、こんにちは).",
+    "distractorExplanations": [
+      "Yamada is the person receiving the postcard.",
+      "(correct answer)",
+      "The family travels with the writer but did not write it.",
+      "The writer is a visitor in Hokkaido."
+    ]
+  },
+  {
+    "id": "q-n5-r-4-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-4"
+    },
+    "prompt": "中村さんはきのう何をしましたか。",
+    "context": "",
+    "options": [
+      "山を見に行きました。",
+      "東京へ帰りました。",
+      "カニを食べました。",
+      "おみやげを買いました。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「きのうの晩、カニを食べました」: yesterday evening the writer ate crab.",
+    "distractorExplanations": [
+      "Seeing the mountains is tomorrow's plan (あした).",
+      "Returning to Tokyo is on Thursday.",
+      "(correct answer)",
+      "Buying souvenirs is a future plan (買って帰りますね)."
+    ]
+  },
+  {
+    "id": "q-n5-r-4-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-4"
+    },
+    "prompt": "北海道はどんな所（ところ）ですか。",
+    "context": "",
+    "options": [
+      "暑（あつ）くて、食べ物が高（たか）いです。",
+      "寒くて、食べ物がおいしいです。",
+      "暖（あたた）かくて、雪がありません。",
+      "寒くて、食べ物がまずいです。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「北海道はとても寒いです」and「でも、食べ物がおいしいです」: cold, but the food is delicious.",
+    "distractorExplanations": [
+      "The text says cold, not hot, and nothing about prices.",
+      "(correct answer)",
+      "Snow fell yesterday, so it is not warm.",
+      "The food is described as おいしい, not bad."
+    ]
+  },
+  {
+    "id": "q-n5-r-5-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-5"
+    },
+    "prompt": "いちばん安（やす）い飲（の）み物（もの）は何ですか。",
+    "context": "",
+    "options": [
+      "コーヒー",
+      "お茶",
+      "水",
+      "ラーメン"
+    ],
+    "answerIndex": 2,
+    "explanation": "「水はただです」: water is free, so it is the cheapest drink (tea is 200 yen, coffee 300 yen).",
+    "distractorExplanations": [
+      "Coffee is 300 yen.",
+      "Tea is 200 yen, but water is free.",
+      "(correct answer)",
+      "Ramen is food, not a drink."
+    ]
+  },
+  {
+    "id": "q-n5-r-5-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-5"
+    },
+    "prompt": "一時（いちじ）にラーメンとお茶を食べます。いくらですか。",
+    "context": "",
+    "options": [
+      "六百五十円",
+      "八百円",
+      "八百五十円",
+      "九百五十円"
+    ],
+    "answerIndex": 1,
+    "explanation": "At 1:00 the lunch set applies (11:00 to 2:00): ramen + tea = 800 yen as a set, cheaper than 650 + 200 = 850.",
+    "distractorExplanations": [
+      "650 yen is ramen alone.",
+      "(correct answer)",
+      "850 is the price without the set; at 1:00 the set price applies.",
+      "950 is curry plus coffee without the set."
+    ]
+  },
+  {
+    "id": "q-n5-r-5-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-5"
+    },
+    "prompt": "ランチセットは何時までですか。",
+    "context": "",
+    "options": [
+      "十一時",
+      "十二時",
+      "一時",
+      "二時"
+    ],
+    "answerIndex": 3,
+    "explanation": "「ランチセット（十一時から二時まで）」: the lunch set is until 2:00.",
+    "distractorExplanations": [
+      "11:00 is when the lunch set starts.",
+      "12:00 is not stated.",
+      "1:00 is not stated.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n5-r-6-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-6"
+    },
+    "prompt": "五月十日に何ができませんか。",
+    "context": "",
+    "options": [
+      "階段を使うこと",
+      "エレベーターを使うこと",
+      "事務所に行くこと",
+      "マンションに入（はい）ること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「エレベーターを使うことができません」: the elevator cannot be used on May 10.",
+    "distractorExplanations": [
+      "The stairs are what people should use instead.",
+      "(correct answer)",
+      "The office is open; people should go there the day before if needed.",
+      "Entering the building is not restricted."
+    ]
+  },
+  {
+    "id": "q-n5-r-6-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-6"
+    },
+    "prompt": "重い物がある人はどうしますか。",
+    "context": "",
+    "options": [
+      "五月十日に事務所に言います。",
+      "五月九日（ここのか）に事務所に言います。",
+      "エレベーターを使います。",
+      "午後三時まで待（ま）ちます。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「前の日に一階の事務所に言ってください」: tell the office the day before, i.e. May 9.",
+    "distractorExplanations": [
+      "The notice says the day before, not the same day.",
+      "(correct answer)",
+      "The elevator is unavailable.",
+      "Waiting is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-6-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-6"
+    },
+    "prompt": "エレベーターは何時から使うことができますか。",
+    "context": "",
+    "options": [
+      "午前九時",
+      "午後一時",
+      "午後三時",
+      "次（つぎ）の日の朝（あさ）"
+    ],
+    "answerIndex": 2,
+    "explanation": "The outage is 午前九時から午後三時まで, so from 3 p.m. it can be used again.",
+    "distractorExplanations": [
+      "9 a.m. is when the outage begins.",
+      "1 p.m. is during the outage.",
+      "(correct answer)",
+      "The outage ends at 3 p.m. the same day."
+    ]
+  },
+  {
+    "id": "q-n5-r-7-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-7"
+    },
+    "prompt": "木村さんは日曜日の午前、何をしますか。",
+    "context": "",
+    "options": [
+      "映画を見ます。",
+      "テニスをします。",
+      "田中さんに会います。",
+      "駅へ行きます。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「午前はテニスをします」: Kimura plays tennis in the morning.",
+    "distractorExplanations": [
+      "The movie is in the afternoon.",
+      "(correct answer)",
+      "Meeting Tanaka is at 3 p.m.",
+      "Going to the station is in the afternoon."
+    ]
+  },
+  {
+    "id": "q-n5-r-7-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-7"
+    },
+    "prompt": "二人（ふたり）は何時に会いますか。",
+    "context": "",
+    "options": [
+      "一時",
+      "二時",
+      "三時",
+      "四時"
+    ],
+    "answerIndex": 2,
+    "explanation": "Tanaka suggested 二時, Kimura said 二時はちょっと… and proposed 三時, and Tanaka agreed (三時ですね。わかりました).",
+    "distractorExplanations": [
+      "1:00 is never mentioned.",
+      "2:00 was the first suggestion, but Kimura could not make it.",
+      "(correct answer)",
+      "4:00 is never mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-7-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-7"
+    },
+    "prompt": "二人はどこで会いますか。",
+    "context": "",
+    "options": [
+      "映画館（えいがかん）",
+      "テニスコート",
+      "駅の前",
+      "木村さんの家"
+    ],
+    "answerIndex": 2,
+    "explanation": "「二時に駅の前はどうですか」and the closing「じゃ、駅の前で」: they meet in front of the station.",
+    "distractorExplanations": [
+      "They will go to the movie after meeting, but the meeting point is the station.",
+      "Tennis is Kimura's morning activity.",
+      "(correct answer)",
+      "No house is mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-8-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-8"
+    },
+    "prompt": "今日の天気はどうですか。",
+    "context": "",
+    "options": [
+      "晴れです。",
+      "雨です。",
+      "雪（ゆき）です。",
+      "くもりです。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「朝から雨が降っています」: it has been raining since morning.",
+    "distractorExplanations": [
+      "It clears up from Wednesday, not today.",
+      "(correct answer)",
+      "Snow is not mentioned.",
+      "Cloudy is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-8-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-8"
+    },
+    "prompt": "いつから晴れますか。",
+    "context": "",
+    "options": [
+      "火曜日（かようび）",
+      "水曜日",
+      "木曜日",
+      "土曜日"
+    ],
+    "answerIndex": 1,
+    "explanation": "「水曜日から晴れます」: it clears from Wednesday.",
+    "distractorExplanations": [
+      "Tuesday (あした) is still rainy.",
+      "(correct answer)",
+      "Thursday is sunny, but the sunny weather starts on Wednesday.",
+      "Saturday's weather is not yet known."
+    ]
+  },
+  {
+    "id": "q-n5-r-8-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-8"
+    },
+    "prompt": "土曜日の天気について、正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "雨が降ります。",
+      "とても暖かいです。",
+      "まだわかりません。",
+      "晴れます。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「土曜日はまだわかりません」: Saturday's weather is not yet known.",
+    "distractorExplanations": [
+      "Rain on Saturday is not stated.",
+      "Warm weather is for Thursday and Friday.",
+      "(correct answer)",
+      "The writer hopes for good weather (いい天気になってほしい), but it is not known."
+    ]
+  },
+  {
+    "id": "q-n5-r-9-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "family",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-9"
+    },
+    "prompt": "お母さんの仕事（しごと）は何ですか。",
+    "context": "",
+    "options": [
+      "銀行員（ぎんこういん）",
+      "先生",
+      "大学生",
+      "医者（いしゃ）"
+    ],
+    "answerIndex": 1,
+    "explanation": "「母は先生です。小学校で英語を教えています」: the mother is an elementary-school English teacher.",
+    "distractorExplanations": [
+      "The father works at a bank.",
+      "(correct answer)",
+      "The older brother is a university student.",
+      "No doctor is mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-9-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "family",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-9"
+    },
+    "prompt": "東京に住んでいるのはだれですか。",
+    "context": "",
+    "options": [
+      "父",
+      "母",
+      "兄",
+      "妹"
+    ],
+    "answerIndex": 2,
+    "explanation": "「兄は大学生で、東京に住んでいます」: the older brother lives in Tokyo.",
+    "distractorExplanations": [
+      "The father works at a bank; his location is not given.",
+      "The mother teaches at an elementary school.",
+      "(correct answer)",
+      "The younger sister is ten and likes dogs."
+    ]
+  },
+  {
+    "id": "q-n5-r-9-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "family",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-9"
+    },
+    "prompt": "この家族について、正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "家族は四人です。",
+      "犬を二匹飼っています。",
+      "妹は犬が好きです。",
+      "日曜日は父だけ公園へ行きます。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「妹は十歳で、犬が好きです」: the younger sister likes dogs.",
+    "distractorExplanations": [
+      "The family is five people (五人).",
+      "They keep one dog (一匹).",
+      "(correct answer)",
+      "Everyone (みんなで) goes to the park on Sunday."
+    ]
+  },
+  {
+    "id": "q-n5-r-10-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-10"
+    },
+    "prompt": "火曜日の一時間目は何ですか。",
+    "context": "",
+    "options": [
+      "文法",
+      "漢字",
+      "会話",
+      "読む練習"
+    ],
+    "answerIndex": 1,
+    "explanation": "Period 1: 火・木＝漢字, so Tuesday first period is kanji.",
+    "distractorExplanations": [
+      "Grammar is Mon/Wed/Fri in period 1.",
+      "(correct answer)",
+      "Conversation is period 2 every day.",
+      "Reading practice is Wed/Fri in period 3."
+    ]
+  },
+  {
+    "id": "q-n5-r-10-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-10"
+    },
+    "prompt": "会話のクラスは何時に始（はじ）まりますか。",
+    "context": "",
+    "options": [
+      "九時",
+      "十時",
+      "十時五十分",
+      "十一時十分"
+    ],
+    "answerIndex": 1,
+    "explanation": "「二時間目（十時〜十時五十分）：毎日＝会話」: conversation starts at 10:00 every day.",
+    "distractorExplanations": [
+      "9:00 is period 1.",
+      "(correct answer)",
+      "10:50 is when period 2 ends and the break starts.",
+      "11:10 is when period 3 starts."
+    ]
+  },
+  {
+    "id": "q-n5-r-10-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-10"
+    },
+    "prompt": "水曜日の三時間目は何ですか。",
+    "context": "",
+    "options": [
+      "漢字",
+      "聞く練習",
+      "読む練習",
+      "テスト"
+    ],
+    "answerIndex": 2,
+    "explanation": "Period 3: 水・金＝読む練習, so Wednesday period 3 is reading practice.",
+    "distractorExplanations": [
+      "Kanji is Tue/Thu period 1.",
+      "Listening practice is Mon/Tue/Thu.",
+      "(correct answer)",
+      "Tests may be on Friday, not Wednesday."
+    ]
+  },
+  {
+    "id": "q-n4-r-5-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email to teacher",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-5"
+    },
+    "prompt": "アンナさんはどうしてあしたの授業を休みたいですか。",
+    "context": "",
+    "options": [
+      "旅行に行くから",
+      "熱があるから",
+      "テストを受けたくないから",
+      "宿題をしていないから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「きのうから熱があって、今朝病院へ行きました」: she has had a fever since yesterday.",
+    "distractorExplanations": [
+      "No trip is mentioned.",
+      "(correct answer)",
+      "She wants to take the test next week, not avoid it.",
+      "She promises to hand the homework in on Monday; that is not the reason for absence."
+    ]
+  },
+  {
+    "id": "q-n4-r-5-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email to teacher",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-5"
+    },
+    "prompt": "アンナさんは先生に何を頼（たの）んでいますか。",
+    "context": "",
+    "options": [
+      "宿題を出さなくてもいいこと",
+      "病院に一緒に行くこと",
+      "テストを来週受けること",
+      "授業を二日休むこと"
+    ],
+    "answerIndex": 2,
+    "explanation": "「来週受けることができますか」: she asks whether she can take the kanji test next week.",
+    "distractorExplanations": [
+      "She says she WILL hand in the homework on Monday.",
+      "She already went to the hospital this morning.",
+      "(correct answer)",
+      "The doctor advised two days of rest, but the email only asks about tomorrow's class and the test."
+    ]
+  },
+  {
+    "id": "q-n4-r-5-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email to teacher",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-5"
+    },
+    "prompt": "宿題について、正しいのはどれですか。",
+    "context": "",
+    "options": [
+      "先生に聞いてからする。",
+      "来週の月曜日に出す。",
+      "もう出した。",
+      "しなくてもいい。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「宿題は、友だちに聞いて、来週の月曜日に出します」: she will ask a friend and submit it next Monday.",
+    "distractorExplanations": [
+      "She will ask a friend, not the teacher.",
+      "(correct answer)",
+      "It has not been submitted yet.",
+      "She does intend to do it."
+    ]
+  },
+  {
+    "id": "q-n4-r-6-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "apartment notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-6"
+    },
+    "prompt": "工事の前に、住んでいる人は何をしておかなければなりませんか。",
+    "context": "",
+    "options": [
+      "トイレを掃除（そうじ）する",
+      "飲み水を用意する",
+      "管理室に電話する",
+      "水道を止める"
+    ],
+    "answerIndex": 1,
+    "explanation": "「工事の前に、飲み水などを用意しておいてください」: prepare drinking water before the work.",
+    "distractorExplanations": [
+      "Cleaning the toilet is not requested.",
+      "(correct answer)",
+      "Calling the office is only for questions.",
+      "Residents are not asked to stop the water themselves."
+    ]
+  },
+  {
+    "id": "q-n4-r-6-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "apartment notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-6"
+    },
+    "prompt": "工事のあと、水が茶色だったらどうしますか。",
+    "context": "",
+    "options": [
+      "管理室に電話する",
+      "次の日まで待つ",
+      "二、三分流してから使う",
+      "飲まないで捨（す）てる"
+    ],
+    "answerIndex": 2,
+    "explanation": "「二、三分流してから使ってください」: run the water for two or three minutes, then use it.",
+    "distractorExplanations": [
+      "The phone number is for questions, not for brown water.",
+      "Waiting a day is not mentioned.",
+      "(correct answer)",
+      "Throwing it away is not the instruction; running it briefly is."
+    ]
+  },
+  {
+    "id": "q-n4-r-6-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "apartment notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-6"
+    },
+    "prompt": "六月十五日に雨が降ったら、工事はいつになりますか。",
+    "context": "",
+    "options": [
+      "六月十五日の午後",
+      "六月十六日の午前十時から",
+      "六月二十二日の同じ時間",
+      "中止（ちゅうし）になる"
+    ],
+    "answerIndex": 1,
+    "explanation": "「雨の場合は、次の日の同じ時間に行います」: the next day, June 16, at the same time (10 a.m. to 4 p.m.).",
+    "distractorExplanations": [
+      "The same afternoon is not an option given.",
+      "(correct answer)",
+      "Next week is not stated; it is the next day.",
+      "It is postponed, not cancelled."
+    ]
+  },
+  {
+    "id": "q-n4-r-7-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-7"
+    },
+    "prompt": "卵はどのように入れますか。",
+    "context": "",
+    "options": [
+      "全部（ぜんぶ）一度に入れる",
+      "三回に分けて入れる",
+      "二回に分けて入れる",
+      "一個ずつ入れる"
+    ],
+    "answerIndex": 1,
+    "explanation": "Step 3 adds one third (三分の一), and step 4 adds the rest in halves (半分ずつ), so the egg goes in three times.",
+    "distractorExplanations": [
+      "The egg is added in parts, not all at once.",
+      "(correct answer)",
+      "One third plus two halves of the rest makes three additions.",
+      "The eggs are mixed together first, so they are not added one by one."
+    ]
+  },
+  {
+    "id": "q-n4-r-7-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-7"
+    },
+    "prompt": "卵を巻いたあと、すぐに何をしますか。",
+    "context": "",
+    "options": [
+      "切る",
+      "火を止めて少し待つ",
+      "さとうを入れる",
+      "油を足（た）す"
+    ],
+    "answerIndex": 1,
+    "explanation": "Step 5: 「火を止めて、二分ぐらい待ってから切ります」: turn off the heat and wait about two minutes before cutting.",
+    "distractorExplanations": [
+      "Cutting comes after waiting two minutes.",
+      "(correct answer)",
+      "Sugar was added in step 1.",
+      "No extra oil is added."
+    ]
+  },
+  {
+    "id": "q-n4-r-7-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-7"
+    },
+    "prompt": "火が強すぎると、どうなりますか。",
+    "context": "",
+    "options": [
+      "卵が固まらない",
+      "外が黒くなって中が生になる",
+      "卵が小さくなる",
+      "味（あじ）が甘（あま）くなる"
+    ],
+    "answerIndex": 1,
+    "explanation": "「火が強すぎると、外が黒くなって中が生のままになります」: the outside burns and the inside stays raw.",
+    "distractorExplanations": [
+      "The problem is the opposite: the outside sets too fast.",
+      "(correct answer)",
+      "Size is not mentioned.",
+      "Taste is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-8-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "travel plan",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-8"
+    },
+    "prompt": "一日目の夜、二人はどこへ行くつもりですか。",
+    "context": "",
+    "options": [
+      "清水寺",
+      "おみやげの店",
+      "ラーメン屋",
+      "美術館"
+    ],
+    "answerIndex": 2,
+    "explanation": "「夜は田中さんが行きたいと言っていたラーメン屋へ行くつもりです」: the ramen shop at night.",
+    "distractorExplanations": [
+      "The temple is in the morning after arrival.",
+      "The souvenir shops are in the afternoon.",
+      "(correct answer)",
+      "The museum is only a rainy-day option for day 2."
+    ]
+  },
+  {
+    "id": "q-n4-r-8-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "travel plan",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-8"
+    },
+    "prompt": "湯豆腐を食べたいと言ったのはだれですか。",
+    "context": "",
+    "options": [
+      "田中さん",
+      "この文を書いた人",
+      "二人とも",
+      "ホテルの人"
+    ],
+    "answerIndex": 1,
+    "explanation": "「私が前から食べてみたかった京都の湯豆腐です」: the writer has wanted to try it.",
+    "distractorExplanations": [
+      "Tanaka wanted the ramen shop, not the tofu.",
+      "(correct answer)",
+      "Only the writer's wish is mentioned.",
+      "No hotel staff are involved."
+    ]
+  },
+  {
+    "id": "q-n4-r-8-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "travel plan",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-8"
+    },
+    "prompt": "二日目に雨が降ったら、どうしますか。",
+    "context": "",
+    "options": [
+      "京都に泊（と）まる日を増（ふ）やす",
+      "午前中に美術館へ行く",
+      "自転車で川のそばを走る",
+      "早い新幹線で帰る"
+    ],
+    "answerIndex": 1,
+    "explanation": "「天気が悪かったら、二日目は自転車ではなく、美術館へ行くことにしました」: they replace cycling with the art museum.",
+    "distractorExplanations": [
+      "Extending the stay is not mentioned.",
+      "(correct answer)",
+      "Cycling is the plan for GOOD weather.",
+      "The return train stays at three o'clock."
+    ]
+  },
+  {
+    "id": "q-n4-r-9-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-9"
+    },
+    "prompt": "料理教室にはどんな人がいましたか。",
+    "context": "",
+    "options": [
+      "生徒は全員（ぜんいん）外国人だった。",
+      "先生は若い男の人だった。",
+      "生徒は八人で、外国人が二人いた。",
+      "生徒は二人だけだった。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「生徒は八人で、私のほかに外国人が二人いた」: eight students, two of them foreigners besides the writer.",
+    "distractorExplanations": [
+      "Only two of the eight were foreigners.",
+      "The teacher was a woman of about fifty.",
+      "(correct answer)",
+      "There were eight students."
+    ]
+  },
+  {
+    "id": "q-n4-r-9-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-9"
+    },
+    "prompt": "先生は「私」に何と言いましたか。",
+    "context": "",
+    "options": [
+      "カレーは簡単だ。",
+      "玉ねぎをもっとゆっくり炒めなさい。",
+      "サラダを先に作りなさい。",
+      "家で練習しなさい。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「先生に『玉ねぎはもっとゆっくり炒めなさい』と三回も言われた」: stir-fry the onions more slowly.",
+    "distractorExplanations": [
+      "Thinking curry was easy was the writer's own idea.",
+      "(correct answer)",
+      "No instruction about salad order is given.",
+      "Practicing at home is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-9-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-9"
+    },
+    "prompt": "「私」は来月何をしますか。",
+    "context": "",
+    "options": [
+      "一人で料理教室に行く。",
+      "ルーカスさんと料理教室に行く。",
+      "ブラジルへ行く。",
+      "先生の家でカレーを作る。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「来月も一緒に行く約束をした」: the writer promised to go together with Lucas next month.",
+    "distractorExplanations": [
+      "The plan is to go together, not alone.",
+      "(correct answer)",
+      "Lucas is Brazilian, but no trip to Brazil is mentioned.",
+      "The teacher's house is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-10-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-10"
+    },
+    "prompt": "この人はコーヒーについてどう思いましたか。",
+    "context": "",
+    "options": [
+      "おいしくなかった。",
+      "おいしかったが、少し高い。",
+      "安くておいしかった。",
+      "甘すぎた。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「コーヒーはおいしかったですが、五百円は少し高いと思います」: tasty but a little expensive.",
+    "distractorExplanations": [
+      "The coffee was described as おいしかった.",
+      "(correct answer)",
+      "Five hundred yen was called a little high, not cheap.",
+      "甘すぎなくて refers to the cheesecake, and it was NOT too sweet."
+    ]
+  },
+  {
+    "id": "q-n4-r-10-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-10"
+    },
+    "prompt": "この人はどうして二十分ぐらい待ちましたか。",
+    "context": "",
+    "options": [
+      "店員が少なかったから",
+      "ケーキを作るのに時間がかかったから",
+      "日曜日の午後で店が混（こ）んでいたから",
+      "店が開（あ）く前に行ったから"
+    ],
+    "answerIndex": 2,
+    "explanation": "「日曜日の午後だったので、席が空くまで二十分ぐらい待ちました」: it was a Sunday afternoon and seats were full.",
+    "distractorExplanations": [
+      "Staff were described as kind; their number is not mentioned.",
+      "Cake preparation time is not mentioned.",
+      "(correct answer)",
+      "The shop was open; the wait was for a seat."
+    ]
+  },
+  {
+    "id": "q-n4-r-10-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-10"
+    },
+    "prompt": "この人はどんな人にこのカフェをすすめていますか。",
+    "context": "",
+    "options": [
+      "安いコーヒーを探（さが）している人",
+      "日曜日に友だちと大勢（おおぜい）で行きたい人",
+      "静かに本を読みたい人",
+      "ケーキをたくさん食べたい人"
+    ],
+    "answerIndex": 2,
+    "explanation": "「静かな時間に本を読みに行きたい人におすすめです」: recommended for people who want to read quietly, ideally on a weekday.",
+    "distractorExplanations": [
+      "The coffee was called a little expensive.",
+      "Sunday afternoon was crowded; the writer suggests weekdays.",
+      "(correct answer)",
+      "Only three cake types exist and quantity is not the point."
+    ]
+  },
+  {
+    "id": "q-n4-r-11-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "event poster",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-11"
+    },
+    "prompt": "スピーチ大会に出たい人はどうしますか。",
+    "context": "",
+    "options": [
+      "当日、公園の入口で申し込む。",
+      "九月三十日までに市役所に申し込む。",
+      "十月十二日の一時に市役所へ行く。",
+      "国際課に電話して聞くだけでいい。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「出る人は九月三十日までに市役所に申し込み」: apply to city hall by September 30.",
+    "distractorExplanations": [
+      "The park entrance is where FOOD tickets are sold.",
+      "(correct answer)",
+      "The contest is at the park, and application must be earlier.",
+      "Phone is for inquiries; application is still required."
+    ]
+  },
+  {
+    "id": "q-n4-r-11-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "event poster",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-11"
+    },
+    "prompt": "午後四時に公園に着いた人ができることはどれですか。",
+    "context": "",
+    "options": [
+      "世界の料理を食べる",
+      "ステージを見る",
+      "スピーチ大会に出る",
+      "子どもコーナーで折り紙をする"
+    ],
+    "answerIndex": 3,
+    "explanation": "The children's corner runs 一日中 (all day, until 5 p.m.). Food ends at 3, the stage at 4, and the speech contest at 2:30.",
+    "distractorExplanations": [
+      "Food corner ends at 3 p.m.",
+      "The stage ends at 4 p.m., so nothing is left to see.",
+      "The speech contest ended at 2:30.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n4-r-11-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "event poster",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-11"
+    },
+    "prompt": "このポスターの内容（ないよう）と合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "雨が降ったら中止になる。",
+      "入場に三百円かかる。",
+      "車で行くことはできない。",
+      "料理のチケットは市役所で買う。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「駐車場はありません。電車かバスでお越しください」: there is no parking, so people should not come by car.",
+    "distractorExplanations": [
+      "雨天決行 means it is held even in rain.",
+      "Admission is free; 300 yen is per plate of food.",
+      "(correct answer)",
+      "Food tickets are sold at the park entrance."
+    ]
+  },
+  {
+    "id": "q-n4-r-12-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "phone message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-12"
+    },
+    "prompt": "鈴木さんはどうしてあしたの打ち合わせに行けませんか。",
+    "context": "",
+    "options": [
+      "病気になったから",
+      "大阪へ出張することになったから",
+      "資料ができていないから",
+      "木村さんが忙しいから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「急に大阪へ出張することになりまして、行けなくなってしまいました」: a sudden business trip to Osaka.",
+    "distractorExplanations": [
+      "Illness is not mentioned.",
+      "(correct answer)",
+      "The documents are already finished.",
+      "Kimura's schedule is not the issue."
+    ]
+  },
+  {
+    "id": "q-n4-r-12-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "phone message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-12"
+    },
+    "prompt": "鈴木さんは打ち合わせをいつに変えてほしいと言っていますか。",
+    "context": "",
+    "options": [
+      "木曜日の午前中か金曜日の午後",
+      "木曜日の午後二時か金曜日の午前中",
+      "来週の月曜日",
+      "今日の午後"
+    ],
+    "answerIndex": 1,
+    "explanation": "「木曜日の同じ時間か、金曜日の午前中」: the same time (2 p.m.) on Thursday, or Friday morning.",
+    "distractorExplanations": [
+      "The times are reversed here.",
+      "(correct answer)",
+      "Next week is not mentioned.",
+      "Today is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-12-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "phone message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-12"
+    },
+    "prompt": "木村さんはこのメッセージを聞いたあと、何をしますか。",
+    "context": "",
+    "options": [
+      "鈴木さんの携帯に電話する。",
+      "資料を作ってメールで送る。",
+      "大阪の会社に電話する。",
+      "あした二時に会社で待つ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "「このメッセージを聞いたら、私の携帯に電話をください」: call Suzuki's mobile phone.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Suzuki will send the documents, not Kimura.",
+      "No Osaka company number is given.",
+      "The 2 p.m. meeting tomorrow is cancelled."
+    ]
+  },
+  {
+    "id": "q-n3-r-9-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-9"
+    },
+    "prompt": "田村さんが新入社員に一番してほしいことは何か。",
+    "context": "",
+    "options": [
+      "失敗をしないこと",
+      "失敗をすぐに報告すること",
+      "一人で問題を解決すること",
+      "名刺の渡し方を覚えること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「一番してほしいのは、失敗しないことではなく、失敗をすぐに報告することです」: the priority is reporting mistakes quickly.",
+    "distractorExplanations": [
+      "Tamura explicitly says NOT this (失敗しないことではなく).",
+      "(correct answer)",
+      "Trying to fix things alone is described as the problem.",
+      "Business-card etiquette was part of training, not Tamura's main message."
+    ]
+  },
+  {
+    "id": "q-n3-r-9-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-9"
+    },
+    "prompt": "「あまりぴんとこなかった」とあるが、どういう意味か。",
+    "context": "",
+    "options": [
+      "よく理解できて、賛成した。",
+      "言葉の意味がよく実感できなかった。",
+      "話が長くて、聞いていなかった。",
+      "田村さんの言葉に反対だった。"
+    ],
+    "answerIndex": 1,
+    "explanation": "ぴんとこない means the idea did not feel real or click. The writer only understood it after the ordering mistake.",
+    "distractorExplanations": [
+      "The writer did not fully feel its meaning at the time.",
+      "(correct answer)",
+      "The writer was listening; the words are quoted precisely.",
+      "There is no disagreement, only a lack of real understanding."
+    ]
+  },
+  {
+    "id": "q-n3-r-9-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-9"
+    },
+    "prompt": "先月の失敗のあと、どうなったか。",
+    "context": "",
+    "options": [
+      "先輩に怒られて、商品が届いてから直した。",
+      "先輩が取引先に電話をして、その日のうちに直った。",
+      "筆者が黙っていたので大騒ぎになった。",
+      "取引先が注文を取り消した。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「先輩は怒らずに、取引先に電話をして、その日のうちに直してくれた」: the senior fixed it the same day without anger.",
+    "distractorExplanations": [
+      "The senior did NOT get angry, and it was fixed before delivery.",
+      "(correct answer)",
+      "The writer spoke up immediately; the big fuss is a hypothetical.",
+      "Cancellation is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n3-r-9-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-9"
+    },
+    "prompt": "筆者が今、一番言いたいことは何か。",
+    "context": "",
+    "options": [
+      "新人は失敗しても仕方がないので、気にしなくていい。",
+      "失敗より、失敗を報告しないことのほうが恥ずかしい。",
+      "研修は覚えることが多すぎて役に立たない。",
+      "先輩は新人の失敗を怒るべきではない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The final paragraph: 「報告しないことのほうがずっと恥ずかしいと、今は思っている」.",
+    "distractorExplanations": [
+      "The writer still finds mistakes embarrassing; the point is to report them.",
+      "(correct answer)",
+      "The training produced the words the writer values most.",
+      "The senior's calm reaction is appreciated, but the writer makes no rule about seniors."
+    ]
+  },
+  {
+    "id": "q-n3-r-10-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-10"
+    },
+    "prompt": "質のいい睡眠の条件として、本文に書かれていないものはどれか。",
+    "context": "",
+    "options": [
+      "布団に入ってから三十分以内に眠れる。",
+      "途中で目が覚めない。",
+      "朝、よく寝たと感じられる。",
+      "毎日八時間以上寝る。"
+    ],
+    "answerIndex": 3,
+    "explanation": "The three conditions are falling asleep within 30 minutes, not waking mid-sleep, and feeling rested. Eight hours is about quantity, which the text says is not enough by itself.",
+    "distractorExplanations": [
+      "This is condition one.",
+      "This is condition two.",
+      "This is condition three.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n3-r-10-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-10"
+    },
+    "prompt": "寝る前のスマートフォンがよくないのはなぜか。",
+    "context": "",
+    "options": [
+      "目が疲れて、次の日に頭が痛くなるから。",
+      "画面の光で脳が昼だと思い、眠くなるホルモンが弱くなるから。",
+      "メッセージが気になって、途中で起きてしまうから。",
+      "時間を忘れて、寝るのが遅くなるから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「画面の光が脳を昼だと勘違いさせ、眠くなるホルモンの働きを弱くしてしまう」.",
+    "distractorExplanations": [
+      "Eye strain and headaches are not mentioned.",
+      "(correct answer)",
+      "Message anxiety is not the stated mechanism.",
+      "Staying up late is not the reason given; the light itself is."
+    ]
+  },
+  {
+    "id": "q-n3-r-10-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-10"
+    },
+    "prompt": "筆者は、夜の習慣を変えるのが難しい人に何をすすめているか。",
+    "context": "",
+    "options": [
+      "夕方以降にコーヒーを飲まないこと",
+      "朝起きたらすぐに太陽の光を浴びること",
+      "寝る直前に軽い食事をとること",
+      "週末に長く寝て睡眠を取り戻すこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「まず朝から始めてみてはどうだろうか」refers to opening the curtains and getting morning sunlight.",
+    "distractorExplanations": [
+      "Avoiding evening coffee is listed as a night-time habit, which the target reader finds hard to change.",
+      "(correct answer)",
+      "Eating just before bed is described as bad.",
+      "Catch-up sleep on weekends is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n3-r-11-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-11"
+    },
+    "prompt": "行政が高齢者全員を訪問するのが現実的でないのはなぜか。",
+    "context": "",
+    "options": [
+      "高齢者が訪問を嫌がるから。",
+      "人手も費用も足りないから。",
+      "一人暮らしの人がどこにいるかわからないから。",
+      "配達員のほうが訪問に慣れているから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「人手の面でも費用の面でも現実的ではない」: not realistic in terms of manpower or cost.",
+    "distractorExplanations": [
+      "Reluctance of the elderly is discussed later, about surveillance, not about visits.",
+      "(correct answer)",
+      "Location is not the stated problem.",
+      "Delivery workers are used for their existing routes, not their skill at visiting."
+    ]
+  },
+  {
+    "id": "q-n3-r-11-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-11"
+    },
+    "prompt": "「もともと家を回っている人の目を借りる」とはどういうことか。",
+    "context": "",
+    "options": [
+      "新しく見守りの担当者を雇って各家庭を回らせる。",
+      "配達などで毎日家を訪れる人に、変化があれば連絡してもらう。",
+      "高齢者に、近所の家を見て回ってもらう。",
+      "市の職員が配達員の代わりに新聞を配る。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The city asks newspaper deliverers, meter readers and couriers, who already visit homes, to report signs of trouble.",
+    "distractorExplanations": [
+      "The text says 特別な人を雇うのではなく: no new hires.",
+      "(correct answer)",
+      "The elderly are the ones being watched over, not the watchers.",
+      "City staff do not take over deliveries."
+    ]
+  },
+  {
+    "id": "q-n3-r-11-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-11"
+    },
+    "prompt": "この仕組みのいいところとして筆者が挙げているのは何か。",
+    "context": "",
+    "options": [
+      "費用が全くかからないこと。",
+      "見守られる側が負担を感じにくいこと。",
+      "孤独死が完全になくなること。",
+      "個人情報を扱わなくてすむこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「この仕組みのいいところは、見守られる側が負担を感じにくいことだ」.",
+    "distractorExplanations": [
+      "Cost is lower, but 'no cost at all' is not claimed.",
+      "(correct answer)",
+      "The writer says this does not solve everything.",
+      "Handling personal data remains an issue (課題は残る)."
+    ]
+  },
+  {
+    "id": "q-n3-r-11-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-11"
+    },
+    "prompt": "筆者の考えに最も近いものはどれか。",
+    "context": "",
+    "options": [
+      "高齢者の問題は特別な仕組みを作らなければ解決しない。",
+      "普通の活動を少し広げるやり方は、ほかの問題にも応用できる。",
+      "配達員に見守りを頼むのは負担が大きいのでやめるべきだ。",
+      "課題が多いので、この仕組みは長く続かないだろう。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Final sentence: 「この発想は、高齢者の問題に限らず役に立つのではないだろうか」.",
+    "distractorExplanations": [
+      "The writer prefers extending ordinary things to creating special ones.",
+      "(correct answer)",
+      "The burden on couriers is not raised as a reason to stop.",
+      "The writer argues the opposite: ordinary extensions last longer."
+    ]
+  },
+  {
+    "id": "q-n3-r-12-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "culture",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-12"
+    },
+    "prompt": "筆者が友人の質問にうまく答えられなかったのはなぜか。",
+    "context": "",
+    "options": [
+      "桜の歴史を知らなかったから。",
+      "花見の席で桜を静かに見る人は少なく、友人の指摘が当たっていたから。",
+      "友人が日本語をあまり理解しなかったから。",
+      "筆者は花見が嫌いだったから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「確かに、花見の席で桜をじっと眺めている人はあまりいない」: the writer admits the friend's observation is correct.",
+    "distractorExplanations": [
+      "The history was looked up later, but the immediate problem was that the observation was valid.",
+      "(correct answer)",
+      "Language is not an issue.",
+      "No dislike is expressed."
+    ]
+  },
+  {
+    "id": "q-n3-r-12-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "culture",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-12"
+    },
+    "prompt": "花見の歴史について、本文の内容と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "奈良時代には庶民が桜を見ながら踊っていた。",
+      "平安時代に見る花が梅から桜に変わった。",
+      "江戸時代に貴族が初めて花見を始めた。",
+      "花見が一般に広がったのは奈良時代である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「それが平安時代に桜に変わり」: the flower changed from plum to cherry in the Heian period.",
+    "distractorExplanations": [
+      "In the Nara period it was aristocrats and plum blossoms.",
+      "(correct answer)",
+      "Aristocrats began it in the Nara period; Edo is when commoners joined.",
+      "It spread to commoners in the Edo period."
+    ]
+  },
+  {
+    "id": "q-n3-r-12-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "culture",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-12"
+    },
+    "prompt": "筆者によると、桜がすぐ散ることは花見にどう関係しているか。",
+    "context": "",
+    "options": [
+      "散る前に急いで見るので、静かに見る時間がない。",
+      "短い期間だからこそ、日を決めて集まろうという気持ちが強くなる。",
+      "散った花を片づけるために人が集まる。",
+      "咲く期間が短いので、花見をする人が減っている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「この短さが、『今のうちに集まろう』という気持ちを強くするのだろう」.",
+    "distractorExplanations": [
+      "Quiet viewing is not the point; gathering is.",
+      "(correct answer)",
+      "Cleaning up is not mentioned.",
+      "No decline is mentioned."
+    ]
+  },
+  {
+    "id": "q-n3-r-12-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "culture",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-12"
+    },
+    "prompt": "「花は理由ではなく、きっかけなんだね」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "人々は花を見るためではなく、集まるために花を利用している。",
+      "桜がなければ花見はできない。",
+      "花見の本当の目的は桜を研究することだ。",
+      "桜は宴会の理由として十分ではない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The flowers are the occasion (きっかけ) that brings people together; the gathering itself is the point.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The remark is about purpose, not about the necessity of the flowers.",
+      "Study is not mentioned.",
+      "The friend is explaining the custom, not criticizing it."
+    ]
+  },
+  {
+    "id": "q-n3-r-13-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-13"
+    },
+    "prompt": "筆者は翻訳アプリについてどう考えているか。",
+    "context": "",
+    "options": [
+      "精度が低いので、旅行でも役に立たない。",
+      "便利になるほど、外国語を学ぶ価値はかえって上がる。",
+      "翻訳アプリがあれば外国語を学ぶ必要はない。",
+      "海外では使わないほうがいい。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「翻訳アプリが便利になるほど、むしろ外国語を学ぶ価値は上がると考えている」.",
+    "distractorExplanations": [
+      "The writer says the app helped many times.",
+      "(correct answer)",
+      "This is the view the writer argues against.",
+      "No such advice is given."
+    ]
+  },
+  {
+    "id": "q-n3-r-13-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-13"
+    },
+    "prompt": "「関係」は訳せないとはどういうことか。",
+    "context": "",
+    "options": [
+      "アプリは家族や友人の名前を正しく訳せない。",
+      "アプリは意味は伝えても、相手の気持ちや場の空気は伝えられない。",
+      "アプリは長い文になると意味を間違える。",
+      "アプリは敬語を正しく訳せない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The examples (joking, holding back, suppressing anger) are about the emotional atmosphere, which only direct exchange can convey.",
+    "distractorExplanations": [
+      "Names are not the issue.",
+      "(correct answer)",
+      "Sentence length is not discussed.",
+      "Keigo is not discussed."
+    ]
+  },
+  {
+    "id": "q-n3-r-13-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-13"
+    },
+    "prompt": "「もったいない」の例は何を説明するために挙げられているか。",
+    "context": "",
+    "options": [
+      "日本語が英語より優れていること。",
+      "別の言語を学ぶと、別の世界の見方を知ることができること。",
+      "翻訳アプリが日本語を訳せないこと。",
+      "英語を学ぶのは難しいこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「別の言語には別の世界の切り取り方がある…それを知ること自体が、自分の考え方を広げてくれる」.",
+    "distractorExplanations": [
+      "No claim of superiority is made.",
+      "(correct answer)",
+      "The point is about concepts, not app failure.",
+      "Difficulty is not the point."
+    ]
+  },
+  {
+    "id": "q-n3-r-13-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-13"
+    },
+    "prompt": "筆者が最も言いたいことはどれか。",
+    "context": "",
+    "options": [
+      "翻訳アプリは困らないためには優秀だが、わかり合うためには人間の力が必要だ。",
+      "翻訳アプリの精度はまだ低く、信頼できない。",
+      "外国語学習は楽しいので、誰もが学ぶべきだ。",
+      "旅行では翻訳アプリを使い、仕事では使わないほうがいい。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Final paragraph: the app is excellent 「困らないため」, but the tool for mutual understanding exists only in humans.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The writer acknowledges the accuracy has risen.",
+      "Enjoyment is not the argument.",
+      "No such distinction is made."
+    ]
+  },
+  {
+    "id": "q-n3-r-14-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-14"
+    },
+    "prompt": "筆者が新人のころ、お知らせを書くときに一番大切にしていたことは何か。",
+    "context": "",
+    "options": [
+      "字を大きくすること",
+      "正確であること",
+      "短く書くこと",
+      "読む人の立場で考えること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「入ったばかりのころ、私は正確であることを何より大事にしていた」.",
+    "distractorExplanations": [
+      "Larger letters came later.",
+      "(correct answer)",
+      "Short sentences came after the turning point.",
+      "Reader-perspective thinking came after the turning point."
+    ]
+  },
+  {
+    "id": "q-n3-r-14-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-14"
+    },
+    "prompt": "先輩の言葉を聞いて、筆者は何に気づいたか。",
+    "context": "",
+    "options": [
+      "上司にほめられるためだけに書いていたこと。",
+      "細かく書いていたのは自分を守るためだったこと。",
+      "住民は法律の言葉を理解できないこと。",
+      "お知らせは読まれていないこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「私が細かく書いていたのは…つまり自分を守るためだったのだ」.",
+    "distractorExplanations": [
+      "Praise from the boss was received, but self-protection is the stated realization.",
+      "(correct answer)",
+      "This is a symptom, not the realization.",
+      "The realization concerns motive, not readership."
+    ]
+  },
+  {
+    "id": "q-n3-r-14-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-14"
+    },
+    "prompt": "情報を削った結果、どうなったか。",
+    "context": "",
+    "options": [
+      "問い合わせが増えた。",
+      "窓口に来る人が減った。",
+      "上司に注意された。",
+      "期限を間違える人が増えた。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「実際には逆で、窓口に来る人はむしろ減った」.",
+    "distractorExplanations": [
+      "This was the fear, not the result.",
+      "(correct answer)",
+      "Not mentioned.",
+      "This happened under the OLD approach."
+    ]
+  },
+  {
+    "id": "q-n3-r-14-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-14"
+    },
+    "prompt": "筆者が言う「伝わる」とはどういうことか。",
+    "context": "",
+    "options": [
+      "相手が理解し、次に何をすればいいか分かる状態になること。",
+      "必要な情報を漏（も）れなく紙に書くこと。",
+      "上司が間違いがないと認めること。",
+      "相手に紙を渡すこと。"
+    ],
+    "answerIndex": 0,
+    "explanation": "「『伝わる』は、相手の中で起きることだ」, and the senior's remark: readers should know what to do next.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "This is the old 'accurate but unread' approach, i.e. 伝える.",
+      "Approval from a boss is irrelevant to the reader.",
+      "Handing over paper is an act on the writer's side, i.e. 伝える."
+    ]
+  },
+  {
+    "id": "q-n3-r-15-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-15"
+    },
+    "prompt": "AとBに共通している考えはどれか。",
+    "context": "",
+    "options": [
+      "残業は必要なので、なくすべきではない。",
+      "長く働けば成果が上がるわけではない。",
+      "会社は午後七時に消灯するべきだ。",
+      "仕事の量が多すぎるのが一番の問題だ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A: 「長く働けば成果が上がるというのは思い込み」. B: 「長時間働くこと自体をよいとは思わない」. Both reject the equation of hours with results.",
+    "distractorExplanations": [
+      "Neither writer wants to preserve overtime as such.",
+      "(correct answer)",
+      "Only A's company did this; B criticizes uniform rules.",
+      "A says the problem is the way work is done; B says the problem is method, not amount."
+    ]
+  },
+  {
+    "id": "q-n3-r-15-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-15"
+    },
+    "prompt": "Bが一律の残業禁止に反対する理由は何か。",
+    "context": "",
+    "options": [
+      "残業をすると給料が増えるから。",
+      "仕事の種類や時期によって必要な時間が違い、禁止すると別の問題が起きるから。",
+      "Bの会社では残業をなくしても売上が減ったから。",
+      "社員は自分で働く時間を決められないから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "B cites seasonal deadlines and creative work, and warns that a ban leads to work being taken home or clocked-off.",
+    "distractorExplanations": [
+      "Pay is not mentioned.",
+      "(correct answer)",
+      "B gives no sales figures.",
+      "B argues FOR employee discretion, not that it is impossible."
+    ]
+  },
+  {
+    "id": "q-n3-r-15-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-15"
+    },
+    "prompt": "Aは「どうしても終わらない仕事」についてどう考えているか。",
+    "context": "",
+    "options": [
+      "仕事の量が多すぎるので、人を増やすべきだ。",
+      "たいていは仕事の進め方に問題がある。",
+      "残業をすれば必ず終わる。",
+      "会議を増やせば解決する。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「仕事の量ではなく、仕事の進め方に問題があることがほとんどだ」.",
+    "distractorExplanations": [
+      "A blames method, not volume.",
+      "(correct answer)",
+      "A argues overtime makes work drag on.",
+      "A says useless meetings decreased, which helped."
+    ]
+  },
+  {
+    "id": "q-n3-r-15-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-15"
+    },
+    "prompt": "AとBの意見の違いを正しく説明しているものはどれか。",
+    "context": "",
+    "options": [
+      "Aは残業に賛成で、Bは反対である。",
+      "Aは一律の禁止で成果が出たと言い、Bは判断を現場や個人に任せるべきだと言っている。",
+      "Aは仕事を家に持ち帰るべきだと言い、Bは会社で終えるべきだと言っている。",
+      "AもBも残業を禁止すると売上が上がると言っている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A supports a company-wide cutoff based on results; B wants discretion left to teams and individuals rather than a uniform rule.",
+    "distractorExplanations": [
+      "A is against overtime; B is against uniform bans, not for overtime.",
+      "(correct answer)",
+      "B warns AGAINST taking work home as a side effect.",
+      "Only A mentions sales; B makes no such claim."
+    ]
+  },
+  {
+    "id": "q-n3-r-16-1",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-16"
+    },
+    "prompt": "45歳の会社員の山田さんは、会社で毎年健康診断を受けている。山田さんについて正しいのはどれか。",
+    "context": "",
+    "options": [
+      "市の健康診断を無料で受けられる。",
+      "市の健康診断の対象ではない。",
+      "保健センターなら受けられる。",
+      "心電図だけ受けられる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「会社で健康診断を受ける方を除く」: people who get a checkup at work are excluded.",
+    "distractorExplanations": [
+      "Free applies to 70+ or tax-exempt households, and Yamada is not eligible anyway.",
+      "(correct answer)",
+      "Exclusion applies regardless of venue.",
+      "Not eligible for any test."
+    ]
+  },
+  {
+    "id": "q-n3-r-16-2",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-16"
+    },
+    "prompt": "72歳の田中さんは、木曜日に南地区公民館で基本検査と大腸がん検診を受けたい。田中さんは何をしなければならないか。",
+    "context": "",
+    "options": [
+      "3日前までに電話で予約し、当日は証明書を持っていく。大腸がん検診は保健センターで別に受ける。",
+      "予約なしで行き、1,500円を払う。",
+      "前日の午後9時以降も食事をしてよい。",
+      "会社の健康診断を先に受ける。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The community center requires a reservation 3 days ahead by phone; 70+ is free with proof; additional screenings are only at the health center.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Community centers require reservations, and 72-year-olds pay nothing for the basic checkup.",
+      "Nothing but water after 9 p.m. the day before.",
+      "Irrelevant; Tanaka is 72 and covered by the city program."
+    ]
+  },
+  {
+    "id": "q-n3-r-16-3",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-16"
+    },
+    "prompt": "受診券が届かない場合、どうすればいいか。",
+    "context": "",
+    "options": [
+      "保健センターに直接行く。",
+      "健康推進課に連絡する。",
+      "公民館に電話する。",
+      "3週間待つ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「届かない場合は健康推進課までご連絡ください」.",
+    "distractorExplanations": [
+      "Going without the voucher is not an option; it must be brought.",
+      "(correct answer)",
+      "The community-center phone is for reservations.",
+      "Three weeks is the wait for RESULTS."
+    ]
+  },
+  {
+    "id": "q-n3-r-16-4",
+    "type": "mc",
+    "level": "n3",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "health",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n3-reading-16"
+    },
+    "prompt": "この案内の内容と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "血液検査は50歳以上しか受けられない。",
+      "保健センターは予約が必要である。",
+      "検査の結果はその日にもらえる。",
+      "胃がん検診は公民館では受けられない。"
+    ],
+    "answerIndex": 3,
+    "explanation": "「追加検査は保健センターのみ」: stomach cancer screening is only at the health center.",
+    "distractorExplanations": [
+      "ECG, not blood test, is 50+ only.",
+      "The health center needs no reservation (予約不要).",
+      "Results are mailed about three weeks later.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n1-r-1-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-1"
+    },
+    "prompt": "筆者は政府の給付金拡充についてどう評価しているか。",
+    "context": "",
+    "options": [
+      "家計支援は不要であり、直ちにやめるべきだ。",
+      "趣旨は否定しないが、根本的な解決にはならない。",
+      "額が少なすぎるので、さらに増やすべきだ。",
+      "三十年前と同じ政策なので、今回は効果が出るはずだ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「家計を支えること自体に異論はない。だが…同じ処方箋を繰り返すことに、どれほどの効果が期待できるのか」: the writer accepts the intent but doubts its effectiveness.",
+    "distractorExplanations": [
+      "The writer does not call it unnecessary, only insufficient.",
+      "(correct answer)",
+      "The writer criticizes competing over amounts (給付の額を競う).",
+      "The writer implies the opposite: repeating it will not work."
+    ]
+  },
+  {
+    "id": "q-n1-r-1-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-1"
+    },
+    "prompt": "「病巣」とは何を指しているか。",
+    "context": "",
+    "options": [
+      "子育て世帯の家計の苦しさ",
+      "雇用の不安定さと、育児を女性に偏らせる職場の慣行",
+      "出生率の低下",
+      "政府の財源不足"
+    ],
+    "answerIndex": 1,
+    "explanation": "The preceding sentence names the deepest cause: 雇用の不安定さと、育児を女性に偏らせる職場の慣行. 病巣 is the root that benefits cannot reach.",
+    "distractorExplanations": [
+      "Household strain is the 症状 that benefits can ease.",
+      "(correct answer)",
+      "Falling birth rate is the outcome, not the cause.",
+      "Funds are mentioned as what will vanish, not as the root."
+    ]
+  },
+  {
+    "id": "q-n1-r-1-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-1"
+    },
+    "prompt": "「順序を誤れば」とはどういうことか。",
+    "context": "",
+    "options": [
+      "給付金を出す前に調査をしないこと",
+      "働き方の見直しより先に給付を優先すること",
+      "若い世代より高齢者を優先すること",
+      "財源を確保する前に政策を発表すること"
+    ],
+    "answerIndex": 1,
+    "explanation": "The writer's order is: re-examine ways of working first, then spend. Prioritizing benefits over reform is the wrong order.",
+    "distractorExplanations": [
+      "Research is cited as existing already.",
+      "(correct answer)",
+      "Generational priority is not discussed.",
+      "Securing funds is not the sequence in question."
+    ]
+  },
+  {
+    "id": "q-n1-r-1-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-1"
+    },
+    "prompt": "この社説の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "給付金の額を国際水準まで引き上げるべきだ。",
+      "少子化は個人の選択であり、政策で変えられない。",
+      "金銭的支援より、雇用と職場のあり方を変える決意が必要だ。",
+      "少子化対策は三十年続けても効果がないので中止すべきだ。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「求められているのは、給付の額を競うことではなく、働き方そのものを問い直す覚悟である」.",
+    "distractorExplanations": [
+      "Amounts are explicitly de-emphasized.",
+      "The writer treats it as policy-addressable.",
+      "(correct answer)",
+      "The writer calls for a different policy, not abandonment."
+    ]
+  },
+  {
+    "id": "q-n1-r-2-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "business",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-2"
+    },
+    "prompt": "第2四半期の決算はどのようなものだったか。",
+    "context": "",
+    "options": [
+      "売上も利益も前年より増えた。",
+      "売上は増えたが、利益は減った。",
+      "売上は減ったが、利益は増えた。",
+      "売上も利益も前年より減った。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「増収減益」: sales up 8.2%, operating profit down 12.5%.",
+    "distractorExplanations": [
+      "Profit fell.",
+      "(correct answer)",
+      "Sales rose.",
+      "Sales rose."
+    ]
+  },
+  {
+    "id": "q-n1-r-2-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "business",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-2"
+    },
+    "prompt": "営業利益が減った主な理由は何か。",
+    "context": "",
+    "options": [
+      "欧州での販売不振",
+      "新製品の開発費",
+      "原材料価格の高騰と物流費の上昇",
+      "為替差損"
+    ],
+    "answerIndex": 2,
+    "explanation": "「主因は原材料価格の高騰と、海外物流費の上昇である」.",
+    "distractorExplanations": [
+      "Europe stalled, but this is a sales factor, not the stated main cause of profit decline.",
+      "Development costs are not mentioned.",
+      "(correct answer)",
+      "Exchange rates affected European sales, but are not the 主因."
+    ]
+  },
+  {
+    "id": "q-n1-r-2-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "business",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-2"
+    },
+    "prompt": "通期の業績予想はどう変更されたか。",
+    "context": "",
+    "options": [
+      "売上高も営業利益も下方修正した。",
+      "売上高は据え置き、営業利益を5％下方修正した。",
+      "売上高を上方修正し、営業利益は据え置いた。",
+      "変更はしない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「売上高は据え置き、営業利益は前回予想から5％下方修正する」.",
+    "distractorExplanations": [
+      "Sales guidance is unchanged.",
+      "(correct answer)",
+      "No upward revision is made.",
+      "Profit guidance is cut."
+    ]
+  },
+  {
+    "id": "q-n1-r-2-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "business",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-2"
+    },
+    "prompt": "新製品について、本文から分かることはどれか。",
+    "context": "",
+    "options": [
+      "第2四半期に発売された。",
+      "受注が計画を下回っている。",
+      "下期の利益に貢献すると見込まれている。",
+      "欧州向けに投入された。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「当初計画を上回る受注を獲得しており、下期の収益に寄与する見通しである」.",
+    "distractorExplanations": [
+      "It was launched in Q1 (第1四半期に投入).",
+      "Orders EXCEED the plan.",
+      "(correct answer)",
+      "The target market is not specified as Europe."
+    ]
+  },
+  {
+    "id": "q-n1-r-3-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-3"
+    },
+    "prompt": "「全然」の例は何を示すために挙げられているか。",
+    "context": "",
+    "options": [
+      "若者の言葉が本当に乱れていること",
+      "嘆かれている用法が実は昔から存在したこと",
+      "明治の文豪の文章が読みにくいこと",
+      "肯定文で「全然」を使うのは誤りであること"
+    ],
+    "answerIndex": 1,
+    "explanation": "The example shows that a usage now condemned as 'corruption' was already used by Meiji writers, undermining the complaint.",
+    "distractorExplanations": [
+      "The example weakens the claim of corruption.",
+      "(correct answer)",
+      "Readability is not the point.",
+      "The writer implies the usage is legitimate."
+    ]
+  },
+  {
+    "id": "q-n1-r-3-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-3"
+    },
+    "prompt": "筆者は言葉の変化についてどのような立場か。",
+    "context": "",
+    "options": [
+      "すべての変化を歓迎する。",
+      "すべての変化を乱れとして拒否する。",
+      "伝達を損なうかどうかで判断すべきだと考えている。",
+      "若者にだけ変化を許すべきだと考えている。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「変化そのものを『乱れ』と呼ぶ前に、それが本当に伝達を損なっているのかを問うべきだ」.",
+    "distractorExplanations": [
+      "The writer explicitly refuses unconditional welcome.",
+      "The writer defends most change.",
+      "(correct answer)",
+      "No generational permission scheme is proposed."
+    ]
+  },
+  {
+    "id": "q-n1-r-3-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-3"
+    },
+    "prompt": "「損なわれているのは伝達ではなく、旧世代の慣れなのである」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "新しい言葉は年配者には理解できない。",
+      "年配者が不快に感じているだけで、意思の疎通（そつう）はできている。",
+      "若者は年配者と話す気がない。",
+      "伝達が失われると、慣れも失われる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "In most cases communication still works; what is hurt is only the older generation's sense of the familiar.",
+    "distractorExplanations": [
+      "Comprehension is not the problem, according to the writer.",
+      "(correct answer)",
+      "Willingness to talk is not discussed.",
+      "This reverses the sentence's logic."
+    ]
+  },
+  {
+    "id": "q-n1-r-3-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-3"
+    },
+    "prompt": "この文章の内容と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "言葉の乱れを嘆く声は現代に特有のものである。",
+      "筆者は伝わらない言葉も言葉として認めるべきだと考えている。",
+      "筆者は、変化を乱れと呼ぶかどうかは慎重に判断すべきだと考えている。",
+      "平安時代の若者の言葉は特に乱れていた。"
+    ],
+    "answerIndex": 2,
+    "explanation": "The essay's thrust is caution before labelling change as corruption, with communicability as the test.",
+    "distractorExplanations": [
+      "The lament is said to be as old as writing.",
+      "The writer says unintelligible words fail as language.",
+      "(correct answer)",
+      "Heian aristocrats complained, but no claim is made about actual corruption then."
+    ]
+  },
+  {
+    "id": "q-n1-r-4-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "column",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-4"
+    },
+    "prompt": "文書化の試みはなぜ新人の役に立たなかったのか。",
+    "context": "",
+    "options": [
+      "文書が短すぎて、情報が足りなかったから。",
+      "判断を決めている情報が言葉になる前のもので、文書に表せなかったから。",
+      "新人が文書を読む時間がなかったから。",
+      "ベテラン運転士が協力しなかったから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「それを決めているのは…言葉になる前の情報だった」: the decisive cues are pre-verbal and could not be captured.",
+    "distractorExplanations": [
+      "The document was enormous (膨大).",
+      "(correct answer)",
+      "Time is not the issue.",
+      "The veteran cooperated for hundreds of hours."
+    ]
+  },
+  {
+    "id": "q-n1-r-4-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "column",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-4"
+    },
+    "prompt": "「マニュアルは…知恵の輪郭を示す地図にすぎない」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "マニュアルは知恵そのものではなく、その形をおおまかに示すだけである。",
+      "マニュアルがあれば知恵は完全に保存できる。",
+      "マニュアルは地図のように正確でなければならない。",
+      "マニュアルより地図のほうが役に立つ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The manual shows only the outline of knowledge; the substance (tacit judgment) is not inside it.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "This is the view the writer rejects.",
+      "Accuracy is not the metaphor's point.",
+      "地図 is figurative, not a literal comparison."
+    ]
+  },
+  {
+    "id": "q-n1-r-4-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "column",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-4"
+    },
+    "prompt": "「地図を持たせて安心するのは、組織の側の都合である」から読み取れる筆者の考えはどれか。",
+    "context": "",
+    "options": [
+      "マニュアルは組織にとっても役に立たない。",
+      "マニュアルの整備は、現場の力を高めるというより組織の安心のために行われている面がある。",
+      "新人は地図を持つべきではない。",
+      "組織はマニュアルを作るべきではない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The writer implies that manuals reassure the organization more than they empower the worker.",
+    "distractorExplanations": [
+      "The writer says it serves the organization's convenience, which is a kind of use.",
+      "(correct answer)",
+      "No such prohibition is suggested.",
+      "The critique is about overestimating manuals, not banning them."
+    ]
+  },
+  {
+    "id": "q-n1-r-4-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "column",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-4"
+    },
+    "prompt": "この文章の内容と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "暗黙知は形式知に完全に変換できる。",
+      "経営学は暗黙知の存在を認めていない。",
+      "変換の過程で失われるものの大きさはまだよく分かっていない。",
+      "ベテランの勘は数百時間あれば文書にできる。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「変換の過程で失われるものの大きさを、我々はまだ十分に測れていない」.",
+    "distractorExplanations": [
+      "The case shows the opposite.",
+      "Management theory names both kinds of knowledge.",
+      "(correct answer)",
+      "Hundreds of hours produced a largely useless document."
+    ]
+  },
+  {
+    "id": "q-n1-r-5-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-5"
+    },
+    "prompt": "筆者が「競争の構図そのものに疑問を抱いている」理由として挙げていないものはどれか。",
+    "context": "",
+    "options": [
+      "自治体同士の奪い合いでは全体の人口は増えない。",
+      "移住者を優遇すると、もとからの住民が後回しになる。",
+      "人口を増やすこと自体が目的になってしまっている。",
+      "移住者は都会の生活に慣れていて、地方になじめない。"
+    ],
+    "answerIndex": 3,
+    "explanation": "The three reasons are zero-sum competition, neglect of existing residents, and confusing population with purpose. Adaptation of newcomers is not raised.",
+    "distractorExplanations": [
+      "This is reason one.",
+      "This is reason two.",
+      "This is reason three.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n1-r-5-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-5"
+    },
+    "prompt": "「静かな断絶」とはどのような状況か。",
+    "context": "",
+    "options": [
+      "移住者が町の行事に参加しないこと",
+      "移住者への優遇によって、古くからの住民との間に目立たない溝ができること",
+      "高齢者がバスに乗らなくなること",
+      "自治体が住民との対話をやめること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「新参者への優遇が、古くからの住民との間に静かな断絶を生んでいる」: a quiet rift between newcomers and long-time residents.",
+    "distractorExplanations": [
+      "Participation in events is not mentioned.",
+      "(correct answer)",
+      "The bus example illustrates neglect; the rift is between groups of residents.",
+      "Dialogue with the authority is not the point."
+    ]
+  },
+  {
+    "id": "q-n1-r-5-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-5"
+    },
+    "prompt": "「人口はあくまで結果であって、目的ではない」という考えから、筆者はどのような施策を支持しているか。",
+    "context": "",
+    "options": [
+      "移住者向けの補助金をさらに増やすこと",
+      "今住んでいる人の学校・医療・交通・仕事を整えること",
+      "人口目標を数字で明確に定めること",
+      "新築住宅を増やして移住者を呼ぶこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「『今いる人の暮らしを良くする』ことに尽きる。学校、医療、交通、そして仕事」.",
+    "distractorExplanations": [
+      "Subsidy competition is criticized.",
+      "(correct answer)",
+      "Chasing numbers is criticized.",
+      "New housing for newcomers is cited as a symptom of the problem."
+    ]
+  },
+  {
+    "id": "q-n1-r-5-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-5"
+    },
+    "prompt": "最後の段落で筆者が言いたいことは何か。",
+    "context": "",
+    "options": [
+      "地方創生という言葉は使うべきではない。",
+      "新しいものを生み出すだけでなく、今あるものを維持することも創生である。",
+      "地方はもう新しいものを生み出せない。",
+      "創生には華々しい事業が必要だ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「すでにあるものを損なわずに続けること。それもまた、立派な創生である」.",
+    "distractorExplanations": [
+      "The writer redefines the word rather than rejecting it.",
+      "(correct answer)",
+      "No such claim is made.",
+      "The writer contrasts flashy language with the unglamorous answer."
+    ]
+  },
+  {
+    "id": "q-n1-r-5-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-5"
+    },
+    "prompt": "この文章の構成として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "具体例を示してから、一般的な原則を導き、最後に反対意見を紹介している。",
+      "現状への疑問を示し、三つの理由を述べ、対案を示して、結論で言葉を再定義している。",
+      "歴史的経緯を説明し、現在の政策を肯定している。",
+      "複数の自治体を比較し、最も成功した例を推薦している。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Paragraph 1 raises doubt, paragraphs 2–4 give three reasons, paragraph 5 proposes an alternative, paragraph 6 redefines 創生.",
+    "distractorExplanations": [
+      "No opposing view is introduced at the end.",
+      "(correct answer)",
+      "There is no history section and the policy is criticized.",
+      "No specific successful municipality is recommended."
+    ]
+  },
+  {
+    "id": "q-n1-r-6-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-6"
+    },
+    "prompt": "筆者が「成功の法則」本の根本的な欠陥だと考えていることは何か。",
+    "context": "",
+    "options": [
+      "著者が成功者ではないこと",
+      "成功した人だけを分析の対象にしていること",
+      "習慣の数が多すぎて真似できないこと",
+      "科学的な統計を使っていること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「分析の対象が『成功した人』に限られていることだ」.",
+    "distractorExplanations": [
+      "Authors' status is not the issue.",
+      "(correct answer)",
+      "Quantity of habits is not the flaw.",
+      "The writer says these books only wear the guise of science."
+    ]
+  },
+  {
+    "id": "q-n1-r-6-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-6"
+    },
+    "prompt": "爆撃機の例は何を説明するために挙げられているか。",
+    "context": "",
+    "options": [
+      "戦争中の統計学の発達",
+      "見えているデータだけで判断すると誤ること",
+      "軍が統計学者の意見を聞かなかったこと",
+      "成功者の習慣は戦争にも役立つこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「見えているデータは、常に何かを見えなくした結果である」: the returning planes illustrate survivorship bias.",
+    "distractorExplanations": [
+      "Historical development is not the point.",
+      "(correct answer)",
+      "The story's lesson is about data, not obedience.",
+      "Irrelevant."
+    ]
+  },
+  {
+    "id": "q-n1-r-6-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-6"
+    },
+    "prompt": "「だからこそ本にならないのである」の「だからこそ」は何を受けているか。",
+    "context": "",
+    "options": [
+      "成功例と失敗例を同じ条件で観察するのは退屈で、劇的な結論を生まないから。",
+      "成功の法則は存在しないから。",
+      "失敗した人は本を書かないから。",
+      "読者が科学的な本を買わないから。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The preceding sentence: such observation is 退屈で、時間がかかり、劇的な結論を生まない, so it does not get published.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The writer says laws may exist.",
+      "This is a related point from paragraph 2, not the antecedent.",
+      "Reader preference is not stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-6-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-6"
+    },
+    "prompt": "筆者は成功の法則についてどう考えているか。",
+    "context": "",
+    "options": [
+      "法則は存在せず、成功は運である。",
+      "法則はあり得るが、成功と失敗の両方を観察した者だけがそれを語れる。",
+      "ビジネス書の法則は科学的に証明されている。",
+      "法則を信じることが成功への近道である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「法則を語る資格があるのは、成功例と失敗例の双方を同じ条件で観察した者だけだ」.",
+    "distractorExplanations": [
+      "The writer says そうは思わない to the claim that no laws exist.",
+      "(correct answer)",
+      "The writer calls them faith in scientific guise.",
+      "The writer recommends doubt over belief."
+    ]
+  },
+  {
+    "id": "q-n1-r-6-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-6"
+    },
+    "prompt": "この文章のタイトル「『再現性』という名の信仰」に込められた意味はどれか。",
+    "context": "",
+    "options": [
+      "ビジネス書は再現性を科学的に検証している。",
+      "再現性という科学用語が、実際には根拠のない信念を飾るために使われている。",
+      "読者は再現性を信じるべきだ。",
+      "再現性は宗教の一種である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「科学の装いをまとった信仰にすぎない」: the scientific term dresses up unfounded belief.",
+    "distractorExplanations": [
+      "The writer says the opposite.",
+      "(correct answer)",
+      "The writer advises doubt.",
+      "信仰 is metaphorical, not a claim about religion."
+    ]
+  },
+  {
+    "id": "q-n1-r-7-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-7"
+    },
+    "prompt": "筆者はソクラテスの例をどのような意図で挙げているか。",
+    "context": "",
+    "options": [
+      "文字の発明が人類に害を与えたと主張するため",
+      "記憶の外部化は昔から続いてきたことで、今回だけを嘆くのは的外れだと示すため",
+      "ソクラテスの警告が正しかったと証明するため",
+      "現代人が古代人より記憶力が劣ると示すため"
+    ],
+    "answerIndex": 1,
+    "explanation": "「記憶の外部化は、人類が道具を持って以来ずっと続けてきた営み」: the example shows the phenomenon is ancient and continuous.",
+    "distractorExplanations": [
+      "The writer does not judge writing as harmful.",
+      "(correct answer)",
+      "The writer neither confirms nor denies Socrates' fear.",
+      "No comparison of ability is made."
+    ]
+  },
+  {
+    "id": "q-n1-r-7-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-7"
+    },
+    "prompt": "今回の外部化が「質的に異なる」点は何か。",
+    "context": "",
+    "options": [
+      "記憶できる量が桁違いに大きいこと",
+      "外部化された記憶が、求めなくても向こうから差し出されること",
+      "機械が人間より正確に記憶すること",
+      "書物と違って持ち運べること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「『引き出せる』だけでなく『勝手に差し出される』ようになったこと」.",
+    "distractorExplanations": [
+      "Quantity is not the stated difference.",
+      "(correct answer)",
+      "Accuracy is mentioned later as a property, not as the qualitative difference.",
+      "Portability is not discussed."
+    ]
+  },
+  {
+    "id": "q-n1-r-7-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-7"
+    },
+    "prompt": "「その不完全さこそが、記憶を『自分のもの』にしている」とはどういうことか。",
+    "context": "",
+    "options": [
+      "間違った記憶ほど印象に残る。",
+      "思い出すたびに再構成される過程を通して、記憶が個人のものになる。",
+      "完全な記憶は機械にしかない。",
+      "人間は忘れることで幸せになれる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Self-recalled memory is 毎回わずかに再構成される; that imperfect process makes it one's own, unlike the machine's identical, ownerless output.",
+    "distractorExplanations": [
+      "Impression strength is not the argument.",
+      "(correct answer)",
+      "This is true in the text but does not explain the sentence.",
+      "Happiness is not discussed."
+    ]
+  },
+  {
+    "id": "q-n1-r-7-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-7"
+    },
+    "prompt": "筆者が「意識して残しておきたい」と言う「能動の余地」の具体例はどれか。",
+    "context": "",
+    "options": [
+      "スマートフォンを持たずに外出すること",
+      "検索する前に一度自分で考えてみること",
+      "電話番号をすべて暗記すること",
+      "写真を撮らないこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「検索する前に一度考える。地図を開く前に道を思い浮かべる」.",
+    "distractorExplanations": [
+      "The writer does not advocate abandoning the device.",
+      "(correct answer)",
+      "Total memorization is not proposed.",
+      "Photography is not restricted."
+    ]
+  },
+  {
+    "id": "q-n1-r-7-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "technology",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-7"
+    },
+    "prompt": "筆者の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "記憶の外部化を止めるべきだ。",
+      "外部化は避けられないが、自ら引き出す非効率な過程を残すことで知識は経験になる。",
+      "機械の記憶は人間の記憶より優れている。",
+      "効率を上げるために記憶はすべて機械に任せるべきだ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「反対しても止まらないだろう。ただ、『引き出す』という能動の余地を、意識して残しておきたい…その非効率の中でしか、知識は経験にならない」.",
+    "distractorExplanations": [
+      "The writer explicitly does not oppose externalization.",
+      "(correct answer)",
+      "The machine's memory is called 誰のものでもない, not superior.",
+      "The writer defends inefficiency."
+    ]
+  },
+  {
+    "id": "q-n1-r-8-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-8"
+    },
+    "prompt": "筆者が「強い違和感を覚える」のはどのようなことに対してか。",
+    "context": "",
+    "options": [
+      "多様性が業績を高めるという研究結果",
+      "多様性の重要性が常識になっていること",
+      "多様性がもたらす摩擦について語ることが避けられていること",
+      "均質な組織が多様な組織より優れていること"
+    ],
+    "answerIndex": 2,
+    "explanation": "「多様性がもたらす『摩擦』について語ることが、ほとんど禁忌のようになっている現状には、強い違和感を覚える」.",
+    "distractorExplanations": [
+      "The writer accepts the research direction.",
+      "The writer does not object to the consensus itself.",
+      "(correct answer)",
+      "The writer makes no such claim."
+    ]
+  },
+  {
+    "id": "q-n1-r-8-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-8"
+    },
+    "prompt": "「この注釈は引用の過程で削ぎ落とされ」とあるが、どのような注釈か。",
+    "context": "",
+    "options": [
+      "多様性の効果は、摩擦を乗り越える仕組みがある場合に限られるという条件",
+      "研究の対象が大企業に限られているという条件",
+      "多様性は短期的には効果がないという条件",
+      "多様性の効果は国によって異なるという条件"
+    ],
+    "answerIndex": 0,
+    "explanation": "「摩擦を乗り越えるための仕組みが機能している場合に限って、と注釈を付けている」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Company size is not mentioned.",
+      "Time horizon is not the caveat named.",
+      "National variation is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-8-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-8"
+    },
+    "prompt": "「現実は理念を裏切る形で復讐する」とは、ここではどのような事態を指すか。",
+    "context": "",
+    "options": [
+      "現場が多様性に公然と反対するようになること",
+      "問題が語られないまま放置され、疲弊した現場が均質化に戻ってしまうこと",
+      "研究者が多様性の研究をやめること",
+      "経営者が理念を捨てること"
+    ],
+    "answerIndex": 1,
+    "explanation": "The preceding sentences: the problem is left unspoken and the exhausted workplace 静かに均質化へと戻っていく.",
+    "distractorExplanations": [
+      "The text says workers CANNOT voice opposition; the reversal is silent.",
+      "(correct answer)",
+      "Researchers are not involved in this step.",
+      "Executives' abandonment is not described."
+    ]
+  },
+  {
+    "id": "q-n1-r-8-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-8"
+    },
+    "prompt": "筆者が「多様性への投資」という言い換えを提案するのはなぜか。",
+    "context": "",
+    "options": [
+      "コストを隠すことができるから",
+      "コストを避けられないものとして正面から認め、現場の受け止め方を変えられるから",
+      "投資という言葉のほうが経営者に好まれるから",
+      "代償という言葉は日本語として不自然だから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「そのコストを正面から数え、支払う覚悟を明示すべき」and the reframing changes 現場の空気.",
+    "distractorExplanations": [
+      "The aim is to acknowledge cost, not hide it.",
+      "(correct answer)",
+      "Executive preference is not the reason.",
+      "No linguistic judgment is made."
+    ]
+  },
+  {
+    "id": "q-n1-r-8-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-8"
+    },
+    "prompt": "この文章の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "多様性はコストが大きいので、組織は均質であるべきだ。",
+      "多様性を根づかせるには、その難しさを自由に語り、コストを認めて引き受ける必要がある。",
+      "多様性の研究は信頼できないので無視すべきだ。",
+      "理念を守るためには現実の問題を語らないほうがよい。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「多様性を語る者は、多様性の難しさを語る自由を、誰よりも先に守らなければならない」.",
+    "distractorExplanations": [
+      "The writer supports diversity's direction.",
+      "(correct answer)",
+      "The writer cites the research's own caveats approvingly.",
+      "This is the attitude the writer condemns as betrayal."
+    ]
+  },
+  {
+    "id": "q-n1-r-9-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-9"
+    },
+    "prompt": "筆者が悲観論と楽観論の両方に共通すると考える「誤り」とは何か。",
+    "context": "",
+    "options": [
+      "経済成長の実際の数字を誤って理解していること",
+      "豊かさを測る物差しを問い直さずに、その量だけを議論していること",
+      "幸福度を無視していること",
+      "政府の政策を信頼しすぎていること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「『豊かさ』を測る物差しを問い直さないまま、その量だけを議論しているという誤り」.",
+    "distractorExplanations": [
+      "Both sides read the figures correctly; the flaw is conceptual.",
+      "(correct answer)",
+      "Happiness indices are discussed later as a separate trap.",
+      "Trust in government is not raised."
+    ]
+  },
+  {
+    "id": "q-n1-r-9-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-9"
+    },
+    "prompt": "国内総生産の限界について、筆者が挙げている例と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "交通事故が増えると数字が下がる。",
+      "家庭内の育児は数字に含まれない。",
+      "隣人への手助けは高く評価される。",
+      "静かな夜は数字を押し上げる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「家庭内の育児も、隣人への手助けも、静かな夜も、指標の上ではゼロである」.",
+    "distractorExplanations": [
+      "More accidents RAISE the figure because repairs and medical demand grow.",
+      "(correct answer)",
+      "It counts as zero.",
+      "It counts as zero."
+    ]
+  },
+  {
+    "id": "q-n1-r-9-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-9"
+    },
+    "prompt": "幸福度などの新しい指標について、筆者はどのように考えているか。",
+    "context": "",
+    "options": [
+      "国内総生産の代わりにすべきだ。",
+      "有益だが、唯一の指標に据えると同じ問題が再来する。",
+      "測りにくいので意味がない。",
+      "国際比較には使えない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「それ自体は有益だ。しかし、それらを『新しい唯一の指標』に据えようとした瞬間、同じ問題が形を変えて再来する」.",
+    "distractorExplanations": [
+      "Replacement is the trap the writer warns against.",
+      "(correct answer)",
+      "The writer calls them useful.",
+      "International comparison is cited as an existing practice."
+    ]
+  },
+  {
+    "id": "q-n1-r-9-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-9"
+    },
+    "prompt": "筆者の提案の中心はどれか。",
+    "context": "",
+    "options": [
+      "国内総生産の計算方法を改善すること",
+      "指標を捨てて、言葉だけで豊かさを語ること",
+      "数字を尊重しつつ、数字の外にあるものを常に言語化して並べて語ること",
+      "成長率を再び高める政策を採ること"
+    ],
+    "answerIndex": 2,
+    "explanation": "「指標の交換ではなく、指標との距離の取り方…その断面の外に何があるかを、数字を使う者は常に言語化する義務を負う」.",
+    "distractorExplanations": [
+      "Improving GDP's method is not proposed.",
+      "Numbers are to be respected as a tool, not abandoned.",
+      "(correct answer)",
+      "The writer does not advocate restoring growth."
+    ]
+  },
+  {
+    "id": "q-n1-r-9-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-9"
+    },
+    "prompt": "「思考の怠慢ではなく、思考の労働である」という表現から読み取れる筆者の態度はどれか。",
+    "context": "",
+    "options": [
+      "測れないものを語るのは曖昧なので避けるべきだ。",
+      "測れないものを語る困難を引き受けることは、知的に真剣な営みである。",
+      "数字を使う人は考えていない。",
+      "言語化は数字より説得力がある。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The writer defends speaking about the unmeasurable as demanding intellectual work, against the charge that it is vague.",
+    "distractorExplanations": [
+      "This is the dismissal the writer rejects.",
+      "(correct answer)",
+      "The writer respects numbers as tools.",
+      "The writer admits verbal accounts have LESS persuasive force."
+    ]
+  },
+  {
+    "id": "q-n1-r-10-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-10"
+    },
+    "prompt": "筆者によると、効率が「目的を問う力を持たない」のはなぜか。",
+    "context": "",
+    "options": [
+      "効率を追求する人は目的に関心がないから",
+      "効率は目的が定まってはじめて意味を持つ比率であり、目的そのものの是非は効率の外で決まるから",
+      "目的は常に一つしかないから",
+      "効率は感情を考慮しないから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「定義上、それは目的が定まってはじめて意味を持つ…目的が正しいかどうかは、効率の外側で決められるべき問題」.",
+    "distractorExplanations": [
+      "The claim is definitional, not about people's interest.",
+      "(correct answer)",
+      "Not stated.",
+      "Emotion is not the argument."
+    ]
+  },
+  {
+    "id": "q-n1-r-10-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-10"
+    },
+    "prompt": "「速く着ける場所」がいつのまにか「行くべき場所」になっているとはどういうことか。",
+    "context": "",
+    "options": [
+      "交通の発達で目的地が増えた。",
+      "効率よく達成できることが、本来の目的の吟味を経ずに目的そのものになってしまっている。",
+      "人々は遠い場所より近い場所を好む。",
+      "目的地に早く着くことが人生の目的である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「効率の追求が目的の吟味を押しのけ」: what is quickly achievable displaces what ought to be pursued.",
+    "distractorExplanations": [
+      "The sentence is metaphorical.",
+      "(correct answer)",
+      "Preference for proximity is not the point.",
+      "This is the confusion the writer criticizes."
+    ]
+  },
+  {
+    "id": "q-n1-r-10-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-10"
+    },
+    "prompt": "図書館が貸出記録を残さないのはなぜか。",
+    "context": "",
+    "options": [
+      "記録を管理する人手がないから",
+      "利用者が何を読んだかはその人だけのものであり、図書館が預かる権利はないと考えるから",
+      "古い建物でシステムが導入できないから",
+      "利用統計を取る必要がないから"
+    ],
+    "answerIndex": 1,
+    "explanation": "The librarian: 「人が何を読んだかは、その人だけのものです。私たちが便利になるために、それを預かる権利はありません」.",
+    "distractorExplanations": [
+      "Staffing is not mentioned.",
+      "(correct answer)",
+      "No technical limitation is cited.",
+      "Statistics are impossible as a consequence, not the reason."
+    ]
+  },
+  {
+    "id": "q-n1-r-10-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-10"
+    },
+    "prompt": "「削って生まれた時間は、たいてい次の削減の対象になる」から、筆者は効率のどのような性質を導いているか。",
+    "context": "",
+    "options": [
+      "効率は余裕を生み、大事なことに時間を使わせる。",
+      "効率は自らを目的化し、止まらなくなる。",
+      "効率は時間を増やすことができない。",
+      "効率は削減の後に必ず反省を生む。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「効率は自らを目的化する性質を持つ」.",
+    "distractorExplanations": [
+      "This is the claim the writer doubts from experience.",
+      "(correct answer)",
+      "Time is saved; the problem is what happens to it.",
+      "No reflection is described as automatic."
+    ]
+  },
+  {
+    "id": "q-n1-r-10-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "society",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-10"
+    },
+    "prompt": "筆者の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "効率は有害なので、できる限り避けるべきだ。",
+      "効率は道具にすぎないため、まず何を守るために非効率を引き受けるかという目的を語るべきだ。",
+      "図書館は貸出記録を残すべきではない。",
+      "効率を高めれば、いずれ大事なことに時間を使えるようになる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「効率を語る前に、私たちは目的を語らなければならない。そして目的を語るとは、何を守るために非効率を引き受けるかを決めること」.",
+    "distractorExplanations": [
+      "The writer explicitly does not oppose efficiency.",
+      "(correct answer)",
+      "The library is an illustration, not a policy recommendation.",
+      "The writer's experience contradicts this."
+    ]
+  },
+  {
+    "id": "q-n1-r-11-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-11"
+    },
+    "prompt": "Aが「修辞にすぎない」と批判しているのはどのような主張か。",
+    "context": "",
+    "options": [
+      "在宅勤務は生産性を下げるという主張",
+      "対面でなければ生まれない発想があるという主張",
+      "通勤時間は無駄であるという主張",
+      "オフィスの固定費を削減できるという主張"
+    ],
+    "answerIndex": 1,
+    "explanation": "「『対面でなければ生まれない発想がある』という反論は…出社を正当化するための修辞にすぎない」.",
+    "distractorExplanations": [
+      "A says this concern is being refuted by surveys, not that it is rhetoric.",
+      "(correct answer)",
+      "This is A's own point.",
+      "This is A's own point."
+    ]
+  },
+  {
+    "id": "q-n1-r-11-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-11"
+    },
+    "prompt": "Bが在宅勤務の常態化に慎重な理由は何か。",
+    "context": "",
+    "options": [
+      "生産性が下がるという調査結果があるから",
+      "若手が周辺視野で学ぶ機会や組織の蓄積が失われ、その損失は数年後にしか現れないから",
+      "通勤時間には価値があるから",
+      "オフィスの賃料がすでに払われているから"
+    ],
+    "answerIndex": 1,
+    "explanation": "B: 若手は周辺視野で仕事を学ぶ; that loss 数年後にしか現れない and is not captured by short-term productivity data.",
+    "distractorExplanations": [
+      "B accepts the productivity data for the short term.",
+      "(correct answer)",
+      "B does not defend commuting.",
+      "Rent is not mentioned by B."
+    ]
+  },
+  {
+    "id": "q-n1-r-11-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-11"
+    },
+    "prompt": "AとBの両方が認めていることはどれか。",
+    "context": "",
+    "options": [
+      "対面には測定できない価値がある。",
+      "短期的な生産性は在宅勤務でも下がっていない。",
+      "在宅勤務は若手の成長を妨げる。",
+      "全員が毎日出社すべきである。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A cites surveys refuting productivity decline; B says 短期的な生産性の数字が下がっていないことは認める.",
+    "distractorExplanations": [
+      "A denies this is proven; only B asserts it.",
+      "(correct answer)",
+      "Only B raises this.",
+      "Neither writer wants a return to the old default."
+    ]
+  },
+  {
+    "id": "q-n1-r-11-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-11"
+    },
+    "prompt": "AとBの立場の違いを最も適切に説明しているものはどれか。",
+    "context": "",
+    "options": [
+      "Aは在宅勤務に賛成し、Bは全面的に反対している。",
+      "Aは測定された利益を重視して常態化を主張し、Bは測定されにくい長期的損失を重視して出社日を設計すべきだと主張している。",
+      "Aは企業の利益を、Bは労働者の利益を重視している。",
+      "AもBも在宅勤務を非常時の例外に戻すべきだと考えている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A: proven gains should not be sacrificed for unproven ones. B: what is unmeasured is not absent; design intentional in-office days rather than default to either extreme.",
+    "distractorExplanations": [
+      "B does not oppose remote work outright; B proposes designed in-office days.",
+      "(correct answer)",
+      "Both discuss company and worker interests.",
+      "Neither wants a return to the old default."
+    ]
+  },
+  {
+    "id": "q-n1-r-11-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "work",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-11"
+    },
+    "prompt": "Bの「測定されていないことは、存在しないことではない」という文はAのどの主張への応答か。",
+    "context": "",
+    "options": [
+      "通勤時間を家族に振り向けているという主張",
+      "証明されていない利益のために証明された利益を犠牲にすべきではないという主張",
+      "オフィス面積を縮小できるという主張",
+      "複数の調査が生産性の低下を否定しているという主張"
+    ],
+    "answerIndex": 1,
+    "explanation": "A's principle privileges proven benefits; B replies that unmeasured benefits (learning, culture) still exist and must be designed for.",
+    "distractorExplanations": [
+      "Not the target.",
+      "(correct answer)",
+      "Not the target.",
+      "B accepts the survey findings for the short term; the reply targets A's principle about proof."
+    ]
+  },
+  {
+    "id": "q-n1-r-12-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-12"
+    },
+    "prompt": "次の四人のうち、応募資格をすべて満たしているのは誰か。",
+    "context": "",
+    "options": [
+      "2026年3月に修士課程を修了し、2027年4月1日に36歳になる人",
+      "2027年3月に修士課程修了見込みで、2027年9月に海外の大学院に入学予定の33歳の人",
+      "修士課程を修了しており、2027年9月から他の給付型奨学金を受ける予定の30歳の人",
+      "学部を卒業しただけで、2027年10月に海外の大学院に入学予定の28歳の人"
+    ],
+    "answerIndex": 1,
+    "explanation": "Option 2 satisfies (a) completion expected by March 2027, (b) under 35, (c) enrollment in the window, and nothing violates (d).",
+    "distractorExplanations": [
+      "Turns 36 on April 1, 2027, so fails (b) (満35歳未満).",
+      "(correct answer)",
+      "Fails (d): another grant-type scholarship in the same period.",
+      "Fails (a): only a bachelor's degree."
+    ]
+  },
+  {
+    "id": "q-n1-r-12-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-12"
+    },
+    "prompt": "入学許可書をまだ持っていない人はどうすればよいか。",
+    "context": "",
+    "options": [
+      "応募できない。",
+      "応募用紙に「取得見込み」と書き、2027年7月31日までに提出する。",
+      "2027年1月31日までに必ず取得する。",
+      "推薦者に代わりに提出してもらう。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「未取得の場合は、応募時に『取得見込み』と記載し、2027年7月31日までに提出」.",
+    "distractorExplanations": [
+      "Application is allowed with the note.",
+      "(correct answer)",
+      "The deadline for the admission letter is July 31, not the application deadline.",
+      "Recommenders send only recommendation letters."
+    ]
+  },
+  {
+    "id": "q-n1-r-12-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-12"
+    },
+    "prompt": "推薦書について正しいものはどれか。",
+    "context": "",
+    "options": [
+      "応募者がまとめて電子申請で提出する。",
+      "2通とも指導教員が書かなければならない。",
+      "推薦者が財団に直接送り、応募者を経由したものは無効になる。",
+      "1通でよい。"
+    ],
+    "answerIndex": 2,
+    "explanation": "「推薦書は推薦者から財団へ直接送付すること。応募者本人を経由した推薦書は無効とする」.",
+    "distractorExplanations": [
+      "Letters passed through the applicant are invalid.",
+      "Only one of the two must be from the supervisor.",
+      "(correct answer)",
+      "Two letters are required."
+    ]
+  },
+  {
+    "id": "q-n1-r-12-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-12"
+    },
+    "prompt": "給付を受けている間に求められることは何か。",
+    "context": "",
+    "options": [
+      "毎月研究報告書を提出する。",
+      "半年ごとに研究報告書を提出する。",
+      "2年ごとに面接を受ける。",
+      "日本に一時帰国して報告する。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「給付期間中は半年ごとに研究報告書の提出を義務づける」.",
+    "distractorExplanations": [
+      "Semi-annual, not monthly.",
+      "(correct answer)",
+      "Interviews are part of selection, not the grant period.",
+      "Not required."
+    ]
+  },
+  {
+    "id": "q-n1-r-12-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-12"
+    },
+    "prompt": "この募集要項の内容と合っているものはどれか。",
+    "context": "",
+    "options": [
+      "奨学金は卒業後に返還しなければならない。",
+      "渡航費は上限なく全額支給される。",
+      "応募は郵送でも電子申請でも可能である。",
+      "採用後に資格を満たさないことが分かった場合、全額返還を求められることがある。"
+    ],
+    "answerIndex": 3,
+    "explanation": "「採用後に応募資格を満たさなくなったことが判明した場合、給付額の全額返還を求めることがある」.",
+    "distractorExplanations": [
+      "「返還義務はない」: no repayment in the normal case.",
+      "Travel costs are capped at 300,000 yen.",
+      "「電子申請のみ受け付ける」: online only.",
+      "(correct answer)"
+    ]
+  }
+]

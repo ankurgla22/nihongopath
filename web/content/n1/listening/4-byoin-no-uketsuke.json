@@ -1,0 +1,88 @@
+{
+  "id": "n1-listening-4",
+  "slug": "4-byoin-no-uketsuke",
+  "level": "n1",
+  "order": 4,
+  "kind": "task",
+  "title": "病院の受付",
+  "setting": "病院の受付で、女の人と受付の人が話しています。女の人はこのあとどうしますか。",
+  "script": [
+    {
+      "speaker": "受付",
+      "line": "本日はどうされましたか。"
+    },
+    {
+      "speaker": "女",
+      "line": "昨日から喉の痛みがひどくて。あの、予約はしてないんですが、診ていただけますか。"
+    },
+    {
+      "speaker": "受付",
+      "line": "初診の方ですね。本日は予約の方を優先しておりますので、お待ちいただくことになりますが、よろしいでしょうか。一時間半ほどかと。"
+    },
+    {
+      "speaker": "女",
+      "line": "一時間半ですか…。午後なら空いてますか。"
+    },
+    {
+      "speaker": "受付",
+      "line": "午後は二時半でしたら、予約枠が一つ空いております。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、それでお願いします。それまでに、何かしておくことはありますか。"
+    },
+    {
+      "speaker": "受付",
+      "line": "こちらの問診票をご記入のうえ、保険証と一緒にお持ちください。お薬手帳がおありでしたら、そちらも。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。じゃあ、一度出て、また二時半に来ます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "初診",
+      "reading": "しょしん",
+      "meaning": "first visit"
+    },
+    {
+      "word": "優先する",
+      "reading": "ゆうせんする",
+      "meaning": "to prioritise"
+    },
+    {
+      "word": "予約枠",
+      "reading": "よやくわく",
+      "meaning": "appointment slot"
+    },
+    {
+      "word": "問診票",
+      "reading": "もんしんひょう",
+      "meaning": "medical questionnaire"
+    },
+    {
+      "word": "〜のうえ",
+      "reading": "のうえ",
+      "meaning": "after doing (formal)"
+    },
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meaning": "insurance card"
+    },
+    {
+      "word": "お薬手帳",
+      "reading": "おくすりてちょう",
+      "meaning": "medication record book"
+    },
+    {
+      "word": "診る",
+      "reading": "みる",
+      "meaning": "to examine"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-4-1"
+  ]
+}

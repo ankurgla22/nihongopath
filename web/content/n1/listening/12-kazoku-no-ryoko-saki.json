@@ -1,0 +1,89 @@
+{
+  "id": "n1-listening-12",
+  "slug": "12-kazoku-no-ryoko-saki",
+  "level": "n1",
+  "order": 12,
+  "kind": "integrated",
+  "title": "家族の旅行先",
+  "setting": "家族三人が、夏休みの旅行の行き先について話しています。",
+  "script": [
+    {
+      "speaker": "父",
+      "line": "夏休みの旅行、そろそろ決めないとな。俺は温泉でのんびりしたいんだけど。"
+    },
+    {
+      "speaker": "娘",
+      "line": "えー、温泉って、お父さんと一緒だと結局部屋でテレビ見てるだけじゃん。私は海がいい。友達がこの前行った沖縄、すごくよかったって。"
+    },
+    {
+      "speaker": "母",
+      "line": "沖縄は魅力的だけど、夏は飛行機代がかなり高いのよね。それに、お父さんは日焼けするとすぐ疲れちゃうし。"
+    },
+    {
+      "speaker": "父",
+      "line": "まあな。じゃ、山はどうだ。涼しいし、近くに温泉もある。"
+    },
+    {
+      "speaker": "娘",
+      "line": "山かあ。まあ、川で泳げるなら…。"
+    },
+    {
+      "speaker": "母",
+      "line": "そうね、車で行けるなら費用も抑えられるし。ただ、私はせっかくなら、少し足を伸ばして、あの古い町並みで有名なところにも寄りたいわ。"
+    },
+    {
+      "speaker": "父",
+      "line": "温泉の帰りに寄れるだろう。よし、それで行こう。"
+    },
+    {
+      "speaker": "娘",
+      "line": "しょうがないなあ。川があるとこね、絶対。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "のんびりする",
+      "reading": "のんびりする",
+      "meaning": "to relax"
+    },
+    {
+      "word": "結局",
+      "reading": "けっきょく",
+      "meaning": "in the end"
+    },
+    {
+      "word": "魅力的",
+      "reading": "みりょくてき",
+      "meaning": "attractive"
+    },
+    {
+      "word": "日焼け",
+      "reading": "ひやけ",
+      "meaning": "sunburn"
+    },
+    {
+      "word": "費用を抑える",
+      "reading": "ひようをおさえる",
+      "meaning": "to keep costs down"
+    },
+    {
+      "word": "足を伸ばす",
+      "reading": "あしをのばす",
+      "meaning": "to go a bit further"
+    },
+    {
+      "word": "町並み",
+      "reading": "まちなみ",
+      "meaning": "townscape"
+    },
+    {
+      "word": "しょうがない",
+      "reading": "しょうがない",
+      "meaning": "oh well, can't be helped"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-12-1",
+    "q-n1-l-12-2"
+  ]
+}

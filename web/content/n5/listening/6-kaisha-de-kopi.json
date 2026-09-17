@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-6",
+  "slug": "6-kaisha-de-kopi",
+  "level": "n5",
+  "order": 6,
+  "kind": "task",
+  "title": "会社でコピー",
+  "setting": "会社で、女の人と男の人が話しています。男の人はまず、何をしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "山田さん、この手紙を出してください。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい。今から郵便局へ行きます。"
+    },
+    {
+      "speaker": "女",
+      "line": "あ、ちょっと待ってください。先に、このコピーをお願いします。会議で使います。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。コピーをしてから、郵便局へ行きます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "手紙",
+      "reading": "てがみ",
+      "meaning": "letter"
+    },
+    {
+      "word": "出します",
+      "reading": "だします",
+      "meaning": "to send, mail"
+    },
+    {
+      "word": "郵便局",
+      "reading": "ゆうびんきょく",
+      "meaning": "post office"
+    },
+    {
+      "word": "先に",
+      "reading": "さきに",
+      "meaning": "first"
+    },
+    {
+      "word": "コピー",
+      "reading": "コピー",
+      "meaning": "copy"
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meaning": "meeting"
+    },
+    {
+      "word": "〜てから",
+      "reading": "てから",
+      "meaning": "after doing"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-6-1"
+  ]
+}

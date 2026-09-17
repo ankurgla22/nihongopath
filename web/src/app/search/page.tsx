@@ -23,7 +23,7 @@ export function generateMetadata({ searchParams }: { searchParams: Record<string
   const q = readQuery(searchParams);
   return pageMetadata({
     title: q ? `Search: ${q}` : "Search",
-    description: "Search grammar points, vocabulary, kanji, reading passages, listening exercises and JLPT strategy guides across N5–N2.",
+    description: "Search grammar points, vocabulary, kanji, reading passages, listening exercises and JLPT strategy guides across N5–N1.",
     path: "/search",
     noIndex: Boolean(q),
   });
@@ -101,7 +101,7 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
 
   return (
     <Container>
-      <PageTitle eyebrow="Search" title="Find anything across N5–N2" description="Grammar, vocabulary, kanji, reading, listening and JLPT strategy. Search in Japanese, romaji or English." />
+      <PageTitle eyebrow="Search" title="Find anything across N5–N1" description="Grammar, vocabulary, kanji, reading, listening and JLPT strategy. Search in Japanese, romaji or English." />
 
       <form action="/search" method="get" role="search" className="flex flex-col sm:flex-row gap-3">
         <label htmlFor="q" className="sr-only">

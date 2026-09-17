@@ -1,0 +1,50 @@
+{
+  "id": "n5-listening-10",
+  "slug": "10-hajimemashite",
+  "level": "n5",
+  "order": 10,
+  "kind": "quick-response",
+  "title": "はじめまして",
+  "setting": "はじめて会った人に言われました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "はじめまして。リンです。どうぞよろしく。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "はじめまして",
+      "reading": "はじめまして",
+      "meaning": "nice to meet you"
+    },
+    {
+      "word": "どうぞよろしく",
+      "reading": "どうぞよろしく",
+      "meaning": "pleased to meet you"
+    },
+    {
+      "word": "こちらこそ",
+      "reading": "こちらこそ",
+      "meaning": "likewise"
+    },
+    {
+      "word": "どういたしまして",
+      "reading": "どういたしまして",
+      "meaning": "you're welcome"
+    },
+    {
+      "word": "おかげさまで",
+      "reading": "おかげさまで",
+      "meaning": "thanks to you"
+    },
+    {
+      "word": "会います",
+      "reading": "あいます",
+      "meaning": "to meet"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-10-1"
+  ]
+}

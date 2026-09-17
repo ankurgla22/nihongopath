@@ -1,0 +1,75 @@
+{
+  "id": "n4-listening-1",
+  "slug": "1-arubaito-no-mise",
+  "level": "n4",
+  "order": 1,
+  "kind": "task",
+  "title": "アルバイトの店で",
+  "setting": "店で、店長と女の人が話しています。女の人はこのあとまず何をしますか。",
+  "script": [
+    {
+      "speaker": "店長",
+      "line": "田中さん、今日はお客さんが少ないから、先にテーブルをふいてくれる？"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。あの、皿洗いはどうしますか。"
+    },
+    {
+      "speaker": "店長",
+      "line": "皿は山田くんがやってるから大丈夫。テーブルが終わったら、メニューを新しいのに替えて。"
+    },
+    {
+      "speaker": "女",
+      "line": "新しいメニューはどこにありますか。"
+    },
+    {
+      "speaker": "店長",
+      "line": "事務所の机の上。あ、その前に、外の看板を出すのを忘れてた。それを先にお願い。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "店長",
+      "reading": "てんちょう",
+      "meaning": "store manager"
+    },
+    {
+      "word": "ふく",
+      "reading": "ふく",
+      "meaning": "to wipe"
+    },
+    {
+      "word": "皿洗い",
+      "reading": "さらあらい",
+      "meaning": "dishwashing"
+    },
+    {
+      "word": "替える",
+      "reading": "かえる",
+      "meaning": "to replace"
+    },
+    {
+      "word": "事務所",
+      "reading": "じむしょ",
+      "meaning": "office"
+    },
+    {
+      "word": "看板",
+      "reading": "かんばん",
+      "meaning": "signboard"
+    },
+    {
+      "word": "その前に",
+      "reading": "そのまえに",
+      "meaning": "before that"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-1-1"
+  ]
+}

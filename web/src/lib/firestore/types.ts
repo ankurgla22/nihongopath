@@ -17,7 +17,7 @@ export type UserDoc = {
   /** 1-based day in the 180-day curriculum the learner is currently on. */
   currentDay: number;
   currentPhase: number;
-  currentLevel: "n5" | "n4" | "n3" | "n2";
+  currentLevel: "n5" | "n4" | "n3" | "n2" | "n1";
   streak: number;
   longestStreak: number;
   lastStudyDate: string | null; // YYYY-MM-DD
@@ -32,7 +32,7 @@ export type UserDoc = {
 export type ProgressDoc = {
   contentId: string;
   type: Skill;
-  level: "foundation" | "n5" | "n4" | "n3" | "n2";
+  level: "foundation" | "n5" | "n4" | "n3" | "n2" | "n1";
   status: ProgressStatus;
   firstLearned: string;
   lastReviewed: string;

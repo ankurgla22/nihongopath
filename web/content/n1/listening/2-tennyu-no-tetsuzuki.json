@@ -1,0 +1,84 @@
+{
+  "id": "n1-listening-2",
+  "slug": "2-tennyu-no-tetsuzuki",
+  "level": "n1",
+  "order": 2,
+  "kind": "task",
+  "title": "転入の手続き",
+  "setting": "市役所で、男の人と職員が話しています。男の人はこのあとどうしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません、引っ越してきたので転入の手続きをお願いしたいんですが。"
+    },
+    {
+      "speaker": "職員",
+      "line": "かしこまりました。前の市区町村で転出証明書はお受け取りになりましたか。"
+    },
+    {
+      "speaker": "男",
+      "line": "あ、それが、引っ越しがバタバタしてて、まだなんです。"
+    },
+    {
+      "speaker": "職員",
+      "line": "そうしますと、こちらでの手続きはまだできかねます。マイナンバーカードをお持ちでしたら、転出届はオンラインでも出せますので、そちらで済ませていただいてから、改めてお越しいただけますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "カードは持ってます。オンラインだと、どのくらいで処理されますか。"
+    },
+    {
+      "speaker": "職員",
+      "line": "通常、二、三営業日ですね。処理が済んだら、こちらの窓口で転入届と、あわせて保険の切り替えも一度にできますよ。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。じゃ、まずそれをやってみます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "転入",
+      "reading": "てんにゅう",
+      "meaning": "moving into a municipality"
+    },
+    {
+      "word": "転出証明書",
+      "reading": "てんしゅつしょうめいしょ",
+      "meaning": "moving-out certificate"
+    },
+    {
+      "word": "バタバタする",
+      "reading": "バタバタする",
+      "meaning": "to be hectic"
+    },
+    {
+      "word": "〜かねる",
+      "reading": "かねる",
+      "meaning": "unable to (formal)"
+    },
+    {
+      "word": "済ませる",
+      "reading": "すませる",
+      "meaning": "to finish, complete"
+    },
+    {
+      "word": "改めて",
+      "reading": "あらためて",
+      "meaning": "again, another time"
+    },
+    {
+      "word": "営業日",
+      "reading": "えいぎょうび",
+      "meaning": "business day"
+    },
+    {
+      "word": "切り替え",
+      "reading": "きりかえ",
+      "meaning": "switching over"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-2-1"
+  ]
+}

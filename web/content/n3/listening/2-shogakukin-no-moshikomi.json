@@ -1,0 +1,79 @@
+{
+  "id": "n3-listening-2",
+  "slug": "2-shogakukin-no-moshikomi",
+  "level": "n3",
+  "order": 2,
+  "kind": "task",
+  "title": "奨学金の申し込み",
+  "setting": "大学の事務室で、学生と職員が話しています。学生はこのあと何をしなければなりませんか。",
+  "script": [
+    {
+      "speaker": "学生",
+      "line": "すみません、奨学金の申し込みをしたいんですが。"
+    },
+    {
+      "speaker": "職員",
+      "line": "はい。申込書はもう書きましたか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、これです。あと、成績証明書も持ってきました。"
+    },
+    {
+      "speaker": "職員",
+      "line": "ありがとうございます。ええと、申込書の写真がありませんね。写真を貼ってから、もう一度持ってきてください。"
+    },
+    {
+      "speaker": "学生",
+      "line": "あ、すみません。写真は今、持っていないんですが。"
+    },
+    {
+      "speaker": "職員",
+      "line": "一階に証明写真の機械がありますから、そこで撮れますよ。締め切りは今日の五時ですから、急いでくださいね。"
+    },
+    {
+      "speaker": "学生",
+      "line": "わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "奨学金",
+      "reading": "しょうがくきん",
+      "meaning": "scholarship"
+    },
+    {
+      "word": "申込書",
+      "reading": "もうしこみしょ",
+      "meaning": "application form"
+    },
+    {
+      "word": "成績証明書",
+      "reading": "せいせきしょうめいしょ",
+      "meaning": "transcript"
+    },
+    {
+      "word": "貼る",
+      "reading": "はる",
+      "meaning": "to stick, paste"
+    },
+    {
+      "word": "証明写真",
+      "reading": "しょうめいしゃしん",
+      "meaning": "ID photo"
+    },
+    {
+      "word": "締め切り",
+      "reading": "しめきり",
+      "meaning": "deadline"
+    },
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meaning": "to hurry"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-2-1"
+  ]
+}

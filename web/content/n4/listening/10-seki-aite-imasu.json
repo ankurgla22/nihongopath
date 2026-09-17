@@ -1,0 +1,50 @@
+{
+  "id": "n4-listening-10",
+  "slug": "10-seki-aite-imasu",
+  "level": "n4",
+  "order": 10,
+  "kind": "quick-response",
+  "title": "席、空いていますか",
+  "setting": "電車の中で聞かれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "あのう、この席、空いていますか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "席",
+      "reading": "せき",
+      "meaning": "seat"
+    },
+    {
+      "word": "空く",
+      "reading": "あく",
+      "meaning": "to be vacant"
+    },
+    {
+      "word": "どうぞ",
+      "reading": "どうぞ",
+      "meaning": "go ahead"
+    },
+    {
+      "word": "座る",
+      "reading": "すわる",
+      "meaning": "to sit"
+    },
+    {
+      "word": "空ける",
+      "reading": "あける",
+      "meaning": "to vacate"
+    },
+    {
+      "word": "あのう",
+      "reading": "あのう",
+      "meaning": "um, excuse me"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-10-1"
+  ]
+}

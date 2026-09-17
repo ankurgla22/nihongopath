@@ -1,0 +1,65 @@
+{
+  "id": "n1-listening-15",
+  "slug": "15-sokuji-oto-kanyo",
+  "level": "n1",
+  "order": 15,
+  "kind": "quick-response",
+  "title": "即時応答（慣用表現）",
+  "setting": "それぞれの文を聞いて、正しい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "この企画、通るかどうか微妙なところだね。"
+    },
+    {
+      "speaker": "女",
+      "line": "わざわざお越しいただいて、恐縮です。"
+    },
+    {
+      "speaker": "男",
+      "line": "あのプロジェクト、結局白紙に戻っちゃったんだって。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "企画",
+      "reading": "きかく",
+      "meaning": "proposal, plan"
+    },
+    {
+      "word": "通る",
+      "reading": "とおる",
+      "meaning": "to be approved"
+    },
+    {
+      "word": "微妙",
+      "reading": "びみょう",
+      "meaning": "uncertain, borderline"
+    },
+    {
+      "word": "〜次第",
+      "reading": "しだい",
+      "meaning": "depending on"
+    },
+    {
+      "word": "わざわざ",
+      "reading": "わざわざ",
+      "meaning": "going out of one's way"
+    },
+    {
+      "word": "恐縮です",
+      "reading": "きょうしゅくです",
+      "meaning": "I'm much obliged"
+    },
+    {
+      "word": "白紙に戻る",
+      "reading": "はくしにもどる",
+      "meaning": "to go back to square one"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-15-1",
+    "q-n1-l-15-2",
+    "q-n1-l-15-3"
+  ]
+}

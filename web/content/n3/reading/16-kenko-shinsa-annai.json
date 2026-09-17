@@ -1,0 +1,99 @@
+{
+  "id": "n3-reading-16",
+  "slug": "16-kenko-shinsa-annai",
+  "level": "n3",
+  "order": 16,
+  "kind": "info",
+  "title": "健康 — 市民健康診断のご案内",
+  "paragraphs": [
+    "みどり市 令和8年度 市民健康診断（けんこうしんだん）のご案内",
+    "【対象（たいしょう）】市内に住む40歳以上の方（会社で健康診断を受ける方を除く）",
+    "【期間】6月1日（月）〜9月30日（水）",
+    "【会場と実施日】",
+    "・市民保健センター：月〜金 8:30〜11:00（予約不要）",
+    "・北地区公民館：毎週火曜日 9:00〜11:00（要予約）",
+    "・南地区公民館：毎週木曜日 9:00〜11:00（要予約）",
+    "【検査内容】身長・体重、血圧（けつあつ）、血液検査、尿（にょう）検査、心電図（しんでんず）（50歳以上のみ）",
+    "【料金】基本検査 1,000円／70歳以上と市民税非課税（ひかぜい）世帯の方は無料（当日、証明書を提示）",
+    "【追加検査（希望者）】胃がん検診 1,500円、大腸がん検診 500円 ※追加検査は保健センターのみ",
+    "【注意】",
+    "・検査の前日午後9時以降は、水以外を口にしないでください。",
+    "・受診券（じゅしんけん）と保険証を必ずお持ちください。受診券は5月中旬に郵送します。届かない場合は健康推進課までご連絡ください。",
+    "・公民館の予約は電話（022-555-0202）で、希望日の3日前までにお願いします。",
+    "・結果は約3週間後に郵送します。"
+  ],
+  "vocab": [
+    {
+      "word": "健康診断",
+      "reading": "けんこうしんだん",
+      "meaning": "health checkup"
+    },
+    {
+      "word": "対象",
+      "reading": "たいしょう",
+      "meaning": "eligible persons"
+    },
+    {
+      "word": "〜を除く",
+      "reading": "をのぞく",
+      "meaning": "excluding ..."
+    },
+    {
+      "word": "予約不要",
+      "reading": "よやくふよう",
+      "meaning": "no reservation needed"
+    },
+    {
+      "word": "要予約",
+      "reading": "ようよやく",
+      "meaning": "reservation required"
+    },
+    {
+      "word": "血圧",
+      "reading": "けつあつ",
+      "meaning": "blood pressure"
+    },
+    {
+      "word": "心電図",
+      "reading": "しんでんず",
+      "meaning": "electrocardiogram"
+    },
+    {
+      "word": "非課税",
+      "reading": "ひかぜい",
+      "meaning": "tax-exempt"
+    },
+    {
+      "word": "提示する",
+      "reading": "ていじする",
+      "meaning": "to present, show"
+    },
+    {
+      "word": "検診",
+      "reading": "けんしん",
+      "meaning": "screening"
+    },
+    {
+      "word": "受診券",
+      "reading": "じゅしんけん",
+      "meaning": "checkup voucher"
+    },
+    {
+      "word": "郵送する",
+      "reading": "ゆうそうする",
+      "meaning": "to send by post"
+    }
+  ],
+  "questionIds": [
+    "q-n3-r-16-1",
+    "q-n3-r-16-2",
+    "q-n3-r-16-3",
+    "q-n3-r-16-4"
+  ],
+  "strategyNotes": [
+    "Information passages are answered by matching conditions: age, location, day, cost. Read the question first, list its conditions, then scan.",
+    "Parenthetical restrictions ((50歳以上のみ), (要予約), ※…のみ) override the general rule. Check them before answering.",
+    "〜を除く and 以外 both mean exclusion. Notice who is NOT eligible or what is NOT allowed."
+  ],
+  "timeLimitSeconds": 300
+}

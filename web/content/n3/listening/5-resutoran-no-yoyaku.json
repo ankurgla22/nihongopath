@@ -1,0 +1,70 @@
+{
+  "id": "n3-listening-5",
+  "slug": "5-resutoran-no-yoyaku",
+  "level": "n3",
+  "order": 5,
+  "kind": "task",
+  "title": "レストランの予約",
+  "setting": "電話で、女の人とレストランの人が話しています。女の人はこのあとどうしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "はい、さくらレストランです。"
+    },
+    {
+      "speaker": "女",
+      "line": "あの、今夜七時に四人で予約したいんですが。"
+    },
+    {
+      "speaker": "男",
+      "line": "申し訳ございません。七時はいっぱいでして、七時半でしたらご案内できますが。"
+    },
+    {
+      "speaker": "女",
+      "line": "七時半ですか。ちょっと、ほかの人に聞いてみないと…。"
+    },
+    {
+      "speaker": "男",
+      "line": "では、三十分ほどお席をお取りしておきますので、決まりましたらお電話いただけますか。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい、そうします。すぐ確認して、かけ直します。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "今夜",
+      "reading": "こんや",
+      "meaning": "tonight"
+    },
+    {
+      "word": "いっぱい",
+      "reading": "いっぱい",
+      "meaning": "full"
+    },
+    {
+      "word": "ご案内",
+      "reading": "ごあんない",
+      "meaning": "to seat, show (polite)"
+    },
+    {
+      "word": "〜ないと",
+      "reading": "ないと",
+      "meaning": "unless, have to"
+    },
+    {
+      "word": "お取りしておく",
+      "reading": "おとりしておく",
+      "meaning": "to hold (a seat)"
+    },
+    {
+      "word": "かけ直す",
+      "reading": "かけなおす",
+      "meaning": "to call back"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-5-1"
+  ]
+}

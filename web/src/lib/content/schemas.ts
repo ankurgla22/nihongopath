@@ -1,14 +1,15 @@
 import { z } from "zod";
 
-export const LevelSchema = z.enum(["n5", "n4", "n3", "n2"]);
+export const LevelSchema = z.enum(["n5", "n4", "n3", "n2", "n1"]);
 export type Level = z.infer<typeof LevelSchema>;
 
-export const LEVELS: Level[] = ["n5", "n4", "n3", "n2"];
+export const LEVELS: Level[] = ["n5", "n4", "n3", "n2", "n1"];
 export const LEVEL_LABEL: Record<Level, string> = {
   n5: "N5",
   n4: "N4",
   n3: "N3",
   n2: "N2",
+  n1: "N1",
 };
 
 export const ExampleSchema = z.object({
@@ -56,7 +57,7 @@ export type Diagram = z.infer<typeof DiagramSchema>;
 
 export const QuestionTypeSchema = z.enum(["mc", "ordering", "cloze"]);
 
-export const QuestionLevelSchema = z.enum(["foundation", "n5", "n4", "n3", "n2"]);
+export const QuestionLevelSchema = z.enum(["foundation", "n5", "n4", "n3", "n2", "n1"]);
 export type QuestionLevel = z.infer<typeof QuestionLevelSchema>;
 
 export const QuestionSchema = z.object({

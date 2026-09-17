@@ -22,10 +22,10 @@ type Vocab = { id: string; word: string; reading: string; pos: string; meaning: 
 type Kanji = { id: string; character: string; meanings: string[]; onyomi: string[]; kunyomi: string[]; words: { word: string; reading: string; meaning: string }[] };
 type Grammar = { id: string; title: string; meaning: string; examples: { ja: string; reading?: string; en: string }[] };
 
-type GenLevel = "n5" | "n4" | "n3";
-const LEVELS: GenLevel[] = ["n5", "n4", "n3"];
+type GenLevel = "n5" | "n4" | "n3" | "n1";
+const LEVELS: GenLevel[] = ["n5", "n4", "n3", "n1"];
 const TARGET = { vocabMeaning: 150, vocabReading: 100, kanjiReading: 100, kanjiMeaning: 50, grammar: 60 };
-const DIFF: Record<GenLevel, { easy: number; hard: number }> = { n5: { easy: 1, hard: 2 }, n4: { easy: 2, hard: 2 }, n3: { easy: 2, hard: 3 } };
+const DIFF: Record<GenLevel, { easy: number; hard: number }> = { n5: { easy: 1, hard: 2 }, n4: { easy: 2, hard: 2 }, n3: { easy: 2, hard: 3 }, n1: { easy: 4, hard: 5 } };
 
 const readJson = <T>(rel: string): T => JSON.parse(fs.readFileSync(path.join(CONTENT, rel), "utf8"));
 
@@ -320,7 +320,8 @@ const summary: string[] = [];
 
 /** Every reading the whole content set knows for a word, so no alternative reading is ever used as a distractor. */
 const allReadings = new Map<string, Set<string>>();
-for (const level of ["n5", "n4", "n3", "n2"]) {
+for (const level of ["n5", "n4", "n3", "n2", "n1"]) {
+  if (!fs.existsSync(path.join(CONTENT, level, "vocabulary.json"))) { console.log(level + ": no base content, skipped"); continue; }
   const add = (word: string, reading: string) => {
     if (!word || !reading) return;
     for (const r of reading.split(/[／/]/)) {

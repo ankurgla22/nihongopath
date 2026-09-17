@@ -147,7 +147,7 @@ export default function HomePage() {
                 one day at a time.
               </h1>
               <p className="animate-rise-3 mt-6 text-lg sm:text-xl text-ink-2 leading-relaxed max-w-xl">
-                A complete course from N5 to N2 with a 180-day plan that adapts to your weak points.
+                A complete course from N5 to N1 with a 180-day N2 plan that adapts to your weak points.
                 <br className="hidden sm:block" /> Every lesson is written so that difficult Japanese feels simple.
               </p>
               <div className="animate-rise-3 mt-8 flex flex-wrap gap-3">

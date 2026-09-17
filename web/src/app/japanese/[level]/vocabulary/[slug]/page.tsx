@@ -232,7 +232,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
                       <span lang="ja" className="ja shrink-0 h-16 w-16 rounded-xl bg-surface-2 border border-line grid place-items-center text-4xl font-medium">
                         {char}
                       </span>
-                      <span className="text-sm text-muted">Not in the N5–N2 kanji lists</span>
+                      <span className="text-sm text-muted">Not in the N5–N1 kanji lists</span>
                     </div>
                   )}
                 </li>

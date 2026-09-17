@@ -1,0 +1,66 @@
+{
+  "id": "n5-listening-2",
+  "slug": "2-eki-de-basu",
+  "level": "n5",
+  "order": 2,
+  "kind": "task",
+  "title": "駅でバスに乗る",
+  "setting": "駅で、男の人と女の人が話しています。男の人は何番のバスに乗りますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません。図書館へ行きたいです。何番のバスですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "図書館は、三番のバスです。でも、三番は今日は来ません。"
+    },
+    {
+      "speaker": "男",
+      "line": "ええ？"
+    },
+    {
+      "speaker": "女",
+      "line": "五番のバスに乗ってください。五番も図書館へ行きます。"
+    },
+    {
+      "speaker": "男",
+      "line": "五番ですね。ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library"
+    },
+    {
+      "word": "何番",
+      "reading": "なんばん",
+      "meaning": "what number"
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meaning": "bus"
+    },
+    {
+      "word": "来ます",
+      "reading": "きます",
+      "meaning": "to come"
+    },
+    {
+      "word": "乗ります",
+      "reading": "のります",
+      "meaning": "to ride, get on"
+    },
+    {
+      "word": "でも",
+      "reading": "でも",
+      "meaning": "but"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-2-1"
+  ]
+}

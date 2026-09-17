@@ -1,0 +1,79 @@
+{
+  "id": "n3-listening-1",
+  "slug": "1-shucho-no-shiryo",
+  "level": "n3",
+  "order": 1,
+  "kind": "task",
+  "title": "出張の資料",
+  "setting": "会社で、男の人と女の人が話しています。女の人はこのあとまず何をしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "鈴木さん、明日の出張の件だけど、新幹線の切符はもう買った？"
+    },
+    {
+      "speaker": "女",
+      "line": "はい、昨日買っておきました。ホテルも予約済みです。"
+    },
+    {
+      "speaker": "男",
+      "line": "ありがとう。それで、取引先に渡す資料なんだけど、まだ印刷してないよね？"
+    },
+    {
+      "speaker": "女",
+      "line": "はい、これから印刷しようと思っていました。"
+    },
+    {
+      "speaker": "男",
+      "line": "その前に、最後のページのグラフ、数字が間違ってるって課長が言ってたから、確認してから印刷して。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。すぐ確認します。"
+    },
+    {
+      "speaker": "男",
+      "line": "印刷が終わったら、僕にも一部ください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip"
+    },
+    {
+      "word": "〜ておく",
+      "reading": "ておく",
+      "meaning": "to do in advance"
+    },
+    {
+      "word": "予約済み",
+      "reading": "よやくずみ",
+      "meaning": "already booked"
+    },
+    {
+      "word": "取引先",
+      "reading": "とりひきさき",
+      "meaning": "client company"
+    },
+    {
+      "word": "印刷",
+      "reading": "いんさつ",
+      "meaning": "printing"
+    },
+    {
+      "word": "グラフ",
+      "reading": "グラフ",
+      "meaning": "graph"
+    },
+    {
+      "word": "一部",
+      "reading": "いちぶ",
+      "meaning": "one copy"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-1-1"
+  ]
+}

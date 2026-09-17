@@ -1,0 +1,86 @@
+{
+  "id": "n5-reading-3",
+  "slug": "3-kaimono-memo",
+  "level": "n5",
+  "order": 3,
+  "kind": "short",
+  "title": "買い物のメモ",
+  "paragraphs": [
+    "お母（かあ）さんへ",
+    "スーパーで買（か）ってきてください。",
+    "・たまご（十個（じっこ））",
+    "・牛乳（ぎゅうにゅう）を二本（にほん）",
+    "・りんごを三つ（みっつ）",
+    "・パン",
+    "肉（にく）は買わなくてもいいです。きのう買いました。お金（かね）はテーブルの上（うえ）にあります。今日（きょう）は魚（さかな）が安（やす）いです。",
+    "田中（たなか）"
+  ],
+  "vocab": [
+    {
+      "word": "スーパー",
+      "reading": "すーぱー",
+      "meaning": "supermarket"
+    },
+    {
+      "word": "たまご",
+      "reading": "たまご",
+      "meaning": "egg"
+    },
+    {
+      "word": "十個",
+      "reading": "じっこ",
+      "meaning": "ten (items)"
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meaning": "milk"
+    },
+    {
+      "word": "二本",
+      "reading": "にほん",
+      "meaning": "two (long objects)"
+    },
+    {
+      "word": "三つ",
+      "reading": "みっつ",
+      "meaning": "three (things)"
+    },
+    {
+      "word": "肉",
+      "reading": "にく",
+      "meaning": "meat"
+    },
+    {
+      "word": "お金",
+      "reading": "おかね",
+      "meaning": "money"
+    },
+    {
+      "word": "テーブルの上",
+      "reading": "てーぶるのうえ",
+      "meaning": "on the table"
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meaning": "fish"
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-3-1",
+    "q-n5-r-3-2",
+    "q-n5-r-3-3"
+  ],
+  "strategyNotes": [
+    "Counters change with the object: 個 for small items, 本 for bottles, つ for general things. Match the counter to the item.",
+    "〜なくてもいいです means 'do not have to'. It signals something NOT on the list.",
+    "Notes often end with extra information (お金は…). One question usually targets that final sentence."
+  ],
+  "timeLimitSeconds": 150
+}

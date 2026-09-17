@@ -1,0 +1,50 @@
+{
+  "id": "n3-listening-13",
+  "slug": "13-onegai-shitai-koto",
+  "level": "n3",
+  "order": 13,
+  "kind": "quick-response",
+  "title": "お願いしたいこと",
+  "setting": "同僚に話しかけられました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません、ちょっとお願いしたいことがあるんですが。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "お願い",
+      "reading": "おねがい",
+      "meaning": "request"
+    },
+    {
+      "word": "〜んですが",
+      "reading": "んですが",
+      "meaning": "(softening lead-in)"
+    },
+    {
+      "word": "何でしょうか",
+      "reading": "なんでしょうか",
+      "meaning": "what is it?"
+    },
+    {
+      "word": "けっこうです",
+      "reading": "けっこうです",
+      "meaning": "no thank you"
+    },
+    {
+      "word": "話しかける",
+      "reading": "はなしかける",
+      "meaning": "to speak to"
+    },
+    {
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meaning": "colleague"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-13-1"
+  ]
+}

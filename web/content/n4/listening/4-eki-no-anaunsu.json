@@ -1,0 +1,55 @@
+{
+  "id": "n4-listening-4",
+  "slug": "4-eki-no-anaunsu",
+  "level": "n4",
+  "order": 4,
+  "kind": "task",
+  "title": "駅のアナウンス",
+  "setting": "駅でアナウンスを聞いています。東京へ行く人はどうしますか。",
+  "script": [
+    {
+      "speaker": "アナウンス",
+      "line": "お客様にお知らせします。ただいま、強い風のため、東京行きの急行電車は運転を見合わせております。東京方面へお越しのお客様は、二番線の普通電車をご利用ください。普通電車は十分後に発車いたします。ご迷惑をおかけして申し訳ございません。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "お知らせ",
+      "reading": "おしらせ",
+      "meaning": "announcement"
+    },
+    {
+      "word": "〜行き",
+      "reading": "ゆき",
+      "meaning": "bound for"
+    },
+    {
+      "word": "急行",
+      "reading": "きゅうこう",
+      "meaning": "express"
+    },
+    {
+      "word": "見合わせる",
+      "reading": "みあわせる",
+      "meaning": "to suspend"
+    },
+    {
+      "word": "方面",
+      "reading": "ほうめん",
+      "meaning": "direction"
+    },
+    {
+      "word": "普通電車",
+      "reading": "ふつうでんしゃ",
+      "meaning": "local train"
+    },
+    {
+      "word": "発車",
+      "reading": "はっしゃ",
+      "meaning": "departure"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-4-1"
+  ]
+}

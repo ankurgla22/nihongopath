@@ -1,0 +1,70 @@
+{
+  "id": "n3-listening-9",
+  "slug": "9-atarashii-shigoto",
+  "level": "n3",
+  "order": 9,
+  "kind": "point",
+  "title": "新しい仕事",
+  "setting": "男の人と女の人が話しています。女の人は新しい仕事の何がいいと言っていますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "新しい会社、どう？"
+    },
+    {
+      "speaker": "女",
+      "line": "給料は前と同じくらいなんだけど、残業がほとんどなくて、六時には帰れるの。"
+    },
+    {
+      "speaker": "男",
+      "line": "それはいいね。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん。前は毎日遅くまで働いてたから、家で料理する時間もなかったし。今は趣味の時間もできて、毎日が楽しいよ。"
+    },
+    {
+      "speaker": "男",
+      "line": "通勤時間は？"
+    },
+    {
+      "speaker": "女",
+      "line": "それは前より少し長くなっちゃったけど、気にならないよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "給料",
+      "reading": "きゅうりょう",
+      "meaning": "salary"
+    },
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "meaning": "overtime"
+    },
+    {
+      "word": "ほとんど",
+      "reading": "ほとんど",
+      "meaning": "hardly"
+    },
+    {
+      "word": "趣味",
+      "reading": "しゅみ",
+      "meaning": "hobby"
+    },
+    {
+      "word": "通勤",
+      "reading": "つうきん",
+      "meaning": "commute"
+    },
+    {
+      "word": "気にならない",
+      "reading": "きにならない",
+      "meaning": "doesn't bother me"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-9-1"
+  ]
+}

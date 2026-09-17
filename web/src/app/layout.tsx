@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
   description:
-    "A complete Japanese course, daily study system and JLPT N2 exam preparation platform. Grammar, vocabulary, kanji, reading and listening from N5 to N2.",
+    "A complete Japanese course, daily study system and JLPT N2 exam preparation platform. Grammar, vocabulary, kanji, reading and listening from N5 to N1.",
   openGraph: { siteName: SITE_NAME, type: "website" },
 };
 

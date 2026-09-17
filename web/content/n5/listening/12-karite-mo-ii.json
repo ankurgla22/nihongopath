@@ -1,0 +1,50 @@
+{
+  "id": "n5-listening-12",
+  "slug": "12-karite-mo-ii",
+  "level": "n5",
+  "order": 12,
+  "kind": "quick-response",
+  "title": "借りてもいいですか",
+  "setting": "友だちに聞かれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "この本、借りてもいいですか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "book"
+    },
+    {
+      "word": "借ります",
+      "reading": "かります",
+      "meaning": "to borrow"
+    },
+    {
+      "word": "〜てもいいですか",
+      "reading": "てもいいですか",
+      "meaning": "may I ...?"
+    },
+    {
+      "word": "どうぞ",
+      "reading": "どうぞ",
+      "meaning": "go ahead"
+    },
+    {
+      "word": "ええ",
+      "reading": "ええ",
+      "meaning": "yes"
+    },
+    {
+      "word": "いいえ",
+      "reading": "いいえ",
+      "meaning": "no"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-12-1"
+  ]
+}

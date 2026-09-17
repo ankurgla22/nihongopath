@@ -1,0 +1,75 @@
+{
+  "id": "n3-listening-8",
+  "slug": "8-kaban-o-kawanai",
+  "level": "n3",
+  "order": 8,
+  "kind": "point",
+  "title": "かばんを買わない",
+  "setting": "店で、店員と男の人が話しています。男の人はどうして大きいサイズのかばんを買いませんか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "こちらのかばん、いかがですか。人気の商品です。"
+    },
+    {
+      "speaker": "男",
+      "line": "色はいいですね。でも、思ったより小さいなあ。パソコンが入らないと困るんです。"
+    },
+    {
+      "speaker": "店員",
+      "line": "同じデザインで、一つ大きいサイズもございますよ。"
+    },
+    {
+      "speaker": "男",
+      "line": "あ、それなら。値段は？"
+    },
+    {
+      "speaker": "店員",
+      "line": "少し高くなって、一万二千円です。"
+    },
+    {
+      "speaker": "男",
+      "line": "うーん、それはちょっと予算オーバーだなあ。もう少し考えます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "商品",
+      "reading": "しょうひん",
+      "meaning": "product"
+    },
+    {
+      "word": "思ったより",
+      "reading": "おもったより",
+      "meaning": "than expected"
+    },
+    {
+      "word": "困る",
+      "reading": "こまる",
+      "meaning": "to be in trouble"
+    },
+    {
+      "word": "デザイン",
+      "reading": "デザイン",
+      "meaning": "design"
+    },
+    {
+      "word": "値段",
+      "reading": "ねだん",
+      "meaning": "price"
+    },
+    {
+      "word": "予算",
+      "reading": "よさん",
+      "meaning": "budget"
+    },
+    {
+      "word": "オーバー",
+      "reading": "オーバー",
+      "meaning": "over"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-8-1"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-5",
+  "slug": "5-repoto-no-shimekiri",
+  "level": "n4",
+  "order": 5,
+  "kind": "task",
+  "title": "レポートの締め切り",
+  "setting": "大学で、学生と先生が話しています。学生はレポートをどうしますか。",
+  "script": [
+    {
+      "speaker": "学生",
+      "line": "先生、レポートのことですが、金曜日までに出せそうにありません。"
+    },
+    {
+      "speaker": "先生",
+      "line": "どうしてですか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "実は、週末に国から家族が来るので、その準備で忙しくて…。"
+    },
+    {
+      "speaker": "先生",
+      "line": "うーん。金曜日は無理でも、月曜日の朝までなら受け取りますよ。ただし、メールではなく、紙で研究室に持ってきてください。"
+    },
+    {
+      "speaker": "学生",
+      "line": "月曜日の朝ですね。ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "レポート",
+      "reading": "レポート",
+      "meaning": "report"
+    },
+    {
+      "word": "〜そうにない",
+      "reading": "そうにない",
+      "meaning": "unlikely to"
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually"
+    },
+    {
+      "word": "無理",
+      "reading": "むり",
+      "meaning": "impossible"
+    },
+    {
+      "word": "受け取る",
+      "reading": "うけとる",
+      "meaning": "to accept"
+    },
+    {
+      "word": "ただし",
+      "reading": "ただし",
+      "meaning": "however"
+    },
+    {
+      "word": "研究室",
+      "reading": "けんきゅうしつ",
+      "meaning": "professor's office"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-5-1"
+  ]
+}

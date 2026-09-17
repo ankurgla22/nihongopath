@@ -1,0 +1,62 @@
+{
+  "id": "n5-listening-4",
+  "slug": "4-resutoran-de-chumon",
+  "level": "n5",
+  "order": 4,
+  "kind": "task",
+  "title": "レストランで注文",
+  "setting": "レストランで、男の人と店の人が話しています。男の人は何を注文しますか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "ご注文は。"
+    },
+    {
+      "speaker": "男",
+      "line": "カレーをください。それから、コーヒーもお願いします。"
+    },
+    {
+      "speaker": "店員",
+      "line": "すみません。コーヒーは今、ありません。お茶はあります。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、お茶をお願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "order"
+    },
+    {
+      "word": "カレー",
+      "reading": "カレー",
+      "meaning": "curry"
+    },
+    {
+      "word": "それから",
+      "reading": "それから",
+      "meaning": "and then"
+    },
+    {
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "meaning": "coffee"
+    },
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning": "tea"
+    },
+    {
+      "word": "お願いします",
+      "reading": "おねがいします",
+      "meaning": "please"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-4-1"
+  ]
+}

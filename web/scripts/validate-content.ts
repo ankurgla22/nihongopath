@@ -63,7 +63,7 @@ function loadDir(relDir: string, schema: z.ZodTypeAny, collect?: Set<string>) {
 const questions = loadDir("questions", QuestionSchema, questionIds);
 const refs: { from: string; qid: string }[] = [];
 
-for (const level of ["n5", "n4", "n3", "n2"]) {
+for (const level of ["n5", "n4", "n3", "n2", "n1"]) {
   load(`${level}/grammar-base.json`, GrammarLessonSchema);
   load(`${level}/vocabulary.json`, VocabItemSchema);
   load(`${level}/kanji.json`, KanjiItemSchema);

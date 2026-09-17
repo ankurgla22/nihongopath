@@ -145,7 +145,7 @@ function importVocab(level: Level): VocabItem[] {
         meaning,
         theme: theme || undefined,
         examples: [{ ja: ja || example, en: en || "" }].map((e) => ({ ...e, en: e.en || "(see Japanese)" })),
-        difficulty: level === "n2" ? 4 : level === "n3" ? 3 : 2,
+        difficulty: level === "n1" ? 5 : level === "n2" ? 4 : level === "n3" ? 3 : 2,
         enriched: false,
       };
       const parsed = VocabItemSchema.safeParse(item);
@@ -234,7 +234,8 @@ function importGrammar(level: Level): GrammarLesson[] {
   return lessons;
 }
 
-for (const level of ["n5", "n4", "n3", "n2"] as Level[]) {
+for (const level of ["n5", "n4", "n3", "n2", "n1"] as Level[]) {
+  if (!fs.existsSync(path.join(SM, "02-kanji", `kanji-${level.toUpperCase()}.md`))) { console.log(`${level}: no study materials yet, skipped`); continue; }
   const kanji = importKanji(level);
   const vocab = importVocab(level);
   const grammar = importGrammar(level);

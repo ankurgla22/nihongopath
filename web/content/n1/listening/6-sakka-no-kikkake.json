@@ -1,0 +1,80 @@
+{
+  "id": "n1-listening-6",
+  "slug": "6-sakka-no-kikkake",
+  "level": "n1",
+  "order": 6,
+  "kind": "point",
+  "title": "作家のきっかけ",
+  "setting": "インタビューで、記者が作家に話を聞いています。作家はどうして小説を書き始めましたか。",
+  "script": [
+    {
+      "speaker": "記者",
+      "line": "先生が小説を書き始められたきっかけは何だったんでしょうか。"
+    },
+    {
+      "speaker": "作家",
+      "line": "よく聞かれるんですが、別に文学に憧れていたわけじゃないんですよ。もともとは会社員で、営業をやってました。"
+    },
+    {
+      "speaker": "記者",
+      "line": "意外ですね。"
+    },
+    {
+      "speaker": "作家",
+      "line": "三十を過ぎたころに体を壊して、半年ほど入院したんです。することがなくて、暇つぶしに病室で書き始めたのが最初で。"
+    },
+    {
+      "speaker": "記者",
+      "line": "それが賞を取られた作品に。"
+    },
+    {
+      "speaker": "作家",
+      "line": "いや、それはずっと後です。最初のものは誰にも見せなかった。ただ、書いてると、病気のことを忘れられたんですね。それが心地よくて、退院してからも続けたと。気づいたら、それが仕事になってました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "きっかけ",
+      "reading": "きっかけ",
+      "meaning": "trigger, what started it"
+    },
+    {
+      "word": "憧れる",
+      "reading": "あこがれる",
+      "meaning": "to long for"
+    },
+    {
+      "word": "〜わけじゃない",
+      "reading": "わけじゃない",
+      "meaning": "it's not that..."
+    },
+    {
+      "word": "体を壊す",
+      "reading": "からだをこわす",
+      "meaning": "to ruin one's health"
+    },
+    {
+      "word": "暇つぶし",
+      "reading": "ひまつぶし",
+      "meaning": "killing time"
+    },
+    {
+      "word": "心地よい",
+      "reading": "ここちよい",
+      "meaning": "pleasant"
+    },
+    {
+      "word": "退院",
+      "reading": "たいいん",
+      "meaning": "leaving hospital"
+    },
+    {
+      "word": "賞",
+      "reading": "しょう",
+      "meaning": "prize"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-6-1"
+  ]
+}

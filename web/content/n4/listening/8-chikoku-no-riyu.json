@@ -1,0 +1,62 @@
+{
+  "id": "n4-listening-8",
+  "slug": "8-chikoku-no-riyu",
+  "level": "n4",
+  "order": 8,
+  "kind": "point",
+  "title": "遅刻の理由",
+  "setting": "会社で、女の人と男の人が話しています。男の人はどうして遅刻しましたか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "遅かったね。寝坊したの？"
+    },
+    {
+      "speaker": "男",
+      "line": "いや、いつもどおり起きたんだけど。駅に着いたら、財布を忘れたことに気がついて。"
+    },
+    {
+      "speaker": "女",
+      "line": "え、取りに帰ったの？"
+    },
+    {
+      "speaker": "男",
+      "line": "うん。だから、次の電車になっちゃった。電車は遅れてなかったんだけどね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "遅刻",
+      "reading": "ちこく",
+      "meaning": "being late"
+    },
+    {
+      "word": "寝坊する",
+      "reading": "ねぼうする",
+      "meaning": "to oversleep"
+    },
+    {
+      "word": "いつもどおり",
+      "reading": "いつもどおり",
+      "meaning": "as usual"
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning": "wallet"
+    },
+    {
+      "word": "気がつく",
+      "reading": "きがつく",
+      "meaning": "to notice"
+    },
+    {
+      "word": "取りに帰る",
+      "reading": "とりにかえる",
+      "meaning": "to go back to get"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-8-1"
+  ]
+}

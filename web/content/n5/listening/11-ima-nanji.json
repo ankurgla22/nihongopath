@@ -1,0 +1,50 @@
+{
+  "id": "n5-listening-11",
+  "slug": "11-ima-nanji",
+  "level": "n5",
+  "order": 11,
+  "kind": "quick-response",
+  "title": "今何時ですか",
+  "setting": "道で聞かれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません。今、何時ですか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "今",
+      "reading": "いま",
+      "meaning": "now"
+    },
+    {
+      "word": "何時",
+      "reading": "なんじ",
+      "meaning": "what time"
+    },
+    {
+      "word": "〜時",
+      "reading": "じ",
+      "meaning": "o'clock"
+    },
+    {
+      "word": "〜時間",
+      "reading": "じかん",
+      "meaning": "hours (duration)"
+    },
+    {
+      "word": "〜日",
+      "reading": "にち",
+      "meaning": "day of month"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "meaning": "excuse me"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-11-1"
+  ]
+}

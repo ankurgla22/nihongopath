@@ -1,0 +1,90 @@
+{
+  "id": "n5-reading-10",
+  "slug": "10-jikanwari",
+  "level": "n5",
+  "order": 10,
+  "kind": "info",
+  "title": "学校（がっこう）の時間割（じかんわり）",
+  "paragraphs": [
+    "さくら日本語学校（にほんごがっこう）　午前（ごぜん）クラス　時間割（じかんわり）",
+    "一時間目（いちじかんめ）（九時（くじ）〜九時五十分（くじごじゅっぷん））：月（げつ）・水（すい）・金（きん）＝文法（ぶんぽう）／火（か）・木（もく）＝漢字（かんじ）",
+    "二時間目（十時（じゅうじ）〜十時五十分）：毎日（まいにち）＝会話（かいわ）",
+    "休（やす）み（十時五十分〜十一時十分（じゅういちじじゅっぷん））",
+    "三時間目（十一時十分〜十二時（じゅうにじ））：月・火・木＝聞（き）く練習（れんしゅう）／水・金＝読（よ）む練習",
+    "※金曜日の三時間目はテストの日（ひ）もあります。",
+    "※教室（きょうしつ）は二階（にかい）の二〇一（にいまるいち）です。"
+  ],
+  "vocab": [
+    {
+      "word": "時間割",
+      "reading": "じかんわり",
+      "meaning": "timetable"
+    },
+    {
+      "word": "〜時間目",
+      "reading": "じかんめ",
+      "meaning": "period (class slot)"
+    },
+    {
+      "word": "文法",
+      "reading": "ぶんぽう",
+      "meaning": "grammar"
+    },
+    {
+      "word": "漢字",
+      "reading": "かんじ",
+      "meaning": "kanji"
+    },
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day"
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "conversation"
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning": "break, rest"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "to listen"
+    },
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read"
+    },
+    {
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meaning": "practice"
+    },
+    {
+      "word": "教室",
+      "reading": "きょうしつ",
+      "meaning": "classroom"
+    },
+    {
+      "word": "二階",
+      "reading": "にかい",
+      "meaning": "second floor"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-10-1",
+    "q-n5-r-10-2",
+    "q-n5-r-10-3"
+  ],
+  "strategyNotes": [
+    "Timetable questions ask you to cross two things: a day AND a period. Find the period line first, then the day abbreviation (月・火・水・木・金).",
+    "毎日 (every day) means the same class in that slot regardless of day.",
+    "Subtract times to find break length: 十一時十分 − 十時五十分 = 20 minutes."
+  ],
+  "timeLimitSeconds": 180
+}

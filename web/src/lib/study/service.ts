@@ -168,7 +168,7 @@ export type CompleteQuizInput = {
   /** Daily-plan task id to mark complete, if any. */
   taskId?: string;
   /** Content ids that should be marked as completed lessons (e.g. the grammar lesson whose quiz this is). */
-  lessonContentIds?: { id: string; type: Skill; level: "foundation" | "n5" | "n4" | "n3" | "n2" }[];
+  lessonContentIds?: { id: string; type: Skill; level: "foundation" | "n5" | "n4" | "n3" | "n2" | "n1" }[];
 };
 
 /**
@@ -308,7 +308,7 @@ export async function completeExam(input: CompleteExamInput): Promise<ExamResult
 }
 
 /** Mark a non-quiz task (reading a lesson, listening block) complete and log minutes. */
-export async function completeTask(uid: string, curriculumDay: number, taskId: string, minutes: number, contentIds: { id: string; type: Skill; level: "foundation" | "n5" | "n4" | "n3" | "n2" }[]) {
+export async function completeTask(uid: string, curriculumDay: number, taskId: string, minutes: number, contentIds: { id: string; type: Skill; level: "foundation" | "n5" | "n4" | "n3" | "n2" | "n1" }[]) {
   const today = todayISO();
   const existing = await Promise.all(contentIds.map((c) => getProgress(uid, c.id).catch(() => null)));
   const progress: ProgressDoc[] = contentIds.map((c, i) => {

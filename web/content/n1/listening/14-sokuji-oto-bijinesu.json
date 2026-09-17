@@ -1,0 +1,65 @@
+{
+  "id": "n1-listening-14",
+  "slug": "14-sokuji-oto-bijinesu",
+  "level": "n1",
+  "order": 14,
+  "kind": "quick-response",
+  "title": "即時応答（ビジネス）",
+  "setting": "それぞれの文を聞いて、正しい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "恐れ入りますが、少々お待ちいただけますでしょうか。"
+    },
+    {
+      "speaker": "男",
+      "line": "その件でしたら、私のほうで対応しておきますので。"
+    },
+    {
+      "speaker": "女",
+      "line": "昨日の会議、山田さんも来るはずだったんじゃない？"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "恐れ入りますが",
+      "reading": "おそれいりますが",
+      "meaning": "I'm sorry to trouble you, but"
+    },
+    {
+      "word": "少々",
+      "reading": "しょうしょう",
+      "meaning": "a moment"
+    },
+    {
+      "word": "対応する",
+      "reading": "たいおうする",
+      "meaning": "to handle"
+    },
+    {
+      "word": "〜はずだった",
+      "reading": "はずだった",
+      "meaning": "was supposed to"
+    },
+    {
+      "word": "急用",
+      "reading": "きゅうよう",
+      "meaning": "urgent business"
+    },
+    {
+      "word": "かまいません",
+      "reading": "かまいません",
+      "meaning": "that's fine"
+    },
+    {
+      "word": "〜らしい",
+      "reading": "らしい",
+      "meaning": "apparently"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-14-1",
+    "q-n1-l-14-2",
+    "q-n1-l-14-3"
+  ]
+}

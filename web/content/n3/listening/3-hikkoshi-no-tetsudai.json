@@ -1,0 +1,75 @@
+{
+  "id": "n3-listening-3",
+  "slug": "3-hikkoshi-no-tetsudai",
+  "level": "n3",
+  "order": 3,
+  "kind": "task",
+  "title": "引っ越しの手伝い",
+  "setting": "女の人と男の人が引っ越しをしています。男の人はまず何を運びますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "手伝いに来てくれてありがとう。じゃあ、この箱を全部トラックに運んでもらえる？"
+    },
+    {
+      "speaker": "男",
+      "line": "いいよ。この大きい箱も？"
+    },
+    {
+      "speaker": "女",
+      "line": "それは本が入ってて重いから、二人で運ぼう。先に小さい箱からお願い。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかった。テレビはどうする？"
+    },
+    {
+      "speaker": "女",
+      "line": "テレビは業者の人が来てやってくれるから、触らないで。"
+    },
+    {
+      "speaker": "男",
+      "line": "了解。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help"
+    },
+    {
+      "word": "運ぶ",
+      "reading": "はこぶ",
+      "meaning": "to carry"
+    },
+    {
+      "word": "〜てもらえる？",
+      "reading": "てもらえる",
+      "meaning": "could you...?"
+    },
+    {
+      "word": "重い",
+      "reading": "おもい",
+      "meaning": "heavy"
+    },
+    {
+      "word": "業者",
+      "reading": "ぎょうしゃ",
+      "meaning": "contractor"
+    },
+    {
+      "word": "触る",
+      "reading": "さわる",
+      "meaning": "to touch"
+    },
+    {
+      "word": "了解",
+      "reading": "りょうかい",
+      "meaning": "got it"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-3-1"
+  ]
+}

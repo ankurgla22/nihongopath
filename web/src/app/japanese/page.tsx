@@ -92,7 +92,7 @@ export default function JapaneseIndexPage() {
       <header className="pt-10 pb-10 sm:pt-14 sm:pb-12 animate-rise">
         <div className="flex flex-wrap items-center gap-2">
           <Badge tone="accent" size="md">
-            N5 → N2
+            N5 → N1
           </Badge>
           <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted">Learning path</span>
         </div>

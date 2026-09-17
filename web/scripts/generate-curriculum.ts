@@ -86,7 +86,7 @@ function pattern(g: Grammar): string {
   return p.length > 28 ? p.slice(0, 27) + "…" : p;
 }
 
-const LEVEL_NAME: Record<Level, string> = { n5: "N5", n4: "N4", n3: "N3", n2: "N2" };
+const LEVEL_NAME: Record<Level, string> = { n5: "N5", n4: "N4", n3: "N3", n2: "N2", n1: "N1" };
 
 /**
  * Phase 1, days 1–8: foundation lessons (content/foundation/*.json, ids foundation-1..8) before the

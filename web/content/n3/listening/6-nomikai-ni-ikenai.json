@@ -1,0 +1,70 @@
+{
+  "id": "n3-listening-6",
+  "slug": "6-nomikai-ni-ikenai",
+  "level": "n3",
+  "order": 6,
+  "kind": "point",
+  "title": "飲み会に行けない",
+  "setting": "会社で、男の人と女の人が話しています。女の人はどうして飲み会に行きませんか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "金曜日の飲み会、来るよね？"
+    },
+    {
+      "speaker": "女",
+      "line": "ごめん、今回は行けないんだ。"
+    },
+    {
+      "speaker": "男",
+      "line": "え、忙しいの？"
+    },
+    {
+      "speaker": "女",
+      "line": "仕事は落ち着いてるんだけど、実は来週、資格の試験があって、その勉強をしないといけなくて。"
+    },
+    {
+      "speaker": "男",
+      "line": "そっか。お金がないのかと思った。"
+    },
+    {
+      "speaker": "女",
+      "line": "それは大丈夫。試験が終わったら、また誘って。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "飲み会",
+      "reading": "のみかい",
+      "meaning": "drinking party"
+    },
+    {
+      "word": "落ち着く",
+      "reading": "おちつく",
+      "meaning": "to settle down"
+    },
+    {
+      "word": "資格",
+      "reading": "しかく",
+      "meaning": "qualification"
+    },
+    {
+      "word": "〜ないといけない",
+      "reading": "ないといけない",
+      "meaning": "have to"
+    },
+    {
+      "word": "誘う",
+      "reading": "さそう",
+      "meaning": "to invite"
+    },
+    {
+      "word": "そっか",
+      "reading": "そっか",
+      "meaning": "I see (casual)"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-6-1"
+  ]
+}

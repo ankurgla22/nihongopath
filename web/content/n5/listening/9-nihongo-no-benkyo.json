@@ -1,0 +1,66 @@
+{
+  "id": "n5-listening-9",
+  "slug": "9-nihongo-no-benkyo",
+  "level": "n5",
+  "order": 9,
+  "kind": "point",
+  "title": "日本語の勉強",
+  "setting": "女の人と男の人が話しています。男の人はいつ日本語を勉強しますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "リンさんは毎日、日本語を勉強しますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "毎日じゃありません。月曜日と水曜日です。"
+    },
+    {
+      "speaker": "女",
+      "line": "朝ですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "いいえ、夜です。朝は仕事があります。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。がんばってください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day"
+    },
+    {
+      "word": "勉強します",
+      "reading": "べんきょうします",
+      "meaning": "to study"
+    },
+    {
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning": "Monday"
+    },
+    {
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meaning": "Wednesday"
+    },
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "meaning": "morning"
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "night"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-9-1"
+  ]
+}

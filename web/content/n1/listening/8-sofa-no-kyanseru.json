@@ -1,0 +1,88 @@
+{
+  "id": "n1-listening-8",
+  "slug": "8-sofa-no-kyanseru",
+  "level": "n1",
+  "order": 8,
+  "kind": "point",
+  "title": "ソファのキャンセル",
+  "setting": "電話で、男の人と家具店の人が話しています。男の人はどうして注文を取り消しますか。",
+  "script": [
+    {
+      "speaker": "店",
+      "line": "お電話ありがとうございます。ハナ家具店でございます。"
+    },
+    {
+      "speaker": "男",
+      "line": "先週、そちらでソファを注文した高橋ですが、申し訳ないんですけど、キャンセルさせてもらえませんか。"
+    },
+    {
+      "speaker": "店",
+      "line": "かしこまりました。差し支えなければ、理由をお伺いしてもよろしいでしょうか。"
+    },
+    {
+      "speaker": "男",
+      "line": "いや、商品に不満があるとかじゃないんです。実は転勤が急に決まっちゃって、来月から海外なんですよ。"
+    },
+    {
+      "speaker": "店",
+      "line": "さようでございますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "単身赴任なんで、家具は全部処分する方向でして。せっかく気に入って選んだんですけどね。"
+    },
+    {
+      "speaker": "店",
+      "line": "承知いたしました。納品前ですので、キャンセル料はかかりません。"
+    },
+    {
+      "speaker": "男",
+      "line": "助かります。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "取り消す",
+      "reading": "とりけす",
+      "meaning": "to cancel"
+    },
+    {
+      "word": "差し支えなければ",
+      "reading": "さしつかえなければ",
+      "meaning": "if you don't mind"
+    },
+    {
+      "word": "不満",
+      "reading": "ふまん",
+      "meaning": "dissatisfaction"
+    },
+    {
+      "word": "転勤",
+      "reading": "てんきん",
+      "meaning": "job transfer"
+    },
+    {
+      "word": "単身赴任",
+      "reading": "たんしんふにん",
+      "meaning": "transfer without family"
+    },
+    {
+      "word": "処分する",
+      "reading": "しょぶんする",
+      "meaning": "to dispose of"
+    },
+    {
+      "word": "納品",
+      "reading": "のうひん",
+      "meaning": "delivery of goods"
+    },
+    {
+      "word": "さようでございますか",
+      "reading": "さようでございますか",
+      "meaning": "I see (very polite)"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-8-1"
+  ]
+}

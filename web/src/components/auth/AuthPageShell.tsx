@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 import { Card } from "@/components/ui";
 
 const BENEFITS: { title: string; text: string }[] = [
-  { title: "A 180-day plan", text: "One day of study at a time, from N5 to N2." },
+  { title: "A 180-day plan", text: "One day of study at a time, from N5 to N2, then on to N1." },
   { title: "Progress that follows you", text: "Streaks, review queue and saved items across devices." },
   { title: "Explained answers", text: "Every question tells you why the distractors were wrong." },
 ];

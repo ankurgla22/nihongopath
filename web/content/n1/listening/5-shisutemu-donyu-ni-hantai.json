@@ -1,0 +1,80 @@
+{
+  "id": "n1-listening-5",
+  "slug": "5-shisutemu-donyu-ni-hantai",
+  "level": "n1",
+  "order": 5,
+  "kind": "point",
+  "title": "システム導入に反対",
+  "setting": "会社で、女の人と部長が話しています。部長が新しいシステムの導入に反対している一番の理由は何ですか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "部長、例の新しい勤怠管理システムの件ですが、来月から導入ということで進めてよろしいでしょうか。"
+    },
+    {
+      "speaker": "男",
+      "line": "うーん、正直、まだ引っかかってるんだよね。"
+    },
+    {
+      "speaker": "女",
+      "line": "コストの面でしょうか。初期費用は確かにかかりますが、三年で回収できる試算です。"
+    },
+    {
+      "speaker": "男",
+      "line": "いや、金の問題じゃない。使い勝手も、デモを見た限りでは悪くなかった。ただね、現場に説明が一切行ってないでしょ。いきなり来月から変えますって言われても、現場は混乱するだけだよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "説明会は導入後に予定しておりましたが。"
+    },
+    {
+      "speaker": "男",
+      "line": "それじゃ順番が逆だ。まず現場の声を聞いて、それから日程を決める。それが筋だと思うんだけどね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "勤怠管理",
+      "reading": "きんたいかんり",
+      "meaning": "attendance management"
+    },
+    {
+      "word": "導入",
+      "reading": "どうにゅう",
+      "meaning": "introduction (of a system)"
+    },
+    {
+      "word": "引っかかる",
+      "reading": "ひっかかる",
+      "meaning": "to have reservations"
+    },
+    {
+      "word": "回収",
+      "reading": "かいしゅう",
+      "meaning": "recouping (costs)"
+    },
+    {
+      "word": "試算",
+      "reading": "しさん",
+      "meaning": "trial calculation"
+    },
+    {
+      "word": "使い勝手",
+      "reading": "つかいがって",
+      "meaning": "usability"
+    },
+    {
+      "word": "現場",
+      "reading": "げんば",
+      "meaning": "the front line, staff on site"
+    },
+    {
+      "word": "筋",
+      "reading": "すじ",
+      "meaning": "proper order, logic"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-5-1"
+  ]
+}

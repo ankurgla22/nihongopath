@@ -1,0 +1,84 @@
+{
+  "id": "n1-listening-3",
+  "slug": "3-ronbun-no-shusei",
+  "level": "n1",
+  "order": 3,
+  "kind": "task",
+  "title": "論文の修正",
+  "setting": "大学の研究室で、教授と学生が話しています。学生は論文をどう直しますか。",
+  "script": [
+    {
+      "speaker": "教授",
+      "line": "山本くん、論文読ませてもらったよ。全体としてはよく書けてる。"
+    },
+    {
+      "speaker": "学生",
+      "line": "ありがとうございます。"
+    },
+    {
+      "speaker": "教授",
+      "line": "ただ、二章の先行研究の整理がちょっと弱いな。並べてあるだけで、自分の研究との関係が見えてこない。"
+    },
+    {
+      "speaker": "学生",
+      "line": "先行研究の数を増やしたほうがいいでしょうか。"
+    },
+    {
+      "speaker": "教授",
+      "line": "いや、数はもう十分。むしろ絞って、それぞれが君の問いにどうつながるのかを書き込んでほしい。それから、結論の部分だけど、今後の課題が長すぎて、本論の主張がぼやけてる。そこは思い切って削っていい。"
+    },
+    {
+      "speaker": "学生",
+      "line": "承知しました。データの追加は必要ないでしょうか。"
+    },
+    {
+      "speaker": "教授",
+      "line": "今回はいい。まず構成の問題を片付けよう。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "先行研究",
+      "reading": "せんこうけんきゅう",
+      "meaning": "prior research"
+    },
+    {
+      "word": "整理",
+      "reading": "せいり",
+      "meaning": "organisation"
+    },
+    {
+      "word": "絞る",
+      "reading": "しぼる",
+      "meaning": "to narrow down"
+    },
+    {
+      "word": "問い",
+      "reading": "とい",
+      "meaning": "research question"
+    },
+    {
+      "word": "ぼやける",
+      "reading": "ぼやける",
+      "meaning": "to become blurred"
+    },
+    {
+      "word": "思い切って",
+      "reading": "おもいきって",
+      "meaning": "boldly, decisively"
+    },
+    {
+      "word": "削る",
+      "reading": "けずる",
+      "meaning": "to cut, trim"
+    },
+    {
+      "word": "構成",
+      "reading": "こうせい",
+      "meaning": "structure"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-3-1"
+  ]
+}

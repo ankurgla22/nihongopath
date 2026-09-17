@@ -1,0 +1,75 @@
+{
+  "id": "n3-listening-4",
+  "slug": "4-kusuri-no-nomikata",
+  "level": "n3",
+  "order": 4,
+  "kind": "task",
+  "title": "薬の飲み方",
+  "setting": "薬局で、薬剤師と男の人が話しています。男の人は白い薬をどのように飲みますか。",
+  "script": [
+    {
+      "speaker": "薬剤師",
+      "line": "こちらが薬です。白い錠剤は一日三回、食後に一錠ずつ飲んでください。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい。"
+    },
+    {
+      "speaker": "薬剤師",
+      "line": "それから、この粉薬は、熱が高い時だけ飲んでください。熱がなければ飲まなくていいです。"
+    },
+    {
+      "speaker": "男",
+      "line": "熱が下がっても、白い薬は飲み続けたほうがいいですか。"
+    },
+    {
+      "speaker": "薬剤師",
+      "line": "はい、白い薬は五日分ありますので、全部飲み切ってください。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "薬剤師",
+      "reading": "やくざいし",
+      "meaning": "pharmacist"
+    },
+    {
+      "word": "錠剤",
+      "reading": "じょうざい",
+      "meaning": "tablet"
+    },
+    {
+      "word": "食後",
+      "reading": "しょくご",
+      "meaning": "after meals"
+    },
+    {
+      "word": "粉薬",
+      "reading": "こなぐすり",
+      "meaning": "powdered medicine"
+    },
+    {
+      "word": "熱",
+      "reading": "ねつ",
+      "meaning": "fever"
+    },
+    {
+      "word": "〜分",
+      "reading": "ぶん",
+      "meaning": "portion (days' worth)"
+    },
+    {
+      "word": "飲み切る",
+      "reading": "のみきる",
+      "meaning": "to finish taking"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-4-1"
+  ]
+}

@@ -71,6 +71,21 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
     ],
     examNote: "JLPT N2 tests about 1,000 kanji and 6,000 words in total. Passing score: 90 / 180, with at least 19 in each section.",
   },
+  n1: {
+    level: "n1",
+    label: "N1",
+    name: "Advanced Mastery",
+    tagline: "Read editorials and follow fast, abstract discussion.",
+    description:
+      "The highest JLPT level: literary and formal grammar, abstract vocabulary, dense editorials and lectures at natural speed. Built for learners who have passed N2 and want full professional fluency.",
+    youWillLearn: [
+      "Formal and literary patterns: 〜んばかり, 〜ざるを得ない, 〜を禁じ得ない, 〜とあって, 〜ながらも",
+      "Abstract and specialised vocabulary for politics, economics, science and the arts",
+      "Around 600 more kanji and 1,500 words of editorial and academic Japanese",
+      "Reading long opinion pieces and understanding implication, irony and stance",
+    ],
+    examNote: "JLPT N1 tests about 2,000 kanji and 10,000 words in total. Passing score: 100 / 180 (19 per section).",
+  },
 };
 
 export const LEVEL_ORDER = LEVELS;

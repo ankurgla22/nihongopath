@@ -1,0 +1,62 @@
+{
+  "id": "n4-listening-7",
+  "slug": "7-ryori-kyoshitsu",
+  "level": "n4",
+  "order": 7,
+  "kind": "point",
+  "title": "料理教室",
+  "setting": "女の人と男の人が話しています。男の人は料理教室で何が一番よかったと言っていますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "料理教室、どうだった？"
+    },
+    {
+      "speaker": "男",
+      "line": "楽しかったよ。先生も親切だったし、教室もきれいだった。"
+    },
+    {
+      "speaker": "女",
+      "line": "何を作ったの？"
+    },
+    {
+      "speaker": "男",
+      "line": "魚の料理。でも、一番よかったのは、いっしょに習っている人たちと友達になれたことかな。国も年も違う人と話せて、おもしろかった。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "料理教室",
+      "reading": "りょうりきょうしつ",
+      "meaning": "cooking class"
+    },
+    {
+      "word": "親切",
+      "reading": "しんせつ",
+      "meaning": "kind"
+    },
+    {
+      "word": "習う",
+      "reading": "ならう",
+      "meaning": "to learn"
+    },
+    {
+      "word": "〜し",
+      "reading": "し",
+      "meaning": "and (listing reasons)"
+    },
+    {
+      "word": "友達になる",
+      "reading": "ともだちになる",
+      "meaning": "to become friends"
+    },
+    {
+      "word": "違う",
+      "reading": "ちがう",
+      "meaning": "to differ"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-7-1"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-6",
+  "slug": "6-hikkoshi-no-riyu",
+  "level": "n4",
+  "order": 6,
+  "kind": "point",
+  "title": "引っ越しの理由",
+  "setting": "男の人と女の人が話しています。女の人が引っ越す一番の理由は何ですか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "来月、引っ越すんだって？今のアパート、駅に近くて便利なのに。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、便利なんだけど、隣の部屋の音がうるさくて、夜眠れないの。"
+    },
+    {
+      "speaker": "男",
+      "line": "そうなんだ。大家さんに言った？"
+    },
+    {
+      "speaker": "女",
+      "line": "言ったけど、あまり変わらなくて。それに、新しい所は家賃が少し安いから。"
+    },
+    {
+      "speaker": "男",
+      "line": "いいね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "引っ越す",
+      "reading": "ひっこす",
+      "meaning": "to move house"
+    },
+    {
+      "word": "便利",
+      "reading": "べんり",
+      "meaning": "convenient"
+    },
+    {
+      "word": "隣",
+      "reading": "となり",
+      "meaning": "next door"
+    },
+    {
+      "word": "うるさい",
+      "reading": "うるさい",
+      "meaning": "noisy"
+    },
+    {
+      "word": "大家",
+      "reading": "おおや",
+      "meaning": "landlord"
+    },
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "meaning": "rent"
+    },
+    {
+      "word": "それに",
+      "reading": "それに",
+      "meaning": "besides"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-6-1"
+  ]
+}
