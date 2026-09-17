@@ -1,0 +1,119 @@
+{
+  "id": "n4-grammar-45",
+  "slug": "shi",
+  "level": "n4",
+  "order": 45,
+  "title": "〜し \"and (moreover) / and what's more\"",
+  "romaji": "shi",
+  "meaning": "Lists multiple reasons or qualities, implying \"and there are others too\".",
+  "simpleExplanation": "〜し lists reasons or qualities and hints that there are more: この店は安いし、おいしいし、よく来ます = it's cheap, it's tasty (and so on), so I come often. Each item ends in the plain form + し. Nouns and な-adjectives take だし. It feels more persuasive than simply joining with the て-form because it says \"and that's not all\".",
+  "whenUsed": "Explaining why you do or don't do something, describing people and places, and making excuses in conversation. Often one し is enough, with the rest implied: 今日は雨だし、家にいよう. Polite forms (〜ますし、〜ですし) are used in formal speech.",
+  "formation": [
+    "V-plain + し: 安いし, 行くし, 行ったし",
+    "い-adjective + し: おいしいし",
+    "な-adjective + だし: 便利だし",
+    "Noun + だし: 雨だし",
+    "Often paired with も: 頭もいいし、性格もいい"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "この店は安いです。おいしいです。よく来ます。",
+        "en": "three separate sentences"
+      },
+      {
+        "ja": "この店は安くて、おいしいので、よく来ます。",
+        "en": "て-form joins them: a plain list of two reasons"
+      },
+      {
+        "ja": "この店は安いし、おいしいし、よく来ます。",
+        "en": "し: \"cheap, tasty, and more besides\", so I come often"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この店は安いし、おいしいし、よく来ます。",
+      "reading": "この みせは やすいし、おいしいし、よく きます。",
+      "en": "This place is cheap and tasty, so I come often.",
+      "note": "Two し in a row: reasons for coming often."
+    },
+    {
+      "ja": "今日は雨だし、疲れているし、家にいよう。",
+      "reading": "きょうは あめだし、つかれているし、いえに いよう。",
+      "en": "It's raining and I'm tired, so let's stay home.",
+      "note": "Noun + だし, verb + し: reasons for staying home."
+    },
+    {
+      "ja": "彼は頭もいいし、性格もいい。",
+      "reading": "かれは あたまも いいし、せいかくも いい。",
+      "en": "He is smart, and he has a good personality too.",
+      "note": "も…し、も: piling up good points."
+    },
+    {
+      "ja": "この部屋は駅から近いし、家賃も安いし、気に入っています。",
+      "reading": "このへやは えきから ちかいし、やちんも やすいし、きにいっています。",
+      "en": "This room is close to the station and the rent is cheap, so I like it.",
+      "note": "し + も pattern listing merits."
+    },
+    {
+      "ja": "もう遅いし、そろそろ帰ります。",
+      "reading": "もう おそいし、そろそろ かえります。",
+      "en": "It's late already, so I'll be heading home.",
+      "note": "A single し softly gives one reason and implies others."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜て / 〜くて (listing)",
+      "difference": "The て-form joins items neutrally and completely. し implies \"and there is more\" and often gives reasons."
+    },
+    {
+      "pattern": "〜から / 〜ので",
+      "difference": "から and ので give one reason clearly. し gives several reasons loosely and sounds softer."
+    },
+    {
+      "pattern": "〜とか",
+      "difference": "とか lists example nouns or actions. し lists reasons or qualities as full clauses.",
+      "id": "n4-grammar-64"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今日は雨し、寒いし、出かけたくない。",
+      "right": "今日は雨だし、寒いし、出かけたくない。",
+      "why": "Nouns and な-adjectives need だ before し."
+    },
+    {
+      "wrong": "安くし、おいしいし、よく来ます。",
+      "right": "安いし、おいしいし、よく来ます。",
+      "why": "し follows the full plain form (安い), not the く-form."
+    },
+    {
+      "wrong": "彼は親切し、まじめだ。",
+      "right": "彼は親切だし、まじめだ。",
+      "why": "親切 is a な-adjective and takes だし."
+    }
+  ],
+  "usageNotes": [
+    "One し can end a sentence to leave a reason hanging: 「行かないの？」「うん、お金もないし…」.",
+    "In polite speech, 〜ですし / 〜ますし are fine: 安いですし、おいしいですし.",
+    "し lists reasons pointing the same direction; do not use it for contrasting points."
+  ],
+  "jlptTips": [
+    "Sentences with も…も… and a conclusion (だから, から, 〜ましょう) usually need し in the blanks.",
+    "The noun / な-adjective slot is the trap: choose だし, not し or なし."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-45-1",
+    "q-n4-g-45-2",
+    "q-n4-g-45-3",
+    "q-n4-g-45-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-45-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

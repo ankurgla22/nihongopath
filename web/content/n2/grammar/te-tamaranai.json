@@ -1,0 +1,132 @@
+{
+  "id": "n2-grammar-79",
+  "slug": "te-tamaranai",
+  "level": "n2",
+  "order": 79,
+  "title": "〜てたまらない",
+  "romaji": "te tamaranai",
+  "meaning": "unbearably, dying to",
+  "simpleExplanation": "〜てたまらない means \"unbearably…, dying to…\". It expresses a physical sensation or desire that is too strong to bear: it's unbearably hot; I'm dying to see her; I want the new game so badly.",
+  "whenUsed": "Both registers. Forms: Vて (Vたくて), Aい + くて, Aな + で. Best with sensations and desires (痛い・寒い・暑い・かゆい・〜たい・ほしい・会いたい); for thoughts like 気がする, 思える, use 〜てならない. The subject is the speaker.",
+  "formation": [
+    "Vて + たまらない / Aい stem + くて + たまらない / Aな + で + たまらない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three \"unbearably\" patterns",
+    "columns": [
+      "Best with",
+      "Register"
+    ],
+    "rows": [
+      {
+        "label": "〜てたまらない",
+        "cells": [
+          "sensations, desires (痛い・〜たい)",
+          "both"
+        ]
+      },
+      {
+        "label": "〜てしょうがない",
+        "cells": [
+          "any strong feeling",
+          "casual"
+        ]
+      },
+      {
+        "label": "〜てならない",
+        "cells": [
+          "thoughts, emotions (気がする・残念)",
+          "written"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "暑くてたまらない。",
+      "reading": "あつくてたまらない。",
+      "en": "It's unbearably hot.",
+      "note": "Aい + くて + たまらない (sensation)."
+    },
+    {
+      "ja": "彼女に会いたくてたまらない。",
+      "reading": "かのじょにあいたくてたまらない。",
+      "en": "I'm dying to see her.",
+      "note": "Vたくて + たまらない (desire)."
+    },
+    {
+      "ja": "新しいゲームが欲しくてたまらない。",
+      "reading": "あたらしいゲームがほしくてたまらない。",
+      "en": "I want the new game so badly I can't stand it.",
+      "note": "ほしくて + たまらない."
+    },
+    {
+      "ja": "虫に刺されたところがかゆくてたまらない。",
+      "reading": "むしにさされたところがかゆくてたまらない。",
+      "en": "The insect bite is unbearably itchy.",
+      "note": "Physical sensation."
+    },
+    {
+      "ja": "優勝できて、嬉しくてたまらなかった。",
+      "reading": "ゆうしょうできて、うれしくてたまらなかった。",
+      "en": "I was overjoyed to have won.",
+      "note": "Past form たまらなかった."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てしょうがない",
+      "difference": "Casual, wider use.",
+      "id": "n2-grammar-78"
+    },
+    {
+      "pattern": "〜てならない",
+      "difference": "Written; thoughts and spontaneous emotions.",
+      "id": "n2-grammar-80"
+    },
+    {
+      "pattern": "〜てしかたがない",
+      "difference": "Same as しょうがない, slightly more neutral.",
+      "id": "n2-grammar-78"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が嘘をついている気がしてたまらない。",
+      "right": "彼が嘘をついている気がしてならない。",
+      "why": "気がする pairs with ならない, not たまらない."
+    },
+    {
+      "wrong": "暑いてたまらない。",
+      "right": "暑くてたまらない。",
+      "why": "い-adjectives take くて."
+    },
+    {
+      "wrong": "妹は会いたくてたまらない。（as fact）",
+      "right": "妹は会いたくてたまらないようだ。",
+      "why": "Others' inner states need ようだ/らしい."
+    }
+  ],
+  "usageNotes": [
+    "Frequent: 痛くて, 寒くて, 暑くて, 眠くて, 会いたくて, 食べたくて, ほしくて, 嬉しくて, 悔しくて.",
+    "Polite: 〜てたまりません.",
+    "たまらない alone means \"irresistible / can't stand it\": このケーキはたまらない."
+  ],
+  "jlptTips": [
+    "A sensation or desire (〜たい・痛い・寒い) + くて/て + blank → たまらない.",
+    "Distractors: ならない (for 気がする・思える), しょうがない, かねない. Check the type of predicate before the blank.",
+    "Form questions test 会いたくて (not 会いたいて)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-79-1",
+    "q-n2-g-79-2",
+    "q-n2-g-79-3",
+    "q-n2-g-79-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-79-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-96",
+  "slug": "mo-quantity",
+  "level": "n4",
+  "order": 96,
+  "title": "〜も (emphasising quantity) \"as many as / even\"",
+  "romaji": "mo (suuryou kyouchou)",
+  "meaning": "After a number, も stresses that the amount is large; with negatives, that it is zero (\"not even one\").",
+  "simpleExplanation": "After a number, も says the amount is surprisingly large: 十時間も寝た = \"I slept a whole ten hours!\". With a negative and the number one, it means \"not even one\": 一円もない = \"I don't have a single yen\". With a question word plus counter (何回も, 何人も) it means \"many\". So the same little も that means \"also\" becomes an emphasis marker when it follows a quantity.",
+  "whenUsed": "Everyday exaggeration and complaint (三時間も待った), impressed remarks (百人も来た), and total denial (一度も行ったことがない). Works in all registers. The opposite feeling (\"only\") is しか〜ない (lesson 60).",
+  "formation": [
+    "Number + counter + も + affirmative: 三時間も待った (as long as three hours)",
+    "一 + counter + も + negative: 一人も来なかった (not a single person came)",
+    "何 + counter + も: 何回も (many times), 何年も (for years)",
+    "も replaces を / が; with other particles it follows them: 十か国にも行った"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three people came: neutral, a lot, only",
+    "columns": [
+      "Feeling",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "三人来た",
+        "cells": [
+          "neutral",
+          "Three people came"
+        ]
+      },
+      {
+        "label": "三人も来た",
+        "cells": [
+          "that's a lot!",
+          "As many as three people came"
+        ]
+      },
+      {
+        "label": "三人しか来なかった",
+        "cells": [
+          "that's few",
+          "Only three people came"
+        ]
+      },
+      {
+        "label": "一人も来なかった",
+        "cells": [
+          "zero",
+          "Not a single person came"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "昨日は十時間も寝た。",
+      "reading": "きのうは じゅうじかんも ねた。",
+      "en": "I slept a whole ten hours yesterday.",
+      "note": "Ten hours is a lot: も expresses surprise."
+    },
+    {
+      "ja": "財布には一円もない。",
+      "reading": "さいふには いちえんも ない。",
+      "en": "I don't have a single yen in my wallet.",
+      "note": "一 + counter + も + negative = not even one."
+    },
+    {
+      "ja": "彼は何回も日本へ行ったことがある。",
+      "reading": "かれは なんかいも にほんへ いったことが ある。",
+      "en": "He has been to Japan many times.",
+      "note": "何回も = many times."
+    },
+    {
+      "ja": "このケーキ、一つ千円もするんですか。",
+      "reading": "このケーキ、ひとつ せんえんも するんですか。",
+      "en": "This cake costs a whole thousand yen each?",
+      "note": "も after a price expresses that it is expensive."
+    },
+    {
+      "ja": "今年は一度も風邪をひいていません。",
+      "reading": "ことしは いちども かぜを ひいていません。",
+      "en": "I haven't caught a cold even once this year.",
+      "note": "一度も + negative = \"not once\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜しか〜ない",
+      "difference": "しか stresses that the amount is small (三人しか来なかった). も stresses that it is large.",
+      "id": "n4-grammar-60"
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "だけ limits neutrally (三人だけ来た). も carries surprise at a large number.",
+      "id": "n4-grammar-59"
+    },
+    {
+      "pattern": "〜ばかり",
+      "difference": "ばかり says something is \"nothing but\" (肉ばかり食べる). も after a number is about quantity, not exclusivity.",
+      "id": "n4-grammar-61"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一人も来ました。",
+      "right": "一人も来ませんでした。／ 一人だけ来ました。",
+      "why": "一 + counter + も must be followed by a negative (\"not even one\"). For \"only one came\" use だけ or しか〜ない."
+    },
+    {
+      "wrong": "昨日は五時間をも勉強した。",
+      "right": "昨日は五時間も勉強した。",
+      "why": "も replaces を; you cannot use both."
+    },
+    {
+      "wrong": "何回も行ったことがありません。(meaning: never)",
+      "right": "一回も行ったことがありません。",
+      "why": "何回も is \"many times\" and normally takes an affirmative. For \"never\" use 一回も / 一度も + negative."
+    }
+  ],
+  "usageNotes": [
+    "Money and time are the most common: 三万円もした, 二時間も待たされた.",
+    "も can also follow 誰 / 何 / どこ + negative for total denial: 誰も来なかった, 何もない.",
+    "Tone of voice matters: 十時間も寝た can be proud or embarrassed depending on context."
+  ],
+  "jlptTips": [
+    "If the sentence ends in a negative and the number is 一 (一人, 一つ, 一度), も is the answer (\"not even one\"). If the number is larger and the feeling is \"so many\", も again.",
+    "The classic pair is も vs しか: check the ending. も works with affirmative for large amounts; しか requires a negative verb and means \"only\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-96-1",
+    "q-n4-g-96-2",
+    "q-n4-g-96-3",
+    "q-n4-g-96-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-96-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

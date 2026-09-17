@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-40",
+  "slug": "kamoshirenai",
+  "level": "n4",
+  "order": 40,
+  "title": "〜かもしれない \"might / may\"",
+  "romaji": "kamoshirenai",
+  "meaning": "Possibility — the speaker is not certain (about 50 % or less).",
+  "simpleExplanation": "〜かもしれない means \"might / may\". The speaker thinks something is possible but is not sure, roughly half or less. It attaches straight to the plain form: 降るかもしれない, 高いかもしれない, and directly to nouns and な-adjectives without だ: 雨かもしれない, 静かかもしれない. The polite form is かもしれません; in casual speech people shorten it to かも.",
+  "whenUsed": "Everyday guesses about weather, people and plans, and for softening statements (間違いかもしれません = I may be wrong). It is the safe choice when you do not want to sound too sure. Used by everyone in speech and writing.",
+  "formation": [
+    "V-plain + かもしれない: 降るかもしれない, 帰ったかもしれない",
+    "い-adjective + かもしれない: 高いかもしれない",
+    "な-adjective + かもしれない (no だ): 便利かもしれない",
+    "Noun + かもしれない (no だ): 雨かもしれない",
+    "Polite: かもしれません; casual: かも"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Certainty scale",
+    "items": [
+      {
+        "label": "かもしれない",
+        "description": "might: possible, not sure (this lesson)"
+      },
+      {
+        "label": "だろう / でしょう",
+        "description": "probably: the speaker's guess"
+      },
+      {
+        "label": "はずだ",
+        "description": "should / must: reasoned from facts"
+      },
+      {
+        "label": "に違いない",
+        "description": "must definitely be: near certainty (N3)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日は雨が降るかもしれません。",
+      "reading": "あしたは あめが ふるかもしれません。",
+      "en": "It might rain tomorrow.",
+      "note": "Weather is uncertain: a classic use."
+    },
+    {
+      "ja": "彼はもう帰ったかもしれない。",
+      "reading": "かれは もう かえったかもしれない。",
+      "en": "He may have already gone home.",
+      "note": "Past tense inside: 帰った + かもしれない (may have gone home)."
+    },
+    {
+      "ja": "この答えは間違いかもしれない。",
+      "reading": "この こたえは まちがいかもしれない。",
+      "en": "This answer might be wrong.",
+      "note": "Noun + かもしれない with no だ."
+    },
+    {
+      "ja": "この薬は子供には強すぎるかもしれません。",
+      "reading": "このくすりは こどもには つよすぎるかもしれません。",
+      "en": "This medicine might be too strong for children.",
+      "note": "A cautious warning; かもしれません softens it."
+    },
+    {
+      "ja": "明日は忙しいから、パーティーに行けないかも。",
+      "reading": "あしたは いそがしいから、パーティーに いけないかも。",
+      "en": "I'm busy tomorrow, so I might not be able to go to the party.",
+      "note": "Casual かも at the end. The negative potential 行けない goes inside."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はずだ",
+      "difference": "はずだ is a confident conclusion with a reason. かもしれない is only a possibility.",
+      "id": "n4-grammar-39"
+    },
+    {
+      "pattern": "〜だろう / でしょう",
+      "difference": "でしょう is more confident (\"probably\"). かもしれない is weaker (\"maybe\").",
+      "id": "n4-grammar-103"
+    },
+    {
+      "pattern": "〜かな",
+      "difference": "かな wonders aloud (\"I wonder if\"). かもしれない states a possibility.",
+      "id": "n4-grammar-105"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日は雨だかもしれない。",
+      "right": "明日は雨かもしれない。",
+      "why": "Nouns and な-adjectives attach directly, without だ."
+    },
+    {
+      "wrong": "電車が遅れますかもしれません。",
+      "right": "電車が遅れるかもしれません。",
+      "why": "The verb before かもしれない is plain; the politeness goes on かもしれません."
+    },
+    {
+      "wrong": "彼はもう帰るかもしれない。(meaning \"may have gone home\")",
+      "right": "彼はもう帰ったかもしれない。",
+      "why": "To talk about a possible past event, put the past tense inside: 帰った + かもしれない."
+    }
+  ],
+  "usageNotes": [
+    "かもしれない is very useful for polite hedging: 私の勘違いかもしれません (it might be my misunderstanding).",
+    "かも alone is casual and common in texting; in the exam, choose the full form.",
+    "Because it is weak, don't use it for facts you actually know; it can sound evasive."
+  ],
+  "jlptTips": [
+    "Words like もしかしたら / もしかすると / ひょっとしたら at the start of a sentence signal かもしれない at the end.",
+    "Distractors often add だ to a noun (雨だかもしれない) or use the polite form inside (降りますかもしれない). Both are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-40-1",
+    "q-n4-g-40-2",
+    "q-n4-g-40-3",
+    "q-n4-g-40-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-40-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

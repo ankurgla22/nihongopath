@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-87",
+  "slug": "chau-jau",
+  "level": "n4",
+  "order": 87,
+  "title": "〜ちゃう / 〜じゃう (contraction of 〜てしまう)",
+  "romaji": "chau / jau (te shimau)",
+  "meaning": "Spoken form of 〜てしまう (#22): completion or regret.",
+  "simpleExplanation": "〜ちゃう is the spoken shortcut for 〜てしまう: 忘れてしまった → 忘れちゃった (I forgot, oops). When the て-form ends in で, it becomes じゃう: 飲んでしまった → 飲んじゃった. The meaning is the same as てしまう: finishing something completely, or regret about something that happened. ちゃう conjugates like a Group 1 verb: ちゃった, ちゃいます, ちゃおう, ちゃって. Several other contractions belong to the same family: 〜ておく → 〜とく, 〜ている → 〜てる, 〜なければ → 〜なきゃ, 〜なくては → 〜なくちゃ.",
+  "whenUsed": "Casual conversation among friends, family and classmates, and in anime, dramas and text messages. It is not used in essays or polite business speech, where you say 〜てしまいました. You must recognise it in the listening section even if you rarely say it.",
+  "formation": [
+    "て-form ending in て: て → ちゃう: 食べちゃう, 忘れちゃう, しちゃう, 行っちゃう",
+    "て-form ending in で: で → じゃう: 飲んじゃう, 読んじゃう, 死んじゃう, 遊んじゃう",
+    "Conjugates as Group 1: ちゃった / ちゃいます / ちゃおう / ちゃって",
+    "Related contractions: ておく → とく, ている → てる, なければ → なきゃ, なくては → なくちゃ",
+    "Polite equivalent: 〜てしまいました"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "忘れてしまった",
+        "en": "full form: I forgot (regret)"
+      },
+      {
+        "ja": "忘れちゃった",
+        "en": "てしま → ちゃ: casual contraction"
+      },
+      {
+        "ja": "飲んでしまった → 飲んじゃった",
+        "en": "で + しまう → じゃう when the て-form ends in で"
+      },
+      {
+        "ja": "全部食べちゃおう",
+        "en": "volitional of ちゃう: let's eat it all up"
+      },
+      {
+        "ja": "早くしないと遅れちゃうよ",
+        "en": "non-past ちゃう: will end up (unwanted result)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "宿題、忘れちゃった。",
+      "reading": "しゅくだい、わすれちゃった。",
+      "en": "I forgot my homework.",
+      "note": "忘れてしまった → 忘れちゃった: regret."
+    },
+    {
+      "ja": "全部飲んじゃったの？",
+      "reading": "ぜんぶ のんじゃったの？",
+      "en": "Did you drink it all?",
+      "note": "飲んでしまった → 飲んじゃった: で becomes じゃ."
+    },
+    {
+      "ja": "早くしないと遅れちゃうよ。",
+      "reading": "はやく しないと おくれちゃうよ。",
+      "en": "If you don't hurry, you'll be late.",
+      "note": "遅れてしまう → 遅れちゃう: a warning about an unwanted result."
+    },
+    {
+      "ja": "ケーキ、全部食べちゃった。ごめん。",
+      "reading": "ケーキ、ぜんぶ たべちゃった。ごめん。",
+      "en": "I ate all the cake. Sorry.",
+      "note": "Completion plus a small apology; the classic ちゃった."
+    },
+    {
+      "ja": "明日までにレポート、書かなくちゃ。",
+      "reading": "あしたまでに レポート、かかなくちゃ。",
+      "en": "I've got to write the report by tomorrow.",
+      "note": "〜なくては(いけない) → 〜なくちゃ, a related contraction."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てしまう",
+      "difference": "The full form, usable in polite and written Japanese. ちゃう / じゃう is its casual spoken shape with the same meaning.",
+      "id": "n4-grammar-22"
+    },
+    {
+      "pattern": "〜ておく → 〜とく",
+      "difference": "Another て-form contraction: 買っておく → 買っとく (buy in advance).",
+      "id": "n4-grammar-21"
+    },
+    {
+      "pattern": "〜なければならない → 〜なきゃ",
+      "difference": "Obligation contracted: 行かなければ → 行かなきゃ; 行かなくては → 行かなくちゃ.",
+      "id": "n4-grammar-99"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "飲んちゃった。",
+      "right": "飲んじゃった。",
+      "why": "After a で-ending て-form (飲んで) the contraction is じゃう, not ちゃう."
+    },
+    {
+      "wrong": "（to a teacher）宿題を忘れちゃいました。",
+      "right": "宿題を忘れてしまいました。",
+      "why": "ちゃいました exists but sounds childish or over-casual with a teacher; use the full form."
+    },
+    {
+      "wrong": "食べちゃいた。",
+      "right": "食べちゃった。",
+      "why": "ちゃう is a Group 1 verb (like 買う): past is ちゃった, not ちゃいた."
+    }
+  ],
+  "usageNotes": [
+    "ちゃった alone is a common exclamation of \"oops\": やっちゃった (I messed up), 遅れちゃった (I'm late).",
+    "Non-past ちゃう often warns: 早くしないと風邪ひいちゃうよ (you'll catch a cold).",
+    "Listening drills: recognise 〜てる (ている), 〜とく (ておく), 〜なきゃ (なければ), 〜なくちゃ (なくては), 〜ちゃ (ては) in fast speech."
+  ],
+  "jlptTips": [
+    "Match the て-form ending: て → ちゃう, で → じゃう. Options like 読んちゃう or 食べじゃう are always wrong.",
+    "If the dialogue is casual (〜よ, 〜ね, plain forms) and the meaning is regret or completion, choose ちゃった over しまいました, which would break the register."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-87-1",
+    "q-n4-g-87-2",
+    "q-n4-g-87-3",
+    "q-n4-g-87-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-87-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

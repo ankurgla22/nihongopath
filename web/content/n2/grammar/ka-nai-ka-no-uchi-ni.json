@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-23",
+  "slug": "ka-nai-ka-no-uchi-ni",
+  "level": "n2",
+  "order": 23,
+  "title": "〜か〜ないかのうちに",
+  "romaji": "ka -nai ka no uchi ni",
+  "meaning": "the moment ..., barely had ... when",
+  "simpleExplanation": "〜か〜ないかのうちに means \"the moment…, barely had… when…\". The same verb is repeated in positive and negative form to say that the second action started before the first was quite finished: the bell had barely rung when the students rushed out.",
+  "whenUsed": "Both registers, mainly narrative. The first verb is repeated (鳴るか鳴らないか, 終わったか終わらないか); the second clause is an actual event in the past, not a plan or instruction. It sounds more vivid and immediate than 〜とたんに.",
+  "formation": [
+    "Vる/Vた + か + Vない + かのうちに"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "ベルが鳴るか",
+        "role": "V (dictionary/past)"
+      },
+      {
+        "text": "鳴らないか",
+        "role": "same V, negative"
+      },
+      {
+        "text": "のうちに",
+        "role": "within that instant",
+        "highlight": true
+      },
+      {
+        "text": "生徒たちは教室を飛び出した",
+        "role": "second action (past)"
+      }
+    ],
+    "translation": "The bell had barely rung when the students dashed out."
+  },
+  "examples": [
+    {
+      "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
+      "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
+      "en": "The bell had barely rung when the students dashed out of the classroom.",
+      "note": "Vる + か + Vない + かのうちに."
+    },
+    {
+      "ja": "横になるかならないかのうちに、眠ってしまった。",
+      "reading": "よこになるかならないかのうちに、ねむってしまった。",
+      "en": "I fell asleep almost the instant I lay down.",
+      "note": "Nearly instant sleep."
+    },
+    {
+      "ja": "食べ終わったか終わらないかのうちに、彼は席を立った。",
+      "reading": "たべおわったかおわらないかのうちに、かれはせきをたった。",
+      "en": "Scarcely had he finished eating when he left his seat.",
+      "note": "Vた + か + Vない + かのうちに with a compound verb."
+    },
+    {
+      "ja": "ドアが閉まるか閉まらないかのうちに、電車は動き出した。",
+      "reading": "ドアがしまるかしまらないかのうちに、でんしゃはうごきだした。",
+      "en": "The train started moving almost before the doors had closed.",
+      "note": "Typical with mechanical sequences."
+    },
+    {
+      "ja": "彼は「おはよう」と言ったか言わないかのうちに、部屋を出ていった。",
+      "reading": "かれは「おはよう」といったかいわないかのうちに、へやをでていった。",
+      "en": "He left the room almost before he had finished saying good morning.",
+      "note": "Vた repeated with Vない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たとたん(に)",
+      "difference": "\"The moment\": one event fully completes, then the next; less overlap.",
+      "id": "n2-grammar-67"
+    },
+    {
+      "pattern": "〜かと思うと",
+      "difference": "Emphasizes surprise at a change; no verb repetition.",
+      "id": "n2-grammar-22"
+    },
+    {
+      "pattern": "〜うちに",
+      "difference": "\"While a state lasts\"; no repetition and no immediacy.",
+      "id": "n2-grammar-10"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ベルが鳴るか鳴らないうちに、飛び出した。",
+      "right": "ベルが鳴るか鳴らないかのうちに、飛び出した。",
+      "why": "Both か and の are required: 〜か〜ないかのうちに."
+    },
+    {
+      "wrong": "食べ終わるか終わらないかのうちに、出かけましょう。",
+      "right": "食べ終わったらすぐ、出かけましょう。",
+      "why": "The second clause must be an event that happened, not a suggestion."
+    },
+    {
+      "wrong": "ベルが鳴るか止まらないかのうちに",
+      "right": "ベルが鳴るか鳴らないかのうちに",
+      "why": "The same verb must be repeated."
+    }
+  ],
+  "usageNotes": [
+    "The first verb may be dictionary or past form; the repeated negative is always Vない.",
+    "Often used to show impatience or haste of the subject.",
+    "In 並べ替え the two verb forms are usually separate chunks."
+  ],
+  "jlptTips": [
+    "If you see the same verb twice with か…ないか, the answer is のうちに.",
+    "Distractors: とたんに, 最中に, 一方で. Only this pattern has the repeated verb.",
+    "A future or request ending rules the pattern out."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-23-1",
+    "q-n2-g-23-2",
+    "q-n2-g-23-3",
+    "q-n2-g-23-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-23-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

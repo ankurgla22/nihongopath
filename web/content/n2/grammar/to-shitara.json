@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-90",
+  "slug": "to-shitara",
+  "level": "n2",
+  "order": 90,
+  "title": "〜としたら / 〜とすれば / 〜とすると",
+  "romaji": "to shitara / to sureba / to suru to",
+  "meaning": "if we suppose that, assuming",
+  "simpleExplanation": "〜としたら / 〜とすれば / 〜とすると mean \"if we suppose that…, assuming…\". The speaker sets up a hypothesis and draws a judgment or question from it: if you had 100 million yen, what would you spend it on? If he is the culprit, what is the motive?",
+  "whenUsed": "Both registers. They follow plain forms (N/Aな + だ + としたら). としたら leans toward imagining possibilities; とすれば toward reasoning from a premise; とすると toward a logical consequence. The second clause is a judgment, question, or inference, not a command.",
+  "formation": [
+    "普通形 + としたら / とすれば / とすると"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Nuance of the three forms",
+    "columns": [
+      "Leaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜としたら",
+        "cells": [
+          "imagining",
+          "一億円あるとしたら何に使う？"
+        ]
+      },
+      {
+        "label": "〜とすれば",
+        "cells": [
+          "reasoning from a premise",
+          "彼が犯人だとすれば動機は何か"
+        ]
+      },
+      {
+        "label": "〜とすると",
+        "cells": [
+          "logical consequence",
+          "今出発するとすると着くのは夜中だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "一億円あるとしたら、何に使いますか。",
+      "reading": "いちおくえんあるとしたら、なににつかいますか。",
+      "en": "If you had 100 million yen, what would you spend it on?",
+      "note": "としたら with an imaginative question."
+    },
+    {
+      "ja": "彼が犯人だとすれば、動機は何だろう。",
+      "reading": "かれがはんにんだとすれば、どうきはなんだろう。",
+      "en": "If he is the culprit, what would the motive be?",
+      "note": "とすれば with reasoning."
+    },
+    {
+      "ja": "今出発するとすると、着くのは夜中になる。",
+      "reading": "いましゅっぱつするとすると、つくのはよなかになる。",
+      "en": "If we leave now, we'll arrive in the middle of the night.",
+      "note": "とすると with a consequence."
+    },
+    {
+      "ja": "もし生まれ変われるとしたら、鳥になりたい。",
+      "reading": "もしうまれかわれるとしたら、とりになりたい。",
+      "en": "If I could be reborn, I'd want to be a bird.",
+      "note": "もし + としたら."
+    },
+    {
+      "ja": "この報告が事実だとすれば、会社は大きな損害を受けるだろう。",
+      "reading": "このほうこくがじじつだとすれば、かいしゃはおおきなそんがいをうけるだろう。",
+      "en": "If this report is true, the company will suffer great losses.",
+      "note": "N + だ + とすれば."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら / 〜ば",
+      "difference": "Ordinary conditionals; としたら explicitly frames a supposition."
+    },
+    {
+      "pattern": "〜としても",
+      "difference": "Concessive: \"even supposing\".",
+      "id": "n2-grammar-91"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\", not a hypothesis.",
+      "id": "n2-grammar-119"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が犯人としたら",
+      "right": "彼が犯人だとしたら",
+      "why": "Nouns and な-adjectives need だ before としたら."
+    },
+    {
+      "wrong": "行くとしたら、早く準備しなさい。",
+      "right": "行くとしたら、早く準備したほうがいい。",
+      "why": "The second clause is a judgment, not a direct command."
+    },
+    {
+      "wrong": "雨が降ったとしたら、傘を持っていった。（as a past fact）",
+      "right": "雨が降ったので、傘を持っていった。",
+      "why": "としたら is hypothetical, not a report of what happened."
+    }
+  ],
+  "usageNotes": [
+    "Often preceded by もし / 仮に.",
+    "The second clause typically contains だろう, か, はずだ, べきだ.",
+    "たとする (\"suppose\") is the source verb: 〜と仮定する."
+  ],
+  "jlptTips": [
+    "もし / 仮に + plain clause + blank + a judgment or question → としたら / とすれば / とすると.",
+    "Distractors: としても, にしては, として. としても needs a concessive second clause (\"even so\").",
+    "Form questions test だとしたら after nouns."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-90-1",
+    "q-n2-g-90-2",
+    "q-n2-g-90-3",
+    "q-n2-g-90-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-90-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

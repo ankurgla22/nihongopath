@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-5",
+  "slug": "causative-form",
+  "level": "n4",
+  "order": 5,
+  "title": "Causative form (〜させる / 〜せる) \"make / let someone do\"",
+  "romaji": "shieki-kei (saseru / seru)",
+  "meaning": "Someone makes or allows another person to do something.",
+  "simpleExplanation": "The causative says that someone makes or lets another person do something: 食べる (eat) → 食べさせる (make/let someone eat). Whether it means \"make\" or \"let\" depends on the situation: a mother making a child eat vegetables is \"make\"; a parent allowing a child to play is \"let\". The person who is made to act takes に with transitive verbs (子供に野菜を食べさせる) and を with intransitive verbs (子供を学校へ行かせる).",
+  "whenUsed": "Used by parents, teachers, bosses and organisations talking about what they have people do (学生に作文を書かせる). With 〜てください / 〜ていただけませんか it becomes the standard polite way to ask permission for yourself: 休ませてください (please let me rest). With 〜てあげる / 〜てくれる it leans toward \"let\".",
+  "formation": [
+    "Group 1: ない-stem + せる: 書く→書かせる, 行く→行かせる, 待つ→待たせる, 飲む→飲ませる",
+    "Group 2: ない-stem + させる: 食べる→食べさせる, 見る→見させる",
+    "Group 3: する→させる, 来る→来させる (こさせる)",
+    "Causee (person made to act): に with a transitive verb, を with an intransitive verb",
+    "Conjugates as Group 2: 行かせます / 行かせない / 行かせた / 行かせて"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "ない-stem + せる",
+        "result": "書かせる",
+        "label": "Group 1: make/let write"
+      },
+      {
+        "suffix": "ない-stem + させる",
+        "result": "食べさせる",
+        "label": "Group 2: make/let eat"
+      },
+      {
+        "suffix": "する → させる",
+        "result": "させる",
+        "label": "Group 3: make/let do"
+      },
+      {
+        "suffix": "来る → 来させる",
+        "result": "来させる (こさせる)",
+        "label": "Group 3: make/let come"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "母は私に部屋を掃除させました。",
+      "reading": "はは は わたしに へやを そうじさせました。",
+      "en": "My mother made me clean the room.",
+      "note": "Transitive verb 掃除する: the causee 私 takes に."
+    },
+    {
+      "ja": "先生は学生を立たせた。",
+      "reading": "せんせいは がくせいを たたせた。",
+      "en": "The teacher made the students stand.",
+      "note": "Intransitive verb 立つ: the causee 学生 takes を."
+    },
+    {
+      "ja": "子供に好きなことをさせてあげたい。",
+      "reading": "こどもに すきな ことを させてあげたい。",
+      "en": "I want to let my child do what he likes.",
+      "note": "させてあげる: the \"let\" reading."
+    },
+    {
+      "ja": "先生は学生に毎日日記を書かせています。",
+      "reading": "せんせいは がくせいに まいにち にっきを かかせています。",
+      "en": "The teacher has the students write a diary every day.",
+      "note": "Group 1: 書く → 書かせる. The students (causee) take に because 書く is transitive."
+    },
+    {
+      "ja": "妻を心配させたくないので、病気のことは言わなかった。",
+      "reading": "つまを しんぱいさせたくないので、びょうきのことは いわなかった。",
+      "en": "I didn't want to worry my wife, so I didn't tell her about the illness.",
+      "note": "Causatives of emotion verbs (心配させる, 笑わせる, 泣かせる, 喜ばせる) take を on the person."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜させてください",
+      "difference": "The causative + てください asks permission for yourself: \"please let me…\". This lesson is the base form.",
+      "id": "n4-grammar-102"
+    },
+    {
+      "pattern": "Causative-passive 〜させられる",
+      "difference": "Told from the other side: the person forced becomes the subject (私は母に野菜を食べさせられた).",
+      "id": "n4-grammar-6"
+    },
+    {
+      "pattern": "Passive 〜られる",
+      "difference": "Passive = something is done to the subject; causative = the subject makes someone else act. Do not mix the endings れる and せる.",
+      "id": "n4-grammar-4"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "母は私を野菜を食べさせた。",
+      "right": "母は私に野菜を食べさせた。",
+      "why": "With a transitive verb there is already an object with を (野菜を), so the causee must take に. Two を in one clause is not allowed."
+    },
+    {
+      "wrong": "先生は学生に立たせた。",
+      "right": "先生は学生を立たせた。",
+      "why": "立つ is intransitive, so the causee takes を."
+    },
+    {
+      "wrong": "子供を病院へ行かさせた。",
+      "right": "子供を病院へ行かせた。",
+      "why": "Group 1 verbs take せる, not させる. 行かさせる (さ入れ) is a common slip that the exam counts as wrong."
+    }
+  ],
+  "usageNotes": [
+    "The causative is used downward (parent → child, boss → staff). For asking a superior to do something you use requests (〜ていただけませんか), never the causative.",
+    "\"Let\" is often made explicit with あげる / くれる / もらう: 好きなだけ遊ばせてあげた (I let him play as much as he liked), 使わせてもらった (I was allowed to use it).",
+    "Emotion verbs are very common in the causative: 笑わせる (make laugh), 泣かせる (make cry), 驚かせる (surprise), 安心させる (reassure)."
+  ],
+  "jlptTips": [
+    "Look at the particle on the person before the blank: に + object + を points to the causative of a transitive verb; person + を with a motion verb points to the causative of an intransitive verb.",
+    "Distractors often include さ入れ forms like 行かさせる or 読まさせる. For Group 1 verbs the correct causative is ない-stem + せる (行かせる, 読ませる)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-5-1",
+    "q-n4-g-5-2",
+    "q-n4-g-5-3",
+    "q-n4-g-5-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-5-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

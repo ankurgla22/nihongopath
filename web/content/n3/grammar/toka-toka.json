@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-112",
+  "slug": "toka-toka",
+  "level": "n3",
+  "order": 112,
+  "title": "〜とか〜とか",
+  "romaji": "toka … toka",
+  "meaning": "things like… and… / … or … (casual, non-exhaustive listing)",
+  "simpleExplanation": "〜とか〜とか gives examples in a relaxed way: 掃除とか洗濯とか \"things like cleaning and laundry\". It is the spoken cousin of 〜や〜など, but unlike や it can list verbs and whole clauses: 映画を見るとか、買い物に行くとか. A single とか softens one item: 田中さんとか \"someone like Tanaka\".",
+  "whenUsed": "Casual conversation, informal messages. In formal writing use 〜や〜など or 〜たり〜たり. Frequently followed by して / している / いろいろ.",
+  "formation": [
+    "Noun + とか + Noun + とか (+ particle)",
+    "Verb (plain form) + とか + Verb (plain form) + とか (+ する)",
+    "Single: Noun + とか (for instance…)",
+    "Quotation use: 〜とか言っていた (said something like…)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Ways to list examples",
+    "columns": [
+      "Register",
+      "Can list verbs?",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜や〜など",
+        "cells": [
+          "Neutral / formal",
+          "No (nouns only)",
+          "掃除や洗濯など"
+        ]
+      },
+      {
+        "label": "〜とか〜とか",
+        "cells": [
+          "Casual",
+          "Yes",
+          "掃除するとか洗濯するとか"
+        ]
+      },
+      {
+        "label": "〜たり〜たりする",
+        "cells": [
+          "Neutral",
+          "Yes (た-form)",
+          "掃除したり洗濯したりする"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "週末は掃除とか洗濯とかで忙しい。",
+      "reading": "しゅうまつはそうじとかせんたくとかでいそがしい。",
+      "en": "On weekends I'm busy with things like cleaning and laundry.",
+      "note": "Nouns listed casually."
+    },
+    {
+      "ja": "休みの日は映画を見るとか、買い物に行くとかしている。",
+      "reading": "やすみのひはえいがをみるとか、かいものにいくとかしている。",
+      "en": "On days off I do things like watching movies or going shopping.",
+      "note": "Verbs listed with とか; ending in している."
+    },
+    {
+      "ja": "コーヒーとか紅茶とか、飲み物はいかがですか。",
+      "reading": "コーヒーとかこうちゃとか、のみものはいかがですか。",
+      "en": "Would you like a drink, such as coffee or tea?",
+      "note": "Offering examples in a question."
+    },
+    {
+      "ja": "週末は友達と映画とかカラオケとかに行くことが多い。",
+      "reading": "しゅうまつはともだちとえいがとかカラオケとかにいくことがおおい。",
+      "en": "On weekends I often go to things like movies or karaoke with friends.",
+      "note": "The particle (に) comes after the last とか."
+    },
+    {
+      "ja": "彼、来月結婚するとか言ってたよ。",
+      "reading": "かれ、らいげつけっこんするとかいってたよ。",
+      "en": "He was saying something about getting married next month.",
+      "note": "Single とか hedges a quotation: 'something like…'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜や〜など",
+      "difference": "Neutral and written; nouns only."
+    },
+    {
+      "pattern": "〜たり〜たりする",
+      "difference": "Lists representative actions with the た-form; more neutral and usable in writing.",
+      "id": "n3-grammar-113"
+    },
+    {
+      "pattern": "〜なんか / 〜なんて",
+      "difference": "Also gives an example but with a dismissive or emphatic tone (私なんか).",
+      "id": "n3-grammar-63"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "報告書：原因は、機械の故障とか操作ミスとかが考えられる。",
+      "right": "原因は、機械の故障や操作ミスなどが考えられる。",
+      "why": "とか is casual and inappropriate in a formal report."
+    },
+    {
+      "wrong": "映画とか見るとかしている。",
+      "right": "映画を見るとか、買い物に行くとかしている。",
+      "why": "Keep each とか after a complete item; do not insert とか inside a phrase."
+    },
+    {
+      "wrong": "掃除とか洗濯とかを忙しい。",
+      "right": "掃除とか洗濯とかで忙しい。",
+      "why": "The particle after the list must fit the predicate (忙しい takes で)."
+    }
+  ],
+  "usageNotes": [
+    "とか after a single item makes it vague and polite in requests: 何か飲み物とかいかがですか.",
+    "〜とか〜とか言う = 'say things like… and…'.",
+    "Very common in 聴解 dialogues; the listed items are often the answer clues."
+  ],
+  "jlptTips": [
+    "If the sentence is casual and lists verbs, とか is the answer rather than や.",
+    "Check the choices for particle placement: とかで, とかに after the second とか.",
+    "A single とか + 言う / 聞く is the hedge use."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-112-1",
+    "q-n3-g-112-2",
+    "q-n3-g-112-3",
+    "q-n3-g-112-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-112-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

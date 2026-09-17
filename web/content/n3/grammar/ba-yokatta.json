@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-129",
+  "slug": "ba-yokatta",
+  "level": "n3",
+  "order": 129,
+  "title": "〜ばよかった / 〜なければよかった",
+  "romaji": "ba yokatta / nakereba yokatta",
+  "meaning": "I should have…ed / I shouldn't have…ed (regret)",
+  "simpleExplanation": "〜ばよかった expresses regret about something you did not do: もっと早く出発すればよかった \"I should have left earlier\". 〜なければよかった is regret about something you did do: あんなことを言わなければよかった \"I shouldn't have said that\". Toward others, adding のに makes it a mild reproach: 傘を持ってくればよかったのに.",
+  "whenUsed": "Everyday conversation and inner monologue. 〜たらよかった is an equally common variant. For a moral judgement use 〜べきだった; for relief that something did happen use 〜てよかった.",
+  "formation": [
+    "Verb ば-form + よかった (行けばよかった)",
+    "Verb ない-form → なければ + よかった (言わなければよかった)",
+    "Variant: Verb たら-form + よかった",
+    "To others: 〜ばよかったのに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ばよかった vs てよかった vs べきだった",
+    "columns": [
+      "Did it happen?",
+      "Feeling",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ばよかった",
+        "cells": [
+          "No",
+          "regret",
+          "行けばよかった (I should have gone)"
+        ]
+      },
+      {
+        "label": "〜てよかった",
+        "cells": [
+          "Yes",
+          "relief / gladness",
+          "行ってよかった (I'm glad I went)"
+        ]
+      },
+      {
+        "label": "〜べきだった",
+        "cells": [
+          "No",
+          "judgement of duty",
+          "行くべきだった (I ought to have gone)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "もっと早く出発すればよかった。",
+      "reading": "もっとはやくしゅっぱつすればよかった。",
+      "en": "I should have left earlier.",
+      "note": "Regret about not leaving earlier."
+    },
+    {
+      "ja": "あんなことを言わなければよかった。",
+      "reading": "あんなことをいわなければよかった。",
+      "en": "I shouldn't have said such a thing.",
+      "note": "Regret about something said: なければよかった."
+    },
+    {
+      "ja": "傘を持ってくればよかったのに。",
+      "reading": "かさをもってくればよかったのに。",
+      "en": "You should have brought an umbrella.",
+      "note": "のに: mild reproach to someone else."
+    },
+    {
+      "ja": "学生のときにもっと英語を勉強しておけばよかった。",
+      "reading": "がくせいのときにもっとえいごをべんきょうしておけばよかった。",
+      "en": "I should have studied English more when I was a student.",
+      "note": "ておけば + よかった: regret about preparation."
+    },
+    {
+      "ja": "そんなに高い店に行かなければよかった。財布が空っぽだ。",
+      "reading": "そんなにたかいみせにいかなければよかった。さいふがからっぽだ。",
+      "en": "I shouldn't have gone to such an expensive restaurant. My wallet is empty.",
+      "note": "Regret about an action taken."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てよかった",
+      "difference": "Gladness about something that did happen.",
+      "id": "n3-grammar-130"
+    },
+    {
+      "pattern": "〜べきだった",
+      "difference": "'Ought to have' — a judgement rather than an emotional regret.",
+      "id": "n3-grammar-77"
+    },
+    {
+      "pattern": "〜たらよかった",
+      "difference": "Same meaning; たら is slightly more colloquial."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行ったらよかった。(meaning 'I'm glad I went')",
+      "right": "行ってよかった。",
+      "why": "たらよかった / ばよかった means you did NOT go and regret it."
+    },
+    {
+      "wrong": "言わないばよかった",
+      "right": "言わなければよかった",
+      "why": "The negative ば-form is なければ."
+    },
+    {
+      "wrong": "薬を飲めばよかったです。(said after taking the medicine and recovering)",
+      "right": "薬を飲んでよかったです。",
+      "why": "The medicine was taken, so this is relief (てよかった), not regret."
+    }
+  ],
+  "usageNotes": [
+    "なあ / なあと思う often follows to add a sigh: 行けばよかったなあ.",
+    "The ば-form: Group 1 -eば (行けば), Group 2 -れば (食べれば), する → すれば, 来る → 来れば.",
+    "In 聴解, a speaker saying 〜ばよかった is admitting a mistake; the question may ask what they failed to do."
+  ],
+  "jlptTips": [
+    "Ask: did it happen? No + regret → ばよかった; yes + relief → てよかった.",
+    "Negative regret needs なければ, not ないば.",
+    "のに at the end signals a reproach toward the listener."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-129-1",
+    "q-n3-g-129-2",
+    "q-n3-g-129-3",
+    "q-n3-g-129-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-129-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "n4-grammar-49",
+  "slug": "hodo-nai",
+  "level": "n4",
+  "order": 49,
+  "title": "〜ほど〜ない \"not as … as\"",
+  "romaji": "hodo ~nai",
+  "meaning": "Comparison of inferiority: \"A is not as … as B\".",
+  "simpleExplanation": "A は B ほど〜ない means \"A is not as … as B\". 今日は昨日ほど寒くない = today is not as cold as yesterday. ほど marks the thing you compare against, and the predicate must be negative (くない / じゃない / ない). A special use with はない gives a superlative: 東京ほど人が多い町はない = there is no city with as many people as Tokyo.",
+  "whenUsed": "Comparing two things when the first is less than the second, in everyday speech and writing. It is the polite, soft way to say something is less: 私は兄ほど背が高くない sounds gentler than 兄のほうが背が高い. The superlative 〜ほど〜はない is common in praise and opinions.",
+  "formation": [
+    "A は B ほど + い-adjective negative: 昨日ほど寒くない",
+    "A は B ほど + な-adjective negative: 東京ほど便利じゃない",
+    "A は B ほど + V-ない: 兄ほど食べない",
+    "V-dictionary + ほど: 走るほど速くない",
+    "Superlative: N ほど 〜 N はない / いない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "昨日は寒かった。今日は少し寒い。",
+        "en": "two facts: yesterday cold, today a bit cold"
+      },
+      {
+        "ja": "昨日のほうが今日より寒かった。",
+        "en": "yesterday was colder than today (より / のほうが)"
+      },
+      {
+        "ja": "今日は昨日ほど寒くない。",
+        "en": "today is not as cold as yesterday (ほど + negative)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は昨日ほど寒くない。",
+      "reading": "きょうは きのうほど さむくない。",
+      "en": "Today is not as cold as yesterday.",
+      "note": "い-adjective negative: 寒くない."
+    },
+    {
+      "ja": "私は兄ほど背が高くない。",
+      "reading": "わたしは あにほど せが たかくない。",
+      "en": "I'm not as tall as my older brother.",
+      "note": "The comparison target 兄 takes ほど; the predicate is negative."
+    },
+    {
+      "ja": "東京ほど人が多い町はない。",
+      "reading": "とうきょうほど ひとが おおい まちは ない。",
+      "en": "There is no city with as many people as Tokyo.",
+      "note": "Superlative: no city is as crowded as Tokyo."
+    },
+    {
+      "ja": "この問題は思ったほど難しくなかった。",
+      "reading": "このもんだいは おもったほど むずかしくなかった。",
+      "en": "This problem was not as hard as I thought.",
+      "note": "思ったほど〜ない (not as … as expected) is a very common phrase."
+    },
+    {
+      "ja": "家族ほど大切なものはない。",
+      "reading": "かぞくほど たいせつなものは ない。",
+      "en": "There is nothing as precious as family.",
+      "note": "Superlative use: ほど + はない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "B より A のほうが〜",
+      "difference": "Says A is more than B (positive). ほど〜ない says A is less than B."
+    },
+    {
+      "pattern": "〜くらい",
+      "difference": "くらい / ぐらい can also mark degree, but ほど〜ない is the fixed negative comparison. In that pattern only ほど is used.",
+      "id": "n4-grammar-50"
+    },
+    {
+      "pattern": "〜ほど (degree, N3)",
+      "difference": "With a positive predicate, ほど means \"so … that\" (死ぬほど疲れた). At N4 concentrate on the negative comparison."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今日は昨日ほど寒いです。",
+      "right": "今日は昨日ほど寒くないです。",
+      "why": "In this comparison pattern ほど must be followed by a negative."
+    },
+    {
+      "wrong": "私は兄より背が高くない。",
+      "right": "私は兄ほど背が高くない。",
+      "why": "\"Not as … as\" uses ほど. より is for \"more than\"."
+    },
+    {
+      "wrong": "東京ほど人が多い町がある。",
+      "right": "東京ほど人が多い町はない。",
+      "why": "The superlative needs はない: \"no city is as…\"."
+    }
+  ],
+  "usageNotes": [
+    "思ったほど / 期待したほど + negative = not as much as expected; very handy in reviews.",
+    "Casual: 〜ほどじゃない (それほどじゃない = it's not that much).",
+    "For people, the superlative uses いない: 母ほど優しい人はいない."
+  ],
+  "jlptTips": [
+    "If the sentence ends in a negative (くない, じゃない, ない) and compares two things, the blank is ほど, not より or のほうが.",
+    "A superlative sentence ending in はない / はいない with a noun before the blank also points to ほど."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-49-1",
+    "q-n4-g-49-2",
+    "q-n4-g-49-3",
+    "q-n4-g-49-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-49-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

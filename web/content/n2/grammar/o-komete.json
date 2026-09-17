@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-170",
+  "slug": "o-komete",
+  "level": "n2",
+  "order": 170,
+  "title": "〜を込めて",
+  "romaji": "o komete",
+  "meaning": "with (a feeling) put into, filled with",
+  "simpleExplanation": "〜を込めて means \"putting X into it\", where X is a feeling or wish: 心を込めて手紙を書いた (wrote with all my heart). The verb 込める means to put in or load. The noun-modifying form 〜を込めた + N (愛情を込めた料理) describes something filled with that feeling.",
+  "whenUsed": "Both speech and writing; common in cards, speeches, and descriptions of gifts and crafts. Typical nouns: 心, 愛, 愛情, 感謝, 祈り, 願い, 思い, 力.",
+  "formation": [
+    "Noun (feeling) + を込めて + verb",
+    "Noun (feeling) + を込めた + Noun",
+    "Noun + が込められている (is filled with)",
+    "Set phrases: 心を込めて / 感謝を込めて / 祈りを込めて / 力を込めて"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "感謝",
+    "branches": [
+      {
+        "suffix": "を込めて",
+        "result": "感謝を込めて贈る",
+        "label": "give with gratitude"
+      },
+      {
+        "suffix": "を込めた",
+        "result": "感謝を込めた手紙",
+        "label": "a letter filled with gratitude"
+      },
+      {
+        "suffix": "が込められている",
+        "result": "感謝が込められている",
+        "label": "is filled with gratitude (passive)"
+      }
+    ],
+    "rootLabel": "Feeling noun"
+  },
+  "examples": [
+    {
+      "ja": "心を込めて手紙を書いた。",
+      "reading": "こころをこめててがみをかいた。",
+      "en": "I wrote the letter with all my heart.",
+      "note": "心を込めて: the most common phrase."
+    },
+    {
+      "ja": "感謝を込めてプレゼントを贈った。",
+      "reading": "かんしゃをこめてプレゼントをおくった。",
+      "en": "I gave a present filled with gratitude.",
+      "note": "感謝を込めて with a gift."
+    },
+    {
+      "ja": "母は愛情を込めた料理を作ってくれる。",
+      "reading": "はははあいじょうをこめたりょうりをつくってくれる。",
+      "en": "My mother makes meals full of love.",
+      "note": "を込めた + noun: meals full of love."
+    },
+    {
+      "ja": "子供たちの幸せを願って、祈りを込めて歌った。",
+      "reading": "こどもたちのしあわせをねがって、いのりをこめてうたった。",
+      "en": "Wishing for the children's happiness, she sang with a prayer in her heart.",
+      "note": "祈りを込めて: a wish or prayer as the feeling."
+    },
+    {
+      "ja": "この作品には作者の強い思いが込められている。",
+      "reading": "このさくひんにはさくしゃのつよいおもいがこめられている。",
+      "en": "This work is filled with the author's strong feelings.",
+      "note": "Passive が込められている."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をもって",
+      "difference": "\"With (a tool or attitude)\" in formal writing (自信をもって); not specifically feelings loaded into an act."
+    },
+    {
+      "pattern": "〜ながら",
+      "difference": "\"While\": simultaneous action; no sense of investing a feeling."
+    },
+    {
+      "pattern": "〜のために",
+      "difference": "\"For the sake of\"; purpose rather than feeling."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "愛を込めた、料理を作った。",
+      "right": "愛を込めて、料理を作った。",
+      "why": "Adverbial use needs 込めて; 込めた modifies a noun."
+    },
+    {
+      "wrong": "速さを込めて走った。",
+      "right": "力を込めて走った。",
+      "why": "The noun must be a feeling, wish, or effort (力), not a physical quality."
+    },
+    {
+      "wrong": "心が込めて",
+      "right": "心を込めて",
+      "why": "The particle is を (the feeling is put in)."
+    }
+  ],
+  "usageNotes": [
+    "Greeting-card phrases: 感謝を込めて / 心を込めて.",
+    "力を込めて (with all one's strength) extends the pattern to physical effort.",
+    "皮肉を込めて (with sarcasm) shows that the feeling can be negative."
+  ],
+  "jlptTips": [
+    "If the noun is 心, 愛, 感謝, 祈り, 願い, or 力 and the verb is an act of giving, making, or saying, choose を込めて.",
+    "Before a noun, choose を込めた.",
+    "Distractors include をもって, に対して, ながら. Only を込めて loads a feeling into an act."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-170-1",
+    "q-n2-g-170-2",
+    "q-n2-g-170-3",
+    "q-n2-g-170-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-170-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

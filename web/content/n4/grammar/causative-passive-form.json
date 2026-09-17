@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-6",
+  "slug": "causative-passive-form",
+  "level": "n4",
+  "order": 6,
+  "title": "Causative-passive form (〜させられる / 〜される)",
+  "romaji": "shieki-ukemi (saserareru / sareru)",
+  "meaning": "\"be made to do something\" — the subject is forced by someone else, usually with a nuance of reluctance.",
+  "simpleExplanation": "The causative-passive says \"I was made to do something\". It combines the causative (make someone do) with the passive (it was done to me), so the person who was forced becomes the subject: 母は私に野菜を食べさせた (mother made me eat vegetables) → 私は母に野菜を食べさせられた (I was made to eat vegetables by my mother). The feeling is almost always reluctance: you did it because you had to.",
+  "whenUsed": "Complaining or reporting things you had no choice about: 残業させられた (was made to do overtime), 歌わされた (was made to sing), 待たされた (was kept waiting). Very common in conversation about work, school and family. The person who forced you takes に.",
+  "formation": [
+    "Group 1: ない-stem + せられる, usually shortened to される: 書く→書かせられる→書かされる, 待つ→待たされる, 飲む→飲まされる",
+    "Group 1 verbs ending in す do not shorten: 話す→話させられる (not 話さされる)",
+    "Group 2: ない-stem + させられる: 食べる→食べさせられる, やめる→やめさせられる",
+    "Group 3: する→させられる, 来る→来させられる (こさせられる)",
+    "Forcer + に; the forced person is the subject"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 話す / 食べる / する",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "ない-stem + される",
+        "result": "書かされる",
+        "label": "Group 1 (short form): be made to write"
+      },
+      {
+        "suffix": "ない-stem + せられる",
+        "result": "話させられる",
+        "label": "Group 1 ending in す: be made to speak"
+      },
+      {
+        "suffix": "ない-stem + させられる",
+        "result": "食べさせられる",
+        "label": "Group 2: be made to eat"
+      },
+      {
+        "suffix": "する → させられる",
+        "result": "させられる",
+        "label": "Group 3: be made to do"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は母に野菜を食べさせられた。",
+      "reading": "わたしは ははに やさいを たべさせられた。",
+      "en": "I was made to eat vegetables by my mother.",
+      "note": "Group 2: 食べる → 食べさせられる. 母に marks who forced."
+    },
+    {
+      "ja": "一時間も待たされました。",
+      "reading": "いちじかんも またされました。",
+      "en": "I was kept waiting a whole hour.",
+      "note": "Short form of 待たせられる: 待たされる. も stresses the long wait."
+    },
+    {
+      "ja": "会社で残業させられています。",
+      "reading": "かいしゃで ざんぎょうさせられています。",
+      "en": "I am made to work overtime at the company.",
+      "note": "する → させられる; the company is the implied forcer."
+    },
+    {
+      "ja": "パーティーで、みんなの前で歌を歌わされた。",
+      "reading": "パーティーで、みんなのまえで うたを うたわされた。",
+      "en": "At the party I was made to sing in front of everyone.",
+      "note": "歌う → 歌わせられる → shortened to 歌わされる. The reluctant feeling is clear."
+    },
+    {
+      "ja": "子供のころ、毎日ピアノを練習させられていました。",
+      "reading": "こどものころ、まいにち ピアノを れんしゅうさせられていました。",
+      "en": "When I was a child, I was made to practise the piano every day.",
+      "note": "する-verb: 練習する → 練習させられる. 〜ていた shows it was a repeated situation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Causative 〜させる",
+      "difference": "Told from the forcer's side (母は私に食べさせた). The causative-passive tells the same event from the forced person's side.",
+      "id": "n4-grammar-5"
+    },
+    {
+      "pattern": "Passive 〜られる",
+      "difference": "Passive: something was done to me (叱られた = I was scolded). Causative-passive: I was made to do it (書かされた = I was made to write).",
+      "id": "n4-grammar-4"
+    },
+    {
+      "pattern": "〜なければならない",
+      "difference": "Also \"had to\", but neutral: no particular person forced you. させられる names or implies the person who made you.",
+      "id": "n4-grammar-99"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は先輩に話さされた。",
+      "right": "私は先輩に話させられた。",
+      "why": "Verbs ending in す keep the long form because 話さされる is hard to pronounce and not used."
+    },
+    {
+      "wrong": "私は母に薬を飲まれた。",
+      "right": "私は母に薬を飲まされた。",
+      "why": "飲まれた is just the passive (\"was drunk\"). To say \"I was made to drink it\", you need the causative-passive 飲まされる."
+    },
+    {
+      "wrong": "先生は私に作文を書かされた。",
+      "right": "私は先生に作文を書かされた。/ 先生は私に作文を書かせた。",
+      "why": "With させられる the forced person is the subject and the forcer takes に. If the teacher is the subject, use the plain causative 書かせた."
+    }
+  ],
+  "usageNotes": [
+    "The short form (〜される) is the everyday spoken form for Group 1 verbs and is what the JLPT tests: 待たされる, 行かされる, 買わされる.",
+    "Because the nuance is reluctance, do not use it for things you were happy to do; use 〜てもらった / 〜させてもらった instead.",
+    "考えさせられる is a set phrase meaning \"it makes you think\" (この映画は考えさせられる)."
+  ],
+  "jlptTips": [
+    "If the sentence has X に and the subject clearly did not want to act (無理に, いやいや, 一時間も), the answer is the causative-passive, not the plain passive.",
+    "Check the verb's last sound: す-verbs (話す, 出す, 直す) must use させられる; other Group 1 verbs usually appear in the される short form."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-6-1",
+    "q-n4-g-6-2",
+    "q-n4-g-6-3",
+    "q-n4-g-6-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-6-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-68",
+  "slug": "toshitara-tosureba-tosuruto",
+  "level": "n3",
+  "order": 68,
+  "title": "〜としたら / 〜とすれば / 〜とすると",
+  "romaji": "toshitara tosureba tosuruto",
+  "meaning": "If we suppose… / assuming…",
+  "simpleExplanation": "〜としたら / とすれば / とすると set up an assumption and ask what follows: もし一億円あるとしたら、何をしますか = if you had 100 million yen, what would you do? としたら is the most flexible (it can lead to wishes or requests); とすれば feels logical; とすると leads to a natural conclusion.",
+  "whenUsed": "Reasoning, planning, hypothetical questions. Often with もし / 仮に. Also as sentence openers: だとすると / だとしたら (if that's the case).",
+  "formation": [
+    "Plain form + としたら / とすれば / とすると",
+    "Noun / な-adjective + だ + としたら",
+    "Sentence-initial: だとすると / だとしたら / だとすれば"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three suppositions",
+    "columns": [
+      "Feel",
+      "What can follow"
+    ],
+    "rows": [
+      {
+        "label": "〜としたら",
+        "cells": [
+          "flexible, everyday",
+          "wishes, requests, questions"
+        ]
+      },
+      {
+        "label": "〜とすれば",
+        "cells": [
+          "logical inference",
+          "conclusions, judgements"
+        ]
+      },
+      {
+        "label": "〜とすると",
+        "cells": [
+          "natural consequence",
+          "conclusions (not commands)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "もし一億円あるとしたら、何をしますか。",
+      "reading": "もしいちおくえんあるとしたら、なにをしますか。",
+      "en": "If you had 100 million yen, what would you do?",
+      "note": "としたら + a question about a wish."
+    },
+    {
+      "ja": "彼が犯人だとすれば、動機は何だろう。",
+      "reading": "かれがはんにんだとすれば、どうきはなんだろう。",
+      "en": "If he is the culprit, what would be the motive?",
+      "note": "とすれば + logical inference."
+    },
+    {
+      "ja": "この電車に乗るとすると、七時に着く。",
+      "reading": "このでんしゃにのるとすると、しちじにつく。",
+      "en": "If we take this train, we'd arrive at seven.",
+      "note": "とすると + a natural conclusion."
+    },
+    {
+      "ja": "もし留学するとしたら、どこの国に行きたいですか。",
+      "reading": "もしりゅうがくするとしたら、どこのくににいきたいですか。",
+      "en": "If you were to study abroad, which country would you want to go to?",
+      "note": "としたら + a wish question."
+    },
+    {
+      "ja": "この計画が本当だとすると、大きな問題になるだろう。",
+      "reading": "このけいかくがほんとうだとすると、おおきなもんだいになるだろう。",
+      "en": "If this plan is real, it's going to be a big problem.",
+      "note": "Noun + だとすると + conclusion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜としても",
+      "difference": "\"Even supposing\": concession, result unchanged.",
+      "id": "n3-grammar-65"
+    },
+    {
+      "pattern": "〜たら / 〜ば",
+      "difference": "Plain conditionals; としたら adds an explicit \"let's assume\"."
+    },
+    {
+      "pattern": "〜と仮定すると",
+      "difference": "Formal, academic version."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この電車に乗るとすると、七時に着きなさい。",
+      "right": "この電車に乗るとしたら、七時に着くように。/ 乗るとすると、七時に着く。",
+      "why": "とすると cannot lead to a command; use としたら or a plain statement."
+    },
+    {
+      "wrong": "一億円あってとしたら",
+      "right": "一億円あるとしたら",
+      "why": "Plain form before としたら, not the て-form."
+    },
+    {
+      "wrong": "犯人としたら",
+      "right": "犯人だとしたら",
+      "why": "Nouns need だ."
+    }
+  ],
+  "usageNotes": [
+    "としたら is flexible (can be followed by intention/request); とすれば is logical inference; とすると leads to a natural conclusion, not a command.",
+    "A common frame: もし〜としたら、〜たい / 〜だろう."
+  ],
+  "jlptTips": [
+    "もし / 仮に + plain clause + blank + a question or conclusion = としたら / とすれば / とすると.",
+    "A command or request after the blank rules out とすると; choose としたら.",
+    "Noun + だ before the blank; an option without だ is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-68-1",
+    "q-n3-g-68-2",
+    "q-n3-g-68-3",
+    "q-n3-g-68-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-68-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

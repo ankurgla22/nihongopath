@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-13",
+  "slug": "to-iu-no-wa",
+  "level": "n3",
+  "order": 13,
+  "title": "〜というのは",
+  "romaji": "to iu no wa",
+  "meaning": "…means… / what is called… / the reason is…",
+  "simpleExplanation": "〜というのは picks out a word or idea and explains it: 「花見」というのは、桜を見て楽しむことです = \"Hanami\" means enjoying cherry blossoms. Think of it as \"the thing called X is…\". At the start of a sentence, というのは means \"the reason is…\", explaining what you just said.",
+  "whenUsed": "Definitions in textbooks and conversations, explaining unfamiliar words, and giving reasons after a statement. Casual: 〜って / 〜とは.",
+  "formation": [
+    "Noun + というのは + explanation + ことだ / 意味だ / ものだ",
+    "Clause + というのは + comment (留学するというのは大変なことだ)",
+    "Sentence-initial: というのは、〜からだ (the reason is…)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "「花見」",
+        "role": "the word being defined"
+      },
+      {
+        "text": "というのは",
+        "role": "= the thing called…",
+        "highlight": true
+      },
+      {
+        "text": "桜を見て楽しむ",
+        "role": "explanation"
+      },
+      {
+        "text": "ことです",
+        "role": "closing noun (こと / 意味 / もの)",
+        "highlight": true
+      }
+    ],
+    "translation": "\"Hanami\" means enjoying cherry blossoms."
+  },
+  "examples": [
+    {
+      "ja": "「花見」というのは、桜を見て楽しむことです。",
+      "reading": "「はなみ」というのは、さくらをみてたのしむことです。",
+      "en": "\"Hanami\" means enjoying viewing cherry blossoms.",
+      "note": "Definition of a cultural term, closed with ことです."
+    },
+    {
+      "ja": "JLPTというのは、日本語能力試験のことだ。",
+      "reading": "JLPTというのは、にほんごのうりょくしけんのことだ。",
+      "en": "JLPT refers to the Japanese-Language Proficiency Test.",
+      "note": "Definition using 〜のことだ: JLPT means the Japanese-Language Proficiency Test."
+    },
+    {
+      "ja": "留学するというのは、簡単なことではない。",
+      "reading": "りゅうがくするというのは、かんたんなことではない。",
+      "en": "Studying abroad is not a simple thing.",
+      "note": "Clause + というのは: commenting on an idea as a whole."
+    },
+    {
+      "ja": "今日は早く帰ります。というのは、子供が熱を出したんです。",
+      "reading": "きょうははやくかえります。というのは、こどもがねつをだしたんです。",
+      "en": "I'm going home early today. The reason is, my child has a fever.",
+      "note": "Sentence-initial というのは gives the reason for the previous sentence."
+    },
+    {
+      "ja": "「三日坊主」というのは、何かを始めてもすぐにやめてしまう人のことだ。",
+      "reading": "「みっかぼうず」というのは、なにかをはじめてもすぐにやめてしまうひとのことだ。",
+      "en": "\"Mikka bouzu\" refers to a person who starts something and quits right away.",
+      "note": "For people or things, close with 〜のことだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜って",
+      "difference": "Casual spoken equivalent: 花見って何？",
+      "id": "n3-grammar-61"
+    },
+    {
+      "pattern": "〜とは",
+      "difference": "Formal/written equivalent, common in dictionaries and essays: 花見とは…"
+    },
+    {
+      "pattern": "〜ということだ",
+      "difference": "Ends a definition or conclusion; というのは opens it.",
+      "id": "n3-grammar-12"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "「花見」というのは、桜を見て楽しみます。",
+      "right": "「花見」というのは、桜を見て楽しむことです。",
+      "why": "A definition needs a noun ending (ことです / 意味です / のことです), not a plain verb."
+    },
+    {
+      "wrong": "JLPTというのは日本語能力試験だ。",
+      "right": "JLPTというのは日本語能力試験のことだ。",
+      "why": "When explaining what a name refers to, use 〜のことだ."
+    },
+    {
+      "wrong": "というのは、子供が熱を出しました。(no explanatory ending)",
+      "right": "というのは、子供が熱を出したからです。/ 出したんです。",
+      "why": "Sentence-initial というのは should be followed by an explanation ending in からだ / のだ."
+    }
+  ],
+  "usageNotes": [
+    "Casual equivalents: 〜って / 〜とは. As an opener, というのは = \"the reason is that...\" (explaining what was just said).",
+    "A question form is common: 〜というのはどういう意味ですか。"
+  ],
+  "jlptTips": [
+    "A quoted word in 「」 followed by a blank and an explanation ending in ことだ / 意味だ points to というのは.",
+    "Sentence-initial というのは = \"the reason is\"; the previous sentence is a surprising fact, and this sentence ends with からだ / のだ.",
+    "Distractors: ということだ (ends the definition), というより (rather than), というと (when you say)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-13-1",
+    "q-n3-g-13-2",
+    "q-n3-g-13-3",
+    "q-n3-g-13-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-13-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

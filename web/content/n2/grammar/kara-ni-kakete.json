@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-32",
+  "slug": "kara-ni-kakete",
+  "level": "n2",
+  "order": 32,
+  "title": "〜から〜にかけて",
+  "romaji": "kara ... ni kakete",
+  "meaning": "from ... through/to ... (spanning a range)",
+  "simpleExplanation": "〜から〜にかけて means \"from… through/to…\", covering a span of time or space whose edges are not sharply defined: heavy snow from tonight through tomorrow morning; an earthquake felt from Kanto through Tohoku.",
+  "whenUsed": "書き言葉寄り, typical of weather forecasts and news, but also fine in speech. Because the boundaries are vague, it does not fit exact schedules (\"from 9:00 to 10:00\"), which use 〜から〜まで. The verb after it describes something spread over the range.",
+  "formation": [
+    "N + から + N + にかけて"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "から〜まで vs から〜にかけて",
+    "columns": [
+      "Boundaries",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜から〜まで",
+        "cells": [
+          "exact",
+          "9時から5時まで働く"
+        ]
+      },
+      {
+        "label": "〜から〜にかけて",
+        "cells": [
+          "vague, spread",
+          "夕方から夜にかけて雨が降る"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今夜から明日の朝にかけて、大雪になるでしょう。",
+      "reading": "こんやからあしたのあさにかけて、おおゆきになるでしょう。",
+      "en": "From tonight through tomorrow morning there will be heavy snow.",
+      "note": "Weather forecast: time range."
+    },
+    {
+      "ja": "関東から東北にかけて、地震が観測された。",
+      "reading": "かんとうからとうほくにかけて、じしんがかんそくされた。",
+      "en": "An earthquake was observed from Kanto through Tohoku.",
+      "note": "News: spatial range."
+    },
+    {
+      "ja": "3月から4月にかけて桜が咲く。",
+      "reading": "さんがつからしがつにかけてさくらがさく。",
+      "en": "Cherry blossoms bloom from March into April.",
+      "note": "Season range with a natural event."
+    },
+    {
+      "ja": "この地域では、五月から六月にかけて雨の日が多い。",
+      "reading": "このちいきでは、ごがつからろくがつにかけてあめのひがおおい。",
+      "en": "In this region there are many rainy days from May into June.",
+      "note": "A general tendency over a span."
+    },
+    {
+      "ja": "首から肩にかけて痛みがある。",
+      "reading": "くびからかたにかけていたみがある。",
+      "en": "I have pain from my neck through to my shoulder.",
+      "note": "Body area as a spatial range."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜から〜まで",
+      "difference": "Exact start and end; used with schedules and precise limits."
+    },
+    {
+      "pattern": "〜にわたって",
+      "difference": "\"Over (a span)\" with a single noun (三日間にわたって); no から.",
+      "id": "n2-grammar-141"
+    },
+    {
+      "pattern": "〜から〜へ",
+      "difference": "Movement from one point to another, not a covered range."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "会議は九時から十時にかけて行います。",
+      "right": "会議は九時から十時まで行います。",
+      "why": "An exact schedule takes まで; にかけて is for vague spans."
+    },
+    {
+      "wrong": "東京から大阪にかけて新幹線で行った。",
+      "right": "東京から大阪まで新幹線で行った。",
+      "why": "Travel between two points is まで; にかけて describes something spread across the area."
+    },
+    {
+      "wrong": "夜にかけて雨が降る。（without から, meaning \"from evening\"）",
+      "right": "夕方から夜にかけて雨が降る。",
+      "why": "The から part gives the starting point; without it the sentence loses its range."
+    }
+  ],
+  "usageNotes": [
+    "Frequent in forecasts: 今夜から明日にかけて, 週末にかけて (the から may be omitted when the start is obvious).",
+    "The predicate is something distributed over the range: 降る, 続く, 起きる, 見られる.",
+    "Spatial uses include regions, body parts and roads."
+  ],
+  "jlptTips": [
+    "Two time or place nouns joined by から with a vague, spread-out event → にかけて.",
+    "Distractors: まで, にわたって, に対して. An exact endpoint or a verb of arrival (着く) means まで.",
+    "にわたって takes a single duration noun (一週間にわたって), not a から〜 pair."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-32-1",
+    "q-n2-g-32-2",
+    "q-n2-g-32-3",
+    "q-n2-g-32-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-32-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

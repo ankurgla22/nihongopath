@@ -1,0 +1,118 @@
+{
+  "id": "n3-grammar-34",
+  "slug": "tabi-ni",
+  "level": "n3",
+  "order": 34,
+  "title": "〜たびに / 〜度に",
+  "romaji": "tabi ni",
+  "meaning": "Every time… / whenever…",
+  "simpleExplanation": "〜たびに means that each time one thing happens, another follows: この歌を聞くたびに学生時代を思い出す = every time I hear this song, I remember my school days. The verb before たびに is always in dictionary form, even when talking about the past.",
+  "whenUsed": "Conversation and writing, memories, habits, complaints (会うたびに文句を言う). Nouns of events take の: 旅行のたびに.",
+  "formation": [
+    "Verb (dictionary form) + たびに",
+    "Noun (event) + の + たびに",
+    "Written: 〜度に"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この歌を聞く",
+        "role": "trigger (dictionary form)"
+      },
+      {
+        "text": "たびに、",
+        "role": "every time",
+        "highlight": true
+      },
+      {
+        "text": "学生時代を思い出す。",
+        "role": "what follows each time"
+      }
+    ],
+    "translation": "Every time I hear this song, I remember my school days."
+  },
+  "examples": [
+    {
+      "ja": "この歌を聞くたびに、学生時代を思い出す。",
+      "reading": "このうたをきくたびに、がくせいじだいをおもいだす。",
+      "en": "Every time I hear this song, I remember my student days.",
+      "note": "Trigger + memory: a classic pairing."
+    },
+    {
+      "ja": "彼は会うたびに、背が高くなっている。",
+      "reading": "かれはあうたびに、せがたかくなっている。",
+      "en": "Every time I see him, he's gotten taller.",
+      "note": "会うたびに + a change noticed each time."
+    },
+    {
+      "ja": "旅行のたびに、お土産を買ってくる。",
+      "reading": "りょこうのたびに、おみやげをかってくる。",
+      "en": "Every time I travel, I bring back souvenirs.",
+      "note": "Noun + のたびに: an event that recurs."
+    },
+    {
+      "ja": "祖母は、私が帰るたびにたくさんの料理を作ってくれる。",
+      "reading": "そぼは、わたしがかえるたびにたくさんのりょうりをつくってくれる。",
+      "en": "Every time I go home, my grandmother cooks lots of food for me.",
+      "note": "Dictionary form 帰る even though it is a habit."
+    },
+    {
+      "ja": "引っ越しのたびに、物が増えていることに気づく。",
+      "reading": "ひっこしのたびに、ものがふえていることにきづく。",
+      "en": "Every time I move house, I realize how much stuff I've accumulated.",
+      "note": "Event noun + のたびに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と (whenever)",
+      "difference": "\"When X, Y always happens\" as a natural consequence. たびに stresses each separate occasion."
+    },
+    {
+      "pattern": "〜ときはいつも",
+      "difference": "Same idea in plain words; less compact."
+    },
+    {
+      "pattern": "〜ごとに",
+      "difference": "\"Every (interval)\": 三日ごとに. Not \"each time an event happens\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この歌を聞いたたびに",
+      "right": "この歌を聞くたびに",
+      "why": "Always the dictionary form before たびに."
+    },
+    {
+      "wrong": "旅行たびに",
+      "right": "旅行のたびに",
+      "why": "Nouns need の."
+    },
+    {
+      "wrong": "毎日たびに運動する。",
+      "right": "毎日運動する。",
+      "why": "たびに needs an event that triggers something; a time word like 毎日 is not a trigger."
+    }
+  ],
+  "usageNotes": [
+    "Always dictionary form (never た-form) before たびに. Stronger sense of \"each single occasion\" than 〜と (natural consequence) or 〜ときはいつも.",
+    "Often followed by a feeling or memory: 思い出す, 感じる, 感動する."
+  ],
+  "jlptTips": [
+    "A recurring event + a reaction each time = たびに. Check that the verb before the blank is in dictionary form.",
+    "Distractors: うちに, とたんに, 最中に. Only たびに expresses repetition.",
+    "A noun before the blank needs の; options without の are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-34-1",
+    "q-n3-g-34-2",
+    "q-n3-g-34-3",
+    "q-n3-g-34-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-34-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

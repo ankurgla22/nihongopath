@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-31",
+  "slug": "ni-kurabete",
+  "level": "n3",
+  "order": 31,
+  "title": "〜に比べて / 〜に比べ",
+  "romaji": "ni kurabete",
+  "meaning": "Compared to…",
+  "simpleExplanation": "〜に比べて sets up a comparison openly: 去年に比べて今年は暑い = compared to last year, this year is hot. The noun before に比べて is the standard you compare against; the main clause says how the other thing differs. It is more explicit than the plain particle より.",
+  "whenUsed": "Essays, reports, presentations with data, everyday comparisons. Variants: 〜に比べると, 〜と比べて, written 〜に比べ.",
+  "formation": [
+    "Noun + に比べて / に比べると / に比べ",
+    "Clause (plain) + の + に比べて",
+    "Variant: Noun + と比べて"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Ways to compare",
+    "columns": [
+      "Feel",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "A は B より〜",
+        "cells": [
+          "plain, short",
+          "今年は去年より暑い"
+        ]
+      },
+      {
+        "label": "B に比べて A は〜",
+        "cells": [
+          "explicit comparison",
+          "去年に比べて今年は暑い"
+        ]
+      },
+      {
+        "label": "A は B ほど〜ない",
+        "cells": [
+          "A is less than B",
+          "今年は去年ほど暑くない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "去年に比べて、今年は暑い。",
+      "reading": "きょねんにくらべて、ことしはあつい。",
+      "en": "Compared to last year, this year is hot.",
+      "note": "Standard (last year) + the difference (this year is hot)."
+    },
+    {
+      "ja": "東京に比べると、大阪は物価が安い。",
+      "reading": "とうきょうにくらべると、おおさかはぶっかがやすい。",
+      "en": "Compared with Tokyo, prices in Osaka are cheaper.",
+      "note": "に比べると: the same meaning with a conditional feel."
+    },
+    {
+      "ja": "兄は弟に比べて、ずっとおとなしい。",
+      "reading": "あにはおとうとにくらべて、ずっとおとなしい。",
+      "en": "Compared to his younger brother, the older one is much quieter.",
+      "note": "Comparing two people."
+    },
+    {
+      "ja": "田舎は都会に比べて、家賃がずっと安い。",
+      "reading": "いなかはとかいにくらべて、やちんがずっとやすい。",
+      "en": "Compared to the city, rent in the countryside is much cheaper.",
+      "note": "ずっと strengthens the difference."
+    },
+    {
+      "ja": "以前に比べ、この製品の性能は大幅に向上した。",
+      "reading": "いぜんにくらべ、このせいひんのせいのうはおおはばにこうじょうした。",
+      "en": "Compared with before, this product's performance has improved greatly.",
+      "note": "Written form に比べ in a report."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "The simple comparative particle. に比べて makes the comparison a topic of the sentence."
+    },
+    {
+      "pattern": "〜ほど〜ない",
+      "difference": "A is not as … as B: comparison of inferiority.",
+      "id": "n3-grammar-49"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\": expectation vs reality, not a comparison between two items.",
+      "id": "n3-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "去年を比べて、今年は暑い。",
+      "right": "去年に比べて、今年は暑い。",
+      "why": "The standard of comparison takes に (or と), not を."
+    },
+    {
+      "wrong": "昔に比べて、今は便利ではない。(intended: not as convenient)",
+      "right": "今は昔ほど便利ではない。",
+      "why": "\"Not as X as\" is expressed by ほど〜ない; に比べて + a negative sounds odd unless you mean a plain contrast."
+    },
+    {
+      "wrong": "兄が背が高いに比べて",
+      "right": "兄が背が高いのに比べて",
+      "why": "A clause needs の before に比べて."
+    }
+  ],
+  "usageNotes": [
+    "Variants: 〜に比べると / 〜と比べて / 〜に比べ (written). 〜より is the plain comparative particle; に比べて makes the comparison explicit.",
+    "Statistics-style sentences often use 〜に比べて〜パーセント増加した."
+  ],
+  "jlptTips": [
+    "A comparison adjective (高い, 安い, 多い) plus a second item in the sentence = に比べて.",
+    "If the blank precedes a clause + の, the answer is のに比べて; check for the の.",
+    "Distractors: に対して (contrast of two different features), にしては (unexpected), より (grammatical but usually not the intended answer when both appear)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-31-1",
+    "q-n3-g-31-2",
+    "q-n3-g-31-3",
+    "q-n3-g-31-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-31-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

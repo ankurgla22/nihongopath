@@ -1,0 +1,135 @@
+{
+  "id": "n3-grammar-119",
+  "slug": "hazu-datta",
+  "level": "n3",
+  "order": 119,
+  "title": "〜はずだった",
+  "romaji": "hazu datta",
+  "meaning": "was supposed to… (but didn't happen)",
+  "simpleExplanation": "〜はずだった means something was expected or scheduled, but reality turned out differently: 九時に出発するはずだったが、遅れた \"it was supposed to leave at nine, but was delayed\". It is the past of はずだ (\"should be\") and almost always continues with が / のに and the disappointing fact.",
+  "whenUsed": "Talking about plans, timetables, arrangements and predictions that failed. The subject can be anything (a plane, a person, the weather). For your own intention use つもりだった.",
+  "formation": [
+    "Verb (plain form) + はずだった",
+    "い-adjective + はずだった",
+    "な-adjective + な + はずだった",
+    "Noun + の + はずだった",
+    "Usually followed by が / のに / けれど"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "はずだ / はずだった / つもりだった",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜はずだ",
+        "cells": [
+          "is expected to (still true)",
+          "彼は来るはずだ (he should be coming)"
+        ]
+      },
+      {
+        "label": "〜はずだった",
+        "cells": [
+          "was expected to (didn't happen)",
+          "彼は来るはずだったのに、来なかった"
+        ]
+      },
+      {
+        "label": "〜つもりだった",
+        "cells": [
+          "I intended to (didn't happen)",
+          "行くつもりだったが、やめた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "飛行機は九時に出発するはずだったが、遅れた。",
+      "reading": "ひこうきはくじにしゅっぱつするはずだったが、おくれた。",
+      "en": "The plane was supposed to leave at nine, but it was delayed.",
+      "note": "A schedule that failed."
+    },
+    {
+      "ja": "彼も来るはずだったのに、来なかった。",
+      "reading": "かれもくるはずだったのに、こなかった。",
+      "en": "He was supposed to come too, but he didn't.",
+      "note": "An arrangement that failed: のに shows disappointment."
+    },
+    {
+      "ja": "今日は休みのはずだったが、急に仕事が入った。",
+      "reading": "きょうはやすみのはずだったが、きゅうにしごとがはいった。",
+      "en": "Today was supposed to be a day off, but work suddenly came up.",
+      "note": "Noun + の + はずだった."
+    },
+    {
+      "ja": "今日の試合は中止になった。本当なら私が出るはずだった。",
+      "reading": "きょうのしあいはちゅうしになった。ほんとうならわたしがでるはずだった。",
+      "en": "Today's match was cancelled. I was originally supposed to play.",
+      "note": "本当なら 'if things had gone as planned' pairs with はずだった."
+    },
+    {
+      "ja": "この道は近道のはずだったのに、かえって時間がかかった。",
+      "reading": "このみちはちかみちのはずだったのに、かえってじかんがかかった。",
+      "en": "This road was supposed to be a shortcut, but it actually took longer.",
+      "note": "Failed expectation about a thing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜つもりだった",
+      "difference": "The speaker's own intention; はずだった is an external expectation or plan.",
+      "id": "n3-grammar-118"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "The expectation is still valid (present)."
+    },
+    {
+      "pattern": "〜ことになっていた",
+      "difference": "'It had been arranged that'; focuses on the arrangement rather than the failed expectation.",
+      "id": "n3-grammar-10"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は九時に来るつもりだったが、電車が遅れた。(when stressing the schedule)",
+      "right": "電車は九時に着くはずだったが、遅れた。",
+      "why": "For a timetable, use はずだった with the train as subject; つもり is only for intentions."
+    },
+    {
+      "wrong": "休みはずだった",
+      "right": "休みのはずだった",
+      "why": "Nouns take の before はず."
+    },
+    {
+      "wrong": "彼は来るはずだった。(with no continuation, meaning 'he came as expected')",
+      "right": "彼は予定どおり来た。",
+      "why": "はずだった implies the expectation failed; if it succeeded, do not use it."
+    }
+  ],
+  "usageNotes": [
+    "Set openers: 本当なら / 予定では / 本来は + 〜はずだった.",
+    "The failure is often expressed with 〜てしまった or 〜なかった.",
+    "はずではなかった means 'this was not supposed to happen' (こんなはずではなかった)."
+  ],
+  "jlptTips": [
+    "Subject is a schedule, event or other person + failed outcome → はずだった.",
+    "Choices often pair はずだった with つもりだった; ask 'whose intention?'.",
+    "Do not confuse with はずがない (impossible); check the ending carefully."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-119-1",
+    "q-n3-g-119-2",
+    "q-n3-g-119-3",
+    "q-n3-g-119-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-119-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-183",
+  "slug": "te-hajimete",
+  "level": "n2",
+  "order": 183,
+  "title": "〜てはじめて",
+  "romaji": "te hajimete",
+  "meaning": "only after, not until (a realization follows)",
+  "simpleExplanation": "〜てはじめて means \"only after X did Y happen\", where Y is usually a realization: 病気になってはじめて、健康のありがたさが分かった. Before X, the speaker did not know or notice Y. The main clause typically contains 分かる, 気づく, 知る, or 〜ようになる.",
+  "whenUsed": "Both speech and writing; common in reflective statements and essays. It is neutral in register. はじめて here is the adverb 'for the first time', so the pattern literally says 'for the first time after doing X'.",
+  "formation": [
+    "Verb (て-form) + はじめて",
+    "Main clause: 分かる / 気づく / 知る / 実感する / 〜ようになる",
+    "Noun + があってはじめて (only with X)",
+    "Kanji: 初めて (usual)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "病気になって",
+        "role": "the event (て-form)"
+      },
+      {
+        "text": "はじめて",
+        "role": "only after that, for the first time",
+        "highlight": true
+      },
+      {
+        "text": "、健康のありがたさが分かった",
+        "role": "the realization"
+      }
+    ],
+    "translation": "Only after falling ill did I realize how precious health is."
+  },
+  "examples": [
+    {
+      "ja": "病気になってはじめて、健康のありがたさが分かった。",
+      "reading": "びょうきになってはじめて、けんこうのありがたさがわかった。",
+      "en": "Only after falling ill did I realize how precious health is.",
+      "note": "Illness as the trigger of realization."
+    },
+    {
+      "ja": "親になってはじめて、親の苦労を知った。",
+      "reading": "おやになってはじめて、おやのくろうをしった。",
+      "en": "It was not until I became a parent that I understood parents' hardships.",
+      "note": "Becoming a parent as the trigger."
+    },
+    {
+      "ja": "外国に住んでみてはじめて、自分の国のよさに気づいた。",
+      "reading": "がいこくにすんでみてはじめて、じぶんのくにのよさにきづいた。",
+      "en": "Only when I lived abroad did I notice the good points of my own country.",
+      "note": "Living abroad as the trigger of noticing."
+    },
+    {
+      "ja": "実際に働いてはじめて、この仕事の大変さを実感した。",
+      "reading": "じっさいにはたらいてはじめて、このしごとのたいへんさをじっかんした。",
+      "en": "Only after actually working did I truly feel how hard this job is.",
+      "note": "実感する: a typical realization verb."
+    },
+    {
+      "ja": "周りの支えがあってはじめて、人は成長できる。",
+      "reading": "まわりのささえがあってはじめて、ひとはせいちょうできる。",
+      "en": "Only with the support of those around them can people grow.",
+      "note": "があってはじめて: a condition rather than a time."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てこそ",
+      "difference": "\"Only by doing\": stresses value rather than realization.",
+      "id": "n2-grammar-178"
+    },
+    {
+      "pattern": "〜て以来",
+      "difference": "\"Ever since\": marks a starting point without the realization nuance."
+    },
+    {
+      "pattern": "〜たら",
+      "difference": "Plain 'when'; no sense of 'not until'."
+    },
+    {
+      "pattern": "〜ないと〜ない",
+      "difference": "\"Unless X, not Y\": similar logic in a negative frame."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "病気になるはじめて",
+      "right": "病気になってはじめて",
+      "why": "Use the て-form before はじめて."
+    },
+    {
+      "wrong": "病気になってはじめて、薬を飲んだ。",
+      "right": "病気になってはじめて、健康の大切さが分かった。",
+      "why": "The main clause should be a realization, not just the next action."
+    },
+    {
+      "wrong": "初めて病気になって、分かった。",
+      "right": "病気になってはじめて、分かった。",
+      "why": "Word order matters: 初めて before the verb means 'for the first time'; after the て-form it means 'not until'."
+    }
+  ],
+  "usageNotes": [
+    "The realization is usually something that should have been obvious earlier.",
+    "〜があってはじめて expresses a necessary condition.",
+    "Often followed by 〜ものだ in general statements: 失ってはじめて分かるものだ."
+  ],
+  "jlptTips": [
+    "If the て-form precedes the blank and the main clause is 分かる / 気づく, choose てはじめて.",
+    "Distinguish from てこそ by the main clause: realization (てはじめて) versus value (てこそ).",
+    "Watch the position of はじめて; before the verb it is just 'for the first time'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-183-1",
+    "q-n2-g-183-2",
+    "q-n2-g-183-3",
+    "q-n2-g-183-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-183-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

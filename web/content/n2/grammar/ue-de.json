@@ -1,0 +1,132 @@
+{
+  "id": "n2-grammar-8",
+  "slug": "ue-de",
+  "level": "n2",
+  "order": 8,
+  "title": "〜上で",
+  "romaji": "ue de",
+  "meaning": "(a) after doing ... (then); (b) in terms of / for the purpose of ...",
+  "simpleExplanation": "〜上で has two uses. (a) Vた + 上で: \"after doing X (as a necessary step), then Y\": read the contract, then sign. (b) Vる + 上で: \"in doing X / for the purpose of X\", stating what matters in the process: in learning a language, persistence is key.",
+  "whenUsed": "書き言葉 and formal speech: business, instructions, announcements. The Vた version implies that the first action is a deliberate preparation for the decision that follows; it is not for accidental sequences. The Vる version introduces an important point or condition.",
+  "formation": [
+    "(a) Vた + 上で / N + の + 上で; (b) Vる + 上で / N + の + 上で"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of 上で",
+    "columns": [
+      "Form",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Sequence",
+        "cells": [
+          "Vた / Nの + 上で",
+          "having done X, then Y",
+          "よく読んだ上でサインする"
+        ]
+      },
+      {
+        "label": "Context",
+        "cells": [
+          "Vる / Nの + 上で",
+          "in (the process of) X",
+          "学ぶ上で大切なのは継続だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "内容をよく読んだ上で、サインしてください。",
+      "reading": "ないようをよくよんだうえで、サインしてください。",
+      "en": "Please sign after reading the contents carefully.",
+      "note": "Vた + 上で: reading is the required step before signing."
+    },
+    {
+      "ja": "両親と相談の上で、決めたいと思います。",
+      "reading": "りょうしんとそうだんのうえで、きめたいとおもいます。",
+      "en": "I'd like to decide after consulting my parents.",
+      "note": "N + の + 上で: 相談の上で = after consulting."
+    },
+    {
+      "ja": "外国語を学ぶ上で、一番大切なのは継続だ。",
+      "reading": "がいこくごをまなぶうえで、いちばんたいせつなのはけいぞくだ。",
+      "en": "In learning a foreign language, the most important thing is persistence.",
+      "note": "Vる + 上で: what matters in the process."
+    },
+    {
+      "ja": "この件は上司と検討した上で、改めてご連絡いたします。",
+      "reading": "このけんはじょうしとけんとうしたうえで、あらためてごれんらくいたします。",
+      "en": "I will get back to you after discussing this matter with my supervisor.",
+      "note": "Standard business phrasing."
+    },
+    {
+      "ja": "健康を保つ上で、睡眠は欠かせない。",
+      "reading": "けんこうをたもつうえで、すいみんはかかせない。",
+      "en": "Sleep is essential for maintaining one's health.",
+      "note": "Vる + 上で = for the purpose of."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Plain sequence without the sense of a deliberate, necessary step. 上で sounds formal and considered."
+    },
+    {
+      "pattern": "〜上に",
+      "difference": "\"In addition to\"; only the particle differs.",
+      "id": "n2-grammar-7"
+    },
+    {
+      "pattern": "〜上は",
+      "difference": "\"Now that\": a decision that leads to a resolve.",
+      "id": "n2-grammar-9"
+    },
+    {
+      "pattern": "〜に当たって",
+      "difference": "\"On the occasion of\" a major undertaking; overlaps with Vる + 上で but marks the occasion rather than the process.",
+      "id": "n2-grammar-98"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "晩ご飯を食べた上で、テレビを見た。",
+      "right": "晩ご飯を食べてから、テレビを見た。",
+      "why": "上で is for a deliberate preparatory step; ordinary daily sequences use てから."
+    },
+    {
+      "wrong": "よく考える上で、決めてください。",
+      "right": "よく考えた上で、決めてください。",
+      "why": "The sequence use needs Vた. Vる + 上で would mean \"in the process of thinking\"."
+    },
+    {
+      "wrong": "相談する上で、決めました。",
+      "right": "相談の上で、決めました。/ 相談した上で、決めました。",
+      "why": "For \"after consulting\", use the noun + の or the past form."
+    }
+  ],
+  "usageNotes": [
+    "The result clause of Vた + 上で is often a decision, judgment or formal action: 決める, サインする, 連絡する.",
+    "Vる + 上で pairs with evaluative predicates: 大切だ, 必要だ, 役に立つ, 欠かせない, 問題になる.",
+    "In legal or official notices you see 〜の上、 without で: ご確認の上、ご署名ください."
+  ],
+  "jlptTips": [
+    "Decide by the verb form before the blank: Vた and a decision after it → 上で (sequence); Vる and 大切だ/必要だ after it → 上で (context).",
+    "Distractors are 上に, 上は and 末に. 末に would need a long struggle; 上に would need two stacked facts.",
+    "Business collocations like 検討の上, 相談の上, 確認の上 appear often; treat them as fixed chunks in 並べ替え."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-8-1",
+    "q-n2-g-8-2",
+    "q-n2-g-8-3",
+    "q-n2-g-8-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-8-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

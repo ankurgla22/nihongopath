@@ -1,0 +1,141 @@
+{
+  "id": "n2-grammar-134",
+  "slug": "ni-watatte",
+  "level": "n2",
+  "order": 134,
+  "title": "〜にわたって / 〜にわたり / 〜にわたる",
+  "romaji": "ni watatte / ni watari / ni wataru",
+  "meaning": "over, throughout, spanning (a period, area, or range)",
+  "simpleExplanation": "〜にわたって means \"over the whole of X\", where X is a span of time, space, or scope: 五時間にわたって (over five hours), 関東全域にわたり (across all of Kanto), 多方面にわたる (spanning many fields). It stresses how long, wide, or broad the extent is. The noun-modifying form 〜にわたる + N is common in formal writing.",
+  "whenUsed": "Formal written and spoken Japanese: news, reports, speeches. In conversation people say 〜の間ずっと or 〜中. にわたり is the written variant.",
+  "formation": [
+    "Noun (period / area / scope) + にわたって / にわたり",
+    "Noun + にわたる + Noun (十年にわたる研究)",
+    "Typical nouns: 数時間・三日間・十年・全国・全域・多方面・広範囲・数回"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜にわたって",
+      "〜から〜にかけて",
+      "〜を通じて / を通して"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "the whole extent of a span (emphasizing size)",
+          "a rough range from A to B",
+          "throughout a whole period"
+        ]
+      },
+      {
+        "label": "Typical use",
+        "cells": [
+          "五時間にわたって, 全国にわたって",
+          "三月から四月にかけて",
+          "一年を通して"
+        ]
+      },
+      {
+        "label": "Nuance",
+        "cells": [
+          "long / wide / broad",
+          "approximate boundaries",
+          "continuous during"
+        ]
+      }
+    ],
+    "title": "Extent, range, or throughout"
+  },
+  "examples": [
+    {
+      "ja": "会議は五時間にわたって行われた。",
+      "reading": "かいぎはごじかんにわたっておこなわれた。",
+      "en": "The meeting was held over five hours.",
+      "note": "A long period: stresses that five hours is a lot."
+    },
+    {
+      "ja": "関東全域にわたり、大雨警報が出ている。",
+      "reading": "かんとうぜんいきにわたり、おおあめけいほうがでている。",
+      "en": "A heavy-rain warning is in effect across the whole Kanto region.",
+      "note": "A wide area; にわたり is the written form."
+    },
+    {
+      "ja": "十年にわたる研究がついに実を結んだ。",
+      "reading": "じゅうねんにわたるけんきゅうがついにみをむすんだ。",
+      "en": "Ten years of research finally bore fruit.",
+      "note": "にわたる + noun: research spanning ten years."
+    },
+    {
+      "ja": "彼の活動は政治から芸術まで多方面にわたっている。",
+      "reading": "かれのかつどうはせいじからげいじゅつまでたほうめんにわたっている。",
+      "en": "His activities span many fields, from politics to art.",
+      "note": "Scope meaning; predicate use にわたっている."
+    },
+    {
+      "ja": "この橋は三年にわたる工事の末に完成した。",
+      "reading": "このはしはさんねんにわたるこうじのすえにかんせいした。",
+      "en": "This bridge was completed after three years of construction.",
+      "note": "にわたる + noun with 末に: a long process finally finished."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜から〜にかけて",
+      "difference": "Approximate range with a start and an end; にわたって treats the span as a whole and stresses its size."
+    },
+    {
+      "pattern": "〜を通じて / 〜を通して",
+      "difference": "\"Throughout (a period)\"; continuous, less emphasis on magnitude.",
+      "id": "n2-grammar-172"
+    },
+    {
+      "pattern": "〜の間",
+      "difference": "Neutral \"during\"; no emphasis."
+    },
+    {
+      "pattern": "〜にかけては",
+      "difference": "Unrelated: \"when it comes to (a skill)\".",
+      "id": "n2-grammar-104"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三月にわたって、桜が咲く。",
+      "right": "三月から四月にかけて、桜が咲く。",
+      "why": "A single point in time is not a span; use から〜にかけて for a rough range."
+    },
+    {
+      "wrong": "十年にわたって研究",
+      "right": "十年にわたる研究",
+      "why": "Before a noun use にわたる."
+    },
+    {
+      "wrong": "五分にわたって話した。",
+      "right": "五時間にわたって話した。",
+      "why": "Not wrong grammatically, but にわたって implies a notably long or wide extent; five minutes sounds odd."
+    }
+  ],
+  "usageNotes": [
+    "The noun is usually a quantity: 数時間, 三日間, 二十年, 全国, 数十ページ, 十回.",
+    "Kanji: 渡る (to cross over) is the origin; JLPT texts often use kana.",
+    "Predicate use にわたっている = extends over."
+  ],
+  "jlptTips": [
+    "If the noun is a length of time or a wide area and the sentence emphasizes the extent, にわたって is the answer.",
+    "Before a noun, choose にわたる.",
+    "Distractors: にかけて (needs から), を通じて, に伴って. Check for a quantity noun before the blank."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-134-1",
+    "q-n2-g-134-2",
+    "q-n2-g-134-3",
+    "q-n2-g-134-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-134-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

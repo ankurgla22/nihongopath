@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-34",
+  "slug": "kawari-ni",
+  "level": "n2",
+  "order": 34,
+  "title": "〜代わりに",
+  "romaji": "kawari ni",
+  "meaning": "instead of; in exchange for; while (compensating)",
+  "simpleExplanation": "〜代わりに has three related meanings: (1) substitution, \"instead of / in place of\" (I attend instead of the manager); (2) exchange, \"in return for\" (help me and I'll buy lunch); (3) compensation or contrast, \"while… on the other hand\" (spacious, but far from the station).",
+  "whenUsed": "Both registers. Nouns take の (部長の代わりに); verbs and adjectives attach in plain form. The formal substitution-only form is 〜に代わって (社長に代わって挨拶する). In the contrast use, the two halves balance a plus against a minus.",
+  "formation": [
+    "Vる/Vた + 代わりに / Aい + 代わりに / Aな + な + 代わりに / N + の + 代わりに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of 代わりに",
+    "columns": [
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "Substitution",
+        "cells": [
+          "部長の代わりに出席する",
+          "in place of the manager"
+        ]
+      },
+      {
+        "label": "Exchange",
+        "cells": [
+          "手伝う代わりにおごって",
+          "in return for helping"
+        ]
+      },
+      {
+        "label": "Compensation",
+        "cells": [
+          "広い代わりに駅から遠い",
+          "spacious, but far"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "部長の代わりに、私が会議に出席します。",
+      "reading": "ぶちょうのかわりに、わたしがかいぎにしゅっせきします。",
+      "en": "I will attend the meeting in place of the manager.",
+      "note": "Substitution with N + の."
+    },
+    {
+      "ja": "手伝ってあげる代わりに、昼ご飯をおごってよ。",
+      "reading": "てつだってあげるかわりに、ひるごはんをおごってよ。",
+      "en": "In exchange for helping you, buy me lunch.",
+      "note": "Exchange with Vる."
+    },
+    {
+      "ja": "この部屋は広い代わりに、駅から遠い。",
+      "reading": "このへやはひろいかわりに、えきからとおい。",
+      "en": "This room is spacious, but on the other hand it's far from the station.",
+      "note": "Contrast with い-adjective."
+    },
+    {
+      "ja": "今日は車の代わりに自転車で通勤した。",
+      "reading": "きょうはくるまのかわりにじてんしゃでつうきんした。",
+      "en": "Today I commuted by bicycle instead of by car.",
+      "note": "Substitution of a means."
+    },
+    {
+      "ja": "この仕事は給料が高い代わりに、責任も重い。",
+      "reading": "このしごとはきゅうりょうがたかいかわりに、せきにんもおもい。",
+      "en": "This job pays well, but in return the responsibility is heavy.",
+      "note": "Compensation: a plus balanced by a minus."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に代わって",
+      "difference": "Substitution only, formal: 社長に代わって. Cannot express exchange or contrast."
+    },
+    {
+      "pattern": "〜反面",
+      "difference": "Contrast between two sides of one thing, without the idea of exchange.",
+      "id": "n2-grammar-171"
+    },
+    {
+      "pattern": "〜かわりに (verb かわる)",
+      "difference": "As a full verb, 代わる means \"to replace\"; the pattern is the adverbial に form."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "部長代わりに、私が出席します。",
+      "right": "部長の代わりに、私が出席します。",
+      "why": "Nouns need の."
+    },
+    {
+      "wrong": "この部屋は広い代わりに、明るい。",
+      "right": "この部屋は広い上に、明るい。",
+      "why": "The compensation use balances a plus with a minus; two pluses take 上に."
+    },
+    {
+      "wrong": "手伝ってあげる代わりに、ありがとう。",
+      "right": "手伝ってあげる代わりに、昼ご飯をおごってよ。",
+      "why": "The exchange use needs a concrete counter-action."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final use: 〜の代わりだ (\"serves as a substitute for\").",
+    "Exchange use often has a demand or promise in the second clause.",
+    "The compensation use can also go minus → plus: 給料は安い代わりに、休みが多い."
+  ],
+  "jlptTips": [
+    "Identify the use: two people/things swapped → substitution; deal-like second clause → exchange; plus vs minus → compensation.",
+    "Distractors: 反面, 一方で, 上に. If both halves have the same polarity, it is 上に, not 代わりに.",
+    "に代わって as an option is correct only for substitution with a formal tone."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-34-1",
+    "q-n2-g-34-2",
+    "q-n2-g-34-3",
+    "q-n2-g-34-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-34-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

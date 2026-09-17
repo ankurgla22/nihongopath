@@ -1,0 +1,132 @@
+{
+  "id": "n2-grammar-95",
+  "slug": "nai-dewa-irarenai",
+  "level": "n2",
+  "order": 95,
+  "title": "〜ないではいられない",
+  "romaji": "nai dewa irarenai",
+  "meaning": "cannot help but, can't stop oneself from",
+  "simpleExplanation": "〜ないではいられない means \"cannot help but…, can't stop oneself from…\". It is the spoken counterpart of 〜ずにはいられない: it was so funny I couldn't help laughing; when I see someone in trouble, I can't help helping.",
+  "whenUsed": "話し言葉寄り; in formal writing prefer ずにはいられない. It attaches to the Vない form (する → しないでは). The subject is the speaker; for others use ようだ / らしい. The verb is a spontaneous reaction (笑う・泣く・言う・助ける・心配する).",
+  "formation": [
+    "Vない + ではいられない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Spoken vs written",
+    "columns": [
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ないではいられない",
+        "cells": [
+          "spoken",
+          "笑わないではいられない"
+        ]
+      },
+      {
+        "label": "〜ずにはいられない",
+        "cells": [
+          "written",
+          "笑わずにはいられない"
+        ]
+      },
+      {
+        "label": "する verbs",
+        "cells": [
+          "both",
+          "心配しないではいられない / 心配せずにはいられない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "おかしくて、笑わないではいられなかった。",
+      "reading": "おかしくて、わらわないではいられなかった。",
+      "en": "It was so funny I couldn't help laughing.",
+      "note": "Past form with おかしくて."
+    },
+    {
+      "ja": "困っている人を見ると、助けないではいられない。",
+      "reading": "こまっているひとをみると、たすけないではいられない。",
+      "en": "When I see someone in trouble, I can't help but help.",
+      "note": "Habitual reaction with と."
+    },
+    {
+      "ja": "彼の話を聞いて、怒らないではいられなかった。",
+      "reading": "かれのはなしをきいて、おこらないではいられなかった。",
+      "en": "Hearing his story, I couldn't help getting angry.",
+      "note": "Anger as a reaction."
+    },
+    {
+      "ja": "あの子の笑顔を見ると、こっちも笑わないではいられない。",
+      "reading": "あのこのえがおをみると、こっちもわらわないではいられない。",
+      "en": "When I see that child's smile, I can't help smiling too.",
+      "note": "Habitual reaction."
+    },
+    {
+      "ja": "彼の無責任な態度に、一言言わないではいられなかった。",
+      "reading": "かれのむせきにんなたいどに、ひとこといわないではいられなかった。",
+      "en": "I couldn't help saying something about his irresponsible attitude.",
+      "note": "Past form."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "Written equivalent.",
+      "id": "n2-grammar-58"
+    },
+    {
+      "pattern": "〜てしょうがない",
+      "difference": "A strong state, not an action one cannot suppress.",
+      "id": "n2-grammar-78"
+    },
+    {
+      "pattern": "〜ないわけにはいかない",
+      "difference": "\"Can't not do\" for social/moral reasons, not inner impulse.",
+      "id": "n2-grammar-165"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "笑わなくてはいられない。",
+      "right": "笑わないではいられない。",
+      "why": "The form is ないでは, not なくては."
+    },
+    {
+      "wrong": "彼女は泣かないではいられない。（as fact）",
+      "right": "彼女は泣かないではいられないようだ。",
+      "why": "Others' impulses need ようだ."
+    },
+    {
+      "wrong": "宿題をしないではいられない。（obligation）",
+      "right": "宿題をしないわけにはいかない。",
+      "why": "Obligation is わけにはいかない; ないではいられない is an inner impulse."
+    }
+  ],
+  "usageNotes": [
+    "Triggers: 〜を見ると, 〜を聞くと, 〜を思うと.",
+    "Both this and ずにはいられない are accepted in tests; the register decides.",
+    "Polite: ないではいられません."
+  ],
+  "jlptTips": [
+    "A trigger + emotional verb in the ない form + blank → ではいられない.",
+    "Distractors: わけにはいかない, ずにはいられない (fine if the stem is ず), てしょうがない. Check the verb form: Vない → ではいられない; Vず → にはいられない.",
+    "Obligation contexts (宿題・仕事) point to わけにはいかない instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-95-1",
+    "q-n2-g-95-2",
+    "q-n2-g-95-3",
+    "q-n2-g-95-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-95-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

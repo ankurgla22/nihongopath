@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-77",
+  "slug": "you-to-suru",
+  "level": "n4",
+  "order": 77,
+  "title": "〜ようとする \"try to / be about to\"",
+  "romaji": "you to suru",
+  "meaning": "(1) Attempt an action (often unsuccessfully); (2) be on the point of doing.",
+  "simpleExplanation": "Volitional + とする has two meanings. (1) \"Try to do\": you make an attempt, often without success: ドアを開けようとしたが、開かなかった (I tried to open the door, but it wouldn't open). (2) \"Be about to\": the moment just before an action: 出かけようとしたとき (just as I was about to go out). The negative 〜ようとしない means someone refuses: 話を聞こうとしない (he won't listen).",
+  "whenUsed": "Telling stories about attempts and interruptions (〜ようとしたとき、〜), describing someone's stubbornness (〜ようとしない), and describing something on the verge of happening (日が沈もうとしている, the sun is about to set, in written style). Common in both speech and writing.",
+  "formation": [
+    "V-volitional + とする: 開けようとする, 行こうとする, しようとする",
+    "〜ようとしたが / 〜ようとしたけど: tried but… (failure)",
+    "〜ようとしたとき / 〜ようとしたら: just when I was about to…",
+    "〜ようとしない: refuse to / show no sign of doing",
+    "Written: 〜ようとしている (is about to)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "開ける",
+        "en": "open (plain)"
+      },
+      {
+        "ja": "開けよう",
+        "en": "volitional: let's / I'll open"
+      },
+      {
+        "ja": "開けようとする",
+        "en": "try to open / be about to open"
+      },
+      {
+        "ja": "開けようとしたが、開かなかった",
+        "en": "I tried to open it, but it wouldn't open (attempt failed)"
+      },
+      {
+        "ja": "開けようとしたとき、〜",
+        "en": "just as I was about to open it, … (moment before)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ドアを開けようとしたが、開かなかった。",
+      "reading": "ドアを あけようと したが、あかなかった。",
+      "en": "I tried to open the door, but it wouldn't open.",
+      "note": "Attempt that fails: 〜ようとしたが、〜なかった."
+    },
+    {
+      "ja": "出かけようとしたとき、電話が鳴った。",
+      "reading": "でかけようと したとき、でんわが なった。",
+      "en": "Just as I was about to go out, the phone rang.",
+      "note": "\"About to\": 〜ようとしたとき marks the moment before the action."
+    },
+    {
+      "ja": "彼は私の話を聞こうとしない。",
+      "reading": "かれは わたしの はなしを きこうと しない。",
+      "en": "He won't listen to me.",
+      "note": "Refusal: 〜ようとしない, he shows no willingness."
+    },
+    {
+      "ja": "猫が魚を取ろうとしたので、急いで隠した。",
+      "reading": "ねこが さかなを とろうとしたので、いそいで かくした。",
+      "en": "The cat tried to take the fish, so I quickly hid it.",
+      "note": "The attempt is observed from outside and is stopped."
+    },
+    {
+      "ja": "電車に乗ろうとしたら、ドアが閉まってしまった。",
+      "reading": "でんしゃに のろうとしたら、ドアが しまってしまった。",
+      "en": "Just as I was about to get on the train, the doors closed.",
+      "note": "〜ようとしたら for a moment-before event with an unlucky result."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てみる",
+      "difference": "〜てみる means you actually did it to see the result (食べてみた = I tried eating it). 〜ようとする is only the attempt or the moment before; the action may not happen.",
+      "id": "n4-grammar-23"
+    },
+    {
+      "pattern": "〜ようと思う",
+      "difference": "An intention in the mind (I think I'll…). 〜ようとする is a physical attempt or the point of starting.",
+      "id": "n4-grammar-3"
+    },
+    {
+      "pattern": "〜ところだ",
+      "difference": "V-dictionary + ところだ also means \"about to\" but as a calm statement of timing. 〜ようとしたとき adds the sense of an interrupted move.",
+      "id": "n4-grammar-19"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "新しい料理を作ろうとしたら、おいしかった。",
+      "right": "新しい料理を作ってみたら、おいしかった。",
+      "why": "If you actually made and tasted it, the action was completed, so 〜てみる is right. 〜ようとする does not say the action happened."
+    },
+    {
+      "wrong": "出かけるとしたとき、電話が鳴った。",
+      "right": "出かけようとしたとき、電話が鳴った。",
+      "why": "The verb before とする must be in the volitional form."
+    },
+    {
+      "wrong": "彼は何も言おうとしませんでした。(intended: he couldn't say anything)",
+      "right": "彼は何も言えませんでした。",
+      "why": "〜ようとしない means refusal or no sign of trying. For inability use the potential."
+    }
+  ],
+  "usageNotes": [
+    "In the \"about to\" sense the main clause is often an interruption: 〜ようとしたとき / 〜ようとしたら + something happened.",
+    "Written Japanese uses 〜ようとしている for natural events: 春が終わろうとしている (spring is about to end).",
+    "Do not confuse with 〜とする used for hypotheticals (〜とすると / 〜としたら); those attach to plain forms, not the volitional."
+  ],
+  "jlptTips": [
+    "Volitional + blank + とした / とすると: choose the volitional form. If the options are 開けようと / 開けると / 開けてと, only the volitional makes the pattern.",
+    "If the second half says the action failed or was interrupted (〜が開かなかった, 〜とき電話が鳴った), 〜ようとした is the answer, not 〜てみた."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-77-1",
+    "q-n4-g-77-2",
+    "q-n4-g-77-3",
+    "q-n4-g-77-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-77-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-185",
+  "slug": "bakari-da",
+  "level": "n2",
+  "order": 185,
+  "title": "〜ばかりだ",
+  "romaji": "bakari da",
+  "meaning": "(1) keeps getting more and more (a worsening trend); (2) all that is left is to",
+  "simpleExplanation": "Verb + ばかりだ has two uses. With a change verb it means \"keeps going in one (bad) direction\": 物価は上がるばかりだ (prices just keep rising). With an action verb after preparations, it means \"all that remains is to X\": あとは出発するばかりだ. The first use is always negative; the second signals readiness.",
+  "whenUsed": "Both speech and writing. The trend use appears in complaints and news commentary; the readiness use appears in plans and reports (準備は整い、あとは〜ばかりだ).",
+  "formation": [
+    "Verb (dictionary form, change verb) + ばかりだ (trend: 増える / 減る / 悪くなる)",
+    "Verb (dictionary form, action) + ばかりだ / ばかりになっている (readiness)",
+    "Often with あとは (readiness) or 〜一方だ comparison (trend)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "(1) Worsening trend",
+      "(2) Readiness"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "keeps getting worse",
+          "all that is left is to"
+        ]
+      },
+      {
+        "label": "Verb",
+        "cells": [
+          "change verbs: 増える, 悪くなる, 減る",
+          "action verbs: 出発する, 食べる, 提出する"
+        ]
+      },
+      {
+        "label": "Clue",
+        "cells": [
+          "negative tone, ますます",
+          "あとは, 準備ができた"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "病状は悪化するばかりだ",
+          "あとは出すばかりだ"
+        ]
+      }
+    ],
+    "title": "Two meanings, verb type decides"
+  },
+  "examples": [
+    {
+      "ja": "物価は上がるばかりだ。",
+      "reading": "ぶっかはあがるばかりだ。",
+      "en": "Prices just keep rising.",
+      "note": "Trend: prices only go up."
+    },
+    {
+      "ja": "父の病気は悪くなるばかりで、心配だ。",
+      "reading": "ちちのびょうきはわるくなるばかりで、しんぱいだ。",
+      "en": "My father's illness only gets worse, and I am worried.",
+      "note": "Trend: illness worsening; worry."
+    },
+    {
+      "ja": "準備は終わった。あとは出発するばかりだ。",
+      "reading": "じゅんびはおわった。あとはしゅっぱつするばかりだ。",
+      "en": "Preparations are done. All that remains is to leave.",
+      "note": "Readiness: preparations done, only departure remains."
+    },
+    {
+      "ja": "最近、目が悪くなるばかりで、困っている。",
+      "reading": "さいきん、めがわるくなるばかりで、こまっている。",
+      "en": "Lately my eyesight just keeps getting worse, and I am troubled.",
+      "note": "ばかりで links the trend to its consequence."
+    },
+    {
+      "ja": "料理はもう出来上がっている。あとは食べるばかりになっている。",
+      "reading": "りょうりはもうできあがっている。あとはたべるばかりになっている。",
+      "en": "The food is ready. All that's left is to eat.",
+      "note": "ばかりになっている: readiness."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜一方だ",
+      "difference": "Also 'keeps going one way', but neutral (can be positive); ばかりだ is negative.",
+      "id": "n2-grammar-5"
+    },
+    {
+      "pattern": "〜だけだ",
+      "difference": "\"Only\" in the readiness sense: あとは出発するだけだ (casual)."
+    },
+    {
+      "pattern": "〜たばかりだ",
+      "difference": "Different pattern: 'just did'."
+    },
+    {
+      "pattern": "〜ばかりに",
+      "difference": "Different pattern: 'just because'.",
+      "id": "n2-grammar-141"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "成績は上がるばかりだ。(meaning 'keeps improving')",
+      "right": "成績は上がる一方だ。",
+      "why": "ばかりだ is for undesirable trends; for a positive one, use 一方だ."
+    },
+    {
+      "wrong": "食べたばかりだ。(meaning 'ready to eat')",
+      "right": "食べるばかりだ。",
+      "why": "たばかり means 'just ate'; the readiness sense needs the dictionary form."
+    },
+    {
+      "wrong": "物価は上がりばかりだ。",
+      "right": "物価は上がるばかりだ。",
+      "why": "Use the dictionary form."
+    }
+  ],
+  "usageNotes": [
+    "Trend use often pairs with ますます / どんどん.",
+    "Readiness use often pairs with あとは.",
+    "The negative nuance of the trend use is strong; do not use it for good news."
+  ],
+  "jlptTips": [
+    "Decide by verb type: change verb → trend (bad); action verb with あとは → readiness.",
+    "A positive trend with ばかりだ is wrong; choose 一方だ.",
+    "Distractors include 一方だ, だけだ, たばかりだ. Check tense and tone."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-185-1",
+    "q-n2-g-185-2",
+    "q-n2-g-185-3",
+    "q-n2-g-185-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-185-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

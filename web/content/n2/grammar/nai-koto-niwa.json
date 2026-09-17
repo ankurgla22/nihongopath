@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-93",
+  "slug": "nai-koto-niwa",
+  "level": "n2",
+  "order": 93,
+  "title": "〜ないことには",
+  "romaji": "nai koto niwa",
+  "meaning": "unless ..., (nothing can happen)",
+  "simpleExplanation": "〜ないことには means \"unless…, (nothing can happen)\". The first clause is a necessary condition in the negative, and the main clause is also negative: unless I actually see it, I can't say anything; without money, nothing can begin.",
+  "whenUsed": "Both registers. Forms: Vない + ことには, Aい + くない + ことには, N/Aな + でない + ことには. The main clause is always negative (〜ない・〜できない・分からない). It is stronger than a plain 〜なければ.",
+  "formation": [
+    "Vない + ことには / Aい stem + くない + ことには / N + でない + ことには"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "実際に見ない",
+        "role": "necessary condition (negative)"
+      },
+      {
+        "text": "ことには",
+        "role": "unless…",
+        "highlight": true
+      },
+      {
+        "text": "何とも言えない",
+        "role": "negative main clause"
+      }
+    ],
+    "translation": "Unless I actually see it, I can't say anything."
+  },
+  "examples": [
+    {
+      "ja": "実際に見ないことには、何とも言えない。",
+      "reading": "じっさいにみないことには、なんともいえない。",
+      "en": "Unless I actually see it, I can't say anything.",
+      "note": "Vない + ことには."
+    },
+    {
+      "ja": "お金がないことには、何も始まらない。",
+      "reading": "おかねがないことには、なにもはじまらない。",
+      "en": "Without money, nothing can begin.",
+      "note": "N + が + ない + ことには."
+    },
+    {
+      "ja": "本人に聞かないことには、本当のことは分からない。",
+      "reading": "ほんにんにきかないことには、ほんとうのことはわからない。",
+      "en": "Unless we ask the person, we won't know the truth.",
+      "note": "Vない + ことには with 分からない."
+    },
+    {
+      "ja": "本人が来ないことには、手続きを進めることができません。",
+      "reading": "ほんにんがこないことには、てつづきをすすめることができません。",
+      "en": "Unless the person comes in person, we cannot proceed with the procedure.",
+      "note": "Official explanation."
+    },
+    {
+      "ja": "健康でないことには、どんなに金持ちでも幸せとは言えない。",
+      "reading": "けんこうでないことには、どんなにかねもちでもしあわせとはいえない。",
+      "en": "Unless you are healthy, you can't call yourself happy no matter how rich you are.",
+      "note": "Aな + でない + ことには."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てからでないと",
+      "difference": "\"Unless X is done first\": sequence emphasis with a て-form.",
+      "id": "n2-grammar-77"
+    },
+    {
+      "pattern": "〜なければ",
+      "difference": "Plain negative conditional; the main clause can be positive."
+    },
+    {
+      "pattern": "〜ない限り",
+      "difference": "\"As long as… not\": similar, but the main clause can be positive (諦めない限りチャンスはある).",
+      "id": "n2-grammar-15"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "見ないことには、分かる。",
+      "right": "見ないことには、分からない。",
+      "why": "The main clause must be negative."
+    },
+    {
+      "wrong": "見ることには、分からない。",
+      "right": "見ないことには、分からない。",
+      "why": "The condition must be in the negative."
+    },
+    {
+      "wrong": "お金がないことに、何も始まらない。",
+      "right": "お金がないことには、何も始まらない。",
+      "why": "は is part of the pattern."
+    }
+  ],
+  "usageNotes": [
+    "Typical main clauses: 分からない, 何とも言えない, 始まらない, できない.",
+    "Often used to postpone a judgment until information is available.",
+    "Nouns: N + がないことには or N + でないことには."
+  ],
+  "jlptTips": [
+    "Vない + blank + a negative main clause → ことには.",
+    "Distractors: てからでないと (needs Vて), ことなく, ことから. The negative verb form before the blank rules out てからでないと.",
+    "A positive main clause rules out ないことには (choose ない限り)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-93-1",
+    "q-n2-g-93-2",
+    "q-n2-g-93-3",
+    "q-n2-g-93-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-93-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

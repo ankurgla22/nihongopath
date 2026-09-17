@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-74",
+  "slug": "tsutsu-aru",
+  "level": "n2",
+  "order": 74,
+  "title": "〜つつある",
+  "romaji": "tsutsu aru",
+  "meaning": "is in the process of -ing, gradually",
+  "simpleExplanation": "〜つつある means \"is in the process of…, is gradually…\". It describes a change that is under way: the economy is recovering; traditional culture is being lost; new technology is spreading.",
+  "whenUsed": "書き言葉 and news/report style; in conversation 〜ている or どんどん〜ている is used. It attaches to the Vます stem of verbs of change (回復する, 失われる, 広まる, 増える, 変わる). It is not used with action verbs like 食べる or 読む.",
+  "formation": [
+    "Vます + つつある"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Describing change in progress",
+    "items": [
+      {
+        "label": "回復している",
+        "description": "Is recovering (neutral, everyday)."
+      },
+      {
+        "label": "回復しつつある",
+        "description": "Is gradually recovering (formal, process emphasized)."
+      },
+      {
+        "label": "回復する一方だ",
+        "description": "Only keeps recovering (one-directional trend)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "景気は回復しつつある。",
+      "reading": "けいきはかいふくしつつある。",
+      "en": "The economy is recovering.",
+      "note": "Economy recovering."
+    },
+    {
+      "ja": "伝統文化は失われつつある。",
+      "reading": "でんとうぶんかはうしなわれつつある。",
+      "en": "Traditional culture is being lost.",
+      "note": "Passive verb + つつある."
+    },
+    {
+      "ja": "新しい技術が広まりつつある。",
+      "reading": "あたらしいぎじゅつがひろまりつつある。",
+      "en": "New technology is spreading.",
+      "note": "Technology spreading."
+    },
+    {
+      "ja": "地球の平均気温は年々上昇しつつある。",
+      "reading": "ちきゅうのへいきんきおんはねんねんじょうしょうしつつある。",
+      "en": "The Earth's average temperature is rising year by year.",
+      "note": "Report style."
+    },
+    {
+      "ja": "この町では、若者の数が減りつつある。",
+      "reading": "このまちでは、わかもののかずがへりつつある。",
+      "en": "In this town, the number of young people is decreasing.",
+      "note": "減る + つつある."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ている",
+      "difference": "Everyday progressive; also covers states and actions."
+    },
+    {
+      "pattern": "〜一方だ",
+      "difference": "A one-directional, often worrying trend.",
+      "id": "n2-grammar-6"
+    },
+    {
+      "pattern": "〜つつ",
+      "difference": "\"While / although\"; without ある it is a different pattern.",
+      "id": "n2-grammar-73"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今、ご飯を食べつつある。",
+      "right": "今、ご飯を食べている。",
+      "why": "つつある needs a verb of change, not an ordinary action."
+    },
+    {
+      "wrong": "回復するつつある",
+      "right": "回復しつつある",
+      "why": "Attach to the Vます stem."
+    },
+    {
+      "wrong": "景気は回復しつつあった一方だ。",
+      "right": "景気は回復しつつあった。",
+      "why": "Do not stack つつある and 一方だ."
+    }
+  ],
+  "usageNotes": [
+    "Frequent: 変わりつつある, 増えつつある, 減りつつある, 失われつつある, 進みつつある, 消えつつある.",
+    "Past: つつあった describes an ongoing change at a past moment.",
+    "Modifier form: 失われつつある伝統."
+  ],
+  "jlptTips": [
+    "Formal register + verb of change stem + blank → つつある.",
+    "Distractors: 一方だ (needs Vる), つつ, ている. Check the verb form: stem → つつある; dictionary → 一方だ.",
+    "An action verb (読む・食べる) before the blank rules out つつある."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-74-1",
+    "q-n2-g-74-2",
+    "q-n2-g-74-3",
+    "q-n2-g-74-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-74-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

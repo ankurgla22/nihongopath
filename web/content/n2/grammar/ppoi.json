@@ -1,0 +1,148 @@
+{
+  "id": "n2-grammar-187",
+  "slug": "ppoi",
+  "level": "n2",
+  "order": 187,
+  "title": "〜っぽい",
+  "romaji": "ppoi",
+  "meaning": "-ish, tends to, looks like",
+  "simpleExplanation": "〜っぽい attaches to nouns, adjective stems, and verb stems to mean \"-ish\" or \"tends to\": 子供っぽい (childish), 忘れっぽい (forgetful), 安っぽい (cheap-looking). It conjugates like an い-adjective (っぽくない, っぽかった). The tone is often slightly negative or critical, but not always (大人っぽい can be praise).",
+  "whenUsed": "Casual speech and informal writing. Very common in everyday descriptions of people, colours, and behaviour (黒っぽい, 怒りっぽい). In formal writing use 〜のようだ or 〜がちだ.",
+  "formation": [
+    "Noun + っぽい (子供っぽい / 油っぽい / 黒っぽい)",
+    "い-adjective stem + っぽい (安っぽい / 荒っぽい)",
+    "Verb (ます-stem) + っぽい (忘れっぽい / 怒りっぽい / 飽きっぽい)",
+    "Conjugates as い-adjective: っぽくない / っぽかった / っぽく見える"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜っぽい",
+      "〜らしい (typical)",
+      "〜がちだ"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "-ish; has the flavour of; tends to",
+          "typical of, as X should be",
+          "tends to (often negatively)"
+        ]
+      },
+      {
+        "label": "Tone",
+        "cells": [
+          "casual, often slightly negative",
+          "positive, 'true to type'",
+          "neutral to negative"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "子供っぽい (childish)",
+          "子供らしい (childlike, as a child should be)",
+          "病気がちだ (sickly)"
+        ]
+      },
+      {
+        "label": "Attaches to",
+        "cells": [
+          "nouns, adj stems, verb stems",
+          "nouns",
+          "verb stems, some nouns"
+        ]
+      }
+    ],
+    "title": "っぽい versus its neighbours"
+  },
+  "examples": [
+    {
+      "ja": "彼は最近忘れっぽくなった。",
+      "reading": "かれはさいきんわすれっぽくなった。",
+      "en": "He has become forgetful lately.",
+      "note": "Verb stem + っぽい: forgetful; a tendency."
+    },
+    {
+      "ja": "子供っぽい話し方はやめなさい。",
+      "reading": "こどもっぽいはなしかたはやめなさい。",
+      "en": "Stop talking in a childish way.",
+      "note": "Noun + っぽい: childish (critical)."
+    },
+    {
+      "ja": "この服は安っぽく見える。",
+      "reading": "このふくはやすっぽくみえる。",
+      "en": "These clothes look cheap.",
+      "note": "Adjective stem + っぽい + く見える: looks cheap."
+    },
+    {
+      "ja": "彼は怒りっぽいので、話すときは気をつけたほうがいい。",
+      "reading": "かれはおこりっぽいので、はなすときはきをつけたほうがいい。",
+      "en": "He is quick to anger, so you should be careful when talking to him.",
+      "note": "怒りっぽい: a personality tendency."
+    },
+    {
+      "ja": "このスープは油っぽくて、あまり好きじゃない。",
+      "reading": "このスープはあぶらっぽくて、あまりすきじゃない。",
+      "en": "This soup is oily, and I don't like it much.",
+      "note": "Noun + っぽい describing a quality; te-form っぽくて."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜らしい (typical)",
+      "difference": "\"True to type\", usually positive: 男らしい vs. 男っぽい (mannish, for a woman)."
+    },
+    {
+      "pattern": "〜がちだ",
+      "difference": "\"Tends to\" for negative habits or states; more formal."
+    },
+    {
+      "pattern": "〜気味",
+      "difference": "\"A touch of\" (風邪気味): a slight state, not a character."
+    },
+    {
+      "pattern": "〜みたいだ",
+      "difference": "\"Like\": comparison, not a suffix."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供っぽいの服",
+      "right": "子供っぽい服",
+      "why": "っぽい is an い-adjective; no の before a noun."
+    },
+    {
+      "wrong": "忘れるっぽい",
+      "right": "忘れっぽい",
+      "why": "Attach to the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "報告書：この製品は安っぽいです。",
+      "right": "報告書：この製品は安価な印象を与える。",
+      "why": "Too casual for formal writing."
+    }
+  ],
+  "usageNotes": [
+    "Colour words: 白っぽい / 黒っぽい / 赤っぽい (-ish).",
+    "Common personality words: 飽きっぽい, 怒りっぽい, 忘れっぽい, 理屈っぽい.",
+    "大人っぽい can be praise; 子供っぽい is criticism."
+  ],
+  "jlptTips": [
+    "If the sentence describes an impression or tendency casually and the blank follows a noun or stem, choose っぽい.",
+    "Distinguish 子供っぽい (childish, negative) from 子供らしい (childlike, positive).",
+    "Check the stem: 忘れっぽい, 怒りっぽい."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-187-1",
+    "q-n2-g-187-2",
+    "q-n2-g-187-3",
+    "q-n2-g-187-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-187-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

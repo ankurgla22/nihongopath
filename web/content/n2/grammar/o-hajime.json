@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-174",
+  "slug": "o-hajime",
+  "level": "n2",
+  "order": 174,
+  "title": "〜をはじめ / 〜をはじめとして / 〜をはじめとする",
+  "romaji": "o hajime / o hajime to shite / o hajime to suru",
+  "meaning": "starting with, including (a representative example)",
+  "simpleExplanation": "〜をはじめ(として) means \"starting with X\": X is the most prominent or representative member of a group, and the rest follow. 社長をはじめ、社員全員が参加した (everyone, starting with the president). The noun-modifying form 〜をはじめとする + N describes the group that X represents.",
+  "whenUsed": "Written and formal spoken Japanese: speeches, reports, descriptions. In conversation people say 〜など or 〜も含めて. Neutral in tone; the named item is usually the most important one.",
+  "formation": [
+    "Noun + をはじめ(として)",
+    "Noun + をはじめとする + Noun (plural group)",
+    "Noun + をはじめとした + Noun",
+    "Often followed by 〜など / 〜全員 / 〜多くの"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "社長",
+        "role": "the most prominent member"
+      },
+      {
+        "text": "をはじめ",
+        "role": "starting with",
+        "highlight": true
+      },
+      {
+        "text": "、社員全員が",
+        "role": "the whole group that follows"
+      },
+      {
+        "text": "式に参加した",
+        "role": "shared predicate"
+      }
+    ],
+    "translation": "Starting with the president, all employees attended the ceremony."
+  },
+  "examples": [
+    {
+      "ja": "社長をはじめ、社員全員が式に参加した。",
+      "reading": "しゃちょうをはじめ、しゃいんぜんいんがしきにさんかした。",
+      "en": "Starting with the president, all employees attended the ceremony.",
+      "note": "The most important person named first, then the whole group."
+    },
+    {
+      "ja": "京都をはじめとして、日本には古い町が多い。",
+      "reading": "きょうとをはじめとして、にほんにはふるいまちがおおい。",
+      "en": "Japan has many old towns, Kyoto among the foremost.",
+      "note": "A representative city, then the category."
+    },
+    {
+      "ja": "米をはじめとする農産物の輸入が増えた。",
+      "reading": "こめをはじめとするのうさんぶつのゆにゅうがふえた。",
+      "en": "Imports of agricultural products, rice foremost among them, have increased.",
+      "note": "をはじめとする + noun: rice as the foremost product."
+    },
+    {
+      "ja": "東京をはじめ、大阪、名古屋などの大都市で公演が行われる。",
+      "reading": "とうきょうをはじめ、おおさか、なごやなどのだいとしでこうえんがおこなわれる。",
+      "en": "Performances will be held in major cities including Tokyo, Osaka, and Nagoya.",
+      "note": "Listing with など after the representative example."
+    },
+    {
+      "ja": "この大学には、アジアをはじめとする世界各国から留学生が来ている。",
+      "reading": "このだいがくには、アジアをはじめとするせかいかっこくからりゅうがくせいがきている。",
+      "en": "International students come to this university from countries all over the world, Asia foremost among them.",
+      "note": "をはじめとする + noun phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を中心に",
+      "difference": "\"Centering on\": X is the core, not just the first example.",
+      "id": "n2-grammar-171"
+    },
+    {
+      "pattern": "〜など",
+      "difference": "Casual listing; no sense that X is the most prominent."
+    },
+    {
+      "pattern": "〜はもちろん",
+      "difference": "\"Of course X, and Y too\": X is assumed, Y is added.",
+      "id": "n2-grammar-143"
+    },
+    {
+      "pattern": "〜を〜として",
+      "difference": "The general pattern this belongs to.",
+      "id": "n2-grammar-167"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "社員をはじめ、社長が参加した。",
+      "right": "社長をはじめ、社員全員が参加した。",
+      "why": "The item before をはじめ must be the most prominent one; the group follows."
+    },
+    {
+      "wrong": "京都をはじめの町",
+      "right": "京都をはじめとする町",
+      "why": "Before a noun use をはじめとする / とした."
+    },
+    {
+      "wrong": "りんごをはじめ、りんごが好きだ。",
+      "right": "りんごをはじめ、果物が好きだ。",
+      "why": "What follows must be the wider group, not the same item."
+    }
+  ],
+  "usageNotes": [
+    "Speeches often open with 〜をはじめ、ご来場の皆様.",
+    "〜をはじめとする appears in headlines: 米をはじめとする農産物.",
+    "はじめ here is the noun 'beginning', not the verb."
+  ],
+  "jlptTips": [
+    "If X is the most prominent member and the rest of the group follows, choose をはじめ.",
+    "Before a noun, choose をはじめとする / とした.",
+    "Distractors include を中心に, はもちろん, など. Look at whether X is 'the first and foremost of a group'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-174-1",
+    "q-n2-g-174-2",
+    "q-n2-g-174-3",
+    "q-n2-g-174-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-174-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

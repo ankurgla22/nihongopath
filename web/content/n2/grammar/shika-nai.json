@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-53",
+  "slug": "shika-nai",
+  "level": "n2",
+  "order": 53,
+  "title": "〜しかない",
+  "romaji": "shika nai",
+  "meaning": "there is nothing to do but; only",
+  "simpleExplanation": "〜しかない has two uses. With a verb: \"there is nothing to do but…, have no choice but to…\" (the last train is gone, so I can only walk home). With a noun: \"only\" (I have only 100 yen).",
+  "whenUsed": "話し言葉寄り; the everyday counterpart of the formal 〜ほかない / 〜ざるを得ない. The verb is in dictionary form. It expresses resignation: the other options are gone. With nouns it is the basic N + しか + negative.",
+  "formation": [
+    "Vる + しかない / N + しかない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"No choice but to\" by register",
+    "items": [
+      {
+        "label": "〜しかない",
+        "description": "Casual, spoken: 歩いて帰るしかない."
+      },
+      {
+        "label": "〜よりほかない",
+        "description": "Formal written: 歩いて帰るよりほかない."
+      },
+      {
+        "label": "〜ざるを得ない",
+        "description": "Formal, often reluctant: 歩いて帰らざるを得ない."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "終電がなくなったので、歩いて帰るしかない。",
+      "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
+      "en": "The last train is gone, so I have no choice but to walk home.",
+      "note": "Vる + しかない with a reason."
+    },
+    {
+      "ja": "こうなったら、諦めるしかない。",
+      "reading": "こうなったら、あきらめるしかない。",
+      "en": "At this point, all we can do is give up.",
+      "note": "Set phrase こうなったら〜しかない."
+    },
+    {
+      "ja": "財布には百円しかない。",
+      "reading": "さいふにはひゃくえんしかない。",
+      "en": "I have only 100 yen in my wallet.",
+      "note": "N + しかない = only."
+    },
+    {
+      "ja": "誰も手伝ってくれないなら、自分でやるしかない。",
+      "reading": "だれもてつだってくれないなら、じぶんでやるしかない。",
+      "en": "If nobody will help, I have no choice but to do it myself.",
+      "note": "Resignation."
+    },
+    {
+      "ja": "試験まであと三日しかないので、遊んでいる暇はない。",
+      "reading": "しけんまであとみっかしかないので、あそんでいるひまはない。",
+      "en": "There are only three days left before the exam, so there's no time to play.",
+      "note": "N + しかない = only."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "Formal; stresses being forced against one's will.",
+      "id": "n2-grammar-52"
+    },
+    {
+      "pattern": "〜ほかない",
+      "difference": "Formal written equivalent of しかない.",
+      "id": "n2-grammar-178"
+    },
+    {
+      "pattern": "〜だけだ",
+      "difference": "\"All that's left is\"; similar with verbs (あとは待つだけだ), but less resigned."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "諦めたしかない。",
+      "right": "諦めるしかない。",
+      "why": "Dictionary form before しかない."
+    },
+    {
+      "wrong": "百円しかある。",
+      "right": "百円しかない。",
+      "why": "しか always takes a negative."
+    },
+    {
+      "wrong": "諦めるしかありませんから、やめないでください。",
+      "right": "諦めるしかありません。",
+      "why": "The resignation is final; a contradictory request makes no sense."
+    }
+  ],
+  "usageNotes": [
+    "Polite: 〜しかありません.",
+    "Often preceded by こうなったら, もう, 仕方がない.",
+    "しかない with nouns can combine with numbers and time expressions (三日しかない)."
+  ],
+  "jlptTips": [
+    "A blocked situation (終電がない・誰も手伝わない) + Vる + blank → しかない.",
+    "Distractors: ほかない (correct in writing), ざるを得ない (needs Vない stem), だけだ. The verb form before the blank decides between しかない/ほかない (Vる) and ざるを得ない (Vない stem).",
+    "N + しかない in 文法形式 tests the negative agreement."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-53-1",
+    "q-n2-g-53-2",
+    "q-n2-g-53-3",
+    "q-n2-g-53-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-53-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

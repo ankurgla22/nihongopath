@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-16",
+  "slug": "kagiri-dewa",
+  "level": "n2",
+  "order": 16,
+  "title": "〜限りでは",
+  "romaji": "kagiri dewa",
+  "meaning": "as far as (I know / can see / have heard)",
+  "simpleExplanation": "〜限りでは means \"as far as (I know / can see / have heard)\". It limits a statement to the speaker's information source and admits that things may be different beyond it: as far as I know, he is single.",
+  "whenUsed": "Both registers, slightly formal and careful in tone; common in reports and in polite conversation when the speaker does not want to overstate. The verb before it is one of knowing or observing: 知る, 見る, 聞く, 調べる, 覚えている, 私の知る限りでは.",
+  "formation": [
+    "Vる/Vた/Vている + 限りでは / N + の + 限りでは"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私の知る",
+        "role": "information source (知る・見る・聞く・調べる)"
+      },
+      {
+        "text": "限りでは",
+        "role": "as far as…",
+        "highlight": true
+      },
+      {
+        "text": "彼は独身です",
+        "role": "judgment limited to that source"
+      }
+    ],
+    "translation": "As far as I know, he is single."
+  },
+  "examples": [
+    {
+      "ja": "私の知る限りでは、彼は独身です。",
+      "reading": "わたしのしるかぎりでは、かれはどくしんです。",
+      "en": "As far as I know, he is single.",
+      "note": "私の知る限りでは: の marks the subject inside the clause."
+    },
+    {
+      "ja": "調べた限りでは、問題は見つからなかった。",
+      "reading": "しらべたかぎりでは、もんだいはみつからなかった。",
+      "en": "As far as I checked, no problems were found.",
+      "note": "Vた + 限りでは with 調べる."
+    },
+    {
+      "ja": "聞いた限りでは、工事は来月終わるそうだ。",
+      "reading": "きいたかぎりでは、こうじはらいげつおわるそうだ。",
+      "en": "From what I've heard, the construction will finish next month.",
+      "note": "聞いた限りでは with hearsay そうだ at the end."
+    },
+    {
+      "ja": "この写真を見る限りでは、建物に大きな損傷はなさそうだ。",
+      "reading": "このしゃしんをみるかぎりでは、たてものにおおきなそんしょうはなさそうだ。",
+      "en": "Judging from this photo, the building does not seem badly damaged.",
+      "note": "The judgment ends in そうだ (appearance)."
+    },
+    {
+      "ja": "今回の調査の限りでは、健康への影響は確認されなかった。",
+      "reading": "こんかいのちょうさのかぎりでは、けんこうへのえいきょうはかくにんされなかった。",
+      "en": "Within the scope of this survey, no health effects were confirmed.",
+      "note": "N + の + 限りでは in a report."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜限り",
+      "difference": "\"As long as (condition)\"; no information source involved.",
+      "id": "n2-grammar-15"
+    },
+    {
+      "pattern": "〜からすると",
+      "difference": "\"Judging from (evidence)\": draws an inference; 限りでは merely limits the scope of what is claimed.",
+      "id": "n2-grammar-29"
+    },
+    {
+      "pattern": "〜によると",
+      "difference": "Names the source of hearsay (\"according to\"); 限りでは refers to the speaker's own checking."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私が知っている限りでは、彼は独身です。→ often written 私は知る限りでは",
+      "right": "私の知る限りでは / 私が知っている限りでは、彼は独身です。",
+      "why": "Inside the clause the subject takes の or が, never は."
+    },
+    {
+      "wrong": "調べた限りでは、絶対に問題はない。",
+      "right": "調べた限りでは、問題は見つからなかった。",
+      "why": "限りでは admits uncertainty; a categorical 絶対に contradicts its cautious tone."
+    },
+    {
+      "wrong": "食べる限りでは、おいしい。",
+      "right": "食べた限りでは、おいしかった。",
+      "why": "The verb must be one of obtaining information (見る・聞く・調べる…), and tasting as evidence normally takes Vた."
+    }
+  ],
+  "usageNotes": [
+    "The main clause often ends in a hedge: 〜ようだ, 〜そうだ, 〜と思う, 〜ない.",
+    "限り without では also works (私の知る限り) but では makes the limitation explicit.",
+    "Formal reports use 〜の限りでは with nouns like 調査, 資料, 記録."
+  ],
+  "jlptTips": [
+    "A verb of perception or knowledge before the blank and a hedged conclusion after it → 限りでは.",
+    "The main distractor is 限り (condition). If the sentence is a promise or guarantee, it is 限り; if it is \"as far as I can tell\", it is 限りでは.",
+    "In 並べ替え, 私の知る + 限りでは forms a fixed chunk; place it at the start."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-16-1",
+    "q-n2-g-16-2",
+    "q-n2-g-16-3",
+    "q-n2-g-16-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-16-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

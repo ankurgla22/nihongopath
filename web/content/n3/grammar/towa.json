@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-134",
+  "slug": "towa",
+  "level": "n3",
+  "order": 134,
+  "title": "〜とは",
+  "romaji": "towa",
+  "meaning": "(1) what is… / … means (definition, topic); (2) to think that…! (surprise)",
+  "simpleExplanation": "〜とは has two jobs. (1) It introduces a definition or asks what something is: 「和食」とは、日本の伝統的な料理のことだ \"washoku means traditional Japanese cuisine\"; 幸せとは何だろうか \"what is happiness?\". (2) After a clause it expresses surprise: 彼が合格するとは思わなかった \"I never thought he would pass\". The comment after とは can even be left unsaid.",
+  "whenUsed": "Sense 1: dictionaries, essays, explanations (the formal cousin of 〜というのは). Sense 2: exclamations in speech and writing, often with 思わなかった / 驚いた / 信じられない, or trailing off: まさか彼が来るとは….",
+  "formation": [
+    "Sense 1: Noun + とは + definition / 何か",
+    "Sense 2: Verb / clause (plain form) + とは + 思わなかった / 驚いた",
+    "Sense 2 trailing: 〜とは。/ 〜とは…",
+    "Emphatic variant: 〜とはね"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two とは",
+    "columns": [
+      "Structure",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Sense 1: definition",
+        "cells": [
+          "N + とは + explanation",
+          "N means…",
+          "「和食」とは日本の料理のことだ"
+        ]
+      },
+      {
+        "label": "Sense 2: surprise",
+        "cells": [
+          "clause + とは + (comment)",
+          "to think that…!",
+          "彼が来るとは思わなかった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "「和食」とは、日本の伝統的な料理のことだ。",
+      "reading": "「わしょく」とは、にほんのでんとうてきなりょうりのことだ。",
+      "en": "\"Washoku\" means traditional Japanese cuisine.",
+      "note": "Definition."
+    },
+    {
+      "ja": "幸せとは何だろうか。",
+      "reading": "しあわせとはなんだろうか。",
+      "en": "What is happiness?",
+      "note": "Philosophical question: とは何か."
+    },
+    {
+      "ja": "彼が試験に合格するとは、思わなかった。",
+      "reading": "かれがしけんにごうかくするとは、おもわなかった。",
+      "en": "I never thought he would pass the exam.",
+      "note": "Surprise: とは思わなかった."
+    },
+    {
+      "ja": "「過労死」とは、働きすぎが原因で死亡することを指す。",
+      "reading": "「かろうし」とは、はたらきすぎがげんいんでしぼうすることをさす。",
+      "en": "'Karoshi' refers to death caused by overwork.",
+      "note": "Formal definition style."
+    },
+    {
+      "ja": "まさか、あの店がなくなっていたとは…。",
+      "reading": "まさか、あのみせがなくなっていたとは…。",
+      "en": "I can't believe that shop is gone…",
+      "note": "Trailing off after とは; the surprise is implied."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜というのは",
+      "difference": "Same definition use but more conversational.",
+      "id": "n3-grammar-13"
+    },
+    {
+      "pattern": "〜なんて",
+      "difference": "Also expresses surprise or disdain (彼が来るなんて); more casual than とは.",
+      "id": "n3-grammar-62"
+    },
+    {
+      "pattern": "〜って",
+      "difference": "Casual topic marker for definitions (和食って何？).",
+      "id": "n3-grammar-61"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "和食とは、おいしいです。",
+      "right": "和食とは、日本の伝統的な料理のことです。",
+      "why": "Sense 1 introduces a definition, not an opinion; the predicate should explain what the word means."
+    },
+    {
+      "wrong": "彼が合格したとは嬉しい。",
+      "right": "彼が合格したとは驚いた。/ 合格したとは思わなかった。",
+      "why": "Sense 2 expresses surprise or disbelief; use verbs like 驚く, 思わなかった, 信じられない."
+    },
+    {
+      "wrong": "「幸せ」というとは何か。",
+      "right": "「幸せ」とは何か。",
+      "why": "Do not combine という with とは; とは already carries the 'what is' meaning."
+    }
+  ],
+  "usageNotes": [
+    "Definitions often end with 〜のことだ / 〜を指す / 〜という意味だ.",
+    "Sense 2 with ね (とはね) adds a shared sense of surprise.",
+    "In 読解, 〜とは at the start of a sentence signals a term is about to be defined."
+  ],
+  "jlptTips": [
+    "Noun + blank + definition (〜のことだ) → とは.",
+    "Clause + blank + 思わなかった / 驚いた → とは (surprise).",
+    "Distractors like というのは fit definitions too; if the register is formal or written, とは is preferred."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-134-1",
+    "q-n3-g-134-2",
+    "q-n3-g-134-3",
+    "q-n3-g-134-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-134-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

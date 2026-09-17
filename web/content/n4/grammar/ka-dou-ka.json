@@ -1,0 +1,120 @@
+{
+  "id": "n4-grammar-53",
+  "slug": "ka-dou-ka",
+  "level": "n4",
+  "order": 53,
+  "title": "〜かどうか \"whether or not\"",
+  "romaji": "ka dou ka",
+  "meaning": "Embeds a yes/no question inside a sentence.",
+  "simpleExplanation": "〜かどうか means \"whether or not\". It puts a yes/no question inside a longer sentence: 明日晴れるかどうか分かりません = I don't know whether it will be sunny tomorrow. The part before かどうか is in the plain form; nouns and な-adjectives attach without だ (学生かどうか, 便利かどうか). The main verb is usually about knowing, asking or checking: 分からない, 知らない, 聞く, 確かめる, 教えてください.",
+  "whenUsed": "Uncertainty and checking in daily life and business: whether someone is coming, whether an answer is right, whether a shop is open. Used at every politeness level. In formal writing you sometimes see 〜か〜ないか (行くか行かないか) instead.",
+  "formation": [
+    "V-plain + かどうか: 来るかどうか, 来たかどうか",
+    "い-adjective + かどうか: 正しいかどうか",
+    "な-adjective + かどうか (no だ): 便利かどうか",
+    "Noun + かどうか (no だ): 本当かどうか",
+    "+ 分からない / 知らない / 聞く / 確かめる / 教えてください"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "彼は来ますか。",
+        "en": "a yes/no question"
+      },
+      {
+        "ja": "彼が来るかどうか",
+        "en": "the question as a noun-like chunk: whether he is coming"
+      },
+      {
+        "ja": "彼が来るかどうか聞いてください。",
+        "en": "embedded in a sentence: please ask whether he is coming"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日晴れるかどうか分かりません。",
+      "reading": "あした はれるかどうか わかりません。",
+      "en": "I don't know whether it will be sunny tomorrow.",
+      "note": "Yes/no question + かどうか + 分からない."
+    },
+    {
+      "ja": "彼が来るかどうか聞いてください。",
+      "reading": "かれが くるかどうか きいてください。",
+      "en": "Please ask whether he is coming.",
+      "note": "The embedded subject takes が: 彼が来る."
+    },
+    {
+      "ja": "この答えが正しいかどうか確かめよう。",
+      "reading": "この こたえが ただしいかどうか たしかめよう。",
+      "en": "Let's check whether this answer is right.",
+      "note": "い-adjective + かどうか + 確かめる."
+    },
+    {
+      "ja": "この店が日曜日も開いているかどうか、電話で聞いてみます。",
+      "reading": "このみせが にちようびも あいているかどうか、でんわで きいてみます。",
+      "en": "I'll phone and ask whether this shop is open on Sundays too.",
+      "note": "Plain form 開いている + かどうか."
+    },
+    {
+      "ja": "その話が本当かどうか、まだ分からない。",
+      "reading": "そのはなしが ほんとうかどうか、まだ わからない。",
+      "en": "I still don't know whether that story is true.",
+      "note": "Noun + かどうか with no だ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Embedded question 〜か",
+      "difference": "With a question word (誰, 何, いつ, どこ), use か alone: 誰が来るか. かどうか is only for yes/no questions.",
+      "id": "n4-grammar-54"
+    },
+    {
+      "pattern": "〜か〜ないか",
+      "difference": "A more formal or explicit version: 行くか行かないか. Same meaning as 行くかどうか."
+    },
+    {
+      "pattern": "〜かな",
+      "difference": "かな wonders aloud at the end of a sentence. かどうか embeds a question inside a sentence.",
+      "id": "n4-grammar-105"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "誰が来るかどうか分かりません。",
+      "right": "誰が来るか分かりません。",
+      "why": "A question with a question word takes か alone, not かどうか."
+    },
+    {
+      "wrong": "明日は休みだかどうか聞いてください。",
+      "right": "明日は休みかどうか聞いてください。",
+      "why": "Nouns attach to かどうか without だ."
+    },
+    {
+      "wrong": "行きますかどうか分かりません。",
+      "right": "行くかどうか分かりません。",
+      "why": "The embedded clause is in the plain form."
+    }
+  ],
+  "usageNotes": [
+    "The embedded subject takes が, not は: 彼が来るかどうか.",
+    "A comma after かどうか is common when the sentence is long.",
+    "In business, 〜かどうか確認します (I'll confirm whether) is a very useful phrase."
+  ],
+  "jlptTips": [
+    "No question word before the blank + a verb of knowing / asking / checking after it → かどうか. A question word (誰, 何, いつ) present → か only.",
+    "Nouns and な-adjectives before かどうか: no だ. Options with だかどうか are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-53-1",
+    "q-n4-g-53-2",
+    "q-n4-g-53-3",
+    "q-n4-g-53-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-53-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

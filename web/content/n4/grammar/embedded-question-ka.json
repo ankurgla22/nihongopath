@@ -1,0 +1,121 @@
+{
+  "id": "n4-grammar-54",
+  "slug": "embedded-question-ka",
+  "level": "n4",
+  "order": 54,
+  "title": "Embedded question 〜か \"…(who/what/when) …\"",
+  "romaji": "gimon-shi + ka",
+  "meaning": "Embeds a wh-question inside a sentence.",
+  "simpleExplanation": "A question with a question word (誰, 何, いつ, どこ, どう, 何時) can be placed inside a sentence with か: 会議が何時に始まるか知っていますか = do you know what time the meeting starts? The embedded part is in the plain form, the subject takes が, and nouns and な-adjectives usually drop だ before か (誰が先生か). After か come verbs like 分からない, 知っている, 教えてください, 覚えていない.",
+  "whenUsed": "Asking for or giving information indirectly, in every register: どこで買えばいいか教えてください (tell me where I should buy it). Very common in polite requests for information because it is softer than a direct question. Also for expressing what you don't know or can't remember.",
+  "formation": [
+    "Question word + V-plain + か: 何時に始まるか, 誰が来たか",
+    "Question word + い-adjective + か: どれが安いか",
+    "Question word + な-adjective / Noun (+ だ) + か: どこが静かか, 誰が先生か",
+    "+ 分からない / 知っている / 教えてください / 覚えていない",
+    "Embedded subject takes が"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "会議は何時に始まりますか。",
+        "en": "a direct wh-question"
+      },
+      {
+        "ja": "会議が何時に始まるか",
+        "en": "the question as a chunk: what time the meeting starts (は → が, plain form)"
+      },
+      {
+        "ja": "会議が何時に始まるか知っていますか。",
+        "en": "embedded: do you know what time the meeting starts?"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "会議が何時に始まるか知っていますか。",
+      "reading": "かいぎが なんじに はじまるか しっていますか。",
+      "en": "Do you know what time the meeting starts?",
+      "note": "Question word 何時 + plain form + か; subject 会議 takes が."
+    },
+    {
+      "ja": "誰が来たか分かりません。",
+      "reading": "だれが きたか わかりません。",
+      "en": "I don't know who came.",
+      "note": "誰が来た + か + 分からない."
+    },
+    {
+      "ja": "どこで切符を買えばいいか教えてください。",
+      "reading": "どこで きっぷを かえば いいか おしえてください。",
+      "en": "Please tell me where I should buy a ticket.",
+      "note": "どこで〜ばいいか + 教えてください: a soft request for information."
+    },
+    {
+      "ja": "この漢字をどう読むか分かりますか。",
+      "reading": "このかんじを どう よむか わかりますか。",
+      "en": "Do you know how to read this kanji?",
+      "note": "どう + plain verb + か."
+    },
+    {
+      "ja": "財布をどこに置いたか、覚えていない。",
+      "reading": "さいふを どこに おいたか、おぼえていない。",
+      "en": "I don't remember where I put my wallet.",
+      "note": "Past tense inside the embedded question."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かどうか",
+      "difference": "For yes/no questions. With a question word, use か alone.",
+      "id": "n4-grammar-53"
+    },
+    {
+      "pattern": "〜ばいい",
+      "difference": "〜ばいいか (どうすればいいか) is a very common embedded form: \"what I should do\".",
+      "id": "n4-grammar-92"
+    },
+    {
+      "pattern": "〜方",
+      "difference": "どう読むか (how to read it, as a question) versus 読み方 (the way of reading, as a noun).",
+      "id": "n4-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "誰が来たかどうか分かりません。",
+      "right": "誰が来たか分かりません。",
+      "why": "かどうか is only for yes/no questions; with 誰 use か."
+    },
+    {
+      "wrong": "会議は何時に始まるか知っていますか。",
+      "right": "会議が何時に始まるか知っていますか。",
+      "why": "Inside the embedded question the subject takes が, not は."
+    },
+    {
+      "wrong": "どこで買いますか教えてください。",
+      "right": "どこで買えばいいか教えてください。",
+      "why": "The embedded clause uses the plain form; the polite form belongs only at the end."
+    }
+  ],
+  "usageNotes": [
+    "Dropping だ: どこが静かか and 誰が先生か are normal; どこが静かだか sounds heavier and is avoided.",
+    "In writing, か can be followed by を (〜かを知っている); in speech the particle is usually dropped.",
+    "〜か、〜 with a comma separates a long embedded question from the main verb."
+  ],
+  "jlptTips": [
+    "A question word before the blank (誰, 何, いつ, どこ, どう) means か, not かどうか.",
+    "The verb before か must be plain; options like 始まりますか or 始まってか are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-54-1",
+    "q-n4-g-54-2",
+    "q-n4-g-54-3",
+    "q-n4-g-54-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-54-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

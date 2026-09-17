@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-71",
+  "slug": "kke",
+  "level": "n2",
+  "order": 71,
+  "title": "〜っけ",
+  "romaji": "-kke",
+  "meaning": "was it ...? (trying to recall)",
+  "simpleExplanation": "〜っけ is a casual sentence ending used when trying to recall something or confirm it with the listener: \"What time was the meeting again?\" \"Who was that person again?\" It shows that the speaker once knew but has forgotten.",
+  "whenUsed": "話し言葉 only, casual to mildly polite. It attaches to past forms: Vた/Vました + っけ, N/Aな + だった/でした + っけ, Aい + かった + っけ. Even future events take the past form (明日の会議は何時からだっけ) because the speaker recalls information from the past.",
+  "formation": [
+    "Vた/Vました + っけ / N + だった + っけ / Aい + かった + っけ"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "っけ",
+    "rootLabel": "recall marker (past form + っけ)",
+    "branches": [
+      {
+        "suffix": "N + だった + っけ",
+        "result": "会議は何時からだったっけ",
+        "label": "What time was it again?"
+      },
+      {
+        "suffix": "N + でした + っけ",
+        "result": "あの人、誰でしたっけ",
+        "label": "polite recall"
+      },
+      {
+        "suffix": "V + た/ました + っけ",
+        "result": "君も行きましたっけ",
+        "label": "Did you go too (I forget)?"
+      },
+      {
+        "suffix": "Aい + かった + っけ",
+        "result": "この店、高かったっけ",
+        "label": "Was it expensive?"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日の会議は何時からだっけ。",
+      "reading": "あしたのかいぎはなんじからだっけ。",
+      "en": "What time was tomorrow's meeting again?",
+      "note": "だっけ about a future event."
+    },
+    {
+      "ja": "あの人、誰でしたっけ。",
+      "reading": "あのひと、だれでしたっけ。",
+      "en": "Who was that person again?",
+      "note": "でしたっけ polite recall."
+    },
+    {
+      "ja": "君、コーヒー飲まなかったっけ。",
+      "reading": "きみ、コーヒーのまなかったっけ。",
+      "en": "Didn't you drink coffee?",
+      "note": "Vなかったっけ confirming with the listener."
+    },
+    {
+      "ja": "あれ、鍵はどこに置いたっけ。",
+      "reading": "あれ、かぎはどこにおいたっけ。",
+      "en": "Hm, where did I put the keys again?",
+      "note": "Talking to oneself."
+    },
+    {
+      "ja": "確か、田中さんは大阪の出身だったっけ？",
+      "reading": "たしか、たなかさんはおおさかのしゅっしんだったっけ？",
+      "en": "Tanaka is from Osaka, wasn't it?",
+      "note": "確か + っけ: seeking confirmation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜か / 〜の？",
+      "difference": "Plain questions ask for new information; っけ asks to recover forgotten information."
+    },
+    {
+      "pattern": "〜よね",
+      "difference": "Confirms shared knowledge with some confidence; っけ signals the speaker has forgotten."
+    },
+    {
+      "pattern": "〜だっけ (N)",
+      "difference": "The most frequent shape; だっけ can also follow a plain clause in speech (行くんだっけ)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日の会議は何時からですっけ。",
+      "right": "明日の会議は何時からでしたっけ。",
+      "why": "っけ follows past forms (でした / だった)."
+    },
+    {
+      "wrong": "この本、高いっけ。",
+      "right": "この本、高かったっけ。",
+      "why": "い-adjectives take かった before っけ."
+    },
+    {
+      "wrong": "（in a formal speech）ご出身はどちらでしたっけ。",
+      "right": "ご出身はどちらでしょうか。",
+      "why": "っけ is casual; avoid it in formal situations."
+    }
+  ],
+  "usageNotes": [
+    "Often preceded by あれ, ええと, 確か.",
+    "Can be used toward oneself or the listener.",
+    "In casual speech, plain clause + んだっけ is common: 何時に来るんだっけ."
+  ],
+  "jlptTips": [
+    "A casual question recalling known information with 確か/あれ → っけ.",
+    "Distractors: よね, かな, だろう. かな expresses wondering, not recalling.",
+    "Form questions test だった/でした before っけ; です + っけ is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-71-1",
+    "q-n2-g-71-2",
+    "q-n2-g-71-3",
+    "q-n2-g-71-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-71-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

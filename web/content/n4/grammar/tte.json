@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-86",
+  "slug": "tte",
+  "level": "n4",
+  "order": 86,
+  "title": "〜って (casual quotation / topic)",
+  "romaji": "tte (kudaketa in'you / shudai)",
+  "meaning": "Casual equivalent of と (quotation), という (called), and は (topic). Also sentence-final hearsay (\"they say\").",
+  "simpleExplanation": "って is the casual all-rounder of spoken Japanese. It replaces と for quoting (来るって言ってた = said he's coming), という for naming (「さくら」って店 = a shop called Sakura), and は for a topic (漢字って難しい = kanji are hard, you know). At the end of a sentence it reports what you heard: 明日は休みだって = \"I hear tomorrow's a holiday\". It is only for casual speech.",
+  "whenUsed": "Conversation among friends, family and close colleagues, and in casual texts and manga. You will hear it constantly in the N4 listening section. In writing, polite speech and business it is replaced by と, という and は.",
+  "formation": [
+    "Quote: plain sentence + って + 言う / 思う / 聞く: 行くって言ってた",
+    "Naming: N + って + (いう) N: 「さくら」って（いう）店",
+    "Topic: N + って: 漢字って難しいね; also 〜って何？ (what is…?)",
+    "Hearsay at sentence end: sentence + って: 明日は休みだって",
+    "Asking someone to repeat: 何だって？ / え、〜って？"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "田中さんは明日来ると言っていました。",
+        "en": "polite: と for the quote"
+      },
+      {
+        "ja": "田中さんは明日来るって言ってた。",
+        "en": "casual: と → って, 言っていた → 言ってた"
+      },
+      {
+        "ja": "田中さん、明日来るって。",
+        "en": "sentence-final って: \"Tanaka says he's coming tomorrow\" (hearsay)"
+      },
+      {
+        "ja": "「さくら」という店 → 「さくら」って店",
+        "en": "naming: という → って"
+      },
+      {
+        "ja": "漢字は難しい → 漢字って難しい",
+        "en": "topic: は → って (with a feeling of \"you know\")"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "田中さんは明日来るって言ってたよ。",
+      "reading": "たなかさんは あした くるって いってたよ。",
+      "en": "Tanaka said he's coming tomorrow.",
+      "note": "Quote: って replaces と before 言う. 言ってた is the contracted 言っていた."
+    },
+    {
+      "ja": "「さくら」って店、知ってる？",
+      "reading": "「さくら」って みせ、しってる？",
+      "en": "Do you know a shop called \"Sakura\"?",
+      "note": "Naming: って replaces という (a shop called…)."
+    },
+    {
+      "ja": "漢字って難しいね。",
+      "reading": "かんじって むずかしいね。",
+      "en": "Kanji are hard, aren't they?",
+      "note": "Topic: って replaces は, with a slightly emotional \"you know, kanji…\"."
+    },
+    {
+      "ja": "先生、今日は来ないって。",
+      "reading": "せんせい、きょうは こないって。",
+      "en": "The teacher says he's not coming today, apparently.",
+      "note": "Sentence-final って = \"I hear / he said\"."
+    },
+    {
+      "ja": "「ケータイ」って何？ ああ、携帯電話のことか。",
+      "reading": "「ケータイ」って なに？ ああ、けいたいでんわの ことか。",
+      "en": "What's a \"keitai\"? Oh, you mean a mobile phone.",
+      "note": "〜って何？ is the casual way to ask what a word means."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と (quoting)",
+      "difference": "と is the neutral, all-register quotation particle. って is its casual spoken equivalent.",
+      "id": "n4-grammar-111"
+    },
+    {
+      "pattern": "〜という",
+      "difference": "という names or defines (さくらという店). って does the same job in casual speech.",
+      "id": "n4-grammar-52"
+    },
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "そうだ reports hearsay in polite/neutral speech (休みだそうです). Sentence-final って is the casual version (休みだって).",
+      "id": "n4-grammar-36"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（in an email to a client）明日は休みだって聞きました。",
+      "right": "明日は休みだと聞きました。/ 休みだそうです。",
+      "why": "って is casual only. In polite or written Japanese use と / そうです."
+    },
+    {
+      "wrong": "田中さんは来ないってを言った。",
+      "right": "田中さんは来ないって言った。",
+      "why": "って already links the quote to 言う; no extra particle is needed."
+    },
+    {
+      "wrong": "漢字ってが難しい。",
+      "right": "漢字って難しい。",
+      "why": "Topic って replaces は / が; do not add another particle."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final って often carries a hint of \"so they say\" or \"I told you\": 行かないって！ (I said I'm not going!).",
+    "って also shortens 〜と言っても (〜ったって) and 〜とは (〜って) in fast speech; recognise them in listening.",
+    "Watch for だ before って after nouns and な-adjectives in hearsay: 休みだって, 元気だって, but verbs and い-adjectives attach directly: 来るって, 寒いって."
+  ],
+  "jlptTips": [
+    "In 文法形式 with a casual dialogue, って is the answer where a formal sentence would have と, という or は. Register is the key: look for casual endings (〜てた, 〜んだ, よ/ね).",
+    "In listening, sentence-final って means the speaker is reporting someone else's words; do not treat it as the speaker's own decision."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-86-1",
+    "q-n4-g-86-2",
+    "q-n4-g-86-3",
+    "q-n4-g-86-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-86-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

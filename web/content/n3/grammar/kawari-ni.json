@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-33",
+  "slug": "kawari-ni",
+  "level": "n3",
+  "order": 33,
+  "title": "〜代わりに / 〜かわりに",
+  "romaji": "kawari ni",
+  "meaning": "Instead of… / in place of… / in exchange for…",
+  "simpleExplanation": "〜代わりに has two related uses. (1) Substitution: 部長の代わりに私が出席します = I will attend in place of the manager. (2) Trade-off: 駅に近い代わりに家賃が高い = it's close to the station, but in exchange the rent is high. In both, one thing is exchanged for another.",
+  "whenUsed": "Everyday and formal. Substitution use is very common in offices; trade-off use in descriptions of pros and cons.",
+  "formation": [
+    "Noun + の + 代わりに",
+    "Verb (dictionary / た) + 代わりに",
+    "い-adjective + 代わりに",
+    "な-adjective + な + 代わりに",
+    "Formal substitute: Noun + に代わって"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of 代わりに",
+    "columns": [
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "substitution",
+        "cells": [
+          "部長の代わりに出席する",
+          "instead of / on behalf of"
+        ]
+      },
+      {
+        "label": "trade-off",
+        "cells": [
+          "近い代わりに高い",
+          "in exchange for"
+        ]
+      },
+      {
+        "label": "compensation",
+        "cells": [
+          "手伝う代わりにご飯をおごって",
+          "in return for"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "部長の代わりに、私が会議に出席します。",
+      "reading": "ぶちょうのかわりに、わたしがかいぎにしゅっせきします。",
+      "en": "I will attend the meeting in place of the department manager.",
+      "note": "Substitution: attending on behalf of someone."
+    },
+    {
+      "ja": "車で行く代わりに、自転車で行った。",
+      "reading": "くるまでいくかわりに、じてんしゃでいった。",
+      "en": "Instead of going by car, I went by bicycle.",
+      "note": "Substitution of an action: bicycle instead of car."
+    },
+    {
+      "ja": "このアパートは駅に近い代わりに、家賃が高い。",
+      "reading": "このアパートはえきにちかいかわりに、やちんがたかい。",
+      "en": "This apartment is near the station, but in exchange the rent is high.",
+      "note": "Trade-off: an advantage paired with a disadvantage."
+    },
+    {
+      "ja": "今日は手伝ってあげる代わりに、来週は君が手伝ってね。",
+      "reading": "きょうはてつだってあげるかわりに、らいしゅうはきみがてつだってね。",
+      "en": "I'll help you today; in return, you help me next week.",
+      "note": "Exchange of favors."
+    },
+    {
+      "ja": "この薬はよく効く代わりに、眠くなるという副作用がある。",
+      "reading": "このくすりはよくきくかわりに、ねむくなるというふくさようがある。",
+      "en": "This medicine works well, but in exchange it has the side effect of making you sleepy.",
+      "note": "Trade-off, similar to 反面."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に代わって",
+      "difference": "Formal \"on behalf of\", only for substitution of people or things."
+    },
+    {
+      "pattern": "〜反面 (N2)",
+      "difference": "Trade-off only: \"on the other hand\". Cannot mean \"instead of\"."
+    },
+    {
+      "pattern": "〜ないで / 〜ずに",
+      "difference": "\"Without doing / instead of doing\" as a manner, without the idea of exchange."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "部長代わりに",
+      "right": "部長の代わりに",
+      "why": "Nouns need の before 代わりに."
+    },
+    {
+      "wrong": "駅に近いの代わりに家賃が高い。",
+      "right": "駅に近い代わりに家賃が高い。",
+      "why": "Adjectives and verbs attach directly; の is only for nouns."
+    },
+    {
+      "wrong": "コーヒーの代わりに紅茶を飲みませんか。(intended: instead of coffee, how about tea?)",
+      "right": "コーヒーの代わりに紅茶はいかがですか。",
+      "why": "Grammatical, but 代わりに + an invitation sounds like a demand; rephrase as an offer."
+    }
+  ],
+  "usageNotes": [
+    "For sense (2), 〜反面 is a close relative; 代わりに implies a trade-off. 〜に代わって is the formal substitute form (\"on behalf of\").",
+    "Sentence-initial その代わり(に) = \"in exchange / but on the other hand\"."
+  ],
+  "jlptTips": [
+    "If someone or something replaces another, choose 代わりに; if the sentence lists a plus and a minus, 代わりに is also correct (trade-off).",
+    "The noun connection is の代わりに; verbs and adjectives attach directly. Check the option's connector.",
+    "Distractors: に比べて, に加えて, にしては. Only 代わりに carries the idea of exchange."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-33-1",
+    "q-n3-g-33-2",
+    "q-n3-g-33-3",
+    "q-n3-g-33-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-33-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

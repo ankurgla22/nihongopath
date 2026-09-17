@@ -1,0 +1,140 @@
+{
+  "id": "n3-grammar-133",
+  "slug": "ta-mono-da",
+  "level": "n3",
+  "order": 133,
+  "title": "〜たものだ",
+  "romaji": "ta mono da",
+  "meaning": "used to… (nostalgic recollection of past habits)",
+  "simpleExplanation": "〜たものだ looks back on something you often did in the past, with a touch of nostalgia: 子供の頃、よくこの川で泳いだものだ \"as a child I often used to swim in this river\". It is not for one-time events; it is for habits and typical scenes of the past.",
+  "whenUsed": "Reminiscing in speech and writing, memoirs, conversations about school days. Casual: 〜たもんだ. Pairs with よく, 昔, 子供の頃, 学生時代.",
+  "formation": [
+    "Verb た-form + ものだ / ものです",
+    "い-adjective -かった + ものだ",
+    "な-adjective / Noun + だった + ものだ",
+    "Casual: 〜たもんだ; Past: 〜たものだった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The ものだ family",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜たものだ",
+        "cells": [
+          "used to (nostalgia)",
+          "よく遊んだものだ"
+        ]
+      },
+      {
+        "label": "〜ものだ (truth)",
+        "cells": [
+          "that's how things are",
+          "人は誰でも失敗するものだ"
+        ]
+      },
+      {
+        "label": "〜ものだ (advice)",
+        "cells": [
+          "one should",
+          "目上の人には挨拶するものだ"
+        ]
+      },
+      {
+        "label": "〜ものだ (exclamation)",
+        "cells": [
+          "how…!",
+          "よく頑張ったものだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供の頃、よくこの川で泳いだものだ。",
+      "reading": "こどものころ、よくこのかわでおよいだものだ。",
+      "en": "When I was a child, I often used to swim in this river.",
+      "note": "Nostalgic habit with よく."
+    },
+    {
+      "ja": "学生時代は毎晩遅くまで友達と話したものだ。",
+      "reading": "がくせいじだいはまいばんおそくまでともだちとはなしたものだ。",
+      "en": "In my student days I used to talk with friends late every night.",
+      "note": "School-day memories."
+    },
+    {
+      "ja": "昔はこの辺りも静かだったものだ。",
+      "reading": "むかしはこのあたりもしずかだったものだ。",
+      "en": "This area used to be quiet, too.",
+      "note": "Adjective: 静かだった + ものだ."
+    },
+    {
+      "ja": "若い頃は、徹夜で仕事をしても平気だったものだ。",
+      "reading": "わかいころは、てつやでしごとをしてもへいきだったものだ。",
+      "en": "When I was young, I used to be fine even working all night.",
+      "note": "な-adjective + だった + ものだ."
+    },
+    {
+      "ja": "昔はこの道を毎日歩いて学校に通ったもんだよ。",
+      "reading": "むかしはこのみちをまいにちあるいてがっこうにかよったもんだよ。",
+      "en": "Back then I used to walk this road to school every day.",
+      "note": "Casual もんだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ていた",
+      "difference": "Neutral past habit or state (毎日泳いでいた); no nostalgia."
+    },
+    {
+      "pattern": "〜ものだ (general truth)",
+      "difference": "Same ending but with the dictionary form: 'that's the nature of things'.",
+      "id": "n3-grammar-15"
+    },
+    {
+      "pattern": "〜たことがある",
+      "difference": "Experience once or more ('have done'), not a habit."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨日、友達と映画を見たものだ。",
+      "right": "昨日、友達と映画を見た。",
+      "why": "A single recent event is not a habit; ものだ needs repeated past actions in a distant past."
+    },
+    {
+      "wrong": "子供の頃、よく泳ぐものだ。",
+      "right": "子供の頃、よく泳いだものだ。",
+      "why": "The nostalgic use requires the た-form."
+    },
+    {
+      "wrong": "毎日勉強したものだ。(about last week)",
+      "right": "先週は毎日勉強した。",
+      "why": "ものだ implies a time now far away; recent habits use the plain past."
+    }
+  ],
+  "usageNotes": [
+    "Often with よく / 昔は / 子供の頃 / 学生時代 / 若い頃.",
+    "The tone is warm or wistful; it sounds odd with neutral facts.",
+    "Other ものだ uses appear at N3/N2; check the verb form to tell them apart."
+  ],
+  "jlptTips": [
+    "Time markers of the distant past + よく + た-form + blank → ものだ.",
+    "Dictionary form + ものだ is a different meaning (general truth / advice).",
+    "In 読解, 〜たものだ signals the writer is reminiscing; the passage may contrast 'then' and 'now'."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-133-1",
+    "q-n3-g-133-2",
+    "q-n3-g-133-3",
+    "q-n3-g-133-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-133-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

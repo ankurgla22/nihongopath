@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-85",
+  "slug": "nuku",
+  "level": "n3",
+  "order": 85,
+  "title": "〜抜く / 〜ぬく",
+  "romaji": "nuku",
+  "meaning": "do… through to the end / do… despite difficulty (persevere)",
+  "simpleExplanation": "Verb stem + 抜く means \"push through to the end no matter how hard it is\": 走り抜く \"run all the way\", やり抜く \"see it through\", 耐え抜く \"endure to the end\". While 切る focuses on finishing, 抜く focuses on the struggle and determination along the way.",
+  "whenUsed": "Speeches, sports, motivational writing, biographies: 最後までやり抜く. Also 考え抜く \"think something through thoroughly\". Not used for easy or routine actions.",
+  "formation": [
+    "Verb ます-stem + 抜く (Group 1 verb: 抜いた, 抜いて, 抜きます)",
+    "Common: やり抜く, 走り抜く, 生き抜く, 考え抜く, 耐え抜く, 戦い抜く"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "抜く vs 切る vs 通す",
+    "columns": [
+      "Focus",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜抜く",
+        "cells": [
+          "Perseverance through hardship",
+          "苦しくてもやり抜く (see it through even if it's painful)"
+        ]
+      },
+      {
+        "label": "〜切る",
+        "cells": [
+          "Complete, use up, to the extreme",
+          "本を読み切る (finish the whole book)"
+        ]
+      },
+      {
+        "label": "〜通す",
+        "cells": [
+          "Keep the same thing all the way",
+          "一年間、無遅刻を通す (keep a perfect record all year)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "最後まで走り抜いた。",
+      "reading": "さいごまではしりぬいた。",
+      "en": "I ran through to the very end.",
+      "note": "Sports: ran to the very end."
+    },
+    {
+      "ja": "苦しくてもやり抜くつもりだ。",
+      "reading": "くるしくてもやりぬくつもりだ。",
+      "en": "Even if it's hard, I intend to see it through.",
+      "note": "やり抜く = the set phrase for 'see it through'."
+    },
+    {
+      "ja": "よく考え抜いて決めた。",
+      "reading": "よくかんがえぬいてきめた。",
+      "en": "I thought it over thoroughly before deciding.",
+      "note": "考え抜く = think through thoroughly (persistence of thought)."
+    },
+    {
+      "ja": "祖父は戦争の時代を生き抜いた人だ。",
+      "reading": "そふはせんそうのじだいをいきぬいたひとだ。",
+      "en": "My grandfather is someone who survived the war years.",
+      "note": "生き抜く = live through hardship."
+    },
+    {
+      "ja": "厳しい練習に耐え抜いて、彼はプロになった。",
+      "reading": "きびしいれんしゅうにたえぬいて、かれはプロになった。",
+      "en": "Having endured the harsh training to the end, he became a professional.",
+      "note": "耐え抜く = endure to the end."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜切る",
+      "difference": "Emphasises completion or using everything up, not effort. 読み切る (finish reading) vs 読み抜く (rare).",
+      "id": "n3-grammar-84"
+    },
+    {
+      "pattern": "〜通す",
+      "difference": "'Carry through consistently' (やり通す is close to やり抜く; 隠し通す = keep hidden all the way)."
+    },
+    {
+      "pattern": "〜続ける",
+      "difference": "Neutral continuation, no sense of difficulty."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎朝コーヒーを飲み抜く。",
+      "right": "毎朝コーヒーを飲む。",
+      "why": "抜く needs a hard or long task; routine actions do not take it."
+    },
+    {
+      "wrong": "やる抜く",
+      "right": "やり抜く",
+      "why": "抜く attaches to the ます-stem (やり), not the dictionary form."
+    },
+    {
+      "wrong": "ご飯を食べ抜いた。(meaning 'ate it all')",
+      "right": "ご飯を食べ切った。",
+      "why": "Finishing food is completion, so 切る is right; 抜く would suggest a heroic struggle."
+    }
+  ],
+  "usageNotes": [
+    "抜く also has independent meanings: 'pull out' (歯を抜く), 'skip' (朝食を抜く), 'overtake' (前の車を抜く). Only the compound use is covered here.",
+    "The set 最後までやり抜く appears in speeches and slogans.",
+    "考え抜いた末に 'after thinking it through' is a common narrative phrase."
+  ],
+  "jlptTips": [
+    "Keywords such as 最後まで, 苦しくても, 厳しい, あきらめずに point to 抜く.",
+    "If the verb is about eating, reading or using up, the answer is 切る rather than 抜く.",
+    "Only a limited set of verbs takes 抜く; when unsure, choose it with やる, 走る, 生きる, 考える, 耐える, 戦う."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-85-1",
+    "q-n3-g-85-2",
+    "q-n3-g-85-3",
+    "q-n3-g-85-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-85-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

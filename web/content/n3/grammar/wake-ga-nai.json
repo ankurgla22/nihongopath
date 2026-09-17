@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-5",
+  "slug": "wake-ga-nai",
+  "level": "n3",
+  "order": 5,
+  "title": "〜わけがない",
+  "romaji": "wake ga nai",
+  "meaning": "There's no way that… / it's impossible that…",
+  "simpleExplanation": "〜わけがない is a strong \"no way!\". The speaker has a reason and rejects the idea completely: あんなに練習したのに負けるわけがない = after practicing that much, there is no way he'll lose. It is emotional and confident, not a polite hedge.",
+  "whenUsed": "Mostly conversation and informal writing. Used to reject a possibility (できるわけがない), defend someone (彼が嘘をつくわけがない), or express frustration. Casual: 〜わけない.",
+  "formation": [
+    "Verb (plain form) + わけがない",
+    "い-adjective + わけがない",
+    "な-adjective + な + わけがない",
+    "Noun + の / である + わけがない",
+    "Casual: 〜わけない / Polite: 〜わけがありません"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Strength of denial",
+    "items": [
+      {
+        "label": "〜わけではない",
+        "description": "soft: it's not that…"
+      },
+      {
+        "label": "〜とは限らない",
+        "description": "not necessarily…"
+      },
+      {
+        "label": "〜はずがない",
+        "description": "logically it cannot be…"
+      },
+      {
+        "label": "〜わけがない",
+        "description": "no way! (emotional, confident)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "あんなに練習したのに、負けるわけがない。",
+      "reading": "あんなにれんしゅうしたのに、まけるわけがない。",
+      "en": "After practicing that much, there's no way he'll lose.",
+      "note": "The reason (あんなに練習した) makes losing unthinkable."
+    },
+    {
+      "ja": "こんな難しい問題、子供にできるわけがない。",
+      "reading": "こんなむずかしいもんだい、こどもにできるわけがない。",
+      "en": "There is no way a child can solve such a difficult problem.",
+      "note": "こんな + 難しい問題 sets up the extreme case; わけがない rejects it."
+    },
+    {
+      "ja": "彼が嘘をつくわけがない。",
+      "reading": "かれがうそをつくわけがない。",
+      "en": "He would never lie.",
+      "note": "Defending someone's character: he would never lie."
+    },
+    {
+      "ja": "こんな量の宿題、一晩で終わるわけがないよ。",
+      "reading": "こんなりょうのしゅくだい、ひとばんでおわるわけがないよ。",
+      "en": "There's no way this much homework can be finished in one night.",
+      "note": "Frustrated tone; よ makes it a complaint to the listener."
+    },
+    {
+      "ja": "あの店がこんなに安いわけがない。何かの間違いだろう。",
+      "reading": "あのみせがこんなにやすいわけがない。なにかのまちがいだろう。",
+      "en": "There's no way that shop is this cheap. It must be some mistake.",
+      "note": "い-adjective + わけがない, followed by the speaker's alternative explanation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はずがない",
+      "difference": "Almost the same, but based on cool reasoning. わけがない is more emotional and colloquial."
+    },
+    {
+      "pattern": "〜わけではない",
+      "difference": "Soft, partial denial. Mixing these two up changes the meaning completely.",
+      "id": "n3-grammar-4"
+    },
+    {
+      "pattern": "〜っこない (casual)",
+      "difference": "Casual \"can't possibly\": 終わりっこない. Only with verbs."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が嘘をつくわけではない！",
+      "right": "彼が嘘をつくわけがない！",
+      "why": "For \"he would never lie!\" you need the strong わけがない. わけではない only says \"it's not that he lies\"."
+    },
+    {
+      "wrong": "できるわけがないです。(too blunt to a superior)",
+      "right": "難しいと思います。/ できないと思います。",
+      "why": "わけがない is emotional; in polite business situations soften it."
+    },
+    {
+      "wrong": "上手わけがない。",
+      "right": "上手なわけがない。",
+      "why": "な-adjective + な before わけ."
+    }
+  ],
+  "usageNotes": [
+    "Nearly identical to 〜はずがない; わけがない feels slightly more emotional/colloquial. Do not confuse with 〜わけではない (partial denial).",
+    "わけがない sounds decisive; add a reason (あんなに, こんな, 〜のに) to make it natural."
+  ],
+  "jlptTips": [
+    "Clues: あんなに〜のに, こんな, 絶対, 嘘だ. If the speaker rejects an idea completely, choose わけがない.",
+    "Pair with 〜わけではない questions: a following ただ〜だけだ means わけではない; an exclamation mark or よ often means わけがない.",
+    "In listening-style dialogue questions, わけない (dropped が) is the same pattern."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-5-1",
+    "q-n3-g-5-2",
+    "q-n3-g-5-3",
+    "q-n3-g-5-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-5-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

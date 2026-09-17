@@ -1,0 +1,137 @@
+{
+  "id": "n4-grammar-84",
+  "slug": "yasui",
+  "level": "n4",
+  "order": 84,
+  "title": "〜やすい \"easy to\"",
+  "romaji": "-yasui",
+  "meaning": "Something is easy to do, or tends to happen easily.",
+  "simpleExplanation": "V-ます stem + やすい means \"easy to do\" or \"tends to happen easily\": 読みやすい (easy to read), 分かりやすい (easy to understand), 風邪をひきやすい (catch colds easily). It turns the verb into an い-adjective, so it conjugates like one: 読みやすかった, 読みやすくない, 読みやすくて. The kana やすい here has nothing to do with 安い (cheap).",
+  "whenUsed": "Describing objects, tools, texts, people and places (使いやすい, 話しやすい人, 住みやすい町), and describing tendencies (太りやすい, 壊れやすい, 間違えやすい). Neutral register; very common in reviews and everyday evaluations.",
+  "formation": [
+    "V-ます stem + やすい: 読む → 読みやすい, 使う → 使いやすい, 分かる → 分かりやすい",
+    "Tendency: 壊れる → 壊れやすい, 太る → 太りやすい, ひく → 風邪をひきやすい",
+    "Conjugates as い-adjective: やすいです / やすかった / やすくない / やすくて / やすく (adverb)",
+    "The thing described takes が or は: この本は読みやすい",
+    "Opposite: V-ます + にくい (lesson 85)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "やすい vs にくい",
+    "columns": [
+      "Meaning",
+      "Example",
+      "Nuance"
+    ],
+    "rows": [
+      {
+        "label": "V-stem + やすい",
+        "cells": [
+          "easy to / tends to",
+          "この字は読みやすい / 風邪をひきやすい",
+          "positive ease or a natural tendency"
+        ]
+      },
+      {
+        "label": "V-stem + にくい",
+        "cells": [
+          "hard to / unlikely to",
+          "この薬は飲みにくい / 割れにくい",
+          "difficulty caused by the thing itself"
+        ]
+      },
+      {
+        "label": "V-stem + づらい (N3)",
+        "cells": [
+          "hard to (painful for the doer)",
+          "言いづらい",
+          "psychological or physical burden"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この本は字が大きくて読みやすい。",
+      "reading": "この ほんは じが おおきくて よみやすい。",
+      "en": "This book has big print and is easy to read.",
+      "note": "読む → 読みやすい, with the reason (字が大きくて) given first."
+    },
+    {
+      "ja": "先生の説明は分かりやすいです。",
+      "reading": "せんせいの せつめいは わかりやすいです。",
+      "en": "The teacher's explanations are easy to understand.",
+      "note": "分かる → 分かりやすい; a standard compliment for explanations."
+    },
+    {
+      "ja": "冬は風邪をひきやすい。",
+      "reading": "ふゆは かぜを ひきやすい。",
+      "en": "In winter you catch colds easily.",
+      "note": "Tendency: 風邪をひきやすい = catch colds easily."
+    },
+    {
+      "ja": "この靴は軽くて歩きやすいです。",
+      "reading": "この くつは かるくて あるきやすいです。",
+      "en": "These shoes are light and easy to walk in.",
+      "note": "歩く → 歩きやすい; describing a product."
+    },
+    {
+      "ja": "先生は話しやすい人なので、何でも相談できます。",
+      "reading": "せんせいは はなしやすい ひとなので、なんでも そうだんできます。",
+      "en": "The teacher is easy to talk to, so I can consult her about anything.",
+      "note": "やすい modifying a noun (話しやすい人) like any い-adjective."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にくい",
+      "difference": "The opposite: hard to do / unlikely to happen (読みにくい).",
+      "id": "n4-grammar-85"
+    },
+    {
+      "pattern": "簡単だ / 易しい",
+      "difference": "簡単 and 易しい say a task or thing is simple in general. 〜やすい attaches to a specific verb: easy to READ, easy to USE."
+    },
+    {
+      "pattern": "〜ことができる",
+      "difference": "Says whether something is possible at all, not how easy it is."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この本は読むやすい。",
+      "right": "この本は読みやすい。",
+      "why": "やすい attaches to the ます-stem."
+    },
+    {
+      "wrong": "このペンは安いで書きやすい。",
+      "right": "このペンは安くて書きやすい。",
+      "why": "安い (cheap) is a different word from やすい (easy to); join adjectives with くて."
+    },
+    {
+      "wrong": "この道は歩きやすいだった。",
+      "right": "この道は歩きやすかった。",
+      "why": "やすい is an い-adjective; the past is やすかった."
+    }
+  ],
+  "usageNotes": [
+    "The adverb form やすく appears in 分かりやすく説明する (explain clearly) and 読みやすく書く.",
+    "Tendency uses often sound negative even though the form is \"easy\": 太りやすい, 汚れやすい, 疲れやすい.",
+    "Reviews and product descriptions rely on this pattern: 使いやすい, 持ちやすい, 見やすい, 覚えやすい."
+  ],
+  "jlptTips": [
+    "Check the stem: ます-stem + やすい. Dictionary form + やすい and て-form + やすい are the standard distractors.",
+    "The reason clause tells you whether to choose やすい or にくい: 字が大きい → 読みやすい; 字が小さい → 読みにくい."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-84-1",
+    "q-n4-g-84-2",
+    "q-n4-g-84-3",
+    "q-n4-g-84-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-84-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

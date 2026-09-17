@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-40",
+  "slug": "kurai-nara",
+  "level": "n2",
+  "order": 40,
+  "title": "〜くらいなら",
+  "romaji": "kurai nara",
+  "meaning": "rather than (do something undesirable), I'd sooner ...",
+  "simpleExplanation": "〜くらいなら means \"rather than (do something that bad), I'd sooner…\". The action before it is presented as so undesirable that the speaker prefers the alternative, which is often extreme: I'd rather die than apologize to him; better not to start at all than to quit halfway.",
+  "whenUsed": "Both registers, emphatic and emotional. The verb before it is in dictionary form. The second clause typically ends in 〜ほうがましだ, 〜ほうがいい, or a strong volitional statement. It is not for neutral comparisons of preference; use より for those.",
+  "formation": [
+    "Vる + くらいなら"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼に謝る",
+        "role": "the hated option (Vる)"
+      },
+      {
+        "text": "くらいなら",
+        "role": "rather than doing that…",
+        "highlight": true
+      },
+      {
+        "text": "死んだほうがましだ",
+        "role": "preferred alternative (often extreme)"
+      }
+    ],
+    "translation": "I'd rather die than apologize to him."
+  },
+  "examples": [
+    {
+      "ja": "途中でやめるくらいなら、最初から始めないほうがいい。",
+      "reading": "とちゅうでやめるくらいなら、さいしょからはじめないほうがいい。",
+      "en": "If you're going to quit halfway, better not to start at all.",
+      "note": "Paired with 〜ほうがいい."
+    },
+    {
+      "ja": "彼に謝るくらいなら、死んだほうがましだ。",
+      "reading": "かれにあやまるくらいなら、しんだほうがましだ。",
+      "en": "I'd rather die than apologize to him.",
+      "note": "Paired with ほうがましだ, the strongest form."
+    },
+    {
+      "ja": "満員電車に乗るくらいなら、歩いて行く。",
+      "reading": "まんいんでんしゃにのるくらいなら、あるいていく。",
+      "en": "Rather than ride a packed train, I'll walk.",
+      "note": "Volitional-style alternative (歩いて行く)."
+    },
+    {
+      "ja": "あんなまずい店で食べるくらいなら、家で自分で作る。",
+      "reading": "あんなまずいみせでたべるくらいなら、いえでじぶんでつくる。",
+      "en": "Rather than eat at such a bad restaurant, I'll cook at home myself.",
+      "note": "Casual, decisive."
+    },
+    {
+      "ja": "嘘をつくくらいなら、黙っていたほうがましだ。",
+      "reading": "うそをつくくらいなら、だまっていたほうがましだ。",
+      "en": "Better to stay silent than to lie.",
+      "note": "ましだ = the lesser evil."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "Neutral comparison of preference; くらいなら carries strong distaste for the first option."
+    },
+    {
+      "pattern": "〜くらい",
+      "difference": "Base pattern for degree; くらいなら is a fixed conditional built on it.",
+      "id": "n2-grammar-39"
+    },
+    {
+      "pattern": "〜ほうがましだ",
+      "difference": "The usual partner; means \"is at least better (though not good)\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼に謝ったくらいなら、死んだほうがましだ。",
+      "right": "彼に謝るくらいなら、死んだほうがましだ。",
+      "why": "The verb before くらいなら is in dictionary form."
+    },
+    {
+      "wrong": "コーヒーを飲むくらいなら、紅茶を飲みたい。（mild preference）",
+      "right": "コーヒーより紅茶を飲みたい。",
+      "why": "くらいなら implies the first option is awful; a mild preference uses より."
+    },
+    {
+      "wrong": "途中でやめるくらいなら、最初からやめよう。（no clear alternative）",
+      "right": "途中でやめるくらいなら、最初からやらないほうがいい。",
+      "why": "The second clause must present the preferred alternative clearly."
+    }
+  ],
+  "usageNotes": [
+    "ましだ means \"the lesser of two evils\"; the alternative is not good, just less bad.",
+    "Often used in advice: 我慢するくらいなら、はっきり言ったほうがいい.",
+    "ぐらいなら is also correct."
+  ],
+  "jlptTips": [
+    "Vる + blank + ほうがましだ/ほうがいい → くらいなら.",
+    "Distractors: より, としたら, ものなら. ものなら follows a potential verb (できるものなら) and means \"if only one could\".",
+    "In 並べ替え, keep くらいなら and ほうがましだ as the two anchors and place the two actions around them."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-40-1",
+    "q-n2-g-40-2",
+    "q-n2-g-40-3",
+    "q-n2-g-40-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-40-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

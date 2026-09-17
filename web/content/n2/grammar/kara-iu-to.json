@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-27",
+  "slug": "kara-iu-to",
+  "level": "n2",
+  "order": 27,
+  "title": "〜からいうと / 〜からいえば / 〜からいって",
+  "romaji": "kara iu to / kara ieba / kara itte",
+  "meaning": "from the standpoint of, judging from",
+  "simpleExplanation": "〜からいうと / 〜からいえば / 〜からいって means \"from the standpoint of…, judging from…\". The noun before it is a criterion or angle (experience, position, results, character) and the second clause gives a judgment made from that angle.",
+  "whenUsed": "Both registers; common in opinion statements. The noun is a viewpoint or criterion (経験・立場・成績・性格・結果), not a person. To say \"from my point of view\" use 私からすると or 私にとって; 私からいうと is unnatural.",
+  "formation": [
+    "N + からいうと / からいえば / からいって"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "経験",
+        "role": "criterion / angle (not a person)"
+      },
+      {
+        "text": "からいうと",
+        "role": "judging from…",
+        "highlight": true
+      },
+      {
+        "text": "この方法が一番だ",
+        "role": "judgment"
+      }
+    ],
+    "translation": "Speaking from experience, this method is best."
+  },
+  "examples": [
+    {
+      "ja": "経験からいうと、この方法が一番だ。",
+      "reading": "けいけんからいうと、このほうほうがいちばんだ。",
+      "en": "Speaking from experience, this method is best.",
+      "note": "経験 as the criterion."
+    },
+    {
+      "ja": "立場からいえば、賛成はできない。",
+      "reading": "たちばからいえば、さんせいはできない。",
+      "en": "From my position, I cannot agree.",
+      "note": "立場 as the angle; からいえば is interchangeable."
+    },
+    {
+      "ja": "実力からいって、彼が優勝するだろう。",
+      "reading": "じつりょくからいって、かれがゆうしょうするだろう。",
+      "en": "Judging by ability, he will probably win.",
+      "note": "実力 as evidence for a prediction; からいって."
+    },
+    {
+      "ja": "健康の面からいうと、この生活は見直したほうがいい。",
+      "reading": "けんこうのめんからいうと、このせいかつはみなおしたほうがいい。",
+      "en": "From a health standpoint, you should rethink this lifestyle.",
+      "note": "〜の面からいうと = from the aspect of."
+    },
+    {
+      "ja": "彼の性格からいって、そんな嘘はつかないだろう。",
+      "reading": "かれのせいかくからいって、そんなうそはつかないだろう。",
+      "en": "Judging from his character, he wouldn't tell such a lie.",
+      "note": "からいって + conjecture."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からすると / からすれば",
+      "difference": "Can take a person as the viewpoint (親からすれば); からいうと cannot.",
+      "id": "n2-grammar-29"
+    },
+    {
+      "pattern": "〜から見ると",
+      "difference": "Nearly the same, also allows persons.",
+      "id": "n2-grammar-33"
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For (someone)\": evaluates importance to a person, not a criterion.",
+      "id": "n2-grammar-131"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私からいうと、この計画は難しい。",
+      "right": "私からすると、この計画は難しい。",
+      "why": "からいうと does not take a person; use からすると or 私の立場からいうと."
+    },
+    {
+      "wrong": "成績からいうと、彼は合格するかどうか。",
+      "right": "成績からいうと、彼は合格するだろう。",
+      "why": "The second clause should be a judgment, not an open question."
+    },
+    {
+      "wrong": "経験からいって言うと",
+      "right": "経験からいうと",
+      "why": "Do not double the verb 言う."
+    }
+  ],
+  "usageNotes": [
+    "からいって often appears with a following conjecture (だろう・に違いない).",
+    "〜の点からいうと / 〜の面からいうと are useful frames for essays.",
+    "In formal writing, からいえば sounds slightly more analytical than からいうと."
+  ],
+  "jlptTips": [
+    "A criterion noun (経験・立場・結果・点) before the blank → からいうと is safe.",
+    "If the noun is a person (親・子供・外国人), からいうと is wrong; choose からすると / から見ると.",
+    "Distractors also include にとって and として; にとって follows a person and expresses importance, として expresses role."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-27-1",
+    "q-n2-g-27-2",
+    "q-n2-g-27-3",
+    "q-n2-g-27-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-27-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

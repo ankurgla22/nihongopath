@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-18",
+  "slug": "koto-ni-naru",
+  "level": "n4",
+  "order": 18,
+  "title": "〜ことになる \"it has been decided that / it turns out that\"",
+  "romaji": "koto ni naru",
+  "meaning": "A decision or outcome made by others or by circumstances, not by the speaker's will.",
+  "simpleExplanation": "〜ことになる means \"it has been decided that\" or \"it turns out that\". The decision comes from someone else, from a group, or from circumstances, not from the speaker's own will: 大阪に転勤することになりました = it has been decided that I'll be transferred to Osaka. 〜ことになっている describes rules, customs and schedules that are already fixed: 靴を脱ぐことになっている = it is the rule to take off your shoes.",
+  "whenUsed": "Reporting company decisions, school arrangements and results of discussions. Japanese speakers also use it for personal news (結婚することになりました) to sound modest, as if the event simply came about. ことになっている is used for rules, timetables and customs.",
+  "formation": [
+    "V-dictionary + ことになる: 行くことになる, 働くことになる",
+    "V-ない + ことになる: 行かないことになる",
+    "〜ことになった / 〜ことになりました: it was decided (most common)",
+    "〜ことになっている: it is a rule / arrangement / custom",
+    "Noun + になる: 会議は金曜日になった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ことになる: who or what decided?",
+    "columns": [
+      "Form",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Decision by others / a group",
+        "cells": [
+          "〜ことになった",
+          "会議は金曜日に行うことになった"
+        ]
+      },
+      {
+        "label": "Personal news said modestly",
+        "cells": [
+          "〜ことになりました",
+          "来月、結婚することになりました"
+        ]
+      },
+      {
+        "label": "Rules, customs, schedules",
+        "cells": [
+          "〜ことになっている",
+          "家に入るとき靴を脱ぐことになっている"
+        ]
+      },
+      {
+        "label": "Speaker's own decision (contrast)",
+        "cells": [
+          "〜ことにした",
+          "会社を辞めることにした"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "来月、大阪に転勤することになりました。",
+      "reading": "らいげつ、おおさかに てんきんすることに なりました。",
+      "en": "It's been decided that I'll be transferred to Osaka next month.",
+      "note": "ことになりました: the company decided the transfer."
+    },
+    {
+      "ja": "日本では、家に入るとき靴を脱ぐことになっている。",
+      "reading": "にほんでは、いえに はいるとき くつを ぬぐことに なっている。",
+      "en": "In Japan it is the custom to take off your shoes when entering a house.",
+      "note": "ことになっている: a custom that everyone follows."
+    },
+    {
+      "ja": "会議は金曜日に行うことになった。",
+      "reading": "かいぎは きんようびに おこなうことに なった。",
+      "en": "It was decided that the meeting will be held on Friday.",
+      "note": "ことになった: the result of a group decision."
+    },
+    {
+      "ja": "来週の授業は、先生の都合で休みになることになりました。",
+      "reading": "らいしゅうの じゅぎょうは、せんせいの つごうで やすみに なることに なりました。",
+      "en": "It has been decided that next week's class will be cancelled because of the teacher's schedule.",
+      "note": "The decision is the teacher's or the school's, not the speaker's."
+    },
+    {
+      "ja": "このアパートでは、ペットを飼ってはいけないことになっています。",
+      "reading": "この アパートでは、ペットを かっては いけないことに なっています。",
+      "en": "In this apartment building, keeping pets is not allowed.",
+      "note": "ことになっている states a rule set by the building, not a personal decision."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことにする",
+      "difference": "ことにする is your own decision. ことになる is a decision made by others or by circumstances.",
+      "id": "n4-grammar-17"
+    },
+    {
+      "pattern": "〜ようになる",
+      "difference": "ようになる is a gradual change in ability or habit (話せるようになった). ことになる is a decision or arrangement.",
+      "id": "n4-grammar-14"
+    },
+    {
+      "pattern": "〜予定だ",
+      "difference": "予定だ just states a schedule (三時に出発する予定だ). ことになっている adds that it has been fixed by others or by rules."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は自分で会社を辞めることになりました。",
+      "right": "私は自分で会社を辞めることにしました。",
+      "why": "自分で (by myself) shows a personal decision, which needs ことにする."
+    },
+    {
+      "wrong": "会議は十時に始まることにしている。(a fixed schedule)",
+      "right": "会議は十時に始まることになっている。",
+      "why": "A schedule set by the organisation is ことになっている. ことにしている would mean it is the speaker's private rule."
+    },
+    {
+      "wrong": "日本では靴を脱ぐことになる。",
+      "right": "日本では靴を脱ぐことになっている。",
+      "why": "A standing custom needs the ている form. ことになる alone means a decision will come about."
+    }
+  ],
+  "usageNotes": [
+    "Even for happy personal events, ことになりました is the polite standard for announcements: 結婚することになりました, 卒業することになりました.",
+    "〜ということになる is used for logical conclusions: 三人ずつだから、六人ということになる (that makes six people).",
+    "ことになっている often translates as \"is supposed to\": 八時に集まることになっている = we are supposed to meet at eight."
+  ],
+  "jlptTips": [
+    "Cues for ことになる: 会社の命令で, 相談の結果, 先生の都合で, or a modest announcement. Cues for ことになっている: 規則で, 日本では, a rule or custom.",
+    "If the options include ことにする and ことになる, decide from context who made the decision before looking at the forms."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-18-1",
+    "q-n4-g-18-2",
+    "q-n4-g-18-3",
+    "q-n4-g-18-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-18-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

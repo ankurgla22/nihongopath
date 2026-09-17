@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-7",
+  "slug": "koto-da",
+  "level": "n3",
+  "order": 7,
+  "title": "〜ことだ",
+  "romaji": "koto da",
+  "meaning": "You should… / the thing to do is…",
+  "simpleExplanation": "〜ことだ gives advice as a plain, confident rule: \"If you want X, the thing to do is Y.\" 上手になりたいなら毎日練習することだ. It sounds like a teacher, parent, or coach speaking. With the negative, 〜ないことだ = \"the thing is not to…\".",
+  "whenUsed": "Advice from someone in a higher or more experienced position, or general life advice in writing. Not used for polite suggestions to a superior.",
+  "formation": [
+    "Verb (dictionary form) + ことだ",
+    "Verb (ない form) + ことだ",
+    "Polite: 〜ことです",
+    "Often after 〜なら / 〜たいなら / 〜ためには"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How strong is the advice?",
+    "items": [
+      {
+        "label": "〜たらどう？",
+        "description": "casual suggestion"
+      },
+      {
+        "label": "〜ほうがいい",
+        "description": "recommendation"
+      },
+      {
+        "label": "〜ことだ",
+        "description": "confident rule from experience"
+      },
+      {
+        "label": "〜べきだ",
+        "description": "duty: ought to"
+      },
+      {
+        "label": "〜なければならない",
+        "description": "obligation: must"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "上手になりたいなら、毎日練習することだ。",
+      "reading": "じょうずになりたいなら、まいにちれんしゅうすることだ。",
+      "en": "If you want to get good, you should practice every day.",
+      "note": "Condition (なりたいなら) + the one thing to do."
+    },
+    {
+      "ja": "風邪のときは、無理をしないことだ。",
+      "reading": "かぜのときは、むりをしないことだ。",
+      "en": "When you have a cold, the thing to do is not overdo it.",
+      "note": "Negative: 無理をしないことだ = the thing is not to overdo it."
+    },
+    {
+      "ja": "迷ったら、先生に相談することだ。",
+      "reading": "まよったら、せんせいにそうだんすることだ。",
+      "en": "If you're unsure, talk to your teacher.",
+      "note": "Short, decisive advice for a common situation."
+    },
+    {
+      "ja": "痩せたいなら、まず甘いものをやめることだ。",
+      "reading": "やせたいなら、まずあまいものをやめることだ。",
+      "en": "If you want to lose weight, the first thing to do is give up sweets.",
+      "note": "まず + ことだ: a clear first step."
+    },
+    {
+      "ja": "失敗しても、あきらめないことです。",
+      "reading": "しっぱいしても、あきらめないことです。",
+      "en": "Even if you fail, the important thing is not to give up.",
+      "note": "Polite 〜ことです, still confident advice."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べきだ",
+      "difference": "\"Ought to\": moral or logical duty. ことだ is practical advice from experience."
+    },
+    {
+      "pattern": "〜ほうがいい",
+      "difference": "Softer recommendation, usable with anyone. ことだ sounds like an authority."
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "States what people in general should do (a social norm). ことだ is aimed at a particular listener's goal.",
+      "id": "n3-grammar-15"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "部長、早く帰ることです。",
+      "right": "部長、早くお帰りになったほうがいいと思います。",
+      "why": "ことだ sounds like an order from above; don't use it toward a superior."
+    },
+    {
+      "wrong": "毎日練習したことだ。",
+      "right": "毎日練習することだ。",
+      "why": "Advice uses the dictionary form, not the past."
+    },
+    {
+      "wrong": "毎日練習することがある。(intended as advice)",
+      "right": "毎日練習することだ。",
+      "why": "ことがある means \"sometimes\". The advice pattern ends with だ / です."
+    }
+  ],
+  "usageNotes": [
+    "Sounds authoritative (superior to subordinate). Compare 〜べきだ (obligation, \"ought to\") and 〜ほうがいい (softer suggestion).",
+    "Adding 〜という前に or まず makes ことだ advice sound more natural."
+  ],
+  "jlptTips": [
+    "Look for 〜たいなら, 〜ためには, or a problem stated in the first sentence. If the blank is the solution, choose ことだ.",
+    "Distractors are ことがある (sometimes), ことはない (no need), ものだ (general norm). Ask: is this a goal-specific instruction?",
+    "The advice is always in dictionary or ない form; a past form before ことだ is a wrong option."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-7-1",
+    "q-n3-g-7-2",
+    "q-n3-g-7-3",
+    "q-n3-g-7-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-7-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

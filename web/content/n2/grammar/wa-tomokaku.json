@@ -1,0 +1,143 @@
+{
+  "id": "n2-grammar-142",
+  "slug": "wa-tomokaku",
+  "level": "n2",
+  "order": 142,
+  "title": "〜はともかく(として)",
+  "romaji": "wa tomokaku (to shite)",
+  "meaning": "setting aside, leaving aside, regardless of",
+  "simpleExplanation": "〜はともかく(として) means \"leaving X aside for now\": the speaker acknowledges X is a possible issue but wants to focus on the more important Y. 味はともかく、見た目はきれいだ (taste aside, it looks nice). The implication is often that X is questionable while Y is fine, or that X is not the point.",
+  "whenUsed": "Both speech and writing, neutral register. Very common in conversation for steering the topic. 〜はともかくとして is a slightly more careful form. Set phrases: それはともかく (anyway), 冗談はともかく (joking aside).",
+  "formation": [
+    "Noun + はともかく(として)",
+    "Question clause + かはともかく (行くかどうかはともかく)",
+    "Sentence-initial: それはともかく (anyway, leaving that aside)",
+    "Second clause: the more important point, often with は for contrast"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜はともかく",
+      "〜は抜きにして",
+      "〜はさておき"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "set aside X (possibly a problem) to focus on Y",
+          "remove X from the conversation",
+          "put X aside (formal, literary)"
+        ]
+      },
+      {
+        "label": "Implication",
+        "cells": [
+          "X may be doubtful; Y matters more",
+          "X is unwanted for now",
+          "X will be dealt with later"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "neutral",
+          "neutral, conversational",
+          "written, somewhat old-fashioned"
+        ]
+      }
+    ],
+    "title": "Setting things aside"
+  },
+  "examples": [
+    {
+      "ja": "味はともかく、見た目はきれいだ。",
+      "reading": "あじはともかく、みためはきれいだ。",
+      "en": "Taste aside, it looks nice.",
+      "note": "Taste is questionable; appearance is praised."
+    },
+    {
+      "ja": "結果はともかくとして、よく頑張った。",
+      "reading": "けっかはともかくとして、よくがんばった。",
+      "en": "Whatever the result, you did your best.",
+      "note": "Result aside, effort is praised: consolation."
+    },
+    {
+      "ja": "冗談はともかく、本題に入りましょう。",
+      "reading": "じょうだんはともかく、ほんだいにはいりましょう。",
+      "en": "Joking aside, let's get to the main topic.",
+      "note": "冗談はともかく: joking aside, a set phrase."
+    },
+    {
+      "ja": "値段はともかく、このデザインは気に入った。",
+      "reading": "ねだんはともかく、このデザインはきにいった。",
+      "en": "Price aside, I like this design.",
+      "note": "X (price) may be a problem; Y (design) is the point."
+    },
+    {
+      "ja": "それはともかく、今日の予定を確認しよう。",
+      "reading": "それはともかく、きょうのよていをかくにんしよう。",
+      "en": "Anyway, let's check today's schedule.",
+      "note": "Sentence-initial set phrase to change the subject."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜は抜きにして",
+      "difference": "\"Leaving X out\": removes X from the discussion rather than acknowledging it as secondary.",
+      "id": "n2-grammar-135"
+    },
+    {
+      "pattern": "〜はさておき",
+      "difference": "Same idea, more literary or formal."
+    },
+    {
+      "pattern": "〜にかかわらず",
+      "difference": "\"Regardless of\": a rule that ignores a variable; not a topic-steering device.",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜はもちろん",
+      "difference": "Opposite structure: X is taken for granted and Y is added.",
+      "id": "n2-grammar-143"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "味がともかく、見た目はきれいだ。",
+      "right": "味はともかく、見た目はきれいだ。",
+      "why": "The particle is は, marking X as the topic being set aside."
+    },
+    {
+      "wrong": "彼はともかく行った。(intending 'anyway he went')",
+      "right": "彼はとにかく行った。",
+      "why": "とにかく (anyway, at any rate) is an adverb; ともかく in this pattern needs a topic before it."
+    },
+    {
+      "wrong": "結果はともかくとして、結果がよかった。",
+      "right": "結果はともかくとして、よく頑張った。",
+      "why": "Y should be something other than X; setting X aside and then discussing X is contradictory."
+    }
+  ],
+  "usageNotes": [
+    "Often the second clause has は for contrast: 味はともかく、値段は…",
+    "それはともかく / 冗談はともかく / 何はともかく are common openers.",
+    "Adding として makes it slightly more deliberate and formal."
+  ],
+  "jlptTips": [
+    "If the sentence contrasts two aspects and the first is dismissed as less important, はともかく is the answer.",
+    "Set phrases それはともかく and 冗談はともかく appear in listening; they signal a topic change.",
+    "Distractors include はもちろん (added, not set aside) and にかかわらず (rule)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-142-1",
+    "q-n2-g-142-2",
+    "q-n2-g-142-3",
+    "q-n2-g-142-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-142-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "n4-grammar-15",
+  "slug": "you-ni-suru",
+  "level": "n4",
+  "order": 15,
+  "title": "〜ようにする \"make an effort to / make sure to\"",
+  "romaji": "you ni suru",
+  "meaning": "Trying to make a habit of something, or deliberately arranging for a result.",
+  "simpleExplanation": "〜ようにする means \"make an effort to\" or \"make sure that\". You attach it to a verb to say you deliberately try to do (or not do) something: 野菜を食べるようにする = I make a point of eating vegetables. With 〜ている (ようにしている) it becomes an ongoing habit you keep working at. With 〜てください (ようにしてください) it is a gentle request that asks the listener to keep something in mind, not just to do it once.",
+  "whenUsed": "Talking about health habits, good resolutions and rules you set yourself (早く寝るようにしています), and for soft instructions from teachers, doctors and bosses (遅れないようにしてください). It is common in both casual and polite speech.",
+  "formation": [
+    "V-dictionary + ようにする: 食べるようにする, 運動するようにする",
+    "V-ない + ようにする: 忘れないようにする, 遅刻しないようにする",
+    "〜ようにしている: an effort that is ongoing (a habit you try to keep)",
+    "〜ようにしてください: a soft request to keep doing / not doing something",
+    "Past: 〜ようにした (I arranged it so that…)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "毎日野菜を食べる",
+        "en": "eat vegetables every day (a plain action)"
+      },
+      {
+        "ja": "毎日野菜を食べるようにする",
+        "en": "make an effort to eat vegetables every day (a decision to try)"
+      },
+      {
+        "ja": "毎日野菜を食べるようにしている",
+        "en": "I make a point of eating vegetables every day (ongoing habit)"
+      },
+      {
+        "ja": "毎日野菜を食べるようにしてください",
+        "en": "please make sure you eat vegetables every day (soft request)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "毎日、野菜を食べるようにしています。",
+      "reading": "まいにち、やさいを たべるように しています。",
+      "en": "I make a point of eating vegetables every day.",
+      "note": "ようにしている: an effort the speaker keeps up as a habit."
+    },
+    {
+      "ja": "遅刻しないようにしてください。",
+      "reading": "ちこくしないように してください。",
+      "en": "Please make sure you are not late.",
+      "note": "ない + ようにしてください: a gentle request to avoid something, softer than 遅刻しないでください."
+    },
+    {
+      "ja": "忘れないようにメモした。",
+      "reading": "わすれないように メモした。",
+      "en": "I made a note so I wouldn't forget.",
+      "note": "Past ようにした: the speaker arranged things (made a note) to make sure of a result."
+    },
+    {
+      "ja": "健康のために、エレベーターを使わないで階段を使うようにしています。",
+      "reading": "けんこうのために、エレベーターを つかわないで かいだんを つかうように しています。",
+      "en": "For my health, I make a point of using the stairs instead of the lift.",
+      "note": "ようにしている shows a rule the speaker follows on purpose; it is an effort, not something that just happened."
+    },
+    {
+      "ja": "この薬は毎朝、食事の後に飲むようにしてください。",
+      "reading": "この くすりは まいあさ、しょくじの あとに のむように してください。",
+      "en": "Please make sure you take this medicine every morning after your meal.",
+      "note": "A doctor's instruction: ようにしてください asks for continued care, not a single action."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "ようになる is a change that happens to you (話せるようになった = I became able to speak). ようにする is an effort you make on purpose.",
+      "id": "n4-grammar-14"
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "ことにする announces a decision (行かないことにした = I decided not to go). ようにする is about trying and keeping it up, with less certainty of success.",
+      "id": "n4-grammar-17"
+    },
+    {
+      "pattern": "〜ように (purpose)",
+      "difference": "ように alone links a goal to an action (忘れないようにメモする). ようにする turns the effort itself into the main verb.",
+      "id": "n4-grammar-16"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎日運動しようにしています。",
+      "right": "毎日運動するようにしています。",
+      "why": "ようにする attaches to the dictionary form, not the volitional. しよう + に is not a pattern."
+    },
+    {
+      "wrong": "日本語が話せるようにしました。(meaning \"I became able to speak\")",
+      "right": "日本語が話せるようになりました。",
+      "why": "A change in ability is not something you do on purpose; use ようになる. ようにする would mean you arranged for it."
+    },
+    {
+      "wrong": "先生、忘れないようにしなさい。",
+      "right": "先生、忘れないようにしてください。",
+      "why": "なさい is a command from above. To a superior use the request form ようにしてください or お忘れにならないようにお願いします."
+    }
+  ],
+  "usageNotes": [
+    "ようにしている (present, continuing) is far more common than the plain ようにする when you describe your own habits.",
+    "〜ないようにする is often used for things you want to avoid: 風邪をひかないようにする, 食べすぎないようにする.",
+    "ようにしてください sounds softer than てください because it asks the listener to be careful over time rather than to act right now."
+  ],
+  "jlptTips": [
+    "If the sentence describes a deliberate habit (毎日, できるだけ, なるべく) and the blank ends the sentence with しています, choose ようにしています, not ようになっています.",
+    "Distractors usually pair ようにする with ようになる. Ask: is the subject trying (する) or did something change (なる)? Also watch the form before よう: it must be the dictionary or ない-form, never volitional or ます-stem."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-15-1",
+    "q-n4-g-15-2",
+    "q-n4-g-15-3",
+    "q-n4-g-15-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-15-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

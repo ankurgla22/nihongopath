@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-188",
+  "slug": "teki",
+  "level": "n2",
+  "order": 188,
+  "title": "〜的",
+  "romaji": "-teki",
+  "meaning": "-ic, -al, -like (turns a noun into a na-adjective)",
+  "simpleExplanation": "〜的 attaches to (mostly Sino-Japanese) nouns to make な-adjectives: 積極的 (active), 経済的 (economic), 現実的 (realistic). It means \"relating to / having the character of\". 〜的な + noun, 〜的に + verb. In casual speech, 私的には (as for me) is a newer, informal use.",
+  "whenUsed": "Everywhere, especially in writing and formal speech; it is one of the most productive suffixes. Some words are so common that they feel like ordinary adjectives (基本的, 具体的, 一般的).",
+  "formation": [
+    "Noun + 的 (な-adjective)",
+    "〜的な + Noun / 〜的に + Verb / 〜的だ",
+    "Common: 積極的・消極的・具体的・基本的・一般的・現実的・伝統的・国際的",
+    "Casual: 私的には (as for me), 気持ち的に (feeling-wise)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "経済",
+    "branches": [
+      {
+        "suffix": "的だ",
+        "result": "経済的だ",
+        "label": "is economical / economic"
+      },
+      {
+        "suffix": "的な",
+        "result": "経済的な理由",
+        "label": "economic reasons (before a noun)"
+      },
+      {
+        "suffix": "的に",
+        "result": "経済的に苦しい",
+        "label": "economically (before a predicate)"
+      }
+    ],
+    "rootLabel": "Sino-Japanese noun"
+  },
+  "examples": [
+    {
+      "ja": "彼は積極的に意見を言う。",
+      "reading": "かれはせっきょくてきにいけんをいう。",
+      "en": "He expresses his opinions actively.",
+      "note": "的に before a verb: actively."
+    },
+    {
+      "ja": "経済的な理由で留学をあきらめた。",
+      "reading": "けいざいてきなりゆうでりゅうがくをあきらめた。",
+      "en": "I gave up studying abroad for economic reasons.",
+      "note": "的な before a noun: economic reasons."
+    },
+    {
+      "ja": "その計画は現実的ではない。",
+      "reading": "そのけいかくはげんじつてきではない。",
+      "en": "That plan is not realistic.",
+      "note": "的ではない: negative of a な-adjective."
+    },
+    {
+      "ja": "もっと具体的に説明してください。",
+      "reading": "もっとぐたいてきにせつめいしてください。",
+      "en": "Please explain more concretely.",
+      "note": "具体的に: one of the most common uses."
+    },
+    {
+      "ja": "この町には伝統的な建物が多く残っている。",
+      "reading": "このまちにはでんとうてきなたてものがおおくのこっている。",
+      "en": "Many traditional buildings remain in this town.",
+      "note": "伝統的な + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜らしい",
+      "difference": "\"Typical of\"; attaches to native nouns as well (男らしい)."
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "Casual '-ish'; 的 is formal and neutral.",
+      "id": "n2-grammar-187"
+    },
+    {
+      "pattern": "〜性",
+      "difference": "Makes abstract nouns (-ness), not adjectives.",
+      "id": "n2-grammar-189"
+    },
+    {
+      "pattern": "〜風",
+      "difference": "\"-style\" (appearance).",
+      "id": "n2-grammar-191"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "積極的の人",
+      "right": "積極的な人",
+      "why": "的 makes a な-adjective; use な before nouns."
+    },
+    {
+      "wrong": "積極的で意見を言う。(as an adverb)",
+      "right": "積極的に意見を言う。",
+      "why": "Use に for the adverbial form."
+    },
+    {
+      "wrong": "日本的な人 (meaning 'a Japanese person')",
+      "right": "日本人",
+      "why": "的 means 'Japanese-style / characteristic of Japan', not nationality."
+    }
+  ],
+  "usageNotes": [
+    "Reading is always てき.",
+    "Some 的 words have opposite pairs: 積極的 / 消極的, 主観的 / 客観的, 具体的 / 抽象的.",
+    "私的 (してき) means 'private', contrasting with 公的 (こうてき)."
+  ],
+  "jlptTips": [
+    "Questions test the conjugation: 的な before nouns, 的に before predicates.",
+    "Vocabulary questions pair 的 words with their opposites; learn the pairs.",
+    "Do not confuse 的 (character) with 性 (abstract quality) or 化 (change)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-188-1",
+    "q-n2-g-188-2",
+    "q-n2-g-188-3",
+    "q-n2-g-188-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-188-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

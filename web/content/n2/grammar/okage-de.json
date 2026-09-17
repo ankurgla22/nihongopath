@@ -1,0 +1,134 @@
+{
+  "id": "n2-grammar-12",
+  "slug": "okage-de",
+  "level": "n2",
+  "order": 12,
+  "title": "〜おかげで",
+  "romaji": "okage de",
+  "meaning": "thanks to (positive cause)",
+  "simpleExplanation": "〜おかげで means \"thanks to…\". It names the cause of a good result and expresses gratitude: thanks to my teacher, I passed. When used with a bad result it becomes sarcastic (\"thanks to you, I was late\").",
+  "whenUsed": "Both registers. おかげさまで is the fixed polite reply (\"thanks to you / fortunately\"). The opposite, 〜せいで, blames a cause for a bad result. おかげで attaches like a noun: N + の, な-adjective + な, verbs and い-adjectives in plain form.",
+  "formation": [
+    "V普通形 + おかげで / Aい + おかげで / Aな + な + おかげで / N + の + おかげで"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Cause + evaluation",
+    "columns": [
+      "Pattern",
+      "Result",
+      "Feeling"
+    ],
+    "rows": [
+      {
+        "label": "〜おかげで",
+        "cells": [
+          "先生のおかげで合格した",
+          "good",
+          "gratitude"
+        ]
+      },
+      {
+        "label": "〜せいで",
+        "cells": [
+          "寝不足のせいで失敗した",
+          "bad",
+          "blame"
+        ]
+      },
+      {
+        "label": "〜ために",
+        "cells": [
+          "雨のために中止になった",
+          "either",
+          "neutral"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "先生のおかげで、試験に合格できました。",
+      "reading": "せんせいのおかげで、しけんにごうかくできました。",
+      "en": "Thanks to my teacher, I passed the exam.",
+      "note": "N + の + おかげで."
+    },
+    {
+      "ja": "天気がよかったおかげで、楽しい旅行になった。",
+      "reading": "てんきがよかったおかげで、たのしいりょこうになった。",
+      "en": "Thanks to the good weather, it was an enjoyable trip.",
+      "note": "い-adjective in plain past + おかげで."
+    },
+    {
+      "ja": "君が手伝ってくれたおかげで、早く終わった。",
+      "reading": "きみがてつだってくれたおかげで、はやくおわった。",
+      "en": "Thanks to your help, we finished early.",
+      "note": "Vて くれた + おかげで: gratitude toward the helper."
+    },
+    {
+      "ja": "おかげさまで、無事に退院しました。",
+      "reading": "おかげさまで、ぶじにたいいんしました。",
+      "en": "Thankfully, I have been discharged from hospital safely.",
+      "note": "Set phrase; no specific benefactor is named."
+    },
+    {
+      "ja": "君がのんびりしていたおかげで、電車に乗り遅れたよ。",
+      "reading": "きみがのんびりしていたおかげで、でんしゃにのりおくれたよ。",
+      "en": "Thanks to your dawdling, we missed the train.",
+      "note": "Sarcastic use."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜せいで",
+      "difference": "Blames the cause for a bad result. Same attachment rules.",
+      "id": "n2-grammar-59"
+    },
+    {
+      "pattern": "〜ために",
+      "difference": "Neutral cause, no evaluation; formal."
+    },
+    {
+      "pattern": "〜おかげか",
+      "difference": "Softens the cause to a guess: \"perhaps thanks to\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生おかげで、合格した。",
+      "right": "先生のおかげで、合格した。",
+      "why": "Nouns need の before おかげ."
+    },
+    {
+      "wrong": "薬を飲んだおかげで、気分が悪くなった。",
+      "right": "薬を飲んだせいで、気分が悪くなった。",
+      "why": "A bad result takes せいで unless you intend sarcasm."
+    },
+    {
+      "wrong": "親切なおかげで、助かった。",
+      "right": "皆さんが親切だったおかげで、助かった。",
+      "why": "おかげで needs a clear cause; a bare adjective without a subject sounds incomplete."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final form: 合格できたのは先生のおかげだ.",
+    "おかげさまで is used even when the listener did nothing; it is simply polite.",
+    "The clause after おかげで is usually past or a present state that has resulted."
+  ],
+  "jlptTips": [
+    "Read the result clause first: good result + gratitude → おかげで; bad result → せいで.",
+    "Distractors: せいで, ために, ばかりに. ばかりに always leads to a bad outcome.",
+    "Watch the attachment: N + の, Aな + な (an option missing な is a trap)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-12-1",
+    "q-n2-g-12-2",
+    "q-n2-g-12-3",
+    "q-n2-g-12-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-12-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

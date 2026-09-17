@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-184",
+  "slug": "te-made",
+  "level": "n2",
+  "order": 184,
+  "title": "〜てまで / 〜までして",
+  "romaji": "te made / made shite",
+  "meaning": "even going so far as to (an extreme measure, usually criticized)",
+  "simpleExplanation": "〜てまで means \"going as far as doing X (to achieve Y)\": 借金をしてまで車を買いたいとは思わない. It marks X as an extreme, excessive means, and the speaker usually rejects or criticizes it. 〜までして attaches to nouns and means the same: 徹夜までして (even staying up all night).",
+  "whenUsed": "Both speech and writing; common in expressions of disapproval or refusal. The main clause often ends with 〜たくない / 〜ことはない / 〜べきではない / 〜のか (rhetorical).",
+  "formation": [
+    "Verb (て-form) + まで + (purpose or result)",
+    "Noun (action noun) + までして (徹夜までして / 借金までして)",
+    "Main clause: 〜たくない / 〜必要はない / 〜べきではない / 〜のか"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Extremes of effort",
+    "items": [
+      {
+        "label": "〜て",
+        "description": "just doing X"
+      },
+      {
+        "label": "〜てでも",
+        "description": "even if it takes X (determination, positive)"
+      },
+      {
+        "label": "〜てまで",
+        "description": "going so far as X (excessive, criticized)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "借金をしてまで、車を買いたいとは思わない。",
+      "reading": "しゃっきんをしてまで、くるまをかいたいとはおもわない。",
+      "en": "I don't want a car so badly that I'd go into debt for it.",
+      "note": "Rejecting an extreme means: going into debt."
+    },
+    {
+      "ja": "徹夜までして仕上げたのに、評価されなかった。",
+      "reading": "てつやまでしてしあげたのに、ひょうかされなかった。",
+      "en": "I even stayed up all night to finish it, yet it was not appreciated.",
+      "note": "までして with a noun: staying up all night (extreme effort, unrewarded)."
+    },
+    {
+      "ja": "人をだましてまで金を稼ぎたいのか。",
+      "reading": "ひとをだましてまでかねをかせぎたいのか。",
+      "en": "Do you want money so badly that you would deceive people?",
+      "note": "A rhetorical question criticizing an extreme means."
+    },
+    {
+      "ja": "健康を犠牲にしてまで働く必要はない。",
+      "reading": "けんこうをぎせいにしてまではたらくひつようはない。",
+      "en": "There is no need to work to the point of sacrificing your health.",
+      "note": "〜必要はない rejects the extreme."
+    },
+    {
+      "ja": "嘘をついてまで自分を守ろうとする彼が信じられない。",
+      "reading": "うそをついてまでじぶんをまもろうとするかれがしんじられない。",
+      "en": "I cannot believe he would go so far as to lie to protect himself.",
+      "note": "Criticism of an extreme measure."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てでも",
+      "difference": "\"Even if it takes X\": positive determination (借金をしてでも買う); てまで is disapproving."
+    },
+    {
+      "pattern": "〜まで (even)",
+      "difference": "Plain 'even' after nouns; てまで adds 'as a means'.",
+      "id": "n2-grammar-180"
+    },
+    {
+      "pattern": "〜さえ",
+      "difference": "\"Even\" as an extreme example, not a means.",
+      "id": "n2-grammar-180"
+    },
+    {
+      "pattern": "〜ほど",
+      "difference": "Degree; not a means.",
+      "id": "n2-grammar-147"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "借金をしてまで、車を買った。(neutral report)",
+      "right": "借金をしてまで、車を買いたいとは思わない。",
+      "why": "てまで normally comes with rejection or criticism; a neutral report sounds incomplete."
+    },
+    {
+      "wrong": "徹夜してまでして",
+      "right": "徹夜してまで / 徹夜までして",
+      "why": "Do not combine both forms."
+    },
+    {
+      "wrong": "借金をしてでも買いたくない。",
+      "right": "借金をしてまで買いたくない。",
+      "why": "てでも expresses determination; with a negative wish, use てまで."
+    }
+  ],
+  "usageNotes": [
+    "The speaker's judgment is usually 'not worth it'.",
+    "までして is useful with nouns like 徹夜, 借金, 無理.",
+    "In questions: 〜てまで〜のか (do you really have to go that far?)."
+  ],
+  "jlptTips": [
+    "If the main clause is a negative wish or a rhetorical question and the て-form precedes the blank, choose てまで.",
+    "Distinguish from てでも (positive determination) by the main clause.",
+    "Distractors include さえ, ほど, ばかり. Only てまで marks an excessive means."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-184-1",
+    "q-n2-g-184-2",
+    "q-n2-g-184-3",
+    "q-n2-g-184-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-184-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-119",
+  "slug": "ni-soui-nai",
+  "level": "n2",
+  "order": 119,
+  "title": "〜に相違ない",
+  "romaji": "ni soui nai",
+  "meaning": "there is no doubt that, must be (formal written certainty)",
+  "simpleExplanation": "〜に相違ない means \"there is no doubt that X\". It is the stiff, written equivalent of 〜に違いない: the speaker concludes with confidence from evidence. It appears in detective fiction, legal language, and formal reports, and sounds old-fashioned or literary in speech.",
+  "whenUsed": "Written Japanese only: reports, novels, formal statements (犯人は内部の者に相違ない). In everyday conversation use に違いない, きっと〜だろう, or に決まっている. The set phrase 相違ありません is used in documents to certify \"this is correct\".",
+  "formation": [
+    "Noun + に相違ない",
+    "な-adjective + (である) + に相違ない",
+    "Verb / い-adjective (plain form) + に相違ない",
+    "Polite: 〜に相違ありません / 〜に相違ございません"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "From guess to certainty (formal register)",
+    "items": [
+      {
+        "label": "〜だろう / 〜と思われる",
+        "description": "probably / it is thought"
+      },
+      {
+        "label": "〜はずだ",
+        "description": "should be (expected from facts)"
+      },
+      {
+        "label": "〜に違いない",
+        "description": "must be (evidence-based, fairly formal)"
+      },
+      {
+        "label": "〜に相違ない",
+        "description": "must be (stiff, written, literary)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この絵は本物に相違ない。",
+      "reading": "このえはほんものにそういない。",
+      "en": "This painting is undoubtedly genuine.",
+      "note": "A confident judgment about authenticity; written or formal spoken."
+    },
+    {
+      "ja": "犯人は内部の者に相違ない。",
+      "reading": "はんにんはないぶのものにそういない。",
+      "en": "The culprit must be an insider.",
+      "note": "Detective-story style conclusion."
+    },
+    {
+      "ja": "彼が言ったことは事実に相違ない。",
+      "reading": "かれがいったことはじじつにそういない。",
+      "en": "What he said is without doubt true.",
+      "note": "Certifying a statement as fact."
+    },
+    {
+      "ja": "この署名は本人のものに相違ありません。",
+      "reading": "このしょめいはほんにんのものにそういありません。",
+      "en": "This signature is without doubt the person's own.",
+      "note": "Polite form used in formal or legal confirmation."
+    },
+    {
+      "ja": "これほどの準備をしたのだから、成功するに相違ない。",
+      "reading": "これほどのじゅんびをしたのだから、せいこうするにそういない。",
+      "en": "Having prepared this much, it will surely succeed.",
+      "note": "Verb + に相違ない in formal writing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に違いない",
+      "difference": "Same meaning, usable in speech and writing; the default choice.",
+      "id": "n2-grammar-122"
+    },
+    {
+      "pattern": "〜に決まっている",
+      "difference": "Subjective, emotional certainty; casual.",
+      "id": "n2-grammar-107"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "Expectation from known facts; weaker and neutral."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "「明日は雨に相違ないよ。」(in casual chat)",
+      "right": "「明日は雨に違いないよ。」/「明日はきっと雨だよ。」",
+      "why": "に相違ない is too stiff for casual conversation."
+    },
+    {
+      "wrong": "犯人は彼だに相違ない。",
+      "right": "犯人は彼に相違ない。",
+      "why": "Nouns attach directly, without だ."
+    },
+    {
+      "wrong": "上記の内容に相違ないです。",
+      "right": "上記の内容に相違ありません。",
+      "why": "In documents the polite form is 相違ありません, not 相違ないです."
+    }
+  ],
+  "usageNotes": [
+    "相違 (そうい) means \"difference\"; the pattern literally says \"there is no difference from X\".",
+    "Documents: 上記のとおり相違ありません (\"the above is correct\").",
+    "Also appears as 〜に相違なく (adverbial) in very formal writing."
+  ],
+  "jlptTips": [
+    "If the passage is formal or literary and the answer choices include に違いない and に相違ない, both may be grammatical; pick に相違ない when the register is stiff.",
+    "Check the connection: noun + に相違ない without だ.",
+    "Know the document phrase 相違ありません; it appears in reading and listening about forms."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-119-1",
+    "q-n2-g-119-2",
+    "q-n2-g-119-3",
+    "q-n2-g-119-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-119-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

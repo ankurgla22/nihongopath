@@ -1,0 +1,129 @@
+{
+  "id": "n2-grammar-197",
+  "slug": "koto-wa-ga",
+  "level": "n2",
+  "order": 197,
+  "title": "〜ことは〜が",
+  "romaji": "koto wa … ga",
+  "meaning": "it is true that …, but",
+  "simpleExplanation": "X ことは X が repeats the same word to concede a point before adding a reservation: 読んだことは読んだが、内容は覚えていない (I did read it, but I don't remember the content). The first X is the same verb or adjective as the second. It admits the fact while implying it is not fully satisfactory.",
+  "whenUsed": "Mainly spoken, casual to polite. Common in honest, slightly reluctant answers. In writing, 〜ものの or 確かに〜が are used instead.",
+  "formation": [
+    "Verb X (plain) + ことは + Verb X + が / けど",
+    "い-adjective X + ことは + X + が",
+    "な-adjective X な + ことは + X だ + が",
+    "Tense: past on both (読んだことは読んだ) or on the second only (読むことは読んだ)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この本は読んだ",
+        "role": "the concession (same word)"
+      },
+      {
+        "text": "ことは",
+        "role": "it is true that",
+        "highlight": true
+      },
+      {
+        "text": "読んだが",
+        "role": "same word again + が"
+      },
+      {
+        "text": "、内容はよく覚えていない",
+        "role": "the reservation"
+      }
+    ],
+    "translation": "I did read this book, but I don't remember the content well."
+  },
+  "examples": [
+    {
+      "ja": "この本は読んだことは読んだが、内容はよく覚えていない。",
+      "reading": "このほんはよんだことはよんだが、ないようはよくおぼえていない。",
+      "en": "I did read this book, but I don't remember the content well.",
+      "note": "Concession about reading, then a reservation."
+    },
+    {
+      "ja": "料理はおいしいことはおいしいが、値段が高すぎる。",
+      "reading": "りょうりはおいしいことはおいしいが、ねだんがたかすぎる。",
+      "en": "The food is good, sure, but the price is too high.",
+      "note": "Adjective repeated: tasty, sure, but expensive."
+    },
+    {
+      "ja": "行くことは行くけど、遅くなるよ。",
+      "reading": "いくことはいくけど、おそくなるよ。",
+      "en": "I will go, all right, but I'll be late.",
+      "note": "Casual けど; a reluctant yes."
+    },
+    {
+      "ja": "彼に会ったことは会ったが、ほとんど話せなかった。",
+      "reading": "かれにあったことはあったが、ほとんどはなせなかった。",
+      "en": "I did meet him, but we could hardly talk.",
+      "note": "Past on both sides."
+    },
+    {
+      "ja": "この部屋は広いことは広いけど、駅から遠い。",
+      "reading": "このへやはひろいことはひろいけど、えきからとおい。",
+      "en": "The room is spacious, sure, but far from the station.",
+      "note": "い-adjective repeated."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものの",
+      "difference": "\"Although\": written concession without the repeated word.",
+      "id": "n2-grammar-159"
+    },
+    {
+      "pattern": "確かに〜が",
+      "difference": "\"It is true that… but\": no repetition; neutral."
+    },
+    {
+      "pattern": "〜には〜が",
+      "difference": "Similar repetition pattern (行くには行くが); slightly more formal."
+    },
+    {
+      "pattern": "〜けど",
+      "difference": "Plain 'but'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読んだことはあるが",
+      "right": "読んだことは読んだが",
+      "why": "ことはある is the experience pattern; the concession needs the verb repeated."
+    },
+    {
+      "wrong": "読んだことは食べたが",
+      "right": "読んだことは読んだが",
+      "why": "Both sides must be the same word."
+    },
+    {
+      "wrong": "読んだことは読んだ。(no reservation)",
+      "right": "読んだことは読んだが、覚えていない。",
+      "why": "The pattern needs a following が / けど clause."
+    }
+  ],
+  "usageNotes": [
+    "The reservation usually starts with が / けど / でも.",
+    "Both slots can be polite: 読みましたことは… is odd; keep plain forms inside and make the ending polite.",
+    "It often answers a yes/no question honestly but reluctantly."
+  ],
+  "jlptTips": [
+    "Look for the same word on both sides of ことは; that is the signature.",
+    "Distractors include ことがある (experience) and ものの. If the word repeats, choose ことは.",
+    "In 並べ替え, put the repeated word before and after ことは."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-197-1",
+    "q-n2-g-197-2",
+    "q-n2-g-197-3",
+    "q-n2-g-197-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-197-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

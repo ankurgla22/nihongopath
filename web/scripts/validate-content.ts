@@ -100,7 +100,38 @@ if (fs.existsSync(curriculumFile)) {
   }
 }
 for (const { from, qid } of refs) if (!questionIds.has(qid)) errors.push(`${from} references missing question ${qid}`);
-for (const q of questions) if (q.answerIndex >= q.options.length) errors.push(`${q.id}: answerIndex out of range`);
+for (const q of questions) {
+  if (q.answerIndex >= q.options.length) errors.push(`${q.id}: answerIndex out of range`);
+  if (new Set(q.options).size !== q.options.length) errors.push(`${q.id}: duplicate options`);
+  if (q.options.some((o: string) => !o.trim())) errors.push(`${q.id}: empty option`);
+  // Ordering questions: the ★ slot in the prompt must match the keyed option, given the "Full order: a b c d →" in the explanation.
+  if (q.type === "ordering") {
+    const m = /Full order:\s*(.+?)\s*→/.exec(q.explanation);
+    const slots = [...q.prompt.matchAll(/★|＿＿|＿/g)].map((x) => x[0]);
+    const starPos = slots.indexOf("★");
+    if (m && starPos >= 0 && slots.length === 4) {
+      const optSet = new Set<string>(q.options);
+      const order = m[1].trim().split(/\s+/).filter((t) => optSet.has(t));
+      if (order.length === 4 && new Set(order).size === 4 && order[starPos] !== q.options[q.answerIndex]) {
+        errors.push(`${q.id}: ★ slot (${order[starPos]}) does not match keyed option (${q.options[q.answerIndex]})`);
+      }
+    }
+  }
+}
+// Comparison diagrams must have one cell per column (the row label is rendered separately).
+for (const level of ["n5", "n4", "n3", "n2", "n1"]) {
+  const dir = path.join(CONTENT, level, "grammar");
+  if (!fs.existsSync(dir)) continue;
+  for (const f of fs.readdirSync(dir)) {
+    const g = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+    if (g.diagram?.kind === "comparison") {
+      const n = g.diagram.columns.length;
+      g.diagram.rows.forEach((r: { cells: string[] }, i: number) => {
+        if (r.cells.length !== n) errors.push(`${g.id}: comparison row ${i} has ${r.cells.length} cells for ${n} columns`);
+      });
+    }
+  }
+}
 
 for (const w of warnings.slice(0, 20)) console.warn(" ! " + w);
 if (errors.length) {

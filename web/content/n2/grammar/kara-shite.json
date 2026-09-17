@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-28",
+  "slug": "kara-shite",
+  "level": "n2",
+  "order": 28,
+  "title": "〜からして",
+  "romaji": "kara shite",
+  "meaning": "even just ..., starting with ...; judging from",
+  "simpleExplanation": "〜からして means \"even just…, starting with…\" or \"judging from…\". It picks out one obvious example (the atmosphere, the name, the attitude) and implies that if even that is so, the rest must be too. The tone is often critical.",
+  "whenUsed": "Both registers, common in spoken evaluations. The noun is a representative first item (外見・名前・態度・値段・言い方). Two readings coexist: \"even X (let alone the rest)\" and \"judging from X\". In neutral inference, からすると is more common.",
+  "formation": [
+    "N + からして"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この店は雰囲気",
+        "role": "one obvious feature"
+      },
+      {
+        "text": "からして",
+        "role": "even just that / judging from that",
+        "highlight": true
+      },
+      {
+        "text": "高級そうだ",
+        "role": "conclusion about the whole"
+      }
+    ],
+    "translation": "Judging even by the atmosphere alone, this shop looks high-end."
+  },
+  "examples": [
+    {
+      "ja": "この店は雰囲気からして高級そうだ。",
+      "reading": "このみせはふんいきからしてこうきゅうそうだ。",
+      "en": "Judging even by the atmosphere alone, this shop looks high-end.",
+      "note": "Judging from one feature."
+    },
+    {
+      "ja": "名前からして外国人だと分かる。",
+      "reading": "なまえからしてがいこくじんだとわかる。",
+      "en": "You can tell from the name alone that the person is foreign.",
+      "note": "The name alone tells you."
+    },
+    {
+      "ja": "彼は態度からして生意気だ。",
+      "reading": "かれはたいどからしてなまいきだ。",
+      "en": "Starting with his attitude, he is cheeky.",
+      "note": "Critical: starting with his attitude."
+    },
+    {
+      "ja": "あの人は話し方からして信用できない。",
+      "reading": "あのひとははなしかたからしてしんようできない。",
+      "en": "Even his way of speaking makes him untrustworthy.",
+      "note": "Critical use with a first example."
+    },
+    {
+      "ja": "この料理は見た目からして食欲をそそる。",
+      "reading": "このりょうりはみためからしてしょくよくをそそる。",
+      "en": "This dish is appetizing from its very appearance.",
+      "note": "A positive use is also possible."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からすると",
+      "difference": "Neutral inference from evidence or a viewpoint; lacks the \"even just X\" emphasis.",
+      "id": "n2-grammar-29"
+    },
+    {
+      "pattern": "〜さえ",
+      "difference": "\"Even\": similar emphasis but does not imply judgment of the whole."
+    },
+    {
+      "pattern": "〜をはじめ",
+      "difference": "\"Starting with X (and including others)\": lists members, no judgment.",
+      "id": "n2-grammar-196"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼からして、この計画は無理だ。",
+      "right": "彼からすると、この計画は無理だ。",
+      "why": "A person as a viewpoint takes からすると; からして takes a feature or example."
+    },
+    {
+      "wrong": "態度からして、彼は真面目だろう。（after listing that he is rude）",
+      "right": "態度からして、彼は失礼だ。",
+      "why": "The judgment must follow from the feature chosen."
+    },
+    {
+      "wrong": "名前からしても、外国人だ。（emphatic も unnatural here）",
+      "right": "名前からして、外国人だと分かる。",
+      "why": "からして does not usually take も; keep it plain."
+    }
+  ],
+  "usageNotes": [
+    "Often paired with そもそも / まず to stress that the very first item already tells the story.",
+    "Frequent nouns: 外見, 服装, 名前, 態度, 話し方, 値段, 雰囲気.",
+    "The critical tone means it is often used in complaints about services or people."
+  ],
+  "jlptTips": [
+    "A representative feature + a sweeping judgment about the whole → からして.",
+    "Distractors: からすると (viewpoint), として (role), にしては (\"for a…\"). If the noun is a person, choose からすると.",
+    "Look for words like まず, そもそも, 見た目 that signal a first example."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-28-1",
+    "q-n2-g-28-2",
+    "q-n2-g-28-3",
+    "q-n2-g-28-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-28-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

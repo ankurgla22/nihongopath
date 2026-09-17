@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-125",
+  "slug": "ni-tsuke",
+  "level": "n2",
+  "order": 125,
+  "title": "〜につけ / 〜につけて(も) / 〜につけ〜につけ",
+  "romaji": "ni tsuke / ni tsukete / ni tsuke ni tsuke",
+  "meaning": "whenever (a feeling arises); whether … or …",
+  "simpleExplanation": "〜につけ means \"whenever X happens, a feeling naturally arises\": この写真を見るにつけ、昔を思い出す. The second clause is not an action you choose but a thought or emotion that comes by itself. The doubled form A につけ B につけ (雨につけ風につけ) means \"whether A or B, in either case\", also followed by a feeling.",
+  "whenUsed": "Mostly written or somewhat literary: essays, letters, narration. In speech people say 〜たびに or 〜と. The set phrases 何かにつけ(て) (at every opportunity) and 何事につけ are common in both registers.",
+  "formation": [
+    "Verb (dictionary form) + につけ / につけて",
+    "い-adjective + につけ (rare)",
+    "A につけ B につけ (雨につけ風につけ / いいにつけ悪いにつけ)",
+    "Set phrases: 何かにつけ(て) / 何事につけ / それにつけても"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この写真を見る",
+        "role": "trigger event"
+      },
+      {
+        "text": "につけ",
+        "role": "whenever (naturally)",
+        "highlight": true
+      },
+      {
+        "text": "、学生時代を思い出す",
+        "role": "spontaneous feeling or memory"
+      }
+    ],
+    "translation": "Whenever I see this photo, I remember my student days."
+  },
+  "examples": [
+    {
+      "ja": "この写真を見るにつけ、学生時代を思い出す。",
+      "reading": "このしゃしんをみるにつけ、がくせいじだいをおもいだす。",
+      "en": "Whenever I see this photo, I remember my student days.",
+      "note": "The trigger (seeing a photo) brings a memory automatically."
+    },
+    {
+      "ja": "雨につけ風につけ、故郷の家族が心配になる。",
+      "reading": "あめにつけかぜにつけ、こきょうのかぞくがしんぱいになる。",
+      "en": "Rain or wind, I worry about my family back home.",
+      "note": "Doubled form with contrasting nouns; the feeling (心配になる) arises in either case."
+    },
+    {
+      "ja": "何かにつけて、彼は文句を言う。",
+      "reading": "なにかにつけて、かれはもんくをいう。",
+      "en": "He complains at every opportunity.",
+      "note": "何かにつけて: a set phrase, \"at every opportunity\"."
+    },
+    {
+      "ja": "彼の話を聞くにつけ、自分の努力の足りなさを感じる。",
+      "reading": "かれのはなしをきくにつけ、じぶんのどりょくのたりなさをかんじる。",
+      "en": "Every time I hear him talk, I feel how little effort I have made.",
+      "note": "The second clause is a feeling (感じる), never a deliberate action."
+    },
+    {
+      "ja": "いいにつけ悪いにつけ、親の影響は大きい。",
+      "reading": "いいにつけわるいにつけ、おやのえいきょうはおおきい。",
+      "en": "For better or worse, parents' influence is great.",
+      "note": "Doubled form with adjectives; a set expression."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たびに",
+      "difference": "\"Every time\": neutral, any second clause including actions. につけ requires a spontaneous feeling."
+    },
+    {
+      "pattern": "〜と",
+      "difference": "\"When / whenever\" in the conditional sense; neutral and spoken."
+    },
+    {
+      "pattern": "〜につき",
+      "difference": "\"Due to / per\"; unrelated.",
+      "id": "n2-grammar-124"
+    },
+    {
+      "pattern": "〜につれて",
+      "difference": "\"As X changes, Y changes\": gradual parallel change, not a triggered feeling.",
+      "id": "n2-grammar-126"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この曲を聞くにつけ、CDを買った。",
+      "right": "この曲を聞くたびに、CDを買った。",
+      "why": "A deliberate action cannot follow につけ; only feelings or thoughts that arise naturally."
+    },
+    {
+      "wrong": "見たにつけ、思い出す。",
+      "right": "見るにつけ、思い出す。",
+      "why": "The verb before につけ is in the dictionary form."
+    },
+    {
+      "wrong": "何かにつけて、勉強する。",
+      "right": "何かにつけて、文句を言う。",
+      "why": "何かにつけて describes a habitual reaction (complaining, worrying), not a planned activity."
+    }
+  ],
+  "usageNotes": [
+    "The second clause typically contains 思い出す, 感じる, 心配になる, 考えさせられる, 懐かしい.",
+    "それにつけても is a discourse marker: \"and that reminds me / all the more\".",
+    "につけて (with て) is a slightly more spoken variant with the same meaning."
+  ],
+  "jlptTips": [
+    "If the second clause is a feeling or memory and the register is written, につけ fits; if it is an action, choose たびに.",
+    "The doubled form appears with fixed pairs: 雨につけ風につけ, いいにつけ悪いにつけ. Memorize them.",
+    "Distractors include につき, につれて, にしても. Check for a trigger + feeling structure."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-125-1",
+    "q-n2-g-125-2",
+    "q-n2-g-125-3",
+    "q-n2-g-125-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-125-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

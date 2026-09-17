@@ -1,0 +1,117 @@
+{
+  "id": "n2-grammar-22",
+  "slug": "ka-to-omou-to",
+  "level": "n2",
+  "order": 22,
+  "title": "〜かと思うと / 〜かと思ったら",
+  "romaji": "ka to omou to / ka to omottara",
+  "meaning": "no sooner had ... than; just when I thought ...",
+  "simpleExplanation": "〜かと思うと / 〜かと思ったら means \"no sooner had… than…\" or \"just when I thought…\". Something happens, and almost immediately something else, often contrasting or surprising, follows: the sky darkened and at once it poured; the baby was crying and now is laughing.",
+  "whenUsed": "Both registers, narrative. The speaker observes and reports; the pattern is not used for the speaker's own intentional actions, and the second clause cannot be a command, request, or volitional form. Often with もう or すぐに in the second clause.",
+  "formation": [
+    "Vた + かと思うと / かと思ったら"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "空が暗くなった",
+        "en": "event 1 observed"
+      },
+      {
+        "ja": "空が暗くなったかと思うと",
+        "en": "the moment I registered event 1…"
+      },
+      {
+        "ja": "空が暗くなったかと思うと、激しい雨が降り出した",
+        "en": "…event 2 happened right away (surprise)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "空が暗くなったかと思うと、激しい雨が降り出した。",
+      "reading": "そらがくらくなったかとおもうと、はげしいあめがふりだした。",
+      "en": "No sooner had the sky darkened than heavy rain began.",
+      "note": "Weather sequence: darkening then downpour."
+    },
+    {
+      "ja": "赤ちゃんは泣いたかと思ったら、もう笑っている。",
+      "reading": "あかちゃんはないたかとおもったら、もうわらっている。",
+      "en": "The baby was crying one moment and is already laughing the next.",
+      "note": "Contrast: crying then laughing, with もう."
+    },
+    {
+      "ja": "帰ってきたかと思うと、また出かけていった。",
+      "reading": "かえってきたかとおもうと、またでかけていった。",
+      "en": "He had just come home when he went out again.",
+      "note": "A person's rapid actions observed by the speaker."
+    },
+    {
+      "ja": "彼は席に着いたかと思ったら、もう寝ていた。",
+      "reading": "かれはせきについたかとおもったら、もうねていた。",
+      "en": "He had barely taken his seat when he was already asleep.",
+      "note": "もう marks how fast the second event came."
+    },
+    {
+      "ja": "やっと晴れたかと思うと、また雪が降り始めた。",
+      "reading": "やっとはれたかとおもうと、またゆきがふりはじめた。",
+      "en": "Just when it finally cleared up, it started snowing again.",
+      "note": "Disappointment at a reversal."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たとたん(に)",
+      "difference": "Also \"the moment\", but neutral; can be used with the speaker's own actions. かと思うと adds surprise at a quick change.",
+      "id": "n2-grammar-67"
+    },
+    {
+      "pattern": "〜か〜ないかのうちに",
+      "difference": "Two events almost overlapping; the verb is repeated.",
+      "id": "n2-grammar-23"
+    },
+    {
+      "pattern": "〜と思うと",
+      "difference": "Without か it is \"when I think of…\"; the か is essential for this meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "家に帰ったかと思うと、すぐ寝よう。",
+      "right": "家に帰ったら、すぐ寝よう。",
+      "why": "The second clause cannot be volitional; the pattern reports observed events."
+    },
+    {
+      "wrong": "私は駅に着いたかと思うと、電車に乗った。",
+      "right": "私は駅に着くとすぐ、電車に乗った。",
+      "why": "Not used for one's own deliberate actions."
+    },
+    {
+      "wrong": "雨が降るかと思うと、止んだ。",
+      "right": "雨が降ったかと思うと、止んだ。",
+      "why": "The first verb is in the past form."
+    }
+  ],
+  "usageNotes": [
+    "Typical second-clause adverbs: もう, すぐに, 今度は, また.",
+    "Both 思うと and 思ったら are interchangeable; 思えば is also seen in writing.",
+    "The pattern often conveys the speaker's mild surprise or exasperation."
+  ],
+  "jlptTips": [
+    "Vた + blank + a contrasting event with もう/また → かと思うと.",
+    "Distractors: とたんに (fine for own actions), うちに, 一方で. If the subject is 私 doing something on purpose, choose とたんに instead.",
+    "Eliminate any option when the sentence ends in 〜よう / 〜てください; the pattern cannot precede them."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-22-1",
+    "q-n2-g-22-2",
+    "q-n2-g-22-3",
+    "q-n2-g-22-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-22-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

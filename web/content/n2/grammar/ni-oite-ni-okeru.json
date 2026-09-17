@@ -1,0 +1,122 @@
+{
+  "id": "n2-grammar-99",
+  "slug": "ni-oite-ni-okeru",
+  "level": "n2",
+  "order": 99,
+  "title": "〜において / 〜における",
+  "romaji": "ni oite / ni okeru",
+  "meaning": "in, at (place, time, field); regarding",
+  "simpleExplanation": "〜において means \"in, at (a place, time, or field)\" or \"regarding\", and is the formal version of で: the conference is held in Tokyo; on this point, both sides agree. 〜における is the noun-modifying form: education in modern times.",
+  "whenUsed": "書き言葉 and formal speech: academic writing, announcements, legal and business documents. It follows nouns. においては adds contrast/emphasis; における + noun creates formal noun phrases. Not used in casual conversation.",
+  "formation": [
+    "N + において / N + における + N"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "東京 / 現代 / この点",
+    "rootLabel": "N + において",
+    "branches": [
+      {
+        "suffix": "において + clause",
+        "result": "東京において開催される",
+        "label": "in / at (formal で)"
+      },
+      {
+        "suffix": "においては",
+        "result": "日本においては珍しい",
+        "label": "in (contrastive)"
+      },
+      {
+        "suffix": "における + N",
+        "result": "現代における教育",
+        "label": "noun-modifying"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "会議は東京において開催される。",
+      "reading": "かいぎはとうきょうにおいてかいさいされる。",
+      "en": "The conference will be held in Tokyo.",
+      "note": "Place: において."
+    },
+    {
+      "ja": "現代における教育の役割を考える。",
+      "reading": "げんだいにおけるきょういくのやくわりをかんがえる。",
+      "en": "Consider the role of education in modern times.",
+      "note": "Time + における + noun."
+    },
+    {
+      "ja": "この点において、両者の意見は一致している。",
+      "reading": "このてんにおいて、りょうしゃのいけんはいっちしている。",
+      "en": "On this point, both sides' opinions agree.",
+      "note": "Field/point: この点において."
+    },
+    {
+      "ja": "この研究は医学の分野において高く評価されている。",
+      "reading": "このけんきゅうはいがくのぶんやにおいてたかくひょうかされている。",
+      "en": "This research is highly regarded in the field of medicine.",
+      "note": "Field."
+    },
+    {
+      "ja": "家庭における子供の役割は、時代とともに変化してきた。",
+      "reading": "かていにおけるこどものやくわりは、じだいとともにへんかしてきた。",
+      "en": "The role of children in the family has changed with the times.",
+      "note": "における + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜で",
+      "difference": "Everyday equivalent for place; において is formal."
+    },
+    {
+      "pattern": "〜に関して",
+      "difference": "\"Regarding\": topic, not location/field.",
+      "id": "n2-grammar-138"
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For (someone)\": evaluation from a person's standpoint.",
+      "id": "n2-grammar-131"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "現代において教育",
+      "right": "現代における教育",
+      "why": "Before a noun use における."
+    },
+    {
+      "wrong": "（casual）駅において会おう。",
+      "right": "駅で会おう。",
+      "why": "Too formal for casual plans."
+    },
+    {
+      "wrong": "私において、この問題は難しい。",
+      "right": "私にとって、この問題は難しい。",
+      "why": "A person's standpoint takes にとって."
+    }
+  ],
+  "usageNotes": [
+    "Typical nouns: places (東京・会場), times (現代・当時), fields (教育・医学), abstract points (この点・その意味).",
+    "Written as 於いて / 於ける in older texts.",
+    "においても = \"also in\"."
+  ],
+  "jlptTips": [
+    "Formal register + place/time/field noun + blank → において; before a noun → における.",
+    "Distractors: にとって, に関して, にわたって. If a person precedes the blank, にとって; if a topic to discuss, に関して.",
+    "The における vs において choice is a frequent form question: check whether a noun follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-99-1",
+    "q-n2-g-99-2",
+    "q-n2-g-99-3",
+    "q-n2-g-99-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-99-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

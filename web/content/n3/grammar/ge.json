@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-59",
+  "slug": "ge",
+  "level": "n3",
+  "order": 59,
+  "title": "〜げ",
+  "romaji": "ge",
+  "meaning": "Looking… / seeming… (from the outside)",
+  "simpleExplanation": "〜げ turns a feeling into what it looks like from outside: 楽しげ = looking happy, 不安げ = looking anxious, 言いたげ = looking like they want to say something. It makes a な-adjective (げな, げに). You use it about other people, whose feelings you can only see, not feel.",
+  "whenUsed": "Literary and descriptive writing, narration. In conversation そうだ is more common. Fixed exception: 大人げない (childish, immature).",
+  "formation": [
+    "い-adjective stem + げ (嬉しげ, 寂しげ, 楽しげ)",
+    "な-adjective stem + げ (不安げ, 得意げ, 満足げ)",
+    "Verb (ます stem) + げ, limited (言いたげ, 自信ありげ, 意味ありげ)",
+    "Works as a な-adjective: げな + Noun / げに + Verb"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "げ vs そう",
+    "columns": [
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜げ",
+        "cells": [
+          "literary, third person",
+          "彼女は寂しげに笑った"
+        ]
+      },
+      {
+        "label": "〜そう",
+        "cells": [
+          "everyday",
+          "彼女は寂しそうに笑った"
+        ]
+      },
+      {
+        "label": "〜たげ",
+        "cells": [
+          "looks like wants to",
+          "何か言いたげな顔"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供たちは楽しげに遊んでいる。",
+      "reading": "こどもたちはたのしげにあそんでいる。",
+      "en": "The children are playing happily.",
+      "note": "げに + verb: playing happily (adverb)."
+    },
+    {
+      "ja": "彼女は不安げな顔で、こちらを見た。",
+      "reading": "かのじょはふあんげなかおで、こちらをみた。",
+      "en": "She looked at me with an anxious expression.",
+      "note": "げな + noun: an anxious face."
+    },
+    {
+      "ja": "彼は何か言いたげだった。",
+      "reading": "かれはなにかいいたげだった。",
+      "en": "He looked like he wanted to say something.",
+      "note": "言いたげ: looked like he wanted to say something."
+    },
+    {
+      "ja": "彼は自信ありげに、プレゼンを始めた。",
+      "reading": "かれはじしんありげに、プレゼンをはじめた。",
+      "en": "He started the presentation looking confident.",
+      "note": "自信ありげ is a fixed expression."
+    },
+    {
+      "ja": "子供たちは得意げに、自分の絵を見せてくれた。",
+      "reading": "こどもたちはとくいげに、じぶんのえをみせてくれた。",
+      "en": "The children proudly showed me their drawings.",
+      "note": "得意げ: with a look of pride."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "Everyday equivalent: 寂しそう."
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "A quality or tendency, not the look of an emotion.",
+      "id": "n3-grammar-56"
+    },
+    {
+      "pattern": "〜気 (け): 人気, 寒気",
+      "difference": "Different suffix, different meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は寂しげだ。",
+      "right": "私は寂しい。",
+      "why": "げ describes others as seen from outside; for yourself state the feeling directly."
+    },
+    {
+      "wrong": "寂しいげ",
+      "right": "寂しげ",
+      "why": "Drop い before げ."
+    },
+    {
+      "wrong": "大人げのある態度",
+      "right": "大人げのない態度",
+      "why": "大人げない is a fixed negative expression."
+    }
+  ],
+  "usageNotes": [
+    "Literary version of 〜そうだ (appearance). Mostly for emotions of a third person. 大人げない (childish) is a fixed exception.",
+    "Adverb form げに is the most common in narration: 寂しげに, 楽しげに, 満足げに."
+  ],
+  "jlptTips": [
+    "A third person's visible emotion in a narrative passage + blank + に / な = げ.",
+    "Stem check: い-adjectives drop い (寂しげ), な-adjectives use the stem (不安げ).",
+    "Reading passages use げ to show characters' feelings; use it to answer emotion questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-59-1",
+    "q-n3-g-59-2",
+    "q-n3-g-59-3",
+    "q-n3-g-59-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-59-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

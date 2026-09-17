@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-112",
+  "slug": "ni-sakidatte",
+  "level": "n2",
+  "order": 112,
+  "title": "〜に先立って / 〜に先立ち",
+  "romaji": "ni sakidatte / ni sakidachi",
+  "meaning": "prior to, in advance of, ahead of (a major event)",
+  "simpleExplanation": "〜に先立って means \"before X, as preparation for it\". X is an important event (opening, departure, construction, a match), and the action before it is something done in advance: an announcement, a check, a ceremony. It is more formal than 〜前に and implies that the earlier action is a deliberate preliminary step.",
+  "whenUsed": "News, announcements, business documents: 開店に先立ち / 工事に先立って. The noun-modifying form に先立つ + N (に先立つ説明会) appears in headlines. In conversation people simply say 〜の前に.",
+  "formation": [
+    "Noun (event) + に先立って / に先立ち",
+    "Verb (dictionary form) + に先立って (出発するに先立って)",
+    "Noun + に先立つ + Noun (工事に先立つ説明会)",
+    "Typical events: 開店・開催・出発・工事・発売・会議"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "開店する前に、セールが行われる",
+        "en": "before opening, a sale is held (plain)"
+      },
+      {
+        "ja": "開店に先立って、記念セールが行われる",
+        "en": "ahead of the opening, a commemorative sale is held (formal, a planned preliminary)"
+      },
+      {
+        "ja": "開店に先立つ記念セール",
+        "en": "the commemorative sale preceding the opening (noun-modifying)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "開店に先立って、記念セールが行われる。",
+      "reading": "かいてんにさきだって、きねんセールがおこなわれる。",
+      "en": "Prior to the store opening, a commemorative sale will be held.",
+      "note": "A commemorative sale scheduled ahead of the opening: a planned preliminary."
+    },
+    {
+      "ja": "出発に先立ち、荷物の確認をした。",
+      "reading": "しゅっぱつにさきだち、にもつのかくにんをした。",
+      "en": "Before departure, I checked the luggage.",
+      "note": "に先立ち: written variant; checking luggage is preparation for departure."
+    },
+    {
+      "ja": "工事に先立つ説明会が開かれた。",
+      "reading": "こうじにさきだつせつめいかいがひらかれた。",
+      "en": "An information session was held ahead of the construction.",
+      "note": "に先立つ + noun: an information session preceding construction."
+    },
+    {
+      "ja": "試合に先立って、両チームの選手が握手を交わした。",
+      "reading": "しあいにさきだって、りょうチームのせんしゅがあくしゅをかわした。",
+      "en": "Before the match, the players of both teams shook hands.",
+      "note": "A ceremonial act that precedes the main event."
+    },
+    {
+      "ja": "新製品を発売するに先立ち、モニター調査を実施した。",
+      "reading": "しんせいひんをはつばいするにさきだち、モニターちょうさをじっしした。",
+      "en": "Prior to releasing the new product, we conducted a monitor survey.",
+      "note": "Dictionary-form verb + に先立ち in business writing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜前に",
+      "difference": "Neutral \"before\"; usable for anything. に先立って implies a formal preliminary to a major event."
+    },
+    {
+      "pattern": "〜に際して",
+      "difference": "\"At the time of\" the event itself, not before it.",
+      "id": "n2-grammar-111"
+    },
+    {
+      "pattern": "〜に伴って",
+      "difference": "\"Along with / as a consequence of\": the second thing happens together with or after the first.",
+      "id": "n2-grammar-128"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "寝るに先立って、歯を磨く。",
+      "right": "寝る前に、歯を磨く。",
+      "why": "Daily routines are too trivial for に先立って; use 前に."
+    },
+    {
+      "wrong": "開店したに先立って、セールを行った。",
+      "right": "開店に先立って、セールを行った。",
+      "why": "Use the noun or the dictionary form; never the past form."
+    },
+    {
+      "wrong": "工事に先立ってお知らせ (as a heading)",
+      "right": "工事に先立つお知らせ / 工事に先立ってのお知らせ",
+      "why": "Before a noun use に先立つ (or に先立っての)."
+    }
+  ],
+  "usageNotes": [
+    "The following clause is usually preparation, notice, or ceremony: 説明会, 準備, 確認, 発表.",
+    "に先立ち is the written or news form; に先立って is fine in formal speech.",
+    "先立つ also appears in the idiom 先立つもの (money needed first)."
+  ],
+  "jlptTips": [
+    "If the sentence describes a preparatory step before a formal event, に先立って fits; if the action happens at the event itself, に際して fits.",
+    "Verb form check: dictionary form only.",
+    "In 並べ替え, に先立つ + noun is a single chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-112-1",
+    "q-n2-g-112-2",
+    "q-n2-g-112-3",
+    "q-n2-g-112-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-112-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

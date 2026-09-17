@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-71",
+  "slug": "toiuyori",
+  "level": "n3",
+  "order": 71,
+  "title": "〜というより",
+  "romaji": "to iu yori",
+  "meaning": "rather than… / more … than … (choosing a more accurate description)",
+  "simpleExplanation": "〜というより means \"rather than (calling it) X…\". You mention one description, then replace it with a better one. It is not about comparing two different things; it is about finding the right word for one thing. \"He's not so much a teacher as a friend.\"",
+  "whenUsed": "Used in speech and writing whenever the first word that comes to mind is not quite right. Very often paired with むしろ (\"rather\") in the second half: 〜というより、むしろ〜. The polite version simply adds です・ます to the second clause.",
+  "formation": [
+    "Verb (plain form) + というより",
+    "い-adjective + というより",
+    "な-adjective / Noun + (だ) + というより",
+    "Often: 〜というより(も)、むしろ〜"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "より vs というより",
+    "columns": [
+      "What is compared",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜より",
+        "cells": [
+          "Two different things",
+          "犬より猫が好きだ (I like cats more than dogs)"
+        ]
+      },
+      {
+        "label": "〜というより",
+        "cells": [
+          "Two labels for the same thing",
+          "先生というより友達だ (more a friend than a teacher)"
+        ]
+      },
+      {
+        "label": "〜というより、むしろ〜",
+        "cells": [
+          "Same, with a stronger correction",
+          "涼しいというより、むしろ寒い (not cool, rather cold)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は先生というより、友達のような存在だ。",
+      "reading": "かれはせんせいというより、ともだちのようなそんざいだ。",
+      "en": "He's more like a friend than a teacher.",
+      "note": "Same person; only the label changes from 先生 to 友達."
+    },
+    {
+      "ja": "今日は涼しいというより寒い。",
+      "reading": "きょうはすずしいというよりさむい。",
+      "en": "Today is cold rather than cool.",
+      "note": "い-adjective attaches directly: 涼しい + というより."
+    },
+    {
+      "ja": "あの人は歌手というより、むしろ俳優として有名だ。",
+      "reading": "あのひとはかしゅというより、むしろはいゆうとしてゆうめいだ。",
+      "en": "He's famous more as an actor than as a singer.",
+      "note": "むしろ strengthens the correction."
+    },
+    {
+      "ja": "これは仕事というより、趣味に近い。",
+      "reading": "これはしごとというより、しゅみにちかい。",
+      "en": "This is closer to a hobby than a job.",
+      "note": "Noun + というより; だ is usually dropped."
+    },
+    {
+      "ja": "彼女は怒っているというより、悲しんでいるようだった。",
+      "reading": "かのじょはおこっているというより、かなしんでいるようだった。",
+      "en": "She seemed sad rather than angry.",
+      "note": "Verb (ている form) + というより. The speaker re-judges the emotion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "Plain comparison of two separate things (A is more … than B). というより replaces one description with a better one for the same thing."
+    },
+    {
+      "pattern": "〜というか",
+      "difference": "Casual 'or rather…' used while searching for the right word; less clear-cut than というより."
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "'For a…' — judges something against what you expect from its category, not a re-labeling.",
+      "id": "n3-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "犬というより猫が好きだ。",
+      "right": "犬より猫が好きだ。",
+      "why": "Dogs and cats are two different things being compared, so plain より is needed. というより is for two descriptions of one thing."
+    },
+    {
+      "wrong": "今日は涼しいというより、暑い。",
+      "right": "今日は涼しいというより、寒い。",
+      "why": "The second description must be a more accurate version in the same direction, not the opposite. 'Cool' can be upgraded to 'cold', not swapped for 'hot'."
+    },
+    {
+      "wrong": "彼は親切なというより優しい。",
+      "right": "彼は親切というより優しい。",
+      "why": "な-adjectives drop な (and usually だ) before というより."
+    }
+  ],
+  "usageNotes": [
+    "むしろ often follows: 〜というより、むしろ〜.",
+    "というよりも is a slightly emphatic variant with the same meaning.",
+    "In conversation you will also hear 〜っていうより."
+  ],
+  "jlptTips": [
+    "Look for むしろ or a second clause that is a stronger version of the first (涼しい → 寒い). That signals というより.",
+    "If the two things compared are clearly different objects, the answer is より, not というより.",
+    "In 並べ替え the chunk というより usually sits right after a bare noun or adjective; join them first."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-71-1",
+    "q-n3-g-71-2",
+    "q-n3-g-71-3",
+    "q-n3-g-71-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-71-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

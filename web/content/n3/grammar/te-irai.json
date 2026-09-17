@@ -1,0 +1,123 @@
+{
+  "id": "n3-grammar-41",
+  "slug": "te-irai",
+  "level": "n3",
+  "order": 41,
+  "title": "〜て以来",
+  "romaji": "te irai",
+  "meaning": "Ever since…",
+  "simpleExplanation": "〜て以来 marks a past event as the starting point of a state that has continued until now: 卒業して以来、彼に会っていない = I haven't seen him since graduation. Two conditions: the event is some time ago, and the main clause is a continuing state (ずっと〜ている, 〜ていない, 〜なくなった).",
+  "whenUsed": "Speech and writing, slightly formal. Nouns of events attach directly: あの事故以来, 入社以来. Not for events that happened just now.",
+  "formation": [
+    "Verb (て form) + 以来",
+    "Noun (event) + 以来",
+    "Main clause: a continuing state, often with ずっと"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "日本に来て",
+        "role": "starting event (て-form)"
+      },
+      {
+        "text": "以来、",
+        "role": "ever since",
+        "highlight": true
+      },
+      {
+        "text": "ずっと",
+        "role": "continuously"
+      },
+      {
+        "text": "この町に住んでいる。",
+        "role": "continuing state",
+        "highlight": true
+      }
+    ],
+    "translation": "Ever since I came to Japan, I've lived in this town."
+  },
+  "examples": [
+    {
+      "ja": "卒業して以来、彼に会っていない。",
+      "reading": "そつぎょうしていらい、かれにあっていない。",
+      "en": "I haven't seen him since graduation.",
+      "note": "Continuing negative state: haven't met since."
+    },
+    {
+      "ja": "日本に来て以来、ずっとこの町に住んでいる。",
+      "reading": "にほんにきていらい、ずっとこのまちにすんでいる。",
+      "en": "Ever since I came to Japan, I've lived in this town.",
+      "note": "ずっと + 〜ている: continuing positive state."
+    },
+    {
+      "ja": "あの事故以来、彼は車を運転しなくなった。",
+      "reading": "あのじこいらい、かれはくるまをうんてんしなくなった。",
+      "en": "Since that accident, he has stopped driving.",
+      "note": "Noun + 以来 + a changed habit (〜なくなった)."
+    },
+    {
+      "ja": "この会社に入って以来、一度も遅刻したことがない。",
+      "reading": "このかいしゃにはいっていらい、いちどもちこくしたことがない。",
+      "en": "Since joining this company, I've never once been late.",
+      "note": "一度も〜ない emphasizes the whole period."
+    },
+    {
+      "ja": "去年の夏以来、彼女からは何の連絡もない。",
+      "reading": "きょねんのなついらい、かのじょからはなんのれんらくもない。",
+      "en": "Since last summer, there's been no word from her at all.",
+      "note": "Time noun + 以来."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Neutral \"after\"; can be used for recent events and single actions. 以来 needs a continuing state."
+    },
+    {
+      "pattern": "〜てからというもの (N1)",
+      "difference": "Emotional version: \"ever since, things have been different\"."
+    },
+    {
+      "pattern": "〜から (time)",
+      "difference": "Simple starting point: 三時から. 以来 adds \"ever since that event\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今朝起きて以来、何も食べていない。",
+      "right": "今朝起きてから、何も食べていない。",
+      "why": "以来 is for events well in the past, not this morning."
+    },
+    {
+      "wrong": "卒業して以来、彼に一度会った。",
+      "right": "卒業してから、彼に一度会った。",
+      "why": "A one-time event in the main clause needs てから; 以来 needs a continuing state."
+    },
+    {
+      "wrong": "卒業した以来",
+      "right": "卒業して以来",
+      "why": "Use the て-form before 以来."
+    }
+  ],
+  "usageNotes": [
+    "The event must be reasonably far in the past (not 今朝食べて以来). Main clause is a continued state, not a one-time event. 〜てから is more neutral.",
+    "Set phrases: 入社以来, 結婚以来, 生まれて以来."
+  ],
+  "jlptTips": [
+    "A past starting event + a continuing state (ずっと, 一度も〜ない, 〜ていない) = 以来.",
+    "If the main clause is a single completed action, choose てから instead; this is the designed trap.",
+    "Form check: て-form + 以来 or noun + 以来."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-41-1",
+    "q-n3-g-41-2",
+    "q-n3-g-41-3",
+    "q-n3-g-41-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-41-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

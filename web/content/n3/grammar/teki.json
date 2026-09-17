@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-103",
+  "slug": "teki",
+  "level": "n3",
+  "order": 103,
+  "title": "〜的 / 〜てき",
+  "romaji": "teki",
+  "meaning": "-ic / -al / -like (turns a noun into a な-adjective)",
+  "simpleExplanation": "〜的 attaches to a noun (usually a Sino-Japanese one) and turns it into a descriptive word: 具体 → 具体的 \"concrete\", 経済 → 経済的 \"economic / economical\", 伝統 → 伝統的 \"traditional\". The result behaves like a な-adjective: 的な + noun, 的に + verb, 的だ at the end.",
+  "whenUsed": "Everywhere in written and formal spoken Japanese: essays, news, business. Learning the common 〜的 words is more useful than the rule itself: 一般的, 基本的, 積極的, 消極的, 国際的, 科学的, 自動的, 個人的, 具体的, 精神的.",
+  "formation": [
+    "Noun + 的 + な + Noun (伝統的な文化)",
+    "Noun + 的 + に + Verb / adjective (具体的に説明する)",
+    "Noun + 的 + だ / です (この方法は効果的だ)",
+    "Noun + 的 + Noun (without な) in some fixed compounds: 科学的根拠"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "具体 + 的",
+    "rootLabel": "Noun + 的 → な-adjective",
+    "branches": [
+      {
+        "suffix": "な + N",
+        "result": "具体的な例",
+        "label": "a concrete example"
+      },
+      {
+        "suffix": "に + V",
+        "result": "具体的に説明する",
+        "label": "explain concretely"
+      },
+      {
+        "suffix": "だ",
+        "result": "説明が具体的だ",
+        "label": "the explanation is concrete"
+      },
+      {
+        "suffix": "ではない",
+        "result": "具体的ではない",
+        "label": "not concrete"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "もっと具体的に説明してください。",
+      "reading": "もっとぐたいてきにせつめいしてください。",
+      "en": "Please explain more concretely.",
+      "note": "的に + verb."
+    },
+    {
+      "ja": "彼は経済的な理由で留学をあきらめた。",
+      "reading": "かれはけいざいてきなりゆうでりゅうがくをあきらめた。",
+      "en": "He gave up studying abroad for financial reasons.",
+      "note": "的な + noun; 経済的 here means 'financial'."
+    },
+    {
+      "ja": "日本の伝統的な文化に興味がある。",
+      "reading": "にほんのでんとうてきなぶんかにきょうみがある。",
+      "en": "I'm interested in traditional Japanese culture.",
+      "note": "的な + noun."
+    },
+    {
+      "ja": "彼女は何事にも積極的に取り組む。",
+      "reading": "かのじょはなにごとにもせっきょくてきにとりくむ。",
+      "en": "She tackles everything proactively.",
+      "note": "積極的 (proactive) vs 消極的 (passive) is a common pair."
+    },
+    {
+      "ja": "個人的には、その意見には賛成できない。",
+      "reading": "こじんてきには、そのいけんにはさんせいできない。",
+      "en": "Personally, I can't agree with that opinion.",
+      "note": "個人的には = 'personally speaking'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜らしい (typical of)",
+      "difference": "Describes something being a good example of the noun (学生らしい). 的 makes a general adjective (学生的 is rare).",
+      "id": "n3-grammar-81"
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "Casual '-ish' with a critical tone (子供っぽい). 的 is neutral and formal.",
+      "id": "n3-grammar-56"
+    },
+    {
+      "pattern": "〜性",
+      "difference": "Makes a noun meaning '-ness / -ity' (可能性). 的 makes an adjective.",
+      "id": "n3-grammar-105"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "伝統的い文化",
+      "right": "伝統的な文化",
+      "why": "〜的 words are な-adjectives, not い-adjectives."
+    },
+    {
+      "wrong": "具体的の例",
+      "right": "具体的な例",
+      "why": "Before a noun, use な (の is not used with 的 adjectives)."
+    },
+    {
+      "wrong": "経済的に理由で",
+      "right": "経済的な理由で",
+      "why": "に is the adverb form; before a noun you need な."
+    }
+  ],
+  "usageNotes": [
+    "Reading: 的 is always てき in this use.",
+    "Some 的 words modify nouns directly in set phrases: 科学的根拠, 社会的地位.",
+    "In casual speech 的 is sometimes attached playfully to other words (私的には = 'for me'), which is informal."
+  ],
+  "jlptTips": [
+    "Check what follows the blank: noun → 的な, verb → 的に, sentence end → 的だ.",
+    "The meaning of 的 words is tested in 語彙; learn pairs like 積極的/消極的, 具体的/抽象的, 一般的/特別.",
+    "Distractors include 的の and 的い; both are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-103-1",
+    "q-n3-g-103-2",
+    "q-n3-g-103-3",
+    "q-n3-g-103-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-103-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

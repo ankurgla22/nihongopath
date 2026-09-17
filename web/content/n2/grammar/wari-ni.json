@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-166",
+  "slug": "wari-ni",
+  "level": "n2",
+  "order": 166,
+  "title": "〜わりに(は)",
+  "romaji": "wari ni (wa)",
+  "meaning": "considering, for (result out of proportion to the standard)",
+  "simpleExplanation": "〜わりに(は) means \"considering X\": the result is out of proportion to what X leads you to expect, either better or worse. 値段のわりにおいしい (good, considering the price). Unlike にしては, it happily takes vague or degree nouns such as 年, 値段, 割 and adjectives (忙しいわりに).",
+  "whenUsed": "Both speech and writing, neutral register. Very common in reviews and evaluations. Slightly softer than にしては because it compares degrees rather than categories.",
+  "formation": [
+    "Verb / い-adjective (plain form) + わりに(は)",
+    "な-adjective + な + わりに",
+    "Noun + の + わりに (年のわりに / 値段のわりに)",
+    "Set phrase: その割に(は) (considering that)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜わりに",
+      "〜にしては"
+    ],
+    "rows": [
+      {
+        "label": "Front word",
+        "cells": [
+          "degree nouns or clauses: 年, 値段, 忙しい, 勉強した",
+          "concrete categories: 子供, 初めて, 三月"
+        ]
+      },
+      {
+        "label": "Logic",
+        "cells": [
+          "result out of proportion to a degree",
+          "result contrary to a category's standard"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "年のわりに若い",
+          "五十歳にしては若い"
+        ]
+      },
+      {
+        "label": "Flexibility",
+        "cells": [
+          "wide",
+          "narrow"
+        ]
+      }
+    ],
+    "title": "Degree versus category"
+  },
+  "examples": [
+    {
+      "ja": "この店は値段のわりに、料理がおいしい。",
+      "reading": "このみせはねだんのわりに、りょうりがおいしい。",
+      "en": "Considering the price, the food at this restaurant is good.",
+      "note": "Price is the degree; taste exceeds it."
+    },
+    {
+      "ja": "彼は年のわりには若く見える。",
+      "reading": "かれはとしのわりにはわかくみえる。",
+      "en": "He looks young for his age.",
+      "note": "Age as the degree; appearance is younger."
+    },
+    {
+      "ja": "よく勉強したわりに、成績はあまりよくなかった。",
+      "reading": "よくべんきょうしたわりに、せいせきはあまりよくなかった。",
+      "en": "Considering how much I studied, my grades were not very good.",
+      "note": "Effort as the degree; grades fell short."
+    },
+    {
+      "ja": "彼は体が大きいわりに、力はあまりない。",
+      "reading": "かれはからだがおおきいわりに、ちからはあまりない。",
+      "en": "For someone so big, he is not very strong.",
+      "note": "い-adjective + わりに; the result is lower than expected."
+    },
+    {
+      "ja": "この仕事は大変なわりに、給料が安い。",
+      "reading": "このしごとはたいへんなわりに、きゅうりょうがやすい。",
+      "en": "This job pays poorly considering how hard it is.",
+      "note": "な-adjective + なわりに: a common complaint."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にしては",
+      "difference": "Needs a concrete category; わりに accepts degrees.",
+      "id": "n2-grammar-115"
+    },
+    {
+      "pattern": "〜だけあって",
+      "difference": "\"As expected of\": the result matches the standard, the opposite logic."
+    },
+    {
+      "pattern": "〜くせに",
+      "difference": "\"Even though\" with contempt; not a neutral evaluation."
+    },
+    {
+      "pattern": "〜に比べて",
+      "difference": "Neutral comparison with a reference.",
+      "id": "n2-grammar-108"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "年齢にしては若い。",
+      "right": "年のわりに若い。",
+      "why": "Vague nouns like 年齢 / 年 need わりに."
+    },
+    {
+      "wrong": "値段わりにおいしい。",
+      "right": "値段のわりにおいしい。",
+      "why": "Nouns need の before わりに."
+    },
+    {
+      "wrong": "よく勉強したわりに、いい点だった。(when the result matches effort)",
+      "right": "よく勉強しただけあって、いい点だった。",
+      "why": "わりに expects a mismatch; a matching result uses だけあって."
+    }
+  ],
+  "usageNotes": [
+    "その割に(は) is a common sentence opener: 高い店だ。その割に味は普通だ。",
+    "Kanji 割 (わり) means proportion; the pattern literally says 'in proportion to'.",
+    "Negative or positive mismatch are both fine."
+  ],
+  "jlptTips": [
+    "If the noun before the blank is 年, 値段, 割 or an adjective, choose わりに over にしては.",
+    "The main clause must contrast with the degree; if it matches, だけあって is the answer.",
+    "Check の after nouns and な after な-adjectives."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-166-1",
+    "q-n2-g-166-2",
+    "q-n2-g-166-3",
+    "q-n2-g-166-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-166-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

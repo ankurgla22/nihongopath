@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-88",
+  "slug": "kakeru",
+  "level": "n3",
+  "order": 88,
+  "title": "〜かける",
+  "romaji": "kakeru",
+  "meaning": "start to… (but not finish) / be about to… / halfway through…",
+  "simpleExplanation": "Verb stem + かける means an action has begun but is not complete. 読みかけの本 is \"a half-read book\", 言いかけてやめた is \"started to say something and stopped\", 死にかけた is \"nearly died\" (was on the verge). Think of an action caught in the middle.",
+  "whenUsed": "Everyday description of unfinished things (食べかけ, 飲みかけ), narratives (言いかけて), and near misses (倒れかける). A separate meaning, 'directed at someone' (話しかける, 呼びかける), uses the same form but is a different idea.",
+  "formation": [
+    "Verb ます-stem + かける / かけた (start, be about to)",
+    "Verb ます-stem + かけの + Noun (half-done: 読みかけの本)",
+    "Verb ます-stem + かけだ (is half-done)",
+    "Verb ます-stem + かけて、〜 (started to… and then…)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Where is the action?",
+    "items": [
+      {
+        "label": "読む前",
+        "description": "Not started."
+      },
+      {
+        "label": "読みかけ",
+        "description": "Started, stopped in the middle (かける)."
+      },
+      {
+        "label": "読んでいる",
+        "description": "In progress right now."
+      },
+      {
+        "label": "読み終わった / 読み切った",
+        "description": "Finished."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "読みかけの本が机の上にある。",
+      "reading": "よみかけのほんがつくえのうえにある。",
+      "en": "There's a half-read book on the desk.",
+      "note": "かけの + noun: half-read."
+    },
+    {
+      "ja": "何か言いかけて、やめた。",
+      "reading": "なにかいいかけて、やめた。",
+      "en": "He started to say something, then stopped.",
+      "note": "言いかけて = began to speak, then stopped."
+    },
+    {
+      "ja": "彼は死にかけたが、助かった。",
+      "reading": "かれはしにかけたが、たすかった。",
+      "en": "He nearly died, but was saved.",
+      "note": "死にかける = come close to dying (about to)."
+    },
+    {
+      "ja": "机の上に飲みかけのコーヒーが置いてあった。",
+      "reading": "つくえのうえにのみかけのコーヒーがおいてあった。",
+      "en": "A half-drunk cup of coffee was sitting on the desk.",
+      "note": "飲みかけの = partly drunk."
+    },
+    {
+      "ja": "この魚は腐りかけているから、食べないほうがいい。",
+      "reading": "このさかなはくさりかけているから、たべないほうがいい。",
+      "en": "This fish is starting to go bad, so you'd better not eat it.",
+      "note": "かけている = the change has begun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜始める",
+      "difference": "Simply 'start doing', with no implication that it stopped. 読み始めた = started reading (and may still be reading)."
+    },
+    {
+      "pattern": "〜ところだった",
+      "difference": "'Almost happened' about a whole event (乗り遅れるところだった). かける is about an action that has physically begun.",
+      "id": "n3-grammar-120"
+    },
+    {
+      "pattern": "〜途中で",
+      "difference": "'On the way / in the middle of', a time expression rather than a verb form.",
+      "id": "n3-grammar-37"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読むかけの本",
+      "right": "読みかけの本",
+      "why": "かける attaches to the ます-stem."
+    },
+    {
+      "wrong": "私は本を読みかけた。(meaning 'I started reading and am still reading')",
+      "right": "私は本を読み始めた。",
+      "why": "読みかけた implies the reading was interrupted; for a normal start use 始める."
+    },
+    {
+      "wrong": "先生に話しかけの学生",
+      "right": "先生に話しかけている学生",
+      "why": "話しかける ('address someone') is a fixed verb with the 'directed at' meaning and does not form 〜かけの."
+    }
+  ],
+  "usageNotes": [
+    "Nouns: 食べかけ, 飲みかけ, 書きかけ, やりかけ are used on their own (やりかけの仕事 'unfinished work').",
+    "With change verbs (死ぬ, 消える, 腐る, 忘れる), かける means 'on the verge of'.",
+    "The 'directed at' verbs (話しかける, 呼びかける, 働きかける, 笑いかける) are best memorised as vocabulary."
+  ],
+  "jlptTips": [
+    "A noun after the blank plus の (読みかけの本) points to かけ.",
+    "If the sentence continues with やめた / 思い直した, it is 〜かけて (began, then stopped).",
+    "Watch for 忘れかけていた 'had almost forgotten': a common 読解 phrase."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-88-1",
+    "q-n3-g-88-2",
+    "q-n3-g-88-3",
+    "q-n3-g-88-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-88-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

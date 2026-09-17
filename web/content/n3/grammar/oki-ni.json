@@ -1,0 +1,126 @@
+{
+  "id": "n3-grammar-138",
+  "slug": "oki-ni",
+  "level": "n3",
+  "order": 138,
+  "title": "〜おきに",
+  "romaji": "oki ni",
+  "meaning": "every other… / at intervals of… (skipping the stated span between events)",
+  "simpleExplanation": "〜おきに means the stated span is left empty between events: 一日おきに \"every other day\", 六時間おきに \"every six hours (six-hour gaps)\", 一メートルおきに \"at one-metre intervals\". Think of the span as the gap you skip. With minutes and hours it usually feels the same as ごとに; with days the difference matters.",
+  "whenUsed": "Timetables, medicine instructions, spacing of objects. Always with a number + counter.",
+  "formation": [
+    "Number + counter + おきに (一日おきに, 十五分おきに, 一メートルおきに)",
+    "Number + counter + おきの + Noun (一週間おきの練習)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "一日おきに: which days?",
+    "items": [
+      {
+        "label": "月曜日",
+        "description": "Do it."
+      },
+      {
+        "label": "火曜日",
+        "description": "Skip (the one-day gap)."
+      },
+      {
+        "label": "水曜日",
+        "description": "Do it."
+      },
+      {
+        "label": "木曜日",
+        "description": "Skip."
+      },
+      {
+        "label": "金曜日",
+        "description": "Do it. → 'every other day'"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この薬は六時間おきに飲んでください。",
+      "reading": "このくすりはろくじかんおきにのんでください。",
+      "en": "Take this medicine every six hours.",
+      "note": "Six-hour gaps between doses."
+    },
+    {
+      "ja": "バスは十五分おきに来る。",
+      "reading": "バスはじゅうごふんおきにくる。",
+      "en": "The bus comes every fifteen minutes.",
+      "note": "Fifteen-minute intervals."
+    },
+    {
+      "ja": "一日おきにジョギングをしている。",
+      "reading": "いちにちおきにジョギングをしている。",
+      "en": "I jog every other day.",
+      "note": "Every other day (skip one)."
+    },
+    {
+      "ja": "道には一メートルおきに木が植えられている。",
+      "reading": "みちにはいちメートルおきにきがうえられている。",
+      "en": "Trees are planted along the road at one-metre intervals.",
+      "note": "Spatial intervals."
+    },
+    {
+      "ja": "このクラスは一週間おきに行われる。",
+      "reading": "このクラスはいっしゅうかんおきにおこなわれる。",
+      "en": "This class is held every other week.",
+      "note": "One-week gap between classes."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ごとに",
+      "difference": "Counts every instance (一日ごとに = every day).",
+      "id": "n3-grammar-137"
+    },
+    {
+      "pattern": "〜に一回 / 〜に一度",
+      "difference": "'Once per (period)': 二日に一回 ≈ 一日おきに."
+    },
+    {
+      "pattern": "〜間隔で",
+      "difference": "'At intervals of' in written or technical style (十分間隔で)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一日おきに = every day",
+      "right": "一日おきに = every other day",
+      "why": "The stated span is the gap, so one day is skipped."
+    },
+    {
+      "wrong": "会うおきに",
+      "right": "会うたびに / 会うごとに",
+      "why": "おきに needs a number + counter; it cannot follow a verb."
+    },
+    {
+      "wrong": "月曜日おきに",
+      "right": "一週間おきに / 隔週の月曜日に",
+      "why": "おきに takes a quantity, not a day name."
+    }
+  ],
+  "usageNotes": [
+    "With small units (分, 時間) native speakers often use おきに and ごとに interchangeably.",
+    "二日おきに = every three days (two-day gap).",
+    "In 聴解, timetable announcements use 〜分おきに."
+  ],
+  "jlptTips": [
+    "A number + counter and the idea of skipping → おきに.",
+    "If the blank follows a verb or a group noun, おきに is impossible; choose ごとに / たびに.",
+    "For 'every other day/week', おきに is the only correct answer."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-138-1",
+    "q-n3-g-138-2",
+    "q-n3-g-138-3",
+    "q-n3-g-138-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-138-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

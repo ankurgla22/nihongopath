@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-96",
+  "slug": "nagara-mo",
+  "level": "n2",
+  "order": 96,
+  "title": "〜ながら(も)",
+  "romaji": "nagara (mo)",
+  "meaning": "although, despite (being)",
+  "simpleExplanation": "〜ながら(も) here means \"although, despite (being)…\", not \"while doing\". Two facts that seem contradictory are joined: although young, he is reliable; small though it is, it's our happy home; even though he knew, he didn't tell me.",
+  "whenUsed": "書き言葉寄り. It follows Vます stems (知りながら), Vていながら, い-adjectives (若いながら), な-adjectives and nouns directly (残念ながら, 子供ながら). も strengthens the concession. Set phrases: 残念ながら, 我ながら, 生まれながら, 及ばずながら.",
+  "formation": [
+    "Vます + ながら(も) / Aい + ながら(も) / Aな + ながら(も) / N + ながら(も) / Vて いながら"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two meanings of ながら",
+    "columns": [
+      "Example",
+      "Clue"
+    ],
+    "rows": [
+      {
+        "label": "Simultaneous (N4)",
+        "cells": [
+          "音楽を聞きながら勉強する",
+          "two actions at once"
+        ]
+      },
+      {
+        "label": "Concessive (N2)",
+        "cells": [
+          "若いながらもしっかりしている",
+          "state / adjective / noun + も"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は若いながらも、しっかりしている。",
+      "reading": "かれはわかいながらも、しっかりしている。",
+      "en": "Although young, he is reliable.",
+      "note": "Aい + ながらも."
+    },
+    {
+      "ja": "狭いながらも、楽しい我が家だ。",
+      "reading": "せまいながらも、たのしいわがやだ。",
+      "en": "Small though it is, it's our happy home.",
+      "note": "Set-like 狭いながらも."
+    },
+    {
+      "ja": "知っていながら、教えてくれなかった。",
+      "reading": "しっていながら、おしえてくれなかった。",
+      "en": "Even though he knew, he didn't tell me.",
+      "note": "Vていながら, concessive."
+    },
+    {
+      "ja": "残念ながら、今回は採用を見送らせていただきます。",
+      "reading": "ざんねんながら、こんかいはさいようをみおくらせていただきます。",
+      "en": "Regrettably, we will not be able to offer you the position this time.",
+      "note": "残念ながら is a fixed phrase."
+    },
+    {
+      "ja": "彼は初心者ながら、大会で入賞した。",
+      "reading": "かれはしょしんしゃながら、たいかいでにゅうしょうした。",
+      "en": "Though a beginner, he placed in the tournament.",
+      "note": "N + ながら."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜つつ(も)",
+      "difference": "Same concession with verbs only (知りつつ); more formal.",
+      "id": "n2-grammar-73"
+    },
+    {
+      "pattern": "〜のに",
+      "difference": "Everyday concession; ながらも is written and often admiring."
+    },
+    {
+      "pattern": "〜くせに",
+      "difference": "Concession with contempt.",
+      "id": "n2-grammar-38"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "若いのながら",
+      "right": "若いながら",
+      "why": "い-adjectives attach directly."
+    },
+    {
+      "wrong": "知るながら",
+      "right": "知りながら / 知っていながら",
+      "why": "Use the Vます stem or ていながら."
+    },
+    {
+      "wrong": "残念ながらも、合格しました。",
+      "right": "残念ながら、不合格でした。",
+      "why": "残念ながら must introduce bad news."
+    }
+  ],
+  "usageNotes": [
+    "Typical adjectives: 若い, 小さい, 狭い, 貧しい; nouns: 子供, 初心者, 女性.",
+    "我ながら = \"if I say so myself\"; 生まれながら = \"by birth\".",
+    "The concessive reading is signaled by a state or by も; an action verb without も is usually simultaneous."
+  ],
+  "jlptTips": [
+    "A state, adjective or noun before the blank and a contrasting clause after → ながら(も) (concessive).",
+    "Distractors: つつ (verbs only), のに, ところで. If the blank follows a noun like 子供 or 初心者, ながら is the answer.",
+    "残念ながら in the options is a giveaway when the following clause is bad news."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-96-1",
+    "q-n2-g-96-2",
+    "q-n2-g-96-3",
+    "q-n2-g-96-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-96-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

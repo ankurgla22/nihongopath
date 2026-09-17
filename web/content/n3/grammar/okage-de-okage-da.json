@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-18",
+  "slug": "okage-de-okage-da",
+  "level": "n3",
+  "order": 18,
+  "title": "〜おかげで / 〜おかげだ",
+  "romaji": "okage de okage da",
+  "meaning": "Thanks to… / owing to…",
+  "simpleExplanation": "〜おかげで credits someone or something for a good result: 先生のおかげで合格できた = thanks to my teacher, I passed. It carries gratitude. 〜おかげだ ends a sentence: 今の私があるのは両親のおかげです. The set phrase おかげさまで is a polite \"thankfully\" used when someone asks how you are.",
+  "whenUsed": "Thanking people, explaining good outcomes, polite conversation (おかげさまで元気です). Sometimes used ironically for bad outcomes.",
+  "formation": [
+    "Verb / い-adjective (plain form) + おかげで",
+    "な-adjective + な + おかげで",
+    "Noun + の + おかげで",
+    "Sentence-final: 〜のおかげだ / おかげです",
+    "Set phrase: おかげさまで"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "せいで vs おかげで",
+    "columns": [
+      "Result",
+      "Feeling"
+    ],
+    "rows": [
+      {
+        "label": "先生のおかげで合格した",
+        "cells": [
+          "passed (good)",
+          "gratitude"
+        ]
+      },
+      {
+        "label": "先生のせいで落ちた",
+        "cells": [
+          "failed (bad)",
+          "blame"
+        ]
+      },
+      {
+        "label": "君のおかげでひどい目にあった",
+        "cells": [
+          "bad",
+          "sarcasm: \"thanks a lot\""
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "先生のおかげで、試験に合格できました。",
+      "reading": "せんせいのおかげで、しけんにごうかくできました。",
+      "en": "Thanks to my teacher, I was able to pass the exam.",
+      "note": "Noun + のおかげで: thanking a person."
+    },
+    {
+      "ja": "毎日練習したおかげで、上手になった。",
+      "reading": "まいにちれんしゅうしたおかげで、じょうずになった。",
+      "en": "Thanks to practicing every day, I got better.",
+      "note": "Past verb + おかげで: crediting your own effort."
+    },
+    {
+      "ja": "今の私があるのは両親のおかげです。",
+      "reading": "いまのわたしがあるのはりょうしんのおかげです。",
+      "en": "I am who I am today thanks to my parents.",
+      "note": "〜のは〜のおかげだ: sentence-final gratitude."
+    },
+    {
+      "ja": "「お元気ですか。」「おかげさまで、元気にしています。」",
+      "reading": "「おげんきですか。」「おかげさまで、げんきにしています。」",
+      "en": "\"How are you?\" \"Thankfully, I'm doing well.\"",
+      "note": "おかげさまで is a fixed polite phrase; no specific person is thanked."
+    },
+    {
+      "ja": "君が手伝ってくれたおかげで、仕事が早く終わったよ。",
+      "reading": "きみがてつだってくれたおかげで、しごとがはやくおわったよ。",
+      "en": "Thanks to your help, the work finished early.",
+      "note": "〜てくれたおかげで expresses gratitude for a favor."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜せいで",
+      "difference": "The mirror image: bad result and blame.",
+      "id": "n3-grammar-17"
+    },
+    {
+      "pattern": "〜ために (cause)",
+      "difference": "Neutral cause; no gratitude.",
+      "id": "n3-grammar-19"
+    },
+    {
+      "pattern": "〜てくれて",
+      "difference": "\"Thanks for doing\" as a direct thank-you; おかげで links to a result."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨のおかげで、試合が中止になった。(disappointed)",
+      "right": "雨のせいで、試合が中止になった。",
+      "why": "A disappointing result needs せいで; おかげで would sound sarcastic."
+    },
+    {
+      "wrong": "毎日練習のおかげで上手になった。",
+      "right": "毎日練習したおかげで上手になった。",
+      "why": "A verb clause attaches in plain form; のおかげで is for nouns."
+    },
+    {
+      "wrong": "おかげさまで、先生に感謝しています。",
+      "right": "先生のおかげで、合格できました。感謝しています。",
+      "why": "おかげさまで is a stand-alone polite reply; to thank a specific person use 〜のおかげで."
+    }
+  ],
+  "usageNotes": [
+    "Sometimes used sarcastically for negative results (君のおかげで大変だった). おかげさまで = polite set phrase \"thankfully\".",
+    "おかげで can also credit your own effort, not only other people."
+  ],
+  "jlptTips": [
+    "Result check: good result and gratitude = おかげで. The most common distractor is せいで.",
+    "〜のは〜のおかげだ at sentence end is often tested; don't pick せいだ when the sentence is thankful.",
+    "In listening, おかげさまで as a reply to お元気ですか is a greeting formula, not a real cause."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-18-1",
+    "q-n3-g-18-2",
+    "q-n3-g-18-3",
+    "q-n3-g-18-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-18-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

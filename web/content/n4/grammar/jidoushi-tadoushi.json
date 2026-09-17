@@ -1,0 +1,207 @@
+{
+  "id": "n4-grammar-112",
+  "slug": "jidoushi-tadoushi",
+  "level": "n4",
+  "order": 112,
+  "title": "Transitive / intransitive verb pairs (自動詞・他動詞)",
+  "romaji": "jidoushi / tadoushi",
+  "meaning": "Japanese has paired verbs: the transitive (他動詞) takes an object with を and expresses someone doing the action; the intransitive (自動詞) takes が and expresses the change happening by itself. Choosing the right member of the pair is a core N4 skill.",
+  "simpleExplanation": "Many Japanese verbs come in pairs. The intransitive verb (自動詞) describes a change that happens by itself and takes が: ドアが開く = the door opens. The transitive verb (他動詞) describes a person doing the action to something and takes を: ドアを開ける = (someone) opens the door. Learning the pairs (開く／開ける, 閉まる／閉める, つく／つける, 消える／消す, 壊れる／壊す…) lets you choose the right particle and the right verb. With ている and てある they describe states: 電気がついている = the light is on; 電気がつけてある = the light has been left on by someone.",
+  "whenUsed": "Everywhere: describing what happened (窓が割れた) versus what someone did (窓を割った), explaining states (ドアが開いている), and giving instructions (窓を閉めてください). The choice also affects how you sound: 壊れた avoids blame; 壊した admits it.",
+  "formation": [
+    "自動詞: N が + verb (change by itself): ドアが開く, 電気が消える, 授業が始まる",
+    "他動詞: (person は) N を + verb (someone acts): ドアを開ける, 電気を消す, 授業を始める",
+    "State: 自動詞 + ている (ドアが開いている = is open) / 他動詞 + てある (ドアが開けてある = has been opened on purpose)",
+    "Preparation: 他動詞 + ておく (ドアを開けておく = open it in advance)",
+    "Sound patterns: -aru/-eru (上がる／上げる), -u/-eru (開く／開ける), -reru/-su (壊れる／壊す), -ru/-su (直る／直す)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "自動詞 (が) vs 他動詞 (を), plus ている / てある",
+    "columns": [
+      "自動詞 (が)",
+      "他動詞 (を)",
+      "Meaning",
+      "State: 自 + ている",
+      "State: 他 + てある"
+    ],
+    "rows": [
+      {
+        "label": "開く／開ける",
+        "cells": [
+          "ドアが開く",
+          "ドアを開ける",
+          "open",
+          "ドアが開いている (is open)",
+          "ドアが開けてある (left open)"
+        ]
+      },
+      {
+        "label": "閉まる／閉める",
+        "cells": [
+          "窓が閉まる",
+          "窓を閉める",
+          "close",
+          "窓が閉まっている",
+          "窓が閉めてある"
+        ]
+      },
+      {
+        "label": "つく／つける",
+        "cells": [
+          "電気がつく",
+          "電気をつける",
+          "turn on",
+          "電気がついている",
+          "電気がつけてある"
+        ]
+      },
+      {
+        "label": "消える／消す",
+        "cells": [
+          "火が消える",
+          "火を消す",
+          "go out / put out",
+          "火が消えている",
+          "火が消してある"
+        ]
+      },
+      {
+        "label": "始まる／始める",
+        "cells": [
+          "授業が始まる",
+          "授業を始める",
+          "begin",
+          "授業が始まっている",
+          "—"
+        ]
+      },
+      {
+        "label": "止まる／止める",
+        "cells": [
+          "車が止まる",
+          "車を止める",
+          "stop",
+          "車が止まっている",
+          "車が止めてある"
+        ]
+      },
+      {
+        "label": "壊れる／壊す",
+        "cells": [
+          "携帯が壊れる",
+          "携帯を壊す",
+          "break",
+          "携帯が壊れている",
+          "—"
+        ]
+      },
+      {
+        "label": "入る／入れる",
+        "cells": [
+          "お金が入る",
+          "お金を入れる",
+          "go in / put in",
+          "お金が入っている",
+          "お金が入れてある"
+        ]
+      },
+      {
+        "label": "落ちる／落とす",
+        "cells": [
+          "財布が落ちる",
+          "財布を落とす",
+          "fall / drop",
+          "財布が落ちている",
+          "—"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "風で窓が開いた。／私が窓を開けた。",
+      "reading": "かぜで まどが あいた。／わたしが まどを あけた。",
+      "en": "The window opened in the wind. / I opened the window.",
+      "note": "風で (cause) + が + 開いた; 私が + を + 開けた."
+    },
+    {
+      "ja": "授業が始まります。／先生が授業を始めます。",
+      "reading": "じゅぎょうが はじまります。／せんせいが じゅぎょうを はじめます。",
+      "en": "Class begins. / The teacher begins the class.",
+      "note": "始まる (intransitive) vs 始める (transitive) with 先生 as the doer."
+    },
+    {
+      "ja": "携帯が壊れた。／弟が携帯を壊した。",
+      "reading": "けいたいが こわれた。／おとうとが けいたいを こわした。",
+      "en": "The phone broke. / My brother broke the phone.",
+      "note": "壊れた describes the result; 壊した names the person responsible."
+    },
+    {
+      "ja": "あ、電気がついている。誰かいるのかな。／出かける前に電気を消してください。",
+      "reading": "あ、でんきが ついている。だれか いるのかな。／でかける まえに でんきを けしてください。",
+      "en": "Oh, the light is on. I wonder if someone's there. / Please turn off the light before you go out.",
+      "note": "つく (intransitive) + ている = a state; 消す (transitive) + てください = an instruction."
+    },
+    {
+      "ja": "この机の上には、いつも花が飾ってある。",
+      "reading": "この つくえの うえには、いつも はなが かざってある。",
+      "en": "There are always flowers arranged on this desk.",
+      "note": "Transitive 飾る + てある: someone put them there on purpose, and they remain."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てある",
+      "difference": "Transitive verb + てある describes a state resulting from someone's deliberate action. This lesson gives the verb pairs the pattern is built on.",
+      "id": "n4-grammar-25"
+    },
+    {
+      "pattern": "〜ておく",
+      "difference": "Transitive verb + ておく = do in advance. Intransitive verbs are not used with ておく.",
+      "id": "n4-grammar-21"
+    },
+    {
+      "pattern": "Passive form",
+      "difference": "Both 窓が壊れた and 窓が壊された have が, but the passive names an action done by someone; the intransitive just reports the change.",
+      "id": "n4-grammar-4"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ドアを開きました。",
+      "right": "ドアを開けました。／ ドアが開きました。",
+      "why": "開く is intransitive and cannot take を. With を you need the transitive 開ける."
+    },
+    {
+      "wrong": "電気がつけている。",
+      "right": "電気がついている。／ 電気がつけてある。",
+      "why": "つける is transitive; with が and ている you need the intransitive つく. If you want to say someone left it on, use つけてある."
+    },
+    {
+      "wrong": "私はパソコンが壊した。",
+      "right": "私はパソコンを壊した。",
+      "why": "壊す is transitive: the object takes を. パソコンが壊れた is the intransitive version."
+    }
+  ],
+  "usageNotes": [
+    "Some verbs have no partner and can be both (開く／ひらく); others like 食べる or 走る have no pair at all.",
+    "The most tested pairs at N4: 開く／開ける, 閉まる／閉める, つく／つける, 消える／消す, 始まる／始める, 止まる／止める, 壊れる／壊す, 入る／入れる, 出る／出す, 落ちる／落とす, 決まる／決める, 見つかる／見つける.",
+    "Intransitive + ている describes states you observe (窓が閉まっている); transitive + てある adds \"someone did it for a reason\"."
+  ],
+  "jlptTips": [
+    "Look at the particle before the blank: が → intransitive, を → transitive. Then pick the correct member of the pair.",
+    "For てある the verb must be transitive even though the noun takes が (ドアが開けてある). For ている with a state, the verb is intransitive (ドアが開いている)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-112-1",
+    "q-n4-g-112-2",
+    "q-n4-g-112-3",
+    "q-n4-g-112-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-112-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

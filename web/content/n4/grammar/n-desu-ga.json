@@ -1,0 +1,110 @@
+{
+  "id": "n4-grammar-95",
+  "slug": "n-desu-ga",
+  "level": "n4",
+  "order": 95,
+  "title": "〜んですが / 〜んですけど (prefacing a request or question)",
+  "romaji": "n desu ga / n desu kedo",
+  "meaning": "Introduces a situation before making a request, asking for advice, or seeking permission; softens the interaction.",
+  "simpleExplanation": "〜んですが introduces your situation before you ask for something. 日本語を勉強しているんですが、いい本を教えてください = \"I'm studying Japanese, and (so) could you recommend a good book?\". The んです explains your background; the が is not really \"but\", it is a soft link that gives the listener a moment to prepare for the request. It makes questions and requests feel polite and natural instead of sudden. The casual form is 〜んだけど.",
+  "whenUsed": "Asking for help, advice or permission at shops, offices, school and work: 道に迷ったんですが…, 予約をしたいんですが…, 来週休みたいんですが…. Very often the sentence stops at 〜んですが and the listener guesses the request. Used at every politeness level (〜んですけど, 〜のですが in writing).",
+  "formation": [
+    "V-plain / い-adjective + んですが: 迷ったんですが, 頭が痛いんですが",
+    "な-adjective + なんですが: 苦手なんですが",
+    "Noun + なんですが: 初めてなんですが",
+    "Followed by a request or question: 〜ていただけませんか / 〜てもいいですか / どうすればいいですか",
+    "Casual: 〜んだけど; written: 〜のですが"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "日本語を勉強している",
+        "role": "your situation (plain form)"
+      },
+      {
+        "text": "んですが、",
+        "role": "explanation + soft link",
+        "highlight": true
+      },
+      {
+        "text": "いい本を教えていただけませんか。",
+        "role": "request / question"
+      }
+    ],
+    "translation": "I'm studying Japanese, so could you recommend a good book?"
+  },
+  "examples": [
+    {
+      "ja": "日本語を勉強しているんですが、いい本を教えてください。",
+      "reading": "にほんごを べんきょうしているんですが、いい ほんを おしえてください。",
+      "en": "I'm studying Japanese; could you recommend a good book?",
+      "note": "Background (studying Japanese) + んですが + request."
+    },
+    {
+      "ja": "すみません、来週の金曜日に休みを取りたいんですが、よろしいでしょうか。",
+      "reading": "すみません、らいしゅうの きんようびに やすみを とりたいんですが、よろしいでしょうか。",
+      "en": "Excuse me, I'd like to take next Friday off. Would that be all right?",
+      "note": "〜たいんですが prepares the listener before asking permission."
+    },
+    {
+      "ja": "あのう、道に迷ってしまったんですが…。",
+      "reading": "あのう、みちに まよってしまったんですが…。",
+      "en": "Um, I seem to have got lost… (could you help?)",
+      "note": "The request is left unsaid; the listener understands from んですが."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ていただけませんか",
+      "difference": "The polite request that usually follows んですが. んですが sets the scene; ていただけませんか makes the request.",
+      "id": "n4-grammar-76"
+    },
+    {
+      "pattern": "〜のに (contrast)",
+      "difference": "のに is a real \"although\". The が in んですが is a soft connector with no contrast.",
+      "id": "n4-grammar-43"
+    },
+    {
+      "pattern": "〜が (but)",
+      "difference": "Plain が can be contrastive (高いですが、買います). After んです in a request it is just an introduction."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "コピー機が壊れましたんですが、直していただけませんか。",
+      "right": "コピー機が壊れたんですが、直していただけませんか。",
+      "why": "んです attaches to the plain form (壊れた), not to the ます-form."
+    },
+    {
+      "wrong": "初めてんですが、どうすればいいですか。",
+      "right": "初めてなんですが、どうすればいいですか。",
+      "why": "Nouns and な-adjectives need な before んです."
+    },
+    {
+      "wrong": "予約したいですが、部屋はありますか。",
+      "right": "予約したいんですが、部屋はありますか。",
+      "why": "Without ん the sentence is grammatical but sounds abrupt; the explaining ん is what makes the introduction polite."
+    }
+  ],
+  "usageNotes": [
+    "Trailing off at 〜んですが… is polite, not rude: it invites the listener to offer help.",
+    "In casual speech use 〜んだけど: 明日忙しいんだけど、手伝ってくれない？",
+    "Do not use んですが for pure statements with no request or question following; it would leave the listener waiting."
+  ],
+  "jlptTips": [
+    "In 文法形式, the blank before ですが usually needs ん (or の) attached to a plain form. Reject ます-forms + んですが and bare nouns without な.",
+    "In listening and reading, 〜んですが signals that a request is coming; the next line is usually 〜ていただけませんか or 〜てもいいですか."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-95-1",
+    "q-n4-g-95-2",
+    "q-n4-g-95-3",
+    "q-n4-g-95-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-95-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

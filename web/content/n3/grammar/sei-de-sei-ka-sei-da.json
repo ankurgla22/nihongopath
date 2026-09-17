@@ -1,0 +1,140 @@
+{
+  "id": "n3-grammar-17",
+  "slug": "sei-de-sei-ka-sei-da",
+  "level": "n3",
+  "order": 17,
+  "title": "〜せいで / 〜せいか / 〜せいだ",
+  "romaji": "sei de sei ka sei da",
+  "meaning": "Because of… (bad result) / it's …'s fault",
+  "simpleExplanation": "〜せいで names the cause of a bad result and puts the blame on it: 寝坊したせいで、電車に乗り遅れた = because I overslept, I missed the train. 〜せいだ ends a sentence: 失敗したのは私のせいだ = the failure is my fault. 〜せいか adds uncertainty: 年のせいか = maybe because of my age.",
+  "whenUsed": "Complaints, apologies, explaining misfortune. Casual and formal alike. Use おかげで for good results and ために for neutral, formal causes.",
+  "formation": [
+    "Verb / い-adjective (plain form) + せいで / せいか / せいだ",
+    "な-adjective + な + せいで",
+    "Noun + の + せいで",
+    "〜せいにする = to blame it on…"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Cause words by feeling",
+    "columns": [
+      "Result",
+      "Feeling"
+    ],
+    "rows": [
+      {
+        "label": "〜せいで",
+        "cells": [
+          "bad",
+          "blame"
+        ]
+      },
+      {
+        "label": "〜おかげで",
+        "cells": [
+          "good",
+          "gratitude"
+        ]
+      },
+      {
+        "label": "〜ために",
+        "cells": [
+          "either",
+          "neutral, formal"
+        ]
+      },
+      {
+        "label": "〜せいか",
+        "cells": [
+          "bad",
+          "maybe because (unsure)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "寝坊したせいで、電車に乗り遅れた。",
+      "reading": "ねぼうしたせいで、でんしゃにのりおくれた。",
+      "en": "Because I overslept, I missed the train.",
+      "note": "Past verb + せいで: the cause of missing the train."
+    },
+    {
+      "ja": "年のせいか、最近疲れやすい。",
+      "reading": "としのせいか、さいきんつかれやすい。",
+      "en": "Maybe because of my age, I get tired easily these days.",
+      "note": "Noun + のせいか: an uncertain cause."
+    },
+    {
+      "ja": "失敗したのは私のせいだ。",
+      "reading": "しっぱいしたのはわたしのせいだ。",
+      "en": "The failure is my fault.",
+      "note": "〜のは〜のせいだ: sentence-final blame."
+    },
+    {
+      "ja": "台風のせいで、楽しみにしていた旅行が中止になった。",
+      "reading": "たいふうのせいで、たのしみにしていたりょこうがちゅうしになった。",
+      "en": "Because of the typhoon, the trip I was looking forward to was canceled.",
+      "note": "Noun + のせいで, with the disappointment clearly stated."
+    },
+    {
+      "ja": "自分の失敗を人のせいにするな。",
+      "reading": "じぶんのしっぱいをひとのせいにするな。",
+      "en": "Don't blame your own mistakes on other people.",
+      "note": "〜のせいにする = to blame on."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜おかげで",
+      "difference": "The mirror image: a good result and gratitude.",
+      "id": "n3-grammar-18"
+    },
+    {
+      "pattern": "〜ために (cause)",
+      "difference": "Neutral, formal statement of cause with no blame.",
+      "id": "n3-grammar-19"
+    },
+    {
+      "pattern": "〜から / 〜ので",
+      "difference": "Plain reasons; no emotional judgement."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生のせいで、合格できました。",
+      "right": "先生のおかげで、合格できました。",
+      "why": "A good result needs おかげで. せいで with a good result sounds sarcastic or rude."
+    },
+    {
+      "wrong": "寝坊のせいで遅刻した。(with a verb)",
+      "right": "寝坊したせいで遅刻した。",
+      "why": "Verbs attach in plain form; の is only for nouns (寝坊 as a noun is possible, but mixing 寝坊した + の is wrong)."
+    },
+    {
+      "wrong": "疲れたのはあなたのせいか。",
+      "right": "疲れたのはあなたのせいだ。",
+      "why": "せいか means \"maybe because\" inside a sentence; to blame directly use せいだ."
+    }
+  ],
+  "usageNotes": [
+    "Always negative outcome and blame. Positive counterpart is 〜おかげで. 〜せいにする = \"blame it on ~\".",
+    "せいか softens blame and is polite when you don't want to accuse anyone."
+  ],
+  "jlptTips": [
+    "Judge the result: bad result = せいで, good result = おかげで. This is the number one test point.",
+    "A hedge like 〜かもしれない or 気がする in the main clause pairs with せいか.",
+    "〜のは〜せいだ in 文法形式: the cause is stated at the end, and the blank is せいだ."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-17-1",
+    "q-n3-g-17-2",
+    "q-n3-g-17-3",
+    "q-n3-g-17-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-17-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-67",
+  "slug": "ni-shitemo",
+  "level": "n3",
+  "order": 67,
+  "title": "〜にしても",
+  "romaji": "ni shitemo",
+  "meaning": "Even if… / even though… / whether… or…",
+  "simpleExplanation": "〜にしても admits something and then objects: 忙しいにしても、電話ぐらいはできるはずだ = even if you're busy, you should at least be able to call. Doubled, 〜にしても〜にしても means \"whether A or B\": 行くにしても行かないにしても、早く決めてください.",
+  "whenUsed": "Speech and writing. Written and more formal: にせよ / にしろ (N2). Also それにしても = \"even so / still\".",
+  "formation": [
+    "Plain form + にしても",
+    "Noun + にしても",
+    "A にしても B にしても (whether A or B)",
+    "Sentence-initial: それにしても"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "にしても / としても / にしては",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜にしても",
+        "cells": [
+          "even granting that",
+          "忙しいにしても電話はできる"
+        ]
+      },
+      {
+        "label": "〜としても",
+        "cells": [
+          "even supposing (hypothetical)",
+          "忙しいとしても電話はできる"
+        ]
+      },
+      {
+        "label": "〜にしては",
+        "cells": [
+          "for a… (surprising)",
+          "忙しい人にしては暇そうだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "忙しいにしても、電話ぐらいはできるはずだ。",
+      "reading": "いそがしいにしても、でんわぐらいはできるはずだ。",
+      "en": "Even if you're busy, you should at least be able to call.",
+      "note": "Admit (busy) then object (could at least call)."
+    },
+    {
+      "ja": "行くにしても行かないにしても、早く決めてください。",
+      "reading": "いくにしてもいかないにしても、はやくきめてください。",
+      "en": "Whether you go or not, please decide soon.",
+      "note": "Doubled: whether you go or not."
+    },
+    {
+      "ja": "冗談にしても、言いすぎだ。",
+      "reading": "じょうだんにしても、いいすぎだ。",
+      "en": "Even as a joke, that's going too far.",
+      "note": "Noun + にしても: even as a joke."
+    },
+    {
+      "ja": "値段が高いのはわかる。それにしても、高すぎる。",
+      "reading": "ねだんがたかいのはわかる。それにしても、たかすぎる。",
+      "en": "I understand it's expensive. Even so, it's too expensive.",
+      "note": "Sentence-initial それにしても."
+    },
+    {
+      "ja": "電車にしてもバスにしても、朝は込んでいる。",
+      "reading": "でんしゃにしてもバスにしても、あさはこんでいる。",
+      "en": "Whether it's the train or the bus, mornings are crowded.",
+      "note": "Noun にしても Noun にしても."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜としても",
+      "difference": "Hypothetical \"even supposing\". にしても accepts a real or likely fact.",
+      "id": "n3-grammar-65"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "Comparison with an expectation; not a concession.",
+      "id": "n3-grammar-66"
+    },
+    {
+      "pattern": "たとえ〜ても",
+      "difference": "Plain concession with the て-form.",
+      "id": "n3-grammar-64"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "忙しいにしては、電話ぐらいはできるはずだ。",
+      "right": "忙しいにしても、電話ぐらいはできるはずだ。",
+      "why": "A concession (\"even if\") is にしても; にしては compares to expectation."
+    },
+    {
+      "wrong": "行くにしてもは",
+      "right": "行くにしても",
+      "why": "No extra は after にしても."
+    },
+    {
+      "wrong": "冗談なにしても",
+      "right": "冗談にしても",
+      "why": "Nouns attach directly."
+    }
+  ],
+  "usageNotes": [
+    "Close to 〜としても; にしても admits the fact then objects. Written: 〜にせよ / 〜にしろ (N2).",
+    "The main clause after にしても often contains ぐらい / せめて / 少しは: a minimum expectation."
+  ],
+  "jlptTips": [
+    "Concession + a minimum expectation (ぐらい, せめて) = にしても.",
+    "Doubled pattern with two opposite options = にしても〜にしても (or にせよ〜にせよ).",
+    "にしては is the trap when the noun could set an expectation; read the main clause for objection vs surprise."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-67-1",
+    "q-n3-g-67-2",
+    "q-n3-g-67-3",
+    "q-n3-g-67-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-67-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

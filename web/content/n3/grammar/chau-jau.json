@@ -1,0 +1,120 @@
+{
+  "id": "n3-grammar-124",
+  "slug": "chau-jau",
+  "level": "n3",
+  "order": 124,
+  "title": "〜ちゃう / 〜じゃう (contraction of 〜てしまう)",
+  "romaji": "chau / jau",
+  "meaning": "end up …ing / do… completely (casual contraction of 〜てしまう)",
+  "simpleExplanation": "〜ちゃう is how 〜てしまう sounds in relaxed speech: 忘れちゃった = 忘れてしまった \"oops, I forgot\". It expresses regret (something bad happened) or completion (all done). After a て-form that ends in で (読んで, 飲んで), it becomes 〜じゃう: 読んじゃう, 飲んじゃう.",
+  "whenUsed": "Casual conversation with friends and family, drama and anime dialogue, listening tests. Never in essays or formal emails, where you write 〜てしまう. 〜ちゃいます is a casual-polite hybrid heard in friendly shops and offices.",
+  "formation": [
+    "て-form ending in て → replace て with ちゃう (食べて → 食べちゃう)",
+    "て-form ending in で → replace で with じゃう (飲んで → 飲んじゃう)",
+    "Past: ちゃった / じゃった; Polite: ちゃいます / じゃいます",
+    "Negative: ちゃわない; Volitional: ちゃおう"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "忘れてしまった",
+        "en": "I forgot (standard 〜てしまう)"
+      },
+      {
+        "ja": "忘れちゃった",
+        "en": "same meaning, casual (て + しまった → ちゃった)"
+      },
+      {
+        "ja": "飲んでしまった → 飲んじゃった",
+        "en": "で-type て-form → じゃった"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "宿題を忘れちゃった。",
+      "reading": "しゅくだいをわすれちゃった。",
+      "en": "I forgot my homework (oops).",
+      "note": "Regret: forgot homework."
+    },
+    {
+      "ja": "財布をなくしちゃったんだ。",
+      "reading": "さいふをなくしちゃったんだ。",
+      "en": "I've gone and lost my wallet.",
+      "note": "Regret: lost a wallet; んだ adds explanation."
+    },
+    {
+      "ja": "ケーキ、全部食べちゃったの？",
+      "reading": "ケーキ、ぜんぶたべちゃったの？",
+      "en": "Did you eat all the cake?",
+      "note": "Completion: ate it all."
+    },
+    {
+      "ja": "そんなに飲んだら、酔っちゃうよ。",
+      "reading": "そんなにのんだら、よっちゃうよ。",
+      "en": "If you drink that much, you'll get drunk.",
+      "note": "Future/likely outcome: 酔ってしまう → 酔っちゃう."
+    },
+    {
+      "ja": "先に食べちゃおうか。",
+      "reading": "さきにたべちゃおうか。",
+      "en": "Shall we just go ahead and eat?",
+      "note": "Volitional ちゃおう: 'let's just do it'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てしまう",
+      "difference": "Same meaning, standard form for writing and formal speech."
+    },
+    {
+      "pattern": "〜とく",
+      "difference": "Contraction of 〜ておく (preparation), not of 〜てしまう.",
+      "id": "n3-grammar-125"
+    },
+    {
+      "pattern": "〜てる",
+      "difference": "Contraction of 〜ている (progress or state).",
+      "id": "n3-grammar-126"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "飲んちゃった",
+      "right": "飲んじゃった",
+      "why": "After a で-type て-form (飲んで), the contraction is じゃう."
+    },
+    {
+      "wrong": "レポートで「忘れちゃいました」と書く",
+      "right": "忘れてしまいました",
+      "why": "ちゃう is spoken and casual; formal writing needs てしまう."
+    },
+    {
+      "wrong": "食べちゃった → translated as 'I want to eat'",
+      "right": "'I ate it (all / by mistake)'",
+      "why": "ちゃった is the past of てしまう; it has nothing to do with wanting."
+    }
+  ],
+  "usageNotes": [
+    "Pairs to hear: 行っちゃった, 言っちゃった, 死んじゃった, 読んじゃった, しちゃった, 来ちゃった.",
+    "In listening, ちゃった at the end of a sentence often signals a problem (lost, broke, forgot).",
+    "Kansai speech uses 〜てもうた instead; the JLPT uses standard ちゃう."
+  ],
+  "jlptTips": [
+    "Choose ちゃう vs じゃう by the て-form: て → ちゃう, で → じゃう.",
+    "In 聴解, treat ちゃった as てしまった and listen for what went wrong.",
+    "If the register is formal (です・ます letter, report), the contraction is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-124-1",
+    "q-n3-g-124-2",
+    "q-n3-g-124-3",
+    "q-n3-g-124-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-124-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

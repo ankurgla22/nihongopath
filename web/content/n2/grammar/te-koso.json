@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-178",
+  "slug": "te-koso",
+  "level": "n2",
+  "order": 178,
+  "title": "〜てこそ",
+  "romaji": "te koso",
+  "meaning": "only by doing, only when (a positive result follows)",
+  "simpleExplanation": "〜てこそ means \"only by doing X does Y become true\": the action X is the necessary condition for a positive result. 自分でやってこそ、意味がある (it is meaningful only if you do it yourself). The implication is that without X, Y does not hold. The main clause is a positive value judgment.",
+  "whenUsed": "Both speech and writing, slightly formal; common in advice, mottos, and essays. It is emphatic and sounds a little preachy in casual talk.",
+  "formation": [
+    "Verb (て-form) + こそ",
+    "Main clause: positive judgment (意味がある / 価値がある / 本当の〜だ / 〜と言える)",
+    "Negative counterpart: 〜なくては〜ない / 〜てはじめて (similar)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "自分でやって",
+        "role": "the necessary action (て-form)"
+      },
+      {
+        "text": "こそ",
+        "role": "only by this",
+        "highlight": true
+      },
+      {
+        "text": "、意味がある",
+        "role": "positive result that depends on it"
+      }
+    ],
+    "translation": "It is meaningful only if you do it yourself."
+  },
+  "examples": [
+    {
+      "ja": "自分でやってこそ、意味がある。",
+      "reading": "じぶんでやってこそ、いみがある。",
+      "en": "It is meaningful only if you do it yourself.",
+      "note": "The action makes the result meaningful."
+    },
+    {
+      "ja": "苦労を経験してこそ、人の痛みが分かる。",
+      "reading": "くろうをけいけんしてこそ、ひとのいたみがわかる。",
+      "en": "Only by experiencing hardship can one understand others' pain.",
+      "note": "Experiencing hardship as the condition for understanding."
+    },
+    {
+      "ja": "実際に会ってこそ、本当の気持ちが伝わる。",
+      "reading": "じっさいにあってこそ、ほんとうのきもちがつたわる。",
+      "en": "Only by actually meeting can true feelings be conveyed.",
+      "note": "Meeting in person as the condition for conveying feelings."
+    },
+    {
+      "ja": "困難を乗り越えてこそ、人は成長する。",
+      "reading": "こんなんをのりこえてこそ、ひとはせいちょうする。",
+      "en": "Only by overcoming difficulties do people grow.",
+      "note": "A motto-like statement."
+    },
+    {
+      "ja": "約束を守ってこそ、信頼される人になれる。",
+      "reading": "やくそくをまもってこそ、しんらいされるひとになれる。",
+      "en": "Only by keeping promises can you become someone who is trusted.",
+      "note": "The result is positive and depends on the action."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てはじめて",
+      "difference": "\"Only after X does one realize Y\": focuses on a realization; てこそ focuses on value.",
+      "id": "n2-grammar-183"
+    },
+    {
+      "pattern": "〜からこそ",
+      "difference": "\"Precisely because\": a reason, not a condition.",
+      "id": "n2-grammar-177"
+    },
+    {
+      "pattern": "〜ばこそ",
+      "difference": "Formal 'precisely because' (N1)."
+    },
+    {
+      "pattern": "〜こそ",
+      "difference": "Emphasis on a noun or phrase.",
+      "id": "n2-grammar-179"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "自分でやるこそ、意味がある。",
+      "right": "自分でやってこそ、意味がある。",
+      "why": "こそ attaches to the て-form in this pattern."
+    },
+    {
+      "wrong": "自分でやってこそ、失敗する。",
+      "right": "自分でやってこそ、意味がある。",
+      "why": "The main clause must be positive; a negative result contradicts the pattern."
+    },
+    {
+      "wrong": "会ってこそ、分かった。(as a realization)",
+      "right": "会ってはじめて、分かった。",
+      "why": "For a realization after an event, てはじめて is the natural choice."
+    }
+  ],
+  "usageNotes": [
+    "Common endings: 意味がある, 価値がある, 本物だ, 〜と言える, 〜できる.",
+    "Often in mottos: 努力してこそ、夢は叶う.",
+    "The implied contrast: without X, no Y."
+  ],
+  "jlptTips": [
+    "If the て-form precedes the blank and the main clause is a positive value, choose てこそ.",
+    "Distinguish from てはじめて (realization) by the main clause verb (分かる / 気づく → てはじめて).",
+    "Distractors include からこそ and こそ; check the form before the blank."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-178-1",
+    "q-n2-g-178-2",
+    "q-n2-g-178-3",
+    "q-n2-g-178-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-178-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

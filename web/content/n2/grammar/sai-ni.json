@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-49",
+  "slug": "sai-ni",
+  "level": "n2",
+  "order": 49,
+  "title": "〜際(に)",
+  "romaji": "sai (ni)",
+  "meaning": "on the occasion of, when (formal)",
+  "simpleExplanation": "〜際(に) means \"on the occasion of, when\" and is the formal equivalent of 〜時(に). It is used for special or official occasions (applying, visiting, leaving, an emergency), typically in announcements and business language.",
+  "whenUsed": "書き言葉 and formal speech (announcements, notices, business letters). Verbs attach in Vる or Vた form; nouns take の (お帰りの際). It is not used for ordinary daily events (ご飯を食べる際 sounds odd) and never in casual chat.",
+  "formation": [
+    "Vる/Vた + 際(に) / N + の + 際(に)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"When\" by formality",
+    "items": [
+      {
+        "label": "〜時(に)",
+        "description": "Neutral, any situation."
+      },
+      {
+        "label": "〜際(に)",
+        "description": "Formal occasion: notices, business."
+      },
+      {
+        "label": "〜に際して",
+        "description": "Very formal, major undertakings (N1-level feel)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お帰りの際は、忘れ物にご注意ください。",
+      "reading": "おかえりのさいは、わすれものにごちゅういください。",
+      "en": "When leaving, please make sure you have all your belongings.",
+      "note": "N + の + 際は in an announcement."
+    },
+    {
+      "ja": "申し込みの際に、身分証明書が必要です。",
+      "reading": "もうしこみのさいに、みぶんしょうめいしょがひつようです。",
+      "en": "An ID is required when applying.",
+      "note": "N + の + 際に in application instructions."
+    },
+    {
+      "ja": "来日した際に、ぜひお立ち寄りください。",
+      "reading": "らいにちしたさいに、ぜひおたちよりください。",
+      "en": "When you come to Japan, please do drop by.",
+      "note": "Vた + 際に in a polite invitation."
+    },
+    {
+      "ja": "非常の際は、エレベーターを使わないでください。",
+      "reading": "ひじょうのさいは、エレベーターをつかわないでください。",
+      "en": "In an emergency, please do not use the elevator.",
+      "note": "Standard sign wording."
+    },
+    {
+      "ja": "ご利用の際には、会員カードをご提示ください。",
+      "reading": "ごりようのさいには、かいいんカードをごていじください。",
+      "en": "When using the service, please show your membership card.",
+      "note": "際には adds emphasis in formal notices."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜時(に)",
+      "difference": "Neutral; usable everywhere."
+    },
+    {
+      "pattern": "〜に際して",
+      "difference": "Even more formal; marks the start of a significant undertaking.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜に当たって",
+      "difference": "\"On the occasion of\" a major positive event; speeches.",
+      "id": "n2-grammar-98"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "テレビを見る際に、お菓子を食べた。",
+      "right": "テレビを見る時に、お菓子を食べた。",
+      "why": "際 is for formal occasions, not casual daily actions."
+    },
+    {
+      "wrong": "お帰り際",
+      "right": "お帰りの際",
+      "why": "Nouns take の before 際 (帰り際 is a different word meaning \"just as one leaves\")."
+    },
+    {
+      "wrong": "会議中の際",
+      "right": "会議の際",
+      "why": "Do not combine 中 and 際."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: お帰りの際, ご利用の際, 非常の際, 申し込みの際, この際 (\"while we're at it\").",
+    "際して / 際し appear in official documents.",
+    "The reading is さい."
+  ],
+  "jlptTips": [
+    "Formal notice language (ご〜・お〜・ください) + blank meaning \"when\" → 際.",
+    "Distractors: 最中に (\"in the middle of\"), うちに, 際して. 最中に needs an interrupted ongoing action.",
+    "In 並べ替え, chunks like お申し込みの + 際に go together."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-49-1",
+    "q-n2-g-49-2",
+    "q-n2-g-49-3",
+    "q-n2-g-49-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-49-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

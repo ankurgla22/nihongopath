@@ -1,0 +1,120 @@
+{
+  "id": "n4-grammar-90",
+  "slug": "nakunaru",
+  "level": "n4",
+  "order": 90,
+  "title": "〜なくなる \"stop / no longer / become unable\"",
+  "romaji": "nakunaru",
+  "meaning": "A change from an affirmative state to a negative one: \"no longer do / can no longer\".",
+  "simpleExplanation": "〜なくなる describes a change to a negative state: something that used to happen no longer does, or something you could do you can no longer do. 笑わなくなった = \"he stopped laughing / doesn't laugh any more\"; 読めなくなった = \"I can no longer read\". It is simply the negative form (〜ない) with い changed to く plus なる (become). It works with verbs, adjectives and nouns: 痛くなくなる (stop hurting), 好きじゃなくなる (stop liking).",
+  "whenUsed": "Talking about changes in habits, health, ability and feelings: 最近、テレビを見なくなった; 年を取って目が見えなくなった; 前ほど好きじゃなくなった. Common in conversation and in stories about growing up or getting older. Neutral in register: fine in polite (〜なくなりました) and plain speech.",
+  "formation": [
+    "V-ない → なく + なる: 行かない → 行かなくなる",
+    "Potential + ない → なくなる: 読めない → 読めなくなる (can no longer)",
+    "い-adjective: 痛い → 痛くない → 痛くなくなる",
+    "な-adjective / Noun: 好きじゃない → 好きじゃなくなる, 学生じゃなくなる",
+    "Past: なくなった; polite: なくなりました"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "小さい字が読める",
+        "en": "before: can read small print"
+      },
+      {
+        "ja": "小さい字が読めない",
+        "en": "negative: cannot read small print"
+      },
+      {
+        "ja": "小さい字が読めなくなった",
+        "en": "the change: can no longer read small print"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "最近、彼はあまり笑わなくなった。",
+      "reading": "さいきん、かれは あまり わらわなくなった。",
+      "en": "Recently he doesn't laugh much any more.",
+      "note": "A habit that stopped: 笑う → 笑わない → 笑わなくなる."
+    },
+    {
+      "ja": "目が悪くなって、小さい字が読めなくなった。",
+      "reading": "めが わるくなって、ちいさい じが よめなくなった。",
+      "en": "My eyes got worse and I can no longer read small print.",
+      "note": "Ability lost: potential 読める → 読めない → 読めなくなる."
+    },
+    {
+      "ja": "薬を飲んだら、痛くなくなりました。",
+      "reading": "くすりを のんだら、いたくなくなりました。",
+      "en": "After taking the medicine, it stopped hurting.",
+      "note": "い-adjective: 痛い → 痛くない → 痛くなくなる."
+    },
+    {
+      "ja": "大学に入ってから、家族とあまり話さなくなりました。",
+      "reading": "だいがくに はいってから、かぞくと あまり はなさなくなりました。",
+      "en": "Since starting university, I don't talk with my family much any more.",
+      "note": "A habit that faded; あまり + negative fits naturally."
+    },
+    {
+      "ja": "事故で電車が動かなくなって、会社に遅れた。",
+      "reading": "じこで でんしゃが うごかなくなって、かいしゃに おくれた。",
+      "en": "The trains stopped running because of an accident, and I was late for work.",
+      "note": "The て-form 〜なくなって links the change to its consequence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "ようになる is the change TO an affirmative state (話せるようになった). なくなる is the change TO a negative state. 〜ないようになる exists but is rare.",
+      "id": "n4-grammar-14"
+    },
+    {
+      "pattern": "なくなる (lose / run out)",
+      "difference": "The verb なくなる after a noun + が means \"disappear / run out\" (財布がなくなった). After a verb or adjective it is the change pattern of this lesson."
+    },
+    {
+      "pattern": "〜すぎる",
+      "difference": "No relation in meaning, but both attach to stems; do not confuse 食べなくなる (stopped eating) with 食べすぎる (eat too much).",
+      "id": "n4-grammar-30"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "最近、彼は笑わないなった。",
+      "right": "最近、彼は笑わなくなった。",
+      "why": "Change ない to なく before なる, just like an い-adjective (高い → 高くなる)."
+    },
+    {
+      "wrong": "目が悪くて、読まなくなった。(meaning: can no longer read)",
+      "right": "目が悪くて、読めなくなった。",
+      "why": "For lost ability use the potential form first: 読める → 読めなくなる. 読まなくなる only means \"stopped reading\" as a habit."
+    },
+    {
+      "wrong": "薬を飲んだら、痛いじゃなくなった。",
+      "right": "薬を飲んだら、痛くなくなった。",
+      "why": "い-adjectives form the negative with くない, so the change is 痛くなくなる. じゃない is for nouns and な-adjectives."
+    }
+  ],
+  "usageNotes": [
+    "〜なくなる is the everyday negative partner of ようになる. Say 食べなくなった rather than 食べないようになった.",
+    "〜なくなってきた stresses a gradual change still in progress: だんだん分からなくなってきた.",
+    "Time cues often go with it: 最近, もう (〜なくなった = no longer), 年を取って, 〜てから."
+  ],
+  "jlptTips": [
+    "If the sentence describes losing an ability (目が悪くなって, 年を取って), the answer is potential + なくなった (読めなくなった), not the plain negative.",
+    "Distractors often show なく in the wrong place (ないなった, なくてなった). The correct shape is always 〜なく + なる."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-90-1",
+    "q-n4-g-90-2",
+    "q-n4-g-90-3",
+    "q-n4-g-90-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-90-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,122 @@
+{
+  "id": "n2-grammar-182",
+  "slug": "zu-jimai",
+  "level": "n2",
+  "order": 182,
+  "title": "〜ずじまい",
+  "romaji": "zu jimai",
+  "meaning": "ended up not doing (something intended), regretfully",
+  "simpleExplanation": "〜ずじまい means \"ended up never doing X\": there was an intention or chance, but in the end X did not happen, and the speaker regrets it. 京都に行ったのにお寺を見ずじまいだった. It comes from ず (negative) + しまい (end). It is always about a missed opportunity.",
+  "whenUsed": "Both speech and writing; common in reflections and stories. It usually ends with だ / だった or で. In neutral statements use 結局〜なかった.",
+  "formation": [
+    "Verb (ない-stem) + ずじまい (する → せずじまい)",
+    "〜ずじまいだ / 〜ずじまいだった / 〜ずじまいで",
+    "Often with 結局 / とうとう / 〜のに",
+    "Typical verbs: 会わずじまい / 言えずじまい / 読まずじまい / 行かずじまい"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "お寺を見なかった",
+        "en": "did not see the temples (plain)"
+      },
+      {
+        "ja": "結局、お寺を見なかった",
+        "en": "in the end, did not see the temples"
+      },
+      {
+        "ja": "お寺を見ずじまいだった",
+        "en": "ended up never seeing the temples (regret; the chance was there)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "忙しくて、京都に行ったのにお寺を見ずじまいだった。",
+      "reading": "いそがしくて、きょうとにいったのにおてらをみずじまいだった。",
+      "en": "I was so busy that although I went to Kyoto I ended up not seeing any temples.",
+      "note": "A missed chance while in Kyoto."
+    },
+    {
+      "ja": "彼に本当の気持ちを言えずじまいで、卒業してしまった。",
+      "reading": "かれにほんとうのきもちをいえずじまいで、そつぎょうしてしまった。",
+      "en": "I graduated without ever being able to tell him my true feelings.",
+      "note": "言えずじまい: never managed to say it; で links to the result."
+    },
+    {
+      "ja": "結局、その本は読まずじまいになった。",
+      "reading": "けっきょく、そのほんはよまずじまいになった。",
+      "en": "In the end, I never got around to reading that book.",
+      "note": "結局 + ずじまい: never got around to it."
+    },
+    {
+      "ja": "せっかく買ったのに、そのカメラは一度も使わずじまいだった。",
+      "reading": "せっかくかったのに、そのカメラはいちどもつかわずじまいだった。",
+      "en": "Even though I bought it specially, I ended up never using that camera.",
+      "note": "せっかく〜のに strengthens the regret."
+    },
+    {
+      "ja": "彼女とは連絡が取れず、お礼も言えずじまいになった。",
+      "reading": "かのじょとはれんらくがとれず、おれいもいえずじまいになった。",
+      "en": "I could not reach her, so I ended up never even thanking her.",
+      "note": "ずじまいになる: another common ending."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "結局〜なかった",
+      "difference": "Neutral statement of the result; no nuance of missed chance."
+    },
+    {
+      "pattern": "〜ないまま",
+      "difference": "\"Without doing\" (a state continuing); less focus on the end result."
+    },
+    {
+      "pattern": "〜そびれる",
+      "difference": "\"Miss the chance to\" (言いそびれる); similar but a verb compound."
+    },
+    {
+      "pattern": "〜っぱなし",
+      "difference": "Leaving something undone or in a state; different focus."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "会わないじまい",
+      "right": "会わずじまい",
+      "why": "Use the ず form, not ない."
+    },
+    {
+      "wrong": "しずじまい",
+      "right": "せずじまい",
+      "why": "する becomes せず."
+    },
+    {
+      "wrong": "勉強せずじまいで合格した。",
+      "right": "勉強せずに合格した。",
+      "why": "ずじまい implies a regretted missed chance; passing without studying is not regret."
+    }
+  ],
+  "usageNotes": [
+    "せっかく〜のに and 結局 are common partners.",
+    "じまい comes from しまう / 仕舞い (end); rendaku makes it じまい.",
+    "The subject is usually the speaker or someone whose regret is described."
+  ],
+  "jlptTips": [
+    "If the sentence has 結局 / せっかく〜のに and a verb in ず form, choose ずじまい.",
+    "Check する → せずじまい.",
+    "Distractors include ないまま, っぱなし, そびれる. ずじまい is the only one meaning 'ended up never doing'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-182-1",
+    "q-n2-g-182-2",
+    "q-n2-g-182-3",
+    "q-n2-g-182-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-182-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

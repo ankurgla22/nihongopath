@@ -1,0 +1,128 @@
+{
+  "id": "n4-grammar-88",
+  "slug": "o-kudasai",
+  "level": "n4",
+  "order": 88,
+  "title": "お〜ください / ご〜ください (respectful request)",
+  "romaji": "o- V-masu kudasai / go- N kudasai",
+  "meaning": "A polite request to a superior or customer: \"please (do)\".",
+  "simpleExplanation": "お + V-ます stem + ください is a respectful request: お待ちください (please wait), お座りください (please sit). It is politer than 〜てください because the お prefix honours the listener's action. For kango する-verbs use ご + stem + ください: ご利用ください, ご注意ください. Verbs with special honorific forms use those: 見る → ご覧ください, 来る → お越しください / いらしてください, 食べる → お召し上がりください.",
+  "whenUsed": "Customer service, announcements, signs and notices (お手を触れないでください is different; signs use お〜ください for positive requests: お進みください, ご注意ください), business emails (ご確認ください), and polite speech to superiors. Not used among friends.",
+  "formation": [
+    "お + V-ます stem + ください: 待つ → お待ちください, 座る → お座りください, 入る → お入りください",
+    "ご + する-verb stem (kango) + ください: 利用する → ご利用ください, 注意する → ご注意ください",
+    "Special verbs: 見る → ご覧ください, 来る → お越しください, 食べる → お召し上がりください",
+    "Not with one-syllable stems: ×お見ください, ×お来ください",
+    "Even politer: お〜くださいませ / お〜いただけますか"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "待つ",
+        "en": "wait (plain)"
+      },
+      {
+        "ja": "待ってください",
+        "en": "polite request with て-form"
+      },
+      {
+        "ja": "待ち",
+        "en": "ます-stem"
+      },
+      {
+        "ja": "お待ちください",
+        "en": "お + stem + ください: respectful request"
+      },
+      {
+        "ja": "ご確認ください / ご覧ください",
+        "en": "kango verb with ご; special verb for 見る"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "こちらにお座りください。",
+      "reading": "こちらに おすわりください。",
+      "en": "Please sit here.",
+      "note": "座る → お座りください: a respectful invitation to sit."
+    },
+    {
+      "ja": "しばらくお待ちください。",
+      "reading": "しばらく おまちください。",
+      "en": "Please wait a moment.",
+      "note": "待つ → お待ちください: the standard phrase in shops and on the phone."
+    },
+    {
+      "ja": "ご自由にお取りください。",
+      "reading": "ごじゆうに おとりください。",
+      "en": "Please help yourself.",
+      "note": "取る → お取りください, with ご自由に (freely); typical sign language."
+    },
+    {
+      "ja": "詳しくは、こちらのパンフレットをご覧ください。",
+      "reading": "くわしくは、こちらの パンフレットを ごらんください。",
+      "en": "For details, please see this pamphlet.",
+      "note": "見る uses the special respectful form ご覧ください."
+    },
+    {
+      "ja": "お名前とご住所をご記入ください。",
+      "reading": "おなまえと ごじゅうしょを ごきにゅうください。",
+      "en": "Please fill in your name and address.",
+      "note": "記入する is kango → ご記入ください."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てください",
+      "difference": "The ordinary polite request. お〜ください is a step more respectful and is preferred to customers and superiors."
+    },
+    {
+      "pattern": "〜ていただけませんか",
+      "difference": "Asks whether the listener would do you a favour; softer and more negotiable. お〜ください is a polite instruction.",
+      "id": "n4-grammar-76"
+    },
+    {
+      "pattern": "お〜になる",
+      "difference": "Same prefix and stem, but になる describes what the respected person does; ください asks them to do it.",
+      "id": "n4-grammar-70"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "こちらをお見ください。",
+      "right": "こちらをご覧ください。",
+      "why": "One-syllable stems cannot take お〜ください; 見る uses ご覧ください."
+    },
+    {
+      "wrong": "お待ってください。",
+      "right": "お待ちください。",
+      "why": "The pattern uses the ます-stem (待ち), not the て-form. (待ってください without お is also fine.)"
+    },
+    {
+      "wrong": "ご待ちください。",
+      "right": "お待ちください。",
+      "why": "Native verbs take お; ご is for kango する-verbs (ご利用, ご注意)."
+    }
+  ],
+  "usageNotes": [
+    "Announcements: 足元にご注意ください, 少々お待ちください, ご自由にお使いください, お入りください.",
+    "Negative respectful requests do not use this pattern; say 〜ないでください or お〜にならないでください.",
+    "お召し上がりください, お休みください, お越しください, いらしてください are set forms worth memorising."
+  ],
+  "jlptTips": [
+    "Check the stem: お + ます-stem + ください. Distractors use the て-form (×お待ってください) or the wrong prefix (×ご待ち).",
+    "For 見る / 来る / 食べる, the correct answers are ご覧ください / お越しください / お召し上がりください, never お見ください or お来ください."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-88-1",
+    "q-n4-g-88-2",
+    "q-n4-g-88-3",
+    "q-n4-g-88-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-88-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

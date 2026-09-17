@@ -1,0 +1,142 @@
+{
+  "id": "n3-grammar-118",
+  "slug": "tsumori-datta",
+  "level": "n3",
+  "order": 118,
+  "title": "〜つもりだった",
+  "romaji": "tsumori datta",
+  "meaning": "I intended to… (but didn't) / I thought I had… (but I was wrong)",
+  "simpleExplanation": "〜つもりだった has two uses. (1) With the dictionary form: an intention that was not carried out: 電話するつもりだったが、忘れた \"I meant to call but forgot\". (2) With the た-form: a mistaken belief about something you did: 鍵をかけたつもりだった \"I thought I had locked it (but I hadn't)\".",
+  "whenUsed": "Explaining failures and misunderstandings in everyday speech and writing. Noun + のつもりだった = \"I meant it as…\" (冗談のつもりだった).",
+  "formation": [
+    "Verb (dictionary form) + つもりだった (intended to, but…)",
+    "Verb ない-form + つもりだった (intended not to)",
+    "Verb た-form + つもりだった (thought I had…)",
+    "Noun + の + つもりだった (meant it as…)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "つもりだ / つもりだった / たつもりだ",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜つもりだ",
+        "cells": [
+          "current intention",
+          "来年留学するつもりだ (I intend to study abroad next year)"
+        ]
+      },
+      {
+        "label": "〜つもりだった",
+        "cells": [
+          "past intention, not realised",
+          "留学するつもりだったが、やめた (I meant to, but gave up)"
+        ]
+      },
+      {
+        "label": "〜たつもりだった",
+        "cells": [
+          "mistaken belief about a done action",
+          "鍵をかけたつもりだった (I thought I'd locked it)"
+        ]
+      },
+      {
+        "label": "N のつもりだった",
+        "cells": [
+          "meant it as N",
+          "冗談のつもりだった (I meant it as a joke)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "昨日電話するつもりだったが、忘れてしまった。",
+      "reading": "きのうでんわするつもりだったが、わすれてしまった。",
+      "en": "I meant to call yesterday, but I forgot.",
+      "note": "Unrealised intention: dictionary form + つもりだった."
+    },
+    {
+      "ja": "鍵をかけたつもりだったのに、開いていた。",
+      "reading": "かぎをかけたつもりだったのに、あいていた。",
+      "en": "I thought I had locked it, but it was open.",
+      "note": "Mistaken belief: た-form + つもりだった."
+    },
+    {
+      "ja": "冗談のつもりだったが、彼を怒らせてしまった。",
+      "reading": "じょうだんのつもりだったが、かれをおこらせてしまった。",
+      "en": "I meant it as a joke, but I made him angry.",
+      "note": "Noun + のつもりだった: 'meant as'."
+    },
+    {
+      "ja": "今日は早く帰るつもりだったのに、急な仕事が入ってしまった。",
+      "reading": "きょうははやくかえるつもりだったのに、きゅうなしごとがはいってしまった。",
+      "en": "I was going to go home early today, but urgent work came up.",
+      "note": "つもりだったのに: frustration."
+    },
+    {
+      "ja": "メールを送ったつもりだったが、下書きに残っていた。",
+      "reading": "メールをおくったつもりだったが、したがきにのこっていた。",
+      "en": "I thought I had sent the email, but it was still in drafts.",
+      "note": "た-form: a mistaken belief."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はずだった",
+      "difference": "An expectation or arrangement that failed (the plane was supposed to leave). つもりだった is the speaker's own intention.",
+      "id": "n3-grammar-119"
+    },
+    {
+      "pattern": "〜ようと思ったが",
+      "difference": "Similar 'was going to', slightly more tentative.",
+      "id": "n3-grammar-116"
+    },
+    {
+      "pattern": "〜ところだった",
+      "difference": "'Almost happened' (a narrow escape), not an intention.",
+      "id": "n3-grammar-120"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "飛行機は九時に出るつもりだった。",
+      "right": "飛行機は九時に出るはずだった。",
+      "why": "A plane has no intention; a schedule that failed uses はずだった."
+    },
+    {
+      "wrong": "鍵をかけるつもりだったのに、開いていた。(meaning 'I thought I had locked it')",
+      "right": "鍵をかけたつもりだったのに、開いていた。",
+      "why": "For a mistaken belief about a completed action, use the た-form."
+    },
+    {
+      "wrong": "冗談つもりだった",
+      "right": "冗談のつもりだった",
+      "why": "Nouns take の before つもり."
+    }
+  ],
+  "usageNotes": [
+    "〜つもりで = 'with the idea of' (死んだつもりで頑張る = work as if your life depended on it).",
+    "つもりだった is usually followed by が / のに / けど and the unexpected outcome.",
+    "Related: 〜たつもりはない 'I never meant to' (悪口を言ったつもりはない)."
+  ],
+  "jlptTips": [
+    "A failed plan with a personal subject → つもりだった; a failed schedule or expectation → はずだった.",
+    "Check the form before つもり: た-form = 'thought I had', dictionary = 'meant to'.",
+    "The second clause with が / のに / しまった confirms the unrealised meaning."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-118-1",
+    "q-n3-g-118-2",
+    "q-n3-g-118-3",
+    "q-n3-g-118-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-118-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

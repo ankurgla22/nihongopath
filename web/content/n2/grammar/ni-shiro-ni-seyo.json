@@ -1,0 +1,142 @@
+{
+  "id": "n2-grammar-117",
+  "slug": "ni-shiro-ni-seyo",
+  "level": "n2",
+  "order": 117,
+  "title": "〜にしろ / 〜にせよ / 〜にせよ〜にせよ",
+  "romaji": "ni shiro / ni seyo",
+  "meaning": "even if; whether … or … (formal concession)",
+  "simpleExplanation": "〜にしろ / 〜にせよ are the formal versions of 〜にしても: \"even if X\" or, when doubled, \"whether A or B\". The speaker concedes X but asserts that the conclusion holds anyway, often with a critical or firm tone: 理由があったにせよ、無断欠勤は許されない. にせよ is the most written of the three.",
+  "whenUsed": "Formal speech, essays, business, and news. にしろ is acceptable in firm spoken instructions (どちらにしろ = either way). In casual conversation people use にしても or ても.",
+  "formation": [
+    "Verb / い-adjective (plain form) + にしろ / にせよ",
+    "な-adjective / Noun + にしろ / にせよ (without だ)",
+    "A にしろ B にしろ / A にせよ B にせよ (whether A or B)",
+    "Set phrases: いずれにしろ / いずれにせよ / どちらにしろ (in any case)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜にしても",
+      "〜にしろ",
+      "〜にせよ"
+    ],
+    "rows": [
+      {
+        "label": "Register",
+        "cells": [
+          "conversational, neutral",
+          "firm, somewhat formal",
+          "written, formal"
+        ]
+      },
+      {
+        "label": "Typical place",
+        "cells": [
+          "everyday complaints",
+          "instructions, speeches",
+          "essays, news, notices"
+        ]
+      },
+      {
+        "label": "Set phrase",
+        "cells": [
+          "それにしても",
+          "どちらにしろ",
+          "いずれにせよ"
+        ]
+      }
+    ],
+    "title": "Three levels of the same concession"
+  },
+  "examples": [
+    {
+      "ja": "行くにしろ行かないにしろ、早く決めてください。",
+      "reading": "いくにしろいかないにしろ、はやくきめてください。",
+      "en": "Whether you go or not, please decide soon.",
+      "note": "Doubled にしろ: whether you go or not, decide soon."
+    },
+    {
+      "ja": "理由があったにせよ、無断欠勤は許されない。",
+      "reading": "りゆうがあったにせよ、むだんけっきんはゆるされない。",
+      "en": "Even if there was a reason, unexcused absence is not acceptable.",
+      "note": "にせよ with a past clause: the excuse is conceded but the act is not permitted."
+    },
+    {
+      "ja": "電車にせよバスにせよ、朝は混んでいる。",
+      "reading": "でんしゃにせよバスにせよ、あさはこんでいる。",
+      "en": "Whether by train or by bus, it is crowded in the morning.",
+      "note": "Doubled にせよ with nouns: whether by train or by bus."
+    },
+    {
+      "ja": "いずれにせよ、期限までに報告書を提出しなければならない。",
+      "reading": "いずれにせよ、きげんまでにほうこくしょをていしゅつしなければならない。",
+      "en": "In any case, the report must be submitted by the deadline.",
+      "note": "いずれにせよ is a set phrase meaning \"either way\"."
+    },
+    {
+      "ja": "たとえ冗談にしろ、そんなことを言うべきではない。",
+      "reading": "たとえじょうだんにしろ、そんなことをいうべきではない。",
+      "en": "Even if it was a joke, you should not say such a thing.",
+      "note": "たとえ strengthens the concession; nouns attach without だ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にしても",
+      "difference": "Same meaning, conversational register.",
+      "id": "n2-grammar-116"
+    },
+    {
+      "pattern": "〜ても",
+      "difference": "Basic \"even if\"; no formality."
+    },
+    {
+      "pattern": "〜にかかわらず / 〜を問わず",
+      "difference": "The doubled form (A にせよ B にせよ) overlaps with \"regardless of A or B\", but にせよ is a concession rather than a rule.",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜であれ〜であれ",
+      "difference": "N1-level written equivalent of the doubled form."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "理由があったにせよで、欠勤は許されない。",
+      "right": "理由があったにせよ、欠勤は許されない。",
+      "why": "にせよ is a complete connector; do not add で or が after it."
+    },
+    {
+      "wrong": "行くにせよ、行かないにしても",
+      "right": "行くにせよ行かないにせよ",
+      "why": "In the doubled form, use the same connector on both sides."
+    },
+    {
+      "wrong": "便利だにしろ、高すぎる。",
+      "right": "便利にしろ、高すぎる。/ 便利であるにせよ、高すぎる。",
+      "why": "Nouns and な-adjectives attach without だ; in formal writing である is also possible."
+    }
+  ],
+  "usageNotes": [
+    "The main clause frequently contains 〜べきだ / 〜なければならない / 〜許されない, giving a firm judgment.",
+    "いずれにせよ / いずれにしろ / どちらにしろ are common sentence openers meaning \"in any case\".",
+    "Both forms come from the imperative of する (しろ / せよ), which is why they sound commanding."
+  ],
+  "jlptTips": [
+    "In formal passages, にせよ is preferred over にしても; if the surrounding text is written style, choose にせよ.",
+    "The doubled form is recognizable by two parallel items: look for the same verb in affirmative and negative, or two nouns.",
+    "Set phrases いずれにせよ / どちらにしろ appear in reading passages as connectors; know them."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-117-1",
+    "q-n2-g-117-2",
+    "q-n2-g-117-3",
+    "q-n2-g-117-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-117-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

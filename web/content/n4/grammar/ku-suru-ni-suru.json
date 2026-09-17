@@ -1,0 +1,160 @@
+{
+  "id": "n4-grammar-107",
+  "slug": "ku-suru-ni-suru",
+  "level": "n4",
+  "order": 107,
+  "title": "〜くする / 〜にする \"make (something) …\"",
+  "romaji": "ku suru / ni suru",
+  "meaning": "Deliberately changing something's state (transitive counterpart of 〜くなる / 〜になる).",
+  "simpleExplanation": "〜くする and 〜にする mean \"make something (a certain way)\": 音を小さくする = turn the sound down (make it small), 部屋をきれいにする = make the room clean. い-adjectives drop い and take くする; な-adjectives and nouns take にする. Compare with なる: 音が小さくなる = the sound gets quieter by itself; 音を小さくする = someone makes it quieter. So なる is the change happening, する is a person causing it. N + にする also means \"decide on / choose\": コーヒーにします = I'll have coffee.",
+  "whenUsed": "Requests and instructions (テレビの音を小さくしてください), describing changes you made (髪を短くした), rules (部屋をきれいにしておく), and ordering or choosing (これにします). Used in every register.",
+  "formation": [
+    "い-adjective: drop い + くする: 大きい→大きくする, 短い→短くする, いい→よくする",
+    "な-adjective: + にする: 静か→静かにする, きれい→きれいにする",
+    "Noun: + にする: 半分にする (halve), 会議を明日にする (move to tomorrow)",
+    "Choosing: N + にする: コーヒーにします (I'll have coffee)",
+    "Object takes を: 音を小さくする"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "〜くなる vs 〜くする",
+    "columns": [
+      "Who causes it?",
+      "Particle",
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "〜くなる／〜になる",
+        "cells": [
+          "nobody (change happens)",
+          "が",
+          "部屋が暖かくなった",
+          "the room got warm"
+        ]
+      },
+      {
+        "label": "〜くする／〜にする",
+        "cells": [
+          "a person (deliberate)",
+          "を",
+          "部屋を暖かくした",
+          "I warmed the room"
+        ]
+      },
+      {
+        "label": "な-adj + になる",
+        "cells": [
+          "nobody",
+          "が",
+          "町が静かになった",
+          "the town became quiet"
+        ]
+      },
+      {
+        "label": "な-adj + にする",
+        "cells": [
+          "a person",
+          "を",
+          "子供を静かにさせた／静かにした",
+          "made it quiet"
+        ]
+      },
+      {
+        "label": "N + にする (choose)",
+        "cells": [
+          "a person decides",
+          "を／は",
+          "飲み物はお茶にする",
+          "I'll go with tea"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "テレビの音を小さくしてください。",
+      "reading": "テレビの おとを ちいさくしてください。",
+      "en": "Please turn the TV down.",
+      "note": "小さい → 小さくする: a request to change the volume."
+    },
+    {
+      "ja": "部屋をきれいにしました。",
+      "reading": "へやを きれいに しました。",
+      "en": "I made the room clean.",
+      "note": "な-adjective きれい + にする."
+    },
+    {
+      "ja": "髪を短くしたんですね。",
+      "reading": "かみを みじかく したんですね。",
+      "en": "You've had your hair cut short, haven't you?",
+      "note": "短い → 短くする: a change the listener made to their hair."
+    },
+    {
+      "ja": "A：飲み物は何にしますか。 B：私はビールにします。",
+      "reading": "A：のみものは なにに しますか。 B：わたしは ビールに します。",
+      "en": "A: What will you have to drink? B: I'll have beer.",
+      "note": "N + にする = decide on / choose."
+    },
+    {
+      "ja": "字が小さくて読みにくいので、もう少し大きくしてもらえますか。",
+      "reading": "じが ちいさくて よみにくいので、もう すこし おおきくして もらえますか。",
+      "en": "The letters are small and hard to read, so could you make them a bit bigger?",
+      "note": "大きい → 大きくする, with てもらえますか to make a request."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜くなる／〜になる (N5)",
+      "difference": "なる: the change happens by itself (寒くなる). する: someone makes it happen (寒くする = make it cold)."
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "Verb + ことにする is deciding to do an action (行くことにした). N + にする is choosing an item (これにする).",
+      "id": "n4-grammar-17"
+    },
+    {
+      "pattern": "Transitive / intransitive pairs",
+      "difference": "The same が / を logic: 〜くなる is like an intransitive verb, 〜くする like a transitive verb.",
+      "id": "n4-grammar-112"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "テレビの音を小さいにしてください。",
+      "right": "テレビの音を小さくしてください。",
+      "why": "い-adjectives drop い and take くする; にする is for な-adjectives and nouns."
+    },
+    {
+      "wrong": "部屋をきれいくしました。",
+      "right": "部屋をきれいにしました。",
+      "why": "きれい is a な-adjective (despite ending in い), so it takes にする."
+    },
+    {
+      "wrong": "私は髪が短くしました。",
+      "right": "私は髪を短くしました。",
+      "why": "The thing you change is the object and takes を. 髪が短くなりました would be the なる version."
+    }
+  ],
+  "usageNotes": [
+    "Common requests: 音を大きく／小さくしてください, 部屋を暖かくしてください, 値段を安くしてください.",
+    "〜くしておく (lesson 21) = make it so in advance: 部屋をきれいにしておいてください.",
+    "N + にする in a restaurant or shop is the standard way to order: これにします, ラーメンにする."
+  ],
+  "jlptTips": [
+    "Check the particle before the blank: を + adjective → する; が + adjective → なる. Then check the adjective type: い-adjectives take く, な-adjectives take に.",
+    "きれい, 嫌い, 有名 are な-adjectives that look like い-adjectives; the exam likes きれいにする vs きれいくする."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-107-1",
+    "q-n4-g-107-2",
+    "q-n4-g-107-3",
+    "q-n4-g-107-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-107-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

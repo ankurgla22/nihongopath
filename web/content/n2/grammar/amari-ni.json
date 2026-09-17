@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-2",
+  "slug": "amari-ni",
+  "level": "n2",
+  "order": 2,
+  "title": "〜あまり(に)",
+  "romaji": "amari (ni)",
+  "meaning": "because of too much ..., so ... that",
+  "simpleExplanation": "〜あまり(に) means \"because of too much X\" or \"so X that…\". It attaches to an emotion or state that goes beyond the normal level (worry, joy, surprise, absorption), and the second clause gives the unusual consequence: sleepless nights, tears, forgetting one's health.",
+  "whenUsed": "書き言葉寄り and slightly literary. The first part is typically an emotion noun with の (心配のあまり), an adjective-derived noun (嬉しさのあまり), or a verb of excess (熱中するあまり). The result is unplanned and usually negative or extreme. In casual speech people more often say 〜すぎて.",
+  "formation": [
+    "Vる/Vた + あまり / N + の + あまり / Aな + な + あまり"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "心配",
+        "role": "emotion / excessive state"
+      },
+      {
+        "text": "のあまり",
+        "role": "because of too much…",
+        "highlight": true
+      },
+      {
+        "text": "一晩中眠れなかった",
+        "role": "extreme, unplanned result"
+      }
+    ],
+    "translation": "Out of sheer worry, I couldn't sleep all night."
+  },
+  "examples": [
+    {
+      "ja": "心配のあまり、一晩中眠れなかった。",
+      "reading": "しんぱいのあまり、ひとばんじゅうねむれなかった。",
+      "en": "Out of sheer worry, I couldn't sleep all night.",
+      "note": "Noun + の + あまり with an emotion noun."
+    },
+    {
+      "ja": "彼女は嬉しさのあまり、泣き出した。",
+      "reading": "かのじょはうれしさのあまり、なきだした。",
+      "en": "Overcome with joy, she burst into tears.",
+      "note": "い-adjective becomes a noun with さ: 嬉しさのあまり."
+    },
+    {
+      "ja": "仕事に熱中するあまり、健康を忘れてしまった。",
+      "reading": "しごとにねっちゅうするあまり、けんこうをわすれてしまった。",
+      "en": "Being too absorbed in work, he forgot about his health.",
+      "note": "Vる + あまり: 熱中する, 急ぐ, 考える are common."
+    },
+    {
+      "ja": "驚きのあまり、声も出なかった。",
+      "reading": "おどろきのあまり、こえもでなかった。",
+      "en": "I was so astonished that I couldn't even speak.",
+      "note": "声も出ない is a typical extreme result."
+    },
+    {
+      "ja": "彼は完璧を求めるあまりに、締め切りを守れなくなった。",
+      "reading": "かれはかんぺきをもとめるあまりに、しめきりをまもれなくなった。",
+      "en": "In seeking perfection too hard, he became unable to meet deadlines.",
+      "note": "あまりに with a verb: an excessive attitude leading to a problem."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜すぎて",
+      "difference": "Everyday equivalent for degree: 心配しすぎて眠れなかった. あまり is more literary and prefers emotion nouns."
+    },
+    {
+      "pattern": "あまりに(も)〜",
+      "difference": "Adverb use: あまりにも高くて買えない (\"too expensive\"). Same word, but it modifies an adjective instead of ending a clause."
+    },
+    {
+      "pattern": "〜だけに",
+      "difference": "\"Precisely because\": the result matches the cause logically, without the sense of excess.",
+      "id": "n2-grammar-60"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "嬉しいのあまり、泣き出した。",
+      "right": "嬉しさのあまり、泣き出した。",
+      "why": "An い-adjective must become a noun with さ (or use 嬉しいあまり without の) before のあまり."
+    },
+    {
+      "wrong": "心配のあまり、友達に電話しよう。",
+      "right": "心配のあまり、友達に電話してしまった。",
+      "why": "The result of あまり is something that happened beyond control, not an intention or plan."
+    },
+    {
+      "wrong": "寒さのあまり、コートを着た。",
+      "right": "寒さのあまり、手が動かなくなった。",
+      "why": "Putting on a coat is an ordinary reaction; あまり needs an extreme, abnormal consequence."
+    }
+  ],
+  "usageNotes": [
+    "あまりの + noun + に is a close variant: あまりの暑さに倒れた.",
+    "The subject is usually a person experiencing an emotion; weather and abstract causes appear as あまりの〜に instead.",
+    "The clause after あまり is normally past tense or a state that has already come about."
+  ],
+  "jlptTips": [
+    "If the blank follows an emotion noun with の (悲しみの・驚きの・怒りの) and the ending is an extreme past event, choose あまり.",
+    "Typical distractors: だけに, せいで, ばかりに. せいで can follow the same nouns but does not carry \"too much\"; the clue is words like 声も出ない, 眠れない, 倒れる.",
+    "Remember the adjective rule (嬉しさのあまり) for 文の組み立て questions where さ appears as a separate chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-2-1",
+    "q-n2-g-2-2",
+    "q-n2-g-2-3",
+    "q-n2-g-2-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-2-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

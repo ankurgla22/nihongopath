@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-130",
+  "slug": "te-yokatta",
+  "level": "n3",
+  "order": 130,
+  "title": "〜てよかった / 〜なくてよかった",
+  "romaji": "te yokatta / nakute yokatta",
+  "meaning": "I'm glad that… / I'm glad I didn't… (relief or satisfaction about what happened)",
+  "simpleExplanation": "〜てよかった says you are glad something happened: 日本語を勉強してよかった \"I'm glad I studied Japanese\". 〜なくてよかった is relief that something did not happen: 事故に遭わなくてよかった \"I'm glad you weren't in an accident\". Unlike 〜ばよかった (regret), the event is real.",
+  "whenUsed": "Everyday speech and writing: relief, gratitude, satisfaction. Also with adjectives and nouns: 天気がよくてよかった, 無事でよかった. Adding ね makes it a shared feeling: 間に合ってよかったね.",
+  "formation": [
+    "Verb て-form + よかった",
+    "Verb ない-form → なくて + よかった",
+    "い-adjective -くて + よかった (安くてよかった)",
+    "な-adjective / Noun + で + よかった (無事でよかった)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "事故に",
+        "role": "object"
+      },
+      {
+        "text": "遭わなくて",
+        "role": "did not happen (なくて)",
+        "highlight": true
+      },
+      {
+        "text": "よかった",
+        "role": "I'm glad",
+        "highlight": true
+      },
+      {
+        "text": "ですね",
+        "role": "polite + shared feeling"
+      }
+    ],
+    "translation": "I'm glad you weren't in an accident."
+  },
+  "examples": [
+    {
+      "ja": "日本語を勉強してよかった。",
+      "reading": "にほんごをべんきょうしてよかった。",
+      "en": "I'm glad I studied Japanese.",
+      "note": "Satisfaction with a past choice."
+    },
+    {
+      "ja": "事故に遭わなくてよかったですね。",
+      "reading": "じこにあわなくてよかったですね。",
+      "en": "I'm glad you weren't in an accident.",
+      "note": "Relief that something bad did not happen."
+    },
+    {
+      "ja": "天気がよくてよかった。",
+      "reading": "てんきがよくてよかった。",
+      "en": "I'm glad the weather was good.",
+      "note": "Adjective: よくて + よかった."
+    },
+    {
+      "ja": "早めに家を出てよかった。おかげで電車に間に合った。",
+      "reading": "はやめにいえをでてよかった。おかげででんしゃにまにあった。",
+      "en": "I'm glad I left home early. Thanks to that, I caught the train.",
+      "note": "The action was taken and paid off."
+    },
+    {
+      "ja": "「試験、どうだった？」「合格したよ。」「よかったね！」",
+      "reading": "「しけん、どうだった？」「ごうかくしたよ。」「よかったね！」",
+      "en": "\"How was the exam?\" \"I passed.\" \"That's great!\"",
+      "note": "よかった alone expresses shared gladness."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばよかった",
+      "difference": "Regret that something did not happen.",
+      "id": "n3-grammar-129"
+    },
+    {
+      "pattern": "〜て嬉しい",
+      "difference": "'Happy that' — describes joy; てよかった is more about relief or a good outcome."
+    },
+    {
+      "pattern": "〜おかげで",
+      "difference": "Gives the positive cause; often used together (〜たおかげで〜てよかった).",
+      "id": "n3-grammar-18"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "事故に遭わないでよかった。",
+      "right": "事故に遭わなくてよかった。",
+      "why": "The negative before よかった is なくて, not ないで."
+    },
+    {
+      "wrong": "天気がいくてよかった。",
+      "right": "天気がよくてよかった。",
+      "why": "いい becomes よくて."
+    },
+    {
+      "wrong": "薬を飲めばよかった。(after taking it and feeling better)",
+      "right": "薬を飲んでよかった。",
+      "why": "The medicine was taken; relief uses てよかった."
+    }
+  ],
+  "usageNotes": [
+    "Polite: 〜てよかったです.",
+    "Common with ね to sympathise: 見つかってよかったね.",
+    "〜て本当によかった adds emphasis."
+  ],
+  "jlptTips": [
+    "Did it happen? Yes + gladness → てよかった; no + regret → ばよかった.",
+    "Negative relief is なくてよかった; ないでよかった is a trap.",
+    "In 聴解, よかった after news signals the speaker's relief; the question may ask about the outcome."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-130-1",
+    "q-n3-g-130-2",
+    "q-n3-g-130-3",
+    "q-n3-g-130-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-130-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

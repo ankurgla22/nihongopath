@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-21",
+  "slug": "ni-yoru-to-ni-yoreba",
+  "level": "n3",
+  "order": 21,
+  "title": "〜によると / 〜によれば",
+  "romaji": "ni yoru to ni yoreba",
+  "meaning": "According to…",
+  "simpleExplanation": "〜によると / 〜によれば names where your information comes from: 天気予報によると、明日は晴れるそうだ = according to the forecast, it will be sunny tomorrow. Because you are passing on someone else's information, the sentence must end with a hearsay form such as そうだ, らしい, ということだ, or とのことだ.",
+  "whenUsed": "Reporting news, forecasts, rumors, survey results. によれば is slightly more formal. Casual: 〜の話では / 〜では.",
+  "formation": [
+    "Noun + によると / によれば + … + そうだ / らしい / ということだ",
+    "Casual: Noun + の話では / Noun + では",
+    "The end of the sentence must be a hearsay form"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "天気予報",
+        "role": "source"
+      },
+      {
+        "text": "によると、",
+        "role": "according to",
+        "highlight": true
+      },
+      {
+        "text": "明日は晴れる",
+        "role": "information"
+      },
+      {
+        "text": "そうだ。",
+        "role": "hearsay ending (required)",
+        "highlight": true
+      }
+    ],
+    "translation": "According to the forecast, it will be sunny tomorrow."
+  },
+  "examples": [
+    {
+      "ja": "天気予報によると、明日は晴れるそうだ。",
+      "reading": "てんきよほうによると、あしたははれるそうだ。",
+      "en": "According to the weather forecast, it will be sunny tomorrow.",
+      "note": "Source + によると + そうだ: the standard frame."
+    },
+    {
+      "ja": "新聞によれば、来年税金が上がるらしい。",
+      "reading": "しんぶんによれば、らいねんぜいきんがあがるらしい。",
+      "en": "According to the newspaper, taxes will rise next year.",
+      "note": "によれば + らしい: a slightly more formal source (newspaper)."
+    },
+    {
+      "ja": "友達の話によると、あの店はおいしいということだ。",
+      "reading": "ともだちのはなしによると、あのみせはおいしいということだ。",
+      "en": "According to my friend, that restaurant is good.",
+      "note": "〜の話によると + ということだ: a person as the source."
+    },
+    {
+      "ja": "アンケートの結果によると、若者の半数以上が新聞を読まないそうだ。",
+      "reading": "アンケートのけっかによると、わかもののはんすういじょうがしんぶんをよまないそうだ。",
+      "en": "According to the survey results, more than half of young people don't read newspapers.",
+      "note": "Survey data is a typical source in essays."
+    },
+    {
+      "ja": "田中さんの話では、あの店は来月閉店するらしいよ。",
+      "reading": "たなかさんのはなしでは、あのみせはらいげつへいてんするらしいよ。",
+      "en": "From what Tanaka says, that shop is apparently closing next month.",
+      "note": "〜の話では is the casual version of によると."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によって",
+      "difference": "Looks similar but means \"depending on / by / because of\". Not for sources of information.",
+      "id": "n3-grammar-20"
+    },
+    {
+      "pattern": "〜ということだ",
+      "difference": "One of the hearsay endings that closes a によると sentence.",
+      "id": "n3-grammar-12"
+    },
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "The most common ending after によると; different from the appearance そうだ (降りそうだ)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "天気予報によると、明日は晴れると思う。",
+      "right": "天気予報によると、明日は晴れるそうだ。",
+      "why": "After naming a source you must end with hearsay, not your own opinion (と思う)."
+    },
+    {
+      "wrong": "天気予報によって、明日は晴れるそうだ。",
+      "right": "天気予報によると、明日は晴れるそうだ。",
+      "why": "によって means \"by / depending on\". The source of information takes によると."
+    },
+    {
+      "wrong": "ニュースによると、地震があった。",
+      "right": "ニュースによると、地震があったそうだ。",
+      "why": "Without a hearsay ending the sentence sounds unfinished; add そうだ / ということだ."
+    }
+  ],
+  "usageNotes": [
+    "Do not end with 〜と思う; the sentence must be hearsay. 〜の話では / 〜では are casual alternatives.",
+    "によると can also mean \"depending on\" in rare cases (人によると), but in JLPT it is almost always the source meaning."
+  ],
+  "jlptTips": [
+    "Check the end of the sentence: そうだ / らしい / ということだ after the blank means the blank is によると.",
+    "The classic trap is によって. Source of information = によると; cause, means, or agent = によって.",
+    "In 並べ替え, place 〜によると at the start and the hearsay ending at the end; the middle chunks are the information."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-21-1",
+    "q-n3-g-21-2",
+    "q-n3-g-21-3",
+    "q-n3-g-21-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-21-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

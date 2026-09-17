@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-125",
+  "slug": "toku-doku",
+  "level": "n3",
+  "order": 125,
+  "title": "〜とく / 〜どく (contraction of 〜ておく)",
+  "romaji": "toku / doku",
+  "meaning": "do… in advance / leave… as is (casual contraction of 〜ておく)",
+  "simpleExplanation": "〜とく is the spoken form of 〜ておく: 準備しとく = 準備しておく \"I'll get it ready\". After a で-type て-form it becomes 〜どく: 読んどく. Requests use 〜といて (= 〜ておいて): 入れといて \"put it in (for later)\".",
+  "whenUsed": "Casual conversation, family and workplace chat, listening tests. In writing use 〜ておく. 〜ときます is a casual-polite form common in friendly service situations.",
+  "formation": [
+    "て-form ending in て → replace ておく with とく (して → しとく)",
+    "て-form ending in で → replace でおく with どく (読んで → 読んどく)",
+    "Request: 〜といて / 〜どいて; Volitional: 〜とこう / 〜どこう",
+    "Past: 〜といた / 〜どいた; Polite: 〜ときます"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "入れておく",
+    "rootLabel": "standard → casual contraction",
+    "branches": [
+      {
+        "suffix": "とく",
+        "result": "入れとく",
+        "label": "I'll put it in (for later)"
+      },
+      {
+        "suffix": "といて",
+        "result": "入れといて",
+        "label": "put it in (request)"
+      },
+      {
+        "suffix": "とこう",
+        "result": "入れとこう",
+        "label": "let's put it in (volitional)"
+      },
+      {
+        "suffix": "といた",
+        "result": "入れといた",
+        "label": "I put it in (past)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日の準備をしとくね。",
+      "reading": "あしたのじゅんびをしとくね。",
+      "en": "I'll get things ready for tomorrow.",
+      "note": "Preparation: しとく = しておく."
+    },
+    {
+      "ja": "冷蔵庫に牛乳を入れといて。",
+      "reading": "れいぞうこにぎゅうにゅうをいれといて。",
+      "en": "Put the milk in the fridge (for later).",
+      "note": "Request: 入れといて = 入れておいて."
+    },
+    {
+      "ja": "その本、机の上に置いといて。",
+      "reading": "そのほん、つくえのうえにおいといて。",
+      "en": "Leave that book on the desk.",
+      "note": "Leave as is: 置いといて."
+    },
+    {
+      "ja": "先生に聞かれるかもしれないから、答えを考えとこう。",
+      "reading": "せんせいにきかれるかもしれないから、こたえをかんがえとこう。",
+      "en": "The teacher might ask, so let's think of an answer beforehand.",
+      "note": "Volitional とこう."
+    },
+    {
+      "ja": "この資料、会議までに読んどいてね。",
+      "reading": "このしりょう、かいぎまでによんどいてね。",
+      "en": "Read these materials before the meeting, okay?",
+      "note": "で-type: 読んでおいて → 読んどいて."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ておく",
+      "difference": "The standard form; same meaning.",
+      "id": "n3-grammar-95"
+    },
+    {
+      "pattern": "〜ちゃう",
+      "difference": "Contraction of 〜てしまう (regret/completion), not preparation.",
+      "id": "n3-grammar-124"
+    },
+    {
+      "pattern": "〜てる",
+      "difference": "Contraction of 〜ている.",
+      "id": "n3-grammar-126"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読んとく",
+      "right": "読んどく",
+      "why": "で-type て-forms contract to どく."
+    },
+    {
+      "wrong": "ビジネスメールで「確認しときます」",
+      "right": "確認しておきます。",
+      "why": "とく is casual; write ておく in business messages."
+    },
+    {
+      "wrong": "電気をつけといた → translated as 'I turned the light on by mistake'",
+      "right": "'I left the light on (on purpose, for later)'",
+      "why": "といた is ておいた (preparation), not てしまった (regret)."
+    }
+  ],
+  "usageNotes": [
+    "Common: しとく, 買っとく, 言っとく ('I'll tell you now'), 聞いとく, 置いとく, 取っとく ('keep / save').",
+    "ほっとく (from 放っておく) means 'leave alone'.",
+    "In 聴解, instructions like 〜といて tell you what the listener must do before something."
+  ],
+  "jlptTips": [
+    "て → とく, で → どく; check the て-form first.",
+    "Distinguish とく (prepare) from ちゃう (regret) and てる (state) when all three appear.",
+    "Requests ending in といて are frequent in listening; note what is to be done beforehand."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-125-1",
+    "q-n3-g-125-2",
+    "q-n3-g-125-3",
+    "q-n3-g-125-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-125-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

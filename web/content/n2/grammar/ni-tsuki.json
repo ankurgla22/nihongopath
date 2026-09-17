@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-124",
+  "slug": "ni-tsuki",
+  "level": "n2",
+  "order": 124,
+  "title": "〜につき",
+  "romaji": "ni tsuki",
+  "meaning": "(1) due to, because of (notices); (2) per, for each",
+  "simpleExplanation": "〜につき has two separate uses. In notices and signs it means \"due to X\": 改装工事につき休業 (closed due to renovation). With numbers it means \"per X\": 一人につき二枚 (two per person). Both are compact, formal, and typical of written announcements rather than conversation.",
+  "whenUsed": "Meaning (1) appears on signs, posters, and official notices, often without a verb ending (〜につき休業). Meaning (2) is used for rates and quotas in rules and price lists. In speech people say 〜のため / 〜なので for (1) and 〜あたり / 〜ごとに for (2).",
+  "formation": [
+    "Noun (reason) + につき (+ notice-style clause)",
+    "Number + counter + につき + amount (一人につき / 一時間につき)",
+    "Set notices: 雨天につき中止 / 本日休業につき / 満員につき"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "(1) Reason",
+      "(2) Rate"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "due to X",
+          "per X"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "a situation: 工事, 雨天, 満席, 定休日",
+          "a unit: 一人, 一時間, 一枚, 一件"
+        ]
+      },
+      {
+        "label": "Where",
+        "cells": [
+          "signs, notices, formal letters",
+          "rules, price lists, contracts"
+        ]
+      },
+      {
+        "label": "Spoken equivalent",
+        "cells": [
+          "〜のため / 〜なので",
+          "〜あたり / 〜ごとに"
+        ]
+      }
+    ],
+    "title": "Two unrelated meanings, one form"
+  },
+  "examples": [
+    {
+      "ja": "改装工事につき、本日は休業いたします。",
+      "reading": "かいそうこうじにつき、ほんじつはきゅうぎょういたします。",
+      "en": "Due to renovation work, we are closed today.",
+      "note": "Reason on a business notice; stiff notice language."
+    },
+    {
+      "ja": "一人につき二枚まで購入できます。",
+      "reading": "ひとりにつきにまいまでこうにゅうできます。",
+      "en": "Up to two tickets may be purchased per person.",
+      "note": "Rate: a purchase limit per person."
+    },
+    {
+      "ja": "一時間につき千円の料金がかかる。",
+      "reading": "いちじかんにつきせんえんのりょうきんがかかる。",
+      "en": "There is a charge of 1,000 yen per hour.",
+      "note": "Rate: a fee per hour."
+    },
+    {
+      "ja": "雨天につき、本日の運動会は中止いたします。",
+      "reading": "うてんにつき、ほんじつのうんどうかいはちゅうしいたします。",
+      "en": "Due to rain, today's sports day is cancelled.",
+      "note": "Classic notice phrasing: 雨天につき中止."
+    },
+    {
+      "ja": "応募は一名につき一回限りとさせていただきます。",
+      "reading": "おうぼはいちめいにつきいっかいかぎりとさせていただきます。",
+      "en": "Entries are limited to one per person.",
+      "note": "Contest rules: rate meaning with 限り."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のため",
+      "difference": "Neutral \"because of\"; usable in speech and writing; not as compact as につき."
+    },
+    {
+      "pattern": "〜あたり / 〜ごとに",
+      "difference": "Spoken equivalents for \"per\": 一人あたり / 一時間ごとに."
+    },
+    {
+      "pattern": "〜について",
+      "difference": "\"About / concerning\". Do not confuse: につき is not a topic marker (though very formal 〜につきましては exists as a keigo form of について).",
+      "id": "n2-grammar-123"
+    },
+    {
+      "pattern": "〜につけ",
+      "difference": "\"Whenever (a feeling arises)\"; unrelated.",
+      "id": "n2-grammar-125"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "試験につき、勉強しなければならない。",
+      "right": "試験のため、勉強しなければならない。",
+      "why": "につき (reason) is notice language for closures and cancellations; not for personal reasons in ordinary sentences."
+    },
+    {
+      "wrong": "一人について二枚まで",
+      "right": "一人につき二枚まで",
+      "why": "For \"per\", the form is につき; について means \"about\"."
+    },
+    {
+      "wrong": "改装工事につき、休業します。(in speech)",
+      "right": "改装工事のため、休業します。",
+      "why": "Fine on a sign, but stiff when spoken; use のため in conversation."
+    }
+  ],
+  "usageNotes": [
+    "Signs often drop the predicate: 定休日につき (closed: regular holiday).",
+    "The polite business form につきましては is a keigo version of については and belongs to a different pattern.",
+    "Rates: 一件につき千円, 一キロにつき二百円."
+  ],
+  "jlptTips": [
+    "If the sentence looks like a sign or notice and the blank precedes 休業 / 中止 / 閉店, choose につき.",
+    "If the blank follows a counter (一人, 一時間) and precedes an amount, choose につき (per).",
+    "Typical distractors: について, につけ, につれて. Only につき fits a notice reason or a rate."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-124-1",
+    "q-n2-g-124-2",
+    "q-n2-g-124-3",
+    "q-n2-g-124-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-124-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "n2-grammar-14",
+  "slug": "kai-ga-aru",
+  "level": "n2",
+  "order": 14,
+  "title": "〜かいがある / 〜がい",
+  "romaji": "kai ga aru / -gai",
+  "meaning": "it was worth (doing); worth doing",
+  "simpleExplanation": "〜かいがある means \"it was worth (doing); the effort paid off\", and かいがない means the effort was wasted. Vます + がい makes a noun meaning \"worth doing\": やりがい (a rewarding job), 生きがい (something to live for).",
+  "whenUsed": "Both registers. Vた + かいがあって introduces the good result; Vた + かいがなく / かいもなく introduces a disappointing one. The noun form 〜がい is very common in job and lifestyle talk (やりがいのある仕事).",
+  "formation": [
+    "Vた + かいがある(あって) / N + の + かいがある; Vます + がい (やりがい・生きがい)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "練習した",
+    "rootLabel": "Vた + かい",
+    "branches": [
+      {
+        "suffix": "かいがあって",
+        "result": "練習したかいがあって、優勝した",
+        "label": "the effort paid off"
+      },
+      {
+        "suffix": "かいがなく",
+        "result": "練習したかいがなく、負けた",
+        "label": "the effort was wasted"
+      },
+      {
+        "suffix": "かいがある",
+        "result": "練習するかいがある",
+        "label": "worth practicing"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "練習したかいがあって、優勝できた。",
+      "reading": "れんしゅうしたかいがあって、ゆうしょうできた。",
+      "en": "The practice paid off and we won the championship.",
+      "note": "Vた + かいがあって + good result."
+    },
+    {
+      "ja": "頑張ったかいがなく、不合格だった。",
+      "reading": "がんばったかいがなく、ふごうかくだった。",
+      "en": "My efforts were in vain; I failed.",
+      "note": "Vた + かいがなく + bad result."
+    },
+    {
+      "ja": "この仕事はやりがいがある。",
+      "reading": "このしごとはやりがいがある。",
+      "en": "This job is rewarding.",
+      "note": "やりがい = Vます + がい as a noun."
+    },
+    {
+      "ja": "遠くまで来たかいがあって、素晴らしい景色が見られた。",
+      "reading": "とおくまできたかいがあって、すばらしいけしきがみられた。",
+      "en": "It was worth coming all this way; we got a wonderful view.",
+      "note": "Effort + reward."
+    },
+    {
+      "ja": "手術のかいもなく、祖父は亡くなった。",
+      "reading": "しゅじゅつのかいもなく、そふはなくなった。",
+      "en": "Despite the operation, my grandfather passed away.",
+      "note": "N + の + かいもなく: the effort was in vain."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけのことはある",
+      "difference": "\"It lives up to expectations\": evaluates the result as fitting the reputation, not the reward for effort.",
+      "id": "n2-grammar-62"
+    },
+    {
+      "pattern": "〜価値がある",
+      "difference": "Objective value (読む価値がある); かいがある is the felt reward after effort."
+    },
+    {
+      "pattern": "〜甲斐性",
+      "difference": "Unrelated noun (dependability); do not confuse with 〜がい."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "練習するかいがあって、優勝した。",
+      "right": "練習したかいがあって、優勝した。",
+      "why": "When reporting a result, the effort is completed: use Vた."
+    },
+    {
+      "wrong": "この仕事はやるがいがある。",
+      "right": "この仕事はやりがいがある。",
+      "why": "The noun form uses the Vます stem + がい (voiced): やりがい."
+    },
+    {
+      "wrong": "勉強したかいがなくて、合格した。",
+      "right": "勉強したかいがあって、合格した。",
+      "why": "かいがない must be followed by a disappointing result."
+    }
+  ],
+  "usageNotes": [
+    "Common nouns: やりがい, 生きがい, 働きがい, 教えがい, 頼りがい.",
+    "かいもなく is a slightly stronger, literary version of かいがなく.",
+    "Noun + の + かい: 努力のかいがあって, 苦労のかいもなく."
+  ],
+  "jlptTips": [
+    "If the first clause is an effort and the second is a good result, かいがあって is the answer; if the second is a failure, かいがなく/かいもなく.",
+    "Distractors: だけあって, おかげで. おかげで names an external cause; かいがあって names one's own effort.",
+    "In 並べ替え, the chunk がい appears as part of a noun like やりがい; do not separate it."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-14-1",
+    "q-n2-g-14-2",
+    "q-n2-g-14-3",
+    "q-n2-g-14-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-14-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

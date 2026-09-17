@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-57",
+  "slug": "sue-ni",
+  "level": "n2",
+  "order": 57,
+  "title": "〜末(に)",
+  "romaji": "sue (ni)",
+  "meaning": "after (a long process), finally",
+  "simpleExplanation": "〜末(に) means \"after (a long process), finally…\". The first part is a lengthy effort or deliberation (long negotiations, much worrying, a fierce battle) and the second part is the eventual outcome, which may be good or bad.",
+  "whenUsed": "書き言葉寄り, also in formal speech. It attaches to Vた (悩んだ末に) or N + の (交渉の末に). Unlike あげく, it is neutral, so it fits happy endings (合格した) as well as sad ones. 末 alone (without に) is common in writing.",
+  "formation": [
+    "Vた + 末(に) / N + の + 末(に)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "末に vs あげく",
+    "columns": [
+      "Result",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜末に",
+        "cells": [
+          "any (often a decision)",
+          "悩んだ末に留学を決めた"
+        ]
+      },
+      {
+        "label": "〜あげく",
+        "cells": [
+          "bad / regrettable",
+          "悩んだあげく何も買わなかった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "長い交渉の末に、契約が成立した。",
+      "reading": "ながいこうしょうのすえに、けいやくがせいりつした。",
+      "en": "After lengthy negotiations, the contract was concluded.",
+      "note": "N + の + 末に with a positive outcome."
+    },
+    {
+      "ja": "悩んだ末、留学することに決めた。",
+      "reading": "なやんだすえ、りゅうがくすることにきめた。",
+      "en": "After much deliberation, I decided to study abroad.",
+      "note": "Vた + 末 (without に) with a decision."
+    },
+    {
+      "ja": "激しい戦いの末、チームは優勝した。",
+      "reading": "はげしいたたかいのすえ、チームはゆうしょうした。",
+      "en": "After a fierce battle, the team won the title.",
+      "note": "A neutral narration of victory."
+    },
+    {
+      "ja": "何度も話し合った末に、二人は離婚することにした。",
+      "reading": "なんどもはなしあったすえに、ふたりはりこんすることにした。",
+      "en": "After talking it over many times, the two decided to divorce.",
+      "note": "A neutral report of a decision."
+    },
+    {
+      "ja": "厳しい練習の末、彼女はついに代表選手に選ばれた。",
+      "reading": "きびしいれんしゅうのすえ、かのじょはついにだいひょうせんしゅにえらばれた。",
+      "en": "After hard training, she was finally chosen for the national team.",
+      "note": "Positive outcome; あげく would be wrong here."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜あげく",
+      "difference": "Same structure but only for bad results.",
+      "id": "n2-grammar-1"
+    },
+    {
+      "pattern": "〜た結果",
+      "difference": "Plain cause and result; no sense of length."
+    },
+    {
+      "pattern": "〜上で",
+      "difference": "\"After doing (a preparatory step)\": one deliberate step rather than a long process.",
+      "id": "n2-grammar-8"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "悩む末に、決めた。",
+      "right": "悩んだ末に、決めた。",
+      "why": "Verbs take the past form."
+    },
+    {
+      "wrong": "五分考えた末に、決めた。（trivial）",
+      "right": "何日も考えた末に、決めた。",
+      "why": "末に implies a long process; a five-minute thought sounds odd."
+    },
+    {
+      "wrong": "長い交渉末に",
+      "right": "長い交渉の末に",
+      "why": "Nouns need の."
+    }
+  ],
+  "usageNotes": [
+    "末の + noun: 苦労の末の成功 (success after hardship).",
+    "Often paired with ついに, やっと, 結局 in the second clause.",
+    "In news: 協議の末, 審議の末."
+  ],
+  "jlptTips": [
+    "A long process + Vた/Nの + blank + an outcome (positive or decision) → 末に; if the outcome is clearly bad and regretful, あげく is also possible, so check which is offered.",
+    "Distractors: あげく, 上で, とたんに. A happy ending rules out あげく; a sudden single event rules out both.",
+    "In 並べ替え, 末に usually comes right after a Vた or Nの chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-57-1",
+    "q-n2-g-57-2",
+    "q-n2-g-57-3",
+    "q-n2-g-57-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-57-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

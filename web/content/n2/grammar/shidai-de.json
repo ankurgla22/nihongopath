@@ -1,0 +1,132 @@
+{
+  "id": "n2-grammar-55",
+  "slug": "shidai-de",
+  "level": "n2",
+  "order": 55,
+  "title": "〜次第で(は) / 〜次第だ",
+  "romaji": "shidai de (wa) / shidai da",
+  "meaning": "depending on; it depends on",
+  "simpleExplanation": "〜次第で(は) / 〜次第だ means \"depending on…, it all depends on…\". The noun before it is the deciding factor: success depends on effort; depending on the weather, the match may be postponed; I'll decide depending on the price.",
+  "whenUsed": "Both registers, slightly formal. N + 次第で connects to a clause; N + 次第だ ends the sentence (\"it depends on N\"). 次第では (with は) means \"in some cases, depending on N\" and is followed by a possibility (〜かもしれない・〜こともある).",
+  "formation": [
+    "N + 次第で(は) / N + 次第だ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three shapes of 次第",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "N + 次第だ",
+        "cells": [
+          "it depends on N",
+          "成功は努力次第だ"
+        ]
+      },
+      {
+        "label": "N + 次第で",
+        "cells": [
+          "depending on N, …",
+          "値段次第で決める"
+        ]
+      },
+      {
+        "label": "N + 次第では",
+        "cells": [
+          "in some cases depending on N",
+          "天候次第では延期になる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "成功するかどうかは、努力次第だ。",
+      "reading": "せいこうするかどうかは、どりょくしだいだ。",
+      "en": "Whether you succeed depends on your effort.",
+      "note": "Sentence-final 次第だ."
+    },
+    {
+      "ja": "天候次第では、試合が延期になるかもしれない。",
+      "reading": "てんこうしだいでは、しあいがえんきになるかもしれない。",
+      "en": "Depending on the weather, the match may be postponed.",
+      "note": "次第では + possibility."
+    },
+    {
+      "ja": "値段次第で、買うかどうか決めます。",
+      "reading": "ねだんしだいで、かうかどうかきめます。",
+      "en": "I'll decide whether to buy depending on the price.",
+      "note": "次第で + decision."
+    },
+    {
+      "ja": "結果次第では、計画を見直す必要があるだろう。",
+      "reading": "けっかしだいでは、けいかくをみなおすひつようがあるだろう。",
+      "en": "Depending on the results, we may need to review the plan.",
+      "note": "次第では + a possible consequence."
+    },
+    {
+      "ja": "この仕事がうまくいくかどうかは、君の頑張り次第だ。",
+      "reading": "このしごとがうまくいくかどうかは、きみのがんばりしだいだ。",
+      "en": "Whether this job goes well depends on how hard you try.",
+      "note": "〜かどうかは〜次第だ is a common frame."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によって",
+      "difference": "\"Varies according to\": describes variation (人によって違う), while 次第 stresses that N decides the outcome.",
+      "id": "n2-grammar-144"
+    },
+    {
+      "pattern": "〜次第 (as soon as)",
+      "difference": "Different pattern with a Vます stem.",
+      "id": "n2-grammar-54"
+    },
+    {
+      "pattern": "〜次第だ (explanation)",
+      "difference": "After a clause, 次第だ means \"that is how it came about\".",
+      "id": "n2-grammar-56"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "頑張る次第だ。",
+      "right": "頑張り次第だ。/ 努力次第だ。",
+      "why": "This use takes a noun (or a nominalized stem), not a verb."
+    },
+    {
+      "wrong": "天候次第、試合が延期になる。",
+      "right": "天候次第で(は)、試合が延期になる。",
+      "why": "When connecting to a clause, で is needed."
+    },
+    {
+      "wrong": "成功は努力次第で。",
+      "right": "成功は努力次第だ。",
+      "why": "Sentence-final form is 次第だ."
+    }
+  ],
+  "usageNotes": [
+    "Common nouns: 努力, 天候, 値段, 結果, 相手, 考え方, 気持ち, あなた.",
+    "地獄の沙汰も金次第 is a proverb: even hell's judgment depends on money.",
+    "次第では often pairs with 場合によっては in meaning."
+  ],
+  "jlptTips": [
+    "A noun that is a deciding factor + blank + an outcome → 次第で / 次第だ.",
+    "Distractors: によって, 次第 (as soon as), に応じて. If the blank follows a Vます stem and a promise follows, it is 次第 (as soon as), not 次第で.",
+    "Sentence-final 次第だ after a noun and after a clause have different meanings; check what precedes."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-55-1",
+    "q-n2-g-55-2",
+    "q-n2-g-55-3",
+    "q-n2-g-55-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-55-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

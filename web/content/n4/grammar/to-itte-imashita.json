@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-55",
+  "slug": "to-itte-imashita",
+  "level": "n4",
+  "order": 55,
+  "title": "〜と言っていました \"(someone) said that…\"",
+  "romaji": "to itte imashita",
+  "meaning": "Reports what a third person said; the standard N4 way to convey another's words.",
+  "simpleExplanation": "〜と言っていました reports what someone else said, as a message: 田中さんは明日休むと言っていました = Tanaka said he'll be off tomorrow. The reported words go in the plain form before と. You can also quote directly with 「…」と言っていました. Compared with 言いました, which simply reports the act of speaking, 言っていました focuses on passing the content on to the listener.",
+  "whenUsed": "Passing on what a third person said: at work, at school, at home. It is the standard N4 way to relay someone's words. In casual speech: 〜って言ってた. When changing a direct quote to indirect speech, adjust pronouns and politeness: 「私は行きます」→ 自分は行くと言っていた.",
+  "formation": [
+    "Plain sentence + と言っていました: 休むと言っていました",
+    "Direct quote: 「…」と言っていました",
+    "Casual: 〜と言ってた / 〜って言ってた",
+    "Adjectives and nouns: いいと言っていた, 学生だと言っていた"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "田中さんは",
+        "role": "speaker (the person quoted)",
+        "highlight": false
+      },
+      {
+        "text": "明日休む",
+        "role": "reported content (plain form)",
+        "highlight": false
+      },
+      {
+        "text": "と",
+        "role": "quotation particle",
+        "highlight": true
+      },
+      {
+        "text": "言っていました",
+        "role": "reporting verb: 'said (I'm passing it on)'",
+        "highlight": true
+      }
+    ],
+    "translation": "Tanaka said (that) he will be off tomorrow."
+  },
+  "examples": [
+    {
+      "ja": "田中さんは明日休むと言っていました。",
+      "reading": "たなかさんは あした やすむと いっていました。",
+      "en": "Tanaka said he'll be off tomorrow.",
+      "note": "Indirect quote: plain form 休む + と."
+    },
+    {
+      "ja": "母は「早く帰りなさい」と言っていた。",
+      "reading": "ははは「はやく かえりなさい」と いっていた。",
+      "en": "My mother said, \"Come home early.\"",
+      "note": "Direct quote with 「」; the command stays as it was said."
+    },
+    {
+      "ja": "先生はこの本がいいと言っていましたよ。",
+      "reading": "せんせいは この ほんが いいと いっていましたよ。",
+      "en": "The teacher said this book is good.",
+      "note": "Reporting an opinion: この本がいい + と."
+    },
+    {
+      "ja": "母は今日は帰りが遅くなると言っていました。",
+      "reading": "はは は きょうは かえりが おそくなると いっていました。",
+      "en": "My mother said she would be home late today.",
+      "note": "Plain form 遅くなる before と."
+    },
+    {
+      "ja": "先輩は新しい仕事が大変だって言ってたよ。",
+      "reading": "せんぱいは あたらしい しごとが たいへんだって いってたよ。",
+      "en": "My senior said the new job is tough.",
+      "note": "Casual って言ってた; the な-adjective keeps だ before って."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "そうだ reports information from any source without naming who said it. 〜と言っていました names the speaker.",
+      "id": "n4-grammar-36"
+    },
+    {
+      "pattern": "〜と伝えてください",
+      "difference": "Asks the listener to pass a message on. 〜と言っていました reports a message already received.",
+      "id": "n4-grammar-56"
+    },
+    {
+      "pattern": "〜と (quoting)",
+      "difference": "と is the quotation particle used here; this lesson is one of its main uses.",
+      "id": "n4-grammar-111"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "田中さんは明日休みますと言っていました。",
+      "right": "田中さんは明日休むと言っていました。",
+      "why": "Indirect speech uses the plain form before と (unless quoting directly with 「」)."
+    },
+    {
+      "wrong": "田中さんは明日休むと言います。",
+      "right": "田中さんは明日休むと言っていました。",
+      "why": "言います is present / habitual; reporting past words needs 言っていました or 言いました."
+    },
+    {
+      "wrong": "先生は「私の家に来なさい」と言っていた。→ 先生は私の家に来なさいと言っていた。",
+      "right": "先生は先生の家に来るように言っていた。",
+      "why": "When you change a direct quote to indirect, 私 (the teacher) must become 先生, and a command becomes 〜ように."
+    }
+  ],
+  "usageNotes": [
+    "言っていました is preferred when you are passing on the message; 言いました stresses the moment of speaking.",
+    "In casual conversation, って replaces と: 休むって言ってた.",
+    "For someone senior you can use おっしゃっていました (honorific)."
+  ],
+  "jlptTips": [
+    "The form before と must be plain: options with ます / です inside the quote are wrong unless there are quotation marks.",
+    "Choose 言っていました over 言います when the sentence is about relaying a message (よ, ね, or a third person's plan)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-55-1",
+    "q-n4-g-55-2",
+    "q-n4-g-55-3",
+    "q-n4-g-55-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-55-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

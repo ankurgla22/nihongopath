@@ -1,0 +1,141 @@
+{
+  "id": "n2-grammar-160",
+  "slug": "yara-yara",
+  "level": "n2",
+  "order": 160,
+  "title": "〜やら〜やら",
+  "romaji": "yara … yara",
+  "meaning": "… and … and so on (an unordered list, often overwhelming)",
+  "simpleExplanation": "〜やら〜やら lists two representative items from a larger, messy set: 準備やら手続きやらで忙しい. It suggests there are more items and that the speaker feels a little overwhelmed or confused. With adjectives (嬉しいやら恥ずかしいやら) it describes mixed feelings.",
+  "whenUsed": "Both speech and writing, slightly colloquial. Common in complaints about being busy and in descriptions of chaotic scenes. A different use, 〜のやら〜のやら, expresses not knowing which (行くのやら行かないのやら).",
+  "formation": [
+    "Noun やら Noun やら",
+    "Verb (dictionary form) やら Verb やら",
+    "い-adjective やら い-adjective やら",
+    "〜のやら〜のやら / 〜のやら分からない (I wonder whether)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜やら〜やら",
+      "〜とか〜とか",
+      "〜や〜など"
+    ],
+    "rows": [
+      {
+        "label": "Feeling",
+        "cells": [
+          "overwhelmed, chaotic, mixed",
+          "casual listing of examples",
+          "neutral listing"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "colloquial to written",
+          "casual speech",
+          "neutral, written"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "準備やら手続きやらで忙しい",
+          "パンとかご飯とか",
+          "パンや牛乳などを買った"
+        ]
+      }
+    ],
+    "title": "Listing with feeling"
+  },
+  "examples": [
+    {
+      "ja": "引っ越しの準備やら手続きやらで、毎日忙しい。",
+      "reading": "ひっこしのじゅんびやらてつづきやらで、まいにちいそがしい。",
+      "en": "With moving preparations and paperwork and so on, I am busy every day.",
+      "note": "Overwhelmed by tasks: preparations and paperwork and more."
+    },
+    {
+      "ja": "嬉しいやら恥ずかしいやらで、顔が赤くなった。",
+      "reading": "うれしいやらはずかしいやらで、かおがあかくなった。",
+      "en": "Being happy and embarrassed at the same time, my face turned red.",
+      "note": "Mixed feelings: happy and embarrassed at once."
+    },
+    {
+      "ja": "泣くやら笑うやら、大騒ぎだった。",
+      "reading": "なくやらわらうやら、おおさわぎだった。",
+      "en": "With crying and laughing, it was quite a commotion.",
+      "note": "A chaotic scene: crying and laughing."
+    },
+    {
+      "ja": "引っ越しで、掃除やら荷造りやらで一日が終わった。",
+      "reading": "ひっこしで、そうじやらにづくりやらでいちにちがおわった。",
+      "en": "With cleaning and packing and everything else for the move, the day was gone.",
+      "note": "やら〜やらで: 'what with… and…'."
+    },
+    {
+      "ja": "彼が本当に来るのやら来ないのやら、はっきりしない。",
+      "reading": "かれがほんとうにくるのやらこないのやら、はっきりしない。",
+      "en": "Whether he is really coming or not is unclear.",
+      "note": "〜のやら〜のやら: uncertainty about which."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とか〜とか",
+      "difference": "Casual examples without the overwhelmed nuance."
+    },
+    {
+      "pattern": "〜や〜(など)",
+      "difference": "Neutral list."
+    },
+    {
+      "pattern": "〜も〜ば〜も",
+      "difference": "Two items of the same tendency, stated as facts.",
+      "id": "n2-grammar-151"
+    },
+    {
+      "pattern": "〜だの〜だの",
+      "difference": "Similar to やら, but with a critical, complaining tone."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "パンやら牛乳やらを買った。(neutral shopping)",
+      "right": "パンや牛乳などを買った。",
+      "why": "For a neutral list use や〜など; やら implies confusion or excess."
+    },
+    {
+      "wrong": "嬉しいやら恥ずかしい。",
+      "right": "嬉しいやら恥ずかしいやら。",
+      "why": "Use やら after both items."
+    },
+    {
+      "wrong": "勉強やら仕事やらで、暇だ。",
+      "right": "勉強やら仕事やらで、忙しい。",
+      "why": "The main clause should reflect the overwhelmed feeling."
+    }
+  ],
+  "usageNotes": [
+    "やら〜やらで is the most common frame, followed by 忙しい / 大変だ.",
+    "With emotions: 嬉しいやら悲しいやら, 驚くやら呆れるやら.",
+    "Noun + やら can also stand alone: 何やら (something or other)."
+  ],
+  "jlptTips": [
+    "If the sentence ends with 忙しい / 大変だ / 大騒ぎ and lists two items, choose やら〜やら.",
+    "Distractors include とか, や, も〜ば〜も. Look for the overwhelmed or confused nuance.",
+    "〜のやら〜のやら appears in reading as 'not knowing which'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-160-1",
+    "q-n2-g-160-2",
+    "q-n2-g-160-3",
+    "q-n2-g-160-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-160-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,142 @@
+{
+  "id": "n4-grammar-93",
+  "slug": "toki-tense",
+  "level": "n4",
+  "order": 93,
+  "title": "〜とき (tense inside the とき clause)",
+  "romaji": "toki (jisei)",
+  "meaning": "\"When…\" — the tense of the verb before とき shows whether the とき action is complete relative to the main action.",
+  "simpleExplanation": "とき means \"when\", but the form of the verb before it tells you the order of events. Dictionary form + とき: the main action happens BEFORE or DURING the とき action (日本へ行くとき、お土産を買った = I bought souvenirs on the way, before arriving). た-form + とき: the main action happens AFTER the とき action is finished (日本へ行ったとき、京都を見た = after I got to Japan, I saw Kyoto). The tense at the end of the sentence shows when the whole thing happened; the form before とき only shows which came first.",
+  "whenUsed": "Any time you say \"when\": daily routines (寝るとき歯を磨く), past stories (子供のとき), instructions (分からないときは聞いてください). The dictionary/た distinction matters most with movement and change verbs: 行く, 来る, 帰る, 着く, 出る, 入る.",
+  "formation": [
+    "V-dictionary + とき: main action before or during (家を出るとき、鍵をかける)",
+    "V-た + とき: main action after the とき action is completed (家に帰ったとき、手を洗う)",
+    "V-ている + とき: during an ongoing action (テレビを見ているとき)",
+    "い-adjective + とき, な-adjective + なとき, Noun + のとき: 忙しいとき, 暇なとき, 子供のとき",
+    "The final verb sets the overall tense; the とき clause is relative to it"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "V-dictionary とき vs V-た とき",
+    "columns": [
+      "Order of events",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "日本へ行くとき、お土産を買った",
+        "cells": [
+          "buy → then go",
+          "I bought souvenirs before/on the way to Japan"
+        ]
+      },
+      {
+        "label": "日本へ行ったとき、お土産を買った",
+        "cells": [
+          "go → then buy",
+          "I bought souvenirs after arriving in Japan"
+        ]
+      },
+      {
+        "label": "寝るとき、歯を磨く",
+        "cells": [
+          "brush → then sleep",
+          "I brush my teeth before going to bed"
+        ]
+      },
+      {
+        "label": "家に帰ったとき、手を洗う",
+        "cells": [
+          "get home → then wash",
+          "I wash my hands after getting home"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本へ行くとき、空港でお土産を買った。",
+      "reading": "にほんへ いくとき、くうこうで おみやげを かった。",
+      "en": "When I was going to Japan, I bought souvenirs at the airport (before arriving).",
+      "note": "Dictionary form: the buying happened before arrival (at the departure airport)."
+    },
+    {
+      "ja": "日本へ行ったとき、京都を見に行った。",
+      "reading": "にほんへ いったとき、きょうとを みに いった。",
+      "en": "When I went to Japan, I went to see Kyoto (after arriving).",
+      "note": "た-form: the sightseeing happened after arriving in Japan."
+    },
+    {
+      "ja": "子供のとき、よく川で泳いだ。",
+      "reading": "こどもの とき、よく かわで およいだ。",
+      "en": "When I was a child, I often swam in the river.",
+      "note": "Noun + のとき: a period of life."
+    },
+    {
+      "ja": "家を出るとき、電気を消すのを忘れないでください。",
+      "reading": "いえを でるとき、でんきを けすのを わすれないでください。",
+      "en": "When you leave the house, don't forget to turn off the lights.",
+      "note": "You turn off the lights before actually going out: dictionary form + とき."
+    },
+    {
+      "ja": "駅に着いたとき、電車はもう出ていた。",
+      "reading": "えきに ついたとき、でんしゃは もう でていた。",
+      "en": "When I got to the station, the train had already left.",
+      "note": "た-form: the arriving was complete when the speaker saw the train gone."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら",
+      "difference": "たら also means \"when\" for the future, but always with the order \"A finished, then B\". とき can express both orders.",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜間・〜間に",
+      "difference": "間に means \"during the time that\" and needs a continuing state or action. とき is a point or period \"when\".",
+      "id": "n4-grammar-47"
+    },
+    {
+      "pattern": "〜場合は",
+      "difference": "場合 is \"in the case that\", used for possibilities and rules. とき is for real times and events.",
+      "id": "n4-grammar-46"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "家に帰るとき、手を洗います。(meaning: after getting home)",
+      "right": "家に帰ったとき、手を洗います。",
+      "why": "Washing hands happens after you get home, so the completed た-form is needed. 帰るとき would mean \"on the way home\"."
+    },
+    {
+      "wrong": "日本へ行ったとき、空港でお土産を買いました。(bought at the home airport before leaving)",
+      "right": "日本へ行くとき、空港でお土産を買いました。",
+      "why": "The buying was before arrival, so the dictionary form is required, even though the whole sentence is past."
+    },
+    {
+      "wrong": "暇のとき、映画を見ます。",
+      "right": "暇なとき、映画を見ます。",
+      "why": "な-adjectives take な before とき; の is for nouns (子供のとき)."
+    }
+  ],
+  "usageNotes": [
+    "Verbs of state (いる, ある, 分かる, 忙しい) usually take the dictionary form regardless of time: 日本にいるとき, 分からないとき.",
+    "With verbs that take time (食べる, 読む), dictionary form + とき means \"while\": ご飯を食べるとき、テレビを見ない.",
+    "〜たとき can be shortened to 〜たら in casual speech for past sequences, but とき is the form tested for the order of events."
+  ],
+  "jlptTips": [
+    "Look for movement verbs (行く, 来る, 帰る, 着く, 出る) before the blank. Ask: was the main action done before or after arriving? Before → dictionary form; after → た-form.",
+    "The final verb's tense is a distractor: 買った at the end does not mean the とき verb must be 行った. Decide by the order of events, not by the sentence's tense."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-93-1",
+    "q-n4-g-93-2",
+    "q-n4-g-93-3",
+    "q-n4-g-93-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-93-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

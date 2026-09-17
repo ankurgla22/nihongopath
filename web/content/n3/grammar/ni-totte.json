@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-24",
+  "slug": "ni-totte",
+  "level": "n3",
+  "order": 24,
+  "title": "〜にとって",
+  "romaji": "ni totte",
+  "meaning": "For… / from the standpoint of…",
+  "simpleExplanation": "〜にとって means \"for X\" in the sense of \"from X's point of view\": 私にとって、家族が一番大切です = for me, family is the most important thing. What follows is a judgement or evaluation (大切, 難しい, 必要, 幸せ), not an action.",
+  "whenUsed": "Opinions, essays, speeches. Before a noun use にとっての. Common with people, groups, and sometimes things (会社にとって, 日本にとって).",
+  "formation": [
+    "Noun + にとって (は / も)",
+    "Noun + にとっての + Noun",
+    "Followed by an evaluation: 大切だ / 難しい / 必要だ / 意味がある"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "外国人",
+        "role": "viewpoint holder"
+      },
+      {
+        "text": "にとって、",
+        "role": "for / from the standpoint of",
+        "highlight": true
+      },
+      {
+        "text": "敬語は",
+        "role": "topic"
+      },
+      {
+        "text": "難しい。",
+        "role": "evaluation (adjective)",
+        "highlight": true
+      }
+    ],
+    "translation": "For foreigners, keigo is difficult."
+  },
+  "examples": [
+    {
+      "ja": "私にとって、家族が一番大切です。",
+      "reading": "わたしにとって、かぞくがいちばんたいせつです。",
+      "en": "For me, family is the most important thing.",
+      "note": "A personal viewpoint + a value judgement."
+    },
+    {
+      "ja": "外国人にとって、敬語は難しい。",
+      "reading": "がいこくじんにとって、けいごはむずかしい。",
+      "en": "For foreigners, keigo is difficult.",
+      "note": "A group's viewpoint + an adjective of difficulty."
+    },
+    {
+      "ja": "この経験は彼にとって大きな財産になった。",
+      "reading": "このけいけんはかれにとっておおきなざいさんになった。",
+      "en": "This experience became a great asset for him.",
+      "note": "An evaluation of what something became for a person."
+    },
+    {
+      "ja": "この町にとって、観光は最も重要な産業だ。",
+      "reading": "このまちにとって、かんこうはもっともじゅうようなさんぎょうだ。",
+      "en": "For this town, tourism is the most important industry.",
+      "note": "A place or organization can hold the viewpoint."
+    },
+    {
+      "ja": "子供にとっての遊びは、大人にとっての仕事と同じくらい大切だ。",
+      "reading": "こどもにとってのあそびは、おとなにとってのしごとおなじくらいたいせつだ。",
+      "en": "Play for children is as important as work for adults.",
+      "note": "にとっての before a noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に対して",
+      "difference": "Toward: the target of an action or attitude, not a viewpoint.",
+      "id": "n3-grammar-22"
+    },
+    {
+      "pattern": "〜として",
+      "difference": "As: a role or capacity (学生として).",
+      "id": "n3-grammar-27"
+    },
+    {
+      "pattern": "〜としては",
+      "difference": "As for (my) standpoint: used for opinions like 賛成 / 反対, which にとって cannot take."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私にとって、その案に賛成だ。",
+      "right": "私としては、その案に賛成だ。",
+      "why": "にとって takes evaluations (大切, 難しい), not opinions like 賛成 / 反対."
+    },
+    {
+      "wrong": "私にとって、毎日日本語を勉強している。",
+      "right": "私は毎日日本語を勉強している。",
+      "why": "An action cannot follow にとって; it needs a judgement."
+    },
+    {
+      "wrong": "外国人に対して敬語は難しい。",
+      "right": "外国人にとって敬語は難しい。",
+      "why": "A difficulty judged from someone's viewpoint uses にとって."
+    }
+  ],
+  "usageNotes": [
+    "Followed by adjectives of evaluation (大切、難しい、必要), not by actions or opinions like 賛成/反対 (use 〜としては or 〜は). Compare 〜に対して (target).",
+    "にとっても (\"even for\") and にとっては (\"as for me at least\") are common."
+  ],
+  "jlptTips": [
+    "If an evaluation adjective (大切, 必要, 難しい, 幸せ, 大きな問題) follows, choose にとって.",
+    "If 賛成 / 反対 / 〜と思う follows, choose としては instead; this is a designed trap.",
+    "Before a noun the form is にとっての."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-24-1",
+    "q-n3-g-24-2",
+    "q-n3-g-24-3",
+    "q-n3-g-24-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-24-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

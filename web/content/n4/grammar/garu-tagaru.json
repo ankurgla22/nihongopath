@@ -1,0 +1,124 @@
+{
+  "id": "n4-grammar-78",
+  "slug": "garu-tagaru",
+  "level": "n4",
+  "order": 78,
+  "title": "〜がる / 〜たがる \"show signs of (wanting / feeling)\"",
+  "romaji": "garu / tagaru",
+  "meaning": "Describes a third person's feelings or desires as seen from outside.",
+  "simpleExplanation": "In Japanese, feelings and wishes (ほしい, 〜たい, 寒い, 怖い) are normally spoken about for yourself only. To describe what another person seems to feel or want, you add がる: ほしい → ほしがる (shows signs of wanting), 怖い → 怖がる (is afraid), 行きたい → 行きたがる (wants to go). The particle changes too: 水がほしい (I want water) becomes 水をほしがる (he wants water). 〜がっている describes the current state; 〜がる alone describes a habit or tendency.",
+  "whenUsed": "Talking about a third person's desires and feelings: children, family, friends, pets, characters in a story. Also about listeners in a general sense (\"people tend to…\"). Not used for yourself except in special expressions (残念がる is rare for oneself), and not needed in direct questions to the listener (何がほしいですか is fine).",
+  "formation": [
+    "い-adjective stem + がる: ほしい → ほしがる, 寒い → 寒がる, 怖い → 怖がる, うれしい → うれしがる",
+    "な-adjective + がる: 嫌がる, 不思議がる, 残念がる",
+    "V-ます stem + たがる: 行きたい → 行きたがる, 食べたい → 食べたがる",
+    "Object takes を: 水をほしがる, 犬を怖がる, 日本へ行きたがる",
+    "Current state: 〜がっている; habit: 〜がる. Conjugates as a Group 1 verb"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "私は新しいゲームがほしい",
+        "en": "I want a new game (my own wish, object with が)"
+      },
+      {
+        "ja": "ほしい → ほしがる",
+        "en": "drop い, add がる: \"shows signs of wanting\""
+      },
+      {
+        "ja": "子供は新しいゲームをほしがる",
+        "en": "the child wants a new game (tendency; object now takes を)"
+      },
+      {
+        "ja": "子供は新しいゲームをほしがっている",
+        "en": "the child wants a new game right now (current state)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供が新しいゲームをほしがっている。",
+      "reading": "こどもが あたらしい ゲームを ほしがっている。",
+      "en": "The child wants a new game.",
+      "note": "ほしい → ほしがっている, with を on the object."
+    },
+    {
+      "ja": "弟はアメリカへ行きたがっています。",
+      "reading": "おとうとは アメリカへ いきたがっています。",
+      "en": "My little brother wants to go to America.",
+      "note": "行きたい → 行きたがっている: a third person's current wish."
+    },
+    {
+      "ja": "妹は犬を怖がる。",
+      "reading": "いもうとは いぬを こわがる。",
+      "en": "My sister is afraid of dogs.",
+      "note": "怖い → 怖がる: a habitual feeling (she is always afraid of dogs)."
+    },
+    {
+      "ja": "うちの犬は散歩に行きたがって、玄関で待っている。",
+      "reading": "うちの いぬは さんぽに いきたがって、げんかんで まっている。",
+      "en": "Our dog wants to go for a walk and is waiting at the door.",
+      "note": "たがる in the て-form joins the observable sign (waiting at the door)."
+    },
+    {
+      "ja": "弟は注射を嫌がって、なかなか病院に入らなかった。",
+      "reading": "おとうとは ちゅうしゃを いやがって、なかなか びょういんに はいらなかった。",
+      "en": "My little brother hated the idea of the injection and wouldn't go into the hospital.",
+      "note": "な-adjective 嫌 + がる, object with を."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たい / ほしい",
+      "difference": "For the speaker's own wishes (私は行きたい / 車がほしい). For third persons in statements, switch to たがる / ほしがる."
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "うれしそうだ describes how someone looks right now. うれしがる describes their reaction or tendency as a fact.",
+      "id": "n4-grammar-35"
+    },
+    {
+      "pattern": "〜てほしい",
+      "difference": "〜てほしい is my wish that someone act. A third person's wish that someone act is 〜てほしがっている.",
+      "id": "n4-grammar-75"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "妹は新しいかばんがほしがっている。",
+      "right": "妹は新しいかばんをほしがっている。",
+      "why": "がる turns the adjective into a verb, so the object takes を, not が."
+    },
+    {
+      "wrong": "子供はアイスを食べたいです。(as a plain statement about the child)",
+      "right": "子供はアイスを食べたがっています。",
+      "why": "〜たい reports the speaker's own wish. A third person's wish in a statement needs たがる."
+    },
+    {
+      "wrong": "私は犬を怖がります。",
+      "right": "私は犬が怖いです。",
+      "why": "For your own feelings, use the adjective directly. がる is for describing others."
+    }
+  ],
+  "usageNotes": [
+    "がる implies you judge from outside signs. Use 〜がっている for what someone wants right now and 〜がる for a repeated tendency (寒がりや = a person who feels the cold).",
+    "Common がる verbs: 痛がる, 寂しがる, 悔しがる, 面白がる, 恥ずかしがる, 珍しがる.",
+    "In questions to the listener and in quotes (〜と言っている), 〜たい is fine even for others: 彼は行きたいと言っている."
+  ],
+  "jlptTips": [
+    "Third-person subject + wish or feeling → look for がる / たがる. The particle before the blank is a second clue: を before ほしがる, が before ほしい.",
+    "Distractors mix 〜たい and 〜たがる with the wrong particle. Remember: がほしい / をほしがる, and 〜たい can also take を."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-78-1",
+    "q-n4-g-78-2",
+    "q-n4-g-78-3",
+    "q-n4-g-78-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-78-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

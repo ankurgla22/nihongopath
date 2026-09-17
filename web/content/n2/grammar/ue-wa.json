@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-9",
+  "slug": "ue-wa",
+  "level": "n2",
+  "order": 9,
+  "title": "〜上は",
+  "romaji": "ue wa",
+  "meaning": "now that, since (formal)",
+  "simpleExplanation": "〜上は means \"now that…, since…\" and introduces a resolve or an obligation that naturally follows a decision or fact: now that it is decided, all I can do is move forward. It is the stiff, literary sibling of 〜以上は and 〜からには.",
+  "whenUsed": "書き言葉 and formal speeches; rare in casual talk, where からには or 以上 is used instead. The second clause expresses determination, duty or a strong judgment (〜べきだ, 〜なければならない, 〜つもりだ, 〜しかない).",
+  "formation": [
+    "Vる/Vた + 上は"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "決めた",
+        "role": "decision or established fact"
+      },
+      {
+        "text": "上は",
+        "role": "now that…",
+        "highlight": true
+      },
+      {
+        "text": "迷わず進むだけだ",
+        "role": "resolve / obligation"
+      }
+    ],
+    "translation": "Now that it's decided, all that's left is to move forward without hesitation."
+  },
+  "examples": [
+    {
+      "ja": "決めた上は、迷わず進むだけだ。",
+      "reading": "きめたうえは、まよわずすすむだけだ。",
+      "en": "Now that it's decided, all that's left is to move forward without hesitation.",
+      "note": "Vた + 上は with resolve (〜だけだ)."
+    },
+    {
+      "ja": "会社を辞める上は、次の仕事を探さなければならない。",
+      "reading": "かいしゃをやめるうえは、つぎのしごとをさがさなければならない。",
+      "en": "Since I'm quitting the company, I have to look for the next job.",
+      "note": "Vる + 上は with obligation (〜なければならない)."
+    },
+    {
+      "ja": "事実が明らかになった上は、責任を取るべきだ。",
+      "reading": "じじつがあきらかになったうえは、せきにんをとるべきだ。",
+      "en": "Now that the facts are clear, one should take responsibility.",
+      "note": "A fact (事実が明らかになった) followed by duty (〜べきだ)."
+    },
+    {
+      "ja": "引き受けた上は、最後まで責任を持ってやり遂げます。",
+      "reading": "ひきうけたうえは、さいごまでせきにんをもってやりとげます。",
+      "en": "Now that I have accepted, I will see it through to the end.",
+      "note": "A formal promise."
+    },
+    {
+      "ja": "こうなった上は、正直にすべてを話すしかない。",
+      "reading": "こうなったうえは、しょうじきにすべてをはなすしかない。",
+      "en": "Now that things have come to this, there is nothing to do but tell everything honestly.",
+      "note": "こうなった上は is a set expression."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からには",
+      "difference": "Same meaning, spoken and written; the everyday choice.",
+      "id": "n2-grammar-31"
+    },
+    {
+      "pattern": "〜以上(は)",
+      "difference": "Same meaning, slightly less stiff than 上は.",
+      "id": "n2-grammar-3"
+    },
+    {
+      "pattern": "〜上で",
+      "difference": "Different meaning: \"after doing / in the context of\".",
+      "id": "n2-grammar-8"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "約束した上は、たぶん行きます。",
+      "right": "約束した上は、必ず行きます。",
+      "why": "The second clause must show firm resolve or obligation; たぶん weakens it and sounds contradictory."
+    },
+    {
+      "wrong": "決めるの上は、進むだけだ。",
+      "right": "決めた上は、進むだけだ。",
+      "why": "Verbs attach directly (Vた / Vる) without の."
+    },
+    {
+      "wrong": "今日は暑い上は、泳ぎに行こう。",
+      "right": "今日は暑いから、泳ぎに行こう。",
+      "why": "上は does not follow adjectives and is not a simple reason; it needs a decision or committed fact."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: こうなった上は, かくなる上は (very literary), 引き受けた上は.",
+    "Typical endings: 〜べきだ, 〜なければならない, 〜しかない, 〜つもりだ, 〜だけだ.",
+    "Because it is so formal, it often appears in speeches, letters and written narration."
+  ],
+  "jlptTips": [
+    "If the sentence ends in a determined tone (しかない・べきだ・つもりだ) and the blank follows a decision, choose 上は (or からには / 以上 if 上は is not listed).",
+    "Distractors are 上で and 上に. Check the ending: a resolve → 上は; a decision after a step → 上で; a stacked fact → 上に.",
+    "Watch for the fixed phrase こうなった上は in 並べ替え."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-9-1",
+    "q-n2-g-9-2",
+    "q-n2-g-9-3",
+    "q-n2-g-9-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-9-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

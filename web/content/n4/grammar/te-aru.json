@@ -1,0 +1,142 @@
+{
+  "id": "n4-grammar-25",
+  "slug": "te-aru",
+  "level": "n4",
+  "order": 25,
+  "title": "〜てある \"has been done (and remains so)\"",
+  "romaji": "te aru",
+  "meaning": "A resulting state from someone's deliberate action; the agent is not mentioned.",
+  "simpleExplanation": "〜てある describes a state that exists because someone did something on purpose: ドアに名前が書いてある = a name is written on the door (someone wrote it and it is still there). It uses a transitive verb (a verb that takes an object) in the て-form + ある, and the thing takes が instead of を. Who did it is not important; what matters is the result you can see now, and the feeling that it was done deliberately.",
+  "whenUsed": "Describing what you see in a room or on a page (壁に絵がかけてある), confirming that preparation is complete (晩ご飯は作ってあります, ホテルは予約してあります), and giving reassurance (もう連絡してあるから大丈夫).",
+  "formation": [
+    "Transitive V-て + ある: 書いてある, 開けてある, 作ってある",
+    "The object takes が (or は as topic): 名前が書いてある, 晩ご飯は作ってある",
+    "Negative: 〜てない / 〜てありません",
+    "Past: 〜てあった (a state that existed then)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "てある vs ている vs ておく",
+    "columns": [
+      "Verb type",
+      "Particle",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜てある",
+        "cells": [
+          "transitive",
+          "N が",
+          "a state made on purpose by someone",
+          "窓が開けてある (someone opened it and left it)"
+        ]
+      },
+      {
+        "label": "〜ている (state)",
+        "cells": [
+          "intransitive",
+          "N が",
+          "a state, no one's intention implied",
+          "窓が開いている (it is open)"
+        ]
+      },
+      {
+        "label": "〜ておく",
+        "cells": [
+          "transitive",
+          "N を",
+          "the act of preparing",
+          "窓を開けておく (I'll open it in advance)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "壁に絵がかけてあります。",
+      "reading": "かべに えが かけてあります。",
+      "en": "A picture has been hung on the wall.",
+      "note": "Transitive かける + てある: someone hung the picture; it is still there."
+    },
+    {
+      "ja": "ドアに名前が書いてある。",
+      "reading": "ドアに なまえが かいてある。",
+      "en": "A name is written on the door.",
+      "note": "書いてある: the standard way to say 'it says / is written'."
+    },
+    {
+      "ja": "晩ご飯はもう作ってあります。",
+      "reading": "ばんごはんは もう つくってあります。",
+      "en": "Dinner has already been made.",
+      "note": "Preparation is complete: the dinner has already been made."
+    },
+    {
+      "ja": "会議室にはもう椅子が並べてあります。",
+      "reading": "かいぎしつには もう いすが ならべてあります。",
+      "en": "The chairs have already been set out in the meeting room.",
+      "note": "Transitive 並べる + てある: the room is ready because someone arranged it."
+    },
+    {
+      "ja": "冷蔵庫にケーキが入れてあるから、食べていいよ。",
+      "reading": "れいぞうこに ケーキが いれてあるから、たべて いいよ。",
+      "en": "There's cake in the fridge (I put it there), so you can have some.",
+      "note": "入れてある: the speaker deliberately put it there for someone."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ておく",
+      "difference": "ておく is the action of preparing (予約しておく). てある is the resulting state (予約してある = it's booked).",
+      "id": "n4-grammar-21"
+    },
+    {
+      "pattern": "Transitive / intransitive pairs",
+      "difference": "Intransitive + ている (開いている) simply describes a state. Transitive + てある (開けてある) implies someone left it that way on purpose.",
+      "id": "n4-grammar-112"
+    },
+    {
+      "pattern": "〜たまま",
+      "difference": "たまま is a state left unchanged, often carelessly (開けたまま出かけた). てある suggests purpose.",
+      "id": "n4-grammar-29"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "窓が開いてある。",
+      "right": "窓が開けてある。/ 窓が開いている。",
+      "why": "てある needs a transitive verb (開ける). 開く is intransitive and pairs with ている."
+    },
+    {
+      "wrong": "名前を書いてある。",
+      "right": "名前が書いてある。",
+      "why": "With てある the object becomes the subject and takes が (or は), not を."
+    },
+    {
+      "wrong": "田中さんが窓を開けてある。",
+      "right": "田中さんが窓を開けておいた。/ 窓が開けてある。",
+      "why": "てある describes the state without a named doer. To say who did it, use ておいた."
+    }
+  ],
+  "usageNotes": [
+    "〜と書いてある is the everyday way to quote signs and notes: 「休み」と書いてある.",
+    "てある is common in shops and offices to confirm readiness: 用意してあります, 準備してあります.",
+    "In casual speech てあります shortens to てある / てあるよ."
+  ],
+  "jlptTips": [
+    "Check the verb: if the options mix an intransitive verb + ている and a transitive verb + てある (開いている vs 開けてある), both may be grammatical; look for a hint of purpose (もう, ちゃんと, 準備) to choose てある.",
+    "The particle before the blank is decisive: N が + transitive verb → てある; N を + transitive verb → ておく."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-25-1",
+    "q-n4-g-25-2",
+    "q-n4-g-25-3",
+    "q-n4-g-25-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-25-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

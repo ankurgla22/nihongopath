@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-56",
+  "slug": "to-tsutaete-kudasai",
+  "level": "n4",
+  "order": 56,
+  "title": "〜と伝えてください \"please tell (someone) that…\"",
+  "romaji": "to tsutaete kudasai",
+  "meaning": "Asking someone to pass a message on to a third person.",
+  "simpleExplanation": "〜と伝えてください asks someone to pass a message to a third person: 田中さんに、明日は休むと伝えてください = please tell Tanaka that I'll be off tomorrow. The person who should receive the message takes に, and the message goes in the plain form before と. More polite versions are 〜と伝えていただけませんか and 〜とお伝えください. If the message is a request (\"tell him to call me\"), use 〜ように伝えてください instead.",
+  "whenUsed": "Phone calls, offices, schools: leaving a message when someone is out. Very common in business Japanese: 〜とお伝えください to a receptionist, 〜と伝えていただけますか on the phone. Casual: 〜と伝えて / 〜って言っておいて.",
+  "formation": [
+    "Person に + plain sentence + と伝えてください",
+    "Politer: 〜と伝えていただけませんか / 〜とお伝えください",
+    "Request inside the message: V-dictionary / V-ない + ように伝えてください",
+    "Casual: 〜と伝えて / 〜って言っておいて"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "田中さんに",
+        "role": "receiver of the message (に)",
+        "highlight": false
+      },
+      {
+        "text": "明日は休む",
+        "role": "message (plain form)",
+        "highlight": false
+      },
+      {
+        "text": "と",
+        "role": "quotation particle",
+        "highlight": true
+      },
+      {
+        "text": "伝えてください",
+        "role": "request to pass it on",
+        "highlight": true
+      }
+    ],
+    "translation": "Please tell Tanaka that I will be off tomorrow."
+  },
+  "examples": [
+    {
+      "ja": "田中さんに、明日は休むと伝えてください。",
+      "reading": "たなかさんに、あしたは やすむと つたえてください。",
+      "en": "Please tell Tanaka that I'll be off tomorrow.",
+      "note": "Receiver に + message + と伝えてください."
+    },
+    {
+      "ja": "部長に、三時に戻るとお伝えください。",
+      "reading": "ぶちょうに、さんじに もどると おつたえください。",
+      "en": "Please tell the manager that I'll be back at three.",
+      "note": "とお伝えください: extra polite, to someone senior."
+    },
+    {
+      "ja": "会議は延期になったと皆に伝えてくれませんか。",
+      "reading": "かいぎは えんきに なったと みんなに つたえてくれませんか。",
+      "en": "Could you tell everyone that the meeting was postponed?",
+      "note": "伝えてくれませんか: a friendly request to pass the news to everyone."
+    },
+    {
+      "ja": "田中さんが戻ったら、私に電話するように伝えてください。",
+      "reading": "たなかさんが もどったら、わたしに でんわするように つたえてください。",
+      "en": "When Tanaka gets back, please tell him to call me.",
+      "note": "A request inside the message uses ように, not と."
+    },
+    {
+      "ja": "すみませんが、山田さんに、会議は十時からだと伝えていただけますか。",
+      "reading": "すみませんが、やまださんに、かいぎは じゅうじからだと つたえていただけますか。",
+      "en": "Excuse me, could you tell Yamada that the meeting is from ten?",
+      "note": "Noun + だ before と; いただけますか is the polite phone version."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と言っていました",
+      "difference": "Reports a message you received. 〜と伝えてください asks someone to deliver a message.",
+      "id": "n4-grammar-55"
+    },
+    {
+      "pattern": "〜ように言う",
+      "difference": "Used for orders and requests inside messages: 電話するように伝えてください.",
+      "id": "n4-grammar-89"
+    },
+    {
+      "pattern": "〜ていただけませんか",
+      "difference": "The polite request ending that makes 伝えていただけませんか.",
+      "id": "n4-grammar-76"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "田中さんに、電話してくださいと伝えてください。",
+      "right": "田中さんに、電話するように伝えてください。",
+      "why": "A request inside a message is normally rephrased with ように rather than quoting てください (though 「電話してください」と with quotes is possible)."
+    },
+    {
+      "wrong": "田中さんを、明日は休むと伝えてください。",
+      "right": "田中さんに、明日は休むと伝えてください。",
+      "why": "The receiver of the message takes に."
+    },
+    {
+      "wrong": "明日は休みますと伝えてください。",
+      "right": "明日は休むと伝えてください。",
+      "why": "Indirect messages use the plain form before と."
+    }
+  ],
+  "usageNotes": [
+    "On the phone: 〜と伝えていただけますか / お伝えいただけますか is the standard formula.",
+    "伝える is the verb for passing on messages; 言う is also possible (〜と言っておいてください) in casual speech.",
+    "Add よろしく for a friendly touch: 田中さんによろしくと伝えてください (give my regards to Tanaka)."
+  ],
+  "jlptTips": [
+    "Person + に + message + blank + ください → と伝えて. If the message is a request (電話する, 来る), the blank before 伝えて is ように.",
+    "The message before と is plain; options with ます inside are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-56-1",
+    "q-n4-g-56-2",
+    "q-n4-g-56-3",
+    "q-n4-g-56-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-56-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

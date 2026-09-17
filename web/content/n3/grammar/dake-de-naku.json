@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-74",
+  "slug": "dake-de-naku",
+  "level": "n3",
+  "order": 74,
+  "title": "〜だけでなく〜も / 〜だけではなく",
+  "romaji": "dake de naku … mo",
+  "meaning": "not only… but also…",
+  "simpleExplanation": "〜だけでなく〜も says \"not just X, Y too\". You first name the expected item (X), then add a second item (Y) that widens the range. The second item is normally marked with も (\"also\") or a stronger particle like まで or さえ.",
+  "whenUsed": "Everyday and formal use alike. 〜だけではなく is a little more formal; 〜だけじゃなく is the casual spoken form. Common in descriptions of people, products and places: \"not only cheap but also tasty\".",
+  "formation": [
+    "Noun + だけでなく + Noun + も",
+    "Verb / い-adjective (plain form) + だけでなく",
+    "な-adjective + な + だけでなく",
+    "Variants: 〜だけではなく / 〜だけじゃなく / 〜ばかりでなく"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "英語",
+        "role": "expected item"
+      },
+      {
+        "text": "だけでなく",
+        "role": "not only",
+        "highlight": true
+      },
+      {
+        "text": "フランス語",
+        "role": "added item"
+      },
+      {
+        "text": "も",
+        "role": "also",
+        "highlight": true
+      },
+      {
+        "text": "話せる",
+        "role": "predicate"
+      }
+    ],
+    "translation": "He can speak not only English but also French."
+  },
+  "examples": [
+    {
+      "ja": "彼は英語だけでなく、フランス語も話せる。",
+      "reading": "かれはえいごだけでなく、フランスごもはなせる。",
+      "en": "He can speak not only English but also French.",
+      "note": "Noun + だけでなく + Noun + も."
+    },
+    {
+      "ja": "この店は安いだけでなく、味もいい。",
+      "reading": "このみせはやすいだけでなく、あじもいい。",
+      "en": "This restaurant is not only cheap but also tastes good.",
+      "note": "い-adjective + だけでなく; the second half adds a new merit."
+    },
+    {
+      "ja": "子供だけでなく、大人も楽しめる映画だ。",
+      "reading": "こどもだけでなく、おとなもたのしめるえいがだ。",
+      "en": "It's a movie that not only children but also adults can enjoy.",
+      "note": "The added item (大人) is the surprising one."
+    },
+    {
+      "ja": "彼女は日本語が話せるだけでなく、漢字も上手に書ける。",
+      "reading": "かのじょはにほんごがはなせるだけでなく、かんじもじょうずにかける。",
+      "en": "She can not only speak Japanese but also write kanji well.",
+      "note": "Verb (plain form) + だけでなく."
+    },
+    {
+      "ja": "この公園は静かなだけではなく、駅からも近い。",
+      "reading": "このこうえんはしずかなだけではなく、えきからもちかい。",
+      "en": "This park is not only quiet but also close to the station.",
+      "note": "な-adjective + な + だけではなく."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はもちろん",
+      "difference": "'X of course, and Y too' — X is presented as obvious. だけでなく just adds Y without calling X obvious.",
+      "id": "n3-grammar-75"
+    },
+    {
+      "pattern": "〜ばかりでなく",
+      "difference": "Same meaning, slightly more formal or written."
+    },
+    {
+      "pattern": "〜に加えて",
+      "difference": "'In addition to' — a neutral addition, often with nouns in formal writing.",
+      "id": "n3-grammar-32"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は英語だけでなく、フランス語が話せる。",
+      "right": "彼は英語だけでなく、フランス語も話せる。",
+      "why": "The second item needs も (or まで / さえ). Without it the 'also' idea is lost."
+    },
+    {
+      "wrong": "この店は静かだけでなく、安い。",
+      "right": "この店は静かなだけでなく、安い。",
+      "why": "な-adjectives take な before だけでなく."
+    },
+    {
+      "wrong": "子供だけでなく、大人は楽しめる映画だ。",
+      "right": "子供だけでなく、大人も楽しめる映画だ。",
+      "why": "は after the added item breaks the 'not only… but also' link; use も."
+    }
+  ],
+  "usageNotes": [
+    "The second half can use まで or さえ for extra surprise: 子供だけでなく、大人まで夢中になった.",
+    "だけでなく can be followed by a clause, not only a noun: 安いだけでなく、味もいい.",
+    "In formal writing 〜のみならず (N2) is the stiff equivalent."
+  ],
+  "jlptTips": [
+    "Spot the も in the second half; it almost always signals だけでなく / ばかりでなく / はもちろん in the blank.",
+    "If the sentence says X is obvious (もちろん), choose はもちろん; otherwise だけでなく is the safe answer.",
+    "In 並べ替え, put だけでなく right after the first item and も right after the second."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-74-1",
+    "q-n3-g-74-2",
+    "q-n3-g-74-3",
+    "q-n3-g-74-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-74-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

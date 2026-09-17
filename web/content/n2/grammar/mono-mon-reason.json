@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-153",
+  "slug": "mono-mon-reason",
+  "level": "n2",
+  "order": 153,
+  "title": "〜もの / 〜もん",
+  "romaji": "mono / mon",
+  "meaning": "because (childish or coaxing justification)",
+  "simpleExplanation": "Sentence-final 〜もの / 〜もん gives a reason in a childlike, pleading, or spoiled tone: だって、行きたくないんだもん (\"But I just don't want to go!\"). It justifies the speaker's behavior as if to say \"that's just how it is\". It is often preceded by だって and takes the んだ / なんだ form.",
+  "whenUsed": "Casual speech only, typically by children, or by adults speaking in a cute or coaxing way, traditionally more often women. Never in writing or formal speech. Using it to a superior sounds childish.",
+  "formation": [
+    "Plain form + (ん)だもの / (ん)だもん",
+    "Noun / な-adjective + なんだもの / なんだもん",
+    "Often with だって at the start: だって〜もん",
+    "Polite-ish: 〜んですもの (old-fashioned feminine)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Reason markers by tone",
+    "items": [
+      {
+        "label": "〜から / 〜ので",
+        "description": "neutral reason"
+      },
+      {
+        "label": "〜ものだから / 〜もので",
+        "description": "apologetic excuse"
+      },
+      {
+        "label": "〜もの / 〜もん",
+        "description": "childish, pleading, spoiled"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "だって、行きたくないんだもん。",
+      "reading": "だって、いきたくないんだもん。",
+      "en": "But I just don't want to go.",
+      "note": "だって + もん: the classic child's excuse."
+    },
+    {
+      "ja": "食べられないよ。嫌いなんだもの。",
+      "reading": "たべられないよ。きらいなんだもの。",
+      "en": "I can't eat it. I hate it, after all.",
+      "note": "なんだもの after a な-adjective: I just hate it."
+    },
+    {
+      "ja": "仕方ないよ。まだ子供だもの。",
+      "reading": "しかたないよ。まだこどもだもの。",
+      "en": "It can't be helped. He's still a child.",
+      "note": "だもの after a noun; excusing someone else (he is still a child)."
+    },
+    {
+      "ja": "「どうして食べないの？」「だって、おなかがいっぱいなんだもん。」",
+      "reading": "「どうしてたべないの？」「だって、おなかがいっぱいなんだもん。」",
+      "en": "\"Why aren't you eating?\" \"Because I'm full!\"",
+      "note": "Typical child's reply with だって."
+    },
+    {
+      "ja": "「もう帰るの？」「うん、明日早いんだもの。」",
+      "reading": "「もうかえるの？」「うん、あしたはやいんだもの。」",
+      "en": "\"Leaving already?\" \"Yes, I have an early start tomorrow, you know.\"",
+      "note": "An adult using もの in a soft, slightly cute way."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものだから / 〜もので",
+      "difference": "An apologetic excuse in normal adult speech; not childish.",
+      "id": "n2-grammar-157"
+    },
+    {
+      "pattern": "〜から",
+      "difference": "Neutral reason."
+    },
+    {
+      "pattern": "〜ものの",
+      "difference": "Completely different: 'although'.",
+      "id": "n2-grammar-159"
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "General truths or nostalgia; not a reason.",
+      "id": "n2-grammar-156"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、遅れました。電車が遅れたんだもん。",
+      "right": "先生、遅れました。電車が遅れたものですから。",
+      "why": "もん is too childish for a teacher; use ものですから / もので."
+    },
+    {
+      "wrong": "報告書：売上が落ちたのは、天候が悪かったもの。",
+      "right": "報告書：売上が落ちたのは、天候が悪かったためである。",
+      "why": "Never in writing; use ため / から."
+    },
+    {
+      "wrong": "嫌いだもん。",
+      "right": "嫌いなんだもん。",
+      "why": "な-adjectives take なんだ before もん."
+    }
+  ],
+  "usageNotes": [
+    "だって is almost a fixed partner: だって〜もん.",
+    "Adults may use it playfully or to sound cute; be aware of the impression it gives.",
+    "In anime and manga, もん is a common marker of childish characters."
+  ],
+  "jlptTips": [
+    "In listening, もん / もの signals a childlike excuse; note who is speaking.",
+    "Do not confuse sentence-final もの (reason) with ものだ (norm) or ものの (although).",
+    "Distractors include ものだから (adult excuse) and から (neutral). Choose もん only for casual, childish speech."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-153-1",
+    "q-n2-g-153-2",
+    "q-n2-g-153-3",
+    "q-n2-g-153-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-153-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

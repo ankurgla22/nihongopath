@@ -1,0 +1,139 @@
+{
+  "id": "n4-grammar-46",
+  "slug": "baai-wa",
+  "level": "n4",
+  "order": 46,
+  "title": "〜場合は \"in the case of / if\"",
+  "romaji": "baai wa",
+  "meaning": "Presents a hypothetical situation, especially in instructions, rules, and formal contexts.",
+  "simpleExplanation": "場合 (ばあい) means \"case / situation\". 〜場合は means \"in the case that / if\": 遅れる場合は、連絡してください = if you're going to be late, please let us know. Because 場合 is a noun, the words before it take the noun-modifying form: verb plain form, い-adjective, な-adjective + な, noun + の (雨の場合, 火事の場合). It sounds a little formal and is typical of rules, notices and instructions.",
+  "whenUsed": "Instructions, rules, manuals, emergency notices, business talk: 火事の場合は (in case of fire), 欠席する場合は (if you will be absent). Less common in relaxed conversation, where たら is preferred. It presents a possible situation rather than a sequence of events.",
+  "formation": [
+    "V-plain + 場合(は): 遅れる場合は, 遅れた場合は, 来ない場合は",
+    "い-adjective + 場合: 熱が高い場合",
+    "な-adjective + な場合: 不便な場合",
+    "Noun + の場合: 雨の場合, 火事の場合",
+    "は can be dropped: 雨の場合、中止です"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "場合は vs たら vs と",
+    "columns": [
+      "Feel",
+      "Typical use",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜場合は",
+        "cells": [
+          "formal, a possible case",
+          "rules, notices, instructions",
+          "火事の場合は、階段を使ってください"
+        ]
+      },
+      {
+        "label": "〜たら",
+        "cells": [
+          "neutral, everyday",
+          "conversation, sequence of events",
+          "火事になったら、逃げてください"
+        ]
+      },
+      {
+        "label": "〜と",
+        "cells": [
+          "automatic result",
+          "machines, nature, directions",
+          "火事になると、ベルが鳴ります"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "遅れる場合は、連絡してください。",
+      "reading": "おくれる ばあいは、れんらくしてください。",
+      "en": "If you are going to be late, please contact us.",
+      "note": "Rule-style instruction: verb + 場合は."
+    },
+    {
+      "ja": "火事の場合は、エレベーターを使わないでください。",
+      "reading": "かじの ばあいは、エレベーターを つかわないでください。",
+      "en": "In case of fire, do not use the elevator.",
+      "note": "Noun + の場合: emergency notice."
+    },
+    {
+      "ja": "雨の場合、遠足は中止になります。",
+      "reading": "あめの ばあい、えんそくは ちゅうしに なります。",
+      "en": "In case of rain, the outing will be cancelled.",
+      "note": "Noun + の場合 with は dropped: a condition in an announcement."
+    },
+    {
+      "ja": "パスワードを忘れた場合は、この番号に電話してください。",
+      "reading": "パスワードを わすれたばあいは、このばんごうに でんわしてください。",
+      "en": "If you have forgotten your password, please call this number.",
+      "note": "Past tense + 場合: the case where something has already happened."
+    },
+    {
+      "ja": "熱が高い場合は、無理をしないで休んでください。",
+      "reading": "ねつが たかいばあいは、むりを しないで やすんでください。",
+      "en": "If your fever is high, don't push yourself; rest.",
+      "note": "い-adjective + 場合は."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら",
+      "difference": "たら is the everyday \"if / when\". 場合は is more formal and presents a case, not a time sequence.",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜とき",
+      "difference": "とき is \"when\" for a real or general time. 場合 is \"in the case that\", a possible situation, often in rules.",
+      "id": "n4-grammar-93"
+    },
+    {
+      "pattern": "〜と",
+      "difference": "と gives an automatic result; 場合は gives a scenario and can be followed by requests.",
+      "id": "n4-grammar-9"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨場合は、中止です。",
+      "right": "雨の場合は、中止です。",
+      "why": "場合 is a noun, so a noun before it needs の."
+    },
+    {
+      "wrong": "不便場合は、教えてください。",
+      "right": "不便な場合は、教えてください。",
+      "why": "な-adjectives need な before a noun."
+    },
+    {
+      "wrong": "昨日、遅れた場合は、先生に謝った。",
+      "right": "昨日、遅れたので、先生に謝った。",
+      "why": "場合 is for possible situations, not for reporting what actually happened once."
+    }
+  ],
+  "usageNotes": [
+    "〜場合には and 〜場合(に)は are both fine; には is a little more formal.",
+    "場合によっては (depending on the case) is a common set phrase.",
+    "In speech, 場合 is often replaced by とき or たら; keep 場合 for formal notices and rules."
+  ],
+  "jlptTips": [
+    "Notice-style sentences (ください, 禁止, 中止になります) with a hypothetical situation point to 場合は.",
+    "The particle before 場合 is the test: noun + の, な-adjective + な, verb plain form. Options like 雨場合 / 雨だ場合 are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-46-1",
+    "q-n4-g-46-2",
+    "q-n4-g-46-3",
+    "q-n4-g-46-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-46-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-60",
+  "slug": "shika-nai",
+  "level": "n4",
+  "order": 60,
+  "title": "〜しか〜ない \"nothing but / only (with a negative)\"",
+  "romaji": "shika ~nai",
+  "meaning": "\"Only\", with the nuance that the amount is less than expected or insufficient.",
+  "simpleExplanation": "しか + negative verb means \"only\", with the feeling that it is not enough: 財布に百円しかない = I have only 100 yen (and that's too little). Even though the meaning is positive (\"there IS 100 yen\"), the verb must be negative. しか replaces が and を (野菜しか食べない) and comes after other particles (現金でしか, 先生にしか).",
+  "whenUsed": "Complaining or stressing a small amount, number or range: only one person came, only cash accepted, you can only buy it here. Everyday speech and writing at all politeness levels. If you just want to state a limit without any \"too little\" feeling, use だけ.",
+  "formation": [
+    "Noun + しか + negative: 百円しかない, 野菜しか食べない",
+    "しか replaces が / を",
+    "Other particles + しか: にしか, でしか, としか, からしか",
+    "V-dictionary + しかない = have no choice but to (歩くしかない)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "だけ vs しか〜ない vs ばかり",
+    "columns": [
+      "Predicate",
+      "Feeling",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "だけ",
+        "cells": [
+          "affirmative (or negative)",
+          "neutral 'only'",
+          "一人だけ来た"
+        ]
+      },
+      {
+        "label": "しか〜ない",
+        "cells": [
+          "negative only",
+          "'only', too few / not enough",
+          "一人しか来なかった"
+        ]
+      },
+      {
+        "label": "ばかり",
+        "cells": [
+          "affirmative",
+          "'nothing but', too much",
+          "文句ばかり言う"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "財布に百円しかない。",
+      "reading": "さいふに ひゃくえんしか ない。",
+      "en": "I have only 100 yen in my wallet.",
+      "note": "Only 100 yen, and it's not enough: しか + ない."
+    },
+    {
+      "ja": "彼は野菜しか食べません。",
+      "reading": "かれは やさいしか たべません。",
+      "en": "He eats nothing but vegetables.",
+      "note": "しか replaces を: 野菜しか + 食べません."
+    },
+    {
+      "ja": "この店は現金でしか払えない。",
+      "reading": "この みせは げんきんでしか はらえない。",
+      "en": "At this shop you can only pay in cash.",
+      "note": "で + しか: only by cash (a limitation)."
+    },
+    {
+      "ja": "この本は図書館でしか読めません。",
+      "reading": "このほんは としょかんでしか よめません。",
+      "en": "This book can only be read at the library.",
+      "note": "でしか + potential negative."
+    },
+    {
+      "ja": "終電がもうないから、歩いて帰るしかない。",
+      "reading": "しゅうでんが もう ないから、あるいて かえるしかない。",
+      "en": "The last train has gone, so I have no choice but to walk home.",
+      "note": "V-dictionary + しかない = the only option."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけ",
+      "difference": "だけ works with affirmative verbs and is neutral. しか always needs a negative and implies insufficiency.",
+      "id": "n4-grammar-59"
+    },
+    {
+      "pattern": "〜ばかり",
+      "difference": "ばかり = nothing but (too much). しか〜ない = only (too little).",
+      "id": "n4-grammar-61"
+    },
+    {
+      "pattern": "〜なければならない",
+      "difference": "V + しかない (\"no choice but to\") overlaps in meaning: 行くしかない ≈ 行かなければならない, but stresses lack of alternatives.",
+      "id": "n4-grammar-99"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "財布に百円しかあります。",
+      "right": "財布に百円しかありません。",
+      "why": "しか must be followed by a negative verb even though the meaning is \"only\"."
+    },
+    {
+      "wrong": "野菜をしか食べない。",
+      "right": "野菜しか食べない。",
+      "why": "しか replaces を and が; it does not follow them."
+    },
+    {
+      "wrong": "現金しかで払えない。",
+      "right": "現金でしか払えない。",
+      "why": "Other particles come before しか: でしか, にしか."
+    }
+  ],
+  "usageNotes": [
+    "しか〜ない sounds like a complaint or a limitation; だけ sounds like a plain fact.",
+    "With numbers, しか stresses fewness: 三人しか来なかった (only three came, disappointingly).",
+    "〜するしかない is a useful phrase for resignation: 諦めるしかない."
+  ],
+  "jlptTips": [
+    "See しか before the blank → the verb must be negative. See a negative verb after a blank meaning \"only\" → しか, not だけ.",
+    "Particle order items: でしか / にしか (particle first, then しか); options like しかで are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-60-1",
+    "q-n4-g-60-2",
+    "q-n4-g-60-3",
+    "q-n4-g-60-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-60-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

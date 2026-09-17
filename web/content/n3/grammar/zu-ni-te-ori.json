@@ -1,0 +1,146 @@
+{
+  "id": "n3-grammar-128",
+  "slug": "zu-ni-te-ori",
+  "level": "n3",
+  "order": 128,
+  "title": "〜ず(に) / 〜ており / 〜ておらず (formal written forms)",
+  "romaji": "zu (ni) / te ori / te orazu",
+  "meaning": "ず: not… and / without …ing (formal ないで); ており: is …ing and (formal ていて); ておらず: is not …ing and",
+  "simpleExplanation": "These are the formal, written connectives. 〜ず replaces 〜ないで / 〜なくて: 一睡もせず \"without sleeping a wink\". 〜ており replaces 〜ていて: 開発を進めており \"we are developing… and\". 〜ておらず replaces 〜ていなくて: 原因は分かっておらず \"the cause is not known, and\". Learn the irregular せず (from する).",
+  "whenUsed": "News reports, business emails, announcements, academic writing, and polite formal speech (ております). Not used in casual conversation.",
+  "formation": [
+    "Verb ない-stem + ず(に) (行かず, 食べず; する → せず; 来る → 来ず)",
+    "Verb て-form + おり (formal ていて)",
+    "Verb て-form + おらず (formal ていなくて)",
+    "Polite: 〜ております / 〜ておりません"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Spoken → written connectives",
+    "columns": [
+      "Spoken / neutral",
+      "Formal written",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "not doing and",
+        "cells": [
+          "〜ないで / 〜なくて",
+          "〜ず(に)",
+          "朝食を食べずに出かけた"
+        ]
+      },
+      {
+        "label": "doing and",
+        "cells": [
+          "〜ていて",
+          "〜ており",
+          "開発を進めており"
+        ]
+      },
+      {
+        "label": "not doing (state) and",
+        "cells": [
+          "〜ていなくて",
+          "〜ておらず",
+          "原因は分かっておらず"
+        ]
+      },
+      {
+        "label": "adjective and",
+        "cells": [
+          "〜くて",
+          "〜く",
+          "寒く、風も強い"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "昨夜は一睡もせず、朝を迎えた。",
+      "reading": "ゆうべはいっすいもせず、あさをむかえた。",
+      "en": "I greeted the morning without sleeping a wink.",
+      "note": "せず: irregular form of する."
+    },
+    {
+      "ja": "現在、当社は新製品の開発を進めており、来春発売の予定です。",
+      "reading": "げんざい、とうしゃはしんせいひんのかいはつをすすめており、らいしゅんはつばいのよていです。",
+      "en": "Our company is currently developing a new product, scheduled for release next spring.",
+      "note": "ており: business announcement."
+    },
+    {
+      "ja": "原因はまだ分かっておらず、調査が続いている。",
+      "reading": "げんいんはまだわかっておらず、ちょうさがつづいている。",
+      "en": "The cause is not yet known and the investigation continues.",
+      "note": "ておらず: news report."
+    },
+    {
+      "ja": "電車が遅れており、到着は三十分ほど遅くなる見込みです。",
+      "reading": "でんしゃがおくれており、とうちゃくはさんじゅっぷんほどおそくなるみこみです。",
+      "en": "The train is delayed, and arrival is expected to be about thirty minutes late.",
+      "note": "Announcement style."
+    },
+    {
+      "ja": "傘を持たずに出かけたら、雨に降られてしまった。",
+      "reading": "かさをもたずにでかけたら、あめにふられてしまった。",
+      "en": "I went out without an umbrella and got caught in the rain.",
+      "note": "ずに = without doing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないで",
+      "difference": "The everyday equivalent of ずに.",
+      "id": "n3-grammar-55"
+    },
+    {
+      "pattern": "〜ずに",
+      "difference": "Slightly more formal than ないで; same meaning.",
+      "id": "n3-grammar-54"
+    },
+    {
+      "pattern": "〜ていて / 〜ていなくて",
+      "difference": "The neutral forms replaced by ており / ておらず in formal writing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勉強しずに",
+      "right": "勉強せずに",
+      "why": "する has the irregular form せず."
+    },
+    {
+      "wrong": "現在、調査を進めていて、結果は来月発表する予定でございます。",
+      "right": "現在、調査を進めており、結果は来月発表する予定でございます。",
+      "why": "In a formal sentence, use ており rather than ていて to keep the register consistent."
+    },
+    {
+      "wrong": "分かっておりず",
+      "right": "分かっておらず",
+      "why": "The negative of おる is おらず (おらない → おらず)."
+    }
+  ],
+  "usageNotes": [
+    "Other written connectives: 〜ではなく (not で), 〜であるが (not だが), 〜く (adjective, not くて).",
+    "ずにはいられない, 〜ざるを得ない (N2) build on the ず stem.",
+    "In 読解 news articles, ており / ておらず are everywhere; read them as ていて / ていなくて."
+  ],
+  "jlptTips": [
+    "Formal register + a connective blank → ず / ており / ておらず.",
+    "For する, the ず-form is せず; しず is always wrong.",
+    "Match the polarity: ており (positive), ておらず (negative)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-128-1",
+    "q-n3-g-128-2",
+    "q-n3-g-128-3",
+    "q-n3-g-128-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-128-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

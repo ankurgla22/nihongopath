@@ -1,0 +1,134 @@
+{
+  "id": "n4-grammar-62",
+  "slug": "zutsu",
+  "level": "n4",
+  "order": 62,
+  "title": "〜ずつ \"each / at a time\"",
+  "romaji": "zutsu",
+  "meaning": "Equal distribution: \"X each\", \"X at a time\", \"little by little\".",
+  "simpleExplanation": "ずつ follows a quantity and means \"each / at a time\": 一人二つずつ = two each per person, 三人ずつ = in groups of three, 少しずつ = little by little. It shows that the amount is shared equally or repeated in equal steps. It always follows a number or quantity word (二つ, 三人, 少し), never the noun itself.",
+  "whenUsed": "Handing things out, forming groups, describing gradual progress (少しずつ上手になる), and instructions (一日三回、一錠ずつ). Used in all registers. 少しずつ (bit by bit) is one of the most useful phrases at this level.",
+  "formation": [
+    "Number + counter + ずつ: 一つずつ, 三人ずつ, 二枚ずつ",
+    "少し / ちょっと + ずつ: 少しずつ",
+    "Person + に + quantity + ずつ: 一人に二つずつ",
+    "ずつ + particle possible: 一人ずつが / 一つずつを (usually omitted)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "りんごを",
+        "role": "thing distributed (object)",
+        "highlight": false
+      },
+      {
+        "text": "一人",
+        "role": "unit receiving (per person)",
+        "highlight": false
+      },
+      {
+        "text": "二つ",
+        "role": "quantity",
+        "highlight": false
+      },
+      {
+        "text": "ずつ",
+        "role": "'each / at a time'",
+        "highlight": true
+      },
+      {
+        "text": "配りました",
+        "role": "verb of distribution",
+        "highlight": false
+      }
+    ],
+    "translation": "I handed out two apples to each person."
+  },
+  "examples": [
+    {
+      "ja": "りんごを一人二つずつ配りました。",
+      "reading": "りんごを ひとり ふたつずつ くばりました。",
+      "en": "I handed out two apples to each person.",
+      "note": "Per-person distribution: 一人 + 二つずつ."
+    },
+    {
+      "ja": "毎日、少しずつ漢字を覚えています。",
+      "reading": "まいにち、すこしずつ かんじを おぼえています。",
+      "en": "I'm memorising kanji little by little every day.",
+      "note": "少しずつ: gradual progress."
+    },
+    {
+      "ja": "二人ずつグループを作ってください。",
+      "reading": "ふたりずつ グループを つくってください。",
+      "en": "Please form groups of two.",
+      "note": "Groups of two: 二人ずつ."
+    },
+    {
+      "ja": "この薬は、朝と夜に一錠ずつ飲んでください。",
+      "reading": "このくすりは、あさと よるに いちじょうずつ のんでください。",
+      "en": "Take one tablet of this medicine in the morning and one at night.",
+      "note": "Equal amount at each time."
+    },
+    {
+      "ja": "一人ずつ前に出て、自己紹介をしてください。",
+      "reading": "ひとりずつ まえに でて、じこしょうかいを してください。",
+      "en": "Please come to the front one at a time and introduce yourselves.",
+      "note": "一人ずつ = one person at a time."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜くらい",
+      "difference": "くらい = about (an approximate amount). ずつ = each / at a time (equal distribution).",
+      "id": "n4-grammar-50"
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "だけ limits (二つだけ = only two). ずつ distributes (二つずつ = two each).",
+      "id": "n4-grammar-59"
+    },
+    {
+      "pattern": "も (quantity)",
+      "difference": "Number + も stresses a large amount (十個も). ずつ says how the amount is shared.",
+      "id": "n4-grammar-96"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "りんごずつ二つ配った。",
+      "right": "りんごを二つずつ配った。",
+      "why": "ずつ follows the quantity, not the noun."
+    },
+    {
+      "wrong": "少しずつずつ覚える。",
+      "right": "少しずつ覚える。",
+      "why": "ずつ is not repeated."
+    },
+    {
+      "wrong": "毎日三時間ずつ勉強しています。(meaning \"about three hours\")",
+      "right": "毎日三時間くらい勉強しています。",
+      "why": "三時間ずつ is fine if you mean exactly three hours each day, but for an approximate amount use くらい."
+    }
+  ],
+  "usageNotes": [
+    "The most common pattern is [person/time] に [amount] ずつ: 一人に一枚ずつ, 一日に一課ずつ.",
+    "少しずつ / ちょっとずつ describe gradual change: 少しずつ暖かくなってきた.",
+    "ずつ can be followed by a particle but usually is not: 一つずつ(を)取ってください."
+  ],
+  "jlptTips": [
+    "A number + counter before the blank and a verb of sharing or repeating (配る, 分ける, 覚える, 進む) → ずつ.",
+    "Distractors are くらい (about), だけ (only) and も (as many as). Ask: is the amount shared equally? Then ずつ."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-62-1",
+    "q-n4-g-62-2",
+    "q-n4-g-62-3",
+    "q-n4-g-62-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-62-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-21",
+  "slug": "gachi-da",
+  "level": "n2",
+  "order": 21,
+  "title": "〜がちだ",
+  "romaji": "-gachi da",
+  "meaning": "tend to, prone to (usually undesirable)",
+  "simpleExplanation": "〜がち means \"tends to, is prone to\" and describes something that happens more often than it should: skipping breakfast, getting sick, falling behind. The tendency is almost always undesirable.",
+  "whenUsed": "Both registers. It attaches to a verb stem (抜きがち, 忘れがち, なりがち) or a noun (病気がち, 留守がち, 曇りがち). Before a noun it becomes がちな or がちの. Do not use it for good habits; for a slight current state use 〜気味.",
+  "formation": [
+    "Vます + がち / N + がち"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "がち vs 気味 vs っぽい",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜がち",
+        "cells": [
+          "repeated tendency (bad)",
+          "遅刻しがち (often late)"
+        ]
+      },
+      {
+        "label": "〜気味",
+        "cells": [
+          "slight current state",
+          "疲れ気味 (a bit tired now)"
+        ]
+      },
+      {
+        "label": "〜っぽい",
+        "cells": [
+          "quality / character",
+          "忘れっぽい (forgetful by nature)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "最近、仕事が忙しくて、朝食を抜きがちだ。",
+      "reading": "さいきん、しごとがいそがしくて、ちょうしょくをぬきがちだ。",
+      "en": "Lately I'm busy with work and tend to skip breakfast.",
+      "note": "Vます + がち: a habit that has crept in."
+    },
+    {
+      "ja": "子供の頃は病気がちだった。",
+      "reading": "こどものころはびょうきがちだった。",
+      "en": "I was sickly as a child.",
+      "note": "N + がち: 病気がち = often ill."
+    },
+    {
+      "ja": "冬は運動不足になりがちです。",
+      "reading": "ふゆはうんどうぶそくになりがちです。",
+      "en": "In winter, one tends to get too little exercise.",
+      "note": "なりがち + です: polite general statement."
+    },
+    {
+      "ja": "一人暮らしだと、食事が偏りがちになる。",
+      "reading": "ひとりぐらしだと、しょくじがかたよりがちになる。",
+      "en": "When you live alone, your diet tends to become unbalanced.",
+      "note": "がちになる = start tending to."
+    },
+    {
+      "ja": "彼は最近、会議を休みがちだ。",
+      "reading": "かれはさいきん、かいぎをやすみがちだ。",
+      "en": "Lately he has been missing meetings a lot.",
+      "note": "Complaint about a person's pattern."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜気味",
+      "difference": "A slight, present state (風邪気味), not a repeated tendency.",
+      "id": "n2-grammar-35"
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "An inherent quality (子供っぽい・忘れっぽい); がち is about frequency of events."
+    },
+    {
+      "pattern": "〜やすい",
+      "difference": "\"Easy to / apt to\", neutral; がち is negative and about habits."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は勉強しがちだ。（praise）",
+      "right": "彼はよく勉強する。",
+      "why": "がち is reserved for undesirable tendencies."
+    },
+    {
+      "wrong": "今日は少し疲れがちだ。",
+      "right": "今日は少し疲れ気味だ。",
+      "why": "A one-day state takes 気味; がち needs repetition over time."
+    },
+    {
+      "wrong": "病気がち人",
+      "right": "病気がちな人 / 病気がちの人",
+      "why": "Before a noun, add な or の."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 病気がち, 留守がち, 曇りがち, 遠慮がち.",
+    "Frequent verbs: 忘れがち, 遅れがち, なりがち, 思いがち, 見落としがち.",
+    "遠慮がちに (hesitantly) is a common adverbial use."
+  ],
+  "jlptTips": [
+    "A recurring bad habit (最近・つい・よく) with a Vます stem → がち; a slight state right now → 気味.",
+    "Distractors are 気味, っぽい, やすい. If the sentence describes a person's inherent character, っぽい; if a mild present symptom, 気味.",
+    "The noun-modifying form がちな is tested; options without な before a noun are traps."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-21-1",
+    "q-n2-g-21-2",
+    "q-n2-g-21-3",
+    "q-n2-g-21-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-21-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

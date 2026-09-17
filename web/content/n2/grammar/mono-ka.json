@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-154",
+  "slug": "mono-ka",
+  "level": "n2",
+  "order": 154,
+  "title": "〜ものか / 〜もんか",
+  "romaji": "mono ka / mon ka",
+  "meaning": "absolutely not, as if I would … (strong emotional denial)",
+  "simpleExplanation": "〜ものか is a rhetorical question that means an emphatic \"no way\": 二度と行くものか (as if I would ever go again). It expresses the speaker's determination or rejection with strong feeling. もんか is the casual spoken form; ものですか is the polite form used mostly by women in older-style speech.",
+  "whenUsed": "Casual, emotional speech; also in dramatic writing. It sounds combative or defiant, so use it with care. In neutral speech use 絶対に〜ない.",
+  "formation": [
+    "Verb (dictionary form) + ものか / もんか",
+    "い-adjective + ものか (悔しくなんかあるものか)",
+    "な-adjective + な + ものか",
+    "Noun + な + ものか (or である + ものか)",
+    "Polite: 〜ものですか / 〜もんですか"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "二度と行かない",
+        "en": "I won't go again (plain)"
+      },
+      {
+        "ja": "絶対に二度と行かない",
+        "en": "I will absolutely never go again"
+      },
+      {
+        "ja": "二度と行くものか",
+        "en": "as if I would ever go again! (defiant rhetorical denial)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "あんな店、二度と行くものか。",
+      "reading": "あんなみせ、にどといくものか。",
+      "en": "As if I would ever go to that restaurant again!",
+      "note": "Defiant refusal to return."
+    },
+    {
+      "ja": "彼の言うことなんか信じるもんか。",
+      "reading": "かれのいうことなんかしんじるもんか。",
+      "en": "No way I would believe what he says.",
+      "note": "もんか: casual; rejecting what someone says."
+    },
+    {
+      "ja": "こんなに難しい問題、解けるものですか。",
+      "reading": "こんなにむずかしいもんだい、とけるものですか。",
+      "en": "There is no way I can solve such a difficult problem.",
+      "note": "ものですか: polite form; strong denial of ability."
+    },
+    {
+      "ja": "こんなチャンスを逃すものか。",
+      "reading": "こんなチャンスをのがすものか。",
+      "en": "There is no way I'll let this chance slip.",
+      "note": "Determination: as if I would miss it."
+    },
+    {
+      "ja": "彼が私の気持ちなど分かるものか。",
+      "reading": "かれがわたしのきもちなどわかるものか。",
+      "en": "As if he could understand my feelings.",
+      "note": "など strengthens the dismissive tone."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけがない",
+      "difference": "Strong logical denial ('there's no way that'); ものか is more emotional and often about the speaker's own will.",
+      "id": "n2-grammar-162"
+    },
+    {
+      "pattern": "〜まい",
+      "difference": "Quiet, literary 'will not'; ものか is loud and defiant.",
+      "id": "n2-grammar-149"
+    },
+    {
+      "pattern": "〜はずがない",
+      "difference": "Denial based on reasoning."
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "Different pattern: norms or nostalgia.",
+      "id": "n2-grammar-156"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行かないものか。",
+      "right": "行くものか。",
+      "why": "ものか already denies; attach it to the affirmative form."
+    },
+    {
+      "wrong": "報告書：この計画は成功するものか。",
+      "right": "報告書：この計画が成功するとは考えにくい。",
+      "why": "Too emotional for a report."
+    },
+    {
+      "wrong": "あの人は親切なものか。(neutral tone intended)",
+      "right": "あの人は親切ではない。",
+      "why": "ものか always sounds defiant or scornful; do not use it for a plain negative."
+    }
+  ],
+  "usageNotes": [
+    "Intensifiers: 絶対に, 二度と, 誰が, など / なんか.",
+    "誰が〜ものか = who would ever…? (nobody).",
+    "In fiction, もんか marks strong-willed or angry characters."
+  ],
+  "jlptTips": [
+    "If the sentence expresses defiant refusal (二度と / 絶対に), ものか / もんか is the answer.",
+    "It attaches to the affirmative form; a negative before ものか is a common wrong option.",
+    "Distinguish from ものだ (norm) and ものの (although) by the final か."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-154-1",
+    "q-n2-g-154-2",
+    "q-n2-g-154-3",
+    "q-n2-g-154-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-154-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

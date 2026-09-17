@@ -1,0 +1,128 @@
+{
+  "id": "n5-grammar-25",
+  "slug": "nai-form",
+  "level": "n5",
+  "order": 25,
+  "title": "ない-form (plain negative)",
+  "romaji": "nai form",
+  "meaning": "Plain/casual negative \"do not / will not\".",
+  "simpleExplanation": "The ない-form is the plain (casual) negative: 行かない \"don't go\", 食べない \"don't eat\". It means the same as ません but is used with friends and inside other patterns. Group 1 verbs change the last う-sound to the あ-sound and add ない (書く→書かない); verbs ending in う become わない (買う→買わない). Group 2 drops る and adds ない (見る→見ない). する→しない, 来る→こない, and ある→ない.",
+  "whenUsed": "Casual negative statements, and as the base for ないでください (please don't), なければなりません (must), なくてもいいです (need not) and ないほうがいい (had better not).",
+  "formation": [
+    "Group 1: change final う-sound to あ-sound + ない (書く→書かない, 読む→読まない, 話す→話さない). Verbs ending in う → わない (買う→買わない, 会う→会わない).",
+    "Group 2: drop る + ない (食べる→食べない, 見る→見ない)",
+    "Group 3: する→しない, 来る→こない",
+    "ある → ない (not あらない)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 買う / 食べる / する / 来る",
+    "rootLabel": "dictionary form → ない-form",
+    "branches": [
+      {
+        "suffix": "く → か + ない",
+        "result": "書かない",
+        "label": "Group 1"
+      },
+      {
+        "suffix": "う → わ + ない",
+        "result": "買わない",
+        "label": "Group 1, う-ending"
+      },
+      {
+        "suffix": "drop る + ない",
+        "result": "食べない",
+        "label": "Group 2"
+      },
+      {
+        "suffix": "irregular",
+        "result": "しない / こない",
+        "label": "Group 3"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は学校へ行かない。",
+      "reading": "きょうは がっこうへ いかない。",
+      "en": "I'm not going to school today.",
+      "note": "Group 1: 行く → 行かない."
+    },
+    {
+      "ja": "肉を食べない人もいます。",
+      "reading": "にくを たべない ひとも います。",
+      "en": "There are also people who don't eat meat.",
+      "note": "ない-form before a noun: \"people who don't eat meat\"."
+    },
+    {
+      "ja": "明日は来ない。",
+      "reading": "あしたは こない。",
+      "en": "I won't come tomorrow.",
+      "note": "来る → こない (irregular)."
+    },
+    {
+      "ja": "朝はコーヒーを飲まない。",
+      "reading": "あさは コーヒーを のまない。",
+      "en": "I don't drink coffee in the morning.",
+      "note": "飲む → 飲まない."
+    },
+    {
+      "ja": "この店は日曜日は開かない。",
+      "reading": "この みせは にちようびは あかない。",
+      "en": "This shop isn't open on Sundays.",
+      "note": "開く → 開かない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-21",
+      "pattern": "ません",
+      "difference": "Polite negative with the same meaning."
+    },
+    {
+      "id": "n5-grammar-40",
+      "pattern": "ないでください",
+      "difference": "Built on the ない-form: \"please don't\"."
+    },
+    {
+      "id": "n5-grammar-27",
+      "pattern": "い-adjective conjugation",
+      "difference": "ない conjugates like an い-adjective: なかった, なくて."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "買う → 買あない",
+      "right": "買わない",
+      "why": "Verbs ending in う take わない."
+    },
+    {
+      "wrong": "ある → あらない",
+      "right": "ない",
+      "why": "The negative of ある is simply ない."
+    },
+    {
+      "wrong": "来る → くない",
+      "right": "こない",
+      "why": "来る is irregular: the reading becomes こ."
+    }
+  ],
+  "usageNotes": [
+    "ない conjugates like an い-adjective: past なかった, polite ないです (= ません). Used to build ないでください, なければなりません, なくてもいいです."
+  ],
+  "jlptTips": [
+    "The tested exceptions are 買わない, 会わない (う → わ), ない (for ある), こない and しない.",
+    "Options such as 食べらない or 起きらない try to make a Group 2 verb behave like Group 1. Group 2 never adds ら."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-25-1",
+    "q-n5-g-25-2",
+    "q-n5-g-25-3",
+    "q-n5-g-25-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-25-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

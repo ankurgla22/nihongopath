@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-137",
+  "slug": "nominarazu",
+  "level": "n2",
+  "order": 137,
+  "title": "〜のみならず",
+  "romaji": "nominarazu",
+  "meaning": "not only … but also (formal)",
+  "simpleExplanation": "〜のみならず means \"not only X but also Y\" and is the formal, written counterpart of 〜だけでなく / 〜ばかりでなく. Y is usually marked with も and is often the more significant item. It appears after nouns and after full clauses.",
+  "whenUsed": "Written Japanese: essays, news, academic and business texts, formal speeches. In conversation it sounds stiff; use だけでなく. It often follows a clause with である in careful writing.",
+  "formation": [
+    "Noun + のみならず + Y も",
+    "Verb / い-adjective (plain form) + のみならず",
+    "な-adjective / Noun + である + のみならず",
+    "Sentence-initial: のみならず (moreover)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "'Not only' by formality",
+    "items": [
+      {
+        "label": "〜だけでなく",
+        "description": "everyday, spoken and written"
+      },
+      {
+        "label": "〜ばかりでなく / 〜ばかりか",
+        "description": "slightly emphatic; ばかりか adds surprise"
+      },
+      {
+        "label": "〜のみならず",
+        "description": "formal, written"
+      },
+      {
+        "label": "〜にとどまらず",
+        "description": "formal; 'not stopping at' (N1)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は英語のみならず、フランス語も話せる。",
+      "reading": "かれはえいごのみならず、フランスごもはなせる。",
+      "en": "He speaks not only English but also French.",
+      "note": "Two languages; も on the second item."
+    },
+    {
+      "ja": "この薬は効果がないのみならず、副作用もある。",
+      "reading": "このくすりはこうかがないのみならず、ふくさようもある。",
+      "en": "This medicine is not only ineffective but also has side effects.",
+      "note": "After a clause: not only ineffective but also harmful."
+    },
+    {
+      "ja": "国内のみならず、海外からも注文が来ている。",
+      "reading": "こくないのみならず、かいがいからもちゅうもんがきている。",
+      "en": "Orders are coming not only from within the country but also from overseas.",
+      "note": "Domestic and overseas: a typical business pairing."
+    },
+    {
+      "ja": "彼は学者としてのみならず、教育者としても高く評価されている。",
+      "reading": "かれはがくしゃとしてのみならず、きょういくしゃとしてもたかくひょうかされている。",
+      "en": "He is highly regarded not only as a scholar but also as an educator.",
+      "note": "としてのみならず … としても: a common formal frame."
+    },
+    {
+      "ja": "この制度は費用がかかるのみならず、効果も疑問視されている。",
+      "reading": "このせいどはひようがかかるのみならず、こうかもぎもんしされている。",
+      "en": "This system is not only costly but its effectiveness is also questioned.",
+      "note": "Clause + のみならず in argumentative writing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく",
+      "difference": "Same meaning, everyday register."
+    },
+    {
+      "pattern": "〜ばかりか / 〜ばかりでなく",
+      "difference": "Adds a sense of escalation (\"not just… but even\"); ばかりか is emphatic.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜に加えて",
+      "difference": "\"In addition to\": piles one item on another; mostly after nouns.",
+      "id": "n2-grammar-109"
+    },
+    {
+      "pattern": "〜はもとより",
+      "difference": "\"Of course X, and Y too\": X is taken for granted.",
+      "id": "n2-grammar-143"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "親切なのみならず、頭もいい。",
+      "right": "親切であるのみならず、頭もいい。",
+      "why": "な-adjectives take である before のみならず in formal writing, not な."
+    },
+    {
+      "wrong": "英語のみならず、中国語を話せる。",
+      "right": "英語のみならず、中国語も話せる。",
+      "why": "Mark the second item with も."
+    },
+    {
+      "wrong": "「今日はのみならず明日も来てね。」(casual chat)",
+      "right": "「今日だけでなく明日も来てね。」",
+      "why": "Too formal for casual speech; use だけでなく."
+    }
+  ],
+  "usageNotes": [
+    "のみ is the formal equivalent of だけ; ならず is classical negative of なり (= である).",
+    "Sentence-initial のみならず works like さらに (moreover).",
+    "Often combined with 〜も / 〜まで / 〜さえ on the second item for emphasis."
+  ],
+  "jlptTips": [
+    "If the passage is formal and the second item takes も, choose のみならず over だけでなく when both are offered.",
+    "Check the connection: な-adjectives and nouns use である before it.",
+    "In 並べ替え, のみならず sits right after the first item; look for the も marker to find the second."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-137-1",
+    "q-n2-g-137-2",
+    "q-n2-g-137-3",
+    "q-n2-g-137-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-137-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,136 @@
+{
+  "id": "n2-grammar-7",
+  "slug": "ue-ni",
+  "level": "n2",
+  "order": 7,
+  "title": "〜上(に)",
+  "romaji": "ue ni",
+  "meaning": "in addition to, on top of",
+  "simpleExplanation": "〜上(に) means \"in addition to, on top of\". It stacks a second fact on the first: cheap, and moreover delicious; got lost, and on top of that it rained. The two facts must point in the same direction, both good or both bad.",
+  "whenUsed": "Both registers, a little more formal than 〜し or 〜だけでなく. Common in evaluations, complaints and product descriptions. The clause after 上に often contains も (料理もおいしい, 雨まで降ってきた) to signal the addition.",
+  "formation": [
+    "V普通形 + 上(に) / Aい + 上に / Aな + な + 上に / N + の/である + 上に"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Same-polarity stacking",
+    "columns": [
+      "First fact",
+      "上に",
+      "Added fact"
+    ],
+    "rows": [
+      {
+        "label": "Positive",
+        "cells": [
+          "安い",
+          "上に",
+          "料理もおいしい"
+        ]
+      },
+      {
+        "label": "Negative",
+        "cells": [
+          "道に迷った",
+          "上に",
+          "雨まで降ってきた"
+        ]
+      },
+      {
+        "label": "Not allowed",
+        "cells": [
+          "安い",
+          "上に",
+          "×まずい (mixed polarity)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この店は安い上に、料理もおいしい。",
+      "reading": "このみせはやすいうえに、りょうりもおいしい。",
+      "en": "This restaurant is cheap, and on top of that the food is good.",
+      "note": "い-adjective + 上に, both facts positive."
+    },
+    {
+      "ja": "道に迷った上に、雨まで降ってきた。",
+      "reading": "みちにまよったうえに、あめまでふってきた。",
+      "en": "On top of getting lost, it even started to rain.",
+      "note": "Vた + 上に, both facts negative; まで adds \"even\"."
+    },
+    {
+      "ja": "彼は親切な上に、仕事もできる。",
+      "reading": "かれはしんせつなうえに、しごともできる。",
+      "en": "He is kind, and moreover competent at his job.",
+      "note": "な-adjective + な + 上に."
+    },
+    {
+      "ja": "この薬は効き目が遅い上に、副作用もある。",
+      "reading": "このくすりはききめがおそいうえに、ふくさようもある。",
+      "en": "This medicine is slow to take effect, and on top of that it has side effects.",
+      "note": "Complaint stacking two drawbacks."
+    },
+    {
+      "ja": "彼女は優秀である上に、努力家でもある。",
+      "reading": "かのじょはゆうしゅうであるうえに、どりょくかでもある。",
+      "en": "She is excellent, and moreover a hard worker.",
+      "note": "N/Aな + である + 上に is the formal written form."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく",
+      "difference": "Neutral \"not only\"; polarity can mix more freely and it is more colloquial.",
+      "id": "n2-grammar-61"
+    },
+    {
+      "pattern": "〜ばかりか",
+      "difference": "\"Not only… but even\", with a stronger escalation to something surprising.",
+      "id": "n2-grammar-117"
+    },
+    {
+      "pattern": "〜上で",
+      "difference": "Different meaning: \"after doing / in the context of\". Watch the particle: 上に adds, 上で sequences.",
+      "id": "n2-grammar-8"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この店は安い上に、まずい。",
+      "right": "この店は安いが、まずい。",
+      "why": "上に cannot join a plus and a minus; both facts must have the same polarity."
+    },
+    {
+      "wrong": "彼は親切上に、仕事もできる。",
+      "right": "彼は親切な上に、仕事もできる。",
+      "why": "な-adjectives need な (or である) before 上に."
+    },
+    {
+      "wrong": "遅刻した上に、謝りなさい。",
+      "right": "遅刻した上に、謝りもしなかった。",
+      "why": "The second clause states an added fact, not a command or request."
+    }
+  ],
+  "usageNotes": [
+    "Nouns take の or である: 学生の上に / 学生である上に.",
+    "The second clause frequently uses も, まで, さえ to mark the addition.",
+    "上に can be shortened to 上 in written style: 安い上、料理もおいしい."
+  ],
+  "jlptTips": [
+    "Check polarity first: if the two halves are both good or both bad and the second has も or まで, 上に is likely.",
+    "The main distractor is 上で. Sequence or condition (読んだ上で決める) = 上で; addition = 上に.",
+    "Another distractor is 〜ながら; a contrast (although) rules out 上に."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-7-1",
+    "q-n2-g-7-2",
+    "q-n2-g-7-3",
+    "q-n2-g-7-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-7-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

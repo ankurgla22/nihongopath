@@ -1,0 +1,117 @@
+{
+  "id": "n2-grammar-94",
+  "slug": "nai-koto-wa-nai",
+  "level": "n2",
+  "order": 94,
+  "title": "〜ないことはない / 〜ないこともない",
+  "romaji": "nai koto wa nai / nai koto mo nai",
+  "meaning": "it's not that ... not; could (possibly)",
+  "simpleExplanation": "〜ないことはない / 〜ないこともない is a double negative that gives a weak, reluctant \"yes\": it's not that I can't eat spicy food (I can, but…); it's not impossible to make it in time (if we push); I'm not saying I won't go (but I'm not keen).",
+  "whenUsed": "話し言葉寄り, hedging. Forms: Vない + ことはない/こともない, Aい + くない + ことはない, N/Aな + でない + ことはない. It is usually followed by a reservation (〜が・〜けど). こともない is slightly softer.",
+  "formation": [
+    "Vない + ことはない / こともない; Aい stem + くない + ことはない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "食べられる",
+        "en": "I can eat it (plain yes)"
+      },
+      {
+        "ja": "食べられない",
+        "en": "I can't eat it (plain no)"
+      },
+      {
+        "ja": "食べられないことはない",
+        "en": "it's not that I can't… (reluctant yes)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "辛い物は食べられないことはないが、あまり好きではない。",
+      "reading": "からいものはたべられないことはないが、あまりすきではない。",
+      "en": "It's not that I can't eat spicy food, but I don't really like it.",
+      "note": "Reluctant yes with が."
+    },
+    {
+      "ja": "頑張れば、間に合わないこともない。",
+      "reading": "がんばれば、まにあわないこともない。",
+      "en": "If we push, it's not impossible to make it in time.",
+      "note": "Possibility with 頑張れば."
+    },
+    {
+      "ja": "行かないことはないけど、気が進まない。",
+      "reading": "いかないことはないけど、きがすすまない。",
+      "en": "I'm not saying I won't go, but I'm not keen.",
+      "note": "Reluctant yes with けど."
+    },
+    {
+      "ja": "この値段なら、買えないこともないが、少し高いと思う。",
+      "reading": "このねだんなら、かえないこともないが、すこしたかいとおもう。",
+      "en": "At this price I could buy it, but I think it's a bit expensive.",
+      "note": "こともない + reservation."
+    },
+    {
+      "ja": "「彼の気持ちが分かる？」「分からないことはないけど、賛成はできない。」",
+      "reading": "「かれのきもちがわかる？」「わからないことはないけど、さんせいはできない。」",
+      "en": "\"Do you understand how he feels?\" \"It's not that I don't, but I can't agree.\"",
+      "note": "Dialogue hedging."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "Denies a positive impression (\"it's not that I hate it\"); ないことはない denies a negative one.",
+      "id": "n2-grammar-164"
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "\"No need to\"; single negative, different meaning.",
+      "id": "n2-grammar-48"
+    },
+    {
+      "pattern": "〜ないでもない",
+      "difference": "\"I somewhat…\" (分からないでもない); very similar hedging."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行かないことはない。だから行かない。",
+      "right": "行かないことはないけど、気が進まない。",
+      "why": "The pattern is a weak yes; a flat refusal contradicts it."
+    },
+    {
+      "wrong": "食べることはない。（intending \"I can eat it\"）",
+      "right": "食べられないことはない。",
+      "why": "Both negatives are needed; 食べることはない means \"no need to eat\"."
+    },
+    {
+      "wrong": "辛いくないことはない",
+      "right": "辛くないことはない",
+      "why": "い-adjective negative is 辛くない."
+    }
+  ],
+  "usageNotes": [
+    "Frequent verbs: できる, 分かる, 行く, 食べる (potential forms).",
+    "The follow-up が/けど clause is almost obligatory in natural speech.",
+    "Polite: ないことはありません."
+  ],
+  "jlptTips": [
+    "A double negative + a reservation clause (が・けど) → ないことはない.",
+    "Distractors: わけではない, ことはない, ないではいられない. Only ないことはない gives the reluctant-yes meaning.",
+    "Watch for ことはない (no need) vs ないことはない (could)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-94-1",
+    "q-n2-g-94-2",
+    "q-n2-g-94-3",
+    "q-n2-g-94-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-94-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

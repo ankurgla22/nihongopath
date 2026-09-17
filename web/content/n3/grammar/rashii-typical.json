@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-81",
+  "slug": "rashii-typical",
+  "level": "n3",
+  "order": 81,
+  "title": "〜らしい (typical of)",
+  "romaji": "rashii (typical of)",
+  "meaning": "typical of… / -like / true to… (shows the ideal qualities of the noun)",
+  "simpleExplanation": "Noun + らしい says something is a perfect example of what that noun should be: 男らしい \"manly\", 春らしい \"spring-like\", 学生らしい \"like a proper student\". It is a compliment or a neutral description, never a criticism. Note that this is a different word from the hearsay らしい (\"I hear that…\").",
+  "whenUsed": "Everyday speech and writing when describing character, weather, behaviour or design that matches expectations: 彼らしい答え \"a very him kind of answer\". It conjugates like an い-adjective: らしくない, らしく, らしかった.",
+  "formation": [
+    "Noun + らしい (sentence end or before a noun)",
+    "Noun + らしく + verb / adjective (adverb form)",
+    "Negative: Noun + らしくない",
+    "Noun + らしい + Noun (彼らしい答え)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "らしい vs っぽい vs みたい",
+    "columns": [
+      "Meaning",
+      "Feel",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "子供らしい",
+        "cells": [
+          "childlike, as a child should be",
+          "positive / neutral",
+          "子供らしい笑顔 (an innocent, childlike smile)"
+        ]
+      },
+      {
+        "label": "子供っぽい",
+        "cells": [
+          "childish, immature",
+          "negative",
+          "大人なのに子供っぽい (an adult who acts childish)"
+        ]
+      },
+      {
+        "label": "子供みたい",
+        "cells": [
+          "like a child (comparison)",
+          "neutral",
+          "子供みたいに喜ぶ (be delighted like a child)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は本当に男らしい。",
+      "reading": "かれはほんとうにおとこらしい。",
+      "en": "He is really manly.",
+      "note": "Compliment: he has the qualities expected of a man."
+    },
+    {
+      "ja": "今日は春らしい暖かい日だ。",
+      "reading": "きょうははるらしいあたたかいひだ。",
+      "en": "Today is a warm, spring-like day.",
+      "note": "らしい modifies 日 through 暖かい; the weather matches spring."
+    },
+    {
+      "ja": "学生らしく、もっと勉強しなさい。",
+      "reading": "がくせいらしく、もっとべんきょうしなさい。",
+      "en": "Study more, like a proper student.",
+      "note": "らしく = adverb form: 'in the manner a student should'."
+    },
+    {
+      "ja": "遅刻するなんて、彼らしくないね。",
+      "reading": "ちこくするなんて、かれらしくないね。",
+      "en": "Being late is not like him at all.",
+      "note": "らしくない = does not match what we expect of that person."
+    },
+    {
+      "ja": "この店は和風の建物で、いかにも京都らしい。",
+      "reading": "このみせはわふうのたてもので、いかにもきょうとらしい。",
+      "en": "This shop is in a Japanese-style building, very typical of Kyoto.",
+      "note": "いかにも〜らしい is a common set: 'just what you'd expect of…'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜っぽい",
+      "difference": "'-ish', often critical (子供っぽい = childish). らしい is approving.",
+      "id": "n3-grammar-56"
+    },
+    {
+      "pattern": "〜みたいだ / 〜のようだ",
+      "difference": "Comparison: 'like a child' even though not a child. らしい says the person is that thing and shows it well.",
+      "id": "n3-grammar-82"
+    },
+    {
+      "pattern": "〜らしい (hearsay)",
+      "difference": "'I hear / it seems'. Attaches to verbs and clauses too, and expresses uncertainty rather than typicality."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は大人なのに子供らしい。(meaning 'he is childish')",
+      "right": "彼は大人なのに子供っぽい。",
+      "why": "らしい is positive: 'childlike, as a child should be'. For a criticism of immaturity use っぽい."
+    },
+    {
+      "wrong": "学生らしいに勉強しなさい。",
+      "right": "学生らしく勉強しなさい。",
+      "why": "らしい conjugates like an い-adjective; the adverb form is らしく."
+    },
+    {
+      "wrong": "田中さんは休むらしい。(intending 'typical of Tanaka')",
+      "right": "休むなんて田中さんらしくない。/ 田中さんは休むらしい (= I hear he'll be absent).",
+      "why": "Verb + らしい is always hearsay. The 'typical of' meaning only follows a noun."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: 自分らしく生きる 'live true to yourself', 〜らしさ 'the quality of being…' (人間らしさ).",
+    "It can follow the same noun twice for emphasis: 春らしい春 'a truly spring-like spring'.",
+    "らしい after a person's name or 彼 / 彼女 means 'just like him/her'."
+  ],
+  "jlptTips": [
+    "If the word before the blank is a noun and the sentence praises or describes typical qualities, choose らしい over っぽい.",
+    "If the same sentence has a clue like いかにも or 〜らしくない, the typicality らしい is meant, not hearsay.",
+    "In conjugation questions, remember らしく (adverb) and らしくない (negative)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-81-1",
+    "q-n3-g-81-2",
+    "q-n3-g-81-3",
+    "q-n3-g-81-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-81-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

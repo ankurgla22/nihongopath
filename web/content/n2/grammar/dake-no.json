@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-62",
+  "slug": "dake-no",
+  "level": "n2",
+  "order": 62,
+  "title": "〜だけの",
+  "romaji": "dake no",
+  "meaning": "enough to, as much as; worth",
+  "simpleExplanation": "〜だけの + noun means \"enough… to…, as much as is needed to…\": enough savings to live on for a year; enough handouts for everyone. The related 〜だけのことはある means \"it is worth it / it lives up to expectations\" and 〜だけの価値がある means \"worth doing\".",
+  "whenUsed": "Both registers. It follows Vる or Vた and modifies a noun of quantity or resource (お金・時間・資料・力). The idea is sufficiency for a purpose. Sentence-final 〜だけのことはある praises a match between reputation and result.",
+  "formation": [
+    "Vる/Vた + だけの + N"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "一年暮らせる",
+        "role": "purpose (potential/Vる)"
+      },
+      {
+        "text": "だけの",
+        "role": "enough… to…",
+        "highlight": true
+      },
+      {
+        "text": "貯金がある",
+        "role": "resource"
+      }
+    ],
+    "translation": "I have enough savings to live on for a year."
+  },
+  "examples": [
+    {
+      "ja": "一年暮らせるだけの貯金がある。",
+      "reading": "いちねんくらせるだけのちょきんがある。",
+      "en": "I have enough savings to live on for a year.",
+      "note": "Potential verb + だけの + resource."
+    },
+    {
+      "ja": "出席者全員に配るだけの資料を用意した。",
+      "reading": "しゅっせきしゃぜんいんにくばるだけのしりょうをよういした。",
+      "en": "I prepared enough materials to hand out to all attendees.",
+      "note": "Vる + だけの + 資料."
+    },
+    {
+      "ja": "この本は読むだけの価値がある。",
+      "reading": "このほんはよむだけのかちがある。",
+      "en": "This book is worth reading.",
+      "note": "読むだけの価値がある = worth reading."
+    },
+    {
+      "ja": "彼には家族を養うだけの収入がない。",
+      "reading": "かれにはかぞくをやしなうだけのしゅうにゅうがない。",
+      "en": "He does not have enough income to support a family.",
+      "note": "Negative sufficiency."
+    },
+    {
+      "ja": "さすが有名店だ。長い行列ができるだけのことはある。",
+      "reading": "さすがゆうめいてんだ。ながいぎょうれつができるだけのことはある。",
+      "en": "It really is a famous shop. It deserves the long queues.",
+      "note": "だけのことはある: lives up to it."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ほどの",
+      "difference": "\"To the extent of\": degree rather than sufficiency (泣きたいほどの痛み)."
+    },
+    {
+      "pattern": "〜だけあって",
+      "difference": "Connective praise; だけのことはある is its sentence-final form.",
+      "id": "n2-grammar-60"
+    },
+    {
+      "pattern": "〜に足る",
+      "difference": "Formal \"worthy of\" (信頼に足る); N1-level."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一年暮らすだけのお金",
+      "right": "一年暮らせるだけのお金",
+      "why": "Sufficiency usually pairs with the potential form."
+    },
+    {
+      "wrong": "全員に配るだけ資料",
+      "right": "全員に配るだけの資料",
+      "why": "の is needed before the noun."
+    },
+    {
+      "wrong": "有名店だけのことはある、行列ができる。",
+      "right": "行列ができるだけのことはある。",
+      "why": "だけのことはある is sentence-final; the evidence comes before it."
+    }
+  ],
+  "usageNotes": [
+    "Common frames: 〜だけの価値がある, 〜だけのことはある, 〜だけの余裕がある.",
+    "やるだけのことはやった = I did all I could (a set phrase).",
+    "In だけのことはある the preceding clause states the evidence for the praise."
+  ],
+  "jlptTips": [
+    "A purpose clause + blank + a resource noun (お金・時間・力) → だけの.",
+    "Distractors: ほどの, だけに, だけで. If the noun is a resource and the meaning is \"enough\", choose だけの.",
+    "Sentence-final だけのことはある appears in 文法形式 with さすが in the sentence."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-62-1",
+    "q-n2-g-62-2",
+    "q-n2-g-62-3",
+    "q-n2-g-62-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-62-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

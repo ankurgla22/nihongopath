@@ -1,0 +1,125 @@
+{
+  "id": "n4-grammar-67",
+  "slug": "hitsuyou-ga-aru",
+  "level": "n4",
+  "order": 67,
+  "title": "〜必要がある \"it is necessary to\"",
+  "romaji": "hitsuyou ga aru",
+  "meaning": "Objective necessity: \"need to\".",
+  "simpleExplanation": "必要 means \"necessity\", so V-dictionary + 必要がある is \"there is a need to do\" = \"it is necessary to\". It states necessity as an objective fact rather than pressure on one person: ビザを申請する必要があります (you need to apply for a visa). The negative is 必要はない: 急ぐ必要はありません (there's no need to hurry). With a noun, use Nの必要がある or the な-adjective 必要だ: お金が必要だ.",
+  "whenUsed": "Explanations of procedures, rules and requirements at offices, schools and workplaces, in notices and in slightly formal conversation. It sounds calmer and more objective than 〜なければならない. The negative 必要はない is a common, polite way to tell someone they can relax.",
+  "formation": [
+    "V-dictionary + 必要がある: 申請する必要がある",
+    "Negative: V-dictionary + 必要はない: 急ぐ必要はない",
+    "N + の必要がある: 手術の必要がある",
+    "N + が必要だ (necessary): パスポートが必要です",
+    "Polite: 必要があります / 必要はありません"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How strongly you tell someone to act",
+    "items": [
+      {
+        "label": "〜たらどうですか",
+        "description": "suggestion, the listener may ignore it"
+      },
+      {
+        "label": "〜たほうがいい",
+        "description": "advice: better to do it"
+      },
+      {
+        "label": "〜必要がある",
+        "description": "objective necessity: the situation requires it"
+      },
+      {
+        "label": "〜なければならない",
+        "description": "obligation: you must, often felt as pressure"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ビザを申請する必要があります。",
+      "reading": "ビザを しんせいする ひつようが あります。",
+      "en": "You need to apply for a visa.",
+      "note": "Objective requirement: the rule, not the speaker, demands it."
+    },
+    {
+      "ja": "急ぐ必要はありません。",
+      "reading": "いそぐ ひつようは ありません。",
+      "en": "There's no need to hurry.",
+      "note": "必要はない: the standard negative with は, used to reassure."
+    },
+    {
+      "ja": "この薬は毎日飲む必要がある。",
+      "reading": "この くすりは まいにち のむ ひつようが ある。",
+      "en": "This medicine needs to be taken every day.",
+      "note": "A general rule about the medicine, so the dictionary form 飲む is used."
+    },
+    {
+      "ja": "この会議には、社員全員が出席する必要があります。",
+      "reading": "この かいぎには、しゃいんぜんいんが しゅっせきする ひつようが あります。",
+      "en": "All employees need to attend this meeting.",
+      "note": "A requirement stated as fact; dictionary form + 必要がある."
+    },
+    {
+      "ja": "予約は必要ありませんから、直接お越しください。",
+      "reading": "よやくは ひつようありませんから、ちょくせつ おこしください。",
+      "en": "No reservation is needed, so please come directly.",
+      "note": "N + は必要ない: the noun itself is unnecessary."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なければならない",
+      "difference": "Personal obligation, often with a feeling of pressure (\"I have to\"). 必要がある describes a need objectively.",
+      "id": "n4-grammar-99"
+    },
+    {
+      "pattern": "〜たほうがいい",
+      "difference": "Advice, leaving the choice open. 必要がある says the action is required.",
+      "id": "n4-grammar-65"
+    },
+    {
+      "pattern": "〜なくてもいい",
+      "difference": "\"You don't have to\" as permission. 必要はない says the same thing as a fact about the situation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ビザを申請して必要があります。",
+      "right": "ビザを申請する必要があります。",
+      "why": "必要がある follows the dictionary form, not the て-form."
+    },
+    {
+      "wrong": "パスポートを必要があります。",
+      "right": "パスポートが必要です。/ パスポートを持っていく必要があります。",
+      "why": "A noun alone takes が必要だ. 必要がある needs a verb (or Nの) before it."
+    },
+    {
+      "wrong": "急ぐ必要がないです。(in a polite reply)",
+      "right": "急ぐ必要はありません。",
+      "why": "The negative normally uses は; 必要はない / 必要はありません is the natural form."
+    }
+  ],
+  "usageNotes": [
+    "必要がある is more common in writing and formal speech; in daily conversation people often say 〜なきゃ / 〜ないといけない instead.",
+    "必要 also works as a な-adjective before nouns: 必要な書類 (required documents), 必要なもの.",
+    "〜必要があるかどうか (whether it is necessary) and 〜必要があれば (if necessary) are useful combinations."
+  ],
+  "jlptTips": [
+    "Check the form before 必要: the dictionary form is correct; て-form, ます-stem and た-form are typical wrong options.",
+    "If the sentence is a rule or procedure (書類, 申請, 出席, 予約), 必要がある is the expected answer over なければならない, which sounds personal."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-67-1",
+    "q-n4-g-67-2",
+    "q-n4-g-67-3",
+    "q-n4-g-67-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-67-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

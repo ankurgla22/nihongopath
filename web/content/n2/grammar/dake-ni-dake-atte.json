@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-60",
+  "slug": "dake-ni-dake-atte",
+  "level": "n2",
+  "order": 60,
+  "title": "〜だけ(に) / 〜だけあって",
+  "romaji": "dake ni / dake atte",
+  "meaning": "precisely because, as expected of",
+  "simpleExplanation": "〜だけあって means \"as you'd expect from…, precisely because…\" and praises a result that fits the cause: as a former pro, he teaches well. 〜だけに means \"precisely because…\" and can go either way: because I had high hopes, the disappointment was great.",
+  "whenUsed": "Both registers. だけあって is almost always positive and evaluative (befitting a reputation, price, or effort). だけに strengthens cause and effect and is often used when the result is stronger than usual, including bad results. だけのことはある is the sentence-final form (\"it lives up to it\").",
+  "formation": [
+    "V普通形 + だけに / だけあって; Aい / Aな + な / N + (である) + だけに / だけあって"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "だけあって vs だけに",
+    "columns": [
+      "Result",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜だけあって",
+        "cells": [
+          "positive, fits expectation",
+          "元プロだけあって教え方がうまい"
+        ]
+      },
+      {
+        "label": "〜だけに",
+        "cells": [
+          "positive or negative, intensified",
+          "期待していただけに失望も大きかった"
+        ]
+      },
+      {
+        "label": "〜だけのことはある",
+        "cells": [
+          "sentence-final praise",
+          "さすが元プロだ。教え方がうまいだけのことはある"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は元プロだけあって、教え方がうまい。",
+      "reading": "かれはもとプロだけあって、おしえかたがうまい。",
+      "en": "As you'd expect from a former pro, he teaches well.",
+      "note": "だけあって with a reputation."
+    },
+    {
+      "ja": "期待していただけに、失望も大きかった。",
+      "reading": "きたいしていただけに、しつぼうもおおきかった。",
+      "en": "Precisely because I had high hopes, the disappointment was great.",
+      "note": "だけに with a negative intensified result."
+    },
+    {
+      "ja": "高いだけあって、この時計は長持ちする。",
+      "reading": "たかいだけあって、このとけいはながもちする。",
+      "en": "Being expensive, this watch lasts a long time, as you'd expect.",
+      "note": "だけあって with price justifying quality."
+    },
+    {
+      "ja": "さすが一流ホテルだけあって、サービスが行き届いている。",
+      "reading": "さすがいちりゅうホテルだけあって、サービスがいきとどいている。",
+      "en": "As you'd expect from a first-class hotel, the service is impeccable.",
+      "note": "さすが often accompanies だけあって."
+    },
+    {
+      "ja": "大事な試合だけに、選手たちの緊張も相当なものだった。",
+      "reading": "だいじなしあいだけに、せんしゅたちのきんちょうもそうとうなものだった。",
+      "en": "Precisely because it was an important match, the players' tension was considerable.",
+      "note": "だけに intensifying."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけのことはある",
+      "difference": "Sentence-final; praises that something lives up to its name.",
+      "id": "n2-grammar-62"
+    },
+    {
+      "pattern": "〜からこそ",
+      "difference": "\"Precisely because\" with emphasis on the reason; not evaluative of fit."
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "Opposite: result does not fit the category (子供にしては上手).",
+      "id": "n2-grammar-119"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "元プロだけあって、教え方が下手だ。",
+      "right": "元プロなのに、教え方が下手だ。",
+      "why": "だけあって needs a result that fits the expectation; a mismatch takes のに."
+    },
+    {
+      "wrong": "期待していただけあって、失望した。",
+      "right": "期待していただけに、失望も大きかった。",
+      "why": "A negative intensified result takes だけに."
+    },
+    {
+      "wrong": "高いだけあってで",
+      "right": "高いだけあって",
+      "why": "だけあって is already connective."
+    }
+  ],
+  "usageNotes": [
+    "Nouns attach directly: 一流ホテルだけあって; な-adjectives take な or である.",
+    "だけに is also used for cause → strong emotion: 一人娘だけに親の心配は大きい.",
+    "さすが(に)〜だけあって is a very common praise frame."
+  ],
+  "jlptTips": [
+    "さすが + a reputation + blank + a matching positive result → だけあって.",
+    "A negative or intensified result (失望も大きい・緊張も相当) → だけに.",
+    "Distractors: にしては, からこそ, ばかりに. にしては signals mismatch; ばかりに signals regret over a small cause."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-60-1",
+    "q-n2-g-60-2",
+    "q-n2-g-60-3",
+    "q-n2-g-60-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-60-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

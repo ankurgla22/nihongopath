@@ -1,0 +1,151 @@
+{
+  "id": "n2-grammar-157",
+  "slug": "mono-dakara",
+  "level": "n2",
+  "order": 157,
+  "title": "〜ものだから / 〜もので / 〜もんだから",
+  "romaji": "mono dakara / mono de / mon dakara",
+  "meaning": "because (an apologetic or justifying reason)",
+  "simpleExplanation": "〜ものだから / 〜もので gives a reason while apologizing or justifying: 道が混んでいたものだから、遅れてしまいました. The reason is presented as something beyond the speaker's control, and the result is usually something regrettable. もので is the softer, slightly more polite variant; もんだから / もんで are casual.",
+  "whenUsed": "Mainly spoken, in apologies and explanations to superiors or acquaintances. The main clause cannot be a request, command, or intention: it states what happened. In writing, ため / ので are used instead.",
+  "formation": [
+    "Verb / い-adjective (plain form) + ものだから / もので",
+    "な-adjective + な + ものだから / もので",
+    "Noun + な + ものだから / もので",
+    "Casual: 〜もんだから / 〜もんで",
+    "Main clause: a past fact or state, often with てしまった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜ものだから / もので",
+      "〜ので",
+      "〜もの / もん"
+    ],
+    "rows": [
+      {
+        "label": "Tone",
+        "cells": [
+          "apologetic, justifying",
+          "neutral",
+          "childish, pleading"
+        ]
+      },
+      {
+        "label": "Main clause",
+        "cells": [
+          "fact or result only (no requests)",
+          "any, including requests",
+          "any (casual)"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "spoken, polite to casual",
+          "both",
+          "casual only"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "急いでいたもので、失礼しました",
+          "急いでいるので、失礼します",
+          "急いでいるんだもん"
+        ]
+      }
+    ],
+    "title": "Three ways to give a reason"
+  },
+  "examples": [
+    {
+      "ja": "道が混んでいたものだから、遅れてしまいました。",
+      "reading": "みちがこんでいたものだから、おくれてしまいました。",
+      "en": "The roads were crowded, so I ended up being late.",
+      "note": "A traffic excuse for lateness."
+    },
+    {
+      "ja": "急いでいたもので、挨拶もせずに失礼しました。",
+      "reading": "いそいでいたもので、あいさつもせずにしつれいしました。",
+      "en": "I was in a hurry, so I am sorry I left without saying goodbye.",
+      "note": "もので: softer variant in a polite apology."
+    },
+    {
+      "ja": "子供が熱を出したもんだから、休ませてもらった。",
+      "reading": "こどもがねつをだしたもんだから、やすませてもらった。",
+      "en": "My child had a fever, so I took the day off.",
+      "note": "もんだから: casual form; a child's fever as the reason."
+    },
+    {
+      "ja": "初めて来た場所なものですから、道に迷ってしまいました。",
+      "reading": "はじめてきたばしょなものですから、みちにまよってしまいました。",
+      "en": "It was my first time here, so I got lost.",
+      "note": "Noun + なものですから: polite apology form."
+    },
+    {
+      "ja": "すみません、電話が鳴ったもので、席を外していました。",
+      "reading": "すみません、でんわがなったもので、せきをはずしていました。",
+      "en": "Sorry, the phone rang, so I was away from my desk.",
+      "note": "もので in a quick workplace apology."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ので",
+      "difference": "Neutral reason; can be followed by requests."
+    },
+    {
+      "pattern": "〜もの / 〜もん",
+      "difference": "Childish or coaxing reason.",
+      "id": "n2-grammar-153"
+    },
+    {
+      "pattern": "〜せいで",
+      "difference": "Blames the cause; not apologetic."
+    },
+    {
+      "pattern": "〜ばかりに",
+      "difference": "Regret over a single cause with a bad result; more dramatic.",
+      "id": "n2-grammar-141"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "疲れていたものだから、休ませてください。",
+      "right": "疲れているので、休ませてください。",
+      "why": "Requests cannot follow ものだから; use ので."
+    },
+    {
+      "wrong": "報告書：予算が不足したものだから、計画を変更した。",
+      "right": "報告書：予算が不足したため、計画を変更した。",
+      "why": "Spoken register only; in writing use ため."
+    },
+    {
+      "wrong": "急ぎものだから",
+      "right": "急ぎなものだから / 急いでいたものだから",
+      "why": "Nouns and な-adjectives take な before ものだから."
+    }
+  ],
+  "usageNotes": [
+    "Politeness scale: ものですから (most polite) > もので > ものだから > もんだから / もんで.",
+    "Very common at the start of an apology: すみません、〜もので.",
+    "The reason is typically outside the speaker's control (traffic, illness, weather)."
+  ],
+  "jlptTips": [
+    "If the sentence is an apology or excuse ending in てしまった, choose ものだから / もので.",
+    "If the main clause is a request (〜てください), ものだから is wrong; choose ので.",
+    "Check the connection: な after nouns and な-adjectives."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-157-1",
+    "q-n2-g-157-2",
+    "q-n2-g-157-3",
+    "q-n2-g-157-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-157-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-39",
+  "slug": "hazu-da",
+  "level": "n4",
+  "order": 39,
+  "title": "〜はずだ \"should be / is supposed to\"",
+  "romaji": "hazu da / hazu ga nai",
+  "meaning": "Strong expectation based on logic or evidence: \"it must be / it should be\".",
+  "simpleExplanation": "〜はずだ means \"should be / must be\": you are quite sure because you have a reason. 田中さんはもう着いているはずです = \"Tanaka should have arrived by now\" (you know when his train left). はず is a noun meaning \"expectation\", so it attaches like a noun: verb plain form + はず, い-adjective + はず, な-adjective + なはず, noun + のはず. The negative 〜はずがない is stronger: \"there is no way that…\".",
+  "whenUsed": "Used at every politeness level when you reason from facts: timetables, plans, what you know about a person. It is not a guess but a confident conclusion. It is also used when reality did not match: 〜はずだった (was supposed to, but…) and 〜はずなのに (it should be, and yet…).",
+  "formation": [
+    "V-plain + はずだ: 来るはずだ, 来たはずだ, 来ないはずだ",
+    "い-adjective + はずだ: 高いはずだ",
+    "な-adjective + なはずだ: 静かなはずだ",
+    "Noun + のはずだ: 三時からのはずだ",
+    "〜ないはずだ = should not be; 〜はずがない = cannot possibly be",
+    "Past: 〜はずだった (was supposed to)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How sure is the speaker?",
+    "items": [
+      {
+        "label": "かもしれない",
+        "description": "might: 50% or less, just a possibility"
+      },
+      {
+        "label": "だろう / でしょう / と思う",
+        "description": "probably: the speaker's guess"
+      },
+      {
+        "label": "はずだ",
+        "description": "should / must: a confident conclusion from facts"
+      },
+      {
+        "label": "に違いない",
+        "description": "definitely must be: near certainty (N3)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "田中さんはもう着いているはずです。",
+      "reading": "たなかさんは もう ついているはずです。",
+      "en": "Tanaka should have arrived by now.",
+      "note": "Reasoning from a known schedule: he left long enough ago, so he must be there."
+    },
+    {
+      "ja": "会議は三時からのはずだ。",
+      "reading": "かいぎは さんじからのはずだ。",
+      "en": "The meeting is supposed to be from three.",
+      "note": "Noun + の + はず: what the plan says."
+    },
+    {
+      "ja": "彼がそんなことを言うはずがない。",
+      "reading": "かれが そんな ことを いうはずが ない。",
+      "en": "There's no way he would say such a thing.",
+      "note": "はずがない: the speaker rejects the idea completely."
+    },
+    {
+      "ja": "この店は安いはずだよ。友達がそう言っていた。",
+      "reading": "このみせは やすいはずだよ。ともだちが そう いっていた。",
+      "en": "This shop should be cheap. A friend told me so.",
+      "note": "い-adjective + はず. The reason for the confidence is given in the next sentence."
+    },
+    {
+      "ja": "今日は来るはずだったのに、彼は来なかった。",
+      "reading": "きょうは くるはずだったのに、かれは こなかった。",
+      "en": "He was supposed to come today, but he didn't.",
+      "note": "はずだった + のに: the expectation was not met."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かもしれない",
+      "difference": "かもしれない is a weak \"might\". はずだ is a confident \"should / must\" based on evidence.",
+      "id": "n4-grammar-40"
+    },
+    {
+      "pattern": "〜だろう / でしょう",
+      "difference": "だろう is a guess (\"probably\") without a firm basis. はずだ needs a reason the speaker can point to.",
+      "id": "n4-grammar-103"
+    },
+    {
+      "pattern": "〜べきだ (N3)",
+      "difference": "べきだ means \"ought to\" (duty or advice). はずだ is about expectation, not obligation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "会議は三時からはずだ。",
+      "right": "会議は三時からのはずだ。",
+      "why": "はず is a noun, so a noun phrase needs の before it."
+    },
+    {
+      "wrong": "私は明日行くはずです。",
+      "right": "私は明日行くつもりです。",
+      "why": "はずだ is not used for your own intentions; use つもりだ or 予定だ."
+    },
+    {
+      "wrong": "彼が来ないはずがない。(meaning \"he shouldn't come\")",
+      "right": "彼は来ないはずだ。",
+      "why": "〜ないはずだ = should not; 〜はずがない = there is no way. Choose the one that matches your meaning."
+    }
+  ],
+  "usageNotes": [
+    "The confidence in はずだ comes from something concrete: a timetable, a promise, a fact. Give that reason and the sentence sounds natural.",
+    "はずがない is very strong and often used to defend someone: 彼がうそをつくはずがない (he would never lie).",
+    "〜はずなのに… and 〜はずだった… are the natural ways to say something went against the plan."
+  ],
+  "jlptTips": [
+    "Look for a reason sentence nearby (もう出発した, 昨日買った, 先生だから). If the blank expresses a confident conclusion from that reason, はずだ fits; かもしれない would be too weak.",
+    "Noun + はず questions test the の: 学生のはず / 三時のはず. Options like 学生はず or 学生だはず are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-39-1",
+    "q-n4-g-39-2",
+    "q-n4-g-39-3",
+    "q-n4-g-39-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-39-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

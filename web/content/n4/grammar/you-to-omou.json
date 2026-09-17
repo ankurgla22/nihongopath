@@ -1,0 +1,123 @@
+{
+  "id": "n4-grammar-3",
+  "slug": "you-to-omou",
+  "level": "n4",
+  "order": 3,
+  "title": "〜ようと思う / 〜ようと思っている \"I think I will / I intend to\"",
+  "romaji": "you to omou / you to omotte iru",
+  "meaning": "Expresses the speaker's intention or a decision just made (と思う) or a settled plan (と思っている).",
+  "simpleExplanation": "Volitional + と思う says what you intend to do: 留学しようと思います = \"I'm thinking of studying abroad\". It is softer than a firm promise. 〜ようと思う shows a decision made now or a wish forming in your mind; 〜ようと思っている shows a plan you have been holding for a while and are still holding.",
+  "whenUsed": "Talking about your own plans: after work, at the weekend, next year. 〜ようと思っています is the polite, natural way to answer 何をしますか / 将来はどうしますか. In the past tense, 〜ようと思ったが… often introduces a plan that fell through.",
+  "formation": [
+    "V-volitional + と思う (行こうと思う, 食べようと思う, しようと思う)",
+    "V-volitional + と思っている (a plan already made and still held)",
+    "Polite: 〜ようと思います / 〜ようと思っています",
+    "Past: 〜ようと思った (I thought I would…, often + が)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "留学する",
+        "en": "study abroad (plain verb)"
+      },
+      {
+        "ja": "留学しよう",
+        "en": "let's / I'll study abroad (volitional)"
+      },
+      {
+        "ja": "留学しようと思う",
+        "en": "I think I'll study abroad (intention, decided now)"
+      },
+      {
+        "ja": "留学しようと思っている",
+        "en": "I have been planning to study abroad (settled plan)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "来年、日本へ留学しようと思います。",
+      "reading": "らいねん、にほんへ りゅうがくしようと おもいます。",
+      "en": "I'm thinking of studying in Japan next year.",
+      "note": "A decision the speaker is forming: soft and polite."
+    },
+    {
+      "ja": "週末は家でゆっくりしようと思っています。",
+      "reading": "しゅうまつは いえで ゆっくりしようと おもっています。",
+      "en": "I plan to relax at home on the weekend.",
+      "note": "〜と思っている: a plan already in place."
+    },
+    {
+      "ja": "車を買おうと思ったが、お金がなかった。",
+      "reading": "くるまを かおうと おもったが、おかねが なかった。",
+      "en": "I thought I'd buy a car, but I had no money.",
+      "note": "Past tense + が: the intention did not come true."
+    },
+    {
+      "ja": "今年こそ、毎日運動しようと思っています。",
+      "reading": "ことしこそ、まいにち うんどうしようと おもっています。",
+      "en": "This year, I really intend to exercise every day.",
+      "note": "こそ adds emphasis; と思っている shows the resolve has been in the speaker's mind for a while."
+    },
+    {
+      "ja": "電話しようと思ったとき、ちょうど彼から電話が来た。",
+      "reading": "でんわしようと おもったとき、ちょうど かれから でんわが きた。",
+      "en": "Just when I was thinking of calling him, a call came from him.",
+      "note": "〜ようと思ったとき = \"when I was about to / thinking of\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜つもりだ",
+      "difference": "V-dictionary + つもり is a firm, already decided plan (\"I'm going to\"). 〜ようと思う is softer and can be a decision made on the spot."
+    },
+    {
+      "pattern": "〜ようとする",
+      "difference": "〜ようとする is an actual attempt or the moment just before an action, not an intention in the mind.",
+      "id": "n4-grammar-77"
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "〜ことにした announces a decision as final. 〜ようと思う keeps it as an intention.",
+      "id": "n4-grammar-17"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "田中さんは日本へ行こうと思います。",
+      "right": "田中さんは日本へ行こうと思っています。",
+      "why": "〜ようと思う states the speaker's own present intention. For another person's plan use 〜と思っている."
+    },
+    {
+      "wrong": "明日は早く起きるうと思います。",
+      "right": "明日は早く起きようと思います。",
+      "why": "The verb must be in the volitional form (起きよう), not the dictionary form."
+    },
+    {
+      "wrong": "来年結婚しようと思う。(when the date is fixed)",
+      "right": "来年結婚するつもりです。/ 結婚することになりました。",
+      "why": "For a firm, arranged plan 〜ようと思う sounds too vague; use つもりだ or ことになった."
+    }
+  ],
+  "usageNotes": [
+    "〜ようと思っている is the safest form when someone asks about your plans: it sounds both polite and decided.",
+    "In writing and formal speech 〜ようと考えている is a common variant.",
+    "〜ようかと思う (行こうかと思っている) adds hesitation: \"I'm wondering whether to go\"."
+  ],
+  "jlptTips": [
+    "If the blank is followed by と思います and the sentence is about the speaker's future plan, choose the volitional (〜よう), not 〜る or 〜たい.",
+    "Third-person subjects (田中さんは…) plus と思っています is a common test of the 〜ようと思う vs 〜ようと思っている distinction."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-3-1",
+    "q-n4-g-3-2",
+    "q-n4-g-3-3",
+    "q-n4-g-3-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-3-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

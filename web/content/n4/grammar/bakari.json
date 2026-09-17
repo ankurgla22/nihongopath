@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-61",
+  "slug": "bakari",
+  "level": "n4",
+  "order": 61,
+  "title": "〜ばかり \"only / nothing but / just (did)\"",
+  "romaji": "bakari",
+  "meaning": "(1) N + ばかり: \"nothing but\"; (2) V-て + ばかりいる: \"doing nothing but\"; (3) V-た + ばかり: \"just did\" (#20).",
+  "simpleExplanation": "ばかり means \"nothing but / only\" with a critical tone: too much of one thing. Noun + ばかり: ゲームばかりしている = he does nothing but play games. V-て + ばかりいる: 文句を言ってばかりいる = he's always complaining. Unlike だけ, which is a neutral limit, ばかり sounds like a complaint about someone's habit or about a place being full of one kind of thing (若い人ばかりだ).",
+  "whenUsed": "Complaints about habits (my brother, my kids, my colleague), descriptions of a place or group full of one thing, and self-criticism. Everyday conversation and casual writing. Do not confuse with V-た + ばかり (\"just did\", lesson 20), which is a different meaning.",
+  "formation": [
+    "Noun + ばかり: お菓子ばかり食べる, 若い人ばかりだ",
+    "V-て + ばかりいる: 寝てばかりいる, 遊んでばかりいる",
+    "Noun + ばかり + で: 話ばかりで、何もしない",
+    "Compare V-た + ばかり = just did (lesson 20)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "だけ vs しか〜ない vs ばかり",
+    "columns": [
+      "Amount",
+      "Tone",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "だけ",
+        "cells": [
+          "a limit",
+          "neutral",
+          "ゲームだけした (I only played games: fact)"
+        ]
+      },
+      {
+        "label": "しか〜ない",
+        "cells": [
+          "too little",
+          "dissatisfied",
+          "ゲームしかしなかった (that's all I managed)"
+        ]
+      },
+      {
+        "label": "ばかり",
+        "cells": [
+          "too much of one thing",
+          "critical",
+          "ゲームばかりしている (always gaming)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "弟はゲームばかりしている。",
+      "reading": "おとうとは ゲームばかり している。",
+      "en": "My little brother does nothing but play games.",
+      "note": "Noun + ばかり + する: a complaint about a habit."
+    },
+    {
+      "ja": "彼は文句を言ってばかりいる。",
+      "reading": "かれは もんくを いってばかり いる。",
+      "en": "He is always complaining.",
+      "note": "V-て + ばかりいる: always complaining."
+    },
+    {
+      "ja": "この町は若い人ばかりだ。",
+      "reading": "この まちは わかい ひとばかりだ。",
+      "en": "This town is full of nothing but young people.",
+      "note": "Noun + ばかりだ: the place is full of one kind."
+    },
+    {
+      "ja": "最近、甘いものばかり食べているから、太ってしまった。",
+      "reading": "さいきん、あまいものばかり たべているから、ふとってしまった。",
+      "en": "Lately I've been eating nothing but sweet things, so I've put on weight.",
+      "note": "Noun + ばかり, self-criticism."
+    },
+    {
+      "ja": "休みの日は、家で寝てばかりいます。",
+      "reading": "やすみのひは、いえで ねてばかり います。",
+      "en": "On my days off I do nothing but sleep at home.",
+      "note": "V-て + ばかりいる."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけ",
+      "difference": "だけ is a neutral \"only\"; ばかり is \"nothing but\" with a complaint.",
+      "id": "n4-grammar-59"
+    },
+    {
+      "pattern": "〜しか〜ない",
+      "difference": "しか stresses too little; ばかり stresses too much of one thing.",
+      "id": "n4-grammar-60"
+    },
+    {
+      "pattern": "〜たばかり",
+      "difference": "V-た + ばかり means \"just did\" (今来たばかり). Completely different meaning.",
+      "id": "n4-grammar-20"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "弟はゲームばかりしていない。",
+      "right": "弟はゲームばかりしている。",
+      "why": "ばかり goes with an affirmative verb. A negative \"only\" is しか〜ない."
+    },
+    {
+      "wrong": "彼は文句を言うばかりいる。",
+      "right": "彼は文句を言ってばかりいる。",
+      "why": "The \"always doing\" pattern needs the て-form + ばかりいる."
+    },
+    {
+      "wrong": "昨日、日本に来たばかりで、日本語ばかり話せない。",
+      "right": "…日本語が少ししか話せない。",
+      "why": "ばかり cannot express \"only a little\"; that is しか〜ない."
+    }
+  ],
+  "usageNotes": [
+    "ばかり often appears with いつも or 最近 in complaints.",
+    "Noun + ばかりで、〜ない = all X and no Y: 口ばかりで、何もしない (all talk, no action).",
+    "V-てばかりいないで、〜 (stop just doing X and…) is a common scolding pattern."
+  ],
+  "jlptTips": [
+    "If the sentence is a complaint about a habit and the verb is affirmative, choose ばかり over だけ / しか.",
+    "Check the form before ばかり: て-form + ばかりいる = always doing; た-form + ばかり = just did. The blank often tests which one the context needs."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-61-1",
+    "q-n4-g-61-2",
+    "q-n4-g-61-3",
+    "q-n4-g-61-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-61-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-141",
+  "slug": "bakari-ni",
+  "level": "n2",
+  "order": 141,
+  "title": "〜ばかりに",
+  "romaji": "bakari ni",
+  "meaning": "just because, simply because (with a regrettable result)",
+  "simpleExplanation": "〜ばかりに means \"simply because X, (a bad thing happened)\". X is a single, often small cause, and the result is negative and regretted: 英語ができないばかりに、チャンスを逃した. The speaker feels \"if only it were not for X\". Never used for good outcomes.",
+  "whenUsed": "Both speech and writing, mostly in narratives and explanations of misfortune. It sounds a bit dramatic; in neutral explanations use ので / から. The related 〜たいばかりに (\"just because I wanted to\") explains an excessive action.",
+  "formation": [
+    "Verb / い-adjective (plain form) + ばかりに",
+    "な-adjective + な / である + ばかりに",
+    "Noun + である + ばかりに",
+    "Verb たい + ばかりに (out of a strong desire)",
+    "Result clause: negative outcome (失敗した / 逃した / 怒らせた)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "英語ができない",
+        "role": "small or single cause"
+      },
+      {
+        "text": "ばかりに",
+        "role": "simply because",
+        "highlight": true
+      },
+      {
+        "text": "、昇進のチャンスを逃した",
+        "role": "regrettable negative result"
+      }
+    ],
+    "translation": "Just because I cannot speak English, I missed a chance at promotion."
+  },
+  "examples": [
+    {
+      "ja": "英語ができないばかりに、昇進のチャンスを逃した。",
+      "reading": "えいごができないばかりに、しょうしんのチャンスをのがした。",
+      "en": "Just because I cannot speak English, I missed a chance at promotion.",
+      "note": "Cause + regretted loss."
+    },
+    {
+      "ja": "一言多く言ったばかりに、彼女を怒らせてしまった。",
+      "reading": "ひとことおおくいったばかりに、かのじょをおこらせてしまった。",
+      "en": "Because I said one word too many, I ended up making her angry.",
+      "note": "One remark too many led to anger."
+    },
+    {
+      "ja": "お金がなかったばかりに、進学をあきらめた。",
+      "reading": "おかねがなかったばかりに、しんがくをあきらめた。",
+      "en": "Simply because I had no money, I gave up on further education.",
+      "note": "Lack of money forced giving up: regret."
+    },
+    {
+      "ja": "彼を信じたばかりに、大金を失ってしまった。",
+      "reading": "かれをしんじたばかりに、たいきんをうしなってしまった。",
+      "en": "Just because I trusted him, I ended up losing a lot of money.",
+      "note": "しまった reinforces the regret."
+    },
+    {
+      "ja": "優勝したいばかりに、無理な練習をして体を壊した。",
+      "reading": "ゆうしょうしたいばかりに、むりなれんしゅうをしてからだをこわした。",
+      "en": "Out of sheer desire to win, he trained too hard and ruined his health.",
+      "note": "〜たいばかりに: an excessive action driven by desire."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜せいで",
+      "difference": "\"Because of (blame)\": also negative, but ばかりに adds 'if only' regret about a single cause."
+    },
+    {
+      "pattern": "〜おかげで",
+      "difference": "Positive cause; the opposite in tone."
+    },
+    {
+      "pattern": "〜だけに",
+      "difference": "\"Precisely because\", can be positive or negative; not limited to regret."
+    },
+    {
+      "pattern": "〜ばかりか",
+      "difference": "Different pattern: 'not only … but even'.",
+      "id": "n2-grammar-140"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一生懸命勉強したばかりに、合格した。",
+      "right": "一生懸命勉強したおかげで、合格した。",
+      "why": "ばかりに requires a negative result; for a good result use おかげで."
+    },
+    {
+      "wrong": "有名ばかりに、外を歩けない。",
+      "right": "有名なばかりに、外を歩けない。",
+      "why": "な-adjectives need な (or である) before ばかりに."
+    },
+    {
+      "wrong": "道が混んでいたばかりに、遅れました。(as an apology)",
+      "right": "道が混んでいたもので、遅れました。",
+      "why": "Too dramatic for a simple apology; use もので / ので."
+    }
+  ],
+  "usageNotes": [
+    "The result is often marked with てしまった.",
+    "The cause is typically minor compared with the damage, which is where the regret comes from.",
+    "〜たいばかりに can also explain rash or wrong actions."
+  ],
+  "jlptTips": [
+    "If the second clause is a negative result and the tone is regret, choose ばかりに over ので.",
+    "Watch for a positive result: then ばかりに is wrong (おかげで).",
+    "Distractors include ばかりか, ばかりで, ばかりだ. Only ばかりに gives a cause."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-141-1",
+    "q-n2-g-141-2",
+    "q-n2-g-141-3",
+    "q-n2-g-141-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-141-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-65",
+  "slug": "ta-tokoro",
+  "level": "n2",
+  "order": 65,
+  "title": "〜たところ",
+  "romaji": "ta tokoro",
+  "meaning": "when I did ..., (I found that)",
+  "simpleExplanation": "〜たところ means \"when I did…, (I found that)…\". The first clause is a deliberate action (consulting, calling, checking), and the second reports what was discovered as a result: when I consulted my teacher, I got good advice; when I called, he had already left.",
+  "whenUsed": "書き言葉寄り and formal reports; in speech 〜たら does the same job. The second clause is a past discovery or outcome, not the speaker's next action or a command. It is common in business emails: 確認したところ、〜でした.",
+  "formation": [
+    "Vた + ところ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "先生に相談した",
+        "role": "deliberate action (Vた)"
+      },
+      {
+        "text": "ところ",
+        "role": "when I did that…",
+        "highlight": true
+      },
+      {
+        "text": "いいアドバイスをもらえた",
+        "role": "discovered result (past)"
+      }
+    ],
+    "translation": "When I consulted my teacher, I got good advice."
+  },
+  "examples": [
+    {
+      "ja": "先生に相談したところ、いいアドバイスをもらえた。",
+      "reading": "せんせいにそうだんしたところ、いいアドバイスをもらえた。",
+      "en": "When I consulted my teacher, I got good advice.",
+      "note": "Action → good result."
+    },
+    {
+      "ja": "電話したところ、彼はもう出発していた。",
+      "reading": "でんわしたところ、かれはもうしゅっぱつしていた。",
+      "en": "When I called, he had already left.",
+      "note": "Action → discovered situation (past perfect)."
+    },
+    {
+      "ja": "調べてみたところ、データに誤りが見つかった。",
+      "reading": "しらべてみたところ、データにあやまりがみつかった。",
+      "en": "When I checked, an error was found in the data.",
+      "note": "Vてみた + ところ, a common combination."
+    },
+    {
+      "ja": "在庫を確認したところ、あいにく品切れでした。",
+      "reading": "ざいこをかくにんしたところ、あいにくしなぎれでした。",
+      "en": "When I checked the stock, unfortunately it was sold out.",
+      "note": "Business email wording."
+    },
+    {
+      "ja": "薬を変えたところ、症状がかなり改善した。",
+      "reading": "くすりをかえたところ、しょうじょうがかなりかいぜんした。",
+      "en": "When we changed the medicine, the symptoms improved considerably.",
+      "note": "Report of an outcome."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら (discovery)",
+      "difference": "Everyday equivalent: 電話したら、いなかった."
+    },
+    {
+      "pattern": "〜たところで",
+      "difference": "Different meaning: \"even if one does, it's no use\".",
+      "id": "n2-grammar-66"
+    },
+    {
+      "pattern": "〜たとたん",
+      "difference": "\"The moment\": a sudden event, not a discovered result of one's own action.",
+      "id": "n2-grammar-67"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生に相談するところ、いいアドバイスをもらえた。",
+      "right": "先生に相談したところ、いいアドバイスをもらえた。",
+      "why": "Use Vた; Vるところ means \"about to\"."
+    },
+    {
+      "wrong": "電話したところ、もう一度かけよう。",
+      "right": "電話したところ、留守だった。",
+      "why": "The second clause is a discovered result, not a plan."
+    },
+    {
+      "wrong": "雨が降ったところ、道が濡れた。",
+      "right": "雨が降ったので、道が濡れた。",
+      "why": "The first clause must be a deliberate action by someone."
+    }
+  ],
+  "usageNotes": [
+    "Frequent first verbs: 調べる, 確認する, 聞く, 相談する, 試す, 頼む (often with てみる).",
+    "The second clause is often 〜ということだった / 〜そうだ when reporting what one learned.",
+    "Do not confuse with the aspect uses of ところ (Vるところ, Vているところ, Vたところだ)."
+  ],
+  "jlptTips": [
+    "Vた (deliberate action) + blank + a past discovery → ところ.",
+    "Distractors: ところで (useless), ところに (just when), とたん. A useless-outcome ending (無駄だ・間に合わない) means ところで.",
+    "Business-style 確認したところ is a common chunk in 並べ替え."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-65-1",
+    "q-n2-g-65-2",
+    "q-n2-g-65-3",
+    "q-n2-g-65-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-65-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

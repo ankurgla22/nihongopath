@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-88",
+  "slug": "dokoro-dewa-nai",
+  "level": "n2",
+  "order": 88,
+  "title": "〜どころではない",
+  "romaji": "dokoro dewa nai",
+  "meaning": "this is no time for ..., far from being able to",
+  "simpleExplanation": "〜どころではない means \"this is no time for…, far from being able to…\". Circumstances make the action impossible or absurd: work is so busy that a trip is out of the question; my fever was so high that studying was unthinkable.",
+  "whenUsed": "話し言葉寄り, emotional; casual form どころじゃない. It follows nouns (旅行どころではない) or Vる (勉強するどころではない). The context is a pressing or difficult situation that rules the action out completely.",
+  "formation": [
+    "Vる / N + どころではない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "仕事が忙しくて",
+        "role": "pressing situation"
+      },
+      {
+        "text": "旅行",
+        "role": "the unthinkable action (N / Vる)"
+      },
+      {
+        "text": "どころではない",
+        "role": "no time for that / out of the question",
+        "highlight": true
+      }
+    ],
+    "translation": "Work is so busy I can't even think of a trip."
+  },
+  "examples": [
+    {
+      "ja": "仕事が忙しくて、旅行どころではない。",
+      "reading": "しごとがいそがしくて、りょこうどころではない。",
+      "en": "Work is so busy I can't even think of a trip.",
+      "note": "N + どころではない."
+    },
+    {
+      "ja": "熱が高くて、勉強するどころではなかった。",
+      "reading": "ねつがたかくて、べんきょうするどころではなかった。",
+      "en": "My fever was so high, studying was out of the question.",
+      "note": "Vる + どころではなかった."
+    },
+    {
+      "ja": "今は冗談を言っているどころじゃない。",
+      "reading": "いまはじょうだんをいっているどころじゃない。",
+      "en": "This is no time for jokes.",
+      "note": "Casual どころじゃない."
+    },
+    {
+      "ja": "地震の後は、テレビを見るどころではなかった。",
+      "reading": "じしんのあとは、テレビをみるどころではなかった。",
+      "en": "After the earthquake, watching TV was the last thing on our minds.",
+      "note": "Past form."
+    },
+    {
+      "ja": "今月は出費が多くて、貯金どころではない。",
+      "reading": "こんげつはしゅっぴがおおくて、ちょきんどころではない。",
+      "en": "With so many expenses this month, saving money is out of the question.",
+      "note": "N + どころではない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜どころか",
+      "difference": "\"Far from… (on the contrary)\": contrasts two levels (優しいどころか冷たい).",
+      "id": "n2-grammar-87"
+    },
+    {
+      "pattern": "〜わけにはいかない",
+      "difference": "\"Can't afford to\" for social or moral reasons, not because of a pressing situation.",
+      "id": "n2-grammar-165"
+    },
+    {
+      "pattern": "〜ようがない",
+      "difference": "\"There is no way to\" (means are lacking).",
+      "id": "n2-grammar-190"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "忙しくて、旅行のどころではない。",
+      "right": "忙しくて、旅行どころではない。",
+      "why": "Nouns attach directly."
+    },
+    {
+      "wrong": "暇なので、旅行どころではない。",
+      "right": "忙しいので、旅行どころではない。",
+      "why": "The situation must make the action impossible; having free time contradicts it."
+    },
+    {
+      "wrong": "勉強したどころではなかった。",
+      "right": "勉強するどころではなかった。",
+      "why": "Verbs take the dictionary form; tense goes on ない."
+    }
+  ],
+  "usageNotes": [
+    "Often preceded by a reason: 忙しくて, 熱が高くて, 心配で.",
+    "Polite: どころではありません.",
+    "Sentence-final どころじゃないよ is very common in speech."
+  ],
+  "jlptTips": [
+    "A pressing situation + N/Vる + blank meaning \"out of the question\" → どころではない.",
+    "Distractors: どころか, わけにはいかない, ようがない. どころか needs a contrasting second clause; どころではない ends the sentence.",
+    "Check attachment: no の between the noun and どころ."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-88-1",
+    "q-n2-g-88-2",
+    "q-n2-g-88-3",
+    "q-n2-g-88-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-88-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

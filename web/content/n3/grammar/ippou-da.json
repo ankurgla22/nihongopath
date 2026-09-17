@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-98",
+  "slug": "ippou-da",
+  "level": "n3",
+  "order": 98,
+  "title": "〜一方だ / 〜いっぽうだ",
+  "romaji": "ippou da",
+  "meaning": "keeps on …ing / continues only to… (one-directional change)",
+  "simpleExplanation": "〜一方だ says a change goes in one direction only and does not stop: 物価は上がる一方だ \"prices just keep rising\". It attaches to verbs of change (増える, 減る, 上がる, 悪くなる). The tone is often worried, but unlike 〜ばかりだ it can also describe a neutral or positive trend.",
+  "whenUsed": "News, essays, business reports and everyday complaints about trends: 仕事が増える一方だ. Do not confuse it with 〜一方(で) \"on the other hand\", which links two clauses.",
+  "formation": [
+    "Verb (dictionary form, change verb) + 一方だ / 一方です",
+    "Past: 〜一方だった",
+    "Connective: 〜一方で (also 'keeps increasing, and…')"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "一方だ vs ばかりだ vs てきた",
+    "columns": [
+      "Direction",
+      "Tone",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜一方だ",
+        "cells": [
+          "One way only, no stopping",
+          "Neutral or worried",
+          "物価は上がる一方だ"
+        ]
+      },
+      {
+        "label": "〜ばかりだ",
+        "cells": [
+          "One way only, getting worse",
+          "Negative only",
+          "成績は下がるばかりだ"
+        ]
+      },
+      {
+        "label": "〜てきた",
+        "cells": [
+          "Change up to now",
+          "Neutral",
+          "物価が上がってきた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "物価は上がる一方だ。",
+      "reading": "ぶっかはあがるいっぽうだ。",
+      "en": "Prices keep on rising.",
+      "note": "Prices keep going up; no sign of stopping."
+    },
+    {
+      "ja": "父の病気は悪くなる一方だった。",
+      "reading": "ちちのびょうきはわるくなるいっぽうだった。",
+      "en": "My father's illness just kept getting worse.",
+      "note": "Past: 一方だった."
+    },
+    {
+      "ja": "仕事が増える一方で、休む暇がない。",
+      "reading": "しごとがふえるいっぽうで、やすむひまがない。",
+      "en": "Work keeps increasing and I have no time to rest.",
+      "note": "一方で connective: the trend plus its consequence."
+    },
+    {
+      "ja": "この会社の業績は、ここ数年伸びる一方だ。",
+      "reading": "このかいしゃのぎょうせきは、ここすうねんのびるいっぽうだ。",
+      "en": "This company's results have done nothing but grow these past few years.",
+      "note": "A positive trend: possible with 一方だ but not with ばかりだ."
+    },
+    {
+      "ja": "スマートフォンの利用時間は長くなる一方です。",
+      "reading": "スマートフォンのりようじかんはながくなるいっぽうです。",
+      "en": "Time spent on smartphones just keeps getting longer.",
+      "note": "Adjective + なる + 一方だ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばかりだ",
+      "difference": "Same structure but only for things getting worse.",
+      "id": "n3-grammar-99"
+    },
+    {
+      "pattern": "〜一方(で)",
+      "difference": "'On the other hand' — links two contrasting clauses. Different meaning, same kanji.",
+      "id": "n3-grammar-72"
+    },
+    {
+      "pattern": "〜てくる / 〜ていく",
+      "difference": "Show direction in time but not the 'never stops' emphasis.",
+      "id": "n3-grammar-97"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "物価は上がった一方だ。",
+      "right": "物価は上がる一方だ。",
+      "why": "一方だ takes the dictionary form; the past goes on だ (一方だった)."
+    },
+    {
+      "wrong": "彼は勉強する一方だ。",
+      "right": "彼は勉強ばかりしている。",
+      "why": "一方だ needs a verb of change (increase, decrease, worsen). 勉強する is an action, not a change."
+    },
+    {
+      "wrong": "都会は便利な一方だ。",
+      "right": "都会は便利になる一方だ。",
+      "why": "An adjective must be turned into a change with なる before 一方だ."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: 増える, 減る, 上がる, 下がる, 悪くなる, 高くなる, ひどくなる.",
+    "Sentence-initial 一方、 and clause-linking 一方で are the contrast meaning; sentence-final 一方だ is the trend meaning.",
+    "In formal writing: 〜一方である."
+  ],
+  "jlptTips": [
+    "If the blank ends the sentence and the verb is about change, 一方だ is likely; if a second clause follows with a different subject, it is 一方で.",
+    "If the trend is positive (伸びる, よくなる), only 一方だ works, not ばかりだ.",
+    "Check the verb form: dictionary form only."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-98-1",
+    "q-n3-g-98-2",
+    "q-n3-g-98-3",
+    "q-n3-g-98-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-98-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

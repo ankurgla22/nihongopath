@@ -1,0 +1,136 @@
+{
+  "id": "n5-grammar-74",
+  "slug": "ni-time-vs-no-particle",
+  "level": "n5",
+  "order": 74,
+  "title": "に (specific time) vs no particle",
+  "romaji": "ni (specific time) vs no particle",
+  "meaning": "に marks a specific point in time (clock time, date, day of the week, month, year). Relative time words take no particle.",
+  "simpleExplanation": "Specific times take に: 三時に \"at three\", 日曜日に \"on Sunday\", 五月に \"in May\", 2020年に. Relative time words that only make sense from \"now\" take NO particle: 今日, 明日, 昨日, 来週, 毎日, 今. Ask: can I point to it on a clock or calendar? Yes → に. Is it \"today / tomorrow / every day\"? → nothing.",
+  "whenUsed": "Every time you say when something happens. Also with 朝, 夜, 春, 夏 the に is optional.",
+  "formation": [
+    "三時に、日曜日に、五月に、2020年に　／　今日、明日、毎朝、来週、今 (no に)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "に or nothing?",
+    "columns": [
+      "に (specific)",
+      "no particle (relative)"
+    ],
+    "rows": [
+      {
+        "label": "Clock / date",
+        "cells": [
+          "三時に、十日に",
+          "—"
+        ]
+      },
+      {
+        "label": "Day / month / year",
+        "cells": [
+          "日曜日に、五月に、去年の四月に",
+          "—"
+        ]
+      },
+      {
+        "label": "Relative to now",
+        "cells": [
+          "—",
+          "今日、明日、昨日、来週、毎日、今"
+        ]
+      },
+      {
+        "label": "Optional",
+        "cells": [
+          "朝(に)、夜(に)、春(に)",
+          "—"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "授業は九時に始まります。",
+      "reading": "じゅぎょうは くじに はじまります。",
+      "en": "Class starts at nine.",
+      "note": "Clock time + に."
+    },
+    {
+      "ja": "土曜日に友達と映画を見ます。",
+      "reading": "どようびに ともだちと えいがを みます。",
+      "en": "On Saturday I'll see a film with a friend.",
+      "note": "Day of the week + に."
+    },
+    {
+      "ja": "明日、田中さんに会います。",
+      "reading": "あした、たなかさんに あいます。",
+      "en": "I'll meet Mr Tanaka tomorrow.",
+      "note": "明日 takes no particle."
+    },
+    {
+      "ja": "毎朝七時に起きます。",
+      "reading": "まいあさ しちじに おきます。",
+      "en": "I get up at seven every morning.",
+      "note": "毎朝 takes nothing; 七時 takes に."
+    },
+    {
+      "ja": "来週、大阪へ行きます。",
+      "reading": "らいしゅう、おおさかへ いきます。",
+      "en": "I'm going to Osaka next week.",
+      "note": "来週 is relative → no に."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-8",
+      "pattern": "に",
+      "difference": "The other uses of に: place of existence, destination, recipient."
+    },
+    {
+      "id": "n5-grammar-62",
+      "pattern": "ごろ",
+      "difference": "七時ごろ(に): after ごろ, に is optional."
+    },
+    {
+      "id": "n5-grammar-75",
+      "pattern": "に (frequency)",
+      "difference": "週に二回: a different に meaning \"per\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日に会いましょう",
+      "right": "明日会いましょう",
+      "why": "明日 is relative → no に."
+    },
+    {
+      "wrong": "三時会いましょう",
+      "right": "三時に会いましょう",
+      "why": "Clock times need に."
+    },
+    {
+      "wrong": "毎日に勉強します",
+      "right": "毎日勉強します",
+      "why": "毎日, 毎週 and 毎朝 take no particle."
+    }
+  ],
+  "usageNotes": [
+    "Test favourite: ×明日に, ×毎日に are wrong; 三時に, 月曜日に, 誕生日に are right. Time spans take no に either: 三時間勉強しました. に is optional after 朝／夜／春／夏 etc. Also に marks the destination (#8) and the person you meet／give to."
+  ],
+  "jlptTips": [
+    "If an option is に after 今日／明日／毎日／来週, it is wrong. If the blank follows a clock time, day of the week, date or year, choose に.",
+    "The exam sometimes offers × (nothing) as an option. Take it seriously after relative time words."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-74-1",
+    "q-n5-g-74-2",
+    "q-n5-g-74-3",
+    "q-n5-g-74-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-74-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

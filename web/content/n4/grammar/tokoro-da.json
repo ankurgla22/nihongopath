@@ -1,0 +1,123 @@
+{
+  "id": "n4-grammar-19",
+  "slug": "tokoro-da",
+  "level": "n4",
+  "order": 19,
+  "title": "〜ているところ / 〜るところ / 〜たところ \"in the middle of / about to / just did\"",
+  "romaji": "tokoro da (ru / te iru / ta)",
+  "meaning": "Pinpoints the stage of an action: about to start (V-dict + ところ), in progress (V-て + いるところ), just finished (V-た + ところ).",
+  "simpleExplanation": "ところ literally means \"place\", but after a verb it means \"the point in time\". It pinpoints exactly which stage an action is at. Dictionary form + ところ = about to start (出かけるところ = just about to go out). 〜ている + ところ = in the middle of it (食べているところ = in the middle of eating). 〜た + ところ = just finished (着いたところ = just arrived). Think of it as a camera zooming in on one moment.",
+  "whenUsed": "Answering \"what are you doing now?\" or \"are you ready?\": 今、やっているところです. Explaining why you cannot do something right now (今、出かけるところなんです). Often used on the phone: 今、駅に着いたところ. Words like 今, これから, ちょうど, たった今 appear with it.",
+  "formation": [
+    "V-dictionary + ところだ: about to do (これから食べるところです)",
+    "V-ている + ところだ: in the middle of doing (今、食べているところです)",
+    "V-た + ところだ: just finished (たった今、食べたところです)",
+    "Before a noun or clause: ところに / ところへ / ところを (出かけるところに電話が来た)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "これから昼ご飯を食べるところです",
+        "en": "I'm just about to eat lunch (before the action)"
+      },
+      {
+        "ja": "今、昼ご飯を食べているところです",
+        "en": "I'm in the middle of eating lunch (during the action)"
+      },
+      {
+        "ja": "たった今、昼ご飯を食べたところです",
+        "en": "I've just finished eating lunch (right after the action)"
+      },
+      {
+        "ja": "さっき昼ご飯を食べたばかりです",
+        "en": "I just had lunch a while ago (recent, looser than たところ)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今から出かけるところです。",
+      "reading": "いまから でかける ところです。",
+      "en": "I'm just about to go out.",
+      "note": "Dictionary form + ところ with 今から: the action has not started yet."
+    },
+    {
+      "ja": "今、昼ご飯を食べているところです。",
+      "reading": "いま、ひるごはんを たべている ところです。",
+      "en": "I'm in the middle of eating lunch right now.",
+      "note": "ている + ところ with 今: the action is in progress."
+    },
+    {
+      "ja": "たった今、駅に着いたところです。",
+      "reading": "たったいま、えきに ついた ところです。",
+      "en": "I've just this moment arrived at the station.",
+      "note": "た + ところ with たった今: the action has just ended this moment."
+    },
+    {
+      "ja": "A：もう宿題は終わった？ B：今、やっているところだよ。",
+      "reading": "A：もう しゅくだいは おわった？ B：いま、やっている ところだよ。",
+      "en": "A: Have you finished your homework? B: I'm doing it right now.",
+      "note": "ているところ answers \"is it done?\" with \"it's in progress\"."
+    },
+    {
+      "ja": "ちょうど出かけるところに、友達から電話がかかってきた。",
+      "reading": "ちょうど でかける ところに、ともだちから でんわが かかってきた。",
+      "en": "Just as I was about to go out, a friend called.",
+      "note": "ところに links the moment (about to leave) to something that happened at that moment."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たばかり",
+      "difference": "たばかり means \"recently\" in the speaker's feeling and can cover days or weeks (先月来たばかり). たところ is the exact moment just after.",
+      "id": "n4-grammar-20"
+    },
+    {
+      "pattern": "〜ている (progressive)",
+      "difference": "食べている simply says the action is ongoing. 食べているところだ stresses \"right at this moment, in the middle of it\"."
+    },
+    {
+      "pattern": "〜間に",
+      "difference": "間に marks a period during which something else happens. ところ marks a single point in an action.",
+      "id": "n4-grammar-47"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先週、日本に来たところです。",
+      "right": "先週、日本に来たばかりです。",
+      "why": "たところ is only for the very moment just after. A week ago needs たばかり."
+    },
+    {
+      "wrong": "今、食べるところです。(while eating)",
+      "right": "今、食べているところです。",
+      "why": "The dictionary form + ところ means \"about to\". For an action in progress use ているところ."
+    },
+    {
+      "wrong": "毎朝七時に起きるところです。",
+      "right": "毎朝七時に起きます。",
+      "why": "ところ describes one specific moment, not a habit. Habitual actions use the plain form."
+    }
+  ],
+  "usageNotes": [
+    "ところだった (past + だった) means \"almost happened\": 事故に遭うところだった = I nearly had an accident.",
+    "The three forms are tested with time words: これから / 今から → 〜るところ, 今 / ちょうど → 〜ているところ, たった今 / ちょうど → 〜たところ.",
+    "ところ is written in kana in this grammatical use."
+  ],
+  "jlptTips": [
+    "Look at the time word before the blank: これから → dictionary form + ところ; 今…ている → ているところ; たった今 → たところ. This solves most questions.",
+    "A common distractor pair is たところ vs たばかり. If the time word is さっき / 先週 / 先月 (not the exact moment), choose たばかり."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-19-1",
+    "q-n4-g-19-2",
+    "q-n4-g-19-3",
+    "q-n4-g-19-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-19-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

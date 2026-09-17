@@ -1,0 +1,116 @@
+{
+  "id": "n3-grammar-75",
+  "slug": "wa-mochiron",
+  "level": "n3",
+  "order": 75,
+  "title": "〜はもちろん",
+  "romaji": "wa mochiron",
+  "meaning": "X of course, and Y too / not to mention X",
+  "simpleExplanation": "〜はもちろん means \"X goes without saying, and even Y\". The first item is the obvious case; the second is the one that adds new information. \"He can read kanji, of course, and classical texts too.\"",
+  "whenUsed": "Used in both speech and writing to praise, describe range, or list what is included. The longer form 〜はもちろんのこと sounds more formal. The second item takes も, まで or にも.",
+  "formation": [
+    "Noun + はもちろん + Noun + も / まで / にも",
+    "Noun + はもちろんのこと + Noun + も (formal)",
+    "Verb / clause + のはもちろん (less common)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "From obvious to surprising",
+    "items": [
+      {
+        "label": "漢字はもちろん",
+        "description": "The obvious item: anyone would expect this."
+      },
+      {
+        "label": "古典も読める",
+        "description": "The surprising addition: this is the real point."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は漢字はもちろん、古典も読める。",
+      "reading": "かれはかんじはもちろん、こてんもよめる。",
+      "en": "He can read not only kanji, but classical texts too.",
+      "note": "Kanji is the obvious case; classical texts are the surprise."
+    },
+    {
+      "ja": "平日はもちろん、週末も働いている。",
+      "reading": "へいじつはもちろん、しゅうまつもはたらいている。",
+      "en": "He works on weekends, not to mention weekdays.",
+      "note": "Weekdays are expected; weekends are the added point."
+    },
+    {
+      "ja": "この町は観光客はもちろんのこと、地元の人にも人気だ。",
+      "reading": "このまちはかんこうきゃくはもちろんのこと、じもとのひとにもにんきだ。",
+      "en": "This town is popular with locals too, not just tourists of course.",
+      "note": "〜はもちろんのこと is the fuller, more formal version."
+    },
+    {
+      "ja": "このホテルは部屋はもちろん、食事も素晴らしかった。",
+      "reading": "このホテルはへやはもちろん、しょくじもすばらしかった。",
+      "en": "At this hotel, the rooms were wonderful of course, and so was the food.",
+      "note": "Praise: obvious merit first, extra merit second."
+    },
+    {
+      "ja": "参加費はもちろんのこと、交通費まで会社が出してくれた。",
+      "reading": "さんかひはもちろんのこと、こうつうひまでかいしゃがだしてくれた。",
+      "en": "The company paid not only the participation fee, of course, but even the travel costs.",
+      "note": "まで instead of も stresses how far it went."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく〜も",
+      "difference": "Neutral 'not only… but also'. はもちろん adds the feeling that the first item is obvious.",
+      "id": "n3-grammar-74"
+    },
+    {
+      "pattern": "〜は言うまでもなく",
+      "difference": "Formal written equivalent: 'needless to say'."
+    },
+    {
+      "pattern": "〜に加えて",
+      "difference": "Plain addition without the 'obviously' flavour.",
+      "id": "n3-grammar-32"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は漢字はもちろん、古典が読める。",
+      "right": "彼は漢字はもちろん、古典も読める。",
+      "why": "The second item must carry も (or まで / にも); otherwise the 'and also' link disappears."
+    },
+    {
+      "wrong": "漢字がもちろん、古典も読める。",
+      "right": "漢字はもちろん、古典も読める。",
+      "why": "The pattern is fixed as はもちろん; the particle は cannot be replaced with が."
+    },
+    {
+      "wrong": "古典はもちろん、漢字も読める。",
+      "right": "漢字はもちろん、古典も読める。",
+      "why": "Order matters: the easy or obvious item comes first, the surprising one second."
+    }
+  ],
+  "usageNotes": [
+    "もちろん on its own is an adverb ('of course'); in this pattern it is glued to は.",
+    "For a verb or clause, use 〜のはもちろん: 話すのはもちろん、書くのも得意だ.",
+    "The second item often takes まで to show the range is wider than expected."
+  ],
+  "jlptTips": [
+    "If the second item is marked with も / まで and the first item is an obviously easier case, はもちろん is the answer.",
+    "Watch for particle traps: the choices may include がもちろん or をもちろん; only はもちろん exists.",
+    "In 並べ替え, the chunk はもちろん sits right after the first noun; the も-marked noun follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-75-1",
+    "q-n3-g-75-2",
+    "q-n3-g-75-3",
+    "q-n3-g-75-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-75-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

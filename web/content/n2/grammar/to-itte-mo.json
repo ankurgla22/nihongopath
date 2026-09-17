@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-86",
+  "slug": "to-itte-mo",
+  "level": "n2",
+  "order": 86,
+  "title": "〜といっても",
+  "romaji": "to itte mo",
+  "meaning": "although I say ..., (actually not that much)",
+  "simpleExplanation": "〜といっても means \"although I say…, (actually not that much)\". It lowers the expectation created by the first statement: I can speak Japanese, but only greetings; we have a garden, though it's tiny; I say \"trip\", but I only went to the next town.",
+  "whenUsed": "Both registers. It follows nouns and plain forms. The second clause scales down or qualifies. Sentence-initial といっても (\"that said\") responds to what was just said. Do not confuse with たとえ〜ても (\"even if\").",
+  "formation": [
+    "普通形 / N + といっても"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "日本語ができる",
+        "role": "claim that raises expectations"
+      },
+      {
+        "text": "といっても",
+        "role": "although I say that…",
+        "highlight": true
+      },
+      {
+        "text": "挨拶程度です",
+        "role": "scaled-down reality"
+      }
+    ],
+    "translation": "I can speak Japanese, but only greetings really."
+  },
+  "examples": [
+    {
+      "ja": "日本語ができるといっても、挨拶程度です。",
+      "reading": "にほんごができるといっても、あいさつていどです。",
+      "en": "I can speak Japanese, but only greetings really.",
+      "note": "Skill scaled down."
+    },
+    {
+      "ja": "庭があるといっても、とても小さい。",
+      "reading": "にわがあるといっても、とてもちいさい。",
+      "en": "We have a garden, though it's very small.",
+      "note": "Possession scaled down."
+    },
+    {
+      "ja": "旅行といっても、隣の町に行っただけだ。",
+      "reading": "りょこうといっても、となりのまちにいっただけだ。",
+      "en": "I say \"trip\", but I only went to the next town.",
+      "note": "A noun scaled down."
+    },
+    {
+      "ja": "料理ができるといっても、簡単なものしか作れません。",
+      "reading": "りょうりができるといっても、かんたんなものしかつくれません。",
+      "en": "I say I can cook, but I can only make simple things.",
+      "note": "しか〜ない in the second clause."
+    },
+    {
+      "ja": "新しい仕事を始めた。といっても、前とほとんど同じ内容だ。",
+      "reading": "あたらしいしごとをはじめた。といっても、まえとほとんどおなじないようだ。",
+      "en": "I started a new job. That said, it's almost the same as before.",
+      "note": "Sentence-initial といっても."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "たとえ〜ても",
+      "difference": "Hypothetical concession (\"even if\"); といっても qualifies a real statement.",
+      "id": "n2-grammar-64"
+    },
+    {
+      "pattern": "〜とはいえ",
+      "difference": "Formal \"even so, though\"; close in meaning, more written.",
+      "id": "n2-grammar-128"
+    },
+    {
+      "pattern": "〜というより",
+      "difference": "Corrects the description rather than scaling it down.",
+      "id": "n2-grammar-85"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語ができるといっても、ペラペラです。",
+      "right": "日本語ができるといっても、挨拶程度です。",
+      "why": "The second clause must lower expectations, not raise them."
+    },
+    {
+      "wrong": "雨が降るといっても、行く。（intending \"even if it rains\"）",
+      "right": "たとえ雨が降っても、行く。",
+      "why": "Hypothetical \"even if\" is たとえ〜ても."
+    },
+    {
+      "wrong": "旅行のといっても",
+      "right": "旅行といっても",
+      "why": "Nouns attach directly."
+    }
+  ],
+  "usageNotes": [
+    "Second clauses often contain 程度, だけ, しか〜ない, ほんの.",
+    "Sentence-initial といっても / とはいっても = \"that said\".",
+    "Casual: 〜って言っても."
+  ],
+  "jlptTips": [
+    "A claim + blank + a scaled-down qualification (程度・だけ・しか) → といっても.",
+    "Distractors: たとえ〜ても, というより, といったら. If the sentence begins with たとえ, it is not といっても.",
+    "In 並べ替え, といっても sits right after the claim chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-86-1",
+    "q-n2-g-86-2",
+    "q-n2-g-86-3",
+    "q-n2-g-86-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-86-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

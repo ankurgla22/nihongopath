@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-80",
+  "slug": "te-naranai",
+  "level": "n2",
+  "order": 80,
+  "title": "〜てならない",
+  "romaji": "te naranai",
+  "meaning": "cannot help feeling, extremely",
+  "simpleExplanation": "〜てならない means \"cannot help feeling…, extremely…\". It is used for feelings and thoughts that arise on their own: I can't help recalling my hometown; I can't shake the feeling he is lying; I'm terribly worried about my son's future.",
+  "whenUsed": "書き言葉寄り and slightly literary; in speech てしょうがない is more common. Forms: Vて (especially 気がして, 思えて, 思い出されて), Aい + くて, Aな + で (心配で・残念で). It suits spontaneous mental states more than physical sensations.",
+  "formation": [
+    "Vて + ならない / Aい stem + くて + ならない / Aな + で + ならない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "What follows てならない",
+    "items": [
+      {
+        "label": "気がしてならない",
+        "description": "Can't shake the feeling (thought)."
+      },
+      {
+        "label": "残念でならない",
+        "description": "Deeply regrettable (emotion)."
+      },
+      {
+        "label": "思い出されてならない",
+        "description": "Keeps coming to mind (spontaneous passive)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "故郷のことが思い出されてならない。",
+      "reading": "こきょうのことがおもいだされてならない。",
+      "en": "I can't help recalling my hometown.",
+      "note": "Spontaneous passive + ならない."
+    },
+    {
+      "ja": "彼が嘘をついているような気がしてならない。",
+      "reading": "かれがうそをついているようなきがしてならない。",
+      "en": "I can't shake the feeling that he is lying.",
+      "note": "気がして + ならない."
+    },
+    {
+      "ja": "息子の将来が心配でならない。",
+      "reading": "むすこのしょうらいがしんぱいでならない。",
+      "en": "I'm terribly worried about my son's future.",
+      "note": "Aな + で + ならない."
+    },
+    {
+      "ja": "あの時もっと勉強しておけばよかったと、悔やまれてならない。",
+      "reading": "あのときもっとべんきょうしておけばよかったと、くやまれてならない。",
+      "en": "I can't help regretting that I didn't study harder back then.",
+      "note": "悔やまれる: spontaneous regret."
+    },
+    {
+      "ja": "若くして亡くなった友人のことが、残念でならない。",
+      "reading": "わかくしてなくなったゆうじんのことが、ざんねんでならない。",
+      "en": "I feel deeply sorry about my friend who died young.",
+      "note": "残念で + ならない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てたまらない",
+      "difference": "Physical sensations and desires.",
+      "id": "n2-grammar-79"
+    },
+    {
+      "pattern": "〜てしょうがない",
+      "difference": "Casual, general.",
+      "id": "n2-grammar-78"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "Cannot stop oneself from an action.",
+      "id": "n2-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "のどが渇いてならない。",
+      "right": "のどが渇いてたまらない。",
+      "why": "Physical sensations take たまらない."
+    },
+    {
+      "wrong": "残念くてならない。",
+      "right": "残念でならない。",
+      "why": "残念 is a な-adjective: 残念で."
+    },
+    {
+      "wrong": "気がするてならない。",
+      "right": "気がしてならない。",
+      "why": "Use the て-form."
+    }
+  ],
+  "usageNotes": [
+    "Spontaneous verbs (思われる・思い出される・感じられる・悔やまれる) are typical.",
+    "Polite: 〜てなりません.",
+    "Frequently used in essays and letters to express deep feeling."
+  ],
+  "jlptTips": [
+    "気がして / 思えて / 残念で + blank → ならない.",
+    "Distractors: たまらない, しょうがない, いられない. For 気がする the standard answer is ならない.",
+    "Form questions test 残念で (not 残念くて)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-80-1",
+    "q-n2-g-80-2",
+    "q-n2-g-80-3",
+    "q-n2-g-80-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-80-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

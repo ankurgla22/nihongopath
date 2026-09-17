@@ -1,0 +1,123 @@
+{
+  "id": "n3-grammar-113",
+  "slug": "tari-tari-suru",
+  "level": "n3",
+  "order": 113,
+  "title": "〜たり〜たりする",
+  "romaji": "tari … tari suru",
+  "meaning": "do things like… and… / sometimes…, sometimes… (representative or alternating actions)",
+  "simpleExplanation": "〜たり〜たりする lists a few actions as examples, without claiming they are the only ones: 本を読んだり、音楽を聞いたりします \"I do things like reading and listening to music\". With opposite pairs it means alternation: 行ったり来たり \"back and forth\". The tense goes on the final する.",
+  "whenUsed": "Everyday speech and writing at all levels. A single 〜たりする softens a statement (走ったりしないでください \"please don't run or anything\"). Adjectives and nouns can be listed too: 暑かったり寒かったり.",
+  "formation": [
+    "Verb た-form + り + Verb た-form + り + する",
+    "い-adjective -かったり + -かったり + する",
+    "な-adjective / Noun + だったり + だったり + する",
+    "Single: 〜たりする (do things like…)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "本を読んだ",
+        "en": "た-form of 読む"
+      },
+      {
+        "ja": "本を読んだり",
+        "en": "add り → 'reading (among other things)'"
+      },
+      {
+        "ja": "本を読んだり、音楽を聞いたりする",
+        "en": "second item + final する carries the tense"
+      },
+      {
+        "ja": "本を読んだり、音楽を聞いたりした",
+        "en": "past: 'did things like reading and listening to music'"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "休みの日は本を読んだり、音楽を聞いたりします。",
+      "reading": "やすみのひはほんをよんだり、おんがくをきいたりします。",
+      "en": "On days off I do things like reading and listening to music.",
+      "note": "Representative actions; tense on します."
+    },
+    {
+      "ja": "最近は暑かったり寒かったりで、体調を崩しやすい。",
+      "reading": "さいきんはあつかったりさむかったりで、たいちょうをくずしやすい。",
+      "en": "Lately it's been hot one day and cold the next, so it's easy to get sick.",
+      "note": "Alternation with adjectives: 暑かったり寒かったり."
+    },
+    {
+      "ja": "教室で走ったりしないでください。",
+      "reading": "きょうしつではしったりしないでください。",
+      "en": "Please don't run and so on in the classroom.",
+      "note": "Single たりする softens a prohibition."
+    },
+    {
+      "ja": "週末は掃除をしたり、買い物に行ったりして過ごした。",
+      "reading": "しゅうまつはそうじをしたり、かいものにいったりしてすごした。",
+      "en": "I spent the weekend doing things like cleaning and shopping.",
+      "note": "〜たり〜たりして + another verb."
+    },
+    {
+      "ja": "彼は部屋の中を行ったり来たりしながら、電話で話していた。",
+      "reading": "かれはへやのなかをいったりきたりしながら、でんわではなしていた。",
+      "en": "He was talking on the phone while pacing back and forth in the room.",
+      "note": "Opposite pair = alternation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とか〜とか",
+      "difference": "Casual listing in plain form; no final する needed.",
+      "id": "n3-grammar-112"
+    },
+    {
+      "pattern": "〜て、〜て",
+      "difference": "Lists actions in sequence and implies completeness; たり gives examples only."
+    },
+    {
+      "pattern": "〜し、〜し",
+      "difference": "Lists reasons or supporting facts, not actions as examples."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "本を読んだり、音楽を聞きます。",
+      "right": "本を読んだり、音楽を聞いたりします。",
+      "why": "Each item takes たり, and the sentence ends with する."
+    },
+    {
+      "wrong": "本を読んだりする、音楽を聞いたりする。",
+      "right": "本を読んだり、音楽を聞いたりする。",
+      "why": "する comes only once, after the last item."
+    },
+    {
+      "wrong": "朝ご飯を食べたり、歯を磨いたりして出かけた。(as a fixed morning routine)",
+      "right": "朝ご飯を食べて、歯を磨いて出かけた。",
+      "why": "たり implies 'among other things'; for a fixed sequence use the て-form."
+    }
+  ],
+  "usageNotes": [
+    "Alternation pairs: 泣いたり笑ったり, 開けたり閉めたり, 上がったり下がったり.",
+    "〜たりして at the end of a casual sentence adds a joking 'maybe' (本当だったりして).",
+    "た-form rules apply: 読んだり, 行ったり, 話したり, したり, 来たり."
+  ],
+  "jlptTips": [
+    "If the choices show たり with the た-form and the sentence ends in する / して, that is the pattern.",
+    "Count the たり: usually two, but one is possible with 〜たりする.",
+    "Watch for the correct た-form spelling: 行ったり (not 行きたり), 飲んだり."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-113-1",
+    "q-n3-g-113-2",
+    "q-n3-g-113-3",
+    "q-n3-g-113-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-113-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

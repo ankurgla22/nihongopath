@@ -1,0 +1,140 @@
+{
+  "id": "n3-grammar-20",
+  "slug": "ni-yotte-ni-yoru-ni-yori",
+  "level": "n3",
+  "order": 20,
+  "title": "〜によって / 〜による / 〜により",
+  "romaji": "ni yotte ni yoru ni yori",
+  "meaning": "Depending on… / by means of… / due to… / by (agent)",
+  "simpleExplanation": "〜によって attaches to a noun and has four common meanings. (1) Depending on: 国によって習慣が違う. (2) By means of: 話し合いによって解決する. (3) Because of: 地震によって家が壊れた. (4) The doer of a passive verb: 聖徳太子によって建てられた. In all four, the noun before によって is the thing that decides, causes, or does the result.",
+  "whenUsed": "Formal speech and writing, news, academic text. により is the written form; による + noun modifies a noun (地震による被害). 〜によっては = \"in some cases\".",
+  "formation": [
+    "Noun + によって / により",
+    "Noun + による + Noun",
+    "Noun + によっては (in some cases)",
+    "Passive: Noun (agent) + によって + V-られる"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Four jobs of によって",
+    "columns": [
+      "Example",
+      "Test"
+    ],
+    "rows": [
+      {
+        "label": "depending on",
+        "cells": [
+          "国によって習慣が違う",
+          "違う / 変わる / 様々 follows"
+        ]
+      },
+      {
+        "label": "by means of",
+        "cells": [
+          "話し合いによって解決した",
+          "a method"
+        ]
+      },
+      {
+        "label": "because of",
+        "cells": [
+          "地震によって被害が出た",
+          "an event as cause"
+        ]
+      },
+      {
+        "label": "agent of passive",
+        "cells": [
+          "太子によって建てられた",
+          "verb is 〜られる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "国によって習慣が違う。",
+      "reading": "くにによってしゅうかんがちがう。",
+      "en": "Customs differ depending on the country.",
+      "note": "Depending on: the main clause has 違う."
+    },
+    {
+      "ja": "この寺は聖徳太子によって建てられた。",
+      "reading": "このてらはしょうとくたいしによってたてられた。",
+      "en": "This temple was built by Prince Shotoku.",
+      "note": "Passive agent: a famous person + によって + 建てられた."
+    },
+    {
+      "ja": "地震による被害が広がっている。",
+      "reading": "じしんによるひがいがひろがっている。",
+      "en": "Damage caused by the earthquake is spreading.",
+      "note": "による + noun: 地震による被害 = damage caused by the earthquake."
+    },
+    {
+      "ja": "この問題は、話し合いによって解決すべきだ。",
+      "reading": "このもんだいは、はなしあいによってかいけつすべきだ。",
+      "en": "This problem should be solved through discussion.",
+      "note": "By means of: 話し合い is the method."
+    },
+    {
+      "ja": "人によっては、この映画をつまらないと感じるかもしれない。",
+      "reading": "ひとによっては、このえいがをつまらないとかんじるかもしれない。",
+      "en": "Some people may find this movie boring.",
+      "note": "〜によっては = in some cases, some people."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によると",
+      "difference": "Different meaning: \"according to\" a source of information.",
+      "id": "n3-grammar-21"
+    },
+    {
+      "pattern": "〜ために (cause)",
+      "difference": "Also a formal cause, but attaches to clauses too. によって attaches only to nouns.",
+      "id": "n3-grammar-19"
+    },
+    {
+      "pattern": "〜に (passive agent)",
+      "difference": "Ordinary agent marker. によって is used for creations and formal statements: 〜によって建てられた / 書かれた."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この本はある作家に書かれた。",
+      "right": "この本はある作家によって書かれた。",
+      "why": "For creating something (書く, 作る, 建てる), the agent takes によって, not に."
+    },
+    {
+      "wrong": "天気予報によって、明日は雨だ。",
+      "right": "天気予報によると、明日は雨だ。",
+      "why": "A source of information needs によると, not によって."
+    },
+    {
+      "wrong": "人によって好みが違うによって…",
+      "right": "人によって好みが違うので…",
+      "why": "によって attaches only to nouns, not to clauses."
+    }
+  ],
+  "usageNotes": [
+    "〜によっては = \"in some cases\": 人によっては嫌がる. により is the formal/written variant. 〜によると (next) is a separate meaning (source of information).",
+    "Written Japanese prefers により and による; speech prefers によって."
+  ],
+  "jlptTips": [
+    "Decide the meaning from the main clause: 違う / 変わる = depending on; 〜られる = passive agent; damage or result = cause.",
+    "によると vs によって: information source vs cause/means. This pair is tested constantly.",
+    "による before a noun (地震による被害) is a frequent 文法形式 item; check whether a noun follows the blank."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-20-1",
+    "q-n3-g-20-2",
+    "q-n3-g-20-3",
+    "q-n3-g-20-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-20-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

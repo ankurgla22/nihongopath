@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-34",
+  "slug": "te-morau",
+  "level": "n4",
+  "order": 34,
+  "title": "〜てもらう \"have someone do (something) for me\"",
+  "romaji": "te morau",
+  "meaning": "The speaker receives a favour; the speaker (receiver) is the subject and the doer takes に.",
+  "simpleExplanation": "〜てもらう means \"I have someone do something for me\" or \"I get someone to do something\". The receiver of the favour (usually the speaker) is the subject, and the person who does the action takes に: 友達に手伝ってもらった = I had my friend help me. It describes the same event as 友達が手伝ってくれた but from the receiver's point of view. When the doer is a superior, use 〜ていただく.",
+  "whenUsed": "Reporting help you received (先生に直してもらった), explaining arrangements (兄に車を貸してもらった), and making requests: 〜てもらえませんか / 〜ていただけませんか (lesson 76). Common in speech and writing.",
+  "formation": [
+    "(私は) person に V-て + もらう: 友達に手伝ってもらう",
+    "Humble: 〜ていただく (先生に直していただいた)",
+    "Requests: 〜てもらえませんか / 〜ていただけませんか",
+    "The doer takes に; the receiver is the subject"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私は",
+        "role": "receiver of the favour (subject)"
+      },
+      {
+        "text": "友達に",
+        "role": "doer, marked with に"
+      },
+      {
+        "text": "宿題を",
+        "role": "object"
+      },
+      {
+        "text": "手伝って",
+        "role": "action (て-form)"
+      },
+      {
+        "text": "もらいました",
+        "role": "receiving the favour",
+        "highlight": true
+      }
+    ],
+    "translation": "I had my friend help me with my homework. Same event with くれる: 友達が宿題を手伝ってくれました."
+  },
+  "examples": [
+    {
+      "ja": "私は友達に宿題を手伝ってもらいました。",
+      "reading": "わたしは ともだちに しゅくだいを てつだってもらいました。",
+      "en": "I had my friend help me with my homework.",
+      "note": "Receiver 私は, doer 友達に: the speaker gets help."
+    },
+    {
+      "ja": "先生に作文を直していただきました。",
+      "reading": "せんせいに さくぶんを なおしていただきました。",
+      "en": "I had my teacher correct my essay.",
+      "note": "ていただく: humble because the doer is a teacher."
+    },
+    {
+      "ja": "兄に車を貸してもらった。",
+      "reading": "あにに くるまを かしてもらった。",
+      "en": "I got my older brother to lend me his car.",
+      "note": "Doer 兄に; the speaker received the favour of borrowing the car."
+    },
+    {
+      "ja": "パソコンが壊れたので、店の人に直してもらいました。",
+      "reading": "パソコンが こわれたので、みせの ひとに なおして もらいました。",
+      "en": "My computer broke, so I had the shop staff repair it.",
+      "note": "店の人に marks the doer; the speaker receives the service."
+    },
+    {
+      "ja": "分からない言葉を日本人の友達に教えてもらった。",
+      "reading": "わからない ことばを にほんじんの ともだちに おしえて もらった。",
+      "en": "I had a Japanese friend explain the words I didn't know.",
+      "note": "Same event as 友達が教えてくれた, but from the receiver's side."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てくれる",
+      "difference": "The doer is the subject with が (友達が教えてくれた). With てもらう the doer takes に and the receiver is the subject.",
+      "id": "n4-grammar-33"
+    },
+    {
+      "pattern": "〜ていただけませんか",
+      "difference": "The potential of ていただく used as a polite request. This lesson covers the plain statement form.",
+      "id": "n4-grammar-76"
+    },
+    {
+      "pattern": "Causative 〜させる",
+      "difference": "友達に手伝わせた (I made my friend help) is forcing; 手伝ってもらった is receiving a favour.",
+      "id": "n4-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友達が手伝ってもらった。",
+      "right": "友達に手伝ってもらった。/ 友達が手伝ってくれた。",
+      "why": "With てもらう the doer takes に. が belongs to てくれる."
+    },
+    {
+      "wrong": "先生に作文を直してもらいました。(in a formal speech)",
+      "right": "先生に作文を直していただきました。",
+      "why": "For a superior the humble ていただく is expected."
+    },
+    {
+      "wrong": "私は妹に本を読んでもらった。(meaning 'I read to my sister')",
+      "right": "私は妹に本を読んであげた。",
+      "why": "てもらう means the speaker received the reading. To do the favour for the sister, use てあげる."
+    }
+  ],
+  "usageNotes": [
+    "てもらう often sounds as if the speaker asked for the favour, while てくれる suggests the other person offered.",
+    "Requests are built on the potential: 〜てもらえますか / 〜てもらえませんか (can I get you to…?).",
+    "から can replace に when the favour is like receiving something: 先生から教えてもらった."
+  ],
+  "jlptTips": [
+    "Particle questions: X に + てもらう / X が + てくれる. Look at the particle after the doer before choosing the verb, or at the verb before choosing the particle.",
+    "In 並べ替え, the doer + に chunk comes before the て-form + もらう chunk, and the receiver (私は) comes first if present."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-34-1",
+    "q-n4-g-34-2",
+    "q-n4-g-34-3",
+    "q-n4-g-34-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-34-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

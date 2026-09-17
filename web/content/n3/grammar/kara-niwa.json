@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-44",
+  "slug": "kara-niwa",
+  "level": "n3",
+  "order": 44,
+  "title": "〜からには",
+  "romaji": "kara niwa",
+  "meaning": "Now that… / since… (then naturally)",
+  "simpleExplanation": "〜からには means \"given that X, then Y is only natural\": 引き受けたからには、責任を持ってやります = now that I've accepted, I'll do it responsibly. The second half shows determination, obligation, or strong advice. It is close to 以上 but sounds more personal and spoken.",
+  "whenUsed": "Speech, letters, motivational contexts. Main clause: つもりだ, 〜たい, べきだ, なければならない, 〜ましょう.",
+  "formation": [
+    "Verb (dictionary / た form) + からには",
+    "Noun + である + からには",
+    "Main clause: resolve, duty, or advice"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "以上 vs からには",
+    "columns": [
+      "Feel",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜以上(は)",
+        "cells": [
+          "formal, logical",
+          "学生である以上、勉強が第一だ"
+        ]
+      },
+      {
+        "label": "〜からには",
+        "cells": [
+          "personal, determined",
+          "やるからには、勝ちたい"
+        ]
+      },
+      {
+        "label": "〜のだから",
+        "cells": [
+          "plain reason with emphasis",
+          "約束したのだから、守って"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "引き受けたからには、責任を持ってやります。",
+      "reading": "ひきうけたからには、せきにんをもってやります。",
+      "en": "Now that I've accepted, I'll do it responsibly.",
+      "note": "Accepting a task leads to responsibility."
+    },
+    {
+      "ja": "日本に来たからには、日本語が上手になりたい。",
+      "reading": "にほんにきたからには、にほんごがじょうずになりたい。",
+      "en": "Since I've come to Japan, I want to become good at Japanese.",
+      "note": "Coming to Japan leads to a wish (上手になりたい)."
+    },
+    {
+      "ja": "試合に出るからには、勝ちたい。",
+      "reading": "しあいにでるからには、かちたい。",
+      "en": "If I'm going to compete, I want to win.",
+      "note": "Entering a match leads to wanting to win."
+    },
+    {
+      "ja": "日本語を勉強すると決めたからには、N1を目指したい。",
+      "reading": "にほんごをべんきょうするときめたからには、エヌいちをめざしたい。",
+      "en": "Now that I've decided to study Japanese, I want to aim for N1.",
+      "note": "Determination expressed with 〜たい."
+    },
+    {
+      "ja": "医者であるからには、患者の命を最優先に考えるべきだ。",
+      "reading": "いしゃであるからには、かんじゃのいのちをさいゆうせんにかんがえるべきだ。",
+      "en": "As a doctor, one should put the patient's life first.",
+      "note": "Noun + であるからには + べきだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜以上(は)",
+      "difference": "Nearly identical; 以上 is more formal and written.",
+      "id": "n3-grammar-42"
+    },
+    {
+      "pattern": "〜のだから",
+      "difference": "Plain emphatic reason; no built-in sense of resolve."
+    },
+    {
+      "pattern": "〜からこそ",
+      "difference": "\"Precisely because\": emphasizes the reason, not a decision that creates duty.",
+      "id": "n3-grammar-46"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "引き受けたからには、できないかもしれない。",
+      "right": "引き受けたからには、必ずやります。",
+      "why": "The main clause must be determination or duty, not doubt."
+    },
+    {
+      "wrong": "学生のからには",
+      "right": "学生であるからには",
+      "why": "Nouns take である before からには."
+    },
+    {
+      "wrong": "雨が降ったからには、傘を持って行った。",
+      "right": "雨が降ったから、傘を持って行った。",
+      "why": "A plain cause-and-effect uses から; からには is for commitments that follow from a decision."
+    }
+  ],
+  "usageNotes": [
+    "Interchangeable with 〜以上(は) in most cases; からには is slightly more emotional/spoken.",
+    "Casual speech sometimes drops に: やるからは (less standard)."
+  ],
+  "jlptTips": [
+    "A decision or commitment + blank + strong intention = からには / 以上.",
+    "Distractors: からこそ, からといって, からでないと. Only からには (and 以上) leads to determination.",
+    "If both 以上 and からには are offered, the sentence usually has another clue (formality); otherwise either is acceptable, so exams rarely offer both."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-44-1",
+    "q-n3-g-44-2",
+    "q-n3-g-44-3",
+    "q-n3-g-44-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-44-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

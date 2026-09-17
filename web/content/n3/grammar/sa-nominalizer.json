@@ -1,0 +1,130 @@
+{
+  "id": "n3-grammar-135",
+  "slug": "sa-nominalizer",
+  "level": "n3",
+  "order": 135,
+  "title": "〜さ (nominalizer)",
+  "romaji": "sa (nominalizer)",
+  "meaning": "-ness (turns an adjective into a noun expressing degree or amount)",
+  "simpleExplanation": "Adjective stem + さ makes a noun that names the degree of a quality: 高い → 高さ \"height\", 優しい → 優しさ \"kindness\", 便利 → 便利さ \"convenience\". It works with almost any adjective and is the objective, measurable version. (For the subjective, felt version see 〜み.)",
+  "whenUsed": "Measurements (長さ, 重さ, 速さ, 広さ), abstract qualities (大切さ, 難しさ, 新しさ), and phrases like 〜の高さに驚く. All registers.",
+  "formation": [
+    "い-adjective stem + さ (高い → 高さ, 寒い → 寒さ)",
+    "な-adjective stem + さ (便利 → 便利さ, 静か → 静かさ)",
+    "Irregular: いい / よい → よさ",
+    "〜さ + を / が / に + verb (大切さを知る, 高さに驚く)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "さ vs み",
+    "columns": [
+      "Type of quality",
+      "Range",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜さ",
+        "cells": [
+          "Objective degree, measurable",
+          "Almost any adjective",
+          "深さ (depth: 5 metres), 重さ, 優しさ"
+        ]
+      },
+      {
+        "label": "〜み",
+        "cells": [
+          "Subjective feel, sensation",
+          "Limited set",
+          "深み (a sense of depth), 甘み, 痛み"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この山の高さは三千メートル以上だ。",
+      "reading": "このやまのたかさはさんぜんメートルいじょうだ。",
+      "en": "The height of this mountain is over 3,000 metres.",
+      "note": "Measurable: height in metres."
+    },
+    {
+      "ja": "彼の優しさに感動した。",
+      "reading": "かれのやさしさにかんどうした。",
+      "en": "I was moved by his kindness.",
+      "note": "Abstract quality: kindness."
+    },
+    {
+      "ja": "大切さが分かった。",
+      "reading": "たいせつさがわかった。",
+      "en": "I came to understand the importance.",
+      "note": "Abstract quality: importance."
+    },
+    {
+      "ja": "この問題の難しさは、やってみないと分からない。",
+      "reading": "このもんだいのむずかしさは、やってみないとわからない。",
+      "en": "You won't understand how difficult this problem is until you try it.",
+      "note": "難しさ = difficulty (degree)."
+    },
+    {
+      "ja": "都会の便利さに慣れると、田舎の生活は不便に感じる。",
+      "reading": "とかいのべんりさになれると、いなかのせいかつはふべんにかんじる。",
+      "en": "Once you get used to the convenience of the city, country life feels inconvenient.",
+      "note": "な-adjective + さ: 便利さ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜み",
+      "difference": "Subjective, sensory nouns from a limited set of adjectives.",
+      "id": "n3-grammar-136"
+    },
+    {
+      "pattern": "〜性",
+      "difference": "Formal property nouns from Sino-Japanese roots (安全性).",
+      "id": "n3-grammar-105"
+    },
+    {
+      "pattern": "〜こと / 〜の",
+      "difference": "Nominalise whole clauses, not just adjectives (高いこと = the fact that it is expensive)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "高いさ",
+      "right": "高さ",
+      "why": "Drop the い before さ."
+    },
+    {
+      "wrong": "いさ (from いい)",
+      "right": "よさ",
+      "why": "いい uses its alternate form よい for derivations."
+    },
+    {
+      "wrong": "この料理の甘さがある。(meaning 'has a touch of sweetness')",
+      "right": "この料理には甘みがある。",
+      "why": "A felt, subtle quality uses み; 甘さ would be the measured sweetness level."
+    }
+  ],
+  "usageNotes": [
+    "〜さ can follow compound adjectives: 分かりやすさ, 使いにくさ.",
+    "Question pattern: どのくらいの高さ / 大きさ.",
+    "In 読解, 〜の大切さ / 〜の重要さ are common abstract nouns."
+  ],
+  "jlptTips": [
+    "A blank needing a noun from an adjective, especially with a number or degree → さ.",
+    "If the choices contain both さ and み, decide by measurability: metres/kilograms → さ; taste/pain/feeling → み.",
+    "Remember よさ for いい."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-135-1",
+    "q-n3-g-135-2",
+    "q-n3-g-135-3",
+    "q-n3-g-135-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-135-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

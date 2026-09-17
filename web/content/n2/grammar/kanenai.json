@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-25",
+  "slug": "kanenai",
+  "level": "n2",
+  "order": 25,
+  "title": "〜かねない",
+  "romaji": "-kanenai",
+  "meaning": "might well ..., could easily (something bad)",
+  "simpleExplanation": "〜かねない means \"might well…, could easily (do something bad)\". It warns that an undesirable outcome is quite possible: work like that and you could get sick; knowing him, he might even say that.",
+  "whenUsed": "Both registers, with a slightly formal feel in writing. Only for bad outcomes and always with the speaker's negative judgment. It attaches to the Vます stem (なりかねない, 起こしかねない, 言いかねない). The positive-looking 〜かねる is a separate pattern meaning \"cannot\".",
+  "formation": [
+    "Vます + かねない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "かねる vs かねない",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜かねる",
+        "cells": [
+          "cannot (politely)",
+          "お答えしかねます (I'm unable to answer)"
+        ]
+      },
+      {
+        "label": "〜かねない",
+        "cells": [
+          "might well (bad)",
+          "事故を起こしかねない (could cause an accident)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そんなに働いたら、病気になりかねない。",
+      "reading": "そんなにはたらいたら、びょうきになりかねない。",
+      "en": "If you work that hard, you could well get sick.",
+      "note": "A warning to the listener."
+    },
+    {
+      "ja": "彼なら、そんなことも言いかねない。",
+      "reading": "かれなら、そんなこともいいかねない。",
+      "en": "Knowing him, he might even say something like that.",
+      "note": "A judgment about a person's character."
+    },
+    {
+      "ja": "不注意な運転は事故を起こしかねない。",
+      "reading": "ふちゅういなうんてんはじこをおこしかねない。",
+      "en": "Careless driving can easily cause an accident.",
+      "note": "A general statement about risk."
+    },
+    {
+      "ja": "この不況が続けば、会社は倒産しかねない。",
+      "reading": "このふきょうがつづけば、かいしゃはとうさんしかねない。",
+      "en": "If this recession continues, the company could well go bankrupt.",
+      "note": "Conditional + かねない."
+    },
+    {
+      "ja": "そんな発言は誤解を招きかねませんよ。",
+      "reading": "そんなはつげんはごかいをまねきかねませんよ。",
+      "en": "A remark like that could easily invite misunderstanding.",
+      "note": "Polite form かねません."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜恐れがある",
+      "difference": "Objective, formal warning; かねない carries the speaker's personal worry.",
+      "id": "n2-grammar-13"
+    },
+    {
+      "pattern": "〜かねる",
+      "difference": "Looks positive but means \"cannot\". The two are direct opposites in form and meaning.",
+      "id": "n2-grammar-24"
+    },
+    {
+      "pattern": "〜かもしれない",
+      "difference": "Neutral possibility; good or bad."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "頑張れば合格しかねない。",
+      "right": "頑張れば合格するかもしれない。",
+      "why": "かねない is only for undesirable outcomes."
+    },
+    {
+      "wrong": "事故を起こすかねない。",
+      "right": "事故を起こしかねない。",
+      "why": "Attach to the Vます stem."
+    },
+    {
+      "wrong": "お答えしかねない。（intending \"I cannot answer\"）",
+      "right": "お答えしかねる。/ お答えしかねます。",
+      "why": "かねない means \"might well\"; \"cannot\" is かねる."
+    }
+  ],
+  "usageNotes": [
+    "Frequent verbs: なりかねない, 起こしかねない, 招きかねない, 言いかねない, やりかねない.",
+    "Often preceded by a conditional (〜ば・〜たら・〜と) or by 〜なら about a person.",
+    "Because it is a warning, the polite かねません is common in business advice."
+  ],
+  "jlptTips": [
+    "Bad outcome + speaker's worry + Vます stem → かねない.",
+    "The classic trap is かねる/かねない; test the meaning: \"might do (bad)\" vs \"cannot\".",
+    "Other distractors: 恐れがある (needs Vる), 得ない (\"cannot possibly\"), which is the opposite of かねない."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-25-1",
+    "q-n2-g-25-2",
+    "q-n2-g-25-3",
+    "q-n2-g-25-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-25-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

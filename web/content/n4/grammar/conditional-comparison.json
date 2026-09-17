@@ -1,0 +1,174 @@
+{
+  "id": "n4-grammar-13",
+  "slug": "conditional-comparison",
+  "level": "n4",
+  "order": 13,
+  "title": "Conditional comparison table (と / ば / たら / なら)",
+  "romaji": "to / ba / tara / nara hikaku",
+  "meaning": "Summary of when each conditional is used — a frequent N4 test focus.",
+  "simpleExplanation": "Japanese has four ways to say \"if / when\", and each one has a job. と = automatic result (press the button and water comes out). ば = the condition that is needed (if you practise, you improve). たら = the all-purpose \"if/when, after A is done\" (call me when you arrive). なら = \"if that's the case\" (if you're going, buy a ticket first). This lesson puts them side by side so you can pick the right one quickly.",
+  "whenUsed": "Whenever you connect a condition to a result. Ask three questions: Is the result automatic? (と). Is the second half a request, invitation or wish? (たら or なら, not と). Am I reacting to a topic or giving advice about a plan? (なら).",
+  "formation": [
+    "と: plain non-past + と (押すと, 雨だと)",
+    "ば: ば-form (押せば, 高ければ, 静かなら)",
+    "たら: た-form + ら (押したら, 高かったら, 雨だったら)",
+    "なら: plain form / noun + なら (押すなら, 雨なら)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The four conditionals",
+    "columns": [
+      "と",
+      "ば",
+      "たら",
+      "なら"
+    ],
+    "rows": [
+      {
+        "label": "Core meaning",
+        "cells": [
+          "automatic result",
+          "the needed condition",
+          "if/when, after A is done",
+          "if that's the case"
+        ]
+      },
+      {
+        "label": "Request / invitation after it",
+        "cells": [
+          "no",
+          "only if condition is a state",
+          "yes",
+          "yes"
+        ]
+      },
+      {
+        "label": "Past discovery (when I did A, I found B)",
+        "cells": [
+          "yes",
+          "no",
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "label": "Result can happen BEFORE the condition",
+        "cells": [
+          "no",
+          "no",
+          "no",
+          "yes"
+        ]
+      },
+      {
+        "label": "Habit / general truth",
+        "cells": [
+          "yes",
+          "yes",
+          "yes",
+          "no"
+        ]
+      },
+      {
+        "label": "Typical example",
+        "cells": [
+          "押すと出る",
+          "練習すれば上手になる",
+          "着いたら電話して",
+          "行くなら買っておけ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "春になると暖かくなる。",
+      "reading": "はるに なると あたたかく なる。",
+      "en": "When spring comes it gets warm. (natural result → と)",
+      "note": "Natural result: と."
+    },
+    {
+      "ja": "駅に着いたら電話して。",
+      "reading": "えきに ついたら でんわして。",
+      "en": "Call me when you get to the station. (request → たら)",
+      "note": "Request in main clause: たら."
+    },
+    {
+      "ja": "車を買うなら、中古がいい。",
+      "reading": "くるまを かうなら、ちゅうこが いい。",
+      "en": "If you're going to buy a car, used is better. (advice on topic → なら)",
+      "note": "Advice on a plan: なら."
+    },
+    {
+      "ja": "この橋を渡ると、駅が見えます。／駅に着いたら、連絡してください。",
+      "reading": "このはしを わたると、えきが みえます。／えきに ついたら、れんらくしてください。",
+      "en": "Cross this bridge and you'll see the station. / When you get to the station, please contact me.",
+      "note": "と for the automatic view; たら because a request follows."
+    },
+    {
+      "ja": "安ければ買います。／買うなら、今がチャンスですよ。",
+      "reading": "やすければ かいます。／かうなら、いまが チャンスですよ。",
+      "en": "If it's cheap, I'll buy it. / If you're going to buy, now is your chance.",
+      "note": "ば for the needed condition; なら to give advice about the plan of buying."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と",
+      "difference": "Full lesson on the automatic-result conditional.",
+      "id": "n4-grammar-9"
+    },
+    {
+      "pattern": "〜ば",
+      "difference": "Full lesson on the condition-focused conditional and its conjugation.",
+      "id": "n4-grammar-10"
+    },
+    {
+      "pattern": "〜たら",
+      "difference": "Full lesson on the general conditional.",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜なら",
+      "difference": "Full lesson on the topic/advice conditional.",
+      "id": "n4-grammar-12"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "時間があると、遊びに来てください。",
+      "right": "時間があったら／あれば、遊びに来てください。",
+      "why": "A request cannot follow と. たら is safest; ば is fine because ある is a state."
+    },
+    {
+      "wrong": "家に帰れば、母が料理を作っていた。",
+      "right": "家に帰ったら／帰ると、母が料理を作っていた。",
+      "why": "A past discovery needs たら or と; ば cannot describe a one-time past event."
+    },
+    {
+      "wrong": "日本に行ったら、日本語を勉強しておいたほうがいい。",
+      "right": "日本に行くなら、日本語を勉強しておいたほうがいい。",
+      "why": "The studying happens before the trip, so only なら works."
+    }
+  ],
+  "usageNotes": [
+    "たら is the safest choice in most everyday sentences; と is the safest for describing machines, nature and directions.",
+    "Only なら can take a past-tense condition to mean \"if it's true that A happened\": 行ったなら、感想を聞かせて.",
+    "In casual speech ば is often replaced by たら, but ば survives in set phrases (〜ばいい, 〜ばよかった, 〜ば〜ほど)."
+  ],
+  "jlptTips": [
+    "Work by elimination: (1) request/invitation after the blank → remove と; (2) result happens before the condition → must be なら; (3) past discovery → たら or と.",
+    "Two options are often both grammatical (たら and ば). Then look for the exam's usual cue: a request or a past discovery favours たら; a general rule favours ば."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-13-1",
+    "q-n4-g-13-2",
+    "q-n4-g-13-3",
+    "q-n4-g-13-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-13-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

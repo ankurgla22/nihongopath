@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-54",
+  "slug": "zu-ni",
+  "level": "n3",
+  "order": 54,
+  "title": "〜ずに",
+  "romaji": "zu ni",
+  "meaning": "Without doing…",
+  "simpleExplanation": "〜ずに is the formal, written version of 〜ないで: 朝ご飯を食べずに学校へ行った = I went to school without eating breakfast. It attaches to the ない-stem; the one irregular is する → せずに. It describes how an action was done (without X), not a reason.",
+  "whenUsed": "Written Japanese, formal speech, news, literature. In conversation ないで is more common. Set patterns: 〜ずにすむ (get by without), 〜ずにはいられない (N2).",
+  "formation": [
+    "Verb (ない stem) + ずに",
+    "する → せずに (not しずに)",
+    "来る → 来ずに (こずに)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "ない-stem",
+    "rootLabel": "verb without ない",
+    "branches": [
+      {
+        "suffix": "食べ + ずに",
+        "result": "食べずに",
+        "label": "without eating"
+      },
+      {
+        "suffix": "使わ + ずに",
+        "result": "使わずに",
+        "label": "without using"
+      },
+      {
+        "suffix": "せ + ずに",
+        "result": "せずに",
+        "label": "without doing (irregular)"
+      },
+      {
+        "suffix": "来 + ずに",
+        "result": "来ずに (こずに)",
+        "label": "without coming"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "朝ご飯を食べずに、学校へ行った。",
+      "reading": "あさごはんをたべずに、がっこうへいった。",
+      "en": "I went to school without eating breakfast.",
+      "note": "Manner: without eating."
+    },
+    {
+      "ja": "辞書を使わずに、この文章を読んでみよう。",
+      "reading": "じしょをつかわずに、このぶんしょうをよんでみよう。",
+      "en": "Let's try reading this text without using a dictionary.",
+      "note": "Without using a dictionary."
+    },
+    {
+      "ja": "何も言わずに、彼は部屋を出た。",
+      "reading": "なにもいわずに、かれはへやをでた。",
+      "en": "He left the room without saying anything.",
+      "note": "Without saying anything (literary feel)."
+    },
+    {
+      "ja": "彼は誰にも相談せずに、会社を辞めてしまった。",
+      "reading": "かれはだれにもそうだんせずに、かいしゃをやめてしまった。",
+      "en": "He quit the company without consulting anyone.",
+      "note": "する → せずに."
+    },
+    {
+      "ja": "今日は傘を持って出たので、濡れずにすんだ。",
+      "reading": "きょうはかさをもってでたので、ぬれずにすんだ。",
+      "en": "I took an umbrella today, so I managed not to get wet.",
+      "note": "〜ずにすむ = get by without."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないで",
+      "difference": "Same meaning in speech; ないで can also make requests (〜ないでください), which ずに cannot.",
+      "id": "n3-grammar-55"
+    },
+    {
+      "pattern": "〜なくて",
+      "difference": "\"Because not\": a reason, not a manner."
+    },
+    {
+      "pattern": "〜ず (without に)",
+      "difference": "Literary connective: 何も言わず、出て行った."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勉強しずに",
+      "right": "勉強せずに",
+      "why": "する becomes せずに."
+    },
+    {
+      "wrong": "心配せずにください。",
+      "right": "心配しないでください。",
+      "why": "Requests need ないで; ずに cannot take ください."
+    },
+    {
+      "wrong": "朝ご飯を食べずに、お腹が空いた。(intended: because)",
+      "right": "朝ご飯を食べなくて、お腹が空いた。",
+      "why": "ずに is manner (\"without\"); a reason uses なくて."
+    }
+  ],
+  "usageNotes": [
+    "Irregular: する → せずに (not しずに). ずに is more literary; in speech use ないで. Also 〜ずにすむ (get by without), 〜ずにはいられない (N2).",
+    "Writing style: ずに makes text sound more formal; mixing it with casual endings sounds odd."
+  ],
+  "jlptTips": [
+    "A formal sentence with \"without doing X\" = ずに. Check the stem: せずに for する verbs.",
+    "If the blank is followed by ください, the answer is ないで, not ずに.",
+    "なくて is a trap when the second clause is a result caused by not doing something."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-54-1",
+    "q-n3-g-54-2",
+    "q-n3-g-54-3",
+    "q-n3-g-54-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-54-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

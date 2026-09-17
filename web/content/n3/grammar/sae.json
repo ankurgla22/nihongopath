@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-50",
+  "slug": "sae",
+  "level": "n3",
+  "order": 50,
+  "title": "〜さえ",
+  "romaji": "sae",
+  "meaning": "Even… (extreme example)",
+  "simpleExplanation": "〜さえ picks the least likely case to make a point: 子供でさえ知っている = even a child knows it (so of course adults do). 名前さえ書けない = can't even write his own name (so certainly nothing harder). The sentence is often negative or surprising.",
+  "whenUsed": "Speech and writing, arguments and complaints. Replaces は / が / を; keeps other particles (にさえ, とさえ, でさえ).",
+  "formation": [
+    "Noun + さえ (replaces は / が / を)",
+    "Noun + でさえ (extreme example subject)",
+    "Noun + にさえ / とさえ",
+    "Verb (ます stem) + さえ + する / しない; Verb (て) + さえ + いない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Ways to say \"even\"",
+    "items": [
+      {
+        "label": "〜も",
+        "description": "also / even (mild): 子供も知っている"
+      },
+      {
+        "label": "〜まで",
+        "description": "even (extending the range): 子供まで知っている"
+      },
+      {
+        "label": "〜さえ",
+        "description": "even (the least likely case): 子供でさえ知っている"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供でさえ知っていることだ。",
+      "reading": "こどもでさえしっていることだ。",
+      "en": "Even a child knows that.",
+      "note": "でさえ: even a child (subject)."
+    },
+    {
+      "ja": "忙しくて、昼ご飯を食べる時間さえなかった。",
+      "reading": "いそがしくて、ひるごはんをたべるじかんさえなかった。",
+      "en": "I was so busy I didn't even have time to eat lunch.",
+      "note": "時間さえなかった: didn't even have time (object)."
+    },
+    {
+      "ja": "彼は自分の名前さえ書けない。",
+      "reading": "かれはじぶんのなまえさえかけない。",
+      "en": "He can't even write his own name.",
+      "note": "名前さえ書けない: an extreme example of inability."
+    },
+    {
+      "ja": "忙しすぎて、家族と話す時間さえない。",
+      "reading": "いそがしすぎて、かぞくとはなすじかんさえない。",
+      "en": "I'm so busy I don't even have time to talk with my family.",
+      "note": "The least likely thing to lack: time for family."
+    },
+    {
+      "ja": "彼は私の顔を見さえしなかった。",
+      "reading": "かれはわたしのかおをみさえしなかった。",
+      "en": "He didn't even look at my face.",
+      "note": "V-ます stem + さえ + しなかった."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜さえ〜ば",
+      "difference": "A different pattern: \"if only / as long as\" (a sufficient condition).",
+      "id": "n3-grammar-51"
+    },
+    {
+      "pattern": "〜まで",
+      "difference": "\"Even\" extending a range; less extreme than さえ."
+    },
+    {
+      "pattern": "〜すら (N1)",
+      "difference": "Literary equivalent of さえ."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供がさえ知っている。",
+      "right": "子供でさえ知っている。/ 子供さえ知っている。",
+      "why": "さえ replaces が; the subject form is でさえ or bare さえ."
+    },
+    {
+      "wrong": "彼は日本語さえ上手だ。(intended: even Japanese, among many skills)",
+      "right": "彼は日本語まで上手だ。",
+      "why": "さえ is for the least likely case, usually in a negative or surprising context; adding a skill uses まで."
+    },
+    {
+      "wrong": "食べるさえしなかった。",
+      "right": "食べさえしなかった。",
+      "why": "Verbs attach with the ます stem: 食べ + さえ."
+    }
+  ],
+  "usageNotes": [
+    "Similar to 〜まで and 〜も; さえ stresses \"the least likely case\". Replaces は/が/を; keeps other particles (にさえ、とさえ).",
+    "さえ often pairs with a negative (〜ない) or a surprising positive."
+  ],
+  "jlptTips": [
+    "A negative sentence with an extreme example noun before the blank = さえ.",
+    "Check the particle: subject → でさえ, object → さえ (を dropped), other particles stay (にさえ).",
+    "Do not confuse with さえ〜ば (conditional); look for a ば-form later in the sentence."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-50-1",
+    "q-n3-g-50-2",
+    "q-n3-g-50-3",
+    "q-n3-g-50-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-50-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-37",
+  "slug": "tochuu-de-tochuu-ni",
+  "level": "n3",
+  "order": 37,
+  "title": "〜途中で / 〜途中に",
+  "romaji": "tochuu de tochuu ni",
+  "meaning": "On the way to… / partway through…",
+  "simpleExplanation": "〜途中で means \"partway\" along a route or process: 学校へ行く途中で財布を落とした = I dropped my wallet on the way to school. 話の途中で = partway through the conversation. 途中に is used when something exists or is located along the way: 帰る途中にコンビニがある.",
+  "whenUsed": "Everyday speech and writing. Common with movement verbs (行く, 帰る, 来る) and with process nouns (話, 仕事, 試合).",
+  "formation": [
+    "Verb (dictionary form) + 途中で / 途中に",
+    "Noun + の + 途中で / 途中に",
+    "Sentence-final: 〜途中だ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "途中で vs 途中に",
+    "columns": [
+      "Use",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜途中で",
+        "cells": [
+          "an event happens partway",
+          "帰る途中で雨に降られた"
+        ]
+      },
+      {
+        "label": "〜途中に",
+        "cells": [
+          "something exists / a stop on the way",
+          "帰る途中に本屋がある"
+        ]
+      },
+      {
+        "label": "〜最中に",
+        "cells": [
+          "the peak of an activity",
+          "会議の最中に電話が鳴った"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "学校へ行く途中で、財布を落とした。",
+      "reading": "がっこうへいくとちゅうで、さいふをおとした。",
+      "en": "I dropped my wallet on the way to school.",
+      "note": "On the way (movement verb + 途中で) + an event."
+    },
+    {
+      "ja": "話の途中で、彼は出て行ってしまった。",
+      "reading": "はなしのとちゅうで、かれはでていってしまった。",
+      "en": "Partway through the conversation, he walked out.",
+      "note": "Partway through a process noun (話)."
+    },
+    {
+      "ja": "帰る途中に、コンビニに寄った。",
+      "reading": "かえるとちゅうに、コンビニによった。",
+      "en": "On the way home, I stopped at a convenience store.",
+      "note": "途中に + a stop along the way."
+    },
+    {
+      "ja": "マラソンの途中で足が痛くなって、走れなくなった。",
+      "reading": "マラソンのとちゅうであしがいたくなって、はしれなくなった。",
+      "en": "Partway through the marathon my leg started hurting and I couldn't run anymore.",
+      "note": "A process cut short."
+    },
+    {
+      "ja": "会社へ来る途中に、きれいな公園があります。",
+      "reading": "かいしゃへくるとちゅうに、きれいなこうえんがあります。",
+      "en": "On the way to the office, there is a beautiful park.",
+      "note": "途中に + existence (あります)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜最中に",
+      "difference": "The peak of an activity, usually interrupted. 途中 is about being midway along a route or process.",
+      "id": "n3-grammar-36"
+    },
+    {
+      "pattern": "〜途中だ",
+      "difference": "Sentence-final: 今、帰る途中だ (I'm on my way home)."
+    },
+    {
+      "pattern": "〜かけの / 〜かけだ (N2)",
+      "difference": "\"Half-done\": 読みかけの本."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "学校へ行った途中で",
+      "right": "学校へ行く途中で",
+      "why": "Dictionary form before 途中 (the trip was not yet complete)."
+    },
+    {
+      "wrong": "帰る途中で本屋がある。",
+      "right": "帰る途中に本屋がある。",
+      "why": "Existence along the way uses 途中に."
+    },
+    {
+      "wrong": "食事の途中で電話が鳴った。(intended: right in the middle of eating)",
+      "right": "食事の最中に電話が鳴った。",
+      "why": "Both are possible, but 最中に stresses the peak of the activity; 途中で just says \"before it finished\"."
+    }
+  ],
+  "usageNotes": [
+    "途中で marks where an event happens; 途中に is more location-like (something exists on the way). Differs from 最中に: 途中 = midway on a path/process, 最中 = at the peak of an activity.",
+    "途中で is often used with やめる: 途中でやめる = quit halfway."
+  ],
+  "jlptTips": [
+    "A movement verb (行く, 帰る) + blank + an event = 途中で. If the main clause is ある / いる, choose 途中に.",
+    "Verb form: dictionary form before 途中; a past form is a wrong option.",
+    "途中でやめる / 途中で帰る appear in 文法形式 as fixed collocations."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-37-1",
+    "q-n3-g-37-2",
+    "q-n3-g-37-3",
+    "q-n3-g-37-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-37-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

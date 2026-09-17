@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-20",
+  "slug": "ta-bakari",
+  "level": "n4",
+  "order": 20,
+  "title": "〜たばかり \"just did\"",
+  "romaji": "ta bakari",
+  "meaning": "An action was completed recently, as the speaker perceives it.",
+  "simpleExplanation": "〜たばかり means \"just did\" or \"only just did\". It says an action finished recently from the speaker's point of view. That \"recently\" can be a minute ago (さっき食べたばかり) or a month ago (先月買ったばかり) as long as the speaker feels it was recent. Before a noun it becomes 〜たばかりの: 買ったばかりの車 = a car I just bought.",
+  "whenUsed": "Explaining why you are not ready or not experienced yet (日本に来たばかりで、まだ分かりません), refusing food because you just ate (食べたばかりだから), and complaining that something new already broke (買ったばかりなのに). Used at every politeness level.",
+  "formation": [
+    "V-た + ばかりだ: 食べたばかりだ, 来たばかりです",
+    "V-た + ばかりの + Noun: 買ったばかりの車, 生まれたばかりの赤ちゃん",
+    "V-た + ばかりで: 'having only just…, so…' (来たばかりで分からない)",
+    "V-た + ばかりなのに: 'even though I just…' (買ったばかりなのに壊れた)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "たばかり vs たところ",
+    "columns": [
+      "Time frame",
+      "Time words",
+      "Before a noun",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜たばかり",
+        "cells": [
+          "recent in the speaker's feeling (minutes to months)",
+          "さっき, 先週, 先月, 去年",
+          "〜たばかりの N: OK",
+          "先月買ったばかりの車"
+        ]
+      },
+      {
+        "label": "〜たところ",
+        "cells": [
+          "the exact moment just after",
+          "たった今, ちょうど, 今",
+          "rarely used before a noun",
+          "たった今着いたところです"
+        ]
+      },
+      {
+        "label": "Both OK",
+        "cells": [
+          "a moment ago",
+          "さっき / 今",
+          "-",
+          "今食べたばかり / 今食べたところ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "さっき昼ご飯を食べたばかりです。",
+      "reading": "さっき ひるごはんを たべたばかりです。",
+      "en": "I just had lunch a moment ago.",
+      "note": "さっき + たばかり: a moment ago."
+    },
+    {
+      "ja": "日本に来たばかりで、まだ何も分かりません。",
+      "reading": "にほんに きたばかりで、まだ なにも わかりません。",
+      "en": "I've only just come to Japan and don't understand anything yet.",
+      "note": "たばかりで: 'having only just come, so…' gives the reason for not knowing."
+    },
+    {
+      "ja": "先月買ったばかりの車が壊れた。",
+      "reading": "せんげつ かったばかりの くるまが こわれた。",
+      "en": "The car I bought just last month broke.",
+      "note": "たばかりの + noun: 'the car I bought just last month'; a month can still be 'just' in feeling."
+    },
+    {
+      "ja": "この会社に入ったばかりなので、まだ仕事に慣れていません。",
+      "reading": "この かいしゃに はいったばかりなので、まだ しごとに なれていません。",
+      "en": "I've only just joined this company, so I'm not used to the work yet.",
+      "note": "たばかり + なので gives the reason for inexperience; まだ often follows."
+    },
+    {
+      "ja": "生まれたばかりの赤ちゃんは、一日中寝ています。",
+      "reading": "うまれたばかりの あかちゃんは、いちにちじゅう ねています。",
+      "en": "Newborn babies sleep all day long.",
+      "note": "たばかりの modifies a noun: \"a baby that has just been born\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たところ",
+      "difference": "たところ is the exact moment just after; it needs たった今 / ちょうど. たばかり can stretch to weeks or months if the speaker feels it is recent.",
+      "id": "n4-grammar-19"
+    },
+    {
+      "pattern": "〜ばかり (only / nothing but)",
+      "difference": "Noun + ばかり or て-form + ばかり means \"nothing but\" (遊んでばかりいる). Only the た-form + ばかり means \"just did\".",
+      "id": "n4-grammar-61"
+    },
+    {
+      "pattern": "もう / まだ",
+      "difference": "たばかり often pairs with まだ (not yet): 来たばかりでまだ分からない."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今、食べるばかりです。",
+      "right": "今、食べたばかりです。",
+      "why": "\"Just did\" requires the た-form before ばかり. Dictionary form + ばかり is not this pattern."
+    },
+    {
+      "wrong": "十年前に卒業したばかりです。",
+      "right": "十年前に卒業しました。",
+      "why": "Ten years is too long to feel recent, so たばかり sounds odd. Use it only when the speaker feels the event is fresh."
+    },
+    {
+      "wrong": "買ったばかり車が壊れた。",
+      "right": "買ったばかりの車が壊れた。",
+      "why": "Before a noun you need の: 〜たばかりの N."
+    }
+  ],
+  "usageNotes": [
+    "たばかり is about feeling, so 去年結婚したばかり is fine if the speaker thinks of it as recent.",
+    "Common frames: 〜たばかりで (reason), 〜たばかりなのに (complaint), 〜たばかりの N (description).",
+    "In casual speech the copula can drop: 「今来たばかり。」"
+  ],
+  "jlptTips": [
+    "Check the form before ばかり: た-form = \"just did\"; て-form + ばかりいる = \"do nothing but\". The exam mixes these.",
+    "For 並べ替え, the chunk ばかり (or ばかりの / ばかりで) follows a た-form verb directly, and ばかりの must be followed by a noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-20-1",
+    "q-n4-g-20-2",
+    "q-n4-g-20-3",
+    "q-n4-g-20-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-20-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

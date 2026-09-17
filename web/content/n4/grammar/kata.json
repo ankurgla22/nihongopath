@@ -1,0 +1,124 @@
+{
+  "id": "n4-grammar-58",
+  "slug": "kata",
+  "level": "n4",
+  "order": 58,
+  "title": "〜方 (かた) \"how to / way of doing\"",
+  "romaji": "-kata",
+  "meaning": "Turns a verb into \"the way / method of doing\".",
+  "simpleExplanation": "V-ます stem + 方 (かた) means \"the way of doing / how to do\": 読む → 読み方 (how to read), 使う → 使い方 (how to use), 作る → 作り方 (how to make). The result is a noun, so the object of the verb takes の instead of を: 漢字の読み方 (how to read the kanji), not 漢字を読み方. For する-verbs use Nの仕方: 勉強の仕方 (how to study).",
+  "whenUsed": "Asking for instructions (〜方を教えてください), describing someone's manner (話し方, 歩き方), recipes and manuals (作り方, 使い方). Used in all registers. It is the everyday way to say \"how to\" as a noun.",
+  "formation": [
+    "V-ます stem + 方: 読み方, 書き方, 使い方, 作り方",
+    "Object takes の: 漢字の書き方, パソコンの使い方",
+    "する-verbs: Nの仕方 (勉強の仕方, 料理の仕方)",
+    "Pronounced かた, never ほう"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "漢字を読む",
+        "en": "read kanji (verb phrase)"
+      },
+      {
+        "ja": "読み方",
+        "en": "ます-stem + 方: way of reading (a noun)"
+      },
+      {
+        "ja": "漢字の読み方",
+        "en": "the object now takes の: how to read the kanji"
+      },
+      {
+        "ja": "漢字の読み方を教えてください",
+        "en": "the noun is used as an object: please tell me how to read the kanji"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この漢字の読み方を教えてください。",
+      "reading": "この かんじの よみかたを おしえてください。",
+      "en": "Please tell me how to read this kanji.",
+      "note": "Object 漢字 + の + 読み方."
+    },
+    {
+      "ja": "駅への行き方が分かりません。",
+      "reading": "えきへの いきかたが わかりません。",
+      "en": "I don't know how to get to the station.",
+      "note": "Destination with への: 駅への行き方."
+    },
+    {
+      "ja": "彼の話し方はとても丁寧だ。",
+      "reading": "かれの はなしかたは とても ていねいだ。",
+      "en": "His way of speaking is very polite.",
+      "note": "Manner: his way of speaking."
+    },
+    {
+      "ja": "この機械の使い方が分からないので、教えてください。",
+      "reading": "このきかいの つかいかたが わからないので、おしえてください。",
+      "en": "I don't know how to use this machine, so please show me.",
+      "note": "使う → 使い方; 機械 takes の."
+    },
+    {
+      "ja": "母にカレーの作り方を習った。",
+      "reading": "ははに カレーの つくりかたを ならった。",
+      "en": "I learned how to make curry from my mother.",
+      "note": "作る → 作り方; the recipe noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Embedded question どう〜か",
+      "difference": "どう読むか is a question chunk (\"how to read it\"); 読み方 is a plain noun (\"the reading / the way of reading\").",
+      "id": "n4-grammar-54"
+    },
+    {
+      "pattern": "〜やすい / 〜にくい",
+      "difference": "Also attach to the ます-stem, but describe ease (読みやすい), not method.",
+      "id": "n4-grammar-84"
+    },
+    {
+      "pattern": "〜ほうがいい",
+      "difference": "方 read ほう means \"side / alternative\" (行ったほうがいい). Read かた it means \"way of doing\".",
+      "id": "n4-grammar-65"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "漢字を書き方を教えてください。",
+      "right": "漢字の書き方を教えてください。",
+      "why": "書き方 is a noun, so its object takes の, not を."
+    },
+    {
+      "wrong": "この漢字の読むかた",
+      "right": "この漢字の読み方",
+      "why": "方 attaches to the ます-stem (読み), not the dictionary form."
+    },
+    {
+      "wrong": "勉強し方",
+      "right": "勉強の仕方",
+      "why": "する-verbs use Nの仕方."
+    }
+  ],
+  "usageNotes": [
+    "Very common nouns: 使い方 (usage), 作り方 (recipe), 行き方 (directions), 考え方 (way of thinking), 生き方 (way of life).",
+    "For a destination, use への: 駅への行き方.",
+    "方 as かた also means \"person\" in polite speech (あの方 = that person); context tells you which."
+  ],
+  "jlptTips": [
+    "The blank before 方 must be the ます-stem: 読み方, not 読む方 or 読んで方.",
+    "Particle questions: N + blank + 使い方 → の. Options with を are the classic trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-58-1",
+    "q-n4-g-58-2",
+    "q-n4-g-58-3",
+    "q-n4-g-58-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-58-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

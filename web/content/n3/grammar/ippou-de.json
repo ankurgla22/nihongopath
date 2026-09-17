@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-72",
+  "slug": "ippou-de",
+  "level": "n3",
+  "order": 72,
+  "title": "〜一方(で) / 〜いっぽう(で)",
+  "romaji": "ippou (de)",
+  "meaning": "on one hand… / while… (two contrasting or parallel sides)",
+  "simpleExplanation": "〜一方(で) links two facts that stand side by side: \"A is true, and at the same time B is true\". Often A and B pull in different directions (sociable vs shy), but they can also just be two parallel things one person does (works by day, studies at night).",
+  "whenUsed": "Common in essays, news and formal speech when describing two sides of a situation, a person or a trend. It can also start a new sentence: 一方、〜 (\"meanwhile / on the other hand\"). Less common in casual chat, where people say 〜けど or 〜が.",
+  "formation": [
+    "Verb (plain form) + 一方(で)",
+    "い-adjective + 一方(で)",
+    "な-adjective + な / である + 一方(で)",
+    "Noun + である + 一方(で)",
+    "Sentence-initial: 一方、〜"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "兄は社交的な",
+        "role": "side A"
+      },
+      {
+        "text": "一方で",
+        "role": "connector",
+        "highlight": true
+      },
+      {
+        "text": "弟は内気だ",
+        "role": "side B (contrast)"
+      }
+    ],
+    "translation": "While my older brother is sociable, my younger brother is shy."
+  },
+  "examples": [
+    {
+      "ja": "兄は社交的な一方で、弟は内気だ。",
+      "reading": "あにはしゃこうてきないっぽうで、おとうとはうちきだ。",
+      "en": "While my older brother is sociable, my younger brother is shy.",
+      "note": "な-adjective + な + 一方で. Two different subjects are contrasted."
+    },
+    {
+      "ja": "彼は会社で働く一方、夜は大学で勉強している。",
+      "reading": "かれはかいしゃではたらくいっぽう、よるはだいがくでべんきょうしている。",
+      "en": "He works at a company, while at night he studies at university.",
+      "note": "Same subject, two parallel activities. で can be dropped."
+    },
+    {
+      "ja": "都市の人口が増える一方で、地方は減っている。",
+      "reading": "としのじんこうがふえるいっぽうで、ちほうはへっている。",
+      "en": "While urban populations grow, rural ones are shrinking.",
+      "note": "A trend and its opposite side by side."
+    },
+    {
+      "ja": "この薬はよく効く一方で、副作用も強い。",
+      "reading": "このくすりはよくきくいっぽうで、ふくさようもつよい。",
+      "en": "This medicine works well, but on the other hand its side effects are strong.",
+      "note": "Plus and minus of the same thing."
+    },
+    {
+      "ja": "輸出は好調だ。一方、国内の売り上げは伸びていない。",
+      "reading": "ゆしゅつはこうちょうだ。いっぽう、こくないのうりあげはのびていない。",
+      "en": "Exports are strong. Meanwhile, domestic sales are not growing.",
+      "note": "Sentence-initial 一方、 introduces the other side."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜反面",
+      "difference": "Also 'on the other hand', but the two sides must belong to the same thing and be clearly plus/minus. 一方で is broader and can contrast different subjects.",
+      "id": "n3-grammar-73"
+    },
+    {
+      "pattern": "〜一方だ",
+      "difference": "Completely different meaning: 'keeps on …ing' (one-directional change). Attaches only to verbs of change.",
+      "id": "n3-grammar-98"
+    },
+    {
+      "pattern": "〜に対して",
+      "difference": "'In contrast to' — sharper contrast between two subjects, often with numbers or facts.",
+      "id": "n3-grammar-22"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "都市の人口は増える一方で。",
+      "right": "都市の人口は増える一方だ。",
+      "why": "If you mean 'keeps on increasing' you need 一方だ. 一方で must be followed by a second clause."
+    },
+    {
+      "wrong": "彼は社交的一方で、弟は内気だ。",
+      "right": "彼は社交的な一方で、弟は内気だ。",
+      "why": "な-adjectives need な (or である) before 一方."
+    },
+    {
+      "wrong": "私は学生の一方で、働いている。",
+      "right": "私は学生である一方で、働いている。",
+      "why": "Nouns take である, not の, before 一方で."
+    }
+  ],
+  "usageNotes": [
+    "一方で often appears in analytical writing: 〜が増える一方で、〜は減っている.",
+    "The two clauses do not have to be opposites; they can simply be two things happening in parallel.",
+    "Sentence-initial 一方、 is followed by a comma and starts a fresh contrast, much like 'Meanwhile'."
+  ],
+  "jlptTips": [
+    "If the blank is followed by a full second clause with a different subject or a contrasting fact, 一方で fits; if the sentence ends right after the blank, it is 一方だ.",
+    "反面 vs 一方で: check whether both halves describe the same thing (反面) or different things (一方で).",
+    "In 並べ替え, 一方で normally comes right after な / である / a plain verb, never after a noun alone."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-72-1",
+    "q-n3-g-72-2",
+    "q-n3-g-72-3",
+    "q-n3-g-72-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-72-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

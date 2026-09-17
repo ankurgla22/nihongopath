@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-25",
+  "slug": "ni-kanshite-ni-kansuru",
+  "level": "n3",
+  "order": 25,
+  "title": "〜に関して / 〜に関する",
+  "romaji": "ni kanshite ni kansuru",
+  "meaning": "Regarding… / related to…",
+  "simpleExplanation": "〜に関して is the formal version of について: この問題に関して、ご意見をお聞かせください = regarding this issue, please let us hear your opinion. Before a noun use に関する: 日本文化に関する本 = books related to Japanese culture. The meaning is slightly wider than について: \"connected with\".",
+  "whenUsed": "Business, academic writing, official notices, news. In casual conversation about is more natural.",
+  "formation": [
+    "Noun + に関して",
+    "Noun + に関する + Noun",
+    "Noun + に関しては (as for…)",
+    "Written: Noun + に関し"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "について vs に関して",
+    "columns": [
+      "Register",
+      "Before a noun"
+    ],
+    "rows": [
+      {
+        "label": "〜について",
+        "cells": [
+          "everyday",
+          "〜についての"
+        ]
+      },
+      {
+        "label": "〜に関して",
+        "cells": [
+          "formal / written",
+          "〜に関する"
+        ]
+      },
+      {
+        "label": "〜のこと",
+        "cells": [
+          "casual",
+          "—"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この問題に関して、ご意見をお聞かせください。",
+      "reading": "このもんだいにかんして、ごいけんをおきかせください。",
+      "en": "Please let us hear your opinion regarding this issue.",
+      "note": "Formal request for opinions."
+    },
+    {
+      "ja": "日本文化に関する本を探している。",
+      "reading": "にほんぶんかにかんするほんをさがしている。",
+      "en": "I am looking for books related to Japanese culture.",
+      "note": "に関する + noun: books related to a subject."
+    },
+    {
+      "ja": "料金に関しては、こちらの表をご覧ください。",
+      "reading": "りょうきんにかんしては、こちらのひょうをごらんください。",
+      "en": "As for fees, please see this table.",
+      "note": "に関しては: raising a topic in a notice."
+    },
+    {
+      "ja": "個人情報の取り扱いに関して、社内で研修を行った。",
+      "reading": "こじんじょうほうのとりあつかいにかんして、しゃないでけんしゅうをおこなった。",
+      "en": "We held in-house training regarding the handling of personal information.",
+      "note": "Business context; について would also work but sounds less formal."
+    },
+    {
+      "ja": "環境に関する法律は、年々厳しくなっている。",
+      "reading": "かんきょうにかんするほうりつは、ねんねんきびしくなっている。",
+      "en": "Laws related to the environment are getting stricter every year.",
+      "note": "に関する + noun in a written statement."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜について",
+      "difference": "Same meaning, everyday register. Interchangeable in most sentences.",
+      "id": "n3-grammar-23"
+    },
+    {
+      "pattern": "〜に対して",
+      "difference": "Target of an attitude, not a topic.",
+      "id": "n3-grammar-22"
+    },
+    {
+      "pattern": "〜にかかわる",
+      "difference": "\"Involving / affecting\": stronger connection (命にかかわる問題)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本文化に関して本",
+      "right": "日本文化に関する本",
+      "why": "Before a noun the form is に関する."
+    },
+    {
+      "wrong": "ねえ、昨日のドラマに関してどう思う？(casual)",
+      "right": "ねえ、昨日のドラマについてどう思う？",
+      "why": "に関して is too stiff for casual chat."
+    },
+    {
+      "wrong": "先生に関して感謝しています。",
+      "right": "先生に感謝しています。",
+      "why": "A person who receives gratitude takes に; に関して is for topics."
+    }
+  ],
+  "usageNotes": [
+    "More formal and slightly broader (\"connected with\") than 〜について. Used in business and academic writing.",
+    "Set phrases: 〜に関する情報 / 資料 / 調査 / 規則."
+  ],
+  "jlptTips": [
+    "Formal context (business email, notice, academic) + a topic = に関して. Before a noun = に関する.",
+    "について and に関して are rarely both offered as options; the real distractors are に対して and にとって.",
+    "In 並べ替え, に関する must be followed immediately by a noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-25-1",
+    "q-n3-g-25-2",
+    "q-n3-g-25-3",
+    "q-n3-g-25-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-25-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

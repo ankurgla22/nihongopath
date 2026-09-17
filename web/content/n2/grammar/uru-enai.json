@@ -1,0 +1,127 @@
+{
+  "id": "n2-grammar-11",
+  "slug": "uru-enai",
+  "level": "n2",
+  "order": 11,
+  "title": "〜得る / 〜得ない",
+  "romaji": "uru / eru / enai",
+  "meaning": "can / could possibly ...; cannot possibly ...",
+  "simpleExplanation": "〜得る (うる/える) means \"can possibly happen, is conceivable\", and 〜得ない means \"cannot possibly happen\". It talks about whether something is possible in the world, not whether a person has the skill to do it. あり得る (\"it can happen\") and あり得ない (\"impossible\") are the most common forms.",
+  "whenUsed": "書き言葉 and formal speech: reports, academic writing, news. In conversation あり得ない is very common as an exclamation (\"no way!\"). The dictionary form is read うる or える, but the negative is only えない and the past is only えた; the ます form is えます.",
+  "formation": [
+    "Vます + 得る(うる/える) / 得ない(えない)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "あり",
+    "rootLabel": "Vます stem + 得る",
+    "branches": [
+      {
+        "suffix": "得る",
+        "result": "あり得る（ありうる／ありえる）",
+        "label": "can possibly happen"
+      },
+      {
+        "suffix": "得ない",
+        "result": "あり得ない（ありえない）",
+        "label": "cannot possibly happen"
+      },
+      {
+        "suffix": "得た",
+        "result": "あり得た（ありえた）",
+        "label": "could have happened"
+      },
+      {
+        "suffix": "得ます",
+        "result": "あり得ます（ありえます）",
+        "label": "polite"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "それは十分あり得ることだ。",
+      "reading": "それはじゅうぶんありうることだ。",
+      "en": "That is entirely possible.",
+      "note": "あり得る modifying a noun: \"a conceivable thing\"."
+    },
+    {
+      "ja": "こんな事故は誰にも予測し得なかった。",
+      "reading": "こんなじこはだれにもよそくしえなかった。",
+      "en": "Nobody could have predicted such an accident.",
+      "note": "予測し得なかった: nobody could have predicted (possibility, not skill)."
+    },
+    {
+      "ja": "考え得る限りの手段を尽くした。",
+      "reading": "かんがえうるかぎりのしゅだんをつくした。",
+      "en": "We tried every means conceivable.",
+      "note": "考え得る限りの = every conceivable."
+    },
+    {
+      "ja": "そんなミスは誰にでも起こり得る。",
+      "reading": "そんなミスはだれにでもおこりうる。",
+      "en": "A mistake like that can happen to anyone.",
+      "note": "起こり得る: a possible event."
+    },
+    {
+      "ja": "彼が私を裏切るなんて、あり得ない。",
+      "reading": "かれがわたしをうらぎるなんて、ありえない。",
+      "en": "Him betraying me? Impossible.",
+      "note": "Colloquial あり得ない as a strong denial."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことができる",
+      "difference": "Ability of a person: 泳ぐことができる. 得る is about whether an event is possible, so 泳ぎ得る is wrong for \"can swim\"."
+    },
+    {
+      "pattern": "〜かねない",
+      "difference": "Also \"could possibly\", but only for bad outcomes and with the speaker's worry.",
+      "id": "n2-grammar-25"
+    },
+    {
+      "pattern": "〜わけがない",
+      "difference": "\"There is no way\", an emotional denial; あり得ない is more objective (\"logically impossible\").",
+      "id": "n2-grammar-162"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は英語を話し得る。",
+      "right": "私は英語を話すことができる。/ 話せる。",
+      "why": "得る expresses possibility of an event, not a person's ability."
+    },
+    {
+      "wrong": "そんなことはあり得るない。",
+      "right": "そんなことはあり得ない。",
+      "why": "The negative is 得ない (えない); there is no form あり得るない."
+    },
+    {
+      "wrong": "事故は起こりうない。",
+      "right": "事故は起こり得ない（おこりえない）。",
+      "why": "The negative is always read えない, never うない."
+    }
+  ],
+  "usageNotes": [
+    "Formal collocations: あり得る, 起こり得る, 考え得る, 予測し得る, 成し得る, 耐え得る.",
+    "Modern usage mixes readings: ありうる (traditional) and ありえる (newer) are both heard; ありえない is now the only negative.",
+    "In casual speech あり得ない is used like \"unbelievable\", even for things that actually happened."
+  ],
+  "jlptTips": [
+    "A blank after a Vます stem with an objective possibility (事故・ミス・変化 as subject) points to 得る/得ない.",
+    "Distractors: かねない, わけがない, ことができる. If the subject is a person doing an action they are able to do, it is ことができる, not 得る.",
+    "In reading questions, 得る written in kanji must be read うる/える from context; あり得ない is always ありえない."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-11-1",
+    "q-n2-g-11-2",
+    "q-n2-g-11-3",
+    "q-n2-g-11-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-11-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

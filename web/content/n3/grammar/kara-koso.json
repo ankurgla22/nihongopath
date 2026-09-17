@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-46",
+  "slug": "kara-koso",
+  "level": "n3",
+  "order": 46,
+  "title": "〜からこそ",
+  "romaji": "kara koso",
+  "meaning": "Precisely because… / it is exactly because…",
+  "simpleExplanation": "〜からこそ shines a spotlight on the reason: 君のことを思っているからこそ、厳しく言うんだ = it's precisely because I care about you that I'm strict. The reason is often one the listener would not expect. The sentence frequently ends with のだ / んだ.",
+  "whenUsed": "Speech and writing, explanations of surprising reasons, persuasive essays. Sentence-initial だからこそ = \"that is exactly why\".",
+  "formation": [
+    "Plain form + からこそ",
+    "Noun / な-adjective + だ + からこそ",
+    "Main clause often ends with 〜のだ / 〜んだ",
+    "Sentence-initial: だからこそ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "から / からこそ / からといって",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜から",
+        "cells": [
+          "because (neutral)",
+          "好きだから、言う"
+        ]
+      },
+      {
+        "label": "〜からこそ",
+        "cells": [
+          "precisely because",
+          "好きだからこそ、言うんだ"
+        ]
+      },
+      {
+        "label": "〜からといって",
+        "cells": [
+          "just because (doesn't mean)",
+          "好きだからといって、いつも会えるわけではない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "君のことを思っているからこそ、厳しく言うんだ。",
+      "reading": "きみのことをおもっているからこそ、きびしくいうんだ。",
+      "en": "It's precisely because I care about you that I'm strict.",
+      "note": "An unexpected reason for strictness, ending in んだ."
+    },
+    {
+      "ja": "苦労したからこそ、成功の喜びが大きい。",
+      "reading": "くろうしたからこそ、せいこうのよろこびがおおきい。",
+      "en": "Precisely because I struggled, the joy of success is greater.",
+      "note": "Hardship as the exact reason for greater joy."
+    },
+    {
+      "ja": "親だからこそ、心配するのだ。",
+      "reading": "おやだからこそ、しんぱいするのだ。",
+      "en": "It is exactly because I'm a parent that I worry.",
+      "note": "Noun + だからこそ + のだ."
+    },
+    {
+      "ja": "失敗したからこそ、次はうまくいくと思う。",
+      "reading": "しっぱいしたからこそ、つぎはうまくいくとおもう。",
+      "en": "Precisely because I failed, I think it'll go well next time.",
+      "note": "Turning a negative into a positive reason."
+    },
+    {
+      "ja": "大変な仕事だ。だからこそ、やりがいがあるんだ。",
+      "reading": "たいへんなしごとだ。だからこそ、やりがいがあるんだ。",
+      "en": "It's a hard job. That's exactly why it's rewarding.",
+      "note": "Sentence-initial だからこそ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜こそ",
+      "difference": "Emphasis on a noun: 今度こそ. からこそ emphasizes a reason clause.",
+      "id": "n3-grammar-52"
+    },
+    {
+      "pattern": "〜からといって",
+      "difference": "The opposite: the reason is not enough.",
+      "id": "n3-grammar-45"
+    },
+    {
+      "pattern": "〜せいで",
+      "difference": "Blame for a bad result. からこそ is not used for blame.",
+      "id": "n3-grammar-17"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "寝坊したからこそ、遅刻した。",
+      "right": "寝坊したせいで、遅刻した。",
+      "why": "A negative result with blame uses せいで; からこそ emphasizes a reason positively."
+    },
+    {
+      "wrong": "親からこそ、心配するのだ。",
+      "right": "親だからこそ、心配するのだ。",
+      "why": "Nouns need だ before からこそ."
+    },
+    {
+      "wrong": "からこそ、成功した。(sentence-initial)",
+      "right": "だからこそ、成功した。",
+      "why": "At the start of a sentence, use だからこそ."
+    }
+  ],
+  "usageNotes": [
+    "Often used for reasons that seem paradoxical or unexpected. Not used for negative-blame contexts (use 〜せいで).",
+    "からこそ often follows a paradox: 苦しいからこそ楽しい, 忙しいからこそ休む."
+  ],
+  "jlptTips": [
+    "An unexpected reason + main clause ending in のだ / んだ = からこそ.",
+    "If the main clause is negative or critical, the answer is からといって; if it is a plain fact, から.",
+    "だからこそ at the start of a sentence in reading passages signals the author's key reason."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-46-1",
+    "q-n3-g-46-2",
+    "q-n3-g-46-3",
+    "q-n3-g-46-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-46-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

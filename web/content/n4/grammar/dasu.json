@@ -1,0 +1,137 @@
+{
+  "id": "n4-grammar-82",
+  "slug": "dasu",
+  "level": "n4",
+  "order": 82,
+  "title": "〜出す \"suddenly start / …out\"",
+  "romaji": "-dasu",
+  "meaning": "(1) Sudden onset of an action (泣き出す, 笑い出す, 降り出す); (2) literal \"out\" (取り出す, 引き出す, 思い出す).",
+  "simpleExplanation": "V-ます stem + 出す has two jobs. (1) Sudden start: 泣き出す (burst into tears), 笑い出す (burst out laughing), 降り出す (suddenly start to rain). The start is unexpected and not planned, so it often goes with 急に or 突然. (2) Literal \"out\": 取り出す (take out), 引き出す (pull out), 思い出す (recall, bring out of memory). In the \"start\" meaning it competes with 〜始める, which is neutral and can be planned.",
+  "whenUsed": "Narrating surprises and sudden events (子供が泣き出した, 犬が走り出した), weather changes (雨が降り出した), and physical \"out\" actions (財布を取り出す). 思い出す (remember) is one of the most common verbs in Japanese.",
+  "formation": [
+    "V-ます stem + 出す (sudden start): 泣く → 泣き出す, 笑う → 笑い出す, 降る → 降り出す, 走る → 走り出す",
+    "V-ます stem + 出す (out): 取る → 取り出す, 引く → 引き出す, 思う → 思い出す, 飛ぶ → 飛び出す",
+    "Conjugates as Group 1: 出します / 出した / 出して",
+    "Often with 急に / 突然 / いきなり in the \"start\" sense"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "始める vs 出す",
+    "columns": [
+      "Type of start",
+      "Adverbs it pairs with",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜始める",
+        "cells": [
+          "neutral; can be planned",
+          "〜から, 今日から, そろそろ",
+          "来週から通い始める"
+        ]
+      },
+      {
+        "label": "〜出す (start)",
+        "cells": [
+          "sudden, unexpected",
+          "急に, 突然, いきなり",
+          "急に泣き出した"
+        ]
+      },
+      {
+        "label": "〜出す (out)",
+        "cells": [
+          "literal movement out",
+          "〜から",
+          "かばんから本を取り出す"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "急に雨が降り出した。",
+      "reading": "きゅうに あめが ふりだした。",
+      "en": "It suddenly started raining.",
+      "note": "急に + 降り出す: a sudden, unplanned start."
+    },
+    {
+      "ja": "子供が突然泣き出した。",
+      "reading": "こどもが とつぜん なきだした。",
+      "en": "The child suddenly burst into tears.",
+      "note": "突然 + 泣き出す: burst into tears."
+    },
+    {
+      "ja": "かばんから本を取り出した。",
+      "reading": "かばんから ほんを とりだした。",
+      "en": "I took a book out of my bag.",
+      "note": "Literal \"out\": 取り出す = take out (of the bag)."
+    },
+    {
+      "ja": "話の途中で、彼女は急に笑い出した。",
+      "reading": "はなしの とちゅうで、かのじょは きゅうに わらいだした。",
+      "en": "In the middle of the story she suddenly burst out laughing.",
+      "note": "笑う → 笑い出す; the suddenness is the point."
+    },
+    {
+      "ja": "昔の写真を見て、子供のころのことを思い出した。",
+      "reading": "むかしの しゃしんを みて、こどもの ころのことを おもいだした。",
+      "en": "Looking at old photos, I remembered my childhood.",
+      "note": "思い出す (recall) is the \"out\" meaning: bringing a memory out."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜始める",
+      "difference": "Neutral start that can be scheduled. 出す cannot be used for planned starts (×来週から勉強し出す).",
+      "id": "n4-grammar-79"
+    },
+    {
+      "pattern": "〜てくる",
+      "difference": "降ってきた describes rain beginning and reaching the speaker; 降り出した stresses the sudden onset.",
+      "id": "n4-grammar-24"
+    },
+    {
+      "pattern": "〜出る (intransitive)",
+      "difference": "飛び出る (stick out) vs 飛び出す (rush out / suddenly start). 出す is the transitive/active partner."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "来月から日本語を勉強し出します。",
+      "right": "来月から日本語を勉強し始めます。",
+      "why": "A planned start is not sudden. Use 始める."
+    },
+    {
+      "wrong": "赤ちゃんが泣く出した。",
+      "right": "赤ちゃんが泣き出した。",
+      "why": "出す attaches to the ます-stem."
+    },
+    {
+      "wrong": "かばんから本を取り始めた。(meaning \"took a book out\")",
+      "right": "かばんから本を取り出した。",
+      "why": "The physical \"out\" meaning belongs to 出す, not 始める."
+    }
+  ],
+  "usageNotes": [
+    "泣き出す, 笑い出す, 怒り出す, 走り出す, 降り出す, 吹き出す are the most common \"sudden start\" verbs; learn them as units.",
+    "Many 出す compounds are ordinary vocabulary: 思い出す (recall), 取り出す (take out), 見つけ出す (find out), 作り出す (create), 言い出す (bring up a topic).",
+    "〜出す in the \"start\" sense usually describes a change that surprises the observer; the speaker's own planned actions rarely take it."
+  ],
+  "jlptTips": [
+    "急に / 突然 / いきなり before the blank → 〜出す. A time-from expression (〜から) → 〜始める.",
+    "For 思い出す, distractors like 思い始める and 思い続ける appear; \"remember\" is always 思い出す."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-82-1",
+    "q-n4-g-82-2",
+    "q-n4-g-82-3",
+    "q-n4-g-82-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-82-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

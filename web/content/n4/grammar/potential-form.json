@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-1",
+  "slug": "potential-form",
+  "level": "n4",
+  "order": 1,
+  "title": "Potential form (〜られる / 〜える) \"can do\"",
+  "romaji": "kanou-kei (rareru / eru)",
+  "meaning": "Expresses ability (\"can\", \"be able to\") or possibility.",
+  "simpleExplanation": "The potential form turns a verb into \"can do\". 読む (read) becomes 読める (can read), 食べる (eat) becomes 食べられる (can eat). Think of it as building \"can\" into the verb itself instead of adding a separate word. Once you have made the potential form, it behaves like an ordinary Group 2 verb, so 読める → 読めます / 読めない / 読めた.",
+  "whenUsed": "Used everywhere, at every politeness level, for ability (漢字が読める = I can read kanji), for possibility (ここで買える = you can buy it here) and for permission-like situations on signs (ここでは泳げません = you cannot swim here). It is the everyday alternative to 〜ことができる, which sounds more formal.",
+  "formation": [
+    "Group 1: change the last う-row sound to the え-row and add る: 書く→書ける, 読む→読める, 話す→話せる, 待つ→待てる",
+    "Group 2: drop る and add られる: 食べる→食べられる, 見る→見られる",
+    "Group 3: する→できる, 来る→来られる",
+    "The result is a Group 2 verb: 読めます / 読めない / 読めた / 読めて",
+    "The object normally takes が (漢字が読める), though を is also heard"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "u-row → e-row + る",
+        "result": "書ける",
+        "label": "Group 1: can write"
+      },
+      {
+        "suffix": "-る → -られる",
+        "result": "食べられる",
+        "label": "Group 2: can eat"
+      },
+      {
+        "suffix": "する → できる",
+        "result": "できる",
+        "label": "Group 3: can do"
+      },
+      {
+        "suffix": "来る → 来られる",
+        "result": "来られる (こられる)",
+        "label": "Group 3: can come"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は漢字が読めます。",
+      "reading": "わたしは かんじが よめます。",
+      "en": "I can read kanji.",
+      "note": "The object 漢字 takes が, the most natural particle with a potential verb."
+    },
+    {
+      "ja": "明日、来られますか。",
+      "reading": "あした、こられますか。",
+      "en": "Can you come tomorrow?",
+      "note": "来る has the irregular potential 来られる (こられる); the polite form is 来られます."
+    },
+    {
+      "ja": "ここでは泳げません。",
+      "reading": "ここでは およげません。",
+      "en": "You cannot swim here.",
+      "note": "Potential + negative is the standard way to say what is not possible or not allowed."
+    },
+    {
+      "ja": "この店では日本のお菓子が買えます。",
+      "reading": "このみせでは にほんの おかしが かえます。",
+      "en": "You can buy Japanese sweets at this shop.",
+      "note": "Potential form for possibility rather than personal skill: buying is possible here."
+    },
+    {
+      "ja": "昨日は疲れていて、何も食べられませんでした。",
+      "reading": "きのうは つかれていて、なにも たべられませんでした。",
+      "en": "I was tired yesterday and could not eat anything.",
+      "note": "食べられる is the full Group 2 form; the JLPT does not accept 食べれる."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことができる",
+      "difference": "Same meaning, but longer and more formal. It is common in writing, announcements and rules (写真を撮ることができません).",
+      "id": "n4-grammar-98"
+    },
+    {
+      "pattern": "Passive form 〜られる",
+      "difference": "For Group 2 verbs the passive and the potential look identical (食べられる). Look at the particles: potential usually has が on the object, passive has a person with に.",
+      "id": "n4-grammar-4"
+    },
+    {
+      "pattern": "〜ようになる",
+      "difference": "Potential + ようになる (話せるようになった) means you gained the ability over time. The plain potential just states that you can.",
+      "id": "n4-grammar-14"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は日本語を分かれます。",
+      "right": "私は日本語が分かります。",
+      "why": "分かる already means \"can understand\", so it is never put into the potential form. The same is true of できる."
+    },
+    {
+      "wrong": "毎日、漢字を読めるように練習しています。→ 漢字を読めれます",
+      "right": "漢字が読めます",
+      "why": "Group 1 potential is one step: 読む → 読める. Do not add another れる on top of a potential verb."
+    },
+    {
+      "wrong": "食べれる、見れる (in the exam)",
+      "right": "食べられる、見られる",
+      "why": "Dropping ら (ら抜き言葉) is very common in speech, but the JLPT treats the full られる form as correct."
+    }
+  ],
+  "usageNotes": [
+    "Both 漢字が読める and 漢字を読める are heard; が is the textbook standard and the safer choice in the exam.",
+    "The potential form is used for possibility as well as ability: 駅から歩いて行けます (you can walk from the station).",
+    "見える and 聞こえる are separate verbs meaning \"is visible / is audible\" without effort; 見られる and 聞ける mean you are able to watch or listen (テレビが見られる = I can watch TV)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断 the options often mix potential, passive and causative endings of the same verb (書ける / 書かれる / 書かせる). Check who is doing what: if the sentence is about ability, choose the え-row + る form.",
+    "Watch for 来られる (こられる) and できる: questions like 明日（　）ますか test whether you know the irregular potentials of 来る and する."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-1-1",
+    "q-n4-g-1-2",
+    "q-n4-g-1-3",
+    "q-n4-g-1-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-1-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

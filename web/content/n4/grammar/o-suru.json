@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-72",
+  "slug": "o-suru",
+  "level": "n4",
+  "order": 72,
+  "title": "お〜する / ご〜する (humble form)",
+  "romaji": "o- V-masu suru / go- N suru",
+  "meaning": "Generic humble pattern: the speaker's action that affects or is directed at a superior.",
+  "simpleExplanation": "お〜する is the general humble pattern. It lowers your own action when that action involves or benefits the other person: 荷物をお持ちします (I'll carry your luggage), 後でご連絡します (we'll contact you later). Take the ます-stem, add お in front and する after; for kango する-verbs use ご + stem + する. Replacing する with いたす makes it even more humble: お送りいたします.",
+  "whenUsed": "Customer service, business calls and emails, and any situation where you offer to do something for a superior. Because the action must be directed at the other person, it is not used for private actions like going home or eating (×お帰りします). Verbs with special humble forms (見る → 拝見する, 言う → 申す) use those instead.",
+  "formation": [
+    "お + V-ます stem + する: 持つ → お持ちする, 送る → お送りする, 待つ → お待たせする (causative stem)",
+    "ご + する-verb stem (kango) + する: 連絡する → ご連絡する, 案内する → ご案内する",
+    "More humble: お〜いたす / ご〜いたす: お送りいたします",
+    "Only for actions that affect the listener; not for 帰る, 食べる, 寝る about yourself",
+    "Fixed phrases: お待たせしました, お願いします, お伝えします"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "持つ",
+        "en": "carry (plain)"
+      },
+      {
+        "ja": "持ち",
+        "en": "ます-stem"
+      },
+      {
+        "ja": "お持ち",
+        "en": "add the prefix お"
+      },
+      {
+        "ja": "お持ちする",
+        "en": "add する: humble \"I'll carry (for you)\""
+      },
+      {
+        "ja": "お持ちします / お持ちいたします",
+        "en": "polite / extra-humble ます-forms"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "荷物をお持ちします。",
+      "reading": "にもつを おもちします。",
+      "en": "I'll carry your luggage.",
+      "note": "持つ → お持ちする: carrying the listener's luggage, an action for them."
+    },
+    {
+      "ja": "後でこちらからご連絡します。",
+      "reading": "あとで こちらから ごれんらくします。",
+      "en": "We will contact you later.",
+      "note": "Kango: ご + 連絡 + する. The contact is directed at the listener."
+    },
+    {
+      "ja": "駅までお送りいたします。",
+      "reading": "えきまで おおくり いたします。",
+      "en": "I will see you to the station.",
+      "note": "いたす instead of する for extra humility: お送りいたします."
+    },
+    {
+      "ja": "会議の資料は、明日までにお送りします。",
+      "reading": "かいぎの しりょうは、あしたまでに おおくりします。",
+      "en": "I will send you the meeting materials by tomorrow.",
+      "note": "送る → お送りする. The sending benefits the listener."
+    },
+    {
+      "ja": "お待たせしました。こちらへどうぞ。",
+      "reading": "おまたせしました。こちらへ どうぞ。",
+      "en": "Sorry to have kept you waiting. This way, please.",
+      "note": "A set phrase: 待たせる → お待たせする, the humble form of the causative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "お〜になる",
+      "difference": "The respectful twin: same prefix but になる, and it describes the other person's action, not yours.",
+      "id": "n4-grammar-70"
+    },
+    {
+      "pattern": "Special humble verbs",
+      "difference": "拝見する, いただく, 申す, 伺う replace お〜する for see, receive, say and visit.",
+      "id": "n4-grammar-69"
+    },
+    {
+      "pattern": "〜させていただく",
+      "difference": "Also humble, but frames the action as receiving permission. お〜する simply offers or reports your service.",
+      "id": "n4-grammar-73"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私はもうお帰りします。",
+      "right": "私はもう失礼します。/ 帰ります。",
+      "why": "帰る is a private action that does not involve the listener, so お〜する is wrong. お帰りになる (respectful) exists, but not the humble version."
+    },
+    {
+      "wrong": "資料をお見しました。",
+      "right": "資料を拝見しました。",
+      "why": "見る has a special humble verb, 拝見する, and its one-syllable stem cannot take お〜する anyway."
+    },
+    {
+      "wrong": "先生が荷物をお持ちします。",
+      "right": "先生が荷物をお持ちになります。",
+      "why": "お〜する lowers the subject. With 先生 as subject you need the respectful お〜になる."
+    }
+  ],
+  "usageNotes": [
+    "The listener is normally the beneficiary: お手伝いします (I'll help you), ご説明します (I'll explain to you), お知らせします (I'll let you know).",
+    "いたす is the humble する, so ご連絡いたします is more humble than ご連絡します. Both are standard in business.",
+    "With いただく the pattern becomes a very polite request: お名前をお聞きしてもよろしいですか / ご説明させていただきます (lesson 73)."
+  ],
+  "jlptTips": [
+    "The subject is 私 / 私ども and the action is for a customer or superior → お〜する. If the subject is the superior, the same-looking option お〜になる is the answer instead.",
+    "Distractors put お on the dictionary form (×お持つする) or use the humble form for a private action (×お帰りします). Check both the stem and the beneficiary."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-72-1",
+    "q-n4-g-72-2",
+    "q-n4-g-72-3",
+    "q-n4-g-72-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-72-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

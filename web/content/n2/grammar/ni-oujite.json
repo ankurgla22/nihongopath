@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-100",
+  "slug": "ni-oujite",
+  "level": "n2",
+  "order": 100,
+  "title": "〜に応じて",
+  "romaji": "ni oujite",
+  "meaning": "according to, in response to, depending on",
+  "simpleExplanation": "〜に応じて means \"according to, in response to, depending on\". Something is adjusted to fit the noun: tax is set according to income; we change the menu in response to customer requests. 〜に応じた + noun means \"suited to\".",
+  "whenUsed": "書き言葉寄り, business and official contexts. It follows nouns (収入・要望・状況・必要・レベル). The main clause describes something that varies or is adjusted (決まる・変える・対応する・用意する). Compare 〜によって (varies by) and 〜に沿って (following a guideline).",
+  "formation": [
+    "N + に応じて / に応じた + N"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "客の要望",
+        "role": "the factor responded to (N)"
+      },
+      {
+        "text": "に応じて",
+        "role": "in response to / according to",
+        "highlight": true
+      },
+      {
+        "text": "メニューを変える",
+        "role": "adjustment made to fit"
+      }
+    ],
+    "translation": "We change the menu in response to customer requests."
+  },
+  "examples": [
+    {
+      "ja": "収入に応じて、税金が決まる。",
+      "reading": "しゅうにゅうにおうじて、ぜいきんがきまる。",
+      "en": "Tax is determined according to income.",
+      "note": "Adjusted according to income."
+    },
+    {
+      "ja": "客の要望に応じて、メニューを変える。",
+      "reading": "きゃくのようぼうにおうじて、メニューをかえる。",
+      "en": "We change the menu in response to customer requests.",
+      "note": "In response to requests."
+    },
+    {
+      "ja": "レベルに応じたクラスを用意しています。",
+      "reading": "レベルにおうじたクラスをよういしています。",
+      "en": "We offer classes suited to each level.",
+      "note": "に応じた + noun."
+    },
+    {
+      "ja": "状況に応じて、柔軟に対応してください。",
+      "reading": "じょうきょうにおうじて、じゅうなんにたいおうしてください。",
+      "en": "Please respond flexibly according to the situation.",
+      "note": "Business instruction."
+    },
+    {
+      "ja": "予算に応じたプランをいくつかご用意しております。",
+      "reading": "よさんにおうじたプランをいくつかごよういしております。",
+      "en": "We have several plans to suit your budget.",
+      "note": "に応じた + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によって",
+      "difference": "\"Varies by\": describes variation, not deliberate adjustment.",
+      "id": "n2-grammar-144"
+    },
+    {
+      "pattern": "〜に沿って",
+      "difference": "\"Along / following\" a guideline or wish (方針に沿って)."
+    },
+    {
+      "pattern": "〜次第で",
+      "difference": "\"Depending on\": the factor decides the outcome.",
+      "id": "n2-grammar-55"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "人に応じて、考え方が違う。",
+      "right": "人によって、考え方が違う。",
+      "why": "Natural variation is によって; に応じて implies adjustment."
+    },
+    {
+      "wrong": "レベルに応じてクラス",
+      "right": "レベルに応じたクラス",
+      "why": "Before a noun use に応じた."
+    },
+    {
+      "wrong": "要望に応じって",
+      "right": "要望に応じて",
+      "why": "The form is 応じて (おうじて), no small っ."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 収入, 能力, 必要, 要望, 状況, 年齢, 目的, 予算.",
+    "Polite service language: ご要望に応じて, ご予算に応じた.",
+    "に応じ (without て) appears in written notices."
+  ],
+  "jlptTips": [
+    "A factor noun + blank + a verb of adjusting (変える・決める・用意する) → に応じて.",
+    "Distractors: によって, に沿って, につれて. Variation without deliberate adjustment → によって; gradual change → につれて.",
+    "Before a noun, に応じた is required; に応じて + noun is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-100-1",
+    "q-n2-g-100-2",
+    "q-n2-g-100-3",
+    "q-n2-g-100-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-100-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-36",
+  "slug": "saichuu-ni",
+  "level": "n3",
+  "order": 36,
+  "title": "〜最中に / 〜最中だ",
+  "romaji": "saichuu ni",
+  "meaning": "Right in the middle of…",
+  "simpleExplanation": "〜最中に points to the very middle of an activity, usually when something interrupts it: 食事の最中に電話がかかってきた = right in the middle of the meal, the phone rang. It is stronger than 〜ているときに because it stresses that the activity was at its peak.",
+  "whenUsed": "Speech and writing. Sentence-final 〜最中だ = \"I'm right in the middle of it\". Not used for long states like living or knowing.",
+  "formation": [
+    "Verb (ている form) + 最中に",
+    "Noun (activity) + の + 最中に",
+    "Sentence-final: 〜最中だ / 最中です"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "最中に / 途中で / うちに",
+    "columns": [
+      "Focus",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜最中に",
+        "cells": [
+          "the peak of an activity, interrupted",
+          "会議の最中に地震が起きた"
+        ]
+      },
+      {
+        "label": "〜途中で",
+        "cells": [
+          "partway along a path or process",
+          "帰る途中でコンビニに寄った"
+        ]
+      },
+      {
+        "label": "〜うちに",
+        "cells": [
+          "a window of opportunity",
+          "明るいうちに帰る"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "食事の最中に、電話がかかってきた。",
+      "reading": "しょくじのさいちゅうに、でんわがかかってきた。",
+      "en": "Right in the middle of the meal, the phone rang.",
+      "note": "Noun + の最中に + an interruption."
+    },
+    {
+      "ja": "会議をしている最中に、地震が起きた。",
+      "reading": "かいぎをしているさいちゅうに、じしんがおきた。",
+      "en": "An earthquake struck right in the middle of the meeting.",
+      "note": "〜ている最中に + a sudden event."
+    },
+    {
+      "ja": "今、考えている最中です。",
+      "reading": "いま、かんがえているさいちゅうです。",
+      "en": "I'm right in the middle of thinking about it.",
+      "note": "Sentence-final 最中です."
+    },
+    {
+      "ja": "シャワーを浴びている最中に、停電になってしまった。",
+      "reading": "シャワーをあびているさいちゅうに、ていでんになってしまった。",
+      "en": "Right in the middle of my shower, the power went out.",
+      "note": "〜ている最中に + an unwelcome event."
+    },
+    {
+      "ja": "今、大事な話の最中だから、後にしてくれる？",
+      "reading": "いま、だいじなはなしのさいちゅうだから、あとにしてくれる？",
+      "en": "I'm in the middle of an important conversation right now, so can it wait?",
+      "note": "最中だ at sentence end."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜途中で",
+      "difference": "Partway along a route or process; not about the peak of an activity.",
+      "id": "n3-grammar-37"
+    },
+    {
+      "pattern": "〜うちに",
+      "difference": "Using a window of time; no interruption.",
+      "id": "n3-grammar-1"
+    },
+    {
+      "pattern": "〜ところに",
+      "difference": "\"Just when\" at a point in time; ところ takes dictionary, ている, or た forms.",
+      "id": "n3-grammar-38"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本に住んでいる最中に",
+      "right": "日本に住んでいる間に",
+      "why": "Long states (住む, 知る) don't take 最中; use 間に."
+    },
+    {
+      "wrong": "食べる最中に",
+      "right": "食べている最中に",
+      "why": "Verbs need the ている form before 最中."
+    },
+    {
+      "wrong": "会議最中に",
+      "right": "会議の最中に",
+      "why": "Nouns need の."
+    }
+  ],
+  "usageNotes": [
+    "Stronger than 〜ているときに; emphasizes an ongoing action interrupted. Not used for states (x 住んでいる最中).",
+    "The event after 最中に is usually sudden and outside your control."
+  ],
+  "jlptTips": [
+    "An ongoing activity in ている form + a sudden interruption (電話が鳴る, 地震, 停電) = 最中に.",
+    "Verb must be 〜ている; a dictionary-form option before 最中 is wrong.",
+    "Distractors: 途中で, うちに, ところに. If the second event breaks into an activity, choose 最中に."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-36-1",
+    "q-n3-g-36-2",
+    "q-n3-g-36-3",
+    "q-n3-g-36-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-36-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

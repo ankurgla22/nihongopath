@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-4",
+  "slug": "irai",
+  "level": "n2",
+  "order": 4,
+  "title": "〜以来",
+  "romaji": "irai",
+  "meaning": "since (a point in time), ever since",
+  "simpleExplanation": "〜以来 means \"since (a point in time), ever since\". The event or moment after 以来 is the starting point, and the second clause describes a state that has continued from then until now: not meeting someone, being busy, never being late.",
+  "whenUsed": "Both registers, but slightly formal; in casual speech 〜てから is more common. The starting point must be reasonably far in the past and the second clause must be a continuing state or a repeated pattern, not a single completed action. Do not use it for \"since yesterday\".",
+  "formation": [
+    "Vて + 以来 / N + 以来"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "卒業して",
+        "role": "starting point (Vて / N)"
+      },
+      {
+        "text": "以来",
+        "role": "ever since…",
+        "highlight": true
+      },
+      {
+        "text": "彼に会っていない",
+        "role": "state continuing to now"
+      }
+    ],
+    "translation": "I haven't seen him since graduation."
+  },
+  "examples": [
+    {
+      "ja": "卒業して以来、彼に会っていない。",
+      "reading": "そつぎょうしていらい、かれにあっていない。",
+      "en": "I haven't seen him since graduation.",
+      "note": "Vて + 以来 with a continuing negative state (〜ていない)."
+    },
+    {
+      "ja": "去年の夏以来、ずっと忙しい。",
+      "reading": "きょねんのなついらい、ずっといそがしい。",
+      "en": "I've been busy ever since last summer.",
+      "note": "Noun of time + 以来: ずっと emphasizes continuity."
+    },
+    {
+      "ja": "入社以来、一度も遅刻したことがない。",
+      "reading": "にゅうしゃいらい、いちどもちこくしたことがない。",
+      "en": "I have never once been late since joining the company.",
+      "note": "N + 以来 with 一度も〜ない: \"not once since\"."
+    },
+    {
+      "ja": "この店は開店以来、ずっと同じ味を守っている。",
+      "reading": "このみせはかいてんいらい、ずっとおなじあじをまもっている。",
+      "en": "Ever since it opened, this restaurant has kept the same taste.",
+      "note": "する-nouns like 開店・入社・発売 attach directly."
+    },
+    {
+      "ja": "あの事故以来、彼は車を運転しなくなった。",
+      "reading": "あのじこいらい、かれはくるまをうんてんしなくなった。",
+      "en": "Since that accident, he has stopped driving.",
+      "note": "A change of habit that persists."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Simple sequence: \"after doing X, then Y\". Y can be a one-time action, and the gap can be short. 以来 needs a state lasting until now."
+    },
+    {
+      "pattern": "〜て以来",
+      "difference": "The same pattern with the verb form; see lesson 76 for verb-specific points.",
+      "id": "n2-grammar-76"
+    },
+    {
+      "pattern": "〜から〜にかけて",
+      "difference": "A range with an end point; 以来 has no end point because the state continues to the present.",
+      "id": "n2-grammar-32"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨日以来、頭が痛い。",
+      "right": "昨日から、頭が痛い。",
+      "why": "以来 sounds strange for very recent starting points; use から."
+    },
+    {
+      "wrong": "卒業して以来、一度彼に会った。",
+      "right": "卒業して以来、一度も彼に会っていない。/ 卒業してから、一度彼に会った。",
+      "why": "The second clause must be a continuing state; a single completed action needs てから."
+    },
+    {
+      "wrong": "去年の夏の以来、忙しい。",
+      "right": "去年の夏以来、忙しい。",
+      "why": "以来 attaches directly to the noun, without の."
+    }
+  ],
+  "usageNotes": [
+    "Common partners: ずっと, 一度も〜ない, 〜ていない, すっかり変わった.",
+    "以来 can also be an adverb by itself: 以来、彼とは連絡を取っていない.",
+    "It combines with する-nouns without する: 入社以来, 発売以来, 来日以来."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, the presence of ずっと or 一度も〜ない after the blank strongly suggests 以来.",
+    "Distractors are 〜てから, 〜たとたん and 〜たきり. 〜たきり also means \"since\" but adds the nuance \"and nothing since\", typically with a negative like 帰ってこない.",
+    "A recent time word (昨日・さっき) before the blank rules out 以来."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-4-1",
+    "q-n2-g-4-2",
+    "q-n2-g-4-3",
+    "q-n2-g-4-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-4-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

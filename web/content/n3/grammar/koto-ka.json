@@ -1,0 +1,126 @@
+{
+  "id": "n3-grammar-8",
+  "slug": "koto-ka",
+  "level": "n3",
+  "order": 8,
+  "title": "〜ことか",
+  "romaji": "koto ka",
+  "meaning": "How…! / so very…!",
+  "simpleExplanation": "〜ことか turns a sentence into an exclamation of strong feeling: どんなに嬉しかったことか = \"How happy I was!\" It is not a real question. It almost always begins with a question word such as どんなに, どれほど, どれだけ, 何度, 何回.",
+  "whenUsed": "Emotional speech, letters, essays, narration. Slightly literary. In conversation 〜ことでしょう / 〜ことだろう are common softer variants.",
+  "formation": [
+    "どんなに / どれほど / どれだけ + plain form + ことか",
+    "何度 / 何回 / 何人 + plain form + ことか",
+    "な-adjective + な + ことか (どんなに不安なことか)",
+    "Variants: 〜ことだろう / 〜ことでしょう"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "合格して、",
+        "role": "situation"
+      },
+      {
+        "text": "どんなに",
+        "role": "question word (how much)",
+        "highlight": true
+      },
+      {
+        "text": "嬉しかった",
+        "role": "plain form"
+      },
+      {
+        "text": "ことか",
+        "role": "exclamation marker",
+        "highlight": true
+      }
+    ],
+    "translation": "How happy I was to pass!"
+  },
+  "examples": [
+    {
+      "ja": "合格して、どんなに嬉しかったことか。",
+      "reading": "ごうかくして、どんなにうれしかったことか。",
+      "en": "How happy I was to pass!",
+      "note": "どんなに + past adjective + ことか: the happiness is looked back on."
+    },
+    {
+      "ja": "この日をどれほど待っていたことか。",
+      "reading": "このひをどれほどまっていたことか。",
+      "en": "How long I've waited for this day!",
+      "note": "どれほど + 〜ていた + ことか: a long wait finally rewarded."
+    },
+    {
+      "ja": "何度注意したことか。",
+      "reading": "なんどちゅういしたことか。",
+      "en": "How many times have I warned you!",
+      "note": "何度 + past verb + ことか: exasperation (how many times!)."
+    },
+    {
+      "ja": "一人で暮らすのが、どれだけ大変なことか、やっとわかった。",
+      "reading": "ひとりでくらすのが、どれだけたいへんなことか、やっとわかった。",
+      "en": "I finally understood how hard it is to live alone.",
+      "note": "な-adjective + な + ことか, used inside a sentence before わかった."
+    },
+    {
+      "ja": "君がいてくれて、どんなに心強いことでしょう。",
+      "reading": "きみがいてくれて、どんなにこころづよいことでしょう。",
+      "en": "How reassuring it is to have you here.",
+      "note": "〜ことでしょう is the softer, spoken variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "なんて〜(の)だろう",
+      "difference": "Also an exclamation, but does not need どんなに. なんて美しいのだろう."
+    },
+    {
+      "pattern": "〜なんて",
+      "difference": "Surprise or contempt about a fact: 彼が落ちるなんて. Not \"how much\".",
+      "id": "n3-grammar-62"
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "Looks similar but means \"no need to\". Completely different meaning.",
+      "id": "n3-grammar-9"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "嬉しかったことか。",
+      "right": "どんなに嬉しかったことか。",
+      "why": "The pattern needs a question word (どんなに, どれほど, 何度). Without it the sentence sounds incomplete."
+    },
+    {
+      "wrong": "どんなに嬉しいですことか。",
+      "right": "どんなに嬉しいことか。",
+      "why": "Use the plain form before ことか, even in polite speech."
+    },
+    {
+      "wrong": "どんなに不安ことか。",
+      "right": "どんなに不安なことか。",
+      "why": "な-adjective + な before こと."
+    }
+  ],
+  "usageNotes": [
+    "Rhetorical, not a real question. In speech often 〜ことだろう / 〜ことでしょう. Literary/emotional register.",
+    "Because it is emotional, ことか is rare in business emails and neutral reports."
+  ],
+  "jlptTips": [
+    "If the sentence starts with どんなに / どれほど / 何度 and ends with a blank, the answer is usually ことか (or ことだろう).",
+    "Do not confuse with ことだ (advice) or ことはない (no need); the question word is your clue.",
+    "In reading passages, ことか in a narrator's voice signals strong emotion; use it to answer feeling-type questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-8-1",
+    "q-n3-g-8-2",
+    "q-n3-g-8-3",
+    "q-n3-g-8-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-8-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

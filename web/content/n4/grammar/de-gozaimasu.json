@@ -1,0 +1,146 @@
+{
+  "id": "n4-grammar-94",
+  "slug": "de-gozaimasu",
+  "level": "n4",
+  "order": 94,
+  "title": "〜でございます / 〜でいらっしゃいます (polite copula)",
+  "romaji": "de gozaimasu / de irasshaimasu",
+  "meaning": "でございます = extra-polite (humble/丁重) form of です for the speaker's side or neutral things; でいらっしゃいます = respectful form of です for the listener / superior.",
+  "simpleExplanation": "でございます is a very polite version of です. Shop staff, hotel receptionists and people on business phone calls use it to sound respectful and professional: こちらは会議室でございます (this is the meeting room), 山田でございます (this is Yamada speaking). Because it lowers the speaker's side or is neutral, it is used for yourself, your company and things. When the noun is the listener or someone respected, use でいらっしゃいます instead: 田中様でいらっしゃいますか (Are you Mr Tanaka?). ございます on its own is the polite form of あります.",
+  "whenUsed": "Customer service (shops, hotels, restaurants, airports), business phone calls, formal announcements and ceremonies. You will hear it far more than you need to say it, but in a job in Japan you will use it daily. Among friends it sounds like a joke.",
+  "formation": [
+    "N + でございます (polite です for the speaker's side or neutral things): 山田でございます, 三階でございます",
+    "N + でいらっしゃいます (respectful です for the listener or a superior): 社長でいらっしゃいます",
+    "ございます = polite あります: お手洗いは二階にございます",
+    "Negative: 〜ではございません; question: 〜でございますか / 〜でいらっしゃいますか"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "です / でございます / でいらっしゃいます",
+    "columns": [
+      "Politeness",
+      "Used about",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "です",
+        "cells": [
+          "polite",
+          "anyone or anything",
+          "こちらは受付です"
+        ]
+      },
+      {
+        "label": "でございます",
+        "cells": [
+          "very polite (humble/neutral)",
+          "myself, my company, things, places",
+          "こちらは受付でございます"
+        ]
+      },
+      {
+        "label": "でいらっしゃいます",
+        "cells": [
+          "very polite (respectful)",
+          "the listener, customers, superiors",
+          "田中様でいらっしゃいますか"
+        ]
+      },
+      {
+        "label": "ございます",
+        "cells": [
+          "very polite (polite あります)",
+          "things that exist",
+          "お手洗いは二階にございます"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "こちらは会議室でございます。",
+      "reading": "こちらは かいぎしつで ございます。",
+      "en": "This is the meeting room.",
+      "note": "Neutral thing (a room): でございます is polite and appropriate."
+    },
+    {
+      "ja": "田中様でいらっしゃいますか。",
+      "reading": "たなかさまで いらっしゃいますか。",
+      "en": "Are you Mr Tanaka?",
+      "note": "The listener: でいらっしゃいます shows respect."
+    },
+    {
+      "ja": "私は東京商事の山田でございます。",
+      "reading": "わたしは とうきょうしょうじの やまだで ございます。",
+      "en": "I am Yamada of Tokyo Shoji.",
+      "note": "Introducing yourself and your company: でございます, never でいらっしゃいます."
+    },
+    {
+      "ja": "お手洗いは、この廊下の突き当たりにございます。",
+      "reading": "おてあらいは、この ろうかの つきあたりに ございます。",
+      "en": "The restroom is at the end of this corridor.",
+      "note": "ございます replaces あります in customer service."
+    },
+    {
+      "ja": "お電話ありがとうございます。さくら商事の鈴木でございます。",
+      "reading": "おでんわ ありがとうございます。さくらしょうじの すずきで ございます。",
+      "en": "Thank you for calling. This is Suzuki of Sakura Shoji.",
+      "note": "Standard business phone greeting: your own name + でございます."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Keigo verb table",
+      "difference": "でございます is the polite form of です; the table covers verbs like いらっしゃる, 参る, 申す that go with it.",
+      "id": "n4-grammar-69"
+    },
+    {
+      "pattern": "お〜する (humble)",
+      "difference": "Humble verbs lower the speaker's actions; でございます is the matching polite copula, so they appear together in service speech.",
+      "id": "n4-grammar-72"
+    },
+    {
+      "pattern": "お・ご prefixes",
+      "difference": "お手洗い, お名前, ご住所 combine naturally with ございます / でございます in the same polite register.",
+      "id": "n4-grammar-68"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は山田でいらっしゃいます。",
+      "right": "私は山田でございます。",
+      "why": "でいらっしゃいます raises the person it describes. You cannot raise yourself; use でございます."
+    },
+    {
+      "wrong": "お客様は鈴木様でございますか。",
+      "right": "お客様は鈴木様でいらっしゃいますか。",
+      "why": "For a customer or superior, use the respectful でいらっしゃいます."
+    },
+    {
+      "wrong": "こちらに資料があります。(to a client in a formal meeting)",
+      "right": "こちらに資料がございます。",
+      "why": "Not wrong, but in a formal setting the expected form is ございます."
+    }
+  ],
+  "usageNotes": [
+    "ございます also appears in fixed greetings: ありがとうございます, おはようございます, おめでとうございます.",
+    "Past tense: でございました / ございました. Negative: ではございません (there is no でございません).",
+    "い-adjectives have special polite forms with ございます (よろしゅうございます) but these are rare today; adjectives usually stay with です."
+  ],
+  "jlptTips": [
+    "Decide whose side the noun is on. Your name, your company, a room, a price → でございます. The customer or a superior → でいらっしゃいます.",
+    "Options may include あります / ございます / いらっしゃいます for a thing. Things take ございます; いらっしゃいます is only for people."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-94-1",
+    "q-n4-g-94-2",
+    "q-n4-g-94-3",
+    "q-n4-g-94-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-94-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

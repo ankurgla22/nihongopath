@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-68",
+  "slug": "tabi-ni",
+  "level": "n2",
+  "order": 68,
+  "title": "〜たびに",
+  "romaji": "tabi ni",
+  "meaning": "every time, whenever",
+  "simpleExplanation": "〜たびに means \"every time…, whenever…\". Each occurrence of the first event brings the second: every time I hear this song, I remember my school days; every business trip, he brings souvenirs.",
+  "whenUsed": "Both registers. It follows Vる (会うたびに) or N + の (出張のたびに). It describes repeated pairings, so the second clause is habitual or a repeated change (会うたびに太っている = fatter each time). Not used for one-time events.",
+  "formation": [
+    "Vる + たびに / N + の + たびに"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この曲を聞く",
+        "role": "recurring trigger (Vる / Nの)"
+      },
+      {
+        "text": "たびに",
+        "role": "every time…",
+        "highlight": true
+      },
+      {
+        "text": "学生時代を思い出す",
+        "role": "recurring response"
+      }
+    ],
+    "translation": "Every time I hear this song, I remember my school days."
+  },
+  "examples": [
+    {
+      "ja": "この曲を聞くたびに、学生時代を思い出す。",
+      "reading": "このきょくをきくたびに、がくせいじだいをおもいだす。",
+      "en": "Every time I hear this song, I remember my school days.",
+      "note": "Vる + たびに + habitual response."
+    },
+    {
+      "ja": "彼は会うたびに、太っている。",
+      "reading": "かれはあうたびに、ふとっている。",
+      "en": "He's fatter every time I see him.",
+      "note": "たびに with gradual change."
+    },
+    {
+      "ja": "出張のたびに、お土産を買ってくる。",
+      "reading": "しゅっちょうのたびに、おみやげをかってくる。",
+      "en": "Every business trip, he brings back souvenirs.",
+      "note": "N + の + たびに."
+    },
+    {
+      "ja": "祖母は会うたびに、「大きくなったね」と言う。",
+      "reading": "そぼはあうたびに、「おおきくなったね」という。",
+      "en": "Every time we meet, my grandmother says, \"You've grown!\"",
+      "note": "A repeated remark."
+    },
+    {
+      "ja": "引っ越しのたびに、荷物が増えていく。",
+      "reading": "ひっこしのたびに、にもつがふえていく。",
+      "en": "With every move, my belongings increase.",
+      "note": "Gradual change with ていく."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と (whenever)",
+      "difference": "General conditional; たびに stresses each individual occurrence."
+    },
+    {
+      "pattern": "〜につれて",
+      "difference": "Gradual change proportional to another change, not per occurrence.",
+      "id": "n2-grammar-136"
+    },
+    {
+      "pattern": "〜ごとに",
+      "difference": "\"Each / every (interval)\": 三日ごとに; can take numbers, which たびに cannot."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "会ったたびに",
+      "right": "会うたびに",
+      "why": "Always dictionary form before たびに."
+    },
+    {
+      "wrong": "出張たびに",
+      "right": "出張のたびに",
+      "why": "Nouns need の."
+    },
+    {
+      "wrong": "昨日彼に会ったたびに、話をした。",
+      "right": "昨日彼に会った時に、話をした。",
+      "why": "A one-time event takes 時に, not たびに."
+    }
+  ],
+  "usageNotes": [
+    "Written variants: 〜たび, 〜たびごとに.",
+    "Common nouns: 出張, 旅行, 引っ越し, 試験, 誕生日.",
+    "Second clauses with ていく/てくる show progressive change over repetitions."
+  ],
+  "jlptTips": [
+    "A repeated trigger + blank + a habitual or cumulative response → たびに.",
+    "Distractors: 時に, につれて, ごとに. A number before the blank (三日〜) means ごとに.",
+    "Check the verb form: たびに follows Vる, never Vた."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-68-1",
+    "q-n2-g-68-2",
+    "q-n2-g-68-3",
+    "q-n2-g-68-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-68-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

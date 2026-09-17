@@ -1,0 +1,144 @@
+{
+  "id": "n4-grammar-64",
+  "slug": "toka",
+  "level": "n4",
+  "order": 64,
+  "title": "〜とか \"things like / such as / or\"",
+  "romaji": "toka",
+  "meaning": "Non-exhaustive listing in casual speech (\"A and B and so on\"). Also hedging a quote (〜とか言っていた).",
+  "simpleExplanation": "とか lists examples without claiming the list is complete: 映画とか買い物とか = \"movies, shopping and things like that\". It is the spoken cousin of や〜など. Unlike や, it can follow verbs and adjectives, not only nouns (掃除するとか洗濯するとか). A second use is hedging a quote: 来ないとか言っていた = \"he said something like he's not coming\".",
+  "whenUsed": "Casual conversation among friends, family and colleagues when you are giving a couple of examples of activities, places, foods or reasons. It also appears in relaxed polite speech (〜とか、〜とかがあります). In formal writing, use や〜など or 〜たり〜たりする instead.",
+  "formation": [
+    "N + とか + N + とか (+ particle): 映画とか買い物とかを",
+    "V-plain + とか + V-plain + とか: 掃除するとか洗濯するとか",
+    "A single とか as \"or something like\": 週末とか、暇なとき",
+    "Hedged quote: plain sentence + とか言っていた"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Ways to list examples",
+    "columns": [
+      "Attaches to",
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜とか〜とか",
+        "cells": [
+          "nouns, verbs, adjectives",
+          "casual / relaxed polite",
+          "映画とか買い物とかをする"
+        ]
+      },
+      {
+        "label": "〜や〜(など)",
+        "cells": [
+          "nouns only",
+          "neutral / written",
+          "映画や買い物などをする"
+        ]
+      },
+      {
+        "label": "〜たり〜たりする",
+        "cells": [
+          "verbs (た-form)",
+          "all registers",
+          "映画を見たり買い物したりする"
+        ]
+      },
+      {
+        "label": "〜と〜",
+        "cells": [
+          "nouns only (complete list)",
+          "all registers",
+          "映画と買い物をする (only these two)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "休みの日は映画とか買い物とかをします。",
+      "reading": "やすみの ひは えいがとか かいものとかを します。",
+      "en": "On days off I do things like movies and shopping.",
+      "note": "Two nouns with とか, then を: the particle follows the whole list."
+    },
+    {
+      "ja": "東京とか大阪とか、大きい町が好きだ。",
+      "reading": "とうきょうとか おおさかとか、おおきい まちが すきだ。",
+      "en": "I like big cities like Tokyo and Osaka.",
+      "note": "とか before a general noun (大きい町): the examples come first, the category after."
+    },
+    {
+      "ja": "週末は掃除するとか洗濯するとか、忙しい。",
+      "reading": "しゅうまつは そうじするとか せんたくするとか、いそがしい。",
+      "en": "Weekends are busy with things like cleaning and laundry.",
+      "note": "Verbs with とか: this is where とか wins over や, which cannot follow verbs."
+    },
+    {
+      "ja": "朝ご飯はパンとか果物とか、軽いものを食べます。",
+      "reading": "あさごはんは パンとか くだものとか、かるいものを たべます。",
+      "en": "For breakfast I eat light things, like bread or fruit.",
+      "note": "Examples first, then the category (軽いもの) with its particle."
+    },
+    {
+      "ja": "田中さん、今日は来られないとか言っていましたよ。",
+      "reading": "たなかさん、きょうは こられないとか いっていましたよ。",
+      "en": "Tanaka was saying something about not being able to come today.",
+      "note": "とか after a quote makes the report vague: \"something like…\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜や〜など",
+      "difference": "The neutral, written way to list non-exhaustive examples. や only follows nouns and is preferred in essays and formal speech."
+    },
+    {
+      "pattern": "〜でも",
+      "difference": "でも gives one example softly in a suggestion (お茶でも). とか gives several examples in a list.",
+      "id": "n4-grammar-63"
+    },
+    {
+      "pattern": "〜たり〜たりする",
+      "difference": "Lists example actions with verbs in the た-form and is fine in polite and written Japanese. V-plain + とか does the same job only in casual speech."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "週末は映画を見るや買い物をするや、忙しい。",
+      "right": "週末は映画を見るとか買い物をするとか、忙しい。",
+      "why": "や attaches only to nouns. To list verb phrases casually, use とか."
+    },
+    {
+      "wrong": "（in a formal report）調査した都市は東京とか大阪とかです。",
+      "right": "調査した都市は東京や大阪などです。",
+      "why": "とか is conversational. Written and formal contexts use や〜など."
+    },
+    {
+      "wrong": "リンゴとかバナナとかと買いました。",
+      "right": "リンゴとかバナナとかを買いました。",
+      "why": "After the list, use the particle the verb needs (を), not と. と would make it an exhaustive \"and\"."
+    }
+  ],
+  "usageNotes": [
+    "The final とか is often dropped before the particle in speech: 映画とか買い物をする.",
+    "A lone とか after one noun means \"or something like that\": 土曜日とか、どう？ (How about Saturday or thereabouts?).",
+    "Young speakers use とか as a general softener (私とか行けないし). It is common but is not tested and sounds vague."
+  ],
+  "jlptTips": [
+    "If the blank follows a verb in plain form and another example follows, only とか fits; や is the trap because it cannot attach to verbs.",
+    "When the sentence is formal (報告書, 調査, 発表), pick や〜など over とか even though both list examples."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-64-1",
+    "q-n4-g-64-2",
+    "q-n4-g-64-3",
+    "q-n4-g-64-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-64-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

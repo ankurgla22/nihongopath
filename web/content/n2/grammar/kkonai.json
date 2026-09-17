@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-72",
+  "slug": "kkonai",
+  "level": "n2",
+  "order": 72,
+  "title": "〜っこない",
+  "romaji": "-kkonai",
+  "meaning": "there's no way ..., can't possibly",
+  "simpleExplanation": "〜っこない means \"there's no way…, can't possibly…\". It is a strong, casual denial of possibility: no way I can solve this; no way he's coming; can't possibly memorize it in a day.",
+  "whenUsed": "話し言葉, casual, often between friends or in inner speech. It attaches to the Vます stem, frequently of a potential verb (解けっこない, 覚えられっこない). The formal equivalents are 〜わけがない, 〜はずがない; in writing use those.",
+  "formation": [
+    "Vます + っこない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"No way\" by register",
+    "items": [
+      {
+        "label": "〜っこない",
+        "description": "Casual speech: できっこない."
+      },
+      {
+        "label": "〜わけがない",
+        "description": "Both registers, emotional: できるわけがない."
+      },
+      {
+        "label": "〜はずがない",
+        "description": "Logical, neutral: できるはずがない."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "こんな難しい問題、解けっこないよ。",
+      "reading": "こんなむずかしいもんだい、とけっこないよ。",
+      "en": "There's no way I can solve such a hard problem.",
+      "note": "Potential stem + っこない."
+    },
+    {
+      "ja": "彼が来るなんて、ありっこない。",
+      "reading": "かれがくるなんて、ありっこない。",
+      "en": "No way he's coming.",
+      "note": "あり + っこない."
+    },
+    {
+      "ja": "一日で覚えられっこない。",
+      "reading": "いちにちでおぼえられっこない。",
+      "en": "I can't possibly memorize it in one day.",
+      "note": "Potential stem + っこない with a time limit."
+    },
+    {
+      "ja": "そんな高い車、私に買えっこないよ。",
+      "reading": "そんなたかいくるま、わたしにかえっこないよ。",
+      "en": "There's no way I could buy such an expensive car.",
+      "note": "Potential 買え + っこない."
+    },
+    {
+      "ja": "彼が時間通りに来るなんて、ありっこない。",
+      "reading": "かれがじかんどおりにくるなんて、ありっこない。",
+      "en": "Him arriving on time? Not a chance.",
+      "note": "〜なんて + ありっこない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけがない",
+      "difference": "Same strong denial, usable in writing.",
+      "id": "n2-grammar-162"
+    },
+    {
+      "pattern": "〜はずがない",
+      "difference": "Denial based on reasoning, less emotional."
+    },
+    {
+      "pattern": "〜得ない",
+      "difference": "Formal \"cannot possibly happen\".",
+      "id": "n2-grammar-11"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "解けるっこない。",
+      "right": "解けっこない。",
+      "why": "Attach to the Vます stem (解け)."
+    },
+    {
+      "wrong": "（in a report）この計画は成功しっこない。",
+      "right": "この計画は成功するはずがない。",
+      "why": "っこない is too casual for formal writing."
+    },
+    {
+      "wrong": "分かりっこないでしょうか。",
+      "right": "分かりっこないよ。",
+      "why": "It does not combine with polite question forms; it is a blunt assertion."
+    }
+  ],
+  "usageNotes": [
+    "Frequent: できっこない, 分かりっこない, 勝てっこない, 間に合いっこない, ありっこない.",
+    "Often with なんて or こんな for emphasis.",
+    "The tone can sound dismissive; use with care."
+  ],
+  "jlptTips": [
+    "Casual dialogue + Vます stem + blank meaning \"no way\" → っこない.",
+    "Distractors: わけがない, はずがない, かねない. If the blank follows a dictionary form, choose わけがない/はずがない instead; if it follows a stem, っこない or かねない (which means \"might well\").",
+    "Formal register rules out っこない."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-72-1",
+    "q-n2-g-72-2",
+    "q-n2-g-72-3",
+    "q-n2-g-72-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-72-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

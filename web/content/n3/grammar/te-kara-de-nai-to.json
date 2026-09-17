@@ -1,0 +1,117 @@
+{
+  "id": "n3-grammar-40",
+  "slug": "te-kara-de-nai-to",
+  "level": "n3",
+  "order": 40,
+  "title": "〜てからでないと / 〜てからでなければ",
+  "romaji": "te kara de nai to",
+  "meaning": "Unless… first / not until…",
+  "simpleExplanation": "〜てからでないと means \"unless you do X first, Y is impossible\": 会員になってからでないと使えません = you can't use it until you become a member. The second half is always negative or expresses impossibility. Think of it as \"X first, otherwise no Y\".",
+  "whenUsed": "Rules, procedures, business explanations, polite refusals. 〜てからでなければ is a slightly more formal variant.",
+  "formation": [
+    "Verb (て form) + からでないと + negative / できない / 無理だ",
+    "Verb (て form) + からでなければ + negative",
+    "Noun + からでないと (許可をもらってからでないと / 三時からでないと)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "会員になってから使う",
+        "en": "become a member, then use it (neutral order)"
+      },
+      {
+        "ja": "会員になってからでないと",
+        "en": "unless it is after becoming a member…"
+      },
+      {
+        "ja": "会員になってからでないと使えません",
+        "en": "…you can't use it (negative main clause required)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "会員になってからでないと、この施設は使えません。",
+      "reading": "かいいんになってからでないと、このしせつはつかえません。",
+      "en": "Unless you become a member first, you cannot use this facility.",
+      "note": "Rule: membership first, otherwise no access."
+    },
+    {
+      "ja": "内容を確認してからでなければ、サインできない。",
+      "reading": "ないようをかくにんしてからでなければ、サインできない。",
+      "en": "I can't sign until I've checked the contents.",
+      "note": "でなければ variant + potential negative."
+    },
+    {
+      "ja": "先生に聞いてからでないと、答えられません。",
+      "reading": "せんせいにきいてからでないと、こたえられません。",
+      "en": "I can't answer until I've asked the teacher.",
+      "note": "Refusing to answer until a condition is met."
+    },
+    {
+      "ja": "上司に相談してからでないと、お返事できません。",
+      "reading": "じょうしにそうだんしてからでないと、おへんじできません。",
+      "en": "I can't give you an answer until I've consulted my boss.",
+      "note": "A polite business refusal."
+    },
+    {
+      "ja": "準備運動をしてからでなければ、プールに入ってはいけません。",
+      "reading": "じゅんびうんどうをしてからでなければ、プールにはいってはいけません。",
+      "en": "You must not enter the pool without warming up first.",
+      "note": "Followed by a prohibition, which counts as a negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Simple sequence: X, then Y. No condition and no negative."
+    },
+    {
+      "pattern": "〜ないと / 〜なければ",
+      "difference": "\"If not X, then not Y\": general condition without the \"first\" nuance."
+    },
+    {
+      "pattern": "〜た上で",
+      "difference": "\"After doing X carefully, then Y\": formal, positive main clause.",
+      "id": "n3-grammar-43"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "会員になってからでないと、使えます。",
+      "right": "会員になってからでないと、使えません。",
+      "why": "The main clause must be negative or impossible."
+    },
+    {
+      "wrong": "会員になったからでないと",
+      "right": "会員になってからでないと",
+      "why": "The pattern is て-form + から, not た-form + から."
+    },
+    {
+      "wrong": "会員になってからでないと使えるようになる。",
+      "right": "会員になってから使えるようになる。",
+      "why": "For a positive result, use plain 〜てから."
+    }
+  ],
+  "usageNotes": [
+    "Main clause must be negative (できない / 無理だ / いけない). Positive version 〜てから simply sequences events.",
+    "Very common with できない, 〜られない, 無理だ, わからない, 〜てはいけない."
+  ],
+  "jlptTips": [
+    "If the second half is negative (〜ない, できない, 無理) and the first half is a prerequisite, choose てからでないと.",
+    "An option with a positive main clause is a trap; てからでないと cannot end positively.",
+    "Check the form before から: て-form (〜てから), never た-form."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-40-1",
+    "q-n3-g-40-2",
+    "q-n3-g-40-3",
+    "q-n3-g-40-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-40-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

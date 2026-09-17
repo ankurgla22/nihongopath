@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-97",
+  "slug": "te-kuru-te-iku",
+  "level": "n3",
+  "order": 97,
+  "title": "〜てくる / 〜ていく (change over time)",
+  "romaji": "te kuru / te iku (change over time)",
+  "meaning": "has been …ing (up to now) / will go on …ing (from now); gradual change toward or away from the present",
+  "simpleExplanation": "〜てくる and 〜ていく show the direction of a change in time. 〜てきた: the change moved toward now (上手になってきた \"has been getting better\"). 〜ていく: the change will continue away from now into the future (寒くなっていく \"will keep getting colder\"). Picture yourself standing at 'now': くる comes to you, いく leaves you.",
+  "whenUsed": "Describing trends, growth, weather, feelings, populations. Also the literal meanings 'go and do / come and do' (買ってくる) and the start of something (雨が降ってきた). All registers.",
+  "formation": [
+    "Verb て-form + くる (きた / きている): change up to now, or something starting",
+    "Verb て-form + いく (いった / いく): change continuing into the future",
+    "Typical verbs: なる, 増える, 減る, 変わる, 慣れる, 分かる"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Direction of change around 'now'",
+    "items": [
+      {
+        "label": "過去 → 今：〜てきた",
+        "description": "日本語が上手になってきた: improvement up to the present."
+      },
+      {
+        "label": "今：〜てきている",
+        "description": "人口が減ってきている: the trend is reaching the present and continuing."
+      },
+      {
+        "label": "今 → 未来：〜ていく",
+        "description": "寒くなっていく: the change will go on from here."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "最近、日本語が上手になってきた。",
+      "reading": "さいきん、にほんごがじょうずになってきた。",
+      "en": "Recently my Japanese has gotten better.",
+      "note": "Change up to now: てきた."
+    },
+    {
+      "ja": "これからもっと寒くなっていくだろう。",
+      "reading": "これからもっとさむくなっていくだろう。",
+      "en": "It will get colder and colder from now on.",
+      "note": "Change into the future: ていく."
+    },
+    {
+      "ja": "この町の人口は年々減ってきている。",
+      "reading": "このまちのじんこうはねんねんへってきている。",
+      "en": "The population of this town has been decreasing year by year.",
+      "note": "てきている: the trend has been continuing to the present."
+    },
+    {
+      "ja": "空が暗くなってきた。もうすぐ雨が降りそうだ。",
+      "reading": "そらがくらくなってきた。もうすぐあめがふりそうだ。",
+      "en": "The sky has been getting dark. It looks like it will rain soon.",
+      "note": "A change that has started and reached now."
+    },
+    {
+      "ja": "これからは、この町で家族と暮らしていくつもりだ。",
+      "reading": "これからは、このまちでかぞくとくらしていくつもりだ。",
+      "en": "From now on, I intend to go on living in this town with my family.",
+      "note": "ていく: continuing into the future."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "A completed change of state or ability (話せるようになった). てくる shows the change as a gradual process."
+    },
+    {
+      "pattern": "〜一方だ / 〜ばかりだ",
+      "difference": "Change continuing in one direction only, often negative. てくる/ていく are neutral.",
+      "id": "n3-grammar-98"
+    },
+    {
+      "pattern": "〜始める",
+      "difference": "Marks the start of an action; 降ってきた also marks the start but from the speaker's viewpoint."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "これから寒くなってきます。",
+      "right": "これから寒くなっていきます。",
+      "why": "これから points to the future, so the change moves away from now: ていく."
+    },
+    {
+      "wrong": "最近、太っていった。",
+      "right": "最近、太ってきた。",
+      "why": "最近 describes a change up to the present, which takes てきた."
+    },
+    {
+      "wrong": "分かるようになってくる。(for a sudden realisation)",
+      "right": "分かってきた。",
+      "why": "The natural phrase for gradual understanding is 分かってきた; ようになってくる is redundant here."
+    }
+  ],
+  "usageNotes": [
+    "Set expressions: 分かってきた 'I'm starting to get it', 慣れてきた 'getting used to it', 疲れてきた 'getting tired'.",
+    "Literal uses: 行ってきます 'I'll go and come back', 買ってくる 'go buy and return'.",
+    "With 生きる and 暮らす, ていく expresses a life going forward: 生きていく."
+  ],
+  "jlptTips": [
+    "Time words decide: 最近 / 今まで / だんだん…てきた; これから / 今後 / 将来…ていく.",
+    "If the sentence is about something suddenly starting (雨, 眠く, 腹が立つ), てきた is the answer.",
+    "Choices like ておく or てしまう are not about direction of change; eliminate them first."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-97-1",
+    "q-n3-g-97-2",
+    "q-n3-g-97-3",
+    "q-n3-g-97-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-97-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-11",
+  "slug": "koto-ni-shite-iru",
+  "level": "n3",
+  "order": 11,
+  "title": "〜ことにしている",
+  "romaji": "koto ni shite iru",
+  "meaning": "I make it a rule to… / I make a habit of…",
+  "simpleExplanation": "〜ことにしている describes a rule you set for yourself and keep: 毎朝三十分走ることにしている = I make it a rule to run 30 minutes every morning. It is the continuing state of ことにする (decide). The key point: the speaker chose it.",
+  "whenUsed": "Talking about routines, personal policies, health habits, and principles. Polite: 〜ことにしています. Common in self-introductions and interviews.",
+  "formation": [
+    "Verb (dictionary form) + ことにしている",
+    "Verb (ない form) + ことにしている",
+    "Compare: 〜ことにする (decide now) / 〜ことにした (decided)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ことにする family vs ことになる family",
+    "columns": [
+      "Who decides",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "〜ことにする",
+        "cells": [
+          "I do (now)",
+          "I'll decide to…"
+        ]
+      },
+      {
+        "label": "〜ことにした",
+        "cells": [
+          "I did",
+          "I decided to…"
+        ]
+      },
+      {
+        "label": "〜ことにしている",
+        "cells": [
+          "I did, and keep it",
+          "I make it a rule to…"
+        ]
+      },
+      {
+        "label": "〜ことになっている",
+        "cells": [
+          "someone else / a rule",
+          "it's arranged that…"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "毎朝三十分走ることにしている。",
+      "reading": "まいあささんじゅっぷんはしることにしている。",
+      "en": "I make it a rule to run for 30 minutes every morning.",
+      "note": "A daily exercise routine chosen by the speaker."
+    },
+    {
+      "ja": "夜はコーヒーを飲まないことにしている。",
+      "reading": "よるはコーヒーをのまないことにしている。",
+      "en": "I make it a point not to drink coffee at night.",
+      "note": "Negative: 飲まないことにしている = I make a point of not drinking."
+    },
+    {
+      "ja": "日曜日は仕事をしないことにしています。",
+      "reading": "にちようびはしごとをしないことにしています。",
+      "en": "I've made it a rule not to work on Sundays.",
+      "note": "Polite form in a work-life-balance statement."
+    },
+    {
+      "ja": "知らない言葉を見つけたら、必ずメモすることにしています。",
+      "reading": "しらないことばをみつけたら、かならずメモすることにしています。",
+      "en": "Whenever I find a word I don't know, I make it a rule to write it down.",
+      "note": "A study habit; 必ず strengthens the self-imposed rule."
+    },
+    {
+      "ja": "夫婦で、お金のことで喧嘩しないことにしている。",
+      "reading": "ふうふで、おかねのことでけんかしないことにしている。",
+      "en": "My spouse and I have a rule not to fight about money.",
+      "note": "A shared personal policy, still \"our\" decision."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことになっている",
+      "difference": "A rule made by others or an institution. ことにしている is your own choice.",
+      "id": "n3-grammar-10"
+    },
+    {
+      "pattern": "〜ようにしている",
+      "difference": "\"I try to…\": effort, may not always succeed. ことにしている is a firm rule."
+    },
+    {
+      "pattern": "〜ことにした",
+      "difference": "The decision at one moment. 〜ている shows it is an ongoing habit."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この学校では制服を着ることにしている。",
+      "right": "この学校では制服を着ることになっている。",
+      "why": "A school rule is not the speaker's decision; use なっている."
+    },
+    {
+      "wrong": "毎朝走るのことにしている。",
+      "right": "毎朝走ることにしている。",
+      "why": "The verb attaches directly to こと; no の."
+    },
+    {
+      "wrong": "できるだけ野菜を食べることにしているが、なかなかできない。",
+      "right": "できるだけ野菜を食べるようにしているが、なかなかできない。",
+      "why": "If you often fail, it is an effort (ようにしている), not a firm rule (ことにしている)."
+    }
+  ],
+  "usageNotes": [
+    "〜ことにする = decide (now); 〜ことにした = decided; 〜ことにしている = ongoing personal policy. Compare 〜ようにしている (making an effort to).",
+    "A time expression like 毎日 / 週に一度 / 寝る前に is usually present."
+  ],
+  "jlptTips": [
+    "Look for a first-person routine (毎朝, 毎晩, いつも) and a reason like 健康のために. That is ことにしている.",
+    "The most common trap is ことになっている: ask whether the speaker or an outside rule made the decision.",
+    "ようにしている appears as a distractor when the sentence contains できるだけ / なるべく + a hint of difficulty."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-11-1",
+    "q-n3-g-11-2",
+    "q-n3-g-11-3",
+    "q-n3-g-11-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-11-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,139 @@
+{
+  "id": "n4-grammar-44",
+  "slug": "temo",
+  "level": "n4",
+  "order": 44,
+  "title": "〜ても \"even if / even though\"",
+  "romaji": "temo / demo",
+  "meaning": "Concessive: the result holds regardless of the condition.",
+  "simpleExplanation": "〜ても means \"even if / even though\": the result does not change whatever the condition. 雨が降っても、試合をします = even if it rains, we'll play. Make the て-form and add も: 降っても, 高くても, 静かでも, 雨でも. With question words it means \"no matter…\": いくら高くても (no matter how expensive), 誰が来ても (no matter who comes), どんなに頑張っても (no matter how hard I try).",
+  "whenUsed": "Talking about determination, rules and general truths. Because the second clause can be anything (a plan, a request, a permission), ても is very flexible. 〜てもいい (you may) and 〜なくてもいい (you don't have to) are built on it. Used in all registers.",
+  "formation": [
+    "V-て + も: 降っても, 行っても; negative 行かなくても",
+    "い-adjective: drop い + くても: 高くても, いい→よくても",
+    "な-adjective + でも: 静かでも",
+    "Noun + でも: 雨でも",
+    "Question word + 〜ても: いくら〜ても, どんなに〜ても, 誰が〜ても, 何を〜ても"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ても vs のに",
+    "columns": [
+      "Condition",
+      "Second clause",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "ても",
+        "cells": [
+          "hypothetical or general (even if)",
+          "any: plan, request, permission, fact",
+          "雨が降っても、行きます"
+        ]
+      },
+      {
+        "label": "のに",
+        "cells": [
+          "a real, completed fact (even though)",
+          "a fact only, with surprise or regret",
+          "雨が降ったのに、行った"
+        ]
+      },
+      {
+        "label": "Q-word + ても",
+        "cells": [
+          "no matter how / who / what",
+          "the result holds anyway",
+          "いくら食べても太らない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "雨が降っても、試合をします。",
+      "reading": "あめが ふっても、しあいを します。",
+      "en": "Even if it rains, we'll play the match.",
+      "note": "Hypothetical: the rain has not happened yet."
+    },
+    {
+      "ja": "いくら高くても、買います。",
+      "reading": "いくら たかくても、かいます。",
+      "en": "No matter how expensive it is, I'll buy it.",
+      "note": "いくら〜ても: no matter how expensive."
+    },
+    {
+      "ja": "どんなに頑張っても、彼には勝てない。",
+      "reading": "どんなに がんばっても、かれには かてない。",
+      "en": "No matter how hard I try, I can't beat him.",
+      "note": "どんなに〜ても: however hard, the result is the same."
+    },
+    {
+      "ja": "この仕事は、経験がなくてもできます。",
+      "reading": "このしごとは、けいけんが なくても できます。",
+      "en": "You can do this job even without experience.",
+      "note": "Negative ても: ない → なくても."
+    },
+    {
+      "ja": "何度読んでも、この文の意味が分からない。",
+      "reading": "なんど よんでも、このぶんの いみが わからない。",
+      "en": "No matter how many times I read it, I can't understand this sentence.",
+      "note": "何度〜ても = however many times."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のに",
+      "difference": "のに is about a real fact and carries regret; ても is \"even if\" and allows any second clause.",
+      "id": "n4-grammar-43"
+    },
+    {
+      "pattern": "〜たら",
+      "difference": "たら: if A then B (B depends on A). ても: even if A, B anyway (B does not depend on A).",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜でも",
+      "difference": "Noun + でも is the noun version of ても (子供でも分かる). It also means \"or something\" in suggestions (お茶でも).",
+      "id": "n4-grammar-63"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "高いても、買います。",
+      "right": "高くても、買います。",
+      "why": "い-adjectives change to くて before も: 高くても."
+    },
+    {
+      "wrong": "雨が降るでも、行きます。",
+      "right": "雨が降っても、行きます。",
+      "why": "Verbs use the て-form + も, not the dictionary form + でも."
+    },
+    {
+      "wrong": "薬を飲んでも、熱が下がらなかった。(meaning \"I took it, but…\")",
+      "right": "薬を飲んだのに、熱が下がらなかった。",
+      "why": "For a real completed action with disappointment, のに is the natural choice; 飲んでも sounds like \"even if I take it\"."
+    }
+  ],
+  "usageNotes": [
+    "Repeating a verb strengthens it: 食べても食べても太らない (however much I eat…).",
+    "〜てもいいですか asks permission (座ってもいいですか); 〜なくてもいい says something is unnecessary.",
+    "たとえ〜ても (even supposing) is a common written pairing: たとえ失敗しても、あきらめない."
+  ],
+  "jlptTips": [
+    "いくら / どんなに / 何度 / 誰が / たとえ before the blank almost always call for ても.",
+    "When the second clause is a plan, request or permission, のに is impossible, so ても is the answer between the two."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-44-1",
+    "q-n4-g-44-2",
+    "q-n4-g-44-3",
+    "q-n4-g-44-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-44-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

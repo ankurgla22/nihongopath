@@ -1,0 +1,147 @@
+{
+  "id": "n2-grammar-114",
+  "slug": "ni-shitara",
+  "level": "n2",
+  "order": 114,
+  "title": "〜にしたら / 〜にすれば / 〜にしてみれば",
+  "romaji": "ni shitara / ni sureba / ni shite mireba",
+  "meaning": "from the standpoint of (a person); if you were…",
+  "simpleExplanation": "〜にしたら / 〜にすれば / 〜にしてみれば all mean \"from X's point of view\", where X is a person or organization. The speaker imagines standing in X's shoes and reports how things look or feel to them. It usually carries sympathy: \"For a parent, that must be the biggest worry.\"",
+  "whenUsed": "Both speech and writing when discussing other people's feelings. にしてみれば has the strongest \"try imagining\" feel and is very common in conversation; にすれば is slightly stiffer. Not used for the speaker's own standpoint (私にしたら is unusual; use 私としては).",
+  "formation": [
+    "Noun (person / organization) + にしたら",
+    "Noun + にすれば",
+    "Noun + にしてみれば / にしてみたら",
+    "Noun + にしても (a related form: \"even from X's standpoint\")",
+    "Main clause: a feeling or judgment (心配だ / 大問題だ / 迷惑だろう)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜にしたら / にすれば / にしてみれば",
+      "〜にとって"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "from X's viewpoint (imagining their feelings)",
+          "for X (X is affected; evaluation of importance)"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "people or organizations only",
+          "people, things, abstract nouns"
+        ]
+      },
+      {
+        "label": "Main clause",
+        "cells": [
+          "feelings, judgments: 心配だ, 迷惑だ, 大問題だ",
+          "evaluations: 大切だ, 必要だ, 難しい"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "親にしたら心配だろう",
+          "私にとって家族は大切だ"
+        ]
+      }
+    ],
+    "title": "Standpoint versus affected party"
+  },
+  "examples": [
+    {
+      "ja": "親にしたら、子供の安全が一番の心配だ。",
+      "reading": "おやにしたら、こどものあんぜんがいちばんのしんぱいだ。",
+      "en": "From a parent's standpoint, the child's safety is the top concern.",
+      "note": "The speaker imagines a parent's feelings; sympathy is implied."
+    },
+    {
+      "ja": "学生にすれば、授業料の値上げは大問題だ。",
+      "reading": "がくせいにすれば、じゅぎょうりょうのねあげはだいもんだいだ。",
+      "en": "For students, the tuition hike is a big problem.",
+      "note": "にすれば: the students' viewpoint on a price rise."
+    },
+    {
+      "ja": "彼にしてみれば、簡単な仕事だったのだろう。",
+      "reading": "かれにしてみれば、かんたんなしごとだったのだろう。",
+      "en": "From his point of view, it was probably an easy job.",
+      "note": "にしてみれば: the most conversational form; だろう shows the speaker is guessing."
+    },
+    {
+      "ja": "店にしたら、客が長く居座るのは困るだろう。",
+      "reading": "みせにしたら、きゃくがながくいすわるのはこまるだろう。",
+      "en": "From the shop's point of view, customers who stay too long must be a problem.",
+      "note": "An organization (店) as the standpoint."
+    },
+    {
+      "ja": "初めて日本に来た人にしてみれば、電車の乗り換えは複雑に感じるはずだ。",
+      "reading": "はじめてにほんにきたひとにしてみれば、でんしゃののりかえはふくざつにかんじるはずだ。",
+      "en": "For someone who has just come to Japan, changing trains must feel complicated.",
+      "note": "The main clause guesses at the feeling (感じるはずだ)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For X\": X is the party affected, and the clause evaluates importance or difficulty. It also accepts non-human nouns.",
+      "id": "n2-grammar-127"
+    },
+    {
+      "pattern": "〜としては",
+      "difference": "\"As for X / speaking as X\": the speaker's own or an official position (私としては, 会社としては)."
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "Completely different: \"for a…, unexpectedly\". Watch the は.",
+      "id": "n2-grammar-115"
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "Concessive: \"even if / even from X's standpoint\".",
+      "id": "n2-grammar-116"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この問題にしたら、難しい。",
+      "right": "この問題は、彼にしたら難しい。",
+      "why": "Only people or organizations can be a standpoint; a thing cannot \"see\" anything."
+    },
+    {
+      "wrong": "私にしてみれば、この計画に賛成です。",
+      "right": "私としては、この計画に賛成です。",
+      "why": "For your own stated position use としては. にしてみれば is for imagining someone else's view."
+    },
+    {
+      "wrong": "親にしたら、子供は学校に行く。",
+      "right": "親にしたら、子供の安全が一番の心配だ。",
+      "why": "The main clause must express a feeling or judgment, not a plain fact."
+    }
+  ],
+  "usageNotes": [
+    "Often followed by だろう / かもしれない / はずだ because the speaker is guessing at another person's feelings.",
+    "にしてみれば can be strengthened: 彼にしてみれば、たまったものではない.",
+    "Formal equivalents in writing: 〜の立場からすれば / 〜の立場に立てば."
+  ],
+  "jlptTips": [
+    "If the noun is a person and the main clause is a feeling (心配, 迷惑, つらい), choose にしたら / にしてみれば over にとって.",
+    "Distractors almost always include にしては (unexpected result) and にしても (even if). Check the particle after にし.",
+    "In 並べ替え, にしてみれば sits right after the person and is followed by the feeling."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-114-1",
+    "q-n2-g-114-2",
+    "q-n2-g-114-3",
+    "q-n2-g-114-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-114-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "n3-grammar-4",
+  "slug": "wake-dewa-nai",
+  "level": "n3",
+  "order": 4,
+  "title": "〜わけではない",
+  "romaji": "wake dewa nai",
+  "meaning": "It's not that… / it doesn't mean that…",
+  "simpleExplanation": "〜わけではない denies only part of what the listener might be thinking. \"It's not that I dislike it\" leaves room for \"I just don't eat it much\". It is a soft correction, not a strong denial. With 全部 / 全員 / 必ずしも it means \"not all\" or \"not necessarily\".",
+  "whenUsed": "Everywhere: conversation (〜わけじゃない), polite speech (〜わけではありません), essays. Very often followed by the real reason: ただ〜だけだ. 〜というわけではない denies a conclusion someone has drawn.",
+  "formation": [
+    "Verb (plain form) + わけではない",
+    "い-adjective + わけではない",
+    "な-adjective + な + わけではない",
+    "Noun + の / という + わけではない",
+    "Casual: 〜わけじゃない / Polite: 〜わけではありません"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "嫌いだ",
+        "en": "I dislike it (plain statement)"
+      },
+      {
+        "ja": "嫌いではない",
+        "en": "I do not dislike it (full denial)"
+      },
+      {
+        "ja": "嫌いなわけではない",
+        "en": "it's not that I dislike it (partial denial: there is another reason)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "嫌いなわけではないが、あまり食べない。",
+      "reading": "きらいなわけではないが、あまりたべない。",
+      "en": "It's not that I dislike it, but I don't eat it much.",
+      "note": "Partial denial followed by the real situation after が."
+    },
+    {
+      "ja": "高ければいいというわけではない。",
+      "reading": "たかければいいというわけではない。",
+      "en": "It doesn't mean that expensive things are automatically good.",
+      "note": "〜というわけではない denies a general rule the listener might believe."
+    },
+    {
+      "ja": "全部わかったわけじゃない。",
+      "reading": "ぜんぶわかったわけじゃない。",
+      "en": "It's not that I understood everything.",
+      "note": "全部 + わけじゃない = \"not all\". Casual じゃない is normal in speech."
+    },
+    {
+      "ja": "彼女を疑っているわけではありません。ただ、事実を確認したいだけです。",
+      "reading": "かのじょをうたがっているわけではありません。ただ、じじつをかくにんしたいだけです。",
+      "en": "It's not that I suspect her. I just want to confirm the facts.",
+      "note": "Polite form + ただ〜だけです: the full, natural pattern."
+    },
+    {
+      "ja": "日本人だからといって、誰でも敬語が得意なわけではない。",
+      "reading": "にほんじんだからといって、だれでもけいごがとくいなわけではない。",
+      "en": "Just because someone is Japanese doesn't mean everyone is good at keigo.",
+      "note": "からといって + わけではない is a standard pair."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけがない",
+      "difference": "Strong, emotional \"no way!\". わけではない is soft and only denies part.",
+      "id": "n3-grammar-5"
+    },
+    {
+      "pattern": "〜とは限らない",
+      "difference": "\"Not necessarily\": focuses on exceptions to a rule. Close in meaning; both go with 必ずしも.",
+      "id": "n3-grammar-14"
+    },
+    {
+      "pattern": "〜わけだ",
+      "difference": "The positive: \"so that's why\". わけではない says \"that's not the reason\".",
+      "id": "n3-grammar-3"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "嫌いわけではない。",
+      "right": "嫌いなわけではない。",
+      "why": "嫌い is a な-adjective; keep な before わけ."
+    },
+    {
+      "wrong": "全員が来なかったわけではない。(intended: nobody came)",
+      "right": "全員が来たわけではない。(not everyone came) / 誰も来なかった。(nobody came)",
+      "why": "全員〜わけではない always means \"not all\"; it cannot mean \"none\"."
+    },
+    {
+      "wrong": "そんなことがあるわけではない！(angry denial)",
+      "right": "そんなことがあるわけがない！",
+      "why": "For a flat, angry denial use わけがない. わけではない sounds mild and unfinished."
+    }
+  ],
+  "usageNotes": [
+    "Softer than a plain negation; denies the inference rather than the fact. 全部〜わけではない = \"not all\". Contrast 〜わけがない (strong \"no way\").",
+    "A sentence with わけではない usually continues; listeners wait for the \"but…\" part."
+  ],
+  "jlptTips": [
+    "Look for contrast clues: ただ, 別に, 特に, 〜が / けど. If the second half gives a different reason, わけではない is the answer.",
+    "Distractors: わけがない, わけにはいかない, はずがない. Ask: soft correction (わけではない) or flat denial (わけがない)?",
+    "The chunk という + わけではない is often split in 並べ替え; join it first."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-4-1",
+    "q-n3-g-4-2",
+    "q-n3-g-4-3",
+    "q-n3-g-4-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-4-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

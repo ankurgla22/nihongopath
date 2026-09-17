@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-123",
+  "slug": "hitsuyou-ga-aru",
+  "level": "n3",
+  "order": 123,
+  "title": "〜必要がある / 〜必要はない",
+  "romaji": "hitsuyou ga aru / hitsuyou wa nai",
+  "meaning": "it is necessary to… / need to…; there is no need to…",
+  "simpleExplanation": "〜必要がある states that something needs to be done, as an objective fact: パスポートを更新する必要がある \"you need to renew your passport\". The negative 〜必要はない means \"there's no need to\": 心配する必要はありません. It is more formal and neutral than 〜なければならない.",
+  "whenUsed": "Explanations, instructions, reports and advice. With a noun: N + の必要がある or N + が必要だ (ビザが必要だ). Everyday speech also uses it, especially the reassuring 必要はない.",
+  "formation": [
+    "Verb (dictionary form) + 必要がある / 必要があります",
+    "Verb (dictionary form) + 必要はない / 必要はありません",
+    "Noun + の + 必要がある (確認の必要がある)",
+    "Noun + が + 必要だ (ビザが必要だ)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Ways to say 'must'",
+    "items": [
+      {
+        "label": "〜たほうがいい",
+        "description": "Advice: 'it would be better to'."
+      },
+      {
+        "label": "〜必要がある",
+        "description": "Objective necessity: 'it is necessary to'."
+      },
+      {
+        "label": "〜なければならない",
+        "description": "Obligation: 'must / have to'."
+      },
+      {
+        "label": "〜べきだ",
+        "description": "Moral duty: 'ought to'."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この問題はもっと詳しく調べる必要がある。",
+      "reading": "このもんだいはもっとくわしくしらべるひつようがある。",
+      "en": "This problem needs to be investigated in more detail.",
+      "note": "Objective necessity."
+    },
+    {
+      "ja": "心配する必要はありません。",
+      "reading": "しんぱいするひつようはありません。",
+      "en": "There's no need to worry.",
+      "note": "Reassurance: no need to worry."
+    },
+    {
+      "ja": "パスポートを更新する必要があります。",
+      "reading": "パスポートをこうしんするひつようがあります。",
+      "en": "You need to renew your passport.",
+      "note": "A procedure that must be done."
+    },
+    {
+      "ja": "この薬は、食後に飲む必要があります。",
+      "reading": "このくすりは、しょくごにのむひつようがあります。",
+      "en": "This medicine needs to be taken after meals.",
+      "note": "Instruction from a pharmacist."
+    },
+    {
+      "ja": "予約は不要なので、事前に連絡する必要はありません。",
+      "reading": "よやくはふようなので、じぜんにれんらくするひつようはありません。",
+      "en": "No reservation is required, so there's no need to contact us in advance.",
+      "note": "必要はない: no need."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なければならない",
+      "difference": "Personal or rule-based obligation; 必要がある is a neutral statement of necessity."
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "'There's no need to' with a reassuring tone (心配することはない); nearly the same as 必要はない.",
+      "id": "n3-grammar-9"
+    },
+    {
+      "pattern": "〜べきだ",
+      "difference": "Moral judgement rather than practical necessity.",
+      "id": "n3-grammar-77"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "パスポートを更新した必要がある。",
+      "right": "パスポートを更新する必要がある。",
+      "why": "必要 follows the dictionary form; tense is expressed on ある (必要があった)."
+    },
+    {
+      "wrong": "心配する必要がない。",
+      "right": "心配する必要はない。",
+      "why": "The negative normally takes は (contrast); 必要がない is heard but 必要はない is the standard exam form."
+    },
+    {
+      "wrong": "ビザを必要だ。",
+      "right": "ビザが必要だ。",
+      "why": "必要だ is a な-adjective predicate; the thing needed takes が."
+    }
+  ],
+  "usageNotes": [
+    "必要に応じて 'as needed' and 必要な + noun are related vocabulary.",
+    "必要がある is also used after passive verbs: 見直される必要がある.",
+    "In business writing 〜する必要がございます is the polite form."
+  ],
+  "jlptTips": [
+    "Formal explanatory sentence with 'need to' → 必要がある; casual obligation → なければならない.",
+    "The negative in the choices should be 必要はない; 必要がない is a weaker distractor.",
+    "Noun + の + 必要がある vs Noun + が必要だ: check the following word."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-123-1",
+    "q-n3-g-123-2",
+    "q-n3-g-123-3",
+    "q-n3-g-123-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-123-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-44",
+  "slug": "koto-dakara",
+  "level": "n2",
+  "order": 44,
+  "title": "〜ことだから",
+  "romaji": "koto dakara",
+  "meaning": "knowing (the person), surely ...",
+  "simpleExplanation": "〜ことだから means \"knowing (that person), surely…\". It takes a person the speaker knows well and draws a confident guess from their character: knowing how diligent he is, he'll be on time; knowing my kind mother, she'll forgive me.",
+  "whenUsed": "話し言葉寄り, conversational. The noun is a person or group (彼・あの人・母・子供たち・あの会社), usually with a character adjective in front (真面目な・優しい). The second clause is a conjecture: だろう, に違いない, はずだ, きっと〜.",
+  "formation": [
+    "N (person) + の + ことだから"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "真面目な彼",
+        "role": "a known person (+ character)"
+      },
+      {
+        "text": "のことだから",
+        "role": "knowing him…",
+        "highlight": true
+      },
+      {
+        "text": "きっと時間通りに来るだろう",
+        "role": "confident guess"
+      }
+    ],
+    "translation": "Knowing how conscientious he is, he'll surely come on time."
+  },
+  "examples": [
+    {
+      "ja": "真面目な彼のことだから、きっと時間通りに来るだろう。",
+      "reading": "まじめなかれのことだから、きっとじかんどおりにくるだろう。",
+      "en": "Knowing how conscientious he is, he'll surely come on time.",
+      "note": "Character adjective + person + のことだから + だろう."
+    },
+    {
+      "ja": "あの人のことだから、また遅刻するに違いない。",
+      "reading": "あのひとのことだから、またちこくするにちがいない。",
+      "en": "Knowing him, he's bound to be late again.",
+      "note": "Negative expectation with に違いない."
+    },
+    {
+      "ja": "優しい母のことだから、許してくれるはずだ。",
+      "reading": "やさしいははのことだから、ゆるしてくれるはずだ。",
+      "en": "Knowing my kind mother, she should forgive me.",
+      "note": "Positive expectation with はずだ."
+    },
+    {
+      "ja": "心配性の母のことだから、もう何度も電話しているだろう。",
+      "reading": "しんぱいしょうのははのことだから、もうなんどもでんわしているだろう。",
+      "en": "Knowing my worrywart mother, she has probably already called many times.",
+      "note": "Trait + person."
+    },
+    {
+      "ja": "あの会社のことだから、また値上げするに決まっている。",
+      "reading": "あのかいしゃのことだから、またねあげするにきまっている。",
+      "en": "Knowing that company, they're bound to raise prices again.",
+      "note": "An organization as the \"person\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことから",
+      "difference": "Deduction from a fact, not from character.",
+      "id": "n2-grammar-43"
+    },
+    {
+      "pattern": "〜だけに",
+      "difference": "\"Precisely because\": logical link, can take any noun.",
+      "id": "n2-grammar-60"
+    },
+    {
+      "pattern": "〜に限って",
+      "difference": "Trust-based denial (\"X of all people would never\"); ことだから can be positive or negative.",
+      "id": "n2-grammar-17"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨のことだから、試合は中止だろう。",
+      "right": "雨だから、試合は中止だろう。",
+      "why": "ことだから needs a person or organization, not a thing."
+    },
+    {
+      "wrong": "彼のことだから、来てください。",
+      "right": "彼のことだから、来るでしょう。",
+      "why": "The second clause must be a conjecture."
+    },
+    {
+      "wrong": "彼ことだから",
+      "right": "彼のことだから",
+      "why": "の is required."
+    }
+  ],
+  "usageNotes": [
+    "The speaker's familiarity with the person is presupposed; not used about strangers.",
+    "Often preceded by a trait: 真面目な, 優しい, 忘れっぽい, 心配性の.",
+    "It can be used about oneself humorously: 私のことだから、また忘れるだろう."
+  ],
+  "jlptTips": [
+    "Person + の + blank + conjecture (だろう・はずだ・に違いない) → ことだから.",
+    "Distractors: ことから, だけに, わけだから. If the noun before the blank is a thing or event, ことだから is impossible.",
+    "In 並べ替え, the trait adjective goes before the person, and のことだから stays together."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-44-1",
+    "q-n2-g-44-2",
+    "q-n2-g-44-3",
+    "q-n2-g-44-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-44-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

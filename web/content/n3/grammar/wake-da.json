@@ -1,0 +1,141 @@
+{
+  "id": "n3-grammar-3",
+  "slug": "wake-da",
+  "level": "n3",
+  "order": 3,
+  "title": "〜わけだ",
+  "romaji": "wake da",
+  "meaning": "So that's why… / that means… / no wonder…",
+  "simpleExplanation": "〜わけだ is the sound of things clicking into place. You learn a fact, and a conclusion follows naturally: \"Oh, so that's why…\" or \"That means…\". It is not a guess; it is a logical result of what you now know. 三年も住んでいた → 上手なわけだ (lived there three years → no wonder he's good).",
+  "whenUsed": "Conversation and writing. Three typical jobs: (1) sudden understanding, often with なるほど / どうりで; (2) restating in other words, often with つまり; (3) drawing the result of a calculation or chain of facts.",
+  "formation": [
+    "Verb (plain form) + わけだ",
+    "い-adjective + わけだ",
+    "な-adjective + な + わけだ",
+    "Noun + の / という + わけだ",
+    "Polite: 〜わけです / Explaining: 〜というわけだ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The わけ family",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜わけだ",
+        "cells": [
+          "so that's why / that means",
+          "三年住んでいた。上手なわけだ。"
+        ]
+      },
+      {
+        "label": "〜わけではない",
+        "cells": [
+          "it's not that…",
+          "嫌いなわけではない。"
+        ]
+      },
+      {
+        "label": "〜わけがない",
+        "cells": [
+          "there's no way that…",
+          "彼が嘘をつくわけがない。"
+        ]
+      },
+      {
+        "label": "〜わけにはいかない",
+        "cells": [
+          "can't (for social reasons)",
+          "休むわけにはいかない。"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "三年も住んでいたのか。日本語が上手なわけだ。",
+      "reading": "さんねんもすんでいたのか。にほんごがじょうずなわけだ。",
+      "en": "You lived there for three years? No wonder your Japanese is good.",
+      "note": "Sudden understanding: a fact (three years) explains what was puzzling (his skill)."
+    },
+    {
+      "ja": "一つ五百円で三つ買ったから、千五百円払ったわけだ。",
+      "reading": "ひとつごひゃくえんでみっつかったから、せんごひゃくえんはらったわけだ。",
+      "en": "They were 500 yen each and I bought three, so that means I paid 1,500 yen.",
+      "note": "Calculation: the facts add up to a numeric conclusion."
+    },
+    {
+      "ja": "電気が消えている。誰もいないわけだ。",
+      "reading": "でんきがきえている。だれもいないわけだ。",
+      "en": "The lights are off. So nobody is here.",
+      "note": "Inference from evidence: the lights are off, so the conclusion follows."
+    },
+    {
+      "ja": "なるほど、彼は昔歌手だったのか。どうりで歌がうまいわけだ。",
+      "reading": "なるほど、かれはむかしかしゅだったのか。どうりでうたがうまいわけだ。",
+      "en": "I see, he used to be a singer. No wonder he sings so well.",
+      "note": "なるほど and どうりで are the classic partners of わけだ."
+    },
+    {
+      "ja": "つまり、来週の金曜日までに提出すればいいというわけですね。",
+      "reading": "つまり、らいしゅうのきんようびまでにていしゅつすればいいというわけですね。",
+      "en": "So in other words, it's fine as long as I submit it by next Friday, right?",
+      "note": "つまり…というわけですね restates what someone explained."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "The negative: \"it's not that…\". Denies a conclusion instead of drawing one.",
+      "id": "n3-grammar-4"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "\"Should be\": the speaker's expectation before checking. わけだ is a conclusion after the facts are known."
+    },
+    {
+      "pattern": "〜ということだ",
+      "difference": "\"It means that…\" also restates, but is more neutral and can report hearsay. わけだ carries the \"now I understand\" feeling.",
+      "id": "n3-grammar-12"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三年も住んでいたのか。上手わけだ。",
+      "right": "上手なわけだ。",
+      "why": "上手 is a な-adjective, so な is needed before わけ."
+    },
+    {
+      "wrong": "明日は雨が降るわけだ。(as a forecast)",
+      "right": "明日は雨が降るはずだ。/ 降るそうだ。",
+      "why": "わけだ needs a reason already known. For a plain prediction use はずだ or hearsay forms."
+    },
+    {
+      "wrong": "彼は日本人のわけだ。",
+      "right": "彼は日本人だというわけだ。/ 日本人なわけだ。",
+      "why": "Nouns take という or な before わけだ; の + わけだ sounds unnatural."
+    }
+  ],
+  "usageNotes": [
+    "〜わけだ presents a conclusion as naturally following from facts; 〜はずだ is the speaker's expectation. Often paired with だから / それで / 〜から.",
+    "A sentence with わけだ almost always refers back to something just said or noticed; it rarely opens a conversation."
+  ],
+  "jlptTips": [
+    "Look for なるほど, どうりで, つまり, or a first sentence that states a fact. If the blank sums up its consequence, choose わけだ.",
+    "Do not pick わけだ when the sentence is a guess about the future; that is はずだ.",
+    "In 並べ替え, 〜という + わけだ is often split into two chunks; join them first."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-3-1",
+    "q-n3-g-3-2",
+    "q-n3-g-3-3",
+    "q-n3-g-3-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-3-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-84",
+  "slug": "to-iu-mono-dewa-nai",
+  "level": "n2",
+  "order": 84,
+  "title": "〜というものではない / 〜というものでもない",
+  "romaji": "to iu mono dewa nai / demo nai",
+  "meaning": "it's not that ... (necessarily)",
+  "simpleExplanation": "〜というものではない / 〜というものでもない means \"it's not (necessarily) the case that…\". It gently denies a common assumption, especially one shaped as \"if X, then good\": it's not that more expensive is better; practice does not necessarily make anyone good.",
+  "whenUsed": "Both registers. Very often follows a conditional (〜ば・〜たら) or a general claim. でもない is a softer \"not necessarily either\". It resembles 〜わけではない but targets general beliefs rather than a specific situation.",
+  "formation": [
+    "普通形 + というものではない / というものでもない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "高ければいい",
+        "en": "a common assumption"
+      },
+      {
+        "ja": "高ければいいというものではない",
+        "en": "it's not that this assumption holds"
+      },
+      {
+        "ja": "高ければいいというものでもない",
+        "en": "…not necessarily, either (softer)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "高ければいいというものではない。",
+      "reading": "たかければいいというものではない。",
+      "en": "It's not that more expensive is better.",
+      "note": "Conditional + というものではない."
+    },
+    {
+      "ja": "練習すれば誰でも上手になるというものでもない。",
+      "reading": "れんしゅうすればだれでもじょうずになるというものでもない。",
+      "en": "It's not necessarily the case that anyone becomes good with practice.",
+      "note": "Conditional + というものでもない."
+    },
+    {
+      "ja": "謝れば済むというものではない。",
+      "reading": "あやまればすむというものではない。",
+      "en": "Apologizing isn't enough to settle it.",
+      "note": "Denial of a simplistic solution."
+    },
+    {
+      "ja": "薬は多く飲めば早く治るというものではない。",
+      "reading": "くすりはおおくのめばはやくなおるというものではない。",
+      "en": "It's not the case that taking more medicine makes you recover faster.",
+      "note": "Denies a naive assumption."
+    },
+    {
+      "ja": "お金があれば幸せになれるというものでもないだろう。",
+      "reading": "おかねがあればしあわせになれるというものでもないだろう。",
+      "en": "Having money doesn't necessarily make you happy, either.",
+      "note": "でもない + だろう: softened."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "Partial denial about a specific case or impression; というものではない denies a general belief.",
+      "id": "n2-grammar-164"
+    },
+    {
+      "pattern": "〜というものだ",
+      "difference": "The affirmative counterpart: a firm definition.",
+      "id": "n2-grammar-83"
+    },
+    {
+      "pattern": "〜とは限らない",
+      "difference": "\"Not always\": denies universality; very close in meaning.",
+      "id": "n2-grammar-130"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "高いというものではない。（intending \"it's not expensive\"）",
+      "right": "高いわけではない。/ 高くない。",
+      "why": "というものではない denies a general proposition, not a simple fact."
+    },
+    {
+      "wrong": "高ければいいというものはない。",
+      "right": "高ければいいというものではない。",
+      "why": "The form is というもの + ではない."
+    },
+    {
+      "wrong": "高ければいいというものでもなく、絶対に安いほうがいい。",
+      "right": "高ければいいというものでもなく、値段より質が大切だ。",
+      "why": "After denying a simplistic rule, do not replace it with an equally simplistic one."
+    }
+  ],
+  "usageNotes": [
+    "Frequent preceding forms: 〜ばいい, 〜さえすればいい, 〜ば〜になる.",
+    "Often followed by a more balanced view (〜が大切だ).",
+    "Casual: というもんじゃない."
+  ],
+  "jlptTips": [
+    "A conditional generalization (〜ばいい) + blank → というものではない.",
+    "Distractors: というものだ, わけにはいかない, ということだ. If the sentence denies a naive rule, choose the ではない form.",
+    "In 並べ替え, keep という + もの + ではない together as one chunk if split."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-84-1",
+    "q-n2-g-84-2",
+    "q-n2-g-84-3",
+    "q-n2-g-84-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-84-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

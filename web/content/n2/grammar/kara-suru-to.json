@@ -1,0 +1,139 @@
+{
+  "id": "n2-grammar-29",
+  "slug": "kara-suru-to",
+  "level": "n2",
+  "order": 29,
+  "title": "〜からすると / 〜からすれば",
+  "romaji": "kara suru to / kara sureba",
+  "meaning": "from the perspective of; judging from",
+  "simpleExplanation": "〜からすると / 〜からすれば means \"from the perspective of…\" (a person or group) or \"judging from…\" (evidence). Parents see their children as always children; from that look, the exam went badly.",
+  "whenUsed": "Both registers. The noun can be a person or group (親・専門家・外国人) or a piece of evidence (様子・話・データ). It is the most flexible of the から〜 viewpoint patterns; からいうと is limited to criteria and からして to representative features.",
+  "formation": [
+    "N + からすると / からすれば"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Viewpoint patterns",
+    "columns": [
+      "Person OK?",
+      "Typical noun"
+    ],
+    "rows": [
+      {
+        "label": "〜からすると",
+        "cells": [
+          "yes",
+          "親・専門家・様子"
+        ]
+      },
+      {
+        "label": "〜から見ると",
+        "cells": [
+          "yes",
+          "外国人・足跡"
+        ]
+      },
+      {
+        "label": "〜からいうと",
+        "cells": [
+          "no",
+          "経験・立場・成績"
+        ]
+      },
+      {
+        "label": "〜からして",
+        "cells": [
+          "no",
+          "態度・名前 (one feature)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "親からすれば、子供はいくつになっても子供だ。",
+      "reading": "おやからすれば、こどもはいくつになってもこどもだ。",
+      "en": "From a parent's perspective, a child is always a child.",
+      "note": "Person as viewpoint (親)."
+    },
+    {
+      "ja": "あの様子からすると、試験はうまくいかなかったようだ。",
+      "reading": "あのようすからすると、しけんはうまくいかなかったようだ。",
+      "en": "Judging from that look, the exam apparently didn't go well.",
+      "note": "Evidence (様子) leading to inference with ようだ."
+    },
+    {
+      "ja": "専門家からすると、この計画には問題が多い。",
+      "reading": "せんもんかからすると、このけいかくにはもんだいがおおい。",
+      "en": "From an expert's standpoint, this plan has many problems.",
+      "note": "Group as viewpoint (専門家)."
+    },
+    {
+      "ja": "この数字からすると、来年も売り上げは伸びそうだ。",
+      "reading": "このすうじからすると、らいねんもうりあげはのびそうだ。",
+      "en": "Judging from these figures, sales look set to grow next year too.",
+      "note": "Data as evidence."
+    },
+    {
+      "ja": "外国人からすれば、日本の敬語はとても難しい。",
+      "reading": "がいこくじんからすれば、にほんのけいごはとてもむずかしい。",
+      "en": "From a foreigner's point of view, Japanese honorifics are very difficult.",
+      "note": "Group perspective."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からいうと",
+      "difference": "Criterion only, no persons.",
+      "id": "n2-grammar-27"
+    },
+    {
+      "pattern": "〜からして",
+      "difference": "One representative feature with \"even just\" emphasis.",
+      "id": "n2-grammar-28"
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For (someone)\": the importance or effect on a person, rather than their judgment.",
+      "id": "n2-grammar-131"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "親からすると、子供はいくつになっても子供ですか。",
+      "right": "親からすると、子供はいくつになっても子供だ。",
+      "why": "The second clause is the viewpoint holder's judgment, not a question to them."
+    },
+    {
+      "wrong": "あの様子からすると、試験はうまくいった。（stated as fact）",
+      "right": "あの様子からすると、試験はうまくいったようだ。",
+      "why": "Inference from evidence normally ends with ようだ / らしい / だろう."
+    },
+    {
+      "wrong": "私にからすると",
+      "right": "私からすると",
+      "why": "No に before からすると."
+    }
+  ],
+  "usageNotes": [
+    "からすれば and からしたら are interchangeable with からすると.",
+    "With evidence nouns, the ending is a conjecture (ようだ・らしい・だろう・に違いない).",
+    "With person nouns, the ending is often an evaluation (難しい・当然だ・不思議だ)."
+  ],
+  "jlptTips": [
+    "If the noun is a person or group, からすると is the safe choice among から〜 patterns.",
+    "Distractors: からいうと (no persons), にとって, として. If the second clause is a judgment made by that person, からすると; if it is the effect on that person, にとって.",
+    "Evidence noun + ようだ ending is a common 文法形式 frame for からすると."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-29-1",
+    "q-n2-g-29-2",
+    "q-n2-g-29-3",
+    "q-n2-g-29-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-29-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,122 @@
+{
+  "id": "n2-grammar-110",
+  "slug": "ni-kotaete",
+  "level": "n2",
+  "order": 110,
+  "title": "〜にこたえて / 〜にこたえる",
+  "romaji": "ni kotaete / ni kotaeru",
+  "meaning": "in response to (expectations, requests, demands)",
+  "simpleExplanation": "〜にこたえて means \"in response to X\" where X is a request, demand, expectation, or wish from other people, and the action fulfils it. The verb こたえる (応える) here means \"to live up to / to meet\", not \"to answer a question\". The noun before it is almost always 期待, 要望, 要求, 声, 希望, or 声援.",
+  "whenUsed": "Formal writing and announcements: companies responding to customer requests, athletes living up to fans' expectations. In conversation people say 〜の希望どおりに or simply 〜ので. The noun-modifying form 〜にこたえる + N is common in slogans and mission statements.",
+  "formation": [
+    "Noun (期待・要望・要求・声・希望) + にこたえて / にこたえ",
+    "Noun + にこたえる + Noun (要望にこたえる商品)",
+    "Noun + にこたえるために / にこたえられるよう",
+    "Kanji: 応えて (usual). 答えて is used for answering questions."
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "ファンの期待",
+        "role": "other people's expectation or request"
+      },
+      {
+        "text": "にこたえて",
+        "role": "in response to, living up to",
+        "highlight": true
+      },
+      {
+        "text": "、彼はホームランを打った",
+        "role": "action that fulfils it"
+      }
+    ],
+    "translation": "Living up to the fans' expectations, he hit a home run."
+  },
+  "examples": [
+    {
+      "ja": "ファンの期待にこたえて、彼はホームランを打った。",
+      "reading": "ファンのきたいにこたえて、かれはホームランをうった。",
+      "en": "Living up to the fans' expectations, he hit a home run.",
+      "note": "期待にこたえる = live up to expectations; the home run fulfils them."
+    },
+    {
+      "ja": "お客様の要望にこたえ、営業時間を延長した。",
+      "reading": "おきゃくさまのようぼうにこたえ、えいぎょうじかんをえんちょうした。",
+      "en": "In response to customers' requests, we extended business hours.",
+      "note": "A company acting on customer requests; にこたえ is the written variant."
+    },
+    {
+      "ja": "社員の声にこたえる制度を作りたい。",
+      "reading": "しゃいんのこえにこたえるせいどをつくりたい。",
+      "en": "We want to build a system that responds to employees' voices.",
+      "note": "Noun-modifying にこたえる + 制度: a system that responds to voices."
+    },
+    {
+      "ja": "皆さんの声援にこたえて、最後まで全力で走ります。",
+      "reading": "みなさんのせいえんにこたえて、さいごまでぜんりょくではしります。",
+      "en": "In answer to your cheers, I will run at full strength to the end.",
+      "note": "声援 (cheering) is a common noun before this pattern."
+    },
+    {
+      "ja": "利用者のニーズにこたえられるよう、サービスを改善した。",
+      "reading": "りようしゃのニーズにこたえられるよう、サービスをかいぜんした。",
+      "en": "We improved the service so as to be able to meet users' needs.",
+      "note": "Potential form こたえられる + よう(に) expresses purpose."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に応じて",
+      "difference": "\"According to / depending on X\": the action varies with X (状況に応じて). にこたえて fulfils a request; に応じて adjusts to a condition."
+    },
+    {
+      "pattern": "〜に沿って",
+      "difference": "\"In line with (a policy or wish)\"; follows a guideline rather than fulfilling a demand.",
+      "id": "n2-grammar-120"
+    },
+    {
+      "pattern": "〜に対して",
+      "difference": "\"Toward / in response to\" in a neutral sense (質問に対して答える); no nuance of living up to something.",
+      "id": "n2-grammar-121"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生の質問にこたえて、手を挙げた。",
+      "right": "先生の質問に答えて、手を挙げた。/ 先生の質問に対して、手を挙げた。",
+      "why": "For answering a question, the kanji is 答える and the pattern is different; 応える pairs with 期待・要望."
+    },
+    {
+      "wrong": "天気にこたえて、予定を変えた。",
+      "right": "天気に応じて、予定を変えた。",
+      "why": "Adjusting to a condition is に応じて. にこたえて needs a human request or expectation."
+    },
+    {
+      "wrong": "期待にこたえて、失敗した。",
+      "right": "期待にこたえて、優勝した。",
+      "why": "The action after にこたえて should fulfil the expectation, not disappoint it. For failure use 期待に反して."
+    }
+  ],
+  "usageNotes": [
+    "Set collocations: 期待にこたえる, 要望にこたえる, 声にこたえる, 声援にこたえる, ニーズにこたえる.",
+    "The opposite is 期待に反して / 期待を裏切る.",
+    "In advertising: お客様の声にこたえて新登場！"
+  ],
+  "jlptTips": [
+    "If the noun before the blank is 期待, 要望, 要求 or 声 and the action satisfies it, choose にこたえて. If the noun is a condition (状況, 場合, 人数), choose に応じて.",
+    "Distractors often include に反して (opposite result) and に対して (neutral target). Check whether the result fulfils or contradicts the expectation.",
+    "In 並べ替え, keep 期待 + にこたえて together."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-110-1",
+    "q-n2-g-110-2",
+    "q-n2-g-110-3",
+    "q-n2-g-110-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-110-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

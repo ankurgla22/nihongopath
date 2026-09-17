@@ -1,0 +1,127 @@
+{
+  "id": "n4-grammar-110",
+  "slug": "te-kurete-arigatou",
+  "level": "n4",
+  "order": 110,
+  "title": "〜てくれてありがとう / 〜てくださってありがとうございます \"thank you for doing\"",
+  "romaji": "te kurete arigatou",
+  "meaning": "Thanking someone for a specific action.",
+  "simpleExplanation": "To thank someone for a specific action, Japanese needs the verb て-form plus くれて before ありがとう: 手伝ってくれてありがとう = thanks for helping me. The くれる shows that the action was done for you; without it (×手伝ってありがとう) the sentence is wrong. In polite speech, くれて becomes くださって: 来てくださって、ありがとうございます. The humble version いただいて (教えていただいて、ありがとうございました) thanks someone for what you received from them.",
+  "whenUsed": "Everyday thanks between friends (来てくれてありがとう), polite thanks to customers, teachers and hosts (お越しくださってありがとうございます), and e-mails after a favour. Use ありがとうございました for a favour that is finished.",
+  "formation": [
+    "V-て + くれてありがとう (casual): 手伝ってくれてありがとう",
+    "V-て + くださって(、)ありがとうございます (polite): 来てくださって、ありがとうございます",
+    "V-て + いただいて(、)ありがとうございます (humble): 教えていただいて、ありがとうございました",
+    "Finished favour: ありがとうございました"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "手伝う",
+        "en": "help (dictionary form)"
+      },
+      {
+        "ja": "手伝ってくれる",
+        "en": "(someone) helps me: て-form + くれる"
+      },
+      {
+        "ja": "手伝ってくれて",
+        "en": "て-form of くれる to link to the thanks"
+      },
+      {
+        "ja": "手伝ってくれてありがとう",
+        "en": "thanks for helping me"
+      },
+      {
+        "ja": "手伝ってくださって、ありがとうございます",
+        "en": "polite: くれて → くださって"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "手伝ってくれてありがとう。",
+      "reading": "てつだってくれて ありがとう。",
+      "en": "Thanks for helping me.",
+      "note": "Casual: てくれてありがとう."
+    },
+    {
+      "ja": "来てくださって、ありがとうございます。",
+      "reading": "きてくださって、ありがとうございます。",
+      "en": "Thank you for coming.",
+      "note": "Polite: てくださって + ありがとうございます."
+    },
+    {
+      "ja": "教えていただいて、ありがとうございました。",
+      "reading": "おしえていただいて、ありがとうございました。",
+      "en": "Thank you for teaching me.",
+      "note": "Humble: ていただいて; ございました for a completed favour."
+    },
+    {
+      "ja": "誕生日にプレゼントを送ってくれて、本当にありがとう。",
+      "reading": "たんじょうびに プレゼントを おくってくれて、ほんとうに ありがとう。",
+      "en": "Thank you so much for sending me a birthday present.",
+      "note": "本当に can be inserted before ありがとう."
+    },
+    {
+      "ja": "先日は、丁寧に説明してくださって、ありがとうございました。",
+      "reading": "せんじつは、ていねいに せつめいしてくださって、ありがとうございました。",
+      "en": "Thank you for explaining so carefully the other day.",
+      "note": "A completed favour: くださって + ありがとうございました."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てくれる",
+      "difference": "The base pattern: someone does something for me. Add て + ありがとう to thank them for it.",
+      "id": "n4-grammar-33"
+    },
+    {
+      "pattern": "〜てもらう",
+      "difference": "〜てもらって / ていただいて + ありがとう is the receiving-side version, common in polite thanks.",
+      "id": "n4-grammar-34"
+    },
+    {
+      "pattern": "〜てすみません",
+      "difference": "The apology counterpart: 遅れてすみません (sorry for being late). Note there is no くれて here because it is your own action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "手伝ってありがとう。",
+      "right": "手伝ってくれてありがとう。",
+      "why": "The very common learner error: くれて must show the action was done for you."
+    },
+    {
+      "wrong": "先生、教えてくれてありがとうございます。",
+      "right": "先生、教えてくださって、ありがとうございます。",
+      "why": "To a teacher use the respectful くださって (or humble いただいて), not くれて."
+    },
+    {
+      "wrong": "手伝ってくれるありがとう。",
+      "right": "手伝ってくれてありがとう。",
+      "why": "くれる must be in the て-form to connect to ありがとう."
+    }
+  ],
+  "usageNotes": [
+    "In very polite thanks the て-form is often followed by a comma and ありがとうございます: ご連絡くださって、ありがとうございます.",
+    "For favours you asked for, いただいて is slightly more common than くださって; both are correct.",
+    "You can add the noun form: 〜てくれて、感謝しています (I'm grateful that you…)."
+  ],
+  "jlptTips": [
+    "A blank between a て-form verb and ありがとう must contain くれて / くださって / いただいて. A bare て-form is always wrong.",
+    "Check the relationship: friend → くれて; teacher, customer, boss → くださって or いただいて + ございます."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-110-1",
+    "q-n4-g-110-2",
+    "q-n4-g-110-3",
+    "q-n4-g-110-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-110-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

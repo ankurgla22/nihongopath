@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-2",
+  "slug": "volitional-form",
+  "level": "n4",
+  "order": 2,
+  "title": "Volitional form (〜う / 〜よう) \"let's / I shall\"",
+  "romaji": "ikou-kei (u / you)",
+  "meaning": "Plain equivalent of 〜ましょう: \"let's\", \"I'll\", or an inner resolve.",
+  "simpleExplanation": "The volitional form is the plain (casual) version of 〜ましょう. 行こう means \"let's go\" when you say it to someone, and \"I'll go / I think I'll go\" when you say it to yourself. It expresses the will to act. It is also a building block: 〜ようと思う (I think I'll…), 〜ようとする (try to…) and 〜ようか (shall we…?) are all built on it.",
+  "whenUsed": "Casual invitations between friends and family (帰ろう = let's go home), decisions you make in your head (早く寝よう = I'll go to bed early) and on signs or slogans (守ろう、交通ルール). In polite speech the same idea is 〜ましょう.",
+  "formation": [
+    "Group 1: change the last う-row sound to the お-row and add う: 書く→書こう, 行く→行こう, 話す→話そう, 待つ→待とう, 飲む→飲もう",
+    "Group 2: drop る and add よう: 食べる→食べよう, 見る→見よう, 起きる→起きよう",
+    "Group 3: する→しよう, 来る→来よう (こよう)",
+    "Polite equivalent: 〜ましょう; question: 〜ようか / 〜ましょうか"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "行く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "u-row → o-row + う",
+        "result": "行こう",
+        "label": "Group 1: let's go"
+      },
+      {
+        "suffix": "-る → -よう",
+        "result": "食べよう",
+        "label": "Group 2: let's eat"
+      },
+      {
+        "suffix": "する → しよう",
+        "result": "しよう",
+        "label": "Group 3: let's do"
+      },
+      {
+        "suffix": "来る → 来よう",
+        "result": "来よう (こよう)",
+        "label": "Group 3: let's come"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "一緒に帰ろう。",
+      "reading": "いっしょに かえろう。",
+      "en": "Let's go home together.",
+      "note": "Said to a friend: an invitation, the casual version of 帰りましょう."
+    },
+    {
+      "ja": "明日は早く起きよう。",
+      "reading": "あしたは はやく おきよう。",
+      "en": "I'll get up early tomorrow.",
+      "note": "Said to oneself: a resolution, \"I'll…\"."
+    },
+    {
+      "ja": "疲れたから、少し休もうか。",
+      "reading": "つかれたから、すこし やすもうか。",
+      "en": "I'm tired, so shall we rest a bit?",
+      "note": "〜ようか asks \"shall we…?\" gently."
+    },
+    {
+      "ja": "今日は天気がいいから、公園でお弁当を食べよう。",
+      "reading": "きょうは てんきが いいから、こうえんで おべんとうを たべよう。",
+      "en": "The weather is nice today, so let's eat our lunch in the park.",
+      "note": "Group 2 verb: 食べる → 食べよう."
+    },
+    {
+      "ja": "もう遅いから、続きは明日にしよう。",
+      "reading": "もう おそいから、つづきは あしたに しよう。",
+      "en": "It's late already, so let's leave the rest for tomorrow.",
+      "note": "する → しよう. 〜にしよう means \"let's make it / decide on\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようと思う",
+      "difference": "Adds と思う to the volitional to report an intention (\"I think I'll…\"). The bare volitional is a decision or invitation spoken out loud.",
+      "id": "n4-grammar-3"
+    },
+    {
+      "pattern": "〜ようとする",
+      "difference": "Volitional + とする means \"try to / be about to do\" and is about an attempt, not an invitation.",
+      "id": "n4-grammar-77"
+    },
+    {
+      "pattern": "〜ましょう / 〜ませんか",
+      "difference": "〜ましょう is the polite volitional. 〜ませんか (\"won't you…?\") is a softer invitation that leaves the choice to the listener."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一緒に食べろう。",
+      "right": "一緒に食べよう。",
+      "why": "Group 2 verbs take よう, not ろう. 食べろう does not exist (食べろ is the imperative)."
+    },
+    {
+      "wrong": "先生、一緒に行こう。",
+      "right": "先生、一緒に行きましょう。",
+      "why": "The plain volitional is casual. To a teacher or a customer, use 〜ましょう or 〜ませんか."
+    },
+    {
+      "wrong": "来年、日本へ行くうと思います。",
+      "right": "来年、日本へ行こうと思います。",
+      "why": "Change 行く to the お-row first (行こ), then add う. Adding う directly to the dictionary form is wrong."
+    }
+  ],
+  "usageNotes": [
+    "Alone, the volitional is casual. It is fine among friends and in your own thoughts, but not to superiors.",
+    "〜ようか (帰ろうか？) makes a soft suggestion, like \"shall we head home?\".",
+    "Slogans and campaign posters use it to include everyone: 守ろう、地球の環境 (Let's protect the earth's environment)."
+  ],
+  "jlptTips": [
+    "Conjugation questions often list 行こう / 行ける / 行かれる / 行けば. Before choosing, identify the ending you need: お-row + う = volitional.",
+    "In 文法形式, the volitional rarely stands alone. Check what follows the blank: と思う, とする, か, or nothing. If と思う or とする follows, the volitional (not the dictionary form) is required."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-2-1",
+    "q-n4-g-2-2",
+    "q-n4-g-2-3",
+    "q-n4-g-2-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-2-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

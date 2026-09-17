@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-103",
+  "slug": "darou-deshou",
+  "level": "n4",
+  "order": 103,
+  "title": "〜だろう / 〜でしょう (conjecture) \"probably / I suppose\"",
+  "romaji": "darou / deshou",
+  "meaning": "Speaker's guess about something uncertain; だろう is the plain form of でしょう. With rising intonation (でしょう？ / だろう？) it seeks agreement.",
+  "simpleExplanation": "だろう and its polite form でしょう add \"probably / I suppose\" to a sentence: 明日は晴れるだろう = it'll probably be sunny tomorrow. They show a guess that the speaker is fairly confident about, often with たぶん or きっと. With rising intonation (面白いでしょう？) they ask the listener to agree, like \"isn't it?\". Before だろう / でしょう, nouns and な-adjectives lose だ: 雨だろう, 静かだろう (not 雨だだろう).",
+  "whenUsed": "Weather forecasts (明日は雨でしょう), predictions about people and events (彼は来ないでしょう), softening statements to superiors, and checking agreement (いいでしょう？). だろう is plain and sounds masculine in casual speech; でしょう is polite and used by everyone. 〜だろうと思う is a softened guess.",
+  "formation": [
+    "V-plain + だろう／でしょう: 降るだろう, 来ないでしょう, 行っただろう",
+    "い-adjective + だろう／でしょう: 寒いでしょう",
+    "な-adjective / Noun + だろう／でしょう (no だ): 静かだろう, 雨でしょう",
+    "Agreement seeking: 〜でしょう？ / 〜だろう？ (rising intonation)",
+    "Softened: 〜だろうと思う"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How sure is the speaker?",
+    "items": [
+      {
+        "label": "かもしれない",
+        "description": "maybe, 50% or less: 雨が降るかもしれない"
+      },
+      {
+        "label": "だろう / でしょう",
+        "description": "probably, a confident guess: たぶん雨が降るだろう"
+      },
+      {
+        "label": "はずだ",
+        "description": "should be, based on reasons: 予報では雨が降るはずだ"
+      },
+      {
+        "label": "〜る / 〜ます (plain statement)",
+        "description": "certain: 雨が降る"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日はたぶん晴れるだろう。",
+      "reading": "あしたは たぶん はれるだろう。",
+      "en": "It will probably be sunny tomorrow.",
+      "note": "たぶん + だろう: a plain-form prediction."
+    },
+    {
+      "ja": "彼はきっと来ないでしょう。",
+      "reading": "かれは きっと こないでしょう。",
+      "en": "He surely won't come.",
+      "note": "きっと + でしょう: a confident polite guess."
+    },
+    {
+      "ja": "この映画、面白いでしょう？",
+      "reading": "この えいが、おもしろいでしょう？",
+      "en": "This movie is interesting, isn't it?",
+      "note": "でしょう？ with rising intonation asks for agreement."
+    },
+    {
+      "ja": "今日の午後は、雨が降るでしょう。",
+      "reading": "きょうの ごごは、あめが ふるでしょう。",
+      "en": "It will probably rain this afternoon.",
+      "note": "The standard weather-forecast ending; forecasters never say 降ります."
+    },
+    {
+      "ja": "この問題は難しいから、みんなできなかっただろうと思う。",
+      "reading": "この もんだいは むずかしいから、みんな できなかっただろうと おもう。",
+      "en": "This question was hard, so I think probably nobody could do it.",
+      "note": "〜だろうと思う: a guess about the past, softened."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かもしれない",
+      "difference": "かもしれない is weaker (\"might\"); だろう is a confident \"probably\".",
+      "id": "n4-grammar-40"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "はずだ is based on evidence or logic (\"should be\"); だろう is the speaker's guess.",
+      "id": "n4-grammar-39"
+    },
+    {
+      "pattern": "〜ようだ・みたいだ",
+      "difference": "ようだ is a judgement from what you see or sense; だろう is a prediction without needing evidence.",
+      "id": "n4-grammar-37"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日は雨だでしょう。",
+      "right": "明日は雨でしょう。",
+      "why": "Nouns and な-adjectives drop だ before でしょう / だろう."
+    },
+    {
+      "wrong": "彼は来ますでしょう。",
+      "right": "彼は来るでしょう。",
+      "why": "でしょう follows the plain form, not the ます-form."
+    },
+    {
+      "wrong": "私は明日大阪へ行くだろう。(about your own fixed plan)",
+      "right": "私は明日大阪へ行きます。／ 行くつもりです。",
+      "why": "だろう is for guesses; do not use it for your own decided actions."
+    }
+  ],
+  "usageNotes": [
+    "でしょう with a falling tone is a prediction; with a rising tone it asks for agreement. In the exam, a question mark after でしょう signals the agreement use.",
+    "〜でしょうか makes a very polite question: 明日は晴れるでしょうか (I wonder if it will be sunny tomorrow?).",
+    "In casual male speech だろう often becomes だろ: そうだろ？"
+  ],
+  "jlptTips": [
+    "たぶん or きっと near the blank strongly suggests だろう / でしょう. Check the word before the blank: nouns and な-adjectives must have no だ.",
+    "Certainty scale questions compare かもしれない < でしょう < はずだ. Words like 必ず or a clear reason point to はずだ; 多分 points to でしょう."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-103-1",
+    "q-n4-g-103-2",
+    "q-n4-g-103-3",
+    "q-n4-g-103-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-103-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

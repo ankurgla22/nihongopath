@@ -1,0 +1,141 @@
+{
+  "id": "n5-grammar-28",
+  "slug": "na-adjective-conjugation",
+  "level": "n5",
+  "order": 28,
+  "title": "な-adjective conjugation",
+  "romaji": "na adjective conjugation",
+  "meaning": "Adjectives that take な before a noun; they conjugate exactly like nouns + copula.",
+  "simpleExplanation": "な-adjectives (静か, 元気, きれい, 有名) describe things but do not end in a changeable い. They behave like nouns: 静かです, 静かじゃありません, 静かでした, 静かじゃありませんでした. The name comes from the な they take before a noun: 静かな町 \"a quiet town\". Watch out: きれい and 嫌い end in い but are な-adjectives.",
+  "whenUsed": "Describing people (親切, 元気), places (静か, にぎやか, 有名), things (便利, 大切), and feelings (好き, 嫌い). Learn the common な-adjectives as a list so you never treat them as い-adjectives.",
+  "formation": [
+    "Present: 静かだ ／ 静かです",
+    "Negative: 静かじゃない ／ 静かじゃありません・静かじゃないです",
+    "Past: 静かだった ／ 静かでした",
+    "Past negative: 静かじゃなかった ／ 静かじゃありませんでした",
+    "Before a noun: 静かな町",
+    "て-form: 静かで",
+    "Adverb: 静かに"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "静か",
+    "rootLabel": "な-adjective",
+    "branches": [
+      {
+        "suffix": "+ です",
+        "result": "静かです",
+        "label": "present polite"
+      },
+      {
+        "suffix": "+ じゃありません",
+        "result": "静かじゃありません",
+        "label": "negative"
+      },
+      {
+        "suffix": "+ でした",
+        "result": "静かでした",
+        "label": "past"
+      },
+      {
+        "suffix": "+ な + noun",
+        "result": "静かな町",
+        "label": "before a noun"
+      },
+      {
+        "suffix": "+ で",
+        "result": "静かで",
+        "label": "て-form (and...)"
+      },
+      {
+        "suffix": "+ に",
+        "result": "静かに",
+        "label": "adverb"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この町は静かで、きれいです。",
+      "reading": "この まちは しずかで、きれいです。",
+      "en": "This town is quiet and pretty.",
+      "note": "て-form 静かで joins two descriptions."
+    },
+    {
+      "ja": "田中さんは親切な人です。",
+      "reading": "たなかさんは しんせつな ひとです。",
+      "en": "Mr Tanaka is a kind person.",
+      "note": "な before a noun: 親切な人."
+    },
+    {
+      "ja": "昨日は暇じゃありませんでした。",
+      "reading": "きのうは ひまじゃありませんでした。",
+      "en": "I was not free yesterday.",
+      "note": "Past negative: じゃありませんでした."
+    },
+    {
+      "ja": "この町はとても有名です。",
+      "reading": "この まちは とても ゆうめいです。",
+      "en": "This town is very famous.",
+      "note": "有名 + です, just like a noun."
+    },
+    {
+      "ja": "きれいな花ですね。",
+      "reading": "きれいな はなですね。",
+      "en": "What a pretty flower.",
+      "note": "きれい ends in い but is a な-adjective: きれいな, never きれい花."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-27",
+      "pattern": "い-adjective conjugation",
+      "difference": "い-adjectives change their ending (高くない); な-adjectives use the copula (静かじゃない)."
+    },
+    {
+      "id": "n5-grammar-13",
+      "pattern": "の",
+      "difference": "Nouns link with の (日本の車); な-adjectives link with な (静かな町)."
+    },
+    {
+      "id": "n5-grammar-33",
+      "pattern": "になる",
+      "difference": "な-adjective + に + なる = \"become\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "きれいくない",
+      "right": "きれいじゃない",
+      "why": "きれい is a な-adjective; it takes じゃない."
+    },
+    {
+      "wrong": "静か町",
+      "right": "静かな町",
+      "why": "な is required between a な-adjective and a noun."
+    },
+    {
+      "wrong": "元気の人",
+      "right": "元気な人",
+      "why": "な-adjectives use な, not の, before a noun."
+    }
+  ],
+  "usageNotes": [
+    "きれい (pretty/clean) and 嫌い (dislike) end in い but are な-adjectives: きれいな部屋, きれいじゃない (NOT きれくない). 有名, 元気, 便利, 好き, 上手, 下手, 大切, 大丈夫 are all な-adjectives."
+  ],
+  "jlptTips": [
+    "Memorise the い-lookalikes: きれい, 嫌い, 有名 (ゆうめい). They take な and じゃない.",
+    "Before a noun: い-adjective + noun directly; な-adjective + な + noun. The blank between an adjective and a noun tests exactly this."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-28-1",
+    "q-n5-g-28-2",
+    "q-n5-g-28-3",
+    "q-n5-g-28-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-28-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

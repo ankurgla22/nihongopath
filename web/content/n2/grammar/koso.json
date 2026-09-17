@@ -1,0 +1,146 @@
+{
+  "id": "n2-grammar-179",
+  "slug": "koso",
+  "level": "n2",
+  "order": 179,
+  "title": "〜こそ",
+  "romaji": "koso",
+  "meaning": "precisely, the very (emphasis on a noun or phrase)",
+  "simpleExplanation": "〜こそ singles out one item as the very one: これこそ私が探していた本だ (this is the very book I was looking for). It replaces は or が and puts strong focus on the preceding word. Set phrases include こちらこそ (it is I who should…), 今度こそ / 今年こそ (this time for sure), and だからこそ (that is exactly why).",
+  "whenUsed": "Both speech and writing. こちらこそ is an everyday courtesy phrase. 今度こそ expresses renewed resolve. In writing, こそ marks the key point of an argument (〜こそが重要だ).",
+  "formation": [
+    "Noun + こそ (replacing は / が)",
+    "Noun + こそが (emphatic subject)",
+    "Set phrases: こちらこそ / 今度こそ / 今年こそ / これこそ / だからこそ",
+    "Verb / adjective + からこそ / てこそ (related patterns)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "は / が",
+      "こそ"
+    ],
+    "rows": [
+      {
+        "label": "Function",
+        "cells": [
+          "topic or subject, neutral",
+          "singles out X over alternatives"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "これが探していた本だ",
+          "これこそ探していた本だ"
+        ]
+      },
+      {
+        "label": "Nuance",
+        "cells": [
+          "plain statement",
+          "'this and nothing else'"
+        ]
+      },
+      {
+        "label": "Set phrases",
+        "cells": [
+          "-",
+          "こちらこそ, 今度こそ, だからこそ"
+        ]
+      }
+    ],
+    "title": "Adding emphasis with こそ"
+  },
+  "examples": [
+    {
+      "ja": "こちらこそ、よろしくお願いします。",
+      "reading": "こちらこそ、よろしくおねがいします。",
+      "en": "It is I who should ask for your kind regard.",
+      "note": "こちらこそ: returning a courtesy."
+    },
+    {
+      "ja": "これこそ、私が探していた本だ。",
+      "reading": "これこそ、わたしがさがしていたほんだ。",
+      "en": "This is the very book I was looking for.",
+      "note": "これこそ: the very thing."
+    },
+    {
+      "ja": "今年こそ、日本語能力試験に合格したい。",
+      "reading": "ことしこそ、にほんごのうりょくしけんにごうかくしたい。",
+      "en": "This year for sure, I want to pass the JLPT.",
+      "note": "今年こそ: renewed resolve after past failures."
+    },
+    {
+      "ja": "健康こそが一番の財産だ。",
+      "reading": "けんこうこそがいちばんのざいさんだ。",
+      "en": "Health is the greatest asset of all.",
+      "note": "こそが: emphatic subject in writing."
+    },
+    {
+      "ja": "彼の努力こそ、成功の理由だ。",
+      "reading": "かれのどりょくこそ、せいこうのりゆうだ。",
+      "en": "His effort, and nothing else, is the reason for the success.",
+      "note": "こそ replacing が."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からこそ",
+      "difference": "Emphatic reason clause.",
+      "id": "n2-grammar-177"
+    },
+    {
+      "pattern": "〜てこそ",
+      "difference": "Necessary condition for a positive result.",
+      "id": "n2-grammar-178"
+    },
+    {
+      "pattern": "〜さえ",
+      "difference": "\"Even\": an extreme example; こそ is 'the very one'.",
+      "id": "n2-grammar-180"
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "\"Only\": limitation rather than emphasis."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "こそこれが本だ。",
+      "right": "これこそ本だ。",
+      "why": "こそ follows the word it emphasizes."
+    },
+    {
+      "wrong": "今度こそは合格する。(acceptable but…)",
+      "right": "今度こそ合格する。",
+      "why": "こそ normally replaces は; adding は after it is possible but redundant here."
+    },
+    {
+      "wrong": "「ありがとう。」「こそこちら。」",
+      "right": "「こちらこそ。」",
+      "why": "The set phrase is こちらこそ."
+    }
+  ],
+  "usageNotes": [
+    "こちらこそ is the polite reply to ありがとう / よろしく.",
+    "今度こそ / 今年こそ imply previous failure.",
+    "In essays: 〜こそが〜だ marks the thesis."
+  ],
+  "jlptTips": [
+    "Set phrases (こちらこそ, 今度こそ, だからこそ) are the most frequent test items.",
+    "こそ replaces は / が; options with はこそ or がこそ are wrong.",
+    "In 並べ替え, こそ attaches to the emphasized noun; find the noun first."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-179-1",
+    "q-n2-g-179-2",
+    "q-n2-g-179-3",
+    "q-n2-g-179-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-179-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

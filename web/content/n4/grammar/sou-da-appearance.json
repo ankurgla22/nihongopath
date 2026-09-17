@@ -1,0 +1,137 @@
+{
+  "id": "n4-grammar-35",
+  "slug": "sou-da-appearance",
+  "level": "n4",
+  "order": 35,
+  "title": "〜そうだ (appearance) \"looks like / seems about to\"",
+  "romaji": "sou da (youtai)",
+  "meaning": "Judgement from direct visual impression: \"looks (delicious)\", \"about to (fall)\".",
+  "simpleExplanation": "This そうだ means \"looks like\" or \"seems about to\", based on what you see right now. おいしそう = looks delicious; 雨が降りそう = it looks like it's going to rain; 倒れそう = about to fall over. It attaches to the stem: verb ます-stem (降り), い-adjective without い (おいし), な-adjective stem (元気). Two irregulars: いい → よさそう, ない → なさそう. Because it describes appearance, it behaves like a な-adjective: そうな N, そうに V.",
+  "whenUsed": "Reacting to food, people and objects you can see (楽しそうですね, 重そうなかばん), predicting events from visible signs (落ちそう, 泣きそう), and describing how someone appears (うれしそうに笑った). Not for things whose appearance is already obvious (×きれいそう) and not for nouns (×学生そう).",
+  "formation": [
+    "V-ます stem + そうだ: 降りそうだ, 落ちそうだ, 泣きそうだ",
+    "い-adjective (drop い) + そうだ: おいしそうだ, 高そうだ; いい → よさそうだ; ない → なさそうだ",
+    "な-adjective stem + そうだ: 元気そうだ, 暇そうだ",
+    "Negative: verbs 〜そうもない / そうにない; adjectives 〜くなさそう / 〜じゃなさそう",
+    "Before a noun: 〜そうな N; as an adverb: 〜そうに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "そうだ (appearance) vs そうだ (hearsay)",
+    "columns": [
+      "Attaches to",
+      "Meaning",
+      "Example",
+      "Before a noun"
+    ],
+    "rows": [
+      {
+        "label": "Appearance そうだ",
+        "cells": [
+          "ます-stem / adjective stem (降り, おいし, 元気)",
+          "looks like, about to (what I see)",
+          "雨が降りそうだ / おいしそうだ",
+          "おいしそうなケーキ"
+        ]
+      },
+      {
+        "label": "Hearsay そうだ",
+        "cells": [
+          "plain form (降る, おいしい, 元気だ)",
+          "I hear that (what I was told)",
+          "雨が降るそうだ / おいしいそうだ",
+          "not possible"
+        ]
+      },
+      {
+        "label": "Irregulars (appearance only)",
+        "cells": [
+          "いい → よさ, ない → なさ",
+          "looks good / seems not",
+          "よさそうだ / お金がなさそうだ",
+          "よさそうな店"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "雨が降りそうです。",
+      "reading": "あめが ふりそうです。",
+      "en": "It looks like it's going to rain.",
+      "note": "Verb ます-stem 降り + そう: signs in the sky say rain is coming."
+    },
+    {
+      "ja": "彼は元気そうに見えました。",
+      "reading": "かれは げんきそうに みえました。",
+      "en": "He looked well.",
+      "note": "な-adjective 元気 + そうに + 見えた: appearance as an adverb."
+    },
+    {
+      "ja": "このケーキ、とてもおいしそうですね。",
+      "reading": "この ケーキ、とても おいしそうですね。",
+      "en": "This cake looks really delicious.",
+      "note": "おいしい → おいし + そう: judgement from what the speaker sees."
+    },
+    {
+      "ja": "棚の上の箱が落ちそうだから、気をつけて。",
+      "reading": "たなの うえの はこが おちそうだから、きをつけて。",
+      "en": "The box on the shelf looks like it's about to fall, so be careful.",
+      "note": "落ちる → 落ち + そう: something about to happen, judged from what is visible."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "Attaches to the plain form (降るそうだ) and means \"I hear\". Appearance そうだ attaches to the stem (降りそうだ).",
+      "id": "n4-grammar-36"
+    },
+    {
+      "pattern": "〜ようだ / 〜みたいだ",
+      "difference": "ようだ is a judgement from various clues, not only sight, and can follow nouns (学生のようだ). そうだ is instant visual impression.",
+      "id": "n4-grammar-37"
+    },
+    {
+      "pattern": "〜らしい",
+      "difference": "らしい is based on outside information; そうだ (appearance) is based on your own eyes.",
+      "id": "n4-grammar-38"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "このケーキはおいしいそうです。(meaning 'looks delicious')",
+      "right": "このケーキはおいしそうです。",
+      "why": "Drop the い. おいしいそうだ means \"I hear it is delicious\" (hearsay)."
+    },
+    {
+      "wrong": "天気がいいそうですね。(looking at the sky)",
+      "right": "天気がよさそうですね。",
+      "why": "いい is irregular: よさそう."
+    },
+    {
+      "wrong": "彼は学生そうです。",
+      "right": "彼は学生のようです。/ 学生らしいです。",
+      "why": "Appearance そうだ cannot attach to nouns."
+    }
+  ],
+  "usageNotes": [
+    "そうだ behaves like a な-adjective: 楽しそうな人, うれしそうに笑う, 元気そうじゃない.",
+    "For things that are obvious at a glance (きれい, 赤い, 大きい) do not use そうだ; just state them.",
+    "The verb negative 〜そうもない / 〜そうにない means \"doesn't look like it will\": 雨は降りそうもない."
+  ],
+  "jlptTips": [
+    "Look at what precedes そう: a stem (降り, おいし, 元気) = appearance; a plain form (降る, おいしい, 元気だ) = hearsay. The exam relies on this almost every time.",
+    "Irregulars よさそう and なさそう are favourite test items; so is 〜そうな before a noun, which only the appearance そうだ can do."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-35-1",
+    "q-n4-g-35-2",
+    "q-n4-g-35-3",
+    "q-n4-g-35-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-35-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,117 @@
+{
+  "id": "n2-grammar-13",
+  "slug": "osore-ga-aru",
+  "level": "n2",
+  "order": 13,
+  "title": "〜恐れがある",
+  "romaji": "osore ga aru",
+  "meaning": "there is a risk/fear that ...",
+  "simpleExplanation": "〜恐れがある means \"there is a risk that…, it is feared that…\". It presents an undesirable possibility in an objective, warning tone: the typhoon may make landfall, the medicine may have side effects.",
+  "whenUsed": "書き言葉 and formal announcements: weather reports, news, product warnings, official notices. Not for good possibilities and not for casual chat (where かもしれない is used). Often written in kana as おそれがある.",
+  "formation": [
+    "Vる + 恐れがある / N + の + 恐れがある"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Expressing a bad possibility",
+    "items": [
+      {
+        "label": "〜かもしれない",
+        "description": "Might happen (neutral, everyday)."
+      },
+      {
+        "label": "〜恐れがある",
+        "description": "There is a risk that… (objective warning, written)."
+      },
+      {
+        "label": "〜かねない",
+        "description": "Could well happen (speaker's worried judgment)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "台風が上陸する恐れがある。",
+      "reading": "たいふうがじょうりくするおそれがある。",
+      "en": "There is a risk that the typhoon will make landfall.",
+      "note": "Vる + 恐れがある in a weather warning."
+    },
+    {
+      "ja": "この薬は副作用の恐れがあります。",
+      "reading": "このくすりはふくさようのおそれがあります。",
+      "en": "This medicine carries a risk of side effects.",
+      "note": "N + の + 恐れがある, polite form あります."
+    },
+    {
+      "ja": "放置すれば、被害が拡大する恐れがある。",
+      "reading": "ほうちすれば、ひがいがかくだいするおそれがある。",
+      "en": "If left alone, the damage may spread.",
+      "note": "Conditional + 恐れがある in a report."
+    },
+    {
+      "ja": "個人情報が流出する恐れがあるため、パスワードを変更してください。",
+      "reading": "こじんじょうほうがりゅうしゅつするおそれがあるため、パスワードをへんこうしてください。",
+      "en": "Because there is a risk of personal information leaking, please change your password.",
+      "note": "Typical notice wording."
+    },
+    {
+      "ja": "この計画には、環境を破壊する恐れがある。",
+      "reading": "このけいかくには、かんきょうをはかいするおそれがある。",
+      "en": "This plan carries the danger of destroying the environment.",
+      "note": "Objective criticism in an editorial."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かねない",
+      "difference": "Also a bad possibility, but subjective and attached to Vます; 恐れがある is objective and attaches to Vる or N + の.",
+      "id": "n2-grammar-25"
+    },
+    {
+      "pattern": "〜かもしれない",
+      "difference": "Neutral; good or bad; everyday."
+    },
+    {
+      "pattern": "〜危険がある",
+      "difference": "Similar but concrete physical danger; 恐れ covers any undesirable outcome."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "宝くじが当たる恐れがある。",
+      "right": "宝くじが当たるかもしれない。",
+      "why": "恐れがある is only for undesirable outcomes."
+    },
+    {
+      "wrong": "台風の上陸する恐れがある。",
+      "right": "台風が上陸する恐れがある。/ 台風上陸の恐れがある。",
+      "why": "Use a verb clause with が, or a compound noun with の; not の between subject and verb here."
+    },
+    {
+      "wrong": "遅刻する恐れがあるので、急ごうよ。",
+      "right": "遅刻するかもしれないから、急ごうよ。",
+      "why": "Too formal for casual speech; 恐れがある belongs to written or official language."
+    }
+  ],
+  "usageNotes": [
+    "Modifier form: 恐れのある地域 (areas at risk).",
+    "Negative: 恐れはない = \"there is no danger of\".",
+    "Frequent in headlines without がある: 大雨の恐れ."
+  ],
+  "jlptTips": [
+    "Formal register plus a bad outcome (被害・事故・流出) → 恐れがある.",
+    "Distractors are かねない and 気味, and sometimes おかげで. かねない needs a Vます stem (起こしかねない), so the verb form before the blank decides.",
+    "A good outcome after the blank immediately eliminates 恐れがある."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-13-1",
+    "q-n2-g-13-2",
+    "q-n2-g-13-3",
+    "q-n2-g-13-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-13-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

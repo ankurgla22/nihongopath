@@ -1,0 +1,142 @@
+{
+  "id": "n2-grammar-175",
+  "slug": "o-megutte",
+  "level": "n2",
+  "order": 175,
+  "title": "〜をめぐって / 〜をめぐり / 〜をめぐる",
+  "romaji": "o megutte / o meguri / o meguru",
+  "meaning": "over, concerning (a contested or debated issue)",
+  "simpleExplanation": "〜をめぐって means \"over X\", where X is an issue that several parties argue, debate, or compete about: 遺産をめぐって兄弟が争っている. The verb that follows is one of dispute or discussion: 争う, 議論する, 対立する, 意見が分かれる. The noun-modifying form 〜をめぐる + N (土地をめぐる問題) is common in news.",
+  "whenUsed": "Written and formal spoken Japanese: news, essays, reports on politics, law, and disputes. In casual speech people say 〜のことで or 〜について. めぐる (to go around) gives the image of parties circling an issue.",
+  "formation": [
+    "Noun (issue) + をめぐって / をめぐり",
+    "Noun + をめぐる + Noun",
+    "Typical issues: 遺産・土地・法案・政策・環境問題・優勝",
+    "Typical verbs: 争う・対立する・議論する・意見が分かれる・裁判になる"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜をめぐって",
+      "〜について / 〜に関して"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "over a contested issue (several parties)",
+          "about a topic (neutral)"
+        ]
+      },
+      {
+        "label": "Following verb",
+        "cells": [
+          "争う, 対立する, 議論する",
+          "話す, 調べる, 書く"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "遺産をめぐって争う",
+          "遺産について話す"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "formal, news",
+          "neutral"
+        ]
+      }
+    ],
+    "title": "Contest versus topic"
+  },
+  "examples": [
+    {
+      "ja": "遺産をめぐって、兄弟が争っている。",
+      "reading": "いさんをめぐって、きょうだいがあらそっている。",
+      "en": "The siblings are fighting over the inheritance.",
+      "note": "Siblings contesting an inheritance."
+    },
+    {
+      "ja": "新しい法律をめぐり、議論が続いている。",
+      "reading": "あたらしいほうりつをめぐり、ぎろんがつづいている。",
+      "en": "Debate continues over the new law.",
+      "note": "をめぐり: written form; debate over a law."
+    },
+    {
+      "ja": "土地をめぐる問題は解決していない。",
+      "reading": "とちをめぐるもんだいはかいけつしていない。",
+      "en": "The dispute over the land has not been resolved.",
+      "note": "をめぐる + noun: a dispute over land."
+    },
+    {
+      "ja": "新しい空港の建設をめぐって、住民の意見が分かれている。",
+      "reading": "あたらしいくうこうのけんせつをめぐって、じゅうみんのいけんがわかれている。",
+      "en": "Residents' opinions are divided over the construction of the new airport.",
+      "note": "意見が分かれる: a typical follow-up."
+    },
+    {
+      "ja": "優勝をめぐって、二つのチームが激しく競い合った。",
+      "reading": "ゆうしょうをめぐって、ふたつのチームがはげしくきそいあった。",
+      "en": "The two teams competed fiercely for the championship.",
+      "note": "Competition over a prize."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜について / 〜に関して",
+      "difference": "Neutral topic; no dispute implied.",
+      "id": "n2-grammar-106"
+    },
+    {
+      "pattern": "〜に対して",
+      "difference": "\"Toward\": a target of an action, not a contested issue.",
+      "id": "n2-grammar-121"
+    },
+    {
+      "pattern": "〜を中心に",
+      "difference": "\"Centering on\": focus, not contest.",
+      "id": "n2-grammar-171"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "遺産をめぐって、話した。",
+      "right": "遺産について話した。/ 遺産をめぐって争った。",
+      "why": "The verb after をめぐって should express dispute or debate."
+    },
+    {
+      "wrong": "土地をめぐって問題",
+      "right": "土地をめぐる問題",
+      "why": "Before a noun use をめぐる."
+    },
+    {
+      "wrong": "彼をめぐって相談した。",
+      "right": "彼のことで相談した。",
+      "why": "A person is not a contested issue; and 相談する is not a dispute verb."
+    }
+  ],
+  "usageNotes": [
+    "News headlines: 〜をめぐる対立 / 〜をめぐる議論.",
+    "Several parties are always implied, even if not named.",
+    "をめぐり is the written continuative form."
+  ],
+  "jlptTips": [
+    "If the verb is 争う / 対立する / 議論する / 意見が分かれる, the answer is をめぐって.",
+    "Before a noun, choose をめぐる.",
+    "Distractors include について, に対して, を中心に. Only をめぐって implies a contest."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-175-1",
+    "q-n2-g-175-2",
+    "q-n2-g-175-3",
+    "q-n2-g-175-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-175-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n5-grammar-11",
+  "slug": "to-and-with",
+  "level": "n5",
+  "order": 11,
+  "title": "と (and; with)",
+  "romaji": "to (and, with)",
+  "meaning": "\"and\" (exhaustive list of nouns), \"with (a person)\", also marks quoted speech.",
+  "simpleExplanation": "と has two everyday jobs. (1) \"and\" between nouns: パンと卵 \"bread and eggs\". This is a complete list; you are naming everything. (2) \"with\" a person: 友達と映画を見ます \"I watch a film with a friend\". と only ever connects nouns; to join verbs or adjectives you need the て-form instead.",
+  "whenUsed": "Listing exactly the items you mean (shopping lists, family members, two places); saying who you do something with (friends, family, colleagues); and, later, quoting words with 言う and 思う.",
+  "formation": [
+    "Noun + と + Noun  (パンと卵)",
+    "Person + と + verb  (友達と行きます)",
+    "Person + と + 一緒に + verb  (母と一緒に食べます)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "と vs や for \"and\"",
+    "columns": [
+      "と",
+      "や"
+    ],
+    "rows": [
+      {
+        "label": "Kind of list",
+        "cells": [
+          "complete: only these",
+          "examples: these and more"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "パンと卵を買いました",
+          "パンや卵を買いました"
+        ]
+      },
+      {
+        "label": "Meaning",
+        "cells": [
+          "I bought bread and eggs (that's all)",
+          "I bought things like bread and eggs"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "パンと卵を買いました。",
+      "reading": "パンと たまごを かいました。",
+      "en": "I bought bread and eggs.",
+      "note": "\"and\" between two nouns: a complete list."
+    },
+    {
+      "ja": "友達と映画を見ます。",
+      "reading": "ともだちと えいがを みます。",
+      "en": "I watch a film with a friend.",
+      "note": "\"with\" a person."
+    },
+    {
+      "ja": "母と電話で話しました。",
+      "reading": "ははと でんわで はなしました。",
+      "en": "I talked with my mother on the phone.",
+      "note": "\"with\" a person, plus で for the means (phone)."
+    },
+    {
+      "ja": "家族と日本へ来ました。",
+      "reading": "かぞくと にほんへ きました。",
+      "en": "I came to Japan with my family.",
+      "note": "The person you do something with takes と."
+    },
+    {
+      "ja": "スーパーで肉と野菜を買いました。",
+      "reading": "スーパーで にくと やさいを かいました。",
+      "en": "I bought meat and vegetables at the supermarket.",
+      "note": "The whole list 肉と野菜 is one object; を goes after the last noun only."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-19",
+      "pattern": "や",
+      "difference": "や = \"and, among others\" (an incomplete list). と names everything."
+    },
+    {
+      "id": "n5-grammar-10",
+      "pattern": "で",
+      "difference": "で = by means of a thing (バスで); と = together with a person (友達と)."
+    },
+    {
+      "id": "n5-grammar-24",
+      "pattern": "て-form",
+      "difference": "To say \"and\" between verbs or adjectives (eat and drink; cheap and good), use the て-form, never と."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "食べると飲みます。",
+      "right": "食べて、飲みます。",
+      "why": "と joins nouns only. Verbs are joined with the て-form."
+    },
+    {
+      "wrong": "安いとおいしいです。",
+      "right": "安くて、おいしいです。",
+      "why": "Adjectives cannot be joined with と; use the て-form 安くて."
+    },
+    {
+      "wrong": "パンを卵を買いました。",
+      "right": "パンと卵を買いました。",
+      "why": "Nouns in one list are joined with と; the object marker を comes once, at the end."
+    }
+  ],
+  "usageNotes": [
+    "と joins nouns only — never verbs or adjectives (use て-form for those). と lists everything; や lists examples."
+  ],
+  "jlptTips": [
+    "If the blank sits between two nouns and the options are と / や / も / の, ask: is it a complete list (と) or just examples with など nearby (や)?",
+    "If the noun before the blank is a person and the verb is an activity (行く, 話す, 遊ぶ), the answer is と (\"with\"), not で."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-11-1",
+    "q-n5-g-11-2",
+    "q-n5-g-11-3",
+    "q-n5-g-11-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-11-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

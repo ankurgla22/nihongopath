@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-28",
+  "slug": "to-tomo-ni",
+  "level": "n3",
+  "order": 28,
+  "title": "〜とともに / 〜と共に",
+  "romaji": "to tomo ni",
+  "meaning": "Together with… / as… also… / at the same time as…",
+  "simpleExplanation": "〜とともに is a formal word with three related meanings. (1) Together with someone: 家族とともに新年を迎えた. (2) As one thing changes, another changes too: 年をとるとともに体力が落ちる. (3) At the same time as: 卒業とともに就職した. The common thread is \"together / along with\".",
+  "whenUsed": "Formal speech, essays, news, ceremonies. In casual talk use と一緒に for meaning (1) and につれて for meaning (2).",
+  "formation": [
+    "Noun + とともに",
+    "Verb (dictionary form) + とともに",
+    "Written form: 〜と共に"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three meanings of とともに",
+    "columns": [
+      "Example",
+      "Casual equivalent"
+    ],
+    "rows": [
+      {
+        "label": "together with",
+        "cells": [
+          "家族とともに過ごす",
+          "家族と一緒に"
+        ]
+      },
+      {
+        "label": "as X changes, Y also",
+        "cells": [
+          "年をとるとともに弱くなる",
+          "年をとるにつれて"
+        ]
+      },
+      {
+        "label": "at the same time as",
+        "cells": [
+          "卒業とともに上京した",
+          "卒業してすぐ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "家族とともに新年を迎えた。",
+      "reading": "かぞくとともにしんねんをむかえた。",
+      "en": "I welcomed the New Year together with my family.",
+      "note": "Together with family (formal)."
+    },
+    {
+      "ja": "年をとるとともに、体力が落ちてきた。",
+      "reading": "としをとるとともに、たいりょくがおちてきた。",
+      "en": "As I age, my physical strength has declined.",
+      "note": "As one ages, strength declines: parallel change."
+    },
+    {
+      "ja": "経済の発展とともに、環境問題も増えた。",
+      "reading": "けいざいのはってんとともに、かんきょうもんだいもふえた。",
+      "en": "Along with economic development, environmental problems also increased.",
+      "note": "Along with economic growth, problems also increased."
+    },
+    {
+      "ja": "春の訪れとともに、町は観光客でにぎやかになる。",
+      "reading": "はるのおとずれとともに、まちはかんこうきゃくでにぎやかになる。",
+      "en": "With the arrival of spring, the town becomes lively with tourists.",
+      "note": "At the same time as / along with an event."
+    },
+    {
+      "ja": "インターネットの普及とともに、生活は大きく変わった。",
+      "reading": "インターネットのふきゅうとともに、せいかつはおおきくかわった。",
+      "en": "Along with the spread of the internet, daily life has changed greatly.",
+      "note": "Parallel change, common essay style."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Gradual parallel change only; cannot mean \"together with a person\".",
+      "id": "n3-grammar-30"
+    },
+    {
+      "pattern": "〜にしたがって",
+      "difference": "Parallel change or \"following\" instructions; not \"together with\".",
+      "id": "n3-grammar-29"
+    },
+    {
+      "pattern": "〜と一緒に",
+      "difference": "Casual \"together with\" for people and things only."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友達とともに映画を見に行った。(casual chat)",
+      "right": "友達と一緒に映画を見に行った。",
+      "why": "とともに is formal; in everyday speech と一緒に is natural."
+    },
+    {
+      "wrong": "年をとるとともに、運動しよう。",
+      "right": "年をとっても、運動しよう。",
+      "why": "The parallel-change meaning needs a change in the main clause, not an intention."
+    },
+    {
+      "wrong": "経済の発展のとともに",
+      "right": "経済の発展とともに",
+      "why": "A noun attaches directly; no の."
+    }
+  ],
+  "usageNotes": [
+    "Formal/written; 〜と一緒に is the spoken equivalent for sense (1). For sense (2), compare 〜につれて / 〜にしたがって (gradual).",
+    "Also in ceremonies: 心から感謝するとともに、今後ともよろしくお願いします (and at the same time)."
+  ],
+  "jlptTips": [
+    "A formal noun (発展, 普及, 成長, 訪れ) + blank + a change in the main clause = とともに (or につれて).",
+    "If the noun is a person (家族, 仲間), につれて and にしたがって are impossible; only とともに works.",
+    "Verb + とともに uses the dictionary form; a past form before it is a wrong option."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-28-1",
+    "q-n3-g-28-2",
+    "q-n3-g-28-3",
+    "q-n3-g-28-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-28-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

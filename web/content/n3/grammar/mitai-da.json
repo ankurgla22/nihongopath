@@ -1,0 +1,128 @@
+{
+  "id": "n3-grammar-82",
+  "slug": "mitai-da",
+  "level": "n3",
+  "order": 82,
+  "title": "〜みたいな / 〜みたいに / 〜みたいだ",
+  "romaji": "mitai da / mitai na / mitai ni",
+  "meaning": "like… / similar to… / seems like… (casual 〜ようだ)",
+  "simpleExplanation": "〜みたい is the everyday word for \"like\" or \"seems\". 猫みたいな犬 is \"a dog like a cat\", 子供みたいに喜ぶ is \"be happy like a child\", and 誰もいないみたいだ is \"it seems nobody is here\". It does the same job as 〜ようだ but sounds casual.",
+  "whenUsed": "Conversation, casual messages, dialogue in stories. In formal writing or speeches use 〜ようだ / 〜ような / 〜ように. It attaches directly to nouns (猫みたい, not 猫のみたい).",
+  "formation": [
+    "Noun + みたいだ / Verb (plain) + みたいだ / い-adj + みたいだ / な-adj + みたいだ",
+    "〜みたいな + Noun (comparison: 猫みたいな犬)",
+    "〜みたいに + Verb / adjective (子供みたいに喜ぶ)",
+    "Polite: 〜みたいです"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "猫みたい",
+    "rootLabel": "みたい conjugates like a な-adjective",
+    "branches": [
+      {
+        "suffix": "だ",
+        "result": "猫みたいだ",
+        "label": "sentence end: is like a cat"
+      },
+      {
+        "suffix": "な + N",
+        "result": "猫みたいな犬",
+        "label": "modifies a noun: a cat-like dog"
+      },
+      {
+        "suffix": "に + V",
+        "result": "猫みたいに寝る",
+        "label": "modifies a verb: sleep like a cat"
+      },
+      {
+        "suffix": "じゃない",
+        "result": "猫みたいじゃない",
+        "label": "negative"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は子供みたいに喜んだ。",
+      "reading": "かれはこどもみたいによろこんだ。",
+      "en": "He was delighted like a child.",
+      "note": "みたいに + verb: manner of the action."
+    },
+    {
+      "ja": "猫みたいな犬を飼っている。",
+      "reading": "ねこみたいないぬをかっている。",
+      "en": "I have a dog that's like a cat.",
+      "note": "みたいな + noun: comparison."
+    },
+    {
+      "ja": "誰もいないみたいだ。",
+      "reading": "だれもいないみたいだ。",
+      "en": "It seems like no one is here.",
+      "note": "みたいだ at sentence end: a guess from what you see."
+    },
+    {
+      "ja": "彼、今日は元気がないみたいだね。何かあったのかな。",
+      "reading": "かれ、きょうはげんきがないみたいだね。なにかあったのかな。",
+      "en": "He seems down today. I wonder if something happened.",
+      "note": "Guess based on appearance; casual tone."
+    },
+    {
+      "ja": "夢みたいな話だけど、本当なんです。",
+      "reading": "ゆめみたいなはなしだけど、ほんとうなんです。",
+      "en": "It sounds like a dream, but it's true.",
+      "note": "Noun + みたいな + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようだ / 〜ような / 〜ように",
+      "difference": "Same meanings but formal; nouns need の (猫のような)."
+    },
+    {
+      "pattern": "〜らしい (hearsay)",
+      "difference": "'I hear that…' based on information from others; みたい is based on what you see or feel."
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "'Looks like it will / looks…' about immediate appearance of adjectives and verbs (おいしそう). みたい compares or guesses more broadly."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "猫のみたいな犬",
+      "right": "猫みたいな犬",
+      "why": "みたい attaches directly to the noun; の is only for ような (猫のような犬)."
+    },
+    {
+      "wrong": "子供みたいな喜んだ。",
+      "right": "子供みたいに喜んだ。",
+      "why": "Before a verb use みたいに; みたいな goes before a noun."
+    },
+    {
+      "wrong": "本論文では、この現象は氷河期みたいだと考える。(academic writing)",
+      "right": "本論文では、この現象は氷河期のようだと考える。",
+      "why": "みたい is casual; formal writing requires ようだ."
+    }
+  ],
+  "usageNotes": [
+    "みたい also gives examples: 東京みたいな大都市 'a big city such as Tokyo'.",
+    "In speech みたい often ends a sentence with だ dropped: 雨みたい。",
+    "みたいなことを言う 'say something like…' is a common hedge."
+  ],
+  "jlptTips": [
+    "If the choices are みたいな / みたいに / みたいだ, look at what follows: noun → な, verb or adjective → に, sentence end → だ.",
+    "If a noun before the blank is followed by の in the answer choices, that is the ような version, not みたい.",
+    "In casual dialogue questions, みたい is usually the expected answer over ようだ."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-82-1",
+    "q-n3-g-82-2",
+    "q-n3-g-82-3",
+    "q-n3-g-82-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-82-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

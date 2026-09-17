@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-31",
+  "slug": "ageru-kureru-morau",
+  "level": "n4",
+  "order": 31,
+  "title": "あげる / くれる / もらう (giving and receiving objects)",
+  "romaji": "ageru / kureru / morau",
+  "meaning": "あげる = I/someone gives to another (outward); くれる = someone gives to me / my in-group (inward); もらう = receive.",
+  "simpleExplanation": "Japanese has three verbs for giving and receiving, and the choice depends on direction. あげる = give (from me or someone to another person; the thing moves away from the speaker). くれる = give (to me or my family or group; the thing moves toward the speaker). もらう = receive. So 友達が私に本をくれた and 私は友達に本をもらった describe the same event from two sides. Each verb has polite and humble versions for talking to superiors.",
+  "whenUsed": "Presents, favours, lending and borrowing in daily life; describing who gave what to whom. くれる is only for things that come to the speaker's side. Politeness: さしあげる (I give to a superior), くださる (a superior gives me), いただく (I receive from a superior).",
+  "formation": [
+    "A は B に N を あげる: I/someone give to another person",
+    "B は (私に) N を くれる: someone gives to me / my group",
+    "私は B に / B から N を もらう: I receive from someone",
+    "Levels: さしあげる / あげる / やる; くださる / くれる; いただく / もらう"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "友達が",
+        "role": "giver (subject)"
+      },
+      {
+        "text": "私に",
+        "role": "receiver (speaker's side)"
+      },
+      {
+        "text": "プレゼントを",
+        "role": "object given"
+      },
+      {
+        "text": "くれました",
+        "role": "giving verb: toward the speaker",
+        "highlight": true
+      }
+    ],
+    "translation": "My friend gave me a present. (Same event with もらう: 私は友達にプレゼントをもらいました.)"
+  },
+  "examples": [
+    {
+      "ja": "私は友達に本をあげました。",
+      "reading": "わたしは ともだちに ほんを あげました。",
+      "en": "I gave my friend a book.",
+      "note": "あげる: the speaker gives outward; receiver takes に."
+    },
+    {
+      "ja": "友達が私にプレゼントをくれました。",
+      "reading": "ともだちが わたしに プレゼントを くれました。",
+      "en": "My friend gave me a present.",
+      "note": "くれる: the giver is the subject, the speaker receives."
+    },
+    {
+      "ja": "私は先生に辞書をもらいました。",
+      "reading": "わたしは せんせいに じしょを もらいました。",
+      "en": "I received a dictionary from my teacher.",
+      "note": "もらう: the speaker is the subject and receives; the giver takes に (or から)."
+    },
+    {
+      "ja": "母の日に、母に花をあげました。",
+      "reading": "ははのひに、ははに はなを あげました。",
+      "en": "I gave my mother flowers on Mother's Day.",
+      "note": "あげる: giving from the speaker to someone else, even family."
+    },
+    {
+      "ja": "先生が私にとてもいい辞書をくださいました。",
+      "reading": "せんせいが わたしに とても いい じしょを くださいました。",
+      "en": "My teacher gave me a really good dictionary.",
+      "note": "くださる is the respectful form of くれる, used because the giver is a teacher."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てあげる",
+      "difference": "The same directions apply to actions: てあげる = do for someone (outward).",
+      "id": "n4-grammar-32"
+    },
+    {
+      "pattern": "〜てくれる",
+      "difference": "てくれる = someone does something for me (inward).",
+      "id": "n4-grammar-33"
+    },
+    {
+      "pattern": "〜てもらう",
+      "difference": "てもらう = I have someone do something for me; the doer takes に.",
+      "id": "n4-grammar-34"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生は私にプレゼントをあげました。",
+      "right": "先生は私にプレゼントをくださいました。",
+      "why": "When the receiver is the speaker, the verb must be くれる / くださる, never あげる."
+    },
+    {
+      "wrong": "私は友達がプレゼントをもらいました。",
+      "right": "私は友達にプレゼントをもらいました。",
+      "why": "With もらう the giver takes に or から, not が."
+    },
+    {
+      "wrong": "私は先生に本をさしあげてもらいました。",
+      "right": "私は先生に本をいただきました。",
+      "why": "Receiving from a superior is いただく. Do not mix humble giving with receiving."
+    }
+  ],
+  "usageNotes": [
+    "Family members count as the speaker's side: 隣の人が弟にお菓子をくれた is correct because the receiver (my younger brother) is closer to me than the giver. When unsure, keep the receiver as 私.",
+    "やる is used for giving to pets, plants and much younger people: 犬にえさをやる. Some speakers use あげる here too.",
+    "から instead of に is required when the giver is an organisation: 会社から記念品をもらった."
+  ],
+  "jlptTips": [
+    "First find the receiver. If it is 私 or my family, the verb is くれる (giver が) or もらう (giver に). If the receiver is someone else and the giver is 私, use あげる.",
+    "Check the particle on the person: X が … くれる vs X に … もらう. Questions often keep the verb and blank the particle, or keep the particle and blank the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-31-1",
+    "q-n4-g-31-2",
+    "q-n4-g-31-3",
+    "q-n4-g-31-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-31-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

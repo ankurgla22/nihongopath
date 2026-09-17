@@ -1,0 +1,141 @@
+{
+  "id": "n2-grammar-150",
+  "slug": "muki-muke",
+  "level": "n2",
+  "order": 150,
+  "title": "〜向きだ / 〜向けだ",
+  "romaji": "muki / muke",
+  "meaning": "向き: suitable for (naturally); 向け: intended for, aimed at (deliberately)",
+  "simpleExplanation": "〜向き and 〜向け both attach to a target group, but they differ. 〜向き means \"suited to X by nature\": 子供向きの料理 is a dish that happens to suit children. 〜向け means \"made for X on purpose\": 初心者向けの教科書 was designed for beginners. 向き also has a literal meaning, facing a direction (南向き).",
+  "whenUsed": "Both registers. 向け is common in marketing and product descriptions; 向き in evaluations of suitability and in real-estate language (南向きの部屋). 〜向きではない = not suited to.",
+  "formation": [
+    "Noun + 向きだ / 向きの + Noun / 向きに (suited)",
+    "Noun + 向けだ / 向けの + Noun / 向けに (designed for)",
+    "Direction: 南向き / 前向き / 後ろ向き",
+    "Negative: 〜向きではない (not suited)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜向き",
+      "〜向け"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "happens to suit X",
+          "made for X on purpose"
+        ]
+      },
+      {
+        "label": "Who decided?",
+        "cells": [
+          "nature or circumstance",
+          "the maker"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "この仕事は彼向きだ (suits him)",
+          "子供向けの番組 (a program made for children)"
+        ]
+      },
+      {
+        "label": "Other use",
+        "cells": [
+          "direction: 南向き; attitude: 前向き",
+          "destination: 海外向け輸出"
+        ]
+      }
+    ],
+    "title": "Suited versus targeted"
+  },
+  "examples": [
+    {
+      "ja": "この料理は辛くないので、子供向きだ。",
+      "reading": "このりょうりはからくないので、こどもむきだ。",
+      "en": "This dish is not spicy, so it is suitable for children.",
+      "note": "向き: the dish happens to suit children because it is mild."
+    },
+    {
+      "ja": "これは初心者向けの教科書です。",
+      "reading": "これはしょしんしゃむけのきょうかしょです。",
+      "en": "This is a textbook designed for beginners.",
+      "note": "向け: a textbook designed for beginners."
+    },
+    {
+      "ja": "海外向けに商品を開発している。",
+      "reading": "かいがいむけにしょうひんをかいはつしている。",
+      "en": "We are developing products for overseas markets.",
+      "note": "向けに: developing products aimed at overseas markets."
+    },
+    {
+      "ja": "この仕事は細かい作業が好きな人向きだ。",
+      "reading": "このしごとはこまかいさぎょうがすきなひとむきだ。",
+      "en": "This job suits people who like detailed work.",
+      "note": "向き as a predicate: suited to."
+    },
+    {
+      "ja": "南向きの部屋は日当たりがいい。",
+      "reading": "みなみむきのへやはひあたりがいい。",
+      "en": "A south-facing room gets good sunlight.",
+      "note": "Literal direction meaning of 向き."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜用",
+      "difference": "\"For the use of\" (子供用): designed use, close to 向け but for objects and tools."
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For X\" in evaluation; not a suffix.",
+      "id": "n2-grammar-127"
+    },
+    {
+      "pattern": "〜的",
+      "difference": "Suffix making adjectives; unrelated meaning.",
+      "id": "n2-grammar-188"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この本は初心者向きに書かれた。",
+      "right": "この本は初心者向けに書かれた。",
+      "why": "\"Written for\" is deliberate design, so 向け."
+    },
+    {
+      "wrong": "この料理は辛くないので子供向けだ。",
+      "right": "この料理は辛くないので子供向きだ。",
+      "why": "Being mild makes it suited to children by nature, not designed for them: 向き."
+    },
+    {
+      "wrong": "前向けに考える。",
+      "right": "前向きに考える。",
+      "why": "The attitude idiom is 前向き (positive), a fixed form."
+    }
+  ],
+  "usageNotes": [
+    "前向き / 後ろ向き describe attitudes (positive / negative).",
+    "Marketing: 女性向け / 高齢者向け / 海外向け.",
+    "向き can take ではない for 'unsuited': 彼は営業向きではない."
+  ],
+  "jlptTips": [
+    "Ask who decided: if the maker aimed at a group, 向け; if it just happens to suit, 向き.",
+    "Words like 作られた / 開発した / 書かれた in the sentence point to 向け.",
+    "Direction and attitude uses (南向き, 前向き) always use 向き."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-150-1",
+    "q-n2-g-150-2",
+    "q-n2-g-150-3",
+    "q-n2-g-150-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-150-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-1",
+  "slug": "uchi-ni",
+  "level": "n3",
+  "order": 1,
+  "title": "〜うちに",
+  "romaji": "uchi ni",
+  "meaning": "While… (still) / before… changes",
+  "simpleExplanation": "〜うちに means \"do it while X is still true\". The feeling is: X will not last forever, so act now, before the window closes. 温かいうちに = \"while it's still warm\" (it will get cold soon). With a negative verb, 〜ないうちに means \"before X happens\": 忘れないうちに = \"before I forget\".",
+  "whenUsed": "Everyday speech and writing. Typical uses: advice to act before a chance disappears (若いうちに、明るいうちに), and 〜ているうちに to describe a change that happened during an activity (話しているうちに眠くなった = while talking I got sleepy).",
+  "formation": [
+    "Verb (dictionary / ている / ない) + うちに",
+    "い-adjective + うちに",
+    "な-adjective + な + うちに",
+    "Noun + の + うちに",
+    "Set phrases: 今のうちに (now, while we can), そのうちに (before long)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "うちに vs 間に vs ないうちに",
+    "columns": [
+      "Meaning",
+      "Feeling"
+    ],
+    "rows": [
+      {
+        "label": "温かいうちに食べる",
+        "cells": [
+          "eat while it's still warm",
+          "urgency: it will get cold"
+        ]
+      },
+      {
+        "label": "昼休みの間に食べる",
+        "cells": [
+          "eat during lunch break",
+          "neutral time frame"
+        ]
+      },
+      {
+        "label": "冷めないうちに食べる",
+        "cells": [
+          "eat before it gets cold",
+          "urgency: the change is named"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "温かいうちに食べてください。",
+      "reading": "あたたかいうちにたべてください。",
+      "en": "Please eat it while it is still warm.",
+      "note": "い-adjective attaches directly. The unspoken second half: \"…because it will get cold.\""
+    },
+    {
+      "ja": "日本にいるうちに、富士山に登りたい。",
+      "reading": "にほんにいるうちに、ふじさんにのぼりたい。",
+      "en": "While I am in Japan, I want to climb Mt. Fuji.",
+      "note": "〜ているうちに: while a state continues. Being in Japan is a limited chance."
+    },
+    {
+      "ja": "忘れないうちにメモしておこう。",
+      "reading": "わすれないうちにメモしておこう。",
+      "en": "Let me write it down before I forget.",
+      "note": "〜ないうちに = before X happens. 忘れる is the change the speaker wants to beat."
+    },
+    {
+      "ja": "若いうちに、いろいろな国を旅行したほうがいい。",
+      "reading": "わかいうちに、いろいろなくにをりょこうしたほうがいい。",
+      "en": "You should travel to many countries while you're still young.",
+      "note": "A very common piece of advice: youth is the window."
+    },
+    {
+      "ja": "本を読んでいるうちに、いつの間にか寝てしまった。",
+      "reading": "ほんをよんでいるうちに、いつのまにかねてしまった。",
+      "en": "While I was reading, I fell asleep without noticing.",
+      "note": "〜ているうちに + an unintended change (寝てしまった)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜最中に",
+      "difference": "\"right in the middle of\": one moment inside an activity, usually interrupted. うちに is about using a whole window of time.",
+      "id": "n3-grammar-36"
+    },
+    {
+      "pattern": "〜間に",
+      "difference": "Neutral \"during\". No feeling that the chance will disappear."
+    },
+    {
+      "pattern": "〜前に",
+      "difference": "\"Before\" a specific event. 〜ないうちに adds the nuance \"before it's too late\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "温かいのうちに食べてください。",
+      "right": "温かいうちに食べてください。",
+      "why": "い-adjectives attach directly. の is only for nouns: 休みのうちに."
+    },
+    {
+      "wrong": "忘れるうちにメモしよう。",
+      "right": "忘れないうちにメモしよう。",
+      "why": "\"Before I forget\" needs the negative: 〜ないうちに. 忘れるうちに would mean \"while I am forgetting\", which makes no sense."
+    },
+    {
+      "wrong": "会議のうちに電話が鳴った。",
+      "right": "会議の最中に電話が鳴った。/ 会議中に電話が鳴った。",
+      "why": "うちに is for taking advantage of a window, not for a one-time interruption. Use 最中に or 〜中に."
+    }
+  ],
+  "usageNotes": [
+    "〜うちに implies \"before the situation ends/changes\" and carries urgency; 〜間に is a neutral \"during\". 〜ないうちに = \"before ~ happens\". 〜ているうちに can also mean \"in the course of doing, (a change happened)\": 話しているうちに眠くなった.",
+    "Sentence-final 〜うちに is not possible; it always leads into a main clause."
+  ],
+  "jlptTips": [
+    "In 文法形式, look for a second clause that would become impossible later (冷める, 暗くなる, 忘れる). That signals うちに over 間に.",
+    "If the blank is followed by 〜ないうちに, the main clause is something you want to do before a change: メモする, 帰る, 片付ける.",
+    "Distractors are usually 間に, 最中に and ところに. Ask: is the speaker using a limited chance (うちに) or reporting when something happened (間に)?"
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-1-1",
+    "q-n3-g-1-2",
+    "q-n3-g-1-3",
+    "q-n3-g-1-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-1-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

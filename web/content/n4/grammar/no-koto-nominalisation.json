@@ -1,0 +1,139 @@
+{
+  "id": "n4-grammar-51",
+  "slug": "no-koto-nominalisation",
+  "level": "n4",
+  "order": 51,
+  "title": "Nominalisation with の / こと",
+  "romaji": "no / koto (meishika)",
+  "meaning": "Turns a verb clause into a noun (\"-ing\", \"the fact that\") so it can be a subject or object.",
+  "simpleExplanation": "の and こと turn a verb clause into a noun, like English \"-ing\" or \"the fact that\": 音楽を聞く (listen to music) → 音楽を聞くの / 聞くこと (listening to music). Then the clause can be a subject or object: 音楽を聞くのが好きです. Use の when you see, hear or feel the action directly (歌っているのを聞いた = heard him singing). Use こと at the end of a sentence before だ/です (趣味は写真を撮ることです) and with verbs of talking and deciding (話す, 伝える, 約束する, にする, になる, できる).",
+  "whenUsed": "Everywhere: likes and dislikes (〜のが好き), skills (〜のが上手), difficulty (〜のは難しい), hobbies (〜ことです), perception (〜のを見た / 聞いた), and set patterns (〜ことができる, 〜ことにする). With 好き, 嫌い, 上手, 難しい, 忘れる, 知る, either one works; の is more conversational.",
+  "formation": [
+    "V-plain + の / こと: 聞くの, 聞くこと, 聞いたの",
+    "の: with 見る, 聞く, 感じる, 手伝う, 待つ, 止める (direct experience)",
+    "こと: before だ/です, with 話す, 伝える, 約束する, できる, にする, になる",
+    "Either: 好き, 嫌い, 上手, 下手, 難しい, 忘れる, 知る",
+    "Adjective + の / こと: 難しいのは / 大切なことは"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "の vs こと",
+    "columns": [
+      "Use",
+      "Example",
+      "Why"
+    ],
+    "rows": [
+      {
+        "label": "の only",
+        "cells": [
+          "perception / direct experience",
+          "彼が歌っているのを聞いた",
+          "you hear the singing itself"
+        ]
+      },
+      {
+        "label": "こと only",
+        "cells": [
+          "sentence end + だ/です; 話す, 約束する, できる",
+          "趣味は写真を撮ることです",
+          "のです would become explanatory んです"
+        ]
+      },
+      {
+        "label": "either",
+        "cells": [
+          "好き, 上手, 難しい, 忘れる",
+          "泳ぐのが / 泳ぐことが好きだ",
+          "の is more casual"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は音楽を聞くのが好きです。",
+      "reading": "わたしは おんがくを きくのが すきです。",
+      "en": "I like listening to music.",
+      "note": "Either の or こと works with 好き; の is the everyday choice."
+    },
+    {
+      "ja": "彼が歌っているのを聞きました。",
+      "reading": "かれが うたっているのを ききました。",
+      "en": "I heard him singing.",
+      "note": "Hearing the singing itself: の only."
+    },
+    {
+      "ja": "私の趣味は写真を撮ることです。",
+      "reading": "わたしの しゅみは しゃしんを とることです。",
+      "en": "My hobby is taking photos.",
+      "note": "Sentence ending with です: こと only."
+    },
+    {
+      "ja": "電気を消すのを忘れないでください。",
+      "reading": "でんきを けすのを わすれないでください。",
+      "en": "Please don't forget to turn off the lights.",
+      "note": "忘れる takes either; の is natural in speech."
+    },
+    {
+      "ja": "毎日運動することは体にいい。",
+      "reading": "まいにち うんどうすることは からだに いい。",
+      "en": "Exercising every day is good for the body.",
+      "note": "こと for a general statement; の would also be acceptable here."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことができる",
+      "difference": "A fixed pattern that always uses こと, never の.",
+      "id": "n4-grammar-98"
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "Another fixed pattern with こと: decisions.",
+      "id": "n4-grammar-17"
+    },
+    {
+      "pattern": "〜のは〜だ (cleft)",
+      "difference": "The cleft sentence uses の to nominalise the whole clause and then focuses one element.",
+      "id": "n4-grammar-57"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "趣味は写真を撮るのです。",
+      "right": "趣味は写真を撮ることです。",
+      "why": "のです at the end becomes the explanatory んです and no longer means \"is taking photos\"."
+    },
+    {
+      "wrong": "彼が歌っていることを聞いた。(meaning \"heard him sing\")",
+      "right": "彼が歌っているのを聞いた。",
+      "why": "こと + 聞く means \"heard the fact that he sings\" (hearsay). Direct perception needs の."
+    },
+    {
+      "wrong": "日本語を話すができます。",
+      "right": "日本語を話すことができます。",
+      "why": "A verb cannot take a particle directly; it must be nominalised, and できる requires こと."
+    }
+  ],
+  "usageNotes": [
+    "Quick rule: the five senses and helping/waiting/stopping go with の; talking, promising, deciding and sentence-final です go with こと.",
+    "In writing, こと is a little more formal; in speech, の dominates where both are possible.",
+    "The subject inside the nominalised clause takes が (or の): 彼が来るのを待っている."
+  ],
+  "jlptTips": [
+    "If the verb after the blank is 見る / 聞く / 見える / 手伝う / 待つ, choose の. If the sentence ends with です or the verb is 話す / 伝える / 約束する / できる, choose こと.",
+    "The trap 〜のです at sentence end looks fine but is wrong for \"is doing X\"; choose 〜ことです."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-51-1",
+    "q-n4-g-51-2",
+    "q-n4-g-51-3",
+    "q-n4-g-51-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-51-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

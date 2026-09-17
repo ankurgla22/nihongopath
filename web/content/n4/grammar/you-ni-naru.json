@@ -1,0 +1,120 @@
+{
+  "id": "n4-grammar-14",
+  "slug": "you-ni-naru",
+  "level": "n4",
+  "order": 14,
+  "title": "〜ようになる \"come to / reach the point where\"",
+  "romaji": "you ni naru",
+  "meaning": "A gradual change in ability, habit, or state — \"came to be able to\", \"started to (habitually)\".",
+  "simpleExplanation": "〜ようになる describes a change that happened over time: you reached a point where you can do something, or you started doing something you didn't do before. 話せるようになった = \"I became able to speak\" (I couldn't before). 毎朝走るようになった = \"I've started running every morning\" (a new habit). The key idea is a gradual change to a new state, not a sudden decision.",
+  "whenUsed": "Talking about progress in learning (漢字が読めるようになった), new habits (野菜を食べるようになった), changes in society (誰でもインターネットが使えるようになった), and children growing (歩けるようになった). Very common with potential verbs.",
+  "formation": [
+    "V-dictionary + ようになる: 走るようになる",
+    "V-potential + ようになる: 話せるようになる (most common)",
+    "V-ない + ようになる: 食べないようになる (but 食べなくなる is more natural, lesson 90)",
+    "Past: ようになった; polite: ようになりました"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "日本語が話せない",
+        "en": "before: cannot speak Japanese"
+      },
+      {
+        "ja": "日本語が話せる",
+        "en": "now: can speak Japanese"
+      },
+      {
+        "ja": "日本語が話せるようになった",
+        "en": "the change: I have become able to speak Japanese"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本語が話せるようになりました。",
+      "reading": "にほんごが はなせるように なりました。",
+      "en": "I have become able to speak Japanese.",
+      "note": "Potential + ようになる: gained an ability."
+    },
+    {
+      "ja": "毎朝ジョギングするようになった。",
+      "reading": "まいあさ ジョギングするように なった。",
+      "en": "I've started jogging every morning.",
+      "note": "Dictionary form + ようになる: a new habit."
+    },
+    {
+      "ja": "最近、肉を食べないようになった。",
+      "reading": "さいきん、にくを たべないように なった。",
+      "en": "Recently I've stopped eating meat.",
+      "note": "Negative change; 食べなくなった is the more natural version."
+    },
+    {
+      "ja": "子供が一人で服を着られるようになりました。",
+      "reading": "こどもが ひとりで ふくを きられるように なりました。",
+      "en": "My child has become able to dress by himself.",
+      "note": "A milestone: the child could not before and now can."
+    },
+    {
+      "ja": "この町にも、外国人がたくさん来るようになった。",
+      "reading": "このまちにも、がいこくじんが たくさん くるようになった。",
+      "en": "Many foreigners have started coming to this town too.",
+      "note": "A change in the situation, not in the speaker's ability."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようにする",
+      "difference": "する = the person's own effort (\"I make a point of…\"). なる = a change that happened.",
+      "id": "n4-grammar-15"
+    },
+    {
+      "pattern": "〜なくなる",
+      "difference": "The natural way to express a change to a negative state (食べなくなった). 〜ないようになる is possible but less common.",
+      "id": "n4-grammar-90"
+    },
+    {
+      "pattern": "〜ことになる",
+      "difference": "ことになる = a decision made by others or circumstances. ようになる = a change in ability or habit.",
+      "id": "n4-grammar-18"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語を話すようになりました。(meaning \"became able to\")",
+      "right": "日本語が話せるようになりました。",
+      "why": "To express ability, put the verb in the potential form first. 話すようになった only means \"started speaking (as a habit)\"."
+    },
+    {
+      "wrong": "毎日運動するようにしました。(meaning a change that happened)",
+      "right": "毎日運動するようになりました。",
+      "why": "ようにする is your deliberate effort; ようになる is the change you observe."
+    },
+    {
+      "wrong": "話せられるようになった。",
+      "right": "話せるようになった。",
+      "why": "話せる is already potential; do not add られる again."
+    }
+  ],
+  "usageNotes": [
+    "Use 〜ようになってきた to stress that the change is still in progress: だんだん分かるようになってきた.",
+    "For sudden changes use 〜になった / 〜始めた instead; ようになる always feels gradual.",
+    "Common learner-life examples: 早起きするようになった, 自転車に乗れるようになった, 納豆が食べられるようになった."
+  ],
+  "jlptTips": [
+    "Look for time words showing change: 最近, やっと, だんだん, 一年で. Combined with a potential verb before the blank, the answer is ようになった.",
+    "The pair ようになる / ようにする is a favourite. Ask: did it happen (なる) or is the person trying (する, often with 〜ています or 〜てください)?"
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-14-1",
+    "q-n4-g-14-2",
+    "q-n4-g-14-3",
+    "q-n4-g-14-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-14-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

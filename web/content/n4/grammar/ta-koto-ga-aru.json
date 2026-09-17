@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-26",
+  "slug": "ta-koto-ga-aru",
+  "level": "n4",
+  "order": 26,
+  "title": "〜たことがある \"have (ever) done\"",
+  "romaji": "ta koto ga aru",
+  "meaning": "Experience: \"have done something before\".",
+  "simpleExplanation": "〜たことがある means \"have (ever) done\", talking about life experience: 富士山に登ったことがあります = I have climbed Mt Fuji (at some point in my life). The verb before こと is in the た-form, but ある stays in the present: it is the experience you have now. The negative is 〜たことがない (have never). It is not for things you did yesterday; it is for experiences that make you who you are.",
+  "whenUsed": "Getting to know people (日本に行ったことがありますか？), talking about travel, food and hobbies, and job interviews (この仕事をしたことがあります). Used at every politeness level.",
+  "formation": [
+    "V-た + ことがある: 行ったことがある, 食べたことがある",
+    "V-た + ことがない: 行ったことがない (never)",
+    "Question: 〜たことがありますか",
+    "Frequency words: 一度, 何回も, 一度も〜ない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "たことがある vs ことがある",
+    "columns": [
+      "Form before こと",
+      "Meaning",
+      "Typical words",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜たことがある",
+        "cells": [
+          "た-form (past)",
+          "have experienced (at least once in life)",
+          "一度, 前に, 一度も〜ない",
+          "納豆を食べたことがある"
+        ]
+      },
+      {
+        "label": "〜ことがある",
+        "cells": [
+          "dictionary form / ない-form",
+          "sometimes happens",
+          "時々, たまに",
+          "納豆を食べることがある"
+        ]
+      },
+      {
+        "label": "Past simple (contrast)",
+        "cells": [
+          "た-form alone",
+          "did it (a specific time)",
+          "昨日, 先週",
+          "昨日納豆を食べた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "富士山に登ったことがあります。",
+      "reading": "ふじさんに のぼったことが あります。",
+      "en": "I have climbed Mt Fuji.",
+      "note": "A life experience: climbed Fuji at some point."
+    },
+    {
+      "ja": "馬に乗ったことがありますか。",
+      "reading": "うまに のったことが ありますか。",
+      "en": "Have you ever ridden a horse?",
+      "note": "Asking about experience: 〜たことがありますか."
+    },
+    {
+      "ja": "一度も海外へ行ったことがない。",
+      "reading": "いちども かいがいへ いったことが ない。",
+      "en": "I have never once been abroad.",
+      "note": "一度も + たことがない: never even once."
+    },
+    {
+      "ja": "私は一度だけ、着物を着たことがあります。",
+      "reading": "わたしは いちどだけ、きものを きたことが あります。",
+      "en": "I have worn a kimono just once.",
+      "note": "一度だけ counts the experience; ある stays in the present."
+    },
+    {
+      "ja": "A：北海道に行ったことがある？ B：ううん、まだ一度もないんだ。",
+      "reading": "A：ほっかいどうに いったことが ある？ B：ううん、まだ いちども ないんだ。",
+      "en": "A: Have you ever been to Hokkaido? B: No, not even once yet.",
+      "note": "In the answer ことが can be omitted: 一度もない = never."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことがある (sometimes)",
+      "difference": "Dictionary form + ことがある means \"sometimes\". Only the た-form gives the experience meaning.",
+      "id": "n4-grammar-27"
+    },
+    {
+      "pattern": "Past tense 〜た",
+      "difference": "昨日食べた reports one event at a specific time. 食べたことがある reports an experience with no specific time."
+    },
+    {
+      "pattern": "〜ことができる",
+      "difference": "Same こと, different verb: ことができる = can do; たことがある = have done.",
+      "id": "n4-grammar-98"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨日、寿司を食べたことがあります。",
+      "right": "昨日、寿司を食べました。",
+      "why": "A specific recent event uses the plain past. たことがある is for life experience without a specific time."
+    },
+    {
+      "wrong": "富士山に登ったことがありました。",
+      "right": "富士山に登ったことがあります。",
+      "why": "ある stays present because the experience is something you have now."
+    },
+    {
+      "wrong": "日本へ行くことがありますか。(meaning 'have you ever been?')",
+      "right": "日本へ行ったことがありますか。",
+      "why": "The dictionary form + ことがある means \"do you sometimes go?\". Experience needs the た-form."
+    }
+  ],
+  "usageNotes": [
+    "Answering: はい、あります / いいえ、ありません. You do not need to repeat the verb.",
+    "たことがあった (past) exists but is used only when telling a story about a past point in time: 子供のころ、一度だけ見たことがあった.",
+    "Add frequency for detail: 何度も行ったことがある, 一回だけ乗ったことがある."
+  ],
+  "jlptTips": [
+    "If the sentence has 一度も, 前に, 今までに, or asks about experience in general, choose た-form + ことがある; if it has 昨日 / 先週, the plain past is right.",
+    "The exam contrasts たことがある (experience) with ことがある (sometimes). Check the form before こと and time words like 時々."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-26-1",
+    "q-n4-g-26-2",
+    "q-n4-g-26-3",
+    "q-n4-g-26-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-26-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

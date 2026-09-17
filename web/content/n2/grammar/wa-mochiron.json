@@ -1,0 +1,132 @@
+{
+  "id": "n2-grammar-143",
+  "slug": "wa-mochiron",
+  "level": "n2",
+  "order": 143,
+  "title": "〜はもちろん / 〜はもとより",
+  "romaji": "wa mochiron / wa motoyori",
+  "meaning": "not to mention, of course … and also",
+  "simpleExplanation": "〜はもちろん means \"X goes without saying, and Y too\": X is the obvious case, and Y is added as a less obvious one. 英語はもちろん、中国語も話せる. 〜はもとより is the formal written equivalent. The second item is marked with も (or まで / さえ for emphasis).",
+  "whenUsed": "はもちろん works in any register; はもとより belongs to formal writing and speeches. Common in praise, advertising, and descriptions of scope (子供はもちろん大人も).",
+  "formation": [
+    "Noun + はもちろん(のこと) + Y も",
+    "Noun + はもとより + Y も",
+    "Verb / adjective + の + はもちろん (泳ぐのはもちろん)",
+    "Emphatic second item: Y まで / Y さえ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "英語",
+        "role": "obvious case"
+      },
+      {
+        "text": "はもちろん",
+        "role": "of course, needless to say",
+        "highlight": true
+      },
+      {
+        "text": "、中国語も",
+        "role": "less obvious case added with も"
+      },
+      {
+        "text": "話せる",
+        "role": "shared predicate"
+      }
+    ],
+    "translation": "He can speak Chinese, not to mention English."
+  },
+  "examples": [
+    {
+      "ja": "彼は英語はもちろん、中国語も話せる。",
+      "reading": "かれはえいごはもちろん、ちゅうごくごもはなせる。",
+      "en": "He can speak Chinese, not to mention English.",
+      "note": "English is expected; Chinese is the surprising addition."
+    },
+    {
+      "ja": "平日はもとより、週末も仕事をしている。",
+      "reading": "へいじつはもとより、しゅうまつもしごとをしている。",
+      "en": "I work not only on weekdays but on weekends too.",
+      "note": "はもとより: formal variant; weekends added to weekdays."
+    },
+    {
+      "ja": "この公園は子供はもちろんのこと、大人も楽しめる。",
+      "reading": "このこうえんはこどもはもちろんのこと、おとなもたのしめる。",
+      "en": "This park can be enjoyed by adults, not to mention children.",
+      "note": "はもちろんのこと: a slightly fuller form."
+    },
+    {
+      "ja": "この薬は大人はもちろん、子供でも安心して使える。",
+      "reading": "このくすりはおとなはもちろん、こどもでもあんしんしてつかえる。",
+      "en": "This medicine can be used safely by children, let alone adults.",
+      "note": "でも on the second item stresses the extension."
+    },
+    {
+      "ja": "彼は日本国内はもとより、海外でも広く知られている。",
+      "reading": "かれはにほんこくないはもとより、かいがいでもひろくしられている。",
+      "en": "He is widely known overseas, not to mention within Japan.",
+      "note": "はもとより in a formal description."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく / 〜のみならず",
+      "difference": "\"Not only\": similar addition, but without the nuance that X is taken for granted.",
+      "id": "n2-grammar-137"
+    },
+    {
+      "pattern": "〜はともかく",
+      "difference": "Opposite: X is set aside rather than assumed.",
+      "id": "n2-grammar-142"
+    },
+    {
+      "pattern": "〜ばかりか",
+      "difference": "\"Not just… but even\": stronger escalation.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜に加えて",
+      "difference": "\"In addition to\": neutral addition of a similar item.",
+      "id": "n2-grammar-109"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "中国語はもちろん、英語も話せる。(when English is the obvious one)",
+      "right": "英語はもちろん、中国語も話せる。",
+      "why": "Put the obvious item before はもちろん and the surprising one after."
+    },
+    {
+      "wrong": "英語はもちろん、中国語を話せる。",
+      "right": "英語はもちろん、中国語も話せる。",
+      "why": "Mark the second item with も."
+    },
+    {
+      "wrong": "「今日はもとより行くよ。」(casual)",
+      "right": "「今日はもちろん行くよ。」",
+      "why": "もとより is written style; in casual speech use もちろん (here as an adverb)."
+    }
+  ],
+  "usageNotes": [
+    "はもちろんのこと is common in formal announcements.",
+    "The second item can also take でも / まで / さえ for stronger emphasis.",
+    "もとより alone (adverb) means 'from the start'."
+  ],
+  "jlptTips": [
+    "If X is the obvious case and Y is added with も, choose はもちろん / はもとより over はともかく.",
+    "In formal passages, はもとより is preferred over はもちろん.",
+    "Distractors include はともかく and にかかわらず. Look at whether X is assumed (もちろん) or dismissed (ともかく)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-143-1",
+    "q-n2-g-143-2",
+    "q-n2-g-143-3",
+    "q-n2-g-143-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-143-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "n5-grammar-50",
+  "slug": "nakereba-narimasen",
+  "level": "n5",
+  "order": 50,
+  "title": "なければなりません",
+  "romaji": "nakereba narimasen",
+  "meaning": "\"must ~ / have to ~\" (obligation).",
+  "simpleExplanation": "なければなりません means \"must / have to\": 早く起きなければなりません \"I have to get up early\". Take the ない-form, drop the final い and add ければなりません: 行かない → 行かなければなりません. It sounds fairly formal; in speech you also hear なければいけません, ないといけません and the casual なきゃ／なくちゃ.",
+  "whenUsed": "Duties and obligations: homework, medicine, deadlines, rules. Also the standard \"I have to go now\" (もう帰らなければなりません).",
+  "formation": [
+    "V-ない stem (drop い) + ければなりません　e.g. 行かない → 行かなければなりません"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "行く",
+        "en": "go"
+      },
+      {
+        "ja": "行かない",
+        "en": "don't go (ない-form)"
+      },
+      {
+        "ja": "行かなければ",
+        "en": "if (I) don't go (drop い, add ければ)"
+      },
+      {
+        "ja": "行かなければなりません",
+        "en": "must go (\"it won't do if I don't go\")"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日は早く起きなければなりません。",
+      "reading": "あしたは はやく おきなければ なりません。",
+      "en": "I have to get up early tomorrow.",
+      "note": "起きない → 起きなければなりません."
+    },
+    {
+      "ja": "毎日薬を飲まなければなりません。",
+      "reading": "まいにち くすりを のまなければ なりません。",
+      "en": "I must take medicine every day.",
+      "note": "飲まない → 飲まなければなりません."
+    },
+    {
+      "ja": "来週までにレポートを出さなければなりません。",
+      "reading": "らいしゅうまでに レポートを ださなければ なりません。",
+      "en": "I must hand in the report by next week.",
+      "note": "出さない → 出さなければなりません, with a deadline までに."
+    },
+    {
+      "ja": "もう遅いので、帰らなければなりません。",
+      "reading": "もう おそいので、かえらなければ なりません。",
+      "en": "It's late, so I have to go home.",
+      "note": "帰る (Group 1) → 帰らない → 帰らなければ."
+    },
+    {
+      "ja": "明日までに宿題をしなければなりません。",
+      "reading": "あしたまでに しゅくだいを しなければ なりません。",
+      "en": "I have to do my homework by tomorrow.",
+      "note": "する → しない → しなければ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-51",
+      "pattern": "なくてもいいです",
+      "difference": "The opposite: \"don't have to\"."
+    },
+    {
+      "id": "n5-grammar-38",
+      "pattern": "てはいけません",
+      "difference": "\"Must not\" (forbidden) vs \"must\" (required)."
+    },
+    {
+      "id": "n5-grammar-25",
+      "pattern": "ない-form",
+      "difference": "The base form; drop い before ければ."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行くなければなりません",
+      "right": "行かなければなりません",
+      "why": "Build from the ない-form: 行か + なければ."
+    },
+    {
+      "wrong": "行かないければなりません",
+      "right": "行かなければなりません",
+      "why": "Drop the い of ない before ければ."
+    },
+    {
+      "wrong": "買あなければなりません",
+      "right": "買わなければなりません",
+      "why": "う-verbs become わ in the ない-form."
+    }
+  ],
+  "usageNotes": [
+    "Equivalents: 〜なければいけません, 〜なくてはいけません, 〜ないといけません; casual 〜なきゃ／〜なくちゃ. Irregular: する→しなければ, 来る→来なければ(こなければ). Group 1 うverbs: 買う→買わなければ (not 買あなければ)."
+  ],
+  "jlptTips": [
+    "Words like までに (by), 毎日, 薬, 宿題 and 会議 often signal obligation. Blank + なければなりません → the ない-stem (行か, 食べ, し, こ).",
+    "Distractors mix up the three: 〜なければなりません (must), 〜なくてもいいです (need not), 〜てはいけません (must not). Read the situation."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-50-1",
+    "q-n5-g-50-2",
+    "q-n5-g-50-3",
+    "q-n5-g-50-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-50-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

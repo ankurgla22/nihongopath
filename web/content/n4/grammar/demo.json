@@ -1,0 +1,146 @@
+{
+  "id": "n4-grammar-63",
+  "slug": "demo",
+  "level": "n4",
+  "order": 63,
+  "title": "〜でも (example / question word + でも)",
+  "romaji": "demo (rei / gimonshi + demo)",
+  "meaning": "(1) N + でも: \"or something\", a casual suggestion; (2) question word + でも: \"any-\" (誰でも, 何でも, いつでも, どこでも); (3) \"even\" (子供でも分かる).",
+  "simpleExplanation": "でも after a noun has three everyday jobs. (1) Suggestion: お茶でも = \"tea or something\"; you name one example without insisting on it, which makes an invitation sound relaxed. (2) After a question word (誰, 何, いつ, どこ) it means \"any-\": 誰でも = anyone, いつでも = any time. (3) \"Even\": 子供でも分かる = even a child understands, used to give an extreme example. In all three, でも points at one example and lets the listener imagine the rest.",
+  "whenUsed": "Casual invitations (コーヒーでも飲まない？), friendly offers, general statements about what is possible for anyone at any time (いつでも来てください), and emphasising that something is easy or surprising (初心者でもできる). Works in polite and casual speech alike.",
+  "formation": [
+    "N + でも (suggestion): お茶でも飲みませんか",
+    "Question word + でも (any-): 誰でも / 何でも / いつでも / どこでも / どれでも / どちらでも",
+    "N + でも (even): 子供でも分かる, 先生でも間違える",
+    "でも replaces を / が; other particles stay before it (どこへでも, 誰とでも)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of でも",
+    "columns": [
+      "Use",
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "N + でも (suggestion)",
+        "cells": [
+          "or something",
+          "お茶でも飲みませんか",
+          "Would you like tea or something?"
+        ]
+      },
+      {
+        "label": "question word + でも",
+        "cells": [
+          "any-",
+          "誰でも / いつでも / どこでも",
+          "anyone / any time / anywhere"
+        ]
+      },
+      {
+        "label": "N + でも (extreme case)",
+        "cells": [
+          "even",
+          "子供でも分かる",
+          "even a child understands"
+        ]
+      },
+      {
+        "label": "question word + も + ない",
+        "cells": [
+          "no- (contrast)",
+          "誰も知らない",
+          "nobody knows"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お茶でも飲みませんか。",
+      "reading": "おちゃでも のみませんか。",
+      "en": "Would you like some tea or something?",
+      "note": "Suggestion: tea is one example; the invitation is soft and leaves room for another choice."
+    },
+    {
+      "ja": "この問題は誰でも解ける。",
+      "reading": "この もんだいは だれでも とける。",
+      "en": "Anyone can solve this problem.",
+      "note": "誰でも = anyone: the question word + でも is always followed by an affirmative."
+    },
+    {
+      "ja": "子供でも知っていることです。",
+      "reading": "こどもでも しっていることです。",
+      "en": "It's something even a child knows.",
+      "note": "Extreme example: if even a child knows it, everyone does."
+    },
+    {
+      "ja": "質問があれば、いつでも聞いてください。",
+      "reading": "しつもんが あれば、いつでも きいてください。",
+      "en": "If you have questions, ask me any time.",
+      "note": "いつでも = any time. Note the affirmative request after it."
+    },
+    {
+      "ja": "暇なら、映画でも見に行かない？",
+      "reading": "ひまなら、えいがでも みに いかない？",
+      "en": "If you're free, want to go and see a movie or something?",
+      "note": "Casual invitation: 映画 is only a suggestion, so でも softens it."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とか",
+      "difference": "とか lists two or more examples (映画とか買い物とか). でも gives one example lightly and only in a suggestion or an extreme case.",
+      "id": "n4-grammar-64"
+    },
+    {
+      "pattern": "〜ても",
+      "difference": "Verb/adjective + ても is the \"even if\" form (雨が降っても). Noun + でも in the \"even\" sense is the noun version of the same idea.",
+      "id": "n4-grammar-44"
+    },
+    {
+      "pattern": "〜なんか / なんて",
+      "difference": "Also gives an example, but with a dismissive or emotional feeling (勉強なんかしたくない). でも is neutral.",
+      "id": "n4-grammar-109"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "誰でも来ませんでした。",
+      "right": "誰も来ませんでした。",
+      "why": "Question word + でも is followed by an affirmative (anyone can…). For \"nobody\", use 誰も + negative."
+    },
+    {
+      "wrong": "お茶をでも飲みませんか。",
+      "right": "お茶でも飲みませんか。",
+      "why": "でも replaces を and が; do not keep both."
+    },
+    {
+      "wrong": "どこも行けます。",
+      "right": "どこでも行けます。/ どこへでも行けます。",
+      "why": "\"Anywhere\" in an affirmative sentence needs でも, not も."
+    }
+  ],
+  "usageNotes": [
+    "The suggestion use is one of the most natural ways to invite someone in Japanese: お茶でも / ご飯でも / 映画でも + ませんか / ない？.",
+    "Question word + でも can take a preceding particle: どこへでも (to anywhere), 誰とでも (with anyone), 何からでも.",
+    "In the \"even\" sense でも often pairs with an easy or surprising result: 大人でも難しい (hard even for adults)."
+  ],
+  "jlptTips": [
+    "If the sentence ends in 〜ませんか / 〜ない？ and the blank follows a noun like お茶, コーヒー, ご飯, the answer is でも, not を or は.",
+    "Question word + blank + affirmative verb → でも; question word + blank + negative verb → も. Check the ending of the verb before choosing."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-63-1",
+    "q-n4-g-63-2",
+    "q-n4-g-63-3",
+    "q-n4-g-63-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-63-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

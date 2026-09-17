@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-64",
+  "slug": "tatoe-temo",
+  "level": "n2",
+  "order": 64,
+  "title": "たとえ〜ても",
+  "romaji": "tatoe ... temo",
+  "meaning": "even if, no matter (how)",
+  "simpleExplanation": "たとえ〜ても means \"even if…, no matter how…\". たとえ announces a hypothetical concession and 〜ても carries it: even if it rains, the match will be held; even if my parents object, I'll marry him.",
+  "whenUsed": "Both registers. Forms: Vても, Aい stem + くても, Aな/N + でも. The second clause states what will not change. Formal variants: たとえ〜としても, たとえ〜にせよ/にしろ. たとえ makes clear that the condition is imagined, not real.",
+  "formation": [
+    "たとえ + Vて + も / Aい stem + くても / Aな + でも / N + でも"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "たとえ",
+    "rootLabel": "たとえ + concession",
+    "branches": [
+      {
+        "suffix": "Vても",
+        "result": "たとえ雨が降っても",
+        "label": "even if it rains"
+      },
+      {
+        "suffix": "Aい + くても",
+        "result": "たとえ高くても",
+        "label": "even if it is expensive"
+      },
+      {
+        "suffix": "Aな/N + でも",
+        "result": "たとえ冗談でも",
+        "label": "even as a joke"
+      },
+      {
+        "suffix": "としても",
+        "result": "たとえ失敗したとしても",
+        "label": "even supposing (formal)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "たとえ雨が降っても、試合は行われる。",
+      "reading": "たとえあめがふっても、しあいはおこなわれる。",
+      "en": "Even if it rains, the match will be held.",
+      "note": "Vても."
+    },
+    {
+      "ja": "たとえ両親が反対しても、彼と結婚する。",
+      "reading": "たとえりょうしんがはんたいしても、かれとけっこんする。",
+      "en": "Even if my parents object, I'll marry him.",
+      "note": "Vても with strong will."
+    },
+    {
+      "ja": "たとえ冗談でも、そんなことを言ってはいけない。",
+      "reading": "たとえじょうだんでも、そんなことをいってはいけない。",
+      "en": "Even as a joke, you must not say such a thing.",
+      "note": "N + でも."
+    },
+    {
+      "ja": "たとえどんなに苦しくても、最後まで走り続けるつもりだ。",
+      "reading": "たとえどんなにくるしくても、さいごまではしりつづけるつもりだ。",
+      "en": "No matter how painful it gets, I intend to keep running to the end.",
+      "note": "たとえ + どんなに + くても."
+    },
+    {
+      "ja": "たとえ失敗したとしても、挑戦したことに意味がある。",
+      "reading": "たとえしっぱいしたとしても、ちょうせんしたことにいみがある。",
+      "en": "Even if I fail, there is meaning in having tried.",
+      "note": "としても is the formal variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ても",
+      "difference": "Same concession without たとえ; たとえ adds clarity that it is hypothetical."
+    },
+    {
+      "pattern": "〜としても",
+      "difference": "Formal \"even supposing\"; often combined with たとえ.",
+      "id": "n2-grammar-91"
+    },
+    {
+      "pattern": "〜にしても / にせよ",
+      "difference": "\"Even granting that\"; more formal and can take nouns directly."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "たとえ雨が降ると、試合は行われる。",
+      "right": "たとえ雨が降っても、試合は行われる。",
+      "why": "たとえ must pair with ても (or としても/にせよ)."
+    },
+    {
+      "wrong": "たとえ高いでも、買う。",
+      "right": "たとえ高くても、買う。",
+      "why": "い-adjectives take くても."
+    },
+    {
+      "wrong": "たとえ雨が降っても、試合は中止になった。",
+      "right": "雨が降ったが、試合は行われた。",
+      "why": "The second clause must show that the outcome does not change; a past result that did change contradicts the concession."
+    }
+  ],
+  "usageNotes": [
+    "たとえ is often written 例え but the kana form is standard in this pattern.",
+    "Combines with question words: たとえ誰が反対しても, たとえどんなに.",
+    "The second clause frequently expresses determination or an unchanging fact."
+  ],
+  "jlptTips": [
+    "たとえ at the start forces a concessive ending: choose the ても/でも/としても option.",
+    "Distractors: 〜たら, 〜と, 〜なら. None can pair with たとえ.",
+    "Form questions test 高くても (not 高いでも) and N + でも."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-64-1",
+    "q-n2-g-64-2",
+    "q-n2-g-64-3",
+    "q-n2-g-64-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-64-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

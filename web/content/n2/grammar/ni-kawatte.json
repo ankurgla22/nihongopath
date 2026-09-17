@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-105",
+  "slug": "ni-kawatte",
+  "level": "n2",
+  "order": 105,
+  "title": "〜に代わって / 〜に代わり",
+  "romaji": "ni kawatte / ni kawari",
+  "meaning": "in place of, on behalf of, replacing",
+  "simpleExplanation": "〜に代わって means \"in place of X\" or \"on behalf of X\". Either a person acts as a substitute for someone who cannot be there (社長に代わって私が), or a new thing takes over the role of an old one (手紙に代わってメール). It is the formal version of 〜の代わりに.",
+  "whenUsed": "Formal speeches, business emails, news about change (〜に代わり、新たに〜が). In conversation the everyday 〜の代わりに is preferred. に代わり (without て) is stiffer and typical of written announcements.",
+  "formation": [
+    "Noun (person / organization) + に代わって / に代わり + (someone) が",
+    "Noun (old thing) + に代わって + (new thing) が",
+    "Noun + に代わる + Noun (石油に代わるエネルギー = energy to replace oil)",
+    "Everyday equivalent: Noun + の代わりに"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "社長が挨拶する",
+        "en": "the president gives the greeting (normal)"
+      },
+      {
+        "ja": "社長に代わって、私が挨拶する",
+        "en": "in place of the president, I give the greeting"
+      },
+      {
+        "ja": "社長に代わり、私がご挨拶いたします",
+        "en": "same, in formal announcement style"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "社長に代わって、私がご挨拶いたします。",
+      "reading": "しゃちょうにかわって、わたしがごあいさついたします。",
+      "en": "I will give the greeting on behalf of the president.",
+      "note": "Substituting for a person in a formal setting; keigo (いたします) matches the register."
+    },
+    {
+      "ja": "手紙に代わって、メールが主流になった。",
+      "reading": "てがみにかわって、メールがしゅりゅうになった。",
+      "en": "Email has become mainstream in place of letters.",
+      "note": "One thing replacing another over time: letters → email."
+    },
+    {
+      "ja": "病気の母に代わり、私が店を守った。",
+      "reading": "びょうきのははにかわり、わたしがみせをまもった。",
+      "en": "In place of my sick mother, I kept the shop.",
+      "note": "に代わり without て: the written, more solemn variant."
+    },
+    {
+      "ja": "石油に代わるエネルギーの開発が急がれている。",
+      "reading": "せきゆにかわるエネルギーのかいはつがいそがれている。",
+      "en": "The development of energy sources to replace oil is urgently needed.",
+      "note": "に代わる + noun: \"X that takes the place of Y\"."
+    },
+    {
+      "ja": "入院中の部長に代わって、私が会議に出席します。",
+      "reading": "にゅういんちゅうのぶちょうにかわって、わたしがかいぎにしゅっせきします。",
+      "en": "I will attend the meeting in place of the department head, who is in hospital.",
+      "note": "Typical business usage: the substitute takes が."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の代わりに",
+      "difference": "Same meaning, everyday register; also covers \"instead of doing\" with verbs (行く代わりに), which に代わって cannot."
+    },
+    {
+      "pattern": "〜にかけては",
+      "difference": "Unrelated in meaning; watch the spelling difference in ordering questions.",
+      "id": "n2-grammar-104"
+    },
+    {
+      "pattern": "〜として",
+      "difference": "\"In the capacity of\" (代表として); に代わって stresses substitution for an absent party."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行く代わって、電話した。",
+      "right": "行く代わりに、電話した。",
+      "why": "に代わって attaches only to nouns. For \"instead of doing\", use Verb + 代わりに."
+    },
+    {
+      "wrong": "社長に代わって、社長が挨拶した。",
+      "right": "社長に代わって、副社長が挨拶した。",
+      "why": "The person after に代わって is the absent one; the substitute must be a different subject."
+    },
+    {
+      "wrong": "メールが手紙に代わって主流になった。",
+      "right": "手紙に代わって、メールが主流になった。",
+      "why": "The replaced thing goes before に代わって; the new thing is the subject of the clause."
+    }
+  ],
+  "usageNotes": [
+    "Kanji: 代わって (substitution). 変わって means \"change\" and is a different word.",
+    "In news style, に代わり often introduces a successor: 田中氏に代わり、鈴木氏が就任した.",
+    "に代わる + noun is productive: 〜に代わる方法 / 〜に代わる存在."
+  ],
+  "jlptTips": [
+    "When the sentence has a formal tone (いたします / 申し上げます) and a person who is absent, に代わって is more likely than の代わりに.",
+    "If the blank follows a verb, に代わって is impossible; the answer is 代わりに.",
+    "In 並べ替え, に代わって is usually followed immediately by the substitute + が."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-105-1",
+    "q-n2-g-105-2",
+    "q-n2-g-105-3",
+    "q-n2-g-105-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-105-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

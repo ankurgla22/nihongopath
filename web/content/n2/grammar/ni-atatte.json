@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-98",
+  "slug": "ni-atatte",
+  "level": "n2",
+  "order": 98,
+  "title": "〜に当たって / 〜に当たり",
+  "romaji": "ni atatte / ni atari",
+  "meaning": "on the occasion of, at the time of (a major undertaking)",
+  "simpleExplanation": "〜に当たって / 〜に当たり means \"on the occasion of, at the time of (a major undertaking)\". It marks an important starting point, usually positive and formal: on the occasion of the opening; in starting the new business; when going to study abroad.",
+  "whenUsed": "書き言葉 and formal speeches, greetings, official documents. It follows Vる (始めるに当たって) or nouns (開会に当たって). It is not for everyday events or for negative occasions like funerals. に当たり is the more written form.",
+  "formation": [
+    "Vる + に当たって / N + に当たって"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"On the occasion of\" by formality",
+    "items": [
+      {
+        "label": "〜時に",
+        "description": "Neutral, any event."
+      },
+      {
+        "label": "〜際に",
+        "description": "Formal occasions (notices, business)."
+      },
+      {
+        "label": "〜に当たって / に際して",
+        "description": "Major, significant undertakings (speeches, ceremonies)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "開会に当たって、一言ご挨拶申し上げます。",
+      "reading": "かいかいにあたって、ひとことごあいさつもうしあげます。",
+      "en": "On the occasion of the opening, I'd like to say a few words.",
+      "note": "N + に当たって in a speech."
+    },
+    {
+      "ja": "新事業を始めるに当たり、資金を集めた。",
+      "reading": "しんじぎょうをはじめるにあたり、しきんをあつめた。",
+      "en": "In starting the new business, we raised funds.",
+      "note": "Vる + に当たり, written."
+    },
+    {
+      "ja": "留学するに当たって、準備すべきことは多い。",
+      "reading": "りゅうがくするにあたって、じゅんびすべきことはおおい。",
+      "en": "There is much to prepare when going to study abroad.",
+      "note": "Vる + に当たって + preparation."
+    },
+    {
+      "ja": "新年を迎えるに当たって、今年の目標を立てた。",
+      "reading": "しんねんをむかえるにあたって、ことしのもくひょうをたてた。",
+      "en": "On the occasion of the new year, I set my goals for the year.",
+      "note": "A meaningful turning point."
+    },
+    {
+      "ja": "本製品のご使用に当たり、必ず説明書をお読みください。",
+      "reading": "ほんせいひんのごしようにあたり、かならずせつめいしょをおよみください。",
+      "en": "Before using this product, be sure to read the manual.",
+      "note": "Written instruction with に当たり."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に際して",
+      "difference": "Nearly identical; に際して can also be used for less positive occasions (退職に際して).",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜際に",
+      "difference": "Formal \"when\"; less weighty.",
+      "id": "n2-grammar-49"
+    },
+    {
+      "pattern": "〜上で",
+      "difference": "\"In the process of\": what matters in doing X.",
+      "id": "n2-grammar-8"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昼ご飯を食べるに当たって、手を洗った。",
+      "right": "昼ご飯を食べる前に、手を洗った。",
+      "why": "に当たって is for significant undertakings, not daily actions."
+    },
+    {
+      "wrong": "葬式に当たって、挨拶した。",
+      "right": "葬式に際して、挨拶した。",
+      "why": "に当たって suits positive or forward-looking occasions; use に際して for somber ones."
+    },
+    {
+      "wrong": "始めたに当たって",
+      "right": "始めるに当たって",
+      "why": "Verbs take the dictionary form."
+    }
+  ],
+  "usageNotes": [
+    "Modifier form: 〜に当たっての + noun (開業に当たっての準備).",
+    "Frequent nouns: 開会, 開店, 卒業, 就職, 出発, 入学, 発売.",
+    "Common in ceremonial phrases: 〜に当たり、一言ご挨拶申し上げます."
+  ],
+  "jlptTips": [
+    "A formal, significant occasion + Vる/N + blank → に当たって.",
+    "Distractors: 際に, 最中に, において. 最中に needs an ongoing action; において marks a place or field.",
+    "Vた before the blank rules out に当たって."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-98-1",
+    "q-n2-g-98-2",
+    "q-n2-g-98-3",
+    "q-n2-g-98-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-98-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

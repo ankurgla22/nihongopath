@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-43",
+  "slug": "koto-kara",
+  "level": "n2",
+  "order": 43,
+  "title": "〜ことから",
+  "romaji": "koto kara",
+  "meaning": "from the fact that; because (the reason for a name/judgment)",
+  "simpleExplanation": "〜ことから means \"from the fact that…, because…\" and gives the evidence or origin behind a judgment, a name, or a result: from the broken window we knew a burglar had entered; because it resembles Mt. Fuji, the mountain is called X-Fuji.",
+  "whenUsed": "書き言葉寄り, explanatory. Verbs and い-adjectives attach in plain form; な-adjectives and nouns take な / である. The second clause is typically a deduction (〜と分かった・〜と思われる) or an origin (〜と呼ばれる・〜と名付けられた).",
+  "formation": [
+    "V普通形 + ことから / Aい + ことから / Aな + な/である + ことから / N + である + ことから"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "窓が割れている",
+        "role": "observed fact / evidence"
+      },
+      {
+        "text": "ことから",
+        "role": "from the fact that…",
+        "highlight": true
+      },
+      {
+        "text": "泥棒が入ったと分かった",
+        "role": "deduction or origin"
+      }
+    ],
+    "translation": "From the broken window, we could tell a burglar had gotten in."
+  },
+  "examples": [
+    {
+      "ja": "窓が割れていることから、泥棒が入ったと分かった。",
+      "reading": "まどがわれていることから、どろぼうがはいったとわかった。",
+      "en": "From the broken window, we could tell a burglar had gotten in.",
+      "note": "Evidence → deduction."
+    },
+    {
+      "ja": "富士山に似ていることから、この山は「〜富士」と呼ばれる。",
+      "reading": "ふじさんににていることから、このやまは「〜ふじ」とよばれる。",
+      "en": "Because it resembles Mt. Fuji, this mountain is called \"X-Fuji\".",
+      "note": "Origin of a name (〜と呼ばれる)."
+    },
+    {
+      "ja": "二人は同じ町の出身であることから、すぐに親しくなった。",
+      "reading": "ふたりはおなじまちのしゅっしんであることから、すぐにしたしくなった。",
+      "en": "Being from the same town, the two quickly became close.",
+      "note": "N + である + ことから → result."
+    },
+    {
+      "ja": "この魚は目が大きいことから、「めだか」と名付けられた。",
+      "reading": "このさかなはめがおおきいことから、「めだか」となづけられた。",
+      "en": "Because its eyes are big, this fish was named \"medaka\".",
+      "note": "Name origin."
+    },
+    {
+      "ja": "返事が来ないことから、彼はもう興味がないのだと思われる。",
+      "reading": "へんじがこないことから、かれはもうきょうみがないのだとおもわれる。",
+      "en": "Since no reply has come, it seems he is no longer interested.",
+      "note": "Deduction with と思われる."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことだから",
+      "difference": "\"Knowing (a person)\": judgment from someone's character, N + の + ことだから.",
+      "id": "n2-grammar-44"
+    },
+    {
+      "pattern": "〜から",
+      "difference": "Plain reason; ことから stresses that a fact is the basis of a deduction or name."
+    },
+    {
+      "pattern": "〜ところから",
+      "difference": "Nearly the same as ことから; slightly more colloquial."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "同じ町の出身ことから、親しくなった。",
+      "right": "同じ町の出身であることから、親しくなった。",
+      "why": "Nouns need である before ことから."
+    },
+    {
+      "wrong": "窓が割れていることから、早く直してください。",
+      "right": "窓が割れているので、早く直してください。",
+      "why": "ことから leads to a deduction or origin, not a request."
+    },
+    {
+      "wrong": "真面目な彼のことから、遅刻しないだろう。",
+      "right": "真面目な彼のことだから、遅刻しないだろう。",
+      "why": "Character-based judgment is ことだから."
+    }
+  ],
+  "usageNotes": [
+    "Frequent endings: 〜と分かる, 〜と考えられる, 〜と呼ばれる, 〜と名付けられた, 〜が始まった.",
+    "In reading passages it often introduces the etymology of a word or place name.",
+    "ことから can be replaced by ところから in speech."
+  ],
+  "jlptTips": [
+    "Fact + blank + deduction or name → ことから.",
+    "The main distractor is ことだから (needs a person + の). Another is ことなく (\"without\").",
+    "Noun subjects need である; watch for options missing it."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-43-1",
+    "q-n2-g-43-2",
+    "q-n2-g-43-3",
+    "q-n2-g-43-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-43-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

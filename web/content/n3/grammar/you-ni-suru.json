@@ -1,0 +1,136 @@
+{
+  "id": "n3-grammar-114",
+  "slug": "you-ni-suru",
+  "level": "n3",
+  "order": 114,
+  "title": "〜ようにする",
+  "romaji": "you ni suru",
+  "meaning": "make an effort to… / make sure to… / try to… (habitual effort)",
+  "simpleExplanation": "〜ようにする means you make an effort or arrange things so that something happens: 毎日野菜を食べるようにしている \"I make a point of eating vegetables every day\". 〜ようにしている is an ongoing habit; 〜ようにします is a decision from now on. Compare 〜ようになる, where the change happens by itself.",
+  "whenUsed": "Resolutions, health habits, instructions (遅刻しないようにしてください), and polite promises (これから気をつけるようにします). Everyday and business use.",
+  "formation": [
+    "Verb (dictionary form) + ようにする / ようにしている / ようにします",
+    "Verb ない-form + ようにする (make sure not to)",
+    "Request: 〜ようにしてください",
+    "Potential verb + ようにする (できるようにする = make it possible)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ようにする vs ようになる vs ことにする",
+    "columns": [
+      "Who causes it?",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ようにする",
+        "cells": [
+          "The speaker's effort",
+          "make an effort / make sure to",
+          "早く寝るようにする (try to go to bed early)"
+        ]
+      },
+      {
+        "label": "〜ようになる",
+        "cells": [
+          "Change by itself",
+          "come to / reach the point where",
+          "早く寝るようになった (started going to bed early)"
+        ]
+      },
+      {
+        "label": "〜ことにする",
+        "cells": [
+          "The speaker's firm decision",
+          "decide to",
+          "早く寝ることにする (decide to go to bed early)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "毎日、野菜を食べるようにしています。",
+      "reading": "まいにち、やさいをたべるようにしています。",
+      "en": "I make a point of eating vegetables every day.",
+      "note": "Ongoing habit: ようにしている."
+    },
+    {
+      "ja": "遅刻しないようにしてください。",
+      "reading": "ちこくしないようにしてください。",
+      "en": "Please make sure you're not late.",
+      "note": "Request: ないようにしてください."
+    },
+    {
+      "ja": "これからは早く寝るようにします。",
+      "reading": "これからはやくねるようにします。",
+      "en": "From now on I'll try to go to bed early.",
+      "note": "Decision from now: ようにします."
+    },
+    {
+      "ja": "健康のために、エレベーターを使わず階段を使うようにしている。",
+      "reading": "けんこうのために、エレベーターをつかわずかいだんをつかうようにしている。",
+      "en": "For my health, I make a point of using the stairs instead of the lift.",
+      "note": "Habitual effort."
+    },
+    {
+      "ja": "誰でも参加できるようにしたいと思っています。",
+      "reading": "だれでもさんかできるようにしたいとおもっています。",
+      "en": "We want to make it so that anyone can take part.",
+      "note": "Potential verb + ようにする: arrange conditions."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "A change that happens (ability, habit) rather than an effort made."
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "A clear-cut decision; ようにする is a softer, effort-based aim."
+    },
+    {
+      "pattern": "〜ように (purpose)",
+      "difference": "'So that' before another clause (忘れないようにメモする); ようにする ends the sentence."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎日運動するようにしています。→ translated as 'I decided to exercise every day'",
+      "right": "'I try to exercise every day' (ongoing effort).",
+      "why": "ようにしている describes a habit of effort, not a one-time decision."
+    },
+    {
+      "wrong": "日本語が話せるようにする。(meaning 'I came to be able to speak')",
+      "right": "日本語が話せるようになった。",
+      "why": "A change in ability is ようになる; ようにする is what you do to cause a change."
+    },
+    {
+      "wrong": "遅刻しないことにしてください。",
+      "right": "遅刻しないようにしてください。",
+      "why": "Requests to make an effort use ようにしてください; ことにする is for the speaker's own decision."
+    }
+  ],
+  "usageNotes": [
+    "〜ようにしましょう is a gentle group instruction (手を洗うようにしましょう).",
+    "The verb before ように is usually a controllable action.",
+    "〜ようにしていただけませんか is a polite request for cooperation."
+  ],
+  "jlptTips": [
+    "Pick by agent: effort by the speaker → ようにする; change by itself → ようになる; decision → ことにする.",
+    "If the sentence ends with してください / しましょう, the blank is ように (not ことに).",
+    "ようにしている often appears with 毎日 / なるべく / できるだけ."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-114-1",
+    "q-n3-g-114-2",
+    "q-n3-g-114-3",
+    "q-n3-g-114-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-114-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

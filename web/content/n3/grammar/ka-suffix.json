@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-104",
+  "slug": "ka-suffix",
+  "level": "n3",
+  "order": 104,
+  "title": "〜化 / 〜か",
+  "romaji": "ka (-ization)",
+  "meaning": "-ization / turn into… / become… (change of state)",
+  "simpleExplanation": "Noun + 化 means \"becoming X\" or \"making X\": 自動化 \"automation\", 少子化 \"declining birthrate\", 温暖化 \"warming\". It creates a する-verb: 自動化する \"to automate\" (transitive) or 悪化する \"to worsen\" (intransitive). Add が進む to say the change is advancing: 高齢化が進む.",
+  "whenUsed": "News, social issues, business and science: 国際化, デジタル化, 映画化 (film adaptation). It is a productive suffix, so you will meet new 化 words constantly; the meaning is always 'change into'.",
+  "formation": [
+    "Noun + 化 (noun): 少子化, 温暖化",
+    "Noun + 化する / 化される (verb): 自動化する, 映画化される",
+    "Noun + 化が進む (the change advances)",
+    "Noun + 化の + Noun (高齢化の問題)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "自動",
+        "en": "automatic (noun/adjective root)"
+      },
+      {
+        "ja": "自動化",
+        "en": "automation (the process of becoming automatic)"
+      },
+      {
+        "ja": "工場を自動化する",
+        "en": "automate the factory (transitive verb)"
+      },
+      {
+        "ja": "作業が自動化された",
+        "en": "the work was automated (passive)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本では少子化が大きな問題になっている。",
+      "reading": "にほんではしょうしかがおおきなもんだいになっている。",
+      "en": "In Japan, the declining birthrate has become a major problem.",
+      "note": "Social issue noun: 少子化."
+    },
+    {
+      "ja": "工場の作業を自動化した。",
+      "reading": "こうじょうのさぎょうをじどうかした。",
+      "en": "We automated the factory work.",
+      "note": "Transitive verb: 自動化した."
+    },
+    {
+      "ja": "高齢化が進む社会",
+      "reading": "こうれいかがすすむしゃかい",
+      "en": "a society where aging is advancing",
+      "note": "化が進む: the change is advancing."
+    },
+    {
+      "ja": "その小説は来年映画化されるそうだ。",
+      "reading": "そのしょうせつはらいねんえいがかされるそうだ。",
+      "en": "I hear that novel will be made into a film next year.",
+      "note": "映画化される = be adapted into a film."
+    },
+    {
+      "ja": "地球温暖化を防ぐために、何ができるだろうか。",
+      "reading": "ちきゅうおんだんかをふせぐために、なにができるだろうか。",
+      "en": "What can we do to prevent global warming?",
+      "note": "温暖化 is one of the most common 化 words."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜になる / 〜にする",
+      "difference": "The plain way to say 'become / make'. 化 packs it into a formal noun."
+    },
+    {
+      "pattern": "〜的",
+      "difference": "Makes an adjective (国際的 'international'); 化 makes a change noun (国際化 'internationalisation').",
+      "id": "n3-grammar-103"
+    },
+    {
+      "pattern": "〜性",
+      "difference": "'-ness' (a property), not a change.",
+      "id": "n3-grammar-105"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "町が国際化になった。",
+      "right": "町が国際化した。",
+      "why": "化 words are する-verbs; 化になる is redundant."
+    },
+    {
+      "wrong": "高齢化が進める",
+      "right": "高齢化が進む",
+      "why": "With が, the intransitive 進む is needed ('is advancing'). 進める is transitive."
+    },
+    {
+      "wrong": "便利化",
+      "right": "便利になる",
+      "why": "化 attaches to nouns (mostly Sino-Japanese); 便利 is a な-adjective and does not take 化."
+    }
+  ],
+  "usageNotes": [
+    "Two-kanji 化 words with a single kanji root: 悪化 (worsening), 強化 (strengthening), 変化 (change), 進化 (evolution), 消化 (digestion).",
+    "Katakana roots are common: デジタル化, グローバル化, マニュアル化.",
+    "Reading: 化 is か in this use (ばける in 化ける is a different word)."
+  ],
+  "jlptTips": [
+    "If the blank needs a 'change' noun in a social-issue sentence, look for 化 (少子化, 高齢化, 温暖化).",
+    "The verb after 化 is usually する / される / が進む; check the particle to choose.",
+    "In 語彙, distinguish 化 (change) from 的 (adjective) and 性 (property)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-104-1",
+    "q-n3-g-104-2",
+    "q-n3-g-104-3",
+    "q-n3-g-104-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-104-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

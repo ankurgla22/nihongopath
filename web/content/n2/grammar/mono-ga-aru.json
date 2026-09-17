@@ -1,0 +1,121 @@
+{
+  "id": "n2-grammar-155",
+  "slug": "mono-ga-aru",
+  "level": "n2",
+  "order": 155,
+  "title": "〜ものがある",
+  "romaji": "mono ga aru",
+  "meaning": "there is something (moving, impressive, striking) about…",
+  "simpleExplanation": "〜ものがある means \"there is something X about it\": the speaker senses a quality that impresses, moves, or strikes them. 彼の演奏には人を感動させるものがある. It reports a felt impression rather than a measured fact, which makes the statement sound thoughtful and a little reserved.",
+  "whenUsed": "Written and formal spoken Japanese: reviews, essays, speeches. The subject usually takes には. Common partners: 感動させる, 目を見張る, 心を打つ, 厳しい, 寂しい.",
+  "formation": [
+    "Verb (dictionary form) + ものがある (感動させるものがある)",
+    "い-adjective + ものがある (厳しいものがある)",
+    "な-adjective + な + ものがある",
+    "Subject: Noun + には + … ものがある"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼の演奏には",
+        "role": "the thing being evaluated + には"
+      },
+      {
+        "text": "人を感動させる",
+        "role": "the quality sensed"
+      },
+      {
+        "text": "ものがある",
+        "role": "there is something (that does this)",
+        "highlight": true
+      }
+    ],
+    "translation": "There is something in his performance that moves people."
+  },
+  "examples": [
+    {
+      "ja": "彼の演奏には人を感動させるものがある。",
+      "reading": "かれのえんそうにはひとをかんどうさせるものがある。",
+      "en": "There is something in his performance that moves people.",
+      "note": "A felt quality in a performance."
+    },
+    {
+      "ja": "この技術の進歩には目を見張るものがある。",
+      "reading": "このぎじゅつのしんぽにはめをみはるものがある。",
+      "en": "The progress of this technology is truly remarkable.",
+      "note": "目を見張るものがある: remarkable, a set phrase."
+    },
+    {
+      "ja": "彼女の話し方にはどこか冷たいものがある。",
+      "reading": "かのじょのはなしかたにはどこかつめたいものがある。",
+      "en": "There is something cold about the way she speaks.",
+      "note": "A negative impression: something cold."
+    },
+    {
+      "ja": "最近の物価の上昇には、家計にとって厳しいものがある。",
+      "reading": "さいきんのぶっかのじょうしょうには、かけいにとってきびしいものがある。",
+      "en": "There is something harsh about the recent price rises for household budgets.",
+      "note": "い-adjective + ものがある in commentary."
+    },
+    {
+      "ja": "長年住んだ家を離れるのは、やはり寂しいものがある。",
+      "reading": "ながねんすんだいえをはなれるのは、やはりさびしいものがある。",
+      "en": "Leaving a house I lived in for years does feel somewhat sad.",
+      "note": "A personal, reserved statement of feeling."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものだ (emotion)",
+      "difference": "Emphasizes a feeling directly (本当に感動するものだ); ものがある reports that a quality exists.",
+      "id": "n2-grammar-156"
+    },
+    {
+      "pattern": "〜感じがする",
+      "difference": "\"It feels like\": casual and vague."
+    },
+    {
+      "pattern": "〜ところがある",
+      "difference": "\"Has a side that\": describes a personality trait (子供っぽいところがある)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼の演奏には感動するものがある。(acceptable but…)",
+      "right": "彼の演奏には人を感動させるものがある。",
+      "why": "The causative 感動させる (moves people) is the standard collocation."
+    },
+    {
+      "wrong": "彼女はきれいものがある。",
+      "right": "彼女の美しさには人を引きつけるものがある。",
+      "why": "Attach a plain verb or adjective and use には for the subject."
+    },
+    {
+      "wrong": "「このラーメン、うまいものがある！」",
+      "right": "「このラーメン、うまい！」",
+      "why": "Too reserved and literary for a casual exclamation."
+    }
+  ],
+  "usageNotes": [
+    "には is the usual subject marker: 〜には〜ものがある.",
+    "Set phrases: 目を見張るものがある, 心を打つものがある, 胸に迫るものがある.",
+    "It can express a negative impression too: 冷たいものがある, 厳しいものがある."
+  ],
+  "jlptTips": [
+    "If the sentence has には and a quality verb like 感動させる / 目を見張る, choose ものがある.",
+    "Distractors include ものだ, ことがある (experience), ところがある. Check whether the sentence reports a felt quality.",
+    "In 並べ替え, ものがある closes the sentence; the には-phrase comes first."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-155-1",
+    "q-n2-g-155-2",
+    "q-n2-g-155-3",
+    "q-n2-g-155-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-155-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

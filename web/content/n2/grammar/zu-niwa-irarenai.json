@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-58",
+  "slug": "zu-niwa-irarenai",
+  "level": "n2",
+  "order": 58,
+  "title": "〜ずにはいられない",
+  "romaji": "zu niwa irarenai",
+  "meaning": "cannot help (doing), cannot stop oneself from",
+  "simpleExplanation": "〜ずにはいられない means \"cannot help (doing), cannot stop oneself from…\". The feeling or action arises naturally and irresistibly: whenever I see that film, I can't help crying; it was so funny I couldn't help laughing.",
+  "whenUsed": "書き言葉寄り; the spoken form is 〜ないではいられない (lesson 95). It attaches to the Vない stem + ずに (する → せずに). The subject is the speaker (first person); for a third person add ようだ / らしい / のだろう.",
+  "formation": [
+    "Vない stem + ずにはいられない (する → せずにはいられない)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "泣か",
+    "rootLabel": "Vない stem + ずにはいられない",
+    "branches": [
+      {
+        "suffix": "ずにはいられない",
+        "result": "泣かずにはいられない",
+        "label": "can't help crying"
+      },
+      {
+        "suffix": "ずにはいられなかった",
+        "result": "笑わずにはいられなかった",
+        "label": "couldn't help laughing (past)"
+      },
+      {
+        "suffix": "せずにはいられない",
+        "result": "心配せずにはいられない",
+        "label": "する → せずに"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "その映画を見ると、泣かずにはいられない。",
+      "reading": "そのえいがをみると、なかずにはいられない。",
+      "en": "Whenever I watch that film, I can't help crying.",
+      "note": "A habitual irresistible reaction (〜と)."
+    },
+    {
+      "ja": "おかしくて、笑わずにはいられなかった。",
+      "reading": "おかしくて、わらわずにはいられなかった。",
+      "en": "It was so funny I couldn't help laughing.",
+      "note": "Past form."
+    },
+    {
+      "ja": "彼の態度には文句を言わずにはいられない。",
+      "reading": "かれのたいどにはもんくをいわずにはいられない。",
+      "en": "I can't help complaining about his attitude.",
+      "note": "A verbal reaction (文句を言う)."
+    },
+    {
+      "ja": "困っている人を見ると、声をかけずにはいられない。",
+      "reading": "こまっているひとをみると、こえをかけずにはいられない。",
+      "en": "When I see someone in trouble, I can't help speaking to them.",
+      "note": "Natural impulse."
+    },
+    {
+      "ja": "あの子の将来を思うと、心配せずにはいられない。",
+      "reading": "あのこのしょうらいをおもうと、しんぱいせずにはいられない。",
+      "en": "When I think of that child's future, I can't help worrying.",
+      "note": "する → せずに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないではいられない",
+      "difference": "Same meaning, more colloquial.",
+      "id": "n2-grammar-95"
+    },
+    {
+      "pattern": "〜てたまらない",
+      "difference": "\"Unbearably (feeling)\": a state, not an action one cannot suppress.",
+      "id": "n2-grammar-79"
+    },
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "\"Have no choice but to\" because of circumstances, not an inner impulse.",
+      "id": "n2-grammar-52"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "心配しずにはいられない。",
+      "right": "心配せずにはいられない。",
+      "why": "する becomes せず."
+    },
+    {
+      "wrong": "彼は泣かずにはいられない。（stated as fact）",
+      "right": "彼は泣かずにはいられないようだ。",
+      "why": "For third persons, add an inference marker."
+    },
+    {
+      "wrong": "寒いので、コートを着ずにはいられない。（practical need）",
+      "right": "寒いので、コートを着ないわけにはいかない。/ 着るしかない。",
+      "why": "ずにはいられない is for spontaneous emotion or impulse, not practical necessity."
+    }
+  ],
+  "usageNotes": [
+    "The verb is usually emotional or reactive: 笑う, 泣く, 言う, 思う, 心配する, 応援する.",
+    "Sentence-final いられません is the polite form.",
+    "Often introduced by 〜を見ると / 〜を聞くと / 〜を思うと."
+  ],
+  "jlptTips": [
+    "A trigger (〜を見ると) + an emotional verb in the ず form + blank → にはいられない.",
+    "Distractors: ざるを得ない (external compulsion), わけにはいかない, てたまらない. If the sentence is about being forced by circumstances, choose ざるを得ない.",
+    "Watch the する irregular: せずに is correct, しずに is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-58-1",
+    "q-n2-g-58-2",
+    "q-n2-g-58-3",
+    "q-n2-g-58-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-58-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

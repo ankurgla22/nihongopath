@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-135",
+  "slug": "nuki-de",
+  "level": "n2",
+  "order": 135,
+  "title": "〜抜きで / 〜抜きに / 〜抜きの / 〜は抜きにして",
+  "romaji": "nuki de / nuki ni / nuki no / wa nuki ni shite",
+  "meaning": "without, leaving out, minus",
+  "simpleExplanation": "〜抜きで means \"without X\" in the sense of deliberately leaving X out: わさび抜き (no wasabi), 冗談抜きで (joking aside), 仕事の話は抜きにして (leaving work talk aside). It comes from 抜く (to remove). 〜抜きでは〜ない means \"impossible without X\".",
+  "whenUsed": "Everyday speech and writing. Very common when ordering food (〜抜きで), and in set phrases like 冗談抜きで / 遠慮抜きで / 前置き抜きで. 〜は抜きにして is a natural way to steer a conversation.",
+  "formation": [
+    "Noun + 抜きで / 抜きに (adverbial)",
+    "Noun + 抜きの + Noun (わさび抜きの寿司)",
+    "Noun + は抜きにして (setting X aside)",
+    "Noun + 抜きでは + negative (impossible without)",
+    "Set phrases: 冗談抜きで / 遠慮抜きで / 朝食抜きで"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "抜き",
+    "branches": [
+      {
+        "suffix": "で",
+        "result": "わさび抜きで",
+        "label": "without (adverbial)"
+      },
+      {
+        "suffix": "の",
+        "result": "わさび抜きの寿司",
+        "label": "noun-modifying"
+      },
+      {
+        "suffix": "にして",
+        "result": "仕事の話は抜きにして",
+        "label": "setting aside"
+      },
+      {
+        "suffix": "では〜ない",
+        "result": "彼抜きでは成功しない",
+        "label": "impossible without"
+      }
+    ],
+    "rootLabel": "Noun + 抜き (removed)"
+  },
+  "examples": [
+    {
+      "ja": "今日は仕事の話は抜きにして、楽しく飲みましょう。",
+      "reading": "きょうはしごとのはなしはぬきにして、たのしくのみましょう。",
+      "en": "Let's leave work talk aside today and enjoy drinking.",
+      "note": "Setting a topic aside for now: は抜きにして."
+    },
+    {
+      "ja": "わさび抜きで寿司を注文した。",
+      "reading": "わさびぬきですしをちゅうもんした。",
+      "en": "I ordered sushi without wasabi.",
+      "note": "Ordering food without an ingredient: the most everyday use."
+    },
+    {
+      "ja": "冗談抜きに、本当に困っているんです。",
+      "reading": "じょうだんぬきに、ほんとうにこまっているんです。",
+      "en": "Joking aside, I am truly in trouble.",
+      "note": "冗談抜きに: a set phrase meaning \"seriously\"."
+    },
+    {
+      "ja": "彼のサポート抜きでは、このプロジェクトは成功しなかっただろう。",
+      "reading": "かれのサポートぬきでは、このプロジェクトはせいこうしなかっただろう。",
+      "en": "Without his support, this project would not have succeeded.",
+      "note": "抜きでは + negative: indispensable."
+    },
+    {
+      "ja": "今日は遠慮抜きで、思ったことを言ってください。",
+      "reading": "きょうはえんりょぬきで、おもったことをいってください。",
+      "en": "Today, please say what you think without holding back.",
+      "note": "遠慮抜きで is a set phrase inviting frankness."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なしで / 〜なしに",
+      "difference": "\"Without X\" in a neutral sense (許可なしに); 抜きで implies X was deliberately removed from a set."
+    },
+    {
+      "pattern": "〜を除いて",
+      "difference": "\"Excluding X\" from a group; formal and neutral."
+    },
+    {
+      "pattern": "〜はともかく",
+      "difference": "\"Setting aside\" as a topic, close to は抜きにして but does not imply removal.",
+      "id": "n2-grammar-142"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "砂糖抜きにコーヒーを飲む。(as a routine)",
+      "right": "砂糖抜きでコーヒーを飲む。",
+      "why": "For \"without\", the adverbial particle is で; 抜きに is used in set phrases like 冗談抜きに."
+    },
+    {
+      "wrong": "わさび抜きで寿司",
+      "right": "わさび抜きの寿司",
+      "why": "Before a noun use 抜きの."
+    },
+    {
+      "wrong": "勉強抜きで、合格した。",
+      "right": "勉強なしで、合格した。",
+      "why": "抜き suits something normally included in a set (an ingredient, a step). For a general absence, なしで is better."
+    }
+  ],
+  "usageNotes": [
+    "Very common in restaurants: ネギ抜きで / 氷抜きで.",
+    "朝食抜き / 昼食抜き = skipping a meal.",
+    "〜抜きで考える = think without factoring X in."
+  ],
+  "jlptTips": [
+    "If the sentence removes something normally included (an ingredient, a step, a topic), 抜きで is the answer.",
+    "Set phrases 冗談抜きで / 遠慮抜きで / 前置き抜きで appear in listening dialogues.",
+    "Distractors include なしで and を除いて; both are near-synonyms, so questions usually test the fixed forms (抜きにして / 抜きでは〜ない)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-135-1",
+    "q-n2-g-135-2",
+    "q-n2-g-135-3",
+    "q-n2-g-135-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-135-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

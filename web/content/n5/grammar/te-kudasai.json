@@ -1,0 +1,115 @@
+{
+  "id": "n5-grammar-36",
+  "slug": "te-kudasai",
+  "level": "n5",
+  "order": 36,
+  "title": "てください",
+  "romaji": "te kudasai",
+  "meaning": "\"Please do ~\" (polite request or instruction).",
+  "simpleExplanation": "て-form + ください means \"please do ...\": 書いてください \"please write\", 待ってください \"please wait\". It is the standard polite way to ask someone to do something or to give an instruction. For asking for a thing (not an action), use noun + をください: 水をください \"water, please\".",
+  "whenUsed": "Instructions from teachers and staff, requests to friends and colleagues, and everyday phrases: ちょっと待ってください, もう一度言ってください, ゆっくり話してください.",
+  "formation": [
+    "V-て + ください"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "書く",
+        "en": "write (dictionary form)"
+      },
+      {
+        "ja": "書いて",
+        "en": "て-form"
+      },
+      {
+        "ja": "書いてください",
+        "en": "please write"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ちょっと待ってください。",
+      "reading": "ちょっと まってください。",
+      "en": "Please wait a moment.",
+      "note": "待つ → 待って + ください."
+    },
+    {
+      "ja": "もう一度言ってください。",
+      "reading": "もういちど いってください。",
+      "en": "Please say it once more.",
+      "note": "言う → 言って + ください."
+    },
+    {
+      "ja": "ここに住所を書いてください。",
+      "reading": "ここに じゅうしょを かいてください。",
+      "en": "Please write your address here.",
+      "note": "書く → 書いて + ください."
+    },
+    {
+      "ja": "すみません、ゆっくり話してください。",
+      "reading": "すみません、ゆっくり はなしてください。",
+      "en": "Sorry, please speak slowly.",
+      "note": "話す → 話して."
+    },
+    {
+      "ja": "窓を開けてください。",
+      "reading": "まどを あけてください。",
+      "en": "Please open the window.",
+      "note": "開ける (Group 2) → 開けて."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-40",
+      "pattern": "ないでください",
+      "difference": "The negative request: \"please don't\"."
+    },
+    {
+      "id": "n5-grammar-24",
+      "pattern": "て-form",
+      "difference": "The base form; ください adds \"please\"."
+    },
+    {
+      "id": "n5-grammar-45",
+      "pattern": "ませんか",
+      "difference": "An invitation to do something together, not a request that the listener do it for you."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "書きますください",
+      "right": "書いてください",
+      "why": "ください follows the て-form, not ます."
+    },
+    {
+      "wrong": "水を飲んでください (when you just want water)",
+      "right": "水をください",
+      "why": "For a thing, use noun + をください. て + ください is for actions."
+    },
+    {
+      "wrong": "待ってくださいか。",
+      "right": "待ってください。／ 待ってくださいませんか。",
+      "why": "てください is not made into a question with か; use くださいませんか to ask more politely."
+    }
+  ],
+  "usageNotes": [
+    "Softer alternatives: V-て + くださいませんか (would you please…?). Do not use てください to a superior for something for your own benefit; use ていただけませんか (N4). For \"please give me (a thing)\": Noun + をください (水をください)."
+  ],
+  "jlptTips": [
+    "If ください follows the blank, the answer is the て-form. Check the correct て-form for the verb group.",
+    "Noun + を + blank + ください with no verb in the sentence: the blank is empty (水をください). With a verb, it is て."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-36-1",
+    "q-n5-g-36-2",
+    "q-n5-g-36-3",
+    "q-n5-g-36-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-36-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

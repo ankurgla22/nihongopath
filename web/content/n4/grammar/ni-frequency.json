@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-97",
+  "slug": "ni-frequency",
+  "level": "n4",
+  "order": 97,
+  "title": "〜に (frequency and ratio) \"per / times a…\"",
+  "romaji": "ni (hindo)",
+  "meaning": "Expresses how often something happens within a period.",
+  "simpleExplanation": "To say how often something happens, put the period first, then に, then the number of times: 週に二回 = twice a week, 一日に三回 = three times a day, 年に一度 = once a year. The に means \"per\". The same pattern gives ratios: 三人に一人 = one in three people. It is a small but very common pattern, especially with medicine, lessons, sport and travel.",
+  "whenUsed": "Describing routines (週に一回テニスをする), medical instructions (一日に二回飲む), statistics (十人に一人), and answering どのくらい〜ますか questions. Used in all registers; in casual speech に is often dropped (週二回).",
+  "formation": [
+    "Period + に + number of times: 一週間に二回, 月に一度, 一日に三回",
+    "Period + に + amount: 一か月に十万円 (100,000 yen a month)",
+    "Ratio: 三人に一人 (one in three)",
+    "Question: 週に何回〜ますか / どのくらい〜ますか"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "週に",
+        "role": "period + に (per)",
+        "highlight": true
+      },
+      {
+        "text": "二回",
+        "role": "number of times",
+        "highlight": true
+      },
+      {
+        "text": "ジムに",
+        "role": "place"
+      },
+      {
+        "text": "行っています。",
+        "role": "habitual action (ている)"
+      }
+    ],
+    "translation": "I go to the gym twice a week."
+  },
+  "examples": [
+    {
+      "ja": "週に二回、ジムに行っています。",
+      "reading": "しゅうに にかい、ジムに いっています。",
+      "en": "I go to the gym twice a week.",
+      "note": "週に二回 = twice a week; 〜ている shows a habit."
+    },
+    {
+      "ja": "この薬は一日に三回飲んでください。",
+      "reading": "この くすりは いちにちに さんかい のんでください。",
+      "en": "Take this medicine three times a day.",
+      "note": "Medicine instructions: 一日に三回."
+    },
+    {
+      "ja": "年に一度、家族で旅行します。",
+      "reading": "ねんに いちど、かぞくで りょこうします。",
+      "en": "Once a year we travel as a family.",
+      "note": "年に一度 = once a year; 一度 and 一回 are interchangeable."
+    },
+    {
+      "ja": "A：どのくらい日本語のクラスがありますか。 B：週に三回、月・水・金です。",
+      "reading": "A：どのくらい にほんごの クラスが ありますか。 B：しゅうに さんかい、げつ・すい・きんです。",
+      "en": "A: How often do you have Japanese class? B: Three times a week, Monday, Wednesday and Friday.",
+      "note": "どのくらい asks for frequency; the answer uses 週に三回."
+    },
+    {
+      "ja": "この町では、五人に一人が七十歳以上だそうです。",
+      "reading": "この まちでは、ごにんに ひとりが ななじゅっさい いじょうだそうです。",
+      "en": "I hear that in this town one person in five is over seventy.",
+      "note": "Ratio use: 五人に一人 = one in five."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずつ",
+      "difference": "ずつ means \"each / at a time\" (二つずつ). に + number is about frequency per period.",
+      "id": "n4-grammar-62"
+    },
+    {
+      "pattern": "〜ごとに / 〜おきに (N3)",
+      "difference": "二日ごとに / 一日おきに mean \"every two days / every other day\", counting intervals. に counts occurrences within a period."
+    },
+    {
+      "pattern": "〜くらい",
+      "difference": "くらい gives an approximate amount (週に二回くらい). It can be added after the frequency.",
+      "id": "n4-grammar-50"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "二回に一週間ジムに行きます。",
+      "right": "一週間に二回ジムに行きます。",
+      "why": "The order is period + に + times, not the other way round."
+    },
+    {
+      "wrong": "一日で三回薬を飲んでください。",
+      "right": "一日に三回薬を飲んでください。",
+      "why": "で marks the time needed to finish something; frequency per period uses に."
+    },
+    {
+      "wrong": "毎週に一回",
+      "right": "週に一回 ／ 毎週一回",
+      "why": "毎週 (every week) does not take に; use 週に or 毎週 without に."
+    }
+  ],
+  "usageNotes": [
+    "一日に三回 and 一日三回 are both fine; the にless form is common on medicine labels.",
+    "Periods used: 一日, 週, 一週間, 月, 一か月, 年, 一年. 一度 and 一回 are interchangeable for \"once\".",
+    "For ratios the second number is usually 一: 十人に一人, 三日に一度 (once every three days)."
+  ],
+  "jlptTips": [
+    "If a blank sits between a period (週, 一日, 年) and a count (二回, 一度), the answer is に.",
+    "Distractors include で, ずつ and ごろ. で is for duration to complete (一時間で終わる); ずつ is \"each\"; ごろ is \"around (time)\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-97-1",
+    "q-n4-g-97-2",
+    "q-n4-g-97-3",
+    "q-n4-g-97-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-97-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

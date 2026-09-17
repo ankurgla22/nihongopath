@@ -1,0 +1,151 @@
+{
+  "id": "n2-grammar-128",
+  "slug": "ni-tomonatte",
+  "level": "n2",
+  "order": 128,
+  "title": "〜に伴って / 〜に伴い / 〜に伴う",
+  "romaji": "ni tomonatte / ni tomonai / ni tomonau",
+  "meaning": "along with, accompanying, as a result of (a change)",
+  "simpleExplanation": "〜に伴って means \"along with X\" where X is a large change or event and Y happens together with it or as its consequence: 高齢化に伴って医療費が増える. It links two developments of some scale. The noun-modifying form 〜に伴う + N means \"the Y that accompanies X\" (台風に伴う大雨).",
+  "whenUsed": "Formal written and spoken Japanese: news, reports, business notices (会社の移転に伴い). It is not used for small personal matters. In conversation people say 〜と一緒に or 〜につれて / 〜ので.",
+  "formation": [
+    "Noun (change / event) + に伴って / に伴い",
+    "Verb (dictionary form) + に伴って (人口が増えるに伴って)",
+    "Noun + に伴う + Noun (台風に伴う大雨)",
+    "Typical nouns: 高齢化・発展・移転・変更・導入・成長"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜に伴って",
+      "〜につれて",
+      "〜に従って"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "Y accompanies or results from a change X",
+          "as X gradually changes, Y changes too",
+          "as X changes, Y follows; also 'in accordance with rules'"
+        ]
+      },
+      {
+        "label": "Scale",
+        "cells": [
+          "large-scale, social, official",
+          "gradual, often personal",
+          "gradual or rule-based"
+        ]
+      },
+      {
+        "label": "Before a noun",
+        "cells": [
+          "に伴う + N",
+          "not possible",
+          "not possible"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "移転に伴い住所が変わった",
+          "年を取るにつれて忘れっぽくなる",
+          "指示に従って動く"
+        ]
+      }
+    ],
+    "title": "Three ways to say 'as'"
+  },
+  "examples": [
+    {
+      "ja": "高齢化に伴って、医療費が増加している。",
+      "reading": "こうれいかにともなって、いりょうひがぞうかしている。",
+      "en": "Along with the aging of society, medical costs are increasing.",
+      "note": "A social change and its consequence; typical news sentence."
+    },
+    {
+      "ja": "会社の移転に伴い、住所が変わりました。",
+      "reading": "かいしゃのいてんにともない、じゅうしょがかわりました。",
+      "en": "With the relocation of the company, our address has changed.",
+      "note": "A single event (relocation) and what came with it; に伴い is the written form."
+    },
+    {
+      "ja": "台風に伴う大雨に注意してください。",
+      "reading": "たいふうにともなうおおあめにちゅういしてください。",
+      "en": "Please be careful of heavy rain accompanying the typhoon.",
+      "note": "に伴う + noun: rain accompanying the typhoon."
+    },
+    {
+      "ja": "経済の発展に伴って、環境問題も深刻になってきた。",
+      "reading": "けいざいのはってんにともなって、かんきょうもんだいもしんこくになってきた。",
+      "en": "Along with economic development, environmental problems have also become serious.",
+      "note": "Two large-scale developments linked."
+    },
+    {
+      "ja": "システムの変更に伴い、一時的にサービスを停止いたします。",
+      "reading": "システムのへんこうにともない、いちじてきにサービスをていしいたします。",
+      "en": "Due to a system change, the service will be temporarily suspended.",
+      "note": "Business notice; に伴い gives the accompanying reason."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Gradual, parallel change, often personal or natural; cannot modify a noun.",
+      "id": "n2-grammar-126"
+    },
+    {
+      "pattern": "〜に従って",
+      "difference": "Similar gradual change, or obeying rules and instructions.",
+      "id": "n2-grammar-113"
+    },
+    {
+      "pattern": "〜とともに",
+      "difference": "\"Together with / as\": overlaps with に伴って, and also means \"along with (a person)\"."
+    },
+    {
+      "pattern": "〜によって",
+      "difference": "\"Because of / by means of\": cause without the sense of accompanying change.",
+      "id": "n2-grammar-132"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "年を取るに伴って、白髪が増えた。",
+      "right": "年を取るにつれて、白髪が増えた。",
+      "why": "Personal, gradual change is につれて; に伴って sounds bureaucratic here."
+    },
+    {
+      "wrong": "台風に伴って大雨",
+      "right": "台風に伴う大雨",
+      "why": "Before a noun use に伴う."
+    },
+    {
+      "wrong": "彼が来るに伴って、パーティーが始まった。",
+      "right": "彼が来るとともに / 彼が来ると、パーティーが始まった。",
+      "why": "に伴って needs a change or event of some scale, not a small personal action."
+    }
+  ],
+  "usageNotes": [
+    "Often heard in announcements: 〜に伴い、〜いたします.",
+    "に伴う + noun is productive: リスクに伴う, 成長に伴う痛み.",
+    "The pair is usually cause → consequence, but に伴って does not claim direct causation as strongly as ので."
+  ],
+  "jlptTips": [
+    "If the first noun is a social or organizational change (高齢化, 移転, 導入) and the second is its consequence, choose に伴って.",
+    "Before a noun, choose に伴う; に伴って before a noun is a common wrong option.",
+    "Distinguish from につれて by scale and by the noun-modifying test."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-128-1",
+    "q-n2-g-128-2",
+    "q-n2-g-128-3",
+    "q-n2-g-128-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-128-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

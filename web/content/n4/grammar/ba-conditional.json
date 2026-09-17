@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-10",
+  "slug": "ba-conditional",
+  "level": "n4",
+  "order": 10,
+  "title": "〜ば (conditional) \"if\"",
+  "romaji": "ba (jouken)",
+  "meaning": "Hypothetical condition, focusing on the condition needed for a result: \"if A, then B\".",
+  "simpleExplanation": "〜ば means \"if\" and puts the spotlight on the condition: 時間があれば行きます = \"if I have time, I'll go\" (the point is: time is what I need). Compared with たら, ば sounds a little more like a general rule or a logical \"if A then B\". It is also the base of two very useful phrases: 〜ばいい (you should / just…) and 〜ばよかった (I should have…).",
+  "whenUsed": "General conditions (安ければ買う), advice (薬を飲めば治りますよ), proverbs and sayings, and hypothetical talk. In polite speech ば and たら are both common. When the result clause is a request or invitation, ば is fine only if the condition is a state (時間があれば、来てください), not an action.",
+  "formation": [
+    "Group 1: last う-row sound → え-row + ば: 書く→書けば, 行く→行けば, 話す→話せば",
+    "Group 2: drop る + れば: 食べる→食べれば, 見る→見れば",
+    "Group 3: する→すれば, 来る→来れば (くれば)",
+    "Negative verbs: ない → なければ (行かなければ)",
+    "い-adjective: drop い + ければ (高ければ, いい→よければ); negative くなければ",
+    "な-adjective / Noun: + なら(ば) or であれば (静かなら, 学生であれば)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / 高い / 静かだ",
+    "rootLabel": "plain form",
+    "branches": [
+      {
+        "suffix": "u-row → e-row + ば",
+        "result": "書けば",
+        "label": "Group 1 verb: if you write"
+      },
+      {
+        "suffix": "-る → -れば",
+        "result": "食べれば",
+        "label": "Group 2 verb: if you eat"
+      },
+      {
+        "suffix": "-い → -ければ",
+        "result": "高ければ",
+        "label": "い-adjective: if it is expensive"
+      },
+      {
+        "suffix": "+ なら / であれば",
+        "result": "静かなら",
+        "label": "な-adjective: if it is quiet"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "時間があれば、行きます。",
+      "reading": "じかんが あれば、いきます。",
+      "en": "If I have time, I'll go.",
+      "note": "Condition = having time; a state, so a request could also follow."
+    },
+    {
+      "ja": "安ければ買います。",
+      "reading": "やすければ かいます。",
+      "en": "If it's cheap, I'll buy it.",
+      "note": "い-adjective: 安い → 安ければ."
+    },
+    {
+      "ja": "毎日練習すれば、必ず上手になりますよ。",
+      "reading": "まいにち れんしゅうすれば、かならず じょうずになりますよ。",
+      "en": "If you practise every day, you will definitely get better.",
+      "note": "する → すれば. A general rule offered as encouragement."
+    },
+    {
+      "ja": "分からなければ、いつでも聞いてください。",
+      "reading": "わからなければ、いつでも きいてください。",
+      "en": "If you don't understand, ask me any time.",
+      "note": "Negative ば: 分からない → 分からなければ. A request may follow because the condition is a state (not understanding)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら",
+      "difference": "たら is more flexible (allows any result clause and past discoveries). ば sounds more like a general rule and cannot express \"when I did A, B happened\".",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜と",
+      "difference": "と states an automatic result; ば highlights the condition that is needed.",
+      "id": "n4-grammar-9"
+    },
+    {
+      "pattern": "〜ばいい",
+      "difference": "ば + いい gives advice: \"just do A\". Built directly on this form.",
+      "id": "n4-grammar-92"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "駅に着けば、電話してください。",
+      "right": "駅に着いたら、電話してください。",
+      "why": "When the condition is an action and the main clause is a request, use たら. ば before a request works only with states (時間があれば)."
+    },
+    {
+      "wrong": "いいければ、買います。",
+      "right": "よければ、買います。",
+      "why": "いい changes to よ before ければ: よければ."
+    },
+    {
+      "wrong": "窓を開ければ、富士山が見えた。",
+      "right": "窓を開けたら、富士山が見えた。",
+      "why": "A one-time past discovery needs たら (or と), not ば."
+    }
+  ],
+  "usageNotes": [
+    "〜ば〜ほど (\"the more… the more…\") uses this form: 練習すればするほど上手になる (N3 but seen at N4 level texts).",
+    "The ば-form of ある is あれば, of いい is よければ, and of ない is なければ. These three appear constantly.",
+    "In casual speech 〜ば is often replaced by 〜たら, but in writing and set phrases ば is preferred."
+  ],
+  "jlptTips": [
+    "Conjugation questions test the ば-form of irregular items: いい→よければ, ない→なければ, 来る→来れば, する→すれば.",
+    "If the sentence is a general rule (\"if you do A, B always follows\") and no past result appears, ば is a safe answer; if the main clause is a request after an action, choose たら instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-10-1",
+    "q-n4-g-10-2",
+    "q-n4-g-10-3",
+    "q-n4-g-10-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-10-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

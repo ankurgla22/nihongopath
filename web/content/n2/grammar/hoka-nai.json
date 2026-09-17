@@ -1,0 +1,151 @@
+{
+  "id": "n2-grammar-146",
+  "slug": "hoka-nai",
+  "level": "n2",
+  "order": 146,
+  "title": "〜ほかない / 〜よりほかない / 〜ほかはない",
+  "romaji": "hoka nai / yori hoka nai / hoka wa nai",
+  "meaning": "have no choice but to",
+  "simpleExplanation": "〜ほかない / 〜よりほかない means \"there is nothing else to do but X\": every other option is gone, so X is the only path. 歩いて帰るほかない. The speaker accepts the situation with resignation. It is a slightly formal equivalent of 〜しかない.",
+  "whenUsed": "Both speech and writing; よりほかない and ほかはない sound more formal or literary. Common in narratives and explanations of forced decisions. Everyday speech usually uses しかない.",
+  "formation": [
+    "Verb (dictionary form) + ほかない / ほかはない",
+    "Verb (dictionary form) + よりほかない / よりほかはない",
+    "Verb + より仕方がない (same meaning)",
+    "Kanji: 他ない / 外ない (kana is standard)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜ほかない",
+      "〜しかない",
+      "〜ざるを得ない"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "no other option (resigned)",
+          "only this option (neutral, casual)",
+          "forced against one's will"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "formal, written or careful speech",
+          "everyday",
+          "formal, written"
+        ]
+      },
+      {
+        "label": "Attachment",
+        "cells": [
+          "dictionary form",
+          "dictionary form",
+          "ない-stem + ざるを得ない"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "歩いて帰るほかない",
+          "歩いて帰るしかない",
+          "歩いて帰らざるを得ない"
+        ]
+      }
+    ],
+    "title": "No choice, three ways"
+  },
+  "examples": [
+    {
+      "ja": "終電がなくなったので、歩いて帰るほかない。",
+      "reading": "しゅうでんがなくなったので、あるいてかえるほかない。",
+      "en": "The last train is gone, so there is nothing to do but walk home.",
+      "note": "The last train is gone: walking is the only option."
+    },
+    {
+      "ja": "誰も手伝ってくれないなら、一人でやるよりほかない。",
+      "reading": "だれもてつだってくれないなら、ひとりでやるよりほかない。",
+      "en": "If nobody helps, I have no choice but to do it alone.",
+      "note": "よりほかない: resigned to doing it alone."
+    },
+    {
+      "ja": "病気なのだから、休むほかはない。",
+      "reading": "びょうきなのだから、やすむほかはない。",
+      "en": "Being ill, there is no choice but to rest.",
+      "note": "ほかはない: slightly more emphatic written form."
+    },
+    {
+      "ja": "店がつぶれた以上、新しい仕事を探すほかない。",
+      "reading": "みせがつぶれたいじょう、あたらしいしごとをさがすほかない。",
+      "en": "Now that the shop has gone under, there is nothing to do but look for a new job.",
+      "note": "以上 + ほかない: a common combination."
+    },
+    {
+      "ja": "この状況では、計画を延期するよりほかはない。",
+      "reading": "このじょうきょうでは、けいかくをえんきするよりほかはない。",
+      "en": "In this situation, there is no choice but to postpone the plan.",
+      "note": "よりほかはない in formal business explanation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜しかない",
+      "difference": "Same meaning, everyday register."
+    },
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "\"Cannot help but\": forced by circumstances, often against one's wishes; more formal.",
+      "id": "n2-grammar-52"
+    },
+    {
+      "pattern": "〜ないわけにはいかない",
+      "difference": "\"Cannot get away with not doing\": a social or moral obligation.",
+      "id": "n2-grammar-165"
+    },
+    {
+      "pattern": "〜ようがない",
+      "difference": "\"There is no way to do\": no method exists, rather than no alternative.",
+      "id": "n2-grammar-161"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行くほかがない。",
+      "right": "行くほかない。/ 行くほかはない。",
+      "why": "The forms are ほかない or ほかはない; ほかがない is unnatural."
+    },
+    {
+      "wrong": "行かないほかない。(meaning 'must not go')",
+      "right": "行かないわけにはいかない。/ 行くほかない。",
+      "why": "ほかない follows the affirmative dictionary form; think about which action is forced."
+    },
+    {
+      "wrong": "諦めるほかなかったです。(fine in speech, but…)",
+      "right": "諦めるほかありませんでした。",
+      "why": "In polite writing, use ほかありません / ほかありませんでした."
+    }
+  ],
+  "usageNotes": [
+    "Often preceded by a reason: 〜ので / 〜以上 / 〜からには.",
+    "〜より仕方がない and 〜よりほかに方法がない are longer synonyms.",
+    "It also appears as 〜(する)ほかない in headlines and formal notices."
+  ],
+  "jlptTips": [
+    "If the sentence lists a reason that removes options and ends with the only action, choose ほかない / よりほかない.",
+    "Distractors typically include ざるを得ない (check the verb form: 行かざる vs. 行く) and わけにはいかない.",
+    "In 並べ替え, より + ほか + ない may be split; reassemble them."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-146-1",
+    "q-n2-g-146-2",
+    "q-n2-g-146-3",
+    "q-n2-g-146-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-146-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

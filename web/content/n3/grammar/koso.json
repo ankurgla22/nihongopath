@@ -1,0 +1,115 @@
+{
+  "id": "n3-grammar-52",
+  "slug": "koso",
+  "level": "n3",
+  "order": 52,
+  "title": "〜こそ",
+  "romaji": "koso",
+  "meaning": "Precisely… / it is … that…",
+  "simpleExplanation": "〜こそ puts a spotlight on the word before it: 今度こそ合格したい = this time for sure I want to pass (not like the last times). 努力こそが成功の鍵だ = it is effort, above all, that is the key. It replaces は and can combine with が (こそが).",
+  "whenUsed": "Speech and writing. Set phrases: こちらこそ (the pleasure is mine), 今度こそ, これこそ, 今こそ. 〜からこそ emphasizes a reason.",
+  "formation": [
+    "Noun + こそ (replaces は)",
+    "Noun + こそが / こそを",
+    "Set phrases: こちらこそ / 今度こそ / これこそ / 今こそ",
+    "See also: 〜からこそ"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "今度は合格したい",
+        "en": "this time I want to pass (neutral topic)"
+      },
+      {
+        "ja": "今度こそ合格したい",
+        "en": "THIS time, for sure, I want to pass (emphasis: not like before)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今度こそ合格したい。",
+      "reading": "こんどこそごうかくしたい。",
+      "en": "This time for sure I want to pass.",
+      "note": "今度こそ: this time, unlike before."
+    },
+    {
+      "ja": "こちらこそ、よろしくお願いします。",
+      "reading": "こちらこそ、よろしくおねがいします。",
+      "en": "It's I who should say so — pleased to meet you.",
+      "note": "こちらこそ: returning a greeting."
+    },
+    {
+      "ja": "努力こそが成功の鍵だ。",
+      "reading": "どりょくこそがせいこうのかぎだ。",
+      "en": "Effort is precisely the key to success.",
+      "note": "こそが: emphasizing the subject."
+    },
+    {
+      "ja": "「ありがとうございました。」「いいえ、こちらこそありがとうございました。」",
+      "reading": "「ありがとうございました。」「いいえ、こちらこそありがとうございました。」",
+      "en": "\"Thank you very much.\" \"No, thank you.\"",
+      "note": "こちらこそ returns thanks or greetings."
+    },
+    {
+      "ja": "これこそ、私がずっと探していた本だ。",
+      "reading": "これこそ、わたしがずっとさがしていたほんだ。",
+      "en": "This is exactly the book I've been looking for.",
+      "note": "これこそ: this and nothing else."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からこそ",
+      "difference": "Emphasizes a reason clause.",
+      "id": "n3-grammar-46"
+    },
+    {
+      "pattern": "〜さえ",
+      "difference": "\"Even\": an extreme example, not a positive spotlight.",
+      "id": "n3-grammar-50"
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "\"Only\": limits, while こそ highlights."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今度はこそ合格したい。",
+      "right": "今度こそ合格したい。",
+      "why": "こそ replaces は; they do not stack."
+    },
+    {
+      "wrong": "私こそが悪いではない。",
+      "right": "私こそが悪いのだ。",
+      "why": "こそ usually appears in positive, emphatic statements."
+    },
+    {
+      "wrong": "こちらこそ、すみませんでした。(after being thanked)",
+      "right": "こちらこそ、ありがとうございました。",
+      "why": "Match the phrase you are returning: thanks for thanks, apology for apology."
+    }
+  ],
+  "usageNotes": [
+    "Replaces は; can attach to が/を as こそが. Fixed phrases: こちらこそ, 今度こそ, これこそ.",
+    "In writing, こそ often starts a key sentence: 〜こそ〜なのだ."
+  ],
+  "jlptTips": [
+    "Set phrases こちらこそ / 今度こそ appear in dialogue questions; the blank after こちら or 今度 is こそ.",
+    "A subject followed by が and a strong claim (鍵だ, 大切だ) often takes こそが.",
+    "Distractors: さえ, だけ, ほど. Only こそ gives positive emphasis."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-52-1",
+    "q-n3-g-52-2",
+    "q-n3-g-52-3",
+    "q-n3-g-52-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-52-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

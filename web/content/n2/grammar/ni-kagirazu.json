@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-18",
+  "slug": "ni-kagirazu",
+  "level": "n2",
+  "order": 18,
+  "title": "〜に限らず",
+  "romaji": "ni kagirazu",
+  "meaning": "not only ..., but also (more broadly)",
+  "simpleExplanation": "〜に限らず means \"not only X but (more broadly)…\". It takes a typical, narrow case and widens the scope to a larger group: not only in Japan but around the world; not only on weekends but on weekdays too.",
+  "whenUsed": "Both registers; a little more formal than 〜だけでなく. The noun before it is the expected, typical case; the second clause names the wider set and usually contains も or 〜全体 / 〜中. Common in reports and general statements.",
+  "formation": [
+    "N + に限らず"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Widening the scope",
+    "items": [
+      {
+        "label": "日本",
+        "description": "The narrow, expected case."
+      },
+      {
+        "label": "日本に限らず",
+        "description": "Not limited to Japan…"
+      },
+      {
+        "label": "世界中で",
+        "description": "…but the whole world (wider set, usually with も/中)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この問題は日本に限らず、世界中で起きている。",
+      "reading": "このもんだいはにほんにかぎらず、せかいじゅうでおきている。",
+      "en": "This problem is occurring not just in Japan but around the world.",
+      "note": "Narrow case (日本) widened to 世界中."
+    },
+    {
+      "ja": "週末に限らず、平日も込んでいる。",
+      "reading": "しゅうまつにかぎらず、へいじつもこんでいる。",
+      "en": "It is crowded not only on weekends but on weekdays too.",
+      "note": "Time: 週末 widened to 平日も."
+    },
+    {
+      "ja": "子供に限らず、大人も楽しめる映画だ。",
+      "reading": "こどもにかぎらず、おとなもたのしめるえいがだ。",
+      "en": "It's a film that adults, not only children, can enjoy.",
+      "note": "Group: 子供 widened to 大人も."
+    },
+    {
+      "ja": "この本は専門家に限らず、一般の読者にも読まれている。",
+      "reading": "このほんはせんもんかにかぎらず、いっぱんのどくしゃにもよまれている。",
+      "en": "This book is read not only by specialists but by general readers too.",
+      "note": "にも marks the wider group."
+    },
+    {
+      "ja": "年齢に限らず、誰でも参加できます。",
+      "reading": "ねんれいにかぎらず、だれでもさんかできます。",
+      "en": "Anyone can take part, regardless of age.",
+      "note": "With an abstract noun it means \"regardless of\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく",
+      "difference": "Everyday equivalent; can also follow verbs and adjectives, while に限らず takes nouns.",
+      "id": "n2-grammar-61"
+    },
+    {
+      "pattern": "〜のみならず",
+      "difference": "Formal written equivalent (N1-ish).",
+      "id": "n2-grammar-158"
+    },
+    {
+      "pattern": "〜に限って",
+      "difference": "Opposite: narrows to \"of all…\" with emotion.",
+      "id": "n2-grammar-17"
+    },
+    {
+      "pattern": "〜を問わず",
+      "difference": "\"Regardless of\" (年齢を問わず); overlaps with the abstract-noun use of に限らず.",
+      "id": "n2-grammar-197"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "安いに限らず、おいしい。",
+      "right": "安いだけでなく、おいしい。",
+      "why": "に限らず attaches to nouns, not adjectives."
+    },
+    {
+      "wrong": "日本に限らず、東京でも人気がある。",
+      "right": "東京に限らず、日本中で人気がある。",
+      "why": "The second scope must be wider than the first; Tokyo is inside Japan."
+    },
+    {
+      "wrong": "子供に限って、大人も楽しめる。",
+      "right": "子供に限らず、大人も楽しめる。",
+      "why": "に限って narrows; に限らず widens. The も in the second clause signals widening."
+    }
+  ],
+  "usageNotes": [
+    "Frequent pairs: 〜に限らず〜も, 〜に限らず〜全体, 〜に限らず誰でも.",
+    "Abstract nouns (年齢・性別・国籍) give the sense \"regardless of\".",
+    "Written variant without ず: 〜に限らない as a predicate (それは日本に限らない)."
+  ],
+  "jlptTips": [
+    "A noun before the blank and も / 誰でも / 〜中 after it → に限らず.",
+    "The most confusing distractor is に限って; decide by whether the sentence widens (に限らず) or picks out (に限って).",
+    "If the blank follows an adjective or verb, に限らず is impossible; choose だけでなく."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-18-1",
+    "q-n2-g-18-2",
+    "q-n2-g-18-3",
+    "q-n2-g-18-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-18-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

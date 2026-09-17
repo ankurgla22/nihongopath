@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-73",
+  "slug": "tsutsu-tsutsumo",
+  "level": "n2",
+  "order": 73,
+  "title": "〜つつ / 〜つつも",
+  "romaji": "tsutsu / tsutsu mo",
+  "meaning": "while (doing); although (knowing)",
+  "simpleExplanation": "〜つつ has two meanings. (1) \"While doing\" (the formal version of ながら): I drank coffee while gazing at the scenery. (2) 〜つつ(も) \"although (knowing/thinking)\": though I know it's bad for me, I can't quit smoking. The second use is nearly always with 知る, 思う, 分かる.",
+  "whenUsed": "書き言葉 and formal speech; in conversation use ながら. Attaches to the Vます stem. In the concessive use, つつも with も is stronger and closer to ながらも. The actions must belong to the same subject.",
+  "formation": [
+    "Vます + つつ / つつも"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of つつ",
+    "columns": [
+      "Example",
+      "Spoken equivalent"
+    ],
+    "rows": [
+      {
+        "label": "Simultaneous",
+        "cells": [
+          "景色を眺めつつコーヒーを飲む",
+          "眺めながら"
+        ]
+      },
+      {
+        "label": "Concessive",
+        "cells": [
+          "悪いと知りつつ(も)やめられない",
+          "知っていながら(も)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "景色を眺めつつ、コーヒーを飲んだ。",
+      "reading": "けしきをながめつつ、コーヒーをのんだ。",
+      "en": "I drank coffee while gazing at the scenery.",
+      "note": "Simultaneous use."
+    },
+    {
+      "ja": "体に悪いと知りつつ、タバコをやめられない。",
+      "reading": "からだにわるいとしりつつ、タバコをやめられない。",
+      "en": "Though I know it's bad for me, I can't quit smoking.",
+      "note": "Concessive with 知りつつ."
+    },
+    {
+      "ja": "悪いと思いつつも、うそをついてしまった。",
+      "reading": "わるいとおもいつつも、うそをついてしまった。",
+      "en": "Even while feeling it was wrong, I lied.",
+      "note": "Concessive with 思いつつも."
+    },
+    {
+      "ja": "彼は周囲の意見を聞きつつ、最終的には自分で決めた。",
+      "reading": "かれはしゅういのいけんをききつつ、さいしゅうてきにはじぶんできめた。",
+      "en": "While listening to those around him, in the end he decided for himself.",
+      "note": "Simultaneous use in a formal narrative."
+    },
+    {
+      "ja": "早く返事をしなければと思いつつ、つい後回しにしてしまった。",
+      "reading": "はやくへんじをしなければとおもいつつ、ついあとまわしにしてしまった。",
+      "en": "Though I kept thinking I should reply soon, I ended up putting it off.",
+      "note": "思いつつ + つい〜てしまう is a classic combination."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ながら(も)",
+      "difference": "Spoken/written equivalent for both uses; ながら also follows nouns and adjectives.",
+      "id": "n2-grammar-96"
+    },
+    {
+      "pattern": "〜つつある",
+      "difference": "Different pattern: \"in the process of\".",
+      "id": "n2-grammar-74"
+    },
+    {
+      "pattern": "〜くせに",
+      "difference": "Concession with contempt; つつ is neutral and self-directed.",
+      "id": "n2-grammar-38"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "知るつつ",
+      "right": "知りつつ",
+      "why": "Attach to the Vます stem."
+    },
+    {
+      "wrong": "音楽を聞きつつ、弟は勉強した。（different subjects）",
+      "right": "音楽を聞きつつ、私は勉強した。",
+      "why": "Both actions must have the same subject."
+    },
+    {
+      "wrong": "悪いと知りつつ、やめた。",
+      "right": "悪いと知りつつ、やめられない。",
+      "why": "The concessive use needs a clause that contradicts the knowledge."
+    }
+  ],
+  "usageNotes": [
+    "Concessive verbs: 知りつつ, 思いつつ, 分かりつつ, 感じつつ.",
+    "つつも is a stronger concession than つつ.",
+    "Formal reports use 〜しつつ for parallel actions: 状況を見つつ判断する."
+  ],
+  "jlptTips": [
+    "Formal register + Vます stem + blank meaning \"while\" or \"although knowing\" → つつ.",
+    "Distractors: つつある, ながら, たびに. Check for a following 〜てしまう or 〜られない for the concessive use.",
+    "If the blank follows a noun or adjective, it cannot be つつ; choose ながら."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-73-1",
+    "q-n2-g-73-2",
+    "q-n2-g-73-3",
+    "q-n2-g-73-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-73-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

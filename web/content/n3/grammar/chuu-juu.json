@@ -1,0 +1,129 @@
+{
+  "id": "n3-grammar-106",
+  "slug": "chuu-juu",
+  "level": "n3",
+  "order": 106,
+  "title": "〜中 / 〜ちゅう / 〜じゅう",
+  "romaji": "chuu / juu",
+  "meaning": "ちゅう: in the middle of… / during…; じゅう: throughout… / all over…",
+  "simpleExplanation": "The kanji 中 has two readings with two jobs. Read ちゅう, it means \"currently doing\" or \"during\": 電話中 \"on the phone\", 会議中 \"in a meeting\", 午前中 \"during the morning\". Read じゅう, it means \"the whole of\": 一日中 \"all day\", 世界中 \"all over the world\".",
+  "whenUsed": "Signs and notices (使用中, 準備中, 工事中), everyday speech (一日中, 一年中), and time expressions. 今日中 (きょうじゅう) and 今週中 mean \"by the end of today / this week\".",
+  "formation": [
+    "Noun (action) + 中 (ちゅう): 仕事中, 食事中, 使用中, 営業中 (+ だ / に / の)",
+    "Time / place + 中 (じゅう): 一日中, 一晩中, 一年中, 世界中, 町中, 家中",
+    "今日中 / 今週中 / 今月中 (じゅう) = by the end of…",
+    "午前中 (ちゅう) = during the morning"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ちゅう vs じゅう",
+    "columns": [
+      "Meaning",
+      "Attaches to",
+      "Examples"
+    ],
+    "rows": [
+      {
+        "label": "〜中 (ちゅう)",
+        "cells": [
+          "In the middle of / during",
+          "Action nouns, some time words",
+          "電話中, 会議中, 勉強中, 午前中"
+        ]
+      },
+      {
+        "label": "〜中 (じゅう)",
+        "cells": [
+          "Throughout / all over",
+          "Whole spans of time or space",
+          "一日中, 一年中, 世界中, 部屋中"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "田中は今、電話中です。",
+      "reading": "たなかはいま、でんわちゅうです。",
+      "en": "Tanaka is on the phone right now.",
+      "note": "ちゅう: currently on the phone."
+    },
+    {
+      "ja": "会議中は携帯電話の電源を切ってください。",
+      "reading": "かいぎちゅうはけいたいでんわのでんげんをきってください。",
+      "en": "Please switch off your phone during the meeting.",
+      "note": "ちゅう + は: during the meeting."
+    },
+    {
+      "ja": "一日中、家で本を読んでいた。",
+      "reading": "いちにちじゅう、いえでほんをよんでいた。",
+      "en": "I read books at home all day long.",
+      "note": "じゅう: the whole day."
+    },
+    {
+      "ja": "このレポートは今日中に出さなければならない。",
+      "reading": "このレポートはきょうじゅうにださなければならない。",
+      "en": "I have to submit this report by the end of today.",
+      "note": "今日中 (きょうじゅう) = within today."
+    },
+    {
+      "ja": "店の入り口に「準備中」と書いてあった。",
+      "reading": "みせのいりぐちに「じゅんびちゅう」とかいてあった。",
+      "en": "The sign at the shop entrance said 'preparing' (not yet open).",
+      "note": "ちゅう on signs: 準備中, 営業中, 使用中."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜最中に",
+      "difference": "'Right in the middle of', stressing the exact moment and often an interruption.",
+      "id": "n3-grammar-36"
+    },
+    {
+      "pattern": "〜間 / 〜間に",
+      "difference": "'While / during' as a clause (食事の間に). 中 is a suffix attached to a noun."
+    },
+    {
+      "pattern": "〜までに",
+      "difference": "'By (deadline)'. 今日中に ≈ 今日までに but stresses 'within the day'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一日ちゅう勉強した。",
+      "right": "一日じゅう勉強した。",
+      "why": "A whole span uses じゅう."
+    },
+    {
+      "wrong": "会議じゅうは静かにしてください。",
+      "right": "会議ちゅうは静かにしてください。",
+      "why": "An ongoing activity uses ちゅう."
+    },
+    {
+      "wrong": "午前じゅう",
+      "right": "午前ちゅう",
+      "why": "午前中 is an exception: it is read ちゅう even though it is a time span."
+    }
+  ],
+  "usageNotes": [
+    "Reading traps: 今日中 (きょうじゅう), 今年中 (ことしじゅう) but 午前中 (ごぜんちゅう), 今月中 (こんげつちゅう or じゅう, both heard).",
+    "世界中 (せかいじゅう) and 日本中 (にほんじゅう) are place uses of じゅう.",
+    "〜中に can mean 'while' (留守中に = while away) or 'within' (今週中に)."
+  ],
+  "jlptTips": [
+    "Whole span or area → じゅう; ongoing action → ちゅう.",
+    "The reading may be tested in 文字・語彙; memorise 午前中 as an exception.",
+    "Signs in 読解 (工事中, 使用中) mean 'currently…'."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-106-1",
+    "q-n3-g-106-2",
+    "q-n3-g-106-3",
+    "q-n3-g-106-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-106-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

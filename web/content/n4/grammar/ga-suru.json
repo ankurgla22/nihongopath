@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-106",
+  "slug": "ga-suru",
+  "level": "n4",
+  "order": 106,
+  "title": "〜がする \"there is a (smell / sound / taste / feeling)\"",
+  "romaji": "ga suru",
+  "meaning": "Perception through the senses: 音がする, においがする, 味がする, 気がする, 声がする.",
+  "simpleExplanation": "〜がする is how Japanese talks about things you sense: においがする = there is a smell, 音がする = there is a sound, 味がする = it tastes (of something), 声がする = I hear a voice, 気がする = I have a feeling. The sensation is the subject with が, and する here means \"occur\" rather than \"do\". Add a describing word before the noun: いいにおいがする (smells good), 変な音がする (there's a strange noise). 〜ような気がする is a soft way to give your opinion: \"I have a feeling that…\".",
+  "whenUsed": "Describing what you notice around you (台所からいいにおいがする), reacting to food (甘い味がする), reporting sounds (外で音がした), and giving cautious opinions (間違っているような気がする). Used in all registers; the past tense がした reports a sensation you noticed.",
+  "formation": [
+    "におい／音／味／声／気／感じ + がする",
+    "Modifier + noun + がする: いいにおいがする, 変な音がする, 苦い味がする",
+    "Clause + ような気がする: 雨が降るような気がする",
+    "Past: 〜がした; progressive: 〜がしている"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "台所から",
+        "role": "source (から)"
+      },
+      {
+        "text": "いい",
+        "role": "modifier"
+      },
+      {
+        "text": "におい",
+        "role": "sensation noun",
+        "highlight": true
+      },
+      {
+        "text": "が",
+        "role": "subject particle",
+        "highlight": true
+      },
+      {
+        "text": "する。",
+        "role": "'occurs' (not 'do')",
+        "highlight": true
+      }
+    ],
+    "translation": "There's a nice smell coming from the kitchen."
+  },
+  "examples": [
+    {
+      "ja": "台所からいいにおいがする。",
+      "reading": "だいどころから いい においが する。",
+      "en": "There's a nice smell coming from the kitchen.",
+      "note": "いいにおいがする: the smell is the subject."
+    },
+    {
+      "ja": "外で変な音がした。",
+      "reading": "そとで へんな おとが した。",
+      "en": "There was a strange sound outside.",
+      "note": "Past: 音がした reports a sound noticed."
+    },
+    {
+      "ja": "明日は雨が降るような気がする。",
+      "reading": "あしたは あめが ふるような きが する。",
+      "en": "I have a feeling it'll rain tomorrow.",
+      "note": "〜ような気がする: a soft opinion or premonition."
+    },
+    {
+      "ja": "このスープ、ちょっと変な味がしませんか。",
+      "reading": "この スープ、ちょっと へんな あじが しませんか。",
+      "en": "Doesn't this soup taste a bit strange?",
+      "note": "味がする with a modifier; the negative question asks for agreement."
+    },
+    {
+      "ja": "隣の部屋から子供の声がする。",
+      "reading": "となりの へやから こどもの こえが する。",
+      "en": "I can hear children's voices from the next room.",
+      "note": "声がする = a voice is heard; the source takes から."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "聞こえる / 見える",
+      "difference": "聞こえる (is audible) and 見える (is visible) describe what reaches your ears and eyes; 音がする / 声がする describe a sound occurring. Smells and tastes use only がする."
+    },
+    {
+      "pattern": "〜ようだ・みたいだ",
+      "difference": "ようだ makes a judgement (雨が降るようだ = it looks like rain). 〜ような気がする is weaker: just a feeling.",
+      "id": "n4-grammar-37"
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "おいしそう is a judgement from looking; おいしい味がする is what you actually taste.",
+      "id": "n4-grammar-35"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "台所からいいにおいをする。",
+      "right": "台所からいいにおいがする。",
+      "why": "The sensation is the subject, so it takes が, not を."
+    },
+    {
+      "wrong": "外で変な音が聞いた。",
+      "right": "外で変な音がした。／ 外で変な音が聞こえた。",
+      "why": "聞いた needs an active listener with を (音を聞いた). For a sound that occurred, use 音がした or 音が聞こえた."
+    },
+    {
+      "wrong": "この料理はおいしい味です。",
+      "right": "この料理はおいしい味がします。",
+      "why": "To say something tastes a certain way, use 味がする."
+    }
+  ],
+  "usageNotes": [
+    "気がする is by far the most useful: 見たことがあるような気がする (I feel like I've seen it before), 気のせいかな (maybe it's my imagination).",
+    "感じがする describes an impression: 冷たい感じがする (it gives a cold impression).",
+    "The source of a smell or sound takes から: 隣から音がする."
+  ],
+  "jlptTips": [
+    "If the blank follows におい, 音, 味, 声 or 気 with が, the verb is する. Reject ある, 聞く and 感じる in that slot.",
+    "Watch the particle: options with を before する are wrong for sensations. 〜ような気がする is tested as a soft-opinion pattern; the clause before ような is in plain form."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-106-1",
+    "q-n4-g-106-2",
+    "q-n4-g-106-3",
+    "q-n4-g-106-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-106-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

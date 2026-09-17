@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-55",
+  "slug": "nai-de",
+  "level": "n3",
+  "order": 55,
+  "title": "〜ないで",
+  "romaji": "nai de",
+  "meaning": "Without doing… / instead of… / don't…",
+  "simpleExplanation": "〜ないで has three uses. (1) Manner: 傘を持たないで出かけた = went out without an umbrella. (2) Instead of: 遊ばないで勉強しなさい = study instead of playing. (3) Request: 心配しないでください = please don't worry. The key contrast is with なくて, which gives a reason (\"because not\").",
+  "whenUsed": "Everyday speech in all three uses. Formal writing prefers ずに for uses (1) and (2).",
+  "formation": [
+    "Verb (ない form) + で",
+    "Request: 〜ないでください / 〜ないで (casual)",
+    "Compare: 〜なくて (reason)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ないで vs なくて",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ないで (manner)",
+        "cells": [
+          "without doing",
+          "傘を持たないで出かけた"
+        ]
+      },
+      {
+        "label": "〜ないで (instead)",
+        "cells": [
+          "instead of",
+          "遊ばないで勉強する"
+        ]
+      },
+      {
+        "label": "〜ないで (request)",
+        "cells": [
+          "please don't",
+          "心配しないでください"
+        ]
+      },
+      {
+        "label": "〜なくて (reason)",
+        "cells": [
+          "because not",
+          "傘がなくて困った"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "傘を持たないで出かけてしまった。",
+      "reading": "かさをもたないででかけてしまった。",
+      "en": "I went out without taking an umbrella.",
+      "note": "Manner: without taking an umbrella."
+    },
+    {
+      "ja": "遊ばないで勉強しなさい。",
+      "reading": "あそばないでべんきょうしなさい。",
+      "en": "Study instead of playing.",
+      "note": "Instead of: study, not play."
+    },
+    {
+      "ja": "心配しないでください。",
+      "reading": "しんぱいしないでください。",
+      "en": "Please don't worry.",
+      "note": "Request: please don't worry."
+    },
+    {
+      "ja": "昨日は電気を消さないで寝てしまった。",
+      "reading": "きのうはでんきをけさないでねてしまった。",
+      "en": "Last night I fell asleep without turning off the light.",
+      "note": "Manner: the light stayed on."
+    },
+    {
+      "ja": "明日は遅れないでね。",
+      "reading": "あしたはおくれないでね。",
+      "en": "Don't be late tomorrow, okay?",
+      "note": "Casual request with ね."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずに",
+      "difference": "Formal equivalent for manner and instead-of; cannot make requests.",
+      "id": "n3-grammar-54"
+    },
+    {
+      "pattern": "〜なくて",
+      "difference": "Reason: \"because not\". Not interchangeable."
+    },
+    {
+      "pattern": "〜なくてもいい",
+      "difference": "\"Don't have to\": permission, not a request."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "傘を持たなくて出かけた。",
+      "right": "傘を持たないで出かけた。",
+      "why": "Manner (\"without\") uses ないで; なくて would try to give a reason."
+    },
+    {
+      "wrong": "時間がないで困った。",
+      "right": "時間がなくて困った。",
+      "why": "A reason for 困った uses なくて."
+    },
+    {
+      "wrong": "遅れないでするな。",
+      "right": "遅れるな。/ 遅れないで。",
+      "why": "ないで alone already works as a casual request; don't add another command."
+    }
+  ],
+  "usageNotes": [
+    "〜ないで (manner/instead) vs 〜なくて (cause: \"because not\"). x 傘を持たなくて出かけた. ずに cannot be used for requests (x 〜ずにください).",
+    "Adjectives and nouns use なくて / じゃなくて, not ないで: 学生じゃなくて社員だ."
+  ],
+  "jlptTips": [
+    "Ask: is the second half a result caused by not doing X? Then なくて. Otherwise (manner, instead, request) ないで.",
+    "A blank followed by ください is always ないで.",
+    "In formal written passages, ずに replaces ないで for manner; recognize both."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-55-1",
+    "q-n3-g-55-2",
+    "q-n3-g-55-3",
+    "q-n3-g-55-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-55-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

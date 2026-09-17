@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-45",
+  "slug": "kara-to-itte",
+  "level": "n3",
+  "order": 45,
+  "title": "〜からといって",
+  "romaji": "kara to itte",
+  "meaning": "Just because… (doesn't mean…)",
+  "simpleExplanation": "〜からといって says a reason is not enough to justify a conclusion: 日本人だからといって、誰でも敬語が使えるわけではない = just because someone is Japanese doesn't mean everyone can use keigo. The second half is negative or critical: とは限らない, わけではない, 〜てはいけない.",
+  "whenUsed": "Arguments, warnings, essays. Casual: 〜からって. Sentence-initial だからといって = \"but that doesn't mean…\".",
+  "formation": [
+    "Plain form + からといって + negative (とは限らない / わけではない / 〜ない)",
+    "Noun / な-adjective + だ + からといって",
+    "Casual: 〜からって",
+    "Sentence-initial: だからといって"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "安い",
+        "role": "reason someone might give"
+      },
+      {
+        "text": "からといって、",
+        "role": "just because…",
+        "highlight": true
+      },
+      {
+        "text": "たくさん買うのは",
+        "role": "conclusion drawn from it"
+      },
+      {
+        "text": "よくない。",
+        "role": "rejected (negative / critical)",
+        "highlight": true
+      }
+    ],
+    "translation": "Just because it's cheap, buying lots isn't good."
+  },
+  "examples": [
+    {
+      "ja": "日本人だからといって、誰でも敬語が使えるわけではない。",
+      "reading": "にほんじんだからといって、だれでもけいごがつかえるわけではない。",
+      "en": "Just because someone is Japanese doesn't mean everyone can use keigo.",
+      "note": "Noun + だからといって + わけではない."
+    },
+    {
+      "ja": "安いからといって、たくさん買うのはよくない。",
+      "reading": "やすいからといって、たくさんかうのはよくない。",
+      "en": "Just because it's cheap, buying lots isn't good.",
+      "note": "い-adjective + からといって + a criticism."
+    },
+    {
+      "ja": "疲れたからといって、練習を休んではいけない。",
+      "reading": "つかれたからといって、れんしゅうをやすんではいけない。",
+      "en": "You mustn't skip practice just because you're tired.",
+      "note": "Past verb + からといって + a prohibition."
+    },
+    {
+      "ja": "有名だからといって、その人の言うことが全部正しいとは限らない。",
+      "reading": "ゆうめいだからといって、そのひとのいうことがぜんぶただしいとはかぎらない。",
+      "en": "Just because someone is famous doesn't mean everything they say is right.",
+      "note": "な-adjective + だからといって + とは限らない."
+    },
+    {
+      "ja": "「頭が痛いんだ。」「だからといって、会議をサボっていいわけじゃないよ。」",
+      "reading": "「あたまがいたいんだ。」「だからといって、かいぎをサボっていいわけじゃないよ。」",
+      "en": "\"I have a headache.\" \"That doesn't mean you can skip the meeting.\"",
+      "note": "Sentence-initial だからといって in dialogue."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とは限らない",
+      "difference": "The most common ending after からといって.",
+      "id": "n3-grammar-14"
+    },
+    {
+      "pattern": "〜わけではない",
+      "difference": "Another common ending: partial denial.",
+      "id": "n3-grammar-4"
+    },
+    {
+      "pattern": "〜からには",
+      "difference": "Opposite direction: the reason does justify a resolve.",
+      "id": "n3-grammar-44"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "安いからといって、たくさん買った。",
+      "right": "安いので、たくさん買った。/ 安いからといって、たくさん買うべきではない。",
+      "why": "からといって must lead to a negative or critical conclusion, not a plain result."
+    },
+    {
+      "wrong": "日本人からといって",
+      "right": "日本人だからといって",
+      "why": "Nouns and な-adjectives need だ."
+    },
+    {
+      "wrong": "疲れたからといって、休んだ。",
+      "right": "疲れたからといって、休むわけにはいかない。",
+      "why": "Same problem: the conclusion must be rejected."
+    }
+  ],
+  "usageNotes": [
+    "Casual: 〜からって. The main clause denies that the reason justifies the conclusion.",
+    "A common test frame: 〜からといって、必ずしも〜とは限らない."
+  ],
+  "jlptTips": [
+    "A reason + blank + negative ending (とは限らない, わけではない, てはいけない) = からといって.",
+    "If the main clause is positive or a resolution, the answer is からには, not からといって.",
+    "Sentence-initial だからといって in dialogue = \"but that doesn't mean\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-45-1",
+    "q-n3-g-45-2",
+    "q-n3-g-45-3",
+    "q-n3-g-45-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-45-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

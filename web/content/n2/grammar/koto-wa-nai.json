@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-48",
+  "slug": "koto-wa-nai",
+  "level": "n2",
+  "order": 48,
+  "title": "〜ことはない",
+  "romaji": "koto wa nai",
+  "meaning": "there is no need to; never (happens)",
+  "simpleExplanation": "〜ことはない has two uses. The main one is reassurance or advice: \"there is no need to…\" (no need to worry so much; no need to apologize). The second is \"never happens\": he never breaks a promise.",
+  "whenUsed": "話し言葉寄り but fine in writing. It follows the dictionary form. In the \"no need\" use the speaker comforts or gently corrects the listener; it is softer than 〜必要はない and lighter than 〜までもない (\"not even worth doing\"). Polite: 〜ことはありません.",
+  "formation": [
+    "Vる + ことはない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of ことはない",
+    "columns": [
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "No need",
+        "cells": [
+          "そんなに心配することはない",
+          "no need to worry"
+        ]
+      },
+      {
+        "label": "Never",
+        "cells": [
+          "彼が約束を破ることはない",
+          "he never breaks a promise"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そんなに心配することはないよ。",
+      "reading": "そんなにしんぱいすることはないよ。",
+      "en": "There's no need to worry so much.",
+      "note": "No-need use with よ, reassurance."
+    },
+    {
+      "ja": "謝ることはない。君は悪くない。",
+      "reading": "あやまることはない。きみはわるくない。",
+      "en": "No need to apologize. It's not your fault.",
+      "note": "No-need use with a reason after."
+    },
+    {
+      "ja": "彼が約束を破ることはない。",
+      "reading": "かれがやくそくをやぶることはない。",
+      "en": "He never breaks a promise.",
+      "note": "\"Never\" use about a person's behavior."
+    },
+    {
+      "ja": "急ぐことはありません。ゆっくり考えてください。",
+      "reading": "いそぐことはありません。ゆっくりかんがえてください。",
+      "en": "There's no need to hurry. Take your time to think.",
+      "note": "Polite reassurance."
+    },
+    {
+      "ja": "この薬を飲めば、痛みがぶり返すことはないでしょう。",
+      "reading": "このくすりをのめば、いたみがぶりかえすことはないでしょう。",
+      "en": "If you take this medicine, the pain should not come back.",
+      "note": "\"Never / won't happen\" use."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜必要はない",
+      "difference": "Plainer, more objective \"unnecessary\"; ことはない sounds like personal reassurance."
+    },
+    {
+      "pattern": "〜までもない",
+      "difference": "\"Not even worth doing\": the action is so obvious or trivial it needn't be done.",
+      "id": "n2-grammar-184"
+    },
+    {
+      "pattern": "〜ことなく",
+      "difference": "\"Without doing\"; different despite the shared こと.",
+      "id": "n2-grammar-45"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "心配したことはない。（intending \"no need to worry\"）",
+      "right": "心配することはない。",
+      "why": "The \"no need\" use takes the dictionary form; Vたことはない means \"have never done\"."
+    },
+    {
+      "wrong": "謝ることはないです、悪かった。",
+      "right": "謝ることはない、君は悪くない。",
+      "why": "The reassurance must be consistent; \"no need to apologize\" pairs with \"it's not your fault\"."
+    },
+    {
+      "wrong": "言うことはないほど当然だ。",
+      "right": "言うまでもないほど当然だ。",
+      "why": "\"Goes without saying\" is 言うまでもない."
+    }
+  ],
+  "usageNotes": [
+    "Often with そんなに / 何も / 別に for softening: 何も泣くことはない.",
+    "The \"never\" use is common with negative predictions: 〜ことはないだろう.",
+    "Casual variant: 〜ことないよ."
+  ],
+  "jlptTips": [
+    "A reassuring tone (そんなに・別に) + Vる + blank → ことはない.",
+    "Distractors: までもない, ことなく, ことがない. Vたことがない (experience) is a different pattern; check the verb form.",
+    "If the sentence says something is too obvious to bother doing, choose までもない instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-48-1",
+    "q-n2-g-48-2",
+    "q-n2-g-48-3",
+    "q-n2-g-48-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-48-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

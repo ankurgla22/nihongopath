@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-149",
+  "slug": "mai",
+  "level": "n2",
+  "order": 149,
+  "title": "〜まい",
+  "romaji": "mai",
+  "meaning": "(1) probably not (negative conjecture); (2) will not, refuse to (negative volition)",
+  "simpleExplanation": "〜まい is a literary negative auxiliary with two meanings. After a verb about others or events, it means \"probably not\" (彼はもう戻るまい = he probably won't return), the negative of だろう. With the speaker's own action, it means \"I will not\", a firm resolve (二度と来るまい). 〜まいか means \"shall we not?\" and 〜ではあるまいか means \"might it not be?\" in essays.",
+  "whenUsed": "Written, old-fashioned, or dramatic speech. In everyday conversation people say 〜ないだろう or 〜ないつもりだ. It survives in novels, speeches, and set phrases such as 〜まいと思う / 〜まいとする.",
+  "formation": [
+    "Group I verb (dictionary form) + まい (行くまい)",
+    "Group II verb (ない-stem) + まい (食べまい); also 食べるまい",
+    "する → するまい / すまい; 来る → 来るまい / 来まい",
+    "〜まいと思う / 〜まいと心に誓う (resolve)",
+    "〜のではあるまいか (isn't it perhaps…?)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Negative conjecture",
+      "Negative volition"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "probably will not",
+          "I will not (resolve)"
+        ]
+      },
+      {
+        "label": "Subject",
+        "cells": [
+          "others, events",
+          "the speaker"
+        ]
+      },
+      {
+        "label": "Spoken equivalent",
+        "cells": [
+          "〜ないだろう",
+          "〜ないつもりだ / 絶対〜ない"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "彼はもう来るまい",
+          "二度と行くまい"
+        ]
+      }
+    ],
+    "title": "Two meanings, one subject test"
+  },
+  "examples": [
+    {
+      "ja": "こんな高い店には、二度と来るまい。",
+      "reading": "こんなたかいみせには、にどとくるまい。",
+      "en": "I will never come to such an expensive restaurant again.",
+      "note": "Volition: I will never come again (speaker's resolve)."
+    },
+    {
+      "ja": "彼はもう戻って来るまい。",
+      "reading": "かれはもうもどってくるまい。",
+      "en": "He probably will not come back.",
+      "note": "Conjecture: he probably won't come back (about someone else)."
+    },
+    {
+      "ja": "二度と同じ失敗はすまいと心に誓った。",
+      "reading": "にどとおなじしっぱいはすまいとこころにちかった。",
+      "en": "I swore to myself never to make the same mistake again.",
+      "note": "すまい: the short form of するまい; resolve with 心に誓った."
+    },
+    {
+      "ja": "この雨では、今日中に着くことはできまい。",
+      "reading": "このあめでは、きょうじゅうにつくことはできまい。",
+      "en": "In this rain, we probably cannot arrive today.",
+      "note": "Conjecture with a potential verb: できまい."
+    },
+    {
+      "ja": "これは単なる偶然ではあるまいか。",
+      "reading": "これはたんなるぐうぜんではあるまいか。",
+      "en": "Might this not be a mere coincidence?",
+      "note": "〜ではあるまいか: essay-style rhetorical doubt."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないだろう",
+      "difference": "Spoken equivalent of the conjecture meaning."
+    },
+    {
+      "pattern": "〜ないつもりだ",
+      "difference": "Spoken equivalent of the volition meaning."
+    },
+    {
+      "pattern": "〜ものか",
+      "difference": "Strong emotional refusal (行くものか); まい is quieter and more literary.",
+      "id": "n2-grammar-154"
+    },
+    {
+      "pattern": "〜う / 〜よう",
+      "difference": "The affirmative counterpart: 行こう (will go / probably goes)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は来ないまい。",
+      "right": "彼は来るまい。",
+      "why": "まい already carries the negative; do not attach it to a negative form."
+    },
+    {
+      "wrong": "食べまい (meaning 'won't eat', but conjugated as Group I)",
+      "right": "食べまい / 食べるまい (both fine for Group II)",
+      "why": "Group II verbs allow either the stem or the dictionary form; Group I verbs only take the dictionary form."
+    },
+    {
+      "wrong": "「明日は雨は降るまいよ。」(casual chat)",
+      "right": "「明日は雨は降らないだろうね。」",
+      "why": "まい sounds bookish in casual speech."
+    }
+  ],
+  "usageNotes": [
+    "Reading the subject decides the meaning: first person = resolve; third person or events = conjecture.",
+    "〜まいとする = try not to; 〜まいとして is common in narratives.",
+    "行こうか行くまいか = whether to go or not (set phrase)."
+  ],
+  "jlptTips": [
+    "Identify the subject: 私 → 'will not'; 彼 / 天気 → 'probably not'.",
+    "Watch the conjugation: するまい / すまい / しまい are all seen; 来まい / 来るまい.",
+    "In reading passages, ではあるまいか = 'isn't it that…?', a rhetorical device signalling the author's opinion."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-149-1",
+    "q-n2-g-149-2",
+    "q-n2-g-149-3",
+    "q-n2-g-149-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-149-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

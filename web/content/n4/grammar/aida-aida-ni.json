@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-47",
+  "slug": "aida-aida-ni",
+  "level": "n4",
+  "order": 47,
+  "title": "〜間 / 〜間に \"while / during\"",
+  "romaji": "aida / aida ni",
+  "meaning": "間 (あいだ) = throughout a period (continuous action); 間に = at some point within a period (momentary action).",
+  "simpleExplanation": "間 (あいだ) is a noun meaning \"the period between\". 〜間 means \"all through the time that…\": the main action lasts as long as the period (夏休みの間、ずっと田舎にいた = I was in the countryside the whole summer). 〜間に means \"at some point during…\": the main action is short and happens inside the period (子供が寝ている間に、本を読んだ). So: 間 = the whole time, 間に = at one moment inside it.",
+  "whenUsed": "Talking about what happens during periods: holidays, while someone is out, while a child sleeps. 間 pairs with continuous actions (ずっと〜ていた); 間に pairs with events that are over quickly (来た, 起きた, 電話した). Used in all registers. The verb before it is usually 〜ている or the dictionary form.",
+  "formation": [
+    "V-ている / V-dictionary + 間(に): 寝ている間に, 待つ間",
+    "Noun + の間(に): 夏休みの間, 留守の間に",
+    "い-adjective + 間(に): 若い間に",
+    "間: main verb is continuous (ずっと〜ていた)",
+    "間に: main verb is a single event (〜が来た, 〜した)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "間 vs 間に",
+    "columns": [
+      "Main action",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜間",
+        "cells": [
+          "lasts the whole period (ずっと)",
+          "throughout, all the time",
+          "夏休みの間、ずっと田舎にいた"
+        ]
+      },
+      {
+        "label": "〜間に",
+        "cells": [
+          "one event inside the period",
+          "at some point during",
+          "留守の間に、誰か来た"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "夏休みの間、ずっと田舎にいました。",
+      "reading": "なつやすみの あいだ、ずっと いなかに いました。",
+      "en": "I was in the countryside the whole summer holiday.",
+      "note": "ずっと + いました: the action fills the whole period, so 間 without に."
+    },
+    {
+      "ja": "私が出かけている間に、誰か来たようだ。",
+      "reading": "わたしが でかけている あいだに、だれか きたようだ。",
+      "en": "It seems someone came while I was out.",
+      "note": "A short event (someone came) inside the period: 間に."
+    },
+    {
+      "ja": "子供が寝ている間に、本を読んだ。",
+      "reading": "こどもが ねている あいだに、ほんを よんだ。",
+      "en": "I read a book while the child was sleeping.",
+      "note": "Reading a book is finished inside the sleep period: 間に."
+    },
+    {
+      "ja": "電車を待っている間、ずっと本を読んでいた。",
+      "reading": "でんしゃを まっているあいだ、ずっと ほんを よんでいた。",
+      "en": "I was reading a book the whole time I waited for the train.",
+      "note": "Continuous reading through the whole wait: 間."
+    },
+    {
+      "ja": "日本にいる間に、富士山に登りたい。",
+      "reading": "にほんに いるあいだに、ふじさんに のぼりたい。",
+      "en": "While I'm in Japan, I want to climb Mt Fuji.",
+      "note": "Climbing is a one-time event inside the stay: 間に."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ながら",
+      "difference": "ながら joins two actions by the same person at the same time. 間(に) can have different subjects (子供が寝ている間に、私は…).",
+      "id": "n4-grammar-28"
+    },
+    {
+      "pattern": "〜中 (ちゅう)",
+      "difference": "N + 中に (会議中に) also means \"during\", attached directly to certain nouns. 間 works with clauses.",
+      "id": "n4-grammar-101"
+    },
+    {
+      "pattern": "〜とき",
+      "difference": "とき is a point of time (\"when\"). 間 stresses a stretch of time.",
+      "id": "n4-grammar-93"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "夏休みの間に、ずっと田舎にいました。",
+      "right": "夏休みの間、ずっと田舎にいました。",
+      "why": "ずっと + いた fills the whole period, so 間 without に."
+    },
+    {
+      "wrong": "私が出かけている間、誰か来たようだ。",
+      "right": "私が出かけている間に、誰か来たようだ。",
+      "why": "Someone coming is a single event inside the period: 間に."
+    },
+    {
+      "wrong": "留守間に、電話があった。",
+      "right": "留守の間に、電話があった。",
+      "why": "間 is a noun, so a noun before it needs の."
+    }
+  ],
+  "usageNotes": [
+    "Look at the main verb: continuous (いる, 読んでいる, 働いていた) → 間; momentary (来る, 起きる, 終わる) → 間に.",
+    "間に often carries \"before the chance is gone\": 若い間に、いろいろ経験しなさい.",
+    "The subject of the 間 clause takes が when it differs from the main subject: 母が料理している間に."
+  ],
+  "jlptTips": [
+    "ずっと in the main clause is the signal for 間 (no に). A single event (誰か来た, 電話があった) is the signal for 間に.",
+    "Options often pair 間 / 間に with とき / ながら. If two different people do the two actions, ながら is impossible."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-47-1",
+    "q-n4-g-47-2",
+    "q-n4-g-47-3",
+    "q-n4-g-47-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-47-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,147 @@
+{
+  "id": "n4-grammar-68",
+  "slug": "o-go-prefixes",
+  "level": "n4",
+  "order": 68,
+  "title": "お〜 / ご〜 (honorific prefixes)",
+  "romaji": "o- / go- (bika-go, sonkei)",
+  "meaning": "Adds politeness or respect to nouns and adjectives; お for native Japanese words, ご for Sino-Japanese (音読み) words.",
+  "simpleExplanation": "お and ご are polite prefixes put on nouns (and some adjectives) to show respect for the listener or simply to sound refined. The rule of thumb: お goes with native Japanese words (和語, usually read with kun-reading: お名前, お仕事, お元気), and ご goes with words of Chinese origin (漢語, on-reading: ご家族, ご住所, ご連絡). Some common kango words nevertheless take お (お電話, お料理, お時間), and loanwords in katakana take neither.",
+  "whenUsed": "Whenever you speak politely about something belonging to or done by the listener (お名前, ご意見, ご出身), in customer service and business emails (ご連絡, ご確認, ご案内), and with everyday words that always sound polite with お (お茶, お金, お風呂, ご飯). Not used for your own things unless the item relates to the listener (お手紙を差し上げます is fine because the letter goes to them).",
+  "formation": [
+    "お + 和語 (kun-reading) noun: お名前, お仕事, お住まい, お忙しい",
+    "ご + 漢語 (on-reading) noun: ご家族, ご住所, ご連絡, ご出身, ご意見",
+    "Exceptions with お on kango: お電話, お料理, お時間, お勉強, お天気",
+    "Fixed polite words: お茶, お金, お風呂, ご飯, お菓子",
+    "Never on katakana loanwords: ×おコーヒー, ×おパソコン"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "お or ご?",
+    "columns": [
+      "Word type",
+      "Prefix",
+      "Examples"
+    ],
+    "rows": [
+      {
+        "label": "和語 (native, kun-reading)",
+        "cells": [
+          "native Japanese",
+          "お",
+          "お名前, お仕事, お手紙, お忙しい"
+        ]
+      },
+      {
+        "label": "漢語 (Sino-Japanese, on-reading)",
+        "cells": [
+          "Chinese origin",
+          "ご",
+          "ご家族, ご住所, ご連絡, ご案内"
+        ]
+      },
+      {
+        "label": "Common exceptions",
+        "cells": [
+          "kango that takes お",
+          "お",
+          "お電話, お料理, お時間, お勉強"
+        ]
+      },
+      {
+        "label": "外来語 (loanwords)",
+        "cells": [
+          "katakana words",
+          "none",
+          "コーヒー, パソコン, メール"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お名前をお願いします。",
+      "reading": "おなまえを おねがいします。",
+      "en": "Your name, please.",
+      "note": "名前 is a native word (kun-reading) → お名前. The name belongs to the listener."
+    },
+    {
+      "ja": "ご家族はお元気ですか。",
+      "reading": "ごかぞくは おげんきですか。",
+      "en": "Is your family well?",
+      "note": "家族 is kango → ご家族; 元気 takes お by convention (お元気)."
+    },
+    {
+      "ja": "ご連絡ありがとうございます。",
+      "reading": "ごれんらく ありがとうございます。",
+      "en": "Thank you for contacting us.",
+      "note": "連絡 is kango → ご連絡; the listener did the contacting, so the prefix shows respect."
+    },
+    {
+      "ja": "ご出身はどちらですか。",
+      "reading": "ごしゅっしんは どちらですか。",
+      "en": "Where are you from?",
+      "note": "出身 is on-reading → ご. どちら is the polite どこ."
+    },
+    {
+      "ja": "お忙しいところ、お時間をいただきありがとうございます。",
+      "reading": "おいそがしいところ、おじかんを いただき ありがとうございます。",
+      "en": "Thank you for making time for me when you are busy.",
+      "note": "お on an adjective (お忙しい) and お時間, a kango word that conventionally takes お."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "お〜になる",
+      "difference": "The same prefixes attached to a verb stem to make a respectful verb (お帰りになる). This lesson is about nouns and adjectives.",
+      "id": "n4-grammar-70"
+    },
+    {
+      "pattern": "お〜する",
+      "difference": "Prefix + verb stem + する makes a humble verb about your own action toward someone (お持ちします).",
+      "id": "n4-grammar-72"
+    },
+    {
+      "pattern": "お〜ください",
+      "difference": "Prefix + verb stem + ください makes a respectful request (お待ちください).",
+      "id": "n4-grammar-88"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私のお名前は田中です。",
+      "right": "私の名前は田中です。/ 田中と申します。",
+      "why": "Do not put お on your own things when talking about yourself; the prefix honours the listener."
+    },
+    {
+      "wrong": "おコーヒーをどうぞ。",
+      "right": "コーヒーをどうぞ。",
+      "why": "Katakana loanwords never take お or ご. (おビール is heard in some shops, but it is not standard.)"
+    },
+    {
+      "wrong": "ご名前をお願いします。",
+      "right": "お名前をお願いします。",
+      "why": "名前 is a native word (kun-reading なまえ), so it takes お."
+    }
+  ],
+  "usageNotes": [
+    "Words like お茶, お金, ご飯 have the prefix fused into the word; dropping it can sound rough in polite conversation.",
+    "Business emails stack these prefixes naturally: ご確認のほど、お願いいたします. Learn the fixed pairs rather than analysing each one.",
+    "A quick test: if you can read the word in kun-reading (name, work, letter), try お; if it sounds like a Chinese compound (family, address, opinion), try ご; then check the exceptions list."
+  ],
+  "jlptTips": [
+    "The exam asks you to pick お or ご for common words: 名前, 仕事, 住所, 家族, 連絡, 電話, 料理. Memorise the exceptions お電話 / お料理 / お時間 / お勉強, which look like they should take ご.",
+    "A blank before a katakana word is never お or ご; look for another particle or nothing at all."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-68-1",
+    "q-n4-g-68-2",
+    "q-n4-g-68-3",
+    "q-n4-g-68-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-68-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

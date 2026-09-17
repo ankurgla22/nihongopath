@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-32",
+  "slug": "te-ageru",
+  "level": "n4",
+  "order": 32,
+  "title": "〜てあげる \"do (something) for someone\"",
+  "romaji": "te ageru",
+  "meaning": "The subject performs an action as a favour to someone else.",
+  "simpleExplanation": "〜てあげる means \"do something for someone\" as a favour, from the speaker (or subject) outward to another person: 妹に日本語を教えてあげた = I taught my sister Japanese (for her). It is あげる (give) attached to a verb's て-form: you are \"giving\" the action. Because it stresses that you are doing a favour, it can sound patronising if said directly to a superior, so use it carefully.",
+  "whenUsed": "Talking about kindnesses you did for friends, family and juniors (手伝ってあげた, 貸してあげた), and offering to help equals or juniors (持ってあげようか？). To superiors and customers, use 〜ましょうか or お〜します instead. 〜てやる is for pets, plants and much younger people.",
+  "formation": [
+    "V-て + あげる: 教えてあげる, 手伝ってあげる, 貸してあげる",
+    "Receiver takes に (or the object's に/を depending on the verb)",
+    "Humble: 〜てさしあげる; to juniors / animals: 〜てやる",
+    "Offer: 〜てあげようか / 〜てあげましょうか (only to equals or juniors)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私は",
+        "role": "doer (subject)"
+      },
+      {
+        "text": "妹に",
+        "role": "receiver of the favour"
+      },
+      {
+        "text": "日本語を",
+        "role": "object"
+      },
+      {
+        "text": "教えて",
+        "role": "action (て-form)"
+      },
+      {
+        "text": "あげました",
+        "role": "favour outward from the speaker",
+        "highlight": true
+      }
+    ],
+    "translation": "I taught my younger sister Japanese (as a favour)."
+  },
+  "examples": [
+    {
+      "ja": "私は妹に日本語を教えてあげました。",
+      "reading": "わたしは いもうとに にほんごを おしえてあげました。",
+      "en": "I taught my younger sister Japanese.",
+      "note": "Favour to a family member: 妹に + 教えてあげる."
+    },
+    {
+      "ja": "友達の引っ越しを手伝ってあげた。",
+      "reading": "ともだちの ひっこしを てつだってあげた。",
+      "en": "I helped my friend move.",
+      "note": "Favour to a friend; 引っ越しを is the object of 手伝う."
+    },
+    {
+      "ja": "犬を散歩に連れて行ってやった。",
+      "reading": "いぬを さんぽに つれていってやった。",
+      "en": "I took the dog for a walk.",
+      "note": "てやる: to a pet."
+    },
+    {
+      "ja": "おばあさんが重そうな荷物を持っていたので、駅まで運んであげた。",
+      "reading": "おばあさんが おもそうな にもつを もっていたので、えきまで はこんであげた。",
+      "en": "An elderly lady had heavy-looking luggage, so I carried it to the station for her.",
+      "note": "てあげる reports a kindness done for someone; fine when telling a third person about it."
+    },
+    {
+      "ja": "A：この漢字、読めないんだ。 B：じゃあ、教えてあげるよ。",
+      "reading": "A：この かんじ、よめないんだ。 B：じゃあ、おしえてあげるよ。",
+      "en": "A: I can't read this kanji. B: Then I'll teach you.",
+      "note": "Between friends, てあげる is a natural friendly offer."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てくれる",
+      "difference": "Opposite direction: someone does the favour for me (友達が教えてくれた).",
+      "id": "n4-grammar-33"
+    },
+    {
+      "pattern": "〜てもらう",
+      "difference": "I receive the favour, with the doer marked by に (友達に教えてもらった).",
+      "id": "n4-grammar-34"
+    },
+    {
+      "pattern": "あげる・くれる・もらう",
+      "difference": "The same three verbs used for giving objects rather than actions.",
+      "id": "n4-grammar-31"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、かばんを持ってあげます。",
+      "right": "先生、かばんをお持ちしましょうか。",
+      "why": "Saying てあげる to a superior sounds like you are doing them a favour they should thank you for. Use お〜します or 〜ましょうか."
+    },
+    {
+      "wrong": "友達が私に日本語を教えてあげた。",
+      "right": "友達が私に日本語を教えてくれた。",
+      "why": "When the receiver is the speaker, the verb must be てくれる."
+    },
+    {
+      "wrong": "犬を散歩に連れて行ってさしあげた。",
+      "right": "犬を散歩に連れて行ってやった。/ 連れて行ってあげた。",
+      "why": "さしあげる is for superiors; for animals and juniors use てやる or てあげる."
+    }
+  ],
+  "usageNotes": [
+    "In conversation with the person you helped, てあげる can sound boastful; when reporting to a third person, it is neutral.",
+    "The receiver's particle follows the main verb: 妹に教える (に), 友達を駅まで送る (を), 友達の引っ越しを手伝う (の…を).",
+    "てあげる is often softened with the volitional in offers: 手伝ってあげようか？"
+  ],
+  "jlptTips": [
+    "If the subject is 私 (or the doer is clearly the speaker) and the receiver is another person, the answer is てあげる (or てやる for animals / children).",
+    "Register questions: a sentence addressed to 先生 or お客様 with てあげます as an option is a trap; the polite alternative (お〜します / 〜ましょうか) is the correct choice."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-32-1",
+    "q-n4-g-32-2",
+    "q-n4-g-32-3",
+    "q-n4-g-32-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-32-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

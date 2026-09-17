@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-132",
+  "slug": "nakucha-nakya",
+  "level": "n3",
+  "order": 132,
+  "title": "〜なくちゃ / 〜なきゃ",
+  "romaji": "nakucha / nakya",
+  "meaning": "have to… / must… (casual contractions of 〜なくては / 〜なければ)",
+  "simpleExplanation": "〜なくちゃ and 〜なきゃ are the spoken shortcuts for \"have to\": 行かなくちゃ = 行かなくては(いけない), 起きなきゃ = 起きなければ(ならない). The obligation ending is usually left off. They mean the same as 〜なければならない; only the register changes.",
+  "whenUsed": "Casual conversation, texting, drama dialogue. Do not use them in essays or business emails. With the ending (なきゃいけない, なくちゃならない) they sound slightly less abrupt.",
+  "formation": [
+    "Verb ない-stem + なくちゃ (+ いけない / ならない / だめ)",
+    "Verb ない-stem + なきゃ (+ いけない / ならない / だめ)",
+    "する → しなくちゃ / しなきゃ; 来る → 来なくちゃ / 来なきゃ",
+    "Sentence-final: 〜なくちゃ。/ 〜なきゃ。"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "行かない",
+    "rootLabel": "ない-form → casual obligation",
+    "branches": [
+      {
+        "suffix": "なくては → なくちゃ",
+        "result": "行かなくちゃ",
+        "label": "have to go (from 行かなくては)"
+      },
+      {
+        "suffix": "なければ → なきゃ",
+        "result": "行かなきゃ",
+        "label": "have to go (from 行かなければ)"
+      },
+      {
+        "suffix": "ないと",
+        "result": "行かないと",
+        "label": "have to go (from 行かないといけない)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そろそろ行かなくちゃ。",
+      "reading": "そろそろいかなくちゃ。",
+      "en": "I've got to go soon.",
+      "note": "なくちゃ ending dropped."
+    },
+    {
+      "ja": "明日は早く起きなきゃいけない。",
+      "reading": "あしたははやくおきなきゃいけない。",
+      "en": "I have to get up early tomorrow.",
+      "note": "なきゃ with いけない."
+    },
+    {
+      "ja": "もっと練習しなきゃ。",
+      "reading": "もっとれんしゅうしなきゃ。",
+      "en": "I've got to practice more.",
+      "note": "しなきゃ = しなければ(ならない)."
+    },
+    {
+      "ja": "あ、牛乳がない。買いに行かなくちゃ。",
+      "reading": "あ、ぎゅうにゅうがない。かいにいかなくちゃ。",
+      "en": "Oh, we're out of milk. I've got to go buy some.",
+      "note": "Talking to oneself."
+    },
+    {
+      "ja": "宿題をやらなきゃならないから、今日は遊べない。",
+      "reading": "しゅくだいをやらなきゃならないから、きょうはあそべない。",
+      "en": "I have to do my homework, so I can't hang out today.",
+      "note": "なきゃならない with the ending kept."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないと",
+      "difference": "Another casual obligation form; interchangeable in most cases.",
+      "id": "n3-grammar-131"
+    },
+    {
+      "pattern": "〜なければならない",
+      "difference": "The full standard form for all registers."
+    },
+    {
+      "pattern": "〜なくてはいけない",
+      "difference": "The uncontracted source of なくちゃ; polite and neutral."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行くなきゃ",
+      "right": "行かなきゃ",
+      "why": "The contraction is built on the ない-form: 行かなければ → 行かなきゃ."
+    },
+    {
+      "wrong": "作文で「毎日練習しなきゃ。」",
+      "right": "毎日練習しなければならない。",
+      "why": "なきゃ is spoken; formal writing needs the full form."
+    },
+    {
+      "wrong": "しなくちゃ = 'must not do'",
+      "right": "しなくちゃ = 'must do'",
+      "why": "Despite containing ない, the meaning is positive obligation ('if I don't do it, it's bad')."
+    }
+  ],
+  "usageNotes": [
+    "なくちゃ comes from なくては; なきゃ from なければ. Both are common; なきゃ is slightly more casual.",
+    "The dropped ending can be いけない / ならない / だめ.",
+    "In 聴解, 〜なくちゃ / 〜なきゃ often mark the speaker's next action."
+  ],
+  "jlptTips": [
+    "Casual register + obligation → なくちゃ / なきゃ / ないと; formal → なければならない.",
+    "Check the stem: ない-stem + なくちゃ (行かなくちゃ), never dictionary form.",
+    "The contraction is positive obligation; do not read it as a prohibition."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-132-1",
+    "q-n3-g-132-2",
+    "q-n3-g-132-3",
+    "q-n3-g-132-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-132-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

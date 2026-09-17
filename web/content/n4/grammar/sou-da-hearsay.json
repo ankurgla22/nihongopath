@@ -1,0 +1,143 @@
+{
+  "id": "n4-grammar-36",
+  "slug": "sou-da-hearsay",
+  "level": "n4",
+  "order": 36,
+  "title": "〜そうだ (hearsay) \"I hear that / they say\"",
+  "romaji": "sou da (denbun)",
+  "meaning": "Reporting information obtained from someone else or another source.",
+  "simpleExplanation": "This そうだ means \"I hear that\" or \"they say\". It reports information you got from someone or something else, without adding your own judgement: 明日は雪が降るそうです = I hear it will snow tomorrow. It attaches to the plain form of the whole sentence: 降るそうだ, おいしいそうだ, 元気だそうだ, 学生だそうだ. The source is often given with 〜によると (according to). This そうだ never changes: no past, no negative, no そうな before a noun; the tense goes on the verb before it.",
+  "whenUsed": "Passing on news, weather forecasts, rumours and things you read (ニュースによると, 田中さんの話では). Common in conversation and in writing at every politeness level (そうです / そうだ).",
+  "formation": [
+    "V-plain + そうだ: 降るそうだ, 降ったそうだ, 降らないそうだ",
+    "い-adjective + そうだ: おいしいそうだ, 高かったそうだ",
+    "な-adjective + だそうだ: 元気だそうだ",
+    "Noun + だそうだ: 学生だそうだ",
+    "Source: 〜によると / 〜の話では … そうだ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Hearsay そうだ vs appearance そうだ vs らしい",
+    "columns": [
+      "Attaches to",
+      "Source of information",
+      "Example",
+      "Nuance"
+    ],
+    "rows": [
+      {
+        "label": "Hearsay そうだ",
+        "cells": [
+          "plain form (降る, おいしい, 元気だ, 学生だ)",
+          "what I was told / read",
+          "田中さんは結婚するそうだ",
+          "just passing on the news"
+        ]
+      },
+      {
+        "label": "Appearance そうだ",
+        "cells": [
+          "stem (降り, おいし, 元気)",
+          "what I see",
+          "田中さんはうれしそうだ",
+          "my visual impression"
+        ]
+      },
+      {
+        "label": "らしい",
+        "cells": [
+          "plain form; noun / な-adj without だ",
+          "outside information plus my guess",
+          "田中さんは結婚するらしい",
+          "less sure, more distanced"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "天気予報によると、明日は雪が降るそうです。",
+      "reading": "てんきよほうによると、あしたは ゆきが ふるそうです。",
+      "en": "According to the forecast, it will snow tomorrow.",
+      "note": "によると gives the source; 降る (plain) + そうです reports the forecast."
+    },
+    {
+      "ja": "田中さんは来月結婚するそうだ。",
+      "reading": "たなかさんは らいげつ けっこんするそうだ。",
+      "en": "I hear Tanaka is getting married next month.",
+      "note": "Plain verb 結婚する + そうだ: passing on news about Tanaka."
+    },
+    {
+      "ja": "あの店のラーメンはとてもおいしいそうです。",
+      "reading": "あの みせの ラーメンは とても おいしいそうです。",
+      "en": "I hear that shop's ramen is very good.",
+      "note": "い-adjective おいしい + そうです: hearsay, not 'looks delicious'."
+    },
+    {
+      "ja": "ニュースによると、昨日大阪で大きな地震があったそうです。",
+      "reading": "ニュースによると、きのう おおさかで おおきな じしんが あったそうです。",
+      "en": "According to the news, there was a big earthquake in Osaka yesterday.",
+      "note": "The past tense goes on あった; そうです itself stays present."
+    },
+    {
+      "ja": "山田さんの話では、新しい部長はとても厳しい人だそうだ。",
+      "reading": "やまださんの はなしでは、あたらしい ぶちょうは とても きびしい ひとだそうだ。",
+      "en": "According to Yamada, the new manager is a very strict person.",
+      "note": "Noun + だそうだ; the speaker only reports what Yamada said."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "Attaches to the stem and means \"looks like\". Hearsay そうだ attaches to the plain form.",
+      "id": "n4-grammar-35"
+    },
+    {
+      "pattern": "〜らしい",
+      "difference": "らしい also reports outside information but adds the speaker's guess and sounds less certain.",
+      "id": "n4-grammar-38"
+    },
+    {
+      "pattern": "〜と言っていました",
+      "difference": "Quotes a specific person's words (田中さんは行くと言っていた). そうだ reports the content without quoting.",
+      "id": "n4-grammar-55"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "田中さんは元気そうだ。(meaning 'I hear Tanaka is well')",
+      "right": "田中さんは元気だそうだ。",
+      "why": "Hearsay needs だ after a な-adjective or noun; without だ it becomes the appearance meaning."
+    },
+    {
+      "wrong": "昨日、雨が降るそうだった。",
+      "right": "昨日、雨が降ったそうだ。",
+      "why": "Hearsay そうだ has no past form. Put the past tense on the verb before it."
+    },
+    {
+      "wrong": "おいしいそうなラーメン",
+      "right": "おいしそうなラーメン / おいしいというラーメン",
+      "why": "Hearsay そうだ cannot modify a noun. Only appearance そうな can."
+    }
+  ],
+  "usageNotes": [
+    "Hearsay そうだ is neutral: it does not say whether you believe the information.",
+    "Common sources: 天気予報によると, 新聞によると, 友達の話では, 先生が言うには.",
+    "In polite speech use そうです; in writing and casual speech そうだ. There is no そうでした or そうじゃない for hearsay."
+  ],
+  "jlptTips": [
+    "によると or 〜の話では at the start of the sentence is a strong signal for hearsay そうだ with the plain form.",
+    "For な-adjectives and nouns, the presence of だ before そうだ is the deciding point: 元気だそうだ (hearsay) vs 元気そうだ (appearance)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-36-1",
+    "q-n4-g-36-2",
+    "q-n4-g-36-3",
+    "q-n4-g-36-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-36-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

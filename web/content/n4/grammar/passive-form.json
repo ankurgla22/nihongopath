@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-4",
+  "slug": "passive-form",
+  "level": "n4",
+  "order": 4,
+  "title": "Passive form (〜られる / 〜れる)",
+  "romaji": "ukemi-kei (rareru / reru)",
+  "meaning": "\"be done (by someone)\". Also the \"suffering passive\" (迷惑の受身) where the subject is adversely affected.",
+  "simpleExplanation": "The passive says something was done TO the subject: ほめる (praise) → ほめられる (be praised). The person who does the action is marked with に. Japanese also has a \"suffering passive\": 雨に降られた (\"I got rained on\") shows the speaker was affected, usually badly. If someone steps on your foot, you say 足を踏まれた, keeping を on the foot and making yourself the subject.",
+  "whenUsed": "Three main jobs: (1) plain passive, when the receiver matters more than the doer (この本は多くの人に読まれている); (2) suffering passive, to complain about what someone did to you (財布を盗まれた, 友達に来られて勉強できなかった); (3) neutral facts about creations and discoveries with によって (この寺は8世紀に建てられた). Also used as a light honorific (lesson 71).",
+  "formation": [
+    "Group 1: ない-stem + れる: 書く→書かれる, 読む→読まれる, 踏む→踏まれる, 言う→言われる",
+    "Group 2: ない-stem + られる: 食べる→食べられる, ほめる→ほめられる",
+    "Group 3: する→される, 来る→来られる (こられる)",
+    "Doer + に (先生にほめられた); for authors/builders: によって",
+    "Conjugates as Group 2: 言われます / 言われない / 言われた"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "ない-stem + れる",
+        "result": "書かれる",
+        "label": "Group 1: be written"
+      },
+      {
+        "suffix": "ない-stem + られる",
+        "result": "食べられる",
+        "label": "Group 2: be eaten (same shape as potential)"
+      },
+      {
+        "suffix": "する → される",
+        "result": "される",
+        "label": "Group 3: be done"
+      },
+      {
+        "suffix": "来る → 来られる",
+        "result": "来られる",
+        "label": "Group 3: (someone) comes on you (suffering passive)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は先生にほめられました。",
+      "reading": "わたしは せんせいに ほめられました。",
+      "en": "I was praised by the teacher.",
+      "note": "Plain passive: doer 先生 takes に."
+    },
+    {
+      "ja": "この本は多くの人に読まれています。",
+      "reading": "この ほんは おおくの ひとに よまれています。",
+      "en": "This book is read by many people.",
+      "note": "Passive for general statements about a thing; the doer is a vague group."
+    },
+    {
+      "ja": "電車で足を踏まれた。",
+      "reading": "でんしゃで あしを ふまれた。",
+      "en": "I got my foot stepped on in the train.",
+      "note": "Suffering passive: the foot keeps を, the speaker is the affected subject."
+    },
+    {
+      "ja": "電車の中で財布を盗まれてしまった。",
+      "reading": "でんしゃのなかで さいふを ぬすまれてしまった。",
+      "en": "I had my wallet stolen on the train.",
+      "note": "Suffering passive with を: the speaker is the victim, the wallet is the object."
+    },
+    {
+      "ja": "この橋は百年前に作られました。",
+      "reading": "このはしは ひゃくねんまえに つくられました。",
+      "en": "This bridge was built a hundred years ago.",
+      "note": "Neutral passive for things that were made; if you name the builder, use によって."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Potential form",
+      "difference": "Group 2 potential and passive look the same (食べられる). Potential sentences have が on the object and no doer; passive sentences have a doer with に.",
+      "id": "n4-grammar-1"
+    },
+    {
+      "pattern": "〜(ら)れる as honorific",
+      "difference": "The same form used about a respected person (先生が来られた = the teacher came). No に-doer and the subject is someone you respect.",
+      "id": "n4-grammar-71"
+    },
+    {
+      "pattern": "Causative-passive 〜させられる",
+      "difference": "\"Was made to do\": the subject was forced to act. Plain passive: the subject had something done to them.",
+      "id": "n4-grammar-6"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は友達がケーキを食べられた。",
+      "right": "私は友達にケーキを食べられた。",
+      "why": "In the passive the doer takes に, not が. \"My friend ate my cake (and I was upset).\""
+    },
+    {
+      "wrong": "私の足は電車で踏まれた。",
+      "right": "私は電車で足を踏まれた。",
+      "why": "Japanese prefers to make the affected person the subject and keep を on the body part or possession."
+    },
+    {
+      "wrong": "この小説は夏目漱石に書かれた。",
+      "right": "この小説は夏目漱石によって書かれた。",
+      "why": "For creators of works (write, build, paint, discover), use によって instead of に."
+    }
+  ],
+  "usageNotes": [
+    "The suffering passive can use intransitive verbs, which English cannot: 雨に降られる, 友達に来られる, 父に死なれる. The nuance is \"and it was a problem for me\".",
+    "Japanese uses the passive less than English for neutral facts. In daily conversation, prefer the active with a clear doer when there is no emotional nuance.",
+    "Feelings and commonly used passives: 言われる (be told), 呼ばれる (be called), 誘われる (be invited), 叱られる (be scolded), 頼まれる (be asked)."
+  ],
+  "jlptTips": [
+    "Passive questions almost always contain a に-marked doer or a victim + を. If you see 〜に…を and a verb blank, think suffering passive (〜に財布を取られた).",
+    "Options typically include the causative (〜せる) and potential of the same verb. Confirm the subject is receiving the action before choosing 〜れる / 〜られる."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-4-1",
+    "q-n4-g-4-2",
+    "q-n4-g-4-3",
+    "q-n4-g-4-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-4-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

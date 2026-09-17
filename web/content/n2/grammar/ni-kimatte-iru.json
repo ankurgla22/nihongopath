@@ -1,0 +1,135 @@
+{
+  "id": "n2-grammar-107",
+  "slug": "ni-kimatte-iru",
+  "level": "n2",
+  "order": 107,
+  "title": "〜に決まっている",
+  "romaji": "ni kimatte iru",
+  "meaning": "must be, is bound to be, surely (speaker's conviction)",
+  "simpleExplanation": "〜に決まっている expresses the speaker's strong, almost emotional certainty: \"It's obviously X\" / \"It's bound to be X\". The evidence is common sense or the speaker's gut, not careful reasoning. It often appears in casual retorts (嘘に決まってるよ) and in confident predictions.",
+  "whenUsed": "Mainly spoken, casual to neutral. Typical settings: dismissing a doubtful story, reassuring someone, predicting a result. It can sound blunt or opinionated, so in formal writing に違いない or 〜はずだ is preferred.",
+  "formation": [
+    "Verb (plain form) + に決まっている",
+    "い-adjective + に決まっている",
+    "な-adjective (without な / だ) + に決まっている (無理に決まっている)",
+    "Noun (without だ) + に決まっている (嘘に決まっている)",
+    "Casual: 〜に決まってる / 〜に決まってるよ"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Certainty markers from soft to hard",
+    "items": [
+      {
+        "label": "〜だろう / 〜でしょう",
+        "description": "probably: a guess"
+      },
+      {
+        "label": "〜はずだ",
+        "description": "should be: expectation from known facts"
+      },
+      {
+        "label": "〜に違いない",
+        "description": "must be: conclusion from evidence, fairly formal"
+      },
+      {
+        "label": "〜に決まっている",
+        "description": "obviously is: strong personal conviction, often emotional"
+      },
+      {
+        "label": "〜に相違ない",
+        "description": "must be: stiff written certainty"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そんな話は嘘に決まっている。",
+      "reading": "そんなはなしはうそにきまっている。",
+      "en": "A story like that is surely a lie.",
+      "note": "Dismissing a story as an obvious lie; nouns attach directly (嘘に)."
+    },
+    {
+      "ja": "毎日練習すれば、上手になるに決まっている。",
+      "reading": "まいにちれんしゅうすれば、じょうずになるにきまっている。",
+      "en": "If you practice every day, you are bound to get better.",
+      "note": "A confident, encouraging prediction: bound to improve."
+    },
+    {
+      "ja": "あんなに高い店、おいしいに決まっているよ。",
+      "reading": "あんなにたかいみせ、おいしいにきまっているよ。",
+      "en": "A restaurant that expensive is bound to be delicious.",
+      "note": "Casual よ ending; the speaker's common-sense reasoning: expensive = delicious."
+    },
+    {
+      "ja": "そんな遠くまで歩いて行くなんて、無理に決まっている。",
+      "reading": "そんなとおくまであるいていくなんて、むりにきまっている。",
+      "en": "Walking all that way? Obviously impossible.",
+      "note": "な-adjective 無理 attaches without な."
+    },
+    {
+      "ja": "こんな時間に電話をしたら、迷惑に決まっているでしょう。",
+      "reading": "こんなじかんにでんわをしたら、めいわくにきまっているでしょう。",
+      "en": "If you call at this hour, it will obviously be a nuisance.",
+      "note": "Used to scold or warn; でしょう softens the tone slightly."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に違いない",
+      "difference": "Also \"must be\", but based on evidence and reasoning; more formal and less emotional.",
+      "id": "n2-grammar-122"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "Logical expectation from known facts; can be wrong without embarrassment. に決まっている leaves no room for doubt."
+    },
+    {
+      "pattern": "〜に相違ない",
+      "difference": "Written, stiff equivalent of に違いない; never casual.",
+      "id": "n2-grammar-119"
+    },
+    {
+      "pattern": "〜わけがない",
+      "difference": "Strong denial (\"no way\"); に決まっている is strong affirmation.",
+      "id": "n2-grammar-162"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が犯人だに決まっている。",
+      "right": "彼が犯人に決まっている。",
+      "why": "Nouns attach directly, without だ."
+    },
+    {
+      "wrong": "この問題は簡単なに決まっている。",
+      "right": "この問題は簡単に決まっている。",
+      "why": "な-adjectives drop な before に決まっている."
+    },
+    {
+      "wrong": "報告書：来年度の売上は増加するに決まっている。",
+      "right": "報告書：来年度の売上は増加すると考えられる / 増加するに違いない。",
+      "why": "に決まっている sounds subjective and blunt; in a report use a reasoned expression."
+    }
+  ],
+  "usageNotes": [
+    "Very common in casual speech as 〜に決まってる(よ／じゃん).",
+    "It can express what is expected as normal: 子供は遊ぶものに決まっている is rare; use ものだ for norms.",
+    "Adding でしょう / だろう softens the bluntness when speaking to superiors."
+  ],
+  "jlptTips": [
+    "If the sentence has an emotional or dismissive tone (そんな話, なんて, 嘘), に決まっている beats に違いない.",
+    "Check the connection: nouns and な-adjectives attach bare (嘘に, 無理に). Options with だ or な before に決まっている are wrong.",
+    "In 文法形式の判断, に決まっている usually competes with はずがない and に違いない; pick by tone (emotional vs. reasoned)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-107-1",
+    "q-n2-g-107-2",
+    "q-n2-g-107-3",
+    "q-n2-g-107-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-107-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

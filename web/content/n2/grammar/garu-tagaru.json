@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-186",
+  "slug": "garu-tagaru",
+  "level": "n2",
+  "order": 186,
+  "title": "〜がる / 〜がっている / 〜たがる",
+  "romaji": "garu / gatte iru / tagaru",
+  "meaning": "to show signs of (a feeling); to want to (third person)",
+  "simpleExplanation": "〜がる turns an adjective of feeling into a verb meaning \"to show signs of / to act as if\": 怖がる (act scared), 嫌がる (show dislike), 欲しがる (want). Because we cannot see inside other people, Japanese uses がる for third-person feelings. 〜たがる (want to) works the same way for desires: 行きたがる. The object takes を instead of が.",
+  "whenUsed": "Both speech and writing. がっている describes a current state (怖がっている); がる alone describes habit or tendency. Using 〜たい / 〜ほしい directly for third persons sounds odd in statements of fact.",
+  "formation": [
+    "い-adjective stem + がる (怖い → 怖がる / 寂しい → 寂しがる)",
+    "な-adjective stem + がる (嫌 → 嫌がる / 不思議 → 不思議がる)",
+    "Verb (ます-stem) + たがる (行く → 行きたがる)",
+    "ほしい → 欲しがる; object takes を (ゲームを欲しがる)",
+    "Ongoing: 〜がっている / 〜たがっている"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "怖い",
+    "branches": [
+      {
+        "suffix": "がる",
+        "result": "怖がる",
+        "label": "show fear (habit / tendency)"
+      },
+      {
+        "suffix": "がっている",
+        "result": "怖がっている",
+        "label": "is showing fear (now)"
+      },
+      {
+        "suffix": "がって",
+        "result": "怖がって泣いた",
+        "label": "showed fear and cried"
+      }
+    ],
+    "rootLabel": "Feeling adjective"
+  },
+  "examples": [
+    {
+      "ja": "子供は犬を怖がって泣き出した。",
+      "reading": "こどもはいぬをこわがってなきだした。",
+      "en": "The child was scared of the dog and started crying.",
+      "note": "A child showing fear; がって links to the result."
+    },
+    {
+      "ja": "弟は新しいゲームをほしがっている。",
+      "reading": "おとうとはあたらしいゲームをほしがっている。",
+      "en": "My younger brother wants the new game.",
+      "note": "欲しがっている: a third person's desire; the object takes を."
+    },
+    {
+      "ja": "彼女は一人で行きたがっているが、危ない。",
+      "reading": "かのじょはひとりでいきたがっているが、あぶない。",
+      "en": "She wants to go alone, but it is dangerous.",
+      "note": "たがっている: wanting to do; the speaker observes it."
+    },
+    {
+      "ja": "彼女は一人で出かけるのを嫌がる。",
+      "reading": "かのじょはひとりででかけるのをいやがる。",
+      "en": "She dislikes going out alone.",
+      "note": "な-adjective 嫌 → 嫌がる; the object takes を."
+    },
+    {
+      "ja": "息子はいつも新しいおもちゃを欲しがって、困る。",
+      "reading": "むすこはいつもあたらしいおもちゃをほしがって、こまる。",
+      "en": "My son is always wanting new toys, which is a problem.",
+      "note": "欲しがる as a habit."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たい / 〜ほしい",
+      "difference": "First-person (or question) desires; for third-person statements, use たがる / 欲しがる."
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "\"Looks like\" (寂しそうだ): describes appearance without asserting a tendency."
+    },
+    {
+      "pattern": "〜ようだ",
+      "difference": "\"Seems\": inference, not a verb of showing feeling."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "弟は新しいゲームがほしい。(as a statement of fact)",
+      "right": "弟は新しいゲームを欲しがっている。",
+      "why": "Third-person desire is expressed with 欲しがる."
+    },
+    {
+      "wrong": "犬が怖がる。(meaning 'I am afraid of dogs')",
+      "right": "犬が怖い。",
+      "why": "For yourself, use the adjective directly."
+    },
+    {
+      "wrong": "行きたがるつもりだ。",
+      "right": "行きたいと思っている。",
+      "why": "がる is for observed behavior, not one's own intention."
+    }
+  ],
+  "usageNotes": [
+    "The object of a がる verb takes を: 犬を怖がる, 水を欲しがる.",
+    "がる can imply the behavior is visible or even a bit annoying (面白がる, 強がる).",
+    "In questions to the listener, たい is fine: 行きたいですか."
+  ],
+  "jlptTips": [
+    "If the subject is a third person and the sentence states their feeling as fact, choose がる / たがる.",
+    "Check the particle: を after the object of a がる verb.",
+    "Distractors include そうだ and たい; ask whether the sentence describes observed behavior (がる)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-186-1",
+    "q-n2-g-186-2",
+    "q-n2-g-186-3",
+    "q-n2-g-186-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-186-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

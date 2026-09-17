@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-43",
+  "slug": "noni-contrast",
+  "level": "n4",
+  "order": 43,
+  "title": "〜のに (contrast) \"although / even though / despite\"",
+  "romaji": "noni (gyakusetsu)",
+  "meaning": "Contrary to expectation; the speaker feels surprise, regret, or dissatisfaction.",
+  "simpleExplanation": "〜のに means \"even though / although\" and carries a feeling: surprise, regret or complaint. 一生懸命勉強したのに、試験に落ちた = I studied hard, yet I failed. The first part is a real fact, and the second part is what actually happened, against your expectation. Nouns and な-adjectives take なのに (日曜日なのに). At the end of a sentence, のに alone shows regret: 言ってくれればよかったのに (you should have told me).",
+  "whenUsed": "Everyday complaints and disappointments in speech and writing. Because the second clause must be a fact, you cannot follow のに with a request, command, invitation or your own plan; for those use が or けど. Compared with けど, のに is stronger and more emotional.",
+  "formation": [
+    "V-plain + のに: 勉強したのに, 飲んだのに",
+    "い-adjective + のに: 寒いのに",
+    "な-adjective + なのに: 便利なのに",
+    "Noun + なのに: 日曜日なのに",
+    "Main clause: a fact (not a request, command or invitation)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "のに (purpose) vs のに (contrast) vs ても",
+    "columns": [
+      "First clause",
+      "Second clause",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "のに (purpose)",
+        "cells": [
+          "what you do (dict. form)",
+          "使う / 便利 / かかる",
+          "紙を切るのに使う"
+        ]
+      },
+      {
+        "label": "のに (contrast)",
+        "cells": [
+          "a real fact",
+          "surprising or disappointing fact",
+          "薬を飲んだのに、熱が下がらない"
+        ]
+      },
+      {
+        "label": "ても",
+        "cells": [
+          "even if (hypothetical / general)",
+          "any result, including will and requests",
+          "薬を飲んでも、熱は下がらないだろう"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "一生懸命勉強したのに、試験に落ちた。",
+      "reading": "いっしょうけんめい べんきょうしたのに、しけんに おちた。",
+      "en": "Even though I studied hard, I failed the exam.",
+      "note": "Real effort, disappointing result: regret."
+    },
+    {
+      "ja": "今日は日曜日なのに、会社に行かなければならない。",
+      "reading": "きょうは にちようびなのに、かいしゃに いかなければ ならない。",
+      "en": "Even though it's Sunday, I have to go to work.",
+      "note": "Noun + なのに: a complaint about working on Sunday."
+    },
+    {
+      "ja": "薬を飲んだのに、熱が下がらない。",
+      "reading": "くすりを のんだのに、ねつが さがらない。",
+      "en": "I took medicine, but the fever won't go down.",
+      "note": "The expected effect did not happen."
+    },
+    {
+      "ja": "もう十二月なのに、あまり寒くない。",
+      "reading": "もう じゅうにがつなのに、あまり さむくない。",
+      "en": "Even though it's already December, it isn't very cold.",
+      "note": "Noun + なのに, with surprise."
+    },
+    {
+      "ja": "せっかく料理を作ったのに、誰も食べなかった。",
+      "reading": "せっかく りょうりを つくったのに、だれも たべなかった。",
+      "en": "I went to the trouble of cooking, but nobody ate it.",
+      "note": "せっかく〜のに is a common pairing for wasted effort."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ても",
+      "difference": "ても is \"even if\", hypothetical or general, and allows any second clause. のに is \"even though\", about a real fact, with emotion.",
+      "id": "n4-grammar-44"
+    },
+    {
+      "pattern": "〜のに (purpose)",
+      "difference": "Same letters, but followed by 使う / 便利 / かかる. The contrast のに is followed by an unexpected result.",
+      "id": "n4-grammar-42"
+    },
+    {
+      "pattern": "〜が / 〜けど",
+      "difference": "Neutral \"but\". Use them when the second clause is a request, invitation or plan (寒いけど、出かけましょう)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今日は日曜日のに、仕事がある。",
+      "right": "今日は日曜日なのに、仕事がある。",
+      "why": "Nouns and な-adjectives need な before のに."
+    },
+    {
+      "wrong": "寒いのに、窓を開けてください。",
+      "right": "寒いけど、窓を開けてください。",
+      "why": "The clause after のに cannot be a request. Use けど or が."
+    },
+    {
+      "wrong": "明日雨が降るのに、試合をします。(hypothetical)",
+      "right": "明日雨が降っても、試合をします。",
+      "why": "A future possibility is \"even if\", which is ても. のに is for something that has really happened or is really so."
+    }
+  ],
+  "usageNotes": [
+    "のに always carries feeling; for a plain contrast without emotion, use が or けど.",
+    "Sentence-final のに: 行けばよかったのに (you should have gone), もっと早く言ってくれればいいのに (I wish you'd told me sooner).",
+    "〜のに is common with words of effort or expectation: せっかく, 一生懸命, たくさん, もう."
+  ],
+  "jlptTips": [
+    "If the first clause is a completed fact (past tense, もう, せっかく) and the second is a disappointment, choose のに. If the first clause is a possibility (もし, いくら, どんなに), choose ても.",
+    "Check the ending of the sentence: 〜てください / 〜ましょう / 〜たい after the blank rules out のに."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-43-1",
+    "q-n4-g-43-2",
+    "q-n4-g-43-3",
+    "q-n4-g-43-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-43-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

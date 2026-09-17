@@ -19,7 +19,6 @@
     "kind": "comparison",
     "title": "について vs に関して vs に対して",
     "columns": [
-      "Pattern",
       "Meaning",
       "Register",
       "Example"
@@ -111,7 +110,7 @@
       "why": "Investigating a topic uses について. に対して marks the target of an attitude or action such as 反対する or 答える."
     },
     {
-      "wrong": "環境についての法律 → 環境に関して法律",
+      "wrong": "環境に関して法律",
       "right": "環境に関する法律",
       "why": "Before a noun, use に関する (or についての). に関して cannot directly modify a noun."
     },

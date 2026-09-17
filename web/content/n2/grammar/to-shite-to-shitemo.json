@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-91",
+  "slug": "to-shite-to-shitemo",
+  "level": "n2",
+  "order": 91,
+  "title": "〜として(は) / 〜としても",
+  "romaji": "to shite (wa) / to shitemo",
+  "meaning": "as, in the capacity of; even as / even if",
+  "simpleExplanation": "〜として means \"as, in the capacity of\": he came to Japan as an exchange student; as his mother, I can't approve. 〜としては adds \"speaking as / for one's part\". 〜としても is different: \"even if / even supposing\": even if I go, it'll be a day trip.",
+  "whenUsed": "Both registers. として follows nouns (role, status, standpoint). としても follows plain clauses (行くとしても) or nouns (学生としても) and introduces a concession. Do not mix them up: として = role, としても = even if.",
+  "formation": [
+    "N + として(は); 普通形 / N + としても"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "として vs としても",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "N + として",
+        "cells": [
+          "as, in the role of",
+          "留学生として来日した"
+        ]
+      },
+      {
+        "label": "N + としては",
+        "cells": [
+          "speaking as / for its part",
+          "母としては賛成できない"
+        ]
+      },
+      {
+        "label": "clause + としても",
+        "cells": [
+          "even if / even supposing",
+          "行くとしても日帰りだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は留学生として日本に来た。",
+      "reading": "かれはりゅうがくせいとしてにほんにきた。",
+      "en": "He came to Japan as an exchange student.",
+      "note": "Role: 留学生として."
+    },
+    {
+      "ja": "母としては、息子の結婚に賛成できない。",
+      "reading": "ははとしては、むすこのけっこんにさんせいできない。",
+      "en": "As his mother, I can't approve of my son's marriage.",
+      "note": "Standpoint: 母としては."
+    },
+    {
+      "ja": "行くとしても、日帰りになるだろう。",
+      "reading": "いくとしても、ひがえりになるだろう。",
+      "en": "Even if I go, it will probably be a day trip.",
+      "note": "Concession: 行くとしても."
+    },
+    {
+      "ja": "この会社は、環境に配慮する企業として知られている。",
+      "reading": "このかいしゃは、かんきょうにはいりょするきぎょうとしてしられている。",
+      "en": "This company is known as an environmentally conscious business.",
+      "note": "として + 知られている."
+    },
+    {
+      "ja": "たとえ冗談だったとしても、あの発言は許せない。",
+      "reading": "たとえじょうだんだったとしても、あのはつげんはゆるせない。",
+      "en": "Even if it was a joke, that remark is unforgivable.",
+      "note": "たとえ〜としても."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For (someone)\": the effect on a person, not their role.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜としたら",
+      "difference": "Hypothesis without concession.",
+      "id": "n2-grammar-90"
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "Also \"even if\"; slightly more colloquial and can express \"even from X's side\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "留学生としても日本に来た。（intending \"as a student\"）",
+      "right": "留学生として日本に来た。",
+      "why": "としても means \"even if\"; the role is として."
+    },
+    {
+      "wrong": "行くとして、日帰りになるだろう。（intending \"even if I go\"）",
+      "right": "行くとしても、日帰りになるだろう。",
+      "why": "The concession needs も."
+    },
+    {
+      "wrong": "私にとしては",
+      "right": "私としては",
+      "why": "No に before として."
+    }
+  ],
+  "usageNotes": [
+    "として + 有名だ / 知られている / 働く / 参加する are frequent.",
+    "としては also means \"for a (category)\", similar to にしては in some contexts (日本人としては背が高い).",
+    "としても combines with たとえ, 仮に, 万一."
+  ],
+  "jlptTips": [
+    "A noun of role or status + blank meaning \"as\" → として; a clause + blank meaning \"even if\" → としても.",
+    "Distractors: にとって, としたら, にしては. If the sentence describes an effect on a person (難しい・大切だ), にとって is likely instead of として.",
+    "たとえ at the start points to としても."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-91-1",
+    "q-n2-g-91-2",
+    "q-n2-g-91-3",
+    "q-n2-g-91-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-91-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

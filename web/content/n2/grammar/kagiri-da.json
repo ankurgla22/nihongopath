@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-19",
+  "slug": "kagiri-da",
+  "level": "n2",
+  "order": 19,
+  "title": "〜限りだ",
+  "romaji": "kagiri da",
+  "meaning": "extremely (emotion); I feel utterly ...",
+  "simpleExplanation": "〜限りだ means \"I feel utterly…, extremely…\" and expresses the speaker's own emotion at its maximum: 嬉しい限りだ (absolutely delighted), 羨ましい限りだ (so envious), 心細い限りだ (terribly anxious).",
+  "whenUsed": "Somewhat formal and 書き言葉寄り, but also used in polite speeches and thank-you remarks (嬉しい限りです). Only emotion adjectives can precede it, and the subject is the speaker; it is not used to describe other people's feelings or objective degrees.",
+  "formation": [
+    "Aい + 限りだ / Aな + な + 限りだ"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "嬉しい / 残念",
+    "rootLabel": "emotion adjective",
+    "branches": [
+      {
+        "suffix": "い + 限りだ",
+        "result": "嬉しい限りだ",
+        "label": "い-adjective"
+      },
+      {
+        "suffix": "な + 限りだ",
+        "result": "残念な限りだ",
+        "label": "な-adjective"
+      },
+      {
+        "suffix": "限りです",
+        "result": "嬉しい限りです",
+        "label": "polite speech"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "皆さんにお会いできて、嬉しい限りです。",
+      "reading": "みなさんにおあいできて、うれしいかぎりです。",
+      "en": "I am absolutely delighted to meet you all.",
+      "note": "Polite 限りです in a greeting."
+    },
+    {
+      "ja": "友達が一人もいなくて、寂しい限りだ。",
+      "reading": "ともだちがひとりもいなくて、さびしいかぎりだ。",
+      "en": "With not a single friend, I feel terribly lonely.",
+      "note": "寂しい: a negative emotion at its peak."
+    },
+    {
+      "ja": "そんな失敗をするとは、恥ずかしい限りだ。",
+      "reading": "そんなしっぱいをするとは、はずかしいかぎりだ。",
+      "en": "To make such a mistake is utterly embarrassing.",
+      "note": "恥ずかしい限りだ: strong embarrassment."
+    },
+    {
+      "ja": "こんなに立派な賞をいただき、光栄の限りです。",
+      "reading": "こんなにりっぱなしょうをいただき、こうえいのかぎりです。",
+      "en": "To receive such a distinguished award is the greatest honor.",
+      "note": "A few nouns take の: 光栄の限り, 贅沢の限り."
+    },
+    {
+      "ja": "毎日海外旅行なんて、羨ましい限りだ。",
+      "reading": "まいにちかいがいりょこうなんて、うらやましいかぎりだ。",
+      "en": "Traveling abroad every day? I'm so envious.",
+      "note": "羨ましい is one of the most common partners."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てたまらない",
+      "difference": "Also strong emotion, but takes て-forms and covers physical sensations (暑くてたまらない); 限りだ is more formal and limited to emotion adjectives.",
+      "id": "n2-grammar-79"
+    },
+    {
+      "pattern": "〜限り",
+      "difference": "Different pattern: \"as long as\".",
+      "id": "n2-grammar-15"
+    },
+    {
+      "pattern": "〜ことか",
+      "difference": "Also exclamatory but needs an interrogative (どんなに嬉しいことか).",
+      "id": "n2-grammar-42"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この山は高い限りだ。",
+      "right": "この山はとても高い。",
+      "why": "限りだ only works with emotion adjectives, not objective qualities."
+    },
+    {
+      "wrong": "彼は嬉しい限りだ。",
+      "right": "彼はとても嬉しそうだ。",
+      "why": "限りだ expresses the speaker's own feeling; use そうだ for others."
+    },
+    {
+      "wrong": "残念限りだ。",
+      "right": "残念な限りだ。",
+      "why": "な-adjectives need な before 限り."
+    }
+  ],
+  "usageNotes": [
+    "Typical adjectives: 嬉しい, 羨ましい, 寂しい, 心細い, 恥ずかしい, 悔しい, 残念な, 幸せな.",
+    "Verbs are not allowed; use 〜てたまらない for verbs.",
+    "The polite 〜限りです is a fixed part of ceremonial speech."
+  ],
+  "jlptTips": [
+    "An emotion adjective before the blank, first-person speaker, formal tone → 限りだ.",
+    "Distractors: 限り, 限りでは, かぎりに. If the sentence is a condition or an information source, it is not 限りだ.",
+    "Watch for な-adjective options without な; the correct answer includes な."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-19-1",
+    "q-n2-g-19-2",
+    "q-n2-g-19-3",
+    "q-n2-g-19-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-19-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,142 @@
+{
+  "id": "n4-grammar-109",
+  "slug": "nado-nanka-nante",
+  "level": "n4",
+  "order": 109,
+  "title": "〜など / 〜なんか / 〜なんて \"and so on / things like / such as\"",
+  "romaji": "nado / nanka / nante",
+  "meaning": "など = non-exhaustive example (neutral/written); なんか = casual, often belittling; なんて = casual, dismissive or surprised.",
+  "simpleExplanation": "など means \"and so on / such as\" and gives examples without listing everything: 買い物や掃除などをする = I do shopping, cleaning and so on. It is neutral and fine in writing. なんか and なんて are its casual cousins, but they carry feeling. なんか often belittles: 私なんか (someone like me…), 野菜なんか嫌いだ (I hate stuff like vegetables). なんて expresses surprise or disbelief: 彼が嘘をつくなんて信じられない = I can't believe he would lie. なんて can follow a whole clause; など and なんか normally follow nouns.",
+  "whenUsed": "など: formal lists, writing, announcements. なんか: casual speech, modest talk about yourself, dismissing things. なんて: casual speech, reacting with surprise, contempt or admiration (こんなにおいしいなんて！). All three are common in daily conversation, but only など is safe in formal situations.",
+  "formation": [
+    "N + など (often A や B など): 東京や大阪など",
+    "N + なんか: 私なんか, お金なんか",
+    "N + なんて / V-plain + なんて / clause + なんて: 泣くなんて, 彼が来ないなんて",
+    "など can take particles: などを, などが; なんか / なんて usually replace を / が"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "など / なんか / なんて",
+    "columns": [
+      "Register",
+      "Feeling",
+      "Attaches to",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "など",
+        "cells": [
+          "neutral / written",
+          "none: 'such as'",
+          "nouns",
+          "野菜や果物などを買う"
+        ]
+      },
+      {
+        "label": "なんか",
+        "cells": [
+          "casual",
+          "belittling, modest",
+          "nouns",
+          "私なんか、まだ下手だ"
+        ]
+      },
+      {
+        "label": "なんて",
+        "cells": [
+          "casual",
+          "surprise, disbelief, contempt",
+          "nouns and clauses",
+          "彼が休むなんて珍しい"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "休みの日は買い物や掃除などをします。",
+      "reading": "やすみの ひは かいものや そうじなどを します。",
+      "en": "On days off I do shopping, cleaning and so on.",
+      "note": "A や B など: a neutral, polite list of examples."
+    },
+    {
+      "ja": "私なんか、まだまだ下手です。",
+      "reading": "わたしなんか、まだまだ へたです。",
+      "en": "Someone like me is still poor at it.",
+      "note": "私なんか: modest self-belittling."
+    },
+    {
+      "ja": "彼が嘘をつくなんて信じられない。",
+      "reading": "かれが うそを つくなんて しんじられない。",
+      "en": "I can't believe he would lie.",
+      "note": "Clause + なんて: disbelief."
+    },
+    {
+      "ja": "週末は映画を見たり、友達と食事をしたりなどして過ごします。",
+      "reading": "しゅうまつは えいがを みたり、ともだちと しょくじを したり など して すごします。",
+      "en": "At weekends I spend my time doing things like watching films and eating out with friends.",
+      "note": "など gives non-exhaustive examples in a neutral tone."
+    },
+    {
+      "ja": "あの人が先生だなんて、全然知らなかった。",
+      "reading": "あの ひとが せんせいだなんて、ぜんぜん しらなかった。",
+      "en": "I had no idea that person was a teacher.",
+      "note": "Clause + なんて for surprise; だ stays before なんて after a noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とか",
+      "difference": "とか is the spoken way to list examples (映画とか音楽とか). など is the written / neutral equivalent.",
+      "id": "n4-grammar-64"
+    },
+    {
+      "pattern": "〜でも",
+      "difference": "お茶でも飲みませんか offers a light example (\"tea or something\"). なんか can do this too in casual speech, but でも is politer.",
+      "id": "n4-grammar-63"
+    },
+    {
+      "pattern": "〜って",
+      "difference": "って quotes or brings up a topic casually (田中さんって誰？). なんて can also mean \"something like…\" when quoting (行かないなんて言わないで).",
+      "id": "n4-grammar-86"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（報告書で）会議は東京なんかで行われます。",
+      "right": "会議は東京などで行われます。",
+      "why": "なんか is casual and slightly dismissive; use など in formal writing."
+    },
+    {
+      "wrong": "私などは、まだ下手です。(in casual speech to a friend)",
+      "right": "私なんか、まだ下手だよ。",
+      "why": "Not wrong, but など about oneself sounds stiff in casual talk; なんか is the natural modest form."
+    },
+    {
+      "wrong": "彼が来ないなど、信じられない。",
+      "right": "彼が来ないなんて、信じられない。",
+      "why": "After a clause expressing surprise, use なんて; など does not carry the emotion."
+    }
+  ],
+  "usageNotes": [
+    "なんて with an い-adjective or a verb can also express admiration: こんなに親切なんて！ (how kind!).",
+    "など in negative sentences stresses total rejection: お金など要らない (I don't want anything like money).",
+    "In polite speech, など + は (などは) can soften: これなどはいかがですか (how about something like this?)."
+  ],
+  "jlptTips": [
+    "A や B ＿ with a blank after the second noun and a neutral tone → など. A blank after a clause followed by 信じられない / 驚いた / 珍しい → なんて.",
+    "Distractors swap など and なんて after clauses. Remember: なんて follows clauses; など follows nouns."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-109-1",
+    "q-n4-g-109-2",
+    "q-n4-g-109-3",
+    "q-n4-g-109-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-109-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

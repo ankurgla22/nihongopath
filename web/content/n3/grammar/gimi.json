@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-58",
+  "slug": "gimi",
+  "level": "n3",
+  "order": 58,
+  "title": "〜気味 / 〜ぎみ",
+  "romaji": "gimi",
+  "meaning": "A touch of… / slightly…",
+  "simpleExplanation": "〜気味 describes a slight, current condition, usually one you don't want: 風邪気味 = a touch of a cold, 太り気味 = putting on a bit of weight. It works like a noun/な-adjective (気味だ, 気味の, 気味で).",
+  "whenUsed": "Talking about health, mood, and progress. Common: 疲れ気味, 緊張気味, 遅れ気味, 不足気味, 上がり気味.",
+  "formation": [
+    "Verb (ます stem) + 気味",
+    "Noun + 気味",
+    "Followed by だ / の + Noun / で"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "気味 vs がち",
+    "columns": [
+      "Time",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "風邪気味",
+        "cells": [
+          "right now, slight",
+          "今日は風邪気味だ"
+        ]
+      },
+      {
+        "label": "風邪をひきがち",
+        "cells": [
+          "often, a tendency",
+          "冬は風邪をひきがちだ"
+        ]
+      },
+      {
+        "label": "太り気味",
+        "cells": [
+          "currently a bit heavy",
+          "最近太り気味だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "風邪気味なので、今日は早く帰ります。",
+      "reading": "かぜぎみなので、きょうははやくかえります。",
+      "en": "I have a slight cold, so I'll go home early today.",
+      "note": "N + 気味: a slight cold today."
+    },
+    {
+      "ja": "最近、少し太り気味だ。",
+      "reading": "さいきん、すこしふとりぎみだ。",
+      "en": "I've been putting on a bit of weight recently.",
+      "note": "V-ます + 気味: a bit heavier lately."
+    },
+    {
+      "ja": "仕事が遅れ気味で、焦っている。",
+      "reading": "しごとがおくれぎみで、あせっている。",
+      "en": "Work is running a bit behind and I'm getting anxious.",
+      "note": "遅れ気味で: running slightly behind."
+    },
+    {
+      "ja": "面接の前で、彼は少し緊張気味だった。",
+      "reading": "めんせつのまえで、かれはすこしきんちょうぎみだった。",
+      "en": "Before the interview, he was a little nervous.",
+      "note": "緊張気味: slightly tense at that moment."
+    },
+    {
+      "ja": "最近、睡眠不足気味で、集中できない。",
+      "reading": "さいきん、すいみんぶそくぎみで、しゅうちゅうできない。",
+      "en": "I've been a bit short on sleep lately and can't concentrate.",
+      "note": "気味で connects to a result."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がち",
+      "difference": "A repeated tendency. 気味 is a present slight state.",
+      "id": "n3-grammar-57"
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "Appearance or quality; 気味 is a condition.",
+      "id": "n3-grammar-56"
+    },
+    {
+      "pattern": "少し〜 / ちょっと〜",
+      "difference": "Plain \"a little\"; 気味 makes it a compact description."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は遅刻気味だ。(intended: often late)",
+      "right": "彼は遅刻しがちだ。",
+      "why": "A habit uses がち; 気味 would mean \"slightly late right now\"."
+    },
+    {
+      "wrong": "疲れる気味",
+      "right": "疲れ気味",
+      "why": "Verbs attach with the ます stem."
+    },
+    {
+      "wrong": "今日は元気気味だ。",
+      "right": "今日は少し元気だ。",
+      "why": "気味 is for undesirable or neutral-negative states, not positive ones."
+    }
+  ],
+  "usageNotes": [
+    "気味 describes the present slight condition; がち describes a repeated tendency. Common: 疲れ気味, 緊張気味, 不足気味.",
+    "気味 is polite-sounding because it understates: 風邪気味で is a common reason for leaving early."
+  ],
+  "jlptTips": [
+    "Present slight condition + 最近 / 今日は / ちょっと = 気味.",
+    "General tendency + よく / いつも / 〜すると = がち. This pair is tested together.",
+    "Words like 疲れ, 風邪, 太り, 遅れ, 緊張 before the blank strongly suggest 気味."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-58-1",
+    "q-n3-g-58-2",
+    "q-n3-g-58-3",
+    "q-n3-g-58-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-58-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

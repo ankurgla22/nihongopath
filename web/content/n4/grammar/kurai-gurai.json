@@ -1,0 +1,121 @@
+{
+  "id": "n4-grammar-50",
+  "slug": "kurai-gurai",
+  "level": "n4",
+  "order": 50,
+  "title": "〜くらい / 〜ぐらい \"about / to the extent that\"",
+  "romaji": "kurai / gurai",
+  "meaning": "(1) Approximate quantity (\"about\"); (2) degree (\"so … that\", \"as much as\"); (3) minimising (\"at least / something as small as\").",
+  "simpleExplanation": "くらい (or ぐらい, same meaning) has three jobs. (1) With a number it means \"about\": 十分くらい = about ten minutes. (2) After a verb or adjective it shows a degree, \"so much that\": 泣きたいくらい疲れた = I'm so tired I could cry. (3) After a noun it can minimise, \"at least / something as small as\": 自分の部屋くらい自分で掃除しなさい = at least clean your own room. どのくらい asks \"how much / how long\".",
+  "whenUsed": "Estimates of time, money and quantity in everyday speech (三時間くらい), vivid descriptions of degree, and mild scolding or modesty with the \"at least\" sense. For a point in time use ごろ (三時ごろ), for a length or amount use くらい.",
+  "formation": [
+    "Number / quantity + くらい: 十分くらい, 五人くらい",
+    "V-plain + くらい: 泣きたいくらい, 歩けないくらい",
+    "い-adjective + くらい: 痛いくらい",
+    "な-adjective + なくらい: 不思議なくらい",
+    "Noun + くらい (minimising): 挨拶くらい",
+    "この / その / どの + くらい: どのくらい = how much / long"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "駅まで十分くらいかかる",
+        "en": "about: approximate amount (number + くらい)"
+      },
+      {
+        "ja": "泣きたいくらい疲れた",
+        "en": "degree: so tired that I could cry (clause + くらい)"
+      },
+      {
+        "ja": "挨拶くらいしなさい",
+        "en": "at least: the smallest thing you could do (noun + くらい)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "駅まで十分くらいかかります。",
+      "reading": "えきまで じゅっぷんくらい かかります。",
+      "en": "It takes about ten minutes to the station.",
+      "note": "About ten minutes: approximate quantity."
+    },
+    {
+      "ja": "泣きたいくらい疲れた。",
+      "reading": "なきたいくらい つかれた。",
+      "en": "I'm so tired I could cry.",
+      "note": "Degree: tiredness at the level of wanting to cry."
+    },
+    {
+      "ja": "自分の部屋くらい自分で掃除しなさい。",
+      "reading": "じぶんの へやくらい じぶんで そうじしなさい。",
+      "en": "At least clean your own room yourself.",
+      "note": "Minimising: your own room is the least you can do."
+    },
+    {
+      "ja": "この教室には学生が三十人ぐらいいます。",
+      "reading": "このきょうしつには がくせいが さんじゅうにんぐらい います。",
+      "en": "There are about thirty students in this classroom.",
+      "note": "ぐらい after a number: about."
+    },
+    {
+      "ja": "A：駅までどのくらいかかりますか。 B：歩いて十五分くらいです。",
+      "reading": "A：えきまで どのくらい かかりますか。 B：あるいて じゅうごふんくらいです。",
+      "en": "A: How long does it take to the station? B: About fifteen minutes on foot.",
+      "note": "どのくらい asks the amount; the answer uses 〜くらいです."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ごろ",
+      "difference": "ごろ = around (a point in time): 三時ごろ. くらい = about (an amount or length): 三時間くらい."
+    },
+    {
+      "pattern": "〜ほど〜ない",
+      "difference": "ほど is used in the fixed negative comparison; くらい is not. For positive degree they are similar (泣きたいくらい / 泣きたいほど).",
+      "id": "n4-grammar-49"
+    },
+    {
+      "pattern": "〜すぎる",
+      "difference": "すぎる says \"too much\". くらい describes the level with an example (歩けないくらい痛い).",
+      "id": "n4-grammar-30"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三時くらいに会いましょう。(as a time point)",
+      "right": "三時ごろに会いましょう。",
+      "why": "ごろ is the natural choice for clock times; くらい is heard, but the exam prefers ごろ for a point in time."
+    },
+    {
+      "wrong": "三時間ごろかかります。",
+      "right": "三時間くらいかかります。",
+      "why": "A length of time takes くらい, never ごろ."
+    },
+    {
+      "wrong": "不思議くらい静かだ。",
+      "right": "不思議なくらい静かだ。",
+      "why": "な-adjectives need な before くらい."
+    }
+  ],
+  "usageNotes": [
+    "くらい and ぐらい are interchangeable; after この / その / どの, くらい is more common.",
+    "The \"at least\" use sounds critical or modest: 名前くらい覚えてよ (at least remember my name).",
+    "〜くらい〜はない works like ほど for a superlative: これくらいおいしいケーキはない."
+  ],
+  "jlptTips": [
+    "Number + blank + かかる / いる / ある → くらい. Clock time + blank → ごろ. This ごろ / くらい contrast is a standard item.",
+    "A blank after a whole clause describing extreme degree (泣きたい, 動けない) also takes くらい; distractors like だけ or しか will not fit."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-50-1",
+    "q-n4-g-50-2",
+    "q-n4-g-50-3",
+    "q-n4-g-50-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-50-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

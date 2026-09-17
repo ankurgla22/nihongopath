@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-70",
+  "slug": "tsuide-ni",
+  "level": "n2",
+  "order": 70,
+  "title": "〜ついでに",
+  "romaji": "tsuide ni",
+  "meaning": "while (doing X), also (do Y) on the side",
+  "simpleExplanation": "〜ついでに means \"while (doing X), also (do Y) on the side\". X is the main errand and Y is a convenient extra done because you are already there or already doing it: while shopping, I dropped by the post office.",
+  "whenUsed": "Both registers, everyday. It follows Vる/Vた (行くついでに・行ったついでに) or N + の (買い物のついでに). The main action must be something already planned; the secondary one is lighter. Sentence-initial ついでに (\"while you're at it\") is common in requests.",
+  "formation": [
+    "Vる/Vた + ついでに / N + の + ついでに"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "買い物の",
+        "role": "main errand (Nの / Vる / Vた)"
+      },
+      {
+        "text": "ついでに",
+        "role": "while at it…",
+        "highlight": true
+      },
+      {
+        "text": "郵便局に寄った",
+        "role": "secondary, convenient action"
+      }
+    ],
+    "translation": "While shopping, I also dropped by the post office."
+  },
+  "examples": [
+    {
+      "ja": "買い物のついでに、郵便局に寄った。",
+      "reading": "かいもののついでに、ゆうびんきょくによった。",
+      "en": "While shopping, I also dropped by the post office.",
+      "note": "N + の + ついでに."
+    },
+    {
+      "ja": "東京へ行くついでに、友達に会ってきた。",
+      "reading": "とうきょうへいくついでに、ともだちにあってきた。",
+      "en": "While in Tokyo, I also met a friend.",
+      "note": "Vる + ついでに."
+    },
+    {
+      "ja": "洗濯したついでに、カーテンも洗った。",
+      "reading": "せんたくしたついでに、カーテンもあらった。",
+      "en": "While doing laundry, I washed the curtains too.",
+      "note": "Vた + ついでに."
+    },
+    {
+      "ja": "ついでに、この手紙も出してきてくれない？",
+      "reading": "ついでに、このてがみもだしてきてくれない？",
+      "en": "While you're at it, could you mail this letter too?",
+      "note": "Sentence-initial request."
+    },
+    {
+      "ja": "実家に帰ったついでに、昔の友達に会ってきた。",
+      "reading": "じっかにかえったついでに、むかしのともだちにあってきた。",
+      "en": "While I was back at my parents' place, I also met some old friends.",
+      "note": "Vた + ついでに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がてら",
+      "difference": "\"While doing X (as a kind of Y too)\": 散歩がてら買い物に行く; N1-ish and more literary."
+    },
+    {
+      "pattern": "〜ながら",
+      "difference": "Two actions at the same moment (音楽を聞きながら勉強する); ついでに is sequential convenience."
+    },
+    {
+      "pattern": "〜際に",
+      "difference": "Formal \"when\"; no sense of an extra errand.",
+      "id": "n2-grammar-49"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "買い物ついでに",
+      "right": "買い物のついでに",
+      "why": "Nouns need の (買い物ついでに is heard in speech but not standard)."
+    },
+    {
+      "wrong": "手術のついでに、歯も治した。",
+      "right": "入院したついでに、歯も治してもらった。",
+      "why": "The main action should be something one is doing anyway; pairing serious events oddly sounds flippant."
+    },
+    {
+      "wrong": "ついでに音楽を聞きながら勉強した。",
+      "right": "音楽を聞きながら勉強した。",
+      "why": "Simultaneous actions take ながら."
+    }
+  ],
+  "usageNotes": [
+    "Main and side actions are usually errands or trips.",
+    "Casual requests: ついでに〜てきて.",
+    "The order of clauses reflects priority: main first, side second."
+  ],
+  "jlptTips": [
+    "A main errand + blank + an extra errand (も) → ついでに.",
+    "Distractors: ながら, 際に, たびに. Simultaneity → ながら; every occurrence → たびに.",
+    "Nの + ついでに and Vた + ついでに are both correct; only the missing の is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-70-1",
+    "q-n2-g-70-2",
+    "q-n2-g-70-3",
+    "q-n2-g-70-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-70-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

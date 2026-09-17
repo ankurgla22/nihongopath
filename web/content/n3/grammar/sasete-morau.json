@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-93",
+  "slug": "sasete-morau",
+  "level": "n3",
+  "order": 93,
+  "title": "〜させてもらう / 〜させていただく",
+  "romaji": "sasete morau / sasete itadaku",
+  "meaning": "be allowed to… / (humbly) do… with your permission",
+  "simpleExplanation": "〜させてもらう means \"I'll do it, with your permission\". 〜させていただく is the humble version and is everywhere in business Japanese: 自己紹介をさせていただきます \"allow me to introduce myself\". Even when no real permission is needed, it makes the speaker sound modest and considerate.",
+  "whenUsed": "Business speech, announcements, emails (休業させていただきます), and polite conversation. Casual equivalent: 〜させてもらう. Asking form: 〜させてもらってもいいですか / 〜させていただけませんか.",
+  "formation": [
+    "Verb causative て-form + もらう (casual-polite)",
+    "Verb causative て-form + いただく (humble)",
+    "Asking: 〜させてもらえますか / 〜させていただけませんか",
+    "Announcing: 〜させていただきます"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "自己紹介をする",
+        "en": "introduce myself (plain)"
+      },
+      {
+        "ja": "自己紹介をさせてもらう",
+        "en": "introduce myself with your permission (casual-polite)"
+      },
+      {
+        "ja": "自己紹介をさせていただきます",
+        "en": "allow me to introduce myself (humble, business)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日、休ませてもらいます。",
+      "reading": "あした、やすませてもらいます。",
+      "en": "I'll take the day off tomorrow (with your permission).",
+      "note": "Taking leave with permission."
+    },
+    {
+      "ja": "自己紹介をさせていただきます。",
+      "reading": "じこしょうかいをさせていただきます。",
+      "en": "Allow me to introduce myself.",
+      "note": "Standard opening of a business self-introduction."
+    },
+    {
+      "ja": "先に帰らせてもらってもいいですか。",
+      "reading": "さきにかえらせてもらってもいいですか。",
+      "en": "May I leave first?",
+      "note": "The asking form with 〜てもいいですか."
+    },
+    {
+      "ja": "誠に勝手ながら、明日は休業させていただきます。",
+      "reading": "まことにかってながら、あすはきゅうぎょうさせていただきます。",
+      "en": "We regret to inform you that we will be closed tomorrow.",
+      "note": "Typical shop notice; no real permission is involved."
+    },
+    {
+      "ja": "この問題については、後ほど説明させていただきます。",
+      "reading": "このもんだいについては、のちほどせつめいさせていただきます。",
+      "en": "Allow me to explain this issue later.",
+      "note": "する verb → させていただきます."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜させてください",
+      "difference": "The request form. させていただきます announces what the speaker will do.",
+      "id": "n3-grammar-92"
+    },
+    {
+      "pattern": "お〜します / ご〜します",
+      "difference": "Ordinary humble form (ご説明します). させていただきます adds the flavour of 'with your permission'."
+    },
+    {
+      "pattern": "〜てもらう / 〜ていただく",
+      "difference": "Without the causative, the other person does the action for you (説明していただく = you explain to me)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "説明していただきます。(meaning 'I will explain')",
+      "right": "説明させていただきます。",
+      "why": "Without させ, the listener becomes the one who explains."
+    },
+    {
+      "wrong": "休まさせていただきます。",
+      "right": "休ませていただきます。",
+      "why": "休む is Group 1: 休ませて. Adding an extra さ (さ入れ言葉) is a common error."
+    },
+    {
+      "wrong": "友達との会話で「食べさせていただくね」",
+      "right": "食べさせてもらうね。",
+      "why": "いただく is humble; among friends use もらう."
+    }
+  ],
+  "usageNotes": [
+    "Overuse of させていただきます is criticised in Japanese style guides, but for JLPT it is a standard humble form.",
+    "Formal writing: させていただきたく存じます.",
+    "For Group 1 verbs avoid the extra さ: 読ませて, 帰らせて, 行かせて."
+  ],
+  "jlptTips": [
+    "Ask who acts: if the speaker acts → させていただく; if the listener acts → ていただく.",
+    "Watch for さ入れ distractors like 帰らさせて; the correct Group 1 form has one さ less.",
+    "Business dialogues in 聴解 open with 〜させていただきます; the content that follows is what matters."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-93-1",
+    "q-n3-g-93-2",
+    "q-n3-g-93-3",
+    "q-n3-g-93-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-93-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

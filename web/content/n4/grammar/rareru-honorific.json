@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-71",
+  "slug": "rareru-honorific",
+  "level": "n4",
+  "order": 71,
+  "title": "〜(ら)れる (respectful passive form)",
+  "romaji": "(ra)reru (sonkei)",
+  "meaning": "Passive-form verbs used as a light honorific — common in business and news.",
+  "simpleExplanation": "The passive form can also be used as a light honorific: 部長が来られました = \"the manager came\" (respectfully). The form is identical to the passive (来られる, 書かれる, される), so the meaning has to come from context: there is no に-marked doer, and the subject is someone you respect. It is the easiest respectful form to make, and it is very common in offices, news and public speeches, but it is less polite than お〜になる or the special verbs.",
+  "whenUsed": "Business conversation and emails about colleagues, clients and bosses (もう帰られました, 何時に来られますか), news reports and speeches about public figures, and any time you want a quick respectful form without sounding too stiff. Never used for your own actions.",
+  "formation": [
+    "Group 1: ない-stem + れる: 書く → 書かれる, 帰る → 帰られる, 話す → 話される",
+    "Group 2: ない-stem + られる: 食べる → 食べられる, 見る → 見られる",
+    "Group 3: する → される, 来る → 来られる (こられる)",
+    "Same shape as the passive; no doer with に and a respected subject",
+    "Do not stack with other honorifics: ×お帰りになられる"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Respect level of forms for 帰る",
+    "items": [
+      {
+        "label": "帰ります",
+        "description": "polite (です・ます) only; no respect for the subject"
+      },
+      {
+        "label": "帰られます",
+        "description": "light honorific; quick and common in business"
+      },
+      {
+        "label": "お帰りになります",
+        "description": "clearly respectful; customer service and formal speech"
+      },
+      {
+        "label": "いらっしゃいます (for 行く/来る/いる)",
+        "description": "special verb; the most respectful"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "部長は何時に来られますか。",
+      "reading": "ぶちょうは なんじに こられますか。",
+      "en": "What time will the manager come?",
+      "note": "来られる as honorific: the manager is respected and there is no に-doer."
+    },
+    {
+      "ja": "先生はこの論文を書かれました。",
+      "reading": "せんせいは この ろんぶんを かかれました。",
+      "en": "The professor wrote this paper.",
+      "note": "書かれる about the professor's paper: respectful, not passive (no by-phrase)."
+    },
+    {
+      "ja": "田中さんはもう帰られました。",
+      "reading": "たなかさんは もう かえられました。",
+      "en": "Mr Tanaka has already gone home.",
+      "note": "帰られる: honorific about Mr Tanaka's leaving."
+    },
+    {
+      "ja": "社長は毎朝、駅まで歩かれるそうです。",
+      "reading": "しゃちょうは まいあさ、えきまで あるかれるそうです。",
+      "en": "I hear the president walks to the station every morning.",
+      "note": "歩く → 歩かれる; an intransitive verb, so it can only be honorific here."
+    },
+    {
+      "ja": "田中先生は来月、新しい本を出されます。",
+      "reading": "たなかせんせいは らいげつ、あたらしい ほんを だされます。",
+      "en": "Professor Tanaka is publishing a new book next month.",
+      "note": "出す → 出される. The subject's own action, told with light respect."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Passive form",
+      "difference": "Identical form. Passive sentences have a doer with に or a victim nuance; honorific sentences have a respected subject doing the action themselves.",
+      "id": "n4-grammar-4"
+    },
+    {
+      "pattern": "お〜になる",
+      "difference": "More respectful and never ambiguous. Prefer it for customers and in formal service; (ら)れる is fine among colleagues.",
+      "id": "n4-grammar-70"
+    },
+    {
+      "pattern": "Potential form",
+      "difference": "For Group 2 verbs the potential also looks the same (来られる). Context decides: ability (can come) vs respect (comes).",
+      "id": "n4-grammar-1"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は九時に来られます。(meaning \"I will come at nine\")",
+      "right": "私は九時に参ります。",
+      "why": "The honorific (ら)れる cannot be used about yourself; use humble 参る."
+    },
+    {
+      "wrong": "先生がお話しになられました。",
+      "right": "先生がお話しになりました。/ 先生が話されました。",
+      "why": "Combining お〜になる with られる is 二重敬語 (double honorific)."
+    },
+    {
+      "wrong": "お客様は何時に来れますか。",
+      "right": "お客様は何時に来られますか。",
+      "why": "来れる is the ら抜き potential. The honorific needs the full 来られる."
+    }
+  ],
+  "usageNotes": [
+    "Because the form is ambiguous, speakers sometimes avoid it with Group 2 verbs (食べられる can be passive, potential or honorific) and choose 召し上がる instead.",
+    "〜ておられる / 〜ておられます is a common business honorific for 〜ている, mixing おる with られる.",
+    "Typical office phrases: 部長は席を外されています (is away from his desk), 出張に行かれます (goes on a business trip)."
+  ],
+  "jlptTips": [
+    "If the subject is a superior and there is no に-marked doer, (ら)れる is honorific. If a に-doer or a victim feeling is present, it is the passive.",
+    "In 文法形式, when the options are 来られます / お来になります / 参られます, only 来られます is correct: お来になる does not exist and 参られる mixes humble and respectful."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-71-1",
+    "q-n4-g-71-2",
+    "q-n4-g-71-3",
+    "q-n4-g-71-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-71-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

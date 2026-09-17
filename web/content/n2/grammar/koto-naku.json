@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-45",
+  "slug": "koto-naku",
+  "level": "n2",
+  "order": 45,
+  "title": "〜ことなく",
+  "romaji": "koto naku",
+  "meaning": "without doing ... (once)",
+  "simpleExplanation": "〜ことなく means \"without doing…\" and is the formal, written equivalent of 〜ないで / 〜ずに: he kept running without resting even once; she left without looking back.",
+  "whenUsed": "書き言葉 and formal speech; in daily conversation use ないで. It attaches to the dictionary form. It suits actions with some weight (諦める・休む・振り返る・変わる) and is odd with trivial daily actions (歯を磨くことなく寝た sounds strange).",
+  "formation": [
+    "Vる + ことなく"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"Without doing\" by register",
+    "items": [
+      {
+        "label": "〜ないで",
+        "description": "Everyday speech: 休まないで走った."
+      },
+      {
+        "label": "〜ずに",
+        "description": "Slightly formal, both registers: 休まずに走った."
+      },
+      {
+        "label": "〜ことなく",
+        "description": "Formal written: 休むことなく走り続けた."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は一度も休むことなく、走り続けた。",
+      "reading": "かれはいちどもやすむことなく、はしりつづけた。",
+      "en": "He kept running without resting even once.",
+      "note": "一度も + Vる + ことなく."
+    },
+    {
+      "ja": "諦めることなく努力を続けた結果、夢が叶った。",
+      "reading": "あきらめることなくどりょくをつづけたけっか、ゆめがかなった。",
+      "en": "As a result of persisting without giving up, my dream came true.",
+      "note": "Vる + ことなく + 続けた."
+    },
+    {
+      "ja": "彼女は振り返ることなく去っていった。",
+      "reading": "かのじょはふりかえることなくさっていった。",
+      "en": "She left without looking back.",
+      "note": "A literary description of leaving."
+    },
+    {
+      "ja": "この伝統は、形を変えることなく今日まで受け継がれてきた。",
+      "reading": "このでんとうは、かたちをかえることなくこんにちまでうけつがれてきた。",
+      "en": "This tradition has been handed down to this day without changing its form.",
+      "note": "Formal written narrative."
+    },
+    {
+      "ja": "彼は誰にも相談することなく、会社を辞めた。",
+      "reading": "かれはだれにもそうだんすることなく、かいしゃをやめた。",
+      "en": "He quit the company without consulting anyone.",
+      "note": "する-verb + ことなく."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずに",
+      "difference": "Same meaning, usable in speech; する → せずに.",
+      "id": "n2-grammar-160"
+    },
+    {
+      "pattern": "〜ないで",
+      "difference": "Everyday equivalent."
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "\"No need to\"; different meaning despite the shared こと.",
+      "id": "n2-grammar-48"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "休まないことなく走った。",
+      "right": "休むことなく走った。",
+      "why": "Attach to the dictionary form, not the negative."
+    },
+    {
+      "wrong": "朝ご飯を食べることなく学校へ行った。（casual chat）",
+      "right": "朝ご飯を食べないで学校へ行った。",
+      "why": "Too formal for a trivial everyday action in speech."
+    },
+    {
+      "wrong": "諦めることなくて、続けた。",
+      "right": "諦めることなく、続けた。",
+      "why": "ことなく is fixed; do not add て."
+    }
+  ],
+  "usageNotes": [
+    "Frequent verbs: 休む, 諦める, 振り返る, 変わる, 忘れる, 相談する.",
+    "Often preceded by 一度も or 誰にも for emphasis.",
+    "In speeches: 皆様のご期待を裏切ることなく〜."
+  ],
+  "jlptTips": [
+    "Formal text, Vる before the blank, and a main verb of continuing action → ことなく.",
+    "Distractors: ことはない, ことなしに (also \"without\", N1), ことに. The negative form before the blank rules out ことなく.",
+    "If an option is ずに attached to Vない stem, both ずに and ことなく can be right in meaning; the verb form decides."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-45-1",
+    "q-n2-g-45-2",
+    "q-n2-g-45-3",
+    "q-n2-g-45-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-45-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

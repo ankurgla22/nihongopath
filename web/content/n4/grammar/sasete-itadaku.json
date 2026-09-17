@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-73",
+  "slug": "sasete-itadaku",
+  "level": "n4",
+  "order": 73,
+  "title": "〜させていただく \"allow me to (humbly) do\"",
+  "romaji": "sasete itadaku",
+  "meaning": "Very humble way of saying the speaker will do something, framed as receiving permission.",
+  "simpleExplanation": "〜させていただく is a very humble way to say you will do something. Literally it is \"I will receive (いただく) your letting me (させて) do it\", so the speaker acts as if with the listener's permission. 休ませていただきます = \"I will (with your permission) take the day off\". The question form 〜させていただけませんか asks for that permission politely. It is built from the causative て-form + いただく, the humble form of もらう.",
+  "whenUsed": "Formal announcements (発表させていただきます), business emails, asking a boss or client for permission (早退させていただけませんか), and polite self-introductions (自己紹介をさせていただきます). It is very common in modern business Japanese, sometimes to excess; with friends it sounds absurdly stiff.",
+  "formation": [
+    "V-causative て-form + いただく: 休む → 休ませて + いただく",
+    "Group 1: ない-stem + せていただく (帰らせていただく); Group 2: させていただく (やめさせていただく); する → させていただく",
+    "Statement: 〜させていただきます (I will, with your permission)",
+    "Request: 〜させていただけませんか / 〜させていただけますか / 〜させていただいてもよろしいですか",
+    "Casual equivalent: 〜させてもらう / 〜させてもらえる？"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "休む",
+        "en": "rest (plain)"
+      },
+      {
+        "ja": "休ませる",
+        "en": "causative: let/make someone rest"
+      },
+      {
+        "ja": "休ませてもらう",
+        "en": "receive being allowed to rest = get permission to rest"
+      },
+      {
+        "ja": "休ませていただく",
+        "en": "humble もらう → いただく: very polite \"be allowed to rest\""
+      },
+      {
+        "ja": "休ませていただけませんか",
+        "en": "potential negative question: \"could I be allowed to rest?\""
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日は休ませていただきます。",
+      "reading": "あしたは やすませて いただきます。",
+      "en": "I will (with your permission) take tomorrow off.",
+      "note": "Statement of what the speaker will do, framed as permission: 休む → 休ませて + いただきます."
+    },
+    {
+      "ja": "自己紹介をさせていただきます。",
+      "reading": "じこしょうかいを させて いただきます。",
+      "en": "Allow me to introduce myself.",
+      "note": "する → させていただく; the standard way to open a self-introduction."
+    },
+    {
+      "ja": "先に帰らせていただけませんか。",
+      "reading": "さきに かえらせて いただけませんか。",
+      "en": "Could I be allowed to leave early?",
+      "note": "The request form: いただけませんか asks permission politely."
+    },
+    {
+      "ja": "この件については、明日改めてご説明させていただきます。",
+      "reading": "このけんに ついては、あした あらためて ごせつめいさせて いただきます。",
+      "en": "Allow me to explain this matter again tomorrow.",
+      "note": "ご説明する + させていただく: a very formal business announcement."
+    },
+    {
+      "ja": "すみません、少し考えさせていただけませんか。",
+      "reading": "すみません、すこし かんがえさせて いただけませんか。",
+      "en": "Excuse me, could you let me think about it a little?",
+      "note": "Group 2: 考える → 考えさせて. The request form is a polite way to delay an answer."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜させてください",
+      "difference": "Also asks to be allowed to do something, but as a direct request. させていただけませんか is softer and more formal.",
+      "id": "n4-grammar-102"
+    },
+    {
+      "pattern": "お〜する",
+      "difference": "Humble too, but simply describes your service (お持ちします). させていただく adds the feeling that the listener allowed it.",
+      "id": "n4-grammar-72"
+    },
+    {
+      "pattern": "〜てもらう / 〜ていただく",
+      "difference": "Without the causative, ていただく means someone did something for you (教えていただいた). With させて, you are the one doing it.",
+      "id": "n4-grammar-34"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "休まさせていただきます。",
+      "right": "休ませていただきます。",
+      "why": "Group 1 verbs take せる, not させる. 休まさせる is the さ入れ error."
+    },
+    {
+      "wrong": "資料を読んでいただきます。(meaning \"I will read the materials\")",
+      "right": "資料を読ませていただきます。",
+      "why": "読んでいただく means the listener reads for you. To say you will read, the causative 読ませて is required."
+    },
+    {
+      "wrong": "友達に「明日休ませていただきます」と言った。",
+      "right": "友達に「明日休ませてもらうね」と言った。",
+      "why": "Among friends the humble いただく is far too stiff; use もらう."
+    }
+  ],
+  "usageNotes": [
+    "Overuse (〜させていただいております everywhere) is criticised even by native speakers, but in announcements and formal emails it is the expected register.",
+    "Common set uses: 発表させていただきます, 担当させていただきます (I will be in charge), 確認させていただきます, 失礼させていただきます (I'll take my leave).",
+    "For the strongest politeness in a request: 〜させていただけないでしょうか."
+  ],
+  "jlptTips": [
+    "Look for the causative before いただく. Options often contrast 読ませていただく (I read) with 読んでいただく (you read for me); decide who does the action.",
+    "さ入れ forms (×行かさせていただきます, ×読まさせて) are frequent distractors. Group 1 verbs take せて."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-73-1",
+    "q-n4-g-73-2",
+    "q-n4-g-73-3",
+    "q-n4-g-73-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-73-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

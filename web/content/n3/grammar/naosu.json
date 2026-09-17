@@ -1,0 +1,116 @@
+{
+  "id": "n3-grammar-87",
+  "slug": "naosu",
+  "level": "n3",
+  "order": 87,
+  "title": "〜直す / 〜なおす",
+  "romaji": "naosu",
+  "meaning": "re-do… / do… again to fix or improve it",
+  "simpleExplanation": "Verb stem + 直す means \"do it again, this time properly\": 書き直す \"rewrite\", やり直す \"redo\", 考え直す \"rethink\", かけ直す \"call back\". The key idea is fixing or improving, not simply repeating.",
+  "whenUsed": "Daily conversation, work and school (レポートを書き直す, 電話をかけ直す), and reflection (人生をやり直す). Extremely common; also used politely on the phone: 後でかけ直します.",
+  "formation": [
+    "Verb ます-stem + 直す (Group 1 verb: 直した, 直して, 直します)",
+    "Common: 書き直す, やり直す, 考え直す, 見直す, かけ直す, 作り直す, 出直す, 読み直す"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "レポートを書く",
+        "en": "write the report (first attempt)"
+      },
+      {
+        "ja": "間違いが多い",
+        "en": "there are many mistakes (a problem is found)"
+      },
+      {
+        "ja": "レポートを書き直す",
+        "en": "rewrite the report to fix it (直す = do over, better)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "間違いが多いので、もう一度書き直した。",
+      "reading": "まちがいがおおいので、もういちどかきなおした。",
+      "en": "There were many mistakes, so I rewrote it.",
+      "note": "Rewriting to fix mistakes."
+    },
+    {
+      "ja": "電話が切れたので、かけ直します。",
+      "reading": "でんわがきれたので、かけなおします。",
+      "en": "The call was cut off, so I'll call back.",
+      "note": "かけ直す = call back after a cut-off; a set phone phrase."
+    },
+    {
+      "ja": "計画を最初から考え直そう。",
+      "reading": "けいかくをさいしょからかんがえなおそう。",
+      "en": "Let's rethink the plan from the beginning.",
+      "note": "考え直す = rethink from scratch."
+    },
+    {
+      "ja": "計算が合わないので、もう一度見直してみます。",
+      "reading": "けいさんがあわないので、もういちどみなおしてみます。",
+      "en": "The figures don't add up, so I'll go over them again.",
+      "note": "見直す = check again to correct."
+    },
+    {
+      "ja": "失敗しても、何度でもやり直せばいい。",
+      "reading": "しっぱいしても、なんどでもやりなおせばいい。",
+      "en": "Even if you fail, you can just start over as many times as you need.",
+      "note": "やり直す = start over; potential form やり直せる."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "もう一度〜する",
+      "difference": "Just 'do it once more', no implication of fixing. 直す implies improvement."
+    },
+    {
+      "pattern": "〜返す",
+      "difference": "Repeating in the opposite direction or many times (読み返す = read again, 繰り返す = repeat). Not about correcting."
+    },
+    {
+      "pattern": "直す (independent verb)",
+      "difference": "'Repair, fix' something concrete: 時計を直す. The compound adds the idea to another action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "書く直す",
+      "right": "書き直す",
+      "why": "直す attaches to the ます-stem."
+    },
+    {
+      "wrong": "同じ映画をもう一度見直した。(meaning 'watched again for fun')",
+      "right": "同じ映画をもう一度見た。",
+      "why": "見直す means 'review / re-examine' (or 'see in a new light'); for casual re-watching just use もう一度見る."
+    },
+    {
+      "wrong": "電話をかけ直します。(said when calling back is not yet needed)",
+      "right": "後ほどかけ直します。",
+      "why": "Not a grammar error, but note かけ直す presupposes an earlier failed or interrupted call."
+    }
+  ],
+  "usageNotes": [
+    "見直す has a second meaning: 'reassess someone favourably' (彼を見直した = I think better of him now).",
+    "出直す means 'come back another time' (出直してきます).",
+    "The noun form 〜直し appears in やり直し 'a do-over'."
+  ],
+  "jlptTips": [
+    "If the sentence mentions a mistake, a cut-off or a change of plan, choose 直す.",
+    "Compare with 込む, 切る, 抜く, かける in the same question set: 直す is the only one meaning 'again'.",
+    "見直す may be tested with its 'reassess' meaning in reading passages."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-87-1",
+    "q-n3-g-87-2",
+    "q-n3-g-87-3",
+    "q-n3-g-87-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-87-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

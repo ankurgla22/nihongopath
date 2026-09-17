@@ -1,0 +1,135 @@
+{
+  "id": "n5-grammar-20",
+  "slug": "verb-groups",
+  "level": "n5",
+  "order": 20,
+  "title": "Verb groups (Group 1 / Group 2 / Group 3)",
+  "romaji": "verb groups",
+  "meaning": "Every Japanese verb belongs to one of three groups; the group decides how it conjugates.",
+  "simpleExplanation": "Japanese verbs come in three groups, and the group tells you how to change the verb (for ます, て, ない and so on). Group 1 (u-verbs) end in an う-sound like く, す, む, う (書く, 話す, 読む, 買う). Group 2 (ru-verbs) end in -いる or -える (見る, 食べる). Group 3 has only two irregular verbs: する (do) and 来る (come). The tricky part: some verbs ending in -いる/-える are actually Group 1 (帰る, 入る, 知る, 走る). Those you simply memorise.",
+  "whenUsed": "Every time you conjugate a verb. Before you can make 食べます, 食べて or 食べない, you must know that 食べる is Group 2. Get this sorting right and every later lesson becomes easier.",
+  "formation": [
+    "**Group 1 (u-verbs, 五段)**: dictionary form ends in any う-row sound: 書く, 話す, 待つ, 死ぬ, 読む, 遊ぶ, 買う, 帰る, 分かる, 走る.",
+    "**Group 2 (ru-verbs, 一段)**: ends in -いる or -える: 見る, 食べる, 起きる, 寝る, 教える, 出る, 着る.",
+    "**Group 3 (irregular)**: する and 来る only (plus N+する verbs: 勉強する, 電話する)."
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The three verb groups",
+    "columns": [
+      "Ends in",
+      "Examples",
+      "ます-form"
+    ],
+    "rows": [
+      {
+        "label": "Group 1 (u-verbs)",
+        "cells": [
+          "any う-sound (く・す・つ・む・る...)",
+          "書く, 話す, 読む, 買う, 帰る",
+          "書きます, 話します, 読みます, 買います, 帰ります"
+        ]
+      },
+      {
+        "label": "Group 2 (ru-verbs)",
+        "cells": [
+          "-いる / -える",
+          "見る, 食べる, 起きる, 寝る",
+          "見ます, 食べます, 起きます, 寝ます"
+        ]
+      },
+      {
+        "label": "Group 3 (irregular)",
+        "cells": [
+          "する, 来る only",
+          "する, 勉強する, 来る",
+          "します, 勉強します, 来ます(きます)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "毎朝新聞を読みます。",
+      "reading": "まいあさ しんぶんを よみます。",
+      "en": "I read the newspaper every morning. (読む, Group 1)",
+      "note": "読む ends in む, so Group 1: 読みます."
+    },
+    {
+      "ja": "七時に起きます。",
+      "reading": "しちじに おきます。",
+      "en": "I get up at seven. (起きる, Group 2)",
+      "note": "起きる ends in -きる (-いる), so Group 2: drop る, add ます."
+    },
+    {
+      "ja": "図書館で勉強します。",
+      "reading": "としょかんで べんきょうします。",
+      "en": "I study at the library. (勉強する, Group 3)",
+      "note": "勉強する is Noun + する, so Group 3: 勉強します."
+    },
+    {
+      "ja": "毎日八時に家へ帰ります。",
+      "reading": "まいにち はちじに いえへ かえります。",
+      "en": "I go home at eight every day.",
+      "note": "帰る looks like a Group 2 verb (-える) but is Group 1: 帰ります, not 帰ます."
+    },
+    {
+      "ja": "友達が日本に来ます。",
+      "reading": "ともだちが にほんに きます。",
+      "en": "A friend is coming to Japan.",
+      "note": "来る is Group 3; its ます-form is きます with a sound change."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-21",
+      "pattern": "ます／ません",
+      "difference": "The first conjugation you learn; it depends entirely on the verb group."
+    },
+    {
+      "id": "n5-grammar-24",
+      "pattern": "て-form",
+      "difference": "Group 1 verbs have several て-form patterns; Group 2 verbs just drop る and add て."
+    },
+    {
+      "id": "n5-grammar-25",
+      "pattern": "ない-form",
+      "difference": "Group 1: う-sound → あ-sound + ない; Group 2: drop る + ない."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "帰る → 帰ます",
+      "right": "帰る → 帰ります",
+      "why": "帰る is a Group 1 exception. Memorise the short list: 帰る, 入る, 走る, 知る, 切る, 要る."
+    },
+    {
+      "wrong": "食べる → 食べります",
+      "right": "食べる → 食べます",
+      "why": "食べる is Group 2: drop る and add ます. There is no り."
+    },
+    {
+      "wrong": "来る → くます",
+      "right": "来る → きます",
+      "why": "来る is irregular: the reading changes to き before ます."
+    }
+  ],
+  "usageNotes": [
+    "Some verbs ending in -いる/-える are Group 1 exceptions and must be memorised: 帰る (かえる), 入る (はいる), 走る (はしる), 知る (しる), 切る (きる), 要る (いる), 減る, 限る, しゃべる."
+  ],
+  "jlptTips": [
+    "N5 does not ask \"which group is this verb?\" directly. It tests the result: a blank with options like 帰ます／帰ります／帰えます. Sort the verb first, then pick the form.",
+    "When the options show a -いる/-える verb with both Group 1 and Group 2 endings (切ります／切ます), remember the exception list. 切る, 知る, 入る, 走る, 帰る are all Group 1."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-20-1",
+    "q-n5-g-20-2",
+    "q-n5-g-20-3",
+    "q-n5-g-20-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-20-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

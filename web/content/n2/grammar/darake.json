@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-69",
+  "slug": "darake",
+  "level": "n2",
+  "order": 69,
+  "title": "〜だらけ",
+  "romaji": "darake",
+  "meaning": "full of, covered with (undesirable)",
+  "simpleExplanation": "〜だらけ means \"full of, covered with\" and always implies too much of something unwelcome: kids covered in mud, an essay riddled with mistakes, a room full of dust. It attaches to nouns and acts like a な-adjective (だらけの + noun, だらけだ, だらけになる).",
+  "whenUsed": "Both registers, common in speech. Only negative things: 泥, 傷, ごみ, ほこり, 血, 間違い, 借金, しわ. Do not use it for pleasant things (花だらけ is odd unless you are complaining). Compare まみれ (liquid or sticky covering) and ずくめ (all of one kind, N1).",
+  "formation": [
+    "N + だらけ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "だらけ vs まみれ",
+    "columns": [
+      "Type of thing",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜だらけ",
+        "cells": [
+          "many unwanted things / marks",
+          "間違いだらけ・傷だらけ"
+        ]
+      },
+      {
+        "label": "〜まみれ",
+        "cells": [
+          "a liquid or sticky substance on a surface",
+          "汗まみれ・血まみれ"
+        ]
+      },
+      {
+        "label": "〜ずくめ",
+        "cells": [
+          "entirely of one kind (neutral)",
+          "黒ずくめ・いいことずくめ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供たちは泥だらけになって帰ってきた。",
+      "reading": "こどもたちはどろだらけになってかえってきた。",
+      "en": "The kids came home covered in mud.",
+      "note": "だらけになる with 泥."
+    },
+    {
+      "ja": "この作文は間違いだらけだ。",
+      "reading": "このさくぶんはまちがいだらけだ。",
+      "en": "This essay is riddled with mistakes.",
+      "note": "だらけだ with abstract 間違い."
+    },
+    {
+      "ja": "部屋はほこりだらけだった。",
+      "reading": "へやはほこりだらけだった。",
+      "en": "The room was covered in dust.",
+      "note": "だらけだった with ほこり."
+    },
+    {
+      "ja": "猫が壁で爪をとぐので、壁は傷だらけだ。",
+      "reading": "ねこがかべでつめをとぐので、かべはきずだらけだ。",
+      "en": "Because the cat scratches the wall, it is covered in scratches.",
+      "note": "傷だらけ is very common."
+    },
+    {
+      "ja": "彼は借金だらけの生活から抜け出そうとしている。",
+      "reading": "かれはしゃっきんだらけのせいかつからぬけだそうとしている。",
+      "en": "He is trying to escape a life buried in debt.",
+      "note": "だらけの + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜まみれ",
+      "difference": "Liquid/sticky substances covering a surface (汗・血・油・泥まみれ).",
+      "id": "n2-grammar-182"
+    },
+    {
+      "pattern": "〜ずくめ",
+      "difference": "\"All of one kind\", neutral or positive; N1."
+    },
+    {
+      "pattern": "〜でいっぱい",
+      "difference": "\"Full of\" in a neutral sense (人でいっぱい)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "庭は花だらけで、きれいだ。",
+      "right": "庭は花でいっぱいで、きれいだ。",
+      "why": "だらけ is for unwelcome things."
+    },
+    {
+      "wrong": "汗だらけになった。",
+      "right": "汗まみれになった。",
+      "why": "Sweat is a liquid covering; まみれ is the natural choice (汗だらけ is heard but non-standard)."
+    },
+    {
+      "wrong": "間違いだらけ作文",
+      "right": "間違いだらけの作文",
+      "why": "Add の before a noun."
+    }
+  ],
+  "usageNotes": [
+    "Frequent: 泥だらけ, 傷だらけ, ごみだらけ, ほこりだらけ, 間違いだらけ, 借金だらけ, しわだらけ.",
+    "The tone is usually complaining or dismayed.",
+    "Can describe abstract things (矛盾だらけ, 嘘だらけ)."
+  ],
+  "jlptTips": [
+    "Noun of unwanted stuff + blank meaning \"full of\" → だらけ.",
+    "Distractors: まみれ, ずくめ, がち. Liquids → まみれ; abstract errors and countable marks → だらけ.",
+    "Options without の before a noun are traps."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-69-1",
+    "q-n2-g-69-2",
+    "q-n2-g-69-3",
+    "q-n2-g-69-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-69-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

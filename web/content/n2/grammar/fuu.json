@@ -1,0 +1,141 @@
+{
+  "id": "n2-grammar-191",
+  "slug": "fuu",
+  "level": "n2",
+  "order": 191,
+  "title": "〜風",
+  "romaji": "-fuu",
+  "meaning": "-style, in the manner of",
+  "simpleExplanation": "〜風 attaches to nouns to mean \"in the style of X\": 和風 (Japanese style), 洋風 (Western style), 学生風 (student-like in appearance), 今風 (modern). It describes appearance or manner, not origin: 和風の部屋 is a Japanese-style room, not necessarily in Japan. 〜風の + noun, 〜風に + verb.",
+  "whenUsed": "Both speech and writing. Very common in food, architecture, fashion, and descriptions of people (サラリーマン風の男). 〜風 can imply 'looks like but is not really' (学生風).",
+  "formation": [
+    "Noun + 風 (noun)",
+    "〜風の + Noun / 〜風に + Verb / 〜風だ",
+    "Common: 和風・洋風・中華風・今風・昔風・学生風・田舎風・自己流 (note: 流 is a related suffix)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜風",
+      "〜的",
+      "〜らしい"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "in the style / appearance of",
+          "having the character of",
+          "typical of, true to type"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "和風の部屋 (Japanese-style)",
+          "日本的な考え方 (characteristically Japanese)",
+          "日本人らしい態度 (typically Japanese)"
+        ]
+      },
+      {
+        "label": "Focus",
+        "cells": [
+          "outward style",
+          "inner character",
+          "conformity to type"
+        ]
+      }
+    ],
+    "title": "Style, character, or type"
+  },
+  "examples": [
+    {
+      "ja": "和風の部屋に泊まりたい。",
+      "reading": "わふうのへやにとまりたい。",
+      "en": "I want to stay in a Japanese-style room.",
+      "note": "和風の + noun: Japanese-style."
+    },
+    {
+      "ja": "彼女はいつも学生風の服を着ている。",
+      "reading": "かのじょはいつもがくせいふうのふくをきている。",
+      "en": "She always wears student-style clothes.",
+      "note": "学生風の + noun: looks like a student's clothes."
+    },
+    {
+      "ja": "この店は昔風のラーメンを出す。",
+      "reading": "このみせはむかしふうのラーメンをだす。",
+      "en": "This shop serves old-fashioned ramen.",
+      "note": "昔風の + noun: old-fashioned style."
+    },
+    {
+      "ja": "駅前で、サラリーマン風の男性に道を聞かれた。",
+      "reading": "えきまえで、サラリーマンふうのだんせいにみちをきかれた。",
+      "en": "In front of the station, a man who looked like an office worker asked me the way.",
+      "note": "〜風の: appearance, not certain identity."
+    },
+    {
+      "ja": "この店の内装は今風に改装された。",
+      "reading": "このみせのないそうはいまふうにかいそうされた。",
+      "en": "The interior of this shop was renovated in a modern style.",
+      "note": "今風に: adverbial form."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜的",
+      "difference": "Character or nature, not outward style.",
+      "id": "n2-grammar-188"
+    },
+    {
+      "pattern": "〜らしい",
+      "difference": "True to type; often positive."
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "Casual '-ish'; often slightly negative.",
+      "id": "n2-grammar-187"
+    },
+    {
+      "pattern": "〜流",
+      "difference": "\"School / way\" (自己流, 日本流): method rather than appearance."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "和風な部屋",
+      "right": "和風の部屋",
+      "why": "風 makes a noun; use の before a noun."
+    },
+    {
+      "wrong": "彼は学生風だから学生だ。",
+      "right": "彼は学生風だが、学生かどうかは分からない。",
+      "why": "風 describes appearance; it does not assert identity."
+    },
+    {
+      "wrong": "日本風の人 (meaning 'Japanese person')",
+      "right": "日本人",
+      "why": "風 is style, not nationality."
+    }
+  ],
+  "usageNotes": [
+    "Reading is ふう.",
+    "Food: 和風ドレッシング, 中華風スープ, イタリア風.",
+    "People: 〜風の男 / 女性 = looks like a…"
+  ],
+  "jlptTips": [
+    "Word-formation questions test 風 versus 的 versus らしい; 風 is outward style.",
+    "Before a noun, use 風の, not 風な.",
+    "Recognize fixed terms: 和風, 洋風, 今風."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-191-1",
+    "q-n2-g-191-2",
+    "q-n2-g-191-3",
+    "q-n2-g-191-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-191-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,141 @@
+{
+  "id": "n2-grammar-101",
+  "slug": "ni-kakawarazu",
+  "level": "n2",
+  "order": 101,
+  "title": "〜にかかわらず / 〜にかかわりなく",
+  "romaji": "ni kakawarazu / ni kakawarinaku",
+  "meaning": "regardless of, whether or not",
+  "simpleExplanation": "〜にかかわらず means \"regardless of X\": whatever X is, the result stays the same. The noun before it is something that could vary (age, weather, experience, yes or no), and the main clause applies to every case. It is a neutral, rule-like expression rather than an emotional one.",
+  "whenUsed": "Written and formal spoken Japanese: notices, job advertisements, regulations, announcements (年齢にかかわらず / 天候にかかわらず). 〜にかかわりなく is a slightly stiffer variant. In conversation people usually say 〜に関係なく or 〜でも.",
+  "formation": [
+    "Noun + にかかわらず / にかかわりなく",
+    "Verb affirmative + Verb negative + にかかわらず (行く行かないにかかわらず)",
+    "Adjective + Adjective negative + にかかわらず (好き嫌いにかかわらず)",
+    "Set nouns of variation: 年齢・性別・経験・天候・国籍・有無・多少"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜にかかわらず",
+      "〜にもかかわらず"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "regardless of (any X)",
+          "despite (a specific X)"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "a noun of variation: 年齢, 天候, 有無",
+          "a concrete fact: 雨, 努力した"
+        ]
+      },
+      {
+        "label": "Feeling",
+        "cells": [
+          "neutral rule",
+          "surprise or contradiction (= のに)"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "天候にかかわらず行う (rain or shine)",
+          "雨にもかかわらず行った (even though it rained)"
+        ]
+      }
+    ],
+    "title": "One も changes everything"
+  },
+  "examples": [
+    {
+      "ja": "年齢にかかわらず、誰でも参加できる。",
+      "reading": "ねんれいにかかわらず、だれでもさんかできる。",
+      "en": "Anyone can participate regardless of age.",
+      "note": "年齢 is a typical noun of variation: the rule holds for young and old alike."
+    },
+    {
+      "ja": "天候にかかわらず、大会は行われる。",
+      "reading": "てんこうにかかわらず、たいかいはおこなわれる。",
+      "en": "The event will be held regardless of the weather.",
+      "note": "Formal announcement wording. The event happens whether the weather is good or bad."
+    },
+    {
+      "ja": "出席する、しないにかかわらず、返事をください。",
+      "reading": "しゅっせきする、しないにかかわらず、へんじをください。",
+      "en": "Please reply whether or not you will attend.",
+      "note": "Affirmative + negative of the same verb (する、しない) is a set pattern before にかかわらず."
+    },
+    {
+      "ja": "経験の有無にかかわらず、応募できます。",
+      "reading": "けいけんのうむにかかわらず、おうぼできます。",
+      "en": "You may apply whether or not you have experience.",
+      "note": "有無 (presence or absence) is one of the most common nouns before this pattern."
+    },
+    {
+      "ja": "金額の多少にかかわりなく、寄付は受け付けております。",
+      "reading": "きんがくのたしょうにかかわりなく、きふはうけつけております。",
+      "en": "Donations are accepted regardless of the amount.",
+      "note": "〜にかかわりなく is the stiffer written variant; 多少 = large or small."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を問わず",
+      "difference": "Nearly the same meaning and register; を問わず is even more typical in recruitment notices (経験を問わず). にかかわらず accepts verb pairs (行く行かない); を問わず prefers nouns.",
+      "id": "n2-grammar-173"
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "Looks similar but means \"despite\", with surprise. It follows a specific fact, not a variable.",
+      "id": "n2-grammar-102"
+    },
+    {
+      "pattern": "〜に関係なく",
+      "difference": "Everyday spoken equivalent: 年齢に関係なく. Use it in conversation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨にかかわらず、試合は行われた。",
+      "right": "雨にもかかわらず、試合は行われた。",
+      "why": "The sentence talks about a specific fact (it rained) and a surprising outcome, so it needs にもかかわらず (\"despite\"). にかかわらず would need a variable such as 天候."
+    },
+    {
+      "wrong": "忙しいにかかわらず、参加してください。",
+      "right": "忙しいかどうかにかかわらず、参加してください。/ 忙しくても、参加してください。",
+      "why": "A single adjective cannot be a \"variable\". Make it a pair or a question (かどうか), or simply use ても."
+    },
+    {
+      "wrong": "年齢にかかわらずに、参加できる。",
+      "right": "年齢にかかわらず、参加できる。",
+      "why": "にかかわらず is already adverbial; do not add another に or ずに."
+    }
+  ],
+  "usageNotes": [
+    "Nouns before にかかわらず are usually things with a range: 年齢, 性別, 国籍, 経験, 天候, 有無, 多少, 大小, 良し悪し.",
+    "The main clause is typically a rule, a permission, or a fixed plan (〜できる / 〜が行われる / 〜が必要だ).",
+    "〜にかかわりなく means the same thing but appears mostly in written regulations."
+  ],
+  "jlptTips": [
+    "Watch for the one-character trap: にかかわらず (regardless) versus にもかかわらず (despite). If the first clause is a specific fact and the second is surprising, choose にも.",
+    "In 文法形式の判断, a pair like 行く行かない or 有無・多少 before the blank almost always signals にかかわらず / を問わず.",
+    "In 並べ替え, keep 〜の有無 + にかかわらず together as one chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-101-1",
+    "q-n2-g-101-2",
+    "q-n2-g-101-3",
+    "q-n2-g-101-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-101-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

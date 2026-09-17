@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-192",
+  "slug": "buri-ppuri",
+  "level": "n2",
+  "order": 192,
+  "title": "〜ぶり / 〜っぷり",
+  "romaji": "buri / ppuri",
+  "meaning": "(1) manner, way of doing; (2) after (a long interval)",
+  "simpleExplanation": "〜ぶり has two uses. After a verb stem or noun it means \"the way someone does X\": 仕事ぶり (the way he works), 話しぶり (the way she talks). After a time expression it means \"for the first time in X\": 三年ぶりに帰った (returned for the first time in three years). 久しぶり is the everyday example. っぷり is an emphatic variant for vigorous manner (食べっぷり).",
+  "whenUsed": "Both speech and writing. The manner use is common in evaluations (仕事ぶりに感心する); the interval use is extremely common in conversation (〜ぶりですね). ぶりに + verb, ぶりの + noun.",
+  "formation": [
+    "Verb (ます-stem) / Noun + ぶり (manner): 仕事ぶり・話しぶり・歌いぶり",
+    "Verb (ます-stem) + っぷり (vigorous manner): 食べっぷり・飲みっぷり",
+    "Time expression + ぶり(に / の / だ) (interval): 三年ぶりに・久しぶりの",
+    "Greeting: お久しぶりです"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Manner ぶり",
+      "Interval ぶり"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "the way someone does X",
+          "for the first time in X"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "verb stem or action noun",
+          "length of time"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "仕事ぶりに感心する",
+          "三年ぶりに会う"
+        ]
+      },
+      {
+        "label": "Variant",
+        "cells": [
+          "っぷり (vigorous)",
+          "久しぶり (set phrase)"
+        ]
+      }
+    ],
+    "title": "Two meanings of ぶり"
+  },
+  "examples": [
+    {
+      "ja": "彼の仕事ぶりには感心した。",
+      "reading": "かれのしごとぶりにはかんしんした。",
+      "en": "I was impressed by the way he works.",
+      "note": "Manner: the way he works."
+    },
+    {
+      "ja": "三年ぶりに故郷に帰った。",
+      "reading": "さんねんぶりにこきょうにかえった。",
+      "en": "I returned to my hometown for the first time in three years.",
+      "note": "Interval: for the first time in three years."
+    },
+    {
+      "ja": "久しぶりの再会に、二人は涙を流した。",
+      "reading": "ひさしぶりのさいかいに、ふたりはなみだをながした。",
+      "en": "At their first reunion in a long time, the two shed tears.",
+      "note": "久しぶりの + noun: a reunion after a long time."
+    },
+    {
+      "ja": "彼の食べっぷりを見ていると、こちらまでおなかがすいてくる。",
+      "reading": "かれのたべっぷりをみていると、こちらまでおなかがすいてくる。",
+      "en": "Watching the way he eats makes me hungry too.",
+      "note": "っぷり: vigorous manner."
+    },
+    {
+      "ja": "十年ぶりの同窓会で、懐かしい顔にたくさん会えた。",
+      "reading": "じゅうねんぶりのどうそうかいで、なつかしいかおにたくさんあえた。",
+      "en": "At the class reunion, the first in ten years, I saw many familiar faces.",
+      "note": "Time + ぶりの + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜方 (かた)",
+      "difference": "\"Way of doing\" neutrally (話し方); ぶり adds an evaluative, observed feel."
+    },
+    {
+      "pattern": "〜以来",
+      "difference": "\"Since X\": marks the start of a period, not the interval."
+    },
+    {
+      "pattern": "〜ぶる",
+      "difference": "Different: 'to put on airs' (偉ぶる)."
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "\"-ish\"; unrelated.",
+      "id": "n2-grammar-187"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三年ぶり会った。",
+      "right": "三年ぶりに会った。",
+      "why": "Use に before a verb."
+    },
+    {
+      "wrong": "三年ぶりに日本語を勉強している。(meaning 'studied for three years')",
+      "right": "三年間日本語を勉強している。",
+      "why": "ぶり marks an interval since the last time, not a duration."
+    },
+    {
+      "wrong": "仕事ぶりが早い。",
+      "right": "仕事ぶりがいい / 仕事が早い。",
+      "why": "仕事ぶり describes manner, evaluated as いい / 立派だ, not speed directly."
+    }
+  ],
+  "usageNotes": [
+    "Rendaku: ぶり comes from 振り (ふり).",
+    "Interval ぶり implies the thing had not happened during that time.",
+    "Common: 久しぶり, 〜年ぶり, 〜週間ぶり, 仕事ぶり, 変わりよう / 変わりぶり."
+  ],
+  "jlptTips": [
+    "If the blank follows a time expression and the verb is 会う / 帰る / 見る, choose ぶりに.",
+    "If the blank follows a verb stem and the sentence evaluates (感心する / 立派だ), it is manner ぶり.",
+    "Distinguish ぶり (interval since last time) from 間 (duration)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-192-1",
+    "q-n2-g-192-2",
+    "q-n2-g-192-3",
+    "q-n2-g-192-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-192-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

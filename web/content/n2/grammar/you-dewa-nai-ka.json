@@ -1,0 +1,129 @@
+{
+  "id": "n2-grammar-181",
+  "slug": "you-dewa-nai-ka",
+  "level": "n2",
+  "order": 181,
+  "title": "〜ようではないか / 〜ようじゃないか",
+  "romaji": "you dewa nai ka / you ja nai ka",
+  "meaning": "let us …; shall we not … (formal proposal or appeal)",
+  "simpleExplanation": "Volitional + ではないか is a formal, rousing proposal: みんなで力を合わせて乗り越えようではないか (let us join forces and overcome this). It is used by speakers addressing a group, as in speeches and rallies. じゃないか is the casual, mostly male version; ではありませんか is the polite form.",
+  "whenUsed": "Speeches, essays, and formal appeals; also in dramatic dialogue. In casual conversation people say 〜よう / 〜ましょう. It presupposes some authority or shared cause.",
+  "formation": [
+    "Verb (volitional 〜よう / 〜おう) + ではないか",
+    "Verb (volitional) + じゃないか (casual)",
+    "Verb (volitional) + ではありませんか (polite)",
+    "Typical contexts: 力を合わせよう / 始めよう / 考えよう / 話し合おう"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Proposals by formality",
+    "items": [
+      {
+        "label": "〜よう / 〜おう",
+        "description": "let's (casual)"
+      },
+      {
+        "label": "〜ましょう",
+        "description": "let's (polite)"
+      },
+      {
+        "label": "〜ようじゃないか",
+        "description": "let's, shall we (casual, rousing, mostly male)"
+      },
+      {
+        "label": "〜ようではないか / ではありませんか",
+        "description": "let us (formal speech)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "みんなで力を合わせて、この困難を乗り越えようではないか。",
+      "reading": "みんなでちからをあわせて、このこんなんをのりこえようではないか。",
+      "en": "Let us join forces and overcome this difficulty.",
+      "note": "A rousing speech-style appeal."
+    },
+    {
+      "ja": "一度、じっくり話し合おうじゃないか。",
+      "reading": "いちど、じっくりはなしあおうじゃないか。",
+      "en": "Let's sit down and talk it over properly, shall we?",
+      "note": "じゃないか: casual, direct proposal."
+    },
+    {
+      "ja": "環境を守るために、今日から行動を始めようではありませんか。",
+      "reading": "かんきょうをまもるために、きょうからこうどうをはじめようではありませんか。",
+      "en": "To protect the environment, let us start acting from today.",
+      "note": "ではありませんか: polite public appeal."
+    },
+    {
+      "ja": "この機会に、私たちの町の未来について考えようではないか。",
+      "reading": "このきかいに、わたしたちのまちのみらいについてかんがえようではないか。",
+      "en": "On this occasion, let us think about the future of our town.",
+      "note": "Formal appeal in a speech."
+    },
+    {
+      "ja": "お互いに協力して、この問題を解決しようじゃないか。",
+      "reading": "おたがいにきょうりょくして、このもんだいをかいけつしようじゃないか。",
+      "en": "Let's cooperate and solve this problem, shall we?",
+      "note": "Casual じゃないか between colleagues."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ましょう",
+      "difference": "Polite proposal; no rousing tone."
+    },
+    {
+      "pattern": "〜まいか",
+      "difference": "\"Shall we not?\" in literary style.",
+      "id": "n2-grammar-149"
+    },
+    {
+      "pattern": "〜ではないか (statement)",
+      "difference": "After a plain form (not volitional), it means 'isn't it the case that…?', a different pattern."
+    },
+    {
+      "pattern": "〜べきだ",
+      "difference": "\"Should\": a judgment, not a proposal.",
+      "id": "n2-grammar-145"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "乗り越えるではないか。",
+      "right": "乗り越えようではないか。",
+      "why": "The verb must be in the volitional form."
+    },
+    {
+      "wrong": "「一緒に行こうではないか。」(to a friend, casually)",
+      "right": "「一緒に行こうよ。」",
+      "why": "Too formal and rousing for casual talk; use よう / じゃないか."
+    },
+    {
+      "wrong": "乗り越えようではないですか。",
+      "right": "乗り越えようではありませんか。",
+      "why": "The polite form is ではありませんか."
+    }
+  ],
+  "usageNotes": [
+    "Speakers with authority or in leadership positions use it naturally.",
+    "Common with みんなで / 共に / お互いに.",
+    "In fiction, ようじゃないか marks confident, assertive characters."
+  ],
+  "jlptTips": [
+    "If the verb is volitional and the context is a speech or appeal, choose ようではないか.",
+    "Check the form: volitional + ではないか, never plain form.",
+    "Distractors include べきだ, ましょう, まいか. Register and the volitional form decide."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-181-1",
+    "q-n2-g-181-2",
+    "q-n2-g-181-3",
+    "q-n2-g-181-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-181-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

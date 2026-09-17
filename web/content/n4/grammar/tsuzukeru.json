@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-81",
+  "slug": "tsuzukeru",
+  "level": "n4",
+  "order": 81,
+  "title": "〜続ける \"keep doing / continue to\"",
+  "romaji": "-tsuzukeru",
+  "meaning": "An action continues without interruption.",
+  "simpleExplanation": "V-ます stem + 続ける means \"keep doing / continue to do\": 走り続ける (keep running), 勉強し続ける (keep studying), 働き続ける (continue working). The action goes on without a break, or as a long-term habit. 続ける is transitive and volitional, so the pattern is used mainly with actions a person does; for things that continue by themselves (rain, noise) the intransitive 〜続く (降り続く) is used.",
+  "whenUsed": "Describing persistence and long habits (十年間働き続けている), resolutions (これからも勉強し続けたい), and describing effort in stories. It pairs well with duration expressions such as 三時間も, 一年間, ずっと.",
+  "formation": [
+    "V-ます stem + 続ける: 走る → 走り続ける, 話す → 話し続ける, 勉強する → 勉強し続ける",
+    "Conjugates as Group 2: 続けます / 続けた / 続けて / 続けたい",
+    "Intransitive events: V-ます + 続く: 雨が降り続く, 音が鳴り続く",
+    "Duration expressions go before: 三時間も走り続けた"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "走り (ます-stem of 走る)",
+    "rootLabel": "verb stem",
+    "branches": [
+      {
+        "suffix": "+ 始める",
+        "result": "走り始める",
+        "label": "start running"
+      },
+      {
+        "suffix": "+ 続ける",
+        "result": "走り続ける",
+        "label": "keep running (the runner's effort)"
+      },
+      {
+        "suffix": "+ 続く (intransitive)",
+        "result": "(雨が) 降り続く",
+        "label": "keep on (of events that continue by themselves)"
+      },
+      {
+        "suffix": "+ 終わる",
+        "result": "走り終わる",
+        "label": "finish running"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "三時間も走り続けた。",
+      "reading": "さんじかんも はしりつづけた。",
+      "en": "I kept running for three whole hours.",
+      "note": "も stresses the long duration; 走り続けた shows uninterrupted effort."
+    },
+    {
+      "ja": "これからも日本語を勉強し続けたい。",
+      "reading": "これからも にほんごを べんきょうしつづけたい。",
+      "en": "I want to keep studying Japanese from now on.",
+      "note": "し続けたい: a resolution to keep going."
+    },
+    {
+      "ja": "彼は十年間この会社で働き続けている。",
+      "reading": "かれは じゅうねんかん この かいしゃで はたらきつづけている。",
+      "en": "He has continued working at this company for ten years.",
+      "note": "〜続けている: a habit that has continued up to now."
+    },
+    {
+      "ja": "疲れても、ゴールまで歩き続けた。",
+      "reading": "つかれても、ゴールまで あるきつづけた。",
+      "en": "Even though I was tired, I kept walking to the finish.",
+      "note": "歩く → 歩き続ける; persistence despite difficulty."
+    },
+    {
+      "ja": "朝から雨が降り続いている。",
+      "reading": "あさから あめが ふりつづいている。",
+      "en": "It has been raining continuously since morning.",
+      "note": "Rain is not a doer, so the intransitive 続く is used: 降り続く."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ている",
+      "difference": "〜ている simply describes an ongoing action (走っている). 〜続ける stresses that it goes on and on, often with effort."
+    },
+    {
+      "pattern": "〜始める",
+      "difference": "The start of the action; 続ける is its continuation.",
+      "id": "n4-grammar-79"
+    },
+    {
+      "pattern": "〜ていく",
+      "difference": "働いていく means you will go on working into the future; 働き続ける focuses on not stopping.",
+      "id": "n4-grammar-24"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨が三日間降り続けた。",
+      "right": "雨が三日間降り続いた。",
+      "why": "Rain has no will, so the intransitive 続く is preferred. (続ける is heard in speech but the exam expects 続く for natural events.)"
+    },
+    {
+      "wrong": "十年間、この会社で働く続けている。",
+      "right": "十年間、この会社で働き続けている。",
+      "why": "続ける attaches to the ます-stem."
+    },
+    {
+      "wrong": "毎日運動を続けし続ける。",
+      "right": "毎日運動を続ける。/ 毎日運動し続ける。",
+      "why": "Do not stack 続ける twice. Either N + を続ける or V-stem + 続ける."
+    }
+  ],
+  "usageNotes": [
+    "〜続けている is the natural form for a habit that is still going: 二十年間日記を書き続けている.",
+    "Noun + を続ける is the plain verb: 勉強を続ける (continue studying) means the same as 勉強し続ける.",
+    "Pairs: 続ける (transitive) / 続く (intransitive), like 始める / 始まる and 終える / 終わる."
+  ],
+  "jlptTips": [
+    "Duration + も (三時間も, 一週間も) plus a verb blank strongly points to 〜続ける.",
+    "If the subject is weather or a sound (雨, 雪, 音, ベル), choose 続く, not 続ける, when both appear."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-81-1",
+    "q-n4-g-81-2",
+    "q-n4-g-81-3",
+    "q-n4-g-81-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-81-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

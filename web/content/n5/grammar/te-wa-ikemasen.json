@@ -1,0 +1,129 @@
+{
+  "id": "n5-grammar-38",
+  "slug": "te-wa-ikemasen",
+  "level": "n5",
+  "order": 38,
+  "title": "てはいけません",
+  "romaji": "te wa ikemasen",
+  "meaning": "\"must not ~ / may not ~\" (prohibition).",
+  "simpleExplanation": "て-form + はいけません means \"you must not ...\": ここでタバコを吸ってはいけません \"You must not smoke here\". It is a firm rule or prohibition, used on signs, by teachers and parents, and as a \"no\" answer to てもいいですか. In speech ては often becomes ちゃ (食べちゃいけない) and there is a casual version てはだめです.",
+  "whenUsed": "Rules in public places, at school, at work; warnings; refusing permission. Not for polite requests to superiors (use ないでください instead).",
+  "formation": [
+    "V-て + はいけません"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Permission vs prohibition",
+    "columns": [
+      "Pattern",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "てもいいです",
+        "cells": [
+          "吸ってもいいです",
+          "you may smoke"
+        ]
+      },
+      {
+        "label": "てはいけません",
+        "cells": [
+          "吸ってはいけません",
+          "you must not smoke"
+        ]
+      },
+      {
+        "label": "なくてもいいです",
+        "cells": [
+          "吸わなくてもいいです",
+          "you don't have to smoke"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ここでタバコを吸ってはいけません。",
+      "reading": "ここで タバコを すっては いけません。",
+      "en": "You must not smoke here.",
+      "note": "Rule: no smoking here."
+    },
+    {
+      "ja": "図書館で大きい声で話してはいけません。",
+      "reading": "としょかんで おおきい こえで はなしては いけません。",
+      "en": "You must not talk loudly in the library.",
+      "note": "Rule in the library."
+    },
+    {
+      "ja": "試験のとき、辞書を使ってはいけません。",
+      "reading": "しけんの とき、じしょを つかっては いけません。",
+      "en": "You may not use a dictionary during the exam.",
+      "note": "Exam rule: no dictionaries."
+    },
+    {
+      "ja": "ここに車を止めてはいけません。",
+      "reading": "ここに くるまを とめては いけません。",
+      "en": "You must not park here.",
+      "note": "A sign-style prohibition."
+    },
+    {
+      "ja": "A：入ってもいいですか。　B：いいえ、入ってはいけません。",
+      "reading": "はいっても いいですか。　いいえ、はいっては いけません。",
+      "en": "May I go in? — No, you must not.",
+      "note": "The standard refusal to てもいいですか."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-37",
+      "pattern": "てもいいです",
+      "difference": "The permission; てはいけません is its refusal."
+    },
+    {
+      "id": "n5-grammar-40",
+      "pattern": "ないでください",
+      "difference": "A polite request not to do something; てはいけません is a rule."
+    },
+    {
+      "id": "n5-grammar-51",
+      "pattern": "なくてもいいです",
+      "difference": "\"Don't have to\" (no obligation), not \"must not\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "吸ってもいけません",
+      "right": "吸ってはいけません",
+      "why": "Prohibition uses ては; も belongs to the permission pattern."
+    },
+    {
+      "wrong": "吸うはいけません",
+      "right": "吸ってはいけません",
+      "why": "は attaches to the て-form."
+    },
+    {
+      "wrong": "先生、ここで話してはいけません。(to a superior)",
+      "right": "すみません、ここでは話さないでください。",
+      "why": "てはいけません is a rule you impose; to a superior use ないでください."
+    }
+  ],
+  "usageNotes": [
+    "In speech ては → ちゃ, では → じゃ: 食べちゃいけない, 飲んじゃだめ. Also 〜てはだめです (same meaning, more casual). Answer to 〜てもいいですか with a refusal: いいえ、〜てはいけません."
+  ],
+  "jlptTips": [
+    "Signs, rules and words like 図書館・試験・病院 point to てはいけません. A blank before はいけません is the て-form.",
+    "Between てもいいです / てはいけません / なくてもいいです, decide: allowed, forbidden, or not required?"
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-38-1",
+    "q-n5-g-38-2",
+    "q-n5-g-38-3",
+    "q-n5-g-38-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-38-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

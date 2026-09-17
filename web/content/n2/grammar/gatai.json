@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-20",
+  "slug": "gatai",
+  "level": "n2",
+  "order": 20,
+  "title": "〜がたい",
+  "romaji": "-gatai",
+  "meaning": "hard to ..., can hardly ...",
+  "simpleExplanation": "〜がたい means \"hard to…, can hardly…\" in a psychological sense: hard to believe, hard to forgive, hard to accept. It says the action is emotionally or morally difficult, not that it is physically tricky.",
+  "whenUsed": "書き言葉 and formal speech; it sounds stiff in casual talk. It attaches to a limited set of verbs: 信じる, 理解する, 受け入れる, 許す, 想像する, 耐える, 忘れる, 言う, 動かす (動かしがたい事実). For physical difficulty use 〜にくい.",
+  "formation": [
+    "Vます + がたい"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three kinds of \"hard to\"",
+    "columns": [
+      "Kind of difficulty",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜がたい",
+        "cells": [
+          "psychological / moral",
+          "信じがたい話 (hard to believe)"
+        ]
+      },
+      {
+        "label": "〜にくい",
+        "cells": [
+          "physical / practical",
+          "読みにくい字 (hard to read)"
+        ]
+      },
+      {
+        "label": "〜かねる",
+        "cells": [
+          "politely unable",
+          "お答えしかねます (cannot answer)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼の話は信じがたい。",
+      "reading": "かれのはなしはしんじがたい。",
+      "en": "His story is hard to believe.",
+      "note": "信じがたい: emotionally hard to accept as true."
+    },
+    {
+      "ja": "それは理解しがたい行動だ。",
+      "reading": "それはりかいしがたいこうどうだ。",
+      "en": "That is behavior that is hard to understand.",
+      "note": "理解しがたい modifying a noun."
+    },
+    {
+      "ja": "忘れがたい思い出になった。",
+      "reading": "わすれがたいおもいでになった。",
+      "en": "It became an unforgettable memory.",
+      "note": "忘れがたい思い出: a set expression."
+    },
+    {
+      "ja": "彼の裏切りは許しがたい。",
+      "reading": "かれのうらぎりはゆるしがたい。",
+      "en": "His betrayal is unforgivable.",
+      "note": "Moral difficulty."
+    },
+    {
+      "ja": "これは動かしがたい事実である。",
+      "reading": "これはうごかしがたいじじつである。",
+      "en": "This is an undeniable fact.",
+      "note": "Set phrase: 動かしがたい事実."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にくい",
+      "difference": "Physical or practical difficulty (歩きにくい・分かりにくい). がたい is about feelings and judgment."
+    },
+    {
+      "pattern": "〜かねる",
+      "difference": "Polite \"cannot\" for the speaker's own action (お受けしかねます).",
+      "id": "n2-grammar-24"
+    },
+    {
+      "pattern": "〜づらい",
+      "difference": "Difficulty felt by the doer, often physical or social (言いづらい). More colloquial."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この字は小さくて読みがたい。",
+      "right": "この字は小さくて読みにくい。",
+      "why": "Physical difficulty takes にくい."
+    },
+    {
+      "wrong": "彼の話は信じるがたい。",
+      "right": "彼の話は信じがたい。",
+      "why": "がたい attaches to the Vます stem."
+    },
+    {
+      "wrong": "この料理は食べがたい。",
+      "right": "この料理は食べにくい。",
+      "why": "Eating is a physical action; がたい would sound as if it were morally hard to eat."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: 信じがたい, 耐えがたい, 忘れがたい, 得がたい (rare, precious), 動かしがたい, 言いがたい, 名状しがたい.",
+    "Modifies nouns directly: 理解しがたい行動.",
+    "It does not mean \"impossible\": 信じがたいが本当だ (hard to believe, but true) is natural."
+  ],
+  "jlptTips": [
+    "A verb of judgment or emotion (信じる・理解する・許す・受け入れる) before the blank → がたい.",
+    "Distractors: にくい, かねる, づらい. A concrete physical verb (読む・歩く・使う) rules out がたい.",
+    "Remember the stem attachment (信じがたい, not 信じるがたい) for form-choice questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-20-1",
+    "q-n2-g-20-2",
+    "q-n2-g-20-3",
+    "q-n2-g-20-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-20-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

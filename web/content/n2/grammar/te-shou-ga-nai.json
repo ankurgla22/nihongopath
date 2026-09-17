@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-78",
+  "slug": "te-shou-ga-nai",
+  "level": "n2",
+  "order": 78,
+  "title": "〜てしょうがない / 〜てしかたがない",
+  "romaji": "te shou ga nai / te shikata ga nai",
+  "meaning": "extremely, unbearably; can't help",
+  "simpleExplanation": "〜てしょうがない / 〜てしかたがない means \"extremely, unbearably; can't help (feeling)\". The feeling or sensation is so strong that nothing can be done about it: I'm terribly sleepy; I can't stop worrying about the result; country life is unbearably inconvenient.",
+  "whenUsed": "話し言葉寄り; しょうがない is casual, しかたがない slightly more neutral, and 〜てならない is the written counterpart. Forms: Vて, Aい + くて, Aな + で. The subject is the speaker (or the person whose feelings are being reported with ようだ).",
+  "formation": [
+    "Vて + しょうがない / Aい stem + くて + しょうがない / Aな + で + しょうがない"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "しょうがない",
+    "rootLabel": "feeling + てしょうがない",
+    "branches": [
+      {
+        "suffix": "Vて",
+        "result": "気になってしょうがない",
+        "label": "can't stop worrying"
+      },
+      {
+        "suffix": "Aい + くて",
+        "result": "眠くてしょうがない",
+        "label": "terribly sleepy"
+      },
+      {
+        "suffix": "Aな + で",
+        "result": "不便でしょうがない",
+        "label": "unbearably inconvenient"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "眠くてしょうがない。",
+      "reading": "ねむくてしょうがない。",
+      "en": "I'm terribly sleepy.",
+      "note": "Aい + くて + しょうがない."
+    },
+    {
+      "ja": "試験の結果が気になってしかたがない。",
+      "reading": "しけんのけっかがきになってしかたがない。",
+      "en": "I can't stop worrying about the exam result.",
+      "note": "Vて + しかたがない."
+    },
+    {
+      "ja": "田舎の生活は不便でしょうがない。",
+      "reading": "いなかのせいかつはふべんでしょうがない。",
+      "en": "Country life is unbearably inconvenient.",
+      "note": "Aな + で + しょうがない."
+    },
+    {
+      "ja": "久しぶりに家族に会えるのが、嬉しくてしょうがない。",
+      "reading": "ひさしぶりにかぞくにあえるのが、うれしくてしょうがない。",
+      "en": "I'm overjoyed to be able to see my family after so long.",
+      "note": "Positive feelings are fine too."
+    },
+    {
+      "ja": "この仕事は単調で、退屈でしかたがない。",
+      "reading": "このしごとはたんちょうで、たいくつでしかたがない。",
+      "en": "This job is monotonous and unbearably boring.",
+      "note": "Aな + で."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てたまらない",
+      "difference": "Nearly the same; slightly stronger for physical sensations and desires.",
+      "id": "n2-grammar-79"
+    },
+    {
+      "pattern": "〜てならない",
+      "difference": "Written, for spontaneous thoughts and emotions (気がしてならない).",
+      "id": "n2-grammar-80"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "Cannot stop oneself from doing an action; not a state.",
+      "id": "n2-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "眠いてしょうがない。",
+      "right": "眠くてしょうがない。",
+      "why": "い-adjectives take くて."
+    },
+    {
+      "wrong": "彼は眠くてしょうがない。（as fact）",
+      "right": "彼は眠くてしょうがないようだ。",
+      "why": "Others' feelings need ようだ/らしい."
+    },
+    {
+      "wrong": "この本は面白くてしょうがないから、読んでください。",
+      "right": "この本は面白くてしょうがない。",
+      "why": "It expresses the speaker's own strong feeling; a request afterwards sounds odd."
+    }
+  ],
+  "usageNotes": [
+    "しょうがない = しかたがない (仕方がない): both mean \"it can't be helped\".",
+    "Polite: 〜てしょうがないんです / 〜てしかたがありません.",
+    "Common with 気になる, 心配だ, 眠い, 寒い, 暑い, 痛い, 嬉しい, 悔しい."
+  ],
+  "jlptTips": [
+    "A feeling in the て-form + blank meaning \"unbearably\" → しょうがない / たまらない / ならない are all candidates; check register (casual → しょうがない) and the type of feeling.",
+    "Distractors: ずにはいられない (needs an action verb in ず form), わけがない, にすぎない.",
+    "Form questions test 眠くて (not 眠いて) and 不便で (not 不便て)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-78-1",
+    "q-n2-g-78-2",
+    "q-n2-g-78-3",
+    "q-n2-g-78-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-78-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

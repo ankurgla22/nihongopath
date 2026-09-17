@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-92",
+  "slug": "to-tomo-ni",
+  "level": "n2",
+  "order": 92,
+  "title": "〜とともに",
+  "romaji": "to tomo ni",
+  "meaning": "together with; as ... (change), at the same time as",
+  "simpleExplanation": "〜とともに has three uses: (1) \"together with\" (welcomed the New Year with my family); (2) \"as… (changes), … also changes\" (as I age, my strength declines); (3) \"at the same time as\" (a tsunami warning was issued with the earthquake).",
+  "whenUsed": "書き言葉 and formal speech; in conversation と一緒に (use 1) or につれて (use 2) are more common. It follows nouns (家族とともに, 地震の発生とともに) or Vる (年をとるとともに). Both changes in use 2 must be gradual.",
+  "formation": [
+    "N + とともに / Vる + とともに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of とともに",
+    "columns": [
+      "Example",
+      "Spoken equivalent"
+    ],
+    "rows": [
+      {
+        "label": "Together with",
+        "cells": [
+          "家族とともに新年を迎えた",
+          "と一緒に"
+        ]
+      },
+      {
+        "label": "Parallel change",
+        "cells": [
+          "年をとるとともに体力が落ちる",
+          "につれて"
+        ]
+      },
+      {
+        "label": "Simultaneous",
+        "cells": [
+          "地震の発生とともに警報が出た",
+          "と同時に"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "家族とともに、新年を迎えた。",
+      "reading": "かぞくとともに、しんねんをむかえた。",
+      "en": "I welcomed the New Year together with my family.",
+      "note": "Together with."
+    },
+    {
+      "ja": "年をとるとともに、体力が落ちてきた。",
+      "reading": "としをとるとともに、たいりょくがおちてきた。",
+      "en": "As I age, my physical strength has declined.",
+      "note": "Parallel change."
+    },
+    {
+      "ja": "地震の発生とともに、津波警報が出された。",
+      "reading": "じしんのはっせいとともに、つなみけいほうがだされた。",
+      "en": "A tsunami warning was issued at the same time as the earthquake.",
+      "note": "Simultaneous event."
+    },
+    {
+      "ja": "経済の発展とともに、人々の生活も豊かになった。",
+      "reading": "けいざいのはってんとともに、ひとびとのせいかつもゆたかになった。",
+      "en": "Along with economic development, people's lives also became richer.",
+      "note": "N + とともに, parallel change."
+    },
+    {
+      "ja": "彼は優れた学者であるとともに、教育者でもあった。",
+      "reading": "かれはすぐれたがくしゃであるとともに、きょういくしゃでもあった。",
+      "en": "He was an outstanding scholar and, at the same time, an educator.",
+      "note": "である + とともに: \"as well as\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Parallel change only; both registers.",
+      "id": "n2-grammar-136"
+    },
+    {
+      "pattern": "〜と同時に",
+      "difference": "Simultaneity only."
+    },
+    {
+      "pattern": "〜と一緒に",
+      "difference": "\"Together with\" only; everyday."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "年をとったとともに",
+      "right": "年をとるとともに",
+      "why": "Verbs take the dictionary form."
+    },
+    {
+      "wrong": "友達とともに遊びに行った。（casual chat）",
+      "right": "友達と一緒に遊びに行った。",
+      "why": "とともに is too formal for casual talk."
+    },
+    {
+      "wrong": "ベルが鳴るとともに、勉強しなさい。",
+      "right": "ベルが鳴るとともに、生徒たちは立ち上がった。",
+      "why": "The simultaneous use pairs with an event, not a command."
+    }
+  ],
+  "usageNotes": [
+    "Written variant: と共に.",
+    "Use 2 pairs verbs of change: 増える, 減る, 変わる, 落ちる.",
+    "N + であるとともに = \"as well as\" in formal descriptions."
+  ],
+  "jlptTips": [
+    "Formal register + noun/Vる + blank meaning \"with / as / at the same time\" → とともに.",
+    "Distractors: につれて (only change), と同時に (only simultaneity), 一方で. If the sentence is \"together with a person\", only とともに fits among these.",
+    "Form questions test Vる + とともに (not Vた)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-92-1",
+    "q-n2-g-92-2",
+    "q-n2-g-92-3",
+    "q-n2-g-92-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-92-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

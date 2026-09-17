@@ -1,0 +1,135 @@
+{
+  "id": "n3-grammar-122",
+  "slug": "koto-ni-naru",
+  "level": "n3",
+  "order": 122,
+  "title": "〜ことになる",
+  "romaji": "koto ni naru",
+  "meaning": "(1) it has been decided that… (decision by others or circumstances); (2) it means that… / it amounts to… (logical conclusion)",
+  "simpleExplanation": "〜ことになる has two uses. (1) A decision made by others or by circumstances: 大阪に転勤することになりました \"it's been decided that I'll be transferred to Osaka\". (2) A logical result: 一日三回飲むと、一週間で二十一回飲むことになる \"that means twenty-one times a week\". In both, the outcome arises rather than being chosen by the speaker.",
+  "whenUsed": "Announcing changes at work, weddings and moves (even your own decisions, to sound modest), and reasoning through consequences. Polite: ことになりました.",
+  "formation": [
+    "Verb (dictionary form) + ことになる / ことになった / ことになりました",
+    "Verb ない-form + ことになる",
+    "Sense 2 often: 〜と / 〜ば + 〜ことになる",
+    "Related: 〜ことになっている (it is a rule / arrangement)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ことになる vs ことにする",
+    "columns": [
+      "Who decides?",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ことになる",
+        "cells": [
+          "Others / circumstances",
+          "転勤することになった (it was decided I'd be transferred)"
+        ]
+      },
+      {
+        "label": "〜ことにする",
+        "cells": [
+          "The speaker",
+          "転職することにした (I decided to change jobs)"
+        ]
+      },
+      {
+        "label": "〜ことになる (sense 2)",
+        "cells": [
+          "Logic",
+          "嘘をつけば、裏切ることになる (lying amounts to betrayal)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "来月から大阪に転勤することになりました。",
+      "reading": "らいげつからおおさかにてんきんすることになりました。",
+      "en": "It's been decided that I'll be transferred to Osaka from next month.",
+      "note": "Sense 1: decided by the company."
+    },
+    {
+      "ja": "一日三回飲むと、一週間で二十一回飲むことになる。",
+      "reading": "いちにちさんかいのむと、いっしゅうかんでにじゅういっかいのむことになる。",
+      "en": "If you take it three times a day, that means twenty-one times a week.",
+      "note": "Sense 2: arithmetic conclusion."
+    },
+    {
+      "ja": "嘘をつけば、みんなを裏切ることになる。",
+      "reading": "うそをつけば、みんなをうらぎることになる。",
+      "en": "If you lie, it amounts to betraying everyone.",
+      "note": "Sense 2: moral conclusion."
+    },
+    {
+      "ja": "このたび、結婚することになりました。",
+      "reading": "このたび、けっこんすることになりました。",
+      "en": "I am getting married (it has come about that I will marry).",
+      "note": "A modest announcement of one's own decision."
+    },
+    {
+      "ja": "今日を逃すと、来月まで待つことになりますよ。",
+      "reading": "きょうをのがすと、らいげつまでまつことになりますよ。",
+      "en": "If you miss today, you'll end up waiting until next month.",
+      "note": "Sense 2: a consequence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことにする",
+      "difference": "The speaker's own decision.",
+      "id": "n3-grammar-11"
+    },
+    {
+      "pattern": "〜ことになっている",
+      "difference": "A standing rule or schedule, not the moment of decision.",
+      "id": "n3-grammar-10"
+    },
+    {
+      "pattern": "〜わけだ",
+      "difference": "'So that's why / it follows that' — a conclusion drawn from facts, similar to sense 2 but explanatory.",
+      "id": "n3-grammar-3"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は毎朝走ることになった。(as a personal resolution)",
+      "right": "私は毎朝走ることにした。",
+      "why": "A resolution you made yourself is ことにする."
+    },
+    {
+      "wrong": "転勤するようになりました。",
+      "right": "転勤することになりました。",
+      "why": "ようになる is for gradual change or ability; a decision uses ことになる."
+    },
+    {
+      "wrong": "結婚することになりました。→ translated as 'someone forced me to marry'",
+      "right": "It means 'it has been arranged / decided that I will marry', a modest announcement.",
+      "why": "ことになる does not imply coercion; it simply presents the outcome as arising."
+    }
+  ],
+  "usageNotes": [
+    "Japanese speakers prefer ことになりました for announcements even of personal choices.",
+    "Sense 2 is common in explanations: つまり〜ということになる.",
+    "Negative sense 2: 〜ないことになる 'that would mean not…'."
+  ],
+  "jlptTips": [
+    "An announcement of a transfer, marriage or move → ことになりました.",
+    "If the subject clearly chose (決めた, 自分で), the answer is ことにした.",
+    "A sentence beginning with a condition and ending with a calculated result → sense 2 ことになる."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-122-1",
+    "q-n3-g-122-2",
+    "q-n3-g-122-3",
+    "q-n3-g-122-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-122-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

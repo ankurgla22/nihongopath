@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-66",
+  "slug": "ni-shitewa",
+  "level": "n3",
+  "order": 66,
+  "title": "〜にしては",
+  "romaji": "ni shitewa",
+  "meaning": "For… / considering… (contrary to expectation)",
+  "simpleExplanation": "〜にしては compares reality with what you would expect from a label: 子供にしては難しい言葉を知っている = for a child, he knows difficult words. The noun sets an expectation; the main clause breaks it. It works for both pleasant and unpleasant surprises.",
+  "whenUsed": "Everyday speech and writing. Takes nouns and plain clauses (来たばかりにしては). Not used when the expectation is met.",
+  "formation": [
+    "Noun + にしては",
+    "Plain form + にしては",
+    "Main clause: something that contradicts the expectation"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "にしては / として / わりに",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜にしては",
+        "cells": [
+          "for a… (surprising)",
+          "子供にしては上手だ"
+        ]
+      },
+      {
+        "label": "〜として",
+        "cells": [
+          "as a… (role)",
+          "子供として参加した"
+        ]
+      },
+      {
+        "label": "〜わりに(は)",
+        "cells": [
+          "considering (relative)",
+          "値段のわりにおいしい"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は日本に来たばかりにしては、日本語が上手だ。",
+      "reading": "かれはにほんにきたばかりにしては、にほんごがじょうずだ。",
+      "en": "For someone who just came to Japan, his Japanese is good.",
+      "note": "Clause + にしては: just arrived, yet good Japanese."
+    },
+    {
+      "ja": "子供にしては、難しい言葉を知っている。",
+      "reading": "こどもにしては、むずかしいことばをしっている。",
+      "en": "For a child, he knows difficult words.",
+      "note": "Noun + にしては: for a child."
+    },
+    {
+      "ja": "十二月にしては暖かい。",
+      "reading": "じゅうにがつにしてはあたたかい。",
+      "en": "It's warm for December.",
+      "note": "Time noun + にしては: warm for December."
+    },
+    {
+      "ja": "初めて作ったにしては、なかなかおいしくできたね。",
+      "reading": "はじめてつくったにしては、なかなかおいしくできたね。",
+      "en": "For a first attempt, it turned out pretty tasty.",
+      "note": "Past clause + にしては + praise."
+    },
+    {
+      "ja": "この店はレストランにしては、値段が安い。",
+      "reading": "このみせはレストランにしては、ねだんがやすい。",
+      "en": "For a restaurant, this place is cheap.",
+      "note": "Category noun + にしては."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜として",
+      "difference": "The role itself, no surprise.",
+      "id": "n3-grammar-27"
+    },
+    {
+      "pattern": "〜わりに(は)",
+      "difference": "Similar, but takes adjectives too (高いわりに) and feels more relative than surprising."
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "\"Even if / even granting\": a concession, not a comparison to expectation.",
+      "id": "n3-grammar-67"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は日本人にしては、日本語が上手だ。",
+      "right": "彼は外国人にしては、日本語が上手だ。",
+      "why": "The noun must set an expectation that is broken; a Japanese person speaking Japanese well is expected."
+    },
+    {
+      "wrong": "高いにしては",
+      "right": "高いわりに / 値段にしては",
+      "why": "にしては takes nouns or verb clauses, not bare い-adjectives; use わりに."
+    },
+    {
+      "wrong": "医者にしては、たばこは勧めない。(intended: as a doctor)",
+      "right": "医者として、たばこは勧めない。",
+      "why": "A role from which one speaks uses として."
+    }
+  ],
+  "usageNotes": [
+    "Contrasts with 〜として (as expected of). Compare 〜わりに(は): similar, but わりに can take adjectives (高いわりに) while にしては takes nouns/facts.",
+    "Common with quantities and times: 十二月にしては, 三年目にしては, 初心者にしては."
+  ],
+  "jlptTips": [
+    "A label noun + blank + a fact that surprises = にしては.",
+    "として is the main trap: ask whether the main clause contradicts the expectation.",
+    "い-adjective before the blank means わりに, not にしては."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-66-1",
+    "q-n3-g-66-2",
+    "q-n3-g-66-3",
+    "q-n3-g-66-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-66-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

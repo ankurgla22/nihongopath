@@ -1,0 +1,146 @@
+{
+  "id": "n4-grammar-9",
+  "slug": "to-conditional",
+  "level": "n4",
+  "order": 9,
+  "title": "〜と (conditional) \"when / whenever / if\"",
+  "romaji": "to (jouken)",
+  "meaning": "Natural, automatic or inevitable results: \"whenever A happens, B happens\". Also for discoveries (〜と、〜があった).",
+  "simpleExplanation": "〜と links a cause and an automatic result: \"whenever A happens, B always happens\". このボタンを押すと、お湯が出ます = when you press this button, hot water comes out. Because the result is natural or automatic, you cannot put your own wishes, requests or commands after と. In the past tense, と describes a discovery: 家に帰ると、誰もいなかった (when I got home, nobody was there).",
+  "whenUsed": "Explaining how machines work, giving directions (角を曲がると銀行があります), describing seasons and nature (春になると桜が咲く), general truths (二に三を足すと五になる), habits, and story-like discoveries in the past tense.",
+  "formation": [
+    "V-dictionary + と / V-ない + と: 押すと, 行かないと",
+    "い-adjective + と: 高いと",
+    "な-adjective + だと / Noun + だと: 静かだと, 雨だと",
+    "Main clause: a natural result or a discovery (past), never a request, command, invitation or intention"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "と vs たら before a request",
+    "columns": [
+      "Sentence",
+      "OK?",
+      "Why"
+    ],
+    "rows": [
+      {
+        "label": "ボタンを押すと、お湯が出ます",
+        "cells": [
+          "natural result",
+          "OK",
+          "automatic outcome"
+        ]
+      },
+      {
+        "label": "駅に着くと、電話してください",
+        "cells": [
+          "request",
+          "wrong",
+          "と cannot precede a request"
+        ]
+      },
+      {
+        "label": "駅に着いたら、電話してください",
+        "cells": [
+          "request",
+          "OK",
+          "たら allows requests"
+        ]
+      },
+      {
+        "label": "家に帰ると、手紙が来ていた",
+        "cells": [
+          "discovery (past)",
+          "OK",
+          "と + past = 'when I…, I found…'"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "このボタンを押すと、お湯が出ます。",
+      "reading": "この ボタンを おすと、おゆが でます。",
+      "en": "When you press this button, hot water comes out.",
+      "note": "Machine explanation: pressing always produces the same result."
+    },
+    {
+      "ja": "春になると、桜が咲きます。",
+      "reading": "はるに なると、さくらが さきます。",
+      "en": "When spring comes, cherry blossoms bloom.",
+      "note": "Nature: an automatic, repeated event."
+    },
+    {
+      "ja": "角を曲がると、銀行があります。",
+      "reading": "かどを まがると、ぎんこうが あります。",
+      "en": "When you turn the corner, there is a bank.",
+      "note": "Directions: 'when you turn the corner, there is…'."
+    },
+    {
+      "ja": "お酒を飲むと、顔が赤くなります。",
+      "reading": "おさけを のむと、かおが あかくなります。",
+      "en": "When I drink alcohol, my face turns red.",
+      "note": "A habitual, automatic reaction."
+    },
+    {
+      "ja": "朝起きると、庭に雪が積もっていた。",
+      "reading": "あさ おきると、にわに ゆきが つもっていた。",
+      "en": "When I got up in the morning, snow had piled up in the garden.",
+      "note": "Past-tense discovery: the speaker found something unexpected."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら",
+      "difference": "たら is the all-purpose conditional and allows requests and wishes in the result. と is limited to automatic results and discoveries.",
+      "id": "n4-grammar-11"
+    },
+    {
+      "pattern": "〜ば",
+      "difference": "ば focuses on the condition needed (\"if you do A\"). と focuses on the automatic result.",
+      "id": "n4-grammar-10"
+    },
+    {
+      "pattern": "Conditional comparison table",
+      "difference": "See the side-by-side table of と / ば / たら / なら.",
+      "id": "n4-grammar-13"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "駅に着くと、電話してください。",
+      "right": "駅に着いたら、電話してください。",
+      "why": "The result clause after と cannot be a request or command. Use たら."
+    },
+    {
+      "wrong": "暇だと、映画を見に行きましょう。",
+      "right": "暇だったら、映画を見に行きましょう。",
+      "why": "Invitations (〜ましょう) are not allowed after と."
+    },
+    {
+      "wrong": "雨と、試合は中止です。",
+      "right": "雨だと、試合は中止です。",
+      "why": "Nouns and な-adjectives need だ before と."
+    }
+  ],
+  "usageNotes": [
+    "と is the natural choice for directions and instructions: まっすぐ行くと、右に郵便局があります.",
+    "In the past tense (〜と、〜た) the main clause is something the speaker discovered or that happened right after, not something the speaker chose to do.",
+    "〜ないと (casual) at the end of a sentence means \"I have to\" (もう行かないと = I've got to go), a shortening of 〜ないといけない (lesson 99)."
+  ],
+  "jlptTips": [
+    "If the second half is a request (〜てください), an invitation (〜ましょう) or a wish (〜たい), と is wrong. Eliminate it immediately and look at たら or なら.",
+    "If the sentence describes a machine, nature or a discovery with past tense (〜と、〜があった / いた), と is the best answer."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-9-1",
+    "q-n4-g-9-2",
+    "q-n4-g-9-3",
+    "q-n4-g-9-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-9-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

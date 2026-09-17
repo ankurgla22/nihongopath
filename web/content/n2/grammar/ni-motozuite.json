@@ -1,0 +1,146 @@
+{
+  "id": "n2-grammar-131",
+  "slug": "ni-motozuite",
+  "level": "n2",
+  "order": 131,
+  "title": "〜に基づいて / 〜に基づき / 〜に基づく",
+  "romaji": "ni motozuite / ni motozuki / ni motozuku",
+  "meaning": "based on, on the basis of (data, rules, facts)",
+  "simpleExplanation": "〜に基づいて means \"based on X\": X is the foundation, evidence, or standard from which an action or judgment is made. 調査結果に基づいて対策を立てた. X is typically data, facts, law, experience, or a plan. The noun-modifying form 〜に基づく / 〜に基づいた + N is very common in formal writing.",
+  "whenUsed": "Formal written and spoken Japanese: reports, law, academic writing, business. In conversation people say 〜をもとに or 〜によって. に基づき is the stiffest, used in legal and official texts.",
+  "formation": [
+    "Noun + に基づいて / に基づき",
+    "Noun + に基づく + Noun / に基づいた + Noun",
+    "Typical nouns: データ・調査・事実・法律・規則・経験・計画・証拠"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜に基づいて",
+      "〜をもとに"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "grounded on a standard, evidence, or rule",
+          "using X as raw material or a starting point"
+        ]
+      },
+      {
+        "label": "Typical nouns",
+        "cells": [
+          "法律, 規則, データ, 事実, 証拠",
+          "実話, 経験, アンケート, アイデア"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "formal, official",
+          "neutral, both registers"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "法律に基づき処分する",
+          "実話をもとに映画を作る"
+        ]
+      }
+    ],
+    "title": "Foundation versus material"
+  },
+  "examples": [
+    {
+      "ja": "調査結果に基づいて、対策を立てた。",
+      "reading": "ちょうさけっかにもとづいて、たいさくをたてた。",
+      "en": "We drew up countermeasures based on the survey results.",
+      "note": "Data as the basis for countermeasures."
+    },
+    {
+      "ja": "法律に基づき、処分が決定された。",
+      "reading": "ほうりつにもとづき、しょぶんがけっていされた。",
+      "en": "The penalty was decided based on the law.",
+      "note": "に基づき: legal or official style."
+    },
+    {
+      "ja": "事実に基づく報道が求められている。",
+      "reading": "じじつにもとづくほうどうがもとめられている。",
+      "en": "Reporting based on facts is being demanded.",
+      "note": "に基づく + noun: reporting grounded in facts."
+    },
+    {
+      "ja": "この判断は長年の経験に基づいている。",
+      "reading": "このはんだんはながねんのけいけんにもとづいている。",
+      "en": "This judgment is based on many years of experience.",
+      "note": "Predicate use: に基づいている."
+    },
+    {
+      "ja": "科学的な根拠に基づいた説明が求められる。",
+      "reading": "かがくてきなこんきょにもとづいたせつめいがもとめられる。",
+      "en": "An explanation based on scientific evidence is required.",
+      "note": "に基づいた + noun; interchangeable with に基づく here."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をもとに",
+      "difference": "\"Using X as material\"; X is a source to build from (a true story, survey answers), not a rule or standard.",
+      "id": "n2-grammar-176"
+    },
+    {
+      "pattern": "〜によって",
+      "difference": "\"By means of / depending on\"; broader and does not imply a foundation.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜に沿って",
+      "difference": "\"In line with a guideline\": keeping to a policy rather than deriving from evidence.",
+      "id": "n2-grammar-120"
+    },
+    {
+      "pattern": "〜に従って",
+      "difference": "\"In accordance with (rules / instructions)\": obedience rather than reasoning.",
+      "id": "n2-grammar-113"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "実話に基づいて小説を書いた。(possible but…)",
+      "right": "実話をもとに小説を書いた。",
+      "why": "Both are grammatical, but material for a creative work is more naturally をもとに; に基づいて suits rules and data."
+    },
+    {
+      "wrong": "データに基づいて分析",
+      "right": "データに基づく分析 / データに基づいた分析",
+      "why": "Before a noun use に基づく or に基づいた."
+    },
+    {
+      "wrong": "先生に基づいて決めた。",
+      "right": "先生の意見に基づいて決めた。",
+      "why": "The base must be an abstract noun (opinion, data), not a person."
+    }
+  ],
+  "usageNotes": [
+    "Kanji: 基づく = to be based on; the stem 基 means foundation.",
+    "Official texts: 法律に基づき / 規定に基づき / 契約に基づき.",
+    "Predicate use に基づいている states that something rests on a foundation."
+  ],
+  "jlptTips": [
+    "If the noun is 法律, 規則, データ, 事実 or 証拠, に基づいて is the likely answer; if it is 実話 or アンケートの結果 used as material, をもとに competes.",
+    "Before a noun, pick に基づく / に基づいた, not に基づいて.",
+    "Distractors include に沿って, に伴って, によって. Only に基づいて states a foundation of evidence."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-131-1",
+    "q-n2-g-131-2",
+    "q-n2-g-131-3",
+    "q-n2-g-131-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-131-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

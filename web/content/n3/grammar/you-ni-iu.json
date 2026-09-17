@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-115",
+  "slug": "you-ni-iu",
+  "level": "n3",
+  "order": 115,
+  "title": "〜ように言う / 〜ように頼む / 〜ように注意する",
+  "romaji": "you ni iu / tanomu / chuui suru",
+  "meaning": "tell / ask / warn (someone) to… (indirect command or request)",
+  "simpleExplanation": "〜ように言う reports an instruction without quoting it word for word: 医者は父に酒をやめるように言った \"the doctor told my father to stop drinking\". The same ように works with 頼む (ask), 注意する (warn), 伝える (pass on a message), 命じる (order). The person told is marked with に.",
+  "whenUsed": "Reporting what someone told, asked or warned someone else to do; giving messages (〜ようにお伝えください). Both speech and writing.",
+  "formation": [
+    "(Person に) Verb (dictionary form) + ように + 言う / 頼む / 注意する / 伝える",
+    "(Person に) Verb ない-form + ように + 言う (tell not to)",
+    "Passive: 〜ように言われた (was told to)",
+    "Message: 〜ようにお伝えください"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Direct quote vs indirect ように",
+    "columns": [
+      "Form",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Direct quote",
+        "cells": [
+          "「酒をやめなさい」と言った",
+          "said, 'Stop drinking.'"
+        ]
+      },
+      {
+        "label": "Indirect with ように",
+        "cells": [
+          "酒をやめるように言った",
+          "told him to stop drinking"
+        ]
+      },
+      {
+        "label": "Passive",
+        "cells": [
+          "酒をやめるように言われた",
+          "was told to stop drinking"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "医者は父に酒をやめるように言った。",
+      "reading": "いしゃはちちにさけをやめるようにいった。",
+      "en": "The doctor told my father to quit drinking.",
+      "note": "Doctor → father: ように言った."
+    },
+    {
+      "ja": "弟に部屋を片付けるように頼んだ。",
+      "reading": "おとうとにへやをかたづけるようにたのんだ。",
+      "en": "I asked my brother to tidy his room.",
+      "note": "A request: ように頼んだ."
+    },
+    {
+      "ja": "先生は学生に遅れないように注意した。",
+      "reading": "せんせいはがくせいにおくれないようにちゅういした。",
+      "en": "The teacher warned the students not to be late.",
+      "note": "A warning: ないように注意した."
+    },
+    {
+      "ja": "上司に、明日までに報告書を出すように言われた。",
+      "reading": "じょうしに、あしたまでにほうこくしょをだすようにいわれた。",
+      "en": "I was told by my boss to submit the report by tomorrow.",
+      "note": "Passive 言われた: the speaker received the instruction."
+    },
+    {
+      "ja": "田中さんに、後で私に電話するようにお伝えください。",
+      "reading": "たなかさんに、あとでわたしにでんわするようにおつたえください。",
+      "en": "Please tell Mr Tanaka to call me later.",
+      "note": "Leaving a message: ようにお伝えください."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と言う",
+      "difference": "Quotes the words (「来い」と言った). ように言う reports the content as a command."
+    },
+    {
+      "pattern": "〜ようにする",
+      "difference": "An effort by the subject, not a message to someone.",
+      "id": "n3-grammar-114"
+    },
+    {
+      "pattern": "〜てほしいと言う",
+      "difference": "Reports a wish ('said they wanted me to'); ように言う is a neutral report of an instruction.",
+      "id": "n3-grammar-89"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "医者は父に酒をやめてように言った。",
+      "right": "医者は父に酒をやめるように言った。",
+      "why": "ように follows the dictionary form (or ない-form), not the て-form."
+    },
+    {
+      "wrong": "先生は学生に遅れないと注意した。",
+      "right": "先生は学生に遅れないように注意した。",
+      "why": "An indirect warning needs ように; と would quote the words 遅れない, which does not work here."
+    },
+    {
+      "wrong": "私は彼を早く来るように頼んだ。",
+      "right": "私は彼に早く来るように頼んだ。",
+      "why": "The person asked is marked with に."
+    }
+  ],
+  "usageNotes": [
+    "Polite-form verbs are not used before ように (×来ますように言う).",
+    "〜ようにと言った (with と) is also common and slightly more emphatic.",
+    "In 聴解, 'What was X told to do?' questions hinge on the verb before ように."
+  ],
+  "jlptTips": [
+    "Verbs of telling (言う, 頼む, 注意する, 伝える, 命令する) after the blank → ように.",
+    "Choose the dictionary or ない-form before ように; て-forms are traps.",
+    "If a message is being left, expect 〜ようにお伝えください."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-115-1",
+    "q-n3-g-115-2",
+    "q-n3-g-115-3",
+    "q-n3-g-115-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-115-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

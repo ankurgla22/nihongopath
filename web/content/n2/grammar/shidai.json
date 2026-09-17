@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-54",
+  "slug": "shidai",
+  "level": "n2",
+  "order": 54,
+  "title": "〜次第",
+  "romaji": "shidai (as soon as)",
+  "meaning": "as soon as (formal)",
+  "simpleExplanation": "〜次第 means \"as soon as…\" in formal, business-like language: I will contact you as soon as the details are known; we will ship as soon as the goods arrive. The speaker promises an action immediately after the trigger.",
+  "whenUsed": "書き言葉 and polite spoken business Japanese. It follows the Vます stem (分かり次第) or a する-noun (到着次第). The second clause is the speaker's planned action (ご連絡します・伺います), not a past event or something outside the speaker's control.",
+  "formation": [
+    "Vます + 次第 / N(する-noun) + 次第"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "詳細が分かり",
+        "role": "trigger (Vます stem / する-noun)"
+      },
+      {
+        "text": "次第",
+        "role": "as soon as…",
+        "highlight": true
+      },
+      {
+        "text": "ご連絡します",
+        "role": "speaker's promised action (future)"
+      }
+    ],
+    "translation": "I will contact you as soon as the details are known."
+  },
+  "examples": [
+    {
+      "ja": "詳細が分かり次第、ご連絡します。",
+      "reading": "しょうさいがわかりしだい、ごれんらくします。",
+      "en": "I will contact you as soon as the details are known.",
+      "note": "Vます + 次第 + ご連絡します."
+    },
+    {
+      "ja": "会議が終わり次第、伺います。",
+      "reading": "かいぎがおわりしだい、うかがいます。",
+      "en": "I'll come as soon as the meeting ends.",
+      "note": "Vます + 次第 + 伺います."
+    },
+    {
+      "ja": "商品が到着次第、お送りします。",
+      "reading": "しょうひんがとうちゃくしだい、おおくりします。",
+      "en": "We will ship as soon as the goods arrive.",
+      "note": "する-noun + 次第."
+    },
+    {
+      "ja": "部屋の準備ができ次第、ご案内いたします。",
+      "reading": "へやのじゅんびができしだい、ごあんないいたします。",
+      "en": "We will show you to your room as soon as it is ready.",
+      "note": "Hotel language."
+    },
+    {
+      "ja": "資料が届き次第、すぐに確認して返事をします。",
+      "reading": "しりょうがとどきしだい、すぐにかくにんしてへんじをします。",
+      "en": "As soon as the documents arrive, I will check them and reply right away.",
+      "note": "すぐに can be added for emphasis."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たらすぐに",
+      "difference": "Everyday equivalent; usable for any events, including past ones."
+    },
+    {
+      "pattern": "〜次第で(は) / 〜次第だ",
+      "difference": "Different meaning: \"depending on\".",
+      "id": "n2-grammar-55"
+    },
+    {
+      "pattern": "〜たとたん",
+      "difference": "\"The moment\": a past, often surprising event; not a promise.",
+      "id": "n2-grammar-67"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "駅に着き次第、雨が降り出した。",
+      "right": "駅に着いたとたん、雨が降り出した。",
+      "why": "次第 is for the speaker's intended future action, not an uncontrolled past event."
+    },
+    {
+      "wrong": "分かる次第、連絡します。",
+      "right": "分かり次第、連絡します。",
+      "why": "Use the Vます stem."
+    },
+    {
+      "wrong": "会議が終わり次第で、伺います。",
+      "right": "会議が終わり次第、伺います。",
+      "why": "No で in the \"as soon as\" use; 次第で means \"depending on\"."
+    }
+  ],
+  "usageNotes": [
+    "Frequent stems: 分かり次第, 決まり次第, 終わり次第, 着き次第, でき次第.",
+    "する-nouns: 到着次第, 完成次第, 確認次第.",
+    "The second clause is often humble/polite: ご連絡いたします, お送りします, 伺います."
+  ],
+  "jlptTips": [
+    "Business tone + Vます stem + blank + a promised future action → 次第.",
+    "Distractors: 次第で, とたんに, うちに. A past event after the blank rules out 次第 (choose とたんに).",
+    "Watch for 次第で vs 次第: with で the meaning switches to \"depending on\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-54-1",
+    "q-n2-g-54-2",
+    "q-n2-g-54-3",
+    "q-n2-g-54-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-54-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

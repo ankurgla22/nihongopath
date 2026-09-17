@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-49",
+  "slug": "hodo-nai",
+  "level": "n3",
+  "order": 49,
+  "title": "〜ほど〜ない",
+  "romaji": "hodo nai",
+  "meaning": "Not as… as…",
+  "simpleExplanation": "A は B ほど〜ない says A is less than B: 東京は大阪ほどにぎやかではない = Tokyo is not as lively as Osaka. The thing after ほど is the higher one. With 思ったほど it means \"not as… as I thought\".",
+  "whenUsed": "Everyday comparisons, mild negative evaluations. Very common with 思ったほど, 期待したほど, 言うほど.",
+  "formation": [
+    "Noun + ほど + negative",
+    "Verb (dictionary / た) + ほど + negative",
+    "Set phrases: 思ったほど〜ない / 期待したほど〜ない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私は",
+        "role": "A (the lower one)"
+      },
+      {
+        "text": "兄",
+        "role": "B (the higher one)"
+      },
+      {
+        "text": "ほど",
+        "role": "as much as",
+        "highlight": true
+      },
+      {
+        "text": "背が高くない。",
+        "role": "negative",
+        "highlight": true
+      }
+    ],
+    "translation": "I am not as tall as my brother."
+  },
+  "examples": [
+    {
+      "ja": "東京は大阪ほどにぎやかではない。",
+      "reading": "とうきょうはおおさかほどにぎやかではない。",
+      "en": "Tokyo is not as lively as Osaka. (speaker's view)",
+      "note": "Comparison of cities; the speaker's opinion."
+    },
+    {
+      "ja": "思ったほど難しくなかった。",
+      "reading": "おもったほどむずかしくなかった。",
+      "en": "It wasn't as hard as I thought.",
+      "note": "思ったほど + negative: less than expected."
+    },
+    {
+      "ja": "私は兄ほど背が高くない。",
+      "reading": "わたしはあにほどせがたかくない。",
+      "en": "I am not as tall as my brother.",
+      "note": "Comparison of people."
+    },
+    {
+      "ja": "今年の冬は、去年ほど寒くなさそうだ。",
+      "reading": "ことしのふゆは、きょねんほどさむくなさそうだ。",
+      "en": "This winter doesn't seem as cold as last year.",
+      "note": "ほど + negative + そうだ."
+    },
+    {
+      "ja": "新しい映画は、期待したほど面白くなかった。",
+      "reading": "あたらしいえいがは、きたいしたほどおもしろくなかった。",
+      "en": "The new movie wasn't as good as I'd expected.",
+      "note": "期待したほど〜なかった is a fixed pattern."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "Positive comparison: A は B より高い. ほど〜ない is the negative direction."
+    },
+    {
+      "pattern": "〜に比べて",
+      "difference": "Explicit comparison, can be positive or negative.",
+      "id": "n3-grammar-31"
+    },
+    {
+      "pattern": "〜ほど",
+      "difference": "Same ほど in a positive sentence means \"to the extent of\".",
+      "id": "n3-grammar-48"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "東京は大阪ほどにぎやかだ。",
+      "right": "東京は大阪ほどにぎやかではない。/ 東京は大阪よりにぎやかだ。",
+      "why": "ほど with a positive predicate in a comparison is wrong; use より for the positive direction."
+    },
+    {
+      "wrong": "私は兄より背が高くない。",
+      "right": "私は兄ほど背が高くない。",
+      "why": "\"Not as tall as\" uses ほど〜ない; より + negative is unnatural."
+    },
+    {
+      "wrong": "思うほど難しくなかった。",
+      "right": "思ったほど難しくなかった。",
+      "why": "The set phrase uses the past: 思ったほど."
+    }
+  ],
+  "usageNotes": [
+    "Equivalent to A は B ほど〜ない. 〜くらい〜ない is possible but ほど is standard. Positive comparison uses より.",
+    "Answering a question like 「難しかった？」 with 思ったほどじゃなかった is very natural."
+  ],
+  "jlptTips": [
+    "A negative predicate with a comparison noun before the blank = ほど.",
+    "より + negative is the designed trap; choose ほど.",
+    "思ったほど / 期待したほど + negative are fixed collocations tested in 文法形式."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-49-1",
+    "q-n3-g-49-2",
+    "q-n3-g-49-3",
+    "q-n3-g-49-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-49-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

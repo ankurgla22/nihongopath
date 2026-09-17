@@ -1,0 +1,128 @@
+{
+  "id": "n3-grammar-127",
+  "slug": "de-aru",
+  "level": "n3",
+  "order": 127,
+  "title": "〜である / 〜ではない (formal written copula)",
+  "romaji": "de aru / dewa nai",
+  "meaning": "is / is not (formal written copula)",
+  "simpleExplanation": "〜である is the formal written way to say \"is\": 東京は日本の首都である. It replaces だ in essays, reports and newspapers. The negative is ではない, the past であった, and the connective form であり (\"is… and\"). Do not mix である with です・ます in the same text.",
+  "whenUsed": "Academic writing, reports, newspaper articles, formal speeches, and before nouns in written style: 学生である私. It is also used inside clauses in speech where a noun needs to connect: 教師である以上.",
+  "formation": [
+    "Noun / な-adjective + である (present)",
+    "〜であった (past) / 〜ではない (negative) / 〜ではなかった",
+    "Connective: 〜であり、〜 / 〜であって",
+    "Before a noun: 〜である + Noun (学者である彼)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "である",
+    "rootLabel": "formal written copula",
+    "branches": [
+      {
+        "suffix": "present",
+        "result": "首都である",
+        "label": "is the capital"
+      },
+      {
+        "suffix": "past",
+        "result": "首都であった",
+        "label": "was the capital"
+      },
+      {
+        "suffix": "negative",
+        "result": "首都ではない",
+        "label": "is not the capital"
+      },
+      {
+        "suffix": "connective",
+        "result": "首都であり、",
+        "label": "is the capital, and…"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "東京は日本の首都である。",
+      "reading": "とうきょうはにほんのしゅとである。",
+      "en": "Tokyo is the capital of Japan.",
+      "note": "Plain statement in written style."
+    },
+    {
+      "ja": "彼は学者であり、詩人でもある。",
+      "reading": "かれはがくしゃであり、しじんでもある。",
+      "en": "He is a scholar and also a poet.",
+      "note": "であり links two predicates; でもある adds 'also'."
+    },
+    {
+      "ja": "それは簡単な問題ではない。",
+      "reading": "それはかんたんなもんだいではない。",
+      "en": "That is not a simple problem.",
+      "note": "Negative ではない."
+    },
+    {
+      "ja": "教育は国の未来を作るものであり、最も重要な投資である。",
+      "reading": "きょういくはくにのみらいをつくるものであり、もっともじゅうようなとうしである。",
+      "en": "Education is what shapes a nation's future, and it is the most important investment.",
+      "note": "であり as a connective in essay style."
+    },
+    {
+      "ja": "医者である父は、毎日忙しい。",
+      "reading": "いしゃであるちちは、まいにちいそがしい。",
+      "en": "My father, who is a doctor, is busy every day.",
+      "note": "である before a noun: 'my father, who is…'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "だ / です",
+      "difference": "だ is plain spoken/written; です is polite. である is formal written."
+    },
+    {
+      "pattern": "〜ではなく",
+      "difference": "The connective negative 'not X but Y', used in both speech and writing."
+    },
+    {
+      "pattern": "〜でございます",
+      "difference": "Very polite spoken copula for customer service; not a written formal form."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "東京は日本の首都であるです。",
+      "right": "東京は日本の首都である。/ 首都です。",
+      "why": "である and です are alternatives; never stack them."
+    },
+    {
+      "wrong": "レポートで「〜である。〜です。」と混ぜる",
+      "right": "Keep one style throughout: all である or all です・ます.",
+      "why": "Mixing registers within a text is considered an error."
+    },
+    {
+      "wrong": "便利なである",
+      "right": "便利である",
+      "why": "な-adjectives attach directly (no な) before である."
+    }
+  ],
+  "usageNotes": [
+    "Grammar patterns often require である after nouns: N である一方で, N である以上, N であるかのように.",
+    "でもある = 'is also' (詩人でもある).",
+    "In speech, である sounds stiff; use it only in formal presentations or quotes."
+  ],
+  "jlptTips": [
+    "Formal essay passages with a blank after a noun or な-adjective → である / ではない.",
+    "For 'and' between two predicates in written style, choose であり.",
+    "Before nouns in formal patterns (以上, 一方で), the connector is である, not の or な."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-127-1",
+    "q-n3-g-127-2",
+    "q-n3-g-127-3",
+    "q-n3-g-127-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-127-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

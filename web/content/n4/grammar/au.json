@@ -1,0 +1,125 @@
+{
+  "id": "n4-grammar-83",
+  "slug": "au",
+  "level": "n4",
+  "order": 83,
+  "title": "〜合う \"do to each other / together\"",
+  "romaji": "-au",
+  "meaning": "Reciprocal action between two or more people.",
+  "simpleExplanation": "V-ます stem + 合う means \"do to each other / do together\": 話し合う (talk with each other, discuss), 助け合う (help each other), 知り合う (get to know each other). 合う on its own means \"to fit / to match\", so the compound shows that two or more people's actions fit together. The partner is marked with と, or the subject is plural (二人は, みんなで).",
+  "whenUsed": "Talking about relationships and cooperation: discussions (話し合う), mutual support (助け合う), meeting people (知り合う, 付き合う = go out with / keep company with), and arranging to meet (待ち合わせる). Common in speeches about teamwork and in everyday stories about friends.",
+  "formation": [
+    "V-ます stem + 合う: 話す → 話し合う, 助ける → 助け合う, 知る → 知り合う, 愛する → 愛し合う",
+    "Partner with と: 友達と話し合う; or plural subject: 二人は助け合った",
+    "Conjugates as Group 1: 合います / 合った / 合って",
+    "Note: 間に合う (be in time) and 似合う (suit) are not reciprocal"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私は",
+        "role": "subject (one side)"
+      },
+      {
+        "text": "友達と",
+        "role": "partner: と",
+        "highlight": true
+      },
+      {
+        "text": "意見を",
+        "role": "object"
+      },
+      {
+        "text": "話し合いました",
+        "role": "V-stem + 合う: did it to each other",
+        "highlight": true
+      }
+    ],
+    "translation": "I discussed opinions with my friend (we talked with each other)."
+  },
+  "examples": [
+    {
+      "ja": "友達と意見を話し合いました。",
+      "reading": "ともだちと いけんを はなしあいました。",
+      "en": "I discussed opinions with my friend.",
+      "note": "話す → 話し合う: both sides talk; 友達と marks the partner."
+    },
+    {
+      "ja": "困ったときは助け合いましょう。",
+      "reading": "こまった ときは たすけあいましょう。",
+      "en": "Let's help each other when in trouble.",
+      "note": "助ける → 助け合う: mutual help, with ましょう as a call to cooperate."
+    },
+    {
+      "ja": "二人は駅で待ち合わせた。",
+      "reading": "ふたりは えきで まちあわせた。",
+      "en": "The two arranged to meet at the station.",
+      "note": "待ち合わせる (transitive 合わせる): arrange to meet; the two are the plural subject."
+    },
+    {
+      "ja": "二人は大学で知り合って、三年後に結婚した。",
+      "reading": "ふたりは だいがくで しりあって、さんねんごに けっこんした。",
+      "en": "The two met at university and married three years later.",
+      "note": "知り合う = get to know each other; plural subject 二人は."
+    },
+    {
+      "ja": "問題があるときは、家族でよく話し合ったほうがいい。",
+      "reading": "もんだいが あるときは、かぞくで よく はなしあったほうが いい。",
+      "en": "When there is a problem, it's better for the family to talk it over together.",
+      "note": "家族で (as a family) makes the group the joint subject."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "お互いに",
+      "difference": "The adverb \"each other\" can add the same meaning to any verb (お互いに助ける). 〜合う builds the meaning into the verb itself."
+    },
+    {
+      "pattern": "一緒に + verb",
+      "difference": "一緒に食べる = eat together (side by side). 〜合う means the action is directed at each other."
+    },
+    {
+      "pattern": "Transitive / intransitive pairs",
+      "difference": "合う (intransitive: match) / 合わせる (transitive: put together) is one such pair; 待ち合わせる uses the transitive side.",
+      "id": "n4-grammar-112"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友達に話し合った。",
+      "right": "友達と話し合った。",
+      "why": "The partner of a reciprocal action takes と (with), not に."
+    },
+    {
+      "wrong": "私は電車に間に合い合った。",
+      "right": "私は電車に間に合った。",
+      "why": "間に合う (be in time) already contains 合う and is not reciprocal; do not add another 合う."
+    },
+    {
+      "wrong": "話す合う",
+      "right": "話し合う",
+      "why": "合う attaches to the ます-stem."
+    }
+  ],
+  "usageNotes": [
+    "Common compounds: 話し合う, 助け合う, 知り合う, 付き合う, 言い合う (argue), 笑い合う, 分かり合う (understand each other), 支え合う (support each other).",
+    "The noun forms are common too: 話し合い (a discussion), 知り合い (an acquaintance), 付き合い (relationship / socialising).",
+    "待ち合わせ (meeting arrangement) is a noun made from the transitive 合わせる: 駅で待ち合わせをする."
+  ],
+  "jlptTips": [
+    "A partner marked with と or a plural subject (二人は, みんなで, お互いに) plus a verb blank suggests 〜合う.",
+    "Watch for non-reciprocal 合う words in the options: 間に合う (be in time), 似合う (suit), 気が合う (get along). Meaning, not form, decides."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-83-1",
+    "q-n4-g-83-2",
+    "q-n4-g-83-3",
+    "q-n4-g-83-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-83-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

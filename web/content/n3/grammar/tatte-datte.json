@@ -1,0 +1,120 @@
+{
+  "id": "n3-grammar-76",
+  "slug": "tatte-datte",
+  "level": "n3",
+  "order": 76,
+  "title": "〜たって / 〜だって",
+  "romaji": "tatte / datte",
+  "meaning": "even if… / no matter how much… (casual 〜ても)",
+  "simpleExplanation": "〜たって is the relaxed, spoken version of 〜ても: \"even if you run now, you won't make it\". 〜だって is the same thing after nouns and な-adjectives, and after a noun it can also mean \"even (a noun)\", like でも: 大人だって間違える (even adults make mistakes).",
+  "whenUsed": "Conversation between friends and family, manga, drama dialogue. Do not use it in essays or formal emails; write 〜ても instead. Often combined with いくら / どんなに / 何を to mean \"no matter how\".",
+  "formation": [
+    "Verb た-form + って (走った → 走ったって)",
+    "い-adjective -く + たって (高い → 高くたって)",
+    "な-adjective / Noun + だって",
+    "Negative: 〜なくたって (= 〜なくても)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "走っても間に合わない",
+        "en": "Even if you run, you won't make it (neutral 〜ても)"
+      },
+      {
+        "ja": "走ったって間に合わない",
+        "en": "Same meaning, casual spoken 〜たって"
+      },
+      {
+        "ja": "いくら走ったって間に合わない",
+        "en": "No matter how much you run, you won't make it (with いくら)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今から走ったって、間に合わないよ。",
+      "reading": "いまからはしったって、まにあわないよ。",
+      "en": "Even if you run now, you won't make it.",
+      "note": "走った + って = casual 走っても."
+    },
+    {
+      "ja": "いくら高くたって、これは買う。",
+      "reading": "いくらたかくたって、これはかう。",
+      "en": "No matter how expensive it is, I'm buying this.",
+      "note": "い-adjective: 高く + たって. いくら adds 'no matter how'."
+    },
+    {
+      "ja": "大人だって間違えることはある。",
+      "reading": "おとなだってまちがえることはある。",
+      "en": "Even adults make mistakes.",
+      "note": "Noun + だって = 'even adults'."
+    },
+    {
+      "ja": "そんなに急がなくたって、まだ時間はあるよ。",
+      "reading": "そんなにいそがなくたって、まだじかんはあるよ。",
+      "en": "You don't have to hurry that much; there's still time.",
+      "note": "Negative: 急がなく + たって = 急がなくても."
+    },
+    {
+      "ja": "どんなに好きだって、毎日は食べられない。",
+      "reading": "どんなにすきだって、まいにちはたべられない。",
+      "en": "No matter how much I like it, I can't eat it every day.",
+      "note": "な-adjective + だって."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ても",
+      "difference": "The standard form usable in all registers. たって/だって is only casual speech."
+    },
+    {
+      "pattern": "たとえ〜ても",
+      "difference": "Adds 'even supposing', more hypothetical and slightly formal.",
+      "id": "n3-grammar-64"
+    },
+    {
+      "pattern": "〜としても",
+      "difference": "'Even assuming that…' — takes a whole clause as a hypothesis, more formal.",
+      "id": "n3-grammar-65"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "いくら高いたって、これは買う。",
+      "right": "いくら高くたって、これは買う。",
+      "why": "い-adjectives change to -く before たって, just as they do before ても (高くても)."
+    },
+    {
+      "wrong": "レポートは、時間がなくたって提出せざるを得ない。(in a formal report)",
+      "right": "レポートは、時間がなくても提出せざるを得ない。",
+      "why": "たって is spoken and casual; in written or formal Japanese use ても."
+    },
+    {
+      "wrong": "今から走るたって間に合わない。",
+      "right": "今から走ったって間に合わない。",
+      "why": "たって attaches to the た-form (走った + って), not to the dictionary form."
+    }
+  ],
+  "usageNotes": [
+    "だって at the start of a sentence is a different word: 'but / because' (だって、忙しいんだもん).",
+    "何をしたって, どうしたって are set phrases meaning 'whatever I do'.",
+    "In listening, 〜たって is easy to mishear as 〜たって (quotation 'said that'); context tells them apart."
+  ],
+  "jlptTips": [
+    "The choices in a casual dialogue will often be たって vs ても vs たら; if いくら or どんなに appears, たって/ても is right and たら is not.",
+    "Check the form before the blank: た-form + って, adjective -く + たって, noun + だって.",
+    "Sentence-initial だって ('because') is a separate item; do not confuse it with the noun + だって pattern."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-76-1",
+    "q-n3-g-76-2",
+    "q-n3-g-76-3",
+    "q-n3-g-76-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-76-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

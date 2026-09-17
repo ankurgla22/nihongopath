@@ -1,0 +1,125 @@
+{
+  "id": "n3-grammar-86",
+  "slug": "komu",
+  "level": "n3",
+  "order": 86,
+  "title": "〜込む / 〜こむ",
+  "romaji": "komu",
+  "meaning": "into (movement inward) / deeply, thoroughly (intensifies the action)",
+  "simpleExplanation": "Verb stem + 込む has two jobs. (1) Movement into something: 飛び込む \"jump into\", 書き込む \"write into\", 持ち込む \"bring into\". (2) Going deep or staying in a state: 考え込む \"be lost in thought\", 黙り込む \"fall silent\", 落ち込む \"feel down\". In both cases the picture is something going inside and settling there.",
+  "whenUsed": "Very common in everyday verbs; you will meet it in vocabulary and reading rather than as a separate grammar item. Knowing the two senses helps you guess the meaning of new compounds (申し込む, 振り込む, 座り込む).",
+  "formation": [
+    "Verb ます-stem + 込む (Group 1 verb: 込んだ, 込んで, 込みます)",
+    "Sense 1 (into): 飛び込む, 入り込む, 持ち込む, 書き込む, 押し込む, 申し込む",
+    "Sense 2 (deep / lasting): 考え込む, 黙り込む, 落ち込む, 座り込む, 寝込む, 信じ込む"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two senses of 込む",
+    "columns": [
+      "Picture",
+      "Examples"
+    ],
+    "rows": [
+      {
+        "label": "Into (physical)",
+        "cells": [
+          "Something moves inside a space",
+          "電車に飛び込む, ノートに書き込む, 荷物を持ち込む"
+        ]
+      },
+      {
+        "label": "Deep / settled state",
+        "cells": [
+          "Someone sinks into a state and stays",
+          "考え込む, 黙り込む, 落ち込む, 寝込む"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は急いで電車に飛び込んだ。",
+      "reading": "かれはいそいででんしゃにとびこんだ。",
+      "en": "He hurriedly jumped into the train.",
+      "note": "Sense 1: jump into the train."
+    },
+    {
+      "ja": "大切なことはノートに書き込んでおく。",
+      "reading": "たいせつなことはノートにかきこんでおく。",
+      "en": "I write down important things in my notebook.",
+      "note": "Sense 1: write into the notebook."
+    },
+    {
+      "ja": "彼女はその問題を深く考え込んでいた。",
+      "reading": "かのじょはそのもんだいをふかくかんがえこんでいた。",
+      "en": "She was deeply absorbed in thinking about the problem.",
+      "note": "Sense 2: sink deep into thought."
+    },
+    {
+      "ja": "そのニュースを聞いて、彼はすっかり落ち込んでしまった。",
+      "reading": "そのニュースをきいて、かれはすっかりおちこんでしまった。",
+      "en": "Hearing that news, he became completely depressed.",
+      "note": "Sense 2: 落ち込む = sink into low spirits."
+    },
+    {
+      "ja": "会場に食べ物を持ち込むことはできません。",
+      "reading": "かいじょうにたべものをもちこむことはできません。",
+      "en": "You cannot bring food into the venue.",
+      "note": "Sense 1: 持ち込む = bring in. Common on signs."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜入れる / 〜入る",
+      "difference": "Plain 'put in / go in'. 込む adds force or depth (押し込む = shove in)."
+    },
+    {
+      "pattern": "〜きる",
+      "difference": "'Completely' about finishing; 込む is about going inside or deep.",
+      "id": "n3-grammar-84"
+    },
+    {
+      "pattern": "混む (crowded)",
+      "difference": "A separate verb: 電車が混んでいる 'the train is crowded'. Same sound, different kanji and meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "電車に飛ぶ込んだ。",
+      "right": "電車に飛び込んだ。",
+      "why": "込む attaches to the ます-stem (飛び)."
+    },
+    {
+      "wrong": "彼女は深く考え込みました。→ translated as 'she considered it carefully'",
+      "right": "考え込む = 'she was lost in thought / brooded'.",
+      "why": "Sense 2 describes sinking into a state, often with worry, not simply careful consideration."
+    },
+    {
+      "wrong": "道が込んでいる (written 込)",
+      "right": "道が混んでいる",
+      "why": "'Crowded' is 混む. The compound suffix is 込む."
+    }
+  ],
+  "usageNotes": [
+    "Set expressions worth memorising: 申し込む (apply), 振り込む (bank transfer), 思い込む (assume wrongly), 教え込む (drill into someone), 冷え込む (get very cold).",
+    "The noun form 〜込み appears in 税込み (tax included), 申し込み (application), 見込み (prospect).",
+    "Many 込む verbs are intransitive (落ち込む, 黙り込む) and take が for the person."
+  ],
+  "jlptTips": [
+    "Reading sections rely on you guessing compounds; if you see stem + 込む, think 'into' or 'deeply'.",
+    "In vocabulary questions, 落ち込む and 思い込む are frequent; remember they are about feelings and beliefs, not movement.",
+    "Do not confuse 込む with 混む; the JLPT may test the kanji in 文字・語彙."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-86-1",
+    "q-n3-g-86-2",
+    "q-n3-g-86-3",
+    "q-n3-g-86-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-86-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

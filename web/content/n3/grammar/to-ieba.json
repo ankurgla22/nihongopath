@@ -1,0 +1,140 @@
+{
+  "id": "n3-grammar-69",
+  "slug": "to-ieba",
+  "level": "n3",
+  "order": 69,
+  "title": "〜と言えば / 〜といえば",
+  "romaji": "to ieba",
+  "meaning": "Speaking of… / when you mention…",
+  "simpleExplanation": "〜といえば picks up something just mentioned and connects it to a related thought: 京都といえば、やはり金閣寺ですね = speaking of Kyoto, it has to be Kinkakuji. It is a conversational link. It can also concede partially: 好きといえば好きだが = if you ask whether I like it, I do, but…",
+  "whenUsed": "Conversation, essays that change topic smoothly. Variants: 〜というと (when you say), 〜といったら (emotional emphasis).",
+  "formation": [
+    "Noun + といえば",
+    "Plain form + といえば",
+    "Partial concession: A といえば A だが",
+    "Variants: 〜というと / 〜といったら"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Topic links",
+    "columns": [
+      "Use",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜といえば",
+        "cells": [
+          "speaking of (association)",
+          "京都といえば金閣寺"
+        ]
+      },
+      {
+        "label": "〜というと",
+        "cells": [
+          "when you say X (clarifying)",
+          "京都というと、あの京都？"
+        ]
+      },
+      {
+        "label": "〜といったら",
+        "cells": [
+          "emotional emphasis",
+          "あの暑さといったら！"
+        ]
+      },
+      {
+        "label": "〜といっても",
+        "cells": [
+          "although I say",
+          "京都といっても駅前だけ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "京都といえば、やはり金閣寺ですね。",
+      "reading": "きょうとといえば、やはりきんかくじですね。",
+      "en": "Speaking of Kyoto, it has to be Kinkakuji.",
+      "note": "Noun + といえば + typical association."
+    },
+    {
+      "ja": "山田さんといえば、最近見ませんね。",
+      "reading": "やまださんといえば、さいきんみませんね。",
+      "en": "Speaking of Yamada, I haven't seen him recently.",
+      "note": "Picking up a person's name to add news."
+    },
+    {
+      "ja": "寒いといえば、もう冬ですね。",
+      "reading": "さむいといえば、もうふゆですね。",
+      "en": "Speaking of cold, it's already winter, isn't it.",
+      "note": "い-adjective + といえば: linking to a related thought."
+    },
+    {
+      "ja": "「昨日、田中さんに会ったよ。」「田中さんといえば、来月結婚するんだって。」",
+      "reading": "「きのう、たなかさんにあったよ。」「たなかさんといえば、らいげつけっこんするんだって。」",
+      "en": "\"I met Tanaka yesterday.\" \"Speaking of Tanaka, I hear he's getting married next month.\"",
+      "note": "Picking up a name to add related information."
+    },
+    {
+      "ja": "この仕事は、楽といえば楽だが、給料が安い。",
+      "reading": "このしごとは、らくといえばらくだが、きゅうりょうがやすい。",
+      "en": "This job is easy, if you ask me, but the pay is low.",
+      "note": "Partial concession: A といえば A だが."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜といっても",
+      "difference": "\"Although I say\": corrects an overly strong impression.",
+      "id": "n3-grammar-70"
+    },
+    {
+      "pattern": "〜というのは",
+      "difference": "Defines a term; といえば associates.",
+      "id": "n3-grammar-13"
+    },
+    {
+      "pattern": "〜といったら",
+      "difference": "Emotional: あの人の顔といったら (the look on his face!)"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "京都というのは、金閣寺ですね。",
+      "right": "京都といえば、金閣寺ですね。",
+      "why": "というのは defines; \"speaking of\" is といえば."
+    },
+    {
+      "wrong": "京都といえば、桜を見て楽しむことです。",
+      "right": "花見というのは、桜を見て楽しむことです。",
+      "why": "A definition needs というのは."
+    },
+    {
+      "wrong": "京都といえども",
+      "right": "京都といえば",
+      "why": "といえども (N1) means \"even though\"; different word."
+    }
+  ],
+  "usageNotes": [
+    "Also used to concede partially: 好きといえば好きだが... (\"if you ask whether I like it, I do, but\"). Variants: 〜というと, 〜といったら (emotional).",
+    "といえば is a smooth way to change topic in conversation: そういえば (come to think of it) is a related set phrase."
+  ],
+  "jlptTips": [
+    "A word from the previous line repeated + blank + a related association = といえば.",
+    "A definition after the blank means というのは; a correction downward means といっても.",
+    "A といえば A だが is a fixed concession frame tested in 文法形式."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-69-1",
+    "q-n3-g-69-2",
+    "q-n3-g-69-3",
+    "q-n3-g-69-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-69-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

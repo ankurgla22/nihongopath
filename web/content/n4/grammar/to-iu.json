@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-52",
+  "slug": "to-iu",
+  "level": "n4",
+  "order": 52,
+  "title": "〜という \"called / that says\"",
+  "romaji": "to iu",
+  "meaning": "(1) N という N: \"a … called …\"; (2) clause + という + N (こと/話/意味): \"the … that …\"; (3) sentence-final という = hearsay/definition.",
+  "simpleExplanation": "という links a name or a content to a noun. (1) Name: 「みどり」という喫茶店 = a café called Midori. (2) Content: 田中さんが辞めるという話 = the story that Tanaka is quitting; the clause before という explains what the 話 / こと / うわさ / 意味 is. (3) 〜というのは = \"what is called…\", used to ask or give a meaning: 「遠慮」というのはどういう意味ですか. Casual speech shortens という to って.",
+  "whenUsed": "Introducing names the listener may not know (a shop, a person, a town), reporting news and rumours, and defining words. Common in all registers; in formal writing という stays, in conversation って often replaces it.",
+  "formation": [
+    "N + という + N: 「さくら」という店",
+    "Plain clause + という + こと / 話 / うわさ / 意味 / ニュース",
+    "N + というのは = as for what is called N",
+    "Sentence-final 〜ということだ = it means that / I hear that"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "田中さんが会社を辞める",
+        "role": "content (plain clause)",
+        "highlight": false
+      },
+      {
+        "text": "という",
+        "role": "link: 'that says / to the effect that'",
+        "highlight": true
+      },
+      {
+        "text": "話",
+        "role": "head noun (話 / こと / うわさ)",
+        "highlight": false
+      },
+      {
+        "text": "を聞いた",
+        "role": "main verb",
+        "highlight": false
+      }
+    ],
+    "translation": "I heard a story that Tanaka is quitting the company."
+  },
+  "examples": [
+    {
+      "ja": "「みどり」という喫茶店を知っていますか。",
+      "reading": "「みどり」という きっさてんを しっていますか。",
+      "en": "Do you know a café called \"Midori\"?",
+      "note": "Name + という + noun: introducing a café by name."
+    },
+    {
+      "ja": "田中さんが会社を辞めるという話を聞いた。",
+      "reading": "たなかさんが かいしゃを やめるという はなしを きいた。",
+      "en": "I heard the story that Tanaka is quitting the company.",
+      "note": "Clause + という + 話: what the story says."
+    },
+    {
+      "ja": "「遠慮」というのはどういう意味ですか。",
+      "reading": "「えんりょ」というのは どういう いみですか。",
+      "en": "What does \"enryo\" mean?",
+      "note": "というのは: asking the meaning of a word."
+    },
+    {
+      "ja": "山田さんという人から電話がありました。",
+      "reading": "やまださんという ひとから でんわが ありました。",
+      "en": "There was a call from a person called Yamada.",
+      "note": "Introducing an unfamiliar person by name."
+    },
+    {
+      "ja": "来月から電気代が上がるというニュースを見た。",
+      "reading": "らいげつから でんきだいが あがるという ニュースを みた。",
+      "en": "I saw news that electricity bills will go up from next month.",
+      "note": "Clause + という + ニュース."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜って",
+      "difference": "って is the casual spoken version of という / と: 「みどり」って店.",
+      "id": "n4-grammar-86"
+    },
+    {
+      "pattern": "〜と (quoting)",
+      "difference": "と quotes before 言う / 思う. という is と + 言う used to modify a noun.",
+      "id": "n4-grammar-111"
+    },
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "そうだ reports what you heard as a statement. 〜という話 / 〜ということだ packages it as a piece of news.",
+      "id": "n4-grammar-36"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "「みどり」の喫茶店を知っていますか。(meaning \"a café called Midori\")",
+      "right": "「みどり」という喫茶店を知っていますか。",
+      "why": "の would mean the café belonging to Midori. A name needs という."
+    },
+    {
+      "wrong": "田中さんが辞めるの話を聞いた。",
+      "right": "田中さんが辞めるという話を聞いた。",
+      "why": "A clause cannot connect to 話 with の; use という."
+    },
+    {
+      "wrong": "「遠慮」はどういう意味ですか。→ 「遠慮」ってのは (in writing)",
+      "right": "「遠慮」というのはどういう意味ですか。",
+      "why": "って is fine in speech, but in written or polite contexts use という."
+    }
+  ],
+  "usageNotes": [
+    "Use という when the listener may not know the name; if the name is well known, plain N + N or の works (東京という町 vs 東京の町).",
+    "どういう (what kind of) and そういう (that kind of) are built from という.",
+    "〜ということだ at the end reports or sums up: 会議は中止だということだ."
+  ],
+  "jlptTips": [
+    "Name in quotation marks + blank + noun → という. A clause + blank + 話 / こと / うわさ → という.",
+    "Distractors are usually の, と, って. In a polite or written sentence, choose という over って."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-52-1",
+    "q-n4-g-52-2",
+    "q-n4-g-52-3",
+    "q-n4-g-52-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-52-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-158",
+  "slug": "mono-nara",
+  "level": "n2",
+  "order": 158,
+  "title": "〜ものなら",
+  "romaji": "mono nara / -you mono nara",
+  "meaning": "if one could (unlikely wish); if one dares to (dire consequence)",
+  "simpleExplanation": "〜ものなら has two uses. After a potential verb it expresses a wish that seems hard to realize: 帰れるものなら今すぐ帰りたい (if only I could go home). After the volitional (〜ようものなら) it warns of a serious consequence: 遅刻しようものなら、ひどく叱られる (if you so much as arrive late…). Both share the sense of an unlikely or risky condition.",
+  "whenUsed": "Both speech and writing. The wish use is common with 〜たい / 〜てほしい; the warning use is common with 叱られる / 大変だ / ただでは済まない. Slightly dramatic in tone.",
+  "formation": [
+    "Verb potential + ものなら + 〜たい / 〜てほしい (wish)",
+    "Verb volitional (〜よう) + ものなら + dire consequence (warning)",
+    "Set phrases: できるものなら / やれるものならやってみろ (a challenge)",
+    "Casual: 〜もんなら"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Potential + ものなら",
+      "Volitional + ものなら"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "if it were possible (unlikely wish)",
+          "if one dares to (serious result)"
+        ]
+      },
+      {
+        "label": "Front verb",
+        "cells": [
+          "帰れる, 治せる, できる",
+          "遅刻しよう, 言おう, 失敗しよう"
+        ]
+      },
+      {
+        "label": "Main clause",
+        "cells": [
+          "〜たい, 〜てほしい",
+          "叱られる, 大変だ, 許されない"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "帰れるものなら帰りたい",
+          "遅刻しようものなら叱られる"
+        ]
+      }
+    ],
+    "title": "Two faces of ものなら"
+  },
+  "examples": [
+    {
+      "ja": "帰れるものなら、今すぐ国へ帰りたい。",
+      "reading": "かえれるものなら、いますぐくにへかえりたい。",
+      "en": "If I could, I would go back to my country right now.",
+      "note": "Wish: if I could go home (but I cannot easily)."
+    },
+    {
+      "ja": "治せるものなら治してほしい。",
+      "reading": "なおせるものならなおしてほしい。",
+      "en": "If it can be cured, I want it cured.",
+      "note": "Wish: if it can be cured, I want it cured."
+    },
+    {
+      "ja": "遅刻しようものなら、部長にひどく叱られる。",
+      "reading": "ちこくしようものなら、ぶちょうにひどくしかられる。",
+      "en": "If you dare to be late, the manager will scold you severely.",
+      "note": "Warning: volitional + ものなら with a dire consequence."
+    },
+    {
+      "ja": "やれるものならやってみろ。",
+      "reading": "やれるものならやってみろ。",
+      "en": "If you think you can do it, go ahead and try.",
+      "note": "A set challenge phrase: potential + ものなら + imperative."
+    },
+    {
+      "ja": "上司に反対しようものなら、すぐに嫌われてしまう。",
+      "reading": "じょうしにはんたいしようものなら、すぐにきらわれてしまう。",
+      "en": "If you dare to oppose the boss, you will be disliked immediately.",
+      "note": "Warning use with てしまう."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なら",
+      "difference": "Plain conditional; ものなら adds unlikelihood or danger."
+    },
+    {
+      "pattern": "〜たら",
+      "difference": "Neutral conditional."
+    },
+    {
+      "pattern": "〜ものだから",
+      "difference": "Reason; different pattern despite the shared もの.",
+      "id": "n2-grammar-157"
+    },
+    {
+      "pattern": "〜ようでは",
+      "difference": "\"If things are like this\": criticizes a current situation rather than warning of a single act."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "帰るものなら、帰りたい。",
+      "right": "帰れるものなら、帰りたい。",
+      "why": "The wish use requires the potential form."
+    },
+    {
+      "wrong": "遅刻するものなら、叱られる。",
+      "right": "遅刻しようものなら、叱られる。",
+      "why": "The warning use requires the volitional form."
+    },
+    {
+      "wrong": "できるものなら、できる。",
+      "right": "できるものなら、やってみたい。",
+      "why": "The main clause must be a wish or a dire result, not a plain statement."
+    }
+  ],
+  "usageNotes": [
+    "The wish use implies the speaker knows it is unrealistic.",
+    "The warning use exaggerates the consequence for effect.",
+    "やれるものならやってみろ is a common taunt in drama."
+  ],
+  "jlptTips": [
+    "Check the verb form before ものなら: potential → wish; volitional → warning.",
+    "The main clause tells you which use: たい / てほしい versus 叱られる / 大変だ.",
+    "Distractors include ものだから, ものの, ものか. Only ものなら is conditional."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-158-1",
+    "q-n2-g-158-2",
+    "q-n2-g-158-3",
+    "q-n2-g-158-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-158-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

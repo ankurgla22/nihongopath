@@ -1,0 +1,130 @@
+{
+  "id": "n3-grammar-73",
+  "slug": "hanmen",
+  "level": "n3",
+  "order": 73,
+  "title": "〜反面 / 〜はんめん",
+  "romaji": "hanmen",
+  "meaning": "on the other hand / while… (the opposite side of the same thing)",
+  "simpleExplanation": "〜反面 literally means \"the opposite face\". You describe one side of something, then flip it over to show the other side: \"This job pays well, but (the flip side is) there are few days off.\" Both sides belong to the same thing, and one is usually good while the other is bad.",
+  "whenUsed": "Used mainly in writing and careful speech when weighing pros and cons: a job, a city, a person's character, a technology. It is not used for two unrelated facts or for two different people.",
+  "formation": [
+    "Verb (plain form) + 反面",
+    "い-adjective + 反面",
+    "な-adjective + な / である + 反面",
+    "Noun + である + 反面"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "反面 vs 一方で",
+    "columns": [
+      "Subjects",
+      "Type of contrast",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜反面",
+        "cells": [
+          "Same thing / person",
+          "Plus vs minus (front and back)",
+          "給料がいい反面、休みが少ない"
+        ]
+      },
+      {
+        "label": "〜一方で",
+        "cells": [
+          "Same or different",
+          "Any two parallel facts",
+          "兄は社交的な一方で、弟は内気だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この仕事は給料がいい反面、休みが少ない。",
+      "reading": "このしごとはきゅうりょうがいいはんめん、やすみがすくない。",
+      "en": "This job pays well, but on the other hand there are few days off.",
+      "note": "Plus (good pay) and minus (few holidays) of the same job."
+    },
+    {
+      "ja": "都会は便利な反面、生活費が高い。",
+      "reading": "とかいはべんりなはんめん、せいかつひがたかい。",
+      "en": "Cities are convenient, but the cost of living is high.",
+      "note": "な-adjective + な + 反面."
+    },
+    {
+      "ja": "彼は厳しい反面、優しいところもある。",
+      "reading": "かれはきびしいはんめん、やさしいところもある。",
+      "en": "He is strict, but he also has a kind side.",
+      "note": "Two sides of one person's character."
+    },
+    {
+      "ja": "インターネットは便利である反面、危険もある。",
+      "reading": "インターネットはべんりであるはんめん、きけんもある。",
+      "en": "The internet is convenient, but on the other hand it also has dangers.",
+      "note": "である + 反面 is common in written style."
+    },
+    {
+      "ja": "一人暮らしは自由な反面、寂しいと感じることもある。",
+      "reading": "ひとりぐらしはじゆうなはんめん、さびしいとかんじることもある。",
+      "en": "Living alone is free, but there are also times when it feels lonely.",
+      "note": "Freedom (plus) vs loneliness (minus) of the same lifestyle."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜一方(で)",
+      "difference": "Broader: can contrast different subjects and does not need a plus/minus relationship.",
+      "id": "n3-grammar-72"
+    },
+    {
+      "pattern": "〜が / 〜けれど",
+      "difference": "Neutral 'but'. 反面 specifically means 'the flip side of the same coin'."
+    },
+    {
+      "pattern": "〜かわりに",
+      "difference": "'In exchange for' — one thing is given up for another, often a trade-off you accept.",
+      "id": "n3-grammar-33"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "兄は社交的な反面、弟は内気だ。",
+      "right": "兄は社交的な一方で、弟は内気だ。",
+      "why": "反面 needs the same subject on both sides. Two different brothers require 一方で."
+    },
+    {
+      "wrong": "この店は安い反面、おいしい。",
+      "right": "この店は安い反面、量が少ない。",
+      "why": "反面 introduces the opposite side (a drawback after a merit, or vice versa). Two merits do not form a 'flip side'."
+    },
+    {
+      "wrong": "都会は便利反面、生活費が高い。",
+      "right": "都会は便利な反面、生活費が高い。",
+      "why": "な-adjectives need な (or である) before 反面."
+    }
+  ],
+  "usageNotes": [
+    "Order can go either way: merit → drawback or drawback → merit (厳しい反面、優しい).",
+    "The second clause often ends with 〜もある / 〜ところもある to soften it.",
+    "反面 is slightly formal; in conversation people often just say けど."
+  ],
+  "jlptTips": [
+    "Check the subject: if both halves describe the same thing with a good/bad flip, 反面 is right; if the subjects differ, choose 一方で.",
+    "反面 rarely follows a bare noun; look for である or な before the blank.",
+    "Distractors are typically 一方で, かわりに and ついでに. Ask: is this a flip side (反面), a trade (かわりに), or a side action (ついでに)?"
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-73-1",
+    "q-n3-g-73-2",
+    "q-n3-g-73-3",
+    "q-n3-g-73-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-73-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,139 @@
+{
+  "id": "n3-grammar-105",
+  "slug": "sei-suffix",
+  "level": "n3",
+  "order": 105,
+  "title": "〜性 / 〜せい",
+  "romaji": "sei (-ness)",
+  "meaning": "-ness / -ity (quality, nature, property)",
+  "simpleExplanation": "Noun or な-adjective + 性 makes a noun meaning \"the quality of being X\": 可能性 \"possibility\", 危険性 \"danger (as a property)\", 安全性 \"safety\", 社会性 \"sociability\". These nouns are usually measured: 可能性が高い / 低い, 危険性がある / ない.",
+  "whenUsed": "Formal and written Japanese, news, science, business: 必要性, 重要性, 積極性, 個性, 国民性. In speech, 可能性 is by far the most common.",
+  "formation": [
+    "Noun / な-adjective stem + 性 (noun)",
+    "〜性がある / ない (has / lacks the quality)",
+    "〜性が高い / 低い (the degree is high / low)",
+    "〜性の + Noun / 〜性を + Verb"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "性 vs 的 vs 化",
+    "columns": [
+      "Word class",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "国際性",
+        "cells": [
+          "Noun",
+          "international character (-ness)",
+          "国際性のある大学"
+        ]
+      },
+      {
+        "label": "国際的",
+        "cells": [
+          "な-adjective",
+          "international (-al)",
+          "国際的な会議"
+        ]
+      },
+      {
+        "label": "国際化",
+        "cells": [
+          "Noun / する-verb",
+          "internationalisation (change)",
+          "大学の国際化が進む"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この計画には危険性がある。",
+      "reading": "このけいかくにはきけんせいがある。",
+      "en": "This plan carries a degree of danger.",
+      "note": "危険性がある: carries danger."
+    },
+    {
+      "ja": "明日、雨が降る可能性が高い。",
+      "reading": "あした、あめがふるかのうせいがたかい。",
+      "en": "There's a high possibility of rain tomorrow.",
+      "note": "可能性が高い: the most common 性 phrase."
+    },
+    {
+      "ja": "彼女は社会性のある人だ。",
+      "reading": "かのじょはしゃかいせいのあるひとだ。",
+      "en": "She is a sociable person.",
+      "note": "社会性のある: with の before a noun."
+    },
+    {
+      "ja": "この薬の安全性については、まだ十分に確認されていない。",
+      "reading": "このくすりのあんぜんせいについては、まだじゅうぶんにかくにんされていない。",
+      "en": "The safety of this medicine has not yet been fully confirmed.",
+      "note": "安全性 = safety as a property."
+    },
+    {
+      "ja": "彼は積極性があって、新しい仕事にもすぐ挑戦する。",
+      "reading": "かれはせっきょくせいがあって、あたらしいしごとにもすぐちょうせんする。",
+      "en": "He has initiative and quickly takes on new tasks.",
+      "note": "積極性 from the な-adjective 積極的."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜さ",
+      "difference": "Also '-ness', but from adjectives and about measurable degree (高さ, 安全さ is rare). 性 is a formal property noun.",
+      "id": "n3-grammar-135"
+    },
+    {
+      "pattern": "〜的",
+      "difference": "Adjective form; 性 is the noun form of the same root.",
+      "id": "n3-grammar-103"
+    },
+    {
+      "pattern": "〜化",
+      "difference": "A change, not a property.",
+      "id": "n3-grammar-104"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨が降る可能性が多い。",
+      "right": "雨が降る可能性が高い。",
+      "why": "Possibility is measured with 高い / 低い, not 多い / 少ない."
+    },
+    {
+      "wrong": "危険性な場所",
+      "right": "危険性のある場所 / 危険な場所",
+      "why": "性 makes a noun; it cannot take な. Use 性のある or the plain adjective."
+    },
+    {
+      "wrong": "この計画は必要性だ。",
+      "right": "この計画には必要性がある。",
+      "why": "性 nouns are usually followed by がある / が高い, not だ."
+    }
+  ],
+  "usageNotes": [
+    "性 also appears in 男性 / 女性 (gender) and 性格 (personality); the suffix use here is the '-ness' meaning.",
+    "可能性がある = 'there is a possibility'; 可能性が高い = 'highly likely'.",
+    "重要性 / 必要性 + を + 感じる / 訴える are common collocations."
+  ],
+  "jlptTips": [
+    "Look at the verb after the blank: が高い / がある / を認める point to a 性 noun.",
+    "In a set of 的 / 化 / 性 choices, decide the word class needed: noun → 性.",
+    "可能性 is tested often; remember 高い/低い."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-105-1",
+    "q-n3-g-105-2",
+    "q-n3-g-105-3",
+    "q-n3-g-105-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-105-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-14",
+  "slug": "towa-kagiranai",
+  "level": "n3",
+  "order": 14,
+  "title": "〜とは限らない",
+  "romaji": "towa kagiranai",
+  "meaning": "Not necessarily… / not always…",
+  "simpleExplanation": "〜とは限らない says a general rule has exceptions: 高いものが必ずしもいいとは限らない = expensive things are not necessarily good. Literally \"it is not limited to…\". It does not deny the rule; it just says \"not always\".",
+  "whenUsed": "Essays, opinions, warnings against overgeneralizing. Almost always with 必ずしも, いつも, 誰でも, 全部, どこでも.",
+  "formation": [
+    "Plain form + とは限らない",
+    "Noun / な-adjective (+ だ) + とは限らない",
+    "Polite: 〜とは限りません",
+    "Often with 必ずしも / いつも / 誰でも / 全て"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Partial denials",
+    "columns": [
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜とは限らない",
+        "cells": [
+          "a rule has exceptions",
+          "日本人なら漢字が書けるとは限らない"
+        ]
+      },
+      {
+        "label": "〜わけではない",
+        "cells": [
+          "it's not that…; corrects an impression",
+          "嫌いなわけではない"
+        ]
+      },
+      {
+        "label": "〜わけがない",
+        "cells": [
+          "no way (strong)",
+          "書けるわけがない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "高いものが必ずしもいいとは限らない。",
+      "reading": "たかいものがかならずしもいいとはかぎらない。",
+      "en": "Expensive things are not necessarily good.",
+      "note": "必ずしも + とは限らない: the classic pairing."
+    },
+    {
+      "ja": "日本人なら誰でも漢字が書けるとは限らない。",
+      "reading": "にほんじんならだれでもかんじがかけるとはかぎらない。",
+      "en": "Not every Japanese person can necessarily write kanji.",
+      "note": "誰でも + とは限らない: not every member of a group."
+    },
+    {
+      "ja": "努力すれば成功するとは限らない。",
+      "reading": "どりょくすればせいこうするとはかぎらない。",
+      "en": "Effort doesn't always guarantee success.",
+      "note": "A conditional rule (努力すれば成功する) is shown to have exceptions."
+    },
+    {
+      "ja": "有名なレストランだからといって、おいしいとは限らない。",
+      "reading": "ゆうめいなレストランだからといって、おいしいとはかぎらない。",
+      "en": "Just because a restaurant is famous doesn't mean it's necessarily good.",
+      "note": "からといって + とは限らない is a standard pair."
+    },
+    {
+      "ja": "天気予報が当たるとは限りませんから、傘を持って行きましょう。",
+      "reading": "てんきよほうがあたるとはかぎりませんから、かさをもっていきましょう。",
+      "en": "The forecast isn't always right, so let's take umbrellas.",
+      "note": "Polite form, used to justify a precaution."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "Very close. とは限らない is about exceptions to a rule; わけではない corrects a particular assumption.",
+      "id": "n3-grammar-4"
+    },
+    {
+      "pattern": "〜からといって",
+      "difference": "Often the first half of the sentence. \"Just because X, (not necessarily Y)\".",
+      "id": "n3-grammar-45"
+    },
+    {
+      "pattern": "〜わけがない",
+      "difference": "Total denial, opposite feeling.",
+      "id": "n3-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が来るとは限らないと限らない。",
+      "right": "彼が来るとは限らない。",
+      "why": "Only one 限らない; the pattern is fixed."
+    },
+    {
+      "wrong": "全員が合格するとは限らない。(intended: nobody will pass)",
+      "right": "誰も合格しないだろう。",
+      "why": "とは限らない means \"not all\", never \"none\"."
+    },
+    {
+      "wrong": "必ずしも成功するとは限る。",
+      "right": "必ずしも成功するとは限らない。",
+      "why": "必ずしも needs a negative ending; 限る alone makes no sense here."
+    }
+  ],
+  "usageNotes": [
+    "Frequently paired with 必ずしも / いつも / 誰でも. Close to 〜わけではない but focuses on exceptions to a general rule.",
+    "Because it warns against generalizing, it often follows a proverb-like statement."
+  ],
+  "jlptTips": [
+    "必ずしも in the sentence almost guarantees とは限らない (or わけではない) in the blank.",
+    "A generalization with 〜なら / 〜からといって / 〜ば in the first half + a blank at the end: とは限らない.",
+    "Options like とは限る or とは限った are traps; the pattern is always negative."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-14-1",
+    "q-n3-g-14-2",
+    "q-n3-g-14-3",
+    "q-n3-g-14-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-14-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

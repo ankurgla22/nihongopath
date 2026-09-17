@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-172",
+  "slug": "o-tsuujite",
+  "level": "n2",
+  "order": 172,
+  "title": "〜を通じて / 〜を通して",
+  "romaji": "o tsuujite / o tooshite",
+  "meaning": "(1) through, via (a means or intermediary); (2) throughout (a period)",
+  "simpleExplanation": "〜を通じて / 〜を通して have two uses. As a means: 友人を通じて知り合った (met through a friend), 読書を通して学んだ (learned through reading). As a period: 一年を通して暖かい (warm throughout the year). The two forms are nearly interchangeable; を通して slightly stresses the deliberate use of the means.",
+  "whenUsed": "Formal written and spoken Japanese; common in essays and reports. In casual speech people say 〜で or 〜の間ずっと. Both kanji forms are read differently: 通じて (つうじて) and 通して (とおして).",
+  "formation": [
+    "Noun (person / medium / activity) + を通じて / を通して + verb",
+    "Noun (period) + を通じて / を通して + state",
+    "Typical means: 友人・インターネット・経験・読書・仕事",
+    "Typical periods: 一年・一日・生涯・四季"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Means",
+      "Period"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "through, via",
+          "throughout"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "友人, インターネット, 経験",
+          "一年, 一日, 生涯"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "友人を通じて知り合った",
+          "一年を通して暖かい"
+        ]
+      },
+      {
+        "label": "Spoken",
+        "cells": [
+          "〜で / 〜から",
+          "〜の間ずっと"
+        ]
+      }
+    ],
+    "title": "Two uses of を通じて"
+  },
+  "examples": [
+    {
+      "ja": "友人を通じて、彼女と知り合った。",
+      "reading": "ゆうじんをつうじて、かのじょとしりあった。",
+      "en": "I got to know her through a friend.",
+      "note": "A person as the intermediary."
+    },
+    {
+      "ja": "この地方は一年を通して暖かい。",
+      "reading": "このちほうはいちねんをとおしてあたたかい。",
+      "en": "This region is warm throughout the year.",
+      "note": "A period: throughout the year."
+    },
+    {
+      "ja": "読書を通して、多くのことを学んだ。",
+      "reading": "どくしょをとおして、おおくのことをまなんだ。",
+      "en": "I learned many things through reading.",
+      "note": "An activity as the means of learning."
+    },
+    {
+      "ja": "インターネットを通じて、世界中の情報が手に入る。",
+      "reading": "インターネットをつうじて、せかいじゅうのじょうほうがてにはいる。",
+      "en": "Through the internet, information from all over the world can be obtained.",
+      "note": "A medium as the means."
+    },
+    {
+      "ja": "彼は生涯を通して、子供の教育に力を注いだ。",
+      "reading": "かれはしょうがいをとおして、こどものきょういくにちからをそそいだ。",
+      "en": "Throughout his life, he devoted himself to children's education.",
+      "note": "A period: his whole life."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によって",
+      "difference": "\"By means of\"; also a cause or agent; does not express 'throughout'.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜にわたって",
+      "difference": "\"Over (a span)\", stressing size; を通じて stresses continuity.",
+      "id": "n2-grammar-134"
+    },
+    {
+      "pattern": "〜を経て",
+      "difference": "\"Via / after passing through (stages)\"; sequential."
+    },
+    {
+      "pattern": "〜で",
+      "difference": "Casual 'by means of'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友人を通じての知り合った。",
+      "right": "友人を通じて知り合った。",
+      "why": "Do not add の before a verb."
+    },
+    {
+      "wrong": "一年を通じて、暑くなった。",
+      "right": "一年を通じて、暖かい。",
+      "why": "The period use describes a continuous state, not a change."
+    },
+    {
+      "wrong": "電話を通じて話した。(usually)",
+      "right": "電話で話した。",
+      "why": "For simple tools, で is more natural; を通じて suits intermediaries and media."
+    }
+  ],
+  "usageNotes": [
+    "を通じての + noun is possible: 仕事を通じての出会い.",
+    "The period use often has 〜ずっと or a stable adjective in the main clause.",
+    "Idiom: 〜を通じて知り合う (meet through)."
+  ],
+  "jlptTips": [
+    "If the noun is a person, medium, or activity and the verb is 知り合う / 学ぶ / 手に入れる, choose を通じて.",
+    "If the noun is a period and the main clause is a stable state, it is the 'throughout' use.",
+    "Distractors include によって, にわたって, にかけて. Watch for the two meanings."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-172-1",
+    "q-n2-g-172-2",
+    "q-n2-g-172-3",
+    "q-n2-g-172-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-172-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

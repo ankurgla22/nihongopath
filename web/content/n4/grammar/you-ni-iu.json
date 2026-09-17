@@ -1,0 +1,131 @@
+{
+  "id": "n4-grammar-89",
+  "slug": "you-ni-iu",
+  "level": "n4",
+  "order": 89,
+  "title": "〜ように言う / 〜ように頼む / 〜ように伝える (indirect commands)",
+  "romaji": "you ni iu / you ni tanomu / you ni tsutaeru",
+  "meaning": "Reports a command, request or advice indirectly: \"tell someone to…\".",
+  "simpleExplanation": "〜ように言う reports a command, request or piece of advice without quoting the exact words: 母に早く帰るように言われた = \"I was told by my mother to come home early\". The original words may have been 早く帰りなさい or 早く帰ってね; ように turns any of them into an indirect \"tell someone to…\". The verb before ように is in the dictionary form (帰るように) or the ない-form (飲まないように). Instead of 言う you can use 頼む (ask), 注意する (warn), 伝える (pass on a message) or お願いする.",
+  "whenUsed": "Reporting instructions from doctors, teachers, parents and bosses; passing on messages at work (〜ように伝えてください); and describing requests you made (友達に手伝うように頼んだ). The passive 〜ように言われた (\"I was told to…\") is extremely common in everyday speech and in the exam.",
+  "formation": [
+    "Person に + V-dictionary + ように + 言う／頼む／伝える／注意する: 待つように言う",
+    "Person に + V-ない + ように + 言う: 遅れないように言う",
+    "Passive: 〜ように言われた／頼まれた／注意された (I was told / asked / warned to…)",
+    "Message: 〜ように伝えてください (please tell him to…)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "母は",
+        "role": "speaker of the instruction"
+      },
+      {
+        "text": "私に",
+        "role": "person told (に)"
+      },
+      {
+        "text": "早く帰る",
+        "role": "content: dictionary / ない form",
+        "highlight": true
+      },
+      {
+        "text": "ように",
+        "role": "indirect-command marker",
+        "highlight": true
+      },
+      {
+        "text": "言った。",
+        "role": "言う / 頼む / 伝える"
+      }
+    ],
+    "translation": "My mother told me to come home early."
+  },
+  "examples": [
+    {
+      "ja": "医者は私にお酒を飲まないように言いました。",
+      "reading": "いしゃは わたしに おさけを のまないように いいました。",
+      "en": "The doctor told me not to drink alcohol.",
+      "note": "Negative instruction: 飲まない + ように言う. The doctor's actual words were probably 飲まないでください."
+    },
+    {
+      "ja": "母に早く帰るように言われた。",
+      "reading": "ははに はやく かえるように いわれた。",
+      "en": "I was told by my mother to come home early.",
+      "note": "Passive 〜ように言われた: the person told is the subject."
+    },
+    {
+      "ja": "田中さんに明日電話するように伝えてください。",
+      "reading": "たなかさんに あした でんわするように つたえてください。",
+      "en": "Please tell Tanaka to call tomorrow.",
+      "note": "Passing on a message: 〜ように伝えてください."
+    },
+    {
+      "ja": "先生に、宿題を忘れないように注意された。",
+      "reading": "せんせいに、しゅくだいを わすれないように ちゅういされた。",
+      "en": "I was warned by the teacher not to forget my homework.",
+      "note": "注意する (warn) can replace 言う; the content is negative (忘れない)."
+    },
+    {
+      "ja": "友達に、引っ越しを手伝うように頼みました。",
+      "reading": "ともだちに、ひっこしを てつだうように たのみました。",
+      "en": "I asked a friend to help with my move.",
+      "note": "頼む (ask a favour) + ように: an indirect request rather than a direct quote."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と言っていました",
+      "difference": "と reports what someone SAID (a statement or the exact words). ように reports what someone TOLD someone TO DO.",
+      "id": "n4-grammar-55"
+    },
+    {
+      "pattern": "〜と伝えてください",
+      "difference": "と伝える passes on a message as a statement (明日休むと伝えてください). ように伝える passes on an instruction (明日来るように伝えてください).",
+      "id": "n4-grammar-56"
+    },
+    {
+      "pattern": "〜ように (purpose)",
+      "difference": "The same ように before an ordinary verb (聞こえるように大きい声で話す) means \"so that\". With 言う / 頼む / 伝える it is an indirect command.",
+      "id": "n4-grammar-16"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "母に早く帰ってように言われた。",
+      "right": "母に早く帰るように言われた。",
+      "why": "The verb before ように must be the dictionary form or ない-form, never the て-form."
+    },
+    {
+      "wrong": "医者にお酒を飲まないでように言われた。",
+      "right": "医者にお酒を飲まないように言われた。",
+      "why": "The direct request 飲まないでください loses で when it becomes indirect: 飲まない + ように."
+    },
+    {
+      "wrong": "田中さんは来週休むように言いました。(meaning: he said he will be off)",
+      "right": "田中さんは来週休むと言いました。",
+      "why": "A statement is reported with と. ように is only for commands and requests."
+    }
+  ],
+  "usageNotes": [
+    "The direct quote and the indirect version mean the same: 「早く帰りなさい」と言った = 早く帰るように言った. The indirect version is more neutral and does not show how polite or rough the original words were.",
+    "With ように you can use many speech verbs: 頼む, お願いする, 注意する, 伝える, 命じる, 勧める (advise).",
+    "When the speaker of the instruction is unimportant, the passive is natural: 空港で、荷物を開けるように言われた."
+  ],
+  "jlptTips": [
+    "If the blank comes right before 言われた / 頼まれた / 伝えてください and the content is an instruction, choose the dictionary or ない-form + ように, not the て-form or と.",
+    "A favourite trap contrasts と (statement) with ように (command): 休むと言った = he said he would take a day off; 休むように言った = he told someone to take a day off."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-89-1",
+    "q-n4-g-89-2",
+    "q-n4-g-89-3",
+    "q-n4-g-89-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-89-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,129 @@
+{
+  "id": "n3-grammar-116",
+  "slug": "you-to-omou",
+  "level": "n3",
+  "order": 116,
+  "title": "〜ようと思う / 〜ようと思っている",
+  "romaji": "you to omou / you to omotte iru",
+  "meaning": "I think I'll… / I'm planning to… (intention)",
+  "simpleExplanation": "Volitional form + と思う expresses what you intend to do: 早く寝ようと思う \"I think I'll go to bed early\". 〜ようと思っている describes an intention you have been holding for a while (and can be used about other people). It is softer than 〜つもりだ.",
+  "whenUsed": "Talking about plans and decisions in everyday conversation and writing. 〜ようと思ったが、やめた reports an intention that was abandoned.",
+  "formation": [
+    "Verb volitional form + と思う (decision made now)",
+    "Verb volitional form + と思っている (ongoing intention; also 3rd person)",
+    "Past: 〜ようと思った (intended to)",
+    "Volitional: Group 1 -おう (行こう), Group 2 -よう (食べよう), する → しよう, 来る → 来よう"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Strength of intention",
+    "items": [
+      {
+        "label": "〜たいと思う",
+        "description": "A wish: 'I'd like to'."
+      },
+      {
+        "label": "〜ようと思う",
+        "description": "A plan forming now: 'I think I'll'."
+      },
+      {
+        "label": "〜ようと思っている",
+        "description": "A plan held for some time: 'I'm planning to'."
+      },
+      {
+        "label": "〜つもりだ",
+        "description": "A firm intention: 'I intend to'."
+      },
+      {
+        "label": "〜ことにした",
+        "description": "A decision already made: 'I've decided to'."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "来年、日本に留学しようと思っています。",
+      "reading": "らいねん、にほんにりゅうがくしようとおもっています。",
+      "en": "I'm thinking of studying in Japan next year.",
+      "note": "Ongoing plan: と思っています."
+    },
+    {
+      "ja": "今日は早く寝ようと思う。",
+      "reading": "きょうははやくねようとおもう。",
+      "en": "I think I'll go to bed early today.",
+      "note": "Decision made now: と思う."
+    },
+    {
+      "ja": "新しいパソコンを買おうと思ったが、やめた。",
+      "reading": "あたらしいパソコンをかおうとおもったが、やめた。",
+      "en": "I was going to buy a new computer, but decided not to.",
+      "note": "Abandoned intention: と思ったが、やめた."
+    },
+    {
+      "ja": "週末は家でゆっくり休もうと思う。",
+      "reading": "しゅうまつはいえでゆっくりやすもうとおもう。",
+      "en": "I think I'll rest at home over the weekend.",
+      "note": "Group 1 volitional 休もう."
+    },
+    {
+      "ja": "弟は来年、海外で働こうと思っているらしい。",
+      "reading": "おとうとはらいねん、かいがいではたらこうとおもっているらしい。",
+      "en": "My brother is apparently planning to work abroad next year.",
+      "note": "と思っている can describe a third person's intention."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜つもりだ",
+      "difference": "Firmer and more settled. ようと思う sounds tentative and polite.",
+      "id": "n3-grammar-118"
+    },
+    {
+      "pattern": "〜ことにする",
+      "difference": "Marks the moment of decision; ようと思う expresses the intention itself."
+    },
+    {
+      "pattern": "〜ようとする",
+      "difference": "'Try to / be about to' — describes an attempt or the moment before an action, not a plan.",
+      "id": "n3-grammar-117"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本に行くと思います。(meaning 'I plan to go')",
+      "right": "日本に行こうと思います。",
+      "why": "The dictionary form + と思う means 'I think (that) I will go' as a prediction; intention needs the volitional form."
+    },
+    {
+      "wrong": "彼は留学しようと思う。",
+      "right": "彼は留学しようと思っている。",
+      "why": "For a third person's intention use と思っている."
+    },
+    {
+      "wrong": "食べようと思って、食べた。→ 'I decided to eat and ate'",
+      "right": "食べようと思ったが、やめた。/ 食べることにした。",
+      "why": "Not wrong grammatically, but ようと思って is usually followed by an interruption or change; for a simple decision use ことにした."
+    }
+  ],
+  "usageNotes": [
+    "〜ようと思います is a polite way to state a plan to a superior.",
+    "The volitional form has other uses: invitation (行こう), and ようとする (attempt).",
+    "Negative intention: 〜ないでおこうと思う / 〜のをやめようと思う."
+  ],
+  "jlptTips": [
+    "Check the verb form in the choices: volitional + と思う (行こうと思う), not dictionary form.",
+    "Third person subject + intention → と思っている, never plain と思う.",
+    "If the sentence says the plan was dropped (やめた), the blank is 〜ようと思ったが."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-116-1",
+    "q-n3-g-116-2",
+    "q-n3-g-116-3",
+    "q-n3-g-116-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-116-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

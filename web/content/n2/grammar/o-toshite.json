@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-167",
+  "slug": "o-toshite",
+  "level": "n2",
+  "order": 167,
+  "title": "〜を〜として / 〜を〜とする / 〜を〜とした",
+  "romaji": "o … to shite / o … to suru / o … to shita",
+  "meaning": "regard … as; with … as (role, purpose, target)",
+  "simpleExplanation": "X を Y として means \"treating X as Y\" or \"with X as Y\": 彼を代表として送った (sent him as our representative). Y is a role, purpose, or target: 目的, 対象, 中心, 主人公, 代表. とする is the predicate form (\"has X as its Y\"), and とした / とする + Noun is the noun-modifying form.",
+  "whenUsed": "Formal written and spoken Japanese: reports, descriptions of organizations, product information (〜を対象とした調査). In casual speech people say 〜にして or simply 〜として without を.",
+  "formation": [
+    "Noun X + を + Noun Y + として (adverbial)",
+    "Noun X + を + Noun Y + とする (predicate)",
+    "Noun X + を + Noun Y + とした / とする + Noun",
+    "Common Y: 目的・対象・中心・代表・主人公・テーマ・条件"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼を",
+        "role": "X: the thing assigned a role"
+      },
+      {
+        "text": "代表として",
+        "role": "Y + として: in the role of",
+        "highlight": true
+      },
+      {
+        "text": "会議に送った",
+        "role": "the action"
+      }
+    ],
+    "translation": "We sent him to the meeting as our representative."
+  },
+  "examples": [
+    {
+      "ja": "彼を代表として会議に送った。",
+      "reading": "かれをだいひょうとしてかいぎにおくった。",
+      "en": "We sent him to the meeting as our representative.",
+      "note": "A person assigned a role."
+    },
+    {
+      "ja": "この会は留学生の支援を目的とする。",
+      "reading": "このかいはりゅうがくせいのしえんをもくてきとする。",
+      "en": "This association has the support of international students as its purpose.",
+      "note": "とする as predicate: has support as its purpose."
+    },
+    {
+      "ja": "医者を主人公とした小説が人気だ。",
+      "reading": "いしゃをしゅじんこうとしたしょうせつがにんきだ。",
+      "en": "Novels with a doctor as the protagonist are popular.",
+      "note": "とした + noun: a novel with a doctor as protagonist."
+    },
+    {
+      "ja": "この調査は二十代の女性を対象として行われた。",
+      "reading": "このちょうさはにじゅうだいのじょせいをたいしょうとしておこなわれた。",
+      "en": "This survey was conducted with women in their twenties as its target.",
+      "note": "を対象として: one of the most common frames."
+    },
+    {
+      "ja": "彼は医者になることを目標として勉強している。",
+      "reading": "かれはいしゃになることをもくひょうとしてべんきょうしている。",
+      "en": "He is studying with becoming a doctor as his goal.",
+      "note": "こと + を目標として."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜として",
+      "difference": "\"As X\" (a role) without を; 代表として出席する. The を〜として pattern adds the thing being assigned."
+    },
+    {
+      "pattern": "〜を中心に",
+      "difference": "A specific instance: 'centering on'.",
+      "id": "n2-grammar-171"
+    },
+    {
+      "pattern": "〜をはじめとする",
+      "difference": "Another specific instance: 'starting with'.",
+      "id": "n2-grammar-174"
+    },
+    {
+      "pattern": "〜にする",
+      "difference": "Casual 'make X into Y' (彼をリーダーにする)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼を代表とする会議に送った。",
+      "right": "彼を代表として会議に送った。",
+      "why": "Adverbial use needs として; とする is the predicate or noun-modifying form."
+    },
+    {
+      "wrong": "留学生の支援が目的とする会。",
+      "right": "留学生の支援を目的とする会。",
+      "why": "The thing assigned takes を, not が."
+    },
+    {
+      "wrong": "医者として主人公の小説",
+      "right": "医者を主人公とした小説",
+      "why": "Before a noun, use を〜とした / とする."
+    }
+  ],
+  "usageNotes": [
+    "を目的とする / を対象とする / を条件とする are frequent in official texts.",
+    "The pattern is neutral; the role Y is the key noun.",
+    "In casual speech, 〜をテーマにした is a common alternative to 〜をテーマとした."
+  ],
+  "jlptTips": [
+    "If the blank is adverbial (followed by a verb), choose として; if it ends the sentence, とする; before a noun, とした / とする.",
+    "Look for を before the blank; that identifies the pattern.",
+    "Distractors include に対して, にとって, にかけては. Only として assigns a role."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-167-1",
+    "q-n2-g-167-2",
+    "q-n2-g-167-3",
+    "q-n2-g-167-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-167-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

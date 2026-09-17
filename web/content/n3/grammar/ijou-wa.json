@@ -1,0 +1,121 @@
+{
+  "id": "n3-grammar-42",
+  "slug": "ijou-wa",
+  "level": "n3",
+  "order": 42,
+  "title": "〜以上(は)",
+  "romaji": "ijou wa",
+  "meaning": "Since… / now that… (naturally one must)",
+  "simpleExplanation": "〜以上(は) means \"given that X is the case, Y naturally follows\": 約束した以上、守らなければならない = now that I've promised, I must keep it. The first half is a fact or decision; the second half is a duty, resolve, or advice. Note: the same 以上 after numbers means \"or more\" (十人以上).",
+  "whenUsed": "Formal to neutral speech and writing. The main clause typically has べきだ, なければならない, つもりだ, or a strong intention.",
+  "formation": [
+    "Verb (dictionary / た form) + 以上(は)",
+    "Noun + である + 以上(は)",
+    "な-adjective + である + 以上",
+    "Main clause: duty, resolve, or advice"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "約束した",
+        "role": "fact / decision (た-form)"
+      },
+      {
+        "text": "以上、",
+        "role": "now that / given that",
+        "highlight": true
+      },
+      {
+        "text": "守らなければならない。",
+        "role": "duty that naturally follows",
+        "highlight": true
+      }
+    ],
+    "translation": "Now that I've promised, I must keep it."
+  },
+  "examples": [
+    {
+      "ja": "約束した以上、守らなければならない。",
+      "reading": "やくそくしたいじょう、まもらなければならない。",
+      "en": "Now that I've promised, I must keep it.",
+      "note": "A promise leads to obligation."
+    },
+    {
+      "ja": "学生である以上、勉強が第一だ。",
+      "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
+      "en": "As long as you are a student, studying comes first.",
+      "note": "Noun + である以上: status leads to priority."
+    },
+    {
+      "ja": "やると決めた以上は、最後までやる。",
+      "reading": "やるときめたいじょうは、さいごまでやる。",
+      "en": "Since I've decided to do it, I'll see it through.",
+      "note": "Decision leads to resolve (最後までやる)."
+    },
+    {
+      "ja": "日本で働く以上、日本の習慣を理解する必要がある。",
+      "reading": "にほんではたらくいじょう、にほんのしゅうかんをりかいするひつようがある。",
+      "en": "Since you're going to work in Japan, you need to understand Japanese customs.",
+      "note": "Dictionary form + 以上: a present or future situation."
+    },
+    {
+      "ja": "お金を受け取った以上は、責任を持って仕事をします。",
+      "reading": "おかねをうけとったいじょうは、せきにんをもってしごとをします。",
+      "en": "Now that I've accepted payment, I'll do the job responsibly.",
+      "note": "以上は with は adds emphasis."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からには",
+      "difference": "Almost the same; からには is a bit more emotional and spoken. 以上 is more formal.",
+      "id": "n3-grammar-44"
+    },
+    {
+      "pattern": "〜上は (N1)",
+      "difference": "Literary equivalent."
+    },
+    {
+      "pattern": "数字 + 以上",
+      "difference": "\"Or more\": a different use of the same word."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "約束した以上、守れないかもしれない。",
+      "right": "約束した以上、守らなければならない。",
+      "why": "The main clause must show duty or resolve, not doubt."
+    },
+    {
+      "wrong": "学生の以上",
+      "right": "学生である以上",
+      "why": "Nouns take である before 以上."
+    },
+    {
+      "wrong": "雨が降った以上、試合は中止だ。",
+      "right": "雨が降ったので、試合は中止だ。",
+      "why": "以上 needs a situation that logically creates duty or resolve; a simple cause uses ので / から."
+    }
+  ],
+  "usageNotes": [
+    "Main clause expresses duty, determination, or advice (べきだ、つもりだ、なければならない). Similar to 〜からには; 以上 is a bit more formal. Also 数字 + 以上 = \"or more\".",
+    "Frequent partners: 責任を持って, 最後まで, 必ず, 〜べきだ."
+  ],
+  "jlptTips": [
+    "A fact or decision + blank + duty or determination = 以上 (or からには).",
+    "Distractors: 以来 (ever since), 以外 (except), 以前 (before). Read the main clause: obligation means 以上.",
+    "Noun + である + 以上 is a common form; an option like 学生の以上 is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-42-1",
+    "q-n3-g-42-2",
+    "q-n3-g-42-3",
+    "q-n3-g-42-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-42-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

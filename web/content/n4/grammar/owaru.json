@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-80",
+  "slug": "owaru",
+  "level": "n4",
+  "order": 80,
+  "title": "〜終わる \"finish doing\"",
+  "romaji": "-owaru",
+  "meaning": "The completion of an action.",
+  "simpleExplanation": "V-ます stem + 終わる means \"finish doing\": 書き終わる (finish writing), 食べ終わる (finish eating), 読み終わる (finish reading). It only works with actions that have a clear end point. It states the completion plainly; 〜てしまう also means completion but adds a feeling (relief, regret). The たら-form 〜終わったら (\"when you finish…\") is very common in instructions.",
+  "whenUsed": "Everyday talk about tasks, meals, books and work (レポートを書き終わった), instructions in sequence (食べ終わったら、片づけて), and asking whether something is done (もう読み終わりましたか). All registers.",
+  "formation": [
+    "V-ます stem + 終わる: 書く → 書き終わる, 食べる → 食べ終わる, 読む → 読み終わる",
+    "する-verbs: 準備する → 準備し終わる",
+    "Conjugates as Group 1: 終わります / 終わった / 終わって / 終わったら",
+    "Only with actions that have an end point; not with states (×分かり終わる, ×住み終わる)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書き (ます-stem of 書く)",
+    "rootLabel": "verb stem",
+    "branches": [
+      {
+        "suffix": "+ 始める",
+        "result": "書き始める",
+        "label": "start writing"
+      },
+      {
+        "suffix": "+ 続ける",
+        "result": "書き続ける",
+        "label": "keep writing"
+      },
+      {
+        "suffix": "+ 終わる",
+        "result": "書き終わる",
+        "label": "finish writing"
+      },
+      {
+        "suffix": "+ 出す",
+        "result": "書き出す",
+        "label": "suddenly start writing / write out"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "やっとレポートを書き終わりました。",
+      "reading": "やっと レポートを かきおわりました。",
+      "en": "I finally finished writing the report.",
+      "note": "やっと + 書き終わる: completion of a long task, stated plainly."
+    },
+    {
+      "ja": "食べ終わったら、お皿を洗ってください。",
+      "reading": "たべおわったら、おさらを あらってください。",
+      "en": "When you finish eating, please wash the dishes.",
+      "note": "〜終わったら as an instruction: \"when you have finished eating\"."
+    },
+    {
+      "ja": "この本はもう読み終わった。",
+      "reading": "この ほんは もう よみおわった。",
+      "en": "I've already finished reading this book.",
+      "note": "もう + 読み終わった: asking or stating that the reading is complete."
+    },
+    {
+      "ja": "この仕事を全部やり終わるまで、帰れません。",
+      "reading": "この しごとを ぜんぶ やりおわるまで、かえれません。",
+      "en": "I can't go home until I finish all this work.",
+      "note": "やる → やり終わる; the dictionary form before まで."
+    },
+    {
+      "ja": "宿題をやり終わってから、遊びに行きなさい。",
+      "reading": "しゅくだいを やりおわってから、あそびに いきなさい。",
+      "en": "Go out to play after you finish your homework.",
+      "note": "やる → やり終わる; 〜てから sets the order of events."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てしまう",
+      "difference": "Also completion (読んでしまった), but with a feeling of \"completely / finally\" or regret. 〜終わる is neutral.",
+      "id": "n4-grammar-22"
+    },
+    {
+      "pattern": "〜始める",
+      "difference": "The opposite end: start doing.",
+      "id": "n4-grammar-79"
+    },
+    {
+      "pattern": "〜続ける",
+      "difference": "Continue doing, the middle of the action.",
+      "id": "n4-grammar-81"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "やっと日本語が分かり終わった。",
+      "right": "やっと日本語が分かるようになった。",
+      "why": "分かる is a state with no end point, so 終わる cannot attach. Use ようになる for a change."
+    },
+    {
+      "wrong": "食べる終わったら、洗ってください。",
+      "right": "食べ終わったら、洗ってください。",
+      "why": "終わる attaches to the ます-stem."
+    },
+    {
+      "wrong": "映画が見終わった。",
+      "right": "映画を見終わった。",
+      "why": "見終わる is transitive like 見る; the object takes を. (映画が終わった = the film ended, without a stem.)"
+    }
+  ],
+  "usageNotes": [
+    "〜終える (書き終える) is a slightly more written/literary version with the same meaning.",
+    "For things that end by themselves use the plain verb 終わる: 授業が終わった. The suffix form needs a doer: 授業を受け終わった.",
+    "〜終わったばかり (have just finished) and 〜終わるまで (until you finish) are handy combinations."
+  ],
+  "jlptTips": [
+    "Check the stem: ます-stem + 終わる. Distractors use the dictionary or て-form.",
+    "If the verb is a state (分かる, 知る, 住む, ある), 終わる is impossible; look for ようになる or another option."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-80-1",
+    "q-n4-g-80-2",
+    "q-n4-g-80-3",
+    "q-n4-g-80-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-80-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

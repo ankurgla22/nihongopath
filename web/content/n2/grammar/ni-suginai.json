@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-118",
+  "slug": "ni-suginai",
+  "level": "n2",
+  "order": 118,
+  "title": "〜に過ぎない",
+  "romaji": "ni suginai",
+  "meaning": "nothing more than, merely, only",
+  "simpleExplanation": "〜に過ぎない means \"is nothing more than X\": the speaker downplays something as small, unimportant, or not worth the weight others give it. それは言い訳に過ぎない = \"That's just an excuse.\" It often pairs with ただ / ほんの / 単なる to reinforce the smallness.",
+  "whenUsed": "Formal writing, argumentative essays, news, and careful speech. In casual conversation people say ただの〜だ or 〜だけだ. Common with percentages and numbers to stress how few (一割に過ぎない).",
+  "formation": [
+    "Noun + に過ぎない",
+    "Verb (plain form) + に過ぎない (冗談を言ったに過ぎない)",
+    "い-adjective + に過ぎない (rare)",
+    "な-adjective + である + に過ぎない",
+    "Intensifiers: ただ / ほんの / 単なる / 単に + 〜に過ぎない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "それは言い訳だ",
+        "en": "that is an excuse (neutral)"
+      },
+      {
+        "ja": "それはただの言い訳だ",
+        "en": "that is just an excuse (casual downplaying)"
+      },
+      {
+        "ja": "それは言い訳に過ぎない",
+        "en": "that is nothing more than an excuse (formal downplaying)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "それは言い訳に過ぎない。",
+      "reading": "それはいいわけにすぎない。",
+      "en": "That is nothing but an excuse.",
+      "note": "Downplaying: it is only an excuse, nothing more."
+    },
+    {
+      "ja": "彼は冗談を言ったに過ぎない。",
+      "reading": "かれはじょうだんをいったにすぎない。",
+      "en": "He merely made a joke.",
+      "note": "A verb clause: he merely joked; do not take it seriously."
+    },
+    {
+      "ja": "賛成した人は全体の一割に過ぎなかった。",
+      "reading": "さんせいしたひとはぜんたいのいちわりにすぎなかった。",
+      "en": "Those in favor were no more than ten percent of the whole.",
+      "note": "A number: no more than ten percent, stressing how few."
+    },
+    {
+      "ja": "私はただ自分の仕事をしたに過ぎません。",
+      "reading": "わたしはただじぶんのしごとをしたにすぎません。",
+      "en": "I merely did my job.",
+      "note": "Modest response to praise; polite form に過ぎません."
+    },
+    {
+      "ja": "これは私の個人的な意見に過ぎませんが、計画は見直すべきだと思います。",
+      "reading": "これはわたしのこじんてきないけんにすぎませんが、けいかくはみなおすべきだとおもいます。",
+      "en": "This is merely my personal opinion, but I think the plan should be reconsidered.",
+      "note": "Softening one's own view before stating it."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけだ",
+      "difference": "Casual \"only\"; no formal downplaying tone."
+    },
+    {
+      "pattern": "〜にほかならない",
+      "difference": "The opposite direction: \"is nothing other than X\" affirms X strongly, while に過ぎない diminishes it.",
+      "id": "n2-grammar-130"
+    },
+    {
+      "pattern": "〜にとどまる",
+      "difference": "\"Stays within (a limit)\"; neutral, about extent rather than importance."
+    },
+    {
+      "pattern": "〜しかない",
+      "difference": "\"Only (a small amount)\"; casual; に過ぎない can also express the speaker's dismissive evaluation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は社長に過ぎない。(meaning \"he is the president\")",
+      "right": "彼は一社員に過ぎない。",
+      "why": "に過ぎない downplays; use it with something small or ordinary, not something impressive."
+    },
+    {
+      "wrong": "それは言い訳なに過ぎない。",
+      "right": "それは言い訳に過ぎない。",
+      "why": "Nouns attach directly."
+    },
+    {
+      "wrong": "十人が来たに過ぎない。(wanting \"as many as\")",
+      "right": "十人しか来なかった / たった十人が来たに過ぎない。",
+      "why": "It works only for stressing smallness; for a large number use 〜も."
+    }
+  ],
+  "usageNotes": [
+    "Modesty use: 私は手伝ったに過ぎません when praised.",
+    "With numbers: 全体の三割に過ぎない, 数人に過ぎない.",
+    "Kanji 過ぎる here means \"exceed\": literally \"does not exceed X\"."
+  ],
+  "jlptTips": [
+    "If the sentence has ただ / ほんの / 単なる before the noun, に過ぎない is the likely answer.",
+    "Do not confuse with にほかならない (strong affirmation). Ask: is the speaker minimizing (に過ぎない) or emphasizing (にほかならない)?",
+    "In 並べ替え, に過ぎない is sentence-final; the noun before it is the downplayed item."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-118-1",
+    "q-n2-g-118-2",
+    "q-n2-g-118-3",
+    "q-n2-g-118-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-118-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

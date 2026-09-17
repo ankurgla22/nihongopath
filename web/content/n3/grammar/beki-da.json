@@ -1,0 +1,121 @@
+{
+  "id": "n3-grammar-77",
+  "slug": "beki-da",
+  "level": "n3",
+  "order": 77,
+  "title": "〜べきだ / 〜べきではない",
+  "romaji": "beki da / beki dewa nai",
+  "meaning": "should / ought to (moral or logical duty); should not",
+  "simpleExplanation": "〜べきだ tells you what is right to do: \"Promises should be kept.\" It is stronger and more opinionated than 〜ほうがいい, and it is about what is proper, not about laws or rules. 〜べきではない is \"should not\", and 〜べきだった is \"should have (but didn't)\".",
+  "whenUsed": "Opinions, advice from a position of authority, essays and debates. Because it sounds firm, avoid using it toward superiors; say 〜たほうがいい instead. Do not use it for legal or institutional rules (use 〜なければならない).",
+  "formation": [
+    "Verb (dictionary form) + べきだ / べきです",
+    "する → すべきだ or するべきだ",
+    "Negative: Verb + べきではない / べきじゃない",
+    "Past regret: Verb + べきだった / べきではなかった",
+    "Before a noun: Verb + べき + Noun (守るべきルール)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How strong is the advice?",
+    "items": [
+      {
+        "label": "〜たほうがいい",
+        "description": "Friendly suggestion: 'it would be better to…'."
+      },
+      {
+        "label": "〜べきだ",
+        "description": "Firm opinion about what is right: 'you ought to…'."
+      },
+      {
+        "label": "〜なければならない",
+        "description": "Obligation from rules, deadlines or necessity: 'must'."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "約束は守るべきだ。",
+      "reading": "やくそくはまもるべきだ。",
+      "en": "Promises should be kept.",
+      "note": "General moral statement."
+    },
+    {
+      "ja": "人の悪口を言うべきではない。",
+      "reading": "ひとのわるぐちをいうべきではない。",
+      "en": "You shouldn't speak ill of others.",
+      "note": "Negative form べきではない."
+    },
+    {
+      "ja": "学生はもっと本を読むべきだと思う。",
+      "reading": "がくせいはもっとほんをよむべきだとおもう。",
+      "en": "I think students should read more books.",
+      "note": "べきだと思う softens a strong opinion."
+    },
+    {
+      "ja": "あの時、もっと早く医者に行くべきだった。",
+      "reading": "あのとき、もっとはやくいしゃにいくべきだった。",
+      "en": "I should have gone to the doctor sooner back then.",
+      "note": "べきだった = regret about the past."
+    },
+    {
+      "ja": "これは学生なら誰でも知っておくべき基本的な知識だ。",
+      "reading": "これはがくせいならだれでもしっておくべききほんてきなちしきだ。",
+      "en": "This is basic knowledge that any student ought to know.",
+      "note": "べき + noun modifies 知識."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たほうがいい",
+      "difference": "Softer advice for a specific person or situation. べきだ states a general duty."
+    },
+    {
+      "pattern": "〜なければならない",
+      "difference": "Obligation from rules or necessity, not from the speaker's sense of right and wrong."
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "'That's what people do' — a social norm stated as common sense rather than a personal opinion.",
+      "id": "n3-grammar-15"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本では車は左を走るべきだ。",
+      "right": "日本では車は左を走らなければならない。",
+      "why": "Traffic rules are laws, not moral opinions; use なければならない."
+    },
+    {
+      "wrong": "食べたべきだった。",
+      "right": "食べるべきだった。",
+      "why": "べき always attaches to the dictionary form; tense goes on だ (べきだった), not on the verb."
+    },
+    {
+      "wrong": "部長、もっと休むべきです。",
+      "right": "部長、もう少し休まれたほうがいいと思います。",
+      "why": "べきだ to a superior sounds like a lecture. Use a softer suggestion."
+    }
+  ],
+  "usageNotes": [
+    "すべき (without る) is a little more formal and common in writing; するべき is fine in speech.",
+    "べきだと思う / べきではないだろうか soften the statement.",
+    "べき can modify a noun directly: 考えるべき問題, やるべきこと ('things to do')."
+  ],
+  "jlptTips": [
+    "If the sentence is a general moral statement (promises, manners, honesty), choose べきだ; if it is a rule or deadline, choose なければならない.",
+    "Watch the verb form: べき follows the dictionary form only. A た-form before the blank rules it out.",
+    "べきだった + のに / が signals regret; do not confuse it with はずだった (expectation that failed)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-77-1",
+    "q-n3-g-77-2",
+    "q-n3-g-77-3",
+    "q-n3-g-77-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-77-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-46",
+  "slug": "koto-ni",
+  "level": "n2",
+  "order": 46,
+  "title": "〜ことに(は)",
+  "romaji": "koto ni (wa)",
+  "meaning": "to my (surprise / regret / delight), ...",
+  "simpleExplanation": "〜ことに(は) puts the speaker's emotional reaction first and the fact second: \"to my surprise, …\", \"regrettably, …\", \"happily, …\". Only emotion words are used: 驚いたことに, 残念なことに, 嬉しいことに, 困ったことに, 悔しいことに.",
+  "whenUsed": "書き言葉寄り, also in careful speech and news-style narration. い-adjectives attach directly, な-adjectives take な, and a few verbs appear in the past form (驚いた・困った・呆れた). The clause that follows is a fact, not a plan or request.",
+  "formation": [
+    "Aい + ことに / Aな + な + ことに / Vた + ことに (驚いた・困った)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "驚いた",
+        "role": "emotion (Aい / Aな + な / Vた)"
+      },
+      {
+        "text": "ことに",
+        "role": "to my (surprise)…",
+        "highlight": true
+      },
+      {
+        "text": "彼は一人で山を登った",
+        "role": "the fact that caused it"
+      }
+    ],
+    "translation": "To my surprise, he climbed the mountain alone."
+  },
+  "examples": [
+    {
+      "ja": "驚いたことに、彼は一人で山を登った。",
+      "reading": "おどろいたことに、かれはひとりでやまをのぼった。",
+      "en": "To my surprise, he climbed the mountain alone.",
+      "note": "Vた (驚いた) + ことに."
+    },
+    {
+      "ja": "残念なことに、試合は中止になった。",
+      "reading": "ざんねんなことに、しあいはちゅうしになった。",
+      "en": "Regrettably, the match was cancelled.",
+      "note": "Aな + な + ことに."
+    },
+    {
+      "ja": "嬉しいことに、来月姉に赤ちゃんが生まれる。",
+      "reading": "うれしいことに、らいげつあねにあかちゃんがうまれる。",
+      "en": "Happily, my sister's baby is due next month.",
+      "note": "Aい + ことに with a future fact."
+    },
+    {
+      "ja": "困ったことに、財布を家に忘れてきてしまった。",
+      "reading": "こまったことに、さいふをいえにわすれてきてしまった。",
+      "en": "Annoyingly, I left my wallet at home.",
+      "note": "困ったことに is one of the most common forms."
+    },
+    {
+      "ja": "ありがたいことに、多くの方が寄付をしてくださった。",
+      "reading": "ありがたいことに、おおくのかたがきふをしてくださった。",
+      "en": "Thankfully, many people made donations.",
+      "note": "Gratitude expressed first."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことか",
+      "difference": "Exclamation with a question word; ことに is an adverbial preface.",
+      "id": "n2-grammar-42"
+    },
+    {
+      "pattern": "〜ことから",
+      "difference": "\"From the fact that\": reason, not emotion.",
+      "id": "n2-grammar-43"
+    },
+    {
+      "pattern": "〜ことだ",
+      "difference": "Advice (\"you should\"); unrelated meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "残念ことに、中止になった。",
+      "right": "残念なことに、中止になった。",
+      "why": "な-adjectives need な."
+    },
+    {
+      "wrong": "嬉しいことに、来週旅行に行こう。",
+      "right": "嬉しいことに、来週旅行に行けることになった。",
+      "why": "What follows must be a fact, not a volitional plan."
+    },
+    {
+      "wrong": "大きいことに、家が広い。",
+      "right": "驚いたことに、家がとても広い。",
+      "why": "Only emotion words take ことに."
+    }
+  ],
+  "usageNotes": [
+    "Frequent set forms: 驚いたことに, 残念なことに, 嬉しいことに, 困ったことに, 幸いなことに, 不思議なことに.",
+    "ことには with は adds slight emphasis and is a bit more literary.",
+    "It can open a paragraph in essays to signal an evaluation of what follows."
+  ],
+  "jlptTips": [
+    "Emotion word at the start + blank + a fact → ことに.",
+    "Distractors: ことか, ことから, ことだから. Only ことに follows an emotion adjective directly.",
+    "Watch for the missing な after な-adjectives in form-choice items."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-46-1",
+    "q-n2-g-46-2",
+    "q-n2-g-46-3",
+    "q-n2-g-46-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-46-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

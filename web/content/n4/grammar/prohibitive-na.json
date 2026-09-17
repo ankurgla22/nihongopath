@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-8",
+  "slug": "prohibitive-na",
+  "level": "n4",
+  "order": 8,
+  "title": "Prohibitive form (〜な) \"Don't!\"",
+  "romaji": "kinshi-kei (-na)",
+  "meaning": "Blunt prohibition.",
+  "simpleExplanation": "Dictionary form + な is the blunt \"Don't!\": 入るな (Don't enter), 触るな (Don't touch), 心配するな (Don't worry). It is the negative partner of the imperative (lesson 7). It sounds rough, so it appears on warning signs, in emergencies, in sports and among close male friends, and inside quotes (〜なと言われた).",
+  "whenUsed": "Warning signs (入るな, 触るな), shouted warnings (動くな！), rough talk between friends, and reported prohibitions. To someone you must be polite to, use 〜ないでください instead. 心配するな / 気にするな are common friendly reassurances between close people.",
+  "formation": [
+    "Dictionary form + な: 行く→行くな, 食べる→食べるな, する→するな, 来る→来るな",
+    "Works the same for all three groups (no conjugation change)",
+    "Polite prohibition: 〜ないでください",
+    "Do not confuse with ます-stem + な (食べな = casual \"eat\", from 食べなさい)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "〜な: prohibition vs shortened なさい",
+    "columns": [
+      "Form",
+      "Attaches to",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-dictionary + な",
+        "cells": [
+          "Prohibitive",
+          "dictionary form",
+          "Don't do it!",
+          "食べるな (Don't eat)"
+        ]
+      },
+      {
+        "label": "V-ます stem + な",
+        "cells": [
+          "Short for なさい",
+          "ます-stem",
+          "Do it (casual command)",
+          "食べな (Eat up)"
+        ]
+      },
+      {
+        "label": "V-ない + でください",
+        "cells": [
+          "Polite prohibition",
+          "ない-form",
+          "Please don't",
+          "食べないでください"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ここに入るな。",
+      "reading": "ここに はいるな。",
+      "en": "Don't enter here.",
+      "note": "A sign-style warning: dictionary form + な."
+    },
+    {
+      "ja": "遅刻するなと言われました。",
+      "reading": "ちこくするなと いわれました。",
+      "en": "I was told not to be late.",
+      "note": "Reported prohibition: the な-form stays inside the quote."
+    },
+    {
+      "ja": "心配するな。",
+      "reading": "しんぱいするな。",
+      "en": "Don't worry.",
+      "note": "Friendly reassurance: するな after 心配する."
+    },
+    {
+      "ja": "危ない！そこに触るな！",
+      "reading": "あぶない！そこに さわるな！",
+      "en": "Watch out! Don't touch that!",
+      "note": "Shouted warnings use the prohibitive because it is short and fast."
+    },
+    {
+      "ja": "医者に、しばらくお酒を飲むなと言われた。",
+      "reading": "いしゃに、しばらく おさけを のむなと いわれた。",
+      "en": "The doctor told me not to drink alcohol for a while.",
+      "note": "In reported speech 〜なと言われた is neutral, not rude."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Imperative form",
+      "difference": "The affirmative rough command (入れ = Enter!). 〜な is its negative twin.",
+      "id": "n4-grammar-7"
+    },
+    {
+      "pattern": "〜ないでください",
+      "difference": "The polite way to ask someone not to do something. Use this in ordinary conversation."
+    },
+    {
+      "pattern": "〜なさい / 〜な (short)",
+      "difference": "ます-stem + な (行きな) is a shortened なさい and means \"go\", the opposite of 行くな.",
+      "id": "n4-grammar-74"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "食べな！(meaning \"Don't eat!\")",
+      "right": "食べるな！",
+      "why": "食べな attaches to the ます-stem and means \"eat\" (short for 食べなさい). The prohibitive needs the dictionary form."
+    },
+    {
+      "wrong": "先生、ここに座るな。",
+      "right": "先生、ここには座らないでください。",
+      "why": "〜な is too rough for a teacher. Use 〜ないでください."
+    },
+    {
+      "wrong": "遅刻しないなと言われた。",
+      "right": "遅刻するなと言われた。",
+      "why": "な attaches to the affirmative dictionary form; it already carries the \"don't\" meaning."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final な can also be the reflective particle (きれいだな = it's pretty, isn't it). The prohibitive is only after the dictionary form with commanding intonation.",
+    "Common set phrases: 気にするな (don't mind it), 心配するな (don't worry), 無理するな (don't overdo it), all friendly between close people.",
+    "Signs often shorten to 〜べからず in old style, but modern signs use 〜な or 〜禁止 (立入禁止)."
+  ],
+  "jlptTips": [
+    "In 文法形式, 〜な is usually inside a quote: 「…な」と言われた / と書いてある. Spot the quote marks and choose the dictionary form + な.",
+    "A common trap pairs 行くな (don't go) with 行きな (go). Check whether the verb before な is the dictionary form or the ます-stem."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-8-1",
+    "q-n4-g-8-2",
+    "q-n4-g-8-3",
+    "q-n4-g-8-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-8-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,134 @@
+{
+  "id": "n4-grammar-24",
+  "slug": "te-iku-te-kuru",
+  "level": "n4",
+  "order": 24,
+  "title": "〜ていく / 〜てくる (change and direction over time)",
+  "romaji": "te iku / te kuru",
+  "meaning": "ていく: an action or change continuing away from now / from the speaker (into the future). てくる: a change that has come up to now, or something that starts to appear; also \"go and do, then come back\".",
+  "simpleExplanation": "〜ていく and 〜てくる use \"go\" and \"come\" to show direction in space or time. In space: 持っていく = take (away from here), 持ってくる = bring (toward here), 買ってくる = go buy and come back. In time: 〜てくる = a change that has come up to now (寒くなってきた = it has got colder), 〜ていく = a change that continues from now on (寒くなっていく = it will keep getting colder). てくる can also mean something begins: 雨が降ってきた = it has started raining.",
+  "whenUsed": "Errands and movement (ちょっと行ってきます), describing weather and seasons, talking about progress in study (分かるようになってきた), trends (人口が減っていく), and starting sensations (お腹がすいてきた).",
+  "formation": [
+    "V-て + いく: 持っていく, 変わっていく, 増えていく",
+    "V-て + くる: 持ってくる, 変わってくる, 降ってくる",
+    "Space: 〜てくる = do and come back (買ってくる)",
+    "Time: 〜てきた = up to now; 〜ていく = from now on",
+    "いく and くる are written in kana in this use"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ていく vs てくる",
+    "columns": [
+      "Space",
+      "Time",
+      "Start of something",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ていく",
+        "cells": [
+          "away from the speaker (持っていく = take)",
+          "continues into the future (寒くなっていく)",
+          "-",
+          "これから人口が減っていくだろう"
+        ]
+      },
+      {
+        "label": "〜てくる",
+        "cells": [
+          "toward the speaker; go and come back (買ってくる)",
+          "has come up to now (寒くなってきた)",
+          "begins (雨が降ってきた, お腹がすいてきた)",
+          "日本語が分かるようになってきた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これから寒くなっていきます。",
+      "reading": "これから さむく なっていきます。",
+      "en": "It will get colder from now on.",
+      "note": "ていく: the change continues from now into the future."
+    },
+    {
+      "ja": "日本語が少し分かるようになってきた。",
+      "reading": "にほんごが すこし わかるように なってきた。",
+      "en": "I've gradually come to understand a bit of Japanese.",
+      "note": "てきた: the change has happened up to now."
+    },
+    {
+      "ja": "ちょっとコンビニで飲み物を買ってきます。",
+      "reading": "ちょっと コンビニで のみものを かってきます。",
+      "en": "I'll go buy a drink at the convenience store (and come back).",
+      "note": "てくる in space: go, buy, and come back."
+    },
+    {
+      "ja": "急にお腹が痛くなってきたので、薬を飲みました。",
+      "reading": "きゅうに おなかが いたく なってきたので、くすりを のみました。",
+      "en": "My stomach suddenly started hurting, so I took some medicine.",
+      "note": "てくる for a sensation that begins and moves toward the present."
+    },
+    {
+      "ja": "これからも日本語の勉強を続けていくつもりです。",
+      "reading": "これからも にほんごの べんきょうを つづけていく つもりです。",
+      "en": "I intend to keep studying Japanese from now on.",
+      "note": "ていく with これからも: the action continues into the future."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "ようになる marks a change in ability or habit. Adding てきた (ようになってきた) stresses it happened gradually up to now.",
+      "id": "n4-grammar-14"
+    },
+    {
+      "pattern": "〜始める",
+      "difference": "降り始めた neutrally says rain started. 降ってきた adds the feeling that it came toward the speaker, often unexpectedly.",
+      "id": "n4-grammar-79"
+    },
+    {
+      "pattern": "〜続ける",
+      "difference": "続ける says the action continues; 続けていく adds that it continues into the future from now.",
+      "id": "n4-grammar-81"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "去年から日本語を勉強していきました。",
+      "right": "去年から日本語を勉強してきました。",
+      "why": "A change from the past up to now needs てくる. ていく points forward from now."
+    },
+    {
+      "wrong": "コンビニで飲み物を買っていきます。(when you will come back)",
+      "right": "コンビニで飲み物を買ってきます。",
+      "why": "\"Go and buy and come back\" is 買ってくる. 買っていく means buy and take somewhere else."
+    },
+    {
+      "wrong": "雨が降っていった。",
+      "right": "雨が降ってきた。",
+      "why": "Rain starting is a change that reaches the speaker, so it takes てくる."
+    }
+  ],
+  "usageNotes": [
+    "行ってきます (I'm off) literally means \"I'll go and come back\", a fixed daily greeting.",
+    "With change verbs (なる, 増える, 減る, 変わる) the time meaning is the usual one: 増えてきた (has been increasing), 増えていく (will keep increasing).",
+    "Sensations and feelings usually take てくる: 眠くなってきた, 分かってきた, 好きになってきた."
+  ],
+  "jlptTips": [
+    "Time words decide: これから / 今後 / 将来 → ていく; 今まで / 最近 / だんだん + past → てきた. For space, ask whether the person returns (てくる) or moves away (ていく).",
+    "Sudden starts (急に, 突然) with weather or body feelings almost always take てきた."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-24-1",
+    "q-n4-g-24-2",
+    "q-n4-g-24-3",
+    "q-n4-g-24-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-24-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

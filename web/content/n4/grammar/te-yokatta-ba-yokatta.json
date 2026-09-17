@@ -1,0 +1,152 @@
+{
+  "id": "n4-grammar-91",
+  "slug": "te-yokatta-ba-yokatta",
+  "level": "n4",
+  "order": 91,
+  "title": "〜てよかった / 〜ばよかった \"glad that / should have\"",
+  "romaji": "te yokatta / ba yokatta",
+  "meaning": "てよかった: relief or gladness that something happened. ばよかった: regret that something did not happen (\"I should have…\").",
+  "simpleExplanation": "These two patterns look at the past with feelings. 〜てよかった = \"I'm glad that…\": something happened and it turned out well (来てよかった = I'm glad I came). 〜ばよかった = \"I should have…\": something did not happen and now you regret it (来ればよかった = I should have come). The difference is the verb form: て-form for what really happened, ば-form for what did not. The negatives work the same way: 行かなくてよかった (glad I didn't go), 行かなければよかった (I shouldn't have gone).",
+  "whenUsed": "Everyday reflections: after a good decision (買ってよかった), after a mistake (もっと勉強すればよかった), comforting others (無事でよかった). 〜ばよかった is often said with a sigh and can end in のに. Both are neutral in register; add です for politeness (〜てよかったです).",
+  "formation": [
+    "V-て + よかった: 来てよかった (glad I came)",
+    "V-なくて + よかった: 行かなくてよかった (glad I didn't go)",
+    "V-ば + よかった: 来ればよかった (should have come)",
+    "V-なければ + よかった: 言わなければよかった (shouldn't have said)",
+    "Spoken variant: 〜たらよかった; regret often adds のに: 買っておけばよかったのに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Did it happen? Glad or sorry?",
+    "columns": [
+      "Form",
+      "Did it happen?",
+      "Feeling",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜てよかった",
+        "cells": [
+          "V-て + よかった",
+          "yes",
+          "glad, relieved",
+          "会えてよかった (glad I could meet you)"
+        ]
+      },
+      {
+        "label": "〜なくてよかった",
+        "cells": [
+          "V-なくて + よかった",
+          "no",
+          "glad it didn't",
+          "行かなくてよかった (glad I didn't go)"
+        ]
+      },
+      {
+        "label": "〜ばよかった",
+        "cells": [
+          "V-ば + よかった",
+          "no",
+          "regret",
+          "来ればよかった (should have come)"
+        ]
+      },
+      {
+        "label": "〜なければよかった",
+        "cells": [
+          "V-なければ + よかった",
+          "yes",
+          "regret",
+          "言わなければよかった (shouldn't have said)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "あなたに会えてよかった。",
+      "reading": "あなたに あえて よかった。",
+      "en": "I'm glad I could meet you.",
+      "note": "Potential 会える in the て-form + よかった: relief at something that happened."
+    },
+    {
+      "ja": "もっと早く来ればよかった。",
+      "reading": "もっと はやく くれば よかった。",
+      "en": "I should have come earlier.",
+      "note": "Regret: coming earlier did not happen, so ば + よかった."
+    },
+    {
+      "ja": "あんなことを言わなければよかった。",
+      "reading": "あんな ことを いわなければ よかった。",
+      "en": "I shouldn't have said such a thing.",
+      "note": "Regret about something that DID happen: なければよかった."
+    },
+    {
+      "ja": "傘を持ってきてよかった。急に雨が降ってきた。",
+      "reading": "かさを もってきて よかった。きゅうに あめが ふってきた。",
+      "en": "I'm glad I brought an umbrella. It suddenly started raining.",
+      "note": "The speaker did bring it, so て-form + よかった."
+    },
+    {
+      "ja": "昨日の夜、あんなにコーヒーを飲まなければよかった。全然眠れなかった。",
+      "reading": "きのうの よる、あんなに コーヒーを のまなければ よかった。ぜんぜん ねむれなかった。",
+      "en": "I shouldn't have drunk so much coffee last night. I couldn't sleep at all.",
+      "note": "Regret about something that happened: なければよかった."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばいい / 〜たらいい",
+      "difference": "Present tense: advice about what to do (聞けばいい = just ask). Past tense よかった turns the same form into regret.",
+      "id": "n4-grammar-92"
+    },
+    {
+      "pattern": "〜ば",
+      "difference": "The plain conditional. 〜ばよかった is built on it: \"if I had done A, it would have been good\".",
+      "id": "n4-grammar-10"
+    },
+    {
+      "pattern": "〜のに (contrast)",
+      "difference": "Often added after ばよかった to stress the regret: 言ってくれればよかったのに (you could have told me).",
+      "id": "n4-grammar-43"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "もっと早く来てよかった。(meaning: I should have come earlier)",
+      "right": "もっと早く来ればよかった。",
+      "why": "て + よかった says you actually came early and are glad. Regret about something you did not do needs the ば-form."
+    },
+    {
+      "wrong": "行かないばよかった。",
+      "right": "行かなければよかった。",
+      "why": "The negative ば-form is なければ, not ないば."
+    },
+    {
+      "wrong": "薬を飲めばよかったです。(when you did take it and feel better)",
+      "right": "薬を飲んでよかったです。",
+      "why": "You took the medicine, so use the て-form. ば + よかった implies you did not take it."
+    }
+  ],
+  "usageNotes": [
+    "〜ばよかった can also be said to another person as a gentle reproach: 早く言ってくれればよかったのに (you should have told me sooner).",
+    "For a general good outcome with adjectives and nouns: 安くてよかった, 晴れでよかった, 無事でよかった.",
+    "〜たらよかった is a spoken equivalent of ばよかった; the exam mostly uses ばよかった."
+  ],
+  "jlptTips": [
+    "Decide first whether the action happened. Cues like 実際に, 結果 or a following sentence showing a good result point to てよかった; cues like 後悔, のに, or a bad result point to ばよかった.",
+    "Distractors mix the negative forms: なくてよかった (glad it didn't) vs なければよかった (shouldn't have). Read the second sentence to see which fits."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-91-1",
+    "q-n4-g-91-2",
+    "q-n4-g-91-3",
+    "q-n4-g-91-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-91-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

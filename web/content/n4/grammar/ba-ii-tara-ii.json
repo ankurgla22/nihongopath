@@ -1,0 +1,147 @@
+{
+  "id": "n4-grammar-92",
+  "slug": "ba-ii-tara-ii",
+  "level": "n4",
+  "order": 92,
+  "title": "〜ばいい / 〜たらいい \"should / all you have to do is\"",
+  "romaji": "ba ii / tara ii",
+  "meaning": "Gives advice or a solution: \"you just need to…\", \"it would be good if…\".",
+  "simpleExplanation": "〜ばいい and 〜たらいい mean \"you just need to… / it would be fine to…\". 辞書で調べればいい = \"just look it up in a dictionary\". They give a simple solution: if you do A, that's enough. In a question with a question word they ask for advice: どうすればいいですか (What should I do?), 何時に行けばいいですか (What time should I come?). With のに or なあ they turn into wishes: 早く春になればいいのに, 晴れたらいいなあ.",
+  "whenUsed": "Giving quick, practical solutions (分からなければ聞けばいい), asking for instructions politely (どこで待てばいいですか), and expressing hopes. 〜ばいい can sound a little cold if the other person is worried, so with friends in trouble 〜たほうがいい may be kinder. ば and たら are interchangeable here; たら is more spoken.",
+  "formation": [
+    "V-ば + いい: 調べればいい, 聞けばいい",
+    "V-たら + いい: 調べたらいい (same meaning, more spoken)",
+    "Question word + 〜ばいいですか: どうすればいいですか, 誰に聞けばいいですか",
+    "Wish: 〜ばいいのに (if only…), 〜たらいいなあ (I hope…)",
+    "Negative solution: 〜なければいい (行かなければいい = just don't go)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ばいい: advice, question, wish",
+    "columns": [
+      "Pattern",
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "Simple solution",
+        "cells": [
+          "V-ば + いい",
+          "辞書で調べればいい",
+          "Just look it up"
+        ]
+      },
+      {
+        "label": "Asking advice",
+        "cells": [
+          "Question word + V-ば + いいですか",
+          "何時に行けばいいですか",
+          "What time should I go?"
+        ]
+      },
+      {
+        "label": "Wish (unlikely)",
+        "cells": [
+          "V-ば + いいのに",
+          "もっと安ければいいのに",
+          "If only it were cheaper"
+        ]
+      },
+      {
+        "label": "Hope",
+        "cells": [
+          "V-たら + いいなあ",
+          "明日晴れたらいいなあ",
+          "I hope it's sunny tomorrow"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "分からない言葉は辞書で調べればいい。",
+      "reading": "わからない ことばは じしょで しらべれば いい。",
+      "en": "For words you don't know, just look them up in a dictionary.",
+      "note": "A simple solution: \"just look it up\"."
+    },
+    {
+      "ja": "何時に行けばいいですか。",
+      "reading": "なんじに いけば いいですか。",
+      "en": "What time should I go?",
+      "note": "Asking for instructions: question word + ばいいですか."
+    },
+    {
+      "ja": "明日晴れたらいいなあ。",
+      "reading": "あした はれたら いいなあ。",
+      "en": "I hope it's sunny tomorrow.",
+      "note": "たら + いいなあ: a hope about the future."
+    },
+    {
+      "ja": "A：この書類はどこに出せばいいですか。 B：受付に出してください。",
+      "reading": "A：この しょるいは どこに だせば いいですか。 B：うけつけに だしてください。",
+      "en": "A: Where should I hand in this form? B: Please hand it in at reception.",
+      "note": "どこに + 出せばいいですか: asking for the correct procedure."
+    },
+    {
+      "ja": "疲れているなら、今日は早く寝ればいいよ。",
+      "reading": "つかれているなら、きょうは はやく ねれば いいよ。",
+      "en": "If you're tired, just go to bed early tonight.",
+      "note": "A simple solution offered between friends."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ほうがいい",
+      "difference": "ほうがいい is advice with concern (you had better). ばいい is a light \"that will do the job\" and can sound detached.",
+      "id": "n4-grammar-65"
+    },
+    {
+      "pattern": "〜ばよかった",
+      "difference": "Past tense: regret about something not done. ばいい is present or future advice.",
+      "id": "n4-grammar-91"
+    },
+    {
+      "pattern": "〜たらどうですか",
+      "difference": "A suggestion in question form (\"how about…?\"). ばいい states the solution more directly.",
+      "id": "n4-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "どうすればいいですかを教えてください。",
+      "right": "どうすればいいか教えてください。",
+      "why": "When embedding the question, use 〜か (not ですか + を): どうすればいいか教えてください."
+    },
+    {
+      "wrong": "分からなかったら、先生に聞くばいい。",
+      "right": "分からなかったら、先生に聞けばいい。",
+      "why": "いい follows the ば-form (聞けば), not the dictionary form."
+    },
+    {
+      "wrong": "熱があるんですか。薬を飲めばいいです。(to a sick friend)",
+      "right": "熱があるんですか。薬を飲んだほうがいいですよ。",
+      "why": "〜ばいい can sound as if you do not care. For caring advice use ほうがいい."
+    }
+  ],
+  "usageNotes": [
+    "〜ばいい is also used to give permission-like reassurance: 好きな物を食べればいいよ (eat whatever you like).",
+    "〜ばいいのに after a verb another person did not do carries mild criticism: 早く言えばいいのに (you should just say so).",
+    "In questions, 〜ばいいですか is politer than 〜ますか when you want instructions: 何を持っていけばいいですか."
+  ],
+  "jlptTips": [
+    "A question word (どう, 何, どこ, 誰, 何時) followed by a blank and いいですか signals 〜ばいい / 〜たらいい. Choose the ば- or たら-form, not the dictionary or て-form.",
+    "When the blank is followed by のに or なあ and the sentence is a wish, ばいい / たらいい are the answers; distractors like ばよかった (past regret) will not fit a future time word."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-92-1",
+    "q-n4-g-92-2",
+    "q-n4-g-92-3",
+    "q-n4-g-92-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-92-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

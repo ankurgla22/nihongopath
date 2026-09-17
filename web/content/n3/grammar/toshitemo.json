@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-65",
+  "slug": "toshitemo",
+  "level": "n3",
+  "order": 65,
+  "title": "〜としても",
+  "romaji": "toshitemo",
+  "meaning": "Even if… (supposing that) / even as…",
+  "simpleExplanation": "〜としても means \"even supposing X is true, Y still holds\": 今から急いだとしても、間に合わないだろう = even if we hurried now, we wouldn't make it. It attaches to a plain clause, often with たとえ. After a noun it can also mean \"also as (a role)\": 親としても嬉しい.",
+  "whenUsed": "Speech and writing, reasoning about hypotheticals. Slightly more formal than ても.",
+  "formation": [
+    "Plain form + としても",
+    "Noun / な-adjective + だ + としても",
+    "Often: たとえ〜としても",
+    "Noun + としても = also as / even as (role)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ても / としても / にしても",
+    "columns": [
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ても",
+        "cells": [
+          "even if (general)",
+          "急いでも間に合わない"
+        ]
+      },
+      {
+        "label": "〜としても",
+        "cells": [
+          "even supposing (hypothetical)",
+          "急いだとしても間に合わない"
+        ]
+      },
+      {
+        "label": "〜にしても",
+        "cells": [
+          "even granting that (admits a fact)",
+          "急いだにしても遅すぎる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今から急いだとしても、間に合わないだろう。",
+      "reading": "いまからいそいだとしても、まにあわないだろう。",
+      "en": "Even if we hurried now, we probably wouldn't make it.",
+      "note": "Past + としても: hypothetical hurry."
+    },
+    {
+      "ja": "彼が来るとしても、遅くなるはずだ。",
+      "reading": "かれがくるとしても、おそくなるはずだ。",
+      "en": "Even supposing he comes, he'll be late.",
+      "note": "Dictionary form + としても: supposing he comes."
+    },
+    {
+      "ja": "冗談だとしても、ひどすぎる。",
+      "reading": "じょうだんだとしても、ひどすぎる。",
+      "en": "Even if it was a joke, it's too much.",
+      "note": "Noun + だとしても: even if it was a joke."
+    },
+    {
+      "ja": "たとえ宝くじが当たったとしても、仕事は辞めないと思う。",
+      "reading": "たとえたからくじがあたったとしても、しごとはやめないとおもう。",
+      "en": "Even if I won the lottery, I don't think I'd quit my job.",
+      "note": "たとえ + としても: a strong hypothetical."
+    },
+    {
+      "ja": "教師としても、親としても、子供たちの成長が楽しみだ。",
+      "reading": "きょうしとしても、おやとしても、こどもたちのせいちょうがたのしみだ。",
+      "en": "Both as a teacher and as a parent, I look forward to seeing the children grow.",
+      "note": "Noun + としても = also as (role)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "たとえ〜ても",
+      "difference": "Simpler concession with the て-form.",
+      "id": "n3-grammar-64"
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "Admits a fact and objects; less hypothetical.",
+      "id": "n3-grammar-67"
+    },
+    {
+      "pattern": "〜として",
+      "difference": "Role marker; としても after a noun adds \"also\".",
+      "id": "n3-grammar-27"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "急いでとしても",
+      "right": "急いだとしても / 急ぐとしても",
+      "why": "としても attaches to plain forms, not the て-form."
+    },
+    {
+      "wrong": "冗談としても、ひどすぎる。(intended: even if it was a joke)",
+      "right": "冗談だとしても、ひどすぎる。",
+      "why": "A noun needs だ before としても for the \"even if\" meaning; without だ it reads as \"as a joke\"."
+    },
+    {
+      "wrong": "彼が来たとしても、遅くなった。(real past)",
+      "right": "彼が来たとしても、遅くなるはずだ。",
+      "why": "としても is hypothetical, so the main clause is a prediction, not a completed fact."
+    }
+  ],
+  "usageNotes": [
+    "More hypothetical than 〜ても; often paired with たとえ. N + としても can also mean \"as ~ too\" (親としても嬉しい).",
+    "The main clause is often a judgement: だろう / はずだ / 無理だ / 意味がない."
+  ],
+  "jlptTips": [
+    "A plain clause + blank + a prediction (だろう, はずだ) = としても.",
+    "A て-form before the blank means ても, not としても; check the form.",
+    "Noun + としても with a positive statement (嬉しい, 誇りだ) is the role meaning, not a concession."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-65-1",
+    "q-n3-g-65-2",
+    "q-n3-g-65-3",
+    "q-n3-g-65-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-65-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

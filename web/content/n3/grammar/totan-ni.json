@@ -1,0 +1,120 @@
+{
+  "id": "n3-grammar-39",
+  "slug": "totan-ni",
+  "level": "n3",
+  "order": 39,
+  "title": "〜とたん(に) / 〜途端に",
+  "romaji": "totan ni",
+  "meaning": "The moment… / just as… (something sudden happened)",
+  "simpleExplanation": "〜とたん(に) means that the instant one thing happened, something else happened, usually sudden and unexpected: ドアを開けたとたん、猫が飛び出した = the moment I opened the door, the cat jumped out. It always attaches to the た-form and the second event is not something the speaker planned.",
+  "whenUsed": "Narration, stories, describing surprises. Not for future plans or intentions.",
+  "formation": [
+    "Verb (た form) + とたん(に)",
+    "Main clause: a sudden past event, not an intention",
+    "Written: 〜途端(に)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "ドアを開けた",
+        "role": "trigger (た-form)",
+        "highlight": true
+      },
+      {
+        "text": "とたん、",
+        "role": "the moment",
+        "highlight": true
+      },
+      {
+        "text": "猫が飛び出した。",
+        "role": "sudden, uncontrolled result"
+      }
+    ],
+    "translation": "The moment I opened the door, the cat jumped out."
+  },
+  "examples": [
+    {
+      "ja": "ドアを開けたとたん、猫が飛び出した。",
+      "reading": "ドアをあけたとたん、ねこがとびだした。",
+      "en": "The moment I opened the door, the cat jumped out.",
+      "note": "た-form + とたん + a sudden event."
+    },
+    {
+      "ja": "立ち上がったとたんに、めまいがした。",
+      "reading": "たちあがったとたんに、めまいがした。",
+      "en": "As soon as I stood up, I felt dizzy.",
+      "note": "Physical reaction that could not be controlled."
+    },
+    {
+      "ja": "彼女はそれを聞いたとたん、泣き出した。",
+      "reading": "かのじょはそれをきいたとたん、なきだした。",
+      "en": "The moment she heard it, she burst into tears.",
+      "note": "Emotional reaction immediately after hearing something."
+    },
+    {
+      "ja": "電車のドアが閉まったとたんに、忘れ物に気がついた。",
+      "reading": "でんしゃのドアがしまったとたんに、わすれものにきがついた。",
+      "en": "The moment the train doors closed, I realized I'd forgotten something.",
+      "note": "Classic \"too late\" timing."
+    },
+    {
+      "ja": "ベッドに入ったとたん、眠ってしまった。",
+      "reading": "ベッドにはいったとたん、ねむってしまった。",
+      "en": "The moment I got into bed, I fell asleep.",
+      "note": "しまった adds the unintended feeling."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ところに",
+      "difference": "Someone arrives into a situation; takes several verb forms. とたんに is only た-form + sudden event.",
+      "id": "n3-grammar-38"
+    },
+    {
+      "pattern": "〜と同時に",
+      "difference": "\"At the same time\", neutral; no surprise."
+    },
+    {
+      "pattern": "〜(た)途端 vs 〜てすぐ",
+      "difference": "〜てすぐ is a neutral \"right after\" and can take intentions: 着いてすぐ電話した."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "家に着いたとたんに、電話しよう。",
+      "right": "家に着いたらすぐ、電話しよう。",
+      "why": "とたんに cannot be followed by an intention or plan."
+    },
+    {
+      "wrong": "ドアを開けるとたん",
+      "right": "ドアを開けたとたん",
+      "why": "Always the た-form."
+    },
+    {
+      "wrong": "薬を飲んだとたんに、だんだん良くなった。",
+      "right": "薬を飲んでから、だんだん良くなった。",
+      "why": "とたんに needs an instant change; だんだん (gradually) contradicts it."
+    }
+  ],
+  "usageNotes": [
+    "The main clause is a sudden, uncontrolled event in the past; not used for the speaker's intended action (x 着いたとたんに電話しよう). Compare 〜と同時に (simultaneously, neutral) and 〜てすぐ.",
+    "Often used with 急に / 突然 in the main clause, though they are not required."
+  ],
+  "jlptTips": [
+    "た-form before the blank + a sudden, uncontrolled past event after it = とたんに.",
+    "If the main clause is a plan, request, or gradual change, とたんに is wrong.",
+    "ところに and 最中に are frequent distractors; とたんに is the only one that requires V-た and instant timing."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-39-1",
+    "q-n3-g-39-2",
+    "q-n3-g-39-3",
+    "q-n3-g-39-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-39-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

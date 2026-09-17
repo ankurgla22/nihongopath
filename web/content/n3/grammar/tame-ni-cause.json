@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-19",
+  "slug": "tame-ni-cause",
+  "level": "n3",
+  "order": 19,
+  "title": "〜ために (cause / reason)",
+  "romaji": "tame ni cause",
+  "meaning": "Because of… / due to… (formal cause)",
+  "simpleExplanation": "〜ために can mean \"because of\" as well as \"in order to\". In the cause meaning, it states a reason formally and neutrally: 台風のために電車が止まっています = due to the typhoon, the trains have stopped. No blame, no gratitude, just the fact. You will hear it in station announcements and read it in news.",
+  "whenUsed": "Formal announcements, news, reports, business emails. Less common in casual speech, where から / ので are used.",
+  "formation": [
+    "Verb (plain form, usually past or state) + ために",
+    "い-adjective + ために",
+    "な-adjective + な + ために",
+    "Noun + の + ために",
+    "Purpose reading: V-dictionary (volitional action) + ために"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two readings of ために",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-た / state + ために",
+        "cells": [
+          "because of",
+          "事故があったために遅れた"
+        ]
+      },
+      {
+        "label": "V-dict (intentional) + ために",
+        "cells": [
+          "in order to",
+          "合格するために勉強する"
+        ]
+      },
+      {
+        "label": "N + のために",
+        "cells": [
+          "either (context decides)",
+          "台風のために止まった / 家族のために働く"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "台風のために、電車が止まっています。",
+      "reading": "たいふうのために、でんしゃがとまっています。",
+      "en": "Due to the typhoon, the trains have stopped.",
+      "note": "Noun + のために in an announcement: formal cause."
+    },
+    {
+      "ja": "事故があったために、道が込んでいる。",
+      "reading": "じこがあったために、みちがこんでいる。",
+      "en": "Because there was an accident, the road is congested.",
+      "note": "Past verb + ために: the cause is a completed event."
+    },
+    {
+      "ja": "雨が降ったために、試合は中止になった。",
+      "reading": "あめがふったために、しあいはちゅうしになった。",
+      "en": "The game was called off because it rained.",
+      "note": "Formal report of a cancellation."
+    },
+    {
+      "ja": "大雪のため、本日の授業は休講とします。",
+      "reading": "おおゆきのため、ほんじつのじゅぎょうはきゅうこうとします。",
+      "en": "Due to heavy snow, today's classes are canceled.",
+      "note": "ため (without に) is common in written notices."
+    },
+    {
+      "ja": "工事をしているために、この道は通れません。",
+      "reading": "こうじをしているために、このみちはとおれません。",
+      "en": "Because construction is under way, this road is closed.",
+      "note": "〜ているために: an ongoing state as the cause."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜せいで",
+      "difference": "Cause with blame; ために is neutral.",
+      "id": "n3-grammar-17"
+    },
+    {
+      "pattern": "〜おかげで",
+      "difference": "Cause with gratitude; ために is neutral.",
+      "id": "n3-grammar-18"
+    },
+    {
+      "pattern": "〜ために (purpose)",
+      "difference": "Same form, different meaning: \"in order to\". The verb before it is an intentional action in dictionary form."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "健康のために、病気になった。",
+      "right": "健康を害したために、入院した。/ 健康のために、運動している。",
+      "why": "健康のために is read as purpose (\"for health\"). For a cause, use a past clause or a noun that is clearly an event (台風, 事故)."
+    },
+    {
+      "wrong": "寝坊したために、電車に乗り遅れちゃった！(casual)",
+      "right": "寝坊したせいで、電車に乗り遅れちゃった！",
+      "why": "ために sounds formal; in emotional casual speech せいで or から is natural."
+    },
+    {
+      "wrong": "雨が降るために、試合は中止になった。",
+      "right": "雨が降ったために、試合は中止になった。",
+      "why": "The cause is a completed event, so use the past form; 降るために sounds like purpose."
+    }
+  ],
+  "usageNotes": [
+    "Cause reading is usually past/state form + ために; purpose reading uses V-dict + ために (volitional action). Formal, common in announcements.",
+    "In notices, 〜のため + noun phrase is common: 点検のため運転を見合わせています."
+  ],
+  "jlptTips": [
+    "Formal context (announcement, report, business) + a completed cause = ために. Casual contexts point to せいで / おかげで instead.",
+    "Purpose vs cause: check the verb form before ために. Past or state = cause; dictionary-form intentional action = purpose.",
+    "Distractors せいで / おかげで carry emotion. If the sentence is a neutral announcement, choose ために."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-19-1",
+    "q-n3-g-19-2",
+    "q-n3-g-19-3",
+    "q-n3-g-19-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-19-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,152 @@
+{
+  "id": "n4-grammar-37",
+  "slug": "you-da-mitai-da",
+  "level": "n4",
+  "order": 37,
+  "title": "〜ようだ / 〜みたいだ \"it seems / it appears / like\"",
+  "romaji": "you da / mitai da",
+  "meaning": "Judgement based on the speaker's observation or senses (\"it seems\"), or a resemblance (\"like\").",
+  "simpleExplanation": "〜ようだ means \"it seems\" or \"it looks as if\", based on what you notice with your senses or reason: 誰かが来たようだ = it seems someone has come (I heard the door). It also means \"like\" for comparisons: 人形のようにかわいい = as cute as a doll. みたいだ is the casual, spoken version with the same meanings. The difference is in how they attach: ようだ needs の after a noun and な after a な-adjective; みたいだ attaches directly to everything.",
+  "whenUsed": "Guesses from evidence (道がぬれている。雨が降ったようだ), softening statements (少し高いようです), and comparisons (夢のようだ, 子供みたいだ). ようだ is neutral or formal; みたいだ is for casual talk. Both work as adverbs (ように / みたいに) and before nouns (ような / みたいな).",
+  "formation": [
+    "V-plain + ようだ / みたいだ: 来たようだ, 来たみたいだ",
+    "い-adjective + ようだ / みたいだ: 高いようだ",
+    "な-adjective + なようだ / + みたいだ: 静かなようだ / 静かみたいだ",
+    "Noun + のようだ / + みたいだ: 学生のようだ / 学生みたいだ",
+    "Adverb: ように / みたいに; before a noun: ような / みたいな"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ようだ vs みたいだ vs らしい vs そうだ",
+    "columns": [
+      "Noun attachment",
+      "Register",
+      "Basis",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "ようだ",
+        "cells": [
+          "N + のようだ",
+          "neutral / formal",
+          "my own senses and reasoning",
+          "誰かが来たようだ"
+        ]
+      },
+      {
+        "label": "みたいだ",
+        "cells": [
+          "N + みたいだ",
+          "casual, spoken",
+          "same as ようだ",
+          "誰かが来たみたいだ"
+        ]
+      },
+      {
+        "label": "らしい",
+        "cells": [
+          "N + らしい",
+          "neutral",
+          "outside information",
+          "誰かが来たらしい"
+        ]
+      },
+      {
+        "label": "そうだ (appearance)",
+        "cells": [
+          "not possible with nouns",
+          "neutral",
+          "instant visual impression",
+          "来そうだ (about to come)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "誰かが来たようです。",
+      "reading": "だれかが きたようです。",
+      "en": "It seems someone has come.",
+      "note": "Judgement from a sound or sign: 来た + ようです."
+    },
+    {
+      "ja": "彼女は人形のようにかわいい。",
+      "reading": "かのじょは にんぎょうのように かわいい。",
+      "en": "She is as cute as a doll.",
+      "note": "Comparison: 人形のように + adjective (as … as a doll)."
+    },
+    {
+      "ja": "田中さんは今日休みみたいだね。",
+      "reading": "たなかさんは きょう やすみみたいだね。",
+      "en": "It looks like Tanaka is off today.",
+      "note": "Casual みたいだ after a noun (休み) with no の."
+    },
+    {
+      "ja": "電気が消えているから、田中さんはもう帰ったようだ。",
+      "reading": "でんきが きえているから、たなかさんは もう かえったようだ。",
+      "en": "The lights are off, so it seems Tanaka has already gone home.",
+      "note": "The speaker reasons from the evidence (lights off) → ようだ."
+    },
+    {
+      "ja": "この店、いつも人が多いね。人気があるみたいだね。",
+      "reading": "この みせ、いつも ひとが おおいね。にんきが あるみたいだね。",
+      "en": "This place is always crowded. Seems it's popular.",
+      "note": "みたいだ: the casual form of ようだ, judged from what the speaker sees."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜らしい",
+      "difference": "らしい relies on what you heard from others. ようだ / みたいだ is your own inference from what you sense.",
+      "id": "n4-grammar-38"
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "そうだ is an instant impression of what you see (おいしそう). ようだ is a considered judgement and can follow nouns.",
+      "id": "n4-grammar-35"
+    },
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "Hearsay そうだ only passes on information. ようだ adds your own conclusion.",
+      "id": "n4-grammar-36"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は学生ようだ。",
+      "right": "彼は学生のようだ。/ 学生みたいだ。",
+      "why": "ようだ needs の after a noun; みたいだ does not."
+    },
+    {
+      "wrong": "彼は学生みたいなだ。",
+      "right": "彼は学生みたいだ。",
+      "why": "みたいだ attaches directly; there is no な before だ."
+    },
+    {
+      "wrong": "会議で、部長は病気みたいです。",
+      "right": "会議で、部長は病気のようです。",
+      "why": "みたいだ is casual. In formal situations use ようだ."
+    }
+  ],
+  "usageNotes": [
+    "ようだ can soften a statement to be polite: 少し違うようですが (it seems a little different…).",
+    "Comparisons: まるで〜ようだ (just like…) is a common set phrase: まるで夢のようだ.",
+    "ような before a noun: 田中さんのような人 (a person like Tanaka); みたいな is the casual equivalent."
+  ],
+  "jlptTips": [
+    "Check attachment: N + の + ようだ, な-adj + な + ようだ, but N / な-adj + みたいだ with nothing between. Wrong attachments are the usual distractors.",
+    "If the sentence gives evidence the speaker noticed (道がぬれている, 電気が消えている, 声がする), choose ようだ / みたいだ over hearsay そうだ or らしい."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-37-1",
+    "q-n4-g-37-2",
+    "q-n4-g-37-3",
+    "q-n4-g-37-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-37-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

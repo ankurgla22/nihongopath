@@ -1,0 +1,124 @@
+{
+  "id": "n4-grammar-102",
+  "slug": "sasete-kudasai",
+  "level": "n4",
+  "order": 102,
+  "title": "〜させてください \"please let me\"",
+  "romaji": "sasete kudasai",
+  "meaning": "Asking permission to do something, framed as \"make/let me do it\".",
+  "simpleExplanation": "〜させてください means \"please let me…\". You take the causative form (帰る → 帰らせる = make/let someone go home), change it to the て-form and add ください: 帰らせてください = \"please let me go home\". It is the standard way to ask permission to do something yourself, especially at work: 休ませてください, 考えさせてください, 私にやらせてください. It sounds a little more eager than 〜てもいいですか because it says you want to do it.",
+  "whenUsed": "Asking a boss, teacher or host for permission (早退させてください), volunteering for a task (私に説明させてください), and buying time (少し考えさせてください). Politer versions: 〜させていただけませんか, 〜させてもらえませんか. Used in polite situations; among friends 〜させて (帰らせて) is enough.",
+  "formation": [
+    "Group 1: ない-stem + せて + ください: 帰る→帰らせてください, 休む→休ませてください",
+    "Group 2: ない-stem + させて + ください: 考える→考えさせてください, 見る→見させてください",
+    "Group 3: する→させてください, 来る→来させてください (こさせて)",
+    "Politer: 〜させていただけませんか / 〜させてもらえませんか",
+    "Casual: 〜させて (ちょっと休ませて)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "帰る",
+        "en": "go home (dictionary form)"
+      },
+      {
+        "ja": "帰らせる",
+        "en": "make / let someone go home (causative)"
+      },
+      {
+        "ja": "帰らせて",
+        "en": "causative て-form"
+      },
+      {
+        "ja": "帰らせてください",
+        "en": "please let me go home (permission request)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は早く帰らせてください。",
+      "reading": "きょうは はやく かえらせてください。",
+      "en": "Please let me go home early today.",
+      "note": "帰る → 帰らせる → 帰らせてください: asking to leave early."
+    },
+    {
+      "ja": "その仕事は私にやらせてください。",
+      "reading": "その しごとは わたしに やらせてください。",
+      "en": "Please let me do that job.",
+      "note": "Volunteering: 私に + させてください."
+    },
+    {
+      "ja": "ちょっと考えさせてください。",
+      "reading": "ちょっと かんがえさせてください。",
+      "en": "Please let me think about it a moment.",
+      "note": "Buying time: 考えさせてください is a set phrase."
+    },
+    {
+      "ja": "すみません、体調が悪いので、今日は早退させてください。",
+      "reading": "すみません、たいちょうが わるいので、きょうは そうたいさせてください。",
+      "en": "Sorry, I'm not feeling well, so please let me leave early today.",
+      "note": "する-verb: 早退する → 早退させる → 早退させてください."
+    },
+    {
+      "ja": "そのプロジェクト、ぜひ私に担当させていただけませんか。",
+      "reading": "その プロジェクト、ぜひ わたしに たんとうさせて いただけませんか。",
+      "en": "Could you possibly let me take charge of that project?",
+      "note": "The politer form with いただけませんか, used to volunteer to a superior."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Causative 〜させる",
+      "difference": "The base form: someone makes or lets another person act. させてください turns it into a request for yourself.",
+      "id": "n4-grammar-5"
+    },
+    {
+      "pattern": "〜させていただく",
+      "difference": "The humble version: 説明させていただきます announces what you will do with permission. させてください asks for the permission.",
+      "id": "n4-grammar-73"
+    },
+    {
+      "pattern": "〜てもいいですか",
+      "difference": "A neutral permission question (\"is it OK if I…?\"). させてください expresses that you want to do it and is slightly more assertive."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、明日休んでください。(meaning: please let me rest)",
+      "right": "先生、明日休ませてください。",
+      "why": "休んでください asks the teacher to rest. To ask for your own permission you need the causative 休ませて."
+    },
+    {
+      "wrong": "私に説明しさせてください。",
+      "right": "私に説明させてください。",
+      "why": "する becomes させる; there is no しさせる."
+    },
+    {
+      "wrong": "ちょっと考えらせてください。",
+      "right": "ちょっと考えさせてください。",
+      "why": "考える is Group 2, so the causative is 考えさせる, not 考えらせる."
+    }
+  ],
+  "usageNotes": [
+    "The answer to 〜させてください is usually どうぞ (go ahead) or はい、いいですよ.",
+    "With a person marked by に (私に), the sentence stresses that you, rather than someone else, want to do it.",
+    "Do not confuse with the passive-looking 〜されてください, which does not exist; the request form is always 〜させて."
+  ],
+  "jlptTips": [
+    "If the speaker asks permission for their own action and the blank precedes ください / いただけませんか, choose the causative て-form (〜せて / 〜させて).",
+    "Distractors include the plain て-form (帰ってください = asks the listener to go home) and passive forms. Check who performs the action: the speaker → causative."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-102-1",
+    "q-n4-g-102-2",
+    "q-n4-g-102-3",
+    "q-n4-g-102-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-102-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

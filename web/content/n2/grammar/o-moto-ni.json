@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-176",
+  "slug": "o-moto-ni",
+  "level": "n2",
+  "order": 176,
+  "title": "〜をもとに / 〜をもとにして / 〜をもとにした",
+  "romaji": "o moto ni / o moto ni shite / o moto ni shita",
+  "meaning": "based on, using … as material or a starting point",
+  "simpleExplanation": "〜をもとに means \"using X as the basis or material\": 実話をもとに映画が作られた (a movie made from a true story). X is a source that is transformed into something new: a story, data, an idea, experience. It differs from に基づいて, which frames X as a rule or standard to follow.",
+  "whenUsed": "Both speech and writing, neutral register. Very common in descriptions of creative works, product development, and reports (アンケートをもとに). The noun-modifying form 〜をもとにした + N is frequent.",
+  "formation": [
+    "Noun + をもとに(して) + verb",
+    "Noun + をもとにした / をもとにする + Noun",
+    "Typical sources: 実話・経験・データ・アンケート・資料・アイデア"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜をもとに",
+      "〜に基づいて"
+    ],
+    "rows": [
+      {
+        "label": "Image",
+        "cells": [
+          "raw material shaped into something new",
+          "a standard or rule that governs a decision"
+        ]
+      },
+      {
+        "label": "Typical nouns",
+        "cells": [
+          "実話, 経験, アンケート, 資料",
+          "法律, 規則, データ, 事実"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "実話をもとに映画を作る",
+          "法律に基づいて処分する"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "neutral",
+          "formal"
+        ]
+      }
+    ],
+    "title": "Material versus foundation"
+  },
+  "examples": [
+    {
+      "ja": "実話をもとに映画が作られた。",
+      "reading": "じつわをもとにえいががつくられた。",
+      "en": "The movie was made based on a true story.",
+      "note": "A true story as material for a film."
+    },
+    {
+      "ja": "アンケートの結果をもとにして、商品を改良した。",
+      "reading": "アンケートのけっかをもとにして、しょうひんをかいりょうした。",
+      "en": "We improved the product based on the survey results.",
+      "note": "Survey results as the basis for improvement."
+    },
+    {
+      "ja": "歴史的事実をもとにした小説を読んだ。",
+      "reading": "れきしてきじじつをもとにしたしょうせつをよんだ。",
+      "en": "I read a novel based on historical facts.",
+      "note": "をもとにした + noun: a novel based on facts."
+    },
+    {
+      "ja": "この教材は、学習者の意見をもとに作られた。",
+      "reading": "このきょうざいは、がくしゅうしゃのいけんをもとにつくられた。",
+      "en": "This teaching material was made based on learners' opinions.",
+      "note": "Opinions as the source material."
+    },
+    {
+      "ja": "自分の経験をもとにして、若い人にアドバイスをした。",
+      "reading": "じぶんのけいけんをもとにして、わかいひとにアドバイスをした。",
+      "en": "Drawing on my own experience, I gave advice to young people.",
+      "note": "をもとにして: experience as the source."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に基づいて",
+      "difference": "A standard or evidence to follow; formal.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜を参考に",
+      "difference": "\"Referring to X\": consulting rather than building from."
+    },
+    {
+      "pattern": "〜によって",
+      "difference": "Means or cause; not a source material.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜のもとで",
+      "difference": "Different pattern: 'under (guidance)'.",
+      "id": "n2-grammar-138"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "法律をもとに処分した。",
+      "right": "法律に基づいて処分した。",
+      "why": "A law is a standard to follow, so に基づいて fits better."
+    },
+    {
+      "wrong": "実話をもとに映画",
+      "right": "実話をもとにした映画",
+      "why": "Before a noun use をもとにした."
+    },
+    {
+      "wrong": "先生をもとに勉強した。",
+      "right": "先生の指導のもとで勉強した。",
+      "why": "A person cannot be source material; use のもとで for guidance."
+    }
+  ],
+  "usageNotes": [
+    "Movie credits: 実話をもとにした物語.",
+    "Business: データをもとに判断する.",
+    "The kanji forms 元 and 基 both appear; kana is standard in JLPT."
+  ],
+  "jlptTips": [
+    "If the noun is 実話, 経験, アンケート or 資料 and something new is made, choose をもとに.",
+    "If the noun is 法律 or 規則, prefer に基づいて.",
+    "Before a noun, choose をもとにした."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-176-1",
+    "q-n2-g-176-2",
+    "q-n2-g-176-3",
+    "q-n2-g-176-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-176-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-43",
+  "slug": "ue-de-ue-no-ue-dewa",
+  "level": "n3",
+  "order": 43,
+  "title": "〜上で / 〜上の / 〜上では",
+  "romaji": "ue de ue no ue dewa",
+  "meaning": "After (doing)… / in the process of… / on paper…",
+  "simpleExplanation": "上で has three uses depending on the form before it. (1) V-た + 上で: after doing X carefully, then Y: よく考えた上で返事をします. (2) V-dictionary / N + の + 上で: in the process of, for the purpose of: 日本で働く上で敬語は欠かせない. (3) N + の上では: on paper, according to (data): 計算の上では成功するはずだ.",
+  "whenUsed": "Formal speech and writing, business, essays. The た上で use is common in polite negotiations (検討した上で、ご連絡します).",
+  "formation": [
+    "Verb (た form) + 上で (after carefully doing)",
+    "Verb (dictionary form) / Noun + の + 上で (in the process of)",
+    "Noun + の + 上では (on paper / according to)",
+    "Noun + の + 上の + Noun (書類の上の問題)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of 上で",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-た + 上で",
+        "cells": [
+          "after carefully doing X",
+          "相談した上で決める"
+        ]
+      },
+      {
+        "label": "V-dict / N + の + 上で",
+        "cells": [
+          "in / for the process of",
+          "働く上で必要だ"
+        ]
+      },
+      {
+        "label": "N + の + 上では",
+        "cells": [
+          "on paper / by the data",
+          "数字の上では黒字だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "よく考えた上で、返事をします。",
+      "reading": "よくかんがえたうえで、へんじをします。",
+      "en": "After thinking it over carefully, I will reply.",
+      "note": "た上で: a considered step before replying."
+    },
+    {
+      "ja": "日本で働く上で、敬語は欠かせない。",
+      "reading": "にほんではたらくうえで、けいごはかかせない。",
+      "en": "In working in Japan, keigo is indispensable.",
+      "note": "Dictionary form + 上で: in the course of working."
+    },
+    {
+      "ja": "計算の上では成功するはずだ。",
+      "reading": "けいさんのうえではせいこうするはずだ。",
+      "en": "On paper, it should succeed.",
+      "note": "の上では: on paper, in calculation."
+    },
+    {
+      "ja": "説明をよく読んだ上で、サインしてください。",
+      "reading": "せつめいをよくよんだうえで、サインしてください。",
+      "en": "Please sign after reading the explanation carefully.",
+      "note": "た上で + a request."
+    },
+    {
+      "ja": "健康を維持する上で、睡眠は非常に大切だ。",
+      "reading": "けんこうをいじするうえで、すいみんはひじょうにたいせつだ。",
+      "en": "In maintaining good health, sleep is extremely important.",
+      "note": "V-dict + 上で + 大切だ / 必要だ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Simple sequence. た上で adds \"after careful consideration\"."
+    },
+    {
+      "pattern": "〜てからでないと",
+      "difference": "\"Not until\": negative main clause. た上で has a positive main clause.",
+      "id": "n3-grammar-40"
+    },
+    {
+      "pattern": "〜ためには",
+      "difference": "\"In order to\": similar to V-dict + 上で but stresses purpose rather than process."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "よく考える上で、返事をします。",
+      "right": "よく考えた上で、返事をします。",
+      "why": "\"After considering\" requires the た-form."
+    },
+    {
+      "wrong": "働いた上で、敬語は欠かせない。",
+      "right": "働く上で、敬語は欠かせない。",
+      "why": "\"In the process of working\" uses the dictionary form."
+    },
+    {
+      "wrong": "計算上では",
+      "right": "計算の上では",
+      "why": "Nouns need の before 上では (計算上 without で/は is a different, compact form)."
+    }
+  ],
+  "usageNotes": [
+    "〜た上で implies a deliberate, considered step before the next action (formal). Compare 〜てから (simple sequence).",
+    "Business set phrases: 検討した上で / 確認の上 / ご相談の上."
+  ],
+  "jlptTips": [
+    "A careful action in た-form + blank + a decision or request = た上で.",
+    "Dictionary form + blank + 大切 / 必要 / 欠かせない = 上で (in the process of).",
+    "The verb form before 上で decides the meaning; options with the wrong form are the main traps."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-43-1",
+    "q-n3-g-43-2",
+    "q-n3-g-43-3",
+    "q-n3-g-43-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-43-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

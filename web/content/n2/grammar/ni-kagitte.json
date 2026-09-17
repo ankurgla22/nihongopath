@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-17",
+  "slug": "ni-kagitte",
+  "level": "n2",
+  "order": 17,
+  "title": "〜に限って",
+  "romaji": "ni kagitte",
+  "meaning": "only / of all ... (it happens); (someone) of all people would never ...",
+  "simpleExplanation": "〜に限って has two faces. (1) Unlucky coincidence: \"it is precisely when X that (something bad happens)\": the bus never comes exactly when I'm in a hurry. (2) Trust-based denial: \"X of all people would never…\": my child would never do such a thing.",
+  "whenUsed": "話し言葉寄り, emotional. Use (1) takes a time or situation noun (急いでいる時・傘を忘れた日) and a negative event. Use (2) takes a person or group the speaker trusts (うちの子・あの人) followed by 〜はずがない / 〜わけがない / 〜ない.",
+  "formation": [
+    "N + に限って"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of に限って",
+    "columns": [
+      "Noun before",
+      "Second clause",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "Bad luck",
+        "cells": [
+          "急いでいる時",
+          "バスが来ない",
+          "just when… (of all times)"
+        ]
+      },
+      {
+        "label": "Trust",
+        "cells": [
+          "うちの子",
+          "そんなことをするはずがない",
+          "X of all people would never"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "急いでいる時に限って、バスが来ない。",
+      "reading": "いそいでいるときにかぎって、バスがこない。",
+      "en": "It's always exactly when I'm in a hurry that the bus doesn't come.",
+      "note": "Use 1: a time expression + に限って + a nuisance."
+    },
+    {
+      "ja": "うちの子に限って、そんなことをするはずがない。",
+      "reading": "うちのこにかぎって、そんなことをするはずがない。",
+      "en": "My child, of all children, would never do such a thing.",
+      "note": "Use 2: a trusted person + に限って + はずがない."
+    },
+    {
+      "ja": "傘を忘れた日に限って雨が降る。",
+      "reading": "かさをわすれたひにかぎってあめがふる。",
+      "en": "It rains precisely on the days I forget my umbrella.",
+      "note": "Use 1 again with a day (日に限って)."
+    },
+    {
+      "ja": "大事な会議がある日に限って、電車が遅れる。",
+      "reading": "だいじなかいぎがあるひにかぎって、でんしゃがおくれる。",
+      "en": "The train is late precisely on days when I have an important meeting.",
+      "note": "Bad-luck use with a habitual present."
+    },
+    {
+      "ja": "田中さんに限って、無断で休むなんて考えられない。",
+      "reading": "たなかさんにかぎって、むだんでやすむなんてかんがえられない。",
+      "en": "Tanaka, of all people, would never skip work without notice.",
+      "note": "Trust use ending in a denial."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に限らず",
+      "difference": "Opposite direction: \"not only X but more broadly\".",
+      "id": "n2-grammar-18"
+    },
+    {
+      "pattern": "〜に限り",
+      "difference": "\"Only (for) X\": a formal restriction in notices (会員に限り割引). No emotional coloring."
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "Plain \"only\"; lacks the \"of all times / of all people\" feeling."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "急いでいる時に限って、バスがすぐ来た。",
+      "right": "急いでいる時に限って、バスが来ない。",
+      "why": "The bad-luck use needs an unwelcome event; a lucky one sounds contradictory."
+    },
+    {
+      "wrong": "あの人に限って、そんなことをするだろう。",
+      "right": "あの人に限って、そんなことをするはずがない。",
+      "why": "The trust use must end in a denial."
+    },
+    {
+      "wrong": "会員に限って、割引します。（in a formal notice）",
+      "right": "会員に限り、割引します。",
+      "why": "Neutral restrictions in notices use に限り; に限って carries emotion."
+    }
+  ],
+  "usageNotes": [
+    "Use 1 often takes present tense for habitual misfortune: 〜に限って雨が降る.",
+    "Use 2 is a way of defending someone; it is not used about oneself.",
+    "Related noun forms: 〜に限る (\"nothing beats X\": 夏はビールに限る) is a separate pattern."
+  ],
+  "jlptTips": [
+    "Time/situation noun + unwelcome event → に限って (bad luck); trusted person + はずがない → に限って (trust).",
+    "Distractors: に限らず, に限り, にとって. If the second clause broadens to others (〜も), it is に限らず.",
+    "The trust use is almost always paired with はずがない / わけがない, so check the ending."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-17-1",
+    "q-n2-g-17-2",
+    "q-n2-g-17-3",
+    "q-n2-g-17-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-17-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

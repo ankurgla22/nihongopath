@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-161",
+  "slug": "you-ga-nai",
+  "level": "n2",
+  "order": 161,
+  "title": "〜ようがない / 〜ようもない",
+  "romaji": "you ga nai / you mo nai",
+  "meaning": "there is no way to, cannot possibly (no means exist)",
+  "simpleExplanation": "Verb stem + ようがない means \"there is no way to do X\": no method or possibility exists. 住所が分からないので連絡しようがない. It is not about lack of ability but about lack of means. ようもない is a slightly more emphatic variant. どうしようもない (nothing can be done) is a set phrase.",
+  "whenUsed": "Both speech and writing. Common when explaining why something is impossible: 直しようがない, 説明しようがない, 疑いようがない. In casual speech people may say 〜できない, but ようがない stresses that the means are missing.",
+  "formation": [
+    "Verb (ます-stem) + ようがない / ようもない",
+    "する → しようがない; 来る → 来ようがない",
+    "Set phrase: どうしようもない (nothing can be done)",
+    "Noun + の + しようがない (説明のしようがない)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "連絡し",
+    "branches": [
+      {
+        "suffix": "ようがない",
+        "result": "連絡しようがない",
+        "label": "no way to contact"
+      },
+      {
+        "suffix": "ようもない",
+        "result": "連絡しようもない",
+        "label": "no way at all (emphatic)"
+      },
+      {
+        "suffix": "ようがなかった",
+        "result": "連絡しようがなかった",
+        "label": "past: there was no way"
+      }
+    ],
+    "rootLabel": "Verb ます-stem"
+  },
+  "examples": [
+    {
+      "ja": "住所が分からないので、連絡しようがない。",
+      "reading": "じゅうしょがわからないので、れんらくしようがない。",
+      "en": "I don't know the address, so there is no way to contact them.",
+      "note": "No address → no means of contact."
+    },
+    {
+      "ja": "ここまで壊れていては、直しようがない。",
+      "reading": "ここまでこわれていては、なおしようがない。",
+      "en": "Broken this badly, there is no way to fix it.",
+      "note": "Damage beyond repair → no way to fix."
+    },
+    {
+      "ja": "彼の実力は疑いようもない。",
+      "reading": "かれのじつりょくはうたがいようもない。",
+      "en": "His ability is beyond doubt.",
+      "note": "疑いようもない: beyond doubt (emphatic)."
+    },
+    {
+      "ja": "彼の名前も知らないのでは、探しようがない。",
+      "reading": "かれのなまえもしらないのでは、さがしようがない。",
+      "en": "If we don't even know his name, there is no way to search for him.",
+      "note": "The reason (no name) removes any method."
+    },
+    {
+      "ja": "こんなにひどい点数では、言い訳のしようがない。",
+      "reading": "こんなにひどいてんすうでは、いいわけのしようがない。",
+      "en": "With a score this bad, there is no possible excuse.",
+      "note": "Noun + のしようがない: a common variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜られない (potential)",
+      "difference": "Simple inability; ようがない says the means do not exist."
+    },
+    {
+      "pattern": "〜ほかない",
+      "difference": "\"No choice but to\": one option remains, whereas ようがない says none exists.",
+      "id": "n2-grammar-146"
+    },
+    {
+      "pattern": "〜わけにはいかない",
+      "difference": "\"Cannot (for social or moral reasons)\".",
+      "id": "n2-grammar-165"
+    },
+    {
+      "pattern": "〜かねる",
+      "difference": "Formal 'cannot' (polite refusal): お答えしかねます.",
+      "id": "n2-grammar-24"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "連絡するようがない。",
+      "right": "連絡しようがない。",
+      "why": "Attach ようがない to the ます-stem (し), not the dictionary form."
+    },
+    {
+      "wrong": "泳ぎようがない。(meaning 'I can't swim')",
+      "right": "泳げない。",
+      "why": "Inability is the potential form; ようがない needs a missing means (e.g. no pool)."
+    },
+    {
+      "wrong": "直しようがないです。(fine, but…)",
+      "right": "直しようがありません。",
+      "why": "In polite speech, ようがありません is smoother."
+    }
+  ],
+  "usageNotes": [
+    "Common compounds: どうしようもない, 手の施しようがない, 疑いようがない, 言いようがない.",
+    "Often preceded by a reason clause ending in ので / ては / では.",
+    "ようもない is stronger and more written."
+  ],
+  "jlptTips": [
+    "If the sentence gives a reason that removes all means (no address, too broken), choose ようがない.",
+    "Check the stem: しようがない, 直しようがない.",
+    "Distractors include ほかない, わけにはいかない, かねる. Only ようがない means 'no means exist'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-161-1",
+    "q-n2-g-161-2",
+    "q-n2-g-161-3",
+    "q-n2-g-161-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-161-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

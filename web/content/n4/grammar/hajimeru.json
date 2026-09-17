@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-79",
+  "slug": "hajimeru",
+  "level": "n4",
+  "order": 79,
+  "title": "〜始める \"start to\"",
+  "romaji": "-hajimeru",
+  "meaning": "The beginning of an action.",
+  "simpleExplanation": "V-ます stem + 始める means \"start to do\": 習い始める (start learning), 降り始める (start raining). It attaches to the stem, and 始める then conjugates normally as a Group 2 verb (始めます, 始めた, 始めて). It is neutral about how the action starts; for a sudden start use 〜出す. It works with actions you choose (勉強し始める) and with things that just happen (泣き始める, 咲き始める).",
+  "whenUsed": "Talking about when a habit, hobby or job began (去年から日本語を習い始めた), describing weather and nature (雨が降り始めた, 桜が咲き始めた), and narrating the start of an event. Common in all registers.",
+  "formation": [
+    "V-ます stem + 始める: 習う → 習い始める, 読む → 読み始める, 降る → 降り始める",
+    "する-verbs: 勉強する → 勉強し始める; 来る → 来始める (きはじめる)",
+    "Conjugates as Group 2: 始めます / 始めた / 始めて / 始めたら",
+    "Opposite: V-ます + 終わる (lesson 80); sudden start: V-ます + 出す (lesson 82)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "始める vs 出す",
+    "columns": [
+      "Nuance",
+      "Planned actions?",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜始める",
+        "cells": [
+          "neutral start",
+          "yes, and also natural events",
+          "来週から通い始める / 雨が降り始めた"
+        ]
+      },
+      {
+        "label": "〜出す",
+        "cells": [
+          "sudden, unexpected start",
+          "no, only spontaneous events",
+          "急に泣き出した / 突然雨が降り出した"
+        ]
+      },
+      {
+        "label": "〜てくる",
+        "cells": [
+          "change that has begun and is coming toward now",
+          "natural changes",
+          "暖かくなってきた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "去年から日本語を習い始めました。",
+      "reading": "きょねんから にほんごを ならいはじめました。",
+      "en": "I started learning Japanese last year.",
+      "note": "A planned action: 習う → 習い始める, with から marking the starting point."
+    },
+    {
+      "ja": "雨が降り始めた。",
+      "reading": "あめが ふりはじめた。",
+      "en": "It started to rain.",
+      "note": "A natural event: 降る → 降り始めた, neutral tone."
+    },
+    {
+      "ja": "赤ちゃんが泣き始めた。",
+      "reading": "あかちゃんが なきはじめた。",
+      "en": "The baby began to cry.",
+      "note": "泣き始めた: the beginning of crying, without the suddenness of 泣き出した."
+    },
+    {
+      "ja": "四月から新しい会社で働き始めました。",
+      "reading": "しがつから あたらしい かいしゃで はたらきはじめました。",
+      "en": "I started working at a new company in April.",
+      "note": "働く → 働き始める; a planned, scheduled start."
+    },
+    {
+      "ja": "この本を読み始めたら、止まらなくなった。",
+      "reading": "この ほんを よみはじめたら、とまらなく なった。",
+      "en": "Once I started reading this book, I couldn't stop.",
+      "note": "読み始める in the たら-form: \"once I started\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜出す",
+      "difference": "出す adds suddenness and is only for unplanned starts (泣き出す). 始める is neutral and can be scheduled (来週から始める).",
+      "id": "n4-grammar-82"
+    },
+    {
+      "pattern": "〜終わる",
+      "difference": "The opposite end: 書き終わる = finish writing.",
+      "id": "n4-grammar-80"
+    },
+    {
+      "pattern": "〜てくる",
+      "difference": "降ってきた means rain has started and reached the speaker's present; 降り始めた simply names the start.",
+      "id": "n4-grammar-24"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語を習う始めた。",
+      "right": "日本語を習い始めた。",
+      "why": "始める attaches to the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "来週から勉強し出します。",
+      "right": "来週から勉強し始めます。",
+      "why": "A planned future start cannot use 出す, which implies suddenness. Use 始める."
+    },
+    {
+      "wrong": "雨が始めた。",
+      "right": "雨が降り始めた。",
+      "why": "始める as a suffix needs a verb stem; 雨が始める alone is not natural. Say 降り始める."
+    }
+  ],
+  "usageNotes": [
+    "The starting point is usually marked with から (去年から, 四月から) or given by a time expression.",
+    "〜始めたばかり (have only just started) and 〜始めてから (since starting) are useful combinations: 日本語を習い始めてから一年になる.",
+    "The intransitive partner 始まる cannot take a verb stem: 授業が始まる (the class starts), but 授業を受け始める (I start attending)."
+  ],
+  "jlptTips": [
+    "Check the form before 始める: only the ます-stem is correct. Dictionary form + 始める and て-form + 始める are typical wrong options.",
+    "If the sentence has a scheduled time (来週から, 四月に) the answer is 始める, not 出す."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-79-1",
+    "q-n4-g-79-2",
+    "q-n4-g-79-3",
+    "q-n4-g-79-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-79-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

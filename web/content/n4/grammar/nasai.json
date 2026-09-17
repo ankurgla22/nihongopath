@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-74",
+  "slug": "nasai",
+  "level": "n4",
+  "order": 74,
+  "title": "〜なさい \"do (polite command)\"",
+  "romaji": "nasai",
+  "meaning": "Command used by parents to children, teachers to students, and in exam/textbook instructions.",
+  "simpleExplanation": "V-ます stem + なさい is a polite-sounding command: 食べなさい (eat), 早く寝なさい (go to bed early). It is softer than the blunt imperative 食べろ, but it is still an order from someone above to someone below: parents to children, teachers to students, and written test instructions (答えなさい). The casual shortening 〜な (食べな) is heard in family talk. There is no negative なさい; use 〜てはいけません or 〜ないで.",
+  "whenUsed": "Parents and teachers speaking to children and students, textbook and exam instructions (次の質問に答えなさい), and in the fixed greetings お帰りなさい, お休みなさい, ごめんなさい. Never use it to superiors, customers or adult acquaintances.",
+  "formation": [
+    "V-ます stem + なさい: 食べる → 食べなさい, 書く → 書きなさい, 起きる → 起きなさい",
+    "Group 3: する → しなさい, 来る → 来なさい (きなさい)",
+    "Casual shortening: ます-stem + な: 食べな, 行きな (not the prohibitive 食べるな)",
+    "No negative form: use 〜ないで / 〜てはいけません / 〜るな",
+    "Fixed expressions: お帰りなさい, お休みなさい, ごめんなさい"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "ます-stem + なさい",
+        "result": "書きなさい",
+        "label": "Group 1: write (command)"
+      },
+      {
+        "suffix": "ます-stem + なさい",
+        "result": "食べなさい",
+        "label": "Group 2: eat (command)"
+      },
+      {
+        "suffix": "する → しなさい",
+        "result": "しなさい",
+        "label": "Group 3: do it"
+      },
+      {
+        "suffix": "来る → 来なさい",
+        "result": "来なさい (きなさい)",
+        "label": "Group 3: come here"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "早く寝なさい。",
+      "reading": "はやく ねなさい。",
+      "en": "Go to bed early.",
+      "note": "Parent to child: 寝る → 寝 + なさい."
+    },
+    {
+      "ja": "次の質問に答えなさい。",
+      "reading": "つぎの しつもんに こたえなさい。",
+      "en": "Answer the following questions.",
+      "note": "Exam instruction: the standard written command in tests and textbooks."
+    },
+    {
+      "ja": "静かにしなさい。",
+      "reading": "しずかに しなさい。",
+      "en": "Be quiet.",
+      "note": "する → しなさい after the adverb 静かに."
+    },
+    {
+      "ja": "宿題が終わってから、テレビを見なさい。",
+      "reading": "しゅくだいが おわってから、テレビを みなさい。",
+      "en": "Watch TV after you finish your homework.",
+      "note": "見る → 見なさい. A parent laying down the order of events."
+    },
+    {
+      "ja": "危ないから、こっちに来なさい。",
+      "reading": "あぶないから、こっちに きなさい。",
+      "en": "It's dangerous, so come over here.",
+      "note": "来る → 来なさい (きなさい), the irregular stem."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Imperative form",
+      "difference": "The blunt command (食べろ). なさい is gentler and is the form used by mothers and teachers, but both are downward commands.",
+      "id": "n4-grammar-7"
+    },
+    {
+      "pattern": "Prohibitive 〜な",
+      "difference": "食べるな (don't eat) attaches to the dictionary form; the shortened なさい 食べな (eat) attaches to the ます-stem. Opposite meanings.",
+      "id": "n4-grammar-8"
+    },
+    {
+      "pattern": "〜てください",
+      "difference": "The neutral request for anyone. Use it instead of なさい when the listener is not a child or student."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、ここに座りなさい。",
+      "right": "先生、こちらにお座りください。",
+      "why": "なさい is a downward command. To a teacher use お〜ください or 〜てください."
+    },
+    {
+      "wrong": "食べるなさい。",
+      "right": "食べなさい。",
+      "why": "なさい attaches to the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "遊ばないなさい。",
+      "right": "遊んではいけません。/ 遊ばないで。",
+      "why": "There is no negative なさい. Use a prohibition pattern instead."
+    }
+  ],
+  "usageNotes": [
+    "In exam and textbook instructions なさい is neutral and expected: 選びなさい, 書きなさい, 答えなさい.",
+    "The short form 〜な (行きな, 食べな) is friendly in family speech but easily confused with the prohibitive 行くな; the stem tells them apart.",
+    "お帰りなさい and お休みなさい come from this pattern but are now simply greetings, not commands."
+  ],
+  "jlptTips": [
+    "If the situation is parent → child, teacher → student, or written instructions, and the options include ます-stem + なさい, that is the answer; dictionary form + なさい is always wrong.",
+    "Distinguish 〜な after the ます-stem (short なさい, \"do it\") from 〜な after the dictionary form (\"don't\") when both appear as options."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-74-1",
+    "q-n4-g-74-2",
+    "q-n4-g-74-3",
+    "q-n4-g-74-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-74-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

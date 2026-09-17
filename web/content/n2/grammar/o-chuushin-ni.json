@@ -1,0 +1,127 @@
+{
+  "id": "n2-grammar-171",
+  "slug": "o-chuushin-ni",
+  "level": "n2",
+  "order": 171,
+  "title": "〜を中心に / 〜を中心として / 〜を中心とする",
+  "romaji": "o chuushin ni / o chuushin to shite / o chuushin to suru",
+  "meaning": "centering on, focusing on, mainly",
+  "simpleExplanation": "〜を中心に means \"with X at the center\": X is the main focus or core, and things spread out from it. 若者を中心に流行している (popular mainly among young people). It works for people, places, topics, and activities. The noun-modifying form 〜を中心とした / とする + N describes something built around X.",
+  "whenUsed": "Written and formal spoken Japanese: news, reports, descriptions. In casual speech people say 〜が中心で or 主に. Neutral in tone.",
+  "formation": [
+    "Noun + を中心に(して)",
+    "Noun + を中心として",
+    "Noun + を中心とした / を中心とする + Noun",
+    "Predicate: 〜が中心だ / 〜が中心になっている"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "若者",
+        "role": "the core group"
+      },
+      {
+        "text": "を中心に",
+        "role": "centering on",
+        "highlight": true
+      },
+      {
+        "text": "、このアプリが流行している",
+        "role": "what spreads out from the core"
+      }
+    ],
+    "translation": "This app is popular, mainly among young people."
+  },
+  "examples": [
+    {
+      "ja": "若者を中心に、このアプリが流行している。",
+      "reading": "わかものをちゅうしんに、このアプリがりゅうこうしている。",
+      "en": "This app is popular, mainly among young people.",
+      "note": "A core group among whom something spreads."
+    },
+    {
+      "ja": "東京を中心として、全国に店舗を広げた。",
+      "reading": "とうきょうをちゅうしんとして、ぜんこくにてんぽをひろげた。",
+      "en": "Centering on Tokyo, they expanded stores across the country.",
+      "note": "A core location from which expansion happened."
+    },
+    {
+      "ja": "駅を中心とした地域の開発が進んでいる。",
+      "reading": "えきをちゅうしんとしたちいきのかいはつがすすんでいる。",
+      "en": "Development of the area around the station is progressing.",
+      "note": "を中心とした + noun: development around the station."
+    },
+    {
+      "ja": "会議では、来年度の予算を中心に話し合った。",
+      "reading": "かいぎでは、らいねんどのよさんをちゅうしんにはなしあった。",
+      "en": "At the meeting we discussed mainly next year's budget.",
+      "note": "A topic as the center of discussion."
+    },
+    {
+      "ja": "この店は、地元の野菜を中心とするメニューが人気だ。",
+      "reading": "このみせは、じもとのやさいをちゅうしんとするメニューがにんきだ。",
+      "en": "This restaurant's menu, built around local vegetables, is popular.",
+      "note": "を中心とする + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "主に",
+      "difference": "Adverb 'mainly'; simpler and casual."
+    },
+    {
+      "pattern": "〜をはじめ(として)",
+      "difference": "\"Starting with X\": X is a representative example, not the center.",
+      "id": "n2-grammar-174"
+    },
+    {
+      "pattern": "〜を通じて",
+      "difference": "\"Through / throughout\"; different meaning.",
+      "id": "n2-grammar-172"
+    },
+    {
+      "pattern": "〜を〜として",
+      "difference": "The general pattern this belongs to.",
+      "id": "n2-grammar-167"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "若者に中心に流行している。",
+      "right": "若者を中心に流行している。",
+      "why": "The particle is を."
+    },
+    {
+      "wrong": "東京を中心に店 (before a noun)",
+      "right": "東京を中心とした店 / 東京を中心とする店",
+      "why": "Before a noun use を中心とした / とする."
+    },
+    {
+      "wrong": "この本は日本語を中心に。(no predicate)",
+      "right": "この本は日本語を中心に書かれている。",
+      "why": "The pattern needs a main clause."
+    }
+  ],
+  "usageNotes": [
+    "中心 is literally 'center'; the pattern is transparent.",
+    "を中心に + verbs of spreading, discussing, developing: 広がる, 話し合う, 開発する.",
+    "In self-introductions: 〜を中心に研究しています."
+  ],
+  "jlptTips": [
+    "If the sentence names a core (group, place, topic) and something spreads or is organized around it, choose を中心に.",
+    "Before a noun, choose を中心とした / とする.",
+    "Distractors include をはじめ (representative example) and を通じて (through)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-171-1",
+    "q-n2-g-171-2",
+    "q-n2-g-171-3",
+    "q-n2-g-171-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-171-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

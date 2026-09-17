@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-66",
+  "slug": "ta-tokoro-de",
+  "level": "n2",
+  "order": 66,
+  "title": "〜たところで",
+  "romaji": "ta tokoro de",
+  "meaning": "even if (one does), it's no use",
+  "simpleExplanation": "〜たところで means \"even if (one does)…, it's no use / it won't change much\". The speaker is pessimistic: even if we hurry now, we won't make it; however much I explain, they won't understand.",
+  "whenUsed": "Both registers. It follows Vた and the main clause is negative, futile, or minimal (無駄だ・間に合わない・変わらない・せいぜい〜だろう). Often introduced by 今さら, いくら, どんなに, たとえ. It is not used for positive outcomes.",
+  "formation": [
+    "Vた + ところで (+ negative / useless result)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "今さら急いだ",
+        "role": "hypothetical effort (Vた)"
+      },
+      {
+        "text": "ところで",
+        "role": "even if you did…",
+        "highlight": true
+      },
+      {
+        "text": "間に合わない",
+        "role": "futile / negative result"
+      }
+    ],
+    "translation": "Even if we hurry now, we won't make it."
+  },
+  "examples": [
+    {
+      "ja": "今さら急いだところで、間に合わない。",
+      "reading": "いまさらいそいだところで、まにあわない。",
+      "en": "Even if we hurry now, we won't make it.",
+      "note": "今さら + Vた + ところで + negative."
+    },
+    {
+      "ja": "彼に頼んだところで、無駄だろう。",
+      "reading": "かれにたのんだところで、むだだろう。",
+      "en": "Even if you ask him, it'll be no use.",
+      "note": "ところで + 無駄だろう."
+    },
+    {
+      "ja": "いくら説明したところで、分かってもらえない。",
+      "reading": "いくらせつめいしたところで、わかってもらえない。",
+      "en": "However much I explain, they won't understand.",
+      "note": "いくら + Vた + ところで."
+    },
+    {
+      "ja": "今から勉強したところで、明日の試験には間に合わないだろう。",
+      "reading": "いまからべんきょうしたところで、あしたのしけんにはまにあわないだろう。",
+      "en": "Even if I start studying now, it won't be in time for tomorrow's exam.",
+      "note": "Pessimistic conclusion with だろう."
+    },
+    {
+      "ja": "文句を言ったところで、せいぜい謝られるだけだ。",
+      "reading": "もんくをいったところで、せいぜいあやまられるだけだ。",
+      "en": "Even if I complain, at most I'll just get an apology.",
+      "note": "せいぜい〜だけだ: a minimal result."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ても",
+      "difference": "Neutral concession; the result can be positive. ところで is always futile."
+    },
+    {
+      "pattern": "〜たところ",
+      "difference": "\"When I did X, I found Y\": a real past action and discovery.",
+      "id": "n2-grammar-65"
+    },
+    {
+      "pattern": "〜たって",
+      "difference": "Casual spoken \"even if\" (急いだって間に合わない)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "急ぐところで、間に合わない。",
+      "right": "急いだところで、間に合わない。",
+      "why": "Vた is required."
+    },
+    {
+      "wrong": "頑張ったところで、合格できる。",
+      "right": "頑張ったところで、合格できないだろう。",
+      "why": "The result must be negative or futile."
+    },
+    {
+      "wrong": "ところで、急いだ、間に合わない。",
+      "right": "急いだところで、間に合わない。",
+      "why": "Sentence-initial ところで is a different word (\"by the way\")."
+    }
+  ],
+  "usageNotes": [
+    "Typical endings: 無駄だ, 仕方がない, 変わらない, 〜ないだろう, せいぜい〜だ.",
+    "Question words strengthen it: いくら〜たところで, どんなに〜たところで.",
+    "Sentence-initial ところで (\"by the way\") is unrelated; do not confuse."
+  ],
+  "jlptTips": [
+    "Vた + blank + a futile ending → ところで; a discovery ending → ところ.",
+    "Distractors: ところ, ところに, とたん, ても. Only ところで requires a negative outcome.",
+    "今さら / いくら at the start is a strong clue for ところで."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-66-1",
+    "q-n2-g-66-2",
+    "q-n2-g-66-3",
+    "q-n2-g-66-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-66-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,126 @@
+{
+  "id": "n4-grammar-65",
+  "slug": "hou-ga-ii",
+  "level": "n4",
+  "order": 65,
+  "title": "〜ほうがいい (recommend) \"had better / should\"",
+  "romaji": "hou ga ii",
+  "meaning": "Advice; the た-form version is stronger and more specific.",
+  "simpleExplanation": "〜ほうがいい means \"you had better / you should\". ほう literally means \"side\" or \"direction\", so 寝たほうがいい is \"the sleeping side is better\", meaning sleeping is the better choice. With the た-form it gives specific advice for the listener's situation. The negative advice always uses ない + ほうがいい: 飲まないほうがいい = you'd better not drink. With adjectives and nouns it states a general preference: 病院は近いほうがいい.",
+  "whenUsed": "Giving advice to friends, family and colleagues about health, study, plans and problems. It is a little direct, so with people above you soften it (〜たほうがいいと思います / 〜たほうがいいかもしれません). For a gentle nudge use 〜たらどうですか instead.",
+  "formation": [
+    "V-た + ほうがいい (specific advice): 早く寝たほうがいい",
+    "V-ない + ほうがいい (advice not to): お酒を飲まないほうがいい",
+    "V-dictionary + ほうがいい (general statement): 毎日運動するほうがいい",
+    "い-adj + ほうがいい / な-adj + なほうがいい / N + のほうがいい: 近いほうがいい, 静かなほうがいい, 新しいのほうがいい",
+    "Polite: 〜ほうがいいです(よ); softened: 〜ほうがいいと思います"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Strength of advice",
+    "items": [
+      {
+        "label": "〜たらどうですか",
+        "description": "gentle suggestion: \"why don't you…?\" (lesson 66)"
+      },
+      {
+        "label": "〜ばいい / 〜たらいい",
+        "description": "\"you could just…\": offers a solution without pressure"
+      },
+      {
+        "label": "〜たほうがいい",
+        "description": "clear advice: \"you had better…\"; implies a problem if you don't"
+      },
+      {
+        "label": "〜なければならない / 〜必要がある",
+        "description": "obligation or necessity, no longer just advice"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "熱があるなら、早く寝たほうがいいですよ。",
+      "reading": "ねつが あるなら、はやく ねたほうが いいですよ。",
+      "en": "If you have a fever, you'd better go to bed early.",
+      "note": "Specific advice for a sick listener: た-form + ほうがいい, softened with よ."
+    },
+    {
+      "ja": "あまりお酒を飲まないほうがいい。",
+      "reading": "あまり おさけを のまないほうが いい。",
+      "en": "You shouldn't drink too much.",
+      "note": "Negative advice: ない + ほうがいい. Never use the past negative."
+    },
+    {
+      "ja": "病院は近いほうがいい。",
+      "reading": "びょういんは ちかいほうが いい。",
+      "en": "A hospital is better if it's close.",
+      "note": "General preference with an い-adjective: no た-form involved."
+    },
+    {
+      "ja": "明日は試験だから、今夜はゲームをしないほうがいいよ。",
+      "reading": "あしたは しけんだから、こんやは ゲームを しないほうが いいよ。",
+      "en": "You have an exam tomorrow, so you'd better not play games tonight.",
+      "note": "ない + ほうがいい for \"had better not\". だから gives the reason first."
+    },
+    {
+      "ja": "その話は、部長に直接聞いたほうがいいと思います。",
+      "reading": "そのはなしは、ぶちょうに ちょくせつ きいたほうが いいと おもいます。",
+      "en": "I think it would be better to ask the manager about that directly.",
+      "note": "と思います softens the advice for a colleague."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たらどうですか",
+      "difference": "A gentler suggestion (\"how about…?\") that leaves the decision to the listener. ほうがいい sounds like the speaker knows what is best.",
+      "id": "n4-grammar-66"
+    },
+    {
+      "pattern": "〜ばいい / 〜たらいい",
+      "difference": "Gives a way to solve a problem (\"you can just…\"). ほうがいい compares options and recommends one.",
+      "id": "n4-grammar-92"
+    },
+    {
+      "pattern": "〜なければならない",
+      "difference": "Obligation, not advice: you have no choice. ほうがいい still leaves the choice to the listener.",
+      "id": "n4-grammar-99"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お酒を飲まなかったほうがいい。",
+      "right": "お酒を飲まないほうがいい。",
+      "why": "Negative advice uses the plain ない-form. The past negative is never used before ほうがいい."
+    },
+    {
+      "wrong": "静かほうがいい。",
+      "right": "静かなほうがいい。",
+      "why": "な-adjectives need な before ほう, just as before any noun."
+    },
+    {
+      "wrong": "先生、早く帰ったほうがいいですよ。(to a superior, bluntly)",
+      "right": "先生、早くお帰りになったほうがいいかもしれません。",
+      "why": "Bare ほうがいい can sound like an order. To a superior, soften it with と思います / かもしれません and use polite verb forms."
+    }
+  ],
+  "usageNotes": [
+    "た-form + ほうがいい sounds more urgent and specific than dictionary form + ほうがいい. In the exam both are accepted, but the た-form is the standard answer for personal advice.",
+    "For comparing two things (AとBとどちらがいい？) the answer uses Nのほうがいい: 電車のほうがいい.",
+    "Adding よ (〜たほうがいいよ) makes advice sound friendly; without it, the sentence is a plain statement of what is better."
+  ],
+  "jlptTips": [
+    "Look at the form before ほうがいい in the options: た-form or ない-form are correct; なかった, ます-stem or て-form are the usual wrong choices.",
+    "When the sentence gives a symptom or problem (熱がある, 遅れそうだ) and then advice, choose ほうがいい; when it is a polite question offering an idea, choose たらどうですか."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-65-1",
+    "q-n4-g-65-2",
+    "q-n4-g-65-3",
+    "q-n4-g-65-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-65-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

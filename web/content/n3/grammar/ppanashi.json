@@ -1,0 +1,118 @@
+{
+  "id": "n3-grammar-83",
+  "slug": "ppanashi",
+  "level": "n3",
+  "order": 83,
+  "title": "〜っぱなし",
+  "romaji": "ppanashi",
+  "meaning": "leave… as it is / keep on…ing (something left undone or continuing, usually unwelcome)",
+  "simpleExplanation": "〜っぱなし comes from 放す (\"let go\"). It means you did something and then left it like that: 開けっぱなし \"left open\", 出しっぱなし \"left running\". It can also mean an action or state that keeps going without a break: 立ちっぱなし \"standing the whole time\". The feeling is usually negative: careless, tiring, or annoying.",
+  "whenUsed": "Everyday conversation, complaints, reminders (電気をつけっぱなしにしないで). Rare in formal writing. It is followed by だ, で, にする, or の + noun.",
+  "formation": [
+    "Verb ます-stem + っぱなし + だ / で / の Noun",
+    "〜っぱなしにする (leave something that way)",
+    "〜っぱなしになっている (has been left that way)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "窓を開ける",
+        "en": "open the window (the action)"
+      },
+      {
+        "ja": "窓を開けっぱなしにする",
+        "en": "leave the window open (and forget about it)"
+      },
+      {
+        "ja": "窓が開けっぱなしになっている",
+        "en": "the window has been left open (someone was careless)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "窓を開けっぱなしで出かけてしまった。",
+      "reading": "まどをあけっぱなしででかけてしまった。",
+      "en": "I went out leaving the window open.",
+      "note": "Something left undone: the window stayed open."
+    },
+    {
+      "ja": "一日中立ちっぱなしで足が痛い。",
+      "reading": "いちにちじゅうたちっぱなしであしがいたい。",
+      "en": "My legs hurt from standing all day.",
+      "note": "Continuous state: standing all day without a break."
+    },
+    {
+      "ja": "水を出しっぱなしにしないでください。",
+      "reading": "みずをだしっぱなしにしないでください。",
+      "en": "Please don't leave the water running.",
+      "note": "っぱなしにする = leave it that way; a typical request."
+    },
+    {
+      "ja": "テレビをつけっぱなしで寝てしまった。",
+      "reading": "テレビをつけっぱなしでねてしまった。",
+      "en": "I fell asleep with the TV left on.",
+      "note": "っぱなしで connects to the next action."
+    },
+    {
+      "ja": "昨日の試合は負けっぱなしで、悔しかった。",
+      "reading": "きのうのしあいはまけっぱなしで、くやしかった。",
+      "en": "We kept losing in yesterday's games, and it was frustrating.",
+      "note": "Continuous sense: losing again and again."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜まま",
+      "difference": "'As it is', neutral: 開けたまま simply describes the state. っぱなし adds a feeling of carelessness or excess."
+    },
+    {
+      "pattern": "〜ておく",
+      "difference": "Deliberately leaving something in a state for a purpose (開けておく = leave it open on purpose). っぱなし is careless.",
+      "id": "n3-grammar-95"
+    },
+    {
+      "pattern": "〜続ける",
+      "difference": "Neutral 'keep doing'; no negative nuance."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "窓を開けるっぱなし",
+      "right": "窓を開けっぱなし",
+      "why": "っぱなし attaches to the ます-stem (開け), not the dictionary form."
+    },
+    {
+      "wrong": "花を飾りっぱなしで部屋がきれいだ。",
+      "right": "花を飾ったままで部屋がきれいだ。",
+      "why": "っぱなし implies neglect or a tiring state, so it clashes with a pleasant result. Use まま for a neutral 'left as is'."
+    },
+    {
+      "wrong": "水を出しっぱなし。",
+      "right": "水を出しっぱなしにしないで。",
+      "why": "In a request, use っぱなしにする (+ ないで / ください); っぱなし alone is not a complete verb."
+    }
+  ],
+  "usageNotes": [
+    "Common pairs: つけっぱなし, 開けっぱなし, 置きっぱなし, 出しっぱなし, 立ちっぱなし, 座りっぱなし, 言いっぱなし, やりっぱなし.",
+    "In listening sections, a parent or boss often complains with 〜っぱなしにしないで.",
+    "The small っ is part of the form: 開け + っぱなし."
+  ],
+  "jlptTips": [
+    "If the sentence expresses annoyance about something left undone, っぱなし beats まま.",
+    "Check the verb form before the blank: ます-stem + っぱなし. Dictionary form or て-form + っぱなし is wrong.",
+    "The combination 〜っぱなしにする / 〜っぱなしで is what usually appears in 文法形式の判断."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-83-1",
+    "q-n3-g-83-2",
+    "q-n3-g-83-3",
+    "q-n3-g-83-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-83-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

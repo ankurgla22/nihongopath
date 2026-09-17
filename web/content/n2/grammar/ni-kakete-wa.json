@@ -1,0 +1,122 @@
+{
+  "id": "n2-grammar-104",
+  "slug": "ni-kakete-wa",
+  "level": "n2",
+  "order": 104,
+  "title": "〜にかけては",
+  "romaji": "ni kakete wa",
+  "meaning": "when it comes to (a skill or field), nobody beats…",
+  "simpleExplanation": "〜にかけては singles out one field or ability and says that in that field the person is outstanding (or, less often, hopeless). The speaker is usually praising: \"When it comes to cooking, nobody beats her.\" The second half almost always contains a superlative or a comparative such as 一番, 誰にも負けない, 右に出る者はいない.",
+  "whenUsed": "Both speech and writing, whenever you evaluate someone's specialty: sports, cooking, memory, negotiation. It sounds a little more emphatic than については. In job interviews, 〜にかけては自信があります is a natural way to state a strength.",
+  "formation": [
+    "Noun + にかけては",
+    "Noun + の + Noun + にかけては (足の速さにかけては)",
+    "Verb + こと + にかけては (人を笑わせることにかけては)",
+    "Follow-up: 一番だ / 誰にも負けない / 右に出る者はいない / 自信がある"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "料理",
+        "role": "field or skill"
+      },
+      {
+        "text": "にかけては",
+        "role": "when it comes to…",
+        "highlight": true
+      },
+      {
+        "text": "、彼女の右に出る者はいない",
+        "role": "evaluation with a superlative"
+      }
+    ],
+    "translation": "When it comes to cooking, no one surpasses her."
+  },
+  "examples": [
+    {
+      "ja": "料理にかけては、彼女の右に出る者はいない。",
+      "reading": "りょうりにかけては、かのじょのみぎにでるものはいない。",
+      "en": "When it comes to cooking, no one surpasses her.",
+      "note": "右に出る者はいない is the classic set phrase after にかけては."
+    },
+    {
+      "ja": "足の速さにかけては、クラスで一番だ。",
+      "reading": "あしのはやさにかけては、クラスでいちばんだ。",
+      "en": "In running speed, he's the best in class.",
+      "note": "The noun is an ability (足の速さ); the evaluation is 一番."
+    },
+    {
+      "ja": "パソコンにかけては、父は全くだめだ。",
+      "reading": "パソコンにかけては、ちちはまったくだめだ。",
+      "en": "When it comes to computers, my father is hopeless.",
+      "note": "Less common negative evaluation: hopeless at computers."
+    },
+    {
+      "ja": "人を笑わせることにかけては、彼は天才だ。",
+      "reading": "ひとをわらわせることにかけては、かれはてんさいだ。",
+      "en": "When it comes to making people laugh, he is a genius.",
+      "note": "Verb + こと turns an action into the field being evaluated."
+    },
+    {
+      "ja": "記憶力にかけては、誰にも負けない自信がある。",
+      "reading": "きおくりょくにかけては、だれにもまけないじしんがある。",
+      "en": "When it comes to memory, I am confident I am second to none.",
+      "note": "誰にも負けない is another set follow-up; natural in self-introductions."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜については / 〜に関しては",
+      "difference": "Neutral topic markers (\"about\"); no sense of superiority. 料理については話した is just \"talked about cooking\".",
+      "id": "n2-grammar-123"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\" with a result that is unexpected for the category; not a praise of specialty.",
+      "id": "n2-grammar-115"
+    },
+    {
+      "pattern": "〜から〜にかけて",
+      "difference": "Different pattern: a rough range in time or space (三月から四月にかけて). Not a topic marker."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "料理にかけては、彼女はあまり上手ではない。",
+      "right": "料理にかけては、彼女の右に出る者はいない。",
+      "why": "にかけては expects a strong evaluation, usually praise. A lukewarm statement sounds unfinished."
+    },
+    {
+      "wrong": "彼は歌にかけて上手だ。",
+      "right": "彼は歌にかけては上手だ。",
+      "why": "The は is part of the pattern; without it, にかけて suggests a range (から〜にかけて)."
+    },
+    {
+      "wrong": "日本語にかけては、勉強しています。",
+      "right": "日本語については、勉強しています。",
+      "why": "A plain statement of activity needs については; にかけては demands an evaluation of ability."
+    }
+  ],
+  "usageNotes": [
+    "Praise is the default. Negative use (全くだめだ) is possible but sounds humorous or blunt.",
+    "The preceding noun is a skill or field, not a person or a time.",
+    "Common partners: 一番, 誰にも負けない, 右に出る者はいない, 天下一品, 自信がある."
+  ],
+  "jlptTips": [
+    "If the second clause contains 一番 / 誰にも負けない / 右に出る者はいない, the answer is にかけては, not については.",
+    "Do not confuse it with から〜にかけて (range). Look for から earlier in the sentence.",
+    "In 並べ替え, keep こと + にかけては together when the field is a verb phrase."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-104-1",
+    "q-n2-g-104-2",
+    "q-n2-g-104-3",
+    "q-n2-g-104-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-104-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

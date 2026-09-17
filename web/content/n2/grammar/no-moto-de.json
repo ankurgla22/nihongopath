@@ -1,0 +1,133 @@
+{
+  "id": "n2-grammar-138",
+  "slug": "no-moto-de",
+  "level": "n2",
+  "order": 138,
+  "title": "〜のもとで / 〜のもとに",
+  "romaji": "no moto de / no moto ni",
+  "meaning": "under (guidance, influence, conditions)",
+  "simpleExplanation": "〜のもとで means \"under X\": under a teacher's guidance, under certain conditions, under someone's influence. X is a person, an authority, or a condition that surrounds and shapes the action. 〜のもとに is a slightly more abstract variant used with agreements, names, and conditions (両親の理解のもとに / 〜という名のもとに).",
+  "whenUsed": "Formal written and spoken Japanese: academic, legal, and biographical contexts (教授のもとで / 法のもとに). In conversation people say 〜の下で (した) or 〜に教わって.",
+  "formation": [
+    "Noun (person / authority) + のもとで (教授のもとで研究する)",
+    "Noun (condition) + のもとで (厳しい条件のもとで)",
+    "Noun (agreement / name / principle) + のもとに (合意のもとに / 法のもとに)",
+    "Kanji: 下 (もと) is sometimes used: 〜の下で"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜のもとで",
+      "〜のもとに"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "under someone's guidance or under conditions (where the action happens)",
+          "under an agreement, principle, or name (on what basis)"
+        ]
+      },
+      {
+        "label": "Typical nouns",
+        "cells": [
+          "先生, 教授, 親, 監督, 条件, 環境",
+          "理解, 合意, 協力, 法, 名, 前提"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "田中教授のもとで学ぶ",
+          "法のもとに平等である"
+        ]
+      }
+    ],
+    "title": "で for place-like, に for basis-like"
+  },
+  "examples": [
+    {
+      "ja": "田中教授のもとで研究を続けている。",
+      "reading": "たなかきょうじゅのもとでけんきゅうをつづけている。",
+      "en": "I continue my research under Professor Tanaka.",
+      "note": "Under a professor's guidance: the most typical use."
+    },
+    {
+      "ja": "両親の理解のもとに、留学を決めた。",
+      "reading": "りょうしんのりかいのもとに、りゅうがくをきめた。",
+      "en": "With my parents' understanding, I decided to study abroad.",
+      "note": "のもとに with an abstract condition (understanding)."
+    },
+    {
+      "ja": "厳しい条件のもとで働いている人が多い。",
+      "reading": "きびしいじょうけんのもとではたらいているひとがおおい。",
+      "en": "Many people work under harsh conditions.",
+      "note": "Harsh conditions as the surrounding situation."
+    },
+    {
+      "ja": "有名な監督のもとで、多くの若い選手が育った。",
+      "reading": "ゆうめいなかんとくのもとで、おおくのわかいせんしゅがそだった。",
+      "en": "Many young players developed under a famous coach.",
+      "note": "Person + のもとで: under someone's care or training."
+    },
+    {
+      "ja": "すべての国民は法のもとに平等である。",
+      "reading": "すべてのこくみんはほうのもとにびょうどうである。",
+      "en": "All citizens are equal under the law.",
+      "note": "Set legal phrase: 法のもとに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の下で (した)",
+      "difference": "Physical \"under\" (木の下で); のもとで is abstract."
+    },
+    {
+      "pattern": "〜に基づいて",
+      "difference": "\"Based on\": a foundation for reasoning; のもとに is more like 'under the banner of'.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜において",
+      "difference": "\"In / at (a place or field)\": location without the sense of being under an influence."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生のもとに勉強した。",
+      "right": "先生のもとで勉強した。",
+      "why": "For guidance or a setting where the action happens, use で."
+    },
+    {
+      "wrong": "親の理解のもとで留学した。(acceptable but…)",
+      "right": "親の理解のもとに留学した。",
+      "why": "With an abstract basis such as understanding or agreement, に is more natural."
+    },
+    {
+      "wrong": "木のもとで休んだ。",
+      "right": "木の下で休んだ。",
+      "why": "Physical \"under\" is 下 (した), not もと."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: 法のもとに, 〜という名のもとに, 〜の協力のもとに, 〜の指導のもとで.",
+    "In biographies: 〜のもとで修業した (trained under).",
+    "The kanji forms 下 and 元 both appear; kana is safest."
+  ],
+  "jlptTips": [
+    "If the noun is a person and the verb is 学ぶ / 研究する / 働く, the answer is のもとで.",
+    "If the noun is 法, 合意, 理解 or 名, expect のもとに.",
+    "Distractors include に基づいて and において; のもとで is the only one expressing 'under someone's guidance'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-138-1",
+    "q-n2-g-138-2",
+    "q-n2-g-138-3",
+    "q-n2-g-138-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-138-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,154 @@
+{
+  "id": "n4-grammar-104",
+  "slug": "koto-instruction",
+  "level": "n4",
+  "order": 104,
+  "title": "〜こと (sentence-final instruction) \"must / be sure to\"",
+  "romaji": "koto (shiji)",
+  "meaning": "A rule or instruction in written notices, school rules, and exam directions.",
+  "simpleExplanation": "Ending a sentence with the dictionary form + こと turns it into a rule or instruction: 教室では日本語で話すこと = \"Speak Japanese in the classroom\". The negative is ない + こと: 廊下を走らないこと = \"Do not run in the corridors\". It is a written style, found on notices, school rules, exam papers and to-do lists. It is not used when speaking to someone; in speech you would say 〜てください or 〜なさい.",
+  "whenUsed": "Classroom and dormitory rules, notices in offices, instructions on exam papers (漢字で書くこと), and memos to yourself. Neutral, impersonal, written. Because it is impersonal, it feels firm but not rude.",
+  "formation": [
+    "V-dictionary + こと: 提出すること (Submit it)",
+    "V-ない + こと: 遅れないこと (Do not be late)",
+    "Sentence-final, in writing only",
+    "Spoken equivalents: 〜てください, 〜なさい, 〜ないでください"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Written instruction vs spoken forms",
+    "columns": [
+      "Where",
+      "Tone",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-dict + こと",
+        "cells": [
+          "notices, rules, exams",
+          "impersonal, firm",
+          "金曜日までに出すこと"
+        ]
+      },
+      {
+        "label": "V-ない + こと",
+        "cells": [
+          "notices, rules",
+          "impersonal prohibition",
+          "廊下を走らないこと"
+        ]
+      },
+      {
+        "label": "〜てください",
+        "cells": [
+          "speech",
+          "polite request",
+          "金曜日までに出してください"
+        ]
+      },
+      {
+        "label": "〜なさい",
+        "cells": [
+          "speech (parent, teacher)",
+          "command",
+          "金曜日までに出しなさい"
+        ]
+      },
+      {
+        "label": "V-ます + ように",
+        "cells": [
+          "written wish / prayer",
+          "hope",
+          "合格しますように"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "教室では日本語で話すこと。",
+      "reading": "きょうしつでは にほんごで はなすこと。",
+      "en": "Speak Japanese in the classroom.",
+      "note": "A classroom rule: dictionary form + こと."
+    },
+    {
+      "ja": "レポートは金曜日までに出すこと。",
+      "reading": "レポートは きんようびまでに だすこと。",
+      "en": "Submit the report by Friday.",
+      "note": "A deadline instruction on a notice."
+    },
+    {
+      "ja": "廊下を走らないこと。",
+      "reading": "ろうかを はしらないこと。",
+      "en": "Do not run in the corridors.",
+      "note": "A prohibition: ない + こと."
+    },
+    {
+      "ja": "（試験の注意）答えはすべて鉛筆で書くこと。",
+      "reading": "（しけんの ちゅうい）こたえは すべて えんぴつで かくこと。",
+      "en": "(Exam instructions) Write all answers in pencil.",
+      "note": "Typical exam-paper wording."
+    },
+    {
+      "ja": "（寮の規則）夜十一時以後は大きな音を出さないこと。",
+      "reading": "（りょうの きそく）よる じゅういちじ いごは おおきな おとを ださないこと。",
+      "en": "(Dormitory rules) Do not make loud noises after 11 p.m.",
+      "note": "ない + こと for a rule against something."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なさい",
+      "difference": "A spoken command from a parent or teacher. こと is the written, impersonal equivalent.",
+      "id": "n4-grammar-74"
+    },
+    {
+      "pattern": "〜ように (wish)",
+      "difference": "Also sentence-final and written, but ように expresses a hope (合格しますように), not a rule.",
+      "id": "n4-grammar-108"
+    },
+    {
+      "pattern": "の・こと nominalisation",
+      "difference": "こと in the middle of a sentence just makes a noun (話すことが好きだ). Only sentence-final こと is an instruction.",
+      "id": "n4-grammar-51"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（口頭で）明日八時に来ること。",
+      "right": "明日八時に来てください。",
+      "why": "こと is for written notices; said aloud to someone it sounds like reading out a rule book."
+    },
+    {
+      "wrong": "廊下を走らないでこと。",
+      "right": "廊下を走らないこと。",
+      "why": "The negative is the plain ない-form + こと, without で."
+    },
+    {
+      "wrong": "レポートは金曜日までに出しますこと。",
+      "right": "レポートは金曜日までに出すこと。",
+      "why": "こと attaches to the dictionary form, never the ます-form."
+    }
+  ],
+  "usageNotes": [
+    "Notices often list several rules each ending in こと, sometimes numbered.",
+    "The exam paper you sit for the JLPT itself uses this style in its instructions.",
+    "こと as an instruction has no tense; it is always about what should be done from now."
+  ],
+  "jlptTips": [
+    "A sentence in brackets like （学校の規則）or （注意）before the blank tells you the style is a written rule, so a sentence-final こと is the likely answer.",
+    "Options may give ことです or ことだ; the bare こと is the notice form. Also check that the verb before こと is in the dictionary or ない-form."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-104-1",
+    "q-n4-g-104-2",
+    "q-n4-g-104-3",
+    "q-n4-g-104-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-104-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

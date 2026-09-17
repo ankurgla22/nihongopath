@@ -1,0 +1,128 @@
+{
+  "id": "n3-grammar-91",
+  "slug": "te-itadakemasen-ka",
+  "level": "n3",
+  "order": 91,
+  "title": "〜ていただけませんか / 〜てもらえませんか",
+  "romaji": "te itadakemasen ka / te moraemasen ka",
+  "meaning": "Could you please…? (polite request; いただけませんか is more polite)",
+  "simpleExplanation": "〜てもらえませんか and 〜ていただけませんか both ask \"could you do this for me?\". They are built from もらう / いただく (receive a favour) in the potential form plus a negative question, which is the softest way to ask in Japanese. いただけませんか is the humble version for people you should be polite to.",
+  "whenUsed": "Asking strangers, shop staff, teachers, colleagues and superiors for help. 〜ていただけないでしょうか is even softer and suits big favours. Among friends use 〜てくれない？ or 〜てもらえる？.",
+  "formation": [
+    "Verb て-form + もらえませんか (polite, equals)",
+    "Verb て-form + いただけませんか (humble, superiors / strangers)",
+    "Verb て-form + いただけないでしょうか (very soft)",
+    "Casual: 〜てもらえる？ / 〜てくれない？"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Politeness ladder for requests",
+    "items": [
+      {
+        "label": "〜てくれない？",
+        "description": "Casual; friends and family."
+      },
+      {
+        "label": "〜てもらえますか",
+        "description": "Polite, fairly direct."
+      },
+      {
+        "label": "〜てもらえませんか",
+        "description": "Polite and softer (negative question)."
+      },
+      {
+        "label": "〜ていただけませんか",
+        "description": "Humble; teachers, customers, strangers."
+      },
+      {
+        "label": "〜ていただけないでしょうか",
+        "description": "Softest; large favours or very formal settings."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "すみません、写真を撮っていただけませんか。",
+      "reading": "すみません、しゃしんをとっていただけませんか。",
+      "en": "Excuse me, could you take a photo for us?",
+      "note": "To a stranger: humble いただけませんか."
+    },
+    {
+      "ja": "もう少し待ってもらえませんか。",
+      "reading": "もうすこしまってもらえませんか。",
+      "en": "Could you wait a little longer?",
+      "note": "To someone you are fairly close to: もらえませんか."
+    },
+    {
+      "ja": "この漢字の読み方を教えていただけないでしょうか。",
+      "reading": "このかんじのよみかたをおしえていただけないでしょうか。",
+      "en": "Would you mind telling me how to read this kanji?",
+      "note": "Softest form for a favour from a teacher."
+    },
+    {
+      "ja": "この書類にサインしていただけませんか。",
+      "reading": "このしょるいにサインしていただけませんか。",
+      "en": "Could you please sign this document?",
+      "note": "Customer-service register."
+    },
+    {
+      "ja": "ちょっとペンを貸してもらえない？",
+      "reading": "ちょっとペンをかしてもらえない？",
+      "en": "Could you lend me a pen for a sec?",
+      "note": "Casual version among friends."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てください",
+      "difference": "A polite instruction rather than a question; fine for routine requests but less soft."
+    },
+    {
+      "pattern": "〜てもらいたい / 〜ていただきたい",
+      "difference": "States the wish instead of asking; slightly more assertive.",
+      "id": "n3-grammar-90"
+    },
+    {
+      "pattern": "〜てくださいませんか",
+      "difference": "Same politeness level as いただけませんか, built from くださる (giver as subject)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "写真を撮っていただきませんか。",
+      "right": "写真を撮っていただけませんか。",
+      "why": "The potential form いただけ is needed ('could you'); いただきませんか sounds like 'won't you receive?'."
+    },
+    {
+      "wrong": "先生、ちょっと手伝ってもらえる？",
+      "right": "先生、ちょっと手伝っていただけませんか。",
+      "why": "The casual form is inappropriate for a teacher; use the humble one."
+    },
+    {
+      "wrong": "教えてもらいませんか。",
+      "right": "教えてもらえませんか。",
+      "why": "Again, the potential form もらえ is required for a request."
+    }
+  ],
+  "usageNotes": [
+    "The negative question (ませんか) is politer than the affirmative (ますか).",
+    "In 聴解, the person who replies with はい、いいですよ / すみません、ちょっと… tells you whether the request was accepted.",
+    "Adding すみませんが / 恐れ入りますが at the start makes it even more polite."
+  ],
+  "jlptTips": [
+    "Match the level to the listener: stranger or teacher → いただけませんか; colleague → もらえませんか; friend → くれない？.",
+    "Potential form check: いただけ / もらえ, not いただき / もらい.",
+    "In listening, focus on the verb before いただけませんか: that is what is being asked."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-91-1",
+    "q-n3-g-91-2",
+    "q-n3-g-91-3",
+    "q-n3-g-91-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-91-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

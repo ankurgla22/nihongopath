@@ -1,0 +1,133 @@
+{
+  "id": "n2-grammar-193",
+  "slug": "kakeru-half-done",
+  "level": "n2",
+  "order": 193,
+  "title": "〜かけの / 〜かける / 〜かけだ",
+  "romaji": "kake no / kakeru / kake da",
+  "meaning": "half-done, in the middle of; just started to",
+  "simpleExplanation": "Verb stem + かける means an action was started but not finished: 読みかけの本 (a half-read book), 言いかけて (started to say), やりかけだ (half done). It can also mean 'be about to / almost': 死にかける (nearly die). The forms are かけの + noun, かける as a verb, and かけだ as a predicate.",
+  "whenUsed": "Both speech and writing. Very common for objects left unfinished (食べかけ, 飲みかけ) and for interrupted actions (言いかけてやめる). Note that some かける compounds are separate words: 話しかける (address), 呼びかける (call out).",
+  "formation": [
+    "Verb (ます-stem) + かける (verb)",
+    "Verb (ます-stem) + かけの + Noun (読みかけの本)",
+    "Verb (ます-stem) + かけだ / かけで (state)",
+    "Almost: 死にかける / 溺れかける",
+    "Separate words: 話しかける・呼びかける・働きかける"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "読み",
+    "branches": [
+      {
+        "suffix": "かける",
+        "result": "読みかける",
+        "label": "start to read (verb)"
+      },
+      {
+        "suffix": "かけの",
+        "result": "読みかけの本",
+        "label": "a half-read book"
+      },
+      {
+        "suffix": "かけだ",
+        "result": "読みかけだ",
+        "label": "is half-read (predicate)"
+      },
+      {
+        "suffix": "かけて",
+        "result": "読みかけて寝た",
+        "label": "started reading and (then) fell asleep"
+      }
+    ],
+    "rootLabel": "Verb stem"
+  },
+  "examples": [
+    {
+      "ja": "机の上に読みかけの本がある。",
+      "reading": "つくえのうえによみかけのほんがある。",
+      "en": "There is a half-read book on the desk.",
+      "note": "かけの + noun: half-read."
+    },
+    {
+      "ja": "何か言いかけて、彼は口を閉じた。",
+      "reading": "なにかいいかけて、かれはくちをとじた。",
+      "en": "He started to say something, then closed his mouth.",
+      "note": "かけて: started to say, then stopped."
+    },
+    {
+      "ja": "この仕事はまだやりかけだ。",
+      "reading": "このしごとはまだやりかけだ。",
+      "en": "This job is still only half done.",
+      "note": "かけだ: half done."
+    },
+    {
+      "ja": "テーブルの上に飲みかけのコーヒーが置いてある。",
+      "reading": "テーブルのうえにのみかけのコーヒーがおいてある。",
+      "en": "There is a half-drunk cup of coffee on the table.",
+      "note": "飲みかけ: a common everyday example."
+    },
+    {
+      "ja": "彼は事故で死にかけたが、奇跡的に助かった。",
+      "reading": "かれはじこでしにかけたが、きせきてきにたすかった。",
+      "en": "He nearly died in the accident but was miraculously saved.",
+      "note": "死にかける: 'almost'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜始める",
+      "difference": "\"Start to do\": the action continues; かける implies it stopped or is incomplete."
+    },
+    {
+      "pattern": "〜途中だ",
+      "difference": "\"In the middle of\": neutral description of progress."
+    },
+    {
+      "pattern": "〜そうになる",
+      "difference": "\"Almost\" (泣きそうになる): similar to the 'almost' use of かける."
+    },
+    {
+      "pattern": "〜っぱなし",
+      "difference": "\"Left as is\" after an action; different focus."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読むかけの本",
+      "right": "読みかけの本",
+      "why": "Attach to the ます-stem."
+    },
+    {
+      "wrong": "食べかけた。(meaning 'finished eating')",
+      "right": "食べ終わった。",
+      "why": "かける means incomplete, not finished."
+    },
+    {
+      "wrong": "彼に話しかけの途中で (meaning 'half-said')",
+      "right": "言いかけの途中で",
+      "why": "話しかける means 'address someone'; for an unfinished utterance use 言いかける."
+    }
+  ],
+  "usageNotes": [
+    "Everyday nouns: 食べかけ, 飲みかけ, 読みかけ, 書きかけ, やりかけ.",
+    "死にかける / 溺れかける = nearly die / nearly drown.",
+    "Learn the separate words 話しかける, 呼びかける, 働きかける as vocabulary."
+  ],
+  "jlptTips": [
+    "If the sentence describes something unfinished or interrupted, choose かけ.",
+    "Check the stem: 読みかけ, 言いかけ.",
+    "Distractors include 始める, 終わる, っぱなし; and the separate word 話しかける is a common trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-193-1",
+    "q-n2-g-193-2",
+    "q-n2-g-193-3",
+    "q-n2-g-193-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-193-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

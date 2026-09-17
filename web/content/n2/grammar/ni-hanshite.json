@@ -1,0 +1,127 @@
+{
+  "id": "n2-grammar-129",
+  "slug": "ni-hanshite",
+  "level": "n2",
+  "order": 129,
+  "title": "〜に反して / 〜に反し / 〜に反する",
+  "romaji": "ni hanshite / ni hanshi / ni hansuru",
+  "meaning": "contrary to, against (expectations, wishes, rules)",
+  "simpleExplanation": "〜に反して means \"contrary to X\": the outcome goes against an expectation, a wish, a prediction, or a rule. 予想に反して、試合は簡単に終わった. The noun before it is abstract (予想, 期待, 意志, 規則); it is not used with people. 〜に反する + N means \"Y that violates X\" (規則に反する行為).",
+  "whenUsed": "Formal written and spoken Japanese: news, essays, reports. In conversation people say 〜と違って or 〜のに. The に反する form is common in legal and administrative contexts.",
+  "formation": [
+    "Noun (予想・期待・意志・希望・規則・法律) + に反して / に反し",
+    "Noun + に反する + Noun (規則に反する行為)",
+    "Noun + に反した + Noun (also possible)",
+    "Predicate use: 〜は法律に反する (violates the law)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "予想",
+        "role": "an expectation, wish, or rule"
+      },
+      {
+        "text": "に反して",
+        "role": "contrary to",
+        "highlight": true
+      },
+      {
+        "text": "、試合は簡単に終わった",
+        "role": "the opposite outcome"
+      }
+    ],
+    "translation": "Contrary to expectations, the match ended easily."
+  },
+  "examples": [
+    {
+      "ja": "予想に反して、試合は簡単に終わった。",
+      "reading": "よそうにはんして、しあいはかんたんにおわった。",
+      "en": "Contrary to expectations, the match ended easily.",
+      "note": "Expectation versus outcome; the classic use."
+    },
+    {
+      "ja": "親の期待に反し、彼は大学を辞めた。",
+      "reading": "おやのきたいにはんし、かれはだいがくをやめた。",
+      "en": "Against his parents' expectations, he quit university.",
+      "note": "に反し: written form; he went against his parents' hopes."
+    },
+    {
+      "ja": "規則に反する行為は処分の対象となる。",
+      "reading": "きそくにはんするこういはしょぶんのたいしょうとなる。",
+      "en": "Acts that violate the rules are subject to disciplinary action.",
+      "note": "に反する + noun: acts that violate rules."
+    },
+    {
+      "ja": "親の意志に反して、彼女は海外で働くことを選んだ。",
+      "reading": "おやのいしにはんして、かのじょはかいがいではたらくことをえらんだ。",
+      "en": "Against her parents' wishes, she chose to work abroad.",
+      "note": "意志 (will) is a typical abstract noun before に反して."
+    },
+    {
+      "ja": "その行為は明らかに法律に反している。",
+      "reading": "そのこういはあきらかにほうりつにはんしている。",
+      "en": "That act clearly violates the law.",
+      "note": "Predicate use: に反している = is in violation of."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に対して",
+      "difference": "\"In contrast to\" between two different things (兄は活発なのに対して); not a violation of an expectation.",
+      "id": "n2-grammar-121"
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "\"Despite\": the fact is real but the outcome is surprising; the noun is a situation, not an expectation.",
+      "id": "n2-grammar-102"
+    },
+    {
+      "pattern": "〜と違って",
+      "difference": "Neutral \"unlike\"; spoken; accepts people (彼と違って)."
+    },
+    {
+      "pattern": "〜どころか",
+      "difference": "\"Far from\": rejects the expectation and states an extreme opposite.",
+      "id": "n2-grammar-87"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼に反して、私は静かだ。",
+      "right": "彼と違って、私は静かだ。",
+      "why": "に反して does not take people; use と違って or に対して."
+    },
+    {
+      "wrong": "規則に反して行為",
+      "right": "規則に反する行為",
+      "why": "Before a noun use に反する (or に反した)."
+    },
+    {
+      "wrong": "予想に反して、予想どおりだった。",
+      "right": "予想に反して、結果は違った。",
+      "why": "The outcome must be contrary to the expectation, not in line with it."
+    }
+  ],
+  "usageNotes": [
+    "Set collocations: 予想に反して, 期待に反して, 意に反して, 規則に反する, 法律に反する, 道徳に反する.",
+    "The opposite is 〜どおり(に) (as expected): 予想どおり.",
+    "In news headlines に反し is common: 市場の予想に反し、金利は据え置き."
+  ],
+  "jlptTips": [
+    "If the noun is 予想, 期待, 意志 or 規則 and the outcome is the opposite, choose に反して. If the noun is a person, it is wrong.",
+    "Before a noun, choose に反する / に反した.",
+    "Distractors include に対して, に伴って, に沿って. に沿って is the exact opposite (in line with)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-129-1",
+    "q-n2-g-129-2",
+    "q-n2-g-129-3",
+    "q-n2-g-129-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-129-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

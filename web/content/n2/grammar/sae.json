@@ -1,0 +1,129 @@
+{
+  "id": "n2-grammar-180",
+  "slug": "sae",
+  "level": "n2",
+  "order": 180,
+  "title": "〜さえ / 〜でさえ",
+  "romaji": "sae / de sae",
+  "meaning": "even (an extreme example implying all others)",
+  "simpleExplanation": "〜さえ presents an extreme example: if even X is the case, everything else follows. 専門家でさえ解けない (even experts cannot solve it, so ordinary people certainly cannot). 立っていることさえできない (cannot even stand). でさえ is used after nouns that are subjects; にさえ, とさえ after other particles. A separate pattern, 〜さえ〜ば (if only), is N3.",
+  "whenUsed": "Both speech and writing. Common in emphatic statements, complaints, and descriptions of extreme states. すら is the more written equivalent.",
+  "formation": [
+    "Noun + さえ / でさえ (subject) / にさえ / とさえ",
+    "Verb + こと + さえ + できない",
+    "Verb (ます-stem) + さえ + する / しない",
+    "Related: 〜さえ〜ば (if only), 〜すら (written)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Extreme-example markers",
+    "items": [
+      {
+        "label": "〜も",
+        "description": "also / even (mild)"
+      },
+      {
+        "label": "〜まで",
+        "description": "even (going as far as)"
+      },
+      {
+        "label": "〜さえ / 〜でさえ",
+        "description": "even (extreme, implying the rest)"
+      },
+      {
+        "label": "〜すら",
+        "description": "even (written, literary)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "疲れて、立っていることさえできなかった。",
+      "reading": "つかれて、たっていることさえできなかった。",
+      "en": "I was so tired I could not even stand.",
+      "note": "An extreme inability: cannot even stand."
+    },
+    {
+      "ja": "専門家でさえ、この問題は解けない。",
+      "reading": "せんもんかでさえ、このもんだいはとけない。",
+      "en": "Even experts cannot solve this problem.",
+      "note": "でさえ with a subject: even experts."
+    },
+    {
+      "ja": "忙しくて、食事をする時間さえない。",
+      "reading": "いそがしくて、しょくじをするじかんさえない。",
+      "en": "I am so busy I don't even have time to eat.",
+      "note": "An extreme lack: not even time to eat."
+    },
+    {
+      "ja": "子供でさえ知っていることを、彼は知らなかった。",
+      "reading": "こどもでさえしっていることを、かれはしらなかった。",
+      "en": "He did not know something that even a child knows.",
+      "note": "でさえ: the extreme case makes his ignorance striking."
+    },
+    {
+      "ja": "忙しくて、家族に電話をすることさえ忘れていた。",
+      "reading": "いそがしくて、かぞくにでんわをすることさえわすれていた。",
+      "en": "I was so busy that I even forgot to call my family.",
+      "note": "こと + さえ before a verb."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜すら",
+      "difference": "Same meaning, written and literary."
+    },
+    {
+      "pattern": "〜まで",
+      "difference": "\"Even (going so far as)\": stresses the extent of an action.",
+      "id": "n2-grammar-184"
+    },
+    {
+      "pattern": "〜も",
+      "difference": "Mild 'even / also'."
+    },
+    {
+      "pattern": "〜こそ",
+      "difference": "\"The very one\": emphasis, not an extreme example.",
+      "id": "n2-grammar-179"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "専門家さえが解けない。",
+      "right": "専門家でさえ解けない。/ 専門家さえ解けない。",
+      "why": "Do not add が after さえ; use でさえ for a subject."
+    },
+    {
+      "wrong": "水さえ飲めば治る。(meaning 'even water')",
+      "right": "水を飲みさえすれば治る。(if only) / 水さえ飲めない (cannot even drink water)",
+      "why": "〜さえ〜ば is the 'if only' pattern; for 'even', use さえ + negative or extreme statement."
+    },
+    {
+      "wrong": "彼はさえ来なかった。",
+      "right": "彼さえ来なかった。",
+      "why": "さえ attaches directly to the noun."
+    }
+  ],
+  "usageNotes": [
+    "でさえ is common after human subjects.",
+    "The implication is always 'so everything else follows'.",
+    "〜さえ〜ば (if only) is a separate pattern; do not mix them."
+  ],
+  "jlptTips": [
+    "If the sentence gives an extreme case followed by a negative or surprising predicate, choose さえ / でさえ.",
+    "After a subject noun, でさえ is safest.",
+    "Distractors include こそ, まで, だけ. Ask: is X an extreme example (さえ) or the very one (こそ)?"
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-180-1",
+    "q-n2-g-180-2",
+    "q-n2-g-180-3",
+    "q-n2-g-180-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-180-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

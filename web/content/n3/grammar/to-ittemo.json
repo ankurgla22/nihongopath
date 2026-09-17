@@ -1,0 +1,120 @@
+{
+  "id": "n3-grammar-70",
+  "slug": "to-ittemo",
+  "level": "n3",
+  "order": 70,
+  "title": "〜と言っても / 〜といっても",
+  "romaji": "to ittemo",
+  "meaning": "Although I say… / even though it's called…",
+  "simpleExplanation": "〜といっても admits a label and then shrinks it: 日本語ができるといっても、簡単な会話だけです = I say I can speak Japanese, but it's only simple conversation. The first half sounds impressive; the second half brings it down to reality.",
+  "whenUsed": "Speech and writing, modesty and clarification. Sentence-initial とはいっても / といっても = \"that said\".",
+  "formation": [
+    "Plain form + といっても",
+    "Noun + といっても",
+    "Second clause: a downgrade (だけ / ほんの / 少し / 〜にすぎない)",
+    "Sentence-initial: とはいっても"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "旅行に行った",
+        "en": "I went on a trip (sounds big)"
+      },
+      {
+        "ja": "旅行といっても",
+        "en": "although I call it a trip… (label admitted)"
+      },
+      {
+        "ja": "旅行といっても、隣の町へ行っただけだ",
+        "en": "…I only went to the next town (reality downgraded)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本語ができるといっても、簡単な会話だけです。",
+      "reading": "にほんごができるといっても、かんたんなかいわだけです。",
+      "en": "Even though I say I can speak Japanese, it's only simple conversation.",
+      "note": "Skill admitted, then limited to simple conversation."
+    },
+    {
+      "ja": "旅行といっても、隣の町へ行っただけだ。",
+      "reading": "りょこうといっても、となりのまちへいっただけだ。",
+      "en": "It was a \"trip\", but I only went to the next town.",
+      "note": "Noun + といっても + だけだ."
+    },
+    {
+      "ja": "忙しいといっても、食事の時間ぐらいはある。",
+      "reading": "いそがしいといっても、しょくじのじかんぐらいはある。",
+      "en": "I'm busy, but I still have time to eat.",
+      "note": "Busy admitted, then a minimum kept (ぐらいはある)."
+    },
+    {
+      "ja": "料理ができるといっても、卵焼きぐらいしか作れません。",
+      "reading": "りょうりができるといっても、たまごやきぐらいしかつくれません。",
+      "en": "I say I can cook, but I can only make things like tamagoyaki.",
+      "note": "Downgrade with ぐらいしか."
+    },
+    {
+      "ja": "少し雪が降った。といっても、すぐに消えてしまう程度だ。",
+      "reading": "すこしゆきがふった。といっても、すぐにきえてしまうていどだ。",
+      "en": "It snowed a little. That said, only enough to melt right away.",
+      "note": "Sentence-initial といっても."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜といえば",
+      "difference": "Associates a topic; no downgrade.",
+      "id": "n3-grammar-69"
+    },
+    {
+      "pattern": "〜わけではない",
+      "difference": "Also a soft correction, but denies rather than shrinks.",
+      "id": "n3-grammar-4"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\": the reality exceeds or falls short of a label; といっても always shrinks.",
+      "id": "n3-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "旅行といっても、とても楽しかった。",
+      "right": "旅行といっても、隣の町へ行っただけだ。",
+      "why": "The second clause must reduce the first; a plain positive comment doesn't fit."
+    },
+    {
+      "wrong": "旅行といえば、隣の町へ行っただけだ。",
+      "right": "旅行といっても、隣の町へ行っただけだ。",
+      "why": "A downgrade needs といっても; といえば associates."
+    },
+    {
+      "wrong": "できるといってでも",
+      "right": "できるといっても",
+      "why": "The form is fixed as といっても."
+    }
+  ],
+  "usageNotes": [
+    "The second clause downgrades what the first implied. Sentence-initial とはいっても = \"that said\".",
+    "Modest self-introductions often use it: 日本語が話せるといっても、まだまだです."
+  ],
+  "jlptTips": [
+    "A big-sounding word + blank + だけ / ぐらい / ほんの = といっても.",
+    "といえば is the trap; check whether the second clause shrinks the first.",
+    "Sentence-initial とはいっても / といっても in essays introduces a qualification of the previous claim."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-70-1",
+    "q-n3-g-70-2",
+    "q-n3-g-70-3",
+    "q-n3-g-70-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-70-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

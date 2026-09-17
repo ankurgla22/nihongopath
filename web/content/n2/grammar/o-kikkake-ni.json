@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-168",
+  "slug": "o-kikkake-ni",
+  "level": "n2",
+  "order": 168,
+  "title": "〜をきっかけに / 〜をきっかけとして / 〜がきっかけで",
+  "romaji": "o kikkake ni / o kikkake to shite / ga kikkake de",
+  "meaning": "taking … as an opportunity; triggered by; … led to",
+  "simpleExplanation": "〜をきっかけに means \"X was the trigger for Y\": an event that started a change or a new activity. 留学をきっかけに日本文化に興味を持った. きっかけ is an everyday word for a starting point, so this pattern is personal and neutral. 〜がきっかけで puts the trigger as the subject.",
+  "whenUsed": "Both speech and writing, everyday register. Common in self-introductions and personal stories (〜がきっかけで日本語を始めました). The formal counterpart is 〜を契機に.",
+  "formation": [
+    "Noun + をきっかけに(して)",
+    "Noun + をきっかけとして (slightly formal)",
+    "Noun + がきっかけで + result",
+    "Verb (past) + の + をきっかけに (病気をしたのをきっかけに)",
+    "Question: 何がきっかけで〜？ (what got you started?)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "留学した。日本文化に興味を持った。",
+        "en": "I studied abroad. I became interested in Japanese culture."
+      },
+      {
+        "ja": "留学をきっかけに、日本文化に興味を持った。",
+        "en": "Studying abroad was the trigger for my interest in Japanese culture."
+      },
+      {
+        "ja": "留学がきっかけで、日本文化に興味を持った。",
+        "en": "same, with the trigger as subject"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "留学をきっかけに、日本文化に興味を持った。",
+      "reading": "りゅうがくをきっかけに、にほんぶんかにきょうみをもった。",
+      "en": "Studying abroad sparked my interest in Japanese culture.",
+      "note": "A personal turning point."
+    },
+    {
+      "ja": "病気をきっかけとして、生活習慣を見直した。",
+      "reading": "びょうきをきっかけとして、せいかつしゅうかんをみなおした。",
+      "en": "My illness led me to reconsider my lifestyle habits.",
+      "note": "をきっかけとして: slightly formal variant."
+    },
+    {
+      "ja": "友人の紹介がきっかけで、二人は結婚した。",
+      "reading": "ゆうじんのしょうかいがきっかけで、ふたりはけっこんした。",
+      "en": "An introduction by a friend led the two to marry.",
+      "note": "がきっかけで: the trigger as subject."
+    },
+    {
+      "ja": "友人に誘われたのをきっかけに、テニスを始めた。",
+      "reading": "ゆうじんにさそわれたのをきっかけに、テニスをはじめた。",
+      "en": "Being invited by a friend got me started on tennis.",
+      "note": "Verb clause + の + をきっかけに."
+    },
+    {
+      "ja": "何がきっかけで日本語の勉強を始めたんですか。",
+      "reading": "なにがきっかけでにほんごのべんきょうをはじめたんですか。",
+      "en": "What got you started on studying Japanese?",
+      "note": "A common interview question."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を契機に",
+      "difference": "Formal equivalent for major social or life events.",
+      "id": "n2-grammar-169"
+    },
+    {
+      "pattern": "〜を機に",
+      "difference": "Also formal: 'taking the opportunity of'."
+    },
+    {
+      "pattern": "〜によって",
+      "difference": "Cause or means; not a starting point of a new activity.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜以来",
+      "difference": "\"Since (then)\": marks the time, not the trigger."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "留学がきっかけに、興味を持った。",
+      "right": "留学をきっかけに、興味を持った。/ 留学がきっかけで、興味を持った。",
+      "why": "Match the particles: をきっかけに or がきっかけで."
+    },
+    {
+      "wrong": "病気をきっかけに、亡くなった。",
+      "right": "病気がもとで、亡くなった。",
+      "why": "きっかけ starts something new; a death is not a 'start'."
+    },
+    {
+      "wrong": "結婚をきっかけとして。(no main clause)",
+      "right": "結婚をきっかけとして、引っ越した。",
+      "why": "The main clause must state the change that started."
+    }
+  ],
+  "usageNotes": [
+    "Typical results: 〜を始めた, 興味を持った, 〜ようになった, 見直した.",
+    "がきっかけで is the most conversational.",
+    "きっかけ itself is a noun: 話のきっかけ (a conversation starter)."
+  ],
+  "jlptTips": [
+    "If the sentence describes an event that started a new activity or interest, choose をきっかけに / がきっかけで.",
+    "Check particle pairing: を〜に, が〜で.",
+    "Distractors include を契機に (formal), によって, に伴って. Register decides between きっかけ and 契機."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-168-1",
+    "q-n2-g-168-2",
+    "q-n2-g-168-3",
+    "q-n2-g-168-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-168-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

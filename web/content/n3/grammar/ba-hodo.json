@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-2",
+  "slug": "ba-hodo",
+  "level": "n3",
+  "order": 2,
+  "title": "〜ば〜ほど",
+  "romaji": "ba hodo",
+  "meaning": "The more…, the more…",
+  "simpleExplanation": "〜ば〜ほど links two things that grow together: \"the more you do X, the more Y happens\". The same word is repeated twice, first in the ば-form, then in the dictionary form, followed by ほど. 練習すればするほど = \"the more you practice…\".",
+  "whenUsed": "Both speech and writing. Very common in advice (安ければ安いほどいい), in describing skills (使えば使うほど慣れる), and in complaints (考えれば考えるほどわからない).",
+  "formation": [
+    "Verb: V-ば + V-dictionary + ほど (読めば読むほど)",
+    "い-adjective: 〜ければ + 〜い + ほど (安ければ安いほど)",
+    "な-adjective: 〜なら(ば) + 〜な + ほど (静かなら静かなほど)",
+    "Noun: N + なら + N + ほど (ベテランならベテランほど)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "練習する",
+        "en": "practice (dictionary form)"
+      },
+      {
+        "ja": "練習すれば",
+        "en": "if you practice (ば-form)"
+      },
+      {
+        "ja": "練習すればするほど",
+        "en": "the more you practice… (ば-form + dictionary form + ほど)"
+      },
+      {
+        "ja": "練習すればするほど上手になる",
+        "en": "…the better you get (main clause shows the growing result)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "練習すればするほど上手になる。",
+      "reading": "れんしゅうすればするほどじょうずになる。",
+      "en": "The more you practice, the better you get.",
+      "note": "Verb pattern: すれば + する + ほど. The result clause shows the growing change."
+    },
+    {
+      "ja": "安ければ安いほどいい。",
+      "reading": "やすければやすいほどいい。",
+      "en": "The cheaper, the better.",
+      "note": "い-adjective: 安ければ + 安い + ほど. いい at the end is the most common ending."
+    },
+    {
+      "ja": "日本語は勉強すればするほど難しく感じる。",
+      "reading": "にほんごはべんきょうすればするほどむずかしくかんじる。",
+      "en": "The more I study Japanese, the harder it feels.",
+      "note": "The result can be a feeling: 難しく感じる (feels harder)."
+    },
+    {
+      "ja": "この町は知れば知るほど好きになる。",
+      "reading": "このまちはしればしるほどすきになる。",
+      "en": "The more I get to know this town, the more I like it.",
+      "note": "知れば知るほど is a fixed, very natural combination."
+    },
+    {
+      "ja": "説明が簡単なら簡単なほど、みんなに伝わりやすい。",
+      "reading": "せつめいがかんたんならかんたんなほど、みんなにつたわりやすい。",
+      "en": "The simpler the explanation, the easier it is for everyone to understand.",
+      "note": "な-adjective: 簡単なら + 簡単な + ほど."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Also \"as X changes, Y changes\", but no repetition and no ば. Focuses on a gradual change over time rather than a proportion.",
+      "id": "n3-grammar-30"
+    },
+    {
+      "pattern": "〜とともに",
+      "difference": "Formal \"along with X, Y also\". Cannot express \"the cheaper the better\".",
+      "id": "n3-grammar-28"
+    },
+    {
+      "pattern": "〜ほど",
+      "difference": "Single ほど = \"to the extent that\". ば〜ほど doubles the word to show proportion.",
+      "id": "n3-grammar-48"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "練習すれば上手ほどなる。",
+      "right": "練習すればするほど上手になる。",
+      "why": "The same verb must be repeated: すれば + する + ほど. The result comes after ほど."
+    },
+    {
+      "wrong": "安いなら安いほどいい。",
+      "right": "安ければ安いほどいい。",
+      "why": "い-adjectives use the ければ form. なら is for な-adjectives and nouns."
+    },
+    {
+      "wrong": "静かなら静かほどいい。",
+      "right": "静かなら静かなほどいい。",
+      "why": "な-adjectives keep な before ほど, just as before a noun."
+    }
+  ],
+  "usageNotes": [
+    "The same verb/adjective is repeated. In casual speech the ば-clause is sometimes dropped: 多いほどいい. Compare 〜につれて (gradual change along with another change), which does not use repetition.",
+    "The ば-clause is sometimes shortened in speech: 早いほどいい (the sooner the better)."
+  ],
+  "jlptTips": [
+    "In 文法形式, the tell-tale sign is a repeated word: 〜すれば〜する〇〇. The blank is almost always ほど.",
+    "In 並べ替え, first join the pair V-ば + V-dictionary + ほど as one chunk, then place the result clause after it.",
+    "Watch the adjective type: 安ければ (い-adj) vs 静かなら (な-adj). A wrong ば-form is a typical trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-2-1",
+    "q-n3-g-2-2",
+    "q-n3-g-2-3",
+    "q-n3-g-2-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-2-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

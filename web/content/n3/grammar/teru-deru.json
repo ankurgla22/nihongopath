@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-126",
+  "slug": "teru-deru",
+  "level": "n3",
+  "order": 126,
+  "title": "〜てる / 〜でる (contraction of 〜ている)",
+  "romaji": "teru / deru",
+  "meaning": "is …ing / has …ed (casual contraction of 〜ている)",
+  "simpleExplanation": "In speech the い of 〜ている drops: 何してるの？ = 何をしているの？ \"what are you doing?\", 知ってる = 知っている \"I know\". The meaning is exactly that of ている: an action in progress or a resulting state. After で-type て-forms it is 〜でる: 読んでる, 飲んでる.",
+  "whenUsed": "Casual and everyday polite speech (〜てます is fine in friendly conversation), drama, listening tests. In formal writing keep the い: 〜ている / 〜ています.",
+  "formation": [
+    "〜ている → 〜てる; 〜でいる → 〜でる",
+    "Past: 〜てた / 〜でた; Negative: 〜てない / 〜でない",
+    "Polite: 〜てます / 〜でます",
+    "Other spoken contractions: 〜ていく → 〜てく, 〜ては → 〜ちゃ, 〜れば → 〜りゃ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three spoken contractions",
+    "columns": [
+      "From",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜てる",
+        "cells": [
+          "〜ている",
+          "in progress / state",
+          "今、食べてる (I'm eating now)"
+        ]
+      },
+      {
+        "label": "〜とく",
+        "cells": [
+          "〜ておく",
+          "in advance / leave as is",
+          "後で食べるから取っとく (I'll save it)"
+        ]
+      },
+      {
+        "label": "〜ちゃう",
+        "cells": [
+          "〜てしまう",
+          "regret / completion",
+          "全部食べちゃった (I ate it all)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今、何してるの？",
+      "reading": "いま、なにしてるの？",
+      "en": "What are you doing now?",
+      "note": "Progress: what are you doing?"
+    },
+    {
+      "ja": "彼のこと、知ってる？",
+      "reading": "かれのこと、しってる？",
+      "en": "Do you know him?",
+      "note": "State: do you know him?"
+    },
+    {
+      "ja": "雨、まだ降ってる？",
+      "reading": "あめ、まだふってる？",
+      "en": "Is it still raining?",
+      "note": "Progress: still raining?"
+    },
+    {
+      "ja": "昨日の夜、何してた？",
+      "reading": "きのうのよる、なにしてた？",
+      "en": "What were you doing last night?",
+      "note": "Past: していた → してた."
+    },
+    {
+      "ja": "まだ宿題、終わってないの？",
+      "reading": "まだしゅくだい、おわってないの？",
+      "en": "You still haven't finished your homework?",
+      "note": "Negative: 終わっていない → 終わってない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ている",
+      "difference": "The full form; required in writing."
+    },
+    {
+      "pattern": "〜とく",
+      "difference": "From ておく; means 'in advance'.",
+      "id": "n3-grammar-125"
+    },
+    {
+      "pattern": "〜ちゃう",
+      "difference": "From てしまう; means 'end up / completely'.",
+      "id": "n3-grammar-124"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "作文で「私は東京に住んでます」",
+      "right": "私は東京に住んでいます。",
+      "why": "Written Japanese keeps the い."
+    },
+    {
+      "wrong": "知ってる → translated as 'I will know'",
+      "right": "'I know' (state)",
+      "why": "知っている is a resulting state, and the contraction keeps that meaning."
+    },
+    {
+      "wrong": "食べてる and 食べとく treated as the same",
+      "right": "食べてる = eating now; 食べとく = eat in advance",
+      "why": "Different source forms (ている vs ておく) give different meanings."
+    }
+  ],
+  "usageNotes": [
+    "〜てく (from ていく) and 〜てって (from ていって) also appear: 持ってって 'take it with you'.",
+    "〜ちゃ (from ては) shows up in prohibitions: 食べちゃだめ.",
+    "〜りゃ (from れば): 行きゃいい 'you just have to go' is very casual."
+  ],
+  "jlptTips": [
+    "In 聴解, mentally restore the い: してる → している, before deciding the meaning.",
+    "If the choices mix てる / とく / ちゃう, map each back to its full form first.",
+    "Written-register questions (letters, reports) never want the contraction."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-126-1",
+    "q-n3-g-126-2",
+    "q-n3-g-126-3",
+    "q-n3-g-126-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-126-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

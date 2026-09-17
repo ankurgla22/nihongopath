@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-145",
+  "slug": "beki-da",
+  "level": "n2",
+  "order": 145,
+  "title": "〜べき / 〜べきだ / 〜べきではない",
+  "romaji": "beki / beki da / beki dewa nai",
+  "meaning": "should, ought to (as a matter of principle or common sense)",
+  "simpleExplanation": "〜べきだ means \"should\" as a matter of principle, duty, or common sense: 約束は守るべきだ. It states what is right, not what is legally required. べきではない means \"should not\". べきだった / べきではなかった express regret about the past. する becomes すべき or するべき.",
+  "whenUsed": "Both speech and writing, but it sounds firm; addressed to a listener directly it can be preachy. Common in essays and opinions. Softer alternatives: 〜たほうがいい (advice), 〜なければならない (obligation).",
+  "formation": [
+    "Verb (dictionary form) + べきだ / べきではない",
+    "する → すべき / するべき",
+    "Noun-modifying: Verb + べき + Noun (すべきこと)",
+    "Past regret: 〜べきだった / 〜べきではなかった",
+    "Polite: 〜べきです / 〜べきではありません"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How strong is the 'should'?",
+    "items": [
+      {
+        "label": "〜たほうがいい",
+        "description": "advice: it would be better to"
+      },
+      {
+        "label": "〜ことだ",
+        "description": "advice to a specific person: the thing to do is"
+      },
+      {
+        "label": "〜べきだ",
+        "description": "principle or duty: one ought to"
+      },
+      {
+        "label": "〜なければならない",
+        "description": "obligation: must (rules, necessity)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "約束は守るべきだ。",
+      "reading": "やくそくはまもるべきだ。",
+      "en": "Promises should be kept.",
+      "note": "A general principle: promises ought to be kept."
+    },
+    {
+      "ja": "人の悪口を言うべきではない。",
+      "reading": "ひとのわるくちをいうべきではない。",
+      "en": "One should not speak ill of others.",
+      "note": "べきではない: what one ought not to do."
+    },
+    {
+      "ja": "学生時代にすべきことはたくさんある。",
+      "reading": "がくせいじだいにすべきことはたくさんある。",
+      "en": "There are many things one should do during student days.",
+      "note": "すべき + noun: things one should do."
+    },
+    {
+      "ja": "あの時、彼の忠告を聞くべきだった。",
+      "reading": "あのとき、かれのちゅうこくをきくべきだった。",
+      "en": "I should have listened to his advice back then.",
+      "note": "べきだった expresses regret about the past."
+    },
+    {
+      "ja": "学生は勉強に集中すべきだと父は言う。",
+      "reading": "がくせいはべんきょうにしゅうちゅうすべきだとちちはいう。",
+      "en": "My father says students should concentrate on studying.",
+      "note": "すべき (short form of するべき) in reported opinion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なければならない",
+      "difference": "Obligation from rules or necessity; not a judgment of what is right."
+    },
+    {
+      "pattern": "〜たほうがいい",
+      "difference": "Personal advice; softer and non-judgmental."
+    },
+    {
+      "pattern": "〜ことだ",
+      "difference": "Direct advice to a specific listener; casual.",
+      "id": "n2-grammar-196"
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "General norms and common sense (\"that is how things are\"); less directive.",
+      "id": "n2-grammar-156"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この薬は一日三回飲むべきだ。(doctor's instruction)",
+      "right": "この薬は一日三回飲まなければならない。",
+      "why": "Fixed rules and instructions use なければならない; べきだ is a judgment of what is right."
+    },
+    {
+      "wrong": "行かないべきだ。",
+      "right": "行くべきではない。",
+      "why": "The negative is べきではない, not ないべきだ."
+    },
+    {
+      "wrong": "食べるべきだった (meaning 'was going to eat')",
+      "right": "食べるつもりだった",
+      "why": "べきだった expresses regret, not a past plan."
+    }
+  ],
+  "usageNotes": [
+    "すべき is the compact literary form; するべき is also correct.",
+    "Kanji form 可き is rare; kana is standard.",
+    "In job hunting, 〜すべきこと (what should be done) is a common heading."
+  ],
+  "jlptTips": [
+    "If the sentence gives a principle or moral judgment, choose べきだ; if it is a rule or requirement, choose なければならない.",
+    "The negative べきではない and the regret form べきだった are frequently tested.",
+    "In 並べ替え, べき + こと / べきだ sits at the end after the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-145-1",
+    "q-n2-g-145-2",
+    "q-n2-g-145-3",
+    "q-n2-g-145-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-145-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-22",
+  "slug": "ni-taishite-ni-taisuru",
+  "level": "n3",
+  "order": 22,
+  "title": "〜に対して / 〜に対する",
+  "romaji": "ni taishite ni taisuru",
+  "meaning": "Toward… / to… / in contrast to…",
+  "simpleExplanation": "〜に対して points an action or attitude at a target: 学生に対して優しい = kind toward the students. It also contrasts two things: 兄が静かなのに対して、弟はにぎやかだ = whereas my brother is quiet, my younger brother is lively. In both cases, the noun before に対して is what the rest of the sentence is aimed at or compared with.",
+  "whenUsed": "Formal speech and writing: attitudes (態度, 意見, 批判), reactions (反対する, 抗議する), and contrasts in essays. Before a noun use に対する / に対しての.",
+  "formation": [
+    "Noun + に対して",
+    "Noun + に対する + Noun / Noun + に対しての + Noun",
+    "Clause (plain) + の + に対して (contrast)",
+    "な-adjective + な + のに対して"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "に対して / について / にとって",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜に対して",
+        "cells": [
+          "toward (target of attitude/action)",
+          "学生に対して優しい"
+        ]
+      },
+      {
+        "label": "〜について",
+        "cells": [
+          "about (content of talk/thought)",
+          "学生について話す"
+        ]
+      },
+      {
+        "label": "〜にとって",
+        "cells": [
+          "for (from the viewpoint of)",
+          "学生にとって大切だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "先生は学生に対して、いつも優しい。",
+      "reading": "せんせいはがくせいにたいして、いつもやさしい。",
+      "en": "The teacher is always kind toward the students.",
+      "note": "Target of an attitude: kind toward students."
+    },
+    {
+      "ja": "兄が静かなのに対して、弟はとてもにぎやかだ。",
+      "reading": "あにがしずかなのにたいして、おとうとはとてもにぎやかだ。",
+      "en": "Whereas my older brother is quiet, my younger brother is very lively.",
+      "note": "Contrast: 〜のに対して compares two people."
+    },
+    {
+      "ja": "お客様に対する態度に気をつけてください。",
+      "reading": "おきゃくさまにたいするたいどにきをつけてください。",
+      "en": "Please be careful about your attitude toward customers.",
+      "note": "に対する + noun: attitude toward customers."
+    },
+    {
+      "ja": "彼は私の質問に対して、何も答えなかった。",
+      "reading": "かれはわたしのしつもんにたいして、なにもこたえなかった。",
+      "en": "He didn't answer my question at all.",
+      "note": "The question is the target of the (non-)response."
+    },
+    {
+      "ja": "都市の人口が増えているのに対して、地方では減り続けている。",
+      "reading": "としのじんこうがふえているのにたいして、ちほうではへりつづけている。",
+      "en": "While the population of cities is growing, in rural areas it keeps falling.",
+      "note": "Contrast use, typical of essays."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜について",
+      "difference": "About: the topic or content. に対して is the target of an attitude or action.",
+      "id": "n3-grammar-23"
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "For: the viewpoint from which something is judged.",
+      "id": "n3-grammar-24"
+    },
+    {
+      "pattern": "〜一方(で) / 〜反面",
+      "difference": "Other contrast patterns; 〜のに対して is the sharpest \"whereas\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本の歴史に対して調べている。",
+      "right": "日本の歴史について調べている。",
+      "why": "Research or talk is \"about\" a topic (について). に対して needs an attitude or action aimed at someone/something."
+    },
+    {
+      "wrong": "お客様に対して態度",
+      "right": "お客様に対する態度",
+      "why": "Before a noun, use に対する (or に対しての)."
+    },
+    {
+      "wrong": "私に対して、家族が一番大切だ。",
+      "right": "私にとって、家族が一番大切だ。",
+      "why": "A viewpoint for a judgement is にとって, not に対して."
+    }
+  ],
+  "usageNotes": [
+    "Contrast with 〜について (topic/content) and 〜にとって (viewpoint). For contrast sense, compare 〜一方で / 〜反面.",
+    "Verbs that go naturally with に対して: 反対する, 抗議する, 怒る, 謝る, 質問する, 親切にする."
+  ],
+  "jlptTips": [
+    "If the following word is an attitude or reaction (態度, 親切, 反対, 批判), choose に対して. If it is 話す / 調べる / 考える, choose について.",
+    "For the contrast use, look for two subjects with opposite descriptions and 〜のに対して after a clause.",
+    "Before a noun the form is に対する; options with に対して directly before a noun are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-22-1",
+    "q-n3-g-22-2",
+    "q-n3-g-22-3",
+    "q-n3-g-22-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-22-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

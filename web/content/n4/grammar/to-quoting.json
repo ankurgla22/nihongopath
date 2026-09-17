@@ -1,0 +1,127 @@
+{
+  "id": "n4-grammar-111",
+  "slug": "to-quoting",
+  "level": "n4",
+  "order": 111,
+  "title": "〜と (quoting content: と思う / と聞く / と書いてある / と読む)",
+  "romaji": "to (in'you)",
+  "meaning": "と marks the content of thoughts, speech, writing, hearing, or naming.",
+  "simpleExplanation": "The particle と marks the content of what someone thinks, says, hears, writes or reads: 来ないと思う (I think he won't come), 「立入禁止」と書いてある (it says \"No entry\"), 「はる」と読む (it is read \"haru\"). Think of と as the closing quotation mark. The clause before と is in the plain form even when the sentence is polite: 行くと思います, not 行きますと思います. Nouns keep だ before と思う (学生だと思う).",
+  "whenUsed": "Giving opinions (〜と思う), reporting speech (〜と言う), hearsay (〜と聞く), reading signs and messages (〜と書いてある), explaining readings and names (〜と読む / 〜と言う / 〜と呼ぶ), and passing on messages. Used everywhere and constantly.",
+  "formation": [
+    "Plain clause + と + 思う／言う／聞く／書く／伝える／答える",
+    "N + と + 書いてある／読む／言う／呼ぶ: 「駅」と書いてある",
+    "Nouns and な-adjectives keep だ before と思う: 便利だと思う",
+    "Quotation marks 「 」 optional for direct quotes: 「ありがとう」と言った"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "看板に",
+        "role": "place / source (に)"
+      },
+      {
+        "text": "「立入禁止」",
+        "role": "quoted content",
+        "highlight": true
+      },
+      {
+        "text": "と",
+        "role": "quotation particle",
+        "highlight": true
+      },
+      {
+        "text": "書いてある。",
+        "role": "verb of saying / writing / thinking"
+      }
+    ],
+    "translation": "The sign says \"No entry\"."
+  },
+  "examples": [
+    {
+      "ja": "看板に「立入禁止」と書いてある。",
+      "reading": "かんばんに「たちいりきんし」と かいてある。",
+      "en": "The sign says \"No entry\".",
+      "note": "Written content + と書いてある."
+    },
+    {
+      "ja": "彼は来ないと聞きました。",
+      "reading": "かれは こないと ききました。",
+      "en": "I heard that he isn't coming.",
+      "note": "Hearsay: plain clause + と聞きました."
+    },
+    {
+      "ja": "この漢字は「はる」と読みます。",
+      "reading": "この かんじは「はる」と よみます。",
+      "en": "This kanji is read \"haru\".",
+      "note": "Reading of a word: 「〜」と読む."
+    },
+    {
+      "ja": "この魚は日本語で何と言いますか。",
+      "reading": "この さかなは にほんごで なんと いいますか。",
+      "en": "What is this fish called in Japanese?",
+      "note": "何と言う = \"what is it called\"; と marks the name."
+    },
+    {
+      "ja": "天気予報では、明日は雪だと言っていました。",
+      "reading": "てんきよほうでは、あしたは ゆきだと いっていました。",
+      "en": "The weather forecast said it will snow tomorrow.",
+      "note": "Noun + だ + と before 言う."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜という",
+      "difference": "N + という + N names or explains something (田中という人). Plain と marks content before a verb of saying or thinking.",
+      "id": "n4-grammar-52"
+    },
+    {
+      "pattern": "〜と言っていました",
+      "difference": "A specific use of quoting と for reporting what someone said.",
+      "id": "n4-grammar-55"
+    },
+    {
+      "pattern": "〜ように言う",
+      "difference": "ように replaces と when the content is an instruction (帰るように言った). と reports statements.",
+      "id": "n4-grammar-89"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日は雨が降りますと思います。",
+      "right": "明日は雨が降ると思います。",
+      "why": "The clause before と思う is in the plain form."
+    },
+    {
+      "wrong": "彼は学生と思います。",
+      "right": "彼は学生だと思います。",
+      "why": "Nouns and な-adjectives need だ before と思う (unless quoting exact words)."
+    },
+    {
+      "wrong": "看板に「駐車禁止」を書いてある。",
+      "right": "看板に「駐車禁止」と書いてある。",
+      "why": "Quoted content takes と, not を."
+    }
+  ],
+  "usageNotes": [
+    "と思う is only for the speaker's own opinion in the present tense; for others use と思っている.",
+    "In casual speech と becomes って: 来ないって聞いた, 「駅」って書いてある (lesson 86).",
+    "Verbs that take と: 思う, 言う, 聞く, 書く, 読む, 呼ぶ, 伝える, 答える, 考える, 信じる."
+  ],
+  "jlptTips": [
+    "If the blank precedes 思います, 言いました, 聞きました or 書いてあります, it is と and the preceding clause must be plain. Reject ます-forms before と.",
+    "After a noun, check for だ: 学生だと思う is correct; 学生と思う is a common distractor."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-111-1",
+    "q-n4-g-111-2",
+    "q-n4-g-111-3",
+    "q-n4-g-111-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-111-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

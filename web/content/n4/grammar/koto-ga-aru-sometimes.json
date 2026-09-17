@@ -1,0 +1,137 @@
+{
+  "id": "n4-grammar-27",
+  "slug": "koto-ga-aru-sometimes",
+  "level": "n4",
+  "order": 27,
+  "title": "〜ことがある (V-dict) \"there are times when / sometimes\"",
+  "romaji": "koto ga aru (tokidoki)",
+  "meaning": "Something happens occasionally.",
+  "simpleExplanation": "Dictionary form + ことがある means \"there are times when\" or \"sometimes\": 朝ご飯を食べないことがある = sometimes I skip breakfast. It describes something that happens now and then, not regularly. Do not confuse it with た-form + ことがある (lesson 26), which means \"have experienced\". The form of the verb before こと tells you which meaning you have.",
+  "whenUsed": "Talking about occasional habits (週末は一人で映画を見に行くことがある), warnings about things that occasionally go wrong (このバスは遅れることがあります), and product notices (色が変わることがあります). Often with 時々 or たまに.",
+  "formation": [
+    "V-dictionary + ことがある: 遅れることがある, 行くことがある",
+    "V-ない + ことがある: 食べないことがある",
+    "Polite: 〜ことがあります",
+    "Frequency words: 時々, たまに (not 毎日 or いつも)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ことがある: dictionary form vs た-form",
+    "columns": [
+      "Meaning",
+      "Typical words",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-る + ことがある",
+        "cells": [
+          "sometimes happens",
+          "時々, たまに",
+          "遅れることがある (is sometimes late)"
+        ]
+      },
+      {
+        "label": "V-ない + ことがある",
+        "cells": [
+          "sometimes does not happen",
+          "時々, たまに",
+          "食べないことがある (sometimes skip it)"
+        ]
+      },
+      {
+        "label": "V-た + ことがある",
+        "cells": [
+          "have experienced",
+          "一度, 前に, 今までに",
+          "遅れたことがある (has been late before)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "時々、朝ご飯を食べないことがある。",
+      "reading": "ときどき、あさごはんを たべないことが ある。",
+      "en": "Sometimes I skip breakfast.",
+      "note": "ない-form + ことがある with 時々: occasionally does not happen."
+    },
+    {
+      "ja": "このバスは遅れることがあります。",
+      "reading": "この バスは おくれることが あります。",
+      "en": "This bus is sometimes late.",
+      "note": "A warning about occasional lateness: dictionary form + ことがある."
+    },
+    {
+      "ja": "週末は一人で映画を見に行くことがある。",
+      "reading": "しゅうまつは ひとりで えいがを みに いくことが ある。",
+      "en": "On weekends I sometimes go to see a movie alone.",
+      "note": "An occasional weekend habit."
+    },
+    {
+      "ja": "父は仕事が忙しいと、家に帰らないことがあります。",
+      "reading": "ちちは しごとが いそがしいと、いえに かえらないことが あります。",
+      "en": "When work is busy, my father sometimes doesn't come home.",
+      "note": "ない + ことがある: an occasional negative event."
+    },
+    {
+      "ja": "この辺りは、冬に雪が降ることがある。",
+      "reading": "この あたりは、ふゆに ゆきが ふることが ある。",
+      "en": "Around here it sometimes snows in winter.",
+      "note": "Dictionary form + ことがある for something that occasionally happens."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たことがある",
+      "difference": "た-form + ことがある is experience (\"have done\"). The dictionary form gives \"sometimes\".",
+      "id": "n4-grammar-26"
+    },
+    {
+      "pattern": "時々 / たまに",
+      "difference": "These adverbs alone also say \"sometimes\". ことがある adds the feeling that it happens only occasionally and perhaps unexpectedly."
+    },
+    {
+      "pattern": "〜かもしれない",
+      "difference": "かもしれない is a guess about one case (\"it might be late\"). ことがある states that it happens now and then as a fact.",
+      "id": "n4-grammar-40"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎日、遅れることがあります。",
+      "right": "毎日、遅れます。/ 時々、遅れることがあります。",
+      "why": "ことがある means occasionally, so it clashes with 毎日 or いつも."
+    },
+    {
+      "wrong": "日本へ行くことがありますか。(meaning 'Have you ever been?')",
+      "right": "日本へ行ったことがありますか。",
+      "why": "The dictionary form asks \"do you sometimes go?\". For experience use the た-form."
+    },
+    {
+      "wrong": "遅れることがあった。(as a general statement)",
+      "right": "遅れることがある。",
+      "why": "Occasional events are stated in the present. The past form is only for describing a past period."
+    }
+  ],
+  "usageNotes": [
+    "Notices and manuals use ことがあります to warn about possibilities: 商品の色が写真と違うことがあります.",
+    "For habits that happen often, use よく + verb instead of ことがある.",
+    "The negative pattern 〜ないことがある is more common than 〜ないこともある; both mean \"sometimes not\"."
+  ],
+  "jlptTips": [
+    "Look for 時々 / たまに and a present-tense sentence: choose the dictionary form + ことがある. If you see 一度 / 前に / 今までに, it is the experience pattern with the た-form.",
+    "Distractors often swap the verb form before こと. The meaning of the sentence (a general habit vs a life experience) decides which is right."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-27-1",
+    "q-n4-g-27-2",
+    "q-n4-g-27-3",
+    "q-n4-g-27-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-27-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

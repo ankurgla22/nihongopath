@@ -1,0 +1,127 @@
+{
+  "id": "n2-grammar-102",
+  "slug": "nimo-kakawarazu",
+  "level": "n2",
+  "order": 102,
+  "title": "〜にもかかわらず",
+  "romaji": "nimo kakawarazu",
+  "meaning": "despite, in spite of, even though",
+  "simpleExplanation": "〜にもかかわらず means \"despite X\": X is a real fact that would normally lead to one outcome, but the opposite happened. It is the formal, written cousin of のに, and it usually carries surprise, admiration, or disappointment. Unlike のに, it can start a sentence on its own (それにもかかわらず).",
+  "whenUsed": "News reports, essays, business writing, and formal speeches (努力にもかかわらず / 悪天候にもかかわらず). In everyday conversation people say のに or けど instead. Often used to praise someone who came despite difficulty: お忙しいにもかかわらず、ありがとうございます.",
+  "formation": [
+    "Noun + にもかかわらず",
+    "Verb / い-adjective (plain form) + にもかかわらず",
+    "な-adjective + である + にもかかわらず (便利であるにもかかわらず)",
+    "Noun + である + にもかかわらず (also 〜であったにもかかわらず)",
+    "Sentence-initial: それにもかかわらず / にもかかわらず、〜"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "雨",
+        "role": "fact (cause expected to stop people)"
+      },
+      {
+        "text": "にもかかわらず",
+        "role": "despite",
+        "highlight": true
+      },
+      {
+        "text": "、多くの人が集まった",
+        "role": "unexpected result"
+      }
+    ],
+    "translation": "Despite the rain, many people gathered."
+  },
+  "examples": [
+    {
+      "ja": "雨にもかかわらず、多くの人が集まった。",
+      "reading": "あめにもかかわらず、おおくのひとがあつまった。",
+      "en": "Despite the rain, many people gathered.",
+      "note": "Rain normally keeps people away, so the crowd is unexpected: the classic contrast."
+    },
+    {
+      "ja": "努力したにもかかわらず、結果は出なかった。",
+      "reading": "どりょくしたにもかかわらず、けっかはでなかった。",
+      "en": "Despite my efforts, no results came.",
+      "note": "Effort should bring results; it did not. にもかかわらず expresses the speaker's disappointment."
+    },
+    {
+      "ja": "忙しいにもかかわらず、来てくれてありがとう。",
+      "reading": "いそがしいにもかかわらず、きてくれてありがとう。",
+      "en": "Thank you for coming even though you're busy.",
+      "note": "Polite thanks: acknowledging that the listener came despite being busy."
+    },
+    {
+      "ja": "警告があったにもかかわらず、彼は山に登った。",
+      "reading": "けいこくがあったにもかかわらず、かれはやまにのぼった。",
+      "en": "Even though there was a warning, he climbed the mountain.",
+      "note": "Plain past verb + にもかかわらず; the outcome is criticized."
+    },
+    {
+      "ja": "新製品は高価であるにもかかわらず、よく売れている。",
+      "reading": "しんせいひんはこうかであるにもかかわらず、よくうれている。",
+      "en": "Although the new product is expensive, it is selling well.",
+      "note": "な-adjective takes である before にもかかわらず in careful writing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のに",
+      "difference": "Same logic, but colloquial and more emotional; のに cannot start a sentence and cannot follow a bare noun (雨なのに, not 雨のに)."
+    },
+    {
+      "pattern": "〜にかかわらず",
+      "difference": "Without も, the meaning flips to \"regardless of (any X)\". Never interchangeable.",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜ながら(も) / 〜つつも",
+      "difference": "Also concessive, but they attach to verb stems and describe the same subject doing two contradictory things."
+    },
+    {
+      "pattern": "〜ものの",
+      "difference": "Concession that leaves the matter unresolved; softer and less surprised than にもかかわらず.",
+      "id": "n2-grammar-159"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨にもかかわらずのに、来てくれた。",
+      "right": "雨にもかかわらず、来てくれた。",
+      "why": "にもかかわらず already means \"although\"; do not stack のに on top of it."
+    },
+    {
+      "wrong": "便利なにもかかわらず、誰も使わない。",
+      "right": "便利であるにもかかわらず、誰も使わない。",
+      "why": "な-adjectives and nouns take である (or nothing after a noun) before にもかかわらず, not な."
+    },
+    {
+      "wrong": "年齢にもかかわらず、誰でも参加できる。",
+      "right": "年齢にかかわらず、誰でも参加できる。",
+      "why": "\"Anyone can join\" is a rule that ignores a variable, so it needs にかかわらず without も."
+    }
+  ],
+  "usageNotes": [
+    "Register: 書き言葉 and formal speech. In casual talk, のに / けど sound natural; にもかかわらず can sound stiff.",
+    "The second clause is usually a fact, not a request or wish (〜てください / 〜たい are odd after にもかかわらず).",
+    "それにもかかわらず at the start of a sentence links two whole sentences in essays and news."
+  ],
+  "jlptTips": [
+    "The classic trap is にかかわらず versus にもかかわらず. Check whether the first part is a specific fact (も) or a variable (no も).",
+    "Typical distractors: のに (wrong when a noun precedes directly), ながら, ものの. If the first clause is a noun like 悪天候 and the register is formal, にもかかわらず is the answer.",
+    "In 並べ替え, the chunk である + にもかかわらず is often split; rejoin them first."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-102-1",
+    "q-n2-g-102-2",
+    "q-n2-g-102-3",
+    "q-n2-g-102-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-102-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

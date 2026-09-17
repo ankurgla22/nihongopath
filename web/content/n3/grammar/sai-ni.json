@@ -1,0 +1,123 @@
+{
+  "id": "n3-grammar-107",
+  "slug": "sai-ni",
+  "level": "n3",
+  "order": 107,
+  "title": "〜際(に) / 〜さいに",
+  "romaji": "sai (ni)",
+  "meaning": "when… / on the occasion of… (formal)",
+  "simpleExplanation": "〜際(に) is a formal way to say \"when\" or \"on the occasion of\": お帰りの際は \"when leaving\", 申し込む際に \"when applying\". It is the word you hear in announcements, see on forms, and read in business emails. In casual conversation people simply say 〜とき.",
+  "whenUsed": "Announcements, notices, official instructions, business letters, and polite explanations. Not used for trivial daily actions (×ご飯を食べる際).",
+  "formation": [
+    "Verb (dictionary form / た-form) + 際(に)",
+    "Noun + の + 際(に)",
+    "Set forms: 〜の際は / 〜する際には / この際 (this occasion)",
+    "Honorific: お〜の際 (お帰りの際, ご利用の際)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Formality of 'when'",
+    "items": [
+      {
+        "label": "〜とき",
+        "description": "Neutral; everyday use."
+      },
+      {
+        "label": "〜場合",
+        "description": "'In the case that'; hypothetical or conditional."
+      },
+      {
+        "label": "〜際(に)",
+        "description": "Formal 'on the occasion of'; announcements and business."
+      },
+      {
+        "label": "〜に際して (N2)",
+        "description": "Very formal; ceremonies and official documents."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お帰りの際は、忘れ物にご注意ください。",
+      "reading": "おかえりのさいは、わすれものにごちゅういください。",
+      "en": "When leaving, please be careful not to forget anything.",
+      "note": "Announcement style: お〜の際は."
+    },
+    {
+      "ja": "申し込む際に、身分証明書が必要です。",
+      "reading": "もうしこむさいに、みぶんしょうめいしょがひつようです。",
+      "en": "When applying, you need identification.",
+      "note": "Instruction on a form: 申し込む際に."
+    },
+    {
+      "ja": "日本を訪れた際に、京都にも行った。",
+      "reading": "にほんをおとずれたさいに、きょうとにもいった。",
+      "en": "When I visited Japan, I also went to Kyoto.",
+      "note": "Past event: 訪れた際に."
+    },
+    {
+      "ja": "ご利用の際は、会員カードをご提示ください。",
+      "reading": "ごりようのさいは、かいいんカードをごていじください。",
+      "en": "When using the service, please show your membership card.",
+      "note": "ご + noun + の際は: typical notice."
+    },
+    {
+      "ja": "契約する際には、内容をよく確認してください。",
+      "reading": "けいやくするさいには、ないようをよくかくにんしてください。",
+      "en": "When signing a contract, please check the contents carefully.",
+      "note": "する verb + 際には."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とき",
+      "difference": "Everyday equivalent; 際 is formal and limited to notable occasions."
+    },
+    {
+      "pattern": "〜場合",
+      "difference": "'In case of' — describes a possible situation rather than an occasion (雨の場合)."
+    },
+    {
+      "pattern": "〜に当たって / 〜に際して",
+      "difference": "Even more formal, for the start of an important undertaking (N2)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "朝ご飯を食べる際に、テレビを見る。",
+      "right": "朝ご飯を食べるとき、テレビを見る。",
+      "why": "際 is for formal or notable occasions, not routine daily actions."
+    },
+    {
+      "wrong": "お帰り際は",
+      "right": "お帰りの際は",
+      "why": "Nouns need の before 際. (帰り際 without の is a different word meaning 'just as one is leaving'.)"
+    },
+    {
+      "wrong": "困った際にに",
+      "right": "困った際に(は)",
+      "why": "際に already contains に; do not double it."
+    }
+  ],
+  "usageNotes": [
+    "この際 means 'on this occasion / while we're at it' (この際、はっきり言おう).",
+    "際 can be followed by は, に, には, or nothing.",
+    "Announcements often pair it with honorific verbs: お越しの際は, ご来店の際は."
+  ],
+  "jlptTips": [
+    "A formal notice or business sentence with a blank meaning 'when' → 際.",
+    "If the choices include とき and 際 and the register is polite/formal, choose 際.",
+    "Look for の after a noun before 際; 際 directly after a noun is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-107-1",
+    "q-n3-g-107-2",
+    "q-n3-g-107-3",
+    "q-n3-g-107-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-107-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

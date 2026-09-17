@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-78",
+  "slug": "hazu-ga-nai",
+  "level": "n3",
+  "order": 78,
+  "title": "〜はずがない / 〜はずはない",
+  "romaji": "hazu ga nai / hazu wa nai",
+  "meaning": "it can't be that… / there's no way… (strong denial based on reasoning)",
+  "simpleExplanation": "〜はずがない says \"logically, that is impossible\". You have evidence or good reasons, so you reject the idea completely: \"That shop can't be closed — today is a weekday.\" It is the strong negative partner of 〜はずだ (\"should be / must be\").",
+  "whenUsed": "Both speech and writing, whenever you flatly reject something on the basis of what you know. Polite: 〜はずがありません. With は instead of が (はずはない) the denial is a little more contrastive, as if answering someone.",
+  "formation": [
+    "Verb (plain form) + はずがない",
+    "い-adjective + はずがない",
+    "な-adjective + な + はずがない",
+    "Noun + の + はずがない",
+    "Polite: 〜はずがありません / Variant: 〜はずはない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three kinds of 'no way'",
+    "columns": [
+      "Basis",
+      "Feel"
+    ],
+    "rows": [
+      {
+        "label": "〜はずがない",
+        "cells": [
+          "Reasoning from evidence",
+          "Cool, logical: 'it can't be'"
+        ]
+      },
+      {
+        "label": "〜わけがない",
+        "cells": [
+          "Common sense / emotion",
+          "Emotional: 'no way!'"
+        ]
+      },
+      {
+        "label": "〜ないはずだ",
+        "cells": [
+          "Expectation",
+          "Weaker: 'I expect it isn't'"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼がそんなことを言うはずがない。",
+      "reading": "かれがそんなことをいうはずがない。",
+      "en": "There's no way he would say such a thing.",
+      "note": "Based on knowing his character."
+    },
+    {
+      "ja": "こんなに簡単な問題が解けないはずはない。",
+      "reading": "こんなにかんたんなもんだいがとけないはずはない。",
+      "en": "It can't be that you can't solve such an easy problem.",
+      "note": "はずはない variant; the reasoning is 'the problem is easy'."
+    },
+    {
+      "ja": "あの店が休みのはずがない。今日は平日だ。",
+      "reading": "あのみせがやすみのはずがない。きょうはへいじつだ。",
+      "en": "That shop can't be closed; today is a weekday.",
+      "note": "Noun + の + はずがない, with the evidence stated in the next sentence."
+    },
+    {
+      "ja": "この値段で本物のはずがない。",
+      "reading": "このねだんでほんもののはずがない。",
+      "en": "At this price, there's no way it's genuine.",
+      "note": "Noun + の + はずがない; the price is the evidence."
+    },
+    {
+      "ja": "あんなに練習したのだから、失敗するはずがありません。",
+      "reading": "あんなにれんしゅうしたのだから、しっぱいするはずがありません。",
+      "en": "After practising that much, there's no way you will fail.",
+      "note": "Polite form. のだから gives the reason."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけがない",
+      "difference": "Nearly the same, but more emotional and based on common sense rather than specific evidence.",
+      "id": "n3-grammar-5"
+    },
+    {
+      "pattern": "〜ないはずだ",
+      "difference": "Weaker: 'I expect it is not…'. はずがない is a flat rejection."
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "The positive counterpart: 'it should be / must be'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "あの店が休みはずがない。",
+      "right": "あの店が休みのはずがない。",
+      "why": "Nouns need の before はず."
+    },
+    {
+      "wrong": "彼が来ないはずがない。→ meaning 'I expect he won't come'",
+      "right": "彼は来ないはずだ。",
+      "why": "来ないはずがない means 'there's no way he won't come' (= he will surely come). For a mild expectation use ないはずだ."
+    },
+    {
+      "wrong": "静かはずがない。",
+      "right": "静かなはずがない。",
+      "why": "な-adjectives take な before はず."
+    }
+  ],
+  "usageNotes": [
+    "Double negative 〜ないはずがない = a confident positive: 知らないはずがない 'there's no way he doesn't know'.",
+    "はずはない is used when contradicting what someone else has said.",
+    "In casual speech you may hear はずない without が."
+  ],
+  "jlptTips": [
+    "Look for evidence or reasoning in the surrounding sentence (今日は平日だ, あんなに練習した). That makes はずがない the natural choice over an emotional わけがない.",
+    "Distinguish はずがない (impossible) from はずだった (was supposed to) and はずだ (should be). Check the ending carefully.",
+    "Double negatives (ないはずがない) are a favourite trick: translate them as a strong positive."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-78-1",
+    "q-n3-g-78-2",
+    "q-n3-g-78-3",
+    "q-n3-g-78-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-78-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

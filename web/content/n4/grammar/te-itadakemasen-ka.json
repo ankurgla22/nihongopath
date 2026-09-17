@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-76",
+  "slug": "te-itadakemasen-ka",
+  "level": "n4",
+  "order": 76,
+  "title": "〜ていただけませんか / 〜てもらえませんか \"could you (please)…?\"",
+  "romaji": "te itadakemasen ka / te moraemasen ka",
+  "meaning": "Polite requests built on the potential negative of もらう / いただく; the most useful N4 request forms.",
+  "simpleExplanation": "〜ていただけませんか is the most useful polite request in N4: \"could you please…?\". It is built from いただく (humble \"receive\"), its potential いただける (\"can receive\"), and a negative question (\"couldn't I receive your doing…?\"). The roundabout shape is exactly what makes it polite. 〜てもらえませんか is the same idea with plain もらう, a step less formal; 〜てくれませんか is casual. The negative question (〜ませんか) is politer than the plain question (〜ますか).",
+  "whenUsed": "Asking teachers, bosses, clients, shop staff and strangers for help: explanations, directions, photos, favours. 〜ていただけませんか for superiors and strangers, 〜てもらえませんか for colleagues and acquaintances, 〜てくれない？ / 〜てもらえる？ for friends. For \"please don't\", use 〜ないでいただけませんか.",
+  "formation": [
+    "V-て + いただけませんか (most polite): 説明していただけませんか",
+    "V-て + くださいませんか (polite, respectful): 説明してくださいませんか",
+    "V-て + もらえませんか (neutral polite): 撮ってもらえませんか",
+    "V-て + くれませんか / くれない？ / もらえる？ (casual)",
+    "Even softer: 〜ていただけないでしょうか; negative request: 〜ないでいただけませんか"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Request forms from casual to most polite (手伝う)",
+    "items": [
+      {
+        "label": "手伝って / 手伝ってくれない？",
+        "description": "friends and family"
+      },
+      {
+        "label": "手伝ってください / 手伝ってくれませんか",
+        "description": "polite but direct; colleagues, shop staff"
+      },
+      {
+        "label": "手伝ってもらえませんか",
+        "description": "polite; asks whether you can receive the favour"
+      },
+      {
+        "label": "手伝ってくださいませんか",
+        "description": "respectful; teachers, senior colleagues"
+      },
+      {
+        "label": "手伝っていただけませんか",
+        "description": "humble and very polite; bosses, clients, strangers"
+      },
+      {
+        "label": "手伝っていただけないでしょうか",
+        "description": "the softest, most indirect form"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "もう一度説明していただけませんか。",
+      "reading": "もういちど せつめいして いただけませんか。",
+      "en": "Could you explain once more?",
+      "note": "To a teacher or clerk: the most polite standard request."
+    },
+    {
+      "ja": "写真を撮ってもらえませんか。",
+      "reading": "しゃしんを とって もらえませんか。",
+      "en": "Could you take a photo for us?",
+      "note": "To a passer-by: もらえませんか is polite enough and friendly."
+    },
+    {
+      "ja": "ここに名前を書いていただけますか。",
+      "reading": "ここに なまえを かいて いただけますか。",
+      "en": "Could you write your name here?",
+      "note": "The plain question いただけますか is a little more direct than いただけませんか but still very polite."
+    },
+    {
+      "ja": "すみません、駅までの道を教えていただけませんか。",
+      "reading": "すみません、えきまでの みちを おしえて いただけませんか。",
+      "en": "Excuse me, could you tell me the way to the station?",
+      "note": "A stranger, so the most polite form is natural."
+    },
+    {
+      "ja": "会議中は携帯電話を使わないでいただけませんか。",
+      "reading": "かいぎちゅうは けいたいでんわを つかわないで いただけませんか。",
+      "en": "Could you please not use your mobile phone during the meeting?",
+      "note": "Negative request: ないで + いただけませんか."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てください",
+      "difference": "A direct polite request. It is fine to shop staff and equals, but sounds like an instruction to superiors, where 〜ていただけませんか is better."
+    },
+    {
+      "pattern": "〜させていただけませんか",
+      "difference": "Asks permission for your own action (\"could I be allowed to…\"). 〜ていただけませんか asks the other person to act.",
+      "id": "n4-grammar-73"
+    },
+    {
+      "pattern": "〜てもらう / 〜ていただく",
+      "difference": "The statement form: 先生に教えていただいた (the teacher taught me). The request form uses the potential negative question.",
+      "id": "n4-grammar-34"
+    },
+    {
+      "pattern": "〜てほしい",
+      "difference": "States a wish (\"I want you to\") and is casual. 〜ていただけませんか is a proper request.",
+      "id": "n4-grammar-75"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、宿題を見ていただきませんか。",
+      "right": "先生、宿題を見ていただけませんか。",
+      "why": "The request uses the potential いただける (\"could I receive\"). いただきませんか would invite the teacher to receive something."
+    },
+    {
+      "wrong": "手伝ってくれていただけませんか。",
+      "right": "手伝っていただけませんか。",
+      "why": "Do not stack くれる and いただく. One receiving verb is enough."
+    },
+    {
+      "wrong": "社長、書類を見てもらえる？",
+      "right": "社長、書類を見ていただけませんか。",
+      "why": "もらえる？ is casual and rude to a superior."
+    }
+  ],
+  "usageNotes": [
+    "Start the request with すみませんが / 恐れ入りますが / お忙しいところ申し訳ありませんが to soften it further.",
+    "In business the sentence often ends with のですが: 見ていただけませんでしょうか / 見ていただきたいのですが.",
+    "Replying: はい、いいですよ / もちろんです; refusing: すみません、ちょっと… (never a flat いいえ)."
+  ],
+  "jlptTips": [
+    "Look at who is asked: 先生 / 部長 / お客様 → いただけませんか; 友達 → くれない？ / もらえる？. Politeness mismatches are the usual distractor.",
+    "Options often contrast いただけませんか (request) with いただきませんか (invitation to receive) and with させていただけませんか (permission). Decide who performs the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-76-1",
+    "q-n4-g-76-2",
+    "q-n4-g-76-3",
+    "q-n4-g-76-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-76-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

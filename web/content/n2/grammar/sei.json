@@ -1,0 +1,128 @@
+{
+  "id": "n2-grammar-189",
+  "slug": "sei",
+  "level": "n2",
+  "order": 189,
+  "title": "〜性",
+  "romaji": "-sei",
+  "meaning": "-ness, -ity (abstract quality or property)",
+  "simpleExplanation": "〜性 attaches to nouns and な-adjective stems to make abstract nouns naming a quality or property: 可能性 (possibility), 安全性 (safety), 重要性 (importance), 必要性 (necessity). These nouns are typical of formal and academic writing and take verbs like ある / 高い / 低い / 欠ける.",
+  "whenUsed": "Written and formal spoken Japanese: news, reports, science, business. In conversation people often use the adjective instead (安全かどうか rather than 安全性).",
+  "formation": [
+    "Noun / な-adjective stem + 性",
+    "〜性がある / 〜性が高い / 〜性が低い / 〜性に欠ける",
+    "Common: 可能性・必要性・重要性・安全性・信頼性・生産性・危険性・積極性"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "安全",
+    "branches": [
+      {
+        "suffix": "性",
+        "result": "安全性",
+        "label": "safety (abstract noun)"
+      },
+      {
+        "suffix": "的",
+        "result": "安全的 (not used)",
+        "label": "的 does not attach here"
+      },
+      {
+        "suffix": "だ",
+        "result": "安全だ",
+        "label": "is safe (adjective)"
+      }
+    ],
+    "rootLabel": "な-adjective stem"
+  },
+  "examples": [
+    {
+      "ja": "この計画には実現の可能性がある。",
+      "reading": "このけいかくにはじつげんのかのうせいがある。",
+      "en": "This plan has the possibility of being realized.",
+      "note": "可能性がある: there is a possibility."
+    },
+    {
+      "ja": "安全性を確認してから使ってください。",
+      "reading": "あんぜんせいをかくにんしてからつかってください。",
+      "en": "Please use it after confirming its safety.",
+      "note": "安全性を確認する: verify safety."
+    },
+    {
+      "ja": "彼の話は信頼性に欠ける。",
+      "reading": "かれのはなしはしんらいせいにかける。",
+      "en": "His story lacks credibility.",
+      "note": "信頼性に欠ける: lacks credibility."
+    },
+    {
+      "ja": "この薬は効果は高いが、危険性もある。",
+      "reading": "このくすりはこうかはたかいが、きけんせいもある。",
+      "en": "This medicine is highly effective, but it also carries risks.",
+      "note": "危険性: the property of being dangerous."
+    },
+    {
+      "ja": "会議では、社員教育の必要性について話し合われた。",
+      "reading": "かいぎでは、しゃいんきょういくのひつようせいについてはなしあわれた。",
+      "en": "The necessity of employee training was discussed at the meeting.",
+      "note": "必要性について: a typical report phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜的",
+      "difference": "Makes adjectives (-ic), not nouns.",
+      "id": "n2-grammar-188"
+    },
+    {
+      "pattern": "〜さ",
+      "difference": "Makes nouns from adjectives (高さ, 安全さ); さ is neutral and casual, 性 is formal and abstract."
+    },
+    {
+      "pattern": "〜化",
+      "difference": "Makes verbs of change (-ization).",
+      "id": "n2-grammar-190"
+    },
+    {
+      "pattern": "〜力",
+      "difference": "\"Power / ability\" (記憶力); a related productive suffix."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "安全性な製品",
+      "right": "安全な製品 / 安全性の高い製品",
+      "why": "性 makes a noun; use の or an adjective before a noun."
+    },
+    {
+      "wrong": "可能性が多い。",
+      "right": "可能性が高い。",
+      "why": "Possibilities are 'high / low', not 'many'."
+    },
+    {
+      "wrong": "彼は積極性な人だ。",
+      "right": "彼は積極的な人だ。/ 彼は積極性がある。",
+      "why": "Use 的 for the adjective, 性 for the noun."
+    }
+  ],
+  "usageNotes": [
+    "Reading is always せい.",
+    "Typical collocations: 可能性が高い, 必要性を感じる, 重要性を認識する, 生産性を上げる.",
+    "Some pairs: 男性 / 女性 use 性 in the sense of 'sex', a different function."
+  ],
+  "jlptTips": [
+    "Vocabulary questions test 性 nouns with ある / 高い / 欠ける.",
+    "Before a noun, 性 needs の or an adjective form (安全性の高い).",
+    "Do not confuse 的 (adjective), 性 (noun), 化 (verb) in word-formation questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-189-1",
+    "q-n2-g-189-2",
+    "q-n2-g-189-3",
+    "q-n2-g-189-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-189-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

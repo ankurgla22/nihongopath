@@ -1,0 +1,140 @@
+{
+  "id": "n2-grammar-136",
+  "slug": "verb-nuku",
+  "level": "n2",
+  "order": 136,
+  "title": "〜抜く",
+  "romaji": "-nuku",
+  "meaning": "to do … through to the end; to do … thoroughly",
+  "simpleExplanation": "Verb stem + 抜く means to carry an action through to the very end despite difficulty, or to do it thoroughly: 走り抜く (run all the way), 考え抜く (think through completely), 耐え抜く (endure to the end). The nuance is perseverance and completeness.",
+  "whenUsed": "Both speech and writing; common in motivational contexts, sports, and narratives. Compared with 〜切る, which simply marks completion, 〜抜く stresses the struggle and determination.",
+  "formation": [
+    "Verb (ます-stem) + 抜く",
+    "Common verbs: 走り抜く・考え抜く・耐え抜く・生き抜く・やり抜く・戦い抜く・守り抜く",
+    "Past: 〜抜いた / Continuative: 〜抜いて / Noun: 〜抜き (rare)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜抜く",
+      "〜切る",
+      "〜通す"
+    ],
+    "rows": [
+      {
+        "label": "Core idea",
+        "cells": [
+          "carry through to the end despite hardship",
+          "complete fully, use up",
+          "keep doing consistently to the end"
+        ]
+      },
+      {
+        "label": "Nuance",
+        "cells": [
+          "perseverance, determination",
+          "completion, exhaustion",
+          "persistence without changing"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "最後まで走り抜いた",
+          "全部食べ切った",
+          "自分の意見を通す"
+        ]
+      }
+    ],
+    "title": "Three ways to finish"
+  },
+  "examples": [
+    {
+      "ja": "苦しかったが、最後まで走り抜いた。",
+      "reading": "くるしかったが、さいごまではしりぬいた。",
+      "en": "It was painful, but I ran through to the end.",
+      "note": "Running to the finish despite pain: perseverance."
+    },
+    {
+      "ja": "考え抜いた末に、会社を辞めることにした。",
+      "reading": "かんがえぬいたすえに、かいしゃをやめることにした。",
+      "en": "After thinking it through thoroughly, I decided to quit the company.",
+      "note": "考え抜いた末に: after thinking it through completely."
+    },
+    {
+      "ja": "困難な状況を耐え抜いた。",
+      "reading": "こんなんなじょうきょうをたえぬいた。",
+      "en": "I endured the difficult situation to the end.",
+      "note": "Enduring a hard situation to the end."
+    },
+    {
+      "ja": "どんなに大変でも、この仕事を最後までやり抜くつもりだ。",
+      "reading": "どんなにたいへんでも、このしごとをさいごまでやりぬくつもりだ。",
+      "en": "No matter how hard it is, I intend to see this job through to the end.",
+      "note": "やり抜く: one of the most common 抜く compounds."
+    },
+    {
+      "ja": "戦争の時代を生き抜いた祖父の話を聞いた。",
+      "reading": "せんそうのじだいをいきぬいたそふのはなしをきいた。",
+      "en": "I listened to my grandfather, who survived the war years.",
+      "note": "生き抜く: survive through hardship."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜切る",
+      "difference": "Completion or exhaustion (食べ切る, 使い切る); no nuance of struggle."
+    },
+    {
+      "pattern": "〜通す",
+      "difference": "Persist consistently (やり通す, 押し通す); close to 抜く but without the sense of hardship overcome."
+    },
+    {
+      "pattern": "〜終わる",
+      "difference": "Neutral \"finish doing\"."
+    },
+    {
+      "pattern": "〜抜きで",
+      "difference": "Different pattern: Noun + 抜き = without.",
+      "id": "n2-grammar-135"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ご飯を食べ抜いた。",
+      "right": "ご飯を食べ切った。",
+      "why": "抜く needs hardship or thoroughness; simple completion of a meal is 切る."
+    },
+    {
+      "wrong": "最後まで走る抜いた。",
+      "right": "最後まで走り抜いた。",
+      "why": "Attach 抜く to the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "考え抜くに決めた。",
+      "right": "考え抜いて決めた。/ 考え抜いた末に決めた。",
+      "why": "Use the て-form or 〜た末に to connect to the decision."
+    }
+  ],
+  "usageNotes": [
+    "Often paired with 最後まで / 徹底的に / どんなに〜ても.",
+    "考え抜いた末に is a set phrase for a carefully considered decision.",
+    "Some compounds have their own meanings: 見抜く (see through a lie), 追い抜く (overtake)."
+  ],
+  "jlptTips": [
+    "If the sentence stresses hardship overcome (苦しかったが / どんなに大変でも), 抜く beats 切る.",
+    "Check the stem: 走り抜く, not 走る抜く.",
+    "Distractors include 切る, 通す, 終わる; also watch for 見抜く / 追い抜く, which have separate meanings."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-136-1",
+    "q-n2-g-136-2",
+    "q-n2-g-136-3",
+    "q-n2-g-136-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-136-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

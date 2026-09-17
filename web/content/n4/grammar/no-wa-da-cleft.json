@@ -1,0 +1,128 @@
+{
+  "id": "n4-grammar-57",
+  "slug": "no-wa-da-cleft",
+  "level": "n4",
+  "order": 57,
+  "title": "〜のは〜だ (cleft sentence) \"it is … that …\"",
+  "romaji": "no wa ~ da (kyouchou-bun)",
+  "meaning": "Puts focus on one element by nominalising the rest: \"The one who did X was Y.\"",
+  "simpleExplanation": "A cleft sentence puts the spotlight on one piece of information. Instead of 兄がこの写真を撮った (my brother took this photo), you say この写真を撮ったのは兄です = the one who took this photo is my brother. The rest of the sentence is made into a noun with の, then は, then the focused word + だ/です. Inside the の clause, the subject takes が. It answers \"who / when / where / what\" questions clearly.",
+  "whenUsed": "Answering or correcting: 「昨日来なかったのは誰？」「田中さんです」. Very common in speech and writing when one element matters most. Also used to give a time or place emphatically: 私が日本に来たのは去年の四月だ.",
+  "formation": [
+    "[Clause with が] + のは + [focused N] + だ/です",
+    "Focused word can be a person, time, place, or thing",
+    "Negative: 〜のは〜じゃない / ではない",
+    "Question: 〜のは誰ですか / いつですか / どこですか"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この写真を撮った",
+        "role": "clause (subject removed)",
+        "highlight": false
+      },
+      {
+        "text": "のは",
+        "role": "nominaliser の + topic は",
+        "highlight": true
+      },
+      {
+        "text": "兄",
+        "role": "focused element",
+        "highlight": true
+      },
+      {
+        "text": "です",
+        "role": "copula",
+        "highlight": false
+      }
+    ],
+    "translation": "The one who took this photo is my older brother."
+  },
+  "examples": [
+    {
+      "ja": "昨日パーティーに来なかったのは田中さんです。",
+      "reading": "きのう パーティーに こなかったのは たなかさんです。",
+      "en": "The one who didn't come to the party yesterday was Tanaka.",
+      "note": "Focus on who: the person is placed after のは."
+    },
+    {
+      "ja": "私が日本に来たのは去年の四月だ。",
+      "reading": "わたしが にほんに きたのは きょねんの しがつだ。",
+      "en": "It was last April that I came to Japan.",
+      "note": "Focus on when: subject 私 takes が inside the clause."
+    },
+    {
+      "ja": "この写真を撮ったのは兄です。",
+      "reading": "この しゃしんを とったのは あにです。",
+      "en": "The one who took this photo is my older brother.",
+      "note": "Focus on who took the photo."
+    },
+    {
+      "ja": "私が一番好きな食べ物は寿司ではなく、ラーメンです。",
+      "reading": "わたしが いちばん すきな たべものは すしではなく、ラーメンです。",
+      "en": "The food I like most is not sushi but ramen.",
+      "note": "A noun-headed version of focusing; note が on 私 inside the modifying clause."
+    },
+    {
+      "ja": "この本を書いたのは、有名な作家です。",
+      "reading": "このほんを かいたのは、ゆうめいな さっかです。",
+      "en": "The person who wrote this book is a famous author.",
+      "note": "Cleft sentence with a person in focus."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "の / こと nominalisation",
+      "difference": "The cleft uses の to nominalise the whole clause; こと is not used in cleft sentences.",
+      "id": "n4-grammar-51"
+    },
+    {
+      "pattern": "〜のは〜からだ (N3)",
+      "difference": "Focuses a reason: 遅れたのは電車が止まったからだ."
+    },
+    {
+      "pattern": "〜んです",
+      "difference": "のだ / んだ at the end explains; の + は in the cleft turns the clause into a topic.",
+      "id": "n4-grammar-95"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は日本に来たのは去年です。",
+      "right": "私が日本に来たのは去年です。",
+      "why": "Inside the の clause the subject takes が."
+    },
+    {
+      "wrong": "この写真を撮ったことは兄です。",
+      "right": "この写真を撮ったのは兄です。",
+      "why": "Cleft sentences use の, not こと."
+    },
+    {
+      "wrong": "パーティーに来なかったのは田中さんが。",
+      "right": "パーティーに来なかったのは田中さんです。",
+      "why": "The focused element ends with だ / です, not a particle."
+    }
+  ],
+  "usageNotes": [
+    "The focused element is the new information; the のは part is what the listener already knows.",
+    "Time and place answers are natural clefts: 会議があるのは金曜日です.",
+    "In speech the pattern often answers a question and can drop the clause: 「誰が撮ったの？」「撮ったのは兄だよ」."
+  ],
+  "jlptTips": [
+    "A sentence ending in a noun + です with a clause before the blank → のは. Distractors: ことは, のが, ので.",
+    "Check the particle on the subject inside the clause: が is correct, は is not."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-57-1",
+    "q-n4-g-57-2",
+    "q-n4-g-57-3",
+    "q-n4-g-57-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-57-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

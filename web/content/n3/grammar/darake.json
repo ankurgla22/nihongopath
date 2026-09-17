@@ -1,0 +1,137 @@
+{
+  "id": "n3-grammar-101",
+  "slug": "darake",
+  "level": "n3",
+  "order": 101,
+  "title": "〜だらけ",
+  "romaji": "darake",
+  "meaning": "full of… / covered in… (undesirable things)",
+  "simpleExplanation": "Noun + だらけ means \"full of\" or \"covered with\" something you do not want: 泥だらけ \"covered in mud\", 間違いだらけ \"full of mistakes\". It is always negative: you cannot say 花だらけ to praise a garden. It behaves like a noun or な-adjective: だらけだ, だらけの + noun, だらけで.",
+  "whenUsed": "Everyday complaints and vivid descriptions: rooms, clothes, essays, roads. In writing it appears in descriptive passages. Common nouns: 泥, ごみ, 傷, 間違い, ほこり, 血, しわ, 借金.",
+  "formation": [
+    "Noun + だらけ + だ / です",
+    "Noun + だらけ + の + Noun (泥だらけの靴)",
+    "Noun + だらけ + で、〜 (connective)",
+    "Noun + だらけになる (become covered in)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "だらけ vs まみれ vs いっぱい",
+    "columns": [
+      "What it covers",
+      "Feel",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜だらけ",
+        "cells": [
+          "Many unwanted things or marks, anywhere",
+          "Negative",
+          "間違いだらけの作文"
+        ]
+      },
+      {
+        "label": "〜まみれ (N2)",
+        "cells": [
+          "A liquid or powder sticking to a surface",
+          "Negative, physical",
+          "汗まみれのシャツ"
+        ]
+      },
+      {
+        "label": "〜でいっぱい",
+        "cells": [
+          "Anything, filled up",
+          "Neutral / positive",
+          "花でいっぱいの庭"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供たちは泥だらけになって帰ってきた。",
+      "reading": "こどもたちはどろだらけになってかえってきた。",
+      "en": "The kids came home covered in mud.",
+      "note": "だらけになる: became covered in mud."
+    },
+    {
+      "ja": "この作文は間違いだらけだ。",
+      "reading": "このさくぶんはまちがいだらけだ。",
+      "en": "This essay is full of mistakes.",
+      "note": "Abstract 'full of mistakes'."
+    },
+    {
+      "ja": "部屋はほこりだらけで、掃除が大変だった。",
+      "reading": "へやはほこりだらけで、そうじがたいへんだった。",
+      "en": "The room was full of dust and cleaning was hard.",
+      "note": "だらけで connective: dust everywhere, so cleaning was hard."
+    },
+    {
+      "ja": "事故の後、車は傷だらけになっていた。",
+      "reading": "じこのあと、くるまはきずだらけになっていた。",
+      "en": "After the accident, the car was covered in scratches.",
+      "note": "傷だらけ = covered in scratches or wounds."
+    },
+    {
+      "ja": "彼は借金だらけで、生活が苦しいらしい。",
+      "reading": "かれはしゃっきんだらけで、せいかつがくるしいらしい。",
+      "en": "He is deep in debt and apparently struggling to make ends meet.",
+      "note": "Abstract use with 借金."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜まみれ",
+      "difference": "Only for liquids or particles clinging to a surface (血まみれ, 泥まみれ). だらけ is broader and also abstract."
+    },
+    {
+      "pattern": "〜でいっぱい",
+      "difference": "Neutral 'full of', usable for good things (人でいっぱい, 喜びでいっぱい)."
+    },
+    {
+      "pattern": "〜っぽい",
+      "difference": "'-ish' (油っぽい = greasy). Describes a quality, not being covered.",
+      "id": "n3-grammar-56"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "庭は花だらけできれいだ。",
+      "right": "庭は花でいっぱいできれいだ。",
+      "why": "だらけ is negative and cannot describe something pleasant."
+    },
+    {
+      "wrong": "泥だらけな靴",
+      "right": "泥だらけの靴",
+      "why": "Before a noun, だらけ takes の, not な."
+    },
+    {
+      "wrong": "この文章は間違いだらけがある。",
+      "right": "この文章は間違いだらけだ。",
+      "why": "だらけ already means 'full of'; it does not combine with がある."
+    }
+  ],
+  "usageNotes": [
+    "だらけ can be used jokingly or affectionately about oneself: 失敗だらけの人生.",
+    "It attaches only to nouns; verbs and adjectives need a noun form first.",
+    "In 読解, 傷だらけ and 間違いだらけ appear in descriptions of condition."
+  ],
+  "jlptTips": [
+    "If the noun is something unpleasant (泥, ごみ, 傷, 間違い) and the sense is 'all over', だらけ is right.",
+    "Choices may include まみれ; if the noun is not a liquid/powder (e.g. 間違い), only だらけ works.",
+    "Watch the connector to a following noun: だらけの, never だらけな."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-101-1",
+    "q-n3-g-101-2",
+    "q-n3-g-101-3",
+    "q-n3-g-101-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-101-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

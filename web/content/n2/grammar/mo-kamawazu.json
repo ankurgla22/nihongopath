@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-152",
+  "slug": "mo-kamawazu",
+  "level": "n2",
+  "order": 152,
+  "title": "〜もかまわず",
+  "romaji": "mo kamawazu",
+  "meaning": "without minding, regardless of, heedless of",
+  "simpleExplanation": "〜もかまわず means \"without caring about X\": the person ignores something that would normally stop or restrain them, such as other people's eyes, dirty clothes, or rain. 人目もかまわず大声で泣いた. It comes from かまう (to mind) and often describes dramatic or impulsive behavior.",
+  "whenUsed": "Written and narrative Japanese; also in speech when describing someone vividly. Set phrases: 人目もかまわず, なりふりかまわず (without caring about appearances). In neutral explanations use 〜を気にしないで.",
+  "formation": [
+    "Noun + もかまわず (人目もかまわず)",
+    "Verb / clause (plain form) + の + もかまわず (服が汚れるのもかまわず)",
+    "Set phrase: なりふりかまわず (heedless of appearance)",
+    "Related: 〜にかまわず / 〜にもかまわず (less common)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "人目",
+        "role": "something normally worth minding"
+      },
+      {
+        "text": "もかまわず",
+        "role": "without caring about it",
+        "highlight": true
+      },
+      {
+        "text": "、大声で泣いた",
+        "role": "the unrestrained action"
+      }
+    ],
+    "translation": "He cried loudly without caring who was watching."
+  },
+  "examples": [
+    {
+      "ja": "彼は人目もかまわず、大声で泣いた。",
+      "reading": "かれはひとめもかまわず、おおごえでないた。",
+      "en": "He cried loudly without caring who was watching.",
+      "note": "Ignoring other people's eyes: the most typical noun."
+    },
+    {
+      "ja": "服が汚れるのもかまわず、子供を助けに行った。",
+      "reading": "ふくがよごれるのもかまわず、こどもをたすけにいった。",
+      "en": "Without minding that his clothes would get dirty, he went to save the child.",
+      "note": "Clause + のもかまわず: ignoring that clothes would get dirty."
+    },
+    {
+      "ja": "雨が降っているのもかまわず、走り続けた。",
+      "reading": "あめがふっているのもかまわず、はしりつづけた。",
+      "en": "Regardless of the rain, I kept running.",
+      "note": "Ignoring the rain and continuing."
+    },
+    {
+      "ja": "彼女はなりふりかまわず、子供のために働いた。",
+      "reading": "かのじょはなりふりかまわず、こどものためにはたらいた。",
+      "en": "She worked for her children without caring about appearances.",
+      "note": "なりふりかまわず is a set phrase."
+    },
+    {
+      "ja": "周りが止めるのもかまわず、彼は一人で山に向かった。",
+      "reading": "まわりがとめるのもかまわず、かれはひとりでやまにむかった。",
+      "en": "Ignoring those around him who tried to stop him, he headed for the mountain alone.",
+      "note": "A clause + のもかまわず describing impulsive action."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を気にせず / 〜を気にしないで",
+      "difference": "Neutral \"without worrying about\"; no dramatic nuance."
+    },
+    {
+      "pattern": "〜にかかわらず",
+      "difference": "\"Regardless of (a variable)\": a rule, not a person ignoring something.",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜を問わず",
+      "difference": "\"Irrespective of\": formal rule language.",
+      "id": "n2-grammar-173"
+    },
+    {
+      "pattern": "〜をよそに",
+      "difference": "\"Ignoring (others' concern)\": N1-level, close in meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "人目もかまわないで泣いた。(acceptable but…)",
+      "right": "人目もかまわず泣いた。",
+      "why": "The set form is かまわず; かまわないで is possible but loses the idiomatic feel."
+    },
+    {
+      "wrong": "雨が降っているもかまわず",
+      "right": "雨が降っているのもかまわず",
+      "why": "A clause needs の before もかまわず."
+    },
+    {
+      "wrong": "年齢もかまわず、誰でも参加できる。",
+      "right": "年齢にかかわらず、誰でも参加できる。",
+      "why": "A rule ignoring a variable is にかかわらず; もかまわず describes a person's heedless behavior."
+    }
+  ],
+  "usageNotes": [
+    "The subject is a person acting heedlessly; the thing ignored is something socially or physically restraining.",
+    "Often followed by dramatic verbs: 泣く, 走る, 飛び込む, 叫ぶ.",
+    "かまわず can also stand alone: かまわず進め (go on regardless)."
+  ],
+  "jlptTips": [
+    "If the sentence describes someone acting without regard for people's eyes, dirt, danger, or rain, choose もかまわず.",
+    "A clause before the blank needs の; check for it.",
+    "Distractors include にかかわらず and を問わず (both rule-like) and にもかかわらず (despite)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-152-1",
+    "q-n2-g-152-2",
+    "q-n2-g-152-3",
+    "q-n2-g-152-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-152-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

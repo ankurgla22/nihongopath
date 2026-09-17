@@ -1,0 +1,120 @@
+{
+  "id": "n5-grammar-33",
+  "slug": "ku-naru-ni-naru",
+  "level": "n5",
+  "order": 33,
+  "title": "くなる ／ になる (change of state)",
+  "romaji": "ku naru / ni naru",
+  "meaning": "\"become ~\". Attaches to adjectives and nouns to express change.",
+  "simpleExplanation": "なる means \"become\". To say something changes, attach it to an adjective or noun: い-adjective drops い and adds く (寒い → 寒くなる \"get cold\"); な-adjective and noun add に (静か → 静かになる \"become quiet\", 医者 → 医者になる \"become a doctor\"). いい is irregular: よくなる.",
+  "whenUsed": "Weather changes, growing up, getting better or worse, a room becoming clean, a person becoming a doctor. Common with もう (already) and だんだん (gradually).",
+  "formation": [
+    "い-adj stem + く + なる　／　な-adj + に + なる　／　Noun + に + なる"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "なる (become)",
+    "rootLabel": "what comes before なる",
+    "branches": [
+      {
+        "suffix": "い-adj: い → く",
+        "result": "寒くなる",
+        "label": "get cold"
+      },
+      {
+        "suffix": "いい → よく",
+        "result": "よくなる",
+        "label": "get better (irregular)"
+      },
+      {
+        "suffix": "な-adj + に",
+        "result": "静かになる",
+        "label": "become quiet"
+      },
+      {
+        "suffix": "noun + に",
+        "result": "医者になる",
+        "label": "become a doctor"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "天気がよくなりました。",
+      "reading": "てんきが よくなりました。",
+      "en": "The weather got better.",
+      "note": "いい → よく + なる."
+    },
+    {
+      "ja": "部屋がきれいになりました。",
+      "reading": "へやが きれいに なりました。",
+      "en": "The room became clean.",
+      "note": "な-adjective + に + なる."
+    },
+    {
+      "ja": "兄は医者になりました。",
+      "reading": "あには いしゃに なりました。",
+      "en": "My older brother became a doctor.",
+      "note": "Noun + に + なる."
+    },
+    {
+      "ja": "夜になって、寒くなりました。",
+      "reading": "よるに なって、さむく なりました。",
+      "en": "Night came and it got cold.",
+      "note": "Noun + になる and い-adjective + くなる in one sentence."
+    },
+    {
+      "ja": "日本語が少し上手になりました。",
+      "reading": "にほんごが すこし じょうずに なりました。",
+      "en": "My Japanese got a little better.",
+      "note": "上手 is a な-adjective: 上手に."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-27",
+      "pattern": "い-adjective adverb form (く)",
+      "difference": "The same く form is used before なる and other verbs."
+    },
+    {
+      "id": "n5-grammar-28",
+      "pattern": "な-adjective adverb form (に)",
+      "difference": "The same に form is used before なる."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "寒いになる",
+      "right": "寒くなる",
+      "why": "い-adjectives change い to く before なる."
+    },
+    {
+      "wrong": "静かくなる",
+      "right": "静かになる",
+      "why": "静か is a な-adjective; it takes に."
+    },
+    {
+      "wrong": "いくなる",
+      "right": "よくなる",
+      "why": "いい becomes よ before く."
+    }
+  ],
+  "usageNotes": [
+    "いい → よくなる (irregular). Contrast with the parallel \"make ~\" pattern: くする／にする (部屋をきれいにする \"make the room clean\"). Common exam items: 暗くなる, 大きくなる, 静かになる, 元気になる."
+  ],
+  "jlptTips": [
+    "Decide the word type before なる: い-adjective → く, everything else → に.",
+    "Watch the tense: 暖かくなりました (already got warm) vs 暖かくなります (will get warm). Time words give the answer."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-33-1",
+    "q-n5-g-33-2",
+    "q-n5-g-33-3",
+    "q-n5-g-33-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-33-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

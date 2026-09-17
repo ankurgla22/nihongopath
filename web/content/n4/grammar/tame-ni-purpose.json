@@ -1,0 +1,137 @@
+{
+  "id": "n4-grammar-41",
+  "slug": "tame-ni-purpose",
+  "level": "n4",
+  "order": 41,
+  "title": "〜ために (purpose) \"in order to / for the sake of\"",
+  "romaji": "tame ni",
+  "meaning": "Purpose with a volitional (controllable) verb, or benefit for a noun.",
+  "simpleExplanation": "〜ために means \"in order to\" or \"for the sake of\". With a verb it shows the purpose of an action: 日本で働くために、日本語を勉強しています = I study Japanese in order to work in Japan. The verb before ために is in the dictionary form and must be something you can decide to do (a \"volitional\" verb like 働く, 買う, 会う). With a noun it means \"for\": 家族のために = for my family.",
+  "whenUsed": "Explaining goals in speech and writing: study, savings, health, career. Both clauses have the same subject: the person acting is the person with the goal. Noun + のために is common in speeches and slogans (お客様のために, 平和のために). The same form can mean \"because of\" (事故のために遅れた), which context makes clear.",
+  "formation": [
+    "V-dictionary (volitional) + ために: 働くために, 買うために",
+    "Noun + のために: 家族のために, 健康のために",
+    "Same subject in both clauses",
+    "Also cause: N + のために / V-た + ために = because of (事故のために)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ために vs ように (purpose)",
+    "columns": [
+      "Verb type",
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "ために",
+        "cells": [
+          "volitional (you can choose to do it)",
+          "日本で働くために勉強する",
+          "in order to work in Japan"
+        ]
+      },
+      {
+        "label": "ように",
+        "cells": [
+          "potential / ない / なる / intransitive",
+          "日本語が話せるように勉強する",
+          "so that I can speak Japanese"
+        ]
+      },
+      {
+        "label": "Nのために",
+        "cells": [
+          "noun",
+          "家族のために働く",
+          "for my family"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本で働くために、日本語を勉強しています。",
+      "reading": "にほんで はたらくために、にほんごを べんきょうしています。",
+      "en": "I'm studying Japanese in order to work in Japan.",
+      "note": "Purpose with a volitional verb; the same person studies and will work."
+    },
+    {
+      "ja": "家族のために、頑張ります。",
+      "reading": "かぞくのために、がんばります。",
+      "en": "I'll do my best for my family.",
+      "note": "Noun + のために: for the benefit of."
+    },
+    {
+      "ja": "家を買うためにお金をためている。",
+      "reading": "いえを かうために おかねを ためている。",
+      "en": "I'm saving money to buy a house.",
+      "note": "Saving money is the means; buying a house is the goal."
+    },
+    {
+      "ja": "健康のために、毎朝三十分歩いています。",
+      "reading": "けんこうのために、まいあさ さんじゅっぷん あるいています。",
+      "en": "For my health, I walk for thirty minutes every morning.",
+      "note": "Noun + のために. A very common set phrase."
+    },
+    {
+      "ja": "大学に入るために、一生懸命勉強した。",
+      "reading": "だいがくに はいるために、いっしょうけんめい べんきょうした。",
+      "en": "I studied very hard in order to get into university.",
+      "note": "入る is something you can aim for, so ために is right. 入れるように (potential) would also be natural."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ように (purpose)",
+      "difference": "ように takes non-volitional verbs: potentials (話せるように), negatives (忘れないように), なる. ために takes verbs you can decide to do.",
+      "id": "n4-grammar-16"
+    },
+    {
+      "pattern": "〜のに (purpose / utility)",
+      "difference": "のに is for what a thing is used for (紙を切るのに使う). ために is for a person's goal.",
+      "id": "n4-grammar-42"
+    },
+    {
+      "pattern": "V-ます stem + に (行く／来る)",
+      "difference": "Purpose of going only: 買い物に行く. ために works with any main verb."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語が話せるために、勉強しています。",
+      "right": "日本語が話せるように、勉強しています。",
+      "why": "話せる is a potential verb (not controllable), so ように is needed."
+    },
+    {
+      "wrong": "健康ために、運動します。",
+      "right": "健康のために、運動します。",
+      "why": "A noun needs の before ために."
+    },
+    {
+      "wrong": "忘れないために、メモしておく。",
+      "right": "忘れないように、メモしておく。",
+      "why": "Negative verbs before a purpose take ように, not ために."
+    }
+  ],
+  "usageNotes": [
+    "The rule of thumb: if you could say \"I decide to X\", use ために; if X just happens (can, become, not), use ように.",
+    "ための + noun modifies a noun: 子供のための本 (a book for children).",
+    "In the cause meaning, the verb is often past: 台風のために電車が止まった (because of the typhoon)."
+  ],
+  "jlptTips": [
+    "Check the verb before the blank: dictionary-form volitional verb → ために; potential / ない-form / なる → ように. This is the most tested contrast.",
+    "Noun before the blank: choose のために, not ために or にために."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-41-1",
+    "q-n4-g-41-2",
+    "q-n4-g-41-3",
+    "q-n4-g-41-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-41-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

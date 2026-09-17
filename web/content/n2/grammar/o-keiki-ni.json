@@ -1,0 +1,129 @@
+{
+  "id": "n2-grammar-169",
+  "slug": "o-keiki-ni",
+  "level": "n2",
+  "order": 169,
+  "title": "〜を契機に / 〜を契機として",
+  "romaji": "o keiki ni / o keiki to shite",
+  "meaning": "with … as a turning point, on the occasion of (formal)",
+  "simpleExplanation": "〜を契機に is the formal version of 〜をきっかけに: an event becomes the turning point after which a significant change occurs. 結婚を契機にたばこをやめた. It is used for major life or social events (marriage, retirement, the Olympics, a crisis) rather than small personal triggers.",
+  "whenUsed": "Written and formal spoken Japanese: news, business, speeches, essays. In conversation people say をきっかけに. 契機 (けいき) is the key vocabulary word.",
+  "formation": [
+    "Noun (major event) + を契機に(して)",
+    "Noun + を契機として",
+    "Verb (past) + の + を契機に",
+    "Typical events: 結婚・退職・震災・オリンピック・事故・合併"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Trigger expressions by formality",
+    "items": [
+      {
+        "label": "〜がきっかけで",
+        "description": "casual, personal"
+      },
+      {
+        "label": "〜をきっかけに",
+        "description": "neutral, everyday"
+      },
+      {
+        "label": "〜を機に",
+        "description": "formal, written"
+      },
+      {
+        "label": "〜を契機に / を契機として",
+        "description": "formal, major events"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "結婚を契機に、たばこをやめた。",
+      "reading": "けっこんをけいきに、たばこをやめた。",
+      "en": "Taking marriage as a turning point, I quit smoking.",
+      "note": "A life event as a turning point."
+    },
+    {
+      "ja": "オリンピックを契機として、交通網が整備された。",
+      "reading": "オリンピックをけいきとして、こうつうもうがせいびされた。",
+      "en": "The Olympics served as the occasion for developing the transport network.",
+      "note": "を契機として: a social event triggering infrastructure change."
+    },
+    {
+      "ja": "定年退職を契機に、田舎に引っ越した。",
+      "reading": "ていねんたいしょくをけいきに、いなかにひっこした。",
+      "en": "On the occasion of retirement, I moved to the countryside.",
+      "note": "Retirement as a turning point."
+    },
+    {
+      "ja": "震災を契機に、防災への意識が高まった。",
+      "reading": "しんさいをけいきに、ぼうさいへのいしきがたかまった。",
+      "en": "The earthquake disaster became a turning point that raised awareness of disaster prevention.",
+      "note": "A social event; typical news usage."
+    },
+    {
+      "ja": "今回の事故を契機として、安全基準が見直された。",
+      "reading": "こんかいのじこをけいきとして、あんぜんきじゅんがみなおされた。",
+      "en": "Taking this accident as a turning point, safety standards were reviewed.",
+      "note": "Formal business or administrative context."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をきっかけに",
+      "difference": "Everyday equivalent; fine for small triggers.",
+      "id": "n2-grammar-168"
+    },
+    {
+      "pattern": "〜を機に",
+      "difference": "Formal 'taking the opportunity of'; close to 契機."
+    },
+    {
+      "pattern": "〜に伴って",
+      "difference": "\"Along with a change\": consequence, not a turning point.",
+      "id": "n2-grammar-128"
+    },
+    {
+      "pattern": "〜以来",
+      "difference": "Marks the time since an event."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友達の一言を契機に、テニスを始めた。",
+      "right": "友達の一言をきっかけに、テニスを始めた。",
+      "why": "A small personal trigger sounds odd with the formal 契機."
+    },
+    {
+      "wrong": "結婚が契機に、引っ越した。",
+      "right": "結婚を契機に、引っ越した。",
+      "why": "The particle is を."
+    },
+    {
+      "wrong": "「何を契機に始めたの？」(casual)",
+      "right": "「何がきっかけで始めたの？」",
+      "why": "Too formal for casual conversation."
+    }
+  ],
+  "usageNotes": [
+    "契機 is often read けいき; do not confuse with 景気 (economy), same reading.",
+    "News style: 〜を契機に、〜が本格化した.",
+    "The result is usually a significant, lasting change."
+  ],
+  "jlptTips": [
+    "If the register is formal and the event is major, choose を契機に over をきっかけに.",
+    "Reading questions may test 契機 (けいき) in kanji.",
+    "Distractors include に伴って, によって, を通じて. Only 契機 / きっかけ mean 'turning point'."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-169-1",
+    "q-n2-g-169-2",
+    "q-n2-g-169-3",
+    "q-n2-g-169-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-169-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

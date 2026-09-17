@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-194",
+  "slug": "you-to-shinai",
+  "level": "n2",
+  "order": 194,
+  "title": "〜ようとしない",
+  "romaji": "-you to shinai",
+  "meaning": "shows no sign of trying to, refuses to",
+  "simpleExplanation": "Volitional + としない means that someone will not even try to do something: 彼は自分の間違いを認めようとしない (he refuses to admit his mistake). It describes another person's unwillingness as observed from outside, often with frustration. The affirmative ようとする means 'try to / be about to'.",
+  "whenUsed": "Both speech and writing. Common in complaints about people (子供が勉強しようとしない) and in descriptions of stubborn behaviour. Not used for the speaker's own refusal (use 〜つもりはない).",
+  "formation": [
+    "Verb (volitional 〜よう / 〜おう) + としない",
+    "Past: 〜ようとしなかった",
+    "Affirmative: 〜ようとする (try to / be about to)",
+    "Often with いくら〜ても / 何度言っても"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼は自分の間違いを",
+        "role": "the person and the action"
+      },
+      {
+        "text": "認めよう",
+        "role": "volitional: intention to admit"
+      },
+      {
+        "text": "としない",
+        "role": "does not even try to",
+        "highlight": true
+      }
+    ],
+    "translation": "He refuses to admit his mistake."
+  },
+  "examples": [
+    {
+      "ja": "彼は自分の間違いを認めようとしない。",
+      "reading": "かれはじぶんのまちがいをみとめようとしない。",
+      "en": "He refuses to admit his mistake.",
+      "note": "Refusal to admit a mistake."
+    },
+    {
+      "ja": "息子はいくら言っても勉強しようとしない。",
+      "reading": "むすこはいくらいってもべんきょうしようとしない。",
+      "en": "No matter what I say, my son will not try to study.",
+      "note": "いくら言っても + ようとしない: a frustrated parent."
+    },
+    {
+      "ja": "医者の忠告を聞こうとしない。",
+      "reading": "いしゃのちゅうこくをきこうとしない。",
+      "en": "She will not listen to the doctor's advice.",
+      "note": "Ignoring advice."
+    },
+    {
+      "ja": "彼女は病院に行こうとしないので、心配だ。",
+      "reading": "かのじょはびょういんにいこうとしないので、しんぱいだ。",
+      "en": "She won't go to the hospital, so I am worried.",
+      "note": "The speaker observes another's unwillingness."
+    },
+    {
+      "ja": "猫はどんなに呼んでも、こちらに来ようとしなかった。",
+      "reading": "ねこはどんなによんでも、こちらにこようとしなかった。",
+      "en": "No matter how much I called, the cat would not come.",
+      "note": "Past ようとしなかった; animals as subjects are fine."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ない",
+      "difference": "Plain 'does not do'; ようとしない adds refusal or lack of any attempt."
+    },
+    {
+      "pattern": "〜たがらない",
+      "difference": "\"Does not want to\": describes desire, not attempt.",
+      "id": "n2-grammar-186"
+    },
+    {
+      "pattern": "〜ようとする",
+      "difference": "Affirmative: try to / be about to."
+    },
+    {
+      "pattern": "〜つもりはない",
+      "difference": "The speaker's own refusal."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は認めようとしない。",
+      "right": "私は認めるつもりはない。",
+      "why": "For yourself, state intention with つもりはない."
+    },
+    {
+      "wrong": "認めるとしない",
+      "right": "認めようとしない",
+      "why": "Use the volitional form."
+    },
+    {
+      "wrong": "雨が降ろうとしない。",
+      "right": "雨がなかなか降らない。",
+      "why": "The subject must be capable of intention (people, animals)."
+    }
+  ],
+  "usageNotes": [
+    "Frustration markers: いくら〜ても, 何度〜ても, なかなか.",
+    "Animals and even machines (personified) can be subjects: エンジンがかかろうとしない.",
+    "ようとしている (affirmative progressive) = is about to / is trying to."
+  ],
+  "jlptTips": [
+    "If the sentence complains that someone won't even try, choose ようとしない.",
+    "Check the form: volitional + としない.",
+    "Distractors include たがらない (desire), ない (plain), ようとする (affirmative)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-194-1",
+    "q-n2-g-194-2",
+    "q-n2-g-194-3",
+    "q-n2-g-194-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-194-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

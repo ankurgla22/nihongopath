@@ -1,0 +1,134 @@
+{
+  "id": "n2-grammar-190",
+  "slug": "ka",
+  "level": "n2",
+  "order": 190,
+  "title": "〜化",
+  "romaji": "-ka",
+  "meaning": "-ization, turn into (change into a state)",
+  "simpleExplanation": "〜化 attaches to nouns and な-adjective stems to express a change into that state: 自動化 (automation), 高齢化 (aging of society), 簡略化 (simplification). Adding する makes a verb (自動化する); される makes it passive (簡略化された). It is ubiquitous in news and reports about social and technological change.",
+  "whenUsed": "Written and formal spoken Japanese: news, business, academic texts. In conversation people say 〜になる / 〜にする (便利になる rather than 便利化).",
+  "formation": [
+    "Noun / な-adjective stem + 化 (noun)",
+    "〜化する (transitive or intransitive) / 〜化される (passive)",
+    "〜化が進む (the -ization advances)",
+    "Common: 高齢化・国際化・自動化・多様化・温暖化・少子化・デジタル化"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "自動",
+    "branches": [
+      {
+        "suffix": "化",
+        "result": "自動化",
+        "label": "automation (noun)"
+      },
+      {
+        "suffix": "化する",
+        "result": "自動化する",
+        "label": "to automate"
+      },
+      {
+        "suffix": "化される",
+        "result": "自動化される",
+        "label": "to be automated"
+      },
+      {
+        "suffix": "化が進む",
+        "result": "自動化が進む",
+        "label": "automation advances"
+      }
+    ],
+    "rootLabel": "Noun"
+  },
+  "examples": [
+    {
+      "ja": "日本では少子高齢化が進んでいる。",
+      "reading": "にほんではしょうしこうれいかがすすんでいる。",
+      "en": "In Japan, the declining birthrate and aging population are advancing.",
+      "note": "少子高齢化が進む: a social trend."
+    },
+    {
+      "ja": "事務作業を自動化した。",
+      "reading": "じむさぎょうをじどうかした。",
+      "en": "We automated the office work.",
+      "note": "自動化した: a transitive use."
+    },
+    {
+      "ja": "手続きが簡略化された。",
+      "reading": "てつづきがかんりゃくかされた。",
+      "en": "The procedure was simplified.",
+      "note": "簡略化された: passive."
+    },
+    {
+      "ja": "地球温暖化の影響で、異常気象が増えている。",
+      "reading": "ちきゅうおんだんかのえいきょうで、いじょうきしょうがふえている。",
+      "en": "Due to global warming, extreme weather is increasing.",
+      "note": "温暖化: a fixed news term."
+    },
+    {
+      "ja": "会社の書類はすべてデジタル化することになった。",
+      "reading": "かいしゃのしょるいはすべてデジタルかすることになった。",
+      "en": "It was decided to digitize all the company's documents.",
+      "note": "Katakana word + 化する."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜になる / 〜にする",
+      "difference": "Everyday 'become / make'."
+    },
+    {
+      "pattern": "〜性",
+      "difference": "Abstract quality (noun), not change.",
+      "id": "n2-grammar-189"
+    },
+    {
+      "pattern": "〜的",
+      "difference": "Adjective (-ic).",
+      "id": "n2-grammar-188"
+    },
+    {
+      "pattern": "〜づく (色づく)",
+      "difference": "Native suffix for gradual change; limited to a few words."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "高齢化になる",
+      "right": "高齢化する / 高齢化が進む",
+      "why": "化 already contains the idea of change; use する or が進む."
+    },
+    {
+      "wrong": "便利化する (in conversation)",
+      "right": "便利になる",
+      "why": "Not every word takes 化 naturally; 便利化 is rare."
+    },
+    {
+      "wrong": "国際化な社会",
+      "right": "国際化した社会 / 国際的な社会",
+      "why": "化 makes a noun or verb, not an adjective."
+    }
+  ],
+  "usageNotes": [
+    "Reading is always か.",
+    "News vocabulary: 少子化, 高齢化, 温暖化, 国際化, 情報化, 多様化.",
+    "化が進む / 化を進める are the most common frames."
+  ],
+  "jlptTips": [
+    "Word-formation questions test 化 versus 的 versus 性; 化 means change.",
+    "Learn the fixed social terms (少子高齢化, 温暖化) as vocabulary.",
+    "Check the verb frame: 化する / 化される / 化が進む."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-190-1",
+    "q-n2-g-190-2",
+    "q-n2-g-190-3",
+    "q-n2-g-190-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-190-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

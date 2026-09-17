@@ -1,0 +1,129 @@
+{
+  "id": "n3-grammar-79",
+  "slug": "ni-chigai-nai",
+  "level": "n3",
+  "order": 79,
+  "title": "〜に違いない",
+  "romaji": "ni chigai nai",
+  "meaning": "must be… / I'm sure that… (confident guess from evidence)",
+  "simpleExplanation": "〜に違いない means \"I'm sure it's X\". You see some evidence (the light is on) and draw a confident conclusion (someone must be there). It is a guess, not a fact: the speaker is convinced but has not confirmed it.",
+  "whenUsed": "Speech and writing, especially detective-style reasoning, worries and hopes. It sounds a little formal or literary; in casual talk people often say きっと〜だ or 〜に決まっている. Polite: 〜に違いありません.",
+  "formation": [
+    "Verb (plain form) + に違いない",
+    "い-adjective + に違いない",
+    "な-adjective (no な) + に違いない",
+    "Noun (no の) + に違いない",
+    "Polite: 〜に違いありません / Formal: 〜に相違ない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How sure is the speaker?",
+    "items": [
+      {
+        "label": "〜かもしれない",
+        "description": "Maybe (low certainty)."
+      },
+      {
+        "label": "〜だろう / 〜でしょう",
+        "description": "Probably."
+      },
+      {
+        "label": "〜はずだ",
+        "description": "Should be (reasoned expectation)."
+      },
+      {
+        "label": "〜に違いない",
+        "description": "Must be (strong, evidence-based conviction)."
+      },
+      {
+        "label": "〜に決まっている",
+        "description": "Obviously, definitely (emotional certainty)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "電気がついている。誰かいるに違いない。",
+      "reading": "でんきがついている。だれかいるにちがいない。",
+      "en": "The light is on. Someone must be there.",
+      "note": "Evidence (light on) → conclusion."
+    },
+    {
+      "ja": "彼女は疲れているに違いない。",
+      "reading": "かのじょはつかれているにちがいない。",
+      "en": "She must be tired.",
+      "note": "Verb ている + に違いない."
+    },
+    {
+      "ja": "これは高いに違いない。",
+      "reading": "これはたかいにちがいない。",
+      "en": "This must be expensive.",
+      "note": "い-adjective attaches directly."
+    },
+    {
+      "ja": "この字は彼のに違いない。",
+      "reading": "このじはかれのにちがいない。",
+      "en": "This handwriting must be his.",
+      "note": "彼の here means 'his (one)'; the noun phrase attaches directly to に違いない."
+    },
+    {
+      "ja": "こんなに静かなのだから、みんなもう寝たに違いありません。",
+      "reading": "こんなにしずかなのだから、みんなもうねたにちがいありません。",
+      "en": "It's so quiet, so everyone must have gone to bed already.",
+      "note": "Past guess: た-form + に違いない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に決まっている",
+      "difference": "More emotional and colloquial: 'obviously!'. に違いない is calmer and based on evidence.",
+      "id": "n3-grammar-80"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "'Should be' — a reasoned expectation, slightly weaker and more neutral."
+    },
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "'Looks like' — describes appearance, not a conclusion drawn from clues."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼女は元気なに違いない。",
+      "right": "彼女は元気に違いない。",
+      "why": "な-adjectives attach directly to に違いない without な."
+    },
+    {
+      "wrong": "犯人は彼のに違いない。(meaning 'the culprit must be him')",
+      "right": "犯人は彼に違いない。",
+      "why": "Nouns attach directly; の is only used when it means 'his one' (彼のもの)."
+    },
+    {
+      "wrong": "私は日本人に違いない。",
+      "right": "私は日本人だ。",
+      "why": "に違いない is for guesses. You do not guess about facts you already know."
+    }
+  ],
+  "usageNotes": [
+    "Often preceded by an evidence sentence or きっと.",
+    "〜たに違いない guesses about the past; 〜ているに違いない about a current state.",
+    "〜に相違ない is the stiff written version seen in documents."
+  ],
+  "jlptTips": [
+    "A sentence giving a clue (電気がついている, 足跡がある) followed by a blank almost always wants に違いない or はずだ; if the tone is a firm conclusion, pick に違いない.",
+    "Check the attachment: no な after な-adjectives and no の after nouns. Choices such as 元気なに違いない are traps.",
+    "Do not confuse with 〜に決まっている, which is emotional and often used to scold or insist."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-79-1",
+    "q-n3-g-79-2",
+    "q-n3-g-79-3",
+    "q-n3-g-79-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-79-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

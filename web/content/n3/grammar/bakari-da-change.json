@@ -1,0 +1,121 @@
+{
+  "id": "n3-grammar-99",
+  "slug": "bakari-da-change",
+  "level": "n3",
+  "order": 99,
+  "title": "〜ばかりだ (change)",
+  "romaji": "bakari da (change)",
+  "meaning": "only keeps …ing / does nothing but get… (worsening one-way change)",
+  "simpleExplanation": "〜ばかりだ (after a change verb) means the situation keeps moving in one bad direction: 成績は下がるばかりだ \"my grades just keep dropping\". It is always negative in feeling: things get worse and nothing improves. For a neutral or positive trend use 〜一方だ.",
+  "whenUsed": "Complaints and worried observations in speech and writing: 借金が増えるばかりだ, 状況は悪くなるばかりだ. Frequently followed by で + a further consequence: 増えるばかりで、減らない.",
+  "formation": [
+    "Verb (dictionary form, change verb) + ばかりだ",
+    "Connective: 〜ばかりで、〜",
+    "Past: 〜ばかりだった"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼の成績は",
+        "role": "topic"
+      },
+      {
+        "text": "下がる",
+        "role": "change verb (getting worse)",
+        "highlight": true
+      },
+      {
+        "text": "ばかりだ",
+        "role": "only keeps… (negative)",
+        "highlight": true
+      }
+    ],
+    "translation": "His grades only keep dropping."
+  },
+  "examples": [
+    {
+      "ja": "最近、仕事が忙しくなるばかりだ。",
+      "reading": "さいきん、しごとがいそがしくなるばかりだ。",
+      "en": "Lately work just keeps getting busier.",
+      "note": "Work keeps getting busier; a complaint."
+    },
+    {
+      "ja": "彼の成績は下がるばかりだ。",
+      "reading": "かれのせいせきはさがるばかりだ。",
+      "en": "His grades only keep dropping.",
+      "note": "Grades dropping: a clear worsening."
+    },
+    {
+      "ja": "借金は増えるばかりで、減らない。",
+      "reading": "しゃっきんはふえるばかりで、へらない。",
+      "en": "The debt only grows and never shrinks.",
+      "note": "ばかりで + the missing improvement (減らない)."
+    },
+    {
+      "ja": "薬を飲んでも、症状はひどくなるばかりだった。",
+      "reading": "くすりをのんでも、しょうじょうはひどくなるばかりだった。",
+      "en": "Even with the medicine, the symptoms just kept getting worse.",
+      "note": "Past: ばかりだった."
+    },
+    {
+      "ja": "話し合いを続けても、二人の関係は悪くなるばかりだ。",
+      "reading": "はなしあいをつづけても、ふたりのかんけいはわるくなるばかりだ。",
+      "en": "Even though they keep talking it over, their relationship only gets worse.",
+      "note": "Adjective + なる + ばかりだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜一方だ",
+      "difference": "Same structure but neutral: can be positive or negative.",
+      "id": "n3-grammar-98"
+    },
+    {
+      "pattern": "〜たばかりだ",
+      "difference": "'Just did' (食べたばかりだ). Different meaning; note the た-form."
+    },
+    {
+      "pattern": "〜ばかり (only)",
+      "difference": "'Nothing but' after nouns or て-forms: 遊んでばかりいる 'does nothing but play'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "成績はよくなるばかりだ。",
+      "right": "成績はよくなる一方だ。",
+      "why": "ばかりだ cannot describe improvement; use 一方だ for positive trends."
+    },
+    {
+      "wrong": "借金が増えたばかりだ。(meaning 'keeps increasing')",
+      "right": "借金が増えるばかりだ。",
+      "why": "With the た-form, ばかりだ means 'has just increased'. The trend meaning needs the dictionary form."
+    },
+    {
+      "wrong": "彼は文句を言うばかりだ。→ counted as this pattern",
+      "right": "(This is the 'only does X' use, not the change use.)",
+      "why": "言う is not a change verb; here ばかり means 'does nothing but complain'. The change meaning requires 増える/減る/なる-type verbs."
+    }
+  ],
+  "usageNotes": [
+    "Typical verbs: 増える, 減る, 悪くなる, ひどくなる, 下がる, 広がる, 遠ざかる.",
+    "The idea that nothing counteracts the trend is often stated: 〜ばかりで、少しもよくならない.",
+    "Related ばかり uses (〜たばかり, 〜てばかりいる, 〜ばかりか) are separate items; check the verb form."
+  ],
+  "jlptTips": [
+    "A negative trend + dictionary form + ばかりだ. If the trend is good, the answer is 一方だ.",
+    "Watch the verb form in the choices: た-form + ばかり is 'just did', not a trend.",
+    "ばかりで followed by a negative clause (減らない, よくならない) is a common pattern in 文法形式の判断."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-99-1",
+    "q-n3-g-99-2",
+    "q-n3-g-99-3",
+    "q-n3-g-99-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-99-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

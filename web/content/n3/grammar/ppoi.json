@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-56",
+  "slug": "ppoi",
+  "level": "n3",
+  "order": 56,
+  "title": "〜っぽい",
+  "romaji": "ppoi",
+  "meaning": "-ish / tends to… / seems like…",
+  "simpleExplanation": "〜っぽい turns a word into an い-adjective meaning \"has the quality of / looks like / tends to\": 子供っぽい = childish, 忘れっぽい = forgetful, 白っぽい = whitish. The feeling is often slightly negative or casual: the thing is not really X, it just seems X.",
+  "whenUsed": "Casual speech and writing. Conjugates like an い-adjective (っぽく, っぽかった). Common words: 怒りっぽい, 飽きっぽい, 安っぽい, 水っぽい, 男っぽい, 女っぽい.",
+  "formation": [
+    "Noun + っぽい (子供っぽい, 油っぽい)",
+    "Verb (ます stem) + っぽい (忘れっぽい, 怒りっぽい)",
+    "い-adjective stem + っぽい (安っぽい, 白っぽい)",
+    "Conjugates as an い-adjective"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "っぽい vs らしい vs みたい",
+    "columns": [
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "子供っぽい",
+        "cells": [
+          "childish (negative: acting like a child when not one)",
+          "大人なのに子供っぽい"
+        ]
+      },
+      {
+        "label": "子供らしい",
+        "cells": [
+          "childlike (positive: typical of a child)",
+          "子供らしい笑顔"
+        ]
+      },
+      {
+        "label": "子供みたい",
+        "cells": [
+          "like a child (neutral resemblance)",
+          "子供みたいに喜ぶ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は最近、忘れっぽくなった。",
+      "reading": "かれはさいきん、わすれっぽくなった。",
+      "en": "He's become forgetful lately.",
+      "note": "V-ます + っぽい: forgetful (a tendency)."
+    },
+    {
+      "ja": "子供っぽい服は着たくない。",
+      "reading": "こどもっぽいふくはきたくない。",
+      "en": "I don't want to wear childish clothes.",
+      "note": "N + っぽい: childish (negative)."
+    },
+    {
+      "ja": "この写真、少し白っぽいね。",
+      "reading": "このしゃしん、すこししろっぽいね。",
+      "en": "This photo looks a bit whitish.",
+      "note": "い-adjective stem + っぽい: whitish (color tint)."
+    },
+    {
+      "ja": "彼は怒りっぽいから、言葉に気をつけたほうがいい。",
+      "reading": "かれはおこりっぽいから、ことばにきをつけたほうがいい。",
+      "en": "He's quick-tempered, so you'd better watch your words.",
+      "note": "怒りっぽい: tends to get angry."
+    },
+    {
+      "ja": "このバッグ、デザインはいいけど、ちょっと安っぽいね。",
+      "reading": "このバッグ、デザインはいいけど、ちょっとやすっぽいね。",
+      "en": "This bag has a nice design, but it looks a bit cheap.",
+      "note": "安っぽい: looks cheap (not necessarily cheap)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜らしい",
+      "difference": "Typical of, in a good way: 男らしい (manly). っぽい can be critical."
+    },
+    {
+      "pattern": "〜がち",
+      "difference": "Tends to (actions, undesirable): 遅刻しがち. っぽい is about qualities and appearance.",
+      "id": "n3-grammar-57"
+    },
+    {
+      "pattern": "〜みたい / 〜のようだ",
+      "difference": "Neutral resemblance."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供らしい大人 (intended: childish)",
+      "right": "子供っぽい大人",
+      "why": "らしい is positive (\"a proper child\"); for a criticism use っぽい."
+    },
+    {
+      "wrong": "忘れるっぽい",
+      "right": "忘れっぽい",
+      "why": "Verbs attach with the ます stem."
+    },
+    {
+      "wrong": "白いっぽい",
+      "right": "白っぽい",
+      "why": "い-adjectives drop い before っぽい."
+    }
+  ],
+  "usageNotes": [
+    "子供っぽい (childish, negative) vs 子供らしい (childlike, appropriate). Common: 怒りっぽい, 飽きっぽい, 安っぽい, 水っぽい, 男っぽい.",
+    "In slang, っぽい after a clause means \"seems like\": 雨っぽい, 行くっぽい (very casual)."
+  ],
+  "jlptTips": [
+    "A description with a hint of criticism (acting like, looking cheap, tending to) = っぽい.",
+    "The らしい / っぽい contrast is a common item: positive typicality = らしい, negative imitation = っぽい.",
+    "Check the stem: ます stem for verbs, adjective stem without い."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-56-1",
+    "q-n3-g-56-2",
+    "q-n3-g-56-3",
+    "q-n3-g-56-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-56-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

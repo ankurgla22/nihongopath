@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-200",
+  "slug": "te-ite-wa",
+  "level": "n2",
+  "order": 200,
+  "title": "〜ていては",
+  "romaji": "te ite wa",
+  "meaning": "if one keeps on (doing), (a bad result will follow)",
+  "simpleExplanation": "Verb て + いては means \"if you keep doing X (as you are now), a bad result will follow\": そんなに遊んでいては、試験に落ちる. It criticizes a continuing state or habit and warns of its consequence. 〜てばかりいては strengthens it to 'if you do nothing but X'.",
+  "whenUsed": "Both speech and writing; common in warnings, advice, and self-criticism. The main clause is negative: 〜できない / 〜てしまう / 体を壊す / だめだ. In casual speech, ていたら or てたら is used.",
+  "formation": [
+    "Verb (て-form) + いては + negative result",
+    "Verb (て-form) + ばかりいては (if one does nothing but)",
+    "Casual: 〜ていたら / 〜てちゃ",
+    "Adjective / noun: 〜では (このままでは)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "そんなに遊んで",
+        "role": "the continuing behaviour (て-form)"
+      },
+      {
+        "text": "いては",
+        "role": "if you keep on like this",
+        "highlight": true
+      },
+      {
+        "text": "、試験に落ちるよ",
+        "role": "the bad consequence"
+      }
+    ],
+    "translation": "If you keep playing like that, you will fail the exam."
+  },
+  "examples": [
+    {
+      "ja": "そんなに遊んでいては、試験に落ちるよ。",
+      "reading": "そんなにあそんでいては、しけんにおちるよ。",
+      "en": "If you keep playing like that, you will fail the exam.",
+      "note": "A warning to a student."
+    },
+    {
+      "ja": "失敗を恐れていては、何もできない。",
+      "reading": "しっぱいをおそれていては、なにもできない。",
+      "en": "If you keep fearing failure, you can do nothing.",
+      "note": "A habit (fear of failure) and its consequence."
+    },
+    {
+      "ja": "毎日残業ばかりしていては、体を壊す。",
+      "reading": "まいにちざんぎょうばかりしていては、からだをこわす。",
+      "en": "If you do nothing but overtime every day, you will ruin your health.",
+      "note": "てばかりいては: doing nothing but overtime."
+    },
+    {
+      "ja": "毎晩夜更かしをしていては、体に悪いですよ。",
+      "reading": "まいばんよふかしをしていては、からだにわるいですよ。",
+      "en": "If you keep staying up late every night, it's bad for your health.",
+      "note": "Polite warning with ですよ."
+    },
+    {
+      "ja": "人に頼ってばかりいては、いつまでも成長できない。",
+      "reading": "ひとにたよってばかりいては、いつまでもせいちょうできない。",
+      "en": "If you keep relying on others, you will never grow.",
+      "note": "てばかりいては + できない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら / 〜ば",
+      "difference": "Neutral conditionals; ていては specifically criticizes a continuing state."
+    },
+    {
+      "pattern": "〜ては",
+      "difference": "\"If (repeatedly)\": 失敗しては困る; without いる, it is about single actions."
+    },
+    {
+      "pattern": "〜ようでは",
+      "difference": "\"If things are like this\": criticism of a situation; close in meaning."
+    },
+    {
+      "pattern": "〜てばかりいる",
+      "difference": "\"Do nothing but\": the state itself, without the conditional."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "そんなに遊んでいては、合格する。",
+      "right": "そんなに遊んでいては、合格できない。",
+      "why": "The main clause must be a negative result."
+    },
+    {
+      "wrong": "遊んでいるは、落ちる。",
+      "right": "遊んでいては、落ちる。",
+      "why": "The form is ていては."
+    },
+    {
+      "wrong": "勉強していては、合格する。",
+      "right": "勉強していれば、合格する。",
+      "why": "For a positive condition use ていれば; ていては is for bad outcomes."
+    }
+  ],
+  "usageNotes": [
+    "Often with そんなに / こんなに / 毎日 / いつまでも.",
+    "このままでは (if things stay like this) is the noun version.",
+    "Self-criticism: こんなことをしていては、だめだ."
+  ],
+  "jlptTips": [
+    "If the て-form + いては precedes a negative outcome, this pattern is the answer.",
+    "A positive outcome after ていては is wrong; that needs ていれば.",
+    "Distractors include ていれば, ていたら, ているのに. Only ていては is the warning conditional."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-200-1",
+    "q-n2-g-200-2",
+    "q-n2-g-200-3",
+    "q-n2-g-200-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-200-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,142 @@
+{
+  "id": "n4-grammar-16",
+  "slug": "you-ni-purpose",
+  "level": "n4",
+  "order": 16,
+  "title": "〜ように (purpose / so that)",
+  "romaji": "you ni (mokuteki)",
+  "meaning": "\"so that…\" — a purpose clause used with non-volitional verbs (potential, ない-form, なる, 分かる, 見える).",
+  "simpleExplanation": "〜ように links a goal to the action you take: 忘れないように、メモする = I make a note so that I don't forget. The word before ように is the goal, and it is usually something you cannot simply decide to do: a potential verb (聞こえる, 読める), a ない-form (忘れない, 遅れない) or a change verb (なる, 治る, 分かる). The main clause after ように is what you actually do to reach that goal.",
+  "whenUsed": "Everyday explanations of why you do something: speaking loudly so people can hear, taking medicine so you get better, writing furigana so children can read. Also in wishes at shrines (合格しますように) and in instructions (よく聞こえるように前に座ってください).",
+  "formation": [
+    "V-potential + ように: 読めるように, 聞こえるように, 分かるように",
+    "V-ない + ように: 忘れないように, 遅れないように",
+    "V-dictionary (non-volitional) + ように: なるように, 治るように, 間に合うように",
+    "The subject of the ように-clause may differ from the main clause (子供が読めるように、私がふりがなをつける)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ように vs ために for purpose",
+    "columns": [
+      "Verb before it",
+      "Same subject needed?",
+      "Typical goal",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ように",
+        "cells": [
+          "potential / ない / なる (things you cannot simply decide)",
+          "no",
+          "a state you hope for",
+          "聞こえるように大きい声で話す"
+        ]
+      },
+      {
+        "label": "〜ために",
+        "cells": [
+          "volitional action (買う, 行く, 勉強する)",
+          "yes",
+          "a deliberate action",
+          "本を買うために書店へ行く"
+        ]
+      },
+      {
+        "label": "wrong mix",
+        "cells": [
+          "ない + ために",
+          "-",
+          "-",
+          "×忘れないために → 忘れないように"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "忘れないように、手帳に書きます。",
+      "reading": "わすれないように、てちょうに かきます。",
+      "en": "I write it in my planner so I don't forget.",
+      "note": "ない-form + ように: the goal is avoiding something."
+    },
+    {
+      "ja": "後ろの人にも聞こえるように、大きい声で話した。",
+      "reading": "うしろの ひとにも きこえるように、おおきい こえで はなした。",
+      "en": "I spoke loudly so the people at the back could hear too.",
+      "note": "Potential 聞こえる + ように; the subject of the goal (後ろの人) differs from the doer (I)."
+    },
+    {
+      "ja": "早く治るように、薬を飲んでいます。",
+      "reading": "はやく なおるように、くすりを のんでいます。",
+      "en": "I'm taking medicine so that I get better quickly.",
+      "note": "Change verb 治る + ように: a state the speaker hopes for."
+    },
+    {
+      "ja": "子供にも読めるように、漢字にふりがなをつけました。",
+      "reading": "こどもにも よめるように、かんじに ふりがなを つけました。",
+      "en": "I added furigana to the kanji so that children can read them too.",
+      "note": "Potential verb + ように; the person who reads (children) and the person who acts (I) are different."
+    },
+    {
+      "ja": "会議に間に合うように、朝早く家を出た。",
+      "reading": "かいぎに まにあうように、あさ はやく いえを でた。",
+      "en": "I left home early in the morning so as to be in time for the meeting.",
+      "note": "間に合う is not something you simply decide to do, so it takes ように rather than ために."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ために (purpose)",
+      "difference": "ために takes a deliberate action verb and needs the same subject (日本へ行くために貯金する). ように takes potential / ない / change verbs.",
+      "id": "n4-grammar-41"
+    },
+    {
+      "pattern": "〜ようにする",
+      "difference": "Same ように, but with する as the main verb: \"make an effort to\". In this lesson the main clause is any action.",
+      "id": "n4-grammar-15"
+    },
+    {
+      "pattern": "〜ように (wish)",
+      "difference": "Sentence-final ように expresses a prayer or wish (合格できますように). Same idea of a hoped-for result, without a main clause.",
+      "id": "n4-grammar-108"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "忘れないために、メモしました。",
+      "right": "忘れないように、メモしました。",
+      "why": "A ない-form goal takes ように. ために wants a deliberate action in the affirmative."
+    },
+    {
+      "wrong": "日本語を話せるために、毎日練習しています。",
+      "right": "日本語が話せるように、毎日練習しています。",
+      "why": "Potential verbs are not deliberate actions, so they take ように. Note also that the object of a potential verb takes が."
+    },
+    {
+      "wrong": "本を買うように、書店へ行った。",
+      "right": "本を買うために、書店へ行った。",
+      "why": "買う is a deliberate action you decide to do, and the subject is the same, so ために is correct."
+    }
+  ],
+  "usageNotes": [
+    "A quick test: if you could put the goal into a command (\"buy!\", \"go!\"), use ために; if not (\"be able to hear!\", \"don't forget!\", \"get better!\"), use ように.",
+    "ように is usually followed by a comma in writing and a short pause in speech.",
+    "In casual speech the goal clause may come after the action: 大きい声で話したよ、後ろの人にも聞こえるように."
+  ],
+  "jlptTips": [
+    "In 文法形式 with ように / ために as options, look at the verb before the blank: a potential verb (読める, 聞こえる), a ない-form or なる points to ように.",
+    "In 並べ替え, the ように chunk usually sits right after the goal verb and before the action clause; the goal is often 〜ない or 〜られる."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-16-1",
+    "q-n4-g-16-2",
+    "q-n4-g-16-3",
+    "q-n4-g-16-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-16-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

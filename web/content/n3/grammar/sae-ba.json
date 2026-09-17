@@ -1,0 +1,135 @@
+{
+  "id": "n3-grammar-51",
+  "slug": "sae-ba",
+  "level": "n3",
+  "order": 51,
+  "title": "〜さえ〜ば",
+  "romaji": "sae ba",
+  "meaning": "If only… / as long as…",
+  "simpleExplanation": "〜さえ〜ば names one condition that is enough by itself: お金さえあれば、何でも買える = as long as you have money, you can buy anything. Nothing else matters. さえ marks the one thing; ば makes it a condition.",
+  "whenUsed": "Speech and writing, wishes and reassurances. Also negative: 〜さえ〜なければ (as long as X doesn't happen). Verb forms: V-ます stem + さえすれば, V-て + さえいれば.",
+  "formation": [
+    "Noun + さえ + Verb (ば form)",
+    "Verb (ます stem) + さえすれば",
+    "Verb (て form) + さえいれば",
+    "い-adjective (く) + さえあれば",
+    "な-adjective / Noun + でさえあれば",
+    "Negative: 〜さえ〜なければ"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "さえ〜ば",
+    "rootLabel": "one sufficient condition",
+    "branches": [
+      {
+        "suffix": "N + さえあれば",
+        "result": "お金さえあれば",
+        "label": "as long as there is money"
+      },
+      {
+        "suffix": "V-ます + さえすれば",
+        "result": "飲みさえすれば",
+        "label": "as long as you take it"
+      },
+      {
+        "suffix": "V-て + さえいれば",
+        "result": "寝てさえいれば",
+        "label": "as long as you keep sleeping"
+      },
+      {
+        "suffix": "い-adj + くさえあれば",
+        "result": "安くさえあれば",
+        "label": "as long as it's cheap"
+      },
+      {
+        "suffix": "な-adj + でさえあれば",
+        "result": "静かでさえあれば",
+        "label": "as long as it's quiet"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お金さえあれば、何でも買える。",
+      "reading": "おかねさえあれば、なんでもかえる。",
+      "en": "As long as you have money, you can buy anything.",
+      "note": "Noun + さえあれば: money is the one condition."
+    },
+    {
+      "ja": "薬を飲みさえすれば、治ります。",
+      "reading": "くすりをのみさえすれば、なおります。",
+      "en": "If you just take the medicine, you'll recover.",
+      "note": "V-ます stem + さえすれば: taking the medicine is enough."
+    },
+    {
+      "ja": "静かでさえあれば、どんな部屋でもいい。",
+      "reading": "しずかでさえあれば、どんなへやでもいい。",
+      "en": "As long as it's quiet, any room is fine.",
+      "note": "な-adjective + でさえあれば: quiet is the only requirement."
+    },
+    {
+      "ja": "君がそばにいてさえくれれば、ほかには何もいらない。",
+      "reading": "きみがそばにいてさえくれれば、ほかにはなにもいらない。",
+      "en": "As long as you're by my side, I don't need anything else.",
+      "note": "V-て + さえ + くれれば."
+    },
+    {
+      "ja": "あの事故さえなければ、彼は今も元気に働いていただろう。",
+      "reading": "あのじこさえなければ、かれはいまもげんきにはたらいていただろう。",
+      "en": "If only that accident hadn't happened, he'd still be working happily now.",
+      "note": "Negative: さえなければ = if only… not."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜さえ",
+      "difference": "\"Even\", without ば. Different meaning.",
+      "id": "n3-grammar-50"
+    },
+    {
+      "pattern": "〜ば",
+      "difference": "Neutral condition. さえ〜ば adds \"that alone is enough\"."
+    },
+    {
+      "pattern": "〜限り (N2)",
+      "difference": "\"As long as (a state continues)\": 生きている限り."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "薬を飲むさえすれば",
+      "right": "薬を飲みさえすれば",
+      "why": "Verbs attach with the ます stem before さえすれば."
+    },
+    {
+      "wrong": "安いさえあれば",
+      "right": "安くさえあれば",
+      "why": "い-adjectives use the く-form before さえあれば."
+    },
+    {
+      "wrong": "お金さえあったら、何でも買える。",
+      "right": "お金さえあれば、何でも買える。",
+      "why": "The pattern uses the ば-form; たら is not standard here."
+    }
+  ],
+  "usageNotes": [
+    "Emphasizes that nothing else is needed. Compare 〜ば (neutral condition). Negative: 〜さえ〜なければ.",
+    "Very often paired with a positive result or a wish (〜ば〜のに)."
+  ],
+  "jlptTips": [
+    "さえ before the blank and a result clause after = the blank is a ば-form (あれば, すれば, いれば).",
+    "Match the verb form: ます stem + さえすれば, て-form + さえいれば. Wrong stems are the trap.",
+    "For \"if only… hadn't\", the pattern is さえなければ."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-51-1",
+    "q-n3-g-51-2",
+    "q-n3-g-51-3",
+    "q-n3-g-51-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-51-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

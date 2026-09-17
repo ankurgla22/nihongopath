@@ -1,0 +1,146 @@
+{
+  "id": "n4-grammar-17",
+  "slug": "koto-ni-suru",
+  "level": "n4",
+  "order": 17,
+  "title": "〜ことにする \"decide to\"",
+  "romaji": "koto ni suru",
+  "meaning": "The speaker decides to do something (their own decision).",
+  "simpleExplanation": "〜ことにする means \"decide to\". You put it after a verb to announce a decision you made yourself: 日本語学校に通うことにしました = I decided to attend a Japanese school. The past form ことにした is most common because you usually talk about a decision already made. 〜ことにしている means you made a rule for yourself and keep it: お酒は飲まないことにしている = I make it a rule not to drink.",
+  "whenUsed": "Telling people about a decision you have made (jobs, study, travel, diet), giving a clear answer at a restaurant or shop (これにします / 魚にすることにした), and describing personal rules. It is used at every politeness level.",
+  "formation": [
+    "V-dictionary + ことにする: 行くことにする, 買うことにする",
+    "V-ない + ことにする: 行かないことにする, 食べないことにする",
+    "〜ことにした / 〜ことにしました: decided (most common)",
+    "〜ことにしている: a self-made rule or habit",
+    "Noun + にする: コーヒーにします (I'll have coffee)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ことにする vs ことになる",
+    "columns": [
+      "Who decides?",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ことにする",
+        "cells": [
+          "the speaker / subject",
+          "my own decision",
+          "会社を辞めることにした (I decided to quit)"
+        ]
+      },
+      {
+        "label": "〜ことになる",
+        "cells": [
+          "others / circumstances",
+          "it was decided, it turned out",
+          "会社を辞めることになった (it was decided I'd quit)"
+        ]
+      },
+      {
+        "label": "〜ことにしている",
+        "cells": [
+          "the speaker",
+          "a personal rule",
+          "毎朝走ることにしている"
+        ]
+      },
+      {
+        "label": "〜ことになっている",
+        "cells": [
+          "rules / schedules",
+          "it is arranged that",
+          "九時に始まることになっている"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "来月から日本語学校に通うことにしました。",
+      "reading": "らいげつから にほんごがっこうに かようことに しました。",
+      "en": "I've decided to attend a Japanese school from next month.",
+      "note": "ことにしました: a decision the speaker made and reports politely."
+    },
+    {
+      "ja": "お酒は飲まないことにしています。",
+      "reading": "おさけは のまないことに しています。",
+      "en": "I make it a rule not to drink alcohol.",
+      "note": "ない + ことにしている: a personal rule kept over time."
+    },
+    {
+      "ja": "今日は歩いて帰ることにする。",
+      "reading": "きょうは あるいて かえることに する。",
+      "en": "I'll walk home today (I've decided).",
+      "note": "Present ことにする: a decision made on the spot, spoken to oneself."
+    },
+    {
+      "ja": "来年、家族と一緒に北海道へ旅行することにしました。",
+      "reading": "らいねん、かぞくと いっしょに ほっかいどうへ りょこうすることに しました。",
+      "en": "We decided to travel to Hokkaido with the family next year.",
+      "note": "する-verb + ことにした: a decision made by the speaker and family."
+    },
+    {
+      "ja": "疲れているから、今日は残業しないことにするよ。",
+      "reading": "つかれているから、きょうは ざんぎょうしないことに するよ。",
+      "en": "I'm tired, so I'm going to decide not to do overtime today.",
+      "note": "ない + ことにする in the present: a decision made right now."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ことになる",
+      "difference": "ことになる = decided by someone else or by the situation. ことにする = decided by me.",
+      "id": "n4-grammar-18"
+    },
+    {
+      "pattern": "〜ようと思う",
+      "difference": "ようと思う is an intention still forming (\"I think I'll\"). ことにした is a decision already made.",
+      "id": "n4-grammar-3"
+    },
+    {
+      "pattern": "〜つもりだ",
+      "difference": "つもり is a plan or intention you hold. ことにした focuses on the moment of deciding."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎朝走ることにします。(for a habit you already keep)",
+      "right": "毎朝走ることにしています。",
+      "why": "A rule you follow now needs the ている form. ことにします is a new decision."
+    },
+    {
+      "wrong": "来月、大阪に転勤することにしました。(when the company decided)",
+      "right": "来月、大阪に転勤することになりました。",
+      "why": "A transfer decided by the company is not your own decision, so ことになる is required."
+    },
+    {
+      "wrong": "コーヒーを飲むことにします。(ordering at a cafe)",
+      "right": "コーヒーにします。",
+      "why": "When choosing an item, Noun + にする is enough and more natural."
+    }
+  ],
+  "usageNotes": [
+    "ことにした is polite-neutral; it works fine with a boss or teacher as a report of your decision.",
+    "〜ないことにする is a common way to express giving something up: たばこは吸わないことにした.",
+    "ことにしている also describes routines you keep on purpose: 週末は仕事のメールを見ないことにしている."
+  ],
+  "jlptTips": [
+    "The key cue is who decided. Words like 自分で, 私は, or a reason clause explaining the speaker's motive point to ことにする; 会社が, 先生が, 相談の結果 point to ことになる.",
+    "Options often mix ことにする / ことになる / ようにする. Check the sentence ending: 〜と決めた-type decisions need ことにする, habits with effort need ようにする."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-17-1",
+    "q-n4-g-17-2",
+    "q-n4-g-17-3",
+    "q-n4-g-17-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-17-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

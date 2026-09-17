@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-33",
+  "slug": "te-kureru",
+  "level": "n4",
+  "order": 33,
+  "title": "〜てくれる \"someone does (something) for me\"",
+  "romaji": "te kureru",
+  "meaning": "Someone does a favour for the speaker or the speaker's in-group.",
+  "simpleExplanation": "〜てくれる means \"someone does something for me\" (or for my family or group). 友達が駅まで送ってくれた = my friend took me to the station (as a kindness). The giver of the favour is the subject with が, and 私に is usually left out because it is obvious. The form adds a feeling of gratitude; without it (友達が送った) the sentence sounds cold. When the doer is a superior, use 〜てくださる.",
+  "whenUsed": "Thanking and reporting kindnesses received (母が作ってくれる, 先生が書いてくださった), and making requests: 〜てくれませんか (casual-polite) and 〜てくださいませんか (polite). Very common in daily conversation.",
+  "formation": [
+    "Person が V-て + くれる: 友達が送ってくれる",
+    "Receiver (私に) is usually omitted",
+    "Respectful: 〜てくださる (先生が教えてくださった)",
+    "Requests: 〜てくれる？ / 〜てくれませんか / 〜てくださいませんか"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "友達が",
+        "role": "doer (subject), the one who does the favour"
+      },
+      {
+        "text": "(私を)",
+        "role": "receiver: the speaker, usually omitted"
+      },
+      {
+        "text": "駅まで",
+        "role": "destination"
+      },
+      {
+        "text": "送って",
+        "role": "action (て-form)"
+      },
+      {
+        "text": "くれました",
+        "role": "favour toward the speaker",
+        "highlight": true
+      }
+    ],
+    "translation": "My friend took me to the station (for me). Same event from my side: 私は友達に駅まで送ってもらいました."
+  },
+  "examples": [
+    {
+      "ja": "友達が駅まで送ってくれました。",
+      "reading": "ともだちが えきまで おくってくれました。",
+      "en": "My friend took me to the station.",
+      "note": "Doer 友達が, receiver (私) omitted: a favour toward the speaker."
+    },
+    {
+      "ja": "母が毎朝お弁当を作ってくれる。",
+      "reading": "ははが まいあさ おべんとうを つくってくれる。",
+      "en": "My mother makes me a lunch box every morning.",
+      "note": "A regular kindness by a family member."
+    },
+    {
+      "ja": "先生が推薦状を書いてくださいました。",
+      "reading": "せんせいが すいせんじょうを かいてくださいました。",
+      "en": "My teacher wrote me a recommendation letter.",
+      "note": "てくださる: respectful form because the doer is a teacher."
+    },
+    {
+      "ja": "道に迷っていたら、親切な人が案内してくれました。",
+      "reading": "みちに まよっていたら、しんせつな ひとが あんないして くれました。",
+      "en": "When I got lost, a kind person showed me the way.",
+      "note": "てくれる expresses gratitude toward the stranger's help."
+    },
+    {
+      "ja": "すみません、ちょっとこの荷物を見ていてくれませんか。",
+      "reading": "すみません、ちょっと この にもつを みていて くれませんか。",
+      "en": "Excuse me, could you keep an eye on this luggage for a moment?",
+      "note": "てくれませんか is a polite request built on てくれる."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てもらう",
+      "difference": "Same event, different subject: 友達が送ってくれた (friend is subject) = 友達に送ってもらった (I am subject).",
+      "id": "n4-grammar-34"
+    },
+    {
+      "pattern": "〜てあげる",
+      "difference": "Opposite direction: I do the favour for someone else.",
+      "id": "n4-grammar-32"
+    },
+    {
+      "pattern": "〜てくれてありがとう",
+      "difference": "A set thank-you phrase built on てくれる: 来てくれてありがとう.",
+      "id": "n4-grammar-110"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私に友達が手伝ってあげた。",
+      "right": "友達が手伝ってくれた。",
+      "why": "A favour toward the speaker must use くれる."
+    },
+    {
+      "wrong": "先生が推薦状を書いてくれました。(in a formal setting)",
+      "right": "先生が推薦状を書いてくださいました。",
+      "why": "For a teacher or superior, the respectful くださる is expected."
+    },
+    {
+      "wrong": "友達に手伝ってくれた。",
+      "right": "友達が手伝ってくれた。/ 友達に手伝ってもらった。",
+      "why": "With くれる the doer takes が; に goes with もらう."
+    }
+  ],
+  "usageNotes": [
+    "Leaving out てくれる when someone did you a favour can sound ungrateful: 母が弁当を作った sounds like a bare report.",
+    "てくれる is also used for things done for your family or company: 隣の人が娘を助けてくれた.",
+    "In casual requests, 〜てくれる？ (手伝ってくれる？) is common among friends."
+  ],
+  "jlptTips": [
+    "The doer with が and a favour toward 私 (or my family) point to てくれる. If the doer has に, the answer is てもらう.",
+    "If the doer is 先生, 社長 or another superior, the option てくださった beats てくれた in polite contexts."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-33-1",
+    "q-n4-g-33-2",
+    "q-n4-g-33-3",
+    "q-n4-g-33-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-33-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

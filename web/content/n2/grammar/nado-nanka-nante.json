@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-97",
+  "slug": "nado-nanka-nante",
+  "level": "n2",
+  "order": 97,
+  "title": "〜など / 〜なんか / 〜なんて",
+  "romaji": "nado / nanka / nante",
+  "meaning": "such as, things like; (belittling) something like",
+  "simpleExplanation": "〜など / 〜なんか / 〜なんて mean \"such as, things like\", and in many sentences they belittle or express surprise: someone like me could never do that; I can't believe he would lie; I don't want anything like money. など is neutral, なんか and なんて are casual and emotional.",
+  "whenUsed": "など: both registers, neutral (\"etc.\"). なんか: 話し言葉, belittling or self-deprecating, follows nouns. なんて: 話し言葉, surprise, disbelief or disdain; can follow a whole clause (彼が嘘をつくなんて). Sentence-final なんて leaves the feeling implied.",
+  "formation": [
+    "N + など / なんか / なんて; 普通形 + なんて"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "From neutral to emotional",
+    "items": [
+      {
+        "label": "〜など",
+        "description": "Neutral listing: お茶やコーヒーなど."
+      },
+      {
+        "label": "〜なんか",
+        "description": "Casual, belittling: 私なんか, お金なんか."
+      },
+      {
+        "label": "〜なんて",
+        "description": "Surprise or disdain, after nouns or clauses: 嘘をつくなんて."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私なんか、とてもそんなことはできません。",
+      "reading": "わたしなんか、とてもそんなことはできません。",
+      "en": "Someone like me could never do such a thing.",
+      "note": "Self-deprecating なんか."
+    },
+    {
+      "ja": "彼が嘘をつくなんて、信じられない。",
+      "reading": "かれがうそをつくなんて、しんじられない。",
+      "en": "I can't believe that he would lie.",
+      "note": "Clause + なんて, disbelief."
+    },
+    {
+      "ja": "お金など、少しも欲しくない。",
+      "reading": "おかねなど、すこしもほしくない。",
+      "en": "I don't want anything like money at all.",
+      "note": "など with a negative: not even a bit."
+    },
+    {
+      "ja": "こんな簡単な問題、子供でも解けるなんて言わないでよ。",
+      "reading": "こんなかんたんなもんだい、こどもでもとけるなんていわないでよ。",
+      "en": "Don't say a kid could solve such an easy problem.",
+      "note": "Quoting with a dismissive tone."
+    },
+    {
+      "ja": "あんな高い店なんか、二度と行かない。",
+      "reading": "あんなたかいみせなんか、にどといかない。",
+      "en": "I'm never going to such an expensive place again.",
+      "note": "なんか + strong negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とは",
+      "difference": "Formal surprise (彼が嘘をつくとは); the written cousin of なんて."
+    },
+    {
+      "pattern": "〜ことか",
+      "difference": "Exclamation with a question word.",
+      "id": "n2-grammar-42"
+    },
+    {
+      "pattern": "〜くらい",
+      "difference": "\"Something as trivial as\" without the emotional disdain.",
+      "id": "n2-grammar-39"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（in a formal report）データなんかを見ると",
+      "right": "データなどを見ると",
+      "why": "なんか is casual and belittling; formal listing uses など."
+    },
+    {
+      "wrong": "彼が嘘をつくなんかを信じられない。",
+      "right": "彼が嘘をつくなんて信じられない。",
+      "why": "After a clause use なんて; なんか follows nouns."
+    },
+    {
+      "wrong": "私など、とても嬉しいです。",
+      "right": "私などには、もったいないお言葉です。",
+      "why": "私など/なんか is self-deprecating; it does not fit plain positive statements."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final なんて: 「彼が来ないなんて。」 (I can't believe he isn't coming.)",
+    "なんて + 言う = \"say something like\".",
+    "など is also used politely to soften suggestions: お茶などいかがですか."
+  ],
+  "jlptTips": [
+    "Neutral listing in formal text → など; casual belittling after a noun → なんか; surprise after a clause → なんて.",
+    "Distractors: とは, くらい, ばかり. とは is the formal counterpart of なんて and is not used in casual speech.",
+    "A clause before the blank rules out なんか."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-97-1",
+    "q-n2-g-97-2",
+    "q-n2-g-97-3",
+    "q-n2-g-97-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-97-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

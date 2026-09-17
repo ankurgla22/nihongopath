@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-7",
+  "slug": "imperative-form",
+  "level": "n4",
+  "order": 7,
+  "title": "Imperative form (命令形) \"Do!\"",
+  "romaji": "meirei-kei",
+  "meaning": "Blunt command. Used by superiors to subordinates, in emergencies, cheering, signs, and quoting instructions.",
+  "simpleExplanation": "The imperative is the blunt command form: 書け！ (Write!), 食べろ！ (Eat!), しろ！ (Do it!). It is short, strong and rough. In everyday polite life you rarely say it to someone's face, but you meet it constantly: on signs (止まれ), in cheering (頑張れ！), in emergencies (逃げろ！) and when quoting what someone ordered (「静かにしろ」と言われた).",
+  "whenUsed": "Superiors to subordinates in rough speech, parents to children, coaches and fans at sports events, emergency warnings, traffic signs, and reported commands (〜と言われた / と書いてある). Men use it more than women in casual speech.",
+  "formation": [
+    "Group 1: change the last う-row sound to the え-row: 書く→書け, 行く→行け, 急ぐ→急げ, 待つ→待て, 飲む→飲め",
+    "Group 2: drop る and add ろ: 食べる→食べろ, 見る→見ろ, 起きる→起きろ",
+    "Group 3: する→しろ, 来る→来い (こい)",
+    "Irregular: くれる→くれ (貸してくれ = lend it to me)",
+    "Negative command (prohibitive): dictionary form + な (lesson 8)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "書く / 食べる / する / 来る",
+    "rootLabel": "dictionary form",
+    "branches": [
+      {
+        "suffix": "u-row → e-row",
+        "result": "書け",
+        "label": "Group 1: Write!"
+      },
+      {
+        "suffix": "-る → -ろ",
+        "result": "食べろ",
+        "label": "Group 2: Eat!"
+      },
+      {
+        "suffix": "する → しろ",
+        "result": "しろ",
+        "label": "Group 3: Do it!"
+      },
+      {
+        "suffix": "来る → 来い",
+        "result": "来い (こい)",
+        "label": "Group 3: Come!"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "早く起きろ！",
+      "reading": "はやく おきろ！",
+      "en": "Get up quickly!",
+      "note": "Group 2: 起きる → 起きろ. A blunt wake-up call."
+    },
+    {
+      "ja": "頑張れ！",
+      "reading": "がんばれ！",
+      "en": "Go for it!",
+      "note": "Cheering: the imperative is normal and friendly here."
+    },
+    {
+      "ja": "先生に「静かにしろ」と言われた。",
+      "reading": "せんせいに「しずかに しろ」と いわれた。",
+      "en": "I was told \"be quiet\" by the teacher.",
+      "note": "Quoting an order: the imperative stays inside the quote."
+    },
+    {
+      "ja": "火事だ！早く逃げろ！",
+      "reading": "かじだ！はやく にげろ！",
+      "en": "Fire! Get out, quick!",
+      "note": "Emergencies are one of the few times the imperative is used to strangers."
+    },
+    {
+      "ja": "道路の標識に「止まれ」と書いてあった。",
+      "reading": "どうろの ひょうしきに「とまれ」と かいてあった。",
+      "en": "The road sign said \"Stop\".",
+      "note": "Signs use the imperative because it is short and clear."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なさい",
+      "difference": "A softer command used by parents and teachers and in exam instructions. Still not for superiors.",
+      "id": "n4-grammar-74"
+    },
+    {
+      "pattern": "Prohibitive 〜な",
+      "difference": "The negative command: 入るな (Don't enter). Same rough level.",
+      "id": "n4-grammar-8"
+    },
+    {
+      "pattern": "〜てください / 〜て",
+      "difference": "The normal polite and casual requests. Use these in daily conversation instead of the imperative."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ちょっと待て、先生。",
+      "right": "少々お待ちください、先生。",
+      "why": "The imperative is far too rough for a teacher or customer. Use お〜ください or 〜てください."
+    },
+    {
+      "wrong": "早く食べれ。",
+      "right": "早く食べろ。",
+      "why": "Group 2 verbs take ろ. The え-row change is only for Group 1 verbs (飲め, 書け)."
+    },
+    {
+      "wrong": "ここに来れ。",
+      "right": "ここに来い。",
+      "why": "来る has the irregular imperative 来い (こい)."
+    }
+  ],
+  "usageNotes": [
+    "In quoted speech the imperative is neutral: 医者に「毎日歩け」と言われた simply reports the instruction.",
+    "〜てくれ (手伝ってくれ) is the imperative of くれる and is a rough but common male request among friends.",
+    "The literary Group 2 imperative 〜よ (食べよ, せよ) appears in written instructions and exam wording (答えよ)."
+  ],
+  "jlptTips": [
+    "You are tested on recognising imperatives inside quotes and on signs: 「〜と書いてある」 or 「〜と言われた」 followed by 止まれ / 入れ / 来い.",
+    "Conjugation options may mix 来い / 来ろ / 来れ. Only 来い is correct; likewise しろ (or literary せよ) for する."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-7-1",
+    "q-n4-g-7-2",
+    "q-n4-g-7-3",
+    "q-n4-g-7-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-7-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

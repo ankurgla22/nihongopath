@@ -1,0 +1,141 @@
+{
+  "id": "n3-grammar-136",
+  "slug": "mi-nominalizer",
+  "level": "n3",
+  "order": 136,
+  "title": "〜み (nominalizer)",
+  "romaji": "mi (nominalizer)",
+  "meaning": "-ness (turns an adjective into a noun expressing a felt quality or the place/area with that quality)",
+  "simpleExplanation": "Adjective stem + み makes a noun for a quality as you feel it: 甘み \"sweetness (taste)\", 痛み \"pain\", 深み \"a sense of depth\", 楽しみ \"pleasure / something to look forward to\". Unlike さ, only a limited set of adjectives take み, and the meaning is subjective or sensory.",
+  "whenUsed": "Food descriptions (甘み, 苦み, 辛み), body sensations (痛み, かゆみ), emotions (悲しみ, 苦しみ, 楽しみ), and depth or weight of character (深み, 重み, 温かみ). Also places: 高み, 弱み / 強み (weak / strong point).",
+  "formation": [
+    "い-adjective stem + み (甘い → 甘み, 痛い → 痛み)",
+    "な-adjective stem + み (真剣 → 真剣み, 新鮮 → 新鮮み)",
+    "Limited set: 甘み, 苦み, 辛み, 痛み, 悲しみ, 楽しみ, 深み, 重み, 温かみ, 面白み, 強み, 弱み"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Same adjective, さ vs み",
+    "columns": [
+      "〜さ (measurable)",
+      "〜み (felt)"
+    ],
+    "rows": [
+      {
+        "label": "深い",
+        "cells": [
+          "深さ: depth in metres",
+          "深み: a sense of depth (in a story, a flavour)"
+        ]
+      },
+      {
+        "label": "重い",
+        "cells": [
+          "重さ: weight in kg",
+          "重み: weight of words, gravity"
+        ]
+      },
+      {
+        "label": "甘い",
+        "cells": [
+          "甘さ: sugar level",
+          "甘み: sweetness you taste"
+        ]
+      },
+      {
+        "label": "温かい",
+        "cells": [
+          "温かさ: temperature",
+          "温かみ: warmth of character"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この料理には少し甘みがある。",
+      "reading": "このりょうりにはすこしあまみがある。",
+      "en": "This dish has a slight sweetness to it.",
+      "note": "Taste: 甘みがある."
+    },
+    {
+      "ja": "彼女の言葉には重みがあった。",
+      "reading": "かのじょのことばにはおもみがあった。",
+      "en": "Her words carried weight.",
+      "note": "Abstract weight of words: 重み."
+    },
+    {
+      "ja": "足の痛みがなかなか取れない。",
+      "reading": "あしのいたみがなかなかとれない。",
+      "en": "The pain in my leg just won't go away.",
+      "note": "Sensation: 痛み."
+    },
+    {
+      "ja": "週末の旅行を楽しみにしている。",
+      "reading": "しゅうまつのりょこうをたのしみにしている。",
+      "en": "I'm looking forward to the weekend trip.",
+      "note": "楽しみにする = look forward to."
+    },
+    {
+      "ja": "この会社の強みは、技術力の高さだ。",
+      "reading": "このかいしゃのつよみは、ぎじゅつりょくのたかさだ。",
+      "en": "This company's strength is its high level of technology.",
+      "note": "強み = strong point; note 高さ (さ) for the measurable level."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜さ",
+      "difference": "Objective, measurable degree; works with almost all adjectives.",
+      "id": "n3-grammar-135"
+    },
+    {
+      "pattern": "〜性",
+      "difference": "Formal property nouns (可能性).",
+      "id": "n3-grammar-105"
+    },
+    {
+      "pattern": "〜気味",
+      "difference": "'A touch of' as a suffix (疲れ気味), not a noun of quality.",
+      "id": "n3-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この山の高み is 3,000 metres",
+      "right": "この山の高さは三千メートルだ。",
+      "why": "Measurement uses さ; 高み means 'a high place / height (figurative)'."
+    },
+    {
+      "wrong": "便利み",
+      "right": "便利さ",
+      "why": "便利 does not take み; only a limited set of adjectives do."
+    },
+    {
+      "wrong": "痛さがひどい (in normal speech)",
+      "right": "痛みがひどい",
+      "why": "Pain as a sensation is 痛み; 痛さ would stress the degree and sounds unusual here."
+    }
+  ],
+  "usageNotes": [
+    "楽しみ has two meanings: 'pleasure' and 'something to look forward to' (楽しみにしている).",
+    "強み / 弱み are business words: strengths and weaknesses.",
+    "Some words exist only with み: 悲しみ, 苦しみ, 憎しみ (from 憎い)."
+  ],
+  "jlptTips": [
+    "Taste, pain, emotion or 'a sense of' → み; numbers or measurable degree → さ.",
+    "If the adjective is not in the み set (便利, 長い, 広い), choose さ.",
+    "楽しみにする is a fixed phrase often tested in 聴解 and 読解."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-136-1",
+    "q-n3-g-136-2",
+    "q-n3-g-136-3",
+    "q-n3-g-136-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-136-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

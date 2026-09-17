@@ -1,0 +1,125 @@
+{
+  "id": "n4-grammar-66",
+  "slug": "tara-dou-desu-ka",
+  "level": "n4",
+  "order": 66,
+  "title": "〜たらどうですか \"how about doing…? / why don't you…?\"",
+  "romaji": "tara dou desu ka",
+  "meaning": "A gentle suggestion or piece of advice.",
+  "simpleExplanation": "〜たらどうですか literally asks \"if you did X, how would that be?\" and is the Japanese \"why don't you…?\" / \"how about…?\". It offers an idea without pushing: 少し休んだらどうですか = \"why don't you rest a bit?\". The casual form is 〜たらどう？ (or 〜たら？ alone) and the very polite form is 〜たらいかがですか. It is only for advising other people, never for describing your own plans.",
+  "whenUsed": "Friendly advice to friends, colleagues and customers when the listener seems stuck or unsure. Shops and service staff use 〜たらいかがですか to recommend something. Among close friends 〜たら？ alone with rising intonation is enough: 先生に聞いてみたら？",
+  "formation": [
+    "V-た + らどうですか: 休んだらどうですか",
+    "Casual: V-た + らどう？ / V-た + ら？: 相談したらどう？ 聞いてみたら？",
+    "Polite: V-た + らいかがですか: 一度ご覧になったらいかがですか",
+    "Often with てみる: 〜てみたらどうですか (why don't you try…)",
+    "No negative form: use 〜ないほうがいい to advise against something"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Suggestion forms from soft to strong",
+    "items": [
+      {
+        "label": "〜たら？ / 〜たらどう？",
+        "description": "casual, light: \"how about…?\" between friends"
+      },
+      {
+        "label": "〜たらどうですか",
+        "description": "polite, gentle suggestion; the listener decides"
+      },
+      {
+        "label": "〜たらいかがですか",
+        "description": "very polite, used to customers and superiors"
+      },
+      {
+        "label": "〜たほうがいい",
+        "description": "clear advice: \"you'd better…\" (lesson 65)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "疲れているなら、少し休んだらどうですか。",
+      "reading": "つかれているなら、すこし やすんだら どうですか。",
+      "en": "If you're tired, why don't you rest a bit?",
+      "note": "The condition (疲れているなら) sets up the suggestion; たらどうですか offers rest as one option."
+    },
+    {
+      "ja": "先生に相談したらどう？",
+      "reading": "せんせいに そうだんしたら どう？",
+      "en": "How about talking to the teacher?",
+      "note": "Casual たらどう？ to a friend."
+    },
+    {
+      "ja": "一度お医者さんに見てもらったらいかがですか。",
+      "reading": "いちど おいしゃさんに みてもらったら いかがですか。",
+      "en": "How about having a doctor look at it once?",
+      "note": "いかがですか: the polite version, natural to a customer or someone older."
+    },
+    {
+      "ja": "日本語が上手になりたいなら、日本人の友達を作ったらどうですか。",
+      "reading": "にほんごが じょうずに なりたいなら、にほんじんの ともだちを つくったら どうですか。",
+      "en": "If you want to get good at Japanese, why don't you make some Japanese friends?",
+      "note": "A suggestion in response to the listener's wish."
+    },
+    {
+      "ja": "そんなに悩んでいるなら、本人に直接聞いてみたら？",
+      "reading": "そんなに なやんでいるなら、ほんにんに ちょくせつ きいてみたら？",
+      "en": "If it's bothering you that much, why not just ask the person directly?",
+      "note": "Casual 〜てみたら？ with rising intonation; どう is dropped."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たほうがいい",
+      "difference": "Stronger advice that implies a problem if not followed. たらどうですか is a light suggestion the listener can freely refuse.",
+      "id": "n4-grammar-65"
+    },
+    {
+      "pattern": "〜ばいい / 〜たらいい",
+      "difference": "Tells the listener a solution (\"just do X\"). たらどうですか asks whether the listener would like to try X.",
+      "id": "n4-grammar-92"
+    },
+    {
+      "pattern": "〜ませんか",
+      "difference": "An invitation to do something together (一緒に行きませんか). たらどうですか is advice for the listener's own action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は明日、休んだらどうですか。",
+      "right": "私は明日、休もうと思います。",
+      "why": "たらどうですか advises another person. For your own plan use ようと思う or つもりだ."
+    },
+    {
+      "wrong": "お酒を飲まなかったらどうですか。",
+      "right": "お酒を飲まないほうがいいですよ。",
+      "why": "There is no negative たらどうですか. Advise against something with ないほうがいい."
+    },
+    {
+      "wrong": "休むたらどうですか。",
+      "right": "休んだらどうですか。",
+      "why": "The pattern needs the た-form: 休む → 休んだ + ら."
+    }
+  ],
+  "usageNotes": [
+    "The pattern usually appears after a condition or reason: 〜なら / 〜から / 〜ので、〜たらどうですか.",
+    "Repeating the suggestion, or using it with someone who did not ask for advice, can sound pushy. One suggestion is enough.",
+    "〜てみたらどうですか (\"why don't you try…\") is the most common combination in real speech."
+  ],
+  "jlptTips": [
+    "If the blank is followed by どうですか / いかがですか / どう？, the verb must be in the たら form. Distractors offer the dictionary form + たら or the て-form.",
+    "When the sentence is a gentle recommendation ending in a question mark and the listener is a customer or friend, prefer たらどうですか over たほうがいい."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-66-1",
+    "q-n4-g-66-2",
+    "q-n4-g-66-3",
+    "q-n4-g-66-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-66-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

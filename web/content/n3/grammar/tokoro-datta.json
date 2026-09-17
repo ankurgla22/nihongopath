@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-120",
+  "slug": "tokoro-datta",
+  "level": "n3",
+  "order": 120,
+  "title": "〜ところだった",
+  "romaji": "tokoro datta",
+  "meaning": "almost…ed / was about to… (but didn't) (narrow escape)",
+  "simpleExplanation": "〜ところだった means something nearly happened but did not: 電車に乗り遅れるところだった \"I almost missed the train\". It is usually about something bad that you narrowly avoided, and it goes with adverbs like もう少しで, 危うく, あやうく. The event did not happen.",
+  "whenUsed": "Telling stories about close calls in everyday speech and writing. Related tense uses: 〜ところだ (about to), 〜ているところだ (in the middle of), 〜たところだ (just did).",
+  "formation": [
+    "Verb (dictionary form) + ところだった",
+    "Often: もう少しで / 危うく / あやうく + Verb + ところだった",
+    "With a saving condition: 〜なかったら、〜ところだった (if not for…, I would have…)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "The ところ family",
+    "items": [
+      {
+        "label": "〜するところだ",
+        "description": "About to do it (hasn't started)."
+      },
+      {
+        "label": "〜しているところだ",
+        "description": "In the middle of doing it."
+      },
+      {
+        "label": "〜したところだ",
+        "description": "Just did it."
+      },
+      {
+        "label": "〜するところだった",
+        "description": "Almost did it, but didn't (narrow escape)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "もう少しで電車に乗り遅れるところだった。",
+      "reading": "もうすこしででんしゃにのりおくれるところだった。",
+      "en": "I almost missed the train.",
+      "note": "もう少しで + ところだった: almost missed the train."
+    },
+    {
+      "ja": "危うく車にひかれるところだった。",
+      "reading": "あやうくくるまにひかれるところだった。",
+      "en": "I was nearly run over by a car.",
+      "note": "危うく + ところだった: nearly run over."
+    },
+    {
+      "ja": "秘密を話してしまうところだった。",
+      "reading": "ひみつをはなしてしまうところだった。",
+      "en": "I almost let the secret slip.",
+      "note": "A secret almost slipped out."
+    },
+    {
+      "ja": "君が起こしてくれなかったら、寝坊するところだった。",
+      "reading": "きみがおこしてくれなかったら、ねぼうするところだった。",
+      "en": "If you hadn't woken me, I would have overslept.",
+      "note": "Condition + ところだった: what would have happened."
+    },
+    {
+      "ja": "危うく大事な書類を捨ててしまうところだった。",
+      "reading": "あやうくだいじなしょるいをすててしまうところだった。",
+      "en": "I very nearly threw away an important document.",
+      "note": "てしまう + ところだった stresses the unwanted result."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かける",
+      "difference": "An action that physically began (言いかけた). ところだった is about an event that nearly occurred.",
+      "id": "n3-grammar-88"
+    },
+    {
+      "pattern": "〜そうになった",
+      "difference": "'Nearly happened' with a similar meaning (転びそうになった); ところだった is slightly more dramatic."
+    },
+    {
+      "pattern": "〜はずだった",
+      "difference": "A failed expectation, not a near miss.",
+      "id": "n3-grammar-119"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "電車に乗り遅れたところだった。(meaning 'almost missed')",
+      "right": "電車に乗り遅れるところだった。",
+      "why": "The た-form + ところだ means 'had just…'; the near miss needs the dictionary form."
+    },
+    {
+      "wrong": "もう少しで合格するところだった。(said happily after passing)",
+      "right": "もう少しで不合格になるところだった。",
+      "why": "ところだった means the event did NOT happen; it usually describes a bad thing avoided."
+    },
+    {
+      "wrong": "危うく遅刻したところだった。",
+      "right": "危うく遅刻するところだった。",
+      "why": "Same error: dictionary form is required."
+    }
+  ],
+  "usageNotes": [
+    "The event described is usually negative; a positive near miss is expressed with 惜しい or そうになった.",
+    "〜ないところだった 'almost failed to' is also possible (気づかないところだった).",
+    "In 聴解, もう少しで signals a near-miss story."
+  ],
+  "jlptTips": [
+    "もう少しで / 危うく + blank → ところだった with the dictionary form.",
+    "Choices with たところだ mean 'just did'; do not pick them for near misses.",
+    "If a conditional clause (〜なかったら) precedes, ところだった is the natural ending."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-120-1",
+    "q-n3-g-120-2",
+    "q-n3-g-120-3",
+    "q-n3-g-120-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-120-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

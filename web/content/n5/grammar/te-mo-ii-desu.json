@@ -1,0 +1,115 @@
+{
+  "id": "n5-grammar-37",
+  "slug": "te-mo-ii-desu",
+  "level": "n5",
+  "order": 37,
+  "title": "てもいいです",
+  "romaji": "te mo ii desu",
+  "meaning": "\"You may ~ / it is all right to ~\" (permission).",
+  "simpleExplanation": "て-form + もいいです means \"you may ...\" or \"it's OK to ...\": 写真を撮ってもいいです \"You may take photos\". Add か to ask permission: 撮ってもいいですか \"May I take photos?\". It also works with the negative (なくてもいいです \"don't have to\") and with adjectives and nouns (小さくてもいいです \"small is fine\").",
+  "whenUsed": "Asking permission (in class, shops, someone's home), giving permission, and saying that something is acceptable as it is.",
+  "formation": [
+    "V-て + もいいです　／　い-adj stem + くてもいいです　／　な-adj・Noun + でもいいです"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "写真を撮ります",
+        "en": "I take photos"
+      },
+      {
+        "ja": "写真を撮ってもいいですか",
+        "en": "May I take photos? (asking)"
+      },
+      {
+        "ja": "はい、撮ってもいいですよ",
+        "en": "Yes, you may. (giving permission)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ここで写真を撮ってもいいですか。",
+      "reading": "ここで しゃしんを とっても いいですか。",
+      "en": "May I take photos here?",
+      "note": "Asking permission with か."
+    },
+    {
+      "ja": "明日は来なくてもいいです。",
+      "reading": "あしたは こなくても いいです。",
+      "en": "You don't have to come tomorrow.",
+      "note": "Negative て-form + もいいです = \"don't have to\"."
+    },
+    {
+      "ja": "部屋は小さくてもいいです。",
+      "reading": "へやは ちいさくても いいです。",
+      "en": "A small room is fine.",
+      "note": "い-adjective て-form 小さくて + もいいです."
+    },
+    {
+      "ja": "ここに座ってもいいですか。",
+      "reading": "ここに すわっても いいですか。",
+      "en": "May I sit here?",
+      "note": "座る (Group 1) → 座って."
+    },
+    {
+      "ja": "鉛筆でもいいですか。",
+      "reading": "えんぴつでも いいですか。",
+      "en": "Is a pencil OK?",
+      "note": "Noun + でもいいです."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-38",
+      "pattern": "てはいけません",
+      "difference": "The refusal: \"you must not\"."
+    },
+    {
+      "id": "n5-grammar-51",
+      "pattern": "なくてもいいです",
+      "difference": "The negative version: \"don't have to\"."
+    },
+    {
+      "id": "n5-grammar-36",
+      "pattern": "てください",
+      "difference": "A request (please do); てもいい is permission (you may)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "撮るもいいですか。",
+      "right": "撮ってもいいですか。",
+      "why": "も attaches to the て-form."
+    },
+    {
+      "wrong": "撮ってはいいですか。",
+      "right": "撮ってもいいですか。",
+      "why": "Permission uses も; ては is for prohibition (てはいけません)."
+    },
+    {
+      "wrong": "撮ってもいいでしたか。",
+      "right": "撮ってもよかったですか。",
+      "why": "いい is an い-adjective; its past is よかった."
+    }
+  ],
+  "usageNotes": [
+    "Asking permission: 〜てもいいですか. Answers: はい、どうぞ／いいですよ; refusal: すみません、ちょっと… or 〜てはいけません (#38). Plain casual form: 〜てもいい？"
+  ],
+  "jlptTips": [
+    "Blank + もいいですか → て-form. Blank + はいけません → て-form too, but the meaning is opposite; read the whole sentence.",
+    "Replies: はい、どうぞ／いいですよ for yes; すみません、ちょっと… or いいえ、〜てはいけません for no."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-37-1",
+    "q-n5-g-37-2",
+    "q-n5-g-37-3",
+    "q-n5-g-37-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-37-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

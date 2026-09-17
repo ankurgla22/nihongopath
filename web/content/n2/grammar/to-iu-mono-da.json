@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-83",
+  "slug": "to-iu-mono-da",
+  "level": "n2",
+  "order": 83,
+  "title": "〜というものだ",
+  "romaji": "to iu mono da",
+  "meaning": "that is exactly what ... is; (that's) simply ...",
+  "simpleExplanation": "〜というものだ means \"that is exactly what… is; that's simply…\". The speaker states a definition or judgment with confidence: helping each other in hard times, that is friendship; demanding it in a week is simply unreasonable.",
+  "whenUsed": "Both registers, assertive. It follows plain forms, な-adjectives and nouns directly (無理というものだ・友情というものだ). Spoken shortening: 〜というもんだ. It is used for general truths and firm evaluations, not for reporting or guessing.",
+  "formation": [
+    "V普通形 / Aい / Aな / N + というものだ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "困った時に助け合うのが",
+        "role": "the thing being defined"
+      },
+      {
+        "text": "友情",
+        "role": "the label / judgment"
+      },
+      {
+        "text": "というものだ",
+        "role": "that is exactly what X is",
+        "highlight": true
+      }
+    ],
+    "translation": "Helping each other in hard times — that's what friendship is."
+  },
+  "examples": [
+    {
+      "ja": "困った時に助け合うのが友情というものだ。",
+      "reading": "こまったときにたすけあうのがゆうじょうというものだ。",
+      "en": "Helping each other in hard times — that's what friendship is.",
+      "note": "Definition of a concept."
+    },
+    {
+      "ja": "一週間で完成させろというのは、無理というものだ。",
+      "reading": "いっしゅうかんでかんせいさせろというのは、むりというものだ。",
+      "en": "Demanding it be finished in a week is simply unreasonable.",
+      "note": "Judgment: 無理というものだ."
+    },
+    {
+      "ja": "それは考えすぎというものだ。",
+      "reading": "それはかんがえすぎというものだ。",
+      "en": "That's just overthinking.",
+      "note": "Judgment: 考えすぎというものだ."
+    },
+    {
+      "ja": "年を取ってから初めて分かるのが、親のありがたさというものだ。",
+      "reading": "としをとってからはじめてわかるのが、おやのありがたさというものだ。",
+      "en": "Only when you grow older do you understand how much you owe your parents — that's how it is.",
+      "note": "General truth."
+    },
+    {
+      "ja": "人に迷惑をかけておいて謝りもしないなんて、非常識というものだ。",
+      "reading": "ひとにめいわくをかけておいてあやまりもしないなんて、ひじょうしきというものだ。",
+      "en": "Causing trouble and not even apologizing — that's simply outrageous.",
+      "note": "Firm criticism."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜というものではない",
+      "difference": "The partial denial: \"it's not that…\".",
+      "id": "n2-grammar-84"
+    },
+    {
+      "pattern": "〜ということだ",
+      "difference": "Hearsay or conclusion, not a definition.",
+      "id": "n2-grammar-81"
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "General nature or nostalgia (人は忘れるものだ); というものだ is a pointed judgment.",
+      "id": "n2-grammar-188"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が来ないというものだ。（as hearsay）",
+      "right": "彼が来ないということだ。",
+      "why": "Hearsay uses ということだ."
+    },
+    {
+      "wrong": "無理なというものだ。",
+      "right": "無理というものだ。",
+      "why": "な-adjectives and nouns attach directly."
+    },
+    {
+      "wrong": "それは考えすぎというものだと思う？",
+      "right": "それは考えすぎというものだ。",
+      "why": "The pattern asserts; it is not used as a tentative question."
+    }
+  ],
+  "usageNotes": [
+    "Frequent labels: 無理, 非常識, 考えすぎ, わがまま, 甘え, 幸せ, 友情.",
+    "〜というもんだ in casual speech.",
+    "Often used in advice or to conclude an argument."
+  ],
+  "jlptTips": [
+    "A definition or firm evaluation (無理・非常識・友情) + blank → というものだ.",
+    "Distractors: ということだ (hearsay/conclusion), というものではない (denial), わけだ. Look for the assertive, generalizing tone.",
+    "In 並べ替え, 〜のが〜というものだ is a common frame."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-83-1",
+    "q-n2-g-83-2",
+    "q-n2-g-83-3",
+    "q-n2-g-83-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-83-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

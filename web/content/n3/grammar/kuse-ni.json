@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-109",
+  "slug": "kuse-ni",
+  "level": "n3",
+  "order": 109,
+  "title": "〜くせに",
+  "romaji": "kuse ni",
+  "meaning": "even though… / despite… (with criticism or contempt)",
+  "simpleExplanation": "〜くせに means \"even though\", but with a sneer: the speaker blames or looks down on the subject. 知っているくせに教えてくれない \"he knows, yet he won't tell me\". Both clauses have the same subject, and that subject is never the speaker (you do not sneer at yourself). For neutral \"even though\" use 〜のに.",
+  "whenUsed": "Casual speech, arguments, complaints, fiction dialogue. Never in polite writing or toward superiors. Sentence-final 〜くせに。 leaves the accusation hanging: 知っているくせに。",
+  "formation": [
+    "Verb (plain form) + くせに",
+    "い-adjective + くせに",
+    "な-adjective + な + くせに",
+    "Noun + の + くせに",
+    "Sentence-final: 〜くせに。"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "くせに vs のに",
+    "columns": [
+      "Feeling",
+      "Subject",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜くせに",
+        "cells": [
+          "Blame, contempt",
+          "Same in both clauses; not the speaker",
+          "知っているくせに教えない (he knows yet won't tell — how mean)"
+        ]
+      },
+      {
+        "label": "〜のに",
+        "cells": [
+          "Surprise, regret (neutral)",
+          "Can differ; can be the speaker",
+          "知っているのに教えない (he knows yet won't tell — strange)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は知っているくせに、教えてくれない。",
+      "reading": "かれはしっているくせに、おしえてくれない。",
+      "en": "Even though he knows, he won't tell me.",
+      "note": "Blame: he knows but won't tell."
+    },
+    {
+      "ja": "子供のくせに、生意気なことを言うな。",
+      "reading": "こどものくせに、なまいきなことをいうな。",
+      "en": "Don't be cheeky when you're just a kid.",
+      "note": "Noun + の + くせに; scolding a child."
+    },
+    {
+      "ja": "下手なくせに、自分では上手だと思っている。",
+      "reading": "へたなくせに、じぶんではじょうずだとおもっている。",
+      "en": "Even though he's bad at it, he thinks he's good.",
+      "note": "な-adjective + な + くせに; contempt for overconfidence."
+    },
+    {
+      "ja": "自分は何もしないくせに、人のやり方に文句ばかり言う。",
+      "reading": "じぶんはなにもしないくせに、ひとのやりかたにもんくばかりいう。",
+      "en": "He does nothing himself, yet he keeps complaining about how others do things.",
+      "note": "Negative verb + くせに."
+    },
+    {
+      "ja": "「本当は知ってるくせに。」",
+      "reading": "「ほんとうはしってるくせに。」",
+      "en": "\"You actually know, don't you (and you're pretending not to).\"",
+      "note": "Sentence-final use: the accusation is left unfinished."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のに",
+      "difference": "Neutral 'even though'; no blame; the subject can be the speaker.",
+      "id": "n3-grammar-110"
+    },
+    {
+      "pattern": "〜にもかかわらず (N2)",
+      "difference": "Formal 'despite'; neutral and written."
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "'For a…': judges against expectation without contempt (子供にしては上手だ).",
+      "id": "n3-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は学生のくせに、遊んでばかりいる。",
+      "right": "私は学生なのに、遊んでばかりいる。",
+      "why": "The speaker cannot be the target of くせに; use のに for self-criticism."
+    },
+    {
+      "wrong": "雨が降っているくせに、彼は出かけた。",
+      "right": "雨が降っているのに、彼は出かけた。",
+      "why": "くせに blames the subject for a contradiction in their own behaviour; rain is not the subject's fault, and the subjects differ."
+    },
+    {
+      "wrong": "子供くせに",
+      "right": "子供のくせに",
+      "why": "Nouns take の before くせに."
+    }
+  ],
+  "usageNotes": [
+    "〜くせして is a casual variant with the same meaning.",
+    "The tone is strong; even among friends it sounds like teasing or scolding.",
+    "Common with 知っている, できる, 男 / 女, 子供, 新人, 金持ち."
+  ],
+  "jlptTips": [
+    "If the sentence expresses annoyance at a person's inconsistent behaviour, choose くせに; if it is neutral surprise, choose のに.",
+    "The subject must not be 私; a first-person sentence rules out くせに.",
+    "Check attachment: な after な-adjectives, の after nouns."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-109-1",
+    "q-n3-g-109-2",
+    "q-n3-g-109-3",
+    "q-n3-g-109-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-109-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

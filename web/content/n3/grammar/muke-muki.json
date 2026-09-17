@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-102",
+  "slug": "muke-muki",
+  "level": "n3",
+  "order": 102,
+  "title": "〜向け / 〜向き",
+  "romaji": "muke / muki",
+  "meaning": "向け: intended for… (target audience); 向き: suitable for… (naturally suited)",
+  "simpleExplanation": "〜向け means something was made or designed for a certain group: 子供向けの本 \"a book (made) for children\". 〜向き means something happens to suit a group, whether or not it was designed for them: この仕事は若い人向きだ \"this job suits young people\". 向け = intention; 向き = suitability.",
+  "whenUsed": "Marketing, product descriptions, advice: 初心者向け, 海外向け, 女性向き. 向き also means facing a direction: 南向きの部屋. Both attach to nouns and take の before a noun, に before a verb, だ at the end.",
+  "formation": [
+    "Noun + 向け + だ / の Noun / に Verb (初心者向けに説明する)",
+    "Noun + 向き + だ / の Noun / に Verb",
+    "Negative of 向き: 不向き (unsuitable) / 向きではない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "向け vs 向き",
+    "columns": [
+      "Meaning",
+      "Who decides?",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜向け",
+        "cells": [
+          "Made for / aimed at",
+          "The maker intended it",
+          "子供向けの番組 (a programme made for children)"
+        ]
+      },
+      {
+        "label": "〜向き",
+        "cells": [
+          "Suits / is fit for",
+          "Nature or circumstances",
+          "子供向きの番組 (a programme that suits children)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これは子供向けの本だ。",
+      "reading": "これはこどもむけのほんだ。",
+      "en": "This is a book made for children.",
+      "note": "向け: written for children on purpose."
+    },
+    {
+      "ja": "この料理は辛いものが苦手な人向きではない。",
+      "reading": "このりょうりはからいものがにがてなひとむきではない。",
+      "en": "This dish is not suited to people who dislike spicy food.",
+      "note": "向きではない: does not suit people who dislike spice."
+    },
+    {
+      "ja": "初心者向けに、分かりやすく説明します。",
+      "reading": "しょしんしゃむけに、わかりやすくせつめいします。",
+      "en": "I'll explain simply, for beginners.",
+      "note": "向けに + verb: aimed at beginners."
+    },
+    {
+      "ja": "この製品は海外向けに開発された。",
+      "reading": "このせいひんはかいがいむけにかいはつされた。",
+      "en": "This product was developed for overseas markets.",
+      "note": "向けに + verb: target market."
+    },
+    {
+      "ja": "彼は細かい作業が苦手なので、この仕事には不向きだ。",
+      "reading": "かれはこまかいさぎょうがにがてなので、このしごとにはふむきだ。",
+      "en": "He is bad at detailed work, so he is unsuited to this job.",
+      "note": "不向き = not suited."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のための",
+      "difference": "'For the sake of' — general purpose; 向け specifically means the target audience of a product or message."
+    },
+    {
+      "pattern": "〜に適している",
+      "difference": "'Is suitable for' as a full predicate; 向き packs the same idea into a suffix."
+    },
+    {
+      "pattern": "〜用",
+      "difference": "'For use by/with' (子供用, 業務用): the practical use, close to 向け but about function rather than audience."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この本は子供向きに書かれた。",
+      "right": "この本は子供向けに書かれた。",
+      "why": "書かれた shows the writer's intention, so 向け (aimed at) is needed."
+    },
+    {
+      "wrong": "この気候は野菜作り向けだ。",
+      "right": "この気候は野菜作り向きだ。",
+      "why": "Climate is not 'made for' anything; it naturally suits, so 向き."
+    },
+    {
+      "wrong": "初心者向けな教材",
+      "right": "初心者向けの教材",
+      "why": "Before a noun both 向け and 向き take の."
+    }
+  ],
+  "usageNotes": [
+    "Direction sense: 南向き (facing south), 前向き (positive attitude), 後ろ向き (negative attitude).",
+    "向け appears in business writing: 若者向け, 法人向け, 輸出向け.",
+    "不向き is only for 向き; there is no 不向け."
+  ],
+  "jlptTips": [
+    "Ask 'was it designed for them?' → 向け; 'does it happen to suit them?' → 向き.",
+    "Verbs like 作る, 書く, 開発する in the passive point to 向け.",
+    "The direction meaning of 向き (南向き) can appear in vocabulary questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-102-1",
+    "q-n3-g-102-2",
+    "q-n3-g-102-3",
+    "q-n3-g-102-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-102-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

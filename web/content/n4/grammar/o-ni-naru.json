@@ -1,0 +1,129 @@
+{
+  "id": "n4-grammar-70",
+  "slug": "o-ni-naru",
+  "level": "n4",
+  "order": 70,
+  "title": "お〜になる / ご〜になる (respectful form)",
+  "romaji": "o- V-masu ni naru / go- N ni naru",
+  "meaning": "Generic respectful pattern for verbs without a special 尊敬語 form.",
+  "simpleExplanation": "お〜になる is the general way to make a verb respectful when there is no special verb like いらっしゃる. Take the ます-stem, put お in front and になる after: 帰る → お帰りになる (the respected person goes home). For kango する-verbs use ご: 出発する → ご出発になる. It is more respectful than 〜(ら)れる, and you use it about the actions of customers, bosses and teachers, never about yourself.",
+  "whenUsed": "Formal business talk, announcements and customer service when describing what a superior or customer does or did (お読みになりましたか, お使いになれます). Cannot be used with one-syllable stems (見る, 寝る, いる, 来る) or with する/来る themselves; those use special verbs (ご覧になる, お休みになる, いらっしゃる).",
+  "formation": [
+    "お + V-ます stem + になる: 帰る → お帰りになる, 書く → お書きになる, 使う → お使いになる",
+    "ご + する-verb stem (kango) + になる: 出発する → ご出発になる, 利用する → ご利用になる",
+    "Not for one-syllable stems: 見る → ご覧になる, 寝る → お休みになる, 来る → いらっしゃる",
+    "Prefer special verbs when they exist: 食べる → 召し上がる (not お食べになる)",
+    "Potential: お使いになれる (can use)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "帰る",
+        "en": "go home (plain)"
+      },
+      {
+        "ja": "帰り",
+        "en": "ます-stem"
+      },
+      {
+        "ja": "お帰り",
+        "en": "add the prefix お"
+      },
+      {
+        "ja": "お帰りになる",
+        "en": "add になる: respectful \"goes home\""
+      },
+      {
+        "ja": "お帰りになりました",
+        "en": "conjugate なる as usual: past polite"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "先生はもうお帰りになりました。",
+      "reading": "せんせいは もう おかえりに なりました。",
+      "en": "The teacher has already gone home.",
+      "note": "帰る → 帰り → お帰りになる, past polite お帰りになりました."
+    },
+    {
+      "ja": "この本をお読みになりましたか。",
+      "reading": "この ほんを およみに なりましたか。",
+      "en": "Have you read this book?",
+      "note": "読む → お読みになる; the question is about the listener's action."
+    },
+    {
+      "ja": "社長がご出発になります。",
+      "reading": "しゃちょうが ごしゅっぱつに なります。",
+      "en": "The president will depart.",
+      "note": "Kango する-verb: ご + 出発 + になる."
+    },
+    {
+      "ja": "こちらのペンをお使いになりますか。",
+      "reading": "こちらの ペンを おつかいに なりますか。",
+      "en": "Would you like to use this pen?",
+      "note": "使う → お使いになる, offered to a customer."
+    },
+    {
+      "ja": "先生は毎朝六時にお起きになるそうです。",
+      "reading": "せんせいは まいあさ ろくじに おおきに なるそうです。",
+      "en": "I hear the teacher gets up at six every morning.",
+      "note": "起きる → 起き → お起きになる. Works because the stem 起き has two syllables."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Special keigo verbs",
+      "difference": "When a special verb exists (いらっしゃる, 召し上がる, ご覧になる), use it instead of お〜になる.",
+      "id": "n4-grammar-69"
+    },
+    {
+      "pattern": "〜(ら)れる honorific",
+      "difference": "Lighter respect and easy to form (帰られる), but ambiguous with the passive. お〜になる is clearer and more polite.",
+      "id": "n4-grammar-71"
+    },
+    {
+      "pattern": "お〜する",
+      "difference": "The mirror image: same prefix, but with する and about your own action toward the person (お持ちします).",
+      "id": "n4-grammar-72"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お見になりましたか。",
+      "right": "ご覧になりましたか。",
+      "why": "One-syllable stems (見, 寝, い) cannot take お〜になる. 見る uses the special verb ご覧になる."
+    },
+    {
+      "wrong": "私は五時にお帰りになります。",
+      "right": "私は五時に帰ります。/ 失礼します。",
+      "why": "お〜になる raises the subject, so it can never describe the speaker."
+    },
+    {
+      "wrong": "お食べになりますか。",
+      "right": "召し上がりますか。",
+      "why": "食べる has the special respectful verb 召し上がる, which is preferred over the generic pattern."
+    }
+  ],
+  "usageNotes": [
+    "Respect ranking: special verb > お〜になる > 〜(ら)れる. In customer service, お〜になる and special verbs are the norm.",
+    "The pattern also appears in お〜になれます (can use), お〜になった (did) and お〜になっている (is doing).",
+    "Do not double up honorifics: ×お帰りになられる (お〜になる + られる) is a well-known error called 二重敬語."
+  ],
+  "jlptTips": [
+    "The subject is the cue: 先生 / 社長 / お客様 + blank → respectful form. Then check whether a special verb exists before choosing お〜になる.",
+    "Distractors include お + dictionary form + になる (×お帰るになる) and 二重敬語 (×お帰りになられる). Only お + ます-stem + になる is correct."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-70-1",
+    "q-n4-g-70-2",
+    "q-n4-g-70-3",
+    "q-n4-g-70-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-70-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

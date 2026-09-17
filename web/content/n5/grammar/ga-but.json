@@ -1,0 +1,117 @@
+{
+  "id": "n5-grammar-66",
+  "slug": "ga-but",
+  "level": "n5",
+  "order": 66,
+  "title": "が (but)",
+  "romaji": "ga (but)",
+  "meaning": "\"~, but ~\" — joins two contrasting clauses; also a soft introduction (\"~, and…\").",
+  "simpleExplanation": "が between two clauses means \"but\": 日本語は難しいですが、面白いです \"Japanese is difficult, but it's interesting\". It joins two sentences into one, and the first clause usually keeps its polite form (ですが／ますが). It is also used as a soft opener: すみませんが… \"Excuse me, but...\". This が is not the subject particle; it comes after a full clause, not after a noun.",
+  "whenUsed": "Contrasting two facts, disappointing results (I went but didn't buy anything), and polite lead-ins before a request.",
+  "formation": [
+    "Clause 1 (polite or plain) + が、Clause 2"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "日本語は難しいです",
+        "role": "clause 1"
+      },
+      {
+        "text": "が",
+        "role": "but",
+        "highlight": true
+      },
+      {
+        "text": "面白いです",
+        "role": "clause 2 (contrast)"
+      }
+    ],
+    "translation": "Japanese is difficult, but it's interesting."
+  },
+  "examples": [
+    {
+      "ja": "日本語は難しいですが、面白いです。",
+      "reading": "にほんごは むずかしいですが、おもしろいです。",
+      "en": "Japanese is difficult, but it's interesting.",
+      "note": "Polite clause + が + polite clause."
+    },
+    {
+      "ja": "昨日デパートへ行きましたが、何も買いませんでした。",
+      "reading": "きのう デパートへ いきましたが、なにも かいませんでした。",
+      "en": "I went to the department store yesterday, but I didn't buy anything.",
+      "note": "Past contrast: went but didn't buy."
+    },
+    {
+      "ja": "すみませんが、ペンを貸してください。",
+      "reading": "すみませんが、ペンを かしてください。",
+      "en": "Excuse me, but could you lend me a pen?",
+      "note": "Soft opener: すみませんが."
+    },
+    {
+      "ja": "この店は安いですが、あまりおいしくないです。",
+      "reading": "この みせは やすいですが、あまり おいしくないです。",
+      "en": "This shop is cheap, but not very good.",
+      "note": "Contrast between two qualities."
+    },
+    {
+      "ja": "田中さんは来ましたが、山田さんは来ませんでした。",
+      "reading": "たなかさんは きましたが、やまださんは きませんでした。",
+      "en": "Mr Tanaka came, but Ms Yamada didn't.",
+      "note": "Two topics with は, contrasted with が."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-67",
+      "pattern": "けど",
+      "difference": "The casual equivalent."
+    },
+    {
+      "id": "n5-grammar-68",
+      "pattern": "でも",
+      "difference": "でも starts a new sentence; が joins two clauses in one."
+    },
+    {
+      "id": "n5-grammar-6",
+      "pattern": "が (subject)",
+      "difference": "After a noun, が is the subject particle; after a clause, it is \"but\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語は難しいです。が、面白いです。",
+      "right": "日本語は難しいですが、面白いです。",
+      "why": "が joins clauses inside one sentence; to start a new sentence use でも."
+    },
+    {
+      "wrong": "高いですが、買いません。(when there is no contrast)",
+      "right": "高いから、買いません。",
+      "why": "が means \"but\". If the second clause follows logically from the first, use から."
+    },
+    {
+      "wrong": "高いが、買います。(in a polite conversation)",
+      "right": "高いですが、買います。",
+      "why": "In polite speech, keep です／ます before が."
+    }
+  ],
+  "usageNotes": [
+    "In polite speech both clauses are usually polite (〜ですが、〜です). This が is a conjunction, not the subject particle (#6). Sentence-initial equivalent: でも (#68). けど (#67) is the casual counterpart."
+  ],
+  "jlptTips": [
+    "If the two clauses contrast (difficult / interesting, went / didn't buy), the connector is が or けど. If the second follows from the first, it is から／ので.",
+    "すみませんが and 失礼ですが are fixed polite openers; expect が after them."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-66-1",
+    "q-n5-g-66-2",
+    "q-n5-g-66-3",
+    "q-n5-g-66-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-66-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

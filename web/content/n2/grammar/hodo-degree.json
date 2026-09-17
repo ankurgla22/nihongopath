@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-147",
+  "slug": "hodo-degree",
+  "level": "n2",
+  "order": 147,
+  "title": "〜ほど",
+  "romaji": "hodo",
+  "meaning": "(1) so … that, to the extent that; (2) about (approximate amount)",
+  "simpleExplanation": "〜ほど has two main uses. As a degree marker it means \"so much that X\": 涙が出るほど嬉しい (so happy that tears came); the clause before ほど gives a vivid measure of the degree. With numbers it means \"about\": 一週間ほど (about a week). Both uses are neutral, and the degree use is slightly more emphatic and written than くらい.",
+  "whenUsed": "Everywhere. Degree ほど appears in vivid descriptions (死ぬほど疲れた); approximate ほど is a polite way to soften numbers in requests (三日ほどお休みをいただきたい).",
+  "formation": [
+    "Verb / い-adjective (plain form) + ほど (degree)",
+    "Noun + ほど (山ほど = a mountain of)",
+    "Number + counter + ほど (about)",
+    "Common set phrases: 死ぬほど / 泣きたいほど / 数え切れないほど / 山ほど"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Degree ほど",
+      "Approximate ほど"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "to the extent that; so … that",
+          "about, approximately"
+        ]
+      },
+      {
+        "label": "Front word",
+        "cells": [
+          "clause or vivid noun: 涙が出る, 死ぬ, 山",
+          "number + counter: 一週間, 十人"
+        ]
+      },
+      {
+        "label": "Near-synonym",
+        "cells": [
+          "くらい (more casual)",
+          "くらい / ぐらい / 約"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "死ぬほど疲れた",
+          "一週間ほど休む"
+        ]
+      }
+    ],
+    "title": "Two uses of ほど"
+  },
+  "examples": [
+    {
+      "ja": "涙が出るほど嬉しかった。",
+      "reading": "なみだがでるほどうれしかった。",
+      "en": "I was so happy that tears came.",
+      "note": "Degree: happiness measured by tears."
+    },
+    {
+      "ja": "今日は死ぬほど疲れた。",
+      "reading": "きょうはしぬほどつかれた。",
+      "en": "Today I am dead tired.",
+      "note": "Degree: a vivid exaggeration, 死ぬほど."
+    },
+    {
+      "ja": "一週間ほど休みを取りたい。",
+      "reading": "いっしゅうかんほどやすみをとりたい。",
+      "en": "I would like to take about a week off.",
+      "note": "Approximate: about a week, softening a request."
+    },
+    {
+      "ja": "今日は数え切れないほどの人が集まった。",
+      "reading": "きょうはかぞえきれないほどのひとがあつまった。",
+      "en": "Today, countless people gathered.",
+      "note": "ほどの + noun: degree used to modify a noun."
+    },
+    {
+      "ja": "駅から歩いて十分ほどのところに住んでいる。",
+      "reading": "えきからあるいてじゅっぷんほどのところにすんでいる。",
+      "en": "I live about ten minutes' walk from the station.",
+      "note": "Approximate ほど with の before a noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜くらい / 〜ぐらい",
+      "difference": "Nearly the same in both uses; くらい is more casual and can sound like 'at least'. ほど is preferred in writing."
+    },
+    {
+      "pattern": "〜ば〜ほど",
+      "difference": "\"The more … the more\": a different pattern built with ほど.",
+      "id": "n2-grammar-139"
+    },
+    {
+      "pattern": "〜ほど〜ない",
+      "difference": "\"Not as … as\": comparison.",
+      "id": "n2-grammar-148"
+    },
+    {
+      "pattern": "約 / およそ",
+      "difference": "Written 'approximately'; placed before the number."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "十人ほどぐらい来た。",
+      "right": "十人ほど来た。/ 十人ぐらい来た。",
+      "why": "Do not stack ほど and ぐらい."
+    },
+    {
+      "wrong": "嬉しいほど涙が出た。",
+      "right": "涙が出るほど嬉しかった。",
+      "why": "The measure of the degree goes before ほど; the emotion follows."
+    },
+    {
+      "wrong": "これは一円ほど安い。(for a tiny amount, casual)",
+      "right": "これは一円くらい安い。",
+      "why": "For trivial amounts in casual speech, くらい sounds more natural."
+    }
+  ],
+  "usageNotes": [
+    "Vivid set phrases: 死ぬほど, 泣きたいほど, 山ほど, 腐るほど (colloquial).",
+    "In polite requests, 〜ほど softens numbers: 二、三日ほどお時間をいただけますか.",
+    "Before a noun, add の: 十分ほどの距離."
+  ],
+  "jlptTips": [
+    "If the clause before ほど gives a vivid measure and the sentence ends with a feeling or state, it is degree ほど.",
+    "With a number, ほど is 'about'; do not choose it when the sentence needs 'exactly'.",
+    "Distractors include だけ, ばかり, くらい; ほど is usually right when the register is written or the degree is extreme."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-147-1",
+    "q-n2-g-147-2",
+    "q-n2-g-147-3",
+    "q-n2-g-147-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-147-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

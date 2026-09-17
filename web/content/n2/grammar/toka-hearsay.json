@@ -1,0 +1,128 @@
+{
+  "id": "n2-grammar-198",
+  "slug": "toka-hearsay",
+  "level": "n2",
+  "order": 198,
+  "title": "〜とか",
+  "romaji": "toka",
+  "meaning": "I hear that, they say (vague hearsay)",
+  "simpleExplanation": "Sentence-final 〜とか reports something heard without being sure of the details: 田中さんは来月結婚するとか (I hear Tanaka is getting married). It is vaguer than そうだ and can sound like gossip. 〜とか聞いた makes the hearsay explicit; 〜とかで means 'apparently because'.",
+  "whenUsed": "Casual to neutral speech. Not used in formal writing, where によると〜ということだ is preferred. Do not confuse it with the listing とか (パンとかご飯とか).",
+  "formation": [
+    "Plain form + とか (sentence-final)",
+    "Plain form + とか聞いた / とか言っていた",
+    "Plain form + とかで (apparently because)",
+    "Noun + だとか"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Hearsay by certainty",
+    "items": [
+      {
+        "label": "〜そうだ / 〜ということだ",
+        "description": "reported clearly from a source"
+      },
+      {
+        "label": "〜らしい",
+        "description": "seems, based on what one heard"
+      },
+      {
+        "label": "〜とか",
+        "description": "I hear vaguely; not sure of details"
+      },
+      {
+        "label": "〜とかいう",
+        "description": "something called / someone called (very vague)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "田中さんは来月結婚するとか。",
+      "reading": "たなかさんはらいげつけっこんするとか。",
+      "en": "I hear Tanaka is getting married next month.",
+      "note": "Vague hearsay about a marriage."
+    },
+    {
+      "ja": "明日は大雪になるとか聞いた。",
+      "reading": "あしたはおおゆきになるとかきいた。",
+      "en": "I heard something about heavy snow tomorrow.",
+      "note": "とか聞いた: explicit 'I heard something like'."
+    },
+    {
+      "ja": "彼は会社を辞めたとかで、連絡が取れない。",
+      "reading": "かれはかいしゃをやめたとかで、れんらくがとれない。",
+      "en": "He apparently quit the company or something, and I can't reach him.",
+      "note": "とかで: apparently because."
+    },
+    {
+      "ja": "あの店、来月閉店するとか。",
+      "reading": "あのみせ、らいげつへいてんするとか。",
+      "en": "I hear that shop is closing next month.",
+      "note": "Casual, unfinished sentence typical of とか."
+    },
+    {
+      "ja": "彼女は忙しいとかで、パーティーには来ないらしい。",
+      "reading": "かのじょはいそがしいとかで、パーティーにはこないらしい。",
+      "en": "She apparently is busy or something, and won't come to the party.",
+      "note": "とかで + らしい: two layers of vagueness."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (hearsay)",
+      "difference": "Clear report; とか is vague and less certain."
+    },
+    {
+      "pattern": "〜らしい",
+      "difference": "Inference from what one heard; a bit more confident than とか."
+    },
+    {
+      "pattern": "〜によると",
+      "difference": "Marks the source explicitly.",
+      "id": "n2-grammar-133"
+    },
+    {
+      "pattern": "〜とか〜とか (listing)",
+      "difference": "Different function: 'things like A and B'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "報告書：売上が減ったとか。",
+      "right": "報告書：売上が減ったということである。",
+      "why": "とか is too casual and vague for a report."
+    },
+    {
+      "wrong": "彼は来ないとかそうだ。",
+      "right": "彼は来ないとか。/ 彼は来ないそうだ。",
+      "why": "Do not stack とか and そうだ."
+    },
+    {
+      "wrong": "忙しいとかで、休む。(with certainty)",
+      "right": "忙しいので、休む。",
+      "why": "とかで implies you are not sure of the reason; do not use it for facts you know."
+    }
+  ],
+  "usageNotes": [
+    "A sentence ending in とか often trails off, inviting the listener to react.",
+    "Noun + だとか: 社長だとか.",
+    "〜とかいう人 = someone called…(vague name)."
+  ],
+  "jlptTips": [
+    "If the sentence is casual hearsay with a trailing ending, choose とか.",
+    "Distinguish hearsay とか (after a clause, sentence-final) from listing とか (between nouns).",
+    "Distractors include そうだ, らしい, ということだ. Register and certainty decide."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-198-1",
+    "q-n2-g-198-2",
+    "q-n2-g-198-3",
+    "q-n2-g-198-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-198-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

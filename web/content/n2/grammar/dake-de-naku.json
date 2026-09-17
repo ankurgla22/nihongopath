@@ -1,0 +1,124 @@
+{
+  "id": "n2-grammar-61",
+  "slug": "dake-de-naku",
+  "level": "n2",
+  "order": 61,
+  "title": "〜だけでなく",
+  "romaji": "dake de naku",
+  "meaning": "not only ... but also",
+  "simpleExplanation": "〜だけでなく means \"not only… but also…\". The first item is the expected one, and the second clause adds something more, usually marked with も: he speaks not only English but Chinese too; this shop is not only cheap, the service is good too.",
+  "whenUsed": "Both registers; the neutral, everyday choice. It follows plain forms and nouns directly (な-adjectives take な or である). More formal equivalents: 〜のみならず, 〜ばかりでなく; for widening from a typical case, 〜に限らず.",
+  "formation": [
+    "普通形 + だけでなく / N + だけでなく (+ 〜も)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"Not only\" by formality",
+    "items": [
+      {
+        "label": "〜だけでなく",
+        "description": "Neutral, everyday."
+      },
+      {
+        "label": "〜ばかりでなく",
+        "description": "Slightly more formal or emphatic."
+      },
+      {
+        "label": "〜のみならず",
+        "description": "Formal written."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は英語だけでなく、中国語も話せる。",
+      "reading": "かれはえいごだけでなく、ちゅうごくごもはなせる。",
+      "en": "He can speak not only English but also Chinese.",
+      "note": "N + だけでなく + N も."
+    },
+    {
+      "ja": "この店は安いだけでなく、サービスもいい。",
+      "reading": "このみせはやすいだけでなく、サービスもいい。",
+      "en": "This shop is not only cheap, the service is good too.",
+      "note": "Aい + だけでなく."
+    },
+    {
+      "ja": "勉強するだけでなく、実践することが大切だ。",
+      "reading": "べんきょうするだけでなく、じっせんすることがたいせつだ。",
+      "en": "It's important not only to study but to practice.",
+      "note": "Vる + だけでなく."
+    },
+    {
+      "ja": "このアプリは便利なだけでなく、無料で使える。",
+      "reading": "このアプリはべんりなだけでなく、むりょうでつかえる。",
+      "en": "This app is not only handy, it can also be used for free.",
+      "note": "な-adjective + な + だけでなく."
+    },
+    {
+      "ja": "彼は自分の仕事だけでなく、同僚の仕事まで手伝っている。",
+      "reading": "かれはじぶんのしごとだけでなく、どうりょうのしごとまでてつだっている。",
+      "en": "He helps not only with his own work but even with his colleagues'.",
+      "note": "まで marks the surprising addition."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばかりでなく",
+      "difference": "Slightly formal; otherwise the same.",
+      "id": "n2-grammar-118"
+    },
+    {
+      "pattern": "〜のみならず",
+      "difference": "Formal written equivalent.",
+      "id": "n2-grammar-158"
+    },
+    {
+      "pattern": "〜上に",
+      "difference": "\"On top of\"; requires same polarity in both halves.",
+      "id": "n2-grammar-7"
+    },
+    {
+      "pattern": "〜に限らず",
+      "difference": "Widens from a typical case (nouns only).",
+      "id": "n2-grammar-18"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "便利だけでなく",
+      "right": "便利なだけでなく",
+      "why": "な-adjectives take な."
+    },
+    {
+      "wrong": "英語だけでなく、中国語を話せる。",
+      "right": "英語だけでなく、中国語も話せる。",
+      "why": "The added item normally takes も (or まで/さえ)."
+    },
+    {
+      "wrong": "英語だけではなくて、中国語も。（in formal writing）",
+      "right": "英語だけでなく、中国語も話せる。",
+      "why": "だけではなくて is fine in speech but too loose for formal writing."
+    }
+  ],
+  "usageNotes": [
+    "Variants: だけではなく, だけじゃなく (casual).",
+    "The second clause frequently uses も, まで, さえ.",
+    "Can also link clauses: 勉強するだけでなく、実践することが大切だ."
+  ],
+  "jlptTips": [
+    "Two items with も in the second half and a neutral register → だけでなく.",
+    "Distractors: に限らず (nouns only), 上に (same polarity), ばかりか. After an adjective or verb, に限らず is impossible.",
+    "Form questions test 便利なだけでなく; missing な is the trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-61-1",
+    "q-n2-g-61-2",
+    "q-n2-g-61-3",
+    "q-n2-g-61-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-61-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

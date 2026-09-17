@@ -1,0 +1,127 @@
+{
+  "id": "n5-grammar-13",
+  "slug": "no-possessive",
+  "level": "n5",
+  "order": 13,
+  "title": "の (possession; modification)",
+  "romaji": "no (possession, modification)",
+  "meaning": "\"of / 's\" — links two nouns: possession, attribute, origin, or apposition. Also a pronoun \"one\".",
+  "simpleExplanation": "の links two nouns so that the first one describes the second: 私の傘 \"my umbrella\", 日本語の先生 \"a teacher of Japanese\", 東京の大学 \"a university in Tokyo\". The word before の always describes the word after it, so the order is the opposite of English \"of\". の can also stand in for a noun you already mentioned: 赤いの \"the red one\".",
+  "whenUsed": "Ownership (my, your, Tanaka's), what something is made of or about, where something is from (日本の車), and replacing a repeated noun (\"the red one\"). Extremely frequent; N5 reading passages are full of の chains like 私の友達の家.",
+  "formation": [
+    "Noun 1 + の + Noun 2  (Noun 1 describes Noun 2)",
+    "い-adjective + の  (赤いの = the red one)",
+    "Noun + の  (これは私のです = this is mine)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "これは",
+        "role": "topic"
+      },
+      {
+        "text": "私",
+        "role": "owner"
+      },
+      {
+        "text": "の",
+        "role": "links owner to thing",
+        "highlight": true
+      },
+      {
+        "text": "傘",
+        "role": "thing"
+      },
+      {
+        "text": "です",
+        "role": "polite \"is\""
+      }
+    ],
+    "translation": "This is my umbrella."
+  },
+  "examples": [
+    {
+      "ja": "これは私の傘です。",
+      "reading": "これは わたしの かさです。",
+      "en": "This is my umbrella.",
+      "note": "Ownership: my umbrella."
+    },
+    {
+      "ja": "日本語の先生はどこですか。",
+      "reading": "にほんごの せんせいは どこですか。",
+      "en": "Where is the Japanese teacher?",
+      "note": "\"Teacher of Japanese\": the first noun says what kind of teacher."
+    },
+    {
+      "ja": "赤いのをください。",
+      "reading": "あかいのを ください。",
+      "en": "Please give me the red one.",
+      "note": "の as a pronoun: \"the red one\" (no need to repeat 傘)."
+    },
+    {
+      "ja": "あれは日本の車です。",
+      "reading": "あれは にほんの くるまです。",
+      "en": "That is a Japanese car.",
+      "note": "Origin: 日本の車 = a car from Japan. 車の日本 would mean something else entirely."
+    },
+    {
+      "ja": "このかばんは田中さんのです。",
+      "reading": "この かばんは たなかさんのです。",
+      "en": "This bag is Mr Tanaka's.",
+      "note": "Noun + の with no following noun = \"Tanaka's (one)\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-28",
+      "pattern": "な-adjective + な",
+      "difference": "な-adjectives use な, not の, before a noun: 静かな町 (not 静かの町)."
+    },
+    {
+      "id": "n5-grammar-65",
+      "pattern": "んです／のです",
+      "difference": "A different の: at the end of a sentence it gives an explanation."
+    },
+    {
+      "id": "n5-grammar-11",
+      "pattern": "と",
+      "difference": "と joins two equal nouns (A and B); の makes one noun describe the other."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "車の日本",
+      "right": "日本の車",
+      "why": "The describing word comes first. 日本の車 = a car (that is) from Japan."
+    },
+    {
+      "wrong": "静かの町",
+      "right": "静かな町",
+      "why": "な-adjectives take な before a noun, not の."
+    },
+    {
+      "wrong": "赤いの傘",
+      "right": "赤い傘",
+      "why": "い-adjectives go straight onto the noun. Use 赤いの only when the noun is left out (\"the red one\")."
+    }
+  ],
+  "usageNotes": [
+    "In casual speech の can end a question (行くの？). The first noun modifies the second — 日本の車 \"Japanese car\", 車の日本 is wrong."
+  ],
+  "jlptTips": [
+    "Between two nouns, の is almost always the answer. The trap is when the first word is a な-adjective (静か, 有名, きれい): then it is な.",
+    "In 〜のです／〜のですか, the の is the explanatory ending, not possession; do not be confused when the blank comes right before です."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-13-1",
+    "q-n5-g-13-2",
+    "q-n5-g-13-3",
+    "q-n5-g-13-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-13-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,150 @@
+{
+  "id": "n2-grammar-196",
+  "slug": "koto-da-advice",
+  "level": "n2",
+  "order": 196,
+  "title": "〜ことだ",
+  "romaji": "koto da",
+  "meaning": "should, the thing to do is (advice to a specific person)",
+  "simpleExplanation": "Verb + ことだ gives direct advice to a specific listener: 合格したければ、毎日勉強することだ (if you want to pass, study every day). It presents the action as the obvious thing to do. ないことだ advises against something. It is more personal than べきだ and more direct than たほうがいい.",
+  "whenUsed": "Spoken Japanese, from a senior or an experienced person to a junior: teachers, parents, coaches. It can sound a little bossy. In writing, general norms use ものだ instead.",
+  "formation": [
+    "Verb (dictionary form) + ことだ",
+    "Verb ない + ことだ",
+    "Often preceded by a condition: 〜たければ / 〜ためには / 〜なら",
+    "Polite: 〜ことです"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜ことだ",
+      "〜ものだ",
+      "〜べきだ"
+    ],
+    "rows": [
+      {
+        "label": "Function",
+        "cells": [
+          "advice to a specific person",
+          "general norm or truth",
+          "principle or duty"
+        ]
+      },
+      {
+        "label": "Tone",
+        "cells": [
+          "direct, personal",
+          "instructive, general",
+          "judgmental"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "無理をしないことだ",
+          "人は失敗するものだ",
+          "約束は守るべきだ"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "spoken",
+          "both",
+          "both"
+        ]
+      }
+    ],
+    "title": "Three kinds of 'should'"
+  },
+  "examples": [
+    {
+      "ja": "合格したければ、毎日勉強することだ。",
+      "reading": "ごうかくしたければ、まいにちべんきょうすることだ。",
+      "en": "If you want to pass, you should study every day.",
+      "note": "A condition followed by direct advice."
+    },
+    {
+      "ja": "疲れているなら、無理をしないことだ。",
+      "reading": "つかれているなら、むりをしないことだ。",
+      "en": "If you are tired, the thing to do is not to overdo it.",
+      "note": "ないことだ: advice against overdoing it."
+    },
+    {
+      "ja": "風邪のときは、ゆっくり休むことだ。",
+      "reading": "かぜのときは、ゆっくりやすむことだ。",
+      "en": "When you have a cold, you should rest well.",
+      "note": "A common-sense recommendation for a cold."
+    },
+    {
+      "ja": "上達したいなら、恥ずかしがらずにどんどん話すことだ。",
+      "reading": "じょうたつしたいなら、はずかしがらずにどんどんはなすことだ。",
+      "en": "If you want to improve, the thing to do is to speak a lot without being shy.",
+      "note": "Advice from an experienced person."
+    },
+    {
+      "ja": "迷ったときは、信頼できる人に相談することです。",
+      "reading": "まよったときは、しんらいできるひとにそうだんすることです。",
+      "en": "When in doubt, the thing to do is to consult someone you trust.",
+      "note": "Polite ことです."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものだ",
+      "difference": "General norms, not advice to one person.",
+      "id": "n2-grammar-156"
+    },
+    {
+      "pattern": "〜べきだ",
+      "difference": "Principle or duty; more judgmental.",
+      "id": "n2-grammar-145"
+    },
+    {
+      "pattern": "〜たほうがいい",
+      "difference": "Softer advice."
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "\"There is no need to\": different meaning."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "人は誰でも失敗することだ。",
+      "right": "人は誰でも失敗するものだ。",
+      "why": "A general truth uses ものだ, not ことだ."
+    },
+    {
+      "wrong": "勉強したことだ。",
+      "right": "勉強することだ。",
+      "why": "Use the dictionary form for advice."
+    },
+    {
+      "wrong": "報告書：社員は毎日運動することだ。",
+      "right": "報告書：社員は毎日運動すべきである。",
+      "why": "Too personal for formal writing."
+    }
+  ],
+  "usageNotes": [
+    "Typical openers: 〜たければ, 〜ためには, 〜なら, 〜ときは.",
+    "Speakers are usually senior; using it to a superior sounds rude.",
+    "ことだ can also appear as ことです in polite advice."
+  ],
+  "jlptTips": [
+    "If the sentence starts with a condition (〜たければ) and gives one clear piece of advice, choose ことだ.",
+    "A general truth about people or life is ものだ, not ことだ.",
+    "Distractors include ものだ, べきだ, ことはない. Read whether the advice is personal or general."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-196-1",
+    "q-n2-g-196-2",
+    "q-n2-g-196-3",
+    "q-n2-g-196-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-196-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

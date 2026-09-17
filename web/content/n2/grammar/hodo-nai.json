@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-148",
+  "slug": "hodo-nai",
+  "level": "n2",
+  "order": 148,
+  "title": "〜ほど〜ない / 〜くらい〜はない",
+  "romaji": "hodo … nai / kurai … wa nai",
+  "meaning": "not as … as; nothing is as … as",
+  "simpleExplanation": "Two related patterns. A ほど B ない means \"A is not as … as B\": 今年は去年ほど暑くない (this year is not as hot as last year). A ほど〜はない / A くらい〜はない means \"nothing is as … as A\", a subjective superlative: 母の料理ほどおいしいものはない. The second pattern expresses the speaker's strong feeling.",
+  "whenUsed": "Both speech and writing. The comparison pattern is neutral. The superlative pattern is emotional and common in praise, complaints, and advertising (これほど便利なものはない).",
+  "formation": [
+    "Noun + ほど + adjective / verb negative (去年ほど暑くない)",
+    "Noun + ほど / くらい + adjective + Noun / もの / こと + はない (superlative)",
+    "Verb / clause + ほど + 〜はない (彼と話すほど楽しいことはない)",
+    "Nothing else: 〜ほど〜はいない for people"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "A ほど B ない (comparison)",
+      "A ほど〜はない (superlative)"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "A is less … than B",
+          "nothing is as … as A"
+        ]
+      },
+      {
+        "label": "Structure",
+        "cells": [
+          "A は B ほど adj-ない",
+          "A ほど adj + もの / こと / 人 はない / いない"
+        ]
+      },
+      {
+        "label": "Feeling",
+        "cells": [
+          "neutral",
+          "subjective, emphatic"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "今年は去年ほど暑くない",
+          "母の料理ほどおいしいものはない"
+        ]
+      }
+    ],
+    "title": "Two uses of ほど with negatives"
+  },
+  "examples": [
+    {
+      "ja": "今年の夏は去年ほど暑くない。",
+      "reading": "ことしのなつはきょねんほどあつくない。",
+      "en": "This summer is not as hot as last year.",
+      "note": "Comparison: this summer is less hot than last year."
+    },
+    {
+      "ja": "母の料理ほどおいしいものはない。",
+      "reading": "ははのりょうりほどおいしいものはない。",
+      "en": "Nothing is as delicious as my mother's cooking.",
+      "note": "Superlative: nothing beats mother's cooking."
+    },
+    {
+      "ja": "彼くらい真面目な人はいない。",
+      "reading": "かれくらいまじめなひとはいない。",
+      "en": "There is no one as serious as he is.",
+      "note": "くらい〜はいない: no one as serious as him."
+    },
+    {
+      "ja": "この映画は思ったほど面白くなかった。",
+      "reading": "このえいがはおもったほどおもしろくなかった。",
+      "en": "This movie was not as interesting as I expected.",
+      "note": "思ったほど〜ない: a common set frame."
+    },
+    {
+      "ja": "健康ほど大切なものはない。",
+      "reading": "けんこうほどたいせつなものはない。",
+      "en": "Nothing is as precious as health.",
+      "note": "Superlative pattern with an abstract noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "Plain comparison, affirmative: 今年は去年より涼しい. ほど〜ない expresses the same from the negative side."
+    },
+    {
+      "pattern": "一番 / 最も",
+      "difference": "Objective superlative; ほど〜はない is subjective and emotional."
+    },
+    {
+      "pattern": "〜ほど (degree)",
+      "difference": "\"So … that\": a different use.",
+      "id": "n2-grammar-147"
+    },
+    {
+      "pattern": "〜くらい〜はない",
+      "difference": "Same as ほど〜はない; slightly more casual."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今年は去年ほど暑い。",
+      "right": "今年は去年ほど暑くない。/ 今年は去年より暑い。",
+      "why": "With ほど the predicate must be negative; for an affirmative comparison use より."
+    },
+    {
+      "wrong": "母の料理ほどおいしいものがある。",
+      "right": "母の料理ほどおいしいものはない。",
+      "why": "The superlative pattern needs はない at the end."
+    },
+    {
+      "wrong": "彼ほど真面目な人はない。",
+      "right": "彼ほど真面目な人はいない。",
+      "why": "For people, use いない."
+    }
+  ],
+  "usageNotes": [
+    "思ったほど / 期待したほど + negative are very common set frames.",
+    "The superlative pattern with これほど / あれほど: これほど嬉しいことはない.",
+    "In advertising: これほど便利なものはない."
+  ],
+  "jlptTips": [
+    "If the sentence ends in a negative adjective and there is a reference noun before ほど, it is the comparison.",
+    "If it ends in はない / はいない after もの / こと / 人, it is the subjective superlative.",
+    "A common trap is the affirmative version: ほど needs a negative predicate."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-148-1",
+    "q-n2-g-148-2",
+    "q-n2-g-148-3",
+    "q-n2-g-148-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-148-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

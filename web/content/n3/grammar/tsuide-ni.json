@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-35",
+  "slug": "tsuide-ni",
+  "level": "n3",
+  "order": 35,
+  "title": "〜ついでに",
+  "romaji": "tsuide ni",
+  "meaning": "While (doing)…, also… / taking the opportunity",
+  "simpleExplanation": "〜ついでに means you do a second, smaller thing because you are already doing the first: 買い物のついでに郵便局に寄った = while I was out shopping, I stopped by the post office. The main action comes first; the ついでに action is a convenient add-on.",
+  "whenUsed": "Everyday speech and casual writing. Sentence-initial ついでに = \"while you're at it\". Polite requests: 〜ついでに〜ていただけますか.",
+  "formation": [
+    "Verb (dictionary / た) + ついでに",
+    "Noun (action) + の + ついでに",
+    "Sentence-initial: ついでに、〜"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "買い物の",
+        "role": "main action (the reason you're out)"
+      },
+      {
+        "text": "ついでに",
+        "role": "while at it",
+        "highlight": true
+      },
+      {
+        "text": "郵便局に寄った。",
+        "role": "secondary, convenient action"
+      }
+    ],
+    "translation": "While out shopping, I also stopped by the post office."
+  },
+  "examples": [
+    {
+      "ja": "買い物のついでに、郵便局に寄った。",
+      "reading": "かいもののついでに、ゆうびんきょくによった。",
+      "en": "While out shopping, I also stopped by the post office.",
+      "note": "Noun + のついでに: shopping is the main errand."
+    },
+    {
+      "ja": "東京へ行くついでに、友達に会ってきます。",
+      "reading": "とうきょうへいくついでに、ともだちにあってきます。",
+      "en": "While I'm going to Tokyo, I'll see a friend too.",
+      "note": "V-dict + ついでに: the trip is planned; meeting a friend is added."
+    },
+    {
+      "ja": "車を洗ったついでに、庭も掃除した。",
+      "reading": "くるまをあらったついでに、にわもそうじした。",
+      "en": "Since I was washing the car, I also cleaned the garden.",
+      "note": "V-た + ついでに: after washing the car, the garden too."
+    },
+    {
+      "ja": "コンビニに行くついでに、この手紙を出してきてくれない？",
+      "reading": "コンビニにいくついでに、このてがみをだしてきてくれない？",
+      "en": "Since you're going to the convenience store, could you mail this letter?",
+      "note": "A request that piggybacks on someone's errand."
+    },
+    {
+      "ja": "ついでに、ゴミも出しておいてね。",
+      "reading": "ついでに、ゴミもだしておいてね。",
+      "en": "While you're at it, take the trash out too.",
+      "note": "Sentence-initial ついでに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がてら (N1)",
+      "difference": "Literary \"while doing X (for pleasure)\"."
+    },
+    {
+      "pattern": "〜うちに",
+      "difference": "While a state lasts; no idea of an add-on task.",
+      "id": "n3-grammar-1"
+    },
+    {
+      "pattern": "〜ながら",
+      "difference": "Two actions at the same moment. ついでに is about sequence and convenience."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "郵便局に寄るついでに、買い物に行った。(main errand reversed)",
+      "right": "買い物に行くついでに、郵便局に寄った。",
+      "why": "The bigger, planned action comes before ついでに; the small add-on comes after."
+    },
+    {
+      "wrong": "買い物ついでに",
+      "right": "買い物のついでに",
+      "why": "Nouns need の (though 買い物ついでに is heard in casual speech, use の in tests)."
+    },
+    {
+      "wrong": "結婚するついでに、家を買った。",
+      "right": "結婚を機に、家を買った。",
+      "why": "ついでに trivializes the second action; buying a house is not a casual add-on."
+    }
+  ],
+  "usageNotes": [
+    "The main action comes first; the ついでに action is secondary/incidental. Can start a sentence: ついでに、これも頼む.",
+    "ついでに can sound dismissive if the second action is important to the listener; use it for small favors."
+  ],
+  "jlptTips": [
+    "Two actions where the second is a small extra (寄る, 買ってくる, 出す) = ついでに.",
+    "Distractors: うちに, ながら, たびに. Check for an errand-and-add-on structure.",
+    "Sentence-initial ついでに in dialogue questions signals an extra request."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-35-1",
+    "q-n3-g-35-2",
+    "q-n3-g-35-3",
+    "q-n3-g-35-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-35-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,137 @@
+{
+  "id": "n3-grammar-9",
+  "slug": "koto-wa-nai",
+  "level": "n3",
+  "order": 9,
+  "title": "〜ことはない",
+  "romaji": "koto wa nai",
+  "meaning": "There's no need to… / no reason to…",
+  "simpleExplanation": "〜ことはない tells someone that an action is unnecessary, often to reassure them: 心配することはない = there's no need to worry. It feels warmer than 必要がない because it is usually said to comfort or calm the listener.",
+  "whenUsed": "Conversation, advice, comforting a friend. Polite: 〜ことはありません. Also in essays to say something is unnecessary.",
+  "formation": [
+    "Verb (dictionary form) + ことはない",
+    "Polite: 〜ことはありません",
+    "Emphatic: 何も〜ことはない / わざわざ〜ことはない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "こと + ない patterns",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-dict + ことはない",
+        "cells": [
+          "no need to",
+          "急ぐことはない"
+        ]
+      },
+      {
+        "label": "V-た + ことがない",
+        "cells": [
+          "have never done",
+          "行ったことがない"
+        ]
+      },
+      {
+        "label": "V-dict + ことがない",
+        "cells": [
+          "never happens / no occasion",
+          "遅刻することがない"
+        ]
+      },
+      {
+        "label": "V-ない + ことはない",
+        "cells": [
+          "it's not that I can't",
+          "食べられないことはない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "小さなミスだから、そんなに心配することはない。",
+      "reading": "ちいさなミスだから、そんなにしんぱいすることはない。",
+      "en": "It's a small mistake, so there's no need to worry so much.",
+      "note": "Reassurance after a small mistake."
+    },
+    {
+      "ja": "時間はまだあるよ。急ぐことはない。",
+      "reading": "じかんはまだあるよ。いそぐことはない。",
+      "en": "We still have time. No need to hurry.",
+      "note": "急ぐことはない: no need to hurry, we have time."
+    },
+    {
+      "ja": "君が謝ることはないよ。",
+      "reading": "きみがあやまることはないよ。",
+      "en": "You have no reason to apologize.",
+      "note": "君が謝ることはない: you (of all people) have no reason to apologize."
+    },
+    {
+      "ja": "わざわざ来ることはありませんよ。電話で十分です。",
+      "reading": "わざわざくることはありませんよ。でんわでじゅうぶんです。",
+      "en": "There's no need to come all the way here. A phone call is enough.",
+      "note": "わざわざ + ことはない is a natural pairing."
+    },
+    {
+      "ja": "一度失敗したくらいで、そんなに落ち込むことはない。",
+      "reading": "いちどしっぱいしたくらいで、そんなにおちこむことはない。",
+      "en": "There's no reason to get so down over failing just once.",
+      "note": "〜くらいで sets up the small cause; ことはない says the reaction is unnecessary."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜必要はない",
+      "difference": "Neutral \"not necessary\". ことはない is warmer and more spoken."
+    },
+    {
+      "pattern": "〜たことがない",
+      "difference": "\"Have never done\". Different particle (が) and past tense; easy to confuse visually."
+    },
+    {
+      "pattern": "〜なくてもいい",
+      "difference": "\"Don't have to\": permission not to do. ことはない says the action makes no sense at all."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "心配したことはない。(intended: no need to worry)",
+      "right": "心配することはない。",
+      "why": "The advice uses the dictionary form. 心配したことがない would mean \"have never worried\"."
+    },
+    {
+      "wrong": "急ぐことがない。(intended: no need to hurry)",
+      "right": "急ぐことはない。",
+      "why": "The particle must be は for \"no need\". ことがない changes the meaning."
+    },
+    {
+      "wrong": "遅れることはない。(intended: I never come late)",
+      "right": "遅れることはめったにない。/ 遅れたことがない。",
+      "why": "ことはない means \"no need\", not \"never happens\"."
+    }
+  ],
+  "usageNotes": [
+    "Similar to 〜必要はない but more reassuring/colloquial. Not to be confused with 〜たことがない (never have done).",
+    "Very often preceded by そんなに / 何も / わざわざ, which show the action is excessive."
+  ],
+  "jlptTips": [
+    "A reassuring context (小さなミス, まだ時間がある, 私が悪い) plus a blank after a dictionary-form verb points to ことはない.",
+    "Check the particle in the options: ことはない (no need) vs ことがない (never). This distinction is tested often.",
+    "Do not confuse with ことか (exclamation) or ことだ (advice)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-9-1",
+    "q-n3-g-9-2",
+    "q-n3-g-9-3",
+    "q-n3-g-9-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-9-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

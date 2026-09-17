@@ -1,0 +1,134 @@
+{
+  "id": "n3-grammar-121",
+  "slug": "you-ni-natte-iru",
+  "level": "n3",
+  "order": 121,
+  "title": "〜ようになっている",
+  "romaji": "you ni natte iru",
+  "meaning": "is set up so that… / is designed to… (mechanism or system)",
+  "simpleExplanation": "〜ようになっている explains how something works: このドアは自動で開くようになっている \"this door is designed to open automatically\". It describes a mechanism, rule or arrangement that is already in place, not a change. Compare 〜ようになった (a change happened) and 〜ことになっている (a rule people follow).",
+  "whenUsed": "Explaining machines, buildings, systems and procedures; product manuals, guided tours, customer explanations. Polite: 〜ようになっています.",
+  "formation": [
+    "Verb (dictionary form) + ようになっている",
+    "Verb ない-form + ようになっている (designed so that… not)",
+    "Verb potential form + ようになっている (arranged so that one can)",
+    "Polite: 〜ようになっています"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ようになっている vs ようになった vs ことになっている",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ようになっている",
+        "cells": [
+          "mechanism / design (state)",
+          "ボタンを押すとお湯が出るようになっている"
+        ]
+      },
+      {
+        "label": "〜ようになった",
+        "cells": [
+          "change: came to / started to",
+          "日本語が話せるようになった"
+        ]
+      },
+      {
+        "label": "〜ことになっている",
+        "cells": [
+          "rule / arrangement people follow",
+          "会議は月曜日に行うことになっている"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "このドアは自動で開くようになっている。",
+      "reading": "このドアはじどうでひらくようになっている。",
+      "en": "This door is designed to open automatically.",
+      "note": "A door mechanism."
+    },
+    {
+      "ja": "会員以外は入れないようになっている。",
+      "reading": "かいいんいがいははいれないようになっている。",
+      "en": "It's set up so that non-members cannot enter.",
+      "note": "A restriction built into the system: ないようになっている."
+    },
+    {
+      "ja": "ボタンを押すと、お湯が出るようになっています。",
+      "reading": "ボタンをおすと、おゆがでるようになっています。",
+      "en": "It's arranged so that hot water comes out when you press the button.",
+      "note": "Cause and effect in a machine."
+    },
+    {
+      "ja": "このアプリは、毎朝七時にニュースが届くようになっている。",
+      "reading": "このアプリは、まいあさしちじにニュースがとどくようになっている。",
+      "en": "This app is set up so that news arrives every morning at seven.",
+      "note": "An arrangement that already works this way."
+    },
+    {
+      "ja": "この建物は、地震が起きても倒れないようになっています。",
+      "reading": "このたてものは、じしんがおきてもたおれないようになっています。",
+      "en": "This building is designed not to collapse even if an earthquake occurs.",
+      "note": "Polite form; design purpose."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようになる",
+      "difference": "Describes a change (ability or habit gained). ようになっている describes an existing set-up."
+    },
+    {
+      "pattern": "〜ことになっている",
+      "difference": "A rule or schedule agreed by people, not a physical mechanism.",
+      "id": "n3-grammar-10"
+    },
+    {
+      "pattern": "〜てある",
+      "difference": "A state created by someone's action (鍵がかけてある). ようになっている is how the whole system behaves.",
+      "id": "n3-grammar-96"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "最近、日本語が読めるようになっている。(meaning 'I have become able to read')",
+      "right": "最近、日本語が読めるようになった。",
+      "why": "A change in ability uses ようになった; ようになっている would suggest a mechanism."
+    },
+    {
+      "wrong": "会議は月曜日に行うようになっている。(a company rule)",
+      "right": "会議は月曜日に行うことになっている。",
+      "why": "A rule agreed among people uses ことになっている; ようになっている is for how things function."
+    },
+    {
+      "wrong": "自動で開くようにしている。(about a door's design)",
+      "right": "自動で開くようになっている。",
+      "why": "ようにしている means the speaker is making an effort; a machine's design is ようになっている."
+    }
+  ],
+  "usageNotes": [
+    "〜と / 〜たら / 〜ば + 〜ようになっている describes cause and effect in a system.",
+    "Polite explanations to customers frequently use this form.",
+    "The negative ないようになっている describes a safety feature or restriction."
+  ],
+  "jlptTips": [
+    "A machine, building or system as subject + blank → ようになっている.",
+    "If the sentence contains 最近 or だんだん and describes a person's ability, it is ようになった, not ようになっている.",
+    "Rules with 決まり / 規則 point to ことになっている instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-121-1",
+    "q-n3-g-121-2",
+    "q-n3-g-121-3",
+    "q-n3-g-121-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-121-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

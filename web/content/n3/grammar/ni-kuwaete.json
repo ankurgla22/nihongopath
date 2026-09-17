@@ -1,0 +1,127 @@
+{
+  "id": "n3-grammar-32",
+  "slug": "ni-kuwaete",
+  "level": "n3",
+  "order": 32,
+  "title": "〜に加えて / 〜に加え",
+  "romaji": "ni kuwaete",
+  "meaning": "In addition to… / on top of…",
+  "simpleExplanation": "〜に加えて adds a second item to a first: 雨に加えて、風も強くなってきた = in addition to the rain, the wind has picked up. The main clause almost always contains も. It is a neutral \"plus\", often for things of the same kind (skills, costs, weather).",
+  "whenUsed": "Formal to neutral speech and writing: reports, job descriptions, news. Written: 〜に加え.",
+  "formation": [
+    "Noun + に加えて / に加え",
+    "Clause (plain) + の + に加えて",
+    "Main clause usually has も"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "英語",
+        "role": "item 1"
+      },
+      {
+        "text": "に加えて、",
+        "role": "in addition to",
+        "highlight": true
+      },
+      {
+        "text": "中国語",
+        "role": "item 2"
+      },
+      {
+        "text": "も",
+        "role": "also (usually present)",
+        "highlight": true
+      },
+      {
+        "text": "勉強している。",
+        "role": "predicate"
+      }
+    ],
+    "translation": "In addition to English, I'm also studying Chinese."
+  },
+  "examples": [
+    {
+      "ja": "雨に加えて、風も強くなってきた。",
+      "reading": "あめにくわえて、かぜもつよくなってきた。",
+      "en": "In addition to the rain, the wind has also picked up.",
+      "note": "Two weather elements added together."
+    },
+    {
+      "ja": "英語に加えて、中国語も勉強している。",
+      "reading": "えいごにくわえて、ちゅうごくごもべんきょうしている。",
+      "en": "In addition to English, I am also studying Chinese.",
+      "note": "Two languages: same-category items."
+    },
+    {
+      "ja": "学費に加え、生活費も必要だ。",
+      "reading": "がくひにくわえ、せいかつひもひつようだ。",
+      "en": "On top of tuition, living expenses are also necessary.",
+      "note": "Written に加え with costs."
+    },
+    {
+      "ja": "この仕事には、専門知識に加えて、高いコミュニケーション能力も求められる。",
+      "reading": "このしごとには、せんもんちしきにくわえて、たかいコミュニケーションのうりょくももとめられる。",
+      "en": "This job requires, in addition to specialist knowledge, strong communication skills.",
+      "note": "Typical of job advertisements."
+    },
+    {
+      "ja": "最近は物価が上がっているのに加えて、給料も上がらないので生活が苦しい。",
+      "reading": "さいきんはぶっかがあがっているのにくわえて、きゅうりょうもあがらないのでせいかつがくるしい。",
+      "en": "On top of prices rising lately, salaries aren't going up either, so life is hard.",
+      "note": "Clause + のに加えて."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく〜も",
+      "difference": "\"Not only… but also\": more emphasis on the second item. に加えて is a neutral addition."
+    },
+    {
+      "pattern": "〜ばかりか (N2)",
+      "difference": "Adds something surprising or more extreme."
+    },
+    {
+      "pattern": "〜上に (N2)",
+      "difference": "\"On top of that\": both items in the same direction (good + good or bad + bad)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "英語に加えて、中国語を勉強している。(no も)",
+      "right": "英語に加えて、中国語も勉強している。",
+      "why": "The added item normally takes も; without it the sentence sounds incomplete."
+    },
+    {
+      "wrong": "物価が上がっているに加えて",
+      "right": "物価が上がっているのに加えて",
+      "why": "A clause needs の before に加えて."
+    },
+    {
+      "wrong": "私に加えて彼が来た。(intended: he came with me)",
+      "right": "私と一緒に彼が来た。/ 私に加えて彼も来た。",
+      "why": "に加えて adds to a list; for accompanying someone use と一緒に. If it is a list, も is needed."
+    }
+  ],
+  "usageNotes": [
+    "Usually followed by も. Similar to 〜だけでなく〜も and 〜ばかりか, but に加えて is a neutral \"plus\", typically same-category items.",
+    "Set phrases: 〜に加えて〜も必要だ, 〜に加え〜も行う."
+  ],
+  "jlptTips": [
+    "If the main clause contains も and the blank follows a noun that is a first item, choose に加えて.",
+    "Distractors: に比べて, に対して, にかけて. Ask whether the sentence adds (に加えて) or compares (に比べて).",
+    "A clause before the blank requires のに加えて; options lacking の are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-32-1",
+    "q-n3-g-32-2",
+    "q-n3-g-32-3",
+    "q-n3-g-32-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-32-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

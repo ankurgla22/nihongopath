@@ -1,0 +1,126 @@
+{
+  "id": "n3-grammar-90",
+  "slug": "te-moraitai",
+  "level": "n3",
+  "order": 90,
+  "title": "〜てもらいたい / 〜ていただきたい",
+  "romaji": "te moraitai / te itadakitai",
+  "meaning": "I would like (you) to… (request; いただきたい is humble and polite)",
+  "simpleExplanation": "〜てもらいたい means \"I'd like you to do this for me\". It is a wish shaped as a request. 〜ていただきたい is the humble version used with customers, bosses and in announcements: ぜひ参加していただきたい \"we would very much like you to take part\". Adding んですが at the end makes it a gentle opening to a request.",
+  "whenUsed": "Business, customer service, public announcements (いただきたい), and everyday requests among equals (もらいたい). Often followed by んですが / と思います / と思っております.",
+  "formation": [
+    "Verb て-form + もらいたい (to equals or juniors)",
+    "Verb て-form + いただきたい (humble; to superiors, customers)",
+    "Softened: 〜てもらいたいんですが / 〜ていただきたいんですが",
+    "Negative: 〜ないでもらいたい / 〜ないでいただきたい"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Politeness of 'I want you to…'",
+    "items": [
+      {
+        "label": "〜てほしい",
+        "description": "Direct wish; friends, family."
+      },
+      {
+        "label": "〜てもらいたい",
+        "description": "Request-like; equals, juniors."
+      },
+      {
+        "label": "〜ていただきたい",
+        "description": "Humble request; superiors, customers, announcements."
+      },
+      {
+        "label": "〜ていただけませんか",
+        "description": "Even softer: asks rather than states the wish."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この書類をチェックしてもらいたいんですが。",
+      "reading": "このしょるいをチェックしてもらいたいんですが。",
+      "en": "I'd like you to check this document.",
+      "note": "んですが softens the request."
+    },
+    {
+      "ja": "ぜひ皆さんに参加していただきたいと思います。",
+      "reading": "ぜひみなさんにさんかしていただきたいとおもいます。",
+      "en": "I would very much like all of you to take part.",
+      "note": "Announcement style with いただきたいと思います."
+    },
+    {
+      "ja": "明日までに返事をしてもらいたい。",
+      "reading": "あしたまでにへんじをしてもらいたい。",
+      "en": "I want you to reply by tomorrow.",
+      "note": "A firm request to an equal or junior."
+    },
+    {
+      "ja": "お客様には、こちらの用紙にご記入いただきたいと思います。",
+      "reading": "おきゃくさまには、こちらのようしにごきにゅういただきたいとおもいます。",
+      "en": "We would like customers to fill in this form.",
+      "note": "ご + noun + いただきたい is the honorific variant."
+    },
+    {
+      "ja": "会議中は携帯電話を使わないでもらいたい。",
+      "reading": "かいぎちゅうはけいたいでんわをつかわないでもらいたい。",
+      "en": "I'd like you not to use your phone during the meeting.",
+      "note": "Negative request: ないで + もらいたい."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てほしい",
+      "difference": "A plain wish; less request-like and too casual for superiors.",
+      "id": "n3-grammar-89"
+    },
+    {
+      "pattern": "〜ていただけませんか",
+      "difference": "A question form, softer still; the standard polite request.",
+      "id": "n3-grammar-91"
+    },
+    {
+      "pattern": "〜させていただきたい",
+      "difference": "The speaker wants permission to do something (自分が). てもらいたい asks the other person to act.",
+      "id": "n3-grammar-93"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "社長にこの書類を読んでもらいたい。(said to the president)",
+      "right": "社長にこの書類をお読みいただきたいのですが。",
+      "why": "To a superior use いただきたい (and preferably an honorific verb form)."
+    },
+    {
+      "wrong": "手伝っていただきたいです！(to a close friend)",
+      "right": "手伝ってもらいたいんだけど。",
+      "why": "いただきたい to a close friend sounds stiff; use もらいたい."
+    },
+    {
+      "wrong": "参加してもらいたい思います。",
+      "right": "参加してもらいたいと思います。",
+      "why": "The quotative と is needed before 思います."
+    }
+  ],
+  "usageNotes": [
+    "〜ていただきたく存じます is the very formal written version in business emails.",
+    "The person asked is marked with に, as with てもらう.",
+    "In speeches, 〜ていただきたいと思います is a standard closing formula."
+  ],
+  "jlptTips": [
+    "Choose by relationship: 部長 / お客様 → いただきたい; 弟 / 友達 → もらいたい.",
+    "Distinguish てもらいたい (you act) from させてもらいたい (I act with permission).",
+    "In 聴解, requests often begin with 〜ていただきたいんですが; the key information follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-90-1",
+    "q-n3-g-90-2",
+    "q-n3-g-90-3",
+    "q-n3-g-90-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-90-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

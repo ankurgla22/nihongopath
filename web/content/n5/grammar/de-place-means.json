@@ -1,0 +1,132 @@
+{
+  "id": "n5-grammar-10",
+  "slug": "de-place-means",
+  "level": "n5",
+  "order": 10,
+  "title": "で (place of action, means, total)",
+  "romaji": "de (place of action, means)",
+  "meaning": "\"at / in (where an action happens)\", \"by / with (means)\", \"in (language)\", \"for (total)\".",
+  "simpleExplanation": "で answers \"where does the action happen?\" and \"by what means?\". レストランで食べます \"I eat AT a restaurant\"; バスで行きます \"I go BY bus\"; 日本語で話します \"speak IN Japanese\". It also gives a total: 三つで千円 \"1,000 yen FOR three\". The key contrast with に: に says where something IS; で says where something HAPPENS.",
+  "whenUsed": "Place of an activity (eat, study, work, play, meet, buy); vehicles and tools (bus, train, pen, chopsticks); languages; and totals or units (二人で \"the two of us\", 全部で \"in total\").",
+  "formation": [
+    "Place + で + action verb  (学校で勉強します)",
+    "Vehicle / tool + で  (電車で、ペンで)",
+    "Language + で  (英語で)",
+    "Quantity + で  (三つで五百円、一人で)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "に vs で for places",
+    "columns": [
+      "に (where something is)",
+      "で (where something happens)"
+    ],
+    "rows": [
+      {
+        "label": "Verb type",
+        "cells": [
+          "あります・います・住んでいます",
+          "食べます・勉強します・働きます"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "図書館に本があります",
+          "図書館で本を読みます"
+        ]
+      },
+      {
+        "label": "Meaning",
+        "cells": [
+          "there is a book in the library",
+          "I read a book in the library"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "レストランで昼ご飯を食べます。",
+      "reading": "レストランで ひるごはんを たべます。",
+      "en": "I eat lunch at a restaurant.",
+      "note": "Place of an action: eating happens at the restaurant."
+    },
+    {
+      "ja": "バスで学校へ行きます。",
+      "reading": "バスで がっこうへ いきます。",
+      "en": "I go to school by bus.",
+      "note": "Means of transport: by bus."
+    },
+    {
+      "ja": "日本語で話してください。",
+      "reading": "にほんごで はなしてください。",
+      "en": "Please speak in Japanese.",
+      "note": "Language used: in Japanese."
+    },
+    {
+      "ja": "箸でご飯を食べます。",
+      "reading": "はしで ごはんを たべます。",
+      "en": "I eat rice with chopsticks.",
+      "note": "A tool takes で."
+    },
+    {
+      "ja": "このりんごは三つで三百円です。",
+      "reading": "この りんごは みっつで さんびゃくえんです。",
+      "en": "These apples are 300 yen for three.",
+      "note": "で after a quantity gives the total or unit."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-8",
+      "pattern": "に",
+      "difference": "に = where something exists or goes to; で = where an action takes place."
+    },
+    {
+      "id": "n5-grammar-7",
+      "pattern": "を",
+      "difference": "を marks the place moved through (公園を歩く); で marks the place of an activity (公園で遊ぶ)."
+    },
+    {
+      "id": "n5-grammar-11",
+      "pattern": "と",
+      "difference": "と = with a person (友達と行く); で = by means of a thing (バスで行く)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "レストランに食べます。",
+      "right": "レストランで食べます。",
+      "why": "Eating is an action, so the place takes で."
+    },
+    {
+      "wrong": "教室で学生がいます。",
+      "right": "教室に学生がいます。",
+      "why": "います is existence, not an action, so the place takes に."
+    },
+    {
+      "wrong": "友達で映画を見ます。",
+      "right": "友達と映画を見ます。",
+      "why": "A person you do something with takes と; で is for tools, vehicles and places."
+    }
+  ],
+  "usageNotes": [
+    "Contrast with に: に marks where something IS (います・あります・住んでいます), で marks where something HAPPENS. 三つで千円 \"1,000 yen for three\"."
+  ],
+  "jlptTips": [
+    "Decide from the verb: action verb → で; あります／います／住んでいます → に. This single check solves most に／で questions.",
+    "If the noun before the blank is a vehicle, tool or language (バス, ペン, 日本語), the answer is で."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-10-1",
+    "q-n5-g-10-2",
+    "q-n5-g-10-3",
+    "q-n5-g-10-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-10-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

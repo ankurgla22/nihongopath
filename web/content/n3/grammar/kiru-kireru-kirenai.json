@@ -1,0 +1,129 @@
+{
+  "id": "n3-grammar-84",
+  "slug": "kiru-kireru-kirenai",
+  "level": "n3",
+  "order": 84,
+  "title": "〜きる / 〜きれる / 〜きれない",
+  "romaji": "kiru / kireru / kirenai",
+  "meaning": "do completely / finish…ing; can finish; cannot finish (too much to…)",
+  "simpleExplanation": "Verb stem + 切る means \"do it all the way to the end\": 読み切る \"read it all\", 使い切る \"use it up\". 切れる is the potential form (\"can finish\"), and 切れない is the very common negative: 食べきれない \"can't eat it all\", 数え切れない \"countless\". A second meaning is \"to the extreme\": 疲れきる \"utterly exhausted\".",
+  "whenUsed": "All registers. 〜きれない is especially frequent in daily speech (too much food, too many things to do). 疲れきった, 困りきった, 信じきっている appear in narratives to show an extreme state.",
+  "formation": [
+    "Verb ます-stem + 切る (complete): 読み切る, 使い切る, 売り切る",
+    "Verb ます-stem + 切れる (can complete): 食べきれる",
+    "Verb ます-stem + 切れない (cannot complete): 食べきれない, 数えきれない",
+    "Extreme state: 疲れ切る, 困り切る, 冷え切る, 信じ切る"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "食べ + 切る",
+    "rootLabel": "ます-stem + 切る",
+    "branches": [
+      {
+        "suffix": "切った",
+        "result": "食べ切った",
+        "label": "ate it all up (completed)"
+      },
+      {
+        "suffix": "切れる",
+        "result": "食べ切れる",
+        "label": "can eat it all"
+      },
+      {
+        "suffix": "切れない",
+        "result": "食べ切れない",
+        "label": "can't eat it all (too much)"
+      },
+      {
+        "suffix": "切れないほど",
+        "result": "食べ切れないほどの料理",
+        "label": "more food than one can finish"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "長い小説をやっと読み切った。",
+      "reading": "ながいしょうせつをやっとよみきった。",
+      "en": "I finally finished reading the long novel.",
+      "note": "Completion: read to the very end."
+    },
+    {
+      "ja": "こんなにたくさん、一人では食べきれない。",
+      "reading": "こんなにたくさん、ひとりではたべきれない。",
+      "en": "I can't eat this much by myself.",
+      "note": "切れない = too much to finish."
+    },
+    {
+      "ja": "彼は疲れきった顔をしていた。",
+      "reading": "かれはつかれきったかおをしていた。",
+      "en": "He had an utterly exhausted face.",
+      "note": "Extreme state: 疲れ切った 'completely worn out'."
+    },
+    {
+      "ja": "人気の商品は午前中に売り切れてしまった。",
+      "reading": "にんきのしょうひんはごぜんちゅうにうりきれてしまった。",
+      "en": "The popular item sold out before noon.",
+      "note": "売り切れる 'sell out' is the everyday form of this pattern."
+    },
+    {
+      "ja": "空には数え切れないほどの星が輝いていた。",
+      "reading": "そらにはかぞえきれないほどのほしがかがやいていた。",
+      "en": "Countless stars were shining in the sky.",
+      "note": "数え切れないほど = 'more than one can count'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜抜く",
+      "difference": "Stresses pushing through difficulty (やり抜く). 切る stresses reaching the end or using everything up.",
+      "id": "n3-grammar-85"
+    },
+    {
+      "pattern": "〜終わる",
+      "difference": "Neutral 'finish doing' (読み終わる). 切る adds 'completely, all of it'."
+    },
+    {
+      "pattern": "〜すぎる",
+      "difference": "'Too much' about degree; 切れない says the quantity exceeds what one can handle."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "食べるきれない",
+      "right": "食べきれない",
+      "why": "切る attaches to the ます-stem (食べ), not the dictionary form."
+    },
+    {
+      "wrong": "この本は難しくて読み切れない。(meaning 'too hard to understand')",
+      "right": "この本は難しくて理解できない。/ 長くて読み切れない。",
+      "why": "切れない is about quantity or completion (too long to finish), not about difficulty of understanding."
+    },
+    {
+      "wrong": "疲れ切れる",
+      "right": "疲れ切る / 疲れ切っている",
+      "why": "The extreme-state use (疲れ切る) is not made potential; 切れる belongs to the 'can finish' meaning."
+    }
+  ],
+  "usageNotes": [
+    "Both spellings 〜きる and 〜切る are common; the JLPT uses either.",
+    "売り切れ 'sold out', 使い切り 'single-use' and 締め切り 'deadline' are nouns built from this pattern.",
+    "〜きれないほど / 〜きれないくらい is a set way to say 'so many that…'."
+  ],
+  "jlptTips": [
+    "If the sentence mentions a large amount (こんなにたくさん, 全部) and inability, the answer is 〜きれない.",
+    "Distinguish 切る (complete) from 抜く (persevere): 読み切る 'read to the end' vs 耐え抜く 'endure to the end'.",
+    "The extreme-state use with 疲れ / 困り / 冷え often appears as 〜切った + noun (疲れ切った顔)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-84-1",
+    "q-n3-g-84-2",
+    "q-n3-g-84-3",
+    "q-n3-g-84-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-84-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

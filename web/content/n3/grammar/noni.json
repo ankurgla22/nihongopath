@@ -1,0 +1,128 @@
+{
+  "id": "n3-grammar-110",
+  "slug": "noni",
+  "level": "n3",
+  "order": 110,
+  "title": "〜のに",
+  "romaji": "noni",
+  "meaning": "(1) although… / even though… (unexpected result); (2) in order to… / for …ing (purpose, with 便利 / 必要 / 使う)",
+  "simpleExplanation": "〜のに has two faces. (1) \"Even though\": the result is the opposite of what you expected, often with regret or frustration: 勉強したのに落ちた \"I studied, yet I failed\". (2) \"For (doing)\": a purpose, used with words like 便利, 必要, 使う, かかる: 野菜を切るのに便利だ \"handy for cutting vegetables\".",
+  "whenUsed": "Sense 1 is everywhere in speech and writing. It cannot be followed by a request, invitation or intention (use が / けど for those). Sentence-final のに expresses regret: 言ってくれればよかったのに. Sense 2 is common in product descriptions and explanations.",
+  "formation": [
+    "Sense 1: Verb / い-adjective (plain form) + のに; な-adjective / Noun + な + のに",
+    "Sense 2: Verb (dictionary form) + のに + 便利だ / 必要だ / 使う / 役に立つ / 時間がかかる",
+    "Sentence-final regret: 〜ばよかったのに / 〜のに。"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two のに",
+    "columns": [
+      "Structure",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Sense 1: contrast",
+        "cells": [
+          "Clause + のに + unexpected result",
+          "even though",
+          "約束したのに、来なかった"
+        ]
+      },
+      {
+        "label": "Sense 2: purpose",
+        "cells": [
+          "V-dictionary + のに + 便利 / 必要 / 使う",
+          "for (doing)",
+          "野菜を切るのに便利だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "一生懸命勉強したのに、試験に落ちた。",
+      "reading": "いっしょうけんめいべんきょうしたのに、しけんにおちた。",
+      "en": "Even though I studied hard, I failed the exam.",
+      "note": "Sense 1: effort with an unexpected bad result."
+    },
+    {
+      "ja": "約束したのに、彼は来なかった。",
+      "reading": "やくそくしたのに、かれはこなかった。",
+      "en": "He didn't come even though he promised.",
+      "note": "Sense 1: broken promise; frustration."
+    },
+    {
+      "ja": "この道具は野菜を切るのに便利だ。",
+      "reading": "このどうぐはやさいをきるのにべんりだ。",
+      "en": "This tool is handy for cutting vegetables.",
+      "note": "Sense 2: purpose with 便利."
+    },
+    {
+      "ja": "この仕事を終えるのに、三日かかった。",
+      "reading": "このしごとをおえるのに、みっかかかった。",
+      "en": "It took three days to finish this job.",
+      "note": "Sense 2 with かかる: 'for finishing'."
+    },
+    {
+      "ja": "せっかく来てくれたのに、留守にしていてごめんね。",
+      "reading": "せっかくきてくれたのに、るすにしていてごめんね。",
+      "en": "Sorry I was out even though you went to the trouble of coming.",
+      "note": "せっかく〜のに is a common pairing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜くせに",
+      "difference": "Contrast with blame and contempt; のに is neutral surprise or regret.",
+      "id": "n3-grammar-109"
+    },
+    {
+      "pattern": "〜が / 〜けれど",
+      "difference": "Plain 'but'; can be followed by requests and intentions, which のに cannot."
+    },
+    {
+      "pattern": "〜ために (purpose)",
+      "difference": "'In order to' before an action clause (勉強するために図書館へ行く). Sense-2 のに is used only with 便利 / 必要 / 使う-type predicates."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "寒いのに、窓を閉めてください。",
+      "right": "寒いので、窓を閉めてください。/ 寒いですが、窓を閉めてください。",
+      "why": "のに cannot be followed by a request. Use ので (reason) or が."
+    },
+    {
+      "wrong": "静かのに、眠れない。",
+      "right": "静かなのに、眠れない。",
+      "why": "な-adjectives and nouns take な before のに."
+    },
+    {
+      "wrong": "日本語を勉強するのに、日本へ行く。",
+      "right": "日本語を勉強するために、日本へ行く。",
+      "why": "Purpose before an action clause needs ために; sense-2 のに only goes with 便利 / 必要 / 使う / かかる-type predicates."
+    }
+  ],
+  "usageNotes": [
+    "Sense 1 often has 〜のに、〜てしまった / 〜なかった showing disappointment.",
+    "Sentence-final のに after ばよかった / はずだった expresses regret about what did not happen.",
+    "Sense 2 is close to 〜には (切るには便利だ); both are acceptable."
+  ],
+  "jlptTips": [
+    "If the second clause is a request, invitation or volitional, のに is wrong; choose が / けど.",
+    "For sense 2, the predicate after the blank (便利, 必要, 使う, かかる) tells you it is purpose のに, not ために.",
+    "Check for な after な-adjectives and nouns; 元気のに is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-110-1",
+    "q-n3-g-110-2",
+    "q-n3-g-110-3",
+    "q-n3-g-110-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-110-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

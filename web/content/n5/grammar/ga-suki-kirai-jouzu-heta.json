@@ -1,0 +1,121 @@
+{
+  "id": "n5-grammar-31",
+  "slug": "ga-suki-kirai-jouzu-heta",
+  "level": "n5",
+  "order": 31,
+  "title": "が好き ／ 嫌い ／ 上手 ／ 下手",
+  "romaji": "ga suki / kirai / jouzu / heta",
+  "meaning": "The object of liking, disliking and skill is marked with が.",
+  "simpleExplanation": "To say you like, dislike, are good at or bad at something, the thing is marked with が: 音楽が好きです \"I like music\". In English \"like\" is a verb with an object, but in Japanese 好き is a な-adjective, so the thing you like is the subject (\"music is likeable to me\"). The same goes for 嫌い (dislike), 上手 (good at) and 下手 (bad at). To like doing something, add の to the verb: 泳ぐのが好きです.",
+  "whenUsed": "Talking about tastes (food, music, sports), hobbies, and skills. 上手 is used for other people's skills; for your own use 得意 or simply say what you can do.",
+  "formation": [
+    "Noun + が + 好きです／嫌いです／上手です／下手です"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "私は",
+        "role": "topic (the one who likes)"
+      },
+      {
+        "text": "日本の音楽",
+        "role": "thing liked"
+      },
+      {
+        "text": "が",
+        "role": "marks the liked thing",
+        "highlight": true
+      },
+      {
+        "text": "好きです",
+        "role": "な-adjective \"likeable\""
+      }
+    ],
+    "translation": "I like Japanese music."
+  },
+  "examples": [
+    {
+      "ja": "私は日本の音楽が好きです。",
+      "reading": "わたしは にほんの おんがくが すきです。",
+      "en": "I like Japanese music.",
+      "note": "Thing liked + が + 好きです."
+    },
+    {
+      "ja": "弟は野菜が嫌いです。",
+      "reading": "おとうとは やさいが きらいです。",
+      "en": "My younger brother dislikes vegetables.",
+      "note": "Thing disliked + が + 嫌いです."
+    },
+    {
+      "ja": "田中さんは料理が上手です。",
+      "reading": "たなかさんは りょうりが じょうずです。",
+      "en": "Mr Tanaka is good at cooking.",
+      "note": "Skill + が + 上手です (about someone else)."
+    },
+    {
+      "ja": "私は泳ぐのが好きです。",
+      "reading": "わたしは およぐのが すきです。",
+      "en": "I like swimming.",
+      "note": "Verb + の turns the action into a noun so が can follow."
+    },
+    {
+      "ja": "私は歌が下手です。",
+      "reading": "わたしは うたが へたです。",
+      "en": "I'm bad at singing.",
+      "note": "Being modest about yourself with 下手 is natural."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-30",
+      "pattern": "がほしい",
+      "difference": "Same が for the object of a feeling word."
+    },
+    {
+      "id": "n5-grammar-32",
+      "pattern": "が分かる／ができる",
+      "difference": "Also take が for their object."
+    },
+    {
+      "id": "n5-grammar-28",
+      "pattern": "な-adjective conjugation",
+      "difference": "好き, 嫌い, 上手, 下手 are all な-adjectives: 好きな, 好きじゃない."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "音楽を好きです。",
+      "right": "音楽が好きです。",
+      "why": "好き is not a verb; its object takes が."
+    },
+    {
+      "wrong": "好きくない",
+      "right": "好きじゃない",
+      "why": "好き is a な-adjective despite ending in き."
+    },
+    {
+      "wrong": "泳ぐが好きです。",
+      "right": "泳ぐのが好きです。",
+      "why": "A verb needs の before が to become a noun."
+    }
+  ],
+  "usageNotes": [
+    "All four are な-adjectives: 好きな人, 好きじゃない. 大好き = love, 大嫌い = hate. Saying 上手 about your own skill sounds boastful; use 得意（とくい）instead. To say \"like doing X\", nominalise: 泳ぐのが好きです."
+  ],
+  "jlptTips": [
+    "If the word after the blank is 好き・嫌い・上手・下手, the particle is が.",
+    "If a verb comes before 好き, the blank is のが (verb + の + が)."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-31-1",
+    "q-n5-g-31-2",
+    "q-n5-g-31-3",
+    "q-n5-g-31-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-31-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

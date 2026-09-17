@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-30",
+  "slug": "ni-tsurete",
+  "level": "n3",
+  "order": 30,
+  "title": "〜につれて / 〜につれ",
+  "romaji": "ni tsurete",
+  "meaning": "As… (changes), … (also gradually changes)",
+  "simpleExplanation": "〜につれて links two gradual changes: 時間がたつにつれて、痛みが消えていった = as time passed, the pain gradually went away. Both halves must be changes; the second one follows naturally, without anyone's intention.",
+  "whenUsed": "Essays, narration, describing trends. Slightly more common in speech than にしたがって. Written: 〜につれ.",
+  "formation": [
+    "Verb (dictionary form) + につれて",
+    "Noun (expressing change) + につれて",
+    "Main clause: a change (〜なる / 〜てくる / 〜ていく)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "時間がたつ",
+        "en": "time passes (change 1, dictionary form)"
+      },
+      {
+        "ja": "時間がたつにつれて",
+        "en": "as time passes… (link to change 2)"
+      },
+      {
+        "ja": "時間がたつにつれて、痛みが消えていった",
+        "en": "…the pain gradually went away (change 2, no intention)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "時間がたつにつれて、痛みが消えていった。",
+      "reading": "じかんがたつにつれて、いたみがきえていった。",
+      "en": "As time passed, the pain gradually went away.",
+      "note": "Time passing + pain fading: two gradual changes."
+    },
+    {
+      "ja": "都市化が進むにつれて、緑が減っている。",
+      "reading": "としかがすすむにつれて、みどりがへっている。",
+      "en": "As urbanization advances, greenery is decreasing.",
+      "note": "Urbanization + decrease of greenery."
+    },
+    {
+      "ja": "大人になるにつれて、考え方が変わった。",
+      "reading": "おとなになるにつれて、かんがえかたがかわった。",
+      "en": "As I became an adult, my way of thinking changed.",
+      "note": "Becoming an adult + change in thinking."
+    },
+    {
+      "ja": "日本語が上達するにつれて、日本人の友達が増えてきた。",
+      "reading": "にほんごがじょうたつするにつれて、にほんじんのともだちがふえてきた。",
+      "en": "As my Japanese improved, my Japanese friends gradually increased.",
+      "note": "The main clause uses 〜てきた, a natural change."
+    },
+    {
+      "ja": "試験の日が近づくにつれて、不安になってきた。",
+      "reading": "しけんのひがちかづくにつれて、ふあんになってきた。",
+      "en": "As the exam day approached, I became anxious.",
+      "note": "近づくにつれて is a very common pairing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にしたがって",
+      "difference": "Same for parallel change; also has the \"follow instructions\" meaning that につれて lacks.",
+      "id": "n3-grammar-29"
+    },
+    {
+      "pattern": "〜とともに",
+      "difference": "Also parallel change, more formal; additionally means \"together with\".",
+      "id": "n3-grammar-28"
+    },
+    {
+      "pattern": "〜ば〜ほど",
+      "difference": "Proportion (\"the more… the more…\") with a repeated word. につれて is about change over time.",
+      "id": "n3-grammar-2"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "時間がたつにつれて、宿題をしよう。",
+      "right": "時間がたつにつれて、慣れてきた。",
+      "why": "The main clause must be a natural change, not an intention or command."
+    },
+    {
+      "wrong": "年をとったにつれて",
+      "right": "年をとるにつれて",
+      "why": "Dictionary form before につれて."
+    },
+    {
+      "wrong": "ボタンを押すにつれて、ドアが開く。",
+      "right": "ボタンを押すと、ドアが開く。",
+      "why": "につれて needs gradual change on both sides; a one-time trigger uses と."
+    }
+  ],
+  "usageNotes": [
+    "Both clauses must express change; not used for intentional actions in the main clause (x 〜につれて勉強しよう). Compare 〜ば〜ほど (proportional) and 〜とともに.",
+    "Verbs of change that commonly precede につれて: 進む, 増える, 近づく, 上がる, たつ, 成長する."
+  ],
+  "jlptTips": [
+    "Both clauses gradual changes (〜なる, 〜てくる, 〜ていく) = につれて / にしたがって / とともに.",
+    "If the main clause is a wish, command, or intention, につれて is wrong; look for another answer.",
+    "A noun before the blank must itself express change (増加, 発展, 成長); a person or object noun rules out につれて."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-30-1",
+    "q-n3-g-30-2",
+    "q-n3-g-30-3",
+    "q-n3-g-30-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-30-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

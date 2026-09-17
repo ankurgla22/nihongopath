@@ -1,0 +1,134 @@
+{
+  "id": "n2-grammar-85",
+  "slug": "to-iu-yori",
+  "level": "n2",
+  "order": 85,
+  "title": "〜というより",
+  "romaji": "to iu yori",
+  "meaning": "rather than (calling it) ...",
+  "simpleExplanation": "〜というより means \"rather than (calling it)…, more like…\". It corrects a description with a more accurate one: he's more like a friend than a teacher; rather than cool, it's more like cold. Often paired with むしろ.",
+  "whenUsed": "Both registers. It follows nouns and plain forms; というよりも adds emphasis. The second description replaces the first as the better fit. It is about how to describe something, not about preference between two actions.",
+  "formation": [
+    "普通形 / N + というより(も)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Choosing the more accurate description",
+    "columns": [
+      "Less accurate",
+      "というより",
+      "More accurate"
+    ],
+    "rows": [
+      {
+        "label": "Person",
+        "cells": [
+          "教師",
+          "というより",
+          "友達のようだ"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "cells": [
+          "涼しい",
+          "というより",
+          "寒いくらいだ"
+        ]
+      },
+      {
+        "label": "Action",
+        "cells": [
+          "走った",
+          "というより",
+          "飛んだ感じだった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は教師というより、友達のようだ。",
+      "reading": "かれはきょうしというより、ともだちのようだ。",
+      "en": "He is more like a friend than a teacher.",
+      "note": "Noun corrected."
+    },
+    {
+      "ja": "涼しいというより、寒いくらいだ。",
+      "reading": "すずしいというより、さむいくらいだ。",
+      "en": "Rather than cool, it's more like cold.",
+      "note": "Adjective corrected."
+    },
+    {
+      "ja": "走ったというより、飛んだ感じだった。",
+      "reading": "はしったというより、とんだかんじだった。",
+      "en": "It felt less like running and more like flying.",
+      "note": "Verb corrected."
+    },
+    {
+      "ja": "彼女は美人というより、むしろかわいいタイプだ。",
+      "reading": "かのじょはびじんというより、むしろかわいいタイプだ。",
+      "en": "She is not so much beautiful as cute.",
+      "note": "むしろ reinforces the correction."
+    },
+    {
+      "ja": "あの店は安いというよりも、値段の割に量が多いのだ。",
+      "reading": "あのみせはやすいというよりも、ねだんのわりにりょうがおおいのだ。",
+      "en": "That shop is not so much cheap as generous with portions for the price.",
+      "note": "というよりも for emphasis."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜より",
+      "difference": "Plain comparison (AよりBが好き); というより compares descriptions."
+    },
+    {
+      "pattern": "〜というと / といえば",
+      "difference": "Topic association, not correction.",
+      "id": "n2-grammar-82"
+    },
+    {
+      "pattern": "〜ではなく",
+      "difference": "Flat replacement (\"not A but B\"); というより is softer, \"A is not quite right\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "コーヒーというより紅茶が好きだ。",
+      "right": "コーヒーより紅茶が好きだ。",
+      "why": "Preference between items takes plain より."
+    },
+    {
+      "wrong": "彼は教師のというより",
+      "right": "彼は教師というより",
+      "why": "Nouns attach directly."
+    },
+    {
+      "wrong": "寒いというより、涼しい。（wrong direction）",
+      "right": "涼しいというより、寒い。",
+      "why": "The more accurate, usually stronger description comes second."
+    }
+  ],
+  "usageNotes": [
+    "むしろ frequently appears in the second half.",
+    "Casual: 〜っていうより.",
+    "Can be used for self-correction mid-sentence: 好き、というより尊敬している."
+  ],
+  "jlptTips": [
+    "Two descriptions of the same thing with the second more accurate → というより.",
+    "Distractors: より, というと, といっても. A preference between two objects means plain より.",
+    "むしろ in the second half is a strong clue."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-85-1",
+    "q-n2-g-85-2",
+    "q-n2-g-85-3",
+    "q-n2-g-85-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-85-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-29",
+  "slug": "ni-shitagatte",
+  "level": "n3",
+  "order": 29,
+  "title": "〜にしたがって / 〜に従って",
+  "romaji": "ni shitagatte",
+  "meaning": "As… (progresses) / in accordance with…",
+  "simpleExplanation": "〜にしたがって has two meanings that share the idea of \"following\". (1) As one thing progresses, another changes: 山を登るにしたがって空気が薄くなる. (2) Following rules or instructions: 説明書にしたがって組み立てる = assemble it according to the manual. In meaning (2) it comes from the verb 従う (to obey).",
+  "whenUsed": "Formal writing and speech. Meaning (2) appears in instructions, contracts, notices. Written: 〜に従い.",
+  "formation": [
+    "Verb (dictionary form) + にしたがって (parallel change)",
+    "Noun + にしたがって (following / obeying)",
+    "Written: 〜に従い / 〜に従って"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two meanings",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-dict + にしたがって",
+        "cells": [
+          "as X progresses, Y",
+          "北へ行くにしたがって寒くなる"
+        ]
+      },
+      {
+        "label": "N (rule/person) + にしたがって",
+        "cells": [
+          "following / obeying",
+          "指示にしたがって行動する"
+        ]
+      },
+      {
+        "label": "N (change) + にしたがって",
+        "cells": [
+          "as X (increases), Y",
+          "人口の増加にしたがって"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "山を登るにしたがって、空気が薄くなる。",
+      "reading": "やまをのぼるにしたがって、くうきがうすくなる。",
+      "en": "As you climb the mountain, the air gets thinner.",
+      "note": "Parallel change while climbing."
+    },
+    {
+      "ja": "説明書にしたがって、組み立ててください。",
+      "reading": "せつめいしょにしたがって、くみたててください。",
+      "en": "Please assemble it following the instructions.",
+      "note": "Following instructions (from 従う = obey)."
+    },
+    {
+      "ja": "人口が増えるにしたがって、住宅が不足してきた。",
+      "reading": "じんこうがふえるにしたがって、じゅうたくがふそくしてきた。",
+      "en": "As the population grew, housing became scarce.",
+      "note": "Parallel change with a noun-like verb clause."
+    },
+    {
+      "ja": "先生の指示にしたがって、避難訓練を行った。",
+      "reading": "せんせいのしじにしたがって、ひなんくんれんをおこなった。",
+      "en": "We carried out the evacuation drill following the teacher's instructions.",
+      "note": "The obey meaning: 指示に従う."
+    },
+    {
+      "ja": "工業化が進むにしたがって、川の水が汚れてきた。",
+      "reading": "こうぎょうかがすすむにしたがって、かわのみずがよごれてきた。",
+      "en": "As industrialization advanced, the river water became polluted.",
+      "note": "Parallel change; につれて would also work here."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Parallel change only; cannot mean \"obey\". Slightly less formal.",
+      "id": "n3-grammar-30"
+    },
+    {
+      "pattern": "〜とともに",
+      "difference": "Parallel change or \"together with\"; also formal.",
+      "id": "n3-grammar-28"
+    },
+    {
+      "pattern": "〜によって",
+      "difference": "\"Depending on\" or \"by\", not \"following\".",
+      "id": "n3-grammar-20"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "山を登ったにしたがって、空気が薄くなった。",
+      "right": "山を登るにしたがって、空気が薄くなった。",
+      "why": "The verb before にしたがって is in dictionary form, even for past events."
+    },
+    {
+      "wrong": "説明書につれて組み立てた。",
+      "right": "説明書にしたがって組み立てた。",
+      "why": "\"Following a manual\" is the obey meaning, which only にしたがって has."
+    },
+    {
+      "wrong": "時間がたつにしたがって、勉強しよう。",
+      "right": "時間がたつにつれて、慣れてきた。/ 時間があるうちに勉強しよう。",
+      "why": "The parallel-change meaning needs a change, not an intention, in the main clause."
+    }
+  ],
+  "usageNotes": [
+    "Sense (1) is interchangeable with 〜につれて but a bit more formal; sense (2) \"obey\" is unique to にしたがって. Written form: 〜に従い.",
+    "In business: 規則に従って処理いたします (we will handle it in accordance with the rules)."
+  ],
+  "jlptTips": [
+    "If the noun is a rule, manual, instruction, or person (指示, 規則, 説明書, 先生), only にしたがって fits; につれて is wrong.",
+    "For parallel change, にしたがって and につれて are both correct; the test usually offers only one of them.",
+    "Dictionary form before にしたがって; a past form in the options is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-29-1",
+    "q-n3-g-29-2",
+    "q-n3-g-29-3",
+    "q-n3-g-29-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-29-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

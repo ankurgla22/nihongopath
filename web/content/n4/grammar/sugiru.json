@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-30",
+  "slug": "sugiru",
+  "level": "n4",
+  "order": 30,
+  "title": "〜すぎる \"too much / excessively\"",
+  "romaji": "sugiru",
+  "meaning": "Excess in degree or amount.",
+  "simpleExplanation": "〜すぎる means \"too much\" or \"too…\". It attaches to the stem of verbs and adjectives: 食べすぎる = eat too much, 高すぎる = too expensive, 静かすぎる = too quiet. The result is a new Group 2 verb, so it conjugates like 食べる: すぎます, すぎた, すぎて. It always suggests that the amount or degree is more than it should be.",
+  "whenUsed": "Complaints and regrets (飲みすぎた, 働きすぎだ), shopping (高すぎる), describing people (真面目すぎる), and giving reasons for a result with すぎて (食べすぎてお腹が痛い).",
+  "formation": [
+    "V-ます stem + すぎる: 食べすぎる, 飲みすぎる, 働きすぎる",
+    "い-adjective stem (drop い) + すぎる: 高すぎる, 難しすぎる; いい → よすぎる",
+    "な-adjective + すぎる: 静かすぎる, 真面目すぎる",
+    "ない → なさすぎる (やる気がなさすぎる)",
+    "Conjugates as Group 2: すぎます, すぎた, すぎて; noun form: 食べすぎ, 飲みすぎ"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "食べる / 高い / 静かだ / いい",
+    "rootLabel": "verb or adjective",
+    "branches": [
+      {
+        "suffix": "ます-stem + すぎる",
+        "result": "食べすぎる",
+        "label": "verb: eat too much"
+      },
+      {
+        "suffix": "drop い + すぎる",
+        "result": "高すぎる",
+        "label": "い-adjective: too expensive"
+      },
+      {
+        "suffix": "stem + すぎる",
+        "result": "静かすぎる",
+        "label": "な-adjective: too quiet"
+      },
+      {
+        "suffix": "いい → よ + すぎる",
+        "result": "よすぎる",
+        "label": "irregular: too good"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "昨日は食べすぎました。",
+      "reading": "きのうは たべすぎました。",
+      "en": "I ate too much yesterday.",
+      "note": "Verb: 食べます → 食べ + すぎる; past 食べすぎた."
+    },
+    {
+      "ja": "この問題は難しすぎる。",
+      "reading": "この もんだいは むずかしすぎる。",
+      "en": "This problem is too difficult.",
+      "note": "い-adjective: 難しい → 難し + すぎる."
+    },
+    {
+      "ja": "彼は真面目すぎて、冗談が通じない。",
+      "reading": "かれは まじめすぎて、じょうだんが つうじない。",
+      "en": "He is too serious and doesn't get jokes.",
+      "note": "な-adjective + すぎて: the て-form introduces the result."
+    },
+    {
+      "ja": "このかばんはデザインはいいけど、値段が高すぎます。",
+      "reading": "この かばんは デザインは いいけど、ねだんが たかすぎます。",
+      "en": "This bag has a nice design, but the price is too high.",
+      "note": "高い → 高すぎる; a typical shopping complaint."
+    },
+    {
+      "ja": "昨日は働きすぎて、今日は体がだるい。",
+      "reading": "きのうは はたらきすぎて、きょうは からだが だるい。",
+      "en": "I worked too much yesterday, and today my body feels heavy.",
+      "note": "すぎて (て-form) gives the cause; the result follows."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜やすい",
+      "difference": "Also attaches to the ます-stem, but means \"easy to\" (食べやすい). すぎる means \"too much\".",
+      "id": "n4-grammar-84"
+    },
+    {
+      "pattern": "とても / 非常に",
+      "difference": "とても高い = very expensive (could be fine). 高すぎる = too expensive (a problem)."
+    },
+    {
+      "pattern": "〜くらい / 〜ほど",
+      "difference": "These show degree by comparison (泣きたいくらい). すぎる judges the degree as excessive.",
+      "id": "n4-grammar-50"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この問題は難しいすぎる。",
+      "right": "この問題は難しすぎる。",
+      "why": "Drop the final い of the い-adjective before すぎる."
+    },
+    {
+      "wrong": "昨日、食べるすぎました。",
+      "right": "昨日、食べすぎました。",
+      "why": "Verbs attach with the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "この映画はおもしろすぎる。(meaning 'very interesting', as praise)",
+      "right": "この映画はとてもおもしろい。",
+      "why": "すぎる implies excess. As slangy praise it exists in casual speech, but in standard and exam Japanese use とても."
+    }
+  ],
+  "usageNotes": [
+    "The noun form 〜すぎ is common in speech: 食べすぎだよ (you're eating too much), 働きすぎ (overwork).",
+    "〜すぎて + result is the most common frame in the exam: 甘すぎて食べられない.",
+    "ない becomes なさすぎる: 時間がなさすぎる. Similarly for the negative of verbs in casual speech (やらなさすぎ), but the exam sticks to adjectives."
+  ],
+  "jlptTips": [
+    "Check the form before すぎる: verbs use the ます-stem, い-adjectives drop い, な-adjectives attach directly. Options often show the wrong attachment (難しいすぎる, 食べるすぎる).",
+    "If the sentence ends with a bad result (お腹が痛い, 買えない, 眠い), すぎて is the likely connector."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-30-1",
+    "q-n4-g-30-2",
+    "q-n4-g-30-3",
+    "q-n4-g-30-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-30-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

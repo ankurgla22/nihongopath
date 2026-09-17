@@ -1,0 +1,130 @@
+{
+  "id": "n4-grammar-11",
+  "slug": "tara-conditional",
+  "level": "n4",
+  "order": 11,
+  "title": "〜たら (conditional) \"if / when / after\"",
+  "romaji": "tara (jouken)",
+  "meaning": "The most general conditional: \"if/when A happens (and is completed), B\". Also \"when I did A, (I found) B\".",
+  "simpleExplanation": "〜たら is the most flexible \"if / when\". Make the た-form and add ら: 食べたら, 行ったら, 安かったら, 雨だったら. It means \"if/when A happens (and is finished), then B\". Unlike と and ば, you can put anything after たら: requests, invitations, your own plans. In the past tense it also means \"when I did A, I found B\" (窓を開けたら、富士山が見えた).",
+  "whenUsed": "Everyday conditions and time sequences: 駅に着いたら電話して (call me when you get to the station), 暇だったら遊びに来て (come over if you're free), 大人になったら (when I grow up). Very common in conversation. If in doubt in the exam, たら is usually grammatical.",
+  "formation": [
+    "Verb: た-form + ら: 食べたら, 行ったら, したら, 来たら (きたら); negative なかったら",
+    "い-adjective: drop い + かったら: 高かったら, いい→よかったら",
+    "な-adjective / Noun: + だったら: 静かだったら, 雨だったら",
+    "もし〜たら emphasises \"if\"; the main clause can be any type (request, invitation, plan, discovery)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "行く / 高い / 静かだ / 雨",
+    "rootLabel": "plain form",
+    "branches": [
+      {
+        "suffix": "た-form + ら",
+        "result": "行ったら",
+        "label": "verb: if/when I go"
+      },
+      {
+        "suffix": "-い → -かったら",
+        "result": "高かったら",
+        "label": "い-adjective: if it is expensive"
+      },
+      {
+        "suffix": "+ だったら",
+        "result": "静かだったら",
+        "label": "な-adjective: if it is quiet"
+      },
+      {
+        "suffix": "+ だったら",
+        "result": "雨だったら",
+        "label": "noun: if it rains"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "駅に着いたら、電話してください。",
+      "reading": "えきに ついたら、でんわしてください。",
+      "en": "When you arrive at the station, please call me.",
+      "note": "Request after たら: allowed."
+    },
+    {
+      "ja": "雨が降ったら、試合は中止です。",
+      "reading": "あめが ふったら、しあいは ちゅうしです。",
+      "en": "If it rains, the match will be cancelled.",
+      "note": "Hypothetical if: the match's cancellation depends on rain."
+    },
+    {
+      "ja": "窓を開けたら、富士山が見えた。",
+      "reading": "まどを あけたら、ふじさんが みえた。",
+      "en": "When I opened the window, I could see Mt Fuji.",
+      "note": "Past discovery: 'when I opened it, I saw…'."
+    },
+    {
+      "ja": "もし宝くじが当たったら、世界旅行がしたい。",
+      "reading": "もし たからくじが あたったら、せかいりょこうが したい。",
+      "en": "If I won the lottery, I'd like to travel round the world.",
+      "note": "もし + たら for a pure hypothetical; a wish (〜たい) may follow."
+    },
+    {
+      "ja": "暇だったら、一緒に買い物に行きませんか。",
+      "reading": "ひまだったら、いっしょに かいものに いきませんか。",
+      "en": "If you're free, would you like to go shopping together?",
+      "note": "な-adjective + だったら, followed by an invitation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と",
+      "difference": "と is for automatic results and cannot precede requests. たら can.",
+      "id": "n4-grammar-9"
+    },
+    {
+      "pattern": "〜ば",
+      "difference": "ば stresses the condition and sounds more like a rule; it cannot express a past one-time discovery. たら can do both.",
+      "id": "n4-grammar-10"
+    },
+    {
+      "pattern": "〜なら",
+      "difference": "なら picks up a topic and gives a reaction, and the main action may come before the condition (行くなら切符を買っておく). たら requires the condition to be completed first.",
+      "id": "n4-grammar-12"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本へ行ったら、切符を買っておきます。(meaning: buy before going)",
+      "right": "日本へ行くなら、切符を買っておきます。",
+      "why": "たら means the ticket is bought AFTER arriving. For advice about a plan not yet started, use なら."
+    },
+    {
+      "wrong": "安いたら、買います。",
+      "right": "安かったら、買います。",
+      "why": "い-adjectives drop い and take かったら."
+    },
+    {
+      "wrong": "雨たら、行きません。",
+      "right": "雨だったら、行きません。",
+      "why": "Nouns need だったら."
+    }
+  ],
+  "usageNotes": [
+    "In the past tense (〜たら、〜た) the main clause is a discovery or an unexpected result, not the speaker's own decided action.",
+    "〜たら with future time expressions means \"when\" rather than \"if\": 大学を卒業したら働きます (when I graduate, I'll work).",
+    "〜たらどうですか (lesson 66) and 〜たらいい (lesson 92) are set phrases built on this form."
+  ],
+  "jlptTips": [
+    "If the main clause is a request, invitation, permission or wish, たら is almost always the intended answer among と / ば / たら.",
+    "Check the tense trap: a past discovery (〜たら、〜ていた / があった) is たら or と, never ば or なら."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-11-1",
+    "q-n4-g-11-2",
+    "q-n4-g-11-3",
+    "q-n4-g-11-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-11-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

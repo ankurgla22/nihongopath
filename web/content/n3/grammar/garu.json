@@ -1,0 +1,119 @@
+{
+  "id": "n3-grammar-100",
+  "slug": "garu",
+  "level": "n3",
+  "order": 100,
+  "title": "〜がる / 〜がっている",
+  "romaji": "garu / gatte iru",
+  "meaning": "(a third person) shows signs of feeling… / seems to want…",
+  "simpleExplanation": "In Japanese you cannot directly state another person's feelings with words like ほしい, 〜たい, 怖い, 寂しい. Instead you add 〜がる: \"shows signs of…\". 妹は新しいスマホをほしがっている \"my sister wants a new phone (I can see it)\". The object usually switches from が to を: 水がほしい → 水をほしがる.",
+  "whenUsed": "Talking about other people's desires and emotions in everyday and written Japanese. 〜がっている describes the current state; 〜がる describes a habit or tendency. Also makes nouns for personality types: 寒がり, 恥ずかしがり屋.",
+  "formation": [
+    "い-adjective stem + がる (怖い → 怖がる, 寂しい → 寂しがる)",
+    "な-adjective stem + がる (嫌 → 嫌がる, 不思議 → 不思議がる)",
+    "Verb たい-stem + がる (行きたい → 行きたがる)",
+    "ほしい → ほしがる; usually 〜がっている for a current state",
+    "Object: を (水をほしがる, 海に行きたがる)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "私は新しいスマホがほしい。",
+        "en": "I want a new phone. (own feeling: ほしい + が)"
+      },
+      {
+        "ja": "妹は新しいスマホをほしがっている。",
+        "en": "My sister wants a new phone. (someone else: ほしがる + を)"
+      },
+      {
+        "ja": "妹は何でもすぐほしがる。",
+        "en": "My sister wants everything right away. (habit: がる)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "妹は新しいスマホをほしがっている。",
+      "reading": "いもうとはあたらしいスマホをほしがっている。",
+      "en": "My sister wants a new smartphone.",
+      "note": "ほしい → ほしがっている; object marked with を."
+    },
+    {
+      "ja": "子供が犬を怖がって泣いた。",
+      "reading": "こどもがいぬをこわがってないた。",
+      "en": "The child was scared of the dog and cried.",
+      "note": "怖い → 怖がって; the child's fear is visible."
+    },
+    {
+      "ja": "彼は海外に行きたがっている。",
+      "reading": "かれはかいがいにいきたがっている。",
+      "en": "He wants to go abroad.",
+      "note": "行きたい → 行きたがっている."
+    },
+    {
+      "ja": "息子は注射を嫌がって、なかなか病院に行かない。",
+      "reading": "むすこはちゅうしゃをいやがって、なかなかびょういんにいかない。",
+      "en": "My son hates injections and won't go to the hospital.",
+      "note": "な-adjective 嫌 → 嫌がる."
+    },
+    {
+      "ja": "彼は寒がりで、秋になるとすぐコートを着る。",
+      "reading": "かれはさむがりで、あきになるとすぐコートをきる。",
+      "en": "He feels the cold easily and puts on a coat as soon as autumn comes.",
+      "note": "〜がり: a person with that tendency."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜そうだ (appearance)",
+      "difference": "'Looks (sad)' — describes appearance at a moment (悲しそうだ). がる describes behaviour that shows the feeling."
+    },
+    {
+      "pattern": "〜たい / ほしい",
+      "difference": "Only for the speaker (or a question to the listener). Third persons need がる or a hedge like らしい / ようだ."
+    },
+    {
+      "pattern": "〜ようだ / 〜らしい",
+      "difference": "Other ways to report a third person's inner state as an inference."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "妹は新しいスマホがほしい。",
+      "right": "妹は新しいスマホをほしがっている。",
+      "why": "ほしい alone cannot describe a third person's wish; add がる and switch to を."
+    },
+    {
+      "wrong": "私は海に行きたがっている。",
+      "right": "私は海に行きたい。",
+      "why": "がる is for others; for yourself use たい directly."
+    },
+    {
+      "wrong": "子供が犬をこわいがっている。",
+      "right": "子供が犬を怖がっている。",
+      "why": "Drop the final い of the adjective before がる: 怖 + がる."
+    }
+  ],
+  "usageNotes": [
+    "がる verbs are Group 1: がります, がった, がらない.",
+    "Common: 痛がる, 悲しがる, 嬉しがる, 面白がる, うらやましがる, 珍しがる, 得意がる.",
+    "In questions to the listener, たい and ほしい are fine (何がほしいですか); がる is not used to ask."
+  ],
+  "jlptTips": [
+    "If the subject is a third person and the predicate is a feeling word, expect 〜がる / 〜がっている.",
+    "Particle change: the が-object of たい/ほしい becomes を with がる.",
+    "Distinguish がる (behaviour showing feeling) from そう (looks like) when both appear in the choices."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-100-1",
+    "q-n3-g-100-2",
+    "q-n3-g-100-3",
+    "q-n3-g-100-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-100-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

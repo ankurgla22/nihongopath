@@ -1,0 +1,123 @@
+{
+  "id": "n2-grammar-195",
+  "slug": "zu-ni-sumu",
+  "level": "n2",
+  "order": 195,
+  "title": "〜ずに済む / 〜なくて済む / 〜ないで済む",
+  "romaji": "zu ni sumu / nakute sumu / naide sumu",
+  "meaning": "get by without having to; manage without",
+  "simpleExplanation": "〜ずに済む / 〜なくて済む / 〜ないで済む mean \"manage without doing X\": something troublesome was avoided, usually thanks to some circumstance. タクシーに乗らずに済んだ (didn't have to take a taxi). The feeling is relief. 済む (to be settled) is the key verb; ずに is the most formal of the three connectors.",
+  "whenUsed": "Both speech and writing. Very common with おかげで (thanks to) and in explanations of how a problem was avoided. ずに済む is written or careful; ないで済む is casual.",
+  "formation": [
+    "Verb (ない-stem) + ずに済む (する → せずに済む)",
+    "Verb ない + で済む",
+    "Verb なく + て済む",
+    "Past: 〜ずに済んだ; Conditional: 〜ずに済めば",
+    "Noun + で済む (a related pattern: 千円で済む = only costs 1,000 yen)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "タクシーに乗らなかった",
+        "en": "did not take a taxi (plain fact)"
+      },
+      {
+        "ja": "タクシーに乗る必要がなかった",
+        "en": "did not need to take a taxi"
+      },
+      {
+        "ja": "タクシーに乗らずに済んだ",
+        "en": "got by without taking a taxi (relief; trouble avoided)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "友達が車で送ってくれたので、タクシーに乗らずに済んだ。",
+      "reading": "ともだちがくるまでおくってくれたので、タクシーにのらずにすんだ。",
+      "en": "My friend drove me, so I got by without taking a taxi.",
+      "note": "A ride from a friend avoided the taxi."
+    },
+    {
+      "ja": "保険に入っていたおかげで、高い治療費を払わなくて済んだ。",
+      "reading": "ほけんにはいっていたおかげで、たかいちりょうひをはらわなくてすんだ。",
+      "en": "Thanks to having insurance, I did not have to pay high medical fees.",
+      "note": "Insurance avoided a big payment: なくて済む."
+    },
+    {
+      "ja": "早めに謝れば、大きな問題にならないで済む。",
+      "reading": "はやめにあやまれば、おおきなもんだいにならないですむ。",
+      "en": "If you apologize early, it will not turn into a big problem.",
+      "note": "ないで済む with a conditional: avoiding a problem."
+    },
+    {
+      "ja": "早めに準備しておいたので、慌てずに済んだ。",
+      "reading": "はやめにじゅんびしておいたので、あわてずにすんだ。",
+      "en": "Because I prepared early, I did not have to panic.",
+      "note": "ずに済んだ with a reason clause."
+    },
+    {
+      "ja": "この薬のおかげで、手術をせずに済みそうだ。",
+      "reading": "このくすりのおかげで、しゅじゅつをせずにすみそうだ。",
+      "en": "Thanks to this medicine, it looks like surgery can be avoided.",
+      "note": "する → せずに; 済みそうだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なくてもいい",
+      "difference": "\"Don't have to\": permission or lack of necessity, without the sense that trouble was avoided."
+    },
+    {
+      "pattern": "〜ずに / 〜ないで",
+      "difference": "\"Without doing\": no sense of relief."
+    },
+    {
+      "pattern": "〜で済む",
+      "difference": "\"Settle with only X\" (謝るだけで済む)."
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "Completely different: 'cannot help doing'."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行くずに済んだ。",
+      "right": "行かずに済んだ。",
+      "why": "Use the ない-stem before ずに."
+    },
+    {
+      "wrong": "しずに済んだ。",
+      "right": "せずに済んだ。",
+      "why": "する becomes せず."
+    },
+    {
+      "wrong": "お金を払わずに済んで、悲しい。",
+      "right": "お金を払わずに済んで、助かった。",
+      "why": "The feeling is relief; a negative emotion contradicts the pattern."
+    }
+  ],
+  "usageNotes": [
+    "おかげで is a frequent partner.",
+    "済む also appears in 〜だけで済む (get away with only) and ただでは済まない (won't get off lightly).",
+    "Choose ずに in writing, ないで in speech."
+  ],
+  "jlptTips": [
+    "If the sentence expresses relief at avoiding trouble (おかげで / ので), choose ずに済む.",
+    "Check the stem: 乗らずに, せずに.",
+    "Distractors include なくてもいい, ずに (without), しかない. Only 済む expresses avoided trouble."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-195-1",
+    "q-n2-g-195-2",
+    "q-n2-g-195-3",
+    "q-n2-g-195-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-195-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-151",
+  "slug": "mo-ba-mo",
+  "level": "n2",
+  "order": 151,
+  "title": "〜も〜ば〜も / 〜も〜なら〜も",
+  "romaji": "mo … ba … mo / mo … nara … mo",
+  "meaning": "both … and …; not only … but also",
+  "simpleExplanation": "〜も〜ば〜も lists two items that share the same tendency: 彼はお酒も飲めば、たばこも吸う (he both drinks and smokes). The first item takes も and the ば-form; the second takes も. Both items point in the same direction, good or bad. With な-adjectives and nouns, なら replaces ば.",
+  "whenUsed": "Both speech and writing; slightly more written than 〜も〜し〜も. Common in character descriptions and evaluations. In casual talk, 〜も〜し、〜も is more usual.",
+  "formation": [
+    "Noun も + Verb ば + Noun も + Verb",
+    "Noun も + い-adjective ければ + Noun も + adjective",
+    "Noun も + な-adjective なら + Noun も",
+    "Noun も + Noun なら + Noun も (先生も先生なら、生徒も生徒だ = both are as bad as each other)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "お酒も",
+        "role": "first item + も"
+      },
+      {
+        "text": "飲めば",
+        "role": "ば-form of the first predicate",
+        "highlight": true
+      },
+      {
+        "text": "、たばこも",
+        "role": "second item + も"
+      },
+      {
+        "text": "吸う",
+        "role": "second predicate"
+      }
+    ],
+    "translation": "He both drinks and smokes."
+  },
+  "examples": [
+    {
+      "ja": "彼はお酒も飲めば、たばこも吸う。",
+      "reading": "かれはおさけものめば、たばこもすう。",
+      "en": "He both drinks and smokes.",
+      "note": "Two bad habits of the same tendency."
+    },
+    {
+      "ja": "この店は値段も安ければ、味もいい。",
+      "reading": "このみせはねだんもやすければ、あじもいい。",
+      "en": "At this restaurant the prices are cheap and the food is good too.",
+      "note": "Two good qualities: cheap and tasty."
+    },
+    {
+      "ja": "彼女は歌も上手なら、ダンスも上手だ。",
+      "reading": "かのじょはうたもじょうずなら、ダンスもじょうずだ。",
+      "en": "She is good at singing and good at dancing too.",
+      "note": "な-adjective with なら: good at both."
+    },
+    {
+      "ja": "この地域は夏は暑ければ、冬は寒い。",
+      "reading": "このちいきはなつはあつければ、ふゆはさむい。",
+      "en": "In this region, summers are hot and winters are cold.",
+      "note": "Two harsh conditions listed with い-adjectives."
+    },
+    {
+      "ja": "親も親なら、子も子だ。",
+      "reading": "おやもおやなら、こもこだ。",
+      "en": "Like parent, like child (both are at fault).",
+      "note": "Noun も Noun なら: a set idiom of mutual blame."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜も〜し、〜も",
+      "difference": "Casual equivalent: お酒も飲むし、たばこも吸う."
+    },
+    {
+      "pattern": "〜だけでなく〜も",
+      "difference": "\"Not only\": the second item is the focus; も〜ば〜も treats them equally."
+    },
+    {
+      "pattern": "〜やら〜やら",
+      "difference": "Unordered list with a feeling of being overwhelmed.",
+      "id": "n2-grammar-160"
+    },
+    {
+      "pattern": "〜ば〜ほど",
+      "difference": "Different pattern: proportional change.",
+      "id": "n2-grammar-139"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この店は値段も安ければ、味は悪い。",
+      "right": "この店は値段も安ければ、味もいい。",
+      "why": "Both items must share the same tendency; a contrast is expressed with が / けど."
+    },
+    {
+      "wrong": "彼女は歌も上手ければ、ダンスも上手だ。",
+      "right": "彼女は歌も上手なら、ダンスも上手だ。",
+      "why": "な-adjectives use なら, not ければ."
+    },
+    {
+      "wrong": "お酒が飲めば、たばこも吸う。",
+      "right": "お酒も飲めば、たばこも吸う。",
+      "why": "Both items take も."
+    }
+  ],
+  "usageNotes": [
+    "Common in evaluations: 値段も安ければ量も多い.",
+    "Noun も Noun なら Noun も Noun だ is an idiom of mutual criticism.",
+    "The ば-clause is not a condition here; it just links parallel items."
+  ],
+  "jlptTips": [
+    "Look for も on both items around the blank; the first predicate is in ば / なら form.",
+    "Check the tendency: two positives or two negatives, never mixed.",
+    "Distractors include ば〜ほど (proportional) and し (casual); if the text is written style, も〜ば〜も is likely."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-151-1",
+    "q-n2-g-151-2",
+    "q-n2-g-151-3",
+    "q-n2-g-151-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-151-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

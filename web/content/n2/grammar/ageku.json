@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-1",
+  "slug": "ageku",
+  "level": "n2",
+  "order": 1,
+  "title": "〜あげく(に)",
+  "romaji": "ageku (ni)",
+  "meaning": "after (a long/difficult process), in the end ... (usually a bad result)",
+  "simpleExplanation": "〜あげく(に) means \"after (a long, tiring process), in the end…\". The first clause describes a drawn-out struggle (hours of worrying, repeated arguments, piling debts), and the second clause gives the final, usually disappointing result. The feeling is \"after all that, this is what it came to\".",
+  "whenUsed": "Mostly 書き言葉 and formal narration, but it also appears in speech when someone recounts a frustrating story. The result is almost always negative or regrettable; for a neutral or positive outcome after a long process, 〜末に is the safer choice. Typical partners: さんざん, 長い間, 何時間も, 結局.",
+  "formation": [
+    "Vた + あげく(に) / N + の + あげく(に)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "何時間も悩んだ",
+        "role": "long, tiring process (Vた)"
+      },
+      {
+        "text": "あげく",
+        "role": "after all that…",
+        "highlight": true
+      },
+      {
+        "text": "結局何も買わなかった",
+        "role": "final, disappointing result"
+      }
+    ],
+    "translation": "After agonizing for hours, in the end I bought nothing."
+  },
+  "examples": [
+    {
+      "ja": "何時間も悩んだあげく、結局何も買わなかった。",
+      "reading": "なんじかんもなやんだあげく、けっきょくなにもかわなかった。",
+      "en": "After agonizing for hours, in the end I bought nothing.",
+      "note": "Vた + あげく: the past form is required because the process is already over."
+    },
+    {
+      "ja": "長い議論のあげく、計画は中止になった。",
+      "reading": "ながいぎろんのあげく、けいかくはちゅうしになった。",
+      "en": "After a long discussion, the plan was cancelled in the end.",
+      "note": "Noun + の + あげく: 議論・けんか・迷い are typical nouns."
+    },
+    {
+      "ja": "彼は借金を重ねたあげく、家まで失った。",
+      "reading": "かれはしゃっきんをかさねたあげく、いえまでうしなった。",
+      "en": "After piling up debts, he ended up losing even his house.",
+      "note": "Escalation (借金を重ねる) followed by the worst outcome (家まで失う)."
+    },
+    {
+      "ja": "さんざん迷ったあげくに、留学をやめることにした。",
+      "reading": "さんざんまよったあげくに、りゅうがくをやめることにした。",
+      "en": "After endless hesitation, I ended up giving up on studying abroad.",
+      "note": "さんざん + Vた strengthens the sense of a long ordeal."
+    },
+    {
+      "ja": "彼は会社と何度も交渉したあげく、結局辞めてしまった。",
+      "reading": "かれはかいしゃとなんどもこうしょうしたあげく、けっきょくやめてしまった。",
+      "en": "After negotiating with the company many times, he finally quit.",
+      "note": "〜てしまった fits the regretful tone of あげく."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜末に",
+      "difference": "Also \"after a long process\", but neutral: the result can be positive (悩んだ末に合格した). あげく is reserved for bad or regrettable results.",
+      "id": "n2-grammar-57"
+    },
+    {
+      "pattern": "〜た結果",
+      "difference": "Plain cause-and-result with no feeling of struggle; can be any outcome."
+    },
+    {
+      "pattern": "〜たところ",
+      "difference": "\"When I did X, I found Y\": a single action and its discovery, not a long process.",
+      "id": "n2-grammar-65"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "何時間も悩むあげく、何も買わなかった。",
+      "right": "何時間も悩んだあげく、何も買わなかった。",
+      "why": "あげく follows the past form (Vた) or N + の, never the dictionary form."
+    },
+    {
+      "wrong": "毎日練習したあげく、優勝できた。",
+      "right": "毎日練習した末に、優勝できた。",
+      "why": "A happy result clashes with あげく, which implies things went badly. Use 末に for neutral or positive outcomes."
+    },
+    {
+      "wrong": "長い議論あげく、中止になった。",
+      "right": "長い議論のあげく、中止になった。",
+      "why": "A noun needs の before あげく."
+    }
+  ],
+  "usageNotes": [
+    "あげくの果てに is an emphatic variant: \"and to top it all off\".",
+    "The first clause usually contains an element of length or repetition (何度も・長い間・さんざん); a single quick action sounds odd with あげく.",
+    "Because the meaning is regret, it is rarely used about the listener in polite conversation."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, look at the ending: a negative result (やめた・失った・中止になった) after a long process points to あげく; a positive result points to 末に.",
+    "Distractors are usually 末に, 結果, and とたんに. とたんに needs a sudden event, not a long process, so it is easy to eliminate.",
+    "In 並べ替え, keep Vた + あげく together and expect さんざん or 何度も at the start."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-1-1",
+    "q-n2-g-1-2",
+    "q-n2-g-1-3",
+    "q-n2-g-1-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-1-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

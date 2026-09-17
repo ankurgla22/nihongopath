@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-95",
+  "slug": "te-oku",
+  "level": "n3",
+  "order": 95,
+  "title": "〜ておく",
+  "romaji": "te oku",
+  "meaning": "do… in advance / do… and leave it (as is)",
+  "simpleExplanation": "〜ておく has two related uses. (1) Preparation: do something now for later (ビールを冷やしておく \"chill the beer for later\"). (2) Leaving things as they are: そのままにしておく \"leave it as it is\". Both share the idea of setting something up and letting it stay.",
+  "whenUsed": "All registers. In speech it contracts to 〜とく (see lesson 125). Typical partners: 前に (before), 〜ために (for), ために (in order to), and requests: 〜ておいてください.",
+  "formation": [
+    "Verb て-form + おく (おきます / おいた / おいて / おこう)",
+    "Preparation: 会議の前に資料を読んでおく",
+    "Leave as is: そのままにしておく / 開けておく",
+    "Casual contraction: 〜とく / 〜どく"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ておく vs てある vs っぱなし",
+    "columns": [
+      "Focus",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ておく",
+        "cells": [
+          "The action done ahead / on purpose",
+          "窓を開けておく (open the window and leave it, for a reason)"
+        ]
+      },
+      {
+        "label": "〜てある",
+        "cells": [
+          "The resulting state (someone did it)",
+          "窓が開けてある (the window has been left open)"
+        ]
+      },
+      {
+        "label": "〜っぱなし",
+        "cells": [
+          "Carelessly left that way",
+          "窓を開けっぱなしだ (left open, thoughtlessly)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "会議の前に資料を読んでおいてください。",
+      "reading": "かいぎのまえにしりょうをよんでおいてください。",
+      "en": "Please read the materials before the meeting.",
+      "note": "Preparation before the meeting; request form ておいてください."
+    },
+    {
+      "ja": "冷蔵庫にビールを冷やしておいた。",
+      "reading": "れいぞうこにビールをひやしておいた。",
+      "en": "I put beer in the fridge to chill (for later).",
+      "note": "Past preparation: おいた."
+    },
+    {
+      "ja": "そのままにしておいてください。",
+      "en": "Please leave it as it is.",
+      "note": "Leave as is: そのままにしておく."
+    },
+    {
+      "ja": "旅行の前に、ホテルを予約しておこう。",
+      "reading": "りょこうのまえに、ホテルをよやくしておこう。",
+      "en": "Let's book the hotel before the trip.",
+      "note": "Volitional おこう: one's own decision to prepare."
+    },
+    {
+      "ja": "この件は、私から部長に伝えておきます。",
+      "reading": "このけんは、わたしからぶちょうにつたえておきます。",
+      "en": "I'll let the manager know about this (so it's taken care of).",
+      "note": "Business use: doing something ahead so the matter is handled."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てある",
+      "difference": "Describes the state that results from an ておく action. 冷やしておいた → 冷やしてある.",
+      "id": "n3-grammar-96"
+    },
+    {
+      "pattern": "〜っぱなし",
+      "difference": "Leaving something carelessly; ておく is intentional.",
+      "id": "n3-grammar-83"
+    },
+    {
+      "pattern": "〜てしまう",
+      "difference": "Completion or regret, not preparation."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "電気をつけたまま置く。(meaning 'leave the light on')",
+      "right": "電気をつけておく。",
+      "why": "The auxiliary is おく attached to the て-form, not the independent verb 置く after まま."
+    },
+    {
+      "wrong": "ビールを冷やしてある。(as a description of your own preparation action)",
+      "right": "ビールを冷やしておいた。",
+      "why": "てある describes the state; for the act of preparing, use ておいた."
+    },
+    {
+      "wrong": "会議の後で資料を読んでおいた。",
+      "right": "会議の前に資料を読んでおいた。",
+      "why": "ておく prepares for something that comes later, so 'after' contradicts its meaning."
+    }
+  ],
+  "usageNotes": [
+    "〜ておいてください is a common instruction from a boss or teacher.",
+    "The 'leave as is' use often has にする: そのままにしておく, 放っておく ('leave alone').",
+    "In listening, 〜とく / 〜といて are the same pattern in casual speech."
+  ],
+  "jlptTips": [
+    "Keywords 前に / ために / 準備 point to ておく.",
+    "If the sentence describes a state with が (〜が〜てある), it is てある; if it describes an action with を, it is ておく.",
+    "Choices may include ておく vs てしまう vs てみる: preparation → おく; regret/completion → しまう; try → みる."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-95-1",
+    "q-n3-g-95-2",
+    "q-n3-g-95-3",
+    "q-n3-g-95-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-95-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "n4-grammar-23",
+  "slug": "te-miru",
+  "level": "n4",
+  "order": 23,
+  "title": "〜てみる \"try doing\"",
+  "romaji": "te miru",
+  "meaning": "Do something to see what happens / what it is like.",
+  "simpleExplanation": "〜てみる means \"try doing\" in the sense of \"do it and see what happens\". 納豆を食べてみる = try eating natto (to see what it's like). みる here is the verb 見る (see) but written in kana. It is not about effort; it simply says you do something as an experiment. It conjugates like 見る: てみます, てみたい, てみてください, てみた.",
+  "whenUsed": "Shopping (着てみてもいいですか = may I try it on?), food (食べてみて = try some), suggestions (聞いてみたら？ = why don't you ask?), and reporting an attempt (電話してみたが、出なかった = I tried calling but no answer).",
+  "formation": [
+    "V-て + みる: 食べてみる, 着てみる, 聞いてみる",
+    "〜てみたい: want to try; 〜てみてください: please try; 〜てみたら？: why don't you try?",
+    "〜てみてもいいですか: may I try…?",
+    "みる is written in kana; it conjugates as a Group 2 verb"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "納豆を食べる",
+        "en": "eat natto (plain action)"
+      },
+      {
+        "ja": "納豆を食べてみる",
+        "en": "try eating natto and see what it's like"
+      },
+      {
+        "ja": "納豆を食べてみたい",
+        "en": "I'd like to try natto (once, to see)"
+      },
+      {
+        "ja": "納豆を食べてみたが、苦手だった",
+        "en": "I tried natto, but I didn't like it (result of the trial)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この服を着てみてもいいですか。",
+      "reading": "この ふくを きてみても いいですか。",
+      "en": "May I try this on?",
+      "note": "着てみてもいいですか: asking permission to try something on."
+    },
+    {
+      "ja": "一度、納豆を食べてみたい。",
+      "reading": "いちど、なっとうを たべてみたい。",
+      "en": "I'd like to try eating natto once.",
+      "note": "一度 + てみたい: wanting to try once to see."
+    },
+    {
+      "ja": "電話してみたが、誰も出なかった。",
+      "reading": "でんわしてみたが、だれも でなかった。",
+      "en": "I tried calling, but nobody answered.",
+      "note": "てみたが: reported attempt with its result."
+    },
+    {
+      "ja": "このアプリ、便利だから一度使ってみてください。",
+      "reading": "この アプリ、べんりだから いちど つかってみて ください。",
+      "en": "This app is handy, so please give it a try.",
+      "note": "てみてください recommends trying something to see for yourself."
+    },
+    {
+      "ja": "分からなかったら、先生に聞いてみたらどうですか。",
+      "reading": "わからなかったら、せんせいに きいてみたら どうですか。",
+      "en": "If you don't understand, why don't you try asking the teacher?",
+      "note": "てみたらどうですか makes a gentle suggestion to try something."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようとする",
+      "difference": "ようとする is an attempt that may fail before it even starts (開けようとしたが開かなかった). てみる means you actually did it, to see the result.",
+      "id": "n4-grammar-77"
+    },
+    {
+      "pattern": "〜たらどうですか",
+      "difference": "Often combined: 〜てみたらどうですか = why don't you try…? The suggestion form on its own has no 'try and see' nuance.",
+      "id": "n4-grammar-66"
+    },
+    {
+      "pattern": "〜てみせる",
+      "difference": "てみせる means \"show that I can do it\" (a promise or demonstration), not \"try and see\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本語で話してみましたが、通じませんでした。→ 話しようとみました",
+      "right": "日本語で話してみましたが、通じませんでした。",
+      "why": "てみる attaches to the て-form. There is no form ようとみる."
+    },
+    {
+      "wrong": "ドアを開けてみたが、開かなかった。(when you could not even move it)",
+      "right": "ドアを開けようとしたが、開かなかった。",
+      "why": "If the action itself did not happen, use ようとする. てみる implies you did the action."
+    },
+    {
+      "wrong": "毎日運動してみます。(as a resolution)",
+      "right": "毎日運動するようにします。",
+      "why": "てみる is a one-time experiment. A continued effort needs ようにする."
+    }
+  ],
+  "usageNotes": [
+    "てみる is polite for offering food or suggesting things because it removes pressure: ちょっと食べてみて.",
+    "Past てみた usually leads to a result: 〜てみたら、…だった (when I tried, it was…).",
+    "The kanji 見る is not used for this auxiliary; write てみる."
+  ],
+  "jlptTips": [
+    "Cues: 一度, ちょっと, 〜てもいいですか, 〜たらどうですか, and result clauses with が / たら. These point to てみる.",
+    "A frequent distractor is ようとする. If the sentence reports what happened after doing it (…が、だめだった / …たら、おいしかった), choose てみる."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-23-1",
+    "q-n4-g-23-2",
+    "q-n4-g-23-3",
+    "q-n4-g-23-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-23-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,151 @@
+{
+  "id": "n2-grammar-173",
+  "slug": "o-towazu",
+  "level": "n2",
+  "order": 173,
+  "title": "〜を問わず",
+  "romaji": "o towazu",
+  "meaning": "regardless of, irrespective of (formal)",
+  "simpleExplanation": "〜を問わず means \"without asking about X\", that is, regardless of X: 年齢を問わず誰でも参加できる. X is a noun with a range (age, sex, nationality, experience) or a pair (昼夜, 男女, 有無). It is the standard phrase in recruitment notices and regulations.",
+  "whenUsed": "Written and formal spoken Japanese: job advertisements, event notices, regulations. In conversation people say 〜に関係なく. The verb 問う (to ask) gives the literal meaning 'without asking'.",
+  "formation": [
+    "Noun + を問わず",
+    "Noun + は問わず (as a topic)",
+    "Typical nouns: 年齢・性別・国籍・経験・学歴・季節・天候",
+    "Pairs: 昼夜を問わず / 男女を問わず / 有無を問わず / 大小を問わず"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "〜を問わず",
+      "〜にかかわらず",
+      "〜はともかく"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "regardless of (variable)",
+          "regardless of (variable or verb pair)",
+          "setting aside (a topic)"
+        ]
+      },
+      {
+        "label": "Typical use",
+        "cells": [
+          "recruitment, notices",
+          "rules, announcements",
+          "conversation"
+        ]
+      },
+      {
+        "label": "Accepts verb pairs",
+        "cells": [
+          "no (nouns only)",
+          "yes: 行く行かないにかかわらず",
+          "no"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "経験を問わず募集",
+          "出席の有無にかかわらず",
+          "味はともかく"
+        ]
+      }
+    ],
+    "title": "Regardless, three ways"
+  },
+  "examples": [
+    {
+      "ja": "年齢を問わず、誰でも参加できます。",
+      "reading": "ねんれいをとわず、だれでもさんかできます。",
+      "en": "Anyone can participate regardless of age.",
+      "note": "A typical event notice: anyone regardless of age."
+    },
+    {
+      "ja": "この仕事は経験を問わず募集している。",
+      "reading": "このしごとはけいけんをとわずぼしゅうしている。",
+      "en": "This job is open to applicants regardless of experience.",
+      "note": "A job advertisement: experience not required."
+    },
+    {
+      "ja": "昼夜を問わず、工事が続いている。",
+      "reading": "ちゅうやをとわず、こうじがつづいている。",
+      "en": "Construction continues day and night.",
+      "note": "A pair noun: day and night."
+    },
+    {
+      "ja": "この大会は、プロ・アマを問わず参加できる。",
+      "reading": "このたいかいは、プロ・アマをとわずさんかできる。",
+      "en": "This tournament is open to both professionals and amateurs.",
+      "note": "A pair of categories."
+    },
+    {
+      "ja": "当店は季節を問わず、新鮮な魚を提供しております。",
+      "reading": "とうてんはきせつをとわず、しんせんなさかなをていきょうしております。",
+      "en": "Our shop offers fresh fish regardless of the season.",
+      "note": "Business notice language."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にかかわらず / 〜にかかわりなく",
+      "difference": "Nearly the same; also accepts verb pairs (行く行かない).",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜に関係なく",
+      "difference": "Spoken equivalent."
+    },
+    {
+      "pattern": "〜もかまわず",
+      "difference": "\"Heedless of\" (a person ignoring something); not a rule.",
+      "id": "n2-grammar-152"
+    },
+    {
+      "pattern": "〜はともかく",
+      "difference": "\"Setting aside\" a topic; not a rule.",
+      "id": "n2-grammar-142"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行く行かないを問わず",
+      "right": "行く行かないにかかわらず",
+      "why": "を問わず takes nouns only; for verb pairs use にかかわらず."
+    },
+    {
+      "wrong": "雨を問わず、試合を行う。",
+      "right": "天候を問わず、試合を行う。",
+      "why": "The noun must be a category with a range (天候), not a single case (雨)."
+    },
+    {
+      "wrong": "年齢が問わず",
+      "right": "年齢を問わず",
+      "why": "The particle is を."
+    }
+  ],
+  "usageNotes": [
+    "Job ads: 経験・学歴を問わず / 年齢不問 (the noun 不問 is related).",
+    "昼夜を問わず = around the clock.",
+    "は問わず appears when the noun is topicalized: 国籍は問いません (polite verb form)."
+  ],
+  "jlptTips": [
+    "If the sentence looks like a notice or job ad and the noun is 年齢 / 性別 / 経験 / 国籍, choose を問わず.",
+    "If a verb pair precedes the blank, を問わず is wrong; choose にかかわらず.",
+    "Pair nouns (昼夜, 男女, 有無) strongly signal を問わず."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-173-1",
+    "q-n2-g-173-2",
+    "q-n2-g-173-3",
+    "q-n2-g-173-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-173-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

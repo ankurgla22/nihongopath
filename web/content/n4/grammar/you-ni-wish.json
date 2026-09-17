@@ -1,0 +1,146 @@
+{
+  "id": "n4-grammar-108",
+  "slug": "you-ni-wish",
+  "level": "n4",
+  "order": 108,
+  "title": "〜ように (wish / prayer) \"may … / I hope …\"",
+  "romaji": "you ni (negai)",
+  "meaning": "Expressing a hope or prayer, usually sentence-final, at shrines, New Year, and in cards.",
+  "simpleExplanation": "Ending a sentence with 〜ますように expresses a wish or prayer: 試験に合格しますように = \"May I pass the exam\". The verb 祈る (pray) or 願う (wish) is left unsaid. You see it on wooden plaques at shrines, in New Year wishes and in get-well cards. It is the third job of ように: the others are purpose (聞こえるように大きい声で話す, lesson 16) and \"like / as\" (先生が言ったように, lesson 37).",
+  "whenUsed": "Prayers at shrines and temples, greeting cards (早く元気になりますように), messages of good luck, and quiet hopes (明日雨が降りませんように). Mostly written or said softly to oneself. The polite ます-form is usual; the plain form (合格するように) is casual.",
+  "formation": [
+    "V-ます + ように: 合格しますように, 元気になりますように",
+    "V-ません + ように: 降りませんように",
+    "V-plain + ように (casual): 合格するように, 降らないように",
+    "Full sentence: 〜ように祈っています / 〜ようにお祈りします"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The three jobs of ように",
+    "columns": [
+      "Position",
+      "Example",
+      "Meaning"
+    ],
+    "rows": [
+      {
+        "label": "Wish / prayer (this lesson)",
+        "cells": [
+          "sentence-final, after ます",
+          "合格しますように。",
+          "May I pass"
+        ]
+      },
+      {
+        "label": "Purpose (lesson 16)",
+        "cells": [
+          "mid-sentence, before the action",
+          "合格するように毎日勉強する",
+          "study every day so that I pass"
+        ]
+      },
+      {
+        "label": "Like / as (lesson 37)",
+        "cells": [
+          "after a clause or noun + の",
+          "先生が言ったように書く",
+          "write as the teacher said"
+        ]
+      },
+      {
+        "label": "Indirect command (lesson 89)",
+        "cells": [
+          "before 言う / 頼む",
+          "勉強するように言われた",
+          "was told to study"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "試験に合格しますように。",
+      "reading": "しけんに ごうかくしますように。",
+      "en": "May I pass the exam.",
+      "note": "A shrine-style prayer: ます + ように."
+    },
+    {
+      "ja": "早く元気になりますように。",
+      "reading": "はやく げんきに なりますように。",
+      "en": "I hope you get well soon.",
+      "note": "A get-well wish, common on cards."
+    },
+    {
+      "ja": "明日、雨が降りませんように。",
+      "reading": "あした、あめが ふりませんように。",
+      "en": "I hope it doesn't rain tomorrow.",
+      "note": "Negative wish: ません + ように."
+    },
+    {
+      "ja": "お守りに「家族が健康でいられますように」と書いた。",
+      "reading": "おまもりに「かぞくが けんこうで いられますように」と かいた。",
+      "en": "On the charm I wrote \"May my family stay healthy\".",
+      "note": "A written prayer; the verb 祈る is implied."
+    },
+    {
+      "ja": "新しい仕事がうまくいきますように、お祈りしています。",
+      "reading": "あたらしい しごとが うまく いきますように、おいのりしています。",
+      "en": "I'm praying that your new job goes well.",
+      "note": "The full form with お祈りしています; the ように clause is the content of the prayer."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ように (purpose)",
+      "difference": "Purpose ように is followed by an action (分かるように説明する). The wish ように ends the sentence or is followed by 祈る.",
+      "id": "n4-grammar-16"
+    },
+    {
+      "pattern": "〜ように言う",
+      "difference": "Before 言う / 頼む, ように reports an instruction. Before 祈る or at the end, it is a wish.",
+      "id": "n4-grammar-89"
+    },
+    {
+      "pattern": "〜ないかな",
+      "difference": "Also a hope, but casual and spoken (早く来ないかな). ますように is more formal and prayer-like.",
+      "id": "n4-grammar-105"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "試験に合格したいように。",
+      "right": "試験に合格しますように。",
+      "why": "The wish form uses the ます-form (or plain form) of the verb, not 〜たい."
+    },
+    {
+      "wrong": "雨が降らないでように。",
+      "right": "雨が降りませんように。／ 雨が降らないように。",
+      "why": "The negative is ません or ない before ように, without で."
+    },
+    {
+      "wrong": "合格しますように勉強しています。",
+      "right": "合格するように勉強しています。",
+      "why": "With an action following, this is the purpose ように, which uses the plain form. ますように is only for prayers."
+    }
+  ],
+  "usageNotes": [
+    "The pattern is fixed and polite: even close friends write 〜ますように on cards.",
+    "Common wishes: 幸せになれますように, 早くよくなりますように, 来年もいい年でありますように.",
+    "The closing どうか adds earnestness: どうか無事に帰ってきますように."
+  ],
+  "jlptTips": [
+    "A sentence that ends with the blank after a ます-form and describes something hoped for (合格, 元気になる, 晴れる) needs ように, not たい or でしょう.",
+    "Distractors reuse other ように jobs. If nothing follows the blank, it is the wish; if an action follows, it is purpose (plain form)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-108-1",
+    "q-n4-g-108-2",
+    "q-n4-g-108-3",
+    "q-n4-g-108-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-108-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

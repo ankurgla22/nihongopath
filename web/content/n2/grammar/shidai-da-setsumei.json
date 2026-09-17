@@ -1,0 +1,119 @@
+{
+  "id": "n2-grammar-56",
+  "slug": "shidai-da-setsumei",
+  "level": "n2",
+  "order": 56,
+  "title": "〜次第だ (explanation)",
+  "romaji": "shidai da (explanation)",
+  "meaning": "that is how / the reason is that ... (explaining circumstances)",
+  "simpleExplanation": "Clause + 次第だ / 次第です means \"that is how it came about; the situation is that…\". It closes a formal explanation of circumstances, typically an apology, request, or report: that is why I have come to ask; I offer my apologies for the delay.",
+  "whenUsed": "Very formal 書き言葉 and ceremonial speech: business letters, formal emails, speeches. The clause before it is in plain form and often contains humble verbs (参る・申し上げる). Never used in casual talk; in daily speech you would say 〜というわけです.",
+  "formation": [
+    "V普通形 + 次第だ / 次第です"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "そういうわけで",
+        "role": "background reason"
+      },
+      {
+        "text": "お願いに参った",
+        "role": "what the speaker did (humble)"
+      },
+      {
+        "text": "次第です",
+        "role": "that is how it is / the reason is…",
+        "highlight": true
+      }
+    ],
+    "translation": "That is why I have come to make this request."
+  },
+  "examples": [
+    {
+      "ja": "そういうわけで、お願いに参った次第です。",
+      "reading": "そういうわけで、おねがいにまいったしだいです。",
+      "en": "That is why I have come to make this request.",
+      "note": "A humble explanation of why one came."
+    },
+    {
+      "ja": "ご報告が遅れましたこと、お詫び申し上げる次第です。",
+      "reading": "ごほうこくがおくれましたこと、おわびもうしあげるしだいです。",
+      "en": "I offer my apologies for the delay in reporting.",
+      "note": "A formal apology with 申し上げる次第です."
+    },
+    {
+      "ja": "急な変更となった次第で、ご迷惑をおかけしました。",
+      "reading": "きゅうなへんこうとなったしだいで、ごめいわくをおかけしました。",
+      "en": "It became a sudden change, and we apologize for the inconvenience.",
+      "note": "次第で as a connective: \"it came about that…, and\"."
+    },
+    {
+      "ja": "皆様のご協力をお願いしたく、ご連絡した次第です。",
+      "reading": "みなさまのごきょうりょくをおねがいしたく、ごれんらくしたしだいです。",
+      "en": "I am contacting you because I would like to ask for your cooperation.",
+      "note": "Typical business email closing."
+    },
+    {
+      "ja": "以上のような理由で、辞退させていただく次第でございます。",
+      "reading": "いじょうのようなりゆうで、じたいさせていただくしだいでございます。",
+      "en": "For the reasons above, I must respectfully decline.",
+      "note": "次第でございます is the most formal variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜というわけだ",
+      "difference": "Everyday \"that's why\"; 次第だ is its ceremonial cousin.",
+      "id": "n2-grammar-163"
+    },
+    {
+      "pattern": "N + 次第だ",
+      "difference": "\"Depends on N\"; different meaning after a noun.",
+      "id": "n2-grammar-55"
+    },
+    {
+      "pattern": "〜ためだ",
+      "difference": "Plain statement of cause; no formal explanatory tone."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "遅れてごめん、寝坊した次第だ。（casual）",
+      "right": "遅れてごめん、寝坊しちゃったんだ。",
+      "why": "次第だ is far too formal for casual apologies."
+    },
+    {
+      "wrong": "お詫び申し上げます次第です。",
+      "right": "お詫び申し上げる次第です。",
+      "why": "Use the plain form before 次第."
+    },
+    {
+      "wrong": "努力次第です。（as an explanation of events）",
+      "right": "そのような経緯で、ご相談に伺った次第です。",
+      "why": "After a noun, 次第 means \"depends on\"; the explanation use needs a clause."
+    }
+  ],
+  "usageNotes": [
+    "Frequent frames: 〜した次第です, 〜させていただく次第です, 〜申し上げる次第です.",
+    "Often introduced by そういうわけで, このような事情で, 以上の理由により.",
+    "It closes a message politely, signaling that the speaker has explained everything."
+  ],
+  "jlptTips": [
+    "Formal letter/speech + humble verb + blank at the end explaining circumstances → 次第です.",
+    "Distractors: 次第で, わけだ, ものだ. わけだ is correct in meaning but not in register; if the passage is a formal letter, choose 次第です.",
+    "Do not confuse with N + 次第だ (depends on); check whether a noun or a clause precedes."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-56-1",
+    "q-n2-g-56-2",
+    "q-n2-g-56-3",
+    "q-n2-g-56-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-56-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-199",
+  "slug": "ka-to-iu-to",
+  "level": "n2",
+  "order": 199,
+  "title": "〜かというと / 〜かといえば",
+  "romaji": "ka to iu to / ka to ieba",
+  "meaning": "if you ask whether …, (not necessarily); as for why …",
+  "simpleExplanation": "〜かというと has two uses. After a yes/no clause it introduces a partial denial: 高いものがいいかというと、そうとも限らない (if you ask whether expensive things are better, not necessarily). After なぜ / どうして it introduces an explanation: なぜ勉強しているかというと、〜からだ. Both set up a question and then answer it.",
+  "whenUsed": "Both speech and writing; common in explanations and arguments. かといえば is slightly more formal. The first use typically ends in そうではない / とは限らない / 必ずしも〜ない; the second ends in からだ.",
+  "formation": [
+    "Plain form + (の)かというと / かといえば + partial denial (そうでもない / とは限らない)",
+    "なぜ / どうして + plain form + (の)かというと + 〜からだ",
+    "Noun + かというと (どちらが好きかというと)",
+    "Set: どちらかというと (if anything)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Denial use",
+      "Explanation use"
+    ],
+    "rows": [
+      {
+        "label": "Structure",
+        "cells": [
+          "X かというと、そうではない",
+          "なぜ X かというと、〜からだ"
+        ]
+      },
+      {
+        "label": "Meaning",
+        "cells": [
+          "if you ask whether X, not necessarily",
+          "as for why X, it is because"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "高いものがいいかというと、そうとも限らない",
+          "なぜ日本語を学ぶかというと、働きたいからだ"
+        ]
+      },
+      {
+        "label": "Ending",
+        "cells": [
+          "とは限らない / そうでもない",
+          "からだ / ためだ"
+        ]
+      }
+    ],
+    "title": "Two uses of かというと"
+  },
+  "examples": [
+    {
+      "ja": "高いものがいいかというと、そうとも限らない。",
+      "reading": "たかいものがいいかというと、そうともかぎらない。",
+      "en": "If you ask whether expensive things are better, that is not necessarily so.",
+      "note": "Denial use with そうとも限らない."
+    },
+    {
+      "ja": "なぜ日本語を勉強しているかというと、日本で働きたいからだ。",
+      "reading": "なぜにほんごをべんきょうしているかというと、にほんではたらきたいからだ。",
+      "en": "As for why I am studying Japanese, it is because I want to work in Japan.",
+      "note": "Explanation use with なぜ and からだ."
+    },
+    {
+      "ja": "彼が有能かといえば、必ずしもそうではない。",
+      "reading": "かれがゆうのうかといえば、かならずしもそうではない。",
+      "en": "If you ask whether he is competent, not necessarily.",
+      "note": "かといえば: formal denial use with 必ずしも."
+    },
+    {
+      "ja": "休みの日に何をしているかというと、たいてい家で本を読んでいる。",
+      "reading": "やすみのひになにをしているかというと、たいていいえでほんをよんでいる。",
+      "en": "As for what I do on days off, I usually read at home.",
+      "note": "Question-word use: introducing an answer."
+    },
+    {
+      "ja": "どちらかというと、私は都会より田舎のほうが好きだ。",
+      "reading": "どちらかというと、わたしはとかいよりいなかのほうがすきだ。",
+      "en": "If anything, I prefer the countryside to the city.",
+      "note": "どちらかというと: a set phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とは限らない",
+      "difference": "\"Not necessarily\": often the ending of the denial use."
+    },
+    {
+      "pattern": "〜わけではない",
+      "difference": "\"It's not that\": another common ending.",
+      "id": "n2-grammar-164"
+    },
+    {
+      "pattern": "〜からだ",
+      "difference": "The ending of the explanation use."
+    },
+    {
+      "pattern": "〜といえば",
+      "difference": "\"Speaking of\": a topic changer, different function."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "高いものがいいかというと、いい。",
+      "right": "高いものがいいかというと、そうとも限らない。",
+      "why": "The denial use needs a partial denial in the answer."
+    },
+    {
+      "wrong": "なぜかというと、働きたい。",
+      "right": "なぜかというと、働きたいからだ。",
+      "why": "The explanation use ends in からだ."
+    },
+    {
+      "wrong": "どちらというと",
+      "right": "どちらかというと",
+      "why": "The set phrase keeps か."
+    }
+  ],
+  "usageNotes": [
+    "なぜかというと alone is a common opener: 'the reason is…'.",
+    "どちらかというと softens a preference.",
+    "The formal かといえば appears in essays."
+  ],
+  "jlptTips": [
+    "Read the ending: とは限らない / そうでもない → denial use; からだ → explanation use.",
+    "どちらかというと is a fixed phrase; options dropping か are wrong.",
+    "Distractors include といえば (topic), とすると (supposing), というと (when you say)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-199-1",
+    "q-n2-g-199-2",
+    "q-n2-g-199-3",
+    "q-n2-g-199-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-199-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,161 @@
+{
+  "id": "n4-grammar-99",
+  "slug": "nakereba-naranai",
+  "level": "n4",
+  "order": 99,
+  "title": "〜なければならない / 〜なくてはいけない / 〜ないと (obligation forms)",
+  "romaji": "nakereba naranai / nakute wa ikenai / nai to",
+  "meaning": "\"must / have to\". N4 tests recognising all variants and their contractions.",
+  "simpleExplanation": "These all mean \"must / have to\": レポートを出さなければならない = I have to submit the report. The idea is literally \"if I don't do it, it won't do\". Japanese has several ways to say it that mix and match: the \"if not\" part can be なければ, なくては or ないと, and the \"won't do\" part can be ならない or いけない. In speech they shrink: なければ → なきゃ, なくては → なくちゃ, and the ending is often dropped: もう帰らなくちゃ (I've got to go). The N4 exam tests recognising all these variants.",
+  "whenUsed": "Duties and rules (毎日薬を飲まなければなりません), personal obligations (明日早く起きなきゃ), and explaining why you cannot do something (勉強しないといけないから行けない). ならない sounds a little formal; いけない is more personal and spoken; the contractions are casual.",
+  "formation": [
+    "V-ない stem + なければならない / なければいけない: 出さなければならない",
+    "V-ない stem + なくてはならない / なくてはいけない: 出さなくてはいけない",
+    "V-ない stem + ないといけない / ないと (casual, ending dropped): 出さないと",
+    "Contractions: なければ → なきゃ, なくては → なくちゃ (帰らなきゃ, 帰らなくちゃ)",
+    "Adjectives / nouns: 静かでなければならない, 学生でなければならない",
+    "Not necessary: 〜なくてもいい"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Obligation forms: 'if not' + 'won't do'",
+    "columns": [
+      "'If not' part",
+      "'Won't do' part",
+      "Full form",
+      "Register"
+    ],
+    "rows": [
+      {
+        "label": "なければ",
+        "cells": [
+          "なければ",
+          "ならない / いけない",
+          "行かなければならない",
+          "formal / neutral"
+        ]
+      },
+      {
+        "label": "なくては",
+        "cells": [
+          "なくては",
+          "ならない / いけない",
+          "行かなくてはいけない",
+          "neutral / spoken"
+        ]
+      },
+      {
+        "label": "ないと",
+        "cells": [
+          "ないと",
+          "いけない / (dropped)",
+          "行かないといけない / 行かないと",
+          "spoken"
+        ]
+      },
+      {
+        "label": "なきゃ",
+        "cells": [
+          "なきゃ (= なければ)",
+          "(often dropped)",
+          "行かなきゃ",
+          "casual"
+        ]
+      },
+      {
+        "label": "なくちゃ",
+        "cells": [
+          "なくちゃ (= なくては)",
+          "(often dropped)",
+          "行かなくちゃ",
+          "casual"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "明日までにレポートを出さなければなりません。",
+      "reading": "あしたまでに レポートを ださなければ なりません。",
+      "en": "I have to submit the report by tomorrow.",
+      "note": "Formal polite: なければなりません, typical of deadlines."
+    },
+    {
+      "ja": "もう帰らなくちゃ。",
+      "reading": "もう かえらなくちゃ。",
+      "en": "I've got to go home now.",
+      "note": "Casual contraction with the ending dropped: 帰らなくちゃ (= 帰らなくてはいけない)."
+    },
+    {
+      "ja": "薬を飲まないといけないよ。",
+      "reading": "くすりを のまないと いけないよ。",
+      "en": "You have to take your medicine.",
+      "note": "Spoken: ないといけない."
+    },
+    {
+      "ja": "明日は七時の電車に乗るので、六時に起きなきゃ。",
+      "reading": "あしたは しちじの でんしゃに のるので、ろくじに おきなきゃ。",
+      "en": "I'm taking the seven o'clock train tomorrow, so I have to get up at six.",
+      "note": "なきゃ = なければ; the いけない is dropped in casual speech."
+    },
+    {
+      "ja": "図書館では静かにしなくてはいけません。",
+      "reading": "としょかんでは しずかに しなくては いけません。",
+      "en": "You must be quiet in the library.",
+      "note": "なくてはいけません: a rule stated politely."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なくてもいい",
+      "difference": "The opposite: \"don't have to\". 行かなくてもいい = you need not go."
+    },
+    {
+      "pattern": "〜必要がある",
+      "difference": "\"It is necessary to\" (dictionary form + 必要がある); more formal and objective than なければならない.",
+      "id": "n4-grammar-67"
+    },
+    {
+      "pattern": "〜ほうがいい",
+      "difference": "Advice (\"had better\"), not obligation. 薬を飲んだほうがいい is a recommendation; 飲まなければならない is a must.",
+      "id": "n4-grammar-65"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "レポートを出さないければなりません。",
+      "right": "出さなければなりません",
+      "why": "The ない-stem loses い before ければ: 出さな + ければ."
+    },
+    {
+      "wrong": "勉強しなくちゃならない。(in a formal report)",
+      "right": "勉強しなくてはならない。",
+      "why": "なくちゃ / なきゃ are casual contractions; use the full form in writing and polite speech."
+    },
+    {
+      "wrong": "明日は早く起きなければなりませんでした。(meaning: I had to yesterday)",
+      "right": "昨日は早く起きなければなりませんでした。",
+      "why": "The tense goes on the final ならない / いけない (なりませんでした = had to). Make sure the time word matches."
+    }
+  ],
+  "usageNotes": [
+    "The pairing is free: なければ / なくては / ないと can each take ならない or いけない. ないと + ならない is rare; ないといけない is the common one.",
+    "Sentence-final ないと / なきゃ / なくちゃ is very common in conversation: もう行かないと (I've got to go).",
+    "Past obligation: なければなりませんでした / なきゃいけなかった. Negative obligation (\"must not\") is a different pattern: 〜てはいけない."
+  ],
+  "jlptTips": [
+    "Recognise the contractions: なきゃ = なければ, なくちゃ = なくては. A blank followed by いけない or ならない needs one of the \"if not\" forms; a bare ない or なくて is wrong.",
+    "Distractors include 〜なくてもいい (don't have to) and 〜てはいけない (must not). Read the context: a rule or duty → なければならない; permission not to → なくてもいい."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-99-1",
+    "q-n4-g-99-2",
+    "q-n4-g-99-3",
+    "q-n4-g-99-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-99-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

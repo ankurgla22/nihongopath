@@ -1,0 +1,133 @@
+{
+  "id": "n3-grammar-89",
+  "slug": "te-hoshii",
+  "level": "n3",
+  "order": 89,
+  "title": "〜てほしい",
+  "romaji": "te hoshii",
+  "meaning": "I want (someone) to…",
+  "simpleExplanation": "〜てほしい expresses a wish about someone else's action: 母に元気になってほしい \"I want my mother to get well\". The person you want to act is marked with に. For \"I want to do it myself\" you use 〜たい instead. The negative \"I want you not to…\" is 〜ないでほしい.",
+  "whenUsed": "Casual and semi-polite conversation, letters, song lyrics. Toward superiors it is too direct; soften with 〜ていただきたいんですが or use 〜ていただけませんか. Also used for wishes about things, not just people: 早く春になってほしい.",
+  "formation": [
+    "(Person に) Verb て-form + ほしい",
+    "Negative wish: Verb ない-form + でほしい (言わないでほしい)",
+    "Polite: 〜てほしいです / Softened: 〜てほしいんですが",
+    "Past: 〜てほしかった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "たい vs てほしい vs てもらいたい",
+    "columns": [
+      "Who acts?",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜たい",
+        "cells": [
+          "I do it",
+          "早く帰りたい (I want to go home early)"
+        ]
+      },
+      {
+        "label": "〜てほしい",
+        "cells": [
+          "Someone else does it (wish)",
+          "早く帰ってきてほしい (I want you to come home early)"
+        ]
+      },
+      {
+        "label": "〜てもらいたい",
+        "cells": [
+          "Someone else does it (request)",
+          "早く帰ってきてもらいたい (I'd like you to come home early)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "母に早く元気になってほしい。",
+      "reading": "ははにはやくげんきになってほしい。",
+      "en": "I want my mother to get well soon.",
+      "note": "Wish about a family member: 母に + 〜てほしい."
+    },
+    {
+      "ja": "この話は誰にも言わないでほしい。",
+      "reading": "このはなしはだれにもいわないでほしい。",
+      "en": "I want you not to tell anyone about this.",
+      "note": "Negative: ないで + ほしい."
+    },
+    {
+      "ja": "先生にもっとゆっくり話してほしいです。",
+      "reading": "せんせいにもっとゆっくりはなしてほしいです。",
+      "en": "I'd like the teacher to speak more slowly.",
+      "note": "Polite です; the doer is 先生に."
+    },
+    {
+      "ja": "もっと私の話を聞いてほしかった。",
+      "reading": "もっとわたしのはなしをきいてほしかった。",
+      "en": "I wanted you to listen to me more.",
+      "note": "Past form: a wish that was not fulfilled."
+    },
+    {
+      "ja": "早く夏休みになってほしいなあ。",
+      "reading": "はやくなつやすみになってほしいなあ。",
+      "en": "I wish the summer holidays would come soon.",
+      "note": "The wish is about an event, not a person."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たい",
+      "difference": "The speaker's own action. 行きたい (I want to go) vs 行ってほしい (I want you to go)."
+    },
+    {
+      "pattern": "〜てもらいたい / 〜ていただきたい",
+      "difference": "Same idea framed as a request; いただきたい is humble and suitable for superiors.",
+      "id": "n3-grammar-90"
+    },
+    {
+      "pattern": "〜てください",
+      "difference": "A direct request rather than a wish."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は日本に行ってほしい。(meaning 'I want to go to Japan')",
+      "right": "私は日本に行きたい。",
+      "why": "てほしい is for someone else's action; use たい for your own."
+    },
+    {
+      "wrong": "母が早く元気になってほしい。",
+      "right": "母に早く元気になってほしい。",
+      "why": "The person who should act is marked with に (が is possible only in some colloquial uses, but に is the standard form)."
+    },
+    {
+      "wrong": "誰にも言わなくてほしい。",
+      "right": "誰にも言わないでほしい。",
+      "why": "The negative is ないでほしい, not なくてほしい."
+    }
+  ],
+  "usageNotes": [
+    "ほしい conjugates like an い-adjective: ほしくない, ほしかった.",
+    "For third persons, use 〜てほしがっている (彼は手伝ってほしがっている).",
+    "Adding んですが or んだけど turns it into a soft request."
+  ],
+  "jlptTips": [
+    "Check who does the action: if the sentence has (person)に and the speaker wants that person to act, てほしい is right.",
+    "Negative traps: ないでほしい is correct; なくてほしい is a distractor.",
+    "In dialogue questions, 〜てほしいんですが often opens a request; the reply may use 〜ていただけませんか."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-89-1",
+    "q-n3-g-89-2",
+    "q-n3-g-89-3",
+    "q-n3-g-89-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-89-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

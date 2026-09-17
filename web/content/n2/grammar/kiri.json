@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-36",
+  "slug": "kiri",
+  "level": "n2",
+  "order": 36,
+  "title": "〜きり",
+  "romaji": "kiri / -kkiri",
+  "meaning": "(a) only; (b) ever since (and nothing more); (c) continuously",
+  "simpleExplanation": "〜きり has three uses. (a) N + きり: \"only\" (二人きり, just the two of us). (b) Vた + きり: \"ever since… (and nothing more)\", with a strong sense that the expected follow-up never happened (he went out and hasn't come back). (c) Vます + きり: \"continuously\", in set words like 寝たきり (bedridden) and 付きっきり (constantly attending).",
+  "whenUsed": "Both registers; っきり is the spoken form (二人っきり, 行ったっきり). The Vたきり use is almost always followed by a negative (〜ない・〜ていない) or by an unfulfilled expectation.",
+  "formation": [
+    "(a) N + きり; (b) Vた + きり; (c) Vます + きり (寝たきり・付きっきり)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of きり",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "(a) N + きり",
+        "cells": [
+          "only",
+          "二人きりで話す"
+        ]
+      },
+      {
+        "label": "(b) Vた + きり",
+        "cells": [
+          "since… and nothing since",
+          "出かけたきり帰らない"
+        ]
+      },
+      {
+        "label": "(c) Vます + きり",
+        "cells": [
+          "continuously",
+          "寝たきり・付きっきり"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "二人きりで話したい。",
+      "reading": "ふたりきりではなしたい。",
+      "en": "I want to talk just the two of us.",
+      "note": "Use (a): only the two of us."
+    },
+    {
+      "ja": "彼は出かけたきり、帰ってこない。",
+      "reading": "かれはでかけたきり、かえってこない。",
+      "en": "He went out and hasn't come back since.",
+      "note": "Use (b): went out and no return."
+    },
+    {
+      "ja": "祖母は寝たきりになってしまった。",
+      "reading": "そぼはねたきりになってしまった。",
+      "en": "My grandmother has become bedridden.",
+      "note": "Use (c): 寝たきり as a fixed word."
+    },
+    {
+      "ja": "彼女とは去年会ったきり、連絡を取っていない。",
+      "reading": "かのじょとはきょねんあったきり、れんらくをとっていない。",
+      "en": "I met her last year and haven't been in touch since.",
+      "note": "Vたきり + 〜ていない."
+    },
+    {
+      "ja": "母は病気の祖母に付きっきりで看病した。",
+      "reading": "はははびょうきのそぼにつきっきりでかんびょうした。",
+      "en": "My mother nursed my sick grandmother, staying by her side constantly.",
+      "note": "付きっきり = continuously attending."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜以来",
+      "difference": "\"Since\" with a continuing state, neutral; きり adds the feeling that something expected did not follow.",
+      "id": "n2-grammar-4"
+    },
+    {
+      "pattern": "〜まま",
+      "difference": "\"As it is, unchanged\": a state left the same; Vたきり emphasizes no next action.",
+      "id": "n2-grammar-183"
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "Plain \"only\"; きり adds an emotional \"no one/nothing else\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は出かけるきり、帰ってこない。",
+      "right": "彼は出かけたきり、帰ってこない。",
+      "why": "The \"since\" use needs Vた."
+    },
+    {
+      "wrong": "去年会ったきり、今年も会った。",
+      "right": "去年会ったきり、今年は会っていない。",
+      "why": "Vたきり implies nothing followed; a positive follow-up contradicts it."
+    },
+    {
+      "wrong": "一人きりに住んでいる。",
+      "right": "一人きりで住んでいる。",
+      "why": "N + きり takes で when describing a manner."
+    }
+  ],
+  "usageNotes": [
+    "Set words: 寝たきり, 付きっきり, 二人きり, 一人きり, これっきり, それっきり.",
+    "それっきり / これっきり: \"and that was the last (time)\".",
+    "Sentence-final use in speech: 手紙は一度来たきりだ (came once and never again)."
+  ],
+  "jlptTips": [
+    "Vた + blank + negative (帰ってこない・連絡がない) → きり.",
+    "Distractors: 以来, まま, だけ. まま describes an unchanged state; きり is about no next action.",
+    "N + きり (二人きり) is tested as \"only\" and may be replaced by だけ in meaning questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-36-1",
+    "q-n2-g-36-2",
+    "q-n2-g-36-3",
+    "q-n2-g-36-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-36-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

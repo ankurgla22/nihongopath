@@ -1,0 +1,126 @@
+{
+  "id": "n3-grammar-64",
+  "slug": "tatoe-temo",
+  "level": "n3",
+  "order": 64,
+  "title": "たとえ〜ても",
+  "romaji": "tatoe temo",
+  "meaning": "Even if… / no matter…",
+  "simpleExplanation": "たとえ〜ても sets up a hypothetical obstacle and says the result doesn't change: たとえ雨が降っても、試合は行います = even if it rains, the match will be held. たとえ at the start tells the listener a concession is coming; ても carries the \"even if\".",
+  "whenUsed": "Speech and writing, promises, determination, rules. Related: どんなに〜ても, いくら〜ても. Do not confuse with たとえば (for example).",
+  "formation": [
+    "たとえ + Verb (て form) + も",
+    "たとえ + い-adjective (くて) + も",
+    "たとえ + な-adjective / Noun + でも",
+    "Related: どんなに〜ても / いくら〜ても / 〜としても"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "たとえ",
+        "role": "signals a hypothetical concession",
+        "highlight": true
+      },
+      {
+        "text": "雨が降っ",
+        "role": "obstacle"
+      },
+      {
+        "text": "ても、",
+        "role": "even if",
+        "highlight": true
+      },
+      {
+        "text": "試合は行います。",
+        "role": "result unchanged"
+      }
+    ],
+    "translation": "Even if it rains, the match will be held."
+  },
+  "examples": [
+    {
+      "ja": "たとえ雨が降っても、試合は行います。",
+      "reading": "たとえあめがふっても、しあいはおこないます。",
+      "en": "Even if it rains, the match will be held.",
+      "note": "Verb て + も."
+    },
+    {
+      "ja": "たとえ高くても、この本は買いたい。",
+      "reading": "たとえたかくても、このほんはかいたい。",
+      "en": "Even if it's expensive, I want to buy this book.",
+      "note": "い-adjective くて + も."
+    },
+    {
+      "ja": "たとえ冗談でも、そんなことを言ってはいけない。",
+      "reading": "たとえじょうだんでも、そんなことをいってはいけない。",
+      "en": "Even as a joke, you shouldn't say such things.",
+      "note": "Noun + でも."
+    },
+    {
+      "ja": "たとえ失敗しても、挑戦したことに意味がある。",
+      "reading": "たとえしっぱいしても、ちょうせんしたことにいみがある。",
+      "en": "Even if you fail, there's meaning in having tried.",
+      "note": "Encouragement with たとえ〜ても."
+    },
+    {
+      "ja": "たとえ家族に反対されても、私はこの道を選ぶつもりだ。",
+      "reading": "たとえかぞくにはんたいされても、わたしはこのみちをえらぶつもりだ。",
+      "en": "Even if my family opposes it, I intend to choose this path.",
+      "note": "Passive + ても: determination."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜としても",
+      "difference": "\"Even supposing\": attaches to a plain clause; more hypothetical and formal.",
+      "id": "n3-grammar-65"
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "\"Even if / even though\": admits a fact and then objects.",
+      "id": "n3-grammar-67"
+    },
+    {
+      "pattern": "〜のに",
+      "difference": "\"Although\" for a real, present fact, not a hypothesis."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "たとえば雨が降っても、試合は行います。",
+      "right": "たとえ雨が降っても、試合は行います。",
+      "why": "たとえば means \"for example\"; the concession word is たとえ."
+    },
+    {
+      "wrong": "たとえ雨が降るのに",
+      "right": "たとえ雨が降っても",
+      "why": "たとえ pairs with ても, not のに."
+    },
+    {
+      "wrong": "たとえ高いても",
+      "right": "たとえ高くても",
+      "why": "い-adjectives use くても."
+    }
+  ],
+  "usageNotes": [
+    "たとえ makes the concession explicitly hypothetical. Related: どんなに〜ても, いくら〜ても. Do not confuse with たとえば (for example).",
+    "たとえ can be dropped without changing the grammar; it just makes the concession clearer."
+  ],
+  "jlptTips": [
+    "たとえ at the start of a sentence means the blank later is a ても form.",
+    "たとえば is the number one distractor; check whether \"for example\" makes sense (it doesn't before ても).",
+    "In 並べ替え, place たとえ first, the て-form + も in the middle, and the unchanged result last."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-64-1",
+    "q-n3-g-64-2",
+    "q-n3-g-64-3",
+    "q-n3-g-64-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-64-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

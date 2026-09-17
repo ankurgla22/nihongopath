@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-6",
+  "slug": "ippou-da",
+  "level": "n2",
+  "order": 6,
+  "title": "〜一方だ",
+  "romaji": "ippou da",
+  "meaning": "keeps on -ing, continues to (change in one direction)",
+  "simpleExplanation": "〜一方だ means \"keeps on -ing\" or \"only continues to…\". It follows a verb of change (増える, 減る, 悪くなる) and says the change goes in one direction only, without stopping. The speaker usually finds this worrying.",
+  "whenUsed": "Both registers; common in news, reports and everyday complaints (物価は上がる一方だ). It needs a verb that expresses change, and the trend is typically undesirable. For a good trend people often use 〜ばかりだ less and 〜つつある or ますます instead.",
+  "formation": [
+    "Vる + 一方だ"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Describing an ongoing change",
+    "items": [
+      {
+        "label": "上がっている",
+        "description": "Currently rising (neutral progressive)."
+      },
+      {
+        "label": "上がりつつある",
+        "description": "Gradually in the process of rising (formal, neutral)."
+      },
+      {
+        "label": "上がる一方だ",
+        "description": "Just keeps rising with no sign of stopping (worrying trend)."
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "物価は上がる一方だ。",
+      "reading": "ぶっかはあがるいっぽうだ。",
+      "en": "Prices just keep going up.",
+      "note": "Vる + 一方だ with a verb of change."
+    },
+    {
+      "ja": "祖父の病状は悪くなる一方だった。",
+      "reading": "そふのびょうじょうはわるくなるいっぽうだった。",
+      "en": "My grandfather's condition only kept getting worse.",
+      "note": "Past tense 一方だった for a trend in the past."
+    },
+    {
+      "ja": "仕事が増える一方で、休む暇もない。",
+      "reading": "しごとがふえるいっぽうで、やすむひまもない。",
+      "en": "Work keeps piling up and I have no time to rest.",
+      "note": "一方で here connects a trend to its consequence."
+    },
+    {
+      "ja": "都市の人口は増える一方で、地方は過疎化が進んでいる。",
+      "reading": "としのじんこうはふえるいっぽうで、ちほうはかそかがすすんでいる。",
+      "en": "City populations keep growing, while rural depopulation continues.",
+      "note": "Note the contrast with 一方で (\"on the other hand\", lesson 5)."
+    },
+    {
+      "ja": "スマホばかり見ていると、視力は悪くなる一方ですよ。",
+      "reading": "スマホばかりみていると、しりょくはわるくなるいっぽうですよ。",
+      "en": "If you keep staring at your phone, your eyesight will only get worse.",
+      "note": "A warning in polite speech."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばかりだ",
+      "difference": "Nearly identical, \"only gets worse\", and even more clearly limited to undesirable trends."
+    },
+    {
+      "pattern": "〜つつある",
+      "difference": "Neutral \"is in the process of\"; no feeling of runaway change.",
+      "id": "n2-grammar-74"
+    },
+    {
+      "pattern": "〜一方(で)",
+      "difference": "Different pattern: \"on the one hand… on the other\", a contrast between two sides.",
+      "id": "n2-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "物価は高い一方だ。",
+      "right": "物価は上がる一方だ。",
+      "why": "一方だ needs a verb of change, not an adjective or a stative verb."
+    },
+    {
+      "wrong": "毎日勉強しているので、成績は上がる一方だ。（意図: good news）",
+      "right": "毎日勉強しているので、成績はどんどん上がっている。",
+      "why": "一方だ sounds like a worrying, uncontrolled trend; for good news use どんどん〜ている or ますます."
+    },
+    {
+      "wrong": "祖父の病気は悪くなった一方だ。",
+      "right": "祖父の病気は悪くなる一方だ。",
+      "why": "Always dictionary form before 一方だ; put tense on だ (一方だった)."
+    }
+  ],
+  "usageNotes": [
+    "Modifies nouns as 一方の: 増える一方の借金.",
+    "Often preceded by ますます or どんどん for emphasis.",
+    "Typical verbs: 増える, 減る, 上がる, 下がる, 悪くなる, ひどくなる, 広がる."
+  ],
+  "jlptTips": [
+    "Look for a verb of change in dictionary form before the blank plus a negative tone: choose 一方だ.",
+    "Distractors are 一方で (contrast), ばかりだ, and つつある. If two contrasting clauses appear, it is 一方で, not 一方だ.",
+    "When 一方 appears in 並べ替え, check whether だ / だった ends the sentence (trend) or で continues it (contrast)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-6-1",
+    "q-n2-g-6-2",
+    "q-n2-g-6-3",
+    "q-n2-g-6-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-6-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

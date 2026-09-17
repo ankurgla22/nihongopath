@@ -1,0 +1,131 @@
+{
+  "id": "n3-grammar-80",
+  "slug": "ni-kimatte-iru",
+  "level": "n3",
+  "order": 80,
+  "title": "〜に決まっている",
+  "romaji": "ni kimatte iru",
+  "meaning": "definitely / obviously / it's certain that…",
+  "simpleExplanation": "〜に決まっている means \"it's obvious that…\" or \"of course it's…\". The speaker feels no doubt at all, often with some emotion: \"A story like that is obviously a lie.\" It is the colloquial, forceful cousin of 〜に違いない.",
+  "whenUsed": "Casual and semi-polite conversation; used to insist, reassure or scold (嘘に決まっている, 迷惑に決まっている). Rare in formal writing. The polite form 〜に決まっています is fine in conversation but still sounds assertive.",
+  "formation": [
+    "Verb (plain form) + に決まっている",
+    "い-adjective + に決まっている",
+    "な-adjective (no な) + に決まっている",
+    "Noun (no の) + に決まっている",
+    "Polite: 〜に決まっています / Casual: 〜に決まってる"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "に決まっている vs に違いない",
+    "columns": [
+      "Basis",
+      "Tone",
+      "Typical use"
+    ],
+    "rows": [
+      {
+        "label": "〜に決まっている",
+        "cells": [
+          "Common sense, feeling",
+          "Forceful, emotional",
+          "嘘に決まっている (Obviously a lie!)"
+        ]
+      },
+      {
+        "label": "〜に違いない",
+        "cells": [
+          "Evidence, reasoning",
+          "Calm, reasoned",
+          "誰かいるに違いない (Someone must be there.)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そんな話、嘘に決まっている。",
+      "reading": "そんなはなし、うそにきまっている。",
+      "en": "A story like that is definitely a lie.",
+      "note": "Noun attaches directly; strong disbelief."
+    },
+    {
+      "ja": "毎日練習すれば、上手になるに決まっている。",
+      "reading": "まいにちれんしゅうすれば、じょうずになるにきまっている。",
+      "en": "If you practice daily, you'll definitely get better.",
+      "note": "Reassurance: 'you'll definitely improve'."
+    },
+    {
+      "ja": "こんな時間に電話したら、迷惑に決まっているだろう。",
+      "reading": "こんなじかんにでんわしたら、めいわくにきまっているだろう。",
+      "en": "Calling at this hour would obviously be a nuisance.",
+      "note": "な-adjective 迷惑 + に決まっている; a mild scolding."
+    },
+    {
+      "ja": "そんなに食べたら、太るに決まっているでしょう。",
+      "reading": "そんなにたべたら、ふとるにきまっているでしょう。",
+      "en": "If you eat that much, of course you'll put on weight.",
+      "note": "Verb + に決まっている; a common scolding tone."
+    },
+    {
+      "ja": "「試合、勝てるかな。」「勝てるに決まってるよ。」",
+      "reading": "「しあい、かてるかな。」「かてるにきまってるよ。」",
+      "en": "\"Can we win the match?\" \"Of course we can.\"",
+      "note": "Casual に決まってる used to reassure."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に違いない",
+      "difference": "Calmer and based on evidence; suitable in writing. に決まっている is emotional and spoken.",
+      "id": "n3-grammar-79"
+    },
+    {
+      "pattern": "〜はずだ",
+      "difference": "'Should be' — a neutral expectation with less force."
+    },
+    {
+      "pattern": "〜わけがない",
+      "difference": "The negative counterpart in feel: 'no way!'. 嘘に決まっている ≈ 本当のわけがない.",
+      "id": "n3-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "迷惑なに決まっている。",
+      "right": "迷惑に決まっている。",
+      "why": "な-adjectives attach without な, exactly as with に違いない."
+    },
+    {
+      "wrong": "調査の結果、原因は故障に決まっている。(in a formal report)",
+      "right": "調査の結果、原因は故障に違いない / 故障であると考えられる。",
+      "why": "に決まっている is colloquial and emotional; formal writing needs に違いない or a hedged expression."
+    },
+    {
+      "wrong": "明日は雨が降るに決まる。",
+      "right": "明日は雨が降るに決まっている。",
+      "why": "The pattern is fixed in the ている form; 決まる alone means 'to be decided'."
+    }
+  ],
+  "usageNotes": [
+    "Often ends with よ / でしょう / じゃないか to push the point.",
+    "Do not confuse with the plain verb 決まる ('be decided'): 会議の日程が決まった.",
+    "It can also express confident reassurance: 大丈夫に決まっている."
+  ],
+  "jlptTips": [
+    "If the sentence has an emotional or scolding tone (そんな話, そんなに食べたら, こんな時間に), に決まっている fits better than the neutral に違いない.",
+    "Attachment traps: な-adjectives and nouns attach directly (嘘に決まっている, not 嘘のに決まっている).",
+    "Watch for 決まった / 決まる distractors; only 決まっている carries the 'obviously' meaning."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-80-1",
+    "q-n3-g-80-2",
+    "q-n3-g-80-3",
+    "q-n3-g-80-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-80-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

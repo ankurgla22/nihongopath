@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-89",
+  "slug": "tokoro-ni-tokoro-e-tokoro-o",
+  "level": "n2",
+  "order": 89,
+  "title": "〜ところに / 〜ところへ / 〜ところを",
+  "romaji": "tokoro ni / tokoro e / tokoro o",
+  "meaning": "just when (someone) was ...; (caught) in the act of",
+  "simpleExplanation": "〜ところに / 〜ところへ / 〜ところを mean \"just when (someone) was…\". ところに/へ mark the moment something arrives or happens (just as I was about to leave, the phone rang); ところを marks a moment in which the subject is seen, caught, or helped (I was seen dozing in class).",
+  "whenUsed": "Both registers. Verbs: Vる (about to), Vている (in the middle of), Vた (just did) + ところに/へ/を. ところを is followed by verbs like 見る, 見つける, 呼び止める, 助ける, 邪魔する; polite お忙しいところを is a set phrase.",
+  "formation": [
+    "Vる / Vている / Vた + ところに / ところへ / ところを"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Choosing the particle after ところ",
+    "columns": [
+      "Followed by",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "ところに / へ",
+        "cells": [
+          "arrival, occurrence (来る・かかってくる)",
+          "出かけようとしたところに電話が来た"
+        ]
+      },
+      {
+        "label": "ところを",
+        "cells": [
+          "seeing, catching, helping (見る・呼び止める・助ける)",
+          "居眠りしているところを見られた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "出かけようとしたところに、電話がかかってきた。",
+      "reading": "でかけようとしたところに、でんわがかかってきた。",
+      "en": "Just as I was about to leave, the phone rang.",
+      "note": "Vようとした + ところに + occurrence."
+    },
+    {
+      "ja": "困っているところへ、友人が助けに来てくれた。",
+      "reading": "こまっているところへ、ゆうじんがたすけにきてくれた。",
+      "en": "Just when I was in trouble, a friend came to help.",
+      "note": "Vている + ところへ + arrival."
+    },
+    {
+      "ja": "授業中に居眠りしているところを、先生に見られた。",
+      "reading": "じゅぎょうちゅうにいねむりしているところを、せんせいにみられた。",
+      "en": "I was seen by the teacher while dozing in class.",
+      "note": "Vている + ところを + passive 見られた."
+    },
+    {
+      "ja": "ちょうど出かけようとしていたところへ、友達が訪ねてきた。",
+      "reading": "ちょうどでかけようとしていたところへ、ともだちがたずねてきた。",
+      "en": "Just as I was about to go out, a friend came to visit.",
+      "note": "ちょうど strengthens the timing."
+    },
+    {
+      "ja": "お忙しいところをお邪魔して、申し訳ありません。",
+      "reading": "おいそがしいところをおじゃまして、もうしわけありません。",
+      "en": "I'm sorry to disturb you when you are busy.",
+      "note": "Set polite phrase with ところを."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜最中に",
+      "difference": "\"In the middle of\": an ongoing activity interrupted; ところに focuses on a particular moment.",
+      "id": "n2-grammar-50"
+    },
+    {
+      "pattern": "〜たところ",
+      "difference": "\"When I did X, I found Y\": a discovery, not a moment.",
+      "id": "n2-grammar-65"
+    },
+    {
+      "pattern": "〜たとたん",
+      "difference": "\"The moment\": immediate succession, no arrival/catching nuance.",
+      "id": "n2-grammar-67"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "居眠りしているところに、先生に見られた。",
+      "right": "居眠りしているところを、先生に見られた。",
+      "why": "Being seen/caught takes ところを."
+    },
+    {
+      "wrong": "出かけようとしたところを、電話がかかってきた。",
+      "right": "出かけようとしたところに、電話がかかってきた。",
+      "why": "An occurrence arriving at that moment takes ところに/へ."
+    },
+    {
+      "wrong": "忙しいところに、すみません。",
+      "right": "お忙しいところを、すみません。",
+      "why": "The polite apology phrase is お忙しいところを."
+    }
+  ],
+  "usageNotes": [
+    "ところに and ところへ are interchangeable; へ is a bit more written.",
+    "ところを is often followed by a passive (見られた・捕まった) or an act of help.",
+    "Polite set phrases: お忙しいところを, お休みのところを."
+  ],
+  "jlptTips": [
+    "Look at the verb after the blank: arrival/occurrence → ところに/へ; seeing/catching/helping → ところを.",
+    "Distractors: 最中に, とたんに, ところで. ところで after Vた means \"even if\", a completely different meaning.",
+    "The polite apology お忙しいところを is a frequent 文法形式 item."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-89-1",
+    "q-n2-g-89-2",
+    "q-n2-g-89-3",
+    "q-n2-g-89-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-89-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

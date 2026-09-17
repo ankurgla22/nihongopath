@@ -1,0 +1,124 @@
+{
+  "id": "n4-grammar-21",
+  "slug": "te-oku",
+  "level": "n4",
+  "order": 21,
+  "title": "〜ておく \"do in advance / leave as is\"",
+  "romaji": "te oku",
+  "meaning": "Do something in preparation for the future, or leave a state as it is.",
+  "simpleExplanation": "〜ておく has two related meanings. (1) Do something in advance, to be ready for later: ホテルを予約しておく = book the hotel ahead of time. (2) Leave something as it is: 窓を開けておく = leave the window open. In both cases the idea is \"do it now so that the state is right for later\". In casual speech ておく shortens to とく (買っとく) and でおく to どく (読んどく).",
+  "whenUsed": "Preparation before trips, meetings, exams and guests (資料を読んでおく, 部屋を掃除しておく), and instructions about what to leave as it is (電気をつけておいてください). Very common in daily conversation, at work and in recipes.",
+  "formation": [
+    "V-て + おく: 予約しておく, 買っておく, 読んでおく",
+    "Polite: 〜ておきます; request: 〜ておいてください",
+    "Casual contraction: 〜ておく → 〜とく (買っとく), 〜でおく → 〜どく (読んどく)",
+    "おく is written in kana in this use"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "ホテルを予約する",
+        "en": "book a hotel (plain action)"
+      },
+      {
+        "ja": "旅行の前にホテルを予約しておく",
+        "en": "book the hotel in advance for the trip (preparation)"
+      },
+      {
+        "ja": "予約しておいたので、安心だ",
+        "en": "because I booked it beforehand, I feel safe (result of preparation)"
+      },
+      {
+        "ja": "窓を開けておく",
+        "en": "leave the window open (keep a state as it is)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "旅行の前に、ホテルを予約しておきます。",
+      "reading": "りょこうの まえに、ホテルを よやくしておきます。",
+      "en": "I'll book the hotel before the trip.",
+      "note": "Preparation: booking before the trip."
+    },
+    {
+      "ja": "窓を開けておいてください。",
+      "reading": "まどを あけておいてください。",
+      "en": "Please leave the window open.",
+      "note": "Leave as is: keep the window open."
+    },
+    {
+      "ja": "明日の会議の資料を読んでおいた。",
+      "reading": "あしたの かいぎの しりょうを よんでおいた。",
+      "en": "I read the materials for tomorrow's meeting in advance.",
+      "note": "Preparation done in the past: read ahead for tomorrow's meeting."
+    },
+    {
+      "ja": "お客さんが来る前に、部屋を掃除しておきましょう。",
+      "reading": "おきゃくさんが くる まえに、へやを そうじして おきましょう。",
+      "en": "Let's clean the room before the guests come.",
+      "note": "Preparation for an event: 〜前に + ておく is a typical combination."
+    },
+    {
+      "ja": "この書類は明日使うから、机の上に置いといてね。",
+      "reading": "この しょるいは あした つかうから、つくえの うえに おいといてね。",
+      "note": "置いといて is the casual contraction of 置いておいて (leave it there).",
+      "en": "I'll use these papers tomorrow, so leave them on the desk, okay?"
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てある",
+      "difference": "てある describes the state that results from preparation (予約してある = it has been booked). ておく describes the act of preparing.",
+      "id": "n4-grammar-25"
+    },
+    {
+      "pattern": "〜たまま",
+      "difference": "まま describes a state left unchanged, often carelessly (電気をつけたまま寝た). ておく is a deliberate choice to leave it.",
+      "id": "n4-grammar-29"
+    },
+    {
+      "pattern": "〜ちゃう / 〜とく (contractions)",
+      "difference": "とく is the casual form of ておく. The meaning is the same.",
+      "id": "n4-grammar-87"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "電気をつけておく。(meaning 'the light is on')",
+      "right": "電気がついている。/ 電気がつけてある。",
+      "why": "ておく is an action (leave it on), not a description of a state. For a state use ている or てある."
+    },
+    {
+      "wrong": "昨日、テストの勉強しておく。",
+      "right": "昨日、テストの勉強をしておいた。",
+      "why": "A past preparation needs the past form ておいた."
+    },
+    {
+      "wrong": "明日の準備を置く。",
+      "right": "明日の準備をしておく。",
+      "why": "The auxiliary おく attaches to a て-form; you cannot use 置く as a stand-alone verb for \"prepare in advance\"."
+    }
+  ],
+  "usageNotes": [
+    "In the \"leave as is\" sense, ておく often follows そのまま: そのままにしておいてください (please leave it as it is).",
+    "The contractions とく / どく are extremely common in speech (やっとく, 言っとく, 読んどく) but written Japanese and the exam prefer ておく.",
+    "ておく is also used for temporary measures: とりあえず冷蔵庫に入れておく (put it in the fridge for now)."
+  ],
+  "jlptTips": [
+    "Cues for ておく: 〜前に, 〜ように, 準備, あらかじめ, 明日のために. If the sentence is about getting ready for something later, choose ておく.",
+    "Distractors often include てある and ている. Ask: is the sentence an action someone takes (ておく) or a description of a state (てある / ている)?"
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-21-1",
+    "q-n4-g-21-2",
+    "q-n4-g-21-3",
+    "q-n4-g-21-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-21-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

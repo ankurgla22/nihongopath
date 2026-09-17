@@ -1,0 +1,124 @@
+{
+  "id": "n3-grammar-92",
+  "slug": "sasete-kudasai",
+  "level": "n3",
+  "order": 92,
+  "title": "〜させてください",
+  "romaji": "sasete kudasai",
+  "meaning": "Please let me… / Please allow me to…",
+  "simpleExplanation": "〜させてください asks permission to do something yourself: 帰らせてください \"please let me go home\", 考えさせてください \"please let me think about it\". It uses the causative form (\"make/let someone do\") plus ください, so literally \"please let me do it\".",
+  "whenUsed": "At work, in shops, when volunteering or asking for time (少し考えさせてください). Casual: 〜させて. More humble: 〜させていただけませんか. It is polite but still a request from the speaker's side, so it suits situations where the listener has authority.",
+  "formation": [
+    "Group 1: -aせて + ください (帰る → 帰らせてください, 休む → 休ませてください)",
+    "Group 2: -させて + ください (食べる → 食べさせてください, 考える → 考えさせてください)",
+    "する → させてください / 来る → 来させてください",
+    "Casual: 〜させて / Humble: 〜させていただけませんか"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "帰る",
+    "rootLabel": "Group 1 verb → causative て-form",
+    "branches": [
+      {
+        "suffix": "らせる",
+        "result": "帰らせる",
+        "label": "causative: make/let someone go home"
+      },
+      {
+        "suffix": "らせて + ください",
+        "result": "帰らせてください",
+        "label": "please let me go home"
+      },
+      {
+        "suffix": "らせて + いただけませんか",
+        "result": "帰らせていただけませんか",
+        "label": "humble: might I be allowed to go home?"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は疲れたので、早く帰らせてください。",
+      "reading": "きょうはつかれたので、はやくかえらせてください。",
+      "en": "I'm tired today, so please let me go home early.",
+      "note": "Group 1 causative 帰らせて + ください."
+    },
+    {
+      "ja": "その仕事は私にやらせてください。",
+      "reading": "そのしごとはわたしにやらせてください。",
+      "en": "Please let me do that job.",
+      "note": "Volunteering for a task."
+    },
+    {
+      "ja": "少し考えさせてください。",
+      "reading": "すこしかんがえさせてください。",
+      "en": "Please let me think about it a bit.",
+      "note": "Asking for time to think."
+    },
+    {
+      "ja": "そのプロジェクト、ぜひ私に担当させてください。",
+      "reading": "そのプロジェクト、ぜひわたしにたんとうさせてください。",
+      "en": "Please let me be in charge of that project.",
+      "note": "する verb → させてください."
+    },
+    {
+      "ja": "今日は私にごちそうさせてください。",
+      "reading": "きょうはわたしにごちそうさせてください。",
+      "en": "Please let me treat you today.",
+      "note": "A polite way to insist on paying."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てもいいですか",
+      "difference": "Asks permission neutrally; させてください is more willing and assertive ('let me')."
+    },
+    {
+      "pattern": "〜させてもらう / 〜させていただく",
+      "difference": "The statement form: 'I will (with your permission)'. させてください is the request.",
+      "id": "n3-grammar-93"
+    },
+    {
+      "pattern": "〜てください",
+      "difference": "Asks the listener to do the action, not the speaker."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "早く帰ってください。(meaning 'let me go home')",
+      "right": "早く帰らせてください。",
+      "why": "帰ってください asks the listener to go home. To ask for permission for yourself, you need the causative."
+    },
+    {
+      "wrong": "考えらせてください。",
+      "right": "考えさせてください。",
+      "why": "考える is a Group 2 verb, so the causative is 考えさせる."
+    },
+    {
+      "wrong": "手伝わせてください。(said to a friend at home)",
+      "right": "手伝わせて。",
+      "why": "Not wrong, but ください is unnecessarily formal among friends; casual 〜させて is natural."
+    }
+  ],
+  "usageNotes": [
+    "The speaker is often marked with 私に (私にやらせてください).",
+    "〜させてほしい is the wish version: ちょっと休ませてほしい.",
+    "Group 1 causative uses the a-line: 待つ → 待たせて, 話す → 話させて, 書く → 書かせて."
+  ],
+  "jlptTips": [
+    "Decide who does the action: speaker → させてください; listener → てください.",
+    "Check the verb group before choosing the causative form; distractors like 考えらせて are common.",
+    "In dialogues, a reply of どうぞ / いいですよ confirms it was a permission request."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-92-1",
+    "q-n3-g-92-2",
+    "q-n3-g-92-3",
+    "q-n3-g-92-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-92-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

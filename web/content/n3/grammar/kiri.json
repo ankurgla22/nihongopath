@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-139",
+  "slug": "kiri",
+  "level": "n3",
+  "order": 139,
+  "title": "〜きり / 〜っきり",
+  "romaji": "kiri / kkiri",
+  "meaning": "(1) only… / just…; (2) ever since… (nothing has happened) (V-たきり); (3) constantly / wholly (〜きりだ / 〜っきり)",
+  "simpleExplanation": "〜きり has three related uses, all about a limit. (1) \"Only\": 二人きり \"just the two of us\". (2) After a た-form: something happened and then nothing more: 出かけたきり帰ってこない \"went out and hasn't come back since\". (3) A fixed state: 寝たきり \"bedridden\", つきっきり \"constantly attending\".",
+  "whenUsed": "Sense 1 in emotional or emphatic speech (これっきり \"this is the last time\"); sense 2 in narratives and complaints, always followed by a negative; sense 3 in set words. Casual: 〜っきり.",
+  "formation": [
+    "(1) Noun + きり / っきり (二人きり, 一人っきり, これっきり)",
+    "(2) Verb た-form + きり + negative (行ったきり戻らない)",
+    "(3) Set forms: 寝たきり, つきっきり, 〜きりだ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of きり",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "(1) N + きり",
+        "cells": [
+          "only, just",
+          "二人きりで話す (talk just the two of us)"
+        ]
+      },
+      {
+        "label": "(2) V-た + きり + neg.",
+        "cells": [
+          "ever since, nothing more",
+          "会ったきり連絡がない (no contact since we met)"
+        ]
+      },
+      {
+        "label": "(3) fixed state",
+        "cells": [
+          "constantly, wholly",
+          "寝たきりの生活 (bedridden life)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は二人きりで話したい。",
+      "reading": "きょうはふたりきりではなしたい。",
+      "en": "I want to talk with just the two of us today.",
+      "note": "Sense 1: just the two of us."
+    },
+    {
+      "ja": "彼は出かけたきり、まだ帰ってこない。",
+      "reading": "かれはでかけたきり、まだかえってこない。",
+      "en": "He went out and hasn't come back since.",
+      "note": "Sense 2: went out and nothing since."
+    },
+    {
+      "ja": "一度会ったきりで、その後は連絡がない。",
+      "reading": "いちどあったきりで、そのごはれんらくがない。",
+      "en": "I met him only once, and there's been no contact since.",
+      "note": "Sense 2: met once, no contact after."
+    },
+    {
+      "ja": "祖父は去年倒れてから、寝たきりになってしまった。",
+      "reading": "そふはきょねんたおれてから、ねたきりになってしまった。",
+      "en": "Since collapsing last year, my grandfather has been bedridden.",
+      "note": "Sense 3: 寝たきり."
+    },
+    {
+      "ja": "友達に本を貸したきり、返してもらっていない。",
+      "reading": "ともだちにほんをかしたきり、かえしてもらっていない。",
+      "en": "I lent a friend a book and haven't had it back since.",
+      "note": "Sense 2 with a negative continuation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけ",
+      "difference": "Neutral 'only'. きり adds emotion or finality (これっきり)."
+    },
+    {
+      "pattern": "〜て以来",
+      "difference": "'Since (doing)' with any continuation, positive or negative. たきり requires 'nothing more happened'.",
+      "id": "n3-grammar-41"
+    },
+    {
+      "pattern": "〜まま",
+      "difference": "'As it is' (unchanged state); 出かけたまま is close to 出かけたきり but neutral."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は出かけたきり、すぐ帰ってきた。",
+      "right": "彼は出かけたきり、まだ帰ってこない。",
+      "why": "Sense 2 must be followed by a negative or 'nothing since'."
+    },
+    {
+      "wrong": "出かけるきり",
+      "right": "出かけたきり",
+      "why": "Sense 2 attaches to the た-form."
+    },
+    {
+      "wrong": "二人だけきり",
+      "right": "二人きり / 二人だけ",
+      "why": "Do not stack だけ and きり."
+    }
+  ],
+  "usageNotes": [
+    "Casual っきり: 一人っきり, 二人っきり, これっきり.",
+    "〜たきり is often paired with まだ / 一度も / 全然 + negative.",
+    "つきっきりで看病する = nurse someone constantly."
+  ],
+  "jlptTips": [
+    "た-form + blank + negative (帰ってこない, 連絡がない) → きり.",
+    "Noun + blank meaning 'just' with emotion → きり / っきり.",
+    "寝たきり and つきっきり are fixed; recognise them as vocabulary."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-139-1",
+    "q-n3-g-139-2",
+    "q-n3-g-139-3",
+    "q-n3-g-139-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-139-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

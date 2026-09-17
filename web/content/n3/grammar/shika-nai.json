@@ -1,0 +1,138 @@
+{
+  "id": "n3-grammar-53",
+  "slug": "shika-nai",
+  "level": "n3",
+  "order": 53,
+  "title": "〜しかない",
+  "romaji": "shika nai",
+  "meaning": "Have no choice but to… / only…",
+  "simpleExplanation": "V-dictionary + しかない means there is only one option left: 歩いて帰るしかない = I have no choice but to walk home. With a noun, N + しか + negative means \"only\": 百円しかない = I have only 100 yen. In both cases しか + ない says \"nothing except this\".",
+  "whenUsed": "Everyday speech and writing. Formal equivalents for verbs: 〜ほかない, 〜よりほかない, 〜ざるを得ない (N2).",
+  "formation": [
+    "Verb (dictionary form) + しかない",
+    "Noun + しか + negative verb",
+    "Noun + しかない (only, and nothing else)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"No choice\" family",
+    "columns": [
+      "Feel",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V + しかない",
+        "cells": [
+          "only option left (neutral, spoken)",
+          "歩くしかない"
+        ]
+      },
+      {
+        "label": "V + ほかない",
+        "cells": [
+          "formal",
+          "歩くほかない"
+        ]
+      },
+      {
+        "label": "V-ない + わけにはいかない",
+        "cells": [
+          "duty forces me to",
+          "歩かないわけにはいかない"
+        ]
+      },
+      {
+        "label": "V + ざるを得ない (N2)",
+        "cells": [
+          "formal, reluctant",
+          "歩かざるを得ない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "終電がなくなったので、歩いて帰るしかない。",
+      "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
+      "en": "The last train is gone, so I have no choice but to walk home.",
+      "note": "Only option: the last train is gone."
+    },
+    {
+      "ja": "財布には百円しかない。",
+      "reading": "さいふにはひゃくえんしかない。",
+      "en": "I have only 100 yen in my wallet.",
+      "note": "N + しか + negative: only 100 yen."
+    },
+    {
+      "ja": "こうなったら、やるしかない。",
+      "reading": "こうなったら、やるしかない。",
+      "en": "Now that it's come to this, we just have to do it.",
+      "note": "Resolute: nothing to do but do it."
+    },
+    {
+      "ja": "誰も手伝ってくれないなら、自分でやるしかない。",
+      "reading": "だれもてつだってくれないなら、じぶんでやるしかない。",
+      "en": "If nobody will help, I have no choice but to do it myself.",
+      "note": "V-dict + しかない after a condition."
+    },
+    {
+      "ja": "この店は現金しか使えません。",
+      "reading": "このみせはげんきんしかつかえません。",
+      "en": "This shop only accepts cash.",
+      "note": "N + しか + potential negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけにはいかない",
+      "difference": "Social or moral impossibility. 〜ないわけにはいかない ≈ しかない but stresses duty.",
+      "id": "n3-grammar-6"
+    },
+    {
+      "pattern": "〜ほかない",
+      "difference": "Formal version of V + しかない."
+    },
+    {
+      "pattern": "〜だけ",
+      "difference": "\"Only\" with a positive verb: 百円だけある."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "歩いて帰るしかある。",
+      "right": "歩いて帰るしかない。",
+      "why": "しか always takes a negative."
+    },
+    {
+      "wrong": "百円しかある。",
+      "right": "百円しかない。/ 百円だけある。",
+      "why": "しか needs ない; for a positive verb use だけ."
+    },
+    {
+      "wrong": "歩いたしかない。",
+      "right": "歩くしかない。",
+      "why": "The verb before しかない is in dictionary form."
+    }
+  ],
+  "usageNotes": [
+    "〜しかない = 〜ほかない = 〜よりほかない (formal). Compare 〜ざるを得ない (N2). しか always takes a negative verb.",
+    "こうなったら〜しかない (now that it's come to this, all I can do is) is a common set-up."
+  ],
+  "jlptTips": [
+    "A situation with no alternatives (終電がない, 誰も手伝わない) + a dictionary-form verb = しかない.",
+    "Options with a positive verb after しか are always wrong.",
+    "Set phrase 〜しかない vs 〜しかできない: the latter means \"can only do\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-53-1",
+    "q-n3-g-53-2",
+    "q-n3-g-53-3",
+    "q-n3-g-53-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-53-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

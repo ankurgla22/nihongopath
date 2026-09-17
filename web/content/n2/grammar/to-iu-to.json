@@ -1,0 +1,130 @@
+{
+  "id": "n2-grammar-82",
+  "slug": "to-iu-to",
+  "level": "n2",
+  "order": 82,
+  "title": "〜というと / 〜といえば / 〜といったら",
+  "romaji": "to iu to / to ieba / to ittara",
+  "meaning": "speaking of; when you mention ...; as for (exclamatory)",
+  "simpleExplanation": "〜というと / 〜といえば / 〜といったら pick up a topic that has just come up and build on it: \"speaking of Japanese food, sushi comes to mind\"; \"speaking of Tanaka, I haven't seen him lately\". といったら is often exclamatory: \"the heat that day was beyond words\".",
+  "whenUsed": "話し言葉寄り, conversational. It follows nouns (and sometimes plain clauses). というと can also seek clarification (\"you mean…?\"). といえば introduces an association; といったら expresses a strong impression that follows.",
+  "formation": [
+    "N + というと / といえば / といったら"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three related forms",
+    "columns": [
+      "Typical use",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜というと",
+        "cells": [
+          "association / clarification",
+          "日本料理というと寿司だ / というと、来ないんですか"
+        ]
+      },
+      {
+        "label": "〜といえば",
+        "cells": [
+          "picking up a topic",
+          "田中さんといえば最近見かけない"
+        ]
+      },
+      {
+        "label": "〜といったら",
+        "cells": [
+          "exclamation about degree",
+          "あの暑さといったら"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本料理というと、まず寿司を思い浮かべる。",
+      "reading": "にほんりょうりというと、まずすしをおもいうかべる。",
+      "en": "Speaking of Japanese food, sushi is the first thing that comes to mind.",
+      "note": "Association with というと."
+    },
+    {
+      "ja": "田中さんといえば、最近見かけませんね。",
+      "reading": "たなかさんといえば、さいきんみかけませんね。",
+      "en": "Speaking of Tanaka, I haven't seen him lately.",
+      "note": "Topic pickup with といえば."
+    },
+    {
+      "ja": "あの時の暑さといったら、言葉にできないほどだった。",
+      "reading": "あのときのあつさといったら、ことばにできないほどだった。",
+      "en": "The heat at that time was beyond words.",
+      "note": "Exclamation with といったら."
+    },
+    {
+      "ja": "「田中さんは今日休みです。」「というと、会議は延期ですか。」",
+      "reading": "「たなかさんはきょうやすみです。」「というと、かいぎはえんきですか。」",
+      "en": "\"Tanaka is off today.\" \"You mean the meeting is postponed?\"",
+      "note": "というと asking for clarification."
+    },
+    {
+      "ja": "富士山に登った時の景色の美しさといったら、忘れられない。",
+      "reading": "ふじさんにのぼったときのけしきのうつくしさといったら、わすれられない。",
+      "en": "The beauty of the view when I climbed Mt. Fuji is unforgettable.",
+      "note": "Exclamatory といったら."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜について",
+      "difference": "\"About\": introduces a topic to discuss, without conversational association."
+    },
+    {
+      "pattern": "〜といえば〜が",
+      "difference": "Concessive: \"if you say X, then yes, but…\" (便利といえば便利だが)."
+    },
+    {
+      "pattern": "〜というより",
+      "difference": "\"Rather than\": corrects a description.",
+      "id": "n2-grammar-85"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本料理といったら、寿司を思い浮かべる。（neutral association）",
+      "right": "日本料理というと、寿司を思い浮かべる。",
+      "why": "といったら is for exclamations; plain association uses というと/といえば."
+    },
+    {
+      "wrong": "田中さんについて、最近見かけませんね。",
+      "right": "田中さんといえば、最近見かけませんね。",
+      "why": "Picking up a mentioned name in conversation uses といえば."
+    },
+    {
+      "wrong": "あの暑さというと、言葉にできないほどだった。",
+      "right": "あの暑さといったら、言葉にできないほどだった。",
+      "why": "The strong-impression use requires といったら."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-initial というと / といえば respond to what the other person said.",
+    "といったら(ない) can end a sentence: その驚きといったらなかった (= indescribable).",
+    "In writing, といえば often introduces a related aside."
+  ],
+  "jlptTips": [
+    "A topic just mentioned + blank + an association → というと / といえば; an exclamatory degree (言葉にできない・忘れられない) → といったら.",
+    "Distractors: について, というより, といっても. といっても lowers expectations (\"although I say\").",
+    "Dialogue starting with というと、〜ですか is the clarification use."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-82-1",
+    "q-n2-g-82-2",
+    "q-n2-g-82-3",
+    "q-n2-g-82-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-82-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

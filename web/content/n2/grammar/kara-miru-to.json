@@ -1,0 +1,128 @@
+{
+  "id": "n2-grammar-33",
+  "slug": "kara-miru-to",
+  "level": "n2",
+  "order": 33,
+  "title": "〜から見ると / 〜から見れば / 〜から見て",
+  "romaji": "kara miru to / kara mireba / kara mite",
+  "meaning": "from the viewpoint of; judging from",
+  "simpleExplanation": "〜から見ると / 〜から見れば / 〜から見て means \"seen from the viewpoint of…\" or \"judging from…\". It works like からすると: the noun can be a person or group (a foreigner, an expert) or a piece of evidence (footprints, data).",
+  "whenUsed": "Both registers. から見て is the compact form used before a conclusion; から見ても means \"even from the viewpoint of\". Because 見る suggests observation, it is especially natural with visible evidence and with outside observers.",
+  "formation": [
+    "N + から見ると / から見れば / から見て / から見ても"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "外国人 / 足跡",
+    "rootLabel": "N + から見〜",
+    "branches": [
+      {
+        "suffix": "から見ると",
+        "result": "外国人から見ると不思議だ",
+        "label": "seen from the viewpoint of"
+      },
+      {
+        "suffix": "から見れば",
+        "result": "経済的な面から見れば合理的だ",
+        "label": "same, slightly more analytical"
+      },
+      {
+        "suffix": "から見て",
+        "result": "足跡から見て男だと思われる",
+        "label": "judging from (evidence)"
+      },
+      {
+        "suffix": "から見ても",
+        "result": "誰から見ても立派だ",
+        "label": "even from the viewpoint of"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "外国人から見ると、日本の習慣は不思議だろう。",
+      "reading": "がいこくじんからみると、にほんのしゅうかんはふしぎだろう。",
+      "en": "From a foreigner's point of view, Japanese customs must seem strange.",
+      "note": "Outsider's perspective."
+    },
+    {
+      "ja": "足跡から見て、犯人は男だと思われる。",
+      "reading": "あしあとからみて、はんにんはおとこだとおもわれる。",
+      "en": "Judging from the footprints, the culprit is thought to be a man.",
+      "note": "Physical evidence + inference."
+    },
+    {
+      "ja": "経済的な面から見れば、この案は合理的だ。",
+      "reading": "けいざいてきなめんからみれば、このあんはごうりてきだ。",
+      "en": "Seen from the economic side, this proposal is rational.",
+      "note": "An analytical angle with から見れば."
+    },
+    {
+      "ja": "誰から見ても、彼女は理想的なリーダーだ。",
+      "reading": "だれからみても、かのじょはりそうてきなリーダーだ。",
+      "en": "From anyone's point of view, she is an ideal leader.",
+      "note": "誰から見ても is a set phrase."
+    },
+    {
+      "ja": "この傷の様子から見て、事故はかなり前に起きたようだ。",
+      "reading": "このきずのようすからみて、じこはかなりまえにおきたようだ。",
+      "en": "Judging from the state of this wound, the accident seems to have happened quite a while ago.",
+      "note": "Evidence + ようだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からすると",
+      "difference": "Nearly identical; からすると is slightly more common in speech.",
+      "id": "n2-grammar-29"
+    },
+    {
+      "pattern": "〜からいうと",
+      "difference": "Criteria only, no persons.",
+      "id": "n2-grammar-27"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\": a result unexpected given the category (子供にしては上手だ), not a viewpoint.",
+      "id": "n2-grammar-119"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "外国人から見ると、日本の習慣を教えてください。",
+      "right": "外国人から見ると、日本の習慣は不思議だろう。",
+      "why": "The clause after the viewpoint is a judgment, not a request."
+    },
+    {
+      "wrong": "足跡から見て、犯人は男です。（as a certainty）",
+      "right": "足跡から見て、犯人は男だと思われる。",
+      "why": "Evidence-based inference should end with a hedge."
+    },
+    {
+      "wrong": "私を見ると、この案はいい。",
+      "right": "私から見ると、この案はいい。",
+      "why": "The viewpoint needs から before 見ると; を見ると means \"when you look at me\"."
+    }
+  ],
+  "usageNotes": [
+    "から見ても is used for \"even by X's standards\": プロから見ても素晴らしい.",
+    "Evidence nouns are often visible things: 様子, 表情, 傷, 足跡, 服装.",
+    "In essays, 〜の観点から見ると frames an analytical perspective."
+  ],
+  "jlptTips": [
+    "Any viewpoint noun (person or evidence) works, so から見ると is often the correct answer when からいうと is a distractor with a person noun.",
+    "Other distractors: にしては, にとって, を見ると. Remember から is essential.",
+    "誰から見ても is a frequent chunk in 並べ替え; keep it together."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-33-1",
+    "q-n2-g-33-2",
+    "q-n2-g-33-3",
+    "q-n2-g-33-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-33-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

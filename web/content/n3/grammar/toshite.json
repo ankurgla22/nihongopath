@@ -1,0 +1,141 @@
+{
+  "id": "n3-grammar-27",
+  "slug": "toshite",
+  "level": "n3",
+  "order": 27,
+  "title": "〜として",
+  "romaji": "toshite",
+  "meaning": "As… / in the capacity of…",
+  "simpleExplanation": "〜として names the role or position from which someone does something: 留学生として日本に来た = I came to Japan as an exchange student. 医者として = speaking as a doctor. The noun before として is a role, status, or category; the sentence tells what you do or think in that role.",
+  "whenUsed": "Self-introductions, formal statements, essays. としては = \"as for (my standpoint)\"; としての + noun = \"as a…\" (親としての責任).",
+  "formation": [
+    "Noun + として",
+    "Noun + としては (standpoint)",
+    "Noun + としても (also as / even as)",
+    "Noun + としての + Noun"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "として family",
+    "columns": [
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜として",
+        "cells": [
+          "as (role)",
+          "留学生として来た"
+        ]
+      },
+      {
+        "label": "〜としては",
+        "cells": [
+          "as for (my standpoint)",
+          "私としては賛成だ"
+        ]
+      },
+      {
+        "label": "〜としての",
+        "cells": [
+          "as a… (before a noun)",
+          "親としての責任"
+        ]
+      },
+      {
+        "label": "〜としても",
+        "cells": [
+          "even if / also as",
+          "冗談だとしても"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は留学生として日本に来ました。",
+      "reading": "わたしはりゅうがくせいとしてにほんにきました。",
+      "en": "I came to Japan as an exchange student.",
+      "note": "Role in which one came to Japan."
+    },
+    {
+      "ja": "医者として、たばこは勧められません。",
+      "reading": "いしゃとして、たばこはすすめられません。",
+      "en": "As a doctor, I cannot recommend smoking.",
+      "note": "Speaking from a professional standpoint."
+    },
+    {
+      "ja": "親としての責任を果たすべきだ。",
+      "reading": "おやとしてのせきにんをはたすべきだ。",
+      "en": "You should fulfill your responsibility as a parent.",
+      "note": "としての + noun: responsibility as a parent."
+    },
+    {
+      "ja": "この寺は、世界遺産として登録されている。",
+      "reading": "このてらは、せかいいさんとしてとうろくされている。",
+      "en": "This temple is registered as a World Heritage site.",
+      "note": "A category or status, not only a person's role."
+    },
+    {
+      "ja": "私としては、もう少し時間をかけて考えたいと思います。",
+      "reading": "わたしとしては、もうすこしじかんをかけてかんがえたいとおもいます。",
+      "en": "As for me, I would like to take a little more time to think about it.",
+      "note": "としては introduces a personal standpoint politely."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にとって",
+      "difference": "For: viewpoint of an evaluation. として is the role in which you act.",
+      "id": "n3-grammar-24"
+    },
+    {
+      "pattern": "〜としても",
+      "difference": "\"Even if\" after a clause; after a noun it can mean \"also as\".",
+      "id": "n3-grammar-65"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a…\": the reality does not match the expectation of the role.",
+      "id": "n3-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私にとっては、賛成です。",
+      "right": "私としては、賛成です。",
+      "why": "An opinion from your standpoint uses としては."
+    },
+    {
+      "wrong": "親として責任",
+      "right": "親としての責任",
+      "why": "Before a noun, use としての."
+    },
+    {
+      "wrong": "医者にしては、たばこは勧められません。",
+      "right": "医者として、たばこは勧められません。",
+      "why": "にしては means \"for a doctor (surprisingly)\". The role from which one speaks is として."
+    }
+  ],
+  "usageNotes": [
+    "〜としては = \"as for (standpoint)\". Do not confuse with 〜としても (even if / also as) or 〜としたら (supposing).",
+    "Common: 趣味として, 記念として, お礼として (as a thank-you gift)."
+  ],
+  "jlptTips": [
+    "A role, job, or status noun followed by an action = として.",
+    "としては before 賛成 / 反対 / 〜たい shows a standpoint; にとって is the trap.",
+    "In 並べ替え, としての must be followed by a noun; として by a verb phrase."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-27-1",
+    "q-n3-g-27-2",
+    "q-n3-g-27-3",
+    "q-n3-g-27-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-27-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

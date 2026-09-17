@@ -1,0 +1,130 @@
+{
+  "id": "n3-grammar-137",
+  "slug": "goto-ni",
+  "level": "n3",
+  "order": 137,
+  "title": "〜ごとに",
+  "romaji": "goto ni",
+  "meaning": "every… / each… / at every… (each unit or occasion)",
+  "simpleExplanation": "〜ごとに means \"every\" or \"each\", counting every instance: 三日ごとに \"every three days\", 学期ごとに \"each semester\", 会う人ごとに \"with every person I meet\". It attaches to nouns and to the dictionary form of verbs. Compare 〜おきに, which skips intervals.",
+  "whenUsed": "Schedules, instructions (薬は六時間ごとに), statistics (地域ごとに), and habits. Written and spoken. Without に, 〜ごと means \"including / whole\": 皮ごと食べる \"eat with the skin\".",
+  "formation": [
+    "Noun (time / unit) + ごとに (三日ごとに, 一年ごとに)",
+    "Noun (group) + ごとに (クラスごとに, 地域ごとに)",
+    "Verb (dictionary form) + ごとに (会うごとに)",
+    "Noun + ごと (whole, including): 皮ごと, 箱ごと"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ごとに vs おきに",
+    "columns": [
+      "Counting",
+      "一日〜 means",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜ごとに",
+        "cells": [
+          "Every instance",
+          "every day",
+          "三日ごとに水をやる (water every three days: day 1, 4, 7…)"
+        ]
+      },
+      {
+        "label": "〜おきに",
+        "cells": [
+          "Skip the stated span",
+          "every other day",
+          "一日おきに走る (run on day 1, 3, 5…)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "三日ごとに水をやってください。",
+      "reading": "みっかごとにみずをやってください。",
+      "en": "Please water it every three days.",
+      "note": "Every three days."
+    },
+    {
+      "ja": "学期ごとに試験がある。",
+      "reading": "がっきごとにしけんがある。",
+      "en": "There is an exam each semester.",
+      "note": "Each semester."
+    },
+    {
+      "ja": "会う人ごとに同じ質問をされた。",
+      "reading": "あうひとごとにおなじしつもんをされた。",
+      "en": "I was asked the same question by every person I met.",
+      "note": "Verb + ごとに: with every person met."
+    },
+    {
+      "ja": "この電車は十分ごとに出ている。",
+      "reading": "このでんしゃはじゅっぷんごとにでている。",
+      "en": "This train leaves every ten minutes.",
+      "note": "Interval with ごとに."
+    },
+    {
+      "ja": "りんごは皮ごと食べたほうが体にいいらしい。",
+      "reading": "りんごはかわごとたべたほうがからだにいいらしい。",
+      "en": "Apparently it's healthier to eat apples with the skin on.",
+      "note": "ごと (no に) = 'including, whole'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜おきに",
+      "difference": "Skips the stated interval; 一日おきに = every other day.",
+      "id": "n3-grammar-138"
+    },
+    {
+      "pattern": "〜たびに",
+      "difference": "'Every time (an event happens)', with a clause or event noun (会うたびに). ごとに also works with units and groups.",
+      "id": "n3-grammar-34"
+    },
+    {
+      "pattern": "毎〜",
+      "difference": "毎日 / 毎週 are simpler; ごとに allows any unit (三日ごと, 二週間ごと)."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一日ごとに = every other day",
+      "right": "一日ごとに = every day; every other day = 一日おきに",
+      "why": "ごとに counts every instance without skipping."
+    },
+    {
+      "wrong": "会ったごとに",
+      "right": "会うごとに",
+      "why": "Verbs take the dictionary form before ごとに."
+    },
+    {
+      "wrong": "りんごを皮ごとに食べる",
+      "right": "りんごを皮ごと食べる",
+      "why": "The 'including' sense uses ごと without に."
+    }
+  ],
+  "usageNotes": [
+    "With long units, ごとに and おきに can coincide in practice (一週間おき ≈ 二週間ごと).",
+    "地域ごとに / 人ごとに / 種類ごとに = 'by region / person / type'.",
+    "〜ごとの + noun: 学年ごとの目標."
+  ],
+  "jlptTips": [
+    "'Every X' with a unit or group → ごとに; 'every other X' → おきに.",
+    "Verb before the blank must be dictionary form for ごとに.",
+    "For 'including the whole', the blank is ごと without に (皮ごと, 箱ごと)."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-137-1",
+    "q-n3-g-137-2",
+    "q-n3-g-137-3",
+    "q-n3-g-137-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-137-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

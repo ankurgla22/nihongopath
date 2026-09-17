@@ -1,0 +1,132 @@
+{
+  "id": "n3-grammar-6",
+  "slug": "wake-niwa-ikanai",
+  "level": "n3",
+  "order": 6,
+  "title": "〜わけにはいかない",
+  "romaji": "wake niwa ikanai",
+  "meaning": "Can't (for social or moral reasons) / can't afford to",
+  "simpleExplanation": "〜わけにはいかない means \"I can't do that\" not because it is physically impossible, but because duty, rules, or feelings don't allow it. 休むわけにはいかない = I can't take the day off (there's an important meeting). The negative 〜ないわけにはいかない flips it: \"I can't not do it\" = I have no choice but to do it.",
+  "whenUsed": "Speech and writing, often when explaining why you must refuse or must act. Polite: 〜わけにはいきません. Frequent in business and daily life.",
+  "formation": [
+    "Verb (dictionary form) + わけにはいかない (can't)",
+    "Verb (ない form) + わけにはいかない (have no choice but to)",
+    "Polite: 〜わけにはいきません",
+    "Always いかない, never いけない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three kinds of \"can't\"",
+    "columns": [
+      "Why you can't",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "V-られない",
+        "cells": [
+          "no ability / physically impossible",
+          "疲れて歩けない"
+        ]
+      },
+      {
+        "label": "〜てはいけない",
+        "cells": [
+          "a rule forbids it",
+          "ここで走ってはいけない"
+        ]
+      },
+      {
+        "label": "〜わけにはいかない",
+        "cells": [
+          "duty, feelings or situation stop me",
+          "先輩の頼みだから断るわけにはいかない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "大事な会議があるので、休むわけにはいかない。",
+      "reading": "だいじなかいぎがあるので、やすむわけにはいかない。",
+      "en": "I have an important meeting, so I can't take the day off.",
+      "note": "A duty (important meeting) makes rest impossible."
+    },
+    {
+      "ja": "借りたお金を返さないわけにはいかない。",
+      "reading": "かりたおかねをかえさないわけにはいかない。",
+      "en": "I can't not return the money I borrowed.",
+      "note": "Double negative: 返さない + わけにはいかない = I must return it."
+    },
+    {
+      "ja": "先輩の頼みだから、断るわけにはいかない。",
+      "reading": "せんぱいのたのみだから、ことわるわけにはいかない。",
+      "en": "It's a request from my senior, so I can't refuse.",
+      "note": "Social obligation to a senior."
+    },
+    {
+      "ja": "みんなが頑張っているのに、私だけ先に帰るわけにはいかない。",
+      "reading": "みんながんばっているのに、わたしだけさきにかえるわけにはいかない。",
+      "en": "With everyone working hard, I can't be the only one to leave early.",
+      "note": "Feelings toward the group are the reason."
+    },
+    {
+      "ja": "明日は試験があるので、今夜は勉強しないわけにはいきません。",
+      "reading": "あしたはしけんがあるので、こんやはべんきょうしないわけにはいきません。",
+      "en": "I have an exam tomorrow, so I have no choice but to study tonight.",
+      "note": "Polite 〜ないわけにはいきません = must."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜られない (potential)",
+      "difference": "Physical or skill inability. わけにはいかない is about circumstances, not ability."
+    },
+    {
+      "pattern": "〜しかない",
+      "difference": "\"Have no choice but to\" like 〜ないわけにはいかない, but lighter and based on options, not duty.",
+      "id": "n3-grammar-53"
+    },
+    {
+      "pattern": "〜てはいけない",
+      "difference": "A rule or prohibition from outside. わけにはいかない is the speaker's own judgement."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "足を怪我して、走るわけにはいかない。",
+      "right": "足を怪我して、走れない。",
+      "why": "Physical inability uses the potential form. わけにはいかない needs a social or moral reason."
+    },
+    {
+      "wrong": "休むわけにはいけない。",
+      "right": "休むわけにはいかない。",
+      "why": "This pattern is fixed as いかない."
+    },
+    {
+      "wrong": "先輩の頼みだから、断らないわけにはいかない。(intended: I can't refuse)",
+      "right": "断るわけにはいかない。",
+      "why": "The extra ない flips the meaning to \"I must refuse\". Count the negatives carefully."
+    }
+  ],
+  "usageNotes": [
+    "Not physical inability (that is 〜られない) but obligation or circumstance. Always 〜いかない, never 〜いけない in this pattern.",
+    "Only used with verbs; for nouns or adjectives use other patterns."
+  ],
+  "jlptTips": [
+    "Look for a reason involving other people or duty (〜ので, 〜から, 〜のに, 先輩, 約束). That points to わけにはいかない.",
+    "Check the number of negatives: V-dict + わけにはいかない = can't; V-ない + わけにはいかない = must.",
+    "Distractors わけではない / わけがない don't fit after a duty-type reason; only わけにはいかない does."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-6-1",
+    "q-n3-g-6-2",
+    "q-n3-g-6-3",
+    "q-n3-g-6-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-6-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

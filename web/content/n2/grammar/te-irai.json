@@ -1,0 +1,117 @@
+{
+  "id": "n2-grammar-76",
+  "slug": "te-irai",
+  "level": "n2",
+  "order": 76,
+  "title": "〜て以来",
+  "romaji": "te irai",
+  "meaning": "ever since (doing)",
+  "simpleExplanation": "〜て以来 means \"ever since (doing)…\". A one-time past action is the starting point, and the second clause describes a state or change that has continued since: since coming to Japan I haven't gone home once; since getting married he has changed completely.",
+  "whenUsed": "Both registers, slightly formal. It is the verb version of 以来 (lesson 4): Vて + 以来. The event should be some time ago and the second clause must be continuing (〜ていない, ずっと, すっかり変わった), not a single completed action.",
+  "formation": [
+    "Vて + 以来"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "日本に来た",
+        "en": "a one-time past event"
+      },
+      {
+        "ja": "日本に来て以来",
+        "en": "ever since that event…"
+      },
+      {
+        "ja": "日本に来て以来、一度も国に帰っていない",
+        "en": "…a state that continues to now"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日本に来て以来、一度も国に帰っていない。",
+      "reading": "にほんにきていらい、いちどもくににかえっていない。",
+      "en": "Since coming to Japan, I haven't gone home once.",
+      "note": "Vて + 以来 + 一度も〜ていない."
+    },
+    {
+      "ja": "結婚して以来、彼はすっかり変わった。",
+      "reading": "けっこんしていらい、かれはすっかりかわった。",
+      "en": "Ever since getting married, he has changed completely.",
+      "note": "Vて + 以来 + a lasting change."
+    },
+    {
+      "ja": "手術をして以来、体調がいい。",
+      "reading": "しゅじゅつをしていらい、たいちょうがいい。",
+      "en": "Since the operation, I've been in good health.",
+      "note": "Vて + 以来 + a continuing state."
+    },
+    {
+      "ja": "あの事件が起きて以来、この通りは夜になると人通りが少なくなった。",
+      "reading": "あのじけんがおきていらい、このとおりはよるになるとひとどおりがすくなくなった。",
+      "en": "Ever since that incident, this street has had few people at night.",
+      "note": "A lasting change."
+    },
+    {
+      "ja": "祖父は退職して以来、毎日畑仕事をしている。",
+      "reading": "そふはたいしょくしていらい、まいにちはたけしごとをしている。",
+      "en": "Since retiring, my grandfather has worked in the fields every day.",
+      "note": "A continuing habit."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てから",
+      "difference": "Plain sequence; the second clause can be a one-time action."
+    },
+    {
+      "pattern": "N + 以来",
+      "difference": "Same pattern with a noun (卒業以来).",
+      "id": "n2-grammar-4"
+    },
+    {
+      "pattern": "〜たきり",
+      "difference": "\"Since… and nothing more\" with unfulfilled expectation.",
+      "id": "n2-grammar-36"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本に来た以来",
+      "right": "日本に来て以来",
+      "why": "Verbs use the て-form before 以来."
+    },
+    {
+      "wrong": "手術をして以来、一度病院に行った。",
+      "right": "手術をして以来、ずっと体調がいい。",
+      "why": "The second clause must be a continuing state."
+    },
+    {
+      "wrong": "さっき起きて以来、何も食べていない。",
+      "right": "朝起きてから、何も食べていない。",
+      "why": "Very recent events take てから."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: 一度も〜ていない, ずっと, すっかり, 毎日.",
+    "The て-form of する verbs: 結婚して以来, 入社して以来.",
+    "Negative starting points (〜なくなって以来) are possible but rare."
+  ],
+  "jlptTips": [
+    "Vて + blank + 一度も〜ていない / ずっと → 以来.",
+    "Distractors: てから, たきり, たとたん. A one-time action after the blank means てから.",
+    "Form questions test 来て以来 (not 来た以来)."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-76-1",
+    "q-n2-g-76-2",
+    "q-n2-g-76-3",
+    "q-n2-g-76-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-76-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

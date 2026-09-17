@@ -1,0 +1,138 @@
+{
+  "id": "n4-grammar-22",
+  "slug": "te-shimau",
+  "level": "n4",
+  "order": 22,
+  "title": "〜てしまう \"finish completely / regrettably do\"",
+  "romaji": "te shimau",
+  "meaning": "(1) Completion — do something entirely; (2) regret — something happened that the speaker did not want.",
+  "simpleExplanation": "〜てしまう adds a feeling to an action. (1) Completion: 全部食べてしまった = I ate it all up (finished, nothing left). (2) Regret or \"oops\": 傘を忘れてしまった = I went and forgot my umbrella (I didn't mean to, and I'm sorry). The context and verb tell you which. In casual speech てしまう becomes ちゃう (食べちゃう) and でしまう becomes じゃう (飲んじゃう).",
+  "whenUsed": "Apologising for mistakes (遅れてしまってすみません), reporting accidents and losses (壊してしまった, なくしてしまった), and saying something is completely done (宿題は終わってしまった). Extremely common in everyday conversation.",
+  "formation": [
+    "V-て + しまう: 食べてしまう, 忘れてしまう, 壊してしまう",
+    "Polite: 〜てしまいます / 〜てしまいました",
+    "Casual contraction: 〜てしまう → 〜ちゃう (忘れちゃった), 〜でしまう → 〜じゃう (飲んじゃった)",
+    "Apology frame: 〜てしまって、すみません"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The two faces of てしまう",
+    "columns": [
+      "Typical verbs / words",
+      "Example",
+      "Feeling"
+    ],
+    "rows": [
+      {
+        "label": "Completion",
+        "cells": [
+          "全部, もう, 一人で + 食べる, 読む, 終わる",
+          "本を一日で読んでしまった",
+          "it's all done, nothing left"
+        ]
+      },
+      {
+        "label": "Regret",
+        "cells": [
+          "忘れる, 壊す, 落とす, なくす, 遅れる",
+          "財布を落としてしまった",
+          "oops, I didn't mean to"
+        ]
+      },
+      {
+        "label": "Both at once",
+        "cells": [
+          "食べる + 全部 (when it was someone else's)",
+          "ケーキを全部食べてしまった",
+          "finished it, and now I regret it"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "宿題は全部やってしまいました。",
+      "reading": "しゅくだいは ぜんぶ やってしまいました。",
+      "en": "I've finished all my homework.",
+      "note": "Completion: 全部 + やってしまった = all finished."
+    },
+    {
+      "ja": "電車の中に傘を忘れてしまった。",
+      "reading": "でんしゃの なかに かさを わすれてしまった。",
+      "en": "I (regrettably) left my umbrella on the train.",
+      "note": "Regret: 忘れる + てしまった = I unfortunately forgot."
+    },
+    {
+      "ja": "ケーキを一人で食べてしまった。",
+      "reading": "ケーキを ひとりで たべてしまった。",
+      "en": "I ate the whole cake by myself.",
+      "note": "Both: finished the whole cake, and probably should not have."
+    },
+    {
+      "ja": "電車の中で寝てしまって、駅を乗り過ごしてしまいました。",
+      "reading": "でんしゃの なかで ねてしまって、えきを のりすごして しまいました。",
+      "en": "I fell asleep on the train and missed my station.",
+      "note": "Two regrettable events, each with てしまう."
+    },
+    {
+      "ja": "あ、コップを割っちゃった。ごめん。",
+      "reading": "あ、コップを わっちゃった。ごめん。",
+      "en": "Oh no, I broke the glass. Sorry.",
+      "note": "ちゃった is the casual form of てしまった; the tone is apologetic."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ちゃう / 〜じゃう",
+      "difference": "Casual contractions of てしまう / でしまう with the same meaning.",
+      "id": "n4-grammar-87"
+    },
+    {
+      "pattern": "〜ておく",
+      "difference": "ておく is preparation for later. てしまう is completing something or doing it by mistake.",
+      "id": "n4-grammar-21"
+    },
+    {
+      "pattern": "〜終わる",
+      "difference": "食べ終わる neutrally says the eating ended. 食べてしまう adds 'completely' or 'oops'.",
+      "id": "n4-grammar-80"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "遅れてしまう、すみません。",
+      "right": "遅れてしまって、すみません。",
+      "why": "To connect to すみません you need the て-form: てしまって."
+    },
+    {
+      "wrong": "いい映画を見てしまった。(meaning 'I saw a good movie')",
+      "right": "いい映画を見た。",
+      "why": "てしまう adds completion or regret. A neutral, happy event does not take it unless you mean \"I finished the whole film\"."
+    },
+    {
+      "wrong": "宿題をしちゃいます。(in a job interview)",
+      "right": "宿題をしてしまいます。",
+      "why": "ちゃう / じゃう are casual. In formal settings and in writing, use てしまう."
+    }
+  ],
+  "usageNotes": [
+    "Very often てしまった is just a softener that admits fault: 忘れてしまいました sounds more apologetic than 忘れました.",
+    "With emotions, てしまう can mean \"couldn't help it\": 泣いてしまった (I ended up crying), 笑ってしまった (I couldn't help laughing).",
+    "Future: 早くやってしまおう = let's get it done and out of the way."
+  ],
+  "jlptTips": [
+    "Cues for regret: 忘れる, 壊す, なくす, 落とす, 遅れる + すみません / 困った. Cues for completion: 全部, もう, 一日で.",
+    "Watch the connection form: before すみません or a second clause, てしまって is required; before ください / ます the て-form of the main verb must precede しまう."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-22-1",
+    "q-n4-g-22-2",
+    "q-n4-g-22-3",
+    "q-n4-g-22-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-22-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

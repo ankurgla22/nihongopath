@@ -1,0 +1,146 @@
+{
+  "id": "n2-grammar-120",
+  "slug": "ni-sotte",
+  "level": "n2",
+  "order": 120,
+  "title": "〜に沿って / 〜に沿い / 〜に沿った",
+  "romaji": "ni sotte / ni soi / ni sotta",
+  "meaning": "along (a line); in line with (a policy, wishes, a plan)",
+  "simpleExplanation": "〜に沿って has two related meanings. Physically, \"along X\": 川に沿って歩く (walk along the river). Abstractly, \"in line with X\": following a policy, a manual, a customer's wishes, without departing from it. In both cases the idea is a line or guideline that the action keeps to.",
+  "whenUsed": "The physical sense is neutral and common in speech. The abstract sense (方針に沿って / ご希望に沿った) is formal business and administrative language. に沿い is the written variant; に沿う / に沿った modify nouns.",
+  "formation": [
+    "Noun (river, road, line) + に沿って (physical)",
+    "Noun (方針・計画・マニュアル・希望) + に沿って / に沿い (abstract)",
+    "Noun + に沿った / に沿う + Noun (ご希望に沿ったプラン)",
+    "Negative: ご期待に沿えず (unable to meet your expectations)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "columns": [
+      "Physical 〜に沿って",
+      "Abstract 〜に沿って"
+    ],
+    "rows": [
+      {
+        "label": "Meaning",
+        "cells": [
+          "along a line: river, road, coast",
+          "in line with a guideline: policy, plan, wishes"
+        ]
+      },
+      {
+        "label": "Typical nouns",
+        "cells": [
+          "川, 道, 海岸, 線路",
+          "方針, 計画, マニュアル, ご希望, テーマ"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "neutral",
+          "formal, business"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "線路に沿って歩く",
+          "計画に沿って進める"
+        ]
+      }
+    ],
+    "title": "One line, two readings"
+  },
+  "examples": [
+    {
+      "ja": "川に沿って桜の木が植えられている。",
+      "reading": "かわにそってさくらのきがうえられている。",
+      "en": "Cherry trees are planted along the river.",
+      "note": "Physical: along the river."
+    },
+    {
+      "ja": "会社の方針に沿って計画を立てた。",
+      "reading": "かいしゃのほうしんにそってけいかくをたてた。",
+      "en": "We made a plan in line with company policy.",
+      "note": "Abstract: keeping to company policy."
+    },
+    {
+      "ja": "ご希望に沿ったプランをご提案します。",
+      "reading": "ごきぼうにそったプランをごていあんします。",
+      "en": "We will propose a plan that meets your wishes.",
+      "note": "に沿った + noun: a plan that fits the customer's wishes; typical service language."
+    },
+    {
+      "ja": "マニュアルに沿って作業を進めてください。",
+      "reading": "マニュアルにそってさぎょうをすすめてください。",
+      "en": "Please proceed with the work according to the manual.",
+      "note": "Abstract sense in workplace instructions."
+    },
+    {
+      "ja": "ご期待に沿えず、申し訳ございません。",
+      "reading": "ごきたいにそえず、もうしわけございません。",
+      "en": "We apologize for not being able to meet your expectations.",
+      "note": "Set apology phrase: negative potential 沿えず."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に基づいて",
+      "difference": "\"Based on X\": X is the foundation or evidence for a decision (データに基づいて). に沿って keeps to a guideline without deviating.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜に従って",
+      "difference": "\"In accordance with (rules, instructions)\": obedience to an authority, or \"as X changes\".",
+      "id": "n2-grammar-113"
+    },
+    {
+      "pattern": "〜にこたえて",
+      "difference": "\"In response to (a request)\": fulfilling a demand rather than following a line.",
+      "id": "n2-grammar-110"
+    },
+    {
+      "pattern": "〜を通って",
+      "difference": "Physical \"through / via\"; に沿って stays parallel to the line rather than passing through."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "データに沿って結論を出した。",
+      "right": "データに基づいて結論を出した。",
+      "why": "Data is a foundation for reasoning, so に基づいて fits; に沿って needs a guideline to keep to."
+    },
+    {
+      "wrong": "ご希望に沿ってプラン",
+      "right": "ご希望に沿ったプラン",
+      "why": "Before a noun use に沿った or に沿う."
+    },
+    {
+      "wrong": "川を沿って歩く。",
+      "right": "川に沿って歩く。",
+      "why": "The particle is に, not を."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: ご希望に沿う, ご期待に沿えない, テーマに沿って, 方針に沿って.",
+    "In business, 〜に沿った形で (in a form that follows X) is a common softener.",
+    "The kanji 沿 also appears in 沿線 (along a railway line) and 沿岸 (coast)."
+  ],
+  "jlptTips": [
+    "When the noun is 方針, 計画, マニュアル, テーマ or 希望, に沿って is the likely answer; when it is データ, 事実, 法律, に基づいて is more likely.",
+    "Before a noun, choose に沿った or に沿う; に沿って before a noun is a common wrong option.",
+    "The apology phrase ご期待に沿えず appears in listening and reading; recognize it."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-120-1",
+    "q-n2-g-120-2",
+    "q-n2-g-120-3",
+    "q-n2-g-120-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-120-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

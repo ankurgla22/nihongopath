@@ -1,0 +1,118 @@
+{
+  "id": "n2-grammar-77",
+  "slug": "te-kara-de-nai-to",
+  "level": "n2",
+  "order": 77,
+  "title": "〜てからでないと / 〜てからでなければ",
+  "romaji": "te kara de nai to / te kara de nakereba",
+  "meaning": "unless ... first, not until",
+  "simpleExplanation": "〜てからでないと / 〜てからでなければ means \"unless… first, not until…\". The first action is a precondition; without it the main action is impossible or not allowed: you can't use it unless you register first; I can't answer until I've checked with my supervisor.",
+  "whenUsed": "Both registers; very common in rules, instructions and polite refusals. It follows the て-form and the main clause is negative or expresses impossibility (できない・お答えできません・〜てはいけない). でなければ is a touch more formal than でないと.",
+  "formation": [
+    "Vて + からでないと / からでなければ (+ negative / impossibility)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "会員登録をして",
+        "role": "required first step (Vて)"
+      },
+      {
+        "text": "からでないと",
+        "role": "unless that is done first…",
+        "highlight": true
+      },
+      {
+        "text": "利用できません",
+        "role": "negative / impossible main clause"
+      }
+    ],
+    "translation": "You cannot use it unless you register as a member first."
+  },
+  "examples": [
+    {
+      "ja": "会員登録をしてからでないと、利用できません。",
+      "reading": "かいいんとうろくをしてからでないと、りようできません。",
+      "en": "You cannot use it unless you register as a member first.",
+      "note": "Rule with できません."
+    },
+    {
+      "ja": "上司に確認してからでなければ、お答えできません。",
+      "reading": "じょうしにかくにんしてからでなければ、おこたえできません。",
+      "en": "I can't answer until I've checked with my supervisor.",
+      "note": "Polite refusal with でなければ."
+    },
+    {
+      "ja": "準備運動をしてからでないと、泳いではいけない。",
+      "reading": "じゅんびうんどうをしてからでないと、およいではいけない。",
+      "en": "You must not swim without warming up first.",
+      "note": "Prohibition with てはいけない."
+    },
+    {
+      "ja": "この件は、詳しく調べてからでないと何とも言えない。",
+      "reading": "このけんは、くわしくしらべてからでないとなんともいえない。",
+      "en": "I can't say anything about this matter until I've looked into it carefully.",
+      "note": "何とも言えない is a typical ending."
+    },
+    {
+      "ja": "許可を得てからでなければ、この部屋には入れない。",
+      "reading": "きょかをえてからでなければ、このへやにははいれない。",
+      "en": "You can't enter this room without getting permission first.",
+      "note": "Potential negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないことには",
+      "difference": "\"Unless\" with a Vない form; the main clause is also negative.",
+      "id": "n2-grammar-93"
+    },
+    {
+      "pattern": "〜てから",
+      "difference": "Plain \"after\"; no negative requirement."
+    },
+    {
+      "pattern": "〜て初めて",
+      "difference": "\"Only after doing X did Y happen\": positive realization, not a rule."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "登録してからでないと、利用できます。",
+      "right": "登録してからでないと、利用できません。",
+      "why": "The main clause must be negative."
+    },
+    {
+      "wrong": "登録したからでないと",
+      "right": "登録してからでないと",
+      "why": "Use the て-form + から."
+    },
+    {
+      "wrong": "登録してからないと",
+      "right": "登録してからでないと",
+      "why": "で is required."
+    }
+  ],
+  "usageNotes": [
+    "Typical endings: できない, 分からない, 言えない, てはいけない, お答えしかねます.",
+    "Polite form: 〜てからでないとお受けできません.",
+    "It is common in customer service and official procedures."
+  ],
+  "jlptTips": [
+    "Vて + blank + a negative main clause → からでないと / からでなければ.",
+    "Distractors: ないことには, てから, て初めて. A positive main clause rules out both からでないと and ないことには.",
+    "Check the verb form: て-form → からでないと; ない-form → ないことには."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-77-1",
+    "q-n2-g-77-2",
+    "q-n2-g-77-3",
+    "q-n2-g-77-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-77-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

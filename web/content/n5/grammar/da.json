@@ -1,0 +1,132 @@
+{
+  "id": "n5-grammar-2",
+  "slug": "da",
+  "level": "n5",
+  "order": 2,
+  "title": "だ (plain copula)",
+  "romaji": "da",
+  "meaning": "Plain/casual equivalent of です.",
+  "simpleExplanation": "だ is the plain (casual) version of です. Both mean \"is / am / are\". You use だ with close friends and family, in diaries, and inside longer sentences. One important rule: だ goes after nouns and な-adjectives only. An い-adjective is already a complete plain sentence by itself (高い = \"it is expensive\"), so you never say 高いだ.",
+  "whenUsed": "Casual conversation with friends, family and children; plain-style writing such as diaries and novels; and, most importantly for N5, inside sentences before と思う, でしょう, んです and から (学生だと思う \"I think he is a student\"). In everyday casual speech だ is often dropped: 学生。／ 静か。",
+  "formation": [
+    "Noun + だ  (先生だ)",
+    "な-adjective + だ  (静かだ)",
+    "い-adjective + (nothing)  (高い — never 高いだ)",
+    "Negative: じゃない ／ Past: だった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Polite vs plain \"is\"",
+    "columns": [
+      "Polite",
+      "Plain"
+    ],
+    "rows": [
+      {
+        "label": "Noun",
+        "cells": [
+          "学生です",
+          "学生だ"
+        ]
+      },
+      {
+        "label": "な-adjective",
+        "cells": [
+          "静かです",
+          "静かだ"
+        ]
+      },
+      {
+        "label": "い-adjective",
+        "cells": [
+          "高いです",
+          "高い (no だ)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "田中さんは先生だ。",
+      "reading": "たなかさんは せんせいだ。",
+      "en": "Mr Tanaka is a teacher.",
+      "note": "Noun + だ: the casual way to say 先生です."
+    },
+    {
+      "ja": "今日は休みだ。",
+      "reading": "きょうは やすみだ。",
+      "en": "Today is a day off.",
+      "note": "休み (day off) is a noun, so it takes だ."
+    },
+    {
+      "ja": "この町は静かだ。",
+      "reading": "この まちは しずかだ。",
+      "en": "This town is quiet.",
+      "note": "静か is a な-adjective; it takes だ just like a noun."
+    },
+    {
+      "ja": "あの人は田中さんだと思います。",
+      "reading": "あの ひとは たなかさんだと おもいます。",
+      "en": "I think that person is Mr Tanaka.",
+      "note": "Inside と思います you must use the plain だ, even in a polite sentence."
+    },
+    {
+      "ja": "今日は暑い。",
+      "reading": "きょうは あつい。",
+      "en": "It's hot today.",
+      "note": "い-adjective: the plain sentence ends with い and nothing else. 暑いだ is wrong."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n5-grammar-1",
+      "pattern": "です",
+      "difference": "The polite version. Same meaning; です is used with people you are not close to."
+    },
+    {
+      "id": "n5-grammar-3",
+      "pattern": "じゃない",
+      "difference": "The plain negative: \"is not\"."
+    },
+    {
+      "id": "n5-grammar-48",
+      "pattern": "と思う",
+      "difference": "Not a copula, but the most common place where N5 forces you to use だ: 学生だと思います."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この店は高いだ。",
+      "right": "この店は高い。",
+      "why": "い-adjectives never take だ. The い ending already makes a complete plain sentence."
+    },
+    {
+      "wrong": "田中さんは学生と思います。",
+      "right": "田中さんは学生だと思います。",
+      "why": "Before と思う a noun needs だ. Without it the sentence sounds broken to a native speaker."
+    },
+    {
+      "wrong": "先生ですだ。",
+      "right": "先生です。／ 先生だ。",
+      "why": "です and だ are two versions of the same word; choose one."
+    }
+  ],
+  "usageNotes": [
+    "In casual speech だ is often dropped entirely (学生。/ 静か。). You must know the plain forms because they appear before と思う, でしょう, んです, and inside relative clauses."
+  ],
+  "jlptTips": [
+    "N5 tests だ mostly indirectly: 〜だと思います, 〜だから, 〜でしょう (no だ!). Learn which patterns need だ and which forbid it.",
+    "If an option adds だ after an い-adjective (おいしいだ, 高いだと思う), it is always wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n5-g-2-1",
+    "q-n5-g-2-2",
+    "q-n5-g-2-3",
+    "q-n5-g-2-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n5-g-2-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

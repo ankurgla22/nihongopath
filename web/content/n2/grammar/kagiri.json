@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-15",
+  "slug": "kagiri",
+  "level": "n2",
+  "order": 15,
+  "title": "〜限り",
+  "romaji": "kagiri",
+  "meaning": "as long as; to the extent of",
+  "simpleExplanation": "〜限り means \"as long as (a condition holds)\". While the condition in the first clause is true, the second clause is guaranteed: as long as I live, I will protect you; as long as you don't give up, there is a chance. It also appears in できる限り (\"as much as possible\").",
+  "whenUsed": "Both registers, slightly formal. The condition is a state (Vている, Vない, N である, Aな + な/である). The second clause is a promise, guarantee or general truth, not a one-time past event.",
+  "formation": [
+    "Vる/Vている/Vない + 限り / N + である + 限り / Aな + な/である + 限り"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "諦めない",
+        "role": "condition (state)"
+      },
+      {
+        "text": "限り",
+        "role": "as long as…",
+        "highlight": true
+      },
+      {
+        "text": "チャンスはある",
+        "role": "guaranteed result"
+      }
+    ],
+    "translation": "As long as you don't give up, there's a chance."
+  },
+  "examples": [
+    {
+      "ja": "私が生きている限り、あなたを守ります。",
+      "reading": "わたしがいきているかぎり、あなたをまもります。",
+      "en": "As long as I live, I will protect you.",
+      "note": "Vている + 限り with a promise."
+    },
+    {
+      "ja": "諦めない限り、チャンスはある。",
+      "reading": "あきらめないかぎり、チャンスはある。",
+      "en": "As long as you don't give up, there's a chance.",
+      "note": "Vない + 限り: the negative condition."
+    },
+    {
+      "ja": "できる限りのことはしました。",
+      "reading": "できるかぎりのことはしました。",
+      "en": "I did everything I could.",
+      "note": "できる限り = to the extent possible."
+    },
+    {
+      "ja": "学生である限り、学割が使える。",
+      "reading": "がくせいであるかぎり、がくわりがつかえる。",
+      "en": "As long as you are a student, you can use the student discount.",
+      "note": "N + である + 限り."
+    },
+    {
+      "ja": "彼が謝らない限り、私は許すつもりはない。",
+      "reading": "かれがあやまらないかぎり、わたしはゆるすつもりはない。",
+      "en": "Unless he apologizes, I have no intention of forgiving him.",
+      "note": "Vない + 限り often translates as \"unless\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜限りでは",
+      "difference": "\"As far as (I know)\": limits the information source, not a condition.",
+      "id": "n2-grammar-16"
+    },
+    {
+      "pattern": "〜ないことには",
+      "difference": "\"Unless\" with a negative main clause; 限り allows positive results too.",
+      "id": "n2-grammar-93"
+    },
+    {
+      "pattern": "〜に限って",
+      "difference": "Different pattern: \"of all…\".",
+      "id": "n2-grammar-17"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "学生の限り、学割が使える。",
+      "right": "学生である限り、学割が使える。",
+      "why": "Nouns take である before 限り in this meaning; N の限り belongs to set phrases like 力の限り."
+    },
+    {
+      "wrong": "雨が降る限り、試合は中止になった。",
+      "right": "雨が降っている限り、試合は再開できない。",
+      "why": "The condition should be a continuing state and the result a general guarantee, not a completed past event."
+    },
+    {
+      "wrong": "できるの限り手伝います。",
+      "right": "できる限り手伝います。",
+      "why": "Verbs attach directly to 限り."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: できる限り, 力の限り, 命の限り, 知る限り.",
+    "Vない限り is close to \"unless\" and is the most tested form.",
+    "限りは with は adds emphasis: 私がいる限りは大丈夫だ."
+  ],
+  "jlptTips": [
+    "A condition in the ている / ない form plus a guarantee → 限り. 限りでは needs 知る/見る/聞く.",
+    "Distractors: 限りでは, に限って, に限らず. Only 限り takes a full clause condition with a guaranteed result.",
+    "Vない + 限り with a negative main clause is a frequent 文法形式 item; do not confuse with ないことには."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-15-1",
+    "q-n2-g-15-2",
+    "q-n2-g-15-3",
+    "q-n2-g-15-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-15-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

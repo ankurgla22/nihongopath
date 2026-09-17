@@ -1,0 +1,130 @@
+{
+  "id": "n3-grammar-26",
+  "slug": "ni-kakete",
+  "level": "n3",
+  "order": 26,
+  "title": "〜にかけて",
+  "romaji": "ni kakete",
+  "meaning": "From… through… / when it comes to…",
+  "simpleExplanation": "〜から〜にかけて describes a range of time or place with soft edges: 今夜から明日の朝にかけて大雨 = heavy rain from tonight through tomorrow morning. Unlike 〜から〜まで, the endpoints are not exact; the event spreads over the range. A second use, 〜にかけては, means \"when it comes to (a skill)\": 料理にかけては彼女が一番だ.",
+  "whenUsed": "Weather reports, news, descriptions of regions and periods. 〜にかけては appears in praise of someone's ability.",
+  "formation": [
+    "Noun (time/place) + から + Noun + にかけて",
+    "Noun + にかけて (without から, less common)",
+    "Noun (field/skill) + にかけては + praise"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "から〜まで vs から〜にかけて",
+    "columns": [
+      "Edges",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜から〜まで",
+        "cells": [
+          "exact start and end",
+          "三時から五時まで会議だ"
+        ]
+      },
+      {
+        "label": "〜から〜にかけて",
+        "cells": [
+          "vague, spread over",
+          "夕方から夜にかけて雨が降る"
+        ]
+      },
+      {
+        "label": "〜にかけては",
+        "cells": [
+          "field of skill",
+          "計算にかけては彼が一番だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今夜から明日の朝にかけて、大雨が降るでしょう。",
+      "reading": "こんやからあしたのあさにかけて、おおあめがふるでしょう。",
+      "en": "From tonight through tomorrow morning, there will be heavy rain.",
+      "note": "Time range with vague edges in a forecast."
+    },
+    {
+      "ja": "関東から東北にかけて地震があった。",
+      "reading": "かんとうからとうほくにかけてじしんがあった。",
+      "en": "There was an earthquake from Kanto through Tohoku.",
+      "note": "Place range: the earthquake spread across regions."
+    },
+    {
+      "ja": "料理にかけては、彼女の右に出る者はいない。",
+      "reading": "りょうりにかけては、かのじょのみぎにでるものはいない。",
+      "en": "When it comes to cooking, nobody beats her.",
+      "note": "にかけては: praising skill in a field."
+    },
+    {
+      "ja": "三月の終わりから四月の初めにかけて、桜が満開になる。",
+      "reading": "さんがつのおわりからしがつのはじめにかけて、さくらがまんかいになる。",
+      "en": "From the end of March through early April, the cherry blossoms are in full bloom.",
+      "note": "Natural, gradual range."
+    },
+    {
+      "ja": "スピードにかけては、彼に勝てる選手はいない。",
+      "reading": "スピードにかけては、かれにかてるせんしゅはいない。",
+      "en": "When it comes to speed, no athlete can beat him.",
+      "note": "にかけては + \"nobody beats\" is the standard praise pattern."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜から〜まで",
+      "difference": "Exact endpoints. Use for schedules and precise times."
+    },
+    {
+      "pattern": "〜にわたって (N2)",
+      "difference": "Emphasizes the whole span (三日間にわたって). にかけて emphasizes the two edges."
+    },
+    {
+      "pattern": "〜に関しては",
+      "difference": "\"As for\" a topic. にかけては is specifically about ability or skill."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三時から五時にかけて会議があります。(exact schedule)",
+      "right": "三時から五時まで会議があります。",
+      "why": "A scheduled meeting has exact times; にかけて is for events spread vaguely over a range."
+    },
+    {
+      "wrong": "今夜にかけて雨が降る。(without a starting point)",
+      "right": "今夜から明日にかけて雨が降る。",
+      "why": "にかけて usually needs 〜から to mark the start of the range."
+    },
+    {
+      "wrong": "料理にかけて、彼女は上手だ。",
+      "right": "料理にかけては、彼女の右に出る者はいない。",
+      "why": "The skill meaning uses にかけては with は and a strong praise."
+    }
+  ],
+  "usageNotes": [
+    "〜から〜まで gives precise endpoints; 〜から〜にかけて is vague and gradual, so it does not take exact-time expressions like 3時から5時にかけて with precise meaning.",
+    "Typical pairs: 夕方から夜にかけて, 関東から東北にかけて, 週末から来週にかけて."
+  ],
+  "jlptTips": [
+    "〜から + blank + a spread-out event (rain, blossoms, damage) = にかけて. A precise event = まで.",
+    "Skill praise (一番だ, 誰にも負けない, 右に出る者はいない) after the blank = にかけては.",
+    "Distractors: まで, にわたって, において. Check for a starting から and a gradual event."
+  ],
+  "practiceQuestionIds": [
+    "q-n3-g-26-1",
+    "q-n3-g-26-2",
+    "q-n3-g-26-3",
+    "q-n3-g-26-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n3-g-26-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

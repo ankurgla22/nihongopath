@@ -1,0 +1,141 @@
+{
+  "id": "n4-grammar-98",
+  "slug": "koto-ga-dekiru",
+  "level": "n4",
+  "order": 98,
+  "title": "〜ことができる \"can / be able to\"",
+  "romaji": "koto ga dekiru",
+  "meaning": "Ability or possibility, equivalent to the potential form but more formal/explicit.",
+  "simpleExplanation": "V-dictionary + ことができる means \"can / be able to\": 運転することができます = I can drive. It says the same thing as the potential form (運転できます) but is longer and sounds more formal or careful. It is the form you see on signs and in announcements (写真を撮ることができません = you cannot take photos) and it is handy when a verb's potential form is awkward. With a noun, simply N + ができる: 日本語ができる.",
+  "whenUsed": "Written rules, notices, formal speech, presentations, and any time you want to be clear and a little formal. In casual conversation the potential form is more common. Beginners also use ことができる to avoid conjugation errors.",
+  "formation": [
+    "V-dictionary + ことができる: 話すことができる",
+    "Polite: ことができます; negative: ことができません; past: ことができました",
+    "N + ができる: ピアノができる, 日本語ができる",
+    "The verb before こと stays in the dictionary form (never potential or past)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Potential form vs ことができる",
+    "columns": [
+      "Potential form",
+      "〜ことができる"
+    ],
+    "rows": [
+      {
+        "label": "Form",
+        "cells": [
+          "話せる / 食べられる / できる",
+          "話すことができる / 食べることができる / することができる"
+        ]
+      },
+      {
+        "label": "Register",
+        "cells": [
+          "everyday, casual and polite",
+          "formal, written, announcements"
+        ]
+      },
+      {
+        "label": "Object particle",
+        "cells": [
+          "が (or を)",
+          "を (before the verb)"
+        ]
+      },
+      {
+        "label": "Example",
+        "cells": [
+          "ここで切符が買えます",
+          "ここで切符を買うことができます"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は車を運転することができます。",
+      "reading": "わたしは くるまを うんてんすることが できます。",
+      "en": "I can drive a car.",
+      "note": "Formal statement of ability; 運転できます would be the everyday version."
+    },
+    {
+      "ja": "ここでは写真を撮ることができません。",
+      "reading": "ここでは しゃしんを とることが できません。",
+      "en": "You cannot take photos here.",
+      "note": "A rule on a sign: ことができません."
+    },
+    {
+      "ja": "彼は三か国語を話すことができる。",
+      "reading": "かれは さんかこくごを はなすことが できる。",
+      "en": "He can speak three languages.",
+      "note": "Plain form ことができる in writing."
+    },
+    {
+      "ja": "このカードがあれば、図書館の本を十冊まで借りることができます。",
+      "reading": "このカードが あれば、としょかんの ほんを じゅっさつまで かりることが できます。",
+      "en": "With this card you can borrow up to ten books from the library.",
+      "note": "A rule explained formally; 借りられます would be the casual equivalent."
+    },
+    {
+      "ja": "電車が止まって、会議に出ることができませんでした。",
+      "reading": "でんしゃが とまって、かいぎに でることが できませんでした。",
+      "en": "The trains stopped and I was unable to attend the meeting.",
+      "note": "Past negative: ことができませんでした."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "Potential form",
+      "difference": "Same meaning, shorter and more everyday. The object usually takes が with the potential (漢字が読める) but を with ことができる (漢字を読むことができる).",
+      "id": "n4-grammar-1"
+    },
+    {
+      "pattern": "〜たことがある",
+      "difference": "Looks similar but means \"have done before\" (experience). ことができる is ability.",
+      "id": "n4-grammar-26"
+    },
+    {
+      "pattern": "〜ようになる",
+      "difference": "できるようになった / 〜ことができるようになった = became able to (a change). ことができる alone is a present ability.",
+      "id": "n4-grammar-14"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は日本語を話せることができます。",
+      "right": "私は日本語を話すことができます。",
+      "why": "The verb before こと must be the dictionary form; adding the potential doubles the meaning."
+    },
+    {
+      "wrong": "昨日は仕事に行ったことができませんでした。",
+      "right": "昨日は仕事に行くことができませんでした。",
+      "why": "Past tense goes on できる, not on the verb before こと."
+    },
+    {
+      "wrong": "私はピアノを弾くことができるがあります。",
+      "right": "私はピアノを弾くことができます。",
+      "why": "ことができる is complete in itself; do not add ある."
+    }
+  ],
+  "usageNotes": [
+    "Signs and announcements prefer the negative: ここに車を止めることはできません (は often replaces が in negatives).",
+    "For nouns, N + ができる is the normal form: 英語ができます; there is no 英語することができる.",
+    "ことができる is safe with verbs whose potential is rare or awkward, and with long verb phrases."
+  ],
+  "jlptTips": [
+    "If the blank is followed by ことができます, choose the dictionary form. Reject potential, past and ます-stem options.",
+    "When ことができる itself is an option among 〜たことがある and 〜ことがある, check the meaning: ability (can) vs experience (have done) vs occasional (sometimes)."
+  ],
+  "practiceQuestionIds": [
+    "q-n4-g-98-1",
+    "q-n4-g-98-2",
+    "q-n4-g-98-3",
+    "q-n4-g-98-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n4-g-98-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

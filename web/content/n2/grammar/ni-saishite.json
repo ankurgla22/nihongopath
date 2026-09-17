@@ -1,0 +1,120 @@
+{
+  "id": "n2-grammar-111",
+  "slug": "ni-saishite",
+  "level": "n2",
+  "order": 111,
+  "title": "〜に際して / 〜に際し",
+  "romaji": "ni saishite / ni saishi",
+  "meaning": "on the occasion of, at the time of (a special event)",
+  "simpleExplanation": "〜に際して means \"on the occasion of X\" or \"when doing X\", where X is a special, one-off event: signing a contract, opening a ceremony, using a service for the first time. It marks the moment of a formal beginning or undertaking, not a routine. The main clause often states a precaution or a greeting.",
+  "whenUsed": "Ceremonial speech, notices, manuals, business letters (ご利用に際して / 開会に際し). It is too stiff for everyday events (朝ごはんを食べるに際して is wrong). In conversation people use 〜とき or 〜前に.",
+  "formation": [
+    "Noun (event) + に際して / に際し",
+    "Verb (dictionary form) + に際して (契約するに際して)",
+    "Noun + に際しての + Noun (ご利用に際しての注意)",
+    "Typical events: 開会・卒業・入学・出発・契約・利用・申し込み"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How special must the occasion be?",
+    "items": [
+      {
+        "label": "〜とき",
+        "description": "any time, routine or special: 食べるとき"
+      },
+      {
+        "label": "〜にあたって",
+        "description": "at an important starting point; formal, slightly softer"
+      },
+      {
+        "label": "〜に際して",
+        "description": "on the formal occasion of; ceremonies, contracts, official use"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ご利用に際して、以下の点にご注意ください。",
+      "reading": "ごりようにさいして、いかのてんにごちゅういください。",
+      "en": "When using this service, please note the following points.",
+      "note": "Manual language: precautions when using a service."
+    },
+    {
+      "ja": "開会に際し、一言ご挨拶申し上げます。",
+      "reading": "かいかいにさいし、ひとことごあいさつもうしあげます。",
+      "en": "On the occasion of the opening, allow me to say a few words.",
+      "note": "Ceremonial opening remarks; に際し is the written or spoken-formal variant."
+    },
+    {
+      "ja": "契約に際しての注意事項を確認した。",
+      "reading": "けいやくにさいしてのちゅういじこうをかくにんした。",
+      "en": "I checked the points to note when signing the contract.",
+      "note": "に際しての + noun: points to note when signing a contract."
+    },
+    {
+      "ja": "留学に際して、大使館でビザの手続きをした。",
+      "reading": "りゅうがくにさいして、たいしかんでビザのてつづきをした。",
+      "en": "When going to study abroad, I did the visa procedures at the embassy.",
+      "note": "A major life event; formal but natural in written self-reports."
+    },
+    {
+      "ja": "新製品を発売するに際し、記者会見が開かれた。",
+      "reading": "しんせいひんをはつばいするにさいし、きしゃかいけんがひらかれた。",
+      "en": "A press conference was held on the occasion of launching the new product.",
+      "note": "Dictionary-form verb + に際し in news style."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にあたって / 〜にあたり",
+      "difference": "Very close; both mark a formal occasion. にあたって is a bit softer and also used for personal resolutions (新年にあたって)."
+    },
+    {
+      "pattern": "〜に先立って",
+      "difference": "\"Prior to\": the action happens before the event, not at the time of it.",
+      "id": "n2-grammar-112"
+    },
+    {
+      "pattern": "〜とき",
+      "difference": "Neutral and usable for anything, routine or special."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "朝ごはんを食べるに際して、手を洗う。",
+      "right": "朝ごはんを食べるとき、手を洗う。",
+      "why": "に際して is for special occasions; a daily routine sounds absurd with it."
+    },
+    {
+      "wrong": "卒業したに際して、先生に感謝を伝えた。",
+      "right": "卒業に際して、先生に感謝を伝えた。",
+      "why": "Use the noun or the dictionary form of the verb, never the past form."
+    },
+    {
+      "wrong": "ご利用に際して注意 (as a heading)",
+      "right": "ご利用に際しての注意",
+      "why": "Before a noun, add の: に際しての."
+    }
+  ],
+  "usageNotes": [
+    "The event is a beginning or a formal moment; it is not used for the end of something.",
+    "Common follow-ups: 注意事項, 手続き, ご挨拶, 準備.",
+    "Kanji 際 also appears in 際に (〜の際に), a related formal expression meaning \"at the time of\"."
+  ],
+  "jlptTips": [
+    "When the noun is a formal event (開会, 契約, 利用, 入学) and the register is stiff, choose に際して over とき.",
+    "Watch the verb form: dictionary form only (発売するに際して), not past.",
+    "Distractors often include に先立って (before) and に伴って (along with). Ask: at the moment of the event, before it, or as a consequence of it?"
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-111-1",
+    "q-n2-g-111-2",
+    "q-n2-g-111-3",
+    "q-n2-g-111-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-111-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}
