@@ -1,0 +1,98 @@
+{
+  "id": "n2-listening-18",
+  "slug": "18-mittsu-no-arubaito",
+  "level": "n2",
+  "order": 18,
+  "kind": "integrated",
+  "title": "三つのアルバイト",
+  "setting": "学生二人が、アルバイトの求人を見ながら話しています。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "ねえ、このアルバイト三つ、どれがいいと思う？"
+    },
+    {
+      "speaker": "男",
+      "line": "どれどれ。一つ目はコンビニ。時給は千百円で、家から歩いて五分。でも、深夜のシフトが多いって書いてある。"
+    },
+    {
+      "speaker": "女",
+      "line": "深夜はちょっと。授業に出られなくなるし。"
+    },
+    {
+      "speaker": "男",
+      "line": "二つ目は塾の先生。時給は千八百円で高いけど、週三日は必ず入らないといけないんだって。場所は駅の向こうで、自転車で二十分。"
+    },
+    {
+      "speaker": "女",
+      "line": "週三日かあ。ゼミが忙しくなると厳しいな。"
+    },
+    {
+      "speaker": "男",
+      "line": "三つ目はカフェ。時給は千二百円。週一日からOKで、場所は大学の隣。ただし、土日どっちかは必ず入ること。"
+    },
+    {
+      "speaker": "女",
+      "line": "土日か……。うーん、でも土曜なら大丈夫かな。時給は真ん中だけど、通うのが楽だし、週一からでいいっていうのがいいね。"
+    },
+    {
+      "speaker": "男",
+      "line": "僕なら、お金のことを考えて塾にするけどな。"
+    },
+    {
+      "speaker": "女",
+      "line": "私は勉強と両立できるほうがいいから、こっちにする。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "求人",
+      "reading": "きゅうじん",
+      "meaning": "job opening"
+    },
+    {
+      "word": "時給",
+      "reading": "じきゅう",
+      "meaning": "hourly wage"
+    },
+    {
+      "word": "深夜",
+      "reading": "しんや",
+      "meaning": "late night"
+    },
+    {
+      "word": "塾",
+      "reading": "じゅく",
+      "meaning": "cram school"
+    },
+    {
+      "word": "厳しい",
+      "reading": "きびしい",
+      "meaning": "tough, hard"
+    },
+    {
+      "word": "ただし",
+      "reading": "ただし",
+      "meaning": "however (condition)"
+    },
+    {
+      "word": "真ん中",
+      "reading": "まんなか",
+      "meaning": "the middle"
+    },
+    {
+      "word": "通う",
+      "reading": "かよう",
+      "meaning": "to commute"
+    },
+    {
+      "word": "両立",
+      "reading": "りょうりつ",
+      "meaning": "balancing (two things)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-18-1",
+    "q-n2-l-18-2"
+  ]
+}

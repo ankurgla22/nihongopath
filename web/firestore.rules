@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn() { return request.auth != null; }
+    function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+
+    // All personal learning data lives under users/{uid}. Only that user may read or write it.
+    match /users/{uid} {
+      allow read: if isOwner(uid);
+      allow create, update: if isOwner(uid) && request.resource.data.uid == uid;
+      allow delete: if false;
+
+      match /progress/{itemId} {
+        allow read, write: if isOwner(uid);
+      }
+      match /dailyProgress/{date} {
+        allow read, write: if isOwner(uid);
+      }
+      match /studySessions/{sessionId} {
+        allow read, create, update: if isOwner(uid);
+        allow delete: if false;
+      }
+      match /quizResults/{resultId} {
+        allow read, create: if isOwner(uid);
+        allow update, delete: if false;
+      }
+      match /examResults/{resultId} {
+        allow read, create: if isOwner(uid);
+        allow update, delete: if false;
+      }
+      match /reviewItems/{itemId} {
+        allow read, write: if isOwner(uid);
+      }
+      match /saved/{itemId} {
+        allow read, write: if isOwner(uid);
+      }
+    }
+
+    // Curriculum content is served from the Next.js app, not Firestore. Deny everything else.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

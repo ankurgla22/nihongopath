@@ -1,0 +1,135 @@
+{
+  "id": "n2-grammar-52",
+  "slug": "zaru-o-enai",
+  "level": "n2",
+  "order": 52,
+  "title": "〜ざるを得ない",
+  "romaji": "zaru o enai",
+  "meaning": "have no choice but to… / cannot help but…",
+  "simpleExplanation": "〜ざるを得ない means \"I have no choice but to do it\". The situation forces you; you would rather not, but there is no other option. The feeling is reluctant acceptance. It is a formal, slightly literary pattern built from the old negative ざる plus 得ない (cannot avoid).",
+  "whenUsed": "Formal writing, news, business e-mail, essays, and careful speech. In everyday conversation people say 〜しかない or 〜するしかない instead. Typical situations: cancelling plans because of weather, accepting an unpleasant conclusion, admitting something is true.",
+  "formation": [
+    "Verb (ない form, drop ない) + ざるを得ない: 行かない → 行かざるを得ない",
+    "する → せざるを得ない (irregular!)",
+    "来る → 来（こ）ざるを得ない",
+    "Polite: 〜ざるを得ません"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "ない-stem",
+    "rootLabel": "verb ない-form minus ない",
+    "branches": [
+      {
+        "suffix": "ざるを得ない",
+        "result": "行かざるを得ない",
+        "label": "行く → 行か + ざるを得ない (have no choice but to go)"
+      },
+      {
+        "suffix": "ざるを得ない",
+        "result": "認めざるを得ない",
+        "label": "認める → 認め + ざるを得ない (have to admit)"
+      },
+      {
+        "suffix": "ざるを得ない",
+        "result": "せざるを得ない",
+        "label": "する → せ + ざるを得ない (irregular: NOT しざる)"
+      },
+      {
+        "suffix": "ざるを得ない",
+        "result": "来ざるを得ない",
+        "label": "来る → 来(こ) + ざるを得ない"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "台風のため、旅行は中止せざるを得なかった。",
+      "reading": "たいふうのため、りょこうはちゅうしせざるをえなかった。",
+      "en": "Because of the typhoon, we had no choice but to cancel the trip.",
+      "note": "する → せざるを得ない."
+    },
+    {
+      "ja": "上司の命令なので、従わざるを得ない。",
+      "reading": "じょうしのめいれいなので、したがわざるをえない。",
+      "en": "It's my boss's order, so I have no choice but to comply."
+    },
+    {
+      "ja": "証拠を見せられて、彼も自分の間違いを認めざるを得なかった。",
+      "reading": "しょうこをみせられて、かれもじぶんのまちがいをみとめざるをえなかった。",
+      "en": "Shown the evidence, even he had to admit his mistake."
+    },
+    {
+      "ja": "この不景気では、値上げせざるを得ないだろう。",
+      "reading": "このふけいきでは、ねあげせざるをえないだろう。",
+      "en": "In this recession, we'll probably be forced to raise prices."
+    },
+    {
+      "ja": "彼の説明は不十分だと言わざるを得ない。",
+      "reading": "かれのせつめいはふじゅうぶんだといわざるをえない。",
+      "en": "I have to say his explanation is insufficient.",
+      "note": "言わざるを得ない is a set phrase for reluctant criticism."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないわけにはいかない",
+      "difference": "Also \"must\", but the pressure comes from duty, promises, or social expectations. ざるを得ない is about circumstances leaving no alternative.",
+      "id": "n2-grammar-165"
+    },
+    {
+      "pattern": "〜しかない",
+      "difference": "Same idea in plain, everyday language: 行くしかない.",
+      "id": "n2-grammar-53"
+    },
+    {
+      "pattern": "〜ほかない / 〜よりほかない",
+      "difference": "Formal \"there is nothing else to do but\". Very close in meaning and register.",
+      "id": "n2-grammar-146"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "\"Cannot help doing\" because of an inner urge or emotion (laughing, crying), not because of circumstances.",
+      "id": "n2-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勉強しざるを得ない。",
+      "right": "勉強せざるを得ない。",
+      "why": "する is irregular here: the form is せざるを得ない, never しざる."
+    },
+    {
+      "wrong": "行くざるを得ない。",
+      "right": "行かざるを得ない。",
+      "why": "ざる attaches to the ない-stem (行か), not the dictionary form."
+    },
+    {
+      "wrong": "この映画は面白くて、笑わざるを得ない。",
+      "right": "この映画は面白くて、笑わずにはいられない。",
+      "why": "Being unable to hold back laughter is an inner urge → ずにはいられない. ざるを得ない implies being forced by circumstances, which sounds odd for laughing."
+    }
+  ],
+  "usageNotes": [
+    "The reason is usually given first with 〜ため / 〜ので / 〜では / 〜以上, then ざるを得ない.",
+    "It often softens criticism: 〜と言わざるを得ない (\"I'm afraid I have to say that…\").",
+    "Kanji spelling 得ない is standard; the reading is えない. Do not confuse with 得る (うる/える) meaning \"possible\"."
+  ],
+  "jlptTips": [
+    "The irregular せざるを得ない is a favourite exam item. If the verb is する and an option shows しざる, it is a distractor.",
+    "In 文法形式の判断 it is often contrasted with ずにはいられない: circumstances → ざるを得ない; emotion → ずにはいられない.",
+    "In 並べ替え, keep the three chunks (stem / ざるを / 得ない) together and attach the reason clause (〜ため) before them."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-52-1",
+    "q-n2-g-52-2",
+    "q-n2-g-52-3",
+    "q-n2-g-52-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-52-5",
+    "q-n2-g-52-6",
+    "q-n2-g-52-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

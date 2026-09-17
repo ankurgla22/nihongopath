@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-144",
+  "slug": "hanmen",
+  "level": "n2",
+  "order": 144,
+  "title": "〜反面 / 〜半面",
+  "romaji": "hanmen",
+  "meaning": "on the other side… / while (having a good side), it also has a bad side",
+  "simpleExplanation": "〜反面 means \"on the flip side\". You describe one side of something (usually the good side), then 反面 introduces the opposite side (usually a drawback). Both sides belong to the same thing: the same job, the same city, the same medicine. It is the natural way to say \"X has this advantage, but also this disadvantage\".",
+  "whenUsed": "Written and formal spoken Japanese; essays, reviews, presentations. Both spellings 反面 and 半面 are seen; 反面 is more common on the JLPT. Typical uses: weighing pros and cons, describing personality (優しい反面、気が弱い).",
+  "formation": [
+    "Verb / い-adjective (plain form) + 反面",
+    "な-adjective + な / である + 反面",
+    "Noun + である + 反面",
+    "Second clause: the opposite side, usually a drawback (or a merit if the first side was negative)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この仕事は給料がいい",
+        "role": "one side (merit)"
+      },
+      {
+        "text": "反面",
+        "role": "on the flip side",
+        "highlight": true
+      },
+      {
+        "text": "残業がとても多い",
+        "role": "the opposite side (drawback)"
+      }
+    ],
+    "translation": "This job pays well, but on the other hand there is a lot of overtime."
+  },
+  "examples": [
+    {
+      "ja": "この仕事は給料がいい反面、残業がとても多い。",
+      "reading": "このしごとはきゅうりょうがいいはんめん、ざんぎょうがとてもおおい。",
+      "en": "This job pays well, but on the other hand there is a lot of overtime."
+    },
+    {
+      "ja": "彼は優しい反面、気が弱いところがある。",
+      "reading": "かれはやさしいはんめん、きがよわいところがある。",
+      "en": "He is kind, but he can also be timid."
+    },
+    {
+      "ja": "都会は便利な反面、人間関係が薄いと言われる。",
+      "reading": "とかいはべんりなはんめん、にんげんかんけいがうすいといわれる。",
+      "en": "Cities are convenient, but human relationships are said to be shallow."
+    },
+    {
+      "ja": "この薬はよく効く反面、副作用が心配だ。",
+      "reading": "このくすりはよくきくはんめん、ふくさようがしんぱいだ。",
+      "en": "This medicine works well, but the side effects are a concern."
+    },
+    {
+      "ja": "一人暮らしは自由である反面、寂しいときもある。",
+      "reading": "ひとりぐらしはじゆうであるはんめん、さびしいときもある。",
+      "en": "Living alone is free, but on the flip side there are lonely moments.",
+      "note": "な-adjective + である + 反面."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜一方(で)",
+      "difference": "Also \"on the other hand\", but can describe two parallel activities or two different subjects. 反面 is strictly two sides of one thing.",
+      "id": "n2-grammar-5"
+    },
+    {
+      "pattern": "〜かわりに",
+      "difference": "\"Instead of / in exchange for\": a trade-off with a sense of compensation.",
+      "id": "n2-grammar-34"
+    },
+    {
+      "pattern": "〜ものの",
+      "difference": "\"Although\": the expected result didn't follow. 反面 is a balanced pros-and-cons statement.",
+      "id": "n2-grammar-159"
+    },
+    {
+      "pattern": "〜ながら(も)",
+      "difference": "\"Although\", simultaneous contradictory state of one subject.",
+      "id": "n2-grammar-96"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼女は会社で働く反面、家で子どもを育てている。",
+      "right": "彼女は会社で働く一方、家で子どもを育てている。",
+      "why": "Two parallel activities are not opposite sides; use 一方. 反面 needs a merit/demerit contrast."
+    },
+    {
+      "wrong": "この町は静か反面、不便だ。",
+      "right": "この町は静かな反面、不便だ。",
+      "why": "静か is a な-adjective; な is needed before 反面."
+    },
+    {
+      "wrong": "値段が高い反面、質もよくない。",
+      "right": "値段が高いばかりか、質もよくない。",
+      "why": "Both are drawbacks, pointing the same way. 反面 needs opposite sides; same-direction addition is ばかりか."
+    }
+  ],
+  "usageNotes": [
+    "The first clause is often the good side, the second the bad side, but the reverse is fine: 給料は安い反面、休みが多い.",
+    "The same subject continues through both clauses; that is the key difference from 一方 and に対して.",
+    "反面 does not take で or に after it."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, look for a merit and a demerit of the same thing. If the two clauses are parallel activities or different subjects, choose 一方 instead.",
+    "Distractors: 一方, かわりに, ものの, どころか. If both clauses point the same way, none of 反面/一方 fits; look for ばかりか.",
+    "Attachment: な-adjective + な + 反面, noun + である + 反面. Options such as 便利反面 are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-144-1",
+    "q-n2-g-144-2",
+    "q-n2-g-144-3",
+    "q-n2-g-144-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-144-5",
+    "q-n2-g-144-6",
+    "q-n2-g-144-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

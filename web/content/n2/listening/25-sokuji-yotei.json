@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-25",
+  "slug": "25-sokuji-yotei",
+  "level": "n2",
+  "order": 25,
+  "kind": "quick-response",
+  "title": "即時応答 5",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "来週の出張、山田さんも一緒に行くことになったそうですよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip"
+    },
+    {
+      "word": "〜ことになった",
+      "reading": "ことになった",
+      "meaning": "it has been decided that"
+    },
+    {
+      "word": "心強い",
+      "reading": "こころづよい",
+      "meaning": "reassuring"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-25-1"
+  ]
+}

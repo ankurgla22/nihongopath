@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-10",
+  "slug": "10-ryoko-no-kanso",
+  "level": "n2",
+  "order": 10,
+  "kind": "point",
+  "title": "旅行の感想",
+  "setting": "友達同士が旅行について話しています。女の人は旅行で何が一番よかったと言っていますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "北海道、どうだった？"
+    },
+    {
+      "speaker": "女",
+      "line": "楽しかったよ。でも、思ったより寒くて、ちょっと大変だった。"
+    },
+    {
+      "speaker": "男",
+      "line": "温泉には入った？"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、温泉もよかったんだけど、実は温泉はどこにでもあるでしょう。それより、海の幸がすごかった。朝市で食べたウニが、もう、今まで食べたのと全然違って。"
+    },
+    {
+      "speaker": "男",
+      "line": "へえ、いいなあ。景色は？"
+    },
+    {
+      "speaker": "女",
+      "line": "景色もきれいだったよ。雪の山とか。でも、寒くて長くは外にいられなかったから、やっぱり食べ物かな。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、次は夏に行くといいね。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、そうする。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "思ったより",
+      "reading": "おもったより",
+      "meaning": "more than expected"
+    },
+    {
+      "word": "温泉",
+      "reading": "おんせん",
+      "meaning": "hot spring"
+    },
+    {
+      "word": "それより",
+      "reading": "それより",
+      "meaning": "more than that, rather"
+    },
+    {
+      "word": "海の幸",
+      "reading": "うみのさち",
+      "meaning": "seafood"
+    },
+    {
+      "word": "朝市",
+      "reading": "あさいち",
+      "meaning": "morning market"
+    },
+    {
+      "word": "ウニ",
+      "reading": "ウニ",
+      "meaning": "sea urchin"
+    },
+    {
+      "word": "景色",
+      "reading": "けしき",
+      "meaning": "scenery"
+    },
+    {
+      "word": "やっぱり",
+      "reading": "やっぱり",
+      "meaning": "after all"
+    },
+    {
+      "word": "気候",
+      "reading": "きこう",
+      "meaning": "climate"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-10-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "n2-listening-11",
+  "slug": "11-seminar-moshikomi",
+  "level": "n2",
+  "order": 11,
+  "kind": "point",
+  "title": "セミナーの申し込み",
+  "setting": "男の人がセミナーの案内を聞いています。申し込みはいつまでにしなければなりませんか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "本日は「はじめての投資セミナー」のご案内です。セミナーは来月十五日、土曜日の午後二時から四時まで、市民センターの三階で行います。参加は無料ですが、定員が三十名ですので、事前のお申し込みが必要です。お申し込みは、ホームページか電話で、来月八日までにお願いいたします。ただし、定員になり次第、締め切らせていただきますので、お早めにどうぞ。なお、当日は筆記用具をお持ちください。資料はこちらで用意いたします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "投資",
+      "reading": "とうし",
+      "meaning": "investment"
+    },
+    {
+      "word": "案内",
+      "reading": "あんない",
+      "meaning": "information, guide"
+    },
+    {
+      "word": "定員",
+      "reading": "ていいん",
+      "meaning": "capacity"
+    },
+    {
+      "word": "事前",
+      "reading": "じぜん",
+      "meaning": "in advance"
+    },
+    {
+      "word": "〜次第",
+      "reading": "〜しだい",
+      "meaning": "as soon as"
+    },
+    {
+      "word": "締め切る",
+      "reading": "しめきる",
+      "meaning": "to close (applications)"
+    },
+    {
+      "word": "お早めに",
+      "reading": "おはやめに",
+      "meaning": "early, promptly"
+    },
+    {
+      "word": "筆記用具",
+      "reading": "ひっきようぐ",
+      "meaning": "writing implements"
+    },
+    {
+      "word": "用意する",
+      "reading": "よういする",
+      "meaning": "to prepare"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-11-1"
+  ]
+}

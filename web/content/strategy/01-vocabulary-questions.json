@@ -1,0 +1,53 @@
+[
+  {
+    "id": "strategy-vocabulary-questions",
+    "slug": "vocabulary-questions",
+    "title": "How to approach vocabulary questions (文字・語彙)",
+    "summary": "The N2 vocabulary section has six question types, each testing a different skill. Knowing which skill each one targets tells you where to look for the answer and how much time to spend.",
+    "sections": [
+      {
+        "heading": "Know the six question types",
+        "paragraphs": [
+          "The 文字・語彙 part of N2 is short, roughly 30 questions, and comes first in the 105-minute session. Because it sits before reading, every minute saved here is a minute for the passages. The six types are: kanji reading (漢字読み), orthography (表記), word formation (語形成), contextually-defined expressions (文脈規定), paraphrase (言い換え類義), and usage (用法)."
+        ],
+        "bullets": [
+          "漢字読み: choose the correct reading of an underlined word. About 5 questions.",
+          "表記: choose the correct kanji for an underlined hiragana word. About 5 questions.",
+          "語形成: complete a compound with a prefix or suffix such as 不〜, 〜的, 〜化, 〜性. About 5 questions.",
+          "文脈規定: pick the word that fits the blank in a sentence. About 7 questions.",
+          "言い換え類義: pick the option closest in meaning to the underlined word. About 5 questions.",
+          "用法: pick the sentence in which the given word is used correctly. About 5 questions."
+        ]
+      },
+      {
+        "heading": "Kanji reading and orthography: decide, do not deliberate",
+        "paragraphs": [
+          "These questions test recall, not reasoning. Either you know that 貿易 is ぼうえき or you do not; staring at it will not help. Answer within ten seconds, mark anything uncertain, and move on. The distractors are built from predictable traps: long versus short vowels (こうつう vs. こつう), voiced versus unvoiced consonants (かいてん vs. がいてん), single versus double consonants (がっこう vs. がこう), and the on-reading of a visually similar kanji (複 vs. 復).",
+          "When a reading question stumps you, use the surrounding sentence. If the word is clearly a noun receiving を, an option that looks like an adjective ending is unlikely. For orthography questions, eliminate options that contain a kanji whose meaning cannot fit the sentence, even if you are not sure of the reading."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Word formation: learn affixes as a set",
+        "paragraphs": [
+          "語形成 is the most learnable type because the affixes are a closed list. Prefixes include 不, 無, 非, 未, 再, 最, 超, 各, 諸, 全, 総, 半 and 準; suffixes include 化, 性, 的, 感, 力, 率, 費, 料, 賃, 代, 界, 業, 側, 風, 中, 済み, 上, 付き and 気味. Study each affix with three real compounds and note which part of speech it attaches to. In the test, ask two questions: does the affix attach to this kind of word, and does the resulting compound actually exist? 未 attaches to nouns describing actions (未完成, 未経験), so 未便利 is impossible."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Context, paraphrase and usage: read the whole sentence",
+        "paragraphs": [
+          "For 文脈規定, read the complete sentence before looking at the options and predict the meaning of the missing word. Then look for the option that matches that meaning and, crucially, collocates with the surrounding words. N2 loves collocation traps: 影響を与える but not 影響をあげる, 注目を集める but not 注目を取る. If two options seem to mean the same thing, the deciding factor is almost always which one pairs naturally with the particle and verb next to the blank.",
+          "For 言い換え類義, the underlined word is often a katakana loanword, an adverb, or a slightly formal noun, and the correct option is a plainer synonym. Substitute each option into the sentence and check that the sentence still means the same thing. The wrong options are usually words that are related but shift the meaning: broader, narrower, or opposite.",
+          "用法 questions give you a word and four sentences. Only one uses the word correctly. Before reading the options, recall the word's part of speech, its typical subjects and objects, and whether it is positive, negative or neutral in tone. Then eliminate sentences where the grammar around the word is wrong for its part of speech, where the object is wrong (人を心配する is fine, 天気を心配する is fine, but 心配を持つ is not), or where the connotation clashes. The remaining sentence is your answer, and it is often the one that looks most ordinary."
+        ],
+        "bullets": [
+          "Read the full sentence first; predict, then match.",
+          "Check collocations with particles and verbs, not just meaning.",
+          "In 用法, eliminate by part of speech and by natural object before judging nuance.",
+          "Aim to finish all vocabulary questions in about 15 minutes."
+        ]
+      }
+    ]
+  }
+]

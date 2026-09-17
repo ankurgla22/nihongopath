@@ -1,0 +1,144 @@
+{
+  "id": "n2-grammar-10",
+  "slug": "uchi-ni",
+  "level": "n2",
+  "order": 10,
+  "title": "〜うちに",
+  "romaji": "uchi ni",
+  "meaning": "while… (before the situation changes) / while doing…, (a change happened)",
+  "simpleExplanation": "〜うちに means \"while (X) is still the case\". It has two uses. (1) Do something before the chance disappears: 温かいうちに食べてください – eat it while it's still hot. With a negative verb, 〜ないうちに means \"before X happens\": 暗くならないうちに帰ろう. (2) A change happens while you are doing something: 話しているうちに、元気になってきた – as we talked, I started to feel better.",
+  "whenUsed": "Both spoken and written, all registers. Typical situations: advice to act now (若いうちに, 元気なうちに), warnings (忘れないうちに), and describing gradual, unplanned change (聞いているうちに).",
+  "formation": [
+    "Verb (dictionary form / ている form) + うちに",
+    "Verb (ない form) + うちに  → before…",
+    "い-adjective + うちに  (温かいうちに)",
+    "な-adjective + な + うちに  (元気なうちに)",
+    "Noun + の + うちに  (午前のうちに)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of うちに",
+    "columns": [
+      "Use",
+      "Structure",
+      "Example",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "Before the chance passes",
+        "cells": [
+          "state + うちに + intentional action",
+          "若いうちに、いろいろな経験をしたほうがいい",
+          "You should have many experiences while you're young."
+        ]
+      },
+      {
+        "label": "Before X happens",
+        "cells": [
+          "ない + うちに + action",
+          "雨が降らないうちに帰ろう",
+          "Let's go home before it rains."
+        ]
+      },
+      {
+        "label": "Change during an activity",
+        "cells": [
+          "ている + うちに + unintentional change",
+          "本を読んでいるうちに、眠くなった",
+          "While reading, I got sleepy."
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "温かいうちに召し上がってください。",
+      "reading": "あたたかいうちにめしあがってください。",
+      "en": "Please eat it while it's hot."
+    },
+    {
+      "ja": "若いうちに、いろいろな国を旅行してみたい。",
+      "reading": "わかいうちに、いろいろなくにをりょこうしてみたい。",
+      "en": "While I'm young, I'd like to travel to many countries."
+    },
+    {
+      "ja": "忘れないうちに、メモしておこう。",
+      "reading": "わすれないうちに、メモしておこう。",
+      "en": "Let me make a note before I forget.",
+      "note": "ない + うちに = before X happens."
+    },
+    {
+      "ja": "音楽を聞いているうちに、いつの間にか眠ってしまった。",
+      "reading": "おんがくをきいているうちに、いつのまにかねむってしまった。",
+      "en": "While listening to music, I fell asleep before I knew it.",
+      "note": "Unplanned change during an activity."
+    },
+    {
+      "ja": "父が元気なうちに、一緒に旅行しておきたい。",
+      "reading": "ちちがげんきなうちに、いっしょにりょこうしておきたい。",
+      "en": "I want to travel with my father while he's still healthy.",
+      "note": "な-adjective + な + うちに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜間に",
+      "difference": "\"During\" a period, neutral; うちに adds the feeling that the chance will end soon."
+    },
+    {
+      "pattern": "〜前に",
+      "difference": "\"Before\" a definite event. ないうちに means \"before X, which might happen any time\"."
+    },
+    {
+      "pattern": "〜最中に",
+      "difference": "\"Right in the middle of\" – emphasizes an interruption.",
+      "id": "n2-grammar-50"
+    },
+    {
+      "pattern": "〜か〜ないかのうちに",
+      "difference": "\"The moment / almost before\" – two events nearly at once.",
+      "id": "n2-grammar-23"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "元気うちに、旅行しよう。",
+      "right": "元気なうちに、旅行しよう。",
+      "why": "元気 is a な-adjective; な is needed before うちに."
+    },
+    {
+      "wrong": "雨が降るうちに帰ろう。(intending: before it rains)",
+      "right": "雨が降らないうちに帰ろう。",
+      "why": "\"Before X happens\" uses the ない form: 降らないうちに."
+    },
+    {
+      "wrong": "日本にいるうちに、日本語が上手にならなかった。",
+      "right": "日本にいる間、日本語は上手にならなかった。／日本にいるうちに、日本語が上手になった。",
+      "why": "うちに for change implies a change actually occurred. For \"nothing changed during a period\", use 間."
+    }
+  ],
+  "usageNotes": [
+    "うちに carries urgency: \"act now, before the state ends\". If there is no such feeling, 間に is more neutral.",
+    "The change use is usually paired with ている and unintentional results (〜てきた, 〜てしまった, 〜ようになった).",
+    "Common set phrases: そのうちに (before long), 知らないうちに (without realizing), 今のうちに (while we can)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the first clause is a state that will end (温かい, 若い, 明るい, 元気な) and the second is an action, うちに is the answer.",
+    "Distractors: 間に, 最中に, ところに, 前に. If the option is ない + blank meaning \"before\", うちに (not 前に) is correct with the ない form.",
+    "For the change use, look for いつの間にか, だんだん, 〜てきた in the second clause."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-10-1",
+    "q-n2-g-10-2",
+    "q-n2-g-10-3",
+    "q-n2-g-10-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-10-5",
+    "q-n2-g-10-6",
+    "q-n2-g-10-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

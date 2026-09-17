@@ -1,0 +1,125 @@
+{
+  "id": "n2-grammar-126",
+  "slug": "ni-tsurete",
+  "level": "n2",
+  "order": 126,
+  "title": "〜につれて / 〜につれ",
+  "romaji": "ni tsurete",
+  "meaning": "as… (changes), … (also changes)",
+  "simpleExplanation": "〜につれて means \"as X changes, Y changes along with it\". Both parts describe a gradual change: as it gets colder, the leaves turn red; as you grow older, your memory fades. The first part is the trigger, the second follows naturally and without anyone's intention.",
+  "whenUsed": "Both speech and writing, neutral to slightly formal. につれ is the tighter written form. Typical situations: describing seasons, ageing, economic growth, technological progress, and their side effects.",
+  "formation": [
+    "Verb (dictionary form) + につれて / につれ",
+    "Noun (expressing change) + につれて  (時間がたつにつれて / 成長につれて)",
+    "Both clauses must express change (上がる, 増える, 変わる, 〜ていく, 〜てくる)",
+    "Second clause: a natural result, not a plan or command"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "年を取る",
+        "en": "one gets older (gradual change)"
+      },
+      {
+        "ja": "年を取るにつれて",
+        "en": "as one gets older…"
+      },
+      {
+        "ja": "年を取るにつれて、体力が落ちてくる",
+        "en": "…physical strength declines along with it (parallel change)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "年を取るにつれて、体力が落ちてくる。",
+      "reading": "としをとるにつれて、たいりょくがおちてくる。",
+      "en": "As you get older, your physical strength declines."
+    },
+    {
+      "ja": "経済が発展するにつれて、環境問題も深刻になってきた。",
+      "reading": "けいざいがはってんするにつれて、かんきょうもんだいもしんこくになってきた。",
+      "en": "As the economy developed, environmental problems also became serious."
+    },
+    {
+      "ja": "時間がたつにつれて、悲しみも少しずつ薄れていった。",
+      "reading": "じかんがたつにつれて、かなしみもすこしずつうすれていった。",
+      "en": "As time passed, the sadness gradually faded."
+    },
+    {
+      "ja": "山を登るにつれ、空気が薄くなる。",
+      "reading": "やまをのぼるにつれ、くうきがうすくなる。",
+      "en": "As you climb the mountain, the air gets thinner.",
+      "note": "につれ is the written form."
+    },
+    {
+      "ja": "子どもの成長につれて、教育費もかかるようになった。",
+      "reading": "こどものせいちょうにつれて、きょういくひもかかるようになった。",
+      "en": "As the children grew, education costs also went up.",
+      "note": "Noun of change + につれて."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にしたがって",
+      "difference": "Almost the same meaning of parallel change, but also means \"in accordance with rules/instructions\". につれて is only for change.",
+      "id": "n2-grammar-113"
+    },
+    {
+      "pattern": "〜に伴って",
+      "difference": "Formal; used for changes that accompany a big event or trend (都市化に伴って).",
+      "id": "n2-grammar-128"
+    },
+    {
+      "pattern": "〜とともに",
+      "difference": "\"Together with / at the same time as\"; also used for simultaneous actions and for \"along with (a person)\".",
+      "id": "n2-grammar-92"
+    },
+    {
+      "pattern": "〜ば〜ほど",
+      "difference": "\"The more X, the more Y\" – emphasizes the degree relationship rather than a gradual timeline.",
+      "id": "n2-grammar-139"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "春になるにつれて、花見に行きましょう。",
+      "right": "春になったら、花見に行きましょう。",
+      "why": "The second clause must be a natural change, not an invitation, plan, or command."
+    },
+    {
+      "wrong": "ボタンを押すにつれて、ドアが開く。",
+      "right": "ボタンを押すと、ドアが開く。",
+      "why": "A one-time action is not a gradual change. につれて needs both clauses to describe gradual change."
+    },
+    {
+      "wrong": "日本語が上手になるにつれて、友達が多い。",
+      "right": "日本語が上手になるにつれて、友達が増えてきた。",
+      "why": "The second clause must express change (増える, 〜てくる), not a static state (多い)."
+    }
+  ],
+  "usageNotes": [
+    "Typical pairs: 〜が進むにつれて / 〜が増えるにつれて / 時間がたつにつれて + 〜ていく / 〜てくる / 〜ようになる.",
+    "The subjects of the two clauses are usually different (the economy vs. environmental problems).",
+    "につれて cannot be used with the speaker's intentions or requests in the second clause."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, check that both clauses express change; if the second is a command or plan, につれて is a distractor.",
+    "Distractors: にしたがって, とともに, に伴って, によって. If the sentence is about rules or instructions, it is にしたがって; if a single cause, によって.",
+    "The noun before につれて must be a noun of change (成長, 発展, 増加); ordinary nouns (国, 人) point to によって instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-126-1",
+    "q-n2-g-126-2",
+    "q-n2-g-126-3",
+    "q-n2-g-126-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-126-5",
+    "q-n2-g-126-6",
+    "q-n2-g-126-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

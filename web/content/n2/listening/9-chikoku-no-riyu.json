@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-9",
+  "slug": "9-chikoku-no-riyu",
+  "level": "n2",
+  "order": 9,
+  "kind": "point",
+  "title": "遅刻の理由",
+  "setting": "会社で、女の人と男の人が話しています。男の人はどうして遅れましたか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "山田さん、遅かったですね。電車、止まってたんですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "いえ、電車は普通に動いてました。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、寝坊？"
+    },
+    {
+      "speaker": "男",
+      "line": "それが、家を出るときはいつも通りだったんですよ。でも、駅に着いたら、財布を忘れたことに気づいて。"
+    },
+    {
+      "speaker": "女",
+      "line": "ああ、それで取りに帰ったんですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "いえ、取りに帰る時間はなかったので、そのまま来ようとしたんですけど、定期券も財布に入れてて。駅員さんに事情を話して、なんとか乗せてもらうのに時間がかかっちゃって。"
+    },
+    {
+      "speaker": "女",
+      "line": "大変でしたね。"
+    },
+    {
+      "speaker": "男",
+      "line": "ええ。お昼ご飯もどうしようかと……。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "寝坊",
+      "reading": "ねぼう",
+      "meaning": "oversleeping"
+    },
+    {
+      "word": "いつも通り",
+      "reading": "いつもどおり",
+      "meaning": "as usual"
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning": "wallet"
+    },
+    {
+      "word": "気づく",
+      "reading": "きづく",
+      "meaning": "to realize"
+    },
+    {
+      "word": "定期券",
+      "reading": "ていきけん",
+      "meaning": "commuter pass"
+    },
+    {
+      "word": "駅員",
+      "reading": "えきいん",
+      "meaning": "station staff"
+    },
+    {
+      "word": "事情",
+      "reading": "じじょう",
+      "meaning": "circumstances"
+    },
+    {
+      "word": "なんとか",
+      "reading": "なんとか",
+      "meaning": "somehow"
+    },
+    {
+      "word": "〜ちゃう",
+      "reading": "ちゃう",
+      "meaning": "(casual) end up doing"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-9-1"
+  ]
+}

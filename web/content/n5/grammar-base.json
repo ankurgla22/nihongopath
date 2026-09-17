@@ -1,0 +1,3050 @@
+[
+  {
+    "id": "n5-grammar-1",
+    "slug": "1-desu",
+    "level": "n5",
+    "order": 1,
+    "title": "です",
+    "romaji": "desu",
+    "meaning": "\"is / am / are\" — polite copula linking a noun or adjective to the topic.",
+    "simpleExplanation": "\"is / am / are\" — polite copula linking a noun or adjective to the topic.",
+    "formation": [
+      "N + です ／ な-adj + です ／ い-adj + です"
+    ],
+    "examples": [
+      {
+        "ja": "私は学生です。",
+        "reading": "わたしは がくせいです。",
+        "en": "I am a student."
+      },
+      {
+        "ja": "これは本です。",
+        "reading": "これは ほんです。",
+        "en": "This is a book."
+      },
+      {
+        "ja": "東京は大きいです。",
+        "reading": "とうきょうは おおきいです。",
+        "en": "Tokyo is big."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "です makes the sentence polite. It does not change for person or number (I/you/they all use です). After an い-adjective, です only adds politeness — the adjective itself carries tense."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-2",
+    "slug": "2-da",
+    "level": "n5",
+    "order": 2,
+    "title": "だ (plain copula)",
+    "romaji": "da",
+    "meaning": "Plain/casual equivalent of です.",
+    "simpleExplanation": "Plain/casual equivalent of です.",
+    "formation": [
+      "N + だ ／ な-adj + だ. い-adjectives never take だ (高い, not 高いだ)."
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは先生だ。",
+        "reading": "たなかさんは せんせいだ。",
+        "en": "Mr Tanaka is a teacher."
+      },
+      {
+        "ja": "今日は休みだ。",
+        "reading": "きょうは やすみだ。",
+        "en": "Today is a day off."
+      },
+      {
+        "ja": "この町は静かだ。",
+        "reading": "この まちは しずかだ。",
+        "en": "This town is quiet."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "In casual speech だ is often dropped entirely (学生。/ 静か。). You must know the plain forms because they appear before と思う, でしょう, んです, and inside relative clauses."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-3",
+    "slug": "3-jaarimasen-dehaarimasen",
+    "level": "n5",
+    "order": 3,
+    "title": "じゃありません ／ ではありません",
+    "romaji": "jaarimasen-dehaarimasen",
+    "meaning": "\"is not\" — polite negative copula.",
+    "simpleExplanation": "\"is not\" — polite negative copula.",
+    "formation": [
+      "N / な-adj + じゃありません (spoken) or ではありません (formal/written). Plain: じゃない ／ ではない."
+    ],
+    "examples": [
+      {
+        "ja": "私は先生じゃありません。",
+        "reading": "わたしは せんせいじゃありません。",
+        "en": "I am not a teacher."
+      },
+      {
+        "ja": "ここは図書館ではありません。",
+        "reading": "ここは としょかんではありません。",
+        "en": "This is not a library."
+      },
+      {
+        "ja": "山田さんは元気じゃないです。",
+        "reading": "やまださんは げんきじゃないです。",
+        "en": "Ms Yamada is not well."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "じゃないです is an accepted, slightly more casual polite form. Do not use this for い-adjectives — they have their own negative (高くない)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-4",
+    "slug": "4-deshita",
+    "level": "n5",
+    "order": 4,
+    "title": "でした",
+    "romaji": "deshita",
+    "meaning": "\"was / were\" — polite past copula.",
+    "simpleExplanation": "\"was / were\" — polite past copula.",
+    "formation": [
+      "N / な-adj + でした. Past negative: じゃありませんでした ／ ではありませんでした. Plain past: だった; plain past negative: じゃなかった."
+    ],
+    "examples": [
+      {
+        "ja": "昨日は雨でした。",
+        "reading": "きのうは あめでした。",
+        "en": "Yesterday it was rainy."
+      },
+      {
+        "ja": "昔、ここは学校でした。",
+        "reading": "むかし、ここは がっこうでした。",
+        "en": "Long ago this was a school."
+      },
+      {
+        "ja": "先週の試験は簡単じゃありませんでした。",
+        "reading": "せんしゅうの しけんは かんたんじゃありませんでした。",
+        "en": "Last week's exam was not easy."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "い-adjectives do NOT use でした (高かったです, never 高いでした — a very common N5 test trap)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-5",
+    "slug": "5-ha",
+    "level": "n5",
+    "order": 5,
+    "title": "は (topic)",
+    "romaji": "ha",
+    "meaning": "Marks the topic — \"as for X\". Pronounced わ.",
+    "simpleExplanation": "Marks the topic — \"as for X\". Pronounced わ.",
+    "formation": [
+      "N + は"
+    ],
+    "examples": [
+      {
+        "ja": "私は日本人です。",
+        "reading": "わたしは にほんじんです。",
+        "en": "I am Japanese."
+      },
+      {
+        "ja": "明日は忙しいです。",
+        "reading": "あしたは いそがしいです。",
+        "en": "Tomorrow (I) am busy."
+      },
+      {
+        "ja": "魚は好きですが、肉は好きじゃありません。",
+        "reading": "さかなは すきですが、にくは すきじゃありません。",
+        "en": "I like fish, but I don't like meat."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "は also carries contrast (example 3). Old information / what you are talking about takes は; new or emphasised information takes が."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-6",
+    "slug": "6-ga",
+    "level": "n5",
+    "order": 6,
+    "title": "が (subject)",
+    "romaji": "ga",
+    "meaning": "Marks the grammatical subject; identifies \"which one\"; used with question words, existence, likes/abilities, and descriptions.",
+    "simpleExplanation": "Marks the grammatical subject; identifies \"which one\"; used with question words, existence, likes/abilities, and descriptions.",
+    "formation": [
+      "N + が"
+    ],
+    "examples": [
+      {
+        "ja": "誰が来ましたか。",
+        "reading": "だれが きましたか。",
+        "en": "Who came?"
+      },
+      {
+        "ja": "猫がいます。",
+        "reading": "ねこが います。",
+        "en": "There is a cat."
+      },
+      {
+        "ja": "私は寿司が好きです。",
+        "reading": "わたしは すしが すきです。",
+        "en": "I like sushi."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Question words (誰・何・どれ) are always followed by が, never は. The object of 好き・嫌い・上手・下手・わかる・できる・ほしい takes が."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-7",
+    "slug": "7-wo",
+    "level": "n5",
+    "order": 7,
+    "title": "を (direct object)",
+    "romaji": "wo",
+    "meaning": "Marks the direct object of a transitive verb; also the place passed through / left.",
+    "simpleExplanation": "Marks the direct object of a transitive verb; also the place passed through / left.",
+    "formation": [
+      "N + を + verb"
+    ],
+    "examples": [
+      {
+        "ja": "パンを食べます。",
+        "reading": "パンを たべます。",
+        "en": "I eat bread."
+      },
+      {
+        "ja": "公園を散歩します。",
+        "reading": "こうえんを さんぽします。",
+        "en": "I walk through the park."
+      },
+      {
+        "ja": "七時に家を出ます。",
+        "reading": "しちじに いえを でます。",
+        "en": "I leave the house at seven."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Pronounced お. Verbs of movement (歩く・走る・散歩する・出る・降りる) take を for the space traversed or departed."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-8",
+    "slug": "8-ni",
+    "level": "n5",
+    "order": 8,
+    "title": "に (time, destination, location of existence, indirect object)",
+    "romaji": "ni",
+    "meaning": "\"at / on / in / to / for\" — a point in time, destination, place where something exists, recipient.",
+    "simpleExplanation": "\"at / on / in / to / for\" — a point in time, destination, place where something exists, recipient.",
+    "formation": [
+      "N + に"
+    ],
+    "examples": [
+      {
+        "ja": "六時に起きます。",
+        "reading": "ろくじに おきます。",
+        "en": "I get up at six."
+      },
+      {
+        "ja": "机の上に本があります。",
+        "reading": "つくえの うえに ほんが あります。",
+        "en": "There is a book on the desk."
+      },
+      {
+        "ja": "友達に手紙を書きます。",
+        "reading": "ともだちに てがみを かきます。",
+        "en": "I write a letter to a friend."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Specific times take に (三時に, 月曜日に, 2020年に); relative times do not (今日, 明日, 来週, 毎日 — no に). Frequency: 一週間に二回 \"twice a week\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-9",
+    "slug": "9-he",
+    "level": "n5",
+    "order": 9,
+    "title": "へ (direction)",
+    "romaji": "he",
+    "meaning": "\"to / toward\" — direction of movement. Pronounced え.",
+    "simpleExplanation": "\"to / toward\" — direction of movement. Pronounced え.",
+    "formation": [
+      "N (place) + へ + verb of movement"
+    ],
+    "examples": [
+      {
+        "ja": "日本へ行きます。",
+        "reading": "にほんへ いきます。",
+        "en": "I am going to Japan."
+      },
+      {
+        "ja": "駅へ歩きます。",
+        "reading": "えきへ あるきます。",
+        "en": "I walk to the station."
+      },
+      {
+        "ja": "何時に家へ帰りますか。",
+        "reading": "なんじに いえへ かえりますか。",
+        "en": "What time do you go home?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "With 行く・来る・帰る, に and へ are interchangeable. へ stresses direction, に stresses arrival point. Only へ can be followed by の (日本への手紙 \"a letter to Japan\")."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-10",
+    "slug": "10-de",
+    "level": "n5",
+    "order": 10,
+    "title": "で (place of action, means, total)",
+    "romaji": "de",
+    "meaning": "\"at / in (where an action happens)\", \"by / with (means)\", \"in (language)\", \"for (total)\".",
+    "simpleExplanation": "\"at / in (where an action happens)\", \"by / with (means)\", \"in (language)\", \"for (total)\".",
+    "formation": [
+      "N + で"
+    ],
+    "examples": [
+      {
+        "ja": "レストランで昼ご飯を食べます。",
+        "reading": "レストランで ひるごはんを たべます。",
+        "en": "I eat lunch at a restaurant."
+      },
+      {
+        "ja": "バスで学校へ行きます。",
+        "reading": "バスで がっこうへ いきます。",
+        "en": "I go to school by bus."
+      },
+      {
+        "ja": "日本語で話してください。",
+        "reading": "にほんごで はなしてください。",
+        "en": "Please speak in Japanese."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Contrast with に: に marks where something IS (います・あります・住んでいます), で marks where something HAPPENS. 三つで千円 \"1,000 yen for three\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-11",
+    "slug": "11-to",
+    "level": "n5",
+    "order": 11,
+    "title": "と (and; with)",
+    "romaji": "to",
+    "meaning": "\"and\" (exhaustive list of nouns), \"with (a person)\", also marks quoted speech.",
+    "simpleExplanation": "\"and\" (exhaustive list of nouns), \"with (a person)\", also marks quoted speech.",
+    "formation": [
+      "N と N ／ N (person) と + verb"
+    ],
+    "examples": [
+      {
+        "ja": "パンと卵を買いました。",
+        "reading": "パンと たまごを かいました。",
+        "en": "I bought bread and eggs."
+      },
+      {
+        "ja": "友達と映画を見ます。",
+        "reading": "ともだちと えいがを みます。",
+        "en": "I watch a film with a friend."
+      },
+      {
+        "ja": "母と電話で話しました。",
+        "reading": "ははと でんわで はなしました。",
+        "en": "I talked with my mother on the phone."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "と joins nouns only — never verbs or adjectives (use て-form for those). と lists everything; や lists examples."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-12",
+    "slug": "12-mo",
+    "level": "n5",
+    "order": 12,
+    "title": "も (also; too)",
+    "romaji": "mo",
+    "meaning": "\"also / too / even\"; with negative: \"neither / not either\".",
+    "simpleExplanation": "\"also / too / even\"; with negative: \"neither / not either\".",
+    "formation": [
+      "N + も (replaces は・が・を; stacks after に・で・へ: にも, でも, へも)"
+    ],
+    "examples": [
+      {
+        "ja": "私も学生です。",
+        "reading": "わたしも がくせいです。",
+        "en": "I am a student too."
+      },
+      {
+        "ja": "コーヒーも紅茶も飲みます。",
+        "reading": "コーヒーも こうちゃも のみます。",
+        "en": "I drink both coffee and tea."
+      },
+      {
+        "ja": "何も食べませんでした。",
+        "reading": "なにも たべませんでした。",
+        "en": "I didn't eat anything."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Question word + も + negative = \"nothing / nobody / nowhere\" (何も, 誰も, どこも, いつも with negative). 一つも／一人も + negative = \"not even one\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-13",
+    "slug": "13-no",
+    "level": "n5",
+    "order": 13,
+    "title": "の (possession; modification)",
+    "romaji": "no",
+    "meaning": "\"of / 's\" — links two nouns: possession, attribute, origin, or apposition. Also a pronoun \"one\".",
+    "simpleExplanation": "\"of / 's\" — links two nouns: possession, attribute, origin, or apposition. Also a pronoun \"one\".",
+    "formation": [
+      "N1 + の + N2 (N1 describes N2)"
+    ],
+    "examples": [
+      {
+        "ja": "これは私の傘です。",
+        "reading": "これは わたしの かさです。",
+        "en": "This is my umbrella."
+      },
+      {
+        "ja": "日本語の先生はどこですか。",
+        "reading": "にほんごの せんせいは どこですか。",
+        "en": "Where is the Japanese teacher?"
+      },
+      {
+        "ja": "赤いのをください。",
+        "reading": "あかいのを ください。",
+        "en": "Please give me the red one."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "In casual speech の can end a question (行くの？). The first noun modifies the second — 日本の車 \"Japanese car\", 車の日本 is wrong."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-14",
+    "slug": "14-ka",
+    "level": "n5",
+    "order": 14,
+    "title": "か (question)",
+    "romaji": "ka",
+    "meaning": "Turns a statement into a question; also \"or\" between nouns.",
+    "simpleExplanation": "Turns a statement into a question; also \"or\" between nouns.",
+    "formation": [
+      "Sentence + か ／ N か N"
+    ],
+    "examples": [
+      {
+        "ja": "あなたは学生ですか。",
+        "reading": "あなたは がくせいですか。",
+        "en": "Are you a student?"
+      },
+      {
+        "ja": "お茶かコーヒーを飲みますか。",
+        "reading": "おちゃか コーヒーを のみますか。",
+        "en": "Will you have tea or coffee?"
+      },
+      {
+        "ja": "誰かいますか。",
+        "reading": "だれか いますか。",
+        "en": "Is anyone there?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Word order does not change for questions. A question mark is optional in Japanese writing. Question word + か = \"some-\" (何か something, 誰か someone, どこか somewhere)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-15",
+    "slug": "15-yo",
+    "level": "n5",
+    "order": 15,
+    "title": "よ (emphasis / new information)",
+    "romaji": "yo",
+    "meaning": "Sentence-final particle: tells the listener something they do not know, gives emphasis or reassurance.",
+    "simpleExplanation": "Sentence-final particle: tells the listener something they do not know, gives emphasis or reassurance.",
+    "formation": [
+      "Sentence + よ"
+    ],
+    "examples": [
+      {
+        "ja": "この店は安いですよ。",
+        "reading": "この みせは やすいですよ。",
+        "en": "This shop is cheap, you know."
+      },
+      {
+        "ja": "もう八時ですよ。",
+        "reading": "もう はちじですよ。",
+        "en": "It's already eight o'clock!"
+      },
+      {
+        "ja": "大丈夫ですよ。",
+        "reading": "だいじょうぶですよ。",
+        "en": "It's all right (I assure you)."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Overusing よ sounds pushy. Do not use よ when the listener already knows the information — use ね instead."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-16",
+    "slug": "16-ne",
+    "level": "n5",
+    "order": 16,
+    "title": "ね (agreement / confirmation)",
+    "romaji": "ne",
+    "meaning": "Sentence-final particle: \"isn't it? / right?\" — seeks agreement or confirms shared knowledge.",
+    "simpleExplanation": "Sentence-final particle: \"isn't it? / right?\" — seeks agreement or confirms shared knowledge.",
+    "formation": [
+      "Sentence + ね"
+    ],
+    "examples": [
+      {
+        "ja": "いい天気ですね。",
+        "reading": "いい てんきですね。",
+        "en": "Nice weather, isn't it?"
+      },
+      {
+        "ja": "田中さんは日本人ですね。",
+        "reading": "たなかさんは にほんじんですね。",
+        "en": "Mr Tanaka is Japanese, right?"
+      },
+      {
+        "ja": "会議は三時からですね。",
+        "reading": "かいぎは さんじからですね。",
+        "en": "The meeting is from three, right?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "よ and ね can combine as よね (\"...right? I'm telling you but want you to agree\"). ね can also soften: 難しいですね。"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-17",
+    "slug": "17-kara",
+    "level": "n5",
+    "order": 17,
+    "title": "から (from; starting point)",
+    "romaji": "kara",
+    "meaning": "\"from\" — a starting point in time or place; also \"from (a person)\".",
+    "simpleExplanation": "\"from\" — a starting point in time or place; also \"from (a person)\".",
+    "formation": [
+      "N + から"
+    ],
+    "examples": [
+      {
+        "ja": "授業は九時からです。",
+        "reading": "じゅぎょうは くじからです。",
+        "en": "Class is from nine o'clock."
+      },
+      {
+        "ja": "家から駅まで歩きます。",
+        "reading": "いえから えきまで あるきます。",
+        "en": "I walk from home to the station."
+      },
+      {
+        "ja": "兄からプレゼントをもらいました。",
+        "reading": "あにから プレゼントを もらいました。",
+        "en": "I received a present from my brother."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "から after a clause means \"because\" — see point 63."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-18",
+    "slug": "18-made",
+    "level": "n5",
+    "order": 18,
+    "title": "まで (until; as far as)",
+    "romaji": "made",
+    "meaning": "\"until / up to / as far as\" — an end point in time or place.",
+    "simpleExplanation": "\"until / up to / as far as\" — an end point in time or place.",
+    "formation": [
+      "N + まで"
+    ],
+    "examples": [
+      {
+        "ja": "銀行は三時までです。",
+        "reading": "ぎんこうは さんじまでです。",
+        "en": "The bank is open until three."
+      },
+      {
+        "ja": "東京から大阪まで新幹線で行きます。",
+        "reading": "とうきょうから おおさかまで しんかんせんで いきます。",
+        "en": "I go from Tokyo to Osaka by bullet train."
+      },
+      {
+        "ja": "来週まで待ってください。",
+        "reading": "らいしゅうまで まってください。",
+        "en": "Please wait until next week."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "までに (N4) means \"by (a deadline)\"; まで means continuing until that point. At N5 just remember から〜まで as a pair."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-19",
+    "slug": "19-ya",
+    "level": "n5",
+    "order": 19,
+    "title": "や (and, among others)",
+    "romaji": "ya",
+    "meaning": "\"and (for example)\" — an incomplete list of nouns.",
+    "simpleExplanation": "\"and (for example)\" — an incomplete list of nouns.",
+    "formation": [
+      "N や N (や N) (often ending with など)"
+    ],
+    "examples": [
+      {
+        "ja": "机の上に本やペンがあります。",
+        "reading": "つくえの うえに ほんや ペンが あります。",
+        "en": "There are books, pens and so on on the desk."
+      },
+      {
+        "ja": "週末は掃除や洗濯をします。",
+        "reading": "しゅうまつは そうじや せんたくを します。",
+        "en": "At the weekend I do cleaning, laundry and such."
+      },
+      {
+        "ja": "京都や奈良へ行きたいです。",
+        "reading": "きょうとや ならへ いきたいです。",
+        "en": "I want to go to Kyoto, Nara and other places."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "と = complete list (only these); や = partial list (these among others). Nouns only."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-20",
+    "slug": "20-verb-groups",
+    "level": "n5",
+    "order": 20,
+    "title": "Verb groups (Group 1 / Group 2 / Group 3)",
+    "romaji": "verb-groups",
+    "meaning": "Every Japanese verb belongs to one of three groups; the group decides how it conjugates.",
+    "simpleExplanation": "Every Japanese verb belongs to one of three groups; the group decides how it conjugates.",
+    "formation": [
+      "**Group 1 (u-verbs, 五段)**: dictionary form ends in any う-row sound: 書く, 話す, 待つ, 死ぬ, 読む, 遊ぶ, 買う, 帰る, 分かる, 走る.",
+      "**Group 2 (ru-verbs, 一段)**: ends in -いる or -える: 見る, 食べる, 起きる, 寝る, 教える, 出る, 着る.",
+      "**Group 3 (irregular)**: する and 来る only (plus N+する verbs: 勉強する, 電話する)."
+    ],
+    "examples": [
+      {
+        "ja": "毎朝新聞を読みます。",
+        "reading": "まいあさ しんぶんを よみます。",
+        "en": "I read the newspaper every morning. (読む, Group 1)"
+      },
+      {
+        "ja": "七時に起きます。",
+        "reading": "しちじに おきます。",
+        "en": "I get up at seven. (起きる, Group 2)"
+      },
+      {
+        "ja": "図書館で勉強します。",
+        "reading": "としょかんで べんきょうします。",
+        "en": "I study at the library. (勉強する, Group 3)"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Some verbs ending in -いる/-える are Group 1 exceptions and must be memorised: 帰る (かえる), 入る (はいる), 走る (はしる), 知る (しる), 切る (きる), 要る (いる), 減る, 限る, しゃべる."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-21",
+    "slug": "21-masu-masen",
+    "level": "n5",
+    "order": 21,
+    "title": "ます ／ ません (polite non-past)",
+    "romaji": "masu-masen",
+    "meaning": "Polite present/future affirmative and negative.",
+    "simpleExplanation": "Polite present/future affirmative and negative.",
+    "formation": [
+      "Group 1: change final う-sound to い-sound + ます (書く→書きます, 話す→話します, 待つ→待ちます, 読む→読みます, 買う→買います, 帰る→帰ります)",
+      "Group 2: drop る + ます (食べる→食べます, 見る→見ます)",
+      "Group 3: する→します, 来る→きます",
+      "Negative: ます→ません"
+    ],
+    "examples": [
+      {
+        "ja": "毎日日本語を勉強します。",
+        "reading": "まいにち にほんごを べんきょうします。",
+        "en": "I study Japanese every day."
+      },
+      {
+        "ja": "明日、友達に会います。",
+        "reading": "あした、ともだちに あいます。",
+        "en": "Tomorrow I will meet a friend."
+      },
+      {
+        "ja": "私はお酒を飲みません。",
+        "reading": "わたしは おさけを のみません。",
+        "en": "I don't drink alcohol."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The ます form covers both present habit and future. The part before ます (the ます-stem) is used to build many other patterns: たい, ましょう, ながら, やすい, すぎる, に行く."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-22",
+    "slug": "22-mashita-masendeshita",
+    "level": "n5",
+    "order": 22,
+    "title": "ました ／ ませんでした (polite past)",
+    "romaji": "mashita-masendeshita",
+    "meaning": "Polite past affirmative / negative.",
+    "simpleExplanation": "Polite past affirmative / negative.",
+    "formation": [
+      "V-ます-stem + ました ／ + ませんでした"
+    ],
+    "examples": [
+      {
+        "ja": "昨日映画を見ました。",
+        "reading": "きのう えいがを みました。",
+        "en": "I watched a film yesterday."
+      },
+      {
+        "ja": "先週京都へ行きました。",
+        "reading": "せんしゅう きょうとへ いきました。",
+        "en": "I went to Kyoto last week."
+      },
+      {
+        "ja": "朝ご飯を食べませんでした。",
+        "reading": "あさごはんを たべませんでした。",
+        "en": "I didn't eat breakfast."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "ませんでした = ません + でした; never say ましたません. For adjectives and nouns the past forms are different (see points 4, 27, 28)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-23",
+    "slug": "23-dictionary-form",
+    "level": "n5",
+    "order": 23,
+    "title": "Dictionary form (plain non-past)",
+    "romaji": "dictionary-form",
+    "meaning": "The basic form found in dictionaries; the plain/casual present-future.",
+    "simpleExplanation": "The basic form found in dictionaries; the plain/casual present-future.",
+    "formation": [
+      "Reverse of ます: Group 1: い-sound → う-sound (書きます→書く); Group 2: ます→る (食べます→食べる); Group 3: します→する, きます→来る."
+    ],
+    "examples": [
+      {
+        "ja": "明日、東京へ行く。",
+        "reading": "あした、とうきょうへ いく。",
+        "en": "I'm going to Tokyo tomorrow."
+      },
+      {
+        "ja": "毎晩十一時に寝る。",
+        "reading": "まいばん じゅういちじに ねる。",
+        "en": "I go to bed at eleven every night."
+      },
+      {
+        "ja": "日本語を話すことができます。",
+        "reading": "にほんごを はなすことが できます。",
+        "en": "I can speak Japanese."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Required before ことができる, つもり, まえに, と思う, でしょう, んです, and before nouns (relative clauses: 読む本 \"the book I read\")."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-24",
+    "slug": "24-te-form",
+    "level": "n5",
+    "order": 24,
+    "title": "て-form",
+    "romaji": "te-form",
+    "meaning": "The connecting form — used for requests (てください), continuing actions (ている), permission, prohibition, joining clauses, and sequence.",
+    "simpleExplanation": "The connecting form — used for requests (てください), continuing actions (ている), permission, prohibition, joining clauses, and sequence.",
+    "formation": [
+      "(Group 1 by final sound of dictionary form):",
+      "| Ending | Change | Example |",
+      "|---|---|---|",
+      "| う, つ, る | → って | 買う→買って, 待つ→待って, 帰る→帰って |",
+      "| む, ぶ, ぬ | → んで | 読む→読んで, 遊ぶ→遊んで, 死ぬ→死んで |",
+      "| く | → いて | 書く→書いて, 聞く→聞いて |",
+      "| ぐ | → いで | 泳ぐ→泳いで, 急ぐ→急いで |",
+      "| す | → して | 話す→話して, 貸す→貸して |",
+      "| exception 行く | → 行って | 行く→行って (not 行いて) |",
+      "| Group 2 | drop る + て | 食べる→食べて, 見る→見て, 起きる→起きて |",
+      "| Group 3 | irregular | する→して, 来る→来て (きて) |"
+    ],
+    "examples": [
+      {
+        "ja": "朝起きて、シャワーを浴びて、朝ご飯を食べます。",
+        "reading": "あさ おきて、シャワーを あびて、あさごはんを たべます。",
+        "en": "In the morning I get up, take a shower, and eat breakfast."
+      },
+      {
+        "ja": "ここに名前を書いてください。",
+        "reading": "ここに なまえを かいてください。",
+        "en": "Please write your name here."
+      },
+      {
+        "ja": "田中さんは今電話で話しています。",
+        "reading": "たなかさんは いま でんわで はなしています。",
+        "en": "Mr Tanaka is talking on the phone now."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The same rules give the た-form (replace て with た, で with だ). い-adjective て-form: 高い→高くて; な-adj / noun: 静か→静かで, 学生→学生で. Mnemonic song: \"う・つ・る→って, む・ぶ・ぬ→んで, く→いて, ぐ→いで, す→して\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-25",
+    "slug": "25-nai-form",
+    "level": "n5",
+    "order": 25,
+    "title": "ない-form (plain negative)",
+    "romaji": "nai-form",
+    "meaning": "Plain/casual negative \"do not / will not\".",
+    "simpleExplanation": "Plain/casual negative \"do not / will not\".",
+    "formation": [
+      "Group 1: change final う-sound to あ-sound + ない (書く→書かない, 読む→読まない, 話す→話さない). Verbs ending in う → わない (買う→買わない, 会う→会わない).",
+      "Group 2: drop る + ない (食べる→食べない, 見る→見ない)",
+      "Group 3: する→しない, 来る→こない",
+      "ある → ない (not あらない)"
+    ],
+    "examples": [
+      {
+        "ja": "今日は学校へ行かない。",
+        "reading": "きょうは がっこうへ いかない。",
+        "en": "I'm not going to school today."
+      },
+      {
+        "ja": "肉を食べない人もいます。",
+        "reading": "にくを たべない ひとも います。",
+        "en": "There are also people who don't eat meat."
+      },
+      {
+        "ja": "明日は来ない。",
+        "reading": "あしたは こない。",
+        "en": "I won't come tomorrow."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "ない conjugates like an い-adjective: past なかった, polite ないです (= ません). Used to build ないでください, なければなりません, なくてもいいです."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-26",
+    "slug": "26-ta-form",
+    "level": "n5",
+    "order": 26,
+    "title": "た-form (plain past)",
+    "romaji": "ta-form",
+    "meaning": "Plain/casual past \"did\".",
+    "simpleExplanation": "Plain/casual past \"did\".",
+    "formation": [
+      "Same as て-form, replacing て→た, で→だ. 買う→買った, 読む→読んだ, 書く→書いた, 泳ぐ→泳いだ, 話す→話した, 行く→行った, 食べる→食べた, する→した, 来る→来た (きた)."
+    ],
+    "examples": [
+      {
+        "ja": "昨日は十二時に寝た。",
+        "reading": "きのうは じゅうにじに ねた。",
+        "en": "I went to bed at twelve yesterday."
+      },
+      {
+        "ja": "先月、新しい車を買った。",
+        "reading": "せんげつ、あたらしい くるまを かった。",
+        "en": "I bought a new car last month."
+      },
+      {
+        "ja": "友達が来た。",
+        "reading": "ともだちが きた。",
+        "en": "A friend came."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Plain past negative = なかった (食べなかった). た-form is required for たり〜たり, たほうがいい, and in front of nouns (昨日買った本 \"the book I bought yesterday\")."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-27",
+    "slug": "27-i-adjective-conjugation",
+    "level": "n5",
+    "order": 27,
+    "title": "い-adjective conjugation",
+    "romaji": "i-adjective-conjugation",
+    "meaning": "Adjectives ending in い conjugate for tense and polarity by themselves.",
+    "simpleExplanation": "Adjectives ending in い conjugate for tense and polarity by themselves.",
+    "formation": [
+      "| Form | Plain | Polite |",
+      "|---|---|---|",
+      "| present | 高い | 高いです |",
+      "| negative | 高くない | 高くないです ／ 高くありません |",
+      "| past | 高かった | 高かったです |",
+      "| past negative | 高くなかった | 高くなかったです ／ 高くありませんでした |",
+      "| て-form | 高くて | — |",
+      "| adverb | 高く | — |"
+    ],
+    "examples": [
+      {
+        "ja": "このカバンは高くないです。",
+        "reading": "この カバンは たかくないです。",
+        "en": "This bag is not expensive."
+      },
+      {
+        "ja": "昨日は寒かったです。",
+        "reading": "きのうは さむかったです。",
+        "en": "Yesterday was cold."
+      },
+      {
+        "ja": "試験は難しくなかったです。",
+        "reading": "しけんは むずかしくなかったです。",
+        "en": "The exam was not difficult."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "いい (good) is irregular: negative よくない, past よかった, past negative よくなかった, て-form よくて. Before a noun the adjective is unchanged: 高い山."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-28",
+    "slug": "28-na-adjective-conjugation",
+    "level": "n5",
+    "order": 28,
+    "title": "な-adjective conjugation",
+    "romaji": "na-adjective-conjugation",
+    "meaning": "Adjectives that take な before a noun; they conjugate exactly like nouns + copula.",
+    "simpleExplanation": "Adjectives that take な before a noun; they conjugate exactly like nouns + copula.",
+    "formation": [
+      "| Form | Plain | Polite |",
+      "|---|---|---|",
+      "| present | 静かだ | 静かです |",
+      "| negative | 静かじゃない | 静かじゃありません ／ 静かじゃないです |",
+      "| past | 静かだった | 静かでした |",
+      "| past negative | 静かじゃなかった | 静かじゃありませんでした |",
+      "| before noun | 静かな町 | — |",
+      "| て-form | 静かで | — |",
+      "| adverb | 静かに | — |"
+    ],
+    "examples": [
+      {
+        "ja": "この町は静かで、きれいです。",
+        "reading": "この まちは しずかで、きれいです。",
+        "en": "This town is quiet and pretty."
+      },
+      {
+        "ja": "田中さんは親切な人です。",
+        "reading": "たなかさんは しんせつな ひとです。",
+        "en": "Mr Tanaka is a kind person."
+      },
+      {
+        "ja": "昨日は暇じゃありませんでした。",
+        "reading": "きのうは ひまじゃありませんでした。",
+        "en": "I was not free yesterday."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "きれい (pretty/clean) and 嫌い (dislike) end in い but are な-adjectives: きれいな部屋, きれいじゃない (NOT きれくない). 有名, 元気, 便利, 好き, 上手, 下手, 大切, 大丈夫 are all な-adjectives.\n\n## Part E — Existence, possession, likes and ability"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-29",
+    "slug": "29-arimasu-imasu",
+    "level": "n5",
+    "order": 29,
+    "title": "あります ／ います (existence)",
+    "romaji": "arimasu-imasu",
+    "meaning": "\"There is / are\"; \"to have\". あります for inanimate things (and plants), います for people and animals.",
+    "simpleExplanation": "\"There is / are\"; \"to have\". あります for inanimate things (and plants), います for people and animals.",
+    "formation": [
+      "Place に + Thing が + あります／います　／　Thing は + Place に + あります／います"
+    ],
+    "examples": [
+      {
+        "ja": "机の上に本があります。",
+        "reading": "つくえの うえに ほんが あります。",
+        "en": "There is a book on the desk."
+      },
+      {
+        "ja": "教室に学生が三人います。",
+        "reading": "きょうしつに がくせいが さんにん います。",
+        "en": "There are three students in the classroom."
+      },
+      {
+        "ja": "私は兄が二人います。",
+        "reading": "わたしは あにが ふたり います。",
+        "en": "I have two older brothers."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Negative: ありません／いません. Plain forms: ある／ない, いる／いない. The location takes に (not で). Using あります for a person (×友達があります) is a classic mistake."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-30",
+    "slug": "30-gahoshii",
+    "level": "n5",
+    "order": 30,
+    "title": "がほしい",
+    "romaji": "gahoshii",
+    "meaning": "\"want (a thing)\". The desired object is marked with が, not を.",
+    "simpleExplanation": "\"want (a thing)\". The desired object is marked with が, not を.",
+    "formation": [
+      "Noun + が + ほしい(です)"
+    ],
+    "examples": [
+      {
+        "ja": "新しいパソコンがほしいです。",
+        "reading": "あたらしい パソコンが ほしいです。",
+        "en": "I want a new computer."
+      },
+      {
+        "ja": "今は何もほしくないです。",
+        "reading": "いまは なにも ほしくないです。",
+        "en": "I don't want anything right now."
+      },
+      {
+        "ja": "子供のときから犬がほしかったです。",
+        "reading": "こどもの ときから いぬが ほしかったです。",
+        "en": "I have wanted a dog since I was a child."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "ほしい conjugates like an い-adjective (ほしくない, ほしかった). It expresses the speaker's own desire; for a third person use ほしがっている. For wanting to do an action, use V-ます + たい (#43)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-31",
+    "slug": "31-gaki-i",
+    "level": "n5",
+    "order": 31,
+    "title": "が好き ／ 嫌い ／ 上手 ／ 下手",
+    "romaji": "gaki-i",
+    "meaning": "The object of liking, disliking and skill is marked with が.",
+    "simpleExplanation": "The object of liking, disliking and skill is marked with が.",
+    "formation": [
+      "Noun + が + 好きです／嫌いです／上手です／下手です"
+    ],
+    "examples": [
+      {
+        "ja": "私は日本の音楽が好きです。",
+        "reading": "わたしは にほんの おんがくが すきです。",
+        "en": "I like Japanese music."
+      },
+      {
+        "ja": "弟は野菜が嫌いです。",
+        "reading": "おとうとは やさいが きらいです。",
+        "en": "My younger brother dislikes vegetables."
+      },
+      {
+        "ja": "田中さんは料理が上手です。",
+        "reading": "たなかさんは りょうりが じょうずです。",
+        "en": "Mr Tanaka is good at cooking."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "All four are な-adjectives: 好きな人, 好きじゃない. 大好き = love, 大嫌い = hate. Saying 上手 about your own skill sounds boastful; use 得意（とくい）instead. To say \"like doing X\", nominalise: 泳ぐのが好きです."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-32",
+    "slug": "32-gakaru-gadekiru",
+    "level": "n5",
+    "order": 32,
+    "title": "が分かる ／ ができる",
+    "romaji": "gakaru-gadekiru",
+    "meaning": "\"understand X\" / \"can do X\". Both take が for the thing understood or possible.",
+    "simpleExplanation": "\"understand X\" / \"can do X\". Both take が for the thing understood or possible.",
+    "formation": [
+      "Noun + が + 分かります／できます"
+    ],
+    "examples": [
+      {
+        "ja": "私は韓国語が少し分かります。",
+        "reading": "わたしは かんこくごが すこし わかります。",
+        "en": "I understand a little Korean."
+      },
+      {
+        "ja": "山田さんはピアノができます。",
+        "reading": "やまださんは ピアノが できます。",
+        "en": "Ms Yamada can play the piano."
+      },
+      {
+        "ja": "この漢字の意味が分かりません。",
+        "reading": "この かんじの いみが わかりません。",
+        "en": "I don't understand the meaning of this kanji."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "分かる is Group 1 (分かります／分からない); できる is Group 2 (できます／できない). Never use を with these verbs at N5 (×日本語を分かります). For \"can + verb\", see ことができる (#52)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-33",
+    "slug": "33-kunaru-ninaru",
+    "level": "n5",
+    "order": 33,
+    "title": "くなる ／ になる (change of state)",
+    "romaji": "kunaru-ninaru",
+    "meaning": "\"become ~\". Attaches to adjectives and nouns to express change.",
+    "simpleExplanation": "\"become ~\". Attaches to adjectives and nouns to express change.",
+    "formation": [
+      "い-adj stem + く + なる　／　な-adj + に + なる　／　Noun + に + なる"
+    ],
+    "examples": [
+      {
+        "ja": "天気がよくなりました。",
+        "reading": "てんきが よくなりました。",
+        "en": "The weather got better."
+      },
+      {
+        "ja": "部屋がきれいになりました。",
+        "reading": "へやが きれいに なりました。",
+        "en": "The room became clean."
+      },
+      {
+        "ja": "兄は医者になりました。",
+        "reading": "あには いしゃに なりました。",
+        "en": "My older brother became a doctor."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "いい → よくなる (irregular). Contrast with the parallel \"make ~\" pattern: くする／にする (部屋をきれいにする \"make the room clean\"). Common exam items: 暗くなる, 大きくなる, 静かになる, 元気になる."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-34",
+    "slug": "34-ha-ga",
+    "level": "n5",
+    "order": 34,
+    "title": "は 〜 が (topic + subject in one sentence)",
+    "romaji": "ha-ga",
+    "meaning": "The topic (は) is what you talk about; the subject (が) is what the predicate directly describes.",
+    "simpleExplanation": "The topic (は) is what you talk about; the subject (が) is what the predicate directly describes.",
+    "formation": [
+      "Topic + は + Subject + が + Predicate"
+    ],
+    "examples": [
+      {
+        "ja": "象は鼻が長いです。",
+        "reading": "ぞうは はなが ながいです。",
+        "en": "Elephants have long trunks. (lit. As for elephants, the nose is long.)"
+      },
+      {
+        "ja": "田中さんは目が大きいです。",
+        "reading": "たなかさんは めが おおきいです。",
+        "en": "Ms Tanaka has big eyes."
+      },
+      {
+        "ja": "東京は人が多いです。",
+        "reading": "とうきょうは ひとが おおいです。",
+        "en": "Tokyo has a lot of people."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Very common in N5 reading passages. The same structure underlies #29–#32 (私は犬が好きです). If the subject is a question word it always takes が: 誰が来ましたか — 田中さんが来ました.\n\n## Part F — て-form patterns"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-35",
+    "slug": "35-teimasu",
+    "level": "n5",
+    "order": 35,
+    "title": "ています (progressive / resulting state / habit)",
+    "romaji": "teimasu",
+    "meaning": "(1) an action in progress \"is ~ing\"; (2) a resulting state \"is ~ed\"; (3) a habitual action or occupation.",
+    "simpleExplanation": "(1) an action in progress \"is ~ing\"; (2) a resulting state \"is ~ed\"; (3) a habitual action or occupation.",
+    "formation": [
+      "V-て + います"
+    ],
+    "examples": [
+      {
+        "ja": "母は今料理を作っています。",
+        "reading": "はは は いま りょうりを つくっています。",
+        "en": "My mother is cooking now."
+      },
+      {
+        "ja": "私は東京に住んでいます。",
+        "reading": "わたしは とうきょうに すんでいます。",
+        "en": "I live in Tokyo."
+      },
+      {
+        "ja": "姉は銀行で働いています。",
+        "reading": "あねは ぎんこうで はたらいています。",
+        "en": "My older sister works at a bank."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "State verbs commonly used with ている: 住む, 結婚する, 知る (知っています \"I know\", but negative 知りません, NOT 知っていません), 持つ (持っています \"have\"). In speech い is often dropped: 食べてる."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-36",
+    "slug": "36-tekudasai",
+    "level": "n5",
+    "order": 36,
+    "title": "てください",
+    "romaji": "tekudasai",
+    "meaning": "\"Please do ~\" (polite request or instruction).",
+    "simpleExplanation": "\"Please do ~\" (polite request or instruction).",
+    "formation": [
+      "V-て + ください"
+    ],
+    "examples": [
+      {
+        "ja": "ちょっと待ってください。",
+        "reading": "ちょっと まってください。",
+        "en": "Please wait a moment."
+      },
+      {
+        "ja": "もう一度言ってください。",
+        "reading": "もういちど いってください。",
+        "en": "Please say it once more."
+      },
+      {
+        "ja": "ここに住所を書いてください。",
+        "reading": "ここに じゅうしょを かいてください。",
+        "en": "Please write your address here."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Softer alternatives: V-て + くださいませんか (would you please…?). Do not use てください to a superior for something for your own benefit; use ていただけませんか (N4). For \"please give me (a thing)\": Noun + をください (水をください)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-37",
+    "slug": "37-temoiidesu",
+    "level": "n5",
+    "order": 37,
+    "title": "てもいいです",
+    "romaji": "temoiidesu",
+    "meaning": "\"You may ~ / it is all right to ~\" (permission).",
+    "simpleExplanation": "\"You may ~ / it is all right to ~\" (permission).",
+    "formation": [
+      "V-て + もいいです　／　い-adj stem + くてもいいです　／　な-adj・Noun + でもいいです"
+    ],
+    "examples": [
+      {
+        "ja": "ここで写真を撮ってもいいですか。",
+        "reading": "ここで しゃしんを とっても いいですか。",
+        "en": "May I take photos here?"
+      },
+      {
+        "ja": "明日は来なくてもいいです。",
+        "reading": "あしたは こなくても いいです。",
+        "en": "You don't have to come tomorrow."
+      },
+      {
+        "ja": "部屋は小さくてもいいです。",
+        "reading": "へやは ちいさくても いいです。",
+        "en": "A small room is fine."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Asking permission: 〜てもいいですか. Answers: はい、どうぞ／いいですよ; refusal: すみません、ちょっと… or 〜てはいけません (#38). Plain casual form: 〜てもいい？"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-38",
+    "slug": "38-tehaikemasen",
+    "level": "n5",
+    "order": 38,
+    "title": "てはいけません",
+    "romaji": "tehaikemasen",
+    "meaning": "\"must not ~ / may not ~\" (prohibition).",
+    "simpleExplanation": "\"must not ~ / may not ~\" (prohibition).",
+    "formation": [
+      "V-て + はいけません"
+    ],
+    "examples": [
+      {
+        "ja": "ここでタバコを吸ってはいけません。",
+        "reading": "ここで タバコを すっては いけません。",
+        "en": "You must not smoke here."
+      },
+      {
+        "ja": "図書館で大きい声で話してはいけません。",
+        "reading": "としょかんで おおきい こえで はなしては いけません。",
+        "en": "You must not talk loudly in the library."
+      },
+      {
+        "ja": "試験のとき、辞書を使ってはいけません。",
+        "reading": "しけんの とき、じしょを つかっては いけません。",
+        "en": "You may not use a dictionary during the exam."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "In speech ては → ちゃ, では → じゃ: 食べちゃいけない, 飲んじゃだめ. Also 〜てはだめです (same meaning, more casual). Answer to 〜てもいいですか with a refusal: いいえ、〜てはいけません."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-39",
+    "slug": "39-tekara",
+    "level": "n5",
+    "order": 39,
+    "title": "てから",
+    "romaji": "tekara",
+    "meaning": "\"after doing ~, …\" (one action follows the completion of another).",
+    "simpleExplanation": "\"after doing ~, …\" (one action follows the completion of another).",
+    "formation": [
+      "V-て + から + second clause"
+    ],
+    "examples": [
+      {
+        "ja": "手を洗ってから、ご飯を食べます。",
+        "reading": "てを あらってから、ごはんを たべます。",
+        "en": "I eat after washing my hands."
+      },
+      {
+        "ja": "仕事が終わってから、映画を見に行きました。",
+        "reading": "しごとが おわってから、えいがを みに いきました。",
+        "en": "After work finished, I went to see a film."
+      },
+      {
+        "ja": "日本に来てから、三年になります。",
+        "reading": "にほんに きてから、さんねんに なります。",
+        "en": "It has been three years since I came to Japan."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Do not confuse with から meaning \"because\" (#63), which follows a full clause (寒いから), and から \"from\" (#17), which follows a noun. The tense of the sentence is set by the final verb, not by the て-form."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-40",
+    "slug": "40-naidekudasai",
+    "level": "n5",
+    "order": 40,
+    "title": "ないでください",
+    "romaji": "naidekudasai",
+    "meaning": "\"Please don't ~\" (negative request).",
+    "simpleExplanation": "\"Please don't ~\" (negative request).",
+    "formation": [
+      "V-ない + でください"
+    ],
+    "examples": [
+      {
+        "ja": "ここに車を止めないでください。",
+        "reading": "ここに くるまを とめないでください。",
+        "en": "Please don't park your car here."
+      },
+      {
+        "ja": "心配しないでください。",
+        "reading": "しんぱいしないでください。",
+        "en": "Please don't worry."
+      },
+      {
+        "ja": "授業中に携帯を使わないでください。",
+        "reading": "じゅぎょうちゅうに けいたいを つかわないでください。",
+        "en": "Please don't use your phone during class."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Built on the ない-form (#25), not the て-form. Casual: 〜ないで (来ないで). 〜ないで also joins clauses: 朝ご飯を食べないで学校に行きました \"went to school without eating breakfast\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-41",
+    "slug": "41-mou-mada",
+    "level": "n5",
+    "order": 41,
+    "title": "もう ／ まだ",
+    "romaji": "mou-mada",
+    "meaning": "もう = \"already\" (with affirmative) / \"not any more\" (with negative); まだ = \"still\" (affirmative) / \"not yet\" (with ていません).",
+    "simpleExplanation": "もう = \"already\" (with affirmative) / \"not any more\" (with negative); まだ = \"still\" (affirmative) / \"not yet\" (with ていません).",
+    "formation": [
+      "もう + V-ました ／ もう + V-ません　；　まだ + V-ています ／ まだ + V-ていません"
+    ],
+    "examples": [
+      {
+        "ja": "もう昼ご飯を食べましたか。",
+        "reading": "もう ひるごはんを たべましたか。",
+        "en": "Have you already eaten lunch?"
+      },
+      {
+        "ja": "いいえ、まだ食べていません。",
+        "reading": "いいえ、まだ たべていません。",
+        "en": "No, I haven't eaten yet."
+      },
+      {
+        "ja": "雨はまだ降っています。",
+        "reading": "あめは まだ ふっています。",
+        "en": "It is still raining."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Answer \"not yet\" with まだ〜ていません, NOT まだ〜ませんでした (which means \"didn't do it, and that's final\"). もう + negative = \"no longer\": もうお金がありません \"I have no money any more\". まだです alone = \"Not yet.\""
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-42",
+    "slug": "42-nagara",
+    "level": "n5",
+    "order": 42,
+    "title": "ながら",
+    "romaji": "nagara",
+    "meaning": "\"while doing ~\" — two actions performed at the same time by the same person.",
+    "simpleExplanation": "\"while doing ~\" — two actions performed at the same time by the same person.",
+    "formation": [
+      "V-ます + ながら + main verb"
+    ],
+    "examples": [
+      {
+        "ja": "音楽を聞きながら勉強します。",
+        "reading": "おんがくを ききながら べんきょうします。",
+        "en": "I study while listening to music."
+      },
+      {
+        "ja": "テレビを見ながらご飯を食べないでください。",
+        "reading": "テレビを みながら ごはんを たべないでください。",
+        "en": "Please don't eat while watching TV."
+      },
+      {
+        "ja": "父は新聞を読みながらコーヒーを飲んでいます。",
+        "reading": "ちちは しんぶんを よみながら コーヒーを のんでいます。",
+        "en": "My father is drinking coffee while reading the newspaper."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The main (more important) action comes second. Both actions must have the same subject; for different subjects use 〜ている間に (N4). Tense is carried only by the final verb.\n\n## Part G — Desire, invitation and intention"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-43",
+    "slug": "43-tai",
+    "level": "n5",
+    "order": 43,
+    "title": "たい",
+    "romaji": "tai",
+    "meaning": "\"want to ~\" (the speaker's own wish to do an action).",
+    "simpleExplanation": "\"want to ~\" (the speaker's own wish to do an action).",
+    "formation": [
+      "V-ます + たい(です)"
+    ],
+    "examples": [
+      {
+        "ja": "日本の温泉に行きたいです。",
+        "reading": "にほんの おんせんに いきたいです。",
+        "en": "I want to go to a hot spring in Japan."
+      },
+      {
+        "ja": "今日は何も食べたくないです。",
+        "reading": "きょうは なにも たべたくないです。",
+        "en": "I don't want to eat anything today."
+      },
+      {
+        "ja": "子供のとき、パイロットになりたかったです。",
+        "reading": "こどもの とき、パイロットに なりたかったです。",
+        "en": "When I was a child, I wanted to become a pilot."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "たい conjugates as an い-adjective: たくない, たかった, たくなかった. The object may take が or を: 水が飲みたい／水を飲みたい. Not used to ask a superior's wishes directly (use 〜ませんか or いかがですか); for third persons use 〜たがっている."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-44",
+    "slug": "44-mashou",
+    "level": "n5",
+    "order": 44,
+    "title": "ましょう",
+    "romaji": "mashou",
+    "meaning": "\"Let's ~\" (suggestion including the speaker); also a willing offer in reply to a request.",
+    "simpleExplanation": "\"Let's ~\" (suggestion including the speaker); also a willing offer in reply to a request.",
+    "formation": [
+      "V-ます + ましょう"
+    ],
+    "examples": [
+      {
+        "ja": "一緒に昼ご飯を食べましょう。",
+        "reading": "いっしょに ひるごはんを たべましょう。",
+        "en": "Let's have lunch together."
+      },
+      {
+        "ja": "じゃあ、駅の前で会いましょう。",
+        "reading": "じゃあ、えきの まえで あいましょう。",
+        "en": "Then let's meet in front of the station."
+      },
+      {
+        "ja": "少し休みましょう。",
+        "reading": "すこし やすみましょう。",
+        "en": "Let's rest a little."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Plain volitional: 食べよう, 行こう (N4). ましょう is a firm proposal; 〜ませんか (#45) is a gentler invitation that leaves the choice to the listener."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-45",
+    "slug": "45-masenka",
+    "level": "n5",
+    "order": 45,
+    "title": "ませんか",
+    "romaji": "masenka",
+    "meaning": "\"Won't you ~? / Would you like to ~?\" (polite invitation).",
+    "simpleExplanation": "\"Won't you ~? / Would you like to ~?\" (polite invitation).",
+    "formation": [
+      "V-ます + ませんか"
+    ],
+    "examples": [
+      {
+        "ja": "週末に映画を見に行きませんか。",
+        "reading": "しゅうまつに えいがを みに いきませんか。",
+        "en": "Would you like to go and see a film at the weekend?"
+      },
+      {
+        "ja": "コーヒーでも飲みませんか。",
+        "reading": "コーヒーでも のみませんか。",
+        "en": "Won't you have a coffee or something?"
+      },
+      {
+        "ja": "私の家に来ませんか。",
+        "reading": "わたしの いえに きませんか。",
+        "en": "Won't you come to my house?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Accept with ええ、いいですね／ぜひ; decline softly with すみません、ちょっと…. Note the difference from a plain negative question: 食べませんか as \"don't you eat (it)?\" is understood from context; the invitation reading is by far the most common on the exam."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-46",
+    "slug": "46-mashouka",
+    "level": "n5",
+    "order": 46,
+    "title": "ましょうか",
+    "romaji": "mashouka",
+    "meaning": "\"Shall I ~?\" (offer to do something for the listener) / \"Shall we ~?\" (proposal).",
+    "simpleExplanation": "\"Shall I ~?\" (offer to do something for the listener) / \"Shall we ~?\" (proposal).",
+    "formation": [
+      "V-ます + ましょうか"
+    ],
+    "examples": [
+      {
+        "ja": "荷物を持ちましょうか。",
+        "reading": "にもつを もちましょうか。",
+        "en": "Shall I carry your luggage?"
+      },
+      {
+        "ja": "窓を開けましょうか。",
+        "reading": "まどを あけましょうか。",
+        "en": "Shall I open the window?"
+      },
+      {
+        "ja": "そろそろ帰りましょうか。",
+        "reading": "そろそろ かえりましょうか。",
+        "en": "Shall we head home soon?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Reply to an offer: はい、お願いします (yes, please) or いいえ、結構です／大丈夫です (no, thank you). 手伝いましょうか \"Shall I help?\" is a standard listening-section line."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-47",
+    "slug": "47-tsumori",
+    "level": "n5",
+    "order": 47,
+    "title": "つもり",
+    "romaji": "tsumori",
+    "meaning": "\"intend to ~ / plan to ~\".",
+    "simpleExplanation": "\"intend to ~ / plan to ~\".",
+    "formation": [
+      "V-dict + つもりです　／　V-ない + つもりです"
+    ],
+    "examples": [
+      {
+        "ja": "来年日本へ留学するつもりです。",
+        "reading": "らいねん にほんへ りゅうがくする つもりです。",
+        "en": "I intend to study abroad in Japan next year."
+      },
+      {
+        "ja": "夏休みは国へ帰らないつもりです。",
+        "reading": "なつやすみは くにへ かえらない つもりです。",
+        "en": "I don't plan to go back to my country in the summer holidays."
+      },
+      {
+        "ja": "週末は何をするつもりですか。",
+        "reading": "しゅうまつは なにを する つもりですか。",
+        "en": "What do you plan to do at the weekend?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "つもり is a noun, so it follows the plain form. It expresses a fairly definite plan already decided; for a softer wish use 〜たいと思っています. 〜ないつもり (not planning to) is more common than 〜つもりはない (have no intention at all)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-48",
+    "slug": "48-tou",
+    "level": "n5",
+    "order": 48,
+    "title": "と思う",
+    "romaji": "tou",
+    "meaning": "\"I think that ~\" (opinion or guess).",
+    "simpleExplanation": "\"I think that ~\" (opinion or guess).",
+    "formation": [
+      "Plain form (V／い-adj／な-adj + だ／Noun + だ) + と思います"
+    ],
+    "examples": [
+      {
+        "ja": "明日は雨が降ると思います。",
+        "reading": "あしたは あめが ふると おもいます。",
+        "en": "I think it will rain tomorrow."
+      },
+      {
+        "ja": "この本は面白いと思います。",
+        "reading": "この ほんは おもしろいと おもいます。",
+        "en": "I think this book is interesting."
+      },
+      {
+        "ja": "田中さんは学生だと思います。",
+        "reading": "たなかさんは がくせいだと おもいます。",
+        "en": "I think Mr Tanaka is a student."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Nouns and な-adjectives need だ before と (×学生と思います). Negative opinion: 〜ないと思います is more natural than 〜と思いません. For someone else's opinion use 〜と思っています. Quoting speech uses the same structure with 言う: 「行く」と言いました."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-49",
+    "slug": "49-deshou",
+    "level": "n5",
+    "order": 49,
+    "title": "でしょう",
+    "romaji": "deshou",
+    "meaning": "\"probably ~ / I suppose ~\" (conjecture); with rising intonation でしょう？ = \"right?\" (seeking agreement).",
+    "simpleExplanation": "\"probably ~ / I suppose ~\" (conjecture); with rising intonation でしょう？ = \"right?\" (seeking agreement).",
+    "formation": [
+      "Plain form + でしょう (な-adj and Noun WITHOUT だ: 静かでしょう, 学生でしょう)"
+    ],
+    "examples": [
+      {
+        "ja": "明日は晴れるでしょう。",
+        "reading": "あしたは はれるでしょう。",
+        "en": "It will probably be sunny tomorrow."
+      },
+      {
+        "ja": "あの人はたぶん先生でしょう。",
+        "reading": "あの ひとは たぶん せんせいでしょう。",
+        "en": "That person is probably a teacher."
+      },
+      {
+        "ja": "この料理、おいしいでしょう？",
+        "reading": "この りょうり、おいしいでしょう？",
+        "en": "This dish is delicious, isn't it?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Plain equivalent: だろう. Typical of weather forecasts and polite guesses. Do not put だ before でしょう (×学生だでしょう). Contrast with と思う (#48), which states your own judgement; でしょう sounds softer and more tentative.\n\n## Part H — Obligation, ability and advice"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-50",
+    "slug": "50-nakerebanarimasen",
+    "level": "n5",
+    "order": 50,
+    "title": "なければなりません",
+    "romaji": "nakerebanarimasen",
+    "meaning": "\"must ~ / have to ~\" (obligation).",
+    "simpleExplanation": "\"must ~ / have to ~\" (obligation).",
+    "formation": [
+      "V-ない stem (drop い) + ければなりません　e.g. 行かない → 行かなければなりません"
+    ],
+    "examples": [
+      {
+        "ja": "明日は早く起きなければなりません。",
+        "reading": "あしたは はやく おきなければ なりません。",
+        "en": "I have to get up early tomorrow."
+      },
+      {
+        "ja": "毎日薬を飲まなければなりません。",
+        "reading": "まいにち くすりを のまなければ なりません。",
+        "en": "I must take medicine every day."
+      },
+      {
+        "ja": "来週までにレポートを出さなければなりません。",
+        "reading": "らいしゅうまでに レポートを ださなければ なりません。",
+        "en": "I must hand in the report by next week."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Equivalents: 〜なければいけません, 〜なくてはいけません, 〜ないといけません; casual 〜なきゃ／〜なくちゃ. Irregular: する→しなければ, 来る→来なければ(こなければ). Group 1 うverbs: 買う→買わなければ (not 買あなければ)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-51",
+    "slug": "51-nakutemoiidesu",
+    "level": "n5",
+    "order": 51,
+    "title": "なくてもいいです",
+    "romaji": "nakutemoiidesu",
+    "meaning": "\"don't have to ~ / need not ~\" (absence of obligation).",
+    "simpleExplanation": "\"don't have to ~ / need not ~\" (absence of obligation).",
+    "formation": [
+      "V-ない stem (drop い) + くてもいいです　e.g. 行かない → 行かなくてもいいです"
+    ],
+    "examples": [
+      {
+        "ja": "明日は学校に行かなくてもいいです。",
+        "reading": "あしたは がっこうに いかなくても いいです。",
+        "en": "You don't have to go to school tomorrow."
+      },
+      {
+        "ja": "靴を脱がなくてもいいですか。",
+        "reading": "くつを ぬがなくても いいですか。",
+        "en": "Is it all right not to take my shoes off?"
+      },
+      {
+        "ja": "急がなくてもいいですよ。",
+        "reading": "いそがなくても いいですよ。",
+        "en": "There's no need to hurry."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "This is the negative of the permission pattern てもいいです (#37). Contrast: 行かなければなりません (must go) ↔ 行かなくてもいいです (need not go) ↔ 行ってはいけません (must not go). Casual: 〜なくていい."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-52",
+    "slug": "52-kotogadekiru",
+    "level": "n5",
+    "order": 52,
+    "title": "ことができる",
+    "romaji": "kotogadekiru",
+    "meaning": "\"can ~ / be able to ~\" (ability or possibility).",
+    "simpleExplanation": "\"can ~ / be able to ~\" (ability or possibility).",
+    "formation": [
+      "V-dict + ことができます　／　Noun + ができます (#32)"
+    ],
+    "examples": [
+      {
+        "ja": "私は漢字を読むことができます。",
+        "reading": "わたしは かんじを よむことが できます。",
+        "en": "I can read kanji."
+      },
+      {
+        "ja": "ここで自転車を借りることができます。",
+        "reading": "ここで じてんしゃを かりることが できます。",
+        "en": "You can rent a bicycle here."
+      },
+      {
+        "ja": "昨日は忙しくて、電話することができませんでした。",
+        "reading": "きのうは いそがしくて、でんわすることが できませんでした。",
+        "en": "I was busy yesterday and couldn't phone."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "More formal than the potential form (読める, N4). The verb before こと stays in dictionary form; ことが is sometimes replaced by ことは in negatives. Do not say ×読むができる."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-53",
+    "slug": "53-hougaii",
+    "level": "n5",
+    "order": 53,
+    "title": "ほうがいい",
+    "romaji": "hougaii",
+    "meaning": "\"it would be better to ~ / you had better ~\" (advice).",
+    "simpleExplanation": "\"it would be better to ~ / you had better ~\" (advice).",
+    "formation": [
+      "V-た + ほうがいいです　／　V-ない + ほうがいいです"
+    ],
+    "examples": [
+      {
+        "ja": "熱があるなら、早く寝たほうがいいですよ。",
+        "reading": "ねつが あるなら、はやく ねたほうが いいですよ。",
+        "en": "If you have a fever, you'd better go to bed early."
+      },
+      {
+        "ja": "そんなに食べないほうがいいです。",
+        "reading": "そんなに たべないほうが いいです。",
+        "en": "You'd better not eat that much."
+      },
+      {
+        "ja": "傘を持って行ったほうがいいと思います。",
+        "reading": "かさを もって いったほうが いいと おもいます。",
+        "en": "I think you should take an umbrella."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Affirmative advice uses the た-form (寝たほうがいい), NOT the dictionary form; negative advice uses ない-form (寝ないほうがいい). Same ほう as in comparisons (#57). Softer: 〜たほうがいいと思います."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-54",
+    "slug": "54-maeni",
+    "level": "n5",
+    "order": 54,
+    "title": "まえに",
+    "romaji": "maeni",
+    "meaning": "\"before ~\".",
+    "simpleExplanation": "\"before ~\".",
+    "formation": [
+      "V-dict + 前に　／　Noun + の前に　／　Duration + 前に"
+    ],
+    "examples": [
+      {
+        "ja": "寝る前に歯を磨きます。",
+        "reading": "ねる まえに はを みがきます。",
+        "en": "I brush my teeth before going to bed."
+      },
+      {
+        "ja": "食事の前に手を洗ってください。",
+        "reading": "しょくじの まえに てを あらってください。",
+        "en": "Please wash your hands before the meal."
+      },
+      {
+        "ja": "三年前に日本に来ました。",
+        "reading": "さんねん まえに にほんに きました。",
+        "en": "I came to Japan three years ago."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The verb before 前に is ALWAYS dictionary form, even in past sentences: 日本に来る前に日本語を勉強しました. Opposite: V-た + 後で（あとで）／ Noun + の後で (N4, but 〜てから #39 is the N5 equivalent)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-55",
+    "slug": "55-taritarisuru",
+    "level": "n5",
+    "order": 55,
+    "title": "たり〜たりする",
+    "romaji": "taritarisuru",
+    "meaning": "\"do things like ~ and ~\" (a non-exhaustive list of actions).",
+    "simpleExplanation": "\"do things like ~ and ~\" (a non-exhaustive list of actions).",
+    "formation": [
+      "V-た + り、V-た + り + します"
+    ],
+    "examples": [
+      {
+        "ja": "週末は本を読んだり、音楽を聞いたりします。",
+        "reading": "しゅうまつは ほんを よんだり、おんがくを きいたり します。",
+        "en": "At weekends I do things like reading books and listening to music."
+      },
+      {
+        "ja": "昨日は掃除をしたり、洗濯をしたりしました。",
+        "reading": "きのうは そうじを したり、せんたくを したり しました。",
+        "en": "Yesterday I did cleaning, laundry and so on."
+      },
+      {
+        "ja": "パーティーで歌ったり、踊ったりしました。",
+        "reading": "パーティーで うたったり、おどったり しました。",
+        "en": "At the party we sang, danced and so on."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The final する carries the tense (します／しました). Usually two たり are used, but one is possible. Unlike て-form sequencing (#24) the order is not chronological. Also with adjectives: 暑かったり寒かったりします \"is sometimes hot, sometimes cold\".\n\n## Part I — Comparison and degree"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-56",
+    "slug": "56-yori",
+    "level": "n5",
+    "order": 56,
+    "title": "より",
+    "romaji": "yori",
+    "meaning": "\"than ~\" — marks the standard of comparison.",
+    "simpleExplanation": "\"than ~\" — marks the standard of comparison.",
+    "formation": [
+      "A + は + B + より + adjective"
+    ],
+    "examples": [
+      {
+        "ja": "東京は大阪より大きいです。",
+        "reading": "とうきょうは おおさかより おおきいです。",
+        "en": "Tokyo is bigger than Osaka."
+      },
+      {
+        "ja": "今日は昨日より暖かいです。",
+        "reading": "きょうは きのうより あたたかいです。",
+        "en": "Today is warmer than yesterday."
+      },
+      {
+        "ja": "飛行機は電車より速いです。",
+        "reading": "ひこうきは でんしゃより はやいです。",
+        "en": "Planes are faster than trains."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The adjective does not change form in Japanese comparisons (no \"-er\"). Word order can be swapped: 大阪より東京のほうが大きいです (see #57). より can also follow verbs: 車で行くより電車で行ったほうが早いです."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-57",
+    "slug": "57-houga",
+    "level": "n5",
+    "order": 57,
+    "title": "ほうが",
+    "romaji": "houga",
+    "meaning": "\"~ is more ~\" — highlights the item that is greater in a comparison, especially in answers to \"which\".",
+    "simpleExplanation": "\"~ is more ~\" — highlights the item that is greater in a comparison, especially in answers to \"which\".",
+    "formation": [
+      "Noun + のほうが + adjective　／　V-plain + ほうが + adjective"
+    ],
+    "examples": [
+      {
+        "ja": "夏より冬のほうが好きです。",
+        "reading": "なつより ふゆのほうが すきです。",
+        "en": "I like winter more than summer."
+      },
+      {
+        "ja": "歩くほうが健康にいいです。",
+        "reading": "あるくほうが けんこうに いいです。",
+        "en": "Walking is better for your health."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Question for two items: AとBと、どちら(のほう)が〜ですか. When both are equal: どちらも〜／AとBは同じぐらい〜. Not used with three or more items (see #58)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-58",
+    "slug": "58-ichiban",
+    "level": "n5",
+    "order": 58,
+    "title": "いちばん (superlative)",
+    "romaji": "ichiban",
+    "meaning": "\"the most ~ / the ~est\" among three or more, or within a group.",
+    "simpleExplanation": "\"the most ~ / the ~est\" among three or more, or within a group.",
+    "formation": [
+      "Group + の中で + Noun + が + 一番 + adjective　／　Question word + が + 一番 + adjective + か"
+    ],
+    "examples": [
+      {
+        "ja": "スポーツの中で何が一番好きですか。",
+        "reading": "スポーツの なかで なにが いちばん すきですか。",
+        "en": "Among sports, what do you like best?"
+      },
+      {
+        "ja": "クラスで田中さんが一番背が高いです。",
+        "reading": "クラスで たなかさんが いちばん せが たかいです。",
+        "en": "Mr Tanaka is the tallest in the class."
+      },
+      {
+        "ja": "日本で一番高い山は富士山です。",
+        "reading": "にほんで いちばん たかい やまは ふじさんです。",
+        "en": "The highest mountain in Japan is Mt Fuji."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Question words: 何 (things), 誰 (people), どこ (places), いつ (time), どれ (choosing from a set of items), どの + noun. Answer with が, not は: 田中さんが一番〜."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-59",
+    "slug": "59-sugiru",
+    "level": "n5",
+    "order": 59,
+    "title": "すぎる",
+    "romaji": "sugiru",
+    "meaning": "\"too ~ / excessively ~\".",
+    "simpleExplanation": "\"too ~ / excessively ~\".",
+    "formation": [
+      "V-ます + すぎる　／　い-adj stem + すぎる　／　な-adj + すぎる"
+    ],
+    "examples": [
+      {
+        "ja": "昨日は食べすぎました。",
+        "reading": "きのうは たべすぎました。",
+        "en": "I ate too much yesterday."
+      },
+      {
+        "ja": "この靴は大きすぎます。",
+        "reading": "この くつは おおきすぎます。",
+        "en": "These shoes are too big."
+      },
+      {
+        "ja": "この問題は簡単すぎます。",
+        "reading": "この もんだいは かんたんすぎます。",
+        "en": "This question is too easy."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "すぎる is a Group 2 verb (すぎます／すぎない／すぎた). いい → よすぎる; ない → なさすぎる. It carries a negative nuance (excess), so use とても for a neutral \"very\". Noun form: 食べすぎ (overeating), 飲みすぎ."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-60",
+    "slug": "60-yasui-nikui",
+    "level": "n5",
+    "order": 60,
+    "title": "やすい ／ にくい",
+    "romaji": "yasui-nikui",
+    "meaning": "\"easy to ~\" / \"hard to ~\".",
+    "simpleExplanation": "\"easy to ~\" / \"hard to ~\".",
+    "formation": [
+      "V-ます + やすい　／　V-ます + にくい"
+    ],
+    "examples": [
+      {
+        "ja": "この本は字が大きくて読みやすいです。",
+        "reading": "この ほんは じが おおきくて よみやすいです。",
+        "en": "This book has big print and is easy to read."
+      },
+      {
+        "ja": "このペンは書きにくいです。",
+        "reading": "この ペンは かきにくいです。",
+        "en": "This pen is hard to write with."
+      },
+      {
+        "ja": "先生の説明は分かりやすかったです。",
+        "reading": "せんせいの せつめいは わかりやすかったです。",
+        "en": "The teacher's explanation was easy to understand."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Both conjugate as い-adjectives: 読みやすくない, 読みやすかった. やすい here has nothing to do with 安い (cheap). にくい ≠ 憎い (hateful). Also expresses tendency: 壊れやすい \"breaks easily\", 風邪をひきやすい \"catches colds easily\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-61",
+    "slug": "61-amari-zenzen-negative",
+    "level": "n5",
+    "order": 61,
+    "title": "あまり ／ ぜんぜん + negative",
+    "romaji": "amari-zenzen-negative",
+    "meaning": "あまり〜ない = \"not very / not much\"; ぜんぜん〜ない = \"not at all\".",
+    "simpleExplanation": "あまり〜ない = \"not very / not much\"; ぜんぜん〜ない = \"not at all\".",
+    "formation": [
+      "あまり／全然 + negative predicate (verb, adjective or noun + じゃない)"
+    ],
+    "examples": [
+      {
+        "ja": "私はあまりテレビを見ません。",
+        "reading": "わたしは あまり テレビを みません。",
+        "en": "I don't watch TV much."
+      },
+      {
+        "ja": "この映画は全然面白くなかったです。",
+        "reading": "この えいがは ぜんぜん おもしろくなかったです。",
+        "en": "This film was not interesting at all."
+      },
+      {
+        "ja": "漢字はあまり難しくないです。",
+        "reading": "かんじは あまり むずかしくないです。",
+        "en": "Kanji are not very difficult."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Both require a negative ending on the exam (×あまり好きです). Other negative-polarity adverbs: 何も／誰も／どこも + negative (#12), 一度も〜ない \"never once\", なかなか〜ない (N4). Colloquial 全然大丈夫 (positive) is heard in speech but not tested as correct."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-62",
+    "slug": "62-goro-gurai-kurai",
+    "level": "n5",
+    "order": 62,
+    "title": "ごろ ／ ぐらい・くらい",
+    "romaji": "goro-gurai-kurai",
+    "meaning": "ごろ = \"around / about\" a point in time; ぐらい (くらい) = \"about / approximately\" an amount or duration.",
+    "simpleExplanation": "ごろ = \"around / about\" a point in time; ぐらい (くらい) = \"about / approximately\" an amount or duration.",
+    "formation": [
+      "Time point + ごろ　／　Quantity・Duration + ぐらい"
+    ],
+    "examples": [
+      {
+        "ja": "毎朝七時ごろ起きます。",
+        "reading": "まいあさ しちじごろ おきます。",
+        "en": "I get up at around seven every morning."
+      },
+      {
+        "ja": "駅まで歩いて十分ぐらいかかります。",
+        "reading": "えきまで あるいて じゅっぷんぐらい かかります。",
+        "en": "It takes about ten minutes to walk to the station."
+      },
+      {
+        "ja": "学生が三十人ぐらい来ました。",
+        "reading": "がくせいが さんじゅうにんぐらい きました。",
+        "en": "About thirty students came."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Classic exam contrast: 三時ごろ (around 3 o'clock — point in time) vs 三時間ぐらい (about 3 hours — duration). ×七時ぐらいに is heard in speech but ごろ is the tested form for clock times. どのぐらい／どのくらい = \"how long / how much\".\n\n## Part J — Reasons, contrast and connectors"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-63",
+    "slug": "63-kara",
+    "level": "n5",
+    "order": 63,
+    "title": "から (reason)",
+    "romaji": "kara",
+    "meaning": "\"because ~, so ~\" — gives a reason; the reason clause comes first.",
+    "simpleExplanation": "\"because ~, so ~\" — gives a reason; the reason clause comes first.",
+    "formation": [
+      "Reason (plain or polite form) + から + result　／　Result。Reason + からです"
+    ],
+    "examples": [
+      {
+        "ja": "時間がないから、タクシーで行きましょう。",
+        "reading": "じかんが ないから、タクシーで いきましょう。",
+        "en": "We have no time, so let's go by taxi."
+      },
+      {
+        "ja": "疲れましたから、今日は早く帰ります。",
+        "reading": "つかれましたから、きょうは はやく かえります。",
+        "en": "I'm tired, so I'll go home early today."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "から can follow polite forms (ですから／ますから) in polite speech. It is subjective and can be used with commands and invitations (寒いから窓を閉めてください), unlike ので (#64), which sounds softer. Answer \"why\" questions with 〜からです."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-64",
+    "slug": "64-node",
+    "level": "n5",
+    "order": 64,
+    "title": "ので",
+    "romaji": "node",
+    "meaning": "\"because ~ / since ~\" — a softer, more objective reason than から.",
+    "simpleExplanation": "\"because ~ / since ~\" — a softer, more objective reason than から.",
+    "formation": [
+      "V／い-adj plain + ので　；　な-adj + なので　；　Noun + なので"
+    ],
+    "examples": [
+      {
+        "ja": "雨が降っているので、試合は中止です。",
+        "reading": "あめが ふっているので、しあいは ちゅうしです。",
+        "en": "Because it is raining, the match is cancelled."
+      },
+      {
+        "ja": "明日は休みなので、ゆっくり寝ます。",
+        "reading": "あしたは やすみなので、ゆっくり ねます。",
+        "en": "Tomorrow is a day off, so I'll sleep in."
+      },
+      {
+        "ja": "用事があるので、お先に失礼します。",
+        "reading": "ようじが あるので、おさきに しつれいします。",
+        "en": "I have an errand, so excuse me for leaving first."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "な-adjectives and nouns take なので (×休みだので). ので is preferred when asking a favour or excusing yourself because it sounds less assertive: 頭が痛いので、帰ってもいいですか. In polite speech ますので／ですので also occur."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-65",
+    "slug": "65-ndesu-nodesu",
+    "level": "n5",
+    "order": 65,
+    "title": "んです ／ のです",
+    "romaji": "ndesu-nodesu",
+    "meaning": "Explanatory ending — asks for or gives an explanation, background or reason; \"it is that ~\".",
+    "simpleExplanation": "Explanatory ending — asks for or gives an explanation, background or reason; \"it is that ~\".",
+    "formation": [
+      "V／い-adj plain + んです　；　な-adj + なんです　；　Noun + なんです"
+    ],
+    "examples": [
+      {
+        "ja": "明日はパーティーに行きません。用事があるんです。",
+        "reading": "あしたは パーティーに いきません。ようじが あるんです。",
+        "en": "I'm not going to the party tomorrow. I have something to do."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "のです is the written form; んです in speech. Nouns and な-adjectives need な (×日本人んです). 〜んですが、… softens a request: 道が分からないんですが、教えていただけますか. Overusing んです in neutral statements sounds odd."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-66",
+    "slug": "66-ga",
+    "level": "n5",
+    "order": 66,
+    "title": "が (but)",
+    "romaji": "ga",
+    "meaning": "\"~, but ~\" — joins two contrasting clauses; also a soft introduction (\"~, and…\").",
+    "simpleExplanation": "\"~, but ~\" — joins two contrasting clauses; also a soft introduction (\"~, and…\").",
+    "formation": [
+      "Clause 1 (polite or plain) + が、Clause 2"
+    ],
+    "examples": [
+      {
+        "ja": "日本語は難しいですが、面白いです。",
+        "reading": "にほんごは むずかしいですが、おもしろいです。",
+        "en": "Japanese is difficult, but it's interesting."
+      },
+      {
+        "ja": "昨日デパートへ行きましたが、何も買いませんでした。",
+        "reading": "きのう デパートへ いきましたが、なにも かいませんでした。",
+        "en": "I went to the department store yesterday, but I didn't buy anything."
+      },
+      {
+        "ja": "すみませんが、ペンを貸してください。",
+        "reading": "すみませんが、ペンを かしてください。",
+        "en": "Excuse me, but could you lend me a pen?"
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "In polite speech both clauses are usually polite (〜ですが、〜です). This が is a conjunction, not the subject particle (#6). Sentence-initial equivalent: でも (#68). けど (#67) is the casual counterpart."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-67",
+    "slug": "67-kedo-keredomo",
+    "level": "n5",
+    "order": 67,
+    "title": "けど ／ けれども",
+    "romaji": "kedo-keredomo",
+    "meaning": "\"but / although\" — casual equivalent of the conjunction が.",
+    "simpleExplanation": "\"but / although\" — casual equivalent of the conjunction が.",
+    "formation": [
+      "Clause 1 (plain or polite) + けど／けれど／けれども、Clause 2"
+    ],
+    "examples": [
+      {
+        "ja": "高いけど、買います。",
+        "reading": "たかいけど、かいます。",
+        "en": "It's expensive, but I'll buy it."
+      },
+      {
+        "ja": "頑張ったけど、試験に落ちました。",
+        "reading": "がんばったけど、しけんに おちました。",
+        "en": "I tried hard, but I failed the exam."
+      },
+      {
+        "ja": "田中さんは親切だけど、ちょっと厳しいです。",
+        "reading": "たなかさんは しんせつだけど、ちょっと きびしいです。",
+        "en": "Mr Tanaka is kind, but a little strict."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "な-adjectives and nouns take だけど in plain style (親切だけど, 学生だけど). Politeness scale: けど (casual) < けれど < けれども (formal) ≈ が. At the end of a sentence 〜けど… leaves the thought trailing politely."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-68",
+    "slug": "68-demo-demo",
+    "level": "n5",
+    "order": 68,
+    "title": "でも (however) ／ でも (even, or something)",
+    "romaji": "demo-demo",
+    "meaning": "(1) Sentence-initial でも = \"but / however\". (2) Noun + でも = \"even ~\" or \"~ or something\" (a casual suggestion).",
+    "simpleExplanation": "(1) Sentence-initial でも = \"but / however\". (2) Noun + でも = \"even ~\" or \"~ or something\" (a casual suggestion).",
+    "formation": [
+      "。でも、…　／　Noun + でも"
+    ],
+    "examples": [
+      {
+        "ja": "昨日は雨でした。でも、サッカーをしました。",
+        "reading": "きのうは あめでした。でも、サッカーを しました。",
+        "en": "It rained yesterday. But we played football."
+      },
+      {
+        "ja": "お茶でも飲みませんか。",
+        "reading": "おちゃでも のみませんか。",
+        "en": "Would you like some tea or something?"
+      },
+      {
+        "ja": "この問題は子供でも分かります。",
+        "reading": "この もんだいは こどもでも わかります。",
+        "en": "Even a child can understand this question."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "でも as \"but\" starts a new sentence; が／けど join clauses inside one sentence. しかし is the formal written equivalent. Question word + でも = \"any\": 何でも (anything), 誰でも (anyone), いつでも (any time), どこでも (anywhere)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-69",
+    "slug": "69-soshite-sorekara-sorede",
+    "level": "n5",
+    "order": 69,
+    "title": "そして ／ それから ／ それで",
+    "romaji": "soshite-sorekara-sorede",
+    "meaning": "Sentence connectors: そして = \"and (then)\"; それから = \"and then / after that\"; それで = \"so / therefore\".",
+    "simpleExplanation": "Sentence connectors: そして = \"and (then)\"; それから = \"and then / after that\"; それで = \"so / therefore\".",
+    "formation": [
+      "Sentence 1。そして／それから／それで、Sentence 2。"
+    ],
+    "examples": [
+      {
+        "ja": "朝ご飯を食べました。そして、学校へ行きました。",
+        "reading": "あさごはんを たべました。そして、がっこうへ いきました。",
+        "en": "I ate breakfast. And then I went to school."
+      },
+      {
+        "ja": "買い物をしました。それから、映画を見ました。",
+        "reading": "かいものを しました。それから、えいがを みました。",
+        "en": "I did some shopping. After that, I watched a film."
+      },
+      {
+        "ja": "昨日は熱がありました。それで、学校を休みました。",
+        "reading": "きのうは ねつが ありました。それで、がっこうを やすみました。",
+        "en": "I had a fever yesterday. So I stayed home from school."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "それから also adds items: パンと牛乳、それから卵をください. それで introduces a result and can prompt continuation in conversation (それで？ \"And then?\"). Other N5 connectors: しかし (however, formal), それでは／じゃあ (well then), また (also)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-70",
+    "slug": "70-soudesu",
+    "level": "n5",
+    "order": 70,
+    "title": "そうです (appearance)",
+    "romaji": "soudesu",
+    "meaning": "\"looks ~ / seems ~\" — a judgement from what you see; with verbs, \"looks about to ~\".",
+    "simpleExplanation": "\"looks ~ / seems ~\" — a judgement from what you see; with verbs, \"looks about to ~\".",
+    "formation": [
+      "い-adj stem + そうです　／　な-adj + そうです　／　V-ます + そうです"
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは元気そうです。",
+        "reading": "たなかさんは げんきそうです。",
+        "en": "Mr Tanaka looks well."
+      },
+      {
+        "ja": "雨が降りそうです。",
+        "reading": "あめが ふりそうです。",
+        "en": "It looks like it's going to rain."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Irregular: いい → よさそう, ない → なさそう. Not used with things obvious from sight (×きれいそう — you can see it is pretty). Before a noun: おいしそうなケーキ. Contrast with hearsay そうです (plain form + そうです: おいしいそうです \"I hear it's delicious\"), an N4 point.\n\n## Part K — Limitation, quantity and time"
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-71",
+    "slug": "71-nado",
+    "level": "n5",
+    "order": 71,
+    "title": "など",
+    "romaji": "nado",
+    "meaning": "\"and so on / etc.\" — an incomplete list of nouns.",
+    "simpleExplanation": "\"and so on / etc.\" — an incomplete list of nouns.",
+    "formation": [
+      "Noun + や + Noun + など"
+    ],
+    "examples": [
+      {
+        "ja": "机の上に本やノートなどがあります。",
+        "reading": "つくえの うえに ほんや ノートなどが あります。",
+        "en": "There are books, notebooks and so on on the desk."
+      },
+      {
+        "ja": "京都や奈良などへ行きたいです。",
+        "reading": "きょうとや ならなどへ いきたいです。",
+        "en": "I want to go to Kyoto, Nara and other such places."
+      },
+      {
+        "ja": "スーパーで野菜や果物などを買いました。",
+        "reading": "スーパーで やさいや くだものなどを かいました。",
+        "en": "I bought vegetables, fruit and so on at the supermarket."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Usually pairs with や (#19) — never with と, which lists exhaustively. Spoken variant: なんか. The particle follows など: などが／などを／などへ."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-72",
+    "slug": "72-dake",
+    "level": "n5",
+    "order": 72,
+    "title": "だけ",
+    "romaji": "dake",
+    "meaning": "\"only / just ~\".",
+    "simpleExplanation": "\"only / just ~\".",
+    "formation": [
+      "Noun + だけ (+ particle)　／　Quantity + だけ　／　V-plain + だけ"
+    ],
+    "examples": [
+      {
+        "ja": "教室に学生が一人だけいます。",
+        "reading": "きょうしつに がくせいが ひとりだけ います。",
+        "en": "There is only one student in the classroom."
+      },
+      {
+        "ja": "朝はコーヒーだけ飲みます。",
+        "reading": "あさは コーヒーだけ のみます。",
+        "en": "In the morning I drink only coffee."
+      },
+      {
+        "ja": "見るだけで、買いません。",
+        "reading": "みるだけで、かいません。",
+        "en": "I'm just looking; I won't buy."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "だけ takes an affirmative predicate; しか (#73) takes a negative one. Particles が／を are usually dropped after だけ (コーヒーだけ飲む); に／で／と stay (田中さんとだけ話す)."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-73",
+    "slug": "73-shikanai",
+    "level": "n5",
+    "order": 73,
+    "title": "しか〜ない",
+    "romaji": "shikanai",
+    "meaning": "\"only ~ (and nothing more)\" — emphasises that the amount is small or insufficient.",
+    "simpleExplanation": "\"only ~ (and nothing more)\" — emphasises that the amount is small or insufficient.",
+    "formation": [
+      "Noun／Quantity + しか + negative predicate"
+    ],
+    "examples": [
+      {
+        "ja": "財布に百円しかありません。",
+        "reading": "さいふに ひゃくえんしか ありません。",
+        "en": "I have only 100 yen in my wallet."
+      },
+      {
+        "ja": "この店は日曜日しか休みません。",
+        "reading": "この みせは にちようびしか やすみません。",
+        "en": "This shop closes only on Sundays."
+      },
+      {
+        "ja": "日本語は少ししか話せません。",
+        "reading": "にほんごは すこししか はなせません。",
+        "en": "I can speak only a little Japanese."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "The predicate MUST be negative (×百円しかあります). が／を are replaced by しか; other particles stay before it (東京にしか行ったことがない). だけ is neutral; しか〜ない implies \"that's too little\"."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-74",
+    "slug": "74-ni-vs-no-particle",
+    "level": "n5",
+    "order": 74,
+    "title": "に (specific time) vs no particle",
+    "romaji": "ni-vs-no-particle",
+    "meaning": "に marks a specific point in time (clock time, date, day of the week, month, year). Relative time words take no particle.",
+    "simpleExplanation": "に marks a specific point in time (clock time, date, day of the week, month, year). Relative time words take no particle.",
+    "formation": [
+      "三時に、日曜日に、五月に、2020年に　／　今日、明日、毎朝、来週、今 (no に)"
+    ],
+    "examples": [
+      {
+        "ja": "授業は九時に始まります。",
+        "reading": "じゅぎょうは くじに はじまります。",
+        "en": "Class starts at nine."
+      },
+      {
+        "ja": "土曜日に友達と映画を見ます。",
+        "reading": "どようびに ともだちと えいがを みます。",
+        "en": "On Saturday I'll see a film with a friend."
+      },
+      {
+        "ja": "明日、田中さんに会います。",
+        "reading": "あした、たなかさんに あいます。",
+        "en": "I'll meet Mr Tanaka tomorrow."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Test favourite: ×明日に, ×毎日に are wrong; 三時に, 月曜日に, 誕生日に are right. Time spans take no に either: 三時間勉強しました. に is optional after 朝／夜／春／夏 etc. Also に marks the destination (#8) and the person you meet／give to."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-75",
+    "slug": "75-ni",
+    "level": "n5",
+    "order": 75,
+    "title": "に (frequency: per)",
+    "romaji": "ni",
+    "meaning": "\"~ times per (period)\".",
+    "simpleExplanation": "\"~ times per (period)\".",
+    "formation": [
+      "Period + に + Number of times (回／度) + verb"
+    ],
+    "examples": [
+      {
+        "ja": "週に二回テニスをします。",
+        "reading": "しゅうに にかい テニスを します。",
+        "en": "I play tennis twice a week."
+      },
+      {
+        "ja": "一日に三回薬を飲んでください。",
+        "reading": "いちにちに さんかい くすりを のんでください。",
+        "en": "Please take the medicine three times a day."
+      },
+      {
+        "ja": "年に一度、国へ帰ります。",
+        "reading": "ねんに いちど、くにへ かえります。",
+        "en": "I go back to my country once a year."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Counter 回（かい）: 一回, 二回, 三回, 四回（よんかい）, 六回（ろっかい）, 十回（じゅっかい）. 度（ど）is a slightly more formal alternative. The period may also be one week etc.: 一週間に一回. Question: 週に何回〜ますか."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  },
+  {
+    "id": "n5-grammar-76",
+    "slug": "76-counters",
+    "level": "n5",
+    "order": 76,
+    "title": "Counters (つ・人・本・枚・匹・冊・台・杯・回・階)",
+    "romaji": "counters",
+    "meaning": "Numbers must be followed by a counter matching the type of object.",
+    "simpleExplanation": "Numbers must be followed by a counter matching the type of object.",
+    "formation": [
+      "Noun + を／が + Number + counter + verb　(the counter phrase usually sits right before the verb)"
+    ],
+    "examples": [
+      {
+        "ja": "りんごを三つください。",
+        "reading": "りんごを みっつ ください。",
+        "en": "Three apples, please."
+      },
+      {
+        "ja": "家族は四人です。",
+        "reading": "かぞくは よにんです。",
+        "en": "There are four people in my family."
+      },
+      {
+        "ja": "ビールを二本と、コーヒーを一杯お願いします。",
+        "reading": "ビールを にほんと、コーヒーを いっぱい おねがいします。",
+        "en": "Two bottles of beer and one coffee, please."
+      }
+    ],
+    "similarGrammar": [],
+    "commonMistakes": [],
+    "usageNotes": [
+      "Key irregulars: 一人（ひとり）, 二人（ふたり）, 四人（よにん）; 一本（いっぽん）, 三本（さんぼん）, 六本（ろっぽん）; 一枚（いちまい）; 一匹（いっぴき）, 三匹（さんびき）; 一冊（いっさつ）; 一台（いちだい）; 一杯（いっぱい）, 三杯（さんばい）; 一階（いっかい）, 三階（さんがい）. Native numbers ひとつ〜とお (十) for general objects; ask \"how many\" with いくつ／何人／何本 etc."
+    ],
+    "jlptTips": [],
+    "practiceQuestionIds": [],
+    "jlptQuestionIds": [],
+    "reviewAfterDays": 3,
+    "enriched": false
+  }
+]

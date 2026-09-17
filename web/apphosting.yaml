@@ -1,0 +1,52 @@
+# Firebase App Hosting configuration for the Next.js SSR app.
+# Schema: https://firebase.google.com/docs/app-hosting/configure
+#
+# NEXT_PUBLIC_* values are the public Firebase web-app config. They ship to the
+# browser anyway, so they are plain values here, not Secret Manager secrets.
+# Replace every REPLACE-ME below with the values from
+# Firebase console > Project settings > General > Your apps (Web app).
+#
+# App Hosting also injects FIREBASE_WEBAPP_CONFIG (the same web-app config as JSON)
+# and FIREBASE_CONFIG at build and run time; next.config.mjs falls back to
+# FIREBASE_WEBAPP_CONFIG for any NEXT_PUBLIC_FIREBASE_* value that is not set,
+# so when the backend is linked to the web app these entries are only overrides.
+runConfig:
+  minInstances: 0
+  maxInstances: 4
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+
+env:
+  # Public URL of the deployed site (canonical links, sitemap, Secure cookie flag).
+  # Set to the *.hosted.app URL after the first rollout, or to the custom domain.
+  - variable: NEXT_PUBLIC_SITE_URL
+    value: https://REPLACE-ME.hosted.app
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: REPLACE-ME
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: opusify-japanese.firebaseapp.com
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: opusify-japanese
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: opusify-japanese.firebasestorage.app
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "REPLACE-ME"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: REPLACE-ME
+    availability: [BUILD, RUNTIME]
+
+  # OPTIONAL. On App Hosting the Admin SDK authenticates as the backend's service
+  # account through Application Default Credentials, so this is NOT needed.
+  # Uncomment only to override the credentials (for example another project).
+  # Runtime-only: it must never be available at build time.
+  # Create the secret first: firebase apphosting:secrets:set firebase-service-account-json
+  # - variable: FIREBASE_SERVICE_ACCOUNT_JSON
+  #   secret: firebase-service-account-json
+  #   availability: [RUNTIME]

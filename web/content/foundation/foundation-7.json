@@ -1,0 +1,462 @@
+{
+  "id": "foundation-7",
+  "slug": "days-months-dates-time",
+  "order": 7,
+  "kind": "numbers",
+  "title": "Days, months, dates and time",
+  "summary": "Days of the week, the twelve months (with しがつ, しちがつ, くがつ), all 31 days of the month, clock time with よじ / しちじ / くじ and 〜ぷん, and the relative-time words you use every day.",
+  "minutes": 25,
+  "sections": [
+    {
+      "heading": "Days of the week",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "曜日",
+          "columns": [
+            "Day",
+            "Kanji",
+            "Reading"
+          ],
+          "rows": [
+            [
+              "Monday",
+              "月曜日",
+              "げつようび"
+            ],
+            [
+              "Tuesday",
+              "火曜日",
+              "かようび"
+            ],
+            [
+              "Wednesday",
+              "水曜日",
+              "すいようび"
+            ],
+            [
+              "Thursday",
+              "木曜日",
+              "もくようび"
+            ],
+            [
+              "Friday",
+              "金曜日",
+              "きんようび"
+            ],
+            [
+              "Saturday",
+              "土曜日",
+              "どようび"
+            ],
+            [
+              "Sunday",
+              "日曜日",
+              "にちようび"
+            ],
+            [
+              "What day?",
+              "何曜日",
+              "なんようび"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Months",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Month = number + がつ",
+          "columns": [
+            "Month",
+            "Kanji",
+            "Reading",
+            "Month",
+            "Kanji",
+            "Reading"
+          ],
+          "rows": [
+            [
+              "January",
+              "一月",
+              "いちがつ",
+              "July",
+              "七月",
+              "しちがつ"
+            ],
+            [
+              "February",
+              "二月",
+              "にがつ",
+              "August",
+              "八月",
+              "はちがつ"
+            ],
+            [
+              "March",
+              "三月",
+              "さんがつ",
+              "September",
+              "九月",
+              "くがつ"
+            ],
+            [
+              "April",
+              "四月",
+              "しがつ",
+              "October",
+              "十月",
+              "じゅうがつ"
+            ],
+            [
+              "May",
+              "五月",
+              "ごがつ",
+              "November",
+              "十一月",
+              "じゅういちがつ"
+            ],
+            [
+              "June",
+              "六月",
+              "ろくがつ",
+              "December",
+              "十二月",
+              "じゅうにがつ"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Irregular months",
+          "text": "April = しがつ, July = しちがつ, September = くがつ. What month? = 何月 なんがつ.",
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "heading": "Days of the month (all 31)",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Dates",
+          "columns": [
+            "Date",
+            "Reading",
+            "Date",
+            "Reading",
+            "Date",
+            "Reading"
+          ],
+          "rows": [
+            [
+              "1日",
+              "ついたち",
+              "11日",
+              "じゅういちにち",
+              "21日",
+              "にじゅういちにち"
+            ],
+            [
+              "2日",
+              "ふつか",
+              "12日",
+              "じゅうににち",
+              "22日",
+              "にじゅうににち"
+            ],
+            [
+              "3日",
+              "みっか",
+              "13日",
+              "じゅうさんにち",
+              "23日",
+              "にじゅうさんにち"
+            ],
+            [
+              "4日",
+              "よっか",
+              "14日",
+              "じゅうよっか",
+              "24日",
+              "にじゅうよっか"
+            ],
+            [
+              "5日",
+              "いつか",
+              "15日",
+              "じゅうごにち",
+              "25日",
+              "にじゅうごにち"
+            ],
+            [
+              "6日",
+              "むいか",
+              "16日",
+              "じゅうろくにち",
+              "26日",
+              "にじゅうろくにち"
+            ],
+            [
+              "7日",
+              "なのか",
+              "17日",
+              "じゅうしちにち",
+              "27日",
+              "にじゅうしちにち"
+            ],
+            [
+              "8日",
+              "ようか",
+              "18日",
+              "じゅうはちにち",
+              "28日",
+              "にじゅうはちにち"
+            ],
+            [
+              "9日",
+              "ここのか",
+              "19日",
+              "じゅうくにち",
+              "29日",
+              "にじゅうくにち"
+            ],
+            [
+              "10日",
+              "とおか",
+              "20日",
+              "はつか",
+              "30日",
+              "さんじゅうにち"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "31日",
+              "さんじゅういちにち"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Confusable pairs",
+          "text": "よっか (4th) / ようか (8th); ついたち (1st) / いちにち (one day); はつか (20th) / はたち (20 years old). What day of the month? = 何日 なんにち. Duration (\"for N days\") uses the same words: ふつか = 2 days, いつか = 5 days, except 1 day = いちにち.",
+          "tone": "accent"
+        },
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Years: year + 年 ねん. 2026年 = にせんにじゅうろくねん. What year? = 何年 なんねん. Duration: いちねん (1 year), にねん, さんねん, よねん (4 years), ごねん, ろくねん, ななねん (しちねん), はちねん, きゅうねん, じゅうねん."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Clock time",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Hours (〜時 じ)",
+          "columns": [
+            "1時",
+            "2時",
+            "3時",
+            "4時",
+            "5時",
+            "6時",
+            "7時",
+            "8時",
+            "9時",
+            "10時",
+            "11時",
+            "12時",
+            "?"
+          ],
+          "rows": [
+            [
+              "いちじ",
+              "にじ",
+              "さんじ",
+              "よじ",
+              "ごじ",
+              "ろくじ",
+              "しちじ",
+              "はちじ",
+              "くじ",
+              "じゅうじ",
+              "じゅういちじ",
+              "じゅうにじ",
+              "なんじ"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Minutes (〜分 ふん / ぷん)",
+          "columns": [
+            "1分",
+            "2分",
+            "3分",
+            "4分",
+            "5分",
+            "6分",
+            "7分",
+            "8分",
+            "9分",
+            "10分",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっぷん",
+              "にふん",
+              "さんぷん",
+              "よんぷん",
+              "ごふん",
+              "ろっぷん",
+              "ななふん",
+              "はっぷん (はちふん)",
+              "きゅうふん",
+              "じゅっぷん (じっぷん)",
+              "なんぷん"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Common minute values",
+          "columns": [
+            "15分",
+            "20分",
+            "30分",
+            "40分",
+            "45分",
+            "50分"
+          ],
+          "rows": [
+            [
+              "じゅうごふん",
+              "にじゅっぷん",
+              "さんじゅっぷん / はん (half past)",
+              "よんじゅっぷん",
+              "よんじゅうごふん",
+              "ごじゅっぷん"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Examples and rules",
+          "items": [
+            "7:30 = しちじはん, 4:15 = よじじゅうごふん, 9:45 = くじよんじゅうごふん, 12:10 = じゅうにじじゅっぷん.",
+            "AM / PM: 午前 ごぜん (a.m.) and 午後 ごご (p.m.) go BEFORE the time: ごぜんくじ (9 a.m.), ごごさんじはん (3:30 p.m.).",
+            "Duration: 〜時間 じかん (hours): いちじかん, にじかん, さんじかん, よじかん, ごじかん, ろくじかん, しちじかん (ななじかん), はちじかん, くじかん, じゅうじかん. Minutes duration uses 〜分 alone (さんじゅっぷん = 30 minutes) or 〜分間 ふんかん."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Relative time expressions",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Past, present, future",
+          "columns": [
+            "Past",
+            "Present",
+            "Future"
+          ],
+          "rows": [
+            [
+              "おととい (day before yesterday)",
+              "きょう (today)",
+              "あさって (day after tomorrow)"
+            ],
+            [
+              "きのう (yesterday)",
+              "",
+              "あした (tomorrow)"
+            ],
+            [
+              "せんしゅう (last week)",
+              "こんしゅう (this week)",
+              "らいしゅう (next week)"
+            ],
+            [
+              "せんせんしゅう (week before last)",
+              "",
+              "さらいしゅう (week after next)"
+            ],
+            [
+              "せんげつ (last month)",
+              "こんげつ (this month)",
+              "らいげつ (next month)"
+            ],
+            [
+              "きょねん (last year)",
+              "ことし (this year)",
+              "らいねん (next year)"
+            ],
+            [
+              "おととし (year before last)",
+              "",
+              "さらいねん (year after next)"
+            ],
+            [
+              "けさ (this morning)",
+              "いま (now)",
+              "こんばん (tonight)"
+            ],
+            [
+              "ゆうべ / きのうのよる (last night)",
+              "",
+              "あしたのあさ (tomorrow morning)"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "More time words",
+          "items": [
+            "Parts of the day: あさ (morning), ひる (noon / daytime), ゆうがた (evening), ばん / よる (night), まいあさ (every morning), まいばん (every night).",
+            "\"Every\": まいにち (every day), まいしゅう (every week), まいつき / まいげつ (every month), まいとし / まいねん (every year).",
+            "Frequency: いつも (always), よく (often), ときどき (sometimes), たまに (occasionally), あまり〜ない (not often), ぜんぜん〜ない (never).",
+            "Seasons: はる (spring), なつ (summer), あき (autumn), ふゆ (winter)."
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Word order for a date",
+          "text": "Year → month → day → day of week → time. 2026年9月15日（火）午前10時 = にせんにじゅうろくねん くがつ じゅうごにち かようび ごぜんじゅうじ.",
+          "tone": "info"
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-383",
+    "q-kana-384",
+    "q-kana-385",
+    "q-kana-386",
+    "q-kana-387",
+    "q-kana-388",
+    "q-kana-389",
+    "q-kana-390",
+    "q-kana-391",
+    "q-kana-392",
+    "q-kana-393",
+    "q-kana-394",
+    "q-kana-395",
+    "q-kana-396",
+    "q-kana-397",
+    "q-kana-398",
+    "q-kana-399",
+    "q-kana-400",
+    "q-kana-401",
+    "q-kana-402"
+  ]
+}

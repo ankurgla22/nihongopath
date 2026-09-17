@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-5",
+  "slug": "5-bukatsu-no-renraku",
+  "level": "n2",
+  "order": 5,
+  "kind": "task",
+  "title": "部活の連絡",
+  "setting": "学校で、先生と学生が話しています。学生は明日、何時に、どこに行きますか。",
+  "script": [
+    {
+      "speaker": "先生",
+      "line": "明日の試合だけど、集合は八時に学校の正門だったよね。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、そのつもりでした。"
+    },
+    {
+      "speaker": "先生",
+      "line": "それがね、バスの都合で三十分早くなったんだ。それから、場所も正門じゃなくて体育館の前にしてほしいって、事務の人に言われて。"
+    },
+    {
+      "speaker": "学生",
+      "line": "えっ、七時半に体育館の前ですか。"
+    },
+    {
+      "speaker": "先生",
+      "line": "そう。荷物が多いから、バスを体育館の横に止めることになったんだよ。みんなに連絡しておいてくれる？"
+    },
+    {
+      "speaker": "学生",
+      "line": "わかりました。すぐグループに送ります。"
+    },
+    {
+      "speaker": "先生",
+      "line": "ああ、あと、雨だったら試合は中止で、その場合は朝六時までに連絡するから。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "試合",
+      "reading": "しあい",
+      "meaning": "match, game"
+    },
+    {
+      "word": "集合",
+      "reading": "しゅうごう",
+      "meaning": "meeting up, assembly"
+    },
+    {
+      "word": "正門",
+      "reading": "せいもん",
+      "meaning": "main gate"
+    },
+    {
+      "word": "都合",
+      "reading": "つごう",
+      "meaning": "circumstances, convenience"
+    },
+    {
+      "word": "体育館",
+      "reading": "たいいくかん",
+      "meaning": "gymnasium"
+    },
+    {
+      "word": "事務",
+      "reading": "じむ",
+      "meaning": "office (staff)"
+    },
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "luggage"
+    },
+    {
+      "word": "中止",
+      "reading": "ちゅうし",
+      "meaning": "cancellation"
+    },
+    {
+      "word": "〜までに",
+      "reading": "までに",
+      "meaning": "by (deadline)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-5-1"
+  ]
+}

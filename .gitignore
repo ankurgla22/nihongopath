@@ -1,0 +1,11 @@
+# root
+node_modules/
+.next/
+*.log
+.env
+.env.*
+!.env.example
+*service-account*.json
+web/tests/e2e-artifacts/
+web/tsconfig.tsbuildinfo
+.firebase/

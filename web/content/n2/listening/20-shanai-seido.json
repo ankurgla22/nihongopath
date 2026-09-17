@@ -1,0 +1,103 @@
+{
+  "id": "n2-listening-20",
+  "slug": "20-shanai-seido",
+  "level": "n2",
+  "order": 20,
+  "kind": "integrated",
+  "title": "新しい社内制度",
+  "setting": "会社で、三人が新しい制度について話しています。",
+  "script": [
+    {
+      "speaker": "課長",
+      "line": "来月から、在宅勤務が週二日まで認められることになりました。申請は前の週の金曜日までに、システムから出してください。ただし、月曜日の朝は全員出社の会議があるので、月曜は在宅にできません。"
+    },
+    {
+      "speaker": "男",
+      "line": "質問いいですか。在宅の日に、お客さんとの打ち合わせが急に入った場合はどうなりますか。"
+    },
+    {
+      "speaker": "課長",
+      "line": "その場合は、出社に切り替えてもらいます。申請の変更はシステムで当日でもできます。"
+    },
+    {
+      "speaker": "女",
+      "line": "パソコンは会社のものを持ち帰るんですか。"
+    },
+    {
+      "speaker": "課長",
+      "line": "はい。家のパソコンは使えません。それから、在宅の日は、朝九時と夕方五時に、必ずチャットで報告を入れてください。"
+    },
+    {
+      "speaker": "男",
+      "line": "週二日というのは、連続でもいいんですか。火曜と水曜とか。"
+    },
+    {
+      "speaker": "課長",
+      "line": "連続でも構いません。ただ、チームの中で同じ日に全員が在宅にならないように、リーダーが調整します。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。私は火曜と木曜で出してみます。"
+    },
+    {
+      "speaker": "男",
+      "line": "僕は木曜と金曜にしようかな。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "在宅勤務",
+      "reading": "ざいたくきんむ",
+      "meaning": "working from home"
+    },
+    {
+      "word": "認める",
+      "reading": "みとめる",
+      "meaning": "to approve"
+    },
+    {
+      "word": "申請",
+      "reading": "しんせい",
+      "meaning": "application, request"
+    },
+    {
+      "word": "出社",
+      "reading": "しゅっしゃ",
+      "meaning": "coming to the office"
+    },
+    {
+      "word": "打ち合わせ",
+      "reading": "うちあわせ",
+      "meaning": "meeting"
+    },
+    {
+      "word": "切り替える",
+      "reading": "きりかえる",
+      "meaning": "to switch"
+    },
+    {
+      "word": "持ち帰る",
+      "reading": "もちかえる",
+      "meaning": "to take home"
+    },
+    {
+      "word": "報告",
+      "reading": "ほうこく",
+      "meaning": "report"
+    },
+    {
+      "word": "連続",
+      "reading": "れんぞく",
+      "meaning": "consecutive"
+    },
+    {
+      "word": "調整する",
+      "reading": "ちょうせいする",
+      "meaning": "to coordinate"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-20-1",
+    "q-n2-l-20-2"
+  ]
+}

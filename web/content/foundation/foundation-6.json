@@ -1,0 +1,847 @@
+{
+  "id": "foundation-6",
+  "slug": "numbers-and-counters",
+  "order": 6,
+  "kind": "numbers",
+  "title": "Numbers and counters",
+  "summary": "Counting from 1 to 10,000 with every sound change (さんびゃく, ろっぴゃく, さんぜん…), and the twelve counters you need first, with all irregular readings marked.",
+  "minutes": 30,
+  "sections": [
+    {
+      "heading": "Numbers 1–10",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Basic numbers",
+          "columns": [
+            "Number",
+            "Kanji",
+            "Reading (Sino-Japanese)",
+            "Alternate",
+            "Native reading (used with つ)"
+          ],
+          "rows": [
+            [
+              "0",
+              "〇 / 零",
+              "ゼロ / れい",
+              "—",
+              "—"
+            ],
+            [
+              "1",
+              "一",
+              "いち",
+              "—",
+              "ひとつ"
+            ],
+            [
+              "2",
+              "二",
+              "に",
+              "—",
+              "ふたつ"
+            ],
+            [
+              "3",
+              "三",
+              "さん",
+              "—",
+              "みっつ"
+            ],
+            [
+              "4",
+              "四",
+              "よん",
+              "し",
+              "よっつ"
+            ],
+            [
+              "5",
+              "五",
+              "ご",
+              "—",
+              "いつつ"
+            ],
+            [
+              "6",
+              "六",
+              "ろく",
+              "—",
+              "むっつ"
+            ],
+            [
+              "7",
+              "七",
+              "なな",
+              "しち",
+              "ななつ"
+            ],
+            [
+              "8",
+              "八",
+              "はち",
+              "—",
+              "やっつ"
+            ],
+            [
+              "9",
+              "九",
+              "きゅう",
+              "く",
+              "ここのつ"
+            ],
+            [
+              "10",
+              "十",
+              "じゅう",
+              "—",
+              "とお"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "4, 7 and 9",
+          "text": "Both readings exist; よん / なな / きゅう are the default in counting and with most counters. し / しち / く are used in fixed items: しがつ (April), しちがつ (July), くがつ (September), よじ (4 o'clock, uses よ), しちじ (7 o'clock), くじ (9 o'clock).",
+          "tone": "accent"
+        }
+      ]
+    },
+    {
+      "heading": "Numbers 11–99",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Construct as: (tens digit) + じゅう + (units digit)."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Tens and teens",
+          "columns": [
+            "Number",
+            "Reading",
+            "Number",
+            "Reading"
+          ],
+          "rows": [
+            [
+              "11",
+              "じゅういち",
+              "20",
+              "にじゅう"
+            ],
+            [
+              "12",
+              "じゅうに",
+              "21",
+              "にじゅういち"
+            ],
+            [
+              "13",
+              "じゅうさん",
+              "30",
+              "さんじゅう"
+            ],
+            [
+              "14",
+              "じゅうよん",
+              "40",
+              "よんじゅう"
+            ],
+            [
+              "15",
+              "じゅうご",
+              "50",
+              "ごじゅう"
+            ],
+            [
+              "16",
+              "じゅうろく",
+              "60",
+              "ろくじゅう"
+            ],
+            [
+              "17",
+              "じゅうなな",
+              "70",
+              "ななじゅう"
+            ],
+            [
+              "18",
+              "じゅうはち",
+              "80",
+              "はちじゅう"
+            ],
+            [
+              "19",
+              "じゅうきゅう",
+              "90",
+              "きゅうじゅう"
+            ],
+            [
+              "25",
+              "にじゅうご",
+              "99",
+              "きゅうじゅうきゅう"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Watch",
+          "text": "40 is よんじゅう (never しじゅう in modern counting); 70 is ななじゅう; 90 is きゅうじゅう.",
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "heading": "Hundreds and thousands",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Hundreds",
+          "columns": [
+            "Number",
+            "Kanji",
+            "Reading",
+            "Note"
+          ],
+          "rows": [
+            [
+              "100",
+              "百",
+              "ひゃく",
+              "no いち in front"
+            ],
+            [
+              "200",
+              "二百",
+              "にひゃく",
+              ""
+            ],
+            [
+              "300",
+              "三百",
+              "さんびゃく",
+              "sound change"
+            ],
+            [
+              "400",
+              "四百",
+              "よんひゃく",
+              ""
+            ],
+            [
+              "500",
+              "五百",
+              "ごひゃく",
+              ""
+            ],
+            [
+              "600",
+              "六百",
+              "ろっぴゃく",
+              "sound change"
+            ],
+            [
+              "700",
+              "七百",
+              "ななひゃく",
+              ""
+            ],
+            [
+              "800",
+              "八百",
+              "はっぴゃく",
+              "sound change"
+            ],
+            [
+              "900",
+              "九百",
+              "きゅうひゃく",
+              ""
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Thousands",
+          "columns": [
+            "Number",
+            "Kanji",
+            "Reading",
+            "Note"
+          ],
+          "rows": [
+            [
+              "1,000",
+              "千",
+              "せん",
+              "no いち in front (いっせん only inside larger numbers such as 一万一千)"
+            ],
+            [
+              "2,000",
+              "二千",
+              "にせん",
+              ""
+            ],
+            [
+              "3,000",
+              "三千",
+              "さんぜん",
+              "sound change"
+            ],
+            [
+              "4,000",
+              "四千",
+              "よんせん",
+              ""
+            ],
+            [
+              "5,000",
+              "五千",
+              "ごせん",
+              ""
+            ],
+            [
+              "6,000",
+              "六千",
+              "ろくせん",
+              ""
+            ],
+            [
+              "7,000",
+              "七千",
+              "ななせん",
+              ""
+            ],
+            [
+              "8,000",
+              "八千",
+              "はっせん",
+              "sound change"
+            ],
+            [
+              "9,000",
+              "九千",
+              "きゅうせん",
+              ""
+            ],
+            [
+              "10,000",
+              "一万",
+              "いちまん",
+              "いち IS required"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Combine",
+          "items": [
+            "350 = さんびゃくごじゅう, 618 = ろっぴゃくじゅうはち, 999 = きゅうひゃくきゅうじゅうきゅう.",
+            "1,500 = せんごひゃく, 3,800 = さんぜんはっぴゃく, 6,543 = ろくせんごひゃくよんじゅうさん, 10,000 = いちまん.",
+            "Beyond 10,000: 20,000 にまん, 100,000 じゅうまん, 1,000,000 ひゃくまん, 10,000,000 せんまん, 100,000,000 いちおく. Japanese groups by 10,000 (万), not by 1,000."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Counters (助数詞)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Japanese needs a counter word after a number. The number + counter comes after the noun and its particle: りんごを みっつ かいました (I bought three apples). Sound changes happen at 1, 3, 6, 8, 10 with counters starting with h/k/s/t/p. Irregular readings are listed exactly as you must say them."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜つ: general counter for things (native numbers, 1–10 only)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "ひとつ",
+              "ふたつ",
+              "みっつ",
+              "よっつ",
+              "いつつ",
+              "むっつ",
+              "ななつ",
+              "やっつ",
+              "ここのつ",
+              "とお",
+              "いくつ"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜人 (にん): people",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "ひとり",
+              "ふたり",
+              "さんにん",
+              "よにん",
+              "ごにん",
+              "ろくにん",
+              "しちにん / ななにん",
+              "はちにん",
+              "きゅうにん",
+              "じゅうにん",
+              "なんにん"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜本 (ほん): long cylindrical things (pens, bottles, umbrellas, trees, films, phone calls)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっぽん",
+              "にほん",
+              "さんぼん",
+              "よんほん",
+              "ごほん",
+              "ろっぽん",
+              "ななほん",
+              "はっぽん",
+              "きゅうほん",
+              "じゅっぽん (じっぽん)",
+              "なんぼん"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜枚 (まい): flat things (paper, tickets, shirts, plates, CDs)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いちまい",
+              "にまい",
+              "さんまい",
+              "よんまい",
+              "ごまい",
+              "ろくまい",
+              "ななまい",
+              "はちまい",
+              "きゅうまい",
+              "じゅうまい",
+              "なんまい"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜匹 (ひき): small animals (dogs, cats, fish, insects)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっぴき",
+              "にひき",
+              "さんびき",
+              "よんひき",
+              "ごひき",
+              "ろっぴき",
+              "ななひき",
+              "はっぴき",
+              "きゅうひき",
+              "じゅっぴき (じっぴき)",
+              "なんびき"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜個 (こ): small solid objects (apples, eggs, boxes, pieces)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっこ",
+              "にこ",
+              "さんこ",
+              "よんこ",
+              "ごこ",
+              "ろっこ",
+              "ななこ",
+              "はっこ",
+              "きゅうこ",
+              "じゅっこ (じっこ)",
+              "なんこ"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜冊 (さつ): bound volumes (books, notebooks, magazines)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっさつ",
+              "にさつ",
+              "さんさつ",
+              "よんさつ",
+              "ごさつ",
+              "ろくさつ",
+              "ななさつ",
+              "はっさつ",
+              "きゅうさつ",
+              "じゅっさつ (じっさつ)",
+              "なんさつ"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜台 (だい): machines and vehicles (cars, bicycles, computers, TVs, phones)",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いちだい",
+              "にだい",
+              "さんだい",
+              "よんだい",
+              "ごだい",
+              "ろくだい",
+              "ななだい",
+              "はちだい",
+              "きゅうだい",
+              "じゅうだい",
+              "なんだい"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜回 (かい): times, occurrences",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっかい",
+              "にかい",
+              "さんかい",
+              "よんかい",
+              "ごかい",
+              "ろっかい",
+              "ななかい",
+              "はっかい",
+              "きゅうかい",
+              "じゅっかい (じっかい)",
+              "なんかい"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜階 (かい): floors of a building",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっかい",
+              "にかい",
+              "さんがい",
+              "よんかい",
+              "ごかい",
+              "ろっかい",
+              "ななかい",
+              "はっかい (はちかい)",
+              "きゅうかい",
+              "じゅっかい (じっかい)",
+              "なんがい (なんかい)"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜歳 / 〜才 (さい): years of age",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いっさい",
+              "にさい",
+              "さんさい",
+              "よんさい",
+              "ごさい",
+              "ろくさい",
+              "ななさい",
+              "はっさい",
+              "きゅうさい",
+              "じゅっさい (じっさい)",
+              "なんさい / おいくつ"
+            ]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "〜円 (えん): yen",
+          "columns": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "?"
+          ],
+          "rows": [
+            [
+              "いちえん",
+              "にえん",
+              "さんえん",
+              "よえん",
+              "ごえん",
+              "ろくえん",
+              "ななえん",
+              "はちえん",
+              "きゅうえん",
+              "じゅうえん",
+              "いくら"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Notes",
+          "items": [
+            "〜つ beyond 10: use plain numbers (じゅういち, じゅうに). いくつ also means \"how old\" for children; polite: おいくつですか.",
+            "Large animals use 〜頭 とう; birds and rabbits use 〜羽 わ (N4 level).",
+            "〜回: いっしゅうかんに さんかい (three times a week), もういっかい (once more).",
+            "〜階: 3rd floor = さんがい, \"which floor\" = なんがい. Basement floors: ちか いっかい (B1).",
+            "Age: 20 years old = はたち (二十歳). 18 = じゅうはっさい, 25 = にじゅうごさい, 30 = さんじゅっさい.",
+            "Yen: 4 yen is よえん (not よんえん). 100円 ひゃくえん, 500円 ごひゃくえん, 1,000円 せんえん, 3,000円 さんぜんえん, 10,000円 いちまんえん. \"How much?\" = いくらですか."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Summary of sound-change rules",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Where the number changes",
+          "columns": [
+            "Counter starts with",
+            "1",
+            "3",
+            "6",
+            "8",
+            "10",
+            "なん"
+          ],
+          "rows": [
+            [
+              "h (ほん, ひき)",
+              "いっp",
+              "さんb",
+              "ろっp",
+              "はっp",
+              "じゅっp",
+              "なんb"
+            ],
+            [
+              "k (かい, こ)",
+              "いっk",
+              "(さんg for 階 only)",
+              "ろっk",
+              "はっk",
+              "じゅっk",
+              "(なんg for 階)"
+            ],
+            [
+              "s (さつ, さい)",
+              "いっs",
+              "—",
+              "—",
+              "はっs",
+              "じゅっs",
+              "—"
+            ],
+            [
+              "t / ch (〜丁, 〜着: N4)",
+              "いっ",
+              "—",
+              "—",
+              "はっ",
+              "じゅっ",
+              "—"
+            ],
+            [
+              "vowel / m / n / d / r / y",
+              "no change",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-363",
+    "q-kana-364",
+    "q-kana-365",
+    "q-kana-366",
+    "q-kana-367",
+    "q-kana-368",
+    "q-kana-369",
+    "q-kana-370",
+    "q-kana-371",
+    "q-kana-372",
+    "q-kana-373",
+    "q-kana-374",
+    "q-kana-375",
+    "q-kana-376",
+    "q-kana-377",
+    "q-kana-378",
+    "q-kana-379",
+    "q-kana-380",
+    "q-kana-381",
+    "q-kana-382"
+  ]
+}

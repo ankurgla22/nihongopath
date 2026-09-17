@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-121",
+  "slug": "ni-taishite",
+  "level": "n2",
+  "order": 121,
+  "title": "〜に対して / 〜に対し / 〜に対する",
+  "romaji": "ni taishite",
+  "meaning": "toward… / to… (target of an action or attitude) / in contrast to…",
+  "simpleExplanation": "〜に対して marks the target that an action, feeling, or attitude is directed at: \"toward X\" (親に対して反抗する – rebel against one's parents). It also has a second job: contrasting two things (\"X, whereas Y\"), as in 兄は静かなのに対して、弟はにぎやかだ. The target use is the one most often tested.",
+  "whenUsed": "Both speech and writing, slightly formal. Common in news, business, and academic contexts: complaints toward a company, attitudes toward customers, questions to a speaker. The contrast use (〜のに対して) is typical in essays comparing two groups.",
+  "formation": [
+    "Noun + に対して / に対し (formal written)",
+    "Noun + に対する + Noun  (〜に対する態度 = attitude toward…)",
+    "Contrast: Verb / い-adj (plain) + のに対して; な-adj + な / である + のに対して; Noun + である + のに対して"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "店員は",
+        "role": "subject"
+      },
+      {
+        "text": "客",
+        "role": "target of the attitude",
+        "highlight": true
+      },
+      {
+        "text": "に対して",
+        "role": "toward",
+        "highlight": true
+      },
+      {
+        "text": "丁寧に接する",
+        "role": "action / attitude directed at the target"
+      }
+    ],
+    "translation": "The staff treat customers politely."
+  },
+  "examples": [
+    {
+      "ja": "店員は客に対して、いつも丁寧に接している。",
+      "reading": "てんいんはきゃくにたいして、いつもていねいにせっしている。",
+      "en": "The staff always treat customers politely.",
+      "note": "Target of an attitude."
+    },
+    {
+      "ja": "彼は年上の人に対して失礼な態度をとる。",
+      "reading": "かれはとしうえのひとにたいしてしつれいなたいどをとる。",
+      "en": "He behaves rudely toward older people."
+    },
+    {
+      "ja": "その質問に対して、首相は何も答えなかった。",
+      "reading": "そのしつもんにたいして、しゅしょうはなにもこたえなかった。",
+      "en": "The prime minister gave no answer to that question."
+    },
+    {
+      "ja": "兄がおとなしいのに対して、弟はとても活発だ。",
+      "reading": "あにがおとなしいのにたいして、おとうとはとてもかっぱつだ。",
+      "en": "Whereas the older brother is quiet, the younger one is very lively.",
+      "note": "Contrast use: 〜のに対して."
+    },
+    {
+      "ja": "政府の政策に対する批判が高まっている。",
+      "reading": "せいふのせいさくにたいするひはんがたかまっている。",
+      "en": "Criticism of the government's policy is growing.",
+      "note": "に対する modifies a noun (批判)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜について / 〜に関して",
+      "difference": "\"About\" – the topic of talking or thinking. に対して is the target of an action or feeling.",
+      "id": "n2-grammar-123"
+    },
+    {
+      "pattern": "〜にとって",
+      "difference": "\"For / from the standpoint of\" – followed by an evaluation (大切だ, 難しい).",
+      "id": "n2-grammar-127"
+    },
+    {
+      "pattern": "〜に向かって",
+      "difference": "\"Toward\" in direction, or speaking directly to someone's face."
+    },
+    {
+      "pattern": "〜に比べて",
+      "difference": "Pure comparison (\"compared to\"). のに対して contrasts two opposite characteristics.",
+      "id": "n2-grammar-108"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私に対して、この仕事は難しい。",
+      "right": "私にとって、この仕事は難しい。",
+      "why": "An evaluation from someone's viewpoint uses にとって. に対して needs an action or attitude directed at the target."
+    },
+    {
+      "wrong": "日本の文化に対して話した。",
+      "right": "日本の文化について話した。",
+      "why": "The topic of talking is marked with について. に対して would imply talking \"at\" the culture."
+    },
+    {
+      "wrong": "兄は静かに対して、弟はにぎやかだ。",
+      "right": "兄は静かなのに対して、弟はにぎやかだ。",
+      "why": "In the contrast use, a clause needs の before に対して: 静かなのに対して."
+    }
+  ],
+  "usageNotes": [
+    "に対して implies a relationship of facing someone or something; the sentence usually has a verb of attitude or reaction (接する, 反抗する, 答える, 抗議する).",
+    "The contrast use often pairs with 一方 in meaning but is more neutral and factual.",
+    "Kanji spelling 対 is standard; the reading is たい (にたいして)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, check what follows: an attitude/action verb → に対して; an evaluation adjective → にとって; a topic verb (話す, 調べる) → について.",
+    "The contrast use appears with two subjects and opposite predicates: Aは〜のに対して、Bは〜.",
+    "Watch the noun form に対する before a noun (批判, 態度, 意見) – options with に対して before a noun are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-121-1",
+    "q-n2-g-121-2",
+    "q-n2-g-121-3",
+    "q-n2-g-121-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-121-5",
+    "q-n2-g-121-6",
+    "q-n2-g-121-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

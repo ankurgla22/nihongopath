@@ -1,0 +1,128 @@
+{
+  "id": "n2-grammar-164",
+  "slug": "wake-dewa-nai",
+  "level": "n2",
+  "order": 164,
+  "title": "〜わけではない / 〜わけでもない",
+  "romaji": "wake dewa nai",
+  "meaning": "It's not that… / It doesn't necessarily mean that…",
+  "simpleExplanation": "〜わけではない softens a statement by denying only part of it. It says \"it's not that (X)\" or \"that doesn't mean (X)\", so the listener understands X is not the whole story. The speaker is usually correcting an impression the listener might have, not making a strong denial.",
+  "whenUsed": "Very common in both speech and writing, at every politeness level (〜わけではありません in polite speech, 〜わけじゃない in casual speech). Typical uses: gently correcting a misunderstanding (\"I'm not saying I hate it\"), and the set phrase 〜というわけではない to deny a conclusion the listener has just drawn.",
+  "formation": [
+    "Verb (plain form) + わけではない",
+    "い-adjective + わけではない",
+    "な-adjective + な + わけではない",
+    "Noun + の / という + わけではない",
+    "Polite: 〜わけではありません / Casual: 〜わけじゃない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "嫌い",
+        "en": "dislike (plain statement)"
+      },
+      {
+        "ja": "嫌いではない",
+        "en": "do not dislike (full denial)"
+      },
+      {
+        "ja": "嫌いなわけではない",
+        "en": "it's not that I dislike it (partial denial: something else is going on)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私は日本料理が嫌いなわけではない。ただ、今日は食欲がないだけだ。",
+      "reading": "わたしはにほんりょうりがきらいなわけではない。ただ、きょうはしょくよくがないだけだ。",
+      "en": "It's not that I dislike Japanese food. I just have no appetite today.",
+      "note": "The classic pattern: 〜わけではない + ただ〜だけだ gives the real reason."
+    },
+    {
+      "ja": "高ければいいというわけではない。",
+      "reading": "たかければいいというわけではない。",
+      "en": "It doesn't mean that expensive is always better.",
+      "note": "〜というわけではない denies a general conclusion."
+    },
+    {
+      "ja": "全員が賛成したわけではありません。",
+      "reading": "ぜんいんがさんせいしたわけではありません。",
+      "en": "Not everyone agreed.",
+      "note": "Partial negation: some agreed, some did not."
+    },
+    {
+      "ja": "忙しいわけじゃないけど、今日はちょっと行きたくない。",
+      "reading": "いそがしいわけじゃないけど、きょうはちょっといきたくない。",
+      "en": "It's not that I'm busy, but I just don't feel like going today.",
+      "note": "Casual わけじゃない is very common in conversation."
+    },
+    {
+      "ja": "彼を疑っているわけでもないが、話を聞いてみたい。",
+      "reading": "かれをうたがっているわけでもないが、はなしをきいてみたい。",
+      "en": "It's not that I suspect him either, but I would like to hear his side.",
+      "note": "〜わけでもない adds a feeling of \"not that either\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけがない",
+      "difference": "Strong, emotional denial: \"there's no way that…\". わけではない only denies part of a statement.",
+      "id": "n2-grammar-162"
+    },
+    {
+      "pattern": "〜はずがない",
+      "difference": "Logical denial based on evidence: \"it cannot be that…\". Not a partial negation."
+    },
+    {
+      "pattern": "〜わけだ",
+      "difference": "Opposite direction: \"so that's why…\", a conclusion that follows naturally.",
+      "id": "n2-grammar-163"
+    },
+    {
+      "pattern": "〜ないことはない",
+      "difference": "Also a soft denial, but of the negative: \"it's not that I can't\" = I can, reluctantly.",
+      "id": "n2-grammar-94"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "日本料理が嫌いわけではない。",
+      "right": "日本料理が嫌いなわけではない。",
+      "why": "嫌い is a な-adjective, so it needs な before わけ, just like before a noun."
+    },
+    {
+      "wrong": "全員が来なかったわけではない。→ meaning \"nobody came\"",
+      "right": "全員が来たわけではない。(not everyone came) / 誰も来なかった。(nobody came)",
+      "why": "全員が〜たわけではない means \"not all\". If you want \"nobody\", use 誰も〜ない, not わけではない."
+    },
+    {
+      "wrong": "そんなことがあるわけではない！",
+      "right": "そんなことがあるわけがない！",
+      "why": "For an angry \"no way!\" you need わけがない. わけではない sounds mild and makes the sentence feel unfinished."
+    }
+  ],
+  "usageNotes": [
+    "Native speakers often follow it with the true reason: 〜わけではない。ただ〜だけだ / 〜だけのことだ.",
+    "〜というわけではない is used after full clauses or when denying a conclusion someone has drawn (\"That doesn't mean…\").",
+    "Do not confuse the polite forms: わけではありません is standard; わけじゃありません is fine in speech."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, the sentence usually contains a contrast clue such as ただ, 別に, 特に, or ～が/けど. If the second half gives a different reason, わけではない is the answer.",
+    "Typical distractors are わけがない, わけにはいかない and はずがない. Ask: is the speaker softly correcting (わけではない) or flatly denying (わけがない)?",
+    "In 並べ替え, the chunk という + わけではない often appears split; join them first."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-164-1",
+    "q-n2-g-164-2",
+    "q-n2-g-164-3",
+    "q-n2-g-164-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-164-5",
+    "q-n2-g-164-6",
+    "q-n2-g-164-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

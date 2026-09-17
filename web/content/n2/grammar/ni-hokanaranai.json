@@ -1,0 +1,127 @@
+{
+  "id": "n2-grammar-130",
+  "slug": "ni-hokanaranai",
+  "level": "n2",
+  "order": 130,
+  "title": "〜にほかならない",
+  "romaji": "ni hokanaranai",
+  "meaning": "is nothing other than… / is precisely…",
+  "simpleExplanation": "〜にほかならない means \"it is nothing but (X)\" or \"it is precisely (X)\". The speaker states firmly that the true identity, cause, or essence of something is X and nothing else. It is not a guess; it is a strong assertion, often used to name the real reason behind something.",
+  "whenUsed": "Formal, mostly written: essays, speeches, editorials, academic writing. In speech it sounds stiff; people say 〜以外の何ものでもない or simply 〜だ. Typical uses: explaining the real cause of success or failure (〜の結果にほかならない), or defining what something truly is.",
+  "formation": [
+    "Noun + にほかならない",
+    "Clause + から / ため + にほかならない  (〜からにほかならない = precisely because…)",
+    "Polite: 〜にほかなりません"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼が成功したのは",
+        "role": "topic: the thing being explained"
+      },
+      {
+        "text": "日々の努力の結果",
+        "role": "the true cause / identity",
+        "highlight": true
+      },
+      {
+        "text": "にほかならない",
+        "role": "is nothing other than",
+        "highlight": true
+      }
+    ],
+    "translation": "His success is nothing other than the result of his daily effort."
+  },
+  "examples": [
+    {
+      "ja": "彼が成功したのは、日々の努力の結果にほかならない。",
+      "reading": "かれがせいこうしたのは、ひびのどりょくのけっかにほかならない。",
+      "en": "His success is nothing other than the result of his daily effort."
+    },
+    {
+      "ja": "親が子どもを叱るのは、愛情があるからにほかならない。",
+      "reading": "おやがこどもをしかるのは、あいじょうがあるからにほかならない。",
+      "en": "Parents scold their children precisely because they love them.",
+      "note": "〜からにほかならない names the real reason."
+    },
+    {
+      "ja": "この事故は人災にほかならない。",
+      "reading": "このじこはじんさいにほかならない。",
+      "en": "This accident is nothing but a man-made disaster."
+    },
+    {
+      "ja": "言葉は、人と人をつなぐ道具にほかならない。",
+      "reading": "ことばは、ひととひとをつなぐどうぐにほかならない。",
+      "en": "Language is nothing other than a tool that connects people.",
+      "note": "Used to define the essence of something."
+    },
+    {
+      "ja": "今回の受賞は、チーム全員の努力のおかげにほかなりません。",
+      "reading": "こんかいのじゅしょうは、チームぜんいんのどりょくのおかげにほかなりません。",
+      "en": "This award is entirely thanks to the effort of the whole team.",
+      "note": "Polite form, typical in speeches."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に違いない",
+      "difference": "A confident guess (\"must be\"). にほかならない is not a guess but a firm identification.",
+      "id": "n2-grammar-122"
+    },
+    {
+      "pattern": "〜にすぎない",
+      "difference": "\"Is merely / nothing more than\" – it minimizes the thing. にほかならない emphasizes it as the essential truth.",
+      "id": "n2-grammar-118"
+    },
+    {
+      "pattern": "〜に限る",
+      "difference": "\"Nothing beats…\" (a recommendation), not an identification."
+    },
+    {
+      "pattern": "〜というものだ",
+      "difference": "Gives a general evaluation (\"that's what X is\"), softer and more emotional.",
+      "id": "n2-grammar-83"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が来ないのは、忙しいにほかならない。",
+      "right": "彼が来ないのは、忙しいからにほかならない。",
+      "why": "A clause needs から (or ため) before にほかならない. The pattern attaches to nouns or to 〜から / 〜ため."
+    },
+    {
+      "wrong": "あの人はたぶん学生にほかならない。",
+      "right": "あの人はたぶん学生に違いない。",
+      "why": "たぶん signals a guess. にほかならない cannot express a guess; it asserts a fact."
+    },
+    {
+      "wrong": "それは小さな問題にほかならない。(intending: it's only a small problem)",
+      "right": "それは小さな問題にすぎない。",
+      "why": "To minimize (\"merely\"), use にすぎない. にほかならない emphasizes that the thing truly is X."
+    }
+  ],
+  "usageNotes": [
+    "The pattern often explains a cause: 〜のは〜からにほかならない (\"the reason that … is precisely because …\").",
+    "It is emphatic and formal; overusing it in conversation sounds like a speech.",
+    "The kanji spelling 他ならない exists, but the hiragana ほかならない is more common in modern text and on the JLPT."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, look for the structure 〜のは、〜(から)にほかならない. If the sentence names the real cause of something, this is the answer.",
+    "Main distractors: に違いない (guess), にすぎない (merely), に限らない (not limited to). Check whether the sentence asserts (にほかならない) or guesses (に違いない).",
+    "If the blank follows an adjective or verb, you also need から: 〜からにほかならない. Options without から are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-130-1",
+    "q-n2-g-130-2",
+    "q-n2-g-130-3",
+    "q-n2-g-130-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-130-5",
+    "q-n2-g-130-6",
+    "q-n2-g-130-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

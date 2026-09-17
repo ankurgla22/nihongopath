@@ -1,0 +1,88 @@
+{
+  "id": "n2-reading-2",
+  "slug": "2-churinjo-oshirase",
+  "level": "n2",
+  "order": 2,
+  "kind": "short",
+  "title": "駐輪場利用に関するお知らせ",
+  "paragraphs": [
+    "入居者の皆様へ",
+    "4月1日より、マンション敷地内の駐輪場の利用方法が変わります。",
+    "これまで駐輪場は先着順で自由に利用できましたが、放置自転車が増え、本来利用すべき方が停められないという苦情が多く寄せられています。そこで今後は、管理事務所で登録した自転車のみ駐輪できるようにいたします。登録された自転車には番号入りのシールを配布しますので、必ず目立つ位置に貼ってください。",
+    "3月31日までに登録のない自転車は、4月15日以降、放置自転車とみなして撤去いたします。撤去後の保管期間は1か月とし、期間を過ぎたものは処分いたしますので、ご注意ください。",
+    "管理組合"
+  ],
+  "vocab": [
+    {
+      "word": "入居者",
+      "reading": "にゅうきょしゃ",
+      "meaning": "resident, tenant"
+    },
+    {
+      "word": "敷地",
+      "reading": "しきち",
+      "meaning": "premises, site"
+    },
+    {
+      "word": "駐輪場",
+      "reading": "ちゅうりんじょう",
+      "meaning": "bicycle parking"
+    },
+    {
+      "word": "先着順",
+      "reading": "せんちゃくじゅん",
+      "meaning": "first-come, first-served"
+    },
+    {
+      "word": "放置",
+      "reading": "ほうち",
+      "meaning": "leaving unattended"
+    },
+    {
+      "word": "本来",
+      "reading": "ほんらい",
+      "meaning": "originally, properly"
+    },
+    {
+      "word": "苦情",
+      "reading": "くじょう",
+      "meaning": "complaint"
+    },
+    {
+      "word": "寄せる",
+      "reading": "よせる",
+      "meaning": "to send in (complaints)"
+    },
+    {
+      "word": "配布",
+      "reading": "はいふ",
+      "meaning": "distribution"
+    },
+    {
+      "word": "みなす",
+      "reading": "みなす",
+      "meaning": "to regard as"
+    },
+    {
+      "word": "撤去",
+      "reading": "てっきょ",
+      "meaning": "removal"
+    },
+    {
+      "word": "処分",
+      "reading": "しょぶん",
+      "meaning": "disposal"
+    }
+  ],
+  "questionIds": [
+    "q-n2-r-2-1",
+    "q-n2-r-2-2",
+    "q-n2-r-2-3"
+  ],
+  "strategyNotes": [
+    "Notices with dates test sequence: registration deadline (3/31), rule start (4/1), removal (4/15 onward), disposal (one month later). Write the timeline down.",
+    "Read the question stems first, then read the passage once without stopping. Short passages usually hide the answer in a single sentence.",
+    "For notices and emails, locate the request verb (〜いただけないでしょうか, 〜ください) and the condition words (なお, ただし, その場合): they carry the tested details."
+  ],
+  "timeLimitSeconds": 180
+}

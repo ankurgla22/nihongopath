@@ -1,0 +1,101 @@
+{
+  "id": "n2-listening-2",
+  "slug": "2-daigaku-jimushitsu",
+  "level": "n2",
+  "order": 2,
+  "kind": "task",
+  "title": "大学の事務室で",
+  "setting": "大学の事務室で、学生と職員が話しています。学生はこのあと何をしなければなりませんか。",
+  "script": [
+    {
+      "speaker": "学生",
+      "line": "すみません、奨学金の申し込みをしたいんですが。"
+    },
+    {
+      "speaker": "職員",
+      "line": "はい。申込書はもう書きましたか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、これです。あと、成績証明書も持ってきました。"
+    },
+    {
+      "speaker": "職員",
+      "line": "ええと……申込書は大丈夫ですね。成績証明書も……あ、これ、先学期のものですね。今学期のものが必要なんです。"
+    },
+    {
+      "speaker": "学生",
+      "line": "今学期のですか。それは、どこでもらえますか。"
+    },
+    {
+      "speaker": "職員",
+      "line": "一階の証明書発行機で出せますよ。学生証があればすぐです。"
+    },
+    {
+      "speaker": "学生",
+      "line": "わかりました。じゃあ、それを取ってきてから、またここに来ればいいですか。"
+    },
+    {
+      "speaker": "職員",
+      "line": "ええ。それから、指導教員の推薦状も要るんですが、それはお持ちですか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "あ、先生には先週お願いしてあって、明日もらえることになっています。"
+    },
+    {
+      "speaker": "職員",
+      "line": "そうですか。じゃあ、それは明日でいいですよ。今日は証明書だけお願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "奨学金",
+      "reading": "しょうがくきん",
+      "meaning": "scholarship"
+    },
+    {
+      "word": "申込書",
+      "reading": "もうしこみしょ",
+      "meaning": "application form"
+    },
+    {
+      "word": "成績証明書",
+      "reading": "せいせきしょうめいしょ",
+      "meaning": "academic transcript"
+    },
+    {
+      "word": "先学期",
+      "reading": "せんがっき",
+      "meaning": "last semester"
+    },
+    {
+      "word": "発行機",
+      "reading": "はっこうき",
+      "meaning": "issuing machine"
+    },
+    {
+      "word": "学生証",
+      "reading": "がくせいしょう",
+      "meaning": "student ID"
+    },
+    {
+      "word": "指導教員",
+      "reading": "しどうきょういん",
+      "meaning": "academic advisor"
+    },
+    {
+      "word": "推薦状",
+      "reading": "すいせんじょう",
+      "meaning": "letter of recommendation"
+    },
+    {
+      "word": "〜ことになっている",
+      "reading": "ことになっている",
+      "meaning": "it is arranged that"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-2-1"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "n2-listening-19",
+  "slug": "19-tenrankai-annai",
+  "level": "n2",
+  "order": 19,
+  "kind": "integrated",
+  "title": "展覧会の案内と相談",
+  "setting": "まず、美術館の案内を聞いてください。そのあと、夫婦が話しています。",
+  "script": [
+    {
+      "speaker": "案内",
+      "line": "当美術館では、今月、三つの展覧会を開催しています。一階の「日本の風景画展」は、入場無料で、写真撮影もご自由にどうぞ。二階の「近代ヨーロッパ絵画展」は、入場料千五百円、写真撮影はご遠慮ください。毎週金曜日は夜八時まで開館しています。三階の「子ども向け体験アート」は、入場料五百円で、お子様が実際に絵を描いたり、作品に触れたりできます。こちらは事前予約が必要です。なお、二階と三階のチケットをセットでお買い上げいただくと、合計千七百円になります。"
+    },
+    {
+      "speaker": "夫",
+      "line": "どうする？子どもは三階に行きたがるだろうね。"
+    },
+    {
+      "speaker": "妻",
+      "line": "うん、でも三階は予約が要るって。今からじゃ無理かな。"
+    },
+    {
+      "speaker": "夫",
+      "line": "さっきスマホで見たら、今日の午後はまだ空いてたよ。"
+    },
+    {
+      "speaker": "妻",
+      "line": "じゃあ、それは予約しよう。私は二階も見たいな。"
+    },
+    {
+      "speaker": "夫",
+      "line": "セットだと三百円安くなるんだね。じゃあ、僕は子どもと三階に行くから、その間に二階を見てきなよ。"
+    },
+    {
+      "speaker": "妻",
+      "line": "ありがとう。写真は撮れないけど、ゆっくり見たい。一階は帰りにみんなで寄ろうか。"
+    },
+    {
+      "speaker": "夫",
+      "line": "うん、そうしよう。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "展覧会",
+      "reading": "てんらんかい",
+      "meaning": "exhibition"
+    },
+    {
+      "word": "開催する",
+      "reading": "かいさいする",
+      "meaning": "to hold (an event)"
+    },
+    {
+      "word": "風景画",
+      "reading": "ふうけいが",
+      "meaning": "landscape painting"
+    },
+    {
+      "word": "入場料",
+      "reading": "にゅうじょうりょう",
+      "meaning": "admission fee"
+    },
+    {
+      "word": "撮影",
+      "reading": "さつえい",
+      "meaning": "photographing"
+    },
+    {
+      "word": "ご遠慮ください",
+      "reading": "ごえんりょください",
+      "meaning": "please refrain"
+    },
+    {
+      "word": "体験",
+      "reading": "たいけん",
+      "meaning": "hands-on experience"
+    },
+    {
+      "word": "事前予約",
+      "reading": "じぜんよやく",
+      "meaning": "advance booking"
+    },
+    {
+      "word": "セット",
+      "reading": "セット",
+      "meaning": "combined ticket"
+    },
+    {
+      "word": "寄る",
+      "reading": "よる",
+      "meaning": "to drop by"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-19-1",
+    "q-n2-l-19-2"
+  ]
+}

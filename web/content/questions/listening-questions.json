@@ -1,0 +1,972 @@
+[
+  {
+    "id": "q-n2-l-1-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-1"
+    },
+    "prompt": "女の人はこのあとまず何をしますか。",
+    "context": "",
+    "options": [
+      "資料を十部コピーする",
+      "部長に新しい数字を聞きに行く",
+      "資料の数字を直す",
+      "会議室を予約する"
+    ],
+    "answerIndex": 2,
+    "explanation": "The original plan (copying) is interrupted because the figures are outdated. The man already has the new numbers and says 「このメモの通りに直しておいて。直したら、コピーの前に一度僕に見せて」, so correcting the figures comes first.",
+    "distractorExplanations": [
+      "Copying was the original plan but must wait until after the correction and check.",
+      "The man has already obtained the numbers (もうもらってある).",
+      "(correct answer)",
+      "The room is already booked (もうしてある)."
+    ]
+  },
+  {
+    "id": "q-n2-l-2-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-2"
+    },
+    "prompt": "学生はこのあと何をしなければなりませんか。",
+    "context": "",
+    "options": [
+      "申込書を書き直す",
+      "今学期の成績証明書を取りに行く",
+      "先生に推薦状を頼む",
+      "明日もう一度事務室に来る"
+    ],
+    "answerIndex": 1,
+    "explanation": "The application form is fine, but the transcript is from last semester. The clerk says this semester's can be printed at the machine on the first floor and 「今日は証明書だけお願いします」.",
+    "distractorExplanations": [
+      "The clerk confirms the form is 大丈夫.",
+      "(correct answer)",
+      "The recommendation was requested last week and arrives tomorrow.",
+      "Returning tomorrow is for the recommendation letter; the immediate task is the transcript."
+    ]
+  },
+  {
+    "id": "q-n2-l-3-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-3"
+    },
+    "prompt": "夫はこのあとまず何をしますか。",
+    "context": "",
+    "options": [
+      "ホームセンターで段ボールを買う",
+      "引っ越し業者に電話する",
+      "市役所のホームページで粗大ごみを申し込む",
+      "古いソファを外に出す"
+    ],
+    "answerIndex": 1,
+    "explanation": "Buying boxes is rejected as expensive; the movers give them free. The husband states the order himself: 「まず業者に電話して、そのあとホームページを見る」.",
+    "distractorExplanations": [
+      "The wife rejects buying (買うと高い).",
+      "(correct answer)",
+      "This is the second task, after the phone call.",
+      "The sofa goes out by the day before the move, much later."
+    ]
+  },
+  {
+    "id": "q-n2-l-4-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-4"
+    },
+    "prompt": "女の人はこのあとどうしますか。",
+    "context": "",
+    "options": [
+      "家に新しい保険証を取りに帰る",
+      "全額を払って診察を受ける",
+      "予約を来週に変更する",
+      "一階の待合室で待つ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Going home would push her far back in the queue, so she decides 「今日はこのまま受けて」— she pays the full amount today and brings the new card later for a refund of the difference.",
+    "distractorExplanations": [
+      "She considers it but decides against it.",
+      "(correct answer)",
+      "No rescheduling is discussed.",
+      "The waiting room is on the second floor."
+    ]
+  },
+  {
+    "id": "q-n2-l-5-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-5"
+    },
+    "prompt": "学生は明日、何時に、どこに行きますか。",
+    "context": "",
+    "options": [
+      "八時に正門",
+      "七時半に正門",
+      "八時に体育館の前",
+      "七時半に体育館の前"
+    ],
+    "answerIndex": 3,
+    "explanation": "Both parts of the plan change: 30 minutes earlier (7:30) and in front of the gym. The student confirms 「七時半に体育館の前ですか」and the teacher says そう.",
+    "distractorExplanations": [
+      "The original plan, fully replaced.",
+      "Time is right but the place changed.",
+      "Place is right but the time changed.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n2-l-6-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-6"
+    },
+    "prompt": "客は何を注文しますか。",
+    "context": "",
+    "options": [
+      "ハンバーグセット、ライス、紅茶",
+      "ハンバーグセット、ライス、コーヒー",
+      "ハンバーグセット、パン、コーヒー、サラダ",
+      "ハンバーグセット、ライス、コーヒー、サラダ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rice is chosen, the drink changes from tea to coffee with やっぱり, and the salad is declined with 「サラダはいいです」.",
+    "distractorExplanations": [
+      "Tea was replaced by coffee.",
+      "(correct answer)",
+      "Rice, not bread, and no salad.",
+      "The salad was declined."
+    ]
+  },
+  {
+    "id": "q-n2-l-7-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-7"
+    },
+    "prompt": "女の学生はいつ働きますか。",
+    "context": "",
+    "options": [
+      "水曜日の午前",
+      "水曜日の夕方",
+      "木曜日の夕方",
+      "木曜日と土曜日"
+    ],
+    "answerIndex": 2,
+    "explanation": "Wednesday morning is offered but the shop needs evenings, so it is not used. Thursday 6 to 9 p.m. is agreed; Saturday is covered by Suzuki (そっちはいいや).",
+    "distractorExplanations": [
+      "Offered but not needed.",
+      "She has a seminar Wednesday afternoon.",
+      "(correct answer)",
+      "Saturday is no longer needed."
+    ]
+  },
+  {
+    "id": "q-n2-l-8-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-8"
+    },
+    "prompt": "男の人はこのあとまず何をしますか。",
+    "context": "",
+    "options": [
+      "利用者カードを家に取りに帰る",
+      "パソコンで利用者番号を調べる",
+      "用紙に名前と番号を書く",
+      "来週の月曜日にもう一度来る"
+    ],
+    "answerIndex": 1,
+    "explanation": "He does not know his user number, so he first looks it up on the computer (「それをやってから、用紙に書けばいいですね」), then fills in the form.",
+    "distractorExplanations": [
+      "He never suggests going home.",
+      "(correct answer)",
+      "This is the second step.",
+      "He will be notified by email; no need to return Monday."
+    ]
+  },
+  {
+    "id": "q-n2-l-9-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-9"
+    },
+    "prompt": "男の人はどうして遅れましたか。",
+    "context": "",
+    "options": [
+      "電車が止まっていたから",
+      "寝坊したから",
+      "財布を取りに家に帰ったから",
+      "駅で駅員と話していたから"
+    ],
+    "answerIndex": 3,
+    "explanation": "Trains were running, he left on time, and he did not go back home. His commuter pass was in the forgotten wallet, so explaining to station staff took time: 「駅員さんに事情を話して…時間がかかっちゃって」.",
+    "distractorExplanations": [
+      "「電車は普通に動いてました」.",
+      "「家を出るときはいつも通り」.",
+      "「取りに帰る時間はなかった」.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n2-l-10-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-10"
+    },
+    "prompt": "女の人は旅行で何が一番よかったと言っていますか。",
+    "context": "",
+    "options": [
+      "温泉",
+      "食べ物",
+      "景色",
+      "気候"
+    ],
+    "answerIndex": 1,
+    "explanation": "Hot springs are 'everywhere', scenery was nice but too cold to enjoy long; 「それより、海の幸がすごかった」and 「やっぱり食べ物かな」settle it.",
+    "distractorExplanations": [
+      "Good, but dismissed with どこにでもある.",
+      "(correct answer)",
+      "Beautiful, but she could not stay outside long.",
+      "The cold was the negative point."
+    ]
+  },
+  {
+    "id": "q-n2-l-11-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-11"
+    },
+    "prompt": "申し込みはいつまでにしなければなりませんか。",
+    "context": "",
+    "options": [
+      "来月八日まで",
+      "来月十五日まで",
+      "今月八日まで",
+      "当日まで"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two dates are given: the seminar is on the 15th, but applications are 「来月八日までに」. Note the warning that it may close earlier once full.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The 15th is the seminar date.",
+      "Both dates are next month.",
+      "Advance application is required."
+    ]
+  },
+  {
+    "id": "q-n2-l-12-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-12"
+    },
+    "prompt": "女の人はどうしてこのスマートフォンを買うことにしましたか。",
+    "context": "",
+    "options": [
+      "カメラの性能がいいから",
+      "電池が長く持つから",
+      "値段が安いから",
+      "一万円引きになるから"
+    ],
+    "answerIndex": 1,
+    "explanation": "She does not use the camera and still finds it expensive even with the discount. The decisive line is 「毎日充電するのが本当に面倒だったから」: battery life.",
+    "distractorExplanations": [
+      "「カメラはあまり使わない」.",
+      "(correct answer)",
+      "「まだ高いなあ」.",
+      "The discount does not convince her; it is 'still expensive'."
+    ]
+  },
+  {
+    "id": "q-n2-l-13-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-13"
+    },
+    "prompt": "会議は何時から始まりますか。",
+    "context": "",
+    "options": [
+      "十時",
+      "一時",
+      "二時",
+      "二時半"
+    ],
+    "answerIndex": 3,
+    "explanation": "10:00 moved to the afternoon, 1:00 is unavailable, 2:00 is when the room frees up and 30 minutes are needed for setup. The man confirms 「二時半に会議室だね」.",
+    "distractorExplanations": [
+      "The original time, changed.",
+      "Room in use by another department.",
+      "Room becomes free, but setup takes 30 minutes.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n2-l-14-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-14"
+    },
+    "prompt": "男の学生は新しい先生についてどう思っていますか。",
+    "context": "",
+    "options": [
+      "授業が速すぎてわかりにくい",
+      "教科書を読むだけでつまらない",
+      "説明がわかりやすいが声が小さい",
+      "宿題が多すぎてよくない"
+    ],
+    "answerIndex": 2,
+    "explanation": "He admits the pace is fast but calls the explanations わかりやすい; the one complaint after ただ is 「声が小さいのだけは何とかしてほしい」.",
+    "distractorExplanations": [
+      "Speed is acknowledged, not criticized as unclear.",
+      "That describes the previous teacher.",
+      "(correct answer)",
+      "Homework is heavy but 'really sinks in', so positive."
+    ]
+  },
+  {
+    "id": "q-n2-l-15-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-15"
+    },
+    "prompt": "女の人は何について話していますか。",
+    "context": "",
+    "options": [
+      "若い人の朝ごはんの内容",
+      "朝ごはんを食べないことの問題と、簡単な解決方法",
+      "ダイエットに効果的な食べ物",
+      "朝ごはんを食べない人が増えた理由"
+    ],
+    "answerIndex": 1,
+    "explanation": "Structure: many skip breakfast → problems (lower efficiency, weight gain) → easy fix (a banana or yogurt is fine). The whole talk is problem plus simple solution.",
+    "distractorExplanations": [
+      "Contents are only mentioned as examples at the end.",
+      "(correct answer)",
+      "Weight is a side point, not the theme.",
+      "Reasons are mentioned briefly, not the main topic."
+    ]
+  },
+  {
+    "id": "q-n2-l-16-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-16"
+    },
+    "prompt": "部長が一番言いたいことは何ですか。",
+    "context": "",
+    "options": [
+      "メールでお礼を言うのはよくない",
+      "一日のメールの数を決めるべきだ",
+      "必要のないメールを減らして、大事な連絡を見逃さないようにしてほしい",
+      "隣の席の人には口で話すべきだ"
+    ],
+    "answerIndex": 2,
+    "explanation": "The manager says thanks itself is important, that reducing mail is not the goal in itself, and that the aim is 「大事な連絡が…埋もれてしまわないように」.",
+    "distractorExplanations": [
+      "He says 「お礼を言うのは大切です」.",
+      "No quota is proposed.",
+      "(correct answer)",
+      "Only one example, not the main point."
+    ]
+  },
+  {
+    "id": "q-n2-l-17-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-17"
+    },
+    "prompt": "男の人が言いたいことは何ですか。",
+    "context": "",
+    "options": [
+      "外国語は毎日勉強しなければ上達しない",
+      "休んでも、また続けることが大切だ",
+      "三日以上休むと外国語を忘れてしまう",
+      "完璧に勉強できる人だけが上達する"
+    ],
+    "answerIndex": 1,
+    "explanation": "Daily study is 'ideal' but not required; 「大事なのは、休んだあとに戻ってくること」and 「長く続ける学習者になってください」.",
+    "distractorExplanations": [
+      "Daily is called ideal, not necessary.",
+      "(correct answer)",
+      "「一日休んでも消えません」.",
+      "「完璧な学習者になる必要はない」."
+    ]
+  },
+  {
+    "id": "q-n2-l-18-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-18"
+    },
+    "prompt": "女の学生はどのアルバイトを選びますか。",
+    "context": "",
+    "options": [
+      "コンビニ",
+      "塾",
+      "カフェ",
+      "まだ決めていない"
+    ],
+    "answerIndex": 2,
+    "explanation": "Convenience store has late-night shifts, cram school requires three fixed days; she picks the cafe: 「こっちにする」right after praising the cafe's convenience.",
+    "distractorExplanations": [
+      "Late-night shifts would hurt her classes.",
+      "That is the man's choice, not hers.",
+      "(correct answer)",
+      "She decides clearly at the end."
+    ]
+  },
+  {
+    "id": "q-n2-l-18-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-18"
+    },
+    "prompt": "女の学生がそのアルバイトを選んだ一番の理由は何ですか。",
+    "context": "",
+    "options": [
+      "時給が一番高いから",
+      "家から一番近いから",
+      "深夜のシフトがないから",
+      "勉強と両立しやすいから"
+    ],
+    "answerIndex": 3,
+    "explanation": "Her closing line gives the reason: 「私は勉強と両立できるほうがいいから」.",
+    "distractorExplanations": [
+      "The cafe's wage is 真ん中, the middle.",
+      "The convenience store is nearest home; the cafe is next to the university.",
+      "True but not stated as her main reason.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n2-l-19-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-19"
+    },
+    "prompt": "妻はどの展覧会を一人で見ますか。",
+    "context": "",
+    "options": [
+      "一階の風景画展",
+      "二階のヨーロッパ絵画展",
+      "三階の体験アート",
+      "二階と三階の両方"
+    ],
+    "answerIndex": 1,
+    "explanation": "The husband takes the child to the third floor and tells his wife 「その間に二階を見てきなよ」; the first floor is visited together on the way out.",
+    "distractorExplanations": [
+      "Visited by everyone together at the end.",
+      "(correct answer)",
+      "The husband and child go there.",
+      "She sees only the second floor alone."
+    ]
+  },
+  {
+    "id": "q-n2-l-19-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-19"
+    },
+    "prompt": "この家族は入場料を全部でいくら払いますか。",
+    "context": "",
+    "options": [
+      "五百円",
+      "千五百円",
+      "千七百円",
+      "二千円"
+    ],
+    "answerIndex": 2,
+    "explanation": "Second floor (1,500) plus third floor (500) would be 2,000, but the combined ticket is 1,700; the husband confirms 「セットだと三百円安くなる」. The first floor is free.",
+    "distractorExplanations": [
+      "Only the third-floor price.",
+      "Only the second-floor price.",
+      "(correct answer)",
+      "The separate total, before the set discount."
+    ]
+  },
+  {
+    "id": "q-n2-l-20-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-20"
+    },
+    "prompt": "在宅勤務ができないのは何曜日ですか。",
+    "context": "",
+    "options": [
+      "月曜日",
+      "火曜日",
+      "金曜日",
+      "土曜日"
+    ],
+    "answerIndex": 0,
+    "explanation": "「月曜日の朝は全員出社の会議があるので、月曜は在宅にできません」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Tuesday is one of the days the woman chooses.",
+      "Friday is the application deadline and one of the man's chosen days.",
+      "Not a working day in the discussion."
+    ]
+  },
+  {
+    "id": "q-n2-l-20-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-20"
+    },
+    "prompt": "在宅勤務について、正しいものはどれですか。",
+    "context": "",
+    "options": [
+      "家のパソコンを使ってもいい",
+      "申請は当日でも変更できる",
+      "週二日は連続ではいけない",
+      "報告は夕方五時に一回だけすればいい"
+    ],
+    "answerIndex": 1,
+    "explanation": "「申請の変更はシステムで当日でもできます」.",
+    "distractorExplanations": [
+      "「家のパソコンは使えません」.",
+      "(correct answer)",
+      "「連続でも構いません」.",
+      "Reports are required at 9 a.m. and 5 p.m."
+    ]
+  },
+  {
+    "id": "q-n2-l-21-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-21"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "はい、目を通してください。",
+      "ええ、午後には見ておきます。",
+      "いいえ、今日は通れません。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A request with 〜ていただけますか is accepted by promising to do it: 「午後には見ておきます」.",
+    "distractorExplanations": [
+      "Repeats the request back to the asker instead of answering it.",
+      "(correct answer)",
+      "通れません misreads 目を通す (look over) as physically passing through."
+    ]
+  },
+  {
+    "id": "q-n2-l-22-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-22"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "わかった。すぐ行くと伝えて。",
+      "はい、見えませんでした。",
+      "田中様が来てもいいですか。"
+    ],
+    "answerIndex": 0,
+    "explanation": "お見えになる is honorific 'to arrive'. The natural reply is an instruction: 「すぐ行くと伝えて」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Misunderstands お見えになる as 見える (to be visible).",
+      "Asks permission for something that has already happened."
+    ]
+  },
+  {
+    "id": "q-n2-l-23-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-23"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "ええ、終電ぎりぎりでした。",
+      "いいえ、残業してください。",
+      "はい、早く帰りましたよ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜んですって confirms hearsay. Confirming with a detail (last train) is natural.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "残業してください is a command, not an answer.",
+      "Contradicts itself: 'yes' but 'went home early'."
+    ]
+  },
+  {
+    "id": "q-n2-l-24-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-24"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "うん、持ってもいいよ。",
+      "ありがとう、じゃあこれだけお願い。",
+      "いいえ、持ちませんでした。"
+    ],
+    "answerIndex": 1,
+    "explanation": "持とうか is an offer of help. Accept with thanks and hand over one item.",
+    "distractorExplanations": [
+      "持ってもいいよ grants permission, which is odd in reply to an offer of help.",
+      "(correct answer)",
+      "Answers about the past; the offer is about now."
+    ]
+  },
+  {
+    "id": "q-n2-l-25-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-25"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "へえ、それは心強いですね。",
+      "はい、行ってきます。",
+      "山田さんは出張ですか。"
+    ],
+    "answerIndex": 0,
+    "explanation": "News that a colleague will join the trip. 心強い (reassuring) is the natural reaction.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "行ってきます is what you say when leaving, not on hearing news.",
+      "Merely repeats the information as a question."
+    ]
+  },
+  {
+    "id": "q-n2-l-26-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-26"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "あ、失礼しました。番号を見間違えていました。",
+      "はい、あなたの席です。",
+      "私も座りたいです。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The speaker politely points out you are in their seat. Apologize and give a reason.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Confirms it but does not move or apologize, so the response is unnatural.",
+      "Ignores the problem entirely."
+    ]
+  },
+  {
+    "id": "q-n2-l-27-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-27"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "ええ、おかげで午後の仕事が進みそうです。",
+      "はい、まだ終わっていません。",
+      "会議は何時からですか。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Small talk about the meeting ending early. Agree and add a related comment.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Contradicts the statement that it has ended.",
+      "Asks about a meeting that has already finished."
+    ]
+  },
+  {
+    "id": "q-n2-l-28-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-28"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "ありがとう。少し休ませてもらいます。",
+      "はい、無理します。",
+      "顔色はいいですよ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Concern about your health with advice not to overdo it. Thank them and accept the advice.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "無理します accepts the opposite of the advice.",
+      "Disputes the observation instead of responding to the concern."
+    ]
+  },
+  {
+    "id": "q-n2-l-29-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-29"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "一日だけなら構いませんよ。",
+      "はい、延ばしてください。",
+      "締め切りは昨日でした。"
+    ],
+    "answerIndex": 0,
+    "explanation": "A request to extend a deadline. Grant it with a condition: 「一日だけなら構いません」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Tells the requester to extend the deadline themselves; role reversal.",
+      "Answers about a past deadline instead of responding to the request."
+    ]
+  },
+  {
+    "id": "q-n2-l-30-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "listeningId": "n2-listening-30"
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "",
+    "options": [
+      "わあ、お気遣いありがとうございます。",
+      "はい、召し上がります。",
+      "京都に行きたいですか。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Receiving a souvenir. Thank the giver for their thoughtfulness (お気遣い).",
+    "distractorExplanations": [
+      "(correct answer)",
+      "召し上がる is honorific and cannot be used for one's own eating.",
+      "Irrelevant question."
+    ]
+  }
+]

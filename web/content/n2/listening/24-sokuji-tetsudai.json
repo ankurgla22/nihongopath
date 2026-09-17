@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-24",
+  "slug": "24-sokuji-tetsudai",
+  "level": "n2",
+  "order": 24,
+  "kind": "quick-response",
+  "title": "即時応答 4",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "荷物、多そうだね。持とうか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "luggage, bags"
+    },
+    {
+      "word": "〜ようか",
+      "reading": "ようか",
+      "meaning": "shall I (offer)"
+    },
+    {
+      "word": "お願い",
+      "reading": "おねがい",
+      "meaning": "please (accepting help)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-24-1"
+  ]
+}

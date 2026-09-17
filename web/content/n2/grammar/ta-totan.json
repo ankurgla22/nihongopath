@@ -1,0 +1,121 @@
+{
+  "id": "n2-grammar-67",
+  "slug": "ta-totan",
+  "level": "n2",
+  "order": 67,
+  "title": "〜たとたん(に)",
+  "romaji": "ta totan (ni)",
+  "meaning": "the moment… / just as… (something unexpected happened)",
+  "simpleExplanation": "〜たとたん(に) means \"the moment (X) happened, (Y) happened\". Y follows X almost instantly and usually surprises the speaker: the moment I stood up, I felt dizzy; the moment the door opened, the cat ran out. Because it describes something the speaker observed, the second half is a past fact, never a plan or command.",
+  "whenUsed": "Both spoken and written, neutral. Typical situations: narrating surprising sequences, accidents, sudden changes of weather, reactions of people. The kanji 途端 is sometimes used.",
+  "formation": [
+    "Verb (た-form) + とたん(に)",
+    "Second clause: past tense, an unexpected event outside the speaker's control",
+    "Not used with intentions (〜よう), commands, or requests in the second clause"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "立ち上がった",
+        "en": "I stood up (completed action)"
+      },
+      {
+        "ja": "立ち上がったとたん",
+        "en": "the very moment I stood up…"
+      },
+      {
+        "ja": "立ち上がったとたん、めまいがした",
+        "en": "…I felt dizzy (sudden, unexpected result)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "立ち上がったとたん、めまいがした。",
+      "reading": "たちあがったとたん、めまいがした。",
+      "en": "The moment I stood up, I felt dizzy."
+    },
+    {
+      "ja": "ドアを開けたとたんに、猫が飛び出してきた。",
+      "reading": "ドアをあけたとたんに、ねこがとびだしてきた。",
+      "en": "The moment I opened the door, the cat shot out."
+    },
+    {
+      "ja": "彼女は私の顔を見たとたん、泣き出した。",
+      "reading": "かのじょはわたしのかおをみたとたん、なきだした。",
+      "en": "The moment she saw my face, she burst into tears."
+    },
+    {
+      "ja": "電車が駅に着いたとたん、大雨が降り出した。",
+      "reading": "でんしゃがえきについたとたん、おおあめがふりだした。",
+      "en": "Just as the train arrived at the station, it started pouring."
+    },
+    {
+      "ja": "薬を飲んだとたんに、眠くなってしまった。",
+      "reading": "くすりをのんだとたんに、ねむくなってしまった。",
+      "en": "As soon as I took the medicine, I got sleepy."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜か〜ないかのうちに",
+      "difference": "\"Almost before X finished\" – two events overlap; no requirement that Y is unexpected.",
+      "id": "n2-grammar-23"
+    },
+    {
+      "pattern": "〜(か)と思うと / 〜(か)と思ったら",
+      "difference": "\"No sooner had X than Y\" – also sudden, often with a feeling of surprise at how fast things changed.",
+      "id": "n2-grammar-22"
+    },
+    {
+      "pattern": "〜次第",
+      "difference": "\"As soon as X, (I will) Y\" – used for plans and requests; とたん is only for past facts.",
+      "id": "n2-grammar-54"
+    },
+    {
+      "pattern": "〜が早いか",
+      "difference": "N1-level literary \"as soon as\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "家に着いたとたん、電話します。",
+      "right": "家に着き次第、電話します。",
+      "why": "A plan or promise after \"as soon as\" needs 次第 (or たら). とたん describes an observed past event."
+    },
+    {
+      "wrong": "家に着くとたん、雨が降り出した。",
+      "right": "家に着いたとたん、雨が降り出した。",
+      "why": "とたん attaches only to the た-form."
+    },
+    {
+      "wrong": "試験が終わったとたん、遊びに行こう。",
+      "right": "試験が終わったら、遊びに行こう。",
+      "why": "The second clause cannot be a volitional or invitation; とたん needs an unexpected past fact."
+    }
+  ],
+  "usageNotes": [
+    "The second clause is often a sudden start: 〜出した, 〜始めた, 〜てきた, or a sudden change of state.",
+    "とたん and とたんに are interchangeable; に adds a little emphasis on the timing.",
+    "Because the event is unexpected, the first and second clauses usually have different subjects or an involuntary result."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the second clause is a past unexpected event, choose とたん; if it is a plan or request, choose 次第 or たら.",
+    "Distractors: 次第, か〜ないかのうちに, と思うと, 最中に. Check the form before the blank (た-form) and the ending (past fact).",
+    "In 並べ替え, the chunk たとたん follows a た-form verb and precedes a clause with 出した / 始めた."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-67-1",
+    "q-n2-g-67-2",
+    "q-n2-g-67-3",
+    "q-n2-g-67-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-67-5",
+    "q-n2-g-67-6",
+    "q-n2-g-67-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

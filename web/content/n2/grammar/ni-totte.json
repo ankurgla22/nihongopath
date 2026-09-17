@@ -1,0 +1,131 @@
+{
+  "id": "n2-grammar-127",
+  "slug": "ni-totte",
+  "level": "n2",
+  "order": 127,
+  "title": "〜にとって / 〜にとっては / 〜にとっても",
+  "romaji": "ni totte",
+  "meaning": "for… / from the standpoint of… (followed by an evaluation)",
+  "simpleExplanation": "〜にとって means \"for (X)\" in the sense \"from X's point of view\". It tells whose standpoint an evaluation is made from: 私にとって日本語は難しい – for me, Japanese is hard (someone else might find it easy). The sentence that follows is almost always a judgment: important, difficult, necessary, a problem, happiness.",
+  "whenUsed": "Very common in speech and writing at every level. Typical uses: saying how important or hard something is for a person or group (子どもにとって, 会社にとって, 日本にとって), and set phrases such as 私にとって一番大切なものは….",
+  "formation": [
+    "Noun (person, group, organization) + にとって",
+    "Noun + にとっては (with contrast focus) / にとっても (also for…)",
+    "Noun + にとっての + Noun  (私にとっての幸せ = happiness as I see it)",
+    "Followed by an evaluation: 大切だ, 難しい, 必要だ, 問題だ, 幸せだ, 意味がある"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "子ども",
+        "role": "whose viewpoint",
+        "highlight": true
+      },
+      {
+        "text": "にとって",
+        "role": "for / from the standpoint of",
+        "highlight": true
+      },
+      {
+        "text": "遊びは",
+        "role": "topic being evaluated"
+      },
+      {
+        "text": "大切な勉強だ",
+        "role": "evaluation / judgment"
+      }
+    ],
+    "translation": "For children, play is an important form of learning."
+  },
+  "examples": [
+    {
+      "ja": "子どもにとって、遊びは大切な勉強だ。",
+      "reading": "こどもにとって、あそびはたいせつなべんきょうだ。",
+      "en": "For children, play is an important form of learning."
+    },
+    {
+      "ja": "私にとって家族は何よりも大切です。",
+      "reading": "わたしにとってかぞくはなによりもたいせつです。",
+      "en": "For me, family is more important than anything."
+    },
+    {
+      "ja": "この問題は初心者にとっては難しすぎる。",
+      "reading": "このもんだいはしょしんしゃにとってはむずかしすぎる。",
+      "en": "This problem is too difficult for beginners.",
+      "note": "にとっては adds contrast: for beginners (though not for others)."
+    },
+    {
+      "ja": "環境問題は日本にとっても重要な課題だ。",
+      "reading": "かんきょうもんだいはにほんにとってもじゅうようなかだいだ。",
+      "en": "Environmental issues are an important challenge for Japan too."
+    },
+    {
+      "ja": "彼にとっての幸せとは、静かに本を読む時間らしい。",
+      "reading": "かれにとってのしあわせとは、しずかにほんをよむじかんらしい。",
+      "en": "Happiness, for him, apparently means quiet time reading books.",
+      "note": "にとっての modifies a noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に対して",
+      "difference": "\"Toward\" – the target of an action or attitude. にとって is a viewpoint for an evaluation.",
+      "id": "n2-grammar-121"
+    },
+    {
+      "pattern": "〜として",
+      "difference": "\"As / in the role of\" (教師として). にとって is not a role; it is a standpoint.",
+      "id": "n2-grammar-91"
+    },
+    {
+      "pattern": "〜にしたら / 〜にすれば / 〜にしてみれば",
+      "difference": "\"If you were X\" – imagining X's feelings; more subjective and empathetic than にとって.",
+      "id": "n2-grammar-114"
+    },
+    {
+      "pattern": "〜には",
+      "difference": "Plain \"for\": 私には難しい. Almost interchangeable, but にとって sounds more explicit."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生にとって質問した。",
+      "right": "先生に質問した。",
+      "why": "Asking is an action toward a person, not an evaluation. にとって cannot mark the recipient of an action."
+    },
+    {
+      "wrong": "私にとって、日本語を勉強したい。",
+      "right": "私は日本語を勉強したい。",
+      "why": "What follows にとって must be a judgment (難しい, 大切だ), not a wish, intention, or action."
+    },
+    {
+      "wrong": "この本にとって、私は感動した。",
+      "right": "この本に、私は感動した。／この本は私にとって感動的だった。",
+      "why": "にとって marks the viewpoint, usually a person or organization, not the thing being evaluated."
+    }
+  ],
+  "usageNotes": [
+    "The noun before にとって is usually a person or group, but abstract nouns like 人類, 社会, 経済 are also common.",
+    "にとっては highlights a contrast with other viewpoints; にとっても adds a viewpoint.",
+    "Do not follow にとって with 賛成する, 反対する, 話す – those need に対して or について."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the predicate is an adjective of evaluation (大切, 必要, 難しい, 幸せ), the blank is にとって. If it is an action verb, it is not.",
+    "Standard distractors: に対して, として, について. Ask: viewpoint (にとって), target (に対して), role (として), topic (について).",
+    "The noun-modifying form にとっての appears before nouns like 幸せ, 意味, 問題."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-127-1",
+    "q-n2-g-127-2",
+    "q-n2-g-127-3",
+    "q-n2-g-127-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-127-5",
+    "q-n2-g-127-6",
+    "q-n2-g-127-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

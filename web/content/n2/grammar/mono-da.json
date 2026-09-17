@@ -1,0 +1,155 @@
+{
+  "id": "n2-grammar-156",
+  "slug": "mono-da",
+  "level": "n2",
+  "order": 156,
+  "title": "〜ものだ",
+  "romaji": "mono da",
+  "meaning": "that's the way it is / one should… / I used to… / how…!",
+  "simpleExplanation": "〜ものだ adds a feeling of \"that's just how things are\" to a sentence. Depending on the form before it, it does four jobs: (1) a general truth (人は失敗するものだ – people do make mistakes), (2) gentle advice about what one should do (年上の人には敬語を使うものだ), (3) a nostalgic memory with the た-form (よく遊んだものだ – we used to play a lot), and (4) strong emotion or admiration (時間がたつのは早いものだ). The common thread is that the speaker is stating something as a natural, shared feeling rather than a personal opinion.",
+  "whenUsed": "Both spoken and written. The advice use sounds like a parent or teacher, so avoid it toward superiors. The nostalgic 〜たものだ is common in reminiscing conversation and in essays. Negative advice is 〜ものではない (\"one shouldn't\").",
+  "formation": [
+    "Verb (dictionary form) + ものだ → general truth / should",
+    "Verb (た-form) + ものだ → used to (nostalgia)",
+    "Verb (ない form) + ものだ / Verb + ものではない → should not",
+    "い-adjective + ものだ / な-adjective + な + ものだ → emotion, admiration",
+    "Casual: 〜もんだ / Polite: 〜ものです"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Four faces of ものだ",
+    "columns": [
+      "Form",
+      "Meaning",
+      "Example",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "Dictionary form + ものだ",
+        "cells": [
+          "general truth / nature",
+          "人は誰でも失敗するものだ",
+          "Everyone makes mistakes; that's how people are."
+        ]
+      },
+      {
+        "label": "Dictionary form + ものだ (advice)",
+        "cells": [
+          "one should (by common sense)",
+          "約束は守るものだ",
+          "Promises are meant to be kept."
+        ]
+      },
+      {
+        "label": "た-form + ものだ",
+        "cells": [
+          "used to (nostalgia)",
+          "子どものころ、よく川で泳いだものだ",
+          "As a child I used to swim in the river all the time."
+        ]
+      },
+      {
+        "label": "Adjective + ものだ",
+        "cells": [
+          "deep emotion",
+          "月日がたつのは早いものだ",
+          "How fast time flies!"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "人はだれでも年を取るものだ。",
+      "reading": "ひとはだれでもとしをとるものだ。",
+      "en": "Everyone gets old; that's just the way it is.",
+      "note": "General truth."
+    },
+    {
+      "ja": "目上の人には敬語を使うものだよ。",
+      "reading": "めうえのひとにはけいごをつかうものだよ。",
+      "en": "You should use polite language with your seniors, you know.",
+      "note": "Advice based on common sense."
+    },
+    {
+      "ja": "学生のころは、朝まで友達と語り合ったものだ。",
+      "reading": "がくせいのころは、あさまでともだちとかたりあったものだ。",
+      "en": "In my student days, I used to talk with friends until morning.",
+      "note": "た-form + ものだ = nostalgia."
+    },
+    {
+      "ja": "人の悪口を言うものではない。",
+      "reading": "ひとのわるぐちをいうものではない。",
+      "en": "One shouldn't speak ill of others.",
+      "note": "ものではない = should not (moral advice)."
+    },
+    {
+      "ja": "赤ちゃんの成長は本当に早いものですね。",
+      "reading": "あかちゃんのせいちょうはほんとうにはやいものですね。",
+      "en": "Babies really do grow up fast, don't they.",
+      "note": "Adjective + ものだ shows emotion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べきだ",
+      "difference": "\"Should\" as the speaker's own judgment. ものだ presents the advice as common sense everyone shares.",
+      "id": "n2-grammar-145"
+    },
+    {
+      "pattern": "〜ことだ",
+      "difference": "Direct advice to a specific person (\"the thing to do is…\"). ものだ is a general truth, not aimed at one person.",
+      "id": "n2-grammar-196"
+    },
+    {
+      "pattern": "〜ものではない",
+      "difference": "The negative advice form: \"one shouldn't…\"."
+    },
+    {
+      "pattern": "〜ものだから",
+      "difference": "Different pattern: gives a reason (\"because…\"), often as an excuse.",
+      "id": "n2-grammar-157"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生、この言葉は覚えるものですよ。(to a teacher)",
+      "right": "先生、この言葉は覚えたほうがいいと思います。",
+      "why": "Advice-ものだ sounds like lecturing. Never use it toward a superior."
+    },
+    {
+      "wrong": "昨日、友達と映画を見たものだ。",
+      "right": "昨日、友達と映画を見た。",
+      "why": "たものだ is for habitual past (\"used to\"), not a single event yesterday."
+    },
+    {
+      "wrong": "約束は守るものだから、行った。(intending: because I had to keep my promise)",
+      "right": "約束は守るべきだから、行った。／約束したものだから、行った。",
+      "why": "ものだから is a separate reason pattern; do not mix it with the truth/advice meaning of ものだ."
+    }
+  ],
+  "usageNotes": [
+    "Nostalgic たものだ is usually paired with よく, 昔, 子どものころ, 学生時代.",
+    "Emotion-ものだ often appears with 本当に, なんと, ずいぶん and ends with ね/なあ in speech.",
+    "The casual contraction もんだ is very frequent in speech: 人生って、そんなもんだよ."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, first identify which of the four jobs fits: words like よく + た-form point to \"used to\"; a moral statement points to \"should\"; an adjective points to emotion.",
+    "Common distractors: ことだ (direct advice), べきだ, ものではない, わけだ. If the sentence is a general truth about people or the world, choose ものだ.",
+    "Do not confuse with ものの (although), ものなら (if one could), ものだから (because). Check the syllables after もの carefully."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-156-1",
+    "q-n2-g-156-2",
+    "q-n2-g-156-3",
+    "q-n2-g-156-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-156-5",
+    "q-n2-g-156-6",
+    "q-n2-g-156-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

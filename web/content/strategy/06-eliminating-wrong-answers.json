@@ -1,0 +1,58 @@
+[
+  {
+    "id": "strategy-eliminating-wrong-answers",
+    "slug": "eliminating-wrong-answers",
+    "title": "Eliminating wrong answers and handling unknown words",
+    "summary": "You will meet words you do not know on every N2 paper. Elimination, context inference and kanji analysis turn those moments from lost points into probable ones, without needing perfect knowledge.",
+    "sections": [
+      {
+        "heading": "Every question is four options, not one blank",
+        "paragraphs": [
+          "The JLPT is entirely multiple choice, there is no penalty for a wrong answer, and each question has exactly one correct option among four (three in quick-response listening). This changes the task. You do not need to produce the answer from nothing; you need to find reasons to reject options until one remains. A candidate who can confidently eliminate two options has doubled the odds on the rest, and over a whole paper those improved guesses are worth many points. Make elimination a deliberate step: on every question you are not sure of, cross out the options you can rule out, and choose among what is left."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "How distractors are built",
+        "paragraphs": [
+          "Test writers construct wrong options in predictable ways, and recognising the construction lets you reject them quickly."
+        ],
+        "bullets": [
+          "Grammatical mismatch: the option cannot attach to the word before the blank (a pattern that requires a noun following a verb). Always the first thing to check.",
+          "Right words, wrong claim: in reading, an option repeats phrases from the passage but combines them into something the passage never says. Word overlap is not evidence.",
+          "Too strong: the passage says 〜ことが多い or 〜場合もある; the option says 必ず, すべて, 決して. Absolute words are usually wrong unless the text is equally absolute.",
+          "Reversed relationship: cause and effect, before and after, or speaker and listener are swapped.",
+          "The rejected view: in reading, the view introduced with 一般に〜と言われる before a しかし; in listening, the plan that was abandoned.",
+          "Partly true: the option describes a detail or an example rather than the main point the question asks for.",
+          "Wrong register: a formal written pattern in casual speech, or a spoken contraction in an essay."
+        ]
+      },
+      {
+        "heading": "Handling an unknown word in a reading passage",
+        "paragraphs": [
+          "First decide whether the word matters. If it is not in the question and not in the options, and the sentence around it makes sense without it, skip it. If it does matter, infer rather than panic. Use the kanji: the components of a compound usually give its meaning (増加 contains increase and add; 削減 contains shave and reduce). Use the grammar: what the word is doing in the sentence, whether it takes を, whether it is modifying a noun, tells you its part of speech and often its polarity. Use the surrounding sentences: words like つまり, 例えば, 〜というのは and 〜のような introduce restatements and examples that define the word for you. Use the tone: if the paragraph is describing a problem, an unfamiliar adjective there is probably negative.",
+          "In vocabulary questions specifically, when you do not know the target word, work backwards from the options. If three options are clearly similar to each other and one is different, the different one is rarely the answer in a 言い換え question, and often is the answer in a 用法 question. If an option contains a kanji you do know that conflicts with the sentence, it is out."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "Handling an unknown word in listening",
+        "paragraphs": [
+          "You cannot pause to think, so the rule is to keep listening and let the context resolve it. Speakers in test dialogues almost always react to important words: they repeat them, ask about them, agree or object. If you missed a word but heard the other speaker say それはちょっと, you know it was rejected. Write a symbol for the unknown item rather than trying to spell it, and attach the reaction you heard. Most of the time, the question does not depend on the exact word but on what happened to it."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "When two options remain",
+        "paragraphs": [
+          "The final choice between two survivors is where careful candidates gain. Re-read the question stem and underline the key word; often one survivor answers a slightly different question (why instead of how, the writer instead of the people quoted). Check scope: the option that matches the passage's level of certainty and generality is more likely than the one that adds or removes a condition. Check location: for reading, the answer to a main-idea question is usually supported by the final paragraph, while the answer to a 「これ」 reference question is usually just before the reference. If nothing separates them, choose the option that is expressed in different words from the passage rather than the one that copies it, since paraphrase is how correct options are normally written. Then mark it and move on; you have already extracted what the question can give you."
+        ],
+        "bullets": [
+          "Eliminate by grammar first, then by claim, then by tone.",
+          "Word overlap with the passage is not evidence of correctness.",
+          "Distrust absolute words unless the text uses them."
+        ]
+      }
+    ]
+  }
+]

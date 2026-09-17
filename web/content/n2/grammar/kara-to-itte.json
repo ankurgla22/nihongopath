@@ -1,0 +1,133 @@
+{
+  "id": "n2-grammar-30",
+  "slug": "kara-to-itte",
+  "level": "n2",
+  "order": 30,
+  "title": "〜からといって",
+  "romaji": "kara to itte",
+  "meaning": "just because… (doesn't mean…)",
+  "simpleExplanation": "〜からといって means \"just because (X), (it doesn't follow that Y)\". Someone might think X is a good enough reason for Y, and the speaker says: no, that reason alone is not enough. The second half is therefore almost always negative: わけではない, とは限らない, とは言えない, or a plain ない.",
+  "whenUsed": "Both spoken and written, neutral. Typical situations: warning against a hasty conclusion (\"just because he's rich doesn't mean he's happy\"), or scolding someone for using a weak excuse (\"just because you're tired, you can't skip it\"). Casual speech shortens it to からって.",
+  "formation": [
+    "Verb / い-adjective (plain form) + からといって",
+    "な-adjective + だ + からといって",
+    "Noun + だ + からといって",
+    "Second clause: 〜わけではない / 〜とは限らない / 〜とは言えない / 〜てはいけない",
+    "Casual: 〜からって"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "日本に住んでいる",
+        "role": "the reason someone might rely on (X)"
+      },
+      {
+        "text": "からといって",
+        "role": "just because…",
+        "highlight": true
+      },
+      {
+        "text": "日本語が上手だ",
+        "role": "the conclusion being rejected (Y)"
+      },
+      {
+        "text": "とは限らない",
+        "role": "doesn't necessarily follow",
+        "highlight": true
+      }
+    ],
+    "translation": "Just because someone lives in Japan doesn't mean they are good at Japanese."
+  },
+  "examples": [
+    {
+      "ja": "日本に住んでいるからといって、日本語が上手だとは限らない。",
+      "reading": "にほんにすんでいるからといって、にほんごがじょうずだとはかぎらない。",
+      "en": "Just because someone lives in Japan doesn't mean they're good at Japanese."
+    },
+    {
+      "ja": "安いからといって、たくさん買うのはやめたほうがいい。",
+      "reading": "やすいからといって、たくさんかうのはやめたほうがいい。",
+      "en": "Just because it's cheap, you shouldn't buy a lot of it.",
+      "note": "The second clause can be advice with a negative sense."
+    },
+    {
+      "ja": "有名だからといって、その人の言うことがすべて正しいわけではない。",
+      "reading": "ゆうめいだからといって、そのひとのいうことがすべてただしいわけではない。",
+      "en": "Just because someone is famous doesn't mean everything they say is right.",
+      "note": "な-adjective + だ + からといって."
+    },
+    {
+      "ja": "疲れているからといって、約束を破ってはいけない。",
+      "reading": "つかれているからといって、やくそくをやぶってはいけない。",
+      "en": "Being tired is no excuse for breaking a promise."
+    },
+    {
+      "ja": "子どもだからって、許されないこともある。",
+      "reading": "こどもだからって、ゆるされないこともある。",
+      "en": "Just because you're a kid doesn't mean everything is forgiven.",
+      "note": "Casual からって."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からには",
+      "difference": "Opposite direction: \"now that X, of course Y\" – the reason IS enough.",
+      "id": "n2-grammar-31"
+    },
+    {
+      "pattern": "〜とは限らない",
+      "difference": "\"Not necessarily\" – often the ending that pairs with からといって."
+    },
+    {
+      "pattern": "〜からこそ",
+      "difference": "\"Precisely because\" – emphasizes the reason as valid.",
+      "id": "n2-grammar-177"
+    },
+    {
+      "pattern": "〜からして",
+      "difference": "\"Judging from\" or \"even X\" – not about rejecting a reason.",
+      "id": "n2-grammar-28"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お金があるからといって、幸せだ。",
+      "right": "お金があるからといって、幸せだとは限らない。",
+      "why": "The second clause must reject the conclusion; a positive ending makes no sense."
+    },
+    {
+      "wrong": "有名からといって、",
+      "right": "有名だからといって、",
+      "why": "な-adjectives and nouns need だ before からといって."
+    },
+    {
+      "wrong": "約束したからといって、行かなければならない。(intending: since I promised, I must go)",
+      "right": "約束したからには、行かなければならない。",
+      "why": "For \"now that I promised, I must\", the pattern is からには. からといって rejects the reason."
+    }
+  ],
+  "usageNotes": [
+    "からといって + わけではない / とは限らない is the most common pairing; learn them as a set.",
+    "It can be used to lecture someone about a weak excuse: 〜からといって〜てはいけない / 〜てもいいということにはならない.",
+    "Sentence-initial だからといって (\"but that doesn't mean…\") is also common."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the ending is わけではない / とは限らない / とは言えない, the blank is very likely からといって.",
+    "The main distractor is からには (\"now that\"), which takes a positive, determined ending. Check the direction of the second clause.",
+    "Watch for the casual からって in conversational sentences; it is the same pattern."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-30-1",
+    "q-n2-g-30-2",
+    "q-n2-g-30-3",
+    "q-n2-g-30-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-30-5",
+    "q-n2-g-30-6",
+    "q-n2-g-30-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

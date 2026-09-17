@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-27",
+  "slug": "27-sokuji-kaigi",
+  "level": "n2",
+  "order": 27,
+  "kind": "quick-response",
+  "title": "即時応答 7",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "今日の会議、思ったより早く終わりましたね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "思ったより",
+      "reading": "おもったより",
+      "meaning": "than expected"
+    },
+    {
+      "word": "おかげで",
+      "reading": "おかげで",
+      "meaning": "thanks to that"
+    },
+    {
+      "word": "進む",
+      "reading": "すすむ",
+      "meaning": "to progress"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-27-1"
+  ]
+}

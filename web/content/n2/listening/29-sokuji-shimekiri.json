@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-29",
+  "slug": "29-sokuji-shimekiri",
+  "level": "n2",
+  "order": 29,
+  "kind": "quick-response",
+  "title": "即時応答 9",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "申し訳ありません、締め切りを一日延ばしていただけないでしょうか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "締め切り",
+      "reading": "しめきり",
+      "meaning": "deadline"
+    },
+    {
+      "word": "延ばす",
+      "reading": "のばす",
+      "meaning": "to extend"
+    },
+    {
+      "word": "構わない",
+      "reading": "かまわない",
+      "meaning": "to not mind"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-29-1"
+  ]
+}

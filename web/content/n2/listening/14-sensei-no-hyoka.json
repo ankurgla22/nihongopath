@@ -1,0 +1,84 @@
+{
+  "id": "n2-listening-14",
+  "slug": "14-sensei-no-hyoka",
+  "level": "n2",
+  "order": 14,
+  "kind": "point",
+  "title": "先生の評価",
+  "setting": "学生二人が授業について話しています。男の学生は新しい先生についてどう思っていますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "新しい先生の授業、どう？私はちょっと速すぎると思うんだけど。"
+    },
+    {
+      "speaker": "男",
+      "line": "速いのは確かだね。でも、僕は前の先生より好きだな。"
+    },
+    {
+      "speaker": "女",
+      "line": "そう？どうして？"
+    },
+    {
+      "speaker": "男",
+      "line": "前の先生は教科書を読むだけだったでしょう。今の先生は、実際の例をたくさん出してくれるから、わかりやすいんだよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "うーん、でも、宿題が多くない？"
+    },
+    {
+      "speaker": "男",
+      "line": "多いけど、あれをやると授業の内容が本当に頭に入るからさ。ただ、声が小さいのだけは何とかしてほしいな。後ろの席だと聞こえないときがある。"
+    },
+    {
+      "speaker": "女",
+      "line": "それは私も思う。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "確か",
+      "reading": "たしか",
+      "meaning": "certain"
+    },
+    {
+      "word": "教科書",
+      "reading": "きょうかしょ",
+      "meaning": "textbook"
+    },
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "meaning": "actual"
+    },
+    {
+      "word": "例",
+      "reading": "れい",
+      "meaning": "example"
+    },
+    {
+      "word": "頭に入る",
+      "reading": "あたまにはいる",
+      "meaning": "to sink in"
+    },
+    {
+      "word": "ただ",
+      "reading": "ただ",
+      "meaning": "however (one exception)"
+    },
+    {
+      "word": "何とかする",
+      "reading": "なんとかする",
+      "meaning": "to do something about"
+    },
+    {
+      "word": "後ろの席",
+      "reading": "うしろのせき",
+      "meaning": "back seats"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-14-1"
+  ]
+}

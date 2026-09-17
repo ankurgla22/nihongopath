@@ -1,0 +1,155 @@
+{
+  "id": "n2-grammar-132",
+  "slug": "ni-yotte",
+  "level": "n2",
+  "order": 132,
+  "title": "〜によって / 〜により / 〜による",
+  "romaji": "ni yotte",
+  "meaning": "by… / because of… / depending on… / by means of…",
+  "simpleExplanation": "〜によって is a multi-purpose \"by\". It can mark (1) the doer in a passive sentence (この寺は聖徳太子によって建てられた – built by Prince Shotoku), (2) a cause (地震によって多くの家が壊れた – because of the earthquake), (3) a means (インターネットによって – via the internet), and (4) \"depending on\" (人によって考え方が違う – it differs from person to person). The common idea is: X is what determines or brings about the result.",
+  "whenUsed": "Formal to neutral; very common in written Japanese, news, and formal speech. により is the more formal written form; による is the noun-modifying form (地震による被害 = damage caused by the earthquake). In casual speech, で often replaces the cause and means uses.",
+  "formation": [
+    "Noun + によって / により",
+    "Noun + による + Noun  (地震による被害)",
+    "Noun + によっては  (in some cases…: 場合によっては)",
+    "Question clause + によって: どう使うかによって結果が変わる"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The four jobs of によって",
+    "columns": [
+      "Use",
+      "Meaning",
+      "Example",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "Agent (passive)",
+        "cells": [
+          "by (someone who creates/decides)",
+          "この小説は夏目漱石によって書かれた",
+          "This novel was written by Natsume Soseki."
+        ]
+      },
+      {
+        "label": "Cause",
+        "cells": [
+          "because of",
+          "台風によって電車が止まった",
+          "The trains stopped because of the typhoon."
+        ]
+      },
+      {
+        "label": "Means",
+        "cells": [
+          "by means of",
+          "話し合いによって解決した",
+          "We solved it through discussion."
+        ]
+      },
+      {
+        "label": "Depending on",
+        "cells": [
+          "varies with",
+          "国によって習慣が違う",
+          "Customs differ depending on the country."
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この寺は八世紀に聖徳太子によって建てられたと言われている。",
+      "reading": "このてらははっせいきにしょうとくたいしによってたてられたといわれている。",
+      "en": "This temple is said to have been built by Prince Shotoku in the eighth century.",
+      "note": "Agent of a passive verb, typical for creators."
+    },
+    {
+      "ja": "台風によって、多くの家が被害を受けた。",
+      "reading": "たいふうによって、おおくのいえがひがいをうけた。",
+      "en": "Many houses were damaged because of the typhoon.",
+      "note": "Cause."
+    },
+    {
+      "ja": "国によって、食事のマナーはさまざまだ。",
+      "reading": "くにによって、しょくじのマナーはさまざまだ。",
+      "en": "Table manners vary depending on the country.",
+      "note": "\"Depending on\" – often with 違う, 変わる, さまざま."
+    },
+    {
+      "ja": "問題は話し合いによって解決すべきだ。",
+      "reading": "もんだいははなしあいによってかいけつすべきだ。",
+      "en": "Problems should be solved through discussion.",
+      "note": "Means."
+    },
+    {
+      "ja": "場合によっては、計画を変更することもある。",
+      "reading": "ばあいによっては、けいかくをへんこうすることもある。",
+      "en": "Depending on the situation, we may change the plan.",
+      "note": "によっては = in some cases."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に応じて",
+      "difference": "\"In accordance with / according to\": the result adjusts to match X (収入に応じて). によって just says X determines it.",
+      "id": "n2-grammar-100"
+    },
+    {
+      "pattern": "〜次第で",
+      "difference": "\"Depending on X\" with the nuance that X decides everything (努力次第で).",
+      "id": "n2-grammar-55"
+    },
+    {
+      "pattern": "〜に基づいて",
+      "difference": "\"Based on\" – a foundation for a decision or work, not a cause.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜のせいで / 〜のおかげで",
+      "difference": "Causes with a feeling: せいで (bad), おかげで (good). によって is neutral.",
+      "id": "n2-grammar-59"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は友達によって手伝われた。",
+      "right": "私は友達に手伝われた。",
+      "why": "For ordinary passive sentences, the doer is marked with に. によって is used mainly for creators, inventors, and formal agents."
+    },
+    {
+      "wrong": "人によって、好みが同じだ。",
+      "right": "人によって、好みが違う。",
+      "why": "The \"depending on\" use needs a predicate of variation (違う, 変わる, さまざま), not sameness."
+    },
+    {
+      "wrong": "地震によって被害が出た → 地震によって被害",
+      "right": "地震による被害",
+      "why": "Before a noun, use による, not によって."
+    }
+  ],
+  "usageNotes": [
+    "The \"depending on\" use often ends with 違う, 異なる, 変わる, さまざまだ, or 〜たり〜たりする.",
+    "により is preferred in formal announcements: 悪天候により運休いたします.",
+    "によって as the passive agent is used for creating, discovering, deciding: 書かれる, 発見される, 決められる."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, identify which job the blank has: if the verb is passive with a creator, cause with damage, or a predicate of variation, によって fits.",
+    "Distractors: に応じて, に基づいて, にとって, につれて. If X simply causes or determines Y, choose によって; if Y adjusts proportionally, に応じて.",
+    "Check the form before a noun: 〜による + noun (原因による事故). Options with によって + noun are wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-132-1",
+    "q-n2-g-132-2",
+    "q-n2-g-132-3",
+    "q-n2-g-132-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-132-5",
+    "q-n2-g-132-6",
+    "q-n2-g-132-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

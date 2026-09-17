@@ -1,0 +1,55 @@
+[
+  {
+    "id": "strategy-grammar-questions",
+    "slug": "grammar-questions",
+    "title": "Grammar question strategies: 文法形式, 並べ替え and 文章文法",
+    "summary": "N2 grammar is three question types with three different techniques: matching form to meaning in single sentences, assembling scrambled fragments around a ★, and following the logic of a short passage.",
+    "sections": [
+      {
+        "heading": "The three formats",
+        "paragraphs": [
+          "The 文法 part of N2 contains around 22 questions in three blocks. 問題7 (文の文法1・文法形式の判断) gives a sentence with one blank and four grammar patterns. 問題8 (文の文法2・文の組み立て) gives a sentence with four blanks, one marked ★, and four fragments to order. 問題9 (文章の文法) is a passage of several paragraphs with about five blanks. Each block rewards a different habit, so practise them separately before mixing them."
+        ],
+        "bullets": []
+      },
+      {
+        "heading": "文法形式: identify the clue words first",
+        "paragraphs": [
+          "Most 文法形式 questions can be decided from the words immediately before and after the blank, plus the end of the sentence. Before you look at the options, note three things: the form of the word before the blank (dictionary form, た-form, noun, など), the form of what follows, and the tone of the sentence ending (polite, casual, written, spoken). Each grammar pattern in the N2 list has strict connection rules, so an option that requires a noun cannot follow a verb, and an option that only appears in formal writing will not end a casual conversation.",
+          "Then look for meaning clues. Adverbs and conjunctions such as たとえ, いくら, まさか, どうせ, せっかく, まるで and 少しも each pair with specific patterns: たとえ〜ても, いくら〜ても, まさか〜ないだろう, どうせ〜なら, せっかく〜のに, まるで〜ようだ, 少しも〜ない. Spotting the adverb often solves the question outright. If two options both connect correctly and both fit the meaning, compare nuance: 〜ざるを得ない implies an unwelcome obligation, 〜ないわけにはいかない implies a social or moral reason. N2 distractors are frequently patterns that mean roughly the same but differ in register or in what they can attach to."
+        ],
+        "bullets": [
+          "Check the connection form before the blank and after it.",
+          "Find paired adverbs and sentence-final tone.",
+          "Compare nuance only among options that connect grammatically."
+        ]
+      },
+      {
+        "heading": "並べ替え: build the pairs, then place the ★",
+        "paragraphs": [
+          "The scrambled-sentence question is the type most learners lose time on, because they try to build the whole sentence at once. Instead, work in pairs. Look at the four fragments and find two that must go together: a particle that needs a noun before it, a noun that needs a modifier, a grammar pattern that is split across two fragments (〜ば〜ほど, 〜にしては, 〜ものの). Grammar patterns that span fragments are the strongest glue; join them first.",
+          "Next, look at what comes before the first blank and after the last one. The word before the blanks constrains the first fragment, and the word after constrains the last one. Once the pairs are joined and the ends are fixed, there are usually only two possible orders; read both aloud in your head and pick the one that makes sense. Finally, and this is where most careless errors happen, identify which fragment sits in the ★ position, which is the third blank, not the first. Mark that fragment's number, not the number of the fragment you happened to place first."
+        ],
+        "bullets": [
+          "Join fragments that form a known pattern.",
+          "Fix the first and last fragments using the surrounding words.",
+          "Mark the fragment in the ★ (third) position.",
+          "Budget about one minute per question; skip and return if stuck."
+        ]
+      },
+      {
+        "heading": "文章文法: track the writer's logic",
+        "paragraphs": [
+          "The passage grammar block tests cohesion rather than isolated patterns. The blanks typically ask for a connective (しかし, そこで, つまり, ところが), a reference word (これ, そのような), a verb form that shows the writer's stance (〜のではないだろうか, 〜べきだ, 〜てほしい), or a form that maintains tense and subject across sentences. Read the sentence before and after each blank, not just the sentence containing it. Ask: does this sentence continue the previous idea, contrast with it, give an example, or draw a conclusion?",
+          "Keep the writer's voice consistent. If the passage uses である style, an option in です・ます style is wrong. If the writer has been expressing an opinion tentatively, a blunt 〜に違いない is unlikely. Passive versus active is a common trap: the subject established in earlier sentences tells you which voice the blank needs. Read the passage once quickly for the topic before filling any blank, then fill the blanks in order, and finally re-read the completed passage to confirm it flows."
+        ],
+        "bullets": [
+          "Read the sentence before and after the blank.",
+          "Match writing style and tone throughout.",
+          "Confirm who the subject is before choosing active or passive.",
+          "Re-read the whole passage once with your answers in place."
+        ]
+      }
+    ]
+  }
+]

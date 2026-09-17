@@ -1,0 +1,134 @@
+{
+  "id": "n2-grammar-24",
+  "slug": "kaneru-kanenai",
+  "level": "n2",
+  "order": 24,
+  "title": "〜かねる / 〜かねない",
+  "romaji": "kaneru / kanenai",
+  "meaning": "かねる: cannot (politely, it's difficult to) / かねない: might well (do something bad)",
+  "simpleExplanation": "These two look like a pair but mean different things. 〜かねる (positive form) means \"I cannot / it is difficult for me to…\", a polite, formal way to refuse: お答えしかねます – I'm afraid I can't answer. 〜かねない (negative form) means \"might well…\", used only for bad possibilities: 事故を起こしかねない – it could well cause an accident. In other words, かねる is a soft \"can't\", while かねない is a worried \"might\".",
+  "whenUsed": "かねる: formal business and customer-service language (〜いたしかねます), written notices. かねない: written and spoken, in warnings and worries (news, editorials, cautioning a friend). Neither is casual.",
+  "formation": [
+    "Verb (ます-stem) + かねる  → cannot, hard to (polite refusal)",
+    "Verb (ます-stem) + かねない  → might well (bad result)",
+    "Polite forms: 〜かねます / 〜かねません",
+    "Set phrases: 見るに見かねて (unable to stand watching), 決めかねている (unable to decide)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "かねる vs かねない",
+    "columns": [
+      "Pattern",
+      "Meaning",
+      "Feeling",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜かねる",
+        "cells": [
+          "cannot / find it hard to",
+          "polite reluctance; the speaker declines",
+          "その件はお答えしかねます (I'm afraid I can't answer that)"
+        ]
+      },
+      {
+        "label": "〜かねない",
+        "cells": [
+          "might well / could easily",
+          "worry; a bad outcome is possible",
+          "無理をすると病気になりかねない (if you overdo it you could get sick)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "申し訳ありませんが、その質問にはお答えしかねます。",
+      "reading": "もうしわけありませんが、そのしつもんにはおこたえしかねます。",
+      "en": "I'm sorry, but I'm unable to answer that question.",
+      "note": "Standard polite refusal."
+    },
+    {
+      "ja": "どちらにするか、まだ決めかねている。",
+      "reading": "どちらにするか、まだきめかねている。",
+      "en": "I still can't decide which one to choose."
+    },
+    {
+      "ja": "あんなに働いていたら、病気になりかねない。",
+      "reading": "あんなにはたらいていたら、びょうきになりかねない。",
+      "en": "Working that hard, she could well get sick.",
+      "note": "Warning of a bad possibility."
+    },
+    {
+      "ja": "そんな発言は誤解を招きかねません。",
+      "reading": "そんなはつげんはごかいをまねきかねません。",
+      "en": "A remark like that could easily cause misunderstanding."
+    },
+    {
+      "ja": "彼なら、そんなひどいこともやりかねない。",
+      "reading": "かれなら、そんなひどいこともやりかねない。",
+      "en": "Knowing him, he might well do something that awful."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜恐れがある",
+      "difference": "\"There is a risk of\" – formal, close to かねない but a bit more objective.",
+      "id": "n2-grammar-13"
+    },
+    {
+      "pattern": "〜がたい",
+      "difference": "\"Hard to (believe, forgive)\" – emotional impossibility, not a polite refusal.",
+      "id": "n2-grammar-20"
+    },
+    {
+      "pattern": "〜にくい",
+      "difference": "\"Hard to do\" physically or practically (読みにくい). かねる is about the speaker's reluctance or position."
+    },
+    {
+      "pattern": "〜かもしれない",
+      "difference": "Neutral \"might\"; かねない is only for bad outcomes and sounds more worried."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "いい結果になりかねない。",
+      "right": "いい結果になるかもしれない。",
+      "why": "かねない is only for undesirable outcomes. A good result cannot take かねない."
+    },
+    {
+      "wrong": "この漢字は読みかねる。(intending: this kanji is hard to read)",
+      "right": "この漢字は読みにくい。",
+      "why": "Practical difficulty uses にくい. かねる expresses the speaker's reluctance or inability due to position."
+    },
+    {
+      "wrong": "お答えできかねます。",
+      "right": "お答えしかねます。／お答えできません。",
+      "why": "Do not stack the potential form with かねる; use the plain ます-stem + かねる."
+    }
+  ],
+  "usageNotes": [
+    "かねる is the standard polite refusal in customer service: 承りかねます, いたしかねます, 応じかねます.",
+    "かねない is often paired with 〜と / 〜たら conditions: このままでは〜かねない.",
+    "Because かねない is negative in form but positive in meaning (\"might\"), read it carefully in 読解."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, check the outcome: bad and possible → かねない; polite inability → かねる. If the sentence is a refusal in business language, かねます is the answer.",
+    "Distractors for かねない: 恐れがある (needs dictionary form + 恐れがある, so check attachment), に違いない, わけがない. Distractors for かねる: がたい, にくい, 得ない.",
+    "The attachment is the ます-stem for both: 決めかねる, なりかねない. An option with the dictionary form (なるかねない) is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-24-1",
+    "q-n2-g-24-2",
+    "q-n2-g-24-3",
+    "q-n2-g-24-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-24-5",
+    "q-n2-g-24-6",
+    "q-n2-g-24-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,513 @@
+{
+  "id": "foundation-3",
+  "slug": "katakana-basic",
+  "order": 3,
+  "kind": "katakana",
+  "title": "Katakana: the basic 46",
+  "summary": "The same 46 sounds in the angular script used for loanwords, foreign names and emphasis. Chart, stroke tips, the ten look-alike groups, and 20 words.",
+  "minutes": 25,
+  "sections": [
+    {
+      "heading": "What katakana is for",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Katakana represents exactly the same sounds as hiragana. It is used for loanwords (コーヒー), foreign names and places (アメリカ), onomatopoeia (ワンワン), scientific names, emphasis (like italics), and many company and product names.",
+            "Learners often neglect katakana and then lose easy points on the N5–N2 vocabulary sections. Learn it to the same standard as hiragana."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The 46 basic characters",
+      "blocks": [
+        {
+          "kind": "kana-chart",
+          "title": "Gojūon chart",
+          "rows": [
+            [
+              {
+                "kana": "ア",
+                "romaji": "a"
+              },
+              {
+                "kana": "イ",
+                "romaji": "i"
+              },
+              {
+                "kana": "ウ",
+                "romaji": "u"
+              },
+              {
+                "kana": "エ",
+                "romaji": "e"
+              },
+              {
+                "kana": "オ",
+                "romaji": "o"
+              }
+            ],
+            [
+              {
+                "kana": "カ",
+                "romaji": "ka"
+              },
+              {
+                "kana": "キ",
+                "romaji": "ki"
+              },
+              {
+                "kana": "ク",
+                "romaji": "ku"
+              },
+              {
+                "kana": "ケ",
+                "romaji": "ke"
+              },
+              {
+                "kana": "コ",
+                "romaji": "ko"
+              }
+            ],
+            [
+              {
+                "kana": "サ",
+                "romaji": "sa"
+              },
+              {
+                "kana": "シ",
+                "romaji": "shi"
+              },
+              {
+                "kana": "ス",
+                "romaji": "su"
+              },
+              {
+                "kana": "セ",
+                "romaji": "se"
+              },
+              {
+                "kana": "ソ",
+                "romaji": "so"
+              }
+            ],
+            [
+              {
+                "kana": "タ",
+                "romaji": "ta"
+              },
+              {
+                "kana": "チ",
+                "romaji": "chi"
+              },
+              {
+                "kana": "ツ",
+                "romaji": "tsu"
+              },
+              {
+                "kana": "テ",
+                "romaji": "te"
+              },
+              {
+                "kana": "ト",
+                "romaji": "to"
+              }
+            ],
+            [
+              {
+                "kana": "ナ",
+                "romaji": "na"
+              },
+              {
+                "kana": "ニ",
+                "romaji": "ni"
+              },
+              {
+                "kana": "ヌ",
+                "romaji": "nu"
+              },
+              {
+                "kana": "ネ",
+                "romaji": "ne"
+              },
+              {
+                "kana": "ノ",
+                "romaji": "no"
+              }
+            ],
+            [
+              {
+                "kana": "ハ",
+                "romaji": "ha"
+              },
+              {
+                "kana": "ヒ",
+                "romaji": "hi"
+              },
+              {
+                "kana": "フ",
+                "romaji": "fu"
+              },
+              {
+                "kana": "ヘ",
+                "romaji": "he"
+              },
+              {
+                "kana": "ホ",
+                "romaji": "ho"
+              }
+            ],
+            [
+              {
+                "kana": "マ",
+                "romaji": "ma"
+              },
+              {
+                "kana": "ミ",
+                "romaji": "mi"
+              },
+              {
+                "kana": "ム",
+                "romaji": "mu"
+              },
+              {
+                "kana": "メ",
+                "romaji": "me"
+              },
+              {
+                "kana": "モ",
+                "romaji": "mo"
+              }
+            ],
+            [
+              {
+                "kana": "ヤ",
+                "romaji": "ya"
+              },
+              null,
+              {
+                "kana": "ユ",
+                "romaji": "yu"
+              },
+              null,
+              {
+                "kana": "ヨ",
+                "romaji": "yo"
+              }
+            ],
+            [
+              {
+                "kana": "ラ",
+                "romaji": "ra"
+              },
+              {
+                "kana": "リ",
+                "romaji": "ri"
+              },
+              {
+                "kana": "ル",
+                "romaji": "ru"
+              },
+              {
+                "kana": "レ",
+                "romaji": "re"
+              },
+              {
+                "kana": "ロ",
+                "romaji": "ro"
+              }
+            ],
+            [
+              {
+                "kana": "ワ",
+                "romaji": "wa"
+              },
+              null,
+              null,
+              null,
+              {
+                "kana": "ヲ",
+                "romaji": "wo"
+              }
+            ],
+            [
+              {
+                "kana": "ン",
+                "romaji": "n"
+              },
+              null,
+              null,
+              null,
+              null
+            ]
+          ],
+          "rowLabels": [
+            "—",
+            "K",
+            "S",
+            "T",
+            "N",
+            "H",
+            "M",
+            "Y",
+            "R",
+            "W",
+            "N"
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "ヲ",
+          "text": "ヲ appears almost only in old texts, in a few names, and in stylised writing; the particle を is always written in hiragana.",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "heading": "Stroke-order tips",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Katakana is angular",
+          "items": [
+            "Top to bottom, left to right: the same universal rule as hiragana.",
+            "Where hiragana loops, katakana uses corners. Do not add curves.",
+            "Horizontal strokes before the vertical that crosses them (キ: two horizontals, then the diagonal; チ: short top stroke, horizontal, then the vertical hook).",
+            "Short dots first, then long strokes, for characters made of dots plus a sweep (シ: dot, dot, then the long upward sweep from bottom-left; ツ: dot, dot, then the long downward sweep from top-right).",
+            "Left-hand short strokes first (ソ: short left stroke, then the long sweep; ン: short left stroke, then the long upward sweep).",
+            "Frames first, then the inside (ロ: left vertical, then the top and right in one stroke, then the bottom).",
+            "Dakuten and handakuten last.",
+            "ー is a single stroke written left to right."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Stroke counts",
+          "columns": [
+            "Strokes",
+            "Characters"
+          ],
+          "rows": [
+            [
+              "1",
+              "ノ, フ, ヘ, レ, ー"
+            ],
+            [
+              "2",
+              "ア, イ, カ, ク, コ, ス, セ, ソ, ト, ナ, ニ, ヌ, ハ, ヒ, マ, ミ, ム, メ, ヤ, ユ, ラ, リ, ル, ワ, ン"
+            ],
+            [
+              "3",
+              "ウ, エ, オ, キ, ケ, サ, シ, タ, チ, ツ, テ, モ, ヨ, ロ, ヲ"
+            ],
+            [
+              "4",
+              "ネ, ホ"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Ten commonly confused groups",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "How to tell them apart",
+          "columns": [
+            "Group",
+            "How to tell them apart"
+          ],
+          "rows": [
+            [
+              "シ / ツ",
+              "シ (shi): the two dots are stacked vertically on the left and the long stroke sweeps UP from bottom-left (like a smile). ツ (tsu): the two dots sit side by side on top and the long stroke sweeps DOWN from top-right. Same relation as hiragana し (curves up) vs つ (curves over)."
+            ],
+            [
+              "ン / ソ",
+              "ン (n): one dot on the left, long stroke sweeps UP from bottom-left. ソ (so): one dot on top, long stroke sweeps DOWN. Same logic as シ/ツ."
+            ],
+            [
+              "ク / ケ / タ",
+              "ク (ku): two strokes, open shape. ケ (ke): ク plus a horizontal bar across the middle. タ (ta): ク with a short stroke inside."
+            ],
+            [
+              "ワ / ウ / フ",
+              "ワ (wa): a frame with a left vertical and a right hook. ウ (u): ワ with a dot on top. フ (fu): only the top-right hook, no left vertical."
+            ],
+            [
+              "ア / マ",
+              "ア (a): horizontal, then a sweep down-left with a hook at the top-right. マ (ma): horizontal ending in a hook, then a short dot stroke at the bottom right."
+            ],
+            [
+              "ナ / メ",
+              "ナ (na): a horizontal crossed by a long down-left diagonal (like a plus with a tail). メ (me): two crossing diagonals with no horizontal."
+            ],
+            [
+              "チ / テ",
+              "チ (chi): short diagonal at top, horizontal, then a vertical with a hook to the left. テ (te): TWO horizontals, then the vertical hook."
+            ],
+            [
+              "コ / ユ / ヨ",
+              "コ (ko): two strokes, open on the left. ユ (yu): horizontal + vertical hook and a long bottom line sticking out. ヨ (yo): three horizontals closed on the right."
+            ],
+            [
+              "ル / レ",
+              "ル (ru): two strokes, the right one bending outward at the bottom. レ (re): one stroke, a simple check-mark shape."
+            ],
+            [
+              "ス / ヌ / ヲ",
+              "ス (su): horizontal-hook then a short diagonal on the right. ヌ (nu): ス-like frame with the diagonal crossing through. ヲ (wo): two horizontals then a sweep."
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Kanji look-alikes",
+          "text": "ニ (ni) vs the kanji 二 (two); カ (ka) vs 力 (power); エ (e) vs 工; ロ (ro) vs 口 (mouth); ト (to) vs 卜; ハ (ha) vs 八 (eight); タ (ta) vs 夕 (evening). In real text the surrounding script tells you which it is.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Practice words",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Most of these use only the basic 46. A few carry ゛ or ゜ marks (バ, ビ, パ, ピ, ペ, ジ): they work exactly as in hiragana and are covered fully in the next lesson."
+          ]
+        },
+        {
+          "kind": "words",
+          "title": "20 common loanwords",
+          "items": [
+            {
+              "ja": "ホテル",
+              "reading": "hoteru",
+              "en": "hotel"
+            },
+            {
+              "ja": "レストラン",
+              "reading": "resutoran",
+              "en": "restaurant"
+            },
+            {
+              "ja": "カメラ",
+              "reading": "kamera",
+              "en": "camera"
+            },
+            {
+              "ja": "トイレ",
+              "reading": "toire",
+              "en": "toilet"
+            },
+            {
+              "ja": "ミルク",
+              "reading": "miruku",
+              "en": "milk"
+            },
+            {
+              "ja": "ワイン",
+              "reading": "wain",
+              "en": "wine"
+            },
+            {
+              "ja": "サラダ",
+              "reading": "sarada",
+              "en": "salad"
+            },
+            {
+              "ja": "テニス",
+              "reading": "tenisu",
+              "en": "tennis"
+            },
+            {
+              "ja": "クラス",
+              "reading": "kurasu",
+              "en": "class"
+            },
+            {
+              "ja": "テスト",
+              "reading": "tesuto",
+              "en": "test"
+            },
+            {
+              "ja": "アメリカ",
+              "reading": "amerika",
+              "en": "America, USA"
+            },
+            {
+              "ja": "カナダ",
+              "reading": "kanada",
+              "en": "Canada"
+            },
+            {
+              "ja": "フランス",
+              "reading": "furansu",
+              "en": "France"
+            },
+            {
+              "ja": "ネクタイ",
+              "reading": "nekutai",
+              "en": "necktie"
+            },
+            {
+              "ja": "テレビ",
+              "reading": "terebi",
+              "en": "television"
+            },
+            {
+              "ja": "バス",
+              "reading": "basu",
+              "en": "bus"
+            },
+            {
+              "ja": "パン",
+              "reading": "pan",
+              "en": "bread"
+            },
+            {
+              "ja": "ピアノ",
+              "reading": "piano",
+              "en": "piano"
+            },
+            {
+              "ja": "ペン",
+              "reading": "pen",
+              "en": "pen"
+            },
+            {
+              "ja": "ラジオ",
+              "reading": "rajio",
+              "en": "radio"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-196",
+    "q-kana-186",
+    "q-kana-200",
+    "q-kana-234",
+    "q-kana-244",
+    "q-kana-189",
+    "q-kana-262",
+    "q-kana-251",
+    "q-kana-214",
+    "q-kana-230",
+    "q-kana-250",
+    "q-kana-246",
+    "q-kana-198",
+    "q-kana-229",
+    "q-kana-197",
+    "q-kana-237",
+    "q-kana-241",
+    "q-kana-182",
+    "q-kana-173",
+    "q-kana-194"
+  ]
+}

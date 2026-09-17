@@ -1,0 +1,136 @@
+{
+  "id": "n2-grammar-113",
+  "slug": "ni-shitagatte",
+  "level": "n2",
+  "order": 113,
+  "title": "〜にしたがって / 〜にしたがい",
+  "romaji": "ni shitagatte",
+  "meaning": "as… (changes), …also changes / in accordance with… / following…",
+  "simpleExplanation": "〜にしたがって has two related meanings. (1) With a verb of change: \"as X progresses, Y also changes\" (寒くなるにしたがって – as it gets colder…), just like につれて. (2) With a noun such as rules, instructions, or arrows: \"in accordance with / following X\" (説明書にしたがって – following the manual). The core image is Y \"following\" X.",
+  "whenUsed": "Neutral to formal; more common in writing than につれて. にしたがい is the formal written form. The \"in accordance with\" use is frequent in instructions, business, and legal contexts (規則にしたがって, 指示にしたがって).",
+  "formation": [
+    "Verb (dictionary form) + にしたがって / にしたがい  → as X changes",
+    "Noun (rules, instructions, guide) + にしたがって  → in accordance with",
+    "Kanji: 〜に従って / 〜に従い"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two meanings of にしたがって",
+    "columns": [
+      "Use",
+      "Attaches to",
+      "Example",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "Parallel change",
+        "cells": [
+          "verb of change",
+          "気温が上がるにしたがって、電力消費が増える",
+          "As the temperature rises, electricity use increases."
+        ]
+      },
+      {
+        "label": "In accordance with",
+        "cells": [
+          "noun (rules, instructions, arrows)",
+          "係員の指示にしたがって避難してください",
+          "Please evacuate following the staff's instructions."
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "気温が上がるにしたがって、電力の消費量も増える。",
+      "reading": "きおんがあがるにしたがって、でんりょくのしょうひりょうもふえる。",
+      "en": "As the temperature rises, electricity consumption also increases.",
+      "note": "Parallel change."
+    },
+    {
+      "ja": "係員の指示にしたがって、避難してください。",
+      "reading": "かかりいんのしじにしたがって、ひなんしてください。",
+      "en": "Please evacuate following the staff's instructions.",
+      "note": "In accordance with."
+    },
+    {
+      "ja": "説明書にしたがって組み立てれば、簡単にできる。",
+      "reading": "せつめいしょにしたがってくみたてれば、かんたんにできる。",
+      "en": "If you assemble it according to the manual, it's easy."
+    },
+    {
+      "ja": "工事が進むにしたがい、周辺の道路は渋滞が激しくなった。",
+      "reading": "こうじがすすむにしたがい、しゅうへんのどうろはじゅうたいがはげしくなった。",
+      "en": "As the construction progressed, traffic jams on the surrounding roads got worse.",
+      "note": "にしたがい is the written form."
+    },
+    {
+      "ja": "矢印にしたがって進むと、出口に着きます。",
+      "reading": "やじるしにしたがってすすむと、でぐちにつきます。",
+      "en": "Follow the arrows and you'll reach the exit."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜につれて",
+      "difference": "Parallel change only; cannot mean \"in accordance with rules\".",
+      "id": "n2-grammar-126"
+    },
+    {
+      "pattern": "〜に伴って",
+      "difference": "Formal; a change that accompanies an event or trend (人口増加に伴って).",
+      "id": "n2-grammar-128"
+    },
+    {
+      "pattern": "〜に沿って",
+      "difference": "\"Along / in line with\" a plan, policy, or river (方針に沿って). Close to the second meaning.",
+      "id": "n2-grammar-120"
+    },
+    {
+      "pattern": "〜に基づいて",
+      "difference": "\"Based on\" data or facts (調査結果に基づいて).",
+      "id": "n2-grammar-131"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "先生にしたがって、日本語を勉強しました。(intending: with the teacher)",
+      "right": "先生に教わって／先生の指導にしたがって、日本語を勉強しました。",
+      "why": "The noun must be instructions, rules, or something to follow (指導, 指示), not simply a person."
+    },
+    {
+      "wrong": "ボタンを押すにしたがって、電気がつく。",
+      "right": "ボタンを押すと、電気がつく。",
+      "why": "For the change meaning, the verb must express gradual change; a single action does not work."
+    },
+    {
+      "wrong": "規則につれて行動する。",
+      "right": "規則にしたがって行動する。",
+      "why": "につれて cannot mean \"in accordance with\"; only にしたがって does."
+    }
+  ],
+  "usageNotes": [
+    "For the change meaning, the second clause often has も and a verb of change (増える, 減る, 変わる, 〜ていく).",
+    "In instructions, 〜にしたがって + てください / 〜こと is the standard form (指示にしたがってください also works).",
+    "Kanji 従 is often used in formal writing: 法律に従い."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the noun before the blank is 規則, 指示, 説明書, 矢印, 法律 and the meaning is \"following\", the answer is にしたがって (not につれて).",
+    "If both につれて and にしたがって are options with a verb of change, the question usually tests something else in the sentence; both are grammatical there, so check the attachment (noun vs. verb).",
+    "Distractors: に沿って, に基づいて, に応じて, とともに. Match the noun: rules → にしたがって; plan/policy → に沿って; data → に基づいて."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-113-1",
+    "q-n2-g-113-2",
+    "q-n2-g-113-3",
+    "q-n2-g-113-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-113-5",
+    "q-n2-g-113-6",
+    "q-n2-g-113-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-28",
+  "slug": "28-sokuji-kaze",
+  "level": "n2",
+  "order": 28,
+  "kind": "quick-response",
+  "title": "即時応答 8",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "顔色が悪いけど、大丈夫？無理しないほうがいいよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "顔色",
+      "reading": "かおいろ",
+      "meaning": "complexion"
+    },
+    {
+      "word": "無理をする",
+      "reading": "むりをする",
+      "meaning": "to overexert oneself"
+    },
+    {
+      "word": "〜させてもらう",
+      "reading": "させてもらう",
+      "meaning": "to be allowed to (humble)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-28-1"
+  ]
+}

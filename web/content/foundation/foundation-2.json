@@ -1,0 +1,571 @@
+{
+  "id": "foundation-2",
+  "slug": "hiragana-dakuten-yoon",
+  "order": 2,
+  "kind": "hiragana",
+  "title": "Hiragana: dakuten, handakuten and combinations",
+  "summary": "The voiced marks ゛ and ゜ (が〜ぽ), the 36 contracted yōon sounds (きゃ, しゅ, ちょ…), the small っ, and how long vowels are spelled in hiragana.",
+  "minutes": 30,
+  "sections": [
+    {
+      "heading": "Dakuten (゛) and handakuten (゜)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Two small strokes (゛ dakuten) voice the consonant; a small circle (゜ handakuten) turns h into p. Total: 20 dakuten + 5 handakuten = 25 characters."
+          ]
+        },
+        {
+          "kind": "kana-chart",
+          "title": "Voiced and semi-voiced rows",
+          "rows": [
+            [
+              {
+                "kana": "が",
+                "romaji": "ga"
+              },
+              {
+                "kana": "ぎ",
+                "romaji": "gi"
+              },
+              {
+                "kana": "ぐ",
+                "romaji": "gu"
+              },
+              {
+                "kana": "げ",
+                "romaji": "ge"
+              },
+              {
+                "kana": "ご",
+                "romaji": "go"
+              }
+            ],
+            [
+              {
+                "kana": "ざ",
+                "romaji": "za"
+              },
+              {
+                "kana": "じ",
+                "romaji": "ji"
+              },
+              {
+                "kana": "ず",
+                "romaji": "zu"
+              },
+              {
+                "kana": "ぜ",
+                "romaji": "ze"
+              },
+              {
+                "kana": "ぞ",
+                "romaji": "zo"
+              }
+            ],
+            [
+              {
+                "kana": "だ",
+                "romaji": "da"
+              },
+              {
+                "kana": "ぢ",
+                "romaji": "ji"
+              },
+              {
+                "kana": "づ",
+                "romaji": "zu"
+              },
+              {
+                "kana": "で",
+                "romaji": "de"
+              },
+              {
+                "kana": "ど",
+                "romaji": "do"
+              }
+            ],
+            [
+              {
+                "kana": "ば",
+                "romaji": "ba"
+              },
+              {
+                "kana": "び",
+                "romaji": "bi"
+              },
+              {
+                "kana": "ぶ",
+                "romaji": "bu"
+              },
+              {
+                "kana": "べ",
+                "romaji": "be"
+              },
+              {
+                "kana": "ぼ",
+                "romaji": "bo"
+              }
+            ],
+            [
+              {
+                "kana": "ぱ",
+                "romaji": "pa"
+              },
+              {
+                "kana": "ぴ",
+                "romaji": "pi"
+              },
+              {
+                "kana": "ぷ",
+                "romaji": "pu"
+              },
+              {
+                "kana": "ぺ",
+                "romaji": "pe"
+              },
+              {
+                "kana": "ぽ",
+                "romaji": "po"
+              }
+            ]
+          ],
+          "rowLabels": [
+            "K → G",
+            "S → Z",
+            "T → D",
+            "H → B",
+            "H → P"
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "ぢ and づ",
+          "text": "ぢ and づ sound identical to じ and ず. They appear almost only in compound words (はなぢ nosebleed, つづく to continue) or after a doubled ち/つ (ちぢむ to shrink). じ is used in nearly all other cases (じかん time, じしょ dictionary).",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Yōon (拗音): contracted sounds",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Take an i-row character (き, し, ち, に, ひ, み, り, ぎ, じ, ぢ, び, ぴ) and add a small や, ゆ, or よ (ゃ ゅ ょ). The small kana is written at roughly half size in the lower-right area of the square. Total: 36 combinations (21 unvoiced + 15 voiced / semi-voiced)."
+          ]
+        },
+        {
+          "kind": "kana-chart",
+          "title": "All 36 yōon",
+          "rows": [
+            [
+              {
+                "kana": "きゃ",
+                "romaji": "kya"
+              },
+              {
+                "kana": "きゅ",
+                "romaji": "kyu"
+              },
+              {
+                "kana": "きょ",
+                "romaji": "kyo"
+              }
+            ],
+            [
+              {
+                "kana": "しゃ",
+                "romaji": "sha"
+              },
+              {
+                "kana": "しゅ",
+                "romaji": "shu"
+              },
+              {
+                "kana": "しょ",
+                "romaji": "sho"
+              }
+            ],
+            [
+              {
+                "kana": "ちゃ",
+                "romaji": "cha"
+              },
+              {
+                "kana": "ちゅ",
+                "romaji": "chu"
+              },
+              {
+                "kana": "ちょ",
+                "romaji": "cho"
+              }
+            ],
+            [
+              {
+                "kana": "にゃ",
+                "romaji": "nya"
+              },
+              {
+                "kana": "にゅ",
+                "romaji": "nyu"
+              },
+              {
+                "kana": "にょ",
+                "romaji": "nyo"
+              }
+            ],
+            [
+              {
+                "kana": "ひゃ",
+                "romaji": "hya"
+              },
+              {
+                "kana": "ひゅ",
+                "romaji": "hyu"
+              },
+              {
+                "kana": "ひょ",
+                "romaji": "hyo"
+              }
+            ],
+            [
+              {
+                "kana": "みゃ",
+                "romaji": "mya"
+              },
+              {
+                "kana": "みゅ",
+                "romaji": "myu"
+              },
+              {
+                "kana": "みょ",
+                "romaji": "myo"
+              }
+            ],
+            [
+              {
+                "kana": "りゃ",
+                "romaji": "rya"
+              },
+              {
+                "kana": "りゅ",
+                "romaji": "ryu"
+              },
+              {
+                "kana": "りょ",
+                "romaji": "ryo"
+              }
+            ],
+            [
+              {
+                "kana": "ぎゃ",
+                "romaji": "gya"
+              },
+              {
+                "kana": "ぎゅ",
+                "romaji": "gyu"
+              },
+              {
+                "kana": "ぎょ",
+                "romaji": "gyo"
+              }
+            ],
+            [
+              {
+                "kana": "じゃ",
+                "romaji": "ja"
+              },
+              {
+                "kana": "じゅ",
+                "romaji": "ju"
+              },
+              {
+                "kana": "じょ",
+                "romaji": "jo"
+              }
+            ],
+            [
+              {
+                "kana": "ぢゃ",
+                "romaji": "ja"
+              },
+              {
+                "kana": "ぢゅ",
+                "romaji": "ju"
+              },
+              {
+                "kana": "ぢょ",
+                "romaji": "jo"
+              }
+            ],
+            [
+              {
+                "kana": "びゃ",
+                "romaji": "bya"
+              },
+              {
+                "kana": "びゅ",
+                "romaji": "byu"
+              },
+              {
+                "kana": "びょ",
+                "romaji": "byo"
+              }
+            ],
+            [
+              {
+                "kana": "ぴゃ",
+                "romaji": "pya"
+              },
+              {
+                "kana": "ぴゅ",
+                "romaji": "pyu"
+              },
+              {
+                "kana": "ぴょ",
+                "romaji": "pyo"
+              }
+            ]
+          ],
+          "rowLabels": [
+            "き",
+            "し",
+            "ち",
+            "に",
+            "ひ",
+            "み",
+            "り",
+            "ぎ",
+            "じ",
+            "ぢ",
+            "び",
+            "ぴ"
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Big vs small matters",
+          "text": "きよ (ki-yo, 2 beats) is not きょ (kyo, 1 beat). びよういん (beauty salon) is not びょういん (hospital).",
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "heading": "Small っ and other marks",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Marks used with hiragana",
+          "columns": [
+            "Mark",
+            "Name",
+            "Function",
+            "Example"
+          ],
+          "rows": [
+            [
+              "っ (small tsu)",
+              "促音 sokuon",
+              "Doubles the following consonant; occupies one full beat",
+              "きって kitte (stamp), がっこう gakkō (school)"
+            ],
+            [
+              "ー",
+              "長音符 chōonpu",
+              "Long-vowel bar, used in katakana; in hiragana long vowels are written with an extra vowel instead",
+              "おかあさん okāsan, おとうさん otōsan"
+            ],
+            [
+              "ゝ",
+              "踊り字",
+              "Repetition mark, obsolete; only in old texts or names",
+              "—"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Long vowels in hiragana",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Long vowel spelling",
+          "columns": [
+            "Long vowel",
+            "Spelling",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "ā",
+              "add あ",
+              "おかあさん, おばあさん"
+            ],
+            [
+              "ī",
+              "add い",
+              "おにいさん, おいしい"
+            ],
+            [
+              "ū",
+              "add う",
+              "くうき, ゆうびん"
+            ],
+            [
+              "ē",
+              "usually add い; add え only in a few words",
+              "せんせい, えいご, とけい; おねえさん, ええ"
+            ],
+            [
+              "ō",
+              "usually add う; add お in a small set of words",
+              "おとうさん, がっこう, きょう; おおきい, とおい, とお, こおり, おおい, とおる"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Practice words",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "20 words with voiced marks, yōon, small っ and long vowels",
+          "items": [
+            {
+              "ja": "がっこう",
+              "reading": "gakkō",
+              "en": "school"
+            },
+            {
+              "ja": "せんせい",
+              "reading": "sensei",
+              "en": "teacher"
+            },
+            {
+              "ja": "がくせい",
+              "reading": "gakusei",
+              "en": "student"
+            },
+            {
+              "ja": "ともだち",
+              "reading": "tomodachi",
+              "en": "friend"
+            },
+            {
+              "ja": "かぞく",
+              "reading": "kazoku",
+              "en": "family"
+            },
+            {
+              "ja": "おかあさん",
+              "reading": "okāsan",
+              "en": "mother"
+            },
+            {
+              "ja": "おとうさん",
+              "reading": "otōsan",
+              "en": "father"
+            },
+            {
+              "ja": "でんしゃ",
+              "reading": "densha",
+              "en": "train"
+            },
+            {
+              "ja": "たまご",
+              "reading": "tamago",
+              "en": "egg"
+            },
+            {
+              "ja": "ごはん",
+              "reading": "gohan",
+              "en": "cooked rice; meal"
+            },
+            {
+              "ja": "おちゃ",
+              "reading": "ocha",
+              "en": "tea"
+            },
+            {
+              "ja": "びょういん",
+              "reading": "byōin",
+              "en": "hospital"
+            },
+            {
+              "ja": "じかん",
+              "reading": "jikan",
+              "en": "time"
+            },
+            {
+              "ja": "きょう",
+              "reading": "kyō",
+              "en": "today"
+            },
+            {
+              "ja": "えんぴつ",
+              "reading": "enpitsu",
+              "en": "pencil"
+            },
+            {
+              "ja": "かばん",
+              "reading": "kaban",
+              "en": "bag"
+            },
+            {
+              "ja": "おおきい",
+              "reading": "ōkii",
+              "en": "big"
+            },
+            {
+              "ja": "ちいさい",
+              "reading": "chiisai",
+              "en": "small"
+            },
+            {
+              "ja": "ざっし",
+              "reading": "zasshi",
+              "en": "magazine"
+            },
+            {
+              "ja": "しゅくだい",
+              "reading": "shukudai",
+              "en": "homework"
+            }
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Spot the difference",
+          "text": "おばさん (aunt) / おばあさん (grandmother); きって (stamp, 3 beats) / きて (come, 2 beats); じゆう (freedom, 3 beats) / じゅう (ten, 2 beats); おじさん (uncle) / おじいさん (grandfather).",
+          "tone": "accent"
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-105",
+    "q-kana-123",
+    "q-kana-107",
+    "q-kana-108",
+    "q-kana-119",
+    "q-kana-103",
+    "q-kana-111",
+    "q-kana-100",
+    "q-kana-117",
+    "q-kana-164",
+    "q-kana-167",
+    "q-kana-149",
+    "q-kana-145",
+    "q-kana-134",
+    "q-kana-161",
+    "q-kana-159",
+    "q-kana-158",
+    "q-kana-140",
+    "q-kana-162",
+    "q-kana-165"
+  ]
+}

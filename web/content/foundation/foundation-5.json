@@ -1,0 +1,350 @@
+{
+  "id": "foundation-5",
+  "slug": "pronunciation",
+  "order": 5,
+  "kind": "pronunciation",
+  "title": "Pronunciation: mora, long vowels, double consonants and pitch",
+  "summary": "Why Japanese is counted in beats, how long vowels and small っ change meaning, and the four pitch-accent patterns of Tokyo Japanese with well-known minimal pairs.",
+  "minutes": 25,
+  "sections": [
+    {
+      "heading": "Mora timing (拍 haku)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Japanese is mora-timed, not syllable-timed. Every kana (except small ゃゅょ) is one beat of equal length. Clap once per kana."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Clap the beats",
+          "columns": [
+            "Word",
+            "Kana",
+            "Beats",
+            "Clap pattern"
+          ],
+          "rows": [
+            [
+              "Tokyo",
+              "とうきょう",
+              "4",
+              "to-o-kyo-o"
+            ],
+            [
+              "Osaka",
+              "おおさか",
+              "4",
+              "o-o-sa-ka"
+            ],
+            [
+              "Nippon",
+              "にっぽん",
+              "4",
+              "ni-(pause)-po-n"
+            ],
+            [
+              "newspaper",
+              "しんぶん",
+              "4",
+              "shi-n-bu-n"
+            ],
+            [
+              "teacher",
+              "せんせい",
+              "4",
+              "se-n-se-e"
+            ],
+            [
+              "stamp",
+              "きって",
+              "3",
+              "ki-(pause)-te"
+            ],
+            [
+              "hospital",
+              "びょういん",
+              "4",
+              "byo-o-i-n"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Rules",
+          "items": [
+            "Each kana = 1 beat. きょ (contracted) = 1 beat. きよ = 2 beats.",
+            "ん (syllabic n) is its own beat. ほん = 2 beats, not 1.",
+            "Small っ is a full beat of silence.",
+            "A long vowel (extra あいうえお or ー) adds one beat.",
+            "Every mora gets roughly the same duration and the same stress. Do NOT stress one syllable as in English. Volume stays flat; only pitch changes."
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Common learner error",
+          "text": "Pronouncing おばあさん (grandmother, 5 beats) as おばさん (aunt, 4 beats). Length is meaning.",
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "heading": "Pitch accent basics (高低アクセント)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Japanese words have a pattern of HIGH (H) and LOW (L) pitch on each mora. The standard (Tokyo) dialect has four patterns."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "The four patterns",
+          "columns": [
+            "Pattern",
+            "Shape",
+            "Description",
+            "Example"
+          ],
+          "rows": [
+            [
+              "平板 heiban (flat)",
+              "L-H-H-H…",
+              "Starts low, rises on the 2nd mora, stays high; the following particle is also high",
+              "さかな (fish) L-H-H, さかなが = L-H-H-H"
+            ],
+            [
+              "頭高 atamadaka (head-high)",
+              "H-L-L…",
+              "First mora high, then drops",
+              "はし (chopsticks) H-L; あめ (rain) H-L"
+            ],
+            [
+              "中高 nakadaka (mid-high)",
+              "L-H-L…",
+              "Rises then drops in the middle",
+              "こころ (heart) L-H-L; おかし (sweets) L-H-L"
+            ],
+            [
+              "尾高 odaka (tail-high)",
+              "L-H-H, particle L",
+              "High through the end of the word, but the particle that follows drops",
+              "はし (bridge) L-H, はしが = L-H-L"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Well-known minimal pairs",
+          "items": [
+            "あめ H-L = rain (雨) / あめ L-H = candy (飴)",
+            "はし H-L = chopsticks (箸) / はし L-H (particle L) = bridge (橋) / はし L-H (particle H) = edge (端)",
+            "かみ H-L = god (神) / かみ L-H = paper, hair (紙・髪)",
+            "いま H-L = now (今) / いま L-H = living room (居間)"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Practical advice",
+          "items": [
+            "The JLPT does not test pitch accent directly, but wrong pitch hurts listening comprehension because you will not recognise words spoken correctly.",
+            "Learn the pitch of each new word by shadowing audio. Mark ↓ after the last high mora in your notes (あ↓め = rain).",
+            "Rule of thumb: the first and second morae always differ in pitch. Once the pitch drops, it never rises again inside the same word.",
+            "Most nouns of 3–4 morae and most loanwords are either flat or drop on the third-from-last mora (テ↓レビ, カ↓メラ, サ↓ラダ). Some very common loanwords are flat instead (アメリカ, コンビニ, パソコン), so always check the audio."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Long vowels (長音)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "A long vowel is a vowel held for two beats."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Spelling",
+          "columns": [
+            "Long vowel",
+            "Hiragana",
+            "Katakana",
+            "Examples"
+          ],
+          "rows": [
+            [
+              "ā",
+              "+ あ",
+              "ー",
+              "おかあさん (mother), おばあさん (grandmother), カー (car)"
+            ],
+            [
+              "ī",
+              "+ い",
+              "ー",
+              "おにいさん (older brother), おいしい (delicious), ビール (beer)"
+            ],
+            [
+              "ū",
+              "+ う",
+              "ー",
+              "くうき (air), ゆうびんきょく (post office), スーパー"
+            ],
+            [
+              "ē",
+              "+ い (usual) / + え (few words)",
+              "ー",
+              "せんせい (teacher), えいご (English), とけい (clock); おねえさん (older sister), ええ (yes)"
+            ],
+            [
+              "ō",
+              "+ う (usual) / + お (small fixed set)",
+              "ー",
+              "おとうさん (father), がっこう (school), きょう (today); おおきい (big), とおい (far), とお (ten), こおり (ice), おおい (many), とおる (pass through)"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Meaning-changing pairs",
+          "items": [
+            "おじさん (uncle) / おじいさん (grandfather)",
+            "おばさん (aunt) / おばあさん (grandmother)",
+            "ここ (here) / こうこう (high school)",
+            "ゆき (snow) / ゆうき (courage)",
+            "くろ (black) / くろう (hardship)",
+            "ビル (building) / ビール (beer)",
+            "とる (take) / とおる (pass through)",
+            "しゅじん (husband) / しゅうじん (prisoner)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Double consonants (促音: small っ / ッ)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Small っ creates a one-beat pause before k, s, t, p (and sh, ch, ts). Hold your mouth in the position of the next consonant and wait one beat."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Examples",
+          "columns": [
+            "Word",
+            "Reading",
+            "Meaning",
+            "Compare with"
+          ],
+          "rows": [
+            [
+              "きって",
+              "kit-te",
+              "stamp",
+              "きて (come)"
+            ],
+            [
+              "がっこう",
+              "gak-kō",
+              "school",
+              "—"
+            ],
+            [
+              "ざっし",
+              "zas-shi",
+              "magazine",
+              "—"
+            ],
+            [
+              "きっぷ",
+              "kip-pu",
+              "ticket",
+              "—"
+            ],
+            [
+              "いっしょ",
+              "is-sho",
+              "together",
+              "—"
+            ],
+            [
+              "まって",
+              "mat-te",
+              "wait (て-form)",
+              "まて (imperative), また (again)"
+            ],
+            [
+              "おっと",
+              "ot-to",
+              "husband",
+              "おと (sound)"
+            ],
+            [
+              "にっき",
+              "nik-ki",
+              "diary",
+              "—"
+            ],
+            [
+              "ちょっと",
+              "chot-to",
+              "a little",
+              "—"
+            ],
+            [
+              "いった",
+              "it-ta",
+              "went",
+              "いた (was)"
+            ],
+            [
+              "かった",
+              "kat-ta",
+              "bought",
+              "かた (shoulder; person)"
+            ],
+            [
+              "ロック",
+              "rok-ku",
+              "rock (music)",
+              "ロク (six)"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Where っ never appears",
+          "text": "Small っ never appears before a vowel, n, m, r, y, or w in native words. Loanwords occasionally have ッ before other sounds: ベッド beddo, バッグ baggu.",
+          "tone": "info"
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-343",
+    "q-kana-344",
+    "q-kana-345",
+    "q-kana-346",
+    "q-kana-347",
+    "q-kana-348",
+    "q-kana-349",
+    "q-kana-350",
+    "q-kana-351",
+    "q-kana-352",
+    "q-kana-353",
+    "q-kana-354",
+    "q-kana-355",
+    "q-kana-356",
+    "q-kana-357",
+    "q-kana-358",
+    "q-kana-359",
+    "q-kana-360",
+    "q-kana-361",
+    "q-kana-362"
+  ]
+}

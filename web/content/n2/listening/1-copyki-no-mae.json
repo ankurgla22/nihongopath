@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-1",
+  "slug": "1-copyki-no-mae",
+  "level": "n2",
+  "order": 1,
+  "kind": "task",
+  "title": "コピー機の前で",
+  "setting": "会社で、男の人と女の人が話しています。女の人はこのあとまず何をしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "田中さん、ちょっといい？三時の会議の資料、もうコピーした？"
+    },
+    {
+      "speaker": "女",
+      "line": "はい、今から十部コピーしようと思ってたところです。"
+    },
+    {
+      "speaker": "男",
+      "line": "あ、ちょっと待って。さっき部長から連絡があって、二ページ目の売上の数字が古いんだって。"
+    },
+    {
+      "speaker": "女",
+      "line": "えっ、そうなんですか。じゃあ、部長に新しい数字を聞いてきます。"
+    },
+    {
+      "speaker": "男",
+      "line": "いや、それは僕がもうもらってあるから、このメモの通りに直しておいて。直したら、コピーの前に一度僕に見せてくれる？"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。あ、会議室の予約は大丈夫ですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "うん、それはもうしてあるから。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、すぐ取りかかります。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": "materials, handout"
+    },
+    {
+      "word": "〜部",
+      "reading": "〜ぶ",
+      "meaning": "counter for copies"
+    },
+    {
+      "word": "売上",
+      "reading": "うりあげ",
+      "meaning": "sales"
+    },
+    {
+      "word": "数字",
+      "reading": "すうじ",
+      "meaning": "figures, numbers"
+    },
+    {
+      "word": "〜てある",
+      "reading": "てある",
+      "meaning": "(state resulting from a deliberate action)"
+    },
+    {
+      "word": "〜通りに",
+      "reading": "〜どおりに",
+      "meaning": "according to"
+    },
+    {
+      "word": "直す",
+      "reading": "なおす",
+      "meaning": "to correct"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation"
+    },
+    {
+      "word": "取りかかる",
+      "reading": "とりかかる",
+      "meaning": "to get started on"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-1-1"
+  ]
+}

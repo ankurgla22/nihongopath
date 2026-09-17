@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-26",
+  "slug": "26-sokuji-sumimasen",
+  "level": "n2",
+  "order": 26,
+  "kind": "quick-response",
+  "title": "即時応答 6",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "あのう、ここ、私の席だと思うんですが。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "席",
+      "reading": "せき",
+      "meaning": "seat"
+    },
+    {
+      "word": "見間違える",
+      "reading": "みまちがえる",
+      "meaning": "to misread, mistake visually"
+    },
+    {
+      "word": "失礼しました",
+      "reading": "しつれいしました",
+      "meaning": "I'm sorry (for a small fault)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-26-1"
+  ]
+}

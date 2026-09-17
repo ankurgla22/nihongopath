@@ -1,0 +1,100 @@
+{
+  "id": "n2-listening-6",
+  "slug": "6-restaurant-chumon",
+  "level": "n2",
+  "order": 6,
+  "kind": "task",
+  "title": "レストランの注文",
+  "setting": "レストランで、店員と客が話しています。客は何を注文しますか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "ご注文はお決まりですか。"
+    },
+    {
+      "speaker": "客",
+      "line": "ええと、このハンバーグセットをお願いします。"
+    },
+    {
+      "speaker": "店員",
+      "line": "かしこまりました。セットのライスとパンはどちらになさいますか。"
+    },
+    {
+      "speaker": "客",
+      "line": "ライスで。"
+    },
+    {
+      "speaker": "店員",
+      "line": "はい。あと、飲み物はコーヒー、紅茶、オレンジジュースからお選びいただけます。"
+    },
+    {
+      "speaker": "客",
+      "line": "じゃあ、紅茶を。……あ、すみません、このセット、サラダは付いてますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "申し訳ございません、サラダは別料金で、プラス二百円になります。"
+    },
+    {
+      "speaker": "客",
+      "line": "うーん、じゃあ、サラダはいいです。あ、でも、飲み物、食後に持ってきてもらえますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "かしこまりました。紅茶を食後にですね。"
+    },
+    {
+      "speaker": "客",
+      "line": "あ、ごめんなさい、やっぱりコーヒーにします。食後にお願いします。"
+    },
+    {
+      "speaker": "店員",
+      "line": "かしこまりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "order"
+    },
+    {
+      "word": "なさる",
+      "reading": "なさる",
+      "meaning": "to do (honorific)"
+    },
+    {
+      "word": "付く",
+      "reading": "つく",
+      "meaning": "to come with"
+    },
+    {
+      "word": "別料金",
+      "reading": "べつりょうきん",
+      "meaning": "extra charge"
+    },
+    {
+      "word": "〜はいいです",
+      "reading": "はいいです",
+      "meaning": "no thank you (declining)"
+    },
+    {
+      "word": "食後",
+      "reading": "しょくご",
+      "meaning": "after the meal"
+    },
+    {
+      "word": "やっぱり",
+      "reading": "やっぱり",
+      "meaning": "after all (changing one's mind)"
+    },
+    {
+      "word": "かしこまりました",
+      "reading": "かしこまりました",
+      "meaning": "certainly (polite)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-6-1"
+  ]
+}

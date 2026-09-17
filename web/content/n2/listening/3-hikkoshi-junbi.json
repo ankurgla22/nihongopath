@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-3",
+  "slug": "3-hikkoshi-junbi",
+  "level": "n2",
+  "order": 3,
+  "kind": "task",
+  "title": "引っ越しの準備",
+  "setting": "家で、夫と妻が引っ越しの準備について話しています。夫はこのあとまず何をしますか。",
+  "script": [
+    {
+      "speaker": "妻",
+      "line": "ねえ、引っ越し、来週の土曜日でしょう。段ボール、全然足りないんだけど。"
+    },
+    {
+      "speaker": "夫",
+      "line": "じゃあ、ホームセンターで買ってこようか。"
+    },
+    {
+      "speaker": "妻",
+      "line": "うーん、買うと高いから、引っ越し業者に電話して、追加でもらえるか聞いてみて。無料でくれるって言ってたから。"
+    },
+    {
+      "speaker": "夫",
+      "line": "ああ、そうだったね。じゃあ電話するよ。あと、粗大ごみの申し込み、した？"
+    },
+    {
+      "speaker": "妻",
+      "line": "あっ、忘れてた。古いソファ、出すんだよね。市役所のホームページから申し込めるんだけど、私、今から仕事だから……。"
+    },
+    {
+      "speaker": "夫",
+      "line": "わかった、それも僕がやっとく。"
+    },
+    {
+      "speaker": "妻",
+      "line": "ありがとう。でも、粗大ごみは収集日が決まってるから、先に日にちを調べてからね。ソファは引っ越しの前の日までに出さないと。"
+    },
+    {
+      "speaker": "夫",
+      "line": "うん。じゃあ、まず業者に電話して、そのあとホームページを見るよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "段ボール",
+      "reading": "だんボール",
+      "meaning": "cardboard box"
+    },
+    {
+      "word": "業者",
+      "reading": "ぎょうしゃ",
+      "meaning": "contractor, company"
+    },
+    {
+      "word": "追加",
+      "reading": "ついか",
+      "meaning": "additional"
+    },
+    {
+      "word": "無料",
+      "reading": "むりょう",
+      "meaning": "free of charge"
+    },
+    {
+      "word": "粗大ごみ",
+      "reading": "そだいごみ",
+      "meaning": "bulky waste"
+    },
+    {
+      "word": "申し込み",
+      "reading": "もうしこみ",
+      "meaning": "application"
+    },
+    {
+      "word": "市役所",
+      "reading": "しやくしょ",
+      "meaning": "city hall"
+    },
+    {
+      "word": "収集日",
+      "reading": "しゅうしゅうび",
+      "meaning": "collection day"
+    },
+    {
+      "word": "〜ないと",
+      "reading": "ないと",
+      "meaning": "must (short for 〜ないといけない)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-3-1"
+  ]
+}

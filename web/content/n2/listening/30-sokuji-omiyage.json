@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-30",
+  "slug": "30-sokuji-omiyage",
+  "level": "n2",
+  "order": 30,
+  "kind": "quick-response",
+  "title": "即時応答 10",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "これ、京都のお土産です。よかったら皆さんで召し上がってください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "お土産",
+      "reading": "おみやげ",
+      "meaning": "souvenir"
+    },
+    {
+      "word": "召し上がる",
+      "reading": "めしあがる",
+      "meaning": "to eat (honorific)"
+    },
+    {
+      "word": "お気遣い",
+      "reading": "おきづかい",
+      "meaning": "thoughtfulness"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-30-1"
+  ]
+}

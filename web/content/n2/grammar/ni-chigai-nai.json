@@ -1,0 +1,136 @@
+{
+  "id": "n2-grammar-122",
+  "slug": "ni-chigai-nai",
+  "level": "n2",
+  "order": 122,
+  "title": "〜に違いない",
+  "romaji": "ni chigainai",
+  "meaning": "must be… / I'm sure that…",
+  "simpleExplanation": "〜に違いない means \"it must be (X)\" or \"I'm sure it's (X)\". The speaker has not confirmed it, but based on what they see or know they feel almost certain. It is a strong guess, stronger than だろう and と思う, and it usually carries the speaker's personal conviction.",
+  "whenUsed": "Both speech and writing; slightly formal. Common in narratives (\"the culprit must be…\"), in reasoning from clues, and when the speaker expresses a confident feeling about another person's situation (\"she must be tired\"). Casual speech often prefers きっと〜だ or 〜に決まっている.",
+  "formation": [
+    "Verb (plain form) + に違いない",
+    "い-adjective + に違いない",
+    "な-adjective (stem) + に違いない  (嫌いに違いない)",
+    "Noun + に違いない  (犯人に違いない)",
+    "Written/formal variant: 〜に相違ない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How sure is the speaker?",
+    "items": [
+      {
+        "label": "〜かもしれない",
+        "description": "maybe (about 30–50%)"
+      },
+      {
+        "label": "〜だろう / 〜と思う",
+        "description": "probably (a normal guess)"
+      },
+      {
+        "label": "〜はずだ",
+        "description": "should be (logical expectation based on facts)"
+      },
+      {
+        "label": "〜に違いない",
+        "description": "must be (speaker is almost certain, based on clues or intuition)"
+      },
+      {
+        "label": "〜に決まっている",
+        "description": "definitely (spoken, emotional certainty)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "電気がついているから、彼はまだ家にいるに違いない。",
+      "reading": "でんきがついているから、かれはまだいえにいるにちがいない。",
+      "en": "The lights are on, so he must still be at home.",
+      "note": "A clue (電気がついている) leads to a confident guess."
+    },
+    {
+      "ja": "この字は彼女の字に違いない。",
+      "reading": "このじはかのじょのじにちがいない。",
+      "en": "This handwriting must be hers.",
+      "note": "Noun + に違いない."
+    },
+    {
+      "ja": "あんなに働いていたら、疲れているに違いない。",
+      "reading": "あんなにはたらいていたら、つかれているにちがいない。",
+      "en": "Working that much, she must be exhausted."
+    },
+    {
+      "ja": "あの店はいつも行列ができている。おいしいに違いない。",
+      "reading": "あのみせはいつもぎょうれつができている。おいしいにちがいない。",
+      "en": "There's always a line at that restaurant. It must be good.",
+      "note": "い-adjective attaches directly."
+    },
+    {
+      "ja": "犯人はこの部屋に出入りできる人物に違いありません。",
+      "reading": "はんにんはこのへやにでいりできるじんぶつにちがいありません。",
+      "en": "The culprit must be someone who can enter this room.",
+      "note": "Polite form に違いありません; typical detective-story usage."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はずだ",
+      "difference": "\"Should be\" – a logical expectation based on facts or schedules. に違いない is more about the speaker's conviction from clues."
+    },
+    {
+      "pattern": "〜に決まっている",
+      "difference": "\"Definitely\" – spoken and emotional, often used when the speaker will not hear any objection.",
+      "id": "n2-grammar-107"
+    },
+    {
+      "pattern": "〜に相違ない",
+      "difference": "Same meaning as に違いない but formal and written (legal documents, reports).",
+      "id": "n2-grammar-119"
+    },
+    {
+      "pattern": "〜にほかならない",
+      "difference": "Looks similar but means \"is nothing other than\" – it defines or identifies, rather than guessing.",
+      "id": "n2-grammar-130"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は学生なに違いない。",
+      "right": "彼は学生に違いない。",
+      "why": "Nouns attach directly to に違いない. There is no な or の."
+    },
+    {
+      "wrong": "静かなに違いない。",
+      "right": "静かに違いない。",
+      "why": "な-adjectives use the stem before に違いない; the な is dropped."
+    },
+    {
+      "wrong": "明日は雨が降るに違いない。(as a weather-forecast style prediction)",
+      "right": "明日は雨が降るだろう。／降るでしょう。",
+      "why": "に違いない is a personal conviction from clues. For neutral forecasts or general predictions, だろう/でしょう is natural."
+    }
+  ],
+  "usageNotes": [
+    "に違いない is a subjective guess. If you have actual proof, just state the fact; using に違いない would sound as if you were still unsure.",
+    "In everyday speech, きっと〜だ or 絶対〜だ is more common; に違いない sounds a little literary.",
+    "The past form is に違いなかった; the polite form is に違いありません."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断 the sentence usually gives a clue (〜から / 〜のだから / ている) followed by the guess. If the guess is confident and subjective, choose に違いない over はずだ.",
+    "Distractors include にほかならない, に相違ない, and にすぎない. Remember: にほかならない identifies (\"is nothing but\"), にすぎない minimizes (\"is merely\"), に違いない guesses.",
+    "Check attachment: noun and な-adjective stems attach directly (学生に違いない, 静かに違いない). An option with なに違いない is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-122-1",
+    "q-n2-g-122-2",
+    "q-n2-g-122-3",
+    "q-n2-g-122-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-122-5",
+    "q-n2-g-122-6",
+    "q-n2-g-122-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

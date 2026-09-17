@@ -1,0 +1,89 @@
+import { LEVELS, type Level } from "@/lib/content/schemas";
+
+export type LevelInfo = {
+  level: Level;
+  label: string;
+  name: string;
+  tagline: string;
+  description: string;
+  youWillLearn: string[];
+  examNote: string;
+};
+
+export const LEVEL_INFO: Record<Level, LevelInfo> = {
+  n5: {
+    level: "n5",
+    label: "N5",
+    name: "Foundations",
+    tagline: "Your first sentences in Japanese.",
+    description:
+      "Hiragana, katakana, the most common kanji, basic particles and verb forms. After N5 you can introduce yourself, talk about daily life and read simple signs and notes.",
+    youWillLearn: [
+      "Particles は, が, を, に, で, へ and how they shape a sentence",
+      "Present, past and negative forms of verbs and adjectives",
+      "Around 100 kanji and 700 everyday words",
+      "Simple requests, invitations and questions",
+    ],
+    examNote: "JLPT N5 tests basic grammar, about 100 kanji and 800 words. Passing score: 80 / 180.",
+  },
+  n4: {
+    level: "n4",
+    label: "N4",
+    name: "Everyday Japanese",
+    tagline: "Hold a real conversation about daily topics.",
+    description:
+      "Te-form combinations, potential, passive, causative, conditionals and giving / receiving. You start reading short passages and understanding slow conversations.",
+    youWillLearn: [
+      "Verb forms: potential, passive, causative, volitional and imperative",
+      "Conditionals たら, ば, と, なら and how they differ",
+      "Around 150 more kanji and 900 words for daily life, work and travel",
+      "Explaining reasons, giving advice and making comparisons",
+    ],
+    examNote: "JLPT N4 tests about 300 kanji and 1,500 words in total. Passing score: 90 / 180.",
+  },
+  n3: {
+    level: "n3",
+    label: "N3",
+    name: "Intermediate Bridge",
+    tagline: "Read news headlines and follow natural speech.",
+    description:
+      "The bridge between everyday and formal Japanese. Keigo, nuanced sentence endings, and the grammar that turns simple sentences into natural paragraphs.",
+    youWillLearn: [
+      "Keigo: 尊敬語 and 謙譲語 in real situations",
+      "Nuance patterns: 〜わけ, 〜はず, 〜べき, 〜ように and their differences",
+      "Around 370 kanji and 1,500 words on society, work and health",
+      "Reading medium-length passages and understanding the writer's intent",
+    ],
+    examNote: "JLPT N3 tests about 650 kanji and 3,700 words in total. Passing score: 95 / 180.",
+  },
+  n2: {
+    level: "n2",
+    label: "N2",
+    name: "Advanced Fluency",
+    tagline: "Work, study and live in Japanese with confidence.",
+    description:
+      "Formal and written Japanese: newspaper articles, business emails, opinion pieces and fast natural conversation. N2 is the level most employers and universities ask for.",
+    youWillLearn: [
+      "200 grammar patterns including 〜あげく, 〜ざるを得ない, 〜に限らず and 〜わけではない",
+      "Around 390 kanji and 1,800 words for news, business and academic contexts",
+      "Reading long passages, comparing two texts and scanning information",
+      "Listening for the main point, the speaker's attitude and quick responses",
+    ],
+    examNote: "JLPT N2 tests about 1,000 kanji and 6,000 words in total. Passing score: 90 / 180, with at least 19 in each section.",
+  },
+};
+
+export const LEVEL_ORDER = LEVELS;
+
+export function isLevel(x: string): x is Level {
+  return (LEVELS as string[]).includes(x);
+}
+
+/** Dynamic route params may arrive percent-encoded (kanji slugs contain the character itself). */
+export function decodeSlug(slug: string): string {
+  try {
+    return decodeURIComponent(slug);
+  } catch {
+    return slug;
+  }
+}

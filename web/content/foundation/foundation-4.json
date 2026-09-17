@@ -1,0 +1,871 @@
+{
+  "id": "foundation-4",
+  "slug": "katakana-combinations",
+  "order": 4,
+  "kind": "katakana",
+  "title": "Katakana: combinations and loanword sounds",
+  "summary": "Voiced rows, the 36 yōon, the long-vowel bar ー, small ッ, and the extended combinations (ティ, ファ, ヴ…) invented for foreign sounds, plus 30 loanwords and the rules for guessing spellings.",
+  "minutes": 25,
+  "sections": [
+    {
+      "heading": "Dakuten and handakuten",
+      "blocks": [
+        {
+          "kind": "kana-chart",
+          "title": "Voiced and semi-voiced rows (25 characters)",
+          "rows": [
+            [
+              {
+                "kana": "ガ",
+                "romaji": "ga"
+              },
+              {
+                "kana": "ギ",
+                "romaji": "gi"
+              },
+              {
+                "kana": "グ",
+                "romaji": "gu"
+              },
+              {
+                "kana": "ゲ",
+                "romaji": "ge"
+              },
+              {
+                "kana": "ゴ",
+                "romaji": "go"
+              }
+            ],
+            [
+              {
+                "kana": "ザ",
+                "romaji": "za"
+              },
+              {
+                "kana": "ジ",
+                "romaji": "ji"
+              },
+              {
+                "kana": "ズ",
+                "romaji": "zu"
+              },
+              {
+                "kana": "ゼ",
+                "romaji": "ze"
+              },
+              {
+                "kana": "ゾ",
+                "romaji": "zo"
+              }
+            ],
+            [
+              {
+                "kana": "ダ",
+                "romaji": "da"
+              },
+              {
+                "kana": "ヂ",
+                "romaji": "ji"
+              },
+              {
+                "kana": "ヅ",
+                "romaji": "zu"
+              },
+              {
+                "kana": "デ",
+                "romaji": "de"
+              },
+              {
+                "kana": "ド",
+                "romaji": "do"
+              }
+            ],
+            [
+              {
+                "kana": "バ",
+                "romaji": "ba"
+              },
+              {
+                "kana": "ビ",
+                "romaji": "bi"
+              },
+              {
+                "kana": "ブ",
+                "romaji": "bu"
+              },
+              {
+                "kana": "ベ",
+                "romaji": "be"
+              },
+              {
+                "kana": "ボ",
+                "romaji": "bo"
+              }
+            ],
+            [
+              {
+                "kana": "パ",
+                "romaji": "pa"
+              },
+              {
+                "kana": "ピ",
+                "romaji": "pi"
+              },
+              {
+                "kana": "プ",
+                "romaji": "pu"
+              },
+              {
+                "kana": "ペ",
+                "romaji": "pe"
+              },
+              {
+                "kana": "ポ",
+                "romaji": "po"
+              }
+            ]
+          ],
+          "rowLabels": [
+            "K → G",
+            "S → Z",
+            "T → D",
+            "H → B",
+            "H → P"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Yōon: contracted sounds",
+      "blocks": [
+        {
+          "kind": "kana-chart",
+          "title": "All 36 yōon",
+          "rows": [
+            [
+              {
+                "kana": "キャ",
+                "romaji": "kya"
+              },
+              {
+                "kana": "キュ",
+                "romaji": "kyu"
+              },
+              {
+                "kana": "キョ",
+                "romaji": "kyo"
+              }
+            ],
+            [
+              {
+                "kana": "シャ",
+                "romaji": "sha"
+              },
+              {
+                "kana": "シュ",
+                "romaji": "shu"
+              },
+              {
+                "kana": "ショ",
+                "romaji": "sho"
+              }
+            ],
+            [
+              {
+                "kana": "チャ",
+                "romaji": "cha"
+              },
+              {
+                "kana": "チュ",
+                "romaji": "chu"
+              },
+              {
+                "kana": "チョ",
+                "romaji": "cho"
+              }
+            ],
+            [
+              {
+                "kana": "ニャ",
+                "romaji": "nya"
+              },
+              {
+                "kana": "ニュ",
+                "romaji": "nyu"
+              },
+              {
+                "kana": "ニョ",
+                "romaji": "nyo"
+              }
+            ],
+            [
+              {
+                "kana": "ヒャ",
+                "romaji": "hya"
+              },
+              {
+                "kana": "ヒュ",
+                "romaji": "hyu"
+              },
+              {
+                "kana": "ヒョ",
+                "romaji": "hyo"
+              }
+            ],
+            [
+              {
+                "kana": "ミャ",
+                "romaji": "mya"
+              },
+              {
+                "kana": "ミュ",
+                "romaji": "myu"
+              },
+              {
+                "kana": "ミョ",
+                "romaji": "myo"
+              }
+            ],
+            [
+              {
+                "kana": "リャ",
+                "romaji": "rya"
+              },
+              {
+                "kana": "リュ",
+                "romaji": "ryu"
+              },
+              {
+                "kana": "リョ",
+                "romaji": "ryo"
+              }
+            ],
+            [
+              {
+                "kana": "ギャ",
+                "romaji": "gya"
+              },
+              {
+                "kana": "ギュ",
+                "romaji": "gyu"
+              },
+              {
+                "kana": "ギョ",
+                "romaji": "gyo"
+              }
+            ],
+            [
+              {
+                "kana": "ジャ",
+                "romaji": "ja"
+              },
+              {
+                "kana": "ジュ",
+                "romaji": "ju"
+              },
+              {
+                "kana": "ジョ",
+                "romaji": "jo"
+              }
+            ],
+            [
+              {
+                "kana": "ヂャ",
+                "romaji": "ja"
+              },
+              {
+                "kana": "ヂュ",
+                "romaji": "ju"
+              },
+              {
+                "kana": "ヂョ",
+                "romaji": "jo"
+              }
+            ],
+            [
+              {
+                "kana": "ビャ",
+                "romaji": "bya"
+              },
+              {
+                "kana": "ビュ",
+                "romaji": "byu"
+              },
+              {
+                "kana": "ビョ",
+                "romaji": "byo"
+              }
+            ],
+            [
+              {
+                "kana": "ピャ",
+                "romaji": "pya"
+              },
+              {
+                "kana": "ピュ",
+                "romaji": "pyu"
+              },
+              {
+                "kana": "ピョ",
+                "romaji": "pyo"
+              }
+            ]
+          ],
+          "rowLabels": [
+            "キ",
+            "シ",
+            "チ",
+            "ニ",
+            "ヒ",
+            "ミ",
+            "リ",
+            "ギ",
+            "ジ",
+            "ヂ",
+            "ビ",
+            "ピ"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Long vowel mark ー (chōonpu)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "In katakana, a long vowel is written with a horizontal bar ー (vertical in vertical writing). It lengthens the previous vowel by one full beat."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Examples",
+          "columns": [
+            "Katakana",
+            "Romaji",
+            "Meaning",
+            "Beats"
+          ],
+          "rows": [
+            [
+              "コーヒー",
+              "kōhī",
+              "coffee",
+              "4 (ko-o-hi-i)"
+            ],
+            [
+              "ケーキ",
+              "kēki",
+              "cake",
+              "3"
+            ],
+            [
+              "スーパー",
+              "sūpā",
+              "supermarket",
+              "4"
+            ],
+            [
+              "ノート",
+              "nōto",
+              "notebook",
+              "3"
+            ],
+            [
+              "メール",
+              "mēru",
+              "email",
+              "3"
+            ],
+            [
+              "ビール",
+              "bīru",
+              "beer",
+              "3"
+            ],
+            [
+              "カー",
+              "kā",
+              "car",
+              "2"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Do not confuse ー",
+          "text": "Do not confuse ー with the kanji 一 (one). In horizontal text ー is always a straight horizontal line following a kana.",
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "heading": "Small ッ (sokuon)",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Small ッ doubles the following consonant and takes one full beat of silence."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Examples",
+          "columns": [
+            "Katakana",
+            "Romaji",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ベッド",
+              "beddo",
+              "bed"
+            ],
+            [
+              "サッカー",
+              "sakkā",
+              "soccer"
+            ],
+            [
+              "カップ",
+              "kappu",
+              "cup"
+            ],
+            [
+              "バッグ",
+              "baggu",
+              "bag"
+            ],
+            [
+              "ポケット",
+              "poketto",
+              "pocket"
+            ],
+            [
+              "インターネット",
+              "intānetto",
+              "internet"
+            ],
+            [
+              "チケット",
+              "chiketto",
+              "ticket"
+            ],
+            [
+              "マッチ",
+              "matchi",
+              "match"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "At the end of a word",
+          "text": "Small ッ can also appear at the end of a word in comics or onomatopoeia to show a sudden stop (アッ! \"Ah!\").",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "heading": "Extended katakana: foreign sounds",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "These combinations were created to write sounds that do not exist in native Japanese. The second kana is written small."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Extended combinations",
+          "columns": [
+            "Combination",
+            "Romaji",
+            "Example",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "ヴァ",
+              "va",
+              "ヴァイオリン",
+              "violin"
+            ],
+            [
+              "ヴィ",
+              "vi",
+              "ヴィザ (also ビザ)",
+              "visa"
+            ],
+            [
+              "ヴ",
+              "vu",
+              "ヴ (used in names)",
+              "—"
+            ],
+            [
+              "ヴェ",
+              "ve",
+              "ヴェネツィア",
+              "Venice"
+            ],
+            [
+              "ヴォ",
+              "vo",
+              "ヴォリューム (also ボリューム)",
+              "volume"
+            ],
+            [
+              "ファ",
+              "fa",
+              "ファミリー",
+              "family"
+            ],
+            [
+              "フィ",
+              "fi",
+              "フィルム",
+              "film"
+            ],
+            [
+              "フェ",
+              "fe",
+              "カフェ",
+              "café"
+            ],
+            [
+              "フォ",
+              "fo",
+              "フォーク",
+              "fork"
+            ],
+            [
+              "フュ",
+              "fyu",
+              "フュージョン",
+              "fusion"
+            ],
+            [
+              "ティ",
+              "ti",
+              "パーティー",
+              "party"
+            ],
+            [
+              "ディ",
+              "di",
+              "ディズニー",
+              "Disney"
+            ],
+            [
+              "トゥ",
+              "tu",
+              "トゥース (rare)",
+              "tooth"
+            ],
+            [
+              "ドゥ",
+              "du",
+              "ヒンドゥー",
+              "Hindu"
+            ],
+            [
+              "テュ",
+              "tyu",
+              "テューバ (also チューバ)",
+              "tuba"
+            ],
+            [
+              "デュ",
+              "dyu",
+              "デュエット",
+              "duet"
+            ],
+            [
+              "ウィ",
+              "wi",
+              "ウィキペディア",
+              "Wikipedia"
+            ],
+            [
+              "ウェ",
+              "we",
+              "ウェブ",
+              "web"
+            ],
+            [
+              "ウォ",
+              "wo",
+              "ウォーター",
+              "water"
+            ],
+            [
+              "シェ",
+              "she",
+              "シェフ",
+              "chef"
+            ],
+            [
+              "ジェ",
+              "je",
+              "ジェット",
+              "jet"
+            ],
+            [
+              "チェ",
+              "che",
+              "チェック",
+              "check"
+            ],
+            [
+              "ツァ",
+              "tsa",
+              "モーツァルト",
+              "Mozart"
+            ],
+            [
+              "ツィ",
+              "tsi",
+              "ツィター (rare)",
+              "zither"
+            ],
+            [
+              "ツェ",
+              "tse",
+              "ツェッペリン",
+              "Zeppelin"
+            ],
+            [
+              "ツォ",
+              "tso",
+              "カンツォーネ",
+              "canzone"
+            ],
+            [
+              "イェ",
+              "ye",
+              "イェール",
+              "Yale"
+            ],
+            [
+              "クァ / クヮ",
+              "kwa",
+              "クァルテット (also カルテット)",
+              "quartet"
+            ],
+            [
+              "グァ",
+              "gwa",
+              "グァテマラ (also グアテマラ)",
+              "Guatemala"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Notes",
+          "items": [
+            "Many words have two accepted spellings (ヴァイオリン / バイオリン). Both are read the same by native speakers; ヴ is usually pronounced as b.",
+            "The letter l is always written with the R-row (ラ リ ル レ ロ): ロンドン London, ミルク milk.",
+            "th becomes the サ/ス row: サンキュー thank you, スリー three.",
+            "r at the end of an English syllable becomes ー: カー car (exception: ドア door has no bar)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "30 common loanwords",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "Read aloud, then write from the English",
+          "items": [
+            {
+              "ja": "コーヒー",
+              "reading": "kōhī",
+              "en": "coffee"
+            },
+            {
+              "ja": "コンビニ",
+              "reading": "konbini",
+              "en": "convenience store"
+            },
+            {
+              "ja": "スーパー",
+              "reading": "sūpā",
+              "en": "supermarket"
+            },
+            {
+              "ja": "デパート",
+              "reading": "depāto",
+              "en": "department store"
+            },
+            {
+              "ja": "タクシー",
+              "reading": "takushī",
+              "en": "taxi"
+            },
+            {
+              "ja": "コンピューター",
+              "reading": "konpyūtā",
+              "en": "computer"
+            },
+            {
+              "ja": "パソコン",
+              "reading": "pasokon",
+              "en": "personal computer"
+            },
+            {
+              "ja": "テーブル",
+              "reading": "tēburu",
+              "en": "table"
+            },
+            {
+              "ja": "ドア",
+              "reading": "doa",
+              "en": "door"
+            },
+            {
+              "ja": "ベッド",
+              "reading": "beddo",
+              "en": "bed"
+            },
+            {
+              "ja": "シャワー",
+              "reading": "shawā",
+              "en": "shower"
+            },
+            {
+              "ja": "エレベーター",
+              "reading": "erebētā",
+              "en": "elevator"
+            },
+            {
+              "ja": "ビル",
+              "reading": "biru",
+              "en": "building"
+            },
+            {
+              "ja": "アパート",
+              "reading": "apāto",
+              "en": "apartment"
+            },
+            {
+              "ja": "マンション",
+              "reading": "manshon",
+              "en": "condominium (not a mansion)"
+            },
+            {
+              "ja": "ジュース",
+              "reading": "jūsu",
+              "en": "juice"
+            },
+            {
+              "ja": "ビール",
+              "reading": "bīru",
+              "en": "beer"
+            },
+            {
+              "ja": "ケーキ",
+              "reading": "kēki",
+              "en": "cake"
+            },
+            {
+              "ja": "チョコレート",
+              "reading": "chokorēto",
+              "en": "chocolate"
+            },
+            {
+              "ja": "ハンバーガー",
+              "reading": "hanbāgā",
+              "en": "hamburger"
+            },
+            {
+              "ja": "サンドイッチ",
+              "reading": "sandoitchi",
+              "en": "sandwich"
+            },
+            {
+              "ja": "メニュー",
+              "reading": "menyū",
+              "en": "menu"
+            },
+            {
+              "ja": "シャツ",
+              "reading": "shatsu",
+              "en": "shirt"
+            },
+            {
+              "ja": "サッカー",
+              "reading": "sakkā",
+              "en": "soccer"
+            },
+            {
+              "ja": "ニュース",
+              "reading": "nyūsu",
+              "en": "news"
+            },
+            {
+              "ja": "ノート",
+              "reading": "nōto",
+              "en": "notebook"
+            },
+            {
+              "ja": "パーティー",
+              "reading": "pātī",
+              "en": "party"
+            },
+            {
+              "ja": "メール",
+              "reading": "mēru",
+              "en": "email"
+            },
+            {
+              "ja": "インターネット",
+              "reading": "intānetto",
+              "en": "internet"
+            },
+            {
+              "ja": "アルバイト",
+              "reading": "arubaito",
+              "en": "part-time job (from German Arbeit)"
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Sound-change patterns that let you guess spellings",
+          "items": [
+            "An English final consonant gets a vowel: bus → バス, milk → ミルク, cake → ケーキ.",
+            "Final -er / -or / -ar → ー: computer → コンピューター, elevator → エレベーター.",
+            "-ti- / -di- → ティ / ディ in modern words (パーティー) but チ / ジ in older loans (チケット, ラジオ).",
+            "Shortened compounds are extremely common: パソコン (personal computer), エアコン (air conditioner), コンビニ (convenience store), スマホ (smartphone), アニメ (animation), デパート (department store)."
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-281",
+    "q-kana-277",
+    "q-kana-290",
+    "q-kana-275",
+    "q-kana-269",
+    "q-kana-276",
+    "q-kana-264",
+    "q-kana-271",
+    "q-kana-285",
+    "q-kana-333",
+    "q-kana-323",
+    "q-kana-308",
+    "q-kana-342",
+    "q-kana-293",
+    "q-kana-324",
+    "q-kana-295",
+    "q-kana-296",
+    "q-kana-306",
+    "q-kana-334",
+    "q-kana-304"
+  ]
+}

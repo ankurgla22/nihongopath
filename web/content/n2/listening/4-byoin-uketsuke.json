@@ -1,0 +1,93 @@
+{
+  "id": "n2-listening-4",
+  "slug": "4-byoin-uketsuke",
+  "level": "n2",
+  "order": 4,
+  "kind": "task",
+  "title": "病院の受付",
+  "setting": "病院の受付で、女の人と受付の人が話しています。女の人はこのあとどうしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません、九時半に予約している山口ですが。"
+    },
+    {
+      "speaker": "受付",
+      "line": "山口様ですね。診察券と保険証をお願いします。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。あ、保険証、先月新しくなったんですけど、まだ古いのしか持っていなくて……。"
+    },
+    {
+      "speaker": "受付",
+      "line": "そうですか。古い保険証ですと、今日は一度全額をお支払いいただくことになります。新しい保険証を今月中にお持ちいただければ、差額はお返しします。"
+    },
+    {
+      "speaker": "女",
+      "line": "全額ですか……。新しいのは家にあるんです。家、ここから十分くらいなんですけど、取りに帰ったら間に合いますか。"
+    },
+    {
+      "speaker": "受付",
+      "line": "うーん、今日は混んでいますので、予約の時間に遅れると、順番がかなり後になってしまいますね。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。じゃあ、今日はこのまま受けて、今週中にまた来ます。"
+    },
+    {
+      "speaker": "受付",
+      "line": "かしこまりました。では、こちらの番号札を持って、二階の待合室でお待ちください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "診察券",
+      "reading": "しんさつけん",
+      "meaning": "patient registration card"
+    },
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meaning": "health insurance card"
+    },
+    {
+      "word": "全額",
+      "reading": "ぜんがく",
+      "meaning": "full amount"
+    },
+    {
+      "word": "差額",
+      "reading": "さがく",
+      "meaning": "difference (in price)"
+    },
+    {
+      "word": "間に合う",
+      "reading": "まにあう",
+      "meaning": "to be in time"
+    },
+    {
+      "word": "混む",
+      "reading": "こむ",
+      "meaning": "to be crowded"
+    },
+    {
+      "word": "順番",
+      "reading": "じゅんばん",
+      "meaning": "turn, order"
+    },
+    {
+      "word": "番号札",
+      "reading": "ばんごうふだ",
+      "meaning": "number ticket"
+    },
+    {
+      "word": "待合室",
+      "reading": "まちあいしつ",
+      "meaning": "waiting room"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-4-1"
+  ]
+}

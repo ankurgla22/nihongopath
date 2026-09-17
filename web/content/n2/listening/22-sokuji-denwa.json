@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-22",
+  "slug": "22-sokuji-denwa",
+  "level": "n2",
+  "order": 22,
+  "kind": "quick-response",
+  "title": "即時応答 2",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "課長、お電話中に失礼します。田中様がお見えになりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "お見えになる",
+      "reading": "おみえになる",
+      "meaning": "to arrive (honorific)"
+    },
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meaning": "excuse me (interrupting)"
+    },
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to tell, convey"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-22-1"
+  ]
+}

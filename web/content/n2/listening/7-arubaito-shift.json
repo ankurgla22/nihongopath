@@ -1,0 +1,97 @@
+{
+  "id": "n2-listening-7",
+  "slug": "7-arubaito-shift",
+  "level": "n2",
+  "order": 7,
+  "kind": "task",
+  "title": "アルバイトのシフト",
+  "setting": "アルバイト先で、店長と女の学生が話しています。女の学生はいつ働きますか。",
+  "script": [
+    {
+      "speaker": "店長",
+      "line": "佐藤さん、来週のシフトのことなんだけど、水曜日、入れる？"
+    },
+    {
+      "speaker": "学生",
+      "line": "水曜日ですか。すみません、水曜は午後からゼミがあって……。午前中なら大丈夫です。"
+    },
+    {
+      "speaker": "店長",
+      "line": "午前か。うーん、足りないのは夕方なんだよね。じゃあ木曜の夕方は？"
+    },
+    {
+      "speaker": "学生",
+      "line": "木曜は、六時からなら行けます。"
+    },
+    {
+      "speaker": "店長",
+      "line": "六時から九時までで頼める？"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、大丈夫です。"
+    },
+    {
+      "speaker": "店長",
+      "line": "助かるよ。あと、土曜日も頼みたかったんだけど、鈴木くんが入れるって言ってたから、そっちはいいや。"
+    },
+    {
+      "speaker": "学生",
+      "line": "わかりました。じゃあ、木曜だけですね。"
+    },
+    {
+      "speaker": "店長",
+      "line": "うん、よろしくね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "シフト",
+      "reading": "シフト",
+      "meaning": "shift"
+    },
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meaning": "to take a shift"
+    },
+    {
+      "word": "ゼミ",
+      "reading": "ゼミ",
+      "meaning": "seminar class"
+    },
+    {
+      "word": "午前中",
+      "reading": "ごぜんちゅう",
+      "meaning": "during the morning"
+    },
+    {
+      "word": "足りない",
+      "reading": "たりない",
+      "meaning": "to be short of"
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "meaning": "evening"
+    },
+    {
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning": "to ask a favor"
+    },
+    {
+      "word": "助かる",
+      "reading": "たすかる",
+      "meaning": "to be a help"
+    },
+    {
+      "word": "〜はいいや",
+      "reading": "はいいや",
+      "meaning": "never mind (that one)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-7-1"
+  ]
+}

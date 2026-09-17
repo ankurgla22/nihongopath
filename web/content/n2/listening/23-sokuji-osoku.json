@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-23",
+  "slug": "23-sokuji-osoku",
+  "level": "n2",
+  "order": 23,
+  "kind": "quick-response",
+  "title": "即時応答 3",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "昨日は遅くまで残業だったんですって？"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "meaning": "overtime"
+    },
+    {
+      "word": "終電",
+      "reading": "しゅうでん",
+      "meaning": "last train"
+    },
+    {
+      "word": "ぎりぎり",
+      "reading": "ぎりぎり",
+      "meaning": "just barely"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-23-1"
+  ]
+}

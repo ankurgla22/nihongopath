@@ -1,0 +1,147 @@
+{
+  "id": "n2-grammar-162",
+  "slug": "wake-ga-nai",
+  "level": "n2",
+  "order": 162,
+  "title": "〜わけがない / 〜わけはない",
+  "romaji": "wake ga nai",
+  "meaning": "There's no way that… / It's impossible that…",
+  "simpleExplanation": "〜わけがない is a strong, often emotional denial: \"there's no way that's true\". The speaker has a reason (common sense, their own knowledge, or the situation) and rejects the idea completely. It is much stronger than a normal negative and much stronger than わけではない.",
+  "whenUsed": "Mostly spoken, casual to neutral. Used when reacting to something you find impossible or absurd (そんなわけがない！ \"No way!\"). In polite speech わけがありません is possible but sounds firm. Written explanations prefer はずがない.",
+  "formation": [
+    "Verb (plain form) + わけがない",
+    "い-adjective + わけがない",
+    "な-adjective + な + わけがない",
+    "Noun + の / である + わけがない",
+    "Variants: 〜わけはない (slightly softer), 〜わけない (casual speech)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three ways to say \"not\" with わけ / はず",
+    "columns": [
+      "Pattern",
+      "Meaning",
+      "Feeling",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜わけではない",
+        "cells": [
+          "It's not that…",
+          "mild correction, partial denial",
+          "嫌いなわけではない (it's not that I dislike it)"
+        ]
+      },
+      {
+        "label": "〜わけがない",
+        "cells": [
+          "There's no way that…",
+          "strong, emotional, subjective",
+          "彼が来るわけがない (no way he's coming)"
+        ]
+      },
+      {
+        "label": "〜はずがない",
+        "cells": [
+          "It cannot be that…",
+          "logical, based on evidence",
+          "彼が来るはずがない (he can't be coming; it's impossible given the facts)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "あんなに練習したのだから、負けるわけがない。",
+      "reading": "あんなにれんしゅうしたのだから、まけるわけがない。",
+      "en": "After practicing that much, there's no way we'll lose.",
+      "note": "The reason (あんなに練習した) makes the denial feel justified."
+    },
+    {
+      "ja": "こんな難しい問題、私に解けるわけがないよ。",
+      "reading": "こんなむずかしいもんだい、わたしにとけるわけがないよ。",
+      "en": "There's no way I can solve a problem this hard.",
+      "note": "Potential form + わけがない is very common."
+    },
+    {
+      "ja": "そんな話、本当なわけがない。",
+      "reading": "そんなはなし、ほんとうなわけがない。",
+      "en": "There's no way that story is true.",
+      "note": "な-adjective + な + わけがない."
+    },
+    {
+      "ja": "彼がそんなひどいことを言うわけはない。",
+      "reading": "かれがそんなひどいことをいうわけはない。",
+      "en": "He would never say something that cruel.",
+      "note": "わけはない is a touch softer than わけがない."
+    },
+    {
+      "ja": "「彼、今日来るかな。」「来るわけないよ。昨日けんかしたばかりだし。」",
+      "reading": "「かれ、きょうくるかな。」「くるわけないよ。きのうけんかしたばかりだし。」",
+      "en": "\"Do you think he'll come today?\" \"No way. We only just had a fight yesterday.\"",
+      "note": "Casual わけない drops が."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "Mild partial denial (\"it's not that…\"). わけがない is a total, emotional denial.",
+      "id": "n2-grammar-164"
+    },
+    {
+      "pattern": "〜はずがない",
+      "difference": "Same meaning of impossibility, but based on logic or evidence and more neutral in tone. わけがない feels more like a gut reaction."
+    },
+    {
+      "pattern": "〜っこない",
+      "difference": "Casual, spoken \"there's no way (someone can)…\", used with verb stems: できっこない.",
+      "id": "n2-grammar-72"
+    },
+    {
+      "pattern": "〜に決まっている",
+      "difference": "\"It's definitely…\" – a confident positive assertion, the mirror image of わけがない.",
+      "id": "n2-grammar-107"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が犯人なわけではない！（meaning: he can't be the culprit）",
+      "right": "彼が犯人なわけがない！",
+      "why": "わけではない only says \"it's not that he's the culprit\", a soft partial denial. For \"no way he's the culprit\" you need わけがない."
+    },
+    {
+      "wrong": "そんなことが簡単わけがない。",
+      "right": "そんなことが簡単なわけがない。",
+      "why": "簡単 is a な-adjective, so な is required before わけ."
+    },
+    {
+      "wrong": "先生がそんなことを知らないわけがある。",
+      "right": "先生がそんなことを知らないわけがない。",
+      "why": "わけがある is not the affirmative of this pattern. The phrase only exists as a denial (わけがない / わけはない)."
+    }
+  ],
+  "usageNotes": [
+    "〜ないわけがない is a double negative: \"there's no way that (someone) doesn't…\" = \"of course they do\". 知らないわけがない = \"there's no way they don't know\".",
+    "Because it is strong, avoid わけがない when politely disagreeing with a superior; use 〜とは思えません or 〜ないと思います instead.",
+    "In casual speech the が often drops: わけない. Do not confuse this with 訳ない (easy) in writing; context decides."
+  ],
+  "jlptTips": [
+    "Look for emotional or common-sense reasons in the sentence (あんなに, こんな, そんな, 〜のだから). These point to わけがない rather than わけではない.",
+    "Distractors are usually わけではない, わけにはいかない and に違いない. If the meaning is \"impossible\", choose between わけがない and はずがない; if both appear, the more emotional, spoken sentence wants わけがない.",
+    "A double negative such as 知らないわけがない appears in 文法形式; read it as a strong positive."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-162-1",
+    "q-n2-g-162-2",
+    "q-n2-g-162-3",
+    "q-n2-g-162-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-162-5",
+    "q-n2-g-162-6",
+    "q-n2-g-162-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

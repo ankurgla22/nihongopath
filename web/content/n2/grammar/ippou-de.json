@@ -1,0 +1,145 @@
+{
+  "id": "n2-grammar-5",
+  "slug": "ippou-de",
+  "level": "n2",
+  "order": 5,
+  "title": "〜一方(で)",
+  "romaji": "ippou (de)",
+  "meaning": "on the other hand… / while… (two sides of the same thing)",
+  "simpleExplanation": "〜一方(で) shows two sides of one situation: \"X, while on the other hand Y\". Often the two sides are contrasting (convenient but expensive), but they can also simply be two things happening at the same time (working while raising children). It presents both facts side by side so the reader sees the whole picture.",
+  "whenUsed": "Mostly written and formal spoken (news, essays, presentations). Casual speech uses 〜けど or 〜が. Also used as a sentence starter: 一方、… (Meanwhile, …). Typical situations: comparing merits and demerits, describing two groups, or balanced arguments.",
+  "formation": [
+    "Verb / い-adjective (plain form) + 一方(で)",
+    "な-adjective + な / である + 一方(で)",
+    "Noun + である + 一方(で)",
+    "Sentence-initial: 一方、… (on the other hand, meanwhile)",
+    "Note: 〜一方だ (without で, after a verb of change) is a different pattern: \"keeps getting more and more\""
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "一方(で) vs 反面 vs 一方だ",
+    "columns": [
+      "Pattern",
+      "Meaning",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜一方(で)",
+        "cells": [
+          "on the other hand / while",
+          "two sides, contrasting OR parallel; neutral",
+          "都会は便利な一方で、生活費が高い"
+        ]
+      },
+      {
+        "label": "〜反面",
+        "cells": [
+          "on the flip side",
+          "always contrasting; a good side and a bad side of the SAME thing",
+          "都会は便利な反面、生活費が高い"
+        ]
+      },
+      {
+        "label": "〜一方だ",
+        "cells": [
+          "keeps getting more and more",
+          "one-directional change, often negative",
+          "物価は上がる一方だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "都会の生活は便利な一方で、生活費が高い。",
+      "reading": "とかいのせいかつはべんりないっぽうで、せいかつひがたかい。",
+      "en": "City life is convenient, but on the other hand living costs are high."
+    },
+    {
+      "ja": "彼女は会社で働く一方、家では三人の子どもを育てている。",
+      "reading": "かのじょはかいしゃではたらくいっぽう、いえではさんにんのこどもをそだてている。",
+      "en": "She works at a company while raising three children at home.",
+      "note": "Two parallel things, not a contrast."
+    },
+    {
+      "ja": "輸出が増える一方で、国内の消費は落ち込んでいる。",
+      "reading": "ゆしゅつがふえるいっぽうで、こくないのしょうひはおちこんでいる。",
+      "en": "While exports are increasing, domestic consumption is slumping."
+    },
+    {
+      "ja": "兄は明るく社交的である一方、弟は無口で内向的だ。",
+      "reading": "あにはあかるくしゃこうてきであるいっぽう、おとうとはむくちでないこうてきだ。",
+      "en": "The older brother is cheerful and sociable, whereas the younger is quiet and introverted."
+    },
+    {
+      "ja": "若者の車離れが進んでいる。一方、高齢者の運転事故は増えている。",
+      "reading": "わかもののくるまばなれがすすんでいる。いっぽう、こうれいしゃのうんてんじこはふえている。",
+      "en": "Young people are moving away from cars. Meanwhile, driving accidents among the elderly are rising.",
+      "note": "Sentence-initial 一方."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜反面",
+      "difference": "Only for contrasting good/bad sides of the same thing; cannot describe two parallel activities.",
+      "id": "n2-grammar-144"
+    },
+    {
+      "pattern": "〜一方だ",
+      "difference": "Completely different: \"keeps on (increasing/decreasing)\".",
+      "id": "n2-grammar-6"
+    },
+    {
+      "pattern": "〜に対して",
+      "difference": "Contrasts two different subjects (Aは〜のに対して、Bは〜).",
+      "id": "n2-grammar-121"
+    },
+    {
+      "pattern": "〜ながら(も)",
+      "difference": "\"Although\" with one subject doing two things simultaneously or contrary to expectation.",
+      "id": "n2-grammar-96"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "物価は上がる一方で。",
+      "right": "物価は上がる一方だ。",
+      "why": "\"Keeps rising\" is 一方だ. 一方で must be followed by a second clause."
+    },
+    {
+      "wrong": "この町は静か一方で、交通が不便だ。",
+      "right": "この町は静かな一方で、交通が不便だ。",
+      "why": "静か is a な-adjective and needs な before 一方."
+    },
+    {
+      "wrong": "彼は医者一方で、作家でもある。",
+      "right": "彼は医者である一方で、作家でもある。",
+      "why": "A noun needs である before 一方."
+    }
+  ],
+  "usageNotes": [
+    "The two clauses usually have different subjects or contrasting predicates, and the second often contains は for contrast.",
+    "一方で with で emphasizes the contrast slightly more; without で it is a touch more written.",
+    "Sentence-initial 一方、 is extremely common in news writing to switch to the other side of a story."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, distinguish 一方で (two sides) from 一方だ (one-way change): if the sentence ends right after the blank, it is 一方だ; if a second clause follows, 一方で.",
+    "Distractors: 反面, かわりに, ものの, につれて. If the second clause is a parallel activity rather than a drawback, 反面 is wrong and 一方で is right.",
+    "Check the attachment: な-adjective + な, noun + である before 一方."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-5-1",
+    "q-n2-g-5-2",
+    "q-n2-g-5-3",
+    "q-n2-g-5-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-5-5",
+    "q-n2-g-5-6",
+    "q-n2-g-5-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

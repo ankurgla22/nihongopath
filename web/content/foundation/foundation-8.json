@@ -1,0 +1,300 @@
+{
+  "id": "foundation-8",
+  "slug": "greetings-and-classroom-phrases",
+  "order": 8,
+  "kind": "greetings",
+  "title": "Greetings and classroom phrases",
+  "summary": "The 40 set phrases you will hear and use from day one: daily greetings, meeting people, home and meals, work, and everything you need to say in a Japanese class.",
+  "minutes": 20,
+  "sections": [
+    {
+      "heading": "Daily greetings",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "Morning to night",
+          "items": [
+            {
+              "ja": "おはようございます",
+              "reading": "ohayō gozaimasu",
+              "en": "Good morning (polite; おはよう among friends)"
+            },
+            {
+              "ja": "こんにちは",
+              "reading": "konnichiwa",
+              "en": "Hello / Good afternoon (は read wa)"
+            },
+            {
+              "ja": "こんばんは",
+              "reading": "konbanwa",
+              "en": "Good evening"
+            },
+            {
+              "ja": "おやすみなさい",
+              "reading": "oyasuminasai",
+              "en": "Good night (before sleeping / parting at night)"
+            },
+            {
+              "ja": "さようなら",
+              "reading": "sayōnara",
+              "en": "Goodbye (formal or long parting; friends say じゃあね / またね)"
+            },
+            {
+              "ja": "ありがとうございます",
+              "reading": "arigatō gozaimasu",
+              "en": "Thank you (ありがとうございました for a completed favour)"
+            },
+            {
+              "ja": "どういたしまして",
+              "reading": "dō itashimashite",
+              "en": "You're welcome"
+            },
+            {
+              "ja": "すみません",
+              "reading": "sumimasen",
+              "en": "Excuse me / Sorry / Thank you for the trouble"
+            },
+            {
+              "ja": "ごめんなさい",
+              "reading": "gomennasai",
+              "en": "I'm sorry (apology, personal)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Meeting people",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "First meetings and requests",
+          "items": [
+            {
+              "ja": "はじめまして",
+              "reading": "hajimemashite",
+              "en": "How do you do (first meeting)"
+            },
+            {
+              "ja": "どうぞよろしくおねがいします",
+              "reading": "dōzo yoroshiku onegaishimasu",
+              "en": "Please treat me kindly (ends a self-introduction)"
+            },
+            {
+              "ja": "おねがいします",
+              "reading": "onegaishimasu",
+              "en": "Please (requesting a service / handing something over)"
+            }
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Self-introduction",
+          "text": "はじめまして。［name］です。どうぞよろしくおねがいします。 is the complete first-meeting formula.",
+          "tone": "accent"
+        }
+      ]
+    },
+    {
+      "heading": "Home and meals",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "Set phrases with fixed replies",
+          "items": [
+            {
+              "ja": "いただきます",
+              "reading": "itadakimasu",
+              "en": "Said before eating"
+            },
+            {
+              "ja": "ごちそうさまでした",
+              "reading": "gochisōsama deshita",
+              "en": "Said after eating / thanks for the meal"
+            },
+            {
+              "ja": "いってきます",
+              "reading": "ittekimasu",
+              "en": "I'm off (said when leaving home)"
+            },
+            {
+              "ja": "いってらっしゃい",
+              "reading": "itterasshai",
+              "en": "Take care / see you (reply to いってきます)"
+            },
+            {
+              "ja": "ただいま",
+              "reading": "tadaima",
+              "en": "I'm home"
+            },
+            {
+              "ja": "おかえりなさい",
+              "reading": "okaerinasai",
+              "en": "Welcome home"
+            }
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Pairs",
+          "text": "いってきます ↔ いってらっしゃい and ただいま ↔ おかえりなさい always come as pairs.",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Wellbeing and work",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "How are you, and leaving politely",
+          "items": [
+            {
+              "ja": "おげんきですか",
+              "reading": "ogenki desu ka",
+              "en": "How are you?"
+            },
+            {
+              "ja": "はい、げんきです",
+              "reading": "hai, genki desu",
+              "en": "Yes, I'm fine"
+            },
+            {
+              "ja": "おつかれさまでした",
+              "reading": "otsukaresama deshita",
+              "en": "Thank you for your hard work (end of work / class)"
+            },
+            {
+              "ja": "しつれいします",
+              "reading": "shitsurei shimasu",
+              "en": "Excuse me (entering / leaving a room, ending a call)"
+            },
+            {
+              "ja": "おさきにしつれいします",
+              "reading": "osaki ni shitsurei shimasu",
+              "en": "Excuse me for leaving before you"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Classroom phrases",
+      "blocks": [
+        {
+          "kind": "words",
+          "title": "What you say and what the teacher says",
+          "items": [
+            {
+              "ja": "はい / いいえ",
+              "reading": "hai / iie",
+              "en": "Yes / No"
+            },
+            {
+              "ja": "わかりました",
+              "reading": "wakarimashita",
+              "en": "I understand / Understood"
+            },
+            {
+              "ja": "わかりません",
+              "reading": "wakarimasen",
+              "en": "I don't understand / I don't know"
+            },
+            {
+              "ja": "もういちどおねがいします",
+              "reading": "mō ichido onegaishimasu",
+              "en": "Once more, please"
+            },
+            {
+              "ja": "ゆっくりおねがいします",
+              "reading": "yukkuri onegaishimasu",
+              "en": "Slowly, please"
+            },
+            {
+              "ja": "〜はにほんごでなんですか",
+              "reading": "〜 wa nihongo de nan desu ka",
+              "en": "How do you say 〜 in Japanese?"
+            },
+            {
+              "ja": "〜はどういういみですか",
+              "reading": "〜 wa dō iu imi desu ka",
+              "en": "What does 〜 mean?"
+            },
+            {
+              "ja": "ちょっとまってください",
+              "reading": "chotto matte kudasai",
+              "en": "Please wait a moment"
+            },
+            {
+              "ja": "しつもんがあります",
+              "reading": "shitsumon ga arimasu",
+              "en": "I have a question"
+            },
+            {
+              "ja": "みてください",
+              "reading": "mite kudasai",
+              "en": "Please look"
+            },
+            {
+              "ja": "きいてください",
+              "reading": "kiite kudasai",
+              "en": "Please listen"
+            },
+            {
+              "ja": "よんでください",
+              "reading": "yonde kudasai",
+              "en": "Please read"
+            },
+            {
+              "ja": "かいてください",
+              "reading": "kaite kudasai",
+              "en": "Please write"
+            },
+            {
+              "ja": "いってください",
+              "reading": "itte kudasai",
+              "en": "Please say (it)"
+            },
+            {
+              "ja": "おぼえてください",
+              "reading": "oboete kudasai",
+              "en": "Please memorise"
+            },
+            {
+              "ja": "はじめましょう",
+              "reading": "hajimemashō",
+              "en": "Let's begin"
+            },
+            {
+              "ja": "おわりましょう",
+              "reading": "owarimashō",
+              "en": "Let's finish"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-403",
+    "q-kana-404",
+    "q-kana-405",
+    "q-kana-406",
+    "q-kana-407",
+    "q-kana-408",
+    "q-kana-409",
+    "q-kana-410",
+    "q-kana-411",
+    "q-kana-412",
+    "q-kana-413",
+    "q-kana-414",
+    "q-kana-415",
+    "q-kana-416",
+    "q-kana-417",
+    "q-kana-418",
+    "q-kana-419",
+    "q-kana-420",
+    "q-kana-421",
+    "q-kana-422"
+  ]
+}

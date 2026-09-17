@@ -1,0 +1,88 @@
+{
+  "id": "n2-listening-13",
+  "slug": "13-kaigi-no-jikan",
+  "level": "n2",
+  "order": 13,
+  "kind": "point",
+  "title": "会議の時間",
+  "setting": "会社で、男の人と女の人が話しています。会議は何時から始まりますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "明日の会議、十時からだよね。"
+    },
+    {
+      "speaker": "女",
+      "line": "あ、それが、田中部長が午前中出張になって、午後に変わったんです。"
+    },
+    {
+      "speaker": "男",
+      "line": "午後？何時？"
+    },
+    {
+      "speaker": "女",
+      "line": "最初は一時って聞いたんですけど、一時はほかの部の会議で会議室が使えなくて。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、二時？"
+    },
+    {
+      "speaker": "女",
+      "line": "二時半です。会議室が空くのが二時で、準備に三十分見ておきたいって。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかった。じゃあ、二時半に会議室だね。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。資料は二時までに配っておきます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "それが",
+      "reading": "それが",
+      "meaning": "well, actually (introducing a change)"
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip"
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon"
+    },
+    {
+      "word": "空く",
+      "reading": "あく",
+      "meaning": "to become free"
+    },
+    {
+      "word": "準備",
+      "reading": "じゅんび",
+      "meaning": "preparation"
+    },
+    {
+      "word": "〜を見ておく",
+      "reading": "〜をみておく",
+      "meaning": "to allow (time) for"
+    },
+    {
+      "word": "配る",
+      "reading": "くばる",
+      "meaning": "to hand out"
+    },
+    {
+      "word": "〜までに",
+      "reading": "までに",
+      "meaning": "by (deadline)"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-13-1"
+  ]
+}

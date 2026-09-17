@@ -1,0 +1,126 @@
+{
+  "id": "n2-grammar-165",
+  "slug": "wake-niwa-ikanai",
+  "level": "n2",
+  "order": 165,
+  "title": "〜わけにはいかない / 〜ないわけにはいかない",
+  "romaji": "wake niwa ikanai",
+  "meaning": "can't very well… (for social or moral reasons) / have no choice but to…",
+  "simpleExplanation": "〜わけにはいかない means \"I can't (do that)\", not because it is physically impossible, but because it would be wrong, rude, or against a duty or promise. With a negative verb, 〜ないわけにはいかない flips to \"I can't not do it\" = \"I have to do it\", again for social or moral reasons.",
+  "whenUsed": "Common in speech and writing. Typical situations: refusing something because of responsibility (\"I can't leave early, the boss is still here\"), or explaining why you must do something unpleasant (\"I can't not attend, it's my best friend's wedding\").",
+  "formation": [
+    "Verb (dictionary form) + わけにはいかない",
+    "Verb (ない form) + わけにはいかない  → must / cannot avoid",
+    "Polite: 〜わけにはいきません",
+    "Only verbs; adjectives and nouns do not take this pattern"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "帰る",
+        "en": "go home"
+      },
+      {
+        "ja": "帰るわけにはいかない",
+        "en": "I can't very well go home (it would be irresponsible)"
+      },
+      {
+        "ja": "帰らないわけにはいかない",
+        "en": "I can't not go home = I have to go home (duty)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "みんながまだ働いているのに、私だけ先に帰るわけにはいかない。",
+      "reading": "みんながまだはたらいているのに、わたしだけさきにかえるわけにはいかない。",
+      "en": "With everyone still working, I can't very well leave before them.",
+      "note": "Social pressure, not physical impossibility."
+    },
+    {
+      "ja": "約束したのだから、行かないわけにはいかない。",
+      "reading": "やくそくしたのだから、いかないわけにはいかない。",
+      "en": "I promised, so I have no choice but to go.",
+      "note": "ない + わけにはいかない = must."
+    },
+    {
+      "ja": "これは会社の秘密なので、お話しするわけにはいきません。",
+      "reading": "これはかいしゃのひみつなので、おはなしするわけにはいきません。",
+      "en": "This is company confidential, so I'm afraid I can't tell you.",
+      "note": "Polite refusal citing a rule."
+    },
+    {
+      "ja": "熱があっても、今日の試験を休むわけにはいかない。",
+      "reading": "ねつがあっても、きょうのしけんをやすむわけにはいかない。",
+      "en": "Even with a fever, I can't skip today's exam.",
+      "note": "Duty overrides physical condition."
+    },
+    {
+      "ja": "部長に誘われたら、断るわけにはいかないだろう。",
+      "reading": "ぶちょうにさそわれたら、ことわるわけにはいかないだろう。",
+      "en": "If the department head invites you, you can't really refuse.",
+      "note": "Hierarchy makes refusing impossible."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "Also \"have no choice but to\", but the pressure comes from circumstances rather than from duty or conscience. More formal.",
+      "id": "n2-grammar-52"
+    },
+    {
+      "pattern": "〜ないわけがない",
+      "difference": "Looks similar but means \"there's no way that (someone) doesn't…\". Totally different meaning: certainty, not obligation.",
+      "id": "n2-grammar-162"
+    },
+    {
+      "pattern": "〜ことができない",
+      "difference": "Plain inability (no skill, no time). わけにはいかない is about what one should not do."
+    },
+    {
+      "pattern": "〜てはいけない",
+      "difference": "A rule imposed on someone. わけにはいかない is the speaker's own judgment about what is acceptable."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "足をけがしたので、走るわけにはいかない。(meaning: physically can't run)",
+      "right": "足をけがしたので、走ることができない／走れない。",
+      "why": "わけにはいかない is for social or moral reasons. For physical inability use the potential form."
+    },
+    {
+      "wrong": "高いわけにはいかない。",
+      "right": "高い値段をつけるわけにはいかない。",
+      "why": "The pattern needs a verb. Adjectives and nouns cannot take わけにはいかない."
+    },
+    {
+      "wrong": "行かないわけにはいかない。(intending: I can't go)",
+      "right": "行くわけにはいかない。",
+      "why": "The negative verb reverses the meaning: 行かないわけにはいかない means \"I must go\"."
+    }
+  ],
+  "usageNotes": [
+    "The reason is usually stated first with 〜から / 〜ので / 〜のに / 〜以上, then the わけにはいかない clause.",
+    "For the \"must\" sense, ないわけにはいかない sounds more reluctant than なければならない: \"I'd rather not, but I really have to\".",
+    "It is often used to politely decline: 受け取るわけにはいきません (I couldn't possibly accept this)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, decide whether the sentence is about social pressure (わけにはいかない) or strong denial (わけがない). Words like 約束, 責任, 秘密, みんな, 〜のに, 〜以上 signal わけにはいかない.",
+    "Watch for the double negative: 〜ないわけにはいかない is often the correct answer when the sentence says the speaker must do something reluctantly.",
+    "In 並べ替え, the chunk わけには often appears separated from いかない. Assemble わけには + いかない first, then attach the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-165-1",
+    "q-n2-g-165-2",
+    "q-n2-g-165-3",
+    "q-n2-g-165-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-165-5",
+    "q-n2-g-165-6",
+    "q-n2-g-165-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

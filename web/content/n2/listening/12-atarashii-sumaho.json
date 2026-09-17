@@ -1,0 +1,89 @@
+{
+  "id": "n2-listening-12",
+  "slug": "12-atarashii-sumaho",
+  "level": "n2",
+  "order": 12,
+  "kind": "point",
+  "title": "新しいスマートフォン",
+  "setting": "電器店で、女の人と店員が話しています。女の人はどうしてこのスマートフォンを買うことにしましたか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "こちらの新しいモデル、いかがですか。カメラの性能がかなり上がっていますよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "カメラはあまり使わないんです。それより、電池はどのくらい持ちますか。今のは一日持たなくて。"
+    },
+    {
+      "speaker": "店員",
+      "line": "こちらは、普通にお使いいただければ二日は持ちます。"
+    },
+    {
+      "speaker": "女",
+      "line": "二日ですか。それはいいですね。値段は……ちょっと高いですね。"
+    },
+    {
+      "speaker": "店員",
+      "line": "今、古い機種をお持ちいただくと、一万円引きになるキャンペーンをやっています。"
+    },
+    {
+      "speaker": "女",
+      "line": "一万円引きでも、まだ高いなあ。……でも、毎日充電するのが本当に面倒だったから。うん、やっぱりこれにします。"
+    },
+    {
+      "speaker": "店員",
+      "line": "ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "電器店",
+      "reading": "でんきてん",
+      "meaning": "electronics store"
+    },
+    {
+      "word": "性能",
+      "reading": "せいのう",
+      "meaning": "performance"
+    },
+    {
+      "word": "電池",
+      "reading": "でんち",
+      "meaning": "battery"
+    },
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "to last"
+    },
+    {
+      "word": "機種",
+      "reading": "きしゅ",
+      "meaning": "model"
+    },
+    {
+      "word": "〜引き",
+      "reading": "〜びき",
+      "meaning": "discount of"
+    },
+    {
+      "word": "キャンペーン",
+      "reading": "キャンペーン",
+      "meaning": "promotion"
+    },
+    {
+      "word": "充電する",
+      "reading": "じゅうでんする",
+      "meaning": "to charge"
+    },
+    {
+      "word": "面倒",
+      "reading": "めんどう",
+      "meaning": "a hassle"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-12-1"
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "id": "foundation-1",
+  "slug": "hiragana-basic",
+  "order": 1,
+  "kind": "hiragana",
+  "title": "Hiragana: the basic 46",
+  "summary": "The first script to master. The 46 basic characters (gojūon), how the rows and columns work, stroke-order tips, the ten pairs learners mix up, and 20 words to read.",
+  "minutes": 30,
+  "sections": [
+    {
+      "heading": "What hiragana is for",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Hiragana is used for native Japanese words, grammatical endings (okurigana), particles, and furigana (reading aids over kanji). It is the first script to master.",
+            "Target: read every character in under one second and write all of them from memory within three to four days. Read the chart left to right (a, i, u, e, o); each row shares a consonant."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The 46 basic characters (五十音 gojūon)",
+      "blocks": [
+        {
+          "kind": "kana-chart",
+          "title": "Gojūon chart",
+          "rows": [
+            [
+              {
+                "kana": "あ",
+                "romaji": "a"
+              },
+              {
+                "kana": "い",
+                "romaji": "i"
+              },
+              {
+                "kana": "う",
+                "romaji": "u"
+              },
+              {
+                "kana": "え",
+                "romaji": "e"
+              },
+              {
+                "kana": "お",
+                "romaji": "o"
+              }
+            ],
+            [
+              {
+                "kana": "か",
+                "romaji": "ka"
+              },
+              {
+                "kana": "き",
+                "romaji": "ki"
+              },
+              {
+                "kana": "く",
+                "romaji": "ku"
+              },
+              {
+                "kana": "け",
+                "romaji": "ke"
+              },
+              {
+                "kana": "こ",
+                "romaji": "ko"
+              }
+            ],
+            [
+              {
+                "kana": "さ",
+                "romaji": "sa"
+              },
+              {
+                "kana": "し",
+                "romaji": "shi"
+              },
+              {
+                "kana": "す",
+                "romaji": "su"
+              },
+              {
+                "kana": "せ",
+                "romaji": "se"
+              },
+              {
+                "kana": "そ",
+                "romaji": "so"
+              }
+            ],
+            [
+              {
+                "kana": "た",
+                "romaji": "ta"
+              },
+              {
+                "kana": "ち",
+                "romaji": "chi"
+              },
+              {
+                "kana": "つ",
+                "romaji": "tsu"
+              },
+              {
+                "kana": "て",
+                "romaji": "te"
+              },
+              {
+                "kana": "と",
+                "romaji": "to"
+              }
+            ],
+            [
+              {
+                "kana": "な",
+                "romaji": "na"
+              },
+              {
+                "kana": "に",
+                "romaji": "ni"
+              },
+              {
+                "kana": "ぬ",
+                "romaji": "nu"
+              },
+              {
+                "kana": "ね",
+                "romaji": "ne"
+              },
+              {
+                "kana": "の",
+                "romaji": "no"
+              }
+            ],
+            [
+              {
+                "kana": "は",
+                "romaji": "ha"
+              },
+              {
+                "kana": "ひ",
+                "romaji": "hi"
+              },
+              {
+                "kana": "ふ",
+                "romaji": "fu"
+              },
+              {
+                "kana": "へ",
+                "romaji": "he"
+              },
+              {
+                "kana": "ほ",
+                "romaji": "ho"
+              }
+            ],
+            [
+              {
+                "kana": "ま",
+                "romaji": "ma"
+              },
+              {
+                "kana": "み",
+                "romaji": "mi"
+              },
+              {
+                "kana": "む",
+                "romaji": "mu"
+              },
+              {
+                "kana": "め",
+                "romaji": "me"
+              },
+              {
+                "kana": "も",
+                "romaji": "mo"
+              }
+            ],
+            [
+              {
+                "kana": "や",
+                "romaji": "ya"
+              },
+              null,
+              {
+                "kana": "ゆ",
+                "romaji": "yu"
+              },
+              null,
+              {
+                "kana": "よ",
+                "romaji": "yo"
+              }
+            ],
+            [
+              {
+                "kana": "ら",
+                "romaji": "ra"
+              },
+              {
+                "kana": "り",
+                "romaji": "ri"
+              },
+              {
+                "kana": "る",
+                "romaji": "ru"
+              },
+              {
+                "kana": "れ",
+                "romaji": "re"
+              },
+              {
+                "kana": "ろ",
+                "romaji": "ro"
+              }
+            ],
+            [
+              {
+                "kana": "わ",
+                "romaji": "wa"
+              },
+              null,
+              null,
+              null,
+              {
+                "kana": "を",
+                "romaji": "wo"
+              }
+            ],
+            [
+              {
+                "kana": "ん",
+                "romaji": "n"
+              },
+              null,
+              null,
+              null,
+              null
+            ]
+          ],
+          "rowLabels": [
+            "—",
+            "K",
+            "S",
+            "T",
+            "N",
+            "H",
+            "M",
+            "Y",
+            "R",
+            "W",
+            "N"
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Irregular romaji",
+          "text": "し = shi (not si), ち = chi (not ti), つ = tsu (not tu), ふ = fu (not hu), を = wo / o.",
+          "tone": "warn"
+        },
+        {
+          "kind": "callout",
+          "title": "Particle pronunciation rules",
+          "text": "は as the topic particle is pronounced wa (わたしは = watashi wa). へ as the direction particle is pronounced e (とうきょうへ = tōkyō e). を is only used as the object particle and is pronounced o.",
+          "tone": "accent"
+        }
+      ]
+    },
+    {
+      "heading": "Stroke-order tips",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "General rules that cover almost every character",
+          "items": [
+            "Top before bottom. Whatever is highest is written first (あ: the short horizontal stroke, then the vertical, then the loop).",
+            "Left before right. When strokes are side by side, write the left one first (い: left curve, then right dot; か: main hook first, then the short diagonal, then the right dot).",
+            "Horizontal before vertical when they cross (き: two horizontals, then the vertical curve, then the bottom stroke. さ: horizontal, then the vertical curve, then the bottom).",
+            "Enclosing or main frame first, then what sits inside or attached (ほ: left vertical first, then the two horizontals and the loop on the right. は: same idea).",
+            "Vertical-through-centre strokes last (ま: the horizontals first, then the vertical that passes through. も is the exception: the vertical hook is written first, then the two horizontals).",
+            "Loops are drawn in one continuous motion (あ, お, す, な, ぬ, ね, は, ほ, ま, む, よ, る). Never lift the pen inside a loop.",
+            "Dots and dakuten / handakuten marks are written last, after the main body, top-left to bottom-right.",
+            "Small kana (ゃ ゅ ょ っ) follow the same order as their full-size versions, just smaller and placed in the lower-right quadrant."
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Stroke counts",
+          "columns": [
+            "Strokes",
+            "Characters"
+          ],
+          "rows": [
+            [
+              "1",
+              "く, し, そ, つ, て, の, ひ, へ, る, ろ, ん"
+            ],
+            [
+              "2",
+              "い, う, え, こ, す, ち, と, ぬ, ね, み, め, ゆ, よ, ら, り, れ, わ"
+            ],
+            [
+              "3",
+              "あ, お, か, け, さ, せ, に, は, ま, む, も, や, を"
+            ],
+            [
+              "4",
+              "き, た, な, ふ, ほ"
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Printed vs handwritten",
+          "text": "Printed and handwritten forms of さ, き, ふ, り differ slightly: in handwriting the last strokes of さ and き are usually disconnected. Both are correct.",
+          "tone": "neutral"
+        }
+      ]
+    },
+    {
+      "heading": "Ten commonly confused pairs",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "How to tell them apart",
+          "columns": [
+            "Pair",
+            "How to tell them apart"
+          ],
+          "rows": [
+            [
+              "さ / き",
+              "き has TWO horizontal strokes on top; さ has ONE. Think: き (ki) = key with 2 teeth."
+            ],
+            [
+              "ぬ / め",
+              "ぬ (nu) ends with a small loop at the bottom-right: \"nu has a noodle knot\". め (me) has no loop."
+            ],
+            [
+              "わ / ね / れ",
+              "All start with a vertical stroke. わ (wa) ends in a wide open curve; ね (ne) ends with a loop (like a knot on a net); れ (re) ends by flicking outward to the right without a loop."
+            ],
+            [
+              "は / ほ",
+              "ほ (ho) has an extra horizontal line on top of the right side; は (ha) has one horizontal only."
+            ],
+            [
+              "る / ろ",
+              "る (ru) has a loop at the bottom; ろ (ro) does not: \"ru rolls up\"."
+            ],
+            [
+              "あ / お",
+              "お (o) has a separate dot at the top right; あ (a) does not. あ is more angular with a bigger loop."
+            ],
+            [
+              "い / り",
+              "い (i) has two short, separated, roughly equal strokes; り (ri) has a long right stroke sweeping down."
+            ],
+            [
+              "こ / に",
+              "に (ni) has a vertical stroke on the left; こ (ko) is just the two horizontals."
+            ],
+            [
+              "ち / ら",
+              "ち (chi) has a horizontal cross-bar and its curve opens to the left; ら (ra) starts with a short dot-like stroke and its curve opens to the right."
+            ],
+            [
+              "す / む",
+              "Both have a loop on a vertical stroke. す (su) has a single horizontal and a simple loop; む (mu) has a loop plus a small extra stroke on the right."
+            ]
+          ]
+        },
+        {
+          "kind": "callout",
+          "title": "Bonus confusions",
+          "text": "つ / っ (size), ゆ / よ, け / は, う / ら, そ / ぞ (dakuten easy to miss), ば / ぱ (dakuten vs handakuten: check whether it is two strokes or a circle).",
+          "tone": "info"
+        }
+      ]
+    },
+    {
+      "heading": "Practice words",
+      "blocks": [
+        {
+          "kind": "text",
+          "paragraphs": [
+            "Read aloud, cover the romaji, then cover the hiragana and write it from the meaning. Most of these words are normally written with kanji in real texts, but at this stage you read and write them in hiragana."
+          ]
+        },
+        {
+          "kind": "words",
+          "title": "20 words using the basic 46",
+          "items": [
+            {
+              "ja": "あさ",
+              "reading": "asa",
+              "en": "morning"
+            },
+            {
+              "ja": "いぬ",
+              "reading": "inu",
+              "en": "dog"
+            },
+            {
+              "ja": "ねこ",
+              "reading": "neko",
+              "en": "cat"
+            },
+            {
+              "ja": "うみ",
+              "reading": "umi",
+              "en": "sea"
+            },
+            {
+              "ja": "やま",
+              "reading": "yama",
+              "en": "mountain"
+            },
+            {
+              "ja": "かわ",
+              "reading": "kawa",
+              "en": "river"
+            },
+            {
+              "ja": "そら",
+              "reading": "sora",
+              "en": "sky"
+            },
+            {
+              "ja": "あめ",
+              "reading": "ame",
+              "en": "rain"
+            },
+            {
+              "ja": "ゆき",
+              "reading": "yuki",
+              "en": "snow"
+            },
+            {
+              "ja": "はな",
+              "reading": "hana",
+              "en": "flower; nose"
+            },
+            {
+              "ja": "き",
+              "reading": "ki",
+              "en": "tree"
+            },
+            {
+              "ja": "さかな",
+              "reading": "sakana",
+              "en": "fish"
+            },
+            {
+              "ja": "にく",
+              "reading": "niku",
+              "en": "meat"
+            },
+            {
+              "ja": "くるま",
+              "reading": "kuruma",
+              "en": "car"
+            },
+            {
+              "ja": "ひと",
+              "reading": "hito",
+              "en": "person"
+            },
+            {
+              "ja": "なまえ",
+              "reading": "namae",
+              "en": "name"
+            },
+            {
+              "ja": "ほん",
+              "reading": "hon",
+              "en": "book"
+            },
+            {
+              "ja": "つくえ",
+              "reading": "tsukue",
+              "en": "desk"
+            },
+            {
+              "ja": "いす",
+              "reading": "isu",
+              "en": "chair"
+            },
+            {
+              "ja": "へや",
+              "reading": "heya",
+              "en": "room"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "practiceQuestionIds": [
+    "q-kana-59",
+    "q-kana-36",
+    "q-kana-7",
+    "q-kana-18",
+    "q-kana-32",
+    "q-kana-65",
+    "q-kana-70",
+    "q-kana-41",
+    "q-kana-4",
+    "q-kana-43",
+    "q-kana-52",
+    "q-kana-81",
+    "q-kana-9",
+    "q-kana-25",
+    "q-kana-34",
+    "q-kana-20",
+    "q-kana-54",
+    "q-kana-67",
+    "q-kana-61",
+    "q-kana-56"
+  ]
+}

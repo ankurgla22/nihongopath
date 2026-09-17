@@ -1,0 +1,128 @@
+{
+  "id": "n2-grammar-159",
+  "slug": "monono",
+  "level": "n2",
+  "order": 159,
+  "title": "〜ものの",
+  "romaji": "monono",
+  "meaning": "although… / …but (the expected result didn't follow)",
+  "simpleExplanation": "〜ものの means \"although (X is true), (Y)\". The first part is admitted as a fact; the second part says that things did not go as you would expect from that fact. For example, \"I bought the book, but I haven't read it\" – buying normally leads to reading, and ものの flags that gap.",
+  "whenUsed": "Written and formal spoken Japanese (reports, essays, presentations). In casual speech けど / が are used instead. Typical situations: admitting you did something but not the follow-up, or admitting a good point while raising a problem (値段は安いものの、品質が悪い).",
+  "formation": [
+    "Verb (plain form) + ものの",
+    "い-adjective + ものの",
+    "な-adjective + な / である + ものの",
+    "Noun + である + ものの",
+    "Set phrase: とはいうものの (that being said…)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "新しい靴を買った",
+        "role": "fact admitted (X)"
+      },
+      {
+        "text": "ものの",
+        "role": "although / but",
+        "highlight": true
+      },
+      {
+        "text": "一度もはいていない",
+        "role": "expected result did not follow (Y)"
+      }
+    ],
+    "translation": "I bought new shoes, but I haven't worn them even once."
+  },
+  "examples": [
+    {
+      "ja": "新しい靴を買ったものの、一度もはいていない。",
+      "reading": "あたらしいくつをかったものの、いちどもはいていない。",
+      "en": "I bought new shoes, but I haven't worn them even once."
+    },
+    {
+      "ja": "大学は卒業したものの、仕事がなかなか見つからない。",
+      "reading": "だいがくはそつぎょうしたものの、しごとがなかなかみつからない。",
+      "en": "I graduated from university, but I just can't find a job."
+    },
+    {
+      "ja": "このアパートは駅に近いものの、家賃が高すぎる。",
+      "reading": "このアパートはえきにちかいものの、やちんがたかすぎる。",
+      "en": "This apartment is close to the station, but the rent is far too high.",
+      "note": "い-adjective + ものの."
+    },
+    {
+      "ja": "彼は有名であるものの、実力はそれほどでもない。",
+      "reading": "かれはゆうめいであるものの、じつりょくはそれほどでもない。",
+      "en": "He is famous, but his actual ability isn't all that great.",
+      "note": "な-adjective + である + ものの."
+    },
+    {
+      "ja": "とはいうものの、やはり少し不安だ。",
+      "reading": "とはいうものの、やはりすこしふあんだ。",
+      "en": "That being said, I'm still a little worried.",
+      "note": "Set phrase used to start a sentence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜が / 〜けれども",
+      "difference": "Neutral \"but\". ものの specifically says that the natural consequence did not follow."
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "\"In spite of\", stronger surprise or protest. ものの is calmer, an admission of a gap.",
+      "id": "n2-grammar-102"
+    },
+    {
+      "pattern": "〜ながら(も)",
+      "difference": "\"Although\", but usually the two parts describe the same subject at the same time (知っていながら).",
+      "id": "n2-grammar-96"
+    },
+    {
+      "pattern": "〜つつ(も)",
+      "difference": "Formal \"although\", mainly with verb stems: 知りつつも.",
+      "id": "n2-grammar-73"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は真面目ものの、成績が悪い。",
+      "right": "彼は真面目なものの、成績が悪い。",
+      "why": "真面目 is a な-adjective; it needs な (or である) before ものの, as before a noun."
+    },
+    {
+      "wrong": "雨が降ったものの、行きましょう。",
+      "right": "雨が降っていますが、行きましょう。",
+      "why": "The clause after ものの must be a statement of fact, not an invitation, command, or request."
+    },
+    {
+      "wrong": "値段は安いものの、買った。",
+      "right": "値段は安いので、買った。／値段は安いものの、買わなかった。",
+      "why": "ものの needs a result that goes against expectation. Cheap → bought is the expected result, so ものの is wrong."
+    }
+  ],
+  "usageNotes": [
+    "The second clause often contains なかなか〜ない, まだ〜ていない, or それほど〜ない, expressing an unfulfilled expectation.",
+    "ものの is somewhat formal; in speech you will hear 〜けど, 〜のに far more often.",
+    "とはいうものの starts a new sentence and means \"that said\"; it is a common expression in essays."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, ものの is the answer when clause 1 is a completed fact and clause 2 says the natural consequence hasn't happened (まだ / なかなか / 一度も).",
+    "Distractors: ものだ, ものなら, ものだから, ものか. Read the following clause: if it is a contrasting fact, choose ものの.",
+    "The verb before ものの is usually past or plain; the sentence never ends with a request or volitional form."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-159-1",
+    "q-n2-g-159-2",
+    "q-n2-g-159-3",
+    "q-n2-g-159-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-159-5",
+    "q-n2-g-159-6",
+    "q-n2-g-159-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

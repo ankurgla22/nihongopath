@@ -1,0 +1,35 @@
+{
+  "id": "n2-listening-21",
+  "slug": "21-sokuji-shorui",
+  "level": "n2",
+  "order": 21,
+  "kind": "quick-response",
+  "title": "即時応答 1",
+  "setting": "短い文を聞いて、それに対する最もよい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません、この書類、今日中に目を通していただけますか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "書類",
+      "reading": "しょるい",
+      "meaning": "documents"
+    },
+    {
+      "word": "目を通す",
+      "reading": "めをとおす",
+      "meaning": "to look over"
+    },
+    {
+      "word": "今日中に",
+      "reading": "きょうじゅうに",
+      "meaning": "by the end of today"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-21-1"
+  ]
+}

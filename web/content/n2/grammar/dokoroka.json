@@ -1,0 +1,137 @@
+{
+  "id": "n2-grammar-87",
+  "slug": "dokoroka",
+  "level": "n2",
+  "order": 87,
+  "title": "〜どころか",
+  "romaji": "dokoroka",
+  "meaning": "far from… / let alone… / not only not… but actually…",
+  "simpleExplanation": "〜どころか means \"far from (X), actually (Y)\". You mention what someone might expect (X) and then knock it down: the reality is completely different, often the opposite. It has two flavours: (1) \"far from X, it's the opposite\" (楽になるどころか、忙しくなった), and (2) \"not even the easy thing, let alone the hard one\" (漢字どころか、ひらがなも読めない).",
+  "whenUsed": "Spoken and written, fairly emphatic. Used when correcting expectations strongly, complaining, or being surprised. Because it is emphatic, it is not used in polite apologies or neutral reports.",
+  "formation": [
+    "Verb (plain form) + どころか",
+    "い-adjective + どころか",
+    "な-adjective (stem) + どころか  (or + な + どころか)",
+    "Noun + どころか",
+    "Second clause often contains 〜も〜ない (not even…) or the opposite of the first clause"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of どころか",
+    "columns": [
+      "Type",
+      "Structure",
+      "Example",
+      "English"
+    ],
+    "rows": [
+      {
+        "label": "Opposite result",
+        "cells": [
+          "X どころか、(opposite of X)",
+          "薬を飲んだら、よくなるどころか、悪くなった",
+          "Far from getting better after taking the medicine, I got worse."
+        ]
+      },
+      {
+        "label": "Not even the easy thing",
+        "cells": [
+          "(hard) どころか、(easy) も〜ない",
+          "漢字どころか、ひらがなも書けない",
+          "He can't even write hiragana, let alone kanji."
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "薬を飲んだら、よくなるどころか、かえって悪くなった。",
+      "reading": "くすりをのんだら、よくなるどころか、かえってわるくなった。",
+      "en": "Far from getting better after taking the medicine, I actually got worse.",
+      "note": "かえって (on the contrary) reinforces the reversal."
+    },
+    {
+      "ja": "彼は漢字どころか、ひらがなも読めない。",
+      "reading": "かれはかんじどころか、ひらがなもよめない。",
+      "en": "He can't even read hiragana, let alone kanji.",
+      "note": "Noun + どころか + easy thing + も + negative."
+    },
+    {
+      "ja": "今年の夏は涼しいどころか、記録的な暑さだった。",
+      "reading": "ことしのなつはすずしいどころか、きろくてきなあつさだった。",
+      "en": "This summer was far from cool; it was record-breaking heat."
+    },
+    {
+      "ja": "休みの日はゆっくりするどころか、家事で一日中動き回っている。",
+      "reading": "やすみのひはゆっくりするどころか、かじでいちにちじゅううごきまわっている。",
+      "en": "On my days off, far from relaxing, I'm running around doing housework all day."
+    },
+    {
+      "ja": "あの店は安いどころか、他の店の倍の値段だった。",
+      "reading": "あのみせはやすいどころか、ほかのみせのばいのねだんだった。",
+      "en": "That shop wasn't cheap at all; the prices were double other shops'."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜どころではない",
+      "difference": "\"This is no time/situation for X\" – the speaker is too busy or troubled. どころか compares two things.",
+      "id": "n2-grammar-88"
+    },
+    {
+      "pattern": "〜ばかりか",
+      "difference": "\"Not only X but also Y\", where X and Y point in the same direction. どころか reverses direction.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜はもちろん / 〜はもとより",
+      "difference": "\"Not to mention\" – both items are true. With どころか, the first item is denied.",
+      "id": "n2-grammar-143"
+    },
+    {
+      "pattern": "〜に限らず",
+      "difference": "\"Not limited to\" – neutral addition, no reversal.",
+      "id": "n2-grammar-18"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は英語どころか、フランス語も話せる。",
+      "right": "彼は英語ばかりか、フランス語も話せる。",
+      "why": "Both items are positive (he can speak both), so the pattern is ばかりか. どころか requires the first item to be denied or reversed."
+    },
+    {
+      "wrong": "忙しくて、旅行どころか。",
+      "right": "忙しくて、旅行どころではない。",
+      "why": "\"I'm too busy for a trip\" is どころではない. どころか must be followed by a second clause."
+    },
+    {
+      "wrong": "ひらがなどころか、漢字も読めない。",
+      "right": "漢字どころか、ひらがなも読めない。",
+      "why": "With \"let alone\", the harder thing comes first (漢字), then the easier thing with も + negative (ひらがなも)."
+    }
+  ],
+  "usageNotes": [
+    "The second clause frequently contains かえって, 逆に, or まったく to emphasize the reversal.",
+    "In the \"let alone\" use, the order is: bigger/harder thing + どころか + smaller/easier thing + も/さえ + negative.",
+    "どころか can also start a sentence as a rebuttal: それどころか (on the contrary…)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the second clause is the opposite of the first or a \"not even…\" statement, どころか is the answer. If the second clause simply adds another positive item, it is ばかりか.",
+    "Common distractors: どころではない, ばかりか, はもちろん, ものの. Check the direction of the two clauses.",
+    "In 並べ替え, どころか is usually the second chunk; find the clause that gets denied and place it before どころか."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-87-1",
+    "q-n2-g-87-2",
+    "q-n2-g-87-3",
+    "q-n2-g-87-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-87-5",
+    "q-n2-g-87-6",
+    "q-n2-g-87-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

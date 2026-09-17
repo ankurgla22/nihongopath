@@ -1,0 +1,4538 @@
+[
+  {
+    "id": "q-n2-g-164-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "彼のことが嫌い（　　）、ただ話す機会が少ないだけだ。",
+    "options": [
+      "なわけではなく",
+      "わけがなく",
+      "なわけにはいかず",
+      "なはずがなく"
+    ],
+    "answerIndex": 0,
+    "explanation": "The second half (ただ〜だけだ = \"it's just that…\") shows the speaker is correcting an impression, not denying flatly. 嫌い is a な-adjective, so 嫌いなわけではなく.",
+    "distractorExplanations": [
+      "わけがない means \"there's no way\" and does not fit with ただ〜だけだ; it also lacks な after 嫌い.",
+      "わけにはいかない means \"can't afford to\" and needs a verb, not an adjective.",
+      "はずがない is a logical \"cannot be\", which contradicts the mild correction in the second half."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "この本は難しい（　　）が、読むのに時間がかかる。",
+    "options": [
+      "わけではない",
+      "わけがない",
+      "わけにはいかない",
+      "わけだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"It's not that the book is difficult, but it takes time to read\": partial denial followed by a contrasting fact. い-adjective attaches directly.",
+    "distractorExplanations": [
+      "わけがない (\"no way it's difficult\") is too strong and clashes with the mild が clause.",
+      "わけにはいかない needs a verb and means \"cannot afford to\".",
+      "わけだ means \"so that's why\", the opposite of a denial."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "安ければ何でもいい（　　）。品質も大切だ。",
+    "options": [
+      "というわけではない",
+      "というわけがない",
+      "というわけにはいかない",
+      "というわけだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "The speaker denies the conclusion \"anything is fine if it's cheap\" and then adds a condition. というわけではない is the set phrase for \"it doesn't mean that…\".",
+    "distractorExplanations": [
+      "というわけがない is not a natural combination; わけがない takes a plain clause directly.",
+      "というわけにはいかない would mean \"can't just say cheap is fine\", which is unnatural here.",
+      "というわけだ means \"so that's why\", which contradicts 品質も大切だ."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "「先生、全部覚えなければいけませんか。」「いいえ、全部（　　）。」",
+    "options": [
+      "覚える必要があるわけではありません",
+      "覚えるわけがありません",
+      "覚えないわけにはいきません",
+      "覚えるはずがありません"
+    ],
+    "answerIndex": 0,
+    "explanation": "The teacher is saying \"not all of it\": partial negation of 全部覚える必要がある. わけではありません softens the answer.",
+    "distractorExplanations": [
+      "わけがありません would mean \"there's no way you will memorize it all\", which is not an answer to the question.",
+      "ないわけにはいきません means \"you must\", the opposite of いいえ.",
+      "はずがありません is a logical \"cannot be\", not a partial negation."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "彼の意見に反対している（　　）。ただ、もう少し検討する時間がほしいだけだ。",
+    "options": [
+      "わけではない",
+      "わけにはいかない",
+      "どころではない",
+      "に違いない"
+    ],
+    "answerIndex": 0,
+    "explanation": "ただ〜だけだ signals that the first clause is a partial denial. \"It's not that I oppose his opinion; I just want more time.\"",
+    "distractorExplanations": [
+      "わけにはいかない (\"I can't oppose it\") does not connect to the reason \"I just want more time\".",
+      "どころではない means \"this is no time for…\", which does not match.",
+      "に違いない (\"must be\") turns it into a confident guess, inconsistent with ただ〜だけだ."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "日本に住んでいるからといって、誰もが敬語を正しく使える（　　）。",
+    "options": [
+      "わけではない",
+      "わけにはいかない",
+      "わけだ",
+      "ものだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "からといって is almost always paired with a partial denial such as わけではない / とは限らない: \"Just because they live in Japan doesn't mean everyone can use keigo correctly.\"",
+    "distractorExplanations": [
+      "わけにはいかない would mean \"cannot afford to use keigo\", which makes no sense.",
+      "わけだ (\"so that's why they can\") contradicts からといって, which expects a denial.",
+      "ものだ (\"it is natural that\") also affirms, so it clashes with からといって."
+    ]
+  },
+  {
+    "id": "q-n2-g-164-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけではない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-164"
+      ]
+    },
+    "prompt": "彼は口数が少ないが、＿＿ ＿＿ ★ ＿＿ わけではない。",
+    "options": [
+      "いる",
+      "を",
+      "怒って",
+      "私"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 私 を 怒って いる わけではない → 「彼は口数が少ないが、私を怒っているわけではない。」(He doesn't talk much, but it's not that he is angry with me.) The ★ slot is 怒って.",
+    "distractorExplanations": [
+      "いる is the last chunk before わけではない, not the ★ slot.",
+      "を follows 私 in the second slot.",
+      "私 is the first chunk (object of 怒っている)."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "こんなに安いのに、品質がいい（　　）。",
+    "options": [
+      "わけがない",
+      "わけではない",
+      "わけにはいかない",
+      "わけだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"It's this cheap, so there's no way the quality is good.\" The reason clause こんなに安いのに sets up a strong denial. い-adjective attaches directly.",
+    "distractorExplanations": [
+      "わけではない would be a mild \"it's not that the quality is good\", too weak for this emotional statement.",
+      "わけにはいかない needs a verb and means \"cannot afford to\".",
+      "わけだ (\"so that's why it's good\") contradicts のに."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "毎日遊んでばかりいる彼が、試験に合格する（　　）。",
+    "options": [
+      "わけがない",
+      "わけではない",
+      "わけにはいかない",
+      "はずだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "He does nothing but play, so \"there's no way he'll pass\". わけがない expresses this confident, slightly emotional denial.",
+    "distractorExplanations": [
+      "わけではない (\"it's not that he'll pass\") is a soft correction, which doesn't match 遊んでばかり.",
+      "わけにはいかない means \"cannot afford to pass\", which is illogical.",
+      "はずだ (\"he should pass\") contradicts the reason given."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "そんな話が本当（　　）。",
+    "options": [
+      "なわけがない",
+      "のわけがない",
+      "わけがない",
+      "であるわけではない"
+    ],
+    "answerIndex": 0,
+    "explanation": "本当 is a な-adjective (本当な話), so 本当なわけがない. \"There's no way that story is true.\"",
+    "distractorExplanations": [
+      "のわけがない treats 本当 as a noun; the normal attachment is 本当な.",
+      "本当わけがない drops the required な.",
+      "であるわけではない is grammatical but means the milder \"it's not that it's true\", not \"no way\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "彼女はプロの通訳だ。この程度の英語がわからない（　　）。",
+    "options": [
+      "わけがない",
+      "わけではない",
+      "わけにはいかない",
+      "ことはない"
+    ],
+    "answerIndex": 0,
+    "explanation": "Double negative: わからないわけがない = \"there's no way she doesn't understand\" = she certainly understands. The reason is that she is a professional interpreter.",
+    "distractorExplanations": [
+      "わからないわけではない would mean \"it's not that she doesn't understand\", a weak hedge that clashes with プロ.",
+      "わからないわけにはいかない (\"she can't afford not to understand\") is possible in other contexts but does not follow from プロだ as an explanation.",
+      "わからないことはない means \"it's not impossible to understand\", too weak."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "あれだけ準備をしたのだから、失敗する（　　）。",
+    "options": [
+      "わけがない",
+      "わけではない",
+      "どころではない",
+      "に違いない"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜のだから gives the grounds, and the speaker concludes \"there's no way it will fail\". This is わけがない.",
+    "distractorExplanations": [
+      "わけではない would soften to \"it's not that it will fail\", which does not follow from あれだけ準備をした.",
+      "どころではない (\"this is no time for failing\") is unnatural here.",
+      "に違いない (\"it will surely fail\") contradicts the reason."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "「田中さん、この本の作者を知っている？」「知らない（　　）よ。彼の親友なんだから。」",
+    "options": [
+      "わけがない",
+      "わけではない",
+      "わけにはいかない",
+      "はずだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "知らないわけがない = \"there's no way he doesn't know\", justified by \"he's the author's best friend\".",
+    "distractorExplanations": [
+      "知らないわけではない (\"it's not that he doesn't know\") is a mild hedge, not the emphatic \"of course he knows\" that 親友なんだから requires.",
+      "知らないわけにはいかない means \"he can't afford not to know\", which is an obligation, not a fact.",
+      "知らないはずだ (\"he probably doesn't know\") contradicts the reason."
+    ]
+  },
+  {
+    "id": "q-n2-g-162-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけがない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-162"
+      ]
+    },
+    "prompt": "あんなに ＿＿ ＿＿ ★ ＿＿ わけがない。",
+    "options": [
+      "勉強した",
+      "彼が",
+      "不合格に",
+      "なる"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 勉強した 彼が 不合格に なる わけがない → 「あんなに勉強した彼が不合格になるわけがない。」(There's no way he, who studied that much, will fail.) The ★ slot is 不合格に.",
+    "distractorExplanations": [
+      "勉強した is the first chunk, modifying 彼.",
+      "彼が is the second chunk (the subject).",
+      "なる is the fourth chunk, directly before わけがない."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "先生に頼まれたのだから、断る（　　）。",
+    "options": [
+      "わけにはいかない",
+      "わけがない",
+      "わけではない",
+      "ことはない"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Since the teacher asked me, I can't very well refuse.\" Social obligation → わけにはいかない.",
+    "distractorExplanations": [
+      "わけがない would mean \"there's no way I'll refuse\", a prediction rather than an obligation.",
+      "わけではない (\"it's not that I'll refuse\") is a soft hedge that doesn't follow from のだから.",
+      "ことはない means \"there's no need to refuse\", which changes the meaning."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "明日は大事な会議があるので、休む（　　）。",
+    "options": [
+      "わけにはいきません",
+      "わけがありません",
+      "わけではありません",
+      "はずがありません"
+    ],
+    "answerIndex": 0,
+    "explanation": "An important meeting makes taking the day off unacceptable: 休むわけにはいきません.",
+    "distractorExplanations": [
+      "わけがありません (\"no way I'll take it off\") is a denial of likelihood, not a statement of duty.",
+      "わけではありません (\"it's not that I'll take it off\") is a partial negation and sounds unfinished.",
+      "はずがありません (\"it's impossible that I'll take it off\") is a logical judgment, not an obligation."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "親友の結婚式だから、出席し（　　）。",
+    "options": [
+      "ないわけにはいかない",
+      "ないわけがない",
+      "ないわけではない",
+      "ないことはない"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"It's my best friend's wedding, so I can't not attend\" = I must attend. 出席しないわけにはいかない.",
+    "distractorExplanations": [
+      "出席しないわけがない means \"there's no way I won't attend\", a prediction of certainty rather than a felt obligation; the sentence explains a duty, so わけにはいかない fits.",
+      "出席しないわけではない (\"it's not that I won't attend\") is a hedge, not a duty.",
+      "出席しないことはない (\"it's not that I won't attend\") is likewise a weak hedge."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "Which sentence correctly uses わけにはいかない?",
+    "options": [
+      "熱があるが、今日は試験なので休むわけにはいかない。",
+      "足を骨折して、歩くわけにはいかない。",
+      "この問題は難しいわけにはいかない。",
+      "彼が犯人なわけにはいかない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only the first sentence expresses a social/duty reason (an exam) for not being able to do something. That is the core meaning of わけにはいかない.",
+    "distractorExplanations": [
+      "A broken leg is a physical inability; use 歩けない, not わけにはいかない.",
+      "わけにはいかない cannot attach to an adjective.",
+      "わけにはいかない cannot attach to a noun; 犯人なわけがない would be the intended \"no way he's the culprit\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "みんなが賛成している以上、私一人が反対する（　　）。",
+    "options": [
+      "わけにはいかない",
+      "わけがない",
+      "わけだ",
+      "ものだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜以上 (\"now that everyone agrees\") sets up a social obligation: \"I can't very well be the only one to object\".",
+    "distractorExplanations": [
+      "わけがない (\"there's no way I'll object\") describes certainty, not the felt obligation that 以上 introduces.",
+      "わけだ (\"so that's why I object\") contradicts the meaning.",
+      "ものだ (\"one should object\") clashes with 私一人が and 以上."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "借りたお金は、たとえ少額でも返さ（　　）。",
+    "options": [
+      "ないわけにはいかない",
+      "ないわけがない",
+      "ないわけではない",
+      "ないどころではない"
+    ],
+    "answerIndex": 0,
+    "explanation": "Borrowed money must be returned: 返さないわけにはいかない = \"I can't not return it\". たとえ少額でも stresses the moral duty.",
+    "distractorExplanations": [
+      "返さないわけがない (\"there's no way I won't return it\") is about certainty, not moral duty.",
+      "返さないわけではない (\"it's not that I won't return it\") is too weak for たとえ〜でも.",
+      "返さないどころではない is not a natural expression here."
+    ]
+  },
+  {
+    "id": "q-n2-g-165-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜わけにはいかない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-165"
+      ]
+    },
+    "prompt": "社長の ＿＿ ★ ＿＿ ＿＿ いかない。",
+    "options": [
+      "命令である",
+      "以上",
+      "従わない",
+      "わけには"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 命令である 以上 従わない わけには いかない → 「社長の命令である以上、従わないわけにはいかない。」(Since it is the president's order, I have no choice but to obey.) The ★ slot is 以上.",
+    "distractorExplanations": [
+      "命令である is the first chunk after 社長の.",
+      "従わない is the third chunk, the verb before わけには.",
+      "わけには is the fourth chunk, directly before いかない."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "大雪で電車が止まったので、会社を休ま（　　）。",
+    "options": [
+      "ざるを得なかった",
+      "ずにはいられなかった",
+      "ないわけがなかった",
+      "ないことはなかった"
+    ],
+    "answerIndex": 0,
+    "explanation": "Heavy snow stopped the trains, so \"I had no choice but to take the day off\". Circumstances force the action → ざるを得ない.",
+    "distractorExplanations": [
+      "ずにはいられない is for an emotional urge, not a forced decision.",
+      "ないわけがない means \"there's no way that (I) wouldn't\", a certainty rather than compulsion.",
+      "ないことはない (\"it's not that I didn't\") is a weak hedge."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "予算が足りないので、計画を変更（　　）を得ない。",
+    "options": [
+      "せざる",
+      "しざる",
+      "するざる",
+      "しないざる"
+    ],
+    "answerIndex": 0,
+    "explanation": "する is irregular: the stem before ざる is せ, giving 変更せざるを得ない.",
+    "distractorExplanations": [
+      "しざる is the most common learner error; the correct stem is せ.",
+      "するざる attaches ざる to the dictionary form, which is wrong.",
+      "しないざる doubles the negative; ざる already replaces ない."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "証拠がこれだけそろっている以上、彼が犯人だと認め（　　）。",
+    "options": [
+      "ざるを得ない",
+      "ずにはいられない",
+      "るわけにはいかない",
+      "るわけがない"
+    ],
+    "answerIndex": 0,
+    "explanation": "With this much evidence, \"one has to admit\" he is the culprit. 認めざるを得ない is reluctant acceptance forced by facts.",
+    "distractorExplanations": [
+      "ずにはいられない (\"can't help admitting\") is about an emotional urge and sounds odd with evidence.",
+      "認めるわけにはいかない means \"cannot admit\", the opposite meaning.",
+      "認めるわけがない (\"there's no way to admit\") contradicts 以上."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "Which is the correct form for 来る?",
+    "options": [
+      "来ざるを得ない",
+      "来るざるを得ない",
+      "来ないざるを得ない",
+      "来らざるを得ない"
+    ],
+    "answerIndex": 0,
+    "explanation": "来る's ない-stem is 来（こ）, so 来ざるを得ない (こざるをえない).",
+    "distractorExplanations": [
+      "来るざる attaches to the dictionary form, which is incorrect.",
+      "来ないざる doubles the negative.",
+      "来らざる uses a non-existent stem for 来る."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "赤字が続いているため、工場の一部を閉鎖（　　）状況だ。",
+    "options": [
+      "せざるを得ない",
+      "しないわけにはいかない",
+      "するわけがない",
+      "しかねない"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continued losses force the closure: 閉鎖せざるを得ない状況 = \"a situation where we have no choice but to close\". Formal register matches ため and 状況.",
+    "distractorExplanations": [
+      "閉鎖しないわけにはいかない is grammatically possible but frames closure as a duty rather than a forced outcome; it also sounds clumsy before 状況.",
+      "閉鎖するわけがない (\"no way we'll close\") contradicts the reason.",
+      "閉鎖しかねない (\"might end up closing\") expresses a risk, not a forced decision."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "この結果を見ると、今回の政策は失敗だったと言わ（　　）。",
+    "options": [
+      "ざるを得ない",
+      "ずにはいられない",
+      "ないではいられない",
+      "ないわけがない"
+    ],
+    "answerIndex": 0,
+    "explanation": "言わざるを得ない is a set phrase for reluctant criticism: \"I'm afraid I have to say the policy was a failure\".",
+    "distractorExplanations": [
+      "言わずにはいられない (\"can't help saying\") would imply an emotional outburst rather than a considered judgment.",
+      "言わないではいられない is the same emotional pattern.",
+      "言わないわけがない (\"there's no way I wouldn't say\") is about certainty, not reluctant judgment."
+    ]
+  },
+  {
+    "id": "q-n2-g-52-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ざるを得ない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-52"
+      ]
+    },
+    "prompt": "台風が ＿＿ ＿＿ ★ ＿＿ 得なかった。",
+    "options": [
+      "ざるを",
+      "近づいて",
+      "延期せ",
+      "いるため"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 近づいて いるため 延期せ ざるを 得なかった → 「台風が近づいているため、延期せざるを得なかった。」(Because the typhoon was approaching, we had no choice but to postpone.) The ★ slot is 延期せ.",
+    "distractorExplanations": [
+      "ざるを is the fourth chunk, directly before 得なかった.",
+      "近づいて is the first chunk after 台風が.",
+      "いるため is the second chunk, completing the reason clause."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "部屋の電気が消えている。彼はもう寝た（　　）。",
+    "options": [
+      "に違いない",
+      "にほかならない",
+      "にすぎない",
+      "に限らない"
+    ],
+    "answerIndex": 0,
+    "explanation": "The clue (lights off) leads to a confident guess: \"he must have gone to bed\". に違いない.",
+    "distractorExplanations": [
+      "にほかならない (\"is nothing other than\") identifies a cause or identity, not a guess.",
+      "にすぎない (\"merely\") minimizes something, which doesn't fit.",
+      "に限らない (\"not limited to\") makes no sense here."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "こんなに高いのだから、品質は（　　）に違いない。",
+    "options": [
+      "確か",
+      "確かな",
+      "確かで",
+      "確かの"
+    ],
+    "answerIndex": 0,
+    "explanation": "確か is a な-adjective; before に違いない the stem is used: 確かに違いない.",
+    "distractorExplanations": [
+      "確かな is the noun-modifying form and cannot precede に違いない.",
+      "確かで is the て-form, not used here.",
+      "確かの is not a valid form for a な-adjective."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "この足跡の大きさから見て、犯人は男（　　）。",
+    "options": [
+      "に違いない",
+      "なわけではない",
+      "なものだ",
+      "に違う"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reasoning from a clue (the size of the footprints), the speaker concludes \"the culprit must be a man\". Noun + に違いない.",
+    "distractorExplanations": [
+      "なわけではない (\"it's not that he's a man\") is a partial denial.",
+      "なものだ (\"a man is that kind of thing\") is a general statement, not a guess.",
+      "に違う is not a grammatical pattern; the fixed form is に違いない."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "何度電話しても出ない。きっと忙しい（　　）。",
+    "options": [
+      "に違いない",
+      "に決まった",
+      "わけにはいかない",
+      "ことになっている"
+    ],
+    "answerIndex": 0,
+    "explanation": "きっと + に違いない: \"they must be busy\". The evidence is that they never answer the phone.",
+    "distractorExplanations": [
+      "に決まった is not the pattern; the fixed form is に決まっている.",
+      "わけにはいかない (\"can't afford to be busy\") needs a verb and doesn't fit.",
+      "ことになっている (\"it's been decided that\") is about rules or arrangements."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "彼女はさっきから何も言わずに窓の外を見ている。何か悩みがある（　　）。",
+    "options": [
+      "に違いない",
+      "にほかならない",
+      "にすぎない",
+      "というわけではない"
+    ],
+    "answerIndex": 0,
+    "explanation": "The observed behaviour leads to a subjective conclusion: \"she must have something on her mind\". に違いない.",
+    "distractorExplanations": [
+      "にほかならない would assert that her worry is \"nothing other than\" something, which requires a specified cause.",
+      "にすぎない (\"it's merely a worry\") minimizes and contradicts the concern shown.",
+      "というわけではない (\"it doesn't mean she has a worry\") contradicts the reasoning."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "この地方でこんなに大きな地震が起きたのは、初めて（　　）に違いない。",
+    "options": [
+      "のこと",
+      "こと",
+      "なこと",
+      "だ"
+    ],
+    "answerIndex": 0,
+    "explanation": "初めてのことに違いない: 初めて is used like a noun here, so it links with の to こと. \"This must be the first time such a large earthquake has hit this region.\"",
+    "distractorExplanations": [
+      "初めてこと lacks the connecting の.",
+      "初めてなこと treats 初めて as a な-adjective, which is not standard.",
+      "初めてだに違いない puts だ before に違いない, which is ungrammatical."
+    ]
+  },
+  {
+    "id": "q-n2-g-122-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に違いない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-122"
+      ]
+    },
+    "prompt": "あの人は ＿＿ ★ ＿＿ ＿＿ 違いない。",
+    "options": [
+      "に",
+      "この辺りに",
+      "住んでいる",
+      "詳しいから"
+    ],
+    "answerIndex": 3,
+    "explanation": "Full order: この辺りに 詳しいから 住んでいる に 違いない → 「あの人はこの辺りに詳しいから、（この辺りに）住んでいるに違いない。」(That person knows this area well, so they must live here.) The ★ slot is 詳しいから.",
+    "distractorExplanations": [
+      "に is the fourth chunk, directly before 違いない.",
+      "この辺りに is the first chunk after あの人は.",
+      "住んでいる is the third chunk, the verb before に違いない."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "この製品が売れているのは、品質がいいから（　　）。",
+    "options": [
+      "にほかならない",
+      "に違いない",
+      "にすぎない",
+      "に限らない"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜のは〜からにほかならない names the true cause: \"the reason it sells is precisely because the quality is good\".",
+    "distractorExplanations": [
+      "に違いない after から is unnatural; に違いない takes a plain clause and expresses a guess.",
+      "にすぎない (\"merely because\") minimizes the reason, which conflicts with the emphasis.",
+      "に限らない (\"not limited to\") does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "今回の失敗は、準備不足の結果（　　）。",
+    "options": [
+      "にほかならない",
+      "にすぎる",
+      "に限る",
+      "にかかわらない"
+    ],
+    "answerIndex": 0,
+    "explanation": "The failure is identified firmly as \"nothing other than the result of poor preparation\".",
+    "distractorExplanations": [
+      "にすぎる is not a pattern; the minimizing form is にすぎない.",
+      "に限る (\"nothing beats\") is a recommendation.",
+      "にかかわらない is not a valid pattern here."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "彼がここまで頑張れたのは、家族の支え（　　）。",
+    "options": [
+      "があったからにほかならない",
+      "があるにほかならない",
+      "がありにほかならない",
+      "があったにほかならない"
+    ],
+    "answerIndex": 0,
+    "explanation": "After a verb clause, から is needed: 支えがあったからにほかならない = \"precisely because he had his family's support\".",
+    "distractorExplanations": [
+      "があるにほかならない attaches a plain verb directly, which is not allowed.",
+      "がありにほかならない uses the ます-stem, which is wrong.",
+      "があったにほかならない lacks から."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "Which sentence uses にほかならない correctly?",
+    "options": [
+      "教育とは、人を育てることにほかならない。",
+      "彼はたぶん医者にほかならない。",
+      "これは小さなミスにほかならないから、気にしないで。",
+      "この辺りは静かにほかならない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only the first sentence defines the essence of something (\"education is nothing other than raising people\").",
+    "distractorExplanations": [
+      "たぶん indicates a guess, which requires に違いない.",
+      "A minimizing statement (\"just a small mistake\") needs にすぎない.",
+      "にほかならない does not attach to a な-adjective stem."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "国の発展を支えているのは、名もない人々の日々の労働（　　）。",
+    "options": [
+      "にほかならない",
+      "に違いない",
+      "にすぎない",
+      "というものではない"
+    ],
+    "answerIndex": 0,
+    "explanation": "The writer firmly identifies what supports the nation: \"nothing other than the daily labour of ordinary people\". Formal register fits にほかならない.",
+    "distractorExplanations": [
+      "に違いない would turn a firm statement into a guess; the sentence is an assertion of principle.",
+      "にすぎない would belittle the workers, the opposite of the intended praise.",
+      "というものではない denies, which contradicts the sentence."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "彼が厳しく指導するのは、選手たちに期待している（　　）にほかならない。",
+    "options": [
+      "から",
+      "こと",
+      "の",
+      "ため"
+    ],
+    "answerIndex": 0,
+    "explanation": "期待しているからにほかならない = \"precisely because he has expectations of the players\". A verb clause links with から.",
+    "distractorExplanations": [
+      "こと turns the clause into a noun but the meaning \"is nothing other than the fact of expecting\" is unnatural for a reason.",
+      "の cannot connect a verb clause to にほかならない.",
+      "ため is possible with nouns (〜のため), but 〜ているためにほかならない is far less natural than から and is not the standard exam answer."
+    ]
+  },
+  {
+    "id": "q-n2-g-130-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 5,
+    "skill": "grammar",
+    "topic": "〜にほかならない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-130"
+      ]
+    },
+    "prompt": "私たちが ＿＿ ★ ＿＿ ＿＿ にほかならない。",
+    "options": [
+      "生きているのは",
+      "今",
+      "多くの人に",
+      "支えられているから"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 今 生きているのは 多くの人に 支えられているから にほかならない → 「私たちが今生きているのは、多くの人に支えられているからにほかならない。」(That we are alive today is nothing other than because we are supported by many people.) The ★ slot is 生きているのは.",
+    "distractorExplanations": [
+      "今 is the first chunk, directly after 私たちが.",
+      "多くの人に is the third chunk.",
+      "支えられているから is the fourth chunk, directly before にほかならない."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "子どものころ、休みになるとよく祖母の家に行った（　　）。",
+    "options": [
+      "ものだ",
+      "ことだ",
+      "べきだ",
+      "わけだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "よく + た-form + ものだ expresses a nostalgic habit: \"I used to go to my grandmother's house every holiday\".",
+    "distractorExplanations": [
+      "ことだ gives advice and cannot follow a past-tense verb for reminiscing.",
+      "べきだ (\"should\") does not attach to the past form.",
+      "わけだ (\"so that's why\") presents a conclusion, not a memory."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "人の失敗を笑う（　　）。",
+    "options": [
+      "ものではない",
+      "ものだ",
+      "ものがある",
+      "ものなら"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"One shouldn't laugh at other people's failures\": ものではない is moral advice not to do something.",
+    "distractorExplanations": [
+      "ものだ would mean \"people naturally laugh at failures\", which is not the intended lesson.",
+      "ものがある (\"there is something…\") is a different pattern for a feeling.",
+      "ものなら (\"if one could\") needs a potential verb."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "時間がたつのは本当に早い（　　）。",
+    "options": [
+      "ものだ",
+      "ことだ",
+      "わけだ",
+      "ものの"
+    ],
+    "answerIndex": 0,
+    "explanation": "い-adjective + ものだ expresses heartfelt emotion: \"time really does fly\".",
+    "distractorExplanations": [
+      "ことだ does not attach to adjectives for emotion.",
+      "わけだ would mean \"so that's why it's fast\", a conclusion, not a feeling.",
+      "ものの (\"although\") leaves the sentence unfinished."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "Which sentence means \"You should thank people who help you\"?",
+    "options": [
+      "助けてもらったらお礼を言うものだ。",
+      "助けてもらったらお礼を言ったものだ。",
+      "助けてもらったらお礼を言うものの。",
+      "助けてもらったらお礼を言うものか。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Dictionary form + ものだ gives common-sense advice: \"one should say thank you when helped\".",
+    "distractorExplanations": [
+      "言ったものだ would mean \"I used to say thank you\", a nostalgic memory.",
+      "ものの means \"although\" and leaves the sentence incomplete.",
+      "ものか is a strong denial: \"as if I'd say thank you!\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "学生時代は、金がなくても毎晩のように仲間と飲み歩いた（　　）。",
+    "options": [
+      "ものだ",
+      "ものではない",
+      "ことだ",
+      "べきだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "学生時代 + 毎晩のように + た-form all point to nostalgic habit: \"we used to go drinking almost every night\".",
+    "distractorExplanations": [
+      "ものではない would be advice (\"one shouldn't\") and cannot follow the past form.",
+      "ことだ is direct advice, incompatible with a past-tense memory.",
+      "べきだ (\"should\") does not attach to the past form."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "どんなに親しい間柄でも、借りた物はきちんと返す（　　）。",
+    "options": [
+      "ものだ",
+      "ものか",
+      "ものの",
+      "ものがある"
+    ],
+    "answerIndex": 0,
+    "explanation": "A moral common-sense statement: \"no matter how close you are, borrowed things should be returned properly\". Dictionary form + ものだ.",
+    "distractorExplanations": [
+      "ものか is a rhetorical denial (\"as if I'd return it!\").",
+      "ものの (\"although\") leaves the sentence hanging.",
+      "ものがある (\"there is something…\") expresses a vague feeling, not advice."
+    ]
+  },
+  {
+    "id": "q-n2-g-156-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものだ",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-156"
+      ]
+    },
+    "prompt": "若いころは ＿＿ ＿＿ ★ ＿＿ ものだ。",
+    "options": [
+      "遊んだ",
+      "夜遅くまで",
+      "友達と",
+      "よく"
+    ],
+    "answerIndex": 3,
+    "explanation": "Full order: 夜遅くまで 友達と よく 遊んだ ものだ → 「若いころは夜遅くまで友達とよく遊んだものだ。」(When I was young I used to hang out with friends until late at night.) The ★ slot (third) is よく.",
+    "distractorExplanations": [
+      "遊んだ is the fourth chunk, directly before ものだ.",
+      "夜遅くまで is the first chunk after 若いころは.",
+      "友達と is the second chunk."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "日本語を三年勉強した（　　）、まだうまく話せない。",
+    "options": [
+      "ものの",
+      "ものだ",
+      "ものなら",
+      "ものだから"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"I studied Japanese for three years, but I still can't speak well.\" The expected result (speaking well) didn't follow → ものの.",
+    "distractorExplanations": [
+      "ものだ ends a sentence (\"that's the way it is\") and cannot connect two clauses like this.",
+      "ものなら means \"if one could\" and requires a potential verb.",
+      "ものだから gives a reason, but the second clause is a contrast, not a result."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "このカメラは高性能である（　　）、操作が複雑で使いにくい。",
+    "options": [
+      "ものの",
+      "ものか",
+      "もので",
+      "ものを"
+    ],
+    "answerIndex": 0,
+    "explanation": "High performance is admitted, but a drawback follows: である + ものの.",
+    "distractorExplanations": [
+      "ものか is a rhetorical denial (\"as if it were high-performance!\").",
+      "もので gives a reason and does not fit a contrasting drawback.",
+      "ものを expresses regret (\"if only…\") and is not used here."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "彼女はスペイン語が（　　）ものの、書くのは苦手だ。",
+    "options": [
+      "話せる",
+      "話せて",
+      "話せた方が",
+      "話せば"
+    ],
+    "answerIndex": 0,
+    "explanation": "ものの attaches to the plain form: 話せるものの. \"She can speak Spanish, but she's bad at writing it.\"",
+    "distractorExplanations": [
+      "話せて is the て-form and cannot precede ものの.",
+      "話せた方が (\"had better be able to\") makes no sense with ものの.",
+      "話せば is the conditional, which cannot precede ものの."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "Which is a natural sentence with ものの?",
+    "options": [
+      "会議には出席したものの、ほとんど発言しなかった。",
+      "会議には出席したものの、たくさん発言した。",
+      "会議には出席したものの、次も出席しましょう。",
+      "会議には出席したものの、みんなが喜んだ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Attending normally leads to speaking; ものの marks that the expected speaking did not happen.",
+    "distractorExplanations": [
+      "Speaking a lot is the expected result of attending, so there is no contrast.",
+      "The clause after ものの cannot be an invitation (〜ましょう).",
+      "\"Everyone was happy\" is not a failed expectation of the speaker's attendance."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "新しい制度が導入された（　　）、現場ではまだ十分に理解されていない。",
+    "options": [
+      "ものの",
+      "ものだから",
+      "ものなら",
+      "というものだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "The system was introduced, but understanding hasn't followed. Formal register + まだ〜ていない is a classic ものの sentence.",
+    "distractorExplanations": [
+      "ものだから gives a reason, which does not match the contrastive まだ〜ていない.",
+      "ものなら requires a potential/volitional form and means \"if one could\".",
+      "というものだ ends the sentence with an evaluation and cannot link clauses."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "とはいう（　　）、彼の意見にも一理ある。",
+    "options": [
+      "ものの",
+      "ものだ",
+      "ものか",
+      "ものを"
+    ],
+    "answerIndex": 0,
+    "explanation": "とはいうものの is a set phrase: \"That said, his opinion has a point too\".",
+    "distractorExplanations": [
+      "とはいうものだ is not a set phrase and ends the sentence.",
+      "とはいうものか is a rhetorical denial and unnatural.",
+      "とはいうものを is not an established expression."
+    ]
+  },
+  {
+    "id": "q-n2-g-159-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ものの",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-159"
+      ]
+    },
+    "prompt": "留学に ＿＿ ★ ＿＿ ＿＿ 話せなかった。",
+    "options": [
+      "行った",
+      "ものの",
+      "ほとんど",
+      "英語が"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 行った ものの 英語が ほとんど 話せなかった → 「留学に行ったものの、英語がほとんど話せなかった。」(I went to study abroad, but I could hardly speak English.) The ★ slot is ものの.",
+    "distractorExplanations": [
+      "行った is the first chunk after 留学に.",
+      "ほとんど is the fourth chunk, directly before 話せなかった.",
+      "英語が is the third chunk, the object of 話せなかった."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "この薬を飲んだら、治る（　　）、もっとひどくなった。",
+    "options": [
+      "どころか",
+      "ばかりか",
+      "ものの",
+      "どころではなく"
+    ],
+    "answerIndex": 0,
+    "explanation": "The expected result (getting better) is reversed: \"far from being cured, it got worse\". どころか.",
+    "distractorExplanations": [
+      "ばかりか adds a same-direction item (\"not only cured but…\"), which contradicts もっとひどくなった.",
+      "ものの (\"although it was cured\") would mean it actually was cured.",
+      "どころではなく means \"this is no situation for…\", which does not fit a comparison of results."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "彼女は肉（　　）、魚も食べない。",
+    "options": [
+      "どころか",
+      "ばかりか",
+      "はもちろん",
+      "に限らず"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"She doesn't even eat fish, let alone meat.\" Noun + どころか + easier item + も + negative.",
+    "distractorExplanations": [
+      "ばかりか is for positive addition (\"not only meat but also fish\"), which conflicts with 食べない in this comparison of what she avoids.",
+      "はもちろん (\"not to mention\") affirms both items and is not used to escalate a negative like this.",
+      "に限らず (\"not limited to\") is a neutral addition that does not carry the \"not even\" sense."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "新しいシステムのおかげで仕事が楽になる（　　）、前より時間がかかるようになった。",
+    "options": [
+      "どころか",
+      "ばかりか",
+      "ものだから",
+      "以上"
+    ],
+    "answerIndex": 0,
+    "explanation": "The expected benefit (easier work) was reversed: \"far from getting easier, it takes longer than before\".",
+    "distractorExplanations": [
+      "ばかりか would add a second good thing, contradicting the negative result.",
+      "ものだから gives a reason and does not express reversal.",
+      "以上 (\"now that\") does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "Which sentence uses どころか correctly?",
+    "options": [
+      "彼は日本語どころか、英語も話せない。",
+      "彼は日本語どころか、英語も話せる。",
+      "忙しくて食事どころか。",
+      "日本語どころか、彼は上手だ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"He can't even speak English, let alone Japanese\": harder item + どころか + easier item + も + negative.",
+    "distractorExplanations": [
+      "Both items positive requires ばかりか or はもちろん.",
+      "どころか must be followed by a clause; \"no time for meals\" is 食事どころではない.",
+      "The second clause must deny or reverse the first; this sentence is not coherent."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "彼は謝る（　　）、自分は悪くないと言い張っている。",
+    "options": [
+      "どころか",
+      "ばかりか",
+      "どころではなく",
+      "ものの"
+    ],
+    "answerIndex": 0,
+    "explanation": "Expected: an apology. Reality: he insists he did nothing wrong. どころか marks this reversal.",
+    "distractorExplanations": [
+      "ばかりか would mean \"not only apologized but also insisted\", contradictory.",
+      "どころではなく (\"this is no time for apologizing\") does not fit the reversal.",
+      "ものの would mean \"although he apologized\", i.e. he did apologize."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "今年は雨が少なくて、豊作（　　）、多くの農家が大きな被害を受けた。",
+    "options": [
+      "どころか",
+      "ばかりか",
+      "に限らず",
+      "というより"
+    ],
+    "answerIndex": 0,
+    "explanation": "The expected good harvest did not happen; instead there was damage. どころか.",
+    "distractorExplanations": [
+      "ばかりか adds a same-direction item, contradicting the damage.",
+      "に限らず (\"not limited to a good harvest\") makes no sense.",
+      "というより (\"rather than\") is used to correct wording, not to reverse an outcome."
+    ]
+  },
+  {
+    "id": "q-n2-g-87-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜どころか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-87"
+      ]
+    },
+    "prompt": "彼は ＿＿ ★ ＿＿ ＿＿ さえ話せない。",
+    "options": [
+      "簡単な",
+      "外国語",
+      "どころか",
+      "挨拶"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 外国語 どころか 簡単な 挨拶 さえ話せない → 「彼は外国語どころか、簡単な挨拶さえ話せない。」(He can't even say a simple greeting, let alone speak a foreign language.) The ★ slot is 簡単な.",
+    "distractorExplanations": [
+      "簡単な is the third chunk, modifying 挨拶; the order is 外国語 / どころか / 簡単な / 挨拶.",
+      "外国語 is the first chunk after 彼は.",
+      "挨拶 is the fourth chunk, directly before さえ."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "彼は仕事を手伝ってくれた（　　）、食事までごちそうしてくれた。",
+    "options": [
+      "ばかりか",
+      "どころか",
+      "ばかりに",
+      "ばかりで"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both actions are kind; the second is even greater (まで). \"Not only did he help with the work, he even treated me to a meal.\"",
+    "distractorExplanations": [
+      "どころか would deny that he helped, contradicting the sentence.",
+      "ばかりに means \"just because\" and expresses a regrettable cause.",
+      "ばかりで means \"only doing X\", which conflicts with the added item."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "このレストランは値段が高い（　　）、味もよくない。",
+    "options": [
+      "ばかりか",
+      "どころか",
+      "ものの",
+      "ばかりに"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two negative points in the same direction: expensive AND tastes bad. ばかりか.",
+    "distractorExplanations": [
+      "どころか would mean \"far from expensive\", i.e. it is not expensive.",
+      "ものの (\"although it's expensive\") expects a positive contrast, not another negative.",
+      "ばかりに (\"just because it's expensive\") gives a cause, not an addition."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "この町は静か（　　）ばかりか、自然も豊かだ。",
+    "options": [
+      "な",
+      "の",
+      "で",
+      "だ"
+    ],
+    "answerIndex": 0,
+    "explanation": "静か is a な-adjective: 静かなばかりか.",
+    "distractorExplanations": [
+      "静かの is not a valid form.",
+      "静かで is the て-form and cannot precede ばかりか.",
+      "静かだばかりか is ungrammatical; だ is not used before ばかりか."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "彼女は英語ばかりか、フランス語も話せる。",
+      "彼女は英語ばかりか、フランス語も話せない。",
+      "彼女は英語ばかりか、フランス語を教えてください。",
+      "彼女は英語ばかりか、話せない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both languages can be spoken; the second is added with も. This is correct ばかりか usage.",
+    "distractorExplanations": [
+      "Denying both requires どころか, not ばかりか.",
+      "The second clause cannot be a request.",
+      "The second clause must add an item; here nothing is added."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "彼は遅刻した（　　）、会議中に居眠りまでしていた。",
+    "options": [
+      "ばかりか",
+      "どころか",
+      "ばかりに",
+      "ものの"
+    ],
+    "answerIndex": 0,
+    "explanation": "Escalating bad behaviour: late AND even dozing off (まで). ばかりか.",
+    "distractorExplanations": [
+      "どころか would mean he was not late, which contradicts the sentence.",
+      "ばかりに (\"just because he was late\") gives a cause for a regrettable result, not an addition.",
+      "ものの (\"although he was late\") expects a positive contrast."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "その事故で、彼は財産を失った（　　）、家族の信頼まで失ってしまった。",
+    "options": [
+      "ばかりでなく",
+      "どころではなく",
+      "ばかりに",
+      "だけあって"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two losses, the second worse: \"not only his fortune but even his family's trust\". ばかりでなく.",
+    "distractorExplanations": [
+      "どころではなく (\"this is no time for\") does not fit an addition.",
+      "ばかりに means \"just because\", expressing a cause.",
+      "だけあって (\"as expected of\") is unrelated."
+    ]
+  },
+  {
+    "id": "q-n2-g-140-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜ばかりか",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-140"
+      ]
+    },
+    "prompt": "この本は ＿＿ ★ ＿＿ ＿＿ 役に立つ。",
+    "options": [
+      "ばかりか",
+      "面白い",
+      "勉強にも",
+      "とても"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 面白い ばかりか 勉強にも とても 役に立つ → 「この本は面白いばかりか、勉強にもとても役に立つ。」(This book is not only interesting but also very useful for study.) The ★ slot is ばかりか.",
+    "distractorExplanations": [
+      "面白い is the first chunk after この本は.",
+      "勉強にも is the third chunk.",
+      "とても is the fourth chunk, directly before 役に立つ."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "彼は目上の人（　　）、いつも礼儀正しい。",
+    "options": [
+      "に対して",
+      "にとって",
+      "について",
+      "によって"
+    ],
+    "answerIndex": 0,
+    "explanation": "礼儀正しい describes an attitude directed toward a target (superiors): に対して.",
+    "distractorExplanations": [
+      "にとって marks a viewpoint for an evaluation, not the target of an attitude.",
+      "について marks a topic of discussion.",
+      "によって marks a means or cause."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "お客様からの苦情（　　）、すぐに対応しなければならない。",
+    "options": [
+      "に対して",
+      "にとって",
+      "につれて",
+      "にかけて"
+    ],
+    "answerIndex": 0,
+    "explanation": "Responding (対応する) is an action directed at the complaints: に対して.",
+    "distractorExplanations": [
+      "にとって (\"for the complaints\") makes no sense with an action verb.",
+      "につれて means \"as… changes\".",
+      "にかけて marks a range of time or place."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "都会の生活が便利な（　　）、田舎の生活は不便な点が多い。",
+    "options": [
+      "のに対して",
+      "に対して",
+      "にとって",
+      "について"
+    ],
+    "answerIndex": 0,
+    "explanation": "Contrast between two situations: a clause needs のに対して. \"Whereas city life is convenient, rural life has many inconveniences.\"",
+    "distractorExplanations": [
+      "に対して directly after 便利な is ungrammatical; the clause needs の.",
+      "にとって marks a viewpoint, not a contrast.",
+      "について marks a topic."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "政府の新しい方針（　　）反対意見が相次いだ。",
+    "options": [
+      "に対する",
+      "に対して",
+      "にとっての",
+      "についての"
+    ],
+    "answerIndex": 0,
+    "explanation": "Before the noun 反対意見, the modifying form に対する is required: 方針に対する反対意見 = \"objections to the policy\".",
+    "distractorExplanations": [
+      "に対して cannot directly modify a noun.",
+      "にとっての would mean \"opinions from the policy's viewpoint\", which is illogical.",
+      "についての (\"about the policy\") is grammatical but the intended meaning of objections directed at the policy is expressed by に対する; on the exam, 反対 + 対象 takes に対する."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "彼は部下（　　）は厳しいが、自分には甘い。",
+    "options": [
+      "に対して",
+      "にとって",
+      "について",
+      "に限って"
+    ],
+    "answerIndex": 0,
+    "explanation": "Strictness directed toward subordinates: 部下に対しては厳しい. The contrast with 自分には confirms the target use.",
+    "distractorExplanations": [
+      "にとって would mean \"for subordinates (in their view)\", not the target of strictness.",
+      "について would mean \"about subordinates\".",
+      "に限って (\"only when it comes to\") changes the meaning and is unnatural here."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "先生の質問（　　）、学生は誰も答えられなかった。",
+    "options": [
+      "に対して",
+      "によって",
+      "にとって",
+      "にかけては"
+    ],
+    "answerIndex": 0,
+    "explanation": "Answering is directed at the question: 質問に対して答える.",
+    "distractorExplanations": [
+      "によって would make the question the cause or means, not the target.",
+      "にとって marks a viewpoint.",
+      "にかけては (\"when it comes to\") introduces a field of excellence."
+    ]
+  },
+  {
+    "id": "q-n2-g-121-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜に対して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-121"
+      ]
+    },
+    "prompt": "この会社は ＿＿ ★ ＿＿ ＿＿ 対して、非常に厳しい。",
+    "options": [
+      "に",
+      "の",
+      "社員",
+      "遅刻"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 社員 の 遅刻 に 対して → 「この会社は社員の遅刻に対して、非常に厳しい。」(This company is very strict about employees' lateness.) The ★ slot (second) is の.",
+    "distractorExplanations": [
+      "に is the fourth chunk, directly before 対して.",
+      "社員 is the first chunk after この会社は.",
+      "遅刻 is the third chunk."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "来週の会議では、新しい計画（　　）話し合う予定だ。",
+    "options": [
+      "について",
+      "に対して",
+      "にとって",
+      "によって"
+    ],
+    "answerIndex": 0,
+    "explanation": "The topic of discussion (話し合う) is marked with について.",
+    "distractorExplanations": [
+      "に対して marks the target of an action or attitude, not what you discuss.",
+      "にとって marks a viewpoint for an evaluation.",
+      "によって marks a means or cause."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "地震（　　）情報は、市のホームページで確認できます。",
+    "options": [
+      "に関する",
+      "に関して",
+      "について",
+      "に対して"
+    ],
+    "answerIndex": 0,
+    "explanation": "Before the noun 情報, the modifying form に関する is needed: 地震に関する情報 = \"information concerning earthquakes\".",
+    "distractorExplanations": [
+      "に関して cannot directly modify a noun.",
+      "について cannot directly modify a noun; it would need の (についての).",
+      "に対して does not modify nouns and marks a target, not a topic."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "その件（　　）は、担当者から改めてご説明いたします。",
+    "options": [
+      "に関して",
+      "に対して",
+      "にとって",
+      "にかけて"
+    ],
+    "answerIndex": 0,
+    "explanation": "Formal business language: \"Regarding that matter, the person in charge will explain again.\" に関しては.",
+    "distractorExplanations": [
+      "に対して marks the target of an attitude or reaction, not the matter being explained.",
+      "にとって marks a viewpoint.",
+      "にかけて marks a range of time or place."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "日本の歴史について本を書いた。",
+      "日本の歴史に対して本を書いた。",
+      "日本の歴史にとって本を書いた。",
+      "日本の歴史によって本を書いた。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Writing about a topic uses について: \"I wrote a book about Japanese history\".",
+    "distractorExplanations": [
+      "に対して (\"toward Japanese history\") treats history as the target of an action, which is odd for writing about it.",
+      "にとって (\"for Japanese history\") is a viewpoint marker and makes no sense here.",
+      "によって (\"by means of Japanese history\") marks a means or cause, not a topic."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "この製品の安全性（　　）、専門家の間で意見が分かれている。",
+    "options": [
+      "については",
+      "に対しては",
+      "にとっては",
+      "に限っては"
+    ],
+    "answerIndex": 0,
+    "explanation": "Opinions are divided about a topic (the product's safety): については.",
+    "distractorExplanations": [
+      "に対しては would treat safety as the target of an attitude; opinions \"about\" use について.",
+      "にとっては marks a viewpoint.",
+      "に限っては (\"only in the case of\") changes the meaning."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "個人情報の取り扱い（　　）ご質問は、下記の窓口までお願いします。",
+    "options": [
+      "に関する",
+      "に関して",
+      "に対する",
+      "にとっての"
+    ],
+    "answerIndex": 0,
+    "explanation": "Before ご質問, the modifying form に関する is standard in formal notices: 取り扱いに関するご質問.",
+    "distractorExplanations": [
+      "に関して cannot modify a noun directly.",
+      "に対する would mean \"questions directed at the handling\", which is illogical; questions are \"about\" the handling.",
+      "にとっての marks a viewpoint and makes no sense here."
+    ]
+  },
+  {
+    "id": "q-n2-g-123-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜について / 〜に関して",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-123"
+      ]
+    },
+    "prompt": "先生は ＿＿ ★ ＿＿ ＿＿ 話してくださった。",
+    "options": [
+      "の文化",
+      "について",
+      "日本",
+      "詳しく"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 日本 の文化 について 詳しく → 「先生は日本の文化について詳しく話してくださった。」(The teacher spoke to us in detail about Japanese culture.) The ★ slot (second) is の文化.",
+    "distractorExplanations": [
+      "について is the third chunk, after 日本の文化.",
+      "日本 is the first chunk after 先生は.",
+      "詳しく is the fourth chunk, directly before 話してくださった."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "この写真は私（　　）、何よりも大切な宝物だ。",
+    "options": [
+      "にとって",
+      "に対して",
+      "について",
+      "として"
+    ],
+    "answerIndex": 0,
+    "explanation": "The predicate 大切な宝物だ is an evaluation from the speaker's standpoint: 私にとって.",
+    "distractorExplanations": [
+      "に対して marks the target of an action or attitude, not a viewpoint.",
+      "について marks a topic of discussion.",
+      "として (\"as\") marks a role, and 私として大切 is unnatural."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "留学生（　　）、日本の敬語は覚えるのが大変だ。",
+    "options": [
+      "にとって",
+      "に対して",
+      "によって",
+      "につれて"
+    ],
+    "answerIndex": 0,
+    "explanation": "大変だ is a judgment from the students' point of view: 留学生にとって.",
+    "distractorExplanations": [
+      "に対して would make students the target of an attitude, which does not fit.",
+      "によって means \"depending on / by\".",
+      "につれて means \"as… changes\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "私にとって、この仕事はやりがいがある。",
+      "私にとって、この仕事を選んだ。",
+      "私にとって、上司に相談した。",
+      "私にとって、来年留学したい。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only the first sentence follows にとって with an evaluation (やりがいがある). The others use actions or wishes, which do not go with にとって.",
+    "distractorExplanations": [
+      "\"Chose the job\" is an action, not a judgment.",
+      "\"Consulted the boss\" is an action toward someone; use 上司に.",
+      "\"Want to study abroad\" is a wish; にとって needs an evaluation."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "彼女（　　）の幸せは、家族と過ごす時間だそうだ。",
+    "options": [
+      "にとって",
+      "にとっての",
+      "に対しての",
+      "としての"
+    ],
+    "answerIndex": 1,
+    "explanation": "Before the noun 幸せ, the modifying form にとっての is required: 彼女にとっての幸せ.",
+    "distractorExplanations": [
+      "にとって cannot directly modify a noun; の is needed.",
+      "に対しての (\"happiness directed toward her\") is illogical.",
+      "としての (\"happiness as her\") does not express a viewpoint."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "その決定は、会社（　　）は利益になっても、社員（　　）は負担が増えるだけだ。",
+    "options": [
+      "にとって／にとって",
+      "に対して／に対して",
+      "として／として",
+      "について／について"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two contrasting viewpoints: for the company (profit) vs. for employees (more burden). にとっては … にとっては.",
+    "distractorExplanations": [
+      "に対して marks targets, not standpoints for evaluation.",
+      "として marks roles and would mean \"as a company / as an employee\", which does not fit 利益になる and 負担が増える as evaluations here.",
+      "について marks topics."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "外国人（　　）住みやすい町づくりが求められている。",
+    "options": [
+      "にとって",
+      "に対して",
+      "にかけて",
+      "につれて"
+    ],
+    "answerIndex": 0,
+    "explanation": "住みやすい (easy to live in) is an evaluation from foreigners' standpoint: 外国人にとって住みやすい.",
+    "distractorExplanations": [
+      "に対して would mean \"toward foreigners\" and does not pair with 住みやすい.",
+      "にかけて marks a range.",
+      "につれて means \"as… changes\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-127-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にとって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-127"
+      ]
+    },
+    "prompt": "この経験は ＿＿ ＿＿ ★ ＿＿ ものになった。",
+    "options": [
+      "忘れられない",
+      "私",
+      "一生",
+      "にとって"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 私 にとって 一生 忘れられない ものになった → 「この経験は私にとって一生忘れられないものになった。」(This experience became something I will never forget as long as I live.) The ★ slot (third) is 一生.",
+    "distractorExplanations": [
+      "忘れられない is the fourth chunk, directly before ものになった.",
+      "私 is the first chunk after この経験は.",
+      "にとって is the second chunk, following 私."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "この絵は有名な画家（　　）描かれたものだ。",
+    "options": [
+      "によって",
+      "にとって",
+      "について",
+      "に対して"
+    ],
+    "answerIndex": 0,
+    "explanation": "Passive verb with a creator as the agent: 画家によって描かれた.",
+    "distractorExplanations": [
+      "にとって marks a viewpoint for evaluation.",
+      "について marks a topic.",
+      "に対して marks a target."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "同じ言葉でも、地方（　　）意味が違うことがある。",
+    "options": [
+      "によって",
+      "にとって",
+      "につれて",
+      "に対して"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Depending on the region, the meaning differs.\" Variation predicate (違う) → によって.",
+    "distractorExplanations": [
+      "にとって marks a viewpoint, not variation.",
+      "につれて means \"as X changes, Y changes\", but 地方 is not a change.",
+      "に対して marks a target or contrast."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "大雨（　　）被害は、県全体に広がっている。",
+    "options": [
+      "による",
+      "によって",
+      "につれて",
+      "に対して"
+    ],
+    "answerIndex": 0,
+    "explanation": "Before the noun 被害, the modifying form による is required: 大雨による被害.",
+    "distractorExplanations": [
+      "によって cannot directly modify a noun.",
+      "につれて cannot modify a noun and means \"as… changes\".",
+      "に対して does not modify nouns and marks a target."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "Which sentence uses によって correctly?",
+    "options": [
+      "この法律は国会によって決められた。",
+      "私は母によって起こされた。",
+      "彼は友達によってプレゼントをもらった。",
+      "電車によって会社へ行く。"
+    ],
+    "answerIndex": 0,
+    "explanation": "A decision by an institution (国会) is a typical によって agent.",
+    "distractorExplanations": [
+      "Everyday passive with a family member uses に: 母に起こされた.",
+      "Receiving a gift uses から/に, not によって.",
+      "Transport as a means uses で: 電車で."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "商品の価格は、需要と供給のバランス（　　）決まる。",
+    "options": [
+      "によって",
+      "にとって",
+      "につれて",
+      "にしたがって"
+    ],
+    "answerIndex": 0,
+    "explanation": "What determines the price: the balance of supply and demand. によって決まる.",
+    "distractorExplanations": [
+      "にとって marks a viewpoint.",
+      "につれて requires a gradual change in the first clause.",
+      "にしたがって (\"in accordance with\") is possible in other contexts but the natural collocation with 決まる is によって."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "天候（　　）は、明日の試合が中止になる可能性もある。",
+    "options": [
+      "によって",
+      "にとって",
+      "につけ",
+      "にかけて"
+    ],
+    "answerIndex": 0,
+    "explanation": "天候によっては = \"depending on the weather (in some cases)\" – possible cancellation.",
+    "distractorExplanations": [
+      "にとって marks a viewpoint.",
+      "につけ means \"every time\" and does not fit.",
+      "にかけて marks a range."
+    ]
+  },
+  {
+    "id": "q-n2-g-132-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜によって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-132"
+      ]
+    },
+    "prompt": "この橋は ＿＿ ★ ＿＿ ＿＿ 建設された。",
+    "options": [
+      "によって",
+      "最新の",
+      "技術",
+      "地元の人々の協力と"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 地元の人々の協力と 最新の 技術 によって 建設された → 「この橋は地元の人々の協力と最新の技術によって建設された。」(This bridge was built with the cooperation of local people and the latest technology.) The ★ slot (second) is 最新の.",
+    "distractorExplanations": [
+      "によって is the fourth chunk, directly before 建設された.",
+      "技術 is the third chunk, after 最新の.",
+      "地元の人々の協力と is the first chunk after この橋は."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "町が発展する（　　）、人口も増えてきた。",
+    "options": [
+      "につれて",
+      "によって",
+      "にとって",
+      "に対して"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two parallel changes: the town develops, and the population grows. につれて.",
+    "distractorExplanations": [
+      "によって would mark a cause but 発展するによって is ungrammatical.",
+      "にとって marks a viewpoint.",
+      "に対して marks a target or contrast."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "冬が近づく（　　）、日が短くなっていく。",
+    "options": [
+      "につれ",
+      "につき",
+      "にとって",
+      "につけ"
+    ],
+    "answerIndex": 0,
+    "explanation": "As winter approaches, the days get shorter: gradual parallel change. につれ (written form).",
+    "distractorExplanations": [
+      "につき means \"due to / per\" and does not link changes.",
+      "にとって marks a viewpoint.",
+      "につけ means \"every time\" and does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "Which sentence uses につれて correctly?",
+    "options": [
+      "年を取るにつれて、忘れっぽくなった。",
+      "年を取るにつれて、運動しましょう。",
+      "年を取るにつれて、家を買った。",
+      "年を取るにつれて、健康だ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ageing (gradual) is paired with a gradual change (becoming forgetful).",
+    "distractorExplanations": [
+      "The second clause cannot be an invitation.",
+      "Buying a house is a one-time event, not a gradual change.",
+      "健康だ is a static state; the second clause must express change."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "工業化が進む（　　）、川の水が汚れてきた。",
+    "options": [
+      "につれて",
+      "に沿って",
+      "に基づいて",
+      "にかけて"
+    ],
+    "answerIndex": 0,
+    "explanation": "As industrialization progressed, the rivers became polluted: parallel gradual change → につれて.",
+    "distractorExplanations": [
+      "に沿って means \"along / in line with\" and needs a noun.",
+      "に基づいて means \"based on\" and needs a noun.",
+      "にかけて marks a range of time or place."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "調査が進む（　　）、事件の全体像が明らかになってきた。",
+    "options": [
+      "につれて",
+      "につき",
+      "にわたって",
+      "にあたって"
+    ],
+    "answerIndex": 0,
+    "explanation": "As the investigation progressed, the full picture emerged: gradual parallel change.",
+    "distractorExplanations": [
+      "につき means \"due to\" or \"per\".",
+      "にわたって marks a span (\"over a period\") and needs a noun.",
+      "にあたって means \"on the occasion of\" and does not link two changes."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "子どもの（　　）につれて、親の悩みも変わっていく。",
+    "options": [
+      "成長",
+      "成長し",
+      "成長して",
+      "成長した"
+    ],
+    "answerIndex": 0,
+    "explanation": "After 子どもの, a noun of change is needed: 成長につれて (\"as the children grow\"). The dictionary form 成長するにつれて would also be possible after 子どもが, but not after の.",
+    "distractorExplanations": [
+      "The ます-stem 成長し cannot precede につれて.",
+      "The て-form cannot precede につれて.",
+      "The past form cannot precede につれて; the pattern needs ongoing change."
+    ]
+  },
+  {
+    "id": "q-n2-g-126-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜につれて",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-126"
+      ]
+    },
+    "prompt": "日本での ＿＿ ★ ＿＿ ＿＿ 慣れてきた。",
+    "options": [
+      "生活が",
+      "につれて",
+      "長くなる",
+      "日本の習慣にも"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 生活が 長くなる につれて 日本の習慣にも 慣れてきた → 「日本での生活が長くなるにつれて、日本の習慣にも慣れてきた。」(As my life in Japan has grown longer, I've gotten used to Japanese customs too.) The ★ slot (second) is 長くなる.",
+    "distractorExplanations": [
+      "生活が is the first chunk after 日本での.",
+      "につれて is the third chunk.",
+      "日本の習慣にも is the fourth chunk, directly before 慣れてきた."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "説明書（　　）、正しく組み立ててください。",
+    "options": [
+      "にしたがって",
+      "につれて",
+      "にとって",
+      "によって"
+    ],
+    "answerIndex": 0,
+    "explanation": "Following the manual (in accordance with): 説明書にしたがって.",
+    "distractorExplanations": [
+      "につれて cannot mean \"in accordance with\" and needs a verb of change.",
+      "にとって marks a viewpoint.",
+      "によって would mean \"by means of the manual\", less natural for following instructions."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "山を登る（　　）、気温がどんどん下がっていった。",
+    "options": [
+      "にしたがって",
+      "に基づいて",
+      "に沿って",
+      "に応じて"
+    ],
+    "answerIndex": 0,
+    "explanation": "As we climbed (gradual change), the temperature kept dropping: parallel change → にしたがって.",
+    "distractorExplanations": [
+      "に基づいて (\"based on\") requires a noun.",
+      "に沿って (\"along\") requires a noun.",
+      "に応じて (\"in response to\") requires a noun."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "会社の規則（　　）、休暇を申請した。",
+    "options": [
+      "にしたがって",
+      "につれて",
+      "に伴って",
+      "とともに"
+    ],
+    "answerIndex": 0,
+    "explanation": "Following the company rules → 規則にしたがって.",
+    "distractorExplanations": [
+      "につれて cannot take a noun like 規則 and only expresses change.",
+      "に伴って (\"accompanying\") does not mean \"in accordance with\".",
+      "とともに (\"together with\") does not fit rules."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "法律にしたがって行動すべきだ。",
+      "法律につれて行動すべきだ。",
+      "法律にとって行動すべきだ。",
+      "法律にかけて行動すべきだ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Acting in accordance with the law: 法律にしたがって.",
+    "distractorExplanations": [
+      "につれて cannot mean \"in accordance with\".",
+      "にとって marks a viewpoint.",
+      "にかけて marks a range."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "医療技術が進歩する（　　）、平均寿命は延び続けている。",
+    "options": [
+      "にしたがって",
+      "に基づいて",
+      "に応じて",
+      "にかけて"
+    ],
+    "answerIndex": 0,
+    "explanation": "Medical technology advances (gradual change) and life expectancy keeps rising: parallel change → にしたがって.",
+    "distractorExplanations": [
+      "に基づいて (\"based on\") needs a noun and does not express parallel change.",
+      "に応じて needs a noun.",
+      "にかけて marks a range of time or place."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "避難の際は、係員の（　　）にしたがって、落ち着いて行動してください。",
+    "options": [
+      "指示",
+      "指示する",
+      "指示して",
+      "指示した"
+    ],
+    "answerIndex": 0,
+    "explanation": "The \"in accordance with\" use takes a noun: 指示にしたがって.",
+    "distractorExplanations": [
+      "指示する is a verb of action, not gradual change, so the verb use does not apply.",
+      "The て-form cannot precede にしたがって.",
+      "The past form cannot precede にしたがって."
+    ]
+  },
+  {
+    "id": "q-n2-g-113-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜にしたがって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-113"
+      ]
+    },
+    "prompt": "この薬は ＿＿ ＿＿ ★ ＿＿ 飲んでください。",
+    "options": [
+      "したがって",
+      "に",
+      "医師の",
+      "指示"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 医師の 指示 に したがって 飲んでください → 「この薬は医師の指示にしたがって飲んでください。」(Please take this medicine according to the doctor's instructions.) The ★ slot (third) is に.",
+    "distractorExplanations": [
+      "したがって is the fourth chunk, directly before 飲んでください.",
+      "医師の is the first chunk after この薬は.",
+      "指示 is the second chunk."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "インターネットは便利な（　　）、危険も多い。",
+    "options": [
+      "一方で",
+      "一方だ",
+      "以上",
+      "あまり"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two sides of the internet: convenient, but also dangerous. 便利な一方で.",
+    "distractorExplanations": [
+      "一方だ means \"keeps increasing\" and cannot connect to a second clause.",
+      "以上 (\"now that\") does not present two sides.",
+      "あまり (\"so much that\") gives an excessive cause."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "この会社は海外に工場を作る（　　）、国内の工場を閉鎖している。",
+    "options": [
+      "一方で",
+      "につれて",
+      "ものの",
+      "以来"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two contrasting actions by the same company: building abroad while closing domestic factories. 一方で.",
+    "distractorExplanations": [
+      "につれて needs gradual change in both clauses.",
+      "ものの would mean \"although they build factories abroad\", implying an unexpected result, which does not fit two parallel policies.",
+      "以来 means \"since\" and does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "彼は厳しい教師である（　　）、生徒の相談には親身になって応じる。",
+    "options": [
+      "一方で",
+      "一方だ",
+      "反面で",
+      "反対に"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two sides of the same teacher: strict yet caring. である + 一方で.",
+    "distractorExplanations": [
+      "一方だ means \"keeps getting more and more\" and ends the sentence.",
+      "反面で is not a valid form; 反面 does not take で.",
+      "反対に (\"conversely\") is an adverb and does not attach to である like this."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "Which sentence is correct?",
+    "options": [
+      "物価は上がる一方だ。",
+      "物価は上がる一方で。",
+      "物価は上がる一方に。",
+      "物価は上がる一方が。"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Prices keep rising\" is 上がる一方だ (the one-way change pattern). This question checks that you do not confuse it with 一方で.",
+    "distractorExplanations": [
+      "一方で needs a following clause.",
+      "一方に is not a pattern.",
+      "一方が is not a pattern."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "多くの国が経済成長を続ける（　　）、貧富の差は広がり続けている。",
+    "options": [
+      "一方で",
+      "一方だ",
+      "反面に",
+      "どころか"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two sides of global development: growth continues, while the wealth gap widens. 一方で.",
+    "distractorExplanations": [
+      "一方だ ends the sentence and cannot precede a second clause.",
+      "反面に is not a valid form.",
+      "どころか would deny that growth continues, contradicting the sentence."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "父は仕事には厳しい。（　　）、家では冗談ばかり言っている。",
+    "options": [
+      "一方",
+      "一方だ",
+      "反面",
+      "つまり"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sentence-initial 一方 = \"on the other hand\": strict at work, joking at home.",
+    "distractorExplanations": [
+      "一方だ is a sentence-ending pattern, not a connector.",
+      "反面 is not used at the start of a sentence in this way; it attaches to the preceding clause.",
+      "つまり (\"in other words\") restates, but here the two facts contrast."
+    ]
+  },
+  {
+    "id": "q-n2-g-5-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜一方(で)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-5"
+      ]
+    },
+    "prompt": "この薬は ＿＿ ★ ＿＿ ＿＿ 副作用もある。",
+    "options": [
+      "効果が",
+      "一方で",
+      "高い",
+      "強い"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 効果が 高い 一方で 強い 副作用もある → 「この薬は効果が高い一方で、強い副作用もある。」(This medicine is very effective, but on the other hand it also has strong side effects.) The ★ slot (second) is 高い.",
+    "distractorExplanations": [
+      "効果が is the first chunk after この薬は.",
+      "一方で is the third chunk.",
+      "強い is the fourth chunk, modifying 副作用."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "この仕事はやりがいがある（　　）、責任も重い。",
+    "options": [
+      "反面",
+      "ばかりか",
+      "どころか",
+      "以上"
+    ],
+    "answerIndex": 0,
+    "explanation": "Merit (rewarding) and demerit (heavy responsibility) of the same job: 反面.",
+    "distractorExplanations": [
+      "ばかりか would treat both as the same kind of item (\"not only rewarding but also heavy\"), which does not fit a pro/con contrast.",
+      "どころか would deny that it is rewarding.",
+      "以上 (\"now that\") does not contrast two sides."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "彼は仕事が速い（　　）、ミスが多い。",
+    "options": [
+      "反面",
+      "おかげで",
+      "につれて",
+      "一方だ"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fast (good side) but error-prone (bad side): 反面.",
+    "distractorExplanations": [
+      "おかげで (\"thanks to\") gives a positive cause, which is illogical here.",
+      "につれて needs gradual change.",
+      "一方だ ends the sentence and means \"keeps getting more\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "スマートフォンは便利（　　）反面、依存しやすいという問題もある。",
+    "options": [
+      "な",
+      "の",
+      "で",
+      "だ"
+    ],
+    "answerIndex": 0,
+    "explanation": "便利 is a な-adjective: 便利な反面.",
+    "distractorExplanations": [
+      "便利の is not a valid form.",
+      "The て-form cannot precede 反面.",
+      "だ cannot precede 反面."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "Which sentence uses 反面 naturally?",
+    "options": [
+      "この車は速い反面、燃費が悪い。",
+      "この車は速い反面、デザインもいい。",
+      "この車は速い反面、買いましょう。",
+      "この車は速い反面、兄は遅い車が好きだ。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fast (merit) vs. poor fuel economy (demerit) of the same car: correct 反面.",
+    "distractorExplanations": [
+      "Two merits point the same way; use ばかりか or し.",
+      "The second clause cannot be an invitation.",
+      "The second clause switches to a different subject (兄), which is not two sides of one thing."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "田舎の暮らしは自然が豊かで静かである（　　）、買い物や通院には不便だ。",
+    "options": [
+      "反面",
+      "一方だ",
+      "からには",
+      "ものだから"
+    ],
+    "answerIndex": 0,
+    "explanation": "Merits (nature, quiet) and a demerit (inconvenience) of rural life: である + 反面.",
+    "distractorExplanations": [
+      "一方だ means \"keeps getting more\" and ends the sentence.",
+      "からには (\"now that\") introduces a determination, not a contrast.",
+      "ものだから gives a reason."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "この制度は利用者の負担を減らす（　　）、財政への影響が心配されている。",
+    "options": [
+      "反面",
+      "ばかりか",
+      "どころか",
+      "につき"
+    ],
+    "answerIndex": 0,
+    "explanation": "Benefit (less burden on users) and concern (financial impact): 反面.",
+    "distractorExplanations": [
+      "ばかりか would add another benefit, but 心配 is a drawback.",
+      "どころか would deny the benefit.",
+      "につき means \"due to\" and does not contrast."
+    ]
+  },
+  {
+    "id": "q-n2-g-144-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜反面",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-144"
+      ]
+    },
+    "prompt": "海外勤務は ＿＿ ＿＿ ★ ＿＿ 少なくない。",
+    "options": [
+      "家族と離れて暮らす",
+      "反面",
+      "つらさも",
+      "貴重な経験ができる"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 貴重な経験ができる 反面 家族と離れて暮らす つらさも 少なくない → 「海外勤務は貴重な経験ができる反面、家族と離れて暮らすつらさも少なくない。」(Working overseas gives valuable experience, but the pain of living apart from family is also considerable.) The ★ slot (third) is 家族と離れて暮らす.",
+    "distractorExplanations": [
+      "反面 is the second chunk, after 貴重な経験ができる.",
+      "つらさも is the fourth chunk, directly before 少なくない.",
+      "貴重な経験ができる is the first chunk after 海外勤務は."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "値段が高い（　　）、必ずしも品質がいいとは限らない。",
+    "options": [
+      "からといって",
+      "からには",
+      "からこそ",
+      "からして"
+    ],
+    "answerIndex": 0,
+    "explanation": "The reason (high price) is rejected as proof of quality: からといって + とは限らない.",
+    "distractorExplanations": [
+      "からには means \"now that\" and expects a determined positive ending.",
+      "からこそ affirms the reason as the key cause.",
+      "からして means \"judging from\" or \"even\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "眠い（　　）、授業中に寝てはいけない。",
+    "options": [
+      "からといって",
+      "からには",
+      "からこそ",
+      "から見て"
+    ],
+    "answerIndex": 0,
+    "explanation": "Being sleepy is no excuse for sleeping in class: からといって + てはいけない.",
+    "distractorExplanations": [
+      "からには (\"now that you're sleepy\") makes no sense.",
+      "からこそ (\"precisely because you're sleepy\") does not fit a prohibition of the natural result.",
+      "から見て (\"judging from\") does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "彼が親切（　　）からといって、信用しすぎるのはよくない。",
+    "options": [
+      "だ",
+      "な",
+      "の",
+      "で"
+    ],
+    "answerIndex": 0,
+    "explanation": "な-adjectives take だ before からといって: 親切だからといって.",
+    "distractorExplanations": [
+      "親切な is the noun-modifying form and cannot precede からといって.",
+      "親切の is not a valid form.",
+      "The て-form cannot precede からといって."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "日本人だからといって、誰でも敬語が得意なわけではない。",
+      "日本人だからといって、誰でも敬語が得意だ。",
+      "日本人だからといって、敬語を勉強しよう。",
+      "日本人だからといって、敬語が得意に違いない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The rejected conclusion (\"everyone is good at keigo\") is negated with わけではない.",
+    "distractorExplanations": [
+      "A positive ending contradicts からといって.",
+      "A volitional ending does not fit.",
+      "に違いない affirms the conclusion, the opposite of what からといって requires."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "一度失敗した（　　）、あきらめる必要はない。",
+    "options": [
+      "からといって",
+      "からには",
+      "以上",
+      "からこそ"
+    ],
+    "answerIndex": 0,
+    "explanation": "One failure is not a sufficient reason to give up: からといって + 必要はない.",
+    "distractorExplanations": [
+      "からには (\"now that you've failed\") would lead to a determined conclusion, which does not fit.",
+      "以上 is a synonym of からには and also does not fit.",
+      "からこそ affirms the reason, the opposite meaning."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "医者に言われた（　　）、自分で調べもせずに薬を飲み続けるのは危険だ。",
+    "options": [
+      "からといって",
+      "からには",
+      "からこそ",
+      "ものだから"
+    ],
+    "answerIndex": 0,
+    "explanation": "Being told by a doctor is not enough reason to keep taking medicine blindly: からといって.",
+    "distractorExplanations": [
+      "からには (\"now that the doctor said so\") would support continuing, contradicting 危険だ.",
+      "からこそ affirms the reason.",
+      "ものだから gives an excuse-like reason and would not precede a warning like this."
+    ]
+  },
+  {
+    "id": "q-n2-g-30-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からといって",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-30"
+      ]
+    },
+    "prompt": "外国に ＿＿ ★ ＿＿ ＿＿ わけではない。",
+    "options": [
+      "からといって",
+      "誰でも",
+      "住んでいた",
+      "外国語が話せる"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 住んでいた からといって 誰でも 外国語が話せる わけではない → 「外国に住んでいたからといって、誰でも外国語が話せるわけではない。」(Just because someone lived abroad doesn't mean everyone can speak a foreign language.) The ★ slot (second) is からといって.",
+    "distractorExplanations": [
+      "誰でも is the third chunk.",
+      "住んでいた is the first chunk after 外国に.",
+      "外国語が話せる is the fourth chunk, directly before わけではない."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "やる（　　）、最後まで責任を持ってやりなさい。",
+    "options": [
+      "からには",
+      "からといって",
+      "ものの",
+      "ところで"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Now that you're doing it, see it through responsibly\": a duty following a decision → からには.",
+    "distractorExplanations": [
+      "からといって (\"just because you're doing it\") would need a denial afterwards.",
+      "ものの (\"although\") does not fit a command.",
+      "ところで means \"even if\" and needs a past form."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "留学する（　　）、その国の文化もよく学びたい。",
+    "options": [
+      "からには",
+      "からといって",
+      "からこそ",
+      "からして"
+    ],
+    "answerIndex": 0,
+    "explanation": "A resolve (学びたい) that follows a decision (留学する): からには.",
+    "distractorExplanations": [
+      "からといって expects a negative conclusion.",
+      "からこそ (\"precisely because I'm studying abroad\") does not introduce a resolve in this way.",
+      "からして (\"judging from\") does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "社会人（　　）からには、自分の言葉に責任を持つべきだ。",
+    "options": [
+      "である",
+      "な",
+      "の",
+      "で"
+    ],
+    "answerIndex": 0,
+    "explanation": "A noun before からには takes である: 社会人であるからには.",
+    "distractorExplanations": [
+      "な cannot follow a noun.",
+      "の cannot connect a noun to からには.",
+      "The て-form で cannot precede からには."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "引き受けたからには、必ずやり遂げる。",
+      "引き受けたからには、やらないかもしれない。",
+      "引き受けたからには、得意なわけではない。",
+      "引き受けたからには、やめようかな。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Determination (必ずやり遂げる) follows the decision (引き受けた): correct からには.",
+    "distractorExplanations": [
+      "A weak possibility contradicts the determined tone of からには.",
+      "A partial denial belongs with からといって.",
+      "Hesitation (やめようかな) contradicts からには."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "日本で暮らす（　　）、日本の法律やルールを守るのは当然のことだ。",
+    "options": [
+      "からには",
+      "からといって",
+      "ものの",
+      "につれて"
+    ],
+    "answerIndex": 0,
+    "explanation": "Living in Japan brings the natural duty of obeying its rules: からには + 当然だ.",
+    "distractorExplanations": [
+      "からといって would need a rejecting ending, but 当然だ affirms.",
+      "ものの (\"although you live in Japan\") contradicts 当然.",
+      "につれて needs gradual change."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "一度引き受けた（　　）、途中で投げ出すわけにはいかない。",
+    "options": [
+      "からには",
+      "からといって",
+      "ばかりに",
+      "あまり"
+    ],
+    "answerIndex": 0,
+    "explanation": "Having accepted the task, one cannot quit halfway: からには + わけにはいかない.",
+    "distractorExplanations": [
+      "からといって would need a denial such as わけではない, not an obligation.",
+      "ばかりに (\"just because\") gives a cause for a regrettable result.",
+      "あまり (\"so much that\") expresses excess."
+    ]
+  },
+  {
+    "id": "q-n2-g-31-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜からには",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-31"
+      ]
+    },
+    "prompt": "この仕事を ＿＿ ＿＿ ★ ＿＿ つもりだ。",
+    "options": [
+      "引き受けた",
+      "全力で",
+      "からには",
+      "取り組む"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 引き受けた からには 全力で 取り組む つもりだ → 「この仕事を引き受けたからには、全力で取り組むつもりだ。」(Now that I've taken on this job, I intend to give it my all.) The ★ slot (third) is 全力で.",
+    "distractorExplanations": [
+      "引き受けた is the first chunk after この仕事を.",
+      "からには is the second chunk.",
+      "取り組む is the fourth chunk, directly before つもりだ."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "参加すると言った（　　）、途中で帰るわけにはいかない。",
+    "options": [
+      "以上",
+      "以来",
+      "上に",
+      "以前"
+    ],
+    "answerIndex": 0,
+    "explanation": "Having said you would take part, you can't leave halfway: 〜以上 + わけにはいかない.",
+    "distractorExplanations": [
+      "以来 means \"since (a time)\" and does not introduce a duty.",
+      "上に means \"in addition\".",
+      "以前 means \"before\" and does not attach like this."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "プロ（　　）以上、結果を出さなければならない。",
+    "options": [
+      "である",
+      "な",
+      "の",
+      "だった"
+    ],
+    "answerIndex": 0,
+    "explanation": "A noun before 以上 takes である: プロである以上.",
+    "distractorExplanations": [
+      "な cannot follow a noun.",
+      "プロの以上 is not valid.",
+      "だった is possible in some contexts but here the present state (being a pro) is meant, and だった以上 would change the meaning to \"having been a pro\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "約束した以上、必ず守るべきだ。",
+      "約束した以上、守れないかもしれない。",
+      "約束した以上、守るわけではない。",
+      "約束した以上、守らなくてもいい。"
+    ],
+    "answerIndex": 0,
+    "explanation": "A duty (守るべきだ) follows the settled fact (約束した): correct 以上.",
+    "distractorExplanations": [
+      "An uncertain ending contradicts 以上.",
+      "A partial denial belongs with からといって.",
+      "\"Don't have to\" contradicts the obligation implied by 以上."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "会社に勤めている（　　）、会社の規則に従うのは当然だ。",
+    "options": [
+      "以上",
+      "以来",
+      "以下",
+      "以外"
+    ],
+    "answerIndex": 0,
+    "explanation": "Being employed brings the natural duty of following the rules: 勤めている以上.",
+    "distractorExplanations": [
+      "以来 means \"since (a time)\".",
+      "以下 means \"or below\".",
+      "以外 means \"other than\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "責任者である（　　）、この問題から目をそらすことは許されない。",
+    "options": [
+      "以上",
+      "からといって",
+      "以来",
+      "以上に"
+    ],
+    "answerIndex": 0,
+    "explanation": "As the person in charge, one cannot look away: である以上.",
+    "distractorExplanations": [
+      "からといって would need a denial ending.",
+      "以来 marks a starting time.",
+      "以上に means \"more than\" and does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "一度公の場で発言した（　　）、その内容には責任を持たなければならない。",
+    "options": [
+      "以上は",
+      "以来は",
+      "上に",
+      "からといって"
+    ],
+    "answerIndex": 0,
+    "explanation": "Having spoken in public, one must take responsibility: 発言した以上は.",
+    "distractorExplanations": [
+      "以来は means \"ever since\", not a reason for a duty.",
+      "上に means \"in addition\".",
+      "からといって would need a denial ending."
+    ]
+  },
+  {
+    "id": "q-n2-g-3-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜以上(は)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-3"
+      ]
+    },
+    "prompt": "この会社の ＿＿ ★ ＿＿ ＿＿ ならない。",
+    "options": [
+      "以上",
+      "社員である",
+      "守らなければ",
+      "規則は"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 社員である 以上 規則は 守らなければ ならない → 「この会社の社員である以上、規則は守らなければならない。」(As long as you are an employee of this company, you must follow the rules.) The ★ slot (second) is 以上.",
+    "distractorExplanations": [
+      "社員である is the first chunk after この会社の.",
+      "守らなければ is the fourth chunk, directly before ならない.",
+      "規則は is the third chunk."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "明るい（　　）、買い物に行ってきます。",
+    "options": [
+      "うちに",
+      "ところに",
+      "最中に",
+      "あまり"
+    ],
+    "answerIndex": 0,
+    "explanation": "Go shopping while it's still light (before it gets dark): 明るいうちに.",
+    "distractorExplanations": [
+      "ところに marks a moment when something happens, not \"while a state lasts\".",
+      "最中に means \"in the middle of\" an activity.",
+      "あまり means \"so much that\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "忘れ（　　）うちに、宿題をやってしまおう。",
+    "options": [
+      "ない",
+      "る",
+      "た",
+      "て"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Before I forget\" = 忘れないうちに: the ない form + うちに.",
+    "distractorExplanations": [
+      "忘れるうちに (\"while forgetting\") does not make sense.",
+      "The past form does not precede うちに for \"before\".",
+      "The て-form cannot precede うちに."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "先生の話を聞いている（　　）、だんだん興味がわいてきた。",
+    "options": [
+      "うちに",
+      "前に",
+      "ところで",
+      "とたんに"
+    ],
+    "answerIndex": 0,
+    "explanation": "A gradual change (interest grew) during an activity (listening): ているうちに.",
+    "distractorExplanations": [
+      "前に (\"before listening\") contradicts the gradual change while listening.",
+      "ところで means \"even if\" with the past form and does not fit.",
+      "とたんに marks a sudden event, not だんだん."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "両親が（　　）うちに、親孝行をしておきたい。",
+    "options": [
+      "元気な",
+      "元気",
+      "元気の",
+      "元気で"
+    ],
+    "answerIndex": 0,
+    "explanation": "元気 is a な-adjective: 元気なうちに.",
+    "distractorExplanations": [
+      "元気うちに is missing な.",
+      "元気の is not a valid form.",
+      "The て-form cannot precede うちに."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "円が安い（　　）、海外旅行に行っておこう。",
+    "options": [
+      "うちに",
+      "間",
+      "最中に",
+      "以来"
+    ],
+    "answerIndex": 0,
+    "explanation": "Take the chance while the yen is weak (a state that will end): 安いうちに + ておこう.",
+    "distractorExplanations": [
+      "間 without に would need a continuous action; also it lacks the sense of a fleeting chance.",
+      "最中に needs an ongoing activity, not a state like 安い.",
+      "以来 means \"since\" and does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "話し合いを続けている（　　）、二人の距離は少しずつ縮まっていった。",
+    "options": [
+      "うちに",
+      "前に",
+      "以上",
+      "とたんに"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gradual change (distance shrank) during a continuing activity: ているうちに.",
+    "distractorExplanations": [
+      "前に (\"before continuing\") does not fit a gradual change during the talks.",
+      "以上 means \"now that\" and does not fit.",
+      "とたんに is for sudden events, not 少しずつ."
+    ]
+  },
+  {
+    "id": "q-n2-g-10-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜うちに",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-10"
+      ]
+    },
+    "prompt": "子どもが ＿＿ ＿＿ ★ ＿＿ 済ませておこう。",
+    "options": [
+      "うちに",
+      "寝ている",
+      "たまっていた",
+      "家事を"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 寝ている うちに たまっていた 家事を 済ませておこう → 「子どもが寝ているうちに、たまっていた家事を済ませておこう。」(While the kids are asleep, let me get the housework that has piled up done.) The ★ slot (third) is たまっていた.",
+    "distractorExplanations": [
+      "うちに is the second chunk, after 寝ている.",
+      "寝ている is the first chunk after 子どもが.",
+      "家事を is the fourth chunk, directly before 済ませておこう."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "窓を開けた（　　）、冷たい風が入ってきた。",
+    "options": [
+      "とたん",
+      "次第",
+      "うちに",
+      "最中に"
+    ],
+    "answerIndex": 0,
+    "explanation": "The moment the window was opened, cold wind came in: past, sudden → とたん.",
+    "distractorExplanations": [
+      "次第 is for plans (\"as soon as I open it, I will…\") and attaches to the ます-stem.",
+      "うちに (\"while\") does not express an instant.",
+      "最中に means \"in the middle of\"."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "家に（　　）とたん、電話が鳴った。",
+    "options": [
+      "着いた",
+      "着く",
+      "着いて",
+      "着き"
+    ],
+    "answerIndex": 0,
+    "explanation": "とたん attaches to the た-form: 着いたとたん.",
+    "distractorExplanations": [
+      "The dictionary form cannot precede とたん.",
+      "The て-form cannot precede とたん.",
+      "The ます-stem is for 次第, not とたん."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "彼の名前を聞いたとたん、彼女の顔色が変わった。",
+      "彼の名前を聞いたとたん、彼女に連絡しよう。",
+      "彼の名前を聞いたとたん、連絡してください。",
+      "彼の名前を聞くとたん、顔色が変わった。"
+    ],
+    "answerIndex": 0,
+    "explanation": "A past unexpected reaction (her face changed) after a completed action: correct とたん.",
+    "distractorExplanations": [
+      "The second clause cannot be a volitional plan.",
+      "The second clause cannot be a request.",
+      "とたん requires the た-form, not the dictionary form."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "駅に着き（　　）、すぐにご連絡します。",
+    "options": [
+      "次第",
+      "たとたん",
+      "たところ",
+      "たばかりで"
+    ],
+    "answerIndex": 0,
+    "explanation": "A plan (\"I will contact you as soon as I arrive\") uses 次第 with the ます-stem, not とたん. This question tests that you know とたん is only for past facts.",
+    "distractorExplanations": [
+      "たとたん cannot precede a future plan and does not attach to 着き.",
+      "たところ describes what was found upon doing something, in the past.",
+      "たばかりで means \"having just done\" and does not fit a plan."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "ステージに上がった（　　）、緊張で頭が真っ白になった。",
+    "options": [
+      "とたん",
+      "うちに",
+      "以上",
+      "反面"
+    ],
+    "answerIndex": 0,
+    "explanation": "The moment I went on stage, my mind went blank: sudden, involuntary → とたん.",
+    "distractorExplanations": [
+      "うちに (\"while\") does not express an instant reaction.",
+      "以上 (\"now that\") introduces a duty, not a sudden event.",
+      "反面 (\"on the flip side\") contrasts two sides."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "赤ちゃんは母親の姿が見えなくなった（　　）、大声で泣き始めた。",
+    "options": [
+      "とたんに",
+      "につれて",
+      "ばかりに",
+      "からには"
+    ],
+    "answerIndex": 0,
+    "explanation": "The moment the mother disappeared from view, the baby began crying: sudden → とたんに.",
+    "distractorExplanations": [
+      "につれて needs gradual change in both clauses.",
+      "ばかりに (\"just because\") gives a cause for a regret.",
+      "からには (\"now that\") introduces a resolve."
+    ]
+  },
+  {
+    "id": "q-n2-g-67-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜たとたん(に)",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-67"
+      ]
+    },
+    "prompt": "ふたを ＿＿ ★ ＿＿ ＿＿ 飛び散った。",
+    "options": [
+      "開けた",
+      "とたんに",
+      "中身が",
+      "勢いよく"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 開けた とたんに 中身が 勢いよく 飛び散った → 「ふたを開けたとたんに、中身が勢いよく飛び散った。」(The moment I opened the lid, the contents sprayed out.) The ★ slot (second) is とたんに.",
+    "distractorExplanations": [
+      "開けた is the first chunk after ふたを.",
+      "中身が is the third chunk.",
+      "勢いよく is the fourth chunk, directly before 飛び散った."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-1",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "申し訳ございませんが、ご希望には応じ（　　）。",
+    "options": [
+      "かねます",
+      "かねません",
+      "がたいです",
+      "にくいです"
+    ],
+    "answerIndex": 0,
+    "explanation": "A polite refusal: 応じかねます = \"I'm afraid we cannot comply\".",
+    "distractorExplanations": [
+      "応じかねません would mean \"we might well comply\", the opposite.",
+      "応じがたい is grammatical but expresses emotional difficulty, not a business refusal.",
+      "応じにくい means \"hard to comply\" practically; not the polite formula."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-2",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "そんなにスピードを出したら、事故を起こし（　　）。",
+    "options": [
+      "かねない",
+      "かねる",
+      "がたい",
+      "得ない"
+    ],
+    "answerIndex": 0,
+    "explanation": "A bad outcome that could easily happen: 起こしかねない.",
+    "distractorExplanations": [
+      "起こしかねる would mean \"can't cause an accident\", illogical here.",
+      "起こしがたい (\"hard to cause\") does not fit a warning.",
+      "得ない (\"cannot\") contradicts the warning."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-3",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "Which sentence is natural?",
+    "options": [
+      "この薬は副作用を引き起こしかねない。",
+      "この薬は病気を治しかねない。",
+      "この薬はよく効きかねない。",
+      "この薬は安全になりかねない。"
+    ],
+    "answerIndex": 0,
+    "explanation": "かねない is only for undesirable outcomes; \"could cause side effects\" is the only bad outcome.",
+    "distractorExplanations": [
+      "Curing is a good outcome; use かもしれない.",
+      "Working well is a good outcome.",
+      "Becoming safe is a good outcome."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-4",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "彼の提案には賛成し（　　）。もう少し検討が必要だ。",
+    "options": [
+      "かねる",
+      "かねない",
+      "得る",
+      "かける"
+    ],
+    "answerIndex": 0,
+    "explanation": "Polite reluctance to agree: 賛成しかねる = \"I find it hard to agree\".",
+    "distractorExplanations": [
+      "賛成しかねない (\"might well agree\") contradicts the demand for more study and is not a bad outcome.",
+      "得る (\"can\") does not express reluctance.",
+      "かける (\"start to\") does not fit."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-5",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "このまま放置すれば、問題はさらに深刻になり（　　）。",
+    "options": [
+      "かねない",
+      "かねる",
+      "得ない",
+      "がたい"
+    ],
+    "answerIndex": 0,
+    "explanation": "A worrying possibility under a condition: なりかねない.",
+    "distractorExplanations": [
+      "なりかねる (\"can't become\") contradicts the warning.",
+      "なり得ない (\"cannot become\") contradicts the warning.",
+      "なりがたい (\"hard to become\") contradicts the warning."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-6",
+    "type": "mc",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "お客様の個人情報については、お伝え（　　）。",
+    "options": [
+      "しかねます",
+      "できかねます",
+      "しかねません",
+      "するかねます"
+    ],
+    "answerIndex": 0,
+    "explanation": "Polite refusal with the ます-stem: お伝えしかねます.",
+    "distractorExplanations": [
+      "できかねます stacks the potential form with かねる; the standard form is しかねます.",
+      "しかねません would mean \"might well tell you\", the opposite.",
+      "するかねます uses the dictionary form, which is wrong."
+    ]
+  },
+  {
+    "id": "q-n2-g-24-7",
+    "type": "ordering",
+    "level": "n2",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "〜かねる / 〜かねない",
+    "tags": {
+      "grammarIds": [
+        "n2-grammar-24"
+      ]
+    },
+    "prompt": "無理な ＿＿ ★ ＿＿ ＿＿ かねない。",
+    "options": [
+      "ダイエットは",
+      "体を",
+      "壊し",
+      "かえって"
+    ],
+    "answerIndex": 3,
+    "explanation": "Full order: ダイエットは かえって 体を 壊し かねない → 「無理なダイエットはかえって体を壊しかねない。」(An extreme diet could actually end up ruining your health.) The ★ slot (second) is かえって.",
+    "distractorExplanations": [
+      "ダイエットは is the first chunk after 無理な.",
+      "体を is the third chunk.",
+      "壊し is the fourth chunk, directly before かねない."
+    ]
+  }
+]

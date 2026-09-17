@@ -1,0 +1,92 @@
+{
+  "id": "n2-listening-8",
+  "slug": "8-toshokan-no-hon",
+  "level": "n2",
+  "order": 8,
+  "kind": "task",
+  "title": "図書館の本",
+  "setting": "図書館で、男の人と図書館の職員が話しています。男の人はこのあとまず何をしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません、この本を借りたいんですが、貸し出し中って書いてあって。"
+    },
+    {
+      "speaker": "職員",
+      "line": "少々お待ちください。……はい、今、ほかの方が借りていますね。返却予定は来週の月曜日です。予約なさいますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "お願いします。"
+    },
+    {
+      "speaker": "職員",
+      "line": "では、こちらの用紙に利用者番号とお名前をお書きください。"
+    },
+    {
+      "speaker": "男",
+      "line": "あ、利用者カード、今日持ってきていないんです。番号、わからないんですけど……。"
+    },
+    {
+      "speaker": "職員",
+      "line": "そうですか。それでしたら、こちらのパソコンで、お名前と生年月日を入れると番号が調べられますよ。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。それをやってから、用紙に書けばいいですね。"
+    },
+    {
+      "speaker": "職員",
+      "line": "はい。本が返ってきたら、メールでお知らせします。メールアドレスも用紙にお願いします。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい、ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "貸し出し中",
+      "reading": "かしだしちゅう",
+      "meaning": "on loan"
+    },
+    {
+      "word": "返却",
+      "reading": "へんきゃく",
+      "meaning": "return (of a book)"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation, hold"
+    },
+    {
+      "word": "用紙",
+      "reading": "ようし",
+      "meaning": "form"
+    },
+    {
+      "word": "利用者番号",
+      "reading": "りようしゃばんごう",
+      "meaning": "user number"
+    },
+    {
+      "word": "生年月日",
+      "reading": "せいねんがっぴ",
+      "meaning": "date of birth"
+    },
+    {
+      "word": "調べる",
+      "reading": "しらべる",
+      "meaning": "to look up"
+    },
+    {
+      "word": "お知らせする",
+      "reading": "おしらせする",
+      "meaning": "to notify"
+    }
+  ],
+  "questionIds": [
+    "q-n2-l-8-1"
+  ]
+}

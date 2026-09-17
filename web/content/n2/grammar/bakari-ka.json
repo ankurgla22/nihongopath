@@ -1,0 +1,133 @@
+{
+  "id": "n2-grammar-140",
+  "slug": "bakari-ka",
+  "level": "n2",
+  "order": 140,
+  "title": "〜ばかりか / 〜ばかりでなく",
+  "romaji": "bakari ka",
+  "meaning": "not only… but also… (something even greater)",
+  "simpleExplanation": "〜ばかりか means \"not only X, but also Y\", where Y is more surprising or more serious than X. It piles up facts in the same direction: both good things, or both bad things. 〜ばかりでなく is the same idea in a slightly plainer, more neutral tone.",
+  "whenUsed": "ばかりか is mainly written or formal spoken; ばかりでなく is used in both speech and writing. だけでなく is the everyday equivalent. Typical situations: praising someone's many skills, describing an escalating problem, or listing effects of a change.",
+  "formation": [
+    "Verb (plain form) + ばかりか / ばかりでなく",
+    "い-adjective + ばかりか",
+    "な-adjective + な / である + ばかりか",
+    "Noun + ばかりか / ばかりでなく",
+    "Second clause: 〜も / 〜さえ / 〜まで + verb"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼は英語",
+        "role": "X (the smaller, expected thing)"
+      },
+      {
+        "text": "ばかりか",
+        "role": "not only X but…",
+        "highlight": true
+      },
+      {
+        "text": "中国語やロシア語も",
+        "role": "Y (more impressive) + も",
+        "highlight": true
+      },
+      {
+        "text": "話せる",
+        "role": "predicate shared by X and Y"
+      }
+    ],
+    "translation": "He can speak not only English but also Chinese and Russian."
+  },
+  "examples": [
+    {
+      "ja": "彼は英語ばかりか、中国語やロシア語も話せる。",
+      "reading": "かれはえいごばかりか、ちゅうごくごやロシアごもはなせる。",
+      "en": "He can speak not only English but also Chinese and Russian."
+    },
+    {
+      "ja": "この地域は交通が不便なばかりか、店も少ない。",
+      "reading": "このちいきはこうつうがふべんなばかりか、みせもすくない。",
+      "en": "Not only is transport inconvenient in this area, there are few shops too.",
+      "note": "な-adjective + な + ばかりか."
+    },
+    {
+      "ja": "彼は約束を守らなかったばかりか、謝りもしなかった。",
+      "reading": "かれはやくそくをまもらなかったばかりか、あやまりもしなかった。",
+      "en": "Not only did he break his promise, he didn't even apologize.",
+      "note": "Escalating bad behaviour."
+    },
+    {
+      "ja": "この薬は効果がないばかりでなく、副作用もある。",
+      "reading": "このくすりはこうかがないばかりでなく、ふくさようもある。",
+      "en": "This medicine is not only ineffective, it also has side effects."
+    },
+    {
+      "ja": "彼女は仕事ができるばかりでなく、人柄もいい。",
+      "reading": "かのじょはしごとができるばかりでなく、ひとがらもいい。",
+      "en": "She is not only good at her job but also has a lovely personality."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけでなく",
+      "difference": "Everyday equivalent, neutral. ばかりか sounds more written and emphasizes the surprising second item.",
+      "id": "n2-grammar-61"
+    },
+    {
+      "pattern": "〜のみならず",
+      "difference": "Formal, written \"not only\". Even stiffer than ばかりか.",
+      "id": "n2-grammar-137"
+    },
+    {
+      "pattern": "〜どころか",
+      "difference": "Reverses the first item (\"far from X\"). ばかりか keeps X true and adds Y.",
+      "id": "n2-grammar-87"
+    },
+    {
+      "pattern": "〜はもちろん / 〜はもとより",
+      "difference": "\"X goes without saying, and also Y\": X is obvious, Y is added.",
+      "id": "n2-grammar-143"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は英語ばかりか、日本語は話せない。",
+      "right": "彼は英語ばかりか、日本語も話せる。／彼は英語どころか、日本語も話せない。",
+      "why": "ばかりか needs both clauses pointing the same way. To deny both, use どころか."
+    },
+    {
+      "wrong": "親切ばかりか、頭もいい。",
+      "right": "親切なばかりか、頭もいい。",
+      "why": "親切 is a な-adjective and needs な before ばかりか."
+    },
+    {
+      "wrong": "彼は歌がうまいばかりか、踊ってください。",
+      "right": "彼は歌がうまいばかりか、ダンスも上手だ。",
+      "why": "The second clause must be a statement, not a request or command."
+    }
+  ],
+  "usageNotes": [
+    "The second clause almost always has も, さえ, or まで to mark the added item.",
+    "ばかりか is often used for negative escalation (broke a promise + didn't apologize); ばかりでなく is more neutral.",
+    "In casual speech, だけじゃなくて replaces both."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the second clause adds a bigger item of the same kind (〜も / 〜まで), choose ばかりか. If it reverses the first, choose どころか.",
+    "Distractors: どころか, ばかりに, ばかりだ, ばかりで. Only ばかりか / ばかりでなく mean \"not only\".",
+    "In 並べ替え, place X + ばかりか first and the も-phrase after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n2-g-140-1",
+    "q-n2-g-140-2",
+    "q-n2-g-140-3",
+    "q-n2-g-140-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n2-g-140-5",
+    "q-n2-g-140-6",
+    "q-n2-g-140-7"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}
