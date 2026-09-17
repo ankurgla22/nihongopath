@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-21",
+  "slug": "21-doshite-yasumimashita",
+  "level": "n5",
+  "order": 21,
+  "kind": "point",
+  "title": "どうして休みましたか",
+  "setting": "学校で、先生と学生が話しています。学生は昨日、どうして学校を休みましたか。",
+  "script": [
+    {
+      "speaker": "先生",
+      "line": "昨日はどうして休みましたか。病気でしたか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "いいえ、元気でした。国から母が来ましたから、空港へ行きました。"
+    },
+    {
+      "speaker": "先生",
+      "line": "そうですか。お母さんは今、日本にいますか。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい。来週まで日本にいます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning": "to be absent, to rest"
+    },
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meaning": "illness"
+    },
+    {
+      "word": "元気",
+      "reading": "げんき",
+      "meaning": "healthy, fine"
+    },
+    {
+      "word": "国",
+      "reading": "くに",
+      "meaning": "home country"
+    },
+    {
+      "word": "空港",
+      "reading": "くうこう",
+      "meaning": "airport"
+    },
+    {
+      "word": "〜から",
+      "reading": "から",
+      "meaning": "because"
+    },
+    {
+      "word": "来週まで",
+      "reading": "らいしゅうまで",
+      "meaning": "until next week"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-21-1"
+  ]
+}

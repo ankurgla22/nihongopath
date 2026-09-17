@@ -1,0 +1,80 @@
+{
+  "id": "n4-listening-23",
+  "slug": "23-isha-no-chui",
+  "level": "n4",
+  "order": 23,
+  "kind": "point",
+  "title": "医者の注意",
+  "setting": "病院で、医者と男の人が話しています。医者は男の人に何をしないように言っていますか。",
+  "script": [
+    {
+      "speaker": "医者",
+      "line": "熱は下がりましたね。でも、まだ無理をしないでください。"
+    },
+    {
+      "speaker": "男",
+      "line": "明日から仕事に行ってもいいですか。"
+    },
+    {
+      "speaker": "医者",
+      "line": "仕事は大丈夫です。ただ、今週はお酒は飲まないでください。薬の効果が弱くなりますから。"
+    },
+    {
+      "speaker": "男",
+      "line": "運動はどうですか。"
+    },
+    {
+      "speaker": "医者",
+      "line": "軽い運動なら構いませんよ。薬は、なくなるまで毎日きちんと飲んでくださいね。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい、わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "熱が下がる",
+      "reading": "ねつがさがる",
+      "meaning": "fever goes down"
+    },
+    {
+      "word": "無理をする",
+      "reading": "むりをする",
+      "meaning": "to overdo it"
+    },
+    {
+      "word": "ただ",
+      "reading": "ただ",
+      "meaning": "however, only"
+    },
+    {
+      "word": "お酒",
+      "reading": "おさけ",
+      "meaning": "alcohol"
+    },
+    {
+      "word": "効果",
+      "reading": "こうか",
+      "meaning": "effect"
+    },
+    {
+      "word": "弱くなる",
+      "reading": "よわくなる",
+      "meaning": "to become weak"
+    },
+    {
+      "word": "構わない",
+      "reading": "かまわない",
+      "meaning": "to not mind, to be OK"
+    },
+    {
+      "word": "きちんと",
+      "reading": "きちんと",
+      "meaning": "properly"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-23-1"
+  ]
+}

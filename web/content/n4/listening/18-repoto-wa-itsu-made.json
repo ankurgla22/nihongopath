@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-18",
+  "slug": "18-repoto-wa-itsu-made",
+  "level": "n4",
+  "order": 18,
+  "kind": "task",
+  "title": "レポートはいつまで",
+  "setting": "大学で、学生と先生が話しています。学生はいつまでに、どうやってレポートを出しますか。",
+  "script": [
+    {
+      "speaker": "学生",
+      "line": "先生、レポートの締め切りは金曜日ですよね。"
+    },
+    {
+      "speaker": "先生",
+      "line": "そうですが、金曜日は私が出張でいないので、木曜日までに研究室に持ってきてください。"
+    },
+    {
+      "speaker": "学生",
+      "line": "木曜日ですか。実は、今週は試験があって、ちょっと難しいんですが。"
+    },
+    {
+      "speaker": "先生",
+      "line": "じゃあ、メールで送ってもいいですよ。メールなら金曜日の夜までで大丈夫です。"
+    },
+    {
+      "speaker": "学生",
+      "line": "ありがとうございます。じゃあ、メールで送ります。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "締め切り",
+      "reading": "しめきり",
+      "meaning": "deadline"
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip"
+    },
+    {
+      "word": "研究室",
+      "reading": "けんきゅうしつ",
+      "meaning": "professor's office, lab"
+    },
+    {
+      "word": "〜までに",
+      "reading": "までに",
+      "meaning": "by (a deadline)"
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually"
+    },
+    {
+      "word": "試験",
+      "reading": "しけん",
+      "meaning": "exam"
+    },
+    {
+      "word": "〜てもいい",
+      "reading": "てもいい",
+      "meaning": "may, it is OK to"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-18-1"
+  ]
+}

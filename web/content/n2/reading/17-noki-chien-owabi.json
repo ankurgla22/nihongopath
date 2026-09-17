@@ -1,0 +1,90 @@
+{
+  "id": "n2-reading-17",
+  "slug": "17-noki-chien-owabi",
+  "level": "n2",
+  "order": 17,
+  "kind": "short",
+  "title": "納期遅延のお詫びメール",
+  "paragraphs": [
+    "件名：ご注文品の納期遅延についてのお詫び",
+    "株式会社ミナト商事 購買部 佐々木様",
+    "いつも大変お世話になっております。東和電機の田村でございます。",
+    "このたびは、9月10日納品予定のLED照明器具（型番TW-220）につきまして、部品の入荷遅れにより、納期を9月17日に変更させていただきたく、ご連絡いたしました。貴社のご予定に支障をきたすこととなり、誠に申し訳ございません。",
+    "なお、ご注文数量300台のうち、120台については予定どおり9月10日に納品が可能でございます。先行納品をご希望の場合は、9月5日までにお知らせいただけますと幸いです。残りの180台は、17日に確実に納品できるよう手配しております。",
+    "今後はこのようなことのないよう、部品の在庫管理を徹底いたします。何とぞご理解のほど、よろしくお願い申し上げます。",
+    "東和電機株式会社 営業部 田村 健一"
+  ],
+  "vocab": [
+    {
+      "word": "納期",
+      "reading": "のうき",
+      "meaning": "delivery date"
+    },
+    {
+      "word": "遅延",
+      "reading": "ちえん",
+      "meaning": "delay"
+    },
+    {
+      "word": "購買部",
+      "reading": "こうばいぶ",
+      "meaning": "purchasing department"
+    },
+    {
+      "word": "納品",
+      "reading": "のうひん",
+      "meaning": "delivery of goods"
+    },
+    {
+      "word": "入荷",
+      "reading": "にゅうか",
+      "meaning": "arrival of stock"
+    },
+    {
+      "word": "支障をきたす",
+      "reading": "ししょうをきたす",
+      "meaning": "to cause a hindrance"
+    },
+    {
+      "word": "数量",
+      "reading": "すうりょう",
+      "meaning": "quantity"
+    },
+    {
+      "word": "先行",
+      "reading": "せんこう",
+      "meaning": "preceding, advance"
+    },
+    {
+      "word": "手配する",
+      "reading": "てはいする",
+      "meaning": "to arrange"
+    },
+    {
+      "word": "在庫管理",
+      "reading": "ざいこかんり",
+      "meaning": "inventory management"
+    },
+    {
+      "word": "徹底する",
+      "reading": "てっていする",
+      "meaning": "to do thoroughly"
+    },
+    {
+      "word": "何とぞ",
+      "reading": "なにとぞ",
+      "meaning": "kindly, please"
+    }
+  ],
+  "questionIds": [
+    "q-n2-r-17-1",
+    "q-n2-r-17-2",
+    "q-n2-r-17-3"
+  ],
+  "strategyNotes": [
+    "Business emails have one main purpose and one request. Find the sentence ending in 〜させていただきたく / 〜いただけますと幸いです: that is the ask.",
+    "なお introduces supplementary but often tested information (partial delivery, deadlines). Read it as carefully as the main body.",
+    "Keep numbers straight: 300 ordered, 120 on time, 180 later; deadlines 9/5, 9/10, 9/17."
+  ],
+  "timeLimitSeconds": 180
+}

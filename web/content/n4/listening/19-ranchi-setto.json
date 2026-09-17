@@ -1,0 +1,75 @@
+{
+  "id": "n4-listening-19",
+  "slug": "19-ranchi-setto",
+  "level": "n4",
+  "order": 19,
+  "kind": "task",
+  "title": "ランチセット",
+  "setting": "レストランで、女の人と店員が話しています。女の人は何を注文しますか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "ご注文はお決まりですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "ランチセットのAをお願いします。飲み物はコーヒーで。"
+    },
+    {
+      "speaker": "店員",
+      "line": "申し訳ありません。Aセットは終わってしまいました。BセットとCセットならございます。"
+    },
+    {
+      "speaker": "女",
+      "line": "Bは魚ですよね。魚はちょっと苦手なので、Cにします。飲み物はセットについていますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "はい、ついています。コーヒーでよろしいですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい、お願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meaning": "order"
+    },
+    {
+      "word": "お決まりですか",
+      "reading": "おきまりですか",
+      "meaning": "have you decided?"
+    },
+    {
+      "word": "申し訳ありません",
+      "reading": "もうしわけありません",
+      "meaning": "I am very sorry"
+    },
+    {
+      "word": "終わる",
+      "reading": "おわる",
+      "meaning": "to be finished, sold out"
+    },
+    {
+      "word": "苦手",
+      "reading": "にがて",
+      "meaning": "not good with, dislike"
+    },
+    {
+      "word": "〜にする",
+      "reading": "にする",
+      "meaning": "to decide on"
+    },
+    {
+      "word": "ついている",
+      "reading": "ついている",
+      "meaning": "to be included"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-19-1"
+  ]
+}

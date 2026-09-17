@@ -1,0 +1,80 @@
+{
+  "id": "n5-reading-14",
+  "slug": "14-mise-no-kanban",
+  "level": "n5",
+  "order": 14,
+  "kind": "short",
+  "title": "店のかんばん",
+  "paragraphs": [
+    "やまだ本屋（ほんや）",
+    "開店（かいてん）：午前（ごぜん）十時（じゅうじ）",
+    "閉店（へいてん）：午後（ごご）八時（はちじ）",
+    "休（やす）み：毎週（まいしゅう）水曜日（すいようび）",
+    "本（ほん）のほかに、ざっしやCDもあります。",
+    "今日（きょう）は本（ほん）が全部（ぜんぶ）十（じゅっ）パーセント安（やす）いです。",
+    "店（みせ）の中（なか）で写真（しゃしん）をとらないでください。"
+  ],
+  "vocab": [
+    {
+      "word": "本屋",
+      "reading": "ほんや",
+      "meaning": "bookshop"
+    },
+    {
+      "word": "開店",
+      "reading": "かいてん",
+      "meaning": "opening (of a shop)"
+    },
+    {
+      "word": "閉店",
+      "reading": "へいてん",
+      "meaning": "closing (of a shop)"
+    },
+    {
+      "word": "午前",
+      "reading": "ごぜん",
+      "meaning": "a.m."
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "p.m."
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning": "closed day, holiday"
+    },
+    {
+      "word": "毎週",
+      "reading": "まいしゅう",
+      "meaning": "every week"
+    },
+    {
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meaning": "all"
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap"
+    },
+    {
+      "word": "写真をとる",
+      "reading": "しゃしんをとる",
+      "meaning": "to take a photo"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-14-1",
+    "q-n5-r-14-2",
+    "q-n5-r-14-3"
+  ],
+  "strategyNotes": [
+    "Shop signs use 開店/閉店 for open/close. Match 午前 and 午後 carefully.",
+    "〜ないでください is a prohibition. Expect a question asking what you must NOT do.",
+    "毎週 + day = every week on that day."
+  ],
+  "timeLimitSeconds": 120
+}

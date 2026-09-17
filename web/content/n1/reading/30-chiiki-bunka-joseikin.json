@@ -1,0 +1,101 @@
+{
+  "id": "n1-reading-30",
+  "slug": "30-chiiki-bunka-joseikin",
+  "level": "n1",
+  "order": 30,
+  "kind": "info",
+  "title": "募集案内 — 地域文化活動助成金",
+  "paragraphs": [
+    "2027年度 ひかり文化財団 地域文化活動助成金 募集案内",
+    "1. 助成対象事業：地域住民が主体となって行う文化・芸術活動（公演、展示、ワークショップ、調査研究）。営利（えいり）を主目的とする事業、宗教・政治活動を目的とする事業は対象外。",
+    "2. 助成区分と上限額",
+    "　A区分（立ち上げ支援）：活動開始から3年未満の団体。上限50万円。助成率は総事業費の80%以内。",
+    "　B区分（継続支援）：活動開始から3年以上の団体。上限150万円。助成率は総事業費の50%以内。",
+    "　C区分（連携支援）：2団体以上の共同事業。上限300万円。助成率は総事業費の50%以内。ただし、構成団体のすべてが活動開始3年未満の場合は上限100万円。",
+    "3. 応募資格",
+    "　(a) 当財団の所在する県内に活動拠点（きょてん）を置く団体（法人格の有無は問わない）",
+    "　(b) 構成員が5名以上であること。ただしC区分は各団体3名以上で可",
+    "　(c) 過去にB区分の助成を3回受けた団体は、B区分には応募できない（A区分、C区分は可）",
+    "　(d) 個人での応募は不可。ただし、団体設立を前提とした準備会は、規約案と構成員名簿を添付すればA区分に限り応募できる",
+    "4. 対象経費：会場費、講師謝金（しゃきん）、広報費、材料費、保険料。飲食費、団体の運営人件費、備品購入費（1点5万円以上）は対象外。",
+    "5. 提出書類：申請書（所定様式）、事業計画書、収支予算書、団体規約、直近1年の活動報告（A区分の団体および準備会は不要）",
+    "6. 締切：2027年3月10日（水）17時 電子申請必着。郵送不可。",
+    "7. 採択（さいたく）：4月下旬に通知。助成金は事業終了後の実績報告書の受理後に支払う（概算払い（がいさんばらい）を希望する場合は申請書に理由を記載。上限は助成決定額の50%）。",
+    "8. その他：同一団体からの応募は1区分1件に限る。ただし、C区分の構成団体としての参加はこの限りではない。"
+  ],
+  "vocab": [
+    {
+      "word": "助成金",
+      "reading": "じょせいきん",
+      "meaning": "grant, subsidy"
+    },
+    {
+      "word": "営利",
+      "reading": "えいり",
+      "meaning": "profit-making"
+    },
+    {
+      "word": "区分",
+      "reading": "くぶん",
+      "meaning": "category"
+    },
+    {
+      "word": "上限",
+      "reading": "じょうげん",
+      "meaning": "ceiling"
+    },
+    {
+      "word": "助成率",
+      "reading": "じょせいりつ",
+      "meaning": "subsidy rate"
+    },
+    {
+      "word": "拠点",
+      "reading": "きょてん",
+      "meaning": "base"
+    },
+    {
+      "word": "法人格",
+      "reading": "ほうじんかく",
+      "meaning": "legal entity status"
+    },
+    {
+      "word": "構成員",
+      "reading": "こうせいいん",
+      "meaning": "member"
+    },
+    {
+      "word": "謝金",
+      "reading": "しゃきん",
+      "meaning": "honorarium"
+    },
+    {
+      "word": "備品",
+      "reading": "びひん",
+      "meaning": "equipment"
+    },
+    {
+      "word": "採択",
+      "reading": "さいたく",
+      "meaning": "adoption, selection"
+    },
+    {
+      "word": "概算払い",
+      "reading": "がいさんばらい",
+      "meaning": "advance payment (estimated)"
+    }
+  ],
+  "questionIds": [
+    "q-n1-r-30-1",
+    "q-n1-r-30-2",
+    "q-n1-r-30-3",
+    "q-n1-r-30-4",
+    "q-n1-r-30-5"
+  ],
+  "strategyNotes": [
+    "Grant tables have two calculations: the ceiling (上限) and the rate (助成率). The payable amount is the smaller of the two.",
+    "Each ただし clause overrides the rule before it. Read (c) and (d) together with the category definitions: a group eligible for A must be under 3 years old.",
+    "'この限りではない' cancels the preceding restriction for the case named. Do not read it as an additional restriction."
+  ],
+  "timeLimitSeconds": 360
+}

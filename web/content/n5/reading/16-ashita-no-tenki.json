@@ -1,0 +1,78 @@
+{
+  "id": "n5-reading-16",
+  "slug": "16-ashita-no-tenki",
+  "level": "n5",
+  "order": 16,
+  "kind": "short",
+  "title": "あしたの天気",
+  "paragraphs": [
+    "あしたの天気（てんき）",
+    "東京（とうきょう）：午前（ごぜん）はくもり、午後（ごご）から雨（あめ）です。いちばん高（たか）い気温（きおん）は十八度（じゅうはちど）です。",
+    "大阪（おおさか）：一日（いちにち）晴（は）れです。あたたかいです。二十三度（にじゅうさんど）です。",
+    "札幌（さっぽろ）：雪（ゆき）です。とても寒（さむ）いです。一度（いちど）です。",
+    "東京（とうきょう）の人（ひと）は、かさをわすれないでください。"
+  ],
+  "vocab": [
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "meaning": "weather"
+    },
+    {
+      "word": "曇り",
+      "reading": "くもり",
+      "meaning": "cloudy"
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain"
+    },
+    {
+      "word": "気温",
+      "reading": "きおん",
+      "meaning": "temperature"
+    },
+    {
+      "word": "〜度",
+      "reading": "ど",
+      "meaning": "degrees"
+    },
+    {
+      "word": "晴れ",
+      "reading": "はれ",
+      "meaning": "sunny"
+    },
+    {
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meaning": "warm"
+    },
+    {
+      "word": "雪",
+      "reading": "ゆき",
+      "meaning": "snow"
+    },
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "cold"
+    },
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-16-1",
+    "q-n5-r-16-2",
+    "q-n5-r-16-3"
+  ],
+  "strategyNotes": [
+    "Forecasts split the day: 午前 and 午後 can have different weather. Read the time word in the question.",
+    "Compare numbers (度) to answer 'warmest' or 'coldest' questions; adjectives like あたたかい confirm it.",
+    "The last line gives advice tied to one city. Link the advice to the reason (rain)."
+  ],
+  "timeLimitSeconds": 120
+}

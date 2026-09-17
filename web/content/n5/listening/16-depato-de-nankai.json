@@ -1,0 +1,71 @@
+{
+  "id": "n5-listening-16",
+  "slug": "16-depato-de-nankai",
+  "level": "n5",
+  "order": 16,
+  "kind": "task",
+  "title": "デパートで何階",
+  "setting": "デパートで、女の人と店の人が話しています。女の人は何階へ行きますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません。かばんはどこですか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "かばんは三階です。くつは二階です。"
+    },
+    {
+      "speaker": "女",
+      "line": "子どものかばんがほしいんですが。"
+    },
+    {
+      "speaker": "店員",
+      "line": "子どものものは、全部五階です。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "デパート",
+      "reading": "デパート",
+      "meaning": "department store"
+    },
+    {
+      "word": "かばん",
+      "reading": "かばん",
+      "meaning": "bag"
+    },
+    {
+      "word": "くつ",
+      "reading": "くつ",
+      "meaning": "shoes"
+    },
+    {
+      "word": "三階",
+      "reading": "さんがい",
+      "meaning": "third floor"
+    },
+    {
+      "word": "五階",
+      "reading": "ごかい",
+      "meaning": "fifth floor"
+    },
+    {
+      "word": "子ども",
+      "reading": "こども",
+      "meaning": "child"
+    },
+    {
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meaning": "all"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-16-1"
+  ]
+}

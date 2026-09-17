@@ -1,0 +1,70 @@
+{
+  "id": "n4-listening-22",
+  "slug": "22-tokyo-no-tenki",
+  "level": "n4",
+  "order": 22,
+  "kind": "point",
+  "title": "東京の天気",
+  "setting": "ラジオで天気予報を聞いています。明日の東京の天気はどうなると言っていますか。",
+  "script": [
+    {
+      "speaker": "アナウンサー",
+      "line": "明日の天気です。北の地方は朝から雪が降るでしょう。東京は、午前中は晴れますが、午後から雲が多くなり、夕方には雨が降り始めるでしょう。お帰りの時間には傘が必要になりそうです。西の地方は一日中晴れるでしょう。気温は今日より少し低くなりますので、暖かい服装でお出かけください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "地方",
+      "reading": "ちほう",
+      "meaning": "region"
+    },
+    {
+      "word": "午前中",
+      "reading": "ごぜんちゅう",
+      "meaning": "in the morning"
+    },
+    {
+      "word": "雲が多くなる",
+      "reading": "くもがおおくなる",
+      "meaning": "to get cloudy"
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "meaning": "evening"
+    },
+    {
+      "word": "降り始める",
+      "reading": "ふりはじめる",
+      "meaning": "to start raining"
+    },
+    {
+      "word": "必要",
+      "reading": "ひつよう",
+      "meaning": "necessary"
+    },
+    {
+      "word": "〜そうです",
+      "reading": "そうです",
+      "meaning": "looks like"
+    },
+    {
+      "word": "一日中",
+      "reading": "いちにちじゅう",
+      "meaning": "all day"
+    },
+    {
+      "word": "気温",
+      "reading": "きおん",
+      "meaning": "temperature"
+    },
+    {
+      "word": "服装",
+      "reading": "ふくそう",
+      "meaning": "clothing"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-22-1"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-20",
+  "slug": "20-kusuri-wa-itsu",
+  "level": "n5",
+  "order": 20,
+  "kind": "task",
+  "title": "薬はいつ",
+  "setting": "病院で、医者が女の人に話しています。女の人は薬をいつ飲みますか。",
+  "script": [
+    {
+      "speaker": "医者",
+      "line": "この薬は、一日に二回飲んでください。"
+    },
+    {
+      "speaker": "女",
+      "line": "朝と夜ですか。"
+    },
+    {
+      "speaker": "医者",
+      "line": "いいえ、朝と昼です。ご飯の後で飲んでください。夜は飲まないでください。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "薬",
+      "reading": "くすり",
+      "meaning": "medicine"
+    },
+    {
+      "word": "一日に二回",
+      "reading": "いちにちににかい",
+      "meaning": "twice a day"
+    },
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "meaning": "morning"
+    },
+    {
+      "word": "昼",
+      "reading": "ひる",
+      "meaning": "noon"
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "night"
+    },
+    {
+      "word": "ご飯の後",
+      "reading": "ごはんのあと",
+      "meaning": "after a meal"
+    },
+    {
+      "word": "〜ないでください",
+      "reading": "ないでください",
+      "meaning": "please do not ..."
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-20-1"
+  ]
+}

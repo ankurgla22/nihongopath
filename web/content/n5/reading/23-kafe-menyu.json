@@ -1,0 +1,75 @@
+{
+  "id": "n5-reading-23",
+  "slug": "23-kafe-menyu",
+  "level": "n5",
+  "order": 23,
+  "kind": "info",
+  "title": "カフェのメニュー",
+  "paragraphs": [
+    "カフェ　ひまわり",
+    "【飲（の）み物（もの）】",
+    "コーヒー　四百円（よんひゃくえん）　／　紅茶（こうちゃ）　四百円（よんひゃくえん）　／　オレンジジュース　四百五十円（よんひゃくごじゅうえん）　／　牛乳（ぎゅうにゅう）　三百円（さんびゃくえん）",
+    "【食（た）べ物（もの）】",
+    "トースト　三百五十円（さんびゃくごじゅうえん）　／　サンドイッチ　五百円（ごひゃくえん）　／　ケーキ　四百五十円（よんひゃくごじゅうえん）",
+    "※モーニングセット（七時（しちじ）から十時（じゅうじ）まで）：トースト＋たまご＋飲（の）み物（もの）（コーヒーか紅茶（こうちゃ））で　六百円（ろっぴゃくえん）",
+    "※ケーキと飲（の）み物（もの）をいっしょに注文（ちゅうもん）する人（ひと）は、五十円（ごじゅうえん）安（やす）いです。"
+  ],
+  "vocab": [
+    {
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning": "drink"
+    },
+    {
+      "word": "紅茶",
+      "reading": "こうちゃ",
+      "meaning": "black tea"
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meaning": "milk"
+    },
+    {
+      "word": "食べ物",
+      "reading": "たべもの",
+      "meaning": "food"
+    },
+    {
+      "word": "トースト",
+      "reading": "とーすと",
+      "meaning": "toast"
+    },
+    {
+      "word": "モーニングセット",
+      "reading": "もーにんぐせっと",
+      "meaning": "breakfast set"
+    },
+    {
+      "word": "注文する",
+      "reading": "ちゅうもんする",
+      "meaning": "to order"
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap"
+    },
+    {
+      "word": "一緒に",
+      "reading": "いっしょに",
+      "meaning": "together"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-23-1",
+    "q-n5-r-23-2",
+    "q-n5-r-23-3"
+  ],
+  "strategyNotes": [
+    "Check the set's time window before using the set price.",
+    "Discount lines (〜安いです) apply only to the combination named. Add first, then subtract.",
+    "'Cheapest' questions: scan every price in the category, not just the first line."
+  ],
+  "timeLimitSeconds": 180
+}

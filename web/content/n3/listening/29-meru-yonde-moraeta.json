@@ -1,0 +1,60 @@
+{
+  "id": "n3-listening-29",
+  "slug": "29-meru-yonde-moraeta",
+  "level": "n3",
+  "order": 29,
+  "kind": "quick-response",
+  "title": "メール、読んでもらえた？",
+  "setting": "同僚に聞かれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "昨日送ったメール、読んでもらえた？"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "送る",
+      "reading": "おくる",
+      "meaning": "to send"
+    },
+    {
+      "word": "〜てもらえた？",
+      "reading": "てもらえた",
+      "meaning": "did you manage to...? (casual request check)"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "not yet"
+    },
+    {
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meaning": "colleague"
+    },
+    {
+      "word": "ごめん",
+      "reading": "ごめん",
+      "meaning": "sorry (casual)"
+    },
+    {
+      "word": "後で",
+      "reading": "あとで",
+      "meaning": "later"
+    },
+    {
+      "word": "返事",
+      "reading": "へんじ",
+      "meaning": "reply"
+    },
+    {
+      "word": "確認する",
+      "reading": "かくにんする",
+      "meaning": "to check"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-29-1"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "n3-reading-29",
+  "slug": "29-gym-kaiin-plan",
+  "level": "n3",
+  "order": 29,
+  "kind": "info",
+  "title": "健康 — スポーツクラブ会員プランのご案内",
+  "paragraphs": [
+    "スポーツクラブ サニーフィットネス 会員プランのご案内",
+    "【会員種別（しゅべつ）】",
+    "・フルタイム会員：月額 9,800円 ｜ 利用時間：全営業時間 ｜ 全店舗利用可",
+    "・デイタイム会員：月額 6,800円 ｜ 利用時間：平日 9:00〜17:00 ｜ 登録店舗のみ",
+    "・ナイト会員：月額 5,500円 ｜ 利用時間：平日 20:00〜23:00 ｜ 登録店舗のみ",
+    "・ホリデー会員：月額 5,000円 ｜ 利用時間：土日祝 全営業時間 ｜ 登録店舗のみ",
+    "・学生会員：月額 4,500円 ｜ 利用時間：全営業時間 ｜ 登録店舗のみ ｜ 学生証の提示が必要（25歳以下）",
+    "【営業時間】平日 9:00〜23:00 ／ 土日祝 9:00〜21:00 ／ 毎月第2月曜日は休館",
+    "【入会時の費用】入会金 5,000円 ＋ 初月会費 ※4月中に入会の方は入会金無料",
+    "【オプション】",
+    "・スタジオレッスン（ヨガ・ダンスなど）：フルタイム会員は無料、その他の会員は1回500円",
+    "・プール利用：全会員無料（ホリデー会員を除く）",
+    "・ロッカー貸し出し：月額 1,000円",
+    "【注意】",
+    "・利用時間外に施設を利用した場合、1回につき1,500円の追加料金がかかります。",
+    "・プランの変更は、変更したい月の前月20日までに受付で手続きをしてください。",
+    "・退会（たいかい）は、退会したい月の前月末までにお申し出ください。"
+  ],
+  "vocab": [
+    {
+      "word": "会員",
+      "reading": "かいいん",
+      "meaning": "member"
+    },
+    {
+      "word": "種別",
+      "reading": "しゅべつ",
+      "meaning": "type, category"
+    },
+    {
+      "word": "月額",
+      "reading": "つきがく",
+      "meaning": "monthly fee"
+    },
+    {
+      "word": "営業時間",
+      "reading": "えいぎょうじかん",
+      "meaning": "business hours"
+    },
+    {
+      "word": "店舗",
+      "reading": "てんぽ",
+      "meaning": "store, branch"
+    },
+    {
+      "word": "登録",
+      "reading": "とうろく",
+      "meaning": "registration"
+    },
+    {
+      "word": "提示",
+      "reading": "ていじ",
+      "meaning": "presentation (of ID)"
+    },
+    {
+      "word": "休館",
+      "reading": "きゅうかん",
+      "meaning": "closed (facility)"
+    },
+    {
+      "word": "入会金",
+      "reading": "にゅうかいきん",
+      "meaning": "enrollment fee"
+    },
+    {
+      "word": "〜を除く",
+      "reading": "をのぞく",
+      "meaning": "excluding ..."
+    },
+    {
+      "word": "追加料金",
+      "reading": "ついかりょうきん",
+      "meaning": "extra charge"
+    },
+    {
+      "word": "退会",
+      "reading": "たいかい",
+      "meaning": "cancelling membership"
+    }
+  ],
+  "questionIds": [
+    "q-n3-r-29-1",
+    "q-n3-r-29-2",
+    "q-n3-r-29-3",
+    "q-n3-r-29-4"
+  ],
+  "strategyNotes": [
+    "Read each question's conditions first (days, hours, age, extras), then find the cheapest row that satisfies ALL of them. Partial matches are traps.",
+    "Fee arithmetic: add 入会金 + 初月会費 + options, and apply exceptions (※4月中 waives the fee).",
+    "Deadlines phrased as 前月20日 / 前月末 count from the month BEFORE the change. Convert to an actual date before choosing."
+  ],
+  "timeLimitSeconds": 300
+}

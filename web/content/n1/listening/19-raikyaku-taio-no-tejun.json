@@ -1,0 +1,98 @@
+{
+  "id": "n1-listening-19",
+  "slug": "19-raikyaku-taio-no-tejun",
+  "level": "n1",
+  "order": 19,
+  "kind": "task",
+  "title": "来客対応の手順",
+  "setting": "会社で、女の人が新入社員に来客対応の手順を説明しています。約束のない営業の人が来た場合、新入社員はどうしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "来客対応の流れ、一通り説明しますね。受付のベルが鳴ったら、まず会社名とお名前、それからお約束の有無を確認してください。"
+    },
+    {
+      "speaker": "新入社員",
+      "line": "はい。"
+    },
+    {
+      "speaker": "女",
+      "line": "お約束がある場合は、担当者に内線で連絡して、応接室にお通しする。その際、お茶を出すのは担当者が来てからで結構です。"
+    },
+    {
+      "speaker": "新入社員",
+      "line": "担当者が来る前じゃなくていいんですね。"
+    },
+    {
+      "speaker": "女",
+      "line": "ええ。お茶が冷めてしまうので。それと、お約束がない場合、いわゆる飛び込みの営業なんかは、担当者に取り次がずに、名刺だけ預かって、後ほどこちらから連絡すると伝えて、お引き取りいただいてください。"
+    },
+    {
+      "speaker": "新入社員",
+      "line": "取り次がない、と。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。ただし、社長宛ての来客だけは例外で、約束の有無にかかわらず、秘書室に回してください。"
+    },
+    {
+      "speaker": "新入社員",
+      "line": "社長宛ては秘書室、ですね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "来客対応",
+      "reading": "らいきゃくたいおう",
+      "meaning": "receiving visitors"
+    },
+    {
+      "word": "一通り",
+      "reading": "ひととおり",
+      "meaning": "briefly, from start to end"
+    },
+    {
+      "word": "有無",
+      "reading": "うむ",
+      "meaning": "presence or absence"
+    },
+    {
+      "word": "内線",
+      "reading": "ないせん",
+      "meaning": "extension (phone)"
+    },
+    {
+      "word": "応接室",
+      "reading": "おうせつしつ",
+      "meaning": "reception room"
+    },
+    {
+      "word": "飛び込み",
+      "reading": "とびこみ",
+      "meaning": "unannounced (visit)"
+    },
+    {
+      "word": "取り次ぐ",
+      "reading": "とりつぐ",
+      "meaning": "to put through, pass on to"
+    },
+    {
+      "word": "お引き取りいただく",
+      "reading": "おひきとりいただく",
+      "meaning": "to ask someone to leave (polite)"
+    },
+    {
+      "word": "〜宛て",
+      "reading": "あて",
+      "meaning": "addressed to"
+    },
+    {
+      "word": "〜にかかわらず",
+      "reading": "にかかわらず",
+      "meaning": "regardless of"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-19-1"
+  ]
+}

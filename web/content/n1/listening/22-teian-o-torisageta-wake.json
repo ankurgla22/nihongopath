@@ -1,0 +1,93 @@
+{
+  "id": "n1-listening-22",
+  "slug": "22-teian-o-torisageta-wake",
+  "level": "n1",
+  "order": 22,
+  "kind": "point",
+  "title": "提案を取り下げたわけ",
+  "setting": "会社で、女の人と男の人が話しています。男の人はどうして提案を取り下げたのですか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "例のリモート勤務の提案、取り下げたんだって？部長に反対されたの？"
+    },
+    {
+      "speaker": "男",
+      "line": "いや、部長はむしろ賛成だったよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、なんで。"
+    },
+    {
+      "speaker": "男",
+      "line": "現場に説明しに行ったら、ベテランの人たちから、若手の育成が回らなくなるって言われてさ。"
+    },
+    {
+      "speaker": "女",
+      "line": "まあ、そう言う人はいるよね。"
+    },
+    {
+      "speaker": "男",
+      "line": "最初は反発だと思ってたんだけど、話を聞いてるうちに、確かに今の仕組みのままじゃ、教える側の負担だけ増えるなって。"
+    },
+    {
+      "speaker": "女",
+      "line": "それで引っ込めたの？"
+    },
+    {
+      "speaker": "男",
+      "line": "引っ込めたっていうか、育成の仕組みとセットで出し直すつもり。中途半端に通しても、うまくいかないのは目に見えてるから。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "取り下げる",
+      "reading": "とりさげる",
+      "meaning": "to withdraw (a proposal)"
+    },
+    {
+      "word": "現場",
+      "reading": "げんば",
+      "meaning": "the front line, the shop floor"
+    },
+    {
+      "word": "育成",
+      "reading": "いくせい",
+      "meaning": "training, development"
+    },
+    {
+      "word": "回らない",
+      "reading": "まわらない",
+      "meaning": "cannot function"
+    },
+    {
+      "word": "反発",
+      "reading": "はんぱつ",
+      "meaning": "pushback"
+    },
+    {
+      "word": "負担",
+      "reading": "ふたん",
+      "meaning": "burden"
+    },
+    {
+      "word": "引っ込める",
+      "reading": "ひっこめる",
+      "meaning": "to pull back"
+    },
+    {
+      "word": "中途半端",
+      "reading": "ちゅうとはんぱ",
+      "meaning": "half-baked"
+    },
+    {
+      "word": "目に見えている",
+      "reading": "めにみえている",
+      "meaning": "obvious, foreseeable"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-22-1"
+  ]
+}

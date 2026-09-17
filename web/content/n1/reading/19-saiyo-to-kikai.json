@@ -1,0 +1,89 @@
+{
+  "id": "n1-reading-19",
+  "slug": "19-saiyo-to-kikai",
+  "level": "n1",
+  "order": 19,
+  "kind": "medium",
+  "title": "評論 — 機械は公平か",
+  "paragraphs": [
+    "採用選考（さいようせんこう）に人工知能を導入する企業が増えている。応募書類の一次審査を機械に委（ゆだ）ねれば、担当者の疲労や気分による判断のぶれは消え、膨大（ぼうだい）な数の応募を短時間で処理できる。推進派は「人間より公平だ」と主張する。人間の面接官が無意識に抱く偏見（へんけん）——出身校、性別、話し方——を、機械は持たないというのである。",
+    "この主張には、一面の真理がある。しかし、機械が偏見を持たないという前提そのものが、検証（けんしょう）を要する。学習に用いられるのは、過去に「採用され、活躍した」とされる社員のデータである。その過去が偏っていれば、機械はその偏りを忠実に、しかも大規模に再生産する。ある企業では、技術職の採用アルゴリズムが女性の応募者を系統的に低く評価していたことが後に判明した。過去十年の技術職がほぼ男性で占められていたためである。機械は差別を発明したのではない。差別を学習し、それを「客観的な基準」という装いで返してきたのだ。",
+    "さらに深刻なのは、説明責任（せつめいせきにん）の所在である。人間の面接官なら、なぜ不採用にしたかを問いただすことができる。答えが不十分であれば、その判断を覆（くつがえ）すこともできる。だが多くのアルゴリズムは、数百の変数を非線形に組み合わせており、開発者自身にも個々の判定の理由を言語化できない。「なぜ落とされたのか」に誰も答えられない選考を、私たちは公平と呼べるだろうか。",
+    "私は機械の利用そのものに反対しているのではない。反対しているのは、「機械だから公平だ」という思考停止である。公平さは技術の属性ではなく、それを運用する制度の属性だ。学習データの偏りを監査（かんさ）し、判定に異議を申し立てる経路を用意し、最終判断の責任を人間が引き受ける。そうした制度を伴わない導入は、効率化の名を借りた責任の放棄にほかならない。"
+  ],
+  "vocab": [
+    {
+      "word": "採用選考",
+      "reading": "さいようせんこう",
+      "meaning": "hiring screening"
+    },
+    {
+      "word": "委ねる",
+      "reading": "ゆだねる",
+      "meaning": "to entrust"
+    },
+    {
+      "word": "膨大",
+      "reading": "ぼうだい",
+      "meaning": "enormous"
+    },
+    {
+      "word": "偏見",
+      "reading": "へんけん",
+      "meaning": "bias, prejudice"
+    },
+    {
+      "word": "検証",
+      "reading": "けんしょう",
+      "meaning": "verification"
+    },
+    {
+      "word": "再生産する",
+      "reading": "さいせいさんする",
+      "meaning": "to reproduce"
+    },
+    {
+      "word": "系統的に",
+      "reading": "けいとうてきに",
+      "meaning": "systematically"
+    },
+    {
+      "word": "装い",
+      "reading": "よそおい",
+      "meaning": "guise, appearance"
+    },
+    {
+      "word": "説明責任",
+      "reading": "せつめいせきにん",
+      "meaning": "accountability"
+    },
+    {
+      "word": "覆す",
+      "reading": "くつがえす",
+      "meaning": "to overturn"
+    },
+    {
+      "word": "監査する",
+      "reading": "かんさする",
+      "meaning": "to audit"
+    },
+    {
+      "word": "異議を申し立てる",
+      "reading": "いぎをもうしたてる",
+      "meaning": "to lodge an objection"
+    }
+  ],
+  "questionIds": [
+    "q-n1-r-19-1",
+    "q-n1-r-19-2",
+    "q-n1-r-19-3",
+    "q-n1-r-19-4",
+    "q-n1-r-19-5"
+  ],
+  "strategyNotes": [
+    "The writer concedes (一面の真理がある) before attacking the premise. Questions on 筆者の立場 need the qualification in paragraph 4: not against machines, against 思考停止.",
+    "The example (female applicants) illustrates a general claim. Identify the claim, not just the example.",
+    "'AではなくB' in paragraph 4 (技術の属性ではなく制度の属性) is the thesis sentence."
+  ],
+  "timeLimitSeconds": 600
+}

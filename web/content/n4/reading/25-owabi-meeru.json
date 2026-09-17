@@ -1,0 +1,91 @@
+{
+  "id": "n4-reading-25",
+  "slug": "25-owabi-meeru",
+  "level": "n4",
+  "order": 25,
+  "kind": "short",
+  "title": "おわびのメール",
+  "paragraphs": [
+    "件名：昨日の約束について",
+    "佐藤様",
+    "昨日はお約束の時間に伺（うかが）うことができず、大変申し訳ありませんでした。",
+    "実は、朝から電車が事故で止まってしまい、駅で一時間以上待つことになりました。すぐにご連絡しなければならなかったのですが、あわてていて携帯電話を家に忘れてきてしまい、連絡することができませんでした。",
+    "私の不注意（ふちゅうい）で、佐藤様の貴重（きちょう）なお時間を無駄（むだ）にしてしまい、本当に申し訳なく思っております。",
+    "もしよろしければ、来週もう一度お時間をいただけないでしょうか。佐藤様のご都合に合わせますので、ご希望の日時をお知らせください。",
+    "今後はこのようなことがないよう、十分気をつけます。",
+    "高橋"
+  ],
+  "vocab": [
+    {
+      "word": "伺う",
+      "reading": "うかがう",
+      "meaning": "to visit (humble)"
+    },
+    {
+      "word": "申し訳ありません",
+      "reading": "もうしわけありません",
+      "meaning": "I am very sorry"
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually"
+    },
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "meaning": "accident"
+    },
+    {
+      "word": "あわてる",
+      "reading": "あわてる",
+      "meaning": "to panic, to be flustered"
+    },
+    {
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "contact"
+    },
+    {
+      "word": "不注意",
+      "reading": "ふちゅうい",
+      "meaning": "carelessness"
+    },
+    {
+      "word": "貴重",
+      "reading": "きちょう",
+      "meaning": "precious"
+    },
+    {
+      "word": "無駄にする",
+      "reading": "むだにする",
+      "meaning": "to waste"
+    },
+    {
+      "word": "都合に合わせる",
+      "reading": "つごうにあわせる",
+      "meaning": "to fit someone's schedule"
+    },
+    {
+      "word": "日時",
+      "reading": "にちじ",
+      "meaning": "date and time"
+    },
+    {
+      "word": "今後",
+      "reading": "こんご",
+      "meaning": "from now on"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-25-1",
+    "q-n4-r-25-2",
+    "q-n4-r-25-3"
+  ],
+  "strategyNotes": [
+    "Apology emails follow: apology → reason (実は) → second reason → request → promise. Locate each block.",
+    "Two different problems appear: why he was late (train) and why he could not call (phone). Do not merge them.",
+    "〜ていただけないでしょうか is the request. What follows ので explains how the writer will accommodate."
+  ],
+  "timeLimitSeconds": 240
+}

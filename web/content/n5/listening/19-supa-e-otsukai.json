@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-19",
+  "slug": "19-supa-e-otsukai",
+  "level": "n5",
+  "order": 19,
+  "kind": "task",
+  "title": "スーパーへおつかい",
+  "setting": "家で、お母さんと男の子が話しています。男の子は何を買いますか。",
+  "script": [
+    {
+      "speaker": "母",
+      "line": "ちょっとスーパーへ行ってください。りんごを三つ買ってきてください。"
+    },
+    {
+      "speaker": "男の子",
+      "line": "はい。ジュースもいりますか。"
+    },
+    {
+      "speaker": "母",
+      "line": "ジュースはまだありますから、いいです。あ、パンがありません。パンも一つお願いします。"
+    },
+    {
+      "speaker": "男の子",
+      "line": "りんご三つとパン一つですね。わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "meaning": "supermarket"
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "meaning": "apple"
+    },
+    {
+      "word": "三つ",
+      "reading": "みっつ",
+      "meaning": "three (things)"
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "meaning": "to need"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "still"
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meaning": "bread"
+    },
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one (thing)"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-19-1"
+  ]
+}

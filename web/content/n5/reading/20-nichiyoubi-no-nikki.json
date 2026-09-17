@@ -1,0 +1,83 @@
+{
+  "id": "n5-reading-20",
+  "slug": "20-nichiyoubi-no-nikki",
+  "level": "n5",
+  "order": 20,
+  "kind": "short",
+  "title": "日記　日曜日",
+  "paragraphs": [
+    "十月六日（じゅうがつむいか）　日曜日（にちようび）　晴（は）れ",
+    "今日（きょう）は友達（ともだち）とデパートへ行（い）った。新（あたら）しいくつを買（か）った。八千円（はっせんえん）だった。ちょっと高（たか）かったが、とてもいい。",
+    "昼（ひる）ごはんはデパートの中（なか）のレストランでスパゲッティを食（た）べた。おいしかった。",
+    "午後（ごご）は公園（こうえん）を散歩（さんぽ）した。天気（てんき）がよかったから、人（ひと）がたくさんいた。",
+    "夜（よる）はつかれたから、早（はや）く寝（ね）た。"
+  ],
+  "vocab": [
+    {
+      "word": "日記",
+      "reading": "にっき",
+      "meaning": "diary"
+    },
+    {
+      "word": "晴れ",
+      "reading": "はれ",
+      "meaning": "sunny"
+    },
+    {
+      "word": "デパート",
+      "reading": "でぱーと",
+      "meaning": "department store"
+    },
+    {
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning": "new"
+    },
+    {
+      "word": "靴",
+      "reading": "くつ",
+      "meaning": "shoes"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "expensive"
+    },
+    {
+      "word": "昼ご飯",
+      "reading": "ひるごはん",
+      "meaning": "lunch"
+    },
+    {
+      "word": "散歩する",
+      "reading": "さんぽする",
+      "meaning": "to take a walk"
+    },
+    {
+      "word": "たくさん",
+      "reading": "たくさん",
+      "meaning": "many"
+    },
+    {
+      "word": "疲れる",
+      "reading": "つかれる",
+      "meaning": "to get tired"
+    },
+    {
+      "word": "早く",
+      "reading": "はやく",
+      "meaning": "early"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-20-1",
+    "q-n5-r-20-2",
+    "q-n5-r-20-3"
+  ],
+  "strategyNotes": [
+    "Diaries use plain past forms (行った、買った). Recognise them as ました forms.",
+    "〜から gives the reason: 天気がよかったから → many people; つかれたから → slept early.",
+    "Follow the day in order: morning shopping, lunch, afternoon walk, night."
+  ],
+  "timeLimitSeconds": 150
+}

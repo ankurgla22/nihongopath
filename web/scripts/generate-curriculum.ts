@@ -38,15 +38,34 @@ for (const l of LEVELS) {
   kanjiDays[l] = Math.max(...kanji[l].map((k) => k.day));
 }
 
-// Reference ids owned by other generators (reading / listening / exams).
+// Reading / listening pools are read from the content folders so every authored item is scheduled.
+function idsIn(level: string, kind: 'reading' | 'listening', filter?: (item: { kind: string }) => boolean): string[] {
+  const dir = path.join(CONTENT, level, kind);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as { id: string; order: number; kind: string })
+    .filter((x) => !filter || filter(x))
+    .sort((a, b) => a.order - b.order)
+    .map((x) => x.id);
+}
 const READING: Record<string, string[]> = {
-  n4: [1, 2, 3, 4].map((n) => `n4-reading-${n}`),
-  n3: [1, 2, 3, 4, 5, 6, 7, 8].map((n) => `n3-reading-${n}`),
-  n2Short: [1, 2, 3, 4, 5, 6].map((n) => `n2-reading-${n}`),
-  n2Long: [7, 8, 9, 10, 11, 12, 13, 14, 15, 16].map((n) => `n2-reading-${n}`),
-  n2All: Array.from({ length: 16 }, (_, i) => `n2-reading-${i + 1}`),
+  n5: idsIn('n5', 'reading'),
+  n4: idsIn('n4', 'reading'),
+  n3: idsIn('n3', 'reading'),
+  n2Short: idsIn('n2', 'reading', (x) => x.kind === 'short'),
+  n2Long: idsIn('n2', 'reading', (x) => x.kind !== 'short'),
+  n2All: idsIn('n2', 'reading'),
 };
-const LISTENING = Array.from({ length: 30 }, (_, i) => `n2-listening-${i + 1}`);
+const LISTENING_BY_PHASE: Record<number, string[]> = {
+  1: idsIn('n5', 'listening'),
+  2: idsIn('n4', 'listening'),
+  3: idsIn('n3', 'listening'),
+  4: idsIn('n2', 'listening'),
+  5: idsIn('n2', 'listening'),
+  6: idsIn('n2', 'listening'),
+};
 const MOCK_EXAM_ID = "n2-mock-a";
 const MOCK_DAYS = new Set([150, 170, 178]);
 
@@ -189,8 +208,9 @@ function buildPhase(phase: Curriculum["phases"][number]): CurriculumDay[] {
   }
 
   const readingPool =
-    phase.id === 2 ? READING.n4 : phase.id === 3 ? READING.n3 : phase.id === 4 ? READING.n2Short : phase.id === 5 ? READING.n2Long : phase.id === 6 ? READING.n2All : [];
-  const listeningOffset = phase.id >= 3 ? [0, 0, 0, 30, 75, 105][phase.id - 1] : 0;
+    phase.id === 1 ? READING.n5 : phase.id === 2 ? READING.n4 : phase.id === 3 ? READING.n3 : phase.id === 4 ? READING.n2Short : phase.id === 5 ? READING.n2Long : phase.id === 6 ? READING.n2All : [];
+  const listeningPool = LISTENING_BY_PHASE[phase.id] ?? [];
+  const listeningOffset = [0, 0, 0, 0, 45, 75][phase.id - 1];
 
   for (let i = 0; i < total; i++) {
     const day = phase.startDay + i;
@@ -248,7 +268,7 @@ function buildPhase(phase: Curriculum["phases"][number]): CurriculumDay[] {
     }
 
     // Reading
-    if (readingPool.length) {
+    if (readingPool.length && day > 7) {
       const rid = readingPool[i % readingPool.length];
       tasks.push({ type: "reading", minutes: MIN.reading, contentIds: [rid] });
       objectives.push(`Reading passage ${rid.replace(/^n\d-reading-/, (m) => m.slice(0, 2).toUpperCase() + " #")}`);
@@ -258,10 +278,10 @@ function buildPhase(phase: Curriculum["phases"][number]): CurriculumDay[] {
     }
 
     // Listening
-    if (phase.id >= 3) {
-      const lid = LISTENING[(listeningOffset + i) % LISTENING.length];
+    if (listeningPool.length && day > 7) {
+      const lid = listeningPool[(listeningOffset + i) % listeningPool.length];
       tasks.push({ type: "listening", minutes: MIN.listening, contentIds: [lid] });
-      objectives.push(`Listening exercise #${lid.replace("n2-listening-", "")}: listen, check, read transcript, shadow`);
+      objectives.push(`Listening exercise ${lid.replace(/^n(\d)-listening-/, (_m: string, d: string) => "N" + d + " #")}: listen, check, read transcript, shadow`);
     } else {
       tasks.push({ type: "listening", minutes: M.listening, contentIds: [] });
       objectives.push(day <= 7 ? "Listening block: kana sounds, greetings and numbers (listen and repeat)" : "Listening block: NHK Easy / beginner audio (30 min, read then listen)");

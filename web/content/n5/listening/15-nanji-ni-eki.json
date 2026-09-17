@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-15",
+  "slug": "15-nanji-ni-eki",
+  "level": "n5",
+  "order": 15,
+  "kind": "task",
+  "title": "何時に駅へ",
+  "setting": "学校で、先生が学生に話しています。学生は明日、何時に駅に来ますか。",
+  "script": [
+    {
+      "speaker": "先生",
+      "line": "明日は、みんなで美術館へ行きます。九時に駅に来てください。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい。電車は九時半ですか。"
+    },
+    {
+      "speaker": "先生",
+      "line": "いいえ、九時十五分です。ですから、九時に来てください。おくれないでくださいね。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "美術館",
+      "reading": "びじゅつかん",
+      "meaning": "art museum"
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "meaning": "station"
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meaning": "train"
+    },
+    {
+      "word": "九時",
+      "reading": "くじ",
+      "meaning": "nine o'clock"
+    },
+    {
+      "word": "十五分",
+      "reading": "じゅうごふん",
+      "meaning": "fifteen minutes"
+    },
+    {
+      "word": "ですから",
+      "reading": "ですから",
+      "meaning": "therefore"
+    },
+    {
+      "word": "おくれる",
+      "reading": "おくれる",
+      "meaning": "to be late"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-15-1"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "n4-listening-20",
+  "slug": "20-pati-ni-ikenai-riyu",
+  "level": "n4",
+  "order": 20,
+  "kind": "point",
+  "title": "パーティーに行けない理由",
+  "setting": "男の人と女の人が話しています。女の人はどうして金曜日のパーティーに行きませんか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "金曜日の田中さんのパーティー、行くでしょう？"
+    },
+    {
+      "speaker": "女",
+      "line": "行きたかったんだけど、行けなくなっちゃった。"
+    },
+    {
+      "speaker": "男",
+      "line": "え、仕事？"
+    },
+    {
+      "speaker": "女",
+      "line": "仕事は早く終わるんだけど、その日、弟が国から来るの。空港まで迎えに行かなきゃいけなくて。"
+    },
+    {
+      "speaker": "男",
+      "line": "そっか。残念だね。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん。田中さんには、もう謝っておいた。プレゼントだけ、あなたに渡してもらってもいい？"
+    },
+    {
+      "speaker": "男",
+      "line": "いいよ。持って行ってあげる。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "〜なくなっちゃった",
+      "reading": "なくなっちゃった",
+      "meaning": "ended up not being able to"
+    },
+    {
+      "word": "弟",
+      "reading": "おとうと",
+      "meaning": "younger brother"
+    },
+    {
+      "word": "迎えに行く",
+      "reading": "むかえにいく",
+      "meaning": "to go pick up"
+    },
+    {
+      "word": "〜なきゃいけない",
+      "reading": "なきゃいけない",
+      "meaning": "have to"
+    },
+    {
+      "word": "残念",
+      "reading": "ざんねん",
+      "meaning": "too bad"
+    },
+    {
+      "word": "謝る",
+      "reading": "あやまる",
+      "meaning": "to apologize"
+    },
+    {
+      "word": "〜てもらう",
+      "reading": "てもらう",
+      "meaning": "to have someone do"
+    },
+    {
+      "word": "渡す",
+      "reading": "わたす",
+      "meaning": "to hand over"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-20-1"
+  ]
+}

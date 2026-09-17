@@ -1,0 +1,71 @@
+{
+  "id": "n5-listening-13",
+  "slug": "13-honya-de-jisho",
+  "level": "n5",
+  "order": 13,
+  "kind": "task",
+  "title": "本屋で辞書",
+  "setting": "本屋で、男の学生と店の人が話しています。男の学生は何を買いますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません。日本語の辞書はありますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "はい、こちらです。三千円です。"
+    },
+    {
+      "speaker": "男",
+      "line": "うーん、ちょっと高いですね。もっと安いのはありますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "この小さいのは千五百円です。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、それをください。あ、ノートも一冊お願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning": "dictionary"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "expensive"
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap"
+    },
+    {
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning": "small"
+    },
+    {
+      "word": "ノート",
+      "reading": "ノート",
+      "meaning": "notebook"
+    },
+    {
+      "word": "一冊",
+      "reading": "いっさつ",
+      "meaning": "one (book/notebook)"
+    },
+    {
+      "word": "ください",
+      "reading": "ください",
+      "meaning": "please give me"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-13-1"
+  ]
+}

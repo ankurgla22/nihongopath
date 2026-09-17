@@ -1,0 +1,102 @@
+{
+  "id": "n3-listening-16",
+  "slug": "16-toshokan-no-kado",
+  "level": "n3",
+  "order": 16,
+  "kind": "task",
+  "title": "図書館のカード",
+  "setting": "図書館で、女の人と係の人が話しています。女の人はこの後まず何をしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません、本を借りたいんですけど、カードを持ってなくて。"
+    },
+    {
+      "speaker": "係",
+      "line": "初めてのご利用ですね。それでしたら、まずカードを作りましょう。住所がわかるもの、お持ちですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "えっと、免許証ならあります。"
+    },
+    {
+      "speaker": "係",
+      "line": "結構です。じゃ、この用紙に名前と住所を書いて、免許証と一緒に出してください。五分ほどでカードができます。"
+    },
+    {
+      "speaker": "女",
+      "line": "本は今日借りられますか。"
+    },
+    {
+      "speaker": "係",
+      "line": "はい、カードができたら、すぐ借りられますよ。一度に十冊まで、二週間です。"
+    },
+    {
+      "speaker": "女",
+      "line": "わかりました。じゃ、先に借りたい本を探してきちゃってもいいですか。"
+    },
+    {
+      "speaker": "係",
+      "line": "ええ、でも用紙だけ先に書いといてもらえると助かります。"
+    },
+    {
+      "speaker": "女",
+      "line": "あ、じゃ、そうします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "係",
+      "reading": "かかり",
+      "meaning": "person in charge"
+    },
+    {
+      "word": "利用",
+      "reading": "りよう",
+      "meaning": "use"
+    },
+    {
+      "word": "免許証",
+      "reading": "めんきょしょう",
+      "meaning": "driver's licence"
+    },
+    {
+      "word": "結構です",
+      "reading": "けっこうです",
+      "meaning": "that will do"
+    },
+    {
+      "word": "用紙",
+      "reading": "ようし",
+      "meaning": "form"
+    },
+    {
+      "word": "一度に",
+      "reading": "いちどに",
+      "meaning": "at one time"
+    },
+    {
+      "word": "〜冊",
+      "reading": "さつ",
+      "meaning": "counter for books"
+    },
+    {
+      "word": "〜ちゃう",
+      "reading": "ちゃう",
+      "meaning": "contraction of てしまう"
+    },
+    {
+      "word": "〜といて",
+      "reading": "といて",
+      "meaning": "contraction of ておいて"
+    },
+    {
+      "word": "助かる",
+      "reading": "たすかる",
+      "meaning": "to be a help"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-16-1"
+  ]
+}

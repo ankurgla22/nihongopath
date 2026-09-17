@@ -1,0 +1,2462 @@
+[
+  {
+    "id": "q-n1-r-13-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-13"
+    },
+    "prompt": "筆者の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "残業時間の統計は信頼できないので、集計方法を改めるべきだ。",
+      "改革は労働時間の長さではなく、労働が生活を侵食する度合いを測るべきだ。",
+      "持ち帰り仕事や早出は本人の自主性に基づくものであり、規制の対象外である。",
+      "現場の疲弊は一時的なもので、統計の改善が続けば解消される。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The second paragraph states directly: 改革が測るべきは労働時間の長さではなく、労働が人の生活を侵食する度合いである。",
+    "distractorExplanations": [
+      "The writer criticises what is measured, not the accuracy of the count.",
+      "(correct answer)",
+      "The quotation marks around 「自主的」 show the writer rejects this framing.",
+      "The writer sees improved numbers as coexisting with exhaustion, not curing it."
+    ]
+  },
+  {
+    "id": "q-n1-r-13-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-13"
+    },
+    "prompt": "「帳簿の外に追いやられた」とはどういうことか。",
+    "context": "",
+    "options": [
+      "仕事が完全になくなった。",
+      "仕事が記録されなくなっただけで、なくなってはいない。",
+      "仕事が別の部署に移された。",
+      "仕事の一部が外部に委託された。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The preceding sentence says 減ったのは「記録される残業」であって、仕事そのものではない; the work has left the records, not the workers.",
+    "distractorExplanations": [
+      "The writer explicitly denies that the work itself decreased.",
+      "(correct answer)",
+      "No transfer between departments is mentioned.",
+      "Outsourcing is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-13-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-13"
+    },
+    "prompt": "「体温計を捨てて熱が下がったと言う」という表現から読み取れる筆者の態度はどれか。",
+    "context": "",
+    "options": [
+      "測定の道具を改良すれば問題は解決するという期待。",
+      "測る手段を持たないまま成果を誇ることへの皮肉。",
+      "改革の成果は実際に上がっているという肯定。",
+      "現場の声を無視する政策担当者への同情。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Throwing away the thermometer and declaring the fever gone mocks claiming success without any instrument to measure it: 指標を持たないまま「成果」を誇る.",
+    "distractorExplanations": [
+      "The image is about the absence of a thermometer, not improving one.",
+      "(correct answer)",
+      "The analogy undercuts the claimed success.",
+      "The writer is critical, not sympathetic, toward policy designers."
+    ]
+  },
+  {
+    "id": "q-n1-r-13-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-13"
+    },
+    "prompt": "「逆説」の内容として正しいものはどれか。",
+    "context": "",
+    "options": [
+      "残業を減らすと生産性が上がること。",
+      "統計の数字が良くなるほど、現場は疲れていくこと。",
+      "政策担当者が現場に説明を求められること。",
+      "記録された残業より記録されない残業が多いこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "数字が改善するたびに現場が疲弊する: improvement in the figures coincides with growing exhaustion on the ground.",
+    "distractorExplanations": [
+      "Productivity is not discussed.",
+      "(correct answer)",
+      "This reverses who is asked to explain whom.",
+      "The text does not compare the two quantities."
+    ]
+  },
+  {
+    "id": "q-n1-r-14-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-14"
+    },
+    "prompt": "無料プランのデータについて、規約改定後はどうなるか。",
+    "context": "",
+    "options": [
+      "最終ログインから180日を過ぎると、予告なく削除され、復元できない。",
+      "180日ごとに保存の延長手続きが必要になる。",
+      "削除前に通知が届き、希望すれば復元できる。",
+      "有料プランに移行しない限り即時に削除される。"
+    ],
+    "answerIndex": 0,
+    "explanation": "最終ログイン日より180日間に変更…期間経過後のデータは予告なく削除され、復元はいたしかねます.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "No renewal procedure is offered.",
+      "予告なく (without notice) and 復元はいたしかねます rule out both.",
+      "Deletion is tied to 180 days from last login, not to plan status."
+    ]
+  },
+  {
+    "id": "q-n1-r-14-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-14"
+    },
+    "prompt": "有料プランの利用者が次回更新日の5日前に解約を申し出た場合、どうなるか。",
+    "context": "",
+    "options": [
+      "即日解約される。",
+      "申し出は受理されず、再度手続きが必要になる。",
+      "解約は次回更新の後に反映される。",
+      "次回更新日をもって解約される。"
+    ],
+    "answerIndex": 2,
+    "explanation": "7日前 is the cutoff; それ以降のお申し出は次回更新後に反映されます, so a request five days before takes effect only after the next renewal.",
+    "distractorExplanations": [
+      "Nothing allows same-day cancellation.",
+      "The request is accepted, just applied later.",
+      "(correct answer)",
+      "Taking effect on the renewal date would mean no further charge; the text says after renewal."
+    ]
+  },
+  {
+    "id": "q-n1-r-14-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-14"
+    },
+    "prompt": "「同意いただいたものとみなします」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "改定日以降に利用すれば、明示的に同意しなくても同意したと扱われる。",
+      "利用者が同意書に署名することが必要である。",
+      "同意しない利用者は自動的に有料プランに移行する。",
+      "改定前に利用していた人は全員同意したことになる。"
+    ],
+    "answerIndex": 0,
+    "explanation": "改定日以降に本サービスをご利用になった場合、改定後の規約に同意いただいたものとみなします: continued use counts as consent.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "No signature or explicit act is required; that is the point of みなす.",
+      "Plan changes are unrelated to consent.",
+      "Consent is tied to use after the revision date, not before."
+    ]
+  },
+  {
+    "id": "q-n1-r-14-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-14"
+    },
+    "prompt": "改定に同意できない利用者はどうすればよいか。",
+    "context": "",
+    "options": [
+      "改定日当日に退会する。",
+      "改定日前日までに退会手続きをする。",
+      "改定日から7日以内に異議を申し立てる。",
+      "無料プランに切り替える。"
+    ],
+    "answerIndex": 1,
+    "explanation": "ご同意いただけない場合は、改定日前日までに退会のお手続きをお願いいたします.",
+    "distractorExplanations": [
+      "On the revision date itself, use would already count as consent.",
+      "(correct answer)",
+      "No objection period exists.",
+      "Switching plans does not avoid the new terms."
+    ]
+  },
+  {
+    "id": "q-n1-r-15-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-15"
+    },
+    "prompt": "少年時代の「私」は祖父の本をどう見ていたか。",
+    "context": "",
+    "options": [
+      "祖父の博識の証だと尊敬していた。",
+      "読まない本を買うのは怠慢だと思っていた。",
+      "いつか自分が読むべきものだと感じていた。",
+      "祖父の思考の地図として理解していた。"
+    ],
+    "answerIndex": 1,
+    "explanation": "少年の私はそれを、祖父の怠慢の証拠だと思っていた.",
+    "distractorExplanations": [
+      "The boy was skeptical, not admiring.",
+      "(correct answer)",
+      "No such intention is mentioned.",
+      "This understanding came only after the grandfather's death."
+    ]
+  },
+  {
+    "id": "q-n1-r-15-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-15"
+    },
+    "prompt": "「祖父の思考の地図」とはどういうことか。",
+    "context": "",
+    "options": [
+      "祖父が本の位置を記録したノートがあったこと。",
+      "本の配置そのものに、祖父の関心や思考のつながりが表れていたこと。",
+      "祖父が旅先で買った本を地域ごとに並べていたこと。",
+      "本の背表紙に祖父が書き込みをしていたこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "背表紙の並びそのものが…思考の地図: どの本の隣にどの本を置くか, the arrangement itself mapped his thinking.",
+    "distractorExplanations": [
+      "No notebook exists; the map is the arrangement itself.",
+      "(correct answer)",
+      "Travel and regions are not in the text.",
+      "No annotations are mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-15-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-15"
+    },
+    "prompt": "「読まれなかった本は、祖父にとって未来だった」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "祖父はいずれ本を売って老後の資金にするつもりだった。",
+      "未読の本は、祖父がこれから向き合うつもりだった問いを表していた。",
+      "祖父は孫に本を遺すことで未来に託そうとした。",
+      "祖父は読めなかった本を後悔していた。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The next sentence explains: まだ閉じられていない問いの列, questions still open, i.e. things he intended to pursue.",
+    "distractorExplanations": [
+      "Money is not mentioned.",
+      "(correct answer)",
+      "The narrator inherits by chance; no such intention is stated.",
+      "No regret is expressed by the grandfather."
+    ]
+  },
+  {
+    "id": "q-n1-r-15-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-15"
+    },
+    "prompt": "最後の一文に込められた「私」の心情として最も近いものはどれか。",
+    "context": "",
+    "options": [
+      "片付けが終わる安堵。",
+      "祖父の未完の可能性を自分の手で閉じていくことへの寂しさ。",
+      "読まれなかった本への軽蔑。",
+      "祖父の遺志を継ぐ決意。"
+    ],
+    "answerIndex": 1,
+    "explanation": "祖父の未来を畳んでいった: each box packed closes one of the open questions, the 'future' the books represented.",
+    "distractorExplanations": [
+      "Relief does not fit 畳む applied to 未来.",
+      "(correct answer)",
+      "The narrator has abandoned the earlier contempt.",
+      "No resolve to continue is stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-16-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-16"
+    },
+    "prompt": "次の四人のうち、応募対象となるのは誰か。",
+    "context": "",
+    "options": [
+      "55歳、勤続8年の正社員",
+      "48歳、勤続20年の正社員",
+      "52歳、勤続12年、休職していない営業部の正社員",
+      "51歳、勤続15年で、現在休職中の正社員"
+    ],
+    "answerIndex": 2,
+    "explanation": "Only option 3 satisfies 満50歳以上かつ勤続10年以上 and is not excluded (not on leave).",
+    "distractorExplanations": [
+      "Fails the 10-year service condition.",
+      "Fails the age condition.",
+      "(correct answer)",
+      "Excluded: 現在休職中の方…は対象外."
+    ]
+  },
+  {
+    "id": "q-n1-r-16-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-16"
+    },
+    "prompt": "「本人の自由意思に基づく」という一文が置かれている意図として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "応募者が多すぎることを防ぐため。",
+      "会社が退職を強制していないことを明確にするため。",
+      "応募後の撤回を認めないため。",
+      "再就職支援を受けるかどうかを本人に任せるため。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The sentence is immediately followed by 応募を強制するものではありません; it disclaims coercion.",
+    "distractorExplanations": [
+      "Nothing about limiting numbers is tied to this sentence.",
+      "(correct answer)",
+      "Withdrawal is not mentioned.",
+      "Support services are dealt with in a separate sentence."
+    ]
+  },
+  {
+    "id": "q-n1-r-16-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-16"
+    },
+    "prompt": "応募期間中であっても応募を受け付けてもらえないのはどんな場合か。",
+    "context": "",
+    "options": [
+      "退職日が3月31日でない場合。",
+      "募集人数に達した場合。",
+      "特別加算金を辞退した場合。",
+      "再就職支援を希望しない場合。"
+    ],
+    "answerIndex": 1,
+    "explanation": "募集人数に達した場合は、期間内であっても受付を終了することがあります.",
+    "distractorExplanations": [
+      "Retirement date is set by the company, not a ground for refusal.",
+      "(correct answer)",
+      "Declining the bonus is not mentioned.",
+      "Support is optional (希望者には)."
+    ]
+  },
+  {
+    "id": "q-n1-r-16-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-16"
+    },
+    "prompt": "特別加算金について正しいものはどれか。",
+    "context": "",
+    "options": [
+      "通常の退職金の代わりに支給される。",
+      "通常の退職金に加えて、基本給24か月分を上限に支給される。",
+      "勤続年数に応じて24か月分が全員に支給される。",
+      "再就職が決まった人にのみ支給される。"
+    ],
+    "answerIndex": 1,
+    "explanation": "通常の退職金に加え、月額基本給の24か月分を上限とする特別加算金を支給します.",
+    "distractorExplanations": [
+      "It is in addition to (に加え), not instead of, the regular payment.",
+      "(correct answer)",
+      "24 months is an upper limit, not a guaranteed amount.",
+      "No link to finding a new job is stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-17-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-17"
+    },
+    "prompt": "筆者の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "若者は主権者としての自覚を持ち、投票に行くべきだ。",
+      "低投票率の責任は若者ではなく、選択肢を示せなかった政治の側にある。",
+      "高齢者向けの給付を削減すれば若者の投票率は上がる。",
+      "投票率の低さを嘆くこと自体が無意味である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "問われるべきは、投票所に来ない有権者ではなく、来る理由を与えられなかった政治の想像力である.",
+    "distractorExplanations": [
+      "This is the 'preachy diagnosis' the writer rejects.",
+      "(correct answer)",
+      "The writer mentions the priority given to elderly benefits as a cause, not a policy prescription.",
+      "The writer laments too, but reassigns the responsibility."
+    ]
+  },
+  {
+    "id": "q-n1-r-17-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-17"
+    },
+    "prompt": "「原因と結果を取り違えている」とはどういうことか。",
+    "context": "",
+    "options": [
+      "無関心が低投票率を生むのではなく、政策に反映されない経験が無関心を生んでいる。",
+      "投票率の低さが政治の関心を薄くしている。",
+      "高齢者の投票率が高いことが若者の投票率を下げている。",
+      "選挙の回数が多すぎて若者が疲れている。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The conventional view treats apathy as the cause; the writer says non-reflection comes first and teaches futility: 反映されないからこそ投票しても無駄だと学習する.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "This reverses the wrong pair; the text discusses youth interest, not politicians' interest.",
+      "The comparison between generations is not framed as cause.",
+      "Election frequency is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-17-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-17"
+    },
+    "prompt": "「説教じみた診断」に対する筆者の態度はどれか。",
+    "context": "",
+    "options": [
+      "おおむね同意しつつ補足している。",
+      "批判的で、診断そのものを疑っている。",
+      "診断は正しいが表現が強すぎると考えている。",
+      "誰が言ったかによって評価を変えている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "じみた is pejorative, and the writer immediately asks whether the diagnosis 原因と結果を取り違えてはいないか.",
+    "distractorExplanations": [
+      "The writer overturns rather than supplements it.",
+      "(correct answer)",
+      "The objection is to substance, not tone.",
+      "No speaker is singled out."
+    ]
+  },
+  {
+    "id": "q-n1-r-17-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "editorial",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-17"
+    },
+    "prompt": "「循環」の内容として正しいものはどれか。",
+    "context": "",
+    "options": [
+      "若者が投票しないため政策に反映されず、反映されないため投票が無駄だと学ぶ。",
+      "政治家が若者に説教し、若者が反発してさらに投票しなくなる。",
+      "高齢者が投票し、給付が増え、若者の負担が増える。",
+      "選挙のたびに投票率が下がり、報道が過熱する。"
+    ],
+    "answerIndex": 0,
+    "explanation": "The loop: non-voting → policies do not reflect them → they learn voting is futile → non-voting.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Preaching is criticised but is not part of the described loop.",
+      "Burden on the young is not stated.",
+      "Media are not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-18-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-18"
+    },
+    "prompt": "「記憶とは倉庫ではない」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "記憶は保存されたものを取り出す作業ではなく、失われたものの形をたどり続ける行為だ。",
+      "記憶は容量に限りがあり、古いものから消えていく。",
+      "記憶は整理しなければ取り出せない。",
+      "記憶は他人の記憶と混ざりやすい。"
+    ],
+    "answerIndex": 0,
+    "explanation": "倉庫ではなく、失われたものの輪郭をなぞり続ける指の動き: memory is an ongoing act of tracing, not retrieval from storage.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Capacity is not discussed.",
+      "Organisation is not the contrast drawn.",
+      "Other people's memories are not at issue."
+    ]
+  },
+  {
+    "id": "q-n1-r-18-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-18"
+    },
+    "prompt": "「何かが不意に立ち上がる」の「何か」とは何か。",
+    "context": "",
+    "options": [
+      "母の料理の正確な味。",
+      "味そのものではなく、味があったという確信。",
+      "他人の家の料理の味。",
+      "幼いころの台所の光景。"
+    ],
+    "answerIndex": 1,
+    "explanation": "それは味ではなく、味があったという確信である.",
+    "distractorExplanations": [
+      "The narrator explicitly cannot recall the taste itself.",
+      "(correct answer)",
+      "The smell from another kitchen triggers it but is not the 'something'.",
+      "No visual scene is described."
+    ]
+  },
+  {
+    "id": "q-n1-r-18-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-18"
+    },
+    "prompt": "「奇妙な非対称」とは何を指すか。",
+    "context": "",
+    "options": [
+      "母の料理と自分の料理の出来の差。",
+      "何であるかは思い出せないのに、何でないかはわかること。",
+      "匂いは覚えているのに味は覚えていないこと。",
+      "記憶が鮮明になるほど再現が難しくなること。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The asymmetry is stated in the sentence just before: 何であるかは思い出せないのに、何でないかは知っている.",
+    "distractorExplanations": [
+      "Skill difference is not the point.",
+      "(correct answer)",
+      "Smell is a trigger, not one side of the asymmetry.",
+      "The text does not claim reproduction becomes harder."
+    ]
+  },
+  {
+    "id": "q-n1-r-18-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "literary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-18"
+    },
+    "prompt": "最後の一文「母はいまも生きている」とはどういうことか。",
+    "context": "",
+    "options": [
+      "母の料理を完全に再現できたので母を感じられる。",
+      "「これではない」と否定し続ける感覚の中に、母の存在が保たれている。",
+      "母は実際にまだ存命である。",
+      "母の味を誰かに伝えることで母が生き続ける。"
+    ],
+    "answerIndex": 1,
+    "explanation": "母 lives この奇妙な非対称のうちに, i.e. within the persistent sense of 'not this', sharpened by each failure.",
+    "distractorExplanations": [
+      "Reproduction never succeeded.",
+      "(correct answer)",
+      "The text speaks of memory and loss; the mother is gone.",
+      "Passing on the recipe is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-19-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-19"
+    },
+    "prompt": "推進派が「人間より公平だ」と主張する根拠は何か。",
+    "context": "",
+    "options": [
+      "機械は人間より多くの応募者を面接できるから。",
+      "機械は人間が無意識に持つ偏見を持たないとされるから。",
+      "機械は過去のデータから最適な人材を予測できるから。",
+      "機械は判定の理由を明確に説明できるから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "人間の面接官が無意識に抱く偏見…を、機械は持たないというのである.",
+    "distractorExplanations": [
+      "Speed is mentioned as a benefit but not as the basis for 'fairness'.",
+      "(correct answer)",
+      "Prediction is not the stated basis for fairness.",
+      "The text says the opposite: algorithms cannot explain their decisions."
+    ]
+  },
+  {
+    "id": "q-n1-r-19-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-19"
+    },
+    "prompt": "「機械は差別を発明したのではない」に続く筆者の含意として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "したがって機械に責任はなく、問題は解決済みである。",
+      "機械は過去の偏りを学習し、それを客観的な基準の装いで返しているにすぎない。",
+      "差別を発明したのは開発者であり、彼らを処罰すべきだ。",
+      "機械は差別をむしろ減らしている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The next sentence: 差別を学習し、それを「客観的な基準」という装いで返してきたのだ.",
+    "distractorExplanations": [
+      "The writer treats this as a serious problem, not a resolved one.",
+      "(correct answer)",
+      "Punishing developers is not proposed.",
+      "The example shows bias being reproduced at scale."
+    ]
+  },
+  {
+    "id": "q-n1-r-19-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-19"
+    },
+    "prompt": "筆者が説明責任の問題を「さらに深刻」と考えるのはなぜか。",
+    "context": "",
+    "options": [
+      "アルゴリズムの開発費用が高いから。",
+      "誰も判定の理由を説明できず、判断を問い直したり覆したりできないから。",
+      "人間の面接官のほうが説明が上手だから。",
+      "応募者がアルゴリズムの仕組みを理解できないから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "開発者自身にも個々の判定の理由を言語化できない; with a human, 問いただす and 覆す are possible; with the machine they are not.",
+    "distractorExplanations": [
+      "Cost is not mentioned.",
+      "(correct answer)",
+      "The issue is that questioning and overturning are possible with humans, not that they explain better.",
+      "The text says even developers cannot explain, so applicants' understanding is not the point."
+    ]
+  },
+  {
+    "id": "q-n1-r-19-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-19"
+    },
+    "prompt": "筆者の立場として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "採用選考に機械を使うことに全面的に反対している。",
+      "機械の利用には反対しないが、「機械だから公平だ」という思考停止に反対している。",
+      "機械は人間より公平なので導入を急ぐべきだ。",
+      "公平さは技術によって保証できるので、監査は不要だ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "私は機械の利用そのものに反対しているのではない。反対しているのは、「機械だから公平だ」という思考停止である.",
+    "distractorExplanations": [
+      "Explicitly denied in paragraph 4.",
+      "(correct answer)",
+      "This is the 推進派 view the writer critiques.",
+      "The writer calls for audits and appeal routes."
+    ]
+  },
+  {
+    "id": "q-n1-r-19-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-19"
+    },
+    "prompt": "最終段落の役割として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "それまでの議論を撤回し、機械の利点を認める。",
+      "筆者の立場を限定したうえで、導入に必要な制度的条件を示す。",
+      "新しい事例を挙げて、機械の危険性をさらに強調する。",
+      "読者に採用担当者への抗議を呼びかける。"
+    ],
+    "answerIndex": 1,
+    "explanation": "It narrows the target (反対しているのは思考停止) and lists conditions: 監査, 異議申し立ての経路, 人間が責任を引き受ける.",
+    "distractorExplanations": [
+      "The earlier argument stands; only its scope is clarified.",
+      "(correct answer)",
+      "No new example appears in the final paragraph.",
+      "No call to protest is made."
+    ]
+  },
+  {
+    "id": "q-n1-r-20-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-20"
+    },
+    "prompt": "「すでに確定した未来」とは何を指すか。",
+    "context": "",
+    "options": [
+      "出生率が向上すること。",
+      "今後数十年、人口が減り続けること。",
+      "移民の受け入れが拡大すること。",
+      "地方への移住が進むこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "今後数十年にわたって人口が減り続けることは、すでに確定した未来である.",
+    "distractorExplanations": [
+      "Birth rate policy is one of the measures, not the certain future.",
+      "(correct answer)",
+      "Immigration is a measure, not a certainty.",
+      "Migration is a measure, not a certainty."
+    ]
+  },
+  {
+    "id": "q-n1-r-20-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-20"
+    },
+    "prompt": "インフラの維持費が住民の減少とともに減らないのはなぜか。",
+    "context": "",
+    "options": [
+      "住民が減ると税収が増えるから。",
+      "施設は人口増を見越して整備され、老朽化で費用がむしろ増えるから。",
+      "国が維持費を全額負担しているから。",
+      "住民がサービスの水準向上を要求するから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "増え続けることを見越して整備された…維持費は、住民の数が減っても減らない。むしろ老朽化によって増える.",
+    "distractorExplanations": [
+      "Tax revenue is not discussed; the burden per person grows.",
+      "(correct answer)",
+      "National funding is not mentioned.",
+      "Residents' demands are not the cause given."
+    ]
+  },
+  {
+    "id": "q-n1-r-20-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-20"
+    },
+    "prompt": "「計画された縮小」と「放置された崩壊」の違いとして筆者が挙げているのは何か。",
+    "context": "",
+    "options": [
+      "前者は費用が高く、後者は安い。",
+      "前者には準備の時間があり、後者にはない。",
+      "前者は国が行い、後者は自治体が行う。",
+      "前者は都市で起き、後者は地方で起きる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "前者には準備の時間があり、後者にはない.",
+    "distractorExplanations": [
+      "Cost comparison is not made.",
+      "(correct answer)",
+      "No division between national and local government is mentioned.",
+      "No urban/rural distinction is drawn."
+    ]
+  },
+  {
+    "id": "q-n1-r-20-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-20"
+    },
+    "prompt": "筆者の提案として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "人口減少を止めるための施策にさらに予算を投じるべきだ。",
+      "縮小を敗北ではなく設計の課題として捉え、積極的に計画すべきだ。",
+      "老朽化した施設はすべて即座に閉鎖すべきだ。",
+      "政治家は診療所の閉鎖を公約に掲げるべきだ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "縮小を「敗北」ではなく「設計の課題」として捉え直すことを提案したい.",
+    "distractorExplanations": [
+      "The writer treats those measures as insufficient regardless of success.",
+      "(correct answer)",
+      "Which functions to consolidate is a design question, not blanket closure.",
+      "The writer notes the political difficulty but does not prescribe this."
+    ]
+  },
+  {
+    "id": "q-n1-r-20-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-20"
+    },
+    "prompt": "第三段落の役割として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "縮小の決定が先送りされる政治的理由を説明し、放置の危険を示す。",
+      "人口減少を止める具体策を提示する。",
+      "筆者の提案を実例で裏づける。",
+      "インフラの種類を列挙する。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Paragraph 3 explains why 撤退 is politically hard (選挙に勝てる政治家はいない), leading to postponement and sudden collapse.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Countermeasures appear in paragraph 1.",
+      "The proposal comes in paragraph 4; paragraph 3 sets up its necessity.",
+      "The list of infrastructure is in paragraph 2."
+    ]
+  },
+  {
+    "id": "q-n1-r-21-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-21"
+    },
+    "prompt": "上京当初の筆者にとって、標準語を身につけることはどういう意味を持っていたか。",
+    "context": "",
+    "options": [
+      "故郷への愛着を表す手段。",
+      "都会で生き延びるための技術。",
+      "幼なじみとの絆を保つ方法。",
+      "言語学的な関心の対象。"
+    ],
+    "answerIndex": 1,
+    "explanation": "私は標準語を身につけることを、都会で生き延びるための技術だと考えていた.",
+    "distractorExplanations": [
+      "Standard Japanese was used to hide, not express, the hometown.",
+      "(correct answer)",
+      "Childhood friends belong to the hometown scene later.",
+      "Linguistics enters only in paragraph 3."
+    ]
+  },
+  {
+    "id": "q-n1-r-21-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-21"
+    },
+    "prompt": "「奇妙なこと」とは何か。",
+    "context": "",
+    "options": [
+      "方言を完全に忘れてしまっていたこと。",
+      "方言を話せるのに、話すことにためらいを感じたこと。",
+      "幼なじみが標準語で話しかけてきたこと。",
+      "故郷の人が筆者を都会の人だと判定したこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "話せなくなっていたのではない。話せるのに、話すことに躊躇を覚えたのである.",
+    "distractorExplanations": [
+      "Explicitly denied.",
+      "(correct answer)",
+      "Not mentioned.",
+      "No such judgement by hometown people is described."
+    ]
+  },
+  {
+    "id": "q-n1-r-21-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-21"
+    },
+    "prompt": "「方言を話せることと、方言で自分を語れることとは、別のことだった」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "方言の発音はできても文法は忘れていた。",
+      "方言を発する能力は残っていても、方言を自分のアイデンティティとして使うことはできなくなっていた。",
+      "方言では抽象的な内容を語れない。",
+      "方言を話すと周囲に自分の出身がわかってしまう。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Building on the linguist's claim that dialect is a resource for showing 自分は誰であるか, the writer had kept the ability but lost the self it expressed (もう一つの自己を…手放していた).",
+    "distractorExplanations": [
+      "Grammar is not the issue.",
+      "(correct answer)",
+      "No claim about expressive limits is made.",
+      "This describes the fear of the first year, not the later insight."
+    ]
+  },
+  {
+    "id": "q-n1-r-21-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-21"
+    },
+    "prompt": "筆者が「それでもよい」と思う理由は何か。",
+    "context": "",
+    "options": [
+      "娘がいずれ故郷に住むことになるから。",
+      "言葉は血のように受け継がれるものではなく、選び直されるものだから。",
+      "方言は外国語として学んだほうが上達が早いから。",
+      "娘が方言を母語にする必要はないと妻が言ったから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "言葉は血のように受け継がれるものではなく、選び直されるものだ。私自身がそうであったように.",
+    "distractorExplanations": [
+      "No plan to move is mentioned.",
+      "(correct answer)",
+      "No such claim about learning speed.",
+      "No spouse appears in the text."
+    ]
+  },
+  {
+    "id": "q-n1-r-21-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-21"
+    },
+    "prompt": "筆者が最後に至った認識として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "方言を隠したことは間違いであり、後悔している。",
+      "隠すことも取り戻すことも教えることも、「自分をどう語るか」という同じ問いへの異なる答えである。",
+      "標準語と方言のどちらを選ぶかで人生が決まる。",
+      "娘には自分と同じ苦労をさせたくない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "すべては「自分をどう語るか」という一つの問いの、異なる答えにすぎない.",
+    "distractorExplanations": [
+      "The writer does not express regret; hiding was one valid answer.",
+      "(correct answer)",
+      "The writer denies that language determines identity in such a fixed way.",
+      "Not stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-22-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "criticism",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-22"
+    },
+    "prompt": "筆者が会場を出て「ひどく疲れていた」のはなぜか。",
+    "context": "",
+    "options": [
+      "会場が広く、作品数が多すぎたから。",
+      "どの絵も画面が埋め尽くされ、見る者に休む余地を与えなかったから。",
+      "作品の技術が未熟で見るに堪えなかったから。",
+      "色彩が暗く、気分が沈んだから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "すべての絵が、見る者に一秒の休息も許さなかったからである.",
+    "distractorExplanations": [
+      "Size and number are not mentioned.",
+      "(correct answer)",
+      "Technique is called 申し分ない.",
+      "Colours are described as 大胆, not dark."
+    ]
+  },
+  {
+    "id": "q-n1-r-22-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "criticism",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-22"
+    },
+    "prompt": "「考える場所」とはどういうものか。",
+    "context": "",
+    "options": [
+      "美術館に設けられた休憩室。",
+      "描かれていない部分が見る者に与える、想像や思考の余地。",
+      "作者が制作の意図を説明する解説文。",
+      "鳥の描写が優れているために生まれる感動。"
+    ],
+    "answerIndex": 1,
+    "explanation": "余白とは、作者が見る者に手渡す「考える場所」である; the empty part lets the viewer feel the sky and think.",
+    "distractorExplanations": [
+      "Literal rooms are not meant.",
+      "(correct answer)",
+      "No wall text is mentioned.",
+      "The text says the effect comes not from the bird's rendering but from the emptiness around it."
+    ]
+  },
+  {
+    "id": "q-n1-r-22-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "criticism",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-22"
+    },
+    "prompt": "若手画家が「取り違えている」こととは何か。",
+    "context": "",
+    "options": [
+      "色彩と構図の優先順位。",
+      "描き込むことと充実とを同一視していること。",
+      "伝統絵画と現代絵画の技法。",
+      "個展の規模と評価の高さ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "彼は「描き込むこと」を「充実」と取り違えている。だが充実とは、量ではなく、密度と空虚の対比によって生まれる.",
+    "distractorExplanations": [
+      "Not discussed.",
+      "(correct answer)",
+      "Techniques are not confused; the concept of fullness is.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-22-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "criticism",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-22"
+    },
+    "prompt": "「描かないという選択は、技術の最終段階である」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "技術を極めた者は描くことに飽きてしまう。",
+      "描ける者があえて描かないことは、技術の放棄ではなく技術の到達点だということ。",
+      "技術がない者は最初から描かないほうがよい。",
+      "最終的にはすべての絵が余白だけになる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "描かないという選択は、描けない者にはできない。それは技術の放棄ではなく、技術の最終段階である.",
+    "distractorExplanations": [
+      "Boredom is not suggested.",
+      "(correct answer)",
+      "The writer says the choice is unavailable to those who cannot paint, not advisable for them.",
+      "An exaggeration not in the text."
+    ]
+  },
+  {
+    "id": "q-n1-r-22-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "criticism",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-22"
+    },
+    "prompt": "筆者の若手画家に対する評価として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "才能はないが努力は認める。",
+      "才能は認めるが、それを注ぐ方向に疑問を持っている。",
+      "すでに成熟した画家として高く評価している。",
+      "伝統を無視した姿勢を厳しく非難している。"
+    ],
+    "answerIndex": 1,
+    "explanation": "私は彼の才能を疑わない。疑っているのは、才能を注ぎ込む方向である.",
+    "distractorExplanations": [
+      "Talent is explicitly affirmed.",
+      "(correct answer)",
+      "Maturity is something the writer hopes to see next time.",
+      "The tone is critical but not condemnatory; the writer attributes the tendency to the culture."
+    ]
+  },
+  {
+    "id": "q-n1-r-23-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "economics",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-23"
+    },
+    "prompt": "値上げと値下げの語られ方について、筆者が「興味深い」と言うのはどんな点か。",
+    "context": "",
+    "options": [
+      "値上げも値下げも同じ言葉で告知されること。",
+      "値上げは外部からの不可抗力として、値下げは企業努力の成果として語られること。",
+      "値下げの告知文のほうが長いこと。",
+      "値上げは告知されないことが多いこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "値上げを…不可抗力として語る / 値下げは「企業努力の成果」として、誇らしげに語られる.",
+    "distractorExplanations": [
+      "The point is that they are told differently.",
+      "(correct answer)",
+      "Length is not discussed.",
+      "Price rises are announced; the stock phrase is the point."
+    ]
+  },
+  {
+    "id": "q-n1-r-23-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "economics",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-23"
+    },
+    "prompt": "「前者は同情を、後者は疑念を招く」の「前者」「後者」はそれぞれ何を指すか。",
+    "context": "",
+    "options": [
+      "前者＝値上げ、後者＝値下げ",
+      "前者＝「コスト転嫁」という説明、後者＝「品質向上に伴う改定」という説明",
+      "前者＝需要、後者＝供給",
+      "前者＝老舗、後者＝新興企業"
+    ],
+    "answerIndex": 1,
+    "explanation": "The immediately preceding sentence contrasts the two explanations of the same 10% rise.",
+    "distractorExplanations": [
+      "Both explanations concern a price rise.",
+      "(correct answer)",
+      "Demand and supply appear earlier but are not the pair.",
+      "The 老舗 example comes later."
+    ]
+  },
+  {
+    "id": "q-n1-r-23-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "economics",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-23"
+    },
+    "prompt": "経済学の教科書が「語り」を分析の外に置いてきたのはなぜだと筆者は言うか。",
+    "context": "",
+    "options": [
+      "語りを分析する方法が確立されていなかったから。",
+      "価格は数字であり、言葉は雑音にすぎないと考えられてきたから。",
+      "企業が告知文を公開しなかったから。",
+      "消費者は数字にしか反応しないことが証明されたから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "価格は数字であり、言葉は雑音だと.",
+    "distractorExplanations": [
+      "Method is not the reason given.",
+      "(correct answer)",
+      "Not mentioned.",
+      "The writer argues the opposite: consumers respond to more than numbers."
+    ]
+  },
+  {
+    "id": "q-n1-r-23-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "economics",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-23"
+    },
+    "prompt": "老舗菓子店の例は、どのような主張を裏づけるために挙げられているか。",
+    "context": "",
+    "options": [
+      "値上げは二十年に一度にすべきだという主張。",
+      "値上げの受け止め方は企業への信頼と告知の言葉遣いに左右されるという主張。",
+      "老舗は新興企業より価格を高く設定できるという主張。",
+      "菓子の価格は原材料費とは無関係だという主張。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The example follows 信頼と、告知の言葉遣いとに左右される and is called その典型.",
+    "distractorExplanations": [
+      "Frequency is incidental.",
+      "(correct answer)",
+      "No comparison with new firms is made.",
+      "Raw material costs are not denied."
+    ]
+  },
+  {
+    "id": "q-n1-r-23-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "economics",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-23"
+    },
+    "prompt": "筆者の主張として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "企業は言葉で消費者を巧みに操っているので、規制が必要だ。",
+      "価格は純粋な数字であったことはなく、市場はまず語りの場である。",
+      "消費者は告知文を無視して数字だけを見るべきだ。",
+      "経済学は価格の分析をやめて言語学に転じるべきだ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "価格が純粋な数字であったことなど一度もない…市場は計算の場である以前に、語りの場である.",
+    "distractorExplanations": [
+      "Explicitly denied: 操っているということではない.",
+      "(correct answer)",
+      "The writer says we always read the telling along with the number, as a fact, not a prescription.",
+      "An exaggeration not in the text."
+    ]
+  },
+  {
+    "id": "q-n1-r-24-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "science-policy",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-24"
+    },
+    "prompt": "「わかりません」が誠実な答えになるのはなぜか。",
+    "context": "",
+    "options": [
+      "研究者は応用に関心がないから。",
+      "役に立つかどうかがわかっている研究は、もはや基礎研究ではないから。",
+      "審査員が専門外で説明しても理解できないから。",
+      "応用の見通しを語ると予算が減らされるから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "役に立つかどうかがわかっている研究は、もはや基礎研究ではないからだ.",
+    "distractorExplanations": [
+      "Interest is not the issue; predictability is.",
+      "(correct answer)",
+      "Reviewers' expertise is not discussed.",
+      "The opposite: stating a prospect is what gets funded."
+    ]
+  },
+  {
+    "id": "q-n1-r-24-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "science-policy",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-24"
+    },
+    "prompt": "「儀式」とは何を指すか。",
+    "context": "",
+    "options": [
+      "研究成果を発表する学会。",
+      "申請者も審査者も虚構と知りながら「応用の見通し」を書き、読むこと。",
+      "予算配分を決める政府の会議。",
+      "研究者が実績を積み上げる過程。"
+    ],
+    "answerIndex": 1,
+    "explanation": "双方が虚構と知りながら演じる儀式: writers add prospects they do not believe, reviewers read them knowing that.",
+    "distractorExplanations": [
+      "Conferences are not mentioned.",
+      "(correct answer)",
+      "Government meetings are not mentioned.",
+      "Track record enters only in the proposal."
+    ]
+  },
+  {
+    "id": "q-n1-r-24-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "science-policy",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-24"
+    },
+    "prompt": "第二の歪みが「より深刻」なのはなぜか。",
+    "context": "",
+    "options": [
+      "時間の無駄が第一の歪みより大きいから。",
+      "最も大きな発見をもたらしうる予測不能な研究ほど選ばれなくなるから。",
+      "研究者の士気が下がるから。",
+      "申請書の枚数が増えるから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "真に予測不能な研究——つまり最も大きな発見をもたらしうる研究——ほど、この篩から落ちる.",
+    "distractorExplanations": [
+      "Wasted time is the first distortion.",
+      "(correct answer)",
+      "Morale is not mentioned.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-24-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "science-policy",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-24"
+    },
+    "prompt": "電磁気学の例はどのような主張を支えているか。",
+    "context": "",
+    "options": [
+      "研究は玩具のように楽しむべきだという主張。",
+      "研究の価値は事後にしか判定できないことが多いという主張。",
+      "物理学は他の分野より予算を多く受けるべきだという主張。",
+      "過去の研究者は現代より自由だったという主張。"
+    ],
+    "answerIndex": 1,
+    "explanation": "The example precedes 研究の価値は、事後にしか判定できないことが多い.",
+    "distractorExplanations": [
+      "玩具 describes how the discovery was seen, not a recommendation.",
+      "(correct answer)",
+      "No field comparison is made.",
+      "Not claimed."
+    ]
+  },
+  {
+    "id": "q-n1-r-24-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "science-policy",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-24"
+    },
+    "prompt": "筆者の提案と、それを支える最後の主張として正しいものはどれか。",
+    "context": "",
+    "options": [
+      "すべての予算を用途不問にし、審査を廃止する。",
+      "予算の一部を用途を問わない枠とし、役に立たないことを許容する余裕が役に立つものを生むと考える。",
+      "応用の見通しをより厳密に審査し、虚構を排除する。",
+      "基礎研究の予算を応用研究に振り替える。"
+    ],
+    "answerIndex": 1,
+    "explanation": "予算の一定割合を「用途を問わない枠」として切り分ける…役に立たないことを許容する余裕こそが、役に立つものを生む土壌なのだ.",
+    "distractorExplanations": [
+      "Only 一定割合, and review by originality and record remains.",
+      "(correct answer)",
+      "Stricter review of prospects would deepen the distortion.",
+      "The opposite of the proposal."
+    ]
+  },
+  {
+    "id": "q-n1-r-25-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-25"
+    },
+    "prompt": "筆者が認めている点として正しいものはどれか。",
+    "context": "",
+    "options": [
+      "効率化は社会に害しか与えていない。",
+      "効率化の恩恵は本物であり、目的を所与として手段を最適化することは実務上の知恵である。",
+      "効率の信奉者の主張はすべて正しい。",
+      "教育において試験の点数は最も重要な目的である。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Paragraph 1: 恩恵を否定するつもりはない; paragraph 4: 実務上の知恵である。私はそれを認める.",
+    "distractorExplanations": [
+      "The writer calls the improvements 疑いなく進歩.",
+      "(correct answer)",
+      "Only 一定の説得力 is conceded, then rebutted.",
+      "Test scores are the proxy that displaced the real goal."
+    ]
+  },
+  {
+    "id": "q-n1-r-25-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-25"
+    },
+    "prompt": "効率が「手段」から「目的」へ位置を変えたとはどういうことか。",
+    "context": "",
+    "options": [
+      "効率を測る技術が向上したこと。",
+      "何を達成するかという問いが退き、効率そのものが追求すべき価値になったこと。",
+      "効率化が企業だけでなく行政にも広がったこと。",
+      "効率の意味が時代とともに変わったこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "効率そのものが追求すべき価値となり、「何のために」という問いは後景に退いた.",
+    "distractorExplanations": [
+      "Measurement technology is not discussed.",
+      "(correct answer)",
+      "Spread across sectors is not the point of this sentence.",
+      "The definition of efficiency is unchanged; its role changed."
+    ]
+  },
+  {
+    "id": "q-n1-r-25-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-25"
+    },
+    "prompt": "代理指標の例が示していることは何か。",
+    "context": "",
+    "options": [
+      "測定できるものに置き換えるうちに、本来の目的が変質してしまうこと。",
+      "試験の点数は思考力を正確に反映すること。",
+      "教師の技術が向上すれば生徒の思考力も伸びること。",
+      "進学率を上げることが教育の最終目標であること。"
+    ],
+    "answerIndex": 0,
+    "explanation": "やがて代理指標が目的そのものに置き換わり…当初の目的は、効率化に適した形に切り詰められ、原形をとどめていない.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Scores are introduced precisely because thinking cannot be measured directly.",
+      "The example describes teachers polishing score-raising techniques instead.",
+      "This is the displacement the writer criticises."
+    ]
+  },
+  {
+    "id": "q-n1-r-25-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-25"
+    },
+    "prompt": "「速度計だけを見て走る車」という比喩が表しているものは何か。",
+    "context": "",
+    "options": [
+      "効率化の技術が未熟であること。",
+      "行き先を問わずに速さだけを誇る、安全装置を欠いた効率化。",
+      "車の運転における安全の重要性。",
+      "効率的な移動手段としての自動車の価値。"
+    ],
+    "answerIndex": 1,
+    "explanation": "この装置を持たない効率化は、速度計だけを見て走る車に等しい。どこへ向かっているかを見ずに、速いことだけを誇っている.",
+    "distractorExplanations": [
+      "Immaturity of technique is not the point.",
+      "(correct answer)",
+      "The car is a metaphor, not the topic.",
+      "Same."
+    ]
+  },
+  {
+    "id": "q-n1-r-25-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-25"
+    },
+    "prompt": "第四段落の役割として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "筆者の主張を要約する。",
+      "反論の一部を認める譲歩であり、次の段落での反駁を準備する。",
+      "新たな事例を導入する。",
+      "効率の定義を示す。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Paragraph 4 says この反論には一定の説得力がある…私はそれを認める, and paragraph 5 opens with しかし to rebut.",
+    "distractorExplanations": [
+      "The summary is in the final paragraph.",
+      "(correct answer)",
+      "The education example comes in paragraph 5.",
+      "The definition is in paragraph 2."
+    ]
+  },
+  {
+    "id": "q-n1-r-26-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-26"
+    },
+    "prompt": "匿名性をめぐる議論が「決着しない」のはなぜか。",
+    "context": "",
+    "options": [
+      "どちらの陣営も自説を裏づける事例を容易に挙げられるから。",
+      "法律が匿名を認めていないから。",
+      "実名化の技術が未完成だから。",
+      "議論に参加する人が少ないから。"
+    ],
+    "answerIndex": 0,
+    "explanation": "どちらの主張も、それぞれの事例を挙げれば容易に裏づけられる。だからこそ、この議論は決着しない.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Law is not mentioned.",
+      "Technology is not the obstacle described.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-26-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-26"
+    },
+    "prompt": "筆者が問題視する「前提」とは何か。",
+    "context": "",
+    "options": [
+      "匿名の発言は常に無責任だという前提。",
+      "責任の有無は名前が明かされているかどうかで決まるという前提。",
+      "実名の発言は常に誠実だという前提。",
+      "インターネットでは責任を問えないという前提。"
+    ],
+    "answerIndex": 1,
+    "explanation": "名前が明かされていれば責任を負い、明かされていなければ負わない、という前提である.",
+    "distractorExplanations": [
+      "This is one side's claim, not the shared premise the writer targets.",
+      "(correct answer)",
+      "Same, the other side.",
+      "Not stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-26-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-26"
+    },
+    "prompt": "「継続する匿名」と「使い捨ての匿名」の違いは何か。",
+    "context": "",
+    "options": [
+      "前者は本名を含み、後者は含まない。",
+      "前者では発言が一つの識別子のもとに蓄積され照合されうるが、後者では蓄積されない。",
+      "前者は有料サービスで、後者は無料である。",
+      "前者は法的に保護され、後者は保護されない。"
+    ],
+    "answerIndex": 1,
+    "explanation": "一つの識別子のもとに発言が積み重なり…照合されうる vs 発言のたびに識別子が変わる…どこにも蓄積されず.",
+    "distractorExplanations": [
+      "Both are anonymous; names are not involved.",
+      "(correct answer)",
+      "Cost appears only as a design lever in paragraph 6, not as the definition.",
+      "Legal protection is not discussed."
+    ]
+  },
+  {
+    "id": "q-n1-r-26-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-26"
+    },
+    "prompt": "実名化によって沈黙させられるのは誰だと筆者は言うか。",
+    "context": "",
+    "options": [
+      "暴言を吐く者。",
+      "逃げる必要のない者。",
+      "不正の告発者や被害者など、逃げなければ生きられない者。",
+      "匿名で議論を楽しむ者。"
+    ],
+    "answerIndex": 2,
+    "explanation": "実名化が抑制するのは、逃げる必要のない者ではなく、逃げなければ生きられない者の言葉である.",
+    "distractorExplanations": [
+      "The writer says abusers post under real names too.",
+      "Explicitly the opposite.",
+      "(correct answer)",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-26-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-26"
+    },
+    "prompt": "筆者の結論として最も適切なものはどれか。",
+    "context": "",
+    "options": [
+      "実名を義務づけて誹謗中傷を根絶すべきだ。",
+      "匿名を完全に保障し、いかなる制限も設けるべきではない。",
+      "名前を明かす仕組みではなく、発言が蓄積される仕組みを設計すべきだ。",
+      "匿名か実名かは個々の利用者の自由に任せるべきだ。"
+    ],
+    "answerIndex": 2,
+    "explanation": "設計されるべきは「名前を明かす仕組み」ではなく「発言が蓄積される仕組み」だ.",
+    "distractorExplanations": [
+      "The writer rejects the real-name camp's remedy.",
+      "The writer proposes making disposability costly, i.e. some design constraint.",
+      "(correct answer)",
+      "Individual choice is not the proposal; system design is."
+    ]
+  },
+  {
+    "id": "q-n1-r-27-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-27"
+    },
+    "prompt": "従来の教養擁護が説得力を欠いてきたのはなぜか。",
+    "context": "",
+    "options": [
+      "教養科目を教える教員が不足していたから。",
+      "「人間を豊かにする」という抽象的な理由に終始していたから。",
+      "学生が教養科目を嫌っていたから。",
+      "専門科目の教員が反対していたから。"
+    ],
+    "answerIndex": 1,
+    "explanation": "「教養は人間を豊かにする」という抽象的な擁護に終始し、説得力を欠いてきた.",
+    "distractorExplanations": [
+      "Staffing is not mentioned.",
+      "(correct answer)",
+      "Students' lack of time is noted, but not as the reason the defence fails.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-27-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-27"
+    },
+    "prompt": "筆者は批判者の言い分をどう理解しているか。",
+    "context": "",
+    "options": [
+      "教養科目は役に立たないと断言している。",
+      "教養科目は役に立つことを示せない、と言っている。",
+      "教養科目は予算がかかりすぎると言っている。",
+      "教養科目は学生に人気がないと言っている。"
+    ],
+    "answerIndex": 1,
+    "explanation": "彼らは、教養科目が「役に立たない」と言っているのではない。「役に立つことを示せない」と言っているのである.",
+    "distractorExplanations": [
+      "Explicitly denied.",
+      "(correct answer)",
+      "Budget is the context, not the claim.",
+      "Not the claim attributed to critics."
+    ]
+  },
+  {
+    "id": "q-n1-r-27-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-27"
+    },
+    "prompt": "「対応すべき職務を失った専門家」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "定年退職した専門家。",
+      "習得した技能が陳腐化し、その技能に合う仕事がなくなった卒業生。",
+      "専門分野を変えた研究者。",
+      "転職を繰り返す労働者。"
+    ],
+    "answerIndex": 1,
+    "explanation": "技能の寿命が職業人生より短い; graduates trained only for current jobs find in ten years that those jobs no longer exist.",
+    "distractorExplanations": [
+      "Retirement is not the issue.",
+      "(correct answer)",
+      "Not the meaning.",
+      "Not the meaning."
+    ]
+  },
+  {
+    "id": "q-n1-r-27-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-27"
+    },
+    "prompt": "教養科目の「遠回り」が「実は唯一の道」なのはなぜか。",
+    "context": "",
+    "options": [
+      "抽象的に「前提を疑え」と教えても、それが新しい前提になるだけで、動作は具体的な素材と向き合うことでしか身につかないから。",
+      "哲学や文学の知識そのものが職務に直結するから。",
+      "遠回りのほうが学生の満足度が高いから。",
+      "直接教える教員が存在しないから。"
+    ],
+    "answerIndex": 0,
+    "explanation": "「前提を疑うべきだ」という新しい前提を身につけるだけである。動作は、具体的な素材に繰り返し向き合うことでしか身につかない.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The writer says these do not correspond directly to any job.",
+      "Satisfaction is not mentioned.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-27-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "essay",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-27"
+    },
+    "prompt": "筆者が教養を擁護する「別の角度」とはどのようなものか。",
+    "context": "",
+    "options": [
+      "教養は人間を豊かにするという人文主義的な角度。",
+      "教養は変化する世界で最も長持ちする職業技能だという即物的な角度。",
+      "教養は国家の文化水準を高めるという角度。",
+      "教養は就職面接で有利になるという角度。"
+    ],
+    "answerIndex": 1,
+    "explanation": "守るべき理由は、もっと即物的である。教養は…最も長持ちする技能なのだ.",
+    "distractorExplanations": [
+      "The writer explicitly declines to argue this.",
+      "(correct answer)",
+      "National culture is not mentioned.",
+      "Interviews are not mentioned."
+    ]
+  },
+  {
+    "id": "q-n1-r-28-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-28"
+    },
+    "prompt": "「知らない権利」に対するAの態度はどれか。",
+    "context": "",
+    "options": [
+      "知らない権利は重要なので、検査を制限すべきだ。",
+      "知るかどうかは本人が決めればよく、他人の選択肢を奪う理由にはならない。",
+      "知らない権利は法律で保障すべきだ。",
+      "知らない権利は家族にも及ぶ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "情報を得るかどうかは本人が決めればよいことであり、他人の選択肢を奪う理由にはならない.",
+    "distractorExplanations": [
+      "A opposes restriction.",
+      "(correct answer)",
+      "Not stated by A.",
+      "This is closer to B's concern about family."
+    ]
+  },
+  {
+    "id": "q-n1-r-28-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-28"
+    },
+    "prompt": "Bが最も問題視していることは何か。",
+    "context": "",
+    "options": [
+      "個人が自分の遺伝情報を知ること。",
+      "遺伝情報が個人の外へ流通し、同意していない家族の情報まで流れること。",
+      "検査の精度が低いこと。",
+      "検査費用が高いこと。"
+    ],
+    "answerIndex": 1,
+    "explanation": "私が懸念するのは、個人が自分の情報を知ることではなく、その情報が個人の外へ出ていくことである…同意していない家族の情報をも流通させる.",
+    "distractorExplanations": [
+      "B explicitly says this is not the concern.",
+      "(correct answer)",
+      "Accuracy is not discussed.",
+      "Cost is not discussed."
+    ]
+  },
+  {
+    "id": "q-n1-r-28-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-28"
+    },
+    "prompt": "AとBが共通して認めていることは何か。",
+    "context": "",
+    "options": [
+      "遺伝情報を例外扱いすべきこと。",
+      "検査結果の解釈を支援する専門職を整備すべきこと。",
+      "検査会社への規制を強化すべきこと。",
+      "匿名化は万能であること。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A: 解釈を支援する専門職の整備; B: 情報を扱う専門職の整備には賛成する.",
+    "distractorExplanations": [
+      "A denies this; B does not say it.",
+      "(correct answer)",
+      "A opposes regulation; B calls for 'mechanisms', not explicitly regulation of companies.",
+      "B says the opposite."
+    ]
+  },
+  {
+    "id": "q-n1-r-28-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-28"
+    },
+    "prompt": "Bの「知る自由を守るためにこそ、知られない仕組みが先に要る」とはどういう意味か。",
+    "context": "",
+    "options": [
+      "知る自由は制限されるべきだ。",
+      "情報が外へ漏れない仕組みがなければ、安心して自分の情報を知ることもできない。",
+      "知る自由と知られない自由は両立しない。",
+      "知られない仕組みができるまで検査は禁止すべきだ。"
+    ],
+    "answerIndex": 1,
+    "explanation": "B accepts the value of knowing but argues that protection against circulation is a precondition (先に要る) for exercising it safely.",
+    "distractorExplanations": [
+      "B does not restrict the freedom to know.",
+      "(correct answer)",
+      "B sees them as linked, not incompatible.",
+      "A ban is not proposed."
+    ]
+  },
+  {
+    "id": "q-n1-r-29-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-29"
+    },
+    "prompt": "Aが再開発に賛成する根拠に含まれないものはどれか。",
+    "context": "",
+    "options": [
+      "耐震基準を満たさない建物が多いこと。",
+      "歩いて暮らせる街の中心が生まれること。",
+      "昔ながらの風情が保たれること。",
+      "税収が増えること。"
+    ],
+    "answerIndex": 2,
+    "explanation": "A dismisses 風情 (風情は防災の代わりにはならない); the other three are stated as benefits.",
+    "distractorExplanations": [
+      "Stated by A.",
+      "Stated by A.",
+      "(correct answer)",
+      "Stated by A."
+    ]
+  },
+  {
+    "id": "q-n1-r-29-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-29"
+    },
+    "prompt": "Bが守りたいと言っているものは何か。",
+    "context": "",
+    "options": [
+      "商店街の昔ながらの風情。",
+      "家賃の低さが可能にしていた多様な小さな商い。",
+      "老朽化した建物そのもの。",
+      "全国展開の店舗の進出機会。"
+    ],
+    "answerIndex": 1,
+    "explanation": "私が守りたいのは風情ではなく、家賃の低さが可能にしていた「多様な小さな商い」である.",
+    "distractorExplanations": [
+      "Explicitly denied.",
+      "(correct answer)",
+      "B accepts that seismic problems cannot be ignored.",
+      "B sees chains replacing local shops as the loss."
+    ]
+  },
+  {
+    "id": "q-n1-r-29-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-29"
+    },
+    "prompt": "AとBが一致している点は何か。",
+    "context": "",
+    "options": [
+      "高層化は不可欠である。",
+      "耐震性の問題を放置してはならない。",
+      "優先入居の権利は多くの店を救う。",
+      "家賃は現在の三倍になる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "A: 耐震基準を満たしていない; B: 耐震性の問題を放置してよいとは思わない…前者は不可欠.",
+    "distractorExplanations": [
+      "B calls high-rise construction 選択にすぎない.",
+      "(correct answer)",
+      "B doubts this.",
+      "Only B mentions rent; A does not."
+    ]
+  },
+  {
+    "id": "q-n1-r-29-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-29"
+    },
+    "prompt": "Bの「耐震化と高層化は別のことだ」という一文の意図は何か。",
+    "context": "",
+    "options": [
+      "耐震化のほうが高層化より費用がかかると指摘する。",
+      "安全対策の必要性を認めつつ、それが高層化を正当化するわけではないと主張する。",
+      "高層化すれば耐震性は不要になると主張する。",
+      "耐震化も高層化もどちらも不要だと主張する。"
+    ],
+    "answerIndex": 1,
+    "explanation": "前者は不可欠だが、後者は選択にすぎない: B separates the necessary (耐震化) from the optional (高層化), denying that the first justifies the second.",
+    "distractorExplanations": [
+      "Cost is not compared.",
+      "(correct answer)",
+      "Nonsense in context.",
+      "B says 耐震化 is 不可欠."
+    ]
+  },
+  {
+    "id": "q-n1-r-30-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-30"
+    },
+    "prompt": "活動開始4年の団体と活動開始2年の団体が共同で、総事業費400万円の事業を申請する場合、受けられる助成金の最大額はいくらか。",
+    "context": "",
+    "options": [
+      "100万円",
+      "150万円",
+      "200万円",
+      "300万円"
+    ],
+    "answerIndex": 2,
+    "explanation": "C区分 applies (two groups). Not all are under 3 years, so the ceiling is 300万円; but 助成率 50% of 400万円 = 200万円, which is the binding limit.",
+    "distractorExplanations": [
+      "The 100万円 ceiling applies only when all member groups are under 3 years.",
+      "150万円 is the B ceiling for a single group.",
+      "(correct answer)",
+      "300万円 is the ceiling, but 50% of the budget is lower."
+    ]
+  },
+  {
+    "id": "q-n1-r-30-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-30"
+    },
+    "prompt": "過去にB区分の助成を3回受けた団体が、単独で応募できる区分はどれか。",
+    "context": "",
+    "options": [
+      "A区分",
+      "B区分",
+      "C区分",
+      "応募できる区分はない"
+    ],
+    "answerIndex": 3,
+    "explanation": "(c) bars B. A requires 活動開始から3年未満, impossible for a group that has already received B (3年以上) three times. C requires 2団体以上の共同事業, so it is not available 単独で.",
+    "distractorExplanations": [
+      "A is for groups under 3 years; a three-time B recipient is older.",
+      "Excluded by (c).",
+      "C is a joint category, not open to a single group applying alone.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n1-r-30-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-30"
+    },
+    "prompt": "次の経費のうち、助成の対象となるものはどれか。",
+    "context": "",
+    "options": [
+      "公演後の打ち上げの飲食費",
+      "1点6万円の音響機材の購入費",
+      "外部講師への謝金",
+      "会計担当者の人件費"
+    ],
+    "answerIndex": 2,
+    "explanation": "講師謝金 is listed under 対象経費; the others are explicitly 対象外.",
+    "distractorExplanations": [
+      "飲食費 is excluded.",
+      "備品購入費（1点5万円以上） is excluded.",
+      "(correct answer)",
+      "団体の運営人件費 is excluded."
+    ]
+  },
+  {
+    "id": "q-n1-r-30-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-30"
+    },
+    "prompt": "まだ団体を設立していない準備会が応募する場合、正しいものはどれか。",
+    "context": "",
+    "options": [
+      "個人扱いとなるため応募できない。",
+      "規約案と構成員名簿を添付すればA区分に限り応募できる。",
+      "どの区分にも応募できるが、直近1年の活動報告が必要である。",
+      "C区分の構成団体としてのみ参加できる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "(d) 団体設立を前提とした準備会は、規約案と構成員名簿を添付すればA区分に限り応募できる.",
+    "distractorExplanations": [
+      "The ただし clause creates an exception for preparatory groups.",
+      "(correct answer)",
+      "Only A, and the activity report is waived for A and 準備会.",
+      "Not stated."
+    ]
+  },
+  {
+    "id": "q-n1-r-30-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "application",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n1-reading-30"
+    },
+    "prompt": "助成金の支払いについて正しいものはどれか。",
+    "context": "",
+    "options": [
+      "採択通知と同時に全額が支払われる。",
+      "事業終了後、実績報告書が受理された後に支払われ、希望すれば決定額の50%を上限に概算払いを受けられる。",
+      "事業開始前に全額が概算払いされる。",
+      "4月下旬に半額、事業終了後に残りが支払われる。"
+    ],
+    "answerIndex": 1,
+    "explanation": "助成金は事業終了後の実績報告書の受理後に支払う（概算払いを希望する場合は…上限は助成決定額の50%）.",
+    "distractorExplanations": [
+      "Payment follows the final report.",
+      "(correct answer)",
+      "Advance payment is capped at 50% and must be requested with a reason.",
+      "April is the notification date, not a payment date."
+    ]
+  }
+]

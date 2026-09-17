@@ -1,0 +1,70 @@
+{
+  "id": "n5-reading-21",
+  "slug": "21-eki-de-kaiwa",
+  "level": "n5",
+  "order": 21,
+  "kind": "short",
+  "title": "駅で",
+  "paragraphs": [
+    "男（おとこ）の人（ひと）：すみません。この電車（でんしゃ）は上野（うえの）へ行（い）きますか。",
+    "駅員（えきいん）：いいえ、行（い）きません。上野（うえの）は三番線（さんばんせん）の電車（でんしゃ）です。",
+    "男（おとこ）の人（ひと）：三番線（さんばんせん）はどこですか。",
+    "駅員（えきいん）：あの階段（かいだん）を上（あ）がって、右（みぎ）です。",
+    "男（おとこ）の人（ひと）：次（つぎ）の電車（でんしゃ）は何時（なんじ）ですか。",
+    "駅員（えきいん）：十時十分（じゅうじじゅっぷん）です。あと五分（ごふん）ですよ。",
+    "男（おとこ）の人（ひと）：ありがとうございます。"
+  ],
+  "vocab": [
+    {
+      "word": "駅員",
+      "reading": "えきいん",
+      "meaning": "station staff"
+    },
+    {
+      "word": "〜番線",
+      "reading": "ばんせん",
+      "meaning": "platform number"
+    },
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning": "stairs"
+    },
+    {
+      "word": "上がる",
+      "reading": "あがる",
+      "meaning": "to go up"
+    },
+    {
+      "word": "右",
+      "reading": "みぎ",
+      "meaning": "right"
+    },
+    {
+      "word": "次",
+      "reading": "つぎ",
+      "meaning": "next"
+    },
+    {
+      "word": "あと〜分",
+      "reading": "あとふん",
+      "meaning": "... minutes left"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "meaning": "excuse me"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-21-1",
+    "q-n5-r-21-2",
+    "q-n5-r-21-3"
+  ],
+  "strategyNotes": [
+    "In dialogues, the question の人 asks tells you their goal (上野へ行きたい).",
+    "Directions come as verb + direction: 階段を上がって、右. Picture it.",
+    "あと五分 (5 minutes left) lets you calculate the current time from the next departure."
+  ],
+  "timeLimitSeconds": 150
+}

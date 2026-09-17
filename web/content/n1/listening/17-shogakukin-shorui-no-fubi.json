@@ -1,0 +1,102 @@
+{
+  "id": "n1-listening-17",
+  "slug": "17-shogakukin-shorui-no-fubi",
+  "level": "n1",
+  "order": 17,
+  "kind": "task",
+  "title": "奨学金書類の不備",
+  "setting": "大学で、事務の女の人と学生が奨学金の書類について話しています。学生が直す必要がないものはどれですか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "奨学金の申請書類、拝見しました。いくつか不備があるので、お伝えしますね。"
+    },
+    {
+      "speaker": "学生",
+      "line": "はい、お願いします。"
+    },
+    {
+      "speaker": "女",
+      "line": "まず、成績証明書ですが、これは前期のものですよね。申請には直近の、つまり後期の成績が載ったものが必要です。"
+    },
+    {
+      "speaker": "学生",
+      "line": "後期の証明書、まだ発行されてないんじゃ。"
+    },
+    {
+      "speaker": "女",
+      "line": "来週から発行できますので、それを待ってください。それから、推薦書。指導教員の署名はあるんですが、日付が抜けてます。"
+    },
+    {
+      "speaker": "学生",
+      "line": "あ、先生に書いてもらいます。"
+    },
+    {
+      "speaker": "女",
+      "line": "それと、家計の状況を書く欄なんですが、収入額が課税証明書と食い違ってます。どちらかが間違ってるので、確認して修正を。"
+    },
+    {
+      "speaker": "学生",
+      "line": "証明書のほうが正しいはずなので、申請書を直します。"
+    },
+    {
+      "speaker": "女",
+      "line": "では、証明書の差し替え、推薦書の日付、収入額の修正、この三点ですね。住所とかその他は問題ありません。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "不備",
+      "reading": "ふび",
+      "meaning": "deficiency, missing item"
+    },
+    {
+      "word": "直近",
+      "reading": "ちょっきん",
+      "meaning": "most recent"
+    },
+    {
+      "word": "発行",
+      "reading": "はっこう",
+      "meaning": "issue (of a document)"
+    },
+    {
+      "word": "推薦書",
+      "reading": "すいせんしょ",
+      "meaning": "letter of recommendation"
+    },
+    {
+      "word": "署名",
+      "reading": "しょめい",
+      "meaning": "signature"
+    },
+    {
+      "word": "抜ける",
+      "reading": "ぬける",
+      "meaning": "to be missing"
+    },
+    {
+      "word": "家計",
+      "reading": "かけい",
+      "meaning": "household finances"
+    },
+    {
+      "word": "課税証明書",
+      "reading": "かぜいしょうめいしょ",
+      "meaning": "tax certificate"
+    },
+    {
+      "word": "食い違う",
+      "reading": "くいちがう",
+      "meaning": "to be inconsistent"
+    },
+    {
+      "word": "差し替え",
+      "reading": "さしかえ",
+      "meaning": "replacement"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-17-1"
+  ]
+}

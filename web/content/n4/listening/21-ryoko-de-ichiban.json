@@ -1,0 +1,76 @@
+{
+  "id": "n4-listening-21",
+  "slug": "21-ryoko-de-ichiban",
+  "level": "n4",
+  "order": 21,
+  "kind": "point",
+  "title": "旅行で一番よかったこと",
+  "setting": "女の人と男の人が旅行について話しています。男の人は旅行で何が一番よかったと言っていますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "北海道旅行、どうだった？"
+    },
+    {
+      "speaker": "男",
+      "line": "楽しかったよ。景色もきれいだったし、温泉も気持ちよかった。"
+    },
+    {
+      "speaker": "女",
+      "line": "食べ物もおいしかったでしょう？"
+    },
+    {
+      "speaker": "男",
+      "line": "うん、魚が新鮮でね。でも、一番よかったのは、泊まった旅館の人がすごく親切だったこと。また行きたいって思ったよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "へえ、いいね。私も今度、その旅館に泊まってみたいな。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "景色",
+      "reading": "けしき",
+      "meaning": "scenery"
+    },
+    {
+      "word": "温泉",
+      "reading": "おんせん",
+      "meaning": "hot spring"
+    },
+    {
+      "word": "〜し",
+      "reading": "し",
+      "meaning": "and (listing reasons)"
+    },
+    {
+      "word": "新鮮",
+      "reading": "しんせん",
+      "meaning": "fresh"
+    },
+    {
+      "word": "泊まる",
+      "reading": "とまる",
+      "meaning": "to stay overnight"
+    },
+    {
+      "word": "旅館",
+      "reading": "りょかん",
+      "meaning": "Japanese inn"
+    },
+    {
+      "word": "親切",
+      "reading": "しんせつ",
+      "meaning": "kind"
+    },
+    {
+      "word": "一番",
+      "reading": "いちばん",
+      "meaning": "the most"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-21-1"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "n3-listening-18",
+  "slug": "18-haisha-no-yoyaku",
+  "level": "n3",
+  "order": 18,
+  "kind": "task",
+  "title": "歯医者の予約",
+  "setting": "電話で、男の人と歯医者の受付が話しています。男の人は明日何時に歯医者に着かなければなりませんか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "もしもし、予約したいんですけど。歯が痛くて。"
+    },
+    {
+      "speaker": "受付",
+      "line": "かしこまりました。ご希望の日はございますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "できれば今日か明日で。"
+    },
+    {
+      "speaker": "受付",
+      "line": "申し訳ありません、今日はもういっぱいでして。明日ですと、午前十時か、午後四時が空いております。"
+    },
+    {
+      "speaker": "男",
+      "line": "午前は仕事なんで、四時でお願いします。"
+    },
+    {
+      "speaker": "受付",
+      "line": "明日の午後四時ですね。あ、初めてのご来院ですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい。"
+    },
+    {
+      "speaker": "受付",
+      "line": "では、問診票を書いていただきますので、十五分前にお越しください。保険証もお忘れなく。"
+    },
+    {
+      "speaker": "男",
+      "line": "三時四十五分ですね。わかりました。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "歯医者",
+      "reading": "はいしゃ",
+      "meaning": "dentist"
+    },
+    {
+      "word": "受付",
+      "reading": "うけつけ",
+      "meaning": "reception"
+    },
+    {
+      "word": "ご希望",
+      "reading": "ごきぼう",
+      "meaning": "your preference"
+    },
+    {
+      "word": "いっぱい",
+      "reading": "いっぱい",
+      "meaning": "full"
+    },
+    {
+      "word": "空く",
+      "reading": "あく",
+      "meaning": "to be free (slot)"
+    },
+    {
+      "word": "来院",
+      "reading": "らいいん",
+      "meaning": "visit to a clinic"
+    },
+    {
+      "word": "問診票",
+      "reading": "もんしんひょう",
+      "meaning": "medical questionnaire"
+    },
+    {
+      "word": "お越しください",
+      "reading": "おこしください",
+      "meaning": "please come"
+    },
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meaning": "insurance card"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-18-1"
+  ]
+}

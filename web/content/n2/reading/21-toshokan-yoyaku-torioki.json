@@ -1,0 +1,87 @@
+{
+  "id": "n2-reading-21",
+  "slug": "21-toshokan-yoyaku-torioki",
+  "level": "n2",
+  "order": 21,
+  "kind": "short",
+  "title": "図書館 予約資料の受け取りについて",
+  "paragraphs": [
+    "中央図書館からのお知らせ　〜 予約資料の受け取りについて 〜",
+    "10月1日より、予約資料の取り置き期間を「連絡日から10日間」から「7日間」に短縮します。近年、予約が集中する資料の待ち人数が増え、取り置き期間内に受け取られない資料が全体の約2割に上っています。次にお待ちの方への提供を早めるための変更ですので、ご理解をお願いいたします。",
+    "なお、期間内に来館が難しい場合は、電話またはマイページから、一度に限り7日間の延長ができます。延長の手続きをせずに期間を過ぎた資料は、予約を取り消し、次の方にご案内します。",
+    "また、取り消しが半年間に5回以上になった場合、新規の予約を3か月間停止させていただきます。"
+  ],
+  "vocab": [
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": "materials, items"
+    },
+    {
+      "word": "取り置き",
+      "reading": "とりおき",
+      "meaning": "holding (an item)"
+    },
+    {
+      "word": "短縮する",
+      "reading": "たんしゅくする",
+      "meaning": "to shorten"
+    },
+    {
+      "word": "集中する",
+      "reading": "しゅうちゅうする",
+      "meaning": "to concentrate"
+    },
+    {
+      "word": "〜に上る",
+      "reading": "にのぼる",
+      "meaning": "to amount to"
+    },
+    {
+      "word": "提供",
+      "reading": "ていきょう",
+      "meaning": "provision"
+    },
+    {
+      "word": "来館",
+      "reading": "らいかん",
+      "meaning": "visiting the library"
+    },
+    {
+      "word": "〜に限り",
+      "reading": "にかぎり",
+      "meaning": "limited to ..."
+    },
+    {
+      "word": "延長",
+      "reading": "えんちょう",
+      "meaning": "extension"
+    },
+    {
+      "word": "取り消す",
+      "reading": "とりけす",
+      "meaning": "to cancel"
+    },
+    {
+      "word": "新規",
+      "reading": "しんき",
+      "meaning": "new"
+    },
+    {
+      "word": "停止する",
+      "reading": "ていしする",
+      "meaning": "to suspend"
+    }
+  ],
+  "questionIds": [
+    "q-n2-r-21-1",
+    "q-n2-r-21-2",
+    "q-n2-r-21-3"
+  ],
+  "strategyNotes": [
+    "Notices about rule changes give: the change, the reason, the exception, the penalty. Map each question to one of these four.",
+    "「一度に限り」 restricts the extension to one time. Options offering repeated extensions are wrong.",
+    "Penalty conditions combine a number and a period (5回以上 / 半年間 / 3か月間). Check all three numbers."
+  ],
+  "timeLimitSeconds": 180
+}

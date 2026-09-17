@@ -1,0 +1,75 @@
+{
+  "id": "n5-listening-22",
+  "slug": "22-donna-heya",
+  "level": "n5",
+  "order": 22,
+  "kind": "point",
+  "title": "どんな部屋",
+  "setting": "不動産屋で、男の人と店の人が話しています。男の人はどんな部屋がいいと言っていますか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "どんな部屋がいいですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "駅に近い部屋がいいです。会社まで電車で行きますから。"
+    },
+    {
+      "speaker": "店員",
+      "line": "この部屋は駅から五分です。でも、少し古いです。"
+    },
+    {
+      "speaker": "男",
+      "line": "古くても大丈夫です。安いほうがいいです。"
+    },
+    {
+      "speaker": "店員",
+      "line": "家賃は五万円です。"
+    },
+    {
+      "speaker": "男",
+      "line": "いいですね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "room, apartment"
+    },
+    {
+      "word": "近い",
+      "reading": "ちかい",
+      "meaning": "near"
+    },
+    {
+      "word": "古い",
+      "reading": "ふるい",
+      "meaning": "old"
+    },
+    {
+      "word": "〜ても",
+      "reading": "ても",
+      "meaning": "even if"
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meaning": "cheap"
+    },
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "meaning": "rent"
+    },
+    {
+      "word": "五万円",
+      "reading": "ごまんえん",
+      "meaning": "50,000 yen"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-22-1"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "n3-listening-22",
+  "slug": "22-hikkosu-wake",
+  "level": "n3",
+  "order": 22,
+  "kind": "point",
+  "title": "引っ越すわけ",
+  "setting": "会社で、女の人と男の人が話しています。男の人はどうして引っ越すことにしましたか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "引っ越すんだって？今の部屋、駅から近くて便利だったのに。"
+    },
+    {
+      "speaker": "男",
+      "line": "そうなんだけどね。実は、隣で工事が始まって、朝から音がすごいんだよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "あー、それはつらいね。いつまで続くの？"
+    },
+    {
+      "speaker": "男",
+      "line": "半年は続くらしい。夜勤の日は昼間寝るから、もう無理で。"
+    },
+    {
+      "speaker": "女",
+      "line": "家賃が上がったのかと思った。"
+    },
+    {
+      "speaker": "男",
+      "line": "家賃は変わってないよ。むしろ新しいところのほうが少し高いくらい。"
+    },
+    {
+      "speaker": "女",
+      "line": "そこまでして。よっぽどうるさいんだね。"
+    },
+    {
+      "speaker": "男",
+      "line": "うん。静かに寝られるなら、多少高くてもいいかなって。"
+    },
+    {
+      "speaker": "女",
+      "line": "まあ、体が一番だもんね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "〜んだって",
+      "reading": "んだって",
+      "meaning": "I hear that"
+    },
+    {
+      "word": "〜のに",
+      "reading": "のに",
+      "meaning": "even though"
+    },
+    {
+      "word": "工事",
+      "reading": "こうじ",
+      "meaning": "construction work"
+    },
+    {
+      "word": "つらい",
+      "reading": "つらい",
+      "meaning": "hard, painful"
+    },
+    {
+      "word": "夜勤",
+      "reading": "やきん",
+      "meaning": "night shift"
+    },
+    {
+      "word": "昼間",
+      "reading": "ひるま",
+      "meaning": "daytime"
+    },
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "meaning": "rent"
+    },
+    {
+      "word": "むしろ",
+      "reading": "むしろ",
+      "meaning": "rather"
+    },
+    {
+      "word": "よっぽど",
+      "reading": "よっぽど",
+      "meaning": "really, considerably"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-22-1"
+  ]
+}

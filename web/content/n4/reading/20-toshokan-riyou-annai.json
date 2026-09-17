@@ -1,0 +1,100 @@
+{
+  "id": "n4-reading-20",
+  "slug": "20-toshokan-riyou-annai",
+  "level": "n4",
+  "order": 20,
+  "kind": "info",
+  "title": "図書館の利用案内",
+  "paragraphs": [
+    "ひまわり図書館　利用（りよう）のご案内",
+    "■　貸出（かしだし）",
+    "・本を借りるには、貸出カードが必要（ひつよう）です。カードは一階のカウンターで作れます。住所（じゅうしょ）がわかるもの（保険証（ほけんしょう）、免許証（めんきょしょう）など）をお持ちください。",
+    "・一人十冊まで、二週間借りられます。CD・DVDは三点（さんてん）まで、一週間です。",
+    "・返す日を過（す）ぎた場合は、返すまで新しく借りることができません。",
+    "■　返却（へんきゃく）",
+    "・閉館後は、入口の横（よこ）の返却ポストに入れてください。ただし、CD・DVDはこわれやすいので、必ずカウンターに返してください。",
+    "■　延長（えんちょう）",
+    "・ほかの人の予約が入っていない本は、一回だけ二週間延長できます。",
+    "■　その他",
+    "・館内での飲食、大きな声での会話はご遠慮（えんりょ）ください。",
+    "・雑誌の最新号（さいしんごう）は貸出できません。"
+  ],
+  "vocab": [
+    {
+      "word": "利用",
+      "reading": "りよう",
+      "meaning": "use"
+    },
+    {
+      "word": "貸出",
+      "reading": "かしだし",
+      "meaning": "lending"
+    },
+    {
+      "word": "必要",
+      "reading": "ひつよう",
+      "meaning": "necessary"
+    },
+    {
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meaning": "address"
+    },
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meaning": "health insurance card"
+    },
+    {
+      "word": "免許証",
+      "reading": "めんきょしょう",
+      "meaning": "driver's licence"
+    },
+    {
+      "word": "過ぎる",
+      "reading": "すぎる",
+      "meaning": "to pass (a date)"
+    },
+    {
+      "word": "返却",
+      "reading": "へんきゃく",
+      "meaning": "return"
+    },
+    {
+      "word": "閉館",
+      "reading": "へいかん",
+      "meaning": "closing (of a facility)"
+    },
+    {
+      "word": "ただし",
+      "reading": "ただし",
+      "meaning": "however"
+    },
+    {
+      "word": "延長",
+      "reading": "えんちょう",
+      "meaning": "extension"
+    },
+    {
+      "word": "ご遠慮ください",
+      "reading": "ごえんりょください",
+      "meaning": "please refrain"
+    },
+    {
+      "word": "最新号",
+      "reading": "さいしんごう",
+      "meaning": "latest issue"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-20-1",
+    "q-n4-r-20-2",
+    "q-n4-r-20-3"
+  ],
+  "strategyNotes": [
+    "ただし introduces an exception to the sentence before it. CDs and DVDs get their own rule.",
+    "Limits come in pairs: number (十冊) and period (二週間). Do not mix book limits with CD limits.",
+    "延長 has a condition (no reservation by others) and a count (一回だけ). Both can be tested."
+  ],
+  "timeLimitSeconds": 300
+}

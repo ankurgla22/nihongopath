@@ -1,0 +1,75 @@
+{
+  "id": "n1-listening-30",
+  "slug": "30-sokuji-oto-shokuba-no-kaiwa",
+  "level": "n1",
+  "order": 30,
+  "kind": "quick-response",
+  "title": "即時応答（職場の会話）",
+  "setting": "それぞれの文を聞いて、正しい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "先日お送りした見積書、ご確認いただけましたでしょうか。"
+    },
+    {
+      "speaker": "女",
+      "line": "今回の件は、私の力不足で、面目ない。"
+    },
+    {
+      "speaker": "男",
+      "line": "新しい企画、部長の鶴の一声で決まっちゃったね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "見積書",
+      "reading": "みつもりしょ",
+      "meaning": "written estimate"
+    },
+    {
+      "word": "拝見する",
+      "reading": "はいけんする",
+      "meaning": "to see (humble)"
+    },
+    {
+      "word": "お伺いする",
+      "reading": "おうかがいする",
+      "meaning": "to ask (humble)"
+    },
+    {
+      "word": "力不足",
+      "reading": "ちからぶそく",
+      "meaning": "lack of ability"
+    },
+    {
+      "word": "面目ない",
+      "reading": "めんぼくない",
+      "meaning": "I am ashamed"
+    },
+    {
+      "word": "誰にでもあること",
+      "reading": "だれにでもあること",
+      "meaning": "it happens to everyone"
+    },
+    {
+      "word": "企画",
+      "reading": "きかく",
+      "meaning": "project proposal"
+    },
+    {
+      "word": "鶴の一声",
+      "reading": "つるのひとこえ",
+      "meaning": "the decisive word of an authority"
+    },
+    {
+      "word": "余地",
+      "reading": "よち",
+      "meaning": "room (for)"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-30-1",
+    "q-n1-l-30-2",
+    "q-n1-l-30-3"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "n5-reading-27",
+  "slug": "27-apaato-koukoku",
+  "level": "n5",
+  "order": 27,
+  "kind": "info",
+  "title": "アパートの広告",
+  "paragraphs": [
+    "アパート　さくら荘（そう）　201号室（ごうしつ）",
+    "家賃（やちん）：六万円（ろくまんえん）（水道（すいどう）代（だい）は家賃（やちん）の中（なか））",
+    "部屋（へや）：六畳（ろくじょう）・キッチン・トイレ・シャワー",
+    "駅（えき）から歩（ある）いて八分（はっぷん）。スーパーまで三分（さんぷん）。",
+    "二階（にかい）。南（みなみ）むきで、明（あか）るいです。",
+    "ペットはだめです。",
+    "電話（でんわ）：みどり不動産（ふどうさん）　03-9876-5432（日曜日（にちようび）は休（やす）み）"
+  ],
+  "vocab": [
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "meaning": "rent"
+    },
+    {
+      "word": "水道代",
+      "reading": "すいどうだい",
+      "meaning": "water bill"
+    },
+    {
+      "word": "六畳",
+      "reading": "ろくじょう",
+      "meaning": "six tatami mats (room size)"
+    },
+    {
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "room"
+    },
+    {
+      "word": "二階",
+      "reading": "にかい",
+      "meaning": "second floor"
+    },
+    {
+      "word": "南向き",
+      "reading": "みなみむき",
+      "meaning": "south-facing"
+    },
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "meaning": "bright"
+    },
+    {
+      "word": "ペット",
+      "reading": "ぺっと",
+      "meaning": "pet"
+    },
+    {
+      "word": "だめ",
+      "reading": "だめ",
+      "meaning": "not allowed"
+    },
+    {
+      "word": "不動産",
+      "reading": "ふどうさん",
+      "meaning": "real estate agency"
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "meaning": "closed"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-27-1",
+    "q-n5-r-27-2",
+    "q-n5-r-27-3"
+  ],
+  "strategyNotes": [
+    "Apartment ads pack numbers: rent, minutes to station, floor. Label each number before answering.",
+    "だめです = not allowed. Pets are the classic condition question.",
+    "The phone line includes the agency's closed day; that is a separate fact from the room."
+  ],
+  "timeLimitSeconds": 180
+}

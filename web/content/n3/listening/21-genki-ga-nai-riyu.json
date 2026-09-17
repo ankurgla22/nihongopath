@@ -1,0 +1,93 @@
+{
+  "id": "n3-listening-21",
+  "slug": "21-genki-ga-nai-riyu",
+  "level": "n3",
+  "order": 21,
+  "kind": "point",
+  "title": "元気がない理由",
+  "setting": "学校で、男の学生と女の学生が話しています。女の学生はどうして元気がないのですか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "どうしたの？なんか元気ないね。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、ちょっとね。"
+    },
+    {
+      "speaker": "男",
+      "line": "テスト、悪かった？昨日、難しかったって言ってたじゃん。"
+    },
+    {
+      "speaker": "女",
+      "line": "ううん、テストはまあまあだった。実は、飼ってた猫が昨日から帰ってこないの。"
+    },
+    {
+      "speaker": "男",
+      "line": "えっ、それは心配だね。外に出るタイプなの？"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、いつもは夕方には戻ってくるんだけど。近所は探したんだけど、見つからなくて。今日も授業終わったらまた探そうと思って。"
+    },
+    {
+      "speaker": "男",
+      "line": "手伝うよ。写真ある？"
+    },
+    {
+      "speaker": "女",
+      "line": "ありがとう。ある。じゃ、四時に校門で待ち合わせしよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "元気がない",
+      "reading": "げんきがない",
+      "meaning": "to look down"
+    },
+    {
+      "word": "なんか",
+      "reading": "なんか",
+      "meaning": "somehow"
+    },
+    {
+      "word": "まあまあ",
+      "reading": "まあまあ",
+      "meaning": "so-so"
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually"
+    },
+    {
+      "word": "飼う",
+      "reading": "かう",
+      "meaning": "to keep (a pet)"
+    },
+    {
+      "word": "〜てた",
+      "reading": "てた",
+      "meaning": "contraction of ていた"
+    },
+    {
+      "word": "心配",
+      "reading": "しんぱい",
+      "meaning": "worry"
+    },
+    {
+      "word": "近所",
+      "reading": "きんじょ",
+      "meaning": "neighbourhood"
+    },
+    {
+      "word": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-21-1"
+  ]
+}

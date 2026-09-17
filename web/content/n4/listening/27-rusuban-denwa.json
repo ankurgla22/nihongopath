@@ -1,0 +1,60 @@
+{
+  "id": "n4-listening-27",
+  "slug": "27-rusuban-denwa",
+  "level": "n4",
+  "order": 27,
+  "kind": "summary",
+  "title": "留守番電話",
+  "setting": "留守番電話のメッセージを聞いています。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "もしもし、山田です。明日の約束のことなんですが、急に出張が入ってしまって、行けなくなりました。本当にすみません。来週なら、水曜日と木曜日が空いています。ご都合のいい日を教えてください。このメッセージを聞いたら、電話をください。夜遅くても大丈夫です。では、失礼します。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "留守番電話",
+      "reading": "るすばんでんわ",
+      "meaning": "answering machine"
+    },
+    {
+      "word": "約束",
+      "reading": "やくそく",
+      "meaning": "appointment"
+    },
+    {
+      "word": "急に",
+      "reading": "きゅうに",
+      "meaning": "suddenly"
+    },
+    {
+      "word": "出張が入る",
+      "reading": "しゅっちょうがはいる",
+      "meaning": "a business trip comes up"
+    },
+    {
+      "word": "空いている",
+      "reading": "あいている",
+      "meaning": "to be free"
+    },
+    {
+      "word": "ご都合",
+      "reading": "ごつごう",
+      "meaning": "your convenience"
+    },
+    {
+      "word": "〜たら",
+      "reading": "たら",
+      "meaning": "when, if"
+    },
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meaning": "goodbye (polite)"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-27-1"
+  ]
+}

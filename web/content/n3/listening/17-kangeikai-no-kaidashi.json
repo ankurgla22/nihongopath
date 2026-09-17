@@ -1,0 +1,101 @@
+{
+  "id": "n3-listening-17",
+  "slug": "17-kangeikai-no-kaidashi",
+  "level": "n3",
+  "order": 17,
+  "kind": "task",
+  "title": "歓迎会の買い出し",
+  "setting": "会社で、女の人と男の人が話しています。男の人は何を買って帰りますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "明日の歓迎会の飲み物、買い出し頼んでもいい？"
+    },
+    {
+      "speaker": "男",
+      "line": "いいよ。何買えばいい？"
+    },
+    {
+      "speaker": "女",
+      "line": "ジュースとお茶を三本ずつ。ビールは山田さんが持ってきてくれるって。"
+    },
+    {
+      "speaker": "男",
+      "line": "了解。お菓子は？"
+    },
+    {
+      "speaker": "女",
+      "line": "お菓子は私が明日の朝、駅前で買ってく。あ、でも紙コップがないんだった。それもお願いしていい？"
+    },
+    {
+      "speaker": "男",
+      "line": "紙コップね。何個入り？"
+    },
+    {
+      "speaker": "女",
+      "line": "二十個入りを二つで足りると思う。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかった。あ、お茶は温かいのと冷たいの、どっち？"
+    },
+    {
+      "speaker": "女",
+      "line": "冷たいのでいいよ。あと、レシートもらってきてね。後で精算するから。"
+    },
+    {
+      "speaker": "男",
+      "line": "了解。じゃ、帰りに寄ってく。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "歓迎会",
+      "reading": "かんげいかい",
+      "meaning": "welcome party"
+    },
+    {
+      "word": "買い出し",
+      "reading": "かいだし",
+      "meaning": "shopping run"
+    },
+    {
+      "word": "〜ずつ",
+      "reading": "ずつ",
+      "meaning": "each"
+    },
+    {
+      "word": "〜って",
+      "reading": "って",
+      "meaning": "(quoting) they say"
+    },
+    {
+      "word": "了解",
+      "reading": "りょうかい",
+      "meaning": "got it"
+    },
+    {
+      "word": "〜てく",
+      "reading": "てく",
+      "meaning": "contraction of ていく"
+    },
+    {
+      "word": "紙コップ",
+      "reading": "かみコップ",
+      "meaning": "paper cup"
+    },
+    {
+      "word": "〜個入り",
+      "reading": "こいり",
+      "meaning": "pack of ~"
+    },
+    {
+      "word": "足りる",
+      "reading": "たりる",
+      "meaning": "to be enough"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-17-1"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-23",
+  "slug": "23-itsu-benkyo-shimasu-ka",
+  "level": "n5",
+  "order": 23,
+  "kind": "point",
+  "title": "いつ勉強しますか",
+  "setting": "男の人と女の人が話しています。女の人はいつ日本語を勉強しますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "毎日日本語を勉強しますか。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。朝は仕事がありますから、夜勉強します。"
+    },
+    {
+      "speaker": "男",
+      "line": "何時ごろですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "十時から十一時までです。日曜日は、午後図書館で勉強します。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day"
+    },
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "meaning": "work"
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "night"
+    },
+    {
+      "word": "何時ごろ",
+      "reading": "なんじごろ",
+      "meaning": "around what time"
+    },
+    {
+      "word": "〜から〜まで",
+      "reading": "からまで",
+      "meaning": "from ... to ..."
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon"
+    },
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-23-1"
+  ]
+}

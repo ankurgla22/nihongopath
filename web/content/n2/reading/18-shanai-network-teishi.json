@@ -1,0 +1,92 @@
+{
+  "id": "n2-reading-18",
+  "slug": "18-shanai-network-teishi",
+  "level": "n2",
+  "order": 18,
+  "kind": "short",
+  "title": "社内ネットワーク停止のお知らせ",
+  "paragraphs": [
+    "社員各位",
+    "総務部 情報システム課",
+    "社内ネットワーク停止のお知らせ",
+    "サーバー更新作業のため、下記の日程で社内ネットワークおよび関連システムが利用できなくなります。",
+    "日時：9月27日（土）22:00 〜 9月28日（日）9:00",
+    "対象：社内メール、勤怠管理システム、共有ファイルサーバー、社内ポータル",
+    "なお、停止中も社外のインターネット閲覧は可能ですが、社内メールの送受信はできません。停止時間中に届いたメールは、復旧後に順次配信されます。",
+    "勤怠の打刻については、28日9時以降にまとめて入力してください。作業の進行状況により復旧が遅れる場合は、社内ポータルではなく、各部署の緊急連絡網でお知らせします。",
+    "作業前に、必ず作業中のファイルを保存し、パソコンの電源を切ってお帰りください。ご不便をおかけしますが、ご協力をお願いいたします。"
+  ],
+  "vocab": [
+    {
+      "word": "各位",
+      "reading": "かくい",
+      "meaning": "to all (addressees)"
+    },
+    {
+      "word": "総務部",
+      "reading": "そうむぶ",
+      "meaning": "general affairs department"
+    },
+    {
+      "word": "更新",
+      "reading": "こうしん",
+      "meaning": "update, renewal"
+    },
+    {
+      "word": "下記",
+      "reading": "かき",
+      "meaning": "the following"
+    },
+    {
+      "word": "勤怠",
+      "reading": "きんたい",
+      "meaning": "attendance"
+    },
+    {
+      "word": "閲覧",
+      "reading": "えつらん",
+      "meaning": "browsing, viewing"
+    },
+    {
+      "word": "送受信",
+      "reading": "そうじゅしん",
+      "meaning": "sending and receiving"
+    },
+    {
+      "word": "復旧",
+      "reading": "ふっきゅう",
+      "meaning": "restoration, recovery"
+    },
+    {
+      "word": "順次",
+      "reading": "じゅんじ",
+      "meaning": "in order, successively"
+    },
+    {
+      "word": "打刻",
+      "reading": "だこく",
+      "meaning": "clocking in/out"
+    },
+    {
+      "word": "緊急連絡網",
+      "reading": "きんきゅうれんらくもう",
+      "meaning": "emergency contact chain"
+    },
+    {
+      "word": "進行状況",
+      "reading": "しんこうじょうきょう",
+      "meaning": "progress status"
+    }
+  ],
+  "questionIds": [
+    "q-n2-r-18-1",
+    "q-n2-r-18-2",
+    "q-n2-r-18-3"
+  ],
+  "strategyNotes": [
+    "Notices separate what is unavailable (対象) from what still works (なお〜は可能). Questions test that boundary.",
+    "「AではなくB」 in the contact line: the portal is down, so the emergency chain is used. This reversal is a favorite question.",
+    "Instructions to employees are in the imperative (〜してください). List them before answering 'what must employees do'."
+  ],
+  "timeLimitSeconds": 180
+}

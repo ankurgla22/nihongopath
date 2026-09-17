@@ -1,0 +1,65 @@
+{
+  "id": "n3-listening-25",
+  "slug": "25-shumatsu-no-tenki",
+  "level": "n3",
+  "order": 25,
+  "kind": "summary",
+  "title": "週末の天気",
+  "setting": "ラジオで、アナウンサーが話しています。",
+  "script": [
+    {
+      "speaker": "アナウンサー",
+      "line": "今日のお天気コーナーです。今週末は、全国的に気温がぐっと下がる見込みです。特に土曜日の朝は、今年一番の冷え込みになるところが多いでしょう。お出かけの際は、コートやマフラーをお忘れなく。また、日曜日は日本海側を中心に雪が降る予想です。特に山の近くでは、かなり積もるところもありそうです。車を運転する方は、早めにタイヤを冬用に替えておくことをおすすめします。来週の月曜からは、また少し暖かさが戻ってきそうです。以上、お天気コーナーでした。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "全国的に",
+      "reading": "ぜんこくてきに",
+      "meaning": "nationwide"
+    },
+    {
+      "word": "ぐっと",
+      "reading": "ぐっと",
+      "meaning": "sharply"
+    },
+    {
+      "word": "見込み",
+      "reading": "みこみ",
+      "meaning": "outlook, forecast"
+    },
+    {
+      "word": "冷え込み",
+      "reading": "ひえこみ",
+      "meaning": "cold snap"
+    },
+    {
+      "word": "〜の際",
+      "reading": "のさい",
+      "meaning": "when, on the occasion of"
+    },
+    {
+      "word": "日本海側",
+      "reading": "にほんかいがわ",
+      "meaning": "Sea of Japan side"
+    },
+    {
+      "word": "〜を中心に",
+      "reading": "をちゅうしんに",
+      "meaning": "mainly in"
+    },
+    {
+      "word": "冬用",
+      "reading": "ふゆよう",
+      "meaning": "for winter"
+    },
+    {
+      "word": "戻る",
+      "reading": "もどる",
+      "meaning": "to return"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-25-1"
+  ]
+}

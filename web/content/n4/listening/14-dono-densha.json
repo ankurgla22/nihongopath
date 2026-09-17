@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-14",
+  "slug": "14-dono-densha",
+  "level": "n4",
+  "order": 14,
+  "kind": "task",
+  "title": "どの電車に乗る",
+  "setting": "駅で、女の人と駅員が話しています。女の人はどうやってさくら駅へ行きますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません、さくら駅まで行きたいんですが、次の急行は止まりますか。"
+    },
+    {
+      "speaker": "駅員",
+      "line": "急行はさくら駅には止まりません。普通電車に乗ってください。"
+    },
+    {
+      "speaker": "女",
+      "line": "普通は何番線ですか。"
+    },
+    {
+      "speaker": "駅員",
+      "line": "二番線です。でも、次の普通は十分後なので、その前に来る快速に乗って、みどり駅で乗り換えたほうが早いですよ。"
+    },
+    {
+      "speaker": "女",
+      "line": "そうですか。じゃあ、そうします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "急行",
+      "reading": "きゅうこう",
+      "meaning": "express train"
+    },
+    {
+      "word": "普通電車",
+      "reading": "ふつうでんしゃ",
+      "meaning": "local train"
+    },
+    {
+      "word": "快速",
+      "reading": "かいそく",
+      "meaning": "rapid train"
+    },
+    {
+      "word": "止まる",
+      "reading": "とまる",
+      "meaning": "to stop"
+    },
+    {
+      "word": "何番線",
+      "reading": "なんばんせん",
+      "meaning": "which platform"
+    },
+    {
+      "word": "乗り換える",
+      "reading": "のりかえる",
+      "meaning": "to transfer"
+    },
+    {
+      "word": "〜たほうが早い",
+      "reading": "たほうがはやい",
+      "meaning": "it is faster to ..."
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-14-1"
+  ]
+}

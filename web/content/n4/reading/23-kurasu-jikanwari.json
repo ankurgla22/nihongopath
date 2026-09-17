@@ -1,0 +1,98 @@
+{
+  "id": "n4-reading-23",
+  "slug": "23-kurasu-jikanwari",
+  "level": "n4",
+  "order": 23,
+  "kind": "info",
+  "title": "日本語コースの時間割",
+  "paragraphs": [
+    "さくら日本語学校　春学期（はるがっき）　中級（ちゅうきゅう）クラス　時間割（じかんわり）",
+    "月曜日　九時〜十時三十分　文法　／　十時四十五分〜十二時十五分　読解（どっかい）",
+    "火曜日　九時〜十時三十分　会話　／　十時四十五分〜十二時十五分　漢字",
+    "水曜日　九時〜十時三十分　文法　／　十時四十五分〜十二時十五分　聴解（ちょうかい）",
+    "木曜日　九時〜十時三十分　会話　／　十時四十五分〜十二時十五分　作文",
+    "金曜日　九時〜十二時十五分　プロジェクト",
+    "※ 文法と漢字の宿題は、次の同じ授業の日までに出してください。",
+    "※ 毎月最後の金曜日は、プロジェクトの代わりにテストを行います。",
+    "※ 午後一時から三時までは、自習室（じしゅうしつ）で先生に質問ができます（予約不要（ふよう））。",
+    "※ 五月三日（水）〜五日（金）は祝日のため、授業はありません。"
+  ],
+  "vocab": [
+    {
+      "word": "学期",
+      "reading": "がっき",
+      "meaning": "semester"
+    },
+    {
+      "word": "中級",
+      "reading": "ちゅうきゅう",
+      "meaning": "intermediate"
+    },
+    {
+      "word": "時間割",
+      "reading": "じかんわり",
+      "meaning": "timetable"
+    },
+    {
+      "word": "文法",
+      "reading": "ぶんぽう",
+      "meaning": "grammar"
+    },
+    {
+      "word": "読解",
+      "reading": "どっかい",
+      "meaning": "reading comprehension"
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "conversation"
+    },
+    {
+      "word": "聴解",
+      "reading": "ちょうかい",
+      "meaning": "listening comprehension"
+    },
+    {
+      "word": "作文",
+      "reading": "さくぶん",
+      "meaning": "composition"
+    },
+    {
+      "word": "〜の代わりに",
+      "reading": "のかわりに",
+      "meaning": "instead of"
+    },
+    {
+      "word": "自習室",
+      "reading": "じしゅうしつ",
+      "meaning": "self-study room"
+    },
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "meaning": "question"
+    },
+    {
+      "word": "不要",
+      "reading": "ふよう",
+      "meaning": "not needed"
+    },
+    {
+      "word": "祝日",
+      "reading": "しゅくじつ",
+      "meaning": "public holiday"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-23-1",
+    "q-n4-r-23-2",
+    "q-n4-r-23-3"
+  ],
+  "strategyNotes": [
+    "Timetables repeat subjects on different days. List each subject with all its days before answering.",
+    "次の同じ授業の日 = the next day that same subject is taught, not the next calendar day.",
+    "The ※ lines override the grid: monthly test, holiday closures, no-reservation office hours."
+  ],
+  "timeLimitSeconds": 300
+}

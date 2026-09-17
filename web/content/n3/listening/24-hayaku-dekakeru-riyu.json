@@ -1,0 +1,101 @@
+{
+  "id": "n3-listening-24",
+  "slug": "24-hayaku-dekakeru-riyu",
+  "level": "n3",
+  "order": 24,
+  "kind": "point",
+  "title": "早く出かける理由",
+  "setting": "家で、母と息子が話しています。息子はどうして早く出かけるのですか。",
+  "script": [
+    {
+      "speaker": "母",
+      "line": "あれ、もう出かけるの？授業は九時からでしょ。"
+    },
+    {
+      "speaker": "息子",
+      "line": "うん。でも今日は先に図書館に寄るんだ。"
+    },
+    {
+      "speaker": "母",
+      "line": "何か調べるの？"
+    },
+    {
+      "speaker": "息子",
+      "line": "借りてた本、今日までで、遅れると次の本が借りられなくなっちゃうんだよ。"
+    },
+    {
+      "speaker": "母",
+      "line": "そういえば、先週も返してなかったっけ。"
+    },
+    {
+      "speaker": "息子",
+      "line": "それは返したよ。今日返すのは別の本。図書館、八時半に開くから、ちょうどいいんだ。"
+    },
+    {
+      "speaker": "母",
+      "line": "じゃ、朝ごはんは？"
+    },
+    {
+      "speaker": "息子",
+      "line": "食べてる時間ないから、駅で買う。"
+    },
+    {
+      "speaker": "母",
+      "line": "もう、ちゃんと食べなさいよ。はい、これ、おにぎり。"
+    },
+    {
+      "speaker": "息子",
+      "line": "あ、ありがと。行ってきます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "寄る",
+      "reading": "よる",
+      "meaning": "to drop by"
+    },
+    {
+      "word": "調べる",
+      "reading": "しらべる",
+      "meaning": "to look up"
+    },
+    {
+      "word": "〜てた",
+      "reading": "てた",
+      "meaning": "contraction of ていた"
+    },
+    {
+      "word": "遅れる",
+      "reading": "おくれる",
+      "meaning": "to be late"
+    },
+    {
+      "word": "〜なくなっちゃう",
+      "reading": "なくなっちゃう",
+      "meaning": "will end up unable to"
+    },
+    {
+      "word": "そういえば",
+      "reading": "そういえば",
+      "meaning": "come to think of it"
+    },
+    {
+      "word": "〜っけ",
+      "reading": "っけ",
+      "meaning": "wasn't it?"
+    },
+    {
+      "word": "別",
+      "reading": "べつ",
+      "meaning": "different"
+    },
+    {
+      "word": "〜てる時間ない",
+      "reading": "てるじかんない",
+      "meaning": "no time to"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-24-1"
+  ]
+}

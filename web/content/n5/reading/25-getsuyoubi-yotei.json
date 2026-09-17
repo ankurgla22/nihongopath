@@ -1,0 +1,86 @@
+{
+  "id": "n5-reading-25",
+  "slug": "25-getsuyoubi-yotei",
+  "level": "n5",
+  "order": 25,
+  "kind": "short",
+  "title": "きょうの予定",
+  "paragraphs": [
+    "田中（たなか）さんの月曜日（げつようび）の予定（よてい）",
+    "九時（くじ）　会社（かいしゃ）で会議（かいぎ）",
+    "十一時（じゅういちじ）　山田（やまだ）さんに電話（でんわ）する",
+    "十二時（じゅうにじ）　佐藤（さとう）さんと昼（ひる）ごはん（会社（かいしゃ）の近（ちか）くのそば屋（や））",
+    "二時（にじ）　お客（きゃく）さんの会社（かいしゃ）へ行（い）く（駅（えき）から歩（ある）いて十分（じゅっぷん））",
+    "五時（ごじ）　会社（かいしゃ）に帰（かえ）る",
+    "六時（ろくじ）　銀行（ぎんこう）へ行（い）く（銀行（ぎんこう）は七時（しちじ）まで）",
+    "※会議（かいぎ）の前（まえ）にコピーをする。"
+  ],
+  "vocab": [
+    {
+      "word": "予定",
+      "reading": "よてい",
+      "meaning": "schedule, plan"
+    },
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meaning": "company"
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meaning": "meeting"
+    },
+    {
+      "word": "電話する",
+      "reading": "でんわする",
+      "meaning": "to phone"
+    },
+    {
+      "word": "昼ご飯",
+      "reading": "ひるごはん",
+      "meaning": "lunch"
+    },
+    {
+      "word": "近く",
+      "reading": "ちかく",
+      "meaning": "nearby"
+    },
+    {
+      "word": "そば屋",
+      "reading": "そばや",
+      "meaning": "soba shop"
+    },
+    {
+      "word": "お客さん",
+      "reading": "おきゃくさん",
+      "meaning": "client"
+    },
+    {
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meaning": "bank"
+    },
+    {
+      "word": "コピー",
+      "reading": "こぴー",
+      "meaning": "copy"
+    },
+    {
+      "word": "〜の前に",
+      "reading": "のまえに",
+      "meaning": "before ..."
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-25-1",
+    "q-n5-r-25-2",
+    "q-n5-r-25-3"
+  ],
+  "strategyNotes": [
+    "Schedules are time + action. The question gives one and asks for the other.",
+    "〜の前に = before. A note like 会議の前に places an extra task before 9:00.",
+    "Names are distractors: 山田 (call), 佐藤 (lunch), お客さん (visit). Match name to action."
+  ],
+  "timeLimitSeconds": 150
+}

@@ -1,0 +1,81 @@
+{
+  "id": "n5-reading-17",
+  "slug": "17-hoteru-kaado",
+  "level": "n5",
+  "order": 17,
+  "kind": "short",
+  "title": "ホテルのカード",
+  "paragraphs": [
+    "さくらホテル　お客（きゃく）さまカード",
+    "名前（なまえ）：リサ・ブラウン",
+    "国（くに）：カナダ",
+    "電話（でんわ）：090-1234-5678",
+    "泊（と）まる日（ひ）：四月三日（しがつみっか）から四月五日（しがついつか）まで（二泊（にはく））",
+    "部屋（へや）：805号室（ごうしつ）・たばこを吸（す）わない部屋（へや）",
+    "朝（あさ）ごはん：いります（七時（しちじ）から十時（じゅうじ）まで・二階（にかい））",
+    "チェックアウトは午前（ごぜん）十一時（じゅういちじ）までです。"
+  ],
+  "vocab": [
+    {
+      "word": "お客様",
+      "reading": "おきゃくさま",
+      "meaning": "guest, customer"
+    },
+    {
+      "word": "国",
+      "reading": "くに",
+      "meaning": "country"
+    },
+    {
+      "word": "泊まる",
+      "reading": "とまる",
+      "meaning": "to stay overnight"
+    },
+    {
+      "word": "二泊",
+      "reading": "にはく",
+      "meaning": "two nights"
+    },
+    {
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "room"
+    },
+    {
+      "word": "〜号室",
+      "reading": "ごうしつ",
+      "meaning": "room number"
+    },
+    {
+      "word": "たばこを吸う",
+      "reading": "たばこをすう",
+      "meaning": "to smoke"
+    },
+    {
+      "word": "朝ご飯",
+      "reading": "あさごはん",
+      "meaning": "breakfast"
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "meaning": "to need"
+    },
+    {
+      "word": "チェックアウト",
+      "reading": "ちぇっくあうと",
+      "meaning": "check-out"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-17-1",
+    "q-n5-r-17-2",
+    "q-n5-r-17-3"
+  ],
+  "strategyNotes": [
+    "Forms are label + value. Find the label the question asks about and read only that line.",
+    "二泊 = two nights: 3rd to 5th. The last day (まで) is the check-out day.",
+    "たばこを吸わない部屋 = non-smoking room. Negative forms inside labels change the meaning."
+  ],
+  "timeLimitSeconds": 150
+}

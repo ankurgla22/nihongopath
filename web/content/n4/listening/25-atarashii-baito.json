@@ -1,0 +1,80 @@
+{
+  "id": "n4-listening-25",
+  "slug": "25-atarashii-baito",
+  "level": "n4",
+  "order": 25,
+  "kind": "point",
+  "title": "新しいアルバイト",
+  "setting": "男の人と女の人が話しています。女の人は新しいアルバイトのどんなところが一番いいと言っていますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "新しいバイト、どう？"
+    },
+    {
+      "speaker": "女",
+      "line": "うん、いい感じ。前のコンビニより時給は少し安いんだけどね。"
+    },
+    {
+      "speaker": "男",
+      "line": "そうなんだ。じゃあ、何がいいの？"
+    },
+    {
+      "speaker": "女",
+      "line": "家から歩いて五分なの。前は電車で三十分かかっていたから、朝ゆっくりできるようになった。それが一番大きいかな。"
+    },
+    {
+      "speaker": "男",
+      "line": "それはいいね。仕事は忙しくない？"
+    },
+    {
+      "speaker": "女",
+      "line": "忙しいときもあるけど、店の人が優しいから、楽しくやってるよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "バイト",
+      "reading": "バイト",
+      "meaning": "part-time job"
+    },
+    {
+      "word": "いい感じ",
+      "reading": "いいかんじ",
+      "meaning": "feels good"
+    },
+    {
+      "word": "時給",
+      "reading": "じきゅう",
+      "meaning": "hourly wage"
+    },
+    {
+      "word": "〜より",
+      "reading": "より",
+      "meaning": "than"
+    },
+    {
+      "word": "かかる",
+      "reading": "かかる",
+      "meaning": "to take (time)"
+    },
+    {
+      "word": "ゆっくり",
+      "reading": "ゆっくり",
+      "meaning": "leisurely"
+    },
+    {
+      "word": "〜ようになった",
+      "reading": "ようになった",
+      "meaning": "has come to be able to"
+    },
+    {
+      "word": "優しい",
+      "reading": "やさしい",
+      "meaning": "kind, gentle"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-25-1"
+  ]
+}

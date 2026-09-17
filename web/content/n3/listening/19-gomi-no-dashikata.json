@@ -1,0 +1,97 @@
+{
+  "id": "n3-listening-19",
+  "slug": "19-gomi-no-dashikata",
+  "level": "n3",
+  "order": 19,
+  "kind": "task",
+  "title": "ごみの出し方",
+  "setting": "アパートで、大家さんと留学生が話しています。留学生はペットボトルをどう出しますか。",
+  "script": [
+    {
+      "speaker": "大家",
+      "line": "佐藤です。ごみの出し方、ちょっと確認させてね。"
+    },
+    {
+      "speaker": "留学生",
+      "line": "あ、はい。お願いします。"
+    },
+    {
+      "speaker": "大家",
+      "line": "燃えるごみは月曜と木曜。朝八時までに、この袋に入れて出してね。夜出すと、カラスが荒らしちゃうから。"
+    },
+    {
+      "speaker": "留学生",
+      "line": "八時までですね。ペットボトルは？"
+    },
+    {
+      "speaker": "大家",
+      "line": "ペットボトルは水曜。ラベルとふたを取って、軽くゆすいでから出して。"
+    },
+    {
+      "speaker": "留学生",
+      "line": "ふたも別なんですか。"
+    },
+    {
+      "speaker": "大家",
+      "line": "そう。ふたは燃えるごみじゃなくて、プラスチックの日に。プラスチックは金曜ね。"
+    },
+    {
+      "speaker": "留学生",
+      "line": "月曜と木曜が燃えるごみ、水曜がペットボトル、金曜がプラスチック。"
+    },
+    {
+      "speaker": "大家",
+      "line": "そのとおり。わからなかったら、いつでも聞いてね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "大家",
+      "reading": "おおや",
+      "meaning": "landlord"
+    },
+    {
+      "word": "燃えるごみ",
+      "reading": "もえるごみ",
+      "meaning": "burnable rubbish"
+    },
+    {
+      "word": "カラス",
+      "reading": "カラス",
+      "meaning": "crow"
+    },
+    {
+      "word": "荒らす",
+      "reading": "あらす",
+      "meaning": "to tear apart, make a mess of"
+    },
+    {
+      "word": "ラベル",
+      "reading": "ラベル",
+      "meaning": "label"
+    },
+    {
+      "word": "ふた",
+      "reading": "ふた",
+      "meaning": "cap, lid"
+    },
+    {
+      "word": "ゆすぐ",
+      "reading": "ゆすぐ",
+      "meaning": "to rinse"
+    },
+    {
+      "word": "別",
+      "reading": "べつ",
+      "meaning": "separate"
+    },
+    {
+      "word": "そのとおり",
+      "reading": "そのとおり",
+      "meaning": "exactly"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-19-1"
+  ]
+}

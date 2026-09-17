@@ -1,0 +1,110 @@
+{
+  "id": "n1-listening-18",
+  "slug": "18-tsua-no-henko",
+  "level": "n1",
+  "order": 18,
+  "kind": "task",
+  "title": "ツアーの変更",
+  "setting": "電話で、旅行会社の男の人と客が話しています。客はこの後まず何をしますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "お電話ありがとうございます。ご予約の変更でございますね。"
+    },
+    {
+      "speaker": "客",
+      "line": "ええ。二十日出発の北海道ツアーなんですが、同行者が一人増えまして。"
+    },
+    {
+      "speaker": "男",
+      "line": "かしこまりました。あいにく同じツアーは満席でして、一名追加は難しい状況です。"
+    },
+    {
+      "speaker": "客",
+      "line": "そうですか。じゃあ、どうすれば。"
+    },
+    {
+      "speaker": "男",
+      "line": "二つ方法がございます。一つは、翌日の二十一日出発の同じコースに、三名様まとめてお移りいただく方法。こちらでしたら空きがございます。"
+    },
+    {
+      "speaker": "客",
+      "line": "翌日か。"
+    },
+    {
+      "speaker": "男",
+      "line": "もう一つは、キャンセル待ちにお入りいただく方法ですが、直前まで確定しませんので、あまりおすすめはしておりません。"
+    },
+    {
+      "speaker": "客",
+      "line": "うーん、日程は動かせなくもないんで、翌日のほうで。"
+    },
+    {
+      "speaker": "男",
+      "line": "ありがとうございます。それでは、ご同行の方のお名前と生年月日をお伺いしますので、お手元にご用意いただけますか。"
+    },
+    {
+      "speaker": "客",
+      "line": "あ、今持ってないので、かけ直します。"
+    },
+    {
+      "speaker": "男",
+      "line": "承知しました。本日中でしたら、こちらのお席は確保しておきます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "同行者",
+      "reading": "どうこうしゃ",
+      "meaning": "travelling companion"
+    },
+    {
+      "word": "あいにく",
+      "reading": "あいにく",
+      "meaning": "unfortunately"
+    },
+    {
+      "word": "満席",
+      "reading": "まんせき",
+      "meaning": "fully booked"
+    },
+    {
+      "word": "翌日",
+      "reading": "よくじつ",
+      "meaning": "the next day"
+    },
+    {
+      "word": "まとめて",
+      "reading": "まとめて",
+      "meaning": "all together"
+    },
+    {
+      "word": "キャンセル待ち",
+      "reading": "キャンセルまち",
+      "meaning": "waiting list"
+    },
+    {
+      "word": "直前",
+      "reading": "ちょくぜん",
+      "meaning": "just before"
+    },
+    {
+      "word": "動かせなくもない",
+      "reading": "うごかせなくもない",
+      "meaning": "not impossible to shift"
+    },
+    {
+      "word": "お手元",
+      "reading": "おてもと",
+      "meaning": "at hand"
+    },
+    {
+      "word": "確保する",
+      "reading": "かくほする",
+      "meaning": "to hold, secure"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-18-1"
+  ]
+}

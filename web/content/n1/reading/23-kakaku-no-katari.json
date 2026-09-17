@@ -1,0 +1,89 @@
+{
+  "id": "n1-reading-23",
+  "slug": "23-kakaku-no-katari",
+  "level": "n1",
+  "order": 23,
+  "kind": "medium",
+  "title": "評論 — 値札は語る",
+  "paragraphs": [
+    "「原材料価格の高騰（こうとう）により、誠に不本意ながら」——値上げの告知文は、判で押したようにこの句で始まる。企業は値上げを、自らの意思ではなく外部から強いられた不可抗力（ふかこうりょく）として語る。興味深いのは、値下げの際にこの語法（ごほう）が決して使われないことである。値下げは「企業努力の成果」として、誇らしげに語られる。",
+    "価格とは本来、需要と供給の均衡点（きんこうてん）を示す中立的な数値であるはずだ。しかし現実の価格は、それを告げる言葉と切り離せない。同じ十パーセントの値上げでも、「コスト転嫁」と説明されるか、「品質向上に伴う改定」と説明されるかで、消費者の受け止め方はまるで異なる。前者は同情を、後者は疑念を招く。企業がこれを知り尽くしているからこそ、告知文の語彙は入念（にゅうねん）に選ばれる。",
+    "経済学の教科書は、こうした「語り」を分析の外に置いてきた。価格は数字であり、言葉は雑音（ざつおん）だと。だが、消費者が反応しているのは数字だけではない。値上げを「裏切り」と感じるか「やむを得ない」と感じるかは、その企業がそれまで積み上げてきた信頼と、告知の言葉遣いとに左右される。ある老舗（しにせ）菓子店が二十年ぶりの値上げを「これまで据え置いてきた理由」から語り起こして客に受け入れられたのは、その典型である。",
+    "私が言いたいのは、企業が言葉で消費者を操っているということではない。むしろ逆で、価格が純粋な数字であったことなど一度もない、ということだ。市場は計算の場である以前に、語りの場である。値札（ねふだ）の数字を読むとき、私たちはつねに、その数字がどう語られたかを一緒に読んでいる。"
+  ],
+  "vocab": [
+    {
+      "word": "高騰",
+      "reading": "こうとう",
+      "meaning": "sharp rise (in prices)"
+    },
+    {
+      "word": "不本意ながら",
+      "reading": "ふほんいながら",
+      "meaning": "reluctantly"
+    },
+    {
+      "word": "判で押したように",
+      "reading": "はんでおしたように",
+      "meaning": "as if stamped; identically"
+    },
+    {
+      "word": "不可抗力",
+      "reading": "ふかこうりょく",
+      "meaning": "force majeure"
+    },
+    {
+      "word": "語法",
+      "reading": "ごほう",
+      "meaning": "phrasing, usage"
+    },
+    {
+      "word": "均衡点",
+      "reading": "きんこうてん",
+      "meaning": "equilibrium point"
+    },
+    {
+      "word": "転嫁",
+      "reading": "てんか",
+      "meaning": "passing on (costs)"
+    },
+    {
+      "word": "疑念",
+      "reading": "ぎねん",
+      "meaning": "suspicion"
+    },
+    {
+      "word": "入念に",
+      "reading": "にゅうねんに",
+      "meaning": "carefully"
+    },
+    {
+      "word": "雑音",
+      "reading": "ざつおん",
+      "meaning": "noise"
+    },
+    {
+      "word": "据え置く",
+      "reading": "すえおく",
+      "meaning": "to leave unchanged"
+    },
+    {
+      "word": "操る",
+      "reading": "あやつる",
+      "meaning": "to manipulate"
+    }
+  ],
+  "questionIds": [
+    "q-n1-r-23-1",
+    "q-n1-r-23-2",
+    "q-n1-r-23-3",
+    "q-n1-r-23-4",
+    "q-n1-r-23-5"
+  ],
+  "strategyNotes": [
+    "Before answering, fix what 前者/後者 refer to: 前者 = 「コスト転嫁」, 後者 = 「品質向上に伴う改定」.",
+    "The final paragraph pre-empts a misreading (企業が消費者を操っている) and states the real thesis after むしろ逆で. Read that sentence carefully.",
+    "Examples (老舗菓子店) support the sentence just before them; ask what claim the example illustrates."
+  ],
+  "timeLimitSeconds": 600
+}

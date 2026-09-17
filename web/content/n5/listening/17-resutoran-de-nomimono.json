@@ -1,0 +1,70 @@
+{
+  "id": "n5-listening-17",
+  "slug": "17-resutoran-de-nomimono",
+  "level": "n5",
+  "order": 17,
+  "kind": "task",
+  "title": "レストランで飲み物",
+  "setting": "レストランで、男の人と店の人が話しています。男の人は何を飲みますか。",
+  "script": [
+    {
+      "speaker": "店員",
+      "line": "お飲み物は何にしますか。"
+    },
+    {
+      "speaker": "男",
+      "line": "コーヒーをお願いします。"
+    },
+    {
+      "speaker": "店員",
+      "line": "すみません。コーヒーは今、ありません。紅茶かジュースはいかがですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "じゃあ、紅茶をください。冷たいのはありますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "はい、あります。"
+    },
+    {
+      "speaker": "男",
+      "line": "では、冷たい紅茶をお願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meaning": "drink"
+    },
+    {
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "meaning": "coffee"
+    },
+    {
+      "word": "紅茶",
+      "reading": "こうちゃ",
+      "meaning": "black tea"
+    },
+    {
+      "word": "ジュース",
+      "reading": "ジュース",
+      "meaning": "juice"
+    },
+    {
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meaning": "cold"
+    },
+    {
+      "word": "いかがですか",
+      "reading": "いかがですか",
+      "meaning": "how about ...?"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-17-1"
+  ]
+}

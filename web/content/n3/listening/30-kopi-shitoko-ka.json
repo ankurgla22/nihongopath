@@ -1,0 +1,60 @@
+{
+  "id": "n3-listening-30",
+  "slug": "30-kopi-shitoko-ka",
+  "level": "n3",
+  "order": 30,
+  "kind": "quick-response",
+  "title": "コピーしとこうか",
+  "setting": "同僚が申し出てくれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "この資料、会議の前にコピーしとこうか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": "materials, handout"
+    },
+    {
+      "word": "〜しとこうか",
+      "reading": "しとこうか",
+      "meaning": "shall I do it in advance? (contraction of しておこうか)"
+    },
+    {
+      "word": "〜部",
+      "reading": "ぶ",
+      "meaning": "counter for copies"
+    },
+    {
+      "word": "お願い",
+      "reading": "おねがい",
+      "meaning": "please (casual)"
+    },
+    {
+      "word": "申し出る",
+      "reading": "もうしでる",
+      "meaning": "to offer"
+    },
+    {
+      "word": "助かる",
+      "reading": "たすかる",
+      "meaning": "that helps"
+    },
+    {
+      "word": "人数分",
+      "reading": "にんずうぶん",
+      "meaning": "enough for everyone"
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meaning": "meeting"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-30-1"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "n1-listening-20",
+  "slug": "20-atarashii-kacho",
+  "level": "n1",
+  "order": 20,
+  "kind": "point",
+  "title": "新しい課長",
+  "setting": "会社で、男の人と女の人が新しい上司について話しています。女の人は新しい上司についてどう思っていますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "新しい課長、どう？ずいぶん細かいって聞くけど。"
+    },
+    {
+      "speaker": "女",
+      "line": "細かいっていうか、まあ、確認は多いよね。"
+    },
+    {
+      "speaker": "男",
+      "line": "前の課長は任せてくれるタイプだったから、やりにくいんじゃない？"
+    },
+    {
+      "speaker": "女",
+      "line": "最初はそう思ったんだけど、実際やってみると、確認のおかげで手戻りが減ったんだよね。前は最後の最後でひっくり返されることがあったから。"
+    },
+    {
+      "speaker": "男",
+      "line": "へえ。じゃ、悪くないんだ。"
+    },
+    {
+      "speaker": "女",
+      "line": "悪くないどころか、正直助かってる。ただ、周りにはあんまり言わないでね。細かいって陰口叩いてる人、結構いるから。"
+    },
+    {
+      "speaker": "男",
+      "line": "ははは、わかった。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "細かい",
+      "reading": "こまかい",
+      "meaning": "fussy about details"
+    },
+    {
+      "word": "任せる",
+      "reading": "まかせる",
+      "meaning": "to leave (work) to someone"
+    },
+    {
+      "word": "手戻り",
+      "reading": "てもどり",
+      "meaning": "rework"
+    },
+    {
+      "word": "最後の最後で",
+      "reading": "さいごのさいごで",
+      "meaning": "at the very last moment"
+    },
+    {
+      "word": "ひっくり返す",
+      "reading": "ひっくりかえす",
+      "meaning": "to overturn"
+    },
+    {
+      "word": "〜どころか",
+      "reading": "どころか",
+      "meaning": "far from ~"
+    },
+    {
+      "word": "正直",
+      "reading": "しょうじき",
+      "meaning": "honestly"
+    },
+    {
+      "word": "陰口を叩く",
+      "reading": "かげぐちをたたく",
+      "meaning": "to talk behind someone's back"
+    },
+    {
+      "word": "結構",
+      "reading": "けっこう",
+      "meaning": "quite a few"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-20-1"
+  ]
+}

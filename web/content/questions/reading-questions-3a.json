@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "q-n5-r-11-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-11"
+    },
+    "prompt": "二人（ふたり）はあした、何時（なんじ）に会（あ）いますか。",
+    "context": "",
+    "options": [
+      "二時",
+      "二時半",
+      "三時",
+      "三時半"
+    ],
+    "answerIndex": 1,
+    "explanation": "「二時半に駅の前で会いましょう」: they meet at 2:30. The movie starts at 3:00.",
+    "distractorExplanations": [
+      "No time of 2:00 is mentioned.",
+      "(correct answer)",
+      "3:00 is when the movie starts, not the meeting time.",
+      "3:30 does not appear in the text."
+    ]
+  },
+  {
+    "id": "q-n5-r-11-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-11"
+    },
+    "prompt": "二人はえいがの後（あと）で、何（なに）をしますか。",
+    "context": "",
+    "options": [
+      "駅に行きます",
+      "買い物をします",
+      "ばんごはんを食べます",
+      "家に帰ります"
+    ],
+    "answerIndex": 2,
+    "explanation": "「えいがの後で、いっしょにばんごはんを食べましょう」: after the movie they will have dinner together.",
+    "distractorExplanations": [
+      "The station is the meeting place before the movie.",
+      "Shopping is not mentioned.",
+      "(correct answer)",
+      "Going home is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-11-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-11"
+    },
+    "prompt": "二人はどこで会いますか。",
+    "context": "",
+    "options": [
+      "えいがかん",
+      "駅の前",
+      "レストラン",
+      "ゆきさんの家"
+    ],
+    "answerIndex": 1,
+    "explanation": "「駅の前で会いましょう」: they meet in front of the station.",
+    "distractorExplanations": [
+      "They go to the cinema after meeting, not meet there.",
+      "(correct answer)",
+      "No restaurant is named as a meeting place.",
+      "Yuki's house is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-12-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-12"
+    },
+    "prompt": "何（なに）を見（み）つけましたか。",
+    "context": "",
+    "options": [
+      "黒いかばん",
+      "黒いかさ",
+      "白いかさ",
+      "田中さんのぼうし"
+    ],
+    "answerIndex": 1,
+    "explanation": "「黒いかさを見つけました」: a black umbrella was found.",
+    "distractorExplanations": [
+      "The object is an umbrella, not a bag.",
+      "(correct answer)",
+      "The umbrella is black, not white.",
+      "No hat is mentioned; 田中 is the name on the umbrella."
+    ]
+  },
+  {
+    "id": "q-n5-r-12-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-12"
+    },
+    "prompt": "かさは今（いま）、どこにありますか。",
+    "context": "",
+    "options": [
+      "二階のトイレ",
+      "二階の受付",
+      "一階の受付",
+      "田中さんの家"
+    ],
+    "answerIndex": 2,
+    "explanation": "「一階の受付に来てください」: the umbrella is kept at the first-floor reception.",
+    "distractorExplanations": [
+      "The second-floor toilet is where it was found, not where it is now.",
+      "The reception is on the first floor, not the second.",
+      "(correct answer)",
+      "The owner has not collected it yet."
+    ]
+  },
+  {
+    "id": "q-n5-r-12-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-12"
+    },
+    "prompt": "受付（うけつけ）は何時（なんじ）までですか。",
+    "context": "",
+    "options": [
+      "三時",
+      "五時",
+      "九時",
+      "十時"
+    ],
+    "answerIndex": 1,
+    "explanation": "「受付は九時から五時までです」: the desk closes at 5:00.",
+    "distractorExplanations": [
+      "3:00 does not appear.",
+      "(correct answer)",
+      "9:00 is the opening time (から), not closing.",
+      "10:00 does not appear."
+    ]
+  },
+  {
+    "id": "q-n5-r-13-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-13"
+    },
+    "prompt": "八時五十分（はちじごじゅっぷん）のきゅうこうは、みなと駅に何時（なんじ）につきますか。",
+    "context": "",
+    "options": [
+      "九時",
+      "九時五分",
+      "九時十五分",
+      "九時二十分"
+    ],
+    "answerIndex": 1,
+    "explanation": "The express takes 15 minutes: 8:50 + 15 = 9:05.",
+    "distractorExplanations": [
+      "9:00 would need a 10-minute trip.",
+      "(correct answer)",
+      "9:15 would be 25 minutes.",
+      "9:20 is the local train's arrival if it left at 8:50, but this is an express."
+    ]
+  },
+  {
+    "id": "q-n5-r-13-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-13"
+    },
+    "prompt": "日曜日（にちようび）の朝（あさ）、八時五分（はちじごふん）にさくら駅につきました。いちばん早（はや）くみなと駅につく電車はどれですか。",
+    "context": "",
+    "options": [
+      "八時のふつう",
+      "八時十分のきゅうこう",
+      "八時二十分のふつう",
+      "八時四十分のふつう"
+    ],
+    "answerIndex": 2,
+    "explanation": "The 8:00 train has left, and there is no express on Sunday, so the 8:20 local (arriving 8:50) is the earliest.",
+    "distractorExplanations": [
+      "You arrived at 8:05, so the 8:00 train is gone.",
+      "The ※ note says there is no express on Saturday and Sunday.",
+      "(correct answer)",
+      "The 8:40 local arrives at 9:10, later than the 8:20 train."
+    ]
+  },
+  {
+    "id": "q-n5-r-13-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-13"
+    },
+    "prompt": "ふつうは何分（なんぷん）かかりますか。",
+    "context": "",
+    "options": [
+      "十五分",
+      "二十分",
+      "三十分",
+      "四十分"
+    ],
+    "answerIndex": 2,
+    "explanation": "「ふつうは三十分かかります」.",
+    "distractorExplanations": [
+      "15 minutes is the express.",
+      "20 minutes is the gap between local trains, not the travel time.",
+      "(correct answer)",
+      "40 does not appear."
+    ]
+  },
+  {
+    "id": "q-n5-r-14-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "sign",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-14"
+    },
+    "prompt": "店（みせ）は何時（なんじ）までですか。",
+    "context": "",
+    "options": [
+      "午前十時",
+      "午後八時",
+      "午後十時",
+      "午前八時"
+    ],
+    "answerIndex": 1,
+    "explanation": "「閉店：午後八時」: the shop closes at 8 p.m.",
+    "distractorExplanations": [
+      "10 a.m. is the opening time.",
+      "(correct answer)",
+      "10 p.m. does not appear.",
+      "8 a.m. mixes up 午前 and 午後."
+    ]
+  },
+  {
+    "id": "q-n5-r-14-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "sign",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-14"
+    },
+    "prompt": "店が休（やす）みの日（ひ）はいつですか。",
+    "context": "",
+    "options": [
+      "毎日",
+      "毎週水曜日",
+      "毎週日曜日",
+      "今日"
+    ],
+    "answerIndex": 1,
+    "explanation": "「休み：毎週水曜日」: closed every Wednesday.",
+    "distractorExplanations": [
+      "The shop is not closed every day.",
+      "(correct answer)",
+      "Sunday is not mentioned.",
+      "Today the shop is open and has a sale."
+    ]
+  },
+  {
+    "id": "q-n5-r-14-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "sign",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-14"
+    },
+    "prompt": "店の中（なか）でしてはいけないことは何（なん）ですか。",
+    "context": "",
+    "options": [
+      "本を読むこと",
+      "本を買うこと",
+      "写真をとること",
+      "話すこと"
+    ],
+    "answerIndex": 2,
+    "explanation": "「写真をとらないでください」: taking photos is not allowed.",
+    "distractorExplanations": [
+      "Reading is not prohibited.",
+      "Buying books is the purpose of the shop.",
+      "(correct answer)",
+      "Talking is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-15-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-15"
+    },
+    "prompt": "パーティーはいつですか。",
+    "context": "",
+    "options": [
+      "六月八日の午後六時から",
+      "六月八日の午前六時から",
+      "六月六日の午後六時から",
+      "六月八日の午後五時から"
+    ],
+    "answerIndex": 0,
+    "explanation": "「日：六月八日（土）　時間：午後六時から」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "It is 午後 (p.m.), not 午前.",
+      "The date is the 8th (ようか), not the 6th.",
+      "The start time is 6:00, not 5:00."
+    ]
+  },
+  {
+    "id": "q-n5-r-15-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-15"
+    },
+    "prompt": "パーティーに行（い）かない人（ひと）は、どうしますか。",
+    "context": "",
+    "options": [
+      "ゆみさんに電話します",
+      "山本さんに電話します",
+      "レストランに電話します",
+      "何もしません"
+    ],
+    "answerIndex": 1,
+    "explanation": "「来ない人は、金曜日までに山本に電話してください」.",
+    "distractorExplanations": [
+      "Yumi is the birthday person, not the contact.",
+      "(correct answer)",
+      "The restaurant is the venue, not the contact.",
+      "The invitation asks for a phone call."
+    ]
+  },
+  {
+    "id": "q-n5-r-15-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "invitation",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-15"
+    },
+    "prompt": "プレゼントについて、正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "プレゼントはいりません",
+      "千円より高いプレゼントを買います",
+      "千円までのプレゼントを買います",
+      "みんなで一つ買います"
+    ],
+    "answerIndex": 2,
+    "explanation": "「プレゼントは一人千円までです」: each person brings a present of up to 1000 yen.",
+    "distractorExplanations": [
+      "A present is expected.",
+      "千円まで means up to 1000 yen, not more.",
+      "(correct answer)",
+      "一人 shows each person brings one."
+    ]
+  },
+  {
+    "id": "q-n5-r-16-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-16"
+    },
+    "prompt": "あしたの東京（とうきょう）の午後（ごご）の天気（てんき）は何（なん）ですか。",
+    "context": "",
+    "options": [
+      "晴れ",
+      "くもり",
+      "雨",
+      "雪"
+    ],
+    "answerIndex": 2,
+    "explanation": "「午後から雨です」: it will rain in Tokyo from the afternoon.",
+    "distractorExplanations": [
+      "Sunny is Osaka.",
+      "Cloudy is Tokyo in the morning.",
+      "(correct answer)",
+      "Snow is Sapporo."
+    ]
+  },
+  {
+    "id": "q-n5-r-16-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-16"
+    },
+    "prompt": "いちばんあたたかいところはどこですか。",
+    "context": "",
+    "options": [
+      "東京",
+      "大阪",
+      "札幌",
+      "みんな同じです"
+    ],
+    "answerIndex": 1,
+    "explanation": "Osaka is 23 degrees and described as あたたかい, higher than Tokyo (18) and Sapporo (1).",
+    "distractorExplanations": [
+      "Tokyo is 18 degrees.",
+      "(correct answer)",
+      "Sapporo is 1 degree and very cold.",
+      "The temperatures are all different."
+    ]
+  },
+  {
+    "id": "q-n5-r-16-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "weather",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-16"
+    },
+    "prompt": "東京の人（ひと）は何（なに）を持（も）って行（い）きますか。",
+    "context": "",
+    "options": [
+      "コート",
+      "かさ",
+      "ぼうし",
+      "水"
+    ],
+    "answerIndex": 1,
+    "explanation": "「かさをわすれないでください」: bring an umbrella because of the rain.",
+    "distractorExplanations": [
+      "A coat is not mentioned.",
+      "(correct answer)",
+      "A hat is not mentioned.",
+      "Water is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-17-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "form",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-17"
+    },
+    "prompt": "ブラウンさんはいつまでホテルにいますか。",
+    "context": "",
+    "options": [
+      "四月三日",
+      "四月四日",
+      "四月五日",
+      "四月七日"
+    ],
+    "answerIndex": 2,
+    "explanation": "「四月三日から四月五日まで」: she stays until April 5.",
+    "distractorExplanations": [
+      "April 3 is the arrival day.",
+      "April 4 is the middle night.",
+      "(correct answer)",
+      "April 7 does not appear."
+    ]
+  },
+  {
+    "id": "q-n5-r-17-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "form",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-17"
+    },
+    "prompt": "朝（あさ）ごはんはどこで食（た）べますか。",
+    "context": "",
+    "options": [
+      "部屋",
+      "一階",
+      "二階",
+      "805号室"
+    ],
+    "answerIndex": 2,
+    "explanation": "「朝ごはん：…二階」: breakfast is on the second floor.",
+    "distractorExplanations": [
+      "Breakfast is not served in the room.",
+      "The first floor is not mentioned.",
+      "(correct answer)",
+      "805 is her room, not the breakfast place."
+    ]
+  },
+  {
+    "id": "q-n5-r-17-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "form",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-17"
+    },
+    "prompt": "正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "ブラウンさんはアメリカ人です",
+      "ブラウンさんの部屋でたばこを吸うことができます",
+      "ブラウンさんは朝ごはんを食べません",
+      "チェックアウトは十一時までです"
+    ],
+    "answerIndex": 3,
+    "explanation": "「チェックアウトは午前十一時までです」.",
+    "distractorExplanations": [
+      "Her country is Canada.",
+      "The room is a non-smoking room.",
+      "朝ごはん：いります means she wants breakfast.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n5-r-18-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "announcement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-18"
+    },
+    "prompt": "九月十六日（くがつじゅうろくにち）は何（なん）の日（ひ）ですか。",
+    "context": "",
+    "options": [
+      "テストの日",
+      "休みの日",
+      "パーティーの日",
+      "ふつうの授業の日"
+    ],
+    "answerIndex": 1,
+    "explanation": "「九月十六日は休みです。学校はありません」.",
+    "distractorExplanations": [
+      "The test is on Tuesday.",
+      "(correct answer)",
+      "The party is after the test on Tuesday.",
+      "There is no school that day."
+    ]
+  },
+  {
+    "id": "q-n5-r-18-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "announcement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-18"
+    },
+    "prompt": "テストで使（つか）ってはいけないものはどれですか。",
+    "context": "",
+    "options": [
+      "えんぴつ",
+      "消しゴム",
+      "じしょ",
+      "何もありません"
+    ],
+    "answerIndex": 2,
+    "explanation": "「じしょは使わないでください」: dictionaries are not allowed.",
+    "distractorExplanations": [
+      "Pencils must be brought.",
+      "Erasers must be brought.",
+      "(correct answer)",
+      "There is one prohibited item: the dictionary."
+    ]
+  },
+  {
+    "id": "q-n5-r-18-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "announcement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-18"
+    },
+    "prompt": "パーティーはどこでありますか。",
+    "context": "",
+    "options": [
+      "教室",
+      "図書館",
+      "食堂",
+      "学校の外"
+    ],
+    "answerIndex": 1,
+    "explanation": "「図書館でパーティーがあります」.",
+    "distractorExplanations": [
+      "The classroom is for the test.",
+      "(correct answer)",
+      "No cafeteria is mentioned.",
+      "The party is inside the school, in the library."
+    ]
+  },
+  {
+    "id": "q-n5-r-19-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-19"
+    },
+    "prompt": "たまごは何分（なんぷん）ゆでますか。",
+    "context": "",
+    "options": [
+      "二分",
+      "五分",
+      "十分",
+      "十五分"
+    ],
+    "answerIndex": 2,
+    "explanation": "「たまごを二つ、十分ゆでます」: boil for 10 minutes.",
+    "distractorExplanations": [
+      "二つ is the number of eggs, not minutes.",
+      "5 minutes does not appear.",
+      "(correct answer)",
+      "15 minutes does not appear."
+    ]
+  },
+  {
+    "id": "q-n5-r-19-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-19"
+    },
+    "prompt": "パンに何（なに）をぬりますか。",
+    "context": "",
+    "options": [
+      "マヨネーズ",
+      "バター",
+      "塩",
+      "トマト"
+    ],
+    "answerIndex": 1,
+    "explanation": "「パンにバターをぬります」.",
+    "distractorExplanations": [
+      "Mayonnaise is mixed with the egg.",
+      "(correct answer)",
+      "Salt is mixed with the egg.",
+      "Tomato is an optional filling."
+    ]
+  },
+  {
+    "id": "q-n5-r-19-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-19"
+    },
+    "prompt": "正（ただ）しいじゅんばんはどれですか。",
+    "context": "",
+    "options": [
+      "たまごを切る→ゆでる→パンにのせる",
+      "たまごをゆでる→切る→パンにのせる",
+      "パンを切る→たまごをゆでる→たまごを切る",
+      "たまごをゆでる→パンを切る→たまごを切る"
+    ],
+    "answerIndex": 1,
+    "explanation": "Step 1 boil, step 2 cut and mix, step 4 place on bread. Boil → cut → place on bread.",
+    "distractorExplanations": [
+      "Boiling comes before cutting.",
+      "(correct answer)",
+      "The bread is cut last (step 5).",
+      "The bread is cut in half only at the end."
+    ]
+  },
+  {
+    "id": "q-n5-r-20-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-20"
+    },
+    "prompt": "この人（ひと）は今日（きょう）、何（なに）を買（か）いましたか。",
+    "context": "",
+    "options": [
+      "かばん",
+      "くつ",
+      "ぼうし",
+      "スパゲッティ"
+    ],
+    "answerIndex": 1,
+    "explanation": "「新しいくつを買った」: new shoes.",
+    "distractorExplanations": [
+      "No bag is mentioned.",
+      "(correct answer)",
+      "No hat is mentioned.",
+      "Spaghetti was eaten at lunch, not bought as an item."
+    ]
+  },
+  {
+    "id": "q-n5-r-20-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-20"
+    },
+    "prompt": "公園（こうえん）に人（ひと）がたくさんいたのは、どうしてですか。",
+    "context": "",
+    "options": [
+      "日曜日だったから",
+      "天気がよかったから",
+      "デパートが近かったから",
+      "昼ごはんの時間だったから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「天気がよかったから、人がたくさんいた」.",
+    "distractorExplanations": [
+      "Sunday is true but not the reason the diary gives.",
+      "(correct answer)",
+      "Distance to the store is not mentioned.",
+      "The walk was in the afternoon, after lunch."
+    ]
+  },
+  {
+    "id": "q-n5-r-20-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-20"
+    },
+    "prompt": "この人はどうして早（はや）く寝（ね）ましたか。",
+    "context": "",
+    "options": [
+      "つかれたから",
+      "晴れだったから",
+      "くつが高かったから",
+      "友達が帰ったから"
+    ],
+    "answerIndex": 0,
+    "explanation": "「つかれたから、早く寝た」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The weather is the reason for the crowd, not for sleeping.",
+      "The price of the shoes is unrelated.",
+      "The friend leaving is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-21-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-21"
+    },
+    "prompt": "男（おとこ）の人（ひと）はどこへ行（い）きたいですか。",
+    "context": "",
+    "options": [
+      "上野",
+      "三番線",
+      "階段",
+      "駅"
+    ],
+    "answerIndex": 0,
+    "explanation": "He asks 「この電車は上野へ行きますか」: he wants to go to Ueno.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Platform 3 is where he must go to catch the train, not his destination.",
+      "The stairs are part of the directions.",
+      "He is already at the station."
+    ]
+  },
+  {
+    "id": "q-n5-r-21-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-21"
+    },
+    "prompt": "三番線（さんばんせん）はどこですか。",
+    "context": "",
+    "options": [
+      "階段を上がって左",
+      "階段を上がって右",
+      "階段を下りて右",
+      "この電車の前"
+    ],
+    "answerIndex": 1,
+    "explanation": "「あの階段を上がって、右です」.",
+    "distractorExplanations": [
+      "It is on the right, not the left.",
+      "(correct answer)",
+      "He must go up, not down.",
+      "The current train does not go to Ueno."
+    ]
+  },
+  {
+    "id": "q-n5-r-21-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "dialogue",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-21"
+    },
+    "prompt": "今（いま）、何時（なんじ）ですか。",
+    "context": "",
+    "options": [
+      "十時",
+      "十時五分",
+      "十時十分",
+      "十時十五分"
+    ],
+    "answerIndex": 1,
+    "explanation": "The next train is at 10:10 and 「あと五分」 remain, so it is now 10:05.",
+    "distractorExplanations": [
+      "10:00 would leave 10 minutes.",
+      "(correct answer)",
+      "10:10 is the departure time.",
+      "10:15 is after the train leaves."
+    ]
+  },
+  {
+    "id": "q-n5-r-22-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-22"
+    },
+    "prompt": "駅前（えきまえ）から病院（びょういん）まで、何分（なんぷん）かかりますか。",
+    "context": "",
+    "options": [
+      "五分",
+      "十二分",
+      "二十分",
+      "三十分"
+    ],
+    "answerIndex": 1,
+    "explanation": "The row 病院 shows １２分.",
+    "distractorExplanations": [
+      "5 minutes is the city hall.",
+      "(correct answer)",
+      "20 minutes is the university.",
+      "30 minutes is the park."
+    ]
+  },
+  {
+    "id": "q-n5-r-22-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-22"
+    },
+    "prompt": "大人（おとな）一人（ひとり）と子（こ）ども一人で大学（だいがく）まで行（い）きます。いくらですか。",
+    "context": "",
+    "options": [
+      "二百五十円",
+      "三百七十五円",
+      "四百円",
+      "五百円"
+    ],
+    "answerIndex": 1,
+    "explanation": "Adult 250 yen + child half (125 yen) = 375 yen.",
+    "distractorExplanations": [
+      "250 yen is one adult only.",
+      "(correct answer)",
+      "400 yen does not match any combination.",
+      "500 yen would be two adults."
+    ]
+  },
+  {
+    "id": "q-n5-r-22-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-22"
+    },
+    "prompt": "バスについて正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "バスは夜も走ります",
+      "バスは一時間に三本あります",
+      "バスは十分に一本あります",
+      "子どもはただです"
+    ],
+    "answerIndex": 1,
+    "explanation": "Every 20 minutes means 3 buses per hour.",
+    "distractorExplanations": [
+      "Buses run only from 9:00 to 6:00.",
+      "(correct answer)",
+      "Buses come every 20 minutes, not 10.",
+      "Children pay half, not nothing."
+    ]
+  },
+  {
+    "id": "q-n5-r-23-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-23"
+    },
+    "prompt": "八時（はちじ）にトーストとたまごとコーヒーを注文（ちゅうもん）します。いくらですか。",
+    "context": "",
+    "options": [
+      "六百円",
+      "七百五十円",
+      "八百円",
+      "千円"
+    ],
+    "answerIndex": 0,
+    "explanation": "At 8:00 the morning set (toast + egg + coffee) applies: 600 yen.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "750 would be toast + coffee without the set.",
+      "800 is not a listed price.",
+      "1000 does not match."
+    ]
+  },
+  {
+    "id": "q-n5-r-23-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-23"
+    },
+    "prompt": "ケーキと紅茶（こうちゃ）を注文します。いくらですか。",
+    "context": "",
+    "options": [
+      "七百五十円",
+      "八百円",
+      "八百五十円",
+      "九百円"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cake 450 + tea 400 = 850, minus 50 yen for ordering together = 800 yen.",
+    "distractorExplanations": [
+      "750 subtracts too much.",
+      "(correct answer)",
+      "850 forgets the 50-yen discount.",
+      "900 does not match."
+    ]
+  },
+  {
+    "id": "q-n5-r-23-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "menu",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-23"
+    },
+    "prompt": "正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "いちばん安い飲み物は牛乳です",
+      "モーニングセットは一日中あります",
+      "サンドイッチはケーキより安いです",
+      "モーニングセットの飲み物はジュースでもいいです"
+    ],
+    "answerIndex": 0,
+    "explanation": "Milk is 300 yen, the cheapest drink.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The set is only 7:00 to 10:00.",
+      "Sandwich 500 is more than cake 450.",
+      "The set drink is coffee or tea only."
+    ]
+  },
+  {
+    "id": "q-n5-r-24-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-24"
+    },
+    "prompt": "キムさんは今（いま）、どこにいますか。",
+    "context": "",
+    "options": [
+      "東京",
+      "京都",
+      "学校",
+      "田中先生の家"
+    ],
+    "answerIndex": 1,
+    "explanation": "「わたしは今、家族と京都にいます」.",
+    "distractorExplanations": [
+      "Tokyo is where Kim will return.",
+      "(correct answer)",
+      "Kim is on a trip, not at school.",
+      "The teacher is the recipient, not the location."
+    ]
+  },
+  {
+    "id": "q-n5-r-24-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-24"
+    },
+    "prompt": "キムさんはどうして少（すこ）しつかれましたか。",
+    "context": "",
+    "options": [
+      "お寺が遠かったから",
+      "人が多かったから",
+      "食べ物がおいしくなかったから",
+      "天気が悪かったから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「人が多くて、少しつかれました」.",
+    "distractorExplanations": [
+      "Distance is not mentioned.",
+      "(correct answer)",
+      "The food was delicious.",
+      "Weather is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-24-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "postcard",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-24"
+    },
+    "prompt": "キムさんはいつ東京（とうきょう）に帰（かえ）りますか。",
+    "context": "",
+    "options": [
+      "今日",
+      "あした",
+      "あさって",
+      "来週"
+    ],
+    "answerIndex": 2,
+    "explanation": "「あさって東京に帰ります」.",
+    "distractorExplanations": [
+      "Today Kim ate tofu in Kyoto.",
+      "Tomorrow is not mentioned.",
+      "(correct answer)",
+      "Next week is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-25-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-25"
+    },
+    "prompt": "田中（たなか）さんは十二時（じゅうにじ）に何（なに）をしますか。",
+    "context": "",
+    "options": [
+      "会議をします",
+      "山田さんに電話します",
+      "佐藤さんとそばを食べます",
+      "お客さんの会社へ行きます"
+    ],
+    "answerIndex": 2,
+    "explanation": "「十二時　佐藤さんと昼ごはん（そば屋）」.",
+    "distractorExplanations": [
+      "The meeting is at 9:00.",
+      "The call is at 11:00.",
+      "(correct answer)",
+      "The visit is at 2:00."
+    ]
+  },
+  {
+    "id": "q-n5-r-25-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-25"
+    },
+    "prompt": "田中さんはいつコピーをしますか。",
+    "context": "",
+    "options": [
+      "九時の会議の前",
+      "十一時の後",
+      "二時の前",
+      "六時の後"
+    ],
+    "answerIndex": 0,
+    "explanation": "「会議の前にコピーをする」: before the 9:00 meeting.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The copy is before the meeting, not after the call.",
+      "2:00 is the client visit.",
+      "6:00 is the bank."
+    ]
+  },
+  {
+    "id": "q-n5-r-25-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "schedule",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-25"
+    },
+    "prompt": "田中さんは何時（なんじ）に会社に帰（かえ）りますか。",
+    "context": "",
+    "options": [
+      "二時",
+      "五時",
+      "六時",
+      "七時"
+    ],
+    "answerIndex": 1,
+    "explanation": "「五時　会社に帰る」.",
+    "distractorExplanations": [
+      "2:00 is when he leaves for the client.",
+      "(correct answer)",
+      "6:00 is the bank.",
+      "7:00 is the bank's closing time."
+    ]
+  },
+  {
+    "id": "q-n5-r-26-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-26"
+    },
+    "prompt": "教室（きょうしつ）でしてもいいことはどれですか。",
+    "context": "",
+    "options": [
+      "けいたい電話を使うこと",
+      "飲み物を飲むこと",
+      "パンを食べること",
+      "英語で話すこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「飲み物はいいです」: drinks are allowed.",
+    "distractorExplanations": [
+      "Phones are not allowed during class.",
+      "(correct answer)",
+      "Eating is not allowed.",
+      "Students should speak Japanese."
+    ]
+  },
+  {
+    "id": "q-n5-r-26-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-26"
+    },
+    "prompt": "授業（じゅぎょう）を休（やす）む時（とき）、どうしますか。",
+    "context": "",
+    "options": [
+      "友達に電話します",
+      "先生にメールします",
+      "何もしません",
+      "学校に行きます"
+    ],
+    "answerIndex": 1,
+    "explanation": "「休む時は、先生にメールをしてください」.",
+    "distractorExplanations": [
+      "The contact is the teacher, by email.",
+      "(correct answer)",
+      "Some action is required.",
+      "Being absent means not going to school."
+    ]
+  },
+  {
+    "id": "q-n5-r-26-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-26"
+    },
+    "prompt": "宿題（しゅくだい）はいつまでに出（だ）しますか。",
+    "context": "",
+    "options": [
+      "今日",
+      "授業の後で",
+      "つぎの授業の日までに",
+      "来週の月曜日までに"
+    ],
+    "answerIndex": 2,
+    "explanation": "「宿題はつぎの授業の日までに出してください」.",
+    "distractorExplanations": [
+      "Today is not stated.",
+      "授業の後で is about putting back the chairs.",
+      "(correct answer)",
+      "Monday is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-27-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "advertisement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-27"
+    },
+    "prompt": "家賃（やちん）はいくらですか。",
+    "context": "",
+    "options": [
+      "三万円",
+      "六万円",
+      "八万円",
+      "六千円"
+    ],
+    "answerIndex": 1,
+    "explanation": "「家賃：六万円」.",
+    "distractorExplanations": [
+      "30,000 does not appear.",
+      "(correct answer)",
+      "80,000 does not appear (八分 is minutes to the station).",
+      "六千円 is 6,000 yen, not 60,000."
+    ]
+  },
+  {
+    "id": "q-n5-r-27-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "advertisement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-27"
+    },
+    "prompt": "この部屋（へや）について正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "一階にあります",
+      "駅から歩いて三分です",
+      "犬といっしょに住むことができます",
+      "南むきで明るいです"
+    ],
+    "answerIndex": 3,
+    "explanation": "「南むきで、明るいです」.",
+    "distractorExplanations": [
+      "It is on the second floor.",
+      "The station is 8 minutes; the supermarket is 3.",
+      "Pets are not allowed.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n5-r-27-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "advertisement",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-27"
+    },
+    "prompt": "いつ不動産（ふどうさん）に電話（でんわ）をすることができませんか。",
+    "context": "",
+    "options": [
+      "月曜日",
+      "土曜日",
+      "日曜日",
+      "毎日"
+    ],
+    "answerIndex": 2,
+    "explanation": "「日曜日は休み」: the agency is closed on Sunday.",
+    "distractorExplanations": [
+      "Monday is not mentioned as closed.",
+      "Saturday is not mentioned as closed.",
+      "(correct answer)",
+      "Only Sunday is closed."
+    ]
+  },
+  {
+    "id": "q-n5-r-28-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-28"
+    },
+    "prompt": "マリアさんはどこから来（き）ましたか。",
+    "context": "",
+    "options": [
+      "日本",
+      "ブラジル",
+      "大学",
+      "アメリカ"
+    ],
+    "answerIndex": 1,
+    "explanation": "「ブラジルから来ました」.",
+    "distractorExplanations": [
+      "Japan is where she lives now.",
+      "(correct answer)",
+      "The university is where she studies.",
+      "America is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n5-r-28-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-28"
+    },
+    "prompt": "マリアさんは週末（しゅうまつ）によく何（なに）をしますか。",
+    "context": "",
+    "options": [
+      "日本語を勉強します",
+      "おすしを食べます",
+      "友達とサッカーをします",
+      "なっとうを食べます"
+    ],
+    "answerIndex": 2,
+    "explanation": "「週末はよく友達とサッカーをします」.",
+    "distractorExplanations": [
+      "She studies every day, not specifically on weekends.",
+      "Sushi is her favourite, but no weekend habit is stated.",
+      "(correct answer)",
+      "She dislikes natto."
+    ]
+  },
+  {
+    "id": "q-n5-r-28-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "self-introduction",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-28"
+    },
+    "prompt": "マリアさんについて正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "日本語がとても上手です",
+      "なっとうが大好きです",
+      "いちばん好きな日本の食べ物はおすしです",
+      "二十歳です"
+    ],
+    "answerIndex": 2,
+    "explanation": "「おすしがいちばん好きです」.",
+    "distractorExplanations": [
+      "She says her Japanese is not yet good.",
+      "なっとうはちょっと… means she does not like it.",
+      "(correct answer)",
+      "She is 22, not 20."
+    ]
+  },
+  {
+    "id": "q-n5-r-29-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "phone-message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-29"
+    },
+    "prompt": "中村（なかむら）さんは会議（かいぎ）を何時（なんじ）にしたいですか。",
+    "context": "",
+    "options": [
+      "二時",
+      "三時",
+      "四時",
+      "午前中"
+    ],
+    "answerIndex": 2,
+    "explanation": "「四時にしてもいいですか」: he wants to move it to 4:00.",
+    "distractorExplanations": [
+      "2:00 does not appear.",
+      "3:00 is the original time.",
+      "(correct answer)",
+      "He is in Osaka in the morning."
+    ]
+  },
+  {
+    "id": "q-n5-r-29-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "phone-message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-29"
+    },
+    "prompt": "どうして三時（さんじ）は早（はや）いですか。",
+    "context": "",
+    "options": [
+      "午前中は大阪にいるから",
+      "会議室がないから",
+      "山田さんがいないから",
+      "二階が遠いから"
+    ],
+    "answerIndex": 0,
+    "explanation": "「午前中は大阪にいますから、三時は少し早いです」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The room is the same as before.",
+      "Yamada's availability is not mentioned.",
+      "The floor is not the reason."
+    ]
+  },
+  {
+    "id": "q-n5-r-29-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "phone-message",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-29"
+    },
+    "prompt": "四時（よじ）でだいじょうぶな時（とき）、山田（やまだ）さんはどうしますか。",
+    "context": "",
+    "options": [
+      "電話します",
+      "メールします",
+      "大阪に行きます",
+      "会議室に行きます"
+    ],
+    "answerIndex": 1,
+    "explanation": "「だいじょうぶな時はメールを…お願いします」.",
+    "distractorExplanations": [
+      "A phone call is for when it is NOT OK.",
+      "(correct answer)",
+      "Osaka is where Nakamura is.",
+      "Going to the room is not the requested reply."
+    ]
+  },
+  {
+    "id": "q-n5-r-30-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-30"
+    },
+    "prompt": "公園（こうえん）でしてもいいことはどれですか。",
+    "context": "",
+    "options": [
+      "バーベキューをすること",
+      "公園の中で自転車に乗ること",
+      "東のグラウンドでボールを使うこと",
+      "ごみを公園にすてること"
+    ],
+    "answerIndex": 2,
+    "explanation": "「ボールを使うのは、東のグラウンドだけです」: balls are allowed on the east ground.",
+    "distractorExplanations": [
+      "Barbecues are not allowed (fire).",
+      "Riding bicycles inside the park is prohibited.",
+      "(correct answer)",
+      "Rubbish must be taken home."
+    ]
+  },
+  {
+    "id": "q-n5-r-30-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-30"
+    },
+    "prompt": "犬（いぬ）と公園に来（く）る人（ひと）はどうしますか。",
+    "context": "",
+    "options": [
+      "犬にひもをつけます",
+      "犬を入口にとめます",
+      "犬を東のグラウンドに入れます",
+      "犬は入ることができません"
+    ],
+    "answerIndex": 0,
+    "explanation": "「犬はひもをつけてください」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Parking at the entrance is for bicycles.",
+      "The east ground rule is about balls.",
+      "Dogs are allowed on a leash."
+    ]
+  },
+  {
+    "id": "q-n5-r-30-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n5-reading-30"
+    },
+    "prompt": "夜（よる）十時（じゅうじ）に公園に行（い）きます。正（ただ）しいのはどれですか。",
+    "context": "",
+    "options": [
+      "公園に入ることができます",
+      "公園は閉まっています",
+      "火を使うことができます",
+      "自転車で入ることができます"
+    ],
+    "answerIndex": 1,
+    "explanation": "The park is open 6:00 to 21:00, so at 22:00 it is closed.",
+    "distractorExplanations": [
+      "It closes at 9 p.m.",
+      "(correct answer)",
+      "Fire is never allowed.",
+      "Bicycles may not be ridden inside."
+    ]
+  },
+  {
+    "id": "q-n4-r-13-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-13"
+    },
+    "prompt": "リンさんはどうしてメールを書きましたか。",
+    "context": "",
+    "options": [
+      "エアコンを買いたいから",
+      "エアコンがこわれたから",
+      "部屋を出たいから",
+      "電池がほしいから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「エアコンが動かなくなりました」: the air conditioner broke and she asks the landlord to come.",
+    "distractorExplanations": [
+      "She asks for a repair visit, not a purchase.",
+      "(correct answer)",
+      "Moving out is not mentioned.",
+      "She already replaced the batteries herself."
+    ]
+  },
+  {
+    "id": "q-n4-r-13-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-13"
+    },
+    "prompt": "リンさんはエアコンについて、もう何をしましたか。",
+    "context": "",
+    "options": [
+      "新しいエアコンを買った",
+      "電気屋に電話した",
+      "リモコンの電池を新しくした",
+      "スイッチを直した"
+    ],
+    "answerIndex": 2,
+    "explanation": "「リモコンの電池を新しくしてみましたが、だめでした」.",
+    "distractorExplanations": [
+      "No purchase is mentioned.",
+      "She contacted the landlord, not an electrician.",
+      "(correct answer)",
+      "She pressed the switch; she did not repair it."
+    ]
+  },
+  {
+    "id": "q-n4-r-13-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-13"
+    },
+    "prompt": "大家さんはいつリンさんの部屋に行くことができますか。",
+    "context": "",
+    "options": [
+      "平日の午前中",
+      "平日の夕方六時より後",
+      "日曜日の一日中",
+      "土曜日の午前だけ"
+    ],
+    "answerIndex": 1,
+    "explanation": "「平日は夕方六時以降、土曜日は一日中家にいます」.",
+    "distractorExplanations": [
+      "She is out on weekday mornings.",
+      "(correct answer)",
+      "Sunday is not mentioned.",
+      "On Saturday she is home all day, not just the morning."
+    ]
+  },
+  {
+    "id": "q-n4-r-14-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-14"
+    },
+    "prompt": "節電（せつでん）はいつまでですか。",
+    "context": "",
+    "options": [
+      "七月一日",
+      "八月三十一日",
+      "九月三十日",
+      "十月一日"
+    ],
+    "answerIndex": 2,
+    "explanation": "「七月一日から九月三十日まで」.",
+    "distractorExplanations": [
+      "July 1 is the start.",
+      "August 31 does not appear.",
+      "(correct answer)",
+      "October 1 is after the period ends."
+    ]
+  },
+  {
+    "id": "q-n4-r-14-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-14"
+    },
+    "prompt": "昼休みに何をしますか。",
+    "context": "",
+    "options": [
+      "エアコンを消します",
+      "会議室と廊下の電気を消します",
+      "パソコンを全部消します",
+      "ネクタイをとります"
+    ],
+    "answerIndex": 1,
+    "explanation": "「昼休み…は、会議室と廊下の電気を消します」.",
+    "distractorExplanations": [
+      "The air conditioner is set to 28 degrees, not turned off.",
+      "(correct answer)",
+      "Only unused computers are switched off.",
+      "Ties are optional all summer, not specifically at lunch."
+    ]
+  },
+  {
+    "id": "q-n4-r-14-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-14"
+    },
+    "prompt": "このお知らせと合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "ネクタイをしなくてもいい",
+      "扇風機は使ってはいけない",
+      "お客様がいる会議室も必ず二十八度にする",
+      "昼休みはパソコンを使ってはいけない"
+    ],
+    "answerIndex": 0,
+    "explanation": "「服装はネクタイなしでかまいません」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Fans are recommended when hot.",
+      "Rooms with customers are exempt from the 28-degree rule.",
+      "Only unused computers are switched off."
+    ]
+  },
+  {
+    "id": "q-n4-r-15-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-15"
+    },
+    "prompt": "月曜日が祝日（しゅくじつ）の時、博物館はいつ休みですか。",
+    "context": "",
+    "options": [
+      "月曜日",
+      "火曜日",
+      "日曜日",
+      "休みません"
+    ],
+    "answerIndex": 1,
+    "explanation": "「月曜日が祝日の場合は、次の日」: the closed day moves to Tuesday.",
+    "distractorExplanations": [
+      "On a holiday Monday the museum is open.",
+      "(correct answer)",
+      "Sunday is not a closed day.",
+      "It still closes one day, the following one."
+    ]
+  },
+  {
+    "id": "q-n4-r-15-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-15"
+    },
+    "prompt": "大学生二十五人で博物館に行きます。一人いくらですか。",
+    "context": "",
+    "options": [
+      "五百円",
+      "四百円",
+      "三百円",
+      "二百四十円"
+    ],
+    "answerIndex": 3,
+    "explanation": "University students pay 300 yen; a group of 20 or more gets 20 percent off: 300 × 0.8 = 240 yen.",
+    "distractorExplanations": [
+      "500 is the adult price.",
+      "400 is the adult price with the discount.",
+      "300 forgets the group discount.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n4-r-15-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-15"
+    },
+    "prompt": "博物館でできることはどれですか。",
+    "context": "",
+    "options": [
+      "二階でコーヒーを飲む",
+      "フラッシュを使って写真を撮る",
+      "昔の船に乗る",
+      "日曜日にガイドツアーに参加する"
+    ],
+    "answerIndex": 2,
+    "explanation": "「二階の船には実際に乗ることができます」.",
+    "distractorExplanations": [
+      "Eating and drinking are only in the first-floor cafe.",
+      "Flash is prohibited.",
+      "(correct answer)",
+      "Guided tours are on Saturdays."
+    ]
+  },
+  {
+    "id": "q-n4-r-16-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "instructions",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-16"
+    },
+    "prompt": "田中さんの病気は何ですか。",
+    "context": "",
+    "options": [
+      "風邪",
+      "インフルエンザ",
+      "おなかの病気",
+      "まだわかりません"
+    ],
+    "answerIndex": 1,
+    "explanation": "「風邪ではなく、インフルエンザでした」.",
+    "distractorExplanations": [
+      "The doctor explicitly says it is not a cold.",
+      "(correct answer)",
+      "Stomach illness is not mentioned.",
+      "The test result is known."
+    ]
+  },
+  {
+    "id": "q-n4-r-16-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "instructions",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-16"
+    },
+    "prompt": "薬の飲み方で正しいのはどれですか。",
+    "context": "",
+    "options": [
+      "熱が下がったらやめる",
+      "朝と晩、食事の前に飲む",
+      "一日に二回、食事の後に飲む",
+      "一日に五つ飲む"
+    ],
+    "answerIndex": 2,
+    "explanation": "「朝と晩、食事の後に一つずつ」: twice a day, after meals.",
+    "distractorExplanations": [
+      "The doctor says to keep taking it even after the fever drops.",
+      "It is after meals, not before.",
+      "(correct answer)",
+      "Five days' worth, one at a time; not five per day."
+    ]
+  },
+  {
+    "id": "q-n4-r-16-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "instructions",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-16"
+    },
+    "prompt": "医者が言っていないことはどれですか。",
+    "context": "",
+    "options": [
+      "熱が下がってからも二日間は休む",
+      "水分をたくさんとる",
+      "お風呂に入らない",
+      "三日後に必ず来る"
+    ],
+    "answerIndex": 3,
+    "explanation": "The doctor says to come back only if the fever has not gone down after three days, not to come regardless.",
+    "distractorExplanations": [
+      "This is stated: 熱が下がってから二日間は…休んでください.",
+      "This is stated: 水分をたくさんとって.",
+      "This is stated: お風呂はまだ入らないほうがいい.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-n4-r-17-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "news",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-17"
+    },
+    "prompt": "新しい図書館について正しいのはどれですか。",
+    "context": "",
+    "options": [
+      "古い図書館と同じ場所にある",
+      "駅から近い",
+      "本の数は前と同じだ",
+      "十月一日に閉まった"
+    ],
+    "answerIndex": 1,
+    "explanation": "「駅から歩いて三分の場所にある」.",
+    "distractorExplanations": [
+      "It moved to a new spot in front of the station.",
+      "(correct answer)",
+      "The number of books doubled.",
+      "It opened, not closed, on October 1."
+    ]
+  },
+  {
+    "id": "q-n4-r-17-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "news",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-17"
+    },
+    "prompt": "三階には何がありますか。",
+    "context": "",
+    "options": [
+      "カフェ",
+      "子ども専用の部屋",
+      "市役所",
+      "駅"
+    ],
+    "answerIndex": 1,
+    "explanation": "「三階には子ども専用の部屋があり」.",
+    "distractorExplanations": [
+      "The cafe is on the first floor.",
+      "(correct answer)",
+      "City hall is not in the library.",
+      "The station is a 3-minute walk away."
+    ]
+  },
+  {
+    "id": "q-n4-r-17-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "news",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-17"
+    },
+    "prompt": "開館時間はどう変わりましたか。",
+    "context": "",
+    "options": [
+      "前より三時間短くなった",
+      "前より三時間長くなった",
+      "変わらない",
+      "午前九時に閉まるようになった"
+    ],
+    "answerIndex": 1,
+    "explanation": "「以前より三時間長くなった」.",
+    "distractorExplanations": [
+      "It became longer, not shorter.",
+      "(correct answer)",
+      "It changed.",
+      "It closes at 9 p.m.; 9 a.m. is the opening time."
+    ]
+  },
+  {
+    "id": "q-n4-r-18-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "manual",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-18"
+    },
+    "prompt": "水を「MAX」より多く入れると、どうなることがありますか。",
+    "context": "",
+    "options": [
+      "お湯が沸かない",
+      "熱いお湯が出てやけどをする",
+      "ランプがつかない",
+      "スイッチが切れない"
+    ],
+    "answerIndex": 1,
+    "explanation": "「水が多すぎると、沸騰した時に熱いお湯が出て、やけどをすることがあります」.",
+    "distractorExplanations": [
+      "The water still boils.",
+      "(correct answer)",
+      "The lamp is unrelated.",
+      "The switch still turns off automatically."
+    ]
+  },
+  {
+    "id": "q-n4-r-18-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "manual",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-18"
+    },
+    "prompt": "お湯が沸いたら、どうしますか。",
+    "context": "",
+    "options": [
+      "スイッチを押して切る",
+      "ランプを消す",
+      "何もしなくてもいい",
+      "ふたを開ける"
+    ],
+    "answerIndex": 2,
+    "explanation": "「お湯が沸くと、スイッチとランプが自動的に切れます」: it switches off by itself.",
+    "distractorExplanations": [
+      "No need to press the switch.",
+      "The lamp goes off automatically.",
+      "(correct answer)",
+      "Opening the lid is not instructed."
+    ]
+  },
+  {
+    "id": "q-n4-r-18-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "manual",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-18"
+    },
+    "prompt": "してはいけないことはどれですか。",
+    "context": "",
+    "options": [
+      "やわらかい布で外側をふく",
+      "使った後にお湯を捨てる",
+      "牛乳を入れてあたためる",
+      "ふたをしっかり閉める"
+    ],
+    "answerIndex": 2,
+    "explanation": "「水以外のもの（牛乳、お茶など）を入れないでください」.",
+    "distractorExplanations": [
+      "Wiping with a soft cloth is instructed.",
+      "Discarding leftover water is instructed.",
+      "(correct answer)",
+      "Closing the lid firmly is step two."
+    ]
+  },
+  {
+    "id": "q-n4-r-19-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "job-ad",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-19"
+    },
+    "prompt": "研修（けんしゅう）中の時給（じきゅう）はいくらですか。",
+    "context": "",
+    "options": [
+      "千円",
+      "千百円",
+      "千三百七十五円",
+      "五百円"
+    ],
+    "answerIndex": 0,
+    "explanation": "「研修中の二週間は千円」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "1,100 is the normal wage after training.",
+      "1,375 is the late-night wage.",
+      "500 is the daily transport allowance limit."
+    ]
+  },
+  {
+    "id": "q-n4-r-19-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "job-ad",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-19"
+    },
+    "prompt": "この仕事に応募（おうぼ）できない人はだれですか。",
+    "context": "",
+    "options": [
+      "カフェで働いたことがない人",
+      "外国人",
+      "週に二日しか働けない人",
+      "十八歳の人"
+    ],
+    "answerIndex": 2,
+    "explanation": "「週三日以上働ける方」: fewer than three days a week does not qualify.",
+    "distractorExplanations": [
+      "Experience is not required.",
+      "Foreigners are welcome.",
+      "(correct answer)",
+      "Eighteen or older is fine."
+    ]
+  },
+  {
+    "id": "q-n4-r-19-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "job-ad",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-19"
+    },
+    "prompt": "応募したい人はどうしますか。",
+    "context": "",
+    "options": [
+      "履歴書を店に送る",
+      "店に電話するか、直接店長に話す",
+      "メールを送る",
+      "店で飲み物を注文する"
+    ],
+    "answerIndex": 1,
+    "explanation": "「店に電話するか、店で直接店長に声をかけてください」.",
+    "distractorExplanations": [
+      "The CV is brought to the interview, not mailed.",
+      "(correct answer)",
+      "Email is not listed.",
+      "Ordering a drink is not an application method."
+    ]
+  },
+  {
+    "id": "q-n4-r-20-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-20"
+    },
+    "prompt": "貸出（かしだし）カードを作るとき、何が必要ですか。",
+    "context": "",
+    "options": [
+      "お金",
+      "住所がわかるもの",
+      "写真",
+      "本"
+    ],
+    "answerIndex": 1,
+    "explanation": "「住所がわかるもの（保険証、免許証など）をお持ちください」.",
+    "distractorExplanations": [
+      "No fee is mentioned.",
+      "(correct answer)",
+      "A photo is not required.",
+      "You need the card before borrowing books."
+    ]
+  },
+  {
+    "id": "q-n4-r-20-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-20"
+    },
+    "prompt": "DVDを返すとき、どうしますか。",
+    "context": "",
+    "options": [
+      "返却ポストに入れる",
+      "必ずカウンターに返す",
+      "ホームページから返す",
+      "入口の横に置く"
+    ],
+    "answerIndex": 1,
+    "explanation": "「CD・DVDは…必ずカウンターに返してください」.",
+    "distractorExplanations": [
+      "The return post is for books only.",
+      "(correct answer)",
+      "The website is for extensions, not returns.",
+      "Leaving items beside the entrance is not allowed."
+    ]
+  },
+  {
+    "id": "q-n4-r-20-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "rules",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-20"
+    },
+    "prompt": "この案内と合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "本は一人二十冊まで借りられる",
+      "予約が入っている本も延長できる",
+      "雑誌の最新号は借りられない",
+      "返す日を過ぎても新しく借りられる"
+    ],
+    "answerIndex": 2,
+    "explanation": "「雑誌の最新号は貸出できません」.",
+    "distractorExplanations": [
+      "The limit is ten books.",
+      "Reserved books cannot be extended.",
+      "(correct answer)",
+      "Overdue borrowers cannot borrow until they return."
+    ]
+  },
+  {
+    "id": "q-n4-r-21-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "blog",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-21"
+    },
+    "prompt": "この人はだれと富士山に登りましたか。",
+    "context": "",
+    "options": [
+      "家族",
+      "会社の同僚",
+      "一人で",
+      "学校の友達"
+    ],
+    "answerIndex": 1,
+    "explanation": "「会社の同僚三人と富士山に登ってきました」.",
+    "distractorExplanations": [
+      "Family is the plan for next time.",
+      "(correct answer)",
+      "They went as a group of four.",
+      "They are work colleagues, not school friends."
+    ]
+  },
+  {
+    "id": "q-n4-r-21-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "blog",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-21"
+    },
+    "prompt": "登っている途中で、この人はどうなりましたか。",
+    "context": "",
+    "options": [
+      "とても寒くなった",
+      "頭が痛くなった",
+      "道がわからなくなった",
+      "同僚と別れた"
+    ],
+    "answerIndex": 1,
+    "explanation": "「三時間ぐらい歩いたら、頭が痛くなってきました」.",
+    "distractorExplanations": [
+      "The cold came at the summit, not during the climb.",
+      "(correct answer)",
+      "Getting lost is not mentioned.",
+      "The colleagues stayed together and encouraged the writer."
+    ]
+  },
+  {
+    "id": "q-n4-r-21-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "blog",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-21"
+    },
+    "prompt": "頂上で日の出を見た時、この人はどう思いましたか。",
+    "context": "",
+    "options": [
+      "寒くて早く帰りたかった",
+      "疲れて何も感じなかった",
+      "とてもきれいで、疲れも寒さも忘れた",
+      "もう二度と登りたくない"
+    ],
+    "answerIndex": 2,
+    "explanation": "「疲れも寒さも忘れてしまいました。あんなにきれいな景色は生まれて初めてです」.",
+    "distractorExplanations": [
+      "The cold was forgotten at sunrise.",
+      "The writer felt strongly moved.",
+      "(correct answer)",
+      "The writer wants to climb again with family."
+    ]
+  },
+  {
+    "id": "q-n4-r-22-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-22"
+    },
+    "prompt": "この人は駅に着いてから、最初に何をしましたか。",
+    "context": "",
+    "options": [
+      "市場へ行った",
+      "ホテルに荷物を預けた",
+      "海鮮丼を食べた",
+      "兼六園へ行った"
+    ],
+    "answerIndex": 1,
+    "explanation": "「まずホテルに荷物を預けて、駅の近くの市場へ行った」.",
+    "distractorExplanations": [
+      "The market came after the hotel.",
+      "(correct answer)",
+      "Lunch was after the market visit.",
+      "The garden was in the afternoon."
+    ]
+  },
+  {
+    "id": "q-n4-r-22-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-22"
+    },
+    "prompt": "この人はいつ兼六園（けんろくえん）へ行きましたか。",
+    "context": "",
+    "options": [
+      "朝、雨が降っている時",
+      "昼ごはんの前",
+      "午後、雨がやんでから",
+      "夜、温泉の後"
+    ],
+    "answerIndex": 2,
+    "explanation": "「午後になって雨がやんだので…兼六園へ」.",
+    "distractorExplanations": [
+      "It was raining in the morning; the writer went to the market.",
+      "Lunch came before the garden.",
+      "(correct answer)",
+      "The evening was for the hot spring and sleep."
+    ]
+  },
+  {
+    "id": "q-n4-r-22-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "diary",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-22"
+    },
+    "prompt": "明日の予定は何ですか。",
+    "context": "",
+    "options": [
+      "新幹線で東京に帰る",
+      "バスで古い村へ行く",
+      "もう一度市場へ行く",
+      "温泉に入る"
+    ],
+    "answerIndex": 1,
+    "explanation": "「明日はバスで山の方の古い村へ行く予定」.",
+    "distractorExplanations": [
+      "Returning home is not mentioned.",
+      "(correct answer)",
+      "No second market visit is planned.",
+      "The hot spring was tonight."
+    ]
+  },
+  {
+    "id": "q-n4-r-23-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-23"
+    },
+    "prompt": "会話の授業は何曜日にありますか。",
+    "context": "",
+    "options": [
+      "月曜日と水曜日",
+      "火曜日と木曜日",
+      "火曜日と金曜日",
+      "毎日"
+    ],
+    "answerIndex": 1,
+    "explanation": "会話 appears on Tuesday and Thursday at 9:00.",
+    "distractorExplanations": [
+      "Monday and Wednesday are grammar.",
+      "(correct answer)",
+      "Friday is the project.",
+      "It is twice a week."
+    ]
+  },
+  {
+    "id": "q-n4-r-23-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-23"
+    },
+    "prompt": "水曜日の文法の宿題はいつまでに出しますか。",
+    "context": "",
+    "options": [
+      "木曜日",
+      "金曜日",
+      "次の月曜日",
+      "次の水曜日"
+    ],
+    "answerIndex": 2,
+    "explanation": "「次の同じ授業の日までに」: the next grammar class after Wednesday is Monday.",
+    "distractorExplanations": [
+      "Thursday is conversation and composition.",
+      "Friday is the project.",
+      "(correct answer)",
+      "Monday's grammar class comes before Wednesday's."
+    ]
+  },
+  {
+    "id": "q-n4-r-23-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "timetable",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-23"
+    },
+    "prompt": "この時間割と合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "テストは毎週金曜日にある",
+      "先生に質問するには予約が必要だ",
+      "五月三日から五日までは授業がない",
+      "漢字の授業は水曜日にある"
+    ],
+    "answerIndex": 2,
+    "explanation": "「五月三日（水）〜五日（金）は祝日のため、授業はありません」.",
+    "distractorExplanations": [
+      "The test is only on the last Friday of each month.",
+      "予約不要 means no reservation is needed.",
+      "(correct answer)",
+      "Kanji is on Tuesday."
+    ]
+  },
+  {
+    "id": "q-n4-r-24-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-24"
+    },
+    "prompt": "この人がイヤホンでよかったと思っていることは何ですか。",
+    "context": "",
+    "options": [
+      "ケースが小さい",
+      "音がきれい",
+      "値段が安い",
+      "説明書が日本語だ"
+    ],
+    "answerIndex": 1,
+    "explanation": "「音はとてもきれいで」: the sound quality is the main praise.",
+    "distractorExplanations": [
+      "The case is larger than expected.",
+      "(correct answer)",
+      "The reviewer says it is not cheap.",
+      "The manual was English only."
+    ]
+  },
+  {
+    "id": "q-n4-r-24-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-24"
+    },
+    "prompt": "使い方がわからなかった時、この人はどうしましたか。",
+    "context": "",
+    "options": [
+      "店に聞いた",
+      "メーカーに電話した",
+      "ホームページの日本語の説明を見た",
+      "英語の説明書をよく読んだ"
+    ],
+    "answerIndex": 2,
+    "explanation": "「メーカーのホームページに日本語の説明があったので、そちらを見て解決しました」.",
+    "distractorExplanations": [
+      "The shop is not mentioned.",
+      "No phone call is mentioned.",
+      "(correct answer)",
+      "The English manual was the problem, not the solution."
+    ]
+  },
+  {
+    "id": "q-n4-r-24-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "review",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-24"
+    },
+    "prompt": "このレビューと合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "一回充電すると一日中使える",
+      "ケースが大きいのが少し不便だ",
+      "値段が安いのでおすすめだ",
+      "買わなければよかったと思っている"
+    ],
+    "answerIndex": 1,
+    "explanation": "「ケースが思ったより大きくて…少し邪魔です」.",
+    "distractorExplanations": [
+      "One charge lasts about six hours.",
+      "(correct answer)",
+      "It is recommended for sound quality, not price.",
+      "The reviewer is glad they bought it."
+    ]
+  },
+  {
+    "id": "q-n4-r-25-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-25"
+    },
+    "prompt": "高橋さんはどうして約束の時間に行けませんでしたか。",
+    "context": "",
+    "options": [
+      "携帯電話をなくしたから",
+      "電車が事故で止まったから",
+      "朝寝坊したから",
+      "佐藤さんが来なかったから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「電車が事故で止まってしまい、駅で一時間以上待つことになりました」.",
+    "distractorExplanations": [
+      "The phone was forgotten at home, and that explains the missing call, not the lateness.",
+      "(correct answer)",
+      "Oversleeping is not mentioned.",
+      "Sato was the one kept waiting."
+    ]
+  },
+  {
+    "id": "q-n4-r-25-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-25"
+    },
+    "prompt": "高橋さんはどうして連絡できませんでしたか。",
+    "context": "",
+    "options": [
+      "電話の電池がなかったから",
+      "携帯電話を家に忘れたから",
+      "佐藤さんの電話番号を知らなかったから",
+      "駅に電話がなかったから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「携帯電話を家に忘れてきてしまい、連絡することができませんでした」.",
+    "distractorExplanations": [
+      "The battery is not mentioned.",
+      "(correct answer)",
+      "Knowing the number is not the issue.",
+      "Station phones are not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-25-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "email",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-25"
+    },
+    "prompt": "高橋さんは佐藤さんに何をお願いしていますか。",
+    "context": "",
+    "options": [
+      "電車の事故について調べること",
+      "来週もう一度会う時間を作ること",
+      "携帯電話を送ること",
+      "メールの返事をしないこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「来週もう一度お時間をいただけないでしょうか…ご希望の日時をお知らせください」.",
+    "distractorExplanations": [
+      "Investigating the accident is not requested.",
+      "(correct answer)",
+      "Nothing about sending a phone.",
+      "He asks for a reply with a preferred date."
+    ]
+  },
+  {
+    "id": "q-n4-r-26-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-26"
+    },
+    "prompt": "花火はいつ見られますか。",
+    "context": "",
+    "options": [
+      "十五日と十六日の両方",
+      "十五日の午後八時から",
+      "十六日の午後八時から",
+      "両日の午後六時から"
+    ],
+    "answerIndex": 1,
+    "explanation": "「花火　十五日のみ　午後八時〜八時半」.",
+    "distractorExplanations": [
+      "Fireworks are on the 15th only (unless rain).",
+      "(correct answer)",
+      "The 16th is the rain date only.",
+      "6:00 is the Bon dance."
+    ]
+  },
+  {
+    "id": "q-n4-r-26-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-26"
+    },
+    "prompt": "十五日に雨が降ったら、花火はどうなりますか。",
+    "context": "",
+    "options": [
+      "中止になる",
+      "十六日に行う",
+      "公園の中で行う",
+      "時間が変わる"
+    ],
+    "answerIndex": 1,
+    "explanation": "「雨の場合は十六日に延期します」.",
+    "distractorExplanations": [
+      "延期 means postponed, not cancelled.",
+      "(correct answer)",
+      "They are launched from the coast, not the park.",
+      "No time change is mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-26-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "guide",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-26"
+    },
+    "prompt": "祭りに行く人はどうしますか。",
+    "context": "",
+    "options": [
+      "車で公園まで行く",
+      "駅からシャトルバスに乗る",
+      "犬と一緒に行く",
+      "三時前に着く"
+    ],
+    "answerIndex": 1,
+    "explanation": "「駐車場はありません…駅から公園まで無料のシャトルバスが十分おきに出ます」.",
+    "distractorExplanations": [
+      "There is no car park.",
+      "(correct answer)",
+      "Pets are not allowed.",
+      "The festival starts at 3:00; arriving earlier is not instructed."
+    ]
+  },
+  {
+    "id": "q-n4-r-27-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "interview",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-27"
+    },
+    "prompt": "山下さんはどうして朝三時に仕事を始めますか。",
+    "context": "",
+    "options": [
+      "お客さんが三時に来るから",
+      "パンを焼くまでに四時間かかるから",
+      "電車がその時間にしかないから",
+      "休みの日も同じだから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「焼くまでに四時間かかりますから、そうしないと七時の開店に間に合いません」: baking takes four hours, so he must start at 3:00 to open at 7:00.",
+    "distractorExplanations": [
+      "Customers come from 7:00.",
+      "(correct answer)",
+      "Trains are not mentioned.",
+      "Waking on days off is a result, not the reason."
+    ]
+  },
+  {
+    "id": "q-n4-r-27-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "interview",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-27"
+    },
+    "prompt": "山下さんがいちばんうれしいことは何ですか。",
+    "context": "",
+    "options": [
+      "新しいパンを作ること",
+      "早く起きられること",
+      "昔子どもだったお客さんが、自分の子どもを連れて来ること",
+      "テレビに出ること"
+    ],
+    "answerIndex": 2,
+    "explanation": "「子どもの時に食べたお客さんが、今は自分の子どもを連れて買いに来てくれます。それがいちばんうれしいですね」.",
+    "distractorExplanations": [
+      "The recipe has not changed in 20 years.",
+      "Waking early is a habit, not a joy.",
+      "(correct answer)",
+      "Television is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-27-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "interview",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-27"
+    },
+    "prompt": "山下さんのこれからの目標（もくひょう）は何ですか。",
+    "context": "",
+    "options": [
+      "新しい店を出すこと",
+      "クリームパンの作り方を変えること",
+      "今の店と味をできるだけ長く続けること",
+      "三時より遅く起きること"
+    ],
+    "answerIndex": 2,
+    "explanation": "「この店で、この味を、できるだけ長く続けることです」.",
+    "distractorExplanations": [
+      "He explicitly has no plan to open a new shop.",
+      "He keeps the recipe unchanged.",
+      "(correct answer)",
+      "Sleeping later is not a stated goal."
+    ]
+  },
+  {
+    "id": "q-n4-r-28-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "story",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-28"
+    },
+    "prompt": "健太はどうして傘を持っていませんでしたか。",
+    "context": "",
+    "options": [
+      "傘をなくしたから",
+      "朝は晴れていたから",
+      "傘がこわれていたから",
+      "おばあさんにあげたから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「朝は晴れていたので、傘を持って来なかったのだ」.",
+    "distractorExplanations": [
+      "Losing the umbrella is not mentioned.",
+      "(correct answer)",
+      "No broken umbrella is mentioned.",
+      "The old woman gave him hers, not the other way round."
+    ]
+  },
+  {
+    "id": "q-n4-r-28-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "story",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-28"
+    },
+    "prompt": "おばあさんは健太に何と言いましたか。",
+    "context": "",
+    "options": [
+      "傘を明日返してほしい",
+      "一緒に帰りましょう",
+      "傘は返さなくていい",
+      "コンビニで傘を買いなさい"
+    ],
+    "answerIndex": 2,
+    "explanation": "「返さなくていいよ」.",
+    "distractorExplanations": [
+      "She said no return was needed.",
+      "She went home alone.",
+      "(correct answer)",
+      "Buying an umbrella was Kenta's own idea the next day."
+    ]
+  },
+  {
+    "id": "q-n4-r-28-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "story",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-28"
+    },
+    "prompt": "健太はどうして駅に傘を置きましたか。",
+    "context": "",
+    "options": [
+      "おばあさんに返すため",
+      "困っている人に使ってほしいから",
+      "傘が二本あって邪魔だから",
+      "コンビニに頼まれたから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「誰かが困ったとき、その傘が役に立てばいいと思ったからだ」.",
+    "distractorExplanations": [
+      "The old woman said not to return it, and the note says anyone may use it.",
+      "(correct answer)",
+      "Nothing suggests the umbrella was a nuisance.",
+      "The convenience store only sold it."
+    ]
+  },
+  {
+    "id": "q-n4-r-29-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-29"
+    },
+    "prompt": "一番最初に何をしますか。",
+    "context": "",
+    "options": [
+      "だしを温める",
+      "肉と玉ねぎを切る",
+      "卵を溶く",
+      "ごはんを温める"
+    ],
+    "answerIndex": 1,
+    "explanation": "Step one: 「鶏肉は一口大に、玉ねぎは薄く切っておきます」.",
+    "distractorExplanations": [
+      "Heating the stock is step two.",
+      "(correct answer)",
+      "Beating the egg is step three.",
+      "Warm rice is only used at the end."
+    ]
+  },
+  {
+    "id": "q-n4-r-29-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-29"
+    },
+    "prompt": "卵はどのように入れますか。",
+    "context": "",
+    "options": [
+      "一度に全部入れる",
+      "二回に分けて入れる",
+      "三回に分けて入れる",
+      "鶏肉の前に入れる"
+    ],
+    "answerIndex": 1,
+    "explanation": "「二回に分けて入れます」.",
+    "distractorExplanations": [
+      "Not all at once.",
+      "(correct answer)",
+      "Two times, not three.",
+      "Chicken goes in first, in step two."
+    ]
+  },
+  {
+    "id": "q-n4-r-29-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "recipe",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-29"
+    },
+    "prompt": "このレシピのポイントは何ですか。",
+    "context": "",
+    "options": [
+      "卵をよく混ぜること",
+      "卵を混ぜすぎないこと",
+      "卵を完全に固めること",
+      "卵を冷やしておくこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「ポイント：卵は混ぜすぎないこと」.",
+    "distractorExplanations": [
+      "The tip is the opposite: do not over-mix.",
+      "(correct answer)",
+      "Slightly unset egg is best.",
+      "Chilling the egg is not mentioned."
+    ]
+  },
+  {
+    "id": "q-n4-r-30-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-30"
+    },
+    "prompt": "四月から、燃えるごみは何曜日に出しますか。",
+    "context": "",
+    "options": [
+      "火曜日と金曜日",
+      "月曜日と木曜日",
+      "水曜日",
+      "土曜日"
+    ],
+    "answerIndex": 1,
+    "explanation": "「燃えるごみ…：月曜日・木曜日」.",
+    "distractorExplanations": [
+      "Tuesday and Friday were the OLD days.",
+      "(correct answer)",
+      "Wednesday is plastics.",
+      "Saturday is bottles and cans."
+    ]
+  },
+  {
+    "id": "q-n4-r-30-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-30"
+    },
+    "prompt": "プラスチックのごみを出すとき、どうしますか。",
+    "context": "",
+    "options": [
+      "前の日の夜に出す",
+      "洗ってから出す",
+      "電話で申し込む",
+      "燃えるごみと一緒に出す"
+    ],
+    "answerIndex": 1,
+    "explanation": "「容器や袋は、洗ってから出してください」.",
+    "distractorExplanations": [
+      "Putting rubbish out the night before is prohibited.",
+      "(correct answer)",
+      "Phone application is for large items.",
+      "Plastics are collected separately."
+    ]
+  },
+  {
+    "id": "q-n4-r-30-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "notice",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": [],
+      "readingId": "n4-reading-30"
+    },
+    "prompt": "このお知らせと合っているものはどれですか。",
+    "context": "",
+    "options": [
+      "大きなごみは無料で集めてもらえる",
+      "ごみはどんな袋に入れてもいい",
+      "ごみは朝八時までに出す",
+      "びんとかんは毎週土曜日に出す"
+    ],
+    "answerIndex": 2,
+    "explanation": "「ごみは朝八時までに、決められた場所に出してください」.",
+    "distractorExplanations": [
+      "Large items are 有料 (charged).",
+      "Only designated bags are collected.",
+      "(correct answer)",
+      "Bottles and cans are the first and third Saturdays only."
+    ]
+  }
+]

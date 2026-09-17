@@ -1,0 +1,75 @@
+{
+  "id": "n1-listening-29",
+  "slug": "29-sokuji-oto-keigo-to-kanyoku",
+  "level": "n1",
+  "order": 29,
+  "kind": "quick-response",
+  "title": "即時応答（敬語と慣用句）",
+  "setting": "それぞれの文を聞いて、正しい返事を選んでください。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "本日はお忙しい中、お運びいただきまして、誠にありがとうございます。"
+    },
+    {
+      "speaker": "男",
+      "line": "部長、この件、私に一任していただけませんか。"
+    },
+    {
+      "speaker": "女",
+      "line": "あの人、口は悪いけど、根は優しいんだよね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "お運びいただく",
+      "reading": "おはこびいただく",
+      "meaning": "to have someone come (honorific)"
+    },
+    {
+      "word": "誠に",
+      "reading": "まことに",
+      "meaning": "truly"
+    },
+    {
+      "word": "お招き",
+      "reading": "おまねき",
+      "meaning": "invitation (honorific)"
+    },
+    {
+      "word": "一任する",
+      "reading": "いちにんする",
+      "meaning": "to leave entirely to someone"
+    },
+    {
+      "word": "逐一",
+      "reading": "ちくいち",
+      "meaning": "one by one, in detail"
+    },
+    {
+      "word": "口が悪い",
+      "reading": "くちがわるい",
+      "meaning": "sharp-tongued"
+    },
+    {
+      "word": "根は",
+      "reading": "ねは",
+      "meaning": "at heart"
+    },
+    {
+      "word": "言い方",
+      "reading": "いいかた",
+      "meaning": "way of speaking"
+    },
+    {
+      "word": "きつい",
+      "reading": "きつい",
+      "meaning": "harsh"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-29-1",
+    "q-n1-l-29-2",
+    "q-n1-l-29-3"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "n1-listening-28",
+  "slug": "28-sobo-no-kaigo",
+  "level": "n1",
+  "order": 28,
+  "kind": "integrated",
+  "title": "祖母の介護",
+  "setting": "家で、父、母、娘が、退院する祖母の介護について話しています。",
+  "script": [
+    {
+      "speaker": "父",
+      "line": "おばあちゃんのことだけど、退院後どうするか、今日中に決めないと。病院からも聞かれてる。"
+    },
+    {
+      "speaker": "母",
+      "line": "私は、うちで見たいと思ってる。施設に入れるのは、本人が嫌がってるし。"
+    },
+    {
+      "speaker": "娘",
+      "line": "でも、お母さん仕事あるでしょ。昼間誰が見るの？"
+    },
+    {
+      "speaker": "母",
+      "line": "私が時短にすればなんとか。"
+    },
+    {
+      "speaker": "父",
+      "line": "時短にしたら収入が減る。それに、介護って、思ってる以上に長く続くよ。"
+    },
+    {
+      "speaker": "娘",
+      "line": "週に何日かデイサービスを使うっていう手もあるんじゃない？昼間はそこに行ってもらって、夜はうちで。"
+    },
+    {
+      "speaker": "父",
+      "line": "それなら母さんも仕事を減らさずに済むな。"
+    },
+    {
+      "speaker": "母",
+      "line": "おばあちゃんが行ってくれるかしら。"
+    },
+    {
+      "speaker": "娘",
+      "line": "施設に入るのとは違うって説明すれば、大丈夫だと思う。友達のおばあちゃんも楽しそうに通ってるし。"
+    },
+    {
+      "speaker": "父",
+      "line": "よし、まずはデイサービスを見学して、本人に見せてから決めよう。それでだめなら、時短の話に戻る。"
+    },
+    {
+      "speaker": "母",
+      "line": "わかった。明日、ケアマネさんに相談してみる。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "退院",
+      "reading": "たいいん",
+      "meaning": "leaving hospital"
+    },
+    {
+      "word": "施設",
+      "reading": "しせつ",
+      "meaning": "care facility"
+    },
+    {
+      "word": "嫌がる",
+      "reading": "いやがる",
+      "meaning": "to be reluctant"
+    },
+    {
+      "word": "時短",
+      "reading": "じたん",
+      "meaning": "reduced working hours"
+    },
+    {
+      "word": "介護",
+      "reading": "かいご",
+      "meaning": "nursing care"
+    },
+    {
+      "word": "デイサービス",
+      "reading": "デイサービス",
+      "meaning": "adult day care"
+    },
+    {
+      "word": "〜という手もある",
+      "reading": "というてもある",
+      "meaning": "there is also the option of"
+    },
+    {
+      "word": "〜ずに済む",
+      "reading": "ずにすむ",
+      "meaning": "to get by without"
+    },
+    {
+      "word": "見学する",
+      "reading": "けんがくする",
+      "meaning": "to visit and look around"
+    },
+    {
+      "word": "ケアマネ",
+      "reading": "ケアマネ",
+      "meaning": "care manager"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-28-1",
+    "q-n1-l-28-2"
+  ]
+}

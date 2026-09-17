@@ -1,0 +1,78 @@
+{
+  "id": "n5-reading-12",
+  "slug": "12-otoshimono",
+  "level": "n5",
+  "order": 12,
+  "kind": "short",
+  "title": "おとしもののお知らせ",
+  "paragraphs": [
+    "おとしもの",
+    "三月十日（さんがつとおか）、二階（にかい）のトイレの前（まえ）で、黒（くろ）いかさを見（み）つけました。",
+    "かさに「田中（たなか）」と名前（なまえ）があります。",
+    "あなたのかさですか。一階（いっかい）の受付（うけつけ）に来（き）てください。",
+    "受付（うけつけ）は九時（くじ）から五時（ごじ）までです。"
+  ],
+  "vocab": [
+    {
+      "word": "落とし物",
+      "reading": "おとしもの",
+      "meaning": "lost item"
+    },
+    {
+      "word": "二階",
+      "reading": "にかい",
+      "meaning": "second floor"
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "in front of"
+    },
+    {
+      "word": "黒い",
+      "reading": "くろい",
+      "meaning": "black"
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meaning": "umbrella"
+    },
+    {
+      "word": "見つける",
+      "reading": "みつける",
+      "meaning": "to find"
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "name"
+    },
+    {
+      "word": "受付",
+      "reading": "うけつけ",
+      "meaning": "reception desk"
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "to come"
+    },
+    {
+      "word": "〜から〜まで",
+      "reading": "からまで",
+      "meaning": "from ... until ..."
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-12-1",
+    "q-n5-r-12-2",
+    "q-n5-r-12-3"
+  ],
+  "strategyNotes": [
+    "Notices give a WHERE for finding and a different WHERE for collecting. Separate the two.",
+    "Colours and objects are common distractors: check both the adjective (黒い) and the noun (かさ).",
+    "Times are given as a range with から〜まで; the question may ask only about the end."
+  ],
+  "timeLimitSeconds": 150
+}

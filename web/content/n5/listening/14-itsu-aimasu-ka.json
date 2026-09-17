@@ -1,0 +1,71 @@
+{
+  "id": "n5-listening-14",
+  "slug": "14-itsu-aimasu-ka",
+  "level": "n5",
+  "order": 14,
+  "kind": "task",
+  "title": "いつ会いますか",
+  "setting": "電話で、女の人と男の人が話しています。二人はいつ会いますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "もしもし。今週の土曜日、いっしょに買い物に行きませんか。"
+    },
+    {
+      "speaker": "男",
+      "line": "土曜日はアルバイトがあります。日曜日はどうですか。"
+    },
+    {
+      "speaker": "女",
+      "line": "日曜日は、母と出かけます。じゃあ、来週の土曜日はどうですか。"
+    },
+    {
+      "speaker": "男",
+      "line": "来週の土曜日は大丈夫です。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、そうしましょう。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "meaning": "this week"
+    },
+    {
+      "word": "来週",
+      "reading": "らいしゅう",
+      "meaning": "next week"
+    },
+    {
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday"
+    },
+    {
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": "Sunday"
+    },
+    {
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "meaning": "part-time job"
+    },
+    {
+      "word": "出かける",
+      "reading": "でかける",
+      "meaning": "to go out"
+    },
+    {
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning": "fine, OK"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-14-1"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "n4-reading-16",
+  "slug": "16-isha-no-setsumei",
+  "level": "n4",
+  "order": 16,
+  "kind": "short",
+  "title": "医者の説明",
+  "paragraphs": [
+    "田中さん、今日の検査（けんさ）の結果（けっか）ですが、風邪（かぜ）ではなく、インフルエンザでした。",
+    "薬を五日分（ごにちぶん）出しますので、朝と晩、食事の後に一つずつ飲んでください。熱が下がっても、薬は最後まで飲み続けてください。途中（とちゅう）でやめると、また悪くなることがあります。",
+    "熱が下がってから二日間は、仕事に行かないで家で休んでください。ほかの人にうつる可能性（かのうせい）がありますから。",
+    "水分（すいぶん）をたくさんとって、お風呂はまだ入らないほうがいいです。シャワーだけにしてください。",
+    "三日たっても熱が下がらない場合は、もう一度来てください。"
+  ],
+  "vocab": [
+    {
+      "word": "検査",
+      "reading": "けんさ",
+      "meaning": "examination, test"
+    },
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meaning": "result"
+    },
+    {
+      "word": "風邪",
+      "reading": "かぜ",
+      "meaning": "a cold"
+    },
+    {
+      "word": "インフルエンザ",
+      "reading": "いんふるえんざ",
+      "meaning": "influenza"
+    },
+    {
+      "word": "〜分",
+      "reading": "ぶん",
+      "meaning": "portion for ..."
+    },
+    {
+      "word": "〜ずつ",
+      "reading": "ずつ",
+      "meaning": "... each"
+    },
+    {
+      "word": "〜続ける",
+      "reading": "つづける",
+      "meaning": "to keep doing"
+    },
+    {
+      "word": "途中で",
+      "reading": "とちゅうで",
+      "meaning": "midway"
+    },
+    {
+      "word": "うつる",
+      "reading": "うつる",
+      "meaning": "to be contagious, to pass on"
+    },
+    {
+      "word": "可能性",
+      "reading": "かのうせい",
+      "meaning": "possibility"
+    },
+    {
+      "word": "水分をとる",
+      "reading": "すいぶんをとる",
+      "meaning": "to take fluids"
+    },
+    {
+      "word": "たつ",
+      "reading": "たつ",
+      "meaning": "(time) passes"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-16-1",
+    "q-n4-r-16-2",
+    "q-n4-r-16-3"
+  ],
+  "strategyNotes": [
+    "Doctor's instructions are a list of 〜てください and 〜ないほうがいい. Sort the actions into 'do' and 'avoid'.",
+    "〜ても (even if) keeps a rule in force: 熱が下がっても飲み続ける.",
+    "A question like 'what is NOT said' requires checking each option against the text, one by one."
+  ],
+  "timeLimitSeconds": 240
+}

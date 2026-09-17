@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-16",
+  "slug": "16-soji-no-hi",
+  "level": "n4",
+  "order": 16,
+  "kind": "task",
+  "title": "掃除の日",
+  "setting": "家で、母と息子が話しています。息子は今日、何をしますか。",
+  "script": [
+    {
+      "speaker": "母",
+      "line": "今日は掃除の日でしょう。お風呂とトイレ、お願いね。"
+    },
+    {
+      "speaker": "息子",
+      "line": "え、今日は午後から友達と約束があるんだけど。"
+    },
+    {
+      "speaker": "母",
+      "line": "じゃあ、お風呂だけでいいよ。トイレはお母さんがやっておくから。その代わり、帰りにごみを出しておいてね。"
+    },
+    {
+      "speaker": "息子",
+      "line": "わかった。お風呂とごみね。ごみは何時までに出せばいい？"
+    },
+    {
+      "speaker": "母",
+      "line": "十時までに出さなきゃいけないから、出かける前にお願いね。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "掃除",
+      "reading": "そうじ",
+      "meaning": "cleaning"
+    },
+    {
+      "word": "お風呂",
+      "reading": "おふろ",
+      "meaning": "bath"
+    },
+    {
+      "word": "約束",
+      "reading": "やくそく",
+      "meaning": "promise, appointment"
+    },
+    {
+      "word": "〜だけでいい",
+      "reading": "だけでいい",
+      "meaning": "just ... is fine"
+    },
+    {
+      "word": "その代わり",
+      "reading": "そのかわり",
+      "meaning": "instead, in exchange"
+    },
+    {
+      "word": "ごみを出す",
+      "reading": "ごみをだす",
+      "meaning": "to take out the garbage"
+    },
+    {
+      "word": "〜なきゃいけない",
+      "reading": "なきゃいけない",
+      "meaning": "have to"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-16-1"
+  ]
+}

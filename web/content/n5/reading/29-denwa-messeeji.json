@@ -1,0 +1,78 @@
+{
+  "id": "n5-reading-29",
+  "slug": "29-denwa-messeeji",
+  "level": "n5",
+  "order": 29,
+  "kind": "short",
+  "title": "電話のメッセージ",
+  "paragraphs": [
+    "山田（やまだ）さん、おはようございます。ABC会社（かいしゃ）の中村（なかむら）です。",
+    "きょうの三時（さんじ）の会議（かいぎ）ですが、四時（よじ）にしてもいいですか。午前中（ごぜんちゅう）は大阪（おおさか）にいますから、三時（さんじ）は少（すこ）し早（はや）いです。",
+    "場所（ばしょ）は同（おな）じです。二階（にかい）の会議（かいぎ）室（かいぎしつ）です。",
+    "だいじょうぶな時（とき）はメールを、だめな時（とき）は電話（でんわ）をお願（ねが）いします。",
+    "では、失礼（しつれい）します。"
+  ],
+  "vocab": [
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meaning": "meeting"
+    },
+    {
+      "word": "〜にする",
+      "reading": "にする",
+      "meaning": "to decide on, change to"
+    },
+    {
+      "word": "午前中",
+      "reading": "ごぜんちゅう",
+      "meaning": "during the morning"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "early"
+    },
+    {
+      "word": "場所",
+      "reading": "ばしょ",
+      "meaning": "place"
+    },
+    {
+      "word": "同じ",
+      "reading": "おなじ",
+      "meaning": "same"
+    },
+    {
+      "word": "会議室",
+      "reading": "かいぎしつ",
+      "meaning": "meeting room"
+    },
+    {
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning": "OK, fine"
+    },
+    {
+      "word": "だめ",
+      "reading": "だめ",
+      "meaning": "not OK"
+    },
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meaning": "goodbye (polite)"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-29-1",
+    "q-n5-r-29-2",
+    "q-n5-r-29-3"
+  ],
+  "strategyNotes": [
+    "Phone messages usually propose a change: X ですが、Y にしてもいいですか. Old = X, new = Y.",
+    "〜から gives the reason for the request. Find it right after the reason clause.",
+    "The instruction splits into two cases (だいじょうぶな時 / だめな時) with different actions."
+  ],
+  "timeLimitSeconds": 150
+}

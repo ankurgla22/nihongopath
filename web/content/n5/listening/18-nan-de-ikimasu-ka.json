@@ -1,0 +1,71 @@
+{
+  "id": "n5-listening-18",
+  "slug": "18-nan-de-ikimasu-ka",
+  "level": "n5",
+  "order": 18,
+  "kind": "task",
+  "title": "何で行きますか",
+  "setting": "会社の前で、男の人と女の人が話しています。男の人は何で駅へ行きますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "今日は雨ですね。バスで駅へ行きますか。"
+    },
+    {
+      "speaker": "女",
+      "line": "バスは今、時間がかかりますよ。歩いたほうがいいです。"
+    },
+    {
+      "speaker": "男",
+      "line": "でも、傘がありません。"
+    },
+    {
+      "speaker": "女",
+      "line": "じゃあ、私の車で行きましょう。私も駅へ行きますから。"
+    },
+    {
+      "speaker": "男",
+      "line": "ありがとうございます。じゃあ、お願いします。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain"
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meaning": "bus"
+    },
+    {
+      "word": "時間がかかる",
+      "reading": "じかんがかかる",
+      "meaning": "to take time"
+    },
+    {
+      "word": "歩く",
+      "reading": "あるく",
+      "meaning": "to walk"
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meaning": "umbrella"
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "car"
+    },
+    {
+      "word": "〜ほうがいい",
+      "reading": "ほうがいい",
+      "meaning": "it is better to ..."
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-18-1"
+  ]
+}

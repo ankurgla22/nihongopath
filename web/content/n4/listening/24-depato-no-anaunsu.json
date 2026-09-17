@@ -1,0 +1,65 @@
+{
+  "id": "n4-listening-24",
+  "slug": "24-depato-no-anaunsu",
+  "level": "n4",
+  "order": 24,
+  "kind": "point",
+  "title": "デパートのアナウンス",
+  "setting": "デパートで、アナウンスを聞いています。財布を忘れた人はどこへ行きますか。",
+  "script": [
+    {
+      "speaker": "アナウンス",
+      "line": "お客様にご案内いたします。先ほど、三階の婦人服売り場で、黒い財布のお忘れ物がございました。黒い財布をお忘れのお客様は、一階のサービスカウンターまでお越しください。なお、本日は七時に閉店いたします。閉店までにお越しいただけない場合は、明日以降、同じカウンターでお受け取りください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "ご案内いたします",
+      "reading": "ごあんないいたします",
+      "meaning": "we would like to inform you"
+    },
+    {
+      "word": "先ほど",
+      "reading": "さきほど",
+      "meaning": "a short while ago"
+    },
+    {
+      "word": "婦人服売り場",
+      "reading": "ふじんふくうりば",
+      "meaning": "women's clothing section"
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meaning": "wallet"
+    },
+    {
+      "word": "お忘れ物",
+      "reading": "おわすれもの",
+      "meaning": "lost item"
+    },
+    {
+      "word": "サービスカウンター",
+      "reading": "サービスカウンター",
+      "meaning": "service counter"
+    },
+    {
+      "word": "お越しください",
+      "reading": "おこしください",
+      "meaning": "please come"
+    },
+    {
+      "word": "閉店",
+      "reading": "へいてん",
+      "meaning": "closing"
+    },
+    {
+      "word": "受け取る",
+      "reading": "うけとる",
+      "meaning": "to receive, pick up"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-24-1"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "n5-listening-25",
+  "slug": "25-tanjobi-no-purezento",
+  "level": "n5",
+  "order": 25,
+  "kind": "point",
+  "title": "誕生日のプレゼント",
+  "setting": "男の人と女の人が話しています。女の人は誕生日に何をもらいましたか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "誕生日おめでとうございます。何かもらいましたか。"
+    },
+    {
+      "speaker": "女",
+      "line": "はい。母から時計をもらいました。友達からは花をもらいました。"
+    },
+    {
+      "speaker": "男",
+      "line": "いいですね。お父さんからは？"
+    },
+    {
+      "speaker": "女",
+      "line": "父は今、出張ですから、まだです。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "誕生日",
+      "reading": "たんじょうび",
+      "meaning": "birthday"
+    },
+    {
+      "word": "おめでとうございます",
+      "reading": "おめでとうございます",
+      "meaning": "congratulations"
+    },
+    {
+      "word": "もらう",
+      "reading": "もらう",
+      "meaning": "to receive"
+    },
+    {
+      "word": "時計",
+      "reading": "とけい",
+      "meaning": "watch, clock"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meaning": "business trip"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "meaning": "not yet"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-25-1"
+  ]
+}

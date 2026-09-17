@@ -1,0 +1,89 @@
+{
+  "id": "n3-listening-20",
+  "slug": "20-midoriyama-koen-e",
+  "level": "n3",
+  "order": 20,
+  "kind": "task",
+  "title": "緑山公園へ",
+  "setting": "駅で、女の人と駅員が話しています。女の人はこの後どうしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "すみません、緑山公園に行きたいんですけど、どの電車ですか。"
+    },
+    {
+      "speaker": "駅員",
+      "line": "緑山公園でしたら、三番ホームから出る各駅停車で四つ目です。"
+    },
+    {
+      "speaker": "女",
+      "line": "急行は止まらないんですか。"
+    },
+    {
+      "speaker": "駅員",
+      "line": "急行は通過しちゃうんですよ。ただ、急行で二つ先の中央駅まで行って、そこで各駅に乗り換えると、少し早く着きます。"
+    },
+    {
+      "speaker": "女",
+      "line": "うーん、乗り換えは面倒だから、各駅でいいです。"
+    },
+    {
+      "speaker": "駅員",
+      "line": "そうですね、五分くらいしか変わりませんし。三番ホームは、この階段を下りて左です。"
+    },
+    {
+      "speaker": "女",
+      "line": "ありがとうございます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "駅員",
+      "reading": "えきいん",
+      "meaning": "station staff"
+    },
+    {
+      "word": "ホーム",
+      "reading": "ホーム",
+      "meaning": "platform"
+    },
+    {
+      "word": "各駅停車",
+      "reading": "かくえきていしゃ",
+      "meaning": "local train"
+    },
+    {
+      "word": "〜つ目",
+      "reading": "つめ",
+      "meaning": "the ~th (stop)"
+    },
+    {
+      "word": "急行",
+      "reading": "きゅうこう",
+      "meaning": "express"
+    },
+    {
+      "word": "通過する",
+      "reading": "つうかする",
+      "meaning": "to pass through without stopping"
+    },
+    {
+      "word": "乗り換える",
+      "reading": "のりかえる",
+      "meaning": "to transfer"
+    },
+    {
+      "word": "面倒",
+      "reading": "めんどう",
+      "meaning": "a hassle"
+    },
+    {
+      "word": "〜しか〜ない",
+      "reading": "しか",
+      "meaning": "only"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-20-1"
+  ]
+}

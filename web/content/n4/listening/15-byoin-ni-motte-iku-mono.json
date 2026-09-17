@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-15",
+  "slug": "15-byoin-ni-motte-iku-mono",
+  "level": "n4",
+  "order": 15,
+  "kind": "task",
+  "title": "病院に持って行く物",
+  "setting": "電話で、男の人が病院の人と話しています。男の人は明日、何を持って行かなければなりませんか。",
+  "script": [
+    {
+      "speaker": "病院",
+      "line": "明日の十時にご予約ですね。保険証を忘れずに持ってきてください。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい。前にもらった薬も持って行ったほうがいいですか。"
+    },
+    {
+      "speaker": "病院",
+      "line": "薬は持ってこなくても大丈夫ですが、今飲んでいる薬の名前をメモしておいてください。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。診察券は、まだ作っていないんですが。"
+    },
+    {
+      "speaker": "病院",
+      "line": "初めてなら、こちらで作りますから、いりませんよ。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meaning": "health insurance card"
+    },
+    {
+      "word": "忘れずに",
+      "reading": "わすれずに",
+      "meaning": "without forgetting"
+    },
+    {
+      "word": "診察券",
+      "reading": "しんさつけん",
+      "meaning": "patient registration card"
+    },
+    {
+      "word": "〜なくても大丈夫",
+      "reading": "なくてもだいじょうぶ",
+      "meaning": "it is fine even if you don't"
+    },
+    {
+      "word": "メモする",
+      "reading": "メモする",
+      "meaning": "to write a note"
+    },
+    {
+      "word": "初めて",
+      "reading": "はじめて",
+      "meaning": "first time"
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "meaning": "to be needed"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-15-1"
+  ]
+}

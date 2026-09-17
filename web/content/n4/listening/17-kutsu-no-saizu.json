@@ -1,0 +1,71 @@
+{
+  "id": "n4-listening-17",
+  "slug": "17-kutsu-no-saizu",
+  "level": "n4",
+  "order": 17,
+  "kind": "task",
+  "title": "靴のサイズ",
+  "setting": "靴屋で、男の人と店員が話しています。店員はこの後、何を持ってきますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "この黒い靴、二十六センチはありますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "少々お待ちください。すみません、黒の二十六センチは売り切れてしまいました。茶色なら二十六センチがございますが。"
+    },
+    {
+      "speaker": "男",
+      "line": "うーん、黒がいいなあ。二十六点五センチはありますか。"
+    },
+    {
+      "speaker": "店員",
+      "line": "はい、黒の二十六点五センチはございます。少し大きいかもしれませんが、お持ちしましょうか。"
+    },
+    {
+      "speaker": "男",
+      "line": "お願いします。試してみます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "センチ",
+      "reading": "センチ",
+      "meaning": "centimeter"
+    },
+    {
+      "word": "売り切れる",
+      "reading": "うりきれる",
+      "meaning": "to sell out"
+    },
+    {
+      "word": "〜てしまう",
+      "reading": "てしまう",
+      "meaning": "(regrettably) ended up"
+    },
+    {
+      "word": "茶色",
+      "reading": "ちゃいろ",
+      "meaning": "brown"
+    },
+    {
+      "word": "ございます",
+      "reading": "ございます",
+      "meaning": "there is (polite)"
+    },
+    {
+      "word": "〜かもしれない",
+      "reading": "かもしれない",
+      "meaning": "might"
+    },
+    {
+      "word": "試す",
+      "reading": "ためす",
+      "meaning": "to try"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-17-1"
+  ]
+}

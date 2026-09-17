@@ -1,0 +1,50 @@
+{
+  "id": "n5-listening-26",
+  "slug": "26-ima-nanji-desu-ka",
+  "level": "n5",
+  "order": 26,
+  "kind": "quick-response",
+  "title": "今何時ですか",
+  "setting": "道で知らない人に聞かれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "男",
+      "line": "すみません、今何時ですか。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "今",
+      "reading": "いま",
+      "meaning": "now"
+    },
+    {
+      "word": "何時",
+      "reading": "なんじ",
+      "meaning": "what time"
+    },
+    {
+      "word": "三時半",
+      "reading": "さんじはん",
+      "meaning": "3:30"
+    },
+    {
+      "word": "三時間",
+      "reading": "さんじかん",
+      "meaning": "three hours"
+    },
+    {
+      "word": "時計",
+      "reading": "とけい",
+      "meaning": "watch, clock"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "meaning": "excuse me"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-26-1"
+  ]
+}

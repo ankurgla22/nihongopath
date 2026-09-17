@@ -1,0 +1,55 @@
+{
+  "id": "n5-listening-24",
+  "slug": "24-ashita-no-tenki",
+  "level": "n5",
+  "order": 24,
+  "kind": "point",
+  "title": "明日の天気",
+  "setting": "テレビで天気予報を聞いています。明日の午後の天気はどうですか。",
+  "script": [
+    {
+      "speaker": "アナウンサー",
+      "line": "天気予報です。今日は一日晴れです。明日は、朝はくもりで、午後から雨がふるでしょう。出かける人は、傘を持って行ってください。明後日は、また晴れるでしょう。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "meaning": "weather forecast"
+    },
+    {
+      "word": "晴れ",
+      "reading": "はれ",
+      "meaning": "sunny"
+    },
+    {
+      "word": "くもり",
+      "reading": "くもり",
+      "meaning": "cloudy"
+    },
+    {
+      "word": "雨がふる",
+      "reading": "あめがふる",
+      "meaning": "to rain"
+    },
+    {
+      "word": "〜でしょう",
+      "reading": "でしょう",
+      "meaning": "probably ..."
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meaning": "umbrella"
+    },
+    {
+      "word": "明後日",
+      "reading": "あさって",
+      "meaning": "the day after tomorrow"
+    }
+  ],
+  "questionIds": [
+    "q-n5-l-24-1"
+  ]
+}

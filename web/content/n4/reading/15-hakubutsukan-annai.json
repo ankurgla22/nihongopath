@@ -1,0 +1,95 @@
+{
+  "id": "n4-reading-15",
+  "slug": "15-hakubutsukan-annai",
+  "level": "n4",
+  "order": 15,
+  "kind": "medium",
+  "title": "博物館の案内",
+  "paragraphs": [
+    "みなと歴史（れきし）博物館（はくぶつかん）　ご案内",
+    "開館（かいかん）時間：午前九時三十分から午後五時まで（入館（にゅうかん）は四時三十分まで）",
+    "休館日（きゅうかんび）：月曜日（月曜日が祝日（しゅくじつ）の場合は、次の日）、年末年始（ねんまつねんし）",
+    "入館料（にゅうかんりょう）：大人五百円、高校生・大学生三百円、中学生以下（いか）無料（むりょう）。二十名以上の団体（だんたい）は二割引（にわりびき）です。",
+    "一階は港（みなと）の歴史、二階は昔（むかし）の船（ふね）と道具（どうぐ）の展示（てんじ）です。二階の船には実際（じっさい）に乗ることができます。",
+    "館内（かんない）では写真を撮（と）ってもかまいませんが、フラッシュは使わないでください。飲食（いんしょく）は一階のカフェでお願いします。",
+    "毎週土曜日の午後二時から、ボランティアによる無料のガイドツアー（約四十分）があります。予約はいりません。一階の受付にお集まりください。"
+  ],
+  "vocab": [
+    {
+      "word": "博物館",
+      "reading": "はくぶつかん",
+      "meaning": "museum"
+    },
+    {
+      "word": "開館",
+      "reading": "かいかん",
+      "meaning": "opening (of a facility)"
+    },
+    {
+      "word": "入館",
+      "reading": "にゅうかん",
+      "meaning": "admission, entry"
+    },
+    {
+      "word": "休館日",
+      "reading": "きゅうかんび",
+      "meaning": "closed day"
+    },
+    {
+      "word": "祝日",
+      "reading": "しゅくじつ",
+      "meaning": "public holiday"
+    },
+    {
+      "word": "無料",
+      "reading": "むりょう",
+      "meaning": "free of charge"
+    },
+    {
+      "word": "団体",
+      "reading": "だんたい",
+      "meaning": "group"
+    },
+    {
+      "word": "〜割引",
+      "reading": "わりびき",
+      "meaning": "... x10 percent discount"
+    },
+    {
+      "word": "展示",
+      "reading": "てんじ",
+      "meaning": "exhibition"
+    },
+    {
+      "word": "実際に",
+      "reading": "じっさいに",
+      "meaning": "actually"
+    },
+    {
+      "word": "館内",
+      "reading": "かんない",
+      "meaning": "inside the building"
+    },
+    {
+      "word": "飲食",
+      "reading": "いんしょく",
+      "meaning": "eating and drinking"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-15-1",
+    "q-n4-r-15-2",
+    "q-n4-r-15-3"
+  ],
+  "strategyNotes": [
+    "Facility guides hide conditions in parentheses: 月曜日が祝日の場合は次の日. Read every bracket.",
+    "二割引 = 20 percent off. Compute the base price for the right category first, then discount.",
+    "'What can you do' questions: cross out every option that hits a 〜ないでください or a location restriction."
+  ],
+  "timeLimitSeconds": 300
+}

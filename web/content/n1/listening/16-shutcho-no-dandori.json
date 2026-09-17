@@ -1,0 +1,106 @@
+{
+  "id": "n1-listening-16",
+  "slug": "16-shutcho-no-dandori",
+  "level": "n1",
+  "order": 16,
+  "kind": "task",
+  "title": "出張の段取り",
+  "setting": "会社で、部長と男の人が海外出張の準備について話しています。男の人はこの後まず何をしますか。",
+  "script": [
+    {
+      "speaker": "部長",
+      "line": "来月のシンガポール出張の件だけど、段取り、確認させて。"
+    },
+    {
+      "speaker": "男",
+      "line": "はい。航空券は仮押さえしてあります。ホテルはまだです。"
+    },
+    {
+      "speaker": "部長",
+      "line": "航空券は、先方との日程が確定してからでないと確定できないよね。先方の返事はいつ？"
+    },
+    {
+      "speaker": "男",
+      "line": "今週中には来るはずです。"
+    },
+    {
+      "speaker": "部長",
+      "line": "じゃ、返事が来次第、航空券を確定して、その足でホテルも押さえて。ホテルは経費規定の上限を超えないように。"
+    },
+    {
+      "speaker": "男",
+      "line": "承知しました。それと、出張申請書はもう出しておきましょうか。"
+    },
+    {
+      "speaker": "部長",
+      "line": "いや、申請書は日程と宿泊費が確定してからじゃないと、差し戻されるだけだ。順番としては、まず先方に日程の催促をして、それからだね。"
+    },
+    {
+      "speaker": "男",
+      "line": "では、催促のメールを今日中に。"
+    },
+    {
+      "speaker": "部長",
+      "line": "頼む。あ、それと、ビザは不要だけど、パスポートの残存期間だけは今すぐ確認しといて。半年切ってたらアウトだから。"
+    },
+    {
+      "speaker": "男",
+      "line": "あ、それは確かに。すぐ見ます。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "段取り",
+      "reading": "だんどり",
+      "meaning": "arrangements, plan of action"
+    },
+    {
+      "word": "仮押さえ",
+      "reading": "かりおさえ",
+      "meaning": "provisional booking"
+    },
+    {
+      "word": "先方",
+      "reading": "せんぽう",
+      "meaning": "the other party"
+    },
+    {
+      "word": "〜次第",
+      "reading": "しだい",
+      "meaning": "as soon as"
+    },
+    {
+      "word": "その足で",
+      "reading": "そのあしで",
+      "meaning": "right after that, without going elsewhere"
+    },
+    {
+      "word": "経費規定",
+      "reading": "けいひきてい",
+      "meaning": "expense rules"
+    },
+    {
+      "word": "差し戻す",
+      "reading": "さしもどす",
+      "meaning": "to send back (for revision)"
+    },
+    {
+      "word": "催促",
+      "reading": "さいそく",
+      "meaning": "reminder, prompting"
+    },
+    {
+      "word": "残存期間",
+      "reading": "ざんぞんきかん",
+      "meaning": "remaining validity"
+    },
+    {
+      "word": "切る",
+      "reading": "きる",
+      "meaning": "to fall below"
+    }
+  ],
+  "questionIds": [
+    "q-n1-l-16-1"
+  ]
+}

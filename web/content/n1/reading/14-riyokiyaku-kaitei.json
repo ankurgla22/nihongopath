@@ -1,0 +1,88 @@
+{
+  "id": "n1-reading-14",
+  "slug": "14-riyokiyaku-kaitei",
+  "level": "n1",
+  "order": 14,
+  "kind": "short",
+  "title": "利用規約改定のお知らせ",
+  "paragraphs": [
+    "利用規約改定のお知らせ",
+    "平素（へいそ）より当社サービスをご利用いただき、誠にありがとうございます。このたび、2027年1月15日をもって利用規約の一部を改定いたします。主な改定点は以下のとおりです。",
+    "第一に、無料プランにおけるデータ保存期間を、従来の無期限から最終ログイン日より180日間に変更いたします。期間経過後のデータは予告なく削除され、復元（ふくげん）はいたしかねます。第二に、有料プランの解約は、次回更新日の7日前までにお手続きいただく必要があります。それ以降のお申し出は次回更新後に反映（はんえい）されます。",
+    "なお、改定日以降に本サービスをご利用になった場合、改定後の規約に同意いただいたものとみなします。ご同意いただけない場合は、改定日前日までに退会のお手続きをお願いいたします。"
+  ],
+  "vocab": [
+    {
+      "word": "平素",
+      "reading": "へいそ",
+      "meaning": "ordinarily (formal)"
+    },
+    {
+      "word": "改定",
+      "reading": "かいてい",
+      "meaning": "revision (of rules)"
+    },
+    {
+      "word": "をもって",
+      "reading": "をもって",
+      "meaning": "as of (a date)"
+    },
+    {
+      "word": "従来",
+      "reading": "じゅうらい",
+      "meaning": "conventional, until now"
+    },
+    {
+      "word": "無期限",
+      "reading": "むきげん",
+      "meaning": "indefinite"
+    },
+    {
+      "word": "経過",
+      "reading": "けいか",
+      "meaning": "passage (of time)"
+    },
+    {
+      "word": "予告なく",
+      "reading": "よこくなく",
+      "meaning": "without notice"
+    },
+    {
+      "word": "復元",
+      "reading": "ふくげん",
+      "meaning": "restoration"
+    },
+    {
+      "word": "いたしかねる",
+      "reading": "いたしかねる",
+      "meaning": "unable to do (polite refusal)"
+    },
+    {
+      "word": "解約",
+      "reading": "かいやく",
+      "meaning": "cancellation of contract"
+    },
+    {
+      "word": "反映する",
+      "reading": "はんえいする",
+      "meaning": "to be reflected"
+    },
+    {
+      "word": "みなす",
+      "reading": "みなす",
+      "meaning": "to deem, regard as"
+    }
+  ],
+  "questionIds": [
+    "q-n1-r-14-1",
+    "q-n1-r-14-2",
+    "q-n1-r-14-3",
+    "q-n1-r-14-4"
+  ],
+  "strategyNotes": [
+    "Notices of this kind hide the consequences in polite phrasing: いたしかねます means 'we will not', みなします means 'we will treat it as'.",
+    "Count deadlines precisely. '7日前まで' means on or before the seventh day before renewal; a request on the fifth day before is too late.",
+    "'改定日以降' and '改定日前日まで' are different dates. Map every date to an action."
+  ],
+  "timeLimitSeconds": 240
+}

@@ -1,0 +1,99 @@
+{
+  "id": "n4-reading-30",
+  "slug": "30-shiyakusho-gomi",
+  "level": "n4",
+  "order": 30,
+  "kind": "info",
+  "title": "市役所からのお知らせ — ごみの出し方",
+  "paragraphs": [
+    "みどり市　ごみの出し方が変わります（四月一日から）",
+    "四月一日から、ごみの分け方と集める日が変わります。ご確認（かくにん）ください。",
+    "燃（も）えるごみ（生ごみ、紙くずなど）：月曜日・木曜日　※これまでの火曜日・金曜日から変わります。",
+    "プラスチック：水曜日　※新しく別に集めます。マークのついた容器（ようき）や袋（ふくろ）は、洗ってから出してください。",
+    "びん・かん・ペットボトル：第一・第三土曜日",
+    "燃えないごみ：第二水曜日",
+    "大きなごみ（家具など）：電話で申し込みが必要です（有料（ゆうりょう））。",
+    "・ごみは朝八時までに、決められた場所に出してください。前の日の夜に出さないでください。",
+    "・市の指定（してい）袋以外に入れたごみは、集めません。",
+    "・くわしくは、市のホームページか、各家庭（かくかてい）に配（くば）る新しいカレンダーをご覧（らん）ください。",
+    "みどり市　環境課（かんきょうか）"
+  ],
+  "vocab": [
+    {
+      "word": "分ける",
+      "reading": "わける",
+      "meaning": "to sort, to separate"
+    },
+    {
+      "word": "確認する",
+      "reading": "かくにんする",
+      "meaning": "to check"
+    },
+    {
+      "word": "燃える",
+      "reading": "もえる",
+      "meaning": "to burn"
+    },
+    {
+      "word": "生ごみ",
+      "reading": "なまごみ",
+      "meaning": "kitchen waste"
+    },
+    {
+      "word": "別に",
+      "reading": "べつに",
+      "meaning": "separately"
+    },
+    {
+      "word": "容器",
+      "reading": "ようき",
+      "meaning": "container"
+    },
+    {
+      "word": "第〜",
+      "reading": "だい",
+      "meaning": "ordinal prefix (first, second ...)"
+    },
+    {
+      "word": "家具",
+      "reading": "かぐ",
+      "meaning": "furniture"
+    },
+    {
+      "word": "申し込み",
+      "reading": "もうしこみ",
+      "meaning": "application"
+    },
+    {
+      "word": "有料",
+      "reading": "ゆうりょう",
+      "meaning": "charged, not free"
+    },
+    {
+      "word": "指定",
+      "reading": "してい",
+      "meaning": "designated"
+    },
+    {
+      "word": "配る",
+      "reading": "くばる",
+      "meaning": "to distribute"
+    },
+    {
+      "word": "ご覧ください",
+      "reading": "ごらんください",
+      "meaning": "please look (polite)"
+    }
+  ],
+  "questionIds": [
+    "q-n4-r-30-1",
+    "q-n4-r-30-2",
+    "q-n4-r-30-3"
+  ],
+  "strategyNotes": [
+    "Notices about changes contrast これまで (until now) with the new rule. The question usually asks for the NEW one.",
+    "第一・第三土曜日 = first and third Saturdays only, not every Saturday.",
+    "Conditions such as 有料, 指定袋以外は集めません, 朝八時までに are each a possible true/false option."
+  ],
+  "timeLimitSeconds": 300
+}

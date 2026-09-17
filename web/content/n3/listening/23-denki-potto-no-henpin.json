@@ -1,0 +1,97 @@
+{
+  "id": "n3-listening-23",
+  "slug": "23-denki-potto-no-henpin",
+  "level": "n3",
+  "order": 23,
+  "kind": "point",
+  "title": "電気ポットの返品",
+  "setting": "電話で、店の人と客が話しています。客はどうして商品を返したいのですか。",
+  "script": [
+    {
+      "speaker": "店",
+      "line": "お電話ありがとうございます。"
+    },
+    {
+      "speaker": "客",
+      "line": "先週買った電気ポットなんですけど、返品したいんです。"
+    },
+    {
+      "speaker": "店",
+      "line": "何か不具合がございましたか。"
+    },
+    {
+      "speaker": "客",
+      "line": "いえ、壊れてるわけじゃないんです。ただ、思ったより大きくて、台所に置けなくて。"
+    },
+    {
+      "speaker": "店",
+      "line": "なるほど。サイズの問題ですね。"
+    },
+    {
+      "speaker": "客",
+      "line": "はい。色は気に入ってるんですけど、置けないんじゃしょうがなくて。"
+    },
+    {
+      "speaker": "店",
+      "line": "未使用でしたら返品できますよ。箱は残ってますか。"
+    },
+    {
+      "speaker": "客",
+      "line": "はい、箱もレシートもあります。"
+    },
+    {
+      "speaker": "店",
+      "line": "では、商品と箱とレシートをお持ちください。一回り小さいサイズもございますので、よろしければご覧ください。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "電気ポット",
+      "reading": "でんきポット",
+      "meaning": "electric kettle"
+    },
+    {
+      "word": "返品",
+      "reading": "へんぴん",
+      "meaning": "return (of goods)"
+    },
+    {
+      "word": "不具合",
+      "reading": "ふぐあい",
+      "meaning": "defect"
+    },
+    {
+      "word": "〜わけじゃない",
+      "reading": "わけじゃない",
+      "meaning": "it's not that ~"
+    },
+    {
+      "word": "思ったより",
+      "reading": "おもったより",
+      "meaning": "more than expected"
+    },
+    {
+      "word": "台所",
+      "reading": "だいどころ",
+      "meaning": "kitchen"
+    },
+    {
+      "word": "気に入る",
+      "reading": "きにいる",
+      "meaning": "to like"
+    },
+    {
+      "word": "未使用",
+      "reading": "みしよう",
+      "meaning": "unused"
+    },
+    {
+      "word": "レシート",
+      "reading": "レシート",
+      "meaning": "receipt"
+    }
+  ],
+  "questionIds": [
+    "q-n3-l-23-1"
+  ]
+}

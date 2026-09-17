@@ -1,0 +1,76 @@
+{
+  "id": "n4-listening-13",
+  "slug": "13-kaigi-no-junbi",
+  "level": "n4",
+  "order": 13,
+  "kind": "task",
+  "title": "会議の準備",
+  "setting": "会社で、女の人と男の人が話しています。男の人はこの後、まず何をしますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "田中さん、明日の会議の資料、もうコピーしてくれた？"
+    },
+    {
+      "speaker": "男",
+      "line": "いえ、まだです。今から会議室の予約をしようと思っていたんですが。"
+    },
+    {
+      "speaker": "女",
+      "line": "予約は私がやっておくから、先にコピーをお願い。三十部ね。それから、部長に資料を見せておいて。"
+    },
+    {
+      "speaker": "男",
+      "line": "わかりました。じゃあ、すぐコピーします。部長は今、会議中ですよね。"
+    },
+    {
+      "speaker": "女",
+      "line": "うん。三時には戻ると思うから、コピーが終わったら見せに行って。"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": "materials, handouts"
+    },
+    {
+      "word": "コピー",
+      "reading": "コピー",
+      "meaning": "copy"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meaning": "reservation"
+    },
+    {
+      "word": "〜ておく",
+      "reading": "ておく",
+      "meaning": "to do in advance"
+    },
+    {
+      "word": "先に",
+      "reading": "さきに",
+      "meaning": "first, before that"
+    },
+    {
+      "word": "三十部",
+      "reading": "さんじゅうぶ",
+      "meaning": "thirty copies"
+    },
+    {
+      "word": "部長",
+      "reading": "ぶちょう",
+      "meaning": "department manager"
+    },
+    {
+      "word": "戻る",
+      "reading": "もどる",
+      "meaning": "to come back"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-13-1"
+  ]
+}

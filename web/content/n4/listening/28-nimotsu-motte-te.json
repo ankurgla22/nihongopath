@@ -1,0 +1,50 @@
+{
+  "id": "n4-listening-28",
+  "slug": "28-nimotsu-motte-te",
+  "level": "n4",
+  "order": 28,
+  "kind": "quick-response",
+  "title": "荷物を持ってて",
+  "setting": "友達に頼まれました。何と答えますか。",
+  "script": [
+    {
+      "speaker": "女",
+      "line": "この荷物、ちょっと持っていてもらえる？"
+    }
+  ],
+  "vocab": [
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "luggage, bag"
+    },
+    {
+      "word": "〜ていてもらえる？",
+      "reading": "ていてもらえる",
+      "meaning": "could you hold ... for me?"
+    },
+    {
+      "word": "いいよ",
+      "reading": "いいよ",
+      "meaning": "sure"
+    },
+    {
+      "word": "持ってくる",
+      "reading": "もってくる",
+      "meaning": "to bring"
+    },
+    {
+      "word": "持っている",
+      "reading": "もっている",
+      "meaning": "to have, to hold"
+    },
+    {
+      "word": "ちょっと",
+      "reading": "ちょっと",
+      "meaning": "a little, for a moment"
+    }
+  ],
+  "questionIds": [
+    "q-n4-l-28-1"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "n1-reading-16",
+  "slug": "16-kibo-taishoku",
+  "level": "n1",
+  "order": 16,
+  "kind": "short",
+  "title": "社内通達 — 希望退職者募集のご案内",
+  "paragraphs": [
+    "希望退職者募集に関するご案内",
+    "経営環境の変化に伴い、事業構造の見直しの一環として、下記のとおり希望退職者を募集いたします。対象は、2027年3月31日時点で満50歳以上かつ勤続（きんぞく）10年以上の正社員とします。ただし、現在休職中の方、および人事部が指定する特定業務に従事（じゅうじ）する方は対象外とします。",
+    "応募者には、通常の退職金に加え、月額基本給の24か月分を上限とする特別加算金を支給します。また、希望者には再就職支援会社によるサービスを会社負担で提供します。応募期間は2027年2月1日から2月28日までとし、退職日は原則として3月31日とします。",
+    "なお、本募集は本人の自由意思（じゆういし）に基づくものであり、応募を強制するものではありません。募集人数に達した場合は、期間内であっても受付を終了することがあります。"
+  ],
+  "vocab": [
+    {
+      "word": "希望退職",
+      "reading": "きぼうたいしょく",
+      "meaning": "voluntary retirement"
+    },
+    {
+      "word": "一環",
+      "reading": "いっかん",
+      "meaning": "part (of a program)"
+    },
+    {
+      "word": "勤続",
+      "reading": "きんぞく",
+      "meaning": "continuous service"
+    },
+    {
+      "word": "休職",
+      "reading": "きゅうしょく",
+      "meaning": "leave of absence"
+    },
+    {
+      "word": "従事する",
+      "reading": "じゅうじする",
+      "meaning": "to be engaged in"
+    },
+    {
+      "word": "退職金",
+      "reading": "たいしょくきん",
+      "meaning": "severance pay"
+    },
+    {
+      "word": "加算金",
+      "reading": "かさんきん",
+      "meaning": "additional payment"
+    },
+    {
+      "word": "上限",
+      "reading": "じょうげん",
+      "meaning": "upper limit"
+    },
+    {
+      "word": "再就職",
+      "reading": "さいしゅうしょく",
+      "meaning": "re-employment"
+    },
+    {
+      "word": "原則として",
+      "reading": "げんそくとして",
+      "meaning": "as a rule"
+    },
+    {
+      "word": "自由意思",
+      "reading": "じゆういし",
+      "meaning": "free will"
+    },
+    {
+      "word": "受付",
+      "reading": "うけつけ",
+      "meaning": "acceptance (of applications)"
+    }
+  ],
+  "questionIds": [
+    "q-n1-r-16-1",
+    "q-n1-r-16-2",
+    "q-n1-r-16-3",
+    "q-n1-r-16-4"
+  ],
+  "strategyNotes": [
+    "Eligibility is a conjunction (かつ) followed by exclusions (ただし). Check age, years of service, employment type, then the exclusions.",
+    "The phrase 応募を強制するものではありません is a legal disclaimer; a question may ask why it is there.",
+    "'期間内であっても' introduces an exception to the stated window. Exceptions are exam favourites."
+  ],
+  "timeLimitSeconds": 240
+}

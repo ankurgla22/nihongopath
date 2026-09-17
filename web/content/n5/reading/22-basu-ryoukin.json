@@ -1,0 +1,77 @@
+{
+  "id": "n5-reading-22",
+  "slug": "22-basu-ryoukin",
+  "level": "n5",
+  "order": 22,
+  "kind": "info",
+  "title": "バスの時間と料金",
+  "paragraphs": [
+    "さくらバス　駅前（えきまえ）から",
+    "バス停（てい）　／　時間（じかん）　／　料金（りょうきん）",
+    "駅前（えきまえ）　／　０分（ふん）　／　―",
+    "市役所（しやくしょ）　／　５分（ふん）　／　１５０円（えん）",
+    "病院（びょういん）　／　１２分（ふん）　／　２００円（えん）",
+    "大学（だいがく）　／　２０分（ふん）　／　２５０円（えん）",
+    "みなと公園（こうえん）　／　３０分（ふん）　／　３００円（えん）",
+    "※バスは九時（くじ）から六時（ろくじ）まで、二十分（にじゅっぷん）に一本（いっぽん）あります。",
+    "※子（こ）どもは半分（はんぶん）の料金（りょうきん）です。"
+  ],
+  "vocab": [
+    {
+      "word": "バス停",
+      "reading": "ばすてい",
+      "meaning": "bus stop"
+    },
+    {
+      "word": "料金",
+      "reading": "りょうきん",
+      "meaning": "fare"
+    },
+    {
+      "word": "市役所",
+      "reading": "しやくしょ",
+      "meaning": "city hall"
+    },
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "meaning": "hospital"
+    },
+    {
+      "word": "大学",
+      "reading": "だいがく",
+      "meaning": "university"
+    },
+    {
+      "word": "公園",
+      "reading": "こうえん",
+      "meaning": "park"
+    },
+    {
+      "word": "一本",
+      "reading": "いっぽん",
+      "meaning": "one (bus, counter)"
+    },
+    {
+      "word": "子ども",
+      "reading": "こども",
+      "meaning": "child"
+    },
+    {
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "half"
+    }
+  ],
+  "questionIds": [
+    "q-n5-r-22-1",
+    "q-n5-r-22-2",
+    "q-n5-r-22-3"
+  ],
+  "strategyNotes": [
+    "Read the table header first: column 2 is minutes, column 3 is yen.",
+    "Children pay half: compute the adult fare, halve it, then add.",
+    "二十分に一本 = one bus every 20 minutes, i.e. three per hour."
+  ],
+  "timeLimitSeconds": 180
+}
