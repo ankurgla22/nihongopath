@@ -102,7 +102,7 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
             <div className="-mt-10 flex flex-wrap items-end gap-4">
               {photo ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={photo} alt="" referrerPolicy="no-referrer" className="h-20 w-20 rounded-2xl border-4 border-surface bg-surface object-cover shadow-md" />
+                <img src={photo} alt="" width={80} height={80} referrerPolicy="no-referrer" className="h-20 w-20 rounded-2xl border-4 border-surface bg-surface object-cover shadow-md" />
               ) : (
                 <span className="h-20 w-20 rounded-2xl border-4 border-surface bg-accent-soft text-accent-ink text-3xl font-semibold grid place-items-center shadow-md">
                   {displayName.charAt(0).toUpperCase()}

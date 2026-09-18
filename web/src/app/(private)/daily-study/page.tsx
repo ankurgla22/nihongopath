@@ -1,7 +1,7 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import { requireUser } from "@/lib/auth/requireUser";
 import { getCurriculum, getQuestionIndex, resolveContentId } from "@/lib/content";
-import { questionContentIds } from "@/lib/engine/scoring";
+import { packQuestionIndex } from "@/lib/questions/pack";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
 import { Container } from "@/components/ui";
 import { DailyStudyClient } from "@/components/study/DailyStudyClient";
@@ -31,18 +31,20 @@ export default async function DailyStudyPage({ searchParams }: { searchParams?: 
   const cday = curriculum.days.find((d) => d.day === day) ?? curriculum.days[0];
   const phase = curriculum.phases.find((p) => day >= p.startDay && day <= p.endDay);
 
-  // Only a slim index (id/level/skill/difficulty/tags) of the banks the client can draw from is
-  // shipped; the client picks ids and fetches the full records on demand from /api/content/questions.
+  // Only a packed slim index (id/level/skill/difficulty/content ids) of the banks the client can draw
+  // from is shipped; the client picks ids and fetches the full records on demand from /api/content/questions.
   const levels = questionLevelsUpTo(levelForPhase(cday.phase));
-  const questionIndex = getQuestionIndex().filter((q) => levels.includes(q.level));
+  const questionIndex = packQuestionIndex(getQuestionIndex().filter((q) => levels.includes(q.level)));
+  // Lesson links are pre-resolved for today's tasks only; QuizRunner resolves the links for wrong
+  // answers on demand via /api/content/resolve.
   const links: ContentLinks = {};
-  const add = (id: string) => {
-    if (links[id]) return;
-    const r = resolveContentId(id);
-    if (r) links[id] = r;
-  };
-  for (const t of cday.tasks) for (const id of t.contentIds) add(id);
-  for (const q of questionIndex) for (const id of questionContentIds(q)) add(id);
+  for (const t of cday.tasks) {
+    for (const id of t.contentIds) {
+      if (links[id]) continue;
+      const r = resolveContentId(id);
+      if (r) links[id] = r;
+    }
+  }
 
   return (
     <Container wide>

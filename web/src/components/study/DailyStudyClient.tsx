@@ -8,7 +8,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
-import type { CurriculumDay, Question, QuestionIndexEntry } from "@/lib/content/schemas";
+import type { CurriculumDay, PackedQuestionIndex, Question, QuestionIndexEntry } from "@/lib/content/schemas";
 import { todayISO, type DailyProgressDoc, type ReviewItemDoc, type UserDoc } from "@/lib/firestore/types";
 import { getDaily, setDaily, updateUser } from "@/lib/firestore/repo";
 import { advanceDay, completeQuiz, completeTask, dueReviews, phaseOf } from "@/lib/study/service";
@@ -16,6 +16,7 @@ import { buildDailyPlan, taskTitle, weakSkills, type TaskType } from "@/lib/engi
 import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
 import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
+import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, PageTitle, ProgressBar, SpeakButton } from "@/components/ui";
@@ -42,7 +43,7 @@ type Props = {
   day: CurriculumDay;
   phase: { id: number; name: string };
   /** Slim index of the banks this day can draw from; full records are fetched on demand. */
-  questionIndex: QuestionIndexEntry[];
+  questionIndex: PackedQuestionIndex;
   contentLinks: ContentLinks;
   sessionName: string | null;
 };
@@ -107,7 +108,8 @@ function TaskSkeleton() {
   );
 }
 
-export function DailyStudyClient({ day, phase, questionIndex, contentLinks, sessionName }: Props) {
+export function DailyStudyClient({ day, phase, questionIndex: packedIndex, contentLinks, sessionName }: Props) {
+  const questionIndex = useMemo(() => unpackQuestionIndex(packedIndex), [packedIndex]);
   const router = useRouter();
   const { user } = useAuth();
   const { userDoc, error: userError, refresh } = useUserDoc();

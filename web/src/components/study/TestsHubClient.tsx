@@ -4,14 +4,15 @@
  * Each launches the QuizRunner and saves through completeQuiz with the right kind.
  */
 import Link from "next/link";
-import { useRef, useState } from "react";
-import type { Level, Question, QuestionIndexEntry } from "@/lib/content/schemas";
+import { useMemo, useRef, useState } from "react";
+import type { Level, PackedQuestionIndex, Question } from "@/lib/content/schemas";
 import { SKILLS, todayISO, type QuizKind, type Skill } from "@/lib/firestore/types";
 import { completeQuiz } from "@/lib/study/service";
 import { skillLabel } from "@/lib/engine/dailyPlan";
 import { hashSeed, mulberry32, shuffle, type SubmittedAnswer } from "@/lib/engine/scoring";
 import { curriculumDayFor, phaseForDay } from "@/lib/engine/progress";
 import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
+import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, PageTitle } from "@/components/ui";
@@ -22,8 +23,8 @@ import { levelForPhase, pickWithFallback, questionLevelsUpTo, type ContentLinks 
 type PhaseSummary = { id: number; name: string; startDay: number; endDay: number };
 /** Per level, the id suffixes of every vocabulary word ("12" for n5-vocab-12) and kanji ("一" for n5-kanji-一). */
 export type DrillPool = Partial<Record<Level, { vocab: string[]; kanji: string[] }>>;
-/** `questionIndex` is the slim bank (id/level/skill/difficulty/tags); full records are fetched on demand. */
-type Props = { questionIndex: QuestionIndexEntry[]; contentLinks: ContentLinks; phases: PhaseSummary[]; drillPool?: DrillPool };
+/** `questionIndex` is the packed slim bank (id/level/skill/difficulty/content ids); full records are fetched on demand. */
+type Props = { questionIndex: PackedQuestionIndex; contentLinks: ContentLinks; phases: PhaseSummary[]; drillPool?: DrillPool };
 
 const DRILL_COUNT = 20;
 
@@ -40,7 +41,8 @@ type Launch = {
   questions: Question[];
 };
 
-export function TestsHubClient({ questionIndex, contentLinks, phases, drillPool = {} }: Props) {
+export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phases, drillPool = {} }: Props) {
+  const questionIndex = useMemo(() => unpackQuestionIndex(packedIndex), [packedIndex]);
   const { user } = useAuth();
   const { userDoc, loading, error, refresh } = useUserDoc();
   const today = todayISO();

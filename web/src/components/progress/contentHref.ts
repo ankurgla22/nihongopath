@@ -21,7 +21,7 @@ const TYPE_PATH: Record<string, string> = {
 /** Parse `<level>-<type>-...` from a content id. */
 export function parseContentId(id: string): { level: string; type: Skill } | null {
   if (/^foundation-/.test(id)) return { level: "foundation", type: "kana" };
-  const m = /^(n[2-5])-(grammar|vocab|vocabulary|kanji|reading|listening)-/.exec(id);
+  const m = /^(n[1-5])-(grammar|vocab|vocabulary|kanji|reading|listening)-/.exec(id);
   if (!m) return null;
   const type = (m[2] === "vocab" ? "vocabulary" : m[2]) as Skill;
   return { level: m[1], type };

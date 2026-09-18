@@ -1,9 +1,9 @@
 import { z } from "zod";
+import { LEVELS, type Level } from "./levels";
 
+export { LEVELS };
+export type { Level };
 export const LevelSchema = z.enum(["n5", "n4", "n3", "n2", "n1"]);
-export type Level = z.infer<typeof LevelSchema>;
-
-export const LEVELS: Level[] = ["n5", "n4", "n3", "n2", "n1"];
 export const LEVEL_LABEL: Record<Level, string> = {
   n5: "N5",
   n4: "N4",
@@ -88,7 +88,13 @@ export const QuestionSchema = z.object({
 });
 export type Question = z.infer<typeof QuestionSchema>;
 /** Slim question record (no prompt/options/explanations) used to pick question sets on the client. */
-export type QuestionIndexEntry = Pick<Question, "id" | "level" | "skill" | "difficulty" | "tags">;
+export type QuestionIndexEntry = Pick<Question, "id" | "level" | "skill" | "difficulty"> & {
+  tags?: Question["tags"];
+  /** Flattened tagged content ids (set by `unpackQuestionIndex`); takes precedence over `tags`. */
+  contentIds?: string[];
+};
+/** Compact wire form of the index: "level|skill|difficulty" -> (id | [id, ...contentIds])[]. See lib/questions/pack.ts. */
+export type PackedQuestionIndex = Record<string, (string | string[])[]>;
 
 export const GrammarLessonSchema = z.object({
   id: z.string(),

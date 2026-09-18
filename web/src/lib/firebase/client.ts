@@ -1,7 +1,6 @@
 "use client";
 import { getApps, initializeApp, type FirebaseApp } from "firebase/app";
 import { getAuth, type Auth } from "firebase/auth";
-import { getFirestore, type Firestore, enableIndexedDbPersistence } from "firebase/firestore";
 
 const config = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -16,8 +15,6 @@ export const firebaseConfigured = Boolean(config.apiKey && config.projectId && c
 
 let app: FirebaseApp | undefined;
 let auth: Auth | undefined;
-let db: Firestore | undefined;
-let persistenceRequested = false;
 
 export function getFirebaseApp(): FirebaseApp {
   if (!firebaseConfigured) throw new Error("Firebase is not configured. Copy .env.example to .env.local and fill in NEXT_PUBLIC_FIREBASE_* values.");
@@ -30,16 +27,4 @@ export function getClientAuth(): Auth {
   return auth;
 }
 
-export function getClientDb(): Firestore {
-  if (!db) {
-    db = getFirestore(getFirebaseApp());
-    if (typeof window !== "undefined" && !persistenceRequested) {
-      persistenceRequested = true;
-      // Offline cache so quiz progress and reads survive temporary network loss.
-      enableIndexedDbPersistence(db).catch(() => {
-        /* multiple tabs or unsupported browser: continue without persistence */
-      });
-    }
-  }
-  return db;
-}
+// Firestore lives in ./db (see note there).

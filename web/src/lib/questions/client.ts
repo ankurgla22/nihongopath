@@ -5,6 +5,7 @@
  */
 import type { Question } from "@/lib/content/schemas";
 import type { DrillKind } from "@/lib/drill/generate";
+import { hashSeed } from "@/lib/engine/scoring";
 
 const CHUNK = 100;
 const cache = new Map<string, Question>();
@@ -58,7 +59,8 @@ export async function fetchDrill(ids: string[], opts: DrillFetchOptions): Promis
   for (let i = 0; i < unique.length; i += DRILL_CHUNK) chunks.push(unique.slice(i, i + DRILL_CHUNK));
   const results = await Promise.all(
     chunks.map(async (chunk) => {
-      const params = new URLSearchParams({ ids: chunk.join(","), seed: opts.seed });
+      // Callers build seeds from the uid; send only a hash so the (publicly cacheable) URL carries no user id.
+      const params = new URLSearchParams({ ids: chunk.join(","), seed: hashSeed(opts.seed).toString(36) });
       if (opts.kinds?.length) params.set("kinds", opts.kinds.join(","));
       if (opts.perItem) params.set("per", String(opts.perItem));
       const res = await fetch(`/api/drill?${params.toString()}`);
@@ -70,7 +72,41 @@ export async function fetchDrill(ids: string[], opts: DrillFetchOptions): Promis
   return results.flat();
 }
 
+export type ResolvedContentLink = { href: string; title: string; type: string };
+const linkCache = new Map<string, ResolvedContentLink | null>();
+const LINK_CHUNK = 200;
+
+/**
+ * Resolve content ids to lesson links via GET /api/content/resolve (public, cacheable). Unknown ids
+ * are omitted; results are cached for the session. Pages ship only the links they need up front
+ * (today's tasks, the review queue) and QuizRunner fills in the rest on the result screen.
+ */
+export async function fetchContentLinks(ids: string[]): Promise<Record<string, ResolvedContentLink>> {
+  const unique = Array.from(new Set(ids));
+  const missing = unique.filter((id) => !linkCache.has(id));
+  if (missing.length > 0) {
+    const chunks: string[][] = [];
+    for (let i = 0; i < missing.length; i += LINK_CHUNK) chunks.push(missing.slice(i, i + LINK_CHUNK));
+    const results = await Promise.all(
+      chunks.map(async (chunk) => {
+        const res = await fetch(`/api/content/resolve?ids=${encodeURIComponent(chunk.join(","))}`);
+        if (!res.ok) throw new Error(`Could not resolve lesson links (${res.status}).`);
+        return (await res.json()) as Record<string, ResolvedContentLink>;
+      })
+    );
+    for (const id of missing) linkCache.set(id, null);
+    for (const r of results) for (const [id, link] of Object.entries(r)) linkCache.set(id, link);
+  }
+  const out: Record<string, ResolvedContentLink> = {};
+  for (const id of unique) {
+    const l = linkCache.get(id);
+    if (l) out[id] = l;
+  }
+  return out;
+}
+
 /** Test/HMR hook: forget cached records. */
 export function clearQuestionCache() {
   cache.clear();
+  linkCache.clear();
 }

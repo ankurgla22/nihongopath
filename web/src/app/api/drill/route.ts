@@ -6,6 +6,9 @@ import { DRILL_KINDS, generateKanjiDrill, generateVocabDrill, groupDrillIds, typ
 export const runtime = "nodejs";
 
 const MAX_IDS = 80;
+const MAX_SEED_LENGTH = 128;
+/** Upper bound on questions per item; the generator yields at most one per kind anyway. */
+const MAX_PER_ITEM = DRILL_KINDS.length;
 
 /**
  * GET /api/drill?ids=n5-vocab-1,n5-kanji-一&kinds=meaning,reading&seed=abc&per=2
@@ -17,9 +20,9 @@ export async function GET(req: Request) {
   const params = new URL(req.url).searchParams;
   const ids = Array.from(new Set((params.get("ids") ?? "").split(",").map((s) => s.trim()).filter(Boolean))).slice(0, MAX_IDS);
   const kinds = (params.get("kinds") ?? "").split(",").map((s) => s.trim()).filter((k): k is DrillKind => (DRILL_KINDS as string[]).includes(k));
-  const seed = params.get("seed") ?? "drill";
+  const seed = (params.get("seed") ?? "drill").slice(0, MAX_SEED_LENGTH) || "drill";
   const perRaw = Number(params.get("per"));
-  const perItem = Number.isFinite(perRaw) && perRaw > 0 ? Math.floor(perRaw) : undefined;
+  const perItem = Number.isFinite(perRaw) && perRaw > 0 ? Math.min(MAX_PER_ITEM, Math.floor(perRaw)) : undefined;
   const opts = { seed, kinds: kinds.length ? kinds : undefined, perItem };
 
   const { vocab, kanji } = groupDrillIds(ids);

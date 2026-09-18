@@ -2,8 +2,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { getProgress, setProgressBatch } from "@/lib/firestore/repo";
 import { todayISO, type ProgressDoc, type Skill } from "@/lib/firestore/types";
+
+// Firestore is loaded on demand so public lesson pages do not ship the SDK for signed-out visitors.
+const repo = () => import("@/lib/firestore/repo");
 
 type Props = { contentId: string; type: Skill; level: ProgressDoc["level"]; href: string };
 
@@ -32,7 +34,8 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
   useEffect(() => {
     if (!user) return;
     let alive = true;
-    getProgress(user.uid, contentId)
+    repo()
+      .then(({ getProgress }) => getProgress(user.uid, contentId))
       .then((p) => alive && setDone(Boolean(p?.completed)))
       .catch(() => alive && setDone(false));
     return () => {
@@ -53,6 +56,7 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
     setBusy(true);
     try {
       const today = todayISO();
+      const { getProgress, setProgressBatch } = await repo();
       const prev = await getProgress(user.uid, contentId);
       const doc: ProgressDoc = {
         contentId,

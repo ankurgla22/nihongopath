@@ -5,7 +5,7 @@
  */
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Question, QuestionIndexEntry } from "@/lib/content/schemas";
+import type { PackedQuestionIndex, Question } from "@/lib/content/schemas";
 import { SKILLS, todayISO, type ProgressDoc, type ReviewItemDoc, type Skill } from "@/lib/firestore/types";
 import { getAllProgress, listReviewItems } from "@/lib/firestore/repo";
 import { completeQuiz } from "@/lib/study/service";
@@ -14,6 +14,7 @@ import { skillLabel } from "@/lib/engine/dailyPlan";
 import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { curriculumDayFor } from "@/lib/engine/progress";
 import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
+import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { isDrillable } from "@/lib/drill/generate";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
@@ -22,8 +23,8 @@ import { LoadingState, SkillGlyph } from "@/components/progress/shared";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { addDaysISO, isQueuedError, reviewQuestions, type ContentLinks } from "@/components/study/helpers";
 
-/** `questionIndex` is the slim bank (id/level/skill/difficulty/tags); full records are fetched on demand. */
-type Props = { questionIndex: QuestionIndexEntry[]; contentLinks: ContentLinks };
+/** `questionIndex` is the packed slim bank (id/level/skill/difficulty/content ids); full records are fetched on demand. */
+type Props = { questionIndex: PackedQuestionIndex; contentLinks: ContentLinks };
 
 /** `ids` are bank question ids; `drillIds` are due vocabulary/kanji content ids drilled on the fly with `seed`. */
 type Session = { ids: string[]; drillIds: string[]; seed: string; status: "loading" | "ready" | "error"; questions: Question[] };
@@ -45,7 +46,8 @@ function dueLabel(due: string, today: string): string {
   return due;
 }
 
-export function ReviewClient({ questionIndex, contentLinks }: Props) {
+export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props) {
+  const questionIndex = useMemo(() => unpackQuestionIndex(packedIndex), [packedIndex]);
   const { user } = useAuth();
   const { userDoc, refresh } = useUserDoc();
   const today = todayISO();

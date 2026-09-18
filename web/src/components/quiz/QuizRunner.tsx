@@ -9,7 +9,8 @@
  * - In-progress answers are persisted in localStorage under `storageKey` so a refresh does not
  *   lose them; cleared when the quiz completes.
  * - Final screen: score, accuracy, time, wrong questions with explanations and
- *   "Review this grammar/word/kanji" links from `contentLinks`.
+ *   "Review this grammar/word/kanji" links from `contentLinks`; ids missing from that map are
+ *   resolved on demand from /api/content/resolve once the result screen is shown.
  *
  * `onComplete` may be async; while it runs the runner shows "Saving…". If it throws an error
  * with `queued: true` (the study service's offline fallback) the runner shows a
@@ -19,6 +20,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
 import type { Question } from "@/lib/content/schemas";
 import { questionContentIds, scoreQuiz, type SubmittedAnswer } from "@/lib/engine/scoring";
+import { fetchContentLinks } from "@/lib/questions/client";
 import { JA_RE, formatDuration, isQueuedError, type ContentLinks } from "@/components/study/helpers";
 import { Arrow, Badge, Button, Callout, Kbd, SpeakButton, Stat } from "@/components/ui";
 
@@ -31,7 +33,7 @@ export type QuizRunnerProps = {
   mode?: "practice" | "test";
   /** localStorage key for in-progress answers. Omit to disable persistence. */
   storageKey?: string;
-  /** Resolved lesson links keyed by content id, for the wrong-answer list. */
+  /** Pre-resolved lesson links keyed by content id, for the wrong-answer list (missing ids are fetched on demand). */
   contentLinks?: ContentLinks;
   /** Extra actions rendered on the result screen (e.g. "Back to today's plan"). */
   resultActions?: ReactNode;
@@ -156,6 +158,32 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   const [finished, setFinished] = useState(false);
   const [elapsed, setElapsed] = useState(0);
   const [saveState, setSaveState] = useState<{ status: "saving" | "saved" | "queued" | "error"; message?: string } | null>(null);
+  const [fetchedLinks, setFetchedLinks] = useState<ContentLinks>({});
+
+  // Resolve lesson links for wrong answers that the page did not pre-resolve.
+  useEffect(() => {
+    if (!finished) return;
+    const byId = new Map(questions.map((x) => [x.id, x]));
+    const missing = scoreQuiz(questions, answers)
+      .answers.filter((a) => !a.correct)
+      .flatMap((a) => {
+        const wq = byId.get(a.questionId);
+        return wq ? questionContentIds(wq) : [];
+      })
+      .filter((id) => !contentLinks[id]);
+    if (missing.length === 0) return;
+    let cancelled = false;
+    fetchContentLinks(missing)
+      .then((links) => {
+        if (!cancelled) setFetchedLinks((prev) => ({ ...prev, ...links }));
+      })
+      .catch(() => {
+        /* links are a convenience; the result screen works without them */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [finished, questions, answers, contentLinks]);
   const startRef = useRef<number>(Date.now());
   const groupId = useId();
 
@@ -356,7 +384,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
                 const wq = byId.get(a.questionId);
                 if (!wq) return null;
                 const links = questionContentIds(wq)
-                  .map((id) => ({ id, link: contentLinks[id] }))
+                  .map((id) => ({ id, link: contentLinks[id] ?? fetchedLinks[id] }))
                   .filter((x) => x.link);
                 return (
                   <li key={a.questionId} className="rounded-xl border border-line bg-bg-elev p-4">

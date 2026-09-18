@@ -2,8 +2,10 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { isSaved, saveItem, unsaveItem } from "@/lib/firestore/repo";
 import type { SavedItemDoc } from "@/lib/firestore/types";
+
+// Firestore is loaded on demand so public lesson pages do not ship the SDK for signed-out visitors.
+const repo = () => import("@/lib/firestore/repo");
 
 type Props = { contentId: string; type: SavedItemDoc["type"]; title: string; href: string };
 
@@ -35,7 +37,8 @@ export function SaveButton({ contentId, type, title, href }: Props) {
   useEffect(() => {
     if (!user) return;
     let alive = true;
-    isSaved(user.uid, contentId)
+    repo()
+      .then(({ isSaved }) => isSaved(user.uid, contentId))
       .then((s) => alive && setSaved(s))
       .catch(() => alive && setSaved(false));
     return () => {
@@ -55,6 +58,7 @@ export function SaveButton({ contentId, type, title, href }: Props) {
     if (busy || saved === null) return;
     setBusy(true);
     try {
+      const { saveItem, unsaveItem } = await repo();
       if (saved) {
         await unsaveItem(user.uid, contentId);
         setSaved(false);

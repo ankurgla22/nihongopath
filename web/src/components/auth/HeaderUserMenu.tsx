@@ -77,7 +77,7 @@ export function HeaderUserMenu() {
       >
         {user.photoURL ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={user.photoURL} alt="" referrerPolicy="no-referrer" className="h-8 w-8 rounded-full border border-line object-cover" />
+          <img src={user.photoURL} alt="" width={32} height={32} referrerPolicy="no-referrer" className="h-8 w-8 rounded-full border border-line object-cover" />
         ) : (
           <span className="h-8 w-8 rounded-full bg-accent-soft text-accent font-semibold flex items-center justify-center text-sm">{initial}</span>
         )}

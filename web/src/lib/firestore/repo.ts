@@ -17,7 +17,7 @@ import {
   writeBatch,
   deleteDoc,
 } from "firebase/firestore";
-import { getClientDb } from "@/lib/firebase/client";
+import { getClientDb } from "@/lib/firebase/db";
 import type {
   DailyProgressDoc,
   ExamResultDoc,

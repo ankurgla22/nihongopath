@@ -52,8 +52,9 @@ function pushUnique(list: string[], seen: Set<string>, id: string | undefined) {
 }
 
 /** All content ids attached to a question's tags, in a stable order. */
-export function questionContentIds(q: Pick<Question, "tags">): string[] {
-  const t = q.tags ?? {};
+export function questionContentIds(q: { tags?: Question["tags"]; contentIds?: string[] }): string[] {
+  if (q.contentIds) return q.contentIds;
+  const t: Partial<NonNullable<Question["tags"]>> = q.tags ?? {};
   const out: string[] = [];
   const seen = new Set<string>();
   for (const id of t.grammarIds ?? []) pushUnique(out, seen, id);

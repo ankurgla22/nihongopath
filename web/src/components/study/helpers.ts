@@ -4,7 +4,7 @@
  */
 import type { Level, QuestionIndexEntry, QuestionLevel } from "@/lib/content/schemas";
 import type { QuizKind, Skill } from "@/lib/firestore/types";
-import { LEVELS } from "@/lib/content/schemas";
+import { LEVELS } from "@/lib/content/levels";
 import { pickQuestions, type PickOptions } from "@/lib/engine/scoring";
 import type { TaskType } from "@/lib/engine/dailyPlan";
 

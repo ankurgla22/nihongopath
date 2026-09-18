@@ -4,7 +4,6 @@
  * They bridge Firebase Auth (browser) and the server session cookie (/api/auth/session).
  */
 import type { User } from "firebase/auth";
-import { ensureUser } from "@/lib/firestore/repo";
 
 let lastSyncedUid: string | null = null;
 let lastSyncedToken: string | null = null;
@@ -48,6 +47,9 @@ export async function establishSession(user: User, { force = false } = {}): Prom
     const epoch = logoutEpoch;
     if (lastSyncedUid !== user.uid) {
       try {
+        // Loaded on demand: AuthProvider sits in the root layout, and a static import here would put
+        // the Firestore SDK (~400 KB raw) into every page's first load, signed-out visitors included.
+        const { ensureUser } = await import("@/lib/firestore/repo");
         await ensureUser({ uid: user.uid, email: user.email, displayName: user.displayName, photoURL: user.photoURL });
       } catch (err) {
         // Firestore unavailable or rules not deployed: auth still works, progress sync retries later.

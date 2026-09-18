@@ -169,6 +169,7 @@ export function ReadingPractice({ questions, timeLimitSeconds }: { questions: Qu
                 <button
                   type="button"
                   aria-pressed={running}
+                  aria-label={running ? "Pause timer" : "Resume timer"}
                   disabled={finished || overTime}
                   className={`${chipBtn} flex-1 bg-surface border border-line hover:bg-surface-2 gap-1.5`}
                   onClick={() => setRunning((r) => !r)}
