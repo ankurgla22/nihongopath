@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-147",
+  "slug": "wo-tooshite",
+  "level": "n1",
+  "order": 147,
+  "title": "〜を通して / 〜を通じて",
+  "romaji": "wo tooshite / wo tsuujite",
+  "meaning": "through (a person, medium); by means of; throughout (a period)",
+  "simpleExplanation": "〜を通して and 〜を通じて have two jobs. (1) Means: \"through X\" — an intermediary person, an experience, or a medium (友人を通して・読書を通して・テレビを通じて). (2) Span: \"throughout X\" — the whole of a period (一年を通じて・生涯を通して). を通じて sounds a touch more formal; を通して slightly stresses the act of going through.",
+  "whenUsed": "Both spoken and written; を通じて is favoured in news and formal writing, を通して in speech and essays. A review point from N2; N1 tests the contrast with を経て, によって, にわたって.",
+  "formation": [
+    "N + を通して / を通じて + V  (means)",
+    "N (period) + を通して / を通じて  (throughout)",
+    "Typical means nouns: 友人・先生・仕事・経験・読書・インターネット・活動",
+    "Typical period nouns: 一年・一生・生涯・四季・年間"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two meanings of を通して / を通じて",
+    "columns": [
+      "meaning",
+      "noun type",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "means / medium",
+        "cells": [
+          "through, by way of",
+          "person, experience, medium",
+          "友人を通して知り合った"
+        ]
+      },
+      {
+        "label": "span of time",
+        "cells": [
+          "throughout",
+          "period",
+          "一年を通じて温暖だ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "友人を通して、その会社を紹介してもらった。",
+      "reading": "ゆうじんをとおして、そのかいしゃをしょうかいしてもらった。",
+      "en": "Through a friend, I was introduced to that company.",
+      "note": "A friend is the intermediary: \"through a friend\"."
+    },
+    {
+      "ja": "この地域は一年を通じて温暖だ。",
+      "reading": "このちいきはいちねんをつうじておんだんだ。",
+      "en": "This region is warm throughout the year.",
+      "note": "一年を通じて: the whole year, spatially or temporally."
+    },
+    {
+      "ja": "読書を通して、多くのことを学んだ。",
+      "reading": "どくしょをとおして、おおくのことをまなんだ。",
+      "en": "Through reading, I learned many things.",
+      "note": "読書 (an activity) as the means of learning."
+    },
+    {
+      "ja": "この問題については、弁護士を通じてご連絡いたします。",
+      "reading": "このもんだいについては、べんごしをつうじてごれんらくいたします。",
+      "en": "Regarding this matter, we will contact you through our lawyer.",
+      "note": "Formal business: を通じて."
+    },
+    {
+      "ja": "彼女は生涯を通して、子供たちの教育に力を注いだ。",
+      "reading": "かのじょはしょうがいをとおして、こどもたちのきょういくにちからをそそいだ。",
+      "en": "Throughout her life, she devoted herself to children's education.",
+      "note": "生涯を通して = throughout her life."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-121",
+      "pattern": "〜を経て",
+      "difference": "\"After passing through (stages)\" to reach a result. を通して is a means or a span, not stages toward a result."
+    },
+    {
+      "id": "n2-grammar-134",
+      "pattern": "〜にわたって",
+      "difference": "\"Over a span of\" stressing length or range (十年にわたって). を通じて stresses the whole of a fixed period (一年を通じて)."
+    },
+    {
+      "id": "n2-grammar-132",
+      "pattern": "〜によって",
+      "difference": "\"By\" (means, cause, agent). を通して is specifically an intermediary or channel."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "厳しい訓練を通じて、選手に選ばれた。",
+      "right": "厳しい訓練を経て、選手に選ばれた。",
+      "why": "A stage passed before a result takes を経て. を通じて would only mean \"by means of training\"."
+    },
+    {
+      "wrong": "十年を通じて研究を続けた。(to stress duration)",
+      "right": "十年にわたって研究を続けた。",
+      "why": "For a long duration emphasizing its length, にわたって is natural. を通じて fits a fixed whole period like 一年・生涯."
+    },
+    {
+      "wrong": "友人に通して紹介してもらった。",
+      "right": "友人を通して紹介してもらった。",
+      "why": "The particle is を."
+    }
+  ],
+  "usageNotes": [
+    "Business Japanese prefers を通じて: 代理店を通じて・弊社を通じて.",
+    "For experiences and activities as a source of learning, を通して is very common in essays: ボランティア活動を通して学んだ.",
+    "The verb forms 通す (to pass something through) and 通じる (to connect) explain the slight nuance difference."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an intermediary person or medium, or a whole period like 一年・生涯, points to を通して / を通じて.",
+    "Distractor を経て: if the sentence ends in a result reached after stages, choose を経て.",
+    "In 並べ替え, を通して sits right after its noun; the verb follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-147-1",
+    "q-n1-g-147-2",
+    "q-n1-g-147-3",
+    "q-n1-g-147-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-147-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

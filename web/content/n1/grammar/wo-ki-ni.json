@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-122",
+  "slug": "wo-ki-ni",
+  "level": "n1",
+  "order": 122,
+  "title": "〜を機に / 〜を機として",
+  "romaji": "wo ki ni / wo ki to shite",
+  "meaning": "taking … as an opportunity; on the occasion of …; … became the trigger for",
+  "simpleExplanation": "〜を機に names an event that became a turning point: because that event happened, the speaker took a new action or something new began. 機 (き) means \"chance, occasion\". The event itself is not the cause; it is the moment the speaker used to make a change.",
+  "whenUsed": "Formal but very common: announcements, business writing, life-event stories (結婚・退職・引っ越し・出産), and news about policy changes. 〜を機として is a stiffer written variant. In casual speech 〜をきっかけに is more usual.",
+  "formation": [
+    "N + を機に",
+    "N + を機として (more formal, written)",
+    "Vた / Vる + の + を機に  (退職したのを機に)",
+    "Typical nouns: 結婚・出産・退職・卒業・転勤・事故・事件・受賞"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "結婚した",
+        "en": "an event happens (marriage)"
+      },
+      {
+        "ja": "結婚を機に",
+        "en": "the event is treated as a turning point"
+      },
+      {
+        "ja": "結婚を機に、郊外へ引っ越した",
+        "en": "a new, deliberate action follows"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "結婚を機に、都心から郊外へ引っ越した。",
+      "reading": "けっこんをきに、としんからこうがいへひっこした。",
+      "en": "Taking marriage as the occasion, we moved from the city center to the suburbs.",
+      "note": "Marriage is the occasion; moving house is the new action the couple decided on."
+    },
+    {
+      "ja": "退職を機に、長年の夢だった世界一周の旅に出た。",
+      "reading": "たいしょくをきに、ながねんのゆめだったせかいいっしゅうのたびにでた。",
+      "en": "On retiring, I set out on the round-the-world trip that had long been my dream.",
+      "note": "退職 + を機に + a long-held plan is a very common life-story pattern."
+    },
+    {
+      "ja": "この事故を機として、安全基準が見直された。",
+      "reading": "このじこをきとして、あんぜんきじゅんがみなおされた。",
+      "en": "Taking this accident as a trigger, the safety standards were reviewed.",
+      "note": "を機として is the formal written version, typical of official reports about reforms."
+    },
+    {
+      "ja": "子供が生まれたのを機に、たばこをやめた。",
+      "reading": "こどもがうまれたのをきに、たばこをやめた。",
+      "en": "When my child was born, I took the opportunity to quit smoking.",
+      "note": "A clause can be used with の + を機に."
+    },
+    {
+      "ja": "創立五十周年を機に、会社は新しいロゴを発表した。",
+      "reading": "そうりつごじっしゅうねんをきに、かいしゃはあたらしいロゴをはっぴょうした。",
+      "en": "On the occasion of its fiftieth anniversary, the company unveiled a new logo.",
+      "note": "Anniversaries and milestones are natural occasions for を機に."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-168",
+      "pattern": "〜をきっかけに",
+      "difference": "Same idea, but more casual and everyday. を機に sounds more formal and is preferred in writing."
+    },
+    {
+      "id": "n2-grammar-169",
+      "pattern": "〜を契機に",
+      "difference": "The stiffest of the three; typical of newspapers and official documents. Often used for large social changes rather than personal life events."
+    },
+    {
+      "id": "n1-grammar-123",
+      "pattern": "〜を境に",
+      "difference": "Marks a dividing line after which things are different. を境に describes a change that happened; を機に describes an action someone chose to take."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "結婚を機に、幸せになった。",
+      "right": "結婚を機に、家を買った。",
+      "why": "The main clause should be a deliberate new action or a clear new start, not a vague result or feeling."
+    },
+    {
+      "wrong": "雨が降ったのを機に、試合が中止になった。",
+      "right": "雨が降ったので、試合が中止になった。",
+      "why": "を機に is not a cause. A cancellation forced by rain is a plain cause-and-effect, so use ので / ため."
+    },
+    {
+      "wrong": "退職を機会に、旅に出た。",
+      "right": "退職を機に、旅に出た。",
+      "why": "The grammar pattern uses 機 alone. 機会 is a normal noun (\"opportunity\") and does not form this construction."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: これを機に (\"taking this as an opportunity\") and 〜を機に〜を始める / やめる / 見直す.",
+    "The event is usually something significant and positive or neutral (a milestone), though accidents can trigger reforms (事故を機として).",
+    "In speeches you will hear 本日の〜を機に、〜てまいります, a polite way to announce a new commitment."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, when the sentence has a life event noun (結婚・退職・出産) followed by a deliberate new action, choose を機に.",
+    "Common distractors: を境に, にかけて, をもって. Ask whether the person actively started something (を機に) or whether things simply changed after a point (を境に).",
+    "In 並べ替え, keep the chunk を機に right after the event noun; the new action comes last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-122-1",
+    "q-n1-g-122-2",
+    "q-n1-g-122-3",
+    "q-n1-g-122-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-122-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

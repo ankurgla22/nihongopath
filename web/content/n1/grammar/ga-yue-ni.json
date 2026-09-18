@@ -1,0 +1,126 @@
+{
+  "id": "n1-grammar-10",
+  "slug": "ga-yue-ni",
+  "level": "n1",
+  "order": 10,
+  "title": "〜がゆえ(に) / 〜ゆえの",
+  "romaji": "gayue-yueno",
+  "meaning": "because of …; owing to … (literary cause)",
+  "simpleExplanation": "ゆえ(に) is a classical word for \"reason\", so Xゆえに Y means \"because of X, Y\". It often carries a feeling that X is an inherent quality (youth, fame, poverty) that inevitably brought about Y, sometimes with regret or resignation. Nゆえの N makes it a modifier: 貧しさゆえの苦労 \"hardships due to poverty\".",
+  "whenUsed": "書き言葉: essays, literature, formal speeches, academic writing. Rare in conversation, where から / ので / のために are used.",
+  "formation": [
+    "Noun + ゆえ(に) / Noun + が + ゆえに (若さゆえに, 有名であるがゆえに)",
+    "Plain form + (が) + ゆえに (努力したがゆえに)",
+    "Noun + ゆえの + Noun (貧しさゆえの苦労)",
+    "Sentence-initial ゆえに = \"therefore\" (very formal)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Formality of \"because\"",
+    "items": [
+      {
+        "label": "から",
+        "description": "casual, subjective"
+      },
+      {
+        "label": "ので",
+        "description": "polite, everyday"
+      },
+      {
+        "label": "ため(に)",
+        "description": "formal, objective"
+      },
+      {
+        "label": "ゆえ(に)",
+        "description": "literary, inherent cause, often regret"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "若さゆえに、無謀な行動をしてしまった。",
+      "reading": "わかさゆえに、むぼうなこうどうをしてしまった。",
+      "en": "Because of my youth, I acted recklessly.",
+      "note": "若さ (a noun made from an adjective) + ゆえに: youth as the inherent cause."
+    },
+    {
+      "ja": "有名であるがゆえに、自由に外出できない。",
+      "reading": "ゆうめいであるがゆえに、じゆうにがいしゅつできない。",
+      "en": "Precisely because he is famous, he cannot go out freely.",
+      "note": "であるがゆえに: the formal copula with が emphasises \"precisely because\"."
+    },
+    {
+      "ja": "貧しさゆえの苦労は、彼を強くした。",
+      "reading": "まずしさゆえのくろうは、かれをつよくした。",
+      "en": "The hardships born of poverty made him strong.",
+      "note": "ゆえの + noun: hardship that stems from poverty."
+    },
+    {
+      "ja": "彼は正直すぎるがゆえに、損をすることが多い。",
+      "reading": "かれはしょうじきすぎるがゆえに、そんをすることがおおい。",
+      "en": "Precisely because he is too honest, he often loses out.",
+      "note": "Plain form + がゆえに; an admirable quality with a negative result."
+    },
+    {
+      "ja": "人は弱さゆえに、他人を頼るのだろう。",
+      "reading": "ひとはよわさゆえに、たにんをたよるのだろう。",
+      "en": "It is probably because of our weakness that we rely on others.",
+      "note": "Essay tone: an inherent quality explaining behaviour."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ゆえ(に) / 〜ゆえだ",
+      "difference": "The sentence-final or conjunction use of the same word: それゆえ, 〜ゆえだ.",
+      "id": "n1-grammar-89"
+    },
+    {
+      "pattern": "〜ばこそ",
+      "difference": "\"Precisely because\" with an affirmative, appreciative nuance (愛すればこそ). ゆえに is more neutral or regretful.",
+      "id": "n1-grammar-75"
+    },
+    {
+      "pattern": "〜だけに",
+      "difference": "\"As you would expect, given X\"; everyday and not literary.",
+      "id": "n2-grammar-60"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "若いゆえに失敗した。",
+      "right": "若さゆえに / 若いがゆえに失敗した。",
+      "why": "An い-adjective needs が (若いがゆえに) or nominalisation (若さ) before ゆえに."
+    },
+    {
+      "wrong": "疲れたゆえに、今日は早く寝ます。",
+      "right": "疲れたので、今日は早く寝ます。",
+      "why": "ゆえに is too literary for a casual personal reason."
+    },
+    {
+      "wrong": "有名なゆえに、自由がない。",
+      "right": "有名であるがゆえに / 有名ゆえに、自由がない。",
+      "why": "な-adjectives take である + がゆえに or attach directly as a noun; な + ゆえに is unnatural."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 若さ, 貧しさ, 弱さ, 愛, 無知, 立場, 性格.",
+    "が before ゆえに adds emphasis (\"precisely because\").",
+    "ゆえの + noun is common in titles and essays: 経験不足ゆえのミス."
+  ],
+  "jlptTips": [
+    "When the cause is an abstract noun (若さ, 貧しさ) and the register is literary, choose ゆえに over ので / から.",
+    "Distractors include とあって (special observable situation) and ばこそ (positive emphasis); check the emotional tone.",
+    "Remember ゆえの before a noun: if a noun follows the blank, のゆえ or ゆえの is needed, not ゆえに."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-10-1",
+    "q-n1-g-10-2",
+    "q-n1-g-10-3",
+    "q-n1-g-10-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-10-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

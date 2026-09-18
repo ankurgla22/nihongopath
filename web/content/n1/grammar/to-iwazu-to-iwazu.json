@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-166",
+  "slug": "to-iwazu-to-iwazu",
+  "level": "n1",
+  "order": 166,
+  "title": "〜と言わず〜と言わず",
+  "romaji": "to iwazu ... to iwazu",
+  "meaning": "whether X or Y (and everywhere else); X, Y, all of it",
+  "simpleExplanation": "Xと言わずYと言わず names two examples and implies that everything else is included too: 顔と言わず手と言わず、泥だらけ = \"face, hands, everywhere covered in mud\". It literally means \"without saying X, without saying Y\" — no need to name each part; the whole is affected. Usually describes an extreme, often unpleasant, state.",
+  "whenUsed": "Written and formal spoken Japanese, descriptive prose. The two nouns are parts of a whole or contrasting halves: 昼 / 夜, 壁 / 床, 顔 / 手, 平日 / 休日, 国内 / 海外. Not used in casual chat.",
+  "formation": [
+    "N1 + と言わず + N2 + と言わず、+ (whole is affected)",
+    "Pairs: 昼と言わず夜と言わず / 壁と言わず床と言わず / 顔と言わず手と言わず",
+    "Second half: 全身・すべて・〜だらけ・〜ばかり"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "顔と言わず",
+        "role": "example part 1",
+        "highlight": true
+      },
+      {
+        "text": "手と言わず",
+        "role": "example part 2",
+        "highlight": true
+      },
+      {
+        "text": "全身泥だらけだった",
+        "role": "the whole is affected"
+      }
+    ],
+    "translation": "Face, hands, and everywhere else were covered in mud."
+  },
+  "examples": [
+    {
+      "ja": "顔と言わず手と言わず、全身泥だらけだった。",
+      "reading": "かおといわずてといわず、ぜんしんどろだらけだった。",
+      "en": "Face, hands, and everywhere else were covered in mud.",
+      "note": "Two body parts named, 全身 shows the whole is covered."
+    },
+    {
+      "ja": "昼と言わず夜と言わず、工事の音が響いている。",
+      "reading": "ひるといわずよるといわず、こうじのおとがひびいている。",
+      "en": "Day and night, the noise of construction rings out.",
+      "note": "Time halves: day and night → all the time."
+    },
+    {
+      "ja": "壁と言わず床と言わず、落書きだらけの部屋だった。",
+      "reading": "かべといわずゆかといわず、らくがきだらけのへやだった。",
+      "en": "Walls, floor, everything in the room was covered in graffiti.",
+      "note": "Two surfaces named, the whole room is implied."
+    },
+    {
+      "ja": "その俳優は、テレビと言わず映画と言わず、あらゆる場で活躍している。",
+      "reading": "そのはいゆうは、テレビといわずえいがといわず、あらゆるばでかつやくしている。",
+      "en": "That actor is active everywhere, television, film, and all.",
+      "note": "A rare positive use."
+    },
+    {
+      "ja": "台風の後は、道路と言わず庭と言わず、木の枝が散乱していた。",
+      "reading": "たいふうのあとは、どうろといわずにわといわず、きのえだがさんらんしていた。",
+      "en": "After the typhoon, branches lay scattered everywhere, on the roads and in the gardens alike.",
+      "note": "Typical unpleasant state."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-170",
+      "pattern": "〜といい〜といい",
+      "difference": "Two aspects that support an evaluation (色といいデザインといい、申し分ない). と言わず implies \"everything\", not a judgment."
+    },
+    {
+      "id": "n1-grammar-29",
+      "pattern": "〜であれ〜であれ",
+      "difference": "\"Whether X or Y, (the same holds)\": a generalization over alternatives, often with rules. と言わず describes a state covering everything."
+    },
+    {
+      "id": "n2-grammar-160",
+      "pattern": "〜やら〜やら",
+      "difference": "A messy list of examples (\"X and Y and what not\"). と言わず stresses total coverage."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "顔と言わず、泥だらけだった。",
+      "right": "顔と言わず手と言わず、泥だらけだった。",
+      "why": "The pattern needs two examples."
+    },
+    {
+      "wrong": "リンゴと言わずバナナと言わず、おいしい。",
+      "right": "果物と言わず野菜と言わず、この店の品はすべて新鮮だ。",
+      "why": "The two nouns should be halves or parts of a larger whole, and the second half should describe the whole."
+    },
+    {
+      "wrong": "昼と言わず夜と言わず、たまに音がする。",
+      "right": "昼と言わず夜と言わず、ずっと音がしている。",
+      "why": "The second half must show that the whole range is affected; たまに contradicts that."
+    }
+  ],
+  "usageNotes": [
+    "The second half often has words of totality: 全身・一面・どこも・すべて・絶えず.",
+    "Mostly negative states (dirt, noise, damage), but it can describe wide activity too.",
+    "Compared with も〜も, it is more literary and stronger in its \"everywhere\" implication."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, two contrasting nouns each followed by the same blank, and a second half with 全身 / 一面 / すべて, points to と言わず〜と言わず.",
+    "Distractor といい〜といい: it leads to a judgment (申し分ない・最高だ), not a description of total coverage.",
+    "In 並べ替え, the two と言わず chunks come first, in a natural order (昼 → 夜, 顔 → 手)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-166-1",
+    "q-n1-g-166-2",
+    "q-n1-g-166-3",
+    "q-n1-g-166-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-166-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

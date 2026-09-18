@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-173",
+  "slug": "dewa-arumai-ka",
+  "level": "n1",
+  "order": 173,
+  "title": "〜ではあるまいか / 〜のではあるまいか",
+  "romaji": "dewa arumai ka / no dewa arumai ka",
+  "meaning": "might it not be that …?; I suspect …; is it not the case that …?",
+  "simpleExplanation": "〜のではあるまいか is the literary way of saying 〜のではないだろうか: a cautious suggestion phrased as a question. まい is the classical negative-conjecture (\"probably not\"), so ではあるまいか = \"would it not be…?\". Writers use it to propose an idea politely in essays and speeches.",
+  "whenUsed": "Written Japanese: essays, editorials, academic prose, formal speeches. Nouns and な-adjectives take ではあるまいか; verbs and い-adjectives take のではあるまいか. Not used in conversation, where のではないでしょうか / んじゃないか is normal.",
+  "formation": [
+    "N / なA + ではあるまいか",
+    "普通形 (V / いA) + のではあるまいか",
+    "Variants: 〜のではなかろうか (also literary)",
+    "Modern equivalents: 〜のではないだろうか / 〜のではないでしょうか"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Register of the cautious suggestion",
+    "items": [
+      {
+        "label": "〜んじゃない？",
+        "description": "casual speech"
+      },
+      {
+        "label": "〜のではないでしょうか",
+        "description": "polite speech, business"
+      },
+      {
+        "label": "〜のではあるまいか",
+        "description": "literary, essay prose"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この計画には無理があるのではあるまいか。",
+      "reading": "このけいかくにはむりがあるのではあるまいか。",
+      "en": "Might there not be something unreasonable about this plan?",
+      "note": "Verb clause + のではあるまいか: a cautious critique of a plan."
+    },
+    {
+      "ja": "彼こそ真の犯人ではあるまいか。",
+      "reading": "かれこそしんのはんにんではあるまいか。",
+      "en": "Could he not be the real culprit?",
+      "note": "Noun (犯人) + ではあるまいか; こそ adds emphasis."
+    },
+    {
+      "ja": "我々は大切なことを見失っているのではあるまいか。",
+      "reading": "われわれはたいせつなことをみうしなっているのではあるまいか。",
+      "en": "Are we not losing sight of something important?",
+      "note": "Essay style with 我々: a reflective question."
+    },
+    {
+      "ja": "便利さを追い求めるあまり、私たちは大切な何かを犠牲にしているのではあるまいか。",
+      "reading": "べんりさをおいもとめるあまり、わたしたちはたいせつななにかをぎせいにしているのではあるまいか。",
+      "en": "In our pursuit of convenience, are we not perhaps sacrificing something important?",
+      "note": "Typical editorial closing line."
+    },
+    {
+      "ja": "この問題の根本的な原因は、教育制度そのものにあるのではあるまいか。",
+      "reading": "このもんだいのこんぽんてきなげんいんは、きょういくせいどそのものにあるのではあるまいか。",
+      "en": "Might not the fundamental cause of this problem lie in the education system itself?",
+      "note": "Academic tone."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-132",
+      "pattern": "〜んじゃない / 〜んじゃないか",
+      "difference": "The casual spoken counterpart. Same suggestion, opposite register."
+    },
+    {
+      "id": "n1-grammar-32",
+      "pattern": "〜ではあるまいし",
+      "difference": "Different meaning: \"it's not as if X\" (子供ではあるまいし). Do not confuse まいし with まいか."
+    },
+    {
+      "id": "n2-grammar-149",
+      "pattern": "〜まい",
+      "difference": "Plain まい is negative conjecture or intention (行くまい). ではあるまいか turns it into a question that suggests the opposite."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（会話で）これ、高すぎるのではあるまいか。",
+      "right": "これ、高すぎるんじゃない？",
+      "why": "ではあるまいか is literary; in conversation it sounds like a stage line."
+    },
+    {
+      "wrong": "無理があるではあるまいか。",
+      "right": "無理があるのではあるまいか。",
+      "why": "Verbs and い-adjectives need の before ではあるまいか."
+    },
+    {
+      "wrong": "子供ではあるまいか、そんなことで泣くな。",
+      "right": "子供ではあるまいし、そんなことで泣くな。",
+      "why": "\"It's not as if you are a child\" is まいし, not まいか."
+    }
+  ],
+  "usageNotes": [
+    "Essay writers use it to close a paragraph with a reflective question that invites agreement.",
+    "It is polite in tone despite the plain form, because it avoids asserting directly.",
+    "In 読解, treat it as the author's actual opinion, softly stated."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an essay-style sentence ending in a cautious suggestion is のではあるまいか; check for の after verbs and い-adjectives.",
+    "Watch the trap ではあるまいし (\"it's not as if\"): the second half then gives a reproach, not a suggestion.",
+    "In 読解, the author's claim hides inside 〜のではあるまいか; read it as \"I think that …\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-173-1",
+    "q-n1-g-173-2",
+    "q-n1-g-173-3",
+    "q-n1-g-173-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-173-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

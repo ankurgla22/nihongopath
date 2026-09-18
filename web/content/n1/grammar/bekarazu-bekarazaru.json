@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-77",
+  "slug": "bekarazu-bekarazaru",
+  "level": "n1",
+  "order": 77,
+  "title": "〜べからず / 〜べからざる",
+  "romaji": "bekarazu / bekarazaru",
+  "meaning": "must not …; forbidden …; (adnominal) that must not be …",
+  "simpleExplanation": "〜べからず is the old negative of べし and means \"must not\". At the end of a sentence it is the language of signs and rules: 立入るべからず (No entry). Before a noun the form is 〜べからざる: 許すべからざる行為 (an unforgivable act), 欠くべからざる存在 (an indispensable presence).",
+  "whenUsed": "Sentence-final べからず appears on signs, notices and in proverbs; it is not used in normal conversation or letters. Adnominal べからざる is common in formal writing and speeches to describe something as unacceptable or essential. する becomes すべからず / すべからざる.",
+  "formation": [
+    "Vる + べからず (sentence end: signs, rules)",
+    "Vる + べからざる + N",
+    "する → すべからず / すべからざる",
+    "Set: 欠くべからざる (indispensable), 許すべからざる (unforgivable)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "べし (should / must)",
+    "rootLabel": "classical auxiliary",
+    "branches": [
+      {
+        "suffix": "べく",
+        "result": "〜すべく",
+        "label": "in order to"
+      },
+      {
+        "suffix": "べからず",
+        "result": "立ち入るべからず",
+        "label": "must not (sentence end)"
+      },
+      {
+        "suffix": "べからざる",
+        "result": "許すべからざる行為",
+        "label": "must not (before a noun)"
+      },
+      {
+        "suffix": "べくもない",
+        "result": "知るべくもない",
+        "label": "cannot possibly"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "芝生に入るべからず。",
+      "reading": "しばふにはいるべからず。",
+      "en": "Keep off the grass.",
+      "note": "A sign: literally \"must not enter the lawn\"."
+    },
+    {
+      "ja": "彼は経営者として許すべからざる過ちを犯した。",
+      "reading": "かれはけいえいしゃとしてゆるすべからざるあやまちをおかした。",
+      "en": "As a manager, he committed an unforgivable mistake.",
+      "note": "Adnominal べからざる + 過ち: an unforgivable mistake."
+    },
+    {
+      "ja": "初心忘るべからず。",
+      "reading": "しょしんわするべからず。",
+      "en": "Never forget the humility of a beginner.",
+      "note": "A proverb: 初心忘るべからず (never forget the beginner's spirit). 忘る is the classical form."
+    },
+    {
+      "ja": "この掲示板に広告を貼るべからず。",
+      "reading": "このけいじばんにこうこくをはるべからず。",
+      "en": "Do not post advertisements on this notice board.",
+      "note": "Notice language; a modern sign would say 貼らないでください."
+    },
+    {
+      "ja": "水は生物にとって欠くべからざるものだ。",
+      "reading": "みずはせいぶつにとってかくべからざるものだ。",
+      "en": "Water is something indispensable to living things.",
+      "note": "欠くべからざる = must not be lacking = indispensable."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜まじき",
+      "difference": "Also an old negative of べし, but limited to あるまじき / 許すまじき + 行為, meaning \"unbecoming of\".",
+      "id": "n1-grammar-81"
+    },
+    {
+      "pattern": "〜べく",
+      "difference": "The purpose form of べし: \"in order to\".",
+      "id": "n1-grammar-78"
+    },
+    {
+      "pattern": "〜べき / 〜べきではない",
+      "difference": "The modern equivalent. べきではない is used in ordinary speech and writing; べからず is only for signs and set phrases.",
+      "id": "n2-grammar-145"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ここでタバコを吸うべからず、と彼は私に言った。",
+      "right": "ここでタバコを吸ってはいけない、と彼は私に言った。",
+      "why": "べからず is not used in spoken commands; it belongs on signs."
+    },
+    {
+      "wrong": "許すべからず行為だ。",
+      "right": "許すべからざる行為だ。",
+      "why": "Before a noun the form is べからざる."
+    },
+    {
+      "wrong": "勉強するべからざる。",
+      "right": "勉強すべからず。",
+      "why": "Sentence-final form is べからず; する becomes す + べからず."
+    }
+  ],
+  "usageNotes": [
+    "The most common adnominal phrases are set: 欠くべからざる, 許すべからざる, 侵すべからざる (inviolable).",
+    "On modern signs, 〜べからず sounds old-fashioned and stern; it is used deliberately for effect.",
+    "Remember 初心忘るべからず as the model sentence for the sentence-final use."
+  ],
+  "jlptTips": [
+    "Sign or rule + blank at the end → べからず. Blank + noun (行為・存在・権利) → べからざる.",
+    "Distractors: べく, べきではない, まじき. If the noun is 行為 after あるまじき, that is まじき; after 許す or 欠く, べからざる.",
+    "In 並べ替え, keep verb + べからざる + noun as a unit."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-77-1",
+    "q-n1-g-77-2",
+    "q-n1-g-77-3",
+    "q-n1-g-77-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-77-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

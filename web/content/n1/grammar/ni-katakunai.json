@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-63",
+  "slug": "ni-katakunai",
+  "level": "n1",
+  "order": 63,
+  "title": "〜にかたくない",
+  "romaji": "ni katakunai",
+  "meaning": "it is not hard to (imagine, guess, understand)",
+  "simpleExplanation": "〜にかたくない means \"it is easy to imagine / guess / understand X\". かたい here is 難い (hard), so literally \"not hard to…\". It is used when the situation makes someone's feelings or the outcome obvious, and the speaker sympathises with them. It appears almost only with 想像・察する・理解・推測.",
+  "whenUsed": "Formal written Japanese: essays, editorials, formal letters, novels. The speaker infers another person's feelings from the situation (a bereaved family, a disappointed candidate). In conversation people say 想像できる or 察しがつく instead.",
+  "formation": [
+    "N + にかたくない (想像・理解・推測)",
+    "Vる + にかたくない (察する・想像する)",
+    "Sentence pattern: 〜(こと)は + 想像にかたくない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "両親がどれほど心配したかは",
+        "role": "what is inferred (topic)"
+      },
+      {
+        "text": "想像",
+        "role": "imagine",
+        "highlight": true
+      },
+      {
+        "text": "に",
+        "role": "particle"
+      },
+      {
+        "text": "かたくない",
+        "role": "not hard (難くない)",
+        "highlight": true
+      }
+    ],
+    "translation": "It is easy to imagine how worried her parents were."
+  },
+  "examples": [
+    {
+      "ja": "彼女の落胆は想像にかたくない。",
+      "reading": "かのじょのらくたんはそうぞうにかたくない。",
+      "en": "It is not hard to imagine her disappointment.",
+      "note": "想像にかたくない is by far the most common form. Her disappointment is easy to picture from the situation."
+    },
+    {
+      "ja": "両親がどれほど心配したか、察するにかたくない。",
+      "reading": "りょうしんがどれほどしんぱいしたか、さっするにかたくない。",
+      "en": "It is easy to guess how worried her parents were.",
+      "note": "察するにかたくない: to guess or sense someone's feelings. Note the verb form 察する + に."
+    },
+    {
+      "ja": "この決定が反発を招くことは、理解にかたくない。",
+      "reading": "このけっていがはんぱつをまねくことは、りかいにかたくない。",
+      "en": "It is not hard to understand that this decision will provoke opposition.",
+      "note": "理解にかたくない: the outcome (opposition) is easy to understand from the decision."
+    },
+    {
+      "ja": "長年の夢がかなった彼の喜びは、想像にかたくない。",
+      "reading": "ながねんのゆめがかなったかれのよろこびは、そうぞうにかたくない。",
+      "en": "It is not hard to imagine his joy at seeing his long-held dream come true.",
+      "note": "Positive feelings are fine too, though sympathy for hardship is more typical."
+    },
+    {
+      "ja": "この不況で中小企業が苦境に立たされていることは、推測にかたくない。",
+      "reading": "このふきょうでちゅうしょうきぎょうがくきょうにたたされていることは、すいそくにかたくない。",
+      "en": "It is easy to surmise that small and medium-sized businesses are in a tight spot in this recession.",
+      "note": "推測にかたくない is typical of newspaper commentary."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がたい",
+      "difference": "がたい = \"hard to\" (理解しがたい). かたくない is its negative in meaning: \"not hard to\". Note that がたい attaches to the verb stem.",
+      "id": "n2-grammar-20"
+    },
+    {
+      "pattern": "〜に足る",
+      "difference": "\"Worthy of / enough to\" (信頼に足る); also N + に + adjective-like ending, but it judges value, not ease of inference.",
+      "id": "n1-grammar-67"
+    },
+    {
+      "pattern": "〜に(は)当たらない",
+      "difference": "\"There is no need to (be surprised)\"; same N + に shape, but it denies that a reaction is warranted.",
+      "id": "n1-grammar-151"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼の気持ちは想像にかたい。",
+      "right": "彼の気持ちは想像にかたくない。",
+      "why": "The pattern exists only in the negative. To say something is hard to imagine, use 想像しがたい."
+    },
+    {
+      "wrong": "彼女の悲しみは想像しにかたくない。",
+      "right": "彼女の悲しみは想像にかたくない。",
+      "why": "The noun 想像 attaches directly with に; do not use the verb stem."
+    },
+    {
+      "wrong": "明日は雨が降るかどうか、想像にかたくない。",
+      "right": "明日は雨が降るかどうか、予想がつかない。",
+      "why": "にかたくない is for inferring feelings or consequences that are obvious from a situation, not for ordinary predictions."
+    }
+  ],
+  "usageNotes": [
+    "The subject is usually someone's feeling (落胆・喜び・苦労・心中) or an obvious consequence; the speaker shows understanding.",
+    "The set of verbs is tiny: 想像・察する・理解・推測. Learn it as a fixed expression rather than a productive grammar.",
+    "Writing かたくない in kana is standard; 難くない also appears in formal text."
+  ],
+  "jlptTips": [
+    "If the blank is preceded by 想像 or 察する and the sentence is about someone's feelings, にかたくない is almost certainly the answer.",
+    "Distractors often include に足る, にたえない and に当たらない. Ask whether the sentence is about ease of inferring (かたくない) or about value / need.",
+    "The affirmative form にかたい does not exist as a set expression, so never pick it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-63-1",
+    "q-n1-g-63-2",
+    "q-n1-g-63-3",
+    "q-n1-g-63-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-63-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

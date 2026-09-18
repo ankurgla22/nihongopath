@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-161",
+  "slug": "te-wa-irarenai",
+  "level": "n1",
+  "order": 161,
+  "title": "〜てはいられない",
+  "romaji": "te wa irarenai",
+  "meaning": "cannot afford to keep …ing; this is no time to be …ing",
+  "simpleExplanation": "Vて + はいられない says that the situation is too pressing to go on doing X. のんびりしてはいられない = \"I can't afford to relax\". いられない is the potential negative of いる (\"cannot stay\"), so the literal sense is \"cannot remain in the state of doing X\". The speaker is pushing themselves to act.",
+  "whenUsed": "Spoken and written, common in self-motivation and urgent situations. Casual contraction: 〜ちゃいられない / 〜じゃいられない. Often preceded by こんな時に / いつまでも / 〜ばかり. Typical verbs: のんびりする・休む・泣く・寝る・遊ぶ・黙る・待つ.",
+  "formation": [
+    "Vて + はいられない",
+    "Vて + ばかりはいられない  (\"cannot keep on just …ing\")",
+    "Casual: Vちゃいられない / Vじゃいられない  (泣いちゃいられない)",
+    "Polite: 〜てはいられません"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "こんな時に",
+        "role": "the pressing situation"
+      },
+      {
+        "text": "のんびりして",
+        "role": "the state one is in"
+      },
+      {
+        "text": "はいられない",
+        "role": "\"cannot stay like this\"",
+        "highlight": true
+      }
+    ],
+    "translation": "I cannot afford to relax at a time like this."
+  },
+  "examples": [
+    {
+      "ja": "こんな時にのんびりしてはいられない。",
+      "reading": "こんなときにのんびりしてはいられない。",
+      "en": "I cannot afford to relax at a time like this.",
+      "note": "こんな時に sets up the urgency; のんびりする is the state to abandon."
+    },
+    {
+      "ja": "締め切りが近いので、休んでばかりはいられない。",
+      "reading": "しめきりがちかいので、やすんでばかりはいられない。",
+      "en": "With the deadline close, I cannot keep resting.",
+      "note": "〜てばかりはいられない: cannot keep on only resting."
+    },
+    {
+      "ja": "いつまでも泣いてはいられない。前に進もう。",
+      "reading": "いつまでもないてはいられない。まえにすすもう。",
+      "en": "I cannot go on crying forever. Let me move forward.",
+      "note": "いつまでも + 泣いてはいられない, then a resolve to move on."
+    },
+    {
+      "ja": "ライバルが次々と新製品を出している。うちも黙ってはいられない。",
+      "reading": "ライバルがつぎつぎとしんせいひんをだしている。うちもだまってはいられない。",
+      "en": "Our rivals are releasing new products one after another. We cannot just sit quietly either.",
+      "note": "Business urgency."
+    },
+    {
+      "ja": "もう待っちゃいられない。先に行こう。",
+      "reading": "もうまっちゃいられない。さきにいこう。",
+      "en": "I can't wait any longer. Let's go on ahead.",
+      "note": "Casual contraction ちゃいられない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-95",
+      "pattern": "〜ないではいられない",
+      "difference": "\"Cannot help doing X\" (an urge). てはいられない is \"cannot afford to keep doing X\" (pressure to stop)."
+    },
+    {
+      "id": "n2-grammar-165",
+      "pattern": "〜わけにはいかない",
+      "difference": "\"Cannot, for social or moral reasons\". てはいられない is about urgency of the situation, not social rules."
+    },
+    {
+      "id": "n2-grammar-200",
+      "pattern": "〜ていては",
+      "difference": "\"If one keeps doing X, (bad result)\" as a condition (遊んでいては合格できない). てはいられない is the speaker's own conclusion that they must stop."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "眠くて、起きてはいられない。",
+      "right": "眠くて、起きていられない。",
+      "why": "Without は, 起きていられない means \"cannot stay awake\" (physical inability). The は version means \"cannot afford to keep …\", which does not fit sleepiness."
+    },
+    {
+      "wrong": "こんな時にのんびりしてはいけない。(as the pattern)",
+      "right": "こんな時にのんびりしてはいられない。",
+      "why": "てはいけない is a prohibition. てはいられない is the speaker's own sense that the situation does not allow it."
+    },
+    {
+      "wrong": "泣くはいられない。",
+      "right": "泣いてはいられない。",
+      "why": "The verb must be in the て-form before はいられない."
+    }
+  ],
+  "usageNotes": [
+    "The pattern is often followed by an action: 前に進もう / すぐに対策を立てよう.",
+    "じっとしてはいられない (\"can't sit still\") is a common set phrase expressing eagerness or anxiety.",
+    "In news commentary, 〜と安心してはいられない warns against complacency."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an urgent situation (こんな時に・締め切りが近い) + a leisurely verb in て-form + a blank is てはいられない.",
+    "Distractor ないではいられない: it needs a negative verb and means an irresistible urge. Check the sign of the verb before the blank.",
+    "In 並べ替え, ては and いられない may be split; the て-form verb precedes them."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-161-1",
+    "q-n1-g-161-2",
+    "q-n1-g-161-3",
+    "q-n1-g-161-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-161-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

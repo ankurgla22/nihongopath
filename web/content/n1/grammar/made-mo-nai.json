@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-83",
+  "slug": "made-mo-nai",
+  "level": "n1",
+  "order": 83,
+  "title": "〜までもない / 〜までもなく",
+  "romaji": "made mo nai / made mo naku",
+  "meaning": "there is no need to …; needless to say …",
+  "simpleExplanation": "〜までもない means \"there is no need to go as far as doing X\", because the matter is too small or too obvious: 病院に行くまでもない (no need to go to the hospital). The adverbial form までもなく is used in the set phrase 言うまでもなく (needless to say).",
+  "whenUsed": "Both speech and writing, neutral register. Common when reassuring someone that a step is unnecessary, and in essays with 言うまでもなく. Compare には及ばない, which is more polite and often directed at the listener.",
+  "formation": [
+    "Vる + までもない",
+    "Vる + までもなく、…",
+    "Set phrase: 言うまでもない / 言うまでもなく",
+    "Often with わざわざ・改めて"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How necessary is the action?",
+    "items": [
+      {
+        "label": "〜なければならない",
+        "description": "necessary"
+      },
+      {
+        "label": "〜なくてもいい",
+        "description": "not required"
+      },
+      {
+        "label": "〜までもない",
+        "description": "not even worth going that far: unnecessary because trivial or obvious"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これぐらいのけがなら、病院に行くまでもない。",
+      "reading": "これぐらいのけがなら、びょういんにいくまでもない。",
+      "en": "For a minor injury like this, there is no need to go to the hospital.",
+      "note": "The injury is minor, so no need to go as far as the hospital."
+    },
+    {
+      "ja": "言うまでもなく、健康が一番大切だ。",
+      "reading": "いうまでもなく、けんこうがいちばんたいせつだ。",
+      "en": "Needless to say, health is the most important thing.",
+      "note": "言うまでもなく: a set phrase to introduce something obvious."
+    },
+    {
+      "ja": "わざわざ確認するまでもなく、答えは明らかだ。",
+      "reading": "わざわざかくにんするまでもなく、こたえはあきらかだ。",
+      "en": "Without needing to check, the answer is obvious.",
+      "note": "わざわざ確認するまでもなく: the answer is obvious without checking."
+    },
+    {
+      "ja": "そんなことは、改めて説明するまでもないだろう。",
+      "reading": "そんなことは、あらためてせつめいするまでもないだろう。",
+      "en": "There is no need to explain that again, surely.",
+      "note": "改めて often accompanies the pattern."
+    },
+    {
+      "ja": "彼が優秀なのは、言うまでもないことだ。",
+      "reading": "かれがゆうしゅうなのは、いうまでもないことだ。",
+      "en": "That he is excellent goes without saying.",
+      "note": "言うまでもないことだ as a predicate."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜には及ばない",
+      "difference": "Also \"no need to\", but polite and used to decline the listener's trouble (ご心配には及びません).",
+      "id": "n1-grammar-69"
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "Everyday \"no need to\" (急ぐことはない). までもない adds the nuance \"not even worth that much\".",
+      "id": "n2-grammar-48"
+    },
+    {
+      "pattern": "〜までだ",
+      "difference": "Different meaning: \"I will simply do X\".",
+      "id": "n1-grammar-82"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "病院に行くまでもなく、家で寝た。",
+      "right": "病院に行くまでもないので、家で寝た。",
+      "why": "までもなく is mainly used in 言うまでもなく; for a reason, use までもないので."
+    },
+    {
+      "wrong": "言わないまでもなく、彼は優秀だ。",
+      "right": "言うまでもなく、彼は優秀だ。",
+      "why": "The verb before までもない must be affirmative dictionary form."
+    },
+    {
+      "wrong": "ご心配するまでもありません。",
+      "right": "ご心配には及びません。",
+      "why": "Polite refusals of the listener's concern use には及びません."
+    }
+  ],
+  "usageNotes": [
+    "The nuance is \"this is too small / too obvious to bother\": it can sound dismissive if aimed at the listener.",
+    "言うまでもなく is the most frequent form; learn it as an adverb meaning \"needless to say\".",
+    "わざわざ, 改めて and 今さら are common companions."
+  ],
+  "jlptTips": [
+    "A minor matter + Vる + blank at the sentence end → までもない.",
+    "言う + blank + a clause → までもなく.",
+    "Distractors: には及ばない (polite), までだ (resolve), ことはない. Choose までもない when the reason is triviality or obviousness."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-83-1",
+    "q-n1-g-83-2",
+    "q-n1-g-83-3",
+    "q-n1-g-83-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-83-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

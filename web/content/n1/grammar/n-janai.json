@@ -1,0 +1,140 @@
+{
+  "id": "n1-grammar-132",
+  "slug": "n-janai",
+  "level": "n1",
+  "order": 132,
+  "title": "〜んじゃない / 〜んじゃないか",
+  "romaji": "n janai / n janai ka",
+  "meaning": "isn't it …?; you should …, shouldn't you?; (falling tone) don't …!",
+  "simpleExplanation": "〜んじゃない is the spoken contraction of のではない. It has three jobs, told apart by intonation and form. (1) Rising: a soft suggestion or guess, \"isn't it …?\". (2) 〜んじゃないか: \"I think perhaps …\", used to make a proposal or a guess. (3) Falling, after a dictionary-form verb: a firm prohibition, \"don't …!\".",
+  "whenUsed": "Casual and semi-casual speech, very frequent among friends, family, and colleagues. Polite version: 〜んじゃないでしょうか / 〜のではないでしょうか. The prohibition use (走るんじゃない！) is blunt and is used by parents, teachers, coaches, and in fiction.",
+  "formation": [
+    "普通形 + んじゃない？ (rising: soft suggestion / confirmation)",
+    "普通形 + んじゃないか / んじゃないかな (guess, proposal)",
+    "なA / N + なんじゃない  (便利なんじゃない？)",
+    "Vる + んじゃない (falling: prohibition)",
+    "Polite: 〜んじゃないでしょうか / 〜のではないでしょうか"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Same form, three meanings",
+    "columns": [
+      "form",
+      "intonation",
+      "meaning"
+    ],
+    "rows": [
+      {
+        "label": "いいんじゃない？",
+        "cells": [
+          "普通形 + んじゃない",
+          "rising ↗",
+          "isn't it fine? (soft suggestion)"
+        ]
+      },
+      {
+        "label": "出発したほうがいいんじゃないか",
+        "cells": [
+          "普通形 + んじゃないか",
+          "level / falling",
+          "I think we should leave (proposal)"
+        ]
+      },
+      {
+        "label": "使うんじゃない！",
+        "cells": [
+          "Vる + んじゃない",
+          "falling ↘, strong",
+          "don't use it! (prohibition)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "そんなに急がなくてもいいんじゃない？",
+      "reading": "そんなにいそがなくてもいいんじゃない？",
+      "en": "You do not need to hurry so much, do you?",
+      "note": "Rising んじゃない？: \"you don't need to hurry so much, do you?\", a gentle suggestion."
+    },
+    {
+      "ja": "そろそろ出発したほうがいいんじゃないか。",
+      "reading": "そろそろしゅっぱつしたほうがいいんじゃないか。",
+      "en": "Should we not be leaving soon?",
+      "note": "んじゃないか proposes something with a bit of pressure."
+    },
+    {
+      "ja": "人の物を勝手に使うんじゃない。",
+      "reading": "ひとのものをかってにつかうんじゃない。",
+      "en": "Do not use other people's things without asking.",
+      "note": "Vる + んじゃない with falling tone is a prohibition: \"don't use other people's things\"."
+    },
+    {
+      "ja": "この色のほうが、あなたに似合うんじゃないかな。",
+      "reading": "このいろのほうが、あなたににあうんじゃないかな。",
+      "en": "I think this colour would suit you better.",
+      "note": "んじゃないかな softens a suggestion further."
+    },
+    {
+      "ja": "そんなところで遊ぶんじゃない。危ないだろう。",
+      "reading": "そんなところであそぶんじゃない。あぶないだろう。",
+      "en": "Don't play there. It's dangerous, isn't it?",
+      "note": "Prohibition, typical of a parent's voice."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-164",
+      "pattern": "〜わけではない",
+      "difference": "A partial denial (\"it's not that …\"). んじゃない is not a denial at all in its suggestion and prohibition uses."
+    },
+    {
+      "id": "n2-grammar-107",
+      "pattern": "〜に決まっている",
+      "difference": "A confident assertion. んじゃない is a soft, tentative guess or suggestion."
+    },
+    {
+      "id": "n1-grammar-173",
+      "pattern": "〜のではあるまいか",
+      "difference": "The literary, written counterpart of 〜んじゃないか for a cautious suggestion in essays."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（上司に）部長、この案でいいんじゃない？",
+      "right": "部長、この案でよろしいのではないでしょうか。",
+      "why": "Plain んじゃない is casual. To a superior use the polite のではないでしょうか."
+    },
+    {
+      "wrong": "便利んじゃない？",
+      "right": "便利なんじゃない？",
+      "why": "な-adjectives and nouns need な before んじゃない, just as before の."
+    },
+    {
+      "wrong": "食べたんじゃない！(intended: Don't eat it!)",
+      "right": "食べるんじゃない！",
+      "why": "The prohibition needs the dictionary form. 食べたんじゃない with falling tone means \"I didn't eat it\"."
+    }
+  ],
+  "usageNotes": [
+    "In writing, use のではないか / のではないだろうか; んじゃない belongs to speech and dialogue.",
+    "んじゃないかと思う is a very common soft way to state an opinion: 少し高いんじゃないかと思います.",
+    "The prohibition is stronger than 〜ないで and close to 〜な; use it only when you have authority over the listener."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, casual dialogue with a suggestion (〜たほうがいいんじゃない) or a guess (〜んじゃないかな) points to んじゃない. Check for な after な-adjectives and nouns.",
+    "For the prohibition, the verb before んじゃない must be the dictionary form; that is a frequent trap.",
+    "In 聴解, listen to the intonation: rising = suggestion, sharp falling after Vる = prohibition."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-132-1",
+    "q-n1-g-132-2",
+    "q-n1-g-132-3",
+    "q-n1-g-132-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-132-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

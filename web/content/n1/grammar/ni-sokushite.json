@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-65",
+  "slug": "ni-sokushite",
+  "level": "n1",
+  "order": 65,
+  "title": "〜に即して / 〜に即した",
+  "romaji": "ni sokushite / ni sokushita",
+  "meaning": "in accordance with …; in line with (facts, rules, reality)",
+  "simpleExplanation": "〜に即して means \"following X closely, without straying from it\". X is something that already exists and should be respected: the facts, the actual situation, a rule, a law, past experience. 即する means \"to fit exactly\", so the nuance is \"stick to reality / stick to the rules\". Before a noun it becomes に即した.",
+  "whenUsed": "Formal written Japanese: reports, proposals, laws, education policy. Typical when someone argues that a plan or a decision should match reality rather than theory (現状に即して), or that handling should follow rules (規則に即して). Not used in casual conversation.",
+  "formation": [
+    "N + に即して + verb phrase",
+    "N + に即した + N",
+    "N + に即し (formal continuative)",
+    "Typical N: 事実・現実・現状・実態・規則・法律・経験・時代"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "に即して and its neighbours",
+    "columns": [
+      "What comes before",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜に即して",
+        "cells": [
+          "facts, reality, rules",
+          "fit exactly, do not stray",
+          "現状に即した計画"
+        ]
+      },
+      {
+        "label": "〜に基づいて",
+        "cells": [
+          "data, evidence, principles",
+          "built on a foundation",
+          "調査結果に基づいた報告"
+        ]
+      },
+      {
+        "label": "〜に沿って",
+        "cells": [
+          "policies, wishes, a line",
+          "go along a direction",
+          "方針に沿って進める"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "現状に即して、計画を見直す必要がある。",
+      "reading": "げんじょうにそくして、けいかくをみなおすひつようがある。",
+      "en": "We need to review the plan in line with the current situation.",
+      "note": "現状に即して: match the plan to the way things really are now."
+    },
+    {
+      "ja": "法律に即した処理をお願いします。",
+      "reading": "ほうりつにそくしたしょりをおねがいします。",
+      "en": "Please handle it in accordance with the law.",
+      "note": "Before a noun: 法律に即した処理 (handling that follows the law)."
+    },
+    {
+      "ja": "事実に即して報道することが、記者の使命だ。",
+      "reading": "じじつにそくしてほうどうすることが、きしゃのしめいだ。",
+      "en": "Reporting in accordance with the facts is a journalist's mission.",
+      "note": "事実に即して報道する: stay close to the facts. Very common in media ethics discussions."
+    },
+    {
+      "ja": "教科書の内容も、時代に即して見直すべきだ。",
+      "reading": "きょうかしょのないようも、じだいにそくしてみなおすべきだ。",
+      "en": "Textbook content should also be revised in line with the times.",
+      "note": "時代に即して = keep up with the era."
+    },
+    {
+      "ja": "実態に即した支援でなければ、被災者の役には立たない。",
+      "reading": "じったいにそくしたしえんでなければ、ひさいしゃのやくにはたたない。",
+      "en": "Unless support fits the actual situation, it will be no help to the victims.",
+      "note": "実態 (the real state of affairs) is a standard partner."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に基づいて / 〜に基づく",
+      "difference": "Something is built on a basis (data, a theory). に即して stresses fitting reality or a rule closely.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜に沿って / 〜に沿った",
+      "difference": "Go along a line or policy (方針・希望に沿って). Softer; it does not carry the \"fit exactly\" nuance.",
+      "id": "n2-grammar-120"
+    },
+    {
+      "pattern": "〜を踏まえて",
+      "difference": "Take something into account as a starting point, then judge. に即して means the result matches X itself.",
+      "id": "n1-grammar-120"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼の希望に即して、席を決めた。",
+      "right": "彼の希望に沿って、席を決めた。",
+      "why": "Wishes and requests take に沿って. に即して needs facts, rules or reality."
+    },
+    {
+      "wrong": "現状に即する計画が必要だ。",
+      "right": "現状に即した計画が必要だ。",
+      "why": "Before a noun the set form is に即した; the dictionary form 即する is rarely used this way."
+    },
+    {
+      "wrong": "データに即して、こう考えられる。",
+      "right": "データに基づいて、こう考えられる。",
+      "why": "Drawing a conclusion from evidence is に基づいて. に即して is about actions or plans matching reality."
+    }
+  ],
+  "usageNotes": [
+    "The noun before に即して is almost always one of: 事実・現実・現状・実態・規則・法律・慣習・経験・時代・目的.",
+    "It often carries a critical undertone: \"the current approach is out of touch, so make it fit reality\".",
+    "The kanji 即 (\"immediately, right there\") helps: the action sticks right to X."
+  ],
+  "jlptTips": [
+    "If the noun is 現状・実態・事実 and the verb is 見直す・判断する・対応する, に即して is the expected answer.",
+    "Distractors: に基づいて, に沿って, を踏まえて. Choose に即して for \"stick to reality / rules\"; に沿って for wishes or policies.",
+    "Before a noun, only に即した is correct; に即して + N is a trap."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-65-1",
+    "q-n1-g-65-2",
+    "q-n1-g-65-3",
+    "q-n1-g-65-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-65-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

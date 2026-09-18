@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-61",
+  "slug": "ni-itaru-made",
+  "level": "n1",
+  "order": 61,
+  "title": "〜に至るまで",
+  "romaji": "ni itaru made",
+  "meaning": "right down to …; everything up to and including …",
+  "simpleExplanation": "〜に至るまで says \"all the way down to X\". You name the most extreme or most trivial item in a range, and the listener understands that everything before it is included too. It often pairs with から: 「AからBに至るまで」 = \"from A right down to B\".",
+  "whenUsed": "Mainly written or formal spoken Japanese (reports, reviews, speeches). It is chosen when the speaker wants to stress how thorough or how far-reaching something is: 隅々に至るまで (every corner), 細部に至るまで (every detail). In casual talk people simply say AからBまで.",
+  "formation": [
+    "N + に至るまで",
+    "N + から + N + に至るまで",
+    "Often with 隅々・細部・一つ一つ (the smallest unit of the range)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "服装から髪型まで",
+        "en": "from clothes to hairstyle (neutral range)"
+      },
+      {
+        "ja": "服装から髪型に至るまで",
+        "en": "from clothes right down to hairstyle (every single thing, the range is stressed)"
+      },
+      {
+        "ja": "細部に至るまで",
+        "en": "down to the finest detail (no starting point needed)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は服装から髪型に至るまで、すべて母親が決めている。",
+      "reading": "かれはふくそうからかみがたにいたるまで、すべてははおやがきめている。",
+      "en": "From his clothes to his hairstyle, his mother decides everything.",
+      "note": "AからBに至るまで: the end point (hairstyle) is a small thing, which shows that nothing is left out."
+    },
+    {
+      "ja": "警察は部屋の隅々に至るまで、徹底的に調べた。",
+      "reading": "けいさつはへやのすみずみにいたるまで、てっていてきにしらべた。",
+      "en": "The police searched thoroughly, down to every corner of the room.",
+      "note": "隅々に至るまで is a set collocation: \"down to every corner\"."
+    },
+    {
+      "ja": "この店では食材から食器に至るまで、地元のものを使っている。",
+      "reading": "このみせではしょくざいからしょっきにいたるまで、じもとのものをつかっている。",
+      "en": "This restaurant uses local products for everything, from ingredients to tableware.",
+      "note": "The range runs from the obvious item (ingredients) to the surprising one (tableware)."
+    },
+    {
+      "ja": "この辞典は専門用語から俗語に至るまで、幅広く収録している。",
+      "reading": "このじてんはせんもんようごからぞくごにいたるまで、はばひろくしゅうろくしている。",
+      "en": "This dictionary covers everything from technical terms right down to slang.",
+      "note": "Typical review sentence; the writer is praising the thoroughness."
+    },
+    {
+      "ja": "祖母は料理の味付けは言うまでもなく、盛り付けに至るまで手を抜かなかった。",
+      "reading": "そぼはりょうりのあじつけはいうまでもなく、もりつけにいたるまでてをぬかなかった。",
+      "en": "My grandmother never cut corners, not just with the seasoning but even down to how the food was arranged.",
+      "note": "Can follow 〜は言うまでもなく instead of から."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に至る / 〜に至って(は)",
+      "difference": "Same verb 至る, but these mark reaching a point or stage (\"went as far as…\"), not the extent of a range.",
+      "id": "n1-grammar-60"
+    },
+    {
+      "pattern": "〜から〜にかけて",
+      "difference": "A vague span of time or place (\"from around A to around B\"); no feeling of \"every single item\".",
+      "id": "n2-grammar-32"
+    },
+    {
+      "pattern": "〜をはじめ(として)",
+      "difference": "Lists a representative example and then others; it does not mark the far end of a range.",
+      "id": "n2-grammar-174"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "部屋の隅々まで至って調べた。",
+      "right": "部屋の隅々に至るまで調べた。",
+      "why": "The pattern is fixed as に至るまで; 至る cannot be split off as a separate verb here."
+    },
+    {
+      "wrong": "朝から晩に至るまで、寝ていた。",
+      "right": "朝から晩まで寝ていた。",
+      "why": "に至るまで stresses that every member of a range is covered. A simple time span with one continuous action just uses まで."
+    },
+    {
+      "wrong": "子供に至るまで大人が参加した。",
+      "right": "大人から子供に至るまで参加した。",
+      "why": "The item before に至るまで must be the far end of the range; put the starting point with から first."
+    }
+  ],
+  "usageNotes": [
+    "The noun before に至るまで is usually the least expected or smallest item, which is what makes the sentence feel thorough.",
+    "It is common in praise (細部に至るまで丁寧だ) and in descriptions of control (服装に至るまで決められている).",
+    "In speech it sounds formal; a newsreader or a reviewer would use it, friends chatting would say 〜まで全部."
+  ],
+  "jlptTips": [
+    "Look for から earlier in the sentence and a small or surprising item in the blank: that combination points to に至るまで.",
+    "Distractors are usually に至って, にかけて and をはじめ. If the sentence lists a range and stresses completeness, choose に至るまで.",
+    "In 並べ替え, keep から + N and N + に至るまで as two chunks, then place the verb phrase after them."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-61-1",
+    "q-n1-g-61-2",
+    "q-n1-g-61-3",
+    "q-n1-g-61-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-61-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

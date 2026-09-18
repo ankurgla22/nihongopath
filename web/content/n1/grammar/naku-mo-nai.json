@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-130",
+  "slug": "naku-mo-nai",
+  "level": "n1",
+  "order": 130,
+  "title": "〜なくもない / 〜ないでもない",
+  "romaji": "naku mo nai / nai demo nai",
+  "meaning": "it is not that … not …; I can sort of …; there is a little …",
+  "simpleExplanation": "〜なくもない and 〜ないでもない are double negatives that give a weak, hedged yes. \"I don't NOT understand\" = \"I can sort of understand\". The speaker admits something partly, reluctantly, or with conditions attached. It never sounds enthusiastic.",
+  "whenUsed": "Spoken and written, common in conversation when giving a cautious opinion or a reluctant admission. Often preceded by そう言われれば, 考えようによっては, 〜ば. Typical verbs: わかる・言える・気がする・思う・感じる・できる.",
+  "formation": [
+    "Vない-stem + なくもない  (わからなくもない)",
+    "Vない-stem + ないでもない  (わからないでもない)",
+    "いA-く + なくもない  (辛くなくもない)",
+    "なA / N + でなくもない  (便利でなくもない)",
+    "Also: 〜ないこともない (see N2)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How strong is the admission?",
+    "items": [
+      {
+        "label": "わからない",
+        "description": "flat no: I do not understand"
+      },
+      {
+        "label": "わからなくもない",
+        "description": "hedged: I can sort of understand"
+      },
+      {
+        "label": "わかる",
+        "description": "plain yes: I understand"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼の言うことも、わからなくもない。",
+      "reading": "かれのいうことも、わからなくもない。",
+      "en": "I can sort of understand what he is saying.",
+      "note": "も after わかること softens even further: \"his point too, I can sort of see\"."
+    },
+    {
+      "ja": "そう言われれば、そんな気がしないでもない。",
+      "reading": "そういわれれば、そんなきがしないでもない。",
+      "en": "Now that you mention it, I do kind of feel that way.",
+      "note": "そう言われれば (\"now that you say it\") is a classic lead-in for ないでもない."
+    },
+    {
+      "ja": "この料理は、少し辛いと言えなくもない。",
+      "reading": "このりょうりは、すこしからいといえなくもない。",
+      "en": "You could say this dish is a little spicy.",
+      "note": "と言えなくもない = \"you could just about say\", a hedged evaluation."
+    },
+    {
+      "ja": "条件次第では、その提案を受け入れなくもない。",
+      "reading": "じょうけんしだいでは、そのていあんをうけいれなくもない。",
+      "en": "Depending on the conditions, I might be willing to accept the proposal.",
+      "note": "A reluctant, conditional yes in negotiation."
+    },
+    {
+      "ja": "彼の気持ちもわからないでもないが、やはり許せない。",
+      "reading": "かれのきもちもわからないでもないが、やはりゆるせない。",
+      "en": "I can sort of see how he feels, but I still cannot forgive him.",
+      "note": "Often followed by が / けど and the speaker's real position."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-94",
+      "pattern": "〜ないことはない / 〜ないこともない",
+      "difference": "Nearly the same hedged yes, slightly more neutral and common in polite speech. なくもない feels a little more grudging."
+    },
+    {
+      "id": "n1-grammar-49",
+      "pattern": "〜ないものでもない",
+      "difference": "\"It is not impossible that …\": a possibility rather than a partial admission. More formal."
+    },
+    {
+      "id": "n2-grammar-164",
+      "pattern": "〜わけではない",
+      "difference": "Denies part of a positive statement (\"it's not that I like it\"). なくもない denies a negative, producing a weak positive."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この店の料理は、おいしくなくもない！最高だ！",
+      "right": "この店の料理は、最高においしい！",
+      "why": "なくもない is a lukewarm, hedged admission. Pairing it with enthusiastic praise is contradictory."
+    },
+    {
+      "wrong": "わかるなくもない。",
+      "right": "わからなくもない。",
+      "why": "Attach なくもない to the ない-stem (わから), not to the dictionary form."
+    },
+    {
+      "wrong": "便利なくもない。",
+      "right": "便利でなくもない。",
+      "why": "な-adjectives and nouns need で before なくもない."
+    }
+  ],
+  "usageNotes": [
+    "Because it sounds grudging, it can be a polite way to disagree softly: 悪くなくもないですが… (\"it is not bad, but…\").",
+    "ないでもない is slightly more colloquial than なくもない; both are fine in speech.",
+    "Pairs naturally with hedging adverbs: 多少・少し・まあ・ある意味・考えようによっては."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a lead-in like そう言われれば or 考えようによっては followed by a verb of perception or judgment (わかる・気がする・言える) calls for なくもない / ないでもない.",
+    "Check the attachment: ない-stem + なくもない. Options built on the dictionary form are wrong.",
+    "In 並べ替え, the chunk と言えなくもない is often split as と言え / なくもない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-130-1",
+    "q-n1-g-130-2",
+    "q-n1-g-130-3",
+    "q-n1-g-130-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-130-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-135",
+  "slug": "zushite",
+  "level": "n1",
+  "order": 135,
+  "title": "〜ずして",
+  "romaji": "zushite",
+  "meaning": "without …ing; without having to …",
+  "simpleExplanation": "〜ずして is the classical way of saying 〜ないで / 〜せずに: \"without doing X\". 戦わずして勝つ = \"win without fighting\". It is compact and dignified, which is why it lives on in proverbs, headlines, and formal prose. A special use is the rhetorical question 〜と言わずして何と言おう (\"if not X, then what?\").",
+  "whenUsed": "Written Japanese: proverbs, essays, speeches, and headlines. Not used in daily conversation, where 〜ないで / 〜せずに is normal. Typical verbs: 戦う・労する・期せずして (unexpectedly)・知らずして・語らずして.",
+  "formation": [
+    "Vない-stem + ずして  (戦わずして・知らずして)",
+    "する → せずして (労せずして)",
+    "Set adverbs: 期せずして (unexpectedly)・遠からずして (before long)",
+    "Rhetorical: 〜と言わずして何と言おう / 何と言うのか"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "戦わないで勝った",
+        "en": "modern: won without fighting"
+      },
+      {
+        "ja": "戦わずに勝った",
+        "en": "slightly formal: same meaning"
+      },
+      {
+        "ja": "戦わずして勝った",
+        "en": "classical ずして: dignified, proverb-like"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "労せずして得た金は、すぐに失われる。",
+      "reading": "ろうせずしてえたかねは、すぐにうしなわれる。",
+      "en": "Money gained without effort is soon lost.",
+      "note": "労せずして = without effort; the sentence reads like a proverb."
+    },
+    {
+      "ja": "彼は戦わずして勝利を手にした。",
+      "reading": "かれはたたかわずしてしょうりをてにした。",
+      "en": "He won without fighting.",
+      "note": "戦わずして勝つ is a famous phrase from Sun Tzu."
+    },
+    {
+      "ja": "彼を天才と言わずして、誰を天才と言うのか。",
+      "reading": "かれをてんさいといわずして、だれをてんさいというのか。",
+      "en": "If you do not call him a genius, whom would you call one?",
+      "note": "〜と言わずして誰を〜と言うのか is the rhetorical-question frame."
+    },
+    {
+      "ja": "二人は期せずして同じ結論に達した。",
+      "reading": "ふたりはきせずしておなじけつろんにたっした。",
+      "en": "Unexpectedly, the two reached the same conclusion independently.",
+      "note": "期せずして is a fixed adverb: \"without planning it\"."
+    },
+    {
+      "ja": "この光景を美しいと言わずして何と言おう。",
+      "reading": "このこうけいをうつくしいといわずしてなんといおう。",
+      "en": "If this scene is not to be called beautiful, then what is?",
+      "note": "Rhetorical question used in essays and speeches."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-126",
+      "pattern": "〜ずとも",
+      "difference": "\"Even if not\" (concession: no need to). ずして is \"without doing\" (manner or circumstance)."
+    },
+    {
+      "id": "n1-grammar-51",
+      "pattern": "〜なくして(は)",
+      "difference": "Attaches to nouns: \"without X, no Y\" (努力なくして成功はない). ずして attaches to verbs."
+    },
+    {
+      "id": "n2-grammar-45",
+      "pattern": "〜ことなく",
+      "difference": "Formal modern \"without ever doing\"; neutral and widely usable. ずして is more literary and proverb-flavoured."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "宿題をせずしてゲームをした。",
+      "right": "宿題をしないでゲームをした。",
+      "why": "ずして is literary; for a mundane everyday action it sounds absurdly grand. Use ないで / せずに."
+    },
+    {
+      "wrong": "勉強しずして合格した。",
+      "right": "勉強せずして合格した。",
+      "why": "する becomes せず, never しず."
+    },
+    {
+      "wrong": "戦わずして、勝つことはないだろう。",
+      "right": "戦わずして勝つことはできない。",
+      "why": "Meaning error: ずして describes the manner of the main action. To say \"you cannot win without fighting\", keep the potential negative directly after."
+    }
+  ],
+  "usageNotes": [
+    "Memorize the set adverbs 期せずして (unexpectedly) and 遠からずして (before long); they appear in news and essays.",
+    "The rhetorical 〜と言わずして何と言おう is a strong, emphatic way to assert a label.",
+    "Because it is compact, ずして is common in headlines: 「戦わずして撤退」."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a proverb-like or headline-like sentence with a ない-stem + して is ずして. Verify the stem (戦わ・労せ).",
+    "Distinguish from ずとも: if the sentence means \"even if not\", choose ずとも; if it means \"without doing\", choose ずして.",
+    "In 並べ替え, ずして and its verb stem form one chunk; the main verb follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-135-1",
+    "q-n1-g-135-2",
+    "q-n1-g-135-3",
+    "q-n1-g-135-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-135-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

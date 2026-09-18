@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-53",
+  "slug": "naradewa",
+  "level": "n1",
+  "order": 53,
+  "title": "〜ならでは(の)",
+  "romaji": "naradeha",
+  "meaning": "unique to …; only possible with …; characteristic of …",
+  "simpleExplanation": "Nならでは(の) praises something as characteristic of N and impossible elsewhere: 老舗ならではの味 \"a flavour only a long-established shop can offer\". It is almost always positive and appears in advertising, travel writing and compliments.",
+  "whenUsed": "Both registers; very common in marketing copy, reviews and compliments. ならではだ can end a sentence: 彼女ならではだ.",
+  "formation": [
+    "Noun + ならではの + Noun",
+    "Noun + ならではだ (sentence end)",
+    "Noun + ならでは + の + こと / もの"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この味は",
+        "role": "topic"
+      },
+      {
+        "text": "老舗",
+        "role": "the unique source",
+        "highlight": true
+      },
+      {
+        "text": "ならではの",
+        "role": "\"only possible with\"",
+        "highlight": true
+      },
+      {
+        "text": "ものだ",
+        "role": "noun + copula"
+      }
+    ],
+    "translation": "This flavour is something only a long-established shop can offer."
+  },
+  "examples": [
+    {
+      "ja": "この味は、老舗ならではのものだ。",
+      "reading": "このあじは、しにせならではのものだ。",
+      "en": "This flavor is something only a long-established shop can offer.",
+      "note": "ならではの + もの: praise of a shop."
+    },
+    {
+      "ja": "地元ならではの祭りを楽しんだ。",
+      "reading": "じもとならではのまつりをたのしんだ。",
+      "en": "We enjoyed a festival unique to the area.",
+      "note": "ならではの + 祭り: characteristic of a place."
+    },
+    {
+      "ja": "こんな細かい気配りができるのは、彼女ならではだ。",
+      "reading": "こんなこまかいきくばりができるのは、かのじょならではだ。",
+      "en": "Such attentive consideration is something only she can manage.",
+      "note": "Sentence-final ならではだ: only she could do it."
+    },
+    {
+      "ja": "この景色は、冬の北海道ならではのものだ。",
+      "reading": "このけしきは、ふゆのほっかいどうならではのものだ。",
+      "en": "This scenery is something you can only see in Hokkaido in winter.",
+      "note": "Place + season."
+    },
+    {
+      "ja": "子供ならではの自由な発想に驚かされた。",
+      "reading": "こどもならではのじゆうなはっそうにおどろかされた。",
+      "en": "I was amazed by the free thinking that only children have.",
+      "note": "Positive characteristic of a group."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜きっての",
+      "difference": "\"The best in a group\" (社内きっての秀才): a superlative within a group, not a unique quality.",
+      "id": "n1-grammar-133"
+    },
+    {
+      "pattern": "〜をおいて(ほかに)",
+      "difference": "\"No one but N\": 彼をおいてほかにいない. Exclusive choice rather than characteristic quality.",
+      "id": "n1-grammar-90"
+    },
+    {
+      "pattern": "〜だけあって",
+      "difference": "\"As expected of N\": praises a quality that matches N's reputation.",
+      "id": "n2-grammar-60"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この店ならではまずい。",
+      "right": "この店ならではの味だ。",
+      "why": "ならでは is used for positive characteristics."
+    },
+    {
+      "wrong": "東京ならではで人が多い。",
+      "right": "東京ならではの賑わいだ。",
+      "why": "Before a noun use ならではの; do not add で."
+    },
+    {
+      "wrong": "彼ならではのできない。",
+      "right": "彼ならではの技だ / 彼ならではだ。",
+      "why": "ならでは is not followed by a negative verb; the negative sense is already inside it."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 老舗, 地元, 京都, 本場, 手作り, プロ, 子供, 彼女.",
+    "Marketing: 当店ならではのサービス.",
+    "The praised quality follows の: 味, 魅力, 景色, 発想."
+  ],
+  "jlptTips": [
+    "Praise of a special quality + の + noun → ならではの.",
+    "Sentence-final praise (〜のは彼女ならではだ) is also common.",
+    "Distractors include だけあって (needs a reason-result link) and をおいて (needs ほかにいない / ない)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-53-1",
+    "q-n1-g-53-2",
+    "q-n1-g-53-3",
+    "q-n1-g-53-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-53-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

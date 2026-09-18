@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-28",
+  "slug": "de-are",
+  "level": "n1",
+  "order": 28,
+  "title": "〜であれ / 〜であろうと",
+  "romaji": "deare-dearouto",
+  "meaning": "no matter what / who …; even if …",
+  "simpleExplanation": "Nであれ / Nであろうと means \"whatever N may be, the following holds\": 相手が誰であれ \"whoever the opponent is\". であれ is the classical imperative of である; the pattern is the formal noun-based equivalent of でも / であっても. It often appears with question words or たとえ.",
+  "whenUsed": "書き言葉 and formal speech: rules, principles, firm statements. In conversation people say 誰でも / 冗談でも.",
+  "formation": [
+    "Question word + であれ / であろうと (誰であれ, 何であれ, どんな N であれ)",
+    "たとえ + Noun + であれ / であろうと",
+    "Noun + であれ (as a concession)",
+    "Na-adjective + であれ (どんなに不便であれ)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Formal concession with nouns",
+    "columns": [
+      "form",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜でも",
+        "cells": [
+          "N + でも",
+          "everyday",
+          "冗談でも言ってはいけない"
+        ]
+      },
+      {
+        "label": "〜であっても",
+        "cells": [
+          "N + であっても",
+          "formal",
+          "冗談であっても言ってはいけない"
+        ]
+      },
+      {
+        "label": "〜であれ / であろうと",
+        "cells": [
+          "N + であれ",
+          "formal, literary",
+          "冗談であれ言ってはいけない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "相手が誰であれ、ルールは守ってもらう。",
+      "reading": "あいてがだれであれ、ルールはまもってもらう。",
+      "en": "Whoever the other party is, I will have them follow the rules.",
+      "note": "Question word 誰 + であれ."
+    },
+    {
+      "ja": "たとえ冗談であろうと、そんなことを言ってはいけない。",
+      "reading": "たとえじょうだんであろうと、そんなことをいってはいけない。",
+      "en": "Even if it is a joke, you must not say such a thing.",
+      "note": "たとえ + noun + であろうと."
+    },
+    {
+      "ja": "どんな理由であれ、暴力は許されない。",
+      "reading": "どんなりゆうであれ、ぼうりょくはゆるされない。",
+      "en": "Whatever the reason, violence is not permitted.",
+      "note": "どんな + noun + であれ: whatever the reason."
+    },
+    {
+      "ja": "結果がどうであれ、君の努力は認める。",
+      "reading": "けっかがどうであれ、きみのどりょくはみとめる。",
+      "en": "Whatever the result, I recognise your effort.",
+      "note": "どうであれ is a very common phrase."
+    },
+    {
+      "ja": "いかなる困難であろうと、我々は乗り越えていく。",
+      "reading": "いかなるこんなんであろうと、われわれはのりこえていく。",
+      "en": "Whatever difficulties there may be, we will overcome them.",
+      "note": "いかなる + N + であろうと: speech register."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜であれ〜であれ",
+      "difference": "Two listed alternatives: 大人であれ子供であれ.",
+      "id": "n1-grammar-29"
+    },
+    {
+      "pattern": "〜う（よう）が / と",
+      "difference": "Verb version of the same concession: 何を言おうが.",
+      "id": "n1-grammar-4"
+    },
+    {
+      "pattern": "〜にしろ / にせよ",
+      "difference": "Also formal concession with nouns and verbs; slightly less literary and usable with verbs directly.",
+      "id": "n2-grammar-117"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "相手が誰であれば、ルールは守る。",
+      "right": "相手が誰であれ、ルールは守る。",
+      "why": "であれ (imperative) is the fixed form; であれば is a conditional and changes the meaning."
+    },
+    {
+      "wrong": "雨が降るであれ、行く。",
+      "right": "雨が降ろうと、行く。",
+      "why": "であれ attaches to nouns; verbs use the volitional + と / が."
+    },
+    {
+      "wrong": "誰であれが来た。",
+      "right": "誰であれ、来た人は歓迎する。",
+      "why": "であれ is a concessive connector, not a subject marker."
+    }
+  ],
+  "usageNotes": [
+    "Frequent phrases: 誰であれ, 何であれ, どうであれ, どんな理由であれ, たとえ〜であれ.",
+    "であろうと is slightly softer and more spoken than であれ.",
+    "The second clause is a firm rule or decision."
+  ],
+  "jlptTips": [
+    "A question word + であれ followed by a rule is the signature; conditional であれば is the trap.",
+    "For verbs, the exam wants 〜ようと / ようが, not であれ.",
+    "When two nouns are contrasted (大人であれ子供であれ), the paired form is needed."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-28-1",
+    "q-n1-g-28-2",
+    "q-n1-g-28-3",
+    "q-n1-g-28-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-28-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-164",
+  "slug": "to-itte-mo-kagon-dewa-nai",
+  "level": "n1",
+  "order": 164,
+  "title": "〜と言っても過言ではない",
+  "romaji": "to itte mo kagon dewa nai",
+  "meaning": "it is no exaggeration to say …; one could fairly say …",
+  "simpleExplanation": "〜と言っても過言ではない makes a big claim and defends it: \"Even if I say X, it is not an overstatement\". 過言 (かごん) means \"exaggeration\". Speakers use it in praise, evaluation, and argument when the claim sounds strong but they believe it is justified.",
+  "whenUsed": "Formal written and spoken Japanese: speeches, essays, reviews, presentations, award ceremonies. Polite: と言っても過言ではありません. Do not use for trivial claims; the sentence before it should be genuinely strong (代表する・変えた・最高の).",
+  "formation": [
+    "普通形 + と言っても過言ではない",
+    "N + だ + と言っても過言ではない",
+    "Polite: 〜と言っても過言ではありません / ないでしょう",
+    "Variant: 〜と言っても言い過ぎではない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼は日本を代表する作家だ",
+        "role": "a strong claim"
+      },
+      {
+        "text": "と言っても",
+        "role": "\"even if one says so\""
+      },
+      {
+        "text": "過言ではない",
+        "role": "\"it is not an exaggeration\"",
+        "highlight": true
+      }
+    ],
+    "translation": "It is no exaggeration to say he is one of the writers who represent Japan."
+  },
+  "examples": [
+    {
+      "ja": "彼は日本を代表する作家だと言っても過言ではない。",
+      "reading": "かれはにほんをだいひょうするさっかだといってもかごんではない。",
+      "en": "It is no exaggeration to say he is one of the writers who represent Japan.",
+      "note": "A strong evaluation of a writer; the phrase defends it."
+    },
+    {
+      "ja": "この発明が現代社会を変えたと言っても過言ではない。",
+      "reading": "このはつめいがげんだいしゃかいをかえたといってもかごんではない。",
+      "en": "It would not be an overstatement to say this invention changed modern society.",
+      "note": "A historical claim (changed society) supported by the pattern."
+    },
+    {
+      "ja": "彼女の努力なしには、成功はなかったと言っても過言ではありません。",
+      "reading": "かのじょのどりょくなしには、せいこうはなかったといってもかごんではありません。",
+      "en": "It is no exaggeration to say that without her efforts there would have been no success.",
+      "note": "Polite ありません in a speech; the claim is about someone's contribution."
+    },
+    {
+      "ja": "スマートフォンは、現代人の生活に欠かせないと言っても過言ではないだろう。",
+      "reading": "スマートフォンは、げんだいじんのせいかつにかかせないといってもかごんではないだろう。",
+      "en": "It would be no exaggeration to say that smartphones are indispensable to modern life.",
+      "note": "だろう softens the essay tone."
+    },
+    {
+      "ja": "この一年の成果は、チーム全員の努力の結晶だと言っても過言ではありません。",
+      "reading": "このいちねんのせいかは、チームぜんいんのどりょくのけっしょうだといってもかごんではありません。",
+      "en": "It is no exaggeration to say that this year's results are the fruit of the whole team's effort.",
+      "note": "Speech at a company event."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-31",
+      "pattern": "〜でなくてなんだろう",
+      "difference": "Emphatic rhetorical question (\"what is this if not X\"). 過言ではない defends a claim more calmly."
+    },
+    {
+      "id": "n2-grammar-130",
+      "pattern": "〜にほかならない",
+      "difference": "\"Is nothing other than X\": identifies the true nature or cause. 過言ではない justifies a strong evaluation."
+    },
+    {
+      "id": "n2-grammar-86",
+      "pattern": "〜といっても",
+      "difference": "\"Although I say X, (it's not that much)\": reduces the claim. 過言ではない does the opposite and upholds it."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今日は少し寒いと言っても過言ではない。",
+      "right": "今日は少し寒い。",
+      "why": "The claim must be strong enough to sound like an exaggeration. A mild statement makes the pattern absurd."
+    },
+    {
+      "wrong": "彼は天才と言っても過言ではない。(careful writing)",
+      "right": "彼は天才だと言っても過言ではない。",
+      "why": "Nouns take だ before と言っても in careful writing."
+    },
+    {
+      "wrong": "と言っても過言だ。",
+      "right": "と言っても過言ではない。",
+      "why": "The pattern is fixed in the negative. と言っては過言だ exists but is rare; learn the negative form."
+    }
+  ],
+  "usageNotes": [
+    "Common claims: 〜を代表する・〜を変えた・最も〜・〜なしには〜なかった.",
+    "Add だろう / でしょう to soften in essays and presentations.",
+    "It is a favourite in award speeches and product presentations; overuse makes writing sound inflated."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a strong evaluative claim + と言っても + a blank is 過言ではない. Check that the claim is superlative in tone.",
+    "Distractor といっても (reducing the claim): the second half after といっても would minimize, not uphold.",
+    "In 並べ替え, と言っても and 過言ではない are usually two chunks; the claim ends in だ or a plain verb before と言っても."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-164-1",
+    "q-n1-g-164-2",
+    "q-n1-g-164-3",
+    "q-n1-g-164-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-164-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

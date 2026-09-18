@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-133",
+  "slug": "kitte-no",
+  "level": "n1",
+  "order": 133,
+  "title": "〜きっての",
+  "romaji": "kitte no",
+  "meaning": "the most … in (a group); the number-one … of …",
+  "simpleExplanation": "〜きっての picks out the top person or thing inside a group: 社内きっての切れ者 = \"the sharpest person in the whole company\". The noun before きっての is the group or place (会社・町・日本・業界); the noun after it is what the person or thing is famous for. It is almost always praise.",
+  "whenUsed": "Slightly formal; used in both speech and writing, especially introductions, profiles, and journalism. Common groups: 社内・学内・町・村・日本・世界・業界・当代. Common following nouns: 切れ者・美人・名門・老舗・実力者・秀才.",
+  "formation": [
+    "N (group / place) + きっての + N (person / thing)",
+    "Typical: 社内きっての〜, 日本きっての〜, 業界きっての〜, 当代きっての〜"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "社内",
+        "role": "the group"
+      },
+      {
+        "text": "きっての",
+        "role": "\"the number-one … in\"",
+        "highlight": true
+      },
+      {
+        "text": "切れ者",
+        "role": "what he is top at"
+      }
+    ],
+    "translation": "He is the sharpest mind in the company."
+  },
+  "examples": [
+    {
+      "ja": "彼は社内きっての切れ者だ。",
+      "reading": "かれはしゃないきってのきれものだ。",
+      "en": "He is the sharpest mind in the company.",
+      "note": "社内 (within the company) is the group; 切れ者 is the quality he tops."
+    },
+    {
+      "ja": "あの店は町きっての老舗として知られている。",
+      "reading": "あのみせはまちきってのしにせとしてしられている。",
+      "en": "That shop is known as the most established store in town.",
+      "note": "町きっての老舗: the most established shop in the whole town."
+    },
+    {
+      "ja": "彼女は日本きっての実力派女優だ。",
+      "reading": "かのじょはにほんきってのじつりょくはじょゆうだ。",
+      "en": "She is one of the most accomplished actresses in Japan.",
+      "note": "日本きっての + a profession describes a nationally top figure."
+    },
+    {
+      "ja": "彼女は学内きっての秀才として、教授たちにも一目置かれている。",
+      "reading": "かのじょはがくないきってのしゅうさいとして、きょうじゅたちにもいちもくおかれている。",
+      "en": "As the brightest student in the university, she is respected even by the professors.",
+      "note": "きっての N + として is a common frame in profiles."
+    },
+    {
+      "ja": "この温泉は、この地方きっての名湯だそうだ。",
+      "reading": "このおんせんは、このちほうきってのめいとうだそうだ。",
+      "en": "I hear this hot spring is the finest in the region.",
+      "note": "Works with places and things, not only people."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-53",
+      "pattern": "〜ならでは(の)",
+      "difference": "\"Something only X can offer\" (unique quality). きっての ranks something as the top within a group, not as unique."
+    },
+    {
+      "id": "n2-grammar-104",
+      "pattern": "〜にかけては",
+      "difference": "\"When it comes to (a skill), nobody beats them\". にかけては names the skill; きっての names the group."
+    },
+    {
+      "id": "n1-grammar-90",
+      "pattern": "〜をおいて(ほかに)",
+      "difference": "\"No one other than X\" with a negative. きっての is a positive superlative label attached to a noun."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は社内きっての怠け者だ。",
+      "right": "彼は社内で一番の怠け者だ。",
+      "why": "きっての is used for admirable qualities. For negative superlatives use 一番 or 随一の in an ironic tone."
+    },
+    {
+      "wrong": "彼は切れ者きっての社内だ。",
+      "right": "彼は社内きっての切れ者だ。",
+      "why": "Order matters: group + きっての + the quality noun."
+    },
+    {
+      "wrong": "彼は日本きって切れ者だ。",
+      "right": "彼は日本きっての切れ者だ。",
+      "why": "の is required; きっての functions like an adjective connecting to the following noun."
+    }
+  ],
+  "usageNotes": [
+    "It comes from 切る (\"to cut out from\"): the person is \"cut out\" as the best of the group.",
+    "The set feels journalistic: 当代きっての名優, 業界きっての論客.",
+    "It usually modifies a noun directly; sentence-final use (〜は町きってだ) is not possible."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a group noun (社内・町・日本) followed by a positive noun of ability or fame signals きっての.",
+    "Check the order: if the option would put the quality noun before きっての, it is wrong.",
+    "Distractors are ならでは and にかけては; きっての is the only one that must be followed directly by a noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-133-1",
+    "q-n1-g-133-2",
+    "q-n1-g-133-3",
+    "q-n1-g-133-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-133-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

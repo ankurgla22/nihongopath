@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-12",
+  "slug": "kirai-ga-aru",
+  "level": "n1",
+  "order": 12,
+  "title": "〜きらいがある",
+  "romaji": "kiraigaaru",
+  "meaning": "has a tendency to … (undesirable)",
+  "simpleExplanation": "Xきらいがある says that a person, group or thing has a built-in tendency toward X, and that the speaker regards this tendency as a fault: 大げさに言うきらいがある \"tends to exaggerate\". It is an objective-sounding, slightly critical observation, not a description of a one-off event.",
+  "whenUsed": "Essays, commentary, evaluations, and formal speech. It is used about others or about general groups (最近の若者, この計画), never about the speaker's own deliberate choices.",
+  "formation": [
+    "Vる / Vない + きらいがある",
+    "Noun + の + きらいがある",
+    "Often preceded by どうも / やや / いささか"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three ways to say \"tends to\"",
+    "columns": [
+      "nuance",
+      "subject",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜きらいがある",
+        "cells": [
+          "undesirable inherent tendency, critical",
+          "people, groups, plans",
+          "独断で決めるきらいがある"
+        ]
+      },
+      {
+        "label": "〜がちだ",
+        "cells": [
+          "often ends up doing (usually negative)",
+          "anyone, incl. self",
+          "遅刻しがちだ"
+        ]
+      },
+      {
+        "label": "〜やすい",
+        "cells": [
+          "easily happens, neutral",
+          "anything",
+          "壊れやすい"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は物事を大げさに言うきらいがある。",
+      "reading": "かれはものごとをおおげさにいうきらいがある。",
+      "en": "He has a tendency to exaggerate things.",
+      "note": "A personal trait viewed as a fault: exaggerating."
+    },
+    {
+      "ja": "最近の若者は、活字を読まないきらいがある。",
+      "reading": "さいきんのわかものは、かつじをよまないきらいがある。",
+      "en": "Young people these days tend not to read printed text.",
+      "note": "A general group tendency; Vない + きらいがある."
+    },
+    {
+      "ja": "この計画は理想論のきらいがある。",
+      "reading": "このけいかくはりそうろんのきらいがある。",
+      "en": "This plan tends toward idealism.",
+      "note": "Noun + の: the plan leans toward idealism."
+    },
+    {
+      "ja": "彼は物事を悲観的に考えるきらいがある。",
+      "reading": "かれはものごとをひかんてきにかんがえるきらいがある。",
+      "en": "He tends to look at things pessimistically.",
+      "note": "A calm, evaluative comment on a personality trait."
+    },
+    {
+      "ja": "このニュース番組は、事実よりも話題性を優先するきらいがある。",
+      "reading": "このニュースばんぐみは、じじつよりもわだいせいをゆうせんするきらいがある。",
+      "en": "This news programme tends to prioritise sensationalism over facts.",
+      "note": "Media criticism is a typical context."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がちだ",
+      "difference": "Everyday \"tends to / often\", usable about oneself (忘れがちだ). きらいがある is a critical observation of an inherent leaning.",
+      "id": "n2-grammar-21"
+    },
+    {
+      "pattern": "〜つつある",
+      "difference": "\"Is in the process of changing\": a trend in progress, not a fixed tendency.",
+      "id": "n2-grammar-74"
+    },
+    {
+      "pattern": "〜気味",
+      "difference": "A slight current state (風邪気味), not a habitual tendency.",
+      "id": "n2-grammar-35"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は朝寝坊するきらいがある。",
+      "right": "私は朝寝坊しがちだ。",
+      "why": "きらいがある is not used for the speaker's own habits; use がちだ."
+    },
+    {
+      "wrong": "この製品は壊れるきらいがある。",
+      "right": "この製品は壊れやすい。",
+      "why": "For physical fragility use やすい; きらいがある is about attitudes and leanings."
+    },
+    {
+      "wrong": "彼は親切なきらいがある。",
+      "right": "彼は親切すぎるきらいがある。",
+      "why": "The tendency must be undesirable; add すぎる or choose a negative trait."
+    }
+  ],
+  "usageNotes": [
+    "Typical adverbs: どうも, やや, いささか, とかく.",
+    "Common subjects: 最近の若者, 日本人, この計画, マスコミ, 彼.",
+    "きらい here is written 嫌い but is unrelated to \"dislike\"; it is a noun meaning \"tendency\"."
+  ],
+  "jlptTips": [
+    "A critical statement about a group or a person's habit in essay tone points to きらいがある; がちだ is the everyday distractor.",
+    "Check the subject: if it is 私, きらいがある is wrong.",
+    "Distractors include 恐れがある (risk of something happening) and 傾向にある; きらいがある is the only one that judges the leaning as a fault."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-12-1",
+    "q-n1-g-12-2",
+    "q-n1-g-12-3",
+    "q-n1-g-12-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-12-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

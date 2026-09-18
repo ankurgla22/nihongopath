@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-60",
+  "slug": "ni-itaru",
+  "level": "n1",
+  "order": 60,
+  "title": "〜に至る / 〜に至って(は) / 〜に至っても",
+  "romaji": "niru-nitte-nittemo",
+  "meaning": "reach the point of …; when it comes to (an extreme case) …; even at the point of …",
+  "simpleExplanation": "至る means \"to arrive at\". Nに至る / Vるに至る describes reaching a final stage after a process: 開発に至った \"finally reached the point of developing\". に至って(は) picks out the most extreme case in a list (\"as for X, it goes so far as…\"), and に至っても means \"even having reached this point\".",
+  "whenUsed": "書き言葉: reports, history, arguments. In speech people say 〜ようになった / 〜までになった.",
+  "formation": [
+    "Noun / Vる + に至る / に至った (reach the stage of)",
+    "Noun + に至っては (the most extreme example)",
+    "Noun / Vる + に至っても (even at that point)",
+    "Related: 〜に至るまで (all the way down to)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "〜に至る",
+    "rootLabel": "arrive at a stage",
+    "branches": [
+      {
+        "suffix": "に至る / に至った",
+        "result": "開発に至った",
+        "label": "finally reached the point of developing"
+      },
+      {
+        "suffix": "に至って(は)",
+        "result": "弟に至っては",
+        "label": "as for the most extreme case (my brother)…"
+      },
+      {
+        "suffix": "に至っても",
+        "result": "ここに至っても",
+        "label": "even at this point"
+      },
+      {
+        "suffix": "に至るまで",
+        "result": "細部に至るまで",
+        "label": "all the way down to the details"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "長年の研究の末、彼はついに新薬の開発に至った。",
+      "reading": "ながねんのけんきゅうのすえ、かれはついにしんやくのかいはつにいたった。",
+      "en": "After years of research, he finally reached the point of developing a new drug.",
+      "note": "A long process reaching its final stage."
+    },
+    {
+      "ja": "事故が起きるに至って、ようやく安全対策が見直された。",
+      "reading": "じこがおきるにいたって、ようやくあんぜんたいさくがみなおされた。",
+      "en": "Only when an accident occurred were safety measures finally reviewed.",
+      "note": "Vるに至って: only when it reached that point did change happen."
+    },
+    {
+      "ja": "ここに至っても、彼はまだ自分の非を認めようとしない。",
+      "reading": "ここにいたっても、かれはまだじぶんのひをみとめようとしない。",
+      "en": "Even having come this far, he still refuses to admit his fault.",
+      "note": "ここに至っても: even at this point, no admission."
+    },
+    {
+      "ja": "両者の話し合いは、ついに合意に至った。",
+      "reading": "りょうしゃのはなしあいは、ついにごういにいたった。",
+      "en": "The talks between the two sides finally reached an agreement.",
+      "note": "ついに + に至った."
+    },
+    {
+      "ja": "兄は勉強嫌いで、弟に至っては学校にすら行かない。",
+      "reading": "あにはべんきょうぎらいで、おとうとにいたってはがっこうにすらいかない。",
+      "en": "My older brother hates studying, and as for my younger brother, he does not even go to school.",
+      "note": "に至っては: the worst case in a list."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に至るまで",
+      "difference": "\"All the way down to\": 髪型に至るまで. Emphasises range, not process.",
+      "id": "n1-grammar-61"
+    },
+    {
+      "pattern": "〜末(に)",
+      "difference": "\"After (a long process)\": 話し合いの末. Focuses on the process before, not the point reached.",
+      "id": "n2-grammar-57"
+    },
+    {
+      "pattern": "〜に際して",
+      "difference": "\"On the occasion of\": marks an occasion, not a stage reached after a process.",
+      "id": "n2-grammar-111"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は駅に至った。",
+      "right": "彼は駅に着いた。",
+      "why": "に至る is for stages and outcomes of a process, not ordinary arrival at a place."
+    },
+    {
+      "wrong": "弟に至って、学校に行かない。",
+      "right": "弟に至っては、学校にすら行かない。",
+      "why": "For the extreme-example use, は is needed and the clause usually contains すら / さえ / まで."
+    },
+    {
+      "wrong": "ここに至っては、彼は認めようとしない。",
+      "right": "ここに至っても、彼は認めようとしない。",
+      "why": "\"Even at this point\" is に至っても; に至っては introduces a worst example."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 結論, 合意, 決断, 開発, 完成, 破綻, 死.",
+    "に至っては often follows a listing of bad examples and contains すら / さえ.",
+    "ここに至って(も) is a fixed phrase for \"at this stage\"."
+  ],
+  "jlptTips": [
+    "A process + ついに + blank → に至った; a list of cases with the worst last + すら → に至っては; \"even now\" with no change → に至っても.",
+    "Distractors include に至るまで (range) and に際して (on the occasion of).",
+    "Check for は or も after 至って: they change the meaning."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-60-1",
+    "q-n1-g-60-2",
+    "q-n1-g-60-3",
+    "q-n1-g-60-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-60-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

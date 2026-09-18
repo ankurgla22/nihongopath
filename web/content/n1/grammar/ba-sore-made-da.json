@@ -1,0 +1,124 @@
+{
+  "id": "n1-grammar-76",
+  "slug": "ba-sore-made-da",
+  "level": "n1",
+  "order": 76,
+  "title": "〜ばそれまでだ / 〜たらそれまでだ",
+  "romaji": "ba sore made da / tara sore made da",
+  "meaning": "if …, that is the end of it; once …, it is all over",
+  "simpleExplanation": "〜ばそれまでだ means \"if X happens, everything is finished and nothing more can be done\". それまで = \"up to there\". It shows that all the effort or value before X becomes meaningless: 死んでしまえばそれまでだ (once you die, that's it). A common variation is 〜と言ってしまえばそれまでだ (\"if you put it that way, there's nothing more to say\").",
+  "whenUsed": "Both speech and writing. Typical topics: money and possessions, passwords and data, preparation and health, arguments. It often follows a concessive clause like どんなに〜ても or いくら〜ても.",
+  "formation": [
+    "Vば + それまでだ",
+    "Vたら + それまでだ",
+    "Set phrase: 〜と言ってしまえばそれまでだ(が)",
+    "Often: いくら/どんなに〜ても、〜ばそれまでだ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "どんなに財産があっても",
+        "role": "however much (concession)"
+      },
+      {
+        "text": "死んでしまえば",
+        "role": "if X happens",
+        "highlight": true
+      },
+      {
+        "text": "それまでだ",
+        "role": "that is the end of it",
+        "highlight": true
+      }
+    ],
+    "translation": "However much wealth you have, once you die, that is the end of it."
+  },
+  "examples": [
+    {
+      "ja": "どんなに財産があっても、死んでしまえばそれまでだ。",
+      "reading": "どんなにざいさんがあっても、しんでしまえばそれまでだ。",
+      "en": "However much wealth you have, once you die, that is the end of it.",
+      "note": "The classic proverb-like use: wealth means nothing after death."
+    },
+    {
+      "ja": "パスワードを忘れたらそれまでだから、必ずメモしておこう。",
+      "reading": "パスワードをわすれたらそれまでだから、かならずメモしておこう。",
+      "en": "If you forget the password, that is it, so be sure to write it down.",
+      "note": "たらそれまでだ with a practical warning about passwords."
+    },
+    {
+      "ja": "いくら準備しても、当日に体調を崩せばそれまでだ。",
+      "reading": "いくらじゅんびしても、とうじつにたいちょうをくずせばそれまでだ。",
+      "en": "However much you prepare, if you fall ill on the day, it is all over.",
+      "note": "Preparation is wasted if you fall ill on the day: a lament about fragility."
+    },
+    {
+      "ja": "運が悪かったと言ってしまえばそれまでだが、対策は必要だ。",
+      "reading": "うんがわるかったといってしまえばそれまでだが、たいさくはひつようだ。",
+      "en": "If you put it down to bad luck there is nothing more to say, but we still need countermeasures.",
+      "note": "〜と言ってしまえばそれまでだが is a set rhetorical move."
+    },
+    {
+      "ja": "どんなに高価な時計でも、落として壊せばそれまでだ。",
+      "reading": "どんなにこうかなとけいでも、おとしてこわせばそれまでだ。",
+      "en": "However expensive the watch, drop it and break it and that is the end of it.",
+      "note": "どんなに〜でも + ばそれまでだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たら最後 / 〜たが最後",
+      "difference": "\"Once X happens, an unstoppable bad process follows\". ばそれまでだ says things simply end; たら最後 says things go from bad to worse.",
+      "id": "n1-grammar-106"
+    },
+    {
+      "pattern": "〜ばこそ",
+      "difference": "Same ば but a completely different meaning: \"precisely because\".",
+      "id": "n1-grammar-75"
+    },
+    {
+      "pattern": "〜までだ / 〜までのことだ",
+      "difference": "\"I will simply …\": a calm alternative. それまでだ is about an ending, not an alternative.",
+      "id": "n1-grammar-82"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "パスワードを忘れればそれまでだから、書いておこう。",
+      "right": "パスワードを忘れたらそれまでだから、書いておこう。",
+      "why": "Both ば and たら are grammatical, but with a momentary event like 忘れる, たら sounds more natural in speech."
+    },
+    {
+      "wrong": "勉強すればそれまでだ。",
+      "right": "勉強しなければそれまでだ。",
+      "why": "The condition must be the undesirable event that ends everything; 勉強する is not such an event."
+    },
+    {
+      "wrong": "彼が来ればそれまでだ。（意味：彼が来れば十分だ）",
+      "right": "彼が来れば十分だ。",
+      "why": "それまでだ does not mean \"that is enough\"; it means \"it is all over\"."
+    }
+  ],
+  "usageNotes": [
+    "The clause before it is the fatal event: dying, forgetting, breaking, losing.",
+    "〜と言ってしまえばそれまでだ is used to admit that a blunt summary is true before adding a \"but\".",
+    "The tone is resigned or cautionary, which is why it pairs naturally with advice (〜ておこう)."
+  ],
+  "jlptTips": [
+    "Look for いくら / どんなに〜ても before the blank and a fatal event in the ば clause.",
+    "Distractors: たら最後, ばこそ, までだ. たら最後 needs an ongoing bad consequence in the second clause; ばそれまでだ ends the sentence.",
+    "In 文法形式の判断 the blank is usually the whole それまでだ; do not confuse with それきりだ."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-76-1",
+    "q-n1-g-76-2",
+    "q-n1-g-76-3",
+    "q-n1-g-76-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-76-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

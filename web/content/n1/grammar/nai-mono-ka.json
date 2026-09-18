@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-159",
+  "slug": "nai-mono-ka",
+  "level": "n1",
+  "order": 159,
+  "title": "〜ないものか / 〜ないものだろうか",
+  "romaji": "nai mono ka / nai mono darou ka",
+  "meaning": "isn't there some way to …?; I do wish … could …",
+  "simpleExplanation": "〜ないものか / 〜ないものだろうか expresses a strong wish for something that seems hard: 何とかして彼を助けられないものか = \"Isn't there some way to help him?\" It looks like a question, but the speaker is really voicing a hope. 何とか (somehow) and もう少し (a bit more) often appear.",
+  "whenUsed": "Both spoken and written; common in inner thoughts, essays, and requests for improvement. Usually with the potential form (できないものか・ならないものか). 〜ないものだろうか is softer and more reflective; 〜ないものかと思う reports the wish.",
+  "formation": [
+    "Vない / V可能形ない + ものか",
+    "Vない / V可能形ない + ものだろうか (softer)",
+    "〜ないものかと思う / 考える (reporting the wish)",
+    "Often with 何とか / もう少し / どうにか"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "彼を助けたい",
+        "en": "the wish"
+      },
+      {
+        "ja": "でも難しい",
+        "en": "…but it seems hard"
+      },
+      {
+        "ja": "何とかして助けられないものか",
+        "en": "\"isn't there some way?\": a wish in question form"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "何とかして彼を助けられないものか。",
+      "reading": "なんとかしてかれをたすけられないものか。",
+      "en": "Is there no way to help him somehow?",
+      "note": "何とかして + potential negative + ものか: the classic form."
+    },
+    {
+      "ja": "この渋滞をもう少し何とかできないものだろうか。",
+      "reading": "このじゅうたいをもうすこしなんとかできないものだろうか。",
+      "en": "Is there really nothing that can be done about this congestion?",
+      "note": "ものだろうか is more reflective, thinking aloud."
+    },
+    {
+      "ja": "もっと安く海外旅行ができないものかと、いつも思っている。",
+      "reading": "もっとやすくかいがいりょこうができないものかと、いつもおもっている。",
+      "en": "I am always wondering whether there is no way to travel abroad more cheaply.",
+      "note": "〜ないものかと思っている: reporting a standing wish."
+    },
+    {
+      "ja": "この重い教科書、もう少し軽くならないものか。",
+      "reading": "このおもいきょうかしょ、もうすこしかるくならないものか。",
+      "en": "I do wish these heavy textbooks could be made a little lighter.",
+      "note": "ならない + ものか with もう少し."
+    },
+    {
+      "ja": "会議の時間を短縮できないものだろうかと、みんなで話し合った。",
+      "reading": "かいぎのじかんをたんしゅくできないものだろうかと、みんなではなしあった。",
+      "en": "We discussed together whether there might be some way to shorten the meetings.",
+      "note": "ものだろうかと + verb of discussion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-154",
+      "pattern": "〜ものか / 〜もんか",
+      "difference": "Affirmative + ものか is a strong refusal (行くものか = no way I'll go). Negative + ものか is a wish; the negative changes everything."
+    },
+    {
+      "id": "n1-grammar-33",
+      "pattern": "〜てやまない",
+      "difference": "Formal \"sincerely wish / hope\" (願ってやまない), a statement, not a question-shaped wish."
+    },
+    {
+      "id": "n2-grammar-181",
+      "pattern": "〜ようではないか",
+      "difference": "A proposal to act together (\"let us …\"). ないものか only voices a wish and does not propose action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "何とかして助けるものか。",
+      "right": "何とかして助けられないものか。",
+      "why": "The wish needs the negative (usually potential negative). 助けるものか would mean \"as if I would help!\"."
+    },
+    {
+      "wrong": "助けられないものですか。(as a wish)",
+      "right": "助けられないものでしょうか。",
+      "why": "The polite wish form is ものでしょうか; ものですか sounds like a challenge."
+    },
+    {
+      "wrong": "明日晴れないものか。",
+      "right": "明日晴れてくれないものか。/ 何とか明日晴れないものかと思う。",
+      "why": "Without 何とか or a giving verb, the bare form sounds odd; add a wish marker."
+    }
+  ],
+  "usageNotes": [
+    "Set adverbs: 何とか(して)・どうにか・もう少し・せめて.",
+    "In proposals: 〜できないものでしょうか is a polite way to suggest an improvement.",
+    "Inner monologue in fiction uses ないものか frequently to show a character's longing."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, 何とか + potential negative + a blank expecting a wish is ものか / ものだろうか. Be sure the verb is negative.",
+    "Distractor: affirmative ものか (refusal). Check the sign of the verb.",
+    "In 並べ替え, ないものか closes the sentence; 何とかして usually opens it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-159-1",
+    "q-n1-g-159-2",
+    "q-n1-g-159-3",
+    "q-n1-g-159-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-159-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

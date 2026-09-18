@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-177",
+  "slug": "wa-dou-are",
+  "level": "n1",
+  "order": 177,
+  "title": "〜はどう(で)あれ",
+  "romaji": "wa dou (de) are",
+  "meaning": "whatever … may be; regardless of …",
+  "simpleExplanation": "N + はどうあれ / はどうであれ sets aside the unknown value of X and states a conclusion that holds anyway: 理由はどうあれ、暴力は許されない = \"Whatever the reason, violence is not allowed\". あれ is the classical imperative of ある used as a concession (\"let it be\"). X is usually 理由・結果・事情・真偽・形.",
+  "whenUsed": "Formal spoken and written Japanese: rules, judgments, speeches. Typical X nouns: 理由・結果・事情・真偽・動機・過程・形. Followed by a firm conclusion (許されない・守ってもらう・意味がある・変わらない).",
+  "formation": [
+    "N + はどうあれ、+ conclusion",
+    "N + はどうであれ、+ conclusion (slightly heavier)",
+    "Typical X: 理由・結果・事情・真偽・動機・過程・方法",
+    "Related: N + であれ (whatever X may be, for a specific value)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "理由",
+        "role": "X: the unknown or irrelevant factor"
+      },
+      {
+        "text": "はどうあれ",
+        "role": "\"whatever it may be\"",
+        "highlight": true
+      },
+      {
+        "text": "暴力は許されない",
+        "role": "conclusion that holds regardless"
+      }
+    ],
+    "translation": "Whatever the reason, violence is not permitted."
+  },
+  "examples": [
+    {
+      "ja": "理由はどうあれ、暴力は許されない。",
+      "reading": "りゆうはどうあれ、ぼうりょくはゆるされない。",
+      "en": "Whatever the reason, violence is not permitted.",
+      "note": "理由 is set aside; the rule stands."
+    },
+    {
+      "ja": "結果はどうであれ、全力を尽くしたことに意味がある。",
+      "reading": "けっかはどうであれ、ぜんりょくをつくしたことにいみがある。",
+      "en": "Whatever the result, there is meaning in having given our all.",
+      "note": "結果はどうであれ: the outcome does not change the value of the effort."
+    },
+    {
+      "ja": "事情はどうであれ、締め切りは守ってもらう。",
+      "reading": "じじょうはどうであれ、しめきりはまもってもらう。",
+      "en": "Whatever the circumstances, I will have you meet the deadline.",
+      "note": "事情はどうであれ: no excuse changes the deadline."
+    },
+    {
+      "ja": "動機はどうあれ、法を犯したことに変わりはない。",
+      "reading": "どうきはどうあれ、ほうをおかしたことにかわりはない。",
+      "en": "Whatever the motive, the fact remains that the law was broken.",
+      "note": "Legal judgment tone."
+    },
+    {
+      "ja": "形はどうであれ、あなたが謝る気持ちを伝えることが大切だ。",
+      "reading": "かたちはどうであれ、あなたがあやまるきもちをつたえることがたいせつだ。",
+      "en": "Whatever form it takes, what matters is that you convey your wish to apologize.",
+      "note": "Advice register."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-28",
+      "pattern": "〜であれ / 〜であろうと",
+      "difference": "Attaches to a specific value (社長であれ新人であれ). はどうあれ leaves the value open (\"whatever it is\")."
+    },
+    {
+      "id": "n1-grammar-3",
+      "pattern": "〜いかんによらず / 〜いかんにかかわらず",
+      "difference": "Formal written \"regardless of (the content of) X\". Nearly synonymous; いかん is more bureaucratic."
+    },
+    {
+      "id": "n2-grammar-173",
+      "pattern": "〜を問わず",
+      "difference": "\"Regardless of\" categories (年齢を問わず). はどうあれ is about the unknown state of one thing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "理由がどうあれ",
+      "right": "理由はどうあれ",
+      "why": "The topic particle は is fixed in this pattern."
+    },
+    {
+      "wrong": "理由はどうあれ、たぶん許されないだろう。",
+      "right": "理由はどうあれ、暴力は許されない。",
+      "why": "The conclusion should be firm; hedging with たぶん weakens the pattern."
+    },
+    {
+      "wrong": "天気はどうあれ、出かけよう。(careful writing)",
+      "right": "天気がどうであろうと、出かけよう。",
+      "why": "はどうあれ prefers abstract nouns (理由・結果・事情). For concrete conditions like weather, どうであろうと is more natural."
+    }
+  ],
+  "usageNotes": [
+    "どうあれ and どうであれ are interchangeable; どうであれ sounds slightly more formal.",
+    "The conclusion often contains 変わりはない / 許されない / 〜べきだ.",
+    "A related set phrase: 何はどうあれ (\"be that as it may\")."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an abstract noun (理由・結果・事情) + は + a blank + a firm rule is どうあれ / どうであれ.",
+    "Distractor であれ: it needs a concrete value before it (学生であれ), not どう.",
+    "In 並べ替え, はどうあれ follows X directly; the conclusion is a full clause."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-177-1",
+    "q-n1-g-177-2",
+    "q-n1-g-177-3",
+    "q-n1-g-177-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-177-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,119 @@
+{
+  "id": "n1-grammar-157",
+  "slug": "ga-nara-mo-da",
+  "level": "n1",
+  "order": 157,
+  "title": "〜が〜なら、〜も〜だ",
+  "romaji": "ga ... nara, ... mo ... da",
+  "meaning": "like X, like Y; X is bad, and Y is no better",
+  "simpleExplanation": "XがXなら、YもYだ repeats each noun to say that both related parties are at fault in the same way. 親が親なら、子も子だ = \"Like parent, like child (both are bad)\". The first half describes the one who sets the example; the second says the other is just as bad. It is always critical.",
+  "whenUsed": "Spoken Japanese, idiomatic and blunt. Used about pairs in a relationship: 親 / 子, 会社 / 社員, 先生 / 生徒, 国 / 国民, 監督 / 選手. Not for praise. Too harsh for formal or polite contexts.",
+  "formation": [
+    "N1 + が + N1 + なら、N2 + も + N2 + だ",
+    "Pairs: 親が親なら子も子だ / 会社が会社なら社員も社員だ / 先生が先生なら生徒も生徒だ",
+    "Both nouns are repeated exactly"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "親が親なら",
+        "role": "the parent is (bad) as a parent",
+        "highlight": true
+      },
+      {
+        "text": "子も子だ",
+        "role": "the child is just as (bad) as a child",
+        "highlight": true
+      }
+    ],
+    "translation": "Like parent, like child: both are as bad as each other."
+  },
+  "examples": [
+    {
+      "ja": "親が親なら、子も子だ。",
+      "reading": "おやがおやなら、こもこだ。",
+      "en": "Like parent, like child.",
+      "note": "The proverb-like original; both generations are criticized."
+    },
+    {
+      "ja": "会社が会社なら、社員も社員だ。",
+      "reading": "かいしゃがかいしゃなら、しゃいんもしゃいんだ。",
+      "en": "The company is bad, and the employees are just as bad.",
+      "note": "Company and employees: the organization sets a bad example and the staff follow."
+    },
+    {
+      "ja": "先生が先生なら、生徒も生徒だ。",
+      "reading": "せんせいがせんせいなら、せいともせいとだ。",
+      "en": "With a teacher like that, no wonder the students are like that too.",
+      "note": "Teacher and students: the same structure."
+    },
+    {
+      "ja": "監督が監督なら、選手も選手だ。誰も練習に来ない。",
+      "reading": "かんとくがかんとくなら、せんしゅもせんしゅだ。だれもれんしゅうにこない。",
+      "en": "The coach is useless and the players are no better. Nobody comes to practice.",
+      "note": "The explanation follows in the next sentence."
+    },
+    {
+      "ja": "店長が店長なら、店員も店員で、誰一人挨拶をしない。",
+      "reading": "てんちょうがてんちょうなら、てんいんもてんいんで、だれひとりあいさつをしない。",
+      "en": "The manager is bad and the staff are just as bad; not one of them greets customers.",
+      "note": "〜も〜で links to the evidence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-151",
+      "pattern": "〜も〜ば〜も / 〜も〜なら〜も",
+      "difference": "Lists two things of the same kind (雨も降れば風も吹く), neutral. が〜なら〜も〜だ repeats the same nouns and is always a criticism."
+    },
+    {
+      "id": "n1-grammar-41",
+      "pattern": "〜ときたら",
+      "difference": "Criticizes one party (弟ときたら). が〜なら〜も〜だ criticizes two related parties together."
+    },
+    {
+      "id": "n1-grammar-170",
+      "pattern": "〜といい〜といい",
+      "difference": "Two aspects supporting one judgment, often positive (色といいデザインといい). Not about mutual blame."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "親が親なら、子も子だ。二人とも素晴らしい。",
+      "right": "親が立派なら、子も立派だ。",
+      "why": "The pattern is always negative. For praise, use an adjective instead of repeating the noun."
+    },
+    {
+      "wrong": "親が親なら、子供も子だ。",
+      "right": "親が親なら、子も子だ。",
+      "why": "Each noun must be repeated exactly."
+    },
+    {
+      "wrong": "（上司に）部長が部長なら、課長も課長ですね。",
+      "right": "（使わない）",
+      "why": "The pattern is blunt criticism; it is not usable toward or about superiors in their presence."
+    }
+  ],
+  "usageNotes": [
+    "The idiom has a proverb feel; 親が親なら子も子だ is the model everyone knows.",
+    "It is often followed by a sentence giving the shared fault.",
+    "Softer alternatives: 〜も〜も似たようなものだ / どちらもどちらだ."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a noun repeated with が〜なら and a second noun repeated with も〜だ is the pattern; the tone is critical.",
+    "Distractor 〜も〜ば〜も: it does not repeat the same noun and is neutral.",
+    "In 並べ替え, the four chunks are usually N が / N なら / N も / N だ; keep each pair together."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-157-1",
+    "q-n1-g-157-2",
+    "q-n1-g-157-3",
+    "q-n1-g-157-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-157-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

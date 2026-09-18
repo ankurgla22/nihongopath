@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-114",
+  "slug": "ni-iwasereba",
+  "level": "n1",
+  "order": 114,
+  "title": "〜に言わせれば / 〜に言わせると",
+  "romaji": "ni iwasereba / ni iwaseru to",
+  "meaning": "if you ask …; in …'s opinion",
+  "simpleExplanation": "〜に言わせれば means \"if you let X speak, X would say…\", i.e. \"in X's opinion\". It introduces a view that is frank, strongly held, or different from the general view: 私に言わせれば、どちらの案も問題がある (if you ask me, both proposals have problems). The causative 言わせる means \"let say\".",
+  "whenUsed": "Both speech and writing. With 私 it asserts the speaker's opinion confidently; with a third party it reports a strong view, often followed by そうだ or という. The view usually contains a judgement.",
+  "formation": [
+    "N + に言わせれば、…",
+    "N + に言わせると、…",
+    "私に言わせれば (if you ask me) / 専門家に言わせると (according to experts)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼",
+        "role": "the person whose view it is",
+        "highlight": true
+      },
+      {
+        "text": "に言わせれば",
+        "role": "if you let him say it",
+        "highlight": true
+      },
+      {
+        "text": "この計画は無謀だそうだ",
+        "role": "his frank opinion"
+      }
+    ],
+    "translation": "According to him, this plan is reckless."
+  },
+  "examples": [
+    {
+      "ja": "彼に言わせれば、この計画は無謀だそうだ。",
+      "reading": "かれにいわせれば、このけいかくはむぼうだそうだ。",
+      "en": "According to him, this plan is reckless.",
+      "note": "A third party's frank view, reported with そうだ."
+    },
+    {
+      "ja": "専門家に言わせると、この程度の地震は珍しくないという。",
+      "reading": "せんもんかにいわせると、このていどのじしんはめずらしくないという。",
+      "en": "If you ask experts, an earthquake of this scale is not unusual.",
+      "note": "Experts' view with という."
+    },
+    {
+      "ja": "私に言わせれば、どちらの案も問題がある。",
+      "reading": "わたしにいわせれば、どちらのあんももんだいがある。",
+      "en": "If you ask me, both proposals have problems.",
+      "note": "The speaker's own confident opinion."
+    },
+    {
+      "ja": "母に言わせれば、私の部屋はいつも汚いらしい。",
+      "reading": "ははにいわせれば、わたしのへやはいつもきたないらしい。",
+      "en": "If you ask my mother, my room is always messy.",
+      "note": "Reporting someone's critical view."
+    },
+    {
+      "ja": "若い世代に言わせると、この規則は時代遅れだということだ。",
+      "reading": "わかいせだいにいわせると、このきそくはじだいおくれだということだ。",
+      "en": "According to the younger generation, this rule is out of date.",
+      "note": "A group's view."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜によると / 〜によれば",
+      "difference": "Neutral \"according to (a source)\": reports information, not a frank opinion.",
+      "id": "n2-grammar-133"
+    },
+    {
+      "pattern": "〜にとって(は)",
+      "difference": "\"For X (from X's position)\": a standpoint, not a stated opinion.",
+      "id": "n2-grammar-127"
+    },
+    {
+      "pattern": "〜からすると / 〜からすれば",
+      "difference": "\"Judging from X\": a basis for inference, or X's viewpoint; less about a spoken opinion.",
+      "id": "n2-grammar-29"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼に言えば、この計画は無謀だ。",
+      "right": "彼に言わせれば、この計画は無謀だ。",
+      "why": "The causative 言わせる is essential."
+    },
+    {
+      "wrong": "天気予報に言わせれば、明日は雨だ。",
+      "right": "天気予報によれば、明日は雨だ。",
+      "why": "Information sources take によれば; に言わせれば needs a person with an opinion."
+    },
+    {
+      "wrong": "私に言わせれば、そうかもしれない。",
+      "right": "私に言わせれば、それは間違いだ。",
+      "why": "The opinion should be a clear judgement, not a hedge."
+    }
+  ],
+  "usageNotes": [
+    "私に言わせれば is a confident, slightly assertive opener.",
+    "A third party's view is usually followed by そうだ・らしい・という.",
+    "The opinion often disagrees with the majority or with the listener."
+  ],
+  "jlptTips": [
+    "A person + blank + a strong opinion (often with そうだ) → に言わせれば / に言わせると.",
+    "Distractors: によると, にとって, にしたら. Choose に言わせれば when a frank judgement is introduced.",
+    "Watch the causative form: 言わせれば, not 言えば."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-114-1",
+    "q-n1-g-114-2",
+    "q-n1-g-114-3",
+    "q-n1-g-114-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-114-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-32",
+  "slug": "dewa-arumaishi",
+  "level": "n1",
+  "order": 32,
+  "title": "〜ではあるまいし / 〜じゃあるまいし",
+  "romaji": "dehaarumaishi-jaarumaishi",
+  "meaning": "it is not as if …; you are not …, so …",
+  "simpleExplanation": "Nではあるまいし / じゃあるまいし brings up an obviously untrue comparison to justify advice or criticism: 子供ではあるまいし、自分でしなさい \"you're not a child, so do it yourself\". まい means \"probably not\", and し adds \"and so…\".",
+  "whenUsed": "Mostly spoken (じゃあるまいし is colloquial; ではあるまいし is a little more formal). Used with people you can scold or advise: family, friends, subordinates.",
+  "formation": [
+    "Noun + ではあるまいし / じゃあるまいし",
+    "Vる / Vた + のではあるまいし / んじゃあるまいし",
+    "Followed by advice, criticism, or a reassurance (〜なさい / 〜なくてもいい / 〜はずだ)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "子供",
+        "role": "obviously untrue comparison",
+        "highlight": true
+      },
+      {
+        "text": "ではあるまいし",
+        "role": "\"it's not as if you are …, so\"",
+        "highlight": true
+      },
+      {
+        "text": "自分のことは自分で",
+        "role": "expected behaviour"
+      },
+      {
+        "text": "しなさい",
+        "role": "advice / order"
+      }
+    ],
+    "translation": "You are not a child; take care of your own affairs."
+  },
+  "examples": [
+    {
+      "ja": "子供ではあるまいし、自分のことは自分でしなさい。",
+      "reading": "こどもではあるまいし、じぶんのことはじぶんでしなさい。",
+      "en": "You are not a child; take care of your own affairs.",
+      "note": "Scolding: you are not a child."
+    },
+    {
+      "ja": "神様じゃあるまいし、未来のことなんてわからないよ。",
+      "reading": "かみさまじゃあるまいし、みらいのことなんてわからないよ。",
+      "en": "I am not God; I cannot know the future.",
+      "note": "Casual reassurance with じゃあるまいし: I'm not God."
+    },
+    {
+      "ja": "初めて会うのではあるまいし、そんなに緊張しなくてもいい。",
+      "reading": "はじめてあうのではあるまいし、そんなにきんちょうしなくてもいい。",
+      "en": "It is not as if you are meeting for the first time, so you need not be so nervous.",
+      "note": "Verb clause + のではあるまいし: it is not your first meeting."
+    },
+    {
+      "ja": "プロの選手じゃあるまいし、そんなに練習しなくてもいいんじゃない？",
+      "reading": "プロのせんしゅじゃあるまいし、そんなにれんしゅうしなくてもいいんじゃない？",
+      "en": "You're not a professional athlete; you don't need to practise that much, do you?",
+      "note": "Friendly advice with a casual ending."
+    },
+    {
+      "ja": "外国に行くのではあるまいし、そんな大きな荷物はいらないだろう。",
+      "reading": "がいこくにいくのではあるまいし、そんなおおきなにもつはいらないだろう。",
+      "en": "It is not as if you are going abroad; you will not need such big luggage.",
+      "note": "Verb clause + のではあるまいし."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜わけではない",
+      "difference": "A plain partial denial without the \"so do X\" implication.",
+      "id": "n2-grammar-164"
+    },
+    {
+      "pattern": "〜ではあるまいか",
+      "difference": "Different pattern: a tentative rhetorical \"is it not…?\".",
+      "id": "n1-grammar-173"
+    },
+    {
+      "pattern": "〜ならいざしらず",
+      "difference": "\"X might be one thing, but…\": contrasts an excusable case with the present one; similar rhetorical set-up.",
+      "id": "n1-grammar-54"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供ではあるまいし、泣いてもいい。",
+      "right": "子供ではあるまいし、泣くのはやめなさい。",
+      "why": "The pattern leads to advice or criticism that follows from \"you are not X\", not to permission that fits a child."
+    },
+    {
+      "wrong": "社長ではあるまいし、ご指示に従います。",
+      "right": "社長ではあるまいし、そんな偉そうな態度はやめてほしい。",
+      "why": "It is used to scold or advise, so it is inappropriate toward superiors or in polite requests."
+    },
+    {
+      "wrong": "行くではあるまいし",
+      "right": "行くのではあるまいし",
+      "why": "A verb needs の (or ん) before ではあるまいし."
+    }
+  ],
+  "usageNotes": [
+    "The comparison noun is exaggerated on purpose: 子供, 神様, 赤ちゃん, 大金持ち, 芸能人.",
+    "じゃあるまいし sounds like friendly teasing; ではあるまいし is slightly more serious.",
+    "Common endings: 〜なさい, 〜なくてもいい, 〜はずがない, 〜なんて."
+  ],
+  "jlptTips": [
+    "An exaggerated identity (神様, 子供) followed by scolding or reassurance points to ではあるまいし.",
+    "The distractor ではあるまいか is only one letter different but means \"isn't it?\"; check whether advice follows.",
+    "Verb clauses need の: watch for options with and without のでは."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-32-1",
+    "q-n1-g-32-2",
+    "q-n1-g-32-3",
+    "q-n1-g-32-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-32-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

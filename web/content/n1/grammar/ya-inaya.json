@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-88",
+  "slug": "ya-inaya",
+  "level": "n1",
+  "order": 88,
+  "title": "〜や否や / 〜や",
+  "romaji": "ya inaya / ya",
+  "meaning": "as soon as …; the moment …",
+  "simpleExplanation": "〜や否や (or just 〜や) means \"the moment X happened, Y happened\": ドアが開くや否や、客がなだれ込んだ. The dictionary form comes before it, even though the event is in the past. Y is something that actually happened, usually sudden and vivid, never a command or plan.",
+  "whenUsed": "Formal written Japanese: news, novels, reports. In speech, とたん(に) or 〜てすぐ are used. The shorter 〜や is even more literary. Both stress that there was no gap at all between X and Y.",
+  "formation": [
+    "Vる + や否や、Vた",
+    "Vる + や、Vた",
+    "Y = an actual past event, often sudden (飛び出した・なだれ込んだ・売り切れた)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"As soon as\" expressions",
+    "columns": [
+      "Form",
+      "Register",
+      "Nuance"
+    ],
+    "rows": [
+      {
+        "label": "〜や否や",
+        "cells": [
+          "Vる + や否や",
+          "formal, written",
+          "no gap; sudden Y"
+        ]
+      },
+      {
+        "label": "〜が早いか",
+        "cells": [
+          "Vる + が早いか",
+          "formal, written",
+          "Y is a quick deliberate action"
+        ]
+      },
+      {
+        "label": "〜なり",
+        "cells": [
+          "Vる + なり",
+          "written, narrative",
+          "same subject; Y is unexpected"
+        ]
+      },
+      {
+        "label": "〜とたん(に)",
+        "cells": [
+          "Vた + とたん",
+          "neutral, spoken",
+          "Y is a surprising result"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ドアが開くや否や、客が店内になだれ込んだ。",
+      "reading": "ドアがひらくやいなや、きゃくがてんないになだれこんだ。",
+      "en": "The moment the doors opened, customers surged into the store.",
+      "note": "Dictionary form 開く + や否や; Y is a vivid past event."
+    },
+    {
+      "ja": "彼はベルが鳴るや、教室を飛び出した。",
+      "reading": "かれはベルがなるや、きょうしつをとびだした。",
+      "en": "As soon as the bell rang, he dashed out of the classroom.",
+      "note": "Short form 〜や with the same meaning."
+    },
+    {
+      "ja": "新製品は発売されるや否や、売り切れになった。",
+      "reading": "しんせいひんははつばいされるやいなや、うりきれになった。",
+      "en": "The new product sold out as soon as it was released.",
+      "note": "Passive dictionary form 発売される + や否や."
+    },
+    {
+      "ja": "彼は駅に着くや否や、会社に電話をかけた。",
+      "reading": "かれはえきにつくやいなや、かいしゃにでんわをかけた。",
+      "en": "The moment he reached the station, he phoned the office.",
+      "note": "Same subject in both clauses is common."
+    },
+    {
+      "ja": "その噂が流れるや、株価は急落した。",
+      "reading": "そのうわさがながれるや、かぶかはきゅうらくした。",
+      "en": "As soon as the rumour spread, the share price plunged.",
+      "note": "Different subjects are also fine."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜が早いか",
+      "difference": "Same timing, but Y is a quick, deliberate action by the subject (飛び出した). や否や can also describe reactions and events.",
+      "id": "n1-grammar-105"
+    },
+    {
+      "pattern": "〜なり",
+      "difference": "Same subject required; Y is unexpected. Also written.",
+      "id": "n1-grammar-55"
+    },
+    {
+      "pattern": "〜そばから",
+      "difference": "\"No sooner than (repeatedly)\": describes a habit that keeps recurring, not a single event.",
+      "id": "n1-grammar-22"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ドアが開いたや否や、客が入った。",
+      "right": "ドアが開くや否や、客が入った。",
+      "why": "The dictionary form is required before や否や, even for past events."
+    },
+    {
+      "wrong": "家に帰るや否や、手を洗いなさい。",
+      "right": "家に帰ったらすぐ、手を洗いなさい。",
+      "why": "Y cannot be a command; や否や reports what actually happened."
+    },
+    {
+      "wrong": "ベルが鳴るや否や、彼は教室を出るつもりだ。",
+      "right": "ベルが鳴るや否や、彼は教室を飛び出した。",
+      "why": "Y is a completed event, not an intention."
+    }
+  ],
+  "usageNotes": [
+    "Y is usually dramatic: crowds rushing, prices crashing, someone dashing out.",
+    "や否や literally means \"whether or not\": \"barely had X happened (or not) when Y\".",
+    "News writers like the shorter 〜や for headlines and lead sentences."
+  ],
+  "jlptTips": [
+    "A dictionary-form verb before the blank and a sudden past event after it → や否や.",
+    "Distractors: が早いか, なり, とたん. Check the form: とたん takes Vた; the others take Vる. Between や否や and が早いか, the exam usually accepts either only when the meaning differs.",
+    "Eliminate any option if the second clause is a command, request or intention."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-88-1",
+    "q-n1-g-88-2",
+    "q-n1-g-88-3",
+    "q-n1-g-88-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-88-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-155",
+  "slug": "tara-ta-de",
+  "level": "n1",
+  "order": 155,
+  "title": "〜たら〜たで / 〜ば〜で / 〜なら〜で",
+  "romaji": "tara ... ta de / ba ... de / nara ... de",
+  "meaning": "if X, then X brings its own (problems); either way there is something",
+  "simpleExplanation": "〜たら〜たで repeats the same word to say: if X happens, X itself has its own consequences. お金があったらあったで心配が増える = \"If you have money, having it brings its own worries\". It often comes after the opposite case (なければ困るが), so the point is \"either way there's something\". It can also mean \"if X, we'll manage\" (来なかったら来なかったで楽しもう).",
+  "whenUsed": "Spoken and casual written Japanese, everyday reflections. Verbs use たら〜たで, い-adjectives ば〜で (忙しければ忙しいで), nouns and な-adjectives なら〜で (暇なら暇で). Usually the second half is a complaint, worry, or a shrug of acceptance.",
+  "formation": [
+    "Vたら + Vた + で  (あったらあったで・来なかったら来なかったで)",
+    "いA-ければ + いA-い + で  (忙しければ忙しいで)",
+    "N / なA + なら + N / なA + で  (暇なら暇で・静かなら静かで)",
+    "Second half: a new problem, or \"we'll manage\""
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Each case brings its own issue",
+    "columns": [
+      "case",
+      "form",
+      "consequence"
+    ],
+    "rows": [
+      {
+        "label": "no money",
+        "cells": [
+          "なければ",
+          "困る",
+          "trouble"
+        ]
+      },
+      {
+        "label": "money",
+        "cells": [
+          "あったらあったで",
+          "心配が増える",
+          "its own worries"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お金はなければ困るが、あったらあったで心配が増える。",
+      "reading": "おかねはなければこまるが、あったらあったでしんぱいがふえる。",
+      "en": "Without money you are in trouble, but having it brings its own worries.",
+      "note": "Both cases (no money / money) bring problems: the classic contrast."
+    },
+    {
+      "ja": "忙しければ忙しいで文句を言い、暇なら暇で不満を言う。",
+      "reading": "いそがしければいそがしいでもんくをいい、ひまならひまでふまんをいう。",
+      "en": "When busy he complains, and when free he grumbles too.",
+      "note": "Adjective: 忙しければ忙しいで; noun: 暇なら暇で. Both halves complain."
+    },
+    {
+      "ja": "彼が来なかったら来なかったで、私たちだけで楽しもう。",
+      "reading": "かれがこなかったらこなかったで、わたしたちだけでたのしもう。",
+      "en": "If he does not come, so be it; let us enjoy ourselves on our own.",
+      "note": "The acceptance use: if he does not come, we will manage."
+    },
+    {
+      "ja": "子供が小さいうちは大変だが、大きくなったらなったで別の悩みが出てくる。",
+      "reading": "こどもがちいさいうちはたいへんだが、おおきくなったらなったでべつのなやみがでてくる。",
+      "en": "It is hard while the children are small, but when they grow up, that brings different worries.",
+      "note": "なったらなったで: a new problem in the new state."
+    },
+    {
+      "ja": "雨なら雨で、家でゆっくり映画でも見よう。",
+      "reading": "あめならあめで、いえでゆっくりえいがでもみよう。",
+      "en": "If it rains, so be it; we can relax at home and watch a film.",
+      "note": "Noun + なら〜で in the \"we'll manage\" sense."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-76",
+      "pattern": "〜ばそれまでだ",
+      "difference": "\"If X happens, that's the end\" (finality). たら〜たで says the new state has its own consequences, not the end."
+    },
+    {
+      "id": "n2-grammar-158",
+      "pattern": "〜ものなら",
+      "difference": "\"If one could possibly\" or a warning. Not about each alternative bringing its own issue."
+    },
+    {
+      "id": "n2-grammar-116",
+      "pattern": "〜にしても",
+      "difference": "\"Even if X\" as a concession, no repetition. たら〜たで requires repeating the same word."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お金があったらあるで心配だ。",
+      "right": "お金があったらあったで心配だ。",
+      "why": "The same form is repeated: たら + た form (あったら + あった + で)."
+    },
+    {
+      "wrong": "忙しかったら忙しいで",
+      "right": "忙しければ忙しいで / 忙しかったら忙しかったで",
+      "why": "Keep the pair consistent: ければ + い + で, or たら + た + で."
+    },
+    {
+      "wrong": "お金があったらあったで、うれしい。",
+      "right": "お金があったらあったで、心配が増える。",
+      "why": "The second half should be a consequence or issue of the new state (or \"we'll cope\"), not a simple positive feeling."
+    }
+  ],
+  "usageNotes": [
+    "The pattern is often used to comment wryly on human nature: 人は何かにつけて文句を言う.",
+    "In the acceptance sense, the second half is often a suggestion: 〜たら〜たで、〜しよう.",
+    "Do not overuse in writing; it is conversational and a little rueful."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a blank after Vたら that expects the same verb in た form + で is this pattern; scan for the repeated word.",
+    "If the options repeat the word in different forms (あるで / あったで), pick the one matching the first half (たら → た, ければ → い, なら → same).",
+    "In 並べ替え, the repeated pair usually sits in two adjacent chunks."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-155-1",
+    "q-n1-g-155-2",
+    "q-n1-g-155-3",
+    "q-n1-g-155-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-155-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

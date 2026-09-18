@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-138",
+  "slug": "hodo-no-koto-dewa-nai",
+  "level": "n1",
+  "order": 138,
+  "title": "〜ほどのことではない",
+  "romaji": "hodo no koto dewa nai",
+  "meaning": "not serious enough to …; not worth …ing; nothing that calls for …",
+  "simpleExplanation": "〜ほどのことではない plays something down: the matter is not big enough to justify the action mentioned. 病院に行くほどのことではない = \"It's nothing that needs a trip to the hospital\". The verb before ほど is the reaction that would be too much (行く・報告する・騒ぐ・心配する).",
+  "whenUsed": "Spoken and written, neutral. Often used to reassure someone (心配するほどのことではない) or to decline a fuss modestly (お礼を言われるほどのことではありません). The polite form 〜ほどのことではありません is common.",
+  "formation": [
+    "Vる + ほどのことではない",
+    "Vる + ほどのことでもない (softer: \"not even worth\")",
+    "Polite: ほどのことではありません",
+    "Typical verbs: 騒ぐ・心配する・驚く・報告する・病院に行く・わざわざ〜する"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "軽いけがだから",
+        "role": "the small matter"
+      },
+      {
+        "text": "病院に行く",
+        "role": "reaction that would be too much"
+      },
+      {
+        "text": "ほどのことではない",
+        "role": "\"not serious enough to\"",
+        "highlight": true
+      }
+    ],
+    "translation": "It is a minor injury, nothing that needs a trip to the hospital."
+  },
+  "examples": [
+    {
+      "ja": "軽いけがだから、病院に行くほどのことではない。",
+      "reading": "かるいけがだから、びょういんにいくほどのことではない。",
+      "en": "It is a minor injury, not worth a trip to the hospital.",
+      "note": "The injury is too small to justify the hospital."
+    },
+    {
+      "ja": "こんな小さなミスは、上司に報告するほどのことではない。",
+      "reading": "こんなちいさなミスは、じょうしにほうこくするほどのことではない。",
+      "en": "A small mistake like this is not worth reporting to the boss.",
+      "note": "A tiny mistake does not merit reporting to the boss."
+    },
+    {
+      "ja": "わざわざ騒ぐほどのことではないでしょう。",
+      "reading": "わざわざさわぐほどのことではないでしょう。",
+      "en": "It is hardly worth making a fuss about.",
+      "note": "わざわざ + 騒ぐ + ほどのことではないでしょう: reassuring, polite."
+    },
+    {
+      "ja": "そんなに感謝されるほどのことではありません。当然のことをしただけです。",
+      "reading": "そんなにかんしゃされるほどのことではありません。とうぜんのことをしただけです。",
+      "en": "It is nothing that deserves such thanks. I only did what anyone would.",
+      "note": "Modest reply to thanks."
+    },
+    {
+      "ja": "少し熱があるが、会社を休むほどのことでもない。",
+      "reading": "すこしねつがあるが、かいしゃをやすむほどのことでもない。",
+      "en": "I have a slight fever, but it is not enough to take the day off.",
+      "note": "でもない adds \"not even\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-83",
+      "pattern": "〜までもない",
+      "difference": "\"There is no need to\" because it is obvious or already done. ほどのことではない says the matter is too minor to deserve the reaction."
+    },
+    {
+      "id": "n1-grammar-151",
+      "pattern": "〜に(は)当たらない",
+      "difference": "Formal \"does not merit (surprise, praise, criticism)\"; limited to evaluation verbs. ほどのことではない works with any action."
+    },
+    {
+      "id": "n2-grammar-48",
+      "pattern": "〜ことはない",
+      "difference": "General \"no need to\" advice (心配することはない). ほどのことではない specifically measures the matter against the action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "病院に行ったほどのことではない。",
+      "right": "病院に行くほどのことではない。",
+      "why": "The verb before ほど is in the dictionary form, because it describes a hypothetical reaction."
+    },
+    {
+      "wrong": "大事故だが、騒ぐほどのことではない。",
+      "right": "小さな事故だから、騒ぐほどのことではない。",
+      "why": "The matter must genuinely be minor; using the pattern about a serious accident contradicts its meaning."
+    },
+    {
+      "wrong": "彼が遅刻するのは驚くほどのことだ。",
+      "right": "彼が遅刻するのは驚くほどのことではない。",
+      "why": "The affirmative ほどのことだ is not used to mean \"worth being surprised about\". The pattern lives in the negative; for the positive idea say 驚くべきことだ."
+    }
+  ],
+  "usageNotes": [
+    "Set replies: お礼を言われるほどのことではありません (\"no thanks needed\"), 心配するほどのことではない (\"nothing to worry about\").",
+    "Adding わざわざ or そんなに before the verb strengthens the sense of \"that would be overreacting\".",
+    "The affirmative 〜ほどのことだ is rare; keep the pattern negative."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a small matter + a big reaction verb + a negative, often with わざわざ, points to ほどのことではない.",
+    "Distractor までもない: if the sentence says the action is unnecessary because it is obvious, choose までもない; if the matter is too small, choose ほどのことではない.",
+    "In 並べ替え, ほどのことではない is usually one chunk after a dictionary-form verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-138-1",
+    "q-n1-g-138-2",
+    "q-n1-g-138-3",
+    "q-n1-g-138-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-138-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

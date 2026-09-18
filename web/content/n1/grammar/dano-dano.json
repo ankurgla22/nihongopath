@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-169",
+  "slug": "dano-dano",
+  "level": "n1",
+  "order": 169,
+  "title": "〜だの〜だの",
+  "romaji": "dano ... dano",
+  "meaning": "X and Y and so on (with annoyance); things like X and Y",
+  "simpleExplanation": "〜だの〜だの lists examples the speaker finds tiresome: 給料が安いだの休みが少ないだの、文句ばかり = \"low pay, few holidays, and so on: nothing but complaints\". It works like とか〜とか but with a dismissive, fed-up tone. The list is usually followed by と言う / 文句を言う / うるさい.",
+  "whenUsed": "Casual spoken Japanese, complaints about someone's demands, excuses, or clutter. Attaches to nouns and plain forms (adjectives and verbs). Not for neutral lists or polite speech.",
+  "formation": [
+    "N + だの + N + だの",
+    "普通形 + だの + 普通形 + だの  (安いだの少ないだの)",
+    "Followed by: と言う / と文句を言う / とうるさい / と、〜",
+    "Also a single だの: 〜だのと言って"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three ways to list examples",
+    "columns": [
+      "pattern",
+      "tone",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜とか〜とか",
+        "cells": [
+          "neutral",
+          "everyday",
+          "肉とか魚とかを買う"
+        ]
+      },
+      {
+        "label": "〜やら〜やら",
+        "cells": [
+          "confused, overwhelmed",
+          "many things",
+          "宿題やら部活やらで忙しい"
+        ]
+      },
+      {
+        "label": "〜だの〜だの",
+        "cells": [
+          "annoyed, dismissive",
+          "complaint",
+          "安いだの少ないだのと文句を言う"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は給料が安いだの休みが少ないだのと、文句ばかり言っている。",
+      "reading": "かれはきゅうりょうがやすいだのやすみがすくないだのと、もんくばかりいっている。",
+      "en": "He is always complaining about low pay, few holidays, and so on.",
+      "note": "Complaints listed with irritation; 文句ばかり makes the tone explicit."
+    },
+    {
+      "ja": "旅行の準備で、着替えだの薬だのと、荷物が増える一方だ。",
+      "reading": "りょこうのじゅんびで、きがえだのくすりだのと、にもつがふえるいっぽうだ。",
+      "en": "Preparing for the trip, my luggage keeps growing with clothes, medicine, and what not.",
+      "note": "Clutter listed with a sigh: things keep piling up."
+    },
+    {
+      "ja": "好きだの嫌いだのと言わずに、出されたものは食べなさい。",
+      "reading": "すきだのきらいだのといわずに、だされたものはたべなさい。",
+      "en": "Stop saying you like this and hate that; eat what is served.",
+      "note": "好きだの嫌いだの: dismissing a child's fussiness."
+    },
+    {
+      "ja": "頭が痛いだの熱があるだのと言って、彼はまた仕事を休んだ。",
+      "reading": "あたまがいたいだのねつがあるだのといって、かれはまたしごとをやすんだ。",
+      "en": "Saying he had a headache, a fever, and so on, he skipped work again.",
+      "note": "Excuses listed with suspicion."
+    },
+    {
+      "ja": "結婚式には、ドレスだの会場だの料理だのと、決めることが山ほどある。",
+      "reading": "けっこんしきには、ドレスだのかいじょうだのりょうりだのと、きめることがやまほどある。",
+      "en": "For the wedding there is a mountain of things to decide: the dress, the venue, the food, and so on.",
+      "note": "Three items; the tone is overwhelmed."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-198",
+      "pattern": "〜とか",
+      "difference": "Neutral list of examples. だの adds annoyance."
+    },
+    {
+      "id": "n2-grammar-160",
+      "pattern": "〜やら〜やら",
+      "difference": "Lists things that overwhelm or confuse the speaker; less hostile than だの."
+    },
+    {
+      "id": "n1-grammar-56",
+      "pattern": "〜なり〜なり",
+      "difference": "Offers alternatives to choose from (\"X or Y, either is fine\"). Not a complaining list."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（丁寧に）お茶だのコーヒーだのをご用意しております。",
+      "right": "お茶やコーヒーなどをご用意しております。",
+      "why": "だの is dismissive and casual; polite hospitality needs や〜など."
+    },
+    {
+      "wrong": "安いだの少ないだの、いい会社だ。",
+      "right": "安いだの少ないだのと、文句ばかり言っている。",
+      "why": "The follow-up should match the annoyed tone (complaints), not praise."
+    },
+    {
+      "wrong": "安だの少なだの",
+      "right": "安いだの少ないだの",
+      "why": "Adjectives attach in the plain form (安い・少ない), not the stem."
+    }
+  ],
+  "usageNotes": [
+    "Typical follow-ups: 〜と文句を言う / 〜とうるさい / 〜と言い訳をする / 〜と、きりがない.",
+    "Two items are standard; three are possible for a stronger sense of endlessness.",
+    "Used about others' words or demands; using it about your own likes sounds self-mocking."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a list of two items followed by 文句 / うるさい / 言い訳 in a casual tone points to だの〜だの.",
+    "Distractor やら〜やら: choose it when the speaker is overwhelmed rather than annoyed at someone.",
+    "In 並べ替え, the two だの chunks come first, then と + the verb of complaining."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-169-1",
+    "q-n1-g-169-2",
+    "q-n1-g-169-3",
+    "q-n1-g-169-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-169-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,126 @@
+{
+  "id": "n1-grammar-85",
+  "slug": "meku-meita",
+  "level": "n1",
+  "order": 85,
+  "title": "〜めく / 〜めいた",
+  "romaji": "meku / meita",
+  "meaning": "seem like …; have an air of …",
+  "simpleExplanation": "〜めく turns a noun into a Group I verb meaning \"to have the air of X, to seem X-like\": 春めく (become spring-like), 謎めく (be mysterious). The most common form is the adnominal めいた: 皮肉めいた言い方 (a sarcastic way of speaking), 冗談めいた口調 (a joking tone).",
+  "whenUsed": "Literary and descriptive writing, also in refined speech. Used for seasons (春めく・秋めく), atmosphere (謎めく), and tone of speech (皮肉めいた・冗談めいた・説教めいた・脅迫めいた). The list of nouns is limited; you cannot attach it freely.",
+  "formation": [
+    "N + めく (verb: めきます・めいて・めいた)",
+    "N + めいた + N (most common)",
+    "N + めいてくる (a change is felt)",
+    "Typical N: 春・秋・皮肉・冗談・謎・説教・脅迫・作り物"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "皮肉 + めく",
+    "rootLabel": "noun → Group I verb",
+    "branches": [
+      {
+        "suffix": "めいた",
+        "result": "皮肉めいた言い方",
+        "label": "adnominal: sarcastic-sounding"
+      },
+      {
+        "suffix": "めいて",
+        "result": "皮肉めいて聞こえる",
+        "label": "te-form: sounds sarcastic"
+      },
+      {
+        "suffix": "めいてきた",
+        "result": "春めいてきた",
+        "label": "change: has become spring-like"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "日差しがすっかり春めいてきた。",
+      "reading": "ひざしがすっかりはるめいてきた。",
+      "en": "The sunlight has become quite spring-like.",
+      "note": "春めいてきた: a change felt in the season. Group I conjugation: めく → めいて."
+    },
+    {
+      "ja": "彼の皮肉めいた言い方に腹が立った。",
+      "reading": "かれのひにくめいたいいかたにはらがたった。",
+      "en": "His sarcastic way of speaking made me angry.",
+      "note": "皮肉めいた + 言い方: the most common adnominal use."
+    },
+    {
+      "ja": "その老人は謎めいた笑みを浮かべた。",
+      "reading": "そのろうじんはなぞめいたえみをうかべた。",
+      "en": "The old man wore a mysterious smile.",
+      "note": "謎めいた笑み: a mysterious smile."
+    },
+    {
+      "ja": "上司の冗談めいた言葉の裏に、厳しい注意が隠れていた。",
+      "reading": "じょうしのじょうだんめいたことばのうらに、きびしいちゅういがかくれていた。",
+      "en": "Behind my boss's seemingly joking words lay a stern warning.",
+      "note": "冗談めいた: it looked like a joke but was not."
+    },
+    {
+      "ja": "彼女の口調はだんだん説教めいてきた。",
+      "reading": "かのじょのくちょうはだんだんせっきょうめいてきた。",
+      "en": "Her tone gradually started to sound like a lecture.",
+      "note": "めいてくる for a gradual change."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜っぽい",
+      "difference": "Casual \"-ish\" that attaches freely (子供っぽい・安っぽい). めく is literary and limited to certain nouns.",
+      "id": "n2-grammar-187"
+    },
+    {
+      "pattern": "〜ごとき / 〜ごとく",
+      "difference": "A formal simile, \"like X\" (氷のごとき). めく says X has a touch of that quality, not that it resembles X.",
+      "id": "n1-grammar-14"
+    },
+    {
+      "pattern": "〜さながら",
+      "difference": "\"Just like\" (a strong resemblance); めく is a weaker \"has a touch of\".",
+      "id": "n1-grammar-107"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は子供めいた性格だ。",
+      "right": "彼は子供っぽい性格だ。",
+      "why": "子供 does not take めく; use っぽい."
+    },
+    {
+      "wrong": "皮肉めくな言い方",
+      "right": "皮肉めいた言い方",
+      "why": "めく is a verb, so the adnominal form is めいた, not めくな."
+    },
+    {
+      "wrong": "日差しが春めいたきた。",
+      "right": "日差しが春めいてきた。",
+      "why": "The te-form of the Group I verb めく is めいて."
+    }
+  ],
+  "usageNotes": [
+    "Learn the fixed set: 春めく・秋めく・謎めく・皮肉めく・冗談めく・説教めく・脅迫めく・作り物めく.",
+    "めいた usually implies \"looks like X but is not quite X\": 脅迫めいた手紙 = a letter that feels like a threat.",
+    "It is a favourite of novelists for describing atmosphere and tone."
+  ],
+  "jlptTips": [
+    "Season noun + blank + てきた → めいてきた. Tone noun (皮肉・冗談) + blank + 言い方 → めいた.",
+    "Distractors: っぽい, らしい, さながら. If the noun is from the limited めく list and the register is literary, choose めく.",
+    "Watch the conjugation: めいた (past/adnominal), めいて (te-form), not めくた or めくて."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-85-1",
+    "q-n1-g-85-2",
+    "q-n1-g-85-3",
+    "q-n1-g-85-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-85-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

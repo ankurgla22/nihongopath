@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-107",
+  "slug": "sanagara",
+  "level": "n1",
+  "order": 107,
+  "title": "〜さながら(の)",
+  "romaji": "sanagara (no)",
+  "meaning": "just like …; as if it were …",
+  "simpleExplanation": "〜さながら means \"exactly like X, as if it were the real thing\": 実際の火事さながらの訓練 (a drill just like a real fire), 戦場さながら (just like a battlefield). It is a literary equivalent of まるで〜のようだ and stresses a striking resemblance.",
+  "whenUsed": "Literary and journalistic writing: descriptions of scenes, events, performances. It attaches to nouns and can be followed by に (adverbial), の (adnominal) or だ (predicate).",
+  "formation": [
+    "N + さながら(に) + V",
+    "N + さながらの + N",
+    "N + さながらだ",
+    "Often with まるで / まさに for emphasis"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Resemblance expressions",
+    "columns": [
+      "Strength",
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜さながら",
+        "cells": [
+          "strong: as if the real thing",
+          "literary",
+          "戦場さながらの光景"
+        ]
+      },
+      {
+        "label": "〜のようだ / 〜みたいだ",
+        "cells": [
+          "neutral",
+          "everyday",
+          "戦場のようだ"
+        ]
+      },
+      {
+        "label": "〜ごとく / 〜ごとき",
+        "cells": [
+          "formal simile",
+          "classical",
+          "戦場のごとき光景"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "避難訓練は実際の火事さながらに行われた。",
+      "reading": "ひなんくんれんはじっさいのかじさながらにおこなわれた。",
+      "en": "The evacuation drill was carried out just as if it were a real fire.",
+      "note": "Adverbial さながらに: conducted just like a real fire."
+    },
+    {
+      "ja": "その光景は戦場さながらだった。",
+      "reading": "そのこうけいはせんじょうさながらだった。",
+      "en": "The scene was just like a battlefield.",
+      "note": "Predicate さながらだった: the scene was just like a battlefield."
+    },
+    {
+      "ja": "彼はプロさながらの腕前で料理を仕上げた。",
+      "reading": "かれはプロさながらのうでまえでりょうりをしあげた。",
+      "en": "He finished the dish with skill worthy of a professional.",
+      "note": "Adnominal さながらの + 腕前: skill worthy of a professional."
+    },
+    {
+      "ja": "その少年は、大人さながらの落ち着きで質問に答えた。",
+      "reading": "そのしょうねんは、おとなさながらのおちつきでしつもんにこたえた。",
+      "en": "The boy answered the questions with a composure just like an adult's.",
+      "note": "Adnominal use."
+    },
+    {
+      "ja": "祭りの夜、町は昼間さながらの明るさに包まれた。",
+      "reading": "まつりのよる、まちはひるまさながらのあかるさにつつまれた。",
+      "en": "On the night of the festival, the town was bathed in a brightness just like daytime.",
+      "note": "A scene description."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ごとき / 〜ごとく",
+      "difference": "A formal simile (\"like\"), often in fixed literary phrases; さながら stresses that X looks like the real thing.",
+      "id": "n1-grammar-14"
+    },
+    {
+      "pattern": "〜かのようだ",
+      "difference": "\"As if\" for something that is not actually the case; neutral register.",
+      "id": "n2-grammar-26"
+    },
+    {
+      "pattern": "〜めく / 〜めいた",
+      "difference": "\"Has a touch of X\": a weaker resemblance and limited nouns.",
+      "id": "n1-grammar-85"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼はプロさながら上手だ。",
+      "right": "彼はプロさながらの腕前だ。",
+      "why": "Before a noun use さながらの; さながら alone before an adjective sounds incomplete."
+    },
+    {
+      "wrong": "さながら戦場だ。",
+      "right": "戦場さながらだ。／さながら戦場のようだ。",
+      "why": "さながら normally follows the noun; as an adverb at the front it needs のようだ."
+    },
+    {
+      "wrong": "実際の火事さながらで訓練した。",
+      "right": "実際の火事さながらに訓練した。",
+      "why": "The adverbial particle is に."
+    }
+  ],
+  "usageNotes": [
+    "The noun is usually a vivid scene or a model: 戦場・本番・プロ・映画・実際の〜.",
+    "さながら can also be a sentence adverb meaning \"just as if\" (さながら〜のようだ), but the N + さながら form is the JLPT target.",
+    "Adding まるで or まさに strengthens it further."
+  ],
+  "jlptTips": [
+    "A noun of a striking model (戦場・プロ・本番) + blank + の/に → さながら.",
+    "Distractors: ごとき, めいた, のようだ. Choose さながら for a formal \"just like the real thing\" with the N + さながら shape.",
+    "Check the particle: さながらの before a noun, さながらに before a verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-107-1",
+    "q-n1-g-107-2",
+    "q-n1-g-107-3",
+    "q-n1-g-107-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-107-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

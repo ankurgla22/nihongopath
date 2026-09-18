@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-20",
+  "slug": "zu-niwa-sumanai",
+  "level": "n1",
+  "order": 20,
+  "title": "〜ずにはすまない / 〜ないではすまない",
+  "romaji": "zunihasumanai-naidehasumanai",
+  "meaning": "must …; cannot get away without …; will have to …",
+  "simpleExplanation": "Vずにはすまない / Vないではすまない says that, given the situation, the matter will not be settled unless V is done: 謝らずにはすまない \"I cannot get away without apologising\". It expresses social, moral or practical obligation created by what has happened.",
+  "whenUsed": "Both registers, slightly formal. Common in talking about responsibility: apologising, compensating, being punished, reporting. Often ends with だろう / はずだ.",
+  "formation": [
+    "Vない-stem + ずにはすまない (する → せずにはすまない)",
+    "Vない + ではすまない",
+    "Also: Noun + ではすまない (冗談ではすまない = \"won't pass as a joke\")"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "謝る",
+        "en": "apologise"
+      },
+      {
+        "ja": "謝らずには",
+        "en": "without apologising…"
+      },
+      {
+        "ja": "謝らずにはすまない",
+        "en": "…the matter will not be settled: I will have to apologise"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "大切な花瓶を割ってしまったので、弁償せずにはすまないだろう。",
+      "reading": "たいせつなかびんをわってしまったので、べんしょうせずにはすまないだろう。",
+      "en": "Since I broke the precious vase, I will surely have to pay for it.",
+      "note": "Compensation as an unavoidable consequence of breaking the vase."
+    },
+    {
+      "ja": "これだけ迷惑をかけたのだから、謝らないではすまない。",
+      "reading": "これだけめいわくをかけたのだから、あやまらないではすまない。",
+      "en": "After causing this much trouble, I cannot get away without apologizing.",
+      "note": "ないではすまない with a reason clause (のだから)."
+    },
+    {
+      "ja": "事故の責任者は、処分を受けずにはすまないはずだ。",
+      "reading": "じこのせきにんしゃは、しょぶんをうけずにはすまないはずだ。",
+      "en": "The person responsible for the accident will surely have to face punishment.",
+      "note": "Punishment that the responsible person cannot avoid."
+    },
+    {
+      "ja": "会社に大損害を与えたのだから、責任を取らずにはすまないだろう。",
+      "reading": "かいしゃにだいそんがいをあたえたのだから、せきにんをとらずにはすまないだろう。",
+      "en": "Having caused the company a huge loss, he will surely have to take responsibility.",
+      "note": "のだから + ずにはすまない + だろう is the typical shape."
+    },
+    {
+      "ja": "これだけ証拠がそろえば、彼も認めないではすまないはずだ。",
+      "reading": "これだけしょうこがそろえば、かれもみとめないではすまないはずだ。",
+      "en": "With this much evidence, he cannot get away without admitting it.",
+      "note": "ないではすまない with はずだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずにはおかない",
+      "difference": "Inevitable effect or resolve (感動させずにはおかない); not an obligation.",
+      "id": "n1-grammar-19"
+    },
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "\"Have no choice but to\", forced by circumstances; less focused on settling a debt to others.",
+      "id": "n2-grammar-52"
+    },
+    {
+      "pattern": "〜ないわけにはいかない",
+      "difference": "Everyday \"cannot not do\" for social reasons; すまない is stronger and more formal.",
+      "id": "n2-grammar-165"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "弁償しずにはすまない",
+      "right": "弁償せずにはすまない",
+      "why": "する → せず before ずには."
+    },
+    {
+      "wrong": "彼の演説は聴衆を感動させずにはすまない。",
+      "right": "彼の演説は聴衆を感動させずにはおかない。",
+      "why": "An effect on an audience is おかない; すまない is for obligations."
+    },
+    {
+      "wrong": "疲れたから、休まずにはすまない。",
+      "right": "疲れたから、休まずにはいられない。",
+      "why": "Personal need or urge takes いられない; すまない needs a social obligation."
+    }
+  ],
+  "usageNotes": [
+    "Typical verbs: 謝る, 弁償する, 責任を取る, 処分を受ける, 報告する, 認める.",
+    "Noun + ではすまない: ただではすまない (\"you won't get off lightly\"), 冗談ではすまない.",
+    "The obligation arises from a prior event, often stated with のだから / 以上."
+  ],
+  "jlptTips": [
+    "Look for a fault or damage in the first clause (割った, 迷惑をかけた) and a verb of apology or compensation before the blank: that is ずにはすまない.",
+    "The main distractor is ずにはおかない; swap test: if the subject is a work affecting people, おかない; if a person owes something, すまない.",
+    "ただではすまない is a common set phrase in reading passages."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-20-1",
+    "q-n1-g-20-2",
+    "q-n1-g-20-3",
+    "q-n1-g-20-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-20-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

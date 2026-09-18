@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-25",
+  "slug": "dani",
+  "level": "n1",
+  "order": 25,
+  "title": "〜だに",
+  "romaji": "dani",
+  "meaning": "even (just) …; not even …",
+  "simpleExplanation": "だに is a highly literary \"even\". In 想像するだに恐ろしい it means \"even just imagining it is terrifying\"; in 微動だにしない it means \"does not even budge\". It survives mainly in a handful of fixed expressions, so it is best learned as a set of phrases.",
+  "whenUsed": "Literary and formal: novels, editorials, speeches. Never casual. The set phrases are: 想像するだに, 思うだに, 考えるだに, 微動だにしない, 一顧だにしない, 夢にだに思わない.",
+  "formation": [
+    "Vる + だに + adjective (想像するだに恐ろしい)",
+    "Noun + だに + negative (微動だにしない, 一顧だにしない)",
+    "夢にだに + negative (夢にだに思わなかった)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The だに phrase book",
+    "columns": [
+      "phrase",
+      "meaning",
+      "typical continuation"
+    ],
+    "rows": [
+      {
+        "label": "想像する / 思う / 考える + だに",
+        "cells": [
+          "even just imagining",
+          "\"even to imagine\"",
+          "恐ろしい / 悲しい"
+        ]
+      },
+      {
+        "label": "微動だに",
+        "cells": [
+          "not even a slight movement",
+          "\"not budge\"",
+          "しない"
+        ]
+      },
+      {
+        "label": "一顧だに",
+        "cells": [
+          "not even a glance",
+          "\"ignore completely\"",
+          "しない / 値しない"
+        ]
+      },
+      {
+        "label": "夢にだに",
+        "cells": [
+          "not even in dreams",
+          "\"never once imagined\"",
+          "思わなかった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "その光景は想像するだに恐ろしい。",
+      "reading": "そのこうけいはそうぞうするだにおそろしい。",
+      "en": "The scene is terrifying even to imagine.",
+      "note": "想像するだに: even imagining is terrifying."
+    },
+    {
+      "ja": "彼は私の言葉に微動だにしなかった。",
+      "reading": "かれはわたしのことばにびどうだにしなかった。",
+      "en": "He did not budge an inch at my words.",
+      "note": "微動だにしない: the fixed phrase for not moving at all."
+    },
+    {
+      "ja": "こんな結末になるとは、夢にだに思わなかった。",
+      "reading": "こんなけつまつになるとは、ゆめにだにおもわなかった。",
+      "en": "I never even dreamed it would end like this.",
+      "note": "夢にだに思わなかった: never even dreamed."
+    },
+    {
+      "ja": "彼は私の提案を一顧だにしなかった。",
+      "reading": "かれはわたしのていあんをいっこだにしなかった。",
+      "en": "He did not give my proposal even a glance.",
+      "note": "一顧だにしない = to ignore completely."
+    },
+    {
+      "ja": "あの日の出来事は、思い出すだに胸が痛む。",
+      "reading": "あのひのできごとは、おもいだすだにむねがいたむ。",
+      "en": "Just remembering that day makes my chest ache.",
+      "note": "Vる + だに + a feeling."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜すら",
+      "difference": "General formal \"even\", usable with any noun; だに is restricted to set phrases.",
+      "id": "n1-grammar-21"
+    },
+    {
+      "pattern": "〜さえ",
+      "difference": "Everyday \"even\"; has a conditional use too.",
+      "id": "n2-grammar-180"
+    },
+    {
+      "pattern": "〜たりとも",
+      "difference": "\"Not even one\" with a counter (一秒たりとも). Different focus: minimal quantity.",
+      "id": "n1-grammar-26"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供だに知っている。",
+      "right": "子供ですら知っている。",
+      "why": "だに is not used with ordinary nouns as a general \"even\"; use すら / さえ."
+    },
+    {
+      "wrong": "想像しただに恐ろしい。",
+      "right": "想像するだに恐ろしい。",
+      "why": "The verb before だに is in the dictionary form."
+    },
+    {
+      "wrong": "微動だにした。",
+      "right": "微動だにしなかった。",
+      "why": "微動だに is always followed by a negative."
+    }
+  ],
+  "usageNotes": [
+    "Learn the fixed phrases; do not build new ones.",
+    "Vるだに is followed by a feeling adjective (恐ろしい, 悲しい, 嬉しい).",
+    "Nだに is followed by a negative verb."
+  ],
+  "jlptTips": [
+    "If the blank follows 想像する / 微動 / 一顧 / 夢に, the answer is だに.",
+    "Distractors are すら / さえ / も; they are grammatically possible with ordinary nouns but the set phrases only take だに.",
+    "Watch the verb form: 想像するだに (dictionary form), not 想像しただに."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-25-1",
+    "q-n1-g-25-2",
+    "q-n1-g-25-3",
+    "q-n1-g-25-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-25-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

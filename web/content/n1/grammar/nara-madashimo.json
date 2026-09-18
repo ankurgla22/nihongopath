@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-136",
+  "slug": "nara-madashimo",
+  "level": "n1",
+  "order": 136,
+  "title": "〜ならまだしも",
+  "romaji": "nara madashimo",
+  "meaning": "if it were X, that would still be acceptable, but (the actual case is worse)",
+  "simpleExplanation": "〜ならまだしも presents a milder case that the speaker could have tolerated, then complains that what actually happened is worse. 一度ならまだしも、三度も = \"Once would be one thing, but three times!\". まだしも means \"still better\". The tone is annoyed or disappointed.",
+  "whenUsed": "Spoken and written, common in complaints and criticism. X is the tolerable case (一度・子供・少し・知らなかったの); the second half is the intolerable reality, often ending in とは / なんて / のは問題だ.",
+  "formation": [
+    "N + ならまだしも",
+    "普通形 + の + ならまだしも  (知らなかったのならまだしも)",
+    "いA / なA + ならまだしも  (安いならまだしも・少しならまだしも)",
+    "Second half: the worse reality + とは / なんて / のは困る"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Tolerable vs actual (一度ならまだしも、三度も)",
+    "items": [
+      {
+        "label": "一度",
+        "description": "once: I could still let it go"
+      },
+      {
+        "label": "ならまだしも",
+        "description": "the line of tolerance"
+      },
+      {
+        "label": "三度も同じ失敗",
+        "description": "three times: unacceptable"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "一度ならまだしも、三度も同じ失敗をするとは。",
+      "reading": "いちどならまだしも、さんどもおなじしっぱいをするとは。",
+      "en": "Once would be one thing, but making the same mistake three times...",
+      "note": "Once is tolerable; three times crosses the line."
+    },
+    {
+      "ja": "子供ならまだしも、大人がそんな言い訳をするなんて。",
+      "reading": "こどもならまだしも、おとながそんないいわけをするなんて。",
+      "en": "A child might be excused, but for an adult to make such an excuse...",
+      "note": "子供ならまだしも: a child could be excused; an adult cannot."
+    },
+    {
+      "ja": "遅れるだけならまだしも、連絡もしないのは失礼だ。",
+      "reading": "おくれるだけならまだしも、れんらくもしないのはしつれいだ。",
+      "en": "Being late would be one thing, but not even getting in touch is rude.",
+      "note": "遅れるだけならまだしも: mere lateness is forgivable; not calling is not."
+    },
+    {
+      "ja": "少し値上げするならまだしも、いきなり倍になるなんてひどい。",
+      "reading": "すこしねあげするならまだしも、いきなりばいになるなんてひどい。",
+      "en": "A small price rise would be one thing, but doubling it out of nowhere is awful.",
+      "note": "The worse reality ends in なんてひどい."
+    },
+    {
+      "ja": "初心者ならまだしも、経験者がこんな基本的なミスをするとは。",
+      "reading": "しょしんしゃならまだしも、けいけんしゃがこんなきほんてきなミスをするとは。",
+      "en": "From a beginner it might be understandable, but for an experienced person to make such a basic mistake…",
+      "note": "Sentence-final とは leaves the disapproval hanging."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-154",
+      "pattern": "〜ならともかく",
+      "difference": "Also \"if it were X, fine, but\". ともかく is more neutral (\"setting X aside\"); まだしも stresses that X would have been tolerable, so the contrast is more emotional."
+    },
+    {
+      "id": "n1-grammar-54",
+      "pattern": "〜ならいざしらず",
+      "difference": "\"I don't know about X, but\" — sets aside an unknown or extreme case. まだしも sets aside a mild case the speaker could accept."
+    },
+    {
+      "id": "n2-grammar-142",
+      "pattern": "〜はともかく(として)",
+      "difference": "Puts a topic aside to focus on another (\"never mind X\"). Not a scale from tolerable to intolerable."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "三度ならまだしも、一度失敗した。",
+      "right": "一度ならまだしも、三度も失敗した。",
+      "why": "X must be the milder, tolerable case, and the reality the worse one. Reversing them makes no sense."
+    },
+    {
+      "wrong": "遅刻するならまだしも、早く来た。",
+      "right": "遅刻するならまだしも、来ないのは困る。",
+      "why": "The second half must be worse than X. Arriving early is not a complaint."
+    },
+    {
+      "wrong": "子供のならまだしも、大人がそんな言い訳をするなんて。",
+      "right": "子供ならまだしも、大人がそんな言い訳をするなんて。",
+      "why": "A noun attaches directly with なら. The の is only needed after a verb or い-adjective (知らなかったのならまだしも)."
+    }
+  ],
+  "usageNotes": [
+    "The intolerable half is often marked by も (三度も), まで, or なんて to stress excess.",
+    "It can be used in self-criticism too: 学生の頃ならまだしも、この年で徹夜はきつい.",
+    "In polite complaints, まだしも softens by admitting the speaker would have accepted a milder version."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, look for a pair on a scale (一度 vs 三度, 子供 vs 大人, 少し vs 倍) with an annoyed ending; that is ならまだしも.",
+    "If the options include ならともかく and ならまだしも, both may be grammatical; まだしも is the one that emphasizes \"X was still bearable\".",
+    "In 並べ替え, ならまだしも is one chunk; the milder case sits before it, the worse case after."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-136-1",
+    "q-n1-g-136-2",
+    "q-n1-g-136-3",
+    "q-n1-g-136-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-136-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

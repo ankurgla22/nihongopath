@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-5",
+  "slug": "u-ga-mai-ga",
+  "level": "n1",
+  "order": 5,
+  "title": "〜う（よう）が〜まいが / 〜う（よう）と〜まいと",
+  "romaji": "ugamaiga-utomaito",
+  "meaning": "whether … or not (it makes no difference)",
+  "simpleExplanation": "V-volitional + が + V + まいが (or と…まいと) sets out both possibilities, \"do X or not do X\", and says the result is the same either way. まい is the literary negative volitional (\"will not\"). The pattern is a two-sided version of 〜うが.",
+  "whenUsed": "Literary and somewhat cold or resolute. Used when the speaker wants to show that another person's choice does not affect them (私には関係ない) or that an obligation holds either way.",
+  "formation": [
+    "Vよう + が + Vる + まいが (行こうが行くまいが)",
+    "Vよう + と + Vる + まいと (行こうと行くまいと)",
+    "Group II verbs: 食べようが食べまいが (stem + まい) / 食べるまいが also accepted",
+    "する → しようが しまいが / すまいが / するまいが"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "行く",
+        "en": "go (dictionary form)"
+      },
+      {
+        "ja": "行こう + 行くまい",
+        "en": "will go + will not go (two volitionals)"
+      },
+      {
+        "ja": "行こうが行くまいが、関係ない",
+        "en": "whether you go or not, it makes no difference"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "君が行こうが行くまいが、私には関係ない。",
+      "reading": "きみがいこうがいくまいが、わたしにはかんけいない。",
+      "en": "Whether you go or not has nothing to do with me.",
+      "note": "The most typical ending: 私には関係ない (indifference)."
+    },
+    {
+      "ja": "参加しようとしまいと、会費は払わなければならない。",
+      "reading": "さんかしようとしまいと、かいひははらわなければならない。",
+      "en": "Whether you attend or not, you must pay the membership fee.",
+      "note": "Obligation version: whether you attend or not, the fee is due."
+    },
+    {
+      "ja": "彼が信じようと信じまいと、これが事実だ。",
+      "reading": "かれがしんじようとしんじまいと、これがじじつだ。",
+      "en": "Whether he believes it or not, this is the truth.",
+      "note": "信じようと信じまいと (Group II: stem + まい): the fact is unchanged."
+    },
+    {
+      "ja": "雨が降ろうが降るまいが、マラソン大会は予定通り開催される。",
+      "reading": "あめがふろうがふるまいが、マラソンたいかいはよていどおりかいさいされる。",
+      "en": "Whether it rains or not, the marathon will be held as scheduled.",
+      "note": "Weather is a common subject; the event is unaffected."
+    },
+    {
+      "ja": "彼が来ようと来まいと、会議は始めます。",
+      "reading": "かれがこようとこまいと、かいぎははじめます。",
+      "en": "Whether he comes or not, we will start the meeting.",
+      "note": "来る → 来よう / 来まい (こまい). Slightly curt in tone."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜うが / 〜うと",
+      "difference": "One-sided: \"even if X\". The まい version explicitly covers both X and not-X.",
+      "id": "n1-grammar-4"
+    },
+    {
+      "pattern": "〜かどうかにかかわらず",
+      "difference": "Neutral \"whether or not\"; usable in polite conversation without the cold tone.",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜であれ〜であれ",
+      "difference": "Two contrasting nouns rather than a verb and its negative.",
+      "id": "n1-grammar-29"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行くが行かないが、関係ない。",
+      "right": "行こうが行くまいが、関係ない。",
+      "why": "Both halves need volitional forms: positive 行こう and negative 行くまい."
+    },
+    {
+      "wrong": "行こうが行こうまいが、関係ない。",
+      "right": "行こうが行くまいが、関係ない。",
+      "why": "まい attaches to the dictionary form (or stem), never to the volitional 行こう."
+    },
+    {
+      "wrong": "参加しようがしまいが、ぜひ来てください。",
+      "right": "参加してもしなくても、ご自由にどうぞ。",
+      "why": "The pattern signals that the choice does not matter; a warm invitation clashes with its detached tone."
+    }
+  ],
+  "usageNotes": [
+    "The two verbs are always the same verb, affirmative then negative.",
+    "Typical endings: 関係ない, 勝手だ, 自由だ, 変わらない, 〜なければならない.",
+    "In modern usage するまい, しまい and すまい are all seen; JLPT accepts standard forms."
+  ],
+  "jlptTips": [
+    "If the blank is preceded by Vよう + が and the same verb, the answer is Vる + まいが; the test likes to give 〜ないが or 〜なかろうが as distractors.",
+    "Check the ending: a detached statement (関係ない / 勝手だ) confirms the pattern.",
+    "Do not confuse with 〜まいか (invitation) or 〜まいと思う (intention not to)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-5-1",
+    "q-n1-g-5-2",
+    "q-n1-g-5-3",
+    "q-n1-g-5-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-5-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

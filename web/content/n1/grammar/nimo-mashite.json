@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-71",
+  "slug": "nimo-mashite",
+  "level": "n1",
+  "order": 71,
+  "title": "〜にもまして",
+  "romaji": "nimo mashite",
+  "meaning": "even more than …",
+  "simpleExplanation": "〜にもまして means \"even more than X\", where X is already a high standard: 例年にもまして (even more than in a normal year), 以前にもまして (even more than before). With a question word it means \"more than anything / anyone\": 何にもまして (above all), 誰にもまして (more than anyone). 増して literally means \"increasing over\".",
+  "whenUsed": "Formal, mostly written: speeches, reports, essays, letters. It gives a feeling of \"already a lot, and now even more\". The most frequent partners are 以前・例年・いつも・前回 and the question words 何・誰.",
+  "formation": [
+    "N + にもまして",
+    "疑問詞 (何・誰・どこ) + にもまして",
+    "Time words: 以前・例年・前回・いつも + にもまして"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Degrees of comparison",
+    "items": [
+      {
+        "label": "Xより",
+        "description": "more than X (neutral)"
+      },
+      {
+        "label": "Xに比べて",
+        "description": "compared with X (neutral, often figures)"
+      },
+      {
+        "label": "Xにもまして",
+        "description": "even more than X, where X was already a lot"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今年は例年にもまして、多くの観光客が訪れた。",
+      "reading": "ことしはれいねんにもまして、おおくのかんこうきゃくがおとずれた。",
+      "en": "This year even more tourists came than in an average year.",
+      "note": "例年にもまして: normal years already draw many tourists; this year even more."
+    },
+    {
+      "ja": "結婚してから、彼は以前にもまして仕事に励んでいる。",
+      "reading": "けっこんしてから、かれはいぜんにもましてしごとにはげんでいる。",
+      "en": "Since getting married, he has worked even harder than before.",
+      "note": "以前にもまして: he already worked hard; now even harder."
+    },
+    {
+      "ja": "誰にもまして、母が私の合格を喜んでくれた。",
+      "reading": "だれにもまして、ははがわたしのごうかくをよろこんでくれた。",
+      "en": "More than anyone, my mother was delighted at my passing.",
+      "note": "Question word: 誰にもまして = more than anyone."
+    },
+    {
+      "ja": "今年の夏は、いつにもまして暑さが厳しい。",
+      "reading": "ことしのなつは、いつにもましてあつさがきびしい。",
+      "en": "This summer the heat is harsher than ever.",
+      "note": "いつにもまして = more than at any time."
+    },
+    {
+      "ja": "私にとっては、何にもまして家族の健康が大切だ。",
+      "reading": "わたしにとっては、なににもましてかぞくのけんこうがたいせつだ。",
+      "en": "For me, my family's health matters more than anything.",
+      "note": "何にもまして = above all else."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に比べて / 〜に比べ",
+      "difference": "Neutral comparison of amount or degree. にもまして adds \"and X was already a lot\".",
+      "id": "n2-grammar-108"
+    },
+    {
+      "pattern": "〜にひきかえ",
+      "difference": "Contrast of opposite kinds, not a comparison of degree.",
+      "id": "n1-grammar-70"
+    },
+    {
+      "pattern": "〜ほど〜ない / 〜くらい〜はない",
+      "difference": "A superlative in negative form (\"nothing is as … as\"). 何にもまして is the affirmative equivalent.",
+      "id": "n2-grammar-148"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今年は去年にもまして客が少ない。",
+      "right": "今年は去年に比べて客が少ない。",
+      "why": "にもまして stresses an increase over an already high level; for a decrease, use に比べて or より."
+    },
+    {
+      "wrong": "彼にもまして、私は背が高い。（単なる比較）",
+      "right": "彼より、私は背が高い。",
+      "why": "A plain comparison of two people's height does not need にもまして; the standard must be already notable."
+    },
+    {
+      "wrong": "以前にまして、忙しい。",
+      "right": "以前にもまして、忙しい。",
+      "why": "The set form includes も: にもまして."
+    }
+  ],
+  "usageNotes": [
+    "The verb or adjective after it usually expresses \"a lot\": 多い・熱心だ・厳しい・大切だ.",
+    "It tends to be used for increases in something positive or notable (effort, popularity, heat), not for declines.",
+    "何にもまして and 誰にもまして are near-fixed adverbs meaning \"above all\" and \"more than anyone\"."
+  ],
+  "jlptTips": [
+    "以前 / 例年 / いつ + blank + a high-degree predicate: にもまして is the target.",
+    "Distractors: に比べて, にひきかえ, に加えて. If the sentence says \"even more than before\", pick にもまして.",
+    "The も is part of the pattern; にまして alone is a trap in 文法形式の判断."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-71-1",
+    "q-n1-g-71-2",
+    "q-n1-g-71-3",
+    "q-n1-g-71-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-71-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-172",
+  "slug": "te-wa-kanawanai",
+  "level": "n1",
+  "order": 172,
+  "title": "〜てはかなわない / 〜ちゃかなわない",
+  "romaji": "te wa kanawanai / cha kanawanai",
+  "meaning": "cannot stand …; it is unbearable if …; I can't take …",
+  "simpleExplanation": "〜てはかなわない complains that a situation is too much to bear: こう暑くてはかなわない = \"This heat is unbearable\". かなわない here means \"can't cope, can't stand it\". The て-form + は presents the condition; かなわない gives the reaction. Casual: 〜ちゃかなわない.",
+  "whenUsed": "Spoken Japanese, complaints among family, friends, and colleagues. Attaches to verbs (Vて), い-adjectives (くて), and な-adjectives / nouns (で). Often about repeated or continuing annoyances: 毎晩・毎回・こう・こんなに.",
+  "formation": [
+    "Vて + はかなわない  (遅刻されてはかなわない)",
+    "いA-くて + はかなわない  (うるさくてはかなわない)",
+    "なA / N + で + はかなわない  (不便ではかなわない)",
+    "Casual: 〜ちゃかなわない / 〜じゃかなわない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "毎晩こんなにうるさくて",
+        "role": "the unbearable condition"
+      },
+      {
+        "text": "は",
+        "role": "\"if it is like this\""
+      },
+      {
+        "text": "かなわない",
+        "role": "\"I can't stand it\"",
+        "highlight": true
+      }
+    ],
+    "translation": "I cannot stand it being this noisy every night."
+  },
+  "examples": [
+    {
+      "ja": "毎晩こんなにうるさくてはかなわない。",
+      "reading": "まいばんこんなにうるさくてはかなわない。",
+      "en": "I cannot stand it being this noisy every night.",
+      "note": "毎晩 + うるさくて + はかなわない: a repeated annoyance."
+    },
+    {
+      "ja": "こう暑くてはかなわない。",
+      "reading": "こうあつくてはかなわない。",
+      "en": "This heat is unbearable.",
+      "note": "こう + 暑くて + はかなわない: the heat itself."
+    },
+    {
+      "ja": "毎回遅刻されちゃかなわないよ。",
+      "reading": "まいかいちこくされちゃかなわないよ。",
+      "en": "I cannot put up with you being late every time.",
+      "note": "Passive 遅刻されちゃ: being made to suffer someone's lateness; casual contraction."
+    },
+    {
+      "ja": "毎週末に仕事を頼まれてはかなわないので、上司にはっきり断った。",
+      "reading": "まいしゅうまつにしごとをたのまれてはかなわないので、じょうしにはっきりことわった。",
+      "en": "I could not stand being asked to work every weekend, so I clearly refused my boss.",
+      "note": "Passive + てはかなわない gives the reason for action."
+    },
+    {
+      "ja": "こんなに家賃が高くちゃかなわないよ。引っ越そう。",
+      "reading": "こんなにやちんがたかくちゃかなわないよ。ひっこそう。",
+      "en": "I can't take rent this high. Let's move.",
+      "note": "Casual ちゃかなわない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-79",
+      "pattern": "〜てたまらない",
+      "difference": "\"Extremely (a feeling)\" (うれしくてたまらない), can be positive. てはかなわない is always a complaint about an unbearable condition."
+    },
+    {
+      "id": "n1-grammar-161",
+      "pattern": "〜てはいられない",
+      "difference": "\"Cannot afford to keep doing\": the speaker's own action under pressure. てはかなわない: an external situation the speaker cannot bear."
+    },
+    {
+      "id": "n2-grammar-88",
+      "pattern": "〜どころではない",
+      "difference": "\"This is no time for X\" (旅行どころではない): X is impossible because of circumstances. Not a complaint about X itself."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "うれしくてはかなわない。",
+      "right": "うれしくてたまらない。",
+      "why": "てはかなわない is only for unbearable, unpleasant conditions."
+    },
+    {
+      "wrong": "うるさいてはかなわない。",
+      "right": "うるさくてはかなわない。",
+      "why": "い-adjectives take くて before は."
+    },
+    {
+      "wrong": "（上司に）毎回残業させられてはかないません。",
+      "right": "毎回の残業は少し厳しいのですが…。",
+      "why": "The pattern is a blunt complaint; soften it for superiors."
+    }
+  ],
+  "usageNotes": [
+    "Passive verbs are very common (〜されてはかなわない): being made to suffer something.",
+    "The pattern often justifies an action: 〜てはかなわないので、〜した.",
+    "かなわない also means \"is no match for\" (彼にはかなわない); the complaint use is only with ては."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an unpleasant condition in て-form + は + a blank, in a complaining tone, is かなわない.",
+    "Distractor たまらない: can be positive and lacks は; if the sentence has ては / ちゃ and is a complaint, choose かなわない.",
+    "In 並べ替え, ては and かなわない may be split; the て-form of the condition precedes them."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-172-1",
+    "q-n1-g-172-2",
+    "q-n1-g-172-3",
+    "q-n1-g-172-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-172-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

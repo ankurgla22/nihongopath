@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-123",
+  "slug": "wo-sakai-ni",
+  "level": "n1",
+  "order": 123,
+  "title": "〜を境に(して)",
+  "romaji": "wo sakai ni (shite)",
+  "meaning": "from (that point) on; with … as the dividing line; before and after …",
+  "simpleExplanation": "〜を境に draws a line at one point in time or space and says that things on one side are different from things on the other. 境 (さかい) means \"boundary\". Before X it was one way; after X (or beyond X) it is another way.",
+  "whenUsed": "Mainly written and semi-formal spoken Japanese: essays, news, biographies, and explanations of change. Used with turning points in a life (四十歳・結婚・事件) or physical boundaries (川・山・国境). Neutral in tone; the change can be good or bad.",
+  "formation": [
+    "N + を境に",
+    "N + を境にして (slightly heavier)",
+    "N + を境として (formal, written)",
+    "Typical nouns: 事件・事故・年齢 (四十歳)・日付 (その日)・川・山脈・線"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Before and after the boundary (この事件を境に)",
+    "items": [
+      {
+        "label": "before",
+        "description": "his life as it used to be"
+      },
+      {
+        "label": "境 = この事件",
+        "description": "the dividing line"
+      },
+      {
+        "label": "after",
+        "description": "his life, completely changed"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この事件を境に、彼の人生は大きく変わった。",
+      "reading": "このじけんをさかいに、かれのじんせいはおおきくかわった。",
+      "en": "From this incident on, his life changed dramatically.",
+      "note": "The incident is a dividing line between his old life and his new one."
+    },
+    {
+      "ja": "四十歳を境に、体力が急に落ちた。",
+      "reading": "よんじゅっさいをさかいに、たいりょくがきゅうにおちた。",
+      "en": "After turning forty, my strength dropped suddenly.",
+      "note": "Ages are common boundaries: before forty and after forty are contrasted."
+    },
+    {
+      "ja": "この川を境にして、気候が大きく異なる。",
+      "reading": "このかわをさかいにして、きこうがおおきくことなる。",
+      "en": "With this river as the dividing line, the climate differs greatly.",
+      "note": "With a place (川), the boundary is spatial: climate on one side vs the other."
+    },
+    {
+      "ja": "その日を境に、彼女は一度も笑わなくなった。",
+      "reading": "そのひをさかいに、かのじょはいちどもわらわなくなった。",
+      "en": "From that day on, she never smiled again.",
+      "note": "その日を境に is a frequent narrative phrase."
+    },
+    {
+      "ja": "この線を境として、市の管理区域と県の管理区域が分かれている。",
+      "reading": "このせんをさかいとして、しのかんりくいきとけんのかんりくいきがわかれている。",
+      "en": "This line is the boundary between the area managed by the city and that managed by the prefecture.",
+      "note": "を境として: formal, spatial boundary in official writing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-122",
+      "pattern": "〜を機に",
+      "difference": "An occasion someone used to start a new action. を境に only observes that things differ before and after a point; nobody has to decide anything."
+    },
+    {
+      "id": "n1-grammar-30",
+      "pattern": "〜てからというもの",
+      "difference": "Also \"ever since\", but attaches to a verb and stresses the continuing new state with emotion. を境に attaches to a noun and stresses the contrast between two sides."
+    },
+    {
+      "id": "n2-grammar-4",
+      "pattern": "〜以来",
+      "difference": "Simply \"since\"; the change is not necessarily contrasted with what came before."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "四十歳を境に、少しずつ白髪が増えてきた。",
+      "right": "四十歳を過ぎてから、少しずつ白髪が増えてきた。",
+      "why": "を境に implies a clear break, not a gradual drift. For a slow change use 〜てから or 〜につれて."
+    },
+    {
+      "wrong": "結婚を境にして、家を買った。",
+      "right": "結婚を機に、家を買った。",
+      "why": "Buying a house is a single deliberate action. を境に needs a lasting difference between before and after; use を機に for a triggered action."
+    },
+    {
+      "wrong": "この川に境に、気候が変わる。",
+      "right": "この川を境に、気候が変わる。",
+      "why": "The particle is を. The pattern is fixed as を境に(して)."
+    }
+  ],
+  "usageNotes": [
+    "The clause after を境に usually describes a lasting change: 〜ようになった, 〜なくなった, 〜が変わった.",
+    "Spatial uses (川・山・国境を境に) are neutral descriptions of geography, not changes over time.",
+    "Adding して or として makes the phrase heavier and more formal; plain を境に is fine in most writing."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a noun that is a point in time or space followed by a contrast (before ≠ after) signals を境に.",
+    "The usual distractors are を機に and をもって. If the main clause is a state that changed (変わった・なくなった), pick を境に; if it is a chosen action, pick を機に.",
+    "In 並べ替え, place を境に right after the boundary noun, and put the changed state at the end."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-123-1",
+    "q-n1-g-123-2",
+    "q-n1-g-123-3",
+    "q-n1-g-123-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-123-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

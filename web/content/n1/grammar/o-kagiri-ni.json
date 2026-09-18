@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-91",
+  "slug": "o-kagiri-ni",
+  "level": "n1",
+  "order": 91,
+  "title": "〜を限りに",
+  "romaji": "o kagiri ni",
+  "meaning": "as of …, no more; from … on (something ends); with all one's …",
+  "simpleExplanation": "〜を限りに marks a point after which something stops: 今日を限りにタバコをやめる (as of today, I quit smoking), 今月末を限りに閉店 (closing at the end of this month). 限り = \"limit\", so the time word is the last day. A second use, 声を限りに / 力の限り, means \"with all one's voice / strength\".",
+  "whenUsed": "Formal announcements, resolutions and business notices (closures, retirements, ends of service). The first use always expresses an ending, never a beginning. The second use is literary (声を限りに叫ぶ).",
+  "formation": [
+    "N(time / event) + を限りに + ending (やめる・閉店する・引退する・終了する)",
+    "声を限りに / 力の限り (with all one's voice / strength)",
+    "Set: 本日を限りに・今回を限りに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "を限りに vs をもって vs を皮切りに",
+    "columns": [
+      "Direction",
+      "Typical predicate",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜を限りに",
+        "cells": [
+          "something ends after this point",
+          "やめる・閉店する・引退する",
+          "今日を限りに禁酒する"
+        ]
+      },
+      {
+        "label": "〜をもって",
+        "cells": [
+          "a formal cutoff (end or start)",
+          "終了する・開始する",
+          "本日をもって閉店"
+        ]
+      },
+      {
+        "label": "〜を皮切りに",
+        "cells": [
+          "something starts and continues",
+          "始まる・広がる",
+          "東京を皮切りに全国ツアー"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日を限りに、タバコをやめることにした。",
+      "reading": "きょうをかぎりに、タバコをやめることにした。",
+      "en": "As of today, I have decided to quit smoking.",
+      "note": "A personal resolution: today is the last day of smoking."
+    },
+    {
+      "ja": "当店は今月末を限りに閉店いたします。",
+      "reading": "とうてんはこんげつまつをかぎりにへいてんいたします。",
+      "en": "This shop will close at the end of this month.",
+      "note": "A shop closure notice: 今月末を限りに閉店."
+    },
+    {
+      "ja": "子供たちは声を限りに応援した。",
+      "reading": "こどもたちはこえをかぎりにおうえんした。",
+      "en": "The children cheered at the top of their voices.",
+      "note": "The literary use: 声を限りに = with all their voice."
+    },
+    {
+      "ja": "この試合を限りに、彼は現役を引退すると発表した。",
+      "reading": "このしあいをかぎりに、かれはげんえきをいんたいするとはっぴょうした。",
+      "en": "He announced that he would retire from active play after this match.",
+      "note": "An event, not only a date, can be the limit."
+    },
+    {
+      "ja": "今回を限りに、こうした特別対応は行いません。",
+      "reading": "こんかいをかぎりに、こうしたとくべつたいおうはおこないません。",
+      "en": "This will be the last time we make such a special arrangement.",
+      "note": "Business notice: no more exceptions after this one."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をもって",
+      "difference": "A formal cutoff point that can start or end something (本日をもって開始). を限りに only ends.",
+      "id": "n1-grammar-94"
+    },
+    {
+      "pattern": "〜を皮切りに",
+      "difference": "Marks the first of a series that continues: the opposite direction.",
+      "id": "n1-grammar-92"
+    },
+    {
+      "pattern": "〜以来",
+      "difference": "\"Since X\": a starting point with continuation up to now, not an ending.",
+      "id": "n2-grammar-4"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "今日を限りに、ジョギングを始める。",
+      "right": "今日から、ジョギングを始める。",
+      "why": "を限りに marks an end; for a start use から or をもって."
+    },
+    {
+      "wrong": "今日限りに、やめます。",
+      "right": "今日を限りに、やめます。／今日限りで、やめます。",
+      "why": "The pattern needs を; the alternative is 今日限りで."
+    },
+    {
+      "wrong": "十時を限りに閉店します。（毎日の営業時間）",
+      "right": "十時に閉店します。",
+      "why": "Daily closing times are simple facts; を限りに is for a permanent end."
+    }
+  ],
+  "usageNotes": [
+    "The predicate is nearly always a verb of stopping or ending: やめる・引退する・閉店する・終了する・打ち切る.",
+    "本日を限りに / 今回を限りに are the most frequent forms in notices.",
+    "声を限りに and 力の限り are separate idioms meaning \"to the limit of\"; do not mix them with the time use."
+  ],
+  "jlptTips": [
+    "A date or event + blank + an ending verb → を限りに.",
+    "The main distractor is をもって; if the sentence could also mean \"start\", をもって is more likely, and if the verb is やめる / 引退する, を限りに is the natural key.",
+    "In 並べ替え, keep N + を限りに together and place the ending verb after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-91-1",
+    "q-n1-g-91-2",
+    "q-n1-g-91-3",
+    "q-n1-g-91-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-91-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

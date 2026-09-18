@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-38",
+  "slug": "to-iu-tokoro-da",
+  "level": "n1",
+  "order": 38,
+  "title": "〜というところだ / 〜といったところだ",
+  "romaji": "toiutokoroda-toittatokoroda",
+  "meaning": "about …; roughly …; at most …",
+  "simpleExplanation": "Xというところだ / といったところだ gives a modest, approximate estimate, usually implying \"not more than that\": 駅まで歩いて十分というところだ \"about ten minutes' walk\". It is used for amounts, durations, levels and degrees.",
+  "whenUsed": "Both registers; conversational and written. Often with せいぜい (at most), まあ, だいたい. Also used for a state: 順調というところだ (\"things are going about fine\").",
+  "formation": [
+    "Noun / quantity + というところだ / といったところだ",
+    "Vる + というところだ (これから始めるというところだ)",
+    "せいぜい / まあ + 〜といったところだ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Estimating and evaluating",
+    "columns": [
+      "use",
+      "nuance",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜というところだ",
+        "cells": [
+          "rough estimate",
+          "about this much, not more",
+          "三十人といったところだ"
+        ]
+      },
+      {
+        "label": "〜というものだ",
+        "cells": [
+          "evaluation",
+          "that is what X really is",
+          "それは無理というものだ"
+        ]
+      },
+      {
+        "label": "〜ところだ",
+        "cells": [
+          "timing",
+          "about to / just did",
+          "出かけるところだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "駅まで歩いて十分というところだ。",
+      "reading": "えきまであるいてじゅっぷんというところだ。",
+      "en": "It is about a ten-minute walk to the station.",
+      "note": "A rough duration estimate."
+    },
+    {
+      "ja": "参加者はせいぜい三十人といったところだろう。",
+      "reading": "さんかしゃはせいぜいさんじゅうにんといったところだろう。",
+      "en": "Participants will be around thirty at most.",
+      "note": "せいぜい + 三十人 + といったところだろう: at most."
+    },
+    {
+      "ja": "今の実力では、合格はまあ五分五分というところです。",
+      "reading": "いまのじつりょくでは、ごうかくはまあごぶごぶというところです。",
+      "en": "With my current ability, passing is roughly a fifty-fifty proposition.",
+      "note": "A level estimate (fifty-fifty) with ですます."
+    },
+    {
+      "ja": "日本語能力は、日常会話ができるといったところです。",
+      "reading": "にほんごのうりょくは、にちじょうかいわができるといったところです。",
+      "en": "My Japanese is about at the level of managing daily conversation.",
+      "note": "A modest self-assessment."
+    },
+    {
+      "ja": "「進み具合はどう？」「まあ、七割方完成というところかな。」",
+      "reading": "「すすみぐあいはどう？」「まあ、ななわりがたかんせいというところかな。」",
+      "en": "\"How's it going?\" \"Well, I'd say about seventy percent done.\"",
+      "note": "Spoken with まあ and かな."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜というものだ",
+      "difference": "\"That's what it really is\": an evaluation, not an estimate.",
+      "id": "n2-grammar-83"
+    },
+    {
+      "pattern": "〜ところだ",
+      "difference": "Timing (\"about to / just did\"); no estimate meaning.",
+      "id": "n2-grammar-65"
+    },
+    {
+      "pattern": "〜程度だ / 〜くらいだ",
+      "difference": "Neutral \"about\"; というところだ adds the speaker's assessment and the sense of \"no more than\".",
+      "id": "n2-grammar-39"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "駅まで十分というものだ。",
+      "right": "駅まで十分というところだ。",
+      "why": "Estimates take ところだ; ものだ evaluates a claim."
+    },
+    {
+      "wrong": "参加者は百万人といったところだ。",
+      "right": "参加者はせいぜい三十人といったところだ。",
+      "why": "The pattern suits modest, smallish estimates; huge numbers sound odd."
+    },
+    {
+      "wrong": "今、出かけるというところだ。",
+      "right": "今、出かけるところだ。",
+      "why": "For timing, use ところだ without という."
+    }
+  ],
+  "usageNotes": [
+    "Frequent adverbs: せいぜい, まあ, だいたい, 大体.",
+    "Both というところ and といったところ are correct; といった is a little more written.",
+    "Common in answering \"how far / how many / how good\" questions modestly."
+  ],
+  "jlptTips": [
+    "A number or level + blank + だ, with せいぜい / まあ nearby → というところだ.",
+    "Distractor というものだ evaluates (無理というものだ); check whether a number or level precedes.",
+    "Timing ところだ never has という before it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-38-1",
+    "q-n1-g-38-2",
+    "q-n1-g-38-3",
+    "q-n1-g-38-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-38-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

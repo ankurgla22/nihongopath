@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-8",
+  "slug": "katagata",
+  "level": "n1",
+  "order": 8,
+  "title": "〜かたがた",
+  "romaji": "katagata",
+  "meaning": "partly for the purpose of …; combining … with …",
+  "simpleExplanation": "Nかたがた means you visit or write for purpose N and at the same time for another purpose: お礼かたがたご挨拶に伺う \"I call on you to greet you and also to thank you\". It is a very formal expression used almost only with a handful of polite nouns.",
+  "whenUsed": "Business letters, formal e-mails, polite visits to superiors or clients. Never casual. The main verb is typically 伺う, 参る, 訪ねる, お便りする.",
+  "formation": [
+    "Formal noun + かたがた (お礼・お詫び・ご挨拶・ご報告・お見舞い)",
+    "Nかたがた + 伺う / お邪魔する / お便りいたします"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "先日の",
+        "role": "modifier"
+      },
+      {
+        "text": "お礼",
+        "role": "purpose 1 (formal noun)",
+        "highlight": true
+      },
+      {
+        "text": "かたがた",
+        "role": "\"and at the same time\"",
+        "highlight": true
+      },
+      {
+        "text": "ご挨拶に",
+        "role": "purpose 2"
+      },
+      {
+        "text": "伺いました",
+        "role": "humble verb"
+      }
+    ],
+    "translation": "I called on you to pay my respects and also to thank you for the other day."
+  },
+  "examples": [
+    {
+      "ja": "先日のお礼かたがた、ご挨拶に伺いました。",
+      "reading": "せんじつのおれいかたがた、ごあいさつにうかがいました。",
+      "en": "I came to pay my respects and also to thank you for the other day.",
+      "note": "The standard formula: お礼かたがた + ご挨拶に伺う."
+    },
+    {
+      "ja": "帰省かたがた、恩師の墓参りをする予定です。",
+      "reading": "きせいかたがた、おんしのはかまいりをするよていです。",
+      "en": "I plan to visit my old teacher's grave while going home.",
+      "note": "帰省かたがた: a home visit combined with a grave visit; still formal."
+    },
+    {
+      "ja": "ご報告かたがた、一度お伺いしたく存じます。",
+      "reading": "ごほうこくかたがた、いちどおうかがいしたくぞんじます。",
+      "en": "I would like to visit once, partly to report to you.",
+      "note": "ご報告かたがた + お伺いしたく存じます: very polite request for a meeting."
+    },
+    {
+      "ja": "お詫びかたがた、一度ご説明に伺わせていただきたく存じます。",
+      "reading": "おわびかたがた、いちどごせつめいにうかがわせていただきたくぞんじます。",
+      "en": "I would like to visit you once to explain, and also to apologise.",
+      "note": "お詫び is another set partner; note the humble ending."
+    },
+    {
+      "ja": "転勤のご報告かたがた、お便りいたします。",
+      "reading": "てんきんのごほうこくかたがた、おたよりいたします。",
+      "en": "I am writing to inform you of my transfer and to send my regards.",
+      "note": "Letter opening: かたがた + お便りする."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がてら",
+      "difference": "Everyday version for ordinary outings (散歩がてら). かたがた is formal and takes polite nouns.",
+      "id": "n1-grammar-7"
+    },
+    {
+      "pattern": "〜に当たって",
+      "difference": "\"On the occasion of\" (ご挨拶に当たって): marks the occasion, not a second purpose.",
+      "id": "n2-grammar-98"
+    },
+    {
+      "pattern": "〜ついでに",
+      "difference": "Casual afterthought; would sound rude with お礼 or お詫び.",
+      "id": "n2-grammar-70"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "散歩かたがた、コンビニに行った。",
+      "right": "散歩がてら、コンビニに行った。",
+      "why": "かたがた is for formal purposes like お礼; everyday outings use がてら."
+    },
+    {
+      "wrong": "お礼を言うかたがた、伺いました。",
+      "right": "お礼かたがた、伺いました。",
+      "why": "かたがた attaches to a noun, not a verb phrase."
+    },
+    {
+      "wrong": "お礼かたがた、遊びに行った。",
+      "right": "お礼かたがた、ご挨拶に伺った。",
+      "why": "The main verb should be a humble or formal verb; 遊びに行く clashes with the register."
+    }
+  ],
+  "usageNotes": [
+    "Memorise the set: お礼, お詫び, ご挨拶, ご報告, お見舞い, ご相談 + かたがた.",
+    "Almost always followed by 伺う / お伺いする / お邪魔する / お便りする.",
+    "Used in the first sentence of a letter or as the reason for a visit."
+  ],
+  "jlptTips": [
+    "If the noun is お礼 / お詫び / ご挨拶 and the verb is 伺う, choose かたがた over がてら.",
+    "Distractors are がてら (register too casual), ついでに (rude) and かたわら (long-term parallel activity).",
+    "The blank is usually directly after the polite noun with no particle."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-8-1",
+    "q-n1-g-8-2",
+    "q-n1-g-8-3",
+    "q-n1-g-8-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-8-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

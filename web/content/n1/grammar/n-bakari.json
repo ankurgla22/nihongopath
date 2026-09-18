@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-101",
+  "slug": "n-bakari",
+  "level": "n1",
+  "order": 101,
+  "title": "〜んばかり(に/だ/の)",
+  "romaji": "n bakari (ni / da / no)",
+  "meaning": "as if about to …; almost …",
+  "simpleExplanation": "〜んばかり describes something that looks as if it is about to happen: 泣かんばかりの顔 (a face that looks ready to cry), 割れんばかりの拍手 (applause as if the hall would split). The ん is the classical volitional attached to the ない-stem. The special phrase 言わんばかりに means \"as if to say\".",
+  "whenUsed": "Narrative writing and vivid description, also in refined speech. It describes what the speaker observes in others or in scenes, not the speaker's own actions. する becomes せんばかり.",
+  "formation": [
+    "Vない-stem + んばかりに + V (manner)",
+    "Vない-stem + んばかりの + N",
+    "Vない-stem + んばかりだ (sentence end)",
+    "Set: 言わんばかりに / 〜と言わんばかりの"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "泣きそうな顔",
+        "en": "a face that looks like crying (neutral)"
+      },
+      {
+        "ja": "泣かんばかりの顔",
+        "en": "a face as if about to burst into tears (vivid, literary)"
+      },
+      {
+        "ja": "「出て行け」と言わんばかりの態度",
+        "en": "an attitude as if to say \"get out\""
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼女は泣かんばかりの顔で助けを求めた。",
+      "reading": "かのじょはなかんばかりのかおでたすけをもとめた。",
+      "en": "She asked for help with a face that looked ready to burst into tears.",
+      "note": "泣かんばかりの + 顔: adnominal use."
+    },
+    {
+      "ja": "会場は割れんばかりの拍手に包まれた。",
+      "reading": "かいじょうはわれんばかりのはくしゅにつつまれた。",
+      "en": "The hall was filled with thunderous applause.",
+      "note": "割れんばかりの拍手: the classic phrase for thunderous applause."
+    },
+    {
+      "ja": "彼は早く帰れと言わんばかりに、時計を見た。",
+      "reading": "かれははやくかえれといわんばかりに、とけいをみた。",
+      "en": "He looked at his watch as if to say hurry up and go home.",
+      "note": "言わんばかりに: as if to say, with the implied words before it."
+    },
+    {
+      "ja": "彼女は飛び上がらんばかりに喜んだ。",
+      "reading": "かのじょはとびあがらんばかりによろこんだ。",
+      "en": "She was so delighted she almost jumped for joy.",
+      "note": "んばかりに + verb describes the manner."
+    },
+    {
+      "ja": "店員は「早く帰れ」と言わんばかりに、店の灯りを消し始めた。",
+      "reading": "てんいんは「はやくかえれ」といわんばかりに、みせのあかりをけしはじめた。",
+      "en": "The clerk started turning off the shop lights as if to say \"hurry up and leave\".",
+      "note": "The quoted words are what the behaviour implies."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜んがため(に)",
+      "difference": "Same classical ん, but expresses purpose.",
+      "id": "n1-grammar-100"
+    },
+    {
+      "pattern": "〜んとする",
+      "difference": "Same ん: \"be about to / try to\" as an actual imminent event, not an appearance.",
+      "id": "n1-grammar-102"
+    },
+    {
+      "pattern": "〜とばかりに",
+      "difference": "\"As if to say X\": the quoted version, close to 言わんばかりに.",
+      "id": "n1-grammar-45"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "泣くんばかりの顔",
+      "right": "泣かんばかりの顔",
+      "why": "Attach ん to the ない-stem."
+    },
+    {
+      "wrong": "私は泣かんばかりに頼んだ。",
+      "right": "私は泣きそうになりながら頼んだ。",
+      "why": "The pattern describes what is observed in others; for oneself it sounds odd."
+    },
+    {
+      "wrong": "割れるばかりの拍手",
+      "right": "割れんばかりの拍手",
+      "why": "ばかり alone means \"only\"; the ん is essential."
+    }
+  ],
+  "usageNotes": [
+    "The event does not actually happen; it only looks as if it will (the applause does not split the hall).",
+    "Frequent phrases: 割れんばかりの拍手, 泣かんばかり, あふれんばかりの笑顔, 言わんばかり.",
+    "する → せんばかり: 土下座せんばかりに謝った."
+  ],
+  "jlptTips": [
+    "A ない-stem + ん + blank + の/に describing a vivid appearance → ばかり.",
+    "Distractors: んがため (purpose), んとする (imminent), ばかりに (because). Check for the ん and for the sense \"as if\".",
+    "言わんばかり is a frequent key; recognise it as a unit."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-101-1",
+    "q-n1-g-101-2",
+    "q-n1-g-101-3",
+    "q-n1-g-101-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-101-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

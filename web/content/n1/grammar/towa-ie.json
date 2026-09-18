@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-44",
+  "slug": "towa-ie",
+  "level": "n1",
+  "order": 44,
+  "title": "〜とはいえ",
+  "romaji": "tohaie",
+  "meaning": "though …; that said …; admittedly …",
+  "simpleExplanation": "Xとはいえ admits that X is true and then adds a reservation: 春とはいえ、朝晩はまだ冷える \"it is spring, but mornings are still cold\". It can also start a sentence as a conjunction meaning \"that said\". It is the formal relative of といっても / けれども.",
+  "whenUsed": "Both registers, leaning formal; common in essays, news commentary and careful speech. Sentence-initial とはいえ is frequent in writing.",
+  "formation": [
+    "Noun / plain form + とはいえ",
+    "Sentence-initial とはいえ、…",
+    "いくら + 〜とはいえ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Admit, then reserve",
+    "columns": [
+      "form",
+      "tone",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜とはいえ",
+        "cells": [
+          "admits X, adds reservation",
+          "formal, measured",
+          "春とはいえ、まだ寒い"
+        ]
+      },
+      {
+        "label": "〜といっても",
+        "cells": [
+          "corrects an impression",
+          "spoken",
+          "春といっても、まだ寒い"
+        ]
+      },
+      {
+        "label": "〜といえども",
+        "cells": [
+          "solemn concession, general truths",
+          "literary",
+          "専門家といえども間違える"
+        ]
+      },
+      {
+        "label": "〜ものの",
+        "cells": [
+          "although, expectation unmet",
+          "written",
+          "春になったものの、まだ寒い"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "春とはいえ、朝晩はまだ冷える。",
+      "reading": "はるとはいえ、あさばんはまだひえる。",
+      "en": "It is spring, but mornings and evenings are still chilly.",
+      "note": "A fact (spring) with a reservation (still cold)."
+    },
+    {
+      "ja": "いくら忙しいとはいえ、連絡ぐらいはできたはずだ。",
+      "reading": "いくらいそがしいとはいえ、れんらくぐらいはできたはずだ。",
+      "en": "Busy as you were, you could at least have got in touch.",
+      "note": "いくら + とはいえ: mild criticism."
+    },
+    {
+      "ja": "とはいえ、計画を中止するわけにはいかない。",
+      "reading": "とはいえ、けいかくをちゅうしするわけにはいかない。",
+      "en": "That said, we cannot call off the plan.",
+      "note": "Sentence-initial conjunction: that said."
+    },
+    {
+      "ja": "合格したとはいえ、ぎりぎりの点数だったので喜べない。",
+      "reading": "ごうかくしたとはいえ、ぎりぎりのてんすうだったのでよろこべない。",
+      "en": "I passed, but only barely, so I can't really celebrate.",
+      "note": "Clause + とはいえ."
+    },
+    {
+      "ja": "仕事とはいえ、休日に呼び出されるのはつらい。",
+      "reading": "しごととはいえ、きゅうじつによびだされるのはつらい。",
+      "en": "Even if it's work, being called in on a day off is hard.",
+      "note": "Noun + とはいえ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜といえども",
+      "difference": "More solemn; used for general truths with いかに / たとえ.",
+      "id": "n1-grammar-37"
+    },
+    {
+      "pattern": "〜といっても",
+      "difference": "Spoken; corrects an overestimate (\"I say X, but only a little\").",
+      "id": "n2-grammar-86"
+    },
+    {
+      "pattern": "〜ものの",
+      "difference": "\"Although\" with an unfulfilled expectation; cannot start a sentence.",
+      "id": "n2-grammar-159"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "春とはいえ、暖かい。",
+      "right": "春とはいえ、まだ寒い。",
+      "why": "The second clause must contradict what X would lead you to expect."
+    },
+    {
+      "wrong": "春だとはいえば",
+      "right": "春とはいえ",
+      "why": "The fixed form is とはいえ; とはいえば changes it into a conditional."
+    },
+    {
+      "wrong": "とはいえ、で計画は中止しない。",
+      "right": "とはいえ、計画は中止しない。",
+      "why": "As a conjunction it stands alone at the start of the sentence."
+    }
+  ],
+  "usageNotes": [
+    "Frequent adverbs: いくら, まだ, さすがに.",
+    "Sentence-initial とはいえ is a standard essay connector like しかし.",
+    "Softer than でも and more formal than けど."
+  ],
+  "jlptTips": [
+    "A fact + blank + a reservation (まだ / さすがに) → とはいえ.",
+    "If the sentence begins with the blank followed by a comma, とはいえ is likely; ものの cannot start a sentence.",
+    "といえども is the literary distractor with いかに / たとえ; とはいえ is the everyday-formal choice."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-44-1",
+    "q-n1-g-44-2",
+    "q-n1-g-44-3",
+    "q-n1-g-44-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-44-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

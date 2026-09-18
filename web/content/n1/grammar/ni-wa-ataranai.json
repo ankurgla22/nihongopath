@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-151",
+  "slug": "ni-wa-ataranai",
+  "level": "n1",
+  "order": 151,
+  "title": "〜に(は)当たらない",
+  "romaji": "ni (wa) ataranai",
+  "meaning": "there is no need to (be surprised, praise, criticize); does not merit …",
+  "simpleExplanation": "〜に(は)当たらない says that a reaction is not called for: 驚くには当たらない = \"there is no need to be surprised\". 当たる here means \"to correspond to, to be appropriate\". It works only with verbs and nouns of evaluation or emotion: being surprised, praising, blaming, admiring. A reason is usually given (it was to be expected).",
+  "whenUsed": "Formal written and spoken Japanese: commentary, editorials, formal explanations. Not used casually. Typical words: 驚く・感心する・称賛する・非難する・責める・悲観する・同情する, and their nouns (称賛・非難・同情).",
+  "formation": [
+    "Vる + に(は)当たらない  (驚くには当たらない)",
+    "N (evaluation) + に(は)当たらない  (称賛には当たらない・非難に当たらない)",
+    "Often preceded by a reason: 〜のだから / 〜ので / 〜以上"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼が合格したのは当然で",
+        "role": "reason: it was expected"
+      },
+      {
+        "text": "驚く",
+        "role": "reaction (evaluation / emotion verb)"
+      },
+      {
+        "text": "には当たらない",
+        "role": "\"is not called for\"",
+        "highlight": true
+      }
+    ],
+    "translation": "It was natural that he passed; there is no reason to be surprised."
+  },
+  "examples": [
+    {
+      "ja": "彼が合格したのは当然で、驚くには当たらない。",
+      "reading": "かれがごうかくしたのはとうぜんで、おどろくにはあたらない。",
+      "en": "It was natural that he passed; there is no reason to be surprised.",
+      "note": "The reason (当然) makes surprise unnecessary."
+    },
+    {
+      "ja": "その程度のミスは、非難するに当たらない。",
+      "reading": "そのていどのミスは、ひなんするにあたらない。",
+      "en": "A mistake of that degree is not worth criticizing.",
+      "note": "非難する + に当たらない: the mistake is too small to deserve criticism."
+    },
+    {
+      "ja": "彼女の行動は称賛には当たらないと思う。",
+      "reading": "かのじょのこうどうはしょうさんにはあたらないとおもう。",
+      "en": "I do not think her actions deserve praise.",
+      "note": "A noun (称賛) works too: does not merit praise."
+    },
+    {
+      "ja": "彼が有名店で修業したことを考えれば、この味は感心するには当たらない。",
+      "reading": "かれがゆうめいてんでしゅぎょうしたことをかんがえれば、このあじはかんしんするにはあたらない。",
+      "en": "Considering he trained at a famous restaurant, this flavour is nothing to be impressed by.",
+      "note": "The reason clause comes first."
+    },
+    {
+      "ja": "一度の失敗で悲観するには当たらない。次がある。",
+      "reading": "いちどのしっぱいでひかんするにはあたらない。つぎがある。",
+      "en": "There is no reason to despair over a single failure. There is always next time.",
+      "note": "Used to reassure."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-138",
+      "pattern": "〜ほどのことではない",
+      "difference": "\"Not serious enough to\" with any action verb (病院に行く・報告する). に当たらない is limited to evaluation and emotion words and sounds more formal."
+    },
+    {
+      "id": "n1-grammar-83",
+      "pattern": "〜までもない",
+      "difference": "\"No need to\" because it is obvious or already covered. に当たらない says the reaction is not appropriate."
+    },
+    {
+      "id": "n2-grammar-98",
+      "pattern": "〜に当たって / 〜に当たり",
+      "difference": "Different pattern: \"on the occasion of\". Do not confuse the two uses of 当たる."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "病院に行くには当たらない。",
+      "right": "病院に行くほどのことではない。",
+      "why": "に当たらない takes evaluation or emotion words, not ordinary actions like going to hospital."
+    },
+    {
+      "wrong": "驚いたには当たらない。",
+      "right": "驚くには当たらない。",
+      "why": "The verb before に(は)当たらない stays in the dictionary form."
+    },
+    {
+      "wrong": "彼の努力は称賛に当たる。",
+      "right": "彼の努力は称賛に値する。",
+      "why": "The affirmative に当たる is not used for \"deserves\". Use に値する for the positive; keep に当たらない for the negative."
+    }
+  ],
+  "usageNotes": [
+    "The most frequent combinations: 驚くには当たらない・称賛には当たらない・非難には当たらない・悲観するには当たらない.",
+    "は is optional; には当たらない sounds slightly more emphatic.",
+    "Because it is formal, it often appears with 〜のだから / 〜以上 giving the reason the reaction is unnecessary."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an emotion or evaluation verb (驚く・感心する・非難する) + a blank + a reason of expectedness is に(は)当たらない.",
+    "Distractor ほどのことではない takes any verb; if the verb is one of evaluation and the tone is formal, choose に当たらない.",
+    "In 並べ替え, には当たらない follows the dictionary-form verb; the reason clause comes first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-151-1",
+    "q-n1-g-151-2",
+    "q-n1-g-151-3",
+    "q-n1-g-151-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-151-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

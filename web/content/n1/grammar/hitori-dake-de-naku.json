@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-117",
+  "slug": "hitori-dake-de-naku",
+  "level": "n1",
+  "order": 117,
+  "title": "ひとり〜だけでなく / ひとり〜のみならず",
+  "romaji": "hitori … dake de naku / hitori … nominarazu",
+  "meaning": "not only … (but also …)",
+  "simpleExplanation": "ひとり〜だけでなく / ひとり〜のみならず means \"not X alone but also Y\". ひとり here is 独り, \"solely\", and it strengthens だけでなく / のみならず: ひとり日本だけでなく、世界全体の問題だ (a problem not for Japan alone but for the whole world). The second half broadens the scope.",
+  "whenUsed": "Very formal written Japanese: editorials, speeches, academic prose. The topic is usually a large-scale issue (environment, society, economy). In everyday writing, だけでなく without ひとり is used.",
+  "formation": [
+    "ひとり + N + だけでなく、N + も / にも",
+    "ひとり + N + のみならず、N + も / にも",
+    "Often with 問題・課題・責任 in the second half"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "日本だけでなく、世界の問題だ",
+        "en": "not only Japan's but the world's problem (neutral)"
+      },
+      {
+        "ja": "ひとり日本だけでなく、世界全体の問題だ",
+        "en": "not for Japan alone but for the whole world (formal, emphatic)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "環境問題は、ひとり日本だけでなく、世界全体の問題である。",
+      "reading": "かんきょうもんだいは、ひとりにほんだけでなく、せかいぜんたいのもんだいである。",
+      "en": "Environmental issues are a problem not for Japan alone but for the whole world.",
+      "note": "ひとり日本だけでなく: the classic environmental sentence."
+    },
+    {
+      "ja": "少子化は、ひとり政府のみならず、社会全体で取り組むべき課題だ。",
+      "reading": "しょうしかは、ひとりせいふのみならず、しゃかいぜんたいでとりくむべきかだいだ。",
+      "en": "The falling birthrate is an issue that not only the government but all of society should tackle.",
+      "note": "ひとり政府のみならず: responsibility broadened to all of society."
+    },
+    {
+      "ja": "この発見は、ひとり医学界だけでなく、産業界にも大きな影響を与えた。",
+      "reading": "このはっけんは、ひとりいがくかいだけでなく、さんぎょうかいにもおおきなえいきょうをあたえた。",
+      "en": "This discovery had a major impact not only on the medical world but on industry too.",
+      "note": "ひとり医学界だけでなく: influence spreading to industry."
+    },
+    {
+      "ja": "この不況は、ひとり中小企業だけでなく、大企業にも深刻な影響を与えている。",
+      "reading": "このふきょうは、ひとりちゅうしょうきぎょうだけでなく、だいきぎょうにもしんこくなえいきょうをあたえている。",
+      "en": "This recession is seriously affecting not only small and medium-sized businesses but large corporations too.",
+      "note": "にも in the second half."
+    },
+    {
+      "ja": "高齢化は、ひとり先進国のみならず、途上国にも共通する課題である。",
+      "reading": "こうれいかは、ひとりせんしんこくのみならず、とじょうこくにもきょうつうするかだいである。",
+      "en": "Ageing is a challenge shared not by developed countries alone but by developing countries as well.",
+      "note": "のみならず variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のみならず",
+      "difference": "The same \"not only\" without ひとり; slightly less emphatic.",
+      "id": "n2-grammar-137"
+    },
+    {
+      "pattern": "〜にとどまらず",
+      "difference": "\"Not limited to X\": emphasises spreading beyond a boundary.",
+      "id": "n1-grammar-68"
+    },
+    {
+      "pattern": "ただ〜のみ / ただ〜のみならず",
+      "difference": "ただ is the parallel emphasiser for のみ: \"merely X, and not only\".",
+      "id": "n1-grammar-23"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一人日本だけでなく",
+      "right": "ひとり日本だけでなく",
+      "why": "In this pattern ひとり means \"solely\", not \"one person\"; it is written in kana or as 独り."
+    },
+    {
+      "wrong": "ひとり日本だけでなく、日本の問題だ。",
+      "right": "ひとり日本だけでなく、世界全体の問題だ。",
+      "why": "The second half must broaden the scope beyond X."
+    },
+    {
+      "wrong": "ひとり私だけでなく、ケーキを食べた。",
+      "right": "私だけでなく、弟もケーキを食べた。",
+      "why": "The pattern suits large-scale, formal topics; trivial subjects sound odd."
+    }
+  ],
+  "usageNotes": [
+    "ひとり is placed directly before the noun being limited.",
+    "It sounds solemn; use it in essays and formal speeches.",
+    "だけでなく and のみならず are interchangeable here; のみならず is the more formal."
+  ],
+  "jlptTips": [
+    "A formal sentence with ひとり + N + blank + Y + も → だけでなく / のみならず.",
+    "Distractors: ばかりか, はおろか, にとどまらず. ひとり before the noun is the clue for this pattern.",
+    "Questions may test the meaning of ひとり (= solely), not \"one person\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-117-1",
+    "q-n1-g-117-2",
+    "q-n1-g-117-3",
+    "q-n1-g-117-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-117-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

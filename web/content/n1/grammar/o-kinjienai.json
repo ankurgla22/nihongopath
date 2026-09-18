@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-93",
+  "slug": "o-kinjienai",
+  "level": "n1",
+  "order": 93,
+  "title": "〜を禁じ得ない",
+  "romaji": "o kinjienai",
+  "meaning": "cannot help feeling …; cannot suppress …",
+  "simpleExplanation": "〜を禁じ得ない means \"cannot hold back (a feeling)\": 涙を禁じ得ない (cannot hold back tears), 怒りを禁じ得ない (cannot suppress anger). 禁じる = to forbid, 得ない = cannot, so literally \"cannot forbid oneself the feeling\". The feeling arises spontaneously in the speaker.",
+  "whenUsed": "Formal written Japanese: editorials, official statements, formal speeches. The subject is the speaker (or the writer's group); it is not used for other people's feelings. In speech, 〜ずにはいられない or 〜てしかたがない are used.",
+  "formation": [
+    "N(emotion) + を禁じ得ない (涙・怒り・驚き・同情・笑い・違和感)",
+    "Polite: 〜を禁じ得ません",
+    "Past: 〜を禁じ得なかった"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "被害者の話を聞いて",
+        "role": "trigger"
+      },
+      {
+        "text": "涙",
+        "role": "emotion noun",
+        "highlight": true
+      },
+      {
+        "text": "を禁じ得なかった",
+        "role": "could not hold back",
+        "highlight": true
+      }
+    ],
+    "translation": "Hearing the victim's story, I could not hold back my tears."
+  },
+  "examples": [
+    {
+      "ja": "被害者の話を聞いて、涙を禁じ得なかった。",
+      "reading": "ひがいしゃのはなしをきいて、なみだをきんじえなかった。",
+      "en": "Hearing the victim's story, I could not hold back my tears.",
+      "note": "涙を禁じ得ない: the most common form."
+    },
+    {
+      "ja": "あまりに無責任な対応に、怒りを禁じ得ない。",
+      "reading": "あまりにむせきにんなたいおうに、いかりをきんじえない。",
+      "en": "I cannot suppress my anger at such an irresponsible response.",
+      "note": "怒りを禁じ得ない: a formal expression of outrage, typical of editorials."
+    },
+    {
+      "ja": "彼の突然の死に、驚きを禁じ得ない。",
+      "reading": "かれのとつぜんのしに、おどろきをきんじえない。",
+      "en": "I cannot help being shocked by his sudden death.",
+      "note": "驚きを禁じ得ない: shock at sudden news."
+    },
+    {
+      "ja": "政府の説明には、多くの国民が不信感を禁じ得ないだろう。",
+      "reading": "せいふのせつめいには、おおくのこくみんがふしんかんをきんじえないだろう。",
+      "en": "Many citizens will surely be unable to suppress their distrust of the government's explanation.",
+      "note": "Writers extend it to a group they speak for."
+    },
+    {
+      "ja": "彼の場違いな服装には、笑いを禁じ得なかった。",
+      "reading": "かれのばちがいなふくそうには、わらいをきんじえなかった。",
+      "en": "I could not help laughing at his out-of-place outfit.",
+      "note": "笑い is also possible."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にたえない",
+      "difference": "感謝にたえない: also a strong feeling, but a formal declaration rather than an involuntary reaction.",
+      "id": "n1-grammar-66"
+    },
+    {
+      "pattern": "〜てやまない",
+      "difference": "A lasting wish or feeling (願ってやまない); takes verbs, not emotion nouns.",
+      "id": "n1-grammar-33"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "\"Cannot help doing\": the everyday equivalent, taking verbs (泣かずにはいられない).",
+      "id": "n2-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は涙を禁じ得なかった。（第三者の描写）",
+      "right": "彼は涙をこらえきれなかった。",
+      "why": "を禁じ得ない describes the speaker's own reaction; for a third party use こらえきれない or 涙を流した."
+    },
+    {
+      "wrong": "泣くを禁じ得ない。",
+      "right": "涙を禁じ得ない。",
+      "why": "An emotion noun is required, not a verb."
+    },
+    {
+      "wrong": "怒りが禁じ得ない。",
+      "right": "怒りを禁じ得ない。",
+      "why": "The particle is を."
+    }
+  ],
+  "usageNotes": [
+    "Typical nouns: 涙・怒り・驚き・同情・憤り・笑い・違和感・不信感.",
+    "It is a set piece of formal prose and sounds dramatic in conversation.",
+    "Reading: きんじえない; the kanji 得 is read え here."
+  ],
+  "jlptTips": [
+    "Emotion noun + を + blank at the end of a formal reaction → 禁じ得ない.",
+    "Distractors: にたえない, てやまない, ずにはいられない. Only 禁じ得ない takes N + を.",
+    "Reading questions may test 禁じ得ない → きんじえない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-93-1",
+    "q-n1-g-93-2",
+    "q-n1-g-93-3",
+    "q-n1-g-93-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-93-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-54",
+  "slug": "nara-iza-shirazu",
+  "level": "n1",
+  "order": 54,
+  "title": "〜ならいざしらず / 〜はいざしらず",
+  "romaji": "naraizashirazu-haizashirazu",
+  "meaning": "X might be one thing, but …; I don't know about X, but …",
+  "simpleExplanation": "Xならいざしらず / はいざしらず sets aside a case X where something would be understandable, and then says the present case is different and not acceptable or is surprising: 子供ならいざしらず、大人が泣くなんて. いざしらず literally means \"I don't know (about that)\".",
+  "whenUsed": "Both registers, slightly old-fashioned and emphatic. Common in criticism and expressions of surprise. The second clause often ends with なんて / とは / 信じられない.",
+  "formation": [
+    "Noun + ならいざしらず",
+    "Noun + はいざしらず (topic form: 昔はいざしらず)",
+    "Plain form + (の)ならいざしらず",
+    "Followed by a contrasting, criticised or surprising case"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Setting aside an excusable case",
+    "columns": [
+      "case set aside",
+      "present case",
+      "tone"
+    ],
+    "rows": [
+      {
+        "label": "子供ならいざしらず",
+        "cells": [
+          "a child (excusable)",
+          "an adult crying",
+          "criticism / surprise"
+        ]
+      },
+      {
+        "label": "昔はいざしらず",
+        "cells": [
+          "the past (unknown)",
+          "now it is safe",
+          "contrast of times"
+        ]
+      },
+      {
+        "label": "初心者ならいざしらず",
+        "cells": [
+          "a beginner (excusable)",
+          "a veteran's mistake",
+          "disbelief"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供ならいざしらず、大人がそんなことで泣くなんて。",
+      "reading": "こどもならいざしらず、おとながそんなことでなくなんて。",
+      "en": "A child might be one thing, but for an adult to cry over that...",
+      "note": "Excusable case (child) vs criticised case (adult)."
+    },
+    {
+      "ja": "昔はいざしらず、今ではこの辺りも安全になった。",
+      "reading": "むかしはいざしらず、いまではこのあたりもあんぜんになった。",
+      "en": "I cannot speak for the past, but nowadays this area has become safe.",
+      "note": "Contrast of times with はいざしらず."
+    },
+    {
+      "ja": "初心者ならいざしらず、ベテランがこんなミスをするとは信じられない。",
+      "reading": "しょしんしゃならいざしらず、ベテランがこんなミスをするとはしんじられない。",
+      "en": "A beginner is one thing, but I cannot believe a veteran would make such a mistake.",
+      "note": "Beginner vs veteran: disbelief with とは."
+    },
+    {
+      "ja": "無料ならいざしらず、お金を払ってこのサービスでは納得できない。",
+      "reading": "むりょうならいざしらず、おかねをはらってこのサービスではなっとくできない。",
+      "en": "If it were free that would be one thing, but paying for this service is unacceptable.",
+      "note": "Complaint about value."
+    },
+    {
+      "ja": "一度や二度ならいざしらず、毎回遅刻するのは問題だ。",
+      "reading": "いちどやにどならいざしらず、まいかいちこくするのはもんだいだ。",
+      "en": "Once or twice might be forgivable, but being late every time is a problem.",
+      "note": "Frequency contrast."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ならともかく",
+      "difference": "Everyday equivalent: 子供ならともかく. いざしらず is more emphatic and literary.",
+      "id": "n1-grammar-154"
+    },
+    {
+      "pattern": "〜ならまだしも",
+      "difference": "\"X would still be acceptable, but…\": very close in meaning, spoken.",
+      "id": "n1-grammar-136"
+    },
+    {
+      "pattern": "〜ではあるまいし",
+      "difference": "\"It's not as if you are X\": rules out X and scolds; いざしらず sets X aside as acceptable.",
+      "id": "n1-grammar-32"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "大人ならいざしらず、子供が泣くのは当然だ。",
+      "right": "子供ならいざしらず、大人が泣くなんて。",
+      "why": "The excusable case comes first; the criticised case follows."
+    },
+    {
+      "wrong": "子供ならいざしらず、子供が泣いた。",
+      "right": "子供ならいざしらず、大人が泣くとは驚きだ。",
+      "why": "The second clause must be a different, contrasting case."
+    },
+    {
+      "wrong": "子供はいざしらずなら",
+      "right": "子供ならいざしらず / 子供はいざしらず",
+      "why": "Use either なら or は, not both."
+    }
+  ],
+  "usageNotes": [
+    "いざ知らず is also written with kanji.",
+    "Typical endings: なんて, とは, 信じられない, 問題だ, 許されない.",
+    "はいざしらず is common with time or place nouns: 昔は, 外国は, 都会は."
+  ],
+  "jlptTips": [
+    "An excusable case + blank + a criticised different case ending in なんて / とは → ならいざしらず.",
+    "Distractors ならともかく and ならまだしも mean the same; if all three are offered, the exam usually uses a different structure for the others, so check the endings and the register.",
+    "はいざしらず appears with 昔 / 外国 / 他の人; look for a contrast of times or places."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-54-1",
+    "q-n1-g-54-2",
+    "q-n1-g-54-3",
+    "q-n1-g-54-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-54-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

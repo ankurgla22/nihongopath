@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-137",
+  "slug": "nimo-hodo-ga-aru",
+  "level": "n1",
+  "order": 137,
+  "title": "〜にもほどがある",
+  "romaji": "nimo hodo ga aru",
+  "meaning": "there is a limit to …; that is going too far; that is beyond …",
+  "simpleExplanation": "〜にもほどがある scolds someone for going way past an acceptable limit. 冗談にもほどがある = \"There's a limit even to jokes!\" ほど means \"degree, limit\". The word before it is the behaviour or quality (冗談・わがまま・失礼・のんき) that has been taken too far.",
+  "whenUsed": "Spoken Japanese, often angry or exasperated. Used between family, friends, and colleagues; too blunt for superiors or customers. Also appears in dialogue in fiction and in strongly worded opinion pieces.",
+  "formation": [
+    "N + にもほどがある  (冗談・わがまま・失礼)",
+    "いA + にもほどがある  (図々しいにもほどがある)",
+    "なA + にもほどがある  (のんきにもほどがある)",
+    "Vる + にもほどがある  (ふざけるにもほどがある)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "冗談にもほどがある",
+    "items": [
+      {
+        "label": "軽い冗談",
+        "description": "a light joke: fine"
+      },
+      {
+        "label": "ほど = the limit",
+        "description": "as far as jokes can go"
+      },
+      {
+        "label": "ひどい冗談",
+        "description": "a joke gone too far: にもほどがある"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "冗談にもほどがある。",
+      "reading": "じょうだんにもほどがある。",
+      "en": "There is a limit to joking.",
+      "note": "The shortest form: a stand-alone rebuke about a joke that went too far."
+    },
+    {
+      "ja": "わがままにもほどがあるよ。少しは人のことも考えなさい。",
+      "reading": "わがままにもほどがあるよ。すこしはひとのこともかんがえなさい。",
+      "en": "Your selfishness is going too far. Think about others a little.",
+      "note": "わがまま + にもほどがある, followed by the instruction to think of others."
+    },
+    {
+      "ja": "失礼にもほどがある。謝ってもらおう。",
+      "reading": "しつれいにもほどがある。あやまってもらおう。",
+      "en": "That is beyond rude. I want an apology.",
+      "note": "失礼にもほどがある: beyond rude; the speaker demands an apology."
+    },
+    {
+      "ja": "人の家に来て冷蔵庫を勝手に開けるなんて、図々しいにもほどがある。",
+      "reading": "ひとのいえにきてれいぞうこをかってにあけるなんて、ずうずうしいにもほどがある。",
+      "en": "Coming to someone's house and opening the fridge without asking is shameless beyond belief.",
+      "note": "い-adjective attaches directly."
+    },
+    {
+      "ja": "締め切りの前日に遊びに行くとは、のんきにもほどがある。",
+      "reading": "しめきりのぜんじつにあそびにいくとは、のんきにもほどがある。",
+      "en": "Going out to have fun the day before the deadline is carefree beyond all reason.",
+      "note": "な-adjective stem attaches directly (のんき + にも)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-13",
+      "pattern": "〜極まりない",
+      "difference": "Formal, written \"extremely X\" (失礼極まりない). にもほどがある is spoken and blames someone for crossing a line."
+    },
+    {
+      "id": "n1-grammar-39",
+      "pattern": "〜といったらない",
+      "difference": "\"Indescribably X\" about a degree of feeling; not a rebuke about a limit."
+    },
+    {
+      "id": "n1-grammar-108",
+      "pattern": "〜しまつだ",
+      "difference": "Describes a bad final outcome after a series of events. にもほどがある judges one behaviour as excessive."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（上司に）部長、冗談にもほどがありますよ。",
+      "right": "部長、それはちょっと…。",
+      "why": "The pattern is a blunt rebuke. Even in polite form it is too direct for a superior."
+    },
+    {
+      "wrong": "親切にもほどがある。ありがとう。",
+      "right": "親切にもほどがある。少しは自分のことも考えなさい。",
+      "why": "The pattern is always critical. It cannot be used as thanks; if 親切 is excessive, the sentence must scold."
+    },
+    {
+      "wrong": "冗談のほどがある。",
+      "right": "冗談にもほどがある。",
+      "why": "The fixed form is にも + ほどがある."
+    }
+  ],
+  "usageNotes": [
+    "The most common nouns: 冗談・わがまま・失礼・非常識・図々しい・のんき・ずるい.",
+    "It is often preceded by なんて / とは describing the offending act.",
+    "Softer alternatives for polite contexts: 少し行き過ぎではないでしょうか / それはさすがに…."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a negative behaviour noun or adjective + an angry tone with no polite ending points to にもほどがある.",
+    "Distractor 極まりない is written and formal; if the sentence is a spoken scolding, choose にもほどがある.",
+    "In 並べ替え, にも and ほどがある may be split; join them after the behaviour word."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-137-1",
+    "q-n1-g-137-2",
+    "q-n1-g-137-3",
+    "q-n1-g-137-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-137-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

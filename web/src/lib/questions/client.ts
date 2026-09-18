@@ -4,6 +4,7 @@
  * fetched on demand from GET /api/content/questions?ids=… (public, cacheable content).
  */
 import type { Question } from "@/lib/content/schemas";
+import type { DrillKind } from "@/lib/drill/generate";
 
 const CHUNK = 100;
 const cache = new Map<string, Question>();
@@ -33,6 +34,40 @@ export async function fetchQuestionsByIds(ids: string[]): Promise<Question[]> {
     if (q) out.push(q);
   }
   return out;
+}
+
+const DRILL_CHUNK = 80;
+
+export type DrillFetchOptions = {
+  kinds?: DrillKind[];
+  /** Deterministic seed: the same seed and ids always give the same questions/options. */
+  seed: string;
+  /** Maximum questions per item (default: one per kind). */
+  perItem?: number;
+};
+
+/**
+ * Generate drill questions for vocabulary/kanji content ids via GET /api/drill (chunks of 80, in
+ * parallel). Results come back in the order of `ids`; ids that cannot be drilled are dropped.
+ * Not cached: the seed decides the options and callers usually pass a fresh seed per session.
+ */
+export async function fetchDrill(ids: string[], opts: DrillFetchOptions): Promise<Question[]> {
+  const unique = Array.from(new Set(ids));
+  if (unique.length === 0) return [];
+  const chunks: string[][] = [];
+  for (let i = 0; i < unique.length; i += DRILL_CHUNK) chunks.push(unique.slice(i, i + DRILL_CHUNK));
+  const results = await Promise.all(
+    chunks.map(async (chunk) => {
+      const params = new URLSearchParams({ ids: chunk.join(","), seed: opts.seed });
+      if (opts.kinds?.length) params.set("kinds", opts.kinds.join(","));
+      if (opts.perItem) params.set("per", String(opts.perItem));
+      const res = await fetch(`/api/drill?${params.toString()}`);
+      if (!res.ok) throw new Error(`Could not build the drill (${res.status}).`);
+      const body = (await res.json()) as { questions: Question[] };
+      return body.questions;
+    })
+  );
+  return results.flat();
 }
 
 /** Test/HMR hook: forget cached records. */

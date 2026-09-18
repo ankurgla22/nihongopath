@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-26",
+  "slug": "taritomo",
+  "level": "n1",
+  "order": 26,
+  "title": "〜たりとも",
+  "romaji": "taritomo",
+  "meaning": "not even (a single) …",
+  "simpleExplanation": "一 + counter + たりとも + negative emphasises that not even the smallest unit is allowed or possible: 一秒たりとも無駄にできない \"cannot waste even a single second\". It is formal and strong, typical of resolute statements and prohibitions.",
+  "whenUsed": "Formal speech and writing: declarations, rules, military-style resolve, business commitments. 何人(なんぴと)たりとも \"no one whatsoever\" is a fixed legal phrase.",
+  "formation": [
+    "一 + counter (秒・円・日・人・歩・粒) + たりとも + negative",
+    "何人(なんぴと)たりとも + negative",
+    "Followed by 〜ない / 〜てはならない / 許されない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "一秒",
+        "role": "the smallest unit",
+        "highlight": true
+      },
+      {
+        "text": "たりとも",
+        "role": "\"not even\"",
+        "highlight": true
+      },
+      {
+        "text": "無駄には",
+        "role": "topic of prohibition"
+      },
+      {
+        "text": "できない",
+        "role": "negative"
+      }
+    ],
+    "translation": "We cannot waste even a single second."
+  },
+  "examples": [
+    {
+      "ja": "一秒たりとも無駄にはできない。",
+      "reading": "いちびょうたりともむだにはできない。",
+      "en": "We cannot waste even a single second.",
+      "note": "The smallest unit of time + negative."
+    },
+    {
+      "ja": "一円たりとも受け取るつもりはない。",
+      "reading": "いちえんたりともうけとるつもりはない。",
+      "en": "I have no intention of accepting even one yen.",
+      "note": "The smallest unit of money: refuses even one yen."
+    },
+    {
+      "ja": "この事件は一日たりとも忘れたことがない。",
+      "reading": "このじけんはいちにちたりともわすれたことがない。",
+      "en": "I have never forgotten this incident for even a single day.",
+      "note": "一日たりとも + negative experience: never forgot for a single day."
+    },
+    {
+      "ja": "この作業では、一ミリたりとも誤差は許されない。",
+      "reading": "このさぎょうでは、いちミリたりともごさはゆるされない。",
+      "en": "In this work, not even a millimetre of error is permitted.",
+      "note": "Technical precision; 許されない is a common ending."
+    },
+    {
+      "ja": "何人たりとも、この部屋に無断で入ってはならない。",
+      "reading": "なんぴとたりとも、このへやにむだんではいってはならない。",
+      "en": "No one whatsoever may enter this room without permission.",
+      "note": "何人(なんぴと) is the fixed legal reading."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜すら / 〜さえ",
+      "difference": "General \"even\" with any noun; たりとも needs 一 + counter and a negative.",
+      "id": "n1-grammar-21"
+    },
+    {
+      "pattern": "〜だに",
+      "difference": "Literary \"even\" in fixed phrases, not with counters.",
+      "id": "n1-grammar-25"
+    },
+    {
+      "pattern": "〜なりとも",
+      "difference": "The positive side: \"at least a little\" (少しなりとも). Do not confuse the two.",
+      "id": "n1-grammar-58"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "二日たりとも休めない。",
+      "right": "一日たりとも休めない。",
+      "why": "The pattern requires the minimal unit 一 (one)."
+    },
+    {
+      "wrong": "一円たりとも受け取ります。",
+      "right": "一円たりとも受け取りません。",
+      "why": "たりとも must be followed by a negative."
+    },
+    {
+      "wrong": "一秒たりとも無駄にした。",
+      "right": "一秒たりとも無駄にしなかった。",
+      "why": "Again, a negative ending is obligatory."
+    }
+  ],
+  "usageNotes": [
+    "Counters seen in exams: 秒, 分, 日, 円, 人, 歩, 粒, 滴, 度.",
+    "Endings: できない, 許されない, 〜てはならない, 〜ことがない.",
+    "何人たりとも is read なんぴとたりとも and appears in rules and legal texts."
+  ],
+  "jlptTips": [
+    "If the blank follows 一 + counter and the sentence ends negatively, choose たりとも.",
+    "The distractor なりとも means \"at least a little\" and takes 少し / 一言 with a positive wish; check the ending.",
+    "だに and すら are offered as look-alikes, but they do not require 一 + counter."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-26-1",
+    "q-n1-g-26-2",
+    "q-n1-g-26-3",
+    "q-n1-g-26-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-26-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

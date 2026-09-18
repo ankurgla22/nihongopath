@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-149",
+  "slug": "ppanashi",
+  "level": "n1",
+  "order": 149,
+  "title": "〜っぱなし",
+  "romaji": "ppanashi",
+  "meaning": "leave … as it is (carelessly); keep on …ing; be … the whole time",
+  "simpleExplanation": "Vます-stem + っぱなし has two uses. (1) Neglect: leaving something in a state you should have changed (水を出しっぱなし = leaving the water running). (2) Continuation: a state that goes on the whole time, often unpleasant (立ちっぱなし = standing the whole way; 負けっぱなし = losing every time). Both carry a note of \"and that's not good\".",
+  "whenUsed": "Spoken and casual written Japanese. Very common in scolding (〜っぱなしにしないで), complaints, and everyday description. Forms: 〜っぱなしにする / 〜っぱなしだ / 〜っぱなしで. A review point from N2.",
+  "formation": [
+    "Vます-stem + っぱなし  (出しっぱなし・開けっぱなし・つけっぱなし)",
+    "〜っぱなしにする (to leave it that way)",
+    "〜っぱなしだ / 〜っぱなしで (state)",
+    "〜っぱなしの + N  (置きっぱなしの荷物)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of っぱなし",
+    "columns": [
+      "use",
+      "verb type",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "neglect",
+        "cells": [
+          "leave in a state (carelessly)",
+          "transitive: 出す・開ける・つける・置く",
+          "電気をつけっぱなしにする"
+        ]
+      },
+      {
+        "label": "continuation",
+        "cells": [
+          "keep on / the whole time",
+          "intransitive: 立つ・座る・負ける・降る",
+          "東京まで立ちっぱなしだった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "水を出しっぱなしにしないでください。",
+      "reading": "みずをだしっぱなしにしないでください。",
+      "en": "Please do not leave the water running.",
+      "note": "Neglect use: leaving the tap running; 〜にしないで is a request to stop."
+    },
+    {
+      "ja": "新幹線は混んでいて、東京まで立ちっぱなしだった。",
+      "reading": "しんかんせんはこんでいて、とうきょうまでたちっぱなしだった。",
+      "en": "The bullet train was crowded, and I stood the whole way to Tokyo.",
+      "note": "Continuation use: standing the whole way (unpleasant)."
+    },
+    {
+      "ja": "今年のチームは負けっぱなしだ。",
+      "reading": "ことしのチームはまけっぱなしだ。",
+      "en": "This year the team just keeps losing.",
+      "note": "負けっぱなし: losing again and again."
+    },
+    {
+      "ja": "窓を開けっぱなしで出かけたら、雨が吹き込んでいた。",
+      "reading": "まどをあけっぱなしででかけたら、あめがふきこんでいた。",
+      "en": "I went out leaving the window open, and the rain had blown in.",
+      "note": "っぱなしで describes the state during the action."
+    },
+    {
+      "ja": "先週から雨が降りっぱなしで、洗濯物が乾かない。",
+      "reading": "せんしゅうからあめがふりっぱなしで、せんたくものがかわかない。",
+      "en": "It has been raining nonstop since last week, and the laundry will not dry.",
+      "note": "Continuation with an intransitive verb."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-75",
+      "pattern": "〜っぱなし (N2 review)",
+      "difference": "Same pattern from N2. N1 tests the two senses and the contrast with 〜たまま."
+    },
+    {
+      "id": "n2-grammar-36",
+      "pattern": "〜きり",
+      "difference": "\"Ever since X, nothing has happened\" (行ったきり帰らない). っぱなし is about a state left or continued, not an absence since an event."
+    },
+    {
+      "pattern": "〜たまま",
+      "difference": "Neutral \"in the state of having done\" (電気をつけたまま寝た). っぱなし adds carelessness or complaint."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "電気をつけたっぱなし",
+      "right": "電気をつけっぱなし",
+      "why": "っぱなし attaches to the ます-stem (つけ), not the past form."
+    },
+    {
+      "wrong": "花を飾りっぱなしで、部屋がきれいだ。",
+      "right": "花を飾ったままで、部屋がきれいだ。",
+      "why": "っぱなし implies neglect or something undesirable; for a pleasant kept state use たまま."
+    },
+    {
+      "wrong": "ドアを開けっぱなしをしないで。",
+      "right": "ドアを開けっぱなしにしないで。",
+      "why": "The verb phrase is っぱなしにする; the particle is に."
+    }
+  ],
+  "usageNotes": [
+    "Set expressions: つけっぱなし (left on)・出しっぱなし (left out / running)・開けっぱなし (left open)・置きっぱなし (left lying)・言いっぱなし (say and not follow up)・やりっぱなし (do and not clean up).",
+    "The nuance is critical; use たまま when you do not want to sound reproachful.",
+    "In business, 言いっぱなし and やりっぱなし criticize a lack of follow-through."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a ます-stem + a blank + にする / だ with a complaining tone is っぱなし. Distinguish from たまま, which is neutral.",
+    "Check the stem: options with the past form (開けたっぱなし) are wrong.",
+    "In 並べ替え, っぱなし attaches to the stem chunk; に + しないで or で follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-149-1",
+    "q-n1-g-149-2",
+    "q-n1-g-149-3",
+    "q-n1-g-149-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-149-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

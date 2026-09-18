@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-158",
+  "slug": "ni-wa-ga",
+  "level": "n1",
+  "order": 158,
+  "title": "〜には〜が",
+  "romaji": "ni wa ... ga",
+  "meaning": "I did do X, but …; X, yes, but …",
+  "simpleExplanation": "VにはVが repeats a verb to admit that the action happened while adding a reservation. 本は買うには買ったが、まだ読んでいない = \"I did buy the book, but I haven't read it\". The first verb is the dictionary form + には, the second carries the tense, and が introduces the catch.",
+  "whenUsed": "Spoken Japanese, casual to semi-polite. Used when answering a question honestly but with a caveat, or when admitting a half-done job. Polite version: 〜には〜ましたが.",
+  "formation": [
+    "Vる + には + Vた + が  (買うには買ったが)",
+    "Vる + には + Vる + が  (行くには行くが)",
+    "Polite: Vる + には + Vました + が",
+    "Second half: the reservation (まだ〜ない / 〜はない / 〜けれども)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "本は買うには",
+        "role": "the action, as a topic"
+      },
+      {
+        "text": "買ったが",
+        "role": "the action happened, but…",
+        "highlight": true
+      },
+      {
+        "text": "まだ読んでいない",
+        "role": "the reservation"
+      }
+    ],
+    "translation": "I did buy the book, but I have not read it yet."
+  },
+  "examples": [
+    {
+      "ja": "本は買うには買ったが、まだ読んでいない。",
+      "reading": "ほんはかうにはかったが、まだよんでいない。",
+      "en": "I did buy the book, but I have not read it yet.",
+      "note": "Buying happened; reading did not: the reservation follows が."
+    },
+    {
+      "ja": "行くには行くが、長くはいられない。",
+      "reading": "いくにはいくが、ながくはいられない。",
+      "en": "I will go, but I cannot stay long.",
+      "note": "Vる + には + Vる: a future action with a limit (cannot stay long)."
+    },
+    {
+      "ja": "試験を受けるには受けたが、自信はまったくない。",
+      "reading": "しけんをうけるにはうけたが、じしんはまったくない。",
+      "en": "I took the exam, sure, but I have no confidence at all.",
+      "note": "Took the exam, yes, but no confidence."
+    },
+    {
+      "ja": "薬は飲むには飲んだが、あまり効いた気がしない。",
+      "reading": "くすりはのむにはのんだが、あまりきいたきがしない。",
+      "en": "I did take the medicine, but I do not feel it worked much.",
+      "note": "Typical admission with a caveat."
+    },
+    {
+      "ja": "会うには会いましたが、ほとんど話せませんでした。",
+      "reading": "あうにはあいましたが、ほとんどはなせませんでした。",
+      "en": "I did meet him, but we hardly got to talk.",
+      "note": "Polite form."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-197",
+      "pattern": "〜ことは〜が",
+      "difference": "Same idea with any predicate (高いことは高いが). には〜が is verb-only and sounds more colloquial."
+    },
+    {
+      "id": "n2-grammar-159",
+      "pattern": "〜ものの",
+      "difference": "\"Although\" without repetition, more written. には〜が uses repetition for a spoken, reluctant admission."
+    },
+    {
+      "id": "n2-grammar-86",
+      "pattern": "〜といっても",
+      "difference": "\"Although I say X, it is not much\" (読んだといっても十ページだけだ). Corrects an impression of degree; には〜が admits the action and adds a separate caveat."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "買ったには買ったが",
+      "right": "買うには買ったが",
+      "why": "The first verb is the dictionary form; only the second takes the tense."
+    },
+    {
+      "wrong": "買うには買ったが、面白かった。",
+      "right": "買うには買ったが、まだ読んでいない。",
+      "why": "The second half must be a reservation, not a positive follow-up."
+    },
+    {
+      "wrong": "買うには読んだが",
+      "right": "買うには買ったが",
+      "why": "The same verb must be repeated."
+    }
+  ],
+  "usageNotes": [
+    "It is a natural way to answer 〜た？ honestly: 見るには見たけど、よく覚えていない.",
+    "In business, the polite version helps report partial progress: 確認するには確認しましたが、まだ回答が出ておりません.",
+    "Adjectives use ことは〜が instead: 高いことは高いが."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a dictionary-form verb + には + a blank + が calls for the same verb in past or plain form.",
+    "Options with a different verb or with the first verb in the past form are wrong.",
+    "In 並べ替え, Vる + には and Vた + が are usually separate chunks; put the dictionary form first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-158-1",
+    "q-n1-g-158-2",
+    "q-n1-g-158-3",
+    "q-n1-g-158-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-158-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

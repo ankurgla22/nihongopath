@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-70",
+  "slug": "ni-hikikae",
+  "level": "n1",
+  "order": 70,
+  "title": "〜にひきかえ",
+  "romaji": "ni hikikae",
+  "meaning": "in contrast to …; unlike …",
+  "simpleExplanation": "〜にひきかえ sets two things side by side and stresses how different they are: \"compared with A, B is completely different\". It usually carries a judgement: A is good and B is bad, or the reverse. 引き換え means \"exchange\", so picture swapping A for B and seeing the gap.",
+  "whenUsed": "Both spoken and written, somewhat formal. Very common when comparing two people (a hard-working sister and a lazy brother), two periods (last year and this year) or two situations. Because it often criticises one side, avoid it in polite conversation about the listener.",
+  "formation": [
+    "N + にひきかえ",
+    "普通形 + の + にひきかえ (na-adj: 〜な + の)",
+    "Formal spelling: 〜に引き換え / 〜に引き替え"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Contrast markers",
+    "columns": [
+      "Tone",
+      "What is compared",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜にひきかえ",
+        "cells": [
+          "strong contrast, often a judgement",
+          "two opposite things",
+          "兄にひきかえ弟は無口だ"
+        ]
+      },
+      {
+        "label": "〜に対して",
+        "cells": [
+          "neutral contrast",
+          "two different things",
+          "兄は明るいのに対して弟は静かだ"
+        ]
+      },
+      {
+        "label": "〜に比べて",
+        "cells": [
+          "neutral comparison of degree",
+          "more / less",
+          "去年に比べて寒い"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "兄が社交的なのにひきかえ、弟は無口だ。",
+      "reading": "あにがしゃこうてきなのにひきかえ、おとうとはむくちだ。",
+      "en": "In contrast to the sociable older brother, the younger one is quiet.",
+      "note": "Two brothers, opposite personalities. The clause before にひきかえ takes の (社交的なのに)."
+    },
+    {
+      "ja": "去年の暖冬にひきかえ、今年は厳しい寒さが続いている。",
+      "reading": "きょねんのだんとうにひきかえ、ことしはきびしいさむさがつづいている。",
+      "en": "Unlike last year's mild winter, this year the severe cold continues.",
+      "note": "Two periods contrasted: mild last year, harsh this year."
+    },
+    {
+      "ja": "彼女の努力にひきかえ、私は何もしていない。",
+      "reading": "かのじょのどりょくにひきかえ、わたしはなにもしていない。",
+      "en": "Compared to her efforts, I have done nothing.",
+      "note": "Self-criticism: her effort versus my inaction."
+    },
+    {
+      "ja": "昔の学生が本をよく読んだのにひきかえ、今の学生はスマホばかり見ている。",
+      "reading": "むかしのがくせいがほんをよくよんだのにひきかえ、いまのがくせいはスマホばかりみている。",
+      "en": "In contrast to students of the past, who read a lot, today's students are always looking at their phones.",
+      "note": "A typical complaint-style contrast; the second half is criticised."
+    },
+    {
+      "ja": "姉が几帳面なのにひきかえ、私はいい加減な性格だ。",
+      "reading": "あねがきちょうめんなのにひきかえ、わたしはいいかげんなせいかくだ。",
+      "en": "Unlike my meticulous sister, I have a careless personality.",
+      "note": "な-adjective + なの + にひきかえ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に対して / 〜に対し",
+      "difference": "Neutral contrast of two facts without a strong evaluation.",
+      "id": "n2-grammar-121"
+    },
+    {
+      "pattern": "〜に比べて / 〜に比べ",
+      "difference": "A comparison of degree (more, less). にひきかえ says the two are of opposite kinds.",
+      "id": "n2-grammar-108"
+    },
+    {
+      "pattern": "〜にもまして",
+      "difference": "\"Even more than\": a comparison of degree against a high standard, not an opposite-kind contrast.",
+      "id": "n1-grammar-71"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "兄が社交的にひきかえ、弟は無口だ。",
+      "right": "兄が社交的なのにひきかえ、弟は無口だ。",
+      "why": "A clause before にひきかえ needs の (with な for na-adjectives), because ひきかえ attaches to a noun-like unit."
+    },
+    {
+      "wrong": "今日は昨日にひきかえ、少し暖かい。",
+      "right": "今日は昨日に比べて、少し暖かい。",
+      "why": "A small difference of degree (少し) is a comparison, not a stark contrast; use に比べて."
+    },
+    {
+      "wrong": "あなたにひきかえ、私は…（相手を批判する場面で）",
+      "right": "あなたと違って、私は…",
+      "why": "にひきかえ implies a judgement; using it about the listener in their presence can sound rude."
+    }
+  ],
+  "usageNotes": [
+    "The two items are usually of the same category (two people, two years, two companies) so the contrast is sharp.",
+    "It often appears with 一方 or は in the second clause: AにひきかえBは.",
+    "Writers use it for rhetorical effect; it is stronger than に対して and shows the writer's opinion."
+  ],
+  "jlptTips": [
+    "If the two halves are opposites (社交的 vs 無口, 暖冬 vs 厳しい寒さ) and one side is evaluated, にひきかえ is the answer.",
+    "Distractors: に比べて (degree), に対して (neutral), にもまして (more than). Look for opposite kinds rather than more/less.",
+    "In 並べ替え, the chunk before にひきかえ often ends in なの or たの."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-70-1",
+    "q-n1-g-70-2",
+    "q-n1-g-70-3",
+    "q-n1-g-70-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-70-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

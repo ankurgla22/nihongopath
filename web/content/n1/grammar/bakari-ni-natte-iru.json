@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-141",
+  "slug": "bakari-ni-natte-iru",
+  "level": "n1",
+  "order": 141,
+  "title": "〜ばかりになっている / 〜ばかりだ",
+  "romaji": "bakari ni natte iru / bakari da",
+  "meaning": "everything is ready and all that remains is to …; is ready to be …",
+  "simpleExplanation": "Vる + ばかりになっている says that all preparation is finished and only the final step is left. 出発するばかりになっている = \"All that's left is to leave\". 〜ばかりだ is the shorter, sentence-final version, and 〜ばかりにしてある means someone has prepared things to that point. This is completely different from Vた + ばかり (\"just did\").",
+  "whenUsed": "Both spoken and written, neutral. Common in cooking, travel, event preparation, and work: 温めるばかり・出すばかり・印刷するばかり・あとは〜ばかりだ. Often preceded by あとは (\"the only thing left is\").",
+  "formation": [
+    "Vる + ばかりになっている  (state: ready)",
+    "Vる + ばかりにしてある  (someone prepared it that far)",
+    "あとは + Vる + ばかりだ  (sentence-final)",
+    "Compare: Vた + ばかりだ = just did (different pattern)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Vる + ばかり vs Vた + ばかり",
+    "columns": [
+      "form",
+      "meaning",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "Vる + ばかりだ",
+        "cells": [
+          "dictionary form + ばかり",
+          "only the final step remains",
+          "あとは出発するばかりだ (ready to leave)"
+        ]
+      },
+      {
+        "label": "Vた + ばかりだ",
+        "cells": [
+          "past form + ばかり",
+          "just did it",
+          "今出発したばかりだ (just left)"
+        ]
+      },
+      {
+        "label": "Vて + ばかりいる",
+        "cells": [
+          "て-form + ばかり",
+          "does nothing but",
+          "寝てばかりいる (does nothing but sleep)"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "荷造りは済んで、あとは出発するばかりになっている。",
+      "reading": "にづくりはすんで、あとはしゅっぱつするばかりになっている。",
+      "en": "The packing is done; all that is left is to depart.",
+      "note": "あとは + 出発する + ばかりになっている: packing done, only departure remains."
+    },
+    {
+      "ja": "料理は温めるばかりにしてあります。",
+      "reading": "りょうりはあたためるばかりにしてあります。",
+      "en": "The food is ready; it only needs heating up.",
+      "note": "温めるばかりにしてあります: the cook prepared the dish up to the heating step."
+    },
+    {
+      "ja": "準備は整った。あとは客を待つばかりだ。",
+      "reading": "じゅんびはととのった。あとはきゃくをまつばかりだ。",
+      "en": "Preparations are complete. All we have to do now is wait for the guests.",
+      "note": "Sentence-final ばかりだ after あとは: preparations complete."
+    },
+    {
+      "ja": "原稿は完成し、あとは印刷するばかりになっている。",
+      "reading": "げんこうはかんせいし、あとはいんさつするばかりになっている。",
+      "en": "The manuscript is finished; all that remains is to print it.",
+      "note": "Work context."
+    },
+    {
+      "ja": "会場の飾り付けも終わり、パーティーは始まるばかりだ。",
+      "reading": "かいじょうのかざりつけもおわり、パーティーははじまるばかりだ。",
+      "en": "The decorating is done, and the party is ready to begin.",
+      "note": "Sentence-final ばかりだ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-185",
+      "pattern": "〜ばかりだ (一方だ)",
+      "difference": "Vる + ばかりだ can also mean \"keeps getting worse\" (悪くなるばかりだ). Context decides: with あとは or preparation words, it means \"ready to\"."
+    },
+    {
+      "id": "n2-grammar-47",
+      "pattern": "〜ことになっている",
+      "difference": "A rule or arrangement (\"it has been decided that\"). ばかりになっている is about the physical state of readiness."
+    },
+    {
+      "id": "n1-grammar-102",
+      "pattern": "〜んとする / 〜んとしている",
+      "difference": "\"Is about to\" (a moment in time). ばかりになっている stresses that preparations are complete, not timing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "料理は温めたばかりにしてある。",
+      "right": "料理は温めるばかりにしてある。",
+      "why": "The final remaining step is expressed with the dictionary form. 温めたばかり would mean \"just heated it\"."
+    },
+    {
+      "wrong": "あとは寝るばかりになっているので、もう少し仕事をする。",
+      "right": "あとは寝るばかりになっているので、パソコンを閉じた。",
+      "why": "If only the final step remains, the next action should be that step, not more work."
+    },
+    {
+      "wrong": "病状は悪くなるばかりになっている。",
+      "right": "病状は悪くなるばかりだ。",
+      "why": "The \"getting worse and worse\" meaning uses ばかりだ alone; ばかりになっている is only for readiness."
+    }
+  ],
+  "usageNotes": [
+    "あとは〜ばかりだ is the most natural spoken frame; になっている and にしてある add detail about who prepared it.",
+    "Choose the verb carefully: the remaining step must be a single final action (出発する・食べる・出す・提出する).",
+    "In recipes and instructions you will see 〜ばかりの状態にしておく (\"leave it ready to …\")."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, あとは + Vる + ＿＿ with preparation context points to ばかり. Confirm the verb is in the dictionary form.",
+    "The past-form trap: options like 出発したばかり mean \"just left\" and do not fit a sentence about readiness.",
+    "In 並べ替え, あとは goes first, the dictionary-form verb next, and ばかりになっている last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-141-1",
+    "q-n1-g-141-2",
+    "q-n1-g-141-3",
+    "q-n1-g-141-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-141-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

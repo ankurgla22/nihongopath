@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-19",
+  "slug": "zu-niwa-okanai",
+  "level": "n1",
+  "order": 19,
+  "title": "〜ずにはおかない / 〜ないではおかない",
+  "romaji": "zunihaokanai-naidehaokanai",
+  "meaning": "will inevitably …; cannot help but cause …; will definitely …",
+  "simpleExplanation": "Vずにはおかない / Vないではおかない has two uses. (1) Something has such force that it inevitably produces an effect on people: 感動させずにはおかない \"cannot fail to move (the audience)\", often with a causative verb. (2) The speaker's firm resolve: 追及しないではおかない \"I will not rest until I have pursued it\".",
+  "whenUsed": "書き言葉: reviews, editorials, literature, declarations. The subject of use (1) is often a work, event or person with strong impact; use (2) has a first-person or institutional subject.",
+  "formation": [
+    "Vない-stem + ずにはおかない (する → せずにはおかない)",
+    "Vない + ではおかない",
+    "Often with causative: 〜させずにはおかない",
+    "Determination: 必ず〜ずにはおかない"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "おかない vs すまない",
+    "columns": [
+      "meaning",
+      "typical subject",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜ずにはおかない",
+        "cells": [
+          "inevitably causes an effect / firm resolve",
+          "a powerful work, or the speaker",
+          "感動させずにはおかない"
+        ]
+      },
+      {
+        "label": "〜ずにはすまない",
+        "cells": [
+          "social or moral obligation; cannot get away without",
+          "a person who owes something",
+          "謝らずにはすまない"
+        ]
+      },
+      {
+        "label": "〜ずにはいられない",
+        "cells": [
+          "cannot stop oneself (emotion)",
+          "the speaker",
+          "笑わずにはいられない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼の演説は聴衆を感動させずにはおかなかった。",
+      "reading": "かれのえんぜつはちょうしゅうをかんどうさせずにはおかなかった。",
+      "en": "His speech could not but move the audience.",
+      "note": "Use (1): a speech that could not fail to move people (causative 感動させる)."
+    },
+    {
+      "ja": "この不正は必ず追及しないではおかない。",
+      "reading": "このふせいはかならずついきゅうしないではおかない。",
+      "en": "We will certainly pursue this wrongdoing.",
+      "note": "Use (2): determination to pursue wrongdoing."
+    },
+    {
+      "ja": "その映画は観る者の心を揺さぶらずにはおかない。",
+      "reading": "そのえいがはみるもののこころをゆさぶらずにはおかない。",
+      "en": "The film inevitably shakes the heart of the viewer.",
+      "note": "Use (1) again: the film inevitably shakes the viewer."
+    },
+    {
+      "ja": "この小説は、読む者に人生の意味を問わずにはおかない。",
+      "reading": "このしょうせつは、よむものにじんせいのいみをとわずにはおかない。",
+      "en": "This novel inevitably makes its readers question the meaning of life.",
+      "note": "The subject is a work with strong impact."
+    },
+    {
+      "ja": "彼らの不正行為は、必ず明らかにせずにはおかない。",
+      "reading": "かれらのふせいこういは、かならずあきらかにせずにはおかない。",
+      "en": "We will not rest until their misconduct is brought to light.",
+      "note": "Determination with 必ず; する → せずには."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ずにはすまない",
+      "difference": "Obligation that must be met (弁償せずにはすまない). おかない is about inevitable effect or resolve.",
+      "id": "n1-grammar-20"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "The speaker cannot hold back an emotion or action; no causative.",
+      "id": "n2-grammar-58"
+    },
+    {
+      "pattern": "〜てやまない",
+      "difference": "A continuing sincere wish (願ってやまない), not an effect on others.",
+      "id": "n1-grammar-33"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この映画は観客を感動せずにはおかない。",
+      "right": "この映画は観客を感動させずにはおかない。",
+      "why": "When a work affects people, the verb must be causative (感動させる)."
+    },
+    {
+      "wrong": "借りたお金は返さずにはおかない。",
+      "right": "借りたお金は返さずにはすまない。",
+      "why": "Repaying a debt is a social obligation: すまない, not おかない."
+    },
+    {
+      "wrong": "しずにはおかない",
+      "right": "せずにはおかない",
+      "why": "する becomes せず before ずには."
+    }
+  ],
+  "usageNotes": [
+    "Causative + ずにはおかない is the most tested shape: 泣かせずにはおかない, 考えさせずにはおかない.",
+    "Determination use often has 必ず / 絶対に and an institutional subject (警察, 当局).",
+    "ないではおかない is slightly more colloquial than ずにはおかない."
+  ],
+  "jlptTips": [
+    "If the subject is a film, book, speech or event and the verb is causative, the answer is ずにはおかない.",
+    "If the sentence is about paying, apologising or taking responsibility, the answer is ずにはすまない instead.",
+    "Distractor ずにはいられない needs a personal emotional subject and no causative."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-19-1",
+    "q-n1-g-19-2",
+    "q-n1-g-19-3",
+    "q-n1-g-19-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-19-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

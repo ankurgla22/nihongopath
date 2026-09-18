@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-62",
+  "slug": "ni-kakawaru",
+  "level": "n1",
+  "order": 62,
+  "title": "〜にかかわる",
+  "romaji": "ni kakawaru",
+  "meaning": "affects (something vital); concerns …; is involved in …",
+  "simpleExplanation": "〜にかかわる has two related meanings. (1) \"affects something important\": 命にかかわる (life-threatening), 信用にかかわる (damages one's credibility). (2) \"is involved in / relates to\" a field or matter: 教育にかかわる仕事 (work related to education). In sense (1) the noun is something precious, and the tone is serious.",
+  "whenUsed": "Used in every register, from doctors' explanations to news and business e-mails. Sense (1) is a warning or an appeal to seriousness (\"this is no small matter\"). Sense (2) is neutral and often appears in job descriptions and self-introductions. Written 関わる or 係わる; kana is common.",
+  "formation": [
+    "N + にかかわる + N (命にかかわる病気)",
+    "N + にかかわる (sentence end)",
+    "N + にかかわって / にかかわり (continuative)",
+    "Common nouns for sense 1: 命・名誉・信用・将来・存続"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two senses of にかかわる",
+    "columns": [
+      "Meaning",
+      "Typical nouns before に",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. Affects something vital",
+        "cells": [
+          "a serious effect on X",
+          "命・信用・名誉・将来",
+          "会社の信用にかかわる問題"
+        ]
+      },
+      {
+        "label": "2. Involved in / related to",
+        "cells": [
+          "works or deals with X",
+          "教育・環境問題・医療",
+          "環境問題にかかわる仕事"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これは会社の信用にかかわる問題だ。",
+      "reading": "これはかいしゃのしんようにかかわるもんだいだ。",
+      "en": "This is a matter that affects the company's credibility.",
+      "note": "Sense 1: the company's credibility is at stake. 問題 is the usual noun after it."
+    },
+    {
+      "ja": "命にかかわる病気ではないので、安心してください。",
+      "reading": "いのちにかかわるびょうきではないので、あんしんしてください。",
+      "en": "It is not a life-threatening illness, so please rest assured.",
+      "note": "命にかかわる = life-threatening. The negative reassures the listener."
+    },
+    {
+      "ja": "彼は長年、環境問題にかかわる仕事をしてきた。",
+      "reading": "かれはながねん、かんきょうもんだいにかかわるしごとをしてきた。",
+      "en": "For many years he has done work related to environmental issues.",
+      "note": "Sense 2: simply \"related to\", with no sense of danger."
+    },
+    {
+      "ja": "これは国の将来にかかわる重大な決定だ。",
+      "reading": "これはくにのしょうらいにかかわるじゅうだいなけっていだ。",
+      "en": "This is a grave decision that affects the future of the country.",
+      "note": "将来 is one of the standard \"vital\" nouns."
+    },
+    {
+      "ja": "彼は学生時代から演劇にかかわってきた。",
+      "reading": "かれはがくせいじだいからえんげきにかかわってきた。",
+      "en": "He has been involved in theatre since his student days.",
+      "note": "Continuative てきた form; sense 2, \"involved in\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に関して / 〜に関する",
+      "difference": "Neutral \"concerning\"; it only says what the topic is, with no sense that something vital is at stake.",
+      "id": "n2-grammar-106"
+    },
+    {
+      "pattern": "〜にかかわらず",
+      "difference": "Looks similar but means \"regardless of\" and takes a variable noun (天候・年齢).",
+      "id": "n2-grammar-101"
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "\"Despite\", with an unexpected result. Neither meaning of にかかわる.",
+      "id": "n2-grammar-102"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "これは命にかかわらず問題だ。",
+      "right": "これは命にかかわる問題だ。",
+      "why": "にかかわらず is \"regardless of\". To say the problem affects lives, use にかかわる before the noun."
+    },
+    {
+      "wrong": "天気にかかわる試合は行われる。",
+      "right": "天気にかかわらず試合は行われる。",
+      "why": "A variable such as 天気 plus a result that stays the same needs にかかわらず, not にかかわる."
+    },
+    {
+      "wrong": "彼は環境問題にかかわる。",
+      "right": "彼は環境問題にかかわっている。",
+      "why": "For an ongoing involvement, use the ている form; the plain form sounds like a headline or a future plan."
+    }
+  ],
+  "usageNotes": [
+    "Sense 1 is a strong phrase: saying 名誉にかかわる signals that someone's honour is genuinely on the line, so it is used for serious situations only.",
+    "命にかかわる is a set phrase used in medical and safety contexts; the negative 命にかかわるものではない is a standard reassurance.",
+    "In sense 2, かかわる can be replaced by 関係する with almost no change in meaning."
+  ],
+  "jlptTips": [
+    "When the noun before the blank is 命・信用・名誉・将来 and the following noun is 問題・病気・事態, the answer is にかかわる.",
+    "The key distractor is にかかわらず. Check the ending: a rule that holds \"whatever X is\" wants にかかわらず; a serious effect wants にかかわる.",
+    "In 並べ替え, にかかわる is normally followed directly by a noun such as 問題 or 仕事."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-62-1",
+    "q-n1-g-62-2",
+    "q-n1-g-62-3",
+    "q-n1-g-62-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-62-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-156",
+  "slug": "you-de-ite",
+  "level": "n1",
+  "order": 156,
+  "title": "〜ようで(いて)",
+  "romaji": "you de (ite)",
+  "meaning": "seems … but (actually) …; appears X, yet …",
+  "simpleExplanation": "〜ようで(いて) contrasts how something looks with how it really is. 冷たいようでいて、実は思いやりがある = \"He seems cold, but is actually considerate\". ようだ is \"seems\"; で links to the contrasting truth; いて (from いる) stresses that the appearance persists while the reality differs.",
+  "whenUsed": "Both spoken and written, common in character descriptions, reviews, and essays. The second half often has 実は / 意外に / 案外 / なかなか. ようで alone is lighter; ようでいて makes the discrepancy stronger.",
+  "formation": [
+    "普通形 + ようで(いて)  (簡単なようで・仲がいいようでいて)",
+    "N + の + ようで(いて)",
+    "なA + な + ようで(いて)",
+    "Second half: 実は / 意外に / 案外 + the reality"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "彼は冷たい",
+        "en": "how he appears"
+      },
+      {
+        "ja": "彼は冷たいようでいて",
+        "en": "\"he seems cold, and yet…\""
+      },
+      {
+        "ja": "実は思いやりがある",
+        "en": "the reality behind the appearance"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は冷たいようでいて、実は思いやりがある。",
+      "reading": "かれはつめたいようでいて、じつはおもいやりがある。",
+      "en": "He seems cold, but is actually considerate.",
+      "note": "Appearance (cold) vs reality (considerate); 実は marks the switch."
+    },
+    {
+      "ja": "簡単なようで、この問題は意外に難しい。",
+      "reading": "かんたんなようで、このもんだいはいがいにむずかしい。",
+      "en": "This problem looks simple but is surprisingly difficult.",
+      "note": "簡単なようで: な-adjective + な; 意外に signals the surprise."
+    },
+    {
+      "ja": "二人は仲がいいようでいて、本音は言い合わない。",
+      "reading": "ふたりはなかがいいようでいて、ほんねはいいあわない。",
+      "en": "The two seem close, but they never tell each other their true feelings.",
+      "note": "ようでいて strengthens the discrepancy about the two friends."
+    },
+    {
+      "ja": "この仕事は楽なようでいて、実はかなり神経を使う。",
+      "reading": "このしごとはらくなようでいて、じつはかなりしんけいをつかう。",
+      "en": "This job looks easy, but in fact it takes a lot of nervous energy.",
+      "note": "楽な + ようでいて."
+    },
+    {
+      "ja": "彼女は何も考えていないようで、案外いろいろ計算している。",
+      "reading": "かのじょはなにもかんがえていないようで、あんがいいろいろけいさんしている。",
+      "en": "She seems not to be thinking about anything, but she is actually quite calculating.",
+      "note": "ようで without いて is lighter."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-26",
+      "pattern": "〜かのようだ",
+      "difference": "\"As if\" describing a resemblance (まるで夢かのようだ). ようでいて sets appearance against reality."
+    },
+    {
+      "id": "n2-grammar-144",
+      "pattern": "〜反面",
+      "difference": "Two real sides of the same thing (便利な反面、危険だ). ようでいて says the first side is only an appearance."
+    },
+    {
+      "id": "n1-grammar-40",
+      "pattern": "〜と思いきや",
+      "difference": "\"I thought X, but unexpectedly Y\": a past expectation overturned by events. ようでいて is a general observation about appearance vs reality."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は冷たいようでいて、本当に冷たい。",
+      "right": "彼は冷たいようでいて、実は優しい。",
+      "why": "The second half must contradict the appearance."
+    },
+    {
+      "wrong": "簡単ようで",
+      "right": "簡単なようで",
+      "why": "な-adjectives need な before ようで."
+    },
+    {
+      "wrong": "この店は安いようでいて。",
+      "right": "この店は安いようでいて、実は高い。",
+      "why": "ようでいて cannot end a sentence; the reality must follow."
+    }
+  ],
+  "usageNotes": [
+    "Typical second-half markers: 実は・意外に・案外・なかなか・かえって.",
+    "Common in reviews: 単純なようでいて奥が深い (\"seemingly simple but deep\").",
+    "ようでいて sounds slightly literary; in casual speech ようで or みたいで is enough."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an appearance + a blank + 実は / 意外に + the opposite is ようで(いて). Check for な after な-adjectives.",
+    "Distractor 反面: it presents two genuine sides, so 実は would not appear.",
+    "In 並べ替え, ようでいて follows the appearance word; 実は begins the reality clause."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-156-1",
+    "q-n1-g-156-2",
+    "q-n1-g-156-3",
+    "q-n1-g-156-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-156-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-96",
+  "slug": "o-mono-tomo-sezu",
+  "level": "n1",
+  "order": 96,
+  "title": "〜をものともせず(に)",
+  "romaji": "o mono tomo sezu (ni)",
+  "meaning": "in defiance of …; undaunted by …",
+  "simpleExplanation": "〜をものともせず means \"treating X as nothing\": the subject faces a difficulty (opposition, bad weather, injury, danger) and presses on bravely. 物ともしない = \"not regard as a problem\". The sentence praises the subject's courage or strength.",
+  "whenUsed": "Formal written Japanese: biographies, sports and news reports. It describes other people admiringly; it is not used for the speaker's own actions. The obstacle is real and serious (反対・悪天候・危険・障害・批判).",
+  "formation": [
+    "N(obstacle) + をものともせず(に)、V",
+    "Typical N: 反対・悪天候・危険・けが・批判・逆境",
+    "The main clause: a brave or successful action"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "選手たちは",
+        "role": "subject (admired)"
+      },
+      {
+        "text": "悪天候",
+        "role": "the obstacle",
+        "highlight": true
+      },
+      {
+        "text": "をものともせずに",
+        "role": "treating it as nothing",
+        "highlight": true
+      },
+      {
+        "text": "試合を続けた",
+        "role": "brave action"
+      }
+    ],
+    "translation": "The players kept playing, unfazed by the bad weather."
+  },
+  "examples": [
+    {
+      "ja": "彼は周囲の反対をものともせず、起業した。",
+      "reading": "かれはしゅういのはんたいをものともせず、きぎょうした。",
+      "en": "Undaunted by the opposition around him, he started a business.",
+      "note": "Undaunted by opposition, he started a business: admiration."
+    },
+    {
+      "ja": "選手たちは悪天候をものともせずに、試合を続けた。",
+      "reading": "せんしゅたちはあくてんこうをものともせずに、しあいをつづけた。",
+      "en": "The players kept playing, unfazed by the bad weather.",
+      "note": "Bad weather as the obstacle; に is optional."
+    },
+    {
+      "ja": "彼女は障害をものともせず、世界大会で優勝した。",
+      "reading": "かのじょはしょうがいをものともせず、せかいたいかいでゆうしょうした。",
+      "en": "In defiance of her disability, she won the world championship.",
+      "note": "Disability as the obstacle; the achievement is praised."
+    },
+    {
+      "ja": "彼は周囲の批判をものともせず、自分の信念を貫いた。",
+      "reading": "かれはしゅういのひはんをものともせず、じぶんのしんねんをつらぬいた。",
+      "en": "Unfazed by the criticism around him, he stuck to his convictions.",
+      "note": "批判 is a common obstacle."
+    },
+    {
+      "ja": "救助隊は激しい雨をものともせずに、捜索を続けた。",
+      "reading": "きゅうじょたいははげしいあめをものともせずに、そうさくをつづけた。",
+      "en": "The rescue team continued the search, undeterred by the heavy rain.",
+      "note": "Praise for a team."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をよそに",
+      "difference": "\"Ignoring X\" (others' worries or opposition), often with a critical tone: the subject is indifferent, not brave.",
+      "id": "n1-grammar-99"
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "Neutral \"despite\": no praise, no criticism.",
+      "id": "n2-grammar-102"
+    },
+    {
+      "pattern": "〜もかまわず",
+      "difference": "\"Without minding X\" (人目もかまわず): the subject does not care about something they perhaps should; not about bravery.",
+      "id": "n2-grammar-152"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は反対をものともせず、留学した。",
+      "right": "私は反対を押し切って、留学した。",
+      "why": "The pattern praises others; using it about oneself sounds boastful."
+    },
+    {
+      "wrong": "彼は親の心配をものともせず、遊び回った。",
+      "right": "彼は親の心配をよそに、遊び回った。",
+      "why": "Playing around is not brave; indifference to others' worries is をよそに."
+    },
+    {
+      "wrong": "雨ものともせず",
+      "right": "雨をものともせず",
+      "why": "The particle を is required."
+    }
+  ],
+  "usageNotes": [
+    "The obstacle must be something that would stop an ordinary person; the subject overcomes it.",
+    "The tone is always admiring, which distinguishes it from をよそに.",
+    "ものともしない can also be used as a predicate: 彼は困難をものともしない."
+  ],
+  "jlptTips": [
+    "An obstacle + blank + a brave achievement → をものともせず.",
+    "The key distractor is をよそに: choose をものともせず when the subject is praised, をよそに when the subject ignores others' feelings.",
+    "にもかかわらず is grammatical in many of the same sentences but neutral; the exam will make the admiring tone clear."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-96-1",
+    "q-n1-g-96-2",
+    "q-n1-g-96-3",
+    "q-n1-g-96-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-96-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

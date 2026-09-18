@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-33",
+  "slug": "te-yamanai",
+  "level": "n1",
+  "order": 33,
+  "title": "〜てやまない",
+  "romaji": "teyamanai",
+  "meaning": "… sincerely and continually (wish, hope, love)",
+  "simpleExplanation": "Vてやまない attaches to verbs of wishing, hoping and loving to express a strong feeling that never stops: 願ってやまない \"sincerely wish\". やむ means \"to cease\", so literally \"does not cease to wish\". It is used only with a small set of verbs.",
+  "whenUsed": "Formal speeches, letters, ceremonial messages, and literature. Common in congratulatory or farewell speeches (ご活躍を願ってやみません).",
+  "formation": [
+    "Vて + やまない (願う・祈る・期待する・愛する・尊敬する・信じる)",
+    "Polite: 〜てやみません",
+    "Past (narrative): 〜てやまなかった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Continuous strong feeling",
+    "columns": [
+      "verbs it takes",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜てやまない",
+        "cells": [
+          "願う, 祈る, 期待する, 愛する",
+          "formal speech, letters",
+          "成功を願ってやまない"
+        ]
+      },
+      {
+        "label": "〜てならない",
+        "cells": [
+          "feelings: 気になる, 残念だ",
+          "written, reflective",
+          "残念でならない"
+        ]
+      },
+      {
+        "label": "〜てたまらない",
+        "cells": [
+          "desires and sensations",
+          "spoken",
+          "会いたくてたまらない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "皆様のご活躍を願ってやみません。",
+      "reading": "みなさまのごかつやくをねがってやみません。",
+      "en": "I sincerely wish you every success.",
+      "note": "Congratulatory speech with 願ってやみません."
+    },
+    {
+      "ja": "彼は故郷の海を愛してやまなかった。",
+      "reading": "かれはこきょうのうみをあいしてやまなかった。",
+      "en": "He never stopped loving the sea of his hometown.",
+      "note": "Narrative past: he never stopped loving."
+    },
+    {
+      "ja": "両国の平和が続くことを祈ってやまない。",
+      "reading": "りょうこくのへいわがつづくことをいのってやまない。",
+      "en": "I fervently pray that peace between the two countries continues.",
+      "note": "祈ってやまない: a formal prayer for peace."
+    },
+    {
+      "ja": "卒業生の皆さんの今後のご活躍を期待してやみません。",
+      "reading": "そつぎょうせいのみなさんのこんごのごかつやくをきたいしてやみません。",
+      "en": "I sincerely look forward to the future success of all our graduates.",
+      "note": "Standard graduation-speech phrase."
+    },
+    {
+      "ja": "私は今でも、あの先生を尊敬してやまない。",
+      "reading": "わたしはいまでも、あのせんせいをそんけいしてやまない。",
+      "en": "Even now I have the deepest respect for that teacher.",
+      "note": "尊敬する is another accepted verb."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜てならない",
+      "difference": "A feeling that cannot be suppressed (残念でならない); takes emotion words, not wishes.",
+      "id": "n2-grammar-80"
+    },
+    {
+      "pattern": "〜ずにはいられない",
+      "difference": "Cannot stop oneself doing something; not restricted to wishes.",
+      "id": "n2-grammar-58"
+    },
+    {
+      "pattern": "〜てたまらない",
+      "difference": "Spoken intensity of desires and sensations.",
+      "id": "n2-grammar-79"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お腹が空いてやまない。",
+      "right": "お腹が空いてたまらない。",
+      "why": "てやまない takes only verbs of wishing or loving; sensations use たまらない."
+    },
+    {
+      "wrong": "今日の勝利を願ってやまなかった。",
+      "right": "皆様の幸せを願ってやみません。",
+      "why": "The pattern describes a lasting, sincere feeling, not a momentary hope for today."
+    },
+    {
+      "wrong": "成功を願うてやまない。",
+      "right": "成功を願ってやまない。",
+      "why": "Use the て-form: 願って."
+    }
+  ],
+  "usageNotes": [
+    "Learn it as a set with 願う, 祈る, 期待する, 愛する, 尊敬する, 信じる.",
+    "Politeness: やみません in speeches and letters.",
+    "The feeling is directed at others (their success, health, happiness), rarely at oneself."
+  ],
+  "jlptTips": [
+    "If the verb is 願う / 祈る / 期待する in a speech or letter and the blank ends the sentence, てやまない is the answer.",
+    "The distractors てならない and てたまらない are used with feelings and sensations, not with wish verbs.",
+    "Watch the verb form before the blank: て-form only."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-33-1",
+    "q-n1-g-33-2",
+    "q-n1-g-33-3",
+    "q-n1-g-33-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-33-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

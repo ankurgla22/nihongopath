@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-52",
+  "slug": "nashi-ni",
+  "level": "n1",
+  "order": 52,
+  "title": "〜なしに(は) / 〜なしでは",
+  "romaji": "nashini-nashideha",
+  "meaning": "without …",
+  "simpleExplanation": "Nなしに means \"without N\" as a manner: 許可なしに立ち入る \"enter without permission\". Nなしには / なしでは stress that N is a necessary condition and are followed by a negative: スマホなしでは過ごせない. Unlike なくして, なしに can describe a positive action.",
+  "whenUsed": "Both registers; formal but usable in speech (なしで is the most casual). Common in rules (事前の連絡なしに) and in describing dependence (〜なしでは生きられない).",
+  "formation": [
+    "Noun + なしに + verb (manner: without)",
+    "Noun + なしには / なしでは + negative (necessary condition)",
+    "Vること + なしに (see ことなしに)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"Without\" three ways",
+    "columns": [
+      "form",
+      "main clause",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜なしに",
+        "cells": [
+          "N + なしに",
+          "any action",
+          "予告なしに訪ねる"
+        ]
+      },
+      {
+        "label": "〜なしでは / なしには",
+        "cells": [
+          "N + なしでは",
+          "negative (cannot)",
+          "辞書なしでは読めない"
+        ]
+      },
+      {
+        "label": "〜なくして(は)",
+        "cells": [
+          "N + なくして",
+          "negative (formal)",
+          "努力なくして成功はない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "許可なしに立ち入ることはできない。",
+      "reading": "きょかなしにたちいることはできない。",
+      "en": "You cannot enter without permission.",
+      "note": "Manner: without permission (rule)."
+    },
+    {
+      "ja": "スマートフォンなしでは、一日も過ごせない人が増えている。",
+      "reading": "スマートフォンなしでは、いちにちもすごせないひとがふえている。",
+      "en": "More and more people cannot spend even a day without a smartphone.",
+      "note": "なしでは + negative: cannot live without."
+    },
+    {
+      "ja": "事前の連絡なしには、面会はお受けできません。",
+      "reading": "じぜんのれんらくなしには、めんかいはおうけできません。",
+      "en": "We cannot accept visits without prior notice.",
+      "note": "なしには + a negative in polite business register."
+    },
+    {
+      "ja": "彼は何の説明もなしに、突然会社を辞めた。",
+      "reading": "かれはなんのせつめいもなしに、とつぜんかいしゃをやめた。",
+      "en": "He suddenly quit the company without any explanation.",
+      "note": "何の〜もなしに is a common intensified form."
+    },
+    {
+      "ja": "両親の支えなしには、今の私はなかっただろう。",
+      "reading": "りょうしんのささえなしには、いまのわたしはなかっただろう。",
+      "en": "Without my parents' support, I would not be who I am today.",
+      "note": "なしには + counterfactual negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なくして(は)",
+      "difference": "Formal; always with a negative or impossibility. なしに can precede a positive action.",
+      "id": "n1-grammar-51"
+    },
+    {
+      "pattern": "〜ことなしに",
+      "difference": "Verb version for \"without doing\".",
+      "id": "n1-grammar-17"
+    },
+    {
+      "pattern": "〜抜きで / 〜抜きに",
+      "difference": "\"Leaving out N\": 冗談抜きで. Focus on omission rather than absence.",
+      "id": "n2-grammar-135"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "努力なしに成功はない。",
+      "right": "努力なしには / なくしては成功はない。",
+      "why": "For the necessary-condition meaning with a negative, add は (なしには) or use なくして."
+    },
+    {
+      "wrong": "許可なくして入った。",
+      "right": "許可なしに入った。",
+      "why": "A positive action with \"without\" takes なしに."
+    },
+    {
+      "wrong": "説明なしでは辞めた。",
+      "right": "説明なしに辞めた。",
+      "why": "なしでは needs a negative; for manner use なしに."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 許可, 連絡, 予告, 説明, 断り, 理由, スマホ, 辞書.",
+    "何の〜もなしに strengthens the sense of \"without any\".",
+    "なしで is the casual variant: 砂糖なしで."
+  ],
+  "jlptTips": [
+    "Manner + positive action → なしに; necessary condition + negative → なしでは / なしには.",
+    "なくして is the distractor when a positive action follows (it cannot be used there).",
+    "Check for は after なし: なしには and なしでは both need a negative."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-52-1",
+    "q-n1-g-52-2",
+    "q-n1-g-52-3",
+    "q-n1-g-52-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-52-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

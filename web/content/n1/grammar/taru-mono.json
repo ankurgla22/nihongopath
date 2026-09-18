@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-27",
+  "slug": "taru-mono",
+  "level": "n1",
+  "order": 27,
+  "title": "〜たる(もの)",
+  "romaji": "taru",
+  "meaning": "as one who is …; anyone in the position of …",
+  "simpleExplanation": "Nたる(もの) presents a status or role and states the ideal duties that go with it: 教師たるもの、常に学び続けなければならない \"a teacher, as such, must keep learning\". たる is a classical form of the copula である, so the phrase sounds solemn and moralising.",
+  "whenUsed": "Formal speeches, editorials, lectures, ceremonies. The noun is a respected status (教師, 医師, リーダー, 国民, 政治家, 親) and the predicate is an obligation (べきだ, なければならない).",
+  "formation": [
+    "Noun + たるもの(は) + obligation",
+    "Noun + たる + Noun (一国の首相たる人物)",
+    "Noun + たる + 者(もの)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "教師",
+        "role": "status / role",
+        "highlight": true
+      },
+      {
+        "text": "たるもの",
+        "role": "\"one who is (in that position)\"",
+        "highlight": true
+      },
+      {
+        "text": "常に学び続け",
+        "role": "ideal conduct"
+      },
+      {
+        "text": "なければならない",
+        "role": "obligation"
+      }
+    ],
+    "translation": "A teacher, as such, must always keep learning."
+  },
+  "examples": [
+    {
+      "ja": "教師たるもの、常に学び続けなければならない。",
+      "reading": "きょうしたるもの、つねにまなびつづけなければならない。",
+      "en": "A teacher, as such, must always keep learning.",
+      "note": "The typical shape: status + たるもの + obligation."
+    },
+    {
+      "ja": "リーダーたる者は、部下の失敗にも責任を持つべきだ。",
+      "reading": "リーダーたるものは、ぶかのしっぱいにもせきにんをもつべきだ。",
+      "en": "One who is a leader should take responsibility even for the failures of subordinates.",
+      "note": "たる者は: the same with 者 written in kanji and は."
+    },
+    {
+      "ja": "一国の首相たる人物が、そんな発言をするとは驚きだ。",
+      "reading": "いっこくのしゅしょうたるじんぶつが、そんなはつげんをするとはおどろきだ。",
+      "en": "It is astonishing that a person who is prime minister of a nation would say such a thing.",
+      "note": "たる + noun: the person who holds the office of prime minister."
+    },
+    {
+      "ja": "政治家たるもの、国民の声に耳を傾けるべきだ。",
+      "reading": "せいじかたるもの、こくみんのこえにみみをかたむけるべきだ。",
+      "en": "A politician, as such, should listen to the voice of the people.",
+      "note": "Editorial tone with べきだ."
+    },
+    {
+      "ja": "プロたる者、言い訳をしてはならない。",
+      "reading": "プロたるもの、いいわけをしてはならない。",
+      "en": "A professional must never make excuses.",
+      "note": "Short and absolute; てはならない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜として",
+      "difference": "Neutral \"as (a role)\", no moral weight: 教師として働く.",
+      "id": "n2-grammar-91"
+    },
+    {
+      "pattern": "〜ともあろう",
+      "difference": "\"Someone of the stature of\": criticism that a person of that status behaved badly.",
+      "id": "n1-grammar-129"
+    },
+    {
+      "pattern": "〜べきだ",
+      "difference": "The obligation ending that usually follows たるもの.",
+      "id": "n2-grammar-145"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供たるもの、早く寝るべきだ。",
+      "right": "子供は早く寝るべきだ。",
+      "why": "たるもの is for respected roles with duties (教師, 医師); it sounds odd with 子供 or 私."
+    },
+    {
+      "wrong": "教師たるもの、遅刻した。",
+      "right": "教師たるもの、遅刻してはならない。",
+      "why": "The predicate must state an ideal or obligation, not a past fact."
+    },
+    {
+      "wrong": "教師であるたるもの",
+      "right": "教師たるもの",
+      "why": "たる replaces である; do not use both."
+    }
+  ],
+  "usageNotes": [
+    "The noun is a role that carries responsibility.",
+    "Typical endings: べきだ, なければならない, てはならない, 必要がある.",
+    "Also 〜たるべき N: 首相たるべき人物 (\"a person fit to be prime minister\")."
+  ],
+  "jlptTips": [
+    "If a respected role noun is followed by a duty (べきだ / なければならない), the blank is たるもの.",
+    "として is the neutral distractor: it fits grammatically but lacks the moral \"as one who holds that position\" sense the exam targets.",
+    "ともあろう is the other distractor; it introduces criticism of a specific person's behaviour, not a general duty."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-27-1",
+    "q-n1-g-27-2",
+    "q-n1-g-27-3",
+    "q-n1-g-27-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-27-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

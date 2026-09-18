@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-81",
+  "slug": "majiki",
+  "level": "n1",
+  "order": 81,
+  "title": "〜まじき",
+  "romaji": "majiki",
+  "meaning": "unbecoming of …; that should never be done by …",
+  "simpleExplanation": "〜まじき is an old negative of べし meaning \"must not\", surviving in one frame: 〜にあるまじき / 〜としてあるまじき + 行為・発言・態度 (an act, remark or attitude unbecoming of a …). It condemns someone for behaving in a way their position forbids: 教師にあるまじき行為 (conduct unbecoming of a teacher).",
+  "whenUsed": "Formal written Japanese and formal spoken criticism: news reports, official statements, editorials. Almost always with ある (あるまじき) and occasionally 許す (許すまじき). The noun before it is a role or profession: 教師・医師・公務員・政治家・親.",
+  "formation": [
+    "N(role) + にあるまじき + N (行為・発言・態度・行動)",
+    "N(role) + としてあるまじき + N",
+    "Rare: 許すまじき + N"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "それは",
+        "role": "topic"
+      },
+      {
+        "text": "教師に",
+        "role": "the role (standard of conduct)",
+        "highlight": true
+      },
+      {
+        "text": "あるまじき",
+        "role": "that must not exist for",
+        "highlight": true
+      },
+      {
+        "text": "行為だ",
+        "role": "act"
+      }
+    ],
+    "translation": "That is conduct unbecoming of a teacher."
+  },
+  "examples": [
+    {
+      "ja": "それは教師にあるまじき行為だ。",
+      "reading": "それはきょうしにあるまじきこういだ。",
+      "en": "That is conduct unbecoming of a teacher.",
+      "note": "The model sentence: 教師にあるまじき行為."
+    },
+    {
+      "ja": "公務員としてあるまじき発言に、批判が集まった。",
+      "reading": "こうむいんとしてあるまじきはつげんに、ひはんがあつまった。",
+      "en": "Criticism poured in over a statement unbecoming of a public servant.",
+      "note": "としてあるまじき + 発言: a remark unbecoming of a public servant."
+    },
+    {
+      "ja": "医者として許すまじき過失だった。",
+      "reading": "いしゃとしてゆるすまじきかしつだった。",
+      "en": "It was a negligence unforgivable for a doctor.",
+      "note": "許すまじき過失: a rare variant with 許す."
+    },
+    {
+      "ja": "患者を怒鳴りつけるなど、医師にあるまじき態度だ。",
+      "reading": "かんじゃをどなりつけるなど、いしにあるまじきたいどだ。",
+      "en": "Shouting at a patient is an attitude unbecoming of a doctor.",
+      "note": "など introduces the condemned behaviour."
+    },
+    {
+      "ja": "記者としてあるまじき捏造記事が、大きな問題となった。",
+      "reading": "きしゃとしてあるまじきねつぞうきじが、おおきなもんだいとなった。",
+      "en": "A fabricated article, unthinkable for a journalist, became a major issue.",
+      "note": "The noun after まじき can be the specific misdeed."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べからざる",
+      "difference": "Also \"must not\" before a noun (許すべからざる行為), but not tied to a role; まじき needs a profession or position with にある / としてある.",
+      "id": "n1-grammar-77"
+    },
+    {
+      "pattern": "〜たる(もの)",
+      "difference": "\"One who is a (leader) should…\": names the role with positive expectations; まじき names the role with condemned conduct.",
+      "id": "n1-grammar-27"
+    },
+    {
+      "pattern": "〜べきではない",
+      "difference": "The modern, neutral \"should not\". まじき is far stronger, formal, and tied to a role.",
+      "id": "n2-grammar-145"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "教師まじき行為だ。",
+      "right": "教師にあるまじき行為だ。",
+      "why": "The frame requires にある or としてある before まじき."
+    },
+    {
+      "wrong": "それは教師にあるまじきだ。",
+      "right": "それは教師にあるまじき行為だ。",
+      "why": "まじき is adnominal; a noun such as 行為 must follow."
+    },
+    {
+      "wrong": "子供にあるまじき行為だ。（子供のいたずらについて）",
+      "right": "子供らしくない行為だ。",
+      "why": "まじき condemns conduct that violates a role's duties; it is not used for children's mischief."
+    }
+  ],
+  "usageNotes": [
+    "The nouns after まじき are almost always 行為・発言・態度・行動・振る舞い.",
+    "It is used by outsiders to condemn; people rarely say it about themselves.",
+    "Learn it together with べからざる: both are fossil forms of べし."
+  ],
+  "jlptTips": [
+    "Role + に + blank + 行為 is the classic まじき question; the answer is あるまじき.",
+    "Distractors: べからざる, べく, ふさわしい. Only まじき takes にある / としてある before it.",
+    "In 並べ替え, keep 〜にあるまじき + 行為 as a block."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-81-1",
+    "q-n1-g-81-2",
+    "q-n1-g-81-3",
+    "q-n1-g-81-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-81-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

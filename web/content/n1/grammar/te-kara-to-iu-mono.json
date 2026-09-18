@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-30",
+  "slug": "te-kara-to-iu-mono",
+  "level": "n1",
+  "order": 30,
+  "title": "〜てからというもの",
+  "romaji": "tekaratoiumono",
+  "meaning": "ever since … (a lasting change)",
+  "simpleExplanation": "Vてからというもの marks a turning point after which a big change began and has continued: 子供が生まれてからというもの、外食が減った. Compared with て以来, it is more emotional and stresses how different things have been ever since.",
+  "whenUsed": "Both registers, slightly narrative. Used when looking back on a change that has lasted a long time; not for very recent events or for changes that only happened once.",
+  "formation": [
+    "Vて + からというもの(は)",
+    "Noun (event) + からというもの (退職してからというもの / あの日からというもの)",
+    "Followed by a continuing state or repeated behaviour"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "子供が生まれてから",
+        "en": "since our child was born (plain time reference)"
+      },
+      {
+        "ja": "子供が生まれて以来",
+        "en": "since the birth (formal, continuous)"
+      },
+      {
+        "ja": "子供が生まれてからというもの",
+        "en": "ever since the birth, everything changed and has stayed that way (emotional)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供が生まれてからというもの、外食する機会がめっきり減った。",
+      "reading": "こどもがうまれてからというもの、がいしょくするきかいがめっきりへった。",
+      "en": "Ever since our child was born, we have eaten out far less often.",
+      "note": "A big life change (birth) followed by a lasting difference."
+    },
+    {
+      "ja": "彼は日本に来てからというもの、一日も勉強を欠かしたことがない。",
+      "reading": "かれはにほんにきてからというもの、いちにちもべんきょうをかかしたことがない。",
+      "en": "Since coming to Japan, he has not missed a single day of study.",
+      "note": "Continuing behaviour since arrival: not a single day missed."
+    },
+    {
+      "ja": "タバコをやめてからというもの、食事が美味しく感じられる。",
+      "reading": "タバコをやめてからというもの、しょくじがおいしくかんじられる。",
+      "en": "Since I quit smoking, food tastes better.",
+      "note": "Perception changed permanently after quitting smoking."
+    },
+    {
+      "ja": "彼女に出会ってからというもの、毎日が輝いて見える。",
+      "reading": "かのじょにであってからというもの、まいにちがかがやいてみえる。",
+      "en": "Ever since I met her, every day has seemed to shine.",
+      "note": "Emotional turning point."
+    },
+    {
+      "ja": "あの事故からというもの、彼は車の運転を一切しなくなった。",
+      "reading": "あのじこからというもの、かれはくるまのうんてんをいっさいしなくなった。",
+      "en": "Since that accident, he has stopped driving altogether.",
+      "note": "Event noun + からというもの."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜て以来",
+      "difference": "Neutral \"since\"; states continuity without the emotional emphasis on change.",
+      "id": "n2-grammar-76"
+    },
+    {
+      "pattern": "〜以来",
+      "difference": "Formal \"since\" as a noun connector (入社以来); neutral about the size of the change.",
+      "id": "n2-grammar-4"
+    },
+    {
+      "pattern": "〜を機に / 〜を境に",
+      "difference": "Names the event as a turning point (退職を機に) but focuses on what was newly started, not on how things have been ever since.",
+      "id": "n1-grammar-122"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨日から新しい仕事を始めてからというもの、忙しい。",
+      "right": "新しい仕事を始めてからというもの、毎日が忙しい。",
+      "why": "The pattern needs a change that has lasted some time; \"since yesterday\" is too recent."
+    },
+    {
+      "wrong": "日本に来てからというもの、一度富士山に登った。",
+      "right": "日本に来てからというもの、毎年富士山に登っている。",
+      "why": "The second clause should be a continuing state or habit, not a single event."
+    },
+    {
+      "wrong": "日本に来るからというもの",
+      "right": "日本に来てからというもの",
+      "why": "The verb must be in the て-form before から."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: すっかり, めっきり, 一度も〜ない, 毎日.",
+    "Also 〜というものは (topic form) is possible but rarer.",
+    "Suits reflective narration in diaries, essays, and interviews."
+  ],
+  "jlptTips": [
+    "If the second clause describes a lasting change with words like すっかり / めっきり / 一度も, choose てからというもの over て以来.",
+    "A one-off later event rules the pattern out; the exam uses that as a distractor context.",
+    "In 並べ替え, the chunk てからというもの is followed by the changed-state description."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-30-1",
+    "q-n1-g-30-2",
+    "q-n1-g-30-3",
+    "q-n1-g-30-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-30-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

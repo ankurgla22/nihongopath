@@ -10,6 +10,8 @@ import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
+import { LessonQuiz } from "@/components/quiz/LessonQuiz";
+import { generateVocabDrill } from "@/lib/drill/generate";
 
 type Params = { level: string; slug: string };
 
@@ -73,6 +75,8 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
   const base = `/japanese/${level}/vocabulary`;
   const href = `${base}/${v.slug}`;
   const kanji = kanjiInWord(v.word, level);
+  // Two generated questions (meaning + reading where possible); the seed is the item id so the page is stable.
+  const quickCheck = generateVocabDrill([v], items, { seed: v.id }).slice(0, 2);
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -238,6 +242,12 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
                 </li>
               ))}
             </ul>
+          </Section>
+        )}
+
+        {quickCheck.length > 0 && (
+          <Section id="quick-check" title="Quick check" intro="Two quick questions on this word. Sign in and use the daily drills to have answers count toward your review schedule.">
+            <LessonQuiz questions={quickCheck} title="Quick check" />
           </Section>
         )}
       </article>

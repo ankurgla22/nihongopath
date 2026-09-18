@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-45",
+  "slug": "to-bakari-ni",
+  "level": "n1",
+  "order": 45,
+  "title": "〜とばかりに",
+  "romaji": "tobakarini",
+  "meaning": "as if to say …; as though …",
+  "simpleExplanation": "Xとばかりに describes someone's action as if it were saying X, even though nothing is said aloud: 二度と来るなとばかりに、ドアを閉めた. X is the unspoken message (often a command or short phrase). It is used about others, not the speaker.",
+  "whenUsed": "Narrative 書き言葉: novels, reports, descriptions of behaviour. The verb after it is vivid (閉める, 睨む, 飛びつく, 浴びせる).",
+  "formation": [
+    "Plain form / imperative / noun + とばかりに + vivid action",
+    "Sentence-initial ここぞとばかりに (\"seizing the moment\")",
+    "Variation: 〜と言わんばかりに (same meaning, more literary)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼女は",
+        "role": "actor (third person)"
+      },
+      {
+        "text": "二度と来るな",
+        "role": "unspoken message",
+        "highlight": true
+      },
+      {
+        "text": "とばかりに",
+        "role": "\"as if to say\"",
+        "highlight": true
+      },
+      {
+        "text": "ドアを閉めた",
+        "role": "vivid action"
+      }
+    ],
+    "translation": "She slammed the door as if to say never come back."
+  },
+  "examples": [
+    {
+      "ja": "彼女は二度と来るなとばかりに、ドアを閉めた。",
+      "reading": "かのじょはにどとくるなとばかりに、ドアをしめた。",
+      "en": "She slammed the door as if to say never come back.",
+      "note": "Imperative + とばかりに + slamming the door."
+    },
+    {
+      "ja": "今がチャンスとばかりに、彼は質問を浴びせた。",
+      "reading": "いまがチャンスとばかりに、かれはしつもんをあびせた。",
+      "en": "As if to say this was his chance, he showered them with questions.",
+      "note": "Noun phrase (今がチャンス) + とばかりに."
+    },
+    {
+      "ja": "犬は散歩に行きたいとばかりに、リードをくわえてきた。",
+      "reading": "いぬはさんぽにいきたいとばかりに、リードをくわえてきた。",
+      "en": "The dog brought me its leash as if to say it wanted a walk.",
+      "note": "An animal's behaviour expressing a wish."
+    },
+    {
+      "ja": "ここぞとばかりに、彼は日頃の不満をぶちまけた。",
+      "reading": "ここぞとばかりに、かれはひごろのふまんをぶちまけた。",
+      "en": "Seizing the moment, he let out all his usual complaints.",
+      "note": "ここぞとばかりに is a set phrase."
+    },
+    {
+      "ja": "彼は「早く帰れ」とばかりに、何度も時計を見た。",
+      "reading": "かれは「はやくかえれ」とばかりに、なんどもとけいをみた。",
+      "en": "He kept looking at his watch as if to say \"hurry up and go home\".",
+      "note": "Quoted imperative + とばかりに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜んばかりに",
+      "difference": "\"As if about to\": 泣かんばかりに (on the verge of crying). Describes a state near to happening, not a message.",
+      "id": "n1-grammar-101"
+    },
+    {
+      "pattern": "〜かのごとく",
+      "difference": "\"As if X were true\": a false appearance, not an unspoken message.",
+      "id": "n1-grammar-15"
+    },
+    {
+      "pattern": "〜かのように",
+      "difference": "\"As if\" in modern neutral register; describes a false appearance rather than an unspoken message.",
+      "id": "n2-grammar-26"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は帰れとばかりにドアを閉めた。",
+      "right": "彼は帰れとばかりにドアを閉めた。",
+      "why": "The pattern describes someone else's behaviour from the outside; the speaker knows their own intention."
+    },
+    {
+      "wrong": "彼は嬉しいとばかりに笑った。",
+      "right": "彼は嬉しくてたまらないとばかりに笑った。",
+      "why": "X should be a message-like phrase; a bare adjective is weak. (Also fine: 嬉しさを隠しきれないとばかりに.)"
+    },
+    {
+      "wrong": "チャンスばかりに",
+      "right": "チャンスとばかりに",
+      "why": "と is required."
+    }
+  ],
+  "usageNotes": [
+    "Frequent set phrases: ここぞとばかりに, 待ってましたとばかりに, これ見よがしに (related idiom).",
+    "The action is visible and energetic.",
+    "Quotation marks are often used around X in writing."
+  ],
+  "jlptTips": [
+    "A quoted or imperative phrase + blank + a vivid third-person action → とばかりに.",
+    "んばかりに is the trap: it attaches to a verb stem (泣かんばかり) and means \"almost about to\".",
+    "If the subject is 私, とばかりに is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-45-1",
+    "q-n1-g-45-2",
+    "q-n1-g-45-3",
+    "q-n1-g-45-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-45-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

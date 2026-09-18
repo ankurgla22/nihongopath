@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-86",
+  "slug": "mo-saru-koto-nagara",
+  "level": "n1",
+  "order": 86,
+  "title": "〜もさることながら",
+  "romaji": "mo saru koto nagara",
+  "meaning": "X is one thing, but (even more) Y …",
+  "simpleExplanation": "〜もさることながら admits that X is notable and then says Y is even more so: 味もさることながら、雰囲気も素晴らしい (the food is great, but the atmosphere is wonderful too). さること = \"that which is so\"; the phrase says \"X is indeed so, but…\". It focuses attention on Y.",
+  "whenUsed": "Formal speech and writing: reviews, speeches, presentations, praise. Mostly used for positive evaluations. Both X and Y are usually nouns, and Y is often followed by も or が.",
+  "formation": [
+    "N + もさることながら、N + も / が …",
+    "Both items are usually positive qualities",
+    "Y is the one the speaker really wants to highlight"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この店は",
+        "role": "topic"
+      },
+      {
+        "text": "味も",
+        "role": "X: admitted quality",
+        "highlight": true
+      },
+      {
+        "text": "さることながら",
+        "role": "is one thing, but",
+        "highlight": true
+      },
+      {
+        "text": "雰囲気も素晴らしい",
+        "role": "Y: the real point"
+      }
+    ],
+    "translation": "The food here is great, but the atmosphere is wonderful too."
+  },
+  "examples": [
+    {
+      "ja": "この店は味もさることながら、雰囲気も素晴らしい。",
+      "reading": "このみせはあじもさることながら、ふんいきもすばらしい。",
+      "en": "The food here is great, but the atmosphere is wonderful too.",
+      "note": "A restaurant review: taste admitted, atmosphere highlighted."
+    },
+    {
+      "ja": "彼女は容姿もさることながら、その人柄で多くの人に愛されている。",
+      "reading": "かのじょはようしもさることながら、そのひとがらでおおくのひとにあいされている。",
+      "en": "Her looks are one thing, but it is her personality that makes so many people love her.",
+      "note": "Looks admitted, personality highlighted with で and 愛されている."
+    },
+    {
+      "ja": "費用もさることながら、時間がかかるのが問題だ。",
+      "reading": "ひようもさることながら、じかんがかかるのがもんだいだ。",
+      "en": "The cost is one thing, but the time it takes is the real problem.",
+      "note": "A rare non-positive use: cost is a concern, but time is the real problem."
+    },
+    {
+      "ja": "この大学は設備もさることながら、教授陣の質が高いことで知られている。",
+      "reading": "このだいがくはせつびもさることながら、きょうじゅじんのしつがたかいことでしられている。",
+      "en": "This university is known for the quality of its professors, not to mention its facilities.",
+      "note": "Y takes が / ことで; the focus is the faculty."
+    },
+    {
+      "ja": "彼の演技は技術もさることながら、表現力が群を抜いている。",
+      "reading": "かれのえんぎはぎじゅつもさることながら、ひょうげんりょくがぐんをぬいている。",
+      "en": "His acting is technically excellent, but it is his expressiveness that stands out.",
+      "note": "Skill admitted, expressiveness highlighted."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はもちろん / 〜はもとより",
+      "difference": "\"X of course, and Y too\": both are simply listed. もさることながら emphasises Y over X.",
+      "id": "n2-grammar-143"
+    },
+    {
+      "pattern": "〜ばかりか / 〜ばかりでなく",
+      "difference": "\"Not only X but also Y\": addition without the concessive flavour.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜はさておき",
+      "difference": "\"Setting X aside\": X is dropped, not admitted.",
+      "id": "n1-grammar-116"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "値段もさることながら、味がまずい。",
+      "right": "値段も高いが、味もまずい。",
+      "why": "The pattern is normally used for positive or notable qualities; plain complaints use が / し."
+    },
+    {
+      "wrong": "彼が優しいのもさることながら、賢い。",
+      "right": "彼は優しさもさることながら、賢さも際立っている。",
+      "why": "X and Y are usually nouns; use noun forms."
+    },
+    {
+      "wrong": "味はさることながら、雰囲気もいい。",
+      "right": "味もさることながら、雰囲気もいい。",
+      "why": "The particle after X is も, not は."
+    }
+  ],
+  "usageNotes": [
+    "Both items are admired; the sentence sounds like a well-considered compliment.",
+    "Y is commonly followed by も, が, or a phrase like 〜ことで知られている.",
+    "The phrase is a fixed unit; nothing is inserted between さること and ながら."
+  ],
+  "jlptTips": [
+    "Praise of a restaurant, a person or a product with two qualities: X + も + blank + Y + も → さることながら.",
+    "Distractors: はもちろん, ばかりか, はさておき. If X is admitted but Y emphasised, choose もさることながら.",
+    "Check the particle before the blank: it must be も."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-86-1",
+    "q-n1-g-86-2",
+    "q-n1-g-86-3",
+    "q-n1-g-86-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-86-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

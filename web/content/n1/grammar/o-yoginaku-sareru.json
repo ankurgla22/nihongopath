@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-97",
+  "slug": "o-yoginaku-sareru",
+  "level": "n1",
+  "order": 97,
+  "title": "〜を余儀なくされる",
+  "romaji": "o yoginaku sareru",
+  "meaning": "be forced to …; have no choice but to …",
+  "simpleExplanation": "〜を余儀なくされる means \"be forced into X by circumstances\": 中止を余儀なくされた (was forced to cancel). 余儀ない = \"having no other way\", and the passive される shows the subject is the one who suffers. The subject is a person or organisation; the cause is a situation (typhoon, bankruptcy, illness).",
+  "whenUsed": "Formal written Japanese, especially news reports. The forced action is a noun of action: 中止・変更・撤退・転職・避難・辞任. The tone is objective but conveys hardship.",
+  "formation": [
+    "N(action) + を余儀なくされる",
+    "Subject = the person / organisation affected",
+    "Cause: N + で / のため / により"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "される vs させる",
+    "columns": [
+      "Subject",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜を余儀なくされる",
+        "cells": [
+          "the affected person / group",
+          "is forced to X",
+          "住民は避難を余儀なくされた"
+        ]
+      },
+      {
+        "label": "〜を余儀なくさせる",
+        "cells": [
+          "the cause (event / situation)",
+          "forces (someone) to X",
+          "台風が避難を余儀なくさせた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "台風のため、大会は中止を余儀なくされた。",
+      "reading": "たいふうのため、たいかいはちゅうしをよぎなくされた。",
+      "en": "Because of the typhoon, the tournament was forced to be cancelled.",
+      "note": "The tournament (subject) was forced into cancellation by the typhoon."
+    },
+    {
+      "ja": "会社の倒産で、多くの社員が転職を余儀なくされた。",
+      "reading": "かいしゃのとうさんで、おおくのしゃいんがてんしょくをよぎなくされた。",
+      "en": "With the company's bankruptcy, many employees were forced to change jobs.",
+      "note": "Employees (subject) forced to change jobs."
+    },
+    {
+      "ja": "地震で住民は避難生活を余儀なくされている。",
+      "reading": "じしんでじゅうみんはひなんせいかつをよぎなくされている。",
+      "en": "Because of the earthquake, residents are forced to live in evacuation shelters.",
+      "note": "Residents (subject) forced into evacuation life; ている for an ongoing state."
+    },
+    {
+      "ja": "資金難のため、その劇団は解散を余儀なくされた。",
+      "reading": "しきんなんのため、そのげきだんはかいさんをよぎなくされた。",
+      "en": "Because of financial difficulties, the theatre company was forced to disband.",
+      "note": "のため gives the cause."
+    },
+    {
+      "ja": "交通事故で、彼は長期の入院を余儀なくされた。",
+      "reading": "こうつうじこで、かれはちょうきのにゅういんをよぎなくされた。",
+      "en": "Because of a traffic accident, he was forced into a long hospital stay.",
+      "note": "で gives the cause."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を余儀なくさせる",
+      "difference": "The mirror pattern: the cause is the subject.",
+      "id": "n1-grammar-98"
+    },
+    {
+      "pattern": "〜ざるを得ない",
+      "difference": "\"Have no choice but to\": takes a verb and is usable in speech; the speaker admits reluctantly.",
+      "id": "n2-grammar-52"
+    },
+    {
+      "pattern": "〜しかない",
+      "difference": "Everyday \"only option is to\"; no sense of external force in a formal report.",
+      "id": "n2-grammar-53"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "台風が大会は中止を余儀なくされた。",
+      "right": "台風で、大会は中止を余儀なくされた。／台風が大会の中止を余儀なくさせた。",
+      "why": "With される the subject is the affected party; the cause takes で or becomes the subject of させる."
+    },
+    {
+      "wrong": "中止するを余儀なくされた。",
+      "right": "中止を余儀なくされた。",
+      "why": "A noun of action is required, not a verb."
+    },
+    {
+      "wrong": "私は彼に転職を余儀なくされた。",
+      "right": "会社の倒産で、私は転職を余儀なくされた。",
+      "why": "The cause is a circumstance, not a person acting deliberately."
+    }
+  ],
+  "usageNotes": [
+    "Typical pairs: 中止・延期・撤退・辞任・転職・避難・休業・値上げ + を余儀なくされる.",
+    "It is a newspaper staple; learners should recognise it instantly in reading passages.",
+    "Reading: よぎなくされる."
+  ],
+  "jlptTips": [
+    "Affected subject + action noun + blank, with a circumstantial cause → を余儀なくされる.",
+    "Distinguish from させる by the subject: a person or organisation → される; an event → させる.",
+    "Distractors: ざるを得ない (needs a verb), しかない, を禁じ得ない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-97-1",
+    "q-n1-g-97-2",
+    "q-n1-g-97-3",
+    "q-n1-g-97-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-97-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

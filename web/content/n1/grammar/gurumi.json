@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-174",
+  "slug": "gurumi",
+  "level": "n1",
+  "order": 174,
+  "title": "〜ぐるみ",
+  "romaji": "gurumi",
+  "meaning": "the whole …; involving all of …; together with the entire …",
+  "simpleExplanation": "N + ぐるみ means \"the entire X, everyone in X included\": 家族ぐるみ = \"whole families\"; 町ぐるみ = \"the whole town\"; 会社ぐるみの不正 = \"wrongdoing involving the entire company\". It comes from 包む (くるむ, \"to wrap\"), so the image is the whole group wrapped together. It attaches only to a small set of nouns.",
+  "whenUsed": "Both spoken and written. Positive uses: 家族ぐるみの付き合い, 町ぐるみで歓迎, 地域ぐるみの取り組み. Negative uses: 会社ぐるみ・組織ぐるみの不正/隠蔽. Also 身ぐるみ (everything one is wearing: 身ぐるみはがされる).",
+  "formation": [
+    "N + ぐるみ + で / の + N",
+    "Common nouns: 家族・町・村・会社・組織・地域・学校・身",
+    "〜ぐるみで + V  (町ぐるみで祭りを盛り上げる)",
+    "〜ぐるみの + N  (家族ぐるみの付き合い・会社ぐるみの不正)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ぐるみ in use",
+    "columns": [
+      "phrase",
+      "meaning",
+      "tone"
+    ],
+    "rows": [
+      {
+        "label": "家族ぐるみ",
+        "cells": [
+          "whole families together",
+          "friendship between families",
+          "positive"
+        ]
+      },
+      {
+        "label": "町ぐるみ",
+        "cells": [
+          "the whole town",
+          "community effort",
+          "positive"
+        ]
+      },
+      {
+        "label": "会社ぐるみ",
+        "cells": [
+          "the entire company",
+          "organized wrongdoing",
+          "negative"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "両家は家族ぐるみで付き合っている。",
+      "reading": "りょうけはかぞくぐるみでつきあっている。",
+      "en": "The two families socialize as whole families.",
+      "note": "家族ぐるみで付き合う: the two families socialize as wholes."
+    },
+    {
+      "ja": "町ぐるみで祭りを盛り上げた。",
+      "reading": "まちぐるみでまつりをもりあげた。",
+      "en": "The whole town joined in to make the festival lively.",
+      "note": "町ぐるみで: the entire town took part."
+    },
+    {
+      "ja": "これは会社ぐるみの不正だった。",
+      "reading": "これはかいしゃぐるみのふせいだった。",
+      "en": "This was wrongdoing involving the entire company.",
+      "note": "会社ぐるみの不正: the whole company was involved in the wrongdoing."
+    },
+    {
+      "ja": "この地域では、学校と住民が地域ぐるみで子供たちを見守っている。",
+      "reading": "このちいきでは、がっこうとじゅうみんがちいきぐるみでこどもたちをみまもっている。",
+      "en": "In this area, schools and residents watch over the children as a whole community.",
+      "note": "地域ぐるみ: community-wide effort."
+    },
+    {
+      "ja": "データの改ざんは組織ぐるみで行われていたことが明らかになった。",
+      "reading": "データのかいざんはそしきぐるみでおこなわれていたことがあきらかになった。",
+      "en": "It came to light that the data falsification had been carried out by the whole organization.",
+      "note": "News about scandals."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-18",
+      "pattern": "〜ずくめ",
+      "difference": "\"Full of / nothing but X\" (いいことずくめ・黒ずくめ). ぐるみ is about the whole of a group being involved."
+    },
+    {
+      "id": "n1-grammar-84",
+      "pattern": "〜まみれ",
+      "difference": "\"Covered in\" a substance (泥まみれ). Unrelated to groups."
+    },
+    {
+      "id": "n2-grammar-69",
+      "pattern": "〜だらけ",
+      "difference": "\"Full of\" unwanted things (間違いだらけ). ぐるみ never means \"full of\"."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "友達ぐるみで旅行した。",
+      "right": "家族ぐるみで旅行した。/ 友達みんなで旅行した。",
+      "why": "ぐるみ attaches to group-type nouns like 家族・町・会社, not to 友達."
+    },
+    {
+      "wrong": "会社ぐるみ不正",
+      "right": "会社ぐるみの不正",
+      "why": "Before a noun, の is needed."
+    },
+    {
+      "wrong": "町ぐるみに祭りをした。",
+      "right": "町ぐるみで祭りをした。",
+      "why": "The particle for \"as a whole group\" is で."
+    }
+  ],
+  "usageNotes": [
+    "Learn the set nouns: 家族・町・村・地域・学校・会社・組織・身.",
+    "身ぐるみはがす (to strip someone of everything) is a fixed idiom.",
+    "In news, 組織ぐるみ almost always signals a scandal."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a group noun (家族・町・会社) + a blank + で / の signals ぐるみ.",
+    "Distractors ずくめ・まみれ・だらけ attach to qualities or substances, not to organized groups.",
+    "In 並べ替え, ぐるみで follows the group noun and precedes the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-174-1",
+    "q-n1-g-174-2",
+    "q-n1-g-174-3",
+    "q-n1-g-174-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-174-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

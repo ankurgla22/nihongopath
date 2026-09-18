@@ -1,0 +1,115 @@
+{
+  "id": "n1-grammar-119",
+  "slug": "you-ni-yotte-wa",
+  "level": "n1",
+  "order": 119,
+  "title": "〜ようによっては",
+  "romaji": "you ni yotte wa",
+  "meaning": "depending on how one …",
+  "simpleExplanation": "〜ようによっては means \"depending on the way you do X\": 考えようによっては (depending on how you look at it), 使いようによっては (depending on how it is used). よう here means \"way, manner\", and によっては adds \"in some cases\". It suggests that a different approach gives a different result.",
+  "whenUsed": "Both speech and writing. Often used to offer a more positive interpretation (考えようによっては、失敗もいい経験だ) or to warn that something can turn bad (使いようによっては凶器になる). Verbs: 考え・見・使い・言い・やり・取り.",
+  "formation": [
+    "Vます-stem + ようによっては",
+    "Typical: 考えようによっては / 見ようによっては / 使いようによっては / 言いようによっては / やりようによっては"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "失敗は悪いことだ",
+        "en": "failure is a bad thing (one view)"
+      },
+      {
+        "ja": "考えようによっては、失敗もいい経験だ",
+        "en": "depending on how you think about it, failure is also a good experience (another way of seeing it)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "考えようによっては、失敗もいい経験だ。",
+      "reading": "かんがえようによっては、しっぱいもいいけいけんだ。",
+      "en": "Depending on how you look at it, failure is also a good experience.",
+      "note": "考えようによっては: reframing failure positively."
+    },
+    {
+      "ja": "この道具は使いようによっては、凶器にもなる。",
+      "reading": "このどうぐはつかいようによっては、きょうきにもなる。",
+      "en": "Depending on how it is used, this tool can even become a weapon.",
+      "note": "使いようによっては: a tool can become a weapon."
+    },
+    {
+      "ja": "言いようによっては、相手を傷つけずに断ることもできる。",
+      "reading": "いいようによっては、あいてをきずつけずにことわることもできる。",
+      "en": "Depending on how you phrase it, you can refuse without hurting the other person.",
+      "note": "言いようによっては: phrasing changes the effect."
+    },
+    {
+      "ja": "この部屋は、見ようによっては広く感じられる。",
+      "reading": "このへやは、みようによってはひろくかんじられる。",
+      "en": "Depending on how you look at it, this room can feel spacious.",
+      "note": "見ようによっては."
+    },
+    {
+      "ja": "やりようによっては、半分の時間で終わる仕事だ。",
+      "reading": "やりようによっては、はんぶんのじかんでおわるしごとだ。",
+      "en": "Depending on how you go about it, this job could be done in half the time.",
+      "note": "やりようによっては."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜次第で(は) / 〜次第だ",
+      "difference": "\"Depending on X\" with a noun (努力次第で); ようによっては is specifically about the manner of an action.",
+      "id": "n2-grammar-55"
+    },
+    {
+      "pattern": "〜によって / 〜により",
+      "difference": "General \"depending on\"; ようによっては is a fixed sub-pattern of it.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜ようがない / 〜ようもない",
+      "difference": "Same よう (way), but means \"no way to do\".",
+      "id": "n2-grammar-161"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "考えるようによっては",
+      "right": "考えようによっては",
+      "why": "The ます-stem is used: 考え + よう."
+    },
+    {
+      "wrong": "考えようによって、いい経験だ。",
+      "right": "考えようによっては、いい経験だ。",
+      "why": "The は is part of the pattern and gives the \"in some cases\" nuance."
+    },
+    {
+      "wrong": "天気ようによっては",
+      "right": "天気によっては",
+      "why": "Nouns take によっては directly; ようによっては is only for verb stems."
+    }
+  ],
+  "usageNotes": [
+    "The most frequent form is 考えようによっては, used to soften bad news.",
+    "The result clause often contains も (失敗もいい経験だ) or a surprising outcome.",
+    "It is close to English \"it depends how you…\"."
+  ],
+  "jlptTips": [
+    "A verb stem + blank + a different-perspective result → ようによっては.",
+    "Distractors: 次第で, によって, ようがない. Choose ようによっては when the blank follows a ます-stem.",
+    "Check the stem form: 考え・見・使い・言い."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-119-1",
+    "q-n1-g-119-2",
+    "q-n1-g-119-3",
+    "q-n1-g-119-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-119-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

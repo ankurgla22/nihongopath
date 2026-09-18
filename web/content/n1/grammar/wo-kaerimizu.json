@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-162",
+  "slug": "wo-kaerimizu",
+  "level": "n1",
+  "order": 162,
+  "title": "〜を(も)顧みず",
+  "romaji": "wo (mo) kaerimizu",
+  "meaning": "without regard for …; heedless of …; at the risk of …",
+  "simpleExplanation": "N + を顧みず means acting without thinking about X, usually danger, one's own safety, family, or consequences. 顧みる is \"to look back on, to consider\"; 顧みず is its classical negative. Adding も (をも顧みず) stresses \"even X\". The act can be heroic (危険を顧みず救助) or blameworthy (家庭を顧みず).",
+  "whenUsed": "Written, literary Japanese: news about rescues, biographies, criticism of workaholics. Typical X: 危険・命・安全・家庭・家族・自分の健康・体面. Not used in casual speech (there people say 〜も気にしないで).",
+  "formation": [
+    "N + を顧みず + V",
+    "N + をも顧みず + V  (\"even X\")",
+    "N + を顧みない + N / 〜を顧みることなく (variants)",
+    "Typical X: 危険・身の危険・命・家庭・健康・損得"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Heroic or blameworthy?",
+    "columns": [
+      "X",
+      "tone",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "危険・命",
+        "cells": [
+          "danger, one's life",
+          "heroic",
+          "危険を顧みず子供を救った"
+        ]
+      },
+      {
+        "label": "家庭・健康",
+        "cells": [
+          "family, health",
+          "critical",
+          "家庭を顧みず仕事一筋だった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は危険を顧みず、川に飛び込んで子供を救った。",
+      "reading": "かれはきけんをかえりみず、かわにとびこんでこどもをすくった。",
+      "en": "Without regard for the danger, he jumped into the river and saved the child.",
+      "note": "Heroic: he ignored the danger to save the child."
+    },
+    {
+      "ja": "父は家庭を顧みず、仕事一筋だった。",
+      "reading": "ちちはかていをかえりみず、しごとひとすじだった。",
+      "en": "My father devoted himself to work with no thought for his family.",
+      "note": "Critical: he neglected his family for work."
+    },
+    {
+      "ja": "消防士たちは自らの命をも顧みず、救助にあたった。",
+      "reading": "しょうぼうしたちはみずからのいのちをもかえりみず、きゅうじょにあたった。",
+      "en": "The firefighters carried out the rescue at the risk of their own lives.",
+      "note": "をも顧みず: even their own lives; stronger emphasis."
+    },
+    {
+      "ja": "彼女は周囲の反対を顧みず、海外での起業に踏み切った。",
+      "reading": "かのじょはしゅういのはんたいをかえりみず、かいがいでのきぎょうにふみきった。",
+      "en": "Heedless of the objections around her, she went ahead and started a business abroad.",
+      "note": "X can be opposition or opinions."
+    },
+    {
+      "ja": "医師たちは自らの感染の危険をも顧みず、治療にあたった。",
+      "reading": "いしたちはみずからのかんせんのきけんをもかえりみず、ちりょうにあたった。",
+      "en": "The doctors treated patients heedless even of the risk of infection to themselves.",
+      "note": "News-style heroism with をも."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-96",
+      "pattern": "〜をものともせず(に)",
+      "difference": "\"Undaunted by X\" (困難をものともせず): X is an obstacle overcome. を顧みず: X is something one fails or chooses not to consider."
+    },
+    {
+      "id": "n1-grammar-99",
+      "pattern": "〜をよそに",
+      "difference": "\"Ignoring (others' concern or expectations)\" (親の心配をよそに). を顧みず often concerns one's own safety or duties."
+    },
+    {
+      "id": "n2-grammar-152",
+      "pattern": "〜もかまわず",
+      "difference": "\"Not caring about\" (人目もかまわず), more everyday. を顧みず is literary and weightier."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨を顧みず、出かけた。",
+      "right": "雨にもかかわらず、出かけた。/ 雨もかまわず、出かけた。",
+      "why": "X must be something serious that deserves consideration (danger, life, family). Rain is too trivial for 顧みず."
+    },
+    {
+      "wrong": "危険に顧みず",
+      "right": "危険を顧みず",
+      "why": "The particle is を (or をも)."
+    },
+    {
+      "wrong": "（会話で）健康を顧みず働いちゃった。",
+      "right": "健康のことなんか気にしないで働いちゃった。",
+      "why": "顧みず is literary; mixing it with casual ちゃった sounds odd."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: 危険を顧みず・身の危険を顧みず・我が身を顧みず・家庭を顧みず.",
+    "The verb 顧みる also means \"to reflect on\": 自分の行いを顧みる.",
+    "For criticism of overwork, 家庭を顧みない人 is a common noun phrase."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a serious X (危険・命・家庭) + a blank + a decisive act is を顧みず. If X is an obstacle overcome, ものともせず is the answer instead.",
+    "Distractor をよそに: choose it when X is other people's concern or the surrounding situation.",
+    "In 並べ替え, を(も)顧みず follows X directly; the act follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-162-1",
+    "q-n1-g-162-2",
+    "q-n1-g-162-3",
+    "q-n1-g-162-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-162-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

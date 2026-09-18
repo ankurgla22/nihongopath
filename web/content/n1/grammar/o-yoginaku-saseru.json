@@ -1,0 +1,115 @@
+{
+  "id": "n1-grammar-98",
+  "slug": "o-yoginaku-saseru",
+  "level": "n1",
+  "order": 98,
+  "title": "〜を余儀なくさせる",
+  "romaji": "o yoginaku saseru",
+  "meaning": "force (someone) to …; compel …",
+  "simpleExplanation": "〜を余儀なくさせる is the causative twin of を余儀なくされる. Here the subject is the cause (an event or situation) and it forces someone into X: 大雪が列車の運休を余儀なくさせた (heavy snow forced the trains to be suspended). The person affected, if mentioned, takes に.",
+  "whenUsed": "Formal written Japanese, news and analysis. It puts the spotlight on the cause: what forced the change. Because the subject is not a person, sentences often look like \"X caused Y to be forced\".",
+  "formation": [
+    "Cause + が + (person + に) + N(action) + を余儀なくさせる",
+    "Typical causes: 大雪・資金不足・病気・不況・事故"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "大雪で、列車は運休を余儀なくされた",
+        "en": "the trains were forced to be suspended by the heavy snow (affected subject)"
+      },
+      {
+        "ja": "大雪が、列車の運休を余儀なくさせた",
+        "en": "the heavy snow forced the trains to be suspended (cause as subject)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "大雪が、列車の運休を余儀なくさせた。",
+      "reading": "おおゆきが、れっしゃのうんきゅうをよぎなくさせた。",
+      "en": "The heavy snow forced the trains to be suspended.",
+      "note": "Cause (大雪) is the subject; the forced action is 運休."
+    },
+    {
+      "ja": "資金不足が、計画の変更を余儀なくさせた。",
+      "reading": "しきんぶそくが、けいかくのへんこうをよぎなくさせた。",
+      "en": "A shortage of funds compelled a change of plan.",
+      "note": "資金不足 as the cause; the forced action is 変更."
+    },
+    {
+      "ja": "突然の病が、彼に引退を余儀なくさせた。",
+      "reading": "とつぜんのやまいが、かれにいんたいをよぎなくさせた。",
+      "en": "A sudden illness forced him into retirement.",
+      "note": "The person affected takes に: 彼に引退を余儀なくさせた."
+    },
+    {
+      "ja": "急激な円安が、多くの企業に価格の見直しを余儀なくさせている。",
+      "reading": "きゅうげきなえんやすが、おおくのきぎょうにかかくのみなおしをよぎなくさせている。",
+      "en": "The sharp fall of the yen is forcing many companies to revise their prices.",
+      "note": "企業に marks the affected party."
+    },
+    {
+      "ja": "度重なる故障が、計画の全面的な変更を余儀なくさせた。",
+      "reading": "たびかさなるこしょうが、けいかくのぜんめんてきなへんこうをよぎなくさせた。",
+      "en": "Repeated breakdowns forced a complete change of plan.",
+      "note": "The cause is a situation, not a person."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を余儀なくされる",
+      "difference": "The passive twin: the affected party is the subject.",
+      "id": "n1-grammar-97"
+    },
+    {
+      "pattern": "〜によって / 〜により",
+      "difference": "Marks a cause without making it the grammatical subject (大雪により運休した).",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜ゆえ(に)",
+      "difference": "A formal \"because of\" clause; it explains rather than personifies the cause.",
+      "id": "n1-grammar-89"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "住民が避難を余儀なくさせた。",
+      "right": "住民は避難を余儀なくされた。／地震が住民に避難を余儀なくさせた。",
+      "why": "With させる the subject must be the cause; a person as subject needs される."
+    },
+    {
+      "wrong": "大雪が列車を運休を余儀なくさせた。",
+      "right": "大雪が列車の運休を余儀なくさせた。",
+      "why": "The forced action is a noun phrase; only one を is possible."
+    },
+    {
+      "wrong": "病気が彼を引退を余儀なくさせた。",
+      "right": "病気が彼に引退を余儀なくさせた。",
+      "why": "The affected person takes に."
+    }
+  ],
+  "usageNotes": [
+    "Choose される or させる by asking: is the subject the victim or the cause?",
+    "させる sentences are common in analytical writing that traces effects back to causes.",
+    "Both forms are formal; neither is used in casual speech."
+  ],
+  "jlptTips": [
+    "Event + が + (person + に) + action + blank → を余儀なくさせる.",
+    "If a person or organisation is the subject, the answer is される instead; check the particle after the subject.",
+    "In 並べ替え, place the cause first, then N + に, then action + を余儀なくさせた."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-98-1",
+    "q-n1-g-98-2",
+    "q-n1-g-98-3",
+    "q-n1-g-98-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-98-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

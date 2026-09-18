@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-2",
+  "slug": "ikan-da",
+  "level": "n1",
+  "order": 2,
+  "title": "〜いかんだ / 〜いかんによって(は)",
+  "romaji": "ikanda-ikanniyotte",
+  "meaning": "depends on …; according to …",
+  "simpleExplanation": "いかん (如何) is a formal noun meaning \"how / what state\". Nのいかんだ means \"it depends on N\" and Nいかんによって(は) / いかんで means \"depending on N (something may happen)\". The idea is that the outcome is not yet fixed and will be decided by the content or state of N.",
+  "whenUsed": "Very formal 書き言葉: notices, contracts, business e-mails, news reports (結果いかんによっては契約を解除する). In conversation people say 〜次第だ / 〜によって instead.",
+  "formation": [
+    "N + (の) + いかんだ (sentence end: \"depends on N\")",
+    "N + (の) + いかんによって(は) / いかんで + clause",
+    "N + (の) + いかんでは (\"in some cases, depending on N\")"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Formality of \"depends on\"",
+    "columns": [
+      "pattern",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜いかんだ / いかんで",
+        "cells": [
+          "N + いかん",
+          "very formal, written",
+          "結果いかんで決まる"
+        ]
+      },
+      {
+        "label": "〜次第だ",
+        "cells": [
+          "N + 次第",
+          "formal, spoken too",
+          "結果次第で決まる"
+        ]
+      },
+      {
+        "label": "〜によって",
+        "cells": [
+          "N + によって",
+          "neutral",
+          "結果によって決まる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "試験の結果いかんで、進学できるかどうかが決まる。",
+      "reading": "しけんのけっかいかんで、しんがくできるかどうかがきまる。",
+      "en": "Whether I can go on to the next school depends on the exam results.",
+      "note": "いかんで + clause: the outcome (進学できるかどうか) is decided by the noun."
+    },
+    {
+      "ja": "今後の対応いかんによっては、契約を打ち切ることもある。",
+      "reading": "こんごのたいおういかんによっては、けいやくをうちきることもある。",
+      "en": "Depending on how you respond from now on, we may terminate the contract.",
+      "note": "いかんによっては implies a possible extreme case: in some cases the contract will be cut."
+    },
+    {
+      "ja": "成功するかどうかは、本人の努力いかんだ。",
+      "reading": "せいこうするかどうかは、ほんにんのどりょくいかんだ。",
+      "en": "Whether one succeeds depends on the person's own effort.",
+      "note": "Sentence-final いかんだ: \"X depends on Y\"."
+    },
+    {
+      "ja": "面接の結果いかんでは、採用を見送ることもございます。",
+      "reading": "めんせつのけっかいかんでは、さいようをみおくることもございます。",
+      "en": "Depending on the interview result, we may decide not to hire.",
+      "note": "Business register: いかんでは softens a possible negative outcome."
+    },
+    {
+      "ja": "交渉が成功するかどうかは、相手の出方いかんだ。",
+      "reading": "こうしょうがせいこうするかどうかは、あいてのでかたいかんだ。",
+      "en": "Whether the negotiation succeeds depends on how the other side moves.",
+      "note": "出方 (attitude/response) is a typical partner of いかん."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜次第だ / 〜次第で",
+      "difference": "Same meaning, less stiff; usable in speech. いかん is reserved for formal writing.",
+      "id": "n2-grammar-55"
+    },
+    {
+      "pattern": "〜によって(は)",
+      "difference": "Neutral \"depending on\"; also means \"by means of / because of\", which いかん never does.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜いかんによらず / いかんにかかわらず",
+      "difference": "The opposite: \"regardless of N\". Do not confuse the positive and negative pairs.",
+      "id": "n1-grammar-3"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "努力するいかんで結果が変わる。",
+      "right": "努力のいかんで結果が変わる。",
+      "why": "いかん attaches to nouns, not to verbs. Nominalise first (努力のいかん)."
+    },
+    {
+      "wrong": "天気いかんで、明日は出かけよう。",
+      "right": "天気次第で、明日は出かけよう。",
+      "why": "いかん is too formal for casual plans; use 次第で in everyday speech."
+    },
+    {
+      "wrong": "結果いかんによって、必ず合格できる。",
+      "right": "結果いかんによっては、不合格になることもある。",
+      "why": "いかん presents an undecided outcome; a sentence promising a certain result contradicts it."
+    }
+  ],
+  "usageNotes": [
+    "Common nouns: 結果, 対応, 内容, 成績, 態度, 出方, 天候.",
+    "の is optional (結果いかん / 結果のいかん); both are correct.",
+    "いかんでは / いかんによっては often precede a negative or serious possibility."
+  ],
+  "jlptTips": [
+    "If the sentence is a formal notice and the blank follows a noun like 結果 or 内容, いかん is likely; 次第 is the everyday version and is usually a distractor at N1.",
+    "Watch for the negative pair: 〜いかんによらず means \"regardless\". Read the second half to decide which is needed.",
+    "Distractors like をもって or に即して attach to nouns but express means or standard, not dependence."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-2-1",
+    "q-n1-g-2-2",
+    "q-n1-g-2-3",
+    "q-n1-g-2-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-2-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

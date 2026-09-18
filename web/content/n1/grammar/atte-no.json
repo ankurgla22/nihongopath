@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-1",
+  "slug": "atte-no",
+  "level": "n1",
+  "order": 1,
+  "title": "〜あっての",
+  "romaji": "atteno",
+  "meaning": "X exists only thanks to Y; without Y there would be no X",
+  "simpleExplanation": "N1あってのN2 says that N2 is possible only because N1 exists: \"N2 that owes its existence to N1\". The noun before あっての is the indispensable condition (customers, family, health), and the noun after it is what depends on it. It is a compact way of expressing gratitude or a reminder: \"remember that without X there is no Y\".",
+  "whenUsed": "Speeches, thank-you messages, business slogans and moral reminders. Slightly formal, but heard in speech too (お客様あっての商売, ファンあっての私). The dependent noun is often a person or activity that the speaker is being modest about.",
+  "formation": [
+    "N1 + あっての + N2 (N2 depends on N1)",
+    "N1 + あっての + こと (\"only because of N1\")",
+    "The clause usually ends with だ / です or continues with a reminder such as 〜を忘れてはいけない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "お客様",
+        "role": "indispensable condition (N1)",
+        "highlight": true
+      },
+      {
+        "text": "あっての",
+        "role": "\"thanks to / only because there is\"",
+        "highlight": true
+      },
+      {
+        "text": "商売",
+        "role": "what depends on it (N2)"
+      },
+      {
+        "text": "だ",
+        "role": "copula"
+      }
+    ],
+    "translation": "A business exists only thanks to its customers."
+  },
+  "examples": [
+    {
+      "ja": "お客様あっての商売だということを忘れてはいけない。",
+      "reading": "おきゃくさまあってのしょうばいだということをわすれてはいけない。",
+      "en": "Never forget that a business exists only thanks to its customers.",
+      "note": "The classic business version: no customers, no business."
+    },
+    {
+      "ja": "家族あっての私です。一人では何もできません。",
+      "reading": "かぞくあってのわたしです。ひとりではなにもできません。",
+      "en": "I am who I am thanks to my family; alone I can do nothing.",
+      "note": "Used to express gratitude while sounding modest about oneself."
+    },
+    {
+      "ja": "健康あっての人生だから、無理は禁物だ。",
+      "reading": "けんこうあってのじんせいだから、むりはきんもつだ。",
+      "en": "Life is only possible with health, so overwork is out of the question.",
+      "note": "N1 = 健康 states the precondition; the second clause draws the practical lesson."
+    },
+    {
+      "ja": "チームあっての勝利だ。一人の力で勝てたわけではない。",
+      "reading": "チームあってのしょうりだ。ひとりのちからでかてたわけではない。",
+      "en": "This victory was possible only because of the team; I did not win by myself.",
+      "note": "Modesty: the speaker credits the team, not themselves."
+    },
+    {
+      "ja": "命あっての物種、危ないことはやめなさい。",
+      "reading": "いのちあってのものだね、あぶないことはやめなさい。",
+      "en": "Nothing matters if you are dead, so stop doing dangerous things.",
+      "note": "命あっての物種 is a proverb: everything depends on being alive."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なくして(は)",
+      "difference": "Also \"without X\", but takes a negative clause: 努力なくして成功はない. あっての links two nouns positively.",
+      "id": "n1-grammar-51"
+    },
+    {
+      "pattern": "〜おかげで",
+      "difference": "Neutral causal gratitude (\"thanks to\"). あっての is stronger: X is the very precondition of Y's existence.",
+      "id": "n2-grammar-12"
+    },
+    {
+      "pattern": "〜あってのことだ",
+      "difference": "Sentence-final variant: これも皆さんの支えあってのことです (\"this too is only thanks to your support\").",
+      "id": "n1-grammar-178"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お客様がいるあっての商売だ。",
+      "right": "お客様あっての商売だ。",
+      "why": "あっての attaches directly to a noun; do not insert a verb before it."
+    },
+    {
+      "wrong": "商売あってのお客様だ。",
+      "right": "お客様あっての商売だ。",
+      "why": "The order matters: the indispensable thing comes first, the dependent thing second."
+    },
+    {
+      "wrong": "彼はよく勉強したあっての合格だ。",
+      "right": "彼の合格は努力あってのものだ。",
+      "why": "Only nouns go before あっての; rephrase a verb clause as a noun (努力) or use 〜からこそ."
+    }
+  ],
+  "usageNotes": [
+    "Typical N1 nouns: お客様, ファン, 家族, 健康, 命, 皆さん, 平和.",
+    "It carries a humble, grateful tone, so it is natural in acceptance speeches (これも皆様あってのことです).",
+    "The set phrase 命あっての物種 is worth memorising as a proverb."
+  ],
+  "jlptTips": [
+    "Look for two nouns with あっての between them and a message of gratitude or dependence; the answer is あっての, not なくして (which needs a negative clause).",
+    "Distractors are often にあって (\"in a situation\") and をもって; both attach to nouns but have nothing to do with gratitude.",
+    "In 並べ替え the chunk あっての sits between the two nouns; place the precondition first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-1-1",
+    "q-n1-g-1-2",
+    "q-n1-g-1-3",
+    "q-n1-g-1-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-1-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

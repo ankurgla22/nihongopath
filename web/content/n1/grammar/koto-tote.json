@@ -1,0 +1,128 @@
+{
+  "id": "n1-grammar-16",
+  "slug": "koto-tote",
+  "level": "n1",
+  "order": 16,
+  "title": "〜こととて",
+  "romaji": "kototote",
+  "meaning": "because … (so please excuse); it being …",
+  "simpleExplanation": "Xこととて gives a reason for something that needs excusing and asks for understanding: 慣れぬこととて \"as I am not used to this (please forgive me)\". It is old-fashioned and humble; the second clause is usually an apology, a request for leniency, or an explanation of an unavoidable situation.",
+  "whenUsed": "Very formal or old-fashioned: apologies in letters, ceremonial speech, historical narration. Not used in everyday conversation.",
+  "formation": [
+    "Plain form + こととて",
+    "Noun + の + こととて (休日のこととて)",
+    "Vぬ + こととて (慣れぬこととて, 知らぬこととて)",
+    "Followed by an apology (お許しください) or an explanation"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "慣れぬ",
+        "role": "reason (classical negative ぬ)",
+        "highlight": true
+      },
+      {
+        "text": "こととて",
+        "role": "\"it being the case that\"",
+        "highlight": true
+      },
+      {
+        "text": "失礼があったら",
+        "role": "possible offence"
+      },
+      {
+        "text": "お許しください",
+        "role": "request for forgiveness"
+      }
+    ],
+    "translation": "As I am not used to this, please forgive any rudeness."
+  },
+  "examples": [
+    {
+      "ja": "慣れぬこととて、失礼があったらお許しください。",
+      "reading": "なれぬこととて、しつれいがあったらおゆるしください。",
+      "en": "As I am not used to this, please forgive any rudeness.",
+      "note": "Humble apology with the classical negative ぬ."
+    },
+    {
+      "ja": "休日のこととて、店はどこも閉まっていた。",
+      "reading": "きゅうじつのこととて、みせはどこもしまっていた。",
+      "en": "It being a holiday, all the shops were closed.",
+      "note": "Noun + の + こととて explaining an unavoidable situation."
+    },
+    {
+      "ja": "何分子供のしたこととて、どうか大目に見てやってください。",
+      "reading": "なにぶんこどものしたこととて、どうかおおめにみてやってください。",
+      "en": "Since it was something a child did, please be lenient.",
+      "note": "何分〜こととて: 何分 (\"after all\") is a frequent partner."
+    },
+    {
+      "ja": "急なこととて、十分な準備ができませんでした。",
+      "reading": "きゅうなこととて、じゅうぶんなじゅんびができませんでした。",
+      "en": "It being so sudden, I could not prepare adequately.",
+      "note": "な-adjective + な + こととて."
+    },
+    {
+      "ja": "知らぬこととて、ご無礼をお詫び申し上げます。",
+      "reading": "しらぬこととて、ごぶれいをおわびもうしあげます。",
+      "en": "I apologise for my rudeness; I did not know.",
+      "note": "知らぬこととて is a set humble phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものだから / 〜もので",
+      "difference": "Everyday excuse-giving (遅れてすみません、道が混んでいたもので). こととて is the ceremonial version.",
+      "id": "n2-grammar-157"
+    },
+    {
+      "pattern": "〜とあって",
+      "difference": "Explains an observable situation and its natural result; no apology.",
+      "id": "n1-grammar-35"
+    },
+    {
+      "pattern": "〜ゆえに",
+      "difference": "Literary cause without the humble, excusing tone.",
+      "id": "n1-grammar-10"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "慣れないこととて、失礼しました。",
+      "right": "慣れぬこととて、失礼しました。",
+      "why": "The pattern strongly prefers the classical negative ぬ; 慣れない sounds inconsistent with the archaic こととて."
+    },
+    {
+      "wrong": "休日こととて、店は閉まっていた。",
+      "right": "休日のこととて、店は閉まっていた。",
+      "why": "A noun needs の before こととて."
+    },
+    {
+      "wrong": "疲れたこととて、先に帰ります。",
+      "right": "疲れたので、先に帰ります。",
+      "why": "こととて is for formal apologies; a casual reason takes ので."
+    }
+  ],
+  "usageNotes": [
+    "Frequent with 何分 (なにぶん) and with humble endings such as お許しください / ご容赦ください.",
+    "The ぬ negative (知らぬ, 慣れぬ, 分からぬ) is characteristic.",
+    "Also explains circumstances in narration: 昔のこととて、記録は残っていない."
+  ],
+  "jlptTips": [
+    "An apology in the second half plus a classical negative (〜ぬ) in the first half points to こととて.",
+    "Distractors: とあって (no apology), ものの (contrast), ゆえに (no humble tone).",
+    "Watch the noun connection: 休日のこととて, not 休日こととて."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-16-1",
+    "q-n1-g-16-2",
+    "q-n1-g-16-3",
+    "q-n1-g-16-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-16-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

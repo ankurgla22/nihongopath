@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-134",
+  "slug": "koso-sure",
+  "level": "n1",
+  "order": 134,
+  "title": "〜こそすれ / 〜こそあれ",
+  "romaji": "koso sure / koso are",
+  "meaning": "X, yes, but never Y; there may be X, but …",
+  "simpleExplanation": "〜こそすれ and 〜こそあれ strongly affirm one thing so as to deny another. 感謝こそすれ、恨むことはない = \"Gratitude, yes; resentment, never\". こそすれ follows a verb stem or する-noun; こそあれ follows a noun meaning \"there may be X, but\". Both come from classical Japanese and sound literary.",
+  "whenUsed": "Written and formal spoken Japanese: essays, speeches, literary dialogue. こそすれ is followed by a negative (〜ことはない・〜はずがない); こそあれ is usually followed by a statement that the difference is minor (基本的に同じだ). Rare in casual speech.",
+  "formation": [
+    "Vます-stem + こそすれ + negative  (増えこそすれ、減ることはない)",
+    "する-noun + こそすれ  (感謝こそすれ・尊敬こそすれ)",
+    "N + こそあれ + (but …)  (違いこそあれ・多少の差こそあれ)",
+    "Adjective: Aく + こそあれ is rare; use N forms"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "こそすれ vs こそあれ",
+    "columns": [
+      "attaches to",
+      "followed by",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "こそすれ",
+        "cells": [
+          "Vます-stem / する-noun",
+          "a negative: never Y",
+          "感謝こそすれ、恨むことはない"
+        ]
+      },
+      {
+        "label": "こそあれ",
+        "cells": [
+          "noun",
+          "a contrast: but basically …",
+          "多少の違いこそあれ、基本は同じだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "感謝こそすれ、恨むことなどあるはずがない。",
+      "reading": "かんしゃこそすれ、うらむことなどあるはずがない。",
+      "en": "I feel gratitude, if anything; there is no way I could resent you.",
+      "note": "感謝 (a する-noun) + こそすれ, then 恨む is denied."
+    },
+    {
+      "ja": "多少の違いこそあれ、二つの案は基本的に同じだ。",
+      "reading": "たしょうのちがいこそあれ、ふたつのあんはきほんてきにおなじだ。",
+      "en": "Although there are some differences, the two proposals are basically the same.",
+      "note": "違い + こそあれ admits small differences, then says the proposals are basically the same."
+    },
+    {
+      "ja": "状況は悪化こそすれ、良くなることはないだろう。",
+      "reading": "じょうきょうはあっかこそすれ、よくなることはないだろう。",
+      "en": "The situation may well get worse, but it will not improve.",
+      "note": "悪化こそすれ + 良くなることはない: the negative half is required."
+    },
+    {
+      "ja": "彼の努力は称賛こそすれ、非難されるべきものではない。",
+      "reading": "かれのどりょくはしょうさんこそすれ、ひなんされるべきものではない。",
+      "en": "His efforts deserve praise, never criticism.",
+      "note": "称賛 / 非難 make a natural opposing pair."
+    },
+    {
+      "ja": "程度の差こそあれ、誰にでも苦手なことはある。",
+      "reading": "ていどのさこそあれ、だれにでもにがてなことはある。",
+      "en": "Though the degree may differ, everyone has something they are bad at.",
+      "note": "程度の差こそあれ is a very common set phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-75",
+      "pattern": "〜ばこそ",
+      "difference": "\"Precisely because\" (reason emphasis). こそすれ contrasts an affirmed action with a denied one."
+    },
+    {
+      "id": "n2-grammar-179",
+      "pattern": "〜こそ",
+      "difference": "Plain emphasis on a noun. こそすれ / こそあれ adds the classical verb ending to build a contrast."
+    },
+    {
+      "id": "n1-grammar-37",
+      "pattern": "〜といえども",
+      "difference": "\"Even though X\" concession. こそあれ is closer to \"granted there is X, but …\" and mostly appears with small differences."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "感謝こそすれ、彼を恨んでいる。",
+      "right": "感謝こそすれ、彼を恨むことはない。",
+      "why": "こそすれ must be followed by a negative denying the opposite. An affirmative second half destroys the contrast."
+    },
+    {
+      "wrong": "感謝することこそすれ",
+      "right": "感謝こそすれ",
+      "why": "Attach こそすれ to the する-noun or the ます-stem directly (感謝こそすれ / 感謝しこそすれ)."
+    },
+    {
+      "wrong": "違いこそすれ、基本は同じだ。",
+      "right": "違いこそあれ、基本は同じだ。",
+      "why": "A plain noun takes こそあれ; こそすれ is for verbs and する-nouns."
+    }
+  ],
+  "usageNotes": [
+    "The structure comes from classical こそ + 已然形 (すれ / あれ), which explains the unusual endings.",
+    "Fixed phrases worth memorizing: 程度の差こそあれ, 多少の違いこそあれ, 感謝こそすれ, 増えこそすれ減りはしない.",
+    "こそすれ pairs are usually antonyms: 感謝 / 恨む, 増える / 減る, 称賛 / 非難."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an antonym pair with a negative second half (X こそすれ、Y ことはない) is the giveaway.",
+    "Choose こそあれ when the word before it is a plain noun such as 違い・差・不安, and こそすれ when it is a verb stem or する-noun.",
+    "In 並べ替え, こそすれ often comes as its own chunk; put the affirmed word before it and the denied verb after."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-134-1",
+    "q-n1-g-134-2",
+    "q-n1-g-134-3",
+    "q-n1-g-134-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-134-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

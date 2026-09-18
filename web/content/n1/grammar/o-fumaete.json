@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-120",
+  "slug": "o-fumaete",
+  "level": "n1",
+  "order": 120,
+  "title": "〜を踏まえて / 〜を踏まえ",
+  "romaji": "o fumaete / o fumae",
+  "meaning": "based on …; taking … into account",
+  "simpleExplanation": "〜を踏まえて means \"standing on X as a basis\": 前回の反省を踏まえて (taking last time's lessons into account), 調査結果を踏まえ (based on the survey results). 踏まえる = to stand firmly on. It implies that facts, results or experience were properly considered before a judgement or plan.",
+  "whenUsed": "Business, academic and official writing and formal speech: reports, proposals, policy statements. Typical nouns: 結果・反省・現状・経験・意見・議論・事実. In casual speech, 〜をもとに or 〜を考えて are used.",
+  "formation": [
+    "N + を踏まえて、V",
+    "N + を踏まえ、V (formal continuative)",
+    "N + を踏まえた + N",
+    "N + を踏まえた上で、V (after taking into account)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "を踏まえて and its neighbours",
+    "columns": [
+      "What is used",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜を踏まえて",
+        "cells": [
+          "facts, results, experience",
+          "considered as a basis for judgement",
+          "議論を踏まえて決定する"
+        ]
+      },
+      {
+        "label": "〜に基づいて",
+        "cells": [
+          "data, rules, evidence",
+          "built directly on",
+          "法律に基づいて処理する"
+        ]
+      },
+      {
+        "label": "〜に即して",
+        "cells": [
+          "reality, rules",
+          "fit exactly to",
+          "現状に即した計画"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "前回の反省を踏まえて、今回は計画を練り直した。",
+      "reading": "ぜんかいのはんせいをふまえて、こんかいはけいかくをねりなおした。",
+      "en": "Taking the lessons of last time into account, we reworked the plan this time.",
+      "note": "Lessons from last time as the basis for reworking the plan."
+    },
+    {
+      "ja": "アンケートの結果を踏まえ、サービスを改善します。",
+      "reading": "アンケートのけっかをふまえ、サービスをかいぜんします。",
+      "en": "Based on the survey results, we will improve our service.",
+      "note": "Formal continuative を踏まえ: survey results as the basis."
+    },
+    {
+      "ja": "現状を踏まえた上で、今後の方針を決めたい。",
+      "reading": "げんじょうをふまえたうえで、こんごのほうしんをきめたい。",
+      "en": "I would like to decide future policy after taking the current situation into account.",
+      "note": "を踏まえた上で: after taking the situation into account."
+    },
+    {
+      "ja": "専門家の意見を踏まえて、新しい安全基準が作られた。",
+      "reading": "せんもんかのいけんをふまえて、あたらしいあんぜんきじゅんがつくられた。",
+      "en": "New safety standards were drawn up taking experts' opinions into account.",
+      "note": "意見 as the basis."
+    },
+    {
+      "ja": "過去の失敗を踏まえた対策が求められている。",
+      "reading": "かこのしっぱいをふまえたたいさくがもとめられている。",
+      "en": "Measures that take past failures into account are called for.",
+      "note": "Adnominal を踏まえた + N."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に基づいて / 〜に基づく",
+      "difference": "\"Based on\" data or rules as a foundation; を踏まえて stresses consideration before judging.",
+      "id": "n2-grammar-131"
+    },
+    {
+      "pattern": "〜に即して / 〜に即した",
+      "difference": "\"In line with\" reality or rules; the result matches X closely.",
+      "id": "n1-grammar-65"
+    },
+    {
+      "pattern": "〜をもとに / 〜をもとにして",
+      "difference": "\"Using X as material\" (a story based on a true event); more about source material than judgement.",
+      "id": "n2-grammar-176"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "結果を踏まえて、何も変えなかった。",
+      "right": "結果を踏まえて、計画を見直した。",
+      "why": "The main clause should be a judgement or action that reflects X."
+    },
+    {
+      "wrong": "彼を踏まえて決めた。",
+      "right": "彼の意見を踏まえて決めた。",
+      "why": "The noun must be facts, results or opinions, not a person."
+    },
+    {
+      "wrong": "踏まえて上で",
+      "right": "踏まえた上で",
+      "why": "The set phrase is 踏まえた上で."
+    }
+  ],
+  "usageNotes": [
+    "を踏まえた上で is very common in formal proposals.",
+    "It signals due diligence: the speaker did their homework before deciding.",
+    "Reading: ふまえて."
+  ],
+  "jlptTips": [
+    "Facts / results + blank + a decision or plan → を踏まえて.",
+    "Distractors: に基づいて, に即して, をもとに. Choose を踏まえて for \"taking into consideration before judging\".",
+    "Before a noun use を踏まえた; before 上で use 踏まえた上で."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-120-1",
+    "q-n1-g-120-2",
+    "q-n1-g-120-3",
+    "q-n1-g-120-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-120-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

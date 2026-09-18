@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-124",
+  "slug": "wo-tayori-ni",
+  "level": "n1",
+  "order": 124,
+  "title": "〜を頼りに(して)",
+  "romaji": "wo tayori ni (shite)",
+  "meaning": "relying on …; with … as one's only guide; depending on …",
+  "simpleExplanation": "〜を頼りに means doing something while depending on X as a guide or support. 頼り (たより) is \"something to rely on\". Very often X is thin or unreliable: an old map, a vague memory, a single clue, moonlight. The sentence then carries a feeling of \"with nothing but X to go on\".",
+  "whenUsed": "Used in both speech and writing, in narratives and everyday talk. Typical objects: 地図・記憶・光・音・手がかり・言葉・人の親切. When X is a person (親を頼りに), it means depending on that person for support. 〜を頼りにして is a slightly fuller form; 〜を頼りにする is the verb phrase \"to count on\".",
+  "formation": [
+    "N + を頼りに + V",
+    "N + を頼りにして + V",
+    "N + だけを頼りに (\"relying only on\")",
+    "N + を頼りにする / している (to count on N)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "古い地図",
+        "role": "the only guide (thin support)"
+      },
+      {
+        "text": "を頼りに",
+        "role": "\"relying on\"",
+        "highlight": true
+      },
+      {
+        "text": "その村を探した",
+        "role": "action done with that support"
+      }
+    ],
+    "translation": "Relying on an old map, he searched for the village."
+  },
+  "examples": [
+    {
+      "ja": "彼は古い地図を頼りに、その村を探した。",
+      "reading": "かれはふるいちずをたよりに、そのむらをさがした。",
+      "en": "Relying on an old map, he searched for the village.",
+      "note": "An old map is a weak guide; を頼りに highlights that he had nothing better."
+    },
+    {
+      "ja": "記憶を頼りに、子供の頃の家を訪ねてみた。",
+      "reading": "きおくをたよりに、こどものころのいえをたずねてみた。",
+      "en": "Relying on memory, I tried visiting my childhood home.",
+      "note": "Memory is a vague guide, which gives the sentence a nostalgic, searching tone."
+    },
+    {
+      "ja": "彼女は月の光だけを頼りにして、夜道を歩いた。",
+      "reading": "かのじょはつきのひかりだけをたよりにして、よみちをあるいた。",
+      "en": "She walked the night road relying only on the moonlight.",
+      "note": "だけ before を頼りに stresses that moonlight was the only help."
+    },
+    {
+      "ja": "外国で暮らし始めた頃は、辞書を頼りに手紙を書いていた。",
+      "reading": "がいこくでくらしはじめたころは、じしょをたよりにてがみをかいていた。",
+      "en": "When I first started living abroad, I wrote letters relying on a dictionary.",
+      "note": "Everyday, personal register."
+    },
+    {
+      "ja": "彼女は一本の電話番号だけを頼りに、行方不明の兄を捜し続けた。",
+      "reading": "かのじょはいっぽんのでんわばんごうだけをたよりに、ゆくえふめいのあにをさがしつづけた。",
+      "en": "With nothing but a single phone number to go on, she kept searching for her missing brother.",
+      "note": "Narrative use with a single, fragile clue."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-176",
+      "pattern": "〜をもとに",
+      "difference": "\"Based on\": a source of data used to create something (資料をもとに報告書を書く). を頼りに stresses dependence and often the weakness of the support."
+    },
+    {
+      "id": "n2-grammar-131",
+      "pattern": "〜に基づいて",
+      "difference": "Formal \"in accordance with\" for rules, laws, and evidence. Not about relying on a fragile guide."
+    },
+    {
+      "id": "n1-grammar-94",
+      "pattern": "〜をもって",
+      "difference": "Formal \"by means of\" for tools and abilities. No sense of dependence or uncertainty."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は頭が良いので、優秀な頭脳を頼りに問題を解いた。",
+      "right": "彼は優秀な頭脳を持っているので、すぐに問題を解いた。",
+      "why": "を頼りに usually implies the support is slight or the only thing available. Using it for someone's own strong ability sounds odd."
+    },
+    {
+      "wrong": "地図に頼りに村を探した。",
+      "right": "地図を頼りに村を探した。",
+      "why": "The noun takes を. The verb 頼る takes に (地図に頼る), but the noun phrase pattern is を頼りに."
+    },
+    {
+      "wrong": "親を頼りに生きるべきだ。",
+      "right": "親を頼りにしないで生きるべきだ。",
+      "why": "Meaning error: を頼りに means depending on. If the intended advice is independence, the negative 頼りにしない is needed."
+    }
+  ],
+  "usageNotes": [
+    "だけを頼りに and のみを頼りに are the most emotional forms: they paint a picture of someone with almost nothing to go on.",
+    "With people (先輩を頼りに上京した), the meaning shifts to \"counting on X for help\", often when moving somewhere new.",
+    "The adjective 頼りない (unreliable) and the noun 頼り share the same root; knowing one helps you remember the other."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a thin or single guide (地図・記憶・光・手がかり) followed by a searching or moving verb (探す・歩く・進む) points to を頼りに.",
+    "Watch for をもとに as a distractor: choose をもとに when something is created from data, and を頼りに when someone depends on a guide while acting.",
+    "In 並べ替え, だけ attaches before を頼りに: N だけ を頼りに."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-124-1",
+    "q-n1-g-124-2",
+    "q-n1-g-124-3",
+    "q-n1-g-124-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-124-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

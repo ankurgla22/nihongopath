@@ -15,7 +15,7 @@ import { advanceDay, completeQuiz, completeTask, dueReviews, phaseOf } from "@/l
 import { buildDailyPlan, taskTitle, weakSkills, type TaskType } from "@/lib/engine/dailyPlan";
 import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
-import { fetchQuestionsByIds } from "@/lib/questions/client";
+import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, PageTitle, ProgressBar, SpeakButton } from "@/components/ui";
@@ -123,6 +123,8 @@ export function DailyStudyClient({ day, phase, questionIndex, contentLinks, sess
   const [runningId, setRunningId] = useState<string | null>(null);
   const [runQuestions, setRunQuestions] = useState<Question[]>([]);
   const [runState, setRunState] = useState<RunState>("ready");
+  /** True while the running set is a generated vocabulary/kanji drill rather than a bank quiz. */
+  const [runIsDrill, setRunIsDrill] = useState(false);
   const runToken = useRef(0);
   const [jumpDay, setJumpDay] = useState(String(day.day));
   const [advancing, setAdvancing] = useState(false);
@@ -255,6 +257,7 @@ export function DailyStudyClient({ day, phase, questionIndex, contentLinks, sess
       picked = pickWithFallback(questionIndex, { count, levels, preferContentIds, seed });
     }
     const token = ++runToken.current;
+    setRunIsDrill(false);
     setRunQuestions([]);
     setRunState("loading");
     setRunningId(task.id);
@@ -268,6 +271,45 @@ export function DailyStudyClient({ day, phase, questionIndex, contentLinks, sess
       if (token !== runToken.current) return;
       setRunState("error");
     }
+  };
+
+  // Generated drill over the task's own words/kanji (same seed rule as quizzes, so a retry rebuilds
+  // the same set). Finishing updates SRS per item but does not mark the task done.
+  const startDrill = async (task: ClientTask) => {
+    if (!user) return;
+    const seed = `${user.uid}-${today}-${task.id}`;
+    const token = ++runToken.current;
+    setRunIsDrill(true);
+    setRunQuestions([]);
+    setRunState("loading");
+    setRunningId(task.id);
+    setOpenId(task.id);
+    try {
+      const full = await fetchDrill(task.contentIds, { seed });
+      if (token !== runToken.current) return;
+      setRunQuestions(full);
+      setRunState("ready");
+    } catch {
+      if (token !== runToken.current) return;
+      setRunState("error");
+    }
+  };
+
+  const drillTitle = (task: ClientTask) => `${task.type === "kanji" ? "Kanji" : "Vocabulary"} drill — Day ${day.day}`;
+
+  const onDrillComplete = async (task: ClientTask, answers: SubmittedAnswer[], seconds: number) => {
+    if (!user) return;
+    await completeQuiz({
+      uid: user.uid,
+      kind: "practice",
+      title: drillTitle(task),
+      questions: runQuestions,
+      answers,
+      seconds,
+      curriculumDay: day.day,
+    });
+    await refreshDaily();
+    await refresh();
   };
 
   const onQuizComplete = async (task: ClientTask, answers: SubmittedAnswer[], seconds: number) => {
@@ -483,11 +525,55 @@ export function DailyStudyClient({ day, phase, questionIndex, contentLinks, sess
                                   .
                                 </p>
                               )}
-                              {!done && (
+                              {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && (
                                 <div className="mt-4">
-                                  <Button onClick={() => void markDone(task)} disabled={busyId === task.id}>
-                                    {busyId === task.id ? "Saving…" : `Mark done (${task.minutes} min)`}
-                                  </Button>
+                                  {running && runIsDrill && runState === "loading" ? (
+                                    <LoadingState label="Building your drill…" rows={2} />
+                                  ) : running && runIsDrill && runState === "error" ? (
+                                    <div className="space-y-3">
+                                      <Callout tone="warn">Could not build the drill. Check your connection and try again.</Callout>
+                                      <div className="flex flex-wrap gap-2">
+                                        <Button onClick={() => void startDrill(task)}>Retry</Button>
+                                        <Button variant="secondary" onClick={() => setRunningId(null)}>
+                                          Cancel
+                                        </Button>
+                                      </div>
+                                    </div>
+                                  ) : running && runIsDrill ? (
+                                    <QuizRunner
+                                      questions={runQuestions}
+                                      title={drillTitle(task)}
+                                      mode="practice"
+                                      storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${task.id}:drill`}
+                                      contentLinks={contentLinks}
+                                      onComplete={(answers, seconds) => onDrillComplete(task, answers, seconds)}
+                                      onExit={() => setRunningId(null)}
+                                      resultActions={
+                                        <Button variant="secondary" onClick={() => setRunningId(null)}>
+                                          Back to the list
+                                        </Button>
+                                      }
+                                    />
+                                  ) : (
+                                    <p className="text-sm text-muted">
+                                      Check yourself on {task.type === "kanji" ? "these kanji" : "these words"} — each answer updates that item&apos;s review schedule.
+                                    </p>
+                                  )}
+                                </div>
+                              )}
+                              {!(running && runIsDrill) && (
+                                <div className="mt-4 flex flex-wrap gap-2">
+                                  {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && (
+                                    <Button variant={done ? "primary" : "secondary"} onClick={() => void startDrill(task)}>
+                                      {task.type === "kanji" ? "Drill these kanji" : "Drill these words"}
+                                      <Arrow />
+                                    </Button>
+                                  )}
+                                  {!done && (
+                                    <Button onClick={() => void markDone(task)} disabled={busyId === task.id}>
+                                      {busyId === task.id ? "Saving…" : `Mark done (${task.minutes} min)`}
+                                    </Button>
+                                  )}
                                 </div>
                               )}
                             </>

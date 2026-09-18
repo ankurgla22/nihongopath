@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-140",
+  "slug": "to-miru-ya",
+  "level": "n1",
+  "order": 140,
+  "title": "〜とみるや",
+  "romaji": "to miru ya",
+  "meaning": "the moment one saw/judged that …, (immediately acted)",
+  "simpleExplanation": "〜とみるや is narrative Japanese for a quick judgment followed by instant, decisive action. 敵が油断したとみるや、攻め込んだ = \"The moment he saw the enemy was off guard, he charged\". みる here means \"judge\", and や means \"as soon as\". The actor is usually a strategist, an army, a company, or an animal.",
+  "whenUsed": "Written narrative, news, and history: battles, business moves, sports, animal behaviour. Not used in daily conversation. The second half is a fast, deliberate reaction (攻め込む・撤退する・値下げに踏み切る・逃げ出す).",
+  "formation": [
+    "普通形 + とみるや",
+    "N / なA + だ + とみるや",
+    "Second half: an immediate decisive action, usually past tense"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "敵が油断した",
+        "en": "the situation observed"
+      },
+      {
+        "ja": "敵が油断したとみるや",
+        "en": "the instant it is judged so…"
+      },
+      {
+        "ja": "彼は一気に攻め込んだ",
+        "en": "…decisive action follows at once"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "敵が油断したとみるや、彼は一気に攻め込んだ。",
+      "reading": "てきがゆだんしたとみるや、かれはいっきにせめこんだ。",
+      "en": "The moment he saw the enemy off guard, he attacked all at once.",
+      "note": "A military narrative: judgment → instant attack."
+    },
+    {
+      "ja": "勝ち目がないとみるや、彼らはすぐに撤退した。",
+      "reading": "かちめがないとみるや、かれらはすぐにてったいした。",
+      "en": "Judging that they had no chance, they withdrew immediately.",
+      "note": "勝ち目がない (no chance) → immediate withdrawal."
+    },
+    {
+      "ja": "客が集まらないとみるや、店は値下げに踏み切った。",
+      "reading": "きゃくがあつまらないとみるや、みせはねさげにふみきった。",
+      "en": "Seeing that customers were not coming, the shop went ahead with price cuts.",
+      "note": "Business use: seeing no customers → an immediate price cut."
+    },
+    {
+      "ja": "猫は隙があるとみるや、テーブルの魚をくわえて逃げた。",
+      "reading": "ねこはすきがあるとみるや、テーブルのさかなをくわえてにげた。",
+      "en": "The moment the cat saw its chance, it snatched the fish from the table and fled.",
+      "note": "Animals are natural subjects for this pattern."
+    },
+    {
+      "ja": "相手チームの守りが崩れたとみるや、監督は一斉攻撃を指示した。",
+      "reading": "あいてチームのまもりがくずれたとみるや、かんとくはいっせいこうげきをしじした。",
+      "en": "Seeing that the opposing defence had collapsed, the coach ordered an all-out attack.",
+      "note": "Sports commentary register."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-139",
+      "pattern": "〜とみえて",
+      "difference": "A guess followed by evidence. とみるや is a judgment followed by an action."
+    },
+    {
+      "id": "n1-grammar-88",
+      "pattern": "〜や否や / 〜や",
+      "difference": "\"As soon as (an event happened)\". とみるや adds the idea that someone judged the situation before acting."
+    },
+    {
+      "id": "n1-grammar-105",
+      "pattern": "〜が早いか",
+      "difference": "\"No sooner had X than Y\": two quick events, no judgment involved."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨が降りそうだとみるや、私はゆっくり傘を探した。",
+      "right": "雨が降りそうだとみるや、私は急いで店に駆け込んだ。",
+      "why": "The action after とみるや must be fast and decisive. A slow action contradicts the pattern."
+    },
+    {
+      "wrong": "敵が油断したとみるや、彼は疲れていた。",
+      "right": "敵が油断したとみるや、彼は攻め込んだ。",
+      "why": "The second half must be an action taken in response, not a state."
+    },
+    {
+      "wrong": "（会話で）安いとみるや、すぐ買っちゃった。",
+      "right": "安いと思って、すぐ買っちゃった。",
+      "why": "とみるや is written narrative style; in casual conversation it sounds theatrical."
+    }
+  ],
+  "usageNotes": [
+    "The subject is often a group or an agent that reacts strategically: 軍・敵・警察・企業・投資家・動物.",
+    "Adverbs of speed strengthen it: すぐさま・一気に・直ちに・たちまち.",
+    "News headlines use it for markets: 円安に振れたとみるや、投資家は一斉に売りに出た."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a judgment clause + a fast decisive action in narrative style is とみるや. If the second half is evidence rather than action, it is とみえて.",
+    "Distractors や否や and が早いか work with plain events; if the sentence involves judging a situation (油断した・勝ち目がない), choose とみるや.",
+    "In 並べ替え, とみるや follows the plain form of the judgment; place the action with its speed adverb after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-140-1",
+    "q-n1-g-140-2",
+    "q-n1-g-140-3",
+    "q-n1-g-140-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-140-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

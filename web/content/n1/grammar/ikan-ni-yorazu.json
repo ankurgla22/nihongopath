@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-3",
+  "slug": "ikan-ni-yorazu",
+  "level": "n1",
+  "order": 3,
+  "title": "〜いかんによらず / 〜いかんにかかわらず / 〜いかんを問わず",
+  "romaji": "ikanniyorazu-ikannikakawarazu-ikanwowazu",
+  "meaning": "regardless of …; irrespective of …",
+  "simpleExplanation": "Nのいかんによらず / いかんにかかわらず / いかんを問わず all mean \"whatever the state of N may be, the following holds\". They are the formal opposites of Nいかんだ: the result is fixed and does not change with N. The three are interchangeable; いかんを問わず is the most common in application guidelines.",
+  "whenUsed": "Regulations, terms and conditions, recruitment notices, official announcements. Almost never in conversation, where 〜に関係なく or 〜にかかわらず alone is used.",
+  "formation": [
+    "N + (の) + いかんによらず",
+    "N + (の) + いかんにかかわらず",
+    "N + (の) + いかんを問わず",
+    "Followed by a fixed rule or decision"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "いかん: depends vs regardless",
+    "columns": [
+      "meaning",
+      "form",
+      "typical continuation"
+    ],
+    "rows": [
+      {
+        "label": "depends on N",
+        "cells": [
+          "it changes with N",
+          "Nいかんだ / いかんで",
+          "〜が決まる / 〜こともある"
+        ]
+      },
+      {
+        "label": "regardless of N",
+        "cells": [
+          "it does not change",
+          "Nいかんによらず / を問わず",
+          "〜は認められない / 誰でも〜できる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "理由のいかんによらず、遅刻は認められない。",
+      "reading": "りゆうのいかんによらず、ちこくはみとめられない。",
+      "en": "Regardless of the reason, lateness is not accepted.",
+      "note": "Regulation style: whatever the reason, the rule does not bend."
+    },
+    {
+      "ja": "国籍のいかんを問わず、誰でも応募できる。",
+      "reading": "こくせきのいかんをとわず、だれでもおうぼできる。",
+      "en": "Anyone can apply regardless of nationality.",
+      "note": "Recruitment notice: nationality does not affect eligibility."
+    },
+    {
+      "ja": "結果のいかんにかかわらず、参加者全員に記念品を贈る。",
+      "reading": "けっかのいかんにかかわらず、さんかしゃぜんいんにきねんひんをおくる。",
+      "en": "Regardless of the results, every participant receives a souvenir.",
+      "note": "Event rule: everyone receives the gift whether they win or lose."
+    },
+    {
+      "ja": "理由のいかんを問わず、一度納入された受講料は返金いたしません。",
+      "reading": "りゆうのいかんをとわず、いちどのうにゅうされたじゅこうりょうはへんきんいたしません。",
+      "en": "Tuition once paid will not be refunded, whatever the reason.",
+      "note": "Terms-and-conditions register."
+    },
+    {
+      "ja": "採否のいかんにかかわらず、応募書類は返却しない。",
+      "reading": "さいひのいかんにかかわらず、おうぼしょるいはへんきゃくしない。",
+      "en": "Application documents will not be returned, whether or not the applicant is hired.",
+      "note": "採否 (hired or not) is a typical two-way noun used with this pattern."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜いかんだ / いかんによって",
+      "difference": "The positive pair: \"depends on N\". Read the second clause to choose.",
+      "id": "n1-grammar-2"
+    },
+    {
+      "pattern": "〜を問わず",
+      "difference": "Same meaning, less formal; used without いかん in ordinary writing (年齢を問わず).",
+      "id": "n2-grammar-173"
+    },
+    {
+      "pattern": "〜にかかわらず",
+      "difference": "Neutral \"regardless of\"; adding いかん makes it stiffer and typical of documents.",
+      "id": "n2-grammar-101"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "理由いかんによらず、遅刻は認められる。",
+      "right": "理由いかんによらず、遅刻は認められない。",
+      "why": "\"Regardless of the reason\" naturally leads to a strict rule; the second clause must be a fixed decision."
+    },
+    {
+      "wrong": "忙しいいかんによらず、参加してください。",
+      "right": "忙しさのいかんによらず / 忙しいかどうかにかかわらず、参加してください。",
+      "why": "いかん needs a noun. Change the adjective to a noun (忙しさ) or use かどうかにかかわらず."
+    },
+    {
+      "wrong": "結果のいかんによって、全員に記念品を贈る。",
+      "right": "結果のいかんにかかわらず、全員に記念品を贈る。",
+      "why": "\"Everyone gets a gift\" is unconditional, so \"regardless\" is required, not \"depending on\"."
+    }
+  ],
+  "usageNotes": [
+    "The noun is often a two-way concept: 理由, 結果, 採否, 国籍, 年齢, 経験.",
+    "の before いかん is optional but common in documents.",
+    "The main clause is typically a rule (〜ない / 〜ものとする) or an all-inclusive statement (誰でも / 全員)."
+  ],
+  "jlptTips": [
+    "The key is the second clause: if it contains 全員, 誰でも, 必ず, 一律, or a strict prohibition, choose the \"regardless\" form.",
+    "Distractors include いかんでは / いかんによっては (the dependence forms); they look almost identical, so check for ず / 問わず.",
+    "Also watch for をよそに (ignoring others' feelings) and をものともせず (braving); they do not take いかん."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-3-1",
+    "q-n1-g-3-2",
+    "q-n1-g-3-3",
+    "q-n1-g-3-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-3-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

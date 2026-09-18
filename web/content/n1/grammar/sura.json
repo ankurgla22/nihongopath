@@ -1,0 +1,126 @@
+{
+  "id": "n1-grammar-21",
+  "slug": "sura",
+  "level": "n1",
+  "order": 21,
+  "title": "〜すら",
+  "romaji": "sura",
+  "meaning": "even …",
+  "simpleExplanation": "Nすら picks out an extreme example to imply that everything else is even more so: 自分の名前すら書けない \"cannot even write his own name (let alone anything else)\". It is the formal, written counterpart of さえ. ですら is used for the subject (専門家ですら).",
+  "whenUsed": "Mostly 書き言葉 and formal speech: essays, news, arguments. In conversation さえ or も is more usual. Usually followed by a negative or a surprising fact.",
+  "formation": [
+    "Noun + すら + (negative / surprising fact)",
+    "Noun + ですら (subject)",
+    "Noun + particle + すら (に + すら, と + すら)",
+    "Vること + すら"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "\"Even\" from casual to literary",
+    "items": [
+      {
+        "label": "も",
+        "description": "neutral \"even\", everyday"
+      },
+      {
+        "label": "さえ",
+        "description": "extreme example, everyday to formal"
+      },
+      {
+        "label": "すら",
+        "description": "extreme example, formal written"
+      },
+      {
+        "label": "だに",
+        "description": "extreme example, highly literary, fixed phrases"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "疲れすぎて、立ち上がることすらできなかった。",
+      "reading": "つかれすぎて、たちあがることすらできなかった。",
+      "en": "I was so exhausted that I could not even stand up.",
+      "note": "Vること + すら + negative: could not even stand."
+    },
+    {
+      "ja": "専門家ですら、この問題の答えを知らない。",
+      "reading": "せんもんかですら、このもんだいのこたえをしらない。",
+      "en": "Even experts do not know the answer to this problem.",
+      "note": "ですら marks the subject: even experts."
+    },
+    {
+      "ja": "彼は自分の名前すら書けなかった。",
+      "reading": "かれはじぶんのなまえすらかけなかった。",
+      "en": "He could not even write his own name.",
+      "note": "The extreme example implies the rest: cannot write even his own name."
+    },
+    {
+      "ja": "あまりの忙しさに、昼食を取る時間すらなかった。",
+      "reading": "あまりのいそがしさに、ちゅうしょくをとるじかんすらなかった。",
+      "en": "I was so busy that I did not even have time for lunch.",
+      "note": "A minimal thing (lunch) as the extreme example."
+    },
+    {
+      "ja": "彼は家族にすら本当のことを話していなかった。",
+      "reading": "かれはかぞくにすらほんとうのことをはなしていなかった。",
+      "en": "He had not told the truth even to his family.",
+      "note": "Particle に + すら."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜さえ / 〜でさえ",
+      "difference": "Same meaning, everyday register; also used in the conditional さえ〜ば, which すら cannot do.",
+      "id": "n2-grammar-180"
+    },
+    {
+      "pattern": "〜だに",
+      "difference": "More literary; limited to fixed phrases like 想像するだに, 微動だにしない.",
+      "id": "n1-grammar-25"
+    },
+    {
+      "pattern": "〜はおろか",
+      "difference": "\"Let alone\": 漢字はおろかひらがなも. Names the excluded higher item explicitly.",
+      "id": "n1-grammar-74"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お金すらあれば、買える。",
+      "right": "お金さえあれば、買える。",
+      "why": "The conditional \"if only\" takes さえ〜ば; すら has no conditional use."
+    },
+    {
+      "wrong": "専門家すらが知らない。",
+      "right": "専門家ですら知らない。",
+      "why": "For the subject use ですら (or bare すら), not すらが."
+    },
+    {
+      "wrong": "彼は毎日勉強すらしている。",
+      "right": "彼は毎日勉強までしている。",
+      "why": "すら implies a negative or surprising limit; for \"goes as far as doing\" use まで."
+    }
+  ],
+  "usageNotes": [
+    "Followed by a negative in most cases: すら〜ない.",
+    "ですら sounds strongest for subjects: 子供ですら知っている.",
+    "Combines with particles: にすら, とすら, ですら (but not がすら / をすら)."
+  ],
+  "jlptTips": [
+    "If the sentence gives a minimal example plus a negative, すら and さえ both fit in meaning; choose すら when the register is formal or when さえ is not offered.",
+    "さえ〜ば (conditional) is a trap: if ば follows, only さえ works.",
+    "Distractor はおろか needs a second, bigger item after it (はおろか〜も)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-21-1",
+    "q-n1-g-21-2",
+    "q-n1-g-21-3",
+    "q-n1-g-21-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-21-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

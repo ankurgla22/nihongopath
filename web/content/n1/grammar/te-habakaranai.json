@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-103",
+  "slug": "te-habakaranai",
+  "level": "n1",
+  "order": 103,
+  "title": "〜てはばからない",
+  "romaji": "te habakaranai",
+  "meaning": "does not hesitate to (say) …; openly …",
+  "simpleExplanation": "〜てはばからない means \"does X openly, without any hesitation or embarrassment\". はばかる = to hold back out of consideration. It is used almost only with verbs of saying: 言ってはばからない, 公言してはばからない, 断言してはばからない. It often implies the speaker finds the boldness remarkable, sometimes arrogant.",
+  "whenUsed": "Formal written Japanese: commentary, profiles, political reporting. It describes a third party's bold statements. Not used for the speaker's own statements or in casual talk.",
+  "formation": [
+    "Vて + はばからない (言う・公言する・断言する・主張する)",
+    "〜と言ってはばからない / 〜と公言してはばからない",
+    "Past: 〜てはばからなかった"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼は",
+        "role": "subject (a bold person)"
+      },
+      {
+        "text": "自分が一番だと",
+        "role": "the bold claim"
+      },
+      {
+        "text": "言って",
+        "role": "verb of saying (te-form)",
+        "highlight": true
+      },
+      {
+        "text": "はばからない",
+        "role": "without holding back",
+        "highlight": true
+      }
+    ],
+    "translation": "He does not hesitate to say that he is the best."
+  },
+  "examples": [
+    {
+      "ja": "彼は自分が一番だと言ってはばからない。",
+      "reading": "かれはじぶんがいちばんだといってはばからない。",
+      "en": "He does not hesitate to say that he is the best.",
+      "note": "A bold self-assessment stated openly."
+    },
+    {
+      "ja": "その政治家は増税の必要性を公言してはばからなかった。",
+      "reading": "そのせいじかはぞうぜいのひつようせいをこうげんしてはばからなかった。",
+      "en": "The politician openly declared the need for a tax increase without hesitation.",
+      "note": "公言してはばからなかった: a politician's open declaration; the writer notes the boldness."
+    },
+    {
+      "ja": "彼女は優勝すると断言してはばからない。",
+      "reading": "かのじょはゆうしょうするとだんげんしてはばからない。",
+      "en": "She has no qualms about declaring that she will win.",
+      "note": "断言してはばからない: a confident declaration of victory."
+    },
+    {
+      "ja": "その評論家は、現代の教育は失敗だと言ってはばからない。",
+      "reading": "そのひょうろんかは、げんだいのきょういくはしっぱいだといってはばからない。",
+      "en": "That critic does not hesitate to say that modern education is a failure.",
+      "note": "Typical of commentary."
+    },
+    {
+      "ja": "彼女は自分の作品を最高傑作だと公言してはばからない。",
+      "reading": "かのじょはじぶんのさくひんをさいこうけっさくだとこうげんしてはばからない。",
+      "en": "She openly declares her work a masterpiece without the slightest hesitation.",
+      "note": "The tone hints at arrogance."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜と言っても過言ではない",
+      "difference": "\"It is no exaggeration to say\": the speaker's own strong claim, not a description of someone's boldness.",
+      "id": "n1-grammar-164"
+    },
+    {
+      "pattern": "〜てやまない",
+      "difference": "A strong, lasting feeling (願ってやまない), not boldness of speech.",
+      "id": "n1-grammar-33"
+    },
+    {
+      "pattern": "〜ずにはおかない / 〜ないではおかない",
+      "difference": "\"Will definitely cause / do\": a sense of inevitability, not openness.",
+      "id": "n1-grammar-19"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は彼を天才だと言ってはばからない。",
+      "right": "私は彼を天才だと断言する。",
+      "why": "The pattern describes others; for one's own claim, use 断言する."
+    },
+    {
+      "wrong": "彼は走ってはばからない。",
+      "right": "彼は走ることをためらわない。",
+      "why": "Only verbs of saying or declaring are used with はばからない."
+    },
+    {
+      "wrong": "言うはばからない",
+      "right": "言ってはばからない",
+      "why": "The te-form is required."
+    }
+  ],
+  "usageNotes": [
+    "The verbs are limited: 言う・公言する・断言する・主張する・批判する.",
+    "The writer's attitude can be admiring (fearless) or critical (shameless); context decides.",
+    "It is close to 平気で言う, but far more formal."
+  ],
+  "jlptTips": [
+    "A bold quoted claim + verb of saying in te-form + blank → はばからない.",
+    "Distractors: てやまない, ずにはおかない, てたまらない. Only はばからない follows verbs of saying.",
+    "In 並べ替え, the quoted claim + と comes before 言って + はばからない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-103-1",
+    "q-n1-g-103-2",
+    "q-n1-g-103-3",
+    "q-n1-g-103-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-103-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

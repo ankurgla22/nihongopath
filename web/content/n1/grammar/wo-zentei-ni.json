@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-125",
+  "slug": "wo-zentei-ni",
+  "level": "n1",
+  "order": 125,
+  "title": "〜を前提に(して) / 〜を前提として",
+  "romaji": "wo zentei ni (shite) / wo zentei to shite",
+  "meaning": "on the premise that …; assuming …; with … as a precondition",
+  "simpleExplanation": "〜を前提に says \"X is taken for granted as the starting condition, and everything that follows is built on it\". 前提 (ぜんてい) is a premise or precondition. If the premise fails, the whole plan or arrangement falls apart. It is the language of plans, contracts, and negotiations.",
+  "whenUsed": "Business, legal, and academic Japanese: proposals, contracts, engineering specs, research papers. Also in the fixed phrase 結婚を前提に付き合う (dating with marriage in mind). Rare in casual speech, where people say 〜ということで or 〜と考えて instead.",
+  "formation": [
+    "N + を前提に(して)",
+    "N + を前提として",
+    "N + を前提とした + N  (attributive)",
+    "Clause + こと + を前提に / として"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three ways to state a premise",
+    "columns": [
+      "form",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "を前提に",
+        "cells": [
+          "N を前提に + V",
+          "neutral, common",
+          "結婚を前提に交際する"
+        ]
+      },
+      {
+        "label": "を前提として",
+        "cells": [
+          "N を前提として + V",
+          "formal, written",
+          "予算承認を前提として計画する"
+        ]
+      },
+      {
+        "label": "を前提とした N",
+        "cells": [
+          "N を前提とした + N",
+          "attributive, technical",
+          "長期利用を前提とした設計"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "二人は結婚を前提に交際している。",
+      "reading": "ふたりはけっこんをぜんていにこうさいしている。",
+      "en": "The two are dating with marriage in mind.",
+      "note": "結婚を前提に付き合う is a set phrase: marriage is the assumed goal of the relationship."
+    },
+    {
+      "ja": "この計画は、予算が承認されることを前提として作られている。",
+      "reading": "このけいかくは、よさんがしょうにんされることをぜんていとしてつくられている。",
+      "en": "This plan is made on the assumption that the budget will be approved.",
+      "note": "A clause + こと gives the premise; the plan collapses if the budget is not approved."
+    },
+    {
+      "ja": "長期的な利用を前提とした設計になっている。",
+      "reading": "ちょうきてきなりようをぜんていとしたせっけいになっている。",
+      "en": "It is designed on the premise of long-term use.",
+      "note": "The attributive form を前提とした N describes something designed around an assumption."
+    },
+    {
+      "ja": "この見積もりは、円高が続くことを前提にして作成しました。",
+      "reading": "このみつもりは、えんだかがつづくことをぜんていにしてさくせいしました。",
+      "en": "This estimate was prepared on the assumption that the strong yen will continue.",
+      "note": "Business register; the premise is stated explicitly so the reader knows the risk."
+    },
+    {
+      "ja": "全員が参加することを前提として、会場を予約した。",
+      "reading": "ぜんいんがさんかすることをぜんていとして、かいじょうをよやくした。",
+      "en": "We booked the venue on the premise that everyone would attend.",
+      "note": "If the premise fails (someone drops out), the booking may be wrong."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-131",
+      "pattern": "〜に基づいて",
+      "difference": "\"Based on\" facts, data, or rules that already exist. を前提に is about an assumption that may or may not hold."
+    },
+    {
+      "id": "n2-grammar-90",
+      "pattern": "〜としたら / 〜とすれば",
+      "difference": "A hypothetical \"if we suppose\", used in reasoning. を前提に names a condition that a plan is officially built on."
+    },
+    {
+      "id": "n1-grammar-120",
+      "pattern": "〜を踏まえて",
+      "difference": "\"Taking into account\" past facts or results. A premise is something assumed for the future, not a fact considered from the past."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼と結婚を前提に付き合っているので、来月結婚します。",
+      "right": "彼と結婚を前提に付き合っています。",
+      "why": "A premise is something assumed, not yet realized. Saying the wedding is already next month contradicts the tentative feel of を前提に."
+    },
+    {
+      "wrong": "雨が降るを前提に、傘を持っていった。",
+      "right": "雨が降ることを前提に、傘を持っていった。",
+      "why": "A clause must be turned into a noun with こと before を前提に."
+    },
+    {
+      "wrong": "去年の売上を前提に、今年の計画を立てた。",
+      "right": "去年の売上を踏まえて、今年の計画を立てた。",
+      "why": "Last year's sales are a known fact, not an assumption. Use を踏まえて or をもとに for facts already in hand."
+    }
+  ],
+  "usageNotes": [
+    "The verb forms 前提とする and 前提にする mean \"to take as a premise\"; the noun 大前提 means \"the basic assumption\".",
+    "In contracts and specs, を前提とした N is a compact way to state design assumptions (長期利用を前提とした設計).",
+    "Native writers often make the premise explicit to limit responsibility: 〜を前提にした数字です (\"these figures assume …\")."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a business or planning context with an assumed condition (承認・参加・継続) followed by a plan verb (計画する・設計する・作成する) points to を前提に.",
+    "Distinguish from に基づいて and を踏まえて: those take existing facts; を前提に takes a future or assumed condition.",
+    "In 並べ替え, こと + を前提に is a common split; rejoin the clause with こと first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-125-1",
+    "q-n1-g-125-2",
+    "q-n1-g-125-3",
+    "q-n1-g-125-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-125-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

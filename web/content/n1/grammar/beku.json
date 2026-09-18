@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-78",
+  "slug": "beku",
+  "level": "n1",
+  "order": 78,
+  "title": "〜べく",
+  "romaji": "beku",
+  "meaning": "in order to …",
+  "simpleExplanation": "〜べく is a formal way to say \"in order to\": 新製品を開発すべく (in order to develop a new product). It is the continuative form of べし, and it presents the purpose as a duty or a strong intention. The main clause states what was done to achieve it.",
+  "whenUsed": "Formal written Japanese: news, company statements, biographies, formal speeches. The subject of both clauses is the same, and the main clause cannot be a command, request or invitation. In speech, 〜ために or 〜ように are used instead.",
+  "formation": [
+    "Vる + べく",
+    "する → すべく (するべく is also seen)",
+    "Vるべく + main clause (past action or ongoing effort)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "新製品を開発するために、チームが結成された",
+        "en": "a team was formed in order to develop a new product (neutral)"
+      },
+      {
+        "ja": "新製品を開発すべく、チームが結成された",
+        "en": "same meaning, formal and purposeful (written, news style)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "新製品を開発すべく、研究チームが結成された。",
+      "reading": "しんせいひんをかいはつすべく、けんきゅうチームがけっせいされた。",
+      "en": "A research team was formed in order to develop a new product.",
+      "note": "すべく is the standard form of する + べく in formal writing."
+    },
+    {
+      "ja": "彼は父の期待に応えるべく、必死に勉強した。",
+      "reading": "かれはちちのきたいにこたえるべく、ひっしにべんきょうした。",
+      "en": "He studied desperately in order to live up to his father's expectations.",
+      "note": "応えるべく: the purpose (living up to expectations) drives the effort."
+    },
+    {
+      "ja": "真相を明らかにすべく、調査が始まった。",
+      "reading": "しんそうをあきらかにすべく、ちょうさがはじまった。",
+      "en": "An investigation began in order to bring the truth to light.",
+      "note": "明らかにすべく: news style. The main clause reports what began."
+    },
+    {
+      "ja": "優勝すべく、チーム全員が猛練習を重ねた。",
+      "reading": "ゆうしょうすべく、チームぜんいんがもうれんしゅうをかさねた。",
+      "en": "In order to win the championship, the whole team trained furiously.",
+      "note": "Same subject in both clauses; past effort."
+    },
+    {
+      "ja": "環境への負担を減らすべく、当社は再生可能エネルギーの導入を進めている。",
+      "reading": "かんきょうへのふたんをへらすべく、とうしゃはさいせいかのうエネルギーのどうにゅうをすすめている。",
+      "en": "In order to reduce the burden on the environment, our company is promoting renewable energy.",
+      "note": "Corporate statement style."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜んがため(に)",
+      "difference": "Also formal \"in order to\", but even more literary and with a stronger sense of desire.",
+      "id": "n1-grammar-100"
+    },
+    {
+      "pattern": "〜べくもない",
+      "difference": "Same べく but a different meaning: \"cannot possibly\".",
+      "id": "n1-grammar-79"
+    },
+    {
+      "pattern": "〜べからず / 〜べからざる",
+      "difference": "The prohibition form of the same べし family.",
+      "id": "n1-grammar-77"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "合格すべく、頑張ってください。",
+      "right": "合格できるよう、頑張ってください。",
+      "why": "The main clause after べく cannot be a request or command."
+    },
+    {
+      "wrong": "彼が合格すべく、私は教えた。",
+      "right": "彼が合格できるように、私は教えた。",
+      "why": "The subject of both clauses must be the same; here the goal belongs to another person, so use ように."
+    },
+    {
+      "wrong": "勉強するべくに、図書館へ行った。",
+      "right": "勉強すべく、図書館へ行った。",
+      "why": "No に after べく; and する usually becomes すべく in formal text."
+    }
+  ],
+  "usageNotes": [
+    "べく sounds determined and official; it is a favourite in press releases and sports reports.",
+    "It cannot be followed by expressions of will directed at others (〜てください, 〜ましょう).",
+    "Keep the purpose and the action in one subject: I did Y in order to X."
+  ],
+  "jlptTips": [
+    "When the blank sits between a purpose verb and a past action by the same subject in a formal sentence, べく is the answer.",
+    "Distractors: べからず, べくもない, ように. Eliminate べからず (prohibition) and べくもない (impossible) by meaning.",
+    "する + べく appears as すべく in most keys; recognise it as a single chunk in 並べ替え."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-78-1",
+    "q-n1-g-78-2",
+    "q-n1-g-78-3",
+    "q-n1-g-78-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-78-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

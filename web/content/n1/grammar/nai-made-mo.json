@@ -1,0 +1,118 @@
+{
+  "id": "n1-grammar-48",
+  "slug": "nai-made-mo",
+  "level": "n1",
+  "order": 48,
+  "title": "〜ないまでも",
+  "romaji": "naimademo",
+  "meaning": "even if not …, at least …",
+  "simpleExplanation": "Xないまでも Y sets aside a high goal X as unattainable and states a lower, realistic level Y: 毎日とは言わないまでも、週に一度は運動したほうがいい. The second clause often has せめて / 少なくとも / くらいは.",
+  "whenUsed": "Both registers. Common in advice, modest self-evaluation, and negotiation of expectations.",
+  "formation": [
+    "Vない + までも",
+    "Noun + でないまでも",
+    "〜とは言わないまでも / 〜とは言えないまでも (very common)",
+    "Followed by せめて / 少なくとも / くらいは"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Lowering the bar",
+    "items": [
+      {
+        "label": "毎日運動する",
+        "description": "the ideal (set aside with ないまでも)"
+      },
+      {
+        "label": "週に一度は運動する",
+        "description": "the realistic minimum (stated with せめて / は)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "毎日とは言わないまでも、週に一度は運動したほうがいい。",
+      "reading": "まいにちとはいわないまでも、しゅうにいちどはうんどうしたほうがいい。",
+      "en": "You should exercise at least once a week, if not every day.",
+      "note": "The ideal (daily) is set aside; the minimum (weekly) is proposed."
+    },
+    {
+      "ja": "優勝は無理でも、入賞できないまでも、全力を尽くしたい。",
+      "reading": "ゆうしょうはむりでも、にゅうしょうできないまでも、ぜんりょくをつくしたい。",
+      "en": "Even if winning is impossible, and even if I cannot place, I want to give my all.",
+      "note": "A chain: winning impossible, placing perhaps impossible, still giving all."
+    },
+    {
+      "ja": "完璧とは言えないまでも、かなり良い出来だ。",
+      "reading": "かんぺきとはいえないまでも、かなりよいできだ。",
+      "en": "It is not perfect, but it is quite a good piece of work.",
+      "note": "Modest evaluation: not perfect, but quite good."
+    },
+    {
+      "ja": "優勝はできないまでも、せめてベスト８には入りたい。",
+      "reading": "ゆうしょうはできないまでも、せめてベストエイトにははいりたい。",
+      "en": "Even if we can't win, I'd like at least to reach the last eight.",
+      "note": "せめて + 〜は."
+    },
+    {
+      "ja": "プロ並みとは言えないまでも、彼の料理はかなりの腕前だ。",
+      "reading": "プロなみとはいえないまでも、かれのりょうりはかなりのうでまえだ。",
+      "en": "His cooking may not be professional level, but it is quite skilled.",
+      "note": "とは言えないまでも as a modest evaluation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ないものでもない",
+      "difference": "\"Might well\" (a reluctant affirmative); no lowering of a goal.",
+      "id": "n1-grammar-49"
+    },
+    {
+      "pattern": "〜なくても / 〜なくとも",
+      "difference": "Neutral \"even if not\"; ないまでも specifically contrasts a high and a lower level.",
+      "id": "n1-grammar-126"
+    },
+    {
+      "pattern": "〜までもない",
+      "difference": "\"No need to\" (言うまでもない): shares まで but is unrelated to lowering a goal.",
+      "id": "n1-grammar-83"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "毎日運動しないまでも、毎日運動しよう。",
+      "right": "毎日運動しないまでも、週に一度は運動しよう。",
+      "why": "The second clause must be a lower level than the first."
+    },
+    {
+      "wrong": "毎日までも、週に一度は運動しよう。",
+      "right": "毎日とは言わないまでも、週に一度は運動しよう。",
+      "why": "A noun needs でない or とは言わない before までも."
+    },
+    {
+      "wrong": "完璧とは言えないまでも、ひどい出来だ。",
+      "right": "完璧とは言えないまでも、なかなかの出来だ。",
+      "why": "The second clause should be a positive though lower evaluation, not a negative one."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: とは言わないまでも, とは言えないまでも, 完璧でないまでも, 全部でないまでも.",
+    "Partner words: せめて, 少なくとも, くらいは, は.",
+    "Useful for polite advice that does not demand too much."
+  ],
+  "jlptTips": [
+    "A high standard before the blank and せめて / くらいは after → ないまでも.",
+    "Distractors: ないものでもない (might well), なくても (neutral), ないことには (unless).",
+    "Check that the second clause is a lower goal, not the same or higher."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-48-1",
+    "q-n1-g-48-2",
+    "q-n1-g-48-3",
+    "q-n1-g-48-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-48-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

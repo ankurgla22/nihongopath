@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-168",
+  "slug": "temae",
+  "level": "n1",
+  "order": 168,
+  "title": "〜手前",
+  "romaji": "temae",
+  "meaning": "in front of …; given one's position (having said/done …), one cannot …",
+  "simpleExplanation": "〜手前 says the speaker is constrained by appearances or by their own previous words. 子供の手前 = \"in front of the children (I must behave)\"; 自分から言い出した手前 = \"since I was the one who proposed it, (I can't back out)\". 手前 (てまえ) here means \"one's position / face\". The second half is almost always an inability or an obligation.",
+  "whenUsed": "Spoken and written, common when explaining why you cannot back down. Preceded by N + の (子供の手前・上司の手前) or a clause (約束した手前・大口をたたいた手前). Followed by 〜わけにはいかない / 〜ないわけにはいかない / 〜ざるを得ない / 〜られない.",
+  "formation": [
+    "N + の + 手前  (人の手前・子供の手前・お客様の手前)",
+    "Vた / Vる + 手前  (約束した手前・引き受けた手前)",
+    "Second half: 〜わけにはいかない / 〜ざるを得ない / 〜なければならない / 〜られない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "自分から言い出した",
+        "role": "what one said or did"
+      },
+      {
+        "text": "手前",
+        "role": "\"given my position\"",
+        "highlight": true
+      },
+      {
+        "text": "途中でやめるわけにはいかない",
+        "role": "constraint (cannot / must)"
+      }
+    ],
+    "translation": "Since I was the one who proposed it, I cannot quit halfway."
+  },
+  "examples": [
+    {
+      "ja": "子供の手前、親としてみっともない姿は見せられない。",
+      "reading": "こどものてまえ、おやとしてみっともないすがたはみせられない。",
+      "en": "In front of my children, I cannot show an unseemly side as a parent.",
+      "note": "Noun + の手前: face in front of the children."
+    },
+    {
+      "ja": "自分から言い出した手前、途中でやめるわけにはいかない。",
+      "reading": "じぶんからいいだしたてまえ、とちゅうでやめるわけにはいかない。",
+      "en": "Since I was the one who proposed it, I cannot quit halfway.",
+      "note": "A clause: having proposed it, quitting would lose face."
+    },
+    {
+      "ja": "約束した手前、行かないわけにはいかない。",
+      "reading": "やくそくしたてまえ、いかないわけにはいかない。",
+      "en": "Having promised, I cannot very well not go.",
+      "note": "約束した手前 + ないわけにはいかない: obligation from one's own words."
+    },
+    {
+      "ja": "部下の手前、上司に言い返すわけにはいかなかった。",
+      "reading": "ぶかのてまえ、じょうしにいいかえすわけにはいかなかった。",
+      "en": "With my subordinates watching, I could not talk back to my boss.",
+      "note": "Face in front of subordinates."
+    },
+    {
+      "ja": "できると大口をたたいた手前、今さら無理だとは言えない。",
+      "reading": "できるとおおぐちをたたいたてまえ、いまさらむりだとはいえない。",
+      "en": "Having boasted that I could do it, I cannot say now that it is impossible.",
+      "note": "One's own words as the constraint."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-3",
+      "pattern": "〜以上(は)",
+      "difference": "\"Now that X\" gives a logical reason for a duty. 手前 adds the social dimension of face and appearances."
+    },
+    {
+      "id": "n2-grammar-31",
+      "pattern": "〜からには",
+      "difference": "\"Since X, naturally Y\": a determined conclusion. 手前 stresses reluctance under social pressure."
+    },
+    {
+      "id": "n2-grammar-165",
+      "pattern": "〜わけにはいかない",
+      "difference": "The constraint itself (\"cannot, for social reasons\"). 手前 names the source of that constraint and is usually followed by わけにはいかない."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供の手前、うれしかった。",
+      "right": "子供の手前、泣くわけにはいかなかった。",
+      "why": "The second half must express a constraint (cannot / must), not a feeling."
+    },
+    {
+      "wrong": "子供手前",
+      "right": "子供の手前",
+      "why": "Nouns take の before 手前."
+    },
+    {
+      "wrong": "約束した手前、行かなかった。",
+      "right": "約束した手前、行かないわけにはいかなかった。",
+      "why": "The constraint is toward keeping face, so the second half should show obligation, not the opposite."
+    }
+  ],
+  "usageNotes": [
+    "Common constraints: 〜わけにはいかない, 〜ざるを得ない, 〜しかない, 〜られない.",
+    "世間の手前 / 人の手前 = \"for appearances' sake\".",
+    "Do not confuse with spatial 手前 (駅の手前で降りる) or the humble pronoun 手前ども."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a social observer (子供・部下・お客様) + の + a blank, or a past action + a blank, followed by わけにはいかない, is 手前.",
+    "Distractors 以上 and からには are logical; 手前 is the one about face. If the sentence mentions people watching, choose 手前.",
+    "In 並べ替え, 手前 follows its noun + の or the past verb; the constraint clause comes last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-168-1",
+    "q-n1-g-168-2",
+    "q-n1-g-168-3",
+    "q-n1-g-168-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-168-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

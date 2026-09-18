@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-104",
+  "slug": "tomo-sureba",
+  "level": "n1",
+  "order": 104,
+  "title": "〜ともすれば / 〜ともすると",
+  "romaji": "tomo sureba / tomo suruto",
+  "meaning": "is apt to …; tends to … (an undesirable tendency)",
+  "simpleExplanation": "ともすれば / ともすると is an adverb meaning \"if one is not careful, it easily happens that…\". It introduces an undesirable tendency: ともすれば忘れがちだ (we tend to forget). It pairs with がちだ, やすい, てしまう, or a negative outcome.",
+  "whenUsed": "Formal written Japanese: essays, editorials, advice columns. It is a mild warning about human weakness or a natural drift toward something bad. Not used for good tendencies.",
+  "formation": [
+    "ともすれば / ともすると + … がちだ / やすい / てしまう",
+    "Often at the start of a clause",
+    "Related: ややもすれば (same meaning)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "一人暮らしだと",
+        "role": "condition"
+      },
+      {
+        "text": "ともすると",
+        "role": "if one is not careful",
+        "highlight": true
+      },
+      {
+        "text": "食事が不規則になる",
+        "role": "undesirable tendency"
+      }
+    ],
+    "translation": "When you live alone, meals tend to become irregular."
+  },
+  "examples": [
+    {
+      "ja": "ともすれば、人は自分に都合のいい情報ばかりを信じがちだ。",
+      "reading": "ともすれば、ひとはじぶんにつごうのいいじょうほうばかりをしんじがちだ。",
+      "en": "People are apt to believe only information that suits them.",
+      "note": "A general human weakness: believing convenient information; がちだ."
+    },
+    {
+      "ja": "一人暮らしだと、ともすると食事が不規則になる。",
+      "reading": "ひとりぐらしだと、ともするとしょくじがふきそくになる。",
+      "en": "When you live alone, meals tend to become irregular.",
+      "note": "A practical tendency when living alone; ともすると."
+    },
+    {
+      "ja": "ともすれば忘れがちだが、水は貴重な資源だ。",
+      "reading": "ともすればわすれがちだが、みずはきちょうなしげんだ。",
+      "en": "Though we tend to forget it, water is a precious resource.",
+      "note": "忘れがちだが: a warning followed by the important point."
+    },
+    {
+      "ja": "忙しいと、ともすれば健康管理がおろそかになりやすい。",
+      "reading": "いそがしいと、ともすればけんこうかんりがおろそかになりやすい。",
+      "en": "When busy, we are apt to neglect our health.",
+      "note": "Pairs with やすい."
+    },
+    {
+      "ja": "成功が続くと、人はともすると謙虚さを失ってしまう。",
+      "reading": "せいこうがつづくと、ひとはともするとけんきょさをうしなってしまう。",
+      "en": "When success continues, people tend to lose their humility.",
+      "note": "Pairs with てしまう."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がちだ",
+      "difference": "The tendency suffix that ともすれば usually accompanies; がちだ alone is neutral in register.",
+      "id": "n2-grammar-21"
+    },
+    {
+      "pattern": "〜きらいがある",
+      "difference": "\"Has a tendency to (something undesirable)\": describes a person or thing's disposition, not a situation that easily arises.",
+      "id": "n1-grammar-12"
+    },
+    {
+      "pattern": "〜かねない",
+      "difference": "\"Might well (do something bad)\": a possibility of a bad outcome, not a habitual tendency.",
+      "id": "n2-grammar-25"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ともすれば、彼は親切だ。",
+      "right": "彼はいつも親切だ。",
+      "why": "ともすれば introduces an undesirable tendency, not a good quality."
+    },
+    {
+      "wrong": "ともすれば忘れる。",
+      "right": "ともすれば忘れがちだ。",
+      "why": "The predicate should express tendency (がち・やすい・てしまう), not a plain statement."
+    },
+    {
+      "wrong": "ともすればば、",
+      "right": "ともすれば、",
+      "why": "It is a fixed adverb; no extra ば."
+    }
+  ],
+  "usageNotes": [
+    "ややもすれば is a synonym with the same usage.",
+    "The clause often continues with が or けれども and then gives the correct attitude (〜が、本当は〜).",
+    "It sounds reflective and slightly preachy, which suits essays."
+  ],
+  "jlptTips": [
+    "An adverb slot followed by がち / やすい / てしまう and a bad outcome → ともすれば.",
+    "Distractors: ともあれ (anyway), ともなると (when it comes to), ともかく. Check the ending for a tendency.",
+    "ややもすれば may appear as an equivalent option; both mean the same."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-104-1",
+    "q-n1-g-104-2",
+    "q-n1-g-104-3",
+    "q-n1-g-104-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-104-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

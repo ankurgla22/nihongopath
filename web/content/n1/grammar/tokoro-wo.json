@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-43",
+  "slug": "tokoro-wo",
+  "level": "n1",
+  "order": 43,
+  "title": "〜ところを",
+  "romaji": "tokorowo",
+  "meaning": "at a time when …; despite … (apology or thanks); just as … (was caught)",
+  "simpleExplanation": "Xところを has two uses. (1) Polite: acknowledges the listener's situation before thanking or apologising: お忙しいところを、ありがとうございます. (2) Narrative: \"just as someone was doing X, they were caught / stopped\": 逃げようとしたところを取り押さえられた.",
+  "whenUsed": "Use (1) is standard polite speech in business and daily life. Use (2) is narrative, often in news reports with passive verbs (見つかる, 捕まる, 呼び止められる).",
+  "formation": [
+    "お忙しい / お休み + の + ところを + thanks or apology",
+    "Vる / Vている / Vた + ところを + passive verb (捕まえられる)",
+    "Aい + ところを"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of ところを",
+    "columns": [
+      "use",
+      "typical form",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "polite",
+        "cells": [
+          "acknowledge the listener's situation",
+          "お忙しいところを恐縮です",
+          "お休みのところをお電話して申し訳ありません"
+        ]
+      },
+      {
+        "label": "narrative",
+        "cells": [
+          "caught in the middle of an action",
+          "Vようとしたところを + passive",
+          "逃げようとしたところを捕まった"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "お忙しいところを、わざわざお越しいただきありがとうございます。",
+      "reading": "おいそがしいところを、わざわざおこしいただきありがとうございます。",
+      "en": "Thank you for taking the trouble to come despite being so busy.",
+      "note": "Polite thanks: despite being busy."
+    },
+    {
+      "ja": "お休みのところを、お電話して申し訳ありません。",
+      "reading": "おやすみのところを、おでんわしてもうしわけありません。",
+      "en": "I am sorry to call you while you are resting.",
+      "note": "Polite apology: while you were resting."
+    },
+    {
+      "ja": "犯人は逃げようとしたところを、警官に取り押さえられた。",
+      "reading": "はんにんはにげようとしたところを、けいかんにとりおさえられた。",
+      "en": "The culprit was seized by a police officer just as he tried to flee.",
+      "note": "Narrative: caught just as he tried to flee."
+    },
+    {
+      "ja": "お食事中のところを失礼いたします。",
+      "reading": "おしょくじちゅうのところをしつれいいたします。",
+      "en": "Excuse me for interrupting your meal.",
+      "note": "Set phrase in restaurants and at events."
+    },
+    {
+      "ja": "居眠りしているところを先生に見つかってしまった。",
+      "reading": "いねむりしているところをせんせいにみつかってしまった。",
+      "en": "I was caught by the teacher dozing off.",
+      "note": "Vている + ところを + passive."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ところに / 〜ところへ",
+      "difference": "\"Just when\" with a new arrival or event (出かけようとしたところに電話が来た); no passive.",
+      "id": "n2-grammar-89"
+    },
+    {
+      "pattern": "〜ところで",
+      "difference": "\"Even if\" (たところで); no timing use.",
+      "id": "n1-grammar-24"
+    },
+    {
+      "pattern": "〜ものの / 〜のに",
+      "difference": "Plain \"although / despite\"; not a polite acknowledgement of the listener's situation.",
+      "id": "n2-grammar-159"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "お忙しいところで、ありがとうございます。",
+      "right": "お忙しいところを、ありがとうございます。",
+      "why": "The polite acknowledgement uses を."
+    },
+    {
+      "wrong": "逃げようとしたところに捕まった。",
+      "right": "逃げようとしたところを捕まった。",
+      "why": "When the subject is caught, ところを is used; ところに is for something arriving."
+    },
+    {
+      "wrong": "忙しいところを、ありがとう。",
+      "right": "お忙しいところを、ありがとうございます。",
+      "why": "The polite use expects お〜 and a polite ending."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: お忙しいところを, お休みのところを, お食事中のところを, お取り込み中のところを.",
+    "Narrative use pairs with verbs of catching, stopping, seeing: 捕まる, 見つかる, 呼び止められる, 助けられる.",
+    "The particle を can be omitted in speech (お忙しいところ、すみません)."
+  ],
+  "jlptTips": [
+    "A polite formula (お忙しい / お休みの) + blank + thanks or apology → ところを.",
+    "A verb of attempt (〜ようとした) + blank + passive → ところを; ところに is the distractor for arrivals.",
+    "ところで (concessive) never fits these contexts."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-43-1",
+    "q-n1-g-43-2",
+    "q-n1-g-43-3",
+    "q-n1-g-43-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-43-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

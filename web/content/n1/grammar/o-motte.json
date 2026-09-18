@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-94",
+  "slug": "o-motte",
+  "level": "n1",
+  "order": 94,
+  "title": "〜をもって",
+  "romaji": "o motte",
+  "meaning": "by means of …; with …; as of … (a cutoff point)",
+  "simpleExplanation": "〜をもって is a formal version of で with two main uses. (1) Means: 書面をもって通知する (notify in writing), 誠意をもって対応する (respond in good faith). (2) Cutoff in time: 本日をもって閉店 (closing as of today), 以上をもって終了 (with this, we conclude). The extra-polite form をもちまして appears in ceremonies.",
+  "whenUsed": "Formal announcements, ceremonies, business letters, legal text. In sense 2 it marks the exact moment something ends or starts. Not used in casual speech; で is used instead.",
+  "formation": [
+    "N + をもって (means: 書面・誠意・実力)",
+    "N(time) + をもって (cutoff: 本日・今回・これ)",
+    "Polite: 〜をもちまして",
+    "Set: 以上をもって / これをもって + 終了・閉会"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of をもって",
+    "columns": [
+      "Meaning",
+      "Typical nouns",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. By means of",
+        "cells": [
+          "a formal で",
+          "書面・誠意・実力・身",
+          "書面をもって通知する"
+        ]
+      },
+      {
+        "label": "2. As of (cutoff)",
+        "cells": [
+          "a point in time",
+          "本日・今回・これ・以上",
+          "本日をもって閉店"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "本日をもって、当店は閉店いたします。",
+      "reading": "ほんじつをもって、とうてんはへいてんいたします。",
+      "en": "As of today, this shop is closing.",
+      "note": "Cutoff: 本日をもって = as of today."
+    },
+    {
+      "ja": "結果は書面をもってご連絡いたします。",
+      "reading": "けっかはしょめんをもってごれんらくいたします。",
+      "en": "We will inform you of the results in writing.",
+      "note": "Means: 書面をもって = in writing."
+    },
+    {
+      "ja": "以上をもちまして、本日の式典を終了いたします。",
+      "reading": "いじょうをもちまして、ほんじつのしきてんをしゅうりょういたします。",
+      "en": "With that, we conclude today's ceremony.",
+      "note": "Ceremony: 以上をもちまして = with this (we conclude)."
+    },
+    {
+      "ja": "採用の可否は、メールをもってお知らせいたします。",
+      "reading": "さいようのかひは、メールをもっておしらせいたします。",
+      "en": "We will inform you of the hiring decision by e-mail.",
+      "note": "Means, in polite business style."
+    },
+    {
+      "ja": "この回をもって、連載は最終回となります。",
+      "reading": "このかいをもって、れんさいはさいしゅうかいとなります。",
+      "en": "With this instalment, the series reaches its final episode.",
+      "note": "Cutoff: この回をもって."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を限りに",
+      "difference": "Only marks an end (やめる・閉店する); をもって is a neutral formal cutoff.",
+      "id": "n1-grammar-91"
+    },
+    {
+      "pattern": "〜によって / 〜により",
+      "difference": "\"By means of / depending on\": more common for methods and causes; をもって is the ceremonial choice.",
+      "id": "n2-grammar-132"
+    },
+    {
+      "pattern": "〜をもってすれば / 〜をもってしても",
+      "difference": "A fixed extension of the means use: \"with X (an ability), one could / even with X one could not\".",
+      "id": "n1-grammar-95"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ペンをもって書いた。",
+      "right": "ペンで書いた。",
+      "why": "Ordinary tools take で; をもって is for formal means (書面・誠意) or cutoffs."
+    },
+    {
+      "wrong": "本日をもちまして、始めます。（カジュアルな会話で）",
+      "right": "今日から始めます。",
+      "why": "をもちまして is ceremonial; casual talk uses から."
+    },
+    {
+      "wrong": "以上をもって終わるまでだ。",
+      "right": "以上をもって終了いたします。",
+      "why": "Do not combine をもって with unrelated endings; the usual verb is 終了する / 閉会する."
+    }
+  ],
+  "usageNotes": [
+    "身をもって (through one's own body / experience) is a common set phrase: 身をもって知る.",
+    "In sense 2 the noun is usually a date, an occasion, or これ / 以上.",
+    "The polite をもちまして is what MCs and hosts say at the end of events."
+  ],
+  "jlptTips": [
+    "Date + blank + 閉店 / 終了 → をもって. 書面 / 誠意 + blank + verb → をもって (means).",
+    "Distractors: を限りに, によって, において. If the sentence is a ceremonial ending, choose をもって.",
+    "Watch for the polite variant をもちまして in listening-style sentences."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-94-1",
+    "q-n1-g-94-2",
+    "q-n1-g-94-3",
+    "q-n1-g-94-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-94-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

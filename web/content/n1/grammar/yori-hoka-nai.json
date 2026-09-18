@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-143",
+  "slug": "yori-hoka-nai",
+  "level": "n1",
+  "order": 143,
+  "title": "〜より(ほか)ない / 〜よりほかはない",
+  "romaji": "yori (hoka) nai / yori hoka wa nai",
+  "meaning": "have no choice but to …; there is nothing for it but to …",
+  "simpleExplanation": "Vる + よりほかない says that only one option is left: \"nothing to do but X\". より means \"other than\", ほか means \"else\", ない makes it \"there is nothing else\". It is the slightly formal cousin of 〜しかない and appears in both writing and careful speech.",
+  "whenUsed": "Written and formal spoken Japanese: reports, explanations of decisions, resigned statements. Variants: よりほかない, よりほかはない, より(ほか)しかたがない, よりほかに〜ない. In casual speech people say しかない.",
+  "formation": [
+    "Vる + よりほかない / よりほかはない",
+    "Vる + よりない (shorter, plain)",
+    "Vる + よりほかに + 方法/道 + はない",
+    "Vる + よりしかたがない"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Formality of \"no choice but to\"",
+    "items": [
+      {
+        "label": "〜しかない",
+        "description": "casual, spoken: 歩くしかない"
+      },
+      {
+        "label": "〜よりほかない",
+        "description": "neutral-formal, both registers: 歩くよりほかない"
+      },
+      {
+        "label": "〜よりほかはない / 〜ざるを得ない",
+        "description": "formal, written: 歩くよりほかはない / 歩かざるを得ない"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "終電を逃したので、タクシーで帰るよりほかなかった。",
+      "reading": "しゅうでんをのがしたので、タクシーでかえるよりほかなかった。",
+      "en": "Having missed the last train, I had no choice but to go home by taxi.",
+      "note": "Missed the last train → only a taxi remains; よりほかなかった in the past."
+    },
+    {
+      "ja": "こうなったら、正直に話すよりない。",
+      "reading": "こうなったら、しょうじきにはなすよりない。",
+      "en": "Now that it has come to this, there is nothing to do but tell the truth.",
+      "note": "よりない is the shortest variant, common in resigned speech."
+    },
+    {
+      "ja": "手術を受けるよりほかに、助かる道はない。",
+      "reading": "しゅじゅつをうけるよりほかに、たすかるみちはない。",
+      "en": "There is no way to survive other than having surgery.",
+      "note": "よりほかに + 道はない: \"no way other than\" with an explicit noun."
+    },
+    {
+      "ja": "証拠がそろっている以上、罪を認めるよりほかはない。",
+      "reading": "しょうこがそろっているいじょう、つみをみとめるよりほかはない。",
+      "en": "Now that the evidence is all in, there is nothing to do but admit the crime.",
+      "note": "以上 + よりほかはない is a formal pairing."
+    },
+    {
+      "ja": "停電が続くなら、今夜はろうそくで過ごすよりしかたがない。",
+      "reading": "ていでんがつづくなら、こんやはろうそくですごすよりしかたがない。",
+      "en": "If the power cut continues, we will just have to spend tonight by candlelight.",
+      "note": "よりしかたがない sounds resigned."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-53",
+      "pattern": "〜しかない",
+      "difference": "Same meaning, casual and spoken. よりほかない is the more formal choice."
+    },
+    {
+      "id": "n2-grammar-52",
+      "pattern": "〜ざるを得ない",
+      "difference": "\"Cannot avoid doing\" against one's will, formal. よりほかない focuses on the absence of alternatives rather than reluctance."
+    },
+    {
+      "id": "n1-grammar-90",
+      "pattern": "〜をおいて(ほかに)",
+      "difference": "\"No one / nothing other than X\" for choosing a person or thing, not an action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "タクシーで帰ったよりほかなかった。",
+      "right": "タクシーで帰るよりほかなかった。",
+      "why": "The verb before より stays in the dictionary form; tense goes on ない."
+    },
+    {
+      "wrong": "彼をおいてよりほかない。",
+      "right": "彼をおいてほかにいない。/ 彼に頼むよりほかない。",
+      "why": "Do not mix をおいて with よりほかない. Use をおいて〜ない for a person, よりほかない for an action."
+    },
+    {
+      "wrong": "毎日勉強するよりほかない。（as friendly advice）",
+      "right": "毎日勉強するしかないよ。",
+      "why": "よりほかない sounds stiff and resigned in casual advice; しかない is the natural spoken form."
+    }
+  ],
+  "usageNotes": [
+    "よりほかはない (with は) sounds a little more emphatic and written than よりほかない.",
+    "The pattern often follows a clause that closes off other options: 〜以上・〜からには・こうなったら.",
+    "In apologies and explanations, 〜よりほかありません politely states that nothing else could be done."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a situation with all alternatives removed (終電を逃した・証拠がそろった) + a dictionary-form verb + a blank suggests よりほかない.",
+    "Options may include しかない; if the passage is formal or written, prefer よりほかない.",
+    "In 並べ替え, より and ほかない may be split; the verb in dictionary form precedes より."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-143-1",
+    "q-n1-g-143-2",
+    "q-n1-g-143-3",
+    "q-n1-g-143-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-143-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

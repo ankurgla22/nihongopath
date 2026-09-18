@@ -48,7 +48,7 @@ export function questionLevelsUpTo(level: Level): QuestionLevel[] {
 /** Type and level of a content id such as `n4-grammar-12`, `n5-kanji-一` or `foundation-3`. */
 export function contentMeta(id: string): { type: Skill; level: Level | "foundation" } | null {
   if (/^foundation-/.test(id)) return { type: "kana", level: "foundation" };
-  const m = /^(n5|n4|n3|n2)-(grammar|vocab|kanji|reading|listening)-/.exec(id);
+  const m = /^(n5|n4|n3|n2|n1)-(grammar|vocab|kanji|reading|listening)-/.exec(id);
   if (!m) return null;
   const level = m[1] as Level;
   const type: Skill = m[2] === "vocab" ? "vocabulary" : (m[2] as Skill);

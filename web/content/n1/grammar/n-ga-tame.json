@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-100",
+  "slug": "n-ga-tame",
+  "level": "n1",
+  "order": 100,
+  "title": "〜んがため(に) / 〜んがための",
+  "romaji": "n ga tame (ni) / n ga tame no",
+  "meaning": "in order to … (a strongly desired purpose)",
+  "simpleExplanation": "〜んがために is a very literary \"in order to\". The ん is the classical volitional (= よう), so 実現せんがために = \"in order to realise (something one is determined about)\". It attaches to the ない-stem: 生きんがため, 勝たんがため; する becomes せんがため. Before a noun: 〜んがための.",
+  "whenUsed": "Formal written Japanese with a dramatic tone: essays, speeches, literature. The purpose is something the subject wants with great determination, often survival, victory or a dream. In ordinary writing, ために is used.",
+  "formation": [
+    "Vない-stem + んがため(に)",
+    "する → せんがため(に)",
+    "Vない-stem + んがための + N",
+    "Main clause: what was done to achieve the purpose"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "verb + ん (classical よう)",
+    "rootLabel": "ない-stem + ん",
+    "branches": [
+      {
+        "suffix": "んがために",
+        "result": "生きんがために",
+        "label": "in order to live"
+      },
+      {
+        "suffix": "んがための",
+        "result": "勝たんがための手段",
+        "label": "means for the sake of winning"
+      },
+      {
+        "suffix": "んばかり",
+        "result": "泣かんばかり",
+        "label": "as if about to cry (related pattern)"
+      },
+      {
+        "suffix": "んとする",
+        "result": "沈まんとする",
+        "label": "be about to sink (related pattern)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は夢を実現せんがために、あらゆる努力をした。",
+      "reading": "かれはゆめをじつげんせんがために、あらゆるどりょくをした。",
+      "en": "He made every effort in order to realize his dream.",
+      "note": "する → せんがために. A strongly desired dream."
+    },
+    {
+      "ja": "生きんがために、彼らは故郷を捨てた。",
+      "reading": "いきんがために、かれらはこきょうをすてた。",
+      "en": "In order to survive, they abandoned their hometown.",
+      "note": "生きんがために: survival as the purpose."
+    },
+    {
+      "ja": "勝たんがための手段は選ばないという態度は問題だ。",
+      "reading": "かたんがためのしゅだんはえらばないというたいどはもんだいだ。",
+      "en": "The attitude of using any means in order to win is a problem.",
+      "note": "Adnominal んがための + 手段."
+    },
+    {
+      "ja": "彼は家族を養わんがために、昼も夜も働いた。",
+      "reading": "かれはかぞくをやしなわんがために、ひるもよるもはたらいた。",
+      "en": "In order to support his family, he worked day and night.",
+      "note": "養う → 養わんがため."
+    },
+    {
+      "ja": "真実を伝えんがための報道でなければならない。",
+      "reading": "しんじつをつたえんがためのほうどうでなければならない。",
+      "en": "Reporting must be for the sake of conveying the truth.",
+      "note": "伝える → 伝えんがための."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べく",
+      "difference": "Also formal \"in order to\", but calmer and more common in news; んがため is more literary and emotional.",
+      "id": "n1-grammar-78"
+    },
+    {
+      "pattern": "〜んばかり(に)",
+      "difference": "Same classical ん, different meaning: \"as if about to\".",
+      "id": "n1-grammar-101"
+    },
+    {
+      "pattern": "〜んとする",
+      "difference": "Same ん: \"be about to / try to\".",
+      "id": "n1-grammar-102"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勝つんがために",
+      "right": "勝たんがために",
+      "why": "Attach ん to the ない-stem: 勝た + ん."
+    },
+    {
+      "wrong": "するんがため",
+      "right": "せんがため",
+      "why": "する becomes せん."
+    },
+    {
+      "wrong": "買い物をせんがために、店に行った。",
+      "right": "買い物をするために、店に行った。",
+      "why": "Trivial purposes do not suit this dramatic pattern."
+    }
+  ],
+  "usageNotes": [
+    "The purpose is weighty: 生きる・勝つ・守る・実現する・救う.",
+    "It gives prose a solemn, old-fashioned ring; use sparingly.",
+    "Remember the three ん patterns together: んがため (purpose), んばかり (as if about to), んとする (about to / try to)."
+  ],
+  "jlptTips": [
+    "A blank after a ない-stem + ん followed by a determined action → がため(に).",
+    "Check conjugation options: せんがため for する, 勝たんがため for 勝つ.",
+    "Distractors: べく, んばかりに, んとして. Only んがため expresses purpose."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-100-1",
+    "q-n1-g-100-2",
+    "q-n1-g-100-3",
+    "q-n1-g-100-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-100-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

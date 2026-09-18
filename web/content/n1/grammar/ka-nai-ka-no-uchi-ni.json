@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-144",
+  "slug": "ka-nai-ka-no-uchi-ni",
+  "level": "n1",
+  "order": 144,
+  "title": "〜か〜ないかのうちに",
+  "romaji": "ka ... nai ka no uchi ni",
+  "meaning": "almost before … had happened; the instant …; barely … when …",
+  "simpleExplanation": "Vる/Vた + か + Vない + かのうちに says that the second event happened so fast that it is unclear whether the first had even finished. ベルが鳴るか鳴らないかのうちに飛び出した = \"They dashed out almost before the bell had rung\". The same verb appears in affirmative and negative form.",
+  "whenUsed": "Both spoken and written, in vivid narration of quick reactions. A review point from N2 that N1 tests together with similar patterns (が早いか・や否や・なり・そばから). The second half is a real event that happened, usually in the past.",
+  "formation": [
+    "Vる + か + Vない + かのうちに  (鳴るか鳴らないかのうちに)",
+    "Vた + か + Vない + かのうちに  (横になったかならないかのうちに)",
+    "Second half: an event that actually occurred (past tense), not a wish or command"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"As soon as\" family",
+    "columns": [
+      "nuance",
+      "restriction",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "か〜ないかのうちに",
+        "cells": [
+          "so fast the first event may not have finished",
+          "second half: actual event",
+          "鳴るか鳴らないかのうちに飛び出した"
+        ]
+      },
+      {
+        "label": "が早いか",
+        "cells": [
+          "no sooner had X than Y",
+          "written narrative",
+          "鳴るが早いか飛び出した"
+        ]
+      },
+      {
+        "label": "や否や",
+        "cells": [
+          "the moment X, Y (formal)",
+          "written",
+          "鳴るや否や飛び出した"
+        ]
+      },
+      {
+        "label": "なり",
+        "cells": [
+          "did X and immediately did Y (same subject)",
+          "past events",
+          "鳴るなり飛び出した"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
+      "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
+      "en": "The students dashed out of the classroom almost before the bell had rung.",
+      "note": "The bell may not have finished ringing when they ran out."
+    },
+    {
+      "ja": "彼は横になったかならないかのうちに眠ってしまった。",
+      "reading": "かれはよこになったかならないかのうちにねむってしまった。",
+      "en": "He fell asleep almost the moment he lay down.",
+      "note": "Vた + か + Vない + か: past form is also common."
+    },
+    {
+      "ja": "店が開くか開かないかのうちに、客が押し寄せた。",
+      "reading": "みせがひらくかひらかないかのうちに、きゃくがおしよせた。",
+      "en": "Customers surged in almost before the shop had opened.",
+      "note": "店が開く / 開かない + かのうちに: a rush of customers."
+    },
+    {
+      "ja": "彼女は「さようなら」と言うか言わないかのうちに、電話を切ってしまった。",
+      "reading": "かのじょは「さようなら」というかいわないかのうちに、でんわをきってしまった。",
+      "en": "She hung up almost before she had finished saying goodbye.",
+      "note": "Quoted speech + か言わないかのうちに is a typical narrative use."
+    },
+    {
+      "ja": "電車のドアが開くか開かないかのうちに、乗客がどっと降りてきた。",
+      "reading": "でんしゃのドアがひらくかひらかないかのうちに、じょうきゃくがどっとおりてきた。",
+      "en": "Passengers poured out almost before the train doors had opened.",
+      "note": "どっと (all at once) strengthens the speed."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-105",
+      "pattern": "〜が早いか",
+      "difference": "Literary \"no sooner … than\". Stresses the actor's eagerness; か〜ないかのうちに stresses that the first event was barely complete."
+    },
+    {
+      "id": "n1-grammar-88",
+      "pattern": "〜や否や / 〜や",
+      "difference": "Formal written \"the moment\". Cannot be used with the speaker's own will (intentions, commands) in the second half."
+    },
+    {
+      "id": "n1-grammar-55",
+      "pattern": "〜なり",
+      "difference": "Same subject does X and then immediately Y, often something unexpected. Second half is a completed action."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ベルが鳴るか鳴らないかのうちに、教室を出ましょう。",
+      "right": "ベルが鳴ったら、すぐに教室を出ましょう。",
+      "why": "The second half must be an event that happened, not a suggestion or command."
+    },
+    {
+      "wrong": "ベルが鳴るか止まらないかのうちに",
+      "right": "ベルが鳴るか鳴らないかのうちに",
+      "why": "The same verb must appear in affirmative and negative form."
+    },
+    {
+      "wrong": "ベルが鳴るか鳴らないうちに",
+      "right": "ベルが鳴るか鳴らないかのうちに",
+      "why": "Both か and の are required: か〜ないか + のうちに. (鳴らないうちに alone means \"before it rings\".)"
+    }
+  ],
+  "usageNotes": [
+    "Common verbs: 言う・鳴る・開く・着く・座る・横になる・終わる.",
+    "The second half often has a speed word: すぐ・もう・どっと・一斉に.",
+    "Do not confuse with 〜ないうちに (\"before X happens\"), which lacks the か pair."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an affirmative + か + negative of the same verb + a blank is か〜ないかのうちに; make sure the option includes both か and の.",
+    "When choosing between this and が早いか / や否や / なり, all may fit a past event; か〜ないかのうちに is the one that stresses the first event was barely finished.",
+    "In 並べ替え, the chunks are often Vる か / Vない か / のうちに; assemble the verb pair first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-144-1",
+    "q-n1-g-144-2",
+    "q-n1-g-144-3",
+    "q-n1-g-144-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-144-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

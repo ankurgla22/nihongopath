@@ -1,0 +1,125 @@
+{
+  "id": "n1-grammar-6",
+  "slug": "kagiri-da",
+  "level": "n1",
+  "order": 6,
+  "title": "〜かぎりだ",
+  "romaji": "kagirida",
+  "meaning": "extremely …; could not be more … (the speaker's own feeling)",
+  "simpleExplanation": "Emotion adjective + かぎりだ says the speaker feels that emotion to the utmost: 嬉しいかぎりだ \"I could not be happier\". It is only used for the speaker's own present feeling and only with a small set of emotion words. It is not the same かぎり as \"as long as\" (限り).",
+  "whenUsed": "Formal speeches, letters, thank-you messages, and polite written comments. In casual speech people say 本当に嬉しい or 嬉しくてたまらない instead.",
+  "formation": [
+    "い-adjective + かぎりだ (嬉しい・寂しい・羨ましい・心強い・悔しい)",
+    "な-adjective + な + かぎりだ (残念なかぎりだ)",
+    "Noun + の + かぎりだ (光栄のかぎりです)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Intensity of \"I am happy\"",
+    "items": [
+      {
+        "label": "嬉しい",
+        "description": "plain statement"
+      },
+      {
+        "label": "とても嬉しい",
+        "description": "strong, everyday"
+      },
+      {
+        "label": "嬉しくてたまらない",
+        "description": "cannot contain the feeling (spoken)"
+      },
+      {
+        "label": "嬉しいかぎりだ",
+        "description": "utmost feeling, formal and dignified"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "長年の夢がかなって、嬉しいかぎりだ。",
+      "reading": "ながねんのゆめがかなって、うれしいかぎりだ。",
+      "en": "My long-held dream has come true; I could not be happier.",
+      "note": "The speaker's own joy about a fulfilled dream."
+    },
+    {
+      "ja": "親友が遠くへ引っ越してしまい、寂しいかぎりです。",
+      "reading": "しんゆうがとおくへひっこししてしまい、さびしいかぎりです。",
+      "en": "My best friend moved far away, and I feel terribly lonely.",
+      "note": "Loneliness after a friend's move; ですます form for a letter."
+    },
+    {
+      "ja": "こんな大役を任せていただき、光栄のかぎりです。",
+      "reading": "こんなたいやくをまかせていただき、こうえいのかぎりです。",
+      "en": "I am deeply honored to be entrusted with such an important role.",
+      "note": "光栄のかぎり: noun + の, the standard phrase for accepting an honour."
+    },
+    {
+      "ja": "皆様に温かく迎えていただき、心強いかぎりです。",
+      "reading": "みなさまにあたたかくむかえていただき、こころづよいかぎりです。",
+      "en": "Being so warmly welcomed by you all, I feel greatly reassured.",
+      "note": "心強い is one of the most frequent partners."
+    },
+    {
+      "ja": "あと一点で合格だったとは、悔しいかぎりだ。",
+      "reading": "あといってんでごうかくだったとは、くやしいかぎりだ。",
+      "en": "To think I missed passing by one point: I could not be more frustrated.",
+      "note": "Negative feelings work too, as long as they are the speaker's own."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の至り / 〜の極み",
+      "difference": "Nouns like 光栄の至り, 感激の極み: the same utmost feeling, but they attach to nouns only.",
+      "id": "n1-grammar-72"
+    },
+    {
+      "pattern": "〜てたまらない / 〜てならない",
+      "difference": "Spoken-style \"cannot bear\"; usable with a wider range of feelings and sensations.",
+      "id": "n2-grammar-79"
+    },
+    {
+      "pattern": "〜限り(は)",
+      "difference": "Different word: \"as long as / to the extent that\" (私の知る限り). Not an intensifier.",
+      "id": "n2-grammar-15"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は嬉しいかぎりだ。",
+      "right": "彼は嬉しそうだ / 嬉しくてたまらないようだ。",
+      "why": "かぎりだ expresses only the speaker's own emotion; for a third person use そうだ / ようだ."
+    },
+    {
+      "wrong": "この料理は美味しいかぎりだ。",
+      "right": "この料理は本当に美味しい。",
+      "why": "かぎりだ takes emotion adjectives, not descriptive ones like 美味しい or 大きい."
+    },
+    {
+      "wrong": "光栄かぎりです。",
+      "right": "光栄のかぎりです。",
+      "why": "光栄 is a noun / な-adjective, so の (or な) is required before かぎり."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: 嬉しい, 寂しい, 羨ましい, 心強い, 悔しい, 恥ずかしい, 残念な, 光栄の.",
+    "Because it is the speaker's own feeling, the subject is normally omitted.",
+    "Fits acceptance speeches and thank-you letters; too formal for texting friends."
+  ],
+  "jlptTips": [
+    "If the blank follows an emotion adjective and the sentence is a formal comment by the speaker, かぎりだ is the answer.",
+    "Distractors include 極まりない (which takes negative na-adjectives such as 失礼), ばかりだ (\"only getting more\"), and 限りは (\"as long as\").",
+    "A third-person subject rules out かぎりだ; look for そうだ / ようだ instead."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-6-1",
+    "q-n1-g-6-2",
+    "q-n1-g-6-3",
+    "q-n1-g-6-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-6-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

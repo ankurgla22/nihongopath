@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-69",
+  "slug": "niwa-oyobanai",
+  "level": "n1",
+  "order": 69,
+  "title": "〜には及ばない",
+  "romaji": "niwa oyobanai",
+  "meaning": "there is no need to …; cannot match …",
+  "simpleExplanation": "及ぶ means \"to reach\". 〜には及ばない has two uses. (1) Polite refusal of trouble: \"there is no need to X\" (ご心配には及びません = please don't worry). (2) Comparison: \"cannot reach the level of X\" (彼女には及ばない = I'm no match for her). Sense 1 is about actions; sense 2 is about ability.",
+  "whenUsed": "Sense 1 is polite formal speech: telling a customer or superior that they need not go to the trouble (お礼・心配・お越しいただく). Sense 2 appears in both speech and writing, often with 到底 or とても for emphasis, and expresses modesty or admiration.",
+  "formation": [
+    "Vる + には及ばない (行く・心配する・驚く)",
+    "ご/お + N + には及びません (ご心配・お礼・ご足労)",
+    "N(person/thing) + には(到底)及ばない = cannot match",
+    "Polite: 〜には及びません"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two senses of には及ばない",
+    "columns": [
+      "Meaning",
+      "Typical form",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. No need to",
+        "cells": [
+          "politely declining trouble",
+          "Vる / ご+N + には及ばない",
+          "わざわざ来るには及ばない"
+        ]
+      },
+      {
+        "label": "2. Cannot match",
+        "cells": [
+          "ability falls short",
+          "N + には(到底)及ばない",
+          "彼女の英語には及ばない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "わざわざお越しいただくには及びません。",
+      "reading": "わざわざおこしいただくにはおよびません。",
+      "en": "There is no need for you to go to the trouble of coming.",
+      "note": "Sense 1: polite refusal of the trouble of coming. わざわざ often appears."
+    },
+    {
+      "ja": "ご心配には及びません。すぐに回復します。",
+      "reading": "ごしんぱいにはおよびません。すぐにかいふくします。",
+      "en": "There is no need to worry. I will recover soon.",
+      "note": "ご心配には及びません is a set phrase reassuring someone."
+    },
+    {
+      "ja": "英語の発音では、彼女には到底及ばない。",
+      "reading": "えいごのはつおんでは、かのじょにはとうていおよばない。",
+      "en": "In English pronunciation, I cannot come close to her.",
+      "note": "Sense 2: cannot reach her level. 到底 strengthens it."
+    },
+    {
+      "ja": "その程度のことで驚くには及ばない。",
+      "reading": "そのていどのことでおどろくにはおよばない。",
+      "en": "There is no need to be surprised at something like that.",
+      "note": "Sense 1 with a verb of reaction (驚く・慌てる)."
+    },
+    {
+      "ja": "私の腕前では、プロには到底及ばない。",
+      "reading": "わたしのうでまえでは、プロにはとうていおよばない。",
+      "en": "With my skill, I cannot come close to a professional.",
+      "note": "Sense 2; modest self-assessment."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜までもない / 〜までもなく",
+      "difference": "\"No need to\" because the matter is trivial or obvious. までもない is neutral; には及ばない is more polite and often addressed to the listener.",
+      "id": "n1-grammar-83"
+    },
+    {
+      "pattern": "〜に(は)当たらない",
+      "difference": "\"No need to (be surprised / praise)\" because the reaction is not warranted. Judges appropriateness rather than politely declining.",
+      "id": "n1-grammar-151"
+    },
+    {
+      "pattern": "〜ことはない",
+      "difference": "Everyday \"there is no need to\" (心配することはない). Same meaning as sense 1, plainer register.",
+      "id": "n2-grammar-48"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ご心配に及びません。",
+      "right": "ご心配には及びません。",
+      "why": "The set phrase includes は: には及ばない."
+    },
+    {
+      "wrong": "彼は私には及ばない。（意味：私は彼にかなわない）",
+      "right": "私は彼には及ばない。",
+      "why": "X は Y には及ばない means X falls short of Y. Keep the order straight: the weaker one is the subject."
+    },
+    {
+      "wrong": "手伝うには及びませんか。",
+      "right": "手伝いましょうか。",
+      "why": "には及ばない is what the receiver says to decline; do not use it to offer help."
+    }
+  ],
+  "usageNotes": [
+    "Sense 1 is a courteous way to say \"don't bother\" to someone of higher status; it does not sound cold.",
+    "Sense 2 often takes 到底・とても・遠く for emphasis: 遠く及ばない = nowhere near.",
+    "The affirmative 及ぶ is used in the pattern 〜に及ぶ (extend to), which is a different grammar."
+  ],
+  "jlptTips": [
+    "ご心配 / お礼 / わざわざ + blank at the end of a polite reply: には及びません.",
+    "Distractors: までもない, に当たらない, ことはない. If the sentence is a polite reply to an offer, choose には及ばない.",
+    "For the comparison sense, look for 到底 or a skill noun (腕前・英語力) before the blank."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-69-1",
+    "q-n1-g-69-2",
+    "q-n1-g-69-3",
+    "q-n1-g-69-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-69-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

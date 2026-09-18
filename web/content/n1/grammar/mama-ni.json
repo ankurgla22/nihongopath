@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-171",
+  "slug": "mama-ni",
+  "level": "n1",
+  "order": 171,
+  "title": "〜ままに",
+  "romaji": "mama ni",
+  "meaning": "just as …; at the mercy of …; following (one's heart, feet, orders)",
+  "simpleExplanation": "〜ままに means letting something else decide your action: 言われるままに署名した = \"signed just as he was told\"; 足の向くままに歩いた = \"walked wherever my feet took me\". まま is \"the state as it is\"; に turns it into \"in accordance with\". The subject is passive, following instructions, impulses, or a flow.",
+  "whenUsed": "Written and literary Japanese, narratives and essays. Common with passive verbs (言われる・命じられる・誘われる), motion or feeling nouns (足の向く・心の赴く・気の向く), and 思いのままに / 欲望のままに. In casual speech people say 〜とおりに or 〜に任せて.",
+  "formation": [
+    "V受身 + ままに  (言われるままに・命じられるままに)",
+    "Vる + ままに  (足の向くままに・心の赴くままに・気の向くままに)",
+    "N + の + ままに  (思いのままに・欲望のままに)",
+    "Set phrases: 思いのままに (as one wishes)・時の流れるままに"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Who or what is in control?",
+    "columns": [
+      "form",
+      "controller",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "言われるままに",
+        "cells": [
+          "passive verb + ままに",
+          "another person's words",
+          "言われるままに署名した"
+        ]
+      },
+      {
+        "label": "足の向くままに",
+        "cells": [
+          "Vる + ままに",
+          "one's own impulse",
+          "足の向くままに歩いた"
+        ]
+      },
+      {
+        "label": "思いのままに",
+        "cells": [
+          "N + の + ままに",
+          "one's own will (freely)",
+          "思いのままに操る"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は言われるままに、書類に署名した。",
+      "reading": "かれはいわれるままに、しょるいにしょめいした。",
+      "en": "He signed the documents just as he was told.",
+      "note": "Passive 言われる + ままに: he simply did as told."
+    },
+    {
+      "ja": "足の向くままに、知らない町を歩いた。",
+      "reading": "あしのむくままに、しらないまちをあるいた。",
+      "en": "I wandered through the unfamiliar town wherever my feet took me.",
+      "note": "足の向く + ままに: wandering without a plan."
+    },
+    {
+      "ja": "彼は心の赴くままに絵を描いた。",
+      "reading": "かれはこころのおもむくままにえをかいた。",
+      "en": "He painted as his heart moved him.",
+      "note": "心の赴く + ままに: painting as inspiration led."
+    },
+    {
+      "ja": "彼は上司に命じられるままに、不正な書類を作成してしまった。",
+      "reading": "かれはじょうしにめいじられるままに、ふせいなしょるいをさくせいしてしまった。",
+      "en": "Doing just as his boss ordered, he ended up preparing fraudulent documents.",
+      "note": "Passive + ままに with a critical tone."
+    },
+    {
+      "ja": "定年後は、気の向くままに旅をして暮らしたい。",
+      "reading": "ていねんごは、きのむくままにたびをしてくらしたい。",
+      "en": "After retirement, I want to live travelling wherever the mood takes me.",
+      "note": "気の向くままに is a set phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とおりに",
+      "difference": "Everyday \"just as (instructed)\" (言われたとおりに). ままに is literary and adds a sense of passivity or drifting."
+    },
+    {
+      "id": "n2-grammar-120",
+      "pattern": "〜に沿って",
+      "difference": "\"In line with\" a plan or policy, formal and neutral. ままに implies yielding control."
+    },
+    {
+      "id": "n2-grammar-113",
+      "pattern": "〜にしたがって",
+      "difference": "\"In accordance with\" instructions, or \"as X changes\". ままに stresses passivity or free drift more than compliance."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "言うままに署名した。",
+      "right": "言われるままに署名した。",
+      "why": "When another person controls the action, the verb is passive (言われる)."
+    },
+    {
+      "wrong": "足が向くままに",
+      "right": "足の向くままに",
+      "why": "In this set phrase the subject inside the modifier takes の, as is usual in literary style."
+    },
+    {
+      "wrong": "（会話で）先生に言われるままに書いたよ。",
+      "right": "先生に言われたとおりに書いたよ。",
+      "why": "ままに is literary; in casual speech use とおりに."
+    }
+  ],
+  "usageNotes": [
+    "思いのままに means \"freely, at will\" (思いのままに操る); ままに without の after 思い is not used.",
+    "The tone is often passive or drifting; with 命じられる it can criticize someone who did not think for themselves.",
+    "Literary narratives use 時の流れるままに (\"as time flows\") and 波のままに."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a passive verb or a set phrase (足の向く・心の赴く・気の向く) + a blank is ままに.",
+    "Check the verb form: the passive is required when someone else directs the action.",
+    "In 並べ替え, ままに follows the modifier directly; the main action comes after."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-171-1",
+    "q-n1-g-171-2",
+    "q-n1-g-171-3",
+    "q-n1-g-171-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-171-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

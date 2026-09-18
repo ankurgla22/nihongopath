@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-31",
+  "slug": "de-nakute-nan-darou",
+  "level": "n1",
+  "order": 31,
+  "title": "〜でなくてなんだろう(か)",
+  "romaji": "denakutenandarou",
+  "meaning": "if this is not …, what is?; this is nothing but …",
+  "simpleExplanation": "Nでなくてなんだろう(か) is a rhetorical question that asserts strongly that something is exactly N: これが愛でなくてなんだろう \"if this isn't love, what is?\". The speaker is moved or indignant and wants the reader to agree that no other word fits.",
+  "whenUsed": "Literary and emotive: essays, speeches, novels, opinion pieces. The noun is abstract (愛, 奇跡, 運命, 偶然, 差別, 裏切り). Not used in neutral reporting.",
+  "formation": [
+    "Noun + でなくてなんだろう(か)",
+    "Noun + でなくてなんであろう(か) (more literary)",
+    "Na-adjective stem + でなくてなんだろう (身勝手でなくてなんだろう)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "これは愛だ",
+        "en": "this is love (plain assertion)"
+      },
+      {
+        "ja": "これは愛にほかならない",
+        "en": "this is nothing other than love (formal emphasis)"
+      },
+      {
+        "ja": "これが愛でなくてなんだろう",
+        "en": "if this is not love, what is? (rhetorical, emotive)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これが愛でなくてなんだろう。",
+      "reading": "これがあいでなくてなんだろう。",
+      "en": "If this is not love, what is?",
+      "note": "The signature example with 愛."
+    },
+    {
+      "ja": "自分の利益だけを考えるとは、身勝手でなくてなんだろうか。",
+      "reading": "じぶんのりえきだけをかんがえるとは、みがってでなくてなんだろうか。",
+      "en": "Thinking only of your own profit: what is that if not selfishness?",
+      "note": "Indignant use with a na-adjective stem (身勝手)."
+    },
+    {
+      "ja": "困っている人を見捨てるのは、卑怯でなくてなんであろう。",
+      "reading": "こまっているひとをみすてるのは、ひきょうでなくてなんであろう。",
+      "en": "To abandon people in trouble is nothing but cowardice.",
+      "note": "なんであろう: the most literary variant."
+    },
+    {
+      "ja": "生き別れた兄弟が五十年ぶりに再会したのだ。これが奇跡でなくてなんだろう。",
+      "reading": "いきわかれたきょうだいがごじゅうねんぶりにさいかいしたのだ。これがきせきでなくてなんだろう。",
+      "en": "Brothers separated in childhood met again after fifty years. If that is not a miracle, what is?",
+      "note": "The preceding sentence sets up the emotion."
+    },
+    {
+      "ja": "弱い者から金を取り上げるとは、搾取でなくてなんだろうか。",
+      "reading": "よわいものからかねをとりあげるとは、さくしゅでなくてなんだろうか。",
+      "en": "Taking money from the weak: what is that if not exploitation?",
+      "note": "Indignation with とは."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にほかならない",
+      "difference": "Formal \"is nothing other than\"; a calm assertion rather than a rhetorical question.",
+      "id": "n2-grammar-130"
+    },
+    {
+      "pattern": "〜と言っても過言ではない",
+      "difference": "\"It is no exaggeration to say\"; a measured emphasis without emotion.",
+      "id": "n1-grammar-164"
+    },
+    {
+      "pattern": "〜ではあるまいか",
+      "difference": "A softer rhetorical \"is it not…?\", used for tentative opinions.",
+      "id": "n1-grammar-173"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "これが愛でなくて何ですか。",
+      "right": "これが愛でなくてなんだろう。",
+      "why": "The fixed rhetorical ending is なんだろう(か) / なんであろう; a plain question loses the effect."
+    },
+    {
+      "wrong": "これが愛じゃなくてなんだろう。",
+      "right": "これが愛でなくてなんだろう。",
+      "why": "The pattern keeps the formal でなくて; じゃなくて sounds too casual for the literary tone."
+    },
+    {
+      "wrong": "この机が机でなくてなんだろう。",
+      "right": "これが真の友情でなくてなんだろう。",
+      "why": "The noun must be abstract and emotionally weighty; concrete objects sound absurd."
+    }
+  ],
+  "usageNotes": [
+    "The sentence before it usually describes the striking fact.",
+    "The subject is often これ / それ / これこそ: これこそ運命でなくてなんだろう.",
+    "Ending with か adds a slightly more formal, questioning tone."
+  ],
+  "jlptTips": [
+    "A striking fact followed by これが + abstract noun + blank → でなくてなんだろう.",
+    "Distractors include にほかならない (grammatical but not a question) and ではあるまいか (tentative); if the sentence ends in だろう with a rhetorical feel and でなくて is present, the answer is なんだろう.",
+    "Check the noun before でなくて: it must be a noun or na-adjective stem, never a verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-31-1",
+    "q-n1-g-31-2",
+    "q-n1-g-31-3",
+    "q-n1-g-31-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-31-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

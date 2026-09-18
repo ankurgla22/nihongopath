@@ -1,0 +1,128 @@
+{
+  "id": "n1-grammar-57",
+  "slug": "nari-ni-nari-no",
+  "level": "n1",
+  "order": 57,
+  "title": "〜なりに / 〜なりの",
+  "romaji": "narini-narino",
+  "meaning": "in one's own way; as befits …; to the extent of …",
+  "simpleExplanation": "Xなりに / なりの means \"in a way that fits X's level or position\": 子供なりに考えている \"children think in their own (child-level) way\". It acknowledges limits while recognising the effort or logic appropriate to that level. 私なりに is a modest way to say \"in my own way\".",
+  "whenUsed": "Both registers; common in modest self-evaluation, in understanding others' efforts, and in the fixed それなりに / それなりの (\"reasonably, to a fair extent\").",
+  "formation": [
+    "Noun + なりに + verb",
+    "Noun + なりの + noun",
+    "それなりに / それなりの (\"reasonable, appropriate to the situation\")",
+    "Plain form + なりに (忙しいなりに工夫する)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "子供は",
+        "role": "topic"
+      },
+      {
+        "text": "子供",
+        "role": "the level or position",
+        "highlight": true
+      },
+      {
+        "text": "なりに",
+        "role": "\"in a way fitting that level\"",
+        "highlight": true
+      },
+      {
+        "text": "いろいろ考えている",
+        "role": "effort appropriate to the level"
+      }
+    ],
+    "translation": "Children think about all sorts of things in their own way."
+  },
+  "examples": [
+    {
+      "ja": "子供は子供なりに、いろいろ考えているものだ。",
+      "reading": "こどもはこどもなりに、いろいろかんがえているものだ。",
+      "en": "Children think about all sorts of things in their own way.",
+      "note": "Children think at their own level."
+    },
+    {
+      "ja": "私なりに精一杯やったつもりです。",
+      "reading": "わたしなりにせいいっぱいやったつもりです。",
+      "en": "I believe I did my best in my own way.",
+      "note": "私なりに: modest self-evaluation."
+    },
+    {
+      "ja": "彼には彼なりの考えがあるのだろう。",
+      "reading": "かれにはかれなりのかんがえがあるのだろう。",
+      "en": "He presumably has his own way of thinking.",
+      "note": "彼なりの + noun: his own way of thinking."
+    },
+    {
+      "ja": "彼は忙しいなりに、家族との時間を作ろうとしている。",
+      "reading": "かれはいそがしいなりに、かぞくとのじかんをつくろうとしている。",
+      "en": "Busy as he is, he tries to make time for his family within those limits.",
+      "note": "Adjective + なりに: effort within limits."
+    },
+    {
+      "ja": "安い店には安いなりの理由がある。",
+      "reading": "やすいみせにはやすいなりのりゆうがある。",
+      "en": "A cheap shop has reasons for being cheap.",
+      "note": "Adjective + なりの + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に恥じない",
+      "difference": "\"Worthy of one's name\" (名に恥じない): meeting a standard, not effort within limits.",
+      "id": "n1-grammar-152"
+    },
+    {
+      "pattern": "〜っぽい / 〜らしい",
+      "difference": "\"Like a typical X\": 子供らしく; describes typicality, not effort within limits.",
+      "id": "n2-grammar-187"
+    },
+    {
+      "pattern": "〜なり〜なり",
+      "difference": "Different pattern: listing options.",
+      "id": "n1-grammar-56"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私なりの頑張りました。",
+      "right": "私なりに頑張りました。",
+      "why": "Before a verb use なりに; なりの modifies a noun."
+    },
+    {
+      "wrong": "先生なりに教えていただき、ありがとうございます。",
+      "right": "先生に丁寧に教えていただき、ありがとうございます。",
+      "why": "なりに implies limits; applying it to a superior sounds condescending."
+    },
+    {
+      "wrong": "それなりに満点だった。",
+      "right": "それなりにできた。",
+      "why": "それなりに means \"reasonably, to a fair extent\", so it clashes with a perfect result."
+    }
+  ],
+  "usageNotes": [
+    "それなりに = \"reasonably well\"; それなりの = \"appropriate, decent\": それなりの値段.",
+    "私なりに is a humble hedge before stating an opinion or effort.",
+    "Works with adjectives too: 狭いなりに工夫する."
+  ],
+  "jlptTips": [
+    "Noun + blank + verb of thinking or trying → なりに; noun + blank + noun → なりの.",
+    "The self-effacing 私なりに is a signature; do not confuse with なりとも (\"at least\").",
+    "それなりに is a common vocabulary-style item meaning \"reasonably\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-57-1",
+    "q-n1-g-57-2",
+    "q-n1-g-57-3",
+    "q-n1-g-57-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-57-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

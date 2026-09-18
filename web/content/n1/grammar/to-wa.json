@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-150",
+  "slug": "to-wa",
+  "level": "n1",
+  "order": 150,
+  "title": "〜とは",
+  "romaji": "to wa",
+  "meaning": "to think that …! (surprise); … is / means … (definition)",
+  "simpleExplanation": "〜とは has two very different jobs. (1) Surprise: a clause + とは at the end (or before 思わなかった・驚きだ) means \"To think that …!\" — the speaker did not expect it. (2) Definition: a noun + とは introduces what the word means (幸福とは、〜である). Context tells you which.",
+  "whenUsed": "Surprise とは: spoken and written, often sentence-final with the rest left unsaid; frequent with まさか / こんなに / あんな. Definition とは: written, in dictionaries, essays, and lectures; also in the spoken question 〜とは何ですか / 〜とは？",
+  "formation": [
+    "普通形 + とは (sentence-final: surprise, shock)",
+    "普通形 + とは + 思わなかった / 驚きだ / 夢にも思わなかった",
+    "N + とは、+ definition + である / だ / のことだ",
+    "N + とは何か / N + とは？ (asking for a definition)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of とは",
+    "columns": [
+      "use",
+      "form",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "surprise",
+        "cells": [
+          "clause + とは (often sentence-final)",
+          "彼が犯人だったとは。",
+          "To think he was the culprit!"
+        ]
+      },
+      {
+        "label": "definition",
+        "cells": [
+          "N + とは、… である",
+          "幸福とは、小さな喜びの積み重ねである。",
+          "Happiness is the accumulation of small joys."
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼が犯人だったとは。",
+      "reading": "かれがはんにんだったとは。",
+      "en": "To think that he was the culprit!",
+      "note": "Sentence-final とは leaves the shock hanging: \"…he, of all people!\""
+    },
+    {
+      "ja": "まさかこんなに早く再会できるとは思わなかった。",
+      "reading": "まさかこんなにはやくさいかいできるとはおもわなかった。",
+      "en": "I never thought we would meet again so soon.",
+      "note": "まさか〜とは思わなかった: the most common surprise frame."
+    },
+    {
+      "ja": "幸福とは、日常の小さな喜びの積み重ねである。",
+      "reading": "こうふくとは、にちじょうのちいさなよろこびのつみかさねである。",
+      "en": "Happiness is the accumulation of small everyday joys.",
+      "note": "N + とは、〜である: essay-style definition."
+    },
+    {
+      "ja": "あんなに練習したのに一回戦で負けるとは、悔しくてたまらない。",
+      "reading": "あんなにれんしゅうしたのにいっかいせんでまけるとは、くやしくてたまらない。",
+      "en": "To lose in the first round after all that practice is unbearably frustrating.",
+      "note": "Surprise とは followed by an emotion."
+    },
+    {
+      "ja": "「持続可能性」とは、将来の世代の資源を損なわずに発展することを指す。",
+      "reading": "「じぞくかのうせい」とは、しょうらいのせだいのしげんをそこなわずにはってんすることをさす。",
+      "en": "\"Sustainability\" means developing without harming the resources of future generations.",
+      "note": "Definition とは with 〜を指す."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-97",
+      "pattern": "〜など / 〜なんて",
+      "difference": "なんて also expresses surprise or disdain, more casual. とは is more formal and can end the sentence alone."
+    },
+    {
+      "id": "n2-grammar-81",
+      "pattern": "〜ということだ",
+      "difference": "Explains meaning (\"it means that\") at the end of a sentence. Definition とは introduces the term at the start."
+    },
+    {
+      "id": "n1-grammar-31",
+      "pattern": "〜でなくてなんだろう",
+      "difference": "Emphatic \"what is this if not X\"; a rhetorical assertion, not surprise or a neutral definition."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が来たとは、うれしい。(neutral news)",
+      "right": "彼が来るとは、思ってもみなかった。",
+      "why": "Surprise とは needs something unexpected. For neutral good news use 彼が来てうれしい."
+    },
+    {
+      "wrong": "幸福は、日常の小さな喜びの積み重ねであるとは。",
+      "right": "幸福とは、日常の小さな喜びの積み重ねである。",
+      "why": "Definition とは comes right after the term being defined, at the start."
+    },
+    {
+      "wrong": "まさか合格するとは思った。",
+      "right": "まさか合格するとは思わなかった。",
+      "why": "まさか〜とは pairs with a negative (思わなかった); \"I never thought that …\"."
+    }
+  ],
+  "usageNotes": [
+    "Surprise とは is often intensified: 〜とは驚きだ / 〜とは夢にも思わなかった / 〜とは情けない.",
+    "Definition とは in speech: 〜とは何ですか？ or simply 〜とは？ (raising intonation).",
+    "In 論説文, N とは、〜のことである is the standard way to define a term before discussing it."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an unexpected clause + a blank + 思わなかった / 驚きだ is surprise とは; a noun + a blank + a definition ending in である / のことだ is definition とは.",
+    "Sentence-final とは in dialogue is always surprise or indignation; distractors like ことは or わけは do not work sentence-finally.",
+    "In 並べ替え, place とは immediately after the surprising clause and before 思わなかった."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-150-1",
+    "q-n1-g-150-2",
+    "q-n1-g-150-3",
+    "q-n1-g-150-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-150-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

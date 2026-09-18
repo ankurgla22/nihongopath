@@ -1,0 +1,145 @@
+{
+  "id": "n1-grammar-41",
+  "slug": "to-kitara",
+  "level": "n1",
+  "order": 41,
+  "title": "〜ときたら",
+  "romaji": "tokitara",
+  "meaning": "when it comes to … (complaint)",
+  "simpleExplanation": "Nときたら raises N as a topic and then complains about it: うちの息子ときたら、昼まで寝ている. N is usually someone or something close to the speaker (family, coworkers, one's own things, a familiar service), and the second clause expresses dissatisfaction or exasperation.",
+  "whenUsed": "話し言葉: casual complaints among friends and family. Avoid in formal writing, where 〜については or 〜に関しては is used.",
+  "formation": [
+    "Noun + ときたら + complaint",
+    "Often with 最近の / うちの / あの + Noun"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Topic markers with attitude",
+    "columns": [
+      "attitude",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜ときたら",
+        "cells": [
+          "complaint about someone familiar",
+          "casual speech",
+          "うちの夫ときたら"
+        ]
+      },
+      {
+        "label": "〜ときては / ときている",
+        "cells": [
+          "adds up circumstances, then judges",
+          "casual",
+          "安いうえに美味しいときては"
+        ]
+      },
+      {
+        "label": "〜といえば",
+        "cells": [
+          "recalls a topic, neutral",
+          "any",
+          "夫といえば、今日は出張だ"
+        ]
+      },
+      {
+        "label": "〜については",
+        "cells": [
+          "neutral, formal",
+          "written",
+          "この件については"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "うちの息子ときたら、休みの日は昼まで寝ている。",
+      "reading": "うちのむすこときたら、やすみのひはひるまでねている。",
+      "en": "As for my son, he sleeps until noon on his days off.",
+      "note": "Family complaint: my son sleeps until noon."
+    },
+    {
+      "ja": "最近の電車ときたら、遅れてばかりだ。",
+      "reading": "さいきんのでんしゃときたら、おくれてばかりだ。",
+      "en": "The trains these days are constantly late.",
+      "note": "Complaint about a service: trains always late."
+    },
+    {
+      "ja": "あの店の店員ときたら、客に挨拶もしない。",
+      "reading": "あのみせのてんいんときたら、きゃくにあいさつもしない。",
+      "en": "The staff at that shop do not even greet customers.",
+      "note": "Complaint about shop staff."
+    },
+    {
+      "ja": "うちの犬ときたら、散歩の時間になると私を引っ張り回す。",
+      "reading": "うちのいぬときたら、さんぽのじかんになるとわたしをひっぱりまわす。",
+      "en": "That dog of mine drags me around whenever it's walk time.",
+      "note": "Affectionate exasperation."
+    },
+    {
+      "ja": "この古いパソコンときたら、起動するだけで五分もかかる。",
+      "reading": "このふるいパソコンときたら、きどうするだけでごふんもかかる。",
+      "en": "This old computer takes a full five minutes just to start up.",
+      "note": "Complaint about one's own thing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ときては / 〜ときている",
+      "difference": "Accumulates facts as grounds for a judgment (\"what with X and Y\"); not a pure complaint topic.",
+      "id": "n1-grammar-42"
+    },
+    {
+      "pattern": "〜といえば / 〜といったら",
+      "difference": "Neutral topic recall; といったら can also exclaim.",
+      "id": "n2-grammar-82"
+    },
+    {
+      "pattern": "〜とは",
+      "difference": "Emphatic topic of surprise (彼が辞めるとは); no complaint tone.",
+      "id": "n1-grammar-150"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この法律ときたら、来年改正される。",
+      "right": "この法律については、来年改正される。",
+      "why": "ときたら needs a complaint; a neutral fact takes については."
+    },
+    {
+      "wrong": "社長ときたら、素晴らしい方だ。",
+      "right": "社長ときたら、部下の名前も覚えていない。",
+      "why": "The second clause must be negative or exasperated."
+    },
+    {
+      "wrong": "ときたら最近の若者、挨拶もしない。",
+      "right": "最近の若者ときたら、挨拶もしない。",
+      "why": "ときたら follows the topic noun."
+    }
+  ],
+  "usageNotes": [
+    "Frequent subjects: うちの夫 / 息子, 最近の若者, あの店, この機械, 天気.",
+    "The complaint often includes ばかり, も〜ない, 〜てばかり.",
+    "Sounds like venting to a friend."
+  ],
+  "jlptTips": [
+    "Familiar noun + blank + a complaint → ときたら.",
+    "ときては / ときている is the distractor that accumulates reasons (〜うえに〜ときては) rather than opening a complaint.",
+    "If the sentence is neutral or formal, ときたら is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-41-1",
+    "q-n1-g-41-2",
+    "q-n1-g-41-3",
+    "q-n1-g-41-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-41-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

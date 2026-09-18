@@ -1,0 +1,124 @@
+{
+  "id": "n1-grammar-113",
+  "slug": "ni-shita-tokoro-de",
+  "level": "n1",
+  "order": 113,
+  "title": "〜にしたところで / 〜としたところで",
+  "romaji": "ni shita tokoro de / to shita tokoro de",
+  "meaning": "even (from the standpoint of) …; even if …",
+  "simpleExplanation": "〜にしたところで takes a person or a case as an example and says \"even from their standpoint, the (negative) conclusion is the same\": 私にしたところで、いい案があるわけではない (even I have no good idea). 〜としたところで works with clauses: 今出発したとしたところで間に合わない (even if we left now, we would not make it).",
+  "whenUsed": "Both speech and writing, somewhat formal. The second half is negative or pessimistic. The subject is often the speaker (私にしたところで) or an authority (専門家にしたところで) to show that nobody is exempt.",
+  "formation": [
+    "N + にしたところで + negative",
+    "N + としたところで + negative",
+    "普通形 + としたところで + negative",
+    "Related: 〜にしたって / 〜としたって (colloquial)"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "専門家",
+        "role": "an example that should be capable",
+        "highlight": true
+      },
+      {
+        "text": "にしたところで",
+        "role": "even from their standpoint",
+        "highlight": true
+      },
+      {
+        "text": "この問題を簡単には解決できないだろう",
+        "role": "negative conclusion"
+      }
+    ],
+    "translation": "Even experts could not easily solve this problem."
+  },
+  "examples": [
+    {
+      "ja": "私にしたところで、いい案があるわけではない。",
+      "reading": "わたしにしたところで、いいあんがあるわけではない。",
+      "en": "Even I, for my part, do not have a good idea.",
+      "note": "The speaker as the example: even I have no good idea."
+    },
+    {
+      "ja": "専門家にしたところで、この問題を簡単には解決できないだろう。",
+      "reading": "せんもんかにしたところで、このもんだいをかんたんにはかいけつできないだろう。",
+      "en": "Even experts could not easily solve this problem.",
+      "note": "An authority as the example: even experts cannot."
+    },
+    {
+      "ja": "今から出発したとしたところで、開演には間に合わない。",
+      "reading": "いまからしゅっぱつしたとしたところで、かいえんにはまにあわない。",
+      "en": "Even if we left now, we would not make it for the start of the show.",
+      "note": "Clause + としたところで: even if we left now."
+    },
+    {
+      "ja": "彼にしたところで、本当は反対したかったのだろう。",
+      "reading": "かれにしたところで、ほんとうははんたいしたかったのだろう。",
+      "en": "Even he, for his part, probably wanted to object.",
+      "note": "Sympathy for someone's position."
+    },
+    {
+      "ja": "値上げをしたとしたところで、赤字は解消できない。",
+      "reading": "ねあげをしたとしたところで、あかじはかいしょうできない。",
+      "en": "Even if we raised prices, the deficit could not be eliminated.",
+      "note": "Clause + としたところで."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たところで",
+      "difference": "\"Even if one did X, useless\": the action version; にしたところで applies to a person or case.",
+      "id": "n1-grammar-24"
+    },
+    {
+      "pattern": "〜にしても",
+      "difference": "\"Even for / even if\": the everyday equivalent with a wider range.",
+      "id": "n2-grammar-116"
+    },
+    {
+      "pattern": "〜をもってしても",
+      "difference": "\"Even with (an ability)\": the example is a resource, not a standpoint.",
+      "id": "n1-grammar-95"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私にしたところで、いい案がある。",
+      "right": "私にしたところで、いい案があるわけではない。",
+      "why": "The conclusion must be negative."
+    },
+    {
+      "wrong": "急いだにしたところで",
+      "right": "急いだとしたところで",
+      "why": "Clauses take としたところで; にしたところで is for nouns."
+    },
+    {
+      "wrong": "専門家にしたところで、解決できる。",
+      "right": "専門家にしたところで、解決できない。",
+      "why": "Same rule: negative conclusion."
+    }
+  ],
+  "usageNotes": [
+    "The nuance is \"and it is not just others: even X\", closing off exceptions.",
+    "〜にしたって is the casual spoken form.",
+    "The pattern often pairs with わけではない, だろう, or はずがない in the second half."
+  ],
+  "jlptTips": [
+    "A person / role + blank + negative conclusion → にしたところで.",
+    "Distractors: にしては, に至っては, をもってしても. Check that the second half is negative and the noun is a standpoint.",
+    "A clause before the blank calls for としたところで, not にしたところで."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-113-1",
+    "q-n1-g-113-2",
+    "q-n1-g-113-3",
+    "q-n1-g-113-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-113-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

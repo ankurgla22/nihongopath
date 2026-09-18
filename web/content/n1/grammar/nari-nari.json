@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-56",
+  "slug": "nari-nari",
+  "level": "n1",
+  "order": 56,
+  "title": "〜なり〜なり",
+  "romaji": "narinari",
+  "meaning": "either … or … (for example); … or something",
+  "simpleExplanation": "XなりYなり offers two examples of possible options and suggests choosing one of them (or something similar): 先生に聞くなり辞書で調べるなりしなさい. It is used for advice, suggestions and requests, not for reporting past facts.",
+  "whenUsed": "話し言葉寄り, also in written instructions. The sentence usually ends with a command, suggestion or necessity (〜なさい, 〜たらどうか, 〜てください).",
+  "formation": [
+    "Noun + なり + Noun + なり + (で) + verb",
+    "Vる + なり + Vる + なり + する / しなさい",
+    "Set phrase: 大なり小なり (\"more or less\")"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Listing options",
+    "columns": [
+      "nuance",
+      "use",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜なり〜なり",
+        "cells": [
+          "examples, choose one",
+          "advice / requests",
+          "電話なりメールなりで連絡して"
+        ]
+      },
+      {
+        "label": "〜とか〜とか",
+        "cells": [
+          "examples, casual",
+          "any",
+          "電話とかメールとかで"
+        ]
+      },
+      {
+        "label": "〜か〜か",
+        "cells": [
+          "exclusive choice",
+          "any",
+          "電話かメールで"
+        ]
+      },
+      {
+        "label": "〜であれ〜であれ",
+        "cells": [
+          "whether X or Y, same result",
+          "formal concession",
+          "電話であれメールであれ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "わからないことがあれば、先生に聞くなり辞書で調べるなりしなさい。",
+      "reading": "わからないことがあれば、せんせいにきくなりじしょでしらべるなりしなさい。",
+      "en": "If there is something you do not understand, ask the teacher or look it up in a dictionary.",
+      "note": "Two verb options with しなさい."
+    },
+    {
+      "ja": "電話なりメールなりで、必ず連絡してください。",
+      "reading": "でんわなりメールなりで、かならずれんらくしてください。",
+      "en": "Please be sure to contact me by phone or email or some such.",
+      "note": "Two noun options with で + request."
+    },
+    {
+      "ja": "疲れたら、休むなり散歩するなり、気分転換をするといい。",
+      "reading": "つかれたら、やすむなりさんぽするなり、きぶんてんかんをするといい。",
+      "en": "If you get tired, take a break or go for a walk to refresh yourself.",
+      "note": "Two verb options as refreshment suggestions."
+    },
+    {
+      "ja": "困ったときは、私になり上司になり、遠慮なく相談してください。",
+      "reading": "こまったときは、わたしになりじょうしになり、えんりょなくそうだんしてください。",
+      "en": "When in trouble, please feel free to consult me or your supervisor.",
+      "note": "Particle に + なり."
+    },
+    {
+      "ja": "人は誰でも大なり小なり悩みを抱えているものだ。",
+      "reading": "ひとはだれでもだいなりしょうなりなやみをかかえているものだ。",
+      "en": "Everyone has worries, big or small.",
+      "note": "大なり小なり is a set phrase."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とか〜とか",
+      "difference": "Casual listing of examples without the \"choose one\" advice tone.",
+      "id": "n2-grammar-198"
+    },
+    {
+      "pattern": "〜であれ〜であれ",
+      "difference": "Concession: whichever it is, the result is the same.",
+      "id": "n1-grammar-29"
+    },
+    {
+      "pattern": "〜なり",
+      "difference": "Single なり after a dictionary form means \"as soon as\".",
+      "id": "n1-grammar-55"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨日は電話なりメールなりで連絡した。",
+      "right": "昨日は電話かメールで連絡した。",
+      "why": "なり〜なり is for suggestions, not for reporting a past fact."
+    },
+    {
+      "wrong": "聞いたなり調べたなりしなさい。",
+      "right": "聞くなり調べるなりしなさい。",
+      "why": "Verbs before なり are in the dictionary form."
+    },
+    {
+      "wrong": "電話なりで連絡して。",
+      "right": "電話なりメールなりで連絡して。",
+      "why": "The pattern normally lists two options (or a question word: 何なりと)."
+    }
+  ],
+  "usageNotes": [
+    "Options are examples; the listener may pick something else too.",
+    "Particles precede なり: 私になり, 車でなり.",
+    "Typical endings: しなさい, したらどうですか, してください, するといい."
+  ],
+  "jlptTips": [
+    "Two parallel options with a suggestion ending → なり〜なり.",
+    "If the sentence reports a past action, なり〜なり is wrong (use か or とか).",
+    "Distractor であれ〜であれ is followed by \"the same applies\", not by advice."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-56-1",
+    "q-n1-g-56-2",
+    "q-n1-g-56-3",
+    "q-n1-g-56-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-56-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

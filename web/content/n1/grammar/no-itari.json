@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-72",
+  "slug": "no-itari",
+  "level": "n1",
+  "order": 72,
+  "title": "〜の至り",
+  "romaji": "no itari",
+  "meaning": "the height of … (a feeling); utterly …",
+  "simpleExplanation": "〜の至り means \"the very peak of a feeling\". It is used in a handful of fixed phrases: 光栄の至り (the greatest honour), 感激の至り (deeply moved), 赤面の至り (utterly embarrassed), 若気の至り (the folly of youth). The speaker describes their own feeling at its maximum, in a formal, humble tone.",
+  "whenUsed": "Formal speeches, acceptance remarks, letters and apologies. Almost always about the speaker's own emotion. Because the list of nouns is tiny, learn the phrases as vocabulary. Not used in casual speech; friends would say 本当にうれしい or 恥ずかしい.",
+  "formation": [
+    "N + の至り (光栄・感激・赤面・恐縮・若気)",
+    "Sentence end: 〜の至りです / 〜の至りだ",
+    "Adverbial: 若気の至りで + verb"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "の至り vs の極み",
+    "columns": [
+      "Typical nouns",
+      "Whose feeling",
+      "Register"
+    ],
+    "rows": [
+      {
+        "label": "〜の至り",
+        "cells": [
+          "光栄・感激・赤面・若気",
+          "the speaker's own",
+          "speeches, letters"
+        ]
+      },
+      {
+        "label": "〜の極み",
+        "cells": [
+          "贅沢・疲労・痛恨・感激",
+          "anyone's; also things",
+          "editorials, essays"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "このような賞をいただき、光栄の至りです。",
+      "reading": "このようなしょうをいただき、こうえいのいたりです。",
+      "en": "Receiving such an award is the greatest honor.",
+      "note": "光栄の至り is the classic acceptance-speech phrase."
+    },
+    {
+      "ja": "若気の至りで、無茶なことをしたものだ。",
+      "reading": "わかげのいたりで、むちゃなことをしたものだ。",
+      "en": "In the folly of youth, I did some reckless things.",
+      "note": "若気の至り = youthful indiscretion; the one phrase that describes an action, not a feeling."
+    },
+    {
+      "ja": "あんな失敗をお見せして、赤面の至りです。",
+      "reading": "あんなしっぱいをおみせして、せきめんのいたりです。",
+      "en": "I am utterly embarrassed to have shown you such a failure.",
+      "note": "赤面の至り: embarrassed to the point of blushing."
+    },
+    {
+      "ja": "こんな立派な席にお招きいただき、恐縮の至りです。",
+      "reading": "こんなりっぱなせきにおまねきいただき、きょうしゅくのいたりです。",
+      "en": "I am deeply humbled to be invited to such a distinguished occasion.",
+      "note": "恐縮の至り is a humble reply to hospitality."
+    },
+    {
+      "ja": "皆様から温かいお言葉をいただき、感激の至りに存じます。",
+      "reading": "みなさまからあたたかいおことばをいただき、かんげきのいたりにぞんじます。",
+      "en": "Receiving such warm words from you all, I am deeply moved.",
+      "note": "〜の至りに存じます is the most formal ending."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の極み",
+      "difference": "The peak of a state, including things (贅沢の極み); の至り is the peak of the speaker's own feeling.",
+      "id": "n1-grammar-73"
+    },
+    {
+      "pattern": "〜極まる / 〜極まりない",
+      "difference": "\"Extremely\" with na-adjectives (失礼極まりない). Not a noun phrase, and usually negative in tone.",
+      "id": "n1-grammar-13"
+    },
+    {
+      "pattern": "〜にたえない",
+      "difference": "Emotion noun + にたえない (感謝にたえない) is the other ceremonial way to express deep feeling.",
+      "id": "n1-grammar-66"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は光栄の至りだと言った。（第三者の感想を客観的に）",
+      "right": "彼は大変光栄だと言った。",
+      "why": "の至り is the speaker's own humble feeling; reporting a third party's feeling with it sounds unnatural."
+    },
+    {
+      "wrong": "うれしいの至りです。",
+      "right": "感激の至りです。",
+      "why": "Only certain nouns are used; adjectives cannot attach."
+    },
+    {
+      "wrong": "贅沢の至りだ。",
+      "right": "贅沢の極みだ。",
+      "why": "贅沢 goes with の極み. の至り nouns are 光栄・感激・赤面・恐縮・若気."
+    }
+  ],
+  "usageNotes": [
+    "Learn the set as vocabulary: 光栄の至り, 感激の至り, 赤面の至り, 恐縮の至り, 若気の至り.",
+    "若気の至り is used when confessing past mistakes with a wry smile.",
+    "The most formal sentence ending is 〜の至りに存じます."
+  ],
+  "jlptTips": [
+    "The answer is almost always 光栄 or 感激 + の至り in a speech context (いただき、〜の至りです).",
+    "The main distractor is の極み; if the noun is 贅沢・疲労・痛恨, choose の極み, if it is 光栄・赤面・若気, choose の至り.",
+    "Watch for the humble register: お招きいただき, 賞をいただき are typical lead-ins."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-72-1",
+    "q-n1-g-72-2",
+    "q-n1-g-72-3",
+    "q-n1-g-72-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-72-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

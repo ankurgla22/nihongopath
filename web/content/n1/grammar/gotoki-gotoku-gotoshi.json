@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-14",
+  "slug": "gotoki-gotoku-gotoshi",
+  "level": "n1",
+  "order": 14,
+  "title": "〜ごとき / 〜ごとく / 〜ごとし",
+  "romaji": "gotoki-gotoku-gotoshi",
+  "meaning": "like …; as if …; such as (classical よう)",
+  "simpleExplanation": "ごとし is the classical equivalent of ようだ. ごとく works like ように (adverb: \"like X, do…\"), ごとき like ような (modifier: \"an X-like N\"), and ごとし ends a sentence (\"is like X\"). Nごとき used of a person belittles them: 私ごとき is humble (\"a mere me\"), あいつごとき is contemptuous.",
+  "whenUsed": "Literary writing, proverbs, speeches, and set phrases (光陰矢のごとし). In conversation ようだ / みたいだ replace it, except for the humble 私ごとき.",
+  "formation": [
+    "Noun + の + ごとく + verb / adjective (氷のごとく冷たい)",
+    "Noun + の + ごとき + noun (嵐のごとき拍手)",
+    "Noun + の + ごとし (sentence end)",
+    "Vる / Vた + (が/かの) + ごとく; Noun + ごとき (belittling a person)"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "ごとし",
+    "rootLabel": "classical \"like\" (= ようだ)",
+    "branches": [
+      {
+        "suffix": "ごとく + V",
+        "result": "矢のごとく飛ぶ",
+        "label": "adverbial: like an arrow (= ように)"
+      },
+      {
+        "suffix": "ごとき + N",
+        "result": "嵐のごとき拍手",
+        "label": "modifier: storm-like (= ような)"
+      },
+      {
+        "suffix": "ごとし (end)",
+        "result": "光陰矢のごとし",
+        "label": "sentence end (= ようだ)"
+      },
+      {
+        "suffix": "person + ごとき",
+        "result": "私ごとき",
+        "label": "a mere … (humble / contemptuous)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "光陰矢のごとし。",
+      "reading": "こういんやのごとし。",
+      "en": "Time flies like an arrow.",
+      "note": "A proverb: sentence-final ごとし."
+    },
+    {
+      "ja": "彼女は氷のごとく冷たい目で私を見た。",
+      "reading": "かのじょはこおりのごとくつめたいめでわたしをみた。",
+      "en": "She looked at me with eyes as cold as ice.",
+      "note": "ごとく as an adverb modifying 冷たい."
+    },
+    {
+      "ja": "私ごとき新人が意見を言うのは、おこがましいでしょうか。",
+      "reading": "わたしごときしんじんがいけんをいうのは、おこがましいでしょうか。",
+      "en": "Would it be presumptuous for a mere newcomer like me to offer an opinion?",
+      "note": "私ごとき: humbling oneself (\"a mere newcomer like me\")."
+    },
+    {
+      "ja": "彼は水を得た魚のごとく、生き生きと働き始めた。",
+      "reading": "かれはみずをえたさかなのごとく、いきいきとはたらきはじめた。",
+      "en": "Like a fish given water, he began working with new life.",
+      "note": "Idiom + ごとく; adverbial use."
+    },
+    {
+      "ja": "あいつごときに負けるはずがない。",
+      "reading": "あいつごときにまけるはずがない。",
+      "en": "There is no way I would lose to the likes of him.",
+      "note": "Contemptuous use with a third person."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かのごとく / かのごとき",
+      "difference": "Adds か: \"as if (contrary to fact)\", used after clauses: 何事もなかったかのごとく.",
+      "id": "n1-grammar-15"
+    },
+    {
+      "pattern": "〜ようだ / ような / ように",
+      "difference": "The modern neutral equivalents; usable everywhere.",
+      "id": "n2-grammar-26"
+    },
+    {
+      "pattern": "〜さながら",
+      "difference": "\"Just like (the real thing)\": 本物さながらの迫力. A vivid resemblance, not classical grammar.",
+      "id": "n1-grammar-107"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "氷ごとく冷たい目",
+      "right": "氷のごとく冷たい目",
+      "why": "A noun normally takes の before ごとく / ごとき (except the person-belittling use)."
+    },
+    {
+      "wrong": "彼は嵐のごとし拍手を浴びた。",
+      "right": "彼は嵐のごとき拍手を浴びた。",
+      "why": "Before a noun the form is ごとき; ごとし only ends a sentence."
+    },
+    {
+      "wrong": "先生ごときが言うことは正しい。",
+      "right": "先生のおっしゃることは正しい。",
+      "why": "Nごとき belittles the person; never use it of someone you respect."
+    }
+  ],
+  "usageNotes": [
+    "ごとく = ように, ごとき = ような, ごとし = ようだ: match the endings.",
+    "Set phrases: 光陰矢のごとし, 上記のごとく, 例のごとく, 周知のごとく.",
+    "Nごとき with a person is humble for 私 and insulting for others."
+  ],
+  "jlptTips": [
+    "Decide by what follows: verb → ごとく, noun → ごとき, sentence end → ごとし.",
+    "If the sentence humbles the speaker (私ごとき) or belittles someone (あいつごとき), the answer is ごとき with no の.",
+    "Distractors are ように / ような (correct meaning, wrong register) and かのごとく (needs a clause, not a noun)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-14-1",
+    "q-n1-g-14-2",
+    "q-n1-g-14-3",
+    "q-n1-g-14-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-14-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

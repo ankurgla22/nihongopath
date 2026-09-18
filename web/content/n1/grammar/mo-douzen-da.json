@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-165",
+  "slug": "mo-douzen-da",
+  "level": "n1",
+  "order": 165,
+  "title": "〜も同然だ",
+  "romaji": "mo douzen da",
+  "meaning": "as good as …; practically …; virtually the same as …",
+  "simpleExplanation": "〜も同然だ says that something is practically the same as X, even if not literally. 勝ったも同然だ = \"as good as won\"; 家族も同然 = \"practically family\"; ただも同然 = \"practically free\". 同然 (どうぜん) means \"the same as\". It is used for emphasis.",
+  "whenUsed": "Spoken and written, neutral to slightly emphatic. Attaches to nouns (家族・ただ・新品・死んだ), past verbs (勝った・終わった・決まった), and negatives (ない・知らない). 〜も同然の + N is the attributive form.",
+  "formation": [
+    "N + も同然だ  (家族も同然だ・ただも同然だ)",
+    "Vた + も同然だ  (勝ったも同然だ・終わったも同然だ)",
+    "Vない + も同然だ  (ないも同然だ・知らないも同然だ)",
+    "〜も同然の + N  (新品も同然の車)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "How close to X? (勝ったも同然)",
+    "items": [
+      {
+        "label": "まだ勝っていない",
+        "description": "not literally won yet"
+      },
+      {
+        "label": "勝ったも同然だ",
+        "description": "but practically won"
+      },
+      {
+        "label": "勝った",
+        "description": "literally won"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "試合はもう勝ったも同然だ。",
+      "reading": "しあいはもうかったもどうぜんだ。",
+      "en": "The match is as good as won.",
+      "note": "Not literally over, but practically won."
+    },
+    {
+      "ja": "彼は家族も同然の親友だ。",
+      "reading": "かれはかぞくもどうぜんのしんゆうだ。",
+      "en": "He is a close friend who is practically family.",
+      "note": "Noun use: a friend who is practically family."
+    },
+    {
+      "ja": "ここまで来たら、ただも同然の値段だ。",
+      "reading": "ここまできたら、ただもどうぜんのねだんだ。",
+      "en": "At this point the price is practically free.",
+      "note": "ただ (free) + も同然: practically free."
+    },
+    {
+      "ja": "この中古車は走行距離が少なく、新品も同然だ。",
+      "reading": "このちゅうこしゃはそうこうきょりがすくなく、しんぴんもどうぜんだ。",
+      "en": "This used car has very low mileage; it is as good as new.",
+      "note": "Noun + も同然."
+    },
+    {
+      "ja": "名前だけの参加では、来なかったも同然だ。",
+      "reading": "なまえだけのさんかでは、こなかったもどうぜんだ。",
+      "en": "Taking part in name only is as good as not having come.",
+      "note": "Negative past + も同然."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-26",
+      "pattern": "〜かのようだ",
+      "difference": "\"As if\", a figurative comparison that is not true. も同然 says it is effectively true."
+    },
+    {
+      "id": "n1-grammar-101",
+      "pattern": "〜んばかり(だ)",
+      "difference": "\"Almost about to\", describing an appearance or state on the verge (泣かんばかり). も同然 is about practical equivalence."
+    },
+    {
+      "pattern": "〜も同様だ",
+      "difference": "The formal near-synonym (\"likewise\"). も同然 is more colloquial and emphatic."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勝つも同然だ。",
+      "right": "勝ったも同然だ。",
+      "why": "Verbs attach in the past form (or negative); the dictionary form is not used."
+    },
+    {
+      "wrong": "彼は家族と同然だ。",
+      "right": "彼は家族も同然だ。",
+      "why": "The particle is も."
+    },
+    {
+      "wrong": "熱があるので、病気も同然だ。",
+      "right": "熱があるので、病人も同然だ。",
+      "why": "X should be a state or role the subject is practically in (病人), not the abstract noun 病気."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: ただも同然・家族も同然・新品も同然・死んだも同然・ないも同然.",
+    "も同然の + N works as an adjective: 家族も同然の付き合い.",
+    "It can be harsh: 来なかったも同然 / やらなかったも同然 dismisses someone's effort."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a nearly-true state + も + a blank + だ is 同然. Check that verbs are in the past or negative form.",
+    "Distractor かのようだ: it marks a figurative resemblance, not practical equivalence.",
+    "In 並べ替え, も同然だ follows the past verb or noun directly."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-165-1",
+    "q-n1-g-165-2",
+    "q-n1-g-165-3",
+    "q-n1-g-165-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-165-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

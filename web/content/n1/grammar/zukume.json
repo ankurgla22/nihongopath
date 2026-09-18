@@ -1,0 +1,137 @@
+{
+  "id": "n1-grammar-18",
+  "slug": "zukume",
+  "level": "n1",
+  "order": 18,
+  "title": "〜ずくめ",
+  "romaji": "zukume",
+  "meaning": "entirely …; nothing but …; full of …",
+  "simpleExplanation": "Nずくめ means something is made up entirely of N or is full of N from beginning to end: いいことずくめ \"nothing but good things\", 黒ずくめ \"all in black\". It works with a small set of nouns and is usually positive or neutral, unlike だらけ and まみれ.",
+  "whenUsed": "Both registers: conversation, magazines, blogs, news headlines. Common with colours (黒ずくめ), good things (いいことずくめ), feasts (ごちそうずくめ) and rules (規則ずくめ).",
+  "formation": [
+    "Noun + ずくめ (+ の + Noun / + だ / + で)",
+    "Set nouns: いいこと, 黒, 白, ごちそう, 規則, 結構, 幸せ, 異例"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ずくめ / だらけ / まみれ",
+    "columns": [
+      "what it covers",
+      "evaluation",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜ずくめ",
+        "cells": [
+          "everything is N, through and through",
+          "positive or neutral",
+          "いいことずくめの一年"
+        ]
+      },
+      {
+        "label": "〜だらけ",
+        "cells": [
+          "many undesirable things",
+          "negative",
+          "間違いだらけの答案"
+        ]
+      },
+      {
+        "label": "〜まみれ",
+        "cells": [
+          "surface coated with a dirty substance",
+          "negative",
+          "泥まみれの靴"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今年はいいことずくめの一年だった。",
+      "reading": "ことしはいいことずくめのいちねんだった。",
+      "en": "This year was full of good things.",
+      "note": "The most common positive use: a year full of good things."
+    },
+    {
+      "ja": "黒ずくめの服装の男が店に入ってきた。",
+      "reading": "くろずくめのふくそうのおとこがみせにはいってきた。",
+      "en": "A man dressed entirely in black came into the shop.",
+      "note": "Colour + ずくめ: an outfit entirely in black."
+    },
+    {
+      "ja": "彼女の毎日は規則ずくめで息が詰まりそうだ。",
+      "reading": "かのじょのまいにちはきそくずくめでいきがつまりそうだ。",
+      "en": "Her days are so full of rules that she feels suffocated.",
+      "note": "規則ずくめ: a negative feeling created by the context, not by ずくめ itself."
+    },
+    {
+      "ja": "結婚に昇進にと、今年は彼にとって幸せずくめの一年だった。",
+      "reading": "けっこんにしょうしんにと、ことしはかれにとってしあわせずくめのいちねんだった。",
+      "en": "With his marriage and promotion, this was a year full of happiness for him.",
+      "note": "幸せずくめ: a set collocation."
+    },
+    {
+      "ja": "今回の人事は異例ずくめだった。",
+      "reading": "こんかいのじんじはいれいずくめだった。",
+      "en": "This round of personnel changes was unprecedented in every respect.",
+      "note": "News style: 異例ずくめ (nothing but exceptions)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だらけ",
+      "difference": "Many undesirable things (ゴミだらけ). ずくめ is not negative in itself.",
+      "id": "n2-grammar-69"
+    },
+    {
+      "pattern": "〜まみれ",
+      "difference": "Coated in a dirty substance (血まみれ, 汗まみれ). Physical only.",
+      "id": "n1-grammar-84"
+    },
+    {
+      "pattern": "〜ぐるみ",
+      "difference": "\"Involving the whole of N\" (家族ぐるみ, 町ぐるみ): totality of participants, not of contents.",
+      "id": "n1-grammar-174"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "泥ずくめの靴",
+      "right": "泥まみれの靴",
+      "why": "A dirty coating takes まみれ."
+    },
+    {
+      "wrong": "間違いずくめの答案",
+      "right": "間違いだらけの答案",
+      "why": "Many mistakes take だらけ, since the evaluation is negative."
+    },
+    {
+      "wrong": "楽しいずくめの旅行",
+      "right": "楽しいことずくめの旅行",
+      "why": "ずくめ attaches to nouns; turn the adjective into a noun phrase (楽しいこと)."
+    }
+  ],
+  "usageNotes": [
+    "The noun set is limited; do not invent new combinations freely.",
+    "Before a noun use の: いいことずくめの一年.",
+    "Sentence end: 〜ずくめだ / ずくめで(大変だ)."
+  ],
+  "jlptTips": [
+    "If the noun is 黒 / いいこと / ごちそう / 規則 / 異例, the answer is ずくめ; if the noun is dirt (泥, 血) it is まみれ; if it is faults (間違い, 傷) it is だらけ.",
+    "Check the evaluation of the sentence: a happy or neutral tone rules out だらけ / まみれ.",
+    "In vocabulary-style grammar questions, ずくめ may be tested with 黒ずくめの男 in reading passages as well."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-18-1",
+    "q-n1-g-18-2",
+    "q-n1-g-18-3",
+    "q-n1-g-18-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-18-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-99",
+  "slug": "o-yoso-ni",
+  "level": "n1",
+  "order": 99,
+  "title": "〜をよそに",
+  "romaji": "o yoso ni",
+  "meaning": "ignoring …; in disregard of …",
+  "simpleExplanation": "〜をよそに means \"treating X as someone else's business\": the subject ignores other people's worries, hopes, opposition or criticism and does what they want. よそ = \"elsewhere\". The sentence usually criticises the subject for being indifferent.",
+  "whenUsed": "Formal written Japanese: news, essays, novels. The noun is a feeling or attitude of others (心配・期待・反対・批判・不安・注目). Often used about a person who acts selfishly or coolly.",
+  "formation": [
+    "N(others' feelings / opposition) + をよそに、V",
+    "Typical N: 心配・期待・反対・批判・不安・騒ぎ・注目"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "親の心配",
+        "role": "others' feelings",
+        "highlight": true
+      },
+      {
+        "text": "をよそに",
+        "role": "ignoring, as if unrelated",
+        "highlight": true
+      },
+      {
+        "text": "彼は一人で海外へ旅立った",
+        "role": "action taken regardless"
+      }
+    ],
+    "translation": "Ignoring his parents' worries, he set off abroad alone."
+  },
+  "examples": [
+    {
+      "ja": "親の心配をよそに、彼は一人で海外へ旅立った。",
+      "reading": "おやのしんぱいをよそに、かれはひとりでかいがいへたびだった。",
+      "en": "Ignoring his parents' worries, he set off abroad alone.",
+      "note": "Parents' worries ignored: mild criticism of the son."
+    },
+    {
+      "ja": "周囲の期待をよそに、彼女は突然引退を発表した。",
+      "reading": "しゅういのきたいをよそに、かのじょはとつぜんいんたいをはっぴょうした。",
+      "en": "Disregarding the expectations of those around her, she suddenly announced her retirement.",
+      "note": "Expectations disregarded: the retirement surprised everyone."
+    },
+    {
+      "ja": "住民の反対をよそに、工事は強行された。",
+      "reading": "じゅうみんのはんたいをよそに、こうじはきょうこうされた。",
+      "en": "In disregard of residents' opposition, the construction was pushed through.",
+      "note": "Opposition ignored: the construction was pushed through (強行された)."
+    },
+    {
+      "ja": "周囲の騒ぎをよそに、彼は静かに本を読み続けた。",
+      "reading": "しゅういのさわぎをよそに、かれはしずかにほんをよみつづけた。",
+      "en": "Paying no attention to the commotion around him, he quietly went on reading.",
+      "note": "A neutral, almost admiring use is also possible."
+    },
+    {
+      "ja": "家族の反対をよそに、彼女は一人で店を開いた。",
+      "reading": "かぞくのはんたいをよそに、かのじょはひとりでみせをひらいた。",
+      "en": "Disregarding her family's opposition, she opened a shop on her own.",
+      "note": "Opposition ignored."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をものともせず",
+      "difference": "\"Undaunted by X\": the subject bravely overcomes a real obstacle and is praised.",
+      "id": "n1-grammar-96"
+    },
+    {
+      "pattern": "〜もかまわず",
+      "difference": "\"Without minding X\" (人目もかまわず): about the subject's own lack of concern for appearances.",
+      "id": "n2-grammar-152"
+    },
+    {
+      "pattern": "〜にもかかわらず",
+      "difference": "Neutral \"despite\": no implication that the subject ignored anything.",
+      "id": "n2-grammar-102"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "悪天候をよそに、登山を続けた。",
+      "right": "悪天候をものともせず、登山を続けた。",
+      "why": "Weather is not someone's feeling; a brave act against an obstacle is をものともせず."
+    },
+    {
+      "wrong": "私は親の心配をよそに、留学した。（自分を褒めて）",
+      "right": "私は親の反対を押し切って、留学した。",
+      "why": "をよそに carries a hint of criticism; it is odd as self-praise."
+    },
+    {
+      "wrong": "心配をよそにして、出かけた。",
+      "right": "心配をよそに、出かけた。",
+      "why": "The fixed form is をよそに without して."
+    }
+  ],
+  "usageNotes": [
+    "The noun is almost always about people's feelings or reactions toward the subject.",
+    "Even in neutral contexts, the subject appears cool or detached.",
+    "It is a common phrase in headlines: 反対をよそに / 期待をよそに."
+  ],
+  "jlptTips": [
+    "Others' feelings (心配・期待・反対) + blank + the subject's independent action → をよそに.",
+    "The key distractor is をものともせず; use をよそに for feelings of others, をものともせず for obstacles with praise.",
+    "にもかかわらず may also be grammatical; the exam usually forces the choice through the noun type."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-99-1",
+    "q-n1-g-99-2",
+    "q-n1-g-99-3",
+    "q-n1-g-99-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-99-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

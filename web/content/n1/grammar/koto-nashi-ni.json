@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-17",
+  "slug": "koto-nashi-ni",
+  "level": "n1",
+  "order": 17,
+  "title": "〜ことなしに(は)",
+  "romaji": "kotonashini",
+  "meaning": "without doing …",
+  "simpleExplanation": "Vることなしに means \"without doing V\". With は (ことなしには) it usually says that something is impossible without V: 努力することなしには成功はあり得ない. It is the formal, written counterpart of 〜ないで / 〜ずに.",
+  "whenUsed": "Essays, speeches, formal writing. The verb before it is often an effort or a necessary step (努力する, 聞く, 学ぶ, 経る).",
+  "formation": [
+    "Vる + ことなしに + clause (without doing)",
+    "Vる + ことなしには + negative (impossible without doing)",
+    "Noun + なしに(は) for the noun version"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "努力しないで成功する",
+        "en": "succeed without effort (casual)"
+      },
+      {
+        "ja": "努力せずに成功する",
+        "en": "succeed without effort (neutral written)"
+      },
+      {
+        "ja": "努力することなしに成功はあり得ない",
+        "en": "success is impossible without effort (formal, emphatic)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "努力することなしに、成功はあり得ない。",
+      "reading": "どりょくすることなしに、せいこうはありえない。",
+      "en": "Success is impossible without effort.",
+      "note": "ことなしに + negative: success requires effort."
+    },
+    {
+      "ja": "相手の話を聞くことなしには、真の理解は生まれない。",
+      "reading": "あいてのはなしをきくことなしには、しんのりかいはうまれない。",
+      "en": "Without listening to the other person, no real understanding can arise.",
+      "note": "ことなしには: with は, the clause after is a negative (生まれない)."
+    },
+    {
+      "ja": "誰にも知られることなしに、彼は町を去った。",
+      "reading": "だれにもしられることなしに、かれはまちをさった。",
+      "en": "He left town without anyone knowing.",
+      "note": "Narrative use without a negative: he left without anyone knowing."
+    },
+    {
+      "ja": "十分な検証を経ることなしに、新薬を市場に出すべきではない。",
+      "reading": "じゅうぶんなけんしょうをへることなしに、しんやくをしじょうにだすべきではない。",
+      "en": "A new drug should not be put on the market without going through adequate testing.",
+      "note": "Formal argument; the second clause is a prohibition."
+    },
+    {
+      "ja": "彼は一言も発することなしに部屋を出て行った。",
+      "reading": "かれはひとこともはっすることなしにへやをでていった。",
+      "en": "He left the room without uttering a word.",
+      "note": "Narrative use: simply \"without doing\"."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なしに(は) / 〜なしでは",
+      "difference": "The noun version: 許可なしに. Use ことなしに after verbs.",
+      "id": "n1-grammar-52"
+    },
+    {
+      "pattern": "〜なくして(は)",
+      "difference": "Also noun-based and formal; ことなくして is possible but rarer.",
+      "id": "n1-grammar-51"
+    },
+    {
+      "pattern": "〜ずに / 〜ないで",
+      "difference": "Everyday \"without doing\"; no emphasis on impossibility.",
+      "id": "n2-grammar-45"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "努力なしにことは成功しない。",
+      "right": "努力することなしに成功はない。",
+      "why": "こと must come between the verb and なしに: Vることなしに."
+    },
+    {
+      "wrong": "働かないことなしに生活できない。",
+      "right": "働くことなしに生活できない。",
+      "why": "The verb before ことなしに is affirmative; the negation belongs to the main clause."
+    },
+    {
+      "wrong": "勉強することなしに合格した。",
+      "right": "勉強せずに合格した。",
+      "why": "ことなしに is emphatic and formal; for a plain past fact, ずに is natural."
+    }
+  ],
+  "usageNotes": [
+    "Typical verbs: 努力する, 学ぶ, 聞く, 経る, 話し合う, 犠牲にする.",
+    "With は the second clause is negative or expresses impossibility (あり得ない, できない).",
+    "Reads like an essay or speech; avoid in casual conversation."
+  ],
+  "jlptTips": [
+    "If a verb precedes the blank and the meaning is \"without doing\", choose ことなしに; if a noun precedes, choose なしに / なくして.",
+    "Distractors: ことなく (also \"without\", but softer, and not used with は for impossibility) and ことには (a different pattern: ないことには).",
+    "In 並べ替え, keep Vる + ことなしに together and place the negative main clause last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-17-1",
+    "q-n1-g-17-2",
+    "q-n1-g-17-3",
+    "q-n1-g-17-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-17-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

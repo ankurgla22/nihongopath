@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-121",
+  "slug": "wo-hete",
+  "level": "n1",
+  "order": 121,
+  "title": "〜を経て",
+  "romaji": "wo hete",
+  "meaning": "through …; after going through …; after (a period of time)",
+  "simpleExplanation": "〜を経て says that something reached its present state only after passing through a stage, a process, or a stretch of time. The noun before を is the thing that was passed through (a screening, ten years, many improvements), and what follows is the result. It feels like \"having come through X\".",
+  "whenUsed": "Formal written Japanese: news, biographies, company histories, academic writing, and formal speeches. In casual conversation people say 〜を通って, 〜のあとで, or 〜てから instead. It is common in resumes and introductions: 〜大学を経て、現在に至る.",
+  "formation": [
+    "N + を経て (へて)",
+    "N + を経た + N  (attributive: 長い年月を経た建物)",
+    "Typical nouns: 審査・段階・過程・歳月・年月・改良・経験・〜大学・〜社"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "厳しい審査",
+        "role": "stage passed through"
+      },
+      {
+        "text": "を経て",
+        "role": "\"having come through\"",
+        "highlight": true
+      },
+      {
+        "text": "彼女は代表に選ばれた",
+        "role": "result reached"
+      }
+    ],
+    "translation": "After coming through a rigorous screening, she was chosen as the representative."
+  },
+  "examples": [
+    {
+      "ja": "厳しい審査を経て、彼女は代表に選ばれた。",
+      "reading": "きびしいしんさをへて、かのじょはだいひょうにえらばれた。",
+      "en": "After passing a rigorous screening, she was chosen as the representative.",
+      "note": "The screening is a stage that had to be passed before the result; を経て marks that stage."
+    },
+    {
+      "ja": "十年の歳月を経て、二人は再会した。",
+      "reading": "じゅうねんのさいげつをへて、ふたりはさいかいした。",
+      "en": "After ten years, the two met again.",
+      "note": "With time expressions (十年の歳月) it means \"after the passage of\"."
+    },
+    {
+      "ja": "この技術はさまざまな改良を経て、現在の形になった。",
+      "reading": "このぎじゅつはさまざまなかいりょうをへて、げんざいのかたちになった。",
+      "en": "This technology took its present form through various improvements.",
+      "note": "A process with several steps (さまざまな改良) is the most typical use."
+    },
+    {
+      "ja": "彼は三年間の留学を経て、通訳として働き始めた。",
+      "reading": "かれはさんねんかんのりゅうがくをへて、つうやくとしてはたらきはじめた。",
+      "en": "After three years of studying abroad, he began working as an interpreter.",
+      "note": "Typical of biographies and self-introductions: experience → present job."
+    },
+    {
+      "ja": "この法案は何度もの修正を経て、ようやく可決された。",
+      "reading": "このほうあんはなんどものしゅうせいをへて、ようやくかけつされた。",
+      "en": "After repeated amendments, the bill was finally passed.",
+      "note": "ようやく after を経て stresses how long the process took."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-147",
+      "pattern": "〜を通して / 〜を通じて",
+      "difference": "Means \"by way of (a person or medium)\" or \"throughout (a period)\". It does not imply passing through stages to reach a result."
+    },
+    {
+      "id": "n2-grammar-132",
+      "pattern": "〜によって",
+      "difference": "Gives the means or cause (\"by\"). を経て only says something was passed through, not that it caused the result."
+    },
+    {
+      "id": "n1-grammar-92",
+      "pattern": "〜を皮切りに",
+      "difference": "Marks the starting point of a series. を経て marks a middle stage that is already behind us."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "厳しい審査を経て、彼女は代表に選ぶ。",
+      "right": "厳しい審査を経て、彼女は代表に選ばれた。",
+      "why": "を経て describes a stage already passed, so the main clause is normally a completed result, usually in the past tense."
+    },
+    {
+      "wrong": "毎朝この道を経て会社に行く。",
+      "right": "毎朝この道を通って会社に行く。",
+      "why": "For physically passing along a road, use を通って. を経て is for processes, stages, and periods of time, not daily routes."
+    },
+    {
+      "wrong": "十年を経て、彼はまだ同じ仕事をしている。",
+      "right": "十年経っても、彼はまだ同じ仕事をしている。",
+      "why": "を経て expects a change or result after the period. If nothing changed, use 〜経っても."
+    }
+  ],
+  "usageNotes": [
+    "The verb is 経る (へる). Do not confuse the reading with 経つ (たつ) in 時間が経つ.",
+    "In résumés and profiles the fixed shape is 〜を経て、現在に至る (\"…and so to the present\").",
+    "Because it is 書き言葉, pair it with formal vocabulary such as 選出される, 可決される, 至る rather than casual verbs."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, look for a noun that is a process or a span of time (審査・段階・歳月) followed by a completed result. That combination points to を経て.",
+    "Distractors are often を通じて and によって. Ask: is the noun a stage that was passed through (を経て) or a means (を通じて / によって)?",
+    "In 並べ替え, the chunk を経て almost always sits right after a process noun and before a comma."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-121-1",
+    "q-n1-g-121-2",
+    "q-n1-g-121-3",
+    "q-n1-g-121-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-121-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

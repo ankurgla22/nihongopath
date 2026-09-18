@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-154",
+  "slug": "nara-tomokaku",
+  "level": "n1",
+  "order": 154,
+  "title": "〜ならともかく",
+  "romaji": "nara tomokaku",
+  "meaning": "if it were X, that would be fine, but …; X aside, …",
+  "simpleExplanation": "〜ならともかく sets aside an acceptable case (X) and criticizes or questions the actual one. 学生ならともかく、社会人がこんな服装では困る = \"For a student, fine, but a working adult cannot dress like this\". ともかく means \"never mind, setting aside\". It is close to ならまだしも but a bit more neutral.",
+  "whenUsed": "Both spoken and written, in complaints, evaluations, and arguments. X is the case where the behaviour would be acceptable; the second half names the real, unacceptable case. Endings: 〜のは困る / 〜べきではない / 〜のは無理だ.",
+  "formation": [
+    "N + ならともかく",
+    "普通形 + の + ならともかく  (知らなかったのならともかく)",
+    "いA / なA + ならともかく  (安いならともかく)",
+    "Second half: the actual case + a negative judgment"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "ならともかく vs ならまだしも",
+    "columns": [
+      "nuance",
+      "tone",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "ならともかく",
+        "cells": [
+          "X aside, the actual case is a problem",
+          "neutral, logical",
+          "学生ならともかく、社会人がこの服装では困る"
+        ]
+      },
+      {
+        "label": "ならまだしも",
+        "cells": [
+          "X would still have been bearable, but this is worse",
+          "emotional, exasperated",
+          "一度ならまだしも、三度も同じ失敗とは"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "学生ならともかく、社会人がこんな服装では困る。",
+      "reading": "がくせいならともかく、しゃかいじんがこんなふくそうではこまる。",
+      "en": "If you were a student, fine, but a working adult should not dress like this.",
+      "note": "A student could dress like that; a working adult cannot."
+    },
+    {
+      "ja": "一日二日ならともかく、一週間も休むのは無理だ。",
+      "reading": "いちにちふつかならともかく、いっしゅうかんもやすむのはむりだ。",
+      "en": "A day or two would be fine, but taking a whole week off is impossible.",
+      "note": "A day or two off is fine; a week is impossible."
+    },
+    {
+      "ja": "知らなかったのならともかく、知っていて黙っていたのは問題だ。",
+      "reading": "しらなかったのならともかく、しっていてだまっていたのはもんだいだ。",
+      "en": "If you had not known, fine, but knowing and keeping quiet is a problem.",
+      "note": "Not knowing would be fine; knowing and staying silent is a problem."
+    },
+    {
+      "ja": "近所ならともかく、遠くの店まで歩いて行くのは大変だ。",
+      "reading": "きんじょならともかく、とおくのみせまであるいていくのはたいへんだ。",
+      "en": "A nearby shop would be one thing, but walking to a distant one is hard.",
+      "note": "Noun + ならともかく."
+    },
+    {
+      "ja": "無料ならともかく、有料でこのサービスの質はひどい。",
+      "reading": "むりょうならともかく、ゆうりょうでこのサービスのしつはひどい。",
+      "en": "If it were free, fine, but for a paid service this quality is terrible.",
+      "note": "The judgment ends the sentence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-136",
+      "pattern": "〜ならまだしも",
+      "difference": "Nearly the same; まだしも stresses that X would have been \"still bearable\" and is more emotional. ともかく is more neutral: \"X aside\"."
+    },
+    {
+      "id": "n2-grammar-142",
+      "pattern": "〜はともかく(として)",
+      "difference": "\"Never mind X\" to move to another topic (味はともかく、値段が高い). Not a scale of acceptable vs unacceptable."
+    },
+    {
+      "id": "n1-grammar-54",
+      "pattern": "〜ならいざしらず",
+      "difference": "\"I don't know about X, but\": sets aside an unknown or extreme case (昔ならいざしらず). ならともかく sets aside a clearly acceptable case."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "社会人ならともかく、学生がこの服装では困る。",
+      "right": "学生ならともかく、社会人がこの服装では困る。",
+      "why": "X must be the acceptable case. The real, problematic case comes second."
+    },
+    {
+      "wrong": "安いならともかく、高くてもいい。",
+      "right": "安いならともかく、この値段では買えない。",
+      "why": "The second half must contain a negative judgment about the actual case."
+    },
+    {
+      "wrong": "知らなかったならともかく (careful writing)",
+      "right": "知らなかったのならともかく",
+      "why": "Verbs take の before ならともかく in careful Japanese."
+    }
+  ],
+  "usageNotes": [
+    "The second half often has が / は marking the actual case: 社会人が / 一週間も.",
+    "ならともかく can also concede a point in argument: 一回ならともかく、毎回では困ります.",
+    "Compared with ならまだしも, it is safer in polite or business contexts because it is less emotional."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an acceptable case + a blank + a problematic case with a negative judgment is ならともかく (or ならまだしも). Choose ともかく when the tone is neutral.",
+    "Distractor はともかく: it changes the topic and is not followed by a negative judgment on a parallel case.",
+    "In 並べ替え, ならともかく is one chunk after X; the problematic case with が follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-154-1",
+    "q-n1-g-154-2",
+    "q-n1-g-154-3",
+    "q-n1-g-154-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-154-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

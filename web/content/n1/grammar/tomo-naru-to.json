@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-47",
+  "slug": "tomo-naru-to",
+  "level": "n1",
+  "order": 47,
+  "title": "〜ともなると / 〜ともなれば",
+  "romaji": "tomonaruto-tomonareba",
+  "meaning": "when it comes to (a high level / stage) …; once one becomes …",
+  "simpleExplanation": "Nともなると / ともなれば takes a noun that represents a high level, status, age or important occasion and says what naturally follows at that level: 大企業の社長ともなると、自由な時間はほとんどない. The nuance is \"at that stage, things are different from the ordinary\".",
+  "whenUsed": "Both registers, slightly formal. Common in commentary about age, rank and big occasions (結婚式, 年末, 海外旅行).",
+  "formation": [
+    "Noun + ともなると / ともなれば",
+    "Vる + ともなると (海外に引っ越すともなると)",
+    "Followed by a natural consequence (だろう / ものだ / 大変だ)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "What changes at a higher stage",
+    "items": [
+      {
+        "label": "新入社員",
+        "description": "an ordinary stage: nothing special follows"
+      },
+      {
+        "label": "課長",
+        "description": "some responsibility"
+      },
+      {
+        "label": "社長ともなると",
+        "description": "at this level, things are naturally different: no free time, huge responsibility"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "大企業の社長ともなると、自由な時間はほとんどないだろう。",
+      "reading": "だいきぎょうのしゃちょうともなると、じゆうなじかんはほとんどないだろう。",
+      "en": "Once you are the president of a major corporation, you probably have almost no free time.",
+      "note": "A top status → a natural consequence."
+    },
+    {
+      "ja": "四十歳ともなれば、体力の衰えを感じ始める。",
+      "reading": "よんじゅっさいともなれば、たいりょくのおとろえをかんじはじめる。",
+      "en": "When you reach forty, you start to notice your strength declining.",
+      "note": "An age milestone (四十歳) → what naturally starts."
+    },
+    {
+      "ja": "海外に引っ越すともなると、準備が大変だ。",
+      "reading": "かいがいにひっこすともなると、じゅんびがたいへんだ。",
+      "en": "When it comes to moving abroad, the preparations are a big job.",
+      "note": "A big undertaking (moving abroad) → big preparations."
+    },
+    {
+      "ja": "結婚式ともなれば、準備に半年はかかるだろう。",
+      "reading": "けっこんしきともなれば、じゅんびにはんとしはかかるだろう。",
+      "en": "When it comes to a wedding, preparation will take at least six months.",
+      "note": "A major occasion."
+    },
+    {
+      "ja": "プロともなると、道具にもこだわりがある。",
+      "reading": "プロともなると、どうぐにもこだわりがある。",
+      "en": "Once you are a professional, you are particular even about your tools.",
+      "note": "A level of expertise."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ともなく / ともなしに",
+      "difference": "Unrelated meaning (\"without intending\"); a spelling trap.",
+      "id": "n1-grammar-46"
+    },
+    {
+      "pattern": "〜ともあろう",
+      "difference": "\"Someone of the stature of X\", followed by criticism that they acted below that level.",
+      "id": "n1-grammar-129"
+    },
+    {
+      "pattern": "〜としたら / 〜となると",
+      "difference": "Neutral \"if it comes to X\"; ともなると adds \"at that high level\".",
+      "id": "n2-grammar-90"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "子供ともなると、朝早く起きる。",
+      "right": "小学生ともなると、一人で登校するようになる。",
+      "why": "The noun should represent a notable stage or level; a generic 子供 lacks that sense."
+    },
+    {
+      "wrong": "社長ともなると、自由な時間が多い。",
+      "right": "社長ともなると、自由な時間はほとんどない。",
+      "why": "The consequence should be what naturally follows from the high level, usually a burden or a change."
+    },
+    {
+      "wrong": "社長ともなくと",
+      "right": "社長ともなると",
+      "why": "Do not confuse with ともなく."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 社長, プロ, ベテラン, 大学生, 四十歳, 年末, 連休, 結婚式.",
+    "The consequence often includes やはり / さすがに / 〜ものだ.",
+    "ともなれば and ともなると are interchangeable."
+  ],
+  "jlptTips": [
+    "High status or big occasion + blank + a natural consequence → ともなると.",
+    "ともなく is a look-alike with a completely different meaning; check the sense.",
+    "ともあろう is a distractor that introduces criticism (〜ともあろう人が) and is followed by a noun like 人 / 者."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-47-1",
+    "q-n1-g-47-2",
+    "q-n1-g-47-3",
+    "q-n1-g-47-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-47-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

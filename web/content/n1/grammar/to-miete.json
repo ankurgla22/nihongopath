@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-139",
+  "slug": "to-miete",
+  "level": "n1",
+  "order": 139,
+  "title": "〜とみえて / 〜とみえる",
+  "romaji": "to miete / to mieru",
+  "meaning": "it seems that …, judging by …; apparently …, because …",
+  "simpleExplanation": "〜とみえて states a guess and then gives the evidence you can see. よほど疲れていたとみえて、すぐに寝てしまった = \"He must have been very tired, because he fell asleep at once\". The guess comes first, the observed fact second. 〜とみえる ends the sentence with the guess alone; the evidence comes in the next sentence.",
+  "whenUsed": "Both spoken and written, neutral. Used when explaining someone's behaviour or a situation from visible signs. Common with よほど / 相当 / どうやら before the guess. Not used for guesses about yourself.",
+  "formation": [
+    "普通形 + とみえて + observed fact",
+    "N / なA + だ + とみえて  (留守だとみえて)",
+    "普通形 + とみえる。+ (next sentence: evidence)",
+    "Often with よほど・相当・どうやら"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "よほど疲れていた",
+        "role": "guess (inference)"
+      },
+      {
+        "text": "とみえて",
+        "role": "\"it seems, judging by\"",
+        "highlight": true
+      },
+      {
+        "text": "彼はすぐに寝てしまった",
+        "role": "visible evidence"
+      }
+    ],
+    "translation": "He must have been very tired, for he fell asleep immediately."
+  },
+  "examples": [
+    {
+      "ja": "よほど疲れていたとみえて、彼はすぐに寝てしまった。",
+      "reading": "よほどつかれていたとみえて、かれはすぐにねてしまった。",
+      "en": "He must have been very tired, for he fell asleep immediately.",
+      "note": "よほど strengthens the guess; the evidence (fell asleep at once) follows."
+    },
+    {
+      "ja": "留守だとみえて、何度呼んでも返事がない。",
+      "reading": "るすだとみえて、なんどよんでもへんじがない。",
+      "en": "They seem to be out; there is no answer no matter how many times I call.",
+      "note": "留守だ + とみえて: nouns take だ before とみえて."
+    },
+    {
+      "ja": "この店は人気があるとみえる。いつも行列ができている。",
+      "reading": "このみせはにんきがあるとみえる。いつもぎょうれつができている。",
+      "en": "This shop seems popular. There is always a queue.",
+      "note": "とみえる ends the sentence; the evidence comes separately."
+    },
+    {
+      "ja": "隣の家は引っ越したとみえて、表札が外されている。",
+      "reading": "となりのいえはひっこしたとみえて、ひょうさつがはずされている。",
+      "en": "The neighbours seem to have moved out; the nameplate has been taken down.",
+      "note": "Guess first, then the visible sign."
+    },
+    {
+      "ja": "娘は新しい先生が気に入ったとみえる。毎日楽しそうに学校へ行く。",
+      "reading": "むすめはあたらしいせんせいがきにいったとみえる。まいにちたのしそうにがっこうへいく。",
+      "en": "My daughter seems to like her new teacher. She goes off to school happily every day.",
+      "note": "Sentence-final とみえる, evidence in the next sentence."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-122",
+      "pattern": "〜に違いない",
+      "difference": "A strong conviction, with or without stated evidence. とみえて is a softer guess tied to an observation."
+    },
+    {
+      "id": "n1-grammar-131",
+      "pattern": "〜ものと思われる",
+      "difference": "Formal report language. とみえて is everyday and describes a scene you are looking at."
+    },
+    {
+      "id": "n1-grammar-140",
+      "pattern": "〜とみるや",
+      "difference": "Different meaning: \"the moment one judged that…, (acted)\". Narrative, with a decisive action following."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は疲れているとみえて、眠い。",
+      "right": "私は疲れているようで、眠い。",
+      "why": "とみえて is used to infer about others or the outside world from visible signs, not about your own inner state."
+    },
+    {
+      "wrong": "留守とみえて、返事がない。",
+      "right": "留守だとみえて、返事がない。",
+      "why": "Nouns and な-adjectives need だ before とみえて."
+    },
+    {
+      "wrong": "疲れていたとみえて、彼は元気だった。",
+      "right": "疲れていたとみえて、彼はすぐに寝た。",
+      "why": "The second half must be the evidence supporting the guess, not something that contradicts it."
+    }
+  ],
+  "usageNotes": [
+    "Adverbs よほど・相当・どうやら before the guess make the sentence sound natural.",
+    "The pattern implies you are looking at the scene now; for past narration, とみえて still works with past evidence.",
+    "Compare とみえる (visible inference) with と思われる (reasoned inference)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a sentence with a guess + と＿＿て + observable evidence, especially with よほど, is とみえて.",
+    "If the second half is a decisive action rather than evidence, the answer is とみるや instead.",
+    "In 並べ替え, put the guess (with よほど) before とみえて and the visible sign after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-139-1",
+    "q-n1-g-139-2",
+    "q-n1-g-139-3",
+    "q-n1-g-139-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-139-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

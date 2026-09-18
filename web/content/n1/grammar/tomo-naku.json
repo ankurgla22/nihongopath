@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-46",
+  "slug": "tomo-naku",
+  "level": "n1",
+  "order": 46,
+  "title": "〜ともなく / 〜ともなしに",
+  "romaji": "tomonaku-tomonashini",
+  "meaning": "without really intending to …; vaguely …; from somewhere or other",
+  "simpleExplanation": "Vるともなく / ともなしに has two uses. (1) With the same verb repeated (見るともなく見る): doing something absent-mindedly, without a clear intention. (2) With a question word (どこからともなく, 誰にともなく): the source or target is unclear.",
+  "whenUsed": "Narrative 書き言葉: novels and essays describing a quiet, vague scene. Verbs are of perception or thought: 見る, 聞く, 考える, 眺める.",
+  "formation": [
+    "Vる + ともなく / ともなしに + same verb (見るともなく見る)",
+    "Question word (+ particle) + ともなく (どこからともなく, 誰にともなく, いつからともなく)",
+    "Vる + ともなく + related verb (考えるともなく思いをめぐらす)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two shapes of ともなく",
+    "columns": [
+      "shape",
+      "meaning",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "Vるともなく + V",
+        "cells": [
+          "absent-minded action",
+          "without really meaning to",
+          "テレビを見るともなく見ていた"
+        ]
+      },
+      {
+        "label": "疑問詞 + ともなく",
+        "cells": [
+          "unclear source / target",
+          "from somewhere or other",
+          "どこからともなく匂いが漂う"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "テレビを見るともなく見ていたら、友人が映っていて驚いた。",
+      "reading": "テレビをみるともなくみていたら、ゆうじんがうつっていておどろいた。",
+      "en": "I was idly watching TV when I was surprised to see a friend on screen.",
+      "note": "Absent-minded watching with the same verb repeated."
+    },
+    {
+      "ja": "どこからともなく、いい匂いが漂ってきた。",
+      "reading": "どこからともなく、いいにおいがただよってきた。",
+      "en": "A nice smell drifted over from somewhere or other.",
+      "note": "Question word: from somewhere or other."
+    },
+    {
+      "ja": "彼女は誰にともなしに、小さくつぶやいた。",
+      "reading": "かのじょはだれにともなしに、ちいさくつぶやいた。",
+      "en": "She muttered quietly, to no one in particular.",
+      "note": "誰にともなしに: to no one in particular."
+    },
+    {
+      "ja": "窓の外を眺めるともなく眺めていたら、いつの間にか日が暮れていた。",
+      "reading": "まどのそとをながめるともなくながめていたら、いつのまにかひがくれていた。",
+      "en": "I was gazing idly out of the window when, before I knew it, night had fallen.",
+      "note": "Same verb repeated; idle state."
+    },
+    {
+      "ja": "いつからともなく、二人は互いを名前で呼ぶようになった。",
+      "reading": "いつからともなく、ふたりはたがいをなまえでよぶようになった。",
+      "en": "At some point, without anyone deciding, the two began calling each other by their first names.",
+      "note": "いつからともなく: unclear starting time."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ともなると / ともなれば",
+      "difference": "Completely different: \"once it comes to (a high level)\". The shared とも is a trap.",
+      "id": "n1-grammar-47"
+    },
+    {
+      "pattern": "〜ずに / 〜ないで",
+      "difference": "\"Without doing\" deliberately; ともなく is about lack of intention, not omission.",
+      "id": "n2-grammar-45"
+    },
+    {
+      "pattern": "〜ながら",
+      "difference": "\"While doing\": deliberate simultaneous action, unlike absent-minded ともなく.",
+      "id": "n2-grammar-96"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "テレビを見ないともなく見ていた。",
+      "right": "テレビを見るともなく見ていた。",
+      "why": "The verb before ともなく is affirmative dictionary form."
+    },
+    {
+      "wrong": "どこかともなく匂いがした。",
+      "right": "どこからともなく匂いがした。",
+      "why": "The question word usually carries its particle: どこから, 誰に, いつから."
+    },
+    {
+      "wrong": "彼は宿題をするともなくした。",
+      "right": "彼は宿題をぼんやりとした。",
+      "why": "The pattern needs perception or thought verbs and a vague, drifting mood; a task like homework is odd."
+    }
+  ],
+  "usageNotes": [
+    "Same-verb repetition: 見るともなく見る, 聞くともなく聞く, 考えるともなく考える.",
+    "Question-word set: どこからともなく, どこへともなく, 誰にともなく, いつからともなく, 何をするともなく.",
+    "Creates a quiet, literary atmosphere."
+  ],
+  "jlptTips": [
+    "If the same verb appears before and after the blank, the answer is ともなく / ともなしに.",
+    "If a question word + particle precedes the blank, the answer is ともなく.",
+    "ともなると is the trap distractor; it takes a high-status noun and leads to what naturally follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-46-1",
+    "q-n1-g-46-2",
+    "q-n1-g-46-3",
+    "q-n1-g-46-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-46-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

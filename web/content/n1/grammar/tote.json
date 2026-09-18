@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-111",
+  "slug": "tote",
+  "level": "n1",
+  "order": 111,
+  "title": "〜とて",
+  "romaji": "tote",
+  "meaning": "even …; even if …; just because …",
+  "simpleExplanation": "とて is an old-fashioned particle with three uses. (1) N + とて = \"even N (is no exception)\": 私とて (even I). (2) Vた + とて = 〜ても: 後悔したとて (even if you regret it). (3) 〜からとて = 〜からといって: 親だからとて (just because one is a parent). All three sound literary.",
+  "whenUsed": "Formal written Japanese, speeches, literature. Use 1 often carries a defensive tone (\"I, too, have feelings\"). Uses 2 and 3 are usually followed by a negative conclusion (どうにもならない, 権利はない).",
+  "formation": [
+    "N + とて (私とて・今とて・専門家とて)",
+    "Vた + とて + negative (= ても)",
+    "普通形 + からとて + negative (= からといって)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of とて",
+    "columns": [
+      "Modern equivalent",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. N + とて",
+        "cells": [
+          "〜も / 〜でも",
+          "even N is no exception",
+          "私とて人間だ"
+        ]
+      },
+      {
+        "label": "2. Vた + とて",
+        "cells": [
+          "〜ても",
+          "even if, no use",
+          "後悔したとて遅い"
+        ]
+      },
+      {
+        "label": "3. 〜からとて",
+        "cells": [
+          "〜からといって",
+          "just because … does not mean",
+          "親だからとて口出しはできない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "私とて、失敗したくてしたわけではない。",
+      "reading": "わたしとて、しっぱいしたくてしたわけではない。",
+      "en": "Even I did not fail because I wanted to.",
+      "note": "Use 1: 私とて = even I. Defensive tone."
+    },
+    {
+      "ja": "今さら後悔したとて、どうにもならない。",
+      "reading": "いまさらこうかいしたとて、どうにもならない。",
+      "en": "Even if you regret it now, nothing can be done.",
+      "note": "Use 2: 後悔したとて = even if you regret it, no use."
+    },
+    {
+      "ja": "親だからとて、子供の人生を決める権利はない。",
+      "reading": "おやだからとて、こどものじんせいをきめるけんりはない。",
+      "en": "Being a parent does not give you the right to decide your child's life.",
+      "note": "Use 3: 親だからとて = just because you are a parent."
+    },
+    {
+      "ja": "専門家とて、この現象を完全には説明できない。",
+      "reading": "せんもんかとて、このげんしょうをかんぜんにはせつめいできない。",
+      "en": "Even experts cannot fully explain this phenomenon.",
+      "note": "Use 1 with a third party."
+    },
+    {
+      "ja": "今さら急いだとて、間に合うはずがない。",
+      "reading": "いまさらいそいだとて、まにあうはずがない。",
+      "en": "Even if we hurried now, there is no way we would make it.",
+      "note": "Use 2 with a negative conclusion."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たところで",
+      "difference": "\"Even if one did X, it would be useless\": the modern equivalent of Vたとて.",
+      "id": "n1-grammar-24"
+    },
+    {
+      "pattern": "〜からといって",
+      "difference": "The modern equivalent of からとて.",
+      "id": "n2-grammar-30"
+    },
+    {
+      "pattern": "〜といえども",
+      "difference": "\"Even though / even (a great person)\": also literary, close to N + とて but more concessive.",
+      "id": "n1-grammar-37"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "急ぐとて、間に合わない。",
+      "right": "急いだとて、間に合わない。",
+      "why": "The verb takes the past form before とて."
+    },
+    {
+      "wrong": "私とても、悲しい。",
+      "right": "私とて、悲しい。",
+      "why": "とて is complete on its own; とても is a different word (\"very\")."
+    },
+    {
+      "wrong": "学生だからとて、勉強する。",
+      "right": "学生だからとて、勉強ばかりしていられない。",
+      "why": "からとて is followed by a negative or a denial of the expected conclusion."
+    }
+  ],
+  "usageNotes": [
+    "N + とて is common with pronouns and roles: 私とて・彼とて・親とて・子供とて.",
+    "Sentences with とて almost always end in a negative or a statement that nothing can be done.",
+    "It gives prose a slightly archaic flavour; in speech it appears in formal or dramatic contexts."
+  ],
+  "jlptTips": [
+    "A pronoun or role + blank + \"is no exception\" → とて. A past verb + blank + どうにもならない → とて (= ても).",
+    "Distractors: として, とても, とはいえ. Do not confuse とて with として (\"as\").",
+    "からとて appears as a single option; equate it with からといって."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-111-1",
+    "q-n1-g-111-2",
+    "q-n1-g-111-3",
+    "q-n1-g-111-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-111-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

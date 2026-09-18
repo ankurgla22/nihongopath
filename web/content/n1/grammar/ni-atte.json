@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-59",
+  "slug": "ni-atte",
+  "level": "n1",
+  "order": 59,
+  "title": "〜にあって(は) / 〜にあっても",
+  "romaji": "niatte-niattemo",
+  "meaning": "in (a situation, place or time) …; being in … / even in …",
+  "simpleExplanation": "Nにあって(は) marks a special situation, position or era in which something holds: 戦時下にあって \"in wartime\". にあっても is concessive: \"even in (such a situation)\". It is the formal counterpart of で / に and typical of written commentary.",
+  "whenUsed": "書き言葉: essays, history, speeches. The noun is a period, circumstance or position (情報化社会, 困難な状況, 責任ある立場).",
+  "formation": [
+    "Noun + にあって(は) + statement about that situation",
+    "Noun + にあっても + unchanged result (concessive)",
+    "Common nouns: 時代, 社会, 状況, 立場, 危機"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "にあって vs にあっても",
+    "columns": [
+      "meaning",
+      "second clause",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜にあって(は)",
+        "cells": [
+          "in that situation",
+          "what is true there",
+          "情報化社会にあっては選択が重要だ"
+        ]
+      },
+      {
+        "label": "〜にあっても",
+        "cells": [
+          "even in that situation",
+          "unchanged attitude",
+          "困難な状況にあっても希望を捨てない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "戦時下にあって、人々は食べる物にも困っていた。",
+      "reading": "せんじかにあって、ひとびとはたべるものにもこまっていた。",
+      "en": "In wartime, people even struggled to find food.",
+      "note": "A period (wartime) + what was true then."
+    },
+    {
+      "ja": "困難な状況にあっても、彼は希望を捨てなかった。",
+      "reading": "こんなんなじょうきょうにあっても、かれはきぼうをすてなかった。",
+      "en": "Even in a difficult situation, he did not give up hope.",
+      "note": "にあっても: concessive."
+    },
+    {
+      "ja": "情報化社会にあっては、情報の取捨選択が重要だ。",
+      "reading": "じょうほうかしゃかいにあっては、じょうほうのしゅしゃせんたくがじゅうようだ。",
+      "en": "In the information society, selecting information wisely is essential.",
+      "note": "にあっては: a current era + a general truth."
+    },
+    {
+      "ja": "責任ある立場にあって、軽率な発言は許されない。",
+      "reading": "せきにんあるたちばにあって、けいそつなはつげんはゆるされない。",
+      "en": "In a position of responsibility, careless remarks are not permitted.",
+      "note": "A position rather than a time."
+    },
+    {
+      "ja": "彼は逆境にあっても、決して努力をやめなかった。",
+      "reading": "かれはぎゃっきょうにあっても、けっしてどりょくをやめなかった。",
+      "en": "Even in adversity, he never stopped trying.",
+      "note": "逆境にあっても is a common collocation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜において / における",
+      "difference": "Neutral formal \"in / at\"; にあって adds the sense of being placed in special circumstances.",
+      "id": "n2-grammar-99"
+    },
+    {
+      "pattern": "〜とあって",
+      "difference": "\"Because of the special situation\": a reason, not a setting.",
+      "id": "n1-grammar-35"
+    },
+    {
+      "pattern": "〜あっての",
+      "difference": "\"Exists thanks to\": a completely different pattern despite the shared あって.",
+      "id": "n1-grammar-1"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "学校にあって勉強した。",
+      "right": "学校で勉強した。",
+      "why": "にあって is for notable circumstances or eras, not ordinary places."
+    },
+    {
+      "wrong": "困難な状況にあって、希望を捨てなかった。",
+      "right": "困難な状況にあっても、希望を捨てなかった。",
+      "why": "For \"even in\" with an unchanged attitude, use にあっても."
+    },
+    {
+      "wrong": "連休にあって、道路が混んだ。",
+      "right": "連休とあって、道路が混んだ。",
+      "why": "A reason for an observed result takes とあって."
+    }
+  ],
+  "usageNotes": [
+    "Frequent phrases: この時代にあって, 危機にあって, 逆境にあっても, 高齢化社会にあっては.",
+    "は after にあって marks a contrast with other situations.",
+    "Similar in meaning to において but more literary."
+  ],
+  "jlptTips": [
+    "A period or circumstance noun + blank + a general statement → にあって(は); with an unchanged attitude → にあっても.",
+    "とあって is the main distractor: it needs an observable result caused by a special event.",
+    "あっての needs two nouns and a gratitude meaning."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-59-1",
+    "q-n1-g-59-2",
+    "q-n1-g-59-3",
+    "q-n1-g-59-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-59-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

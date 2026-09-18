@@ -1,0 +1,117 @@
+{
+  "id": "n1-grammar-75",
+  "slug": "bakoso",
+  "level": "n1",
+  "order": 75,
+  "title": "〜ばこそ",
+  "romaji": "bakoso",
+  "meaning": "precisely because …",
+  "simpleExplanation": "〜ばこそ singles out one reason and says \"it is exactly because of this, and for no other reason\". It is typically used to explain a behaviour that might look harsh or strange: 厳しく言うのは、あなたを思えばこそだ (I say harsh things precisely because I care about you). The sentence often ends in のだ.",
+  "whenUsed": "Formal speech and writing. Very common when defending an action driven by good intentions (love, concern, trust). The reason is usually positive; ばこそ is rarely used for negative causes such as laziness or hatred.",
+  "formation": [
+    "Vば + こそ (思えばこそ・あればこそ)",
+    "Aい: 〜ければこそ",
+    "Aな / N: 〜であればこそ",
+    "Sentence end: 〜ばこそ、〜のだ / 〜のです"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "あなたを思うから、厳しく言う",
+        "en": "I say harsh things because I care (plain reason)"
+      },
+      {
+        "ja": "あなたを思えばこそ、厳しく言うのだ",
+        "en": "it is precisely because I care that I say harsh things (no other reason)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "あなたのことを思えばこそ、厳しいことを言うのです。",
+      "reading": "あなたのことをおもえばこそ、きびしいことをいうのです。",
+      "en": "It is precisely because I care about you that I say harsh things.",
+      "note": "Classic defence: harsh words come from care. Note the ending のです."
+    },
+    {
+      "ja": "健康であればこそ、仕事も趣味も楽しめる。",
+      "reading": "けんこうであればこそ、しごともしゅみもたのしめる。",
+      "en": "Precisely because I am healthy, I can enjoy both work and hobbies.",
+      "note": "〜であればこそ for a noun/na-adjective: precisely because I am healthy."
+    },
+    {
+      "ja": "信頼していればこそ、大事な仕事を任せたのだ。",
+      "reading": "しんらいしていればこそ、だいじなしごとをまかせたのだ。",
+      "en": "It was precisely because I trusted him that I entrusted him with the important work.",
+      "note": "信頼していればこそ: the trust is the sole reason for entrusting the work."
+    },
+    {
+      "ja": "親であればこそ、子供の将来を心配するのだ。",
+      "reading": "おやであればこそ、こどものしょうらいをしんぱいするのだ。",
+      "en": "It is precisely because we are parents that we worry about our children's future.",
+      "note": "N + であればこそ."
+    },
+    {
+      "ja": "苦労があればこそ、成功したときの喜びも大きい。",
+      "reading": "くろうがあればこそ、せいこうしたときのよろこびもおおきい。",
+      "en": "Precisely because there is hardship, the joy of success is all the greater.",
+      "note": "あればこそ is a very common form."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜からこそ",
+      "difference": "Also \"precisely because\", but neutral in register and usable with any reason. ばこそ is more formal and usually a positive reason.",
+      "id": "n2-grammar-177"
+    },
+    {
+      "pattern": "〜てこそ",
+      "difference": "\"Only by doing X (does Y hold)\": a condition, not a reason. 努力してこそ成功する.",
+      "id": "n2-grammar-178"
+    },
+    {
+      "pattern": "〜ばそれまでだ",
+      "difference": "Same ば, but the meaning is \"if X happens, it is all over\". Unrelated to reasons.",
+      "id": "n1-grammar-76"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "怠けていればこそ、失敗した。",
+      "right": "怠けていたからこそ、失敗した。",
+      "why": "ばこそ is normally used for a positive or admirable reason; a negative cause takes からこそ."
+    },
+    {
+      "wrong": "愛すればこそ、別れよう。",
+      "right": "愛すればこそ、別れるのだ。",
+      "why": "The main clause states a fact or decision with のだ; a volitional ending sounds unnatural."
+    },
+    {
+      "wrong": "健康ならこそ、楽しめる。",
+      "right": "健康であればこそ、楽しめる。",
+      "why": "Nouns and na-adjectives take であればこそ, not ならこそ."
+    }
+  ],
+  "usageNotes": [
+    "The main clause usually explains the speaker's own behaviour and ends with のだ / のです.",
+    "Typical verbs before it: 思う・愛する・信頼する・大切にする・ある.",
+    "It is a favourite in speeches, letters and drama dialogue; everyday talk uses からこそ."
+  ],
+  "jlptTips": [
+    "If the sentence defends a harsh or surprising action with a positive reason and ends in のだ, choose ばこそ.",
+    "Distractors: からこそ (also correct in meaning, but the ば form in the blank decides), てこそ, ばそれまでだ.",
+    "In 並べ替え, the chunk 〜ばこそ usually comes right before the main clause with のだ."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-75-1",
+    "q-n1-g-75-2",
+    "q-n1-g-75-3",
+    "q-n1-g-75-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-75-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

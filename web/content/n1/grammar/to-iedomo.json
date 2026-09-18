@@ -1,0 +1,125 @@
+{
+  "id": "n1-grammar-37",
+  "slug": "to-iedomo",
+  "level": "n1",
+  "order": 37,
+  "title": "〜といえども",
+  "romaji": "toiedomo",
+  "meaning": "even though …; even if …; even (a) …",
+  "simpleExplanation": "Xといえども concedes X and then says the following still holds: 専門家といえども、間違えることはある \"even experts sometimes make mistakes\". It is a formal, literary version of 〜でも / 〜とはいっても, often used with いかに / たとえ / どんな.",
+  "whenUsed": "書き言葉 and speeches: editorials, legal or academic writing, proverbs. In conversation people say でも / といっても.",
+  "formation": [
+    "Noun + といえども",
+    "Plain form + といえども",
+    "いかに / たとえ / どんな〜 + といえども"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Concession, casual to literary",
+    "items": [
+      {
+        "label": "〜でも",
+        "description": "everyday: 専門家でも間違える"
+      },
+      {
+        "label": "〜といっても",
+        "description": "spoken hedge: 専門家といっても"
+      },
+      {
+        "label": "〜とはいえ",
+        "description": "formal reservation: 専門家とはいえ"
+      },
+      {
+        "label": "〜といえども",
+        "description": "literary, solemn: 専門家といえども"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "専門家といえども、間違えることはある。",
+      "reading": "せんもんかといえども、まちがえることはある。",
+      "en": "Even experts sometimes make mistakes.",
+      "note": "A general truth: even experts err."
+    },
+    {
+      "ja": "いかに親しい仲といえども、礼儀は必要だ。",
+      "reading": "いかにしたしいなかといえども、れいぎはひつようだ。",
+      "en": "However close the relationship, courtesy is still necessary.",
+      "note": "いかに + noun + といえども: however close."
+    },
+    {
+      "ja": "小さな会社といえども、法律は守らなければならない。",
+      "reading": "ちいさなかいしゃといえども、ほうりつはまもらなければならない。",
+      "en": "Even a small company must obey the law.",
+      "note": "Even small companies must obey the law: legal register."
+    },
+    {
+      "ja": "たとえ一円といえども、会社の金を私的に使ってはならない。",
+      "reading": "たとえいちえんといえども、かいしゃのかねをしてきにつかってはならない。",
+      "en": "Even a single yen of company money must not be used privately.",
+      "note": "たとえ + a minimal amount."
+    },
+    {
+      "ja": "いかに優れた技術といえども、使う人次第で凶器にもなる。",
+      "reading": "いかにすぐれたぎじゅつといえども、つかうひとしだいできょうきにもなる。",
+      "en": "However excellent a technology is, it can become a weapon depending on who uses it.",
+      "note": "Essay tone with いかに."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とはいえ",
+      "difference": "Formal \"that said\"; adds a reservation and can start a sentence. といえども is more solemn.",
+      "id": "n1-grammar-44"
+    },
+    {
+      "pattern": "〜といっても",
+      "difference": "Spoken hedge: \"although I say X, actually…\".",
+      "id": "n2-grammar-86"
+    },
+    {
+      "pattern": "〜であれ",
+      "difference": "\"Whatever N may be\", used with question words; not a concession of a specific X.",
+      "id": "n1-grammar-28"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "専門家といえども、間違えない。",
+      "right": "専門家といえども、間違えることはある。",
+      "why": "The clause after といえども must go against the expectation set by X."
+    },
+    {
+      "wrong": "専門家がといえども",
+      "right": "専門家といえども",
+      "why": "No particle between the noun and といえども."
+    },
+    {
+      "wrong": "疲れたといえども、遊びに行こう。",
+      "right": "疲れていても、遊びに行こう。",
+      "why": "といえども is too literary for casual plans; use ても."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: いかに, たとえ, どんなに, いくら.",
+    "Also 〜といえども例外ではない (\"is no exception\").",
+    "Equivalent in meaning to といっても, but the tone is solemn and written."
+  ],
+  "jlptTips": [
+    "A general truth with 専門家 / 子供 / 小さな会社 as the conceded subject → といえども.",
+    "とはいえ is the closest distractor; both fit many sentences, but if いかに / たとえ precede, といえども is expected.",
+    "The following clause must contradict the expectation; if it confirms it, the concession is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-37-1",
+    "q-n1-g-37-2",
+    "q-n1-g-37-3",
+    "q-n1-g-37-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-37-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

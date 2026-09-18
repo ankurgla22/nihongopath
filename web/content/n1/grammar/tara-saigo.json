@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-106",
+  "slug": "tara-saigo",
+  "level": "n1",
+  "order": 106,
+  "title": "〜たら最後 / 〜たが最後",
+  "romaji": "tara saigo / taga saigo",
+  "meaning": "once …, (there is no going back; a bad result follows)",
+  "simpleExplanation": "〜たら最後 / 〜たが最後 means \"once X happens, an unstoppable bad process follows\": 彼に秘密を話したら最後、町中に広まる (tell him a secret and it will be all over town). The second half is a negative consequence that cannot be reversed.",
+  "whenUsed": "Both speech and writing; たが最後 is more literary. Used for warnings and complaints about addictive games, gossips, a boss's temper, dangerous places. The consequence is usually dramatic or exaggerated.",
+  "formation": [
+    "Vたら + 最後、…",
+    "Vた + が最後、…",
+    "Second half: an inevitable bad consequence (二度と〜ない・〜なくなる・〜てしまう)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "このゲームを始めると、やめられない",
+        "en": "if you start this game, you cannot stop (plain)"
+      },
+      {
+        "ja": "このゲームは始めたが最後、やめられなくなる",
+        "en": "once you start this game, that is it: you will never be able to stop (dramatic, irreversible)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼に秘密を話したら最後、翌日には町中に広まっている。",
+      "reading": "かれにひみつをはなしたらさいご、よくじつにはまちじゅうにひろまっている。",
+      "en": "Once you tell him a secret, it will be all over town by the next day.",
+      "note": "Telling a secret triggers an irreversible spread."
+    },
+    {
+      "ja": "このゲームは始めたが最後、やめられなくなる。",
+      "reading": "このゲームははじめたがさいご、やめられなくなる。",
+      "en": "Once you start this game, you cannot stop.",
+      "note": "たが最後: a game you cannot quit."
+    },
+    {
+      "ja": "あの人は怒らせたら最後、二度と口をきいてくれない。",
+      "reading": "あのひとはおこらせたらさいご、にどとくちをきいてくれない。",
+      "en": "Once you make that person angry, they will never speak to you again.",
+      "note": "Making that person angry ends the relationship: 二度と〜ない."
+    },
+    {
+      "ja": "あの店の料理は一度食べたら最後、他の店では満足できなくなる。",
+      "reading": "あのみせのりょうりはいちどたべたらさいご、ほかのみせではまんぞくできなくなる。",
+      "en": "Once you have eaten at that restaurant, you will never be satisfied anywhere else.",
+      "note": "A humorous exaggeration."
+    },
+    {
+      "ja": "上司は話し出したが最後、一時間は止まらない。",
+      "reading": "じょうしははなしだしたがさいご、いちじかんはとまらない。",
+      "en": "Once the boss starts talking, he will not stop for an hour.",
+      "note": "Complaint about a habit."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばそれまでだ",
+      "difference": "\"If X, it is all over\": everything ends. たら最後 says a bad process continues.",
+      "id": "n1-grammar-76"
+    },
+    {
+      "pattern": "〜たら〜たで",
+      "difference": "\"If X, then there are problems of its own\": a different kind of \"if\".",
+      "id": "n1-grammar-155"
+    },
+    {
+      "pattern": "〜ものなら",
+      "difference": "\"If one were to (dare) X, then (a bad result)\": similar warning, but hypothetical rather than \"once it happens\".",
+      "id": "n2-grammar-158"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "薬を飲んだら最後、すぐ治る。",
+      "right": "薬を飲めば、すぐ治る。",
+      "why": "The consequence must be bad and irreversible."
+    },
+    {
+      "wrong": "始めるが最後",
+      "right": "始めたが最後",
+      "why": "The past form is required before が最後."
+    },
+    {
+      "wrong": "彼を怒らせたら最後だ。",
+      "right": "彼を怒らせたら最後、二度と口をきいてくれない。",
+      "why": "The pattern needs a second clause describing the consequence."
+    }
+  ],
+  "usageNotes": [
+    "The consequence often contains 二度と, 一生, もう, or a negative potential.",
+    "たが最後 sounds slightly more dramatic and written than たら最後.",
+    "The tone can be humorous (addictive snacks) or serious (irreversible harm)."
+  ],
+  "jlptTips": [
+    "A trigger in the past form + blank + an irreversible bad result → 最後 / が最後.",
+    "Distractors: それまでだ, ものなら, とたん. Check that the second clause continues (not just ends) and is negative.",
+    "In 並べ替え, keep Vたら最後 / Vたが最後 together and place the bad result after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-106-1",
+    "q-n1-g-106-2",
+    "q-n1-g-106-3",
+    "q-n1-g-106-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-106-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

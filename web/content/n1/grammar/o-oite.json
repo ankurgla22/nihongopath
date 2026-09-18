@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-90",
+  "slug": "o-oite",
+  "level": "n1",
+  "order": 90,
+  "title": "〜をおいて(ほかに)",
+  "romaji": "o oite (hoka ni)",
+  "meaning": "other than …; apart from … (there is nobody / nothing)",
+  "simpleExplanation": "〜をおいて(ほかに) + negative means \"apart from X, there is no one / nothing\": この役は彼女をおいてほかにいない (nobody but her can play this role). It is a strong statement that X is the only suitable candidate, and it usually praises X.",
+  "whenUsed": "Formal speech and writing: recommendations, speeches, reviews. Used to say that X is uniquely qualified. The sentence ends in a negative such as いない・ない・考えられない.",
+  "formation": [
+    "N + をおいて + (ほかに) + negative (いない・ない・考えられない)",
+    "Often: 〜のは、N + をおいてほかにいない",
+    "N is usually a person or a place that is uniquely suited"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この役を演じられるのは",
+        "role": "topic: the role"
+      },
+      {
+        "text": "彼女を",
+        "role": "the only candidate",
+        "highlight": true
+      },
+      {
+        "text": "おいて",
+        "role": "leaving aside",
+        "highlight": true
+      },
+      {
+        "text": "ほかにいない",
+        "role": "there is nobody else"
+      }
+    ],
+    "translation": "No one but her could play this role."
+  },
+  "examples": [
+    {
+      "ja": "この役を演じられるのは、彼女をおいてほかにいない。",
+      "reading": "このやくをえんじられるのは、かのじょをおいてほかにいない。",
+      "en": "No one but her could play this role.",
+      "note": "Only she can play the role: a strong endorsement."
+    },
+    {
+      "ja": "チームをまとめられる人は、田中さんをおいて考えられない。",
+      "reading": "チームをまとめられるひとは、たなかさんをおいてかんがえられない。",
+      "en": "I cannot think of anyone but Mr. Tanaka who could hold the team together.",
+      "note": "考えられない as the negative predicate."
+    },
+    {
+      "ja": "この仕事を頼むなら、彼をおいてほかにはない。",
+      "reading": "このしごとをたのむなら、かれをおいてほかにはない。",
+      "en": "If we are to ask someone to do this job, there is no one but him.",
+      "note": "ほかにはない with the negative は for emphasis."
+    },
+    {
+      "ja": "この難局を乗り切れるリーダーは、彼をおいてほかにはいないだろう。",
+      "reading": "このなんきょくをのりきれるリーダーは、かれをおいてほかにはいないだろう。",
+      "en": "There is surely no leader who could get us through this crisis other than him.",
+      "note": "Typical recommendation."
+    },
+    {
+      "ja": "桜を楽しむなら、この公園をおいてほかにない。",
+      "reading": "さくらをたのしむなら、このこうえんをおいてほかにない。",
+      "en": "For enjoying cherry blossoms, there is no place like this park.",
+      "note": "A place as the only candidate."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜しかない",
+      "difference": "Plain \"only X\". をおいて presents X as the uniquely suitable one, with praise and formality.",
+      "id": "n2-grammar-53"
+    },
+    {
+      "pattern": "〜ならでは(の)",
+      "difference": "\"Unique to X\" (京都ならではの味): a quality only X has, not a candidate selection.",
+      "id": "n1-grammar-53"
+    },
+    {
+      "pattern": "〜をよそに",
+      "difference": "Same を, different verb: \"ignoring X\". Do not confuse.",
+      "id": "n1-grammar-99"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼をおいてほかにいる。",
+      "right": "彼をおいてほかにいない。",
+      "why": "The pattern requires a negative ending."
+    },
+    {
+      "wrong": "この仕事は彼においてほかにいない。",
+      "right": "この仕事は彼をおいてほかにいない。",
+      "why": "The particle is を (from 置く), not に."
+    },
+    {
+      "wrong": "彼をおいて、みんな帰った。（意味：彼を残して）",
+      "right": "彼を残して、みんな帰った。",
+      "why": "をおいて in this grammar means \"other than\"; for \"leaving him behind\", use 残して."
+    }
+  ],
+  "usageNotes": [
+    "The nuance is admiring: X is the best or only choice.",
+    "ほかに can be dropped: 彼をおいていない, but adding it is clearer and more common.",
+    "The topic is often 〜できるのは or 〜にふさわしいのは."
+  ],
+  "jlptTips": [
+    "A topic like 〜できる人は + N + blank + いない / 考えられない → をおいて(ほかに).",
+    "Distractors: をよそに, をもって, ならでは. Only をおいて requires a negative ending naming a unique candidate.",
+    "In 並べ替え, N + をおいて and ほかに + negative usually form two chunks."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-90-1",
+    "q-n1-g-90-2",
+    "q-n1-g-90-3",
+    "q-n1-g-90-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-90-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

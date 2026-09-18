@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-180",
+  "slug": "beshi",
+  "level": "n1",
+  "order": 180,
+  "title": "〜べし",
+  "romaji": "beshi",
+  "meaning": "should; must; ought to (classical, sentence-final); is worth …ing",
+  "simpleExplanation": "Vる + べし is the classical ancestor of べきだ, used at the end of a sentence as a crisp command or recommendation: 大志を抱くべし = \"Be ambitious\"; 必ず観るべし = \"You must watch it\". It survives in slogans, proverbs, headlines, and playful emphatic writing. する becomes すべし.",
+  "whenUsed": "Written Japanese: slogans, mottos, proverbs, headlines, reviews (一見の価値あり、必ず観るべし), and humorous emphatic style. Not used in ordinary conversation, where べきだ / なければならない / たほうがいい are normal. Related forms: べからず (prohibition), べく (in order to), べき (attributive).",
+  "formation": [
+    "Vる + べし  (抱くべし・観るべし)",
+    "する → すべし (努力すべし)",
+    "Sentence-final only (attributive is べき: 読むべき本)",
+    "Family: べし (should) / べからず (must not) / べく (in order to) / べき + N"
+  ],
+  "diagram": {
+    "kind": "conjugation-tree",
+    "root": "べし",
+    "rootLabel": "classical auxiliary of obligation",
+    "branches": [
+      {
+        "suffix": "べし",
+        "result": "観るべし",
+        "label": "sentence-final: you must watch it"
+      },
+      {
+        "suffix": "べき",
+        "result": "観るべき映画",
+        "label": "attributive: a film one should see"
+      },
+      {
+        "suffix": "べく",
+        "result": "観るべく劇場へ",
+        "label": "purpose: in order to watch"
+      },
+      {
+        "suffix": "べからず",
+        "result": "観るべからず",
+        "label": "prohibition: must not watch"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "若者よ、大志を抱くべし。",
+      "reading": "わかものよ、たいしをいだくべし。",
+      "en": "Young people, be ambitious.",
+      "note": "A famous motto (Clark's 少年よ、大志を抱け rendered with べし)."
+    },
+    {
+      "ja": "この映画は一見の価値あり、必ず観るべし。",
+      "reading": "このえいがはいっけんのかちあり、かならずみるべし。",
+      "en": "This film is worth seeing; you must watch it.",
+      "note": "Review style: 一見の価値あり、必ず観るべし."
+    },
+    {
+      "ja": "後生畏るべし。",
+      "reading": "こうせいおそるべし。",
+      "en": "The young are to be respected (proverb: those who come after may surpass us).",
+      "note": "A proverb from the Analects; べし gives it weight."
+    },
+    {
+      "ja": "学生たるもの、まず基礎を固めるべし。",
+      "reading": "がくせいたるもの、まずきそをかためるべし。",
+      "en": "A student should, first of all, build a solid foundation.",
+      "note": "たるもの + べし: motto style."
+    },
+    {
+      "ja": "この店のカレー、辛党なら一度は試すべし。",
+      "reading": "このみせのカレー、からとうならいちどはためすべし。",
+      "en": "If you like spicy food, you must try this restaurant's curry at least once.",
+      "note": "Playful review register."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-145",
+      "pattern": "〜べき / 〜べきだ",
+      "difference": "The modern form. べきだ is used in speech and writing; べし is sentence-final, classical, and slogan-like."
+    },
+    {
+      "id": "n1-grammar-77",
+      "pattern": "〜べからず / 〜べからざる",
+      "difference": "The negative of べし: \"must not\", on signs and in fixed phrases."
+    },
+    {
+      "id": "n1-grammar-78",
+      "pattern": "〜べく",
+      "difference": "The purpose form: \"in order to\". Same root, different function."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読むべし本",
+      "right": "読むべき本",
+      "why": "Before a noun the form is べき; べし is only sentence-final."
+    },
+    {
+      "wrong": "勉強しべし",
+      "right": "勉強すべし",
+      "why": "する becomes すべし."
+    },
+    {
+      "wrong": "（会話で）明日は早く来るべし。",
+      "right": "明日は早く来るべきだ。/ 早く来てね。",
+      "why": "べし in conversation sounds like a slogan or a joke; use べきだ or a normal request."
+    }
+  ],
+  "usageNotes": [
+    "Learn the family together: べし / べき / べく / べからず / べくして.",
+    "Headlines and ads use べし for punch: 今すぐ申し込むべし.",
+    "In fiction it characterizes old-fashioned or authoritative speakers."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a slogan-like or headline-like sentence ending in a command is べし; before a noun the answer is べき instead.",
+    "Check する: すべし is correct, しべし is not.",
+    "In 並べ替え, べし is always the final chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-180-1",
+    "q-n1-g-180-2",
+    "q-n1-g-180-3",
+    "q-n1-g-180-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-180-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

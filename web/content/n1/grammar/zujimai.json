@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-145",
+  "slug": "zujimai",
+  "level": "n1",
+  "order": 145,
+  "title": "〜ずじまい",
+  "romaji": "zujimai",
+  "meaning": "ended up never …ing; never got around to … (in the end)",
+  "simpleExplanation": "Vない-stem + ずじまい says that something you meant to do never happened, and now the chance is gone. 金閣寺は見ずじまいだった = \"I ended up never seeing Kinkakuji\". じまい comes from 仕舞い (\"the end\"). The feeling is regret or a shrug of disappointment.",
+  "whenUsed": "Spoken and written, personal narratives and reflections. Usually about missed chances: not meeting someone, not saying something, not finishing something. Often with 結局 / せっかく〜のに / とうとう. It is a noun-like ending: 〜ずじまいだ / だった / で / に終わる.",
+  "formation": [
+    "Vない-stem + ずじまい  (見ずじまい・会わずじまい・言えずじまい)",
+    "する → せずじまい",
+    "Endings: 〜ずじまいだった / 〜ずじまいで / 〜ずじまいに終わった",
+    "Often with 結局・せっかく〜のに・とうとう"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "京都で金閣寺を見たかった",
+        "en": "the intention"
+      },
+      {
+        "ja": "でも時間がなかった",
+        "en": "something got in the way"
+      },
+      {
+        "ja": "金閣寺は見ずじまいだった",
+        "en": "the chance passed: never got to see it (regret)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "せっかく京都に行ったのに、金閣寺は見ずじまいだった。",
+      "reading": "せっかくきょうとにいったのに、きんかくじはみずじまいだった。",
+      "en": "Although I went all the way to Kyoto, I ended up not seeing Kinkakuji.",
+      "note": "せっかく〜のに sets up the missed chance; 見ずじまい closes it with regret."
+    },
+    {
+      "ja": "彼女に本当の気持ちを伝えられずじまいで、卒業してしまった。",
+      "reading": "かのじょにほんとうのきもちをつたえられずじまいで、そつぎょうしてしまった。",
+      "en": "I graduated without ever managing to tell her my true feelings.",
+      "note": "Potential negative + ずじまい (伝えられずじまい): could never manage to tell her."
+    },
+    {
+      "ja": "結局、その本は最後まで読まずじまいだ。",
+      "reading": "けっきょく、そのほんはさいごまでよまずじまいだ。",
+      "en": "In the end, I never finished reading that book.",
+      "note": "結局 + 読まずじまい: never finished, and that is final."
+    },
+    {
+      "ja": "何度も電話したが、彼とは連絡が取れずじまいだった。",
+      "reading": "なんどもでんわしたが、かれとはれんらくがとれずじまいだった。",
+      "en": "I called many times, but I never did manage to reach him.",
+      "note": "取れず (potential negative) + じまい."
+    },
+    {
+      "ja": "新しいカメラは、買ったものの一度も使わずじまいで押し入れに眠っている。",
+      "reading": "あたらしいカメラは、かったもののいちどもつかわずじまいでおしいれにねむっている。",
+      "en": "I bought the new camera but never once used it; it is sleeping in the closet.",
+      "note": "〜ずじまいで links to the present state."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-182",
+      "pattern": "〜ずじまい (N2 review)",
+      "difference": "Same pattern introduced at N2. At N1 it is tested against ずに終わる / ないままだ and in 並べ替え."
+    },
+    {
+      "pattern": "〜ないまま",
+      "difference": "\"Still not having done X\" as a continuing state (会わないまま別れた). ずじまい stresses that the chance is now closed."
+    },
+    {
+      "id": "n2-grammar-45",
+      "pattern": "〜ことなく",
+      "difference": "Formal \"without ever\" as a manner, no regret (誰にも知られることなく). ずじまい carries disappointment."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "宿題をせずじまいで、先生に怒られた。",
+      "right": "宿題をしないで、先生に怒られた。",
+      "why": "ずじまい is about a lost chance with regret, not about a routine task you simply skipped."
+    },
+    {
+      "wrong": "会うずじまい",
+      "right": "会わずじまい",
+      "why": "Attach ず to the ない-stem: 会わ + ず."
+    },
+    {
+      "wrong": "彼に会わずじまいたい。",
+      "right": "彼に会わずじまいだった。",
+      "why": "ずじまい is a noun-like result; it takes だ / だった / で, never たい."
+    }
+  ],
+  "usageNotes": [
+    "Set phrases: 会わずじまい・聞けずじまい・言えずじまい・行けずじまい・わからずじまい.",
+    "せっかく〜のに and 結局 are the natural companions; they announce a missed opportunity.",
+    "〜ずじまいに終わる is a slightly more formal way to say the same thing in writing."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, せっかく or 結局 + a ない-stem + a blank + だった is nearly always ずじまい.",
+    "Check the stem: options with the dictionary form (見るずじまい) are wrong.",
+    "In 並べ替え, ずじまい is one chunk that follows its verb stem; だった or で comes after."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-145-1",
+    "q-n1-g-145-2",
+    "q-n1-g-145-3",
+    "q-n1-g-145-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-145-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

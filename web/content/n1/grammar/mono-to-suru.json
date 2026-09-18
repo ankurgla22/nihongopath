@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-160",
+  "slug": "mono-to-suru",
+  "level": "n1",
+  "order": 160,
+  "title": "〜ものとする",
+  "romaji": "mono to suru",
+  "meaning": "shall …; is to be …; shall be deemed … (rules and contracts)",
+  "simpleExplanation": "〜ものとする is the language of rules, contracts, and regulations: 会員は年会費を納入するものとする = \"Members shall pay the annual fee\". It states what is to be done or how something is to be treated, without addressing anyone directly. 〜ものとみなす means \"shall be deemed\".",
+  "whenUsed": "Written legal and administrative Japanese only: contracts, terms of service, bylaws, school rules, official notices. Never in conversation. Polite ものとします appears in terms of use.",
+  "formation": [
+    "普通形 (usually Vる / Vない) + ものとする",
+    "〜ものとします (polite, terms of service)",
+    "〜ものとみなす (shall be deemed)",
+    "〜ものと定める / 〜ものと解釈する (related legal phrases)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Legal endings",
+    "columns": [
+      "form",
+      "meaning",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜ものとする",
+        "cells": [
+          "shall (rule)",
+          "states a duty or arrangement",
+          "四月末までに納入するものとする"
+        ]
+      },
+      {
+        "label": "〜ものとみなす",
+        "cells": [
+          "shall be deemed",
+          "treats a case as if it were another",
+          "返答がない場合は同意したものとみなす"
+        ]
+      },
+      {
+        "label": "〜なければならない",
+        "cells": [
+          "must (ordinary)",
+          "everyday obligation",
+          "四月末までに払わなければならない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "会員は年会費を四月末までに納入するものとする。",
+      "reading": "かいいんはねんかいひをしがつまつまでにのうにゅうするものとする。",
+      "en": "Members shall pay the annual fee by the end of April.",
+      "note": "A bylaw: members shall pay by the end of April."
+    },
+    {
+      "ja": "本契約は、双方の署名をもって成立するものとする。",
+      "reading": "ほんけいやくは、そうほうのしょめいをもってせいりつするものとする。",
+      "en": "This contract shall take effect upon signature by both parties.",
+      "note": "A contract clause: takes effect upon signature."
+    },
+    {
+      "ja": "期限までに返答がない場合は、同意したものとみなす。",
+      "reading": "きげんまでにへんとうがないばあいは、どういしたものとみなす。",
+      "en": "If there is no reply by the deadline, it shall be deemed that you have agreed.",
+      "note": "ものとみなす: silence is treated as consent."
+    },
+    {
+      "ja": "本規約は、予告なく変更することがあるものとします。",
+      "reading": "ほんきやくは、よこくなくへんこうすることがあるものとします。",
+      "en": "These terms may be changed without prior notice.",
+      "note": "Terms-of-service register."
+    },
+    {
+      "ja": "退職者は、貸与された備品を速やかに返却するものとする。",
+      "reading": "たいしょくしゃは、たいよされたびひんをすみやかにへんきゃくするものとする。",
+      "en": "Employees leaving the company shall promptly return all equipment lent to them.",
+      "note": "Company regulation."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-47",
+      "pattern": "〜ことになっている",
+      "difference": "Describes an existing rule from the outside (\"it is arranged that\"). ものとする is the wording of the rule itself."
+    },
+    {
+      "id": "n2-grammar-145",
+      "pattern": "〜べきだ",
+      "difference": "A moral or logical \"should\" from the speaker. ものとする is impersonal and binding."
+    },
+    {
+      "id": "n1-grammar-77",
+      "pattern": "〜べからず",
+      "difference": "Classical prohibition on signs (立入るべからず). ものとする states positive or negative rules in documents."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（会話で）明日は九時に集まるものとする。",
+      "right": "明日は九時に集まることにしよう。",
+      "why": "ものとする is document language; in speech it sounds like reading a law aloud."
+    },
+    {
+      "wrong": "会員は年会費を納入するものです。",
+      "right": "会員は年会費を納入するものとする。",
+      "why": "ものです explains a general truth; the binding rule uses ものとする."
+    },
+    {
+      "wrong": "返答がない場合は同意するものとみなす。",
+      "right": "返答がない場合は同意したものとみなす。",
+      "why": "みなす treats a completed state as given; the past form 同意した is standard."
+    }
+  ],
+  "usageNotes": [
+    "Related legal vocabulary: 本契約・甲・乙・当該・速やかに・〜の場合は・〜に基づき.",
+    "ものとみなす often pairs with 〜ない場合は to define what silence or absence means.",
+    "Reading ability with this pattern matters for 読解 passages taken from notices and regulations."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a contract or rule sentence with 本契約 / 会員 / 場合 and a blank at the end is ものとする or ものとみなす.",
+    "Choose ものとみなす when one situation is treated as another (silence = consent); choose ものとする for a plain rule.",
+    "In 読解, treat 〜ものとする as \"shall\" and do not mistake it for a description of what people usually do."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-160-1",
+    "q-n1-g-160-2",
+    "q-n1-g-160-3",
+    "q-n1-g-160-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-160-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

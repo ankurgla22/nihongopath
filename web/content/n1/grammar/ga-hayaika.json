@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-105",
+  "slug": "ga-hayaika",
+  "level": "n1",
+  "order": 105,
+  "title": "〜が早いか",
+  "romaji": "ga hayaika",
+  "meaning": "as soon as …; no sooner … than …",
+  "simpleExplanation": "〜が早いか means \"the instant X happened, Y happened\": ベルが鳴るが早いか、教室を飛び出した. Literally \"which was earlier, X or Y?\", i.e. they were almost simultaneous. Y is a quick, deliberate action, usually by the same person, in the past.",
+  "whenUsed": "Formal written Japanese: narrative, news, sports reporting. It creates a vivid image of someone acting the instant something happens. Y cannot be a command, intention or natural phenomenon; it is an action someone takes.",
+  "formation": [
+    "Vる / Vた + が早いか、Vた",
+    "Y = a quick deliberate action (飛び出す・駆けつける・食べ始める)",
+    "Same subject in both clauses is typical"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"The moment…\" expressions",
+    "columns": [
+      "Form",
+      "Y clause",
+      "Nuance"
+    ],
+    "rows": [
+      {
+        "label": "〜が早いか",
+        "cells": [
+          "Vる/Vた + が早いか",
+          "quick deliberate action",
+          "almost simultaneous"
+        ]
+      },
+      {
+        "label": "〜や否や",
+        "cells": [
+          "Vる + や否や",
+          "any sudden event",
+          "no gap at all"
+        ]
+      },
+      {
+        "label": "〜なり",
+        "cells": [
+          "Vる + なり",
+          "unexpected action, same subject",
+          "immediately"
+        ]
+      },
+      {
+        "label": "〜たとたん(に)",
+        "cells": [
+          "Vた + とたん",
+          "surprising result",
+          "neutral register"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼はベルが鳴るが早いか、教室を飛び出した。",
+      "reading": "かれはベルがなるがはやいか、きょうしつをとびだした。",
+      "en": "No sooner had the bell rung than he dashed out of the classroom.",
+      "note": "The bell rings, he dashes out: a quick deliberate action."
+    },
+    {
+      "ja": "横になるが早いか、いびきをかき始めた。",
+      "reading": "よこになるがはやいか、いびきをかきはじめた。",
+      "en": "The moment he lay down, he started snoring.",
+      "note": "Lying down and snoring: a rapid sequence."
+    },
+    {
+      "ja": "その知らせを聞くが早いか、母は病院へ駆けつけた。",
+      "reading": "そのしらせをきくがはやいか、はははびょういんへかけつけた。",
+      "en": "As soon as she heard the news, my mother rushed to the hospital.",
+      "note": "Hearing the news, the mother rushes: 駆けつけた."
+    },
+    {
+      "ja": "彼は席に着くが早いか、弁当を食べ始めた。",
+      "reading": "かれはせきにつくがはやいか、べんとうをたべはじめた。",
+      "en": "The moment he sat down, he started eating his lunch.",
+      "note": "Same subject, quick action."
+    },
+    {
+      "ja": "開店のドアが開いたが早いか、客たちは売り場へ走った。",
+      "reading": "かいてんのドアがひらいたがはやいか、きゃくたちはうりばへはしった。",
+      "en": "The instant the shop door opened, the customers ran to the sales floor.",
+      "note": "Vた + が早いか is also possible."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜や否や",
+      "difference": "Almost the same timing, but Y can be any sudden event, including reactions and natural results.",
+      "id": "n1-grammar-88"
+    },
+    {
+      "pattern": "〜なり",
+      "difference": "Same subject and an unexpected action; slightly more narrative.",
+      "id": "n1-grammar-55"
+    },
+    {
+      "pattern": "〜そばから",
+      "difference": "A repeated pattern (\"no sooner … than\" again and again), not a single event.",
+      "id": "n1-grammar-22"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ベルが鳴るが早いか、教室を出なさい。",
+      "right": "ベルが鳴ったらすぐ、教室を出なさい。",
+      "why": "Y cannot be a command."
+    },
+    {
+      "wrong": "雨が降るが早いか、道が濡れた。",
+      "right": "雨が降るや否や、道が濡れた。",
+      "why": "A natural result is not a deliberate action; use や否や or とたん."
+    },
+    {
+      "wrong": "鳴ったの早いか",
+      "right": "鳴ったが早いか",
+      "why": "The particle is が."
+    }
+  ],
+  "usageNotes": [
+    "Y is typically energetic: 飛び出す・駆け出す・飛びつく・食べ始める.",
+    "Both the dictionary form and the past form are accepted before が早いか.",
+    "It is a set phrase; 早い does not change form."
+  ],
+  "jlptTips": [
+    "A trigger verb + blank + a quick deliberate past action → が早いか.",
+    "If the second clause is a reaction or event rather than a deliberate action, や否や or とたん is more likely.",
+    "Eliminate options if Y is a command, intention or conjecture."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-105-1",
+    "q-n1-g-105-2",
+    "q-n1-g-105-3",
+    "q-n1-g-105-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-105-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

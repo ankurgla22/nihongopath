@@ -1,0 +1,128 @@
+{
+  "id": "n1-grammar-23",
+  "slug": "tada-nomi",
+  "level": "n1",
+  "order": 23,
+  "title": "ただ〜のみ / ただ〜のみならず",
+  "romaji": "tadanomi-tadanominarazu",
+  "meaning": "only …; nothing but …; not only … (but also)",
+  "simpleExplanation": "のみ is the formal equivalent of だけ, and ただ in front of it reinforces the exclusivity: ただ待つのみ \"there is nothing to do but wait\". ただ〜のみならず means \"not only … (but also)\", the formal version of だけでなく.",
+  "whenUsed": "書き言葉 and speeches. Common at the end of a sentence (〜のみだ) to express resignation or resolve, and in formal explanations with のみならず.",
+  "formation": [
+    "ただ + Vる + のみ(だ)",
+    "ただ + Noun + のみ(だ)",
+    "ただ + Noun / Vる + のみならず + 〜も",
+    "Noun + のみ (without ただ) is also common in notices"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "今は",
+        "role": "time topic"
+      },
+      {
+        "text": "ただ",
+        "role": "reinforces exclusivity",
+        "highlight": true
+      },
+      {
+        "text": "結果を待つ",
+        "role": "the only action"
+      },
+      {
+        "text": "のみだ",
+        "role": "\"only\" (formal だけ)",
+        "highlight": true
+      }
+    ],
+    "translation": "Now all we can do is wait for the result."
+  },
+  "examples": [
+    {
+      "ja": "今はただ、結果を待つのみだ。",
+      "reading": "いまはただ、けっかをまつのみだ。",
+      "en": "Now all we can do is wait for the result.",
+      "note": "Resolute resignation: nothing to do but wait."
+    },
+    {
+      "ja": "彼を救えるのは、ただ君のみだ。",
+      "reading": "かれをすくえるのは、ただきみのみだ。",
+      "en": "You are the only one who can save him.",
+      "note": "Noun + のみ: you alone."
+    },
+    {
+      "ja": "この薬はただ痛みを抑えるのみならず、炎症も鎮める。",
+      "reading": "このくすりはただいたみをおさえるのみならず、えんしょうもしずめる。",
+      "en": "This medicine not only relieves pain but also reduces inflammation.",
+      "note": "のみならず = not only, formal だけでなく."
+    },
+    {
+      "ja": "問題は、ただ費用のみならず、安全性にもある。",
+      "reading": "もんだいは、ただひようのみならず、あんぜんせいにもある。",
+      "en": "The problem lies not only in cost but also in safety.",
+      "note": "ただ〜のみならず + にも."
+    },
+    {
+      "ja": "やるべきことはやった。あとはただ天命を待つのみ。",
+      "reading": "やるべきことはやった。あとはただてんめいをまつのみ。",
+      "en": "I have done all I can; now I can only await fate.",
+      "note": "Sentence-final のみ without だ has a proverb-like ring."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だけ",
+      "difference": "Everyday equivalent; のみ is formal and written.",
+      "id": "n2-grammar-62"
+    },
+    {
+      "pattern": "〜のみならず",
+      "difference": "The \"not only\" half on its own; ただ adds emphasis.",
+      "id": "n2-grammar-137"
+    },
+    {
+      "pattern": "ひとり〜のみならず",
+      "difference": "Even more formal \"not only\" with ひとり in front: ひとり日本のみならず.",
+      "id": "n1-grammar-117"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ただ待つだけのみだ。",
+      "right": "ただ待つのみだ。",
+      "why": "Do not stack だけ and のみ; they mean the same thing."
+    },
+    {
+      "wrong": "ただ値段のみならず、品質もいい。",
+      "right": "ただ値段が安いのみならず、品質もいい。",
+      "why": "のみならず follows a noun or a clause; with a bare noun the sentence must make sense as \"not only [noun]\", so add the predicate."
+    },
+    {
+      "wrong": "この券は本人のみが使用できるだけだ。",
+      "right": "この券は本人のみ使用できる。",
+      "why": "One exclusivity marker is enough."
+    }
+  ],
+  "usageNotes": [
+    "Sentence-final のみ without だ sounds resolute or literary.",
+    "Notices use Nのみ: 関係者のみ立ち入り可.",
+    "ただ + question word + のみ: ただ一人のみ, ただそれのみ."
+  ],
+  "jlptTips": [
+    "When the sentence expresses \"all we can do is…\" with 待つ / 祈る / 進む, choose のみ (with ただ if given).",
+    "In のみならず questions, expect 〜も / 〜にも in the second half.",
+    "Distractors: ばかり (\"just did\" or \"only, negatively\"), しか (needs a negative)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-23-1",
+    "q-n1-g-23-2",
+    "q-n1-g-23-3",
+    "q-n1-g-23-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-23-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-102",
+  "slug": "n-to-suru",
+  "level": "n1",
+  "order": 102,
+  "title": "〜んとする / 〜んとしている",
+  "romaji": "n to suru / n to shite iru",
+  "meaning": "be about to …; be trying to …",
+  "simpleExplanation": "〜んとする is the classical equivalent of 〜ようとする. It has two meanings: (1) \"be just about to\": 夕日が沈まんとしている (the sun is about to set); (2) \"try to / seek to\": 真実を明らかにせんとして (seeking to reveal the truth). The ん is the classical volitional on the ない-stem.",
+  "whenUsed": "Highly literary written Japanese: novels, speeches, historical narrative. Meaning 1 often takes まさに and describes natural events or the end of an era; meaning 2 describes determined efforts. In ordinary Japanese, ようとする is used.",
+  "formation": [
+    "Vない-stem + んとする / んとしている",
+    "する → せんとする",
+    "まさに〜んとする (just about to)",
+    "〜んとして、V (in an attempt to)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two meanings of んとする",
+    "columns": [
+      "Meaning",
+      "Modern equivalent",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. About to",
+        "cells": [
+          "just on the point of",
+          "〜ようとしている",
+          "夕日が沈まんとしている"
+        ]
+      },
+      {
+        "label": "2. Try to",
+        "cells": [
+          "seeking to",
+          "〜ようとして",
+          "真実を明らかにせんとして"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "夕日がまさに沈まんとしている。",
+      "reading": "ゆうひがまさにしずまんとしている。",
+      "en": "The evening sun is just about to set.",
+      "note": "Meaning 1 with まさに: the sun about to set."
+    },
+    {
+      "ja": "彼は真実を明らかにせんとして、調査を続けた。",
+      "reading": "かれはしんじつをあきらかにせんとして、ちょうさをつづけた。",
+      "en": "Seeking to bring the truth to light, he continued his investigation.",
+      "note": "Meaning 2: seeking to reveal the truth; せんとして from する."
+    },
+    {
+      "ja": "二十世紀が終わらんとする頃、彼は生まれた。",
+      "reading": "にじゅっせいきがおわらんとするころ、かれはうまれた。",
+      "en": "He was born just as the twentieth century was about to end.",
+      "note": "Meaning 1 with a period of time: as the century was ending."
+    },
+    {
+      "ja": "会議が始まらんとするその時、電話が鳴った。",
+      "reading": "かいぎがはじまらんとするそのとき、でんわがなった。",
+      "en": "Just as the meeting was about to start, the phone rang.",
+      "note": "Meaning 1 in narrative."
+    },
+    {
+      "ja": "彼は困難な状況を打開せんとして、あらゆる手を尽くした。",
+      "reading": "かれはこんなんなじょうきょうをだかいせんとして、あらゆるてをつくした。",
+      "en": "Seeking to break the deadlock, he tried every possible means.",
+      "note": "Meaning 2."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜んばかり(に)",
+      "difference": "Same ん, but \"as if about to\" (an appearance, not an actual imminent event).",
+      "id": "n1-grammar-101"
+    },
+    {
+      "pattern": "〜んがため(に)",
+      "difference": "Same ん, expressing purpose.",
+      "id": "n1-grammar-100"
+    },
+    {
+      "pattern": "〜つつある",
+      "difference": "\"Is in the process of\" (a gradual change already under way); んとする is the moment just before.",
+      "id": "n2-grammar-74"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "沈むんとしている",
+      "right": "沈まんとしている",
+      "why": "Attach ん to the ない-stem."
+    },
+    {
+      "wrong": "するんとする",
+      "right": "せんとする",
+      "why": "する becomes せん."
+    },
+    {
+      "wrong": "彼は出かけんとした。（日常の日記で）",
+      "right": "彼は出かけようとした。",
+      "why": "In ordinary writing, use ようとした; んとする is reserved for literary style."
+    }
+  ],
+  "usageNotes": [
+    "まさに〜んとする is a favourite for dramatic moments in stories.",
+    "Meaning 2 often appears in biographies of determined people.",
+    "Keep the three ん patterns apart: んがため (purpose), んばかり (as if), んとする (about to / try to)."
+  ],
+  "jlptTips": [
+    "まさに + ない-stem + ん + blank → とする / としている.",
+    "Distractors: んばかりに, んがために, つつある. Look for まさに or a determined action.",
+    "Conjugation traps: せんとする for する, 終わらんとする for 終わる."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-102-1",
+    "q-n1-g-102-2",
+    "q-n1-g-102-3",
+    "q-n1-g-102-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-102-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

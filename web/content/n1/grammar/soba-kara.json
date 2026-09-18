@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-22",
+  "slug": "soba-kara",
+  "level": "n1",
+  "order": 22,
+  "title": "〜そばから",
+  "romaji": "sobakara",
+  "meaning": "as soon as … (it is undone again); no sooner … than …",
+  "simpleExplanation": "Vるそばから / Vたそばから describes a frustrating cycle: as soon as A happens, B immediately cancels it out, and this keeps repeating. 片付けるそばから散らかす \"as soon as I tidy up, they mess it up again\". The key nuance is repetition and futility.",
+  "whenUsed": "Both registers; common in complaints about children, memory, or work. Not for a single dramatic event.",
+  "formation": [
+    "Vる + そばから",
+    "Vた + そばから",
+    "A そばから B: B undoes A, repeatedly"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"As soon as\" family",
+    "columns": [
+      "nuance",
+      "one-off or repeated",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜そばから",
+        "cells": [
+          "A is immediately undone by B",
+          "repeated, frustrating",
+          "覚えたそばから忘れる"
+        ]
+      },
+      {
+        "label": "〜や否や",
+        "cells": [
+          "B follows A instantly",
+          "one-off, dramatic",
+          "着くや否や出かけた"
+        ]
+      },
+      {
+        "label": "〜なり",
+        "cells": [
+          "unexpected B by the same subject",
+          "one-off, past",
+          "帰るなり寝た"
+        ]
+      },
+      {
+        "label": "〜たとたん",
+        "cells": [
+          "B happens at the moment of A",
+          "one-off, often surprise",
+          "開けたとたん倒れた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "片付けるそばから、子供が散らかしていく。",
+      "reading": "かたづけるそばから、こどもがちらかしていく。",
+      "en": "As soon as I tidy up, the kids mess it up again.",
+      "note": "Tidying is undone by the children again and again."
+    },
+    {
+      "ja": "覚えたそばから忘れてしまう。",
+      "reading": "おぼえたそばからわすれてしまう。",
+      "en": "I forget things right after I memorize them.",
+      "note": "Memorising is undone by forgetting."
+    },
+    {
+      "ja": "注意したそばから、また同じミスをする。",
+      "reading": "ちゅういしたそばから、またおなじミスをする。",
+      "en": "Right after being warned, he makes the same mistake again.",
+      "note": "Warning is undone by the same mistake; note the general present tense."
+    },
+    {
+      "ja": "お金は入ってくるそばから出ていってしまう。",
+      "reading": "おかねははいってくるそばからでていってしまう。",
+      "en": "Money goes out as fast as it comes in.",
+      "note": "A common complaint about finances."
+    },
+    {
+      "ja": "書類を処理したそばから、新しい依頼が届く。",
+      "reading": "しょるいをしょりしたそばから、あたらしいいらいがとどく。",
+      "en": "No sooner have I dealt with one document than a new request arrives.",
+      "note": "Endless work: the cycle nuance."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜や否や",
+      "difference": "One-off \"the instant that\"; no sense of repetition or undoing.",
+      "id": "n1-grammar-88"
+    },
+    {
+      "pattern": "〜が早いか",
+      "difference": "One-off, emphasises speed of the second action.",
+      "id": "n1-grammar-105"
+    },
+    {
+      "pattern": "〜なり",
+      "difference": "One-off, past, same subject, unexpected next action.",
+      "id": "n1-grammar-55"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "駅に着いたそばから電話が鳴った。",
+      "right": "駅に着くや否や電話が鳴った。",
+      "why": "A single event with no repetition takes や否や / たとたん; そばから implies a repeated cycle."
+    },
+    {
+      "wrong": "そばから覚えるそばから忘れる。",
+      "right": "覚えるそばから忘れる。",
+      "why": "そばから goes only after the first verb."
+    },
+    {
+      "wrong": "彼は宿題をするそばから褒められる。",
+      "right": "彼は宿題をするそばから遊びに行ってしまう。",
+      "why": "The second clause must undo or frustrate the first; a positive result does not fit."
+    }
+  ],
+  "usageNotes": [
+    "Typical pairs: 片付ける→散らかす, 覚える→忘れる, 洗う→汚す, 稼ぐ→使う, 注意する→繰り返す.",
+    "The tense is usually general (present) because the cycle repeats.",
+    "Often has an exasperated tone; fits complaints."
+  ],
+  "jlptTips": [
+    "Look for a verb pair where the second undoes the first and a sense of repetition; that is そばから, not や否や.",
+    "If the sentence is a single past event with a surprising follow-up, choose なり or や否や instead.",
+    "Both Vる and Vた are accepted before そばから; do not reject an option for the tense alone."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-22-1",
+    "q-n1-g-22-2",
+    "q-n1-g-22-3",
+    "q-n1-g-22-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-22-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

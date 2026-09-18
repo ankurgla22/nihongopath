@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-170",
+  "slug": "to-ii-to-ii",
+  "level": "n1",
+  "order": 170,
+  "title": "〜といい〜といい",
+  "romaji": "to ii ... to ii",
+  "meaning": "both X and Y (are …); in terms of X and Y alike",
+  "simpleExplanation": "XといいYといい picks two representative points and says the overall judgment holds for both: 色といいデザインといい、申し分ない = \"In colour and in design alike, it is beyond reproach\". The judgment is usually admiring, sometimes critical, and always about the whole thing.",
+  "whenUsed": "Spoken and written, common in reviews, praise, and evaluations. Attaches to nouns only. The second half is an evaluation: 申し分ない・最高だ・素晴らしい・ひどい.",
+  "formation": [
+    "N + といい + N + といい、+ evaluation",
+    "Pairs: 色 / デザイン, 味 / 値段, 父 / 母, 演技 / 音楽",
+    "Second half: 申し分ない・最高だ・完璧だ・ひどい"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "色といい",
+        "role": "point 1",
+        "highlight": true
+      },
+      {
+        "text": "デザインといい",
+        "role": "point 2",
+        "highlight": true
+      },
+      {
+        "text": "このバッグは申し分ない",
+        "role": "overall judgment"
+      }
+    ],
+    "translation": "In colour and in design, this bag is beyond reproach."
+  },
+  "examples": [
+    {
+      "ja": "色といいデザインといい、このバッグは申し分ない。",
+      "reading": "いろといいデザインといい、このバッグはもうしぶんない。",
+      "en": "In color and in design, this bag is beyond reproach.",
+      "note": "Two aspects (colour, design) lead to a positive verdict."
+    },
+    {
+      "ja": "味といい値段といい、あの店は最高だ。",
+      "reading": "あじといいねだんといい、あのみせはさいこうだ。",
+      "en": "In taste and in price, that restaurant is the best.",
+      "note": "Taste and price: both support 最高."
+    },
+    {
+      "ja": "父といい母といい、うちの親は心配性だ。",
+      "reading": "ちちといいははといい、うちのおやはしんぱいしょうだ。",
+      "en": "Both my father and my mother are worriers.",
+      "note": "Two people (father, mother) share the same trait."
+    },
+    {
+      "ja": "景色といい料理といい、この旅館は期待以上だった。",
+      "reading": "けしきといいりょうりといい、このりょかんはきたいいじょうだった。",
+      "en": "The scenery, the food, this inn exceeded expectations on every count.",
+      "note": "Review register."
+    },
+    {
+      "ja": "態度といい言葉遣いといい、あの店員はひどかった。",
+      "reading": "たいどといいことばづかいといい、あのてんいんはひどかった。",
+      "en": "His attitude, his language, that shop assistant was awful in every way.",
+      "note": "Critical use."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-166",
+      "pattern": "〜と言わず〜と言わず",
+      "difference": "Implies \"everywhere, all of it\" for a state. といい〜といい presents two aspects as evidence for a judgment."
+    },
+    {
+      "id": "n2-grammar-151",
+      "pattern": "〜も〜ば〜も",
+      "difference": "A neutral list of two things that both apply. といい〜といい is evaluative."
+    },
+    {
+      "id": "n1-grammar-29",
+      "pattern": "〜であれ〜であれ",
+      "difference": "\"Whether X or Y, the same holds\": alternatives. といい〜といい is about two qualities of one thing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "色といいデザインといい、買った。",
+      "right": "色といいデザインといい、申し分ない。",
+      "why": "The second half must be an evaluation, not an action."
+    },
+    {
+      "wrong": "安いといい軽いといい",
+      "right": "値段といい重さといい",
+      "why": "といい attaches to nouns only; turn adjectives into nouns."
+    },
+    {
+      "wrong": "色といい、申し分ない。",
+      "right": "色といいデザインといい、申し分ない。",
+      "why": "Two items are required."
+    }
+  ],
+  "usageNotes": [
+    "The two items are chosen as representative; the verdict covers the whole.",
+    "It comes from と言い (\"to speak of\"), so it feels like listing points of comparison.",
+    "A colon-like と after the second item (といいといいと) is not used; go straight to the judgment."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, two nouns each followed by a blank and an evaluative ending (申し分ない・最高だ) points to といい〜といい.",
+    "Distractor と言わず〜と言わず: it describes total coverage of a state, not a judgment.",
+    "In 並べ替え, the two といい chunks come first, then the subject and the verdict."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-170-1",
+    "q-n1-g-170-2",
+    "q-n1-g-170-3",
+    "q-n1-g-170-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-170-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

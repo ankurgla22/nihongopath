@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-39",
+  "slug": "to-ittara-nai",
+  "level": "n1",
+  "order": 39,
+  "title": "〜といったらない / 〜といったらありはしない",
+  "romaji": "toittaranai-toittaraarihashinai",
+  "meaning": "indescribably …; extremely …",
+  "simpleExplanation": "Xといったらない (also といったらありはしない / ありゃしない) is an exclamation: \"the X-ness of it was beyond words\". It takes a noun or an い-adjective, often an emotion or a quality, and expresses the speaker's strong feeling, positive or negative.",
+  "whenUsed": "話し言葉寄り, also in narrative writing. といったらない is neutral in tone; ありはしない / ありゃしない are colloquial and used mostly for complaints.",
+  "formation": [
+    "Noun + といったらない (嬉しさといったらない)",
+    "い-adjective + といったらない (うるさいといったらない)",
+    "〜といったらありはしない / ありゃしない (colloquial, negative feelings)",
+    "Past: 〜といったらなかった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Exclaiming a degree",
+    "columns": [
+      "form",
+      "tone",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜といったらない",
+        "cells": [
+          "N / Aい + といったらない",
+          "strong, positive or negative",
+          "嬉しさといったらない"
+        ]
+      },
+      {
+        "label": "〜といったらありゃしない",
+        "cells": [
+          "N / Aい + といったらありゃしない",
+          "colloquial complaint",
+          "うるさいといったらありゃしない"
+        ]
+      },
+      {
+        "label": "〜極まりない",
+        "cells": [
+          "na-adjective stem + 極まりない",
+          "formal criticism",
+          "失礼極まりない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "徹夜明けの眠さといったらなかった。",
+      "reading": "てつやあけのねむさといったらなかった。",
+      "en": "The sleepiness after pulling an all-nighter was beyond words.",
+      "note": "Noun (眠さ) + といったらなかった: past."
+    },
+    {
+      "ja": "優勝が決まった瞬間の嬉しさといったらない。",
+      "reading": "ゆうしょうがきまったしゅんかんのうれしさといったらない。",
+      "en": "The joy at the moment the championship was decided was indescribable.",
+      "note": "Positive emotion: joy beyond words."
+    },
+    {
+      "ja": "毎日同じ話を聞かされて、うっとうしいといったらありゃしない。",
+      "reading": "まいにちおなじはなしをきかされて、うっとうしいといったらありゃしない。",
+      "en": "Being made to hear the same story every day is unbearably annoying.",
+      "note": "Colloquial complaint with ありゃしない."
+    },
+    {
+      "ja": "初めて富士山の頂上から見た朝日の美しさといったらなかった。",
+      "reading": "はじめてふじさんのちょうじょうからみたあさひのうつくしさといったらなかった。",
+      "en": "The beauty of the sunrise I first saw from the summit of Mt Fuji was beyond words.",
+      "note": "Noun made from an adjective (美しさ)."
+    },
+    {
+      "ja": "隣の工事の音がうるさいといったらありはしない。",
+      "reading": "となりのこうじのおとがうるさいといったらありはしない。",
+      "en": "The noise from the construction next door is unbearably loud.",
+      "note": "い-adjective + colloquial variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜極まりない",
+      "difference": "Formal, written, and only with negative na-adjective stems.",
+      "id": "n1-grammar-13"
+    },
+    {
+      "pattern": "〜かぎりだ",
+      "difference": "Formal expression of the speaker's own emotion (嬉しいかぎりだ); no exclamatory tone.",
+      "id": "n1-grammar-6"
+    },
+    {
+      "pattern": "〜てたまらない",
+      "difference": "\"So X I can't stand it\"; describes an internal feeling rather than exclaiming about a scene.",
+      "id": "n2-grammar-79"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "嬉しいさといったらない。",
+      "right": "嬉しさといったらない。",
+      "why": "Nominalise correctly: 嬉しい → 嬉しさ."
+    },
+    {
+      "wrong": "静かなといったらない。",
+      "right": "静かさといったらない / 静かだといったらない。",
+      "why": "Na-adjectives need the noun form (さ) or だ."
+    },
+    {
+      "wrong": "彼はうるさいといったらないと言った。",
+      "right": "彼はうるさいといったらないと嘆いた。",
+      "why": "The pattern expresses the speaker's own exclamation; embedding it needs a verb of feeling."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 嬉しさ, 悔しさ, 眠さ, 美しさ, 悲しさ, 混雑, 騒音.",
+    "The past form といったらなかった is common in narration.",
+    "ありゃしない is very casual; do not use it in writing."
+  ],
+  "jlptTips": [
+    "A noun in さ form or an い-adjective followed by the blank and no other predicate → といったらない.",
+    "If the option ends in ありゃしない, expect a complaint context.",
+    "極まりない is the formal distractor; it requires a na-adjective stem such as 失礼."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-39-1",
+    "q-n1-g-39-2",
+    "q-n1-g-39-3",
+    "q-n1-g-39-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-39-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

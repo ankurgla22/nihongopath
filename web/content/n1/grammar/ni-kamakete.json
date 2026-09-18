@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-127",
+  "slug": "ni-kamakete",
+  "level": "n1",
+  "order": 127,
+  "title": "〜にかまけて",
+  "romaji": "ni kamakete",
+  "meaning": "being so taken up with … (that one neglects something else)",
+  "simpleExplanation": "〜にかまけて says a person was so busy with or absorbed in X that they neglected something more important. かまける means \"to be preoccupied\". The second half of the sentence always shows the neglect: not making time for family, letting studies slide. The tone is regretful or critical.",
+  "whenUsed": "Both spoken and written Japanese, often in reflections and mild self-criticism (仕事にかまけて…). Typical X: 仕事・遊び・恋愛・趣味・雑事・目の前のこと. Always negative in judgment; you cannot use it for something you are proud of doing.",
+  "formation": [
+    "N + にかまけて + (neglect clause)",
+    "N + にかまけている / かまけていた (sentence-final, \"is wrapped up in\")",
+    "Typical nouns: 仕事・遊び・部活・恋愛・忙しさ・日々の雑事"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "仕事",
+        "role": "what one is absorbed in"
+      },
+      {
+        "text": "にかまけて",
+        "role": "\"too taken up with\"",
+        "highlight": true
+      },
+      {
+        "text": "家族との時間を取れなかった",
+        "role": "what was neglected (always negative)"
+      }
+    ],
+    "translation": "Wrapped up in work, I could not make time for my family."
+  },
+  "examples": [
+    {
+      "ja": "仕事にかまけて、家族との時間を取れなかった。",
+      "reading": "しごとにかまけて、かぞくとのじかんをとれなかった。",
+      "en": "Absorbed in work, I could not make time for my family.",
+      "note": "A classic self-reproach: work took over, family was neglected."
+    },
+    {
+      "ja": "遊びにかまけて、勉強をおろそかにしてしまった。",
+      "reading": "あそびにかまけて、べんきょうをおろそかにしてしまった。",
+      "en": "Preoccupied with having fun, I neglected my studies.",
+      "note": "遊び + にかまけて + neglecting study is the textbook pairing."
+    },
+    {
+      "ja": "日々の雑事にかまけて、大切なことを忘れがちだ。",
+      "reading": "ひびのざつじにかまけて、たいせつなことをわすれがちだ。",
+      "en": "Caught up in daily chores, we tend to forget what matters.",
+      "note": "雑事 (chores) is a common X; the neglected thing is 大切なこと."
+    },
+    {
+      "ja": "部活にかまけて、進路のことを真剣に考えてこなかった。",
+      "reading": "ぶかつにかまけて、しんろのことをしんけんにかんがえてこなかった。",
+      "en": "I was so wrapped up in club activities that I never thought seriously about my future.",
+      "note": "The neglected side is stated in the negative, as usual."
+    },
+    {
+      "ja": "目の前の忙しさにかまけていると、本当に大事なことを見失う。",
+      "reading": "めのまえのいそがしさにかまけていると、ほんとうにだいじなことをみうしなう。",
+      "en": "If you let yourself be consumed by the busyness in front of you, you lose sight of what really matters.",
+      "note": "かまけている + と gives a general warning."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-115",
+      "pattern": "〜にかこつけて",
+      "difference": "Using X as an excuse to do something else. かまけて is being absorbed in X itself, not using it as a pretext."
+    },
+    {
+      "id": "n2-grammar-141",
+      "pattern": "〜ばかりに",
+      "difference": "\"Just because of X\" leading to a bad result; X can be anything. かまけて is specifically about preoccupation and neglect."
+    },
+    {
+      "id": "n1-grammar-99",
+      "pattern": "〜をよそに",
+      "difference": "Ignoring someone's concern or worry while acting. かまけて focuses on what took up your attention, not on whom you ignored."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "研究にかまけて、ついに新しい理論を完成させた。",
+      "right": "研究に打ち込んで、ついに新しい理論を完成させた。",
+      "why": "かまけて requires a neglected side and a critical tone. A proud achievement takes 打ち込む or 没頭する."
+    },
+    {
+      "wrong": "仕事をかまけて、家族を忘れていた。",
+      "right": "仕事にかまけて、家族を忘れていた。",
+      "why": "The particle is に; the pattern is N + にかまけて."
+    },
+    {
+      "wrong": "遊びにかまけて、楽しかった。",
+      "right": "遊びにかまけて、勉強をおろそかにした。",
+      "why": "The second half must show what was neglected. A pleasant result contradicts the meaning."
+    }
+  ],
+  "usageNotes": [
+    "The second half often contains おろそかにする, 忘れる, 〜ないままだ, or 〜てこなかった.",
+    "In apologies and reflections it softens blame: 忙しさにかまけて連絡が遅くなりました (\"I got caught up in work and was slow to reply\").",
+    "The verb かまける is rarely used outside this pattern; learn it as a unit."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a noun such as 仕事・遊び followed by a clause about neglect (〜おろそかに・〜なかった) points to にかまけて.",
+    "Distractors include にかこつけて and にひきかえ. Check: is the person absorbed in X (かまけて) or using X as an excuse (かこつけて)?",
+    "In 並べ替え, にかまけて attaches directly to the noun and the neglected item follows with を."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-127-1",
+    "q-n1-g-127-2",
+    "q-n1-g-127-3",
+    "q-n1-g-127-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-127-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-163",
+  "slug": "ta-mono-dewa-nai",
+  "level": "n1",
+  "order": 163,
+  "title": "〜たものではない / 〜たものじゃない",
+  "romaji": "ta mono dewa nai / ta mono ja nai",
+  "meaning": "cannot possibly be …ed (it is too bad); is not fit to be …",
+  "simpleExplanation": "V可能形 + たものではない is a strong negative evaluation: the thing is so bad that the action is impossible. 食べられたものではない = \"It's inedible\"; 聞けたものじゃない = \"unlistenable\". The verb is the potential form in the past (食べられた・見られた・聞けた) followed by ものではない.",
+  "whenUsed": "Spoken and casual written Japanese, blunt criticism of food, performances, rooms, writing. Casual: たものじゃない. Often with とても / まったく. Typical verbs: 食べられた・飲めた・見られた・聞けた・読めた・着られた.",
+  "formation": [
+    "V可能形 + た + ものではない  (食べられたものではない)",
+    "V可能形 + た + ものじゃない (casual)",
+    "Often with とても・まったく・こんな",
+    "Common verbs: 食べる・飲む・見る・聞く・読む・着る・住む"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "食べられる",
+        "en": "can eat (potential)"
+      },
+      {
+        "ja": "食べられたものではない",
+        "en": "\"is not something that could be eaten\" = inedible"
+      },
+      {
+        "ja": "塩辛くて、食べられたものではない",
+        "en": "with the reason: so salty it is inedible"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この料理は塩辛くて、食べられたものではない。",
+      "reading": "このりょうりはしおからくて、たべられたものではない。",
+      "en": "This dish is so salty it is inedible.",
+      "note": "Reason (too salty) + 食べられたものではない."
+    },
+    {
+      "ja": "彼の歌は、とても聞けたものじゃない。",
+      "reading": "かれのうたは、とてもきけたものじゃない。",
+      "en": "His singing is simply unlistenable.",
+      "note": "とても + 聞けたものじゃない: casual, blunt."
+    },
+    {
+      "ja": "そんな汚い部屋、人に見せられたものではない。",
+      "reading": "そんなきたないへや、ひとにみせられたものではない。",
+      "en": "A room that dirty is not fit to be shown to anyone.",
+      "note": "見せられたものではない: not fit to be shown to anyone."
+    },
+    {
+      "ja": "あの新人の翻訳はひどくて、とても読めたものではない。",
+      "reading": "あのしんじんのほんやくはひどくて、とてもよめたものではない。",
+      "en": "That newcomer's translation is so bad it is simply unreadable.",
+      "note": "読めた + ものではない."
+    },
+    {
+      "ja": "隣の工事の騒音で、昼間は家にいられたものじゃない。",
+      "reading": "となりのこうじのそうおんで、ひるまはいえにいられたものじゃない。",
+      "en": "With the construction noise next door, the house is unbearable during the day.",
+      "note": "いられた + ものじゃない: cannot stay."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-66",
+      "pattern": "〜にたえない",
+      "difference": "Formal \"cannot bear to (see / hear)\" (見るにたえない). たものではない is casual and blunt."
+    },
+    {
+      "id": "n2-grammar-156",
+      "pattern": "〜ものだ / 〜ものではない",
+      "difference": "General moral statements (人を笑うものではない). たものではない is an evaluation of a specific bad thing using the potential past."
+    },
+    {
+      "id": "n2-grammar-161",
+      "pattern": "〜ようがない",
+      "difference": "\"No way to do X\" because the means are lacking. たものではない says the quality is too poor."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "食べるものではない。(meaning inedible)",
+      "right": "食べられたものではない。",
+      "why": "食べるものではない means \"one should not eat (it)\", a moral statement. Inedible needs the potential past 食べられた."
+    },
+    {
+      "wrong": "食べられるものではない。",
+      "right": "食べられたものではない。",
+      "why": "The idiom uses the past form of the potential (食べられた), even about a present state."
+    },
+    {
+      "wrong": "（レストランで店員に）これは食べられたものではありません。",
+      "right": "少し塩辛いようなのですが…。",
+      "why": "The pattern is very blunt; use softer language when complaining directly to staff."
+    }
+  ],
+  "usageNotes": [
+    "The reason is usually given first with 〜て / 〜で: 辛くて・うるさくて・汚くて.",
+    "It is strong; among friends it is fine, but avoid it in polite complaints.",
+    "The affirmative 〜たものだ is a completely different pattern (nostalgia: よく遊んだものだ)."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a negative quality + a potential verb + a blank ending in ものではない is this pattern; the verb must be potential past.",
+    "Distractor にたえない: formal, and used with a limited set (見る・聞く・読む). If the sentence is casual (ひどくて・とても), choose たものではない.",
+    "In 並べ替え, the potential past verb and ものではない are separate chunks; the reason clause comes first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-163-1",
+    "q-n1-g-163-2",
+    "q-n1-g-163-3",
+    "q-n1-g-163-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-163-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

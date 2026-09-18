@@ -1,0 +1,117 @@
+{
+  "id": "n1-grammar-74",
+  "slug": "wa-oroka",
+  "level": "n1",
+  "order": 74,
+  "title": "〜はおろか",
+  "romaji": "wa oroka",
+  "meaning": "let alone …; not to mention …",
+  "simpleExplanation": "〜はおろか takes something big (X) and says \"X is out of the question; even the much smaller Y is not possible\": 漢字はおろか、ひらがなも読めない (cannot read even hiragana, let alone kanji). The second half has も・さえ・すら plus a negative or a negative-feeling predicate. The tone is emotional: surprise, complaint or pity.",
+  "whenUsed": "Both speech and writing, moderately formal. Used when the speaker wants to dramatise how bad or how limited a situation is. Not used for neutral facts; there is always a sense of \"it's that bad\".",
+  "formation": [
+    "N + はおろか、N + も / さえ / すら + negative",
+    "N + はおろか、N + も + negative-feeling predicate (ない・できない・時間がない)",
+    "The first noun is the harder or bigger item"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Order of difficulty in はおろか",
+    "items": [
+      {
+        "label": "漢字 (hard)",
+        "description": "はおろか: obviously impossible, not even worth discussing"
+      },
+      {
+        "label": "ひらがな (easy)",
+        "description": "も読めない: even this easy thing is impossible"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "漢字はおろか、ひらがなも読めない。",
+      "reading": "かんじはおろか、ひらがなもよめない。",
+      "en": "He cannot read even hiragana, let alone kanji.",
+      "note": "Hard item (漢字) first, easy item (ひらがな) second, negative at the end."
+    },
+    {
+      "ja": "彼は海外はおろか、隣の県にさえ行ったことがない。",
+      "reading": "かれはかいがいはおろか、となりのけんにさえいったことがない。",
+      "en": "He has never even been to the next prefecture, let alone abroad.",
+      "note": "Big item (going abroad) → small item (the next prefecture) + さえ + negative."
+    },
+    {
+      "ja": "忙しくて、旅行はおろか、休日に外出する時間もない。",
+      "reading": "いそがしくて、りょこうはおろか、きゅうじつにがいしゅつするじかんもない。",
+      "en": "I am so busy that I have no time to go out on holidays, let alone travel.",
+      "note": "The negative can be 時間もない: no time even for going out."
+    },
+    {
+      "ja": "熱が高くて、食事はおろか、水を飲むことさえできなかった。",
+      "reading": "ねつがたかくて、しょくじはおろか、みずをのむことさえできなかった。",
+      "en": "With such a high fever, I could not even drink water, let alone eat.",
+      "note": "食事 (bigger) → 水 (smaller), with さえ."
+    },
+    {
+      "ja": "彼は貯金はおろか、来月の家賃すら払えない状態だ。",
+      "reading": "かれはちょきんはおろか、らいげつのやちんすらはらえないじょうたいだ。",
+      "en": "He is in a state where he cannot even pay next month's rent, let alone save money.",
+      "note": "すら is the most formal of the three particles."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜どころか",
+      "difference": "\"Far from X, actually Y\": corrects an expectation and can be positive or negative. はおろか always builds down to a negative.",
+      "id": "n2-grammar-87"
+    },
+    {
+      "pattern": "〜にとどまらず",
+      "difference": "\"Not limited to X but also Y\": scope widens in a positive direction, the opposite of はおろか.",
+      "id": "n1-grammar-68"
+    },
+    {
+      "pattern": "〜はもちろん / 〜はもとより",
+      "difference": "\"X of course, and Y too\": both are affirmed. はおろか denies both.",
+      "id": "n2-grammar-143"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "ひらがなはおろか、漢字も読めない。",
+      "right": "漢字はおろか、ひらがなも読めない。",
+      "why": "The first item must be the harder one; otherwise the logic collapses."
+    },
+    {
+      "wrong": "漢字はおろか、ひらがなが読める。",
+      "right": "漢字はおろか、ひらがなも読めない。",
+      "why": "The second half needs も/さえ and a negative; an affirmative ending is impossible."
+    },
+    {
+      "wrong": "彼は英語はおろか、フランス語も話せる。",
+      "right": "彼は英語はもちろん、フランス語も話せる。",
+      "why": "For \"X of course, and Y too\" in a positive sense, use はもちろん."
+    }
+  ],
+  "usageNotes": [
+    "Think of it as \"never mind X, not even Y\": the listener is meant to be surprised at how far the negative goes.",
+    "The particle after the second noun ranges from も (neutral) to さえ・すら (stronger, more formal).",
+    "The predicate can be a negative adjective phrase such as 余裕がない or 時間がない."
+  ],
+  "jlptTips": [
+    "Check the two items: if the first is bigger or harder and the ending is negative with も / さえ, はおろか is the answer.",
+    "Distractors: どころか, はもちろん, にとどまらず. Only はおろか requires the downward order plus negative.",
+    "In 並べ替え, place N + はおろか first, then N + さえ / も, then the negative verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-74-1",
+    "q-n1-g-74-2",
+    "q-n1-g-74-3",
+    "q-n1-g-74-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-74-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

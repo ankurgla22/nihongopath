@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-40",
+  "slug": "to-omoikiya",
+  "level": "n1",
+  "order": 40,
+  "title": "〜と思いきや",
+  "romaji": "toikiya",
+  "meaning": "I thought …, but (unexpectedly) …",
+  "simpleExplanation": "Xと思いきや means \"I thought X, but contrary to that…\". きや is a classical question ending, so the phrase literally asks \"did I think X? (no, it turned out otherwise)\". The second clause reports the surprising reality.",
+  "whenUsed": "Both registers; slightly literary but common in speech, blogs and narration. Expresses the speaker's surprise at an outcome opposite to expectation.",
+  "formation": [
+    "Plain form + と思いきや",
+    "Noun / na-adjective + (だ) + と思いきや",
+    "Vる + か + と思いきや (怒るかと思いきや)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "今日は晴れると思った",
+        "en": "I thought it would be sunny"
+      },
+      {
+        "ja": "今日は晴れると思ったが、大雨になった",
+        "en": "I thought so, but it poured (neutral contrast)"
+      },
+      {
+        "ja": "今日は晴れると思いきや、大雨になった",
+        "en": "I thought so, but unexpectedly it poured (surprise)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "今日は晴れると思いきや、午後から大雨になった。",
+      "reading": "きょうははれるとおもいきや、ごごからおおあめになった。",
+      "en": "I thought it would be sunny today, but it poured from the afternoon.",
+      "note": "Expectation (sunny) reversed by heavy rain."
+    },
+    {
+      "ja": "試験は簡単だと思いきや、意外に難しかった。",
+      "reading": "しけんはかんたんだとおもいきや、いがいにむずかしかった。",
+      "en": "I thought the exam would be easy, but it was surprisingly hard.",
+      "note": "The exam was expected to be easy; the reality differed."
+    },
+    {
+      "ja": "彼は怒るかと思いきや、笑って許してくれた。",
+      "reading": "かれはおこるかとおもいきや、わらってゆるしてくれた。",
+      "en": "I thought he would be angry, but he laughed and forgave me.",
+      "note": "怒るかと思いきや: か before と思いきや is common with verbs."
+    },
+    {
+      "ja": "会議はすぐ終わると思いきや、三時間も続いた。",
+      "reading": "かいぎはすぐおわるとおもいきや、さんじかんもつづいた。",
+      "en": "I thought the meeting would end quickly, but it went on for three hours.",
+      "note": "Duration surprise."
+    },
+    {
+      "ja": "静かな町だと思いきや、夜になると若者で賑わっていた。",
+      "reading": "しずかなまちだとおもいきや、よるになるとわかものでにぎわっていた。",
+      "en": "I thought it was a quiet town, but at night it was bustling with young people.",
+      "note": "Na-adjective + だ + と思いきや."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かと思うと / 〜かと思ったら",
+      "difference": "Also \"thought X, but…\", though it more often means \"no sooner than\"; 思いきや always means a reversed expectation.",
+      "id": "n2-grammar-22"
+    },
+    {
+      "pattern": "〜ものの",
+      "difference": "\"Although\"; a calmer contrast without surprise.",
+      "id": "n2-grammar-159"
+    },
+    {
+      "pattern": "〜とみえて",
+      "difference": "\"It seems that\": an inference from evidence, not a reversal.",
+      "id": "n1-grammar-139"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "晴れると思いきや、本当に晴れた。",
+      "right": "晴れると思いきや、大雨になった。",
+      "why": "The second clause must contradict the expectation."
+    },
+    {
+      "wrong": "晴れる思いきや",
+      "right": "晴れると思いきや",
+      "why": "と is required before 思いきや."
+    },
+    {
+      "wrong": "明日は晴れると思いきや、傘を持っていこう。",
+      "right": "明日は晴れると思うが、傘を持っていこう。",
+      "why": "思いきや reports a past reversal, not a plan."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: てっきり, 意外にも, 実は, なんと.",
+    "The second clause is usually in the past tense.",
+    "Works as a story-telling device to create a small twist."
+  ],
+  "jlptTips": [
+    "The signature is expectation → opposite past outcome; look for 意外に / 実は in the second clause.",
+    "Distractors: と思うと (mostly \"as soon as\"), とみえて (inference), ものの (mild contrast).",
+    "と is obligatory: an option without it (思いきや alone after a plain form) is wrong."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-40-1",
+    "q-n1-g-40-2",
+    "q-n1-g-40-3",
+    "q-n1-g-40-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-40-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

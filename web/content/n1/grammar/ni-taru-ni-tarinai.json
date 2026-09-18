@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-67",
+  "slug": "ni-taru-ni-tarinai",
+  "level": "n1",
+  "order": 67,
+  "title": "〜に足る / 〜に足りない",
+  "romaji": "ni taru / ni tarinai",
+  "meaning": "worthy of …; enough to …; not worth …",
+  "simpleExplanation": "〜に足る means \"good enough to deserve X\": 信頼に足る人 (a person worthy of trust), 満足するに足る結果 (a result good enough to be satisfied with). The negative 〜に足りない means \"not worth\": 取るに足りない (trivial, not worth picking up). 足る is the classical form of 足りる (to be sufficient).",
+  "whenUsed": "Formal written Japanese and formal speech: evaluations, references, editorials. It states that something meets a standard of value. The idiom 取るに足りない (insignificant) is used in all registers.",
+  "formation": [
+    "N + に足る + N (信頼・尊敬・称賛)",
+    "Vる + に足る + N (満足する・信じる)",
+    "N / Vる + に足りない (negative: not worth)",
+    "Idiom: 取るに足りない = trivial"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Value judgement with 足る",
+    "items": [
+      {
+        "label": "取るに足りない",
+        "description": "not even worth picking up: trivial"
+      },
+      {
+        "label": "〜に足りない",
+        "description": "does not meet the standard (信頼に足りない)"
+      },
+      {
+        "label": "〜に足る",
+        "description": "meets the standard, deserves it (尊敬に足る)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は信頼に足る人物だ。",
+      "reading": "かれはしんらいにたるじんぶつだ。",
+      "en": "He is a person worthy of trust.",
+      "note": "信頼に足る人物: he deserves trust. Standard reference-letter language."
+    },
+    {
+      "ja": "それは取るに足りない小さな問題だ。",
+      "reading": "それはとるにたりないちいさなもんだいだ。",
+      "en": "That is a trivial matter not worth taking up.",
+      "note": "取るに足りない is an idiom: too small to bother with."
+    },
+    {
+      "ja": "満足するに足る結果が得られた。",
+      "reading": "まんぞくするにたるけっかがえられた。",
+      "en": "We obtained a result that is satisfactory enough.",
+      "note": "Vる + に足る: 満足するに足る結果 = a result good enough to be satisfied with."
+    },
+    {
+      "ja": "彼女の証言には、信じるに足る根拠がある。",
+      "reading": "かのじょのしょうげんには、しんじるにたるこんきょがある。",
+      "en": "Her testimony has grounds sufficient to be believed.",
+      "note": "Vる + に足る + N: the noun 根拠 is what meets the standard."
+    },
+    {
+      "ja": "そんな噂は取るに足りないことだから、気にしなくていい。",
+      "reading": "そんなうわさはとるにたりないことだから、きにしなくていい。",
+      "en": "Such rumours are trivial, so there is no need to worry.",
+      "note": "取るに足りない is common in speech too."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にたえる",
+      "difference": "Also \"worth\", but にたえる means the thing survives scrutiny (批評にたえる); に足る means it deserves a positive judgement (尊敬に足る).",
+      "id": "n1-grammar-66"
+    },
+    {
+      "pattern": "〜に恥じない",
+      "difference": "\"Lives up to (a name or reputation)\" (名に恥じない). Also a judgement of worth, but measured against a title rather than a standard of trust.",
+      "id": "n1-grammar-152"
+    },
+    {
+      "pattern": "〜に(は)当たらない",
+      "difference": "\"There is no need to (be surprised / praise)\": denies that a reaction is warranted, not that something has value.",
+      "id": "n1-grammar-151"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は信頼に足りる人だ。",
+      "right": "彼は信頼に足る人だ。",
+      "why": "The set form uses the classical 足る. 足りる is the everyday verb and is not used in this pattern."
+    },
+    {
+      "wrong": "この問題は取るに足らない。",
+      "right": "この問題は取るに足りない。",
+      "why": "The idiom is 取るに足りない (or 取るに足らない in some older texts); the standard modern form is 足りない."
+    },
+    {
+      "wrong": "見るに足る映画だ。",
+      "right": "見るに値する映画だ。／鑑賞にたえる映画だ。",
+      "why": "に足る goes with nouns of trust, respect and satisfaction; \"worth watching\" is に値する or にたえる."
+    }
+  ],
+  "usageNotes": [
+    "Nouns that fit: 信頼・尊敬・称賛・満足・評価・注目. Verbs: 信じる・満足する・誇る.",
+    "The positive form is praise; the negative is a fairly blunt judgement, so soften it in speech.",
+    "取るに足りない can also be adnominal: 取るに足りない小さな問題."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, 信頼に + blank + 人物 is the classic に足る question.",
+    "Distractors include にたえる, に値する and に当たらない. If the sentence praises trustworthiness or respect, に足る is the answer.",
+    "Remember that 取るに足りない is a fixed idiom; it appears in 並べ替え as a single chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-67-1",
+    "q-n1-g-67-2",
+    "q-n1-g-67-3",
+    "q-n1-g-67-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-67-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

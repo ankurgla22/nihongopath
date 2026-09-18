@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-9",
+  "slug": "katawara",
+  "level": "n1",
+  "order": 9,
+  "title": "〜かたわら",
+  "romaji": "katawara",
+  "meaning": "while (holding a main occupation), also …",
+  "simpleExplanation": "AのかたわらB describes someone who has a main occupation A and, alongside it, keeps up a second long-term activity B: 会社勤めのかたわら小説を書く. It is about parallel lives over months or years, not about two things done at the same moment.",
+  "whenUsed": "Written profiles, biographies, news articles and introductions of people. Formal; in conversation people say 〜をしながら or 〜の一方で.",
+  "formation": [
+    "Vる + かたわら",
+    "Noun + の + かたわら",
+    "A (main occupation) のかたわら B (secondary activity), often with も"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Parallel activities",
+    "columns": [
+      "time span",
+      "relation",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜かたわら",
+        "cells": [
+          "months or years",
+          "main job + side activity",
+          "教師のかたわら執筆する"
+        ]
+      },
+      {
+        "label": "〜ながら",
+        "cells": [
+          "the same moment",
+          "two simultaneous actions",
+          "音楽を聞きながら勉強する"
+        ]
+      },
+      {
+        "label": "〜がてら",
+        "cells": [
+          "one outing",
+          "one trip, two purposes",
+          "散歩がてら寄る"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は会社勤めのかたわら、小説を書いている。",
+      "reading": "かれはかいしゃづとめのかたわら、しょうせつをかいている。",
+      "en": "While working for a company, he also writes novels.",
+      "note": "Main job (company work) + long-term side activity (writing novels)."
+    },
+    {
+      "ja": "母は家事をするかたわら、地域のボランティア活動にも参加している。",
+      "reading": "はははかじをするかたわら、ちいきのボランティアかつどうにもさんかしている。",
+      "en": "Besides doing housework, my mother also takes part in local volunteer work.",
+      "note": "Housework as the main role, volunteering alongside; note も marking the added activity."
+    },
+    {
+      "ja": "大学で教えるかたわら、研究所の顧問も務めている。",
+      "reading": "だいがくでおしえるかたわら、けんきゅうじょのこもんもつとめている。",
+      "en": "In addition to teaching at university, he serves as an advisor at a research institute.",
+      "note": "Vる + かたわら with two professional roles."
+    },
+    {
+      "ja": "彼女は子育てのかたわら、通信教育で資格の勉強を続けている。",
+      "reading": "かのじょはこそだてのかたわら、つうしんきょういくでしかくのべんきょうをつづけている。",
+      "en": "While raising her children, she continues studying for a qualification by correspondence.",
+      "note": "Main role + a study project sustained over time."
+    },
+    {
+      "ja": "農業を営むかたわら、地元の小学校で昔の遊びを教えている。",
+      "reading": "のうぎょうをいとなむかたわら、じもとのしょうがっこうでむかしのあそびをおしえている。",
+      "en": "Alongside running a farm, he teaches traditional games at the local primary school.",
+      "note": "Typical of a newspaper profile."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ながら",
+      "difference": "Two actions at the same moment (\"while listening, I study\"). かたわら is a long-term arrangement.",
+      "id": "n2-grammar-96"
+    },
+    {
+      "pattern": "〜がてら",
+      "difference": "One outing serving two purposes. Not about occupations.",
+      "id": "n1-grammar-7"
+    },
+    {
+      "pattern": "〜一方(で)",
+      "difference": "Contrasts two aspects of a person or situation; broader and not limited to occupations.",
+      "id": "n2-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "音楽を聞くかたわら、宿題をした。",
+      "right": "音楽を聞きながら、宿題をした。",
+      "why": "Simultaneous momentary actions take ながら; かたわら is for long-term parallel activities."
+    },
+    {
+      "wrong": "会社勤めかたわら、小説を書いている。",
+      "right": "会社勤めのかたわら、小説を書いている。",
+      "why": "A noun needs の before かたわら."
+    },
+    {
+      "wrong": "小説を書くかたわら、会社に勤めている。",
+      "right": "会社に勤めるかたわら、小説を書いている。",
+      "why": "The main occupation comes first; the secondary activity follows. Reversing them sounds odd unless writing is truly the main job."
+    }
+  ],
+  "usageNotes": [
+    "Subject is often a third person being introduced (彼は…のかたわら…も).",
+    "The second activity is frequently marked with も: ボランティア活動にも参加している.",
+    "Sounds like a written biography; avoid in casual chat."
+  ],
+  "jlptTips": [
+    "Look for an occupation noun (会社員, 教師, 主婦, 農業) before の and a continuing activity after; that is かたわら.",
+    "The main distractors are ながら (momentary), がてら (outing), and 一方で (contrast).",
+    "In 並べ替え, the chunk Nのかたわら is followed by the secondary activity ending in ている."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-9-1",
+    "q-n1-g-9-2",
+    "q-n1-g-9-3",
+    "q-n1-g-9-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-9-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

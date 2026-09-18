@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-167",
+  "slug": "wa-iu-ni-oyobazu",
+  "level": "n1",
+  "order": 167,
+  "title": "〜は言うに及ばず / 〜は言うまでもなく",
+  "romaji": "wa iu ni oyobazu / wa iu made mo naku",
+  "meaning": "not to mention X; X goes without saying, and Y too",
+  "simpleExplanation": "Xは言うに及ばず、Yも says that X is obvious, and adds the less expected Y. 国内は言うに及ばず、海外でも高く評価されている = \"Not to mention Japan, it is highly regarded overseas too\". 言うに及ばない means \"there is no need to say\". 〜は言うまでもなく is the same idea, slightly more common.",
+  "whenUsed": "Formal written and spoken Japanese: reports, introductions, evaluations. X is the obvious case, Y the surprising extension, marked with も / でも / まで. Casual equivalent: 〜はもちろん.",
+  "formation": [
+    "N + は言うに及ばず、N + も / でも / まで",
+    "N + は言うまでもなく、N + も / でも / まで",
+    "Y is the less expected, wider case"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "From obvious to surprising",
+    "items": [
+      {
+        "label": "国内は言うに及ばず",
+        "description": "the obvious case: of course at home"
+      },
+      {
+        "label": "海外でも",
+        "description": "the less expected case: even abroad"
+      },
+      {
+        "label": "高く評価されている",
+        "description": "the shared statement"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この作品は国内は言うに及ばず、海外でも高く評価されている。",
+      "reading": "このさくひんはこくないはいうにおよばず、かいがいでもたかくひょうかされている。",
+      "en": "This work is highly regarded not only in Japan but overseas too.",
+      "note": "Domestic praise is obvious; overseas praise is the surprising addition."
+    },
+    {
+      "ja": "英語は言うに及ばず、中国語も堪能だ。",
+      "reading": "えいごはいうにおよばず、ちゅうごくごもたんのうだ。",
+      "en": "Not to mention English, she is fluent in Chinese as well.",
+      "note": "English is expected; Chinese fluency is the extra."
+    },
+    {
+      "ja": "平日は言うまでもなく、休日も店は客でいっぱいだ。",
+      "reading": "へいじつはいうまでもなく、きゅうじつもみせはきゃくでいっぱいだ。",
+      "en": "Needless to say on weekdays, but even on holidays the shop is full of customers.",
+      "note": "言うまでもなく variant: weekdays are obvious, holidays too."
+    },
+    {
+      "ja": "この製品は品質は言うに及ばず、デザインの面でも高い評価を受けている。",
+      "reading": "このせいひんはひんしつはいうにおよばず、デザインのめんでもたかいひょうかをうけている。",
+      "en": "This product is highly rated not only for its quality, which goes without saying, but for its design as well.",
+      "note": "Business register."
+    },
+    {
+      "ja": "彼は日本史は言うまでもなく、東アジア全体の歴史に詳しい。",
+      "reading": "かれはにほんしはいうまでもなく、ひがしアジアぜんたいのれきしにくわしい。",
+      "en": "Needless to say he knows Japanese history, but he is versed in the history of all East Asia.",
+      "note": "Scholarly description."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-143",
+      "pattern": "〜はもちろん / 〜はもとより",
+      "difference": "Same structure, more everyday. 言うに及ばず is the most formal of the group."
+    },
+    {
+      "id": "n1-grammar-74",
+      "pattern": "〜はおろか",
+      "difference": "Used with negatives: \"let alone X\" (漢字はおろか、ひらがなも書けない). 言うに及ばず is for positive additions."
+    },
+    {
+      "id": "n1-grammar-83",
+      "pattern": "〜までもない / 〜までもなく",
+      "difference": "言うまでもなく on its own means \"needless to say\" as an adverb; with は it becomes the \"not to mention\" structure."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "漢字は言うに及ばず、ひらがなも書けない。",
+      "right": "漢字はおろか、ひらがなも書けない。",
+      "why": "With a negative predicate (\"cannot even\"), use はおろか. 言うに及ばず is for positive additions."
+    },
+    {
+      "wrong": "海外は言うに及ばず、国内でも評価されている。",
+      "right": "国内は言うに及ばず、海外でも評価されている。",
+      "why": "X must be the obvious case, Y the wider or surprising one."
+    },
+    {
+      "wrong": "国内は言うに及ばず、海外で評価されている。",
+      "right": "国内は言うに及ばず、海外でも評価されている。",
+      "why": "Y needs も / でも / まで to show it is added."
+    }
+  ],
+  "usageNotes": [
+    "言うまでもなく is more frequent; 言うに及ばず sounds more classical and formal.",
+    "Y is often marked with even stronger inclusion: 〜まで / 〜に至るまで.",
+    "For casual speech, use 〜はもちろん."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an obvious case + は + a blank + a wider case with も / でも / まで, in formal style, points to 言うに及ばず / 言うまでもなく.",
+    "Distractor はおろか: choose it only when the predicate is negative.",
+    "In 並べ替え, the chunk は言うに及ばず sits right after X; Y + も follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-167-1",
+    "q-n1-g-167-2",
+    "q-n1-g-167-3",
+    "q-n1-g-167-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-167-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,131 @@
+{
+  "id": "n1-grammar-178",
+  "slug": "te-no-koto-da",
+  "level": "n1",
+  "order": 178,
+  "title": "〜てのことだ / 〜あってのことだ",
+  "romaji": "te no koto da / atte no koto da",
+  "meaning": "it is because of …; it was done out of …; it is thanks to …",
+  "simpleExplanation": "Vて + のことだ explains that an action was taken with a certain thought or feeling behind it: 君のことを思ってのことだ = \"I did it because I care about you\". N + あってのことだ says something exists only thanks to X: 皆さんの支えあってのことです = \"entirely thanks to your support\". Both put the motive or foundation into focus.",
+  "whenUsed": "Spoken and written, common in explanations, apologies, and thank-you speeches. Typical verbs: 思って・考えて・心配して・期待して. あってのことだ is formal and appears in speeches and acknowledgements.",
+  "formation": [
+    "Vて + のことだ  (思ってのことだ・考えてのことだ)",
+    "N + あってのことだ  (支えあってのことだ・努力あってのことだ)",
+    "Often: 〜のは、〜てのことだ (the reason for X is …)",
+    "Polite: 〜てのことです / 〜あってのことです"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Motive vs foundation",
+    "columns": [
+      "form",
+      "meaning",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "Vて + のことだ",
+        "cells": [
+          "done with this thought in mind",
+          "motive",
+          "君のことを思ってのことだ"
+        ]
+      },
+      {
+        "label": "N + あってのことだ",
+        "cells": [
+          "exists only thanks to X",
+          "foundation",
+          "皆さんの支えあってのことです"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "厳しく叱ったのも、君のことを思ってのことだ。",
+      "reading": "きびしくしかったのも、きみのことをおもってのことだ。",
+      "en": "I scolded you harshly only because I care about you.",
+      "note": "The harsh scolding is explained by concern: 思って + のことだ."
+    },
+    {
+      "ja": "今回の成功は、皆さんの支えあってのことです。",
+      "reading": "こんかいのせいこうは、みなさんのささえあってのことです。",
+      "en": "This success is entirely thanks to everyone's support.",
+      "note": "あってのことです: success exists only thanks to support (speech)."
+    },
+    {
+      "ja": "転職を決めたのは、将来を考えてのことだ。",
+      "reading": "てんしょくをきめたのは、しょうらいをかんがえてのことだ。",
+      "en": "I decided to change jobs after thinking about the future.",
+      "note": "The decision to change jobs is explained by 考えて + のことだ."
+    },
+    {
+      "ja": "父が反対したのは、私の将来を心配してのことだった。",
+      "reading": "ちちがはんたいしたのは、わたしのしょうらいをしんぱいしてのことだった。",
+      "en": "My father's opposition was out of concern for my future.",
+      "note": "〜のは、〜てのことだった frame."
+    },
+    {
+      "ja": "今日の私があるのは、恩師の指導あってのことです。",
+      "reading": "きょうのわたしがあるのは、おんしのしどうあってのことです。",
+      "en": "I am who I am today entirely thanks to my mentor's guidance.",
+      "note": "Acknowledgement speech."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-1",
+      "pattern": "〜あっての",
+      "difference": "Same idea used before a noun (お客様あっての商売). あってのことだ ends the sentence."
+    },
+    {
+      "id": "n2-grammar-130",
+      "pattern": "〜にほかならない",
+      "difference": "\"Is nothing other than X\": identifies the cause emphatically. てのことだ explains the motive more gently."
+    },
+    {
+      "id": "n2-grammar-12",
+      "pattern": "〜おかげで",
+      "difference": "Everyday \"thanks to\". あってのことだ is formal and stresses that without X nothing would exist."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "君のことを思うのことだ。",
+      "right": "君のことを思ってのことだ。",
+      "why": "The verb must be in the て-form before のことだ."
+    },
+    {
+      "wrong": "皆さんの支えがあってのことです。(in a formal speech)",
+      "right": "皆さんの支えあってのことです。",
+      "why": "In the set expression, あって attaches directly to the noun without が."
+    },
+    {
+      "wrong": "遅刻したのは、寝坊してのことだ。",
+      "right": "遅刻したのは、寝坊したからだ。",
+      "why": "てのことだ implies a thought or intention behind the action; oversleeping is not a motive."
+    }
+  ],
+  "usageNotes": [
+    "Common motives: 〜を思って・〜を考えて・〜を心配して・〜を期待して.",
+    "あってのことだ is a staple of award and retirement speeches.",
+    "The frame 〜のは、〜てのことだ neatly separates the action from its motive."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, an action + のは + a thinking verb in て-form + a blank is のことだ; a noun of support + あって + a blank is のことだ as well.",
+    "Distractor おかげで: it is not sentence-final and is less formal.",
+    "In 並べ替え, thinking verb + て and のことだ are separate chunks; あって attaches directly to the noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-178-1",
+    "q-n1-g-178-2",
+    "q-n1-g-178-3",
+    "q-n1-g-178-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-178-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

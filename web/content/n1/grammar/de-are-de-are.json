@@ -1,0 +1,128 @@
+{
+  "id": "n1-grammar-29",
+  "slug": "de-are-de-are",
+  "level": "n1",
+  "order": 29,
+  "title": "〜であれ〜であれ / 〜であろうが〜であろうが",
+  "romaji": "dearedeare-dearougadearouga",
+  "meaning": "whether … or …; be it … or …",
+  "simpleExplanation": "N1であれN2であれ (or であろうがであろうが) lists two contrasting alternatives and says the conclusion applies to both: 大人であれ子供であれ、規則は同じだ. It is the formal counterpart of 〜でも〜でも / 〜にしろ〜にしろ.",
+  "whenUsed": "Formal written and spoken Japanese: rules, principles, announcements. The two nouns are usually opposites or representative examples of a category.",
+  "formation": [
+    "N1 + であれ + N2 + であれ",
+    "N1 + であろうが + N2 + であろうが",
+    "N1 + であろうと + N2 + であろうと",
+    "Followed by a statement that holds for both"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "大人であれ",
+        "role": "alternative 1",
+        "highlight": true
+      },
+      {
+        "text": "子供であれ",
+        "role": "alternative 2",
+        "highlight": true
+      },
+      {
+        "text": "この規則は",
+        "role": "topic"
+      },
+      {
+        "text": "同じだ",
+        "role": "applies to both"
+      }
+    ],
+    "translation": "Adult or child, the rule is the same."
+  },
+  "examples": [
+    {
+      "ja": "大人であれ子供であれ、この規則は同じだ。",
+      "reading": "おとなであれこどもであれ、このきそくはおなじだ。",
+      "en": "Adult or child, the rule is the same.",
+      "note": "Two opposites: adult or child."
+    },
+    {
+      "ja": "晴れであれ雨であれ、行事は予定通り行う。",
+      "reading": "はれであれあめであれ、ぎょうじはよていどおりおこなう。",
+      "en": "Rain or shine, the event will go ahead as planned.",
+      "note": "Weather alternatives: rain or shine."
+    },
+    {
+      "ja": "正社員であろうがアルバイトであろうが、責任に変わりはない。",
+      "reading": "せいしゃいんであろうがアルバイトであろうが、せきにんにかわりはない。",
+      "en": "Regular employee or part-timer, the responsibility is the same.",
+      "note": "であろうが…であろうが: employment types, same responsibility."
+    },
+    {
+      "ja": "和食であれ洋食であれ、栄養のバランスが大切だ。",
+      "reading": "わしょくであれようしょくであれ、えいようのバランスがたいせつだ。",
+      "en": "Japanese or Western food, nutritional balance is what matters.",
+      "note": "Two representative examples of a category."
+    },
+    {
+      "ja": "賛成であろうと反対であろうと、必ず投票してください。",
+      "reading": "さんせいであろうとはんたいであろうと、かならずとうひょうしてください。",
+      "en": "For or against, please be sure to vote.",
+      "note": "であろうと version with a request."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜であれ",
+      "difference": "Single-noun concession: 誰であれ. The paired form lists alternatives.",
+      "id": "n1-grammar-28"
+    },
+    {
+      "pattern": "〜にしろ〜にしろ / 〜にせよ〜にせよ",
+      "difference": "Same idea, also usable with verbs; slightly less literary.",
+      "id": "n2-grammar-117"
+    },
+    {
+      "pattern": "〜うが〜まいが",
+      "difference": "Verb + its negative: \"whether you do or not\".",
+      "id": "n1-grammar-5"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "大人であれ子供でも、規則は同じだ。",
+      "right": "大人であれ子供であれ、規則は同じだ。",
+      "why": "Both halves should use the same form."
+    },
+    {
+      "wrong": "晴れであれ雨であれば、行事は行う。",
+      "right": "晴れであれ雨であれ、行事は行う。",
+      "why": "であれば is conditional; the pattern uses the imperative であれ."
+    },
+    {
+      "wrong": "行くであれ行かないであれ、連絡してください。",
+      "right": "行くにしろ行かないにしろ、連絡してください。",
+      "why": "であれ attaches to nouns; for verbs use にしろ / うが〜まいが."
+    }
+  ],
+  "usageNotes": [
+    "The two items are typically opposites: 大人/子供, 晴れ/雨, 賛成/反対, 男/女.",
+    "The conclusion is a rule or an unchanging fact.",
+    "であろうが / であろうと are interchangeable with であれ in this pattern."
+  ],
+  "jlptTips": [
+    "When two nouns appear with the same ending and a rule follows, choose the paired であれ.",
+    "Check that both halves are nouns; if verbs are given, the answer is にしろ〜にしろ.",
+    "In 並べ替え, keep each Nであれ chunk intact and put the shared conclusion last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-29-1",
+    "q-n1-g-29-2",
+    "q-n1-g-29-3",
+    "q-n1-g-29-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-29-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

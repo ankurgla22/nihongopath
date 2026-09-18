@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-110",
+  "slug": "temo-sashitsukaenai",
+  "level": "n1",
+  "order": 110,
+  "title": "〜ても差し支えない / 〜でも差し支えない",
+  "romaji": "temo sashitsukaenai / demo sashitsukaenai",
+  "meaning": "it is all right to …; there is no problem with …",
+  "simpleExplanation": "〜ても差し支えない is a polite, formal way to say \"it is fine to X; it causes no problem\": コピーでも差し支えありません (a copy is fine). 差し支え = a hindrance. It is the formal cousin of 〜てもいい / 〜ても構わない.",
+  "whenUsed": "Business, medical and official contexts: giving or asking permission politely. Polite form 差し支えありません. As a question, 〜ても差し支えないでしょうか politely asks whether something is acceptable.",
+  "formation": [
+    "Vて + も差し支えない",
+    "Aい: 〜くても差し支えない",
+    "N / Aな + でも差し支えない",
+    "Polite: 〜ても差し支えありません / Question: 〜ても差し支えないでしょうか"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Politeness of permission",
+    "items": [
+      {
+        "label": "〜てもいい",
+        "description": "casual / neutral"
+      },
+      {
+        "label": "〜ても構わない",
+        "description": "neutral, slightly reserved"
+      },
+      {
+        "label": "〜ても差し支えない",
+        "description": "formal, business and medical"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この書類はコピーでも差し支えありません。",
+      "reading": "このしょるいはコピーでもさしつかえありません。",
+      "en": "A copy of this document is perfectly acceptable.",
+      "note": "N + でも差し支えありません: a copy is acceptable."
+    },
+    {
+      "ja": "体調が良ければ、退院しても差し支えないでしょう。",
+      "reading": "たいちょうがよければ、たいいんしてもさしつかえないでしょう。",
+      "en": "If you are feeling well, there should be no problem with leaving the hospital.",
+      "note": "A doctor's judgement: leaving hospital is fine if conditions are met."
+    },
+    {
+      "ja": "多少遅れても差し支えないので、安全運転でお願いします。",
+      "reading": "たしょうおくれてもさしつかえないので、あんぜんうんてんでおねがいします。",
+      "en": "It is fine to be a bit late, so please drive safely.",
+      "note": "Reassurance: being a bit late is no problem."
+    },
+    {
+      "ja": "お名前は仮名でも差し支えございません。",
+      "reading": "おなまえはかめいでもさしつかえございません。",
+      "en": "A pseudonym is perfectly acceptable for your name.",
+      "note": "ございません is the most polite form."
+    },
+    {
+      "ja": "明日の午前中にお伺いしても差し支えないでしょうか。",
+      "reading": "あしたのごぜんちゅうにおうかがいしてもさしつかえないでしょうか。",
+      "en": "Would it be all right if I visited tomorrow morning?",
+      "note": "A polite request for permission."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜までもない / 〜までもなく",
+      "difference": "\"No need to\": says an action is unnecessary, not that it is permitted.",
+      "id": "n1-grammar-83"
+    },
+    {
+      "pattern": "〜ずに済む / 〜なくて済む",
+      "difference": "\"Manage without doing\": the action is avoided; unrelated to permission.",
+      "id": "n2-grammar-195"
+    },
+    {
+      "pattern": "〜に(は)当たらない",
+      "difference": "\"There is no need to (worry)\": denies that a reaction is warranted.",
+      "id": "n1-grammar-151"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "遅れるも差し支えない。",
+      "right": "遅れても差し支えない。",
+      "why": "The て form + も is required."
+    },
+    {
+      "wrong": "コピーても差し支えない。",
+      "right": "コピーでも差し支えない。",
+      "why": "Nouns take でも."
+    },
+    {
+      "wrong": "友達に「食べても差し支えない？」",
+      "right": "友達に「食べてもいい？」",
+      "why": "Too formal for friends; use てもいい."
+    }
+  ],
+  "usageNotes": [
+    "The noun 差し支え also appears in 差し支えなければ (\"if it is no trouble\"), a common polite opener.",
+    "Doctors use it to permit activities: 運動しても差し支えありません.",
+    "In writing, 差し支えない is often written in kanji: 差し支えない / 差支えない."
+  ],
+  "jlptTips": [
+    "A polite context (business e-mail, doctor) + Vても + blank → 差し支えない.",
+    "Distractors: までもない, 当たらない, 済む. Only 差し支えない grants permission.",
+    "Noun + でも + 差し支えありません is a typical key in polite dialogues."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-110-1",
+    "q-n1-g-110-2",
+    "q-n1-g-110-3",
+    "q-n1-g-110-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-110-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

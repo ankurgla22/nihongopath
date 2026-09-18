@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-7",
+  "slug": "gatera",
+  "level": "n1",
+  "order": 7,
+  "title": "〜がてら",
+  "romaji": "gatera",
+  "meaning": "while doing …; taking the opportunity of …",
+  "simpleExplanation": "Aがてら B means you do B while doing A, with one outing serving both purposes. A is usually a movement-type activity (散歩, 買い物, 送る) and B is done along the way. The tone is light and everyday: \"I'll pop into the bookshop while I'm out walking.\"",
+  "whenUsed": "Mostly spoken or light written Japanese (diaries, blogs). Formal letters use かたがた instead. The action is usually a physical outing.",
+  "formation": [
+    "Vます-stem + がてら (歩きがてら, 送りがてら)",
+    "Noun of action + がてら (散歩がてら, 買い物がてら)",
+    "Aがてら + B: B is the sentence's main verb"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "がてら vs kin",
+    "columns": [
+      "nuance",
+      "register",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜がてら",
+        "cells": [
+          "one outing, two purposes",
+          "everyday, light",
+          "散歩がてら手紙を出す"
+        ]
+      },
+      {
+        "label": "〜かたがた",
+        "cells": [
+          "formal visit with a second purpose",
+          "very formal",
+          "お礼かたがた伺う"
+        ]
+      },
+      {
+        "label": "〜ついでに",
+        "cells": [
+          "B is an afterthought added to A",
+          "casual",
+          "出かけたついでに買う"
+        ]
+      },
+      {
+        "label": "〜を兼ねて",
+        "cells": [
+          "one event serves two roles",
+          "neutral",
+          "研修を兼ねた旅行"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "散歩がてら、郵便局まで手紙を出しに行った。",
+      "reading": "さんぽがてら、ゆうびんきょくまでてがみをだしにいった。",
+      "en": "I went to the post office to mail a letter while taking a walk.",
+      "note": "Walk (main outing) + mailing a letter (second purpose)."
+    },
+    {
+      "ja": "買い物がてら、新しくできたカフェをのぞいてみよう。",
+      "reading": "かいものがてら、あたらしくできたカフェをのぞいてみよう。",
+      "en": "While out shopping, let us have a look at the new cafe.",
+      "note": "Shopping trip + a peek into a new cafe; volitional ending shows the casual tone."
+    },
+    {
+      "ja": "駅まで送りがてら、駅前の本屋に寄った。",
+      "reading": "えきまでおくりがてら、えきまえのほんやによった。",
+      "en": "While seeing her off to the station, I dropped by the bookstore in front of it.",
+      "note": "送りがてら: verb stem + がてら, movement to the station."
+    },
+    {
+      "ja": "気分転換がてら、近くの公園まで走ってきた。",
+      "reading": "きぶんてんかんがてら、ちかくのこうえんまではしってきた。",
+      "en": "I went for a run to the nearby park, partly to refresh myself.",
+      "note": "がてら works with an abstract purpose too, as long as movement is involved."
+    },
+    {
+      "ja": "実家に帰りがてら、昔の友人に会ってくるつもりだ。",
+      "reading": "じっかにかえりがてら、むかしのゆうじんにあってくるつもりだ。",
+      "en": "While going back to my parents' home, I plan to meet an old friend.",
+      "note": "Verb stem 帰り + がてら."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かたがた",
+      "difference": "Formal equivalent used in business letters with nouns like お礼 / ご挨拶. がてら is everyday.",
+      "id": "n1-grammar-8"
+    },
+    {
+      "pattern": "〜ついでに",
+      "difference": "Adds an incidental action to a trip already planned; the second action is minor. がてら gives both roughly equal weight.",
+      "id": "n2-grammar-70"
+    },
+    {
+      "pattern": "〜かたわら",
+      "difference": "A long-term second occupation, not a single outing.",
+      "id": "n1-grammar-9"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "散歩するがてら、手紙を出した。",
+      "right": "散歩がてら / 散歩しがてら、手紙を出した。",
+      "why": "がてら follows a noun or the ます-stem, not the dictionary form."
+    },
+    {
+      "wrong": "お礼がてら、部長のお宅に伺いました。",
+      "right": "お礼かたがた、部長のお宅に伺いました。",
+      "why": "For a formal visit to a superior use かたがた; がてら sounds too casual."
+    },
+    {
+      "wrong": "テレビを見がてら、宿題をした。",
+      "right": "テレビを見ながら、宿題をした。",
+      "why": "がてら needs an outing or movement; two simultaneous actions at home take ながら."
+    }
+  ],
+  "usageNotes": [
+    "Typical first elements: 散歩, 買い物, 見物, 帰省, 運動, 送り, 帰り.",
+    "The main verb (B) usually involves going somewhere: 寄る, 行く, 出す, 会う.",
+    "It is friendlier than かたがた and more purposeful than ついでに."
+  ],
+  "jlptTips": [
+    "Choose がてら when the first action is an everyday outing and the register is casual; choose かたがた when the noun is お礼 / ご挨拶 and the verb is 伺う.",
+    "ながら is a distractor: it needs two simultaneous actions in the same place, not an errand on the way.",
+    "In 並べ替え the chunk Nがてら typically comes first, followed by the destination and the main verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-7-1",
+    "q-n1-g-7-2",
+    "q-n1-g-7-3",
+    "q-n1-g-7-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-7-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-131",
+  "slug": "mono-to-omowareru",
+  "level": "n1",
+  "order": 131,
+  "title": "〜ものと思われる / 〜ものとみられる",
+  "romaji": "mono to omowareru / mono to mirareru",
+  "meaning": "it is thought that …; is believed to …; presumably …",
+  "simpleExplanation": "〜ものと思われる and 〜ものとみられる are the cautious, objective way to state an inference in news and reports. Instead of \"I think\", the sentence says \"it is thought that\" (passive). もの adds a sense of \"this is the general judgment\". The writer sounds careful and impersonal.",
+  "whenUsed": "News reports, police statements, weather forecasts, research papers, and business reports. Almost never in conversation. ものとみられる (\"is seen as\") is the police/news favorite; ものと思われる is broader. Polite forms 〜ものと思われます / 〜ものとみられます appear in announcements.",
+  "formation": [
+    "普通形 (V / いA / なA-な / N-の・である) + ものと思われる",
+    "普通形 + ものとみられる",
+    "Polite: ものと思われます / ものとみられます",
+    "Related: 〜ものと推測される / 〜ものと考えられる"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "From personal opinion to objective inference",
+    "items": [
+      {
+        "label": "〜と思う",
+        "description": "I think (personal, speech)"
+      },
+      {
+        "label": "〜と思われる",
+        "description": "it seems / is thought (impersonal)"
+      },
+      {
+        "label": "〜ものと思われる",
+        "description": "it is thought that … (formal report; a considered general judgment)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "事故の原因は運転手の居眠りによるものと思われる。",
+      "reading": "じこのげんいんはうんてんしゅのいねむりによるものとおもわれる。",
+      "en": "The cause of the accident is thought to be the driver dozing off.",
+      "note": "News style: the cause is stated as a general inference, not the reporter's own guess."
+    },
+    {
+      "ja": "犯人はすでに国外に逃亡したものとみられる。",
+      "reading": "はんにんはすでにこくがいにとうぼうしたものとみられる。",
+      "en": "The culprit is believed to have already fled the country.",
+      "note": "ものとみられる is typical of police announcements about a suspect."
+    },
+    {
+      "ja": "この傾向は今後も続くものと思われます。",
+      "reading": "このけいこうはこんごもつづくものとおもわれます。",
+      "en": "This trend is expected to continue in the future.",
+      "note": "The polite ものと思われます appears in forecasts and business letters."
+    },
+    {
+      "ja": "台風は明日の朝には九州に上陸するものとみられる。",
+      "reading": "たいふうはあしたのあさにはきゅうしゅうにじょうりくするものとみられる。",
+      "en": "The typhoon is expected to make landfall in Kyushu tomorrow morning.",
+      "note": "Weather report register."
+    },
+    {
+      "ja": "今回の値上げは、原材料費の高騰によるものと思われます。",
+      "reading": "こんかいのねあげは、げんざいりょうひのこうとうによるものとおもわれます。",
+      "en": "The current price increase is presumably due to the surge in raw-material costs.",
+      "note": "Business explanation; による + ものと思われます is a common frame."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-122",
+      "pattern": "〜に違いない",
+      "difference": "A confident personal conclusion (\"must be\"). ものと思われる is impersonal and cautious."
+    },
+    {
+      "id": "n1-grammar-139",
+      "pattern": "〜とみえて / 〜とみえる",
+      "difference": "An inference from something you observed on the spot, used in speech. ものとみられる is a formal, reported judgment."
+    },
+    {
+      "id": "n2-grammar-81",
+      "pattern": "〜ということだ",
+      "difference": "Reports what someone said (hearsay). ものと思われる presents an inference, not a quoted source."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "（友達に）明日は雨が降るものと思われる。",
+      "right": "（友達に）明日は雨が降ると思うよ。",
+      "why": "ものと思われる is report language. In conversation it sounds like reading a news bulletin."
+    },
+    {
+      "wrong": "犯人は逃げたものと思う。",
+      "right": "犯人は逃げたものと思われる。",
+      "why": "The impersonal passive 思われる is what makes the statement objective; 思う makes it a personal opinion and clashes with もの."
+    },
+    {
+      "wrong": "この傾向は今後も続くものと思われるでしょう。",
+      "right": "この傾向は今後も続くものと思われます。",
+      "why": "思われる already hedges; adding でしょう doubles the hedge and sounds clumsy."
+    }
+  ],
+  "usageNotes": [
+    "Common frames: 〜によるものと思われる (attributed to), 〜たものとみられる (believed to have done), 〜ものと考えられる (it is considered that).",
+    "ものとみられる is stronger on \"observed evidence\" (police, markets); ものと思われる on \"reasoned judgment\".",
+    "Drop もの for a lighter version: 〜と思われる. Keep もの when you want the fuller, more formal report tone."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a news-style sentence about causes, suspects, forecasts, or trends with an impersonal tone points to ものと思われる / みられる.",
+    "Distractors are に違いない (too personal) and ということだ (hearsay). Choose ものと思われる when no source is cited and the tone is analytical.",
+    "In 並べ替え, the chunk ものと + 思われる / みられる sits at the very end; work backwards from it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-131-1",
+    "q-n1-g-131-2",
+    "q-n1-g-131-3",
+    "q-n1-g-131-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-131-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-35",
+  "slug": "to-atte",
+  "level": "n1",
+  "order": 35,
+  "title": "〜とあって",
+  "romaji": "toatte",
+  "meaning": "because (of the special situation) …; as it is …",
+  "simpleExplanation": "Xとあって presents a special, publicly observable situation X and states its natural consequence: 連休とあって、観光地は人でいっぱいだ. The speaker reports the situation like a journalist; it is not used for personal reasons of the speaker.",
+  "whenUsed": "Journalistic 書き言葉 and news reports, event descriptions, travel writing. Rare in conversation, where 〜ので / 〜だから is used.",
+  "formation": [
+    "Noun + とあって",
+    "Plain form + とあって (有名俳優が来るとあって)",
+    "Followed by a natural, observable result (混雑, 賑わい, 緊張)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Special-situation reasons",
+    "columns": [
+      "reason type",
+      "consequence",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜とあって",
+        "cells": [
+          "a special, observable occasion",
+          "a natural result, reported",
+          "連休とあって混雑している"
+        ]
+      },
+      {
+        "label": "〜とあれば",
+        "cells": [
+          "a hypothetical special case",
+          "a decision or willingness",
+          "君の頼みとあれば断れない"
+        ]
+      },
+      {
+        "label": "〜だけに",
+        "cells": [
+          "a known quality",
+          "an expected result",
+          "人気店だけに混んでいる"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "連休とあって、観光地はどこも人でいっぱいだ。",
+      "reading": "れんきゅうとあって、かんこうちはどこもひとでいっぱいだ。",
+      "en": "With the long weekend, tourist spots are packed everywhere.",
+      "note": "Holiday period → crowds, reported objectively."
+    },
+    {
+      "ja": "有名俳優が来るとあって、会場は朝から大混雑だった。",
+      "reading": "ゆうめいはいゆうがくるとあって、かいじょうはあさからだいこんざつだった。",
+      "en": "Since a famous actor was coming, the venue was crowded from the morning.",
+      "note": "A famous actor's visit → crowded venue."
+    },
+    {
+      "ja": "十年ぶりの優勝とあって、街は祝賀ムード一色だ。",
+      "reading": "じゅうねんぶりのゆうしょうとあって、まちはしゅくがムードいっしょくだ。",
+      "en": "It being the first championship in ten years, the whole town is in a celebratory mood.",
+      "note": "Championship → celebratory mood in the town."
+    },
+    {
+      "ja": "初めての海外公演とあって、メンバーは皆緊張した面持ちだった。",
+      "reading": "はじめてのかいがいこうえんとあって、メンバーはみなきんちょうしたおももちだった。",
+      "en": "Since it was their first overseas performance, the members all looked tense.",
+      "note": "Observable reaction described by a reporter."
+    },
+    {
+      "ja": "入場無料とあって、会場には開場前から長い列ができていた。",
+      "reading": "にゅうじょうむりょうとあって、かいじょうにはかいじょうまえからながいれつができていた。",
+      "en": "As admission was free, a long queue had formed before the doors opened.",
+      "note": "Noun + とあって with a crowd result."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とあれば",
+      "difference": "Conditional: \"if it is such a case\", leading to a decision. とあって states an actual situation.",
+      "id": "n1-grammar-36"
+    },
+    {
+      "pattern": "〜だけに",
+      "difference": "\"As you'd expect from X\"; usable for personal matters too.",
+      "id": "n2-grammar-60"
+    },
+    {
+      "pattern": "〜せいで / 〜ので",
+      "difference": "Everyday reasons (せいで blames); とあって is reserved for reporting notable circumstances.",
+      "id": "n2-grammar-59"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "疲れたとあって、早く寝た。",
+      "right": "疲れたので、早く寝た。",
+      "why": "とあって is not for the speaker's private reasons."
+    },
+    {
+      "wrong": "連休とあって、旅行に行きたい。",
+      "right": "連休とあって、観光地はどこも混んでいる。",
+      "why": "The result must be an observable consequence, not a wish or request."
+    },
+    {
+      "wrong": "連休とあれば、観光地は混んでいた。",
+      "right": "連休とあって、観光地は混んでいた。",
+      "why": "For an actual situation and its result use とあって; とあれば is conditional."
+    }
+  ],
+  "usageNotes": [
+    "Frequent contexts: crowds, prices, celebrations, tension before an event.",
+    "Third-person or public situations only.",
+    "Sounds like a news article; readers expect a result such as 賑わう, 混雑する, 注目を集める."
+  ],
+  "jlptTips": [
+    "A public event + crowd or excitement result → とあって.",
+    "The distractor とあれば needs a hypothetical case and a decision ending (断れない, いとわない).",
+    "If the subject is 私 and the reason personal, both とあって and とあれば are wrong; choose ので."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-35-1",
+    "q-n1-g-35-2",
+    "q-n1-g-35-3",
+    "q-n1-g-35-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-35-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

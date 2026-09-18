@@ -1,0 +1,146 @@
+{
+  "id": "n1-grammar-50",
+  "slug": "nagara-ni",
+  "level": "n1",
+  "order": 50,
+  "title": "〜ながらに / 〜ながらの",
+  "romaji": "nagarani-nagarano",
+  "meaning": "while …; as it is; in the state of … (unchanged)",
+  "simpleExplanation": "Nながらに / ながらの describes a state that stays as it is while something happens: 涙ながらに語る \"tell in tears\", 昔ながらの街並み \"streets as they were in the old days\". It is limited to a handful of fixed expressions.",
+  "whenUsed": "書き言葉 and set phrases in speech: 涙ながらに, 昔ながらの, 生まれながらに(して), いつもながら, 居ながらにして.",
+  "formation": [
+    "Noun + ながらに + verb (涙ながらに語る)",
+    "Noun + ながらの + noun (昔ながらの味)",
+    "生まれながらに(して) / 居ながらにして (fixed)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "The ながらに phrase list",
+    "columns": [
+      "phrase",
+      "meaning",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "涙ながらに",
+        "cells": [
+          "in tears",
+          "state during speech",
+          "涙ながらに訴える"
+        ]
+      },
+      {
+        "label": "昔ながらの",
+        "cells": [
+          "as it was long ago",
+          "unchanged tradition",
+          "昔ながらの製法"
+        ]
+      },
+      {
+        "label": "生まれながらに(して)",
+        "cells": [
+          "from birth",
+          "innate",
+          "生まれながらにして才能がある"
+        ]
+      },
+      {
+        "label": "居ながらにして",
+        "cells": [
+          "without leaving where you are",
+          "convenience",
+          "家に居ながらにして買える"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼女は涙ながらに、事故の様子を語った。",
+      "reading": "かのじょはなみだながらに、じこのようすをかたった。",
+      "en": "In tears, she described the accident.",
+      "note": "涙ながらに + speaking verb."
+    },
+    {
+      "ja": "この町には昔ながらの街並みが残っている。",
+      "reading": "このまちにはむかしながらのまちなみがのこっている。",
+      "en": "This town retains its old-fashioned streetscape.",
+      "note": "昔ながらの + noun: unchanged."
+    },
+    {
+      "ja": "生まれながらにして、人はみな平等である。",
+      "reading": "うまれながらにして、ひとはみなびょうどうである。",
+      "en": "All people are equal from birth.",
+      "note": "生まれながらにして: innate equality."
+    },
+    {
+      "ja": "この店は昔ながらの製法で豆腐を作っている。",
+      "reading": "このみせはむかしながらのせいほうでとうふをつくっている。",
+      "en": "This shop makes tofu using the traditional method.",
+      "note": "Unchanged tradition."
+    },
+    {
+      "ja": "インターネットのおかげで、家に居ながらにして世界中の情報が手に入る。",
+      "reading": "インターネットのおかげで、いえにいながらにしてせかいじゅうのじょうほうがてにはいる。",
+      "en": "Thanks to the internet, you can get information from around the world without leaving home.",
+      "note": "居ながらにして: without moving."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ながら(も)",
+      "difference": "\"Although\" or \"while doing\" with verb stems (知りながら); different function.",
+      "id": "n2-grammar-96"
+    },
+    {
+      "pattern": "〜っぱなし",
+      "difference": "\"Left as is\" (つけっぱなし): an everyday unchanged state, usually careless; ながらに is limited to set phrases.",
+      "id": "n2-grammar-75"
+    },
+    {
+      "pattern": "〜つつ",
+      "difference": "\"While doing\" with verb stems; formal simultaneous action, not a state.",
+      "id": "n2-grammar-73"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "泣きながらに語った。",
+      "right": "涙ながらに語った。",
+      "why": "ながらに follows a noun (涙), not a verb stem."
+    },
+    {
+      "wrong": "昔ながらに街並み",
+      "right": "昔ながらの街並み",
+      "why": "Before a noun use ながらの."
+    },
+    {
+      "wrong": "彼は生まれながらの才能に努力で追いついた。",
+      "right": "彼は生まれながらの才能に恵まれている。",
+      "why": "生まれながらの means innate; the sentence must treat the talent as inborn."
+    }
+  ],
+  "usageNotes": [
+    "Learn the fixed set; new combinations sound odd.",
+    "いつもながら = \"as always\": いつもながら見事な演技だ.",
+    "生まれながらにして and 居ながらにして include して."
+  ],
+  "jlptTips": [
+    "If the blank follows 涙 / 昔 / 生まれ / 居, the answer is ながらに / ながらの.",
+    "Choose ながらの when a noun follows, ながらに when a verb follows.",
+    "ながらも (\"although\") is a distractor: it attaches to verbs and adjectives, not to these nouns."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-50-1",
+    "q-n1-g-50-2",
+    "q-n1-g-50-3",
+    "q-n1-g-50-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-50-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

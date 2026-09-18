@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-11",
+  "slug": "kara-aru-kara-suru",
+  "level": "n1",
+  "order": 11,
+  "title": "〜からある / 〜からする / 〜からの",
+  "romaji": "karaaru-karasuru-karano",
+  "meaning": "as much as …; no less than … (an impressively large amount)",
+  "simpleExplanation": "A quantity + からある / からする / からの stresses that the amount is at least that much and that the speaker finds it impressively large: 五十キロからある荷物 \"a load of no less than fifty kilos\". からある is for size, weight, length and distance; からする is for prices; からの is for numbers of people or things.",
+  "whenUsed": "Written descriptions, news reports, novels. In speech people say 五十キロもある. The number is always large and the tone is one of surprise or emphasis.",
+  "formation": [
+    "Quantity (weight, length, size) + からある + N",
+    "Price + からする + N",
+    "Number of people / items + からの + N",
+    "Also: Quantity + からの + N for general amounts (三千人からの人々)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Choosing からある / からする / からの",
+    "columns": [
+      "type of quantity",
+      "form",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "size, weight, length",
+        "cells": [
+          "measurement",
+          "〜からある",
+          "百キロからある岩"
+        ]
+      },
+      {
+        "label": "price",
+        "cells": [
+          "money",
+          "〜からする",
+          "十万円からする時計"
+        ]
+      },
+      {
+        "label": "people, items",
+        "cells": [
+          "count",
+          "〜からの",
+          "千人からの参加者"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は五十キロからある荷物を軽々と担いだ。",
+      "reading": "かれはごじゅっきろからあるにもつをかるがるとかついだ。",
+      "en": "He shouldered a load of no less than fifty kilograms with ease.",
+      "note": "Weight → からある; the ease of lifting it makes the size impressive."
+    },
+    {
+      "ja": "一億円からする絵画が盗まれた。",
+      "reading": "いちおくえんからするかいががぬすまれた。",
+      "en": "A painting worth at least a hundred million yen was stolen.",
+      "note": "Price → からする."
+    },
+    {
+      "ja": "五万人からの観客がスタジアムを埋め尽くした。",
+      "reading": "ごまんにんからのかんきゃくがスタジアムをうめつくした。",
+      "en": "No fewer than fifty thousand spectators filled the stadium.",
+      "note": "Count of people → からの."
+    },
+    {
+      "ja": "この橋は全長二キロからある。",
+      "reading": "このはしはぜんちょうにキロからある。",
+      "en": "This bridge is a full two kilometres long.",
+      "note": "Sentence-final からある is also possible with lengths."
+    },
+    {
+      "ja": "一着百万円からするドレスを、彼女は何着も持っている。",
+      "reading": "いっちゃくひゃくまんえんからするドレスを、かのじょはなんちゃくももっている。",
+      "en": "She owns several dresses costing no less than a million yen each.",
+      "note": "Price + からする modifying a noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ほど",
+      "difference": "\"As much as\" for degree (山ほど); a neutral comparison with no surprise at the size.",
+      "id": "n2-grammar-147"
+    },
+    {
+      "pattern": "〜以上",
+      "difference": "Neutral \"more than\"; no sense of surprise.",
+      "id": "n2-grammar-3"
+    },
+    {
+      "pattern": "〜たりとも",
+      "difference": "Emphasises the smallest unit (一円たりとも); the opposite direction of emphasis.",
+      "id": "n1-grammar-26"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一億円からある絵画",
+      "right": "一億円からする絵画",
+      "why": "Prices take からする, not からある."
+    },
+    {
+      "wrong": "五万人からある観客",
+      "right": "五万人からの観客",
+      "why": "Counts of people take からの."
+    },
+    {
+      "wrong": "三キロからある短い道",
+      "right": "三キロからある長い道",
+      "why": "The pattern implies the amount is impressively large; pairing it with 短い contradicts it."
+    }
+  ],
+  "usageNotes": [
+    "Numbers are always large and rounded: 百キロ, 一億円, 五万人.",
+    "The following noun is often 荷物, 岩, 絵画, 家, 観客, 人々.",
+    "Do not use it for small or exact quantities."
+  ],
+  "jlptTips": [
+    "Match the quantity type to the form: money → からする, weight/length → からある, people → からの. The test swaps them.",
+    "If the sentence describes something as heavy or expensive with surprise, からある / からする fits; 以上 is a distractor without that tone.",
+    "Note that からある can end a sentence (二キロからある), while からの must be followed by a noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-11-1",
+    "q-n1-g-11-2",
+    "q-n1-g-11-3",
+    "q-n1-g-11-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-11-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

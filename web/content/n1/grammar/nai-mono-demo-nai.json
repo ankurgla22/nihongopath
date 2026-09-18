@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-49",
+  "slug": "nai-mono-demo-nai",
+  "level": "n1",
+  "order": 49,
+  "title": "〜ないものでもない",
+  "romaji": "naimonodemonai",
+  "meaning": "it is not impossible that …; might well …",
+  "simpleExplanation": "Vないものでもない is a double negative that yields a hesitant \"yes\": 条件次第では引き受けないものでもない \"depending on conditions, I might take it on\". The speaker leaves the door open without committing.",
+  "whenUsed": "Both registers; common in negotiation and cautious opinions. Often preceded by a condition (〜次第では, 〜なら, 頼めば).",
+  "formation": [
+    "Vない + ものでもない",
+    "Condition + Vないものでもない",
+    "Potential: Vられないものでもない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "引き受けない",
+        "en": "will not take it on (clear refusal)"
+      },
+      {
+        "ja": "引き受けないものでもない",
+        "en": "it is not that I won't take it on = I might (hedged acceptance)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "条件次第では、引き受けないものでもない。",
+      "reading": "じょうけんしだいでは、ひきうけないものでもない。",
+      "en": "Depending on the conditions, I might well take it on.",
+      "note": "A condition + hedged acceptance."
+    },
+    {
+      "ja": "この程度の量なら、一人で食べられないものでもない。",
+      "reading": "このていどのりょうなら、ひとりでたべられないものでもない。",
+      "en": "With this amount, it is not impossible to eat it alone.",
+      "note": "Potential form: not impossible to eat alone."
+    },
+    {
+      "ja": "頼めば、彼も協力しないものでもないだろう。",
+      "reading": "たのめば、かれもきょうりょくしないものでもないだろう。",
+      "en": "If asked, he might not refuse to cooperate.",
+      "note": "A third person's possible cooperation with だろう."
+    },
+    {
+      "ja": "急いで書けば、今日中に仕上げられないものでもない。",
+      "reading": "いそいでかけば、きょうじゅうにしあげられないものでもない。",
+      "en": "If I write quickly, it is not impossible to finish it today.",
+      "note": "Potential + ないものでもない."
+    },
+    {
+      "ja": "彼の言うことにも、一理ないものでもない。",
+      "reading": "かれのいうことにも、いちりないものでもない。",
+      "en": "What he says is not entirely without reason.",
+      "note": "With a noun-like predicate 一理ない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜なくもない / 〜ないでもない",
+      "difference": "Very similar hedged affirmatives; なくもない also works with adjectives (寒くなくもない).",
+      "id": "n1-grammar-130"
+    },
+    {
+      "pattern": "〜ないまでも",
+      "difference": "\"Even if not X, at least Y\": lowers a goal rather than hedging.",
+      "id": "n1-grammar-48"
+    },
+    {
+      "pattern": "〜ないともかぎらない",
+      "difference": "\"Might possibly happen\", used for risks (事故が起きないともかぎらない).",
+      "id": "n1-grammar-112"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "引き受けるものでもない。",
+      "right": "引き受けないものでもない。",
+      "why": "The verb before ものでもない must be negative to create the double negative."
+    },
+    {
+      "wrong": "絶対に引き受けないものでもない。",
+      "right": "条件次第では引き受けないものでもない。",
+      "why": "The hedge does not go with 絶対に; pair it with a condition."
+    },
+    {
+      "wrong": "行かないものではない。",
+      "right": "行かないものでもない。",
+      "why": "The fixed form has も: ものでもない."
+    }
+  ],
+  "usageNotes": [
+    "Frequent conditions: 〜次第では, 〜なら, 〜ば, 場合によっては.",
+    "Sounds non-committal; useful for polite hedging.",
+    "Potential verbs are common: できないものでもない."
+  ],
+  "jlptTips": [
+    "A condition + a negative verb + blank ending in でもない → ないものでもない.",
+    "The distractor ないまでも needs a lower goal in the second clause.",
+    "ないともかぎらない is for risks, not for the speaker's willingness."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-49-1",
+    "q-n1-g-49-2",
+    "q-n1-g-49-3",
+    "q-n1-g-49-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-49-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

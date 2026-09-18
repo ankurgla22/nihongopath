@@ -1,0 +1,129 @@
+{
+  "id": "n1-grammar-58",
+  "slug": "naritomo",
+  "level": "n1",
+  "order": 58,
+  "title": "〜なりとも",
+  "romaji": "naritomo",
+  "meaning": "even a little …; at least …",
+  "simpleExplanation": "Nなりとも means \"even if only N, at least N\" with a hopeful, positive wish: 少しなりともお役に立てれば \"if I can be of even a little help\". It is formal and mostly occurs with 少し, 一言, 一目, 多少, and in the fixed 何なりと (\"anything at all\").",
+  "whenUsed": "Formal speech and writing: polite offers, wishes, hospitality. 何なりとお申し付けください is standard service language.",
+  "formation": [
+    "少し / 多少 / 一言 / 一目 + なりとも + positive wish",
+    "何なりと (+ お申し付けください / どうぞ)",
+    "いつなりとも / どこへなりとも (\"any time / anywhere\", rarer)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "なりとも vs たりとも",
+    "columns": [
+      "direction",
+      "partner words",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜なりとも",
+        "cells": [
+          "positive: at least a little",
+          "少し, 一言, 一目, 何",
+          "少しなりともお役に立ちたい"
+        ]
+      },
+      {
+        "label": "〜たりとも",
+        "cells": [
+          "negative: not even one",
+          "一 + counter + negative",
+          "一秒たりとも無駄にできない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "少しなりともお役に立てれば幸いです。",
+      "reading": "すこしなりともおやくにたてればさいわいです。",
+      "en": "I would be glad if I could be of even a little help.",
+      "note": "A polite wish: even a little help."
+    },
+    {
+      "ja": "一言なりとも、お礼を言いたかった。",
+      "reading": "ひとことなりとも、おれいをいいたかった。",
+      "en": "I wanted to say at least a word of thanks.",
+      "note": "一言なりとも: at least a word."
+    },
+    {
+      "ja": "何なりとお申し付けください。",
+      "reading": "なんなりとおもうしつけください。",
+      "en": "Please ask for anything at all.",
+      "note": "何なりと: anything at all, service language."
+    },
+    {
+      "ja": "せめて一目なりとも、故郷の山を見たかった。",
+      "reading": "せめてひとめなりとも、こきょうのやまをみたかった。",
+      "en": "I wanted at least one glimpse of the mountains of my home town.",
+      "note": "せめて + 一目なりとも."
+    },
+    {
+      "ja": "ご不明な点がございましたら、何なりとお尋ねください。",
+      "reading": "ごふめいなてんがございましたら、なんなりとおたずねください。",
+      "en": "If anything is unclear, please ask about anything at all.",
+      "note": "何なりと in customer service."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜たりとも",
+      "difference": "The negative mirror: not even one (一円たりとも).",
+      "id": "n1-grammar-26"
+    },
+    {
+      "pattern": "〜だけでも",
+      "difference": "Everyday \"even just\": 少しだけでも. なりとも is formal."
+    },
+    {
+      "pattern": "〜なり〜なり",
+      "difference": "Different pattern: listing options.",
+      "id": "n1-grammar-56"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一秒なりとも無駄にできない。",
+      "right": "一秒たりとも無駄にできない。",
+      "why": "A negative statement of \"not even one\" takes たりとも."
+    },
+    {
+      "wrong": "たくさんなりともお役に立ちたい。",
+      "right": "少しなりともお役に立ちたい。",
+      "why": "なりとも goes with small amounts: 少し, 一言, 多少."
+    },
+    {
+      "wrong": "何なりと言ってはいけない。",
+      "right": "何なりとお申し付けください。",
+      "why": "何なりと is followed by an invitation, not a prohibition."
+    }
+  ],
+  "usageNotes": [
+    "Learn the fixed partners: 少しなりとも, 多少なりとも, 一言なりとも, 一目なりとも, 何なりと.",
+    "Polite endings: お役に立てれば幸いです, お申し付けください.",
+    "The tone is humble and hopeful."
+  ],
+  "jlptTips": [
+    "A small-amount word (少し / 一言) + blank + a positive wish → なりとも; 一 + counter + negative → たりとも.",
+    "何なりと + お申し付けください is a set phrase to memorise.",
+    "Distractors だに and すら are \"even\" in negative contexts, not positive wishes."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-58-1",
+    "q-n1-g-58-2",
+    "q-n1-g-58-3",
+    "q-n1-g-58-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-58-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

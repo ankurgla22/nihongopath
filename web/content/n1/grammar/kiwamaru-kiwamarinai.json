@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-13",
+  "slug": "kiwamaru-kiwamarinai",
+  "level": "n1",
+  "order": 13,
+  "title": "〜極まる / 〜極まりない",
+  "romaji": "maru-marinai",
+  "meaning": "extremely …; the height of … (usually negative)",
+  "simpleExplanation": "Na-adjective stem + 極まる / 極まりない means the quality has reached its very limit: 失礼極まりない \"extremely rude\". Surprisingly, 極まる and 極まりない mean the same thing; the ない does not negate. Both are used mainly with negative qualities like 失礼, 危険, 不愉快, 遺憾.",
+  "whenUsed": "書き言葉 and formal criticism: editorials, complaints, official statements. In speech people say 非常に失礼だ. Do not use it to praise.",
+  "formation": [
+    "Na-adjective stem + 極まる (危険極まる行為)",
+    "Na-adjective stem + 極まりない (失礼極まりない)",
+    "い-adjective + こと + 極まりない (ひどいこと極まりない)",
+    "Modifying a noun: 〜極まる + N / 〜極まりない + N"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "失礼だ",
+        "en": "rude (plain)"
+      },
+      {
+        "ja": "非常に失礼だ",
+        "en": "very rude (everyday intensifier)"
+      },
+      {
+        "ja": "失礼極まりない",
+        "en": "rude beyond measure (formal, written; ない does not negate)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼の態度は失礼極まりない。",
+      "reading": "かれのたいどはしつれいきわまりない。",
+      "en": "His attitude is extremely rude.",
+      "note": "The most common collocation: 失礼極まりない."
+    },
+    {
+      "ja": "夜道を一人で歩くなど、危険極まる行為だ。",
+      "reading": "よみちをひとりであるくなど、きけんきわまるこういだ。",
+      "en": "Walking alone on a dark road is an extremely dangerous act.",
+      "note": "極まる modifying a noun (危険極まる行為)."
+    },
+    {
+      "ja": "毎日同じ作業の繰り返しで、退屈極まりない。",
+      "reading": "まいにちおなじさぎょうのくりかえしで、たいくつきわまりない。",
+      "en": "Repeating the same task every day is unbearably boring.",
+      "note": "退屈 + 極まりない: a negative feeling at its limit."
+    },
+    {
+      "ja": "住民への説明もなく工事を始めるとは、無責任極まりない。",
+      "reading": "じゅうみんへのせつめいもなくこうじをはじめるとは、むせきにんきわまりない。",
+      "en": "Starting the construction without even explaining to residents is utterly irresponsible.",
+      "note": "Public complaint register."
+    },
+    {
+      "ja": "交渉は複雑極まる様相を呈してきた。",
+      "reading": "こうしょうはふくざつきわまるようそうをていしてきた。",
+      "en": "The negotiations have taken on an extremely complicated aspect.",
+      "note": "Formal news style with 極まる + noun."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の極み",
+      "difference": "Noun version: 贅沢の極み, 感激の極み. Can be positive; 極まりない is mostly negative.",
+      "id": "n1-grammar-73"
+    },
+    {
+      "pattern": "〜かぎりだ",
+      "difference": "Emotion adjectives for the speaker's own feeling (嬉しいかぎりだ), not qualities of others' actions.",
+      "id": "n1-grammar-6"
+    },
+    {
+      "pattern": "〜といったらない",
+      "difference": "Exclamatory \"indescribably\", spoken; 極まりない is formal writing.",
+      "id": "n1-grammar-39"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "失礼な極まりない",
+      "right": "失礼極まりない",
+      "why": "極まりない attaches directly to the stem; drop な."
+    },
+    {
+      "wrong": "彼の態度は失礼極まりなくない。",
+      "right": "彼の態度は失礼極まりない。",
+      "why": "極まりない is already the full expression; adding another ない makes it meaningless."
+    },
+    {
+      "wrong": "この料理は美味極まりない。",
+      "right": "この料理は美味しいことこの上ない。",
+      "why": "極まりない is used with negative qualities; for praise use この上ない."
+    }
+  ],
+  "usageNotes": [
+    "Typical stems: 失礼, 危険, 不愉快, 無責任, 遺憾, 退屈, 不親切, 複雑.",
+    "極まりない is a little more common than 極まる in modern writing.",
+    "い-adjectives need こと: 悔しいこと極まりない."
+  ],
+  "jlptTips": [
+    "Remember that 極まりない is not a negation: if the sentence criticises something as extremely rude or dangerous, 極まりない is correct even though it ends in ない.",
+    "Distractors include かぎりだ (speaker's emotion) and に堪えない (cannot bear to); check whether the word before the blank is a negative na-adjective stem.",
+    "If the word before the blank ends in な, the answer cannot be 極まりない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-13-1",
+    "q-n1-g-13-2",
+    "q-n1-g-13-3",
+    "q-n1-g-13-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-13-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

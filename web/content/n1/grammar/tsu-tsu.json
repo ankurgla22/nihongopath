@@ -1,0 +1,147 @@
+{
+  "id": "n1-grammar-128",
+  "slug": "tsu-tsu",
+  "level": "n1",
+  "order": 128,
+  "title": "〜つ〜つ",
+  "romaji": "tsu ... tsu",
+  "meaning": "…ing and …ing (back and forth, alternately); now … now …",
+  "simpleExplanation": "〜つ〜つ joins two verbs to show actions that keep alternating: going and coming back, floating and sinking, overtaking and being overtaken. つ is a classical particle, so the pattern survives only in a handful of fixed pairs. The two verbs are usually opposites or an active/passive pair of the same verb.",
+  "whenUsed": "Written and literary Japanese, sports commentary (抜きつ抜かれつ), and a few idioms used in speech (持ちつ持たれつ). You cannot freely create new pairs; learn the fixed ones. Often followed by する / の + N / だ.",
+  "formation": [
+    "Vます-stem + つ + Vます-stem + つ",
+    "Opposite pairs: 行きつ戻りつ (back and forth)・浮きつ沈みつ (rising and sinking)・矯めつ眇めつ (looking closely from every angle)",
+    "Active + passive of one verb: 抜きつ抜かれつ (overtaking each other)・持ちつ持たれつ (mutual support)・押しつ押されつ (jostling)",
+    "Used as adverb (〜つ〜つする / 〜つ〜つしながら) or with の + N (抜きつ抜かれつの接戦)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Fixed 〜つ〜つ pairs",
+    "columns": [
+      "pair",
+      "type",
+      "meaning"
+    ],
+    "rows": [
+      {
+        "label": "行きつ戻りつ",
+        "cells": [
+          "行く ↔ 戻る",
+          "opposites",
+          "pacing back and forth"
+        ]
+      },
+      {
+        "label": "浮きつ沈みつ",
+        "cells": [
+          "浮く ↔ 沈む",
+          "opposites",
+          "bobbing up and down; ups and downs"
+        ]
+      },
+      {
+        "label": "抜きつ抜かれつ",
+        "cells": [
+          "抜く ↔ 抜かれる",
+          "active / passive",
+          "overtaking each other in turn"
+        ]
+      },
+      {
+        "label": "持ちつ持たれつ",
+        "cells": [
+          "持つ ↔ 持たれる",
+          "active / passive",
+          "give and take; mutual support"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は店の前を行きつ戻りつしていた。",
+      "reading": "かれはみせのまえをいきつもどりつしていた。",
+      "en": "He was pacing back and forth in front of the shop.",
+      "note": "行きつ戻りつ + する: the person pacing is unable to decide."
+    },
+    {
+      "ja": "両チームは抜きつ抜かれつの接戦を繰り広げた。",
+      "reading": "りょうチームはぬきつぬかれつのせっせんをくりひろげた。",
+      "en": "The two teams fought a close race, overtaking each other in turn.",
+      "note": "抜きつ抜かれつ + の + N: describes a race where the lead keeps changing."
+    },
+    {
+      "ja": "世の中は持ちつ持たれつだ。",
+      "reading": "よのなかはもちつもたれつだ。",
+      "en": "The world runs on give and take.",
+      "note": "持ちつ持たれつ is a proverb-like idiom: society runs on mutual help."
+    },
+    {
+      "ja": "小舟は波に浮きつ沈みつしながら、ゆっくりと岸に近づいた。",
+      "reading": "こぶねはなみにうきつしずみつしながら、ゆっくりときしにちかづいた。",
+      "en": "Bobbing up and down on the waves, the little boat slowly approached the shore.",
+      "note": "〜つ〜つ + しながら describes the manner of movement."
+    },
+    {
+      "ja": "彼は品物を矯めつ眇めつ眺めてから、ようやく買うことに決めた。",
+      "reading": "かれはしなものをためつすがめつながめてから、ようやくかうことにきめた。",
+      "en": "After examining the item closely from every angle, he finally decided to buy it.",
+      "note": "矯めつ眇めつ is a fixed idiom for scrutinizing something."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-160",
+      "pattern": "〜やら〜やら",
+      "difference": "Lists mixed examples (\"things like X and Y\"). つ〜つ describes two alternating movements, not a list."
+    },
+    {
+      "id": "n2-grammar-68",
+      "pattern": "〜たり〜たり",
+      "difference": "Modern, freely combinable \"doing things like X and Y\". つ〜つ is limited to fixed pairs and stresses alternation."
+    },
+    {
+      "id": "n1-grammar-56",
+      "pattern": "〜なり〜なり",
+      "difference": "Offers alternatives to choose from (\"either X or Y\"). つ〜つ is about actions that actually alternate."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は食べつ飲みつしていた。",
+      "right": "彼は食べたり飲んだりしていた。",
+      "why": "つ〜つ is not productive. 食べる and 飲む are not a fixed pair; use たり〜たり for ordinary lists of actions."
+    },
+    {
+      "wrong": "抜いつ抜かれつの接戦",
+      "right": "抜きつ抜かれつの接戦",
+      "why": "つ attaches to the ます-stem (抜き), not to the て-form stem."
+    },
+    {
+      "wrong": "持ちつ持たれつなので、私が全部払います。",
+      "right": "持ちつ持たれつなので、今日は私が払います。",
+      "why": "持ちつ持たれつ means mutual give and take. Paying everything, always, contradicts the idea of mutuality."
+    }
+  ],
+  "usageNotes": [
+    "Learn the pairs as vocabulary: 行きつ戻りつ・浮きつ沈みつ・抜きつ抜かれつ・持ちつ持たれつ・押しつ押されつ・矯めつ眇めつ.",
+    "As a modifier it takes の: 抜きつ抜かれつのレース. As an adverb it takes する or しながら.",
+    "持ちつ持たれつ is the one pair you will hear in ordinary conversation, often as 持ちつ持たれつの関係."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, if the two verbs are opposites or an active/passive pair and the sentence describes alternating movement, choose つ〜つ.",
+    "Watch the stem: it is the ます-stem (行き・浮き・抜き), which rules out options like 行っつ or 抜いつ.",
+    "In 並べ替え, the pair is often split into two chunks (抜きつ / 抜かれつ); put the active form first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-128-1",
+    "q-n1-g-128-2",
+    "q-n1-g-128-3",
+    "q-n1-g-128-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-128-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,137 @@
+{
+  "id": "n1-grammar-84",
+  "slug": "mamire",
+  "level": "n1",
+  "order": 84,
+  "title": "〜まみれ",
+  "romaji": "mamire",
+  "meaning": "covered all over in … (mud, sweat, blood, dust)",
+  "simpleExplanation": "〜まみれ attaches to a noun and means \"covered all over with X\", where X is an unpleasant substance that sticks to a surface: 泥まみれ (covered in mud), 汗まみれ (drenched in sweat), 血まみれ (bloodstained). Figuratively, 借金まみれ (drowning in debt).",
+  "whenUsed": "Both speech and writing, neutral to vivid. Used for physical states after work, sport, accidents and for dirt (ほこりまみれ). Only liquids and fine particles that coat a surface work; for many objects scattered around, use だらけ.",
+  "formation": [
+    "N + まみれ (泥・汗・血・ほこり・油・借金)",
+    "N + まみれだ / まみれになる / まみれの + N"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "まみれ vs だらけ vs ずくめ",
+    "columns": [
+      "Attaches to",
+      "Nuance",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜まみれ",
+        "cells": [
+          "liquids, dust that coat a surface",
+          "sticky, dirty",
+          "泥まみれ・汗まみれ"
+        ]
+      },
+      {
+        "label": "〜だらけ",
+        "cells": [
+          "many objects or faults",
+          "full of, lots of",
+          "間違いだらけ・傷だらけ"
+        ]
+      },
+      {
+        "label": "〜ずくめ",
+        "cells": [
+          "all of one kind",
+          "nothing but",
+          "黒ずくめ・いいことずくめ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "子供たちは泥まみれになって遊んでいた。",
+      "reading": "こどもたちはどろまみれになってあそんでいた。",
+      "en": "The children were playing, covered in mud.",
+      "note": "泥まみれになって: the mud coats the children."
+    },
+    {
+      "ja": "彼は汗まみれの顔でゴールに飛び込んだ。",
+      "reading": "かれはあせまみれのかおでゴールにとびこんだ。",
+      "en": "He dashed across the finish line, his face covered in sweat.",
+      "note": "汗まみれの顔: adnominal use with の."
+    },
+    {
+      "ja": "会社は借金まみれで、倒産寸前だった。",
+      "reading": "かいしゃはしゃっきんまみれで、とうさんすんぜんだった。",
+      "en": "The company was drowning in debt and on the verge of bankruptcy.",
+      "note": "借金まみれ: the figurative use for being buried in debt."
+    },
+    {
+      "ja": "倉庫の棚は、長年放置されてほこりまみれだった。",
+      "reading": "そうこのたなは、ながねんほうちされてほこりまみれだった。",
+      "en": "The warehouse shelves, left untouched for years, were covered in dust.",
+      "note": "ほこり is a fine particle, so まみれ fits."
+    },
+    {
+      "ja": "整備士は油まみれの手で、笑顔を見せた。",
+      "reading": "せいびしはあぶらまみれのてで、えがおをみせた。",
+      "en": "The mechanic smiled with hands covered in oil.",
+      "note": "油まみれ: grease coating the hands."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜だらけ",
+      "difference": "\"Full of\" many countable things or faults (傷だらけ・間違いだらけ). まみれ is for a substance coating a surface.",
+      "id": "n2-grammar-69"
+    },
+    {
+      "pattern": "〜ずくめ",
+      "difference": "\"Entirely of one kind\" (黒ずくめ・ごちそうずくめ); not about dirt at all.",
+      "id": "n1-grammar-18"
+    },
+    {
+      "pattern": "〜っぱなし",
+      "difference": "\"Left as is\" (つけっぱなし); sometimes confused because both describe a neglected state.",
+      "id": "n2-grammar-75"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "間違いまみれの作文",
+      "right": "間違いだらけの作文",
+      "why": "Mistakes are countable items scattered through the text; use だらけ."
+    },
+    {
+      "wrong": "花まみれの庭",
+      "right": "花でいっぱいの庭",
+      "why": "まみれ implies something unpleasant sticking to a surface; flowers do not fit."
+    },
+    {
+      "wrong": "汗だらけになった。",
+      "right": "汗まみれになった。",
+      "why": "Sweat is a liquid that coats the body, so まみれ is the natural choice."
+    }
+  ],
+  "usageNotes": [
+    "The nouns are limited: 泥・汗・血・ほこり・油・砂・粉, plus figurative 借金・嘘 (rare).",
+    "It always suggests dirtiness or exhaustion; there is no positive まみれ.",
+    "Grammatically it works like a noun: まみれだ, まみれの, まみれになる."
+  ],
+  "jlptTips": [
+    "If the noun is 泥・汗・血・ほこり and the state is dirty or exhausting, choose まみれ.",
+    "The main distractor is だらけ; decide by whether the noun is a coating (まみれ) or countable items (だらけ).",
+    "ずくめ appears alongside as a third option; it means \"nothing but\" and is not about dirt."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-84-1",
+    "q-n1-g-84-2",
+    "q-n1-g-84-3",
+    "q-n1-g-84-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-84-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -5,13 +5,13 @@
  */
 import Link from "next/link";
 import { useRef, useState } from "react";
-import type { Question, QuestionIndexEntry } from "@/lib/content/schemas";
+import type { Level, Question, QuestionIndexEntry } from "@/lib/content/schemas";
 import { SKILLS, todayISO, type QuizKind, type Skill } from "@/lib/firestore/types";
 import { completeQuiz } from "@/lib/study/service";
 import { skillLabel } from "@/lib/engine/dailyPlan";
-import type { SubmittedAnswer } from "@/lib/engine/scoring";
+import { hashSeed, mulberry32, shuffle, type SubmittedAnswer } from "@/lib/engine/scoring";
 import { curriculumDayFor, phaseForDay } from "@/lib/engine/progress";
-import { fetchQuestionsByIds } from "@/lib/questions/client";
+import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, PageTitle } from "@/components/ui";
@@ -20,21 +20,27 @@ import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { levelForPhase, pickWithFallback, questionLevelsUpTo, type ContentLinks } from "./helpers";
 
 type PhaseSummary = { id: number; name: string; startDay: number; endDay: number };
+/** Per level, the id suffixes of every vocabulary word ("12" for n5-vocab-12) and kanji ("一" for n5-kanji-一). */
+export type DrillPool = Partial<Record<Level, { vocab: string[]; kanji: string[] }>>;
 /** `questionIndex` is the slim bank (id/level/skill/difficulty/tags); full records are fetched on demand. */
-type Props = { questionIndex: QuestionIndexEntry[]; contentLinks: ContentLinks; phases: PhaseSummary[] };
+type Props = { questionIndex: QuestionIndexEntry[]; contentLinks: ContentLinks; phases: PhaseSummary[]; drillPool?: DrillPool };
+
+const DRILL_COUNT = 20;
 
 type Launch = {
   key: string;
   kind: QuizKind;
   title: string;
   mode: "practice" | "test";
-  /** Picked ids (kept so a retry fetches the same set). */
+  /** Picked bank question ids (kept so a retry fetches the same set). */
   ids: string[];
+  /** For drills: vocabulary/kanji content ids generated on the fly with `seed` instead of bank ids. */
+  drill?: { contentIds: string[]; seed: string };
   status: "loading" | "ready" | "error";
   questions: Question[];
 };
 
-export function TestsHubClient({ questionIndex, contentLinks, phases }: Props) {
+export function TestsHubClient({ questionIndex, contentLinks, phases, drillPool = {} }: Props) {
   const { user } = useAuth();
   const { userDoc, loading, error, refresh } = useUserDoc();
   const today = todayISO();
@@ -52,7 +58,7 @@ export function TestsHubClient({ questionIndex, contentLinks, phases }: Props) {
     const token = ++launchToken.current;
     setLaunch({ ...base, status: "loading", questions: [] });
     try {
-      const full = await fetchQuestionsByIds(base.ids);
+      const full = base.drill ? await fetchDrill(base.drill.contentIds, { seed: base.drill.seed, perItem: 1 }) : await fetchQuestionsByIds(base.ids);
       if (token !== launchToken.current) return;
       setLaunch({ ...base, status: "ready", questions: full });
     } catch {
@@ -66,6 +72,22 @@ export function TestsHubClient({ questionIndex, contentLinks, phases }: Props) {
     const seed = `${user.uid}-${today}-${key}-${Date.now()}`;
     const picked = pickWithFallback(questionIndex, { count, levels, skills, seed });
     void loadLaunch({ key, kind, title, mode, ids: picked.map((q) => q.id) });
+  };
+
+  // A drill picks 20 random words/kanji of the current level (any level with content when the pool is
+  // missing this one) and generates one question each, so every item in the catalogue is reachable.
+  const drillLevel: Level | null = drillPool[level] ? level : ((Object.keys(drillPool) as Level[]).at(-1) ?? null);
+  const drillPoolFor = (kind: "vocab" | "kanji") => (drillLevel ? (drillPool[drillLevel]?.[kind] ?? []) : []);
+  const startDrill = (kind: "vocab" | "kanji") => {
+    if (!user || !drillLevel) return;
+    const key = `drill-${kind}`;
+    const seed = `${user.uid}-${today}-${key}-${Date.now()}`;
+    const rand = mulberry32(hashSeed(seed));
+    const contentIds = shuffle(drillPoolFor(kind).slice(), rand)
+      .slice(0, DRILL_COUNT)
+      .map((s) => `${drillLevel}-${kind}-${s}`);
+    const title = `${kind === "kanji" ? "Kanji" : "Vocabulary"} drill · ${drillLevel.toUpperCase()}`;
+    void loadLaunch({ key, kind: "practice", title, mode: "practice", ids: [], drill: { contentIds, seed } });
   };
 
   const close = () => {
@@ -211,6 +233,43 @@ export function TestsHubClient({ questionIndex, contentLinks, phases }: Props) {
                   <Arrow className="text-muted group-hover:text-accent" />
                 </button>
               ))}
+            </div>
+          </Card>
+
+          <Card className="mt-4 animate-rise-2">
+            <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <h2 className="text-h2">Drills</h2>
+              <span className="text-xs text-muted">{DRILL_COUNT} random items{drillLevel ? ` from ${drillLevel.toUpperCase()}` : ""} · generated fresh every time</span>
+            </div>
+            <p className="mt-1.5 text-sm text-muted">Every word and kanji in the level is covered — not only the ones with bank questions. Each answer updates that item&apos;s review schedule.</p>
+            <div className="mt-4 grid gap-2 sm:grid-cols-2">
+              {(
+                [
+                  { kind: "vocab", skill: "vocabulary", label: "Vocabulary drill", hint: "meaning or reading of a word" },
+                  { kind: "kanji", skill: "kanji", label: "Kanji drill", hint: "meaning of a kanji or reading of a word using it" },
+                ] as const
+              ).map((d) => {
+                const n = drillPoolFor(d.kind).length;
+                return (
+                  <button
+                    key={d.kind}
+                    type="button"
+                    onClick={() => startDrill(d.kind)}
+                    disabled={!ready || n === 0}
+                    className="group surface surface-hover flex items-center gap-3 rounded-xl px-3 py-3 text-left text-sm disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus-visible:shadow-ring"
+                  >
+                    <SkillGlyph type={d.skill} />
+                    <span className="flex-1 min-w-0">
+                      <span className="block font-medium">{d.label}</span>
+                      <span className="block text-xs text-muted">
+                        {d.hint}
+                        {n > 0 && ` · ${n.toLocaleString()} items`}
+                      </span>
+                    </span>
+                    <Arrow className="text-muted group-hover:text-accent" />
+                  </button>
+                );
+              })}
             </div>
           </Card>
 

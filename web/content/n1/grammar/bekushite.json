@@ -1,0 +1,128 @@
+{
+  "id": "n1-grammar-80",
+  "slug": "bekushite",
+  "level": "n1",
+  "order": 80,
+  "title": "〜べくして",
+  "romaji": "bekushite",
+  "meaning": "as was bound to …; inevitably …",
+  "simpleExplanation": "〜べくして repeats the same verb: 起こるべくして起こった (it happened as it was bound to happen). It says the result was natural and inevitable given the causes: the accident was waiting to happen, the win was deserved, the meeting was destiny.",
+  "whenUsed": "Literary and journalistic writing, also in commentary and speeches. It gives a verdict after the event: nothing surprising, the outcome was built into the situation. Common verbs: 起こる・勝つ・負ける・出会う・売れる・なる.",
+  "formation": [
+    "Vる + べくして + Vた (the same verb)",
+    "する → すべくして した",
+    "Often with のだ: 〜べくして〜たのだ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "この事故は",
+        "role": "topic"
+      },
+      {
+        "text": "起こる",
+        "role": "verb (dictionary form)",
+        "highlight": true
+      },
+      {
+        "text": "べくして",
+        "role": "as was bound to",
+        "highlight": true
+      },
+      {
+        "text": "起こった",
+        "role": "same verb (past)",
+        "highlight": true
+      }
+    ],
+    "translation": "This accident happened as it was bound to happen."
+  },
+  "examples": [
+    {
+      "ja": "この事故は起こるべくして起こった。",
+      "reading": "このじこはおこるべくしておこった。",
+      "en": "This accident happened as it was bound to happen.",
+      "note": "起こるべくして起こった: the causes made the accident inevitable. Used in accident analysis."
+    },
+    {
+      "ja": "彼は勝つべくして勝った。",
+      "reading": "かれはかつべくしてかった。",
+      "en": "He won because he deserved to win.",
+      "note": "勝つべくして勝った: a deserved win. Sports commentary."
+    },
+    {
+      "ja": "二人は出会うべくして出会ったのだ。",
+      "reading": "ふたりはであうべくしてであったのだ。",
+      "en": "The two of them were destined to meet.",
+      "note": "出会うべくして出会った: a meeting felt as destiny."
+    },
+    {
+      "ja": "この商品は売れるべくして売れたと言えるだろう。",
+      "reading": "このしょうひんはうれるべくしてうれたといえるだろう。",
+      "en": "One can say this product sold as it was bound to sell.",
+      "note": "Praise for a well-designed product."
+    },
+    {
+      "ja": "準備不足のチームは、負けるべくして負けた。",
+      "reading": "じゅんびぶそくのチームは、まけるべくしてまけた。",
+      "en": "The unprepared team lost as they were bound to lose.",
+      "note": "Critical verdict: the loss was deserved."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べく",
+      "difference": "The purpose form (\"in order to\"). べくして is a different, fixed construction that repeats the verb.",
+      "id": "n1-grammar-78"
+    },
+    {
+      "pattern": "〜わけだ",
+      "difference": "\"So that is why\": a conclusion that follows naturally, but it does not carry the sense of destiny or desert.",
+      "id": "n2-grammar-163"
+    },
+    {
+      "pattern": "〜に決まっている",
+      "difference": "\"It is bound to be\": a confident prediction before the fact, whereas べくして is a verdict after the fact.",
+      "id": "n2-grammar-107"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この事故は起こるべくして起きた。",
+      "right": "この事故は起こるべくして起こった。",
+      "why": "The same verb should be repeated; mixing 起こる and 起きる breaks the pattern."
+    },
+    {
+      "wrong": "彼は勝つべくして勝つだろう。",
+      "right": "彼は勝つべくして勝った。",
+      "why": "べくして is a verdict on a result that has already happened; use the past tense."
+    },
+    {
+      "wrong": "彼は成功すべくして、努力した。",
+      "right": "彼は成功すべく、努力した。",
+      "why": "For \"in order to\", use べく. べくして needs the same verb repeated."
+    }
+  ],
+  "usageNotes": [
+    "The phrase implies causes were present all along: neglect leads to accidents, effort leads to victory.",
+    "Used both for praise (勝つべくして勝った) and criticism (起こるべくして起こった).",
+    "Because it is a set frame, learners should memorise it with two or three verbs."
+  ],
+  "jlptTips": [
+    "When the same verb appears before and after the blank (起こる___起こった), the answer is べくして.",
+    "Distractors: べく, べくもなく, べからず. Only べくして fits the repeated-verb frame.",
+    "In 並べ替え, the chunks are typically Vる + べくして and Vた; put them adjacent."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-80-1",
+    "q-n1-g-80-2",
+    "q-n1-g-80-3",
+    "q-n1-g-80-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-80-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

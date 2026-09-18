@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-66",
+  "slug": "ni-taeru-ni-taenai",
+  "level": "n1",
+  "order": 66,
+  "title": "〜にたえる / 〜にたえない",
+  "romaji": "ni taeru / ni taenai",
+  "meaning": "worth …; can stand up to …; cannot bear to …; deeply (feel)",
+  "simpleExplanation": "たえる (堪える・耐える) means \"to bear, to withstand\". The pattern has three uses. (1) 〜にたえる = \"worth doing, good enough for\": 鑑賞にたえる作品 (a work worth appreciating). (2) 〜にたえない after 見る・聞く・読む = \"too awful to look at / listen to\". (3) 〜にたえない after emotion nouns = \"cannot contain the feeling\": 感謝にたえません (I am deeply grateful).",
+  "whenUsed": "Formal, mostly written. Sense 1 appears in reviews and evaluations; sense 2 in reports about terrible sights or vulgar speech; sense 3 in speeches and formal letters (感謝・遺憾・喜び にたえない). Casual speech uses 見ていられない or 本当にありがたい instead.",
+  "formation": [
+    "N + にたえる (鑑賞・批評・使用) = worth / stands up to",
+    "Vる + にたえる / にたえない (見る・聞く・読む)",
+    "N(emotion) + にたえない (感謝・感激・遺憾・喜び・悲しみ)",
+    "Polite: 〜にたえません"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of にたえる / にたえない",
+    "columns": [
+      "Form",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. N/Vる + にたえる",
+        "cells": [
+          "worth doing; withstands",
+          "is good enough",
+          "大人の鑑賞にたえる映画"
+        ]
+      },
+      {
+        "label": "2. 見る/聞く/読む + にたえない",
+        "cells": [
+          "too awful to look at / hear",
+          "cannot bear to",
+          "見るにたえない惨状"
+        ]
+      },
+      {
+        "label": "3. emotion N + にたえない",
+        "cells": [
+          "cannot contain the feeling",
+          "deeply feel",
+          "感謝にたえません"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この作品は大人の鑑賞にたえる内容だ。",
+      "reading": "このさくひんはおとなのかんしょうにたえるないようだ。",
+      "en": "This work has content that stands up to appreciation by adults.",
+      "note": "Sense 1: the work stands up to an adult's critical eye."
+    },
+    {
+      "ja": "被災地の様子は見るにたえないものだった。",
+      "reading": "ひさいちのようすはみるにたえないものだった。",
+      "en": "The state of the disaster area was unbearable to look at.",
+      "note": "Sense 2: 見るにたえない = so terrible you cannot keep looking."
+    },
+    {
+      "ja": "多くの方にご支援いただき、感謝にたえません。",
+      "reading": "おおくのかたにごしえんいただき、かんしゃにたえません。",
+      "en": "I am deeply grateful for the support of so many people.",
+      "note": "Sense 3: 感謝にたえません is a fixed polite phrase in speeches and letters."
+    },
+    {
+      "ja": "最近のテレビ番組には、聞くにたえない下品な言葉が多い。",
+      "reading": "さいきんのテレビばんぐみには、きくにたえないげひんなことばがおおい。",
+      "en": "Recent TV programmes are full of vulgar language that is unbearable to listen to.",
+      "note": "聞くにたえない is used for offensive or vulgar speech."
+    },
+    {
+      "ja": "この橋は百年の風雪にたえてきた。",
+      "reading": "このはしはひゃくねんのふうせつにたえてきた。",
+      "en": "This bridge has withstood a hundred years of wind and snow.",
+      "note": "The literal verb meaning \"withstand\" is behind sense 1."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜に足る / 〜に足りない",
+      "difference": "\"Worthy of\" (信頼に足る). Close to sense 1, but に足る is about value and trust; にたえる is about quality that survives scrutiny.",
+      "id": "n1-grammar-67"
+    },
+    {
+      "pattern": "〜てやまない",
+      "difference": "Also expresses a strong, lasting feeling (願ってやまない). てやまない takes verbs; にたえない takes emotion nouns.",
+      "id": "n1-grammar-33"
+    },
+    {
+      "pattern": "〜を禁じ得ない",
+      "difference": "\"Cannot suppress (tears, anger)\": a spontaneous emotion. 感謝にたえない is more of a formal declaration.",
+      "id": "n1-grammar-93"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この映画は見るにたえる。",
+      "right": "この映画は鑑賞にたえる。",
+      "why": "In sense 1 the noun is 鑑賞・批評・読む etc. 見るにたえる sounds odd; 見るにたえない (sense 2) is fine."
+    },
+    {
+      "wrong": "うれしいにたえません。",
+      "right": "喜びにたえません。",
+      "why": "Sense 3 takes an emotion noun (喜び・感謝), not an adjective."
+    },
+    {
+      "wrong": "被害の様子は聞くにたえた。",
+      "right": "被害の様子は聞くにたえなかった。",
+      "why": "The \"too awful to\" meaning only exists in the negative たえない."
+    }
+  ],
+  "usageNotes": [
+    "Sense 3 is a fixed set of nouns: 感謝・感激・喜び・悲しみ・遺憾・痛恨・同情. It sounds ceremonial.",
+    "Sense 2 nouns are also limited: 見る・聞く・読む. 見るにたえない implies the sight is either shocking or shamefully bad.",
+    "Both 堪える and 耐える are used in writing; kana たえる is safest."
+  ],
+  "jlptTips": [
+    "Emotion noun + blank at the end of a formal speech (感謝に___) points to たえません.",
+    "見るに / 聞くに + blank followed by an awful sight or vulgar speech points to たえない.",
+    "Distractors: に足る, にかたくない, を禁じ得ない. For 見る・聞く, only たえない works."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-66-1",
+    "q-n1-g-66-2",
+    "q-n1-g-66-3",
+    "q-n1-g-66-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-66-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

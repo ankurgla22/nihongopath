@@ -1,0 +1,115 @@
+{
+  "id": "n1-grammar-115",
+  "slug": "ni-kakotsukete",
+  "level": "n1",
+  "order": 115,
+  "title": "〜にかこつけて",
+  "romaji": "ni kakotsukete",
+  "meaning": "using … as a pretext; under the pretext of …",
+  "simpleExplanation": "〜にかこつけて means \"using X as a convenient excuse to do something else\": 出張にかこつけて観光を楽しんだ (used the business trip as an excuse to sightsee). かこつける = to make a pretext. The real purpose is different from the stated one, and the tone is critical or wry.",
+  "whenUsed": "Both speech and writing, slightly formal. Used to criticise someone (or confess wryly about oneself) for exploiting an occasion. The noun is a plausible reason: 出張・病気・仕事・接待・記念日.",
+  "formation": [
+    "N + にかこつけて、V (the real, hidden purpose)",
+    "Typical N: 出張・病気・仕事・接待・行事・忙しさ"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "出張で大阪に行った",
+        "en": "went to Osaka on business (neutral)"
+      },
+      {
+        "ja": "出張にかこつけて、大阪観光を楽しんだ",
+        "en": "used the business trip as a pretext to enjoy sightseeing in Osaka (hidden purpose, critical or wry)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は出張にかこつけて、観光を楽しんだ。",
+      "reading": "かれはしゅっちょうにかこつけて、かんこうをたのしんだ。",
+      "en": "Using the business trip as an excuse, he enjoyed some sightseeing.",
+      "note": "Business trip as a pretext for sightseeing."
+    },
+    {
+      "ja": "病気にかこつけて、面倒な集まりを断った。",
+      "reading": "びょうきにかこつけて、めんどうなあつまりをことわった。",
+      "en": "Using illness as a pretext, I declined the tiresome gathering.",
+      "note": "Illness as an excuse to decline an invitation."
+    },
+    {
+      "ja": "接待にかこつけて、高級レストランで食事をするのは問題だ。",
+      "reading": "せったいにかこつけて、こうきゅうレストランでしょくじをするのはもんだいだ。",
+      "en": "Dining at expensive restaurants under the pretext of entertaining clients is a problem.",
+      "note": "Client entertainment as a pretext for fine dining: criticism."
+    },
+    {
+      "ja": "彼は残業にかこつけて、家事から逃げている。",
+      "reading": "かれはざんぎょうにかこつけて、かじからにげている。",
+      "en": "He uses overtime as an excuse to escape housework.",
+      "note": "Criticism of someone's habit."
+    },
+    {
+      "ja": "記念日にかこつけて、自分へのご褒美に高い時計を買った。",
+      "reading": "きねんびにかこつけて、じぶんへのごほうびにたかいとけいをかった。",
+      "en": "Using the anniversary as a pretext, I bought myself an expensive watch as a treat.",
+      "note": "Wry self-confession."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜を口実に",
+      "difference": "\"Using X as an excuse\": nearly the same meaning; を口実に is plainer and more common in speech.",
+      "id": "n2-grammar-176"
+    },
+    {
+      "pattern": "〜をきっかけに",
+      "difference": "\"Triggered by X\": a genuine cause of a change, with no hidden motive.",
+      "id": "n2-grammar-168"
+    },
+    {
+      "pattern": "〜がてら",
+      "difference": "\"While doing X, also Y\": doing two things at once openly, without deception.",
+      "id": "n1-grammar-7"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "出張にかこつけて、仕事をした。",
+      "right": "出張で仕事をした。",
+      "why": "The action after にかこつけて must be different from the stated purpose."
+    },
+    {
+      "wrong": "病気をかこつけて",
+      "right": "病気にかこつけて",
+      "why": "The particle is に."
+    },
+    {
+      "wrong": "仕事にかこつけて、勉強した。（褒める文脈で）",
+      "right": "仕事のついでに、勉強した。",
+      "why": "かこつける carries a critical or wry tone; for a neutral \"on the side\", use ついでに."
+    }
+  ],
+  "usageNotes": [
+    "The hidden purpose is often pleasure or avoidance: sightseeing, drinking, skipping duties.",
+    "Speakers use it about themselves with a self-deprecating smile.",
+    "Related noun: 口実 (pretext); かこつける is the verb form of the idea."
+  ],
+  "jlptTips": [
+    "A plausible occasion + blank + a self-serving action → にかこつけて.",
+    "Distractors: をきっかけに, にあたって, がてら. Choose にかこつけて when the stated reason hides the real purpose.",
+    "In 並べ替え, the chunk N + にかこつけて precedes the real action."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-115-1",
+    "q-n1-g-115-2",
+    "q-n1-g-115-3",
+    "q-n1-g-115-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-115-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

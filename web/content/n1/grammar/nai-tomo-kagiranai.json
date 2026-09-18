@@ -1,0 +1,117 @@
+{
+  "id": "n1-grammar-112",
+  "slug": "nai-tomo-kagiranai",
+  "level": "n1",
+  "order": 112,
+  "title": "〜ないとも限らない",
+  "romaji": "nai tomo kagiranai",
+  "meaning": "it is not impossible that …; might just …",
+  "simpleExplanation": "〜ないとも限らない is a double negative meaning \"one cannot say it will never happen\", i.e. \"it might\". It points to a small but real possibility of something bad and usually leads to a precaution: 事故が起きないとも限らないから、保険に入っておこう.",
+  "whenUsed": "Both speech and writing, cautious tone. Used for warnings and justifying precautions. Compared with かねない (a fairly likely bad outcome), ないとも限らない is more tentative: \"you never know\".",
+  "formation": [
+    "Vない + とも限らない",
+    "N / Aな + でないとも限らない",
+    "Aい: 〜くないとも限らない",
+    "Often followed by から、〜ておこう / 〜たほうがいい"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "事故が起きるかもしれない",
+        "en": "an accident might happen (plain possibility)"
+      },
+      {
+        "ja": "事故が起きないとも限らない",
+        "en": "one cannot rule out an accident (cautious; better take precautions)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "事故が起きないとも限らないから、保険に入っておこう。",
+      "reading": "じこがおきないともかぎらないから、ほけんにはいっておこう。",
+      "en": "An accident might happen, so let us take out insurance.",
+      "note": "A precaution follows: take out insurance."
+    },
+    {
+      "ja": "この情報が間違いでないとも限らない。",
+      "reading": "このじょうほうがまちがいでないともかぎらない。",
+      "en": "This information could conceivably be wrong.",
+      "note": "でないとも限らない with a noun: the information could be wrong."
+    },
+    {
+      "ja": "突然雨が降らないとも限らないので、傘を持って行きなさい。",
+      "reading": "とつぜんあめがふらないともかぎらないので、かさをもっていきなさい。",
+      "en": "It might suddenly rain, so take an umbrella.",
+      "note": "A parent's caution: take an umbrella."
+    },
+    {
+      "ja": "この薬は副作用が出ないとも限らないので、様子を見ながら使ってください。",
+      "reading": "このくすりはふくさようがでないともかぎらないので、ようすをみながらつかってください。",
+      "en": "This medicine could possibly have side effects, so use it while monitoring your condition.",
+      "note": "Medical caution."
+    },
+    {
+      "ja": "あの真面目な彼が嘘をつかないとも限らない。",
+      "reading": "あのまじめなかれがうそをつかないともかぎらない。",
+      "en": "Even that honest man might just tell a lie.",
+      "note": "Against expectation: you never know."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜かねない",
+      "difference": "\"Might well (do something bad)\": a stronger, more likely warning.",
+      "id": "n2-grammar-25"
+    },
+    {
+      "pattern": "〜ないものでもない",
+      "difference": "\"It is not that one cannot\": a reluctant affirmative about possibility or willingness, not a warning.",
+      "id": "n1-grammar-49"
+    },
+    {
+      "pattern": "〜とは限らない",
+      "difference": "\"Not necessarily\": denies a general rule (高いものがいいとは限らない). ないとも限らない affirms a small possibility.",
+      "id": "n2-grammar-15"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "事故が起きるとも限らない。",
+      "right": "事故が起きないとも限らない。",
+      "why": "The verb must be negative; the double negative creates the meaning \"might\"."
+    },
+    {
+      "wrong": "彼は来ないとは限らない。（意味：来るかもしれない、と警戒）",
+      "right": "彼は来ないとも限らない。",
+      "why": "とは限らない denies a rule; for \"you never know, he might\", use とも限らない."
+    },
+    {
+      "wrong": "雨が降らないとも限らないので、傘は要らない。",
+      "right": "雨が降らないとも限らないので、傘を持って行こう。",
+      "why": "The second clause should be a precaution consistent with the warning."
+    }
+  ],
+  "usageNotes": [
+    "The event is usually undesirable: accident, rain, mistake, lie, illness.",
+    "It is a favourite for justifying preparations: 〜ておいたほうがいい.",
+    "Compared with かもしれない, it sounds more thoughtful and formal."
+  ],
+  "jlptTips": [
+    "A negative verb + blank + a precaution → とも限らない.",
+    "Distractors: とは限らない, かねない, ものでもない. Only とも限らない takes the negative form and leads to precautions.",
+    "Check the polarity: ないとも限らない (might), not るとも限らない."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-112-1",
+    "q-n1-g-112-2",
+    "q-n1-g-112-3",
+    "q-n1-g-112-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-112-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

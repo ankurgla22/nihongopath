@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-64",
+  "slug": "ni-shite",
+  "level": "n1",
+  "order": 64,
+  "title": "〜にして",
+  "romaji": "ni shite",
+  "meaning": "only at / only for …; being …; at once … and …",
+  "simpleExplanation": "〜にして attaches to a noun and has three main jobs. (1) \"Only at that stage / even for that person\": 三十歳にして (only at thirty), 専門家にして初めて (only an expert). (2) \"Being X and also Y\": 科学者にして詩人 (a scientist and at the same time a poet). (3) Set phrases: 一瞬にして (in an instant), 幸いにして (fortunately), 生まれながらにして (from birth).",
+  "whenUsed": "Literary and formal written Japanese: biographies, essays, speeches. Sense 1 stresses that something happened late, or only a special person could manage it; sense 2 is a formal way to list two qualities of one person. The set phrases in sense 3 also appear in speech.",
+  "formation": [
+    "N(age / stage) + にして (+ 初めて / ようやく / やっと)",
+    "N(person) + にして (+ 初めて / さえ)",
+    "N + にして + N (X and also Y)",
+    "Set phrases: 一瞬にして・幸いにして・生まれながらにして・今にして思えば"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Three uses of にして",
+    "columns": [
+      "Meaning",
+      "Clue words",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "1. Only at / even for",
+        "cells": [
+          "a stage or person that is special",
+          "初めて・ようやく・さえ",
+          "四十歳にしてようやく店を持った"
+        ]
+      },
+      {
+        "label": "2. X and also Y",
+        "cells": [
+          "two roles of one person",
+          "N + にして + N",
+          "科学者にして詩人"
+        ]
+      },
+      {
+        "label": "3. Set phrases",
+        "cells": [
+          "fixed adverbial phrases",
+          "一瞬・幸い・生まれながら",
+          "一瞬にして消えた"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "この問題は、専門家にして初めて解ける難問だ。",
+      "reading": "このもんだいは、せんもんかにしてはじめてとけるなんもんだ。",
+      "en": "This is a difficult problem that only an expert could solve.",
+      "note": "Sense 1 with a person: only an expert, and even for an expert it takes effort (初めて)."
+    },
+    {
+      "ja": "彼は四十歳にして、ようやく自分の店を持った。",
+      "reading": "かれはよんじゅっさいにして、ようやくじぶんのみせをもった。",
+      "en": "At forty, he finally got his own shop.",
+      "note": "Sense 1 with an age: 四十歳にしてようやく = \"not until forty\". The age is late for the achievement."
+    },
+    {
+      "ja": "彼女は科学者にして詩人でもある。",
+      "reading": "かのじょはかがくしゃにしてしじんでもある。",
+      "en": "She is a scientist and at the same time a poet.",
+      "note": "Sense 2: two roles joined. Often followed by でもある."
+    },
+    {
+      "ja": "火事で、長年集めた本が一瞬にして灰になった。",
+      "reading": "かじで、ながねんあつめたほんがいっしゅんにしてはいになった。",
+      "en": "In the fire, the books I had collected over many years turned to ash in an instant.",
+      "note": "一瞬にして is a set phrase meaning \"in an instant\"."
+    },
+    {
+      "ja": "あの名人にして、この問題は解けなかった。",
+      "reading": "あのめいじんにして、このもんだいはとけなかった。",
+      "en": "Even that master could not solve this problem.",
+      "note": "Person + にして + negative = \"even X could not\". Compare 〜でさえ."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜にあって(は)",
+      "difference": "\"In the situation of\" (非常時にあって); marks circumstances, not an age or a special person.",
+      "id": "n1-grammar-59"
+    },
+    {
+      "pattern": "〜ながらに / 〜ながらの",
+      "difference": "生まれながらに is close to 生まれながらにして; ながらに means \"in the state of\" and is not used with ages.",
+      "id": "n1-grammar-50"
+    },
+    {
+      "pattern": "〜にしては",
+      "difference": "\"For a …\" (contrary to expectation). Same start, different meaning: 子供にしては上手だ judges against a standard.",
+      "id": "n2-grammar-115"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は五歳にしては、漢字が読める。",
+      "right": "彼は五歳にして、漢字が読める。",
+      "why": "にしては judges someone against a standard (\"for a five-year-old\"). To stress the early age itself, use にして."
+    },
+    {
+      "wrong": "私は先生にして、初めて分かった。",
+      "right": "私は先生に教わって、初めて分かった。",
+      "why": "N + にして + 初めて means \"only X (a special person or stage) can…\". Do not use it for the ordinary \"thanks to\"."
+    },
+    {
+      "wrong": "一瞬にしてから、消えた。",
+      "right": "一瞬にして消えた。",
+      "why": "一瞬にして is a fixed adverb; nothing can be added to it."
+    }
+  ],
+  "usageNotes": [
+    "Sense 1 has two flavours: an unexpectedly early or late age (五歳にして・六十歳にして), and \"even X\" for a person of high ability (名人にして解けない).",
+    "In sense 2 the two nouns are two faces of one person, often admired: 実業家にして慈善家.",
+    "今にして思えば (\"looking back now\") is a common set phrase in memoirs and speeches."
+  ],
+  "jlptTips": [
+    "If the blank follows an age and is followed by 初めて / ようやく / やっと, choose にして.",
+    "にしては is the standard distractor. Check whether there is an evaluation against a standard (にしては) or a stage / person being stressed (にして).",
+    "Set phrases such as 一瞬にして and 幸いにして appear in 文法形式の判断 as single chunks; memorise them."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-64-1",
+    "q-n1-g-64-2",
+    "q-n1-g-64-3",
+    "q-n1-g-64-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-64-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

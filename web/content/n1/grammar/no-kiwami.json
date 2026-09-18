@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-73",
+  "slug": "no-kiwami",
+  "level": "n1",
+  "order": 73,
+  "title": "〜の極み",
+  "romaji": "no kiwami",
+  "meaning": "the extreme of …; the ultimate …",
+  "simpleExplanation": "〜の極み means \"the very limit of X\": 贅沢の極み (the height of luxury), 疲労の極み (utter exhaustion), 痛恨の極み (the bitterest regret). It is a noun phrase, so it can be the predicate (〜の極みだ) or take particles (疲労の極みに達する). It works for states of things and people, not just the speaker's own feelings.",
+  "whenUsed": "Formal written Japanese: commentary, editorials, formal apologies (痛恨の極み is common in public statements). It can describe the speaker (感激の極み), a third party (疲労の極みにある選手) or a thing (贅沢の極み).",
+  "formation": [
+    "N + の極み (贅沢・疲労・痛恨・感激・不幸・美)",
+    "〜の極みだ / 〜の極みに達する / 〜の極みにある"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "連日の残業で",
+        "role": "cause"
+      },
+      {
+        "text": "社員は",
+        "role": "subject"
+      },
+      {
+        "text": "疲労",
+        "role": "state noun",
+        "highlight": true
+      },
+      {
+        "text": "の極み",
+        "role": "the extreme of",
+        "highlight": true
+      },
+      {
+        "text": "に達している",
+        "role": "has reached"
+      }
+    ],
+    "translation": "With overtime day after day, the employees have reached the limit of exhaustion."
+  },
+  "examples": [
+    {
+      "ja": "こんな豪華な料理を毎日食べるなんて、贅沢の極みだ。",
+      "reading": "こんなごうかなりょうりをまいにちたべるなんて、ぜいたくのきわみだ。",
+      "en": "Eating such lavish food every day is the height of luxury.",
+      "note": "贅沢の極み is the most common phrase: luxury at its most extreme."
+    },
+    {
+      "ja": "連日の残業で、社員は疲労の極みに達している。",
+      "reading": "れんじつのざんぎょうで、しゃいんはひろうのきわみにたっしている。",
+      "en": "With overtime day after day, the employees have reached the limit of exhaustion.",
+      "note": "疲労の極みに達する: a physical state of a third party, which の至り cannot describe."
+    },
+    {
+      "ja": "あの一球を打てなかったのは痛恨の極みだ。",
+      "reading": "あのいっきゅうをうてなかったのはつうこんのきわみだ。",
+      "en": "Not hitting that one pitch is the bitterest regret.",
+      "note": "痛恨の極み: used in public apologies and sports commentary."
+    },
+    {
+      "ja": "今回の不祥事は、当社にとって痛恨の極みであります。",
+      "reading": "こんかいのふしょうじは、とうしゃにとってつうこんのきわみであります。",
+      "en": "This scandal is a matter of the deepest regret for our company.",
+      "note": "Corporate apology style; であります is very formal."
+    },
+    {
+      "ja": "あの職人の技は、まさに美の極みと言える。",
+      "reading": "あのしょくにんのわざは、まさにびのきわみといえる。",
+      "en": "That craftsman's skill can truly be called the pinnacle of beauty.",
+      "note": "の極み can describe a quality of a thing."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜の至り",
+      "difference": "Limited to the speaker's own feeling in humble speech (光栄の至り). の極み is broader.",
+      "id": "n1-grammar-72"
+    },
+    {
+      "pattern": "〜極まる / 〜極まりない",
+      "difference": "Same kanji, but attaches to na-adjectives to mean \"extremely\" (危険極まりない).",
+      "id": "n1-grammar-13"
+    },
+    {
+      "pattern": "〜の限り",
+      "difference": "\"As much as one can\" (力の限り); a limit of effort, not the extreme of a state.",
+      "id": "n1-grammar-91"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "光栄の極みです。（受賞スピーチで）",
+      "right": "光栄の至りです。",
+      "why": "光栄 is conventionally paired with の至り in speeches. Use の極み for 贅沢・疲労・痛恨."
+    },
+    {
+      "wrong": "疲れの極みだ。",
+      "right": "疲労の極みだ。",
+      "why": "The nouns are Sino-Japanese (漢語): 疲労, not 疲れ."
+    },
+    {
+      "wrong": "この料理は贅沢極みだ。",
+      "right": "この料理は贅沢の極みだ。",
+      "why": "The connecting の is required."
+    }
+  ],
+  "usageNotes": [
+    "The most frequent nouns: 贅沢・疲労・痛恨・感激・不幸・悲嘆・美・愚か.",
+    "痛恨の極み is a formula in apologies and post-match interviews; 贅沢の極み is often used half-jokingly.",
+    "の極みに達する / の極みにある are set verbal frames."
+  ],
+  "jlptTips": [
+    "If the noun is 贅沢・疲労・痛恨, の極み is almost certainly the answer.",
+    "Distractors: の至り, 極まりない, の限り. Check the noun and whether a third party or a thing is described.",
+    "In 並べ替え, keep N + の極み together and look for だ / に達する after it."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-73-1",
+    "q-n1-g-73-2",
+    "q-n1-g-73-3",
+    "q-n1-g-73-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-73-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

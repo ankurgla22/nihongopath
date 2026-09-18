@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-152",
+  "slug": "ni-hajinai",
+  "level": "n1",
+  "order": 152,
+  "title": "〜に恥じない",
+  "romaji": "ni hajinai",
+  "meaning": "worthy of …; living up to …; that does not disgrace …",
+  "simpleExplanation": "N + に恥じない means \"good enough not to shame X\": a performance worthy of the title of champion, work worthy of an award. 恥じる is \"to be ashamed\"; に恥じない = \"not to be ashamed before X\". X is a name, reputation, title, expectation, or award that sets a standard.",
+  "whenUsed": "Formal written and spoken Japanese: sports reporting, award speeches, business mission statements, biographies. Typical X: 名・名声・称号・期待・受賞・伝統・プロ. Usually modifies a noun (〜に恥じない仕事) or takes よう(に) before a verb.",
+  "formation": [
+    "N + に恥じない + N  (名に恥じない戦い)",
+    "N + に恥じない + よう(に) + V",
+    "N + に恥じぬ + N  (literary variant)",
+    "Typical X: 〜の名・期待・受賞・伝統・プロ・チャンピオン"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "チャンピオンの名",
+        "role": "standard set by a title"
+      },
+      {
+        "text": "に恥じない",
+        "role": "\"worthy of / not disgracing\"",
+        "highlight": true
+      },
+      {
+        "text": "戦いを見せた",
+        "role": "what met the standard"
+      }
+    ],
+    "translation": "He put up a fight worthy of the name of champion."
+  },
+  "examples": [
+    {
+      "ja": "彼はチャンピオンの名に恥じない戦いを見せた。",
+      "reading": "かれはチャンピオンのなにはじないたたかいをみせた。",
+      "en": "He put up a fight worthy of the name of champion.",
+      "note": "The title 'champion' sets the standard; his fight did not disgrace it."
+    },
+    {
+      "ja": "親の期待に恥じない人間になりたい。",
+      "reading": "おやのきたいにはじないにんげんになりたい。",
+      "en": "I want to become a person who does not betray my parents' expectations.",
+      "note": "親の期待 (parents' expectations) is a common X."
+    },
+    {
+      "ja": "受賞に恥じない作品を作り続けたい。",
+      "reading": "じゅしょうにはじないさくひんをつくりつづけたい。",
+      "en": "I want to keep creating works worthy of the award.",
+      "note": "受賞 (winning an award) sets a standard for future works."
+    },
+    {
+      "ja": "百年の伝統に恥じない味を守り続けています。",
+      "reading": "ひゃくねんのでんとうにはじないあじをまもりつづけています。",
+      "en": "We continue to preserve a flavour worthy of our hundred-year tradition.",
+      "note": "Typical of a company's self-description."
+    },
+    {
+      "ja": "プロの名に恥じないよう、毎日練習を欠かさない。",
+      "reading": "プロのなにはじないよう、まいにちれんしゅうをかかさない。",
+      "en": "So as to live up to the name of professional, I never skip a day of practice.",
+      "note": "に恥じないよう + verb."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-67",
+      "pattern": "〜に足る",
+      "difference": "\"Worth doing / deserving\" (信頼に足る人物): X is a verb-like standard (信頼・尊敬). に恥じない takes a name or reputation as the standard."
+    },
+    {
+      "id": "n1-grammar-27",
+      "pattern": "〜たる(もの)",
+      "difference": "\"One who is X (should)\": states duties of a position. に恥じない evaluates performance against a title."
+    },
+    {
+      "id": "n1-grammar-53",
+      "pattern": "〜ならでは(の)",
+      "difference": "\"Unique to X\" (a distinctive quality). に恥じない is about meeting a standard, not uniqueness."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼はチャンピオンに恥じない。",
+      "right": "彼はチャンピオンの名に恥じない戦いを見せた。",
+      "why": "に恥じない normally modifies a noun or takes よう; a bare sentence-final use sounds unfinished. Add what met the standard."
+    },
+    {
+      "wrong": "初心者に恥じない演奏だった。",
+      "right": "プロに恥じない演奏だった。",
+      "why": "X must set a high standard (a title, reputation, award). A beginner is not a standard to live up to."
+    },
+    {
+      "wrong": "受賞を恥じない作品",
+      "right": "受賞に恥じない作品",
+      "why": "The particle is に."
+    }
+  ],
+  "usageNotes": [
+    "Common frames: 〜の名に恥じない, 〜の期待に恥じない, 〜に恥じないよう努力する.",
+    "The literary variant に恥じぬ appears in mottos and headlines.",
+    "The opposite idea (disgracing a name) is 〜の名を汚す."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a title or reputation noun (名・期待・伝統・受賞) + a blank + a noun of performance points to に恥じない.",
+    "Distractor に足る: choose it when X is an action noun like 信頼・尊敬; choose に恥じない when X is a name or expectation.",
+    "In 並べ替え, に恥じない directly follows X and precedes the performance noun."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-152-1",
+    "q-n1-g-152-2",
+    "q-n1-g-152-3",
+    "q-n1-g-152-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-152-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

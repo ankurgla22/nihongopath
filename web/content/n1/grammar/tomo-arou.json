@@ -1,0 +1,126 @@
+{
+  "id": "n1-grammar-129",
+  "slug": "tomo-arou",
+  "level": "n1",
+  "order": 129,
+  "title": "〜ともあろう",
+  "romaji": "tomo arou",
+  "meaning": "someone of the standing of …; a … of all people (should not have)",
+  "simpleExplanation": "〜ともあろう + 人/者/会社 + が means \"a person of X's high standing\". It is used when someone who should know better does something unworthy: a minister making an irresponsible remark, a police officer breaking the law. The speaker is shocked or indignant: \"of all people, a …!\"",
+  "whenUsed": "Formal spoken and written Japanese: editorials, criticism, complaints, and disappointed comments. X is always a respected position or organization (大臣・医者・教師・警察官・一流企業・大学). The clause after が describes the unworthy act, often ending in とは / なんて / べきではない.",
+  "formation": [
+    "N + ともあろう + 人 / 者 / 方 / もの + が",
+    "N + ともあろう + organization noun (会社・大学・新聞) + が",
+    "Ending: 〜とは / 〜なんて / 〜とは情けない / 〜べきではない"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "大臣",
+        "role": "high-status position"
+      },
+      {
+        "text": "ともあろう人が",
+        "role": "\"a person of that standing\"",
+        "highlight": true
+      },
+      {
+        "text": "そんな無責任な発言をする",
+        "role": "unworthy act"
+      },
+      {
+        "text": "とは",
+        "role": "shock / indignation"
+      }
+    ],
+    "translation": "To think that a minister, of all people, would make such an irresponsible remark."
+  },
+  "examples": [
+    {
+      "ja": "大臣ともあろう人が、そんな無責任な発言をするとは。",
+      "reading": "だいじんともあろうひとが、そんなむせきにんなはつげんをするとは。",
+      "en": "To think that a minister, of all people, would make such an irresponsible remark.",
+      "note": "Sentence-final とは leaves the indignation hanging: \"…of all people!\""
+    },
+    {
+      "ja": "警察官ともあろう者が、法を犯すなんて信じられない。",
+      "reading": "けいさつかんともあろうものが、ほうをおかすなんてしんじられない。",
+      "en": "I cannot believe a police officer, of all people, would break the law.",
+      "note": "警察官 (police officer) breaking the law is a textbook mismatch of standing and act."
+    },
+    {
+      "ja": "一流企業ともあろう会社が、こんなミスをするとは驚きだ。",
+      "reading": "いちりゅうきぎょうともあろうかいしゃが、こんなミスをするとはおどろきだ。",
+      "en": "It is astonishing that a top-class company would make such a mistake.",
+      "note": "The noun can be an organization: 一流企業ともあろう会社."
+    },
+    {
+      "ja": "医者ともあろう者が、患者の話をろくに聞かないとは情けない。",
+      "reading": "いしゃともあろうものが、かんじゃのはなしをろくにきかないとはなさけない。",
+      "en": "It is pathetic that a doctor, of all people, would barely listen to his patients.",
+      "note": "とは情けない is a common ending for disappointment."
+    },
+    {
+      "ja": "教師ともあろう人が、生徒の前でうそをついてはいけない。",
+      "reading": "きょうしともあろうひとが、せいとのまえでうそをついてはいけない。",
+      "en": "A teacher, of all people, must not lie in front of the students.",
+      "note": "Can also end in a prohibition (てはいけない・べきではない)."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-27",
+      "pattern": "〜たる(もの)",
+      "difference": "\"One who is X\" stating what someone in that position should do (教師たる者、常に学ぶべきだ). ともあろう is used when they failed to live up to it."
+    },
+    {
+      "id": "n1-grammar-81",
+      "pattern": "〜まじき",
+      "difference": "Describes the act as unbecoming (教師にあるまじき行為). ともあろう describes the person whose standing makes the act shocking; the two are often used together."
+    },
+    {
+      "id": "n2-grammar-115",
+      "pattern": "〜にしては",
+      "difference": "\"Considering that X is …\", a mild surprise about a mismatch. ともあろう is strong indignation limited to high-status X."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "学生ともあろう人が、そんなことをするとは。",
+      "right": "教授ともあろう人が、そんなことをするとは。",
+      "why": "X must be a position with high standing or responsibility. An ordinary student does not carry that expectation."
+    },
+    {
+      "wrong": "大臣ともあろう人が、素晴らしい演説をした。",
+      "right": "大臣ともあろう人が、あんな失言をした。",
+      "why": "The act must be unworthy of the position. A good speech from a minister is expected, so the pattern makes no sense."
+    },
+    {
+      "wrong": "警察官ともあろうは、法を守るべきだ。",
+      "right": "警察官ともあろう者は、法を守るべきだ。",
+      "why": "ともあろう modifies a noun (人・者・もの); it cannot take a particle directly."
+    }
+  ],
+  "usageNotes": [
+    "The most common frame is Xともあろう者が + unworthy act + とは / なんて, often with a judgment word: 情けない・嘆かわしい・信じられない.",
+    "ともあろう comes from とも + あろう (\"even one who would be X\"), so it always sounds elevated; do not use it in casual complaints about friends.",
+    "It is frequently combined with まじき: 警察官ともあろう者が、警察官にあるまじき行為をした."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a high-status noun + 人/者 + が + an unworthy act + とは is the signature of ともあろう.",
+    "Distractors are たる者 and にしては. たる者 states a duty; ともあろう expresses shock at a failure. にしては is mild and works with any noun.",
+    "In 並べ替え, ともあろう and 者が are often separate chunks; keep them together and put the unworthy act last."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-129-1",
+    "q-n1-g-129-2",
+    "q-n1-g-129-3",
+    "q-n1-g-129-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-129-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

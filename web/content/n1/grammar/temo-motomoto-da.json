@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-175",
+  "slug": "temo-motomoto-da",
+  "level": "n1",
+  "order": 175,
+  "title": "〜てもともとだ / 〜でもともとだ",
+  "romaji": "temo motomoto da / demo motomoto da",
+  "meaning": "nothing to lose even if …; even if it fails, no worse off",
+  "simpleExplanation": "〜てもともとだ says that even if the attempt fails, you are back where you started, so it is worth trying. だめでもともと = \"nothing to lose\" (often shortened to だめもと). もともと means \"originally, the original state\". The pattern encourages a low-risk attempt.",
+  "whenUsed": "Casual spoken Japanese, encouragement and self-talk before applying, asking, or trying. Forms: だめでもともと, 断られてもともと, 失敗してもともと, 〜てもともとと思って. Not for high-stakes situations where failure has real costs.",
+  "formation": [
+    "Vて + もともとだ  (失敗してもともとだ・断られてもともとだ)",
+    "N / なA + で + もともとだ  (だめでもともとだ)",
+    "〜てもともとと思って + V  (\"figuring there was nothing to lose\")",
+    "Abbreviation: だめもと"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "応募するかどうか迷う",
+        "en": "hesitating whether to apply"
+      },
+      {
+        "ja": "だめでもともとだ",
+        "en": "\"if it fails, I'm no worse off\""
+      },
+      {
+        "ja": "応募してみよう",
+        "en": "so: go ahead and try"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "だめでもともとだから、応募してみよう。",
+      "reading": "だめでもともとだから、おうぼしてみよう。",
+      "en": "We have nothing to lose, so let us apply.",
+      "note": "だめでもともと + だから + let's try: the standard encouragement."
+    },
+    {
+      "ja": "断られてもともとと思って、頼んでみた。",
+      "reading": "ことわられてもともととおもって、たのんでみた。",
+      "en": "Figuring I had nothing to lose if refused, I tried asking.",
+      "note": "断られてもともと + と思って: the mindset before asking."
+    },
+    {
+      "ja": "失敗してもともとだ。思い切ってやってみなさい。",
+      "reading": "しっぱいしてもともとだ。おもいきってやってみなさい。",
+      "en": "Even if you fail, you are no worse off. Go for it.",
+      "note": "失敗してもともとだ, then an imperative to go for it."
+    },
+    {
+      "ja": "有名な先生だから返事は来ないかもしれないが、だめもとでメールしてみた。",
+      "reading": "ゆうめいなせんせいだからへんじはこないかもしれないが、だめもとでメールしてみた。",
+      "en": "Being a famous professor she may not reply, but I emailed her figuring I had nothing to lose.",
+      "note": "だめもと, the abbreviation."
+    },
+    {
+      "ja": "値切ってもともとだと思って、店主に交渉してみたら、安くしてくれた。",
+      "reading": "ねぎってもともとだとおもって、てんしゅにこうしょうしてみたら、やすくしてくれた。",
+      "en": "Thinking there was no harm in haggling, I negotiated with the owner, and he lowered the price.",
+      "note": "Vて + もともと."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-158",
+      "pattern": "〜ものなら",
+      "difference": "\"If one could possibly\" (a wish) or \"if you dare\" (a warning). Not about a risk-free attempt."
+    },
+    {
+      "id": "n1-grammar-76",
+      "pattern": "〜ばそれまでだ",
+      "difference": "\"If X happens, it's all over\": failure has final consequences, the opposite mindset."
+    },
+    {
+      "id": "n2-grammar-66",
+      "pattern": "〜たところで",
+      "difference": "\"Even if you do X, it's useless\": pessimistic. てもともと is optimistic: trying costs nothing."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "手術に失敗してもともとだ。",
+      "right": "（使わない）",
+      "why": "The pattern is for low-stakes attempts. Failure in surgery has serious consequences; the phrase would sound callous."
+    },
+    {
+      "wrong": "だめにもともとだ。",
+      "right": "だめでもともとだ。",
+      "why": "Nouns and な-adjectives take で before もともと."
+    },
+    {
+      "wrong": "断られるもともとだ。",
+      "right": "断られてもともとだ。",
+      "why": "Verbs attach in the て-form."
+    }
+  ],
+  "usageNotes": [
+    "だめもと is very common in casual speech: だめもとで聞いてみる.",
+    "The follow-up is usually 〜てみよう / 〜てみたら / 思い切って〜.",
+    "It can also comfort after a failure: もともと無理だと思っていたから、失敗してもともとだ."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a low-risk attempt with だめ / 断られ / 失敗 + で / て + a blank is もともとだ.",
+    "Distractor それまでだ: it means failure is final, the opposite of \"nothing to lose\".",
+    "In 並べ替え, てもともと / でもともと sits after the failure word; と思って or だから follows."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-175-1",
+    "q-n1-g-175-2",
+    "q-n1-g-175-3",
+    "q-n1-g-175-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-175-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

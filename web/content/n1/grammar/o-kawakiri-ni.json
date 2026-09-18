@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-92",
+  "slug": "o-kawakiri-ni",
+  "level": "n1",
+  "order": 92,
+  "title": "〜を皮切りに(して) / 〜を皮切りとして",
+  "romaji": "o kawakiri ni (shite) / o kawakiri to shite",
+  "meaning": "starting with …; beginning with …",
+  "simpleExplanation": "〜を皮切りに names the first event in a series that then keeps going: 東京公演を皮切りに、全国ツアーが始まった (starting with the Tokyo show, the national tour began). 皮切り originally meant the first moxa burn, hence \"the opener\". The second half describes a series that follows actively.",
+  "whenUsed": "Journalistic and business writing: tours, store openings, a chain of statements or events. The things that follow are usually positive or neutral developments (expansion, spread), not disasters.",
+  "formation": [
+    "N + を皮切りに(して)、…",
+    "N + を皮切りとして、…",
+    "Second half: 次々と・相次いで・全国に広がる・始まる"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "東京公演が行われた",
+        "en": "the Tokyo performance took place (a single event)"
+      },
+      {
+        "ja": "東京公演を皮切りに、全国ツアーが始まった",
+        "en": "starting with the Tokyo performance, a nationwide tour began (the first of a series)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "東京公演を皮切りに、全国ツアーが始まった。",
+      "reading": "とうきょうこうえんをかわきりに、ぜんこくツアーがはじまった。",
+      "en": "Starting with the Tokyo performance, the nationwide tour began.",
+      "note": "A tour: the Tokyo show was the opener."
+    },
+    {
+      "ja": "彼の発言を皮切りに、次々と意見が出された。",
+      "reading": "かれのはつげんをかわきりに、つぎつぎといけんがだされた。",
+      "en": "Beginning with his remark, opinions came one after another.",
+      "note": "A chain of opinions: his remark set them off, 次々と."
+    },
+    {
+      "ja": "この会社は大阪店を皮切りとして、海外にも進出した。",
+      "reading": "このかいしゃはおおさかてんをかわきりとして、かいがいにもしんしゅつした。",
+      "en": "Beginning with its Osaka store, this company expanded overseas as well.",
+      "note": "Business expansion: from the Osaka store to overseas."
+    },
+    {
+      "ja": "その企業は東南アジアへの進出を皮切りに、次々と海外に工場を建てた。",
+      "reading": "そのきぎょうはとうなんアジアへのしんしゅつをかわきりに、つぎつぎとかいがいにこうじょうをたてた。",
+      "en": "Starting with its move into South-East Asia, the company built factories overseas one after another.",
+      "note": "次々と is a typical companion."
+    },
+    {
+      "ja": "来月の京都公演を皮切りとして、十都市を回る予定だ。",
+      "reading": "らいげつのきょうとこうえんをかわきりとして、じゅっとしをまわるよていだ。",
+      "en": "Starting with next month's Kyoto performance, they plan to visit ten cities.",
+      "note": "を皮切りとして with a future plan."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をきっかけに",
+      "difference": "\"Triggered by X\": a cause of a change, not necessarily the first of a series.",
+      "id": "n2-grammar-168"
+    },
+    {
+      "pattern": "〜を契機に",
+      "difference": "\"Taking X as a turning point\": a formal trigger for change. 皮切り stresses the series that follows.",
+      "id": "n2-grammar-169"
+    },
+    {
+      "pattern": "〜をはじめ(として)",
+      "difference": "Lists a representative example and others; no sense of chronological sequence.",
+      "id": "n2-grammar-174"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "地震を皮切りに、津波や火災が起きた。",
+      "right": "地震に続いて、津波や火災が起きた。",
+      "why": "皮切り is not used for a chain of disasters; it implies an active, usually positive series."
+    },
+    {
+      "wrong": "東京公演を皮切りに、ツアーが終わった。",
+      "right": "東京公演を皮切りに、ツアーが始まった。",
+      "why": "The second half must describe a series that starts and continues."
+    },
+    {
+      "wrong": "彼を皮切りに、みんなが帰った。",
+      "right": "彼を皮切りに、次々と意見が出た。",
+      "why": "The noun is an event or action (発言・公演・出店), not simply a person; and the series should be active."
+    }
+  ],
+  "usageNotes": [
+    "Common nouns: 公演・出店・発言・開催・発売・進出.",
+    "The second half frequently contains 次々と・相次いで・全国で・各地で.",
+    "It is often paired with future plans in press releases (〜を皮切りに、〜を予定している)."
+  ],
+  "jlptTips": [
+    "A first event + blank + a series that follows (次々と, 全国に) → を皮切りに.",
+    "Distractors: をきっかけに, を契機に, を限りに. If the second half describes a spreading series, choose を皮切りに.",
+    "Remember the reading かわきり; questions about reading also appear."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-92-1",
+    "q-n1-g-92-2",
+    "q-n1-g-92-3",
+    "q-n1-g-92-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-92-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-176",
+  "slug": "temo-hajimaranai",
+  "level": "n1",
+  "order": 176,
+  "title": "〜てもはじまらない",
+  "romaji": "temo hajimaranai",
+  "meaning": "it is no use …ing; … will get you nowhere; there is no point in …",
+  "simpleExplanation": "Vて + もはじまらない says that doing X achieves nothing, so stop and do something useful. 今さら後悔してもはじまらない = \"It's no use regretting it now\". はじまらない literally means \"nothing starts\", i.e. nothing comes of it. It is usually followed by a constructive suggestion.",
+  "whenUsed": "Spoken Japanese, advice and self-talk. Typical verbs: 泣く・悔やむ・後悔する・文句を言う・心配する・言い争う. Often with 今さら / いつまでも / そんなこと. Casual polite: 〜てもはじまりません.",
+  "formation": [
+    "Vて + もはじまらない",
+    "N + を + Vて + もはじまらない  (文句を言ってもはじまらない)",
+    "Often with 今さら・いつまでも・そんなことを",
+    "Follow-up: まず〜しよう / 次は〜"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "今さら",
+        "role": "\"at this late stage\""
+      },
+      {
+        "text": "後悔して",
+        "role": "the pointless action"
+      },
+      {
+        "text": "もはじまらない",
+        "role": "\"achieves nothing\"",
+        "highlight": true
+      }
+    ],
+    "translation": "It is no use regretting it now."
+  },
+  "examples": [
+    {
+      "ja": "今さら後悔してもはじまらない。",
+      "reading": "いまさらこうかいしてもはじまらない。",
+      "en": "It is no use regretting it now.",
+      "note": "今さら + 後悔する: regret now changes nothing."
+    },
+    {
+      "ja": "文句を言ってもはじまらないから、まず行動しよう。",
+      "reading": "もんくをいってもはじまらないから、まずこうどうしよう。",
+      "en": "Complaining will get us nowhere, so let us act first.",
+      "note": "Complaining is pointless; まず行動しよう is the constructive turn."
+    },
+    {
+      "ja": "泣いてもはじまらない。次の試験で頑張ろう。",
+      "reading": "ないてもはじまらない。つぎのしけんでがんばろう。",
+      "en": "Crying will not help. Let us do our best on the next exam.",
+      "note": "泣く is pointless; the next exam is what matters."
+    },
+    {
+      "ja": "誰のせいか言い争ってもはじまらない。原因を調べよう。",
+      "reading": "だれのせいかいいあらそってもはじまらない。げんいんをしらべよう。",
+      "en": "Arguing about whose fault it is will get us nowhere. Let's find the cause.",
+      "note": "Followed by a constructive proposal."
+    },
+    {
+      "ja": "結果を心配してもはじまらないから、今は休んだほうがいい。",
+      "reading": "けっかをしんぱいしてもはじまらないから、いまはやすんだほうがいい。",
+      "en": "Worrying about the result achieves nothing, so you should rest for now.",
+      "note": "Advice register."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-78",
+      "pattern": "〜てもしかたがない / 〜てもしょうがない",
+      "difference": "\"It can't be helped\", slightly resigned. てもはじまらない is more active: it pushes toward a better action."
+    },
+    {
+      "id": "n2-grammar-66",
+      "pattern": "〜たところで",
+      "difference": "\"Even if you did X, (no good result)\": a hypothetical with a negative outcome. てもはじまらない is a plain judgment that X is pointless."
+    },
+    {
+      "id": "n2-grammar-88",
+      "pattern": "〜どころではない",
+      "difference": "\"This is no time for X\": X is impossible because of circumstances, not pointless."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "勉強してもはじまらない。",
+      "right": "勉強しなければはじまらない。",
+      "why": "The pattern is for actions that are pointless (crying, regretting). Studying is useful; the negative form しなければはじまらない (\"nothing starts without\") is the natural phrase."
+    },
+    {
+      "wrong": "後悔するもはじまらない。",
+      "right": "後悔してもはじまらない。",
+      "why": "The verb must be in the て-form before も."
+    },
+    {
+      "wrong": "後悔してもはじめない。",
+      "right": "後悔してもはじまらない。",
+      "why": "The verb is intransitive はじまる (\"to begin\"), not はじめる."
+    }
+  ],
+  "usageNotes": [
+    "The mirror phrase 〜なければはじまらない means \"nothing can start without X\" (まずやってみなければはじまらない).",
+    "Good follow-ups: まず〜しよう / 次に生かそう / 前を向こう.",
+    "It is direct; with someone who is upset, soften with よ / ね or 気持ちはわかるけど."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a pointless action (泣く・悔やむ・文句を言う) in て-form + a blank, followed by a constructive suggestion, is もはじまらない.",
+    "Distractor しかたがない: both fit many sentences; choose はじまらない when the tone urges action.",
+    "In 並べ替え, ても and はじまらない may be split; the て-form verb precedes them."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-176-1",
+    "q-n1-g-176-2",
+    "q-n1-g-176-3",
+    "q-n1-g-176-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-176-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

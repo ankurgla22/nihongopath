@@ -1,0 +1,120 @@
+{
+  "id": "n1-grammar-68",
+  "slug": "ni-todomarazu",
+  "level": "n1",
+  "order": 68,
+  "title": "〜にとどまらず",
+  "romaji": "ni todomarazu",
+  "meaning": "not limited to …; extending beyond …",
+  "simpleExplanation": "〜にとどまらず means \"does not stop at X but spreads further\". とどまる is \"to stay within limits\", so the phrase says the effect or scope went past X to a wider area: 国内にとどまらず海外にも (not only domestically but overseas too). The second half almost always has も or さえ.",
+  "whenUsed": "Formal written Japanese: news reports, company profiles, academic writing. The typical topic is the spread of influence, damage, activity or popularity. In conversation, だけでなく is used instead.",
+  "formation": [
+    "N + にとどまらず、… も / にも / さえ",
+    "Vる + (の / こと) + にとどまらず",
+    "Formal continuative: 〜にとどまらず、〜に及ぶ / 広がる"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "被害は国内で起きた",
+        "en": "the damage occurred domestically (limited scope)"
+      },
+      {
+        "ja": "被害は国内にとどまらなかった",
+        "en": "the damage did not stay within the country"
+      },
+      {
+        "ja": "被害は国内にとどまらず、海外にも広がった",
+        "en": "the damage was not limited to the country but spread overseas too"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "被害は国内にとどまらず、海外にも広がった。",
+      "reading": "ひがいはこくないにとどまらず、かいがいにもひろがった。",
+      "en": "The damage was not confined to the country but spread overseas too.",
+      "note": "The scope spreads from a narrow area (国内) to a wider one (海外). 広がった is a typical verb."
+    },
+    {
+      "ja": "彼の活躍は音楽にとどまらず、映画や文学にも及んでいる。",
+      "reading": "かれのかつやくはおんがくにとどまらず、えいがやぶんがくにもおよんでいる。",
+      "en": "His achievements are not limited to music but extend to film and literature.",
+      "note": "Activities not limited to one field: music → film and literature. Note にも及んでいる."
+    },
+    {
+      "ja": "この技術は工業製品にとどまらず、医療にも応用されている。",
+      "reading": "このぎじゅつはこうぎょうせいひんにとどまらず、いりょうにもおうようされている。",
+      "en": "This technology is applied not only to industrial products but also to medicine.",
+      "note": "Application spreads from industry to medicine. Very common in technology writing."
+    },
+    {
+      "ja": "SNSの影響は若者にとどまらず、高齢者の生活にも及んでいる。",
+      "reading": "SNSのえいきょうはわかものにとどまらず、こうれいしゃのせいかつにもおよんでいる。",
+      "en": "The influence of social media is not limited to the young but reaches the lives of the elderly too.",
+      "note": "影響 + に及ぶ is the standard pairing."
+    },
+    {
+      "ja": "彼女は単に歌うにとどまらず、作詞や作曲も手がけている。",
+      "reading": "かのじょはたんにうたうにとどまらず、さくしやさっきょくもてがけている。",
+      "en": "She does not merely sing; she also writes lyrics and composes.",
+      "note": "Vる + にとどまらず; 単に often introduces the narrow item."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜のみならず",
+      "difference": "Formal \"not only\". Almost interchangeable, but にとどまらず stresses a spread beyond a boundary, while のみならず simply adds.",
+      "id": "n2-grammar-137"
+    },
+    {
+      "pattern": "〜ばかりか / 〜ばかりでなく",
+      "difference": "Everyday \"not only … but also\"; less formal and does not imply a widening scope.",
+      "id": "n2-grammar-140"
+    },
+    {
+      "pattern": "〜はおろか",
+      "difference": "\"Let alone\": the first item is out of the question and even the easier one is negated. Opposite direction.",
+      "id": "n1-grammar-74"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "被害は国内にとどまらず、海外に広がった。",
+      "right": "被害は国内にとどまらず、海外にも広がった。",
+      "why": "The second clause needs も (or さえ) to show the wider scope is added to the narrow one."
+    },
+    {
+      "wrong": "彼は音楽にとどまらないで、映画も作る。",
+      "right": "彼は音楽にとどまらず、映画も作る。",
+      "why": "The set continuative is とどまらず; ないで sounds conversational and breaks the formal pattern."
+    },
+    {
+      "wrong": "この店は安いにとどまらず、おいしい。",
+      "right": "この店は安いだけでなく、おいしい。",
+      "why": "にとどまらず takes nouns or verbs about scope and influence, not simple adjectives."
+    }
+  ],
+  "usageNotes": [
+    "The narrow item is often introduced with 単に or ただ, and the wider item is followed by も・にも・さえ.",
+    "Typical verbs in the second half: 広がる・及ぶ・影響を与える・波及する.",
+    "It is close in spirit to English \"goes beyond\": その活動は趣味の域にとどまらない = it goes beyond a hobby."
+  ],
+  "jlptTips": [
+    "Look for も / にも in the second half and a spread from small to large (国内 → 海外, 若者 → 高齢者): にとどまらず fits.",
+    "Distractors are のみならず, はおろか and にひきかえ. Both のみならず and にとどまらず can be correct in meaning; the exam usually makes only one fit the form (e.g. after Vる).",
+    "In 並べ替え, put the narrow noun + にとどまらず first, then the wider noun + にも, then the verb."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-68-1",
+    "q-n1-g-68-2",
+    "q-n1-g-68-3",
+    "q-n1-g-68-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-68-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

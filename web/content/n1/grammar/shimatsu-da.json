@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-108",
+  "slug": "shimatsu-da",
+  "level": "n1",
+  "order": 108,
+  "title": "〜しまつだ",
+  "romaji": "shimatsu da",
+  "meaning": "ended up (in a sorry state); to make matters worse …",
+  "simpleExplanation": "〜しまつだ (始末だ) presents the final, worst point of a series of bad developments: 遅刻を繰り返したあげく、無断欠勤までするしまつだ (after repeated lateness, he ended up even skipping work). It expresses the speaker's exasperation. The short form このしまつだ / そのしまつだ means \"look at the state of things\".",
+  "whenUsed": "Both speech and writing. Used to complain or criticise: the subject's behaviour went from bad to worse and here is the sorry result. Often preceded by あげく or ついには, and まで.",
+  "formation": [
+    "Vる + しまつだ",
+    "この / その + しまつだ",
+    "Often: 〜たあげく、…しまつだ / ついには〜しまつだ / 〜までするしまつだ"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "遅刻を繰り返したあげく",
+        "role": "series of bad developments"
+      },
+      {
+        "text": "無断欠勤までする",
+        "role": "the worst point (dictionary form)",
+        "highlight": true
+      },
+      {
+        "text": "しまつだ",
+        "role": "ended up (exasperation)",
+        "highlight": true
+      }
+    ],
+    "translation": "After repeatedly being late, he ended up even skipping work without notice."
+  },
+  "examples": [
+    {
+      "ja": "彼は遅刻を繰り返したあげく、無断欠勤までするしまつだ。",
+      "reading": "かれはちこくをくりかえしたあげく、むだんけっきんまでするしまつだ。",
+      "en": "After repeatedly being late, he ended up even skipping work without notice.",
+      "note": "あげく + まで + しまつだ: the full pattern."
+    },
+    {
+      "ja": "借金を重ね、ついには家族にまで見放されるしまつだった。",
+      "reading": "しゃっきんをかさね、ついにはかぞくにまでみはなされるしまつだった。",
+      "en": "Piling up debts, he ended up abandoned even by his family.",
+      "note": "ついには: the final low point, abandoned by family."
+    },
+    {
+      "ja": "自分で決めたことなのに、途中で投げ出すとは、このしまつだ。",
+      "reading": "じぶんできめたことなのに、とちゅうでなげだすとは、このしまつだ。",
+      "en": "He decided it himself, and yet gave up halfway. Look at the state of things.",
+      "note": "このしまつだ: pointing at the sorry state."
+    },
+    {
+      "ja": "彼は借りた金を返さないばかりか、また貸してくれと言うしまつだ。",
+      "reading": "かれはかりたかねをかえさないばかりか、またかしてくれというしまつだ。",
+      "en": "Not only does he not return the money he borrowed, he even asks to borrow more.",
+      "note": "Exasperation at shameless behaviour."
+    },
+    {
+      "ja": "何度注意しても直らず、ついには客に怒鳴るしまつだった。",
+      "reading": "なんどちゅういしてもなおらず、ついにはきゃくにどなるしまつだった。",
+      "en": "No matter how often he was warned he did not improve, and in the end he even shouted at a customer.",
+      "note": "ついには marks the final point."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜あげく(に)",
+      "difference": "\"After a long bad process, finally\": it introduces the process; しまつだ names the sorry end.",
+      "id": "n2-grammar-1"
+    },
+    {
+      "pattern": "〜末(に)",
+      "difference": "\"After (a process)\": neutral; the result can be good.",
+      "id": "n2-grammar-57"
+    },
+    {
+      "pattern": "〜ばかりだ",
+      "difference": "\"Keeps getting worse\": a continuing trend, not a final low point.",
+      "id": "n2-grammar-185"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "努力したあげく、合格するしまつだ。",
+      "right": "努力した末に、合格した。",
+      "why": "しまつだ is only for bad outcomes."
+    },
+    {
+      "wrong": "無断欠勤したしまつだ。",
+      "right": "無断欠勤するしまつだ。",
+      "why": "The dictionary form is used before しまつだ."
+    },
+    {
+      "wrong": "そのしまつで、",
+      "right": "そのしまつだ。",
+      "why": "この / そのしまつだ is a sentence-final formula."
+    }
+  ],
+  "usageNotes": [
+    "The tone is always critical or exasperated; it is not a neutral report.",
+    "Companions: あげく・ついには・とうとう・まで.",
+    "始末 also means \"handling\" in other contexts (後始末); here it means \"state of affairs\"."
+  ],
+  "jlptTips": [
+    "A series of bad actions + the worst one + blank at the end → しまつだ.",
+    "Distractors: あげく, 末に, ばかりだ. Only しまつだ ends the sentence with the sorry result.",
+    "In 並べ替え, the chunk まで + Vる + しまつだ is the last one."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-108-1",
+    "q-n1-g-108-2",
+    "q-n1-g-108-3",
+    "q-n1-g-108-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-108-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

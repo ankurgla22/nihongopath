@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-79",
+  "slug": "bekumo-nai",
+  "level": "n1",
+  "order": 79,
+  "title": "〜べくもない",
+  "romaji": "bekumo nai",
+  "meaning": "there is no way to …; cannot possibly …",
+  "simpleExplanation": "〜べくもない means \"there is no way one could X; it is out of the question\". The circumstances make X impossible: 知るべくもなかった (there was no way I could have known). It is limited to a few verbs: 知る・望む・比べる・疑う・及ぶ・想像する.",
+  "whenUsed": "Formal written Japanese: essays, novels, commentary. Often expresses helplessness or a huge gap (比べるべくもない = not even comparable). Not used in conversation, where 〜はずがない or 〜ようがない do the job.",
+  "formation": [
+    "Vる + べくもない",
+    "Typical verbs: 知る・望む・比べる・疑う・及ぶ・想像する",
+    "Past: 〜べくもなかった"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Ways to say \"cannot possibly\"",
+    "columns": [
+      "Reason for impossibility",
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜べくもない",
+        "cells": [
+          "the situation rules it out",
+          "literary",
+          "知るべくもない"
+        ]
+      },
+      {
+        "label": "〜ようがない",
+        "cells": [
+          "no means or method exists",
+          "neutral",
+          "連絡のしようがない"
+        ]
+      },
+      {
+        "label": "〜はずがない",
+        "cells": [
+          "logic or evidence rules it out",
+          "neutral",
+          "彼が来るはずがない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼がそんなに苦しんでいたとは、知るべくもなかった。",
+      "reading": "かれがそんなにくるしんでいたとは、しるべくもなかった。",
+      "en": "There was no way I could have known he was suffering so much.",
+      "note": "知るべくもなかった: no way to have known, given the situation."
+    },
+    {
+      "ja": "一介の社員である私には、社長の考えなど知るべくもない。",
+      "reading": "いっかいのしゃいんであるわたしには、しゃちょうのかんがえなどしるべくもない。",
+      "en": "As a mere employee, I have no way of knowing what the president thinks.",
+      "note": "A lowly employee cannot know the president's mind: the gap in position makes it impossible."
+    },
+    {
+      "ja": "彼の才能は、私などとは比べるべくもない。",
+      "reading": "かれのさいのうは、わたしなどとはくらべるべくもない。",
+      "en": "His talent cannot even be compared with mine.",
+      "note": "比べるべくもない: the talents are so different that comparison is impossible."
+    },
+    {
+      "ja": "戦時中の人々の苦しみは、今の私たちには想像すべくもない。",
+      "reading": "せんじちゅうのひとびとのくるしみは、いまのわたしたちにはそうぞうすべくもない。",
+      "en": "The suffering of people during the war is beyond anything we today could imagine.",
+      "note": "想像する → 想像すべくもない."
+    },
+    {
+      "ja": "あの時の判断が正しかったかどうか、今となっては確かめるべくもない。",
+      "reading": "あのときのはんだんがただしかったかどうか、いまとなってはたしかめるべくもない。",
+      "en": "Whether that decision was right, there is no way to verify now.",
+      "note": "今となっては often sets up the impossibility."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ようがない / 〜ようもない",
+      "difference": "No method exists (直しようがない). べくもない is about circumstances and is more literary.",
+      "id": "n2-grammar-161"
+    },
+    {
+      "pattern": "〜べく",
+      "difference": "Same form, different meaning: purpose (\"in order to\").",
+      "id": "n1-grammar-78"
+    },
+    {
+      "pattern": "〜には及ばない",
+      "difference": "\"Cannot match\" (comparison sense) overlaps with 比べるべくもない, but 及ばない is plainer.",
+      "id": "n1-grammar-69"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼が来るべくもない。",
+      "right": "彼が来るはずがない。",
+      "why": "べくもない takes only a few verbs (知る・望む・比べる). For ordinary events, use はずがない."
+    },
+    {
+      "wrong": "知りべくもない。",
+      "right": "知るべくもない。",
+      "why": "The dictionary form attaches to べくもない."
+    },
+    {
+      "wrong": "私の英語は彼にべくもない。",
+      "right": "私の英語は彼と比べるべくもない。",
+      "why": "A verb is required; べくもない cannot attach to a noun."
+    }
+  ],
+  "usageNotes": [
+    "The most frequent phrases are 知るべくもない, 望むべくもない, 比べるべくもない. Learn them as units.",
+    "It carries a tone of resignation: the speaker accepts that X is beyond reach.",
+    "In modern prose it is used sparingly, for emphasis."
+  ],
+  "jlptTips": [
+    "If the verb is 知る・望む・比べる and the sentence gives a reason the thing is out of reach, べくもない is the answer.",
+    "Distractors: べく, ようがない, はずがない. Only べくもない is limited to these literary verbs.",
+    "Watch the past tense: 知るべくもなかった is a common key."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-79-1",
+    "q-n1-g-79-2",
+    "q-n1-g-79-3",
+    "q-n1-g-79-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-79-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

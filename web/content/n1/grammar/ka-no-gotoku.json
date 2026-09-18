@@ -1,0 +1,139 @@
+{
+  "id": "n1-grammar-15",
+  "slug": "ka-no-gotoku",
+  "level": "n1",
+  "order": 15,
+  "title": "〜かのごとく / 〜かのごとき",
+  "romaji": "kanogotoku-kanogotoki",
+  "meaning": "as if …; as though … (contrary to fact)",
+  "simpleExplanation": "Clause + かのごとく (adverb) / かのごとき (modifier) means \"as if X were the case\", with the clear implication that X is not actually true: 何事もなかったかのごとく \"as if nothing had happened\". It is the literary version of かのように.",
+  "whenUsed": "Novels, essays, formal narration. Adds a slightly dramatic contrast between appearance and reality. In speech use かのように / まるで〜みたいに.",
+  "formation": [
+    "Plain form + かのごとく + verb",
+    "Plain form + かのごとき + noun",
+    "Noun + であるかのごとく",
+    "Often with まるで / あたかも"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "\"like\" vs \"as if\"",
+    "columns": [
+      "form",
+      "truth of X",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜のごとく",
+        "cells": [
+          "N + のごとく",
+          "a comparison, X is a simile",
+          "嵐のごとく吹き荒れる"
+        ]
+      },
+      {
+        "label": "〜かのごとく",
+        "cells": [
+          "clause + かのごとく",
+          "X is not really true",
+          "何事もなかったかのごとく"
+        ]
+      },
+      {
+        "label": "〜かのように",
+        "cells": [
+          "clause + かのように",
+          "same, modern neutral",
+          "何事もなかったかのように"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は何事もなかったかのごとく、平然と仕事を続けた。",
+      "reading": "かれはなにごともなかったかのごとく、へいぜんとしごとをつづけた。",
+      "en": "He calmly kept working as if nothing had happened.",
+      "note": "The classic example: pretending nothing happened."
+    },
+    {
+      "ja": "嵐のごとき拍手が会場に響いた。",
+      "reading": "あらしのごときはくしゅがかいじょうにひびいた。",
+      "en": "Applause like a storm resounded through the hall.",
+      "note": "Noun + のごとき (simile, no か) for comparison."
+    },
+    {
+      "ja": "その男は自分が王であるかのごとく振る舞った。",
+      "reading": "そのおとこはじぶんがおうであるかのごとくふるまった。",
+      "en": "The man behaved as if he were a king.",
+      "note": "であるかのごとく: acting as if he were a king (he is not)."
+    },
+    {
+      "ja": "彼女はすべてを見通しているかのごとき目で、私をじっと見た。",
+      "reading": "かのじょはすべてをみとおしているかのごときめで、わたしをじっとみた。",
+      "en": "She stared at me with eyes that seemed to see through everything.",
+      "note": "かのごとき + noun (目)."
+    },
+    {
+      "ja": "あたかも自分が発見したかのごとく、彼はその理論を語った。",
+      "reading": "あたかもじぶんがはっけんしたかのごとく、かれはそのりろんをかたった。",
+      "en": "He spoke about the theory as though he himself had discovered it.",
+      "note": "あたかも strengthens the contrary-to-fact sense."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ごとく / ごとき",
+      "difference": "Simple simile after a noun (矢のごとく). Add か after a clause to mean \"as if\".",
+      "id": "n1-grammar-14"
+    },
+    {
+      "pattern": "〜かのようだ",
+      "difference": "Modern equivalent; usable in speech and writing.",
+      "id": "n2-grammar-26"
+    },
+    {
+      "pattern": "〜とばかりに",
+      "difference": "\"As if to say\": describes behaviour that sends a message, not a false appearance.",
+      "id": "n1-grammar-45"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "彼は王であるのごとく振る舞った。",
+      "right": "彼は王であるかのごとく振る舞った。",
+      "why": "After a clause the か is required: であるかのごとく."
+    },
+    {
+      "wrong": "彼女は嵐かのごとく去った。",
+      "right": "彼女は嵐のごとく去った。",
+      "why": "A bare noun takes のごとく (simile); か is only for clauses."
+    },
+    {
+      "wrong": "何事もなかったかのごとくな顔",
+      "right": "何事もなかったかのごとき顔",
+      "why": "Before a noun use ごとき, never ごとくな."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: まるで, あたかも, さも.",
+    "Typical verbs after it: 振る舞う, 装う, 語る, 平然と〜する.",
+    "The strongly literary tone makes it common in N1 reading passages as well as grammar questions."
+  ],
+  "jlptTips": [
+    "If the blank follows a clause (〜た / 〜ている / である) and means \"as if\", choose かのごとく; if it follows a bare noun, choose のごとく.",
+    "A following noun requires かのごとき; the test often offers かのごとく where a noun follows.",
+    "Distractor とばかりに describes body language that sends a message; it does not mean \"pretending\"."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-15-1",
+    "q-n1-g-15-2",
+    "q-n1-g-15-3",
+    "q-n1-g-15-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-15-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

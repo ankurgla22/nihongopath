@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-142",
+  "slug": "you-nimo-nai",
+  "level": "n1",
+  "order": 142,
+  "title": "〜ようにも〜ない / 〜(よ)うにも〜ない",
+  "romaji": "you nimo ... nai",
+  "meaning": "even if one tries to …, one cannot; want to … but circumstances make it impossible",
+  "simpleExplanation": "V意向形 + にも + V可能形ない repeats the same verb to say \"I would … if I could, but I can't\". 起きようにも起きられない = \"I'd get up, but I can't\". The first verb (volitional) is the intention, the second (potential negative) is the block. A reason is usually given first: fever, no wallet, no contact details.",
+  "whenUsed": "Spoken and written, neutral. Used to explain why something you wanted to do did not happen. The same verb must appear twice; the cause is usually external (illness, missing tools, no information).",
+  "formation": [
+    "V意向形 + にも + V可能形 + ない  (行こうにも行けない)",
+    "する verbs: しようにもできない",
+    "Often preceded by a reason: 〜て / 〜ので / 〜ず",
+    "Colloquial variant: Vる + にも + V可能形ない (帰るにも帰れない)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "起きよう",
+        "en": "the intention (volitional form)"
+      },
+      {
+        "ja": "起きようにも",
+        "en": "\"even if I try to get up\""
+      },
+      {
+        "ja": "起きようにも起きられない",
+        "en": "\"…I cannot\": circumstances block it"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "熱があって、起きようにも起きられない。",
+      "reading": "ねつがあって、おきようにもおきられない。",
+      "en": "I have a fever and cannot get up even though I want to.",
+      "note": "Fever is the block; 起きよう + にも + 起きられない."
+    },
+    {
+      "ja": "連絡先がわからず、知らせようにも知らせられなかった。",
+      "reading": "れんらくさきがわからず、しらせようにもしらせられなかった。",
+      "en": "Not knowing the contact details, I could not inform them even though I wanted to.",
+      "note": "Not knowing the contact details blocks 知らせる; note the past tense on the potential."
+    },
+    {
+      "ja": "財布を忘れて、買おうにも買えない。",
+      "reading": "さいふをわすれて、かおうにもかえない。",
+      "en": "I forgot my wallet, so I cannot buy it even if I want to.",
+      "note": "No wallet: 買おう + にも + 買えない."
+    },
+    {
+      "ja": "道が渋滞していて、急ごうにも急げなかった。",
+      "reading": "みちがじゅうたいしていて、いそごうにもいそげなかった。",
+      "en": "The road was jammed, so I could not hurry even though I wanted to.",
+      "note": "Past tense on the potential half."
+    },
+    {
+      "ja": "彼の名前を忘れてしまい、話しかけようにも話しかけられない。",
+      "reading": "かれのなまえをわすれてしまい、はなしかけようにもはなしかけられない。",
+      "en": "I have forgotten his name, so I cannot start a conversation even if I want to.",
+      "note": "Compound verbs repeat in full."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-161",
+      "pattern": "〜ようがない",
+      "difference": "\"There is no way to\" because no method exists (連絡のしようがない). ようにも〜ない stresses the speaker's wish and an external obstacle."
+    },
+    {
+      "id": "n2-grammar-165",
+      "pattern": "〜わけにはいかない",
+      "difference": "Cannot because of social or moral reasons. ようにも〜ない is about physical or practical impossibility."
+    },
+    {
+      "id": "n1-grammar-79",
+      "pattern": "〜べくもない",
+      "difference": "Formal \"could not possibly\" (比べるべくもない). Not about a blocked intention."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "起きるにも起きられない。(in careful writing)",
+      "right": "起きようにも起きられない。",
+      "why": "The standard form uses the volitional (起きよう). The dictionary-form variant is colloquial only."
+    },
+    {
+      "wrong": "起きようにも寝られない。",
+      "right": "起きようにも起きられない。",
+      "why": "The same verb must be repeated: the intention and the blocked action are the same act."
+    },
+    {
+      "wrong": "起きようにも起きない。",
+      "right": "起きようにも起きられない。",
+      "why": "The second verb must be the potential negative (起きられない), not a plain negative."
+    }
+  ],
+  "usageNotes": [
+    "Common verbs: 行こうにも行けない・帰ろうにも帰れない・連絡しようにもできない・逃げようにも逃げられない.",
+    "The reason clause often ends in 〜て / 〜ず / 〜ので and names the obstacle explicitly.",
+    "For する verbs, the second half is できない: 説明しようにも説明できない."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a volitional + にも + a blank is a strong signal; choose the potential negative of the same verb.",
+    "Distractor ようがない: pick it when there is no method at all (address unknown → 連絡のしようがない); pick ようにも〜ない when an obstacle blocks a wish.",
+    "In 並べ替え, the volitional form + にも and the potential negative are separate chunks; keep the verb the same in both."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-142-1",
+    "q-n1-g-142-2",
+    "q-n1-g-142-3",
+    "q-n1-g-142-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-142-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

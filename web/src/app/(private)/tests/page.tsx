@@ -1,9 +1,10 @@
 import { pageMetadata } from "@/lib/seo/metadata";
 import { requireUser } from "@/lib/auth/requireUser";
-import { getCurriculum, getQuestionIndex, resolveContentId } from "@/lib/content";
+import { getCurriculum, getKanji, getQuestionIndex, getVocabulary, resolveContentId } from "@/lib/content";
+import { LEVELS } from "@/lib/content/schemas";
 import { questionContentIds } from "@/lib/engine/scoring";
 import { Container } from "@/components/ui";
-import { TestsHubClient } from "@/components/study/TestsHubClient";
+import { TestsHubClient, type DrillPool } from "@/components/study/TestsHubClient";
 import { levelForPhase, questionLevelsUpTo, type ContentLinks } from "@/components/study/helpers";
 import { phaseForDay } from "@/lib/engine/progress";
 import { readCurrentDay } from "@/lib/study/currentDay";
@@ -35,10 +36,20 @@ export default async function TestsPage() {
     }
   }
   const phases = curriculum.phases.map((p) => ({ id: p.id, name: p.name, startDay: p.startDay, endDay: p.endDay }));
+  // Compact id lists for the vocabulary/kanji drills: only the id suffix per level ("12" for n5-vocab-12,
+  // "一" for n5-kanji-一) so the whole catalogue costs a few tens of KB instead of shipping full ids or records.
+  const drillLevels = levels ? LEVELS.filter((l) => (levels as string[]).includes(l)) : LEVELS;
+  const drillPool: DrillPool = {};
+  for (const l of drillLevels) {
+    drillPool[l] = {
+      vocab: getVocabulary(l).map((v) => v.id.replace(`${l}-vocab-`, "")),
+      kanji: getKanji(l).map((k) => k.id.replace(`${l}-kanji-`, "")),
+    };
+  }
 
   return (
     <Container wide>
-      <TestsHubClient questionIndex={questionIndex} contentLinks={links} phases={phases} />
+      <TestsHubClient questionIndex={questionIndex} contentLinks={links} phases={phases} drillPool={drillPool} />
     </Container>
   );
 }

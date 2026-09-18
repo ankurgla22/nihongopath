@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-82",
+  "slug": "made-da-made-no-koto-da",
+  "level": "n1",
+  "order": 82,
+  "title": "〜までだ / 〜までのことだ",
+  "romaji": "made da / made no koto da",
+  "meaning": "will simply …; merely did …",
+  "simpleExplanation": "〜までだ has two uses depending on the verb form. (1) Vる + までだ: \"if that happens, I'll simply do X\" (a calm fallback plan): バスがなければ歩くまでだ. (2) Vた + までだ: \"I merely did X\" (playing down one's action): 当然のことをしたまでです. までのことだ is a slightly longer, softer version.",
+  "whenUsed": "Both speech and writing. Use 1 shows resolve without drama; it often follows a conditional (〜なら・〜ば・〜たら). Use 2 is a modest reply to thanks or praise, or an explanation that one had no special motive.",
+  "formation": [
+    "Vる + までだ / までのことだ (resolve: will simply)",
+    "Vた + までだ / までのことだ (downplay: merely did)",
+    "Often: 〜なら／〜ば、Vるまでだ"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Two uses of までだ",
+    "columns": [
+      "Form",
+      "Meaning",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "Resolve",
+        "cells": [
+          "Vる + までだ",
+          "I will simply … (fallback)",
+          "だめなら、もう一度やるまでだ"
+        ]
+      },
+      {
+        "label": "Downplay",
+        "cells": [
+          "Vた + までだ",
+          "I merely … (no special reason)",
+          "思ったことを言ったまでだ"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "バスがないなら、歩いて帰るまでだ。",
+      "reading": "バスがないなら、あるいてかえるまでだ。",
+      "en": "If there is no bus, I will just walk home.",
+      "note": "Resolve: if no bus, I'll simply walk. No complaint, just the fallback."
+    },
+    {
+      "ja": "失敗したら、もう一度やり直すまでのことだ。",
+      "reading": "しっぱいしたら、もういちどやりなおすまでのことだ。",
+      "en": "If I fail, I will simply try again.",
+      "note": "までのことだ softens the same resolve."
+    },
+    {
+      "ja": "お礼を言われるようなことではない。当然のことをしたまでです。",
+      "reading": "おれいをいわれるようなことではない。とうぜんのことをしたまでです。",
+      "en": "There is nothing to thank me for. I only did what was natural.",
+      "note": "Downplay: 当然のことをしたまでです is the standard modest reply to thanks."
+    },
+    {
+      "ja": "反対されても、自分の信じる道を進むまでだ。",
+      "reading": "はんたいされても、じぶんのしんじるみちをすすむまでだ。",
+      "en": "Even if people oppose me, I will simply follow the path I believe in.",
+      "note": "Resolve after a concessive ても."
+    },
+    {
+      "ja": "別に責めているわけではない。事実を確認したまでのことです。",
+      "reading": "べつにせめているわけではない。じじつをかくにんしたまでのことです。",
+      "en": "I am not blaming you. I merely confirmed the facts.",
+      "note": "Downplay: no hidden motive."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ばそれまでだ",
+      "difference": "\"If X, it is all over\": an ending, not a fallback plan.",
+      "id": "n1-grammar-76"
+    },
+    {
+      "pattern": "〜までもない",
+      "difference": "\"No need to\": the action is unnecessary. までだ says the action is the simple choice.",
+      "id": "n1-grammar-83"
+    },
+    {
+      "pattern": "〜しかない",
+      "difference": "\"Have no choice but to\": similar to the resolve use, but sounds forced; までだ sounds calm and unbothered.",
+      "id": "n2-grammar-53"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "手伝ってもらえないなら、一人でやったまでだ。",
+      "right": "手伝ってもらえないなら、一人でやるまでだ。",
+      "why": "The resolve meaning needs the dictionary form; the past form means \"I merely did\"."
+    },
+    {
+      "wrong": "ありがとうございます。→「当然のことをするまでです。」",
+      "right": "「当然のことをしたまでです。」",
+      "why": "For a modest reply about something already done, use the past form."
+    },
+    {
+      "wrong": "お金がなければ、それまでだ。（意味：働くだけだ）",
+      "right": "お金がなければ、働くまでだ。",
+      "why": "それまでだ means \"it is all over\"; to express a fallback, name the action + までだ."
+    }
+  ],
+  "usageNotes": [
+    "The resolve use expresses a matter-of-fact attitude: no need to worry, there is a simple next step.",
+    "The downplay use is polite and humble; it often follows ただ or 別に.",
+    "までのことだ is slightly gentler and more explanatory than までだ."
+  ],
+  "jlptTips": [
+    "A conditional clause + blank ending the sentence with a dictionary-form verb → までだ (resolve).",
+    "A reply to thanks with Vた + blank → までです (downplay). Distinguish by the verb tense.",
+    "Distractors: それまでだ, までもない, しかない. Check whether the sentence names an action (までだ) or an ending (それまでだ)."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-82-1",
+    "q-n1-g-82-2",
+    "q-n1-g-82-3",
+    "q-n1-g-82-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-82-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

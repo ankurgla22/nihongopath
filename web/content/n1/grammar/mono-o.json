@@ -1,0 +1,116 @@
+{
+  "id": "n1-grammar-87",
+  "slug": "mono-o",
+  "level": "n1",
+  "order": 87,
+  "title": "〜ものを",
+  "romaji": "mono o",
+  "meaning": "if only …; and yet … (regret or reproach)",
+  "simpleExplanation": "〜ものを expresses regret or mild blame about something that did not happen: 言ってくれれば手伝ったものを (if only you had told me, I would have helped). The first half is often a conditional ば, and the second half (which may be left unsaid) shows the bad result of not doing it.",
+  "whenUsed": "Spoken and literary Japanese, always emotional. The speaker blames the listener or a third party, or laments their own missed chance. The sentence can end with ものを, leaving the rest implied, which sounds even more reproachful.",
+  "formation": [
+    "普通形 + ものを (V / Aい; Aな + な + ものを)",
+    "〜ば〜ものを、… (if only … then … but …)",
+    "Sentence end: 〜ものを。 (the consequence is implied)"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "早く行けばよかったのに",
+        "en": "you should have gone sooner (plain regret)"
+      },
+      {
+        "ja": "早く行けばよかったものを",
+        "en": "if only you had gone sooner… (regret plus reproach; the bad result follows or is implied)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "早く医者に行けばよかったものを、我慢したせいで悪化してしまった。",
+      "reading": "はやくいしゃにいけばよかったものを、がまんしたせいであっかしてしまった。",
+      "en": "You should have gone to the doctor sooner; because you put up with it, it got worse.",
+      "note": "Full pattern: 〜ばよかったものを + the bad consequence."
+    },
+    {
+      "ja": "一言謝れば済むものを、彼は意地を張り続けた。",
+      "reading": "ひとことあやまればすむものを、かれはいじをはりつづけた。",
+      "en": "A single apology would have settled it, but he kept being stubborn.",
+      "note": "一言謝れば済むものを: a single apology would have settled it, but he was stubborn."
+    },
+    {
+      "ja": "言ってくれれば手伝ったものを。",
+      "reading": "いってくれればてつだったものを。",
+      "en": "If only you had told me, I would have helped.",
+      "note": "Sentence-final ものを: the rest (I would have helped, but you didn't say) is implied."
+    },
+    {
+      "ja": "素直に頼めば貸してあげたものを、彼は黙って持ち出した。",
+      "reading": "すなおにたのめばかしてあげたものを、かれはだまってもちだした。",
+      "en": "I would have lent it if he had just asked, but he took it without a word.",
+      "note": "Reproach at the other person's behaviour."
+    },
+    {
+      "ja": "もう少し待てば安く買えたものを、慌てて買ってしまった。",
+      "reading": "もうすこしまてばやすくかえたものを、あわててかってしまった。",
+      "en": "If I had waited a little longer I could have bought it cheaper, but I rushed and bought it.",
+      "note": "Regret about one's own action."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜ものの",
+      "difference": "\"Although\" (concessive) with no emotional tone; easily confused by form.",
+      "id": "n2-grammar-159"
+    },
+    {
+      "pattern": "〜ものだから / 〜もので",
+      "difference": "Gives a reason (\"because\"), often as an excuse. No regret about a missed action.",
+      "id": "n2-grammar-157"
+    },
+    {
+      "pattern": "〜ものか / 〜もんか",
+      "difference": "A strong refusal or denial (\"as if I would!\"). Same もの, opposite feeling.",
+      "id": "n2-grammar-154"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "雨が降ったものを、試合は行われた。",
+      "right": "雨が降ったものの、試合は行われた。",
+      "why": "A neutral concession is ものの. ものを needs regret about something that could have been done."
+    },
+    {
+      "wrong": "静かなものを",
+      "right": "静かなものを → 静かにしていればよかったものを",
+      "why": "ものを usually follows a clause about a missed action; a bare adjective is rare and unnatural."
+    },
+    {
+      "wrong": "手伝ってくれてありがとう。言ってくれれば手伝ったものを。",
+      "right": "言ってくれれば手伝ったのに。",
+      "why": "ものを implies reproach, so it clashes with thanks. Use のに for a mild remark."
+    }
+  ],
+  "usageNotes": [
+    "The typical frame is 〜ば〜ものを; the ば clause is what should have been done.",
+    "It sounds emotional and slightly old-fashioned; common in drama and novels, less so in business.",
+    "Ending the sentence with ものを is natural and leaves the reproach hanging."
+  ],
+  "jlptTips": [
+    "A ば clause + a past potential or よかった + blank + a bad result → ものを.",
+    "Distractors: ものの, ものだから, ものか. Only ものを expresses regret with a conditional first half.",
+    "In 並べ替え, 〜ばよかったものを or 〜ば済むものを is one chunk."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-87-1",
+    "q-n1-g-87-2",
+    "q-n1-g-87-3",
+    "q-n1-g-87-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-87-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

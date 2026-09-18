@@ -1,0 +1,122 @@
+{
+  "id": "n1-grammar-109",
+  "slug": "te-shikarubeki-da",
+  "level": "n1",
+  "order": 109,
+  "title": "〜てしかるべきだ",
+  "romaji": "te shikarubeki da",
+  "meaning": "should be …; it is only proper that …",
+  "simpleExplanation": "〜てしかるべきだ means \"it is only right and proper that X be done\": もっと評価されてしかるべきだ (deserves to be valued more). しかるべき = 然るべき, \"appropriate\". It is a formal way to say something should happen as a matter of fairness or propriety, often with the passive.",
+  "whenUsed": "Formal written and spoken Japanese: opinion pieces, speeches, formal complaints. The speaker asserts what fairness demands. The past form てしかるべきだった criticises what did not happen.",
+  "formation": [
+    "Vて + しかるべきだ",
+    "Often passive: 評価されて / 議論されて / 謝罪されて + しかるべきだ",
+    "Past: 〜てしかるべきだった",
+    "Adnominal: しかるべき + N (an appropriate N)"
+  ],
+  "diagram": {
+    "kind": "scale",
+    "title": "Strength of \"should\"",
+    "items": [
+      {
+        "label": "〜たほうがいい",
+        "description": "advice"
+      },
+      {
+        "label": "〜べきだ",
+        "description": "obligation or opinion"
+      },
+      {
+        "label": "〜てしかるべきだ",
+        "description": "it is only proper; fairness demands it (formal)"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "これほどの功績は、もっと評価されてしかるべきだ。",
+      "reading": "これほどのこうせきは、もっとひょうかされてしかるべきだ。",
+      "en": "Achievements of this magnitude ought to be more highly valued.",
+      "note": "Passive + てしかるべきだ: achievements deserve more recognition."
+    },
+    {
+      "ja": "責任者は謝罪してしかるべきだろう。",
+      "reading": "せきにんしゃはしゃざいしてしかるべきだろう。",
+      "en": "The person in charge ought to apologize.",
+      "note": "しかるべきだろう: a softened assertion about the person in charge."
+    },
+    {
+      "ja": "この問題は、もっと早く議論されてしかるべきだった。",
+      "reading": "このもんだいは、もっとはやくぎろんされてしかるべきだった。",
+      "en": "This issue should have been discussed much earlier.",
+      "note": "Past tense: the issue should have been discussed earlier (criticism)."
+    },
+    {
+      "ja": "これだけの損害を与えたのだから、賠償はなされてしかるべきだ。",
+      "reading": "これだけのそんがいをあたえたのだから、ばいしょうはなされてしかるべきだ。",
+      "en": "Given the damage caused, compensation ought to be made.",
+      "note": "なされて is the formal passive of する."
+    },
+    {
+      "ja": "長年の功労に対し、何らかの表彰があってしかるべきだ。",
+      "reading": "ながねんのこうろうにたいし、なんらかのひょうしょうがあってしかるべきだ。",
+      "en": "For such long service, some kind of commendation is only proper.",
+      "note": "あってしかるべき: there should be."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜べき / 〜べきだ",
+      "difference": "The plain \"should\"; しかるべきだ adds \"as is proper\" and is more formal.",
+      "id": "n2-grammar-145"
+    },
+    {
+      "pattern": "〜に(は)当たらない",
+      "difference": "\"There is no need to (be surprised)\": the opposite direction, denying that a reaction is warranted.",
+      "id": "n1-grammar-151"
+    },
+    {
+      "pattern": "〜ものだ",
+      "difference": "\"It is natural / customary to\": a general norm rather than a claim about a specific case.",
+      "id": "n2-grammar-156"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "評価するしかるべきだ。",
+      "right": "評価されてしかるべきだ。",
+      "why": "The te-form is required, and the passive is usual when the subject is what deserves treatment."
+    },
+    {
+      "wrong": "彼はもっと働いてしかるべきだ。（軽い助言）",
+      "right": "彼はもっと働くべきだ。",
+      "why": "しかるべきだ is for matters of propriety and fairness, not casual advice."
+    },
+    {
+      "wrong": "しかるべきの対応",
+      "right": "しかるべき対応",
+      "why": "As an adnominal, しかるべき attaches directly to the noun."
+    }
+  ],
+  "usageNotes": [
+    "Frequent partners: 評価される・尊重される・議論される・謝罪する・処罰される・報われる.",
+    "The adnominal しかるべき (an appropriate ...) is a separate but related use: しかるべき処置を取る.",
+    "The tone is judicial: the speaker is the one deciding what is fair."
+  ],
+  "jlptTips": [
+    "Passive verb + て + blank + だ in a formal opinion → しかるべき.",
+    "Distractors: べきだ (needs dictionary form, not て), 当たらない, ものだ. Check the te-form before the blank.",
+    "The past form しかるべきだった often appears in criticism questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-109-1",
+    "q-n1-g-109-2",
+    "q-n1-g-109-3",
+    "q-n1-g-109-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-109-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,123 @@
+{
+  "id": "n1-grammar-153",
+  "slug": "ni-kagitta-koto-dewa-nai",
+  "level": "n1",
+  "order": 153,
+  "title": "〜に限ったことではない",
+  "romaji": "ni kagitta koto dewa nai",
+  "meaning": "not limited to …; not just …; this is not something unique to …",
+  "simpleExplanation": "N + に限ったことではない says that a problem or phenomenon is not special to X; it happens elsewhere too. 残業が多いのはこの会社に限ったことではない = \"Heavy overtime is not unique to this company\". It usually generalizes a complaint or an observation.",
+  "whenUsed": "Both spoken and written, common in discussions of social issues and in reassuring someone (\"it's not just you\"). X is often a place, a time (今日・今に始まった), or a person. Often followed by 〜も同じだ / どこでも / 誰でも.",
+  "formation": [
+    "N + に限ったことではない",
+    "Clause + の + は + N + に限ったことではない  (遅刻するのは今日に限ったことではない)",
+    "Polite: に限ったことではありません",
+    "Continuation: 〜に限ったことではなく、〜も"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "残業が多いのは",
+        "role": "the phenomenon"
+      },
+      {
+        "text": "この会社",
+        "role": "X, the assumed special case"
+      },
+      {
+        "text": "に限ったことではない",
+        "role": "\"is not unique to\"",
+        "highlight": true
+      }
+    ],
+    "translation": "Heavy overtime is not unique to this company."
+  },
+  "examples": [
+    {
+      "ja": "残業が多いのは、この会社に限ったことではない。",
+      "reading": "ざんぎょうがおおいのは、このかいしゃにかぎったことではない。",
+      "en": "Heavy overtime is not unique to this company.",
+      "note": "The phenomenon (overtime) is generalized beyond this company."
+    },
+    {
+      "ja": "彼が遅刻するのは今日に限ったことではない。",
+      "reading": "かれがちこくするのはきょうにかぎったことではない。",
+      "en": "His being late is nothing new; it is not just today.",
+      "note": "今日に限ったことではない: \"not just today\", implying it is habitual."
+    },
+    {
+      "ja": "少子化は日本に限ったことではなく、多くの先進国が抱える問題だ。",
+      "reading": "しょうしかはにほんにかぎったことではなく、おおくのせんしんこくがかかえるもんだいだ。",
+      "en": "The falling birthrate is not confined to Japan; many developed countries face it.",
+      "note": "〜に限ったことではなく、〜 continues with the wider case."
+    },
+    {
+      "ja": "スマホの見すぎで目が悪くなるのは、子供に限ったことではない。",
+      "reading": "スマホのみすぎでめがわるくなるのは、こどもにかぎったことではない。",
+      "en": "Eyesight getting worse from too much smartphone use is not something limited to children.",
+      "note": "Generalizing a social issue."
+    },
+    {
+      "ja": "彼が約束を忘れるのは、今に始まったことでも、今回に限ったことでもない。",
+      "reading": "かれがやくそくをわすれるのは、いまにはじまったことでも、こんかいにかぎったことでもない。",
+      "en": "His forgetting promises is nothing new, and not just this once either.",
+      "note": "Paired with 今に始まったことではない."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n2-grammar-18",
+      "pattern": "〜に限らず",
+      "difference": "\"Not only X but also\" as a connector inside a sentence (子供に限らず大人も). に限ったことではない is a full predicate that denies X is special."
+    },
+    {
+      "id": "n2-grammar-17",
+      "pattern": "〜に限って",
+      "difference": "The opposite: \"only X, of all things\" (今日に限って雨だ). Do not confuse the two."
+    },
+    {
+      "id": "n2-grammar-137",
+      "pattern": "〜のみならず",
+      "difference": "Formal \"not only\". に限ったことではない is a denial that X is the only case, not a list connector."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この問題は日本に限ったことだ。",
+      "right": "この問題は日本に限ったことではない。/ この問題は日本特有だ。",
+      "why": "The pattern is used in the negative. For \"specific to Japan\" use 日本特有 or 日本だけ."
+    },
+    {
+      "wrong": "残業が多い会社に限ったことではない。",
+      "right": "残業が多いのは、この会社に限ったことではない。",
+      "why": "State the phenomenon with のは first, then the X that is not special."
+    },
+    {
+      "wrong": "子供に限らないことではない。",
+      "right": "子供に限ったことではない。",
+      "why": "The fixed form uses 限った (past attributive) + こと."
+    }
+  ],
+  "usageNotes": [
+    "Often followed by a wider statement: どこの会社でも同じだ / 大人にも言える.",
+    "今に始まったことではない (\"nothing new\") is its frequent partner.",
+    "In polite reassurance: それはあなたに限ったことではありませんよ (\"it's not just you\")."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a generalizing statement (〜のは + X + blank) followed by \"also elsewhere\" points to に限ったことではない.",
+    "Watch the trap に限って: it means the opposite (\"only on this occasion\").",
+    "In 並べ替え, に限った and ことではない may be split; the X noun precedes に限った."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-153-1",
+    "q-n1-g-153-2",
+    "q-n1-g-153-3",
+    "q-n1-g-153-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-153-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

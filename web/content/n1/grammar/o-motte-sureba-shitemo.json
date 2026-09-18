@@ -1,0 +1,130 @@
+{
+  "id": "n1-grammar-95",
+  "slug": "o-motte-sureba-shitemo",
+  "level": "n1",
+  "order": 95,
+  "title": "〜をもってすれば / 〜をもってしても",
+  "romaji": "o motte sureba / o motte shitemo",
+  "meaning": "with (ability) … one could …; even with … one could not",
+  "simpleExplanation": "Both patterns take a noun of ability, power or resources. 〜をもってすれば = \"if one uses X, then (a good result is possible)\": 彼の実力をもってすれば優勝も夢ではない. 〜をもってしても = \"even using X, (the result was still impossible)\": 最新の医療をもってしても治せなかった. The first is optimistic, the second is a concession ending in a negative.",
+  "whenUsed": "Formal written and spoken Japanese: commentary, reports, speeches. The noun is a high ability or the best available resource: 実力・才能・技術・財力・最新の医療・科学の力.",
+  "formation": [
+    "N(ability / resource) + をもってすれば + positive possibility",
+    "N(ability / resource) + をもってしても + negative / failure",
+    "Typical N: 実力・才能・技術力・財力・現代の科学"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "すれば vs しても",
+    "columns": [
+      "Meaning",
+      "Ending",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜をもってすれば",
+        "cells": [
+          "with X, it is possible",
+          "positive (できる・夢ではない)",
+          "彼の実力をもってすれば優勝できる"
+        ]
+      },
+      {
+        "label": "〜をもってしても",
+        "cells": [
+          "even with X, impossible",
+          "negative (できなかった・無理だ)",
+          "最新技術をもってしても解決できない"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼の実力をもってすれば、優勝も夢ではない。",
+      "reading": "かれのじつりょくをもってすれば、ゆうしょうもゆめではない。",
+      "en": "With his ability, winning the championship is not just a dream.",
+      "note": "すれば: with his ability, winning is realistic."
+    },
+    {
+      "ja": "最新の医療をもってしても、この病気は治せなかった。",
+      "reading": "さいしんのいりょうをもってしても、このびょうきはなおせなかった。",
+      "en": "Even with the latest medicine, this disease could not be cured.",
+      "note": "しても: even the latest medicine failed."
+    },
+    {
+      "ja": "彼女の語学力をもってすれば、通訳の仕事は難しくないだろう。",
+      "reading": "かのじょのごがくりょくをもってすれば、つうやくのしごとはむずかしくないだろう。",
+      "en": "With her language skills, interpreting work should not be hard.",
+      "note": "すれば with a conjecture: 難しくないだろう."
+    },
+    {
+      "ja": "彼女の語学力をもってすれば、その交渉はうまくいくに違いない。",
+      "reading": "かのじょのごがくりょくをもってすれば、そのこうしょうはうまくいくにちがいない。",
+      "en": "With her language skills, the negotiations are sure to go well.",
+      "note": "Positive prediction."
+    },
+    {
+      "ja": "現代の科学をもってしても、地震を正確に予知することはできない。",
+      "reading": "げんだいのかがくをもってしても、じしんをせいかくによちすることはできない。",
+      "en": "Even with modern science, earthquakes cannot be predicted accurately.",
+      "note": "Concession with a negative."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜をもって",
+      "difference": "The base: \"by means of\". The two patterns fix it into a condition and a concession.",
+      "id": "n1-grammar-94"
+    },
+    {
+      "pattern": "〜にしたところで / 〜としたところで",
+      "difference": "\"Even (from the standpoint of) X, no good\": a concession about a person or a case, not about using an ability.",
+      "id": "n1-grammar-113"
+    },
+    {
+      "pattern": "〜たところで",
+      "difference": "\"Even if one did X, it would be useless\": a concession about an action.",
+      "id": "n1-grammar-24"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "最新の医療をもってすれば、治せなかった。",
+      "right": "最新の医療をもってしても、治せなかった。",
+      "why": "A negative result requires しても."
+    },
+    {
+      "wrong": "彼の実力をもってしても、優勝できるだろう。",
+      "right": "彼の実力をもってすれば、優勝できるだろう。",
+      "why": "A positive outcome requires すれば."
+    },
+    {
+      "wrong": "彼の顔をもってすれば、成功する。",
+      "right": "彼の人脈をもってすれば、成功する。",
+      "why": "The noun must be an ability or resource; 顔 in the sense of \"face\" does not fit unless it means influence."
+    }
+  ],
+  "usageNotes": [
+    "The noun is always something powerful; the pattern praises that power (すれば) or admits that even it fell short (しても).",
+    "をもってしても is common in news about disasters and diseases beyond human control.",
+    "Both are fixed; the verb する cannot be replaced."
+  ],
+  "jlptTips": [
+    "Look at the ending: positive → すれば, negative → しても. This alone solves most questions.",
+    "Distractors: をもって, たところで, にしたところで. Only these two take an ability noun with する.",
+    "In 並べ替え, keep N + をもってしても as one chunk and put the negative at the end."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-95-1",
+    "q-n1-g-95-2",
+    "q-n1-g-95-3",
+    "q-n1-g-95-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-95-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

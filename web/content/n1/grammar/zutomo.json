@@ -1,0 +1,121 @@
+{
+  "id": "n1-grammar-126",
+  "slug": "zutomo",
+  "level": "n1",
+  "order": 126,
+  "title": "〜ずとも",
+  "romaji": "zutomo",
+  "meaning": "even without …ing; even if one does not …; there is no need to …",
+  "simpleExplanation": "〜ずとも is a classical, written way of saying 〜なくても (\"even if not\"). ず is the old negative, とも is the old \"even if\". The sentence says: X is not necessary, and the result still holds. Set phrases like 言わずとも (\"without needing to say\") make it sound elegant and a little proverbial.",
+  "whenUsed": "Written and formal spoken Japanese: essays, speeches, literature, and set expressions. In everyday conversation use 〜なくても. Common with 言う・見る・聞く・行く・急ぐ・知る (言わずとも知れたこと = \"it goes without saying\").",
+  "formation": [
+    "Vない-stem + ずとも  (行かずとも・言わずとも)",
+    "する → せずとも",
+    "来る → 来(こ)ずとも",
+    "Often followed by わかる・伝わる・済む・十分だ・構わない"
+  ],
+  "diagram": {
+    "kind": "transformation",
+    "steps": [
+      {
+        "ja": "言わなくても、気持ちは伝わる",
+        "en": "modern: even without saying it, the feeling comes across"
+      },
+      {
+        "ja": "言わずとも、気持ちは伝わる",
+        "en": "classical ず (not) + とも (even if): same meaning, formal and literary"
+      },
+      {
+        "ja": "言わずとも知れたことだ",
+        "en": "set phrase: it goes without saying"
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "言わずとも、気持ちは伝わっている。",
+      "reading": "いわずとも、きもちはつたわっている。",
+      "en": "Even without saying it, your feelings come across.",
+      "note": "言わずとも is the most common set phrase; the feeling is understood without words."
+    },
+    {
+      "ja": "わざわざ行かずとも、電話で済む用事だ。",
+      "reading": "わざわざいかずとも、でんわですむようじだ。",
+      "en": "It is a matter that can be handled by phone, without going in person.",
+      "note": "わざわざ (\"going out of one's way\") pairs well with ずとも: no need to go in person."
+    },
+    {
+      "ja": "急がずとも、まだ時間は十分にある。",
+      "reading": "いそがずとも、まだじかんはじゅうぶんにある。",
+      "en": "There is no need to hurry; there is still plenty of time.",
+      "note": "The main clause gives the reason the action is unnecessary (there is plenty of time)."
+    },
+    {
+      "ja": "説明を読まずとも、使い方は見ればわかる。",
+      "reading": "せつめいをよまずとも、つかいかたはみればわかる。",
+      "en": "Even without reading the instructions, you can tell how to use it just by looking.",
+      "note": "The main clause often contains わかる."
+    },
+    {
+      "ja": "彼が優秀なことは、今さら言わずとも知れたことだ。",
+      "reading": "かれがゆうしゅうなことは、いまさらいわずともしれたことだ。",
+      "en": "That he is talented goes without saying at this point.",
+      "note": "言わずとも知れた + こと is a fixed idiom."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "id": "n1-grammar-135",
+      "pattern": "〜ずして",
+      "difference": "Classical \"without doing X\" describing how something happened (戦わずして勝つ). ずとも is \"even if not\", a concession that X is unnecessary."
+    },
+    {
+      "id": "n1-grammar-83",
+      "pattern": "〜までもない",
+      "difference": "\"There is no need to\" as a judgment about the action itself. ずとも says the result holds even without the action."
+    },
+    {
+      "id": "n2-grammar-64",
+      "pattern": "たとえ〜ても",
+      "difference": "Modern \"even if\"; works with both positive and negative verbs. ずとも is only negative and only literary."
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "行かないずとも、電話で済む。",
+      "right": "行かずとも、電話で済む。",
+      "why": "ず replaces ない; do not stack them. Attach ず to the ない-stem: 行か + ず."
+    },
+    {
+      "wrong": "勉強しずとも、合格できる。",
+      "right": "勉強せずとも、合格できる。",
+      "why": "する becomes せず, not しず."
+    },
+    {
+      "wrong": "友達に「急がずとも大丈夫だよ」とメールした。",
+      "right": "友達に「急がなくても大丈夫だよ」とメールした。",
+      "why": "ずとも is literary. In a casual message to a friend it sounds stiff and unnatural; use なくても."
+    }
+  ],
+  "usageNotes": [
+    "The idiom 言わずとも知れたこと / 言わずもがな means \"needless to say\".",
+    "ずとも often follows adverbs that stress the lack of necessity: わざわざ・改めて・今さら.",
+    "Because it comes from classical Japanese, it appears in proverbs and in polished essay prose; use it sparingly in your own writing."
+  ],
+  "jlptTips": [
+    "In 文法形式の判断, a negative-stem verb followed by とも and a main clause meaning \"it is fine / it is understood\" is ずとも. Check that the stem is the ない-stem (行か・言わ・せ).",
+    "Distinguish ずとも (even if not) from ずして (without doing). If the main clause says the result still holds, choose ずとも.",
+    "In 並べ替え, ずとも is usually one chunk attached to its verb stem; find the verb in ない-stem form first."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-126-1",
+    "q-n1-g-126-2",
+    "q-n1-g-126-3",
+    "q-n1-g-126-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-126-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

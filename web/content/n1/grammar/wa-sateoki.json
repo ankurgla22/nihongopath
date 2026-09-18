@@ -1,0 +1,138 @@
+{
+  "id": "n1-grammar-116",
+  "slug": "wa-sateoki",
+  "level": "n1",
+  "order": 116,
+  "title": "〜はさておき / 〜はさておいて",
+  "romaji": "wa sateoki / wa sateoite",
+  "meaning": "setting aside …; leaving … aside for now",
+  "simpleExplanation": "〜はさておき puts one topic to one side so you can move to the main point: 冗談はさておき (joking aside), 値段はさておき (price aside). さておく = \"leave for later\". It does not deny X; it just postpones it.",
+  "whenUsed": "Conversational but polite, also used in writing. Common in meetings and presentations (それはさておき, 本題に入りましょう) and in evaluations that want to focus on one aspect (味はさておき、見た目は…).",
+  "formation": [
+    "N + はさておき、…",
+    "N + はさておいて、…",
+    "Set: それはさておき / 冗談はさておき / 何はさておき (first of all)"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Setting a topic aside",
+    "columns": [
+      "Nuance",
+      "Register",
+      "Example"
+    ],
+    "rows": [
+      {
+        "label": "〜はさておき",
+        "cells": [
+          "postpone X, move to the main point",
+          "polite, spoken and written",
+          "冗談はさておき、本題へ"
+        ]
+      },
+      {
+        "label": "〜はともかく(として)",
+        "cells": [
+          "X may or may not be so; Y matters more",
+          "neutral",
+          "値段はともかく、味はいい"
+        ]
+      },
+      {
+        "label": "〜もさることながら",
+        "cells": [
+          "X is admitted, Y even more",
+          "formal",
+          "味もさることながら雰囲気も"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "冗談はさておき、そろそろ本題に入りましょう。",
+      "reading": "じょうだんはさておき、そろそろほんだいにはいりましょう。",
+      "en": "Joking aside, let us get down to the main topic.",
+      "note": "Joking aside: moving to the main topic."
+    },
+    {
+      "ja": "値段はさておき、この製品は本当に使いやすい。",
+      "reading": "ねだんはさておき、このせいひんはほんとうにつかいやすい。",
+      "en": "Price aside, this product is really easy to use.",
+      "note": "Price aside: focus on ease of use."
+    },
+    {
+      "ja": "それはさておき、明日の予定はどうなっていますか。",
+      "reading": "それはさておき、あしたのよていはどうなっていますか。",
+      "en": "Setting that aside, what is the plan for tomorrow?",
+      "note": "それはさておき: a topic switch in conversation."
+    },
+    {
+      "ja": "何はさておき、まずは無事でよかった。",
+      "reading": "なにはさておき、まずはぶじでよかった。",
+      "en": "Before anything else, I am just glad you are safe.",
+      "note": "何はさておき = first of all."
+    },
+    {
+      "ja": "結果はさておいて、彼の努力は評価すべきだ。",
+      "reading": "けっかはさておいて、かれのどりょくはひょうかすべきだ。",
+      "en": "Leaving the result aside, his effort deserves recognition.",
+      "note": "はさておいて variant."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜はともかく(として)",
+      "difference": "\"X aside (it may be good or bad)\": similar, but implies a judgement is being suspended, not just postponed.",
+      "id": "n2-grammar-142"
+    },
+    {
+      "pattern": "〜もさることながら",
+      "difference": "\"X is one thing, but Y\": X is admitted as good; さておき does not evaluate X.",
+      "id": "n1-grammar-86"
+    },
+    {
+      "pattern": "〜はおろか",
+      "difference": "\"Let alone X\": a completely different, negative pattern; confused only by the は.",
+      "id": "n1-grammar-74"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "冗談をさておき",
+      "right": "冗談はさておき",
+      "why": "The particle is は."
+    },
+    {
+      "wrong": "値段はさておき、安い。",
+      "right": "値段はさておき、使いやすい。",
+      "why": "Once you set price aside, the next clause should be about something else."
+    },
+    {
+      "wrong": "それはさておき、（同じ話題を続ける）",
+      "right": "それはさておき、別の話ですが…",
+      "why": "さておき signals a change of topic; do not continue the same subject."
+    }
+  ],
+  "usageNotes": [
+    "それはさておき is a standard transition in meetings and speeches.",
+    "何はさておき means \"above all else, first\" and is used for urgent priorities.",
+    "The tone is light and cooperative; it does not dismiss X rudely."
+  ],
+  "jlptTips": [
+    "A topic + blank + a switch to the main point → はさておき.",
+    "Distractors: はともかく (also possible), はおろか, もさることながら. The exam usually makes the switch of topic explicit (本題に入る).",
+    "Set phrases 冗談はさておき and 何はさておき are frequent keys."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-116-1",
+    "q-n1-g-116-2",
+    "q-n1-g-116-3",
+    "q-n1-g-116-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-116-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

@@ -1,0 +1,125 @@
+{
+  "id": "n1-grammar-89",
+  "slug": "yue-ni-yue-da",
+  "level": "n1",
+  "order": 89,
+  "title": "〜ゆえ(に) / 〜ゆえだ",
+  "romaji": "yue (ni) / yue da",
+  "meaning": "because of …; therefore …",
+  "simpleExplanation": "〜ゆえ(に) is a formal, old-fashioned way to say \"because of X\": 道路が凍結しているゆえ (because the roads are frozen). After a noun it is N + ゆえ (愛情ゆえ). それゆえ(に) is a written conjunction meaning \"therefore\". 〜のは〜ゆえだ gives the reason as the predicate.",
+  "whenUsed": "Formal written Japanese: notices, legal and academic texts, essays. It sounds dignified and slightly literary; in everyday writing ため or から are used. The related 〜がゆえに puts extra emphasis on the reason.",
+  "formation": [
+    "普通形 + (が)ゆえ(に)",
+    "N + ゆえ(に) / N + (の)ゆえに",
+    "Sentence start: それゆえ(に)、…",
+    "Predicate: 〜のは、N + ゆえだ",
+    "Adnominal: N + ゆえの + N"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "彼が厳しいのは",
+        "role": "the thing explained (topic)"
+      },
+      {
+        "text": "生徒への愛情",
+        "role": "the reason",
+        "highlight": true
+      },
+      {
+        "text": "ゆえだ",
+        "role": "is because of",
+        "highlight": true
+      }
+    ],
+    "translation": "His strictness is due to his affection for his students."
+  },
+  "examples": [
+    {
+      "ja": "道路が凍結しているゆえ、運転には十分注意されたい。",
+      "reading": "どうろがとうけつしているゆえ、うんてんにはじゅうぶんちゅういされたい。",
+      "en": "Because the roads are frozen, drivers are asked to take great care.",
+      "note": "Formal notice style: 〜ゆえ、〜されたい."
+    },
+    {
+      "ja": "それゆえに、我々は計画の変更を決断した。",
+      "reading": "それゆえに、われわれはけいかくのへんこうをけつだんした。",
+      "en": "For that reason, we decided to change the plan.",
+      "note": "それゆえに as a written connector: for that reason."
+    },
+    {
+      "ja": "彼が厳しいのは、生徒への愛情ゆえだ。",
+      "reading": "かれがきびしいのは、せいとへのあいじょうゆえだ。",
+      "en": "His strictness is due to his affection for his students.",
+      "note": "Predicate form 〜ゆえだ: the reason is his affection."
+    },
+    {
+      "ja": "若さゆえの過ちは、誰にでもある。",
+      "reading": "わかさゆえのあやまちは、だれにでもある。",
+      "en": "Everyone makes mistakes that come from being young.",
+      "note": "Adnominal ゆえの + noun."
+    },
+    {
+      "ja": "この地域は交通が不便であるがゆえに、人口が減り続けている。",
+      "reading": "このちいきはこうつうがふべんであるがゆえに、じんこうがへりつづけている。",
+      "en": "Because transport in this area is inconvenient, the population keeps shrinking.",
+      "note": "がゆえに after である for emphasis."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜がゆえ(に) / 〜ゆえの",
+      "difference": "The same word with が; slightly stronger emphasis on the reason.",
+      "id": "n1-grammar-10"
+    },
+    {
+      "pattern": "〜ばこそ",
+      "difference": "\"Precisely because\": excludes other reasons and usually a positive one; ゆえに is a neutral formal cause.",
+      "id": "n1-grammar-75"
+    },
+    {
+      "pattern": "〜ことだから",
+      "difference": "\"Because it is X (as you know)\": a reason drawn from someone's character; conversational.",
+      "id": "n2-grammar-44"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "忙しいゆえに、行けない。（友達との会話で）",
+      "right": "忙しいから、行けない。",
+      "why": "ゆえに is too formal for casual conversation."
+    },
+    {
+      "wrong": "それゆえで、中止した。",
+      "right": "それゆえ、中止した。／それゆえに、中止した。",
+      "why": "The connector is それゆえ or それゆえに, never それゆえで."
+    },
+    {
+      "wrong": "愛情のゆえだ。",
+      "right": "愛情ゆえだ。／愛情のゆえだ。",
+      "why": "Both are acceptable in principle, but N + ゆえだ is the standard modern form."
+    }
+  ],
+  "usageNotes": [
+    "ゆえ can attach directly to nouns (愛情ゆえ) without a particle, which is unusual and worth remembering.",
+    "In formal announcements, 〜ゆえ often pairs with polite imperatives such as 〜されたい or ご了承ください.",
+    "The adnominal ゆえの (若さゆえの過ち) is a common literary phrase."
+  ],
+  "jlptTips": [
+    "A formal sentence with a cause and a result and a blank between them → ゆえ(に).",
+    "Distractors: ばこそ, ことだから, とはいえ. ゆえに is the neutral, dignified cause.",
+    "それゆえ(に) at the start of a sentence is a frequent key in 文の組み立て and reading questions."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-89-1",
+    "q-n1-g-89-2",
+    "q-n1-g-89-3",
+    "q-n1-g-89-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-89-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

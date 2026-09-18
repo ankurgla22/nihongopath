@@ -1,0 +1,127 @@
+{
+  "id": "n1-grammar-36",
+  "slug": "to-areba",
+  "level": "n1",
+  "order": 36,
+  "title": "〜とあれば",
+  "romaji": "toareba",
+  "meaning": "if it is (a special case such as) …; if it comes to …",
+  "simpleExplanation": "Xとあれば means \"if the situation is X (a special case), then I am willing to / it must be\". It sets up a hypothetical that carries weight for the speaker and leads to a decision: 子供のためとあれば、どんな苦労もいとわない.",
+  "whenUsed": "Formal or dramatic; both registers. Common with 〜のため, 〜の頼み, 必要, 緊急. The ending is a decision, willingness or judgment (いとわない, 断れない, 仕方がない).",
+  "formation": [
+    "Noun + とあれば",
+    "Plain form + とあれば",
+    "〜のため / 〜の頼み + とあれば + willingness"
+  ],
+  "diagram": {
+    "kind": "sentence-structure",
+    "parts": [
+      {
+        "text": "あなたの頼み",
+        "role": "special hypothetical case",
+        "highlight": true
+      },
+      {
+        "text": "とあれば",
+        "role": "\"if it is such a case\"",
+        "highlight": true
+      },
+      {
+        "text": "断るわけには",
+        "role": "decision"
+      },
+      {
+        "text": "いきません",
+        "role": "cannot"
+      }
+    ],
+    "translation": "If it is a request from you, I cannot refuse."
+  },
+  "examples": [
+    {
+      "ja": "子供のためとあれば、どんな苦労もいとわない。",
+      "reading": "こどものためとあれば、どんなくろうもいとわない。",
+      "en": "If it is for my children, I would endure any hardship.",
+      "note": "For the children → willingness to endure anything."
+    },
+    {
+      "ja": "あなたの頼みとあれば、断るわけにはいきません。",
+      "reading": "あなたのたのみとあれば、ことわるわけにはいきません。",
+      "en": "If it is a request from you, I cannot refuse.",
+      "note": "A request from you → cannot refuse."
+    },
+    {
+      "ja": "必要とあれば、海外まで出向くつもりだ。",
+      "reading": "ひつようとあれば、かいがいまででむくつもりだ。",
+      "en": "If necessary, I intend to go as far as overseas.",
+      "note": "必要とあれば: if necessary, willing to go abroad."
+    },
+    {
+      "ja": "会社の存続がかかっているとあれば、社長自ら交渉に出るしかない。",
+      "reading": "かいしゃのそんぞくがかかっているとあれば、しゃちょうみずからこうしょうにでるしかない。",
+      "en": "If the company's survival is at stake, the president himself has no choice but to negotiate.",
+      "note": "Clause + とあれば + しかない."
+    },
+    {
+      "ja": "大切な人の命がかかっているとあれば、金に糸目はつけない。",
+      "reading": "たいせつなひとのいのちがかかっているとあれば、かねにいとめはつけない。",
+      "en": "If a loved one's life is at stake, money is no object.",
+      "note": "Dramatic willingness."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜とあって",
+      "difference": "States an actual situation and its observable result; not conditional.",
+      "id": "n1-grammar-35"
+    },
+    {
+      "pattern": "〜としたら / 〜とすれば",
+      "difference": "Plain hypothetical; とあれば adds \"a special case that matters\".",
+      "id": "n2-grammar-90"
+    },
+    {
+      "pattern": "〜ともなると / ともなれば",
+      "difference": "\"Once it comes to (a high level)\", stating what naturally follows; not a decision.",
+      "id": "n1-grammar-47"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "連休とあれば、道路が混雑した。",
+      "right": "連休とあって、道路が混雑した。",
+      "why": "A reported actual fact takes とあって; とあれば is hypothetical."
+    },
+    {
+      "wrong": "必要とあれば、行きたくない。",
+      "right": "必要とあれば、どこへでも行く。",
+      "why": "The ending should show willingness or an unavoidable decision, not reluctance."
+    },
+    {
+      "wrong": "君の頼むとあれば",
+      "right": "君の頼みとあれば",
+      "why": "Use the noun form (頼み) before とあれば."
+    }
+  ],
+  "usageNotes": [
+    "Frequent nouns: 〜のため, 〜の頼み, 必要, 緊急, 一大事.",
+    "The consequence is often a strong resolve: いとわない, 惜しまない, 仕方がない, 断れない.",
+    "Sounds a little dramatic; used in stories and heartfelt speech."
+  ],
+  "jlptTips": [
+    "A hypothetical case + a decision ending → とあれば; an observed fact + result → とあって.",
+    "The exam often pairs them; scan the ending for いとわない / 断れない (とあれば) versus 混雑した / 賑わった (とあって).",
+    "とあっては (\"if it is the case that… then it's a problem\") is a related distractor with a negative evaluation ending."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-36-1",
+    "q-n1-g-36-2",
+    "q-n1-g-36-3",
+    "q-n1-g-36-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-36-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}

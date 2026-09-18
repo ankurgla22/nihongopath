@@ -13,7 +13,8 @@ import { describeStatus } from "@/lib/engine/srs";
 import { skillLabel } from "@/lib/engine/dailyPlan";
 import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { curriculumDayFor } from "@/lib/engine/progress";
-import { fetchQuestionsByIds } from "@/lib/questions/client";
+import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
+import { isDrillable } from "@/lib/drill/generate";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, EmptyState, PageTitle, Stat } from "@/components/ui";
@@ -24,7 +25,8 @@ import { addDaysISO, isQueuedError, reviewQuestions, type ContentLinks } from "@
 /** `questionIndex` is the slim bank (id/level/skill/difficulty/tags); full records are fetched on demand. */
 type Props = { questionIndex: QuestionIndexEntry[]; contentLinks: ContentLinks };
 
-type Session = { ids: string[]; status: "loading" | "ready" | "error"; questions: Question[] };
+/** `ids` are bank question ids; `drillIds` are due vocabulary/kanji content ids drilled on the fly with `seed`. */
+type Session = { ids: string[]; drillIds: string[]; seed: string; status: "loading" | "ready" | "error"; questions: Question[] };
 
 const SESSION_MAX = 20;
 const SESSION_MIN = 5;
@@ -95,27 +97,35 @@ export function ReviewClient({ questionIndex, contentLinks }: Props) {
     };
   }, [upcoming, today]);
 
-  const loadSession = async (ids: string[]) => {
+  const loadSession = async (base: Pick<Session, "ids" | "drillIds" | "seed">) => {
     const token = ++sessionToken.current;
-    setSession({ ids, status: "loading", questions: [] });
+    setSession({ ...base, status: "loading", questions: [] });
     try {
-      const full = await fetchQuestionsByIds(ids);
+      const [drill, bank] = await Promise.all([
+        base.drillIds.length ? fetchDrill(base.drillIds, { seed: base.seed, perItem: 1 }) : Promise.resolve([] as Question[]),
+        base.ids.length ? fetchQuestionsByIds(base.ids) : Promise.resolve([] as Question[]),
+      ]);
       if (token !== sessionToken.current) return;
-      setSession({ ids, status: "ready", questions: full });
+      setSession({ ...base, status: "ready", questions: [...drill, ...bank] });
     } catch {
       if (token !== sessionToken.current) return;
-      setSession({ ids, status: "error", questions: [] });
+      setSession({ ...base, status: "error", questions: [] });
     }
   };
 
+  // Due vocabulary/kanji are drilled directly (one generated question each, so every word is coverable);
+  // grammar/reading/listening items draw from the question bank as before. Both run in one session.
   const startSession = () => {
     if (!user) return;
     const count = Math.min(SESSION_MAX, Math.max(SESSION_MIN, due.length));
     const seed = `${user.uid}-${today}-review-${Date.now()}`;
-    const picked = reviewQuestions(questionIndex, due, count, seed);
+    const drillIds = due.filter((i) => isDrillable(i.contentId)).slice(0, count).map((i) => i.contentId);
+    const others = due.filter((i) => !isDrillable(i.contentId));
+    const bankCount = count - drillIds.length;
+    const picked = bankCount > 0 ? reviewQuestions(questionIndex, others, bankCount, seed) : [];
     setSessionItems(due);
     setNotice(null);
-    void loadSession(picked.map((q) => q.id));
+    void loadSession({ ids: picked.map((q) => q.id), drillIds, seed });
   };
 
   const closeSession = () => {
@@ -171,7 +181,7 @@ export function ReviewClient({ questionIndex, contentLinks }: Props) {
         <div className="space-y-3 animate-rise">
           <Callout tone="warn">Could not load the review questions. Check your connection and try again.</Callout>
           <div className="flex flex-wrap gap-2">
-            <Button onClick={() => void loadSession(session.ids)}>Retry</Button>
+            <Button onClick={() => void loadSession(session)}>Retry</Button>
             <Button variant="secondary" onClick={closeSession}>
               Back to queue
             </Button>

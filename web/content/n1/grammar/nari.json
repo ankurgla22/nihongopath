@@ -1,0 +1,145 @@
+{
+  "id": "n1-grammar-55",
+  "slug": "nari",
+  "level": "n1",
+  "order": 55,
+  "title": "〜なり",
+  "romaji": "nari",
+  "meaning": "as soon as …; the moment …",
+  "simpleExplanation": "Vるなり describes a third person doing something unexpected the moment after another action: 家に帰るなり、部屋に閉じこもった. It follows the dictionary form only, the subject is the same in both clauses, and the second clause reports a past, often surprising action.",
+  "whenUsed": "書き言葉 and narrative speech. Not used for the speaker's own actions or for future plans.",
+  "formation": [
+    "Vる + なり + past action (same subject, third person)",
+    "Not: Vたなり (that is a different pattern meaning \"remained in that state\")"
+  ],
+  "diagram": {
+    "kind": "comparison",
+    "title": "Immediate sequence",
+    "columns": [
+      "subject",
+      "second clause",
+      "example"
+    ],
+    "rows": [
+      {
+        "label": "〜なり",
+        "cells": [
+          "third person, same in both clauses",
+          "unexpected past action",
+          "帰るなり寝てしまった"
+        ]
+      },
+      {
+        "label": "〜や否や",
+        "cells": [
+          "any",
+          "instant follow-up, any subject",
+          "着くや否や雨が降り出した"
+        ]
+      },
+      {
+        "label": "〜が早いか",
+        "cells": [
+          "usually same",
+          "fast deliberate action",
+          "鳴るが早いか飛び出した"
+        ]
+      },
+      {
+        "label": "〜そばから",
+        "cells": [
+          "any",
+          "undone repeatedly",
+          "片付けるそばから散らかす"
+        ]
+      }
+    ]
+  },
+  "examples": [
+    {
+      "ja": "彼は家に帰るなり、自分の部屋に閉じこもってしまった。",
+      "reading": "かれはいえにかえるなり、じぶんのへやにとじこもってしまった。",
+      "en": "As soon as he got home, he shut himself in his room.",
+      "note": "Same subject, unexpected reaction (shut himself in)."
+    },
+    {
+      "ja": "その知らせを聞くなり、母は泣き崩れた。",
+      "reading": "そのしらせをきくなり、はははなきくずれた。",
+      "en": "The moment she heard the news, my mother broke down in tears.",
+      "note": "Mother's sudden reaction on hearing the news."
+    },
+    {
+      "ja": "社長は部屋に入るなり、怒鳴り始めた。",
+      "reading": "しゃちょうはへやにはいるなり、どなりはじめた。",
+      "en": "The president started shouting the moment he entered the room.",
+      "note": "The president's immediate shouting."
+    },
+    {
+      "ja": "彼女は私の顔を見るなり、泣き出した。",
+      "reading": "かのじょはわたしのかおをみるなり、なきだした。",
+      "en": "The moment she saw my face, she burst into tears.",
+      "note": "Sudden emotional reaction."
+    },
+    {
+      "ja": "息子はケーキを受け取るなり、一口で食べてしまった。",
+      "reading": "むすこはケーキをうけとるなり、ひとくちでたべてしまった。",
+      "en": "As soon as my son received the cake, he ate it in one bite.",
+      "note": "A surprising action by a third person."
+    }
+  ],
+  "similarGrammar": [
+    {
+      "pattern": "〜や否や",
+      "difference": "Any subject and any following event; なり requires the same third-person subject.",
+      "id": "n1-grammar-88"
+    },
+    {
+      "pattern": "〜が早いか",
+      "difference": "Emphasises speed; the second action is deliberate.",
+      "id": "n1-grammar-105"
+    },
+    {
+      "pattern": "〜なり〜なり",
+      "difference": "Different pattern: \"either … or …\" listing options.",
+      "id": "n1-grammar-56"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "帰ったなり、部屋に閉じこもった。",
+      "right": "帰るなり、部屋に閉じこもった。",
+      "why": "なり (as soon as) follows the dictionary form; Vたなり means \"and remained so\"."
+    },
+    {
+      "wrong": "私は家に帰るなり、寝てしまった。",
+      "right": "彼は家に帰るなり、寝てしまった。",
+      "why": "The subject is a third person whose action the speaker observes."
+    },
+    {
+      "wrong": "駅に着くなり、電話が鳴った。",
+      "right": "駅に着くや否や、電話が鳴った。",
+      "why": "A different subject in the second clause takes や否や."
+    }
+  ],
+  "usageNotes": [
+    "The second clause is often surprising or abrupt: 泣き出す, 怒鳴る, 閉じこもる, 飛び出す.",
+    "Vたなり(で) = \"having done V and staying that way\": 座ったなり動かない.",
+    "Not used with commands, requests or the future."
+  ],
+  "jlptTips": [
+    "Dictionary form + blank + a past surprising action by the same third person → なり.",
+    "If the second subject differs, choose や否や; if the action repeats, そばから.",
+    "Vたなり is a trap: check the verb form before the blank."
+  ],
+  "practiceQuestionIds": [
+    "q-n1-g-55-1",
+    "q-n1-g-55-2",
+    "q-n1-g-55-3",
+    "q-n1-g-55-4"
+  ],
+  "jlptQuestionIds": [
+    "q-n1-g-55-5"
+  ],
+  "reviewAfterDays": 3,
+  "enriched": true
+}
