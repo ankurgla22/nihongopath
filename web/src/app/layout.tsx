@@ -6,6 +6,8 @@ import { SiteFooter } from "@/components/layout/SiteFooter";
 import { AuthProvider } from "@/components/auth/AuthProvider";
 import { ThemeScript } from "@/components/layout/ThemeToggle";
 import { SITE_NAME, SITE_URL } from "@/lib/seo/site";
+import { organizationJsonLd } from "@/lib/seo/metadata";
+import { JsonLd } from "@/components/content/JsonLd";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 const notoJp = Noto_Sans_JP({ subsets: ["latin"], weight: ["400", "500", "700"], variable: "--font-jp", display: "swap", preload: false });
@@ -37,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:z-50 focus:top-3 focus:left-3 focus:bg-surface focus:px-3 focus:py-2 focus:rounded-lg focus:shadow-md">
           Skip to content
         </a>
+        <JsonLd data={organizationJsonLd()} />
         <AuthProvider>
           <SiteHeader />
           <main id="main" className="flex-1">

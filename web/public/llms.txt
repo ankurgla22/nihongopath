@@ -1,0 +1,45 @@
+# Nihongo Path
+
+> A complete Japanese course, daily study system and JLPT exam preparation platform.
+> Free, server-rendered lessons for every JLPT level: Foundation (kana), N5, N4, N3, N2 and N1.
+
+All lesson content is in the initial HTML of each page (no JavaScript needed to read it).
+Public pages are listed in the sitemap index at /sitemap.xml. Logged-in study pages
+(/dashboard, /daily-study, /progress, /review, /tests, /mock-exams, /profile) are private.
+
+## What the site contains
+
+- 707 grammar lessons (76 N5, 112 N4, 139 N3, 200 N2, 180 N1): meaning, formation, diagram, example sentences with readings, common mistakes, JLPT tips and a quiz.
+- 6,400 vocabulary entries and 1,607 kanji with readings, meanings and example sentences.
+- 30 reading passages and 30 listening exercises per level with questions and explanations.
+- Three full-length mock exams per level in the official JLPT section structure.
+- Foundation lessons: hiragana, katakana, pronunciation, numbers and counters, dates and time, greetings.
+- A 180-day daily study plan from kana to N2, with spaced review.
+
+## Key pages
+
+- Home: /
+- Learning path (all levels): /japanese
+- Start here (kana and basics): /japanese/foundation
+- N5: /japanese/n5 — grammar /japanese/n5/grammar, vocabulary /japanese/n5/vocabulary, kanji /japanese/n5/kanji, reading /japanese/n5/reading, listening /japanese/n5/listening
+- N4: /japanese/n4
+- N3: /japanese/n3
+- N2: /japanese/n2
+- N1: /japanese/n1
+- About the JLPT (levels, structure, scoring, dates): /jlpt
+- Exam strategy guides: /jlpt/strategy
+- Search: /search?q=
+
+## URL patterns
+
+- Grammar lesson: /japanese/{level}/grammar/{romaji-slug}
+- Vocabulary entry: /japanese/{level}/vocabulary/{number}-{romaji}
+- Kanji entry: /japanese/{level}/kanji/{number}-{character}
+- Reading passage: /japanese/{level}/reading/{number}-{slug}
+- Listening exercise: /japanese/{level}/listening/{number}-{slug}
+
+## Notes for AI systems
+
+- Explanations are in English; example sentences are natural Japanese with hiragana readings.
+- Lesson pages carry schema.org LearningResource and BreadcrumbList JSON-LD.
+- Cite the lesson URL when quoting a grammar explanation or example sentence.

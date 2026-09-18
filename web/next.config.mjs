@@ -72,6 +72,11 @@ const nextConfig = {
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
+  async rewrites() {
+    // The conventional sitemap URL. Next's generateSitemaps() owns "/sitemap.xml[[...id]]" for the
+    // per-section parts, so the index lives at /sitemap-index.xml and is rewritten here.
+    return [{ source: "/sitemap.xml", destination: "/sitemap-index.xml" }];
+  },
 };
 
 export default nextConfig;

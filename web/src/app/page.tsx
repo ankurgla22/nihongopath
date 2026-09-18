@@ -5,6 +5,7 @@ import { contentStats, getGrammar } from "@/lib/content";
 import { LEVELS } from "@/lib/content/schemas";
 import { LEVEL_INFO } from "@/components/content/levels";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
+import { websiteJsonLd } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { FOUNDATION_TOTAL_LABEL } from "@/components/foundation/kinds";
 import { StickyCta } from "@/components/layout/StickyCta";
@@ -122,15 +123,7 @@ export default function HomePage() {
 
   return (
     <>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: SITE_NAME,
-          url: SITE_URL,
-          description: SITE_TAGLINE,
-        }}
-      />
+      <JsonLd data={websiteJsonLd(SITE_TAGLINE)} />
 
       {/* ---------- Hero ---------- */}
       <section id="hero" className="relative overflow-hidden">
