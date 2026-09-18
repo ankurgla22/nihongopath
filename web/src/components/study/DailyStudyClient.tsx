@@ -52,28 +52,31 @@ type Notice = { tone: "ok" | "warn" | "accent"; text: string } | null;
 type RunState = "loading" | "ready" | "error";
 
 const TASK_HINT: Record<TaskType, string> = {
-  kana: "Learn the kana chart row by row: say each sound aloud, trace it, then take the recognition quiz.",
-  grammar: "Read each lesson: meaning, formation, examples and common mistakes. Then take the lesson's mini test.",
+  kana: "Open the lesson and work through it row by row: say each sound aloud and trace it. The daily quiz at the end of the day checks what stuck.",
+  grammar: "Read each lesson: meaning, formation, examples and common mistakes. Then do the lesson's quick check.",
   vocabulary: "Read each word with its example sentence. Say it aloud once; note any you already know.",
   kanji: "For each kanji: readings, example words, and write it a few times.",
   reading: "Read the passage once without stopping, then answer the questions and check the strategy notes.",
   listening: "Listen first without the script, answer, then read the script and shadow it once.",
   review: "Items due today from your review queue — answering correctly pushes them further out.",
-  quiz: "A short check of today's material with instant explanations.",
+  quiz: "A short quiz on today's material with an explanation after every answer.",
   "weekly-test": "Covers this week's material. No feedback until the end — like the real exam.",
-  "phase-test": "A larger assessment of the whole phase across all five skills.",
+  "phase-test": "A larger exam-style test of everything covered so far at your level, across all five skills.",
   "mock-exam": "A full timed JLPT-style mock exam with scaled scoring.",
 };
 
-function fromPlanned(planned: DailyProgressDoc["plannedTasks"], fresh: ClientTask[]): ClientTask[] {
+function fromPlanned(planned: DailyProgressDoc["plannedTasks"], fresh: ClientTask[], contentLinks: ContentLinks): ClientTask[] {
   const byId = new Map(fresh.map((t) => [t.id, t]));
   return planned.map((p) => {
     const f = byId.get(p.id);
     const type = (f?.type ?? p.type) as TaskType;
+    // Kana tasks are named after their lesson ("Hiragana: the basic 46", "Pronunciation basics") so two
+    // kana tasks on the same day are distinguishable; other types keep the skill title.
+    const lessonTitle = type === "kana" ? contentLinks[p.contentIds[0] ?? ""]?.title : undefined;
     return {
       id: p.id,
       type,
-      title: f?.title ?? taskTitle(type),
+      title: lessonTitle ?? f?.title ?? taskTitle(type),
       minutes: p.minutes,
       contentIds: p.contentIds,
       questionCount: f?.questionCount,
@@ -130,6 +133,32 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
   const runToken = useRef(0);
   const [jumpDay, setJumpDay] = useState(String(day.day));
   const [advancing, setAdvancing] = useState(false);
+  /**
+   * Tasks whose lesson link was opened this session; "Mark done" unlocks only after the lesson was visited.
+   * Mirrored in sessionStorage because opening a lesson navigates away and the component remounts on return.
+   */
+  const [visitedTaskIds, setVisitedTaskIds] = useState<Set<string>>(() => new Set());
+  const visitedKey = `nihongo-path:visited:${user?.uid ?? "anon"}:${today}:${day.day}`;
+  useEffect(() => {
+    try {
+      const raw = sessionStorage.getItem(visitedKey);
+      if (raw) setVisitedTaskIds(new Set(JSON.parse(raw) as string[]));
+    } catch {
+      /* storage unavailable */
+    }
+  }, [visitedKey]);
+  const markVisited = (taskId: string) =>
+    setVisitedTaskIds((s) => {
+      if (s.has(taskId)) return s;
+      const next = new Set(s);
+      next.add(taskId);
+      try {
+        sessionStorage.setItem(visitedKey, JSON.stringify([...next]));
+      } catch {
+        /* storage unavailable */
+      }
+      return next;
+    });
 
   // If the server rendered a different day than the learner's current day (no ?day override), go there.
   useEffect(() => {
@@ -175,7 +204,7 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
           }
         }
         setDailyState(doc);
-        const list = fromPlanned(doc.plannedTasks.filter((t) => t.id.startsWith(`d${day.day}-`)), fresh);
+        const list = fromPlanned(doc.plannedTasks.filter((t) => t.id.startsWith(`d${day.day}-`)), fresh, contentLinks);
         setTasks(list);
         setOpenId((cur) => cur ?? list.find((t) => !doc!.completedTaskIds.includes(t.id))?.id ?? null);
       } catch (err) {
@@ -184,7 +213,7 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
         setLoading(false);
       }
     },
-    [user, day, today]
+    [user, day, today, contentLinks]
   );
 
   // Load once per signed-in user; later userDoc refreshes (streak, minutes) must not rebuild the list.
@@ -419,19 +448,26 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
 
       <div className="grid gap-5 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
         <div className="space-y-5 min-w-0">
-          <Card padding="p-4 sm:p-5">
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h2 className="font-semibold">Today&apos;s goal</h2>
-              <span className="text-xs text-muted">{day.objectives.length} objective{day.objectives.length === 1 ? "" : "s"}</span>
-            </div>
-            <ul className="mt-2 space-y-1.5 text-sm text-ink-2">
-              {day.objectives.map((o, i) => (
-                <li key={i} className="flex gap-2.5">
-                  <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                  <span>{o}</span>
-                </li>
-              ))}
-            </ul>
+          <Card padding="p-0">
+            <details className="group">
+              <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-2 p-4 sm:p-5 [&::-webkit-details-marker]:hidden">
+                <h2 className="font-semibold">Today&apos;s goal</h2>
+                <span className="inline-flex items-center gap-2 text-xs text-muted">
+                  {day.objectives.length} objective{day.objectives.length === 1 ? "" : "s"}
+                  <svg viewBox="0 0 24 24" className="h-4 w-4 transition group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </span>
+              </summary>
+              <ul className="space-y-1.5 px-4 pb-4 sm:px-5 sm:pb-5 text-sm text-ink-2">
+                {day.objectives.map((o, i) => (
+                  <li key={i} className="flex gap-2.5">
+                    <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                    <span>{o}</span>
+                  </li>
+                ))}
+              </ul>
+            </details>
           </Card>
 
           {loading ? (
@@ -448,6 +484,11 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                 const open = openId === task.id;
                 const running = runningId === task.id;
                 const status = done ? "done" : running ? "running" : open ? "open" : "todo";
+                const linkedIds = task.contentIds.filter((id) => contentLinks[id]);
+                // Few links (one or two lessons) render as primary buttons; long word/kanji lists keep the compact grid.
+                const fewLinks = linkedIds.length > 0 && linkedIds.length <= 2;
+                const canMarkDone = linkedIds.length === 0 || visitedTaskIds.has(task.id);
+                const lessonsPending = task.type === "quiz" && tasks.some((t) => isSkillTask(t.type) && !completedIds.has(t.id));
                 return (
                   <li key={task.id} id={`task-${task.id}`} className="relative">
                     <Card padding="p-0" className={`overflow-hidden transition ${done ? "border-ok/40" : open ? "border-accent/50 shadow-md" : ""}`}>
@@ -495,13 +536,25 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                           {isSkillTask(task.type) && (
                             <>
                               {task.contentIds.length > 0 ? (
-                                <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+                                <ul className={`mt-3 grid gap-2 ${fewLinks ? "" : "sm:grid-cols-2"}`}>
                                   {task.contentIds.map((id) => {
                                     const link = contentLinks[id];
                                     return (
                                       <li key={id} className="flex items-center gap-2">
-                                        {link ? (
-                                          <Link href={link.href} className="group surface surface-hover flex flex-1 min-w-0 items-center gap-3 rounded-xl px-3 py-2.5 text-sm">
+                                        {link && fewLinks ? (
+                                          <Link
+                                            href={link.href}
+                                            onClick={() => markVisited(task.id)}
+                                            className="group accent-gradient flex flex-1 min-w-0 items-center gap-3 rounded-full px-5 h-11 text-sm font-medium text-white shadow-sm transition hover:shadow-md hover:brightness-105 focus:outline-none focus-visible:shadow-ring"
+                                          >
+                                            <span className="shrink-0">Open lesson:</span>
+                                            <span lang="ja" className="ja min-w-0 flex-1 truncate">
+                                              {link.title}
+                                            </span>
+                                            <Arrow />
+                                          </Link>
+                                        ) : link ? (
+                                          <Link href={link.href} onClick={() => markVisited(task.id)} className="group surface surface-hover flex flex-1 min-w-0 items-center gap-3 rounded-xl px-3 py-2.5 text-sm">
                                             <span lang="ja" className="ja font-medium min-w-0 flex-1 truncate">
                                               {link.title}
                                             </span>
@@ -572,10 +625,11 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                                     </Button>
                                   )}
                                   {!done && (
-                                    <Button onClick={() => void markDone(task)} disabled={busyId === task.id}>
+                                    <Button variant="secondary" onClick={() => void markDone(task)} disabled={busyId === task.id || !canMarkDone} className={canMarkDone ? "" : "border-dashed"}>
                                       {busyId === task.id ? "Saving…" : `Mark done (${task.minutes} min)`}
                                     </Button>
                                   )}
+                                  {!done && !canMarkDone && <span className="self-center text-xs text-muted">Open the lesson first, then mark it done.</span>}
                                 </div>
                               )}
                             </>
@@ -631,10 +685,13 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                                   }
                                 />
                               ) : (
-                                <Button onClick={() => void startQuiz(task)}>
-                                  {done ? "Take again" : `Start ${task.title.toLowerCase()} (${task.questionCount ?? defaultQuestionCount(task.type)} questions)`}
-                                  <Arrow />
-                                </Button>
+                                <>
+                                  {!done && lessonsPending && <p className="mb-3 text-sm text-warn">Finish today&apos;s lessons first for a fair score.</p>}
+                                  <Button onClick={() => void startQuiz(task)}>
+                                    {done ? "Take again" : `Start ${task.title.toLowerCase()} (${task.questionCount ?? defaultQuestionCount(task.type)} questions)`}
+                                    <Arrow />
+                                  </Button>
+                                </>
                               )}
                             </div>
                           )}
@@ -742,6 +799,7 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                 onChange={(e) => setJumpDay(e.target.value)}
                 className="w-24 h-10 rounded-full border border-line bg-surface px-4 text-sm tabular-nums focus:border-accent focus:outline-none focus:shadow-ring"
               />
+              <span className="self-center text-sm text-muted tabular-nums">of {CURRICULUM_DAYS}</span>
               <Button type="submit" variant="secondary">
                 Go
               </Button>
@@ -753,7 +811,7 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
             <ul className="mt-2 divide-y divide-line">
               {[
                 { href: "/review", type: "review", label: `Review queue`, hint: `${due.length} due` },
-                { href: "/tests", type: "test", label: "Take a test", hint: "quiz, weekly, phase" },
+                { href: "/tests", type: "test", label: "Take a test", hint: "daily quiz, weekly & level tests" },
                 { href: "/progress", type: "other", label: "Progress", hint: "skills & memory" },
               ].map((s) => (
                 <li key={s.href}>

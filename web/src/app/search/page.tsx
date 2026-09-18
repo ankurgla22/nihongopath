@@ -154,14 +154,17 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
                 title={`Nothing matched “${q}”`}
                 action={
                   <div className="flex flex-wrap justify-center gap-2">
-                    <Button href="/japanese/n2/grammar" variant="secondary" size="sm">
-                      N2 grammar
+                    <Button href="/japanese/foundation" variant="secondary" size="sm">
+                      Foundation
                     </Button>
-                    <Button href="/japanese/n2/vocabulary" variant="secondary" size="sm">
-                      N2 vocabulary
+                    <Button href="/japanese/n5/grammar" variant="secondary" size="sm">
+                      N5 grammar
                     </Button>
-                    <Button href="/japanese/n2/kanji" variant="secondary" size="sm">
-                      N2 kanji
+                    <Button href="/japanese/n5/vocabulary" variant="secondary" size="sm">
+                      N5 vocabulary
+                    </Button>
+                    <Button href="/japanese/n5/kanji" variant="secondary" size="sm">
+                      N5 kanji
                     </Button>
                     <Button href="/jlpt/strategy" variant="secondary" size="sm">
                       Strategy guides

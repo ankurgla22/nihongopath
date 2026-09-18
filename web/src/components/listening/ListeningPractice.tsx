@@ -11,7 +11,7 @@ type Step = (typeof STEPS)[number];
 
 const STEP_HINT: Record<Step, string> = {
   Listen: "Listen once, as in the exam. Do not read anything yet; note the setting, who is speaking and what is decided.",
-  Answer: "Answer from memory. You can play the audio again if you must, but the real test plays each item only once.",
+  Answer: "Answer from memory. You can replay the audio if you must, but the real test plays each item only once.",
   Check: "Read why the correct option is right and why the others were tempting. Then move on to the transcript.",
   Transcript: "Read the script carefully. Mark anything you did not catch while listening; those are the words to shadow.",
   "Listen again": "Listen while following the transcript below. Try 1.25× once you can follow at 1×.",
@@ -41,11 +41,13 @@ export function ListeningPractice({
 }) {
   const [stepIdx, setStepIdx] = useState(0);
   const [maxReached, setMaxReached] = useState(0);
+  const [replayOpen, setReplayOpen] = useState(false);
   const step: Step = STEPS[stepIdx];
 
   function go(i: number) {
     const clamped = Math.max(0, Math.min(STEPS.length - 1, i));
     setStepIdx(clamped);
+    setReplayOpen(false);
     setMaxReached((m) => Math.max(m, clamped));
   }
   const next = () => go(stepIdx + 1);
@@ -129,6 +131,21 @@ export function ListeningPractice({
 
         {showQuestions && (
           <>
+            {step === "Answer" && (
+              <div className="space-y-3">
+                {replayOpen ? (
+                  <AudioPlayer audioSrc={audioSrc} lines={lines} showLines={false} label="Replay" />
+                ) : (
+                  <Button variant="secondary" size="sm" onClick={() => setReplayOpen(true)} ariaLabel="Replay the audio">
+                    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                      <path d="M3 12a9 9 0 1 0 3-6.7" />
+                      <path d="M3 4v5h5" />
+                    </svg>
+                    <span className="ml-1.5">Replay audio</span>
+                  </Button>
+                )}
+              </div>
+            )}
             <QuestionSet questions={questions} submitLabel="Check answers" onSubmit={() => go(STEPS.indexOf("Check"))} />
             {step === "Check" && (
               <Button onClick={next}>

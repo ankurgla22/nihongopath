@@ -25,6 +25,7 @@ import { JA_RE, formatDuration, isQueuedError, type ContentLinks } from "@/compo
 import { Arrow, Badge, Button, Callout, Kbd, SpeakButton, Stat } from "@/components/ui";
 
 import { Ring } from "@/components/progress/shared";
+import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
 
 export type QuizRunnerProps = {
   questions: Question[];
@@ -76,6 +77,12 @@ function clearSaved(key: string | undefined) {
 
 function typeLabel(t: Question["type"]): string {
   return t === "ordering" ? "Sentence order" : t === "cloze" ? "Fill the blank" : "Multiple choice";
+}
+
+/** Seconds per question to one decimal ("0.3 s", "12.0 s"); minutes when it is a long one. */
+function perQuestionLabel(seconds: number): string {
+  if (seconds >= 60) return formatDuration(seconds);
+  return `${seconds.toFixed(1)} s`;
 }
 
 function linkVerb(type?: string): string {
@@ -329,6 +336,24 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
     const totalSeconds = answers.reduce((n, a) => n + a.seconds, 0);
     const accuracy = Math.round(score.accuracy * 100);
     const tone = accuracy === 100 ? "ok" : accuracy >= 70 ? "accent" : "warn";
+    // Group wrong answers by the first lesson they link to, so each lesson gets one "Review" link
+    // followed by compact rows instead of one card per question repeating the same link.
+    type WrongItem = { a: (typeof wrong)[number]; wq: Question; n: number };
+    const groups: { key: string; link?: { href: string; title: string; type?: string }; items: WrongItem[] }[] = [];
+    wrong.forEach((a, i) => {
+      const wq = byId.get(a.questionId);
+      if (!wq) return;
+      const link = questionContentIds(wq)
+        .map((id) => contentLinks[id] ?? fetchedLinks[id])
+        .find((l) => l);
+      const key = link ? link.href : "__other";
+      let g = groups.find((x) => x.key === key);
+      if (!g) {
+        g = { key, link, items: [] };
+        groups.push(g);
+      }
+      g.items.push({ a, wq, n: i + 1 });
+    });
     return (
       <div className="surface rounded-2xl p-5 sm:p-7 animate-rise" role="status" aria-live="polite">
         <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-center">
@@ -351,10 +376,10 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
           </div>
         </div>
 
-        <div className="mt-5 grid grid-cols-3 gap-2 sm:gap-3">
+        <div className={`mt-5 grid gap-2 sm:gap-3 ${totalSeconds >= 1 ? "grid-cols-3" : "grid-cols-2"}`}>
           <Stat label="Accuracy" value={`${accuracy}%`} tone={accuracy >= 70 ? "ok" : "neutral"} />
           <Stat label="Time" value={formatDuration(totalSeconds)} />
-          <Stat label="Per question" value={formatDuration(totalSeconds / Math.max(1, total))} />
+          {totalSeconds >= 1 && <Stat label="Per question" value={perQuestionLabel(totalSeconds / Math.max(1, total))} />}
         </div>
 
         {saveState && (
@@ -379,58 +404,47 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
               </h3>
               <Badge tone="warn">{wrong.length}</Badge>
             </div>
-            <ol className="mt-3 space-y-3">
-              {wrong.map((a, i) => {
-                const wq = byId.get(a.questionId);
-                if (!wq) return null;
-                const links = questionContentIds(wq)
-                  .map((id) => ({ id, link: contentLinks[id] ?? fetchedLinks[id] }))
-                  .filter((x) => x.link);
-                return (
-                  <li key={a.questionId} className="rounded-xl border border-line bg-bg-elev p-4">
-                    <p className="text-xs text-muted">
-                      {i + 1}. {typeLabel(wq.type)} · {wq.skill}
-                    </p>
-                    <p lang="ja" className="ja mt-1.5 text-lg whitespace-pre-line">
-                      {wq.prompt}
-                    </p>
-                    <div className="mt-2 grid gap-1.5 sm:grid-cols-2 text-sm">
-                      <div className="flex items-start gap-2 rounded-lg bg-warn-soft px-3 py-2">
-                        <CrossIcon className="mt-0.5 shrink-0 text-warn" />
-                        <span>
-                          <span className="block text-[11px] uppercase tracking-wider text-warn">Your answer</span>
-                          <span lang="ja" className="ja">
-                            {a.selectedIndex === null ? "(skipped)" : wq.options[a.selectedIndex]}
+            <div className="mt-3 space-y-4">
+              {groups.map((g) => (
+                <div key={g.key} className="rounded-xl border border-line bg-bg-elev p-3 sm:p-4">
+                  {g.link ? (
+                    <Link href={g.link.href} className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent-ink hover:brightness-95 transition">
+                      {linkVerb(g.link.type)}: <span lang="ja">{g.link.title}</span>
+                      <Arrow className="h-3 w-3" />
+                    </Link>
+                  ) : (
+                    <p className="text-xs font-medium text-muted">Mixed items</p>
+                  )}
+                  <ol className="mt-2 divide-y divide-line">
+                    {g.items.map(({ a, wq, n }) => (
+                      <li key={a.questionId} className="py-2.5 first:pt-1 last:pb-0">
+                        <p className="text-[11px] text-muted">
+                          {n}. {typeLabel(wq.type)}
+                        </p>
+                        <p lang="ja" className="ja mt-0.5 text-base whitespace-pre-line">
+                          {wq.prompt}
+                        </p>
+                        <p className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+                          <span className="inline-flex items-center gap-1.5 text-warn">
+                            <CrossIcon className="h-3.5 w-3.5 shrink-0" />
+                            <span lang="ja" className="ja">
+                              {a.selectedIndex === null ? "(skipped)" : wq.options[a.selectedIndex]}
+                            </span>
                           </span>
-                        </span>
-                      </div>
-                      <div className="flex items-start gap-2 rounded-lg bg-ok-soft px-3 py-2">
-                        <CheckIcon className="mt-0.5 shrink-0 text-ok" />
-                        <span>
-                          <span className="block text-[11px] uppercase tracking-wider text-ok">Correct</span>
-                          <span lang="ja" className="ja font-medium">
-                            {wq.options[wq.answerIndex]}
+                          <span className="inline-flex items-center gap-1.5 text-ok">
+                            <CheckIcon className="h-3.5 w-3.5 shrink-0" />
+                            <span lang="ja" className="ja font-medium">
+                              {wq.options[wq.answerIndex]}
+                            </span>
                           </span>
-                        </span>
-                      </div>
-                    </div>
-                    <p className="mt-2.5 text-sm leading-relaxed text-ink-2">{wq.explanation}</p>
-                    {links.length > 0 && (
-                      <ul className="mt-3 flex flex-wrap gap-2">
-                        {links.map(({ id, link }) => (
-                          <li key={id}>
-                            <Link href={link.href} className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent-ink hover:brightness-95 transition">
-                              {linkVerb(link.type)}: <span lang="ja">{link.title}</span>
-                              <Arrow className="h-3 w-3" />
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                );
-              })}
-            </ol>
+                        </p>
+                        <p className="mt-1 text-sm leading-relaxed text-ink-2">{wq.explanation}</p>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              ))}
+            </div>
           </section>
         )}
 
@@ -441,6 +455,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
 
   // ---------- Question screen ----------
   const perOption = q.distractorExplanations.length === q.options.length;
+  const wrongNotes = wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length);
   const isCorrect = revealed && selected === q.answerIndex;
   const canAdvance = mode === "practice" ? revealed : selected !== null;
   const dense = total > 20;
@@ -544,7 +559,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
                     <span lang="ja" className={`ja text-base sm:text-lg ${q.type === "ordering" ? "rounded-md bg-surface-2 px-2 py-0.5" : ""}`}>
                       {opt}
                     </span>
-                    {revealed && perOption && idx !== q.answerIndex && q.distractorExplanations[idx] && <span className="block mt-1 text-sm text-muted">{q.distractorExplanations[idx]}</span>}
+                    {revealed && perOption && idx !== q.answerIndex && q.distractorExplanations[idx] && <span className="block mt-1 text-sm text-muted">{cleanNote(q.distractorExplanations[idx])}</span>}
                   </span>
                   <span className="mt-0.5 shrink-0 w-4">
                     {state === "correct" && <CheckIcon className="text-ok" />}
@@ -564,10 +579,10 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
           <div className="mt-4 animate-rise">
             <Callout tone={isCorrect ? "ok" : "warn"} icon={isCorrect ? <CheckIcon className="text-ok" /> : <CrossIcon className="text-warn" />} title={isCorrect ? "Correct" : "Not quite"}>
               <p>{q.explanation}</p>
-              {!perOption && q.distractorExplanations.length > 0 && (
+              {!perOption && wrongNotes.length > 0 && (
                 <ul className="mt-2 space-y-1 text-muted list-disc pl-5">
-                  {q.distractorExplanations.map((d, k) => (
-                    <li key={k}>{d}</li>
+                  {wrongNotes.map((d) => (
+                    <li key={d.index}>{d.text}</li>
                   ))}
                 </ul>
               )}
@@ -586,9 +601,17 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
             </Button>
           )}
           {onExit && (
-            <button type="button" onClick={onExit} className="ml-auto text-sm text-muted hover:text-ink transition">
-              Exit quiz
-            </button>
+            <div className="ml-auto">
+              <Button
+                variant="secondary"
+                onClick={() => {
+                  // Answers so far are already in localStorage (writeSaved on each commit), so leaving is safe.
+                  if (answers.length === 0 || window.confirm("Leave the quiz? Your answers so far are kept for next time.")) onExit();
+                }}
+              >
+                Exit quiz
+              </Button>
+            </div>
           )}
         </div>
       </div>

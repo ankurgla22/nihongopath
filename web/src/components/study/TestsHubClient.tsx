@@ -126,7 +126,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
       type: "quiz",
       title: "Daily quiz",
       desc: "10 questions with instant explanations. Good for a quick check of today's material.",
-      meta: ["10 questions", "practice"],
+      meta: ["10 questions", "instant feedback"],
       cta: "Start daily quiz",
       onStart: () => start("daily", "daily", "Daily quiz", "practice", 10),
     },
@@ -135,18 +135,18 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
       type: "weekly-test",
       title: "Weekly test",
       desc: "25 questions, exam-style: no feedback until the end. Mixed skills at your level.",
-      meta: ["25 questions", "test mode"],
+      meta: ["25 questions", "exam style"],
       cta: "Start weekly test",
       onStart: () => start("weekly", "weekly", "Weekly test", "test", 25),
     },
     {
       key: "phase",
       type: "phase-test",
-      title: `Phase ${phaseId} test`,
-      desc: `40 questions across grammar, vocabulary, kanji, reading and listening for ${phase?.name ?? `Phase ${phaseId}`} (${levels.filter((l) => l !== "foundation").map((l) => l.toUpperCase()).join(", ")}).`,
-      meta: ["40 questions", "test mode"],
-      cta: "Start phase test",
-      onStart: () => start("phase", "phase", `Phase ${phaseId} test`, "test", 40),
+      title: `Level test (${level.toUpperCase()})`,
+      desc: `40 questions across grammar, vocabulary, kanji, reading and listening — everything covered so far at ${level.toUpperCase()}.`,
+      meta: ["40 questions", "exam style"],
+      cta: "Start level test",
+      onStart: () => start("phase", "phase", `Level test (${level.toUpperCase()})`, "test", 40),
     },
   ];
 
@@ -155,7 +155,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
       <PageTitle
         eyebrow="Practice & tests"
         title="Take a test"
-        description={`Questions are drawn from ${level.toUpperCase()} and below (your current level, Day ${currentDay}). Every result updates your progress and review queue.`}
+        description={`Questions are drawn from your level (${level.toUpperCase()}). Every result updates your progress and review queue.`}
         actions={
           <Button href="/tests/history" variant="secondary" size="sm">
             Test history
@@ -218,7 +218,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
 
           <Card className="mt-4 animate-rise-2">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h2 className="text-h2">Practice by skill</h2>
+              <h2 className="text-h2">Practice quiz by skill</h2>
               <span className="text-xs text-muted">10 questions · explanations after each answer</span>
             </div>
             <div className="mt-4 grid gap-2 sm:grid-cols-2 lg:grid-cols-5">

@@ -17,6 +17,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
 import { Arrow, Badge, Button, Card, Callout, Kbd, Pill, ProgressBar, Stat } from "@/components/ui";
 import { LoadingState, Ring } from "@/components/progress/shared";
 import { accuracyOf, formatDate, formatDuration, PassBadge, PromptText, readSessionResult, SCALED_MAX, typeLabel, type StoredExamResult } from "./shared";
+import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
 
 type Resolved = { id: string; href: string; title: string; type: string };
 
@@ -324,8 +325,8 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
                             {isChosen && !isAnswer && <Badge tone="warn">Your answer ✗</Badge>}
                           </span>
                         </div>
-                        {perOption && q.distractorExplanations[oi] && !/^\(correct answer\)$/i.test(q.distractorExplanations[oi]) && (
-                          <p className="mt-1 pl-9 text-xs text-muted">{q.distractorExplanations[oi]}</p>
+                        {perOption && !isAnswer && q.distractorExplanations[oi] && cleanNote(q.distractorExplanations[oi]) && (
+                          <p className="mt-1 pl-9 text-xs text-muted">{cleanNote(q.distractorExplanations[oi])}</p>
                         )}
                       </li>
                     );
@@ -334,10 +335,10 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
                 <div className="mt-3">
                   <Callout tone={a.correct ? "ok" : "accent"} title="Explanation">
                     <span className="block">{q.explanation}</span>
-                    {!perOption && q.distractorExplanations.length > 0 && (
+                    {!perOption && wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length).length > 0 && (
                       <ul className="mt-2 list-disc pl-5 text-xs text-muted space-y-0.5">
-                        {q.distractorExplanations.map((d, di) => (
-                          <li key={di}>{d}</li>
+                        {wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length).map((d) => (
+                          <li key={d.index}>{d.text}</li>
                         ))}
                       </ul>
                     )}

@@ -58,6 +58,9 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
   const [week, setWeek] = useState<DailyProgressDoc[]>([]);
   const [recent, setRecent] = useState<QuizResultDoc[]>([]);
   const [loadError, setLoadError] = useState<string | null>(null);
+  /** True once daily history has been fetched; false while unknown so the first-visit hero never flashes for returning users. */
+  const [historyLoaded, setHistoryLoaded] = useState(false);
+  const [hasHistory, setHasHistory] = useState(false);
   // Greeting and date depend on the visitor's clock and locale: fill them in after hydration.
   const [clock, setClock] = useState<{ greeting: string; dateLabel: string } | null>(null);
   useEffect(() => {
@@ -85,6 +88,9 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
       setTodayDoc(t);
       setWeek(list.filter((x) => x.date >= weekStart && x.date <= today));
       setRecent(results);
+      // A plan doc created by merely opening Daily study is not history; only logged minutes or finished tasks count.
+      setHasHistory(list.some((x) => x.minutes > 0 || x.completedTaskIds.length > 0) || results.length > 0);
+      setHistoryLoaded(true);
     })();
     return () => {
       alive = false;
@@ -127,10 +133,13 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
   const weeklyTestTaskId = todayDoc?.plannedTasks.find((t) => t.type === "weekly-test")?.id;
   const name = userDoc?.displayName || sessionName || user?.displayName || "learner";
   const streak = userDoc?.streak ?? 0;
+  // First visit: nothing studied yet. Show a single "Start Day 1" hero and hide the empty history widgets.
+  const firstVisit = !loading && historyLoaded && !hasHistory && currentDay === 1 && (userDoc?.totalStudyMinutes ?? 0) === 0 && (userDoc?.totalLessonsCompleted ?? 0) === 0;
+  const day1 = days.find((d) => d.day === 1);
 
   const quickActions = [
     { href: "/review", type: "review", title: "Review mistakes", hint: due === null ? "Loading queue…" : due.length === 0 ? "Nothing due" : `${due.length} due today`, tone: due && due.length > 0 ? ("warn" as const) : ("neutral" as const) },
-    { href: "/tests", type: "test", title: "Take a test", hint: "Daily quiz, weekly & phase tests", tone: "neutral" as const },
+    { href: "/tests", type: "test", title: "Take a test", hint: "Daily quiz, weekly & level tests", tone: "neutral" as const },
     { href: "/mock-exams", type: "mock-exam", title: "Mock exams", hint: "Full-length JLPT-style, scaled scores", tone: "neutral" as const },
     { href: "/progress", type: "other", title: "View progress", hint: "Skills, memory status, weekly chart", tone: "neutral" as const },
   ];
@@ -144,12 +153,16 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
           <h1 className="text-h1">
             {clock?.greeting ?? "Welcome back"}, {name}
           </h1>
-          <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 h-9 text-sm font-semibold tabular-nums ${streak > 0 ? "bg-warn-soft text-warn border-transparent" : "bg-surface-2 text-muted border-line"}`} aria-label={`Streak ${streak} days`}>
-            <Flame />
-            {loading ? <Sk className="h-3 w-6" /> : <>{streak} day{streak === 1 ? "" : "s"}</>}
-          </span>
+          {streak >= 1 && (
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-transparent bg-warn-soft px-3 h-9 text-sm font-semibold tabular-nums text-warn" aria-label={`Streak ${streak} days`}>
+              <Flame />
+              {streak} day{streak === 1 ? "" : "s"}
+            </span>
+          )}
         </div>
-        <p className="mt-2 text-muted">Pick up where you left off. Your plan adapts to what you get right and wrong.</p>
+        <p className="mt-2 text-muted">
+          {firstVisit ? "Welcome. Your first session is ready — everything else on this page fills in as you study." : "Pick up where you left off. Your plan adapts to what you get right and wrong."}
+        </p>
       </header>
 
       {error && (
@@ -171,6 +184,30 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
       )}
 
       {/* Hero */}
+      {firstVisit ? (
+        <Card className="animate-rise relative overflow-hidden" padding="p-5 sm:p-7">
+          <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-accent-soft opacity-70 blur-3xl" />
+          <div className="relative">
+            <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent">Your first session</p>
+            <h2 className="mt-1.5 text-h2">
+              Start Day 1{day1 ? <> — {day1.title.replace(/^Day 1 — /, "")}</> : null}
+              {day1 && day1.plannedMinutes > 0 && <span className="text-muted font-normal"> (about {day1.plannedMinutes} min)</span>}
+            </h2>
+            <p className="mt-2 max-w-prose text-sm text-muted">
+              Day 1 of {CURRICULUM_DAYS}. Open the lesson, work through it at your own pace, then take the short daily quiz at the end. You can jump to a later day any time if you already know some Japanese.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              <Button href="/daily-study" size="lg">
+                Start Day 1
+                <Arrow />
+              </Button>
+              <Button variant="secondary" size="lg" href="/japanese">
+                See the whole path
+              </Button>
+            </div>
+          </div>
+        </Card>
+      ) : (
       <Card className="animate-rise relative overflow-hidden" padding="p-5 sm:p-7">
         <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-accent-soft opacity-70 blur-3xl" />
         <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center">
@@ -214,7 +251,7 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
             )}
             <div className="mt-4 flex flex-wrap gap-2">
               <Button href="/daily-study" size="lg">
-                {todayDoc?.completed ? "Open today's plan" : "Continue today's study"}
+                {todayDoc?.completed ? "Open today's plan" : `Continue Day ${loading ? "…" : currentDay}`}
                 <Arrow />
               </Button>
               {weeklyTestToday && (
@@ -226,6 +263,7 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
           </div>
         </div>
       </Card>
+      )}
 
       {/* Stat row */}
       <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise-2">
@@ -251,6 +289,9 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
         </div>
       </section>
 
+      {firstVisit ? (
+        <p className="mt-6 text-sm text-muted">After your first session you&apos;ll see your weekly review here.</p>
+      ) : (
       <div className="mt-6 grid gap-4 lg:grid-cols-[3fr_2fr]">
         {/* Weekly review */}
         <Card>
@@ -302,7 +343,7 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
               ))}
             </div>
           ) : (
-            <p className="mt-1.5 text-sm text-muted">None flagged yet — keep taking the daily mini tests.</p>
+            <p className="mt-1.5 text-sm text-muted">None flagged yet — keep taking the daily quizzes.</p>
           )}
 
           {recs.length > 0 && (
@@ -364,6 +405,7 @@ export function DashboardClient({ sessionName, days, phases }: Props) {
           </div>
         </Card>
       </div>
+      )}
     </div>
   );
 }

@@ -9,3 +9,6 @@ node_modules/
 web/tests/e2e-artifacts/
 web/tsconfig.tsbuildinfo
 .firebase/
+web/tests/ux-shots/*.png
+web/tests/ux-shots/*.txt
+web/tests/ux-shots/walk-log.json

@@ -321,7 +321,7 @@ function TtsAudio({
 
         <div className="min-w-0 flex-1">
           <p className="text-[11px] uppercase tracking-[0.14em] text-muted">
-            {label} <span className="normal-case tracking-normal">· browser speech</span>
+            {label}
           </p>
           <p className="text-sm font-medium text-ink mt-0.5 truncate" role="status" aria-live="polite">
             {status === "waiting" && <span aria-hidden className="inline-block h-2 w-2 rounded-full bg-warn animate-pulse mr-2 align-middle" />}

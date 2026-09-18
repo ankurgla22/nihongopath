@@ -41,7 +41,7 @@
   --surface-2: #22222b;
   --ink: #f2f1ee;
   --ink-2: #cfcdc8;
-  --muted: #9a98a2;
+  --muted: #a8a6b0; /* 7.2:1 on --surface, 6.6:1 on --surface-2, for 11px labels */
   --line: #2a2a33;
   --line-strong: #383845;
   --accent: #e64c40;
@@ -500,4 +500,44 @@ rt {
       grid-template-columns: repeat(12, minmax(0, 1fr));
     }
   }
+}
+
+/* ---------- Mobile ergonomics ----------
+   Hide the "#n" index number on vocabulary cards on narrow screens, and give the small
+   speaker buttons a 40px hit area on touch devices without changing their visual size. */
+@media (max-width: 639px) {
+  .vcard small {
+    display: none;
+  }
+}
+@media (pointer: coarse) {
+  .touch-target::before {
+    content: "";
+    position: absolute;
+    inset: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+  }
+  .vspeak::before {
+    content: "";
+    position: absolute;
+    inset: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ---------- Furigana ----------
+   Reading passages render 漢字（かな） as <ruby>; the FuriganaSetting component adds
+   `furigana-off` to <html> when the learner turns "Show furigana" off in their profile. */
+ruby rt {
+  font-size: 0.5em;
+  line-height: 1;
+  color: var(--muted);
+  user-select: none;
+}
+.furigana-off rt {
+  display: none;
 }

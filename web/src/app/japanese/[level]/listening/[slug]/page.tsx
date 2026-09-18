@@ -152,7 +152,6 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
             <Badge tone="accent" size="md">{L}</Badge>
             <Badge size="md">{e.script.length} lines</Badge>
             <Badge size="md">{questions.length} {questions.length === 1 ? "question" : "questions"}</Badge>
-            {!e.audioSrc && <Badge tone="info" size="md">Browser speech</Badge>}
           </div>
           <div className="mt-5 surface rounded-2xl px-4 py-3.5 sm:px-5">
             <p className="text-sm">

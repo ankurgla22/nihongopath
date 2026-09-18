@@ -53,10 +53,10 @@ const TITLES: Record<TaskType, string> = {
   reading: "Reading",
   listening: "Listening",
   review: "Review",
-  quiz: "Mini Test",
-  "weekly-test": "Weekly Test",
-  "phase-test": "Phase Test",
-  "mock-exam": "Mock Exam",
+  quiz: "Daily quiz",
+  "weekly-test": "Weekly test",
+  "phase-test": "Level test",
+  "mock-exam": "Mock exam",
 };
 
 export function taskTitle(type: TaskType): string {
@@ -262,7 +262,7 @@ export function recommendations(
   if (out.length === 0) {
     out.push(
       Object.keys(acc).length === 0
-        ? "Complete today's mini test to unlock adaptive recommendations."
+        ? "Complete today's daily quiz to unlock adaptive recommendations."
         : "All skills are on track — follow today's plan in order."
     );
   }

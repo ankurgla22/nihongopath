@@ -89,7 +89,7 @@ export function ReadingPractice({ questions, timeLimitSeconds }: { questions: Qu
   const stateLabel = !started ? "Ready" : overTime ? "Time is up" : running ? "Running" : finished ? "Finished" : "Paused";
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-28 xl:pb-0">
       {/* Sticky timer chip: bottom bar on small screens, floating top-right on wide screens. */}
       <div
         role="group"

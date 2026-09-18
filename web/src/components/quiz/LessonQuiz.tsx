@@ -8,6 +8,7 @@ import { useState } from "react";
 import type { Question } from "@/lib/content/schemas";
 import { SpeakButton } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
+import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
 
 function ScoreRing({ pct }: { pct: number }) {
   const r = 34;
@@ -92,6 +93,7 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   const answered = selected !== null;
   const isCorrect = answered && selected === q.answerIndex;
   const perOption = q.distractorExplanations.length === q.options.length;
+  const wrongNotes = wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length);
 
   return (
     <div className="surface rounded-2xl overflow-hidden">
@@ -163,7 +165,7 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
                       {opt}
                     </span>
                     {answered && perOption && idx !== q.answerIndex && q.distractorExplanations[idx] && (
-                      <span className="block mt-1 text-sm text-muted leading-relaxed">{q.distractorExplanations[idx]}</span>
+                      <span className="block mt-1 text-sm text-muted leading-relaxed">{cleanNote(q.distractorExplanations[idx])}</span>
                     )}
                   </span>
                 </button>
@@ -183,10 +185,10 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
               {isCorrect ? "Correct" : "Not quite"}
             </p>
             <p className="mt-2 text-sm sm:text-[15px] leading-relaxed text-ink-2">{q.explanation}</p>
-            {!perOption && q.distractorExplanations.length > 0 && (
+            {!perOption && wrongNotes.length > 0 && (
               <ul className="mt-2 space-y-1 text-sm text-muted list-disc pl-5">
-                {q.distractorExplanations.map((d, k) => (
-                  <li key={k}>{d}</li>
+                {wrongNotes.map((d) => (
+                  <li key={d.index}>{d.text}</li>
                 ))}
               </ul>
             )}

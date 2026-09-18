@@ -7,8 +7,9 @@ export const metadata: Metadata = { title: "Page not found", robots: { index: fa
 const LINKS = [
   { href: "/", label: "Home" },
   { href: "/japanese", label: "All levels" },
-  { href: "/japanese/n2", label: "N2 course" },
-  { href: "/japanese/n2/grammar", label: "N2 grammar" },
+  { href: "/japanese/foundation", label: "Foundation (start here)" },
+  { href: "/japanese/n5", label: "N5 course" },
+  { href: "/japanese/n5/grammar", label: "N5 grammar" },
   { href: "/jlpt", label: "About the JLPT" },
   { href: "/jlpt/strategy", label: "Exam strategy" },
 ];

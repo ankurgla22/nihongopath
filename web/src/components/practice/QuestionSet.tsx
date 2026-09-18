@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Question } from "@/lib/content/schemas";
 import { Button, Callout, SpeakButton } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
+import { wrongOptionNotes } from "@/lib/questions/notes";
 
 const TYPE_LABEL: Record<Question["type"], string> = {
   mc: "Choose the best answer",
@@ -66,6 +67,8 @@ export function QuestionSet({
         const chosen = answers[q.id];
         const isCorrect = checked && chosen === q.answerIndex;
         const locked = checked || disabled;
+        const perOption = q.distractorExplanations.length === q.options.length;
+        const wrongNotes = wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length);
         return (
           <fieldset key={q.id} className="surface rounded-2xl p-5 sm:p-6">
             <legend className="sr-only">Question {qi + 1}</legend>
@@ -145,7 +148,7 @@ export function QuestionSet({
             {checked && (
               <div className="mt-5 space-y-3" aria-live="polite">
                 <p className={`font-semibold ${isCorrect ? "text-ok" : "text-accent"}`}>
-                  {isCorrect ? "Correct." : `Not quite. The answer is ${q.answerIndex + 1}.`}
+                  {isCorrect ? "Correct." : "Not quite."}
                 </p>
                 <div className="rounded-xl border border-ok/25 bg-ok-soft px-4 py-3.5">
                   <p className="flex items-center gap-2 font-medium text-ok mb-1">
@@ -153,16 +156,19 @@ export function QuestionSet({
                   </p>
                   <p className="text-sm leading-relaxed text-ink-2">{q.explanation}</p>
                 </div>
-                {q.distractorExplanations.length > 0 && (
+                {wrongNotes.length > 0 && (
                   <div className="rounded-xl border border-line bg-surface-2 px-4 py-3.5">
                     <p className="font-medium mb-1.5">Why the other options are wrong</p>
                     <ul className="space-y-1.5">
-                      {q.distractorExplanations.map((d, di) => (
-                        <li key={di} className="flex gap-2 text-sm leading-relaxed text-ink-2">
+                      {wrongNotes.map((d) => (
+                        <li key={d.index} className="flex gap-2 text-sm leading-relaxed text-ink-2">
                           <span className="shrink-0 text-accent mt-0.5">
                             <IconCross />
                           </span>
-                          <span>{d}</span>
+                          <span>
+                            {perOption && <span className="font-medium text-ink tabular-nums">{d.index + 1}. </span>}
+                            {d.text}
+                          </span>
                         </li>
                       ))}
                     </ul>

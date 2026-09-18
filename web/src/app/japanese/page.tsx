@@ -8,9 +8,9 @@ import { JsonLd } from "@/components/content/JsonLd";
 import { FOUNDATION_TOTAL_LABEL } from "@/components/foundation/kinds";
 
 export const metadata = pageMetadata({
-  title: "Learn Japanese: N5, N4, N3 and N2 courses",
+  title: "Learn Japanese: Foundation, N5, N4, N3, N2 and N1 courses",
   description:
-    "The full learning path from beginner to JLPT N2: grammar, vocabulary, kanji, reading and listening for every level, with practice questions and tests.",
+    "The full learning path from your first kana to JLPT N1: grammar, vocabulary, kanji, reading and listening for every level, with practice questions and tests.",
   path: "/japanese",
 });
 
@@ -85,8 +85,8 @@ export default function JapaneseIndexPage() {
   const stats = contentStats();
   return (
     <Container wide>
-      <JsonLd data={breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Learn Japanese", path: "/japanese" }])} />
-      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Learn Japanese" }]} />
+      <JsonLd data={breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Japanese", path: "/japanese" }])} />
+      <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Japanese" }]} />
 
       {/* Hero */}
       <header className="pt-10 pb-10 sm:pt-14 sm:pb-12 animate-rise">
@@ -97,16 +97,16 @@ export default function JapaneseIndexPage() {
           <span className="text-xs font-medium uppercase tracking-[0.14em] text-muted">Learning path</span>
         </div>
         <h1 className="mt-4 text-display max-w-3xl">
-          From zero to <span className="text-gradient">N2</span>, in order.
+          From zero to <span className="text-gradient">N1</span>, in order.
         </h1>
         <p className="mt-5 text-lg text-ink-2 leading-relaxed max-w-2xl">
-          Four levels, each with grammar, vocabulary, kanji, reading and listening. Work through them in order, or jump to the level you are preparing for.
+          Five levels plus Foundation, each with grammar, vocabulary, kanji, reading and listening. Work through them in order, or jump to the level you are preparing for.
         </p>
       </header>
 
       {/* Progression rail */}
-      <nav aria-label="Levels" className="surface rounded-2xl p-2 sm:p-3 overflow-x-auto no-scrollbar">
-        <ol className="flex min-w-max items-stretch gap-1">
+      <nav aria-label="Levels" className="surface rounded-2xl p-2 sm:p-3">
+        <ol className="flex flex-wrap items-stretch gap-x-1 gap-y-1">
           <li className="flex items-center">
             <Link href="/japanese/foundation" className="flex items-center gap-3 rounded-xl px-3 py-2 sm:px-4 hover:bg-surface-2 transition">
               <span lang="ja" className="ja grid h-9 w-9 place-items-center rounded-full bg-accent-soft border border-accent/20 text-sm font-semibold text-accent-ink">
@@ -127,7 +127,7 @@ export default function JapaneseIndexPage() {
                   <span className="grid h-9 w-9 place-items-center rounded-full bg-surface-2 border border-line text-sm font-semibold">{info.label}</span>
                   <span className="text-sm">
                     <span className="block font-medium">{info.name}</span>
-                    <span className="block text-xs text-muted">Step {i + 1} of 4</span>
+                    <span className="block text-xs text-muted">Step {i + 1} of {LEVELS.length}</span>
                   </span>
                 </Link>
                 {i < LEVELS.length - 1 && <Arrow className="mx-1 text-line-strong shrink-0" />}
@@ -152,7 +152,7 @@ export default function JapaneseIndexPage() {
                   </Link>
                 </h2>
               </div>
-              <Badge tone="accent">Before N5</Badge>
+              <Badge tone="accent">Start</Badge>
             </div>
             <p className="mt-3 text-ink-2 leading-relaxed">
               Hiragana and katakana with sound, pronunciation, numbers, dates and greetings. Do this first if you cannot yet read kana.
@@ -184,7 +184,7 @@ export default function JapaneseIndexPage() {
                     </Link>
                   </h2>
                 </div>
-                <Badge>Step {i + 1} of 4</Badge>
+                <Badge>Step {i + 1} of {LEVELS.length}</Badge>
               </div>
               <p className="mt-3 text-muted leading-relaxed flex-1">{info.description}</p>
               <dl className="mt-5 grid grid-cols-3 sm:grid-cols-5 gap-3 border-t border-line pt-4">

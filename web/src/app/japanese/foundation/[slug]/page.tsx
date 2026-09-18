@@ -9,6 +9,7 @@ import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { FoundationBlocks } from "@/components/foundation/FoundationBlocks";
 import { FOUNDATION_KIND } from "@/components/foundation/kinds";
+import { PartBar } from "@/components/foundation/PartBar";
 
 type Params = { slug: string };
 const BASE = "/japanese/foundation";
@@ -42,7 +43,7 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
 
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Learn Japanese", path: "/japanese" },
+    { name: "Japanese", path: "/japanese" },
     { name: "Foundation", path: BASE },
     { name: lesson.title },
   ];
@@ -87,6 +88,8 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
           <p className="mt-4 text-lg text-muted leading-relaxed max-w-prose">{lesson.summary}</p>
         </header>
 
+        <PartBar parts={lesson.sections.map((s, i) => ({ id: `s${i + 1}`, label: s.heading }))} quickCheckId={practice.length > 0 ? "practice" : undefined} />
+
         {lesson.sections.map((s, i) => (
           <Section key={i} id={`s${i + 1}`} title={s.heading} eyebrow={`Part ${i + 1} of ${lesson.sections.length}`}>
             <FoundationBlocks blocks={s.blocks} />
@@ -94,8 +97,8 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
         ))}
 
         {practice.length > 0 && (
-          <Section id="practice" title="Test yourself" intro={`${practice.length} quick questions. Aim for 90% before moving on.`}>
-            <LessonQuiz questions={practice} title="Test yourself" />
+          <Section id="practice" title="Quick check" intro={`${practice.length} quick questions. Aim for 90% before moving on.`}>
+            <LessonQuiz questions={practice} title="Quick check" />
           </Section>
         )}
       </article>

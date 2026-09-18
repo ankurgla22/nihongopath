@@ -11,6 +11,7 @@ import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
+import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateVocabDrill } from "@/lib/drill/generate";
 
 type Params = { level: string; slug: string };
@@ -80,6 +81,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
 
   const crumbs = [
     { name: "Home", path: "/" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: `/japanese/${level}` },
     { name: "Vocabulary", path: base },
     { name: v.word },
@@ -107,7 +109,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
     <Container>
       <JsonLd
         data={[
-          breadcrumbJsonLd([...crumbs.slice(0, 3).map((c) => ({ name: c.name, path: c.path! })), { name: v.word, path: href }]),
+          breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: v.word, path: href }]),
           articleJsonLd({ headline: `${v.word}（${v.reading}）— JLPT ${label} vocabulary`, description: v.meaning, path: href, inLanguage: "ja" }),
         ]}
       />
@@ -246,7 +248,8 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         )}
 
         {quickCheck.length > 0 && (
-          <Section id="quick-check" title="Quick check" intro="Two quick questions on this word. Sign in and use the daily drills to have answers count toward your review schedule.">
+          <Section id="quick-check" title="Quick check" intro="Two quick questions on this word.">
+            <QuickCheckNote />
             <LessonQuiz questions={quickCheck} title="Quick check" />
           </Section>
         )}

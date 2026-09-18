@@ -105,6 +105,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
 
   const crumbs = [
     { name: "Home", path: "/" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: `/japanese/${level}` },
     { name: "Grammar", path: base },
     { name: g.title },
@@ -122,7 +123,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
     g.commonMistakes.length > 0 && { id: "mistakes", label: "Common mistakes" },
     g.usageNotes.length > 0 && { id: "usage", label: "Usage notes" },
     g.jlptTips.length > 0 && { id: "jlpt", label: `JLPT ${label} tips` },
-    (practice.length > 0 || jlpt.length > 0) && { id: "test", label: "Test yourself" },
+    (practice.length > 0 || jlpt.length > 0) && { id: "test", label: "Quick check" },
     { id: "review", label: "Review" },
   ].filter((x): x is { id: string; label: string } => Boolean(x));
 
@@ -130,7 +131,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
     <Container wide>
       <JsonLd
         data={[
-          breadcrumbJsonLd([...crumbs.slice(0, 3).map((c) => ({ name: c.name, path: c.path! })), { name: g.title, path: href }]),
+          breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: g.title, path: href }]),
           articleJsonLd({ headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
         ]}
       />
@@ -313,7 +314,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
           )}
 
           {(practice.length > 0 || jlpt.length > 0) && (
-            <Section id="test" title="Test yourself" intro="Answer each question, then read why the other options are wrong.">
+            <Section id="test" title="Quick check" intro="Answer each question, then read why the other options are wrong.">
               <div className="space-y-8">
                 {practice.length > 0 && (
                   <div>

@@ -12,8 +12,8 @@ export function WeeklyChart({ series }: { series: WeekPoint[] }) {
   const id = useId();
   const gradId = `${id}-bar`.replace(/:/g, "");
   const W = 640;
-  const H = 260;
-  const pad = { top: 24, right: 44, bottom: 40, left: 44 };
+  const H = 268;
+  const pad = { top: 24, right: 44, bottom: 46, left: 44 };
   const innerW = W - pad.left - pad.right;
   const innerH = H - pad.top - pad.bottom;
   const n = Math.max(1, series.length);
@@ -50,8 +50,9 @@ export function WeeklyChart({ series }: { series: WeekPoint[] }) {
           Quiz accuracy
         </span>
       </figcaption>
-      <div className="overflow-x-auto no-scrollbar">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full min-w-[20rem] h-auto" aria-hidden="true" focusable="false" role="presentation">
+      {/* The chart scrolls inside this box on narrow screens; the page itself never widens. */}
+      <div className="w-full max-w-full overflow-x-auto overflow-y-hidden no-scrollbar">
+        <svg viewBox={`0 0 ${W} ${H}`} className="block h-auto w-full" style={{ minWidth: `${Math.max(280, Math.min(W, n * 72))}px` }} aria-hidden="true" focusable="false" role="presentation">
           <defs>
             <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">
               <stop offset="0%" stopColor="var(--accent)" />
@@ -111,7 +112,9 @@ export function WeeklyChart({ series }: { series: WeekPoint[] }) {
           )}
         </svg>
       </div>
-      <table className="sr-only" aria-labelledby={`${id}-cap`}>
+      {/* Wrapped in a clipped box: a table ignores the 1px sr-only width and would widen the page. */}
+      <div className="sr-only">
+        <table aria-labelledby={`${id}-cap`}>
         <caption id={`${id}-cap`}>Weekly study minutes and quiz accuracy</caption>
         <thead>
           <tr>
@@ -133,7 +136,8 @@ export function WeeklyChart({ series }: { series: WeekPoint[] }) {
             </tr>
           ))}
         </tbody>
-      </table>
+        </table>
+      </div>
     </figure>
   );
 }

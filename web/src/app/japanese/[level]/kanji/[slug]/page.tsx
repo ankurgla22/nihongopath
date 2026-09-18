@@ -10,6 +10,7 @@ import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
+import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateKanjiDrill } from "@/lib/drill/generate";
 
 type Params = { level: string; slug: string };
@@ -30,7 +31,7 @@ export function generateMetadata({ params }: { params: Params }) {
     description: `The kanji ${k.character} means "${k.meanings.join(", ")}" and is read ${readings}. Common words: ${k.words
       .slice(0, 3)
       .map((w) => `${w.word} (${w.reading})`)
-      .join(", ")}. JLPT ${label}, day ${k.day}.`,
+      .join(", ")}. JLPT ${label}, set ${k.day}.`,
     path: `/japanese/${params.level}/kanji/${k.slug}`,
   });
 }
@@ -82,6 +83,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
 
   const crumbs = [
     { name: "Home", path: "/" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: `/japanese/${level}` },
     { name: "Kanji", path: base },
     { name: k.character },
@@ -99,7 +101,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
     <Container>
       <JsonLd
         data={[
-          breadcrumbJsonLd([...crumbs.slice(0, 3).map((c) => ({ name: c.name, path: c.path! })), { name: k.character, path: href }]),
+          breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: k.character, path: href }]),
           articleJsonLd({ headline: `${k.character} — ${k.meanings.join(", ")} (JLPT ${label} kanji)`, description: `Readings, words and examples for ${k.character}.`, path: href, inLanguage: "ja" }),
         ]}
       />
@@ -111,7 +113,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
         badges={
           <>
             <Badge tone="accent">JLPT {label}</Badge>
-            <Badge>Day {k.day}</Badge>
+            <Badge>Set {k.day}</Badge>
             {k.enriched && <Badge tone="ok">Full entry</Badge>}
           </>
         }
@@ -314,7 +316,8 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
         )}
 
         {quickCheck.length > 0 && (
-          <Section id="quick-check" title="Quick check" intro="Two quick questions on this kanji. Sign in and use the daily drills to have answers count toward your review schedule.">
+          <Section id="quick-check" title="Quick check" intro="Two quick questions on this kanji.">
+            <QuickCheckNote />
             <LessonQuiz questions={quickCheck} title="Quick check" />
           </Section>
         )}

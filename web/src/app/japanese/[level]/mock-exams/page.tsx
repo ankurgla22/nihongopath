@@ -6,6 +6,7 @@ import { getExams } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, LevelSchema } from "@/lib/content/schemas";
 import { pageMetadata, breadcrumbJsonLd } from "@/lib/seo/metadata";
 import { Arrow, Badge, Breadcrumbs, Button, Callout, Container, EmptyState, PageTitle, Section, Stat } from "@/components/ui";
+import { examTitle, sectionGloss, sortExams } from "@/components/exam/examLabels";
 
 export function generateStaticParams() {
   return LEVELS.map((level) => ({ level }));
@@ -44,7 +45,7 @@ export default function MockExamsPage({ params }: { params: { level: string } })
   if (!p.success) notFound();
   const level = p.data;
   const L = LEVEL_LABEL[level];
-  const exams = getExams().filter((e) => e.level === level);
+  const exams = sortExams(getExams().filter((e) => e.level === level));
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -132,7 +133,10 @@ export default function MockExamsPage({ params }: { params: { level: string } })
                           <Badge>{count} questions</Badge>
                           <Badge>{e.sections.length} sections</Badge>
                         </div>
-                        <h2 className="text-h2">{e.title}</h2>
+                        <h2 className="text-h2">{examTitle(e)}</h2>
+                        <p lang="ja" className="ja text-sm text-muted mt-0.5">
+                          {e.title}
+                        </p>
                         <p className="text-sm text-muted mt-1.5 leading-relaxed max-w-prose">{e.description}</p>
                       </div>
                       <Button href={`/mock-exams/${e.id}`}>
@@ -161,7 +165,12 @@ export default function MockExamsPage({ params }: { params: { level: string } })
                       <tbody className="[&>tr:nth-child(even)]:bg-surface-2/50">
                         {e.sections.map((s) => (
                           <tr key={s.id} className="border-t border-line">
-                            <td className="px-5 sm:px-6 py-2.5 font-medium">{s.name}</td>
+                            <td className="px-5 sm:px-6 py-2.5 font-medium">
+                              {sectionGloss(s)}
+                              <span lang="ja" className="ja block text-xs font-normal text-muted">
+                                {s.name}
+                              </span>
+                            </td>
                             <td className="px-4 py-2.5">
                               <Badge tone={SKILL_TONE[s.skill]}>{SKILL_LABEL[s.skill]}</Badge>
                             </td>

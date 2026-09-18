@@ -99,7 +99,7 @@ export default function LevelHubPage({ params }: { params: Params }) {
 
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Learn Japanese", path: "/japanese" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: base },
   ];
 

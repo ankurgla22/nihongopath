@@ -68,7 +68,7 @@ describe("buildDailyPlan", () => {
       "d43-6-quiz",
     ]);
     expect(plan.tasks[0]).toMatchObject({ type: "grammar", minutes: 25, contentIds: ["g1", "g2"], title: "Grammar" });
-    expect(plan.tasks[6]).toMatchObject({ type: "quiz", questionCount: 10, title: "Mini Test" });
+    expect(plan.tasks[6]).toMatchObject({ type: "quiz", questionCount: 10, title: "Daily quiz" });
     expect(plan.tasks[6]).not.toHaveProperty("examId");
     expect(plan.tasks[5].minutes).toBe(15); // 25 due → 15
     expect(plan.totalMinutes).toBe(125);
@@ -227,7 +227,7 @@ describe("recommendations", () => {
   });
 
   it("falls back to a single sentence when there is nothing to adapt", () => {
-    expect(recommendations(user())).toEqual(["Complete today's mini test to unlock adaptive recommendations."]);
+    expect(recommendations(user())).toEqual(["Complete today's daily quiz to unlock adaptive recommendations."]);
     expect(recommendations(user({ grammar: 0.8 }))).toEqual(["All skills are on track — follow today's plan in order."]);
     expect(recommendations(user({ grammar: 0.8 }), [result({ kind: "lesson" })])).toEqual(["Perfect score on your last lesson quiz — keep the streak going."]);
   });

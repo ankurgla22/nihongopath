@@ -86,13 +86,27 @@ describe("weeklySeries", () => {
       dp("2026-09-16", 25), // week of Sep 14 → Week 3
     ];
     const s = weeklySeries(daily, 4);
-    // The week before the first study week is clamped to "Week 1" rather than "Week 0".
-    expect(s.map((w) => w.weekLabel)).toEqual(["Week 1", "Week 1", "Week 2", "Week 3"]);
-    expect(s.map((w) => w.weekStart)).toEqual(["2026-08-24", "2026-08-31", "2026-09-07", "2026-09-14"]);
-    expect(s[0]).toMatchObject({ minutes: 0, accuracy: 0, activeDays: 0 });
-    expect(s[1]).toMatchObject({ minutes: 50, correct: 10, total: 20, accuracy: 0.5, activeDays: 2 });
-    expect(s[2]).toMatchObject({ minutes: 40, accuracy: 1 });
-    expect(s[3]).toMatchObject({ minutes: 25, accuracy: 0, total: 0 });
+    // Weeks before the first study week are not emitted, so the series starts at "Week 1".
+    expect(s.map((w) => w.weekLabel)).toEqual(["Week 1", "Week 2", "Week 3"]);
+    expect(s.map((w) => w.weekStart)).toEqual(["2026-08-31", "2026-09-07", "2026-09-14"]);
+    expect(s[0]).toMatchObject({ minutes: 50, correct: 10, total: 20, accuracy: 0.5, activeDays: 2 });
+    expect(s[1]).toMatchObject({ minutes: 40, accuracy: 1 });
+    expect(s[2]).toMatchObject({ minutes: 25, accuracy: 0, total: 0 });
+  });
+
+  it("never repeats a week number: a first-day learner gets a single Week 1 column", () => {
+    const s = weeklySeries([dp(T, 15)], 8);
+    expect(s).toHaveLength(1);
+    expect(s[0]).toMatchObject({ weekLabel: "Week 1", weekStart: "2026-09-14", minutes: 15 });
+    const labels = weeklySeries([dp("2026-09-02", 10), dp("2026-09-16", 10)], 8).map((w) => w.weekLabel);
+    expect(labels).toEqual(["Week 1", "Week 2", "Week 3"]);
+    expect(new Set(labels).size).toBe(labels.length);
+  });
+
+  it("fills empty weeks after a gap and keeps the week count from the first study week", () => {
+    const s = weeklySeries([dp("2026-07-01", 10), dp("2026-09-16", 25)], 3);
+    expect(s.map((w) => w.weekLabel)).toEqual(["Week 10", "Week 11", "Week 12"]);
+    expect(s.map((w) => w.minutes)).toEqual([0, 0, 25]);
   });
 
   it("limits to the last N weeks and honours an explicit end date", () => {

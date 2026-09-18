@@ -7,11 +7,12 @@ import { LEVEL_INFO } from "@/components/content/levels";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
 import { JsonLd } from "@/components/content/JsonLd";
 import { FOUNDATION_TOTAL_LABEL } from "@/components/foundation/kinds";
+import { StickyCta } from "@/components/layout/StickyCta";
 
 export const metadata: Metadata = {
-  title: `${SITE_NAME} — Learn Japanese from N5 to JLPT N2`,
+  title: `${SITE_NAME} — Learn Japanese from your first kana to JLPT N1`,
   description:
-    "A complete Japanese course, a daily study system and JLPT N2 exam preparation in one place. Grammar, vocabulary, kanji, reading and listening lessons with practice, tests and spaced review.",
+    "A complete Japanese course, a daily study system and JLPT exam preparation for every level in one place. Grammar, vocabulary, kanji, reading and listening lessons with practice, tests and spaced review.",
   alternates: { canonical: SITE_URL },
   openGraph: { title: SITE_NAME, description: SITE_TAGLINE, url: SITE_URL, siteName: SITE_NAME, type: "website" },
 };
@@ -81,22 +82,22 @@ const Icons = {
 const STEPS = [
   { name: "Learn", ja: "学ぶ", icon: Icons.book, text: "Every grammar point, word and kanji is explained in plain English with natural examples and a diagram, not a dictionary line." },
   { name: "Practice", ja: "練習", icon: Icons.pencil, text: "Guided questions right inside the lesson, then independent practice so you can use the pattern, not just recognise it." },
-  { name: "Test", ja: "試験", icon: Icons.clipboard, text: "Daily quizzes, weekly tests, phase tests and timed mock exams built from the same JLPT-style question bank." },
+  { name: "Test", ja: "試験", icon: Icons.clipboard, text: "Daily quizzes, weekly tests, level tests and timed mock exams built from the same JLPT-style question bank." },
   { name: "Review", ja: "復習", icon: Icons.refresh, text: "Wrong answers and due items come back automatically through spaced repetition until they are strong." },
 ];
 
 const FEATURES = [
   { icon: Icons.diagram, title: "Full lessons with diagrams", text: "Meaning, formation, a visual diagram, natural examples, look-alike patterns and common mistakes for every grammar point." },
-  { icon: Icons.calendar, title: "180-day daily plan", text: "A day-by-day schedule from your current level to the N2 pass mark, rebalanced around the skills you find hardest." },
+  { icon: Icons.calendar, title: "180-day daily plan", text: "A day-by-day schedule from kana to your target level, rebalanced around the skills you find hardest." },
   { icon: Icons.refresh, title: "Spaced review", text: "Missed items return after 1, 3, 7 and 14 days until they stick, so nothing you learn quietly fades." },
   { icon: Icons.timer, title: "Mock exams with scaled score", text: "Timed, full-length exams in the official section order, reported as an estimated 0–180 scaled score." },
-  { icon: Icons.headphones, title: "Listening lab", text: "Scripted conversations with audio, transcripts and the five official N2 listening question types." },
+  { icon: Icons.headphones, title: "Listening lab", text: "Scripted conversations with audio, transcripts and the official JLPT listening question types at every level." },
   { icon: Icons.chart, title: "Progress analytics", text: "Accuracy per skill, projected score over time and a clear picture of what to study next." },
 ];
 
 const FACTS = [
   { value: "180", label: "Total points", hint: "Three sections of 0–60" },
-  { value: "90", label: "To pass N2", hint: "Overall scaled score" },
+  { value: "80–100", label: "To pass", hint: "N5 needs 80, N1 needs 100" },
   { value: "19", label: "Per section", hint: "Sectional minimum" },
   { value: "Jul · Dec", label: "Test dates", hint: "First Sunday of each" },
 ];
@@ -109,14 +110,14 @@ export default function HomePage() {
     (acc, p) => ({ grammar: acc.grammar + p.grammar, vocabulary: acc.vocabulary + p.vocabulary, kanji: acc.kanji + p.kanji }),
     { grammar: 0, vocabulary: 0, kanji: 0 }
   );
-  const n2 = stats.per.find((p) => p.level === "n2");
-  const n2Grammar = getGrammar("n2");
-  const teaser = n2Grammar.find((g) => g.enriched) ?? n2Grammar[0];
+  // Sample lesson: a beginner-level (N5) full lesson, so first-time visitors see something they can read.
+  const n5Grammar = getGrammar("n5");
+  const teaser = n5Grammar.find((g) => g.enriched && g.diagram) ?? n5Grammar.find((g) => g.enriched) ?? n5Grammar[0];
 
   const todayItems = [
-    { name: "Grammar", ja: "文法", count: 2, unit: "patterns", pct: 100, tone: "ok" as const },
-    { name: "Vocabulary", ja: "語彙", count: 12, unit: "words", pct: 66, tone: "accent" as const },
-    { name: "Kanji", ja: "漢字", count: 5, unit: "characters", pct: 0, tone: "neutral" as const },
+    { name: "Hiragana", ja: "ひらがな", count: 46, unit: "kana", pct: 100, tone: "ok" as const },
+    { name: "Pronunciation", ja: "発音", count: 1, unit: "lesson", pct: 60, tone: "accent" as const },
+    { name: "Daily quiz", ja: "小テスト", count: 15, unit: "questions", pct: 0, tone: "neutral" as const },
   ];
 
   return (
@@ -132,11 +133,11 @@ export default function HomePage() {
       />
 
       {/* ---------- Hero ---------- */}
-      <section className="relative overflow-hidden">
+      <section id="hero" className="relative overflow-hidden">
         <Container wide className="pt-14 pb-16 sm:pt-20 sm:pb-24 lg:pt-24">
           <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
             <div className="max-w-2xl">
-              <p className="animate-rise text-xs font-medium uppercase tracking-[0.14em] text-accent">Japanese course · daily study system · JLPT N2 prep</p>
+              <p className="animate-rise text-xs font-medium uppercase tracking-[0.14em] text-accent">Japanese course · daily study system · JLPT prep for every level</p>
               <h1 className="animate-rise-2 mt-4 text-display">
                 Walk the whole road,
                 <br />
@@ -147,7 +148,7 @@ export default function HomePage() {
                 one day at a time.
               </h1>
               <p className="animate-rise-3 mt-6 text-lg sm:text-xl text-ink-2 leading-relaxed max-w-xl">
-                A complete course from N5 to N1 with a 180-day N2 plan that adapts to your weak points.
+                A complete course from your first kana to N1, with a daily plan that adapts to your weak points.
                 <br className="hidden sm:block" /> Every lesson is written so that difficult Japanese feels simple.
               </p>
               <div className="animate-rise-3 mt-8 flex flex-wrap gap-3">
@@ -155,8 +156,8 @@ export default function HomePage() {
                   Start the 180-day plan
                   <Arrow />
                 </Button>
-                <Button href="/japanese/n2" size="lg" variant="secondary">
-                  Browse N2
+                <Button href="/japanese" size="lg" variant="secondary">
+                  Explore the levels
                 </Button>
               </div>
               <dl className="animate-rise-3 mt-10 flex flex-wrap gap-x-8 gap-y-3">
@@ -204,10 +205,10 @@ export default function HomePage() {
                 <div className="relative surface rounded-2xl p-5 shadow-lg">
                   <div className="flex items-center justify-between">
                     <div>
-                      <p className="text-[11px] uppercase tracking-[0.14em] text-muted">Today&rsquo;s study</p>
-                      <p className="font-semibold mt-0.5">Day 42 · Phase 2</p>
+                      <p className="text-[11px] uppercase tracking-[0.14em] text-muted">Example day</p>
+                      <p className="font-semibold mt-0.5">Day 1 · Hiragana</p>
                     </div>
-                    <Badge tone="accent">N2</Badge>
+                    <Badge tone="accent">Foundation</Badge>
                   </div>
                   <ul className="mt-4 space-y-3">
                     {todayItems.map((it) => (
@@ -227,9 +228,7 @@ export default function HomePage() {
                     ))}
                   </ul>
                   <div className="mt-4 flex items-center justify-between border-t border-line pt-3 text-xs text-muted">
-                    <span>
-                      {n2 ? n2.grammar.toLocaleString() : 0} N2 patterns · {n2 ? n2.kanji.toLocaleString() : 0} kanji
-                    </span>
+                    <span>About 110 min · N5 begins on Day 11</span>
                     <span className="inline-flex items-center gap-1 text-accent font-medium">
                       Continue <Arrow className="h-3.5 w-3.5" />
                     </span>
@@ -281,7 +280,7 @@ export default function HomePage() {
             <div>
               <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-2">The path</p>
               <h2 id="levels" className="text-h1">
-                Four levels, one road.
+                Five levels plus Foundation, one road.
               </h2>
               <p className="mt-3 text-muted max-w-prose text-lg">Start where you are. Every level is free to read; sign in to track progress and follow the daily plan.</p>
             </div>
@@ -376,14 +375,14 @@ export default function HomePage() {
                 Every grammar point opens with the meaning in one line, then a diagram, natural examples, the patterns it is confused with and the mistakes learners actually make.
               </p>
               <div className="mt-6">
-                <Button href={`/japanese/n2/grammar/${teaser.slug}`} variant="outline">
+                <Button href={`/japanese/${teaser.level}/grammar/${teaser.slug}`} variant="outline">
                   Open this lesson <Arrow />
                 </Button>
               </div>
             </div>
-            <Link href={`/japanese/n2/grammar/${teaser.slug}`} className="group block surface surface-hover rounded-2xl p-6 sm:p-8">
+            <Link href={`/japanese/${teaser.level}/grammar/${teaser.slug}`} className="group block surface surface-hover rounded-2xl p-6 sm:p-8">
               <div className="flex flex-wrap items-center gap-2">
-                <Badge tone="accent">N2</Badge>
+                <Badge tone="accent">{teaser.level.toUpperCase()}</Badge>
                 <Badge>Grammar</Badge>
                 {teaser.enriched && <Badge tone="ok">Full lesson</Badge>}
               </div>
@@ -416,7 +415,7 @@ export default function HomePage() {
                 <span lang="ja" className="ja">
                   日本語能力試験
                 </span>{" "}
-                · JLPT N2
+                · JLPT N5 to N1
               </p>
               <h2 id="facts" className="text-h1">
                 Built around the real exam.
@@ -438,6 +437,8 @@ export default function HomePage() {
           </dl>
         </Container>
       </section>
+
+      <StickyCta watchId="hero" />
 
       {/* ---------- Final CTA ---------- */}
       <section className="border-t border-line">

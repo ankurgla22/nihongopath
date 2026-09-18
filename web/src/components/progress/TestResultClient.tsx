@@ -9,6 +9,7 @@ import { getQuizResult } from "@/lib/firestore/repo";
 import { SKILLS, type AnswerRecord, type QuizResultDoc, type Skill } from "@/lib/firestore/types";
 import { groupIdsByType, hrefFor, parseContentId, resolveContentIds, type ResolvedContent } from "./contentHref";
 import { EmptyState, ErrorState, LoadingState, Ring, SignedOutState, errMessage, formatDate, formatSeconds, pct, skillLabel } from "./shared";
+import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
 
 const REVIEW_VERB: Record<string, string> = {
   grammar: "Review this grammar",
@@ -68,7 +69,7 @@ function QuestionReview({ index, q, a }: { index: number; q: Question | undefine
               const isAnswer = i === q.answerIndex;
               const isSelected = i === selected;
               const cls = isAnswer ? "border-ok bg-ok-soft" : isSelected ? "border-warn bg-warn-soft" : "border-line bg-surface";
-              const distractor = !isAnswer && perOption ? q.distractorExplanations[i] : undefined;
+              const distractor = !isAnswer && perOption && q.distractorExplanations[i] ? cleanNote(q.distractorExplanations[i]) : undefined;
               return (
                 <li key={i} className={`rounded-xl border px-3.5 py-3 text-sm ${cls}`}>
                   <div className="flex items-start gap-3">
@@ -95,10 +96,10 @@ function QuestionReview({ index, q, a }: { index: number; q: Question | undefine
           <div className="mt-3">
             <Callout tone={correct ? "ok" : "accent"} title="Explanation">
               <span className="block">{q.explanation}</span>
-              {!perOption && q.distractorExplanations.length > 0 && (
+              {!perOption && wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length).length > 0 && (
                 <ul className="mt-2 list-disc pl-5 space-y-1 text-muted">
-                  {q.distractorExplanations.map((d, k) => (
-                    <li key={k}>{d}</li>
+                  {wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length).map((d) => (
+                    <li key={d.index}>{d.text}</li>
                   ))}
                 </ul>
               )}

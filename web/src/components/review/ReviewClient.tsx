@@ -20,6 +20,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, EmptyState, PageTitle, Stat } from "@/components/ui";
 import { LoadingState, SkillGlyph } from "@/components/progress/shared";
+import { resolveContentIds, type ResolvedContent } from "@/components/progress/contentHref";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { addDaysISO, isQueuedError, reviewQuestions, type ContentLinks } from "@/components/study/helpers";
 
@@ -59,6 +60,8 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
   const [session, setSession] = useState<Session | null>(null);
   const sessionToken = useRef(0);
   const [sessionItems, setSessionItems] = useState<ReviewItemDoc[]>([]);
+  // Titles for ids the server did not pre-link (fetched on demand); the raw id is shown only while loading.
+  const [resolved, setResolved] = useState<Record<string, ResolvedContent>>({});
 
   const load = useCallback(async () => {
     if (!user) return;
@@ -79,6 +82,23 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
 
   const due = useMemo(() => (items ?? []).filter((i) => i.due <= today).sort((a, b) => b.priority - a.priority || a.due.localeCompare(b.due)), [items, today]);
   const upcoming = useMemo(() => (items ?? []).filter((i) => i.due > today).sort((a, b) => a.due.localeCompare(b.due)), [items, today]);
+
+  useEffect(() => {
+    const missing = (items ?? []).map((i) => i.contentId).filter((id) => !contentLinks[id] && !resolved[id]);
+    if (missing.length === 0) return;
+    let cancelled = false;
+    void resolveContentIds(missing).then((r) => {
+      if (!cancelled && Object.keys(r).length > 0) setResolved((prev) => ({ ...prev, ...r }));
+    });
+    return () => {
+      cancelled = true;
+    };
+    // `resolved` is intentionally left out: it only grows, and re-running on every merge would loop on unknown ids.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [items, contentLinks]);
+
+  /** Link and title for an item: server-provided link, then the on-demand lookup, then the id while loading. */
+  const linkFor = (id: string): { href: string; title: string } | null => contentLinks[id] ?? resolved[id] ?? null;
 
   const groups = useMemo(() => {
     const g = new Map<Skill, ReviewItemDoc[]>();
@@ -157,11 +177,12 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
 
   const overdue = due.filter((i) => i.due < today).length;
   const missed = due.filter((i) => i.source === "wrong-answer").length;
+  const nothingDue = items !== null && due.length === 0;
 
   return (
     <div className="pb-16">
       <PageTitle
-        eyebrow="Spaced repetition"
+        eyebrow="Spaced review"
         title="Review queue"
         description="Items you missed or that are due by schedule. Answer them correctly to push them further out; miss them and they come back tomorrow."
       />
@@ -230,14 +251,22 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
                 <div aria-hidden className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-accent-soft opacity-70 blur-3xl" />
                 <div className="relative flex flex-wrap items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <h2 className="text-h2">{items === null ? "Preparing your session…" : due.length === 0 ? "Nothing due right now" : `${due.length} item${due.length === 1 ? "" : "s"} to review`}</h2>
+                    <h2 className="text-h2">{items === null ? "Preparing your session…" : nothingDue ? "Nothing due right now" : `${due.length} item${due.length === 1 ? "" : "s"} to review`}</h2>
                     <p className="mt-1 text-sm text-muted">
-                      {due.length === 0 && items !== null ? "A short mixed review is still available." : `A session draws up to ${SESSION_MAX} questions, highest priority first.`}
+                      {nothingDue
+                        ? `Your queue is clear. If you feel like practising anyway, a short mixed review picks ${SESSION_MIN} questions from what you have studied.`
+                        : `A session draws up to ${SESSION_MAX} questions, highest priority first.`}
                     </p>
                   </div>
-                  <Button onClick={startSession} disabled={items === null || !user} size="lg">
-                    Start review session <Arrow />
-                  </Button>
+                  {nothingDue ? (
+                    <Button onClick={startSession} disabled={!user} variant="outline" size="md">
+                      Start a short mixed review <Arrow />
+                    </Button>
+                  ) : (
+                    <Button onClick={startSession} disabled={items === null || !user} size="lg">
+                      Start review session <Arrow />
+                    </Button>
+                  )}
                 </div>
               </Card>
 
@@ -254,7 +283,7 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
                     {g.items.map((it) => {
                       const p = progress.get(it.contentId);
                       const status = describeStatus(p?.status ?? "learning");
-                      const link = contentLinks[it.contentId];
+                      const link = linkFor(it.contentId);
                       return (
                         <li key={it.contentId} className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5 px-4 sm:px-5 py-3">
                           <div className="min-w-0 flex-1 basis-48">
@@ -265,7 +294,9 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
                                 </span>
                               </Link>
                             ) : (
-                              <span className="font-medium">{it.contentId}</span>
+                              <span className="font-medium text-muted" aria-busy="true">
+                                {it.contentId}
+                              </span>
                             )}
                             <p className="text-xs text-muted mt-0.5">
                               <span className="font-medium text-ink-2">{status.label}</span> — {status.description}
@@ -284,9 +315,9 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
                 </Card>
               ))}
 
-              {items !== null && due.length === 0 && (
-                <EmptyState title="Your queue is clear" action={<Button href="/daily-study" variant="secondary">Continue today&apos;s study</Button>}>
-                  Wrong answers from quizzes and tests land here automatically, and correctly answered items return on their SRS schedule.
+              {nothingDue && (
+                <EmptyState title="Nothing to review today" action={<Button href="/daily-study">Continue today&apos;s study</Button>}>
+                  Wrong answers from quizzes and tests land here automatically, and items you got right come back on their spaced-review schedule.
                 </EmptyState>
               )}
             </div>
@@ -318,8 +349,8 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
                   <ul className="mt-3 space-y-1.5 text-xs text-muted border-t border-line pt-3">
                     {upcoming.slice(0, 5).map((it) => (
                       <li key={it.contentId} className="flex justify-between gap-2">
-                        <span className="truncate ja" lang="ja">
-                          {contentLinks[it.contentId]?.title ?? it.contentId}
+                        <span className={`truncate ja ${linkFor(it.contentId) ? "" : "text-muted/70"}`} lang="ja">
+                          {linkFor(it.contentId)?.title ?? it.contentId}
                         </span>
                         <span className="shrink-0 tabular-nums">{dueLabel(it.due, today)}</span>
                       </li>
@@ -330,7 +361,11 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
               <Card padding="p-4 sm:p-5">
                 <h2 className="font-semibold">How it works</h2>
                 <ol className="mt-3 space-y-2.5 text-sm text-ink-2">
-                  {["New → Learning → Review → Strong → Mastered.", "A correct answer lengthens the interval; a miss resets it to tomorrow.", "Items with a higher priority are overdue or have a low ease."].map((t, i) => (
+                  {[
+                    "Every item you study moves from New to Learning, Review, Strong and finally Mastered.",
+                    "Get it right and the next review moves further away. Miss it and it comes back tomorrow.",
+                    "Items that are overdue, or that you found hard before, get a higher priority and come first.",
+                  ].map((t, i) => (
                     <li key={i} className="flex gap-3">
                       <span className="inline-grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold text-muted tabular-nums">{i + 1}</span>
                       <span>{t}</span>

@@ -82,6 +82,9 @@ export function HeaderUserMenu() {
           <span className="h-8 w-8 rounded-full bg-accent-soft text-accent font-semibold flex items-center justify-center text-sm">{initial}</span>
         )}
         <span className="hidden md:inline text-sm max-w-[10rem] truncate">{name}</span>
+        <svg aria-hidden className={`h-3.5 w-3.5 text-muted transition-transform ${open ? "rotate-180" : ""}`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
       </button>
       {open && (
         <div id={menuId} role="menu" aria-label="Account" className="absolute right-0 mt-2 w-48 bg-surface border border-line rounded-xl shadow-lg py-1 z-50">

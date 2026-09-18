@@ -17,7 +17,7 @@ export default function FoundationIndexPage() {
   const minutes = lessons.reduce((n, l) => n + l.minutes, 0);
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Learn Japanese", path: "/japanese" },
+    { name: "Japanese", path: "/japanese" },
     { name: "Foundation", path: "/japanese/foundation" },
   ];
 

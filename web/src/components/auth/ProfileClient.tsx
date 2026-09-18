@@ -10,6 +10,13 @@ import { useUserDoc } from "./useUserDoc";
 import { friendlyAuthError } from "./authErrors";
 import { clearSession } from "./sessionClient";
 
+/** "Sep 18" or "Sep 18, 2026" from an ISO timestamp or YYYY-MM-DD string. */
+function friendlyDate(iso: string, opts: { year?: boolean } = {}): string {
+  const d = /^\d{4}-\d{2}-\d{2}$/.test(iso) ? new Date(`${iso}T00:00:00`) : new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", ...(opts.year ? { year: "numeric" } : {}) });
+}
+
 const inputCls = "h-11 rounded-xl border border-line bg-surface px-3.5 text-[15px] text-ink transition focus:outline-none focus:border-accent focus:shadow-ring disabled:opacity-50";
 
 /** Accessible toggle switch (role="switch"). */
@@ -54,7 +61,9 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
   const email = user?.email ?? sessionUser.email;
   const photo = user?.photoURL ?? sessionUser.picture;
   const displayName = name || email || "Learner";
-  const joined = userDoc ? new Date(userDoc.createdAt).toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" }) : null;
+  const joined = userDoc ? friendlyDate(userDoc.createdAt, { year: true }) : null;
+  const started = userDoc ? friendlyDate(userDoc.createdAt) : null;
+  const lastStudied = userDoc?.lastStudyDate ? friendlyDate(userDoc.lastStudyDate, { year: true }) : null;
 
   async function save(e: FormEvent) {
     e.preventDefault();
@@ -97,9 +106,9 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
       <div className="space-y-6 min-w-0">
         {/* Identity */}
         <Card className="relative overflow-hidden" padding="p-0">
-          <div aria-hidden className="h-20 accent-gradient opacity-90" />
+          <div aria-hidden className="h-24 accent-gradient opacity-90" />
           <div className="px-5 sm:px-6 pb-6">
-            <div className="-mt-10 flex flex-wrap items-end gap-4">
+            <div className="-mt-8 flex flex-wrap items-end gap-4">
               {photo ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={photo} alt="" width={80} height={80} referrerPolicy="no-referrer" className="h-20 w-20 rounded-2xl border-4 border-surface bg-surface object-cover shadow-md" />
@@ -108,11 +117,11 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
                   {displayName.charAt(0).toUpperCase()}
                 </span>
               )}
-              <div className="min-w-0 flex-1 pb-1">
+              <div className="min-w-0 flex-1 pt-10 sm:pt-0 sm:pb-1">
                 <p className="text-xl font-semibold truncate">{displayName}</p>
                 {email && <p className="text-sm text-muted truncate">{email}</p>}
               </div>
-              <div className="flex items-center gap-2 pb-1">
+              <div className="flex items-center gap-2 sm:pb-1">
                 {userDoc && <Badge tone="accent" size="md">{userDoc.currentLevel.toUpperCase()}</Badge>}
                 {joined && <Badge size="md">Joined {joined}</Badge>}
               </div>
@@ -130,10 +139,10 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
             </div>
           ) : userDoc ? (
             <div className="grid gap-3 grid-cols-2 sm:grid-cols-4">
-              <Stat label="Current day" value={<>{userDoc.currentDay}<span className="text-base text-muted font-normal"> / 180</span></>} hint={userDoc.currentPhase} tone="accent" />
+              <Stat label="Current day" value={<>{userDoc.currentDay}<span className="text-base text-muted font-normal"> / 180</span></>} hint={started ? `Started ${started}` : undefined} tone="accent" />
               <Stat label="Streak" value={userDoc.streak} hint={`day${userDoc.streak === 1 ? "" : "s"} · best ${userDoc.longestStreak}`} tone="ok" />
               <Stat label="Study time" value={<>{Math.round(userDoc.totalStudyMinutes / 60)}<span className="text-base text-muted font-normal"> h</span></>} hint="total" />
-              <Stat label="Last studied" value={<span className="text-lg sm:text-xl">{userDoc.lastStudyDate ?? "Not yet"}</span>} />
+              <Stat label="Last studied" value={<span className="text-lg sm:text-xl">{lastStudied ?? "Not yet"}</span>} />
             </div>
           ) : (
             <Callout tone="neutral">Study data is unavailable right now.</Callout>

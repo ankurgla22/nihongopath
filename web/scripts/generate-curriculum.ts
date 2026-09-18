@@ -116,25 +116,25 @@ type FoundationDay = { title: string; objectives: string[]; kana: [string, numbe
 const FOUNDATION_DAYS: Record<number, FoundationDay> = {
   1: {
     title: "Hiragana: the basic 46",
-    objectives: ["Learn the 46 basic hiragana (あ〜ん) row by row; say each sound aloud and trace it", "Pronunciation basics: the five vowels, mora timing and pitch", "Kana recognition quiz (15 questions)"],
+    objectives: ["Learn the 46 basic hiragana (あ〜ん) row by row; say each sound aloud and trace it", "Pronunciation basics: vowels, mora timing, pitch", "Daily quiz: 15 kana questions (last task of the day)"],
     kana: [["foundation-1", 40], ["foundation-5", 15]],
     quiz: 15,
   },
   2: {
     title: "Hiragana: dakuten, combinations and long vowels",
-    objectives: ["Learn dakuten/handakuten (が・ざ・だ・ば・ぱ), yōon (きゃ・しゅ・ちょ…), small っ and long vowels", "Read short hiragana words and a 100-character hiragana passage aloud", "Kana recognition quiz (15 questions)"],
+    objectives: ["Learn dakuten/handakuten (が・ざ・だ・ば・ぱ), yōon (きゃ・しゅ・ちょ…), small っ and long vowels", "Read short hiragana words and a 100-character hiragana passage aloud", "Daily quiz: 15 kana questions (last task of the day)"],
     kana: [["foundation-2", 45]],
     quiz: 15,
   },
   3: {
     title: "Katakana: the basic 46",
-    objectives: ["Learn the 46 basic katakana (ア〜ン); distinguish look-alikes シ/ツ, ソ/ン", "Recognize common loanwords (コーヒー, テレビ…)", "Kana recognition quiz (15 questions)"],
+    objectives: ["Learn the 46 basic katakana (ア〜ン); distinguish look-alikes シ/ツ, ソ/ン", "Recognize common loanwords (コーヒー, テレビ…)", "Daily quiz: 15 kana questions (last task of the day)"],
     kana: [["foundation-3", 45]],
     quiz: 15,
   },
   4: {
     title: "Katakana: dakuten, combinations and the long-vowel mark",
-    objectives: ["Learn katakana dakuten, yōon and the long-vowel mark ー", "Read 30 katakana loanwords aloud", "Kana recognition quiz (15 questions)"],
+    objectives: ["Learn katakana dakuten, yōon and the long-vowel mark ー", "Read 30 katakana loanwords aloud", "Daily quiz: 15 kana questions (last task of the day)"],
     kana: [["foundation-4", 45]],
     quiz: 15,
   },

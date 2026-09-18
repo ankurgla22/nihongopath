@@ -145,7 +145,6 @@ export default function ListeningIndexPage({ params }: { params: { level: string
                           {e.script.length} lines
                         </Badge>
                         <Badge>{e.questionIds.length} {e.questionIds.length === 1 ? "question" : "questions"}</Badge>
-                        {!e.audioSrc && <Badge tone="info">Browser speech</Badge>}
                       </div>
                       <p lang="ja" className="ja font-semibold text-lg leading-snug text-ink">{e.title}</p>
                       <div className="mt-3 flex items-end justify-between gap-3 text-xs text-muted">

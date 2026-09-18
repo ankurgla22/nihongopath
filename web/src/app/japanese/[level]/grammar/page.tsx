@@ -40,11 +40,13 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
   const lessons = getGrammar(level);
   if (lessons.length === 0) notFound();
   const enriched = lessons.filter((g) => g.enriched).length;
+  // When every lesson is a full lesson the badge carries no information, so hide it.
+  const showFullBadge = enriched > 0 && enriched < lessons.length;
   const base = `/japanese/${level}/grammar`;
   const groups = groupInTens(lessons);
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Learn Japanese", path: "/japanese" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: `/japanese/${level}` },
     { name: "Grammar", path: base },
   ];
@@ -63,10 +65,12 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
         description={
           <>
             {lessons.length} patterns in study order.{" "}
-            {enriched > 0 ? (
+            {showFullBadge ? (
               <>
                 <Badge tone="ok">Full lesson</Badge> marks the {enriched} with a diagram, mistakes, quiz and JLPT tips; the rest have meaning, formation, examples and usage notes.
               </>
+            ) : enriched === lessons.length ? (
+              "Every lesson has a diagram, examples, common mistakes, a quick check and JLPT tips."
             ) : (
               "Each entry has meaning, formation, natural examples and usage notes."
             )}
@@ -111,7 +115,7 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
                 </h2>
                 <span className="text-xs text-muted">Set {gi + 1} of {groups.length}</span>
               </div>
-              <GrammarCards base={base} start={g.from} items={g.items.map((l) => [l.slug, l.order, l.title, l.meaning, l.enriched])} />
+              <GrammarCards base={base} start={g.from} items={g.items.map((l) => [l.slug, l.order, l.title, l.meaning, showFullBadge && l.enriched])} />
             </section>
           ))}
         </div>

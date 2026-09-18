@@ -49,7 +49,7 @@ export function SpeakButton({ text, size = "sm", label = false, rate, className 
       aria-label={playing ? "Stop" : `Listen: ${text}`}
       aria-pressed={playing}
       title={playing ? "Stop" : "Listen"}
-      className={`inline-flex shrink-0 items-center justify-center border transition ${
+      className={`relative inline-flex shrink-0 items-center justify-center border transition ${size !== "md" && !label ? "touch-target" : ""} ${
         playing ? "bg-accent text-white border-accent" : "bg-surface border-line text-ink-2 hover:text-accent hover:border-accent/50 hover:bg-accent-soft"
       } ${base} ${className}`}
     >

@@ -19,8 +19,8 @@ export function generateMetadata({ params }: { params: Params }) {
   const label = LEVEL_LABEL[params.level];
   const n = getKanji(params.level).length;
   return pageMetadata({
-    title: `JLPT ${label} kanji list: all ${n} characters by study day`,
-    description: `Every JLPT ${label} kanji with meanings, on and kun readings, common words and example sentences, grouped into daily study sets.`,
+    title: `JLPT ${label} kanji list: all ${n} characters in study sets`,
+    description: `Every JLPT ${label} kanji with meanings, on and kun readings, common words and example sentences, grouped into study sets.`,
     path: `/japanese/${params.level}/kanji`,
   });
 }
@@ -45,7 +45,7 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
   const enriched = items.filter((k) => k.enriched).length;
   const crumbs = [
     { name: "Home", path: "/" },
-    { name: "Learn Japanese", path: "/japanese" },
+    { name: "Japanese", path: "/japanese" },
     { name: label, path: `/japanese/${level}` },
     { name: "Kanji", path: base },
   ];
@@ -63,7 +63,7 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
         }
         description={
           <>
-            {items.length} characters in {days.length} daily sets of about {Math.round(items.length / days.length)}. Learn each kanji through the words it appears in, not in isolation.
+            {items.length} characters in {days.length} sets of about {Math.round(items.length / days.length)}. Learn each kanji through the words it appears in, not in isolation.
             {enriched > 0 && (
               <>
                 {" "}
@@ -74,18 +74,18 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
         }
         actions={
           <Button href={`${base}/${items[0].slug}`}>
-            Start with day 1 <Arrow />
+            Start with Set 1 <Arrow />
           </Button>
         }
       />
 
       {/* Day rail */}
-      <nav aria-label="Jump to day" className="sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-b border-line/80 mb-8">
+      <nav aria-label="Jump to set" className="sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-b border-line/80 mb-8">
         <ol className="flex gap-1.5 overflow-x-auto no-scrollbar">
           {days.map(([day]) => (
             <li key={day} className="shrink-0">
-              <a href={`#day-${day}`} className="inline-flex items-center rounded-full border border-line bg-surface px-3 h-8 text-xs font-medium tabular-nums text-ink-2 hover:border-accent/50 hover:text-accent hover:bg-accent-soft/40 transition">
-                Day {day}
+              <a href={`#set-${day}`} className="inline-flex items-center rounded-full border border-line bg-surface px-3 h-8 text-xs font-medium tabular-nums text-ink-2 hover:border-accent/50 hover:text-accent hover:bg-accent-soft/40 transition">
+                Set {day}
               </a>
             </li>
           ))}
@@ -94,16 +94,16 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
 
       <div className="space-y-12 mb-20">
         {days.map(([day, list]) => (
-          <section key={day} id={`day-${day}`} aria-labelledby={`h-day-${day}`} className="scroll-mt-32">
+          <section key={day} id={`set-${day}`} aria-labelledby={`h-set-${day}`} className="scroll-mt-32">
             <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
               <div className="flex items-baseline gap-3">
-                <h2 id={`h-day-${day}`} className="text-h2">
-                  Day {day}
+                <h2 id={`h-set-${day}`} className="text-h2">
+                  Set {day}
                 </h2>
                 <span className="text-sm text-muted tabular-nums">{list.length} kanji</span>
               </div>
               <Link href={`${base}/${list[0].slug}`} className="text-sm text-accent hover:underline underline-offset-4 inline-flex items-center gap-1">
-                Start day {day} <Arrow className="h-3.5 w-3.5" />
+                Start Set {day} <Arrow className="h-3.5 w-3.5" />
               </Link>
             </div>
             <KanjiGrid base={base} items={list.map((k) => [k.slug, k.character, k.meanings[0], k.enriched])} />

@@ -80,7 +80,9 @@ export function weekStartOf(iso: string): string {
  * ending with the week containing `endDate` (defaults to the latest record).
  * Weeks are labelled relative to the learner's first recorded day
  * ("Week 1" = the week of their first study day), so labels are stable as time
- * passes. Empty weeks are included with zero minutes.
+ * passes. Weeks before the first study week are never emitted (they would all
+ * have to read "Week 1"); empty weeks after it are included with zero minutes.
+ * With no records but an explicit `endDate`, `weeks` empty weeks are returned.
  */
 export function weeklySeries(daily: DailyProgressDoc[], weeks = 8, endDate?: string): WeekPoint[] {
   if (weeks <= 0) return [];
@@ -91,11 +93,14 @@ export function weeklySeries(daily: DailyProgressDoc[], weeks = 8, endDate?: str
   const first = dates[0];
   const last = endDate ?? dates[dates.length - 1];
   const lastWeek = weekStartOf(last);
-  const firstWeek = first ? weekStartOf(first) : lastWeek;
+  const firstWeek = first ? weekStartOf(first) : addDays(lastWeek, -7 * (weeks - 1));
+  const earliest = addDays(lastWeek, -7 * (weeks - 1));
+  const startWeek = firstWeek > earliest ? firstWeek : earliest;
+  const count = Math.max(1, Math.round(daysBetween(startWeek, lastWeek) / 7) + 1);
 
   const buckets = new Map<string, WeekPoint>();
-  for (let i = weeks - 1; i >= 0; i--) {
-    const ws = addDays(lastWeek, -7 * i);
+  for (let i = 0; i < count; i++) {
+    const ws = addDays(startWeek, 7 * i);
     const n = Math.round(daysBetween(firstWeek, ws) / 7) + 1;
     buckets.set(ws, { weekLabel: `Week ${Math.max(1, n)}`, weekStart: ws, minutes: 0, accuracy: 0, correct: 0, total: 0, activeDays: 0 });
   }

@@ -8,6 +8,8 @@ import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadat
 import { Badge, Breadcrumbs, Button, Callout, Card, Container, Section, SpeakButton } from "@/components/ui";
 import { READING_KIND_LABEL, fmtMinutes } from "@/components/reading/labels";
 import { ReadingPractice } from "@/components/reading/ReadingPractice";
+import { renderFurigana, stripFurigana } from "@/lib/content/furigana";
+import { FuriganaSetting } from "@/components/content/FuriganaSetting";
 
 export function generateStaticParams() {
   return LEVELS.flatMap((level) => getReading(level).map((r) => ({ level, slug: r.slug })));
@@ -39,9 +41,9 @@ function Paper({ paragraphs, label }: { paragraphs: string[]; label?: string }) 
       <div lang="ja" className={`relative ja mx-auto max-w-prose px-6 sm:px-10 ${label ? "pt-4" : "pt-8"} pb-8 sm:pb-10 space-y-6 text-lg sm:text-xl leading-loose text-ink`}>
         {paragraphs.map((para, i) => (
           <p key={i} className="text-justify [text-indent:1em]">
-            {para}
+            {renderFurigana(para)}
             <span className="flex justify-end mt-1 [text-indent:0]">
-              <SpeakButton text={para} size="xs" />
+              <SpeakButton text={stripFurigana(para)} size="xs" />
             </span>
           </p>
         ))}
@@ -57,12 +59,12 @@ function VocabGrid({ vocab }: { vocab: { word: string; reading: string; meaning:
         {vocab.map((v, i) => (
           <div key={i} className="flex items-baseline gap-3 rounded-xl px-3 py-2.5 hover:bg-surface-2 transition">
             <dt className="shrink-0 min-w-0">
-              <span lang="ja" className="ja text-base font-medium text-ink">{v.word}</span>
+              <span lang="ja" className="ja text-base font-medium text-ink">{renderFurigana(v.word)}</span>
               {v.reading && (
                 <span lang="ja" className="ja block text-xs text-muted">{v.reading}</span>
               )}
             </dt>
-            <SpeakButton text={v.word} size="xs" className="self-center" />
+            <SpeakButton text={stripFurigana(v.word)} size="xs" className="self-center" />
             <dd className="text-sm text-ink-2 ml-auto text-right">{v.meaning}</dd>
           </div>
         ))}
@@ -104,7 +106,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
     { name: r.title },
   ];
 
-  const charCount = r.paragraphs.join("").length + (r.paragraphsB?.join("").length ?? 0);
+  const charCount = stripFurigana(r.paragraphs.join("")).length + stripFurigana(r.paragraphsB?.join("") ?? "").length;
 
   return (
     <Container>
@@ -118,8 +120,9 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
         }}
       />
       <Breadcrumbs items={crumbs} />
+      <FuriganaSetting />
 
-      <article className="pb-24 xl:pb-8">
+      <article className="pb-8">
         <header className="pt-8 pb-8 animate-rise">
           <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent mb-3">
             {L} · <span lang="ja" className="ja normal-case tracking-normal">{k.ja}</span> · {k.en}
@@ -154,13 +157,13 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
           id="passage"
           title={r.kind === "integrated" ? "Text A" : "Passage"}
           intro={r.kind === "integrated" ? "Two texts on the same theme. Compare their positions." : k.hint}
-          actions={<SpeakButton text={r.paragraphs.join("。")} size="md" label className="shrink-0" />}
+          actions={<SpeakButton text={stripFurigana(r.paragraphs.join("。"))} size="md" label className="shrink-0" />}
         >
           <Paper paragraphs={r.paragraphs} label={r.kind === "integrated" ? "A" : undefined} />
         </Section>
 
         {r.kind === "integrated" && r.paragraphsB && r.paragraphsB.length > 0 && (
-          <Section id="passage-b" title="Text B" actions={<SpeakButton text={r.paragraphsB.join("。")} size="md" label className="shrink-0" />}>
+          <Section id="passage-b" title="Text B" actions={<SpeakButton text={stripFurigana(r.paragraphsB.join("。"))} size="md" label className="shrink-0" />}>
             <Paper paragraphs={r.paragraphsB} label="B" />
           </Section>
         )}

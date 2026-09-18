@@ -2,7 +2,7 @@
 /**
  * Mock exam runner.
  *
- * Start screen (rules, sections, "Full exam" or "Single section", Resume) →
+ * Start screen (mode chooser, sections, collapsed rules, Resume) →
  * timed sections with a timestamp-based countdown (auto-submits the section on
  * time-up) → section break → scoring via scoreExam → completeExam → result page.
  *
@@ -20,6 +20,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
 import { Arrow, Badge, Button, Card, Callout, Kbd, SpeakButton, Stat } from "@/components/ui";
 
 import { JA_RE } from "@/components/study/helpers";
+import { examTitle, sectionGloss } from "./examLabels";
 import { examStateKey, formatClock, PromptText, saveSessionResult, typeLabel, type ExamAnswerState, type StoredExamResult } from "./shared";
 
 type Mode = "full" | "single";
@@ -466,9 +467,10 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
         {liveRegion}
         <div className="animate-rise">
           <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent mb-3">Mock exam · {exam.level.toUpperCase()}</p>
-          <h1 className="text-h1 ja" lang="ja">
+          <h1 className="text-h1">{examTitle(exam)}</h1>
+          <p lang="ja" className="ja mt-1 text-muted">
             {exam.title}
-          </h1>
+          </p>
           <p className="mt-4 text-muted text-lg leading-relaxed max-w-prose">{exam.description}</p>
         </div>
 
@@ -497,61 +499,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
           <Stat label="Time" value={`${Math.round(totalSeconds / 60)} min`} />
         </div>
 
-        <Card className="mt-4 animate-rise-3" padding="p-0">
-          <div className="px-5 sm:px-6 py-4 border-b border-line">
-            <h2 className="font-semibold text-lg">Sections</h2>
-          </div>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="text-left text-muted text-[11px] uppercase tracking-wider">
-                <tr>
-                  <th className="px-5 sm:px-6 py-2 font-medium">Section</th>
-                  <th className="px-3 py-2 font-medium text-right">Questions</th>
-                  <th className="px-5 sm:px-6 py-2 font-medium text-right">Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                {exam.sections.map((s, i) => (
-                  <tr key={s.id} className="border-t border-line">
-                    <td className="px-5 sm:px-6 py-2.5">
-                      <span className="inline-grid h-6 w-6 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold tabular-nums mr-2.5">{i + 1}</span>
-                      <span lang="ja" className="ja font-medium">
-                        {s.name}
-                      </span>
-                    </td>
-                    <td className="px-3 py-2.5 text-right tabular-nums">{countQuestions(s.questionIds)}</td>
-                    <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{Math.round(s.timeLimitSeconds / 60)} min</td>
-                  </tr>
-                ))}
-                <tr className="border-t border-line-strong font-semibold bg-bg-elev">
-                  <td className="px-5 sm:px-6 py-2.5">Total</td>
-                  <td className="px-3 py-2.5 text-right tabular-nums">{totalQ}</td>
-                  <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{Math.round(totalSeconds / 60)} min</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </Card>
-
-        <Card className="mt-4">
-          <h2 className="font-semibold text-lg">Rules</h2>
-          <ul className="mt-3 space-y-2 text-sm text-ink-2">
-            {[
-              "Each section has its own countdown. When it reaches zero the section is submitted automatically, even if questions are unanswered.",
-              "You can move freely between questions inside a section and flag questions to revisit. You cannot return to a finished section.",
-              "Listening scripts are hidden; press “Play script” to hear them through your browser’s text-to-speech. Replay as often as you like.",
-              "Progress is saved on this device every second. If the page reloads or you go offline, come back here and press Resume.",
-              "Scoring follows the JLPT scale: each section is scaled to 60 points (180 total). Pass estimate: 90 or more overall and at least 19 in every section.",
-            ].map((r, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="inline-grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold text-muted tabular-nums">{i + 1}</span>
-                <span>{r}</span>
-              </li>
-            ))}
-          </ul>
-        </Card>
-
-        <Card className="mt-4">
+        <Card className="mt-4 animate-rise-3">
           <fieldset>
             <legend className="font-semibold text-lg">Choose a mode</legend>
             <div role="radiogroup" aria-label="Exam mode" className="mt-3 inline-flex w-full sm:w-auto rounded-full border border-line bg-surface-2 p-1">
@@ -579,7 +527,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
               >
                 {exam.sections.map((s) => (
                   <option key={s.id} value={s.id}>
-                    {s.name} · {Math.round(s.timeLimitSeconds / 60)} min
+                    {sectionGloss(s)} ({s.name}) · {Math.round(s.timeLimitSeconds / 60)} min
                   </option>
                 ))}
               </select>
@@ -587,7 +535,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
           </fieldset>
           <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-line pt-4">
             <Button onClick={startExam} disabled={!uid || (mode === "single" && !singleSec)} size="lg">
-              {saved ? "Start a new attempt" : mode === "full" ? "Start full exam" : `Start ${singleSec?.name ?? "section"}`}
+              {saved ? "Start a new attempt" : mode === "full" ? "Start full exam" : `Start ${singleSec ? sectionGloss(singleSec) : "section"}`}
               <Arrow />
             </Button>
             <Button href="/mock-exams" variant="ghost">
@@ -596,6 +544,70 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
             {!uid && <span className="text-sm text-warn">Sign-in has not finished loading on this device, so the exam cannot be saved yet.</span>}
           </div>
         </Card>
+
+        <Card className="mt-4" padding="p-0">
+          <div className="px-5 sm:px-6 py-4 border-b border-line">
+            <h2 className="font-semibold text-lg">Sections</h2>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="text-left text-muted text-[11px] uppercase tracking-wider">
+                <tr>
+                  <th className="px-5 sm:px-6 py-2 font-medium">Section</th>
+                  <th className="px-3 py-2 font-medium text-right">Questions</th>
+                  <th className="px-5 sm:px-6 py-2 font-medium text-right">Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                {exam.sections.map((s, i) => (
+                  <tr key={s.id} className="border-t border-line">
+                    <td className="px-5 sm:px-6 py-2.5">
+                      <span className="flex items-start gap-2.5">
+                        <span className="inline-grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold tabular-nums">{i + 1}</span>
+                        <span className="min-w-0">
+                          <span className="block font-medium">{sectionGloss(s)}</span>
+                          <span lang="ja" className="ja block text-xs text-muted">
+                            {s.name}
+                          </span>
+                        </span>
+                      </span>
+                    </td>
+                    <td className="px-3 py-2.5 text-right tabular-nums">{countQuestions(s.questionIds)}</td>
+                    <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{Math.round(s.timeLimitSeconds / 60)} min</td>
+                  </tr>
+                ))}
+                <tr className="border-t border-line-strong font-semibold bg-bg-elev">
+                  <td className="px-5 sm:px-6 py-2.5">Total</td>
+                  <td className="px-3 py-2.5 text-right tabular-nums">{totalQ}</td>
+                  <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{Math.round(totalSeconds / 60)} min</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </Card>
+
+        <details className="mt-4 group surface rounded-2xl">
+          <summary className="cursor-pointer list-none px-5 sm:px-6 py-4 font-semibold text-lg flex items-center justify-between gap-3 [&::-webkit-details-marker]:hidden">
+            Exam rules
+            <svg aria-hidden className="h-4 w-4 text-muted transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </summary>
+          <ul className="px-5 sm:px-6 pb-5 space-y-2 text-sm text-ink-2">
+            {[
+              "Each section has its own countdown. When it reaches zero the section is submitted automatically, even if questions are unanswered.",
+              "You can move freely between questions inside a section and flag questions to revisit. You cannot return to a finished section.",
+              "Listening scripts are hidden; press “Play script” to hear them read aloud by a synthetic voice. Replay as often as you like.",
+              "Progress is saved on this device every second. If the page reloads or you go offline, come back here and press Resume.",
+              "Scoring follows the JLPT scale: each section is scaled to 60 points (180 total). Pass estimate: 90 or more overall and at least 19 in every section.",
+            ].map((r, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="inline-grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold text-muted tabular-nums">{i + 1}</span>
+                <span>{r}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
       </div>
     );
   }

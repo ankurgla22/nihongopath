@@ -279,12 +279,12 @@ try {
 
   await step("3. Dashboard shows Day 1 and stat row; Continue -> /daily-study", async () => {
     // Day counter renders "Day 1 / 180" once loaded
-    await page.getByText(/^Day\s+1\s*\/\s*\d+/).first().waitFor({ timeout: 20000 });
+    await page.getByText(/Day\s+1\s*(\/|of)\s*\d+/).first().waitFor({ timeout: 20000 });
     for (const label of ["Streak", "Study time", "Lessons", "Due reviews"]) {
       const n = await page.getByText(label, { exact: true }).count();
       if (!n) throw new Error(`Stat "${label}" not rendered`);
     }
-    await page.getByRole("link", { name: /Continue today's study|Open today's plan/ }).first().click();
+    await page.getByRole("link", { name: /Start Day 1|Continue Day \d+|Continue today's study|Open today's plan/ }).first().click();
     await page.waitForURL(/\/daily-study/);
     // A failed RSC prefetch makes Next fall back to a full browser navigation; let that settle
     // before interacting, otherwise React state (open panel) is wiped by the reload.
@@ -311,7 +311,18 @@ try {
     await panel.waitFor();
     const links = panel.locator("a[href*='/japanese/foundation/']");
     if ((await links.count()) === 0) throw new Error("No foundation lesson links in first kana task panel");
-    await panel.getByRole("button", { name: /^Mark done/ }).click();
+    // "Mark done" is disabled until the lesson has been opened: open it, come back, then mark done.
+    await links.first().click();
+    await page.waitForURL(/\/japanese\/foundation\//, { timeout: 20000 });
+    await page.goBack();
+    await page.waitForURL(/\/daily-study/);
+    await page.waitForLoadState("load");
+    await tasks.first().waitFor({ timeout: 30000 });
+    if ((await header.getAttribute("aria-expanded")) !== "true") await header.click();
+    await panel.waitFor();
+    const markDone = panel.getByRole("button", { name: /^Mark done/ });
+    await markDone.and(panel.locator(":enabled")).waitFor({ timeout: 10000 });
+    await markDone.click();
     try {
       await first.getByText("Done", { exact: true }).waitFor({ timeout: 20000 });
     } catch {
