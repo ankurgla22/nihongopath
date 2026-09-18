@@ -14,17 +14,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n長年の交渉の末、両国はようやく【妥協】に達した。",
     "context": "",
     "options": [
-      "だきょう",
-      "たきょう",
       "だこう",
+      "たきょう",
+      "だきょう",
       "たこう"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "妥協（だきょう）= compromise.",
     "distractorExplanations": [
-      "(correct answer)",
-      "妥 is voiced: だ.",
       "協 is きょう, not こう.",
+      "妥 is voiced: だ.",
+      "(correct answer)",
       "Both parts wrong."
     ]
   },
@@ -43,16 +43,16 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nその説は、多くの学者から【疑わしい】とされている。",
     "context": "",
     "options": [
-      "うたがわしい",
       "まぎらわしい",
+      "うたがわしい",
       "わずらわしい",
       "うたがしい"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "疑わしい（うたがわしい）= doubtful.",
     "distractorExplanations": [
-      "(correct answer)",
       "紛らわしい = confusingly similar.",
+      "(correct answer)",
       "煩わしい = troublesome.",
       "Missing わ; the verb is うたがう."
     ]
@@ -72,18 +72,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n彼の発言は、会議の空気を一気に【和らげた】。",
     "context": "",
     "options": [
-      "やわらげた",
+      "やわらいだ",
       "なごらげた",
       "わらげた",
-      "やわらいだ"
+      "やわらげた"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "和らげる（やわらげる）= to soften (transitive).",
     "distractorExplanations": [
-      "(correct answer)",
+      "和らぐ（やわらぐ）is intransitive; the object 空気を needs the transitive.",
       "和む is なごむ; なごらげる does not exist.",
       "Missing the や.",
-      "和らぐ（やわらぐ）is intransitive; the object 空気を needs the transitive."
+      "(correct answer)"
     ]
   },
   {
@@ -101,16 +101,16 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n政府は景気の【緩やか】な回復を認めた。",
     "context": "",
     "options": [
-      "ゆるやか",
       "おだやか",
+      "ゆるやか",
       "すこやか",
       "なだらか"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "緩やか（ゆるやか）= gentle, gradual.",
     "distractorExplanations": [
-      "(correct answer)",
       "穏やか = calm.",
+      "(correct answer)",
       "健やか = healthy.",
       "なだらか (of slopes) is written 滑らか or in kana."
     ]
@@ -130,16 +130,16 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n新しい制度の【趣旨】を国民に丁寧に説明すべきだ。",
     "context": "",
     "options": [
-      "しゅし",
       "しゅうし",
+      "しゅし",
       "しゅじ",
       "おもむき"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "趣旨（しゅし）= purport, aim.",
     "distractorExplanations": [
-      "(correct answer)",
       "No long vowel: しゅ.",
+      "(correct answer)",
       "旨 is し, not じ.",
       "おもむき is the 訓読み of 趣 alone."
     ]
@@ -159,17 +159,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n事故の【惨状】を目の当たりにして、言葉を失った。",
     "context": "",
     "options": [
-      "さんじょう",
-      "ざんじょう",
       "さんしょう",
+      "ざんじょう",
+      "さんじょう",
       "しんじょう"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "惨状（さんじょう）= a terrible scene.",
     "distractorExplanations": [
-      "(correct answer)",
-      "惨 is not voiced here.",
       "状 is voiced: じょう.",
+      "惨 is not voiced here.",
+      "(correct answer)",
       "惨 is さん, not しん."
     ]
   },
@@ -188,18 +188,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n彼は自分の失敗を（　）認め、すぐに謝罪した。",
     "context": "",
     "options": [
-      "潔く",
+      "疎く",
       "快く",
       "著しく",
-      "疎く"
+      "潔く"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "潔く認める = admit gracefully, without excuses.",
     "distractorExplanations": [
-      "(correct answer)",
+      "疎く = not well-versed (疎い).",
       "快く = willingly (of accepting requests).",
       "著しく = remarkably.",
-      "疎く = not well-versed (疎い)."
+      "(correct answer)"
     ]
   },
   {
@@ -217,17 +217,17 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nこの地域の伝統工芸は、後継者不足で（　）の危機にある。",
     "context": "",
     "options": [
-      "衰退",
-      "減少",
       "縮小",
+      "減少",
+      "衰退",
       "後退"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "衰退の危機 = the danger of decline (of a tradition or industry).",
     "distractorExplanations": [
-      "(correct answer)",
-      "減少 = decrease in number.",
       "縮小 = reduction in scale.",
+      "減少 = decrease in number.",
+      "(correct answer)",
       "後退 = retreat, setback."
     ]
   },
@@ -275,17 +275,17 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n彼は感情を表に出さず、いつも（　）としている。",
     "context": "",
     "options": [
-      "淡々",
-      "堂々",
       "延々",
+      "堂々",
+      "淡々",
       "続々"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "淡々としている = calm and unemotional.",
     "distractorExplanations": [
-      "(correct answer)",
-      "堂々 = dignified, imposing.",
       "延々 = endlessly.",
+      "堂々 = dignified, imposing.",
+      "(correct answer)",
       "続々 = one after another."
     ]
   },
@@ -304,18 +304,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n彼の説明には（　）があり、質問に答えられなかった。",
     "context": "",
     "options": [
-      "矛盾",
+      "差別",
       "対立",
       "混乱",
-      "差別"
+      "矛盾"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "説明に矛盾がある = the explanation is self-contradictory.",
     "distractorExplanations": [
-      "(correct answer)",
+      "差別 = discrimination.",
       "対立 = confrontation between parties.",
       "混乱 = confusion (of a situation).",
-      "差別 = discrimination."
+      "(correct answer)"
     ]
   },
   {
@@ -333,16 +333,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n会社は、業績不振を理由に新規採用を（　）した。",
     "context": "",
     "options": [
-      "見送り",
       "見逃し",
+      "見送り",
       "見落とし",
       "見過ごし"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "採用を見送る = postpone or forgo hiring.",
     "distractorExplanations": [
-      "(correct answer)",
       "見逃す = let slip, overlook (an error).",
+      "(correct answer)",
       "見落とす = fail to notice.",
       "見過ごす = let pass without acting."
     ]
@@ -362,18 +362,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n災害時には、正確な情報を（　）に伝えることが求められる。",
     "context": "",
     "options": [
-      "迅速",
+      "高速",
       "急速",
       "急激",
-      "高速"
+      "迅速"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "迅速に伝える = convey promptly.",
     "distractorExplanations": [
-      "(correct answer)",
+      "高速 = high speed (of vehicles, processing).",
       "急速 describes rapid change (急速に発展する).",
       "急激 = sudden and sharp (急激な変化).",
-      "高速 = high speed (of vehicles, processing)."
+      "(correct answer)"
     ]
   },
   {
@@ -420,17 +420,17 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nその計画は【頓挫した】。",
     "context": "",
     "options": [
-      "途中で行き詰まった",
-      "順調に進んだ",
       "大成功した",
+      "順調に進んだ",
+      "途中で行き詰まった",
       "延期された"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "頓挫する = come to a standstill = 行き詰まる.",
     "distractorExplanations": [
+      "Opposite.",
+      "Opposite.",
       "(correct answer)",
-      "Opposite.",
-      "Opposite.",
       "Postponement is 延期."
     ]
   },
@@ -449,17 +449,17 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼女は【しぶしぶ】引き受けた。",
     "context": "",
     "options": [
-      "いやいやながら",
-      "喜んで",
       "すぐに",
+      "喜んで",
+      "いやいやながら",
       "自ら"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "しぶしぶ = reluctantly = いやいやながら.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Opposite.",
       "Speed is unrelated.",
+      "Opposite.",
+      "(correct answer)",
       "Voluntarily is the opposite."
     ]
   },
@@ -507,18 +507,18 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n新しい部長は【物腰が柔らかい】。",
     "context": "",
     "options": [
-      "態度が穏やかだ",
+      "話が長い",
       "体が柔軟だ",
       "意志が弱い",
-      "話が長い"
+      "態度が穏やかだ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "物腰が柔らかい = has a gentle manner.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Unrelated.",
       "Literal misreading.",
       "Gentle manner does not mean weak will.",
-      "Unrelated."
+      "(correct answer)"
     ]
   },
   {
@@ -536,16 +536,16 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼はその噂を【一蹴した】。",
     "context": "",
     "options": [
-      "きっぱり否定した",
       "広めた",
+      "きっぱり否定した",
       "信じた",
       "調べた"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "一蹴する = dismiss flatly.",
     "distractorExplanations": [
-      "(correct answer)",
       "Spreading is the opposite.",
+      "(correct answer)",
       "Believing is the opposite.",
       "Investigating is not dismissing."
     ]
@@ -565,18 +565,18 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n打ち明ける",
     "context": "",
     "options": [
-      "長年の悩みを、初めて親友に打ち明けた。",
+      "試合で相手を打ち明けた。",
       "会議で新製品を打ち明けた。",
       "窓を打ち明けて空気を入れ替えた。",
-      "試合で相手を打ち明けた。"
+      "長年の悩みを、初めて親友に打ち明けた。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "打ち明ける = confide (a secret or worry).",
     "distractorExplanations": [
-      "(correct answer)",
+      "Defeating is 打ち負かす.",
       "Announcing a product is 発表する.",
       "Opening a window is 開ける.",
-      "Defeating is 打ち負かす."
+      "(correct answer)"
     ]
   },
   {
@@ -594,18 +594,18 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nおおむね",
     "context": "",
     "options": [
-      "計画はおおむね予定どおり進んでいる。",
+      "彼はおおむねな人だ。",
       "彼はおおむね三時に来た。",
       "おおむね静かにしてください。",
-      "彼はおおむねな人だ。"
+      "計画はおおむね予定どおり進んでいる。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "おおむね = generally, for the most part (of an assessment).",
     "distractorExplanations": [
-      "(correct answer)",
+      "おおむね is an adverb, not a na-adjective.",
       "A specific time takes ちょうど or 大体.",
       "Cannot modify a request.",
-      "おおむね is an adverb, not a na-adjective."
+      "(correct answer)"
     ]
   },
   {
@@ -623,17 +623,17 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n根拠",
     "context": "",
     "options": [
-      "その主張には科学的な根拠がない。",
-      "この木は根拠が深い。",
       "彼は根拠な性格だ。",
+      "この木は根拠が深い。",
+      "その主張には科学的な根拠がない。",
       "会社の根拠は東京にある。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "根拠 = grounds, basis (for a claim).",
     "distractorExplanations": [
-      "(correct answer)",
-      "Roots are 根.",
       "Not an adjective.",
+      "Roots are 根.",
+      "(correct answer)",
       "Headquarters is 本拠 or 本社."
     ]
   },
@@ -652,16 +652,16 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n紛れる",
     "context": "",
     "options": [
-      "人ごみに紛れて、彼の姿が見えなくなった。",
       "仕事に紛れて会議を忘れた。",
+      "人ごみに紛れて、彼の姿が見えなくなった。",
       "紛れた靴下を探している。",
       "彼は紛れた性格だ。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "紛れる = blend into (a crowd) and become indistinguishable.",
     "distractorExplanations": [
-      "(correct answer)",
       "Being busy with work is 仕事に追われて; 仕事に紛れて is wrong.",
+      "(correct answer)",
       "A lost sock is なくした.",
       "Not a personality word."
     ]
@@ -681,17 +681,17 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nためらう",
     "context": "",
     "options": [
-      "高額なので、買うのをためらった。",
-      "彼はためらって走り出した。",
       "ためらった料理を出した。",
+      "彼はためらって走り出した。",
+      "高額なので、買うのをためらった。",
       "電車がためらって到着した。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "ためらう = hesitate (before acting).",
     "distractorExplanations": [
-      "(correct answer)",
-      "Hesitating and dashing off contradict.",
       "Not used for food.",
+      "Hesitating and dashing off contradict.",
+      "(correct answer)",
       "Trains are delayed (遅れる)."
     ]
   },
@@ -710,17 +710,17 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n強いる",
     "context": "",
     "options": [
-      "部下に残業を強いるのは問題だ。",
-      "彼は毎朝、体を強いている。",
       "強いる風で木が倒れた。",
+      "彼は毎朝、体を強いている。",
+      "部下に残業を強いるのは問題だ。",
       "この壁は強いる。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "強いる（しいる）= force (something on someone).",
     "distractorExplanations": [
-      "(correct answer)",
-      "Training the body is 鍛える.",
       "Strong wind is 強い風.",
+      "Training the body is 鍛える.",
+      "(correct answer)",
       "A sturdy wall is 丈夫だ."
     ]
   },
@@ -739,17 +739,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n首相の発言は、国民の不安を（　）。",
     "context": "",
     "options": [
-      "あおるものでしかなかった",
-      "あおるまでもなかった",
       "あおるべくもなかった",
+      "あおるまでもなかった",
+      "あおるものでしかなかった",
       "あおるに足りなかった"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "〜でしかない = was nothing but (something that stoked public anxiety).",
     "distractorExplanations": [
-      "(correct answer)",
-      "までもない = no need to; illogical.",
       "べくもない = there is no way to; illogical.",
+      "までもない = no need to; illogical.",
+      "(correct answer)",
       "に足りない is not used this way with a transitive action."
     ]
   },
@@ -768,17 +768,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n彼は一度決めた（　）、周囲が何と言おうと計画を変えない。",
     "context": "",
     "options": [
-      "が最後",
-      "が早いか",
       "とあって",
+      "が早いか",
+      "が最後",
       "ともなると"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "決めたが最後 = once he decides, (there is no going back).",
     "distractorExplanations": [
-      "(correct answer)",
-      "が早いか = as soon as; describes an immediate next action, not stubbornness.",
       "とあって = because of the special situation.",
+      "が早いか = as soon as; describes an immediate next action, not stubbornness.",
+      "(correct answer)",
       "ともなると = when it comes to (a status)."
     ]
   },
@@ -797,16 +797,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nご多忙のところ恐縮ですが、ご確認（　）幸いです。",
     "context": "",
     "options": [
-      "いただければ",
       "いたせば",
+      "いただければ",
       "してもらえば",
       "なさるなら"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "ご確認いただければ幸いです = I would be grateful if you could confirm; the set humble formula.",
     "distractorExplanations": [
-      "(correct answer)",
       "いたす is humble for one's own action; the listener is the one confirming.",
+      "(correct answer)",
       "Plain 〜てもらえば is not polite enough for this register.",
       "なさるなら does not form the request formula."
     ]
@@ -855,18 +855,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n彼は新人（　）、驚くほど落ち着いた対応をした。",
     "context": "",
     "options": [
-      "ながら",
+      "にひきかえ",
       "ゆえに",
       "とあれば",
-      "にひきかえ"
+      "ながら"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "新人ながら = although a newcomer.",
     "distractorExplanations": [
-      "(correct answer)",
+      "にひきかえ = in contrast to (another party).",
       "ゆえに = because of; contradicts.",
       "とあれば = if it is the case that.",
-      "にひきかえ = in contrast to (another party)."
+      "(correct answer)"
     ]
   },
   {
@@ -884,16 +884,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこんな簡単な問題、子ども（　）解けるだろう。",
     "context": "",
     "options": [
-      "でも",
       "だに",
+      "でも",
       "すら",
       "なりに"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "子どもでも解ける = even a child could solve it (minimal example, positive).",
     "distractorExplanations": [
-      "(correct answer)",
       "だに is used with negatives or 想像する (想像だにしない).",
+      "(correct answer)",
       "すら is used with negatives in this sense.",
       "なりに = in one's own way."
     ]
@@ -1000,18 +1000,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nそんな無責任な発言は、公人（　）言語道断だ。",
     "context": "",
     "options": [
-      "にあるまじき",
+      "に即した",
       "にたえない",
       "にかたくない",
-      "に即した"
+      "にあるまじき"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "公人にあるまじき発言 = a remark unbecoming of a public figure.",
     "distractorExplanations": [
-      "(correct answer)",
+      "に即した = in line with.",
       "にたえない = cannot bear to (見るにたえない).",
       "にかたくない = easy to (想像にかたくない).",
-      "に即した = in line with."
+      "(correct answer)"
     ]
   },
   {
@@ -1174,17 +1174,17 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【16】",
     "context": "「読書離れ」が言われて久しい。だが、私はこの言葉に【16】違和感を覚えている。人々が「読んでいない」のではなく、「本という形で読んでいない」だけなのではないか。\n\n通勤電車の中を見渡せば、ほとんどの人が画面に目を落としている。そこにあるのは、ニュース記事であり、誰かの長い投稿であり、連載小説であったりする。文字を読むという行為そのものは、【17】増えているとさえ言えるかもしれない。\n\nでは、何が失われたのか。それは「一冊の本と長く付き合う」という経験だと私は思う。画面の上の文章は、次々に流れ、消えていく。一つの考えを、著者と共に何日もかけて追いかける。その過程で、自分の考えが少しずつ形を変えていく。こうした経験は、断片的な読みからは【18】。\n\nだからといって、紙の本に戻れと言いたいのではない。形式は問題ではない。必要なのは、一つの文章に長くとどまる時間を、意識的に確保することである。それは、情報が絶え間なく流れ込む現代において、【19】。「読書離れ」を嘆く前に、私たちはまず、自分がどのように読んでいるのかを、問い直す【20】。",
     "options": [
-      "かねてから",
-      "やがて",
       "とっくに",
+      "やがて",
+      "かねてから",
       "いずれ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "かねてから違和感を覚えている = have long felt uneasy (continuing state).",
     "distractorExplanations": [
-      "(correct answer)",
-      "やがて = before long (future).",
       "とっくに = long ago (completed).",
+      "やがて = before long (future).",
+      "(correct answer)",
       "いずれ = eventually (future)."
     ]
   },
@@ -1203,16 +1203,16 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【17】",
     "context": "「読書離れ」が言われて久しい。だが、私はこの言葉に【16】違和感を覚えている。人々が「読んでいない」のではなく、「本という形で読んでいない」だけなのではないか。\n\n通勤電車の中を見渡せば、ほとんどの人が画面に目を落としている。そこにあるのは、ニュース記事であり、誰かの長い投稿であり、連載小説であったりする。文字を読むという行為そのものは、【17】増えているとさえ言えるかもしれない。\n\nでは、何が失われたのか。それは「一冊の本と長く付き合う」という経験だと私は思う。画面の上の文章は、次々に流れ、消えていく。一つの考えを、著者と共に何日もかけて追いかける。その過程で、自分の考えが少しずつ形を変えていく。こうした経験は、断片的な読みからは【18】。\n\nだからといって、紙の本に戻れと言いたいのではない。形式は問題ではない。必要なのは、一つの文章に長くとどまる時間を、意識的に確保することである。それは、情報が絶え間なく流れ込む現代において、【19】。「読書離れ」を嘆く前に、私たちはまず、自分がどのように読んでいるのかを、問い直す【20】。",
     "options": [
-      "むしろ",
       "まさか",
+      "むしろ",
       "あたかも",
       "よもや"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "むしろ増えている = if anything, it has increased (contrary to the assumption).",
     "distractorExplanations": [
-      "(correct answer)",
       "まさか expresses disbelief and takes a negative.",
+      "(correct answer)",
       "あたかも = as if; needs ようだ.",
       "よもや takes a negative."
     ]
@@ -1232,16 +1232,16 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【18】",
     "context": "「読書離れ」が言われて久しい。だが、私はこの言葉に【16】違和感を覚えている。人々が「読んでいない」のではなく、「本という形で読んでいない」だけなのではないか。\n\n通勤電車の中を見渡せば、ほとんどの人が画面に目を落としている。そこにあるのは、ニュース記事であり、誰かの長い投稿であり、連載小説であったりする。文字を読むという行為そのものは、【17】増えているとさえ言えるかもしれない。\n\nでは、何が失われたのか。それは「一冊の本と長く付き合う」という経験だと私は思う。画面の上の文章は、次々に流れ、消えていく。一つの考えを、著者と共に何日もかけて追いかける。その過程で、自分の考えが少しずつ形を変えていく。こうした経験は、断片的な読みからは【18】。\n\nだからといって、紙の本に戻れと言いたいのではない。形式は問題ではない。必要なのは、一つの文章に長くとどまる時間を、意識的に確保することである。それは、情報が絶え間なく流れ込む現代において、【19】。「読書離れ」を嘆く前に、私たちはまず、自分がどのように読んでいるのかを、問い直す【20】。",
     "options": [
-      "得られようがない",
       "得られるにきまっている",
+      "得られようがない",
       "得ずにはいられない",
       "得るまでもない"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "得られようがない = there is no way to obtain (from fragmentary reading).",
     "distractorExplanations": [
-      "(correct answer)",
       "にきまっている = certainly can be obtained; opposite.",
+      "(correct answer)",
       "ずにはいられない = cannot help but; illogical.",
       "までもない = no need to; illogical."
     ]
@@ -1290,16 +1290,16 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【20】",
     "context": "「読書離れ」が言われて久しい。だが、私はこの言葉に【16】違和感を覚えている。人々が「読んでいない」のではなく、「本という形で読んでいない」だけなのではないか。\n\n通勤電車の中を見渡せば、ほとんどの人が画面に目を落としている。そこにあるのは、ニュース記事であり、誰かの長い投稿であり、連載小説であったりする。文字を読むという行為そのものは、【17】増えているとさえ言えるかもしれない。\n\nでは、何が失われたのか。それは「一冊の本と長く付き合う」という経験だと私は思う。画面の上の文章は、次々に流れ、消えていく。一つの考えを、著者と共に何日もかけて追いかける。その過程で、自分の考えが少しずつ形を変えていく。こうした経験は、断片的な読みからは【18】。\n\nだからといって、紙の本に戻れと言いたいのではない。形式は問題ではない。必要なのは、一つの文章に長くとどまる時間を、意識的に確保することである。それは、情報が絶え間なく流れ込む現代において、【19】。「読書離れ」を嘆く前に、私たちはまず、自分がどのように読んでいるのかを、問い直す【20】。",
     "options": [
-      "べきではないだろうか",
       "べきではなかろうはずがない",
+      "べきではないだろうか",
       "までもないだろう",
       "はずがないだろうか"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "問い直すべきではないだろうか = should we not first re-examine…? Rhetorical closing matching まず.",
     "distractorExplanations": [
-      "(correct answer)",
       "Ungrammatical double negation.",
+      "(correct answer)",
       "までもない contradicts the writer's call to reflect.",
       "Ungrammatical."
     ]
@@ -1319,16 +1319,16 @@
     "prompt": "筆者の考えに合うものはどれか。",
     "context": "謝罪の場面で、多くの人は「なぜそうなったのか」を説明しようとする。だが、説明は往々にして言い訳に聞こえる。相手が求めているのは事情の解説ではなく、自分の痛みが理解されたという実感である。まず相手が何に傷ついたのかを受け止めること。説明はその後でよい。順序を間違えると、どれほど正確な説明も、火に油を注ぐ結果になりかねない。",
     "options": [
-      "謝罪は、相手の感情を受け止めることから始まる。",
       "謝罪は、事実を正確に説明することが最も重要だ。",
+      "謝罪は、相手の感情を受け止めることから始まる。",
       "謝罪は、早ければ早いほどよい。",
       "謝罪の言葉は、短いほうが誠実に聞こえる。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "「まず相手が何に傷ついたのかを受け止めること。説明はその後でよい」.",
     "distractorExplanations": [
-      "(correct answer)",
       "The writer puts explanation second.",
+      "(correct answer)",
       "Speed is not discussed.",
       "Length is not discussed."
     ]
@@ -1406,17 +1406,17 @@
     "prompt": "①この説明とは、どのような説明か。",
     "context": "日本の職場では、「空気を読む」ことが重視されると言われる。会議で反対意見を口にしない、上司より先に帰らない。こうした振る舞いは、しばしば日本的な集団主義の表れとして説明されてきた。だが私は、①この説明には疑問を持っている。\n\nというのも、同じ日本人でも、職場が変われば行動が変わるからだ。私が以前勤めていた外資系の企業では、会議で沈黙していると「意見がないのか」と問われた。そこでは、日本人社員も活発に発言していた。つまり、「空気を読む」行動は、国民性というより、その場のルールへの適応にすぎない。\n\n問題は、そのルールが誰によって、どのように作られているのかが見えにくいことである。誰も「反対するな」とは言っていない。しかし、反対した者が次の会議に呼ばれなくなる、という経験が積み重なれば、人は黙ることを学ぶ。②ルールは明文化されていないからこそ、変えるのが難しい。\n\n組織を変えたいなら、「日本人だから」という説明をまず捨てるべきだ。そして、自分たちの職場で、どのような行動が報われ、どのような行動が罰せられているのかを、具体的に観察することから始めなければならない。",
     "options": [
-      "空気を読む行動は日本的な集団主義の表れだという説明",
-      "外資系企業では日本人も発言するという説明",
       "職場のルールは明文化されていないという説明",
+      "外資系企業では日本人も発言するという説明",
+      "空気を読む行動は日本的な集団主義の表れだという説明",
       "組織を変えるには観察が必要だという説明"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "この説明 points to the preceding sentence: the behaviour explained as 日本的な集団主義の表れ.",
     "distractorExplanations": [
-      "(correct answer)",
-      "This is the writer's counter-evidence.",
       "This is the writer's later point.",
+      "This is the writer's counter-evidence.",
+      "(correct answer)",
       "This is the writer's conclusion."
     ]
   },
@@ -1435,16 +1435,16 @@
     "prompt": "②ルールは明文化されていないからこそ、変えるのが難しいとあるが、なぜか。",
     "context": "日本の職場では、「空気を読む」ことが重視されると言われる。会議で反対意見を口にしない、上司より先に帰らない。こうした振る舞いは、しばしば日本的な集団主義の表れとして説明されてきた。だが私は、①この説明には疑問を持っている。\n\nというのも、同じ日本人でも、職場が変われば行動が変わるからだ。私が以前勤めていた外資系の企業では、会議で沈黙していると「意見がないのか」と問われた。そこでは、日本人社員も活発に発言していた。つまり、「空気を読む」行動は、国民性というより、その場のルールへの適応にすぎない。\n\n問題は、そのルールが誰によって、どのように作られているのかが見えにくいことである。誰も「反対するな」とは言っていない。しかし、反対した者が次の会議に呼ばれなくなる、という経験が積み重なれば、人は黙ることを学ぶ。②ルールは明文化されていないからこそ、変えるのが難しい。\n\n組織を変えたいなら、「日本人だから」という説明をまず捨てるべきだ。そして、自分たちの職場で、どのような行動が報われ、どのような行動が罰せられているのかを、具体的に観察することから始めなければならない。",
     "options": [
-      "誰がどのように作ったルールなのかが見えにくいから",
       "日本人は国民性として沈黙を好むから",
+      "誰がどのように作ったルールなのかが見えにくいから",
       "上司が反対意見を禁止しているから",
       "外資系企業のルールと違うから"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "「そのルールが誰によって、どのように作られているのかが見えにくい」.",
     "distractorExplanations": [
-      "(correct answer)",
       "The writer rejects the national-character explanation.",
+      "(correct answer)",
       "Nobody explicitly forbids disagreement.",
       "Not the reason given."
     ]
@@ -1464,18 +1464,18 @@
     "prompt": "筆者が最も言いたいことは何か。",
     "context": "日本の職場では、「空気を読む」ことが重視されると言われる。会議で反対意見を口にしない、上司より先に帰らない。こうした振る舞いは、しばしば日本的な集団主義の表れとして説明されてきた。だが私は、①この説明には疑問を持っている。\n\nというのも、同じ日本人でも、職場が変われば行動が変わるからだ。私が以前勤めていた外資系の企業では、会議で沈黙していると「意見がないのか」と問われた。そこでは、日本人社員も活発に発言していた。つまり、「空気を読む」行動は、国民性というより、その場のルールへの適応にすぎない。\n\n問題は、そのルールが誰によって、どのように作られているのかが見えにくいことである。誰も「反対するな」とは言っていない。しかし、反対した者が次の会議に呼ばれなくなる、という経験が積み重なれば、人は黙ることを学ぶ。②ルールは明文化されていないからこそ、変えるのが難しい。\n\n組織を変えたいなら、「日本人だから」という説明をまず捨てるべきだ。そして、自分たちの職場で、どのような行動が報われ、どのような行動が罰せられているのかを、具体的に観察することから始めなければならない。",
     "options": [
-      "職場の行動は国民性ではなく、その場のルールへの適応であり、変えるにはまずそのルールを観察すべきだ。",
+      "明文化されたルールを増やせば、組織は変わる。",
       "日本人は集団主義なので、外資系企業で働くべきだ。",
       "会議では常に反対意見を言うべきだ。",
-      "明文化されたルールを増やせば、組織は変わる。"
+      "職場の行動は国民性ではなく、その場のルールへの適応であり、変えるにはまずそのルールを観察すべきだ。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "The final paragraph: discard 「日本人だから」and observe what is rewarded and punished.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Not stated.",
       "The writer denies the collectivism explanation.",
       "Not stated.",
-      "Not stated."
+      "(correct answer)"
     ]
   },
   {
@@ -1493,17 +1493,17 @@
     "prompt": "①老いた身体の中に蓄えられているものは何か。",
     "context": "「老い」を否定的に語る言葉は多い。衰え、喪失、引退。だが、動物行動学の視点から見ると、老いた個体が群れで果たす役割は、決して小さくない。\n\n例えば、ゾウの群れを率いるのは、最も年長のメスである。彼女は数十年分の記憶を持ち、干ばつの年にどこへ行けば水があるかを知っている。若い個体には知りようのない情報が、①老いた身体の中に蓄えられているのだ。シャチの群れでも、繁殖を終えた高齢のメスが、獲物の少ない時期に群れを導くことが観察されている。\n\n人間の社会も、かつては同じだったはずだ。文字がなかった時代、共同体の記憶は年長者の中にしかなかった。文字と、そして検索技術が、その役割を奪ったと言われる。しかし本当にそうだろうか。②検索で得られるのは情報であって、判断ではない。どの情報を信じ、どの情報を捨てるか。その判断の精度は、経験の量に依存する。\n\n老いを「役割の終わり」と見なす社会は、自らの判断力の一部を捨てているのかもしれない。",
     "options": [
-      "長年の経験に基づく、生存に必要な記憶",
-      "若い個体より強い体力",
       "繁殖のための能力",
+      "若い個体より強い体力",
+      "長年の経験に基づく、生存に必要な記憶",
       "群れの中での地位"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "The elephant matriarch knows where water is in drought years: decades of memory.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Physical strength is not the point.",
       "The orca example explicitly concerns post-reproductive females.",
+      "Physical strength is not the point.",
+      "(correct answer)",
       "Status follows from knowledge, not what is stored."
     ]
   },
@@ -1522,18 +1522,18 @@
     "prompt": "②検索で得られるのは情報であって、判断ではないとあるが、筆者はどういうことを言いたいのか。",
     "context": "「老い」を否定的に語る言葉は多い。衰え、喪失、引退。だが、動物行動学の視点から見ると、老いた個体が群れで果たす役割は、決して小さくない。\n\n例えば、ゾウの群れを率いるのは、最も年長のメスである。彼女は数十年分の記憶を持ち、干ばつの年にどこへ行けば水があるかを知っている。若い個体には知りようのない情報が、①老いた身体の中に蓄えられているのだ。シャチの群れでも、繁殖を終えた高齢のメスが、獲物の少ない時期に群れを導くことが観察されている。\n\n人間の社会も、かつては同じだったはずだ。文字がなかった時代、共同体の記憶は年長者の中にしかなかった。文字と、そして検索技術が、その役割を奪ったと言われる。しかし本当にそうだろうか。②検索で得られるのは情報であって、判断ではない。どの情報を信じ、どの情報を捨てるか。その判断の精度は、経験の量に依存する。\n\n老いを「役割の終わり」と見なす社会は、自らの判断力の一部を捨てているのかもしれない。",
     "options": [
-      "どの情報を信じるかを決める力は、経験によって培われるものであり、検索では代わりにならない。",
+      "判断は若い人のほうが得意である。",
       "検索技術は、年長者の記憶よりも正確である。",
       "情報が多ければ多いほど、判断は簡単になる。",
-      "判断は若い人のほうが得意である。"
+      "どの情報を信じるかを決める力は、経験によって培われるものであり、検索では代わりにならない。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "「その判断の精度は、経験の量に依存する」.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Opposite of the argument.",
       "The writer questions this view.",
       "Opposite of the argument.",
-      "Opposite of the argument."
+      "(correct answer)"
     ]
   },
   {
@@ -1551,18 +1551,18 @@
     "prompt": "この文章で筆者が言いたいことは何か。",
     "context": "「老い」を否定的に語る言葉は多い。衰え、喪失、引退。だが、動物行動学の視点から見ると、老いた個体が群れで果たす役割は、決して小さくない。\n\n例えば、ゾウの群れを率いるのは、最も年長のメスである。彼女は数十年分の記憶を持ち、干ばつの年にどこへ行けば水があるかを知っている。若い個体には知りようのない情報が、①老いた身体の中に蓄えられているのだ。シャチの群れでも、繁殖を終えた高齢のメスが、獲物の少ない時期に群れを導くことが観察されている。\n\n人間の社会も、かつては同じだったはずだ。文字がなかった時代、共同体の記憶は年長者の中にしかなかった。文字と、そして検索技術が、その役割を奪ったと言われる。しかし本当にそうだろうか。②検索で得られるのは情報であって、判断ではない。どの情報を信じ、どの情報を捨てるか。その判断の精度は、経験の量に依存する。\n\n老いを「役割の終わり」と見なす社会は、自らの判断力の一部を捨てているのかもしれない。",
     "options": [
-      "老いた個体や年長者は、経験に基づく判断力によって共同体に貢献できる。",
+      "老いは衰えであり、社会はそれを受け入れるべきだ。",
       "動物の群れでは常に最も強い個体が指導者になる。",
       "文字の発明によって、年長者の役割は完全に失われた。",
-      "老いは衰えであり、社会はそれを受け入れるべきだ。"
+      "老いた個体や年長者は、経験に基づく判断力によって共同体に貢献できる。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "The essay argues that societies dismissing the old discard part of their own judgement.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Opposite.",
       "The elephant and orca leaders are the oldest, not the strongest.",
       "The writer challenges this claim.",
-      "Opposite."
+      "(correct answer)"
     ]
   },
   {
@@ -1580,17 +1580,17 @@
     "prompt": "①この数字とあるが、何を指しているか。",
     "context": "私は二十年ほど、ある地方都市で書店を営んでいる。開店当時、町には五軒の書店があった。今残っているのは、うちを含めて二軒である。①この数字を、私は「本が読まれなくなった証拠」だとは考えていない。むしろ、本の売られ方が変わったのだと思っている。\n\nインターネットで本を買えば、翌日には届く。品切れもない。価格も同じか、安い。この条件で、なぜわざわざ店に足を運ぶ必要があるのか。開店当時の私なら、答えられなかっただろう。当時のうちの店は、要するに「本を置いてある場所」でしかなかったからだ。\n\n転機は十年前、経営が最も苦しかった時期に訪れた。ある常連客が、「この店で本を選ぶと、なぜか外れがない」と言ってくれたのだ。その言葉で気づいた。うちの棚は、私が二十年かけて読み、選び、並べてきたものだ。検索では出てこない本が、隣り合って置いてある。客はそれを「なんとなく」手に取り、買って帰る。②この「なんとなく」こそが、店の価値だった。\n\nそれ以来、私は仕入れの方針を変えた。売れる本を並べるのではなく、「この本の隣にはこの本」という文脈を作ることに力を注いだ。話題の新刊を置かないこともある。代わりに、十年前の本と今年の本を並べ、その間に手書きの紹介文を添える。棚を一つの文章のように編むのである。\n\n売り上げは劇的に伸びたわけではない。だが、遠くの町から訪ねて来る客が増えた。彼らは、目的の本を買いに来るのではない。「何かに出会うために」来るのだ。\n\n効率は、確かに検索の側にある。しかし、人が本を必要とするのは、たいてい、自分が何を必要としているのかわからないときだ。③そのとき、最短の道は役に立たない。回り道のなかにしか、答えはない。書店という場所が生き残る理由があるとすれば、それだけだと思っている。",
     "options": [
-      "書店が五軒から二軒に減ったこと",
-      "書店を二十年営んでいること",
       "本の価格が下がったこと",
+      "書店を二十年営んでいること",
+      "書店が五軒から二軒に減ったこと",
       "翌日に本が届くこと"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "この数字 refers to the preceding count: five bookshops reduced to two.",
     "distractorExplanations": [
-      "(correct answer)",
-      "The twenty years is background, not the figure in question.",
       "Not mentioned as a number.",
+      "The twenty years is background, not the figure in question.",
+      "(correct answer)",
       "Not the figure."
     ]
   },
@@ -1638,16 +1638,16 @@
     "prompt": "筆者が仕入れの方針を変えた後、行ったことはどれか。",
     "context": "私は二十年ほど、ある地方都市で書店を営んでいる。開店当時、町には五軒の書店があった。今残っているのは、うちを含めて二軒である。①この数字を、私は「本が読まれなくなった証拠」だとは考えていない。むしろ、本の売られ方が変わったのだと思っている。\n\nインターネットで本を買えば、翌日には届く。品切れもない。価格も同じか、安い。この条件で、なぜわざわざ店に足を運ぶ必要があるのか。開店当時の私なら、答えられなかっただろう。当時のうちの店は、要するに「本を置いてある場所」でしかなかったからだ。\n\n転機は十年前、経営が最も苦しかった時期に訪れた。ある常連客が、「この店で本を選ぶと、なぜか外れがない」と言ってくれたのだ。その言葉で気づいた。うちの棚は、私が二十年かけて読み、選び、並べてきたものだ。検索では出てこない本が、隣り合って置いてある。客はそれを「なんとなく」手に取り、買って帰る。②この「なんとなく」こそが、店の価値だった。\n\nそれ以来、私は仕入れの方針を変えた。売れる本を並べるのではなく、「この本の隣にはこの本」という文脈を作ることに力を注いだ。話題の新刊を置かないこともある。代わりに、十年前の本と今年の本を並べ、その間に手書きの紹介文を添える。棚を一つの文章のように編むのである。\n\n売り上げは劇的に伸びたわけではない。だが、遠くの町から訪ねて来る客が増えた。彼らは、目的の本を買いに来るのではない。「何かに出会うために」来るのだ。\n\n効率は、確かに検索の側にある。しかし、人が本を必要とするのは、たいてい、自分が何を必要としているのかわからないときだ。③そのとき、最短の道は役に立たない。回り道のなかにしか、答えはない。書店という場所が生き残る理由があるとすれば、それだけだと思っている。",
     "options": [
-      "古い本と新しい本を並べ、手書きの紹介文を添えた。",
       "話題の新刊をできるだけ多く仕入れた。",
+      "古い本と新しい本を並べ、手書きの紹介文を添えた。",
       "インターネットでの販売を始めた。",
       "客の注文した本だけを取り寄せるようにした。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "「十年前の本と今年の本を並べ、その間に手書きの紹介文を添える」.",
     "distractorExplanations": [
-      "(correct answer)",
       "The writer sometimes does not stock new bestsellers.",
+      "(correct answer)",
       "Not mentioned.",
       "Not mentioned."
     ]
@@ -1754,16 +1754,16 @@
     "prompt": "①ある種の危うさとは、どのようなことか。",
     "context": "「多様性」という言葉が、企業の理念や大学の方針に掲げられるようになって久しい。異なる背景を持つ人々が共に働き、学ぶことで、組織は豊かになる。この考えに反対する人は、今やほとんどいないだろう。\n\nしかし私は、多様性という言葉の使われ方に、①ある種の危うさを感じている。それは、多様性が「目標」として語られる一方で、多様性がもたらす「摩擦」については、ほとんど語られないことだ。\n\n異なる価値観を持つ人々が同じ場にいれば、当然、衝突が起こる。会議は長引き、合意は遠のく。同質的な集団であれば十分で済んだ説明に、何倍もの時間がかかる。多様性とは、本来、居心地の悪さを引き受けることなのである。ところが、多様性を掲げる組織の多くは、この居心地の悪さを、あたかも存在しないかのように扱う。「多様な人材が活躍する明るい職場」という宣伝文句の中に、摩擦の居場所はない。\n\nその結果、何が起こるか。摩擦を起こす人が、「協調性がない」として排除される。異なる意見を述べた人が、「空気を乱した」として遠ざけられる。そして残るのは、外見や経歴は多様でありながら、②発言の内容は驚くほど均質な集団である。これは多様性の実現ではなく、多様性の演出にすぎない。\n\n私は、多様性を掲げる組織に、一つの問いを投げかけたい。「あなたの組織で最後に起きた、意見の激しい対立は何か」と。それに即座に答えられないなら、その組織の多様性は、まだ看板の段階にある。摩擦を歓迎すること。時間がかかることを受け入れること。合意に至らないまま並存することを認めること。多様性とは、そうした不便を引き受ける覚悟の別名である。\n\n明るい言葉で語られる多様性ではなく、面倒で、時間のかかる多様性を、私たちは引き受けられるだろうか。その問いから目を逸らしている限り、多様性は、飾りのまま終わるだろう。",
     "options": [
-      "多様性が目標として語られる一方で、それに伴う摩擦が語られないこと",
       "多様性に反対する人が増えていること",
+      "多様性が目標として語られる一方で、それに伴う摩擦が語られないこと",
       "多様性が企業の理念に掲げられていないこと",
       "異なる背景の人々が共に働くことが難しいこと"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "「多様性が『目標』として語られる一方で…『摩擦』については、ほとんど語られない」.",
     "distractorExplanations": [
-      "(correct answer)",
       "The writer says almost nobody opposes it.",
+      "(correct answer)",
       "It is widely proclaimed.",
       "The difficulty itself is not the danger; the silence about it is."
     ]
@@ -1812,18 +1812,18 @@
     "prompt": "この文章で筆者が最も言いたいことは何か。",
     "context": "「多様性」という言葉が、企業の理念や大学の方針に掲げられるようになって久しい。異なる背景を持つ人々が共に働き、学ぶことで、組織は豊かになる。この考えに反対する人は、今やほとんどいないだろう。\n\nしかし私は、多様性という言葉の使われ方に、①ある種の危うさを感じている。それは、多様性が「目標」として語られる一方で、多様性がもたらす「摩擦」については、ほとんど語られないことだ。\n\n異なる価値観を持つ人々が同じ場にいれば、当然、衝突が起こる。会議は長引き、合意は遠のく。同質的な集団であれば十分で済んだ説明に、何倍もの時間がかかる。多様性とは、本来、居心地の悪さを引き受けることなのである。ところが、多様性を掲げる組織の多くは、この居心地の悪さを、あたかも存在しないかのように扱う。「多様な人材が活躍する明るい職場」という宣伝文句の中に、摩擦の居場所はない。\n\nその結果、何が起こるか。摩擦を起こす人が、「協調性がない」として排除される。異なる意見を述べた人が、「空気を乱した」として遠ざけられる。そして残るのは、外見や経歴は多様でありながら、②発言の内容は驚くほど均質な集団である。これは多様性の実現ではなく、多様性の演出にすぎない。\n\n私は、多様性を掲げる組織に、一つの問いを投げかけたい。「あなたの組織で最後に起きた、意見の激しい対立は何か」と。それに即座に答えられないなら、その組織の多様性は、まだ看板の段階にある。摩擦を歓迎すること。時間がかかることを受け入れること。合意に至らないまま並存することを認めること。多様性とは、そうした不便を引き受ける覚悟の別名である。\n\n明るい言葉で語られる多様性ではなく、面倒で、時間のかかる多様性を、私たちは引き受けられるだろうか。その問いから目を逸らしている限り、多様性は、飾りのまま終わるだろう。",
     "options": [
-      "本当の多様性とは、摩擦や不便を引き受ける覚悟であり、それを避ける限り多様性は飾りにとどまる。",
+      "外見や経歴の多様性を確保すれば、組織は十分に多様である。",
       "多様性は組織にとって負担が大きいので、掲げるべきではない。",
       "意見の対立は組織にとって有害なので、避けるべきだ。",
-      "外見や経歴の多様性を確保すれば、組織は十分に多様である。"
+      "本当の多様性とは、摩擦や不便を引き受ける覚悟であり、それを避ける限り多様性は飾りにとどまる。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "「多様性とは、そうした不便を引き受ける覚悟の別名である」.",
     "distractorExplanations": [
-      "(correct answer)",
+      "The writer calls this mere staging.",
       "The writer does not oppose diversity.",
       "The writer welcomes conflict.",
-      "The writer calls this mere staging."
+      "(correct answer)"
     ]
   },
   {
@@ -1872,16 +1872,16 @@
     "options": [
       "発表者は、参加する日数によって参加費が変わる。",
       "発表要旨の提出期限は10月10日である。",
-      "分科会にはすべて同時通訳が付く。",
-      "10月10日以降にキャンセルしても、参加費は返金されない。"
+      "10月10日以降にキャンセルしても、参加費は返金されない。",
+      "分科会にはすべて同時通訳が付く。"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explanation": "「10月10日以降のキャンセルは、参加費の返金ができません」.",
     "distractorExplanations": [
       "The presenter fee is flat regardless of days.",
       "Abstracts are due September 20.",
-      "Interpretation is for keynotes only.",
-      "(correct answer)"
+      "(correct answer)",
+      "Interpretation is for keynotes only."
     ]
   },
   {
@@ -1900,16 +1900,16 @@
     "context": "会社で、男の人と女の人が来月のセミナーについて話しています。女の人はこのあとまず何をしますか。\n\n男：セミナーの会場なんだけど、二十日は大ホールが取れなくて、小ホールしか空いてないんだ。\n女：小ホールだと定員が足りませんね。二十一日なら大ホールが空いていますけど。\n男：それなんだけど、講師の先生の都合を確認しないと動けないよね。\n女：そうですね。先生に二十一日で大丈夫か、聞いてみます。\n男：頼む。大丈夫なら、会場のほうは僕が押さえておくから。\n女：わかりました。参加者への案内メールは、日程が決まってからにします。\n男：そうだね。あと、資料の印刷は人数が確定してからでいいよ。",
     "options": [
       "会場の予約を変更する",
-      "講師に日程を確認する",
       "参加者に案内メールを送る",
+      "講師に日程を確認する",
       "資料の印刷を業者に頼む"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "The venue change is only worthwhile if the lecturer can make the new date, so she checks with the lecturer first; the email and printing follow.",
     "distractorExplanations": [
       "The man will handle the venue once the date is confirmed.",
-      "(correct answer)",
       "Sent only after the date is fixed.",
+      "(correct answer)",
       "Printing is done after the number of participants is known."
     ]
   },
@@ -1957,16 +1957,16 @@
     "prompt": "学生はこのあと何をしますか。",
     "context": "大学で、学生と教授が話しています。学生はこのあと何をしますか。\n\n学生：先生、論文の分析結果を見ていただけましたか。\n教授：見ました。データそのものは問題ないですね。先行研究もよく読んでいる。\n学生：ありがとうございます。\n教授：ただ、この分析方法は、あなたのデータの数だと結果が安定しないんです。サンプルが少ないときに使う方法に変えたほうがいい。\n学生：わかりました。では、方法を変えて計算し直します。\n教授：結論はそのあとで考えましょう。",
     "options": [
-      "データを取り直す",
       "分析方法を変えて計算し直す",
+      "データを取り直す",
       "先行研究をもう一度読む",
       "結論を書き直す"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "The data are usable; the professor says the analysis method does not fit the sample size, so the student will redo the calculation with a different method.",
     "distractorExplanations": [
-      "The professor says the data are fine.",
       "(correct answer)",
+      "The professor says the data are fine.",
       "Reading was done already.",
       "The conclusion follows after the new analysis."
     ]
@@ -1986,17 +1986,17 @@
     "prompt": "女の人は、どの部屋に決めましたか。",
     "context": "不動産屋で、女の人が店の人と話しています。女の人は、どの部屋に決めましたか。\n\n店：三つご覧いただきましたが、いかがでしたか。\n女：最初の駅前の新しい部屋は理想的なんですが、家賃が予算を二万円も超えていて。\n店：では、駅から二十分の安いお部屋は？\n女：安いのは魅力ですけど、毎日の通勤を考えると、やっぱり遠いです。\n店：そうしますと……。\n女：ええ、駅から近い、古いほうの部屋にします。築年数は気になりますけど、家賃も場所も条件に合っているので。",
     "options": [
-      "駅から近くて家賃が高い部屋",
-      "駅から遠くて家賃が安い部屋",
       "駅から近くて古い部屋",
+      "駅から遠くて家賃が安い部屋",
+      "駅から近くて家賃が高い部屋",
       "駅から遠くて新しい部屋"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "She gives up newness for location and price: the older room near the station.",
     "distractorExplanations": [
-      "Too expensive.",
-      "Cheap, but the commute is too long.",
       "(correct answer)",
+      "Cheap, but the commute is too long.",
+      "Too expensive.",
       "Not among the choices described."
     ]
   },
@@ -2016,16 +2016,16 @@
     "context": "女の人と男の人が話しています。男の人は、どうして転職を思いとどまりましたか。\n\n女：転職するって言ってたのに、残ることにしたの？\n男：うん。辞めるつもりで上司に話したら、来年から新規事業の担当を任せたいって言われて。\n女：へえ。\n男：転職したかったのは、今の仕事に新しさがなくなったからだったんだ。それなら残ってみようと思って。\n女：給料の話は？\n男：それは特に。でも、やりがいのほうが今は大事かな。",
     "options": [
       "給料が上がることになったから",
-      "今の職場で新しい仕事を任されることになったから",
       "転職先の会社が遠かったから",
+      "今の職場で新しい仕事を任されることになったから",
       "家族に反対されたから"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "「新規事業の担当を任せたいと言われて…それなら残ってみようと」.",
     "distractorExplanations": [
       "Pay is not mentioned as changing.",
-      "(correct answer)",
       "Not mentioned.",
+      "(correct answer)",
       "Not mentioned."
     ]
   },
@@ -2044,17 +2044,17 @@
     "prompt": "女の人は、この作家の作品のどこを評価していますか。",
     "context": "ラジオで、女の人がある作家について話しています。女の人は、この作家の作品のどこを評価していますか。\n\n女：この作家の文章は、正直に言えば飾り気がなくて地味です。結末も、読み慣れた人には予想がつくことが多い。展開もゆっくりです。それでも私が読み続けるのは、登場人物です。誰一人として単純な善人でも悪人でもなく、本当にいそうな人として描かれている。そこが一番の魅力だと思います。",
     "options": [
-      "文章が美しいところ",
-      "結末が意外なところ",
       "登場人物の描き方が現実的なところ",
+      "結末が意外なところ",
+      "文章が美しいところ",
       "話の展開が速いところ"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "「人物が…本当にいそうな人として描かれている。そこが一番」.",
     "distractorExplanations": [
-      "She says the prose is plain.",
-      "She says the endings are predictable.",
       "(correct answer)",
+      "She says the endings are predictable.",
+      "She says the prose is plain.",
       "She says the pace is slow."
     ]
   },
@@ -2102,18 +2102,18 @@
     "prompt": "男の人は、新しい制度の何が問題だと言っていますか。",
     "context": "会議で、男の人が新しい補助制度について話しています。男の人は、新しい制度の何が問題だと言っていますか。\n\n男：この制度、手続きは書類一枚で済みますし、対象も幅広い。制度自体はいいんです。ただ、利用者がまだ二十人しかいない。理由を調べたら、そもそも制度があることを知らない人がほとんどでした。そこが一番の問題です。",
     "options": [
-      "手続きが複雑なこと",
+      "周知が不十分なこと",
       "対象となる人が限られていること",
       "費用がかかりすぎること",
-      "周知が不十分なこと"
+      "手続きが複雑なこと"
     ],
-    "answerIndex": 3,
+    "answerIndex": 0,
     "explanation": "「制度自体はいいんですが、知られていない…そこが一番の問題」.",
     "distractorExplanations": [
-      "He says procedures are simple.",
+      "(correct answer)",
       "He says coverage is broad.",
       "Cost is not mentioned.",
-      "(correct answer)"
+      "He says procedures are simple."
     ]
   },
   {
@@ -2132,17 +2132,17 @@
     "context": "研修で、男の人が話しています。\n\n男：会議が長いという不満をよく聞きます。私が見てきた限り、長くなる会議には共通点があります。何を決める会議なのかが、始まるまで誰にもわかっていないんです。情報を共有したいのか、意見を集めたいのか、決定したいのか。これを一行でいいから事前に書いて配る。それだけで、会議は驚くほど短くなります。",
     "options": [
       "会議の回数を減らすべき理由",
-      "会議の目的を事前に決める必要性",
+      "会議の記録を残す方法",
       "会議に全員が参加すべき理由",
-      "会議の記録を残す方法"
+      "会議の目的を事前に決める必要性"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The whole talk is about deciding in advance what each meeting is for.",
     "distractorExplanations": [
       "Fewer meetings is not the argument.",
-      "(correct answer)",
+      "Records are not discussed.",
       "Attendance is not discussed.",
-      "Records are not discussed."
+      "(correct answer)"
     ]
   },
   {
@@ -2190,16 +2190,16 @@
     "context": "大学で、先生が話しています。\n\n先生：卒論の相談に来る学生の多くが、まず本を集め、書き始めようとします。でも、順番が違います。自分は何を明らかにしたいのか。それを一文で言えるまで考える。それが先です。問いがはっきりすれば、読むべき本も、書くべき順序も自然に決まります。",
     "options": [
       "論文を早く書き始めること",
-      "参考文献を多く集めること",
       "自分の問いを一文で言えるようにすること",
+      "参考文献を多く集めること",
       "先行研究を批判すること"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "「自分の問いを一文で言えるまで考える。それが先です」.",
     "distractorExplanations": [
       "He says not to start writing yet.",
-      "He says collecting sources is not the first step.",
       "(correct answer)",
+      "He says collecting sources is not the first step.",
       "Not mentioned."
     ]
   },
@@ -2218,15 +2218,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "男：この件、部長に一言断っておいたほうがいいんじゃない？",
     "options": [
-      "そうですね、念のため伝えておきます。",
       "はい、部長は断りました。",
+      "そうですね、念のため伝えておきます。",
       "いえ、一言だけ言いました。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "一言断っておく = give a heads-up; agree and say you will inform the manager.",
     "distractorExplanations": [
-      "(correct answer)",
       "Misreads 断る as refuse.",
+      "(correct answer)",
       "Does not answer the suggestion."
     ]
   },
@@ -2245,16 +2245,16 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：昨日のプレゼン、さすがでしたね。",
     "options": [
-      "いえ、皆さんのおかげです。",
+      "いいえ、昨日ではありません。",
       "はい、さすがです。",
-      "いいえ、昨日ではありません。"
+      "いえ、皆さんのおかげです。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "A compliment is deflected modestly.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Off-topic.",
       "Agreeing with さすが about oneself is rude.",
-      "Off-topic."
+      "(correct answer)"
     ]
   },
   {
@@ -2299,16 +2299,16 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：あの、お差し支えなければ、ご住所を伺ってもよろしいでしょうか。",
     "options": [
-      "ええ、構いませんよ。",
+      "いいえ、伺いません。",
       "はい、差し支えます。",
-      "いいえ、伺いません。"
+      "ええ、構いませんよ。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "お差し支えなければ = if it is no trouble; grant permission with 構いません.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Role reversal.",
       "Refusal phrased oddly; you would say 申し訳ありませんが.",
-      "Role reversal."
+      "(correct answer)"
     ]
   },
   {
@@ -2326,16 +2326,16 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "男：まさか君が来てくれるとは思わなかったよ。",
     "options": [
-      "近くまで来たものですから。",
+      "いいえ、まさかです。",
       "はい、来ないと思いました。",
-      "いいえ、まさかです。"
+      "近くまで来たものですから。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "Pleasant surprise at a visit; explain why you came.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Nonsense.",
       "Illogical.",
-      "Nonsense."
+      "(correct answer)"
     ]
   },
   {
@@ -2353,16 +2353,16 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：このデータ、念のためもう一度見直してもらえる？",
     "options": [
-      "承知しました。夕方までに確認します。",
+      "念のためです。",
       "はい、見直しました。",
-      "念のためです。"
+      "承知しました。夕方までに確認します。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "A request to re-check; accept with a time.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Repeats the phrase.",
       "Already done contradicts the request.",
-      "Repeats the phrase."
+      "(correct answer)"
     ]
   },
   {
@@ -2382,16 +2382,16 @@
     "options": [
       "コードレスタイプ",
       "コード式",
-      "ロボット掃除機",
-      "コードレスタイプとロボット掃除機の二台"
+      "コードレスタイプとロボット掃除機の二台",
+      "ロボット掃除機"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "The wife prioritises daily cleaning of the living room while out; the stairs will be done with the old vacuum. So the robot alone.",
     "distractorExplanations": [
       "Considered for the stairs, then dropped for budget reasons.",
       "Not chosen.",
-      "(correct answer)",
-      "Two units exceed the budget."
+      "Two units exceed the budget.",
+      "(correct answer)"
     ]
   },
   {
@@ -2410,16 +2410,16 @@
     "context": "家電量販店で、店員が三つの掃除機について説明しています。\n\n店員：本日おすすめの掃除機は三つございます。一つ目はコードレスタイプで、軽くて階段の掃除にも便利ですが、連続で使えるのは二十分ほどです。二つ目は従来のコード式で、吸引力が最も強く、価格も一番お手頃ですが、本体が重く、音も大きめです。三つ目はロボット掃除機で、外出中に自動で掃除しますが、段差や階段には対応できません。\n\n夫：うちは二階建てだから、階段があるよね。\n妻：そうね。でも私、毎日掃除する時間がないのよ。留守中にやってくれるのは魅力。\n夫：でも階段はできないって。\n妻：階段は週に一回、私がやればいいわ。それより一階のリビングを毎日きれいにしておきたいの。\n夫：じゃあ、階段用に軽いのも買う？\n妻：二台はさすがに予算が……。階段は今の古い掃除機で十分よ。\n夫：わかった。じゃあ、それにしよう。",
     "options": [
       "ロボット掃除機で掃除する",
-      "新しいコードレス掃除機で掃除する",
       "今ある古い掃除機で週に一回掃除する",
+      "新しいコードレス掃除機で掃除する",
       "夫に頼む"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "「階段は今の古い掃除機で十分よ」and 「週に一回、私がやればいい」.",
     "distractorExplanations": [
       "The robot cannot do stairs.",
-      "They decided not to buy a second unit.",
       "(correct answer)",
+      "They decided not to buy a second unit.",
       "She says she will do it herself."
     ]
   }

@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【毎朝】六時におきます。",
+    "context": "",
+    "options": [
+      "まいしゅう",
+      "まいにち",
+      "まいばん",
+      "まいあさ"
+    ],
+    "answerIndex": 3,
+    "explanation": "毎朝（まいあさ）= every morning. 毎 = まい, 朝 = あさ.",
+    "distractorExplanations": [
+      "毎週（まいしゅう）= every week.",
+      "毎日（まいにち）= every day.",
+      "毎晩（まいばん）= every evening.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nともだちに【電話】をかけます。",
+    "context": "",
+    "options": [
+      "でんき",
+      "でんしゃ",
+      "でんわ",
+      "てんわ"
+    ],
+    "answerIndex": 2,
+    "explanation": "電話（でんわ）= telephone. 電 = でん, 話 = わ.",
+    "distractorExplanations": [
+      "電気（でんき）= electricity.",
+      "電車（でんしゃ）= train.",
+      "(correct answer)",
+      "電 is voiced: でん, not てん."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nあの【女】のひとはだれですか。",
+    "context": "",
+    "options": [
+      "おとこ",
+      "おんな",
+      "こども",
+      "おとな"
+    ],
+    "answerIndex": 1,
+    "explanation": "女（おんな）= woman. 女のひと = a woman.",
+    "distractorExplanations": [
+      "男（おとこ）= man.",
+      "(correct answer)",
+      "子ども（こども）= child.",
+      "大人（おとな）= adult."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-4",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nこのノートは【百】円です。",
+    "context": "",
+    "options": [
+      "ひゃく",
+      "じゅう",
+      "せん",
+      "まん"
+    ],
+    "answerIndex": 0,
+    "explanation": "百（ひゃく）= one hundred.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "十（じゅう）= ten.",
+      "千（せん）= thousand.",
+      "万（まん）= ten thousand."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-5",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【水曜日】にテストがあります。",
+    "context": "",
+    "options": [
+      "もくようび",
+      "にちようび",
+      "かようび",
+      "すいようび"
+    ],
+    "answerIndex": 3,
+    "explanation": "水曜日（すいようび）= Wednesday. 水 is read すい in day names.",
+    "distractorExplanations": [
+      "木曜日（もくようび）= Thursday.",
+      "日曜日（にちようび）= Sunday.",
+      "火曜日（かようび）= Tuesday.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-6",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【外】はとてもさむいです。",
+    "context": "",
+    "options": [
+      "なか",
+      "うち",
+      "そと",
+      "がい"
+    ],
+    "answerIndex": 2,
+    "explanation": "外（そと）= outside.",
+    "distractorExplanations": [
+      "中（なか）= inside.",
+      "うち = home; 外 is never read うち.",
+      "(correct answer)",
+      "がい is the 音読み used in compounds (外国)."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-7",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nつぎのかどを【右】にまがってください。",
+    "context": "",
+    "options": [
+      "ひだり",
+      "みぎ",
+      "まえ",
+      "うしろ"
+    ],
+    "answerIndex": 1,
+    "explanation": "右（みぎ）= right.",
+    "distractorExplanations": [
+      "左（ひだり）= left.",
+      "(correct answer)",
+      "前（まえ）= front.",
+      "後ろ（うしろ）= behind."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-8",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n【はは】はいま、かいものにいっています。",
+    "context": "",
+    "options": [
+      "母",
+      "兄",
+      "姉",
+      "父"
+    ],
+    "answerIndex": 0,
+    "explanation": "母（はは）= my mother.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "兄（あに）= my older brother.",
+      "姉（あね）= my older sister.",
+      "父（ちち）= my father."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-9",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nあしたは【あめ】でしょう。",
+    "context": "",
+    "options": [
+      "電",
+      "雪",
+      "雲",
+      "雨"
+    ],
+    "answerIndex": 3,
+    "explanation": "雨（あめ）= rain.",
+    "distractorExplanations": [
+      "電 (electricity) shares the top part but is a different kanji.",
+      "雪（ゆき）= snow.",
+      "雲（くも）= cloud.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-10",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nうちに【ちいさい】いぬがいます。",
+    "context": "",
+    "options": [
+      "小いさい",
+      "大きい",
+      "小さい",
+      "少さい"
+    ],
+    "answerIndex": 2,
+    "explanation": "小さい（ちいさい）= small. Okurigana: 小 + さい.",
+    "distractorExplanations": [
+      "Wrong okurigana; the い after 小 is not written.",
+      "大きい（おおきい）= big is the opposite.",
+      "(correct answer)",
+      "少 is すく（ない）/ すこ（し）, not ちい."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-11",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nえきの【みなみ】ぐちであいましょう。",
+    "context": "",
+    "options": [
+      "西",
+      "南",
+      "北",
+      "東"
+    ],
+    "answerIndex": 1,
+    "explanation": "南（みなみ）= south. 南口 = south exit.",
+    "distractorExplanations": [
+      "西（にし）= west.",
+      "(correct answer)",
+      "北（きた）= north.",
+      "東（ひがし）= east."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-12",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nこの【みち】をまっすぐいってください。",
+    "context": "",
+    "options": [
+      "道",
+      "通",
+      "遠",
+      "首"
+    ],
+    "answerIndex": 0,
+    "explanation": "道（みち）= road, street.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "通（とお・る）= to pass; a look-alike with the same road radical.",
+      "遠（とお・い）= far; same radical, different kanji.",
+      "首（くび）= neck; it is the inner part of 道."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-13",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nおなかがすきましたね。（　）をたべましょう。",
+    "context": "",
+    "options": [
+      "くすり",
+      "みず",
+      "おちゃ",
+      "ごはん"
+    ],
+    "answerIndex": 3,
+    "explanation": "おなかがすいた = hungry, so let's eat ごはん (a meal).",
+    "distractorExplanations": [
+      "くすり = medicine is not for hunger.",
+      "みず is drunk, not eaten.",
+      "おちゃ is drunk (のむ), not eaten.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-14",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nふゆはとても（　）です。",
+    "context": "",
+    "options": [
+      "おそい",
+      "あつい",
+      "さむい",
+      "ながい"
+    ],
+    "answerIndex": 2,
+    "explanation": "さむい（寒い）= cold, the natural description of winter.",
+    "distractorExplanations": [
+      "おそい = late, slow.",
+      "あつい = hot describes summer.",
+      "(correct answer)",
+      "ながい = long; not the natural pairing with とても for a season."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-15",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nきってをかいに（　）へいきます。",
+    "context": "",
+    "options": [
+      "びょういん",
+      "ゆうびんきょく",
+      "としょかん",
+      "ぎんこう"
+    ],
+    "answerIndex": 1,
+    "explanation": "Stamps (きって) are bought at the ゆうびんきょく（郵便局）= post office.",
+    "distractorExplanations": [
+      "びょういん = hospital.",
+      "(correct answer)",
+      "としょかん = library.",
+      "ぎんこう = bank."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-16",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nくらいですね。へやのでんきを（　）ください。",
+    "context": "",
+    "options": [
+      "つけて",
+      "しめて",
+      "あけて",
+      "けして"
+    ],
+    "answerIndex": 0,
+    "explanation": "でんきをつける = turn on the light; it is dark (くらい).",
+    "distractorExplanations": [
+      "(correct answer)",
+      "しめる = close (doors, windows).",
+      "あける = open.",
+      "けす = turn off; it would get darker."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-17",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nこのシャツを（　）もいいですか。",
+    "context": "",
+    "options": [
+      "かけて",
+      "はいて",
+      "かぶって",
+      "きて"
+    ],
+    "answerIndex": 3,
+    "explanation": "シャツをきる = wear a shirt (upper body). きてもいいですか = may I try/wear it?",
+    "distractorExplanations": [
+      "かける is for glasses.",
+      "はく is for trousers, skirts and shoes.",
+      "かぶる is for hats.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-18",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nにほんごのしけんは（　）です。ぜんぜんわかりませんでした。",
+    "context": "",
+    "options": [
+      "みじかかった",
+      "あたらしかった",
+      "むずかしかった",
+      "やさしかった"
+    ],
+    "answerIndex": 2,
+    "explanation": "むずかしい = difficult; the speaker understood nothing (ぜんぜんわかりませんでした).",
+    "distractorExplanations": [
+      "みじかい = short does not explain not understanding.",
+      "あたらしい = new does not fit.",
+      "(correct answer)",
+      "やさしい = easy contradicts the second sentence."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-19",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nここは【だいどころ】です。",
+    "context": "",
+    "options": [
+      "ここでシャワーをあびます",
+      "ここでりょうりをします",
+      "ここでねます",
+      "ここでべんきょうします"
+    ],
+    "answerIndex": 1,
+    "explanation": "だいどころ（台所）= kitchen, the place where you cook (りょうりをする).",
+    "distractorExplanations": [
+      "This describes a bathroom.",
+      "(correct answer)",
+      "This describes a bedroom.",
+      "This describes a study or classroom."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-20",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nこのみせは【にぎやか】です。",
+    "context": "",
+    "options": [
+      "ひとがおおいです",
+      "ふるいです",
+      "しずかです",
+      "ひとがすくないです"
+    ],
+    "answerIndex": 0,
+    "explanation": "にぎやか = lively, bustling = lots of people (ひとがおおい).",
+    "distractorExplanations": [
+      "(correct answer)",
+      "ふるい = old is unrelated.",
+      "しずか = quiet is the opposite.",
+      "Few people would be the opposite."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-moji-goi-21",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n【おととい】ともだちにあいました。",
+    "context": "",
+    "options": [
+      "きょうのあさ",
+      "せんしゅう",
+      "あしたのつぎのひ",
+      "きのうのまえのひ"
+    ],
+    "answerIndex": 3,
+    "explanation": "おととい = the day before yesterday = きのうのまえのひ.",
+    "distractorExplanations": [
+      "This is けさ (this morning).",
+      "せんしゅう = last week.",
+      "This is あさって (the day after tomorrow).",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nへやに　だれ（　）いません。",
+    "context": "",
+    "options": [
+      "は",
+      "か",
+      "も",
+      "が"
+    ],
+    "answerIndex": 2,
+    "explanation": "Question word + も + negative = nobody / nothing: だれもいません.",
+    "distractorExplanations": [
+      "は cannot follow だれ here.",
+      "だれか = somebody, used with affirmative or a question.",
+      "(correct answer)",
+      "だれが would ask or state who; it does not form 'nobody'."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nにほんごのじゅぎょうは　九時（　）はじまります。",
+    "context": "",
+    "options": [
+      "を",
+      "に",
+      "へ",
+      "で"
+    ],
+    "answerIndex": 1,
+    "explanation": "に marks a specific clock time: 九時にはじまります.",
+    "distractorExplanations": [
+      "を marks an object.",
+      "(correct answer)",
+      "へ marks direction.",
+      "で marks a place of action or a means."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nきのうのばん、（　）たべませんでした。",
+    "context": "",
+    "options": [
+      "なにも",
+      "なにを",
+      "なにか",
+      "なにが"
+    ],
+    "answerIndex": 0,
+    "explanation": "なにも + negative = nothing at all.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "なにを + negative simply asks 'what did you not eat?'",
+      "なにか = something, used with affirmative.",
+      "なにが is a subject question."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-4",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nわたしは　えいご（　）できません。",
+    "context": "",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "が"
+    ],
+    "answerIndex": 3,
+    "explanation": "できる takes が for the thing one can or cannot do: えいごができません.",
+    "distractorExplanations": [
+      "に does not mark the ability.",
+      "で does not mark the ability.",
+      "できる does not take を.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-5",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこのりんごは（　）おいしいです。",
+    "context": "",
+    "options": [
+      "あまい",
+      "あまいで",
+      "あまくて",
+      "あまくで"
+    ],
+    "answerIndex": 2,
+    "explanation": "i-adjective te-form: あまい → あまくて joins two descriptions.",
+    "distractorExplanations": [
+      "Two adjectives need the te-form to connect.",
+      "で is for na-adjectives and nouns, not i-adjectives.",
+      "(correct answer)",
+      "Wrong conjugation; it is くて."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-6",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nせんしゅう、ふじさんに（　）。",
+    "context": "",
+    "options": [
+      "のぼります",
+      "のぼりました",
+      "のぼっています",
+      "のぼりたいです"
+    ],
+    "answerIndex": 1,
+    "explanation": "せんしゅう = last week, so the verb must be past: のぼりました.",
+    "distractorExplanations": [
+      "Non-past does not fit せんしゅう.",
+      "(correct answer)",
+      "Progressive does not fit a finished action last week.",
+      "A wish does not fit a past time word."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-7",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 1,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nすみません、もうすこし　ゆっくり（　）ください。",
+    "context": "",
+    "options": [
+      "はなして",
+      "はなした",
+      "はなす",
+      "はなし"
+    ],
+    "answerIndex": 0,
+    "explanation": "Te-form + ください = please do: はなしてください.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Past form cannot precede ください.",
+      "Dictionary form cannot precede ください.",
+      "The stem alone is not used with ください."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-8",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nバスがくる（　）に、きっぷをかいます。",
+    "context": "",
+    "options": [
+      "あと",
+      "とき",
+      "ながら",
+      "まえ"
+    ],
+    "answerIndex": 3,
+    "explanation": "Dictionary form + まえに = before (doing): バスがくるまえに.",
+    "distractorExplanations": [
+      "あとで follows the past form (きたあとで) and takes で, not に.",
+      "とき does not take に this way and the meaning (buy a ticket when the bus comes) is unnatural.",
+      "ながら attaches to a verb stem.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-9",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nわたしのあねは　かみ（　）ながいです。",
+    "context": "",
+    "options": [
+      "は",
+      "を",
+      "が",
+      "に"
+    ],
+    "answerIndex": 2,
+    "explanation": "Topic + が + adjective: あねは かみが ながい (my sister has long hair).",
+    "distractorExplanations": [
+      "は is already used for the topic あね; the feature takes が.",
+      "Adjectives do not take を.",
+      "(correct answer)",
+      "に does not mark what is long."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-10",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nあついですから、まどを（　）ましょうか。",
+    "context": "",
+    "options": [
+      "あけた",
+      "あけ",
+      "あける",
+      "あけて"
+    ],
+    "answerIndex": 1,
+    "explanation": "Verb stem + ましょうか = shall I? あける → あけましょうか.",
+    "distractorExplanations": [
+      "The past form does not attach to ましょう.",
+      "(correct answer)",
+      "Dictionary form cannot attach to ましょう.",
+      "The te-form does not attach to ましょう."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-11",
+    "type": "ordering",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\nきのう ＿＿ ＿＿ ★ ＿＿ かいました。",
+    "context": "",
+    "options": [
+      "あたらしい",
+      "かばんを",
+      "ひとつ",
+      "デパートで"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: デパートで あたらしい かばんを ひとつ → Yesterday I bought one new bag at the department store. ★ is the third slot: かばんを.",
+    "distractorExplanations": [
+      "Goes in the second slot, not at ★.",
+      "(correct answer)",
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-12",
+    "type": "ordering",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\nすみません、 ＿＿ ＿＿ ★ ＿＿ ですか。",
+    "context": "",
+    "options": [
+      "どこ",
+      "この",
+      "トイレは",
+      "ビルの"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: この ビルの トイレは どこ → Excuse me, where is the toilet in this building? ★ is the third slot: トイレは.",
+    "distractorExplanations": [
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★.",
+      "(correct answer)",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-13",
+    "type": "ordering",
+    "level": "n5",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\nテレビは ＿＿ ＿＿ ★ ＿＿ みません。",
+    "context": "",
+    "options": [
+      "あまり",
+      "から",
+      "おもしろく",
+      "ない"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: おもしろく ない から あまり → TV is not interesting, so I do not watch it much. ★ is the third slot: から.",
+    "distractorExplanations": [
+      "Goes in the fourth slot, not at ★.",
+      "(correct answer)",
+      "Goes in the first slot, not at ★.",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-14",
+    "type": "ordering",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n＿＿ ＿＿ ＿＿ ★ ください。",
+    "context": "",
+    "options": [
+      "八時に",
+      "きて",
+      "あしたの",
+      "あさ"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: あしたの あさ 八時に きて → Please come tomorrow morning at eight. ★ is the fourth slot: きて.",
+    "distractorExplanations": [
+      "Goes in the third slot, not at ★.",
+      "(correct answer)",
+      "Goes in the first slot, not at ★.",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-15",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【15】",
+    "context": "わたしは先週（せんしゅう）、友（とも）だちと京都（きょうと）へ行（い）きました。京都は東京（とうきょう）【15】静（しず）かでした。古（ふる）いお寺（てら）がたくさんあって、とてもきれいでした。\n\n昼（ひる）は日本（にほん）のりょうりを食（た）べました。少（すこ）し高（たか）かったですが、【16】おいしかったです。夜（よる）は駅（えき）の近（ちか）くのホテルで寝（ね）ました。\n\n京都はとてもいい町（まち）でした。また京都へ【17】。",
+    "options": [
+      "より",
+      "まで",
+      "へ",
+      "から"
+    ],
+    "answerIndex": 0,
+    "explanation": "AはBより〜 = A is more ... than B: 京都は東京より静か.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "まで = until, as far as.",
+      "へ marks direction of movement.",
+      "から would mean 'from Tokyo'."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-16",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【16】",
+    "context": "わたしは先週（せんしゅう）、友（とも）だちと京都（きょうと）へ行（い）きました。京都は東京（とうきょう）【15】静（しず）かでした。古（ふる）いお寺（てら）がたくさんあって、とてもきれいでした。\n\n昼（ひる）は日本（にほん）のりょうりを食（た）べました。少（すこ）し高（たか）かったですが、【16】おいしかったです。夜（よる）は駅（えき）の近（ちか）くのホテルで寝（ね）ました。\n\n京都はとてもいい町（まち）でした。また京都へ【17】。",
+    "options": [
+      "まだ",
+      "あまり",
+      "ぜんぜん",
+      "とても"
+    ],
+    "answerIndex": 3,
+    "explanation": "が = but; after 'a little expensive', the contrast is 'but very delicious': とてもおいしかった.",
+    "distractorExplanations": [
+      "まだ = still / not yet does not fit.",
+      "あまり needs a negative.",
+      "ぜんぜん needs a negative.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-bunpo-17",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【17】",
+    "context": "わたしは先週（せんしゅう）、友（とも）だちと京都（きょうと）へ行（い）きました。京都は東京（とうきょう）【15】静（しず）かでした。古（ふる）いお寺（てら）がたくさんあって、とてもきれいでした。\n\n昼（ひる）は日本（にほん）のりょうりを食（た）べました。少（すこ）し高（たか）かったですが、【16】おいしかったです。夜（よる）は駅（えき）の近（ちか）くのホテルで寝（ね）ました。\n\n京都はとてもいい町（まち）でした。また京都へ【17】。",
+    "options": [
+      "行きません",
+      "行かないでください",
+      "行きたいです",
+      "行きました"
+    ],
+    "answerIndex": 2,
+    "explanation": "また〜たいです = I want to go again; the writer liked Kyoto.",
+    "distractorExplanations": [
+      "Negative contradicts the positive tone.",
+      "A request to someone else does not fit a diary.",
+      "(correct answer)",
+      "Past tense contradicts また (again) after praising the town."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "学生（がくせい）はあした、何時（なんじ）にどこへ行（い）きますか。",
+    "context": "学校（がっこう）の入（い）り口（ぐち）に紙（かみ）があります。\n\n学生（がくせい）のみなさんへ\n\n明日（あした）、教室（きょうしつ）のそうじをします。午後（ごご）三時（さんじ）に二階（にかい）の教室に来（き）てください。そうじの後（あと）で、お茶（ちゃ）とおかしがあります。\n\n田中（たなか）",
+    "options": [
+      "三時に一階の教室",
+      "三時に二階の教室",
+      "二時に二階の教室",
+      "三時に食堂"
+    ],
+    "answerIndex": 1,
+    "explanation": "「午後三時に二階の教室に来てください」.",
+    "distractorExplanations": [
+      "The floor is wrong; it is the second floor.",
+      "(correct answer)",
+      "The time is three, not two.",
+      "Tea and snacks come after cleaning, but the place is the classroom."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "リーさんは何（なに）を持（も）って行（い）きますか。",
+    "context": "山田（やまだ）さんからメールが来（き）ました。\n\nリーさん\n\n日曜日（にちようび）のパーティーですが、うちの近（ちか）くの公園（こうえん）でします。十一時（じゅういちじ）に駅（えき）の前（まえ）で会（あ）いましょう。飲（の）み物（もの）はわたしが買（か）いますから、リーさんは何（なに）か食（た）べ物（もの）を持（も）って来（き）てください。\n\n山田",
+    "options": [
+      "食べ物",
+      "飲み物と食べ物",
+      "何も持って行かない",
+      "飲み物"
+    ],
+    "answerIndex": 0,
+    "explanation": "Yamada buys the drinks, and asks Lee to bring some food (食べ物を持って来てください).",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Lee brings only food.",
+      "Lee is asked to bring food.",
+      "Yamada is buying the drinks."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "このひとは土曜日（どようび）の八時（はちじ）に何（なに）をしますか。",
+    "context": "わたしは毎週（まいしゅう）土曜日（どようび）に日本語（にほんご）の学校（がっこう）へ行（い）きます。学校は九時（くじ）からですが、わたしは八時（はちじ）に行って、図書館（としょかん）で勉強（べんきょう）します。授業（じゅぎょう）の後（あと）で、友（とも）だちと昼（ひる）ごはんを食（た）べて、うちへ帰（かえ）ります。",
+    "options": [
+      "友だちと昼ごはんを食べる",
+      "うちへ帰る",
+      "学校で日本語をならう",
+      "図書館で勉強する"
+    ],
+    "answerIndex": 3,
+    "explanation": "「八時に行って、図書館で勉強します」; class starts at nine.",
+    "distractorExplanations": [
+      "Lunch is after class.",
+      "Going home is last.",
+      "Class begins at nine.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-4",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "このひとは冬（ふゆ）の朝（あさ）、何時（なんじ）に走（はし）りますか。",
+    "context": "わたしの町（まち）はとても小（ちい）さいです。駅（えき）が一（ひと）つと、スーパーが一つあります。大（おお）きいデパートはありませんが、山（やま）と川（かわ）があって、空気（くうき）がきれいです。\n\nわたしは毎朝（まいあさ）、川のそばを走（はし）ります。夏（なつ）は朝（あさ）五時（ごじ）に、冬（ふゆ）は朝七時（しちじ）に走ります。冬の朝はまだ暗（くら）くて、寒（さむ）いですから、少（すこ）しおそく走ります。\n\n走った後（あと）で、シャワーをあびて、朝ごはんを食（た）べます。それから、バスで会社（かいしゃ）へ行（い）きます。会社まで四十分（よんじゅっぷん）ぐらいかかります。バスの中（なか）で、いつも音楽（おんがく）を聞（き）きます。",
+    "options": [
+      "五時",
+      "六時",
+      "七時",
+      "八時"
+    ],
+    "answerIndex": 2,
+    "explanation": "「冬は朝七時に走ります」.",
+    "distractorExplanations": [
+      "Five is the summer time.",
+      "Not mentioned.",
+      "(correct answer)",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-5",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "このひとの町（まち）について、ただしいものはどれですか。",
+    "context": "わたしの町（まち）はとても小（ちい）さいです。駅（えき）が一（ひと）つと、スーパーが一つあります。大（おお）きいデパートはありませんが、山（やま）と川（かわ）があって、空気（くうき）がきれいです。\n\nわたしは毎朝（まいあさ）、川のそばを走（はし）ります。夏（なつ）は朝（あさ）五時（ごじ）に、冬（ふゆ）は朝七時（しちじ）に走ります。冬の朝はまだ暗（くら）くて、寒（さむ）いですから、少（すこ）しおそく走ります。\n\n走った後（あと）で、シャワーをあびて、朝ごはんを食（た）べます。それから、バスで会社（かいしゃ）へ行（い）きます。会社まで四十分（よんじゅっぷん）ぐらいかかります。バスの中（なか）で、いつも音楽（おんがく）を聞（き）きます。",
+    "options": [
+      "大きいデパートがあります",
+      "駅がありません",
+      "川があります",
+      "空気がきたないです"
+    ],
+    "answerIndex": 2,
+    "explanation": "「山と川があって、空気がきれいです」.",
+    "distractorExplanations": [
+      "The passage says there is no big department store.",
+      "There is one station.",
+      "(correct answer)",
+      "The air is clean, not dirty."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-dokkai-6",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "information retrieval",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "木村（きむら）さんは大人（おとな）です。日曜日（にちようび）の午後（ごご）五時半（ごじはん）にプールへ行（い）きます。いくらはらいますか。",
+    "context": "みどり市民（しみん）プール　夏（なつ）のおしらせ\n\n・月曜日（げつようび）〜金曜日（きんようび）：午前（ごぜん）九時（くじ）〜午後（ごご）八時（はちじ）\n・土曜日（どようび）・日曜日（にちようび）：午前十時（じゅうじ）〜午後六時（ろくじ）\n・毎週（まいしゅう）水曜日（すいようび）はお休（やす）みです。\n\nりょうきん\n・大人（おとな）：500円（えん）\n・子（こ）ども（12さいまで）：200円\n・夕方（ゆうがた）五時（ごじ）からは、大人も子どもも100円やすくなります。",
+    "options": [
+      "500円",
+      "400円",
+      "200円",
+      "100円"
+    ],
+    "answerIndex": 1,
+    "explanation": "Adult price is 500 yen; from 5 p.m. it is 100 yen cheaper, so 400 yen. Sunday is open until 6 p.m., so 5:30 is fine.",
+    "distractorExplanations": [
+      "That is the daytime adult price.",
+      "(correct answer)",
+      "That is the child price.",
+      "100 yen is the discount, not the price."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-1",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男（おとこ）の人（ひと）はまず、どこへ行（い）きますか。",
+    "context": "女の人と男の人が話しています。男の人はまず、どこへ行きますか。\n\n女：山田さん、これから銀行へ行きますか。\n男：ええ。でも、その前に郵便局へ行きます。手紙を出したいですから。\n女：じゃあ、郵便局のあとで、銀行ですね。\n男：はい。銀行のあとで、スーパーで買い物をしてから、うちへ帰ります。",
+    "options": [
+      "銀行",
+      "郵便局",
+      "スーパー",
+      "うち"
+    ],
+    "answerIndex": 1,
+    "explanation": "He goes to the post office first (その前に郵便局へ行きます), then the bank, then the supermarket, then home.",
+    "distractorExplanations": [
+      "The bank is second.",
+      "(correct answer)",
+      "The supermarket is third.",
+      "Home is last."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-2",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "学生（がくせい）はあした、何（なに）を持（も）って来（き）ますか。",
+    "context": "教室で先生が話しています。学生はあした、何を持って来ますか。\n\n先生：あしたは公園へ行きます。お弁当と飲み物を持って来てください。おかしは持って来ないでください。それから、あついですから、ぼうしをかぶって来てください。教科書はいりません。",
+    "options": [
+      "お弁当と飲み物とぼうし",
+      "飲み物とおかしとぼうし",
+      "お弁当とおかし",
+      "お弁当と飲み物と教科書"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bring a lunch box and a drink, and wear a hat; no snacks, no textbook.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Snacks are not allowed and the lunch box is missing.",
+      "Snacks are not allowed.",
+      "The textbook is not needed."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-3",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女（おんな）の人（ひと）は何（なに）をたのみますか。",
+    "context": "レストランで、女の人と店の人が話しています。女の人は何をたのみますか。\n\n店：何にしますか。\n女：カレーをください。\n店：飲み物はいかがですか。\n女：コーヒーを…あ、やっぱりオレンジジュースにします。\n店：カレーとオレンジジュースですね。\n女：はい。",
+    "options": [
+      "サンドイッチとコーヒー",
+      "カレーだけ",
+      "カレーとコーヒー",
+      "カレーとオレンジジュース"
+    ],
+    "answerIndex": 3,
+    "explanation": "She changes her mind (やっぱり) from coffee to orange juice.",
+    "distractorExplanations": [
+      "She ordered curry, not a sandwich.",
+      "She also orders a drink.",
+      "She switched from coffee to orange juice.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-4",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男（おとこ）の人（ひと）は何時（なんじ）に会社（かいしゃ）を出（で）ますか。",
+    "context": "会社で、女の人と男の人が話しています。男の人は何時に会社を出ますか。\n\n女：田中さん、今日は何時まで仕事をしますか。\n男：仕事は六時までです。でも、少しやることがありますから、六時半に出ます。七時から友だちと晩ごはんを食べます。\n女：そうですか。レストランは近いですか。\n男：ええ、歩いて十分ぐらいです。",
+    "options": [
+      "七時十分",
+      "六時",
+      "六時半",
+      "七時"
+    ],
+    "answerIndex": 2,
+    "explanation": "Work ends at six, but he has a little more to do, so he leaves at six-thirty.",
+    "distractorExplanations": [
+      "Ten minutes is the walk to the restaurant.",
+      "Six is when work ends, not when he leaves.",
+      "(correct answer)",
+      "Seven is when dinner starts."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-5",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女（おんな）の人（ひと）はどうして日本語（にほんご）を勉強（べんきょう）していますか。",
+    "context": "女の人と男の人が話しています。女の人はどうして日本語を勉強していますか。\n\n男：リンさんはどうして日本語を勉強していますか。日本の会社で働きたいですか。\n女：いいえ。日本のアニメが大好きですから、日本語で見たいです。\n男：そうですか。日本へ旅行に行きたいですか。\n女：それは、いつかしたいですね。",
+    "options": [
+      "日本の会社で働きたいから",
+      "日本のアニメを日本語で見たいから",
+      "日本へ旅行に行きたいから",
+      "日本の友だちがいるから"
+    ],
+    "answerIndex": 1,
+    "explanation": "She loves Japanese anime and wants to watch it in Japanese.",
+    "distractorExplanations": [
+      "She says いいえ to working at a Japanese company.",
+      "(correct answer)",
+      "Travel is only 'someday', not the reason.",
+      "Friends are not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-6",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女（おんな）の人（ひと）の誕生日（たんじょうび）はいつですか。",
+    "context": "男の人と女の人が話しています。女の人の誕生日はいつですか。\n\n男：山本さんの誕生日はいつですか。\n女：来月の三日です。\n男：え、三日ですか。わたしは十日です。\n女：じゃあ、近いですね。いっしょにパーティーをしましょう。",
+    "options": [
+      "来月の三日",
+      "来月の十日",
+      "今月の十日",
+      "今月の三日"
+    ],
+    "answerIndex": 0,
+    "explanation": "「来月の三日です」= the third of next month.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The tenth is the man's birthday.",
+      "Wrong month and day.",
+      "It is next month, not this month."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-7",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男（おとこ）の人（ひと）はきのうの午後（ごご）、何（なに）をしましたか。",
+    "context": "女の人と男の人が話しています。男の人はきのうの午後、何をしましたか。\n\n女：きのうは休みでしたね。何をしましたか。\n男：午前中は部屋のそうじをしました。\n女：午後は？\n男：友だちと映画を見に行きたかったですが、友だちが病気になりましたから、うちでテレビを見ました。\n女：そうですか。",
+    "options": [
+      "病院へ行った",
+      "部屋のそうじをした",
+      "友だちと映画を見た",
+      "うちでテレビを見た"
+    ],
+    "answerIndex": 3,
+    "explanation": "The film was cancelled because his friend got sick, so he watched TV at home in the afternoon.",
+    "distractorExplanations": [
+      "The friend was sick; he did not go to a hospital.",
+      "Cleaning was in the morning.",
+      "He wanted to, but did not go.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-8",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：おそくなって、すみません。",
+    "options": [
+      "いいえ、だいじょうぶですよ。",
+      "どういたしまして。",
+      "はい、おそいです。"
+    ],
+    "answerIndex": 0,
+    "explanation": "An apology for being late is accepted with いいえ、だいじょうぶですよ.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "どういたしまして answers thanks, not an apology.",
+      "Agreeing that they are late is rude and unnatural."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-9",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：このかばん、だれのですか。",
+    "options": [
+      "わたしのです。",
+      "わたしもです。",
+      "わたしです。"
+    ],
+    "answerIndex": 0,
+    "explanation": "だれの asks whose; answer with わたしの(かばん)です.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "も = also, does not answer the question.",
+      "わたしです answers 'who?', not 'whose?'."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-10",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：おなかがすきましたね。",
+    "options": [
+      "じゃあ、何か食べましょう。",
+      "じゃあ、ねましょう。",
+      "はい、おいしかったです。"
+    ],
+    "answerIndex": 0,
+    "explanation": "When someone says they are hungry, suggest eating something.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Sleeping does not answer hunger.",
+      "おいしかった is said after eating."
+    ]
+  },
+  {
+    "id": "q-exam-n5-mock-b-chokai-11",
+    "type": "mc",
+    "level": "n5",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：日曜日、いっしょに買い物に行きませんか。",
+    "options": [
+      "ええ、行きましょう。",
+      "いいえ、行きませんでした。",
+      "はい、買いました。"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜ませんか is an invitation; accept with ええ、行きましょう.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Past tense does not answer an invitation about Sunday.",
+      "買いました does not answer the invitation."
+    ]
+  }
+]

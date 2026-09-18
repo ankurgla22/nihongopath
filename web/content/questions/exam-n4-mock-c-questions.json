@@ -1,0 +1,2138 @@
+[
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【台所】で料理をします。",
+    "context": "",
+    "options": [
+      "たいどころ",
+      "だいところ",
+      "だいどころ",
+      "たいところ"
+    ],
+    "answerIndex": 2,
+    "explanation": "台所（だいどころ）= kitchen; both parts are voiced.",
+    "distractorExplanations": [
+      "台 is だい here, not たい.",
+      "所 is voiced どころ in this compound.",
+      "(correct answer)",
+      "Both readings are wrong."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n毎日【運動】しています。",
+    "context": "",
+    "options": [
+      "うんとう",
+      "うんどう",
+      "うどん",
+      "うんどん"
+    ],
+    "answerIndex": 1,
+    "explanation": "運動（うんどう）= exercise.",
+    "distractorExplanations": [
+      "動 is どう, not とう.",
+      "(correct answer)",
+      "うどん is the noodle.",
+      "動 is どう, not どん."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【安全】な道を選びましょう。",
+    "context": "",
+    "options": [
+      "あんぜん",
+      "あんせん",
+      "やすぜん",
+      "あんぜい"
+    ],
+    "answerIndex": 0,
+    "explanation": "安全（あんぜん）= safe.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "全 is ぜん, not せん.",
+      "安 uses its on reading あん in this compound.",
+      "全 is ぜん, not ぜい."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-4",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【特急】で東京へ行きます。",
+    "context": "",
+    "options": [
+      "とくきゅう",
+      "とっきゅ",
+      "どっきゅう",
+      "とっきゅう"
+    ],
+    "answerIndex": 3,
+    "explanation": "特急（とっきゅう）= limited express; とく + きゅう contracts to とっきゅう.",
+    "distractorExplanations": [
+      "The く becomes っ before き.",
+      "Missing the long vowel う.",
+      "特 is とく, not どく.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-5",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n彼は【医者】になりました。",
+    "context": "",
+    "options": [
+      "いしや",
+      "いしゃ",
+      "いじゃ",
+      "いっしゃ"
+    ],
+    "answerIndex": 1,
+    "explanation": "医者（いしゃ）= doctor.",
+    "distractorExplanations": [
+      "者 is しゃ (small ゃ), not しや.",
+      "(correct answer)",
+      "者 is しゃ, not じゃ.",
+      "No small っ."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-6",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n昨日【映画】を見ました。",
+    "context": "",
+    "options": [
+      "えいが",
+      "えが",
+      "えいか",
+      "えいがく"
+    ],
+    "answerIndex": 0,
+    "explanation": "映画（えいが）= film.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "映 is えい with a long vowel.",
+      "画 is voiced が here.",
+      "えいがく is not a word."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-7",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n先生、【質問】があります。",
+    "context": "",
+    "options": [
+      "しちもん",
+      "じつもん",
+      "しつもん",
+      "しつむん"
+    ],
+    "answerIndex": 2,
+    "explanation": "質問（しつもん）= question.",
+    "distractorExplanations": [
+      "質 is しつ, not しち.",
+      "質 is unvoiced しつ.",
+      "(correct answer)",
+      "問 is もん, not むん."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-8",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n会社の【説明】を聞きました。",
+    "context": "",
+    "options": [
+      "せいめい",
+      "せつめ",
+      "せっめい",
+      "せつめい"
+    ],
+    "answerIndex": 3,
+    "explanation": "説明（せつめい）= explanation.",
+    "distractorExplanations": [
+      "説 is せつ, not せい.",
+      "明 is めい with a long vowel.",
+      "No small っ; it is せつ.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-9",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nこの店は【品物】が多いです。",
+    "context": "",
+    "options": [
+      "ひんもの",
+      "しなもの",
+      "しなぶつ",
+      "ひんぶつ"
+    ],
+    "answerIndex": 1,
+    "explanation": "品物（しなもの）= goods; both kanji use kun readings.",
+    "distractorExplanations": [
+      "Mixed on/kun: 品 is しな here.",
+      "(correct answer)",
+      "物 is もの here, not ぶつ.",
+      "Both are on readings; not this word."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-10",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n毎朝【はやく】起きます。",
+    "context": "",
+    "options": [
+      "速く",
+      "早く",
+      "草く",
+      "昼く"
+    ],
+    "answerIndex": 1,
+    "explanation": "早く = early (time). 速く is also read はやく but means 'fast'.",
+    "distractorExplanations": [
+      "速い = fast in speed, not early in time.",
+      "(correct answer)",
+      "草 = grass (くさ).",
+      "昼 = noon (ひる)."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-11",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n変な【おと】が聞こえます。",
+    "context": "",
+    "options": [
+      "音",
+      "声",
+      "昔",
+      "意"
+    ],
+    "answerIndex": 0,
+    "explanation": "音（おと）= sound.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "声 = こえ (voice).",
+      "昔 = むかし (long ago).",
+      "意 = い (mind, meaning)."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-12",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n【ひろい】部屋に住みたいです。",
+    "context": "",
+    "options": [
+      "公い",
+      "太い",
+      "広い",
+      "庭い"
+    ],
+    "answerIndex": 2,
+    "explanation": "広い（ひろい）= spacious.",
+    "distractorExplanations": [
+      "公 = public (こう); note the similar shape.",
+      "太い = ふとい (thick).",
+      "(correct answer)",
+      "庭 = にわ (garden)."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-13",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n【けんきゅう】室で働いています。",
+    "context": "",
+    "options": [
+      "研空",
+      "検究",
+      "研宅",
+      "研究"
+    ],
+    "answerIndex": 3,
+    "explanation": "研究（けんきゅう）= research.",
+    "distractorExplanations": [
+      "空 = そら/くう (sky).",
+      "検 is also けん but 検究 is not a word.",
+      "宅 = たく (home).",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-14",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n【あき】は涼しいです。",
+    "context": "",
+    "options": [
+      "春",
+      "秋",
+      "夏",
+      "冬"
+    ],
+    "answerIndex": 1,
+    "explanation": "秋（あき）= autumn.",
+    "distractorExplanations": [
+      "春 = はる (spring).",
+      "(correct answer)",
+      "夏 = なつ (summer).",
+      "冬 = ふゆ (winter)."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-15",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji writing",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n今日は【とくべつ】な日です。",
+    "context": "",
+    "options": [
+      "特別",
+      "持別",
+      "特列",
+      "待別"
+    ],
+    "answerIndex": 0,
+    "explanation": "特別（とくべつ）= special.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "持 = もつ (hold); similar shape.",
+      "列 = れつ (row).",
+      "待 = まつ (wait)."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-16",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n疲れたので、少し（　）しましょう。",
+    "context": "",
+    "options": [
+      "運転",
+      "休憩",
+      "相談",
+      "準備"
+    ],
+    "answerIndex": 1,
+    "explanation": "休憩する = take a break.",
+    "distractorExplanations": [
+      "運転 = driving.",
+      "(correct answer)",
+      "相談 = consultation.",
+      "準備 = preparation."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-17",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n靴が（　）ので、新しいのを買います。",
+    "context": "",
+    "options": [
+      "きつい",
+      "うすい",
+      "ふかい",
+      "くらい"
+    ],
+    "answerIndex": 0,
+    "explanation": "靴がきつい = the shoes are tight.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "うすい = thin (paper, colour).",
+      "ふかい = deep.",
+      "くらい = dark."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-18",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n明日の朝、（　）に電話をかけて、予約の時間を変えてもらいます。",
+    "context": "",
+    "options": [
+      "歯",
+      "歯医者",
+      "薬",
+      "注射"
+    ],
+    "answerIndex": 1,
+    "explanation": "歯医者 = the dentist, whom you phone to change an appointment.",
+    "distractorExplanations": [
+      "You cannot phone a tooth.",
+      "(correct answer)",
+      "You cannot phone medicine.",
+      "You cannot phone an injection."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-19",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n兄はいつも（　）を言って、みんなを笑わせます。",
+    "context": "",
+    "options": [
+      "文句",
+      "うそ",
+      "冗談",
+      "悪口"
+    ],
+    "answerIndex": 2,
+    "explanation": "冗談を言う = tell jokes, which makes people laugh.",
+    "distractorExplanations": [
+      "文句 = complaints.",
+      "うそ = lies; not for making people laugh.",
+      "(correct answer)",
+      "悪口 = insults."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-20",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nホテルの（　）で部屋の鍵をもらいます。",
+    "context": "",
+    "options": [
+      "ロビー",
+      "エレベーター",
+      "フロント",
+      "レストラン"
+    ],
+    "answerIndex": 2,
+    "explanation": "フロント = the front desk, where keys are handed out.",
+    "distractorExplanations": [
+      "The lobby is the waiting area, not where keys are issued.",
+      "Keys are not given in the lift.",
+      "(correct answer)",
+      "Not at the restaurant."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-21",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n私の（　）は、映画を見ることです。",
+    "context": "",
+    "options": [
+      "興味",
+      "趣味",
+      "経験",
+      "習慣"
+    ],
+    "answerIndex": 1,
+    "explanation": "趣味 = hobby: my hobby is watching films.",
+    "distractorExplanations": [
+      "興味 takes がある/を持つ, not 'is doing X'.",
+      "(correct answer)",
+      "経験 = experience.",
+      "習慣 = habit; unnatural with this predicate."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-22",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n大きい地震が起きたら、まず机の下に（　）ください。",
+    "context": "",
+    "options": [
+      "出て",
+      "登って",
+      "入って",
+      "置いて"
+    ],
+    "answerIndex": 2,
+    "explanation": "机の下に入る = get under the desk.",
+    "distractorExplanations": [
+      "出る = go out; opposite.",
+      "登る = climb (up).",
+      "(correct answer)",
+      "置く is transitive: you put things, not yourself."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-23",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nパーティーの（　）は、みんなでしましょう。",
+    "context": "",
+    "options": [
+      "予習",
+      "説明",
+      "準備",
+      "予定"
+    ],
+    "answerIndex": 2,
+    "explanation": "準備 = preparations for the party.",
+    "distractorExplanations": [
+      "予習 = preparing for a lesson.",
+      "説明 = explanation.",
+      "(correct answer)",
+      "予定 = schedule; not 'done together'."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-24",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nこの道は【危険です】。",
+    "context": "",
+    "options": [
+      "あぶないです",
+      "せまいです",
+      "くらいです",
+      "とおいです"
+    ],
+    "answerIndex": 0,
+    "explanation": "危険 = dangerous = あぶない.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "せまい = narrow.",
+      "くらい = dark.",
+      "とおい = far."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-25",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n会議は【すでに】始まっていました。",
+    "context": "",
+    "options": [
+      "まだ",
+      "これから",
+      "もう",
+      "ときどき"
+    ],
+    "answerIndex": 2,
+    "explanation": "すでに = already ≈ もう. Both say the meeting had started before the speaker arrived.",
+    "distractorExplanations": [
+      "まだ = not yet / still, the opposite of already.",
+      "これから = from now on, so the meeting would not have started.",
+      "(correct answer)",
+      "ときどき = sometimes, a frequency word, not a time reference."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-26",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n田中さんは【留守です】。",
+    "context": "",
+    "options": [
+      "寝ています",
+      "家にいません",
+      "病気です",
+      "忙しいです"
+    ],
+    "answerIndex": 1,
+    "explanation": "留守 = away from home.",
+    "distractorExplanations": [
+      "Sleeping means being at home.",
+      "(correct answer)",
+      "Illness is unrelated.",
+      "Busy is unrelated."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-27",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nこの仕事は【急いでください】。",
+    "context": "",
+    "options": [
+      "ゆっくりしてください",
+      "やめてください",
+      "続けてください",
+      "早くしてください"
+    ],
+    "answerIndex": 3,
+    "explanation": "急ぐ = hurry = do it quickly.",
+    "distractorExplanations": [
+      "Opposite.",
+      "Stopping is not hurrying.",
+      "Continuing says nothing about speed.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-28",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【大切】",
+    "context": "",
+    "options": [
+      "このスープは大切な味です。",
+      "家族との時間を大切にしています。",
+      "大切な電車に乗りました。",
+      "大切に走ってください。"
+    ],
+    "answerIndex": 1,
+    "explanation": "大切にする = treasure, value (time, people).",
+    "distractorExplanations": [
+      "Tastes are おいしい, not 大切.",
+      "(correct answer)",
+      "Trains are not 大切.",
+      "大切に走る is not a collocation."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-29",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【届ける】",
+    "context": "",
+    "options": [
+      "忘れ物を交番に届けました。",
+      "駅に届けて、電車に乗りました。",
+      "窓を届けてください。",
+      "昨日は早く届けて寝ました。"
+    ],
+    "answerIndex": 0,
+    "explanation": "届ける = deliver / hand in (a lost item to the police box).",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Arriving at a station is 着く.",
+      "Windows are 開ける/閉める.",
+      "Nonsense."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-30",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【にぎやか】",
+    "context": "",
+    "options": [
+      "にぎやかな水を飲みました。",
+      "このかばんはにぎやかです。",
+      "彼はにぎやかに寝ています。",
+      "この町は夜もにぎやかです。"
+    ],
+    "answerIndex": 3,
+    "explanation": "にぎやか = lively, bustling (of places).",
+    "distractorExplanations": [
+      "Water is not lively.",
+      "Bags are not lively.",
+      "Sleeping cannot be lively.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-moji-goi-31",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n【間に合う】",
+    "context": "",
+    "options": [
+      "この靴は私に間に合います。",
+      "部屋がきれいに間に合いました。",
+      "急いだので、電車に間に合いました。",
+      "友達と駅で間に合いました。"
+    ],
+    "answerIndex": 2,
+    "explanation": "間に合う = be in time for (a train, a deadline).",
+    "distractorExplanations": [
+      "Fitting is 合う, not 間に合う.",
+      "Nonsense.",
+      "(correct answer)",
+      "Meeting is 会う."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n駅に（　）、電話をください。",
+    "context": "",
+    "options": [
+      "着くと",
+      "着いたら",
+      "着いても",
+      "着くなら"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜たら + request: once you arrive, call me.",
+    "distractorExplanations": [
+      "〜と cannot be followed by a request.",
+      "(correct answer)",
+      "〜ても = even if; wrong meaning.",
+      "〜なら = if you are going to arrive; unnatural with this request."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n私は先生（　）漢字を教えてもらいました。",
+    "context": "",
+    "options": [
+      "に",
+      "が",
+      "を",
+      "は"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜てもらう marks the giver with に: 先生に教えてもらった.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "が would make the teacher the subject of もらう.",
+      "を already marks 漢字.",
+      "は would make the teacher the topic-subject, clashing with 私は."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n疲れたので、何も（　）。",
+    "context": "",
+    "options": [
+      "したい",
+      "したくない",
+      "しよう",
+      "してほしい"
+    ],
+    "answerIndex": 1,
+    "explanation": "何も + negative: I don't want to do anything.",
+    "distractorExplanations": [
+      "何も requires a negative.",
+      "(correct answer)",
+      "何もしよう is ungrammatical.",
+      "何もしてほしい is ungrammatical."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-4",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "keigo",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこの機械の使い方を（　）か。",
+    "context": "",
+    "options": [
+      "教えてあげません",
+      "教えていただけません",
+      "教えてさしあげません",
+      "教えてもらいません"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜ていただけませんか = polite request (could you please teach me).",
+    "distractorExplanations": [
+      "あげる is for the speaker giving.",
+      "(correct answer)",
+      "さしあげる is humble giving by the speaker.",
+      "もらいませんか is not a request form."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-5",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n昨日は雨が（　）、サッカーの試合をしました。",
+    "context": "",
+    "options": [
+      "降っていましたから",
+      "降っていましたが",
+      "降っていましたので",
+      "降っていましたし"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜が = although it was raining, we played.",
+    "distractorExplanations": [
+      "から gives a reason; rain is not why they played.",
+      "(correct answer)",
+      "ので also gives a reason.",
+      "し adds a reason to a list."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-6",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n子どものとき、私は母によく本を（　）。",
+    "context": "",
+    "options": [
+      "読んであげました",
+      "読んでくれました",
+      "読んでもらいました",
+      "読ませました"
+    ],
+    "answerIndex": 2,
+    "explanation": "私は母に〜てもらった = mother read to me.",
+    "distractorExplanations": [
+      "あげる would mean I read to my mother, but 母に + あげる implies I am the giver; contradicts a child's situation and the に marking of the giver pattern.",
+      "くれる needs 母が as subject.",
+      "(correct answer)",
+      "Causative = I made my mother read; unnatural."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-7",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n田中さんは来月、大阪へ転勤する（　）になりました。",
+    "context": "",
+    "options": [
+      "もの",
+      "はず",
+      "こと",
+      "ため"
+    ],
+    "answerIndex": 2,
+    "explanation": "〜ことになる = it has been decided that.",
+    "distractorExplanations": [
+      "ものになる does not express a decision.",
+      "はず = supposed to; not with になりました.",
+      "(correct answer)",
+      "ためになる = be beneficial."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-8",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n弟は宿題を（　）、遊びに行ってしまった。",
+    "context": "",
+    "options": [
+      "しなくて",
+      "しないで",
+      "しないと",
+      "しなければ"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜ないで = without doing (went out without doing homework).",
+    "distractorExplanations": [
+      "〜なくて expresses a cause, not accompanying circumstance.",
+      "(correct answer)",
+      "〜ないと = if not; wrong meaning.",
+      "〜なければ = if not."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-9",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n先生は学生に作文を（　）。",
+    "context": "",
+    "options": [
+      "書かれました",
+      "書けました",
+      "書きました",
+      "書かせました"
+    ],
+    "answerIndex": 3,
+    "explanation": "Causative: the teacher made the students write.",
+    "distractorExplanations": [
+      "Passive/honorific does not fit 学生に.",
+      "Potential does not take 学生に.",
+      "Plain form does not explain 学生に.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-10",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "keigo",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n先生が（　）本を読みました。",
+    "context": "",
+    "options": [
+      "お書きした",
+      "お書きになった",
+      "書かせていただいた",
+      "書いてさしあげた"
+    ],
+    "answerIndex": 1,
+    "explanation": "お〜になる is the honorific for the teacher's action.",
+    "distractorExplanations": [
+      "お〜する is humble (for the speaker).",
+      "(correct answer)",
+      "Humble causative is for the speaker.",
+      "さしあげる is humble giving by the speaker."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-11",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n明日は休みだ（　）、どこかへ行きませんか。",
+    "context": "",
+    "options": [
+      "のに",
+      "し",
+      "ても",
+      "ながら"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜し gives a reason: it's a holiday tomorrow, so shall we go somewhere?",
+    "distractorExplanations": [
+      "のに = although; contradicts.",
+      "(correct answer)",
+      "だても is ungrammatical.",
+      "ながら does not attach to だ."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-12",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n部屋の電気が消えている。田中さんはもう（　）らしい。",
+    "context": "",
+    "options": [
+      "帰ろう",
+      "帰って",
+      "帰った",
+      "帰り"
+    ],
+    "answerIndex": 2,
+    "explanation": "Plain past + らしい: it seems he has already gone home.",
+    "distractorExplanations": [
+      "Volitional cannot precede らしい.",
+      "The te-form cannot precede らしい.",
+      "(correct answer)",
+      "The masu-stem cannot precede らしい."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-13",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n山田さんは、日本の食べ物なら何（　）食べられます。",
+    "context": "",
+    "options": [
+      "にも",
+      "かも",
+      "でも",
+      "とも"
+    ],
+    "answerIndex": 2,
+    "explanation": "何でも = anything.",
+    "distractorExplanations": [
+      "何にも is used with negatives.",
+      "何か + も is not a set phrase.",
+      "(correct answer)",
+      "何とも is not used here."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-14",
+    "type": "ordering",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n昨日 ＿＿ ★ ＿＿ ＿＿ 面白かったです。",
+    "context": "",
+    "options": [
+      "本は",
+      "借りた",
+      "とても",
+      "友達に"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 友達に 借りた 本は とても → 昨日友達に借りた本はとても面白かったです。 (The book I borrowed from a friend yesterday was very interesting.). ★ is the second slot: 借りた.",
+    "distractorExplanations": [
+      "Goes in the third slot, not at ★.",
+      "(correct answer)",
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-15",
+    "type": "ordering",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n田中さんに ＿＿ ＿＿ ★ ＿＿ 伝えてください。",
+    "context": "",
+    "options": [
+      "なったと",
+      "中止に",
+      "会ったら",
+      "会議が"
+    ],
+    "answerIndex": 1,
+    "explanation": "Full order: 会ったら 会議が 中止に なったと → 田中さんに会ったら会議が中止になったと伝えてください。 (When you see Tanaka, please tell him the meeting has been cancelled.). ★ is the third slot: 中止に.",
+    "distractorExplanations": [
+      "Goes in the fourth slot, not at ★.",
+      "(correct answer)",
+      "Goes in the first slot, not at ★.",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-16",
+    "type": "ordering",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n私は ＿＿ ★ ＿＿ ＿＿ 住んでいます。",
+    "context": "",
+    "options": [
+      "十分の",
+      "ところに",
+      "歩いて",
+      "駅から"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 駅から 歩いて 十分の ところに → 私は駅から歩いて十分のところに住んでいます。 (I live ten minutes on foot from the station.). ★ is the second slot: 歩いて.",
+    "distractorExplanations": [
+      "Goes in the third slot, not at ★.",
+      "Goes in the fourth slot, not at ★.",
+      "(correct answer)",
+      "Goes in the first slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-17",
+    "type": "ordering",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n明日は ＿＿ ＿＿ ★ ＿＿ でしょう。",
+    "context": "",
+    "options": [
+      "見える",
+      "天気が",
+      "富士山が",
+      "よければ"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 天気が よければ 富士山が 見える → 明日は天気がよければ富士山が見えるでしょう。 (If the weather is good tomorrow, you will probably be able to see Mt. Fuji.). ★ is the third slot: 富士山が.",
+    "distractorExplanations": [
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★.",
+      "(correct answer)",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-18",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【18】",
+    "context": "私の町には、古い商店街があります。子どものころは、店がたくさんあって、いつも人でにぎやかでした。しかし、駅前に大きいスーパーが【18】、商店街の店は少しずつ減っていきました。\n\n先月、その商店街で「昔の写真展」がありました。五十年前の商店街の写真がたくさん飾られていて、私の祖父の店の写真もありました。祖父はもう亡くなりましたが、写真の中の祖父は、若くて、楽しそうに【19】。\n\n写真展には、若い人もたくさん来ていました。「こんな店があったんだ」「行ってみたかった」と話しているのを聞いて、私はうれしくなりました。商店街を昔のように【20】は難しいかもしれません。でも、この町の歴史を知る人が一人でも増えれば、それだけでも意味があると【21】。",
+    "options": [
+      "できるまで",
+      "できてから",
+      "できる前に",
+      "できても"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜てから = after the supermarket was built, the shops decreased.",
+    "distractorExplanations": [
+      "まで = until; the decline came after, not before.",
+      "(correct answer)",
+      "前に = before; reverses the order.",
+      "ても = even if; wrong logic."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-19",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【19】",
+    "context": "私の町には、古い商店街があります。子どものころは、店がたくさんあって、いつも人でにぎやかでした。しかし、駅前に大きいスーパーが【18】、商店街の店は少しずつ減っていきました。\n\n先月、その商店街で「昔の写真展」がありました。五十年前の商店街の写真がたくさん飾られていて、私の祖父の店の写真もありました。祖父はもう亡くなりましたが、写真の中の祖父は、若くて、楽しそうに【19】。\n\n写真展には、若い人もたくさん来ていました。「こんな店があったんだ」「行ってみたかった」と話しているのを聞いて、私はうれしくなりました。商店街を昔のように【20】は難しいかもしれません。でも、この町の歴史を知る人が一人でも増えれば、それだけでも意味があると【21】。",
+    "options": [
+      "笑います",
+      "笑うでしょう",
+      "笑っていました",
+      "笑ってみました"
+    ],
+    "answerIndex": 2,
+    "explanation": "Describing a state in a photo, in past narration: 笑っていました.",
+    "distractorExplanations": [
+      "Present plain does not match the past narration.",
+      "でしょう is conjecture; the writer sees the photo.",
+      "(correct answer)",
+      "〜てみる = try doing; not for a photo."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-20",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【20】",
+    "context": "私の町には、古い商店街があります。子どものころは、店がたくさんあって、いつも人でにぎやかでした。しかし、駅前に大きいスーパーが【18】、商店街の店は少しずつ減っていきました。\n\n先月、その商店街で「昔の写真展」がありました。五十年前の商店街の写真がたくさん飾られていて、私の祖父の店の写真もありました。祖父はもう亡くなりましたが、写真の中の祖父は、若くて、楽しそうに【19】。\n\n写真展には、若い人もたくさん来ていました。「こんな店があったんだ」「行ってみたかった」と話しているのを聞いて、私はうれしくなりました。商店街を昔のように【20】は難しいかもしれません。でも、この町の歴史を知る人が一人でも増えれば、それだけでも意味があると【21】。",
+    "options": [
+      "にぎやかなこと",
+      "にぎやかにすること",
+      "にぎやかだったこと",
+      "にぎやかにしたこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "商店街を〜にする = make the shopping street lively (again); nominalised with こと.",
+    "distractorExplanations": [
+      "Needs the transitive にする because of を.",
+      "(correct answer)",
+      "Past state; not an action to attempt.",
+      "Past action; the difficulty concerns the future."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-bunpo-21",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【21】",
+    "context": "私の町には、古い商店街があります。子どものころは、店がたくさんあって、いつも人でにぎやかでした。しかし、駅前に大きいスーパーが【18】、商店街の店は少しずつ減っていきました。\n\n先月、その商店街で「昔の写真展」がありました。五十年前の商店街の写真がたくさん飾られていて、私の祖父の店の写真もありました。祖父はもう亡くなりましたが、写真の中の祖父は、若くて、楽しそうに【19】。\n\n写真展には、若い人もたくさん来ていました。「こんな店があったんだ」「行ってみたかった」と話しているのを聞いて、私はうれしくなりました。商店街を昔のように【20】は難しいかもしれません。でも、この町の歴史を知る人が一人でも増えれば、それだけでも意味があると【21】。",
+    "options": [
+      "思います",
+      "思わせます",
+      "思われたいです",
+      "思っておきます"
+    ],
+    "answerIndex": 0,
+    "explanation": "The writer states an opinion: 〜と思います.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Causative = make someone think.",
+      "Wanting to be thought of; nonsense.",
+      "〜ておく = do in advance; unnatural with 思う here."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "林さんが午後9時にホテルに着く場合、何をしなければなりませんか。",
+    "context": "以下は、ホテルからのメールである。\n\n林様\n\nご予約ありがとうございます。10月5日から2泊、ツインルームでお受けしました。チェックインは午後3時からです。もし午後8時より遅くなる場合は、必ずお電話ください。連絡がない場合、予約が取り消されることがあります。駐車場をご利用の方は、予約の際にお知らせください。\n\nみなとホテル",
+    "options": [
+      "予約を取り消す",
+      "ホテルに電話する",
+      "駐車場を予約する",
+      "午後3時までにチェックインする"
+    ],
+    "answerIndex": 1,
+    "explanation": "「午後8時より遅くなる場合は、必ずお電話ください」.",
+    "distractorExplanations": [
+      "Cancellation is what may happen if you do not call.",
+      "(correct answer)",
+      "Parking is only for those who need it.",
+      "Check-in starts at 3 pm; there is no deadline of 3 pm."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "この人について、正しいものはどれか。",
+    "context": "私は先月から、駅前のパン屋でアルバイトをしています。朝五時から店に入って、パンを焼くのを手伝います。朝が早いのは大変ですが、焼きたてのパンのにおいが大好きなので、毎日楽しく働いています。店長は、私が将来自分の店を持ちたいと言ったら、いろいろなことを教えてくれるようになりました。今の目標は、一人で人気のパンを作れるようになることです。",
+    "options": [
+      "パンのにおいが嫌いなので、店を変えたい",
+      "もう自分の店を持っている",
+      "朝早く働くのは大変だが、楽しく働いている",
+      "店長になりたいと思っている"
+    ],
+    "answerIndex": 2,
+    "explanation": "「朝が早いのは大変ですが…毎日楽しく働いています」.",
+    "distractorExplanations": [
+      "The writer loves the smell of bread.",
+      "Owning a shop is a future wish.",
+      "(correct answer)",
+      "The wish is to own a shop, not to become the manager."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "佐藤さんは、何をしなければなりませんか。",
+    "context": "以下は、会社の机の上にあったメモである。\n\n佐藤さん\n\nお疲れさまです。さっき、ABC社の中村さんから電話がありました。明日の午後の打ち合わせを、金曜日の同じ時間に変えてほしいそうです。佐藤さんの予定を確認して、中村さんに電話してくださいとのことです。中村さんは今日は五時まで会社にいるそうです。\n\n高橋",
+    "options": [
+      "明日の午後、ABC社に行く",
+      "高橋さんに予定を伝える",
+      "金曜日に中村さんに電話する",
+      "自分の予定を確認して、中村さんに電話する"
+    ],
+    "answerIndex": 3,
+    "explanation": "「佐藤さんの予定を確認して、中村さんに電話してください」.",
+    "distractorExplanations": [
+      "The meeting may move, and the memo does not say where it is held.",
+      "Takahashi only passed on the message.",
+      "The call should be made today (Nakamura is in until five), not Friday.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-4",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "この人は、出発の前にどんな気持ちでしたか。",
+    "context": "私は去年、初めて一人で旅行をしました。行き先は北海道です。それまで旅行はいつも家族や友達と一緒だったので、出発の前はとても不安でした。\n\n北海道に着いた日、私は道に迷ってしまいました。地図を見てもわからなくて、困っていると、近くにいたおばあさんが声をかけてくれました。おばあさんは、私がホテルの名前を言うと、「近くだから」と言って、①一緒に歩いてくれました。歩きながら、おばあさんはこの町のおいしい店や、きれいな公園のことをたくさん教えてくれました。\n\n次の日、私はおばあさんに教えてもらった店で昼ご飯を食べました。とてもおいしかったです。一人で旅行すると、②こんなことがあるのだと知りました。誰かと一緒だったら、たぶん自分たちだけで地図を見て、おばあさんとは話さなかったと思います。今年もまた、一人でどこかへ行くつもりです。",
+    "options": [
+      "楽しみだった",
+      "不安だった",
+      "悲しかった",
+      "つまらなかった"
+    ],
+    "answerIndex": 1,
+    "explanation": "「出発の前はとても不安でした」.",
+    "distractorExplanations": [
+      "Not stated; the writer was anxious.",
+      "(correct answer)",
+      "Sadness is not mentioned.",
+      "Boredom is not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-5",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "①一緒に歩いてくれましたとあるが、どうしてか。",
+    "context": "私は去年、初めて一人で旅行をしました。行き先は北海道です。それまで旅行はいつも家族や友達と一緒だったので、出発の前はとても不安でした。\n\n北海道に着いた日、私は道に迷ってしまいました。地図を見てもわからなくて、困っていると、近くにいたおばあさんが声をかけてくれました。おばあさんは、私がホテルの名前を言うと、「近くだから」と言って、①一緒に歩いてくれました。歩きながら、おばあさんはこの町のおいしい店や、きれいな公園のことをたくさん教えてくれました。\n\n次の日、私はおばあさんに教えてもらった店で昼ご飯を食べました。とてもおいしかったです。一人で旅行すると、②こんなことがあるのだと知りました。誰かと一緒だったら、たぶん自分たちだけで地図を見て、おばあさんとは話さなかったと思います。今年もまた、一人でどこかへ行くつもりです。",
+    "options": [
+      "おばあさんも同じホテルに泊まっていたから",
+      "筆者がおいしい店を聞いたから",
+      "筆者がホテルへの道がわからなくて困っていたから",
+      "おばあさんが公園に行きたかったから"
+    ],
+    "answerIndex": 2,
+    "explanation": "The writer was lost and troubled; the old woman said the hotel was near and walked with her.",
+    "distractorExplanations": [
+      "The old woman lives locally; she was not a guest.",
+      "The shops came up during the walk, not as the reason.",
+      "(correct answer)",
+      "The park was only talked about."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-6",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "②こんなこととは、どんなことか。",
+    "context": "私は去年、初めて一人で旅行をしました。行き先は北海道です。それまで旅行はいつも家族や友達と一緒だったので、出発の前はとても不安でした。\n\n北海道に着いた日、私は道に迷ってしまいました。地図を見てもわからなくて、困っていると、近くにいたおばあさんが声をかけてくれました。おばあさんは、私がホテルの名前を言うと、「近くだから」と言って、①一緒に歩いてくれました。歩きながら、おばあさんはこの町のおいしい店や、きれいな公園のことをたくさん教えてくれました。\n\n次の日、私はおばあさんに教えてもらった店で昼ご飯を食べました。とてもおいしかったです。一人で旅行すると、②こんなことがあるのだと知りました。誰かと一緒だったら、たぶん自分たちだけで地図を見て、おばあさんとは話さなかったと思います。今年もまた、一人でどこかへ行くつもりです。",
+    "options": [
+      "道に迷って、ホテルに着けないこと",
+      "おいしい店で昼ご飯を食べること",
+      "知らない人と話して、親切にしてもらうこと",
+      "地図を見ても道がわからないこと"
+    ],
+    "answerIndex": 2,
+    "explanation": "The following sentence explains: with company, 「おばあさんとは話さなかった」; travelling alone leads to talking with strangers and receiving kindness.",
+    "distractorExplanations": [
+      "The writer did reach the hotel.",
+      "The meal is a detail, not the point.",
+      "(correct answer)",
+      "Getting lost is the trigger, not the discovery."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-7",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "information retrieval",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "山本さんは、土曜日の午後に小学生の娘と一緒に料理教室に参加したい。二人でいくら払うか。",
+    "context": "みなと市　料理教室のお知らせ\n\n【A】日本料理コース\n・毎週土曜日　午前10時〜12時\n・料金：1回 1,500円（材料費を含む）\n・定員：12人\n\n【B】パン作りコース\n・毎週日曜日　午後2時〜4時\n・料金：1回 2,000円（材料費を含む）\n・定員：8人\n\n【C】子ども料理コース（小学生）\n・第2・第4土曜日　午後1時〜3時\n・料金：1回 800円\n・定員：10人\n・保護者（ほごしゃ）が一緒に参加してください（保護者は無料）。\n\n申し込み\n・電話またはメールで、参加したい日の3日前までに申し込んでください。\n・エプロンとタオルを持って来てください。\n・お休みする場合は、前の日までに連絡してください。連絡がない場合は、料金をいただきます。",
+    "options": [
+      "1,600円",
+      "800円",
+      "1,500円",
+      "2,300円"
+    ],
+    "answerIndex": 1,
+    "explanation": "Saturday afternoon with an elementary-school child = course C: 800 yen for the child, the parent is free.",
+    "distractorExplanations": [
+      "Parents are free, so not 800 × 2.",
+      "(correct answer)",
+      "1,500 yen is course A (Saturday morning, adults).",
+      "Adding course A is wrong; the parent joins C for free."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-dokkai-8",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "reading",
+    "topic": "information retrieval",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "料理教室について、正しいものはどれか。",
+    "context": "みなと市　料理教室のお知らせ\n\n【A】日本料理コース\n・毎週土曜日　午前10時〜12時\n・料金：1回 1,500円（材料費を含む）\n・定員：12人\n\n【B】パン作りコース\n・毎週日曜日　午後2時〜4時\n・料金：1回 2,000円（材料費を含む）\n・定員：8人\n\n【C】子ども料理コース（小学生）\n・第2・第4土曜日　午後1時〜3時\n・料金：1回 800円\n・定員：10人\n・保護者（ほごしゃ）が一緒に参加してください（保護者は無料）。\n\n申し込み\n・電話またはメールで、参加したい日の3日前までに申し込んでください。\n・エプロンとタオルを持って来てください。\n・お休みする場合は、前の日までに連絡してください。連絡がない場合は、料金をいただきます。",
+    "options": [
+      "日本料理コースは材料費が別に必要だ",
+      "申し込みは参加する日の前の日までにできる",
+      "パン作りコースは日曜日の午後にある",
+      "休むときは、連絡しなくてもいい"
+    ],
+    "answerIndex": 2,
+    "explanation": "「パン作りコース　毎週日曜日　午後2時〜4時」.",
+    "distractorExplanations": [
+      "Course A's fee includes materials.",
+      "Applications close three days before.",
+      "(correct answer)",
+      "Absence must be reported by the previous day, or the fee is charged."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-1",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人はどの箱を運びますか。",
+    "context": "会社で、女の人と男の人が話しています。男の人はどの箱を運びますか。\n\n女：山田さん、悪いけど、この箱、会議室に運んでくれない？\n男：いいですよ。大きいのと小さいの、両方ですか。\n女：大きいのは重いから、あとで二人で運ぼう。小さいのだけお願い。\n男：白い箱と茶色い箱がありますけど。\n女：茶色いのは捨てるものだから、白いほう。\n男：わかりました。",
+    "options": [
+      "小さい茶色い箱",
+      "大きい白い箱",
+      "小さい白い箱",
+      "大きい茶色い箱"
+    ],
+    "answerIndex": 2,
+    "explanation": "Only the small one now; the brown one is rubbish, so the small white box.",
+    "distractorExplanations": [
+      "The brown box is to be thrown away.",
+      "The big box will be carried later by two people.",
+      "(correct answer)",
+      "Big and brown are both excluded."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-2",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の学生はこのあと何をしますか。",
+    "context": "大学で、男の学生と女の学生が話しています。女の学生はこのあと何をしますか。\n\n男：レポート、もう出した？\n女：まだ。今日の五時までだよね。今から図書館で本を返してから、書き終わろうと思って。\n男：え、先生、さっき教室で言ってたよ。五時じゃなくて、三時までって。\n女：本当？　もう二時だよ。\n男：本は僕が返しておくから、早く書きなよ。\n女：ありがとう。じゃあ、お願い。",
+    "options": [
+      "図書館で本を返す",
+      "教室に行く",
+      "レポートを書く",
+      "先生に会いに行く"
+    ],
+    "answerIndex": 2,
+    "explanation": "The deadline is 3 pm, not 5; the man returns the books, so she writes the report.",
+    "distractorExplanations": [
+      "The man will return the books for her.",
+      "Not mentioned.",
+      "(correct answer)",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-3",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は明日、何で会場へ行きますか。",
+    "context": "女の人と男の人が話しています。男の人は明日、何で会場へ行きますか。\n\n女：明日のコンサート、会場までどうやって行く？\n男：車で行こうと思ってたんだけど。\n女：会場の駐車場、明日は使えないらしいよ。近くの駐車場も少ないし。\n男：そうか。じゃあ、電車かな。\n女：駅からバスもあるけど、歩いても十五分だよ。\n男：じゃあ、電車で行って、駅から歩くよ。運動になるし。",
+    "options": [
+      "車",
+      "電車と徒歩",
+      "電車とバス",
+      "バス"
+    ],
+    "answerIndex": 1,
+    "explanation": "「電車で行って、駅から歩くよ」.",
+    "distractorExplanations": [
+      "The car park cannot be used.",
+      "(correct answer)",
+      "He chooses to walk from the station rather than take the bus.",
+      "The bus is declined."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-4",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人は次に何曜日に病院へ来ますか。",
+    "context": "病院で、女の人と受付の人が話しています。女の人は次に何曜日に病院へ来ますか。\n\n受付：次の予約ですが、来週の月曜日はいかがですか。\n女：月曜日は仕事が休めないんです。水曜日はどうですか。\n受付：水曜日は先生がお休みなんです。木曜日か金曜日なら空いていますが。\n女：金曜日は出張で……。じゃあ、その前の日でお願いします。\n受付：はい、では午前十時でよろしいですか。\n女：はい、お願いします。",
+    "options": [
+      "水曜日",
+      "木曜日",
+      "月曜日",
+      "金曜日"
+    ],
+    "answerIndex": 1,
+    "explanation": "Thursday or Friday were free; Friday is a business trip, so 'the day before' = Thursday.",
+    "distractorExplanations": [
+      "The doctor is off on Wednesday.",
+      "(correct answer)",
+      "She cannot take Monday off work.",
+      "She is on a business trip on Friday."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-5",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人はこのあとまず何をしますか。",
+    "context": "家で、女の人と男の人が話しています。男の人はこのあとまず何をしますか。\n\n女：もうすぐお客さんが来るから、手伝って。\n男：うん。料理を運ぼうか。\n女：料理はまだできてないから、先に部屋を片づけて。テーブルの上の新聞とか。\n男：わかった。掃除機もかける？\n女：掃除機は昨日かけたから、いいよ。片づけが終わったら、お皿を出して。\n男：はい。",
+    "options": [
+      "料理を運ぶ",
+      "掃除機をかける",
+      "お皿を出す",
+      "部屋を片づける"
+    ],
+    "answerIndex": 3,
+    "explanation": "「先に部屋を片づけて」; plates come after tidying, food is not ready, vacuuming was done yesterday.",
+    "distractorExplanations": [
+      "The food is not ready yet.",
+      "Vacuuming was done yesterday.",
+      "Plates come after tidying.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-6",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人はどうして日本語を勉強していますか。",
+    "context": "男の人と女の人が話しています。女の人はどうして日本語を勉強していますか。\n\n男：リンさんは、どうして日本語を勉強しているんですか。仕事のためですか。\n女：いいえ、仕事では英語を使っているので。\n男：じゃあ、日本のアニメが好きとか？\n女：アニメはあまり見ないんです。実は、夫が日本人で、夫の家族と話したいんです。夫の両親は英語が話せないので。\n男：ああ、そうなんですか。",
+    "options": [
+      "仕事で必要だから",
+      "夫の家族と話したいから",
+      "アニメが好きだから",
+      "日本に住みたいから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「夫が日本人で、夫の家族と話したいんです」.",
+    "distractorExplanations": [
+      "She uses English at work.",
+      "(correct answer)",
+      "She hardly watches anime.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-7",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は新しいアパートの何が一番気に入っていますか。",
+    "context": "女の人と男の人が話しています。男の人は新しいアパートの何が一番気に入っていますか。\n\n女：新しいアパート、どう？\n男：うん、前より広くなったし、駅にも近いよ。\n女：いいね。家賃は？\n男：少し高くなったけど。でも、一番いいのは、窓から公園が見えることかな。朝、鳥の声で目が覚めるんだ。\n女：へえ、いいなあ。",
+    "options": [
+      "窓から公園が見えること",
+      "駅に近いこと",
+      "部屋が広いこと",
+      "家賃が安いこと"
+    ],
+    "answerIndex": 0,
+    "explanation": "「一番いいのは、窓から公園が見えることかな」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Mentioned, but not the favourite.",
+      "Mentioned, but not the favourite.",
+      "The rent went up."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-8",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人はいつ国へ帰りますか。",
+    "context": "男の人と女の人が話しています。女の人はいつ国へ帰りますか。\n\n男：夏休み、国へ帰るの？\n女：うん。最初は八月の初めに帰るつもりだったんだけど、飛行機が高くて。\n男：じゃあ、いつ？\n女：八月の終わりにしようと思ったら、その週に大学の試験があって。だから、試験が終わった次の週、九月の初めに帰ることにした。\n男：そうなんだ。",
+    "options": [
+      "八月の終わり",
+      "九月の初め",
+      "八月の初め",
+      "九月の終わり"
+    ],
+    "answerIndex": 1,
+    "explanation": "Early August was too expensive, late August clashes with exams, so early September.",
+    "distractorExplanations": [
+      "Exam week.",
+      "(correct answer)",
+      "Flights were too expensive.",
+      "Not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-9",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は映画の何がよかったと言っていますか。",
+    "context": "女の人と男の人が映画について話しています。男の人は映画の何がよかったと言っていますか。\n\n女：昨日の映画、どうだった？\n男：うーん、話は少し長かったかな。最後もよくわからなかったし。\n女：そう。じゃあ、あまりよくなかった？\n男：いや、音楽がすごくよかったんだ。今も頭の中で流れてる。\n女：へえ、私も見てみようかな。",
+    "options": [
+      "話が面白かったこと",
+      "音楽がよかったこと",
+      "最後がよかったこと",
+      "短かったこと"
+    ],
+    "answerIndex": 1,
+    "explanation": "「音楽がすごくよかったんだ」.",
+    "distractorExplanations": [
+      "He found the story a bit long.",
+      "(correct answer)",
+      "He did not understand the ending.",
+      "He said it was long, not short."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-10",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：昨日はごちそうさまでした。",
+    "options": [
+      "はい、いただきます。",
+      "いいえ、どういたしまして。",
+      "ごちそうさまでした。"
+    ],
+    "answerIndex": 1,
+    "explanation": "Thanks for a meal (ごちそうさまでした) is answered with どういたしまして.",
+    "distractorExplanations": [
+      "いただきます is said before eating.",
+      "(correct answer)",
+      "Repeating the thanks makes no sense from the host."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-11",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：この電車は新宿に止まりますか。",
+    "options": [
+      "いいえ、止まりません。次の電車に乗ってください。",
+      "はい、新宿です。",
+      "いいえ、電車です。"
+    ],
+    "answerIndex": 0,
+    "explanation": "Answers whether the train stops there and gives the alternative.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Does not answer whether it stops.",
+      "Nonsense."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-12",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：すみません、ちょっと道を教えていただけませんか。",
+    "options": [
+      "いいえ、道です。",
+      "はい、教えました。",
+      "はい、どちらへ行きますか。"
+    ],
+    "answerIndex": 2,
+    "explanation": "Agree to help and ask where they are going.",
+    "distractorExplanations": [
+      "Nonsense.",
+      "Past tense; nothing has been explained yet.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-13",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：会議の資料、何部コピーしましょうか。",
+    "options": [
+      "はい、コピーしました。",
+      "十部お願いします。",
+      "会議室でお願いします。"
+    ],
+    "answerIndex": 1,
+    "explanation": "何部 asks how many copies; answer with a number.",
+    "distractorExplanations": [
+      "Past tense; the copies have not been made.",
+      "(correct answer)",
+      "Answers 'where', not 'how many'."
+    ]
+  },
+  {
+    "id": "q-exam-n4-mock-c-chokai-14",
+    "type": "mc",
+    "level": "n4",
+    "difficulty": 2,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：風邪はもう治りましたか。",
+    "options": [
+      "はい、おかげさまで。",
+      "はい、風邪です。",
+      "いいえ、治りました。"
+    ],
+    "answerIndex": 0,
+    "explanation": "おかげさまで is the set reply when asked if you have recovered.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Does not answer whether it has healed.",
+      "Contradictory: 'no, it healed'."
+    ]
+  }
+]

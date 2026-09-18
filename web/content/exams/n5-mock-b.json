@@ -1,0 +1,95 @@
+{
+  "id": "n5-mock-b",
+  "level": "n5",
+  "title": "N5 模擬試験 B",
+  "description": "Full-length N5 mock following the official structure: 文字・語彙 (21) in 20 minutes, 文法 (17) in 15 minutes, 読解 (6) in 25 minutes, and 聴解 (11) in 30 minutes. Aim for 80/180 overall with at least 38/120 in 言語知識・読解 and 19/60 in 聴解. Version B: new sentences, passages and scripts.",
+  "sections": [
+    {
+      "id": "moji-goi",
+      "name": "言語知識（文字・語彙）",
+      "skill": "language",
+      "timeLimitSeconds": 1200,
+      "questionIds": [
+        "q-exam-n5-mock-b-moji-goi-1",
+        "q-exam-n5-mock-b-moji-goi-2",
+        "q-exam-n5-mock-b-moji-goi-3",
+        "q-exam-n5-mock-b-moji-goi-4",
+        "q-exam-n5-mock-b-moji-goi-5",
+        "q-exam-n5-mock-b-moji-goi-6",
+        "q-exam-n5-mock-b-moji-goi-7",
+        "q-exam-n5-mock-b-moji-goi-8",
+        "q-exam-n5-mock-b-moji-goi-9",
+        "q-exam-n5-mock-b-moji-goi-10",
+        "q-exam-n5-mock-b-moji-goi-11",
+        "q-exam-n5-mock-b-moji-goi-12",
+        "q-exam-n5-mock-b-moji-goi-13",
+        "q-exam-n5-mock-b-moji-goi-14",
+        "q-exam-n5-mock-b-moji-goi-15",
+        "q-exam-n5-mock-b-moji-goi-16",
+        "q-exam-n5-mock-b-moji-goi-17",
+        "q-exam-n5-mock-b-moji-goi-18",
+        "q-exam-n5-mock-b-moji-goi-19",
+        "q-exam-n5-mock-b-moji-goi-20",
+        "q-exam-n5-mock-b-moji-goi-21"
+      ]
+    },
+    {
+      "id": "bunpo",
+      "name": "言語知識（文法）",
+      "skill": "language",
+      "timeLimitSeconds": 900,
+      "questionIds": [
+        "q-exam-n5-mock-b-bunpo-1",
+        "q-exam-n5-mock-b-bunpo-2",
+        "q-exam-n5-mock-b-bunpo-3",
+        "q-exam-n5-mock-b-bunpo-4",
+        "q-exam-n5-mock-b-bunpo-5",
+        "q-exam-n5-mock-b-bunpo-6",
+        "q-exam-n5-mock-b-bunpo-7",
+        "q-exam-n5-mock-b-bunpo-8",
+        "q-exam-n5-mock-b-bunpo-9",
+        "q-exam-n5-mock-b-bunpo-10",
+        "q-exam-n5-mock-b-bunpo-11",
+        "q-exam-n5-mock-b-bunpo-12",
+        "q-exam-n5-mock-b-bunpo-13",
+        "q-exam-n5-mock-b-bunpo-14",
+        "q-exam-n5-mock-b-bunpo-15",
+        "q-exam-n5-mock-b-bunpo-16",
+        "q-exam-n5-mock-b-bunpo-17"
+      ]
+    },
+    {
+      "id": "dokkai",
+      "name": "読解",
+      "skill": "reading",
+      "timeLimitSeconds": 1500,
+      "questionIds": [
+        "q-exam-n5-mock-b-dokkai-1",
+        "q-exam-n5-mock-b-dokkai-2",
+        "q-exam-n5-mock-b-dokkai-3",
+        "q-exam-n5-mock-b-dokkai-4",
+        "q-exam-n5-mock-b-dokkai-5",
+        "q-exam-n5-mock-b-dokkai-6"
+      ]
+    },
+    {
+      "id": "chokai",
+      "name": "聴解",
+      "skill": "listening",
+      "timeLimitSeconds": 1800,
+      "questionIds": [
+        "q-exam-n5-mock-b-chokai-1",
+        "q-exam-n5-mock-b-chokai-2",
+        "q-exam-n5-mock-b-chokai-3",
+        "q-exam-n5-mock-b-chokai-4",
+        "q-exam-n5-mock-b-chokai-5",
+        "q-exam-n5-mock-b-chokai-6",
+        "q-exam-n5-mock-b-chokai-7",
+        "q-exam-n5-mock-b-chokai-8",
+        "q-exam-n5-mock-b-chokai-9",
+        "q-exam-n5-mock-b-chokai-10",
+        "q-exam-n5-mock-b-chokai-11"
+      ]
+    }
+  ]
+}

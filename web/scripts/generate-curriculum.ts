@@ -66,8 +66,9 @@ const LISTENING_BY_PHASE: Record<number, string[]> = {
   5: idsIn('n2', 'listening'),
   6: idsIn('n2', 'listening'),
 };
-const MOCK_EXAM_ID = "n2-mock-a";
-const MOCK_DAYS = new Set([150, 170, 178]);
+// A different N2 mock on each exam day, so the learner never re-sits a paper they have seen.
+const MOCK_EXAM_IDS: Record<number, string> = { 150: "n2-mock-a", 170: "n2-mock-b", 178: "n2-mock-c" };
+const MOCK_DAYS = new Set(Object.keys(MOCK_EXAM_IDS).map(Number));
 
 const MIN = { grammar: 25, vocabulary: 20, kanji: 15, reading: 20, listening: 20, review: 15, quiz: 10 };
 
@@ -259,10 +260,12 @@ function buildPhase(phase: Curriculum["phases"][number]): CurriculumDay[] {
     }
 
     if (isMock) {
-      title = `Mock exam N2-A${day === 150 ? "" : " (retake)"} under full timing`;
+      const examId = MOCK_EXAM_IDS[day] ?? MOCK_EXAM_IDS[150];
+      const examName = examId.replace(/^n2-mock-/, "N2-").toUpperCase();
+      title = `Mock exam ${examName} under full timing`;
       tasks.push({ type: "review", minutes: MIN.review, contentIds: [] });
-      tasks.push({ type: "mock-exam", minutes: 155, contentIds: [], examId: MOCK_EXAM_ID });
-      objectives.unshift("Sit mock exam N2-A under exam timing (105 min language/reading + 50 min listening)", "Score it and write a weak-point list");
+      tasks.push({ type: "mock-exam", minutes: 155, contentIds: [], examId });
+      objectives.unshift(`Sit mock exam ${examName} under exam timing (105 min language/reading + 50 min listening)`, "Score it and write a weak-point list");
       days.push({ day, phase: phase.id, title: `Day ${day} — ${title}`, objectives: objectives.slice(0, 4), tasks });
       continue;
     }

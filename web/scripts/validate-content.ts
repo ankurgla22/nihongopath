@@ -61,6 +61,7 @@ function loadDir(relDir: string, schema: z.ZodTypeAny, collect?: Set<string>) {
 }
 
 const questions = loadDir("questions", QuestionSchema, questionIds);
+const questionById = new Map<string, (typeof questions)[number]>(questions.map((q) => [q.id, q]));
 const refs: { from: string; qid: string }[] = [];
 
 for (const level of ["n5", "n4", "n3", "n2", "n1"]) {
@@ -81,6 +82,28 @@ const foundation = loadDir("foundation", FoundationLessonSchema, ids);
 for (const f of foundation) for (const q of f.practiceQuestionIds) refs.push({ from: f.id, qid: q });
 const exams = loadDir("exams", ExamBlueprintSchema, ids);
 for (const e of exams) for (const s of e.sections) for (const q of s.questionIds) refs.push({ from: e.id, qid: q });
+
+// Exam integrity: no question shared between exams, and no exam keyed mostly to one option index
+// (a learner who always picks "1" must not be able to pass).
+const examOfQuestion = new Map<string, string>();
+for (const e of exams) {
+  const counts = [0, 0, 0, 0, 0, 0];
+  let n = 0;
+  for (const s of e.sections) {
+    for (const qid of s.questionIds) {
+      const prev = examOfQuestion.get(qid);
+      if (prev && prev !== e.id) errors.push(`${e.id}: question ${qid} is also used by ${prev}`);
+      examOfQuestion.set(qid, e.id);
+      const q = questionById.get(qid);
+      if (!q) continue;
+      n++;
+      counts[q.answerIndex]++;
+      if (q.level !== e.level) errors.push(`${e.id}: question ${qid} is level ${q.level}`);
+    }
+  }
+  const worst = Math.max(...counts);
+  if (n >= 20 && worst / n > 0.45) errors.push(`${e.id}: ${Math.round((worst / n) * 100)}% of answers use one option index (max 45%)`);
+}
 loadDir("strategy", StrategyArticleSchema, ids);
 const curriculumFile = path.join(CONTENT, "curriculum", "curriculum.json");
 if (fs.existsSync(curriculumFile)) {
@@ -104,6 +127,20 @@ for (const q of questions) {
   if (q.answerIndex >= q.options.length) errors.push(`${q.id}: answerIndex out of range`);
   if (new Set(q.options).size !== q.options.length) errors.push(`${q.id}: duplicate options`);
   if (q.options.some((o: string) => !o.trim())) errors.push(`${q.id}: empty option`);
+  // Per-option notes: two marker conventions are in use ("(correct answer)" and a "Correct:" prefix),
+  // and the UI highlights the key from answerIndex, so a marker is optional. What must never happen is
+  // a note calling a NON-key option the correct one — that is a mis-keyed question.
+  if (q.distractorExplanations.length === q.options.length) {
+    // Match only the three marker forms actually in use. A mid-sentence "(correct answer)" is
+    // skipped because it also occurs as the English gloss of the word 正解.
+    const isMarker = (d: string) => {
+      const t = d.trim();
+      return /^\(correct answer\)/i.test(t) || /^correct[::]/i.test(t) || /is the ★ item \(correct answer\)/i.test(t);
+    };
+    const marked = q.distractorExplanations.flatMap((d: string, i: number) => (isMarker(d) ? [i] : []));
+    const wrong = marked.filter((i: number) => i !== q.answerIndex);
+    if (wrong.length) errors.push(`${q.id}: option(s) ${wrong.join(", ")} marked correct but the key is ${q.answerIndex}`);
+  }
   // Ordering questions: the ★ slot in the prompt must match the keyed option, given the "Full order: a b c d →" in the explanation.
   if (q.type === "ordering") {
     const m = /Full order:\s*(.+?)\s*→/.exec(q.explanation);

@@ -14,17 +14,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nまいあさ【七時】におきます。",
     "context": "",
     "options": [
-      "しちじ",
-      "なのじ",
       "ななじ",
+      "なのじ",
+      "しちじ",
       "しじ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "七時（しちじ）= seven o'clock. For hours, 七 is read しち.",
     "distractorExplanations": [
-      "(correct answer)",
-      "なの is used for 七日（なのか）, not for hours.",
       "なな is used for counting things, not usually for o'clock.",
+      "なの is used for 七日（なのか）, not for hours.",
+      "(correct answer)",
       "四時 is よじ; し is not used for 七."
     ]
   },
@@ -72,17 +72,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n【学生】のとき、テニスをしていました。",
     "context": "",
     "options": [
-      "がくせい",
-      "がっせい",
       "がくしょう",
+      "がっせい",
+      "がくせい",
       "かくせい"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "学生（がくせい）= student. 学 = がく, 生 = せい.",
     "distractorExplanations": [
-      "(correct answer)",
-      "No gemination before せ.",
       "生 is せい here, not しょう.",
+      "No gemination before せ.",
+      "(correct answer)",
       "学 is voiced: がく."
     ]
   },
@@ -101,16 +101,16 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nきょうは【金曜日】です。",
     "context": "",
     "options": [
-      "きんようび",
       "かようび",
+      "きんようび",
       "どようび",
       "げつようび"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "金曜日（きんようび）= Friday.",
     "distractorExplanations": [
-      "(correct answer)",
       "火曜日（かようび）= Tuesday.",
+      "(correct answer)",
       "土曜日（どようび）= Saturday.",
       "月曜日（げつようび）= Monday."
     ]
@@ -130,18 +130,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nえきの【北】にデパートがあります。",
     "context": "",
     "options": [
-      "きた",
+      "にし",
       "みなみ",
       "ひがし",
-      "にし"
+      "きた"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "北（きた）= north.",
     "distractorExplanations": [
-      "(correct answer)",
+      "西（にし）= west.",
       "南（みなみ）= south.",
       "東（ひがし）= east.",
-      "西（にし）= west."
+      "(correct answer)"
     ]
   },
   {
@@ -159,18 +159,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nあしたは【天気】がいいでしょう。",
     "context": "",
     "options": [
-      "てんき",
+      "てんきん",
       "でんき",
       "てんぎ",
-      "てんきん"
+      "てんき"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "天気（てんき）= weather.",
     "distractorExplanations": [
-      "(correct answer)",
+      "No ん at the end.",
       "電気（でんき）= electricity is a different word.",
       "気 is き, not ぎ.",
-      "No ん at the end."
+      "(correct answer)"
     ]
   },
   {
@@ -188,18 +188,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nみせのまえに【車】をとめないでください。",
     "context": "",
     "options": [
-      "くるま",
+      "でんしゃ",
       "くろま",
       "しゃ",
-      "でんしゃ"
+      "くるま"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "車（くるま）= car. Alone, the kanji is read くるま.",
     "distractorExplanations": [
-      "(correct answer)",
+      "電車（でんしゃ）needs two kanji.",
       "Mispronunciation; the vowel is う.",
       "しゃ is the 音読み used in compounds (電車・自動車).",
-      "電車（でんしゃ）needs two kanji."
+      "(correct answer)"
     ]
   },
   {
@@ -246,18 +246,18 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nちちは【かいしゃ】ではたらいています。",
     "context": "",
     "options": [
-      "会社",
+      "会舎",
       "会杜",
       "合社",
-      "会舎"
+      "会社"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "会社（かいしゃ）= company.",
     "distractorExplanations": [
-      "(correct answer)",
+      "舎 is a different kanji (校舎).",
       "杜 is a look-alike of 社 with a different right side.",
       "合 is あう / ごう, not かい.",
-      "舎 is a different kanji (校舎)."
+      "(correct answer)"
     ]
   },
   {
@@ -275,18 +275,18 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n【あたらしい】くつをかいました。",
     "context": "",
     "options": [
-      "新しい",
+      "古い",
       "親しい",
       "楽しい",
-      "古い"
+      "新しい"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "新しい（あたらしい）= new.",
     "distractorExplanations": [
-      "(correct answer)",
+      "古い（ふるい）= old is the opposite.",
       "親しい（したしい）= close, intimate.",
       "楽しい（たのしい）= fun.",
-      "古い（ふるい）= old is the opposite."
+      "(correct answer)"
     ]
   },
   {
@@ -304,18 +304,18 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\nわたしのへやは【ひろい】です。",
     "context": "",
     "options": [
-      "広い",
+      "高い",
       "白い",
       "長い",
-      "高い"
+      "広い"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "広い（ひろい）= spacious, wide.",
     "distractorExplanations": [
-      "(correct answer)",
+      "高い（たかい）= tall, expensive.",
       "白い（しろい）= white.",
       "長い（ながい）= long.",
-      "高い（たかい）= tall, expensive."
+      "(correct answer)"
     ]
   },
   {
@@ -362,18 +362,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nあついですね。（　）をあけましょう。",
     "context": "",
     "options": [
-      "まど",
+      "いす",
       "でんき",
       "つくえ",
-      "いす"
+      "まど"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "まど（窓）をあける = open the window, natural when it is hot.",
     "distractorExplanations": [
-      "(correct answer)",
+      "A chair is not opened.",
       "でんきをつける/けす, not あける.",
       "You do not open a desk to cool down.",
-      "A chair is not opened."
+      "(correct answer)"
     ]
   },
   {
@@ -391,17 +391,17 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nこのかばんは（　）ですから、もてません。",
     "context": "",
     "options": [
-      "おもい",
-      "かるい",
       "やすい",
+      "かるい",
+      "おもい",
       "ひくい"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "おもい（重い）= heavy; that is why it cannot be carried.",
     "distractorExplanations": [
-      "(correct answer)",
-      "かるい = light would make it easy to carry.",
       "やすい = cheap.",
+      "かるい = light would make it easy to carry.",
+      "(correct answer)",
       "ひくい = low."
     ]
   },
@@ -420,18 +420,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nまいばん、いぬと（　）をします。",
     "context": "",
     "options": [
-      "さんぽ",
+      "かいもの",
       "りょこう",
       "しゅくだい",
-      "かいもの"
+      "さんぽ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "さんぽ（散歩）をする = take a walk; done with a dog every evening.",
     "distractorExplanations": [
-      "(correct answer)",
+      "かいもの = shopping.",
       "りょこう = travel, not a nightly activity with a dog.",
       "しゅくだい = homework.",
-      "かいもの = shopping."
+      "(correct answer)"
     ]
   },
   {
@@ -478,16 +478,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nテストのまえに、ノートを（　）します。",
     "context": "",
     "options": [
-      "コピー",
       "スポーツ",
+      "コピー",
       "シャワー",
       "パーティー"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "ノートをコピーする = copy the notes.",
     "distractorExplanations": [
-      "(correct answer)",
       "スポーツをする = play sports.",
+      "(correct answer)",
       "シャワーをあびる, not する with a notebook.",
       "パーティーをする = have a party."
     ]
@@ -507,18 +507,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nへやが（　）ですから、そうじをしましょう。",
     "context": "",
     "options": [
-      "きたない",
+      "あかるい",
       "きれい",
       "しずか",
-      "あかるい"
+      "きたない"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "きたない（汚い）= dirty, so let's clean.",
     "distractorExplanations": [
-      "(correct answer)",
+      "あかるい = bright.",
       "きれい = clean; no need to clean.",
       "しずか = quiet.",
-      "あかるい = bright."
+      "(correct answer)"
     ]
   },
   {
@@ -536,16 +536,16 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nきのうは【ひま】でした。",
     "context": "",
     "options": [
-      "しごとがありませんでした",
       "しごとがおおかったです",
+      "しごとがありませんでした",
       "げんきでした",
       "びょうきでした"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "ひま = free, not busy = しごとがなかった.",
     "distractorExplanations": [
-      "(correct answer)",
       "This is いそがしい.",
+      "(correct answer)",
       "げんき = healthy, well.",
       "びょうき = sick."
     ]
@@ -623,16 +623,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nわたしはまいにち　でんしゃ（　）がっこうへいきます。",
     "context": "",
     "options": [
-      "で",
       "に",
+      "で",
       "を",
       "が"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "で marks the means of transport: 電車で.",
     "distractorExplanations": [
-      "(correct answer)",
       "に marks a destination or time.",
+      "(correct answer)",
       "を marks a direct object or the place passed through.",
       "が marks the subject."
     ]
@@ -681,18 +681,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nA「ジュースとおちゃと、どちらがいいですか。」　B「（　）がいいです。」",
     "context": "",
     "options": [
-      "おちゃのほう",
+      "おちゃのいちばん",
       "おちゃのなか",
       "おちゃのだけ",
-      "おちゃのいちばん"
+      "おちゃのほう"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "〜のほうがいい answers a two-way comparison (どちら).",
     "distractorExplanations": [
-      "(correct answer)",
+      "いちばん is for three or more items.",
       "のなか is used with three or more items (〜のなかで).",
       "Ungrammatical.",
-      "いちばん is for three or more items."
+      "(correct answer)"
     ]
   },
   {
@@ -710,18 +710,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nきのう、ともだち（　）えいがをみました。",
     "context": "",
     "options": [
-      "と",
+      "で",
       "に",
       "が",
-      "で"
+      "と"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "と = together with (a person).",
     "distractorExplanations": [
-      "(correct answer)",
+      "で marks a place or means.",
       "に would mark a recipient, not a companion.",
       "が would make the friend the subject.",
-      "で marks a place or means."
+      "(correct answer)"
     ]
   },
   {
@@ -739,17 +739,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nすみません、ここで　しゃしんを（　）ください。",
     "context": "",
     "options": [
-      "とらないで",
-      "とらなくて",
       "とりないで",
+      "とらなくて",
+      "とらないで",
       "とらない"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "〜ないでください = please do not (do). とる → とらないで.",
     "distractorExplanations": [
-      "(correct answer)",
-      "〜なくて is the negative te-form for reasons, not requests.",
       "Wrong conjugation of the u-verb とる.",
+      "〜なくて is the negative te-form for reasons, not requests.",
+      "(correct answer)",
       "Needs で before ください."
     ]
   },
@@ -768,17 +768,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nわたしはにほんごが　すこし（　）。",
     "context": "",
     "options": [
-      "わかります",
-      "わかりません",
       "わかりたいです",
+      "わかりません",
+      "わかります",
       "わかりました"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "すこしわかります = I understand a little. すこし goes with an affirmative.",
     "distractorExplanations": [
-      "(correct answer)",
-      "With a negative, use あまり, not すこし.",
       "わかりたい is unnatural with すこし here.",
+      "With a negative, use あまり, not すこし.",
+      "(correct answer)",
       "Past tense does not fit a present ability."
     ]
   },
@@ -797,18 +797,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nあしたはやすみです（　）、うちでゆっくりします。",
     "context": "",
     "options": [
-      "から",
+      "のに",
       "でも",
       "が",
-      "のに"
+      "から"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "から = because: tomorrow is a holiday, so I will relax at home.",
     "distractorExplanations": [
-      "(correct answer)",
+      "のに is N4 and expresses contrast.",
       "でも = but, contradicts the logic.",
       "が = but.",
-      "のに is N4 and expresses contrast."
+      "(correct answer)"
     ]
   },
   {
@@ -826,17 +826,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nA「もうひるごはんをたべましたか。」　B「いいえ、（　）です。」",
     "context": "",
     "options": [
-      "まだ",
-      "もう",
       "また",
+      "もう",
+      "まだ",
       "よく"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "まだです = not yet, the standard answer to もう〜ましたか.",
     "distractorExplanations": [
-      "(correct answer)",
-      "もう = already; contradicts いいえ.",
       "また = again.",
+      "もう = already; contradicts いいえ.",
+      "(correct answer)",
       "よく = often."
     ]
   },
@@ -855,18 +855,18 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこのケーキはやまださん（　）つくりました。",
     "context": "",
     "options": [
-      "が",
+      "も",
       "を",
       "に",
-      "も"
+      "が"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "が marks the subject of つくりました: Yamada made this cake.",
     "distractorExplanations": [
-      "(correct answer)",
+      "も = also, does not fit without context.",
       "を marks the object; the cake is already the topic.",
       "に would mean for or to Yamada.",
-      "も = also, does not fit without context."
+      "(correct answer)"
     ]
   },
   {
@@ -884,16 +884,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nにちようびに　ともだちと　こうえんへ（　）いきます。",
     "context": "",
     "options": [
-      "あそびに",
       "あそんで",
+      "あそびに",
       "あそぶ",
       "あそび"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Verb stem + に + いきます = go in order to (do). あそびにいきます.",
     "distractorExplanations": [
-      "(correct answer)",
       "あそんでいきます means play and then go; not the purpose.",
+      "(correct answer)",
       "Dictionary form cannot precede いきます directly.",
       "The purpose needs the particle に."
     ]
@@ -1058,17 +1058,17 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【16】",
     "context": "わたしのかぞくは四人です。ちちとははとあにとわたしです。ちちはかいしゃいんで、まいにちいそがしいです。ははは【15】じょうずで、ははのカレーはとてもおいしいです。あには大学生です。いま、とうきょうに【16】。\n\nまいとし、なつやすみにかぞくでうみへいきます。ことしはあにもいっしょに【17】。うみでおよいだり、さかなをたべたりしたいです。とてもたのしみです。",
     "options": [
-      "すんでいます",
-      "すみます",
       "すみました",
+      "すみます",
+      "すんでいます",
       "すみたいです"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "すんでいます = currently lives (a state): いま、とうきょうにすんでいます.",
     "distractorExplanations": [
-      "(correct answer)",
-      "すみます = will live; いま needs the 〜ている state.",
       "Past tense conflicts with いま.",
+      "すみます = will live; いま needs the 〜ている state.",
+      "(correct answer)",
       "The brother's wish is not the point; it is a fact."
     ]
   },
@@ -1087,18 +1087,18 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【17】",
     "context": "わたしのかぞくは四人です。ちちとははとあにとわたしです。ちちはかいしゃいんで、まいにちいそがしいです。ははは【15】じょうずで、ははのカレーはとてもおいしいです。あには大学生です。いま、とうきょうに【16】。\n\nまいとし、なつやすみにかぞくでうみへいきます。ことしはあにもいっしょに【17】。うみでおよいだり、さかなをたべたりしたいです。とてもたのしみです。",
     "options": [
-      "いくつもりです",
+      "いってください",
       "いきました",
       "いきませんでした",
-      "いってください"
+      "いくつもりです"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "ことしは…いくつもりです = this year we plan to go, too; the trip is in the future (たのしみです).",
     "distractorExplanations": [
-      "(correct answer)",
+      "A request does not fit a narrative.",
       "Past tense conflicts with ことし and たのしみ.",
       "Negative contradicts the plan.",
-      "A request does not fit a narrative."
+      "(correct answer)"
     ]
   },
   {
@@ -1116,17 +1116,17 @@
     "prompt": "リンさんは　なにを　かいますか。",
     "context": "リンさんのつくえのうえに、メモがあります。\n\nリンさんへ\n\nかえりに、スーパーでたまごとぎゅうにゅうをかってください。パンはうちにありますから、かわなくてもいいです。おかねはつくえのひきだしにあります。\n\nはは",
     "options": [
-      "たまごとぎゅうにゅう",
-      "たまごとパン",
       "ぎゅうにゅうとパン",
+      "たまごとパン",
+      "たまごとぎゅうにゅう",
       "ぎゅうにゅうだけ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "The note asks for たまご and ぎゅうにゅう; bread is already at home (パンはうちにあります).",
     "distractorExplanations": [
-      "(correct answer)",
-      "Bread is not needed.",
       "Eggs are needed, bread is not.",
+      "Bread is not needed.",
+      "(correct answer)",
       "Eggs are also needed."
     ]
   },
@@ -1174,17 +1174,17 @@
     "prompt": "レストランについて、ただしいものはどれですか。",
     "context": "レストラン「はな」のおしらせ\n\nひる：11じ〜2じ\nよる：5じ〜9じ\n（2じから5じまではあいていません。）\nまいしゅうげつようびはおやすみです。",
     "options": [
-      "げつようびはやすみです。",
-      "あさからよるまであいています。",
       "どようびはやすみです。",
+      "あさからよるまであいています。",
+      "げつようびはやすみです。",
       "ひるはあいていません。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "「まいしゅうげつようびはおやすみです」.",
     "distractorExplanations": [
-      "(correct answer)",
-      "It closes from 14:00 to 17:00.",
       "Saturday is not a closing day.",
+      "It closes from 14:00 to 17:00.",
+      "(correct answer)",
       "Lunch hours are 11:00 to 14:00."
     ]
   },
@@ -1261,16 +1261,16 @@
     "prompt": "キムさんは、おかねをはらわないで、よるのイベントにいきたいです。キムさんはどれにいきますか。",
     "context": "さくら日本語学校　なつのイベント\n\n① おまつり　7月20日（土）　午後3時〜6時　　がっこうのにわ　　むりょう\n② はなび　　7月27日（土）　午後7時〜9時　　かわのちかく　　むりょう\n③ バスりょこう　8月3日（土）　午前8時〜午後6時　　うみ　　3,000えん\n④ りょうりきょうしつ　8月10日（土）　午前10時〜12時　　がっこうのキッチン　　500えん\n\n・③と④は、7月31日までにじむしつでもうしこんでください。\n・あめのとき、①と②はありません。",
     "options": [
-      "①",
       "②",
+      "①",
       "③",
       "④"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Free (むりょう) events are ① and ②; the evening one (午後7時〜9時) is ② はなび.",
     "distractorExplanations": [
-      "Free, but in the afternoon (3〜6時).",
       "(correct answer)",
+      "Free, but in the afternoon (3〜6時).",
       "Costs 3,000 yen and is during the day.",
       "Costs 500 yen and is in the morning."
     ]
@@ -1292,16 +1292,16 @@
     "options": [
       "りんごを三つ",
       "りんごを二つとみかんを三つ",
-      "りんごを三つとみかんを二つ",
-      "みかんを三つ"
+      "みかんを三つ",
+      "りんごを三つとみかんを二つ"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "She first asks for three apples, then adds two mikan.",
     "distractorExplanations": [
       "She also buys mikan.",
       "The numbers are reversed.",
-      "(correct answer)",
-      "She also buys apples."
+      "She also buys apples.",
+      "(correct answer)"
     ]
   },
   {
@@ -1319,16 +1319,16 @@
     "prompt": "男の人はこのあと、まず何をしますか。",
     "context": "うちで、お母さんと男の子が話しています。男の子はこのあと、まず何をしますか。\n\n母：たろう、しゅくだいはもうしたの？\n男：まだ。いまからするよ。\n母：じゃあ、そのまえに、まどをしめて。さむいから。\n男：はい。\n母：しゅくだいがおわったら、ごはんだよ。\n男：わかった。",
     "options": [
-      "まどをしめる",
       "でんきをけす",
+      "まどをしめる",
       "そうじをする",
       "しゅくだいをする"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "The mother asks him to close the window first because it is cold; homework comes after that.",
     "distractorExplanations": [
-      "(correct answer)",
       "The light is not mentioned.",
+      "(correct answer)",
       "Cleaning is not mentioned.",
       "Homework is after closing the window."
     ]
@@ -1379,16 +1379,16 @@
     "options": [
       "赤いペン",
       "青いペン",
-      "黒いペン",
-      "えんぴつ"
+      "えんぴつ",
+      "黒いペン"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "The teacher says write your name with a black pen, not pencil or red.",
     "distractorExplanations": [
       "Red is for the teacher.",
       "Blue is not mentioned.",
-      "(correct answer)",
-      "Pencil is not allowed for the name."
+      "Pencil is not allowed for the name.",
+      "(correct answer)"
     ]
   },
   {
@@ -1407,16 +1407,16 @@
     "context": "学校で、男の人と女の人が話しています。女の人はどうして学校を休みましたか。\n\n男：きのう、休みましたね。だいじょうぶですか。\n女：ええ。おなかがいたくて、うちでねていました。\n男：ねつはありましたか。\n女：いいえ、ねつはありませんでした。びょういんへも行きませんでした。きょうはもうげんきです。",
     "options": [
       "あたまがいたかったから",
-      "おなかがいたかったから",
       "ねつがあったから",
+      "おなかがいたかったから",
       "びょういんへ行ったから"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "「おなかがいたくて…」is the reason she gave.",
     "distractorExplanations": [
       "Head is not mentioned.",
-      "(correct answer)",
       "She says she had no fever.",
+      "(correct answer)",
       "She did not go to the hospital."
     ]
   },
@@ -1435,17 +1435,17 @@
     "prompt": "男の人はしゅうまつに何をしましたか。",
     "context": "女の人と男の人が話しています。男の人はしゅうまつに何をしましたか。\n\n女：しゅうまつは山にのぼりましたか。\n男：いいえ、雨でしたから、行きませんでした。うちで本を読みました。\n女：そうですか。ざんねんでしたね。",
     "options": [
-      "山にのぼった",
-      "うみでおよいだ",
       "うちで本を読んだ",
+      "うみでおよいだ",
+      "山にのぼった",
       "買い物をした"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "He planned to climb a mountain but it rained, so he read at home.",
     "distractorExplanations": [
-      "Cancelled because of rain.",
-      "Not mentioned.",
       "(correct answer)",
+      "Not mentioned.",
+      "Cancelled because of rain.",
       "Not mentioned."
     ]
   },
@@ -1493,15 +1493,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：はじめまして。田中です。",
     "options": [
-      "どうぞよろしく。",
       "おかげさまで。",
+      "どうぞよろしく。",
       "ごちそうさま。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "A first introduction is answered with どうぞよろしく.",
     "distractorExplanations": [
-      "(correct answer)",
       "Used when answering 'how are you'.",
+      "(correct answer)",
       "Said after a meal."
     ]
   },
@@ -1520,16 +1520,16 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "男：この本、借りてもいいですか。",
     "options": [
-      "はい、どうぞ。",
+      "いいえ、借りました。",
       "はい、借ります。",
-      "いいえ、借りました。"
+      "はい、どうぞ。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "〜てもいいですか asks permission; grant it with どうぞ.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Nonsense.",
       "The listener is not the borrower.",
-      "Nonsense."
+      "(correct answer)"
     ]
   },
   {
@@ -1547,15 +1547,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：あしたのパーティー、何時からですか。",
     "options": [
-      "六時からです。",
       "六時までです。",
+      "六時からです。",
       "六時間です。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "何時から asks the start time; answer with 〜からです.",
     "distractorExplanations": [
-      "(correct answer)",
       "まで gives the end time.",
+      "(correct answer)",
       "六時間 is a duration."
     ]
   },
@@ -1574,15 +1574,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "男：ごはん、もう少しいかがですか。",
     "options": [
-      "いいえ、けっこうです。",
       "はい、わかりました。",
+      "いいえ、けっこうです。",
       "いいえ、おいしいです。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "An offer of more food is declined politely with けっこうです.",
     "distractorExplanations": [
-      "(correct answer)",
       "わかりました does not answer an offer.",
+      "(correct answer)",
       "Illogical combination."
     ]
   }

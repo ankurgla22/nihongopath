@@ -14,17 +14,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n彼は毎朝、駅まで【全力】で走っている。",
     "context": "",
     "options": [
-      "ぜんりょく",
-      "ぜんりき",
       "せんりょく",
+      "ぜんりき",
+      "ぜんりょく",
       "ぜんちから"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "全力（ぜんりょく）= full strength.",
     "distractorExplanations": [
-      "(correct answer)",
-      "力 is りょく here, not りき.",
       "全 is voiced: ぜん.",
+      "力 is りょく here, not りき.",
+      "(correct answer)",
       "Compound uses 音読み, not ちから."
     ]
   },
@@ -72,18 +72,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n子どもの【成長】は早い。",
     "context": "",
     "options": [
-      "せいちょう",
+      "せいじょう",
       "せいなが",
       "なりちょう",
-      "せいじょう"
+      "せいちょう"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "成長（せいちょう）= growth.",
     "distractorExplanations": [
-      "(correct answer)",
+      "長 is ちょう, not じょう.",
       "Mixed reading; 長 is ちょう.",
       "Mixed reading; 成 is せい.",
-      "長 is ちょう, not じょう."
+      "(correct answer)"
     ]
   },
   {
@@ -101,17 +101,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nこの道は【工事】中で通れません。",
     "context": "",
     "options": [
-      "こうじ",
-      "こうごと",
       "くじ",
+      "こうごと",
+      "こうじ",
       "こうし"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "工事（こうじ）= construction work.",
     "distractorExplanations": [
-      "(correct answer)",
-      "事 is じ here, not ごと.",
       "工 is こう, not く.",
+      "事 is じ here, not ごと.",
+      "(correct answer)",
       "事 is voiced: じ."
     ]
   },
@@ -130,17 +130,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n駅前の【交番】で道を聞いた。",
     "context": "",
     "options": [
-      "こうばん",
-      "こうはん",
       "まじばん",
+      "こうはん",
+      "こうばん",
       "きょうばん"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "交番（こうばん）= police box.",
     "distractorExplanations": [
-      "(correct answer)",
-      "番 is voiced: ばん.",
       "交 uses 音読み here.",
+      "番 is voiced: ばん.",
+      "(correct answer)",
       "交 is こう, not きょう."
     ]
   },
@@ -159,16 +159,16 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n台風で多くの家が【被害】を受けた。",
     "context": "",
     "options": [
-      "ひがい",
       "ひかい",
+      "ひがい",
       "はがい",
       "びがい"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "被害（ひがい）= damage.",
     "distractorExplanations": [
-      "(correct answer)",
       "害 is voiced: がい.",
+      "(correct answer)",
       "被 is ひ, not は.",
       "被 is not voiced."
     ]
@@ -188,17 +188,17 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nこの問題は【複雑】で、すぐには答えられない。",
     "context": "",
     "options": [
-      "ふくざつ",
-      "ふくさつ",
       "ふうざつ",
+      "ふくさつ",
+      "ふくざつ",
       "ぶくざつ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "複雑（ふくざつ）= complicated.",
     "distractorExplanations": [
-      "(correct answer)",
-      "雑 is voiced: ざつ.",
       "No long vowel: ふく.",
+      "雑 is voiced: ざつ.",
+      "(correct answer)",
       "複 is not voiced."
     ]
   },
@@ -217,18 +217,18 @@
     "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n友人と【喫茶店】で話をした。",
     "context": "",
     "options": [
-      "きっさてん",
+      "きつさてん",
       "きっちゃてん",
       "きさてん",
-      "きつさてん"
+      "きっさてん"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "喫茶店（きっさてん）= coffee shop.",
     "distractorExplanations": [
-      "(correct answer)",
+      "The small っ is a gemination, not つ.",
       "茶 is さ here, not ちゃ.",
       "The double consonant is required.",
-      "The small っ is a gemination, not つ."
+      "(correct answer)"
     ]
   },
   {
@@ -246,16 +246,16 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n友達を家に【しょうたい】した。",
     "context": "",
     "options": [
-      "招待",
       "紹待",
+      "招待",
       "招対",
       "昭待"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "招待（しょうたい）= invitation.",
     "distractorExplanations": [
-      "(correct answer)",
       "紹 belongs to 紹介.",
+      "(correct answer)",
       "対 = against, wrong second kanji.",
       "昭 is a look-alike."
     ]
@@ -275,17 +275,17 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n毎月、給料の一部を【ちょきん】している。",
     "context": "",
     "options": [
-      "貯金",
-      "著金",
       "貯全",
+      "著金",
+      "貯金",
       "預金"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "貯金（ちょきん）= savings.",
     "distractorExplanations": [
-      "(correct answer)",
-      "著 is ちょ but means 'author'; not this word.",
       "全 is not 金.",
+      "著 is ちょ but means 'author'; not this word.",
+      "(correct answer)",
       "預金（よきん）= deposit is a different reading."
     ]
   },
@@ -304,17 +304,17 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n新しい仕事に【なれる】まで時間がかかった。",
     "context": "",
     "options": [
-      "慣れる",
-      "馴れる",
       "習れる",
+      "馴れる",
+      "慣れる",
       "憤れる"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "慣れる（なれる）= get used to. This is the standard kanji for adjusting to work or life.",
     "distractorExplanations": [
-      "(correct answer)",
-      "馴れる is used for animals becoming tame; not standard here.",
       "習 is ならう.",
+      "馴れる is used for animals becoming tame; not standard here.",
+      "(correct answer)",
       "憤 is a look-alike (憤り)."
     ]
   },
@@ -362,18 +362,18 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n彼の【たいど】は失礼だった。",
     "context": "",
     "options": [
-      "態度",
+      "態渡",
       "体度",
       "対度",
-      "態渡"
+      "態度"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "態度（たいど）= attitude.",
     "distractorExplanations": [
-      "(correct answer)",
+      "渡 = cross; wrong second kanji.",
       "体 = body; not this word.",
       "対 = against; not this word.",
-      "渡 = cross; wrong second kanji."
+      "(correct answer)"
     ]
   },
   {
@@ -391,18 +391,18 @@
     "prompt": "＿＿の言葉を漢字で書くとき、最もよいものを一つ選びなさい。\n問題の【げんいん】を調べる。",
     "context": "",
     "options": [
-      "原因",
+      "源因",
       "元因",
       "原困",
-      "源因"
+      "原因"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "原因（げんいん）= cause.",
     "distractorExplanations": [
-      "(correct answer)",
+      "源 (資源) is a look-alike of 原.",
       "元 is げん but not in this word.",
       "困 (こまる) is a look-alike of 因.",
-      "源 (資源) is a look-alike of 原."
+      "(correct answer)"
     ]
   },
   {
@@ -420,18 +420,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n会議の時間を三時に（　）してください。",
     "context": "",
     "options": [
-      "変更",
+      "移動",
       "変化",
       "交換",
-      "移動"
+      "変更"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "時間を変更する = change the time (of a meeting).",
     "distractorExplanations": [
-      "(correct answer)",
+      "移動 = move (location).",
       "変化 is intransitive change (状況が変化する).",
       "交換 = exchange.",
-      "移動 = move (location)."
+      "(correct answer)"
     ]
   },
   {
@@ -478,16 +478,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n彼は失敗しても（　）あきらめない。",
     "context": "",
     "options": [
-      "決して",
       "必ず",
+      "決して",
       "きっと",
       "ぜひ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "決して〜ない = never.",
     "distractorExplanations": [
-      "(correct answer)",
       "必ず goes with affirmatives.",
+      "(correct answer)",
       "きっと goes with affirmatives.",
       "ぜひ goes with requests or wishes."
     ]
@@ -507,16 +507,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n夜遅くまで働いて、（　）してしまった。",
     "context": "",
     "options": [
-      "寝不足",
       "寝坊",
+      "寝不足",
       "寝相",
       "寝言"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "寝不足 = lack of sleep, from working late.",
     "distractorExplanations": [
-      "(correct answer)",
       "寝坊 = oversleep; working late causes lack of sleep, not oversleeping in this sentence.",
+      "(correct answer)",
       "寝相 = sleeping posture.",
       "寝言 = talking in one's sleep."
     ]
@@ -536,18 +536,18 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nボランティアに（　）してみたいと思っています。",
     "context": "",
     "options": [
-      "参加",
+      "登録",
       "出席",
       "入場",
-      "登録"
+      "参加"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "ボランティアに参加する = take part in volunteering.",
     "distractorExplanations": [
-      "(correct answer)",
+      "登録 = register.",
       "出席 = attend (a class or meeting).",
       "入場 = enter (a venue).",
-      "登録 = register."
+      "(correct answer)"
     ]
   },
   {
@@ -565,16 +565,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n駅前の道路はいつも車で（　）いる。",
     "context": "",
     "options": [
-      "混んで",
       "込めて",
+      "混んで",
       "満ちて",
       "つまって"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "道路が混んでいる = the road is congested.",
     "distractorExplanations": [
-      "(correct answer)",
       "込める = put (feeling) into.",
+      "(correct answer)",
       "満ちる = be filled (with light, water).",
       "つまる = be clogged (pipes); not used for traffic in this form."
     ]
@@ -594,16 +594,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nこの薬は食後に（　）飲んでください。",
     "context": "",
     "options": [
-      "必ず",
       "たいてい",
+      "必ず",
       "わりに",
       "なるほど"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "必ず = without fail; typical of instructions for medicine.",
     "distractorExplanations": [
-      "(correct answer)",
       "たいてい = usually; not an instruction.",
+      "(correct answer)",
       "わりに = relatively.",
       "なるほど = I see."
     ]
@@ -623,17 +623,17 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n山田さんは、約束の時間を（　）守る人だ。",
     "context": "",
     "options": [
-      "きちんと",
-      "だんだん",
       "ぐっすり",
+      "だんだん",
+      "きちんと",
       "そっくり"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "きちんと守る = keep (appointments) properly.",
     "distractorExplanations": [
-      "(correct answer)",
-      "だんだん = gradually.",
       "ぐっすり = (sleep) soundly.",
+      "だんだん = gradually.",
+      "(correct answer)",
       "そっくり = look exactly alike."
     ]
   },
@@ -652,16 +652,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\nこの商品は人気があって、すぐに（　）しまった。",
     "context": "",
     "options": [
-      "売り切れて",
       "売り出して",
+      "売り切れて",
       "売り上げて",
       "売り込んで"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "売り切れる = sell out.",
     "distractorExplanations": [
-      "(correct answer)",
       "売り出す = put on sale.",
+      "(correct answer)",
       "売り上げ = sales (noun).",
       "売り込む = promote."
     ]
@@ -681,16 +681,16 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n生活に（　）ないので、アルバイトを増やした。",
     "context": "",
     "options": [
-      "余裕が",
       "興味が",
+      "余裕が",
       "自信が",
       "意味が"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "生活に余裕がない = have no financial leeway.",
     "distractorExplanations": [
-      "(correct answer)",
       "興味 = interest.",
+      "(correct answer)",
       "自信 = confidence.",
       "意味 = meaning."
     ]
@@ -710,17 +710,17 @@
     "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n子どもたちは先生の話を（　）聞いていた。",
     "context": "",
     "options": [
-      "熱心に",
-      "重大に",
       "正直に",
+      "重大に",
+      "熱心に",
       "豊かに"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "熱心に聞く = listen eagerly.",
     "distractorExplanations": [
-      "(correct answer)",
-      "重大 = serious (of matters).",
       "正直に = honestly (of speaking).",
+      "重大 = serious (of matters).",
+      "(correct answer)",
       "豊か = rich, abundant."
     ]
   },
@@ -739,18 +739,18 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼女の話は【あいまいだった】。",
     "context": "",
     "options": [
-      "はっきりしなかった",
+      "面白かった",
       "長かった",
       "うそだった",
-      "面白かった"
+      "はっきりしなかった"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "あいまい = vague = はっきりしない.",
     "distractorExplanations": [
-      "(correct answer)",
+      "Interest is unrelated.",
       "Length is unrelated.",
       "Vague is not the same as false.",
-      "Interest is unrelated."
+      "(correct answer)"
     ]
   },
   {
@@ -797,17 +797,17 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nこれは【めずらしい】切手だ。",
     "context": "",
     "options": [
-      "あまりない",
-      "とても高い",
       "古い",
+      "とても高い",
+      "あまりない",
       "きれいな"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "めずらしい = rare = あまりない.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Rare stamps may be expensive, but the word means rare.",
       "Not necessarily old.",
+      "Rare stamps may be expensive, but the word means rare.",
+      "(correct answer)",
       "Beauty is unrelated."
     ]
   },
@@ -826,17 +826,17 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n会議は【延期になった】。",
     "context": "",
     "options": [
-      "後の日に行われることになった",
-      "行われないことになった",
       "予定より早く終わった",
+      "行われないことになった",
+      "後の日に行われることになった",
       "長くなった"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "延期 = postponement = to be held on a later date.",
     "distractorExplanations": [
-      "(correct answer)",
-      "That is 中止.",
       "Unrelated.",
+      "That is 中止.",
+      "(correct answer)",
       "Unrelated."
     ]
   },
@@ -855,17 +855,17 @@
     "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼はいつも【おだやかだ】。",
     "context": "",
     "options": [
-      "静かで落ち着いている",
-      "元気で明るい",
       "まじめで厳しい",
+      "元気で明るい",
+      "静かで落ち着いている",
       "早くて速い"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "おだやか = calm, gentle = 静かで落ち着いている.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Cheerful is 明るい.",
       "Strict is 厳しい.",
+      "Cheerful is 明るい.",
+      "(correct answer)",
       "Speed is unrelated."
     ]
   },
@@ -884,16 +884,16 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\n回復",
     "context": "",
     "options": [
-      "病気から回復して、来週から仕事に戻る。",
       "壊れた時計を回復してもらった。",
+      "病気から回復して、来週から仕事に戻る。",
       "図書館に本を回復した。",
       "彼は約束を回復した。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "病気から回復する = recover from illness.",
     "distractorExplanations": [
-      "(correct answer)",
       "Repairing is 修理する.",
+      "(correct answer)",
       "Returning a book is 返す.",
       "Keeping a promise is 守る."
     ]
@@ -913,18 +913,18 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nしっかり",
     "context": "",
     "options": [
-      "もっとしっかり勉強しなさい。",
+      "この料理はしっかり辛くない。",
       "彼はしっかり背が高い。",
       "今日はしっかり暑い。",
-      "この料理はしっかり辛くない。"
+      "もっとしっかり勉強しなさい。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "しっかり勉強する = study properly, in earnest.",
     "distractorExplanations": [
-      "(correct answer)",
+      "しっかり does not modify a negative like this.",
       "Height takes とても or かなり.",
       "Weather takes とても or 本当に.",
-      "しっかり does not modify a negative like this."
+      "(correct answer)"
     ]
   },
   {
@@ -971,18 +971,18 @@
     "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nせっかく",
     "context": "",
     "options": [
-      "せっかく作ったのに、誰も食べなかった。",
+      "せっかく三時に会いましょう。",
       "せっかく明日は雨だろう。",
       "せっかく電車が来た。",
-      "せっかく三時に会いましょう。"
+      "せっかく作ったのに、誰も食べなかった。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "せっかく〜のに = despite the effort (which was wasted).",
     "distractorExplanations": [
-      "(correct answer)",
+      "Fixing a time is not an effort.",
       "Weather is not an effort.",
       "A train arriving is not a wasted effort.",
-      "Fixing a time is not an effort."
+      "(correct answer)"
     ]
   },
   {
@@ -1029,16 +1029,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n父は年を取る（　）、優しくなった。",
     "context": "",
     "options": [
-      "につれて",
       "について",
+      "につれて",
       "にとって",
       "によって"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "年を取るにつれて = as he gets older (gradual parallel change).",
     "distractorExplanations": [
-      "(correct answer)",
       "について = about.",
+      "(correct answer)",
       "にとって = for.",
       "によって = depending on, by."
     ]
@@ -1087,16 +1087,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこの店は安い（　）、料理もおいしい。",
     "context": "",
     "options": [
-      "だけでなく",
       "ばかりに",
+      "だけでなく",
       "ことに",
       "ように"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "安いだけでなく = not only cheap (but also).",
     "distractorExplanations": [
-      "(correct answer)",
       "ばかりに = just because (negative result).",
+      "(correct answer)",
       "ことに = to my (surprise) etc.; needs an emotion adjective.",
       "ように = so that."
     ]
@@ -1116,16 +1116,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nレポートは金曜日（　）に出してください。",
     "context": "",
     "options": [
-      "まで",
       "までに",
+      "まで",
       "までも",
       "までは"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "までに = by (a deadline).",
     "distractorExplanations": [
-      "まで = until (continuous).",
       "(correct answer)",
+      "まで = until (continuous).",
       "までも = even.",
       "までは = up to (contrast)."
     ]
@@ -1174,17 +1174,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n彼女は、まるで日本人（　）日本語を話す。",
     "context": "",
     "options": [
-      "のように",
-      "のような",
       "らしく",
+      "のような",
+      "のように",
       "そうに"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "まるで〜のように = just as if she were Japanese (adverbial).",
     "distractorExplanations": [
-      "(correct answer)",
-      "のような modifies a noun, not a verb.",
       "らしく = typical of; まるで does not pair with らしい.",
+      "のような modifies a noun, not a verb.",
+      "(correct answer)",
       "そうに attaches to adjectives or verb stems, not nouns."
     ]
   },
@@ -1203,16 +1203,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n天気予報（　）、明日は雪だそうだ。",
     "context": "",
     "options": [
-      "によると",
       "にとって",
+      "によると",
       "に対して",
       "について"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "によると…そうだ = according to (source), hearsay.",
     "distractorExplanations": [
-      "(correct answer)",
       "にとって = for.",
+      "(correct answer)",
       "に対して = toward.",
       "について = about."
     ]
@@ -1232,16 +1232,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nせっかく作ったのだから、（　）食べてみてください。",
     "context": "",
     "options": [
-      "ぜひ",
       "決して",
+      "ぜひ",
       "たとえ",
       "まさか"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "ぜひ〜てください = by all means, please try.",
     "distractorExplanations": [
-      "(correct answer)",
       "決して needs a negative.",
+      "(correct answer)",
       "たとえ needs 〜ても.",
       "まさか expresses disbelief."
     ]
@@ -1261,16 +1261,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこの本は難しすぎて、私には（　）。",
     "context": "",
     "options": [
-      "読みきれない",
       "読みかけない",
+      "読みきれない",
       "読みたがらない",
       "読みすぎない"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "読みきれない = cannot finish reading.",
     "distractorExplanations": [
-      "(correct answer)",
       "読みかける = start reading; 読みかけない is unnatural.",
+      "(correct answer)",
       "読みたがらない describes a third person's unwillingness.",
       "読みすぎない = not read too much."
     ]
@@ -1290,17 +1290,17 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n先生、あの本は私が（　）。",
     "context": "",
     "options": [
-      "お持ちします",
-      "お持ちになります",
       "持たれます",
+      "お持ちになります",
+      "お持ちします",
       "お持ちください"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "お持ちします = humble: I will carry it.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Honorific; wrong for 私.",
       "Honorific passive; wrong for 私.",
+      "Honorific; wrong for 私.",
+      "(correct answer)",
       "A request to the listener, not an offer."
     ]
   },
@@ -1319,16 +1319,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n時間がない（　）、走って行った。",
     "context": "",
     "options": [
-      "ので",
       "のに",
+      "ので",
       "ように",
       "ために"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "時間がないので = because there was no time.",
     "distractorExplanations": [
-      "(correct answer)",
       "のに = although; contradicts.",
+      "(correct answer)",
       "ように does not attach to ない for reason.",
       "ために = for the purpose of; not a reason clause with ない."
     ]
@@ -1377,16 +1377,16 @@
     "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nそんなに無理をすると、病気に（　）よ。",
     "context": "",
     "options": [
-      "なりかねない",
       "なるわけがない",
+      "なりかねない",
       "なるべきだ",
       "なることはない"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "なりかねない = might (undesirably) become ill.",
     "distractorExplanations": [
-      "(correct answer)",
       "わけがない = there is no way; contradicts the warning.",
+      "(correct answer)",
       "べきだ = should; illogical.",
       "ことはない = no need to; illogical."
     ]
@@ -1551,17 +1551,17 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【19】",
     "context": "私は先月から、週に一度、近所の公園でごみ拾いのボランティアをしている。始めた理由は、正直に言うと、大学の授業で「社会活動の経験」が【19】からだ。つまり、自分から進んで始めたわけではない。\n\n最初の日、私は驚いた。公園には、思っていた【20】多くのごみが落ちていた。ペットボトル、たばこの吸いがら、お菓子の袋。一時間で、大きな袋が二つもいっぱいになった。ボランティアの人たちは、毎週この作業をしているのだという。\n\n三回目くらいから、私の気持ちは変わり始めた。ごみを拾っていると、通りかかった人が「ありがとう」と声をかけてくれる。小さな子どもが、拾うのを手伝ってくれることもある。誰かの役に立っている【21】が、これほど気持ちのいいものだとは知らなかった。\n\n今では、授業の課題は関係なく、これからも【22】と思っている。ボランティアは、人のためにするものだと思っていた。【23】、実際には、自分のためにもなるものだったのだ。",
     "options": [
-      "必要だった",
-      "必要になる",
       "必要らしい",
+      "必要になる",
+      "必要だった",
       "必要にする"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "必要だったからだ = because it was required (past reason for starting).",
     "distractorExplanations": [
-      "(correct answer)",
-      "Future tense conflicts with 始めた理由.",
       "らしい (hearsay) does not fit one's own class requirement.",
+      "Future tense conflicts with 始めた理由.",
+      "(correct answer)",
       "Ungrammatical."
     ]
   },
@@ -1580,16 +1580,16 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【20】",
     "context": "私は先月から、週に一度、近所の公園でごみ拾いのボランティアをしている。始めた理由は、正直に言うと、大学の授業で「社会活動の経験」が【19】からだ。つまり、自分から進んで始めたわけではない。\n\n最初の日、私は驚いた。公園には、思っていた【20】多くのごみが落ちていた。ペットボトル、たばこの吸いがら、お菓子の袋。一時間で、大きな袋が二つもいっぱいになった。ボランティアの人たちは、毎週この作業をしているのだという。\n\n三回目くらいから、私の気持ちは変わり始めた。ごみを拾っていると、通りかかった人が「ありがとう」と声をかけてくれる。小さな子どもが、拾うのを手伝ってくれることもある。誰かの役に立っている【21】が、これほど気持ちのいいものだとは知らなかった。\n\n今では、授業の課題は関係なく、これからも【22】と思っている。ボランティアは、人のためにするものだと思っていた。【23】、実際には、自分のためにもなるものだったのだ。",
     "options": [
-      "以上に",
       "以下に",
+      "以上に",
       "ほどに",
       "ばかりに"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "思っていた以上に = more than I had expected.",
     "distractorExplanations": [
-      "(correct answer)",
       "以下 = less than; contradicts 驚いた with two full bags.",
+      "(correct answer)",
       "ほどに does not form this comparison.",
       "ばかりに = just because."
     ]
@@ -1609,18 +1609,18 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【21】",
     "context": "私は先月から、週に一度、近所の公園でごみ拾いのボランティアをしている。始めた理由は、正直に言うと、大学の授業で「社会活動の経験」が【19】からだ。つまり、自分から進んで始めたわけではない。\n\n最初の日、私は驚いた。公園には、思っていた【20】多くのごみが落ちていた。ペットボトル、たばこの吸いがら、お菓子の袋。一時間で、大きな袋が二つもいっぱいになった。ボランティアの人たちは、毎週この作業をしているのだという。\n\n三回目くらいから、私の気持ちは変わり始めた。ごみを拾っていると、通りかかった人が「ありがとう」と声をかけてくれる。小さな子どもが、拾うのを手伝ってくれることもある。誰かの役に立っている【21】が、これほど気持ちのいいものだとは知らなかった。\n\n今では、授業の課題は関係なく、これからも【22】と思っている。ボランティアは、人のためにするものだと思っていた。【23】、実際には、自分のためにもなるものだったのだ。",
     "options": [
-      "という実感",
+      "という条件",
       "という予定",
       "という命令",
-      "という条件"
+      "という実感"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "役に立っているという実感 = the real feeling of being useful, which turned out to be pleasant.",
     "distractorExplanations": [
-      "(correct answer)",
+      "条件 = condition; does not fit.",
       "予定 = plan; being useful is not a plan.",
       "命令 = order; nobody ordered anything.",
-      "条件 = condition; does not fit."
+      "(correct answer)"
     ]
   },
   {
@@ -1638,17 +1638,17 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【22】",
     "context": "私は先月から、週に一度、近所の公園でごみ拾いのボランティアをしている。始めた理由は、正直に言うと、大学の授業で「社会活動の経験」が【19】からだ。つまり、自分から進んで始めたわけではない。\n\n最初の日、私は驚いた。公園には、思っていた【20】多くのごみが落ちていた。ペットボトル、たばこの吸いがら、お菓子の袋。一時間で、大きな袋が二つもいっぱいになった。ボランティアの人たちは、毎週この作業をしているのだという。\n\n三回目くらいから、私の気持ちは変わり始めた。ごみを拾っていると、通りかかった人が「ありがとう」と声をかけてくれる。小さな子どもが、拾うのを手伝ってくれることもある。誰かの役に立っている【21】が、これほど気持ちのいいものだとは知らなかった。\n\n今では、授業の課題は関係なく、これからも【22】と思っている。ボランティアは、人のためにするものだと思っていた。【23】、実際には、自分のためにもなるものだったのだ。",
     "options": [
-      "続けていこう",
-      "続けていた",
       "続けさせられる",
+      "続けていた",
+      "続けていこう",
       "続けるべきだった"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "続けていこうと思っている = I intend to keep going.",
     "distractorExplanations": [
-      "(correct answer)",
-      "Past state contradicts これからも.",
       "Being forced contradicts the writer's voluntary attitude.",
+      "Past state contradicts これからも.",
+      "(correct answer)",
       "Should have continued is regret; wrong."
     ]
   },
@@ -1667,17 +1667,17 @@
     "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【23】",
     "context": "私は先月から、週に一度、近所の公園でごみ拾いのボランティアをしている。始めた理由は、正直に言うと、大学の授業で「社会活動の経験」が【19】からだ。つまり、自分から進んで始めたわけではない。\n\n最初の日、私は驚いた。公園には、思っていた【20】多くのごみが落ちていた。ペットボトル、たばこの吸いがら、お菓子の袋。一時間で、大きな袋が二つもいっぱいになった。ボランティアの人たちは、毎週この作業をしているのだという。\n\n三回目くらいから、私の気持ちは変わり始めた。ごみを拾っていると、通りかかった人が「ありがとう」と声をかけてくれる。小さな子どもが、拾うのを手伝ってくれることもある。誰かの役に立っている【21】が、これほど気持ちのいいものだとは知らなかった。\n\n今では、授業の課題は関係なく、これからも【22】と思っている。ボランティアは、人のためにするものだと思っていた。【23】、実際には、自分のためにもなるものだったのだ。",
     "options": [
-      "しかし",
-      "そして",
       "だから",
+      "そして",
+      "しかし",
       "つまり"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "しかし = but; contrasts the old belief with what the writer found.",
     "distractorExplanations": [
-      "(correct answer)",
-      "そして simply adds; there is a contrast.",
       "だから = so; no causal link.",
+      "そして simply adds; there is a contrast.",
+      "(correct answer)",
       "つまり restates; the sentence contradicts the previous one."
     ]
   },
@@ -1725,16 +1725,16 @@
     "prompt": "このお知らせの内容と合っているものはどれか。",
     "context": "ごみの出し方のお知らせ\n\n燃えるごみ：毎週月曜日・木曜日\nびん・かん：第二・第四水曜日\n紙・段ボール：第一・第三水曜日\n\n※ ごみは収集日の朝八時までに出してください。前の日の夜には出さないでください。\n※ 分け方がわからないときは、市役所（電話 123-4567）にお問い合わせください。",
     "options": [
-      "月曜日はごみを出せない。",
       "びんとかんは同じ日に出す。",
+      "月曜日はごみを出せない。",
       "紙は毎週出せる。",
       "ごみは夜のうちに出しておく。"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "「びん・かん：第二・第四水曜日」, the same day.",
     "distractorExplanations": [
-      "Monday is a collection day for burnable rubbish.",
       "(correct answer)",
+      "Monday is a collection day for burnable rubbish.",
       "Paper is collected only on the first and third Wednesdays.",
       "Rubbish must be put out by 8 a.m. on the day, not the night before."
     ]
@@ -1784,17 +1784,17 @@
     "context": "「話し上手は聞き上手」という言葉がある。たくさん話す人が話し上手なのではない。相手の話をよく聞き、相手が何を知りたいのかを理解してから話す人こそ、本当の話し上手だ。話すことばかり考えていると、相手の言葉を聞きもらしてしまう。まず聞くこと。それが上手な話し方の第一歩だと私は思う。",
     "options": [
       "速く、たくさん話すことだ。",
-      "相手の話をよく聞いてから話すことだ。",
+      "大きな声で話すことだ。",
       "難しい言葉を使って話すことだ。",
-      "大きな声で話すことだ。"
+      "相手の話をよく聞いてから話すことだ。"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "「話し上手は聞き上手」: the writer says listening first is the key.",
     "distractorExplanations": [
       "The writer says speaking a lot is not the point.",
-      "(correct answer)",
       "Not mentioned.",
-      "Not mentioned."
+      "Not mentioned.",
+      "(correct answer)"
     ]
   },
   {
@@ -1842,16 +1842,16 @@
     "context": "私の祖母は八十歳を過ぎてから、スマートフォンを使い始めた。きっかけは、遠くに住む孫、つまり私の写真を見たいということだった。最初は電話のかけ方さえわからず、①私は何度も同じ説明をしなければならなかった。\n\nところが、半年もたつと、祖母は私より上手にアプリを使うようになっていた。毎朝、友達に花の写真を送り、昼にはニュースを読み、夜には私にメッセージをくれる。「新しいことを覚えるのは楽しい」と祖母は言う。\n\n私はそれまで、年を取ると新しいことが覚えられなくなると思っていた。しかし祖母を見ていると、②それは間違いだったと感じる。大切なのは年齢ではなく、「覚えたい」という気持ちなのだ。祖母は今、料理の動画を見ながら、新しい料理に挑戦している。",
     "options": [
       "祖母がスマートフォンを使い始めたこと",
-      "年を取ると新しいことが覚えられなくなるという考え",
       "祖母が私より上手にアプリを使うこと",
+      "年を取ると新しいことが覚えられなくなるという考え",
       "覚えたいという気持ちが大切だということ"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "それ refers to the writer's former belief in the previous sentence.",
     "distractorExplanations": [
       "Not a belief that could be 間違い.",
-      "(correct answer)",
       "This is what showed the belief was wrong.",
+      "(correct answer)",
       "This is the conclusion, not the mistaken idea."
     ]
   },
@@ -1871,16 +1871,16 @@
     "context": "私の祖母は八十歳を過ぎてから、スマートフォンを使い始めた。きっかけは、遠くに住む孫、つまり私の写真を見たいということだった。最初は電話のかけ方さえわからず、①私は何度も同じ説明をしなければならなかった。\n\nところが、半年もたつと、祖母は私より上手にアプリを使うようになっていた。毎朝、友達に花の写真を送り、昼にはニュースを読み、夜には私にメッセージをくれる。「新しいことを覚えるのは楽しい」と祖母は言う。\n\n私はそれまで、年を取ると新しいことが覚えられなくなると思っていた。しかし祖母を見ていると、②それは間違いだったと感じる。大切なのは年齢ではなく、「覚えたい」という気持ちなのだ。祖母は今、料理の動画を見ながら、新しい料理に挑戦している。",
     "options": [
       "年を取ってもスマートフォンは使える。",
-      "新しいことを覚えられるかどうかは、年齢ではなく気持ちで決まる。",
       "祖母は料理が上手だ。",
+      "新しいことを覚えられるかどうかは、年齢ではなく気持ちで決まる。",
       "孫は祖母に丁寧に教えるべきだ。"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "「大切なのは年齢ではなく、『覚えたい』という気持ちなのだ」.",
     "distractorExplanations": [
       "Too narrow; the phone is only an example.",
-      "(correct answer)",
       "Cooking is a closing example.",
+      "(correct answer)",
       "Not the point."
     ]
   },
@@ -1900,17 +1900,17 @@
     "context": "最近、「一人で食事をする」人が増えているという。一人で外食することを気にする人もいるが、私はむしろ、①一人の食事にはよさがあると思っている。\n\nまず、自分の好きなものを、自分のペースで食べられる。人と一緒だと、相手に合わせて店を選んだり、会話に気を取られて味をよく感じられなかったりする。一人なら、料理そのものと向き合える。\n\nまた、一人で食べていると、周りの音や店の様子に気づくことが多い。店員の声、隣の席の会話、外の雨の音。そうしたものに耳を傾ける時間は、忙しい毎日の中で、意外に貴重だ。\n\nもちろん、人と食べる楽しさを否定するつもりはない。②大切なのは、どちらか一方を選ぶことではなく、その日の気分に合わせて、両方を楽しめるようになることだと思う。",
     "options": [
       "安く食べられること",
-      "料理そのものと向き合えること",
+      "早く食べ終わること",
       "友達が増えること",
-      "早く食べ終わること"
+      "料理そのものと向き合えること"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "「一人なら、料理そのものと向き合える」.",
     "distractorExplanations": [
       "Cost is not mentioned.",
-      "(correct answer)",
+      "Speed is not mentioned.",
       "Not mentioned.",
-      "Speed is not mentioned."
+      "(correct answer)"
     ]
   },
   {
@@ -1928,16 +1928,16 @@
     "prompt": "筆者は、一人で食べているときに何に気づくと言っているか。",
     "context": "最近、「一人で食事をする」人が増えているという。一人で外食することを気にする人もいるが、私はむしろ、①一人の食事にはよさがあると思っている。\n\nまず、自分の好きなものを、自分のペースで食べられる。人と一緒だと、相手に合わせて店を選んだり、会話に気を取られて味をよく感じられなかったりする。一人なら、料理そのものと向き合える。\n\nまた、一人で食べていると、周りの音や店の様子に気づくことが多い。店員の声、隣の席の会話、外の雨の音。そうしたものに耳を傾ける時間は、忙しい毎日の中で、意外に貴重だ。\n\nもちろん、人と食べる楽しさを否定するつもりはない。②大切なのは、どちらか一方を選ぶことではなく、その日の気分に合わせて、両方を楽しめるようになることだと思う。",
     "options": [
-      "料理の値段",
       "周りの音や店の様子",
+      "料理の値段",
       "自分の食べる速さ",
       "店員の名前"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "「周りの音や店の様子に気づくことが多い」.",
     "distractorExplanations": [
-      "Not mentioned.",
       "(correct answer)",
+      "Not mentioned.",
       "Not mentioned.",
       "Not mentioned."
     ]
@@ -1987,17 +1987,17 @@
     "context": "私は小学校の教師をして二十年になる。この間、子どもたちの変化を感じることは多いが、最も大きいのは「失敗をこわがる子」が増えたことだ。授業で手を挙げる子が減り、答えがわかっていても「間違えたらどうしよう」と黙っている子が多い。\n\n理由の一つは、大人の態度にあると思う。私たち大人は、子どもが失敗しないように、先回りして助けてしまう。転ばないように手をつなぎ、間違えないように答えを教える。①それは優しさのように見えるが、子どもから「自分で試す機会」を奪っているのではないだろうか。\n\n去年、私のクラスで小さな実験をした。「間違えた答えを発表した人に拍手をする」というルールを作ったのだ。最初、子どもたちは戸惑っていた。しかし、一か月もすると、教室の空気が変わった。手を挙げる子が増え、「わからないけど、こう思う」と言える子が出てきた。②間違えることが恥ずかしくない場所になったからだ。\n\n面白いことに、テストの点数も少し上がった。間違えた理由を自分で考えるようになったからだと思う。失敗をこわがる子は、失敗から学ぶ機会も失っているのだ。\n\n子どもに必要なのは、失敗しない環境ではなく、失敗しても大丈夫だと思える環境である。転んだときに手を貸すのはいい。しかし、転ぶ前に手を出すのは、時には控えたほうがいい。それが、二十年教師をしてきた私の、今の考えである。",
     "options": [
       "子どもが失敗をこわがること",
-      "大人が子どもの失敗を先回りして防ぐこと",
+      "教師が答えを教えないこと",
       "子どもが授業で手を挙げないこと",
-      "教師が答えを教えないこと"
+      "大人が子どもの失敗を先回りして防ぐこと"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "それ = the adults' behaviour described just before: 先回りして助けてしまう.",
     "distractorExplanations": [
       "This is the problem, not what looks like kindness.",
-      "(correct answer)",
+      "The opposite of what the adults do.",
       "This is a symptom.",
-      "The opposite of what the adults do."
+      "(correct answer)"
     ]
   },
   {
@@ -2015,17 +2015,17 @@
     "prompt": "②間違えることが恥ずかしくない場所になったのはなぜか。",
     "context": "私は小学校の教師をして二十年になる。この間、子どもたちの変化を感じることは多いが、最も大きいのは「失敗をこわがる子」が増えたことだ。授業で手を挙げる子が減り、答えがわかっていても「間違えたらどうしよう」と黙っている子が多い。\n\n理由の一つは、大人の態度にあると思う。私たち大人は、子どもが失敗しないように、先回りして助けてしまう。転ばないように手をつなぎ、間違えないように答えを教える。①それは優しさのように見えるが、子どもから「自分で試す機会」を奪っているのではないだろうか。\n\n去年、私のクラスで小さな実験をした。「間違えた答えを発表した人に拍手をする」というルールを作ったのだ。最初、子どもたちは戸惑っていた。しかし、一か月もすると、教室の空気が変わった。手を挙げる子が増え、「わからないけど、こう思う」と言える子が出てきた。②間違えることが恥ずかしくない場所になったからだ。\n\n面白いことに、テストの点数も少し上がった。間違えた理由を自分で考えるようになったからだと思う。失敗をこわがる子は、失敗から学ぶ機会も失っているのだ。\n\n子どもに必要なのは、失敗しない環境ではなく、失敗しても大丈夫だと思える環境である。転んだときに手を貸すのはいい。しかし、転ぶ前に手を出すのは、時には控えたほうがいい。それが、二十年教師をしてきた私の、今の考えである。",
     "options": [
-      "先生が答えを教えるようになったから",
-      "テストの点数が上がったから",
       "間違えた答えを発表した人に拍手をするルールを作ったから",
+      "テストの点数が上がったから",
+      "先生が答えを教えるようになったから",
       "子どもたちが戸惑わなくなったから"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "The change came from the classroom rule of applauding wrong answers.",
     "distractorExplanations": [
-      "The teacher stopped giving answers, if anything.",
-      "Higher scores were a result, not the cause.",
       "(correct answer)",
+      "Higher scores were a result, not the cause.",
+      "The teacher stopped giving answers, if anything.",
       "Their confusion ending was also a result."
     ]
   },
@@ -2103,16 +2103,16 @@
     "context": "さくら市国際交流センター　日本語教室のご案内\n\nコース｜曜日・時間｜レベル｜期間｜費用\nA 入門｜火曜 10:00〜12:00｜ひらがなから｜4月〜6月（全12回）｜無料\nB 初級｜木曜 19:00〜21:00｜N5程度｜4月〜6月（全12回）｜3,000円\nC 中級会話｜土曜 14:00〜16:00｜N3程度｜4月〜7月（全16回）｜4,000円\nD 漢字｜土曜 10:00〜11:30｜N4程度以上｜5月〜7月（全12回）｜2,000円\n\n・申し込みは3月1日から3月20日まで。センター窓口またはホームページで受け付けます。\n・費用は初回の授業の日に現金でお支払いください。\n・市内に住んでいる人、または市内で働いている人が対象です。\n・テキスト代は費用に含まれています。\n・各コース定員20名。申し込みが多い場合は、市内に住んでいる人を優先します。",
     "options": [
       "テキストは別に買わなければならない。",
-      "申し込みは4月1日から受け付ける。",
       "費用は最初の授業の日に払う。",
+      "申し込みは4月1日から受け付ける。",
       "市外に住んでいる人は誰でも申し込める。"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "「費用は初回の授業の日に現金でお支払いください」.",
     "distractorExplanations": [
       "Textbook cost is included.",
-      "Applications are 3月1日〜20日.",
       "(correct answer)",
+      "Applications are 3月1日〜20日.",
       "Only residents or people working in the city."
     ]
   },
@@ -2133,16 +2133,16 @@
     "options": [
       "会議室を予約する",
       "資料をコピーする",
-      "部長にメールを送る",
-      "お弁当を注文する"
+      "お弁当を注文する",
+      "部長にメールを送る"
     ],
-    "answerIndex": 3,
+    "answerIndex": 2,
     "explanation": "The lunch order deadline is eleven, which is soon, so she does that first; the copying comes after.",
     "distractorExplanations": [
       "Already reserved.",
       "Comes after the lunch order.",
-      "The man will email the manager.",
-      "(correct answer)"
+      "(correct answer)",
+      "The man will email the manager."
     ]
   },
   {
@@ -2162,16 +2162,16 @@
     "options": [
       "飲み物",
       "お菓子",
-      "紙のお皿",
-      "カメラ"
+      "カメラ",
+      "紙のお皿"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "Drinks and sweets are already covered by others; the woman asks him to bring paper plates. The camera is hers.",
     "distractorExplanations": [
       "Tanaka brings the drinks.",
       "Sato brings sweets.",
-      "(correct answer)",
-      "The woman brings her own camera."
+      "The woman brings her own camera.",
+      "(correct answer)"
     ]
   },
   {
@@ -2190,16 +2190,16 @@
     "context": "大学で、学生と先生が話しています。学生はレポートをどうしますか。\n\n学生：先生、レポートの締め切りは明日ですよね。\n先生：ええ、明日の十二時までです。\n学生：あの、今日中には終わらないんですが、明日の朝、先生の部屋に持って来てもいいですか。\n先生：明日の午前中は出張でいないんです。メールで送ってもらえますか。十二時までなら大丈夫です。\n学生：わかりました。そうします。",
     "options": [
       "今日、先生の部屋に持って行く",
-      "明日、メールで送る",
       "明日、事務室に出す",
+      "明日、メールで送る",
       "来週、授業で出す"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "The teacher is away tomorrow, so the student will email it by tomorrow noon.",
     "distractorExplanations": [
       "Not finished today.",
-      "(correct answer)",
       "The office is not mentioned as an option.",
+      "(correct answer)",
       "Next week is too late."
     ]
   },
@@ -2219,16 +2219,16 @@
     "context": "バス停で、女の人が男の人に聞いています。女の人はどのバスに乗りますか。\n\n女：すみません、市民病院へ行くバスはどれですか。\n男：いつもは三番のバスなんですが、今日は道路工事で病院の前を通らないんですよ。\n女：そうなんですか。\n男：五番のバスなら病院の前に止まります。八番も行きますが、遠回りなので時間がかかりますよ。\n女：じゃあ、五番にします。ありがとうございます。",
     "options": [
       "三番のバス",
-      "五番のバス",
       "八番のバス",
+      "五番のバス",
       "十番のバス"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Bus 3 does not go to the hospital today; bus 5 stops right in front; bus 8 is slow.",
     "distractorExplanations": [
       "Route changed today.",
-      "(correct answer)",
       "Goes but takes a long time.",
+      "(correct answer)",
       "Not mentioned."
     ]
   },
@@ -2248,17 +2248,17 @@
     "context": "会社で、女の人と男の人が話しています。男の人はこのあと何をしますか。\n\n女：山田さん、顔色が悪いですよ。大丈夫ですか。\n男：朝から頭が痛くて……。でも、三時から会議があるので。\n女：会議は私が出ておきますから、今日はもう帰って休んでください。\n男：すみません。じゃあ、そうさせていただきます。\n女：明日も痛かったら、病院に行ってくださいね。",
     "options": [
       "薬を買いに行く",
-      "早く家に帰る",
+      "会議に出る",
       "病院に行く",
-      "会議に出る"
+      "早く家に帰る"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The manager tells him to go home and rest rather than attend the meeting.",
     "distractorExplanations": [
       "Not mentioned.",
-      "(correct answer)",
+      "The manager excuses him from the meeting.",
       "Told to see a doctor if it continues, not now.",
-      "The manager excuses him from the meeting."
+      "(correct answer)"
     ]
   },
   {
@@ -2277,16 +2277,16 @@
     "context": "男の人と女の人が話しています。女の人はどうして引っ越すことにしましたか。\n\n男：引っ越すんだって？　今の部屋、気に入ってたよね。\n女：うん、家賃も安いし、静かでいい部屋なんだけど。\n男：じゃあ、どうして？\n女：会社が移転して、通勤に一時間半もかかるようになったの。毎日はきついから。",
     "options": [
       "家賃が高くなったから",
-      "会社が遠くなったから",
       "部屋が狭いから",
+      "会社が遠くなったから",
       "近所がうるさいから"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "Her company moved, making the commute one and a half hours.",
     "distractorExplanations": [
       "Rent is not the reason.",
-      "(correct answer)",
       "Not mentioned.",
+      "(correct answer)",
       "Not mentioned."
     ]
   },
@@ -2336,16 +2336,16 @@
     "options": [
       "友達と買い物をした",
       "家で本を読んだ",
-      "実家に帰った",
-      "映画を見に行った"
+      "映画を見に行った",
+      "実家に帰った"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "She went back to her parents' home because her mother was in hospital.",
     "distractorExplanations": [
       "Planned, but cancelled.",
       "Not mentioned.",
-      "(correct answer)",
-      "Not mentioned."
+      "Not mentioned.",
+      "(correct answer)"
     ]
   },
   {
@@ -2363,16 +2363,16 @@
     "prompt": "男の人は何時の新幹線に乗りますか。",
     "context": "会社で、女の人と男の人が話しています。男の人は何時の新幹線に乗りますか。\n\n女：明日の大阪出張、何時の新幹線にしますか。会議は十時半からですよね。\n男：七時のだと九時半に着くんだけど、ちょっと早すぎるな。\n女：九時のは十一時半に着くので、間に合いませんね。\n男：じゃあ、八時のにするよ。十時に着くから。",
     "options": [
-      "七時",
       "八時",
+      "七時",
       "九時",
       "十時"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Seven is too early for him; nine arrives after the meeting starts; so eight.",
     "distractorExplanations": [
-      "He cannot get up that early.",
       "(correct answer)",
+      "He cannot get up that early.",
       "Arrives after ten-thirty.",
       "Not offered."
     ]
@@ -2392,16 +2392,16 @@
     "prompt": "女の人は何について話していますか。",
     "context": "ラジオで、女の人が話しています。\n\n女：皆さんは、朝、何か食べていますか。忙しくて食べない、という人も多いようです。でも、朝、何も食べないと、午前中、頭がうまく働きません。パン一枚、バナナ一本でもいいんです。少しでも食べることで、体も頭も目を覚まします。明日の朝から、まず一口、始めてみませんか。",
     "options": [
-      "朝ご飯を食べることの大切さ",
       "早く寝ることの大切さ",
+      "朝ご飯を食べることの大切さ",
       "運動をすることの大切さ",
       "水を飲むことの大切さ"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Everything in the talk supports eating breakfast.",
     "distractorExplanations": [
-      "(correct answer)",
       "Not the topic.",
+      "(correct answer)",
       "Not the topic.",
       "Not the topic."
     ]
@@ -2450,16 +2450,16 @@
     "prompt": "先生が一番言いたいことは何ですか。",
     "context": "教室で、先生が話しています。\n\n先生：漢字の勉強について、一つだけ言っておきます。試験の前に一度に百も二百も覚えようとする人がいますが、それはすぐに忘れてしまいます。一日五つでいいから、毎日続けてください。半年たてば、九百の漢字になります。大切なのは、量ではなく、続けることです。",
     "options": [
-      "漢字を毎日少しずつ勉強すること",
       "漢字をたくさん一度に覚えること",
+      "漢字を毎日少しずつ勉強すること",
       "漢字を書かずに読むこと",
       "漢字の試験を受けること"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "「一日五つでいいから、毎日続けてください」.",
     "distractorExplanations": [
-      "(correct answer)",
       "The teacher says cramming is forgotten quickly.",
+      "(correct answer)",
       "Not mentioned.",
       "Not mentioned."
     ]
@@ -2479,15 +2479,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "男：この書類、明日までに仕上げておいてくれる？",
     "options": [
-      "はい、承知しました。",
       "はい、仕上げてくれました。",
+      "はい、承知しました。",
       "いいえ、明日は書類です。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "A request from a superior; accept with 承知しました.",
     "distractorExplanations": [
-      "(correct answer)",
       "Reverses who does the work.",
+      "(correct answer)",
       "Nonsense."
     ]
   },
@@ -2506,15 +2506,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：昨日はごちそうさまでした。",
     "options": [
-      "いえ、こちらこそ楽しかったです。",
       "はい、ごちそうします。",
+      "いえ、こちらこそ楽しかったです。",
       "いいえ、食べていません。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Thanks for a meal is answered with こちらこそ.",
     "distractorExplanations": [
-      "(correct answer)",
       "Offers to treat again; does not respond to thanks.",
+      "(correct answer)",
       "Denies eating."
     ]
   },
@@ -2560,15 +2560,15 @@
     "prompt": "最もよい返事はどれですか。",
     "context": "女：あれ、田中さん、顔色が悪いですね。",
     "options": [
-      "ちょっと寝不足で。",
       "はい、色が好きです。",
+      "ちょっと寝不足で。",
       "いいえ、悪くありません、顔は。"
     ],
-    "answerIndex": 0,
+    "answerIndex": 1,
     "explanation": "Concern about looking unwell; give the reason.",
     "distractorExplanations": [
-      "(correct answer)",
       "Misunderstands 顔色.",
+      "(correct answer)",
       "Odd denial."
     ]
   }

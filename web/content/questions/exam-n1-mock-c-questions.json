@@ -1,0 +1,2426 @@
+[
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n両案の【是非】については、次回の会合で議論する。",
+    "context": "",
+    "options": [
+      "しひ",
+      "ぜひ",
+      "ぜび",
+      "せいひ"
+    ],
+    "answerIndex": 1,
+    "explanation": "是非（ぜひ）as a noun = the merits and demerits, rightness or wrongness.",
+    "distractorExplanations": [
+      "是 is ぜ, not し.",
+      "(correct answer)",
+      "非 is ひ, not び.",
+      "是 is not read せい."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n彼の功績は、いまなお学界で高く【評価】され、【顕彰】されている。",
+    "context": "",
+    "options": [
+      "けんしゅう",
+      "げんしょう",
+      "けんしょう",
+      "けんぞう"
+    ],
+    "answerIndex": 2,
+    "explanation": "顕彰（けんしょう）= public commendation, honouring achievements.",
+    "distractorExplanations": [
+      "彰 is しょう, not しゅう.",
+      "顕 is けん, not げん.",
+      "(correct answer)",
+      "彰 is しょう, not ぞう."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n担当者の対応は、実に【懇切】だった。",
+    "context": "",
+    "options": [
+      "こんせつ",
+      "こんぜつ",
+      "きんせつ",
+      "こんさい"
+    ],
+    "answerIndex": 0,
+    "explanation": "懇切（こんせつ）= kind and thorough, as in 懇切丁寧.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "切 is unvoiced here: せつ.",
+      "懇 is こん, not きん.",
+      "切 is せつ, not さい, in this word."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\nその決定の背景には、複雑な利害が【錯綜】している。",
+    "context": "",
+    "options": [
+      "さくしょう",
+      "さっそう",
+      "さくそう",
+      "そうさく"
+    ],
+    "answerIndex": 2,
+    "explanation": "錯綜（さくそう）= to be complicated and intertwined.",
+    "distractorExplanations": [
+      "綜 is そう, not しょう.",
+      "錯 is さく here, without gemination.",
+      "(correct answer)",
+      "The order of the characters is reversed."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n被害者への補償が【滞る】ことは、あってはならない。",
+    "context": "",
+    "options": [
+      "たまる",
+      "おこたる",
+      "とどまる",
+      "とどこおる"
+    ],
+    "answerIndex": 3,
+    "explanation": "滞る（とどこおる）= to be delayed, to fall into arrears.",
+    "distractorExplanations": [
+      "たまる is 溜まる.",
+      "おこたる is 怠る.",
+      "とどまる is 留まる/止まる.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-6",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "kanji",
+    "topic": "kanji reading",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉の読み方として最もよいものを一つ選びなさい。\n報告書には、事実の【歪曲】が随所に見られた。",
+    "context": "",
+    "options": [
+      "おうきょく",
+      "わいきょく",
+      "わいきゅう",
+      "えいきょく"
+    ],
+    "answerIndex": 1,
+    "explanation": "歪曲（わいきょく）= distortion of facts.",
+    "distractorExplanations": [
+      "歪 is わい in this compound, not おう.",
+      "(correct answer)",
+      "曲 is きょく, not きゅう.",
+      "歪 is not read えい."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-7",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n会長の一声で、社内の反対意見はすべて（　）された。",
+    "context": "",
+    "options": [
+      "一掃",
+      "一括",
+      "一変",
+      "一任"
+    ],
+    "answerIndex": 0,
+    "explanation": "一掃する = to sweep away entirely.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "一括 = to bundle together, of items or payments.",
+      "一変 = to change completely, intransitive in effect.",
+      "一任 = to leave entirely to someone."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-8",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n災害の教訓を、次の世代に（　）していかなければならない。",
+    "context": "",
+    "options": [
+      "継続",
+      "継承",
+      "相続",
+      "連続"
+    ],
+    "answerIndex": 1,
+    "explanation": "教訓を継承する = to pass on lessons to the next generation.",
+    "distractorExplanations": [
+      "継続 means to keep something going, not to hand it over.",
+      "(correct answer)",
+      "相続 is legal inheritance of property.",
+      "連続 means occurring in succession."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-9",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n彼の主張は、事実の裏づけを（　）、説得力を持たなかった。",
+    "context": "",
+    "options": [
+      "失し",
+      "抜かし",
+      "逃し",
+      "欠き"
+    ],
+    "answerIndex": 3,
+    "explanation": "裏づけを欠く = to lack corroboration.",
+    "distractorExplanations": [
+      "失する is used in 礼を失する and similar fixed phrases.",
+      "抜かす means to omit by mistake.",
+      "逃す means to let slip an opportunity.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-10",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n経営陣は、現場の声に（　）を貸そうとしなかった。",
+    "context": "",
+    "options": [
+      "耳",
+      "目",
+      "手",
+      "口"
+    ],
+    "answerIndex": 0,
+    "explanation": "耳を貸す = to lend an ear, to listen.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "目を貸す is not an expression.",
+      "手を貸す means to help with a task.",
+      "口を貸す is not an expression."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-11",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n交渉は（　）に乗り上げ、三か月にわたって進展がない。",
+    "context": "",
+    "options": [
+      "岩石",
+      "砂丘",
+      "暗礁",
+      "浅瀬"
+    ],
+    "answerIndex": 2,
+    "explanation": "暗礁に乗り上げる = to run aground, to hit a deadlock.",
+    "distractorExplanations": [
+      "岩石 is not used in this idiom.",
+      "砂丘 is a sand dune, unrelated.",
+      "(correct answer)",
+      "浅瀬 is a shallows but does not form this idiom."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-12",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n新しい規則は、（　）現場を混乱させるだけに終わった。",
+    "context": "",
+    "options": [
+      "いっそう",
+      "むしろ",
+      "なおさら",
+      "かえって"
+    ],
+    "answerIndex": 3,
+    "explanation": "かえって = contrary to expectation, which fits 〜だけに終わった.",
+    "distractorExplanations": [
+      "いっそう needs a comparison already established.",
+      "むしろ requires a rejected alternative stated nearby.",
+      "なおさら requires a preceding reason clause.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-13",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "vocabulary in context",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "（　）に入れるのに最もよいものを一つ選びなさい。\n長年の研究がようやく（　）を結んだ。",
+    "context": "",
+    "options": [
+      "果",
+      "実",
+      "芽",
+      "花"
+    ],
+    "answerIndex": 1,
+    "explanation": "実を結ぶ = to bear fruit, to come to fruition.",
+    "distractorExplanations": [
+      "果 is not used in this idiom.",
+      "(correct answer)",
+      "芽 pairs with 出る, as in 芽が出る.",
+      "花 pairs with 咲く, as in 花が咲く."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-14",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nその提案は、会議で【一蹴された】。",
+    "context": "",
+    "options": [
+      "満場一致で承認された",
+      "詳しく検討された",
+      "問題にされずに退けられた",
+      "次回に持ち越された"
+    ],
+    "answerIndex": 2,
+    "explanation": "一蹴する = to reject out of hand.",
+    "distractorExplanations": [
+      "The opposite outcome.",
+      "一蹴 implies no real examination.",
+      "(correct answer)",
+      "Postponement is a different outcome."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-15",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼は失敗を【根に持って】いるようだ。",
+    "context": "",
+    "options": [
+      "いつまでも恨んで",
+      "深く反省して",
+      "すっかり忘れて",
+      "人に隠して"
+    ],
+    "answerIndex": 0,
+    "explanation": "根に持つ = to hold a lasting grudge.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Self-reflection is not resentment.",
+      "The opposite.",
+      "Concealment is not implied."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-16",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nその発言は【物議を醸した】。",
+    "context": "",
+    "options": [
+      "場の空気を和ませた",
+      "誰にも気づかれなかった",
+      "世間の議論を引き起こした",
+      "議論を打ち切らせた"
+    ],
+    "answerIndex": 2,
+    "explanation": "物議を醸す = to provoke public controversy.",
+    "distractorExplanations": [
+      "The opposite effect.",
+      "Controversy implies it was noticed.",
+      "(correct answer)",
+      "It started debate rather than ending it."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-17",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n彼女の対応は【そつがなかった】。",
+    "context": "",
+    "options": [
+      "冷たかった",
+      "遠慮がなかった",
+      "型どおりだった",
+      "手落ちがなかった"
+    ],
+    "answerIndex": 3,
+    "explanation": "そつがない = flawless, without a slip.",
+    "distractorExplanations": [
+      "Coldness is not implied.",
+      "Reserve is not the point.",
+      "It praises the handling rather than calling it formulaic.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-18",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\nこの事業は【採算が取れない】。",
+    "context": "",
+    "options": [
+      "許可が下りない",
+      "費用に見合う利益が出ない",
+      "人手が足りない",
+      "計画が立てられない"
+    ],
+    "answerIndex": 1,
+    "explanation": "採算が取れない = not profitable, costs are not recovered.",
+    "distractorExplanations": [
+      "Permission is unrelated.",
+      "(correct answer)",
+      "Staffing is unrelated.",
+      "Planning is unrelated."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-19",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "paraphrase",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "＿＿の言葉に意味が最も近いものを一つ選びなさい。\n両者の見解には【隔たりがある】。",
+    "context": "",
+    "options": [
+      "大きな差がある",
+      "共通点が多い",
+      "誤りが含まれる",
+      "根拠が乏しい"
+    ],
+    "answerIndex": 0,
+    "explanation": "隔たりがある = there is a gap or divergence.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The opposite.",
+      "Error is not implied.",
+      "Weak grounding is a different claim."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-20",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nもっぱら",
+    "context": "",
+    "options": [
+      "雨がもっぱら降りやんだ。",
+      "最近はもっぱら古い映画ばかり見ている。",
+      "彼はもっぱら三人の子がいる。",
+      "資料はもっぱら明日までに届く。"
+    ],
+    "answerIndex": 1,
+    "explanation": "もっぱら = exclusively, devoting oneself to one thing.",
+    "distractorExplanations": [
+      "Cessation of rain takes ようやく or やっと.",
+      "(correct answer)",
+      "もっぱら cannot quantify possession.",
+      "Deadlines take おそらく or きっと."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-21",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nしのぐ",
+    "context": "",
+    "options": [
+      "彼は先輩をしのいで謝罪した。",
+      "会議の時間をしのいで延長した。",
+      "荷物を棚にしのいで置いた。",
+      "ありあわせの材料で、その日をしのいだ。"
+    ],
+    "answerIndex": 3,
+    "explanation": "しのぐ = to get through hardship, to make do.",
+    "distractorExplanations": [
+      "Surpassing a senior would be 先輩をしのぐ実力 and cannot take 謝罪した.",
+      "Extending time is 延ばす.",
+      "Placing luggage is 載せる.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-22",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nうかがう",
+    "context": "",
+    "options": [
+      "相手の表情から真意をうかがった。",
+      "書類を課長にうかがっておいた。",
+      "会場の広さをうかがって驚いた。",
+      "参加者の人数をうかがって決めた。"
+    ],
+    "answerIndex": 0,
+    "explanation": "うかがう here = to discern or infer indirectly, e.g. from an expression.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Documents are 渡す/お見せする; うかがう cannot take them as an object this way.",
+      "Measuring a space is 測る.",
+      "Counting people is 数える; asking the number would be 人数をうかがう to a person, not 人数を."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-23",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nこだわる",
+    "context": "",
+    "options": [
+      "彼は約束の時間にこだわって遅刻した。",
+      "この問題は難しさにこだわっている。",
+      "彼は素材の産地にこだわって店を続けている。",
+      "彼女は健康にこだわって入院した。"
+    ],
+    "answerIndex": 2,
+    "explanation": "〜にこだわる = to be particular about, to insist on a standard.",
+    "distractorExplanations": [
+      "Being particular about time contradicts being late.",
+      "こだわる needs a human subject.",
+      "(correct answer)",
+      "Hospitalisation does not follow from being health-conscious."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-24",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nかろうじて",
+    "context": "",
+    "options": [
+      "彼はかろうじて優勝した記録を持つ。",
+      "この道はかろうじて広い。",
+      "今日はかろうじて晴れるだろう。",
+      "終電にかろうじて間に合った。"
+    ],
+    "answerIndex": 3,
+    "explanation": "かろうじて = barely, just managing to.",
+    "distractorExplanations": [
+      "A held record is a state, not a narrow success at a moment.",
+      "かろうじて does not modify plain adjectives of degree.",
+      "Weather forecasts take おそらく or きっと.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-moji-goi-25",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "vocabulary",
+    "topic": "word usage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の言葉の使い方として最もよいものを一つ選びなさい。\nまかなう",
+    "context": "",
+    "options": [
+      "残った仕事を同僚にまかなった。",
+      "費用は寄付金でまかなうことになった。",
+      "書類の不備をまかなって提出した。",
+      "会場の設営を業者にまかなった。"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜でまかなう = to cover costs or needs with available resources.",
+    "distractorExplanations": [
+      "Entrusting work is まかせる.",
+      "(correct answer)",
+      "Making up for a defect is 補う.",
+      "Entrusting setup is まかせる."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n会場は開演を待つ観客の熱気で、今にも壁が震え（　）だった。",
+    "context": "",
+    "options": [
+      "ないばかり",
+      "たばかり",
+      "んばかり",
+      "るばかり"
+    ],
+    "answerIndex": 2,
+    "explanation": "震えんばかり = as if it were about to shake; 〜んばかり attaches to the negative stem.",
+    "distractorExplanations": [
+      "〜ないばかり is not this pattern.",
+      "〜たばかり means just having done something.",
+      "(correct answer)",
+      "〜るばかり would need a dictionary form and a different meaning."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n被災地の写真を前にして、私は言葉を（　）。",
+    "context": "",
+    "options": [
+      "失わずにはいられなかった",
+      "失うどころではなかった",
+      "失うわけにはいかなかった",
+      "失うにはあたらなかった"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜ずにはいられない = cannot help but; here, could not help being lost for words.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "〜どころではない denies that there is room for it.",
+      "〜わけにはいかない expresses that one must not, which contradicts the emotion.",
+      "〜にはあたらない means it is not worth doing."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\nこの無礼な扱いには、憤りを（　）。",
+    "context": "",
+    "options": [
+      "禁じかねない",
+      "禁じるまでもない",
+      "禁じ得ない",
+      "禁じようがない"
+    ],
+    "answerIndex": 2,
+    "explanation": "〜を禁じ得ない = cannot suppress (an emotion); a formal written idiom.",
+    "distractorExplanations": [
+      "〜かねない means might well happen, not an emotion one cannot suppress.",
+      "〜までもない means there is no need to.",
+      "(correct answer)",
+      "〜ようがない means there is no way to, which is not the idiom."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n連休最終日（　）、高速道路は夕方から激しい渋滞となった。",
+    "context": "",
+    "options": [
+      "とあれば",
+      "であれ",
+      "とはいえ",
+      "とあって"
+    ],
+    "answerIndex": 3,
+    "explanation": "〜とあって = given that it was, presenting an accepted cause.",
+    "distractorExplanations": [
+      "〜とあれば is hypothetical, but this is an established fact.",
+      "〜であれ means even if, a concessive.",
+      "〜とはいえ introduces a contrast.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n彼の反論は、議論の前提を（　）ものだった。",
+    "context": "",
+    "options": [
+      "覆すに至らない",
+      "覆すに足る",
+      "覆すべからざる",
+      "覆すまじき"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜に足る = sufficient to, worthy of; his rebuttal was enough to overturn the premise.",
+    "distractorExplanations": [
+      "〜に至らない says it fell short, which contradicts 反論 being decisive here.",
+      "(correct answer)",
+      "〜べからざる is a classical negative prohibition.",
+      "〜まじき appears only in fixed phrases such as あるまじき."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-6",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n市長は市民の反発を（　）、計画の撤回に踏み切った。",
+    "context": "",
+    "options": [
+      "受けて",
+      "受けたら",
+      "受けようと",
+      "受けるなり"
+    ],
+    "answerIndex": 0,
+    "explanation": "反発を受けて = in response to the backlash, giving the cause of the withdrawal.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "たら sets a condition, but the withdrawal already happened.",
+      "〜ようと means even if, a concessive that contradicts the causal link.",
+      "〜なり means the instant after, which is too abrupt for a policy reversal."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-7",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n研究者（　）、この結果を軽々に公表することはできない。",
+    "context": "",
+    "options": [
+      "なる者",
+      "たる者",
+      "とする者",
+      "ある者"
+    ],
+    "answerIndex": 1,
+    "explanation": "〜たる者 = one who is (in the position of), a formal written expression.",
+    "distractorExplanations": [
+      "なる者 does not form this expression.",
+      "(correct answer)",
+      "とする者 means one who assumes something to be so.",
+      "ある者 means a certain person."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-8",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n厳しい批判を受けながらも、彼は自説を（　）としなかった。",
+    "context": "",
+    "options": [
+      "曲げる",
+      "曲げた",
+      "曲げれば",
+      "曲げよう"
+    ],
+    "answerIndex": 3,
+    "explanation": "〜ようとしない = refuses to; 曲げようとしなかった = would not bend his view.",
+    "distractorExplanations": [
+      "The dictionary form cannot precede としなかった in this sense.",
+      "The past form does not combine with としない.",
+      "The conditional does not fit.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-9",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n担当者の説明は、責任の所在を曖昧にする（　）。",
+    "context": "",
+    "options": [
+      "きらいがある",
+      "きらいだ",
+      "ようがない",
+      "までだ"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜きらいがある = tends to, with an undesirable tendency.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "きらいだ as an adjective means to dislike.",
+      "〜ようがない means there is no way to.",
+      "〜までだ means one will simply do it."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-10",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の（　）に入れるのに最もよいものを一つ選びなさい。\n一度信頼を失えば、取り戻すのは（　）。",
+    "context": "",
+    "options": [
+      "容易にすぎない",
+      "容易でなくはない",
+      "容易ではない",
+      "容易なわけだ"
+    ],
+    "answerIndex": 2,
+    "explanation": "容易ではない = is not easy, the natural formal negation.",
+    "distractorExplanations": [
+      "〜にすぎない means merely, which does not fit 容易.",
+      "The double negative would say it is fairly easy, contradicting the premise.",
+      "(correct answer)",
+      "〜わけだ presents a conclusion drawn from context, which does not follow."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-11",
+    "type": "ordering",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\nこの報告書は、 ＿＿ ★ ＿＿ ＿＿ 説得力に乏しい。",
+    "context": "",
+    "options": [
+      "裏づけを",
+      "点で",
+      "欠いている",
+      "数字の"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 数字の 裏づけを 欠いている 点で → 「この報告書は、数字の裏づけを欠いている点で説得力に乏しい。」(This report is unconvincing in that it lacks numerical backing.) ★ is the second slot: 裏づけを. 〜を欠いている点で = in that it lacks.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the third slot, not at ★.",
+      "Goes in the first slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-12",
+    "type": "ordering",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n彼は、周囲の反対を ★ ＿＿ ＿＿ ＿＿ とした。",
+    "context": "",
+    "options": [
+      "自説を",
+      "通そう",
+      "押し切って",
+      "まで"
+    ],
+    "answerIndex": 2,
+    "explanation": "Full order: 押し切って まで 自説を 通そう → 「彼は、周囲の反対を押し切ってまで自説を通そうとした。」(He tried to push his own view through, even overriding the objections around him.) ★ is the first slot: 押し切って. 〜てまで = going so far as to.",
+    "distractorExplanations": [
+      "Goes in the third slot, not at ★.",
+      "Goes in the fourth slot, not at ★.",
+      "(correct answer)",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-13",
+    "type": "ordering",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n交渉が長引いたのは、 ＿＿ ＿＿ ★ ＿＿ からである。",
+    "context": "",
+    "options": [
+      "姿勢を",
+      "見せなかった",
+      "双方が",
+      "譲る"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 双方が 譲る 姿勢を 見せなかった → 「交渉が長引いたのは、双方が譲る姿勢を見せなかったからである。」(The negotiations dragged on because neither side showed any willingness to yield.) ★ is the third slot: 姿勢を. 〜姿勢を見せない = to show no willingness.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★.",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-14",
+    "type": "ordering",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\nこの制度は、 ＿＿ ＿＿ ★ ＿＿ だろう。",
+    "context": "",
+    "options": [
+      "ところで",
+      "機能しない",
+      "形だけ",
+      "整えた"
+    ],
+    "answerIndex": 0,
+    "explanation": "Full order: 形だけ 整えた ところで 機能しない → 「この制度は、形だけ整えたところで機能しないだろう。」(Even if the form is put in place, this system will not work.) ★ is the third slot: ところで. 〜たところで = even if one does, it will not help.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Goes in the fourth slot, not at ★.",
+      "Goes in the first slot, not at ★.",
+      "Goes in the second slot, not at ★."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-15",
+    "type": "ordering",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "sentence ordering",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文の ★ に入る最もよいものを選びなさい。\n責任の所在を ＿＿ ★ ＿＿ ＿＿ ようなことは許されない。",
+    "context": "",
+    "options": [
+      "幕引きを",
+      "曖昧に",
+      "図る",
+      "したまま"
+    ],
+    "answerIndex": 3,
+    "explanation": "Full order: 曖昧に したまま 幕引きを 図る → 「責任の所在を曖昧にしたまま幕引きを図るようなことは許されない。」(It is unacceptable to try to close the matter while leaving responsibility unclear.) ★ is the second slot: したまま. 〜たまま = leaving a state unchanged.",
+    "distractorExplanations": [
+      "Goes in the third slot, not at ★.",
+      "Goes in the first slot, not at ★.",
+      "Goes in the fourth slot, not at ★.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-16",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【16】",
+    "context": "地図を見ながら歩く旅と、地図を持たずに歩く旅とでは、同じ道を通っても残る記憶がまるで違う。前者では道は目的地への手段に【16】、後者では道そのものが出来事になる。\n\nこの差は、旅に【17】ことではない。仕事でも学びでも、あらかじめ到達点が示されているとき、人は途中を省略できる部分として扱い始める。効率を求める態度は、目的地を先に固定することによって成り立っているのだ。\n\nもっとも、地図を捨てよという主張が、しばしば無責任に響くことは承知している。時間も費用も限られた中で、誰もが遠回りを楽しめる【18】。到達点を定めることは、多くの場合、責任ある選択である。\n\n私が言いたいのは、別のことだ。到達点を定めた上で、なお途中で立ち止まる余地を、意識的に残しておけないかということである。地図を持つか持たないかという二択に見えるものは、実のところ、地図をどの縮尺で持つかという問題に【19】。\n\n細かい道まで描き込まれた地図は、迷う自由を奪う。大まかな方角だけを示す地図なら、道の選び方はこちらに委ねられる。私たちに必要なのは、地図を捨てる勇気ではなく、粗い地図で歩き出す【20】のだろう。",
+    "options": [
+      "すぎないので",
+      "ほかならないが",
+      "あたらないが",
+      "すぎないが"
+    ],
+    "answerIndex": 3,
+    "explanation": "手段にすぎない = is nothing more than a means; 〜が contrasts it with the second half.",
+    "distractorExplanations": [
+      "ので would make the two clauses causal, but the sentence contrasts them.",
+      "〜にほかならない asserts identity and clashes with the contrast being drawn.",
+      "〜にはあたらない means it is not worth doing.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-17",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【17】",
+    "context": "地図を見ながら歩く旅と、地図を持たずに歩く旅とでは、同じ道を通っても残る記憶がまるで違う。前者では道は目的地への手段に【16】、後者では道そのものが出来事になる。\n\nこの差は、旅に【17】ことではない。仕事でも学びでも、あらかじめ到達点が示されているとき、人は途中を省略できる部分として扱い始める。効率を求める態度は、目的地を先に固定することによって成り立っているのだ。\n\nもっとも、地図を捨てよという主張が、しばしば無責任に響くことは承知している。時間も費用も限られた中で、誰もが遠回りを楽しめる【18】。到達点を定めることは、多くの場合、責任ある選択である。\n\n私が言いたいのは、別のことだ。到達点を定めた上で、なお途中で立ち止まる余地を、意識的に残しておけないかということである。地図を持つか持たないかという二択に見えるものは、実のところ、地図をどの縮尺で持つかという問題に【19】。\n\n細かい道まで描き込まれた地図は、迷う自由を奪う。大まかな方角だけを示す地図なら、道の選び方はこちらに委ねられる。私たちに必要なのは、地図を捨てる勇気ではなく、粗い地図で歩き出す【20】のだろう。",
+    "options": [
+      "限らない",
+      "限った",
+      "限る",
+      "限られた"
+    ],
+    "answerIndex": 1,
+    "explanation": "旅に限ったことではない = this is not something confined to travel.",
+    "distractorExplanations": [
+      "限らない would need 〜とは限らない and changes the meaning.",
+      "(correct answer)",
+      "限る cannot modify ことではない in this idiom.",
+      "限られた would describe a restricted thing, not this fixed phrase."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-18",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【18】",
+    "context": "地図を見ながら歩く旅と、地図を持たずに歩く旅とでは、同じ道を通っても残る記憶がまるで違う。前者では道は目的地への手段に【16】、後者では道そのものが出来事になる。\n\nこの差は、旅に【17】ことではない。仕事でも学びでも、あらかじめ到達点が示されているとき、人は途中を省略できる部分として扱い始める。効率を求める態度は、目的地を先に固定することによって成り立っているのだ。\n\nもっとも、地図を捨てよという主張が、しばしば無責任に響くことは承知している。時間も費用も限られた中で、誰もが遠回りを楽しめる【18】。到達点を定めることは、多くの場合、責任ある選択である。\n\n私が言いたいのは、別のことだ。到達点を定めた上で、なお途中で立ち止まる余地を、意識的に残しておけないかということである。地図を持つか持たないかという二択に見えるものは、実のところ、地図をどの縮尺で持つかという問題に【19】。\n\n細かい道まで描き込まれた地図は、迷う自由を奪う。大まかな方角だけを示す地図なら、道の選び方はこちらに委ねられる。私たちに必要なのは、地図を捨てる勇気ではなく、粗い地図で歩き出す【20】のだろう。",
+    "options": [
+      "ものではない",
+      "ほかはない",
+      "わけではない",
+      "きらいがある"
+    ],
+    "answerIndex": 2,
+    "explanation": "誰もが遠回りを楽しめるわけではない = it is not the case that everyone can enjoy detours.",
+    "distractorExplanations": [
+      "〜ものではない gives a normative prohibition, not a factual qualification.",
+      "〜ほかはない means there is no choice but.",
+      "(correct answer)",
+      "〜きらいがある states a tendency, which does not fit 誰もが."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-19",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【19】",
+    "context": "地図を見ながら歩く旅と、地図を持たずに歩く旅とでは、同じ道を通っても残る記憶がまるで違う。前者では道は目的地への手段に【16】、後者では道そのものが出来事になる。\n\nこの差は、旅に【17】ことではない。仕事でも学びでも、あらかじめ到達点が示されているとき、人は途中を省略できる部分として扱い始める。効率を求める態度は、目的地を先に固定することによって成り立っているのだ。\n\nもっとも、地図を捨てよという主張が、しばしば無責任に響くことは承知している。時間も費用も限られた中で、誰もが遠回りを楽しめる【18】。到達点を定めることは、多くの場合、責任ある選択である。\n\n私が言いたいのは、別のことだ。到達点を定めた上で、なお途中で立ち止まる余地を、意識的に残しておけないかということである。地図を持つか持たないかという二択に見えるものは、実のところ、地図をどの縮尺で持つかという問題に【19】。\n\n細かい道まで描き込まれた地図は、迷う自由を奪う。大まかな方角だけを示す地図なら、道の選び方はこちらに委ねられる。私たちに必要なのは、地図を捨てる勇気ではなく、粗い地図で歩き出す【20】のだろう。",
+    "options": [
+      "帰着する",
+      "帰着させる",
+      "帰着される",
+      "帰着しかねる"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜に帰着する = comes down to; the intransitive form fits 問題に帰着する.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The causative needs an agent making it come down to something.",
+      "The passive is unnatural with this intransitive verb.",
+      "〜かねる cannot take an inanimate subject."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-bunpo-20",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "grammar",
+    "topic": "passage grammar",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "次の文章を読んで、文章全体の趣旨を踏まえ、【　】に入る最もよいものを一つ選びなさい。\n【20】",
+    "context": "地図を見ながら歩く旅と、地図を持たずに歩く旅とでは、同じ道を通っても残る記憶がまるで違う。前者では道は目的地への手段に【16】、後者では道そのものが出来事になる。\n\nこの差は、旅に【17】ことではない。仕事でも学びでも、あらかじめ到達点が示されているとき、人は途中を省略できる部分として扱い始める。効率を求める態度は、目的地を先に固定することによって成り立っているのだ。\n\nもっとも、地図を捨てよという主張が、しばしば無責任に響くことは承知している。時間も費用も限られた中で、誰もが遠回りを楽しめる【18】。到達点を定めることは、多くの場合、責任ある選択である。\n\n私が言いたいのは、別のことだ。到達点を定めた上で、なお途中で立ち止まる余地を、意識的に残しておけないかということである。地図を持つか持たないかという二択に見えるものは、実のところ、地図をどの縮尺で持つかという問題に【19】。\n\n細かい道まで描き込まれた地図は、迷う自由を奪う。大まかな方角だけを示す地図なら、道の選び方はこちらに委ねられる。私たちに必要なのは、地図を捨てる勇気ではなく、粗い地図で歩き出す【20】のだろう。",
+    "options": [
+      "勇気な",
+      "無駄な",
+      "度量な",
+      "効率な"
+    ],
+    "answerIndex": 2,
+    "explanation": "粗い地図で歩き出す度量 = the magnanimity to set out with a rough map; the essay contrasts this with 勇気.",
+    "distractorExplanations": [
+      "The sentence explicitly denies that courage is what is needed.",
+      "無駄 contradicts the writer's positive conclusion.",
+      "(correct answer)",
+      "効率 is the attitude the essay relativises."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者は「経験の厚み」についてどのように述べているか。",
+    "context": "「経験を積む」という言い方には、経験が層のように重なっていくという含みがある。だが実際の経験は、積み上がるより先に固まってしまうことのほうが多い。同じ判断が繰り返し当たるうちに、判断の理由は問われなくなり、やがて理由そのものが忘れられる。そうなると、状況が変わっても手つきだけが残る。経験の厚みとされているものは、しばしば、点検されないまま放置された結論の集まりにすぎない。",
+    "options": [
+      "判断の理由を明確にした記録の集まりである",
+      "状況の変化に応じて絶えず更新されるものである",
+      "繰り返しによって確実に増えていくものである",
+      "点検されていない結論の集まりであることが多い"
+    ],
+    "answerIndex": 3,
+    "explanation": "「経験の厚みとされているものは、しばしば、点検されないまま放置された結論の集まりにすぎない」.",
+    "distractorExplanations": [
+      "The writer says the reasons come to be forgotten.",
+      "He says only the手つき remains when conditions change.",
+      "He says experience hardens before it accumulates.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者は、統計を読むとはどういうことだと述べているか。",
+    "context": "統計の数字は、しばしば議論を終わらせるために持ち出される。だが数字が示すのは、測ることを選んだ範囲の姿だけである。何を数え、何を数えなかったか。その選択にこそ、その社会が何を問題と見なしているかが表れる。だから統計を読む作業は、数字の大小を確かめることではなく、その数字が生まれる前に下された選択を読み取ることでなければならない。数字は答えではなく、問いの形をしているのだ。",
+    "options": [
+      "数字の大小を正確に比べること",
+      "数字が生まれる前の選択を読み取ること",
+      "議論を終わらせる根拠を見つけること",
+      "測られなかった項目を新たに数えること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「その数字が生まれる前に下された選択を読み取ることでなければならない」.",
+    "distractorExplanations": [
+      "That is what he says reading statistics is not.",
+      "(correct answer)",
+      "He notes statistics are brought out to end debate, and questions that use.",
+      "He calls for reading the choice, not for new counting."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "short passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者が高校で話す価値があると考えたのはなぜか。",
+    "context": "先日、高校で進路について話す機会をいただいた。準備しながら気づいたのは、私が語れるのは自分が選んだ道のことだけで、選ばなかった道について何も知らないという当たり前の事実だった。助言とは、本来そういう不完全なものである。それでも語る価値があるとすれば、正解を示せるからではなく、選択には必ず見えない部分が伴うと伝えられるからだろう。私はその一点だけを話して降壇した。",
+    "options": [
+      "選択には見えない部分が伴うと伝えられるから",
+      "自分の選んだ道が正解だと示せるから",
+      "選ばなかった道についても説明できるから",
+      "進路の助言は完全なものであるべきだから"
+    ],
+    "answerIndex": 0,
+    "explanation": "「選択には必ず見えない部分が伴うと伝えられるからだろう。私はその一点だけを話して」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "He explicitly says it is not because he can show the right answer.",
+      "He says he knows nothing about the roads he did not take.",
+      "He calls advice inherently incomplete."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "①この形には、実はほとんど選択の余地がなかったとあるが、なぜか。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "患者に説明する時間が短すぎたから",
+      "すでに決まった一案を受け入れるか拒むかしかなかったから",
+      "書類の上で患者の意思が無視されていたから",
+      "代案が最善の案として示されていたから"
+    ],
+    "answerIndex": 1,
+    "explanation": "「示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ」.",
+    "distractorExplanations": [
+      "Time is discussed later, as a cost of the new method.",
+      "(correct answer)",
+      "On paper the patient's will was respected; that is the point of 実は.",
+      "The alternative was presented as 「最善ではない案」."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "新しい方式では、医師の推奨はどのように扱われるか。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "選択肢を見せた後で口頭のみで伝える",
+      "患者から尋ねられた場合にだけ示す",
+      "三つの選択肢には含めない",
+      "明記するが、選択肢の最初には置かない"
+    ],
+    "answerIndex": 3,
+    "explanation": "「医師の推奨も明記するが、最初には置かない」.",
+    "distractorExplanations": [
+      "It is written down, not merely spoken.",
+      "It is stated regardless of whether the patient asks.",
+      "It is part of what is presented.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-6",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "新しい方式によって最も大きく変わったのは何か。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "治療が始まってからの患者の態度",
+      "患者が選ぶ治療方針の内容",
+      "副作用が出る割合",
+      "医師が推奨を決める基準"
+    ],
+    "answerIndex": 0,
+    "explanation": "「変わったのは、治療が始まってからの患者の態度だった」— over 70% still matched the recommendation.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Over seventy percent matched the doctor's recommendation, so choices barely changed.",
+      "The frequency of side effects is not discussed.",
+      "The criteria for the recommendation are not discussed."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-7",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "②この差とは、何の差か。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "医師の推奨と患者の選択の差",
+      "説明にかかる時間の差",
+      "自分で決めた苦痛と、決めさせられた苦痛の耐え方の差",
+      "以前の方式と新しい方式の治療成績の差"
+    ],
+    "answerIndex": 2,
+    "explanation": "「自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う」.",
+    "distractorExplanations": [
+      "That gap is described as small, since 70% coincided.",
+      "Explanation time is discussed separately as a cost.",
+      "(correct answer)",
+      "The text says the results did not change much."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-8",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者は、医療の現場で提供しているものは何だと考えているか。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "最も効果の高い治療方針",
+      "患者と家族が納得するための書類",
+      "副作用を避けるための情報",
+      "治療を自分のものとして受け取るための時間"
+    ],
+    "answerIndex": 3,
+    "explanation": "「治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う」.",
+    "distractorExplanations": [
+      "He says it is not only the treatment.",
+      "The documents existed under the old method too.",
+      "Information on burdens is part of the means, not his conclusion.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-9",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "medium passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最後の段落で筆者が言いたいことは何か。",
+    "context": "私の勤める病院では、三年前から入院患者への説明の仕方を変えた。以前は、医師が治療方針を決め、患者と家族に説明し、同意を得るという流れだった。書類の上では、患者の意思は尊重されていた。だが①この形には、実はほとんど選択の余地がなかった。\n\n説明の場で示されるのは、すでに選ばれた一案である。患者にできるのは、受け入れるか拒むかだけだ。拒めば代案が出るが、それは「最善ではない案」として提示される。こうして、同意という言葉が、了解の別名になっていく。\n\n新しい方式では、方針を決める前に、選択肢を三つまで書き出して患者に見せることにした。それぞれの利点と負担、生活への影響を並べる。医師の推奨も明記するが、最初には置かない。\n\n変化は、意外なところに現れた。治療の選択そのものは、七割以上が医師の推奨と一致した。つまり結果は大きく変わらなかったのである。変わったのは、治療が始まってからの患者の態度だった。副作用が出たとき、以前は「こんな話は聞いていない」という言葉が出ることがあった。今はそれがほとんどない。\n\n②この差は小さくない。同じ苦痛でも、自分が引き受けると決めたものと、引き受けさせられたものとでは、耐え方が違う。医療の現場で私たちが提供しているのは、治療だけではなく、その治療を自分のものとして受け取るための時間なのだと思う。\n\n手間は確かに増えた。一人あたりの説明時間は倍近くになった。それでも私はこの方式を続けたい。急いで得た同意は、後で必ず時間を取り返しに来るからである。",
+    "options": [
+      "説明時間を短くする工夫が今後の課題である",
+      "急いで得た同意は、後で必ず負担として返ってくる",
+      "手間が増えたため、方式の見直しが必要である",
+      "同意を得る手続きは書類で簡略化できる"
+    ],
+    "answerIndex": 1,
+    "explanation": "「急いで得た同意は、後で必ず時間を取り返しに来るからである」.",
+    "distractorExplanations": [
+      "He does not propose shortening the explanation.",
+      "(correct answer)",
+      "He says he wants to continue the method despite the extra work.",
+      "Simplification is the opposite of his argument."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-10",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "long passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "①それでも私は、書き終えた後に強い不足を感じたとあるが、なぜか。",
+    "context": "二十年ほど、ある地方の新聞社で記者をしている。入社したころ、先輩から「記事は事実だけを書け」と繰り返し言われた。意見は社説の仕事であり、記者は事実を運ぶ者だという教えである。私は長くそれを守ってきた。\n\nだが十年ほど前、ある取材で行き詰まった。過疎の集落で、診療所の廃止が決まった件である。私は決定の経緯、住民の人数、最も近い病院までの距離を調べ、正確に書いた。記事は掲載され、誰からも間違いを指摘されなかった。①それでも私は、書き終えた後に強い不足を感じた。\n\n不足の正体は、しばらく分からなかった。今は言葉にできる。私が書いたのは、事実のうち数えられるものだけだったのだ。集落に残るのは何人か、距離は何キロか。数えられないもの——たとえば、月に一度その診療所で顔を合わせることが、住民の関係をどう支えていたか——は、事実でないから書かなかったのではなく、書き方を知らなかったから書けなかった。\n\n「事実だけを書け」という教えは、間違っていない。問題は、事実という言葉が、いつのまにか数えられる事実に縮んでいたことである。数えられるものは検証しやすく、書き手を守ってくれる。②その安全さが、記者の目を狭めていた。\n\n以後、私は取材の最後に一つ質問を加えるようにした。「この件で、数字にならないけれど困ることは何ですか」。答えはたいてい、それまでの話と重ならない。会話の速度が落ち、相手が考え始める。そこから出てくる言葉こそ、記事の中心に置くべきものだった。\n\nもちろん、数えられない事実は扱いが難しい。書き手の解釈が混じりやすく、検証も容易ではない。だから私は、そういう部分は必ず当事者の言葉として引用する形をとる。解釈を語るのは私ではなく、当事者であるべきだからだ。\n\n記者の仕事は事実を運ぶことだ、という先輩の言葉は、今も正しいと思っている。ただ、運ぶべき荷物は、私が長く思っていたよりずっと重く、形の定まらないものだった。",
+    "options": [
+      "記事に事実の誤りが含まれていたから",
+      "住民の人数を調べきれなかったから",
+      "数えられる事実しか書いていなかったから",
+      "決定の経緯を書くことが許されなかったから"
+    ],
+    "answerIndex": 2,
+    "explanation": "「私が書いたのは、事実のうち数えられるものだけだったのだ」.",
+    "distractorExplanations": [
+      "No one pointed out any error.",
+      "He did investigate the numbers accurately.",
+      "(correct answer)",
+      "He wrote the course of the decision."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-11",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "long passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "②その安全さとは、どのようなことか。",
+    "context": "二十年ほど、ある地方の新聞社で記者をしている。入社したころ、先輩から「記事は事実だけを書け」と繰り返し言われた。意見は社説の仕事であり、記者は事実を運ぶ者だという教えである。私は長くそれを守ってきた。\n\nだが十年ほど前、ある取材で行き詰まった。過疎の集落で、診療所の廃止が決まった件である。私は決定の経緯、住民の人数、最も近い病院までの距離を調べ、正確に書いた。記事は掲載され、誰からも間違いを指摘されなかった。①それでも私は、書き終えた後に強い不足を感じた。\n\n不足の正体は、しばらく分からなかった。今は言葉にできる。私が書いたのは、事実のうち数えられるものだけだったのだ。集落に残るのは何人か、距離は何キロか。数えられないもの——たとえば、月に一度その診療所で顔を合わせることが、住民の関係をどう支えていたか——は、事実でないから書かなかったのではなく、書き方を知らなかったから書けなかった。\n\n「事実だけを書け」という教えは、間違っていない。問題は、事実という言葉が、いつのまにか数えられる事実に縮んでいたことである。数えられるものは検証しやすく、書き手を守ってくれる。②その安全さが、記者の目を狭めていた。\n\n以後、私は取材の最後に一つ質問を加えるようにした。「この件で、数字にならないけれど困ることは何ですか」。答えはたいてい、それまでの話と重ならない。会話の速度が落ち、相手が考え始める。そこから出てくる言葉こそ、記事の中心に置くべきものだった。\n\nもちろん、数えられない事実は扱いが難しい。書き手の解釈が混じりやすく、検証も容易ではない。だから私は、そういう部分は必ず当事者の言葉として引用する形をとる。解釈を語るのは私ではなく、当事者であるべきだからだ。\n\n記者の仕事は事実を運ぶことだ、という先輩の言葉は、今も正しいと思っている。ただ、運ぶべき荷物は、私が長く思っていたよりずっと重く、形の定まらないものだった。",
+    "options": [
+      "数えられる事実は検証しやすく、書き手を守るということ",
+      "事実だけを書けば読者から反発されないということ",
+      "当事者の言葉を引用すれば責任を負わずに済むということ",
+      "取材の質問を増やせば誤りが減るということ"
+    ],
+    "answerIndex": 0,
+    "explanation": "「数えられるものは検証しやすく、書き手を守ってくれる。②その安全さが…」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The reaction of readers is not the point; verification is.",
+      "Quoting is his later method, not the safety he criticises.",
+      "Adding questions is the remedy, not the safety."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-12",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "long passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者が取材の最後に加えた質問には、どのような効果があったか。",
+    "context": "二十年ほど、ある地方の新聞社で記者をしている。入社したころ、先輩から「記事は事実だけを書け」と繰り返し言われた。意見は社説の仕事であり、記者は事実を運ぶ者だという教えである。私は長くそれを守ってきた。\n\nだが十年ほど前、ある取材で行き詰まった。過疎の集落で、診療所の廃止が決まった件である。私は決定の経緯、住民の人数、最も近い病院までの距離を調べ、正確に書いた。記事は掲載され、誰からも間違いを指摘されなかった。①それでも私は、書き終えた後に強い不足を感じた。\n\n不足の正体は、しばらく分からなかった。今は言葉にできる。私が書いたのは、事実のうち数えられるものだけだったのだ。集落に残るのは何人か、距離は何キロか。数えられないもの——たとえば、月に一度その診療所で顔を合わせることが、住民の関係をどう支えていたか——は、事実でないから書かなかったのではなく、書き方を知らなかったから書けなかった。\n\n「事実だけを書け」という教えは、間違っていない。問題は、事実という言葉が、いつのまにか数えられる事実に縮んでいたことである。数えられるものは検証しやすく、書き手を守ってくれる。②その安全さが、記者の目を狭めていた。\n\n以後、私は取材の最後に一つ質問を加えるようにした。「この件で、数字にならないけれど困ることは何ですか」。答えはたいてい、それまでの話と重ならない。会話の速度が落ち、相手が考え始める。そこから出てくる言葉こそ、記事の中心に置くべきものだった。\n\nもちろん、数えられない事実は扱いが難しい。書き手の解釈が混じりやすく、検証も容易ではない。だから私は、そういう部分は必ず当事者の言葉として引用する形をとる。解釈を語るのは私ではなく、当事者であるべきだからだ。\n\n記者の仕事は事実を運ぶことだ、という先輩の言葉は、今も正しいと思っている。ただ、運ぶべき荷物は、私が長く思っていたよりずっと重く、形の定まらないものだった。",
+    "options": [
+      "取材の時間を短縮することができた",
+      "相手が数字を正確に答えるようになった",
+      "相手が考え始め、それまでと重ならない言葉が出てきた",
+      "記事の検証が容易になった"
+    ],
+    "answerIndex": 2,
+    "explanation": "「答えはたいてい、それまでの話と重ならない。会話の速度が落ち、相手が考え始める」.",
+    "distractorExplanations": [
+      "The conversation slowed down.",
+      "The question asks precisely about what does not become a number.",
+      "(correct answer)",
+      "He says such facts are hard to verify."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-13",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "long passage",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "先輩の教えについて、筆者は現在どう考えているか。",
+    "context": "二十年ほど、ある地方の新聞社で記者をしている。入社したころ、先輩から「記事は事実だけを書け」と繰り返し言われた。意見は社説の仕事であり、記者は事実を運ぶ者だという教えである。私は長くそれを守ってきた。\n\nだが十年ほど前、ある取材で行き詰まった。過疎の集落で、診療所の廃止が決まった件である。私は決定の経緯、住民の人数、最も近い病院までの距離を調べ、正確に書いた。記事は掲載され、誰からも間違いを指摘されなかった。①それでも私は、書き終えた後に強い不足を感じた。\n\n不足の正体は、しばらく分からなかった。今は言葉にできる。私が書いたのは、事実のうち数えられるものだけだったのだ。集落に残るのは何人か、距離は何キロか。数えられないもの——たとえば、月に一度その診療所で顔を合わせることが、住民の関係をどう支えていたか——は、事実でないから書かなかったのではなく、書き方を知らなかったから書けなかった。\n\n「事実だけを書け」という教えは、間違っていない。問題は、事実という言葉が、いつのまにか数えられる事実に縮んでいたことである。数えられるものは検証しやすく、書き手を守ってくれる。②その安全さが、記者の目を狭めていた。\n\n以後、私は取材の最後に一つ質問を加えるようにした。「この件で、数字にならないけれど困ることは何ですか」。答えはたいてい、それまでの話と重ならない。会話の速度が落ち、相手が考え始める。そこから出てくる言葉こそ、記事の中心に置くべきものだった。\n\nもちろん、数えられない事実は扱いが難しい。書き手の解釈が混じりやすく、検証も容易ではない。だから私は、そういう部分は必ず当事者の言葉として引用する形をとる。解釈を語るのは私ではなく、当事者であるべきだからだ。\n\n記者の仕事は事実を運ぶことだ、という先輩の言葉は、今も正しいと思っている。ただ、運ぶべき荷物は、私が長く思っていたよりずっと重く、形の定まらないものだった。",
+    "options": [
+      "誤っていたので、意見も記事に書くべきである",
+      "正しいので、数えられる事実だけを書くべきである",
+      "記者ではなく社説の書き手に向けられた教えである",
+      "正しいが、運ぶべき事実の範囲は自分が思っていたより広い"
+    ],
+    "answerIndex": 3,
+    "explanation": "「今も正しいと思っている。ただ、運ぶべき荷物は、私が長く思っていたよりずっと重く、形の定まらないものだった」.",
+    "distractorExplanations": [
+      "He never calls for writing his own opinions; he quotes the people involved.",
+      "That narrowing is exactly what he criticises.",
+      "The teaching was given to him as a reporter.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-14",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "授業の録画公開について、AとBの主張はどう異なるか。",
+    "context": "A\n大学の授業を録画して公開する取り組みは、さらに広げるべきだ。教室に来られない学生、働きながら学ぶ社会人、遠方に住む受験生にとって、録画は学ぶ機会そのものである。対面の価値が失われるという懸念はあるが、実際には逆で、内容を事前に見ておける学生は、教室での議論により深く加わることができる。教員の側にも利点がある。自分の説明を見返せば、曖昧な箇所は容赦なく目に入る。公開は、教育の質を外から点検させる仕組みとして働くのだ。\n\nB\n授業の録画公開に伴う負担は、もっと正面から語られるべきである。撮影と編集、公開後の問い合わせ対応は、どれも誰かの時間を確実に奪う。にもかかわらず、その時間は通常、担当教員の裁量に押し込められている。加えて、記録が残ることを意識した教員は、言い切れる内容だけを話すようになりやすい。確かめきれていない仮説を教室で口にする自由は、教育の核心に近いところにある。公開を進めるなら、記録しない時間を制度として確保することが同時に必要だ。",
+    "options": [
+      "Aは公開に賛成し、Bは公開そのものに反対している",
+      "Aは対面の議論も深まると述べ、Bは記録を意識して話す内容が狭まると述べている",
+      "AもBも、教員の負担が最大の問題だと述べている",
+      "Aは教育の質が下がると述べ、Bは上がると述べている"
+    ],
+    "answerIndex": 1,
+    "explanation": "A: 「内容を事前に見ておける学生は、教室での議論により深く加わることができる」; B: 「言い切れる内容だけを話すようになりやすい」.",
+    "distractorExplanations": [
+      "B does not oppose publication; it asks for protected unrecorded time.",
+      "(correct answer)",
+      "A treats publication as a quality check, not a burden.",
+      "The positions are reversed."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-15",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "Bが制度として必要だと述べているのは何か。",
+    "context": "A\n大学の授業を録画して公開する取り組みは、さらに広げるべきだ。教室に来られない学生、働きながら学ぶ社会人、遠方に住む受験生にとって、録画は学ぶ機会そのものである。対面の価値が失われるという懸念はあるが、実際には逆で、内容を事前に見ておける学生は、教室での議論により深く加わることができる。教員の側にも利点がある。自分の説明を見返せば、曖昧な箇所は容赦なく目に入る。公開は、教育の質を外から点検させる仕組みとして働くのだ。\n\nB\n授業の録画公開に伴う負担は、もっと正面から語られるべきである。撮影と編集、公開後の問い合わせ対応は、どれも誰かの時間を確実に奪う。にもかかわらず、その時間は通常、担当教員の裁量に押し込められている。加えて、記録が残ることを意識した教員は、言い切れる内容だけを話すようになりやすい。確かめきれていない仮説を教室で口にする自由は、教育の核心に近いところにある。公開を進めるなら、記録しない時間を制度として確保することが同時に必要だ。",
+    "options": [
+      "記録しない時間を確保すること",
+      "編集作業を教員の裁量に委ねること",
+      "録画の公開範囲を学内に限ること",
+      "問い合わせ対応を学生に任せること"
+    ],
+    "answerIndex": 0,
+    "explanation": "「公開を進めるなら、記録しない時間を制度として確保することが同時に必要だ」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "B criticises leaving that time to individual discretion.",
+      "Restricting the audience is not proposed.",
+      "Handing enquiries to students is not proposed."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-16",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "thesis comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "筆者は「対話が足りない」という診断についてどう考えているか。",
+    "context": "「対話が足りない」という診断は、対立が長引くとほとんど自動的に下される。話し合えば分かり合えるはずだ、というのが前提である。私はこの前提を疑っている。対話は、対立を解消するための道具としては、期待されているほど強くない。\n\n対話が効くのは、当事者が同じ問いを共有しているときだけである。何を決めるべきかについて合意があり、答えだけが分かれている。この条件が満たされていれば、話し合いは有効に働く。逆に、①そもそも問いが違う場合、対話は時間とともに硬直を深める。互いに自分の問いの枠内で相手の発言を解釈し、そのつど相手の不誠実さを確認していくからだ。\n\nでは、問いが違うときはどうすればよいのか。私の考えでは、まず必要なのは合意ではなく、相手の問いを言い換えられるようになることである。賛同する必要はない。相手が何を守ろうとしているのかを、相手が「それで合っている」と認める言葉で述べられるかどうか。これができた段階で、対立の多くは、解けないままでも扱えるものに変わる。\n\n②この作業を、私は和解の前段階と呼ばない。むしろ、これ自体が到達点でありうると考えている。すべての対立が解消されるべきだという想定は、共存の条件を不必要に高く設定してしまう。解けない対立を抱えたまま、同じ制度の中で暮らす技術こそ、社会が持つべきものだろう。\n\n対話を否定しているのではない。対話の役割を、合意の生産から、問いの翻訳へと移すべきだと言いたいのである。翻訳は合意より地味で、達成感も乏しい。しかし、合意に届かない場面でこそ機能するという点で、はるかに実用的である。",
+    "options": [
+      "対立が長引く原因を正しく捉えていると考えている",
+      "話し合えば分かり合えるという前提を疑っている",
+      "対話そのものを否定すべきだと考えている",
+      "当事者の誠実さが足りないことを示していると考えている"
+    ],
+    "answerIndex": 1,
+    "explanation": "「私はこの前提を疑っている。対話は…期待されているほど強くない」.",
+    "distractorExplanations": [
+      "He questions the diagnosis rather than endorsing it.",
+      "(correct answer)",
+      "「対話を否定しているのではない」.",
+      "He says each side merely confirms the other's insincerity, which he treats as a symptom."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-17",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "thesis comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "①そもそも問いが違う場合、対話はどうなると述べているか。",
+    "context": "「対話が足りない」という診断は、対立が長引くとほとんど自動的に下される。話し合えば分かり合えるはずだ、というのが前提である。私はこの前提を疑っている。対話は、対立を解消するための道具としては、期待されているほど強くない。\n\n対話が効くのは、当事者が同じ問いを共有しているときだけである。何を決めるべきかについて合意があり、答えだけが分かれている。この条件が満たされていれば、話し合いは有効に働く。逆に、①そもそも問いが違う場合、対話は時間とともに硬直を深める。互いに自分の問いの枠内で相手の発言を解釈し、そのつど相手の不誠実さを確認していくからだ。\n\nでは、問いが違うときはどうすればよいのか。私の考えでは、まず必要なのは合意ではなく、相手の問いを言い換えられるようになることである。賛同する必要はない。相手が何を守ろうとしているのかを、相手が「それで合っている」と認める言葉で述べられるかどうか。これができた段階で、対立の多くは、解けないままでも扱えるものに変わる。\n\n②この作業を、私は和解の前段階と呼ばない。むしろ、これ自体が到達点でありうると考えている。すべての対立が解消されるべきだという想定は、共存の条件を不必要に高く設定してしまう。解けない対立を抱えたまま、同じ制度の中で暮らす技術こそ、社会が持つべきものだろう。\n\n対話を否定しているのではない。対話の役割を、合意の生産から、問いの翻訳へと移すべきだと言いたいのである。翻訳は合意より地味で、達成感も乏しい。しかし、合意に届かない場面でこそ機能するという点で、はるかに実用的である。",
+    "options": [
+      "時間はかかるが、やがて合意に達する",
+      "問いが一致するまで発言が減っていく",
+      "第三者が加わることで自然に解消される",
+      "互いに相手の不誠実さを確認し、硬直が深まる"
+    ],
+    "answerIndex": 3,
+    "explanation": "「互いに自分の問いの枠内で相手の発言を解釈し、そのつど相手の不誠実さを確認していく」.",
+    "distractorExplanations": [
+      "He says the rigidity deepens instead.",
+      "The volume of speech is not discussed.",
+      "No third party is mentioned.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-18",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 5,
+    "skill": "reading",
+    "topic": "thesis comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "②この作業について、筆者の考えに最も合うものはどれか。",
+    "context": "「対話が足りない」という診断は、対立が長引くとほとんど自動的に下される。話し合えば分かり合えるはずだ、というのが前提である。私はこの前提を疑っている。対話は、対立を解消するための道具としては、期待されているほど強くない。\n\n対話が効くのは、当事者が同じ問いを共有しているときだけである。何を決めるべきかについて合意があり、答えだけが分かれている。この条件が満たされていれば、話し合いは有効に働く。逆に、①そもそも問いが違う場合、対話は時間とともに硬直を深める。互いに自分の問いの枠内で相手の発言を解釈し、そのつど相手の不誠実さを確認していくからだ。\n\nでは、問いが違うときはどうすればよいのか。私の考えでは、まず必要なのは合意ではなく、相手の問いを言い換えられるようになることである。賛同する必要はない。相手が何を守ろうとしているのかを、相手が「それで合っている」と認める言葉で述べられるかどうか。これができた段階で、対立の多くは、解けないままでも扱えるものに変わる。\n\n②この作業を、私は和解の前段階と呼ばない。むしろ、これ自体が到達点でありうると考えている。すべての対立が解消されるべきだという想定は、共存の条件を不必要に高く設定してしまう。解けない対立を抱えたまま、同じ制度の中で暮らす技術こそ、社会が持つべきものだろう。\n\n対話を否定しているのではない。対話の役割を、合意の生産から、問いの翻訳へと移すべきだと言いたいのである。翻訳は合意より地味で、達成感も乏しい。しかし、合意に届かない場面でこそ機能するという点で、はるかに実用的である。",
+    "options": [
+      "相手の問いを言い換えられること自体が到達点でありうる",
+      "和解に至るための準備として位置づけられる",
+      "相手の主張に賛同することが前提になる",
+      "すべての対立を解消するために不可欠である"
+    ],
+    "answerIndex": 0,
+    "explanation": "「これ自体が到達点でありうると考えている」and 「賛同する必要はない」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "He explicitly refuses to call it a preliminary stage to reconciliation.",
+      "He says agreement is not required.",
+      "He questions the assumption that all conflicts should be resolved."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-19",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "information retrieval",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "区内に活動拠点のある登録団体が、練習室Aを午後の区分で1回借り、ピアノも使う。支払う金額はいくらか。",
+    "context": "区民ホール 練習室・多目的室 利用案内\n\n利用時間\n・午前区分 9:00〜12:00 / 午後区分 13:00〜17:00 / 夜間区分 18:00〜21:30\n\n利用料金（1区分あたり）\n・練習室A（30名まで）：午前 3,000円 / 午後 4,000円 / 夜間 5,000円\n・練習室B（12名まで）：午前 1,500円 / 午後 2,000円 / 夜間 2,500円\n・多目的室（60名まで）：午前 6,000円 / 午後 8,000円 / 夜間 10,000円\n・区内に活動拠点のある登録団体は、上記の3割引き\n・営利目的の利用は、上記の2倍\n\n予約\n・利用日の3か月前の1日から、窓口および電話で受け付けます。\n・登録団体は、3か月前の1日より1週間早く申し込めます。\n・同一団体が同一月に予約できるのは、合わせて6区分までです。\n\n付帯設備（1区分あたり）\n・ピアノ（練習室Aのみ）：1,000円\n・音響設備（多目的室のみ）：2,500円\n・譜面台・椅子の追加は無料です。\n\n支払いと取り消し\n・料金は予約時ではなく、利用日の7日前までに窓口でお支払いください。\n・利用日の8日前までの取り消しは全額返金、7日前から前日までは半額、当日は返金しません。\n・設備の利用料も同じ扱いです。",
+    "options": [
+      "3,500円",
+      "3,800円",
+      "4,500円",
+      "5,000円"
+    ],
+    "answerIndex": 1,
+    "explanation": "The 30% discount applies to both the room and the equipment: (4,000 + 1,000) x 0.7 = 3,500 yen.",
+    "distractorExplanations": [
+      "3,800 would discount only the room (2,800) and add the full piano fee.",
+      "(correct answer)",
+      "4,500 discounts nothing but omits part of the fee.",
+      "5,000 is the undiscounted total."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-dokkai-20",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "reading",
+    "topic": "information retrieval",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "営利目的で多目的室を夜間に借りたい団体について、この案内の内容と合うものはどれか。",
+    "context": "区民ホール 練習室・多目的室 利用案内\n\n利用時間\n・午前区分 9:00〜12:00 / 午後区分 13:00〜17:00 / 夜間区分 18:00〜21:30\n\n利用料金（1区分あたり）\n・練習室A（30名まで）：午前 3,000円 / 午後 4,000円 / 夜間 5,000円\n・練習室B（12名まで）：午前 1,500円 / 午後 2,000円 / 夜間 2,500円\n・多目的室（60名まで）：午前 6,000円 / 午後 8,000円 / 夜間 10,000円\n・区内に活動拠点のある登録団体は、上記の3割引き\n・営利目的の利用は、上記の2倍\n\n予約\n・利用日の3か月前の1日から、窓口および電話で受け付けます。\n・登録団体は、3か月前の1日より1週間早く申し込めます。\n・同一団体が同一月に予約できるのは、合わせて6区分までです。\n\n付帯設備（1区分あたり）\n・ピアノ（練習室Aのみ）：1,000円\n・音響設備（多目的室のみ）：2,500円\n・譜面台・椅子の追加は無料です。\n\n支払いと取り消し\n・料金は予約時ではなく、利用日の7日前までに窓口でお支払いください。\n・利用日の8日前までの取り消しは全額返金、7日前から前日までは半額、当日は返金しません。\n・設備の利用料も同じ扱いです。",
+    "options": [
+      "予約は利用日の3か月前の1日より1週間早く申し込める",
+      "料金は予約の際に窓口で支払う必要がある",
+      "利用日の前日に取り消せば全額が返金される",
+      "音響設備を使う場合、料金は設備分も含めて2倍になる"
+    ],
+    "answerIndex": 3,
+    "explanation": "営利目的は2倍で、「設備の利用料も同じ扱い」なので音響設備の2,500円も2倍になる。",
+    "distractorExplanations": [
+      "The one-week head start applies only to registered local groups.",
+      "Payment is due by seven days before use, not at booking.",
+      "A cancellation from seven days before up to the day before is refunded at half.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-1",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人はこのあとまず何をしますか。",
+    "context": "会社で、女の人と男の人が取引先への訪問について話しています。男の人はこのあとまず何をしますか。\n\n女：明日の先方への訪問、資料はそろっていますか。\n男：はい、見積書と仕様書は用意しました。あとは契約書の案文ですが、法務部の確認が終わっていません。\n女：法務は今日の夕方までに戻すと言っていましたよ。\n男：では、それを待ってから印刷します。ところで、先方の担当者が課長に代わったと伺いましたが。\n女：ええ、先週から。ご挨拶の順番が変わるので、当日の進め方を先に決めておいたほうがいいですね。\n男：そうですね。では、訪問の流れを一枚にまとめて、部長に見ていただきます。印刷はそのあとで。\n女：お願いします。手土産はこちらで用意しておきます。",
+    "options": [
+      "契約書の案文を印刷する",
+      "訪問の流れをまとめて部長に見せる",
+      "法務部に確認を依頼する",
+      "手土産を買いに行く"
+    ],
+    "answerIndex": 1,
+    "explanation": "「訪問の流れを一枚にまとめて、部長に見ていただきます。印刷はそのあとで」.",
+    "distractorExplanations": [
+      "He waits for the legal review before printing.",
+      "(correct answer)",
+      "Legal has already said it will return the text by evening.",
+      "The woman says she will prepare the gift."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-2",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人はこのあとまず何をしなければなりませんか。",
+    "context": "市役所で、男の人が職員に補助金の申請について相談しています。男の人はこのあとまず何をしなければなりませんか。\n\n男：店舗の改装に使える補助金があると聞いたのですが。\n職員：はい、商店街活性化の補助金でございます。申請には事業計画書と、改装の見積書が二社分必要です。\n男：見積もりは一社からもらっているところです。\n職員：もう一社お取りください。ただ、その前に事前相談の手続きがございまして、対象になる工事かどうかを確認いたします。これを済ませていないと、申請自体をお受けできません。\n男：それはどこで受けられますか。\n職員：こちらの窓口で承ります。工事の内容が分かる図面をお持ちいただければ、その場で判定できます。\n男：分かりました。図面は店にありますので、取ってまいります。",
+    "options": [
+      "二社目の見積書をもらう",
+      "事業計画書を作成する",
+      "図面を取ってきて事前相談を受ける",
+      "補助金の申請書を提出する"
+    ],
+    "answerIndex": 2,
+    "explanation": "The pre-consultation must come first and needs the drawings: 「図面は店にありますので、取ってまいります」.",
+    "distractorExplanations": [
+      "The second estimate is needed, but the pre-consultation comes first.",
+      "The plan is required for the application, which cannot be accepted yet.",
+      "(correct answer)",
+      "The application cannot be accepted before the pre-consultation."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-3",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "学生はこのあとまず何をしますか。",
+    "context": "大学の研究室で、学生が教授と学会発表について話しています。学生はこのあとまず何をしますか。\n\n学生：来月の学会発表について、ご相談させてください。\n教授：ああ、要旨はもう出したんだったね。\n学生：はい、提出済みです。それで、発表時間が十五分から十分に短縮されたと連絡がありまして。\n教授：それなら、内容を削らないといけないね。どこを残すかは決まっているの。\n学生：実験の手順を詳しく話す予定でしたが、結果の解釈を中心にしようかと考えています。\n教授：いいと思うよ。ただ、その方針で通るかは、共同研究者の先生にも一言確認しておいたほうがいい。データを提供してもらっているからね。\n学生：そうですね。では、先にメールを差し上げます。スライドの作り直しはそのあとにします。",
+    "options": [
+      "共同研究者にメールで確認する",
+      "スライドを作り直す",
+      "発表の要旨を提出する",
+      "教授に発表原稿を見せる"
+    ],
+    "answerIndex": 0,
+    "explanation": "「では、先にメールを差し上げます。スライドの作り直しはそのあとにします」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "That comes after the confirmation.",
+      "The abstract has already been submitted.",
+      "The professor has already approved the direction."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-4",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "task comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人はどの宿を選びますか。",
+    "context": "旅行の相談で、女の人が係員に説明を受けています。女の人はどの宿を選びますか。\n\n係員：ご希望の日程でご案内できるのは三軒でございます。一軒目は駅から徒歩五分で、お食事は付きませんが、一泊八千円です。二軒目は駅からバスで二十分、二食付きで一万五千円、温泉がございます。三軒目は駅から徒歩十分、朝食のみ付きで一万二千円で、夜は近くの店をご紹介できます。\n女：着くのが夜の九時過ぎになりそうなんです。バスはその時間、ありますか。\n係員：最終が八時半でございます。\n女：それでは難しいですね。夕食は駅で済ませます。朝は宿で食べられると助かるんですが。\n係員：それでしたら、ご希望に合うものがございますね。",
+    "options": [
+      "一軒目",
+      "二軒目",
+      "三軒目",
+      "一軒目と三軒目で迷っている"
+    ],
+    "answerIndex": 2,
+    "explanation": "She arrives after 9 pm so the bus is out, will eat dinner at the station, and wants breakfast at the inn: the third, with breakfast only.",
+    "distractorExplanations": [
+      "The first has no meals at all, so no breakfast.",
+      "The last bus is at 8:30, before she arrives.",
+      "(correct answer)",
+      "She settles on one, since only the third meets the breakfast condition."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-5",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人は、どうして引っ越しをやめましたか。",
+    "context": "女の人と男の人が話しています。女の人は、どうして引っ越しをやめましたか。\n\n男：家を探してるって言ってたけど、どうなった。\n女：それがね、今の部屋に残ることにしたの。\n男：え、家賃が上がるから出るって言ってたじゃない。\n女：上がるのは変わらないんだけどね。大家さんが、来月から光熱費を共益費に含めてくれるって。それを足して計算したら、今のほうが安かったの。\n男：なるほど、そういうことか。部屋が気に入ってたわけじゃないんだ。\n女：いえ、狭いのは相変わらず不満よ。",
+    "options": [
+      "家賃が上がらないことになったから",
+      "今の部屋の広さに満足しているから",
+      "気に入る部屋が見つからなかったから",
+      "光熱費を含めると今の部屋のほうが安いから"
+    ],
+    "answerIndex": 3,
+    "explanation": "「それを足して計算したら、今のほうが安かったの」.",
+    "distractorExplanations": [
+      "She says the rent increase stands.",
+      "She says she is still dissatisfied with how small it is.",
+      "The reason given is the cost calculation.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-6",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は、組織で最も見落とされやすいのは何だと言っていますか。",
+    "context": "講演で、男の人が話しています。男の人は、組織で最も見落とされやすいのは何だと言っていますか。\n\n男：組織の改善というと、多くの方は手順の見直しを思い浮かべます。もちろん大切です。しかし私が現場で見てきた限り、最も見落とされているのは、うまくいっている部分がなぜうまくいっているのかを、誰も説明できないという事実です。失敗の原因は熱心に分析されます。ところが成功は、たまたまではなく仕組みによって支えられていることが多い。その仕組みが言葉になっていないと、担当者が変わった瞬間に静かに失われます。",
+    "options": [
+      "失敗の原因の分析が足りないこと",
+      "うまくいっている理由が言葉になっていないこと",
+      "手順の見直しが行われないこと",
+      "担当者の交代が多すぎること"
+    ],
+    "answerIndex": 1,
+    "explanation": "「最も見落とされているのは、うまくいっている部分がなぜうまくいっているのかを、誰も説明できないという事実です」.",
+    "distractorExplanations": [
+      "He says failures are analysed eagerly.",
+      "(correct answer)",
+      "He says procedures are the first thing people think of.",
+      "Turnover is when the loss shows, not the oversight itself."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-7",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人は、方針の狙いは何だと言っていますか。",
+    "context": "会社で、女の人が新しい採用の方針について話しています。女の人は、方針の狙いは何だと言っていますか。\n\n女：来年度から、選考の手順を一つ増やします。応募者に、実際の業務に近い課題を一日かけて取り組んでいただきます。目的は、応募者を細かく評価することではありません。むしろ逆で、応募者にこちらの仕事の中身を見ていただくためです。入社後に「思っていた仕事と違う」という理由で辞める方が続いています。選考は、こちらが選ぶ場でもあり、選ばれる場でもある。その前提を手順に組み込みたいのです。",
+    "options": [
+      "応募者に仕事の中身を見てもらうこと",
+      "応募者を細かく評価すること",
+      "選考にかかる期間を短くすること",
+      "応募者の数を増やすこと"
+    ],
+    "answerIndex": 0,
+    "explanation": "「むしろ逆で、応募者にこちらの仕事の中身を見ていただくためです」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "She explicitly denies that this is the purpose.",
+      "The process is lengthened by a day, not shortened.",
+      "The number of applicants is not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-8",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "point comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人は、訓練の何を変えたと言っていますか。",
+    "context": "ラジオで、女の人が地域の防災について話しています。女の人は、訓練の何を変えたと言っていますか。\n\n女：この地区では、長く年に一度の避難訓練を続けてきました。参加者は毎年同じ顔で、人数も減る一方でした。そこで三年前、訓練の中身を変えました。避難経路を歩くのをやめて、代わりに、隣近所で誰がどの時間に家にいるかを地図に書き込む作業にしたんです。災害のときに動けるかどうかは、道を覚えているかより、誰が家にいるかを知っているかで決まる。作業にしたら、若い世帯も来るようになりました。",
+    "options": [
+      "訓練の回数を年に一度から増やした",
+      "避難経路を歩く代わりに在宅状況を地図にする作業にした",
+      "避難経路をより短いものに変更した",
+      "参加を若い世帯だけに限定した"
+    ],
+    "answerIndex": 1,
+    "explanation": "「避難経路を歩くのをやめて、代わりに、隣近所で誰がどの時間に家にいるかを地図に書き込む作業にした」.",
+    "distractorExplanations": [
+      "The frequency is not said to have changed.",
+      "(correct answer)",
+      "Walking the route was dropped altogether.",
+      "Younger households began to come; participation was not restricted."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-9",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "女の人は何について話していますか。",
+    "context": "研修で、女の人が話しています。\n\n女：会議の進め方について一つだけ申し上げます。反対意見を歓迎しましょう、とよく言われます。ですが、歓迎するだけでは出てきません。必要なのは、反対意見を誰かの役割にすることです。この議題では田中さんに反論役をお願いします、と先に決めておく。そうすれば、反対は人格ではなく役割になります。言った人が後で気まずくなることもない。意見が出る組織と出ない組織の差は、勇気の量ではなく、役割の設計にあります。",
+    "options": [
+      "会議の時間を短くする工夫",
+      "反対意見を述べる勇気の必要性",
+      "議題の決め方の重要性",
+      "反対意見を役割として設計することの意味"
+    ],
+    "answerIndex": 3,
+    "explanation": "「意見が出る組織と出ない組織の差は、勇気の量ではなく、役割の設計にあります」.",
+    "distractorExplanations": [
+      "Meeting length is not discussed.",
+      "She explicitly says it is not about the amount of courage.",
+      "Assigning a role, not choosing the agenda, is the topic.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-10",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は何について話していますか。",
+    "context": "テレビで、男の人が話しています。\n\n男：先日、ある食品工場を見学しました。印象に残ったのは、機械の話ではなく、記録の話です。この工場では、異常が起きたときだけでなく、何もなかった日の状態も細かく記録しているそうです。理由を尋ねたら、異常だけを集めても、それが異常だと分かるのは普通の姿を知っているからだ、と。普通を記録するのは退屈な作業です。しかしその退屈な記録が、判断の土台になっている。何も起きない日の価値を、私は考え直しました。",
+    "options": [
+      "普通の状態を記録しておくことの価値",
+      "食品工場の機械の性能",
+      "異常が起きたときの対応の速さ",
+      "記録作業を自動化する必要性"
+    ],
+    "answerIndex": 0,
+    "explanation": "「その退屈な記録が、判断の土台になっている。何も起きない日の価値を、私は考え直しました」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "He says the machines were not what impressed him.",
+      "Response speed is not discussed.",
+      "Automation is not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-11",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "summary comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "男の人は、指標を変える理由は何だと言っていますか。",
+    "context": "会議で、男の人が顧客対応の方針について話しています。\n\n男：問い合わせへの回答時間を短くするという目標を、今期で取り下げます。速さを追った結果、担当者が調べずに答える場面が増え、二度目の問い合わせがかえって増えました。これからは、一度で解決した割合を指標にします。初回の回答は遅くなるかもしれません。それでも全体のやり取りは減るはずです。測る対象を変えると、現場の判断も変わります。何を測るかを決めるのは、実は現場に何を優先させるかを決めることなのです。",
+    "options": [
+      "回答時間の目標を達成できなかったから",
+      "担当者の人数を減らす必要があるから",
+      "速さを追うと調べずに答え、問い合わせが増えたから",
+      "顧客からの苦情が減らないから"
+    ],
+    "answerIndex": 2,
+    "explanation": "「速さを追った結果、担当者が調べずに答える場面が増え、二度目の問い合わせがかえって増えました」.",
+    "distractorExplanations": [
+      "The problem is the side effect of pursuing the target, not failing it.",
+      "Staffing is not mentioned.",
+      "(correct answer)",
+      "Complaints as such are not mentioned."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-12",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：恐れ入りますが、明日までにご返答いただけますでしょうか。",
+    "options": [
+      "承知しました、明日の午前中にお返しします。",
+      "はい、ご返答させていただきました。",
+      "では、明日までにご返答願います。"
+    ],
+    "answerIndex": 0,
+    "explanation": "A polite request for a reply by tomorrow; accept and give a time.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The reply has not been given yet.",
+      "Turns the request back on the speaker."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-13",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：この条件では、先方も首を縦に振らないだろうね。",
+    "options": [
+      "では、了承をいただけたんですね。",
+      "もう少し譲歩案を考えてみます。",
+      "首を振っていたので安心しました。"
+    ],
+    "answerIndex": 1,
+    "explanation": "首を縦に振らない = will not agree; propose concessions.",
+    "distractorExplanations": [
+      "It means they will not agree.",
+      "(correct answer)",
+      "Misreads the idiom as consent."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-14",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：部長は会議中ですので、後ほど改めてお越しいただけますか。",
+    "options": [
+      "はい、お越しになってください。",
+      "では、会議に加わらせていただきます。",
+      "では、一時間ほどしてから伺います。"
+    ],
+    "answerIndex": 2,
+    "explanation": "A request to come again later; agree and name a time.",
+    "distractorExplanations": [
+      "お越しになる is honorific applied to oneself.",
+      "Joining the meeting was not offered.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-15",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：先日の提案、そう簡単に通るとは思っていなかったんだけどね。",
+    "options": [
+      "意外にすんなり決まりましたね。",
+      "やはり見送りになりましたか。",
+      "では、提案は出さないことにします。"
+    ],
+    "answerIndex": 0,
+    "explanation": "〜とは思っていなかった implies it did go through unexpectedly smoothly.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "The remark implies it passed, contrary to expectation.",
+      "The proposal has already been submitted."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-16",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "女：この件、私の一存では決めかねますので。",
+    "options": [
+      "では、お決めいただき助かります。",
+      "はい、一存で決めてくださって結構です。",
+      "では、上の方にお諮りいただけますか。"
+    ],
+    "answerIndex": 2,
+    "explanation": "一存では決めかねる = cannot decide on my own authority; ask her to consult upward.",
+    "distractorExplanations": [
+      "She has just said she cannot decide.",
+      "Contradicts her refusal.",
+      "(correct answer)"
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-17",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 3,
+    "skill": "listening",
+    "topic": "quick response",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "最もよい返事はどれですか。",
+    "context": "男：資料の数字、念のためもう一度当たってみてくれないか。",
+    "options": [
+      "はい、原本と照らし合わせてみます。",
+      "はい、もう一度お当たりください。",
+      "いえ、数字は当たっていました。"
+    ],
+    "answerIndex": 0,
+    "explanation": "当たってみる = check against the source; agree to verify.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Turns the instruction back on the speaker.",
+      "Refuses the requested recheck."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-18",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "二人はどの物件を選びましたか。",
+    "context": "不動産店で、係員が三つの物件について説明しています。\n\n係員：ご条件に合うものは三件ございます。一件目は駅から徒歩三分の一階で、通勤には便利ですが、道路に面しているため騒音が気になるかもしれません。二件目は駅から徒歩十五分の五階で、静かで日当たりも良好ですが、建物にエレベーターがございません。三件目は駅から徒歩八分の三階で、エレベーター付き、家賃はほかの二件より月に一万円ほど高くなります。\n\n夫：僕は静かなのがいいな。夜も仕事をするから。\n妻：でも、五階まで階段はきついわよ。私、来月から荷物の多い仕事に変わるの。\n夫：そうか。じゃあ一階は。駅に近いし、家賃も抑えられる。\n妻：道路の音が気になるって言ってたのは、あなたでしょう。\n夫：確かに、それは我慢できないな。\n妻：家賃が少し上がっても、両方が満たせるほうがいいと思う。",
+    "options": [
+      "一件目",
+      "三件目",
+      "二件目",
+      "一件目と二件目で迷っている"
+    ],
+    "answerIndex": 1,
+    "explanation": "The wife cannot take stairs and the husband cannot tolerate road noise, so they accept the higher rent: 「両方が満たせるほうがいい」.",
+    "distractorExplanations": [
+      "The husband admits he cannot put up with the road noise.",
+      "(correct answer)",
+      "The fifth floor has no lift, which the wife rules out.",
+      "The wife concludes in favour of the third."
+    ]
+  },
+  {
+    "id": "q-exam-n1-mock-c-chokai-19",
+    "type": "mc",
+    "level": "n1",
+    "difficulty": 4,
+    "skill": "listening",
+    "topic": "integrated comprehension",
+    "tags": {
+      "grammarIds": [],
+      "vocabIds": [],
+      "kanjiIds": []
+    },
+    "prompt": "妻が二件目をよくないと考えたのはなぜですか。",
+    "context": "不動産店で、係員が三つの物件について説明しています。\n\n係員：ご条件に合うものは三件ございます。一件目は駅から徒歩三分の一階で、通勤には便利ですが、道路に面しているため騒音が気になるかもしれません。二件目は駅から徒歩十五分の五階で、静かで日当たりも良好ですが、建物にエレベーターがございません。三件目は駅から徒歩八分の三階で、エレベーター付き、家賃はほかの二件より月に一万円ほど高くなります。\n\n夫：僕は静かなのがいいな。夜も仕事をするから。\n妻：でも、五階まで階段はきついわよ。私、来月から荷物の多い仕事に変わるの。\n夫：そうか。じゃあ一階は。駅に近いし、家賃も抑えられる。\n妻：道路の音が気になるって言ってたのは、あなたでしょう。\n夫：確かに、それは我慢できないな。\n妻：家賃が少し上がっても、両方が満たせるほうがいいと思う。",
+    "options": [
+      "エレベーターがなく、荷物の多い仕事に変わるから",
+      "駅から遠くて通勤に時間がかかるから",
+      "日当たりが悪く、部屋が暗いから",
+      "家賃がほかの二件より高いから"
+    ],
+    "answerIndex": 0,
+    "explanation": "「五階まで階段はきついわよ。私、来月から荷物の多い仕事に変わるの」.",
+    "distractorExplanations": [
+      "(correct answer)",
+      "Distance is mentioned, but her stated reason is the stairs and her new job.",
+      "The second property is described as sunny.",
+      "The third one is the more expensive."
+    ]
+  }
+]
