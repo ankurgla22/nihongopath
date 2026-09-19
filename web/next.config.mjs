@@ -29,6 +29,9 @@ function firebaseEnvFromWebappConfig() {
 const derivedEnv = firebaseEnvFromWebappConfig();
 const authDomain = (process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? derivedEnv.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? "").replace(/^"|"$/g, "");
 const isProd = process.env.NODE_ENV === "production";
+// HSTS and upgrade-insecure-requests only make sense when the site is actually served over https.
+// A production build run locally on http://localhost must not send them, or the browser pins https.
+const isHttps = (process.env.NEXT_PUBLIC_SITE_URL ?? "").startsWith("https://");
 
 /**
  * Content Security Policy. Next.js 14 inline scripts (hydration, theme script, JSON-LD) need
@@ -49,7 +52,7 @@ const csp = [
   "base-uri 'self'",
   "form-action 'self'",
   "frame-ancestors 'none'",
-  ...(isProd ? ["upgrade-insecure-requests"] : []),
+  ...(isProd && isHttps ? ["upgrade-insecure-requests"] : []),
 ].join("; ");
 
 const securityHeaders = [
@@ -58,7 +61,7 @@ const securityHeaders = [
   { key: "X-Frame-Options", value: "DENY" },
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
-  ...(isProd ? [{ key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" }] : []),
+  ...(isProd && isHttps ? [{ key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" }] : []),
 ];
 
 const nextConfig = {
@@ -70,7 +73,17 @@ const nextConfig = {
     serverComponentsExternalPackages: ["firebase-admin"],
   },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    // On localhost never send HSTS or upgrade-insecure-requests, whatever NEXT_PUBLIC_SITE_URL says:
+    // a production build run locally would otherwise make the browser pin https://localhost and
+    // fail to load every chunk. Everywhere else the full policy applies.
+    const local = { type: "host", value: "localhost" };
+    const localHeaders = securityHeaders
+      .filter((h) => h.key !== "Strict-Transport-Security")
+      .map((h) => (h.key === "Content-Security-Policy" ? { ...h, value: h.value.replace(/;\s*upgrade-insecure-requests/, "") } : h));
+    return [
+      { source: "/:path*", has: [local], headers: localHeaders },
+      { source: "/:path*", missing: [local], headers: securityHeaders },
+    ];
   },
   async rewrites() {
     // The conventional sitemap URL. Next's generateSitemaps() owns "/sitemap.xml[[...id]]" for the
