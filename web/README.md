@@ -106,6 +106,8 @@ Ports are configured in `firebase.json`. To point the running app at the emulato
 | `npm run test:watch` | Vitest in watch mode. |
 | `npm run test:rules` | Firestore security-rules tests inside `firebase emulators:exec` (needs Firebase CLI + Java). |
 | `npm run test:ssr` | SSR smoke test: starts `next dev` on a free port, fetches public pages with a plain HTTP client (no JavaScript executed) and checks the HTML. |
+| `npm run test:e2e` | Playwright browser walk-through of signup, daily study, drills, review, tests and N1 pages against the running production build (creates and deletes a temporary Firebase user). |
+| `npm run test:seo` | Fetches public pages from the running server and reports title/description/canonical/robots/H1/lang/Open Graph/JSON-LD per page, plus robots.txt, the sitemap index, `/llms.txt` and the 404 status. |
 
 ## Testing
 
@@ -290,6 +292,30 @@ App Hosting runs the Next.js server (SSR + static pages) on Cloud Run. Configura
    ```
 
 The full runbook (backend creation, env, custom domain, rollback) is in [`DEPLOYMENT.md`](./DEPLOYMENT.md).
+
+## SEO and AI crawlers (LLMO)
+
+Everything a crawler needs is in the server-rendered HTML; nothing important is injected by JavaScript.
+
+| Item | Where |
+|---|---|
+| `robots.txt` with explicit Allow rules for Googlebot, Bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot, Claude-Web, anthropic-ai, Applebot, DuckDuckBot, Google-Extended, CCBot; private routes disallowed | `src/app/robots.ts` |
+| Sitemap index at `/sitemap.xml` (rewrite to `/sitemap-index.xml`) over 21 section parts at `/sitemap/<n>.xml`, each with `lastmod` | `src/app/sitemap.ts`, `src/app/sitemap-index.xml/route.ts`, `src/lib/seo/sitemaps.ts` |
+| Unique title, meta description, canonical, explicit `index, follow`, Open Graph (with a default 1200×630 image) and Twitter card on every public page; `noindex` on search results and private pages | `src/lib/seo/metadata.ts`, `src/app/opengraph-image.tsx` |
+| JSON-LD: `Organization` (site-wide), `WebSite` + `SearchAction` (home), `BreadcrumbList` (every content page), `LearningResource` with author, publisher, `dateModified`, `isPartOf` and `about` (JLPT and Japanese-language entities) on lessons | `src/lib/seo/metadata.ts`, `src/components/content/JsonLd.tsx` |
+| `/llms.txt` site overview and URL patterns for AI systems | `public/llms.txt` |
+| One `<h1>` per page, logical H2/H3, `lang="ja"` on Japanese text, `charset`, `viewport`, descriptive romaji slugs | page templates |
+| Security headers, ETag / `Cache-Control` on responses | `next.config.mjs`, Next defaults |
+
+After deploying:
+
+- [ ] Confirm `https://` is enforced and `http://` redirects (App Hosting does this on `*.hosted.app` and custom domains).
+- [ ] Set `NEXT_PUBLIC_SITE_URL` to the final public URL and redeploy, so canonical links, the sitemap and `/llms.txt` point at the right host.
+- [ ] Submit `https://<host>/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
+- [ ] Paste one home, one lesson and one level page into the Rich Results Test / schema.org validator and confirm 0 errors.
+- [ ] Fill `SITE_SAME_AS` in `src/lib/seo/site.ts` with official social or directory profiles (`Organization.sameAs`).
+- [ ] Optional: IndexNow key + ping on content deploys (Bing/Copilot); image sitemap entries if illustrations are added later.
+- [ ] Run `npm run test:seo` against the deployed host (`E2E_BASE_URL` is not used by this script; edit `B` at the top or run it locally) after each release.
 
 ## Security notes
 

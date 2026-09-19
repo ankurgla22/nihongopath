@@ -20,7 +20,8 @@
     "test:watch": "vitest",
     "test:rules": "firebase emulators:exec --only firestore \"vitest run tests/firestore.rules.test.ts\"",
     "test:ssr": "node tests/run-ssr.mjs",
-    "test:e2e": "node tests/e2e-smoke.mjs"
+    "test:e2e": "node tests/e2e-smoke.mjs",
+    "test:seo": "node tests/seo-audit.mjs"
   },
   "dependencies": {
     "firebase": "^12.19.0",
