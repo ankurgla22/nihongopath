@@ -1,4 +1,18 @@
 {
+  "apphosting": {
+    "backendId": "web",
+    "rootDir": "/",
+    "alwaysDeployFromSource": true,
+    "ignore": [
+      "node_modules",
+      ".git",
+      ".next",
+      "tests",
+      "*.log",
+      "firebase-debug.log",
+      "firebase-debug.*.log"
+    ]
+  },
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"

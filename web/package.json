@@ -21,7 +21,8 @@
     "test:rules": "firebase emulators:exec --only firestore \"vitest run tests/firestore.rules.test.ts\"",
     "test:ssr": "node tests/run-ssr.mjs",
     "test:e2e": "node tests/e2e-smoke.mjs",
-    "test:seo": "node tests/seo-audit.mjs"
+    "test:seo": "node tests/seo-audit.mjs",
+    "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy.ps1"
   },
   "dependencies": {
     "firebase": "^12.19.0",
