@@ -3,8 +3,7 @@ import type { Metadata } from "next";
 import { getFoundation, getGrammar, getKanji, getListening, getReading, getStrategy, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type Level } from "@/lib/content/schemas";
 import { pageMetadata } from "@/lib/seo/metadata";
-import { Badge, Button, Container, EmptyState, Kbd, PageTitle, SpeakButton } from "@/components/ui";
-import { JA_RE } from "@/components/study/helpers";
+import { Badge, Button, Container, EmptyState, PageTitle } from "@/components/ui";
 
 export const dynamic = "force-dynamic";
 
@@ -101,7 +100,7 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
 
   return (
     <Container>
-      <PageTitle eyebrow="Search" title="Find anything across N5–N1" description="Grammar, vocabulary, kanji, reading, listening and JLPT strategy. Search in Japanese, romaji or English." />
+      <PageTitle title="Search" />
 
       <form action="/search" method="get" role="search" className="flex flex-col sm:flex-row gap-3">
         <label htmlFor="q" className="sr-only">
@@ -118,13 +117,10 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
             defaultValue={q}
             placeholder="e.g. わけではない, 影響, 経, author's opinion"
             maxLength={80}
-            className="h-14 w-full rounded-2xl border border-line bg-surface pl-12 pr-16 text-base sm:text-lg shadow-sm placeholder:text-muted/70 focus:border-accent focus:shadow-ring transition"
+            className="h-14 w-full rounded-2xl border border-line bg-surface pl-12 pr-4 text-base sm:text-lg shadow-sm placeholder:text-muted/70 focus:border-accent focus:shadow-ring transition"
             autoComplete="off"
             autoFocus={!q}
           />
-          <span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 hidden sm:inline-flex">
-            <Kbd>Enter</Kbd>
-          </span>
         </div>
         <Button type="submit" size="lg" className="sm:h-14 sm:px-7">
           Search
@@ -185,8 +181,8 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
               </h2>
               <ul className="mt-3 surface rounded-2xl divide-y divide-line overflow-hidden">
                 {g.hits.map((h) => (
-                  <li key={h.href} className="relative">
-                    <Link href={h.href} className={`group flex items-center gap-4 px-4 sm:px-5 py-3.5 hover:bg-surface-2 transition ${JA_RE.test(h.title) ? "pr-12 sm:pr-14" : ""}`}>
+                  <li key={h.href}>
+                    <Link href={h.href} className="group flex items-center gap-4 px-4 sm:px-5 py-3.5 hover:bg-surface-2 transition">
                       <span className="min-w-0 flex-1">
                         <span lang="ja" className="ja font-medium text-lg block leading-snug">
                           {h.title}
@@ -198,7 +194,6 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
                         <path d="m9 6 6 6-6 6" />
                       </svg>
                     </Link>
-                    {JA_RE.test(h.title) && <SpeakButton text={h.title} size="xs" className="absolute right-4 sm:right-5 top-1/2 -translate-y-1/2" />}
                   </li>
                 ))}
               </ul>
@@ -221,19 +216,6 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
               </li>
             ))}
           </ul>
-          <div className="mt-8 grid gap-3 sm:grid-cols-3 text-sm">
-            {[
-              { k: "Japanese", ex: "影響, わけではない", note: "Kanji or kana" },
-              { k: "Romaji", ex: "wake dewa nai", note: "For grammar patterns" },
-              { k: "English", ex: "influence, author's opinion", note: "Meanings and topics" },
-            ].map((t) => (
-              <div key={t.k} className="surface rounded-2xl p-4">
-                <p className="font-semibold">{t.k}</p>
-                <p className="mt-1 text-muted">{t.note}</p>
-                <p className="mt-2 text-ink-2">{t.ex}</p>
-              </div>
-            ))}
-          </div>
         </section>
       )}
     </Container>

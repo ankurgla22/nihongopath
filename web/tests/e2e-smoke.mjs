@@ -277,12 +277,13 @@ try {
     await collectCsp(page, "desktop");
   }, page);
 
-  await step("3. Dashboard shows Day 1 and stat row; Continue -> /daily-study", async () => {
+  await step("3. Dashboard shows Day 1, no zero stats; Continue -> /daily-study", async () => {
     // Day counter renders "Day 1 / 180" once loaded
     await page.getByText(/Day\s+1\s*(\/|of)\s*\d+/).first().waitFor({ timeout: 20000 });
-    for (const label of ["Streak", "Study time", "Lessons", "Due reviews"]) {
+    // Stat tiles are hidden while their value is zero (minimal dashboard), so a fresh user must see none.
+    for (const label of ["Streak", "Study time", "Due reviews"]) {
       const n = await page.getByText(label, { exact: true }).count();
-      if (!n) throw new Error(`Stat "${label}" not rendered`);
+      if (n) throw new Error(`Zero-value stat "${label}" should be hidden on a fresh account`);
     }
     await page.getByRole("link", { name: /Start Day 1|Continue Day \d+|Continue today's study|Open today's plan/ }).first().click();
     await page.waitForURL(/\/daily-study/);
@@ -393,14 +394,15 @@ try {
   }, page);
 
   // ---------- new features: day jump + on-demand drills, review queue, /tests drills ----------
-  await step("10a. Daily study: Jump to Day 12, vocabulary task -> Drill these words, answer all, saved", async () => {
-    await page.goto(`${BASE}/daily-study`, { waitUntil: "domcontentloaded" });
-    await page.getByRole("list", { name: "Today's tasks" }).locator("li[id^='task-']").first().waitFor({ timeout: 30000 });
+  await step("10a. Profile: set current day 12; daily study vocabulary task -> Drill these words, answer all, saved", async () => {
+    // The "current day" control lives in Profile settings now.
+    await page.goto(`${BASE}/profile`, { waitUntil: "domcontentloaded" });
     const input = page.locator("#jump-day");
-    await input.waitFor();
+    await input.waitFor({ timeout: 30000 });
     await input.fill("12");
-    await page.getByRole("button", { name: /^Go$/ }).click();
-    await page.waitForURL(/\/daily-study\?day=12/, { timeout: 20000 }).catch(() => {});
+    await page.getByRole("button", { name: /Save changes/ }).click();
+    await page.getByText(/Saved|Settings saved/i).first().waitFor({ timeout: 20000 }).catch(() => {});
+    await page.goto(`${BASE}/daily-study`, { waitUntil: "domcontentloaded" });
     await page.getByText(/^Day\s+12\s*\/\s*\d+/).first().waitFor({ timeout: 30000 }).catch(async () => {
       const notice = await page.locator("main").getByText(/Could not change the day|Saved offline|permission/i).allInnerTexts().catch(() => []);
       throw new Error(`Day 12 heading not shown after "Jump to a day" (at ${page.url()}). Notices: ${JSON.stringify(notice)}`);
@@ -416,7 +418,7 @@ try {
   await step("10b. /review: due items from the drill; Start review session loads questions", async () => {
     await page.goto(`${BASE}/review`, { waitUntil: "domcontentloaded" });
     await page.locator("[aria-busy='true']").first().waitFor({ state: "detached", timeout: 20000 }).catch(() => {});
-    const heading = page.locator("h2").filter({ hasText: /(\d+) items? to review|Nothing due right now|Preparing your session/ }).first();
+    const heading = page.locator("h2").filter({ hasText: /(\d+) items? to review|Nothing due|Preparing your session/ }).first();
     await heading.waitFor({ timeout: 20000 });
     await page.locator("h2").filter({ hasText: /Preparing your session/ }).waitFor({ state: "detached", timeout: 20000 }).catch(() => {});
     const h = await heading.innerText();
@@ -425,9 +427,16 @@ try {
     const expectedWrong = dailyDrill?.wrong ?? 0;
     // Wrong answers are scheduled by the SRS for TOMORROW (interval 1 day), so right after a drill
     // nothing is due today; they must appear as "From mistakes" and in the "N tomorrow" hint instead.
-    const mainText = (await page.locator("main").innerText()).replace(/\s+/g, " ");
-    const missed = Number((mainText.match(/From mistakes\s*(\d+)/) ?? [])[1] ?? 0);
-    const tomorrow = Number((mainText.match(/(\d+) tomorrow/) ?? [])[1] ?? 0);
+    // The count line renders a beat after the heading; poll briefly (and reload once) before judging.
+    let mainText = "", missed = 0, tomorrow = 0;
+    for (let i = 0; i < 10; i++) {
+      mainText = (await page.locator("main").innerText()).replace(/\s+/g, " ");
+      missed = Number((mainText.match(/From mistakes\s*(\d+)/) ?? [])[1] ?? 0);
+      tomorrow = Number((mainText.match(/(\d+) items? tomorrow/) ?? [])[1] ?? 0);
+      if (due > 0 || missed > 0 || tomorrow > 0 || expectedWrong === 0) break;
+      if (i === 5) await page.reload({ waitUntil: "domcontentloaded" });
+      await page.waitForTimeout(1000);
+    }
     if (expectedWrong > 0 && due === 0 && missed === 0 && tomorrow === 0) {
       throw new Error(`Drill had ${expectedWrong} wrong answers but /review shows neither due items, "From mistakes", nor a "tomorrow" count ("${h}")`);
     }
@@ -545,7 +554,7 @@ try {
   await step("7. /japanese/foundation/hiragana-basic: click a kana tile", async () => {
     const resp = await page.goto(`${BASE}/japanese/foundation/hiragana-basic`, { waitUntil: "domcontentloaded" });
     if (!resp || resp.status() >= 400) throw new Error(`HTTP ${resp?.status()}`);
-    const tile = page.getByRole("button", { name: "Play sound" }).first();
+    const tile = page.getByRole("button", { name: /^Play / }).first();
     await tile.waitFor();
     const before = pageErrors.length;
     await tile.click();

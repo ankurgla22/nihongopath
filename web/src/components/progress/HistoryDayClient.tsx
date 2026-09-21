@@ -104,35 +104,36 @@ export function HistoryDayClient({ date }: { date: string }) {
           </Button>
         }
       >
-        No sessions, tasks or quizzes were saved for this date.
+        Nothing was saved for this date.
       </EmptyState>
     );
 
   return (
     <div className="pb-12">
-      <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise">
-        <Stat label="Study time" value={formatMinutes(summary.minutes)} />
-        <Stat label="Quiz score" value={summary.total > 0 ? pct(summary.correct / summary.total) : "—"} hint={summary.total > 0 ? `${summary.correct} of ${summary.total} correct` : "no quizzes"} tone={summary.total > 0 && summary.correct / summary.total >= 0.8 ? "ok" : "neutral"} />
-        <Stat label="Plan" value={summary.planned ? `${summary.plannedDone}/${summary.planned}` : "—"} hint={data.daily ? `Day ${data.daily.curriculumDay}${data.daily.completed ? " · complete" : ""}` : undefined} tone={data.daily?.completed ? "ok" : "neutral"} />
-        <div className="surface rounded-2xl p-4 sm:p-5">
-          <p className="text-xs uppercase tracking-wider text-muted">Topics</p>
-          <div className="mt-2 flex flex-wrap gap-1.5">
-            {summary.topics.length ? (
-              summary.topics.map((t) => (
-                <span key={t} className="inline-flex items-center gap-1.5 text-sm">
-                  <SkillGlyph type={t} size="sm" />
-                  <span className="sr-only">{skillLabel(t)}</span>
-                </span>
-              ))
-            ) : (
-              <span className="text-2xl font-semibold text-muted">—</span>
-            )}
-          </div>
+      {/* Stat tiles render only with a value. */}
+      {(summary.minutes > 0 || summary.total > 0 || summary.planned > 0 || summary.topics.length > 0) && (
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise">
+          {summary.minutes > 0 && <Stat label="Study time" value={formatMinutes(summary.minutes)} />}
+          {summary.total > 0 && <Stat label="Quiz score" value={pct(summary.correct / summary.total)} hint={`${summary.correct} of ${summary.total} correct`} tone={summary.correct / summary.total >= 0.8 ? "ok" : "neutral"} />}
+          {summary.planned > 0 && <Stat label="Plan" value={`${summary.plannedDone}/${summary.planned}`} hint={data.daily ? `Day ${data.daily.curriculumDay}${data.daily.completed ? " · complete" : ""}` : undefined} tone={data.daily?.completed ? "ok" : "neutral"} />}
+          {summary.topics.length > 0 && (
+            <div className="surface rounded-2xl p-4 sm:p-5">
+              <p className="text-xs uppercase tracking-wider text-muted">Topics</p>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {summary.topics.map((t) => (
+                  <span key={t} className="inline-flex items-center gap-1.5 text-sm">
+                    <SkillGlyph type={t} size="sm" />
+                    <span className="sr-only">{skillLabel(t)}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
-      </div>
+      )}
 
-      <Section title="Sessions" eyebrow="Timeline" intro={data.sessions.length ? undefined : "No timed sessions were recorded on this day."}>
-        {data.sessions.length > 0 && (
+      {data.sessions.length > 0 && (
+        <Section title="Sessions">
           <ol className="space-y-3" aria-label="Study sessions">
             {data.sessions.map((s) => (
               <li key={s.id}>
@@ -158,8 +159,8 @@ export function HistoryDayClient({ date }: { date: string }) {
               </li>
             ))}
           </ol>
-        )}
-      </Section>
+        </Section>
+      )}
 
       {data.daily && data.daily.plannedTasks.length > 0 && (
         <Section title="Planned tasks" eyebrow={`Day ${data.daily.curriculumDay}`}>
@@ -193,8 +194,8 @@ export function HistoryDayClient({ date }: { date: string }) {
         </Section>
       )}
 
-      <Section title="Quiz results" eyebrow="Tests" intro={data.quizzes.length ? undefined : "No quizzes were taken on this day."}>
-        {data.quizzes.length > 0 && (
+      {data.quizzes.length > 0 && (
+        <Section title="Quiz results">
           <ul className="space-y-3" aria-label="Quiz results">
             {data.quizzes.map((q) => (
               <li key={q.id}>
@@ -217,8 +218,8 @@ export function HistoryDayClient({ date }: { date: string }) {
               </li>
             ))}
           </ul>
-        )}
-      </Section>
+        </Section>
+      )}
     </div>
   );
 }

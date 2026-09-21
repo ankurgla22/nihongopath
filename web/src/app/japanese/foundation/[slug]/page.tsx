@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { Badge, Container, Section } from "@/components/ui";
+import { Container, Section } from "@/components/ui";
 import { findFoundation, getFoundation, getQuestionMap } from "@/lib/content";
 import { articleJsonLd, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
@@ -8,7 +8,6 @@ import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { FoundationBlocks } from "@/components/foundation/FoundationBlocks";
-import { FOUNDATION_KIND } from "@/components/foundation/kinds";
 import { PartBar } from "@/components/foundation/PartBar";
 
 type Params = { slug: string };
@@ -36,7 +35,6 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
   const prev = lessons[idx - 1];
   const next = lessons[idx + 1];
   const href = `${BASE}/${lesson.slug}`;
-  const kind = FOUNDATION_KIND[lesson.kind];
 
   const qmap = getQuestionMap();
   const practice = lesson.practiceQuestionIds.map((id) => qmap.get(id)).filter((q): q is NonNullable<typeof q> => Boolean(q));
@@ -61,13 +59,6 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
         index={idx + 1}
         total={lessons.length}
         unit="Lesson"
-        badges={
-          <>
-            <Badge tone="accent">Foundation</Badge>
-            <Badge tone={kind.tone}>{kind.label}</Badge>
-            <Badge>{lesson.minutes} min</Badge>
-          </>
-        }
         actions={
           <>
             <SaveButton contentId={lesson.id} type="kana" title={lesson.title} href={href} />
@@ -78,26 +69,20 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
 
       <article className="pb-8">
         <header className="mt-8 animate-rise">
-          <p className="text-[11px] uppercase tracking-[0.14em] text-muted">
-            Lesson {lesson.order} ·{" "}
-            <span lang="ja" className="ja normal-case tracking-normal">
-              {kind.ja}
-            </span>
-          </p>
-          <h1 className="mt-2 text-h1">{lesson.title}</h1>
+          <h1 className="text-h1">{lesson.title}</h1>
           <p className="mt-4 text-lg text-muted leading-relaxed max-w-prose">{lesson.summary}</p>
         </header>
 
         <PartBar parts={lesson.sections.map((s, i) => ({ id: `s${i + 1}`, label: s.heading }))} quickCheckId={practice.length > 0 ? "practice" : undefined} />
 
         {lesson.sections.map((s, i) => (
-          <Section key={i} id={`s${i + 1}`} title={s.heading} eyebrow={`Part ${i + 1} of ${lesson.sections.length}`}>
+          <Section key={i} id={`s${i + 1}`} title={s.heading}>
             <FoundationBlocks blocks={s.blocks} />
           </Section>
         ))}
 
         {practice.length > 0 && (
-          <Section id="practice" title="Quick check" intro={`${practice.length} quick questions. Aim for 90% before moving on.`}>
+          <Section id="practice" title="Quick check">
             <LessonQuiz questions={practice} title="Quick check" />
           </Section>
         )}

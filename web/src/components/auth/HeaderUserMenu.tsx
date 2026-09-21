@@ -6,10 +6,8 @@ import { useAuth } from "./AuthProvider";
 import { clearSession } from "./sessionClient";
 import { getClientAuth } from "@/lib/firebase/client";
 
+// Dashboard / Today / Progress are header items; the menu holds only what the header does not.
 const MENU = [
-  { href: "/dashboard", label: "Dashboard" },
-  { href: "/daily-study", label: "Daily study" },
-  { href: "/progress", label: "Progress" },
   { href: "/saved", label: "Saved" },
   { href: "/profile", label: "Profile" },
 ];

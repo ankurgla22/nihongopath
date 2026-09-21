@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { Arrow, Badge, Breadcrumbs, Button, Container, PageTitle } from "@/components/ui";
+import { Arrow, Breadcrumbs, Button, Container, PageTitle } from "@/components/ui";
 import { GrammarCards } from "@/components/content/ContentCards";
 import { getGrammar } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type GrammarLesson } from "@/lib/content/schemas";
@@ -39,9 +39,6 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
   const label = LEVEL_LABEL[level];
   const lessons = getGrammar(level);
   if (lessons.length === 0) notFound();
-  const enriched = lessons.filter((g) => g.enriched).length;
-  // When every lesson is a full lesson the badge carries no information, so hide it.
-  const showFullBadge = enriched > 0 && enriched < lessons.length;
   const base = `/japanese/${level}/grammar`;
   const groups = groupInTens(lessons);
   const crumbs = [
@@ -56,42 +53,21 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
       <PageTitle
-        eyebrow={`JLPT ${label} · Grammar`}
         title={
           <>
             {label} grammar <span className="text-muted font-normal tabular-nums">· {lessons.length}</span>
           </>
         }
-        description={
-          <>
-            {lessons.length} patterns in study order.{" "}
-            {showFullBadge ? (
-              <>
-                <Badge tone="ok">Full lesson</Badge> marks the {enriched} with a diagram, mistakes, quiz and JLPT tips; the rest have meaning, formation, examples and usage notes.
-              </>
-            ) : enriched === lessons.length ? (
-              "Every lesson has a diagram, examples, common mistakes, a quick check and JLPT tips."
-            ) : (
-              "Each entry has meaning, formation, natural examples and usage notes."
-            )}
-          </>
-        }
         actions={
-          <>
-            <Button href={`${base}/${lessons[0].slug}`}>
-              Start with lesson 1 <Arrow />
-            </Button>
-            <Button href={`/japanese/${level}`} variant="secondary">
-              {label} overview
-            </Button>
-          </>
+          <Button href={`${base}/${lessons[0].slug}`}>
+            Start with lesson 1 <Arrow />
+          </Button>
         }
       />
 
       <div className="lg:grid lg:grid-cols-[6.5rem_1fr] lg:gap-10 mb-20">
         {/* Number rail: sticky on desktop, horizontal chips on mobile */}
         <nav aria-label="Jump to lessons" className="lg:sticky lg:top-24 lg:self-start mb-6 lg:mb-0">
-          <p className="hidden lg:block text-[11px] uppercase tracking-[0.14em] text-muted mb-3">Lessons</p>
           <ol className="flex lg:flex-col gap-1.5 overflow-x-auto no-scrollbar -mx-4 px-4 lg:mx-0 lg:px-0 pb-1 lg:pb-0">
             {groups.map((g) => (
               <li key={g.from} className="shrink-0">
@@ -107,15 +83,12 @@ export default function GrammarIndexPage({ params }: { params: Params }) {
         </nav>
 
         <div className="space-y-12 min-w-0">
-          {groups.map((g, gi) => (
+          {groups.map((g) => (
             <section key={g.from} id={`g-${g.from}`} aria-labelledby={`h-g-${g.from}`} className="scroll-mt-24">
-              <div className="flex items-baseline gap-3 mb-3">
-                <h2 id={`h-g-${g.from}`} className="text-h2 tabular-nums">
-                  Lessons {g.from}–{g.to}
-                </h2>
-                <span className="text-xs text-muted">Set {gi + 1} of {groups.length}</span>
-              </div>
-              <GrammarCards base={base} start={g.from} items={g.items.map((l) => [l.slug, l.order, l.title, l.meaning, showFullBadge && l.enriched])} />
+              <h2 id={`h-g-${g.from}`} className="text-h2 tabular-nums mb-3">
+                Lessons {g.from}–{g.to}
+              </h2>
+              <GrammarCards base={base} start={g.from} items={g.items.map((l) => [l.slug, l.order, l.title, l.meaning])} />
             </section>
           ))}
         </div>

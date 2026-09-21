@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Badge, Callout, Container, JaText, Section, SpeakButton } from "@/components/ui";
+import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findKanji, getKanji, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type Level, type VocabItem } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
@@ -54,12 +54,7 @@ function ReadingChips({ items }: { items: string[] }) {
   return (
     <span className="flex flex-wrap gap-1.5">
       {items.map((r) => (
-        <span key={r} className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-surface-2 pl-2.5 pr-1 py-1 text-lg leading-none text-ink">
-          <span lang="ja" className="ja">
-            {r}
-          </span>
-          <SpeakButton text={r} size="xs" />
-        </span>
+        <Speakable key={r} text={r} className="inline-flex items-center rounded-lg border border-line bg-surface-2 px-2.5 py-1.5 text-lg leading-none text-ink" />
       ))}
     </span>
   );
@@ -110,13 +105,6 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
         index={idx + 1}
         total={items.length}
         unit="Kanji"
-        badges={
-          <>
-            <Badge tone="accent">JLPT {label}</Badge>
-            <Badge>Set {k.day}</Badge>
-            {k.enriched && <Badge tone="ok">Full entry</Badge>}
-          </>
-        }
         actions={
           <>
             <SaveButton contentId={k.id} type="kanji" title={k.character} href={href} />
@@ -144,8 +132,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
           </div>
 
           <div className="min-w-0">
-            <p className="text-[11px] uppercase tracking-[0.14em] text-muted">Kanji #{k.order}</p>
-            <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
               <h1 className="text-h1">
                 <span lang="ja" className="ja">
                   {k.character}
@@ -172,7 +159,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
           </div>
         </header>
 
-        <Section id="words" title="Common words" intro="The fastest way to remember a kanji is to remember two or three words that use it.">
+        <Section id="words" title="Common words">
           <div className="surface rounded-2xl overflow-hidden">
             <table className="w-full text-sm">
               <thead className="sr-only">
@@ -180,22 +167,18 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
                   <th scope="col">Word</th>
                   <th scope="col">Reading</th>
                   <th scope="col">Meaning</th>
-                  <th scope="col">Listen</th>
                 </tr>
               </thead>
               <tbody>
                 {k.words.map((w, i) => (
                   <tr key={i} className={`border-t border-line first:border-0 ${i % 2 === 1 ? "bg-surface-2/50" : ""}`}>
-                    <td lang="ja" className="ja px-4 py-3 text-xl font-semibold tracking-tight whitespace-nowrap text-ink">
-                      {w.word}
+                    <td className="px-4 py-3 whitespace-nowrap">
+                      <Speakable text={w.word} className="text-xl font-semibold tracking-tight text-ink" />
                     </td>
                     <td lang="ja" className="ja px-3 py-3 text-sm text-muted whitespace-nowrap">
                       {w.reading}
                     </td>
                     <td className="px-4 py-3 text-ink-2 w-full">{w.meaning}</td>
-                    <td className="pr-4 py-3">
-                      <SpeakButton text={w.word} size="sm" />
-                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -241,9 +224,9 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
                     <span className="text-sm leading-relaxed text-ink-2 min-w-0">{s.note}</span>
                   </>
                 );
-                const cls = "surface rounded-2xl p-3.5 pr-10 flex items-center gap-4 h-full";
+                const cls = "surface rounded-2xl p-3.5 flex items-center gap-4 h-full";
                 return (
-                  <li key={i} className="relative">
+                  <li key={i}>
                     {l ? (
                       <Link href={l} className={`${cls} surface-hover`}>
                         {inner}
@@ -251,7 +234,6 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
                     ) : (
                       <div className={cls}>{inner}</div>
                     )}
-                    <SpeakButton text={s.character} size="xs" className="absolute right-3 top-3" />
                   </li>
                 );
               })}
@@ -307,7 +289,6 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
                       </span>
                       <span className="block text-sm text-ink-2 truncate">{item.meaning}</span>
                     </span>
-                    {vl !== level && <Badge>{LEVEL_LABEL[vl]}</Badge>}
                   </Link>
                 </li>
               ))}
@@ -316,7 +297,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
         )}
 
         {quickCheck.length > 0 && (
-          <Section id="quick-check" title="Quick check" intro="Two quick questions on this kanji.">
+          <Section id="quick-check" title="Quick check">
             <QuickCheckNote />
             <LessonQuiz questions={quickCheck} title="Quick check" />
           </Section>

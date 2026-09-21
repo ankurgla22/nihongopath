@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import type { Question } from "@/lib/content/schemas";
-import { Button, Callout, SpeakButton } from "@/components/ui";
+import { Button, Callout, Speakable } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
 import { wrongOptionNotes } from "@/lib/questions/notes";
 
@@ -82,20 +82,17 @@ export function QuestionSet({
                 {checked ? (isCorrect ? <IconCheck /> : <IconCross />) : qi + 1}
               </span>
               <div className="min-w-0 flex-1">
-                <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-1.5">
-                  Question {qi + 1} · {TYPE_LABEL[q.type]}
-                </p>
+                <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-1.5">{TYPE_LABEL[q.type]}</p>
                 {q.context && (
                   <p lang="ja" className="ja text-base leading-relaxed mb-2 text-ink-2 whitespace-pre-line">
                     {q.context}
                   </p>
                 )}
-                <div className="flex items-start gap-2">
-                  <p lang="ja" className="ja flex-1 min-w-0 text-lg leading-relaxed whitespace-pre-line text-ink">
-                    {q.prompt}
-                  </p>
-                  {JA_RE.test(q.prompt) && <SpeakButton text={q.prompt} size="sm" />}
-                </div>
+                {JA_RE.test(q.prompt) ? (
+                  <Speakable as="p" text={q.prompt} className="text-lg leading-relaxed whitespace-pre-line text-ink" />
+                ) : (
+                  <p className="text-lg leading-relaxed whitespace-pre-line text-ink">{q.prompt}</p>
+                )}
               </div>
             </div>
 
@@ -118,9 +115,9 @@ export function QuestionSet({
                   num = "bg-accent text-white border-accent";
                 }
                 return (
-                  <li key={oi} className="flex items-start gap-2">
+                  <li key={oi}>
                     <label
-                      className={`relative flex flex-1 min-w-0 items-start gap-3 border rounded-xl px-3.5 py-3 transition ${locked ? "cursor-default" : "cursor-pointer"} ${cls} has-[:focus-visible]:shadow-ring`}
+                      className={`relative flex min-w-0 items-start gap-3 border rounded-xl px-3.5 py-3 transition ${locked ? "cursor-default" : "cursor-pointer"} ${cls} has-[:focus-visible]:shadow-ring`}
                     >
                       <input
                         type="radio"
@@ -138,8 +135,6 @@ export function QuestionSet({
                         {opt}
                       </span>
                     </label>
-                    {/* Sibling of the label (a button is a labelable element and may not nest inside <label>) */}
-                    {JA_RE.test(opt) && <SpeakButton text={opt} size="xs" className="mt-3" />}
                   </li>
                 );
               })}

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { Arrow, Badge, Button, Card, Section } from "@/components/ui";
+import { Arrow, Button, Card, Section } from "@/components/ui";
 import { listSaved, unsaveItem } from "@/lib/firestore/repo";
 import type { SavedItemDoc } from "@/lib/firestore/types";
 import { EmptyState, ErrorState, LoadingState, SignedOutState, SkillGlyph, errMessage, formatDate, skillLabel } from "./shared";
@@ -73,35 +73,17 @@ export function SavedClient() {
         <EmptyState
           title="Nothing saved yet"
           action={
-            <div className="flex flex-wrap justify-center gap-2">
-              <Button href="/japanese/n2/grammar" variant="secondary" size="sm">
-                Browse N2 grammar
-              </Button>
-              <Button href="/japanese/n2/vocabulary" variant="secondary" size="sm">
-                N2 vocabulary
-              </Button>
-              <Button href="/japanese/n2/kanji" variant="secondary" size="sm">
-                N2 kanji
-              </Button>
-            </div>
+            <Button href="/japanese" variant="secondary" size="sm">
+              Browse lessons
+            </Button>
           }
         >
-          Use the <strong>Save</strong> (bookmark) button at the top of any grammar, vocabulary, kanji or reading lesson, or on a practice question, and it will appear here for quick review.
+          Press <strong>Save</strong> on any lesson or question and it will appear here.
         </EmptyState>
       ) : (
         <>
-          <div className="flex flex-wrap items-center gap-2">
-            <p className="text-sm text-muted">
-              {items.length} saved item{items.length === 1 ? "" : "s"}
-            </p>
-            {groups.map(([type, list]) => (
-              <Badge key={type}>
-                {typeLabel(type)} {list.length}
-              </Badge>
-            ))}
-          </div>
           {groups.map(([type, list]) => (
-            <Section key={type} title={typeLabel(type)} eyebrow={`${list.length} saved`}>
+            <Section key={type} title={`${typeLabel(type)} · ${list.length}`}>
               <Card padding="p-0" className="overflow-hidden">
                 <ul className="divide-y divide-line" aria-label={`Saved ${typeLabel(type).toLowerCase()}`}>
                   {list.map((it) => {

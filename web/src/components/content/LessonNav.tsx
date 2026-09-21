@@ -5,22 +5,20 @@ import { Arrow, Breadcrumbs } from "@/components/ui";
 export type NavLink = { href: string; title: string; subtitle?: string };
 
 /**
- * "Where am I?": compact bar with breadcrumbs, "N of M", optional badges (level, lesson type)
- * and optional actions (Save / Mark learned). Render above the article.
+ * "Where am I?": breadcrumbs plus a sticky bar with "N of M" and the actions (Save / Mark learned).
+ * Lesson meta lives here only: no level or type chips. Render above the article.
  */
 export function LessonNavTop({
   crumbs,
   index,
   total,
   unit = "Lesson",
-  badges,
   actions,
 }: {
   crumbs: { name: string; path?: string }[];
   index: number;
   total: number;
   unit?: string;
-  badges?: ReactNode;
   actions?: ReactNode;
 }) {
   const pct = total > 0 ? Math.round((index / total) * 100) : 0;
@@ -42,7 +40,6 @@ export function LessonNavTop({
             {unit} <span className="text-ink font-semibold tabular-nums">{index}</span> <span className="opacity-70">of</span> <span className="tabular-nums">{total}</span>
           </p>
         </div>
-        {badges && <div className="flex flex-wrap items-center gap-1.5">{badges}</div>}
         {actions && <div className="ml-auto flex items-center gap-2">{actions}</div>}
       </div>
     </div>
@@ -83,8 +80,7 @@ function NavCard({ link, direction, fallback }: { link?: NavLink; direction: "pr
 export function LessonNavBottom({ prev, next, indexHref, indexLabel }: { prev?: NavLink; next?: NavLink; indexHref: string; indexLabel: string }) {
   return (
     <nav aria-label="Lesson navigation" className="mt-14 border-t border-line pt-8">
-      <div className="flex items-center justify-between mb-4">
-        <p className="text-[11px] uppercase tracking-[0.14em] text-muted">Continue</p>
+      <div className="flex items-center justify-end mb-4">
         <Link href={indexHref} className="text-sm text-accent hover:underline underline-offset-4">
           All {indexLabel}
         </Link>

@@ -9,7 +9,7 @@ import type { ExamResultDoc } from "@/lib/firestore/types";
 import { listExamResults } from "@/lib/firestore/repo";
 import { flushPending } from "@/lib/study/service";
 import { useAuth } from "@/components/auth/AuthProvider";
-import { Arrow, Badge, Button, Callout, Card, EmptyState, Stat } from "@/components/ui";
+import { Badge, Button, Callout, Card, EmptyState, Stat } from "@/components/ui";
 import { LoadingState, Ring } from "@/components/progress/shared";
 import { accuracyOf, formatDate, formatDuration, PassBadge, SCALED_MAX } from "./shared";
 
@@ -61,15 +61,18 @@ export function ExamHistoryClient() {
       )}
       {list.length === 0 ? (
         <EmptyState title="No mock exams yet" action={<Button href="/mock-exams">Browse mock exams</Button>}>
-          Take a full-length practice exam and every attempt will appear here with its scaled score.
+          Every attempt appears here with its scaled score.
         </EmptyState>
       ) : (
         <>
-          <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-6 animate-rise">
-            <Stat label="Attempts" value={list.length} />
-            <Stat label="Best score" value={best ? best.totalScaled : "—"} hint={`/ ${SCALED_MAX} scaled`} tone={best?.passedEstimate ? "ok" : "neutral"} />
-            <Stat label="Pass estimates" value={passes} hint={`of ${list.length}`} tone={passes > 0 ? "ok" : "neutral"} />
-          </div>
+          {/* Stat tiles render only with a non-zero value; one attempt has nothing to summarise. */}
+          {list.length > 1 && best && (
+            <div className={`grid grid-cols-2 gap-3 sm:gap-4 mb-6 animate-rise ${passes > 0 ? "sm:grid-cols-3" : ""}`}>
+              <Stat label="Attempts" value={list.length} />
+              <Stat label="Best score" value={best.totalScaled} hint={`/ ${SCALED_MAX} scaled`} tone={best.passedEstimate ? "ok" : "neutral"} />
+              {passes > 0 && <Stat label="Pass estimates" value={passes} hint={`of ${list.length}`} tone="ok" />}
+            </div>
+          )}
           <ol className="grid gap-3">
             {list.map((r, i) => {
               const n = list.length - i;
@@ -103,9 +106,6 @@ export function ExamHistoryClient() {
                         ))}
                       </ul>
                     </div>
-                    <Link href={`/mock-exams/history/${r.id}`} className="hidden sm:inline-flex items-center gap-1 text-sm text-accent hover:underline shrink-0" aria-label={`View review of ${r.title}`}>
-                      Review <Arrow className="h-3.5 w-3.5" />
-                    </Link>
                   </div>
                 </Card>
               );

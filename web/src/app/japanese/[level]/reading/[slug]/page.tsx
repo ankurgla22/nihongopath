@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { findReading, getQuestionMap, getReading } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, LevelSchema, type Question } from "@/lib/content/schemas";
 import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadata";
-import { Badge, Breadcrumbs, Button, Callout, Card, Container, Section, SpeakButton } from "@/components/ui";
+import { Badge, Breadcrumbs, Button, Callout, Card, Container, Section, SpeakButton, Speakable } from "@/components/ui";
 import { READING_KIND_LABEL, fmtMinutes } from "@/components/reading/labels";
 import { ReadingPractice } from "@/components/reading/ReadingPractice";
 import { renderFurigana, stripFurigana } from "@/lib/content/furigana";
@@ -42,9 +42,6 @@ function Paper({ paragraphs, label }: { paragraphs: string[]; label?: string }) 
         {paragraphs.map((para, i) => (
           <p key={i} className="text-justify [text-indent:1em]">
             {renderFurigana(para)}
-            <span className="flex justify-end mt-1 [text-indent:0]">
-              <SpeakButton text={stripFurigana(para)} size="xs" />
-            </span>
           </p>
         ))}
       </div>
@@ -59,12 +56,13 @@ function VocabGrid({ vocab }: { vocab: { word: string; reading: string; meaning:
         {vocab.map((v, i) => (
           <div key={i} className="flex items-baseline gap-3 rounded-xl px-3 py-2.5 hover:bg-surface-2 transition">
             <dt className="shrink-0 min-w-0">
-              <span lang="ja" className="ja text-base font-medium text-ink">{renderFurigana(v.word)}</span>
+              <Speakable text={stripFurigana(v.word)} className="text-base font-medium text-ink">
+                {renderFurigana(v.word)}
+              </Speakable>
               {v.reading && (
                 <span lang="ja" className="ja block text-xs text-muted">{v.reading}</span>
               )}
             </dt>
-            <SpeakButton text={stripFurigana(v.word)} size="xs" className="self-center" />
             <dd className="text-sm text-ink-2 ml-auto text-right">{v.meaning}</dd>
           </div>
         ))}
@@ -106,8 +104,6 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
     { name: r.title },
   ];
 
-  const charCount = stripFurigana(r.paragraphs.join("")).length + stripFurigana(r.paragraphsB?.join("") ?? "").length;
-
   return (
     <Container>
       <script
@@ -124,17 +120,11 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
 
       <article className="pb-8">
         <header className="pt-8 pb-8 animate-rise">
-          <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent mb-3">
-            {L} · <span lang="ja" className="ja normal-case tracking-normal">{k.ja}</span> · {k.en}
-          </p>
           <h1 lang="ja" className="ja text-h1">
             {r.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-1.5 mt-4">
-            <Badge tone="accent" size="md">{L}</Badge>
+          <div className="mt-4">
             <Badge size="md">Time limit {fmtMinutes(r.timeLimitSeconds)}</Badge>
-            <Badge size="md">{questions.length} {questions.length === 1 ? "question" : "questions"}</Badge>
-            <Badge size="md">{charCount.toLocaleString()} characters</Badge>
           </div>
         </header>
 
@@ -156,7 +146,6 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
         <Section
           id="passage"
           title={r.kind === "integrated" ? "Text A" : "Passage"}
-          intro={r.kind === "integrated" ? "Two texts on the same theme. Compare their positions." : k.hint}
           actions={<SpeakButton text={stripFurigana(r.paragraphs.join("。"))} size="md" label className="shrink-0" />}
         >
           <Paper paragraphs={r.paragraphs} label={r.kind === "integrated" ? "A" : undefined} />
@@ -169,12 +158,12 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
         )}
 
         {r.vocab.length > 0 && (
-          <Section id="vocabulary" title="Vocabulary in this passage" intro="Words worth knowing before you start the timer.">
+          <Section id="vocabulary" title="Vocabulary in this passage">
             <VocabGrid vocab={r.vocab} />
           </Section>
         )}
 
-        <Section id="questions" title="Questions" intro={`Aim to finish within ${fmtMinutes(r.timeLimitSeconds)}. After checking, every answer is explained.`}>
+        <Section id="questions" title="Questions">
           <ReadingPractice questions={questions} timeLimitSeconds={r.timeLimitSeconds} />
         </Section>
 

@@ -1,9 +1,8 @@
 import { jsonLdString } from "@/components/content/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getStrategy } from "@/lib/content";
 import { pageMetadata, breadcrumbJsonLd } from "@/lib/seo/metadata";
-import { Arrow, Badge, Breadcrumbs, Button, Callout, Container, PageTitle, Section, Stat } from "@/components/ui";
+import { Arrow, Badge, Breadcrumbs, Container, PageTitle, Section, Stat } from "@/components/ui";
 
 export const metadata: Metadata = pageMetadata({
   title: "JLPT Guide: Levels, N2 Test Structure, Scoring and Dates",
@@ -20,69 +19,27 @@ const LEVELS_INFO = [
   { level: "N1", summary: "Japanese used in a broad range of circumstances: editorials, abstract writing, complex logic, fast conversation and lectures." },
 ];
 
-const TOC = [
-  { id: "levels", label: "The five levels" },
-  { id: "n2-structure", label: "N2 test structure" },
-  { id: "scoring", label: "Scoring and pass marks" },
-  { id: "dates", label: "Test dates" },
-  { id: "n2-certifies", label: "What N2 certifies" },
-  { id: "strategy", label: "Exam strategy" },
-];
-
 export default function JlptPage() {
-  const strategy = getStrategy();
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "JLPT" },
   ];
   return (
-    <Container wide>
+    <Container>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdString(breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? "/jlpt" })))) }} />
       <Breadcrumbs items={crumbs} />
       <PageTitle
-        eyebrow={
-          <span lang="ja" className="ja">
-            日本語能力試験
-          </span>
-        }
         title="The JLPT explained"
         description="What the Japanese-Language Proficiency Test measures, how the N2 test is structured and scored, when it is held, and what an N2 certificate is generally taken to mean."
       />
 
-      <div className="grid gap-10 lg:grid-cols-[14rem_1fr] xl:grid-cols-[16rem_1fr] mb-16">
-        <aside className="hidden lg:block">
-          <nav aria-label="On this page" className="sticky top-24">
-            <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-3">On this page</p>
-            <ol className="border-l border-line space-y-0.5">
-              {TOC.map((t) => (
-                <li key={t.id}>
-                  <a href={`#${t.id}`} className="block -ml-px border-l-2 border-transparent pl-4 py-1.5 text-sm text-muted hover:text-ink hover:border-line-strong transition">
-                    {t.label}
-                  </a>
-                </li>
-              ))}
-            </ol>
-            <div className="mt-6 flex flex-col gap-2">
-              <Button href="/japanese/n2/mock-exams" size="sm">
-                N2 mock exams <Arrow className="h-3.5 w-3.5" />
-              </Button>
-            </div>
-          </nav>
-        </aside>
-
+      <div className="mb-16">
         <div className="min-w-0 max-w-content">
-          <Callout tone="neutral">
-            The details below reflect the test as published by the Japan Foundation and JEES. Test formats, dates and fees can change; always confirm with the official JLPT site or your local host institution before registering.
-          </Callout>
-
           <Section id="levels" title="The five levels" intro="The JLPT has five levels. N5 is the easiest and N1 the most advanced. Each level tests language knowledge (vocabulary and grammar), reading, and listening; there is no speaking or writing section.">
             <ul className="grid gap-3 sm:grid-cols-2">
               {LEVELS_INFO.map((l) => (
                 <li key={l.level} className={`surface rounded-2xl p-5 flex flex-col ${l.href ? "surface-hover" : "opacity-80"}`}>
-                  <div className="flex items-center justify-between">
-                    <p className="text-2xl font-bold tracking-tight">{l.level}</p>
-                    {l.href ? <Badge tone="ok">On this site</Badge> : <Badge>Not covered</Badge>}
-                  </div>
+                  <p className="text-2xl font-bold tracking-tight">{l.level}</p>
                   <p className="text-sm text-muted mt-2 leading-relaxed flex-1">{l.summary}</p>
                   {l.href && (
                     <Link href={l.href} className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">
@@ -213,43 +170,17 @@ export default function JlptPage() {
             <p className="text-sm text-muted mt-3">The certificate does not expire, although some institutions ask for a result from within the last few years.</p>
           </Section>
 
-          <Section id="strategy" title="Exam strategy" intro="Factual, question-type-specific approaches to the test. These are study methods, not guarantees.">
-            {strategy.length === 0 ? (
-              <p className="text-sm text-muted">
-                See the{" "}
-                <Link href="/jlpt/strategy" className="text-accent font-medium hover:underline">
-                  strategy section
-                </Link>
-                .
-              </p>
-            ) : (
-              <ul className="grid gap-3 sm:grid-cols-2">
-                {strategy.map((a) => (
-                  <li key={a.id}>
-                    <Link href={`/jlpt/strategy/${a.slug}`} className="group surface surface-hover rounded-2xl p-5 flex h-full flex-col">
-                      <p className="font-semibold leading-snug">{a.title}</p>
-                      <p className="text-sm text-muted mt-1.5 leading-relaxed flex-1">{a.summary}</p>
-                      <span className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-accent">
-                        Read guide <Arrow className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
-                      </span>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
+          <Section id="strategy" title="Exam strategy">
+            <p className="text-sm text-ink-2">
+              Question-type-specific approaches to the test:{" "}
+              <Link href="/jlpt/strategy" className="font-medium text-accent hover:underline">
+                read the strategy guides <Arrow className="inline h-3.5 w-3.5" />
+              </Link>
+              .
+            </p>
           </Section>
 
-          <nav className="mt-12 flex flex-wrap gap-3" aria-label="Related">
-            <Button href="/japanese/n2">
-              Start the N2 course <Arrow />
-            </Button>
-            <Button href="/japanese/n2/mock-exams" variant="secondary">
-              N2 mock exams
-            </Button>
-            <Button href="/japanese/n2/tests" variant="secondary">
-              Tests and quizzes
-            </Button>
-          </nav>
+          <p className="mt-12 text-sm text-muted">Test formats, dates and fees can change; confirm with the official JLPT site or your local host institution before registering.</p>
         </div>
       </div>
     </Container>

@@ -7,11 +7,11 @@
  */
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useRef, useState, type FormEvent } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { CurriculumDay, PackedQuestionIndex, Question, QuestionIndexEntry } from "@/lib/content/schemas";
 import { todayISO, type DailyProgressDoc, type ReviewItemDoc, type UserDoc } from "@/lib/firestore/types";
-import { getDaily, setDaily, updateUser } from "@/lib/firestore/repo";
-import { advanceDay, completeQuiz, completeTask, dueReviews, phaseOf } from "@/lib/study/service";
+import { getDaily, setDaily } from "@/lib/firestore/repo";
+import { advanceDay, completeQuiz, completeTask, dueReviews } from "@/lib/study/service";
 import { buildDailyPlan, taskTitle, weakSkills, type TaskType } from "@/lib/engine/dailyPlan";
 import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
@@ -19,12 +19,10 @@ import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
-import { Arrow, Badge, Button, Callout, Card, PageTitle, ProgressBar, SpeakButton } from "@/components/ui";
-
-import { LoadingState, SkillGlyph } from "@/components/progress/shared";
+import { Arrow, Badge, Button, Callout, Card, PageTitle, ProgressBar } from "@/components/ui";
+import { LoadingState } from "@/components/progress/shared";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import {
-  JA_RE,
   contentMeta,
   defaultQuestionCount,
   isQueuedError,
@@ -41,6 +39,7 @@ import {
 
 type Props = {
   day: CurriculumDay;
+  /** Kept for the page contract; the phase is no longer shown on the daily view. */
   phase: { id: number; name: string };
   /** Slim index of the banks this day can draw from; full records are fetched on demand. */
   questionIndex: PackedQuestionIndex;
@@ -100,7 +99,6 @@ function TaskSkeleton() {
       {[0, 1, 2, 3].map((i) => (
         <div key={i} className="surface rounded-2xl p-4 sm:p-5 flex items-center gap-4">
           <div className="skeleton h-9 w-9 rounded-full shrink-0" />
-          <div className="skeleton h-9 w-9 rounded-xl shrink-0" />
           <div className="flex-1 space-y-2">
             <div className="skeleton h-3.5 w-1/2" />
             <div className="skeleton h-3 w-1/4" />
@@ -111,7 +109,7 @@ function TaskSkeleton() {
   );
 }
 
-export function DailyStudyClient({ day, phase, questionIndex: packedIndex, contentLinks, sessionName }: Props) {
+export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks, sessionName }: Props) {
   const questionIndex = useMemo(() => unpackQuestionIndex(packedIndex), [packedIndex]);
   const router = useRouter();
   const { user } = useAuth();
@@ -131,7 +129,6 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
   /** True while the running set is a generated vocabulary/kanji drill rather than a bank quiz. */
   const [runIsDrill, setRunIsDrill] = useState(false);
   const runToken = useRef(0);
-  const [jumpDay, setJumpDay] = useState(String(day.day));
   const [advancing, setAdvancing] = useState(false);
   /**
    * Tasks whose lesson link was opened this session; "Mark done" unlocks only after the lesson was visited.
@@ -225,7 +222,6 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
   }, [userDoc, load]);
 
   const completedIds = useMemo(() => new Set(daily?.completedTaskIds ?? []), [daily]);
-  const totalMinutes = tasks.reduce((n, t) => n + t.minutes, 0);
   const doneMinutes = tasks.filter((t) => completedIds.has(t.id)).reduce((n, t) => n + t.minutes, 0);
   const doneCount = tasks.filter((t) => completedIds.has(t.id)).length;
   const allDone = tasks.length > 0 && tasks.every((t) => completedIds.has(t.id));
@@ -383,48 +379,30 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
     }
   };
 
-  const onJump = async (e: FormEvent) => {
-    e.preventDefault();
-    if (!user) return;
-    const n = Math.max(1, Math.min(CURRICULUM_DAYS, Math.floor(Number(jumpDay))));
-    if (!Number.isFinite(n)) return;
-    try {
-      await updateUser(user.uid, { currentDay: n, currentPhase: phaseOf(n) });
-      await refresh();
-      router.push(`/daily-study?day=${n}`);
-      router.refresh();
-    } catch (err) {
-      setNotice({ tone: "warn", text: err instanceof Error ? err.message : "Could not change the day." });
-    }
-  };
 
   const name = userDoc?.displayName ?? sessionName ?? "there";
   const overall = tasks.length > 0 ? (doneCount / tasks.length) * 100 : 0;
+  // While a quiz or drill runs, only the sticky bar and that task's card stay on screen.
+  const runningTask = runningId ? tasks.find((t) => t.id === runningId) : undefined;
+  const visibleTasks = runningTask ? [runningTask] : tasks;
 
   return (
     <div className="pb-16">
-      <PageTitle
-        eyebrow={`Phase ${phase.id} · ${phase.name} · ${level.toUpperCase()}`}
-        title={
-          <>
-            Day {day.day} <span className="text-muted font-normal">/ {CURRICULUM_DAYS}</span>
-          </>
-        }
-        description={day.title}
-        actions={
-          <Button href="/dashboard" variant="secondary" size="sm">
-            Dashboard
-          </Button>
-        }
-      />
+      {!runningTask && (
+        <PageTitle
+          title={
+            <>
+              Day {day.day} <span className="text-muted font-normal">/ {CURRICULUM_DAYS}</span>
+              <span className="text-muted font-normal"> — {day.title.replace(/^Day \d+ — /, "")}</span>
+            </>
+          }
+        />
+      )}
 
       {/* Sticky summary bar */}
-      <div className="sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5">
+      <div className={`sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5 ${runningTask ? "mt-6" : ""}`}>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
           <span className="font-semibold">Day {day.day}</span>
-          <span className="text-muted tabular-nums">
-            {doneMinutes} / {totalMinutes} min
-          </span>
           <span className="text-muted tabular-nums">
             {doneCount} / {tasks.length} tasks
           </span>
@@ -440,102 +418,77 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
           <Callout tone="warn">{userError}</Callout>
         </div>
       )}
-      {notice && (
+      {notice && !runningTask && (
         <div className="mb-4 animate-rise">
           <Callout tone={notice.tone}>{notice.text}</Callout>
         </div>
       )}
 
-      <div className="grid gap-5 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
-        <div className="space-y-5 min-w-0">
-          <Card padding="p-0">
-            <details className="group">
-              <summary className="flex cursor-pointer list-none flex-wrap items-center justify-between gap-2 p-4 sm:p-5 [&::-webkit-details-marker]:hidden">
-                <h2 className="font-semibold">Today&apos;s goal</h2>
-                <span className="inline-flex items-center gap-2 text-xs text-muted">
-                  {day.objectives.length} objective{day.objectives.length === 1 ? "" : "s"}
-                  <svg viewBox="0 0 24 24" className="h-4 w-4 transition group-open:rotate-180" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                    <path d="m6 9 6 6 6-6" />
-                  </svg>
-                </span>
-              </summary>
-              <ul className="space-y-1.5 px-4 pb-4 sm:px-5 sm:pb-5 text-sm text-ink-2">
-                {day.objectives.map((o, i) => (
-                  <li key={i} className="flex gap-2.5">
-                    <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
-                    <span>{o}</span>
-                  </li>
-                ))}
-              </ul>
-            </details>
-          </Card>
-
-          {loading ? (
-            <div role="status" aria-live="polite">
-              <span className="sr-only">Building today&apos;s plan, {name}…</span>
-              <TaskSkeleton />
-            </div>
-          ) : (
-            <ol className="relative space-y-3" aria-label="Today's tasks">
-              {/* timeline rail */}
-              <span aria-hidden className="absolute left-[2.1rem] sm:left-[2.35rem] top-6 bottom-6 w-px bg-line" />
-              {tasks.map((task, i) => {
-                const done = completedIds.has(task.id);
-                const open = openId === task.id;
-                const running = runningId === task.id;
-                const status = done ? "done" : running ? "running" : open ? "open" : "todo";
-                const linkedIds = task.contentIds.filter((id) => contentLinks[id]);
-                // Few links (one or two lessons) render as primary buttons; long word/kanji lists keep the compact grid.
-                const fewLinks = linkedIds.length > 0 && linkedIds.length <= 2;
-                const canMarkDone = linkedIds.length === 0 || visitedTaskIds.has(task.id);
-                const lessonsPending = task.type === "quiz" && tasks.some((t) => isSkillTask(t.type) && !completedIds.has(t.id));
-                return (
-                  <li key={task.id} id={`task-${task.id}`} className="relative">
-                    <Card padding="p-0" className={`overflow-hidden transition ${done ? "border-ok/40" : open ? "border-accent/50 shadow-md" : ""}`}>
-                      <button
-                        type="button"
-                        onClick={() => setOpenId(open ? null : task.id)}
-                        aria-expanded={open}
-                        aria-controls={`panel-${task.id}`}
-                        className="flex w-full items-center gap-3 sm:gap-4 p-4 sm:p-5 text-left hover:bg-surface-2/60 transition"
+      <div className="space-y-5 min-w-0">
+        {loading ? (
+          <div role="status" aria-live="polite">
+            <span className="sr-only">Building today&apos;s plan, {name}…</span>
+            <TaskSkeleton />
+          </div>
+        ) : (
+          <ol className="relative space-y-3" aria-label="Today's tasks">
+            {!runningTask && <span aria-hidden className="absolute left-[2.1rem] sm:left-[2.35rem] top-6 bottom-6 w-px bg-line" />}
+            {visibleTasks.map((task) => {
+              const i = tasks.indexOf(task);
+              const done = completedIds.has(task.id);
+              const open = openId === task.id;
+              const running = runningId === task.id;
+              const status = done ? "done" : running ? "running" : open ? "open" : "todo";
+              const linkedIds = task.contentIds.filter((id) => contentLinks[id]);
+              // Few links (one or two lessons) render as primary buttons; long word/kanji lists keep the compact grid.
+              const fewLinks = linkedIds.length > 0 && linkedIds.length <= 2;
+              const canMarkDone = linkedIds.length === 0 || visitedTaskIds.has(task.id);
+              const lessonsPending = task.type === "quiz" && tasks.some((t) => isSkillTask(t.type) && !completedIds.has(t.id));
+              return (
+                <li key={task.id} id={`task-${task.id}`} className="relative">
+                  <Card padding="p-0" className={`overflow-hidden transition ${done ? "border-ok/40" : open ? "border-accent/50 shadow-md" : ""}`}>
+                    <button
+                      type="button"
+                      onClick={() => setOpenId(open ? null : task.id)}
+                      aria-expanded={open}
+                      aria-controls={`panel-${task.id}`}
+                      className="flex w-full items-center gap-3 sm:gap-4 p-4 sm:p-5 text-left hover:bg-surface-2/60 transition"
+                    >
+                      <span
+                        className={`relative z-[1] inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 text-sm font-semibold tabular-nums transition ${
+                          done ? "border-ok bg-ok text-white" : open ? "border-accent bg-accent-soft text-accent" : "border-line-strong bg-surface text-ink-2"
+                        }`}
+                        aria-hidden
                       >
-                        <span
-                          className={`relative z-[1] inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 text-sm font-semibold tabular-nums transition ${
-                            done ? "border-ok bg-ok text-white" : open ? "border-accent bg-accent-soft text-accent" : "border-line-strong bg-surface text-ink-2"
-                          }`}
-                          aria-hidden
-                        >
-                          {done ? <Check /> : i + 1}
+                        {done ? <Check /> : i + 1}
+                      </span>
+                      <span className="min-w-0 flex-1">
+                        <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                          <span className={`font-semibold ${done ? "text-muted line-through decoration-line-strong" : ""}`}>{task.title}</span>
+                          {task.boosted && <Badge tone="accent">extra focus</Badge>}
                         </span>
-                        <SkillGlyph type={task.type} tone={done ? "ok" : open ? "accent" : "neutral"} />
-                        <span className="min-w-0 flex-1">
-                          <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                            <span className={`font-semibold ${done ? "text-muted line-through decoration-line-strong" : ""}`}>{task.title}</span>
-                            {task.boosted && <Badge tone="accent">extra focus</Badge>}
-                          </span>
-                          <span className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted">
-                            <span className="inline-flex items-center rounded-full bg-surface-2 border border-line px-2 py-0.5 tabular-nums">{task.minutes} min</span>
-                            {task.questionCount && <span>{task.questionCount} questions</span>}
-                          </span>
+                        <span className="mt-0.5 flex flex-wrap items-center gap-2 text-xs text-muted tabular-nums">
+                          <span>{task.minutes} min</span>
+                          {task.questionCount && <span>· {task.questionCount} questions</span>}
                         </span>
-                        <span className="shrink-0">
-                          {status === "done" && <Badge tone="ok">Done</Badge>}
-                          {status === "running" && <Badge tone="accent">In progress</Badge>}
-                          {status === "open" && <Badge tone="neutral">Open</Badge>}
-                          {status === "todo" && <Badge tone="neutral">To do</Badge>}
-                        </span>
-                        <svg viewBox="0 0 24 24" className={`h-4 w-4 shrink-0 text-muted transition ${open ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                          <path d="m6 9 6 6 6-6" />
-                        </svg>
-                      </button>
+                      </span>
+                      <span className="shrink-0">
+                        {status === "done" && <Badge tone="ok">Done</Badge>}
+                        {status === "running" && <Badge tone="accent">In progress</Badge>}
+                      </span>
+                      <svg viewBox="0 0 24 24" className={`h-4 w-4 shrink-0 text-muted transition ${open ? "rotate-180" : ""}`} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </button>
 
-                      {open && (
-                        <div id={`panel-${task.id}`} className="border-t border-line bg-bg-elev px-4 sm:px-5 py-4 animate-rise">
-                          <p className="text-sm text-muted">{TASK_HINT[task.type]}</p>
+                    {open && (
+                      <div id={`panel-${task.id}`} className="border-t border-line bg-bg-elev px-4 sm:px-5 py-4 animate-rise">
+                        {!running && <p className="text-sm text-muted">{TASK_HINT[task.type]}</p>}
 
-                          {isSkillTask(task.type) && (
-                            <>
-                              {task.contentIds.length > 0 ? (
+                        {isSkillTask(task.type) && (
+                          <>
+                            {!(running && runIsDrill) &&
+                              (task.contentIds.length > 0 ? (
                                 <ul className={`mt-3 grid gap-2 ${fewLinks ? "" : "sm:grid-cols-2"}`}>
                                   {task.contentIds.map((id) => {
                                     const link = contentLinks[id];
@@ -566,268 +519,167 @@ export function DailyStudyClient({ day, phase, questionIndex: packedIndex, conte
                                             {id} <span className="text-xs">(lesson page coming soon)</span>
                                           </span>
                                         )}
-                                        {link && JA_RE.test(link.title) && <SpeakButton text={link.title} size="xs" />}
                                       </li>
                                     );
                                   })}
                                 </ul>
                               ) : (
                                 <p className="mt-3 text-sm">
-                                  No specific items assigned today — follow the objectives above, or browse{" "}
+                                  No specific items assigned today — browse{" "}
                                   <Link href={task.type === "kana" ? "/japanese/foundation" : `/japanese/${level}/${task.type}`} className="text-accent hover:underline">
                                     {task.type === "kana" ? "the foundation lessons" : `${level.toUpperCase()} ${task.type}`}
                                   </Link>
                                   .
                                 </p>
-                              )}
-                              {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && (
-                                <div className="mt-4">
-                                  {running && runIsDrill && runState === "loading" ? (
-                                    <LoadingState label="Building your drill…" rows={2} />
-                                  ) : running && runIsDrill && runState === "error" ? (
-                                    <div className="space-y-3">
-                                      <Callout tone="warn">Could not build the drill. Check your connection and try again.</Callout>
-                                      <div className="flex flex-wrap gap-2">
-                                        <Button onClick={() => void startDrill(task)}>Retry</Button>
-                                        <Button variant="secondary" onClick={() => setRunningId(null)}>
-                                          Cancel
-                                        </Button>
-                                      </div>
+                              ))}
+                            {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && running && runIsDrill && (
+                              <div className="mt-4">
+                                {runState === "loading" ? (
+                                  <LoadingState label="Building your drill…" rows={2} />
+                                ) : runState === "error" ? (
+                                  <div className="space-y-3">
+                                    <Callout tone="warn">Could not build the drill. Check your connection and try again.</Callout>
+                                    <div className="flex flex-wrap gap-2">
+                                      <Button onClick={() => void startDrill(task)}>Retry</Button>
+                                      <Button variant="secondary" onClick={() => setRunningId(null)}>
+                                        Cancel
+                                      </Button>
                                     </div>
-                                  ) : running && runIsDrill ? (
-                                    <QuizRunner
-                                      questions={runQuestions}
-                                      title={drillTitle(task)}
-                                      mode="practice"
-                                      storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${task.id}:drill`}
-                                      contentLinks={contentLinks}
-                                      onComplete={(answers, seconds) => onDrillComplete(task, answers, seconds)}
-                                      onExit={() => setRunningId(null)}
-                                      resultActions={
-                                        <Button variant="secondary" onClick={() => setRunningId(null)}>
-                                          Back to the list
-                                        </Button>
-                                      }
-                                    />
-                                  ) : (
-                                    <p className="text-sm text-muted">
-                                      Check yourself on {task.type === "kanji" ? "these kanji" : "these words"} — each answer updates that item&apos;s review schedule.
-                                    </p>
-                                  )}
-                                </div>
-                              )}
-                              {!(running && runIsDrill) && (
-                                <div className="mt-4 flex flex-wrap gap-2">
-                                  {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && (
-                                    <Button variant={done ? "primary" : "secondary"} onClick={() => void startDrill(task)}>
-                                      {task.type === "kanji" ? "Drill these kanji" : "Drill these words"}
-                                      <Arrow />
-                                    </Button>
-                                  )}
-                                  {!done && (
-                                    <Button variant="secondary" onClick={() => void markDone(task)} disabled={busyId === task.id || !canMarkDone} className={canMarkDone ? "" : "border-dashed"}>
-                                      {busyId === task.id ? "Saving…" : `Mark done (${task.minutes} min)`}
-                                    </Button>
-                                  )}
-                                  {!done && !canMarkDone && <span className="self-center text-xs text-muted">Open the lesson first, then mark it done.</span>}
-                                </div>
-                              )}
-                            </>
-                          )}
-
-                          {isQuizTask(task.type) && (
-                            <div className="mt-4">
-                              {task.type === "review" && (
-                                <p className="mb-3 text-sm">
-                                  {due.length > 0 ? (
-                                    <>
-                                      <strong>{due.length}</strong> item{due.length === 1 ? "" : "s"} due today.{" "}
-                                      <Link href="/review" className="text-accent hover:underline">
-                                        See the queue
-                                      </Link>
-                                    </>
-                                  ) : (
-                                    "Nothing is due yet — a short mixed review will be drawn instead."
-                                  )}
-                                </p>
-                              )}
-                              {running && runState === "loading" ? (
-                                <LoadingState label="Loading questions…" rows={2} />
-                              ) : running && runState === "error" ? (
-                                <div className="space-y-3">
-                                  <Callout tone="warn">Could not load the questions. Check your connection and try again.</Callout>
-                                  <div className="flex flex-wrap gap-2">
-                                    <Button onClick={() => void startQuiz(task)}>Retry</Button>
-                                    <Button variant="secondary" onClick={() => setRunningId(null)}>
-                                      Cancel
-                                    </Button>
                                   </div>
-                                </div>
-                              ) : running ? (
-                                <QuizRunner
-                                  questions={runQuestions}
-                                  title={task.title}
-                                  mode={task.type === "weekly-test" || task.type === "phase-test" ? "test" : "practice"}
-                                  storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${task.id}`}
-                                  contentLinks={contentLinks}
-                                  onComplete={(answers, seconds) => onQuizComplete(task, answers, seconds)}
-                                  onExit={() => setRunningId(null)}
-                                  resultActions={
-                                    <Button
-                                      variant="secondary"
-                                      onClick={() => {
-                                        setRunningId(null);
-                                        openNextAfter(task.id);
-                                      }}
-                                    >
-                                      Back to today&apos;s plan
-                                    </Button>
-                                  }
-                                />
-                              ) : (
-                                <>
-                                  {!done && lessonsPending && <p className="mb-3 text-sm text-warn">Finish today&apos;s lessons first for a fair score.</p>}
-                                  <Button onClick={() => void startQuiz(task)}>
-                                    {done ? "Take again" : `Start ${task.title.toLowerCase()} (${task.questionCount ?? defaultQuestionCount(task.type)} questions)`}
+                                ) : (
+                                  <QuizRunner
+                                    questions={runQuestions}
+                                    title={drillTitle(task)}
+                                    mode="practice"
+                                    storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${task.id}:drill`}
+                                    contentLinks={contentLinks}
+                                    onComplete={(answers, seconds) => onDrillComplete(task, answers, seconds)}
+                                    onExit={() => setRunningId(null)}
+                                    resultActions={<Button onClick={() => setRunningId(null)}>Back to the list</Button>}
+                                  />
+                                )}
+                              </div>
+                            )}
+                            {!(running && runIsDrill) && (
+                              <div className="mt-4 flex flex-wrap gap-2">
+                                {(task.type === "vocabulary" || task.type === "kanji") && task.contentIds.length > 0 && (
+                                  <Button variant="secondary" onClick={() => void startDrill(task)}>
+                                    {task.type === "kanji" ? "Drill these kanji" : "Drill these words"}
                                     <Arrow />
                                   </Button>
-                                </>
-                              )}
-                            </div>
-                          )}
+                                )}
+                                {/* "Mark done" appears only once the lesson has been opened. */}
+                                {!done && canMarkDone && (
+                                  <Button variant="secondary" onClick={() => void markDone(task)} disabled={busyId === task.id}>
+                                    {busyId === task.id ? "Saving…" : `Mark done (${task.minutes} min)`}
+                                  </Button>
+                                )}
+                              </div>
+                            )}
+                          </>
+                        )}
 
-                          {task.type === "mock-exam" && (
-                            <div className="mt-4 flex flex-wrap gap-2">
-                              <Button href={`/mock-exams/${task.examId ?? ""}`}>
-                                Open mock exam <Arrow />
-                              </Button>
-                              {!done && (
-                                <Button variant="secondary" onClick={() => void markDone(task)} disabled={busyId === task.id}>
-                                  {busyId === task.id ? "Saving…" : "I finished this exam — mark done"}
+                        {isQuizTask(task.type) && (
+                          <div className="mt-4">
+                            {task.type === "review" && !running && (
+                              <p className="mb-3 text-sm">
+                                {due.length > 0 ? (
+                                  <>
+                                    <strong>{due.length}</strong> item{due.length === 1 ? "" : "s"} due today.{" "}
+                                    <Link href="/review" className="text-accent hover:underline">
+                                      See the queue
+                                    </Link>
+                                  </>
+                                ) : (
+                                  "Nothing is due yet — a short mixed review will be drawn instead."
+                                )}
+                              </p>
+                            )}
+                            {running && runState === "loading" ? (
+                              <LoadingState label="Loading questions…" rows={2} />
+                            ) : running && runState === "error" ? (
+                              <div className="space-y-3">
+                                <Callout tone="warn">Could not load the questions. Check your connection and try again.</Callout>
+                                <div className="flex flex-wrap gap-2">
+                                  <Button onClick={() => void startQuiz(task)}>Retry</Button>
+                                  <Button variant="secondary" onClick={() => setRunningId(null)}>
+                                    Cancel
+                                  </Button>
+                                </div>
+                              </div>
+                            ) : running ? (
+                              <QuizRunner
+                                questions={runQuestions}
+                                title={task.title}
+                                mode={task.type === "weekly-test" || task.type === "phase-test" ? "test" : "practice"}
+                                storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${task.id}`}
+                                contentLinks={contentLinks}
+                                onComplete={(answers, seconds) => onQuizComplete(task, answers, seconds)}
+                                onExit={() => setRunningId(null)}
+                                resultActions={
+                                  <Button
+                                    onClick={() => {
+                                      setRunningId(null);
+                                      openNextAfter(task.id);
+                                    }}
+                                  >
+                                    Back to today&apos;s plan
+                                  </Button>
+                                }
+                              />
+                            ) : (
+                              <>
+                                {!done && lessonsPending && <p className="mb-3 text-sm text-warn">Finish today&apos;s lessons first for a fair score.</p>}
+                                <Button onClick={() => void startQuiz(task)}>
+                                  {done ? "Take again" : `Start ${task.title.toLowerCase()} (${task.questionCount ?? defaultQuestionCount(task.type)} questions)`}
+                                  <Arrow />
                                 </Button>
-                              )}
-                            </div>
-                          )}
-                        </div>
-                      )}
-                    </Card>
-                  </li>
-                );
-              })}
-            </ol>
-          )}
+                              </>
+                            )}
+                          </div>
+                        )}
 
-          {allDone && (
-            <Card padding="p-0" className="overflow-hidden animate-rise">
-              <div className="accent-gradient px-5 sm:px-6 py-4 text-white">
-                <p className="text-[11px] uppercase tracking-[0.14em] opacity-90">Nice work</p>
-                <h2 className="text-h2 text-white mt-0.5">Day {day.day} complete</h2>
-              </div>
-              <div className="p-5 sm:p-6">
-                <p className="text-sm text-ink-2">
-                  <strong className="text-ink">{doneMinutes} minutes</strong> logged today. Tomorrow&apos;s plan will include anything you missed in today&apos;s tests.
-                </p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {day.day < CURRICULUM_DAYS ? (
-                    <Button onClick={() => void onAdvance()} disabled={advancing} size="lg">
-                      {advancing ? "Advancing…" : `Advance to Day ${day.day + 1}`}
-                      <Arrow />
-                    </Button>
-                  ) : (
-                    <Button href="/progress" size="lg">
-                      You finished the 180-day plan — view progress
-                    </Button>
-                  )}
-                  <Button variant="secondary" size="lg" href="/dashboard">
-                    Back to dashboard
-                  </Button>
-                </div>
-              </div>
-            </Card>
-          )}
-        </div>
-
-        <aside className="space-y-4 min-w-0">
-          <Card padding="p-4 sm:p-5">
-            <div className="flex items-baseline justify-between gap-2">
-              <h2 className="font-semibold">Plan summary</h2>
-              <span className="text-xs text-muted tabular-nums">~{totalMinutes} min</span>
-            </div>
-            {loading ? (
-              <div className="mt-3 space-y-2" aria-hidden>
-                <div className="skeleton h-3 w-3/4" />
-                <div className="skeleton h-3 w-2/3" />
-                <div className="skeleton h-3 w-1/2" />
-              </div>
-            ) : (
-              <dl className="mt-3 space-y-1.5 text-sm">
-                {tasks.map((t) => {
-                  const d = completedIds.has(t.id);
-                  return (
-                    <div key={t.id} className="flex items-center gap-2">
-                      <span className={`h-1.5 w-1.5 rounded-full ${d ? "bg-ok" : "bg-line-strong"}`} aria-hidden />
-                      <dt className={`flex-1 truncate ${d ? "line-through text-muted" : ""}`}>{t.title}</dt>
-                      <dd className="text-muted tabular-nums text-xs">{t.minutes} min</dd>
-                    </div>
-                  );
-                })}
-              </dl>
-            )}
-            {userDoc && (
-              <p className="mt-3 border-t border-line pt-3 text-xs text-muted">
-                Target {userDoc.settings.dailyMinutesTarget} min/day · change in{" "}
-                <Link href="/profile" className="text-accent hover:underline">
-                  profile
-                </Link>
-              </p>
-            )}
-          </Card>
-
-          <Card padding="p-4 sm:p-5">
-            <h2 className="font-semibold">Jump to a day</h2>
-            <p className="mt-1 text-xs text-muted">Joining mid-way or repeating a day? Set your current day here.</p>
-            <form onSubmit={(e) => void onJump(e)} className="mt-3 flex gap-2">
-              <label className="sr-only" htmlFor="jump-day">
-                Day number
-              </label>
-              <input
-                id="jump-day"
-                type="number"
-                min={1}
-                max={CURRICULUM_DAYS}
-                value={jumpDay}
-                onChange={(e) => setJumpDay(e.target.value)}
-                className="w-24 h-10 rounded-full border border-line bg-surface px-4 text-sm tabular-nums focus:border-accent focus:outline-none focus:shadow-ring"
-              />
-              <span className="self-center text-sm text-muted tabular-nums">of {CURRICULUM_DAYS}</span>
-              <Button type="submit" variant="secondary">
-                Go
-              </Button>
-            </form>
-          </Card>
-
-          <Card padding="p-4 sm:p-5">
-            <h2 className="font-semibold">Shortcuts</h2>
-            <ul className="mt-2 divide-y divide-line">
-              {[
-                { href: "/review", type: "review", label: `Review queue`, hint: `${due.length} due` },
-                { href: "/tests", type: "test", label: "Take a test", hint: "daily quiz, weekly & level tests" },
-                { href: "/progress", type: "other", label: "Progress", hint: "skills & memory" },
-              ].map((s) => (
-                <li key={s.href}>
-                  <Link href={s.href} className="group flex items-center gap-3 py-2 text-sm">
-                    <SkillGlyph type={s.type} size="sm" />
-                    <span className="flex-1 min-w-0">
-                      <span className="block font-medium">{s.label}</span>
-                      <span className="block text-xs text-muted">{s.hint}</span>
-                    </span>
-                    <Arrow className="text-muted group-hover:text-accent" />
-                  </Link>
+                        {task.type === "mock-exam" && (
+                          <div className="mt-4 flex flex-wrap gap-2">
+                            <Button href={`/mock-exams/${task.examId ?? ""}`}>
+                              Open mock exam <Arrow />
+                            </Button>
+                            {!done && (
+                              <Button variant="secondary" onClick={() => void markDone(task)} disabled={busyId === task.id}>
+                                {busyId === task.id ? "Saving…" : "I finished this exam — mark done"}
+                              </Button>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    )}
+                  </Card>
                 </li>
-              ))}
-            </ul>
+              );
+            })}
+          </ol>
+        )}
+
+        {allDone && !runningTask && (
+          <Card className="animate-rise">
+            <h2 className="text-h2">Day {day.day} complete</h2>
+            <p className="mt-2 text-sm text-ink-2">
+              <strong className="text-ink">{doneMinutes} minutes</strong> logged today.
+            </p>
+            <div className="mt-4">
+              {day.day < CURRICULUM_DAYS ? (
+                <Button onClick={() => void onAdvance()} disabled={advancing} size="lg">
+                  {advancing ? "Advancing…" : `Advance to Day ${day.day + 1}`}
+                  <Arrow />
+                </Button>
+              ) : (
+                <Button href="/progress" size="lg">
+                  You finished the 180-day plan — view progress
+                </Button>
+              )}
+            </div>
           </Card>
-        </aside>
+        )}
       </div>
     </div>
   );

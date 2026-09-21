@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { findListening, getListening, getQuestionMap } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, LevelSchema, type Question } from "@/lib/content/schemas";
 import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadata";
-import { Badge, Breadcrumbs, Button, Card, Container, Section, SpeakButton } from "@/components/ui";
+import { Breadcrumbs, Button, Card, Container, Section, Speakable } from "@/components/ui";
 import { LISTENING_KIND_LABEL } from "@/components/listening/labels";
 import { ListeningPractice } from "@/components/listening/ListeningPractice";
 
@@ -49,17 +49,13 @@ function Transcript({ script }: { script: { speaker: string; line: string }[] })
               </dt>
               <dd className={`max-w-[85%] sm:max-w-[75%] ${right ? "text-right" : ""}`}>
                 <p lang="ja" className="ja text-[11px] text-muted mb-1 px-1">{l.speaker}</p>
-                <span className={`flex items-end gap-1.5 ${right ? "flex-row-reverse" : ""}`}>
-                  <p
-                    lang="ja"
-                    className={`ja inline-block text-left text-base sm:text-lg leading-relaxed px-4 py-2.5 rounded-2xl border ${
-                      right ? "bg-accent-soft border-accent/10 rounded-br-md" : "bg-surface-2 border-line rounded-bl-md"
-                    }`}
-                  >
-                    {l.line}
-                  </p>
-                  <SpeakButton text={l.line} size="xs" className="mb-1" />
-                </span>
+                <Speakable
+                  as="p"
+                  text={l.line}
+                  className={`inline-block text-left text-base sm:text-lg leading-relaxed px-4 py-2.5 rounded-2xl border ${
+                    right ? "bg-accent-soft border-accent/10 rounded-br-md" : "bg-surface-2 border-line rounded-bl-md"
+                  }`}
+                />
               </dd>
             </div>
           );
@@ -76,12 +72,11 @@ function VocabGrid({ vocab }: { vocab: { word: string; reading: string; meaning:
         {vocab.map((v, i) => (
           <div key={i} className="flex items-baseline gap-3 rounded-xl px-3 py-2.5 hover:bg-surface-2 transition">
             <dt className="shrink-0 min-w-0">
-              <span lang="ja" className="ja text-base font-medium text-ink">{v.word}</span>
+              <Speakable text={v.word} className="text-base font-medium text-ink" />
               {v.reading && (
                 <span lang="ja" className="ja block text-xs text-muted">{v.reading}</span>
               )}
             </dt>
-            <SpeakButton text={v.word} size="xs" className="self-center" />
             <dd className="text-sm text-ink-2 ml-auto text-right">{v.meaning}</dd>
           </div>
         ))}
@@ -97,7 +92,6 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
   const e = findListening(level, params.slug);
   if (!e) notFound();
   const L = LEVEL_LABEL[level];
-  const k = LISTENING_KIND_LABEL[e.kind];
   const qmap = getQuestionMap();
   const questions = e.questionIds.map((id) => qmap.get(id)).filter((q): q is Question => Boolean(q));
 
@@ -116,7 +110,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
   ];
 
   const transcript = (
-    <Section id="transcript" title="Transcript" intro="Read the script carefully. Anything you did not catch is what to shadow.">
+    <Section id="transcript" title="Transcript">
       <Transcript script={e.script} />
     </Section>
   );
@@ -142,24 +136,13 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
 
       <article className="pb-8">
         <header className="pt-8 pb-8 animate-rise">
-          <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent mb-3">
-            {L} · <span lang="ja" className="ja normal-case tracking-normal">{k.ja}</span> · {k.en}
-          </p>
           <h1 lang="ja" className="ja text-h1">
             {e.title}
           </h1>
-          <div className="flex flex-wrap items-center gap-1.5 mt-4">
-            <Badge tone="accent" size="md">{L}</Badge>
-            <Badge size="md">{e.script.length} lines</Badge>
-            <Badge size="md">{questions.length} {questions.length === 1 ? "question" : "questions"}</Badge>
-          </div>
-          <div className="mt-5 surface rounded-2xl px-4 py-3.5 sm:px-5">
-            <p className="text-sm">
-              <span className="text-[11px] uppercase tracking-[0.14em] text-muted mr-2">Setting</span>
-              <span className="text-ink">{e.setting}</span>
-            </p>
-            <p className="mt-1.5 text-sm text-muted">{k.hint}</p>
-          </div>
+          <p className="mt-4 text-sm">
+            <span className="text-[11px] uppercase tracking-[0.14em] text-muted mr-2">Setting</span>
+            <span className="text-ink">{e.setting}</span>
+          </p>
         </header>
 
         <ListeningPractice audioSrc={e.audioSrc} lines={e.script} questions={questions} transcript={transcript} vocabulary={vocabulary} />

@@ -25,6 +25,8 @@ function CheckCircle({ filled }: { filled: boolean }) {
 }
 
 const base = "inline-flex items-center gap-1.5 rounded-full h-9 px-3.5 text-sm font-medium transition active:scale-[0.98]";
+// Outline, never filled: the lesson's one filled control is the quick check / NEXT card, not this.
+const outline = "border border-ink/20 text-ink hover:bg-surface-2";
 
 export function MarkComplete({ contentId, type, level, href }: Props) {
   const { user } = useAuth();
@@ -45,7 +47,7 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
 
   if (!user) {
     return (
-      <Link href={`/login?next=${encodeURIComponent(href)}`} className={`${base} accent-gradient text-white shadow-sm hover:shadow-md hover:brightness-105`}>
+      <Link href={`/login?next=${encodeURIComponent(href)}`} className={`${base} ${outline}`}>
         <CheckCircle filled={false} /> Sign in to track
       </Link>
     );
@@ -90,7 +92,7 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
   }
 
   return (
-    <button type="button" onClick={mark} disabled={busy || done === null} className={`${base} accent-gradient text-white shadow-sm hover:shadow-md hover:brightness-105 disabled:opacity-60 disabled:cursor-wait`}>
+    <button type="button" onClick={mark} disabled={busy || done === null} className={`${base} ${outline} disabled:opacity-60 disabled:cursor-wait`}>
       <CheckCircle filled={false} /> Mark as learned
     </button>
   );

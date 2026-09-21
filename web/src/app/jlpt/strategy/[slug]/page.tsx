@@ -39,6 +39,8 @@ export default function StrategyArticlePage({ params }: { params: { slug: string
     { name: a.title },
   ];
   const ids = a.sections.map((s, i) => slugify(s.heading, i));
+  // An in-page rail longer than five items is a second page; drop it then.
+  const showToc = a.sections.length <= 5;
 
   return (
     <Container wide>
@@ -66,7 +68,8 @@ export default function StrategyArticlePage({ params }: { params: { slug: string
         <p className="mt-4 text-lg text-ink-2 leading-relaxed">{a.summary}</p>
       </header>
 
-      <div className="grid gap-10 lg:grid-cols-[14rem_1fr] xl:grid-cols-[16rem_1fr] mb-16">
+      <div className={`mb-16 ${showToc ? "grid gap-10 lg:grid-cols-[14rem_1fr] xl:grid-cols-[16rem_1fr]" : ""}`}>
+        {showToc && (
         <aside className="hidden lg:block">
           <nav aria-label="On this page" className="sticky top-24">
             <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-3">On this page</p>
@@ -92,6 +95,7 @@ export default function StrategyArticlePage({ params }: { params: { slug: string
             )}
           </nav>
         </aside>
+        )}
 
         <article className="min-w-0 max-w-content">
           {a.sections.map((s, i) => (

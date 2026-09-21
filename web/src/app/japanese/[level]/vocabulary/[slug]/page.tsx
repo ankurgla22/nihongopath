@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
-import { Badge, Callout, Container, JaText, Section, SpeakButton } from "@/components/ui";
+import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findVocab, getKanji, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type KanjiItem, type Level } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
@@ -48,13 +48,11 @@ function kanjiInWord(word: string, level: Level): { char: string; item?: KanjiIt
   });
 }
 
-const DIFFICULTY = ["", "Very common", "Common", "Standard", "Advanced", "Rare"];
-
-function WordPills({ label, words, render }: { label: string; words: string[]; render: (w: string) => ReactNode }) {
+function WordList({ label, words, render }: { label: string; words: string[]; render: (w: string) => ReactNode }) {
   return (
     <div className="grid gap-1.5 sm:grid-cols-[6rem_1fr] sm:items-baseline">
       <dt className="text-[11px] uppercase tracking-[0.14em] text-muted">{label}</dt>
-      <dd className="flex flex-wrap gap-1.5">
+      <dd className="flex flex-wrap gap-x-5 gap-y-1.5 text-lg">
         {words.map((w) => (
           <span key={w}>{render(w)}</span>
         ))}
@@ -87,21 +85,15 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
     { name: v.word },
   ];
 
-  const pill = "inline-flex items-center gap-1.5 rounded-full border pl-3 pr-1 h-8 text-sm ja transition";
+  // A word with its own page links there (that page has Listen); any other word plays on tap.
   const wordLink = (w: string) => {
     const hit = items.find((x) => x.word === w);
     return hit ? (
-      <span className={`${pill} border-line bg-surface text-ink hover:border-accent/50 hover:bg-accent-soft/40`}>
-        <Link href={`${base}/${hit.slug}`} lang="ja" className="hover:text-accent transition">
-          {w}
-        </Link>
-        <SpeakButton text={w} size="xs" />
-      </span>
+      <Link href={`${base}/${hit.slug}`} lang="ja" className="ja text-ink underline-offset-4 decoration-line hover:text-accent hover:underline transition">
+        {w}
+      </Link>
     ) : (
-      <span className={`${pill} border-line/70 bg-surface-2 text-ink-2`}>
-        <span lang="ja">{w}</span>
-        <SpeakButton text={w} size="xs" />
-      </span>
+      <Speakable text={w} className="text-ink-2" />
     );
   };
 
@@ -118,7 +110,6 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         index={idx + 1}
         total={items.length}
         unit="Word"
-        badges={<Badge tone="accent">JLPT {label}</Badge>}
         actions={
           <>
             <SaveButton contentId={v.id} type="vocabulary" title={v.word} href={href} />
@@ -132,15 +123,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         <header className="mt-8 surface rounded-2xl p-6 sm:p-8 relative overflow-hidden animate-rise">
           <div aria-hidden className="absolute inset-0 grid-bg opacity-60 pointer-events-none" />
           <div className="relative">
-            <div className="flex flex-wrap items-center gap-1.5">
-              <Badge tone="info">{v.pos}</Badge>
-              <Badge tone={v.difficulty >= 4 ? "warn" : "neutral"}>
-                {DIFFICULTY[v.difficulty]} · {v.difficulty}/5
-              </Badge>
-              {v.theme && <Badge>{v.theme}</Badge>}
-              {v.enriched && <Badge tone="ok">Full entry</Badge>}
-            </div>
-            <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-3">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
               <h1 lang="ja" className="ja text-5xl sm:text-6xl md:text-7xl font-semibold tracking-tight leading-none text-ink break-words">
                 {v.word}
               </h1>
@@ -171,17 +154,14 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         </Section>
 
         {v.collocations.length > 0 && (
-          <Section id="collocations" title="Common patterns" intro="Learn the word inside the phrases it actually appears in.">
-            <dl className="flex flex-wrap gap-2">
+          <Section id="collocations" title="Common patterns">
+            <dl className="surface rounded-2xl p-5 sm:p-6 divide-y divide-line">
               {v.collocations.map((c, i) => (
-                <div key={i} className="surface rounded-xl px-3.5 py-2 flex flex-col min-w-0 max-w-full">
-                  <dt className="flex items-center gap-2">
-                    <span lang="ja" className="ja text-lg font-semibold tracking-tight text-ink break-words">
-                      {c.ja}
-                    </span>
-                    <SpeakButton text={c.ja} size="xs" />
+                <div key={i} className="py-2.5 first:pt-0 last:pb-0 flex flex-wrap items-baseline gap-x-4 gap-y-0.5">
+                  <dt>
+                    <Speakable text={c.ja} className="text-lg font-semibold tracking-tight text-ink break-words" />
                   </dt>
-                  <dd className="text-xs text-muted">{c.en}</dd>
+                  <dd className="text-sm text-muted">{c.en}</dd>
                 </div>
               ))}
             </dl>
@@ -191,9 +171,9 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         {(v.related.length > 0 || v.synonyms.length > 0 || v.antonyms.length > 0) && (
           <Section id="related" title="Related words">
             <dl className="surface rounded-2xl p-5 sm:p-6 space-y-4">
-              {v.synonyms.length > 0 && <WordPills label="Synonyms" words={v.synonyms} render={wordLink} />}
-              {v.antonyms.length > 0 && <WordPills label="Antonyms" words={v.antonyms} render={wordLink} />}
-              {v.related.length > 0 && <WordPills label="Related" words={v.related} render={wordLink} />}
+              {v.synonyms.length > 0 && <WordList label="Synonyms" words={v.synonyms} render={wordLink} />}
+              {v.antonyms.length > 0 && <WordList label="Antonyms" words={v.antonyms} render={wordLink} />}
+              {v.related.length > 0 && <WordList label="Related" words={v.related} render={wordLink} />}
             </dl>
           </Section>
         )}
@@ -228,9 +208,6 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
                         <span lang="ja" className="ja block text-sm text-muted truncate">
                           {[...item.onyomi, ...item.kunyomi].join("・")}
                         </span>
-                        <span className="mt-1 inline-block">
-                          <Badge tone="accent">JLPT {LEVEL_LABEL[kl]}</Badge>
-                        </span>
                       </span>
                     </Link>
                   ) : (
@@ -248,7 +225,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
         )}
 
         {quickCheck.length > 0 && (
-          <Section id="quick-check" title="Quick check" intro="Two quick questions on this word.">
+          <Section id="quick-check" title="Quick check">
             <QuickCheckNote />
             <LessonQuiz questions={quickCheck} title="Quick check" />
           </Section>

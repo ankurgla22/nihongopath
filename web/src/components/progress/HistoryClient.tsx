@@ -115,18 +115,19 @@ export function HistoryClient() {
           </Button>
         }
       >
-        Your history fills in automatically as you complete tasks in Daily study.
+        Your history fills in as you complete tasks.
       </EmptyState>
     );
 
   return (
     <div className="pb-12">
-      {totals && (
+      {/* Stat tiles render only with a non-zero value. */}
+      {totals && (totals.days > 0 || totals.minutes > 0 || totals.completed > 0 || totals.acc !== null) && (
         <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 mb-6 animate-rise">
-          <Stat label="Study days" value={totals.days} hint="last 90 days" />
-          <Stat label="Study time" value={formatMinutes(totals.minutes)} hint="last 90 days" />
-          <Stat label="Days completed" value={totals.completed} hint="full plan finished" tone="ok" />
-          <Stat label="Quiz accuracy" value={totals.acc === null ? "—" : `${totals.acc}%`} hint="across all quizzes" />
+          {totals.days > 0 && <Stat label="Study days" value={totals.days} hint="last 90 days" />}
+          {totals.minutes > 0 && <Stat label="Study time" value={formatMinutes(totals.minutes)} hint="last 90 days" />}
+          {totals.completed > 0 && <Stat label="Days completed" value={totals.completed} tone="ok" />}
+          {totals.acc !== null && <Stat label="Quiz accuracy" value={`${totals.acc}%`} />}
         </div>
       )}
       <ul className="space-y-3" aria-label="Study days">

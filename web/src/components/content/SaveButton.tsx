@@ -25,9 +25,10 @@ function CheckIcon() {
   );
 }
 
-const base = "inline-flex items-center gap-1.5 rounded-full border h-9 px-3.5 text-sm font-medium transition active:scale-[0.98] disabled:opacity-60 disabled:cursor-wait";
-const idle = "border-line bg-surface text-ink-2 hover:bg-surface-2 hover:border-line-strong hover:text-ink";
-const on = "border-accent/30 bg-accent-soft text-accent-ink";
+// Text/icon button: no border or fill, so "Mark as learned" (outline) stays the bar's one visible control.
+const base = "inline-flex items-center gap-1.5 rounded-full h-9 px-3 text-sm font-medium transition active:scale-[0.98] disabled:opacity-60 disabled:cursor-wait";
+const idle = "text-ink-2 hover:text-ink hover:bg-surface-2";
+const on = "text-accent-ink hover:bg-accent-soft";
 
 export function SaveButton({ contentId, type, title, href }: Props) {
   const { user } = useAuth();

@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import type { Question } from "@/lib/content/schemas";
 import { getExamResult } from "@/lib/firestore/repo";
-import { PASS_SECTION_MIN, PASS_TOTAL_MIN, SECTION_SCALED_MAX, questionContentIds } from "@/lib/engine/scoring";
+import { PASS_SECTION_MIN, PASS_TOTAL_MIN, SECTION_SCALED_MAX } from "@/lib/engine/scoring";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { Arrow, Badge, Button, Card, Callout, Kbd, Pill, ProgressBar, Stat } from "@/components/ui";
 import { LoadingState, Ring } from "@/components/progress/shared";
@@ -167,10 +167,10 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
               </div>
             </div>
           </div>
-          <div className="mt-5 grid grid-cols-3 gap-2 sm:gap-3">
+          {/* The pass estimate is already the banner; only tiles with a value remain. */}
+          <div className={`mt-5 grid gap-2 sm:gap-3 ${result.seconds > 0 ? "grid-cols-2" : "grid-cols-1"}`}>
             <Stat label="Accuracy" value={`${acc}%`} hint={`${correct}/${total} correct`} tone={acc >= 80 ? "ok" : "neutral"} />
-            <Stat label="Time" value={formatDuration(result.seconds)} />
-            <Stat label="Estimate" value={result.passedEstimate ? "Pass" : "Not yet"} tone={result.passedEstimate ? "ok" : "neutral"} />
+            {result.seconds > 0 && <Stat label="Time" value={formatDuration(result.seconds)} />}
           </div>
         </div>
         <div className="overflow-x-auto border-t border-line">
@@ -242,14 +242,13 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
             ))}
           </div>
         )}
-        <div className="mt-4 flex flex-wrap gap-2 border-t border-line pt-4">
-          <Button href="/review" variant="secondary">
-            Open review queue
-          </Button>
-          <Button href="/mock-exams" variant="ghost">
-            Another exam
-          </Button>
-        </div>
+        {result.weakContentIds.length > 0 && (
+          <div className="mt-4 border-t border-line pt-4">
+            <Button href="/review" variant="outline">
+              Open review queue
+            </Button>
+          </div>
+        )}
       </Card>
 
       {/* Questions */}
@@ -344,19 +343,6 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
                     )}
                   </Callout>
                 </div>
-                {!a.correct && questionContentIds(q).length > 0 && (
-                  <p className="mt-3 text-sm flex flex-wrap gap-2">
-                    {questionContentIds(q).map((id) => {
-                      const r = resolved.get(id);
-                      return r ? (
-                        <Link key={id} href={r.href} className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 h-8 text-xs font-medium text-accent-ink hover:brightness-95 transition">
-                          Review this {r.type || "lesson"}: <span lang="ja">{r.title}</span>
-                          <Arrow className="h-3 w-3" />
-                        </Link>
-                      ) : null;
-                    })}
-                  </p>
-                )}
               </Card>
             );
           })}

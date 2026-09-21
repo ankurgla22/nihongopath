@@ -462,16 +462,15 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
   if (screen === "start") {
     const singleSec = sectionsById.get(singleSection);
     const totalQ = exam.sections.reduce((a, s) => a + countQuestions(s.questionIds), 0);
+    const totalMin = Math.round(totalSeconds / 60);
     return (
       <div className="py-8 sm:py-10 max-w-content mx-auto pb-16">
         {liveRegion}
         <div className="animate-rise">
-          <p className="text-xs font-medium uppercase tracking-[0.14em] text-accent mb-3">Mock exam · {exam.level.toUpperCase()}</p>
           <h1 className="text-h1">{examTitle(exam)}</h1>
-          <p lang="ja" className="ja mt-1 text-muted">
-            {exam.title}
+          <p className="mt-2 text-muted tabular-nums">
+            {exam.sections.length} sections · {totalQ} questions · {totalMin} min
           </p>
-          <p className="mt-4 text-muted text-lg leading-relaxed max-w-prose">{exam.description}</p>
         </div>
 
         {saved && (
@@ -493,64 +492,10 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
           </div>
         )}
 
-        <div className="mt-6 grid grid-cols-3 gap-3 animate-rise-2">
-          <Stat label="Sections" value={exam.sections.length} />
-          <Stat label="Questions" value={totalQ} />
-          <Stat label="Time" value={`${Math.round(totalSeconds / 60)} min`} />
-        </div>
-
-        <Card className="mt-4 animate-rise-3">
-          <fieldset>
-            <legend className="font-semibold text-lg">Choose a mode</legend>
-            <div role="radiogroup" aria-label="Exam mode" className="mt-3 inline-flex w-full sm:w-auto rounded-full border border-line bg-surface-2 p-1">
-              {(
-                [
-                  { v: "full", label: "Full exam" },
-                  { v: "single", label: "Single section" },
-                ] as const
-              ).map((m) => (
-                <label key={m.v} className={`flex-1 sm:flex-none cursor-pointer rounded-full px-4 h-9 inline-flex items-center justify-center text-sm font-medium transition ${mode === m.v ? "bg-ink text-bg shadow-sm" : "text-ink-2 hover:text-ink"}`}>
-                  <input type="radio" name="mode" className="sr-only" checked={mode === m.v} onChange={() => setMode(m.v)} />
-                  {m.label}
-                </label>
-              ))}
-            </div>
-            <p className="mt-3 text-sm text-muted">
-              {mode === "full" ? `All sections in order, each timed. ${Math.round(totalSeconds / 60)} minutes in total.` : "Practise one section under its own time limit."}
-            </p>
-            {mode === "single" && (
-              <select
-                aria-label="Section to practise"
-                className="mt-3 w-full sm:max-w-sm h-10 rounded-xl border border-line bg-surface px-3 text-sm focus:border-accent focus:outline-none focus:shadow-ring"
-                value={singleSection}
-                onChange={(e) => setSingleSection(e.target.value)}
-              >
-                {exam.sections.map((s) => (
-                  <option key={s.id} value={s.id}>
-                    {sectionGloss(s)} ({s.name}) · {Math.round(s.timeLimitSeconds / 60)} min
-                  </option>
-                ))}
-              </select>
-            )}
-          </fieldset>
-          <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-line pt-4">
-            <Button onClick={startExam} disabled={!uid || (mode === "single" && !singleSec)} size="lg">
-              {saved ? "Start a new attempt" : mode === "full" ? "Start full exam" : `Start ${singleSec ? sectionGloss(singleSec) : "section"}`}
-              <Arrow />
-            </Button>
-            <Button href="/mock-exams" variant="ghost">
-              Back to exams
-            </Button>
-            {!uid && <span className="text-sm text-warn">Sign-in has not finished loading on this device, so the exam cannot be saved yet.</span>}
-          </div>
-        </Card>
-
-        <Card className="mt-4" padding="p-0">
-          <div className="px-5 sm:px-6 py-4 border-b border-line">
-            <h2 className="font-semibold text-lg">Sections</h2>
-          </div>
+        <Card className="mt-6 animate-rise-2" padding="p-0">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
+              <caption className="sr-only">Sections</caption>
               <thead className="text-left text-muted text-[11px] uppercase tracking-wider">
                 <tr>
                   <th className="px-5 sm:px-6 py-2 font-medium">Section</th>
@@ -579,15 +524,54 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
                 <tr className="border-t border-line-strong font-semibold bg-bg-elev">
                   <td className="px-5 sm:px-6 py-2.5">Total</td>
                   <td className="px-3 py-2.5 text-right tabular-nums">{totalQ}</td>
-                  <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{Math.round(totalSeconds / 60)} min</td>
+                  <td className="px-5 sm:px-6 py-2.5 text-right tabular-nums">{totalMin} min</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </Card>
 
-        <details className="mt-4 group surface rounded-2xl">
-          <summary className="cursor-pointer list-none px-5 sm:px-6 py-4 font-semibold text-lg flex items-center justify-between gap-3 [&::-webkit-details-marker]:hidden">
+        {/* One filled button; "Start one section" is a text link that reveals the section picker. */}
+        <div className="mt-5 animate-rise-3">
+          {mode === "single" && (
+            <div className="mb-3 flex flex-wrap items-center gap-2">
+              <label htmlFor="exam-section" className="text-sm font-medium">
+                Section
+              </label>
+              <select
+                id="exam-section"
+                className="h-10 w-full sm:max-w-sm rounded-xl border border-line bg-surface px-3 text-sm focus:border-accent focus:outline-none focus:shadow-ring"
+                value={singleSection}
+                onChange={(e) => setSingleSection(e.target.value)}
+              >
+                {exam.sections.map((s) => (
+                  <option key={s.id} value={s.id}>
+                    {sectionGloss(s)} ({s.name}) · {Math.round(s.timeLimitSeconds / 60)} min
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
+          <div className="flex flex-wrap items-center gap-4">
+            <Button onClick={startExam} disabled={!uid || (mode === "single" && !singleSec)} size="lg">
+              {saved ? "Start a new attempt" : mode === "full" ? "Start full exam" : `Start ${singleSec ? sectionGloss(singleSec) : "section"}`}
+              <Arrow />
+            </Button>
+            {mode === "full" ? (
+              <button type="button" className="text-sm text-accent hover:underline" onClick={() => setMode("single")}>
+                Start one section instead
+              </button>
+            ) : (
+              <button type="button" className="text-sm text-accent hover:underline" onClick={() => setMode("full")}>
+                Start the full exam instead
+              </button>
+            )}
+          </div>
+          {!uid && <p className="mt-2 text-sm text-warn">Sign-in has not finished loading on this device, so the exam cannot be saved yet.</p>}
+        </div>
+
+        <details className="mt-6 group surface rounded-2xl">
+          <summary className="cursor-pointer list-none px-5 sm:px-6 py-4 font-semibold flex items-center justify-between gap-3 [&::-webkit-details-marker]:hidden">
             Exam rules
             <svg aria-hidden className="h-4 w-4 text-muted transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="m6 9 6 6 6-6" />

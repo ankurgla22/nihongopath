@@ -1,4 +1,4 @@
-import { Callout, JaText, SpeakButton } from "@/components/ui";
+import { Callout, JaText, Speakable } from "@/components/ui";
 import type { FoundationBlock } from "@/lib/content/schemas";
 import { KanaTile } from "./KanaTile";
 
@@ -85,14 +85,7 @@ function Block({ block }: { block: FoundationBlock }) {
                   <tr key={r} className={`border-t border-line ${r % 2 === 1 ? "bg-surface-2/40" : ""}`}>
                     {row.map((cell, c) => (
                       <td key={c} lang={hasJa(cell) ? "ja" : undefined} className={`px-4 py-2.5 align-top leading-relaxed ${hasJa(cell) ? "ja" : ""} ${c === 0 ? "font-medium text-ink whitespace-nowrap" : "text-ink-2"}`}>
-                        {c === 0 && hasJa(cell) ? (
-                          <span className="inline-flex items-center gap-2">
-                            {cell}
-                            <SpeakButton text={cell} size="xs" />
-                          </span>
-                        ) : (
-                          cell
-                        )}
+                        {c === 0 && hasJa(cell) ? <Speakable text={cell} /> : cell}
                       </td>
                     ))}
                   </tr>
@@ -128,10 +121,7 @@ function Block({ block }: { block: FoundationBlock }) {
           {block.title && <p className="px-5 pt-4 pb-1 font-semibold">{block.title}</p>}
           <ol className="divide-y divide-line">
             {block.items.map((w, i) => (
-              <li key={i} className="grid grid-cols-[1.75rem_1fr] gap-x-3 px-5 py-3">
-                <span className="text-[11px] font-semibold tabular-nums text-muted pt-2" aria-hidden>
-                  {String(i + 1).padStart(2, "0")}
-                </span>
+              <li key={i} className="px-5 py-3">
                 <JaText ja={w.ja} reading={w.reading} en={w.en} size="lg" />
               </li>
             ))}

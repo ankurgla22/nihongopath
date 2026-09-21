@@ -4,7 +4,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
 import { Badge, Button, Pill, Section, Stat } from "@/components/ui";
 import { listExamResults, listQuizResults } from "@/lib/firestore/repo";
 import type { ExamResultDoc, QuizKind, QuizResultDoc } from "@/lib/firestore/types";
-import { EmptyState, ErrorState, LoadingState, Ring, SignedOutState, errMessage, formatDate, formatSeconds, pct, LinkCard } from "./shared";
+import { EmptyState, ErrorState, LoadingState, Ring, SignedOutState, errMessage, formatDate, formatSeconds, LinkCard } from "./shared";
 
 const KIND_LABEL: Record<QuizKind, string> = {
   lesson: "Lesson quiz",
@@ -14,6 +14,9 @@ const KIND_LABEL: Record<QuizKind, string> = {
   review: "Review",
   practice: "Practice",
 };
+
+/** An "average accuracy" tile needs at least this many attempts to mean anything. */
+const AVERAGE_MIN_ATTEMPTS = 3;
 
 function kindLabel(k: string): string {
   return (KIND_LABEL as Record<string, string>)[k] ?? k;
@@ -77,19 +80,22 @@ export function TestHistoryClient() {
             </Button>
           }
         >
-          Finish a lesson mini test, a daily quiz or a mock exam and it will be saved here with every answer and explanation.
+          Every quiz, test and mock exam is saved here.
         </EmptyState>
       ) : (
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise">
-          <Stat label="Quizzes" value={quizzes.length} hint="saved with every answer" />
-          <Stat label="Average accuracy" value={avg === null ? "—" : pct(avg)} tone={avg !== null && avg >= 0.8 ? "ok" : "neutral"} />
-          <Stat label="Mock exams" value={exams.length} />
-          <Stat label="Best exam" value={bestExam ? Math.round(bestExam.totalScaled) : "—"} hint={bestExam ? "/ 180 scaled" : "none yet"} tone={bestExam?.passedEstimate ? "ok" : "neutral"} />
-        </div>
+        /* Stat tiles render only with a value; an average needs at least three attempts. */
+        (quizzes.length > 1 || exams.length > 0) && (
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise">
+            {quizzes.length > 1 && <Stat label="Quizzes" value={quizzes.length} />}
+            {avg !== null && quizzes.length >= AVERAGE_MIN_ATTEMPTS && <Stat label="Average accuracy" value={`${Math.round(avg * 100)}%`} tone={avg >= 0.8 ? "ok" : "neutral"} />}
+            {exams.length > 0 && <Stat label="Mock exams" value={exams.length} />}
+            {bestExam && <Stat label="Best exam" value={Math.round(bestExam.totalScaled)} hint="/ 180 scaled" tone={bestExam.passedEstimate ? "ok" : "neutral"} />}
+          </div>
+        )
       )}
 
       {quizzes.length > 0 && (
-        <Section title="Quizzes and tests" eyebrow="Newest first">
+        <div className="mt-6">
           {kinds.length > 1 && (
             <div role="group" aria-label="Filter by kind" className="flex flex-wrap gap-2 mb-4">
               {(["all", ...kinds] as const).map((k) => (
@@ -104,39 +110,26 @@ export function TestHistoryClient() {
               <li key={q.id}>
                 <LinkCard href={`/tests/history/${encodeURIComponent(q.id)}`}>
                   <div className="flex items-center gap-4">
-                    <Ring value={q.accuracy * 100} size={56} stroke={6} tone={q.accuracy >= 0.8 ? "ok" : q.accuracy < 0.6 ? "warn" : "accent"} label={`Accuracy ${pct(q.accuracy)}`}>
-                      <span className="text-xs font-semibold tabular-nums">{pct(q.accuracy)}</span>
+                    <Ring value={q.accuracy * 100} size={56} stroke={6} tone={q.accuracy >= 0.8 ? "ok" : q.accuracy < 0.6 ? "warn" : "accent"} label={`Score ${q.score} of ${q.total}`}>
+                      <span className="text-xs font-semibold tabular-nums">{q.score}/{q.total}</span>
                     </Ring>
                     <div className="min-w-0 flex-1">
                       <h3 className="font-medium truncate">{q.title}</h3>
                       <p className="text-sm text-muted mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-1">
-                        <Badge>{kindLabel(q.kind)}</Badge>
+                        <Badge tone={accuracyTone(q.accuracy)}>{kindLabel(q.kind)}</Badge>
                         <time dateTime={q.createdAt}>{formatDate(q.date)}</time>
-                        <span className="tabular-nums">· {formatSeconds(q.seconds)}</span>
                       </p>
                     </div>
-                    <dl className="hidden sm:block text-right">
-                      <dt className="text-[11px] uppercase tracking-wider text-muted">Score</dt>
-                      <dd className="font-semibold tabular-nums text-lg">
-                        {q.score}
-                        <span className="text-sm font-normal text-muted">/{q.total}</span>
-                      </dd>
-                    </dl>
-                    <span className="sm:hidden">
-                      <Badge tone={accuracyTone(q.accuracy)}>
-                        {q.score}/{q.total}
-                      </Badge>
-                    </span>
                   </div>
                 </LinkCard>
               </li>
             ))}
           </ul>
-        </Section>
+        </div>
       )}
 
       {exams.length > 0 && (
-        <Section title="Mock exams" eyebrow="JLPT scale" intro="Scaled score out of 180 (pass estimate ≈ 90).">
+        <Section title="Mock exams">
           <ul className="space-y-3" aria-label="Mock exam results">
             {exams.map((e) => (
               <li key={e.id}>

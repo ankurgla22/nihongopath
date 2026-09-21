@@ -2,7 +2,8 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import type React from "react";
 import { SpeakButton } from "./SpeakButton";
-export { SpeakButton };
+import { Speakable } from "./Speakable";
+export { SpeakButton, Speakable };
 
 /* ---------- Layout ---------- */
 
@@ -178,17 +179,19 @@ export function Breadcrumbs({ items }: { items: { name: string; path?: string }[
   );
 }
 
-/** Japanese text with optional reading and English. Every instance gets a listen button. */
+/** Japanese text with optional reading and English. The Japanese line plays on tap. */
 export function JaText({ ja, reading, en, size = "lg", note, speak = true }: { ja: string; reading?: string; en?: string; size?: "base" | "lg" | "xl" | "2xl"; note?: string; speak?: boolean }) {
   const sizes = { base: "text-base", lg: "text-lg sm:text-xl", xl: "text-2xl sm:text-3xl", "2xl": "text-4xl sm:text-5xl" };
+  const cls = `${sizes[size]} leading-relaxed text-ink`;
   return (
     <div>
-      <div className="flex items-start gap-2">
-        <p lang="ja" className={`ja ${sizes[size]} leading-relaxed text-ink flex-1 min-w-0`}>
+      {speak ? (
+        <Speakable as="p" text={ja} className={cls} />
+      ) : (
+        <p lang="ja" className={`ja ${cls}`}>
           {ja}
         </p>
-        {speak && <SpeakButton text={ja} size={size === "base" ? "xs" : "sm"} className="mt-1" />}
-      </div>
+      )}
       {reading && (
         <p lang="ja" className="ja text-sm text-muted mt-0.5">
           {reading}

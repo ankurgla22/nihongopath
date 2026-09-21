@@ -204,12 +204,6 @@ export function ReadingPractice({ questions, timeLimitSeconds }: { questions: Qu
         </div>
       )}
 
-      {!started && !finished && (
-        <p className="text-sm text-muted">
-          Press <strong className="text-ink">Start timer</strong>, read the passage above, then answer the questions. You can also answer without the timer.
-        </p>
-      )}
-
       <QuestionSet
         questions={questions}
         submitLabel="Check answers"

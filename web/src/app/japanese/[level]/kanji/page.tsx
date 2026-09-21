@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Arrow, Badge, Breadcrumbs, Button, Container, PageTitle } from "@/components/ui";
+import { Arrow, Breadcrumbs, Button, Container, PageTitle } from "@/components/ui";
 import { getKanji } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type KanjiItem } from "@/lib/content/schemas";
 import { isLevel } from "@/components/content/levels";
@@ -42,7 +41,6 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
   if (items.length === 0) notFound();
   const base = `/japanese/${level}/kanji`;
   const days = byDay(items);
-  const enriched = items.filter((k) => k.enriched).length;
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Japanese", path: "/japanese" },
@@ -55,21 +53,9 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
       <PageTitle
-        eyebrow={`JLPT ${label} · Kanji`}
         title={
           <>
             {label} kanji <span className="text-muted font-normal tabular-nums">· {items.length}</span>
-          </>
-        }
-        description={
-          <>
-            {items.length} characters in {days.length} sets of about {Math.round(items.length / days.length)}. Learn each kanji through the words it appears in, not in isolation.
-            {enriched > 0 && (
-              <>
-                {" "}
-                <Badge tone="ok">{enriched} full entries</Badge>
-              </>
-            )}
           </>
         }
         actions={
@@ -95,17 +81,9 @@ export default function KanjiIndexPage({ params }: { params: Params }) {
       <div className="space-y-12 mb-20">
         {days.map(([day, list]) => (
           <section key={day} id={`set-${day}`} aria-labelledby={`h-set-${day}`} className="scroll-mt-32">
-            <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-4">
-              <div className="flex items-baseline gap-3">
-                <h2 id={`h-set-${day}`} className="text-h2">
-                  Set {day}
-                </h2>
-                <span className="text-sm text-muted tabular-nums">{list.length} kanji</span>
-              </div>
-              <Link href={`${base}/${list[0].slug}`} className="text-sm text-accent hover:underline underline-offset-4 inline-flex items-center gap-1">
-                Start Set {day} <Arrow className="h-3.5 w-3.5" />
-              </Link>
-            </div>
+            <h2 id={`h-set-${day}`} className="text-h2 mb-4">
+              Set {day}
+            </h2>
             <KanjiGrid base={base} items={list.map((k) => [k.slug, k.character, k.meanings[0], k.enriched])} />
           </section>
         ))}

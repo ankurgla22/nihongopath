@@ -5,6 +5,8 @@
  */
 let cachedVoice: SpeechSynthesisVoice | null | undefined;
 let currentToken = 0;
+/** onEnd of the utterance currently playing, so the caller's "playing" state is cleared when another one starts. */
+let currentEnd: (() => void) | undefined;
 
 export function speechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
@@ -34,6 +36,8 @@ export function speakJapanese(text: string, opts: SpeakOptions = {}): () => void
   if (!speechSupported() || !text.trim()) return () => {};
   const synth = window.speechSynthesis;
   synth.cancel();
+  currentEnd?.();
+  currentEnd = opts.onEnd;
   const token = ++currentToken;
   const u = new SpeechSynthesisUtterance(text.replace(/[（(][^）)]*[）)]/g, "").replace(/[〜～]/g, ""));
   u.lang = "ja-JP";
@@ -45,7 +49,10 @@ export function speakJapanese(text: string, opts: SpeakOptions = {}): () => void
     if (token === currentToken) opts.onStart?.();
   };
   const done = () => {
-    if (token === currentToken) opts.onEnd?.();
+    if (token === currentToken) {
+      currentEnd = undefined;
+      opts.onEnd?.();
+    }
   };
   u.onend = done;
   u.onerror = done;
@@ -73,4 +80,7 @@ export function speakJapanese(text: string, opts: SpeakOptions = {}): () => void
 export function stopSpeaking() {
   if (speechSupported()) window.speechSynthesis.cancel();
   currentToken++;
+  const end = currentEnd;
+  currentEnd = undefined;
+  end?.();
 }

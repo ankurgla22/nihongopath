@@ -15,7 +15,7 @@ import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
-import { Arrow, Badge, Button, Callout, Card, PageTitle } from "@/components/ui";
+import { Arrow, Button, Callout, Card, PageTitle } from "@/components/ui";
 import { LoadingState, SkillGlyph } from "@/components/progress/shared";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
 import { levelForPhase, pickWithFallback, questionLevelsUpTo, type ContentLinks } from "./helpers";
@@ -111,57 +111,41 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
     await refresh();
   };
 
-  const actions = (
-    <>
-      <Button onClick={close}>Back to tests</Button>
-      <Button variant="secondary" href="/tests/history">
-        Test history
-      </Button>
-    </>
-  );
+  const actions = <Button onClick={close}>Back to tests</Button>;
 
   const tests = [
     {
       key: "daily",
       type: "quiz",
       title: "Daily quiz",
-      desc: "10 questions with instant explanations. Good for a quick check of today's material.",
-      meta: ["10 questions", "instant feedback"],
+      desc: "10 questions · instant feedback",
       cta: "Start daily quiz",
+      primary: true,
       onStart: () => start("daily", "daily", "Daily quiz", "practice", 10),
     },
     {
       key: "weekly",
       type: "weekly-test",
       title: "Weekly test",
-      desc: "25 questions, exam-style: no feedback until the end. Mixed skills at your level.",
-      meta: ["25 questions", "exam style"],
+      desc: "25 questions · exam style, feedback at the end",
       cta: "Start weekly test",
+      primary: false,
       onStart: () => start("weekly", "weekly", "Weekly test", "test", 25),
     },
     {
       key: "phase",
       type: "phase-test",
       title: `Level test (${level.toUpperCase()})`,
-      desc: `40 questions across grammar, vocabulary, kanji, reading and listening — everything covered so far at ${level.toUpperCase()}.`,
-      meta: ["40 questions", "exam style"],
+      desc: "40 questions · all five skills, exam style",
       cta: "Start level test",
+      primary: false,
       onStart: () => start("phase", "phase", `Level test (${level.toUpperCase()})`, "test", 40),
     },
   ];
 
   return (
     <div className="pb-16">
-      <PageTitle
-        eyebrow="Practice & tests"
-        title="Take a test"
-        description={`Questions are drawn from your level (${level.toUpperCase()}). Every result updates your progress and review queue.`}
-        actions={
-          <Button href="/tests/history" variant="secondary" size="sm">
-            Test history
-          </Button>
-        }
-      />
+      <PageTitle title="Take a test" />
       {error && (
         <div className="mb-4">
           <Callout tone="warn">{error}</Callout>
@@ -194,27 +178,23 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
         />
       ) : (
         <>
-          <div className="grid gap-4 md:grid-cols-3 animate-rise">
-            {tests.map((t) => (
-              <Card key={t.key} hover className="flex flex-col">
-                <div className="flex items-start justify-between gap-3">
-                  <SkillGlyph type={t.type} size="lg" tone="accent" />
-                  <div className="flex flex-wrap justify-end gap-1">
-                    {t.meta.map((m) => (
-                      <Badge key={m}>{m}</Badge>
-                    ))}
+          {/* Three test rows; only the daily quiz is filled. */}
+          <Card padding="p-0" className="overflow-hidden animate-rise">
+            <ul className="divide-y divide-line">
+              {tests.map((t) => (
+                <li key={t.key} className="flex flex-wrap items-center gap-3 sm:gap-4 p-4 sm:px-5">
+                  <SkillGlyph type={t.type} tone={t.primary ? "accent" : "neutral"} />
+                  <div className="min-w-0 flex-1 basis-48">
+                    <h2 className="font-semibold">{t.title}</h2>
+                    <p className="text-xs text-muted">{t.desc}</p>
                   </div>
-                </div>
-                <h2 className="mt-4 text-h2">{t.title}</h2>
-                <p className="mt-1.5 text-sm text-muted flex-1">{t.desc}</p>
-                <div className="mt-5">
-                  <Button onClick={t.onStart} disabled={!ready} className="w-full sm:w-auto">
+                  <Button onClick={t.onStart} disabled={!ready} variant={t.primary ? "primary" : "outline"}>
                     {t.cta} <Arrow />
                   </Button>
-                </div>
-              </Card>
-            ))}
-          </div>
+                </li>
+              ))}
+            </ul>
+          </Card>
 
           <Card className="mt-4 animate-rise-2">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -241,9 +221,8 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
           <Card className="mt-4 animate-rise-2">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <h2 className="text-h2">Drills</h2>
-              <span className="text-xs text-muted">{DRILL_COUNT} random items{drillLevel ? ` from ${drillLevel.toUpperCase()}` : ""} · generated fresh every time</span>
+              <span className="text-xs text-muted">{DRILL_COUNT} random items{drillLevel ? ` from ${drillLevel.toUpperCase()}` : ""}</span>
             </div>
-            <p className="mt-1.5 text-sm text-muted">Every word and kanji in the level is covered — not only the ones with bank questions. Each answer updates that item&apos;s review schedule.</p>
             <div className="mt-4 grid gap-2 sm:grid-cols-2">
               {(
                 [
@@ -263,10 +242,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
                     <SkillGlyph type={d.skill} />
                     <span className="flex-1 min-w-0">
                       <span className="block font-medium">{d.label}</span>
-                      <span className="block text-xs text-muted">
-                        {d.hint}
-                        {n > 0 && ` · ${n.toLocaleString()} items`}
-                      </span>
+                      <span className="block text-xs text-muted">{d.hint}</span>
                     </span>
                     <Arrow className="text-muted group-hover:text-accent" />
                   </button>
@@ -275,15 +251,9 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
             </div>
           </Card>
 
-          <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+          <div className="mt-6 text-sm">
             <Link href="/tests/history" className="inline-flex items-center gap-1 text-accent hover:underline">
               Test history <Arrow className="h-3.5 w-3.5" />
-            </Link>
-            <Link href="/mock-exams/history" className="inline-flex items-center gap-1 text-accent hover:underline">
-              Mock exam history <Arrow className="h-3.5 w-3.5" />
-            </Link>
-            <Link href="/daily-study" className="inline-flex items-center gap-1 text-accent hover:underline">
-              Today&apos;s plan <Arrow className="h-3.5 w-3.5" />
             </Link>
           </div>
         </>

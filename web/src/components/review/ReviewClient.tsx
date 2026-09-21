@@ -18,7 +18,7 @@ import { unpackQuestionIndex } from "@/lib/questions/pack";
 import { isDrillable } from "@/lib/drill/generate";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
-import { Arrow, Badge, Button, Callout, Card, EmptyState, PageTitle, Stat } from "@/components/ui";
+import { Arrow, Badge, Button, Callout, Card, PageTitle } from "@/components/ui";
 import { LoadingState, SkillGlyph } from "@/components/progress/shared";
 import { resolveContentIds, type ResolvedContent } from "@/components/progress/contentHref";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
@@ -107,17 +107,7 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
     return SKILLS.map((s) => ({ skill: s, items: g.get(s) ?? [] })).filter((x) => x.items.length > 0);
   }, [due]);
 
-  const upcomingBuckets = useMemo(() => {
-    const in3 = addDaysISO(today, 3);
-    const in7 = addDaysISO(today, 7);
-    const tomorrow = addDaysISO(today, 1);
-    return {
-      tomorrow: upcoming.filter((i) => i.due === tomorrow).length,
-      within3: upcoming.filter((i) => i.due <= in3).length,
-      within7: upcoming.filter((i) => i.due <= in7).length,
-      later: upcoming.filter((i) => i.due > in7).length,
-    };
-  }, [upcoming, today]);
+  const tomorrowCount = useMemo(() => upcoming.filter((i) => i.due === addDaysISO(today, 1)).length, [upcoming, today]);
 
   const loadSession = async (base: Pick<Session, "ids" | "drillIds" | "seed">) => {
     const token = ++sessionToken.current;
@@ -175,17 +165,11 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
     }
   };
 
-  const overdue = due.filter((i) => i.due < today).length;
-  const missed = due.filter((i) => i.source === "wrong-answer").length;
   const nothingDue = items !== null && due.length === 0;
 
   return (
     <div className="pb-16">
-      <PageTitle
-        eyebrow="Spaced review"
-        title="Review queue"
-        description="Items you missed or that are due by schedule. Answer them correctly to push them further out; miss them and they come back tomorrow."
-      />
+      <PageTitle title="Review queue" />
 
       {error && (
         <div className="mb-4">
@@ -220,162 +204,89 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
           onComplete={onComplete}
           onExit={closeSession}
           resultActions={
-            <>
-              <Button
-                onClick={() => {
-                  closeSession();
-                  setNotice("Items answered correctly were cleared; missed items stay due.");
-                }}
-              >
-                Back to queue
-              </Button>
-              <Button variant="secondary" href="/daily-study">
-                Continue today&apos;s study
-              </Button>
-            </>
+            <Button
+              onClick={() => {
+                closeSession();
+                setNotice("Items answered correctly were cleared; missed items stay due.");
+              }}
+            >
+              Back to queue
+            </Button>
           }
         />
+      ) : items === null ? (
+        <LoadingState label="Loading your review queue…" rows={3} />
+      ) : nothingDue ? (
+        /* One empty state, one button. */
+        <Card className="animate-rise">
+          <h2 className="text-h2">Nothing due</h2>
+          <p className="mt-1 text-sm text-muted">
+            {tomorrowCount > 0
+              ? `${tomorrowCount} item${tomorrowCount === 1 ? "" : "s"} tomorrow.`
+              : upcoming.length > 0
+                ? `${upcoming.length} item${upcoming.length === 1 ? "" : "s"} scheduled${upcoming[0] ? ` · next ${dueLabel(upcoming[0].due, today)}` : ""}.`
+                : "Wrong answers from quizzes land here automatically."}
+          </p>
+          <div className="mt-4">
+            <Button onClick={startSession} disabled={!user}>
+              Start a short mixed review <Arrow />
+            </Button>
+          </div>
+        </Card>
       ) : (
-        <>
-          {/* Stat row */}
-          <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 animate-rise">
-            <Stat label="Due today" value={items === null ? <span className="skeleton inline-block h-7 w-12" /> : due.length} tone={due.length > 0 ? "accent" : "ok"} hint={items === null ? undefined : due.length === 0 ? "queue is clear" : "highest priority first"} />
-            <Stat label="Overdue" value={items === null ? <span className="skeleton inline-block h-7 w-12" /> : overdue} hint="past their due date" />
-            <Stat label="From mistakes" value={items === null ? <span className="skeleton inline-block h-7 w-12" /> : missed} hint="added by wrong answers" />
-            <Stat label="Scheduled" value={items === null ? <span className="skeleton inline-block h-7 w-12" /> : upcoming.length} hint={`${upcomingBuckets.tomorrow} tomorrow`} />
+        /* The due list with one button. */
+        <Card padding="p-0" className="overflow-hidden animate-rise">
+          <div className="flex flex-wrap items-center justify-between gap-3 p-4 sm:p-5">
+            <h2 className="text-h2">
+              {due.length} item{due.length === 1 ? "" : "s"} to review
+            </h2>
+            <Button onClick={startSession} disabled={!user} size="lg">
+              Start review session <Arrow />
+            </Button>
           </div>
-
-          <div className="mt-5 grid gap-5 lg:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
-            <div className="space-y-4 min-w-0">
-              <Card className="relative overflow-hidden animate-rise-2">
-                <div aria-hidden className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full bg-accent-soft opacity-70 blur-3xl" />
-                <div className="relative flex flex-wrap items-center justify-between gap-3">
-                  <div className="min-w-0">
-                    <h2 className="text-h2">{items === null ? "Preparing your session…" : nothingDue ? "Nothing due right now" : `${due.length} item${due.length === 1 ? "" : "s"} to review`}</h2>
-                    <p className="mt-1 text-sm text-muted">
-                      {nothingDue
-                        ? `Your queue is clear. If you feel like practising anyway, a short mixed review picks ${SESSION_MIN} questions from what you have studied.`
-                        : `A session draws up to ${SESSION_MAX} questions, highest priority first.`}
-                    </p>
-                  </div>
-                  {nothingDue ? (
-                    <Button onClick={startSession} disabled={!user} variant="outline" size="md">
-                      Start a short mixed review <Arrow />
-                    </Button>
-                  ) : (
-                    <Button onClick={startSession} disabled={items === null || !user} size="lg">
-                      Start review session <Arrow />
-                    </Button>
-                  )}
-                </div>
-              </Card>
-
-              {items === null && <LoadingState label="Loading your review queue…" rows={3} />}
-
-              {groups.map((g) => (
-                <Card key={g.skill} padding="p-0" className="overflow-hidden">
-                  <div className="flex items-center gap-3 px-4 sm:px-5 py-3 border-b border-line bg-bg-elev">
-                    <SkillGlyph type={g.skill} size="sm" tone="accent" />
-                    <h3 className="font-semibold">{skillLabel(g.skill)}</h3>
-                    <Badge>{g.items.length}</Badge>
-                  </div>
-                  <ul className="divide-y divide-line">
-                    {g.items.map((it) => {
-                      const p = progress.get(it.contentId);
-                      const status = describeStatus(p?.status ?? "learning");
-                      const link = linkFor(it.contentId);
-                      return (
-                        <li key={it.contentId} className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5 px-4 sm:px-5 py-3">
-                          <div className="min-w-0 flex-1 basis-48">
-                            {link ? (
-                              <Link href={link.href} className="font-medium hover:text-accent transition">
-                                <span lang="ja" className="ja">
-                                  {link.title}
-                                </span>
-                              </Link>
-                            ) : (
-                              <span className="font-medium text-muted" aria-busy="true">
-                                {it.contentId}
-                              </span>
-                            )}
-                            <p className="text-xs text-muted mt-0.5">
-                              <span className="font-medium text-ink-2">{status.label}</span> — {status.description}
-                              {p && ` · ${p.correct}/${p.attempts} correct`}
-                            </p>
-                          </div>
-                          <div className="flex flex-wrap items-center gap-1.5 text-xs">
-                            <Badge tone={priorityTone(it.priority)}>priority {it.priority}</Badge>
-                            <Badge tone={it.due < today ? "warn" : "neutral"}>{dueLabel(it.due, today)}</Badge>
-                            <Badge tone={it.source === "wrong-answer" ? "accent" : "neutral"}>{it.source === "wrong-answer" ? "missed" : "scheduled"}</Badge>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </Card>
-              ))}
-
-              {nothingDue && (
-                <EmptyState title="Nothing to review today" action={<Button href="/daily-study">Continue today&apos;s study</Button>}>
-                  Wrong answers from quizzes and tests land here automatically, and items you got right come back on their spaced-review schedule.
-                </EmptyState>
-              )}
-            </div>
-
-            <aside className="space-y-4 min-w-0">
-              <Card padding="p-4 sm:p-5">
-                <h2 className="font-semibold">Upcoming</h2>
-                <dl className="mt-3 space-y-2 text-sm">
-                  {[
-                    { k: "Tomorrow", v: upcomingBuckets.tomorrow },
-                    { k: "Within 3 days", v: upcomingBuckets.within3 },
-                    { k: "Within 7 days", v: upcomingBuckets.within7 },
-                    { k: "Later", v: upcomingBuckets.later },
-                  ].map((r) => (
-                    <div key={r.k} className="flex items-center gap-3">
-                      <dt className="flex-1 text-ink-2">{r.k}</dt>
-                      <div className="h-1.5 w-20 rounded-full bg-surface-2 border border-line/60 overflow-hidden" aria-hidden>
-                        <div className="h-full bg-info rounded-full" style={{ width: `${upcoming.length ? (r.v / upcoming.length) * 100 : 0}%` }} />
+          {groups.map((g) => (
+            <div key={g.skill}>
+              <div className="flex items-center gap-3 px-4 sm:px-5 py-2.5 border-t border-line bg-bg-elev">
+                <SkillGlyph type={g.skill} size="sm" tone="accent" />
+                <h3 className="font-semibold text-sm">{skillLabel(g.skill)}</h3>
+                <span className="text-xs text-muted tabular-nums">{g.items.length}</span>
+              </div>
+              <ul className="divide-y divide-line border-t border-line">
+                {g.items.map((it) => {
+                  const p = progress.get(it.contentId);
+                  const status = describeStatus(p?.status ?? "learning");
+                  const link = linkFor(it.contentId);
+                  return (
+                    <li key={it.contentId} className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5 px-4 sm:px-5 py-3">
+                      <div className="min-w-0 flex-1 basis-48">
+                        {link ? (
+                          <Link href={link.href} className="font-medium hover:text-accent transition">
+                            <span lang="ja" className="ja">
+                              {link.title}
+                            </span>
+                          </Link>
+                        ) : (
+                          <span className="font-medium text-muted" aria-busy="true">
+                            {it.contentId}
+                          </span>
+                        )}
+                        <p className="text-xs text-muted mt-0.5">
+                          {status.label}
+                          {p && ` · ${p.correct}/${p.attempts} correct`}
+                        </p>
                       </div>
-                      <dd className="w-6 text-right tabular-nums text-muted">{r.v}</dd>
-                    </div>
-                  ))}
-                  <div className="flex justify-between border-t border-line pt-2 font-medium">
-                    <dt>Total scheduled</dt>
-                    <dd className="tabular-nums">{upcoming.length}</dd>
-                  </div>
-                </dl>
-                {upcoming.length > 0 && (
-                  <ul className="mt-3 space-y-1.5 text-xs text-muted border-t border-line pt-3">
-                    {upcoming.slice(0, 5).map((it) => (
-                      <li key={it.contentId} className="flex justify-between gap-2">
-                        <span className={`truncate ja ${linkFor(it.contentId) ? "" : "text-muted/70"}`} lang="ja">
-                          {linkFor(it.contentId)?.title ?? it.contentId}
-                        </span>
-                        <span className="shrink-0 tabular-nums">{dueLabel(it.due, today)}</span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </Card>
-              <Card padding="p-4 sm:p-5">
-                <h2 className="font-semibold">How it works</h2>
-                <ol className="mt-3 space-y-2.5 text-sm text-ink-2">
-                  {[
-                    "Every item you study moves from New to Learning, Review, Strong and finally Mastered.",
-                    "Get it right and the next review moves further away. Miss it and it comes back tomorrow.",
-                    "Items that are overdue, or that you found hard before, get a higher priority and come first.",
-                  ].map((t, i) => (
-                    <li key={i} className="flex gap-3">
-                      <span className="inline-grid h-6 w-6 shrink-0 place-items-center rounded-full bg-surface-2 border border-line text-xs font-semibold text-muted tabular-nums">{i + 1}</span>
-                      <span>{t}</span>
+                      <div className="flex flex-wrap items-center gap-1.5 text-xs">
+                        {it.priority >= 2 && <Badge tone={priorityTone(it.priority)}>priority {it.priority}</Badge>}
+                        {it.due < today && <Badge tone="warn">{dueLabel(it.due, today)}</Badge>}
+                        {it.source === "wrong-answer" && <Badge tone="accent">missed</Badge>}
+                      </div>
                     </li>
-                  ))}
-                </ol>
-              </Card>
-            </aside>
-          </div>
-        </>
+                  );
+                })}
+              </ul>
+            </div>
+          ))}
+        </Card>
       )}
     </div>
   );

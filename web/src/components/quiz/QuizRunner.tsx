@@ -5,10 +5,10 @@
  * - Practice mode: feedback (explanation + distractor explanations) after each answer.
  * - Test mode: no feedback until the final screen.
  * - Question types: mc, cloze (both plain choices) and ordering (chunks; pick the ★ chunk).
- * - Progress "3 / 10", per-question timer, keyboard shortcuts 1–6 / Enter, accessible radio group.
+ * - Sticky progress "3 / 10", keyboard shortcuts 1–6 / Enter (hint shown on the first question only), accessible radio group.
  * - In-progress answers are persisted in localStorage under `storageKey` so a refresh does not
  *   lose them; cleared when the quiz completes.
- * - Final screen: score, accuracy, time, wrong questions with explanations and
+ * - Final screen: score, one line, compact list of wrong questions grouped by lesson with
  *   "Review this grammar/word/kanji" links from `contentLinks`; ids missing from that map are
  *   resolved on demand from /api/content/resolve once the result screen is shown.
  *
@@ -21,9 +21,8 @@ import { useCallback, useEffect, useId, useMemo, useRef, useState, type ReactNod
 import type { Question } from "@/lib/content/schemas";
 import { questionContentIds, scoreQuiz, type SubmittedAnswer } from "@/lib/engine/scoring";
 import { fetchContentLinks } from "@/lib/questions/client";
-import { JA_RE, formatDuration, isQueuedError, type ContentLinks } from "@/components/study/helpers";
-import { Arrow, Badge, Button, Callout, Kbd, SpeakButton, Stat } from "@/components/ui";
-
+import { JA_RE, isQueuedError, type ContentLinks } from "@/components/study/helpers";
+import { Arrow, Button, Callout, Kbd, SpeakButton } from "@/components/ui";
 import { Ring } from "@/components/progress/shared";
 import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
 
@@ -75,16 +74,6 @@ function clearSaved(key: string | undefined) {
   }
 }
 
-function typeLabel(t: Question["type"]): string {
-  return t === "ordering" ? "Sentence order" : t === "cloze" ? "Fill the blank" : "Multiple choice";
-}
-
-/** Seconds per question to one decimal ("0.3 s", "12.0 s"); minutes when it is a long one. */
-function perQuestionLabel(seconds: number): string {
-  if (seconds >= 60) return formatDuration(seconds);
-  return `${seconds.toFixed(1)} s`;
-}
-
 function linkVerb(type?: string): string {
   switch (type) {
     case "grammar":
@@ -114,15 +103,6 @@ function CrossIcon({ className = "" }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" className={`h-4 w-4 ${className}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
       <path d="M6 6l12 12M18 6 6 18" />
-    </svg>
-  );
-}
-
-function ClockIcon({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 24 24" className={`h-3.5 w-3.5 ${className}`} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-      <circle cx="12" cy="12" r="9" />
-      <path d="M12 7v5l3 2" />
     </svg>
   );
 }
@@ -163,7 +143,6 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   const [restored, setRestored] = useState(false);
   const [hydrated, setHydrated] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [elapsed, setElapsed] = useState(0);
   const [saveState, setSaveState] = useState<{ status: "saving" | "saved" | "queued" | "error"; message?: string } | null>(null);
   const [fetchedLinks, setFetchedLinks] = useState<ContentLinks>({});
 
@@ -206,16 +185,8 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
     setHydrated(true);
   }, [storageKey, questionIds]);
 
-  // Per-question ticking timer.
-  useEffect(() => {
-    if (finished) return;
-    const id = window.setInterval(() => setElapsed(Math.floor((Date.now() - startRef.current) / 1000)), 1000);
-    return () => window.clearInterval(id);
-  }, [index, finished]);
-
   const total = questions.length;
   const q = questions[Math.min(index, Math.max(0, total - 1))];
-  const answeredSeconds = useMemo(() => answers.reduce((n, a) => n + a.seconds, 0), [answers]);
 
   const finish = useCallback(
     async (all: SubmittedAnswer[]) => {
@@ -249,7 +220,6 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
       setSelected(null);
       setRevealed(false);
       startRef.current = Date.now();
-      setElapsed(0);
     },
     [q, answers, total, finish, storageKey, questionIds]
   );
@@ -333,7 +303,6 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
     const score = scoreQuiz(questions, answers);
     const byId = new Map(questions.map((x) => [x.id, x]));
     const wrong = score.answers.filter((a) => !a.correct);
-    const totalSeconds = answers.reduce((n, a) => n + a.seconds, 0);
     const accuracy = Math.round(score.accuracy * 100);
     const tone = accuracy === 100 ? "ok" : accuracy >= 70 ? "accent" : "warn";
     // Group wrong answers by the first lesson they link to, so each lesson gets one "Review" link
@@ -364,8 +333,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
             </div>
           </Ring>
           <div className="text-center sm:text-left min-w-0">
-            <p className="text-xs uppercase tracking-[0.14em] text-muted">{title} · result</p>
-            <h2 className="mt-1 text-h2">{accuracy === 100 ? "Perfect score" : accuracy >= 70 ? "Well done" : "Keep going"}</h2>
+            <h2 className="text-h2">{accuracy === 100 ? "Perfect score" : accuracy >= 70 ? "Well done" : "Keep going"}</h2>
             <p className="mt-1.5 text-sm text-ink-2 max-w-prose">
               {accuracy === 100
                 ? "These items move further along in your review schedule."
@@ -373,72 +341,52 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
                   ? "Items you missed are back in your review queue for tomorrow."
                   : "Re-read the lessons linked below, then try the review again."}
             </p>
+            {saveState && (
+              <p className={`mt-2 text-xs ${saveState.status === "error" ? "text-warn" : "text-muted"}`}>
+                {saveState.status === "saving" && (
+                  <span className="inline-flex items-center gap-2">
+                    <span className="skeleton h-3 w-3 rounded-full" aria-hidden /> Saving your result…
+                  </span>
+                )}
+                {saveState.status === "saved" && "Result saved."}
+                {(saveState.status === "queued" || saveState.status === "error") && saveState.message}
+              </p>
+            )}
           </div>
         </div>
-
-        <div className={`mt-5 grid gap-2 sm:gap-3 ${totalSeconds >= 1 ? "grid-cols-3" : "grid-cols-2"}`}>
-          <Stat label="Accuracy" value={`${accuracy}%`} tone={accuracy >= 70 ? "ok" : "neutral"} />
-          <Stat label="Time" value={formatDuration(totalSeconds)} />
-          {totalSeconds >= 1 && <Stat label="Per question" value={perQuestionLabel(totalSeconds / Math.max(1, total))} />}
-        </div>
-
-        {saveState && (
-          <div className="mt-4">
-            <Callout tone={saveState.status === "saved" ? "ok" : saveState.status === "error" ? "warn" : "neutral"}>
-              {saveState.status === "saving" && (
-                <span className="inline-flex items-center gap-2">
-                  <span className="skeleton h-3 w-3 rounded-full" aria-hidden /> Saving your result…
-                </span>
-              )}
-              {saveState.status === "saved" && "Result saved. Progress, review queue and streak updated."}
-              {(saveState.status === "queued" || saveState.status === "error") && saveState.message}
-            </Callout>
-          </div>
-        )}
 
         {wrong.length > 0 && (
           <section className="mt-6" aria-labelledby={`${groupId}-wrong`}>
-            <div className="flex items-baseline justify-between gap-2">
-              <h3 id={`${groupId}-wrong`} className="font-semibold">
-                Questions to revisit
-              </h3>
-              <Badge tone="warn">{wrong.length}</Badge>
-            </div>
-            <div className="mt-3 space-y-4">
+            <h3 id={`${groupId}-wrong`} className="font-semibold">
+              Revisit <span className="text-muted font-normal tabular-nums">· {wrong.length}</span>
+            </h3>
+            <div className="mt-3 space-y-3">
               {groups.map((g) => (
-                <div key={g.key} className="rounded-xl border border-line bg-bg-elev p-3 sm:p-4">
+                <div key={g.key}>
                   {g.link ? (
-                    <Link href={g.link.href} className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent-ink hover:brightness-95 transition">
+                    <Link href={g.link.href} className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:underline">
                       {linkVerb(g.link.type)}: <span lang="ja">{g.link.title}</span>
                       <Arrow className="h-3 w-3" />
                     </Link>
                   ) : (
                     <p className="text-xs font-medium text-muted">Mixed items</p>
                   )}
-                  <ol className="mt-2 divide-y divide-line">
+                  <ol className="mt-1 divide-y divide-line">
                     {g.items.map(({ a, wq, n }) => (
-                      <li key={a.questionId} className="py-2.5 first:pt-1 last:pb-0">
-                        <p className="text-[11px] text-muted">
-                          {n}. {typeLabel(wq.type)}
-                        </p>
-                        <p lang="ja" className="ja mt-0.5 text-base whitespace-pre-line">
+                      <li key={a.questionId} className="py-2 flex flex-wrap items-baseline gap-x-3 gap-y-0.5 text-sm">
+                        <span className="text-[11px] text-muted tabular-nums">{n}.</span>
+                        <span lang="ja" className="ja min-w-0 flex-1 basis-48 whitespace-pre-line">
                           {wq.prompt}
-                        </p>
-                        <p className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
-                          <span className="inline-flex items-center gap-1.5 text-warn">
-                            <CrossIcon className="h-3.5 w-3.5 shrink-0" />
-                            <span lang="ja" className="ja">
-                              {a.selectedIndex === null ? "(skipped)" : wq.options[a.selectedIndex]}
-                            </span>
+                        </span>
+                        <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
+                          <span lang="ja" className="ja text-warn">
+                            {a.selectedIndex === null ? "(skipped)" : wq.options[a.selectedIndex]}
                           </span>
-                          <span className="inline-flex items-center gap-1.5 text-ok">
-                            <CheckIcon className="h-3.5 w-3.5 shrink-0" />
-                            <span lang="ja" className="ja font-medium">
-                              {wq.options[wq.answerIndex]}
-                            </span>
+                          <Arrow className="h-3 w-3 text-muted" />
+                          <span lang="ja" className="ja font-medium text-ok">
+                            {wq.options[wq.answerIndex]}
                           </span>
-                        </p>
-                        <p className="mt-1 text-sm leading-relaxed text-ink-2">{wq.explanation}</p>
+                        </span>
                       </li>
                     ))}
                   </ol>
@@ -462,24 +410,13 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
 
   return (
     <div className="surface rounded-2xl overflow-hidden">
-      {/* Top bar */}
-      <div className="border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
-        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
-          <div className="min-w-0 flex items-center gap-2">
-            <span className="font-semibold truncate">{title}</span>
-            <Badge tone={mode === "test" ? "info" : "neutral"}>{mode === "test" ? "Test" : "Practice"}</Badge>
-          </div>
-          <div className="flex items-center gap-2 text-xs">
-            <span className="font-medium tabular-nums" aria-live="polite">
-              {index + 1} / {total}
-            </span>
-            <span role="timer" aria-label="Time on this question and total time" className="inline-flex items-center gap-1 rounded-full border border-line bg-surface px-2.5 h-7 tabular-nums text-muted" title="Time on this question">
-              <ClockIcon />
-              <span aria-label="Time on this question">{formatDuration(elapsed)}</span>
-              <span className="opacity-50">·</span>
-              <span aria-label="Total time">{formatDuration(answeredSeconds + elapsed)}</span>
-            </span>
-          </div>
+      {/* Sticky progress */}
+      <div className="sticky top-16 z-[5] border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
+        <div className="flex items-center justify-between gap-x-4">
+          <span className="sr-only">{title}</span>
+          <span className="text-sm font-semibold tabular-nums" aria-live="polite">
+            {index + 1} / {total}
+          </span>
         </div>
         <div className={`mt-2.5 flex ${dense ? "gap-0.5" : "gap-1"}`} role="progressbar" aria-valuenow={index} aria-valuemin={0} aria-valuemax={total} aria-label="Quiz progress">
           {questions.map((_, i) => {
@@ -496,14 +433,8 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
       </div>
 
       <div className="p-4 sm:p-6">
-        <div className="flex flex-wrap items-center gap-2 text-xs text-muted">
-          <Badge>{typeLabel(q.type)}</Badge>
-          <Badge>{q.level.toUpperCase()}</Badge>
-          <span>difficulty {q.difficulty}/5</span>
-        </div>
-
         {restored && index > 0 && (
-          <p className="mt-3 rounded-lg border border-line bg-surface-2 px-3 py-2 text-xs text-muted" role="status">
+          <p className="rounded-lg border border-line bg-surface-2 px-3 py-2 text-xs text-muted" role="status">
             Resumed from question {index + 1} — your earlier answers were kept.
           </p>
         )}
@@ -543,37 +474,38 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
               dim: "border-line bg-surface opacity-60",
             }[state];
             return (
-              <div key={idx} className="flex items-start gap-2">
-                <button
-                  type="button"
-                  role="radio"
-                  aria-checked={selected === idx}
-                  onClick={() => choose(idx)}
-                  disabled={revealed}
-                  className={`group flex flex-1 min-w-0 items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition disabled:cursor-default focus:outline-none focus-visible:shadow-ring ${cls}`}
-                >
-                  <span className="mt-0.5 shrink-0">
-                    <Kbd>{idx + 1}</Kbd>
+              <button
+                key={idx}
+                type="button"
+                role="radio"
+                aria-checked={selected === idx}
+                onClick={() => choose(idx)}
+                disabled={revealed}
+                className={`group flex w-full min-w-0 items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition disabled:cursor-default focus:outline-none focus-visible:shadow-ring ${cls}`}
+              >
+                <span className="mt-0.5 shrink-0">
+                  <Kbd>{idx + 1}</Kbd>
+                </span>
+                <span className="min-w-0 flex-1">
+                  <span lang="ja" className={`ja text-base sm:text-lg ${q.type === "ordering" ? "rounded-md bg-surface-2 px-2 py-0.5" : ""}`}>
+                    {opt}
                   </span>
-                  <span className="min-w-0 flex-1">
-                    <span lang="ja" className={`ja text-base sm:text-lg ${q.type === "ordering" ? "rounded-md bg-surface-2 px-2 py-0.5" : ""}`}>
-                      {opt}
-                    </span>
-                    {revealed && perOption && idx !== q.answerIndex && q.distractorExplanations[idx] && <span className="block mt-1 text-sm text-muted">{cleanNote(q.distractorExplanations[idx])}</span>}
-                  </span>
-                  <span className="mt-0.5 shrink-0 w-4">
-                    {state === "correct" && <CheckIcon className="text-ok" />}
-                    {state === "incorrect" && <CrossIcon className="text-warn" />}
-                  </span>
-                </button>
-                {JA_RE.test(opt) && <SpeakButton text={opt} size="xs" className="mt-3" />}
-              </div>
+                  {revealed && perOption && idx !== q.answerIndex && q.distractorExplanations[idx] && <span className="block mt-1 text-sm text-muted">{cleanNote(q.distractorExplanations[idx])}</span>}
+                </span>
+                <span className="mt-0.5 shrink-0 w-4">
+                  {state === "correct" && <CheckIcon className="text-ok" />}
+                  {state === "incorrect" && <CrossIcon className="text-warn" />}
+                </span>
+              </button>
             );
           })}
         </div>
-        <p className="mt-2.5 hidden sm:flex items-center gap-1.5 text-xs text-muted">
-          Press <Kbd>1</Kbd>–<Kbd>{q.options.length}</Kbd> to choose, <Kbd>Enter</Kbd> to continue.
-        </p>
+        {/* Keyboard hint: desktop only, and only on the first question. */}
+        {index === 0 && (
+          <p className="mt-2.5 hidden sm:flex items-center gap-1.5 text-xs text-muted">
+            Press <Kbd>1</Kbd>–<Kbd>{q.options.length}</Kbd> to choose, <Kbd>Enter</Kbd> to continue.
+          </p>
+        )}
 
         {revealed && (
           <div className="mt-4 animate-rise">
@@ -601,17 +533,16 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
             </Button>
           )}
           {onExit && (
-            <div className="ml-auto">
-              <Button
-                variant="secondary"
-                onClick={() => {
-                  // Answers so far are already in localStorage (writeSaved on each commit), so leaving is safe.
-                  if (answers.length === 0 || window.confirm("Leave the quiz? Your answers so far are kept for next time.")) onExit();
-                }}
-              >
-                Exit quiz
-              </Button>
-            </div>
+            <button
+              type="button"
+              className="ml-auto text-sm text-muted hover:text-ink hover:underline"
+              onClick={() => {
+                // Answers so far are already in localStorage (writeSaved on each commit), so leaving is safe.
+                if (answers.length === 0 || window.confirm("Leave the quiz? Your answers so far are kept for next time.")) onExit();
+              }}
+            >
+              Exit
+            </button>
           )}
         </div>
       </div>

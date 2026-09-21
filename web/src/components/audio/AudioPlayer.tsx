@@ -72,6 +72,7 @@ const bigBtn = "inline-flex items-center justify-center h-14 w-14 shrink-0 round
  *   and a shadowing mode that plays one line at a time, pausing so the learner can repeat it.
  *
  * `showLines` reveals the current line text during shadowing (only enable after the transcript step).
+ * `minimal` shows Play + speed only (no Replay, no Shadowing): used before the transcript step.
  */
 export function AudioPlayer({
   audioSrc,
@@ -79,6 +80,7 @@ export function AudioPlayer({
   showLines = false,
   label = "Audio",
   shadowing: shadowingProp,
+  minimal = false,
 }: {
   audioSrc?: string;
   lines: ScriptLine[];
@@ -86,13 +88,14 @@ export function AudioPlayer({
   label?: string;
   /** Force shadowing mode on (used by the Shadow step). Otherwise the learner toggles it. */
   shadowing?: boolean;
+  minimal?: boolean;
 }) {
   const [rate, setRate] = useState<Rate>(1);
   const [shadowToggle, setShadowToggle] = useState(false);
-  const shadowing = shadowingProp ?? shadowToggle;
+  const shadowing = minimal ? false : (shadowingProp ?? shadowToggle);
 
   if (audioSrc) {
-    return <FileAudio src={audioSrc} rate={rate} setRate={setRate} label={label} />;
+    return <FileAudio src={audioSrc} rate={rate} setRate={setRate} label={label} minimal={minimal} />;
   }
   return (
     <TtsAudio
@@ -100,9 +103,10 @@ export function AudioPlayer({
       rate={rate}
       setRate={setRate}
       shadowing={shadowing}
-      setShadowing={shadowingProp === undefined ? setShadowToggle : undefined}
+      setShadowing={!minimal && shadowingProp === undefined ? setShadowToggle : undefined}
       showLines={showLines}
       label={label}
+      minimal={minimal}
     />
   );
 }
@@ -144,32 +148,33 @@ function LineProgress({ total, current, status }: { total: number; current: numb
   );
 }
 
-function FileAudio({ src, rate, setRate, label }: { src: string; rate: Rate; setRate: (r: Rate) => void; label: string }) {
+function FileAudio({ src, rate, setRate, label, minimal }: { src: string; rate: Rate; setRate: (r: Rate) => void; label: string; minimal: boolean }) {
   const ref = useRef<HTMLAudioElement>(null);
   useEffect(() => {
     if (ref.current) ref.current.playbackRate = rate;
   }, [rate]);
   return (
     <div className="glass border border-line rounded-2xl shadow-sm p-4 sm:p-5 space-y-3">
-      <p className="text-[11px] uppercase tracking-[0.14em] text-muted">{label}</p>
       <audio ref={ref} controls preload="metadata" src={src} className="w-full" aria-label={label}>
         Your browser does not support audio playback.
       </audio>
       <div className="flex flex-wrap items-center gap-2">
         <RateControl rate={rate} setRate={setRate} />
-        <button
-          type="button"
-          className={ctlSecondary}
-          onClick={() => {
-            const a = ref.current;
-            if (!a) return;
-            a.currentTime = 0;
-            void a.play();
-          }}
-        >
-          <IconReplay />
-          Replay from start
-        </button>
+        {!minimal && (
+          <button
+            type="button"
+            className={ctlSecondary}
+            onClick={() => {
+              const a = ref.current;
+              if (!a) return;
+              a.currentTime = 0;
+              void a.play();
+            }}
+          >
+            <IconReplay />
+            Replay from start
+          </button>
+        )}
       </div>
     </div>
   );
@@ -183,6 +188,7 @@ function TtsAudio({
   setShadowing,
   showLines,
   label,
+  minimal,
 }: {
   lines: ScriptLine[];
   rate: Rate;
@@ -191,6 +197,7 @@ function TtsAudio({
   setShadowing?: (b: boolean) => void;
   showLines: boolean;
   label: string;
+  minimal: boolean;
 }) {
   const [supported, setSupported] = useState<boolean | null>(null);
   const [status, setStatus] = useState<"idle" | "playing" | "waiting" | "paused" | "done">("idle");
@@ -284,7 +291,7 @@ function TtsAudio({
           : "Finished";
 
   return (
-    <div className="glass border border-line rounded-2xl shadow-sm p-4 sm:p-5 space-y-4">
+    <div role="group" aria-label={label} className="glass border border-line rounded-2xl shadow-sm p-4 sm:p-5 space-y-4">
       <div className="flex items-center gap-4">
         {/* Primary play / pause / resume control */}
         {!busy && status !== "paused" ? (
@@ -320,10 +327,7 @@ function TtsAudio({
         )}
 
         <div className="min-w-0 flex-1">
-          <p className="text-[11px] uppercase tracking-[0.14em] text-muted">
-            {label}
-          </p>
-          <p className="text-sm font-medium text-ink mt-0.5 truncate" role="status" aria-live="polite">
+          <p className="text-sm font-medium text-ink truncate" role="status" aria-live="polite">
             {status === "waiting" && <span aria-hidden className="inline-block h-2 w-2 rounded-full bg-warn animate-pulse mr-2 align-middle" />}
             {status === "playing" && <span aria-hidden className="inline-block h-2 w-2 rounded-full bg-ok animate-pulse mr-2 align-middle" />}
             {status === "idle" ? (shadowing ? "Start shadowing" : "Play") : statusText}
@@ -336,10 +340,12 @@ function TtsAudio({
 
       <div className="flex flex-wrap items-center gap-2">
         <RateControl rate={rate} setRate={setRate} />
-        <button type="button" className={ctlSecondary} onClick={() => speakFrom(0)}>
-          <IconReplay />
-          Replay
-        </button>
+        {!minimal && (
+          <button type="button" className={ctlSecondary} onClick={() => speakFrom(0)}>
+            <IconReplay />
+            Replay
+          </button>
+        )}
         {busy && (
           <button type="button" className={ctlSecondary} onClick={stop}>
             <IconStop />
