@@ -6,6 +6,8 @@ import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { LEVEL_INFO, isLevel } from "@/components/content/levels";
 import { breadcrumbJsonLd, courseJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
+import { FaqSection } from "@/components/content/FaqSection";
+import { faqJsonLd, levelFaq } from "@/lib/seo/faq";
 
 type Params = { level: string };
 
@@ -51,6 +53,7 @@ export default function LevelHubPage({ params }: { params: Params }) {
     { name: "Japanese", path: "/japanese" },
     { name: label, path: base },
   ];
+  const faq = levelFaq(level, { grammar: grammar.length, vocabulary: vocab.length, kanji: kanji.length, reading: reading.length, listening: listening.length });
 
   return (
     <Container>
@@ -63,6 +66,7 @@ export default function LevelHubPage({ params }: { params: Params }) {
             description: `${info.tagline} ${info.description}`,
             parts: sections.map((s) => ({ name: `${label} ${s.name}`, path: s.href })),
           }),
+          faqJsonLd(base, faq),
         ]}
       />
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
@@ -100,6 +104,9 @@ export default function LevelHubPage({ params }: { params: Params }) {
           </li>
         ))}
       </ul>
+
+      <FaqSection items={faq} intro={`Official facts about the ${label} test and what this course covers. Figures come from the JLPT site; see the JLPT guide for sources.`} />
+      <div className="h-12" />
     </Container>
   );
 }

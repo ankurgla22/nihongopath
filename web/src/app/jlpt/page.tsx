@@ -4,7 +4,11 @@ import type { Metadata } from "next";
 import { pageMetadata, breadcrumbJsonLd } from "@/lib/seo/metadata";
 import { LAST_MODIFIED, SITE_URL } from "@/lib/seo/site";
 import { JLPT_SOURCES, JLPT_SOURCES_CHECKED } from "@/lib/seo/sources";
+import { faqJsonLd, jlptFaq } from "@/lib/seo/faq";
+import { FaqSection } from "@/components/content/FaqSection";
 import { Arrow, Badge, Breadcrumbs, Container, PageTitle, Section, Stat } from "@/components/ui";
+
+const FAQ = jlptFaq();
 
 export const metadata: Metadata = pageMetadata({
   title: "JLPT Guide: Levels, N2 Test Structure, Scoring and Dates",
@@ -46,6 +50,7 @@ export default function JlptPage() {
               // The official pages every figure on this page is taken from.
               citation: JLPT_SOURCES.map((s) => ({ "@type": "WebPage", name: s.name, url: s.url })),
             },
+            faqJsonLd("/jlpt", FAQ),
           ]),
         }}
       />
@@ -201,6 +206,8 @@ export default function JlptPage() {
               .
             </p>
           </Section>
+
+          <FaqSection items={FAQ} intro="Short factual answers, taken from the official JLPT pages listed under Sources." />
 
           <Section
             id="sources"
