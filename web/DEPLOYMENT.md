@@ -93,6 +93,12 @@ Watch in the console under Build > App Hosting, or `firebase apphosting:backends
 
 Smoke test after a rollout: open `/` and `/japanese/n5/grammar`, `/robots.txt` and `/sitemap/0.xml` (URLs must use the production host), `/login` then sign in and open `/dashboard`.
 
+## 5a. Content last-modified dates
+
+`content/lastmod.json` maps every content id to the date its file last changed in git. The sitemap,
+lesson schema and visible "Updated" dates read it. Regenerate and commit it whenever content changes:
+`npm run content:lastmod` (the deploy script runs it; GitHub-triggered rollouts use the committed file).
+
 ## 5b. IndexNow (Bing, Yandex, Seznam, Naver)
 
 `npm run seo:indexnow` submits every sitemap URL to IndexNow; `npm run deploy` runs it after a

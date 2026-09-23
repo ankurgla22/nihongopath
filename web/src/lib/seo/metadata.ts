@@ -11,6 +11,7 @@ import {
   SITE_SAME_AS,
   SITE_TAGLINE,
   SITE_URL,
+  absUrl,
 } from "./site";
 
 /** Default social preview, rendered by src/app/opengraph-image.tsx. */
@@ -88,7 +89,7 @@ export function breadcrumbJsonLd(items: { name: string; path: string }[]) {
       "@type": "ListItem",
       position: i + 1,
       name: it.name,
-      item: `${SITE_URL}${it.path}`,
+      item: absUrl(it.path),
     })),
   };
 }
@@ -102,7 +103,7 @@ export function organizationJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     description: SITE_DESCRIPTION,
-    logo: { "@type": "ImageObject", url: `${SITE_URL}/opengraph-image`, width: 1200, height: 630 },
+    logo: { "@type": "ImageObject", url: `${SITE_URL}/icon`, width: 512, height: 512 },
     parentOrganization: { "@type": "Organization", name: SITE_OPERATOR.name, url: SITE_OPERATOR.url },
     ...(SITE_SAME_AS.length ? { sameAs: SITE_SAME_AS } : {}),
   };
@@ -161,7 +162,7 @@ export function courseJsonLd(opts: { level: CourseLevel; name: string; descripti
     isAccessibleForFree: true,
     dateModified: LAST_MODIFIED,
     isPartOf: { "@id": `${SITE_URL}/#website` },
-    hasPart: opts.parts.map((p) => ({ "@type": "WebPage", name: p.name, url: `${SITE_URL}${p.path}` })),
+    hasPart: opts.parts.map((p) => ({ "@type": "WebPage", name: p.name, url: absUrl(p.path) })),
     about: ABOUT_ENTITIES,
   };
 }
@@ -179,7 +180,7 @@ export function courseListJsonLd(levels: CourseLevel[]) {
   };
 }
 
-export function articleJsonLd(opts: { headline: string; description: string; path: string; inLanguage?: string; level?: CourseLevel }) {
+export function articleJsonLd(opts: { headline: string; description: string; path: string; inLanguage?: string | string[]; level?: CourseLevel; dateModified?: string }) {
   return {
     "@context": "https://schema.org",
     // LearningResource describes these pages most accurately, but generic crawlers and
@@ -189,15 +190,16 @@ export function articleJsonLd(opts: { headline: string; description: string; pat
     headline: opts.headline,
     name: opts.headline,
     description: clampDescription(opts.description),
-    url: `${SITE_URL}${opts.path}`,
-    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${opts.path}` },
+    url: absUrl(opts.path),
+    mainEntityOfPage: { "@type": "WebPage", "@id": absUrl(opts.path) },
     inLanguage: opts.inLanguage ?? "en",
     educationalLevel: educationalLevel(opts.level),
     learningResourceType: "Lesson",
     teaches: "Japanese language",
     isAccessibleForFree: true,
     datePublished: SITE_PUBLISHED,
-    dateModified: LAST_MODIFIED,
+    // The item's own last change (content/lastmod.json) when the page passes it; build time otherwise.
+    dateModified: opts.dateModified ?? LAST_MODIFIED,
     author: { "@id": `${SITE_URL}/#organization` },
     publisher: { "@id": `${SITE_URL}/#organization` },
     // A lesson belongs to its level's Course (declared on the level hub) as well as the site.

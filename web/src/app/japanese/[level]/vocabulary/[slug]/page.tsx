@@ -14,6 +14,7 @@ import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateVocabDrill } from "@/lib/drill/generate";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
 
@@ -98,12 +99,13 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
     );
   };
 
+  const updated = contentLastMod(v.id);
   return (
     <Container>
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: v.word, path: href }]),
-          articleJsonLd({ level: params.level, headline: `${v.word}（${v.reading}）— JLPT ${label} vocabulary`, description: v.meaning, path: href, inLanguage: "ja" }),
+          articleJsonLd({ dateModified: updated,  level: params.level, headline: `${v.word}（${v.reading}）— JLPT ${label} vocabulary`, description: v.meaning, path: href, inLanguage: "ja" }),
         ]}
       />
       <LessonNavTop
@@ -137,7 +139,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
             )}
             <p className="mt-4 text-xl sm:text-2xl leading-snug text-ink-2 max-w-prose">{v.meaning}</p>
           </div>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
         </header>
 
         <Section id="examples" title="Examples">

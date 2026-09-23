@@ -5,8 +5,6 @@ import { getGrammar } from "@/lib/content";
 import { LEVELS } from "@/lib/content/schemas";
 import { LEVEL_INFO } from "@/components/content/levels";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
-import { websiteJsonLd } from "@/lib/seo/metadata";
-import { JsonLd } from "@/components/content/JsonLd";
 import { StickyCta } from "@/components/layout/StickyCta";
 import { RedirectIfSignedIn } from "@/components/layout/RedirectIfSignedIn";
 
@@ -26,7 +24,6 @@ export default function HomePage() {
   return (
     <>
       <RedirectIfSignedIn />
-      <JsonLd data={websiteJsonLd(SITE_TAGLINE)} />
 
       {/* ---------- Hero ---------- */}
       <section id="hero">

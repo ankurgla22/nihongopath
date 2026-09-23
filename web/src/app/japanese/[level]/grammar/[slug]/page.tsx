@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findGrammar, getGrammar, getQuestionMap, resolveContentId } from "@/lib/content";
+import { LEVELS as ALL_LEVELS } from "@/lib/content/schemas";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
 import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
@@ -15,6 +16,7 @@ import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
 
@@ -28,7 +30,7 @@ export function generateMetadata({ params }: { params: Params }) {
   if (!g) return {};
   const label = LEVEL_LABEL[params.level];
   return pageMetadata({
-    title: `${g.title} (${g.romaji}) — JLPT ${label} grammar: meaning, formation, examples`,
+    title: `${g.title} (${g.romaji}): JLPT ${label} grammar`,
     // g.meaning usually carries its own quotation marks, so it is never wrapped in quotes here.
     description: `${g.title} (${g.romaji}) — ${asSentence(g.meaning)} Formation, natural examples, common mistakes and JLPT ${label} tips.`,
     path: `/japanese/${params.level}/grammar/${g.slug}`,
@@ -108,12 +110,19 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
     ...(mistake ? [{ q: `What is a common mistake with ${g.title}?`, a: `Wrong: ${mistake.wrong} Right: ${mistake.right} ${asSentence(mistake.why)}` }] : []),
   ];
 
+  const updated = contentLastMod(g.id);
+  // The same form is often taught again at another level with a different sense or register.
+  // Linking the treatments keeps them distinct pages (they are not duplicates) while telling
+  // readers and crawlers they belong together.
+  const alsoAt = ALL_LEVELS.filter((l) => l !== level)
+    .map((l) => findGrammar(l, g.slug))
+    .filter((x): x is NonNullable<typeof x> => Boolean(x));
   return (
     <Container>
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: g.title, path: href }]),
-          articleJsonLd({ level, headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
+          articleJsonLd({ dateModified: updated,  level, headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
           faqJsonLd(href, faq),
         ]}
       />
@@ -139,7 +148,21 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
             <SpeakButton text={g.title} size="md" label />
           </div>
           <p className="mt-2 text-lg text-muted">{g.romaji}</p>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
+          {alsoAt.length > 0 && (
+            <p className="mt-4 text-sm text-ink-2">
+              This form is also taught at{" "}
+              {alsoAt.map((o, i) => (
+                <span key={o.id}>
+                  <Link href={`/japanese/${o.level}/grammar/${o.slug}`} className="font-medium text-accent hover:underline">
+                    JLPT {LEVEL_LABEL[o.level]}
+                  </Link>
+                  {i < alsoAt.length - 1 ? " and " : ""}
+                </span>
+              ))}
+              , where it carries a different sense or register.
+            </p>
+          )}
         </header>
 
         <Section id="meaning" title="Meaning">

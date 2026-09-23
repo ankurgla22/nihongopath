@@ -1,5 +1,15 @@
 export const SITE_NAME = "Nihongo Path";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+/**
+ * Absolute URL for a site path, percent-encoded the way Next writes canonical tags.
+ * Kanji slugs contain the character itself (/kanji/1-一); the sitemap, breadcrumb and
+ * Article URLs used to carry it raw while the canonical carried %E4%B8%80, so the same
+ * page had two spellings. Every absolute URL in schema and sitemaps goes through this.
+ */
+export function absUrl(path: string): string {
+  return `${SITE_URL}${encodeURI(path)}`;
+}
 export const SITE_TAGLINE = "Learn Japanese every day, from your first kana to JLPT N1.";
 
 /**

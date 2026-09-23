@@ -11,6 +11,7 @@ import { ReadingPractice } from "@/components/reading/ReadingPractice";
 import { renderFurigana, stripFurigana } from "@/lib/content/furigana";
 import { FuriganaSetting } from "@/components/content/FuriganaSetting";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 
 export function generateStaticParams() {
   return LEVELS.flatMap((level) => getReading(level).map((r) => ({ level, slug: r.slug })));
@@ -105,6 +106,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
     { name: r.title },
   ];
 
+  const updated = contentLastMod(r.id);
   return (
     <Container>
       <script
@@ -112,7 +114,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
         dangerouslySetInnerHTML={{
           __html: jsonLdString([
             breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? path }))),
-            articleJsonLd({ level, headline: r.title, description: `${L} ${k.en} reading passage`, path, inLanguage: "ja" }),
+            articleJsonLd({ dateModified: updated,  level, headline: r.title, description: `${L} ${k.en} reading passage`, path, inLanguage: ["ja", "en"] }),
           ]),
         }}
       />
@@ -127,7 +129,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
           <div className="mt-4">
             <Badge size="md">Time limit {fmtMinutes(r.timeLimitSeconds)}</Badge>
           </div>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
         </header>
 
         {r.strategyNotes.length > 0 && (

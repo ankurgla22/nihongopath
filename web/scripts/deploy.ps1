@@ -83,6 +83,9 @@ foreach ($p in @(".next", "node_modules", "tsconfig.tsbuildinfo", "out")) {
 }
 Run "npm ci --no-audit --no-fund"
 
+Step "Refresh content last-modified dates from git"
+Run "npm run content:lastmod"
+
 # ---------------------------------------------------------------- 3. verify
 if (-not $SkipChecks) {
   Step "Checks (content validation, typecheck, lint, unit tests)"

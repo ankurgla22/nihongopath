@@ -20,7 +20,7 @@ function formatUtc(iso: string): string {
  * `dateModified` carries in the page's schema, so the two signals agree. Search engines and
  * AI assistants discount a date or author that appears only in JSON-LD.
  */
-export function UpdatedOn({ className = "" }: { className?: string }) {
+export function UpdatedOn({ className = "", date = LAST_MODIFIED }: { className?: string; date?: string }) {
   return (
     <p className={`text-sm text-muted ${className}`}>
       By{" "}
@@ -28,7 +28,7 @@ export function UpdatedOn({ className = "" }: { className?: string }) {
         {SITE_NAME}
       </Link>
       <span aria-hidden> · </span>
-      Updated <time dateTime={LAST_MODIFIED}>{formatUtc(LAST_MODIFIED)}</time>
+      Updated <time dateTime={date}>{formatUtc(date)}</time>
     </p>
   );
 }

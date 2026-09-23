@@ -9,6 +9,7 @@ import { Breadcrumbs, Button, Card, Container, Section, Speakable } from "@/comp
 import { LISTENING_KIND_LABEL } from "@/components/listening/labels";
 import { ListeningPractice } from "@/components/listening/ListeningPractice";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 
 export function generateStaticParams() {
   return LEVELS.flatMap((level) => getListening(level).map((e) => ({ level, slug: e.slug })));
@@ -25,6 +26,8 @@ export function generateMetadata({ params }: { params: { level: string; slug: st
     title: `${e.title} – ${L} Listening (${k.ja})`,
     description: `JLPT ${L} listening exercise "${e.title}" (${k.en}): ${e.setting}. Audio, transcript, vocabulary, ${e.questionIds.length} questions with explanations, and shadowing practice.`,
     path: `/japanese/${p.data}/listening/${e.slug}`,
+    // Quick-response drills have a one-line script: real practice, but too thin to be a search result.
+    noIndex: e.script.length < 3,
   });
 }
 
@@ -122,6 +125,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
     </Section>
   );
 
+  const updated = contentLastMod(e.id);
   return (
     <Container>
       <script
@@ -129,7 +133,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
         dangerouslySetInnerHTML={{
           __html: jsonLdString([
             breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? path }))),
-            articleJsonLd({ level, headline: e.title, description: `${L} listening exercise: ${e.setting}`, path, inLanguage: "ja" }),
+            articleJsonLd({ dateModified: updated,  level, headline: e.title, description: `${L} listening exercise: ${e.setting}`, path, inLanguage: ["ja", "en"] }),
           ]),
         }}
       />
@@ -144,7 +148,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
             <span className="text-[11px] uppercase tracking-[0.14em] text-muted mr-2">Setting</span>
             <span className="text-ink">{e.setting}</span>
           </p>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
         </header>
 
         <ListeningPractice audioSrc={e.audioSrc} lines={e.script} questions={questions} transcript={transcript} vocabulary={vocabulary} />

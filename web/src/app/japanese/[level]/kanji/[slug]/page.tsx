@@ -13,6 +13,7 @@ import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateKanjiDrill } from "@/lib/drill/generate";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
 
@@ -93,12 +94,13 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
     return null;
   };
 
+  const updated = contentLastMod(k.id);
   return (
     <Container>
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: k.character, path: href }]),
-          articleJsonLd({ level: params.level, headline: `${k.character} — ${k.meanings.join(", ")} (JLPT ${label} kanji)`, description: `Readings, words and examples for ${k.character}.`, path: href, inLanguage: "ja" }),
+          articleJsonLd({ dateModified: updated,  level: params.level, headline: `${k.character} — ${k.meanings.join(", ")} (JLPT ${label} kanji)`, description: `Readings, words and examples for ${k.character}.`, path: href, inLanguage: "ja" }),
         ]}
       />
       <LessonNavTop
@@ -158,7 +160,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
               </div>
             </dl>
           </div>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
         </header>
 
         <Section id="words" title="Common words">

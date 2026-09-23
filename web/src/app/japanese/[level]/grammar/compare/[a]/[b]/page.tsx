@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Arrow, Breadcrumbs, Container, JaText, Section } from "@/components/ui";
 import { JsonLd } from "@/components/content/JsonLd";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { contentLastMod } from "@/lib/content/lastmod";
 import { FaqSection } from "@/components/content/FaqSection";
 import { comparePairs, findPair, pairFor, pairPath, pairSegmentB, type ComparePair } from "@/lib/content/compare";
 import { LEVEL_LABEL, type GrammarLesson } from "@/lib/content/schemas";
@@ -26,7 +27,7 @@ export function generateMetadata({ params }: { params: Params }) {
   if (!p) return {};
   const L = LEVEL_LABEL[p.level];
   return pageMetadata({
-    title: `${p.a.title} vs ${p.b.title}: the difference (JLPT ${L} grammar)`,
+    title: `${p.a.title} vs ${p.b.title}: JLPT ${L} grammar`,
     description: `${p.a.title} vs ${p.b.title}. ${asSentence(p.abDiff ?? p.baDiff ?? `${p.a.title} means ${p.a.meaning}`)} Meaning, formation and examples of both, side by side.`,
     path: pairPath(p),
   });
@@ -90,6 +91,7 @@ export default function ComparePage({ params }: { params: Params }) {
   const L = LEVEL_LABEL[p.level];
   const path = pairPath(p);
   const faq = faqFor(p);
+  const updated = [contentLastMod(p.a.id), contentLastMod(p.b.id)].sort()[1];
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Japanese", path: "/japanese" },
@@ -111,6 +113,7 @@ export default function ComparePage({ params }: { params: Params }) {
         data={[
           breadcrumbJsonLd(crumbs),
           articleJsonLd({
+            dateModified: updated,
             level: p.level,
             headline: `${p.a.title} vs ${p.b.title} — JLPT ${L} grammar comparison`,
             description: p.abDiff ?? p.baDiff ?? `${p.a.title} compared with ${p.b.title}`,
@@ -133,7 +136,7 @@ export default function ComparePage({ params }: { params: Params }) {
               {p.b.title}
             </span>
           </h1>
-          <UpdatedOn className="mt-4" />
+          <UpdatedOn className="mt-4" date={updated} />
         </header>
 
         <Section id="difference" title="The difference">

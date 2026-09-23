@@ -1,6 +1,6 @@
 import type { Level } from "@/lib/content/schemas";
 import { LEVEL_LABEL } from "@/lib/content/schemas";
-import { SITE_URL } from "./site";
+import { SITE_URL, absUrl } from "./site";
 import { JLPT_OFFICIAL } from "./sources";
 
 export type Faq = { q: string; a: string };
@@ -114,7 +114,7 @@ export function faqJsonLd(path: string, items: Faq[]) {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "@id": `${SITE_URL}${path}#faq`,
+    "@id": `${absUrl(path)}#faq`,
     mainEntity: items.map((it) => ({
       "@type": "Question",
       name: it.q,

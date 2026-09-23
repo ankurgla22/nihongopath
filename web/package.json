@@ -23,7 +23,8 @@
     "test:e2e": "node tests/e2e-smoke.mjs",
     "test:seo": "node tests/seo-audit.mjs",
     "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy.ps1",
-    "seo:indexnow": "node scripts/indexnow.mjs"
+    "seo:indexnow": "node scripts/indexnow.mjs",
+    "content:lastmod": "node scripts/content-lastmod.mjs"
   },
   "dependencies": {
     "firebase": "^12.19.0",
