@@ -4,7 +4,7 @@
  *
  * No firebase / server-only imports — used from both client and server.
  */
-import type { Question, QuestionIndexEntry, ExamBlueprint, QuestionLevel } from "@/lib/content/schemas";
+import type { Question, QuestionIndexEntry, ExamBlueprint, QuestionLevel, Level } from "@/lib/content/schemas";
 import type { AnswerRecord, ExamResultDoc, Skill } from "@/lib/firestore/types";
 import { SKILLS } from "@/lib/firestore/types";
 
@@ -39,11 +39,53 @@ export type QuizScore = {
 /** Exam result without the persistence-only fields. */
 export type ExamScore = Omit<ExamResultDoc, "id" | "createdAt" | "date">;
 
-/** JLPT N2 scoring constants. */
+/** Every level is scored out of 180 in total; a single scoring section is out of 60 or 120. */
 export const SECTION_SCALED_MAX = 60;
 export const TOTAL_SCALED_MAX = 180;
+/**
+ * Kept for stored results written before scoring became level-aware, which carry no per-section
+ * max/min. New code reads the values on the section itself.
+ */
 export const PASS_TOTAL_MIN = 90;
 export const PASS_SECTION_MIN = 19;
+
+/**
+ * Official JLPT scoring, which is not the same shape as the test booklet.
+ *
+ * A blueprint's sections are the timed *sittings* (N1 sits vocabulary and grammar as two
+ * separate parts), but scoring groups them by skill: N3-N1 report three sections of 0-60, and
+ * N5/N4 report language knowledge and reading as one combined 0-120 alongside listening 0-60.
+ * Scaling each blueprint section to 60 independently is what made a four-part level total 240
+ * before the cap, so a 75% paper displayed as a perfect 180.
+ *
+ * Pass marks and sectional minimums from the official results page (see lib/seo/sources).
+ */
+type ExamSkill = ExamBlueprint["sections"][number]["skill"];
+type ScoringGroup = { id: string; name: string; skills: ExamSkill[]; max: number; min: number };
+
+const THREE_SECTION: ScoringGroup[] = [
+  { id: "language", name: "言語知識（文字・語彙・文法）", skills: ["language"], max: 60, min: 19 },
+  { id: "reading", name: "読解", skills: ["reading"], max: 60, min: 19 },
+  { id: "listening", name: "聴解", skills: ["listening"], max: 60, min: 19 },
+];
+const TWO_SECTION: ScoringGroup[] = [
+  { id: "language-reading", name: "言語知識・読解", skills: ["language", "reading"], max: 120, min: 38 },
+  { id: "listening", name: "聴解", skills: ["listening"], max: 60, min: 19 },
+];
+
+export const SCORING_RULES: Record<Level, { passTotal: number; groups: ScoringGroup[] }> = {
+  n5: { passTotal: 80, groups: TWO_SECTION },
+  n4: { passTotal: 90, groups: TWO_SECTION },
+  n3: { passTotal: 95, groups: THREE_SECTION },
+  n2: { passTotal: 90, groups: THREE_SECTION },
+  n1: { passTotal: 100, groups: THREE_SECTION },
+};
+
+/** Scale a raw score onto a scoring section's own maximum (60, or 120 for the combined one). */
+export function scaleTo(raw: number, total: number, max: number): number {
+  if (total <= 0) return 0;
+  return Math.max(0, Math.min(max, Math.round((raw / total) * max)));
+}
 
 function pushUnique(list: string[], seen: Set<string>, id: string | undefined) {
   if (!id || seen.has(id)) return;
@@ -161,7 +203,8 @@ export function scoreExam(
   const weakSeen = new Set<string>();
   let totalSeconds = 0;
 
-  const sections = exam.sections.map((s) => {
+  // Grade each blueprint section (the timed sittings) first.
+  const raw = exam.sections.map((s) => {
     let score = 0;
     let total = 0;
     let seconds = 0;
@@ -176,21 +219,30 @@ export function scoreExam(
       else for (const id of questionContentIds(q)) pushUnique(weakContentIds, weakSeen, id);
     }
     totalSeconds += seconds;
-    return { id: s.id, name: s.name, skill: s.skill, score, total, seconds, scaled: scaleSection(score, total) };
+    return { ...s, score, total, seconds };
   });
 
-  const totalScaled = Math.min(
-    TOTAL_SCALED_MAX,
-    sections.reduce((sum, s) => sum + s.scaled, 0)
-  );
-  const passedEstimate =
-    sections.length > 0 &&
-    totalScaled >= PASS_TOTAL_MIN &&
-    sections.every((s) => s.scaled >= PASS_SECTION_MIN);
+  // Then fold them into the official scoring sections for this level.
+  const rules = SCORING_RULES[exam.level];
+  const sections = rules.groups
+    .map((g) => {
+      const parts = raw.filter((r) => g.skills.includes(r.skill));
+      const score = parts.reduce((n, r) => n + r.score, 0);
+      const total = parts.reduce((n, r) => n + r.total, 0);
+      const seconds = parts.reduce((n, r) => n + r.seconds, 0);
+      return { id: g.id, name: g.name, skill: g.skills[0], score, total, seconds, scaled: scaleTo(score, total, g.max), max: g.max, min: g.min };
+    })
+    // A blueprint missing a skill entirely (or whose questions are all absent) contributes nothing.
+    .filter((s) => s.total > 0);
+
+  // No cap needed: the group maxima already sum to 180.
+  const totalScaled = sections.reduce((sum, s) => sum + s.scaled, 0);
+  const passedEstimate = sections.length === rules.groups.length && totalScaled >= rules.passTotal && sections.every((s) => s.scaled >= s.min);
 
   return {
     examId: exam.id,
     title: exam.title,
+    passTotal: rules.passTotal,
     sections,
     answers: allAnswers,
     totalScaled,

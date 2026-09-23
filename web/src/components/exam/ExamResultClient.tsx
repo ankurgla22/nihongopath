@@ -146,7 +146,9 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
         <div className={`px-5 sm:px-7 py-3 text-sm font-semibold flex flex-wrap items-center justify-between gap-2 ${result.passedEstimate ? "bg-ok text-white" : "bg-warn text-white"}`}>
           <span>{result.passedEstimate ? "Pass estimate" : "Below the pass line"}</span>
           <span className="text-xs font-normal opacity-90">
-            Pass line {PASS_TOTAL_MIN} overall and {PASS_SECTION_MIN} per section
+            {/* Pass marks differ per level (N5 80 … N1 100), so they come from the stored result. */}
+            Pass line {result.passTotal ?? PASS_TOTAL_MIN} overall and{" "}
+            {[...new Set(result.sections.map((s) => `${s.min ?? PASS_SECTION_MIN} / ${s.max ?? SECTION_SCALED_MAX}`))].join(", ")} per section
           </span>
         </div>
         <div className="p-5 sm:p-7">
@@ -180,7 +182,7 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
               <tr>
                 <th className="px-5 sm:px-7 py-2 font-medium">Section</th>
                 <th className="px-3 py-2 font-medium text-right">Raw</th>
-                <th className="px-3 py-2 font-medium text-right">Scaled / {SECTION_SCALED_MAX}</th>
+                <th className="px-3 py-2 font-medium text-right">Scaled</th>
                 <th className="px-3 py-2 font-medium text-right">Time</th>
                 <th className="px-5 sm:px-7 py-2 font-medium text-right">Status</th>
               </tr>
@@ -193,16 +195,20 @@ export function ExamResultClient({ resultId }: { resultId: string }) {
                       {s.name}
                     </span>
                     <div className="mt-1.5 w-32">
-                      <ProgressBar value={(s.scaled / SECTION_SCALED_MAX) * 100} size="sm" tone={s.scaled >= PASS_SECTION_MIN ? "ok" : "accent"} />
+                      {/* max/min are absent on results stored before scoring became level-aware. */}
+                      <ProgressBar value={(s.scaled / (s.max ?? SECTION_SCALED_MAX)) * 100} size="sm" tone={s.scaled >= (s.min ?? PASS_SECTION_MIN) ? "ok" : "accent"} />
                     </div>
                   </td>
                   <td className="px-3 py-2.5 text-right tabular-nums">
                     {s.score}/{s.total}
                   </td>
-                  <td className="px-3 py-2.5 text-right tabular-nums font-semibold">{s.scaled}</td>
+                  <td className="px-3 py-2.5 text-right tabular-nums font-semibold">
+                    {s.scaled}
+                    <span className="text-muted font-normal"> / {s.max ?? SECTION_SCALED_MAX}</span>
+                  </td>
                   <td className="px-3 py-2.5 text-right tabular-nums">{formatDuration(s.seconds)}</td>
                   <td className="px-5 sm:px-7 py-2.5 text-right">
-                    <Badge tone={s.scaled >= PASS_SECTION_MIN ? "ok" : "warn"}>{s.scaled >= PASS_SECTION_MIN ? "OK" : `Below ${PASS_SECTION_MIN}`}</Badge>
+                    <Badge tone={s.scaled >= (s.min ?? PASS_SECTION_MIN) ? "ok" : "warn"}>{s.scaled >= (s.min ?? PASS_SECTION_MIN) ? "OK" : `Below ${s.min ?? PASS_SECTION_MIN}`}</Badge>
                   </td>
                 </tr>
               ))}

@@ -99,8 +99,8 @@ export function ExamHistoryClient() {
                       <ul className="mt-2.5 flex flex-wrap gap-1.5">
                         {r.sections.map((s) => (
                           <li key={s.id}>
-                            <Badge tone={s.scaled >= 19 ? "ok" : "warn"}>
-                              <span lang="ja">{s.name}</span> {s.scaled}/60
+                            <Badge tone={s.scaled >= (s.min ?? 19) ? "ok" : "warn"}>
+                              <span lang="ja">{s.name}</span> {s.scaled}/{s.max ?? 60}
                             </Badge>
                           </li>
                         ))}

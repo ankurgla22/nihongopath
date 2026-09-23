@@ -102,7 +102,14 @@ export type ExamResultDoc = {
   title: string;
   createdAt: string;
   date: string;
-  sections: { id: string; name: string; skill: "language" | "reading" | "listening"; score: number; total: number; seconds: number; scaled: number }[];
+  /**
+   * The official scoring sections for the exam's level, not the timed sittings: N3-N1 report
+   * three of 0-60, N5/N4 one combined 0-120 plus listening 0-60. `max`/`min` are absent on
+   * results stored before scoring became level-aware, so readers fall back to 60/19.
+   */
+  sections: { id: string; name: string; skill: "language" | "reading" | "listening"; score: number; total: number; seconds: number; scaled: number; max?: number; min?: number }[];
+  /** The level's own pass mark out of 180 (N5 80, N4 90, N3 95, N2 90, N1 100). */
+  passTotal?: number;
   answers: AnswerRecord[];
   totalScaled: number; // out of 180
   passedEstimate: boolean;
