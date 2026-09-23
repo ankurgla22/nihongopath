@@ -58,28 +58,32 @@ async function main() {
   const args = process.argv.slice(2);
   const urlList = args.length ? args.map((p) => (p.startsWith("http") ? p : `${site}${p.startsWith("/") ? p : `/${p}`}`)) : await sitemapUrls();
   if (urlList.length === 0) throw new Error("No URLs to submit");
-  if (urlList.length > 10000) throw new Error(`${urlList.length} URLs exceeds the 10,000-per-request limit; split the call`);
 
-  const body = { host, key, keyLocation: `${site}/${key}.txt`, urlList };
-  const r = await fetch("https://api.indexnow.org/indexnow", {
-    method: "POST",
-    headers: { "content-type": "application/json; charset=utf-8" },
-    body: JSON.stringify(body),
-  });
-  // 200 = accepted, 202 = accepted and key validation pending. Anything else is a real failure,
-  // except one: on a new key IndexNow answers 403 SiteVerificationNotCompleted until its crawler
-  // has fetched /<key>.txt, which can take hours. That is "try again later", not a broken setup,
-  // so it must not fail the deploy script that runs this after every rollout.
-  const ok = r.status === 200 || r.status === 202;
-  console.log(`IndexNow: submitted ${urlList.length} URL(s) for ${host} -> HTTP ${r.status}${ok ? " (accepted)" : ""}`);
-  if (!ok) {
-    const text = await r.text();
-    if (r.status === 403 && text.includes("SiteVerificationNotCompleted")) {
-      console.warn("IndexNow has not verified the key file yet. Re-run `npm run seo:indexnow` later; nothing is wrong with the setup.");
-      return;
+  // IndexNow accepts at most 10,000 URLs per request; larger sites go in batches.
+  const BATCH = 10000;
+  for (let i = 0; i < urlList.length; i += BATCH) {
+    const batch = urlList.slice(i, i + BATCH);
+    const body = { host, key, keyLocation: `${site}/${key}.txt`, urlList: batch };
+    const r = await fetch("https://api.indexnow.org/indexnow", {
+      method: "POST",
+      headers: { "content-type": "application/json; charset=utf-8" },
+      body: JSON.stringify(body),
+    });
+    // 200 = accepted, 202 = accepted and key validation pending. Anything else is a real failure,
+    // except one: on a new key IndexNow answers 403 SiteVerificationNotCompleted until its crawler
+    // has fetched /<key>.txt, which can take hours. That is "try again later", not a broken setup,
+    // so it must not fail the deploy script that runs this after every rollout.
+    const ok = r.status === 200 || r.status === 202;
+    console.log(`IndexNow: submitted ${batch.length} URL(s) (${i + batch.length}/${urlList.length}) for ${host} -> HTTP ${r.status}${ok ? " (accepted)" : ""}`);
+    if (!ok) {
+      const text = await r.text();
+      if (r.status === 403 && text.includes("SiteVerificationNotCompleted")) {
+        console.warn("IndexNow has not verified the key file yet. Re-run `npm run seo:indexnow` later; nothing is wrong with the setup.");
+        return;
+      }
+      console.error(text);
+      process.exit(1);
     }
-    console.error(text);
-    process.exit(1);
   }
 }
 
