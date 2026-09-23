@@ -112,11 +112,13 @@ export default function PrivacyPage() {
           </p>
         </Section>
 
-        <Section id="rights" title="Seeing, correcting and deleting your data">
+        <Section id="rights" title="Downloading, resetting and deleting your data">
           <p className="leading-relaxed text-ink-2">
-            Your profile page shows your account details, and your progress, history and saved items are all visible inside the site. There is no self-service delete
-            button yet. To have your account and every record listed above deleted, or to receive a copy of them, contact {SITE_OPERATOR.name} through the link at the top
-            of this page from the email address on the account. Deletion is permanent and removes your study history.
+            Your profile page has a <strong className="text-ink">Your data</strong> section with three controls. <em>Download my data</em> gives you everything listed
+            above as a JSON file. <em>Reset my progress</em> clears what you have studied, either entirely or for one level, and keeps your account. <em>Delete my
+            account</em> removes your sign-in and every record permanently. Each asks you to confirm your identity first, and deletion cannot be undone, so download your
+            data first if you want a copy. If you cannot reach the page for any reason, contact {SITE_OPERATOR.name} through the link at the top of this page from the
+            email address on the account.
           </p>
         </Section>
 

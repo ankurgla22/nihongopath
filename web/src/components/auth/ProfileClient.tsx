@@ -11,6 +11,7 @@ import { useAuth } from "./AuthProvider";
 import { useUserDoc } from "./useUserDoc";
 import { friendlyAuthError } from "./authErrors";
 import { clearSession } from "./sessionClient";
+import { AccountDataSection } from "./AccountDataSection";
 
 /** "Sep 18" or "Sep 18, 2026" from an ISO timestamp or YYYY-MM-DD string. */
 function friendlyDate(iso: string, opts: { year?: boolean } = {}): string {
@@ -194,6 +195,8 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
           </div>
         </form>
       </Card>
+
+      <AccountDataSection />
 
       <div>
         <Button variant="outline" onClick={logout}>

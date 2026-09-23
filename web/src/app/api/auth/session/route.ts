@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { adminAuth, adminConfigured } from "@/lib/firebase/admin";
 import { SESSION_COOKIE, SESSION_DAYS } from "@/lib/firebase/session";
 import { publicProjectId, verifyFirebaseIdToken } from "@/lib/firebase/verifyIdToken";
+import { forbidden, isSameOrigin } from "@/lib/api/guards";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -16,29 +17,6 @@ const cookieOptions = {
 
 const MAX_AGE = SESSION_DAYS * 24 * 60 * 60;
 const MAX_TOKEN_LENGTH = 4096;
-
-/**
- * CSRF guard for the cookie-setting endpoints. Browsers always attach Origin to
- * cross-site POST/DELETE and to same-origin fetch(); a cross-site HTML form with
- * enctype=text/plain could otherwise smuggle a JSON body and log the victim into an
- * attacker-controlled account (login CSRF). Sec-Fetch-Site is checked when present.
- */
-function isSameOrigin(req: Request): boolean {
-  const fetchSite = req.headers.get("sec-fetch-site");
-  if (fetchSite && fetchSite !== "same-origin" && fetchSite !== "none") return false;
-  const origin = req.headers.get("origin");
-  if (!origin) return fetchSite === "same-origin";
-  const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
-  try {
-    return host !== null && new URL(origin).host === host;
-  } catch {
-    return false;
-  }
-}
-
-function forbidden() {
-  return NextResponse.json({ error: "forbidden", message: "Cross-site request rejected." }, { status: 403 });
-}
 
 /**
  * POST { idToken } -> verifies the ID token and sets the session cookie.
