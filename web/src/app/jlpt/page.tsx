@@ -2,6 +2,8 @@ import { jsonLdString } from "@/components/content/JsonLd";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { pageMetadata, breadcrumbJsonLd } from "@/lib/seo/metadata";
+import { LAST_MODIFIED, SITE_URL } from "@/lib/seo/site";
+import { JLPT_SOURCES, JLPT_SOURCES_CHECKED } from "@/lib/seo/sources";
 import { Arrow, Badge, Breadcrumbs, Container, PageTitle, Section, Stat } from "@/components/ui";
 
 export const metadata: Metadata = pageMetadata({
@@ -26,7 +28,27 @@ export default function JlptPage() {
   ];
   return (
     <Container>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdString(breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? "/jlpt" })))) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLdString([
+            breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? "/jlpt" }))),
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": `${SITE_URL}/jlpt`,
+              name: "The JLPT explained",
+              url: `${SITE_URL}/jlpt`,
+              inLanguage: "en",
+              dateModified: LAST_MODIFIED,
+              isPartOf: { "@id": `${SITE_URL}/#website` },
+              publisher: { "@id": `${SITE_URL}/#organization` },
+              // The official pages every figure on this page is taken from.
+              citation: JLPT_SOURCES.map((s) => ({ "@type": "WebPage", name: s.name, url: s.url })),
+            },
+          ]),
+        }}
+      />
       <Breadcrumbs items={crumbs} />
       <PageTitle
         title="The JLPT explained"
@@ -178,6 +200,26 @@ export default function JlptPage() {
               </Link>
               .
             </p>
+          </Section>
+
+          <Section
+            id="sources"
+            title="Sources"
+            intro={`Every figure on this page (section times, pass marks, sectional minimums, test months) is taken from the official JLPT site run by the Japan Foundation and Japan Educational Exchanges and Services. Last checked against these pages on ${JLPT_SOURCES_CHECKED}.`}
+          >
+            <ul className="space-y-2 text-sm leading-relaxed">
+              {JLPT_SOURCES.map((s) => (
+                <li key={s.url} className="flex gap-3">
+                  <span aria-hidden className="mt-[0.6em] h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+                  <span>
+                    <a href={s.url} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
+                      {s.name}
+                    </a>
+                    <span className="text-muted"> — {s.covers}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
           </Section>
 
           <p className="mt-12 text-sm text-muted">Test formats, dates and fees can change; confirm with the official JLPT site or your local host institution before registering.</p>
