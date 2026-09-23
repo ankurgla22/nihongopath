@@ -59,6 +59,11 @@ if (cmd === "install" || cmd === "validate") {
   const arr = JSON.parse(fs.readFileSync(target, "utf8"));
   if (!Array.isArray(arr) || !arr.length) throw new Error("expected a non-empty array");
   const errors = [];
+  // Several enrichment runs drifted: a stray fragment of English or Cyrillic landed inside a
+  // Japanese sentence and was only caught by the agent re-reading its own draft. A run of two or
+  // more Latin letters, or any Cyrillic at all, is never legitimate here — loanwords are katakana.
+  // A lone Latin letter is allowed for names like Tシャツ.
+  const foreign = (t) => /[A-Za-z]{2,}/.test(t || "") || /[Ѐ-ӿ]/.test(t || "");
   // Loose stem for the containment check, so an example may inflect the word instead of being
   // forced into dictionary form. Strips the inflecting tail: suru-nouns and polite endings, then
   // one trailing kana covering verbs (食べる → 食べ), い-adjectives (寂しい → 寂し, which matches
@@ -79,6 +84,8 @@ if (cmd === "install" || cmd === "validate") {
       else for (const [j, ex] of e.examples.entries()) {
         if (!ex.ja || !ex.en || !ex.reading) errors.push(`${where}: example ${j} needs ja, reading, en`);
         else if (/[一-龯]/.test(ex.reading)) errors.push(`${where}: example ${j} reading must be kana only`);
+        if (foreign(ex.ja)) errors.push(`${where}: example ${j} ja contains stray non-Japanese text`);
+        if (foreign(ex.reading)) errors.push(`${where}: example ${j} reading contains stray non-Japanese text`);
         const w = e.word.replace(/[〜~]/g, "");
         if (ex.ja && !ex.ja.includes(w) && !ex.ja.includes(stem(w))) errors.push(`${where}: example ${j} does not contain ${e.word}`);
       }
@@ -94,6 +101,8 @@ if (cmd === "install" || cmd === "validate") {
       else for (const [j, ex] of e.examples.entries()) {
         if (!ex.ja || !ex.en || !ex.reading) errors.push(`${where}: example ${j} needs ja, reading, en`);
         else if (/[一-龯]/.test(ex.reading)) errors.push(`${where}: example ${j} reading must be kana only`);
+        if (foreign(ex.ja)) errors.push(`${where}: example ${j} ja contains stray non-Japanese text`);
+        if (foreign(ex.reading)) errors.push(`${where}: example ${j} reading contains stray non-Japanese text`);
         if (ex.ja && !ex.ja.includes(e.character)) errors.push(`${where}: example ${j} does not contain ${e.character}`);
       }
       if (!e.memoryAid) errors.push(`${where}: memoryAid missing`);
