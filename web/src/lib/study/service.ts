@@ -38,7 +38,7 @@ import {
   updateUser,
 } from "@/lib/firestore/repo";
 import { scoreQuiz, type SubmittedAnswer } from "@/lib/engine/scoring";
-import { applyAnswer, initialProgress, toReviewItem } from "@/lib/engine/srs";
+import { applyAnswer, initialProgress, skillForContentId, toReviewItem } from "@/lib/engine/srs";
 import { applySkillBreakdown, updateStreak, CURRICULUM_DAYS } from "@/lib/engine/progress";
 
 const PENDING_KEY = "nihongo-path:pending";
@@ -287,15 +287,23 @@ export async function completeExam(input: CompleteExamInput): Promise<ExamResult
     breakdown[skill] = { correct: prev.correct + s.score, total: prev.total + s.total };
   }
   // Wrong answers go to the review queue.
-  const reviews: ReviewItemDoc[] = result.weakContentIds.map((id) => ({
-    contentId: id,
-    type: id.includes("-grammar-") ? "grammar" : id.includes("-vocab-") ? "vocabulary" : id.includes("-kanji-") ? "kanji" : id.includes("-reading-") ? "reading" : "listening",
-    due: today,
-    priority: 2,
-    source: "wrong-answer",
-    addedAt: new Date().toISOString(),
-    questionIds: [],
-  }));
+  const reviews: ReviewItemDoc[] = result.weakContentIds.flatMap((id) => {
+    const type = skillForContentId(id);
+    // Skip rather than guess: the old fallback filed every unrecognised id under listening.
+    if (!type) return [];
+    return [
+      {
+        contentId: id,
+        type,
+        due: today,
+        priority: 2,
+        source: "wrong-answer",
+        // A plain YYYY-MM-DD, as ReviewItemDoc.addedAt and toReviewItem use; this wrote a full timestamp.
+        addedAt: today,
+        questionIds: [],
+      },
+    ];
+  });
   enqueue({ kind: "exam", uid: input.uid, result, session, reviews, curriculumDay: input.curriculumDay, taskId: input.taskId, breakdown });
   try {
     await addExamResult(input.uid, result);

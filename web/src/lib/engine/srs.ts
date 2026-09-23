@@ -14,6 +14,13 @@ export const EASE_DEFAULT = 2.5;
 export const MASTERED_INTERVAL_DAYS = 30;
 /** Correct answers in a row (since the last miss) required for mastery. */
 export const MASTERED_STREAK = 3;
+/**
+ * Longest gap between reviews. Without a ceiling the ladder runs away: eight correct answers
+ * at the maximum ease reach 4,698 days, so a mastered item leaves the queue for ever and is
+ * never retained. Six months keeps mastered items rare but still recurring, which is the point
+ * of spaced repetition.
+ */
+export const MAX_INTERVAL_DAYS = 180;
 
 /** Add `n` days to a YYYY-MM-DD string (UTC arithmetic, no DST surprises). */
 export function addDays(iso: string, n: number): string {
@@ -75,8 +82,8 @@ export function statusFor(p: Pick<ProgressDoc, "attempts" | "intervalDays" | "co
 function nextInterval(prev: number, ease: number, status: ProgressStatus): number {
   if (status === "new" || status === "learning" || prev <= 1) return 3; // learning → review
   if (prev < 7) return 7; // review → strong
-  // strong+: grow by ease, always at least +1 day
-  return Math.max(prev + 1, Math.round(prev * ease));
+  // strong+: grow by ease, always at least +1 day, never beyond the ceiling
+  return Math.min(MAX_INTERVAL_DAYS, Math.max(prev + 1, Math.round(prev * ease)));
 }
 
 /**
@@ -160,6 +167,22 @@ export function dueItems(all: ProgressDoc[], today: string): ProgressDoc[] {
 }
 
 /** Build a queue document for a progress record. */
+/**
+ * The skill a content id belongs to (`n5-grammar-1`, `foundation-3`, …), or null when it is
+ * not recognised. Callers must skip an unrecognised id rather than guess: completeExam used to
+ * fall through to "listening", so anything unmatched was filed under the wrong skill and showed
+ * up in the wrong group on the review screen.
+ */
+export function skillForContentId(id: string): Skill | null {
+  if (id.startsWith("foundation-")) return "kana";
+  if (id.includes("-grammar-")) return "grammar";
+  if (id.includes("-vocab-")) return "vocabulary";
+  if (id.includes("-kanji-")) return "kanji";
+  if (id.includes("-reading-")) return "reading";
+  if (id.includes("-listening-")) return "listening";
+  return null;
+}
+
 export function toReviewItem(
   p: ProgressDoc,
   source: ReviewItemDoc["source"],

@@ -3,6 +3,7 @@ import type { ProgressDoc } from "@/lib/firestore/types";
 import {
   EASE_MAX,
   EASE_MIN,
+  MAX_INTERVAL_DAYS,
   addDays,
   applyAnswer,
   daysBetween,
@@ -11,6 +12,7 @@ import {
   initialProgress,
   overdueDays,
   priorityFor,
+  skillForContentId,
   statusFor,
   toReviewItem,
 } from "./srs";
@@ -98,13 +100,15 @@ describe("applyAnswer", () => {
     expect(statusFor(p)).toBe("mastered");
   });
 
-  it("intervals always grow on a correct answer", () => {
+  it("intervals grow on a correct answer until the ceiling", () => {
     let p = initialProgress("v1", "vocabulary", "n3", T);
     p = { ...p, ease: EASE_MIN }; // slowest possible growth
     let prev = 0;
     for (let i = 0; i < 10; i++) {
       p = applyAnswer(p, true, T);
-      expect(p.intervalDays).toBeGreaterThan(prev);
+      // Growth continues while below the ceiling, and never exceeds it.
+      if (prev < MAX_INTERVAL_DAYS) expect(p.intervalDays).toBeGreaterThan(prev);
+      expect(p.intervalDays).toBeLessThanOrEqual(MAX_INTERVAL_DAYS);
       prev = p.intervalDays;
     }
   });
@@ -207,5 +211,34 @@ describe("describeStatus", () => {
       expect(d.description.length).toBeGreaterThan(0);
     }
     expect(describeStatus("mastered").label).toBe("Mastered");
+  });
+});
+
+describe("MAX_INTERVAL_DAYS", () => {
+  it("stops the ladder running away", () => {
+    // Eight correct answers used to reach 4,698 days, so a mastered item never came back.
+    let p = initialProgress("n5-grammar-1", "grammar", "n5", "2026-01-01");
+    let day = "2026-01-01";
+    for (let i = 0; i < 12; i++) {
+      p = applyAnswer(p, true, day);
+      day = p.nextReview;
+    }
+    expect(p.intervalDays).toBeLessThanOrEqual(MAX_INTERVAL_DAYS);
+    expect(daysBetween("2026-01-01", p.nextReview)).toBeLessThan(2000);
+  });
+});
+
+describe("skillForContentId", () => {
+  it("resolves every real id shape", () => {
+    expect(skillForContentId("n5-grammar-1")).toBe("grammar");
+    expect(skillForContentId("n2-vocab-950")).toBe("vocabulary");
+    expect(skillForContentId("n5-kanji-一")).toBe("kanji");
+    expect(skillForContentId("n3-reading-4")).toBe("reading");
+    expect(skillForContentId("n1-listening-7")).toBe("listening");
+    expect(skillForContentId("foundation-3")).toBe("kana");
+  });
+  it("returns null rather than guessing", () => {
+    // The old exam path fell through to "listening" for anything unmatched.
+    expect(skillForContentId("something-else")).toBeNull();
   });
 });
