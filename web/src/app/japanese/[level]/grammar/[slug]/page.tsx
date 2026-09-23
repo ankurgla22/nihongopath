@@ -6,6 +6,8 @@ import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
 import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { pairFor, pairPath } from "@/lib/content/compare";
+import { FaqSection } from "@/components/content/FaqSection";
+import { faqJsonLd, type Faq } from "@/lib/seo/faq";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { Diagram } from "@/components/diagrams";
@@ -95,12 +97,24 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
   const noteInMistakes = Boolean(extraNote) && g.commonMistakes.length > 0;
   const noteInTips = Boolean(extraNote) && !noteInMistakes && g.jlptTips.length > 0;
 
+  // FAQ built only from this lesson's own fields, in the words learners search with. The same
+  // strings feed the FAQPage schema so the visible answers and the markup cannot differ.
+  const mistake = g.commonMistakes[0];
+  const faq: Faq[] = [
+    { q: `What does ${g.title} mean?`, a: `${asSentence(g.meaning)}${hasExplanation ? ` ${asSentence(g.simpleExplanation)}` : ""}` },
+    ...(g.formation.length ? [{ q: `How do you form ${g.title}?`, a: `${g.formation.join(" / ")}. V = verb, N = noun, A = adjective.` }] : []),
+    ...(g.whenUsed ? [{ q: `When is ${g.title} used?`, a: asSentence(g.whenUsed) }] : []),
+    ...g.similarGrammar.slice(0, 2).map((s) => ({ q: `What is the difference between ${g.title} and ${s.pattern}?`, a: asSentence(s.difference) })),
+    ...(mistake ? [{ q: `What is a common mistake with ${g.title}?`, a: `Wrong: ${mistake.wrong} Right: ${mistake.right} ${asSentence(mistake.why)}` }] : []),
+  ];
+
   return (
     <Container>
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: g.title, path: href }]),
           articleJsonLd({ level, headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
+          faqJsonLd(href, faq),
         ]}
       />
 
@@ -253,6 +267,8 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
             </Callout>
           </Section>
         )}
+
+        <FaqSection items={faq} />
 
         {quickCheck.length > 0 && (
           <Section id="test" title="Quick check">
