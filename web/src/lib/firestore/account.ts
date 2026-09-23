@@ -1,6 +1,7 @@
 import "server-only";
 import { adminAuth, adminDb } from "@/lib/firebase/admin";
 import type { Level } from "@/lib/content/schemas";
+import { USER_SUBCOLLECTIONS } from "./collections";
 
 /**
  * Account-wide data operations: export, reset and delete.
@@ -11,10 +12,6 @@ import type { Level } from "@/lib/content/schemas";
  * the browser even though it is their data. The server is the only place that can honour the
  * "reset" and "delete my account" promises the privacy policy makes.
  */
-
-/** Every per-user subcollection. A reset or delete that misses one leaves the account inconsistent. */
-export const USER_SUBCOLLECTIONS = ["progress", "dailyProgress", "studySessions", "quizResults", "examResults", "reviewItems", "saved"] as const;
-export type UserSubcollection = (typeof USER_SUBCOLLECTIONS)[number];
 
 /** Study counters on users/{uid} that a full reset returns to their day-one values. */
 const RESET_FIELDS = {
@@ -76,12 +73,16 @@ export async function resetStudyData(uid: string, scope: ResetScope): Promise<Re
   // Level-scoped: progress rows carry `level`; review items are keyed by the same content ids.
   const progressSnap = await userDoc(uid).collection("progress").where("level", "==", scope.level).get();
   const contentIds = progressSnap.docs.map((d) => d.id);
+  // Only count review items that exist: deleting a missing document succeeds silently, so
+  // counting the attempts would overstate what the learner actually lost.
+  const reviewRefs = contentIds.map((id) => userDoc(uid).collection("reviewItems").doc(id));
+  const existingReviews = reviewRefs.length ? (await db.getAll(...reviewRefs)).filter((d) => d.exists) : [];
   const writer = db.bulkWriter();
   for (const d of progressSnap.docs) writer.delete(d.ref);
-  for (const id of contentIds) writer.delete(userDoc(uid).collection("reviewItems").doc(id));
+  for (const d of existingReviews) writer.delete(d.ref);
   await writer.close();
   deleted.progress = progressSnap.size;
-  deleted.reviewItems = contentIds.length;
+  deleted.reviewItems = existingReviews.length;
   return { deleted, countersReset: false };
 }
 

@@ -162,16 +162,12 @@ export function SecuritySection() {
                 </label>
                 <input id={emailId} type="email" autoComplete="email" value={newEmail} onChange={(e) => setNewEmail(e.target.value)} className={`w-full ${inputCls}`} />
               </div>
-              {isPasswordAccount ? (
-                <div>
-                  <label htmlFor={emailPwId} className="block text-sm font-medium mb-1.5">
-                    Confirm your password
-                  </label>
-                  <input id={emailPwId} type="password" autoComplete="current-password" value={emailPw} onChange={(e) => setEmailPw(e.target.value)} className={`w-full ${inputCls}`} />
-                </div>
-              ) : (
-                <p className="text-sm text-muted">You will be asked to confirm with Google.</p>
-              )}
+              <div>
+                <label htmlFor={emailPwId} className="block text-sm font-medium mb-1.5">
+                  Confirm your password
+                </label>
+                <input id={emailPwId} type="password" autoComplete="current-password" value={emailPw} onChange={(e) => setEmailPw(e.target.value)} className={`w-full ${inputCls}`} />
+              </div>
               <p className="text-sm text-muted">We send a link to the new address. The change happens only when you open it.</p>
               <div className="pt-1">
                 <Button onClick={submitEmail} disabled={emailBusy}>

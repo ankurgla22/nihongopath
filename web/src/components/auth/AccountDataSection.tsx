@@ -7,6 +7,7 @@ import { deleteAccount, exportData, freshIdToken, reauthNeeds, resetProgress } f
 import { clearSession } from "./sessionClient";
 import { friendlyAuthError } from "./authErrors";
 import { useAuth } from "./AuthProvider";
+import { useUserDoc } from "./useUserDoc";
 
 type Task = "export" | "reset" | "delete";
 
@@ -14,6 +15,24 @@ const inputCls =
   "h-11 rounded-xl border border-line bg-surface px-3.5 text-[15px] text-ink transition focus:outline-none focus:border-accent focus:shadow-ring disabled:opacity-50";
 
 const LEVEL_OPTIONS = [{ value: "foundation", label: "Foundation (kana)" }, ...LEVELS.map((l) => ({ value: l, label: `JLPT ${LEVEL_LABEL[l]}` }))];
+
+/**
+ * Identity check shown inside an open panel. Declared at module level, not inside
+ * AccountDataSection: a component defined during render gets a new identity on every render,
+ * so React would unmount and remount this subtree and the password field would lose focus
+ * after each keystroke.
+ */
+function ReauthField({ id, needsPassword, value, onChange }: { id: string; needsPassword: boolean; value: string; onChange: (v: string) => void }) {
+  if (!needsPassword) return <p className="text-sm text-muted">You will be asked to confirm with Google.</p>;
+  return (
+    <div>
+      <label htmlFor={id} className="block text-sm font-medium mb-1.5">
+        Confirm your password
+      </label>
+      <input id={id} type="password" autoComplete="current-password" value={value} onChange={(e) => onChange(e.target.value)} className={`w-full max-w-xs ${inputCls}`} />
+    </div>
+  );
+}
 
 /**
  * Export, reset and delete, the three things a learner could not do before.
@@ -24,6 +43,7 @@ const LEVEL_OPTIONS = [{ value: "foundation", label: "Foundation (kana)" }, ...L
  */
 export function AccountDataSection() {
   const { user } = useAuth();
+  const { refresh } = useUserDoc();
   const router = useRouter();
   const [task, setTask] = useState<Task | null>(null);
   const [busy, setBusy] = useState(false);
@@ -46,7 +66,7 @@ export function AccountDataSection() {
   async function run(which: Task) {
     if (!user) return setMsg({ tone: "warn", text: "Your session has expired. Please sign in again." });
     if (needsPassword && !password) return setMsg({ tone: "warn", text: "Enter your password to confirm." });
-    if (which === "delete" && confirmText !== "DELETE") return setMsg({ tone: "warn", text: 'Type DELETE exactly to confirm.' });
+    if (which === "delete" && confirmText !== "DELETE") return setMsg({ tone: "warn", text: "Type DELETE exactly to confirm." });
 
     setBusy(true);
     setMsg(null);
@@ -57,15 +77,17 @@ export function AccountDataSection() {
         setMsg({ tone: "ok", text: "Your data has been downloaded." });
       } else if (which === "reset") {
         const summary = await resetProgress(token, scope === "all" ? { kind: "all" } : { kind: "level", level });
-        const total = Object.values(summary.deleted).reduce((n, v) => n + v, 0);
         setMsg({
           tone: "ok",
           text:
             scope === "all"
-              ? `Progress reset. ${total} records removed and your plan is back to day 1.`
-              : `${LEVEL_OPTIONS.find((o) => o.value === level)?.label} reset. ${total} records removed; your lifetime totals are unchanged.`,
+              ? `Progress reset: ${summary.deleted.progress ?? 0} studied items cleared and your plan is back to day 1.`
+              : `${LEVEL_OPTIONS.find((o) => o.value === level)?.label} reset: ${summary.deleted.progress ?? 0} studied items and their review entries cleared. Your history and totals are unchanged.`,
         });
         setTask(null);
+        // The profile reads the user document client-side, so a router refresh alone would
+        // leave the old day and streak on screen.
+        await refresh();
         router.refresh();
       } else {
         await deleteAccount(token);
@@ -81,36 +103,6 @@ export function AccountDataSection() {
     } finally {
       setBusy(false);
     }
-  }
-
-  /** Password box (or a note about the Google popup), shown inside whichever panel is open. */
-  function Confirm({ which }: { which: Task }) {
-    return (
-      <div className="mt-4 space-y-3">
-        {needsPassword ? (
-          <div>
-            <label htmlFor={`${pwId}-${which}`} className="block text-sm font-medium mb-1.5">
-              Confirm your password
-            </label>
-            <input
-              id={`${pwId}-${which}`}
-              type="password"
-              autoComplete="current-password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className={`w-full max-w-xs ${inputCls}`}
-            />
-          </div>
-        ) : (
-          <p className="text-sm text-muted">You will be asked to confirm with Google.</p>
-        )}
-        {msg && (
-          <div role="status">
-            <Callout tone={msg.tone}>{msg.text}</Callout>
-          </div>
-        )}
-      </div>
-    );
   }
 
   return (
@@ -131,14 +123,14 @@ export function AccountDataSection() {
             </Button>
           </div>
           {task === "export" && (
-            <>
-              <Confirm which="export" />
-              <div className="mt-3">
+            <div className="mt-4 space-y-3">
+              <ReauthField id={`${pwId}-export`} needsPassword={needsPassword} value={password} onChange={setPassword} />
+              <div className="pt-1">
                 <Button onClick={() => run("export")} disabled={busy}>
                   {busy ? "Preparing..." : "Confirm and download"}
                 </Button>
               </div>
-            </>
+            </div>
           )}
         </div>
 
@@ -154,8 +146,8 @@ export function AccountDataSection() {
             </Button>
           </div>
           {task === "reset" && (
-            <>
-              <fieldset className="mt-4">
+            <div className="mt-4 space-y-3">
+              <fieldset>
                 <legend className="text-sm font-medium mb-2">What to reset</legend>
                 <div className="space-y-2 text-sm">
                   <label className="flex items-start gap-2.5">
@@ -183,13 +175,13 @@ export function AccountDataSection() {
                   </select>
                 )}
               </fieldset>
-              <Confirm which="reset" />
-              <div className="mt-3">
+              <ReauthField id={`${pwId}-reset`} needsPassword={needsPassword} value={password} onChange={setPassword} />
+              <div className="pt-1">
                 <Button onClick={() => run("reset")} disabled={busy}>
                   {busy ? "Resetting..." : scope === "all" ? "Reset everything" : "Reset this level"}
                 </Button>
               </div>
-            </>
+            </div>
           )}
         </div>
 
@@ -205,28 +197,33 @@ export function AccountDataSection() {
             </Button>
           </div>
           {task === "delete" && (
-            <>
-              <div className="mt-4">
-                <Callout tone="warn" title="This is permanent">
-                  Your study history, progress and saved items are deleted and cannot be recovered. Download your data first if you want a copy.
-                </Callout>
-              </div>
-              <div className="mt-4">
+            <div className="mt-4 space-y-3">
+              <Callout tone="warn" title="This is permanent">
+                Your study history, progress and saved items are deleted and cannot be recovered. Download your data first if you want a copy.
+              </Callout>
+              <div>
                 <label htmlFor={confirmId} className="block text-sm font-medium mb-1.5">
                   Type <span className="font-mono text-ink">DELETE</span> to confirm
                 </label>
                 <input id={confirmId} type="text" value={confirmText} onChange={(e) => setConfirmText(e.target.value)} autoComplete="off" className={`w-full max-w-xs ${inputCls}`} />
               </div>
-              <Confirm which="delete" />
-              <div className="mt-3">
+              <ReauthField id={`${pwId}-delete`} needsPassword={needsPassword} value={password} onChange={setPassword} />
+              <div className="pt-1">
                 <Button onClick={() => run("delete")} disabled={busy || confirmText !== "DELETE"}>
                   {busy ? "Deleting..." : "Delete my account permanently"}
                 </Button>
               </div>
-            </>
+            </div>
           )}
         </div>
       </div>
+
+      {/* One message for the whole card, so a confirmation survives its panel closing. */}
+      {msg && (
+        <div role="status" className="mt-4">
+          <Callout tone={msg.tone}>{msg.text}</Callout>
+        </div>
+      )}
     </Card>
   );
 }
