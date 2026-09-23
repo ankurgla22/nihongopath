@@ -82,7 +82,7 @@ const LAYERS = [
     timing: "Timed",
     count: "JLPT-style sections",
     tone: "accent" as const,
-    text: "A longer test at the end of each of the six phases of the 180-day course. Estimates a scaled score, so you can watch your projected result move toward the pass mark.",
+    text: "A longer test at the end of each of the nine phases of the daily plan. Estimates a scaled score, so you can watch your projected result move toward the pass mark.",
     icon: (
       <svg {...ICON}>
         <path d="M4 20h16M6 16v-5M11 16V7M16 16v-9" />

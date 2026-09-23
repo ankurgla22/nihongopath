@@ -7,7 +7,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
  * Mobile-only sticky bottom bar. Appears once the element with id `watchId` (the hero)
  * has scrolled out of view, hidden for signed-in users who already have a plan.
  */
-export function StickyCta({ watchId, href = "/signup", label = "Start the 180-day plan" }: { watchId: string; href?: string; label?: string }) {
+export function StickyCta({ watchId, href = "/signup", label = "Start the daily plan" }: { watchId: string; href?: string; label?: string }) {
   const { user } = useAuth();
   const [show, setShow] = useState(false);
 

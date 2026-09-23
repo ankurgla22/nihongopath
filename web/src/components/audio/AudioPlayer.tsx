@@ -94,7 +94,9 @@ export function AudioPlayer({
   const [shadowToggle, setShadowToggle] = useState(false);
   const shadowing = minimal ? false : (shadowingProp ?? shadowToggle);
 
-  if (audioSrc) {
+  // A recording is used for listening; shadowing still goes line by line through speech
+  // synthesis, because it needs to pause after each line, which a single file cannot do.
+  if (audioSrc && !shadowing) {
     return <FileAudio src={audioSrc} rate={rate} setRate={setRate} label={label} minimal={minimal} />;
   }
   return (

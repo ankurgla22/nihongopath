@@ -124,10 +124,10 @@ describe("content: cross references", () => {
 });
 
 describe("content: curriculum", () => {
-  it("has 180 days numbered 1..180", () => {
-    expect(curriculum.days).toHaveLength(180);
+  it("has 270 days numbered 1..270", () => {
+    expect(curriculum.days).toHaveLength(270);
     const days = curriculum.days.map((d) => d.day).sort((a, b) => a - b);
-    expect(days).toEqual(Array.from({ length: 180 }, (_, i) => i + 1));
+    expect(days).toEqual(Array.from({ length: 270 }, (_, i) => i + 1));
   });
 
   it("each day has between 90 and 240 minutes of tasks", () => {

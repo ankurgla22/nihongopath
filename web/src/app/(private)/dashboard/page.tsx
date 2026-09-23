@@ -6,7 +6,7 @@ import { DashboardClient, type DaySummary } from "@/components/dashboard/Dashboa
 
 export const metadata = pageMetadata({
   title: "Dashboard",
-  description: "Your 180-day progress, streak, study time and today's plan.",
+  description: "Your progress through the daily plan, streak, study time and today's tasks.",
   path: "/dashboard",
   noIndex: true,
 });

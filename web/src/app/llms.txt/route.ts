@@ -47,7 +47,7 @@ export function GET() {
 ${link("Home", "/", "what the site covers and where to begin")}
 ${link("About Nihongo Path", "/about", "who builds the site, how lessons are made and how exam facts are sourced")}
 ${link("Learning path", "/japanese", "all six levels in order, with what each one requires")}
-${link("Curriculum overview", "/japanese/curriculum", "what each level teaches, what every level contains, the 180-day plan and how review works")}
+${link("Curriculum overview", "/japanese/curriculum", "what each level teaches, what every level contains, the 270-day plan and how review works")}
 ${link("Foundation", "/japanese/foundation", "hiragana, katakana, pronunciation, numbers, dates and greetings")}
 ${link("About the JLPT", "/jlpt", "levels, section structure, scoring and exam dates")}
 ${link("Exam strategy guides", "/jlpt/strategy", "how to prepare for and sit each section")}
@@ -71,7 +71,7 @@ ${link("Sitemap index", "/sitemap.xml", "every public URL, split into per-sectio
 - ${s.vocabulary} vocabulary entries and ${s.kanji} kanji with readings, meanings and example sentences.
 - Reading passages and listening exercises for every level, each with questions and explanations.
 - Full-length mock exams per level, following the official JLPT section structure.
-- A 180-day daily study plan from kana to N2, with spaced review.
+- A 270-day daily study plan (180 days to N2, 90 more to N1), with spaced review.
 
 ## URL patterns
 

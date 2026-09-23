@@ -166,10 +166,10 @@ describe("curriculumDayFor / phaseForDay", () => {
     { id: 1, name: "P1", description: "", startDay: 1, endDay: 30 },
     { id: 2, name: "P2", description: "", startDay: 31, endDay: 60 },
   ];
-  it("returns currentDay clamped to 1..180", () => {
+  it("returns currentDay clamped to 1..270", () => {
     expect(curriculumDayFor({ currentDay: 43 }, T)).toBe(43);
     expect(curriculumDayFor({ currentDay: 0 })).toBe(1);
-    expect(curriculumDayFor({ currentDay: 999 })).toBe(180);
+    expect(curriculumDayFor({ currentDay: 999 })).toBe(270);
     expect(curriculumDayFor({ currentDay: NaN })).toBe(1);
   });
   it("finds the phase containing the day", () => {

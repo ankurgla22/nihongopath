@@ -5,7 +5,7 @@ import { SignupForm } from "@/components/auth/SignupForm";
 
 export const metadata = pageMetadata({
   title: "Create an account",
-  description: "Create a free account to follow the 180-day JLPT N2 plan and save your progress.",
+  description: "Create a free account to follow the daily plan (180 days to JLPT N2, 270 to N1) and save your progress.",
   path: "/signup",
   noIndex: true,
 });

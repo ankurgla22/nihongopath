@@ -674,7 +674,7 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
                 </Button>
               ) : (
                 <Button href="/progress" size="lg">
-                  You finished the 180-day plan — view progress
+                  You finished the plan — view progress
                 </Button>
               )}
             </div>

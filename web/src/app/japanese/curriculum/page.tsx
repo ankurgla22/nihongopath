@@ -12,7 +12,7 @@ import { LAST_MODIFIED, SITE_URL } from "@/lib/seo/site";
 export const metadata = pageMetadata({
   title: "Curriculum overview: Foundation to JLPT N1, what you study at each level",
   description:
-    "The whole Nihongo Path curriculum on one page: the six levels in order, what each one teaches, what every level contains, how the 180-day plan is built and how spaced review works.",
+    "The whole Nihongo Path curriculum on one page: the six levels in order, what each one teaches, what every level contains, how the 270-day plan is built and how spaced review works.",
   path: "/japanese/curriculum",
 });
 
@@ -83,7 +83,7 @@ export default function CurriculumPage() {
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
       <PageTitle
         title="The curriculum, on one page"
-        description="Six levels in a fixed order, the same five skills at every level, a 180-day plan that schedules them, and spaced review that decides what comes back. This page explains how the pieces fit."
+        description="Six levels in a fixed order, the same five skills at every level, a day-by-day plan that schedules them, and spaced review that decides what comes back. This page explains how the pieces fit."
       />
 
       <div className="max-w-content">
@@ -159,8 +159,8 @@ export default function CurriculumPage() {
 
         <Section
           id="plan"
-          title="The 180-day plan"
-          intro={`Signing in unlocks a day-by-day plan from kana to N2. It schedules ${fmt(plan.days.length)} days in six phases, about ${mix.perDay} minutes a day and ${fmt(Math.round(mix.total / 60))} hours in total. Every day ends with a quiz, every week with a test, every phase with a phase test.`}
+          title={`The ${plan.days.length}-day plan`}
+          intro={`Signing in unlocks a day-by-day plan from kana to N1: ${fmt(plan.days.length)} days in ${plan.phases.length} phases, about ${mix.perDay} minutes a day and ${fmt(Math.round(mix.total / 60))} hours in total. Days 1–180 take you to N2 and days 181–270 to N1. Every day ends with a quiz, every week with a test, every phase with a phase test. It is an intensive schedule: treat it as the order to study in, not a deadline. Most learners repeat phases, and the tracker lets you set your current day at any time.`}
         >
           <div className="overflow-x-auto surface rounded-2xl">
             <table className="w-full text-sm min-w-[32rem]">

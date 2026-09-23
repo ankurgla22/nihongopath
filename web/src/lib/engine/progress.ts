@@ -7,7 +7,8 @@ import type { DailyProgressDoc, ProgressDoc, Skill, UserDoc } from "@/lib/firest
 import { SKILLS } from "@/lib/firestore/types";
 import { addDays, daysBetween } from "./srs";
 
-export const CURRICULUM_DAYS = 180;
+/** 180 days to N2 (phases 1–6) plus 90 days to N1 (phases 7–9). */
+export const CURRICULUM_DAYS = 270;
 
 export type SkillSummary = { learned: number; mastered: number; total: number; percent: number };
 

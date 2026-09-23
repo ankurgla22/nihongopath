@@ -72,7 +72,7 @@ export default function AboutPage() {
           <p className="mt-4 leading-relaxed text-ink-2">
             The published content currently covers {fmt(total("grammar"))} grammar lessons, {fmt(total("vocabulary"))} vocabulary entries, {fmt(total("kanji"))} kanji,{" "}
             {fmt(total("reading"))} reading passages and {fmt(total("listening"))} listening exercises, plus {fmt(stats.exams)} full-length mock exams and a question bank of{" "}
-            {fmt(stats.questions)} items. Signing in adds a private study tracker: a 180-day daily plan, spaced-repetition review, tests and mock-exam history.
+            {fmt(stats.questions)} items. Signing in adds a private study tracker: a day-by-day plan (180 days to N2, then 90 more to N1), spaced-repetition review, tests and mock-exam history. The plan is intensive, about two hours a day; it is a sequence to follow at your own pace, not a deadline.
           </p>
         </Section>
 

@@ -14,7 +14,7 @@ export type UserDoc = {
   displayName: string | null;
   photoURL: string | null;
   createdAt: string;
-  /** 1-based day in the 180-day curriculum the learner is currently on. */
+  /** 1-based day in the daily curriculum (270 days: 180 to N2, 90 to N1) the learner is currently on. */
   currentDay: number;
   currentPhase: number;
   currentLevel: "n5" | "n4" | "n3" | "n2" | "n1";

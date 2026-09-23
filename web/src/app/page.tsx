@@ -42,7 +42,7 @@ export default function HomePage() {
           </p>
           <div className="animate-rise-3 mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Button href="/signup" size="lg">
-              Start the 180-day plan
+              Start the daily plan
               <Arrow />
             </Button>
             <Link href="/japanese" className="inline-flex items-center gap-1.5 text-base font-medium text-accent hover:underline">

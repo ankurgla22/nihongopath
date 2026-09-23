@@ -211,8 +211,8 @@ export const TaskTypeSchema = z.enum([
 ]);
 
 export const CurriculumDaySchema = z.object({
-  day: z.number().int().min(1).max(180),
-  phase: z.number().int().min(1).max(6),
+  day: z.number().int().min(1).max(270),
+  phase: z.number().int().min(1).max(9),
   title: z.string(),
   objectives: z.array(z.string()),
   tasks: z.array(

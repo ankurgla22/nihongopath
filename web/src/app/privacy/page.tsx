@@ -75,7 +75,7 @@ export default function PrivacyPage() {
           <ul className="mt-3 space-y-1.5 text-ink-2 leading-relaxed">
             {[
               "Your email address, display name and, if you sign in with Google, the profile photo URL Google provides.",
-              "Where you are in the 180-day plan: current day, phase and level, your streak and longest streak, total study minutes and lessons completed.",
+              "Where you are in the daily plan: current day, phase and level, your streak and longest streak, total study minutes and lessons completed.",
               "A progress record for every grammar point, word, kanji, reading passage and listening exercise you have answered: attempts, correct and incorrect counts, and the spaced-review schedule derived from them.",
               "Daily progress, study sessions, quiz results and mock-exam results, including which answers you chose.",
               "Items you save, and your settings (daily minutes target, whether to show furigana).",

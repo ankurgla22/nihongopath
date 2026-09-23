@@ -13,6 +13,7 @@ import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateKanjiDrill } from "@/lib/drill/generate";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
+import { StrokeOrder } from "@/components/content/StrokeOrder";
 import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
@@ -162,6 +163,10 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
           </div>
           <UpdatedOn className="mt-4" date={updated} />
         </header>
+
+        <Section id="stroke-order" title="Stroke order" intro="Write it in this order; the numbers mark where each stroke starts.">
+          <StrokeOrder character={k.character} />
+        </Section>
 
         <Section id="words" title="Common words">
           <div className="surface rounded-2xl overflow-hidden">
