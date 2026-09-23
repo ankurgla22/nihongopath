@@ -52,7 +52,9 @@ if (cmd === "prep") {
   process.exit(0);
 }
 
-if (cmd === "install") {
+// `validate` runs the same checks as `install` but writes nothing, so parallel workers can check
+// their own output; installs are then done one at a time (the enriched-NN numbering is sequential).
+if (cmd === "install" || cmd === "validate") {
   const base = new Map(JSON.parse(fs.readFileSync(baseFile, "utf8")).map((x) => [x[key], x]));
   const arr = JSON.parse(fs.readFileSync(target, "utf8"));
   if (!Array.isArray(arr) || !arr.length) throw new Error("expected a non-empty array");
@@ -93,6 +95,10 @@ if (cmd === "install") {
   if (errors.length) {
     console.error(`${target}: ${errors.length} problem(s)\n` + errors.slice(0, 40).join("\n"));
     process.exit(1);
+  }
+  if (cmd === "validate") {
+    console.log(`${target}: ${arr.length} ${kind} entries valid`);
+    process.exit(0);
   }
   fs.mkdirSync(enrichedDir, { recursive: true });
   const existing = fs.existsSync(enrichedDir) ? fs.readdirSync(enrichedDir).filter((f) => /^enriched-\d+\.json$/.test(f)) : [];
