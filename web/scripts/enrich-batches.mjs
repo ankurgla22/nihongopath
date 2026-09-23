@@ -59,7 +59,15 @@ if (cmd === "install" || cmd === "validate") {
   const arr = JSON.parse(fs.readFileSync(target, "utf8"));
   if (!Array.isArray(arr) || !arr.length) throw new Error("expected a non-empty array");
   const errors = [];
-  const stem = (w) => w.replace(/(する|です|ます)$/, "").replace(/[うくぐすつぬぶむる]$/, "");
+  // Loose stem for the containment check, so an example may inflect the word instead of being
+  // forced into dictionary form. Strips the inflecting tail: suru-nouns and polite endings, then
+  // one trailing kana covering verbs (食べる → 食べ), い-adjectives (寂しい → 寂し, which matches
+  // 寂しかった and 寂しくなりました) and な-adjectives (静かな → 静か). A false accept here is
+  // harmless; a false reject pushes unnatural dictionary-form sentences into the lessons.
+  const stem = (w) => {
+    const s = w.replace(/(する|です|ます)$/, "").replace(/[いなうくぐすつぬぶむる]$/, "");
+    return s || w;
+  };
   for (const [i, e] of arr.entries()) {
     const b = base.get(e[key]);
     const where = `[${i}] ${e[key] ?? "?"}`;
