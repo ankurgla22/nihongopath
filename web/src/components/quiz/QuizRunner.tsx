@@ -223,9 +223,17 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
     (idx: number) => {
       if (revealed) return;
       setSelected(idx);
-      if (mode === "practice") setRevealed(true);
+      if (mode !== "practice") return;
+      setRevealed(true);
+      // Persist as soon as the explanation appears. Answers were only written on Next, so a
+      // learner who read the explanation and then left lost that answer, while the exit
+      // dialog told them "your answers so far are kept". The last question is excluded: the
+      // restore path only resumes a part-finished set, and finishing writes the real result.
+      if (!q) return;
+      const provisional = [...answers, { questionId: q.id, selectedIndex: idx, seconds: Math.max(0, Math.round((Date.now() - startRef.current) / 1000)) }];
+      if (provisional.length < total) writeSaved(storageKey, { index: provisional.length, answers: provisional, questionIds });
     },
-    [revealed, mode]
+    [revealed, mode, q, answers, total, storageKey, questionIds]
   );
 
   const advance = useCallback(() => {

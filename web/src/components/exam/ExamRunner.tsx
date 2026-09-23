@@ -406,7 +406,9 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
 
   // Keyboard: 1-6 select an option, ← / → move, F flags.
   useEffect(() => {
-    if (screen !== "running") return;
+    // Not while the question navigator is open: it is a modal sheet over the question, so
+    // 1-6 would answer a question the learner cannot see, and the arrows would move behind it.
+    if (screen !== "running" || navOpen) return;
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement | null;
       if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.tagName === "SELECT" || t.isContentEditable)) return;
@@ -418,7 +420,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [screen, currentQuestion, questionIndex, select, goTo, toggleFlag]);
+  }, [screen, navOpen, currentQuestion, questionIndex, select, goTo, toggleFlag]);
 
   useEffect(
     () => () => {

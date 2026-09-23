@@ -206,7 +206,14 @@ function TtsAudio({
   const [current, setCurrent] = useState(-1);
   const voiceRef = useRef<SpeechSynthesisVoice | undefined>(undefined);
   const timerRef = useRef<number | null>(null);
-  const cancelledRef = useRef(false);
+  /**
+   * Generation of the current playback chain. Every stop, replay or unmount bumps it, and a
+   * chain checks it before continuing. A single boolean was not enough: replaying reset the
+   * flag but left the previous chain's pending timer running, so it resumed the old line
+   * sequence alongside the new one, and `cancel()` firing the in-flight utterance's `onend`
+   * (as Chrome does) scheduled yet another. Two readings played over each other.
+   */
+  const runRef = useRef(0);
   const indexRef = useRef(0);
 
   useEffect(() => {
@@ -220,14 +227,14 @@ function TtsAudio({
     window.speechSynthesis.addEventListener("voiceschanged", load);
     return () => {
       window.speechSynthesis.removeEventListener("voiceschanged", load);
-      cancelledRef.current = true;
+      runRef.current++;
       window.speechSynthesis.cancel();
       if (timerRef.current) window.clearTimeout(timerRef.current);
     };
   }, []);
 
   const stop = useCallback(() => {
-    cancelledRef.current = true;
+    runRef.current++;
     if (timerRef.current) window.clearTimeout(timerRef.current);
     timerRef.current = null;
     window.speechSynthesis.cancel();
@@ -237,10 +244,13 @@ function TtsAudio({
 
   const speakFrom = useCallback(
     (start: number) => {
-      cancelledRef.current = false;
+      // Supersede whatever was playing: new generation, drop its pending timer, cancel its utterance.
+      const run = ++runRef.current;
+      if (timerRef.current) window.clearTimeout(timerRef.current);
+      timerRef.current = null;
       window.speechSynthesis.cancel();
       const speakLine = (i: number) => {
-        if (cancelledRef.current) return;
+        if (run !== runRef.current) return;
         if (i >= lines.length) {
           setStatus("done");
           setCurrent(-1);
@@ -254,7 +264,7 @@ function TtsAudio({
         u.rate = rate;
         if (voiceRef.current) u.voice = voiceRef.current;
         u.onend = () => {
-          if (cancelledRef.current) return;
+          if (run !== runRef.current) return;
           if (shadowing) {
             // Pause long enough for the learner to repeat the line, then continue.
             setStatus("waiting");
@@ -264,7 +274,7 @@ function TtsAudio({
           }
         };
         u.onerror = () => {
-          if (!cancelledRef.current) setStatus("idle");
+          if (run === runRef.current) setStatus("idle");
         };
         window.speechSynthesis.speak(u);
       };

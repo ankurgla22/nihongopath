@@ -54,12 +54,19 @@ export function PartBar({ parts, quickCheckId }: { parts: { id: string; label: s
         </p>
         <span className="inline-flex items-center gap-1">
           {current + 1 < parts.length && (
-            <a href={`#${parts[current + 1].id}`} className="hidden sm:inline text-xs font-medium text-ink-2 hover:text-accent px-2 py-1 rounded-full">
+            <a
+              href={`#${parts[current + 1].id}`}
+              // The bar is aria-hidden while invisible, but opacity and pointer-events leave an
+              // anchor focusable, so keyboard focus disappeared into it and screen readers
+              // announced nothing for two stops.
+              tabIndex={visible ? undefined : -1}
+              className="hidden sm:inline text-xs font-medium text-ink-2 hover:text-accent px-2 py-1 rounded-full"
+            >
               Next part
             </a>
           )}
           {quickCheckId && (
-            <a href={`#${quickCheckId}`} className="text-xs font-medium text-accent hover:underline whitespace-nowrap px-2 py-1 rounded-full">
+            <a href={`#${quickCheckId}`} tabIndex={visible ? undefined : -1} className="text-xs font-medium text-accent hover:underline whitespace-nowrap px-2 py-1 rounded-full">
               Jump to quick check
             </a>
           )}

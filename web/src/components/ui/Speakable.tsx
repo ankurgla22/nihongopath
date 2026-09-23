@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, type KeyboardEvent, type MouseEvent, type ReactNode } from "react";
+import { useEffect, useRef, useState, type KeyboardEvent, type MouseEvent, type ReactNode } from "react";
 import { speakJapanese, speechSupported, stopSpeaking } from "@/lib/speech";
 
 type Props = {
@@ -23,7 +23,14 @@ type Props = {
 export function Speakable({ text, children, as: Tag = "span", className = "", rate, stopPropagation = true }: Props) {
   const [playing, setPlaying] = useState(false);
   const [supported, setSupported] = useState(false);
+  const playingRef = useRef(false);
   useEffect(() => setSupported(speechSupported()), []);
+  // Speech outlives the DOM: without this, tapping a word and then moving on (Next question,
+  // or a link to another page) leaves the old sentence being read over the new screen, with no
+  // visible control to stop it, because the button that owned the state is gone.
+  useEffect(() => () => {
+    if (playingRef.current) stopSpeaking();
+  }, []);
 
   if (!supported) {
     return (
@@ -36,10 +43,21 @@ export function Speakable({ text, children, as: Tag = "span", className = "", ra
   const toggle = () => {
     if (playing) {
       stopSpeaking();
+      playingRef.current = false;
       setPlaying(false);
       return;
     }
-    speakJapanese(text, { rate, onStart: () => setPlaying(true), onEnd: () => setPlaying(false) });
+    speakJapanese(text, {
+      rate,
+      onStart: () => {
+        playingRef.current = true;
+        setPlaying(true);
+      },
+      onEnd: () => {
+        playingRef.current = false;
+        setPlaying(false);
+      },
+    });
   };
   const onClick = (e: MouseEvent) => {
     if (stopPropagation) {

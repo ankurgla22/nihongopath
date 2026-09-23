@@ -56,6 +56,9 @@ function onSpeakKey(e: KeyboardEvent<HTMLUListElement>) {
 export function VocabCards({ base, items }: { base: string; items: VocabCard[] }) {
   const [speech, setSpeech] = useState(true);
   useEffect(() => setSpeech(speechSupported()), []);
+  // Speech outlives the DOM: leaving the vocabulary list (tap a word, then open its lesson)
+  // would otherwise keep reading it over the next page.
+  useEffect(() => () => stopSpeaking(), []);
   return (
     <ul className="vgrid" onClick={onSpeakClick} onKeyDown={onSpeakKey} data-nospeech={speech ? undefined : ""}>
       {items.map(([slug, , word, reading, meaning, pos]) => (
