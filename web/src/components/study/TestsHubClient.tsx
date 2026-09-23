@@ -18,6 +18,7 @@ import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Button, Callout, Card, PageTitle } from "@/components/ui";
 import { LoadingState, SkillGlyph } from "@/components/progress/shared";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
+import { attemptSeed } from "@/components/quiz/attempt";
 import { levelForPhase, pickWithFallback, questionLevelsUpTo, type ContentLinks } from "./helpers";
 
 type PhaseSummary = { id: number; name: string; startDay: number; endDay: number };
@@ -69,9 +70,12 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
     }
   };
 
+  // Same key the QuizRunner persists answers under, so a seed and its answers travel together.
+  const storageKeyFor = (key: string) => `nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${key}`;
+
   const start = (key: string, kind: QuizKind, title: string, mode: "practice" | "test", count: number, skills?: Skill[]) => {
     if (!user) return;
-    const seed = `${user.uid}-${today}-${key}-${Date.now()}`;
+    const seed = attemptSeed(storageKeyFor(key), () => `${user.uid}-${today}-${key}-${Date.now()}`);
     const picked = pickWithFallback(questionIndex, { count, levels, skills, seed });
     void loadLaunch({ key, kind, title, mode, ids: picked.map((q) => q.id) });
   };
@@ -83,7 +87,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
   const startDrill = (kind: "vocab" | "kanji") => {
     if (!user || !drillLevel) return;
     const key = `drill-${kind}`;
-    const seed = `${user.uid}-${today}-${key}-${Date.now()}`;
+    const seed = attemptSeed(storageKeyFor(key), () => `${user.uid}-${today}-${key}-${Date.now()}`);
     const rand = mulberry32(hashSeed(seed));
     const contentIds = shuffle(drillPoolFor(kind).slice(), rand)
       .slice(0, DRILL_COUNT)
@@ -170,7 +174,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
           questions={launch.questions}
           title={launch.title}
           mode={launch.mode}
-          storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:${launch.key}`}
+          storageKey={storageKeyFor(launch.key)}
           contentLinks={contentLinks}
           onComplete={onComplete}
           onExit={close}

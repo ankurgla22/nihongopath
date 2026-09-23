@@ -246,7 +246,10 @@ export async function completeQuiz(input: CompleteQuizInput): Promise<QuizResult
     await addQuizResult(uid, result);
     if (progress.length) await setProgressBatch(uid, progress);
     if (reviews.length) await setReviewItems(uid, reviews);
-    if (clearReviewIds.length) await removeReviewItems(uid, clearReviewIds).catch(() => {});
+    // Not swallowed: every other write here propagates so the queued copy survives for
+    // flushPending. Ignoring a failure meant the items stayed due for ever, because dequeue()
+    // below then discarded the only record that could retry them.
+    if (clearReviewIds.length) await removeReviewItems(uid, clearReviewIds);
     await addSession(uid, session);
     await logDaily(uid, input.curriculumDay, session.minutes, score.skillBreakdown, input.taskId);
     await touchUserForStudy(uid, session.minutes, score.skillBreakdown, lessonIds.size);

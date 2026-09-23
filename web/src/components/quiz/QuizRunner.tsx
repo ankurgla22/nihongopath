@@ -25,6 +25,7 @@ import { JA_RE, isQueuedError, type ContentLinks } from "@/components/study/help
 import { Arrow, Button, Callout, Kbd, SpeakButton } from "@/components/ui";
 import { Ring } from "@/components/progress/shared";
 import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
+import { clearAttempt } from "./attempt";
 
 export type QuizRunnerProps = {
   questions: Question[];
@@ -65,14 +66,8 @@ function writeSaved(key: string | undefined, s: Saved) {
   }
 }
 
-function clearSaved(key: string | undefined) {
-  if (!key) return;
-  try {
-    localStorage.removeItem(key);
-  } catch {
-    /* ignore */
-  }
-}
+/** Clears the answers and the attempt seed together (see quiz/attempt). */
+const clearSaved = clearAttempt;
 
 function linkVerb(type?: string): string {
   switch (type) {

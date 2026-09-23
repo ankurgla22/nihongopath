@@ -130,17 +130,25 @@ export type StreakState = { streak: number; longestStreak: number; lastStudyDate
  */
 export function updateStreak(user: Pick<UserDoc, "streak" | "longestStreak" | "lastStudyDate">, today: string): StreakState {
   const last = user.lastStudyDate;
+  // `?? 0` on both: a user document written by an older build can be missing either, and
+  // Math.max(0, undefined) is NaN, which would then be persisted and never recover.
+  const current = user.streak ?? 0;
+  const longest = user.longestStreak ?? 0;
   let streak: number;
   if (!last) streak = 1;
   else {
     const gap = daysBetween(last, today);
-    if (gap === 0) streak = Math.max(1, user.streak);
-    else if (gap === 1) streak = Math.max(0, user.streak) + 1;
-    else streak = 1; // gap > 1, or a date earlier than the last study date
+    if (gap === 0) streak = Math.max(1, current);
+    else if (gap === 1) streak = Math.max(0, current) + 1;
+    // A date earlier than the last study day is a replay of queued offline work, not a gap:
+    // the learner did study that day, and the days since have already been counted. Lowering
+    // the streak here would silently destroy it.
+    else if (gap < 0) streak = Math.max(1, current);
+    else streak = 1; // a real gap of more than one day
   }
   return {
     streak,
-    longestStreak: Math.max(user.longestStreak ?? 0, streak),
+    longestStreak: Math.max(longest, streak),
     lastStudyDate: last && last > today ? last : today,
   };
 }

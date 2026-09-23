@@ -132,10 +132,24 @@ describe("updateStreak", () => {
   it("resets to 1 after a gap and keeps the longest", () => {
     expect(updateStreak({ streak: 4, longestStreak: 4, lastStudyDate: "2026-09-10" }, T)).toEqual({ streak: 1, longestStreak: 4, lastStudyDate: T });
   });
-  it("handles a study date in the future defensively", () => {
+  it("keeps the streak when replaying a study date earlier than the last one", () => {
+    // Queued offline work flushes with the date it was recorded. That day was studied, and the
+    // days since have already been counted, so a replay must never lower the streak.
     const r = updateStreak({ streak: 3, longestStreak: 3, lastStudyDate: "2026-09-20" }, T);
-    expect(r.streak).toBe(1);
+    expect(r.streak).toBe(3);
     expect(r.lastStudyDate).toBe("2026-09-20");
+  });
+
+  it("does not produce NaN when the stored counters are missing", () => {
+    const r = updateStreak({ streak: undefined, longestStreak: undefined, lastStudyDate: "2026-09-22" } as never, "2026-09-23");
+    expect(r.streak).toBe(1);
+    expect(r.longestStreak).toBe(1);
+  });
+
+  it("still resets after a real gap of more than one day", () => {
+    const r = updateStreak({ streak: 9, longestStreak: 9, lastStudyDate: "2026-09-18" }, "2026-09-23");
+    expect(r.streak).toBe(1);
+    expect(r.longestStreak).toBe(9);
   });
 });
 

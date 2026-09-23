@@ -22,6 +22,7 @@ import { Arrow, Badge, Button, Callout, Card, PageTitle } from "@/components/ui"
 import { LoadingState, SkillGlyph } from "@/components/progress/shared";
 import { resolveContentIds, type ResolvedContent } from "@/components/progress/contentHref";
 import { QuizRunner } from "@/components/quiz/QuizRunner";
+import { attemptSeed } from "@/components/quiz/attempt";
 import { addDaysISO, isQueuedError, reviewQuestions, type ContentLinks } from "@/components/study/helpers";
 
 /** `questionIndex` is the packed slim bank (id/level/skill/difficulty/content ids); full records are fetched on demand. */
@@ -127,10 +128,13 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
 
   // Due vocabulary/kanji are drilled directly (one generated question each, so every word is coverable);
   // grammar/reading/listening items draw from the question bank as before. Both run in one session.
+  // Same key the QuizRunner persists answers under, so a seed and its answers travel together.
+  const reviewStorageKey = `nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:review-session`;
+
   const startSession = () => {
     if (!user) return;
     const count = Math.min(SESSION_MAX, Math.max(SESSION_MIN, due.length));
-    const seed = `${user.uid}-${today}-review-${Date.now()}`;
+    const seed = attemptSeed(reviewStorageKey, () => `${user.uid}-${today}-review-${Date.now()}`);
     const drillIds = due.filter((i) => isDrillable(i.contentId)).slice(0, count).map((i) => i.contentId);
     const others = due.filter((i) => !isDrillable(i.contentId));
     const bankCount = count - drillIds.length;
@@ -199,7 +203,7 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
           questions={session.questions}
           title="Review session"
           mode="practice"
-          storageKey={`nihongo-path:quiz:${user?.uid ?? "anon"}:${today}:review-session`}
+          storageKey={reviewStorageKey}
           contentLinks={contentLinks}
           onComplete={onComplete}
           onExit={closeSession}
