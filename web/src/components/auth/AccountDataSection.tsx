@@ -85,8 +85,7 @@ export function AccountDataSection() {
               : `${LEVEL_OPTIONS.find((o) => o.value === level)?.label} reset: ${summary.deleted.progress ?? 0} studied items and their review entries cleared. Your history and totals are unchanged.`,
         });
         setTask(null);
-        // The profile reads the user document client-side, so a router refresh alone would
-        // leave the old day and streak on screen.
+        // Shared provider: this refresh is the same state the profile above renders from.
         await refresh();
         router.refresh();
       } else {

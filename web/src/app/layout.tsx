@@ -5,6 +5,7 @@ import { JapaneseFont } from "@/components/layout/JapaneseFont";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { AuthProvider } from "@/components/auth/AuthProvider";
+import { UserDocProvider } from "@/components/auth/useUserDoc";
 import { ThemeScript } from "@/components/layout/ThemeToggle";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/metadata";
@@ -43,11 +44,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <JsonLd data={[organizationJsonLd(), websiteJsonLd(SITE_TAGLINE)]} />
         <AuthProvider>
-          <SiteHeader />
-          <main id="main" className="flex-1">
-            {children}
-          </main>
-          <SiteFooter />
+          <UserDocProvider>
+            <SiteHeader />
+            <main id="main" className="flex-1">
+              {children}
+            </main>
+            <SiteFooter />
+          </UserDocProvider>
         </AuthProvider>
       </body>
     </html>
