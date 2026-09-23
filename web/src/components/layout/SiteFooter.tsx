@@ -22,6 +22,14 @@ export function SiteFooter() {
           About the JLPT
         </Link>
         <span aria-hidden>·</span>
+        <Link href="/privacy" className="text-ink-2 hover:text-accent transition">
+          Privacy
+        </Link>
+        <span aria-hidden>·</span>
+        <Link href="/terms" className="text-ink-2 hover:text-accent transition">
+          Terms
+        </Link>
+        <span aria-hidden>·</span>
         <FooterAccount />
       </div>
     </footer>
