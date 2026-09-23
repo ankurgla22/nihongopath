@@ -17,8 +17,8 @@ export function reauthNeeds(user: User): ReauthNeeds {
   return user.providerData.some((p) => p.providerId === "google.com") ? "google" : "password";
 }
 
-/** Re-authenticate and return a token with a fresh `auth_time`. Throws on cancel or wrong password. */
-export async function freshIdToken(user: User, password?: string): Promise<string> {
+/** Prove the learner is present: Google popup, or the account password. Throws on cancel or a wrong password. */
+export async function reauthenticate(user: User, password?: string): Promise<void> {
   const { EmailAuthProvider, GoogleAuthProvider, browserPopupRedirectResolver, reauthenticateWithCredential, reauthenticateWithPopup } = await import("firebase/auth");
   if (reauthNeeds(user) === "google") {
     await reauthenticateWithPopup(user, new GoogleAuthProvider(), browserPopupRedirectResolver);
@@ -27,8 +27,30 @@ export async function freshIdToken(user: User, password?: string): Promise<strin
     if (!user.email) throw new Error("no-email");
     await reauthenticateWithCredential(user, EmailAuthProvider.credential(user.email, password));
   }
-  // After a real re-authentication this token carries the new auth_time.
+}
+
+/** Re-authenticate and return a token with a fresh `auth_time`, which the server checks. */
+export async function freshIdToken(user: User, password?: string): Promise<string> {
+  await reauthenticate(user, password);
+  // Only after a real re-authentication does the refreshed token carry a new auth_time.
   return user.getIdToken(true);
+}
+
+/**
+ * Change the account password. Firebase requires a recent sign-in for this, so the current
+ * password (or a Google re-auth) is verified first. Google-only accounts have no password to
+ * change; the caller hides the control for them.
+ */
+export async function changePassword(user: User, currentPassword: string, newPassword: string): Promise<void> {
+  await reauthenticate(user, currentPassword);
+  const { updatePassword } = await import("firebase/auth");
+  await updatePassword(user, newPassword);
+}
+
+/** Send (or resend) the address-verification email. */
+export async function sendVerification(user: User): Promise<void> {
+  const { sendEmailVerification } = await import("firebase/auth");
+  await sendEmailVerification(user);
 }
 
 type AccountBody = { action: "export" } | { action: "reset"; scope: "all" } | { action: "reset"; scope: "level"; level: string } | { action: "delete"; confirm: "DELETE" };

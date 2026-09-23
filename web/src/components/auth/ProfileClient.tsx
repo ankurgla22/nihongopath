@@ -6,12 +6,14 @@ import { getClientAuth } from "@/lib/firebase/client";
 import { updateUser } from "@/lib/firestore/repo";
 import type { SessionUser } from "@/lib/firebase/session";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
+import { LEVELS, LEVEL_LABEL, type Level } from "@/lib/content/schemas";
 import { phaseOf } from "@/lib/study/service";
 import { useAuth } from "./AuthProvider";
 import { useUserDoc } from "./useUserDoc";
 import { friendlyAuthError } from "./authErrors";
 import { clearSession } from "./sessionClient";
 import { AccountDataSection } from "./AccountDataSection";
+import { SecuritySection } from "./SecuritySection";
 
 /** "Sep 18" or "Sep 18, 2026" from an ISO timestamp or YYYY-MM-DD string. */
 function friendlyDate(iso: string, opts: { year?: boolean } = {}): string {
@@ -50,6 +52,7 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
   const [minutes, setMinutes] = useState(125);
   const [furigana, setFurigana] = useState(true);
   const [currentDay, setCurrentDay] = useState(1);
+  const [targetLevel, setTargetLevel] = useState<Level>("n5");
   const [saving, setSaving] = useState(false);
   const [msg, setMsg] = useState<{ tone: "ok" | "warn"; text: string } | null>(null);
   const furiganaId = useId();
@@ -61,6 +64,7 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
       setMinutes(userDoc.settings.dailyMinutesTarget);
       setFurigana(userDoc.settings.showFurigana);
       setCurrentDay(userDoc.currentDay);
+      if ((LEVELS as readonly string[]).includes(userDoc.currentLevel)) setTargetLevel(userDoc.currentLevel);
     }
   }, [userDoc, user, sessionUser.name]);
 
@@ -87,6 +91,7 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
       const dayChanged = userDoc ? day !== userDoc.currentDay : false;
       await updateUser(user.uid, {
         displayName: trimmed || null,
+        currentLevel: targetLevel,
         settings: { dailyMinutesTarget: target, showFurigana: furigana },
         ...(dayChanged ? { currentDay: day, currentPhase: phaseOf(day) } : {}),
       });
@@ -157,6 +162,26 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
           </div>
 
           <div>
+            <label htmlFor="target-level" className="block text-sm font-medium mb-1.5">
+              Level you are working towards
+            </label>
+            <select
+              id="target-level"
+              value={targetLevel}
+              onChange={(e) => setTargetLevel(e.target.value as Level)}
+              disabled={loading || !userDoc}
+              className={`w-full max-w-xs ${inputCls}`}
+            >
+              {LEVELS.map((l) => (
+                <option key={l} value={l}>
+                  JLPT {LEVEL_LABEL[l]}
+                </option>
+              ))}
+            </select>
+            <p className="mt-1.5 text-sm text-muted">Sets which level your progress page reports against. It does not change the daily plan.</p>
+          </div>
+
+          <div>
             <label htmlFor="jump-day" className="block text-sm font-medium mb-1.5">
               Current day
             </label>
@@ -195,6 +220,8 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
           </div>
         </form>
       </Card>
+
+      <SecuritySection />
 
       <AccountDataSection />
 
