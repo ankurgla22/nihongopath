@@ -47,6 +47,20 @@ export async function changePassword(user: User, currentPassword: string, newPas
   await updatePassword(user, newPassword);
 }
 
+/**
+ * Start an email-address change.
+ *
+ * Firebase's `updateEmail` is disabled for projects with email enumeration protection on, and
+ * changing an address without proving it exists would lock the learner out of password reset.
+ * `verifyBeforeUpdateEmail` sends a link to the NEW address; the change only lands once they
+ * click it, so nothing here is immediate.
+ */
+export async function changeEmail(user: User, currentPassword: string | undefined, newEmail: string): Promise<void> {
+  await reauthenticate(user, currentPassword);
+  const { verifyBeforeUpdateEmail } = await import("firebase/auth");
+  await verifyBeforeUpdateEmail(user, newEmail);
+}
+
 /** Send (or resend) the address-verification email. */
 export async function sendVerification(user: User): Promise<void> {
   const { sendEmailVerification } = await import("firebase/auth");

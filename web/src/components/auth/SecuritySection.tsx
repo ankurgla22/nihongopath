@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useId, useState } from "react";
 import { Button, Callout, Card } from "@/components/ui";
-import { changePassword, reauthNeeds, sendVerification } from "./accountActions";
+import { changeEmail, changePassword, reauthNeeds, sendVerification } from "./accountActions";
 import { friendlyAuthError } from "./authErrors";
 import { useAuth } from "./AuthProvider";
 
@@ -12,15 +12,22 @@ const inputCls =
 const MIN_PASSWORD = 6;
 
 /**
- * Sign-in details: address verification and password changes.
+ * Sign-in details: the email address, its verification, and the password.
  *
  * Verification matters because a typo'd address locks the learner out of password reset, the
- * only recovery route the site has. Password change matters because the sign-out-and-email
- * flow was previously the only way to set a new one.
+ * only recovery route the site has. Password change matters because the signed-out "forgot
+ * password" flow was previously the only way to set a new one.
+ *
+ * Google accounts see neither control: their address and credential belong to Google, so
+ * changing them here would only desync the two.
  */
 export function SecuritySection() {
   const { user } = useAuth();
   const [open, setOpen] = useState(false);
+  const [emailOpen, setEmailOpen] = useState(false);
+  const [newEmail, setNewEmail] = useState("");
+  const [emailPw, setEmailPw] = useState("");
+  const [emailBusy, setEmailBusy] = useState(false);
   const [current, setCurrent] = useState("");
   const [next, setNext] = useState("");
   const [confirm, setConfirm] = useState("");
@@ -33,6 +40,8 @@ export function SecuritySection() {
   const curId = useId();
   const newId = useId();
   const confirmId = useId();
+  const emailId = useId();
+  const emailPwId = useId();
 
   useEffect(() => {
     if (!user) return;
@@ -60,6 +69,28 @@ export function SecuritySection() {
       setVerifyMsg({ tone: "warn", text: friendlyAuthError(err) });
     } finally {
       setSending(false);
+    }
+  }
+
+  async function submitEmail() {
+    if (!user) return setVerifyMsg({ tone: "warn", text: "Your session has expired. Please sign in again." });
+    const target = newEmail.trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(target)) return setVerifyMsg({ tone: "warn", text: "Enter a valid email address." });
+    if (target.toLowerCase() === (user.email ?? "").toLowerCase()) return setVerifyMsg({ tone: "warn", text: "That is already your address." });
+    if (isPasswordAccount && !emailPw) return setVerifyMsg({ tone: "warn", text: "Enter your password to confirm." });
+
+    setEmailBusy(true);
+    setVerifyMsg(null);
+    try {
+      await changeEmail(user, emailPw || undefined, target);
+      setVerifyMsg({ tone: "ok", text: `Check ${target} for a confirmation link. Your address changes only after you open it, and you sign in with the new address from then on.` });
+      setEmailOpen(false);
+      setNewEmail("");
+      setEmailPw("");
+    } catch (err) {
+      setVerifyMsg({ tone: "warn", text: friendlyAuthError(err) });
+    } finally {
+      setEmailBusy(false);
     }
   }
 
@@ -100,13 +131,55 @@ export function SecuritySection() {
               <p className="text-sm text-muted break-all">{user?.email ?? "Not signed in"}</p>
               {verified === false && <p className="mt-1 text-sm text-accent">Not verified. Verify it so you can reset your password if you forget it.</p>}
               {verified === true && <p className="mt-1 text-sm text-muted">Verified.</p>}
+              {!isPasswordAccount && <p className="mt-1 text-sm text-muted">Managed by your Google account.</p>}
             </div>
-            {verified === false && (
-              <Button variant="outline" onClick={resend} disabled={sending}>
-                {sending ? "Sending..." : "Send verification email"}
-              </Button>
-            )}
+            <div className="flex flex-wrap gap-2">
+              {verified === false && (
+                <Button variant="outline" onClick={resend} disabled={sending}>
+                  {sending ? "Sending..." : "Send verification email"}
+                </Button>
+              )}
+              {isPasswordAccount && (
+                <Button
+                  variant="outline"
+                  onClick={() => {
+                    setEmailOpen(!emailOpen);
+                    setVerifyMsg(null);
+                  }}
+                  disabled={emailBusy}
+                >
+                  {emailOpen ? "Cancel" : "Change email"}
+                </Button>
+              )}
+            </div>
           </div>
+
+          {isPasswordAccount && emailOpen && (
+            <div className="mt-4 space-y-3 max-w-xs">
+              <div>
+                <label htmlFor={emailId} className="block text-sm font-medium mb-1.5">
+                  New email address
+                </label>
+                <input id={emailId} type="email" autoComplete="email" value={newEmail} onChange={(e) => setNewEmail(e.target.value)} className={`w-full ${inputCls}`} />
+              </div>
+              {isPasswordAccount ? (
+                <div>
+                  <label htmlFor={emailPwId} className="block text-sm font-medium mb-1.5">
+                    Confirm your password
+                  </label>
+                  <input id={emailPwId} type="password" autoComplete="current-password" value={emailPw} onChange={(e) => setEmailPw(e.target.value)} className={`w-full ${inputCls}`} />
+                </div>
+              ) : (
+                <p className="text-sm text-muted">You will be asked to confirm with Google.</p>
+              )}
+              <p className="text-sm text-muted">We send a link to the new address. The change happens only when you open it.</p>
+              <div className="pt-1">
+                <Button onClick={submitEmail} disabled={emailBusy}>
+                  {emailBusy ? "Sending..." : "Send confirmation link"}
+                </Button>
+              </div>
+            </div>
+          )}
           {verifyMsg && (
             <div role="status" className="mt-3">
               <Callout tone={verifyMsg.tone}>{verifyMsg.text}</Callout>

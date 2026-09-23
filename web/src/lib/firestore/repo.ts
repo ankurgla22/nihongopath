@@ -39,7 +39,19 @@ export async function getUser(uid: string): Promise<UserDoc | null> {
 
 export async function ensureUser(u: { uid: string; email: string | null; displayName: string | null; photoURL: string | null }): Promise<UserDoc> {
   const existing = await getUser(u.uid);
-  if (existing) return existing;
+  if (existing) {
+    // Refresh the provider-owned identity fields. Without this the stored copy is frozen at
+    // signup, so a changed email address (or a new Google avatar) would never catch up and the
+    // profile would keep showing the old one.
+    const patch: Partial<UserDoc> = {};
+    if (u.email !== existing.email) patch.email = u.email;
+    if (u.photoURL !== existing.photoURL) patch.photoURL = u.photoURL;
+    if (Object.keys(patch).length) {
+      await updateUser(u.uid, patch);
+      return { ...existing, ...patch };
+    }
+    return existing;
+  }
   const docData: UserDoc = {
     uid: u.uid,
     email: u.email,
