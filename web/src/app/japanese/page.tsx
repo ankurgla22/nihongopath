@@ -32,6 +32,11 @@ export default function JapaneseIndexPage() {
           From zero to <span className="text-gradient">N1</span>, in order.
         </h1>
         <p className="mt-4 text-lg text-ink-2 leading-relaxed max-w-prose">Work through the levels in order, or jump to the one you are preparing for.</p>
+        <p className="mt-2 text-sm">
+          <Link href="/japanese/curriculum" className="font-medium text-accent hover:underline">
+            How the whole curriculum fits together <Arrow className="inline h-3.5 w-3.5" />
+          </Link>
+        </p>
       </header>
 
       <ol className="divide-y divide-line">

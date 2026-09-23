@@ -25,7 +25,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
   const entries: Entry[] = [];
 
   if (section.kind === "core") {
-    entries.push(url("/", 1, "daily"), url("/japanese", 0.9), url("/about", 0.6, "monthly"), url("/jlpt", 0.8, "monthly"), url("/jlpt/strategy", 0.8, "monthly"), url("/search", 0.3, "monthly"));
+    entries.push(url("/", 1, "daily"), url("/japanese", 0.9), url("/japanese/curriculum", 0.8, "monthly"), url("/about", 0.6, "monthly"), url("/jlpt", 0.8, "monthly"), url("/jlpt/strategy", 0.8, "monthly"), url("/search", 0.3, "monthly"));
     for (const a of getStrategy()) entries.push(url(`/jlpt/strategy/${a.slug}`, 0.7, "monthly"));
     entries.push(url("/japanese/foundation", 0.9));
     for (const f of getFoundation()) entries.push(url(`/japanese/foundation/${f.slug}`, 0.7));

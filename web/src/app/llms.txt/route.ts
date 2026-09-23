@@ -47,6 +47,7 @@ export function GET() {
 ${link("Home", "/", "what the site covers and where to begin")}
 ${link("About Nihongo Path", "/about", "who builds the site, how lessons are made and how exam facts are sourced")}
 ${link("Learning path", "/japanese", "all six levels in order, with what each one requires")}
+${link("Curriculum overview", "/japanese/curriculum", "what each level teaches, what every level contains, the 180-day plan and how review works")}
 ${link("Foundation", "/japanese/foundation", "hiragana, katakana, pronunciation, numbers, dates and greetings")}
 ${link("About the JLPT", "/jlpt", "levels, section structure, scoring and exam dates")}
 ${link("Exam strategy guides", "/jlpt/strategy", "how to prepare for and sit each section")}
