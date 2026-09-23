@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { Level } from "@/lib/content/schemas";
 import {
   ABOUT_ENTITIES,
   DESCRIPTION_MAX,
@@ -126,7 +127,59 @@ export function websiteJsonLd(description: string) {
   };
 }
 
-export function articleJsonLd(opts: { headline: string; description: string; path: string; inLanguage?: string; level?: string }) {
+/** A level's course id: the level hub page carries the Course node, lessons point at it. */
+export function courseId(level: CourseLevel) {
+  return `${SITE_URL}/japanese/${level}#course`;
+}
+
+export type CourseLevel = Level | "foundation";
+
+function educationalLevel(level?: CourseLevel) {
+  if (!level) return "JLPT";
+  return level === "foundation" ? "Beginner (before JLPT N5)" : `JLPT ${level.toUpperCase()}`;
+}
+
+/**
+ * Course node for a level hub (/japanese/n5 … and /japanese/foundation). `hasPart` lists the
+ * section index pages (grammar, vocabulary …) or, for Foundation, the lessons themselves, so
+ * the level → skill → lesson graph that the HTML links express is also explicit in schema.
+ */
+export function courseJsonLd(opts: { level: CourseLevel; name: string; description: string; parts: { name: string; path: string }[] }) {
+  const url = `${SITE_URL}/japanese/${opts.level}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": courseId(opts.level),
+    name: opts.name,
+    description: clampDescription(opts.description),
+    url,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    provider: { "@id": `${SITE_URL}/#organization` },
+    inLanguage: "en",
+    educationalLevel: educationalLevel(opts.level),
+    teaches: "Japanese language",
+    isAccessibleForFree: true,
+    dateModified: LAST_MODIFIED,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    hasPart: opts.parts.map((p) => ({ "@type": "WebPage", name: p.name, url: `${SITE_URL}${p.path}` })),
+    about: ABOUT_ENTITIES,
+  };
+}
+
+/** The learning path (/japanese): an ordered list of the six courses, referenced by id. */
+export function courseListJsonLd(levels: CourseLevel[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${SITE_URL}/japanese#courses`,
+    name: "Nihongo Path learning path",
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    numberOfItems: levels.length,
+    itemListElement: levels.map((level, i) => ({ "@type": "ListItem", position: i + 1, item: { "@id": courseId(level) } })),
+  };
+}
+
+export function articleJsonLd(opts: { headline: string; description: string; path: string; inLanguage?: string; level?: CourseLevel }) {
   return {
     "@context": "https://schema.org",
     // LearningResource describes these pages most accurately, but generic crawlers and
@@ -139,7 +192,7 @@ export function articleJsonLd(opts: { headline: string; description: string; pat
     url: `${SITE_URL}${opts.path}`,
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${opts.path}` },
     inLanguage: opts.inLanguage ?? "en",
-    educationalLevel: opts.level ? `JLPT ${opts.level.toUpperCase()}` : "JLPT",
+    educationalLevel: educationalLevel(opts.level),
     learningResourceType: "Lesson",
     teaches: "Japanese language",
     isAccessibleForFree: true,
@@ -147,7 +200,8 @@ export function articleJsonLd(opts: { headline: string; description: string; pat
     dateModified: LAST_MODIFIED,
     author: { "@id": `${SITE_URL}/#organization` },
     publisher: { "@id": `${SITE_URL}/#organization` },
-    isPartOf: { "@id": `${SITE_URL}/#website` },
+    // A lesson belongs to its level's Course (declared on the level hub) as well as the site.
+    isPartOf: opts.level ? [{ "@id": `${SITE_URL}/#website` }, { "@type": "Course", "@id": courseId(opts.level) }] : { "@id": `${SITE_URL}/#website` },
     about: ABOUT_ENTITIES,
   };
 }

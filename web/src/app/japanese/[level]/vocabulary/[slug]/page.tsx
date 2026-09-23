@@ -103,7 +103,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: v.word, path: href }]),
-          articleJsonLd({ headline: `${v.word}（${v.reading}）— JLPT ${label} vocabulary`, description: v.meaning, path: href, inLanguage: "ja" }),
+          articleJsonLd({ level: params.level, headline: `${v.word}（${v.reading}）— JLPT ${label} vocabulary`, description: v.meaning, path: href, inLanguage: "ja" }),
         ]}
       />
       <LessonNavTop

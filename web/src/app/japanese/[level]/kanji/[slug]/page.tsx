@@ -98,7 +98,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: k.character, path: href }]),
-          articleJsonLd({ headline: `${k.character} — ${k.meanings.join(", ")} (JLPT ${label} kanji)`, description: `Readings, words and examples for ${k.character}.`, path: href, inLanguage: "ja" }),
+          articleJsonLd({ level: params.level, headline: `${k.character} — ${k.meanings.join(", ")} (JLPT ${label} kanji)`, description: `Readings, words and examples for ${k.character}.`, path: href, inLanguage: "ja" }),
         ]}
       />
       <LessonNavTop

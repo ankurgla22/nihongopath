@@ -129,7 +129,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
         dangerouslySetInnerHTML={{
           __html: jsonLdString([
             breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? path }))),
-            articleJsonLd({ headline: e.title, description: `${L} listening exercise: ${e.setting}`, path, inLanguage: "ja" }),
+            articleJsonLd({ level, headline: e.title, description: `${L} listening exercise: ${e.setting}`, path, inLanguage: "ja" }),
           ]),
         }}
       />

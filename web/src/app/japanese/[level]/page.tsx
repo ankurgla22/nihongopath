@@ -4,7 +4,7 @@ import { Arrow, Breadcrumbs, Button, Container } from "@/components/ui";
 import { getGrammar, getKanji, getListening, getReading, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { LEVEL_INFO, isLevel } from "@/components/content/levels";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbJsonLd, courseJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 
 type Params = { level: string };
@@ -54,7 +54,17 @@ export default function LevelHubPage({ params }: { params: Params }) {
 
   return (
     <Container>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          courseJsonLd({
+            level,
+            name: `JLPT ${label} course: ${info.name}`,
+            description: `${info.tagline} ${info.description}`,
+            parts: sections.map((s) => ({ name: `${label} ${s.name}`, path: s.href })),
+          }),
+        ]}
+      />
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
 
       <header className="pt-10 pb-8 animate-rise">

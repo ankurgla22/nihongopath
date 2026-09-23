@@ -99,7 +99,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 4).map((c) => ({ name: c.name, path: c.path! })), { name: g.title, path: href }]),
-          articleJsonLd({ headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
+          articleJsonLd({ level, headline: `${g.title} — JLPT ${label} grammar`, description: g.meaning, path: href }),
         ]}
       />
 

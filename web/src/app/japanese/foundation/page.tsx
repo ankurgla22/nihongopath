@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Arrow, Breadcrumbs, Button, Container } from "@/components/ui";
 import { getFoundation } from "@/lib/content";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbJsonLd, courseJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 
 export const metadata = pageMetadata({
@@ -22,7 +22,17 @@ export default function FoundationIndexPage() {
 
   return (
     <Container>
-      <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <JsonLd
+        data={[
+          breadcrumbJsonLd(crumbs),
+          courseJsonLd({
+            level: "foundation",
+            name: "Foundation: hiragana, katakana, pronunciation, numbers and greetings",
+            description: `${lessons.length} beginner lessons to do before JLPT N5: the kana with sound, mora timing and pitch, numbers and counters, dates and time, and essential greetings.`,
+            parts: lessons.map((l) => ({ name: l.title, path: `/japanese/foundation/${l.slug}` })),
+          }),
+        ]}
+      />
       <Breadcrumbs items={crumbs.map((c, i) => (i === crumbs.length - 1 ? { name: c.name } : c))} />
 
       <header className="pt-10 pb-8 animate-rise">

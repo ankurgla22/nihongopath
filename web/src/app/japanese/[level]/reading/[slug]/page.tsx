@@ -112,7 +112,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
         dangerouslySetInnerHTML={{
           __html: jsonLdString([
             breadcrumbJsonLd(crumbs.map((c) => ({ name: c.name, path: c.path ?? path }))),
-            articleJsonLd({ headline: r.title, description: `${L} ${k.en} reading passage`, path, inLanguage: "ja" }),
+            articleJsonLd({ level, headline: r.title, description: `${L} ${k.en} reading passage`, path, inLanguage: "ja" }),
           ]),
         }}
       />

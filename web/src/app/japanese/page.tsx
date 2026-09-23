@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Arrow, Breadcrumbs, Container } from "@/components/ui";
 import { LEVELS } from "@/lib/content/schemas";
 import { LEVEL_INFO } from "@/components/content/levels";
-import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
+import { breadcrumbJsonLd, courseListJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { FOUNDATION_TOTAL_LABEL } from "@/components/foundation/kinds";
 
@@ -24,7 +24,7 @@ const SKILLS = [
 export default function JapaneseIndexPage() {
   return (
     <Container>
-      <JsonLd data={breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Japanese", path: "/japanese" }])} />
+      <JsonLd data={[breadcrumbJsonLd([{ name: "Home", path: "/" }, { name: "Japanese", path: "/japanese" }]), courseListJsonLd(["foundation", ...LEVELS])]} />
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Japanese" }]} />
 
       <header className="pt-10 pb-8 animate-rise">

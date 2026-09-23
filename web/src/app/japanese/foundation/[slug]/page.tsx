@@ -52,7 +52,7 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
       <JsonLd
         data={[
           breadcrumbJsonLd([...crumbs.slice(0, 3).map((c) => ({ name: c.name, path: c.path! })), { name: lesson.title, path: href }]),
-          articleJsonLd({ headline: lesson.title, description: lesson.summary, path: href }),
+          articleJsonLd({ level: "foundation", headline: lesson.title, description: lesson.summary, path: href }),
         ]}
       />
       <LessonNavTop
