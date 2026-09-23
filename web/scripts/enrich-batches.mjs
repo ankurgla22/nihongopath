@@ -59,12 +59,19 @@ if (cmd === "install" || cmd === "validate") {
   const arr = JSON.parse(fs.readFileSync(target, "utf8"));
   if (!Array.isArray(arr) || !arr.length) throw new Error("expected a non-empty array");
   const errors = [];
-  // Several enrichment runs drifted: a fragment of English or Cyrillic landed inside a Japanese
-  // sentence. But Latin letters are not automatically wrong — CD, DVD, PC, JR, NHK and Tシャツ are
-  // ordinary Japanese. Real drift is English prose, which carries lower-case letters; the
-  // legitimate cases are upper-case initialisms. So: flag a run of three or more Latin letters
-  // that contains a lower-case one, or any Cyrillic at all.
-  const foreign = (t) => /[A-Za-z]{3,}/.test((t || "").replace(/[A-Z]/g, "")) || /[A-Za-z]*[a-z][A-Za-z]*/.test("") || /[Ѐ-ӿ]/.test(t || "");
+  // Enrichment drafts drift: fragments of English, Cyrillic and Hangul have all landed inside
+  // Japanese sentences. A denylist kept missing the next script, so this is an allowlist.
+  // Permitted are kana, kanji, CJK and full-width punctuation, and ASCII punctuation and digits.
+  // Latin letters pass only in upper case: CD, DVD, JR and Tシャツ are ordinary Japanese, while
+  // English prose drift always carries lower case. Anything else is a defect.
+  const ALLOWED = /[\u3000-\u303F\u3040-\u30FF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF\uFF00-\uFFEF\u0020-\u0040\u005B-\u0060\u007B-\u007E\u2010-\u2027\u2030-\u205E]/;
+  const foreign = (t) => {
+    for (const ch of t || "") {
+      if (/[A-Z]/.test(ch)) continue;
+      if (!ALLOWED.test(ch)) return true;
+    }
+    return false;
+  };
   // Loose stem for the containment check, so an example may inflect the word instead of being
   // forced into dictionary form. Strips the inflecting tail: suru-nouns and polite endings, then
   // one trailing kana covering verbs (食べる → 食べ), い-adjectives (寂しい → 寂し, which matches
