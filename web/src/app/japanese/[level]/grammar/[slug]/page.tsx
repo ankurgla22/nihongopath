@@ -5,6 +5,7 @@ import { findGrammar, getGrammar, getQuestionMap, resolveContentId } from "@/lib
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
 import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
+import { pairFor, pairPath } from "@/lib/content/compare";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { Diagram } from "@/components/diagrams";
@@ -164,6 +165,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
             <ul className="grid gap-3">
               {g.similarGrammar.map((s, i) => {
                 const target = s.id ? resolveContentId(s.id) : null;
+                const pair = s.id ? pairFor(g, s.id) : undefined;
                 return (
                   <li key={i} className="surface rounded-2xl p-4 sm:p-5 grid gap-x-5 gap-y-1.5 sm:grid-cols-[minmax(8rem,12rem)_1fr]">
                     <p lang="ja" className="ja text-xl font-semibold tracking-tight">
@@ -178,7 +180,17 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
                         <span>{s.pattern}</span>
                       )}
                     </p>
-                    <p className="text-sm sm:text-[15px] leading-relaxed text-ink-2">{s.difference}</p>
+                    <p className="text-sm sm:text-[15px] leading-relaxed text-ink-2">
+                      {s.difference}
+                      {pair && (
+                        <>
+                          {" "}
+                          <Link href={pairPath(pair)} className="whitespace-nowrap font-medium text-accent hover:underline">
+                            Compare side by side
+                          </Link>
+                        </>
+                      )}
+                    </p>
                   </li>
                 );
               })}

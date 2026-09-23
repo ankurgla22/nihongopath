@@ -3,6 +3,7 @@ import { getFoundation, getGrammar, getKanji, getListening, getReading, getStrat
 import { LEVELS } from "@/lib/content/schemas";
 import { SITE_URL } from "@/lib/seo/site";
 import { SITEMAP_SECTIONS } from "@/lib/seo/sitemaps";
+import { pairPath, pairsForLevel } from "@/lib/content/compare";
 import { vocabPageCount, vocabPagePath } from "@/components/content/VocabularyIndex";
 
 /** One sitemap part per section (see src/lib/seo/sitemaps.ts); each is served at /sitemap/<id>.xml. */
@@ -52,6 +53,9 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     case "practice":
       for (const r of getReading(section.level)) entries.push(url(`${base}/reading/${r.slug}`, 0.7));
       for (const l of getListening(section.level)) entries.push(url(`${base}/listening/${l.slug}`, 0.7));
+      break;
+    case "compare":
+      for (const p of pairsForLevel(section.level)) entries.push(url(pairPath(p), 0.6, "monthly"));
       break;
   }
   return entries;

@@ -6,7 +6,7 @@ import { SITE_URL } from "./site";
  * single ~1.2 MB document). Next serves each part at /sitemap/<id>.xml (src/app/sitemap.ts) and
  * robots.txt lists every part; the ids are the indexes into SITEMAP_SECTIONS.
  */
-export type SitemapSection = { kind: "core" } | { kind: "grammar" | "vocabulary" | "kanji" | "practice"; level: Level };
+export type SitemapSection = { kind: "core" } | { kind: "grammar" | "vocabulary" | "kanji" | "practice" | "compare"; level: Level };
 
 export const SITEMAP_SECTIONS: SitemapSection[] = [
   { kind: "core" },
@@ -15,6 +15,7 @@ export const SITEMAP_SECTIONS: SitemapSection[] = [
     { kind: "vocabulary", level },
     { kind: "kanji", level },
     { kind: "practice", level },
+    { kind: "compare", level },
   ]),
 ];
 
