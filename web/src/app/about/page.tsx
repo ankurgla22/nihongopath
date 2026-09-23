@@ -97,8 +97,9 @@ export default function AboutPage() {
             is not published. Mock exams follow the official section structure for their level.
           </p>
           <p className="mt-4 leading-relaxed text-ink-2">
-            Listening exercises show their full transcript on the page. Where an exercise has no recorded audio, the browser&rsquo;s own speech engine reads the transcript
-            aloud, so the audio quality depends on the device.
+            Every listening exercise has a recording and shows its full transcript on the page. The audio is synthesised with a neural text-to-speech voice, one distinct
+            voice per speaker, at natural speed; it is not a studio recording with human actors. Shadowing practice plays the script line by line so there is a pause after
+            each line to repeat it.
           </p>
         </Section>
 

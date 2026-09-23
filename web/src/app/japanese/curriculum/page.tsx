@@ -23,7 +23,7 @@ const SKILLS: { name: string; what: string }[] = [
   { name: "Vocabulary", what: "Words in context, with readings, example sentences and collocations, grouped so that a day's words belong together." },
   { name: "Kanji", what: "Readings, common words, look-alike characters and memory aids, grouped by day." },
   { name: "Reading", what: "Short, medium and long passages in the JLPT question formats, with strategy notes, questions and explanations." },
-  { name: "Listening", what: "Scripted conversations with audio, a full transcript, vocabulary and comprehension questions." },
+  { name: "Listening", what: "Scripted conversations with a recording, a full transcript, vocabulary, comprehension questions and shadowing practice." },
   { name: "Tests and mock exams", what: "Weekly and phase tests drawn from the question bank, and timed full-length mock exams in the official section structure." },
 ];
 
