@@ -24,7 +24,7 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
       "Around 100 kanji and 700 everyday words",
       "Simple requests, invitations and questions",
     ],
-    examNote: "JLPT N5 tests basic grammar, about 100 kanji and 800 words. Passing score: 80 / 180.",
+    examNote: "Commonly cited estimates: about 100 kanji and 800 words (the JLPT publishes no official lists). Pass mark: 80 / 180.",
   },
   n4: {
     level: "n4",
@@ -39,7 +39,7 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
       "Around 150 more kanji and 900 words for daily life, work and travel",
       "Explaining reasons, giving advice and making comparisons",
     ],
-    examNote: "JLPT N4 tests about 300 kanji and 1,500 words in total. Passing score: 90 / 180.",
+    examNote: "Commonly cited estimates: about 300 kanji and 1,500 words (the JLPT publishes no official lists). Pass mark: 90 / 180.",
   },
   n3: {
     level: "n3",
@@ -54,7 +54,7 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
       "Around 370 kanji and 1,500 words on society, work and health",
       "Reading medium-length passages and understanding the writer's intent",
     ],
-    examNote: "JLPT N3 tests about 650 kanji and 3,700 words in total. Passing score: 95 / 180.",
+    examNote: "Commonly cited estimates: about 650 kanji and 3,700 words (the JLPT publishes no official lists). Pass mark: 95 / 180.",
   },
   n2: {
     level: "n2",
@@ -62,14 +62,14 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
     name: "Advanced Fluency",
     tagline: "Work, study and live in Japanese with confidence.",
     description:
-      "Formal and written Japanese: newspaper articles, business emails, opinion pieces and fast natural conversation. N2 is the level most employers and universities ask for.",
+      "Formal and written Japanese: newspaper articles, business emails, opinion pieces and fast natural conversation. N2 is commonly requested by Japanese employers and universities, though requirements vary by organisation.",
     youWillLearn: [
       "200 grammar patterns including 〜あげく, 〜ざるを得ない, 〜に限らず and 〜わけではない",
       "Around 390 kanji and 1,800 words for news, business and academic contexts",
       "Reading long passages, comparing two texts and scanning information",
       "Listening for the main point, the speaker's attitude and quick responses",
     ],
-    examNote: "JLPT N2 tests about 1,000 kanji and 6,000 words in total. Passing score: 90 / 180, with at least 19 in each section.",
+    examNote: "Commonly cited estimates: about 1,000 kanji and 6,000 words (the JLPT publishes no official lists). Pass mark: 90 / 180, with at least 19 in each section.",
   },
   n1: {
     level: "n1",
@@ -84,7 +84,7 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
       "Around 600 more kanji and 1,500 words of editorial and academic Japanese",
       "Reading long opinion pieces and understanding implication, irony and stance",
     ],
-    examNote: "JLPT N1 tests about 2,000 kanji and 10,000 words in total. Passing score: 100 / 180 (19 per section).",
+    examNote: "Commonly cited estimates: about 2,000 kanji and 10,000 words (the JLPT publishes no official lists). Pass mark: 100 / 180 (19 per section).",
   },
 };
 
