@@ -66,11 +66,19 @@ async function main() {
     headers: { "content-type": "application/json; charset=utf-8" },
     body: JSON.stringify(body),
   });
-  // 200 = accepted, 202 = accepted and key validation pending. Anything else is a real failure.
+  // 200 = accepted, 202 = accepted and key validation pending. Anything else is a real failure,
+  // except one: on a new key IndexNow answers 403 SiteVerificationNotCompleted until its crawler
+  // has fetched /<key>.txt, which can take hours. That is "try again later", not a broken setup,
+  // so it must not fail the deploy script that runs this after every rollout.
   const ok = r.status === 200 || r.status === 202;
   console.log(`IndexNow: submitted ${urlList.length} URL(s) for ${host} -> HTTP ${r.status}${ok ? " (accepted)" : ""}`);
   if (!ok) {
-    console.error(await r.text());
+    const text = await r.text();
+    if (r.status === 403 && text.includes("SiteVerificationNotCompleted")) {
+      console.warn("IndexNow has not verified the key file yet. Re-run `npm run seo:indexnow` later; nothing is wrong with the setup.");
+      return;
+    }
+    console.error(text);
     process.exit(1);
   }
 }
