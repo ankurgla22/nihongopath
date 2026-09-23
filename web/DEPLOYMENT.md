@@ -4,45 +4,45 @@ Target: Firebase project `opusify-japanese` (pinned in `.firebaserc`). The app i
 
 All commands run from `web/` unless noted. Requires Firebase CLI 13.15+ (`firebase --version`, 15.x installed) and `firebase login`.
 
+## Quick path: `npm run deploy`
+
+`scripts/deploy.ps1` does a from-scratch build and deploy in one go (Windows PowerShell):
+
+1. Preflight: CLI present, logged in, no `REPLACE-ME` values left in `apphosting.yaml`.
+2. Clean: removes `.next`, `node_modules` and the tsc cache, then `npm ci`.
+3. `npm run check` and a local `next build` (proves the tree compiles; the cloud rebuilds anyway).
+4. `firebase deploy --only firestore:rules,firestore:indexes`.
+5. Creates the App Hosting backend `web` (us-central1, linked to the web app) if it does not exist.
+6. `firebase deploy --only apphosting`: uploads the **local working tree** (respecting `.gitignore` and the
+   `ignore` list in `firebase.json`) and waits for the Cloud Build rollout. Uncommitted changes are deployed.
+7. Prints the backend URL.
+
+Flags: `-SkipChecks`, `-SkipLocalBuild`, `-SkipRules`, `-Region`, `-Backend`, `-Project`.
+
+```bash
+npm run deploy
+npm run deploy -- -SkipChecks -SkipLocalBuild     # quick redeploy of a tree you just verified
+```
+
+The backend is **not** connected to GitHub: pushes do not trigger rollouts, only `npm run deploy` does.
+The live URL is <https://web--opusify-japanese.us-central1.hosted.app>.
+
 ## 0. One-time prerequisites (owner)
 
-1. **Blaze plan.** App Hosting requires pay-as-you-go. As of the last audit the project was still on Spark and `firebase apphosting:backends:list` fails with "must be on the Blaze plan". Upgrade at <https://console.firebase.google.com/project/opusify-japanese/usage/details>.
-2. **Git repository on GitHub.** App Hosting builds from a connected GitHub repo. The repo root is the parent of `web/` (`japanese/`), so the backend's root directory must be `web`.
-   ```bash
-   cd ..            # japanese/
-   git init -b main
-   git add .
-   git commit -m "Initial commit"
-   gh repo create <org>/<repo> --private --source . --push
-   ```
-3. **Firestore database** exists (Native mode) in the region you want to use for the backend.
-4. **Web app registered** in Firebase console > Project settings > General > Your apps. Note its config values (apiKey, appId, messagingSenderId, storageBucket).
+1. **Blaze plan.** App Hosting requires pay-as-you-go (done).
+2. **Firestore database** exists (Native mode, `nam5`), hence the `us-central1` backend region.
+3. **Web app registered** in Firebase console > Project settings > General > Your apps (`nihongopath`).
 
 ## 1. Create the backend
 
-Interactive (recommended the first time):
+`npm run deploy` creates it on first run. Manual equivalent:
 
 ```bash
-firebase use opusify-japanese
-firebase init apphosting
+firebase apphosting:backends:create --project opusify-japanese --backend web   --primary-region us-central1 --root-dir . --app <FIREBASE_WEB_APP_ID> --non-interactive
 ```
 
-Prompts: region (pick the Firestore region, e.g. `asia-northeast1` or `us-central1`), GitHub connection (authorizes the Firebase GitHub app), repository, **root directory: `web`**, live branch: `main`, backend id (e.g. `web`). Answer "yes" to linking the Firebase web app so `FIREBASE_WEBAPP_CONFIG` is injected automatically.
-
-Non-interactive equivalent:
-
-```bash
-firebase apphosting:backends:create \
-  --project opusify-japanese \
-  --location us-central1 \
-  --backend web \
-  --app <FIREBASE_WEB_APP_ID> \
-  --root-dir web \
-  --branch main \
-  --repo <github-owner>/<repo>
-```
-
-(Older CLIs use `--app-id`/`--repo` with slightly different flag names; run `firebase apphosting:backends:create --help`.) Creating the backend triggers the first rollout.
+To switch to GitHub-triggered rollouts instead, run `firebase init apphosting` and connect the repo with
+root directory `web`; then set `alwaysDeployFromSource: false` in `firebase.json`.
 
 ## 2. Environment variables
 
@@ -85,43 +85,39 @@ Index builds can take minutes; check Firestore > Indexes in the console.
 
 ## 5. Deploy / roll out
 
-Every push to `main` triggers a rollout. Manual rollout of a branch or commit:
-
 ```bash
-firebase apphosting:rollouts:create web --git-branch main
-firebase apphosting:rollouts:create web --git-commit <sha>
+npm run deploy
 ```
 
-Watch in the console under Build > App Hosting, or:
-
-```bash
-firebase apphosting:backends:get web
-firebase apphosting:rollouts:list web
-```
-
-Before pushing, run locally:
-
-```bash
-npm run check && npm run build
-```
+Watch in the console under Build > App Hosting, or `firebase apphosting:backends:get web`.
 
 Smoke test after a rollout: open `/` and `/japanese/n5/grammar`, `/robots.txt` and `/sitemap/0.xml` (URLs must use the production host), `/login` then sign in and open `/dashboard`.
 
 ## 6. Custom domain
 
-1. Console > App Hosting > backend > **Domains** > Add custom domain; or `firebase apphosting:domains:create web <domain>` (CLI 13.x+; falls back to the console if unavailable).
-2. Add the DNS records shown (A/AAAA or CNAME plus a TXT ownership record). Certificates are provisioned automatically.
-3. Then: add the domain to Auth **Authorized domains**, set `NEXT_PUBLIC_SITE_URL=https://<domain>` in `apphosting.yaml`, commit, and let the rollout rebuild (SITE_URL is inlined at build time).
+`nihongopath.opusify.co.in` is registered on the backend (2026-09-23) and both it and the `*.hosted.app` host are
+in Auth **Authorized domains**. What remains is DNS at the registrar (GoDaddy, `ns07/ns08.domaincontrol.com`).
+The host currently CNAMEs to the old classic-Hosting site `opusify-japanese.web.app`; that record must go.
+
+| Action | Host | Type | Value |
+|---|---|---|---|
+| Remove | `nihongopath` | CNAME | `opusify-japanese.web.app` |
+| Add | `nihongopath` | A | `35.219.200.2` |
+| Add | `nihongopath` | TXT | `fah-claim=002-02-2fd0db07-554b-4572-922a-537f5ab27058` |
+| Add | `_acme-challenge_ug4slayg43ua4yap.nihongopath` | CNAME | `f6e304b5-7b44-4eb5-9f6c-a4bbd3be8b92.2.authorize.certificatemanager.goog.` |
+
+Check progress in Console > App Hosting > web > Domains (host, ownership and certificate states must all turn
+green; the certificate can take up to an hour after DNS propagates). The build already uses this domain for
+`NEXT_PUBLIC_SITE_URL`, so canonical links and the sitemap are correct as soon as DNS is live.
+
+If the values above ever change, the console Domains tab shows the current ones.
 
 ## 7. Rollback
 
 App Hosting keeps previous builds. To roll back:
 
 - Console > App Hosting > backend > Rollouts > pick an earlier successful rollout > **Roll back**.
-- CLI: create a new rollout from the last good commit:
-  ```bash
-  firebase apphosting:rollouts:create web --git-commit <last-good-sha>
-  ```
+- CLI: check out the last good commit and run `npm run deploy` again.
 - Firestore rules are versioned separately: Firestore > Rules > history > restore, or `git checkout <sha> -- firestore.rules && firebase deploy --only firestore:rules`.
 
 ## 8. Tear down
