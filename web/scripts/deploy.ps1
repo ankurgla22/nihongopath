@@ -120,7 +120,11 @@ Write-Host $deployOut
 if ($LASTEXITCODE -ne 0) { throw "App Hosting deploy failed (exit $LASTEXITCODE)." }
 if ($deployOut -match 'Skipping deployments|Rollout for backend .* failed') { throw "App Hosting deploy did not roll out; see output above." }
 
-# ---------------------------------------------------------------- 7. report
+# ---------------------------------------------------------------- 7. notify search engines
+Step "IndexNow: tell Bing and friends which URLs changed"
+Run "npm run seo:indexnow"
+
+# ---------------------------------------------------------------- 8. report
 Step "Backend status"
 firebase apphosting:backends:get $Backend --project $Project
 Write-Host "`nDone. If this was the first rollout, add the *.hosted.app URL (and the custom domain) under" -ForegroundColor Green

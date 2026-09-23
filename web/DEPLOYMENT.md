@@ -93,6 +93,13 @@ Watch in the console under Build > App Hosting, or `firebase apphosting:backends
 
 Smoke test after a rollout: open `/` and `/japanese/n5/grammar`, `/robots.txt` and `/sitemap/0.xml` (URLs must use the production host), `/login` then sign in and open `/dashboard`.
 
+## 5b. IndexNow (Bing, Yandex, Seznam, Naver)
+
+`npm run seo:indexnow` submits every sitemap URL to IndexNow; `npm run deploy` runs it after a
+successful rollout. Pass paths to submit only those: `npm run seo:indexnow -- /about /jlpt`.
+The key is public by design (`src/lib/seo/indexnow.ts`, served from `public/<key>.txt`). Google does
+not use IndexNow; submit the sitemap in Search Console instead.
+
 ## 6. Custom domain
 
 `nihongopath.opusify.co.in` is registered on the backend (2026-09-23) and both it and the `*.hosted.app` host are
