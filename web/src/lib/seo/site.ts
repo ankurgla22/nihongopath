@@ -10,6 +10,12 @@ export const SITE_DESCRIPTION =
   "Nihongo Path publishes a free, complete Japanese course for every JLPT level, from hiragana to N1, with daily study plans and full-length mock exams.";
 
 /**
+ * The company that owns, builds and operates the site (an in-house project). Used for
+ * Organization.parentOrganization and the About page. Name as written on its own site.
+ */
+export const SITE_OPERATOR = { name: "Opusify IT Solutions", url: "https://opusify.co.in/" };
+
+/**
  * Date the site first published content (schema datePublished).
  * Content is continuously revised, so dateModified tracks the build instead.
  */

@@ -5,6 +5,7 @@ import {
   LAST_MODIFIED,
   SITE_DESCRIPTION,
   SITE_NAME,
+  SITE_OPERATOR,
   SITE_PUBLISHED,
   SITE_SAME_AS,
   SITE_TAGLINE,
@@ -101,6 +102,7 @@ export function organizationJsonLd() {
     url: SITE_URL,
     description: SITE_DESCRIPTION,
     logo: { "@type": "ImageObject", url: `${SITE_URL}/opengraph-image`, width: 1200, height: 630 },
+    parentOrganization: { "@type": "Organization", name: SITE_OPERATOR.name, url: SITE_OPERATOR.url },
     ...(SITE_SAME_AS.length ? { sameAs: SITE_SAME_AS } : {}),
   };
 }

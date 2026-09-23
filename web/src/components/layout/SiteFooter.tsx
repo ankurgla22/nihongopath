@@ -14,6 +14,10 @@ export function SiteFooter() {
         <span aria-hidden>·</span>
         <span>© {new Date().getFullYear()}</span>
         <span aria-hidden>·</span>
+        <Link href="/about" className="text-ink-2 hover:text-accent transition">
+          About
+        </Link>
+        <span aria-hidden>·</span>
         <Link href="/jlpt" className="text-ink-2 hover:text-accent transition">
           About the JLPT
         </Link>
