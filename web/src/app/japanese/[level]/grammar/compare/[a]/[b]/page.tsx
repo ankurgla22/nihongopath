@@ -4,7 +4,7 @@ import { Arrow, Breadcrumbs, Container, JaText, Section } from "@/components/ui"
 import { JsonLd } from "@/components/content/JsonLd";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
 import { FaqSection } from "@/components/content/FaqSection";
-import { comparePairs, findPair, pairFor, pairPath, type ComparePair } from "@/lib/content/compare";
+import { comparePairs, findPair, pairFor, pairPath, pairSegmentB, type ComparePair } from "@/lib/content/compare";
 import { LEVEL_LABEL, type GrammarLesson } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
 import { faqJsonLd, type Faq } from "@/lib/seo/faq";
@@ -13,7 +13,7 @@ import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib
 type Params = { level: string; a: string; b: string };
 
 export function generateStaticParams() {
-  return comparePairs().map((p) => ({ level: p.level, a: p.a.slug, b: p.b.slug }));
+  return comparePairs().map((p) => ({ level: p.level, a: p.a.slug, b: pairSegmentB(p) }));
 }
 
 function load(params: Params) {

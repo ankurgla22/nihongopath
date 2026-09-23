@@ -57,12 +57,21 @@ export const comparePairs = cache((): ComparePair[] => {
 
 export const pairsForLevel = cache((level: Level): ComparePair[] => comparePairs().filter((p) => p.level === level));
 
-export function pairPath(p: ComparePair) {
-  return `/japanese/${p.level}/grammar/compare/${p.a.slug}/${p.b.slug}`;
+/**
+ * Second URL segment. Slugs are only unique within a level, and five cross-level pairs
+ * (an N2 lesson referencing an N1 lesson with the same slug) collided, so when the two
+ * lessons are on different levels the segment carries B's level: `kagiri-da--n1`.
+ */
+export function pairSegmentB(p: ComparePair) {
+  return p.a.level === p.b.level ? p.b.slug : `${p.b.slug}--${p.b.level}`;
 }
 
-export function findPair(level: Level, aSlug: string, bSlug: string): ComparePair | undefined {
-  return pairsForLevel(level).find((p) => p.a.slug === aSlug && p.b.slug === bSlug);
+export function pairPath(p: ComparePair) {
+  return `/japanese/${p.level}/grammar/compare/${p.a.slug}/${pairSegmentB(p)}`;
+}
+
+export function findPair(level: Level, aSlug: string, bSegment: string): ComparePair | undefined {
+  return pairsForLevel(level).find((p) => p.a.slug === aSlug && pairSegmentB(p) === bSegment);
 }
 
 /** The pair a given lesson forms with a similar-grammar target id, for "Compare" links. */
