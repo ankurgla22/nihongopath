@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Noto_Sans_JP } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
+import { JapaneseFont } from "@/components/layout/JapaneseFont";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { AuthProvider } from "@/components/auth/AuthProvider";
@@ -10,7 +11,7 @@ import { organizationJsonLd } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
-const notoJp = Noto_Sans_JP({ subsets: ["latin"], weight: ["400", "500", "700"], variable: "--font-jp", display: "swap", preload: false });
+// Noto Sans JP is loaded asynchronously by <JapaneseFont /> (see that file for why); --font-jp is set in globals.css.
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -31,9 +32,10 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${notoJp.variable}`} suppressHydrationWarning>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <head>
         <ThemeScript />
+        <JapaneseFont />
       </head>
       <body className="min-h-screen flex flex-col">
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:z-50 focus:top-3 focus:left-3 focus:bg-surface focus:px-3 focus:py-2 focus:rounded-lg focus:shadow-md">

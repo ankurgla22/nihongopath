@@ -102,7 +102,7 @@ export function ProfileClient({ sessionUser }: { sessionUser: SessionUser }) {
   async function logout() {
     if (configured) {
       const { signOut } = await import("firebase/auth");
-      await signOut(getClientAuth());
+      await signOut((await getClientAuth()));
     }
     await clearSession();
     router.push("/");

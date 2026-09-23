@@ -37,7 +37,7 @@ export function LessonNavTop({
             <span className="text-[10px] font-semibold tabular-nums text-ink-2">{index}</span>
           </div>
           <p className="text-sm text-muted whitespace-nowrap">
-            {unit} <span className="text-ink font-semibold tabular-nums">{index}</span> <span className="opacity-70">of</span> <span className="tabular-nums">{total}</span>
+            {unit} <span className="text-ink font-semibold tabular-nums">{index}</span> of <span className="tabular-nums">{total}</span>
           </p>
         </div>
         {actions && <div className="ml-auto flex items-center gap-2">{actions}</div>}

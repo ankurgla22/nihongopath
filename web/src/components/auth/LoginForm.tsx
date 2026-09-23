@@ -42,8 +42,9 @@ export function LoginForm() {
     setBusy(true);
     setError(null);
     try {
-      const { GoogleAuthProvider, signInWithPopup } = await import("firebase/auth");
-      const cred = await signInWithPopup(getClientAuth(), new GoogleAuthProvider());
+      const { GoogleAuthProvider, browserPopupRedirectResolver, signInWithPopup } = await import("firebase/auth");
+      // The resolver is passed here, not registered globally, so only this click loads the popup machinery.
+      const cred = await signInWithPopup((await getClientAuth()), new GoogleAuthProvider(), browserPopupRedirectResolver);
       await finish(cred.user);
     } catch (e) {
       setError(friendlyAuthError(e));
@@ -57,7 +58,7 @@ export function LoginForm() {
     setError(null);
     try {
       const { signInWithEmailAndPassword } = await import("firebase/auth");
-      const cred = await signInWithEmailAndPassword(getClientAuth(), email.trim(), password);
+      const cred = await signInWithEmailAndPassword((await getClientAuth()), email.trim(), password);
       await finish(cred.user);
     } catch (err) {
       setError(friendlyAuthError(err));

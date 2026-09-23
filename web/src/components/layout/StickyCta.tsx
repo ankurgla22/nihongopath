@@ -23,8 +23,9 @@ export function StickyCta({ watchId, href = "/signup", label = "Start the 180-da
 
   return (
     <div
-      className={`md:hidden fixed inset-x-0 bottom-0 z-30 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 glass border-t border-line/80 transition-transform duration-200 ${show ? "translate-y-0" : "translate-y-full"}`}
-      aria-hidden={!show}
+      // `invisible` (visibility:hidden) removes the bar and its button from the tab order and the
+      // accessibility tree while hidden; aria-hidden alone left a focusable link inside a hidden element.
+      className={`md:hidden fixed inset-x-0 bottom-0 z-30 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 glass border-t border-line/80 transition-transform duration-200 ${show ? "translate-y-0" : "translate-y-full invisible"}`}
     >
       <Button href={href} className="w-full" size="lg">
         {label}

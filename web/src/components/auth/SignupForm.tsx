@@ -33,8 +33,9 @@ export function SignupForm() {
     setBusy(true);
     setError(null);
     try {
-      const { GoogleAuthProvider, signInWithPopup } = await import("firebase/auth");
-      const cred = await signInWithPopup(getClientAuth(), new GoogleAuthProvider());
+      const { GoogleAuthProvider, browserPopupRedirectResolver, signInWithPopup } = await import("firebase/auth");
+      // The resolver is passed here, not registered globally, so only this click loads the popup machinery.
+      const cred = await signInWithPopup((await getClientAuth()), new GoogleAuthProvider(), browserPopupRedirectResolver);
       await finish(cred.user);
     } catch (e) {
       setError(friendlyAuthError(e));
@@ -50,10 +51,10 @@ export function SignupForm() {
     setBusy(true);
     try {
       const { createUserWithEmailAndPassword, updateProfile } = await import("firebase/auth");
-      const cred = await createUserWithEmailAndPassword(getClientAuth(), email.trim(), password);
+      const cred = await createUserWithEmailAndPassword((await getClientAuth()), email.trim(), password);
       await updateProfile(cred.user, { displayName: name.trim() });
       await cred.user.reload();
-      await finish(getClientAuth().currentUser ?? cred.user);
+      await finish((await getClientAuth()).currentUser ?? cred.user);
     } catch (err) {
       setError(friendlyAuthError(err));
       setBusy(false);

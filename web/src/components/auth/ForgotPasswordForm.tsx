@@ -23,7 +23,7 @@ export function ForgotPasswordForm() {
     setError(null);
     try {
       const { sendPasswordResetEmail } = await import("firebase/auth");
-      await sendPasswordResetEmail(getClientAuth(), email.trim());
+      await sendPasswordResetEmail((await getClientAuth()), email.trim());
       setSent(true);
     } catch (err) {
       // Do not reveal whether the address exists.

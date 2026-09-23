@@ -1,6 +1,6 @@
 "use client";
 import { getApps, initializeApp, type FirebaseApp } from "firebase/app";
-import { getAuth, type Auth } from "firebase/auth";
+import type { Auth } from "firebase/auth";
 
 const config = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -22,8 +22,21 @@ export function getFirebaseApp(): FirebaseApp {
   return app;
 }
 
-export function getClientAuth(): Auth {
-  if (!auth) auth = getAuth(getFirebaseApp());
+/**
+ * Lazily initialised Auth, for two reasons:
+ *
+ * 1. The import is dynamic. The root layout's AuthProvider reaches this module on every page,
+ *    and a static `firebase/auth` import here put the 87 KB auth SDK into every public
+ *    lesson page's initial JavaScript. Now it is fetched after first paint, when it is needed.
+ * 2. No popup/redirect resolver. `getAuth()` registers one by default, which makes the SDK
+ *    load the auth iframe from the auth domain plus Google's gapi library on every page. The
+ *    two Google sign-in buttons pass `browserPopupRedirectResolver` explicitly instead.
+ */
+export async function getClientAuth(): Promise<Auth> {
+  if (!auth) {
+    const { browserLocalPersistence, indexedDBLocalPersistence, initializeAuth } = await import("firebase/auth");
+    auth = initializeAuth(getFirebaseApp(), { persistence: [indexedDBLocalPersistence, browserLocalPersistence] });
+  }
   return auth;
 }
 

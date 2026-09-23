@@ -24,10 +24,14 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     if (!firebaseConfigured) return;
     let unsubscribe: (() => void) | undefined;
     let cancelled = false;
+    // Wait for the browser to be idle before pulling in the auth SDK: on a public lesson page
+    // nothing above the fold depends on the user, so this must not compete with first paint.
+    const idle = (cb: () => void) => (typeof requestIdleCallback === "function" ? requestIdleCallback(cb, { timeout: 2000 }) : setTimeout(cb, 200));
+    idle(() => {
     (async () => {
       const { onIdTokenChanged } = await import("firebase/auth");
       if (cancelled) return;
-      unsubscribe = onIdTokenChanged(getClientAuth(), async (u) => {
+      unsubscribe = onIdTokenChanged((await getClientAuth()), async (u) => {
         setUser(u);
         setLoading(false);
         if (u) {
@@ -46,6 +50,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     })().catch((err) => {
       console.warn("Firebase Auth failed to initialise", err);
       setLoading(false);
+    });
     });
     return () => {
       cancelled = true;

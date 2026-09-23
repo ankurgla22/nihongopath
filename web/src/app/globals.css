@@ -4,6 +4,9 @@
 
 /* ---------- Design tokens ---------- */
 :root {
+  /* Noto Sans JP is loaded asynchronously (components/layout/JapaneseFont.tsx), not via next/font,
+     so the variable is declared here. Every .ja rule falls back to the device's CJK fonts until it lands. */
+  --font-jp: "Noto Sans JP";
   --bg: #f7f6f2;
   --bg-elev: #fdfcfa;
   --surface: #ffffff;

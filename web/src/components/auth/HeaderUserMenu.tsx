@@ -55,7 +55,7 @@ export function HeaderUserMenu() {
   async function logout() {
     setOpen(false);
     const { signOut } = await import("firebase/auth");
-    await signOut(getClientAuth());
+    await signOut((await getClientAuth()));
     await clearSession();
     router.push("/");
     router.refresh();
