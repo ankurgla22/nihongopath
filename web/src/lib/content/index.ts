@@ -2,6 +2,7 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 import { cache } from "react";
+import { shuffleQuestionBank } from "@/lib/questions/shuffle";
 import {
   CurriculumSchema,
   ExamBlueprintSchema,
@@ -101,7 +102,13 @@ export function findFoundation(slug: string) {
   return getFoundation().find((f) => f.slug === slug);
 }
 
-export const getQuestions = cache((): Question[] => readDirJson("questions", QuestionSchema));
+/**
+ * The question bank, with multiple-choice options shuffled deterministically per question id
+ * (see lib/questions/shuffle). The authored data is heavily keyed to the first option, so the
+ * shuffle happens once here rather than at each of the six render sites, which keeps
+ * `answerIndex`, the per-option notes and every consumer consistent.
+ */
+export const getQuestions = cache((): Question[] => shuffleQuestionBank(readDirJson("questions", QuestionSchema)));
 
 /** Slim index of the whole bank (id/level/skill/difficulty/tags) — a fraction of the size of the full records. */
 export const getQuestionIndex = cache((): QuestionIndexEntry[] =>

@@ -5,6 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
+import { shuffleQuestionBank } from "../src/lib/questions/shuffle";
 import {
   CurriculumSchema,
   ExamBlueprintSchema,
@@ -104,6 +105,42 @@ for (const e of exams) {
   const worst = Math.max(...counts);
   if (n >= 20 && worst / n > 0.45) errors.push(`${e.id}: ${Math.round((worst / n) * 100)}% of answers use one option index (max 45%)`);
 }
+/**
+ * Answer-key concentration across the practice bank, measured on what a learner actually sees.
+ *
+ * The exam check above has always been here; the authored bank never had one, and had drifted to
+ * 49% keyed to the first option (100% in the N5 grammar file), so a learner could pass a lesson
+ * quiz by always clicking option 1. getQuestions() shuffles per question id, so the check runs
+ * over the shuffled view: that is the distribution that matters, and it fails if the shuffle is
+ * ever removed or stops working.
+ */
+{
+  const shuffled = shuffleQuestionBank(questions);
+  const share = (qs: typeof shuffled) => {
+    const counts = [0, 0, 0, 0, 0, 0];
+    for (const q of qs) counts[q.answerIndex]++;
+    return Math.max(...counts) / qs.length;
+  };
+  const report = (label: string, qs: typeof shuffled) => {
+    if (qs.length < 20) return;
+    const worst = share(qs);
+    if (worst > 0.45) errors.push(`${label}: ${Math.round(worst * 100)}% of answers use one option index (max 45%)`);
+  };
+
+  const nonExam = shuffled.filter((q) => !examOfQuestion.has(q.id));
+  report("question bank (practice)", nonExam);
+  for (const skill of new Set(nonExam.map((q) => q.skill))) report(`question bank: skill ${skill}`, nonExam.filter((q) => q.skill === skill));
+  for (const level of new Set(nonExam.map((q) => q.level))) report(`question bank: level ${level}`, nonExam.filter((q) => q.level === level));
+
+  // Per lesson: a single lesson quiz is short, so the bar is "not every question keyed the same".
+  const byLesson = new Map<string, typeof shuffled>();
+  for (const q of shuffled) for (const gid of q.tags.grammarIds ?? []) byLesson.set(gid, [...(byLesson.get(gid) ?? []), q]);
+  const allSame = [...byLesson.entries()].filter(([, qs]) => qs.length >= 4 && new Set(qs.map((q) => q.answerIndex)).size === 1);
+  if (allSame.length) {
+    errors.push(`${allSame.length} lesson(s) have every question keyed to the same option (e.g. ${allSame.slice(0, 3).map(([id]) => id).join(", ")})`);
+  }
+}
+
 loadDir("strategy", StrategyArticleSchema, ids);
 const curriculumFile = path.join(CONTENT, "curriculum", "curriculum.json");
 if (fs.existsSync(curriculumFile)) {
@@ -111,7 +148,8 @@ if (fs.existsSync(curriculumFile)) {
   if (!r.success) errors.push(`curriculum: ${r.error.issues[0]?.path.join(".")}: ${r.error.issues[0]?.message}`);
   else {
     const days = r.data.days.map((d) => d.day);
-    for (let d = 1; d <= 180; d++) if (!days.includes(d)) errors.push(`curriculum: missing day ${d}`);
+    const maxDay = Math.max(...r.data.phases.map((p) => p.endDay));
+    for (let d = 1; d <= maxDay; d++) if (!days.includes(d)) errors.push(`curriculum: missing day ${d}`);
     for (const d of r.data.days) for (const t of d.tasks) if (t.examId && !exams.find((e) => e.id === t.examId)) errors.push(`curriculum day ${d.day}: unknown exam ${t.examId}`);
     // Kana tasks must point at foundation lessons. If content/foundation is not there yet, only warn.
     const foundationIds = new Set(foundation.map((f) => f.id));
