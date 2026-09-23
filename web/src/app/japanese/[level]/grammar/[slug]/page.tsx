@@ -4,13 +4,14 @@ import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/c
 import { findGrammar, getGrammar, getQuestionMap, resolveContentId } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
-import { articleJsonLd, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
+import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
 import { Diagram } from "@/components/diagrams";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { SaveButton } from "@/components/content/SaveButton";
 import { MarkComplete } from "@/components/content/MarkComplete";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 type Params = { level: string; slug: string };
 
@@ -25,7 +26,8 @@ export function generateMetadata({ params }: { params: Params }) {
   const label = LEVEL_LABEL[params.level];
   return pageMetadata({
     title: `${g.title} (${g.romaji}) — JLPT ${label} grammar: meaning, formation, examples`,
-    description: `${g.title} means "${g.meaning}". Learn how it is formed, when Japanese people use it, natural example sentences, common mistakes and JLPT ${label} tips.`,
+    // g.meaning usually carries its own quotation marks, so it is never wrapped in quotes here.
+    description: `${g.title} (${g.romaji}) — ${asSentence(g.meaning)} Formation, natural examples, common mistakes and JLPT ${label} tips.`,
     path: `/japanese/${params.level}/grammar/${g.slug}`,
   });
 }
@@ -122,6 +124,7 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
             <SpeakButton text={g.title} size="md" label />
           </div>
           <p className="mt-2 text-lg text-muted">{g.romaji}</p>
+          <UpdatedOn className="mt-4" />
         </header>
 
         <Section id="meaning" title="Meaning">

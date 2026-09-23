@@ -1,8 +1,54 @@
 import type { Metadata } from "next";
-import { ABOUT_ENTITIES, LAST_MODIFIED, SITE_NAME, SITE_SAME_AS, SITE_TAGLINE, SITE_URL } from "./site";
+import {
+  ABOUT_ENTITIES,
+  DESCRIPTION_MAX,
+  LAST_MODIFIED,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  SITE_PUBLISHED,
+  SITE_SAME_AS,
+  SITE_TAGLINE,
+  SITE_URL,
+} from "./site";
 
 /** Default social preview, rendered by src/app/opengraph-image.tsx. */
 export const OG_IMAGE = { url: `${SITE_URL}/opengraph-image`, width: 1200, height: 630, alt: `${SITE_NAME} — ${SITE_TAGLINE}` };
+
+/**
+ * Turn a content fragment into something that can be concatenated into a description.
+ *
+ * Content fields often already carry their own quotation (grammar meanings are written as
+ * `"only / just ~".`), so callers must not wrap them in quotes again; this just guarantees
+ * the fragment ends a sentence so the next one reads cleanly after it.
+ */
+export function asSentence(text: string): string {
+  const s = text.replace(/\s+/g, " ").trim();
+  if (!s) return "";
+  return /[.!?]["'”]?$/.test(s) ? s : `${s}.`;
+}
+
+/**
+ * Keep meta descriptions inside the length search engines actually render.
+ * Page descriptions are generated from content templates, so lengths vary per lesson;
+ * clamping here fixes every route at once instead of trusting ~1000 call sites.
+ *
+ * Prefers to end on a full sentence, falls back to a word boundary with an ellipsis,
+ * and never cuts a word in half.
+ */
+export function clampDescription(text: string, max = DESCRIPTION_MAX): string {
+  const s = text.replace(/\s+/g, " ").trim();
+  if (s.length <= max) return s;
+
+  const head = s.slice(0, max + 1);
+  // A sentence ending late enough to still be a useful description.
+  const sentence = Math.max(head.lastIndexOf(". "), head.lastIndexOf("! "), head.lastIndexOf("? "));
+  if (sentence >= max * 0.6) return s.slice(0, sentence + 1);
+
+  // One character of the budget belongs to the ellipsis, so cut at max - 1, not max.
+  const budget = s.slice(0, max - 1);
+  const word = budget.lastIndexOf(" ");
+  return `${budget.slice(0, word > 0 ? word : budget.length).replace(/[,;:.\s]+$/, "")}…`;
+}
 
 export function pageMetadata(opts: {
   title: string;
@@ -11,15 +57,16 @@ export function pageMetadata(opts: {
   noIndex?: boolean;
 }): Metadata {
   const url = `${SITE_URL}${opts.path}`;
+  const description = clampDescription(opts.description);
   return {
     title: opts.title,
-    description: opts.description,
+    description,
     alternates: { canonical: url },
     // Explicit on public pages so nothing relies on crawler defaults; private/search pages opt out.
     robots: opts.noIndex ? { index: false, follow: false } : { index: true, follow: true },
     openGraph: {
       title: `${opts.title} | ${SITE_NAME}`,
-      description: opts.description,
+      description,
       url,
       siteName: SITE_NAME,
       type: "article",
@@ -27,7 +74,7 @@ export function pageMetadata(opts: {
       // A per-route openGraph object replaces the layout's file-based image, so restate it here.
       images: [OG_IMAGE],
     },
-    twitter: { card: "summary_large_image", title: opts.title, description: opts.description, images: [OG_IMAGE.url] },
+    twitter: { card: "summary_large_image", title: opts.title, description, images: [OG_IMAGE.url] },
   };
 }
 
@@ -52,6 +99,7 @@ export function organizationJsonLd() {
     "@id": `${SITE_URL}/#organization`,
     name: SITE_NAME,
     url: SITE_URL,
+    description: SITE_DESCRIPTION,
     logo: { "@type": "ImageObject", url: `${SITE_URL}/opengraph-image`, width: 1200, height: 630 },
     ...(SITE_SAME_AS.length ? { sameAs: SITE_SAME_AS } : {}),
   };
@@ -79,16 +127,21 @@ export function websiteJsonLd(description: string) {
 export function articleJsonLd(opts: { headline: string; description: string; path: string; inLanguage?: string; level?: string }) {
   return {
     "@context": "https://schema.org",
-    "@type": "LearningResource",
+    // LearningResource describes these pages most accurately, but generic crawlers and
+    // most AI citation pipelines only look for Article. Declaring both keeps the
+    // education semantics and still satisfies Article consumers.
+    "@type": ["Article", "LearningResource"],
     headline: opts.headline,
     name: opts.headline,
-    description: opts.description,
+    description: clampDescription(opts.description),
     url: `${SITE_URL}${opts.path}`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${opts.path}` },
     inLanguage: opts.inLanguage ?? "en",
     educationalLevel: opts.level ? `JLPT ${opts.level.toUpperCase()}` : "JLPT",
     learningResourceType: "Lesson",
     teaches: "Japanese language",
     isAccessibleForFree: true,
+    datePublished: SITE_PUBLISHED,
     dateModified: LAST_MODIFIED,
     author: { "@id": `${SITE_URL}/#organization` },
     publisher: { "@id": `${SITE_URL}/#organization` },

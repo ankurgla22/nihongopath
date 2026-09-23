@@ -13,6 +13,7 @@ import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateVocabDrill } from "@/lib/drill/generate";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 type Params = { level: string; slug: string };
 
@@ -136,6 +137,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
             )}
             <p className="mt-4 text-xl sm:text-2xl leading-snug text-ink-2 max-w-prose">{v.meaning}</p>
           </div>
+          <UpdatedOn className="mt-4" />
         </header>
 
         <Section id="examples" title="Examples">

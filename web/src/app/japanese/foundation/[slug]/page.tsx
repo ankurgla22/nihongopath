@@ -9,6 +9,7 @@ import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { FoundationBlocks } from "@/components/foundation/FoundationBlocks";
 import { PartBar } from "@/components/foundation/PartBar";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 type Params = { slug: string };
 const BASE = "/japanese/foundation";
@@ -71,6 +72,7 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
         <header className="mt-8 animate-rise">
           <h1 className="text-h1">{lesson.title}</h1>
           <p className="mt-4 text-lg text-muted leading-relaxed max-w-prose">{lesson.summary}</p>
+          <UpdatedOn className="mt-4" />
         </header>
 
         <PartBar parts={lesson.sections.map((s, i) => ({ id: `s${i + 1}`, label: s.heading }))} quickCheckId={practice.length > 0 ? "practice" : undefined} />

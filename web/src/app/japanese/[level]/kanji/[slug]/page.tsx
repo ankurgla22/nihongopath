@@ -12,6 +12,7 @@ import { MarkComplete } from "@/components/content/MarkComplete";
 import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateKanjiDrill } from "@/lib/drill/generate";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 type Params = { level: string; slug: string };
 
@@ -157,6 +158,7 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
               </div>
             </dl>
           </div>
+          <UpdatedOn className="mt-4" />
         </header>
 
         <Section id="words" title="Common words">

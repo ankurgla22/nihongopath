@@ -3,6 +3,22 @@ export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:30
 export const SITE_TAGLINE = "Learn Japanese every day, from your first kana to JLPT N1.";
 
 /**
+ * One-sentence description of the publisher, used for Organization.description.
+ * Kept short: it is a description of the organisation, not of the site's contents.
+ */
+export const SITE_DESCRIPTION =
+  "Nihongo Path publishes a free, complete Japanese course for every JLPT level, from hiragana to N1, with daily study plans and full-length mock exams.";
+
+/**
+ * Date the site first published content (schema datePublished).
+ * Content is continuously revised, so dateModified tracks the build instead.
+ */
+export const SITE_PUBLISHED = "2026-09-17T00:00:00.000Z";
+
+/** The longest meta description search engines render before truncating. */
+export const DESCRIPTION_MAX = 170;
+
+/**
  * Official profiles of the organisation behind the site (Organization.sameAs). Fill in when
  * social or directory profiles exist; an empty list omits the property rather than lying.
  */

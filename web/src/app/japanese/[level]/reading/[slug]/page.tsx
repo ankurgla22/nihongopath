@@ -10,6 +10,7 @@ import { READING_KIND_LABEL, fmtMinutes } from "@/components/reading/labels";
 import { ReadingPractice } from "@/components/reading/ReadingPractice";
 import { renderFurigana, stripFurigana } from "@/lib/content/furigana";
 import { FuriganaSetting } from "@/components/content/FuriganaSetting";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 export function generateStaticParams() {
   return LEVELS.flatMap((level) => getReading(level).map((r) => ({ level, slug: r.slug })));
@@ -126,6 +127,7 @@ export default function ReadingDetailPage({ params }: { params: { level: string;
           <div className="mt-4">
             <Badge size="md">Time limit {fmtMinutes(r.timeLimitSeconds)}</Badge>
           </div>
+          <UpdatedOn className="mt-4" />
         </header>
 
         {r.strategyNotes.length > 0 && (

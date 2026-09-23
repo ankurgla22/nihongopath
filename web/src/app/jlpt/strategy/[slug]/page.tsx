@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import { getStrategy } from "@/lib/content";
 import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadata";
 import { Arrow, Badge, Breadcrumbs, Button, Container } from "@/components/ui";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 export function generateStaticParams() {
   return getStrategy().map((a) => ({ slug: a.slug }));
@@ -66,6 +67,7 @@ export default function StrategyArticlePage({ params }: { params: { slug: string
         </div>
         <h1 className="mt-4 text-h1">{a.title}</h1>
         <p className="mt-4 text-lg text-ink-2 leading-relaxed">{a.summary}</p>
+        <UpdatedOn className="mt-4" />
       </header>
 
       <div className={`mb-16 ${showToc ? "grid gap-10 lg:grid-cols-[14rem_1fr] xl:grid-cols-[16rem_1fr]" : ""}`}>

@@ -13,7 +13,7 @@ import { RedirectIfSignedIn } from "@/components/layout/RedirectIfSignedIn";
 export const metadata: Metadata = {
   title: `${SITE_NAME} — Learn Japanese from your first kana to JLPT N1`,
   description:
-    "A complete Japanese course, a daily study system and JLPT exam preparation for every level in one place. Grammar, vocabulary, kanji, reading and listening lessons with practice, tests and spaced review.",
+    "A complete Japanese course and JLPT preparation for every level: grammar, vocabulary, kanji, reading and listening, with practice, tests and spaced review.",
   alternates: { canonical: SITE_URL },
   openGraph: { title: SITE_NAME, description: SITE_TAGLINE, url: SITE_URL, siteName: SITE_NAME, type: "website" },
 };

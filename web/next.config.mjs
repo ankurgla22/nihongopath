@@ -55,7 +55,15 @@ const csp = [
   ...(isProd && isHttps ? ["upgrade-insecure-requests"] : []),
 ].join("; ");
 
+/**
+ * Build time in HTTP-date form. Pages are statically generated, so the build is genuinely when
+ * their content last changed. Crawlers use Last-Modified to decide what to re-fetch; without it
+ * they can only compare ETags, which costs them a request per page.
+ */
+const BUILD_DATE = new Date().toUTCString();
+
 const securityHeaders = [
+  { key: "Last-Modified", value: BUILD_DATE },
   { key: "Content-Security-Policy", value: csp },
   { key: "X-Content-Type-Options", value: "nosniff" },
   { key: "X-Frame-Options", value: "DENY" },

@@ -8,6 +8,7 @@ import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadat
 import { Breadcrumbs, Button, Card, Container, Section, Speakable } from "@/components/ui";
 import { LISTENING_KIND_LABEL } from "@/components/listening/labels";
 import { ListeningPractice } from "@/components/listening/ListeningPractice";
+import { UpdatedOn } from "@/components/content/UpdatedOn";
 
 export function generateStaticParams() {
   return LEVELS.flatMap((level) => getListening(level).map((e) => ({ level, slug: e.slug })));
@@ -143,6 +144,7 @@ export default function ListeningDetailPage({ params }: { params: { level: strin
             <span className="text-[11px] uppercase tracking-[0.14em] text-muted mr-2">Setting</span>
             <span className="text-ink">{e.setting}</span>
           </p>
+          <UpdatedOn className="mt-4" />
         </header>
 
         <ListeningPractice audioSrc={e.audioSrc} lines={e.script} questions={questions} transcript={transcript} vocabulary={vocabulary} />
