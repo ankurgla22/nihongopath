@@ -489,67 +489,10 @@
     "memoryTip": "こっち is the casual twin of こちら. Use こちら with customers, teachers and on the phone; keep こっち for friends and family."
   },
   {
-    "id": "n5-vocab-636",
-    "slug": "636-ii-yoi",
-    "level": "n5",
-    "order": 636,
-    "word": "いい / よい",
-    "reading": "いい / よい",
-    "pos": "adj-i",
-    "meaning": "good",
-    "theme": "JLPT list",
-    "difficulty": 1,
-    "kanjiIds": [],
-    "enriched": true,
-    "examples": [
-      {
-        "ja": "「いい / よい」はどちらも「よい」という意味です。",
-        "reading": "「いい / よい」はどちらも「よい」といういみです。",
-        "en": "\"Ii\" and \"yoi\" both mean \"good\"."
-      },
-      {
-        "ja": "「いい / よい」の中で、話すときは「いい」をよく使います。",
-        "reading": "「いい / よい」のなかで、はなすときは「いい」をよくつかいます。",
-        "en": "Of the pair \"ii\" and \"yoi\", we mostly use \"ii\" when speaking."
-      },
-      {
-        "ja": "先生は「いい / よい」の使い方を説明しました。",
-        "reading": "せんせいは「いい / よい」のつかいかたをせつめいしました。",
-        "en": "The teacher explained how to use \"ii\" and \"yoi\"."
-      }
-    ],
-    "collocations": [
-      {
-        "ja": "いい天気",
-        "en": "good weather"
-      },
-      {
-        "ja": "いい人",
-        "en": "a good person, a kind person"
-      },
-      {
-        "ja": "よい一日を",
-        "en": "have a good day"
-      }
-    ],
-    "related": [
-      "よかった",
-      "すばらしい",
-      "悪い"
-    ],
-    "synonyms": [
-      "よい"
-    ],
-    "antonyms": [
-      "悪い"
-    ],
-    "memoryTip": "One adjective, two shapes: いい is the spoken form but cannot inflect, so past and negative borrow よい — よかった, よくない, never いかった."
-  },
-  {
     "id": "n5-vocab-637",
     "slug": "637-sup-tsu",
     "level": "n5",
-    "order": 637,
+    "order": 636,
     "word": "スポーツ",
     "reading": "スポーツ",
     "pos": "n",
@@ -604,7 +547,7 @@
     "id": "n5-vocab-638",
     "slug": "638-dotchi",
     "level": "n5",
-    "order": 638,
+    "order": 637,
     "word": "どっち",
     "reading": "どっち",
     "pos": "pn",
@@ -660,7 +603,7 @@
     "id": "n5-vocab-639",
     "slug": "639-kina",
     "level": "n5",
-    "order": 639,
+    "order": 638,
     "word": "大きな",
     "reading": "おおきな",
     "pos": "adj-pn",
@@ -718,7 +661,7 @@
     "id": "n5-vocab-640",
     "slug": "640-hen",
     "level": "n5",
-    "order": 640,
+    "order": 639,
     "word": "辺",
     "reading": "へん",
     "pos": "n",
@@ -773,7 +716,7 @@
     "id": "n5-vocab-641",
     "slug": "641-nakusu",
     "level": "n5",
-    "order": 641,
+    "order": 640,
     "word": "無くす",
     "reading": "なくす",
     "pos": "v5s",
@@ -830,7 +773,7 @@
     "id": "n5-vocab-642",
     "slug": "642-surippa",
     "level": "n5",
-    "order": 642,
+    "order": 641,
     "word": "スリッパ",
     "reading": "スリッパ",
     "pos": "n",
@@ -883,7 +826,7 @@
     "id": "n5-vocab-643",
     "slug": "643-p-ji",
     "level": "n5",
-    "order": 643,
+    "order": 642,
     "word": "ページ",
     "reading": "ページ",
     "pos": "n / ctr",
@@ -936,7 +879,7 @@
     "id": "n5-vocab-644",
     "slug": "644-kumoru",
     "level": "n5",
-    "order": 644,
+    "order": 643,
     "word": "曇る",
     "reading": "くもる",
     "pos": "v5r",
@@ -991,7 +934,7 @@
     "id": "n5-vocab-645",
     "slug": "645-mannenhitsu",
     "level": "n5",
-    "order": 645,
+    "order": 644,
     "word": "万年筆",
     "reading": "まんねんひつ",
     "pos": "n",
@@ -1044,7 +987,7 @@
     "id": "n5-vocab-646",
     "slug": "646-tabun",
     "level": "n5",
-    "order": 646,
+    "order": 645,
     "word": "たぶん",
     "reading": "たぶん",
     "pos": "adv",
@@ -1101,7 +1044,7 @@
     "id": "n5-vocab-647",
     "slug": "647-hoka",
     "level": "n5",
-    "order": 647,
+    "order": 646,
     "word": "ほか",
     "reading": "ほか",
     "pos": "n",
@@ -1156,7 +1099,7 @@
     "id": "n5-vocab-648",
     "slug": "648-chawan",
     "level": "n5",
-    "order": 648,
+    "order": 647,
     "word": "ちゃわん",
     "reading": "ちゃわん",
     "pos": "n",
@@ -1209,7 +1152,7 @@
     "id": "n5-vocab-649",
     "slug": "649-s-jisuru",
     "level": "n5",
-    "order": 649,
+    "order": 648,
     "word": "掃除",
     "reading": "そうじ",
     "pos": "n / v-suru",
@@ -1264,7 +1207,7 @@
     "id": "n5-vocab-650",
     "slug": "650-nigiyaka",
     "level": "n5",
-    "order": 650,
+    "order": 649,
     "word": "賑やか",
     "reading": "にぎやか",
     "pos": "adj-na",
@@ -1319,7 +1262,7 @@
     "id": "n5-vocab-651",
     "slug": "651-asagohan",
     "level": "n5",
-    "order": 651,
+    "order": 650,
     "word": "朝御飯",
     "reading": "あさごはん",
     "pos": "n",
@@ -1371,63 +1314,10 @@
     "memoryTip": "御飯 literally means cooked rice, so the three meals are simply morning-rice, noon-rice and evening-rice. In print it is usually softened to 朝ごはん; 朝食 is the formal word on menus."
   },
   {
-    "id": "n5-vocab-652",
-    "slug": "652-kiro-kiroguramu",
-    "level": "n5",
-    "order": 652,
-    "word": "キロ / キログラム",
-    "reading": "キロ / キログラム",
-    "pos": "n / ctr",
-    "meaning": "kilogram",
-    "theme": "JLPT list",
-    "difficulty": 1,
-    "kanjiIds": [],
-    "enriched": true,
-    "examples": [
-      {
-        "ja": "「キロ / キログラム」は重さの単位です。",
-        "reading": "「キロ / キログラム」はおもさのたんいです。",
-        "en": "\"Kiro\" and \"kiroguramu\" are units of weight."
-      },
-      {
-        "ja": "店の人は紙に「キロ / キログラム」と書きました。",
-        "reading": "みせのひとはかみに「キロ / キログラム」とかきました。",
-        "en": "The shop assistant wrote \"kiro / kiroguramu\" on the paper."
-      },
-      {
-        "ja": "「キロ / キログラム」の中で、話すときは短いほうを使います。",
-        "reading": "「キロ / キログラム」のなかで、はなすときはみじかいほうをつかいます。",
-        "en": "Of \"kiro\" and \"kiroguramu\", we use the shorter one when speaking."
-      }
-    ],
-    "collocations": [
-      {
-        "ja": "三キロのお米",
-        "en": "three kilos of rice"
-      },
-      {
-        "ja": "体重が五キロ増える",
-        "en": "put on five kilos"
-      },
-      {
-        "ja": "一キログラム",
-        "en": "one kilogram"
-      }
-    ],
-    "related": [
-      "グラム",
-      "重い",
-      "キロメートル"
-    ],
-    "synonyms": [],
-    "antonyms": [],
-    "memoryTip": "In speech キロ is nearly always enough; キログラム only comes out when weight has to be distinguished from distance. Note that キロ on its own can also mean kilometre — the context tells you which."
-  },
-  {
     "id": "n5-vocab-653",
     "slug": "653-chiisana",
     "level": "n5",
-    "order": 653,
+    "order": 652,
     "word": "小さな",
     "reading": "ちいさな",
     "pos": "adj-pn",
@@ -1485,7 +1375,7 @@
     "id": "n5-vocab-654",
     "slug": "654-furo",
     "level": "n5",
-    "order": 654,
+    "order": 653,
     "word": "ふろ",
     "reading": "ふろ",
     "pos": "n",
@@ -1538,7 +1428,7 @@
     "id": "n5-vocab-655",
     "slug": "655-ichiban",
     "level": "n5",
-    "order": 655,
+    "order": 654,
     "word": "いちばん",
     "reading": "いちばん",
     "pos": "n / adv",
@@ -1590,63 +1480,10 @@
     "memoryTip": "Japanese has no -est ending: you put いちばん in front of the adjective instead. The group you compare within is marked with 〜の中で."
   },
   {
-    "id": "n5-vocab-656",
-    "slug": "656-rajikase-rajiokasetto",
-    "level": "n5",
-    "order": 656,
-    "word": "ラジカセ / ラジオカセット",
-    "reading": "ラジカセ / ラジオカセット",
-    "pos": "n",
-    "meaning": "radio cassette player",
-    "theme": "JLPT list",
-    "difficulty": 1,
-    "kanjiIds": [],
-    "enriched": true,
-    "examples": [
-      {
-        "ja": "「ラジカセ / ラジオカセット」は同じ物の名前です。",
-        "reading": "「ラジカセ / ラジオカセット」はおなじもののなまえです。",
-        "en": "\"Rajikase\" and \"rajio kasetto\" are names for the same thing."
-      },
-      {
-        "ja": "「ラジカセ / ラジオカセット」の中で、短いほうをよく使います。",
-        "reading": "「ラジカセ / ラジオカセット」のなかで、みじかいほうをよくつかいます。",
-        "en": "Of \"rajikase\" and \"rajio kasetto\", the shorter one is used more often."
-      },
-      {
-        "ja": "父は「ラジカセ / ラジオカセット」という言葉を教えてくれました。",
-        "reading": "ちちは「ラジカセ / ラジオカセット」ということばをおしえてくれました。",
-        "en": "My father taught me the words \"rajikase\" and \"rajio kasetto\"."
-      }
-    ],
-    "collocations": [
-      {
-        "ja": "ラジカセで音楽を聞く",
-        "en": "listen to music on a radio cassette player"
-      },
-      {
-        "ja": "古いラジカセ",
-        "en": "an old radio cassette player"
-      },
-      {
-        "ja": "ラジカセをつける",
-        "en": "turn on the radio cassette player"
-      }
-    ],
-    "related": [
-      "ラジオ",
-      "テープレコーダー",
-      "音楽"
-    ],
-    "synonyms": [],
-    "antonyms": [],
-    "memoryTip": "ラジカセ is a clipped compound: ラジオ + カセット, the same shortening habit that gives リモコン and パソコン."
-  },
-  {
     "id": "n5-vocab-657",
     "slug": "657-sarainen",
     "level": "n5",
-    "order": 657,
+    "order": 656,
     "word": "さ来年",
     "reading": "さらいねん",
     "pos": "n / adv",
@@ -1701,7 +1538,7 @@
     "id": "n5-vocab-658",
     "slug": "658-nurui",
     "level": "n5",
-    "order": 658,
+    "order": 657,
     "word": "温い",
     "reading": "ぬるい",
     "pos": "adj-i",
@@ -1753,65 +1590,10 @@
     "memoryTip": "ぬるい is a complaint: it should be hot and isn't. あたたかい is the pleasant kind of warm, so ぬるいスープ sounds bad while あたたかいスープ sounds good. Usually written in kana."
   },
   {
-    "id": "n5-vocab-659",
-    "slug": "659-s-shite-soshite",
-    "level": "n5",
-    "order": 659,
-    "word": "そうして / そして",
-    "reading": "そうして / そして",
-    "pos": "conj",
-    "meaning": "and, and then",
-    "theme": "JLPT list",
-    "difficulty": 1,
-    "kanjiIds": [],
-    "enriched": true,
-    "examples": [
-      {
-        "ja": "「そうして / そして」はどちらも同じ意味です。",
-        "reading": "「そうして / そして」はどちらもおなじいみです。",
-        "en": "\"Soushite\" and \"soshite\" both mean the same thing."
-      },
-      {
-        "ja": "「そうして / そして」の中で、ふつうは短いほうを使います。",
-        "reading": "「そうして / そして」のなかで、ふつうはみじかいほうをつかいます。",
-        "en": "Of \"soushite\" and \"soshite\", the shorter one is the normal choice."
-      },
-      {
-        "ja": "先生は黒板に「そうして / そして」と書きました。",
-        "reading": "せんせいはこくばんに「そうして / そして」とかきました。",
-        "en": "The teacher wrote \"soushite / soshite\" on the blackboard."
-      }
-    ],
-    "collocations": [
-      {
-        "ja": "そして、次に",
-        "en": "and then, next"
-      },
-      {
-        "ja": "そして最後に",
-        "en": "and finally"
-      },
-      {
-        "ja": "朝ご飯を食べて、そして出かけました",
-        "en": "I had breakfast and then went out"
-      }
-    ],
-    "related": [
-      "それから",
-      "でも",
-      "だから"
-    ],
-    "synonyms": [
-      "それから"
-    ],
-    "antonyms": [],
-    "memoryTip": "そして joins whole sentences, never two nouns — for nouns you need と. それから is close but puts more weight on the order of events."
-  },
-  {
     "id": "n5-vocab-660",
     "slug": "660-omawarisan",
     "level": "n5",
-    "order": 660,
+    "order": 659,
     "word": "おまわりさん",
     "reading": "おまわりさん",
     "pos": "n",
@@ -1866,7 +1648,7 @@
     "id": "n5-vocab-661",
     "slug": "661-issho",
     "level": "n5",
-    "order": 661,
+    "order": 660,
     "word": "一緒",
     "reading": "いっしょ",
     "pos": "n / adv",
@@ -1923,7 +1705,7 @@
     "id": "n5-vocab-662",
     "slug": "662-haku",
     "level": "n5",
-    "order": 662,
+    "order": 661,
     "word": "はく",
     "reading": "はく",
     "pos": "v5k",
@@ -1978,7 +1760,7 @@
     "id": "n5-vocab-663",
     "slug": "663-ototoshi",
     "level": "n5",
-    "order": 663,
+    "order": 662,
     "word": "一昨年",
     "reading": "おととし",
     "pos": "n / adv",
@@ -2033,7 +1815,7 @@
     "id": "n5-vocab-664",
     "slug": "664-otearai",
     "level": "n5",
-    "order": 664,
+    "order": 663,
     "word": "お手洗い",
     "reading": "おてあらい",
     "pos": "n",
@@ -2089,7 +1871,7 @@
     "id": "n5-vocab-665",
     "slug": "665-zero",
     "level": "n5",
-    "order": 665,
+    "order": 664,
     "word": "ゼロ",
     "reading": "ゼロ",
     "pos": "n",
@@ -2144,7 +1926,7 @@
     "id": "n5-vocab-666",
     "slug": "666-iroiro",
     "level": "n5",
-    "order": 666,
+    "order": 665,
     "word": "いろいろ",
     "reading": "いろいろ",
     "pos": "adj-na / adv",
@@ -2199,7 +1981,7 @@
     "id": "n5-vocab-667",
     "slug": "667-owaru",
     "level": "n5",
-    "order": 667,
+    "order": 666,
     "word": "終る",
     "reading": "おわる",
     "pos": "v5r",
@@ -2254,7 +2036,7 @@
     "id": "n5-vocab-668",
     "slug": "668-soredeha",
     "level": "n5",
-    "order": 668,
+    "order": 667,
     "word": "それでは",
     "reading": "それでは",
     "pos": "conj / exp",
@@ -2310,7 +2092,7 @@
     "id": "n5-vocab-669",
     "slug": "669-hont",
     "level": "n5",
-    "order": 669,
+    "order": 668,
     "word": "ほんとう",
     "reading": "ほんとう",
     "pos": "n / adj-na",
@@ -2362,63 +2144,10 @@
     "memoryTip": "With に it becomes the adverb \"really\" — ほんとうにおいしい. In quick speech it shrinks to ほんと, and ほんとう？ on its own is the everyday \"really?\"."
   },
   {
-    "id": "n5-vocab-670",
-    "slug": "670-kiro-kirom-toru",
-    "level": "n5",
-    "order": 670,
-    "word": "キロ / キロメートル",
-    "reading": "キロ / キロメートル",
-    "pos": "n / ctr",
-    "meaning": "kilometre",
-    "theme": "JLPT list",
-    "difficulty": 1,
-    "kanjiIds": [],
-    "enriched": true,
-    "examples": [
-      {
-        "ja": "「キロ / キロメートル」は長さの単位です。",
-        "reading": "「キロ / キロメートル」はながさのたんいです。",
-        "en": "\"Kiro\" and \"kiromeetoru\" are units of length."
-      },
-      {
-        "ja": "地図に「キロ / キロメートル」と書いてあります。",
-        "reading": "ちずに「キロ / キロメートル」とかいてあります。",
-        "en": "The map says \"kiro / kiromeetoru\"."
-      },
-      {
-        "ja": "「キロ / キロメートル」の中で、話すときは短いほうを使います。",
-        "reading": "「キロ / キロメートル」のなかで、はなすときはみじかいほうをつかいます。",
-        "en": "Of \"kiro\" and \"kiromeetoru\", the shorter one is used in speech."
-      }
-    ],
-    "collocations": [
-      {
-        "ja": "時速六十キロ",
-        "en": "sixty kilometres an hour"
-      },
-      {
-        "ja": "駅まで二キロ",
-        "en": "two kilometres to the station"
-      },
-      {
-        "ja": "一キロメートル",
-        "en": "one kilometre"
-      }
-    ],
-    "related": [
-      "メートル",
-      "キログラム",
-      "遠い"
-    ],
-    "synonyms": [],
-    "antonyms": [],
-    "memoryTip": "Speakers shorten it to キロ, which is also the short form of キログラム — 三キロ歩く is distance, 三キロ買う is weight, and only the verb tells you which."
-  },
-  {
     "id": "n5-vocab-671",
     "slug": "671-yukkurito",
     "level": "n5",
-    "order": 671,
+    "order": 669,
     "word": "ゆっくりと",
     "reading": "ゆっくりと",
     "pos": "adv",
@@ -2473,7 +2202,7 @@
     "id": "n5-vocab-672",
     "slug": "672-kudasai",
     "level": "n5",
-    "order": 672,
+    "order": 670,
     "word": "ください",
     "reading": "ください",
     "pos": "exp",
@@ -2528,7 +2257,7 @@
     "id": "n5-vocab-673",
     "slug": "673-rei",
     "level": "n5",
-    "order": 673,
+    "order": 671,
     "word": "零",
     "reading": "れい",
     "pos": "n",
@@ -2583,7 +2312,7 @@
     "id": "n5-vocab-674",
     "slug": "674-kagi",
     "level": "n5",
-    "order": 674,
+    "order": 672,
     "word": "かぎ",
     "reading": "かぎ",
     "pos": "n",
@@ -2636,7 +2365,7 @@
     "id": "n5-vocab-675",
     "slug": "675-hirugohan",
     "level": "n5",
-    "order": 675,
+    "order": 673,
     "word": "昼御飯",
     "reading": "ひるごはん",
     "pos": "n",
@@ -2692,7 +2421,7 @@
     "id": "n5-vocab-676",
     "slug": "676-toriniku",
     "level": "n5",
-    "order": 676,
+    "order": 674,
     "word": "とり肉",
     "reading": "とりにく",
     "pos": "n",
