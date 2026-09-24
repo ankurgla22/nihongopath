@@ -1,6 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { Button, Callout, Card } from "@/components/ui";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { deleteAccount, exportData, freshIdToken, reauthNeeds, resetProgress } from "./accountActions";
@@ -35,6 +35,23 @@ function ReauthField({ id, needsPassword, value, onChange }: { id: string; needs
 }
 
 /**
+ * The result of an action, shown inside the panel that produced it.
+ *
+ * The card keeps a single message so a confirmation outlives the panel closing, but that slot is
+ * below all three rows: press Download at the top and a failure lands two rows down, off screen
+ * on a phone, so the panel looks like it did nothing. Errors are announced assertively because a
+ * polite live region can be held back until the user stops interacting.
+ */
+function PanelMessage({ msg }: { msg: { tone: "ok" | "warn"; text: string } | null }) {
+  if (!msg) return null;
+  return (
+    <div role={msg.tone === "warn" ? "alert" : "status"}>
+      <Callout tone={msg.tone}>{msg.text}</Callout>
+    </div>
+  );
+}
+
+/**
  * Export, reset and delete, the three things a learner could not do before.
  *
  * Each one re-authenticates first: the server rejects a token whose sign-in is older than ten
@@ -54,6 +71,16 @@ export function AccountDataSection() {
   const [msg, setMsg] = useState<{ tone: "ok" | "warn"; text: string } | null>(null);
   const pwId = useId();
   const confirmId = useId();
+  const cardMsgRef = useRef<HTMLDivElement>(null);
+
+  // A successful reset collapses the panel, which unmounts the button that had focus, so focus
+  // falls back to the document and the next Tab starts from the top of the page — while the
+  // confirmation sits several hundred pixels below where the panel used to be. Send focus to the
+  // confirmation instead, so keyboard and screen-reader users are taken to the thing that
+  // answers "did that work?".
+  useEffect(() => {
+    if (msg && task === null) cardMsgRef.current?.focus();
+  }, [msg, task]);
   const needsPassword = user ? reauthNeeds(user) === "password" : false;
 
   function open(next: Task) {
@@ -129,6 +156,7 @@ export function AccountDataSection() {
                   {busy ? "Preparing..." : "Confirm and download"}
                 </Button>
               </div>
+              <PanelMessage msg={msg} />
             </div>
           )}
         </div>
@@ -180,6 +208,7 @@ export function AccountDataSection() {
                   {busy ? "Resetting..." : scope === "all" ? "Reset everything" : "Reset this level"}
                 </Button>
               </div>
+              <PanelMessage msg={msg} />
             </div>
           )}
         </div>
@@ -204,7 +233,25 @@ export function AccountDataSection() {
                 <label htmlFor={confirmId} className="block text-sm font-medium mb-1.5">
                   Type <span className="font-mono text-ink">DELETE</span> to confirm
                 </label>
-                <input id={confirmId} type="text" value={confirmText} onChange={(e) => setConfirmText(e.target.value)} autoComplete="off" className={`w-full max-w-xs ${inputCls}`} />
+                <input
+                  id={confirmId}
+                  type="text"
+                  value={confirmText}
+                  onChange={(e) => setConfirmText(e.target.value)}
+                  autoComplete="off"
+                  aria-describedby={`${confirmId}-hint`}
+                  className={`w-full max-w-xs ${inputCls}`}
+                />
+                {/* The button below stays disabled until this matches, which is right for a
+                    destructive action but silent on its own: someone who types "delete" sees a
+                    dead button and no reason. Say why, as soon as there is something to say. */}
+                <p id={`${confirmId}-hint`} className="mt-1.5 text-xs text-muted" aria-live="polite">
+                  {confirmText.length === 0
+                    ? "This cannot be undone."
+                    : confirmText === "DELETE"
+                      ? "Confirmed. The button below is now active."
+                      : "Type DELETE in capitals, exactly, to enable the button."}
+                </p>
               </div>
               <ReauthField id={`${pwId}-delete`} needsPassword={needsPassword} value={password} onChange={setPassword} />
               <div className="pt-1">
@@ -212,14 +259,17 @@ export function AccountDataSection() {
                   {busy ? "Deleting..." : "Delete my account permanently"}
                 </Button>
               </div>
+              <PanelMessage msg={msg} />
             </div>
           )}
         </div>
       </div>
 
-      {/* One message for the whole card, so a confirmation survives its panel closing. */}
-      {msg && (
-        <div role="status" className="mt-4">
+      {/* The card-level slot: it exists so a confirmation survives the panel that produced it
+          closing. While a panel is open the same message is shown inside it, next to the button
+          that was pressed, because this slot can be two rows and a screen-height away. */}
+      {msg && task === null && (
+        <div ref={cardMsgRef} tabIndex={-1} role={msg.tone === "warn" ? "alert" : "status"} className="mt-4 outline-none">
           <Callout tone={msg.tone}>{msg.text}</Callout>
         </div>
       )}
