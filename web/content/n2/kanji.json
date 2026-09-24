@@ -3777,10 +3777,80 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-油",
-    "slug": "112-油",
+    "id": "n2-kanji-久",
+    "slug": "112-久",
     "level": "n2",
     "order": 112,
+    "day": 10,
+    "character": "久",
+    "meanings": [
+      "long time",
+      "old story"
+    ],
+    "onyomi": [
+      "きゅう",
+      "く"
+    ],
+    "kunyomi": [
+      "ひさ.しい"
+    ],
+    "words": [
+      {
+        "word": "伊拉久",
+        "reading": "イラク",
+        "meaning": "Iraq"
+      },
+      {
+        "word": "久留子",
+        "reading": "クルス",
+        "meaning": "cross sign"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-短",
+    "slug": "113-短",
+    "level": "n2",
+    "order": 113,
+    "day": 10,
+    "character": "短",
+    "meanings": [
+      "short",
+      "brevity",
+      "fault"
+    ],
+    "onyomi": [
+      "たん"
+    ],
+    "kunyomi": [
+      "みじか.い"
+    ],
+    "words": [
+      {
+        "word": "イ短調",
+        "reading": "イたんちょう",
+        "meaning": "A minor"
+      },
+      {
+        "word": "ト短調",
+        "reading": "トたんちょう",
+        "meaning": "G minor"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-油",
+    "slug": "114-油",
+    "level": "n2",
+    "order": 114,
     "day": 10,
     "character": "油",
     "meanings": [
@@ -3811,9 +3881,9 @@
   },
   {
     "id": "n2-kanji-暴",
-    "slug": "113-暴",
+    "slug": "115-暴",
     "level": "n2",
-    "order": 113,
+    "order": 115,
     "day": 10,
     "character": "暴",
     "meanings": [
@@ -3845,10 +3915,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-占",
-    "slug": "114-占",
+    "id": "n2-kanji-輪",
+    "slug": "116-輪",
     "level": "n2",
-    "order": 114,
+    "order": 116,
+    "day": 10,
+    "character": "輪",
+    "meanings": [
+      "wheel",
+      "ring",
+      "circle"
+    ],
+    "onyomi": [
+      "りん"
+    ],
+    "kunyomi": [
+      "わ"
+    ],
+    "words": [
+      {
+        "word": "花輪",
+        "reading": "はなわ",
+        "meaning": "wreath"
+      },
+      {
+        "word": "競輪",
+        "reading": "けいりん",
+        "meaning": "keirin"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-占",
+    "slug": "117-占",
+    "level": "n2",
+    "order": 117,
     "day": 10,
     "character": "占",
     "meanings": [
@@ -3881,10 +3986,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-清",
-    "slug": "115-清",
+    "id": "n2-kanji-植",
+    "slug": "118-植",
     "level": "n2",
-    "order": 115,
+    "order": 118,
+    "day": 10,
+    "character": "植",
+    "meanings": [
+      "plant"
+    ],
+    "onyomi": [
+      "しょく"
+    ],
+    "kunyomi": [
+      "う.える",
+      "う.わる"
+    ],
+    "words": [
+      {
+        "word": "移植",
+        "reading": "いしょく",
+        "meaning": "transplanting (a plant)"
+      },
+      {
+        "word": "移植性",
+        "reading": "いしょくせい",
+        "meaning": "portability"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-清",
+    "slug": "119-清",
+    "level": "n2",
+    "order": 119,
     "day": 10,
     "character": "清",
     "meanings": [
@@ -3917,11 +4056,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-均",
-    "slug": "116-均",
+    "id": "n2-kanji-倍",
+    "slug": "120-倍",
     "level": "n2",
-    "order": 116,
+    "order": 120,
     "day": 10,
+    "character": "倍",
+    "meanings": [
+      "double",
+      "twice",
+      "times"
+    ],
+    "onyomi": [
+      "ばい"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "一倍",
+        "reading": "いちばい",
+        "meaning": "multiplying by one"
+      },
+      {
+        "word": "人一倍",
+        "reading": "ひといちばい",
+        "meaning": "(much) more than others"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-均",
+    "slug": "121-均",
+    "level": "n2",
+    "order": 121,
+    "day": 11,
     "character": "均",
     "meanings": [
       "equal",
@@ -3950,10 +4122,10 @@
   },
   {
     "id": "n2-kanji-億",
-    "slug": "117-億",
+    "slug": "122-億",
     "level": "n2",
-    "order": 117,
-    "day": 10,
+    "order": 122,
+    "day": 11,
     "character": "億",
     "meanings": [
       "hundred million"
@@ -3981,10 +4153,10 @@
   },
   {
     "id": "n2-kanji-圧",
-    "slug": "118-圧",
+    "slug": "123-圧",
     "level": "n2",
-    "order": 118,
-    "day": 10,
+    "order": 123,
+    "day": 11,
     "character": "圧",
     "meanings": [
       "pressure",
@@ -4013,11 +4185,49 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-署",
-    "slug": "119-署",
+    "id": "n2-kanji-芸",
+    "slug": "124-芸",
     "level": "n2",
-    "order": 119,
-    "day": 10,
+    "order": 124,
+    "day": 11,
+    "character": "芸",
+    "meanings": [
+      "technique",
+      "art",
+      "craft"
+    ],
+    "onyomi": [
+      "げい",
+      "うん"
+    ],
+    "kunyomi": [
+      "う.える",
+      "のり",
+      "わざ"
+    ],
+    "words": [
+      {
+        "word": "園芸",
+        "reading": "えんげい",
+        "meaning": "horticulture"
+      },
+      {
+        "word": "演芸",
+        "reading": "えんげい",
+        "meaning": "entertainment"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-署",
+    "slug": "125-署",
+    "level": "n2",
+    "order": 125,
+    "day": 11,
     "character": "署",
     "meanings": [
       "government office",
@@ -4046,10 +4256,10 @@
   },
   {
     "id": "n2-kanji-伸",
-    "slug": "120-伸",
+    "slug": "126-伸",
     "level": "n2",
-    "order": 120,
-    "day": 10,
+    "order": 126,
+    "day": 11,
     "character": "伸",
     "meanings": [
       "stretch",
@@ -4081,9 +4291,9 @@
   },
   {
     "id": "n2-kanji-停",
-    "slug": "121-停",
+    "slug": "127-停",
     "level": "n2",
-    "order": 121,
+    "order": 127,
     "day": 11,
     "character": "停",
     "meanings": [
@@ -4113,9 +4323,9 @@
   },
   {
     "id": "n2-kanji-爆",
-    "slug": "122-爆",
+    "slug": "128-爆",
     "level": "n2",
-    "order": 122,
+    "order": 128,
     "day": 11,
     "character": "爆",
     "meanings": [
@@ -4143,10 +4353,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-玉",
-    "slug": "123-玉",
+    "id": "n2-kanji-陸",
+    "slug": "129-陸",
     "level": "n2",
-    "order": 123,
+    "order": 129,
+    "day": 11,
+    "character": "陸",
+    "meanings": [
+      "land",
+      "six"
+    ],
+    "onyomi": [
+      "りく",
+      "ろく"
+    ],
+    "kunyomi": [
+      "おか"
+    ],
+    "words": [
+      {
+        "word": "上陸",
+        "reading": "じょうりく",
+        "meaning": "landing"
+      },
+      {
+        "word": "暗黒大陸",
+        "reading": "あんこくたいりく",
+        "meaning": "Dark Continent (i.e. Africa)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-玉",
+    "slug": "130-玉",
+    "level": "n2",
+    "order": 130,
     "day": 11,
     "character": "玉",
     "meanings": [
@@ -4178,9 +4423,9 @@
   },
   {
     "id": "n2-kanji-波",
-    "slug": "124-波",
+    "slug": "131-波",
     "level": "n2",
-    "order": 124,
+    "order": 131,
     "day": 11,
     "character": "波",
     "meanings": [
@@ -4211,9 +4456,9 @@
   },
   {
     "id": "n2-kanji-帯",
-    "slug": "125-帯",
+    "slug": "132-帯",
     "level": "n2",
-    "order": 125,
+    "order": 132,
     "day": 11,
     "character": "帯",
     "meanings": [
@@ -4247,10 +4492,10 @@
   },
   {
     "id": "n2-kanji-延",
-    "slug": "126-延",
+    "slug": "133-延",
     "level": "n2",
-    "order": 126,
-    "day": 11,
+    "order": 133,
+    "day": 12,
     "character": "延",
     "meanings": [
       "prolong",
@@ -4285,10 +4530,10 @@
   },
   {
     "id": "n2-kanji-羽",
-    "slug": "127-羽",
+    "slug": "134-羽",
     "level": "n2",
-    "order": 127,
-    "day": 11,
+    "order": 134,
+    "day": 12,
     "character": "羽",
     "meanings": [
       "feather",
@@ -4319,11 +4564,49 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-則",
-    "slug": "128-則",
+    "id": "n2-kanji-固",
+    "slug": "135-固",
     "level": "n2",
-    "order": 128,
-    "day": 11,
+    "order": 135,
+    "day": 12,
+    "character": "固",
+    "meanings": [
+      "harden",
+      "set",
+      "clot"
+    ],
+    "onyomi": [
+      "こ"
+    ],
+    "kunyomi": [
+      "かた.める",
+      "かた.まる",
+      "かた.まり",
+      "かた.い"
+    ],
+    "words": [
+      {
+        "word": "確固",
+        "reading": "かっこ",
+        "meaning": "firm"
+      },
+      {
+        "word": "頑固",
+        "reading": "がんこ",
+        "meaning": "stubborn"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-則",
+    "slug": "136-則",
+    "level": "n2",
+    "order": 136,
+    "day": 12,
     "character": "則",
     "meanings": [
       "rule",
@@ -4352,10 +4635,10 @@
   },
   {
     "id": "n2-kanji-乱",
-    "slug": "129-乱",
+    "slug": "137-乱",
     "level": "n2",
-    "order": 129,
-    "day": 11,
+    "order": 137,
+    "day": 12,
     "character": "乱",
     "meanings": [
       "disorder"
@@ -4386,10 +4669,10 @@
   },
   {
     "id": "n2-kanji-普",
-    "slug": "130-普",
+    "slug": "138-普",
     "level": "n2",
-    "order": 130,
-    "day": 11,
+    "order": 138,
+    "day": 12,
     "character": "普",
     "meanings": [
       "universal",
@@ -4418,10 +4701,10 @@
   },
   {
     "id": "n2-kanji-測",
-    "slug": "131-測",
+    "slug": "139-測",
     "level": "n2",
-    "order": 131,
-    "day": 11,
+    "order": 139,
+    "day": 12,
     "character": "測",
     "meanings": [
       "measure",
@@ -4453,10 +4736,10 @@
   },
   {
     "id": "n2-kanji-豊",
-    "slug": "132-豊",
+    "slug": "140-豊",
     "level": "n2",
-    "order": 132,
-    "day": 11,
+    "order": 140,
+    "day": 12,
     "character": "豊",
     "meanings": [
       "abundant",
@@ -4488,9 +4771,9 @@
   },
   {
     "id": "n2-kanji-厚",
-    "slug": "133-厚",
+    "slug": "141-厚",
     "level": "n2",
-    "order": 133,
+    "order": 141,
     "day": 12,
     "character": "厚",
     "meanings": [
@@ -4522,9 +4805,9 @@
   },
   {
     "id": "n2-kanji-齢",
-    "slug": "134-齢",
+    "slug": "142-齢",
     "level": "n2",
-    "order": 134,
+    "order": 142,
     "day": 12,
     "character": "齢",
     "meanings": [
@@ -4553,9 +4836,9 @@
   },
   {
     "id": "n2-kanji-囲",
-    "slug": "135-囲",
+    "slug": "143-囲",
     "level": "n2",
-    "order": 135,
+    "order": 143,
     "day": 12,
     "character": "囲",
     "meanings": [
@@ -4586,11 +4869,51 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-略",
-    "slug": "136-略",
+    "id": "n2-kanji-卒",
+    "slug": "144-卒",
     "level": "n2",
-    "order": 136,
+    "order": 144,
     "day": 12,
+    "character": "卒",
+    "meanings": [
+      "graduate",
+      "soldier",
+      "private"
+    ],
+    "onyomi": [
+      "そつ",
+      "しゅつ"
+    ],
+    "kunyomi": [
+      "そっ.する",
+      "お.える",
+      "お.わる",
+      "ついに",
+      "にわか"
+    ],
+    "words": [
+      {
+        "word": "何卒",
+        "reading": "なにとぞ",
+        "meaning": "please"
+      },
+      {
+        "word": "学卒",
+        "reading": "がくそつ",
+        "meaning": "college graduate"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-略",
+    "slug": "145-略",
+    "level": "n2",
+    "order": 145,
+    "day": 13,
     "character": "略",
     "meanings": [
       "abbreviation",
@@ -4621,10 +4944,10 @@
   },
   {
     "id": "n2-kanji-承",
-    "slug": "137-承",
+    "slug": "146-承",
     "level": "n2",
-    "order": 137,
-    "day": 12,
+    "order": 146,
+    "day": 13,
     "character": "承",
     "meanings": [
       "receive",
@@ -4657,10 +4980,10 @@
   },
   {
     "id": "n2-kanji-順",
-    "slug": "138-順",
+    "slug": "147-順",
     "level": "n2",
-    "order": 138,
-    "day": 12,
+    "order": 147,
+    "day": 13,
     "character": "順",
     "meanings": [
       "order",
@@ -4689,10 +5012,10 @@
   },
   {
     "id": "n2-kanji-岩",
-    "slug": "139-岩",
+    "slug": "148-岩",
     "level": "n2",
-    "order": 139,
-    "day": 12,
+    "order": 148,
+    "day": 13,
     "character": "岩",
     "meanings": [
       "rock"
@@ -4721,11 +5044,118 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-庁",
-    "slug": "140-庁",
+    "id": "n2-kanji-練",
+    "slug": "149-練",
     "level": "n2",
-    "order": 140,
-    "day": 12,
+    "order": 149,
+    "day": 13,
+    "character": "練",
+    "meanings": [
+      "practice",
+      "gloss",
+      "train"
+    ],
+    "onyomi": [
+      "れん"
+    ],
+    "kunyomi": [
+      "ね.る",
+      "ね.り"
+    ],
+    "words": [
+      {
+        "word": "訓練",
+        "reading": "くんれん",
+        "meaning": "training"
+      },
+      {
+        "word": "試練",
+        "reading": "しれん",
+        "meaning": "test"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-軽",
+    "slug": "150-軽",
+    "level": "n2",
+    "order": 150,
+    "day": 13,
+    "character": "軽",
+    "meanings": [
+      "lightly",
+      "trifling",
+      "unimportant"
+    ],
+    "onyomi": [
+      "けい",
+      "きょう",
+      "きん"
+    ],
+    "kunyomi": [
+      "かる.い",
+      "かろ.やか",
+      "かろ.んじる"
+    ],
+    "words": [
+      {
+        "word": "気軽",
+        "reading": "きがる",
+        "meaning": "carefree"
+      },
+      {
+        "word": "軽い",
+        "reading": "かるい",
+        "meaning": "light (i.e. not heavy)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-了",
+    "slug": "151-了",
+    "level": "n2",
+    "order": 151,
+    "day": 13,
+    "character": "了",
+    "meanings": [
+      "complete",
+      "finish"
+    ],
+    "onyomi": [
+      "りょう"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "完了",
+        "reading": "かんりょう",
+        "meaning": "completion"
+      },
+      {
+        "word": "修了",
+        "reading": "しゅうりょう",
+        "meaning": "completion (of a course)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-庁",
+    "slug": "152-庁",
+    "level": "n2",
+    "order": 152,
+    "day": 13,
     "character": "庁",
     "meanings": [
       "government office"
@@ -4752,11 +5182,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-患",
-    "slug": "141-患",
+    "id": "n2-kanji-城",
+    "slug": "153-城",
     "level": "n2",
-    "order": 141,
-    "day": 12,
+    "order": 153,
+    "day": 13,
+    "character": "城",
+    "meanings": [
+      "castle"
+    ],
+    "onyomi": [
+      "じょう",
+      "せい"
+    ],
+    "kunyomi": [
+      "しろ"
+    ],
+    "words": [
+      {
+        "word": "開城",
+        "reading": "かいじょう",
+        "meaning": "surrender of a castle"
+      },
+      {
+        "word": "茨城県",
+        "reading": "いばらきけん",
+        "meaning": "Ibaraki prefecture"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-患",
+    "slug": "154-患",
+    "level": "n2",
+    "order": 154,
+    "day": 13,
     "character": "患",
     "meanings": [
       "illness",
@@ -4786,11 +5250,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-版",
-    "slug": "142-版",
+    "id": "n2-kanji-層",
+    "slug": "155-層",
     "level": "n2",
-    "order": 142,
-    "day": 12,
+    "order": 155,
+    "day": 13,
+    "character": "層",
+    "meanings": [
+      "stratum",
+      "social class",
+      "layer"
+    ],
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "一層",
+        "reading": "いっそう",
+        "meaning": "even more"
+      },
+      {
+        "word": "ローム層",
+        "reading": "ロームそう",
+        "meaning": "stratum of loam"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-版",
+    "slug": "156-版",
+    "level": "n2",
+    "order": 156,
+    "day": 13,
     "character": "版",
     "meanings": [
       "edition",
@@ -4820,10 +5317,10 @@
   },
   {
     "id": "n2-kanji-令",
-    "slug": "143-令",
+    "slug": "157-令",
     "level": "n2",
-    "order": 143,
-    "day": 12,
+    "order": 157,
+    "day": 14,
     "character": "令",
     "meanings": [
       "command",
@@ -4852,10 +5349,10 @@
   },
   {
     "id": "n2-kanji-角",
-    "slug": "144-角",
+    "slug": "158-角",
     "level": "n2",
-    "order": 144,
-    "day": 12,
+    "order": 158,
+    "day": 14,
     "character": "角",
     "meanings": [
       "corner",
@@ -4887,11 +5384,47 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-損",
-    "slug": "145-損",
+    "id": "n2-kanji-絡",
+    "slug": "159-絡",
     "level": "n2",
-    "order": 145,
-    "day": 13,
+    "order": 159,
+    "day": 14,
+    "character": "絡",
+    "meanings": [
+      "entwine",
+      "coil around",
+      "get caught in"
+    ],
+    "onyomi": [
+      "らく"
+    ],
+    "kunyomi": [
+      "から.む",
+      "から.まる"
+    ],
+    "words": [
+      {
+        "word": "ご連絡",
+        "reading": "ごれんらく",
+        "meaning": "contacting"
+      },
+      {
+        "word": "短絡",
+        "reading": "たんらく",
+        "meaning": "short circuit"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-損",
+    "slug": "160-損",
+    "level": "n2",
+    "order": 160,
+    "day": 14,
     "character": "損",
     "meanings": [
       "loss",
@@ -4924,10 +5457,10 @@
   },
   {
     "id": "n2-kanji-募",
-    "slug": "146-募",
+    "slug": "161-募",
     "level": "n2",
-    "order": 146,
-    "day": 13,
+    "order": 161,
+    "day": 14,
     "character": "募",
     "meanings": [
       "recruit",
@@ -4958,11 +5491,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-仏",
-    "slug": "147-仏",
+    "id": "n2-kanji-裏",
+    "slug": "162-裏",
     "level": "n2",
-    "order": 147,
-    "day": 13,
+    "order": 162,
+    "day": 14,
+    "character": "裏",
+    "meanings": [
+      "back",
+      "amidst",
+      "in"
+    ],
+    "onyomi": [
+      "り"
+    ],
+    "kunyomi": [
+      "うら"
+    ],
+    "words": [
+      {
+        "word": "囲炉裏",
+        "reading": "いろり",
+        "meaning": "sunken hearth"
+      },
+      {
+        "word": "共裏",
+        "reading": "ともうら",
+        "meaning": "lining a kimono with the same material as the kimono itself"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-仏",
+    "slug": "163-仏",
+    "level": "n2",
+    "order": 163,
+    "day": 14,
     "character": "仏",
     "meanings": [
       "Buddha",
@@ -4993,10 +5561,10 @@
   },
   {
     "id": "n2-kanji-績",
-    "slug": "148-績",
+    "slug": "164-績",
     "level": "n2",
-    "order": 148,
-    "day": 13,
+    "order": 164,
+    "day": 14,
     "character": "績",
     "meanings": [
       "achievements",
@@ -5025,11 +5593,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-貨",
-    "slug": "149-貨",
+    "id": "n2-kanji-築",
+    "slug": "165-築",
     "level": "n2",
-    "order": 149,
-    "day": 13,
+    "order": 165,
+    "day": 14,
+    "character": "築",
+    "meanings": [
+      "fabricate",
+      "build",
+      "construct"
+    ],
+    "onyomi": [
+      "ちく"
+    ],
+    "kunyomi": [
+      "きず.く"
+    ],
+    "words": [
+      {
+        "word": "改築",
+        "reading": "かいちく",
+        "meaning": "structural alteration (of a building)"
+      },
+      {
+        "word": "建築",
+        "reading": "けんちく",
+        "meaning": "construction"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-貨",
+    "slug": "166-貨",
+    "level": "n2",
+    "order": 166,
+    "day": 14,
     "character": "貨",
     "meanings": [
       "goods",
@@ -5058,10 +5661,10 @@
   },
   {
     "id": "n2-kanji-混",
-    "slug": "150-混",
+    "slug": "167-混",
     "level": "n2",
-    "order": 150,
-    "day": 13,
+    "order": 167,
+    "day": 14,
     "character": "混",
     "meanings": [
       "mix",
@@ -5096,10 +5699,10 @@
   },
   {
     "id": "n2-kanji-昇",
-    "slug": "151-昇",
+    "slug": "168-昇",
     "level": "n2",
-    "order": 151,
-    "day": 13,
+    "order": 168,
+    "day": 14,
     "character": "昇",
     "meanings": [
       "rise",
@@ -5130,10 +5733,10 @@
   },
   {
     "id": "n2-kanji-池",
-    "slug": "152-池",
+    "slug": "169-池",
     "level": "n2",
-    "order": 152,
-    "day": 13,
+    "order": 169,
+    "day": 15,
     "character": "池",
     "meanings": [
       "pond"
@@ -5163,10 +5766,10 @@
   },
   {
     "id": "n2-kanji-血",
-    "slug": "153-血",
+    "slug": "170-血",
     "level": "n2",
-    "order": 153,
-    "day": 13,
+    "order": 170,
+    "day": 15,
     "character": "血",
     "meanings": [
       "blood"
@@ -5196,10 +5799,10 @@
   },
   {
     "id": "n2-kanji-温",
-    "slug": "154-温",
+    "slug": "171-温",
     "level": "n2",
-    "order": 154,
-    "day": 13,
+    "order": 171,
+    "day": 15,
     "character": "温",
     "meanings": [
       "warm",
@@ -5231,11 +5834,42 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-星",
-    "slug": "155-星",
+    "id": "n2-kanji-季",
+    "slug": "172-季",
     "level": "n2",
-    "order": 155,
-    "day": 13,
+    "order": 172,
+    "day": 15,
+    "character": "季",
+    "meanings": [
+      "seasons"
+    ],
+    "onyomi": [
+      "き"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "季刊",
+        "reading": "きかん",
+        "meaning": "quarterly publication"
+      },
+      {
+        "word": "季語",
+        "reading": "きご",
+        "meaning": "seasonal word (in haiku)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-星",
+    "slug": "173-星",
+    "level": "n2",
+    "order": 173,
+    "day": 15,
     "character": "星",
     "meanings": [
       "star"
@@ -5265,11 +5899,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-著",
-    "slug": "156-著",
+    "id": "n2-kanji-永",
+    "slug": "174-永",
     "level": "n2",
-    "order": 156,
-    "day": 13,
+    "order": 174,
+    "day": 15,
+    "character": "永",
+    "meanings": [
+      "eternity",
+      "long",
+      "lengthy"
+    ],
+    "onyomi": [
+      "えい"
+    ],
+    "kunyomi": [
+      "なが.い"
+    ],
+    "words": [
+      {
+        "word": "永遠",
+        "reading": "えいえん",
+        "meaning": "eternity"
+      },
+      {
+        "word": "永久歯",
+        "reading": "えいきゅうし",
+        "meaning": "permanent tooth"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-著",
+    "slug": "175-著",
+    "level": "n2",
+    "order": 175,
+    "day": 15,
     "character": "著",
     "meanings": [
       "author",
@@ -5302,10 +5971,10 @@
   },
   {
     "id": "n2-kanji-誌",
-    "slug": "157-誌",
+    "slug": "176-誌",
     "level": "n2",
-    "order": 157,
-    "day": 14,
+    "order": 176,
+    "day": 15,
     "character": "誌",
     "meanings": [
       "magazine",
@@ -5335,10 +6004,10 @@
   },
   {
     "id": "n2-kanji-庫",
-    "slug": "158-庫",
+    "slug": "177-庫",
     "level": "n2",
-    "order": 158,
-    "day": 14,
+    "order": 177,
+    "day": 15,
     "character": "庫",
     "meanings": [
       "storehouse"
@@ -5367,10 +6036,10 @@
   },
   {
     "id": "n2-kanji-刊",
-    "slug": "159-刊",
+    "slug": "178-刊",
     "level": "n2",
-    "order": 159,
-    "day": 14,
+    "order": 178,
+    "day": 15,
     "character": "刊",
     "meanings": [
       "publish",
@@ -5400,10 +6069,10 @@
   },
   {
     "id": "n2-kanji-像",
-    "slug": "160-像",
+    "slug": "179-像",
     "level": "n2",
-    "order": 160,
-    "day": 14,
+    "order": 179,
+    "day": 15,
     "character": "像",
     "meanings": [
       "image",
@@ -5432,10 +6101,10 @@
   },
   {
     "id": "n2-kanji-香",
-    "slug": "161-香",
+    "slug": "180-香",
     "level": "n2",
-    "order": 161,
-    "day": 14,
+    "order": 180,
+    "day": 15,
     "character": "香",
     "meanings": [
       "fragrance"
@@ -5468,10 +6137,10 @@
   },
   {
     "id": "n2-kanji-坂",
-    "slug": "162-坂",
+    "slug": "181-坂",
     "level": "n2",
-    "order": 162,
-    "day": 14,
+    "order": 181,
+    "day": 16,
     "character": "坂",
     "meanings": [
       "slope"
@@ -5500,11 +6169,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-布",
-    "slug": "163-布",
+    "id": "n2-kanji-底",
+    "slug": "182-底",
     "level": "n2",
-    "order": 163,
-    "day": 14,
+    "order": 182,
+    "day": 16,
+    "character": "底",
+    "meanings": [
+      "bottom",
+      "sole",
+      "depth"
+    ],
+    "onyomi": [
+      "てい"
+    ],
+    "kunyomi": [
+      "そこ"
+    ],
+    "words": [
+      {
+        "word": "海底",
+        "reading": "かいてい",
+        "meaning": "bottom of the ocean"
+      },
+      {
+        "word": "根底",
+        "reading": "こんてい",
+        "meaning": "root"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-布",
+    "slug": "183-布",
+    "level": "n2",
+    "order": 183,
+    "day": 16,
     "character": "布",
     "meanings": [
       "cloth"
@@ -5534,10 +6238,10 @@
   },
   {
     "id": "n2-kanji-寺",
-    "slug": "164-寺",
+    "slug": "184-寺",
     "level": "n2",
-    "order": 164,
-    "day": 14,
+    "order": 184,
+    "day": 16,
     "character": "寺",
     "meanings": [
       "temple"
@@ -5567,10 +6271,10 @@
   },
   {
     "id": "n2-kanji-宇",
-    "slug": "165-宇",
+    "slug": "185-宇",
     "level": "n2",
-    "order": 165,
-    "day": 14,
+    "order": 185,
+    "day": 16,
     "character": "宇",
     "meanings": [
       "eaves",
@@ -5599,10 +6303,10 @@
   },
   {
     "id": "n2-kanji-巨",
-    "slug": "166-巨",
+    "slug": "186-巨",
     "level": "n2",
-    "order": 166,
-    "day": 14,
+    "order": 186,
+    "day": 16,
     "character": "巨",
     "meanings": [
       "huge",
@@ -5631,10 +6335,10 @@
   },
   {
     "id": "n2-kanji-震",
-    "slug": "167-震",
+    "slug": "187-震",
     "level": "n2",
-    "order": 167,
-    "day": 14,
+    "order": 187,
+    "day": 16,
     "character": "震",
     "meanings": [
       "shake",
@@ -5665,11 +6369,47 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-触",
-    "slug": "168-触",
+    "id": "n2-kanji-希",
+    "slug": "188-希",
     "level": "n2",
-    "order": 168,
-    "day": 14,
+    "order": 188,
+    "day": 16,
+    "character": "希",
+    "meanings": [
+      "hope",
+      "beg",
+      "request"
+    ],
+    "onyomi": [
+      "き",
+      "け"
+    ],
+    "kunyomi": [
+      "まれ"
+    ],
+    "words": [
+      {
+        "word": "希臘",
+        "reading": "ギリシャ",
+        "meaning": "Greece"
+      },
+      {
+        "word": "第希蘭",
+        "reading": "テヘラン",
+        "meaning": "Tehran (Iran)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-触",
+    "slug": "189-触",
+    "level": "n2",
+    "order": 189,
+    "day": 16,
     "character": "触",
     "meanings": [
       "touch"
@@ -5700,10 +6440,10 @@
   },
   {
     "id": "n2-kanji-依",
-    "slug": "169-依",
+    "slug": "190-依",
     "level": "n2",
-    "order": 169,
-    "day": 15,
+    "order": 190,
+    "day": 16,
     "character": "依",
     "meanings": [
       "depend",
@@ -5733,11 +6473,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-汚",
-    "slug": "170-汚",
+    "id": "n2-kanji-籍",
+    "slug": "191-籍",
     "level": "n2",
-    "order": 170,
-    "day": 15,
+    "order": 191,
+    "day": 16,
+    "character": "籍",
+    "meanings": [
+      "enroll",
+      "domiciliary register",
+      "membership"
+    ],
+    "onyomi": [
+      "せき"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "移籍",
+        "reading": "いせき",
+        "meaning": "transfer (of one's name into another family register)"
+      },
+      {
+        "word": "戸籍",
+        "reading": "こせき",
+        "meaning": "family register"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-汚",
+    "slug": "192-汚",
+    "level": "n2",
+    "order": 192,
+    "day": 16,
     "character": "汚",
     "meanings": [
       "dirty",
@@ -5772,10 +6545,10 @@
   },
   {
     "id": "n2-kanji-枚",
-    "slug": "171-枚",
+    "slug": "193-枚",
     "level": "n2",
-    "order": 171,
-    "day": 15,
+    "order": 193,
+    "day": 17,
     "character": "枚",
     "meanings": [
       "counter for flat objects"
@@ -5803,10 +6576,10 @@
   },
   {
     "id": "n2-kanji-複",
-    "slug": "172-複",
+    "slug": "194-複",
     "level": "n2",
-    "order": 172,
-    "day": 15,
+    "order": 194,
+    "day": 17,
     "character": "複",
     "meanings": [
       "duplicate",
@@ -5836,10 +6609,10 @@
   },
   {
     "id": "n2-kanji-郵",
-    "slug": "173-郵",
+    "slug": "195-郵",
     "level": "n2",
-    "order": 173,
-    "day": 15,
+    "order": 195,
+    "day": 17,
     "character": "郵",
     "meanings": [
       "mail"
@@ -5866,11 +6639,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-栄",
-    "slug": "174-栄",
+    "id": "n2-kanji-仲",
+    "slug": "196-仲",
     "level": "n2",
-    "order": 174,
-    "day": 15,
+    "order": 196,
+    "day": 17,
+    "character": "仲",
+    "meanings": [
+      "go-between",
+      "relationship"
+    ],
+    "onyomi": [
+      "ちゅう"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "words": [
+      {
+        "word": "犬猿の仲",
+        "reading": "けんえんのなか",
+        "meaning": "like cats and dogs"
+      },
+      {
+        "word": "仲介",
+        "reading": "ちゅうかい",
+        "meaning": "agency"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-栄",
+    "slug": "197-栄",
+    "level": "n2",
+    "order": 197,
+    "day": 17,
     "character": "栄",
     "meanings": [
       "prosper",
@@ -5901,11 +6708,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-板",
-    "slug": "175-板",
+    "id": "n2-kanji-札",
+    "slug": "198-札",
     "level": "n2",
-    "order": 175,
-    "day": 15,
+    "order": 198,
+    "day": 17,
+    "character": "札",
+    "meanings": [
+      "tag",
+      "paper money",
+      "counter for bonds"
+    ],
+    "onyomi": [
+      "さつ"
+    ],
+    "kunyomi": [
+      "ふだ"
+    ],
+    "words": [
+      {
+        "word": "荷札",
+        "reading": "にふだ",
+        "meaning": "label"
+      },
+      {
+        "word": "改札",
+        "reading": "かいさつ",
+        "meaning": "examination of tickets"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-板",
+    "slug": "199-板",
+    "level": "n2",
+    "order": 199,
+    "day": 17,
     "character": "板",
     "meanings": [
       "board",
@@ -5937,10 +6779,10 @@
   },
   {
     "id": "n2-kanji-骨",
-    "slug": "176-骨",
+    "slug": "200-骨",
     "level": "n2",
-    "order": 176,
-    "day": 15,
+    "order": 200,
+    "day": 17,
     "character": "骨",
     "meanings": [
       "bone"
@@ -5970,10 +6812,10 @@
   },
   {
     "id": "n2-kanji-傾",
-    "slug": "177-傾",
+    "slug": "201-傾",
     "level": "n2",
-    "order": 177,
-    "day": 15,
+    "order": 201,
+    "day": 17,
     "character": "傾",
     "meanings": [
       "lean",
@@ -6005,10 +6847,10 @@
   },
   {
     "id": "n2-kanji-届",
-    "slug": "178-届",
+    "slug": "202-届",
     "level": "n2",
-    "order": 178,
-    "day": 15,
+    "order": 202,
+    "day": 17,
     "character": "届",
     "meanings": [
       "reach",
@@ -6038,10 +6880,10 @@
   },
   {
     "id": "n2-kanji-巻",
-    "slug": "179-巻",
+    "slug": "203-巻",
     "level": "n2",
-    "order": 179,
-    "day": 15,
+    "order": 203,
+    "day": 17,
     "character": "巻",
     "meanings": [
       "roll",
@@ -6074,10 +6916,10 @@
   },
   {
     "id": "n2-kanji-燃",
-    "slug": "180-燃",
+    "slug": "204-燃",
     "level": "n2",
-    "order": 180,
-    "day": 15,
+    "order": 204,
+    "day": 17,
     "character": "燃",
     "meanings": [
       "burn",
@@ -6110,10 +6952,10 @@
   },
   {
     "id": "n2-kanji-跡",
-    "slug": "181-跡",
+    "slug": "205-跡",
     "level": "n2",
-    "order": 181,
-    "day": 16,
+    "order": 205,
+    "day": 18,
     "character": "跡",
     "meanings": [
       "trace",
@@ -6143,11 +6985,47 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-駐",
-    "slug": "182-駐",
+    "id": "n2-kanji-包",
+    "slug": "206-包",
     "level": "n2",
-    "order": 182,
-    "day": 16,
+    "order": 206,
+    "day": 18,
+    "character": "包",
+    "meanings": [
+      "wrap",
+      "pack up",
+      "cover"
+    ],
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [
+      "つつ.む",
+      "くる.む"
+    ],
+    "words": [
+      {
+        "word": "梱包",
+        "reading": "こんぽう",
+        "meaning": "packing"
+      },
+      {
+        "word": "内包",
+        "reading": "ないほう",
+        "meaning": "connotation"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-駐",
+    "slug": "207-駐",
+    "level": "n2",
+    "order": 207,
+    "day": 18,
     "character": "駐",
     "meanings": [
       "stationed",
@@ -6176,10 +7054,10 @@
   },
   {
     "id": "n2-kanji-弱",
-    "slug": "183-弱",
+    "slug": "208-弱",
     "level": "n2",
-    "order": 183,
-    "day": 16,
+    "order": 208,
+    "day": 18,
     "character": "弱",
     "meanings": [
       "weak"
@@ -6208,11 +7086,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-雇",
-    "slug": "184-雇",
+    "id": "n2-kanji-紹",
+    "slug": "209-紹",
     "level": "n2",
-    "order": 184,
-    "day": 16,
+    "order": 209,
+    "day": 18,
+    "character": "紹",
+    "meanings": [
+      "introduce",
+      "inherit",
+      "help"
+    ],
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "自己紹介",
+        "reading": "じこしょうかい",
+        "meaning": "self-introduction"
+      },
+      {
+        "word": "紹介",
+        "reading": "しょうかい",
+        "meaning": "introduction"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-雇",
+    "slug": "210-雇",
+    "level": "n2",
+    "order": 210,
+    "day": 18,
     "character": "雇",
     "meanings": [
       "employ",
@@ -6243,10 +7154,10 @@
   },
   {
     "id": "n2-kanji-替",
-    "slug": "185-替",
+    "slug": "211-替",
     "level": "n2",
-    "order": 185,
-    "day": 16,
+    "order": 211,
+    "day": 18,
     "character": "替",
     "meanings": [
       "exchange",
@@ -6278,10 +7189,10 @@
   },
   {
     "id": "n2-kanji-預",
-    "slug": "186-預",
+    "slug": "212-預",
     "level": "n2",
-    "order": 186,
-    "day": 16,
+    "order": 212,
+    "day": 18,
     "character": "預",
     "meanings": [
       "deposit",
@@ -6314,10 +7225,10 @@
   },
   {
     "id": "n2-kanji-焼",
-    "slug": "187-焼",
+    "slug": "213-焼",
     "level": "n2",
-    "order": 187,
-    "day": 16,
+    "order": 213,
+    "day": 18,
     "character": "焼",
     "meanings": [
       "burn",
@@ -6350,10 +7261,10 @@
   },
   {
     "id": "n2-kanji-簡",
-    "slug": "188-簡",
+    "slug": "214-簡",
     "level": "n2",
-    "order": 188,
-    "day": 16,
+    "order": 214,
+    "day": 18,
     "character": "簡",
     "meanings": [
       "simple",
@@ -6382,10 +7293,10 @@
   },
   {
     "id": "n2-kanji-章",
-    "slug": "189-章",
+    "slug": "215-章",
     "level": "n2",
-    "order": 189,
-    "day": 16,
+    "order": 215,
+    "day": 18,
     "character": "章",
     "meanings": [
       "chapter",
@@ -6416,10 +7327,10 @@
   },
   {
     "id": "n2-kanji-臓",
-    "slug": "190-臓",
+    "slug": "216-臓",
     "level": "n2",
-    "order": 190,
-    "day": 16,
+    "order": 216,
+    "day": 18,
     "character": "臓",
     "meanings": [
       "internal organ"
@@ -6447,10 +7358,10 @@
   },
   {
     "id": "n2-kanji-律",
-    "slug": "191-律",
+    "slug": "217-律",
     "level": "n2",
-    "order": 191,
-    "day": 16,
+    "order": 217,
+    "day": 19,
     "character": "律",
     "meanings": [
       "law",
@@ -6480,10 +7391,10 @@
   },
   {
     "id": "n2-kanji-贈",
-    "slug": "192-贈",
+    "slug": "218-贈",
     "level": "n2",
-    "order": 192,
-    "day": 16,
+    "order": 218,
+    "day": 19,
     "character": "贈",
     "meanings": [
       "present",
@@ -6515,10 +7426,10 @@
   },
   {
     "id": "n2-kanji-照",
-    "slug": "193-照",
+    "slug": "219-照",
     "level": "n2",
-    "order": 193,
-    "day": 17,
+    "order": 219,
+    "day": 19,
     "character": "照",
     "meanings": [
       "shine",
@@ -6551,10 +7462,10 @@
   },
   {
     "id": "n2-kanji-薄",
-    "slug": "194-薄",
+    "slug": "220-薄",
     "level": "n2",
-    "order": 194,
-    "day": 17,
+    "order": 220,
+    "day": 19,
     "character": "薄",
     "meanings": [
       "thin",
@@ -6586,11 +7497,116 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-詰",
-    "slug": "195-詰",
+    "id": "n2-kanji-群",
+    "slug": "221-群",
     "level": "n2",
-    "order": 195,
-    "day": 17,
+    "order": 221,
+    "day": 19,
+    "character": "群",
+    "meanings": [
+      "flock",
+      "group",
+      "crowd"
+    ],
+    "onyomi": [
+      "ぐん"
+    ],
+    "kunyomi": [
+      "む.れる",
+      "む.れ",
+      "むら",
+      "むら.がる"
+    ],
+    "words": [
+      {
+        "word": "魚群",
+        "reading": "ぎょぐん",
+        "meaning": "school of fish"
+      },
+      {
+        "word": "群がる",
+        "reading": "むらがる",
+        "meaning": "to swarm"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-秒",
+    "slug": "222-秒",
+    "level": "n2",
+    "order": 222,
+    "day": 19,
+    "character": "秒",
+    "meanings": [
+      "second (1/60 minute)"
+    ],
+    "onyomi": [
+      "びょう"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "秒速",
+        "reading": "びょうそく",
+        "meaning": "speed per second"
+      },
+      {
+        "word": "秒読み",
+        "reading": "びょうよみ",
+        "meaning": "countdown"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-奥",
+    "slug": "223-奥",
+    "level": "n2",
+    "order": 223,
+    "day": 19,
+    "character": "奥",
+    "meanings": [
+      "heart",
+      "interior"
+    ],
+    "onyomi": [
+      "おう"
+    ],
+    "kunyomi": [
+      "おく",
+      "おく.まる",
+      "くま"
+    ],
+    "words": [
+      {
+        "word": "奥さん",
+        "reading": "おくさん",
+        "meaning": "wife"
+      },
+      {
+        "word": "奥の院",
+        "reading": "おくのいん",
+        "meaning": "inner sanctuary"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-詰",
+    "slug": "224-詰",
+    "level": "n2",
+    "order": 224,
+    "day": 19,
     "character": "詰",
     "meanings": [
       "pack",
@@ -6623,10 +7639,10 @@
   },
   {
     "id": "n2-kanji-双",
-    "slug": "196-双",
+    "slug": "225-双",
     "level": "n2",
-    "order": 196,
-    "day": 17,
+    "order": 225,
+    "day": 19,
     "character": "双",
     "meanings": [
       "pair",
@@ -6657,10 +7673,10 @@
   },
   {
     "id": "n2-kanji-刺",
-    "slug": "197-刺",
+    "slug": "226-刺",
     "level": "n2",
-    "order": 197,
-    "day": 17,
+    "order": 226,
+    "day": 19,
     "character": "刺",
     "meanings": [
       "stab",
@@ -6692,10 +7708,10 @@
   },
   {
     "id": "n2-kanji-純",
-    "slug": "198-純",
+    "slug": "227-純",
     "level": "n2",
-    "order": 198,
-    "day": 17,
+    "order": 227,
+    "day": 19,
     "character": "純",
     "meanings": [
       "pure"
@@ -6722,11 +7738,114 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-敬",
-    "slug": "199-敬",
+    "id": "n2-kanji-翌",
+    "slug": "228-翌",
     "level": "n2",
-    "order": 199,
-    "day": 17,
+    "order": 228,
+    "day": 19,
+    "character": "翌",
+    "meanings": [
+      "the following",
+      "next"
+    ],
+    "onyomi": [
+      "よく"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "翌月",
+        "reading": "よくげつ",
+        "meaning": "following month"
+      },
+      {
+        "word": "翌週",
+        "reading": "よくしゅう",
+        "meaning": "the following week"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-快",
+    "slug": "229-快",
+    "level": "n2",
+    "order": 229,
+    "day": 20,
+    "character": "快",
+    "meanings": [
+      "cheerful",
+      "pleasant",
+      "agreeable"
+    ],
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [
+      "こころよ.い"
+    ],
+    "words": [
+      {
+        "word": "快い",
+        "reading": "こころよい",
+        "meaning": "pleasant"
+      },
+      {
+        "word": "快楽",
+        "reading": "かいらく",
+        "meaning": "pleasure"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-片",
+    "slug": "230-片",
+    "level": "n2",
+    "order": 230,
+    "day": 20,
+    "character": "片",
+    "meanings": [
+      "one-sided",
+      "leaf",
+      "sheet"
+    ],
+    "onyomi": [
+      "へん"
+    ],
+    "kunyomi": [
+      "かた-",
+      "かた"
+    ],
+    "words": [
+      {
+        "word": "欠片",
+        "reading": "かけら",
+        "meaning": "fragment"
+      },
+      {
+        "word": "後片付け",
+        "reading": "あとかたづけ",
+        "meaning": "tidying up"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-敬",
+    "slug": "231-敬",
+    "level": "n2",
+    "order": 231,
+    "day": 20,
     "character": "敬",
     "meanings": [
       "respect",
@@ -6758,10 +7877,10 @@
   },
   {
     "id": "n2-kanji-悩",
-    "slug": "200-悩",
+    "slug": "232-悩",
     "level": "n2",
-    "order": 200,
-    "day": 17,
+    "order": 232,
+    "day": 20,
     "character": "悩",
     "meanings": [
       "worry",
@@ -6793,10 +7912,10 @@
   },
   {
     "id": "n2-kanji-泉",
-    "slug": "201-泉",
+    "slug": "233-泉",
     "level": "n2",
-    "order": 201,
-    "day": 17,
+    "order": 233,
+    "day": 20,
     "character": "泉",
     "meanings": [
       "spring",
@@ -6828,10 +7947,10 @@
   },
   {
     "id": "n2-kanji-皮",
-    "slug": "202-皮",
+    "slug": "234-皮",
     "level": "n2",
-    "order": 202,
-    "day": 17,
+    "order": 234,
+    "day": 20,
     "character": "皮",
     "meanings": [
       "skin",
@@ -6864,10 +7983,10 @@
   },
   {
     "id": "n2-kanji-漁",
-    "slug": "203-漁",
+    "slug": "235-漁",
     "level": "n2",
-    "order": 203,
-    "day": 17,
+    "order": 235,
+    "day": 20,
     "character": "漁",
     "meanings": [
       "fishing"
@@ -6896,10 +8015,10 @@
   },
   {
     "id": "n2-kanji-荒",
-    "slug": "204-荒",
+    "slug": "236-荒",
     "level": "n2",
-    "order": 204,
-    "day": 17,
+    "order": 236,
+    "day": 20,
     "character": "荒",
     "meanings": [
       "rough",
@@ -6933,10 +8052,10 @@
   },
   {
     "id": "n2-kanji-貯",
-    "slug": "205-貯",
+    "slug": "237-貯",
     "level": "n2",
-    "order": 205,
-    "day": 18,
+    "order": 237,
+    "day": 20,
     "character": "貯",
     "meanings": [
       "save",
@@ -6968,10 +8087,10 @@
   },
   {
     "id": "n2-kanji-硬",
-    "slug": "206-硬",
+    "slug": "238-硬",
     "level": "n2",
-    "order": 206,
-    "day": 18,
+    "order": 238,
+    "day": 20,
     "character": "硬",
     "meanings": [
       "hard",
@@ -7003,10 +8122,10 @@
   },
   {
     "id": "n2-kanji-埋",
-    "slug": "207-埋",
+    "slug": "239-埋",
     "level": "n2",
-    "order": 207,
-    "day": 18,
+    "order": 239,
+    "day": 20,
     "character": "埋",
     "meanings": [
       "bury"
@@ -7038,10 +8157,10 @@
   },
   {
     "id": "n2-kanji-柱",
-    "slug": "208-柱",
+    "slug": "240-柱",
     "level": "n2",
-    "order": 208,
-    "day": 18,
+    "order": 240,
+    "day": 20,
     "character": "柱",
     "meanings": [
       "pillar"
@@ -7071,10 +8190,10 @@
   },
   {
     "id": "n2-kanji-祭",
-    "slug": "209-祭",
+    "slug": "241-祭",
     "level": "n2",
-    "order": 209,
-    "day": 18,
+    "order": 241,
+    "day": 21,
     "character": "祭",
     "meanings": [
       "festival"
@@ -7104,11 +8223,47 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-筆",
-    "slug": "210-筆",
+    "id": "n2-kanji-袋",
+    "slug": "242-袋",
     "level": "n2",
-    "order": 210,
-    "day": 18,
+    "order": 242,
+    "day": 21,
+    "character": "袋",
+    "meanings": [
+      "sack",
+      "bag",
+      "pouch"
+    ],
+    "onyomi": [
+      "たい",
+      "だい"
+    ],
+    "kunyomi": [
+      "ふくろ"
+    ],
+    "words": [
+      {
+        "word": "お袋",
+        "reading": "おふくろ",
+        "meaning": "(one's) mother"
+      },
+      {
+        "word": "胃袋",
+        "reading": "いぶくろ",
+        "meaning": "stomach"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-筆",
+    "slug": "243-筆",
+    "level": "n2",
+    "order": 243,
+    "day": 21,
     "character": "筆",
     "meanings": [
       "writing brush"
@@ -7137,11 +8292,49 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-浴",
-    "slug": "211-浴",
+    "id": "n2-kanji-訓",
+    "slug": "244-訓",
     "level": "n2",
-    "order": 211,
-    "day": 18,
+    "order": 244,
+    "day": 21,
+    "character": "訓",
+    "meanings": [
+      "instruction",
+      "japanese character reading",
+      "explanation"
+    ],
+    "onyomi": [
+      "くん",
+      "きん"
+    ],
+    "kunyomi": [
+      "おし.える",
+      "よ.む",
+      "くん.ずる"
+    ],
+    "words": [
+      {
+        "word": "音訓",
+        "reading": "おんくん",
+        "meaning": "kanji readings"
+      },
+      {
+        "word": "教訓",
+        "reading": "きょうくん",
+        "meaning": "lesson"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-浴",
+    "slug": "245-浴",
+    "level": "n2",
+    "order": 245,
+    "day": 21,
     "character": "浴",
     "meanings": [
       "bathe"
@@ -7171,11 +8364,80 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-封",
-    "slug": "212-封",
+    "id": "n2-kanji-童",
+    "slug": "246-童",
     "level": "n2",
-    "order": 212,
-    "day": 18,
+    "order": 246,
+    "day": 21,
+    "character": "童",
+    "meanings": [
+      "juvenile",
+      "child"
+    ],
+    "onyomi": [
+      "どう"
+    ],
+    "kunyomi": [
+      "わらべ"
+    ],
+    "words": [
+      {
+        "word": "学童",
+        "reading": "がくどう",
+        "meaning": "schoolchild"
+      },
+      {
+        "word": "児童",
+        "reading": "じどう",
+        "meaning": "children"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-宝",
+    "slug": "247-宝",
+    "level": "n2",
+    "order": 247,
+    "day": 21,
+    "character": "宝",
+    "meanings": [
+      "treasure",
+      "wealth",
+      "valuables"
+    ],
+    "onyomi": [
+      "ほう"
+    ],
+    "kunyomi": [
+      "たから"
+    ],
+    "words": [
+      {
+        "word": "国宝",
+        "reading": "こくほう",
+        "meaning": "national treasure"
+      },
+      {
+        "word": "家宝",
+        "reading": "かほう",
+        "meaning": "heirloom"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-封",
+    "slug": "248-封",
+    "level": "n2",
+    "order": 248,
+    "day": 21,
     "character": "封",
     "meanings": [
       "seal",
@@ -7205,10 +8467,10 @@
   },
   {
     "id": "n2-kanji-胸",
-    "slug": "213-胸",
+    "slug": "249-胸",
     "level": "n2",
-    "order": 213,
-    "day": 18,
+    "order": 249,
+    "day": 21,
     "character": "胸",
     "meanings": [
       "chest",
@@ -7239,10 +8501,10 @@
   },
   {
     "id": "n2-kanji-砂",
-    "slug": "214-砂",
+    "slug": "250-砂",
     "level": "n2",
-    "order": 214,
-    "day": 18,
+    "order": 250,
+    "day": 21,
     "character": "砂",
     "meanings": [
       "sand"
@@ -7273,10 +8535,10 @@
   },
   {
     "id": "n2-kanji-塩",
-    "slug": "215-塩",
+    "slug": "251-塩",
     "level": "n2",
-    "order": 215,
-    "day": 18,
+    "order": 251,
+    "day": 21,
     "character": "塩",
     "meanings": [
       "salt"
@@ -7306,10 +8568,10 @@
   },
   {
     "id": "n2-kanji-賢",
-    "slug": "216-賢",
+    "slug": "252-賢",
     "level": "n2",
-    "order": 216,
-    "day": 18,
+    "order": 252,
+    "day": 21,
     "character": "賢",
     "meanings": [
       "wise",
@@ -7340,10 +8602,10 @@
   },
   {
     "id": "n2-kanji-腕",
-    "slug": "217-腕",
+    "slug": "253-腕",
     "level": "n2",
-    "order": 217,
-    "day": 19,
+    "order": 253,
+    "day": 22,
     "character": "腕",
     "meanings": [
       "arm",
@@ -7374,10 +8636,10 @@
   },
   {
     "id": "n2-kanji-兆",
-    "slug": "218-兆",
+    "slug": "254-兆",
     "level": "n2",
-    "order": 218,
-    "day": 19,
+    "order": 254,
+    "day": 22,
     "character": "兆",
     "meanings": [
       "trillion",
@@ -7410,10 +8672,10 @@
   },
   {
     "id": "n2-kanji-床",
-    "slug": "219-床",
+    "slug": "255-床",
     "level": "n2",
-    "order": 219,
-    "day": 19,
+    "order": 255,
+    "day": 22,
     "character": "床",
     "meanings": [
       "floor",
@@ -7445,10 +8707,10 @@
   },
   {
     "id": "n2-kanji-毛",
-    "slug": "220-毛",
+    "slug": "256-毛",
     "level": "n2",
-    "order": 220,
-    "day": 19,
+    "order": 256,
+    "day": 22,
     "character": "毛",
     "meanings": [
       "hair",
@@ -7478,11 +8740,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-尊",
-    "slug": "221-尊",
+    "id": "n2-kanji-緑",
+    "slug": "257-緑",
     "level": "n2",
-    "order": 221,
-    "day": 19,
+    "order": 257,
+    "day": 22,
+    "character": "緑",
+    "meanings": [
+      "green"
+    ],
+    "onyomi": [
+      "りょく",
+      "ろく"
+    ],
+    "kunyomi": [
+      "みどり"
+    ],
+    "words": [
+      {
+        "word": "新緑",
+        "reading": "しんりょく",
+        "meaning": "fresh verdure"
+      },
+      {
+        "word": "黄緑",
+        "reading": "きみどり",
+        "meaning": "pea green"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-尊",
+    "slug": "258-尊",
+    "level": "n2",
+    "order": 258,
+    "day": 22,
     "character": "尊",
     "meanings": [
       "revered",
@@ -7517,10 +8813,10 @@
   },
   {
     "id": "n2-kanji-祝",
-    "slug": "222-祝",
+    "slug": "259-祝",
     "level": "n2",
-    "order": 222,
-    "day": 19,
+    "order": 259,
+    "day": 22,
     "character": "祝",
     "meanings": [
       "celebrate",
@@ -7552,10 +8848,10 @@
   },
   {
     "id": "n2-kanji-柔",
-    "slug": "223-柔",
+    "slug": "260-柔",
     "level": "n2",
-    "order": 223,
-    "day": 19,
+    "order": 260,
+    "day": 22,
     "character": "柔",
     "meanings": [
       "soft",
@@ -7589,10 +8885,10 @@
   },
   {
     "id": "n2-kanji-殿",
-    "slug": "224-殿",
+    "slug": "261-殿",
     "level": "n2",
-    "order": 224,
-    "day": 19,
+    "order": 261,
+    "day": 22,
     "character": "殿",
     "meanings": [
       "palace",
@@ -7625,10 +8921,10 @@
   },
   {
     "id": "n2-kanji-濃",
-    "slug": "225-濃",
+    "slug": "262-濃",
     "level": "n2",
-    "order": 225,
-    "day": 19,
+    "order": 262,
+    "day": 22,
     "character": "濃",
     "meanings": [
       "thick",
@@ -7661,10 +8957,10 @@
   },
   {
     "id": "n2-kanji-液",
-    "slug": "226-液",
+    "slug": "263-液",
     "level": "n2",
-    "order": 226,
-    "day": 19,
+    "order": 263,
+    "day": 22,
     "character": "液",
     "meanings": [
       "liquid",
@@ -7693,10 +8989,10 @@
   },
   {
     "id": "n2-kanji-衣",
-    "slug": "227-衣",
+    "slug": "264-衣",
     "level": "n2",
-    "order": 227,
-    "day": 19,
+    "order": 264,
+    "day": 22,
     "character": "衣",
     "meanings": [
       "clothing"
@@ -7726,10 +9022,10 @@
   },
   {
     "id": "n2-kanji-肩",
-    "slug": "228-肩",
+    "slug": "265-肩",
     "level": "n2",
-    "order": 228,
-    "day": 19,
+    "order": 265,
+    "day": 23,
     "character": "肩",
     "meanings": [
       "shoulder"
@@ -7759,10 +9055,10 @@
   },
   {
     "id": "n2-kanji-零",
-    "slug": "229-零",
+    "slug": "266-零",
     "level": "n2",
-    "order": 229,
-    "day": 20,
+    "order": 266,
+    "day": 23,
     "character": "零",
     "meanings": [
       "zero",
@@ -7791,10 +9087,10 @@
   },
   {
     "id": "n2-kanji-幼",
-    "slug": "230-幼",
+    "slug": "267-幼",
     "level": "n2",
-    "order": 230,
-    "day": 20,
+    "order": 267,
+    "day": 23,
     "character": "幼",
     "meanings": [
       "infancy",
@@ -7825,10 +9121,10 @@
   },
   {
     "id": "n2-kanji-荷",
-    "slug": "231-荷",
+    "slug": "268-荷",
     "level": "n2",
-    "order": 231,
-    "day": 20,
+    "order": 268,
+    "day": 23,
     "character": "荷",
     "meanings": [
       "load",
@@ -7860,10 +9156,10 @@
   },
   {
     "id": "n2-kanji-泊",
-    "slug": "232-泊",
+    "slug": "269-泊",
     "level": "n2",
-    "order": 232,
-    "day": 20,
+    "order": 269,
+    "day": 23,
     "character": "泊",
     "meanings": [
       "stay overnight"
@@ -7894,10 +9190,10 @@
   },
   {
     "id": "n2-kanji-黄",
-    "slug": "233-黄",
+    "slug": "270-黄",
     "level": "n2",
-    "order": 233,
-    "day": 20,
+    "order": 270,
+    "day": 23,
     "character": "黄",
     "meanings": [
       "yellow"
@@ -7929,10 +9225,10 @@
   },
   {
     "id": "n2-kanji-甘",
-    "slug": "234-甘",
+    "slug": "271-甘",
     "level": "n2",
-    "order": 234,
-    "day": 20,
+    "order": 271,
+    "day": 23,
     "character": "甘",
     "meanings": [
       "sweet",
@@ -7965,11 +9261,79 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-掃",
-    "slug": "235-掃",
+    "id": "n2-kanji-臣",
+    "slug": "272-臣",
     "level": "n2",
-    "order": 235,
-    "day": 20,
+    "order": 272,
+    "day": 23,
+    "character": "臣",
+    "meanings": [
+      "retainer",
+      "subject"
+    ],
+    "onyomi": [
+      "しん",
+      "じん"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "遺臣",
+        "reading": "いしん",
+        "meaning": "surviving retainer"
+      },
+      {
+        "word": "右大臣",
+        "reading": "うだいじん",
+        "meaning": "Minister of the Right (third-ranked official in the Department of State under the ritsuryō system)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-浅",
+    "slug": "273-浅",
+    "level": "n2",
+    "order": 273,
+    "day": 23,
+    "character": "浅",
+    "meanings": [
+      "shallow",
+      "superficial",
+      "frivolous"
+    ],
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [
+      "あさ.い"
+    ],
+    "words": [
+      {
+        "word": "遠浅",
+        "reading": "とおあさ",
+        "meaning": "shoal"
+      },
+      {
+        "word": "浅い",
+        "reading": "あさい",
+        "meaning": "shallow"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-掃",
+    "slug": "274-掃",
+    "level": "n2",
+    "order": 274,
+    "day": 23,
     "character": "掃",
     "meanings": [
       "sweep",
@@ -8000,10 +9364,10 @@
   },
   {
     "id": "n2-kanji-雲",
-    "slug": "236-雲",
+    "slug": "275-雲",
     "level": "n2",
-    "order": 236,
-    "day": 20,
+    "order": 275,
+    "day": 23,
     "character": "雲",
     "meanings": [
       "cloud"
@@ -8033,10 +9397,10 @@
   },
   {
     "id": "n2-kanji-掘",
-    "slug": "237-掘",
+    "slug": "276-掘",
     "level": "n2",
-    "order": 237,
-    "day": 20,
+    "order": 276,
+    "day": 23,
     "character": "掘",
     "meanings": [
       "dig"
@@ -8066,10 +9430,10 @@
   },
   {
     "id": "n2-kanji-捨",
-    "slug": "238-捨",
+    "slug": "277-捨",
     "level": "n2",
-    "order": 238,
-    "day": 20,
+    "order": 277,
+    "day": 24,
     "character": "捨",
     "meanings": [
       "discard",
@@ -8100,11 +9464,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-沈",
-    "slug": "239-沈",
+    "id": "n2-kanji-軟",
+    "slug": "278-軟",
     "level": "n2",
-    "order": 239,
-    "day": 20,
+    "order": 278,
+    "day": 24,
+    "character": "軟",
+    "meanings": [
+      "soft"
+    ],
+    "onyomi": [
+      "なん"
+    ],
+    "kunyomi": [
+      "やわ.らか",
+      "やわ.らかい"
+    ],
+    "words": [
+      {
+        "word": "柔軟",
+        "reading": "じゅうなん",
+        "meaning": "flexible"
+      },
+      {
+        "word": "軟化",
+        "reading": "なんか",
+        "meaning": "softening"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-沈",
+    "slug": "279-沈",
+    "level": "n2",
+    "order": 279,
+    "day": 24,
     "character": "沈",
     "meanings": [
       "sink"
@@ -8135,10 +9533,10 @@
   },
   {
     "id": "n2-kanji-凍",
-    "slug": "240-凍",
+    "slug": "280-凍",
     "level": "n2",
-    "order": 240,
-    "day": 20,
+    "order": 280,
+    "day": 24,
     "character": "凍",
     "meanings": [
       "freeze"
@@ -8169,10 +9567,10 @@
   },
   {
     "id": "n2-kanji-乳",
-    "slug": "241-乳",
+    "slug": "281-乳",
     "level": "n2",
-    "order": 241,
-    "day": 21,
+    "order": 281,
+    "day": 24,
     "character": "乳",
     "meanings": [
       "milk",
@@ -8203,11 +9601,85 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-郊",
-    "slug": "242-郊",
+    "id": "n2-kanji-恋",
+    "slug": "282-恋",
     "level": "n2",
-    "order": 242,
-    "day": 21,
+    "order": 282,
+    "day": 24,
+    "character": "恋",
+    "meanings": [
+      "romance",
+      "in love",
+      "yearn for"
+    ],
+    "onyomi": [
+      "れん"
+    ],
+    "kunyomi": [
+      "こ.う",
+      "こい",
+      "こい.しい"
+    ],
+    "words": [
+      {
+        "word": "失恋",
+        "reading": "しつれん",
+        "meaning": "disappointed love"
+      },
+      {
+        "word": "初恋",
+        "reading": "はつこい",
+        "meaning": "first love"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-紅",
+    "slug": "283-紅",
+    "level": "n2",
+    "order": 283,
+    "day": 24,
+    "character": "紅",
+    "meanings": [
+      "crimson",
+      "deep red"
+    ],
+    "onyomi": [
+      "こう",
+      "く"
+    ],
+    "kunyomi": [
+      "べに",
+      "くれない",
+      "あか.い"
+    ],
+    "words": [
+      {
+        "word": "口紅",
+        "reading": "くちべに",
+        "meaning": "lipstick"
+      },
+      {
+        "word": "紅炎",
+        "reading": "こうえん",
+        "meaning": "red flame"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-郊",
+    "slug": "284-郊",
+    "level": "n2",
+    "order": 284,
+    "day": 24,
     "character": "郊",
     "meanings": [
       "suburbs"
@@ -8235,10 +9707,10 @@
   },
   {
     "id": "n2-kanji-腰",
-    "slug": "243-腰",
+    "slug": "285-腰",
     "level": "n2",
-    "order": 243,
-    "day": 21,
+    "order": 285,
+    "day": 24,
     "character": "腰",
     "meanings": [
       "waist",
@@ -8269,10 +9741,10 @@
   },
   {
     "id": "n2-kanji-炭",
-    "slug": "244-炭",
+    "slug": "286-炭",
     "level": "n2",
-    "order": 244,
-    "day": 21,
+    "order": 286,
+    "day": 24,
     "character": "炭",
     "meanings": [
       "charcoal",
@@ -8304,10 +9776,10 @@
   },
   {
     "id": "n2-kanji-踊",
-    "slug": "245-踊",
+    "slug": "287-踊",
     "level": "n2",
-    "order": 245,
-    "day": 21,
+    "order": 287,
+    "day": 24,
     "character": "踊",
     "meanings": [
       "dance",
@@ -8339,10 +9811,10 @@
   },
   {
     "id": "n2-kanji-冊",
-    "slug": "246-冊",
+    "slug": "288-冊",
     "level": "n2",
-    "order": 246,
-    "day": 21,
+    "order": 288,
+    "day": 24,
     "character": "冊",
     "meanings": [
       "counter for books",
@@ -8373,10 +9845,10 @@
   },
   {
     "id": "n2-kanji-勇",
-    "slug": "247-勇",
+    "slug": "289-勇",
     "level": "n2",
-    "order": 247,
-    "day": 21,
+    "order": 289,
+    "day": 25,
     "character": "勇",
     "meanings": [
       "brave",
@@ -8407,10 +9879,10 @@
   },
   {
     "id": "n2-kanji-械",
-    "slug": "248-械",
+    "slug": "290-械",
     "level": "n2",
-    "order": 248,
-    "day": 21,
+    "order": 290,
+    "day": 25,
     "character": "械",
     "meanings": [
       "machine",
@@ -8439,10 +9911,10 @@
   },
   {
     "id": "n2-kanji-菜",
-    "slug": "249-菜",
+    "slug": "291-菜",
     "level": "n2",
-    "order": 249,
-    "day": 21,
+    "order": 291,
+    "day": 25,
     "character": "菜",
     "meanings": [
       "vegetable",
@@ -8473,10 +9945,10 @@
   },
   {
     "id": "n2-kanji-珍",
-    "slug": "250-珍",
+    "slug": "292-珍",
     "level": "n2",
-    "order": 250,
-    "day": 21,
+    "order": 292,
+    "day": 25,
     "character": "珍",
     "meanings": [
       "rare",
@@ -8507,10 +9979,10 @@
   },
   {
     "id": "n2-kanji-卵",
-    "slug": "251-卵",
+    "slug": "293-卵",
     "level": "n2",
-    "order": 251,
-    "day": 21,
+    "order": 293,
+    "day": 25,
     "character": "卵",
     "meanings": [
       "egg"
@@ -8540,10 +10012,10 @@
   },
   {
     "id": "n2-kanji-湖",
-    "slug": "252-湖",
+    "slug": "294-湖",
     "level": "n2",
-    "order": 252,
-    "day": 21,
+    "order": 294,
+    "day": 25,
     "character": "湖",
     "meanings": [
       "lake"
@@ -8573,10 +10045,10 @@
   },
   {
     "id": "n2-kanji-喫",
-    "slug": "253-喫",
+    "slug": "295-喫",
     "level": "n2",
-    "order": 253,
-    "day": 22,
+    "order": 295,
+    "day": 25,
     "character": "喫",
     "meanings": [
       "consume",
@@ -8605,10 +10077,10 @@
   },
   {
     "id": "n2-kanji-干",
-    "slug": "254-干",
+    "slug": "296-干",
     "level": "n2",
-    "order": 254,
-    "day": 22,
+    "order": 296,
+    "day": 25,
     "character": "干",
     "meanings": [
       "dry",
@@ -8641,10 +10113,10 @@
   },
   {
     "id": "n2-kanji-虫",
-    "slug": "255-虫",
+    "slug": "297-虫",
     "level": "n2",
-    "order": 255,
-    "day": 22,
+    "order": 297,
+    "day": 25,
     "character": "虫",
     "meanings": [
       "insect"
@@ -8674,10 +10146,10 @@
   },
   {
     "id": "n2-kanji-刷",
-    "slug": "256-刷",
+    "slug": "298-刷",
     "level": "n2",
-    "order": 256,
-    "day": 22,
+    "order": 298,
+    "day": 25,
     "character": "刷",
     "meanings": [
       "print",
@@ -8708,10 +10180,10 @@
   },
   {
     "id": "n2-kanji-湯",
-    "slug": "257-湯",
+    "slug": "299-湯",
     "level": "n2",
-    "order": 257,
-    "day": 22,
+    "order": 299,
+    "day": 25,
     "character": "湯",
     "meanings": [
       "hot water"
@@ -8741,10 +10213,10 @@
   },
   {
     "id": "n2-kanji-溶",
-    "slug": "258-溶",
+    "slug": "300-溶",
     "level": "n2",
-    "order": 258,
-    "day": 22,
+    "order": 300,
+    "day": 25,
     "character": "溶",
     "meanings": [
       "melt",
@@ -8777,10 +10249,10 @@
   },
   {
     "id": "n2-kanji-鉱",
-    "slug": "259-鉱",
+    "slug": "301-鉱",
     "level": "n2",
-    "order": 259,
-    "day": 22,
+    "order": 301,
+    "day": 26,
     "character": "鉱",
     "meanings": [
       "ore",
@@ -8809,10 +10281,10 @@
   },
   {
     "id": "n2-kanji-涙",
-    "slug": "260-涙",
+    "slug": "302-涙",
     "level": "n2",
-    "order": 260,
-    "day": 22,
+    "order": 302,
+    "day": 26,
     "character": "涙",
     "meanings": [
       "tears"
@@ -8842,10 +10314,10 @@
   },
   {
     "id": "n2-kanji-匹",
-    "slug": "261-匹",
+    "slug": "303-匹",
     "level": "n2",
-    "order": 261,
-    "day": 22,
+    "order": 303,
+    "day": 26,
     "character": "匹",
     "meanings": [
       "counter for small animals"
@@ -8875,10 +10347,10 @@
   },
   {
     "id": "n2-kanji-孫",
-    "slug": "262-孫",
+    "slug": "304-孫",
     "level": "n2",
-    "order": 262,
-    "day": 22,
+    "order": 304,
+    "day": 26,
     "character": "孫",
     "meanings": [
       "grandchild"
@@ -8908,10 +10380,10 @@
   },
   {
     "id": "n2-kanji-鋭",
-    "slug": "263-鋭",
+    "slug": "305-鋭",
     "level": "n2",
-    "order": 263,
-    "day": 22,
+    "order": 305,
+    "day": 26,
     "character": "鋭",
     "meanings": [
       "sharp",
@@ -8943,10 +10415,10 @@
   },
   {
     "id": "n2-kanji-枝",
-    "slug": "264-枝",
+    "slug": "306-枝",
     "level": "n2",
-    "order": 264,
-    "day": 22,
+    "order": 306,
+    "day": 26,
     "character": "枝",
     "meanings": [
       "branch"
@@ -8976,10 +10448,10 @@
   },
   {
     "id": "n2-kanji-塗",
-    "slug": "265-塗",
+    "slug": "307-塗",
     "level": "n2",
-    "order": 265,
-    "day": 23,
+    "order": 307,
+    "day": 26,
     "character": "塗",
     "meanings": [
       "paint",
@@ -9010,10 +10482,10 @@
   },
   {
     "id": "n2-kanji-軒",
-    "slug": "266-軒",
+    "slug": "308-軒",
     "level": "n2",
-    "order": 266,
-    "day": 23,
+    "order": 308,
+    "day": 26,
     "character": "軒",
     "meanings": [
       "eaves",
@@ -9043,11 +10515,44 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-叫",
-    "slug": "267-叫",
+    "id": "n2-kanji-毒",
+    "slug": "309-毒",
     "level": "n2",
-    "order": 267,
-    "day": 23,
+    "order": 309,
+    "day": 26,
+    "character": "毒",
+    "meanings": [
+      "poison",
+      "virus",
+      "venom"
+    ],
+    "onyomi": [
+      "どく"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "お気の毒",
+        "reading": "おきのどく",
+        "meaning": "I am sorry (to hear, to say, etc.)"
+      },
+      {
+        "word": "煙毒",
+        "reading": "えんどく",
+        "meaning": "smoke pollution"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-叫",
+    "slug": "310-叫",
+    "level": "n2",
+    "order": 310,
+    "day": 26,
     "character": "叫",
     "meanings": [
       "shout"
@@ -9077,10 +10582,10 @@
   },
   {
     "id": "n2-kanji-拝",
-    "slug": "268-拝",
+    "slug": "311-拝",
     "level": "n2",
-    "order": 268,
-    "day": 23,
+    "order": 311,
+    "day": 26,
     "character": "拝",
     "meanings": [
       "worship",
@@ -9111,10 +10616,10 @@
   },
   {
     "id": "n2-kanji-氷",
-    "slug": "269-氷",
+    "slug": "312-氷",
     "level": "n2",
-    "order": 269,
-    "day": 23,
+    "order": 312,
+    "day": 26,
     "character": "氷",
     "meanings": [
       "ice"
@@ -9145,10 +10650,10 @@
   },
   {
     "id": "n2-kanji-乾",
-    "slug": "270-乾",
+    "slug": "313-乾",
     "level": "n2",
-    "order": 270,
-    "day": 23,
+    "order": 313,
+    "day": 27,
     "character": "乾",
     "meanings": [
       "dry"
@@ -9179,10 +10684,10 @@
   },
   {
     "id": "n2-kanji-棒",
-    "slug": "271-棒",
+    "slug": "314-棒",
     "level": "n2",
-    "order": 271,
-    "day": 23,
+    "order": 314,
+    "day": 27,
     "character": "棒",
     "meanings": [
       "stick",
@@ -9211,10 +10716,10 @@
   },
   {
     "id": "n2-kanji-祈",
-    "slug": "272-祈",
+    "slug": "315-祈",
     "level": "n2",
-    "order": 272,
-    "day": 23,
+    "order": 315,
+    "day": 27,
     "character": "祈",
     "meanings": [
       "pray"
@@ -9244,10 +10749,10 @@
   },
   {
     "id": "n2-kanji-拾",
-    "slug": "273-拾",
+    "slug": "316-拾",
     "level": "n2",
-    "order": 273,
-    "day": 23,
+    "order": 316,
+    "day": 27,
     "character": "拾",
     "meanings": [
       "pick up"
@@ -9278,10 +10783,10 @@
   },
   {
     "id": "n2-kanji-粉",
-    "slug": "274-粉",
+    "slug": "317-粉",
     "level": "n2",
-    "order": 274,
-    "day": 23,
+    "order": 317,
+    "day": 27,
     "character": "粉",
     "meanings": [
       "powder",
@@ -9313,10 +10818,10 @@
   },
   {
     "id": "n2-kanji-糸",
-    "slug": "275-糸",
+    "slug": "318-糸",
     "level": "n2",
-    "order": 275,
-    "day": 23,
+    "order": 318,
+    "day": 27,
     "character": "糸",
     "meanings": [
       "thread"
@@ -9346,10 +10851,10 @@
   },
   {
     "id": "n2-kanji-綿",
-    "slug": "276-綿",
+    "slug": "319-綿",
     "level": "n2",
-    "order": 276,
-    "day": 23,
+    "order": 319,
+    "day": 27,
     "character": "綿",
     "meanings": [
       "cotton"
@@ -9379,10 +10884,10 @@
   },
   {
     "id": "n2-kanji-汗",
-    "slug": "277-汗",
+    "slug": "320-汗",
     "level": "n2",
-    "order": 277,
-    "day": 24,
+    "order": 320,
+    "day": 27,
     "character": "汗",
     "meanings": [
       "sweat"
@@ -9412,10 +10917,10 @@
   },
   {
     "id": "n2-kanji-銅",
-    "slug": "278-銅",
+    "slug": "321-銅",
     "level": "n2",
-    "order": 278,
-    "day": 24,
+    "order": 321,
+    "day": 27,
     "character": "銅",
     "meanings": [
       "copper"
@@ -9443,10 +10948,10 @@
   },
   {
     "id": "n2-kanji-湿",
-    "slug": "279-湿",
+    "slug": "322-湿",
     "level": "n2",
-    "order": 279,
-    "day": 24,
+    "order": 322,
+    "day": 27,
     "character": "湿",
     "meanings": [
       "damp",
@@ -9479,10 +10984,10 @@
   },
   {
     "id": "n2-kanji-瓶",
-    "slug": "280-瓶",
+    "slug": "323-瓶",
     "level": "n2",
-    "order": 280,
-    "day": 24,
+    "order": 323,
+    "day": 27,
     "character": "瓶",
     "meanings": [
       "bottle",
@@ -9510,11 +11015,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-召",
-    "slug": "281-召",
+    "id": "n2-kanji-咲",
+    "slug": "324-咲",
     "level": "n2",
-    "order": 281,
-    "day": 24,
+    "order": 324,
+    "day": 27,
+    "character": "咲",
+    "meanings": [
+      "blossom",
+      "bloom"
+    ],
+    "onyomi": [
+      "しょう"
+    ],
+    "kunyomi": [
+      "さ.く",
+      "-ざき"
+    ],
+    "words": [
+      {
+        "word": "咲く",
+        "reading": "さく",
+        "meaning": "to bloom"
+      },
+      {
+        "word": "遅咲き",
+        "reading": "おそざき",
+        "meaning": "blooming late"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-召",
+    "slug": "325-召",
+    "level": "n2",
+    "order": 325,
+    "day": 28,
     "character": "召",
     "meanings": [
       "summon"
@@ -9544,10 +11084,10 @@
   },
   {
     "id": "n2-kanji-缶",
-    "slug": "282-缶",
+    "slug": "326-缶",
     "level": "n2",
-    "order": 282,
-    "day": 24,
+    "order": 326,
+    "day": 28,
     "character": "缶",
     "meanings": [
       "can",
@@ -9576,10 +11116,10 @@
   },
   {
     "id": "n2-kanji-隻",
-    "slug": "283-隻",
+    "slug": "327-隻",
     "level": "n2",
-    "order": 283,
-    "day": 24,
+    "order": 327,
+    "day": 28,
     "character": "隻",
     "meanings": [
       "counter for ships"
@@ -9607,10 +11147,10 @@
   },
   {
     "id": "n2-kanji-脂",
-    "slug": "284-脂",
+    "slug": "328-脂",
     "level": "n2",
-    "order": 284,
-    "day": 24,
+    "order": 328,
+    "day": 28,
     "character": "脂",
     "meanings": [
       "fat",
@@ -9641,10 +11181,10 @@
   },
   {
     "id": "n2-kanji-蒸",
-    "slug": "285-蒸",
+    "slug": "329-蒸",
     "level": "n2",
-    "order": 285,
-    "day": 24,
+    "order": 329,
+    "day": 28,
     "character": "蒸",
     "meanings": [
       "steam",
@@ -9678,10 +11218,10 @@
   },
   {
     "id": "n2-kanji-肌",
-    "slug": "286-肌",
+    "slug": "330-肌",
     "level": "n2",
-    "order": 286,
-    "day": 24,
+    "order": 330,
+    "day": 28,
     "character": "肌",
     "meanings": [
       "skin"
@@ -9709,10 +11249,10 @@
   },
   {
     "id": "n2-kanji-耕",
-    "slug": "287-耕",
+    "slug": "331-耕",
     "level": "n2",
-    "order": 287,
-    "day": 24,
+    "order": 331,
+    "day": 28,
     "character": "耕",
     "meanings": [
       "cultivate",
@@ -9743,10 +11283,10 @@
   },
   {
     "id": "n2-kanji-鈍",
-    "slug": "288-鈍",
+    "slug": "332-鈍",
     "level": "n2",
-    "order": 288,
-    "day": 24,
+    "order": 332,
+    "day": 28,
     "character": "鈍",
     "meanings": [
       "dull",
@@ -9779,10 +11319,10 @@
   },
   {
     "id": "n2-kanji-泥",
-    "slug": "289-泥",
+    "slug": "333-泥",
     "level": "n2",
-    "order": 289,
-    "day": 25,
+    "order": 333,
+    "day": 28,
     "character": "泥",
     "meanings": [
       "mud"
@@ -9812,10 +11352,10 @@
   },
   {
     "id": "n2-kanji-隅",
-    "slug": "290-隅",
+    "slug": "334-隅",
     "level": "n2",
-    "order": 290,
-    "day": 25,
+    "order": 334,
+    "day": 28,
     "character": "隅",
     "meanings": [
       "corner"
@@ -9845,10 +11385,10 @@
   },
   {
     "id": "n2-kanji-灯",
-    "slug": "291-灯",
+    "slug": "335-灯",
     "level": "n2",
-    "order": 291,
-    "day": 25,
+    "order": 335,
+    "day": 28,
     "character": "灯",
     "meanings": [
       "lamp",
@@ -9878,11 +11418,49 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-磨",
-    "slug": "292-磨",
+    "id": "n2-kanji-辛",
+    "slug": "336-辛",
     "level": "n2",
-    "order": 292,
-    "day": 25,
+    "order": 336,
+    "day": 28,
+    "character": "辛",
+    "meanings": [
+      "spicy",
+      "bitter",
+      "hot"
+    ],
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [
+      "から.い",
+      "つら.い",
+      "-づら.い",
+      "かのと"
+    ],
+    "words": [
+      {
+        "word": "辛子",
+        "reading": "からし",
+        "meaning": "mustard"
+      },
+      {
+        "word": "香辛料",
+        "reading": "こうしんりょう",
+        "meaning": "spice"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-磨",
+    "slug": "337-磨",
+    "level": "n2",
+    "order": 337,
+    "day": 29,
     "character": "磨",
     "meanings": [
       "polish",
@@ -9914,10 +11492,10 @@
   },
   {
     "id": "n2-kanji-麦",
-    "slug": "293-麦",
+    "slug": "338-麦",
     "level": "n2",
-    "order": 293,
-    "day": 25,
+    "order": 338,
+    "day": 29,
     "character": "麦",
     "meanings": [
       "wheat",
@@ -9948,10 +11526,10 @@
   },
   {
     "id": "n2-kanji-姓",
-    "slug": "294-姓",
+    "slug": "339-姓",
     "level": "n2",
-    "order": 294,
-    "day": 25,
+    "order": 339,
+    "day": 29,
     "character": "姓",
     "meanings": [
       "surname"
@@ -9979,11 +11557,46 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-鼻",
-    "slug": "295-鼻",
+    "id": "n2-kanji-筒",
+    "slug": "340-筒",
     "level": "n2",
-    "order": 295,
-    "day": 25,
+    "order": 340,
+    "day": 29,
+    "character": "筒",
+    "meanings": [
+      "cylinder",
+      "pipe",
+      "tube"
+    ],
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [
+      "つつ"
+    ],
+    "words": [
+      {
+        "word": "円筒",
+        "reading": "えんとう",
+        "meaning": "cylinder"
+      },
+      {
+        "word": "気筒",
+        "reading": "きとう",
+        "meaning": "cylinder"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-鼻",
+    "slug": "341-鼻",
+    "level": "n2",
+    "order": 341,
+    "day": 29,
     "character": "鼻",
     "meanings": [
       "nose"
@@ -10013,10 +11626,10 @@
   },
   {
     "id": "n2-kanji-粒",
-    "slug": "296-粒",
+    "slug": "342-粒",
     "level": "n2",
-    "order": 296,
-    "day": 25,
+    "order": 342,
+    "day": 29,
     "character": "粒",
     "meanings": [
       "grain",
@@ -10047,10 +11660,10 @@
   },
   {
     "id": "n2-kanji-詞",
-    "slug": "297-詞",
+    "slug": "343-詞",
     "level": "n2",
-    "order": 297,
-    "day": 25,
+    "order": 343,
+    "day": 29,
     "character": "詞",
     "meanings": [
       "word",
@@ -10079,10 +11692,10 @@
   },
   {
     "id": "n2-kanji-胃",
-    "slug": "298-胃",
+    "slug": "344-胃",
     "level": "n2",
-    "order": 298,
-    "day": 25,
+    "order": 344,
+    "day": 29,
     "character": "胃",
     "meanings": [
       "stomach"
@@ -10110,10 +11723,10 @@
   },
   {
     "id": "n2-kanji-畳",
-    "slug": "299-畳",
+    "slug": "345-畳",
     "level": "n2",
-    "order": 299,
-    "day": 25,
+    "order": 345,
+    "day": 29,
     "character": "畳",
     "meanings": [
       "tatami",
@@ -10146,10 +11759,10 @@
   },
   {
     "id": "n2-kanji-机",
-    "slug": "300-机",
+    "slug": "346-机",
     "level": "n2",
-    "order": 300,
-    "day": 25,
+    "order": 346,
+    "day": 29,
     "character": "机",
     "meanings": [
       "desk"
@@ -10179,10 +11792,10 @@
   },
   {
     "id": "n2-kanji-膚",
-    "slug": "301-膚",
+    "slug": "347-膚",
     "level": "n2",
-    "order": 301,
-    "day": 26,
+    "order": 347,
+    "day": 29,
     "character": "膚",
     "meanings": [
       "skin"
@@ -10210,10 +11823,10 @@
   },
   {
     "id": "n2-kanji-濯",
-    "slug": "302-濯",
+    "slug": "348-濯",
     "level": "n2",
-    "order": 302,
-    "day": 26,
+    "order": 348,
+    "day": 29,
     "character": "濯",
     "meanings": [
       "wash",
@@ -10242,10 +11855,10 @@
   },
   {
     "id": "n2-kanji-塔",
-    "slug": "303-塔",
+    "slug": "349-塔",
     "level": "n2",
-    "order": 303,
-    "day": 26,
+    "order": 349,
+    "day": 30,
     "character": "塔",
     "meanings": [
       "tower",
@@ -10274,10 +11887,10 @@
   },
   {
     "id": "n2-kanji-沸",
-    "slug": "304-沸",
+    "slug": "350-沸",
     "level": "n2",
-    "order": 304,
-    "day": 26,
+    "order": 350,
+    "day": 30,
     "character": "沸",
     "meanings": [
       "boil",
@@ -10309,10 +11922,10 @@
   },
   {
     "id": "n2-kanji-灰",
-    "slug": "305-灰",
+    "slug": "351-灰",
     "level": "n2",
-    "order": 305,
-    "day": 26,
+    "order": 351,
+    "day": 30,
     "character": "灰",
     "meanings": [
       "ash",
@@ -10343,10 +11956,10 @@
   },
   {
     "id": "n2-kanji-菓",
-    "slug": "306-菓",
+    "slug": "352-菓",
     "level": "n2",
-    "order": 306,
-    "day": 26,
+    "order": 352,
+    "day": 30,
     "character": "菓",
     "meanings": [
       "confectionery"
@@ -10374,10 +11987,10 @@
   },
   {
     "id": "n2-kanji-帽",
-    "slug": "307-帽",
+    "slug": "353-帽",
     "level": "n2",
-    "order": 307,
-    "day": 26,
+    "order": 353,
+    "day": 30,
     "character": "帽",
     "meanings": [
       "hat",
@@ -10406,10 +12019,10 @@
   },
   {
     "id": "n2-kanji-枯",
-    "slug": "308-枯",
+    "slug": "354-枯",
     "level": "n2",
-    "order": 308,
-    "day": 26,
+    "order": 354,
+    "day": 30,
     "character": "枯",
     "meanings": [
       "wither"
@@ -10439,11 +12052,119 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-符",
-    "slug": "309-符",
+    "id": "n2-kanji-涼",
+    "slug": "355-涼",
     "level": "n2",
-    "order": 309,
-    "day": 26,
+    "order": 355,
+    "day": 30,
+    "character": "涼",
+    "meanings": [
+      "refreshing",
+      "nice and cool"
+    ],
+    "onyomi": [
+      "りょう"
+    ],
+    "kunyomi": [
+      "すず.しい",
+      "すず.む",
+      "すず.やか",
+      "うす.い",
+      "ひや.す",
+      "まことに"
+    ],
+    "words": [
+      {
+        "word": "清涼",
+        "reading": "せいりょう",
+        "meaning": "cool"
+      },
+      {
+        "word": "涼しい",
+        "reading": "すずしい",
+        "meaning": "cool"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-舟",
+    "slug": "356-舟",
+    "level": "n2",
+    "order": 356,
+    "day": 30,
+    "character": "舟",
+    "meanings": [
+      "boat",
+      "ship"
+    ],
+    "onyomi": [
+      "しゅう"
+    ],
+    "kunyomi": [
+      "ふね",
+      "ふな-",
+      "-ぶね"
+    ],
+    "words": [
+      {
+        "word": "呉越同舟",
+        "reading": "ごえつどうしゅう",
+        "meaning": "bitter enemies in the same boat"
+      },
+      {
+        "word": "舟艇",
+        "reading": "しゅうてい",
+        "meaning": "boat"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-貝",
+    "slug": "357-貝",
+    "level": "n2",
+    "order": 357,
+    "day": 30,
+    "character": "貝",
+    "meanings": [
+      "shellfish"
+    ],
+    "onyomi": [
+      "ばい"
+    ],
+    "kunyomi": [
+      "かい"
+    ],
+    "words": [
+      {
+        "word": "宇柳貝",
+        "reading": "ウルグアイ",
+        "meaning": "Uruguay"
+      },
+      {
+        "word": "貝殻",
+        "reading": "かいがら",
+        "meaning": "seashell"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-符",
+    "slug": "358-符",
+    "level": "n2",
+    "order": 358,
+    "day": 30,
     "character": "符",
     "meanings": [
       "sign",
@@ -10472,10 +12193,10 @@
   },
   {
     "id": "n2-kanji-憎",
-    "slug": "310-憎",
+    "slug": "359-憎",
     "level": "n2",
-    "order": 310,
-    "day": 26,
+    "order": 359,
+    "day": 30,
     "character": "憎",
     "meanings": [
       "hate"
@@ -10507,10 +12228,10 @@
   },
   {
     "id": "n2-kanji-皿",
-    "slug": "311-皿",
+    "slug": "360-皿",
     "level": "n2",
-    "order": 311,
-    "day": 26,
+    "order": 360,
+    "day": 30,
     "character": "皿",
     "meanings": [
       "plate",
@@ -10539,10 +12260,10 @@
   },
   {
     "id": "n2-kanji-肯",
-    "slug": "312-肯",
+    "slug": "361-肯",
     "level": "n2",
-    "order": 312,
-    "day": 26,
+    "order": 361,
+    "day": 31,
     "character": "肯",
     "meanings": [
       "affirm",
@@ -10572,10 +12293,10 @@
   },
   {
     "id": "n2-kanji-燥",
-    "slug": "313-燥",
+    "slug": "362-燥",
     "level": "n2",
-    "order": 313,
-    "day": 27,
+    "order": 362,
+    "day": 31,
     "character": "燥",
     "meanings": [
       "dry"
@@ -10603,10 +12324,10 @@
   },
   {
     "id": "n2-kanji-畜",
-    "slug": "314-畜",
+    "slug": "363-畜",
     "level": "n2",
-    "order": 314,
-    "day": 27,
+    "order": 363,
+    "day": 31,
     "character": "畜",
     "meanings": [
       "livestock"
@@ -10634,10 +12355,10 @@
   },
   {
     "id": "n2-kanji-挟",
-    "slug": "315-挟",
+    "slug": "364-挟",
     "level": "n2",
-    "order": 315,
-    "day": 27,
+    "order": 364,
+    "day": 31,
     "character": "挟",
     "meanings": [
       "insert",
@@ -10669,11 +12390,45 @@
     "enriched": false
   },
   {
-    "id": "n2-kanji-滴",
-    "slug": "316-滴",
+    "id": "n2-kanji-曇",
+    "slug": "365-曇",
     "level": "n2",
-    "order": 316,
-    "day": 27,
+    "order": 365,
+    "day": 31,
+    "character": "曇",
+    "meanings": [
+      "cloudy weather",
+      "cloud up"
+    ],
+    "onyomi": [
+      "どん"
+    ],
+    "kunyomi": [
+      "くも.る"
+    ],
+    "words": [
+      {
+        "word": "曇る",
+        "reading": "くもる",
+        "meaning": "to get cloudy"
+      },
+      {
+        "word": "花曇り",
+        "reading": "はなぐもり",
+        "meaning": "hazy weather in spring"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n2-kanji-滴",
+    "slug": "366-滴",
+    "level": "n2",
+    "order": 366,
+    "day": 31,
     "character": "滴",
     "meanings": [
       "drop",
@@ -10705,10 +12460,10 @@
   },
   {
     "id": "n2-kanji-伺",
-    "slug": "317-伺",
+    "slug": "367-伺",
     "level": "n2",
-    "order": 317,
-    "day": 27,
+    "order": 367,
+    "day": 31,
     "character": "伺",
     "meanings": [
       "ask",
@@ -10739,10 +12494,10 @@
   },
   {
     "id": "n2-kanji-拭",
-    "slug": "318-拭",
+    "slug": "368-拭",
     "level": "n2",
-    "order": 318,
-    "day": 27,
+    "order": 368,
+    "day": 31,
     "character": "拭",
     "meanings": [
       "wipe",
@@ -10774,10 +12529,10 @@
   },
   {
     "id": "n2-kanji-臆",
-    "slug": "319-臆",
+    "slug": "369-臆",
     "level": "n2",
-    "order": 319,
-    "day": 27,
+    "order": 369,
+    "day": 31,
     "character": "臆",
     "meanings": [
       "timid",
