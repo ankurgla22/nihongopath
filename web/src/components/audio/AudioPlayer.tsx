@@ -227,6 +227,11 @@ function TtsAudio({
     window.speechSynthesis.addEventListener("voiceschanged", load);
     return () => {
       window.speechSynthesis.removeEventListener("voiceschanged", load);
+      // Reading these refs at cleanup time is the point, not a mistake: bumping the generation
+      // invalidates whatever playback is in flight right now, and the timer to clear is the one
+      // pending right now. Capturing either value when the effect ran would cancel the wrong
+      // thing, so the exhaustive-deps warning about stale refs does not apply.
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       runRef.current++;
       window.speechSynthesis.cancel();
       if (timerRef.current) window.clearTimeout(timerRef.current);
