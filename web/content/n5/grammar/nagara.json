@@ -3,13 +3,15 @@
   "slug": "nagara",
   "level": "n5",
   "order": 42,
-  "title": "ながら",
+  "title": "〜ながら",
   "romaji": "nagara",
-  "meaning": "\"while doing ~\" — two actions performed at the same time by the same person.",
-  "simpleExplanation": "ます-stem + ながら means \"while doing ...\": 音楽を聞きながら勉強します \"I study while listening to music\". The same person does both actions at the same time. The main action is the one at the end; the ながら action is the background. Tense goes only on the final verb.",
-  "whenUsed": "Describing multitasking: eating while watching TV, walking while talking, listening to music while working. Not for two different people.",
+  "meaning": "\"while doing ~\" — two actions performed at the same time by the same person; the second clause is the main action.",
+  "simpleExplanation": "Attach ながら to the ます-stem of the background action. The important action comes last: 音楽を聞きながら勉強する = you are studying, with music on.",
+  "whenUsed": "Everyday speech and writing, whenever one person does two things at once.",
   "formation": [
-    "V-ます + ながら + main verb"
+    "V-ます stem + ながら + main clause",
+    "Both actions must have the same subject",
+    "The main (more important) action goes in the second clause"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -33,33 +35,23 @@
   "examples": [
     {
       "ja": "音楽を聞きながら勉強します。",
-      "reading": "おんがくを ききながら べんきょうします。",
-      "en": "I study while listening to music.",
-      "note": "聞きます → 聞き + ながら."
-    },
-    {
-      "ja": "テレビを見ながらご飯を食べないでください。",
-      "reading": "テレビを みながら ごはんを たべないでください。",
-      "en": "Please don't eat while watching TV.",
-      "note": "見ます → 見 + ながら; main action is 食べる."
-    },
-    {
-      "ja": "父は新聞を読みながらコーヒーを飲んでいます。",
-      "reading": "ちちは しんぶんを よみながら コーヒーを のんでいます。",
-      "en": "My father is drinking coffee while reading the newspaper.",
-      "note": "読みます → 読み + ながら; tense on 飲んでいます."
+      "reading": "おんがくをききながらべんきょうします。",
+      "en": "I study while listening to music."
     },
     {
       "ja": "歩きながら電話をしないでください。",
-      "reading": "あるきながら でんわを しないでください。",
-      "en": "Please don't talk on the phone while walking.",
-      "note": "歩きます → 歩き + ながら."
+      "reading": "あるきながらでんわをしないでください。",
+      "en": "Please don't use the phone while walking."
     },
     {
-      "ja": "コーヒーを飲みながら話しましょう。",
-      "reading": "コーヒーを のみながら はなしましょう。",
-      "en": "Let's talk over coffee.",
-      "note": "Very common friendly suggestion."
+      "ja": "テレビを見ながらご飯を食べないでください。",
+      "reading": "テレビをみながらごはんをたべないでください。",
+      "en": "Please don't eat while watching TV."
+    },
+    {
+      "ja": "父は新聞を読みながらコーヒーを飲んでいます。",
+      "reading": "ちちはしんぶんをよみながらコーヒーをのんでいます。",
+      "en": "My father is drinking coffee while reading the newspaper."
     }
   ],
   "similarGrammar": [

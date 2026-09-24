@@ -5,13 +5,13 @@
   "order": 56,
   "title": "〜っぽい",
   "romaji": "ppoi",
-  "meaning": "-ish / tends to… / seems like…",
-  "simpleExplanation": "〜っぽい turns a word into an い-adjective meaning \"has the quality of / looks like / tends to\": 子供っぽい = childish, 忘れっぽい = forgetful, 白っぽい = whitish. The feeling is often slightly negative or casual: the thing is not really X, it just seems X.",
-  "whenUsed": "Casual speech and writing. Conjugates like an い-adjective (っぽく, っぽかった). Common words: 怒りっぽい, 飽きっぽい, 安っぽい, 水っぽい, 男っぽい, 女っぽい.",
+  "meaning": "\"-ish\", \"looks like ~\", \"tends to ~\" — often slightly negative.",
+  "simpleExplanation": "Attaches to nouns, い-adjective stems and a few ます-stems, and conjugates as an い-adjective. 子供っぽい (childish) is critical, unlike 子供らしい (charmingly childlike).",
+  "whenUsed": "Casual description of appearance, colour or a tendency.",
   "formation": [
-    "Noun + っぽい (子供っぽい, 油っぽい)",
-    "Verb (ます stem) + っぽい (忘れっぽい, 怒りっぽい)",
-    "い-adjective stem + っぽい (安っぽい, 白っぽい)",
+    "N + っぽい (子供っぽい, 水っぽい)",
+    "い-adj stem + っぽい (安っぽい, 白っぽい)",
+    "V-ます stem + っぽい (忘れっぽい, 怒りっぽい)",
     "Conjugates as an い-adjective"
   ],
   "diagram": {
@@ -49,32 +49,22 @@
     {
       "ja": "彼は最近、忘れっぽくなった。",
       "reading": "かれはさいきん、わすれっぽくなった。",
-      "en": "He's become forgetful lately.",
-      "note": "V-ます + っぽい: forgetful (a tendency)."
+      "en": "He's become forgetful lately."
     },
     {
       "ja": "子供っぽい服は着たくない。",
       "reading": "こどもっぽいふくはきたくない。",
-      "en": "I don't want to wear childish clothes.",
-      "note": "N + っぽい: childish (negative)."
+      "en": "I don't want to wear childish clothes."
     },
     {
       "ja": "この写真、少し白っぽいね。",
       "reading": "このしゃしん、すこししろっぽいね。",
-      "en": "This photo looks a bit whitish.",
-      "note": "い-adjective stem + っぽい: whitish (color tint)."
+      "en": "This photo is a bit whitish, isn't it."
     },
     {
-      "ja": "彼は怒りっぽいから、言葉に気をつけたほうがいい。",
-      "reading": "かれはおこりっぽいから、ことばにきをつけたほうがいい。",
-      "en": "He's quick-tempered, so you'd better watch your words.",
-      "note": "怒りっぽい: tends to get angry."
-    },
-    {
-      "ja": "このバッグ、デザインはいいけど、ちょっと安っぽいね。",
-      "reading": "このバッグ、デザインはいいけど、ちょっとやすっぽいね。",
-      "en": "This bag has a nice design, but it looks a bit cheap.",
-      "note": "安っぽい: looks cheap (not necessarily cheap)."
+      "ja": "この服は安っぽく見える。",
+      "reading": "このふくはやすっぽくみえる。",
+      "en": "These clothes look cheap."
     }
   ],
   "similarGrammar": [

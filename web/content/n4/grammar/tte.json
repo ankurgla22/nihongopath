@@ -5,15 +5,14 @@
   "order": 86,
   "title": "〜って (casual quotation / topic)",
   "romaji": "tte (kudaketa in'you / shudai)",
-  "meaning": "Casual equivalent of と (quotation), という (called), and は (topic). Also sentence-final hearsay (\"they say\").",
-  "simpleExplanation": "って is the casual all-rounder of spoken Japanese. It replaces と for quoting (来るって言ってた = said he's coming), という for naming (「さくら」って店 = a shop called Sakura), and は for a topic (漢字って難しい = kanji are hard, you know). At the end of a sentence it reports what you heard: 明日は休みだって = \"I hear tomorrow's a holiday\". It is only for casual speech.",
-  "whenUsed": "Conversation among friends, family and close colleagues, and in casual texts and manga. You will hear it constantly in the N4 listening section. In writing, polite speech and business it is replaced by と, という and は.",
+  "meaning": "Casual particle covering と (quotation), という (called), は (topic/definition), and sentence-final hearsay (\"they say\").",
+  "simpleExplanation": "って is the spoken shortcut. Mid-sentence it replaces と or という; at the head it replaces は as a topic; at the very end it means you heard it from somewhere.",
+  "whenUsed": "Casual conversation only — avoid it in writing or polite speech.",
   "formation": [
-    "Quote: plain sentence + って + 言う / 思う / 聞く: 行くって言ってた",
-    "Naming: N + って + (いう) N: 「さくら」って（いう）店",
-    "Topic: N + って: 漢字って難しいね; also 〜って何？ (what is…?)",
-    "Hearsay at sentence end: sentence + って: 明日は休みだって",
-    "Asking someone to repeat: 何だって？ / え、〜って？"
+    "Plain sentence + って + 言う／思う (quotation)",
+    "N + って + (いう) + N (called ~)",
+    "N + って (topic / definition = 〜というのは)",
+    "Sentence + って (sentence-final hearsay)"
   ],
   "diagram": {
     "kind": "transformation",
@@ -42,34 +41,29 @@
   },
   "examples": [
     {
-      "ja": "田中さんは明日来るって言ってたよ。",
-      "reading": "たなかさんは あした くるって いってたよ。",
-      "en": "Tanaka said he's coming tomorrow.",
-      "note": "Quote: って replaces と before 言う. 言ってた is the contracted 言っていた."
+      "ja": "漢字って難しいね。",
+      "reading": "かんじってむずかしいね。",
+      "en": "Kanji are hard, aren't they."
     },
     {
       "ja": "「さくら」って店、知ってる？",
-      "reading": "「さくら」って みせ、しってる？",
-      "en": "Do you know a shop called \"Sakura\"?",
-      "note": "Naming: って replaces という (a shop called…)."
+      "reading": "「さくら」ってみせ、しってる？",
+      "en": "Do you know a shop called \"Sakura\"?"
     },
     {
-      "ja": "漢字って難しいね。",
-      "reading": "かんじって むずかしいね。",
-      "en": "Kanji are hard, aren't they?",
-      "note": "Topic: って replaces は, with a slightly emotional \"you know, kanji…\"."
+      "ja": "田中さんは明日来るって言ってたよ。",
+      "reading": "たなかさんはあしたくるっていってたよ。",
+      "en": "Tanaka said he's coming tomorrow."
     },
     {
-      "ja": "先生、今日は来ないって。",
-      "reading": "せんせい、きょうは こないって。",
-      "en": "The teacher says he's not coming today, apparently.",
-      "note": "Sentence-final って = \"I hear / he said\"."
+      "ja": "「侘び寂び」って、どういう意味？",
+      "reading": "「わびさび」って、どういういみ？",
+      "en": "What does \"wabi-sabi\" mean?"
     },
     {
-      "ja": "「ケータイ」って何？ ああ、携帯電話のことか。",
-      "reading": "「ケータイ」って なに？ ああ、けいたいでんわの ことか。",
-      "en": "What's a \"keitai\"? Oh, you mean a mobile phone.",
-      "note": "〜って何？ is the casual way to ask what a word means."
+      "ja": "彼女、結婚したんだって。",
+      "reading": "かのじょ、けっこんしたんだって。",
+      "en": "Apparently she got married."
     }
   ],
   "similarGrammar": [

@@ -5,13 +5,12 @@
   "order": 40,
   "title": "〜てからでないと / 〜てからでなければ",
   "romaji": "te kara de nai to",
-  "meaning": "Unless… first / not until…",
-  "simpleExplanation": "〜てからでないと means \"unless you do X first, Y is impossible\": 会員になってからでないと使えません = you can't use it until you become a member. The second half is always negative or expresses impossibility. Think of it as \"X first, otherwise no Y\".",
-  "whenUsed": "Rules, procedures, business explanations, polite refusals. 〜てからでなければ is a slightly more formal variant.",
+  "meaning": "\"unless ~ first\", \"not until ~ (can you ...)\".",
+  "simpleExplanation": "The second clause must be negative or express impossibility: 〜できません, 〜てはいけない. It states a prerequisite that has to be satisfied first.",
+  "whenUsed": "Rules and procedures: registration, confirmation, safety requirements.",
   "formation": [
-    "Verb (て form) + からでないと + negative / できない / 無理だ",
-    "Verb (て form) + からでなければ + negative",
-    "Noun + からでないと (許可をもらってからでないと / 三時からでないと)"
+    "V-て + からでないと + negative/potential-negative clause",
+    "V-て + からでなければ + negative/potential-negative clause"
   ],
   "diagram": {
     "kind": "transformation",
@@ -34,32 +33,22 @@
     {
       "ja": "会員になってからでないと、この施設は使えません。",
       "reading": "かいいんになってからでないと、このしせつはつかえません。",
-      "en": "Unless you become a member first, you cannot use this facility.",
-      "note": "Rule: membership first, otherwise no access."
-    },
-    {
-      "ja": "内容を確認してからでなければ、サインできない。",
-      "reading": "ないようをかくにんしてからでなければ、サインできない。",
-      "en": "I can't sign until I've checked the contents.",
-      "note": "でなければ variant + potential negative."
+      "en": "You can't use this facility unless you become a member first."
     },
     {
       "ja": "先生に聞いてからでないと、答えられません。",
       "reading": "せんせいにきいてからでないと、こたえられません。",
-      "en": "I can't answer until I've asked the teacher.",
-      "note": "Refusing to answer until a condition is met."
+      "en": "I can't answer until I've asked the teacher."
     },
     {
-      "ja": "上司に相談してからでないと、お返事できません。",
-      "reading": "じょうしにそうだんしてからでないと、おへんじできません。",
-      "en": "I can't give you an answer until I've consulted my boss.",
-      "note": "A polite business refusal."
+      "ja": "内容を確認してからでなければ、サインできない。",
+      "reading": "ないようをかくにんしてからでなければ、サインできない。",
+      "en": "I can't sign until I've checked the contents."
     },
     {
-      "ja": "準備運動をしてからでなければ、プールに入ってはいけません。",
-      "reading": "じゅんびうんどうをしてからでなければ、プールにはいってはいけません。",
-      "en": "You must not enter the pool without warming up first.",
-      "note": "Followed by a prohibition, which counts as a negative."
+      "ja": "準備運動をしてからでないと、泳いではいけない。",
+      "reading": "じゅんびうんどうをしてからでないと、およいではいけない。",
+      "en": "You mustn't swim before doing warm-up exercises."
     }
   ],
   "similarGrammar": [

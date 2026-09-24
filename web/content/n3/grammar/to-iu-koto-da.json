@@ -5,14 +5,13 @@
   "order": 12,
   "title": "〜ということだ",
   "romaji": "to iu koto da",
-  "meaning": "I hear that… / it means that…",
-  "simpleExplanation": "〜ということだ has two jobs. (1) Hearsay: reporting what you heard, often from a named source: 天気予報によると明日は雪だということだ = according to the forecast, it will snow. (2) Explanation: \"that means…\": 返事がないということは、興味がないということだ. In both cases, you are passing along or interpreting information, not stating your own observation.",
-  "whenUsed": "News reports, business messages (〜とのことです), and conversations where you interpret someone's words. The hearsay use is more formal and precise than そうだ.",
+  "meaning": "(1) \"I hear that ~\", \"it is said that ~\" (hearsay); (2) \"that means ~\", \"in other words\" (conclusion).",
+  "simpleExplanation": "For hearsay it usually follows a source phrase like 〜によると. For the second sense it restates what the facts add up to; とのことだ is the more formal hearsay variant.",
+  "whenUsed": "Relaying news or reports, and summarising what something implies.",
   "formation": [
-    "Plain form + ということだ (hearsay or conclusion)",
-    "Noun / な-adjective + だ + ということだ",
-    "Business: 〜とのことです",
-    "Explanation frame: 〜ということは、〜ということだ"
+    "Plain form + ということだ",
+    "Formal hearsay: 〜とのことだ",
+    "〜ということは 〜ということだ for the restating sense"
   ],
   "diagram": {
     "kind": "comparison",
@@ -56,32 +55,22 @@
     {
       "ja": "天気予報によると、明日は雪だということだ。",
       "reading": "てんきよほうによると、あしたはゆきだということだ。",
-      "en": "According to the forecast, it's going to snow tomorrow.",
-      "note": "Hearsay from a named source (weather forecast)."
+      "en": "According to the forecast, it's going to snow tomorrow."
     },
     {
       "ja": "田中さんは今日休むということです。",
       "reading": "たなかさんはきょうやすむということです。",
-      "en": "I'm told that Mr. Tanaka is off today.",
-      "note": "Hearsay in polite speech: relaying a colleague's message."
+      "en": "I hear Tanaka is off today."
+    },
+    {
+      "ja": "社長は来週帰国するということだ。",
+      "reading": "しゃちょうはらいしゅうきこくするということだ。",
+      "en": "They say the president returns to Japan next week."
     },
     {
       "ja": "返事がないということは、興味がないということだ。",
       "reading": "へんじがないということは、きょうみがないということだ。",
-      "en": "No reply means they're not interested.",
-      "note": "Explanation: A ということは B ということだ = A means B."
-    },
-    {
-      "ja": "部長は今日、出張で戻らないとのことです。",
-      "reading": "ぶちょうはきょう、しゅっちょうでもどらないとのことです。",
-      "en": "I'm told the manager is on a business trip and won't be back today.",
-      "note": "とのことです is the standard business relay."
-    },
-    {
-      "ja": "電話に出ないということは、まだ会議中だということだろう。",
-      "reading": "でんわにでないということは、まだかいぎちゅうだということだろう。",
-      "en": "Not answering the phone probably means he's still in the meeting.",
-      "note": "Interpreting a sign; だろう softens the conclusion."
+      "en": "No reply means they're not interested."
     }
   ],
   "similarGrammar": [

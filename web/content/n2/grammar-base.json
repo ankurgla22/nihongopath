@@ -80,46 +80,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-3",
-    "slug": "3-g3",
-    "level": "n2",
-    "order": 3,
-    "title": "〜以上(は)",
-    "romaji": "g3",
-    "meaning": "since / now that ..., (naturally) ...",
-    "simpleExplanation": "since / now that ..., (naturally) ...",
-    "formation": [
-      "V普通形 + 以上(は) / N + である + 以上"
-    ],
-    "examples": [
-      {
-        "ja": "約束した以上、必ず守ります。",
-        "reading": "やくそくしたいじょう、かならずまもります。",
-        "en": "Now that I've promised, I will definitely keep it."
-      },
-      {
-        "ja": "学生である以上、勉強が第一だ。",
-        "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
-        "en": "As long as you are a student, study comes first."
-      },
-      {
-        "ja": "引き受けた以上は、最後までやり抜くべきだ。",
-        "reading": "ひきうけたいじょうは、さいごまでやりぬくべきだ。",
-        "en": "Having taken it on, you should see it through to the end."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Followed by duty, resolve, or advice (べきだ・つもりだ・なければならない). Similar to 〜からには and 〜上は; 以上 is the most common and neutral. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-4",
     "slug": "4-g4",
     "level": "n2",
@@ -352,46 +312,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Stiffer, more literary variant of 〜以上は / 〜からには. 書き言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-10",
-    "slug": "10-uchini",
-    "level": "n2",
-    "order": 10,
-    "title": "〜うちに",
-    "romaji": "uchini",
-    "meaning": "while (a state lasts); before (it changes)",
-    "simpleExplanation": "while (a state lasts); before (it changes)",
-    "formation": [
-      "Vる/Vている/Vない + うちに / Aい + うちに / Aな + な + うちに / N + の + うちに"
-    ],
-    "examples": [
-      {
-        "ja": "温かいうちに召し上がってください。",
-        "reading": "あたたかいうちにめしあがってください。",
-        "en": "Please eat it while it's warm."
-      },
-      {
-        "ja": "忘れないうちにメモしておこう。",
-        "reading": "わすれないうちにメモしておこう。",
-        "en": "Let me write it down before I forget."
-      },
-      {
-        "ja": "音楽を聴いているうちに、眠ってしまった。",
-        "reading": "おんがくをきいているうちに、ねむってしまった。",
-        "en": "While listening to music, I fell asleep."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Vないうちに = \"before X happens\". With Vているうちに, the second clause is often an unintended change. Compare 〜間に (a fixed time span, no sense of urgency). Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -886,26 +806,33 @@
     "order": 23,
     "title": "〜か〜ないかのうちに",
     "romaji": "kanaikanouchini",
-    "meaning": "the moment ..., barely had ... when",
-    "simpleExplanation": "the moment ..., barely had ... when",
+    "meaning": "\"the moment ~\", \"barely had ~ when ~\" — the second event happens before the first is even finished.",
+    "simpleExplanation": "Repeat the same verb, once affirmative and once negative, then のうちに. The second clause is nearly always in the past tense and never a command or request.",
     "formation": [
-      "Vる/Vた + か + Vない + かのうちに"
+      "V-dict / V-た + か + V-ない + かのうちに",
+      "Second clause in the past tense",
+      "No commands, requests or volitional forms in the second clause"
     ],
     "examples": [
       {
-        "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
-        "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
-        "en": "The bell had barely rung when the students dashed out of the classroom."
-      },
-      {
         "ja": "横になるかならないかのうちに、眠ってしまった。",
         "reading": "よこになるかならないかのうちに、ねむってしまった。",
-        "en": "I fell asleep almost the instant I lay down."
+        "en": "I was barely lying down before I fell asleep."
+      },
+      {
+        "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
+        "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
+        "en": "The bell had hardly rung when the students shot out of the classroom."
       },
       {
         "ja": "食べ終わったか終わらないかのうちに、彼は席を立った。",
         "reading": "たべおわったかおわらないかのうちに、かれはせきをたった。",
-        "en": "Scarcely had he finished eating when he left his seat."
+        "en": "He got up from the table almost before he'd finished eating."
+      },
+      {
+        "ja": "店が開くか開かないかのうちに、客が押し寄せた。",
+        "reading": "みせがあくかあかないかのうちに、きゃくがおしよせた。",
+        "en": "The shop had barely opened when customers came flooding in."
       }
     ],
     "similarGrammar": [],
@@ -917,14 +844,15 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Narrative description of things happening in immediate succession."
   },
   {
     "id": "n2-grammar-24",
     "slug": "24-kaneru",
     "level": "n2",
     "order": 24,
-    "title": "〜かねる",
+    "title": "〜かねる / 〜かねない",
     "romaji": "kaneru",
     "meaning": "cannot (politely), unable to bring oneself to",
     "simpleExplanation": "cannot (politely), unable to bring oneself to",
@@ -1160,86 +1088,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-30",
-    "slug": "30-karatoitte",
-    "level": "n2",
-    "order": 30,
-    "title": "〜からといって",
-    "romaji": "karatoitte",
-    "meaning": "just because ... (doesn't mean)",
-    "simpleExplanation": "just because ... (doesn't mean)",
-    "formation": [
-      "普通形 + からといって"
-    ],
-    "examples": [
-      {
-        "ja": "日本に住んでいるからといって、日本語が上手だとは限らない。",
-        "reading": "にほんにすんでいるからといって、にほんごがじょうずだとはかぎらない。",
-        "en": "Just because you live in Japan doesn't mean your Japanese is good."
-      },
-      {
-        "ja": "安いからといって、買いすぎてはいけない。",
-        "reading": "やすいからといって、かいすぎてはいけない。",
-        "en": "Just because it's cheap, you shouldn't buy too much."
-      },
-      {
-        "ja": "疲れたからといって、休むわけにはいかない。",
-        "reading": "つかれたからといって、やすむわけにはいかない。",
-        "en": "Just because I'm tired doesn't mean I can take a break."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Followed by negative or partial negation (〜とは限らない・〜わけではない・〜てはいけない). Spoken form: 〜からって. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-31",
-    "slug": "31-karaniha",
-    "level": "n2",
-    "order": 31,
-    "title": "〜からには",
-    "romaji": "karaniha",
-    "meaning": "now that, since (so naturally ...)",
-    "simpleExplanation": "now that, since (so naturally ...)",
-    "formation": [
-      "V普通形 + からには / N + である + からには"
-    ],
-    "examples": [
-      {
-        "ja": "試合に出るからには、勝ちたい。",
-        "reading": "しあいにでるからには、かちたい。",
-        "en": "Since I'm playing in the match, I want to win."
-      },
-      {
-        "ja": "引き受けたからには、責任を持ってやります。",
-        "reading": "ひきうけたからには、せきにんをもってやります。",
-        "en": "Now that I've accepted, I'll do it responsibly."
-      },
-      {
-        "ja": "教師であるからには、生徒の模範となるべきだ。",
-        "reading": "きょうしであるからには、せいとのもはんとなるべきだ。",
-        "en": "Being a teacher, one should be a model for students."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Ends in determination, obligation, or advice. Interchangeable with 〜以上(は); からには is slightly more emotive/spoken. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-32",
     "slug": "32-karanikakete",
     "level": "n2",
@@ -1440,126 +1288,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-37",
-    "slug": "37-kiru-kireru-kirenai",
-    "level": "n2",
-    "order": 37,
-    "title": "〜きる / 〜きれる / 〜きれない",
-    "romaji": "kiru-kireru-kirenai",
-    "meaning": "do completely; be able to finish; cannot completely",
-    "simpleExplanation": "do completely; be able to finish; cannot completely",
-    "formation": [
-      "Vます + きる / きれる / きれない"
-    ],
-    "examples": [
-      {
-        "ja": "長い小説をやっと読みきった。",
-        "reading": "ながいしょうせつをやっとよみきった。",
-        "en": "I finally finished reading the long novel."
-      },
-      {
-        "ja": "こんなにたくさんは食べきれない。",
-        "reading": "こんなにたくさんはたべきれない。",
-        "en": "I can't possibly eat this much."
-      },
-      {
-        "ja": "彼女は疲れきった顔をしていた。",
-        "reading": "かのじょはつかれきったかおをしていた。",
-        "en": "She looked completely exhausted."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Completion (使いきる), extreme degree (疲れきる・困りきる), or certainty (言いきる). 〜きれない = \"too much to finish\". Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-38",
-    "slug": "38-kuseni",
-    "level": "n2",
-    "order": 38,
-    "title": "〜くせに",
-    "romaji": "kuseni",
-    "meaning": "even though, despite (criticism / contempt)",
-    "simpleExplanation": "even though, despite (criticism / contempt)",
-    "formation": [
-      "V普通形 + くせに / Aい + くせに / Aな + な + くせに / N + の + くせに"
-    ],
-    "examples": [
-      {
-        "ja": "知っているくせに、教えてくれない。",
-        "reading": "しっているくせに、おしえてくれない。",
-        "en": "Even though he knows, he won't tell me."
-      },
-      {
-        "ja": "子供のくせに、生意気なことを言うな。",
-        "reading": "こどものくせに、なまいきなことをいうな。",
-        "en": "You're just a kid, don't talk so cheeky."
-      },
-      {
-        "ja": "下手なくせに、人に教えたがる。",
-        "reading": "へたなくせに、ひとにおしえたがる。",
-        "en": "He's bad at it, yet wants to teach others."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Same subject in both clauses; carries blame or scorn, so not used about oneself or superiors. Contrast 〜のに (neutral). 話し言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-39",
-    "slug": "39-kurai-gurai",
-    "level": "n2",
-    "order": 39,
-    "title": "〜くらい / 〜ぐらい",
-    "romaji": "kurai-gurai",
-    "meaning": "to the extent that; so ... that; at least",
-    "simpleExplanation": "to the extent that; so ... that; at least",
-    "formation": [
-      "V普通形 + くらい / Aい + くらい / Aな + な + くらい / N + くらい"
-    ],
-    "examples": [
-      {
-        "ja": "立っていられないくらい疲れた。",
-        "reading": "たっていられないくらいつかれた。",
-        "en": "I was so tired I could barely stand."
-      },
-      {
-        "ja": "自分の部屋くらい自分で片付けなさい。",
-        "reading": "じぶんのへやくらいじぶんでかたづけなさい。",
-        "en": "At least clean your own room yourself."
-      },
-      {
-        "ja": "泣きたいくらい嬉しかった。",
-        "reading": "なきたいくらいうれしかった。",
-        "en": "I was so happy I could have cried."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Shows degree via comparison; with nouns often \"something as trivial as\". Interchangeable with 〜ほど in degree use, but くらい suggests a light/low degree. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-40",
     "slug": "40-kurainara",
     "level": "n2",
@@ -1592,86 +1320,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Often paired with 〜ほうがましだ / 〜ほうがいい. Both registers, somewhat emphatic."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-41",
-    "slug": "41-ge",
-    "level": "n2",
-    "order": 41,
-    "title": "〜げ",
-    "romaji": "ge",
-    "meaning": "looking ..., seeming ... (appearance of feeling)",
-    "simpleExplanation": "looking ..., seeming ... (appearance of feeling)",
-    "formation": [
-      "Aい stem + げ / Aな + げ / Vます + げ (a few: 言いたげ・ありげ)"
-    ],
-    "examples": [
-      {
-        "ja": "彼女は寂しげに窓の外を見ていた。",
-        "reading": "かのじょはさびしげにまどのそとをみていた。",
-        "en": "She was looking out the window with a lonely air."
-      },
-      {
-        "ja": "子供たちは楽しげに遊んでいる。",
-        "reading": "こどもたちはたのしげにあそんでいる。",
-        "en": "The children are playing happily."
-      },
-      {
-        "ja": "彼は何か言いたげな顔をしていた。",
-        "reading": "かれはなにかいいたげなかおをしていた。",
-        "en": "He had a look as though he wanted to say something."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Behaves as a na-adjective (〜げな・〜げに); describes others' visible emotions. Similar to 〜そう but more literary. 書き言葉寄り."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-42",
-    "slug": "42-kotoka",
-    "level": "n2",
-    "order": 42,
-    "title": "〜ことか",
-    "romaji": "kotoka",
-    "meaning": "how ...! (exclamation)",
-    "simpleExplanation": "how ...! (exclamation)",
-    "formation": [
-      "どんなに/なんと/何度 + V普通形/Aい/Aな + な + ことか"
-    ],
-    "examples": [
-      {
-        "ja": "合格してどんなに嬉しかったことか。",
-        "reading": "ごうかくしてどんなにうれしかったことか。",
-        "en": "How happy I was to pass!"
-      },
-      {
-        "ja": "何度注意したことか。",
-        "reading": "なんどちゅういしたことか。",
-        "en": "How many times have I warned you!"
-      },
-      {
-        "ja": "一人の夜がどれほど寂しいことか。",
-        "reading": "ひとりのよるがどれほどさびしいことか。",
-        "en": "How lonely the nights alone are!"
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Always with an interrogative (どんなに・どれほど・何〜). Rhetorical, emotive. 書き言葉 / emphatic speech; spoken variant 〜ことだろう."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -1840,86 +1488,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-47",
-    "slug": "47-kotoninatteiru",
-    "level": "n2",
-    "order": 47,
-    "title": "〜ことになっている",
-    "romaji": "kotoninatteiru",
-    "meaning": "it is the rule/arrangement that ...",
-    "simpleExplanation": "it is the rule/arrangement that ...",
-    "formation": [
-      "Vる/Vない + ことになっている"
-    ],
-    "examples": [
-      {
-        "ja": "会議は毎週月曜日に行うことになっている。",
-        "reading": "かいぎはまいしゅうげつようびにおこなうことになっている。",
-        "en": "The meeting is scheduled to be held every Monday."
-      },
-      {
-        "ja": "校内では携帯電話を使ってはいけないことになっている。",
-        "reading": "こうないではけいたいでんわをつかってはいけないことになっている。",
-        "en": "The rule is that mobile phones may not be used in school."
-      },
-      {
-        "ja": "明日、部長と会うことになっています。",
-        "reading": "あした、ぶちょうとあうことになっています。",
-        "en": "I am set to meet the department head tomorrow."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Rules, customs, and fixed plans decided by others; contrast 〜ことにしている (personal habit/decision). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-48",
-    "slug": "48-kotohanai",
-    "level": "n2",
-    "order": 48,
-    "title": "〜ことはない",
-    "romaji": "kotohanai",
-    "meaning": "there is no need to; never (happens)",
-    "simpleExplanation": "there is no need to; never (happens)",
-    "formation": [
-      "Vる + ことはない"
-    ],
-    "examples": [
-      {
-        "ja": "そんなに心配することはないよ。",
-        "reading": "そんなにしんぱいすることはないよ。",
-        "en": "There's no need to worry so much."
-      },
-      {
-        "ja": "謝ることはない。君は悪くない。",
-        "reading": "あやまることはない。きみはわるくない。",
-        "en": "No need to apologize. It's not your fault."
-      },
-      {
-        "ja": "彼が約束を破ることはない。",
-        "reading": "かれがやくそくをやぶることはない。",
-        "en": "He never breaks a promise."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Main use is reassurance/advice \"no need to\"; also \"never\" for events. Compare 〜までもない (not even worth doing). 話し言葉寄り."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-49",
     "slug": "49-g49",
     "level": "n2",
@@ -2000,46 +1568,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-51",
-    "slug": "51-saeba",
-    "level": "n2",
-    "order": 51,
-    "title": "〜さえ〜ば",
-    "romaji": "saeba",
-    "meaning": "if only ..., as long as ...",
-    "simpleExplanation": "if only ..., as long as ...",
-    "formation": [
-      "N + さえ + Vば / Vます + さえ + すれば / Aい stem + くさえあれば / Aな + でさえあれば"
-    ],
-    "examples": [
-      {
-        "ja": "時間さえあれば、もっと勉強できるのに。",
-        "reading": "じかんさえあれば、もっとべんきょうできるのに。",
-        "en": "If only I had time, I could study more."
-      },
-      {
-        "ja": "この薬を飲みさえすれば、治ります。",
-        "reading": "このくすりをのみさえすれば、なおります。",
-        "en": "As long as you take this medicine, you'll recover."
-      },
-      {
-        "ja": "天気さえよければ、山に登りたい。",
-        "reading": "てんきさえよければ、やまにのぼりたい。",
-        "en": "If the weather is just fine, I want to climb the mountain."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "The single sufficient condition; everything else is unnecessary. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-52",
     "slug": "52-zaruwonai",
     "level": "n2",
@@ -2072,46 +1600,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Reluctant necessity due to circumstances. More formal than 〜しかない / 〜ほかない. 書き言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-53",
-    "slug": "53-shikanai",
-    "level": "n2",
-    "order": 53,
-    "title": "〜しかない",
-    "romaji": "shikanai",
-    "meaning": "there is nothing to do but; only",
-    "simpleExplanation": "there is nothing to do but; only",
-    "formation": [
-      "Vる + しかない / N + しかない"
-    ],
-    "examples": [
-      {
-        "ja": "終電がなくなったので、歩いて帰るしかない。",
-        "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
-        "en": "The last train is gone, so I have no choice but to walk home."
-      },
-      {
-        "ja": "こうなったら、諦めるしかない。",
-        "reading": "こうなったら、あきらめるしかない。",
-        "en": "At this point, all we can do is give up."
-      },
-      {
-        "ja": "財布には百円しかない。",
-        "reading": "さいふにはひゃくえんしかない。",
-        "en": "I have only 100 yen in my wallet."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Colloquial equivalent of 〜ほかない / 〜ざるを得ない. 話し言葉寄り."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -2320,46 +1808,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-59",
-    "slug": "59-seide-seika-seida",
-    "level": "n2",
-    "order": 59,
-    "title": "〜せいで / 〜せいか / 〜せいだ",
-    "romaji": "seide-seika-seida",
-    "meaning": "because of (negative cause); perhaps because",
-    "simpleExplanation": "because of (negative cause); perhaps because",
-    "formation": [
-      "V普通形 + せいで / Aい + せいで / Aな + な + せいで / N + の + せいで"
-    ],
-    "examples": [
-      {
-        "ja": "寝不足のせいで、頭が痛い。",
-        "reading": "ねぶそくのせいで、あたまがいたい。",
-        "en": "I have a headache because of lack of sleep."
-      },
-      {
-        "ja": "年のせいか、最近疲れやすい。",
-        "reading": "としのせいか、さいきんつかれやすい。",
-        "en": "Perhaps because of age, I get tired easily these days."
-      },
-      {
-        "ja": "失敗したのは君のせいだ。",
-        "reading": "しっぱいしたのはきみのせいだ。",
-        "en": "It's your fault that it failed."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Blame; opposite of 〜おかげで. せいか softens to a guessed cause. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-60",
     "slug": "60-dake-dakeatte",
     "level": "n2",
@@ -2486,10 +1934,12 @@
     "order": 63,
     "title": "〜だけましだ",
     "romaji": "dakemashida",
-    "meaning": "at least ... (it could be worse)",
-    "simpleExplanation": "at least ... (it could be worse)",
+    "meaning": "\"at least ~\", \"it could have been worse\" — the situation is bad, but one good point saves it.",
+    "simpleExplanation": "まし means \"less bad\", not \"good\". You admit the situation is poor, then name the one thing that keeps it bearable.",
     "formation": [
-      "V普通形 + だけましだ / Aい + だけましだ / Aな + な + だけましだ"
+      "V-plain + だけましだ",
+      "い-adj + だけましだ",
+      "な-adj + な + だけましだ; N + な + だけましだ"
     ],
     "examples": [
       {
@@ -2498,14 +1948,19 @@
         "en": "The pay is low, but at least I have a job."
       },
       {
-        "ja": "骨折したが、命が助かっただけましだ。",
-        "reading": "こっせつしたが、いのちがたすかっただけましだ。",
-        "en": "I broke a bone, but at least I survived."
+        "ja": "家は狭いが、駅に近いだけましだ。",
+        "reading": "いえはせまいが、えきにちかいだけましだ。",
+        "en": "The house is small, but at least it's near the station."
       },
       {
         "ja": "遅れたけど、来てくれただけましだよ。",
         "reading": "おくれたけど、きてくれただけましだよ。",
-        "en": "You were late, but at least you came."
+        "en": "He was late, but at least he came."
+      },
+      {
+        "ja": "骨折したが、命が助かっただけましだ。",
+        "reading": "こっせつしたが、いのちがたすかっただけましだ。",
+        "en": "I broke a bone, but at least I survived."
       }
     ],
     "similarGrammar": [],
@@ -2517,47 +1972,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-64",
-    "slug": "64-tatoetemo",
-    "level": "n2",
-    "order": 64,
-    "title": "たとえ〜ても",
-    "romaji": "tatoetemo",
-    "meaning": "even if, no matter (how)",
-    "simpleExplanation": "even if, no matter (how)",
-    "formation": [
-      "たとえ + Vて + も / Aい stem + くても / Aな + でも / N + でも"
-    ],
-    "examples": [
-      {
-        "ja": "たとえ雨が降っても、試合は行われる。",
-        "reading": "たとえあめがふっても、しあいはおこなわれる。",
-        "en": "Even if it rains, the match will be held."
-      },
-      {
-        "ja": "たとえ両親が反対しても、彼と結婚する。",
-        "reading": "たとえりょうしんがはんたいしても、かれとけっこんする。",
-        "en": "Even if my parents object, I'll marry him."
-      },
-      {
-        "ja": "たとえ冗談でも、そんなことを言ってはいけない。",
-        "reading": "たとえじょうだんでも、そんなことをいってはいけない。",
-        "en": "Even as a joke, you must not say such a thing."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Hypothetical concession; たとえ strengthens 〜ても. Both registers; formal variant たとえ〜としても / 〜にせよ."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Consoling yourself or someone else about a bad but not disastrous situation."
   },
   {
     "id": "n2-grammar-65",
@@ -2606,10 +2022,12 @@
     "order": 66,
     "title": "〜たところで",
     "romaji": "tatokorode",
-    "meaning": "even if (one does), it's no use",
-    "simpleExplanation": "even if (one does), it's no use",
+    "meaning": "\"even if one does ~, it's no use\" — the action would not change the outcome.",
+    "simpleExplanation": "Always the た-form plus ところで, and the second clause is negative or hopeless. Often with いくら or 今さら. Unlike 〜ても, the speaker is sure it is pointless.",
     "formation": [
-      "Vた + ところで (+ negative / useless result)"
+      "V-た + ところで + negative or futile result",
+      "Often with いくら / 今さら / 今から",
+      "The second clause never expresses a completed fact"
     ],
     "examples": [
       {
@@ -2620,12 +2038,17 @@
       {
         "ja": "彼に頼んだところで、無駄だろう。",
         "reading": "かれにたのんだところで、むだだろう。",
-        "en": "Even if you ask him, it'll be no use."
+        "en": "Even if you ask him, it'll be pointless."
       },
       {
         "ja": "いくら説明したところで、分かってもらえない。",
         "reading": "いくらせつめいしたところで、わかってもらえない。",
-        "en": "However much I explain, they won't understand."
+        "en": "No matter how much I explain, they won't understand."
+      },
+      {
+        "ja": "いくら謝ったところで、失った信頼は戻らない。",
+        "reading": "いくらあやまったところで、うしなったしんらいはもどらない。",
+        "en": "However much you apologise, lost trust doesn't come back."
       }
     ],
     "similarGrammar": [],
@@ -2637,7 +2060,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Dismissing an action as futile; speech and writing alike."
   },
   {
     "id": "n2-grammar-67",
@@ -2712,126 +2136,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Habitual repetition; can express gradual change (〜たびに大きくなる). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-69",
-    "slug": "69-darake",
-    "level": "n2",
-    "order": 69,
-    "title": "〜だらけ",
-    "romaji": "darake",
-    "meaning": "full of, covered with (undesirable)",
-    "simpleExplanation": "full of, covered with (undesirable)",
-    "formation": [
-      "N + だらけ"
-    ],
-    "examples": [
-      {
-        "ja": "子供たちは泥だらけになって帰ってきた。",
-        "reading": "こどもたちはどろだらけになってかえってきた。",
-        "en": "The kids came home covered in mud."
-      },
-      {
-        "ja": "この作文は間違いだらけだ。",
-        "reading": "このさくぶんはまちがいだらけだ。",
-        "en": "This essay is riddled with mistakes."
-      },
-      {
-        "ja": "部屋はほこりだらけだった。",
-        "reading": "へやはほこりだらけだった。",
-        "en": "The room was covered in dust."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Only negative things (泥・傷・ごみ・間違い・借金); implies too many. Contrast 〜まみれ (sticky/liquid covering) and 〜ずくめ (neutral, N1). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-70",
-    "slug": "70-tsuideni",
-    "level": "n2",
-    "order": 70,
-    "title": "〜ついでに",
-    "romaji": "tsuideni",
-    "meaning": "while (doing X), also (do Y) on the side",
-    "simpleExplanation": "while (doing X), also (do Y) on the side",
-    "formation": [
-      "Vる/Vた + ついでに / N + の + ついでに"
-    ],
-    "examples": [
-      {
-        "ja": "買い物のついでに、郵便局に寄った。",
-        "reading": "かいもののついでに、ゆうびんきょくによった。",
-        "en": "While shopping, I also dropped by the post office."
-      },
-      {
-        "ja": "東京へ行くついでに、友達に会ってきた。",
-        "reading": "とうきょうへいくついでに、ともだちにあってきた。",
-        "en": "While in Tokyo, I also met a friend."
-      },
-      {
-        "ja": "洗濯したついでに、カーテンも洗った。",
-        "reading": "せんたくしたついでに、カーテンもあらった。",
-        "en": "While doing laundry, I washed the curtains too."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Main action first, secondary action taken as a convenience. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-71",
-    "slug": "71-kke",
-    "level": "n2",
-    "order": 71,
-    "title": "〜っけ",
-    "romaji": "kke",
-    "meaning": "was it ...? (trying to recall)",
-    "simpleExplanation": "was it ...? (trying to recall)",
-    "formation": [
-      "Vた/Vました + っけ / N + だった + っけ / Aい + かった + っけ"
-    ],
-    "examples": [
-      {
-        "ja": "明日の会議は何時からだっけ。",
-        "reading": "あしたのかいぎはなんじからだっけ。",
-        "en": "What time was tomorrow's meeting again?"
-      },
-      {
-        "ja": "あの人、誰でしたっけ。",
-        "reading": "あのひと、だれでしたっけ。",
-        "en": "Who was that person again?"
-      },
-      {
-        "ja": "君、コーヒー飲まなかったっけ。",
-        "reading": "きみ、コーヒーのまなかったっけ。",
-        "en": "Didn't you drink coffee?"
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Confirming forgotten information with oneself or listener; past form even for future events. 話し言葉 only."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -2960,126 +2264,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-75",
-    "slug": "75-ppanashi",
-    "level": "n2",
-    "order": 75,
-    "title": "〜っぱなし",
-    "romaji": "ppanashi",
-    "meaning": "left (in a state), keeps on -ing (carelessly)",
-    "simpleExplanation": "left (in a state), keeps on -ing (carelessly)",
-    "formation": [
-      "Vます + っぱなし"
-    ],
-    "examples": [
-      {
-        "ja": "窓を開けっぱなしにして寝てしまった。",
-        "reading": "まどをあけっぱなしにしてねてしまった。",
-        "en": "I fell asleep leaving the window open."
-      },
-      {
-        "ja": "一日中立ちっぱなしで、足が痛い。",
-        "reading": "いちにちじゅうたちっぱなしで、あしがいたい。",
-        "en": "I was standing all day and my legs hurt."
-      },
-      {
-        "ja": "水を出しっぱなしにしないでください。",
-        "reading": "みずをだしっぱなしにしないでください。",
-        "en": "Please don't leave the water running."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Two uses: something left undone after an action (negligence), and a state continuing unrelieved. Compare 〜たまま (neutral). 話し言葉寄り."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-76",
-    "slug": "76-te",
-    "level": "n2",
-    "order": 76,
-    "title": "〜て以来",
-    "romaji": "te",
-    "meaning": "ever since (doing)",
-    "simpleExplanation": "ever since (doing)",
-    "formation": [
-      "Vて + 以来"
-    ],
-    "examples": [
-      {
-        "ja": "日本に来て以来、一度も国に帰っていない。",
-        "reading": "にほんにきていらい、いちどもくににかえっていない。",
-        "en": "Since coming to Japan, I haven't gone home once."
-      },
-      {
-        "ja": "結婚して以来、彼はすっかり変わった。",
-        "reading": "けっこんしていらい、かれはすっかりかわった。",
-        "en": "Ever since getting married, he has changed completely."
-      },
-      {
-        "ja": "手術をして以来、体調がいい。",
-        "reading": "しゅじゅつをしていらい、たいちょうがいい。",
-        "en": "Since the operation, I've been in good health."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Verb form of 以来 (see 4); continuing state from a one-time past event. Slightly formal. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-77",
-    "slug": "77-tekaradenaito-tekaradenakereba",
-    "level": "n2",
-    "order": 77,
-    "title": "〜てからでないと / 〜てからでなければ",
-    "romaji": "tekaradenaito-tekaradenakereba",
-    "meaning": "unless ... first, not until",
-    "simpleExplanation": "unless ... first, not until",
-    "formation": [
-      "Vて + からでないと / からでなければ (+ negative / impossibility)"
-    ],
-    "examples": [
-      {
-        "ja": "会員登録をしてからでないと、利用できません。",
-        "reading": "かいいんとうろくをしてからでないと、りようできません。",
-        "en": "You cannot use it unless you register as a member first."
-      },
-      {
-        "ja": "上司に確認してからでなければ、お答えできません。",
-        "reading": "じょうしにかくにんしてからでなければ、おこたえできません。",
-        "en": "I can't answer until I've checked with my supervisor."
-      },
-      {
-        "ja": "準備運動をしてからでないと、泳いではいけない。",
-        "reading": "じゅんびうんどうをしてからでないと、およいではいけない。",
-        "en": "You must not swim without warming up first."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Precondition; main clause is negative or \"cannot\". Both registers, common in rules."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-78",
     "slug": "78-teshouganai-teshikataganai",
     "level": "n2",
@@ -3200,46 +2384,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-81",
-    "slug": "81-toiukotoda",
-    "level": "n2",
-    "order": 81,
-    "title": "〜ということだ",
-    "romaji": "toiukotoda",
-    "meaning": "(a) I hear that (hearsay); (b) that means, in other words",
-    "simpleExplanation": "(a) I hear that (hearsay); (b) that means, in other words",
-    "formation": [
-      "普通形 + ということだ"
-    ],
-    "examples": [
-      {
-        "ja": "社長は来週帰国するということだ。",
-        "reading": "しゃちょうはらいしゅうきこくするということだ。",
-        "en": "I hear the president returns next week."
-      },
-      {
-        "ja": "返事がないということは、興味がないということだ。",
-        "reading": "へんじがないということは、きょうみがないということだ。",
-        "en": "No reply means they aren't interested."
-      },
-      {
-        "ja": "今年の夏は例年より暑いということです。",
-        "reading": "ことしのなつはれいねんよりあついということです。",
-        "en": "They say this summer is hotter than usual."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Hearsay use is more formal than そうだ (also 〜とのことだ). Conclusion use = \"which means\". Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-82",
     "slug": "82-toiuto-toieba-toittara",
     "level": "n2",
@@ -3352,46 +2496,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Partial denial of a common assumption, often after 〜ば. Compare 〜わけではない. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-85",
-    "slug": "85-toiuyori",
-    "level": "n2",
-    "order": 85,
-    "title": "〜というより",
-    "romaji": "toiuyori",
-    "meaning": "rather than (calling it) ...",
-    "simpleExplanation": "rather than (calling it) ...",
-    "formation": [
-      "普通形 / N + というより(も)"
-    ],
-    "examples": [
-      {
-        "ja": "彼は教師というより、友達のようだ。",
-        "reading": "かれはきょうしというより、ともだちのようだ。",
-        "en": "He is more like a friend than a teacher."
-      },
-      {
-        "ja": "涼しいというより、寒いくらいだ。",
-        "reading": "すずしいというより、さむいくらいだ。",
-        "en": "Rather than cool, it's more like cold."
-      },
-      {
-        "ja": "走ったというより、飛んだ感じだった。",
-        "reading": "はしったというより、とんだかんじだった。",
-        "en": "It felt less like running and more like flying."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Corrects a description to a more accurate one; often with むしろ. Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -3552,46 +2656,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "ところに/へ + arrival/occurrence; ところを + 見る/見つける/呼び止める/助ける. Also polite お忙しいところを. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-90",
-    "slug": "90-toshitara-tosureba-tosuruto",
-    "level": "n2",
-    "order": 90,
-    "title": "〜としたら / 〜とすれば / 〜とすると",
-    "romaji": "toshitara-tosureba-tosuruto",
-    "meaning": "if we suppose that, assuming",
-    "simpleExplanation": "if we suppose that, assuming",
-    "formation": [
-      "普通形 + としたら / とすれば / とすると"
-    ],
-    "examples": [
-      {
-        "ja": "一億円あるとしたら、何に使いますか。",
-        "reading": "いちおくえんあるとしたら、なににつかいますか。",
-        "en": "If you had 100 million yen, what would you spend it on?"
-      },
-      {
-        "ja": "彼が犯人だとすれば、動機は何だろう。",
-        "reading": "かれがはんにんだとすれば、どうきはなんだろう。",
-        "en": "If he is the culprit, what would the motive be?"
-      },
-      {
-        "ja": "今出発するとすると、着くのは夜中になる。",
-        "reading": "いましゅっぱつするとすると、つくのはよなかになる。",
-        "en": "If we leave now, we'll arrive in the middle of the night."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Hypothesis then judgment; とすると tends toward logical consequence, としたら toward imagining. Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -3806,26 +2870,33 @@
     "order": 96,
     "title": "〜ながら(も)",
     "romaji": "nagara",
-    "meaning": "although, despite (being)",
-    "simpleExplanation": "although, despite (being)",
+    "meaning": "\"although ~\", \"despite being ~\" — a concession, not simultaneous action.",
+    "simpleExplanation": "This is the concessive ながら, distinct from the N5 \"while doing\" ながら: here it attaches to adjectives and nouns as well, and the two clauses contrast.",
     "formation": [
-      "Vます + ながら(も) / Aい + ながら(も) / Aな + ながら(も) / N + ながら(も) / Vて いながら"
+      "V-ます stem + ながら(も)",
+      "い-adj / な-adj stem / N + ながら(も)",
+      "V-ている → 〜ていながら"
     ],
     "examples": [
       {
-        "ja": "彼は若いながらも、しっかりしている。",
-        "reading": "かれはわかいながらも、しっかりしている。",
-        "en": "Although young, he is reliable."
-      },
-      {
         "ja": "狭いながらも、楽しい我が家だ。",
         "reading": "せまいながらも、たのしいわがやだ。",
-        "en": "Small though it is, it's our happy home."
+        "en": "Small though it is, it's a happy home."
+      },
+      {
+        "ja": "彼は若いながらも、しっかりしている。",
+        "reading": "かれはわかいながらも、しっかりしている。",
+        "en": "Young as he is, he is very reliable."
       },
       {
         "ja": "知っていながら、教えてくれなかった。",
         "reading": "しっていながら、おしえてくれなかった。",
-        "en": "Even though he knew, he didn't tell me."
+        "en": "Although he knew, he didn't tell me."
+      },
+      {
+        "ja": "彼は貧しいながらも、幸せに暮らしていた。",
+        "reading": "かれはまずしいながらも、しあわせにくらしていた。",
+        "en": "Poor though he was, he lived happily."
       }
     ],
     "similarGrammar": [],
@@ -3837,7 +2908,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Somewhat literary; common in set phrases such as 狭いながらも and 残念ながら."
   },
   {
     "id": "n2-grammar-97",
@@ -4086,10 +3158,12 @@
     "order": 103,
     "title": "〜にかかわる",
     "romaji": "nikakawaru",
-    "meaning": "related to, affecting (something important)",
-    "simpleExplanation": "related to, affecting (something important)",
+    "meaning": "\"relates to ~\", \"affects ~\" — where what follows is something vital (life, reputation, honour).",
+    "simpleExplanation": "The noun before it must be something important enough to be at stake. It also has the neutral sense \"be involved in (work on) ~\" as in 教育にかかわる仕事.",
     "formation": [
-      "N + にかかわる (+ N)"
+      "N + にかかわる + N",
+      "N + にかかわる (sentence-final)",
+      "Common nouns: 命, 信用, 名誉, 生死"
     ],
     "examples": [
       {
@@ -4098,14 +3172,19 @@
         "en": "This is a matter of life and death."
       },
       {
-        "ja": "会社の信用にかかわることなので、慎重に対応する。",
-        "reading": "かいしゃのしんようにかかわることなので、しんちょうにたいおうする。",
-        "en": "Since it affects the company's credibility, we'll handle it carefully."
-      },
-      {
         "ja": "教育にかかわる仕事がしたい。",
         "reading": "きょういくにかかわるしごとがしたい。",
-        "en": "I want a job related to education."
+        "en": "I want a job connected with education."
+      },
+      {
+        "ja": "会社の信用にかかわることなので、慎重に対応する。",
+        "reading": "かいしゃのしんようにかかわることなので、しんちょうにたいおうする。",
+        "en": "It affects the company's reputation, so we'll handle it carefully."
+      },
+      {
+        "ja": "彼は長年、環境問題にかかわる仕事をしてきた。",
+        "reading": "かれはながねん、かんきょうもんだいにかかわるしごとをしてきた。",
+        "en": "He has worked on environmental issues for many years."
       }
     ],
     "similarGrammar": [],
@@ -4117,7 +3196,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Formal speech and writing about serious matters."
   },
   {
     "id": "n2-grammar-104",
@@ -4192,166 +3272,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Formal substitution; 〜の代わりに is the everyday form. 書き言葉 / formal."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-106",
-    "slug": "106-nishite-nisuru",
-    "level": "n2",
-    "order": 106,
-    "title": "〜に関して / 〜に関する",
-    "romaji": "nishite-nisuru",
-    "meaning": "concerning, regarding, related to",
-    "simpleExplanation": "concerning, regarding, related to",
-    "formation": [
-      "N + に関して / に関しては / に関する + N"
-    ],
-    "examples": [
-      {
-        "ja": "この件に関して、何か質問はありますか。",
-        "reading": "このけんにかんして、なにかしつもんはありますか。",
-        "en": "Do you have any questions regarding this matter?"
-      },
-      {
-        "ja": "環境問題に関する本を読んでいる。",
-        "reading": "かんきょうもんだいにかんするほんをよんでいる。",
-        "en": "I am reading a book on environmental issues."
-      },
-      {
-        "ja": "費用に関しては、後日ご連絡します。",
-        "reading": "ひようにかんしては、ごじつごれんらくします。",
-        "en": "Regarding the cost, we will contact you at a later date."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "More formal than について; に関する modifies a noun directly. 書き言葉 / formal speech."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-107",
-    "slug": "107-nimatteiru",
-    "level": "n2",
-    "order": 107,
-    "title": "〜に決まっている",
-    "romaji": "nimatteiru",
-    "meaning": "is definitely, must surely be (speaker's strong conviction)",
-    "simpleExplanation": "is definitely, must surely be (speaker's strong conviction)",
-    "formation": [
-      "普通形 (Aな / N without だ) + に決まっている"
-    ],
-    "examples": [
-      {
-        "ja": "そんな話は嘘に決まっている。",
-        "reading": "そんなはなしはうそにきまっている。",
-        "en": "A story like that is surely a lie."
-      },
-      {
-        "ja": "毎日練習すれば、上手になるに決まっている。",
-        "reading": "まいにちれんしゅうすれば、じょうずになるにきまっている。",
-        "en": "If you practice every day, you are bound to get better."
-      },
-      {
-        "ja": "あんなに高い店、おいしいに決まっているよ。",
-        "reading": "あんなにたかいみせ、おいしいにきまっているよ。",
-        "en": "A restaurant that expensive is bound to be delicious."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Subjective certainty, often emotional; less formal than に違いない. 話し言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-108",
-    "slug": "108-nibete-nibe",
-    "level": "n2",
-    "order": 108,
-    "title": "〜に比べて / 〜に比べ",
-    "romaji": "nibete-nibe",
-    "meaning": "compared to",
-    "simpleExplanation": "compared to",
-    "formation": [
-      "N + に比べて / に比べ / に比べると"
-    ],
-    "examples": [
-      {
-        "ja": "去年に比べて、今年は雨が多い。",
-        "reading": "きょねんにくらべて、ことしはあめがおおい。",
-        "en": "Compared to last year, there is a lot of rain this year."
-      },
-      {
-        "ja": "都会に比べ、田舎は物価が安い。",
-        "reading": "とかいにくらべ、いなかはぶっかがやすい。",
-        "en": "Compared to the city, prices in the countryside are low."
-      },
-      {
-        "ja": "兄に比べると、弟はおとなしい。",
-        "reading": "あににくらべると、おとうとはおとなしい。",
-        "en": "Compared with his older brother, the younger one is quiet."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Neutral comparison; に比べ is the written form. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-109",
-    "slug": "109-niete-nie",
-    "level": "n2",
-    "order": 109,
-    "title": "〜に加えて / 〜に加え",
-    "romaji": "niete-nie",
-    "meaning": "in addition to, on top of",
-    "simpleExplanation": "in addition to, on top of",
-    "formation": [
-      "N + に加えて / に加え"
-    ],
-    "examples": [
-      {
-        "ja": "強風に加えて、大雨も降り出した。",
-        "reading": "きょうふうにくわえて、おおあめもふりだした。",
-        "en": "On top of the strong wind, heavy rain began to fall."
-      },
-      {
-        "ja": "英語に加え、中国語も勉強している。",
-        "reading": "えいごにくわえ、ちゅうごくごもべんきょうしている。",
-        "en": "In addition to English, I am also studying Chinese."
-      },
-      {
-        "ja": "学費に加えて、生活費も必要だ。",
-        "reading": "がくひにくわえて、せいかつひもひつようだ。",
-        "en": "In addition to tuition, living expenses are also needed."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Adds a second item of the same kind; often paired with も. 書き言葉 / formal."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -4560,86 +3480,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-115",
-    "slug": "115-nishiteha",
-    "level": "n2",
-    "order": 115,
-    "title": "〜にしては",
-    "romaji": "nishiteha",
-    "meaning": "for (a …), considering (contrary to expectation)",
-    "simpleExplanation": "for (a …), considering (contrary to expectation)",
-    "formation": [
-      "N / 普通形 (Aな-stem / N without だ) + にしては"
-    ],
-    "examples": [
-      {
-        "ja": "初めてにしては、上手にできましたね。",
-        "reading": "はじめてにしては、じょうずにできましたね。",
-        "en": "For a first attempt, you did quite well."
-      },
-      {
-        "ja": "彼は日本に十年住んでいるにしては、日本語が下手だ。",
-        "reading": "かれはにほんにじゅうねんすんでいるにしては、にほんごがへただ。",
-        "en": "For someone who has lived in Japan ten years, his Japanese is poor."
-      },
-      {
-        "ja": "三月にしては寒い日が続いている。",
-        "reading": "さんがつにしてはさむいひがつづいている。",
-        "en": "It has been cold for March."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "The result deviates from the standard expected of the noun; requires a concrete noun (not vague ones like 年齢). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-116",
-    "slug": "116-nishitemo",
-    "level": "n2",
-    "order": 116,
-    "title": "〜にしても",
-    "romaji": "nishitemo",
-    "meaning": "even if, even though; even from the standpoint of",
-    "simpleExplanation": "even if, even though; even from the standpoint of",
-    "formation": [
-      "普通形 / N + にしても"
-    ],
-    "examples": [
-      {
-        "ja": "行くにしても、来週以降になるだろう。",
-        "reading": "いくにしても、らいしゅういこうになるだろう。",
-        "en": "Even if I go, it will be next week or later."
-      },
-      {
-        "ja": "冗談にしても、言い過ぎだよ。",
-        "reading": "じょうだんにしても、いいすぎだよ。",
-        "en": "Even as a joke, that goes too far."
-      },
-      {
-        "ja": "忙しかったにしても、連絡ぐらいはすべきだった。",
-        "reading": "いそがしかったにしても、れんらくぐらいはすべきだった。",
-        "en": "Even if you were busy, you should at least have contacted me."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Often carries mild criticism; 〜にしても〜にしても lists alternatives. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-117",
     "slug": "117-nishiro-niseyo-niseyoniseyo",
     "level": "n2",
@@ -4840,51 +3680,11 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-122",
-    "slug": "122-niinai",
-    "level": "n2",
-    "order": 122,
-    "title": "〜に違いない",
-    "romaji": "niinai",
-    "meaning": "must be, no doubt (speaker's confident inference)",
-    "simpleExplanation": "must be, no doubt (speaker's confident inference)",
-    "formation": [
-      "普通形 (Aな / N without だ) + に違いない"
-    ],
-    "examples": [
-      {
-        "ja": "電気がついているから、彼は家にいるに違いない。",
-        "reading": "でんきがついているから、かれはいえにいるにちがいない。",
-        "en": "The lights are on, so he must be home."
-      },
-      {
-        "ja": "あの二人は兄弟に違いない。",
-        "reading": "あのふたりはきょうだいにちがいない。",
-        "en": "Those two must be brothers."
-      },
-      {
-        "ja": "彼女は何か知っているに違いない。",
-        "reading": "かのじょはなにかしっているにちがいない。",
-        "en": "She must know something."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Based on evidence or reasoning; stronger than だろう, more neutral than に決まっている. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-123",
     "slug": "123-nitsuite-nitsuki-nitsuiteno",
     "level": "n2",
     "order": 123,
-    "title": "〜について / 〜につき / 〜についての",
+    "title": "〜について vs 〜に関して",
     "romaji": "nitsuite-nitsuki-nitsuiteno",
     "meaning": "about, concerning",
     "simpleExplanation": "about, concerning",
@@ -4992,46 +3792,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Followed by a naturally arising feeling or thought, not a deliberate action; 何かにつけ / 何事につけ are set phrases. 書き言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-126",
-    "slug": "126-nitsurete-nitsure",
-    "level": "n2",
-    "order": 126,
-    "title": "〜につれて / 〜につれ",
-    "romaji": "nitsurete-nitsure",
-    "meaning": "as … (one change accompanies another)",
-    "simpleExplanation": "as … (one change accompanies another)",
-    "formation": [
-      "Vる / N + につれて / につれ"
-    ],
-    "examples": [
-      {
-        "ja": "時間がたつにつれて、悲しみは薄れていった。",
-        "reading": "じかんがたつにつれて、かなしみはうすれていった。",
-        "en": "As time passed, the sadness faded."
-      },
-      {
-        "ja": "年齢が上がるにつれ、体力が落ちる。",
-        "reading": "ねんれいがあがるにつれ、たいりょくがおちる。",
-        "en": "As one gets older, physical strength declines."
-      },
-      {
-        "ja": "人口の増加につれて、住宅問題が深刻になった。",
-        "reading": "じんこうのぞうかにつれて、じゅうたくもんだいがしんこくになった。",
-        "en": "As the population increased, the housing problem became serious."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Both clauses describe gradual change; the second clause is not volitional (cannot end in intention or request). Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -5280,46 +4040,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-133",
-    "slug": "133-niyoruto-niyoreba",
-    "level": "n2",
-    "order": 133,
-    "title": "〜によると / 〜によれば",
-    "romaji": "niyoruto-niyoreba",
-    "meaning": "according to (source of information)",
-    "simpleExplanation": "according to (source of information)",
-    "formation": [
-      "N + によると / によれば … そうだ / ということだ / らしい"
-    ],
-    "examples": [
-      {
-        "ja": "天気予報によると、明日は雪だそうだ。",
-        "reading": "てんきよほうによると、あしたはゆきだそうだ。",
-        "en": "According to the weather forecast, it will snow tomorrow."
-      },
-      {
-        "ja": "新聞によれば、失業率が下がったということだ。",
-        "reading": "しんぶんによれば、しつぎょうりつがさがったということだ。",
-        "en": "According to the newspaper, the unemployment rate has fallen."
-      },
-      {
-        "ja": "彼の話によると、店は来月閉まるらしい。",
-        "reading": "かれのはなしによると、みせはらいげつしまるらしい。",
-        "en": "From what he says, the shop will apparently close next month."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Sentence normally ends with a hearsay marker. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-134",
     "slug": "134-niwatatte-niwatari-niwataru",
     "level": "n2",
@@ -5512,46 +4232,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "のもとで marks the place or person under which action occurs; のもとに is more abstract (conditions, agreement). 書き言葉."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-139",
-    "slug": "139-bahodo",
-    "level": "n2",
-    "order": 139,
-    "title": "〜ば〜ほど",
-    "romaji": "bahodo",
-    "meaning": "the more …, the more …",
-    "simpleExplanation": "the more …, the more …",
-    "formation": [
-      "Vば + Vる + ほど; Aければ + Aい + ほど; Aなら(ば) + Aな + ほど; Nであれば + Nである + ほど"
-    ],
-    "examples": [
-      {
-        "ja": "練習すればするほど、上手になる。",
-        "reading": "れんしゅうすればするほど、じょうずになる。",
-        "en": "The more you practice, the better you get."
-      },
-      {
-        "ja": "値段が高ければ高いほど、品質がいいとは限らない。",
-        "reading": "ねだんがたかければたかいほど、ひんしつがいいとはかぎらない。",
-        "en": "The higher the price, the better the quality is not necessarily true."
-      },
-      {
-        "ja": "説明は簡単なら簡単なほどいい。",
-        "reading": "せつめいはかんたんならかんたんなほどいい。",
-        "en": "The simpler the explanation, the better."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "The ば clause may be dropped (Vるほど alone) in casual speech. Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -5840,46 +4520,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-147",
-    "slug": "147-hodo",
-    "level": "n2",
-    "order": 147,
-    "title": "〜ほど",
-    "romaji": "hodo",
-    "meaning": "(1) to the extent that, so … that; (2) about (approximate amount)",
-    "simpleExplanation": "(1) to the extent that, so … that; (2) about (approximate amount)",
-    "formation": [
-      "普通形 / N + ほど"
-    ],
-    "examples": [
-      {
-        "ja": "涙が出るほど嬉しかった。",
-        "reading": "なみだがでるほどうれしかった。",
-        "en": "I was so happy that tears came."
-      },
-      {
-        "ja": "今日は死ぬほど疲れた。",
-        "reading": "きょうはしぬほどつかれた。",
-        "en": "Today I am dead tired."
-      },
-      {
-        "ja": "一週間ほど休みを取りたい。",
-        "reading": "いっしゅうかんほどやすみをとりたい。",
-        "en": "I would like to take about a week off."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Meaning (1) is like くらい but sounds slightly more written/emphatic. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-148",
     "slug": "148-hodonai-kuraihanai",
     "level": "n2",
@@ -6000,46 +4640,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-151",
-    "slug": "151-mobamo-monaramo",
-    "level": "n2",
-    "order": 151,
-    "title": "〜も〜ば〜も / 〜も〜なら〜も",
-    "romaji": "mobamo-monaramo",
-    "meaning": "both … and …; not only … but also",
-    "simpleExplanation": "both … and …; not only … but also",
-    "formation": [
-      "N + も + Vば / Aければ / Aなら / Nなら + N + も"
-    ],
-    "examples": [
-      {
-        "ja": "彼はお酒も飲めば、たばこも吸う。",
-        "reading": "かれはおさけものめば、たばこもすう。",
-        "en": "He both drinks and smokes."
-      },
-      {
-        "ja": "この店は値段も安ければ、味もいい。",
-        "reading": "このみせはねだんもやすければ、あじもいい。",
-        "en": "At this restaurant the prices are cheap and the food is good too."
-      },
-      {
-        "ja": "彼女は歌も上手なら、ダンスも上手だ。",
-        "reading": "かのじょはうたもじょうずなら、ダンスもじょうずだ。",
-        "en": "She is good at singing and good at dancing too."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Lists two items of the same tendency (both good or both bad). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-152",
     "slug": "152-mokamawazu",
     "level": "n2",
@@ -6072,46 +4672,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Usually describes something normally worth caring about being ignored. 書き言葉 / narrative."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-153",
-    "slug": "153-mono-mon",
-    "level": "n2",
-    "order": 153,
-    "title": "〜もの / 〜もん",
-    "romaji": "mono-mon",
-    "meaning": "because (childish or feminine justification)",
-    "simpleExplanation": "because (childish or feminine justification)",
-    "formation": [
-      "普通形 + もの / もん; N + だもの / だもん"
-    ],
-    "examples": [
-      {
-        "ja": "だって、行きたくないんだもん。",
-        "reading": "だって、いきたくないんだもん。",
-        "en": "But I just don't want to go."
-      },
-      {
-        "ja": "食べられないよ。嫌いなんだもの。",
-        "reading": "たべられないよ。きらいなんだもの。",
-        "en": "I can't eat it. I hate it, after all."
-      },
-      {
-        "ja": "仕方ないよ。まだ子供だもの。",
-        "reading": "しかたないよ。まだこどもだもの。",
-        "en": "It can't be helped. He's still a child."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Often with だって; sounds like a spoiled excuse. 話し言葉 (casual, childlike)."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -6472,46 +5032,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Strong reasoned denial; interchangeable with はずがない. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-163",
-    "slug": "163-wakeda",
-    "level": "n2",
-    "order": 163,
-    "title": "〜わけだ",
-    "romaji": "wakeda",
-    "meaning": "that is why, so it follows that, no wonder",
-    "simpleExplanation": "that is why, so it follows that, no wonder",
-    "formation": [
-      "普通形 (Aな + な / N + の・という) + わけだ"
-    ],
-    "examples": [
-      {
-        "ja": "彼は十年も日本にいたのか。道理で日本語が上手なわけだ。",
-        "reading": "かれはじゅうねんもにほんにいたのか。どうりでにほんごがじょうずなわけだ。",
-        "en": "He was in Japan ten years? No wonder his Japanese is good."
-      },
-      {
-        "ja": "三割引だから、一万円が七千円になるわけだ。",
-        "reading": "さんわりびきだから、いちまんえんがななせんえんになるわけだ。",
-        "en": "It's 30 percent off, so 10,000 yen becomes 7,000 yen."
-      },
-      {
-        "ja": "つまり、彼女は来ないというわけですね。",
-        "reading": "つまり、かのじょはこないというわけですね。",
-        "en": "So in other words, she is not coming, is that it?"
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Logical conclusion from known facts; often with 道理で / つまり. Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -7040,46 +5560,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-177",
-    "slug": "177-karakoso",
-    "level": "n2",
-    "order": 177,
-    "title": "〜からこそ",
-    "romaji": "karakoso",
-    "meaning": "precisely because",
-    "simpleExplanation": "precisely because",
-    "formation": [
-      "普通形 + からこそ"
-    ],
-    "examples": [
-      {
-        "ja": "君のことを思っているからこそ、厳しく言うんだ。",
-        "reading": "きみのことをおもっているからこそ、きびしくいうんだ。",
-        "en": "It is precisely because I care about you that I speak harshly."
-      },
-      {
-        "ja": "苦労したからこそ、今の成功がある。",
-        "reading": "くろうしたからこそ、いまのせいこうがある。",
-        "en": "It is precisely because of the hardship that today's success exists."
-      },
-      {
-        "ja": "大切な人だからこそ、本当のことを言いたい。",
-        "reading": "たいせつなひとだからこそ、ほんとうのことをいいたい。",
-        "en": "Precisely because you are important to me, I want to tell you the truth."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Emphasizes a reason that might seem unexpected; often ends in のだ. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-178",
     "slug": "178-tekoso",
     "level": "n2",
@@ -7112,41 +5592,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "The following clause states a positive result achieved through the condition. Both registers, slightly formal."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-179",
-    "slug": "179-koso",
-    "level": "n2",
-    "order": 179,
-    "title": "〜こそ",
-    "romaji": "koso",
-    "meaning": "precisely, the very (emphasis)",
-    "simpleExplanation": "precisely, the very (emphasis)",
-    "formation": [
-      "N / phrase + こそ"
-    ],
-    "examples": [
-      {
-        "ja": "こちらこそ、よろしくお願いします。",
-        "reading": "こちらこそ、よろしくおねがいします。",
-        "en": "It is I who should ask for your kind regard."
-      },
-      {
-        "ja": "これこそ、私が探していた本だ。",
-        "reading": "これこそ、わたしがさがしていたほんだ。",
-        "en": "This is the very book I was looking for."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Singles out one item over alternatives; 今度こそ / 今年こそ express renewed resolve. Both registers."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -7241,26 +5686,28 @@
     "order": 182,
     "title": "〜ずじまい",
     "romaji": "zujimai",
-    "meaning": "ended up not doing (regretfully)",
-    "simpleExplanation": "ended up not doing (regretfully)",
+    "meaning": "\"ended up never doing ~\" — a regret that something intended was never done.",
+    "simpleExplanation": "Uses the ない-stem plus ずじまい (する becomes せずじまい). It always carries regret about an opportunity that has now passed for good.",
     "formation": [
-      "Vない-stem + ずじまい (する → せずじまい)"
+      "V-ない stem + ずじまい",
+      "する → せずじまい",
+      "Often 〜ずじまいだ / 〜ずじまいで / 〜ずじまいになる"
     ],
     "examples": [
       {
-        "ja": "忙しくて、京都に行ったのにお寺を見ずじまいだった。",
-        "reading": "いそがしくて、きょうとにいったのにおてらをみずじまいだった。",
-        "en": "I was so busy that although I went to Kyoto I ended up not seeing any temples."
+        "ja": "結局、その本は読まずじまいになった。",
+        "reading": "けっきょく、そのほんはよまずじまいになった。",
+        "en": "In the end I never did read that book."
+      },
+      {
+        "ja": "せっかく京都に行ったのに、金閣寺は見ずじまいだった。",
+        "reading": "せっかくきょうとにいったのに、きんかくじはみずじまいだった。",
+        "en": "I went all the way to Kyoto and still never saw Kinkaku-ji."
       },
       {
         "ja": "彼に本当の気持ちを言えずじまいで、卒業してしまった。",
         "reading": "かれにほんとうのきもちをいえずじまいで、そつぎょうしてしまった。",
-        "en": "I graduated without ever being able to tell him my true feelings."
-      },
-      {
-        "ja": "結局、その本は読まずじまいになった。",
-        "reading": "けっきょく、そのほんはよまずじまいになった。",
-        "en": "In the end, I never got around to reading that book."
+        "en": "I graduated without ever telling him how I really felt."
       }
     ],
     "similarGrammar": [],
@@ -7272,7 +5719,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Looking back on missed chances; written and spoken alike, slightly literary."
   },
   {
     "id": "n2-grammar-183",
@@ -7321,26 +5769,33 @@
     "order": 184,
     "title": "〜てまで / 〜までして",
     "romaji": "temade-madeshite",
-    "meaning": "even going so far as to (extreme measure, usually criticized)",
-    "simpleExplanation": "even going so far as to (extreme measure, usually criticized)",
+    "meaning": "\"even going so far as to ~\" — an extreme measure, usually one the speaker disapproves of.",
+    "simpleExplanation": "Use 〜てまで after a verb and N + までして after a noun. The speaker normally judges the extreme as excessive, though it can simply stress great effort.",
     "formation": [
-      "Vて + まで; N + までして"
+      "V-て + まで + verb",
+      "N + までして + verb",
+      "Often with 〜たいとは思わない / 〜必要はない"
     ],
     "examples": [
       {
         "ja": "借金をしてまで、車を買いたいとは思わない。",
         "reading": "しゃっきんをしてまで、くるまをかいたいとはおもわない。",
-        "en": "I don't want a car so badly that I'd go into debt for it."
-      },
-      {
-        "ja": "徹夜までして仕上げたのに、評価されなかった。",
-        "reading": "てつやまでしてしあげたのに、ひょうかされなかった。",
-        "en": "I even stayed up all night to finish it, yet it was not appreciated."
+        "en": "I don't want a car badly enough to go into debt for one."
       },
       {
         "ja": "人をだましてまで金を稼ぎたいのか。",
         "reading": "ひとをだましてまでかねをかせぎたいのか。",
-        "en": "Do you want money so badly that you would deceive people?"
+        "en": "Do you want money so much that you'd cheat people for it?"
+      },
+      {
+        "ja": "彼は徹夜までして、レポートを仕上げた。",
+        "reading": "かれはてつやまでして、レポートをしあげた。",
+        "en": "He went so far as to stay up all night to finish the report."
+      },
+      {
+        "ja": "徹夜までして仕上げたのに、評価されなかった。",
+        "reading": "てつやまでしてしあげたのに、ひょうかされなかった。",
+        "en": "I even pulled an all-nighter to finish it, and it wasn't appreciated."
       }
     ],
     "similarGrammar": [],
@@ -7352,47 +5807,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-185",
-    "slug": "185-bakarida",
-    "level": "n2",
-    "order": 185,
-    "title": "〜ばかりだ",
-    "romaji": "bakarida",
-    "meaning": "(1) keeps getting more and more (bad trend); (2) all that is left is to (Vるばかりだ)",
-    "simpleExplanation": "(1) keeps getting more and more (bad trend); (2) all that is left is to (Vるばかりだ)",
-    "formation": [
-      "Vる + ばかりだ"
-    ],
-    "examples": [
-      {
-        "ja": "物価は上がるばかりだ。",
-        "reading": "ぶっかはあがるばかりだ。",
-        "en": "Prices just keep rising."
-      },
-      {
-        "ja": "父の病気は悪くなるばかりで、心配だ。",
-        "reading": "ちちのびょうきはわるくなるばかりで、しんぱいだ。",
-        "en": "My father's illness only gets worse, and I am worried."
-      },
-      {
-        "ja": "準備は終わった。あとは出発するばかりだ。",
-        "reading": "じゅんびはおわった。あとはしゅっぱつするばかりだ。",
-        "en": "Preparations are done. All that remains is to leave."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Meaning (1) is negative change only (compare 一方だ, which is neutral). Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Criticising excess, or admiring exceptional lengths; formal-leaning."
   },
   {
     "id": "n2-grammar-186",
@@ -7427,46 +5843,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Used for others' observable feelings, not the speaker's own; the object takes を. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-187",
-    "slug": "187-ppoi",
-    "level": "n2",
-    "order": 187,
-    "title": "〜っぽい",
-    "romaji": "ppoi",
-    "meaning": "-ish, tends to, looks like",
-    "simpleExplanation": "-ish, tends to, looks like",
-    "formation": [
-      "N / Aい-stem / Vます + っぽい"
-    ],
-    "examples": [
-      {
-        "ja": "彼は最近忘れっぽくなった。",
-        "reading": "かれはさいきんわすれっぽくなった。",
-        "en": "He has become forgetful lately."
-      },
-      {
-        "ja": "子供っぽい話し方はやめなさい。",
-        "reading": "こどもっぽいはなしかたはやめなさい。",
-        "en": "Stop talking in a childish way."
-      },
-      {
-        "ja": "この服は安っぽく見える。",
-        "reading": "このふくはやすっぽくみえる。",
-        "en": "These clothes look cheap."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Often slightly negative; conjugates as an i-adjective. 話し言葉."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -7715,46 +6091,6 @@
     "enriched": false
   },
   {
-    "id": "n2-grammar-194",
-    "slug": "194-youtoshinai",
-    "level": "n2",
-    "order": 194,
-    "title": "〜ようとしない",
-    "romaji": "youtoshinai",
-    "meaning": "shows no sign of trying to, refuses to",
-    "simpleExplanation": "shows no sign of trying to, refuses to",
-    "formation": [
-      "Vよう (volitional) + としない"
-    ],
-    "examples": [
-      {
-        "ja": "彼は自分の間違いを認めようとしない。",
-        "reading": "かれはじぶんのまちがいをみとめようとしない。",
-        "en": "He refuses to admit his mistake."
-      },
-      {
-        "ja": "息子はいくら言っても勉強しようとしない。",
-        "reading": "むすこはいくらいってもべんきょうしようとしない。",
-        "en": "No matter what I say, my son will not try to study."
-      },
-      {
-        "ja": "医者の忠告を聞こうとしない。",
-        "reading": "いしゃのちゅうこくをきこうとしない。",
-        "en": "She will not listen to the doctor's advice."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Describes another person's unwillingness; ようとする = try to / be about to. Both registers."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n2-grammar-195",
     "slug": "195-zunimu-nakutemu-naidemu",
     "level": "n2",
@@ -7787,46 +6123,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Relief that something troublesome was avoided. Both registers (ずに is more formal)."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n2-grammar-196",
-    "slug": "196-kotoda",
-    "level": "n2",
-    "order": 196,
-    "title": "〜ことだ",
-    "romaji": "kotoda",
-    "meaning": "should, it is best to (advice)",
-    "simpleExplanation": "should, it is best to (advice)",
-    "formation": [
-      "Vる / Vない + ことだ"
-    ],
-    "examples": [
-      {
-        "ja": "合格したければ、毎日勉強することだ。",
-        "reading": "ごうかくしたければ、まいにちべんきょうすることだ。",
-        "en": "If you want to pass, you should study every day."
-      },
-      {
-        "ja": "疲れているなら、無理をしないことだ。",
-        "reading": "つかれているなら、むりをしないことだ。",
-        "en": "If you are tired, the thing to do is not to overdo it."
-      },
-      {
-        "ja": "風邪のときは、ゆっくり休むことだ。",
-        "reading": "かぜのときは、ゆっくりやすむことだ。",
-        "en": "When you have a cold, you should rest well."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Direct advice to a specific listener; different from ものだ (general norm). 話し言葉."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],

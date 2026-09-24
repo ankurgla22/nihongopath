@@ -5,14 +5,12 @@
   "order": 101,
   "title": "〜だらけ",
   "romaji": "darake",
-  "meaning": "full of… / covered in… (undesirable things)",
-  "simpleExplanation": "Noun + だらけ means \"full of\" or \"covered with\" something you do not want: 泥だらけ \"covered in mud\", 間違いだらけ \"full of mistakes\". It is always negative: you cannot say 花だらけ to praise a garden. It behaves like a noun or な-adjective: だらけだ, だらけの + noun, だらけで.",
-  "whenUsed": "Everyday complaints and vivid descriptions: rooms, clothes, essays, roads. In writing it appears in descriptive passages. Common nouns: 泥, ごみ, 傷, 間違い, ほこり, 血, しわ, 借金.",
+  "meaning": "\"full of ~\", \"covered in ~\" — always undesirable things.",
+  "simpleExplanation": "Attaches straight to a noun. Unlike いっぱい, だらけ is negative: mud, dust, mistakes, blood.",
+  "whenUsed": "Complaining or describing a mess.",
   "formation": [
-    "Noun + だらけ + だ / です",
-    "Noun + だらけ + の + Noun (泥だらけの靴)",
-    "Noun + だらけ + で、〜 (connective)",
-    "Noun + だらけになる (become covered in)"
+    "N + だらけ",
+    "+ だ / の + N / で"
   ],
   "diagram": {
     "kind": "comparison",
@@ -51,34 +49,19 @@
   },
   "examples": [
     {
-      "ja": "子供たちは泥だらけになって帰ってきた。",
-      "reading": "こどもたちはどろだらけになってかえってきた。",
-      "en": "The kids came home covered in mud.",
-      "note": "だらけになる: became covered in mud."
-    },
-    {
       "ja": "この作文は間違いだらけだ。",
       "reading": "このさくぶんはまちがいだらけだ。",
-      "en": "This essay is full of mistakes.",
-      "note": "Abstract 'full of mistakes'."
+      "en": "This essay is full of mistakes."
+    },
+    {
+      "ja": "子供たちは泥だらけになって帰ってきた。",
+      "reading": "こどもたちはどろだらけになってかえってきた。",
+      "en": "The children came home covered in mud."
     },
     {
       "ja": "部屋はほこりだらけで、掃除が大変だった。",
       "reading": "へやはほこりだらけで、そうじがたいへんだった。",
-      "en": "The room was full of dust and cleaning was hard.",
-      "note": "だらけで connective: dust everywhere, so cleaning was hard."
-    },
-    {
-      "ja": "事故の後、車は傷だらけになっていた。",
-      "reading": "じこのあと、くるまはきずだらけになっていた。",
-      "en": "After the accident, the car was covered in scratches.",
-      "note": "傷だらけ = covered in scratches or wounds."
-    },
-    {
-      "ja": "彼は借金だらけで、生活が苦しいらしい。",
-      "reading": "かれはしゃっきんだらけで、せいかつがくるしいらしい。",
-      "en": "He is deep in debt and apparently struggling to make ends meet.",
-      "note": "Abstract use with 借金."
+      "en": "The room was thick with dust and a real job to clean."
     }
   ],
   "similarGrammar": [

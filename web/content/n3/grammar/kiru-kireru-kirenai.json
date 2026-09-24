@@ -5,14 +5,13 @@
   "order": 84,
   "title": "〜きる / 〜きれる / 〜きれない",
   "romaji": "kiru / kireru / kirenai",
-  "meaning": "do completely / finish…ing; can finish; cannot finish (too much to…)",
-  "simpleExplanation": "Verb stem + 切る means \"do it all the way to the end\": 読み切る \"read it all\", 使い切る \"use it up\". 切れる is the potential form (\"can finish\"), and 切れない is the very common negative: 食べきれない \"can't eat it all\", 数え切れない \"countless\". A second meaning is \"to the extreme\": 疲れきる \"utterly exhausted\".",
-  "whenUsed": "All registers. 〜きれない is especially frequent in daily speech (too much food, too many things to do). 疲れきった, 困りきった, 信じきっている appear in narratives to show an extreme state.",
+  "meaning": "\"do ~ completely / finish ~ing\"; 〜きれる \"can finish\"; 〜きれない \"cannot finish, too much to ~\".",
+  "simpleExplanation": "切る adds the sense of doing something all the way to the end. 疲れきる, 困りきる and similar forms mean \"utterly\".",
+  "whenUsed": "Completion, capacity and exhaustion; 〜きれない is very common with quantities.",
   "formation": [
-    "Verb ます-stem + 切る (complete): 読み切る, 使い切る, 売り切る",
-    "Verb ます-stem + 切れる (can complete): 食べきれる",
-    "Verb ます-stem + 切れない (cannot complete): 食べきれない, 数えきれない",
-    "Extreme state: 疲れ切る, 困り切る, 冷え切る, 信じ切る"
+    "V-ます stem + 切る (complete)",
+    "V-ます stem + 切れる (can complete)",
+    "V-ます stem + 切れない (cannot complete)"
   ],
   "diagram": {
     "kind": "conjugation-tree",
@@ -45,32 +44,17 @@
     {
       "ja": "長い小説をやっと読み切った。",
       "reading": "ながいしょうせつをやっとよみきった。",
-      "en": "I finally finished reading the long novel.",
-      "note": "Completion: read to the very end."
+      "en": "I finally finished the long novel."
     },
     {
       "ja": "こんなにたくさん、一人では食べきれない。",
       "reading": "こんなにたくさん、ひとりではたべきれない。",
-      "en": "I can't eat this much by myself.",
-      "note": "切れない = too much to finish."
+      "en": "There's no way I can eat this much on my own."
     },
     {
       "ja": "彼は疲れきった顔をしていた。",
       "reading": "かれはつかれきったかおをしていた。",
-      "en": "He had an utterly exhausted face.",
-      "note": "Extreme state: 疲れ切った 'completely worn out'."
-    },
-    {
-      "ja": "人気の商品は午前中に売り切れてしまった。",
-      "reading": "にんきのしょうひんはごぜんちゅうにうりきれてしまった。",
-      "en": "The popular item sold out before noon.",
-      "note": "売り切れる 'sell out' is the everyday form of this pattern."
-    },
-    {
-      "ja": "空には数え切れないほどの星が輝いていた。",
-      "reading": "そらにはかぞえきれないほどのほしがかがやいていた。",
-      "en": "Countless stars were shining in the sky.",
-      "note": "数え切れないほど = 'more than one can count'."
+      "en": "He looked utterly exhausted."
     }
   ],
   "similarGrammar": [

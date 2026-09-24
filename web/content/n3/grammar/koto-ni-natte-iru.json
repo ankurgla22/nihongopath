@@ -5,14 +5,13 @@
   "order": 10,
   "title": "〜ことになっている",
   "romaji": "koto ni natte iru",
-  "meaning": "It's a rule / arrangement that… / is supposed to…",
-  "simpleExplanation": "〜ことになっている describes a rule, schedule, or custom that already exists and that you did not decide yourself: 十時までに帰ることになっている = we're supposed to be back by ten (the dorm rule says so). It is the \"resulting state\" of ことになる (it was decided).",
-  "whenUsed": "Explaining rules, appointments, company policy, customs. Very common in workplaces and institutions. Polite: 〜ことになっています.",
+  "meaning": "\"it is a rule / arrangement / custom that ~\", \"is supposed to ~\".",
+  "simpleExplanation": "The decision was made by someone else or by convention, and it is still in force. Compare 〜ことになった (a decision just made).",
+  "whenUsed": "Explaining school, workplace or household rules, and fixed schedules.",
   "formation": [
-    "Verb (dictionary form) + ことになっている",
-    "Verb (ない form) + ことになっている",
-    "Verb + てはいけない + ことになっている (it's a rule that you must not)",
-    "Noun + ということになっている (nominally, on paper)"
+    "V-dict + ことになっている",
+    "V-ない + ことになっている",
+    "〜てはいけないことになっている for prohibitions"
   ],
   "diagram": {
     "kind": "transformation",
@@ -33,34 +32,24 @@
   },
   "examples": [
     {
+      "ja": "会議は毎週月曜日に行うことになっている。",
+      "reading": "かいぎはまいしゅうげつようびにおこなうことになっている。",
+      "en": "Meetings are held every Monday as a rule."
+    },
+    {
+      "ja": "明日、部長と会うことになっています。",
+      "reading": "あした、ぶちょうとあうことになっています。",
+      "en": "I'm scheduled to meet the department head tomorrow."
+    },
+    {
       "ja": "この寮では、夜十時までに帰ることになっている。",
       "reading": "このりょうでは、よるじゅうじまでにかえることになっている。",
-      "en": "In this dorm, you're supposed to be back by 10 p.m.",
-      "note": "A dorm rule set by someone else."
+      "en": "In this dorm you're supposed to be back by ten at night."
     },
     {
-      "ja": "会議は毎週月曜日に行われることになっている。",
-      "reading": "かいぎはまいしゅうげつようびにおこなわれることになっている。",
-      "en": "The meeting is scheduled to be held every Monday.",
-      "note": "A fixed schedule for meetings."
-    },
-    {
-      "ja": "教室では日本語しか使ってはいけないことになっている。",
-      "reading": "きょうしつではにほんごしかつかってはいけないことになっている。",
-      "en": "It's a rule that only Japanese may be used in the classroom.",
-      "note": "A rule expressed with てはいけない + ことになっている."
-    },
-    {
-      "ja": "来月から、新しい部署で働くことになっています。",
-      "reading": "らいげつから、あたらしいぶしょではたらくことになっています。",
-      "en": "It's been arranged that I'll work in a new department from next month.",
-      "note": "A decision made by the company, now a settled fact."
-    },
-    {
-      "ja": "日本では、家に入るとき靴を脱ぐことになっている。",
-      "reading": "にほんでは、いえにはいるときくつをぬぐことになっている。",
-      "en": "In Japan, the custom is to take off your shoes when entering a house.",
-      "note": "Customs, not only written rules, use this pattern."
+      "ja": "校内では携帯電話を使ってはいけないことになっている。",
+      "reading": "こうないではけいたいでんわをつかってはいけないことになっている。",
+      "en": "The rule is that you may not use mobile phones on school grounds."
     }
   ],
   "similarGrammar": [

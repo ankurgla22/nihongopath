@@ -5,11 +5,13 @@
   "order": 23,
   "title": "〜か〜ないかのうちに",
   "romaji": "ka -nai ka no uchi ni",
-  "meaning": "the moment ..., barely had ... when",
-  "simpleExplanation": "〜か〜ないかのうちに means \"the moment…, barely had… when…\". The same verb is repeated in positive and negative form to say that the second action started before the first was quite finished: the bell had barely rung when the students rushed out.",
-  "whenUsed": "Both registers, mainly narrative. The first verb is repeated (鳴るか鳴らないか, 終わったか終わらないか); the second clause is an actual event in the past, not a plan or instruction. It sounds more vivid and immediate than 〜とたんに.",
+  "meaning": "\"the moment ~\", \"barely had ~ when ~\" — the second event happens before the first is even finished.",
+  "simpleExplanation": "Repeat the same verb, once affirmative and once negative, then のうちに. The second clause is nearly always in the past tense and never a command or request.",
+  "whenUsed": "Narrative description of things happening in immediate succession.",
   "formation": [
-    "Vる/Vた + か + Vない + かのうちに"
+    "V-dict / V-た + か + V-ない + かのうちに",
+    "Second clause in the past tense",
+    "No commands, requests or volitional forms in the second clause"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -36,34 +38,24 @@
   },
   "examples": [
     {
-      "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
-      "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
-      "en": "The bell had barely rung when the students dashed out of the classroom.",
-      "note": "Vる + か + Vない + かのうちに."
-    },
-    {
       "ja": "横になるかならないかのうちに、眠ってしまった。",
       "reading": "よこになるかならないかのうちに、ねむってしまった。",
-      "en": "I fell asleep almost the instant I lay down.",
-      "note": "Nearly instant sleep."
+      "en": "I was barely lying down before I fell asleep."
+    },
+    {
+      "ja": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
+      "reading": "ベルがなるかならないかのうちに、せいとたちはきょうしつをとびだした。",
+      "en": "The bell had hardly rung when the students shot out of the classroom."
     },
     {
       "ja": "食べ終わったか終わらないかのうちに、彼は席を立った。",
       "reading": "たべおわったかおわらないかのうちに、かれはせきをたった。",
-      "en": "Scarcely had he finished eating when he left his seat.",
-      "note": "Vた + か + Vない + かのうちに with a compound verb."
+      "en": "He got up from the table almost before he'd finished eating."
     },
     {
-      "ja": "ドアが閉まるか閉まらないかのうちに、電車は動き出した。",
-      "reading": "ドアがしまるかしまらないかのうちに、でんしゃはうごきだした。",
-      "en": "The train started moving almost before the doors had closed.",
-      "note": "Typical with mechanical sequences."
-    },
-    {
-      "ja": "彼は「おはよう」と言ったか言わないかのうちに、部屋を出ていった。",
-      "reading": "かれは「おはよう」といったかいわないかのうちに、へやをでていった。",
-      "en": "He left the room almost before he had finished saying good morning.",
-      "note": "Vた repeated with Vない."
+      "ja": "店が開くか開かないかのうちに、客が押し寄せた。",
+      "reading": "みせがあくかあかないかのうちに、きゃくがおしよせた。",
+      "en": "The shop had barely opened when customers came flooding in."
     }
   ],
   "similarGrammar": [
@@ -80,7 +72,7 @@
     {
       "pattern": "〜うちに",
       "difference": "\"While a state lasts\"; no repetition and no immediacy.",
-      "id": "n2-grammar-10"
+      "id": "n3-grammar-1"
     }
   ],
   "commonMistakes": [

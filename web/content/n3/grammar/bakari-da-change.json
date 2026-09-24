@@ -3,15 +3,15 @@
   "slug": "bakari-da-change",
   "level": "n3",
   "order": 99,
-  "title": "〜ばかりだ (change)",
+  "title": "〜ばかりだ",
   "romaji": "bakari da (change)",
-  "meaning": "only keeps …ing / does nothing but get… (worsening one-way change)",
-  "simpleExplanation": "〜ばかりだ (after a change verb) means the situation keeps moving in one bad direction: 成績は下がるばかりだ \"my grades just keep dropping\". It is always negative in feeling: things get worse and nothing improves. For a neutral or positive trend use 〜一方だ.",
-  "whenUsed": "Complaints and worried observations in speech and writing: 借金が増えるばかりだ, 状況は悪くなるばかりだ. Frequently followed by で + a further consequence: 増えるばかりで、減らない.",
+  "meaning": "(1) \"only keeps ~ing\", \"does nothing but get ~\" — a one-way, usually worsening change; (2) \"all that is left is to ~\" — everything else is ready.",
+  "simpleExplanation": "Both senses take a dictionary-form verb. Sense (1) uses a change verb (増える, 下がる, 悪くなる) and sounds negative; sense (2) is usually set up by あとは and means only the final step remains.",
+  "whenUsed": "Sense (1) for deteriorating trends; sense (2) when preparations are complete.",
   "formation": [
-    "Verb (dictionary form, change verb) + ばかりだ",
-    "Connective: 〜ばかりで、〜",
-    "Past: 〜ばかりだった"
+    "V-dict (change verb) + ばかりだ (worsening trend)",
+    "あとは + V-dict + ばかりだ (all that remains)",
+    "〜ばかりで、〜ない for the continuing form"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -35,34 +35,29 @@
   },
   "examples": [
     {
-      "ja": "最近、仕事が忙しくなるばかりだ。",
-      "reading": "さいきん、しごとがいそがしくなるばかりだ。",
-      "en": "Lately work just keeps getting busier.",
-      "note": "Work keeps getting busier; a complaint."
-    },
-    {
       "ja": "彼の成績は下がるばかりだ。",
       "reading": "かれのせいせきはさがるばかりだ。",
-      "en": "His grades only keep dropping.",
-      "note": "Grades dropping: a clear worsening."
+      "en": "His grades just keep dropping."
+    },
+    {
+      "ja": "最近、仕事が忙しくなるばかりだ。",
+      "reading": "さいきん、しごとがいそがしくなるばかりだ。",
+      "en": "Lately work only gets busier and busier."
+    },
+    {
+      "ja": "物価は上がるばかりだ。",
+      "reading": "ぶっかはあがるばかりだ。",
+      "en": "Prices only keep going up."
     },
     {
       "ja": "借金は増えるばかりで、減らない。",
       "reading": "しゃっきんはふえるばかりで、へらない。",
-      "en": "The debt only grows and never shrinks.",
-      "note": "ばかりで + the missing improvement (減らない)."
+      "en": "The debt only grows; it never shrinks."
     },
     {
-      "ja": "薬を飲んでも、症状はひどくなるばかりだった。",
-      "reading": "くすりをのんでも、しょうじょうはひどくなるばかりだった。",
-      "en": "Even with the medicine, the symptoms just kept getting worse.",
-      "note": "Past: ばかりだった."
-    },
-    {
-      "ja": "話し合いを続けても、二人の関係は悪くなるばかりだ。",
-      "reading": "はなしあいをつづけても、ふたりのかんけいはわるくなるばかりだ。",
-      "en": "Even though they keep talking it over, their relationship only gets worse.",
-      "note": "Adjective + なる + ばかりだ."
+      "ja": "準備は終わった。あとは出発するばかりだ。",
+      "reading": "じゅんびはおわった。あとはしゅっぱつするばかりだ。",
+      "en": "The preparations are done. All that's left is to set off."
     }
   ],
   "similarGrammar": [

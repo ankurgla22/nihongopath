@@ -5,13 +5,13 @@
   "order": 44,
   "title": "〜からには",
   "romaji": "kara niwa",
-  "meaning": "Now that… / since… (then naturally)",
-  "simpleExplanation": "〜からには means \"given that X, then Y is only natural\": 引き受けたからには、責任を持ってやります = now that I've accepted, I'll do it responsibly. The second half shows determination, obligation, or strong advice. It is close to 以上 but sounds more personal and spoken.",
-  "whenUsed": "Speech, letters, motivational contexts. Main clause: つもりだ, 〜たい, べきだ, なければならない, 〜ましょう.",
+  "meaning": "\"now that ~\", \"since ~, then naturally ~\" — determination or obligation follows.",
+  "simpleExplanation": "Very close to 〜以上(は), but slightly more emotional and more common in speech. The second clause states what you are therefore resolved to do.",
+  "whenUsed": "Declaring resolve once you have committed to something.",
   "formation": [
-    "Verb (dictionary / た form) + からには",
-    "Noun + である + からには",
-    "Main clause: resolve, duty, or advice"
+    "V-dict / V-た + からには",
+    "N + である + からには",
+    "Second clause: determination, obligation or a should-statement"
   ],
   "diagram": {
     "kind": "comparison",
@@ -46,34 +46,24 @@
   },
   "examples": [
     {
+      "ja": "試合に出るからには、勝ちたい。",
+      "reading": "しあいにでるからには、かちたい。",
+      "en": "Now that I'm playing in the match, I want to win."
+    },
+    {
       "ja": "引き受けたからには、責任を持ってやります。",
       "reading": "ひきうけたからには、せきにんをもってやります。",
-      "en": "Now that I've accepted, I'll do it responsibly.",
-      "note": "Accepting a task leads to responsibility."
+      "en": "Now that I've taken it on, I'll do it responsibly."
     },
     {
       "ja": "日本に来たからには、日本語が上手になりたい。",
       "reading": "にほんにきたからには、にほんごがじょうずになりたい。",
-      "en": "Since I've come to Japan, I want to become good at Japanese.",
-      "note": "Coming to Japan leads to a wish (上手になりたい)."
+      "en": "Now that I've come to Japan, I want to get good at Japanese."
     },
     {
-      "ja": "試合に出るからには、勝ちたい。",
-      "reading": "しあいにでるからには、かちたい。",
-      "en": "If I'm going to compete, I want to win.",
-      "note": "Entering a match leads to wanting to win."
-    },
-    {
-      "ja": "日本語を勉強すると決めたからには、N1を目指したい。",
-      "reading": "にほんごをべんきょうするときめたからには、エヌいちをめざしたい。",
-      "en": "Now that I've decided to study Japanese, I want to aim for N1.",
-      "note": "Determination expressed with 〜たい."
-    },
-    {
-      "ja": "医者であるからには、患者の命を最優先に考えるべきだ。",
-      "reading": "いしゃであるからには、かんじゃのいのちをさいゆうせんにかんがえるべきだ。",
-      "en": "As a doctor, one should put the patient's life first.",
-      "note": "Noun + であるからには + べきだ."
+      "ja": "教師であるからには、生徒の模範となるべきだ。",
+      "reading": "きょうしであるからには、せいとのもはんとなるべきだ。",
+      "en": "Since you are a teacher, you should be a model for your students."
     }
   ],
   "similarGrammar": [

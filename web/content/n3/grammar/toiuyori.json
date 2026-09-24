@@ -5,14 +5,13 @@
   "order": 71,
   "title": "〜というより",
   "romaji": "to iu yori",
-  "meaning": "rather than… / more … than … (choosing a more accurate description)",
-  "simpleExplanation": "〜というより means \"rather than (calling it) X…\". You mention one description, then replace it with a better one. It is not about comparing two different things; it is about finding the right word for one thing. \"He's not so much a teacher as a friend.\"",
-  "whenUsed": "Used in speech and writing whenever the first word that comes to mind is not quite right. Very often paired with むしろ (\"rather\") in the second half: 〜というより、むしろ〜. The polite version simply adds です・ます to the second clause.",
+  "meaning": "\"rather than ~\", \"more ~ than ~\" — replaces a description with a more accurate one.",
+  "simpleExplanation": "You reject the first label, not the fact, and offer a better one. むしろ often follows for emphasis.",
+  "whenUsed": "Refining someone's wording, in speech and writing alike.",
   "formation": [
-    "Verb (plain form) + というより",
-    "い-adjective + というより",
-    "な-adjective / Noun + (だ) + というより",
-    "Often: 〜というより(も)、むしろ〜"
+    "Plain form + というより(も)",
+    "N / な-adj + (だ) + というより",
+    "Often 〜というより(も)、むしろ〜"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,24 @@
   },
   "examples": [
     {
-      "ja": "彼は先生というより、友達のような存在だ。",
-      "reading": "かれはせんせいというより、ともだちのようなそんざいだ。",
-      "en": "He's more like a friend than a teacher.",
-      "note": "Same person; only the label changes from 先生 to 友達."
-    },
-    {
       "ja": "今日は涼しいというより寒い。",
       "reading": "きょうはすずしいというよりさむい。",
-      "en": "Today is cold rather than cool.",
-      "note": "い-adjective attaches directly: 涼しい + というより."
+      "en": "Today is cold rather than cool."
+    },
+    {
+      "ja": "彼は先生というより、友達のような存在だ。",
+      "reading": "かれはせんせいというより、ともだちのようなそんざいだ。",
+      "en": "He's more like a friend than a teacher."
+    },
+    {
+      "ja": "走ったというより、飛んだ感じだった。",
+      "reading": "はしったというより、とんだかんじだった。",
+      "en": "It felt less like running than flying."
     },
     {
       "ja": "あの人は歌手というより、むしろ俳優として有名だ。",
       "reading": "あのひとはかしゅというより、むしろはいゆうとしてゆうめいだ。",
-      "en": "He's famous more as an actor than as a singer.",
-      "note": "むしろ strengthens the correction."
-    },
-    {
-      "ja": "これは仕事というより、趣味に近い。",
-      "reading": "これはしごとというより、しゅみにちかい。",
-      "en": "This is closer to a hobby than a job.",
-      "note": "Noun + というより; だ is usually dropped."
-    },
-    {
-      "ja": "彼女は怒っているというより、悲しんでいるようだった。",
-      "reading": "かのじょはおこっているというより、かなしんでいるようだった。",
-      "en": "She seemed sad rather than angry.",
-      "note": "Verb (ている form) + というより. The speaker re-judges the emotion."
+      "en": "He's famous as an actor rather than as a singer."
     }
   ],
   "similarGrammar": [

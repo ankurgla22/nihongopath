@@ -5,14 +5,13 @@
   "order": 25,
   "title": "〜に関して / 〜に関する",
   "romaji": "ni kanshite ni kansuru",
-  "meaning": "Regarding… / related to…",
-  "simpleExplanation": "〜に関して is the formal version of について: この問題に関して、ご意見をお聞かせください = regarding this issue, please let us hear your opinion. Before a noun use に関する: 日本文化に関する本 = books related to Japanese culture. The meaning is slightly wider than について: \"connected with\".",
-  "whenUsed": "Business, academic writing, official notices, news. In casual conversation about is more natural.",
+  "meaning": "\"regarding ~\", \"concerning ~\", \"related to ~\" — the formal version of 〜について.",
+  "simpleExplanation": "Use に関する before a noun and に関して before a verb. に関しては topicalises it: \"as for ~\".",
+  "whenUsed": "Business, academic and other formal contexts.",
   "formation": [
-    "Noun + に関して",
-    "Noun + に関する + Noun",
-    "Noun + に関しては (as for…)",
-    "Written: Noun + に関し"
+    "N + に関して",
+    "N + に関する + N",
+    "N + に関しては (as for ~)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,24 @@
   },
   "examples": [
     {
-      "ja": "この問題に関して、ご意見をお聞かせください。",
-      "reading": "このもんだいにかんして、ごいけんをおきかせください。",
-      "en": "Please let us hear your opinion regarding this issue.",
-      "note": "Formal request for opinions."
+      "ja": "この件に関して、何か質問はありますか。",
+      "reading": "このけんにかんして、なにかしつもんはありますか。",
+      "en": "Do you have any questions regarding this matter?"
     },
     {
       "ja": "日本文化に関する本を探している。",
       "reading": "にほんぶんかにかんするほんをさがしている。",
-      "en": "I am looking for books related to Japanese culture.",
-      "note": "に関する + noun: books related to a subject."
+      "en": "I'm looking for a book about Japanese culture."
     },
     {
       "ja": "料金に関しては、こちらの表をご覧ください。",
       "reading": "りょうきんにかんしては、こちらのひょうをごらんください。",
-      "en": "As for fees, please see this table.",
-      "note": "に関しては: raising a topic in a notice."
+      "en": "As for the fees, please see this table."
     },
     {
-      "ja": "個人情報の取り扱いに関して、社内で研修を行った。",
-      "reading": "こじんじょうほうのとりあつかいにかんして、しゃないでけんしゅうをおこなった。",
-      "en": "We held in-house training regarding the handling of personal information.",
-      "note": "Business context; について would also work but sounds less formal."
-    },
-    {
-      "ja": "環境に関する法律は、年々厳しくなっている。",
-      "reading": "かんきょうにかんするほうりつは、ねんねんきびしくなっている。",
-      "en": "Laws related to the environment are getting stricter every year.",
-      "note": "に関する + noun in a written statement."
+      "ja": "費用に関しては、後日ご連絡します。",
+      "reading": "ひようにかんしては、ごじつごれんらくします。",
+      "en": "Regarding the cost, we'll contact you at a later date."
     }
   ],
   "similarGrammar": [

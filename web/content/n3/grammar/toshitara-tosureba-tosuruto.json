@@ -5,13 +5,13 @@
   "order": 68,
   "title": "〜としたら / 〜とすれば / 〜とすると",
   "romaji": "toshitara tosureba tosuruto",
-  "meaning": "If we suppose… / assuming…",
-  "simpleExplanation": "〜としたら / とすれば / とすると set up an assumption and ask what follows: もし一億円あるとしたら、何をしますか = if you had 100 million yen, what would you do? としたら is the most flexible (it can lead to wishes or requests); とすれば feels logical; とすると leads to a natural conclusion.",
-  "whenUsed": "Reasoning, planning, hypothetical questions. Often with もし / 仮に. Also as sentence openers: だとすると / だとしたら (if that's the case).",
+  "meaning": "\"if we suppose ~\", \"assuming ~\", \"if it is the case that ~\".",
+  "simpleExplanation": "Sets up a hypothesis and asks what follows from it. The second clause is usually a question, a guess or a conclusion, not a command.",
+  "whenUsed": "Reasoning through a hypothetical, from idle what-ifs to logical deduction.",
   "formation": [
     "Plain form + としたら / とすれば / とすると",
-    "Noun / な-adjective + だ + としたら",
-    "Sentence-initial: だとすると / だとしたら / だとすれば"
+    "N / な-adj + だ + としたら",
+    "Often introduced by もし"
   ],
   "diagram": {
     "kind": "comparison",
@@ -48,32 +48,22 @@
     {
       "ja": "もし一億円あるとしたら、何をしますか。",
       "reading": "もしいちおくえんあるとしたら、なにをしますか。",
-      "en": "If you had 100 million yen, what would you do?",
-      "note": "としたら + a question about a wish."
+      "en": "If you had 100 million yen, what would you do?"
     },
     {
       "ja": "彼が犯人だとすれば、動機は何だろう。",
       "reading": "かれがはんにんだとすれば、どうきはなんだろう。",
-      "en": "If he is the culprit, what would be the motive?",
-      "note": "とすれば + logical inference."
+      "en": "If he's the culprit, what would the motive be?"
     },
     {
       "ja": "この電車に乗るとすると、七時に着く。",
       "reading": "このでんしゃにのるとすると、しちじにつく。",
-      "en": "If we take this train, we'd arrive at seven.",
-      "note": "とすると + a natural conclusion."
+      "en": "Assuming we take this train, we'll arrive at seven."
     },
     {
-      "ja": "もし留学するとしたら、どこの国に行きたいですか。",
-      "reading": "もしりゅうがくするとしたら、どこのくににいきたいですか。",
-      "en": "If you were to study abroad, which country would you want to go to?",
-      "note": "としたら + a wish question."
-    },
-    {
-      "ja": "この計画が本当だとすると、大きな問題になるだろう。",
-      "reading": "このけいかくがほんとうだとすると、おおきなもんだいになるだろう。",
-      "en": "If this plan is real, it's going to be a big problem.",
-      "note": "Noun + だとすると + conclusion."
+      "ja": "今出発するとすると、着くのは夜中になる。",
+      "reading": "いましゅっぱつするとすると、つくのはよなかになる。",
+      "en": "If we leave now, we'd arrive in the middle of the night."
     }
   ],
   "similarGrammar": [

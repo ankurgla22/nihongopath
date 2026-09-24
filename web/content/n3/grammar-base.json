@@ -6,26 +6,34 @@
     "order": 1,
     "title": "〜うちに",
     "romaji": "uchini",
-    "meaning": "\"while ~ (still)\", \"before (the situation changes)\". Do something during a window of time while a condition holds.",
-    "simpleExplanation": "\"while ~ (still)\", \"before (the situation changes)\". Do something during a window of time while a condition holds.",
+    "meaning": "\"while ~ (still)\", \"before the situation changes\" — do something during the window in which a condition holds.",
+    "simpleExplanation": "Use it when the state will not last: do it now, while it is still true. With a negative verb (〜ないうちに) it means \"before ~ happens\".",
     "formation": [
-      "V-dict / V-ている / V-ない + うちに; い-adj + うちに; な-adj + な + うちに; N + の + うちに"
+      "V-dict / V-ている / V-ない + うちに",
+      "い-adj + うちに",
+      "な-adj + な + うちに",
+      "N + の + うちに"
     ],
     "examples": [
       {
         "ja": "温かいうちに食べてください。",
         "reading": "あたたかいうちにたべてください。",
-        "en": "Please eat it while it is still warm."
-      },
-      {
-        "ja": "日本にいるうちに、富士山に登りたい。",
-        "reading": "にほんにいるうちに、ふじさんにのぼりたい。",
-        "en": "While I am in Japan, I want to climb Mt. Fuji."
+        "en": "Please eat it while it's still warm."
       },
       {
         "ja": "忘れないうちにメモしておこう。",
         "reading": "わすれないうちにメモしておこう。",
         "en": "Let me write it down before I forget."
+      },
+      {
+        "ja": "日本にいるうちに、富士山に登りたい。",
+        "reading": "にほんにいるうちに、ふじさんにのぼりたい。",
+        "en": "I want to climb Mt. Fuji while I'm in Japan."
+      },
+      {
+        "ja": "音楽を聴いているうちに、眠ってしまった。",
+        "reading": "おんがくをきいているうちに、ねむってしまった。",
+        "en": "While listening to music, I fell asleep."
       }
     ],
     "similarGrammar": [],
@@ -37,7 +45,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Urging or planning an action that must happen inside a limited window; also for changes noticed over time (〜ているうちに)."
   },
   {
     "id": "n3-grammar-2",
@@ -46,21 +55,29 @@
     "order": 2,
     "title": "〜ば〜ほど",
     "romaji": "bahodo",
-    "meaning": "\"the more ~, the more ~\".",
-    "simpleExplanation": "\"the more ~, the more ~\".",
+    "meaning": "\"the more ~, the more ~\" — two things increase together.",
+    "simpleExplanation": "Repeat the same word twice: once in the ば-form, once in the dictionary/plain form, then ほど. 練習すれば練習するほど is usually shortened to 練習すればするほど.",
     "formation": [
-      "V-ば + V-dict + ほど; い-adj-ければ + い-adj + ほど; な-adj-なら(ば) + な-adj + な + ほど; N + なら + N + ほど"
+      "V-ば + V-dict + ほど",
+      "い-adj-ければ + い-adj + ほど",
+      "な-adj + なら(ば) + な-adj + な + ほど",
+      "N + であれば + N + である + ほど"
     ],
     "examples": [
-      {
-        "ja": "練習すればするほど上手になる。",
-        "reading": "れんしゅうすればするほどじょうずになる。",
-        "en": "The more you practice, the better you get."
-      },
       {
         "ja": "安ければ安いほどいい。",
         "reading": "やすければやすいほどいい。",
         "en": "The cheaper, the better."
+      },
+      {
+        "ja": "練習すればするほど上手になる。",
+        "reading": "れんしゅうすればするほどじょうずになる。",
+        "en": "The more you practise, the better you get."
+      },
+      {
+        "ja": "説明は簡単なら簡単なほどいい。",
+        "reading": "せつめいはかんたんならかんたんなほどいい。",
+        "en": "The simpler the explanation, the better."
       },
       {
         "ja": "日本語は勉強すればするほど難しく感じる。",
@@ -77,7 +94,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Stating a proportional relationship, in speech and writing alike."
   },
   {
     "id": "n3-grammar-3",
@@ -86,16 +104,18 @@
     "order": 3,
     "title": "〜わけだ",
     "romaji": "wakeda",
-    "meaning": "\"no wonder ~\", \"that means ~\", \"so that's why ~\". A logical conclusion drawn from facts or the speaker's realization.",
-    "simpleExplanation": "\"no wonder ~\", \"that means ~\", \"so that's why ~\". A logical conclusion drawn from facts or the speaker's realization.",
+    "meaning": "\"no wonder ~\", \"that means ~\", \"so that's why ~\" — a conclusion that follows naturally from known facts.",
+    "simpleExplanation": "Use it when the pieces suddenly fit: given what you just learned, this result is only logical. 〜というわけだ restates someone else's point (\"in other words\").",
     "formation": [
-      "plain form + わけだ (な-adj + な / N + の or な + わけだ)"
+      "Plain form + わけだ",
+      "な-adj + な + わけだ; N + の／という + わけだ",
+      "Often with 道理で or つまり"
     ],
     "examples": [
       {
         "ja": "三年も住んでいたのか。日本語が上手なわけだ。",
         "reading": "さんねんもすんでいたのか。にほんごがじょうずなわけだ。",
-        "en": "You lived there for three years? No wonder your Japanese is good."
+        "en": "You lived there three years? No wonder your Japanese is good."
       },
       {
         "ja": "一つ五百円で三つ買ったから、千五百円払ったわけだ。",
@@ -103,9 +123,14 @@
         "en": "They were 500 yen each and I bought three, so that means I paid 1,500 yen."
       },
       {
-        "ja": "電気が消えている。誰もいないわけだ。",
-        "reading": "でんきがきえている。だれもいないわけだ。",
-        "en": "The lights are off. So nobody is here."
+        "ja": "三割引だから、一万円が七千円になるわけだ。",
+        "reading": "さんわりびきだから、いちまんえんがななせんえんになるわけだ。",
+        "en": "It's 30% off, so 10,000 yen comes to 7,000 yen."
+      },
+      {
+        "ja": "つまり、彼女は来ないというわけですね。",
+        "reading": "つまり、かのじょはこないというわけですね。",
+        "en": "So in other words, she isn't coming."
       }
     ],
     "similarGrammar": [],
@@ -117,7 +142,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Reacting to new information, doing arithmetic out loud, or summarising what someone means."
   },
   {
     "id": "n3-grammar-4",
@@ -246,26 +272,33 @@
     "order": 7,
     "title": "〜ことだ",
     "romaji": "kotoda",
-    "meaning": "\"you should ~\", \"the thing to do is ~\". Advice or instruction given as a general rule.",
-    "simpleExplanation": "\"you should ~\", \"the thing to do is ~\". Advice or instruction given as a general rule.",
+    "meaning": "\"you should ~\", \"the thing to do is ~\" — advice stated as a general rule.",
+    "simpleExplanation": "Attach ことだ to a dictionary-form (or ない-form) verb. It is firm advice from someone in a position to give it, so avoid it with superiors.",
     "formation": [
-      "V-dict / V-ない + ことだ"
+      "V-dict + ことだ",
+      "V-ない + ことだ",
+      "Often after 〜たいなら / 〜なら"
     ],
     "examples": [
       {
-        "ja": "上手になりたいなら、毎日練習することだ。",
-        "reading": "じょうずになりたいなら、まいにちれんしゅうすることだ。",
-        "en": "If you want to get good, you should practice every day."
+        "ja": "風邪のときは、ゆっくり休むことだ。",
+        "reading": "かぜのときは、ゆっくりやすむことだ。",
+        "en": "When you have a cold, the thing to do is rest properly."
       },
       {
-        "ja": "風邪のときは、無理をしないことだ。",
-        "reading": "かぜのときは、むりをしないことだ。",
-        "en": "When you have a cold, the thing to do is not overdo it."
+        "ja": "上手になりたいなら、毎日練習することだ。",
+        "reading": "じょうずになりたいなら、まいにちれんしゅうすることだ。",
+        "en": "If you want to get good, you should practise every day."
+      },
+      {
+        "ja": "疲れているなら、無理をしないことだ。",
+        "reading": "つかれているなら、むりをしないことだ。",
+        "en": "If you're tired, you shouldn't push yourself."
       },
       {
         "ja": "迷ったら、先生に相談することだ。",
         "reading": "まよったら、せんせいにそうだんすることだ。",
-        "en": "If you're unsure, talk to your teacher."
+        "en": "If you're unsure, you should talk to your teacher."
       }
     ],
     "similarGrammar": [],
@@ -277,7 +310,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Giving practical advice: how to improve, what to avoid."
   },
   {
     "id": "n3-grammar-8",
@@ -286,26 +320,33 @@
     "order": 8,
     "title": "〜ことか",
     "romaji": "kotoka",
-    "meaning": "\"how ~!\", \"so very ~\". Exclamation of strong emotion, usually with a question word (どんなに / どれほど / 何〜).",
-    "simpleExplanation": "\"how ~!\", \"so very ~\". Exclamation of strong emotion, usually with a question word (どんなに / どれほど / 何〜).",
+    "meaning": "\"how ~!\", \"so very ~\" — an exclamation of strong emotion.",
+    "simpleExplanation": "Almost always paired with a question word such as どんなに, どれほど or 何度. It is emotional and literary, not an ordinary statement of degree.",
     "formation": [
-      "どんなに / どれだけ / 何度 + plain form + ことか (な-adj + な + ことか)"
+      "どんなに / どれほど / 何度 + plain form + ことか",
+      "な-adj + な + ことか",
+      "Also 〜ことだろう as a softer variant"
     ],
     "examples": [
       {
         "ja": "合格して、どんなに嬉しかったことか。",
         "reading": "ごうかくして、どんなにうれしかったことか。",
-        "en": "How happy I was to pass!"
-      },
-      {
-        "ja": "この日をどれほど待っていたことか。",
-        "reading": "このひをどれほどまっていたことか。",
-        "en": "How long I've waited for this day!"
+        "en": "How happy I was when I passed!"
       },
       {
         "ja": "何度注意したことか。",
         "reading": "なんどちゅういしたことか。",
         "en": "How many times have I warned you!"
+      },
+      {
+        "ja": "この日をどれほど待っていたことか。",
+        "reading": "このひをどれほどまっていたことか。",
+        "en": "How long I have waited for this day!"
+      },
+      {
+        "ja": "一人の夜がどれほど寂しいことか。",
+        "reading": "ひとりのよるがどれほどさびしいことか。",
+        "en": "How lonely the nights alone are!"
       }
     ],
     "similarGrammar": [],
@@ -317,7 +358,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Expressing deep joy, longing, loneliness or exasperation, often in writing or heartfelt speech."
   },
   {
     "id": "n3-grammar-9",
@@ -326,26 +368,32 @@
     "order": 9,
     "title": "〜ことはない",
     "romaji": "kotohanai",
-    "meaning": "\"there is no need to ~\", \"no reason to ~\".",
-    "simpleExplanation": "\"there is no need to ~\", \"no reason to ~\".",
+    "meaning": "(1) \"there is no need to ~\", \"no reason to ~\"; (2) \"never ~ (does not happen)\".",
+    "simpleExplanation": "Sense (1) reassures someone that an action is unnecessary. Sense (2), with a third-person subject, simply states that something never occurs.",
     "formation": [
-      "V-dict + ことはない / ことはありません"
+      "V-dict + ことはない / ことはありません",
+      "Often with そんなに or ぜんぜん for emphasis"
     ],
     "examples": [
       {
-        "ja": "小さなミスだから、そんなに心配することはない。",
-        "reading": "ちいさなミスだから、そんなにしんぱいすることはない。",
-        "en": "It's a small mistake, so there's no need to worry so much."
+        "ja": "そんなに心配することはないよ。",
+        "reading": "そんなにしんぱいすることはないよ。",
+        "en": "There's no need to worry so much."
       },
       {
         "ja": "時間はまだあるよ。急ぐことはない。",
         "reading": "じかんはまだあるよ。いそぐことはない。",
-        "en": "We still have time. No need to hurry."
+        "en": "There's still time. No need to hurry."
       },
       {
         "ja": "君が謝ることはないよ。",
         "reading": "きみがあやまることはないよ。",
-        "en": "You have no reason to apologize."
+        "en": "You have no reason to apologise."
+      },
+      {
+        "ja": "彼が約束を破ることはない。",
+        "reading": "かれがやくそくをやぶることはない。",
+        "en": "He never breaks a promise."
       }
     ],
     "similarGrammar": [],
@@ -357,7 +405,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Reassuring or calming someone; or stating that something never happens."
   },
   {
     "id": "n3-grammar-10",
@@ -367,25 +416,32 @@
     "title": "〜ことになっている",
     "romaji": "kotoninatteiru",
     "meaning": "\"it is a rule / arrangement / custom that ~\", \"is supposed to ~\".",
-    "simpleExplanation": "\"it is a rule / arrangement / custom that ~\", \"is supposed to ~\".",
+    "simpleExplanation": "The decision was made by someone else or by convention, and it is still in force. Compare 〜ことになった (a decision just made).",
     "formation": [
-      "V-dict / V-ない + ことになっている"
+      "V-dict + ことになっている",
+      "V-ない + ことになっている",
+      "〜てはいけないことになっている for prohibitions"
     ],
     "examples": [
       {
+        "ja": "会議は毎週月曜日に行うことになっている。",
+        "reading": "かいぎはまいしゅうげつようびにおこなうことになっている。",
+        "en": "Meetings are held every Monday as a rule."
+      },
+      {
+        "ja": "明日、部長と会うことになっています。",
+        "reading": "あした、ぶちょうとあうことになっています。",
+        "en": "I'm scheduled to meet the department head tomorrow."
+      },
+      {
         "ja": "この寮では、夜十時までに帰ることになっている。",
         "reading": "このりょうでは、よるじゅうじまでにかえることになっている。",
-        "en": "In this dorm, you're supposed to be back by 10 p.m."
+        "en": "In this dorm you're supposed to be back by ten at night."
       },
       {
-        "ja": "会議は毎週月曜日に行われることになっている。",
-        "reading": "かいぎはまいしゅうげつようびにおこなわれることになっている。",
-        "en": "The meeting is scheduled to be held every Monday."
-      },
-      {
-        "ja": "教室では日本語しか使ってはいけないことになっている。",
-        "reading": "きょうしつではにほんごしかつかってはいけないことになっている。",
-        "en": "It's a rule that only Japanese may be used in the classroom."
+        "ja": "校内では携帯電話を使ってはいけないことになっている。",
+        "reading": "こうないではけいたいでんわをつかってはいけないことになっている。",
+        "en": "The rule is that you may not use mobile phones on school grounds."
       }
     ],
     "similarGrammar": [],
@@ -397,7 +453,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Explaining school, workplace or household rules, and fixed schedules."
   },
   {
     "id": "n3-grammar-11",
@@ -446,10 +503,12 @@
     "order": 12,
     "title": "〜ということだ",
     "romaji": "toiukotoda",
-    "meaning": "(1) \"I hear that ~\", \"it is said that ~\" (hearsay); (2) \"it means that ~\" (explanation/conclusion).",
-    "simpleExplanation": "(1) \"I hear that ~\", \"it is said that ~\" (hearsay); (2) \"it means that ~\" (explanation/conclusion).",
+    "meaning": "(1) \"I hear that ~\", \"it is said that ~\" (hearsay); (2) \"that means ~\", \"in other words\" (conclusion).",
+    "simpleExplanation": "For hearsay it usually follows a source phrase like 〜によると. For the second sense it restates what the facts add up to; とのことだ is the more formal hearsay variant.",
     "formation": [
-      "plain form + ということだ / とのことだ"
+      "Plain form + ということだ",
+      "Formal hearsay: 〜とのことだ",
+      "〜ということは 〜ということだ for the restating sense"
     ],
     "examples": [
       {
@@ -460,7 +519,12 @@
       {
         "ja": "田中さんは今日休むということです。",
         "reading": "たなかさんはきょうやすむということです。",
-        "en": "I'm told that Mr. Tanaka is off today."
+        "en": "I hear Tanaka is off today."
+      },
+      {
+        "ja": "社長は来週帰国するということだ。",
+        "reading": "しゃちょうはらいしゅうきこくするということだ。",
+        "en": "They say the president returns to Japan next week."
       },
       {
         "ja": "返事がないということは、興味がないということだ。",
@@ -477,7 +541,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Relaying news or reports, and summarising what something implies."
   },
   {
     "id": "n3-grammar-13",
@@ -605,26 +670,34 @@
     "order": 16,
     "title": "〜もの / 〜もん (reason)",
     "romaji": "mono-mon",
-    "meaning": "\"because ~\" — a sentence-final, emotional justification or excuse (often childish or feminine in tone).",
-    "simpleExplanation": "\"because ~\" — a sentence-final, emotional justification or excuse (often childish or feminine in tone).",
+    "meaning": "\"because ~\" — a sentence-final, emotional justification or excuse, often childish or feminine in tone.",
+    "simpleExplanation": "Used to defend yourself after being questioned, frequently after だって. もん is the more casual of the two; 〜んだもの is very common.",
     "formation": [
-      "plain form + もの / もん (な-adj / N + だ + もの); often 〜んだもの / 〜んだもん"
+      "Plain form + もの / もん",
+      "な-adj・N + だ + もの / もん",
+      "Often 〜んだもの / 〜んだもん",
+      "Frequently preceded by だって"
     ],
     "examples": [
       {
-        "ja": "「どうして食べないの？」「だって、嫌いなんだもん。」",
-        "reading": "「どうしてたべないの？」「だって、きらいなんだもん。」",
-        "en": "\"Why aren't you eating?\" \"Because I don't like it!\""
+        "ja": "だって、行きたくないんだもん。",
+        "reading": "だって、いきたくないんだもん。",
+        "en": "But I just don't want to go!"
       },
       {
-        "ja": "行きたくない。疲れているんだもの。",
-        "reading": "いきたくない。つかれているんだもの。",
-        "en": "I don't want to go. I'm tired, you know."
+        "ja": "食べられないよ。嫌いなんだもの。",
+        "reading": "たべられないよ。きらいなんだもの。",
+        "en": "I can't eat it — I don't like it."
+      },
+      {
+        "ja": "仕方ないよ。まだ子供だもの。",
+        "reading": "しかたないよ。まだこどもだもの。",
+        "en": "It can't be helped — he's still a child."
       },
       {
         "ja": "知らなかったんだもん、仕方ないでしょう。",
         "reading": "しらなかったんだもん、しかたないでしょう。",
-        "en": "I didn't know, so it can't be helped, right?"
+        "en": "I didn't know, so what could I do?"
       }
     ],
     "similarGrammar": [],
@@ -636,7 +709,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual conversation between close friends or family; not for polite or written Japanese."
   },
   {
     "id": "n3-grammar-17",
@@ -645,10 +719,12 @@
     "order": 17,
     "title": "〜せいで / 〜せいか / 〜せいだ",
     "romaji": "seide-seika-seida",
-    "meaning": "\"because of ~ (negative result)\", \"it's ~'s fault\". 〜せいか = \"perhaps because of ~\".",
-    "simpleExplanation": "\"because of ~ (negative result)\", \"it's ~'s fault\". 〜せいか = \"perhaps because of ~\".",
+    "meaning": "\"because of ~ (with a bad result)\", \"it's ~'s fault\"; 〜せいか = \"perhaps because of ~\".",
+    "simpleExplanation": "せい always blames. Use おかげで for a good result instead. せいか softens it to a guess, and せいだ at the end of a sentence points the finger.",
     "formation": [
-      "plain form + せいで; な-adj + な + せいで; N + の + せいで"
+      "Plain form + せいで",
+      "い-adj + せいで; な-adj + な + せいで; N + の + せいで",
+      "〜せいか (perhaps because); 〜せいだ (sentence-final)"
     ],
     "examples": [
       {
@@ -657,14 +733,19 @@
         "en": "Because I overslept, I missed the train."
       },
       {
+        "ja": "寝不足のせいで、頭が痛い。",
+        "reading": "ねぶそくのせいで、あたまがいたい。",
+        "en": "My head hurts from lack of sleep."
+      },
+      {
         "ja": "年のせいか、最近疲れやすい。",
         "reading": "としのせいか、さいきんつかれやすい。",
-        "en": "Maybe because of my age, I get tired easily these days."
+        "en": "Maybe it's my age, but I tire easily lately."
       },
       {
         "ja": "失敗したのは私のせいだ。",
         "reading": "しっぱいしたのはわたしのせいだ。",
-        "en": "The failure is my fault."
+        "en": "It's my fault that it failed."
       }
     ],
     "similarGrammar": [],
@@ -676,7 +757,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Explaining a negative outcome and who or what caused it."
   },
   {
     "id": "n3-grammar-18",
@@ -805,26 +887,32 @@
     "order": 21,
     "title": "〜によると / 〜によれば",
     "romaji": "niyoruto-niyoreba",
-    "meaning": "\"according to ~\" — marks the source of information; sentence ends with hearsay (〜そうだ / 〜ということだ / 〜らしい).",
-    "simpleExplanation": "\"according to ~\" — marks the source of information; sentence ends with hearsay (〜そうだ / 〜ということだ / 〜らしい).",
+    "meaning": "\"according to ~\" — marks the source of information.",
+    "simpleExplanation": "The sentence must end in a hearsay form: 〜そうだ, 〜ということだ or 〜らしい. Leaving the ending off is a common exam trap.",
     "formation": [
-      "N + によると / によれば + ... + そうだ"
+      "N + によると / によれば",
+      "... + そうだ / ということだ / らしい at the end of the sentence"
     ],
     "examples": [
       {
         "ja": "天気予報によると、明日は晴れるそうだ。",
         "reading": "てんきよほうによると、あしたははれるそうだ。",
-        "en": "According to the weather forecast, it will be sunny tomorrow."
+        "en": "According to the forecast, it will be sunny tomorrow."
       },
       {
         "ja": "新聞によれば、来年税金が上がるらしい。",
         "reading": "しんぶんによれば、らいねんぜいきんがあがるらしい。",
-        "en": "According to the newspaper, taxes will rise next year."
+        "en": "According to the paper, taxes will apparently go up next year."
       },
       {
         "ja": "友達の話によると、あの店はおいしいということだ。",
         "reading": "ともだちのはなしによると、あのみせはおいしいということだ。",
         "en": "According to my friend, that restaurant is good."
+      },
+      {
+        "ja": "彼の話によると、店は来月閉まるらしい。",
+        "reading": "かれのはなしによると、みせはらいげつしまるらしい。",
+        "en": "From what he says, the shop closes next month."
       }
     ],
     "similarGrammar": [],
@@ -836,7 +924,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Reporting news, forecasts, rumours or what someone told you."
   },
   {
     "id": "n3-grammar-22",
@@ -965,26 +1054,33 @@
     "order": 25,
     "title": "〜に関して / 〜に関する",
     "romaji": "nishite-nisuru",
-    "meaning": "\"regarding ~\", \"related to ~\" (formal version of 〜について).",
-    "simpleExplanation": "\"regarding ~\", \"related to ~\" (formal version of 〜について).",
+    "meaning": "\"regarding ~\", \"concerning ~\", \"related to ~\" — the formal version of 〜について.",
+    "simpleExplanation": "Use に関する before a noun and に関して before a verb. に関しては topicalises it: \"as for ~\".",
     "formation": [
-      "N + に関して; N + に関する + N; N + に関しては"
+      "N + に関して",
+      "N + に関する + N",
+      "N + に関しては (as for ~)"
     ],
     "examples": [
       {
-        "ja": "この問題に関して、ご意見をお聞かせください。",
-        "reading": "このもんだいにかんして、ごいけんをおきかせください。",
-        "en": "Please let us hear your opinion regarding this issue."
+        "ja": "この件に関して、何か質問はありますか。",
+        "reading": "このけんにかんして、なにかしつもんはありますか。",
+        "en": "Do you have any questions regarding this matter?"
       },
       {
         "ja": "日本文化に関する本を探している。",
         "reading": "にほんぶんかにかんするほんをさがしている。",
-        "en": "I am looking for books related to Japanese culture."
+        "en": "I'm looking for a book about Japanese culture."
       },
       {
         "ja": "料金に関しては、こちらの表をご覧ください。",
         "reading": "りょうきんにかんしては、こちらのひょうをごらんください。",
-        "en": "As for fees, please see this table."
+        "en": "As for the fees, please see this table."
+      },
+      {
+        "ja": "費用に関しては、後日ご連絡します。",
+        "reading": "ひようにかんしては、ごじつごれんらくします。",
+        "en": "Regarding the cost, we'll contact you at a later date."
       }
     ],
     "similarGrammar": [],
@@ -996,7 +1092,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Business, academic and other formal contexts."
   },
   {
     "id": "n3-grammar-26",
@@ -1165,26 +1262,32 @@
     "order": 30,
     "title": "〜につれて / 〜につれ",
     "romaji": "nitsurete-nitsure",
-    "meaning": "\"as ~ (changes), ~ (also changes gradually)\".",
-    "simpleExplanation": "\"as ~ (changes), ~ (also changes gradually)\".",
+    "meaning": "\"as ~ (changes), ~ also changes\" — two gradual changes moving together.",
+    "simpleExplanation": "Both sides must be gradual changes, not one-off events, and the second half cannot be a command or request. につれ is the more written form.",
     "formation": [
-      "V-dict + につれて; N + につれて"
+      "V-dict + につれて / につれ",
+      "N (change noun) + につれて / につれ"
     ],
     "examples": [
       {
         "ja": "時間がたつにつれて、痛みが消えていった。",
         "reading": "じかんがたつにつれて、いたみがきえていった。",
-        "en": "As time passed, the pain gradually went away."
-      },
-      {
-        "ja": "都市化が進むにつれて、緑が減っている。",
-        "reading": "としかがすすむにつれて、みどりがへっている。",
-        "en": "As urbanization advances, greenery is decreasing."
+        "en": "As time passed, the pain faded away."
       },
       {
         "ja": "大人になるにつれて、考え方が変わった。",
         "reading": "おとなになるにつれて、かんがえかたがかわった。",
-        "en": "As I became an adult, my way of thinking changed."
+        "en": "As I grew up, my way of thinking changed."
+      },
+      {
+        "ja": "年齢が上がるにつれ、体力が落ちる。",
+        "reading": "ねんれいがあがるにつれ、たいりょくがおちる。",
+        "en": "As you get older, your stamina declines."
+      },
+      {
+        "ja": "都市化が進むにつれて、緑が減っている。",
+        "reading": "としかがすすむにつれて、みどりがへっている。",
+        "en": "As urbanisation advances, green space is shrinking."
       }
     ],
     "similarGrammar": [],
@@ -1196,7 +1299,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Describing long-term trends: ageing, urbanisation, the passing of time."
   },
   {
     "id": "n3-grammar-31",
@@ -1205,10 +1309,11 @@
     "order": 31,
     "title": "〜に比べて / 〜に比べ",
     "romaji": "nibete-nibe",
-    "meaning": "\"compared to ~\".",
-    "simpleExplanation": "\"compared to ~\".",
+    "meaning": "\"compared to ~\", \"in comparison with ~\".",
+    "simpleExplanation": "The thing after に比べて is the baseline; what follows is the comparison. に比べ is more written, に比べると slightly softer.",
     "formation": [
-      "N + に比べて; plain form + の + に比べて"
+      "N + に比べて / に比べ / に比べると",
+      "Plain form + の + に比べて"
     ],
     "examples": [
       {
@@ -1219,12 +1324,17 @@
       {
         "ja": "東京に比べると、大阪は物価が安い。",
         "reading": "とうきょうにくらべると、おおさかはぶっかがやすい。",
-        "en": "Compared with Tokyo, prices in Osaka are cheaper."
+        "en": "Compared to Tokyo, prices in Osaka are cheap."
+      },
+      {
+        "ja": "都会に比べ、田舎は物価が安い。",
+        "reading": "とかいにくらべ、いなかはぶっかがやすい。",
+        "en": "Compared with the city, the countryside is cheap."
       },
       {
         "ja": "兄は弟に比べて、ずっとおとなしい。",
         "reading": "あにはおとうとにくらべて、ずっとおとなしい。",
-        "en": "Compared to his younger brother, the older one is much quieter."
+        "en": "Compared to his younger brother, the older one is far quieter."
       }
     ],
     "similarGrammar": [],
@@ -1236,7 +1346,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Comparing years, places, people or prices."
   },
   {
     "id": "n3-grammar-32",
@@ -1246,25 +1357,32 @@
     "title": "〜に加えて / 〜に加え",
     "romaji": "niete-nie",
     "meaning": "\"in addition to ~\", \"on top of ~\".",
-    "simpleExplanation": "\"in addition to ~\", \"on top of ~\".",
+    "simpleExplanation": "Adds a second item of the same kind to the first. The second clause usually carries も. に加え is the more written form.",
     "formation": [
-      "N + に加えて; plain form + の + に加えて"
+      "N + に加えて / に加え",
+      "Plain form + の + に加えて",
+      "The second clause commonly takes も"
     ],
     "examples": [
       {
         "ja": "雨に加えて、風も強くなってきた。",
         "reading": "あめにくわえて、かぜもつよくなってきた。",
-        "en": "In addition to the rain, the wind has also picked up."
+        "en": "On top of the rain, the wind has picked up too."
       },
       {
         "ja": "英語に加えて、中国語も勉強している。",
         "reading": "えいごにくわえて、ちゅうごくごもべんきょうしている。",
-        "en": "In addition to English, I am also studying Chinese."
+        "en": "In addition to English, I'm studying Chinese."
       },
       {
         "ja": "学費に加え、生活費も必要だ。",
         "reading": "がくひにくわえ、せいかつひもひつようだ。",
-        "en": "On top of tuition, living expenses are also necessary."
+        "en": "On top of tuition, you also need living expenses."
+      },
+      {
+        "ja": "強風に加えて、大雨も降り出した。",
+        "reading": "きょうふうにくわえて、おおあめもふりだした。",
+        "en": "In addition to the strong wind, heavy rain began to fall."
       }
     ],
     "similarGrammar": [],
@@ -1276,7 +1394,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Listing accumulating factors, costs or conditions, usually in formal speech or writing."
   },
   {
     "id": "n3-grammar-33",
@@ -1365,26 +1484,33 @@
     "order": 35,
     "title": "〜ついでに",
     "romaji": "tsuideni",
-    "meaning": "\"while (doing) ~, also ~\", \"on the occasion of ~\", taking the opportunity.",
-    "simpleExplanation": "\"while (doing) ~, also ~\", \"on the occasion of ~\", taking the opportunity.",
+    "meaning": "\"while (doing) ~, also ~\" — taking the opportunity of one action to do a second, minor one.",
+    "simpleExplanation": "The first action is the real purpose; the second is a bonus done along the way. Use the dictionary form for \"on the way to\" and the た-form for \"having just done\".",
     "formation": [
-      "V-dict / V-た + ついでに; N + の + ついでに"
+      "V-dict + ついでに",
+      "V-た + ついでに",
+      "N + の + ついでに"
     ],
     "examples": [
       {
         "ja": "買い物のついでに、郵便局に寄った。",
         "reading": "かいもののついでに、ゆうびんきょくによった。",
-        "en": "While out shopping, I also stopped by the post office."
+        "en": "While out shopping, I stopped by the post office."
       },
       {
         "ja": "東京へ行くついでに、友達に会ってきます。",
         "reading": "とうきょうへいくついでに、ともだちにあってきます。",
-        "en": "While I'm going to Tokyo, I'll see a friend too."
+        "en": "While I'm in Tokyo, I'll see a friend too."
       },
       {
         "ja": "車を洗ったついでに、庭も掃除した。",
         "reading": "くるまをあらったついでに、にわもそうじした。",
-        "en": "Since I was washing the car, I also cleaned the garden."
+        "en": "Since I was washing the car anyway, I cleaned the garden too."
+      },
+      {
+        "ja": "洗濯したついでに、カーテンも洗った。",
+        "reading": "せんたくしたついでに、カーテンもあらった。",
+        "en": "While doing the laundry, I washed the curtains as well."
       }
     ],
     "similarGrammar": [],
@@ -1396,7 +1522,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Errands and small favours done while you are already out or already busy."
   },
   {
     "id": "n3-grammar-36",
@@ -1565,16 +1692,22 @@
     "order": 40,
     "title": "〜てからでないと / 〜てからでなければ",
     "romaji": "tekaradenaito-tekaradenakereba",
-    "meaning": "\"unless ~ first\", \"not until ~\".",
-    "simpleExplanation": "\"unless ~ first\", \"not until ~\".",
+    "meaning": "\"unless ~ first\", \"not until ~ (can you ...)\".",
+    "simpleExplanation": "The second clause must be negative or express impossibility: 〜できません, 〜てはいけない. It states a prerequisite that has to be satisfied first.",
     "formation": [
-      "V-て + からでないと / からでなければ + negative or potential-negative clause"
+      "V-て + からでないと + negative/potential-negative clause",
+      "V-て + からでなければ + negative/potential-negative clause"
     ],
     "examples": [
       {
         "ja": "会員になってからでないと、この施設は使えません。",
         "reading": "かいいんになってからでないと、このしせつはつかえません。",
-        "en": "Unless you become a member first, you cannot use this facility."
+        "en": "You can't use this facility unless you become a member first."
+      },
+      {
+        "ja": "先生に聞いてからでないと、答えられません。",
+        "reading": "せんせいにきいてからでないと、こたえられません。",
+        "en": "I can't answer until I've asked the teacher."
       },
       {
         "ja": "内容を確認してからでなければ、サインできない。",
@@ -1582,9 +1715,9 @@
         "en": "I can't sign until I've checked the contents."
       },
       {
-        "ja": "先生に聞いてからでないと、答えられません。",
-        "reading": "せんせいにきいてからでないと、こたえられません。",
-        "en": "I can't answer until I've asked the teacher."
+        "ja": "準備運動をしてからでないと、泳いではいけない。",
+        "reading": "じゅんびうんどうをしてからでないと、およいではいけない。",
+        "en": "You mustn't swim before doing warm-up exercises."
       }
     ],
     "similarGrammar": [],
@@ -1596,7 +1729,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Rules and procedures: registration, confirmation, safety requirements."
   },
   {
     "id": "n3-grammar-41",
@@ -1605,16 +1739,17 @@
     "order": 41,
     "title": "〜て以来",
     "romaji": "te",
-    "meaning": "\"ever since ~\" (continuing state from a past event).",
-    "simpleExplanation": "\"ever since ~\" (continuing state from a past event).",
+    "meaning": "\"ever since ~\" — a state that has continued without interruption since a past event.",
+    "simpleExplanation": "The event is a one-off in the past, and the situation has held ever since. Don't use it for recent or repeated events.",
     "formation": [
-      "V-て + 以来; N + 以来"
+      "V-て + 以来",
+      "N + 以来 (あの事故以来, 卒業以来)"
     ],
     "examples": [
       {
         "ja": "卒業して以来、彼に会っていない。",
         "reading": "そつぎょうしていらい、かれにあっていない。",
-        "en": "I haven't seen him since graduation."
+        "en": "I haven't seen him since we graduated."
       },
       {
         "ja": "日本に来て以来、ずっとこの町に住んでいる。",
@@ -1622,9 +1757,14 @@
         "en": "Ever since I came to Japan, I've lived in this town."
       },
       {
+        "ja": "結婚して以来、彼はすっかり変わった。",
+        "reading": "けっこんしていらい、かれはすっかりかわった。",
+        "en": "He has completely changed since he got married."
+      },
+      {
         "ja": "あの事故以来、彼は車を運転しなくなった。",
         "reading": "あのじこいらい、かれはくるまをうんてんしなくなった。",
-        "en": "Since that accident, he has stopped driving."
+        "en": "Ever since that accident, he has stopped driving."
       }
     ],
     "similarGrammar": [],
@@ -1636,7 +1776,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Talking about long-running situations since graduation, marriage, moving, an accident."
   },
   {
     "id": "n3-grammar-42",
@@ -1645,26 +1786,33 @@
     "order": 42,
     "title": "〜以上(は)",
     "romaji": "g42",
-    "meaning": "\"since ~\", \"now that ~ (naturally one must)\".",
-    "simpleExplanation": "\"since ~\", \"now that ~ (naturally one must)\".",
+    "meaning": "\"since ~\", \"now that ~\" — given this fact, the natural consequence must follow.",
+    "simpleExplanation": "The second clause expresses determination, obligation or advice: 〜なければならない, 〜べきだ, 〜つもりだ. This is the conjunction 以上, not the \"or more\" counter.",
     "formation": [
-      "V-dict / V-た + 以上(は); N + である + 以上"
+      "V-dict / V-た + 以上(は)",
+      "N + である + 以上(は)",
+      "Second clause: obligation, determination or advice"
     ],
     "examples": [
       {
         "ja": "約束した以上、守らなければならない。",
         "reading": "やくそくしたいじょう、まもらなければならない。",
-        "en": "Now that I've promised, I must keep it."
-      },
-      {
-        "ja": "学生である以上、勉強が第一だ。",
-        "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
-        "en": "As long as you are a student, studying comes first."
+        "en": "Now that I've promised, I have to keep it."
       },
       {
         "ja": "やると決めた以上は、最後までやる。",
         "reading": "やるときめたいじょうは、さいごまでやる。",
-        "en": "Since I've decided to do it, I'll see it through."
+        "en": "Now that I've decided to do it, I'll see it through."
+      },
+      {
+        "ja": "学生である以上、勉強が第一だ。",
+        "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
+        "en": "Since you're a student, studying comes first."
+      },
+      {
+        "ja": "引き受けた以上は、最後までやり抜くべきだ。",
+        "reading": "ひきうけたいじょうは、さいごまでやりぬくべきだ。",
+        "en": "Now that you've taken it on, you should see it through to the end."
       }
     ],
     "similarGrammar": [],
@@ -1676,7 +1824,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Committing to something you have accepted or decided; formal-leaning speech and writing."
   },
   {
     "id": "n3-grammar-43",
@@ -1725,26 +1874,33 @@
     "order": 44,
     "title": "〜からには",
     "romaji": "karaniha",
-    "meaning": "\"now that ~\", \"since ~ (then naturally)\". Determination or obligation follows.",
-    "simpleExplanation": "\"now that ~\", \"since ~ (then naturally)\". Determination or obligation follows.",
+    "meaning": "\"now that ~\", \"since ~, then naturally ~\" — determination or obligation follows.",
+    "simpleExplanation": "Very close to 〜以上(は), but slightly more emotional and more common in speech. The second clause states what you are therefore resolved to do.",
     "formation": [
-      "V-dict / V-た + からには; N + である + からには"
+      "V-dict / V-た + からには",
+      "N + である + からには",
+      "Second clause: determination, obligation or a should-statement"
     ],
     "examples": [
       {
+        "ja": "試合に出るからには、勝ちたい。",
+        "reading": "しあいにでるからには、かちたい。",
+        "en": "Now that I'm playing in the match, I want to win."
+      },
+      {
         "ja": "引き受けたからには、責任を持ってやります。",
         "reading": "ひきうけたからには、せきにんをもってやります。",
-        "en": "Now that I've accepted, I'll do it responsibly."
+        "en": "Now that I've taken it on, I'll do it responsibly."
       },
       {
         "ja": "日本に来たからには、日本語が上手になりたい。",
         "reading": "にほんにきたからには、にほんごがじょうずになりたい。",
-        "en": "Since I've come to Japan, I want to become good at Japanese."
+        "en": "Now that I've come to Japan, I want to get good at Japanese."
       },
       {
-        "ja": "試合に出るからには、勝ちたい。",
-        "reading": "しあいにでるからには、かちたい。",
-        "en": "If I'm going to compete, I want to win."
+        "ja": "教師であるからには、生徒の模範となるべきだ。",
+        "reading": "きょうしであるからには、せいとのもはんとなるべきだ。",
+        "en": "Since you are a teacher, you should be a model for your students."
       }
     ],
     "similarGrammar": [],
@@ -1756,7 +1912,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Declaring resolve once you have committed to something."
   },
   {
     "id": "n3-grammar-45",
@@ -1765,26 +1922,32 @@
     "order": 45,
     "title": "〜からといって",
     "romaji": "karatoitte",
-    "meaning": "\"just because ~ (doesn't mean) ~\".",
-    "simpleExplanation": "\"just because ~ (doesn't mean) ~\".",
+    "meaning": "\"just because ~ doesn't mean ~\" — rejects a hasty conclusion.",
+    "simpleExplanation": "The second clause is always negative: 〜とは限らない, 〜わけではない, 〜てはいけない. You accept the first fact but deny what people assume follows from it.",
     "formation": [
-      "plain form + からといって + negative (〜とは限らない / 〜わけではない / 〜ない)"
+      "Plain form + からといって",
+      "Second clause: 〜とは限らない / 〜わけではない / 〜てはいけない / plain negative"
     ],
     "examples": [
       {
-        "ja": "日本人だからといって、誰でも敬語が使えるわけではない。",
-        "reading": "にほんじんだからといって、だれでもけいごがつかえるわけではない。",
-        "en": "Just because someone is Japanese doesn't mean everyone can use keigo."
-      },
-      {
         "ja": "安いからといって、たくさん買うのはよくない。",
         "reading": "やすいからといって、たくさんかうのはよくない。",
-        "en": "Just because it's cheap, buying lots isn't good."
+        "en": "Just because it's cheap doesn't mean you should buy a lot."
       },
       {
         "ja": "疲れたからといって、練習を休んではいけない。",
         "reading": "つかれたからといって、れんしゅうをやすんではいけない。",
-        "en": "You mustn't skip practice just because you're tired."
+        "en": "You can't skip practice just because you're tired."
+      },
+      {
+        "ja": "日本人だからといって、誰でも敬語が使えるわけではない。",
+        "reading": "にほんじんだからといって、だれでもけいごがつかえるわけではない。",
+        "en": "Just because someone is Japanese doesn't mean they can all use keigo."
+      },
+      {
+        "ja": "日本に住んでいるからといって、日本語が上手だとは限らない。",
+        "reading": "にほんにすんでいるからといって、にほんごがじょうずだとはかぎらない。",
+        "en": "Living in Japan doesn't necessarily mean your Japanese is good."
       }
     ],
     "similarGrammar": [],
@@ -1796,7 +1959,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Correcting a stereotype or an over-generalisation."
   },
   {
     "id": "n3-grammar-46",
@@ -1805,26 +1969,33 @@
     "order": 46,
     "title": "〜からこそ",
     "romaji": "karakoso",
-    "meaning": "\"precisely because ~\", \"it is exactly because ~\". Emphasizes the reason.",
-    "simpleExplanation": "\"precisely because ~\", \"it is exactly because ~\". Emphasizes the reason.",
+    "meaning": "\"precisely because ~\", \"it is exactly because ~\" — strong emphasis on the reason.",
+    "simpleExplanation": "こそ singles out this reason and no other. The sentence often ends with 〜のだ / 〜んだ to complete the emphatic tone.",
     "formation": [
-      "plain form + からこそ (N / な-adj + だ + からこそ); often ends with 〜のだ"
+      "Plain form + からこそ",
+      "N / な-adj + だ + からこそ",
+      "Often ends with 〜のだ / 〜んだ"
     ],
     "examples": [
       {
+        "ja": "親だからこそ、心配するのだ。",
+        "reading": "おやだからこそ、しんぱいするのだ。",
+        "en": "It's precisely because I'm your parent that I worry."
+      },
+      {
         "ja": "君のことを思っているからこそ、厳しく言うんだ。",
         "reading": "きみのことをおもっているからこそ、きびしくいうんだ。",
-        "en": "It's precisely because I care about you that I'm strict."
+        "en": "I'm being hard on you precisely because I care about you."
       },
       {
         "ja": "苦労したからこそ、成功の喜びが大きい。",
         "reading": "くろうしたからこそ、せいこうのよろこびがおおきい。",
-        "en": "Precisely because I struggled, the joy of success is greater."
+        "en": "It's because I struggled that success feels so sweet."
       },
       {
-        "ja": "親だからこそ、心配するのだ。",
-        "reading": "おやだからこそ、しんぱいするのだ。",
-        "en": "It is exactly because I'm a parent that I worry."
+        "ja": "大切な人だからこそ、本当のことを言いたい。",
+        "reading": "たいせつなひとだからこそ、ほんとうのことをいいたい。",
+        "en": "It's exactly because you matter to me that I want to tell you the truth."
       }
     ],
     "similarGrammar": [],
@@ -1836,7 +2007,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Explaining a motive that might be misread — strictness out of love, joy earned through hardship."
   },
   {
     "id": "n3-grammar-47",
@@ -1845,26 +2017,38 @@
     "order": 47,
     "title": "〜くらい / 〜ぐらい",
     "romaji": "kurai-gurai",
-    "meaning": "(1) \"to the extent that ~\", \"so ~ that ~\" (degree); (2) \"at least ~\", \"something as small as ~\" (minimal); (3) approximate amount.",
-    "simpleExplanation": "(1) \"to the extent that ~\", \"so ~ that ~\" (degree); (2) \"at least ~\", \"something as small as ~\" (minimal); (3) approximate amount.",
+    "meaning": "(1) \"to the extent that ~\", \"so ~ that ~\"; (2) \"at least ~\", \"something as trivial as ~\"; (3) an approximate amount.",
+    "simpleExplanation": "Sense (1) measures degree by giving a vivid comparison. Sense (2) belittles something to say it's the least you could do. Sense (3) is simple approximation, like 十分くらい.",
     "formation": [
-      "plain form + くらい; N + くらい; な-adj + な + くらい"
+      "Plain form + くらい / ぐらい",
+      "い-adj + くらい; な-adj + な + くらい",
+      "N / quantity + くらい"
     ],
     "examples": [
+      {
+        "ja": "駅まで歩いて十分くらいかかる。",
+        "reading": "えきまであるいてじゅっぷんくらいかかる。",
+        "en": "It takes about ten minutes to walk to the station."
+      },
+      {
+        "ja": "自分の部屋くらい、自分で掃除しなさい。",
+        "reading": "じぶんのへやくらい、じぶんでそうじしなさい。",
+        "en": "At the very least, clean your own room yourself."
+      },
+      {
+        "ja": "泣きたいくらい嬉しかった。",
+        "reading": "なきたいくらいうれしかった。",
+        "en": "I was so happy I could have cried."
+      },
       {
         "ja": "疲れて、一歩も歩けないくらいだ。",
         "reading": "つかれて、いっぽもあるけないくらいだ。",
         "en": "I'm so tired I can't walk another step."
       },
       {
-        "ja": "自分の部屋くらい、自分で掃除しなさい。",
-        "reading": "じぶんのへやくらい、じぶんでそうじしなさい。",
-        "en": "At least clean your own room yourself."
-      },
-      {
-        "ja": "駅まで歩いて十分くらいかかる。",
-        "reading": "えきまであるいてじゅっぷんくらいかかる。",
-        "en": "It takes about ten minutes to walk to the station."
+        "ja": "立っていられないくらい疲れた。",
+        "reading": "たっていられないくらいつかれた。",
+        "en": "I got so tired I could barely stay on my feet."
       }
     ],
     "similarGrammar": [],
@@ -1876,7 +2060,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Sense (2) often carries a scolding tone, so use it carefully."
   },
   {
     "id": "n3-grammar-48",
@@ -1885,26 +2070,39 @@
     "order": 48,
     "title": "〜ほど",
     "romaji": "hodo",
-    "meaning": "(1) \"to the extent of ~\", \"so ~ that ~\"; (2) approximate quantity (formal); (3) 〜ほど〜はない = \"nothing is as ~ as ~\".",
-    "simpleExplanation": "(1) \"to the extent of ~\", \"so ~ that ~\"; (2) approximate quantity (formal); (3) 〜ほど〜はない = \"nothing is as ~ as ~\".",
+    "meaning": "(1) \"to the extent of ~\", \"so ~ that ~\"; (2) approximate quantity (more formal than くらい); (3) 〜ほど〜はない = \"nothing is as ~ as ~\".",
+    "simpleExplanation": "ほど measures degree by comparison. In the negative, Aは Bほど〜ない means A is less ~ than B, and 〜ほど〜はない makes a superlative.",
     "formation": [
-      "V-dict / V-ない + ほど; い-adj + ほど; な-adj + な + ほど; N + ほど"
+      "V-dict / V-ない + ほど",
+      "い-adj + ほど; な-adj + な + ほど",
+      "N / quantity + ほど",
+      "N + ほど + N + はない (superlative)"
     ],
     "examples": [
       {
-        "ja": "死ぬほど疲れた。",
-        "reading": "しぬほどつかれた。",
-        "en": "I'm dead tired."
+        "ja": "一週間ほど休みを取りたい。",
+        "reading": "いっしゅうかんほどやすみをとりたい。",
+        "en": "I'd like to take about a week off."
+      },
+      {
+        "ja": "今日は死ぬほど疲れた。",
+        "reading": "きょうはしぬほどつかれた。",
+        "en": "I'm dead tired today."
+      },
+      {
+        "ja": "涙が出るほど嬉しかった。",
+        "reading": "なみだがでるほどうれしかった。",
+        "en": "I was so happy I could have cried."
       },
       {
         "ja": "今日は昨日ほど寒くない。",
         "reading": "きょうはきのうほどさむくない。",
-        "en": "Today is not as cold as yesterday."
+        "en": "Today isn't as cold as yesterday."
       },
       {
         "ja": "母の料理ほどおいしいものはない。",
         "reading": "ははのりょうりほどおいしいものはない。",
-        "en": "Nothing is as delicious as my mother's cooking."
+        "en": "Nothing tastes as good as my mother's cooking."
       }
     ],
     "similarGrammar": [],
@@ -1916,7 +2114,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Sense (2) is a little more formal/written than くらい; sense (3) is a common way to say \"the best\"."
   },
   {
     "id": "n3-grammar-49",
@@ -2005,10 +2204,14 @@
     "order": 51,
     "title": "〜さえ〜ば",
     "romaji": "saeba",
-    "meaning": "\"if only ~\", \"as long as ~\" (a single sufficient condition).",
-    "simpleExplanation": "\"if only ~\", \"as long as ~\" (a single sufficient condition).",
+    "meaning": "\"if only ~\", \"as long as ~\" — one condition is all that is needed.",
+    "simpleExplanation": "さえ isolates the one thing that matters, and the ば-clause makes it the condition. Everything else is irrelevant.",
     "formation": [
-      "N + さえ + V-ば; V-ます + さえ + すれば; V-て + さえ + いれば; い-adj-く + さえ + あれば; な-adj / N + で + さえ + あれば"
+      "N + さえ + V-ば",
+      "V-ます stem + さえ + すれば",
+      "V-て + さえ + いれば",
+      "い-adj stem + く + さえ + あれば",
+      "な-adj / N + で + さえ + あれば"
     ],
     "examples": [
       {
@@ -2017,14 +2220,24 @@
         "en": "As long as you have money, you can buy anything."
       },
       {
-        "ja": "薬を飲みさえすれば、治ります。",
-        "reading": "くすりをのみさえすれば、なおります。",
-        "en": "If you just take the medicine, you'll recover."
+        "ja": "時間さえあれば、もっと勉強できるのに。",
+        "reading": "じかんさえあれば、もっとべんきょうできるのに。",
+        "en": "If only I had time, I could study more."
+      },
+      {
+        "ja": "この薬を飲みさえすれば、治ります。",
+        "reading": "このくすりをのみさえすれば、なおります。",
+        "en": "You'll get better just by taking this medicine."
+      },
+      {
+        "ja": "天気さえよければ、山に登りたい。",
+        "reading": "てんきさえよければ、やまにのぼりたい。",
+        "en": "As long as the weather is good, I want to climb the mountain."
       },
       {
         "ja": "静かでさえあれば、どんな部屋でもいい。",
         "reading": "しずかでさえあれば、どんなへやでもいい。",
-        "en": "As long as it's quiet, any room is fine."
+        "en": "As long as it's quiet, any room will do."
       }
     ],
     "similarGrammar": [],
@@ -2036,7 +2249,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Saying that a single thing would be enough, often with a touch of regret (〜のに)."
   },
   {
     "id": "n3-grammar-52",
@@ -2045,21 +2259,29 @@
     "order": 52,
     "title": "〜こそ",
     "romaji": "koso",
-    "meaning": "\"precisely ~\", \"it is ~ that ~\" (emphasis on the preceding word).",
-    "simpleExplanation": "\"precisely ~\", \"it is ~ that ~\" (emphasis on the preceding word).",
+    "meaning": "\"precisely ~\", \"it is ~ that ~\" — emphasis on the word it follows.",
+    "simpleExplanation": "こそ spotlights the preceding word: this one, not any other. こちらこそ and 今度こそ are set phrases worth memorising.",
     "formation": [
-      "N + こそ; これ / 今 / 今度 + こそ; 〜からこそ (see 46)"
+      "N + こそ",
+      "これ / 今 / 今度 + こそ",
+      "N + こそが + predicate",
+      "Plain form + からこそ (emphatic reason)"
     ],
     "examples": [
       {
-        "ja": "今度こそ合格したい。",
-        "reading": "こんどこそごうかくしたい。",
-        "en": "This time for sure I want to pass."
-      },
-      {
         "ja": "こちらこそ、よろしくお願いします。",
         "reading": "こちらこそ、よろしくおねがいします。",
-        "en": "It's I who should say so — pleased to meet you."
+        "en": "The pleasure is mine."
+      },
+      {
+        "ja": "今度こそ合格したい。",
+        "reading": "こんどこそごうかくしたい。",
+        "en": "This time for sure, I want to pass."
+      },
+      {
+        "ja": "これこそ、私が探していた本だ。",
+        "reading": "これこそ、わたしがさがしていたほんだ。",
+        "en": "This is the very book I was looking for."
       },
       {
         "ja": "努力こそが成功の鍵だ。",
@@ -2076,34 +2298,41 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Emphasis in both speech and writing; also in the fixed reason form 〜からこそ."
   },
   {
     "id": "n3-grammar-53",
     "slug": "53-shikanai",
     "level": "n3",
     "order": 53,
-    "title": "〜しかない",
+    "title": "〜しかない (have no choice but to)",
     "romaji": "shikanai",
-    "meaning": "(1) V-dict + しかない: \"have no choice but to ~\"; (2) N + しかない: \"only ~ (nothing else)\".",
-    "simpleExplanation": "(1) V-dict + しかない: \"have no choice but to ~\"; (2) N + しかない: \"only ~ (nothing else)\".",
+    "meaning": "\"there is nothing for it but to ~\", \"we have no choice but to ~\". Added to a dictionary-form verb to say that one option is all that is left.",
+    "simpleExplanation": "After a dictionary-form verb, しかない says the speaker sees no other option. The particle しか + negative meaning \"only\" is the separate N5 point 〜しか〜ない.",
     "formation": [
-      "V-dict + しかない; N + しか + negative"
+      "V-dict + しかない"
     ],
     "examples": [
       {
+        "ja": "こうなったら、やるしかない。",
+        "reading": "こうなったら、やるしかない。",
+        "en": "Now that it has come to this, we have no choice but to do it."
+      },
+      {
         "ja": "終電がなくなったので、歩いて帰るしかない。",
         "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
-        "en": "The last train is gone, so I have no choice but to walk home."
+        "en": "The last train has gone, so I have no choice but to walk home."
       },
       {
-        "ja": "財布には百円しかない。",
-        "reading": "さいふにはひゃくえんしかない。",
-        "en": "I have only 100 yen in my wallet."
+        "ja": "直せないなら、新しいのを買うしかないですね。",
+        "reading": "なおせないなら、あたらしいのをかうしかないですね。",
+        "en": "If it cannot be repaired, we will just have to buy a new one."
       },
       {
-        "ja": "こうなったら、やるしかない。",
-        "en": "Now that it's come to this, we just have to do it."
+        "ja": "みんなが反対でも、自分を信じて進むしかない。",
+        "reading": "みんながはんたいでも、じぶんをしんじてすすむしかない。",
+        "en": "Even if everyone is against it, I can only believe in myself and press on."
       }
     ],
     "similarGrammar": [],
@@ -2115,7 +2344,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Sense (1) when circumstances leave one option; sense (2) when stressing how little there is."
   },
   {
     "id": "n3-grammar-54",
@@ -2204,10 +2434,13 @@
     "order": 56,
     "title": "〜っぽい",
     "romaji": "ppoi",
-    "meaning": "\"-ish\", \"tends to ~\", \"seems like ~\" (often slightly negative).",
-    "simpleExplanation": "\"-ish\", \"tends to ~\", \"seems like ~\" (often slightly negative).",
+    "meaning": "\"-ish\", \"looks like ~\", \"tends to ~\" — often slightly negative.",
+    "simpleExplanation": "Attaches to nouns, い-adjective stems and a few ます-stems, and conjugates as an い-adjective. 子供っぽい (childish) is critical, unlike 子供らしい (charmingly childlike).",
     "formation": [
-      "N + っぽい; V-ます + っぽい; い-adj stem + っぽい. Conjugates as an い-adjective."
+      "N + っぽい (子供っぽい, 水っぽい)",
+      "い-adj stem + っぽい (安っぽい, 白っぽい)",
+      "V-ます stem + っぽい (忘れっぽい, 怒りっぽい)",
+      "Conjugates as an い-adjective"
     ],
     "examples": [
       {
@@ -2223,7 +2456,12 @@
       {
         "ja": "この写真、少し白っぽいね。",
         "reading": "このしゃしん、すこししろっぽいね。",
-        "en": "This photo looks a bit whitish."
+        "en": "This photo is a bit whitish, isn't it."
+      },
+      {
+        "ja": "この服は安っぽく見える。",
+        "reading": "このふくはやすっぽくみえる。",
+        "en": "These clothes look cheap."
       }
     ],
     "similarGrammar": [],
@@ -2235,7 +2473,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual description of appearance, colour or a tendency."
   },
   {
     "id": "n3-grammar-57",
@@ -2324,10 +2563,13 @@
     "order": 59,
     "title": "〜げ",
     "romaji": "ge",
-    "meaning": "\"looking ~\", \"seeming ~\" (appearance of an emotion/state, seen from outside). Forms a な-adjective.",
-    "simpleExplanation": "\"looking ~\", \"seeming ~\" (appearance of an emotion/state, seen from outside). Forms a な-adjective.",
+    "meaning": "\"looking ~\", \"seeming ~\" — the outward appearance of an emotion or state.",
+    "simpleExplanation": "You are judging from the outside how someone looks, so it is used mainly for other people. The result behaves as a な-adjective: 不安げな顔, 楽しげに遊ぶ.",
     "formation": [
-      "い-adj stem + げ (嬉しげ, 楽しげ, 寂しげ); な-adj stem + げ (不安げ, 得意げ); V-ます + げ (limited: 言いたげ, 自信ありげ)"
+      "い-adj stem + げ (嬉しげ, 楽しげ, 寂しげ)",
+      "な-adj stem + げ (不安げ, 得意げ)",
+      "V-ます stem + げ (limited: 言いたげ, 自信ありげ)",
+      "Behaves as a な-adjective (〜げな N, 〜げに)"
     ],
     "examples": [
       {
@@ -2336,14 +2578,19 @@
         "en": "The children are playing happily."
       },
       {
+        "ja": "彼女は寂しげに窓の外を見ていた。",
+        "reading": "かのじょはさびしげにまどのそとをみていた。",
+        "en": "She was gazing out of the window, looking lonely."
+      },
+      {
         "ja": "彼女は不安げな顔で、こちらを見た。",
         "reading": "かのじょはふあんげなかおで、こちらをみた。",
-        "en": "She looked at me with an anxious expression."
+        "en": "She looked over at me with an anxious face."
       },
       {
         "ja": "彼は何か言いたげだった。",
         "reading": "かれはなにかいいたげだった。",
-        "en": "He looked like he wanted to say something."
+        "en": "He looked as if he wanted to say something."
       }
     ],
     "similarGrammar": [],
@@ -2355,7 +2602,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Descriptive, somewhat literary writing about how a person seems."
   },
   {
     "id": "n3-grammar-60",
@@ -2364,15 +2612,16 @@
     "order": 60,
     "title": "〜っけ",
     "romaji": "kke",
-    "meaning": "\"was it ~?\", \"what was ~ again?\" — confirming a fuzzy memory (casual).",
-    "simpleExplanation": "\"was it ~?\", \"what was ~ again?\" — confirming a fuzzy memory (casual).",
+    "meaning": "\"was it ~?\", \"what was ~ again?\" — checking a hazy memory.",
+    "simpleExplanation": "Normally attaches to a past plain form even when you are asking about the present. It is casual, though 〜でしたっけ / 〜ましたっけ can be used politely.",
     "formation": [
-      "plain past + っけ (V-た / い-adj-かった / N・な-adj + だった + っけ); polite: 〜ましたっけ / 〜でしたっけ"
+      "Plain past + っけ (V-た / い-adj-かった / N・な-adj + だった + っけ)",
+      "Polite: 〜ましたっけ / 〜でしたっけ"
     ],
     "examples": [
       {
-        "ja": "明日の会議は何時からだっけ？",
-        "reading": "あしたのかいぎはなんじからだっけ？",
+        "ja": "明日の会議は何時からだっけ。",
+        "reading": "あしたのかいぎはなんじからだっけ。",
         "en": "What time was tomorrow's meeting again?"
       },
       {
@@ -2384,6 +2633,11 @@
         "ja": "君も同じクラスだったっけ？",
         "reading": "きみもおなじクラスだったっけ？",
         "en": "Were you in the same class too?"
+      },
+      {
+        "ja": "あの人、誰でしたっけ。",
+        "reading": "あのひと、だれでしたっけ。",
+        "en": "Who was that person again?"
       }
     ],
     "similarGrammar": [],
@@ -2395,47 +2649,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n3-grammar-61",
-    "slug": "61-tte",
-    "level": "n3",
-    "order": 61,
-    "title": "〜って",
-    "romaji": "tte",
-    "meaning": "Casual particle: (1) quotation = 〜と (言う); (2) topic/definition = 〜というのは; (3) hearsay = 〜そうだ / 〜ということだ (sentence-final).",
-    "simpleExplanation": "Casual particle: (1) quotation = 〜と (言う); (2) topic/definition = 〜というのは; (3) hearsay = 〜そうだ / 〜ということだ (sentence-final).",
-    "formation": [
-      "plain form + って; N + って"
-    ],
-    "examples": [
-      {
-        "ja": "田中さん、明日は来ないって。",
-        "reading": "たなかさん、あしたはこないって。",
-        "en": "Tanaka says he's not coming tomorrow."
-      },
-      {
-        "ja": "「侘び寂び」って、どういう意味？",
-        "reading": "「わびさび」って、どういういみ？",
-        "en": "What does \"wabi-sabi\" mean?"
-      },
-      {
-        "ja": "彼女、結婚したんだって。",
-        "reading": "かのじょ、けっこんしたんだって。",
-        "en": "I hear she got married."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Purely spoken. 〜んだって / 〜だって at sentence end = hearsay. As topic marker it can replace は with a nuance of defining/explaining."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual conversation when you half-remember something and want confirmation."
   },
   {
     "id": "n3-grammar-62",
@@ -2524,16 +2739,18 @@
     "order": 64,
     "title": "たとえ〜ても",
     "romaji": "tatoetemo",
-    "meaning": "\"even if ~\", \"no matter ~\" (hypothetical concession).",
-    "simpleExplanation": "\"even if ~\", \"no matter ~\" (hypothetical concession).",
+    "meaning": "\"even if ~\", \"no matter ~\" — a hypothetical concession.",
+    "simpleExplanation": "たとえ at the front signals that what follows is hypothetical, and 〜ても carries the concession. The result does not change whatever happens.",
     "formation": [
-      "たとえ + V-て + も; い-adj-くて + も; な-adj / N + で + も"
+      "たとえ + V-て + も",
+      "たとえ + い-adj stem + くても",
+      "たとえ + な-adj / N + でも"
     ],
     "examples": [
       {
         "ja": "たとえ雨が降っても、試合は行います。",
         "reading": "たとえあめがふっても、しあいはおこないます。",
-        "en": "Even if it rains, the match will be held."
+        "en": "Even if it rains, we'll hold the match."
       },
       {
         "ja": "たとえ高くても、この本は買いたい。",
@@ -2543,7 +2760,12 @@
       {
         "ja": "たとえ冗談でも、そんなことを言ってはいけない。",
         "reading": "たとえじょうだんでも、そんなことをいってはいけない。",
-        "en": "Even as a joke, you shouldn't say such things."
+        "en": "Even as a joke, you mustn't say such a thing."
+      },
+      {
+        "ja": "たとえ両親が反対しても、彼と結婚する。",
+        "reading": "たとえりょうしんがはんたいしても、かれとけっこんする。",
+        "en": "Even if my parents object, I'm marrying him."
       }
     ],
     "similarGrammar": [],
@@ -2555,7 +2777,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Declaring that a decision or outcome holds regardless of conditions."
   },
   {
     "id": "n3-grammar-65",
@@ -2604,26 +2827,32 @@
     "order": 66,
     "title": "〜にしては",
     "romaji": "nishiteha",
-    "meaning": "\"for ~\", \"considering ~\" — the reality doesn't match the expectation set by ~.",
-    "simpleExplanation": "\"for ~\", \"considering ~\" — the reality doesn't match the expectation set by ~.",
+    "meaning": "\"for ~\", \"considering ~\" — reality does not match the expectation the first part sets up.",
+    "simpleExplanation": "State a standard, then note that things don't fit it. Unlike 〜のわりに, the standard must be concrete and known.",
     "formation": [
-      "N + にしては; plain form + にしては"
+      "N + にしては",
+      "Plain form + にしては (な-adj stem and N take no だ)"
     ],
     "examples": [
-      {
-        "ja": "彼は日本に来たばかりにしては、日本語が上手だ。",
-        "reading": "かれはにほんにきたばかりにしては、にほんごがじょうずだ。",
-        "en": "For someone who just came to Japan, his Japanese is good."
-      },
-      {
-        "ja": "子供にしては、難しい言葉を知っている。",
-        "reading": "こどもにしては、むずかしいことばをしっている。",
-        "en": "For a child, he knows difficult words."
-      },
       {
         "ja": "十二月にしては暖かい。",
         "reading": "じゅうにがつにしてはあたたかい。",
         "en": "It's warm for December."
+      },
+      {
+        "ja": "初めてにしては、上手にできましたね。",
+        "reading": "はじめてにしては、じょうずにできましたね。",
+        "en": "For a first attempt, you did well."
+      },
+      {
+        "ja": "子供にしては、難しい言葉を知っている。",
+        "reading": "こどもにしては、むずかしいことばをしっている。",
+        "en": "For a child, she knows some difficult words."
+      },
+      {
+        "ja": "彼は日本に来たばかりにしては、日本語が上手だ。",
+        "reading": "かれはにほんにきたばかりにしては、にほんごがじょうずだ。",
+        "en": "Considering he only just arrived in Japan, his Japanese is good."
       }
     ],
     "similarGrammar": [],
@@ -2635,7 +2864,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Mild surprise, praise or criticism about someone or something not matching its category."
   },
   {
     "id": "n3-grammar-67",
@@ -2645,25 +2875,32 @@
     "title": "〜にしても",
     "romaji": "nishitemo",
     "meaning": "(1) \"even if ~\", \"even though ~\"; (2) 〜にしても〜にしても: \"whether ~ or ~\".",
-    "simpleExplanation": "(1) \"even if ~\", \"even though ~\"; (2) 〜にしても〜にしても: \"whether ~ or ~\".",
+    "simpleExplanation": "Grants the point and then pushes back: even granting that, the speaker still objects. Doubled, it covers both alternatives.",
     "formation": [
-      "plain form + にしても; N + にしても"
+      "Plain form + にしても",
+      "N + にしても",
+      "〜にしても〜にしても (whether ~ or ~)"
     ],
     "examples": [
       {
+        "ja": "冗談にしても、言いすぎだ。",
+        "reading": "じょうだんにしても、いいすぎだ。",
+        "en": "Even as a joke, that goes too far."
+      },
+      {
+        "ja": "行くにしても、来週以降になるだろう。",
+        "reading": "いくにしても、らいしゅういこうになるだろう。",
+        "en": "Even if I go, it won't be before next week."
+      },
+      {
         "ja": "忙しいにしても、電話ぐらいはできるはずだ。",
         "reading": "いそがしいにしても、でんわぐらいはできるはずだ。",
-        "en": "Even if you're busy, you should at least be able to call."
+        "en": "Even if you're busy, you could at least call."
       },
       {
         "ja": "行くにしても行かないにしても、早く決めてください。",
         "reading": "いくにしてもいかないにしても、はやくきめてください。",
         "en": "Whether you go or not, please decide soon."
-      },
-      {
-        "ja": "冗談にしても、言いすぎだ。",
-        "reading": "じょうだんにしても、いいすぎだ。",
-        "en": "Even as a joke, that's going too far."
       }
     ],
     "similarGrammar": [],
@@ -2675,7 +2912,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Mild complaint or criticism, and in presenting either-way conditions."
   },
   {
     "id": "n3-grammar-68",
@@ -2684,10 +2922,12 @@
     "order": 68,
     "title": "〜としたら / 〜とすれば / 〜とすると",
     "romaji": "toshitara-tosureba-tosuruto",
-    "meaning": "\"if we suppose ~\", \"assuming ~\", \"if it's the case that ~\".",
-    "simpleExplanation": "\"if we suppose ~\", \"assuming ~\", \"if it's the case that ~\".",
+    "meaning": "\"if we suppose ~\", \"assuming ~\", \"if it is the case that ~\".",
+    "simpleExplanation": "Sets up a hypothesis and asks what follows from it. The second clause is usually a question, a guess or a conclusion, not a command.",
     "formation": [
-      "plain form + としたら / とすれば / とすると (N / な-adj + だ + としたら)"
+      "Plain form + としたら / とすれば / とすると",
+      "N / な-adj + だ + としたら",
+      "Often introduced by もし"
     ],
     "examples": [
       {
@@ -2698,12 +2938,17 @@
       {
         "ja": "彼が犯人だとすれば、動機は何だろう。",
         "reading": "かれがはんにんだとすれば、どうきはなんだろう。",
-        "en": "If he is the culprit, what would be the motive?"
+        "en": "If he's the culprit, what would the motive be?"
       },
       {
         "ja": "この電車に乗るとすると、七時に着く。",
         "reading": "このでんしゃにのるとすると、しちじにつく。",
-        "en": "If we take this train, we'd arrive at seven."
+        "en": "Assuming we take this train, we'll arrive at seven."
+      },
+      {
+        "ja": "今出発するとすると、着くのは夜中になる。",
+        "reading": "いましゅっぱつするとすると、つくのはよなかになる。",
+        "en": "If we leave now, we'd arrive in the middle of the night."
       }
     ],
     "similarGrammar": [],
@@ -2715,7 +2960,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Reasoning through a hypothetical, from idle what-ifs to logical deduction."
   },
   {
     "id": "n3-grammar-69",
@@ -2804,26 +3050,33 @@
     "order": 71,
     "title": "〜というより",
     "romaji": "toiuyori",
-    "meaning": "\"rather than ~\", \"more ~ than ~\" — chooses a more accurate description.",
-    "simpleExplanation": "\"rather than ~\", \"more ~ than ~\" — chooses a more accurate description.",
+    "meaning": "\"rather than ~\", \"more ~ than ~\" — replaces a description with a more accurate one.",
+    "simpleExplanation": "You reject the first label, not the fact, and offer a better one. むしろ often follows for emphasis.",
     "formation": [
-      "plain form + というより (N / な-adj + (だ) + というより); often 〜というより(も)、むしろ〜"
+      "Plain form + というより(も)",
+      "N / な-adj + (だ) + というより",
+      "Often 〜というより(も)、むしろ〜"
     ],
     "examples": [
-      {
-        "ja": "彼は先生というより、友達のような存在だ。",
-        "reading": "かれはせんせいというより、ともだちのようなそんざいだ。",
-        "en": "He's more like a friend than a teacher."
-      },
       {
         "ja": "今日は涼しいというより寒い。",
         "reading": "きょうはすずしいというよりさむい。",
         "en": "Today is cold rather than cool."
       },
       {
+        "ja": "彼は先生というより、友達のような存在だ。",
+        "reading": "かれはせんせいというより、ともだちのようなそんざいだ。",
+        "en": "He's more like a friend than a teacher."
+      },
+      {
+        "ja": "走ったというより、飛んだ感じだった。",
+        "reading": "はしったというより、とんだかんじだった。",
+        "en": "It felt less like running than flying."
+      },
+      {
         "ja": "あの人は歌手というより、むしろ俳優として有名だ。",
         "reading": "あのひとはかしゅというより、むしろはいゆうとしてゆうめいだ。",
-        "en": "He's famous more as an actor than as a singer."
+        "en": "He's famous as an actor rather than as a singer."
       }
     ],
     "similarGrammar": [],
@@ -2835,7 +3088,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Refining someone's wording, in speech and writing alike."
   },
   {
     "id": "n3-grammar-72",
@@ -3124,16 +3378,18 @@
     "order": 79,
     "title": "〜に違いない",
     "romaji": "niinai",
-    "meaning": "\"must be ~\", \"I'm sure that ~\" (confident inference).",
-    "simpleExplanation": "\"must be ~\", \"I'm sure that ~\" (confident inference).",
+    "meaning": "\"must be ~\", \"I'm sure that ~\" — a confident inference from evidence.",
+    "simpleExplanation": "Stronger than 〜だろう but still the speaker's own judgement, not a fact. な-adjectives and nouns attach directly, without だ.",
     "formation": [
-      "V-plain / い-adj / な-adj (-な omitted) / N + に違いない"
+      "V-plain + に違いない",
+      "い-adj + に違いない",
+      "な-adj (no な) / N (no だ) + に違いない"
     ],
     "examples": [
       {
-        "ja": "電気がついている。誰かいるに違いない。",
-        "reading": "でんきがついている。だれかいるにちがいない。",
-        "en": "The light is on. Someone must be there."
+        "ja": "これは高いに違いない。",
+        "reading": "これはたかいにちがいない。",
+        "en": "This must be expensive."
       },
       {
         "ja": "彼女は疲れているに違いない。",
@@ -3141,9 +3397,14 @@
         "en": "She must be tired."
       },
       {
-        "ja": "これは高いに違いない。",
-        "reading": "これはたかいにちがいない。",
-        "en": "This must be expensive."
+        "ja": "あの二人は兄弟に違いない。",
+        "reading": "あのふたりはきょうだいにちがいない。",
+        "en": "Those two must be brothers."
+      },
+      {
+        "ja": "電気がついている。誰かいるに違いない。",
+        "reading": "でんきがついている。だれかいるにちがいない。",
+        "en": "The light is on. Someone must be there."
       }
     ],
     "similarGrammar": [],
@@ -3155,7 +3416,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Drawing a firm conclusion from something you can see or know."
   },
   {
     "id": "n3-grammar-80",
@@ -3164,26 +3426,33 @@
     "order": 80,
     "title": "〜に決まっている",
     "romaji": "nimatteiru",
-    "meaning": "\"definitely ~\", \"of course ~\", \"it's certain that ~\".",
-    "simpleExplanation": "\"definitely ~\", \"of course ~\", \"it's certain that ~\".",
+    "meaning": "\"definitely ~\", \"of course ~\", \"it's bound to be ~\" — strong personal conviction.",
+    "simpleExplanation": "Stronger and more emotional than 〜に違いない, and casual. It says \"obviously\", even though it is still just the speaker's opinion.",
     "formation": [
-      "V-plain / い-adj / な-adj / N + に決まっている"
+      "V-plain + に決まっている",
+      "い-adj + に決まっている",
+      "な-adj (no な) / N (no だ) + に決まっている"
     ],
     "examples": [
       {
         "ja": "そんな話、嘘に決まっている。",
         "reading": "そんなはなし、うそにきまっている。",
-        "en": "A story like that is definitely a lie."
+        "en": "A story like that has to be a lie."
       },
       {
         "ja": "毎日練習すれば、上手になるに決まっている。",
         "reading": "まいにちれんしゅうすれば、じょうずになるにきまっている。",
-        "en": "If you practice daily, you'll definitely get better."
+        "en": "If you practise every day, of course you'll get good."
+      },
+      {
+        "ja": "あんなに高い店、おいしいに決まっているよ。",
+        "reading": "あんなにたかいみせ、おいしいにきまっているよ。",
+        "en": "A place that pricey is bound to be delicious."
       },
       {
         "ja": "こんな時間に電話したら、迷惑に決まっているだろう。",
         "reading": "こんなじかんにでんわしたら、めいわくにきまっているだろう。",
-        "en": "Calling at this hour would obviously be a nuisance."
+        "en": "Calling at this hour is obviously a nuisance."
       }
     ],
     "similarGrammar": [],
@@ -3195,7 +3464,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual conversation, often with a hint of irritation or certainty."
   },
   {
     "id": "n3-grammar-81",
@@ -3284,26 +3554,33 @@
     "order": 83,
     "title": "〜っぱなし",
     "romaji": "ppanashi",
-    "meaning": "\"leave ~ as it is\", \"keep on -ing\" (something left undone or continuing, usually negative).",
-    "simpleExplanation": "\"leave ~ as it is\", \"keep on -ing\" (something left undone or continuing, usually negative).",
+    "meaning": "\"leave ~ as it is\" (neglect), \"keep on ~ing\" — usually with a negative or tiring nuance.",
+    "simpleExplanation": "From 放す. Either something was left in a state it shouldn't be (水を出しっぱなし), or an action continued without a break (立ちっぱなし).",
     "formation": [
-      "V-ます stem + っぱなし (+ だ / で / の N)"
+      "V-ます stem + っぱなし",
+      "+ だ / で / の + N",
+      "〜っぱなしにする (leave it that way)"
     ],
     "examples": [
-      {
-        "ja": "窓を開けっぱなしで出かけてしまった。",
-        "reading": "まどをあけっぱなしででかけてしまった。",
-        "en": "I went out leaving the window open."
-      },
-      {
-        "ja": "一日中立ちっぱなしで足が痛い。",
-        "reading": "いちにちじゅうたちっぱなしであしがいたい。",
-        "en": "My legs hurt from standing all day."
-      },
       {
         "ja": "水を出しっぱなしにしないでください。",
         "reading": "みずをだしっぱなしにしないでください。",
         "en": "Please don't leave the water running."
+      },
+      {
+        "ja": "窓を開けっぱなしで出かけてしまった。",
+        "reading": "まどをあけっぱなしででかけてしまった。",
+        "en": "I went out and left the window wide open."
+      },
+      {
+        "ja": "一日中立ちっぱなしで足が痛い。",
+        "reading": "いちにちじゅうたちっぱなしであしがいたい。",
+        "en": "My feet hurt from standing all day."
+      },
+      {
+        "ja": "今年のチームは負けっぱなしだ。",
+        "reading": "ことしのチームはまけっぱなしだ。",
+        "en": "This year's team just keeps losing."
       }
     ],
     "similarGrammar": [],
@@ -3315,7 +3592,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Complaining about carelessness, or about something exhausting that went on and on."
   },
   {
     "id": "n3-grammar-84",
@@ -3324,26 +3602,28 @@
     "order": 84,
     "title": "〜きる / 〜きれる / 〜きれない",
     "romaji": "kiru-kireru-kirenai",
-    "meaning": "\"do completely\", \"finish ~ing\" / \"can finish\" / \"cannot finish, too much to ~\".",
-    "simpleExplanation": "\"do completely\", \"finish ~ing\" / \"can finish\" / \"cannot finish, too much to ~\".",
+    "meaning": "\"do ~ completely / finish ~ing\"; 〜きれる \"can finish\"; 〜きれない \"cannot finish, too much to ~\".",
+    "simpleExplanation": "切る adds the sense of doing something all the way to the end. 疲れきる, 困りきる and similar forms mean \"utterly\".",
     "formation": [
-      "V-ます stem + 切る / 切れる / 切れない"
+      "V-ます stem + 切る (complete)",
+      "V-ます stem + 切れる (can complete)",
+      "V-ます stem + 切れない (cannot complete)"
     ],
     "examples": [
       {
         "ja": "長い小説をやっと読み切った。",
         "reading": "ながいしょうせつをやっとよみきった。",
-        "en": "I finally finished reading the long novel."
+        "en": "I finally finished the long novel."
       },
       {
         "ja": "こんなにたくさん、一人では食べきれない。",
         "reading": "こんなにたくさん、ひとりではたべきれない。",
-        "en": "I can't eat this much by myself."
+        "en": "There's no way I can eat this much on my own."
       },
       {
         "ja": "彼は疲れきった顔をしていた。",
         "reading": "かれはつかれきったかおをしていた。",
-        "en": "He had an utterly exhausted face."
+        "en": "He looked utterly exhausted."
       }
     ],
     "similarGrammar": [],
@@ -3355,7 +3635,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Completion, capacity and exhaustion; 〜きれない is very common with quantities."
   },
   {
     "id": "n3-grammar-85",
@@ -3518,46 +3799,6 @@
     "enriched": false
   },
   {
-    "id": "n3-grammar-89",
-    "slug": "89-tehoshii",
-    "level": "n3",
-    "order": 89,
-    "title": "〜てほしい",
-    "romaji": "tehoshii",
-    "meaning": "\"I want (someone) to ~\".",
-    "simpleExplanation": "\"I want (someone) to ~\".",
-    "formation": [
-      "(person に) V-て + ほしい / V-ない + でほしい (negative)"
-    ],
-    "examples": [
-      {
-        "ja": "母に早く元気になってほしい。",
-        "reading": "ははにはやくげんきになってほしい。",
-        "en": "I want my mother to get well soon."
-      },
-      {
-        "ja": "この話は誰にも言わないでほしい。",
-        "reading": "このはなしはだれにもいわないでほしい。",
-        "en": "I want you not to tell anyone about this."
-      },
-      {
-        "ja": "先生にもっとゆっくり話してほしいです。",
-        "reading": "せんせいにもっとゆっくりはなしてほしいです。",
-        "en": "I'd like the teacher to speak more slowly."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "The doer is marked with に. Contrast 〜たい (speaker does it) vs 〜てほしい (someone else does it). Direct; soften with 〜てほしいんですが."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n3-grammar-90",
     "slug": "90-temoraitai-teitadakitai",
     "level": "n3",
@@ -3630,46 +3871,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Politeness scale: 〜てくれない？ < 〜てもらえますか < 〜てもらえませんか < 〜ていただけませんか < 〜ていただけないでしょうか. Negative forms are politer than affirmative."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n3-grammar-92",
-    "slug": "92-sasetekudasai",
-    "level": "n3",
-    "order": 92,
-    "title": "〜させてください",
-    "romaji": "sasetekudasai",
-    "meaning": "\"Please let me ~\", \"Please allow me to ~\".",
-    "simpleExplanation": "\"Please let me ~\", \"Please allow me to ~\".",
-    "formation": [
-      "V-causative て-form + ください (Group 1: -aせて, Group 2: -させて, する → させて, 来る → 来させて)"
-    ],
-    "examples": [
-      {
-        "ja": "今日は疲れたので、早く帰らせてください。",
-        "reading": "きょうはつかれたので、はやくかえらせてください。",
-        "en": "I'm tired today, so please let me go home early."
-      },
-      {
-        "ja": "その仕事は私にやらせてください。",
-        "reading": "そのしごとはわたしにやらせてください。",
-        "en": "Please let me do that job."
-      },
-      {
-        "ja": "少し考えさせてください。",
-        "reading": "すこしかんがえさせてください。",
-        "en": "Please let me think about it a bit."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Asks permission for the speaker's own action. Casual: 〜させて. Humble: 〜させていただけませんか."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -3797,46 +3998,6 @@
     "enriched": false
   },
   {
-    "id": "n3-grammar-96",
-    "slug": "96-tearu",
-    "level": "n3",
-    "order": 96,
-    "title": "〜てある",
-    "romaji": "tearu",
-    "meaning": "\"has been done (and the state remains)\", \"is ~ed\" (resulting state of a deliberate action).",
-    "simpleExplanation": "\"has been done (and the state remains)\", \"is ~ed\" (resulting state of a deliberate action).",
-    "formation": [
-      "transitive V-て + ある (object marked with が or は)"
-    ],
-    "examples": [
-      {
-        "ja": "壁に絵が掛けてある。",
-        "reading": "かべにえがかけてある。",
-        "en": "A picture is hanging on the wall (someone hung it)."
-      },
-      {
-        "ja": "ホテルはもう予約してあります。",
-        "reading": "ホテルはもうよやくしてあります。",
-        "en": "The hotel has already been booked."
-      },
-      {
-        "ja": "ドアに名前が書いてあった。",
-        "reading": "ドアになまえがかいてあった。",
-        "en": "A name was written on the door."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "〜てある (transitive, implies someone did it on purpose) vs 〜ている (intransitive, just describes state): 窓が開けてある vs 窓が開いている. Often paired with 〜ておく: 準備しておく → 準備してある."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n3-grammar-97",
     "slug": "97-tekuru-teiku",
     "level": "n3",
@@ -3921,28 +4082,40 @@
     "slug": "99-bakarida",
     "level": "n3",
     "order": 99,
-    "title": "〜ばかりだ (change)",
+    "title": "〜ばかりだ",
     "romaji": "bakarida",
-    "meaning": "\"only keeps ~ing\", \"does nothing but get ~\" (worsening one-way change).",
-    "simpleExplanation": "\"only keeps ~ing\", \"does nothing but get ~\" (worsening one-way change).",
+    "meaning": "(1) \"only keeps ~ing\", \"does nothing but get ~\" — a one-way, usually worsening change; (2) \"all that is left is to ~\" — everything else is ready.",
+    "simpleExplanation": "Both senses take a dictionary-form verb. Sense (1) uses a change verb (増える, 下がる, 悪くなる) and sounds negative; sense (2) is usually set up by あとは and means only the final step remains.",
     "formation": [
-      "V-dictionary (change verb) + ばかりだ"
+      "V-dict (change verb) + ばかりだ (worsening trend)",
+      "あとは + V-dict + ばかりだ (all that remains)",
+      "〜ばかりで、〜ない for the continuing form"
     ],
     "examples": [
       {
-        "ja": "最近、仕事が忙しくなるばかりだ。",
-        "reading": "さいきん、しごとがいそがしくなるばかりだ。",
-        "en": "Lately work just keeps getting busier."
-      },
-      {
         "ja": "彼の成績は下がるばかりだ。",
         "reading": "かれのせいせきはさがるばかりだ。",
-        "en": "His grades only keep dropping."
+        "en": "His grades just keep dropping."
+      },
+      {
+        "ja": "最近、仕事が忙しくなるばかりだ。",
+        "reading": "さいきん、しごとがいそがしくなるばかりだ。",
+        "en": "Lately work only gets busier and busier."
+      },
+      {
+        "ja": "物価は上がるばかりだ。",
+        "reading": "ぶっかはあがるばかりだ。",
+        "en": "Prices only keep going up."
       },
       {
         "ja": "借金は増えるばかりで、減らない。",
         "reading": "しゃっきんはふえるばかりで、へらない。",
-        "en": "The debt only grows and never shrinks."
+        "en": "The debt only grows; it never shrinks."
+      },
+      {
+        "ja": "準備は終わった。あとは出発するばかりだ。",
+        "reading": "じゅんびはおわった。あとはしゅっぱつするばかりだ。",
+        "en": "The preparations are done. All that's left is to set off."
       }
     ],
     "similarGrammar": [],
@@ -3954,7 +4127,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Sense (1) for deteriorating trends; sense (2) when preparations are complete."
   },
   {
     "id": "n3-grammar-100",
@@ -4003,26 +4177,27 @@
     "order": 101,
     "title": "〜だらけ",
     "romaji": "darake",
-    "meaning": "\"full of ~\", \"covered in ~\" (undesirable things).",
-    "simpleExplanation": "\"full of ~\", \"covered in ~\" (undesirable things).",
+    "meaning": "\"full of ~\", \"covered in ~\" — always undesirable things.",
+    "simpleExplanation": "Attaches straight to a noun. Unlike いっぱい, だらけ is negative: mud, dust, mistakes, blood.",
     "formation": [
-      "N + だらけ (+ だ / の N / で)"
+      "N + だらけ",
+      "+ だ / の + N / で"
     ],
     "examples": [
-      {
-        "ja": "子供たちは泥だらけになって帰ってきた。",
-        "reading": "こどもたちはどろだらけになってかえってきた。",
-        "en": "The kids came home covered in mud."
-      },
       {
         "ja": "この作文は間違いだらけだ。",
         "reading": "このさくぶんはまちがいだらけだ。",
         "en": "This essay is full of mistakes."
       },
       {
+        "ja": "子供たちは泥だらけになって帰ってきた。",
+        "reading": "こどもたちはどろだらけになってかえってきた。",
+        "en": "The children came home covered in mud."
+      },
+      {
         "ja": "部屋はほこりだらけで、掃除が大変だった。",
         "reading": "へやはほこりだらけで、そうじがたいへんだった。",
-        "en": "The room was full of dust and cleaning was hard."
+        "en": "The room was thick with dust and a real job to clean."
       }
     ],
     "similarGrammar": [],
@@ -4034,7 +4209,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Complaining or describing a mess."
   },
   {
     "id": "n3-grammar-102",
@@ -4323,26 +4499,34 @@
     "order": 109,
     "title": "〜くせに",
     "romaji": "kuseni",
-    "meaning": "\"even though ~\", \"despite ~\" (criticism, contempt).",
-    "simpleExplanation": "\"even though ~\", \"despite ~\" (criticism, contempt).",
+    "meaning": "\"even though ~\", \"despite ~\" — with criticism, blame or contempt.",
+    "simpleExplanation": "Grammatically like のに, but always carries a negative attitude towards the subject, so never use it about yourself or a superior.",
     "formation": [
-      "V-plain / い-adj / な-adj -な / N-の + くせに"
+      "V-plain + くせに",
+      "い-adj + くせに",
+      "な-adj + な + くせに",
+      "N + の + くせに"
     ],
     "examples": [
       {
-        "ja": "彼は知っているくせに、教えてくれない。",
-        "reading": "かれはしっているくせに、おしえてくれない。",
-        "en": "Even though he knows, he won't tell me."
+        "ja": "知っているくせに、教えてくれない。",
+        "reading": "しっているくせに、おしえてくれない。",
+        "en": "He knows, but he won't tell me."
       },
       {
         "ja": "子供のくせに、生意気なことを言うな。",
         "reading": "こどものくせに、なまいきなことをいうな。",
-        "en": "Don't be cheeky when you're just a kid."
+        "en": "Don't talk back like that when you're only a child."
+      },
+      {
+        "ja": "下手なくせに、人に教えたがる。",
+        "reading": "へたなくせに、ひとにおしえたがる。",
+        "en": "He's bad at it, yet he's always trying to teach others."
       },
       {
         "ja": "下手なくせに、自分では上手だと思っている。",
         "reading": "へたなくせに、じぶんではじょうずだとおもっている。",
-        "en": "Even though he's bad at it, he thinks he's good."
+        "en": "He's terrible at it, but he thinks he's good."
       }
     ],
     "similarGrammar": [],
@@ -4354,7 +4538,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual complaints and rebukes."
   },
   {
     "id": "n3-grammar-110",
@@ -4403,26 +4588,33 @@
     "order": 111,
     "title": "〜も〜ば〜も / 〜も〜なら〜も",
     "romaji": "mobamo-monaramo",
-    "meaning": "\"both ~ and ~\", \"not only ~ but ~\" (listing two similar things).",
-    "simpleExplanation": "\"both ~ and ~\", \"not only ~ but ~\" (listing two similar things).",
+    "meaning": "\"both ~ and ~\", \"not only ~ but also ~\" — listing two items of the same kind.",
+    "simpleExplanation": "Two parallel clauses, each marked with も, joined by a ば- or なら-form. The two items must point the same way — both good or both bad.",
     "formation": [
-      "N + も + V-ば / い-adj -ければ / な-adj・N + なら + N + も"
+      "N + も + V-ば + N + も + V",
+      "N + も + い-adj-ければ + N + も + adj",
+      "N + も + な-adj / N + なら + N + も"
     ],
     "examples": [
       {
-        "ja": "彼は英語も話せれば、中国語も話せる。",
-        "reading": "かれはえいごもはなせれば、ちゅうごくごもはなせる。",
-        "en": "He can speak English, and Chinese too."
-      },
-      {
         "ja": "この店は値段も安ければ、味もいい。",
         "reading": "このみせはねだんもやすければ、あじもいい。",
-        "en": "This place is cheap, and the food is good too."
+        "en": "This place is cheap and the food is good too."
+      },
+      {
+        "ja": "彼は英語も話せれば、中国語も話せる。",
+        "reading": "かれはえいごもはなせれば、ちゅうごくごもはなせる。",
+        "en": "He speaks both English and Chinese."
+      },
+      {
+        "ja": "彼女は歌も上手なら、ダンスも上手だ。",
+        "reading": "かのじょはうたもじょうずなら、ダンスもじょうずだ。",
+        "en": "She's good at singing and at dancing too."
       },
       {
         "ja": "人生にはいい時もあれば、悪い時もある。",
         "reading": "じんせいにはいいときもあれば、わるいときもある。",
-        "en": "In life there are good times and there are bad times."
+        "en": "In life there are good times and bad times alike."
       }
     ],
     "similarGrammar": [],
@@ -4434,7 +4626,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Praising or criticising something on two counts at once."
   },
   {
     "id": "n3-grammar-112",
@@ -4469,46 +4662,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Casual version of 〜や〜など; unlike や, とか can list verbs and clauses. Also hedges a single item: 田中さんとかどう？ \"What about, say, Tanaka?\""
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n3-grammar-113",
-    "slug": "113-taritarisuru",
-    "level": "n3",
-    "order": 113,
-    "title": "〜たり〜たりする",
-    "romaji": "taritarisuru",
-    "meaning": "\"do things like ~ and ~\", \"sometimes ~, sometimes ~\" (representative or alternating actions).",
-    "simpleExplanation": "\"do things like ~ and ~\", \"sometimes ~, sometimes ~\" (representative or alternating actions).",
-    "formation": [
-      "V-た + り + V-た + り + する / い-adj -かったり / な-adj・N + だったり"
-    ],
-    "examples": [
-      {
-        "ja": "休みの日は本を読んだり、音楽を聞いたりします。",
-        "reading": "やすみのひはほんをよんだり、おんがくをきいたりします。",
-        "en": "On days off I do things like reading and listening to music."
-      },
-      {
-        "ja": "最近は暑かったり寒かったりで、体調を崩しやすい。",
-        "reading": "さいきんはあつかったりさむかったりで、たいちょうをくずしやすい。",
-        "en": "Lately it's been hot one day and cold the next, so it's easy to get sick."
-      },
-      {
-        "ja": "教室で走ったりしないでください。",
-        "reading": "きょうしつではしったりしないでください。",
-        "en": "Please don't run and so on in the classroom."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Tense is carried by the final する. A single 〜たりする softens (\"do things like ~\"). Alternation: 行ったり来たり \"back and forth\", 泣いたり笑ったり."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -4643,26 +4796,33 @@
     "order": 117,
     "title": "〜ようとしない",
     "romaji": "youtoshinai",
-    "meaning": "\"refuse to ~\", \"make no attempt to ~\" (third person's unwillingness).",
-    "simpleExplanation": "\"refuse to ~\", \"make no attempt to ~\" (third person's unwillingness).",
+    "meaning": "\"refuse to ~\", \"make no attempt to ~\" — someone else's stubborn unwillingness.",
+    "simpleExplanation": "Volitional form + としない. Because it describes an attitude observed from outside, it is used about other people (or animals), not about yourself.",
     "formation": [
-      "V-volitional + としない"
+      "V-volitional + としない",
+      "Past: 〜としなかった",
+      "Third-person subject"
     ],
     "examples": [
       {
+        "ja": "犬は動こうとしない。",
+        "reading": "いぬはうごこうとしない。",
+        "en": "The dog won't move."
+      },
+      {
         "ja": "息子は何度言っても、勉強しようとしない。",
         "reading": "むすこはなんどいっても、べんきょうしようとしない。",
-        "en": "No matter how many times I tell him, my son won't try to study."
+        "en": "No matter how often I tell him, my son won't study."
       },
       {
         "ja": "彼女は私の話を聞こうとしなかった。",
         "reading": "かのじょはわたしのはなしをきこうとしなかった。",
-        "en": "She wouldn't listen to what I had to say."
+        "en": "She refused to listen to me."
       },
       {
-        "ja": "犬は動こうとしない。",
-        "reading": "いぬはうごこうとしない。",
-        "en": "The dog won't budge."
+        "ja": "彼は自分の間違いを認めようとしない。",
+        "reading": "かれはじぶんのまちがいをみとめようとしない。",
+        "en": "He won't admit his own mistake."
       }
     ],
     "similarGrammar": [],
@@ -4674,7 +4834,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Expressing frustration at someone who will not budge."
   },
   {
     "id": "n3-grammar-118",
@@ -4909,46 +5070,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Objective necessity, more formal than 〜なければならない. 〜必要はない ≈ 〜ことはない. N + が必要だ is the noun version (ビザが必要だ)."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n3-grammar-124",
-    "slug": "124-chau-jau",
-    "level": "n3",
-    "order": 124,
-    "title": "〜ちゃう / 〜じゃう (contraction of 〜てしまう)",
-    "romaji": "chau-jau",
-    "meaning": "\"end up ~ing\", \"do ~ completely\" (regret or completion; casual).",
-    "simpleExplanation": "\"end up ~ing\", \"do ~ completely\" (regret or completion; casual).",
-    "formation": [
-      "V-て → -ちゃう (て → ちゃう, で → じゃう); past: ちゃった / じゃった"
-    ],
-    "examples": [
-      {
-        "ja": "宿題を忘れちゃった。",
-        "reading": "しゅくだいをわすれちゃった。",
-        "en": "I forgot my homework (oops)."
-      },
-      {
-        "ja": "財布をなくしちゃったんだ。",
-        "reading": "さいふをなくしちゃったんだ。",
-        "en": "I've gone and lost my wallet."
-      },
-      {
-        "ja": "ケーキ、全部食べちゃったの？",
-        "reading": "ケーキ、ぜんぶたべちゃったの？",
-        "en": "Did you eat all the cake?"
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "読んで → 読んじゃう, 飲んで → 飲んじゃう, 死んで → 死んじゃう. Politeness: 〜ちゃいます is casual-polite. Spoken only; write 〜てしまう."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -5323,10 +5444,11 @@
     "order": 134,
     "title": "〜とは",
     "romaji": "toha",
-    "meaning": "(1) \"what is ~\" / \"~ means\" (definition, topic) / (2) \"to think that ~!\" (surprise, sentence-final or before a comment).",
-    "simpleExplanation": "(1) \"what is ~\" / \"~ means\" (definition, topic) / (2) \"to think that ~!\" (surprise, sentence-final or before a comment).",
+    "meaning": "(1) \"~ means ~\", \"what is ~\" (definition / topic); (2) \"to think that ~!\" (surprise or shock).",
+    "simpleExplanation": "After a noun it introduces a definition, common in dictionaries and explanations. After a clause it expresses astonishment, often trailing off or followed by 思わなかった / 驚きだ.",
     "formation": [
-      "N + とは / V-plain・phrase + とは"
+      "N + とは (definition)",
+      "Plain form + とは (surprise), at sentence end or + 思わなかった / 驚きだ"
     ],
     "examples": [
       {
@@ -5342,7 +5464,17 @@
       {
         "ja": "彼が試験に合格するとは、思わなかった。",
         "reading": "かれがしけんにごうかくするとは、おもわなかった。",
-        "en": "I never thought he would pass the exam."
+        "en": "I never thought he'd pass the exam."
+      },
+      {
+        "ja": "彼が犯人だったとは。",
+        "reading": "かれがはんにんだったとは。",
+        "en": "To think that he was the culprit!"
+      },
+      {
+        "ja": "まさかこんなに早く再会できるとは思わなかった。",
+        "reading": "まさかこんなにはやくさいかいできるとはおもわなかった。",
+        "en": "I never imagined we'd meet again so soon."
       }
     ],
     "similarGrammar": [],
@@ -5354,7 +5486,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Sense (1) in formal writing and explanations; sense (2) for genuine surprise, and it is rather literary."
   },
   {
     "id": "n3-grammar-135",

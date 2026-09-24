@@ -5,15 +5,13 @@
   "order": 79,
   "title": "〜に違いない",
   "romaji": "ni chigai nai",
-  "meaning": "must be… / I'm sure that… (confident guess from evidence)",
-  "simpleExplanation": "〜に違いない means \"I'm sure it's X\". You see some evidence (the light is on) and draw a confident conclusion (someone must be there). It is a guess, not a fact: the speaker is convinced but has not confirmed it.",
-  "whenUsed": "Speech and writing, especially detective-style reasoning, worries and hopes. It sounds a little formal or literary; in casual talk people often say きっと〜だ or 〜に決まっている. Polite: 〜に違いありません.",
+  "meaning": "\"must be ~\", \"I'm sure that ~\" — a confident inference from evidence.",
+  "simpleExplanation": "Stronger than 〜だろう but still the speaker's own judgement, not a fact. な-adjectives and nouns attach directly, without だ.",
+  "whenUsed": "Drawing a firm conclusion from something you can see or know.",
   "formation": [
-    "Verb (plain form) + に違いない",
-    "い-adjective + に違いない",
-    "な-adjective (no な) + に違いない",
-    "Noun (no の) + に違いない",
-    "Polite: 〜に違いありません / Formal: 〜に相違ない"
+    "V-plain + に違いない",
+    "い-adj + に違いない",
+    "な-adj (no な) / N (no だ) + に違いない"
   ],
   "diagram": {
     "kind": "scale",
@@ -43,34 +41,24 @@
   },
   "examples": [
     {
-      "ja": "電気がついている。誰かいるに違いない。",
-      "reading": "でんきがついている。だれかいるにちがいない。",
-      "en": "The light is on. Someone must be there.",
-      "note": "Evidence (light on) → conclusion."
+      "ja": "これは高いに違いない。",
+      "reading": "これはたかいにちがいない。",
+      "en": "This must be expensive."
     },
     {
       "ja": "彼女は疲れているに違いない。",
       "reading": "かのじょはつかれているにちがいない。",
-      "en": "She must be tired.",
-      "note": "Verb ている + に違いない."
+      "en": "She must be tired."
     },
     {
-      "ja": "これは高いに違いない。",
-      "reading": "これはたかいにちがいない。",
-      "en": "This must be expensive.",
-      "note": "い-adjective attaches directly."
+      "ja": "あの二人は兄弟に違いない。",
+      "reading": "あのふたりはきょうだいにちがいない。",
+      "en": "Those two must be brothers."
     },
     {
-      "ja": "この字は彼のに違いない。",
-      "reading": "このじはかれのにちがいない。",
-      "en": "This handwriting must be his.",
-      "note": "彼の here means 'his (one)'; the noun phrase attaches directly to に違いない."
-    },
-    {
-      "ja": "こんなに静かなのだから、みんなもう寝たに違いありません。",
-      "reading": "こんなにしずかなのだから、みんなもうねたにちがいありません。",
-      "en": "It's so quiet, so everyone must have gone to bed already.",
-      "note": "Past guess: た-form + に違いない."
+      "ja": "電気がついている。誰かいるに違いない。",
+      "reading": "でんきがついている。だれかいるにちがいない。",
+      "en": "The light is on. Someone must be there."
     }
   ],
   "similarGrammar": [

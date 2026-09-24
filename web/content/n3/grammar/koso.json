@@ -5,14 +5,14 @@
   "order": 52,
   "title": "〜こそ",
   "romaji": "koso",
-  "meaning": "Precisely… / it is … that…",
-  "simpleExplanation": "〜こそ puts a spotlight on the word before it: 今度こそ合格したい = this time for sure I want to pass (not like the last times). 努力こそが成功の鍵だ = it is effort, above all, that is the key. It replaces は and can combine with が (こそが).",
-  "whenUsed": "Speech and writing. Set phrases: こちらこそ (the pleasure is mine), 今度こそ, これこそ, 今こそ. 〜からこそ emphasizes a reason.",
+  "meaning": "\"precisely ~\", \"it is ~ that ~\" — emphasis on the word it follows.",
+  "simpleExplanation": "こそ spotlights the preceding word: this one, not any other. こちらこそ and 今度こそ are set phrases worth memorising.",
+  "whenUsed": "Emphasis in both speech and writing; also in the fixed reason form 〜からこそ.",
   "formation": [
-    "Noun + こそ (replaces は)",
-    "Noun + こそが / こそを",
-    "Set phrases: こちらこそ / 今度こそ / これこそ / 今こそ",
-    "See also: 〜からこそ"
+    "N + こそ",
+    "これ / 今 / 今度 + こそ",
+    "N + こそが + predicate",
+    "Plain form + からこそ (emphatic reason)"
   ],
   "diagram": {
     "kind": "transformation",
@@ -29,34 +29,24 @@
   },
   "examples": [
     {
-      "ja": "今度こそ合格したい。",
-      "reading": "こんどこそごうかくしたい。",
-      "en": "This time for sure I want to pass.",
-      "note": "今度こそ: this time, unlike before."
-    },
-    {
       "ja": "こちらこそ、よろしくお願いします。",
       "reading": "こちらこそ、よろしくおねがいします。",
-      "en": "It's I who should say so — pleased to meet you.",
-      "note": "こちらこそ: returning a greeting."
+      "en": "The pleasure is mine."
+    },
+    {
+      "ja": "今度こそ合格したい。",
+      "reading": "こんどこそごうかくしたい。",
+      "en": "This time for sure, I want to pass."
+    },
+    {
+      "ja": "これこそ、私が探していた本だ。",
+      "reading": "これこそ、わたしがさがしていたほんだ。",
+      "en": "This is the very book I was looking for."
     },
     {
       "ja": "努力こそが成功の鍵だ。",
       "reading": "どりょくこそがせいこうのかぎだ。",
-      "en": "Effort is precisely the key to success.",
-      "note": "こそが: emphasizing the subject."
-    },
-    {
-      "ja": "「ありがとうございました。」「いいえ、こちらこそありがとうございました。」",
-      "reading": "「ありがとうございました。」「いいえ、こちらこそありがとうございました。」",
-      "en": "\"Thank you very much.\" \"No, thank you.\"",
-      "note": "こちらこそ returns thanks or greetings."
-    },
-    {
-      "ja": "これこそ、私がずっと探していた本だ。",
-      "reading": "これこそ、わたしがずっとさがしていたほんだ。",
-      "en": "This is exactly the book I've been looking for.",
-      "note": "これこそ: this and nothing else."
+      "en": "Effort is precisely the key to success."
     }
   ],
   "similarGrammar": [

@@ -5,14 +5,13 @@
   "order": 64,
   "title": "たとえ〜ても",
   "romaji": "tatoe temo",
-  "meaning": "Even if… / no matter…",
-  "simpleExplanation": "たとえ〜ても sets up a hypothetical obstacle and says the result doesn't change: たとえ雨が降っても、試合は行います = even if it rains, the match will be held. たとえ at the start tells the listener a concession is coming; ても carries the \"even if\".",
-  "whenUsed": "Speech and writing, promises, determination, rules. Related: どんなに〜ても, いくら〜ても. Do not confuse with たとえば (for example).",
+  "meaning": "\"even if ~\", \"no matter ~\" — a hypothetical concession.",
+  "simpleExplanation": "たとえ at the front signals that what follows is hypothetical, and 〜ても carries the concession. The result does not change whatever happens.",
+  "whenUsed": "Declaring that a decision or outcome holds regardless of conditions.",
   "formation": [
-    "たとえ + Verb (て form) + も",
-    "たとえ + い-adjective (くて) + も",
-    "たとえ + な-adjective / Noun + でも",
-    "Related: どんなに〜ても / いくら〜ても / 〜としても"
+    "たとえ + V-て + も",
+    "たとえ + い-adj stem + くても",
+    "たとえ + な-adj / N + でも"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -42,32 +41,22 @@
     {
       "ja": "たとえ雨が降っても、試合は行います。",
       "reading": "たとえあめがふっても、しあいはおこないます。",
-      "en": "Even if it rains, the match will be held.",
-      "note": "Verb て + も."
+      "en": "Even if it rains, we'll hold the match."
     },
     {
       "ja": "たとえ高くても、この本は買いたい。",
       "reading": "たとえたかくても、このほんはかいたい。",
-      "en": "Even if it's expensive, I want to buy this book.",
-      "note": "い-adjective くて + も."
+      "en": "Even if it's expensive, I want to buy this book."
     },
     {
       "ja": "たとえ冗談でも、そんなことを言ってはいけない。",
       "reading": "たとえじょうだんでも、そんなことをいってはいけない。",
-      "en": "Even as a joke, you shouldn't say such things.",
-      "note": "Noun + でも."
+      "en": "Even as a joke, you mustn't say such a thing."
     },
     {
-      "ja": "たとえ失敗しても、挑戦したことに意味がある。",
-      "reading": "たとえしっぱいしても、ちょうせんしたことにいみがある。",
-      "en": "Even if you fail, there's meaning in having tried.",
-      "note": "Encouragement with たとえ〜ても."
-    },
-    {
-      "ja": "たとえ家族に反対されても、私はこの道を選ぶつもりだ。",
-      "reading": "たとえかぞくにはんたいされても、わたしはこのみちをえらぶつもりだ。",
-      "en": "Even if my family opposes it, I intend to choose this path.",
-      "note": "Passive + ても: determination."
+      "ja": "たとえ両親が反対しても、彼と結婚する。",
+      "reading": "たとえりょうしんがはんたいしても、かれとけっこんする。",
+      "en": "Even if my parents object, I'm marrying him."
     }
   ],
   "similarGrammar": [

@@ -5,14 +5,13 @@
   "order": 7,
   "title": "〜ことだ",
   "romaji": "koto da",
-  "meaning": "You should… / the thing to do is…",
-  "simpleExplanation": "〜ことだ gives advice as a plain, confident rule: \"If you want X, the thing to do is Y.\" 上手になりたいなら毎日練習することだ. It sounds like a teacher, parent, or coach speaking. With the negative, 〜ないことだ = \"the thing is not to…\".",
-  "whenUsed": "Advice from someone in a higher or more experienced position, or general life advice in writing. Not used for polite suggestions to a superior.",
+  "meaning": "\"you should ~\", \"the thing to do is ~\" — advice stated as a general rule.",
+  "simpleExplanation": "Attach ことだ to a dictionary-form (or ない-form) verb. It is firm advice from someone in a position to give it, so avoid it with superiors.",
+  "whenUsed": "Giving practical advice: how to improve, what to avoid.",
   "formation": [
-    "Verb (dictionary form) + ことだ",
-    "Verb (ない form) + ことだ",
-    "Polite: 〜ことです",
-    "Often after 〜なら / 〜たいなら / 〜ためには"
+    "V-dict + ことだ",
+    "V-ない + ことだ",
+    "Often after 〜たいなら / 〜なら"
   ],
   "diagram": {
     "kind": "scale",
@@ -42,34 +41,24 @@
   },
   "examples": [
     {
-      "ja": "上手になりたいなら、毎日練習することだ。",
-      "reading": "じょうずになりたいなら、まいにちれんしゅうすることだ。",
-      "en": "If you want to get good, you should practice every day.",
-      "note": "Condition (なりたいなら) + the one thing to do."
+      "ja": "風邪のときは、ゆっくり休むことだ。",
+      "reading": "かぜのときは、ゆっくりやすむことだ。",
+      "en": "When you have a cold, the thing to do is rest properly."
     },
     {
-      "ja": "風邪のときは、無理をしないことだ。",
-      "reading": "かぜのときは、むりをしないことだ。",
-      "en": "When you have a cold, the thing to do is not overdo it.",
-      "note": "Negative: 無理をしないことだ = the thing is not to overdo it."
+      "ja": "上手になりたいなら、毎日練習することだ。",
+      "reading": "じょうずになりたいなら、まいにちれんしゅうすることだ。",
+      "en": "If you want to get good, you should practise every day."
+    },
+    {
+      "ja": "疲れているなら、無理をしないことだ。",
+      "reading": "つかれているなら、むりをしないことだ。",
+      "en": "If you're tired, you shouldn't push yourself."
     },
     {
       "ja": "迷ったら、先生に相談することだ。",
       "reading": "まよったら、せんせいにそうだんすることだ。",
-      "en": "If you're unsure, talk to your teacher.",
-      "note": "Short, decisive advice for a common situation."
-    },
-    {
-      "ja": "痩せたいなら、まず甘いものをやめることだ。",
-      "reading": "やせたいなら、まずあまいものをやめることだ。",
-      "en": "If you want to lose weight, the first thing to do is give up sweets.",
-      "note": "まず + ことだ: a clear first step."
-    },
-    {
-      "ja": "失敗しても、あきらめないことです。",
-      "reading": "しっぱいしても、あきらめないことです。",
-      "en": "Even if you fail, the important thing is not to give up.",
-      "note": "Polite 〜ことです, still confident advice."
+      "en": "If you're unsure, you should talk to your teacher."
     }
   ],
   "similarGrammar": [

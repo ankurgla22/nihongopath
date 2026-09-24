@@ -5,14 +5,13 @@
   "order": 8,
   "title": "〜ことか",
   "romaji": "koto ka",
-  "meaning": "How…! / so very…!",
-  "simpleExplanation": "〜ことか turns a sentence into an exclamation of strong feeling: どんなに嬉しかったことか = \"How happy I was!\" It is not a real question. It almost always begins with a question word such as どんなに, どれほど, どれだけ, 何度, 何回.",
-  "whenUsed": "Emotional speech, letters, essays, narration. Slightly literary. In conversation 〜ことでしょう / 〜ことだろう are common softer variants.",
+  "meaning": "\"how ~!\", \"so very ~\" — an exclamation of strong emotion.",
+  "simpleExplanation": "Almost always paired with a question word such as どんなに, どれほど or 何度. It is emotional and literary, not an ordinary statement of degree.",
+  "whenUsed": "Expressing deep joy, longing, loneliness or exasperation, often in writing or heartfelt speech.",
   "formation": [
-    "どんなに / どれほど / どれだけ + plain form + ことか",
-    "何度 / 何回 / 何人 + plain form + ことか",
-    "な-adjective + な + ことか (どんなに不安なことか)",
-    "Variants: 〜ことだろう / 〜ことでしょう"
+    "どんなに / どれほど / 何度 + plain form + ことか",
+    "な-adj + な + ことか",
+    "Also 〜ことだろう as a softer variant"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -42,32 +41,22 @@
     {
       "ja": "合格して、どんなに嬉しかったことか。",
       "reading": "ごうかくして、どんなにうれしかったことか。",
-      "en": "How happy I was to pass!",
-      "note": "どんなに + past adjective + ことか: the happiness is looked back on."
-    },
-    {
-      "ja": "この日をどれほど待っていたことか。",
-      "reading": "このひをどれほどまっていたことか。",
-      "en": "How long I've waited for this day!",
-      "note": "どれほど + 〜ていた + ことか: a long wait finally rewarded."
+      "en": "How happy I was when I passed!"
     },
     {
       "ja": "何度注意したことか。",
       "reading": "なんどちゅういしたことか。",
-      "en": "How many times have I warned you!",
-      "note": "何度 + past verb + ことか: exasperation (how many times!)."
+      "en": "How many times have I warned you!"
     },
     {
-      "ja": "一人で暮らすのが、どれだけ大変なことか、やっとわかった。",
-      "reading": "ひとりでくらすのが、どれだけたいへんなことか、やっとわかった。",
-      "en": "I finally understood how hard it is to live alone.",
-      "note": "な-adjective + な + ことか, used inside a sentence before わかった."
+      "ja": "この日をどれほど待っていたことか。",
+      "reading": "このひをどれほどまっていたことか。",
+      "en": "How long I have waited for this day!"
     },
     {
-      "ja": "君がいてくれて、どんなに心強いことでしょう。",
-      "reading": "きみがいてくれて、どんなにこころづよいことでしょう。",
-      "en": "How reassuring it is to have you here.",
-      "note": "〜ことでしょう is the softer, spoken variant."
+      "ja": "一人の夜がどれほど寂しいことか。",
+      "reading": "ひとりのよるがどれほどさびしいことか。",
+      "en": "How lonely the nights alone are!"
     }
   ],
   "similarGrammar": [

@@ -5,13 +5,13 @@
   "order": 184,
   "title": "〜てまで / 〜までして",
   "romaji": "te made / made shite",
-  "meaning": "even going so far as to (an extreme measure, usually criticized)",
-  "simpleExplanation": "〜てまで means \"going as far as doing X (to achieve Y)\": 借金をしてまで車を買いたいとは思わない. It marks X as an extreme, excessive means, and the speaker usually rejects or criticizes it. 〜までして attaches to nouns and means the same: 徹夜までして (even staying up all night).",
-  "whenUsed": "Both speech and writing; common in expressions of disapproval or refusal. The main clause often ends with 〜たくない / 〜ことはない / 〜べきではない / 〜のか (rhetorical).",
+  "meaning": "\"even going so far as to ~\" — an extreme measure, usually one the speaker disapproves of.",
+  "simpleExplanation": "Use 〜てまで after a verb and N + までして after a noun. The speaker normally judges the extreme as excessive, though it can simply stress great effort.",
+  "whenUsed": "Criticising excess, or admiring exceptional lengths; formal-leaning.",
   "formation": [
-    "Verb (て-form) + まで + (purpose or result)",
-    "Noun (action noun) + までして (徹夜までして / 借金までして)",
-    "Main clause: 〜たくない / 〜必要はない / 〜べきではない / 〜のか"
+    "V-て + まで + verb",
+    "N + までして + verb",
+    "Often with 〜たいとは思わない / 〜必要はない"
   ],
   "diagram": {
     "kind": "scale",
@@ -35,32 +35,22 @@
     {
       "ja": "借金をしてまで、車を買いたいとは思わない。",
       "reading": "しゃっきんをしてまで、くるまをかいたいとはおもわない。",
-      "en": "I don't want a car so badly that I'd go into debt for it.",
-      "note": "Rejecting an extreme means: going into debt."
-    },
-    {
-      "ja": "徹夜までして仕上げたのに、評価されなかった。",
-      "reading": "てつやまでしてしあげたのに、ひょうかされなかった。",
-      "en": "I even stayed up all night to finish it, yet it was not appreciated.",
-      "note": "までして with a noun: staying up all night (extreme effort, unrewarded)."
+      "en": "I don't want a car badly enough to go into debt for one."
     },
     {
       "ja": "人をだましてまで金を稼ぎたいのか。",
       "reading": "ひとをだましてまでかねをかせぎたいのか。",
-      "en": "Do you want money so badly that you would deceive people?",
-      "note": "A rhetorical question criticizing an extreme means."
+      "en": "Do you want money so much that you'd cheat people for it?"
     },
     {
-      "ja": "健康を犠牲にしてまで働く必要はない。",
-      "reading": "けんこうをぎせいにしてまではたらくひつようはない。",
-      "en": "There is no need to work to the point of sacrificing your health.",
-      "note": "〜必要はない rejects the extreme."
+      "ja": "彼は徹夜までして、レポートを仕上げた。",
+      "reading": "かれはてつやまでして、レポートをしあげた。",
+      "en": "He went so far as to stay up all night to finish the report."
     },
     {
-      "ja": "嘘をついてまで自分を守ろうとする彼が信じられない。",
-      "reading": "うそをついてまでじぶんをまもろうとするかれがしんじられない。",
-      "en": "I cannot believe he would go so far as to lie to protect himself.",
-      "note": "Criticism of an extreme measure."
+      "ja": "徹夜までして仕上げたのに、評価されなかった。",
+      "reading": "てつやまでしてしあげたのに、ひょうかされなかった。",
+      "en": "I even pulled an all-nighter to finish it, and it wasn't appreciated."
     }
   ],
   "similarGrammar": [
@@ -81,7 +71,7 @@
     {
       "pattern": "〜ほど",
       "difference": "Degree; not a means.",
-      "id": "n2-grammar-147"
+      "id": "n3-grammar-48"
     }
   ],
   "commonMistakes": [

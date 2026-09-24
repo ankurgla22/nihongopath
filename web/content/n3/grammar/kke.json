@@ -5,13 +5,11 @@
   "order": 60,
   "title": "〜っけ",
   "romaji": "kke",
-  "meaning": "Was it…? / what was… again?",
-  "simpleExplanation": "〜っけ is a casual sentence ending for checking something you half remember: 会議は何時からだっけ？ = what time was the meeting again? It uses the past form even for present facts, because you are recalling what you were told. You can use it to ask others or to talk to yourself.",
-  "whenUsed": "Casual conversation only. Polite versions: 〜ましたっけ / 〜でしたっけ. Never in formal writing.",
+  "meaning": "\"was it ~?\", \"what was ~ again?\" — checking a hazy memory.",
+  "simpleExplanation": "Normally attaches to a past plain form even when you are asking about the present. It is casual, though 〜でしたっけ / 〜ましたっけ can be used politely.",
+  "whenUsed": "Casual conversation when you half-remember something and want confirmation.",
   "formation": [
-    "Noun / な-adjective + だっけ / だったっけ",
-    "い-adjective + かったっけ",
-    "Verb (た form) + っけ",
+    "Plain past + っけ (V-た / い-adj-かった / N・な-adj + だった + っけ)",
     "Polite: 〜ましたっけ / 〜でしたっけ"
   ],
   "diagram": {
@@ -43,34 +41,24 @@
   },
   "examples": [
     {
-      "ja": "明日の会議は何時からだっけ？",
-      "reading": "あしたのかいぎはなんじからだっけ？",
-      "en": "What time was tomorrow's meeting again?",
-      "note": "N + だっけ: checking a time."
+      "ja": "明日の会議は何時からだっけ。",
+      "reading": "あしたのかいぎはなんじからだっけ。",
+      "en": "What time was tomorrow's meeting again?"
     },
     {
       "ja": "あの人の名前、何だったっけ。",
       "reading": "あのひとのなまえ、なんだったっけ。",
-      "en": "What was that person's name again?",
-      "note": "だったっけ: recalling a name."
+      "en": "What was that person's name again?"
     },
     {
       "ja": "君も同じクラスだったっけ？",
       "reading": "きみもおなじクラスだったっけ？",
-      "en": "Were you in the same class too?",
-      "note": "Checking a fact about the listener."
+      "en": "Were you in the same class too?"
     },
     {
-      "ja": "あれ、今日は何曜日だっけ。",
-      "reading": "あれ、きょうはなんようびだっけ。",
-      "en": "Wait, what day is it today?",
-      "note": "Talking to oneself."
-    },
-    {
-      "ja": "田中さん、来年結婚するんでしたっけ？",
-      "reading": "たなかさん、らいねんけっこんするんでしたっけ？",
-      "en": "Tanaka, you're getting married next year, weren't you?",
-      "note": "Polite んでしたっけ."
+      "ja": "あの人、誰でしたっけ。",
+      "reading": "あのひと、だれでしたっけ。",
+      "en": "Who was that person again?"
     }
   ],
   "similarGrammar": [
@@ -81,7 +69,7 @@
     {
       "pattern": "〜って",
       "difference": "Casual quotation; different function.",
-      "id": "n3-grammar-61"
+      "id": "n4-grammar-86"
     },
     {
       "pattern": "〜んだっけ",

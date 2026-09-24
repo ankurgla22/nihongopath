@@ -3,13 +3,16 @@
   "slug": "tari-tari-suru",
   "level": "n5",
   "order": 55,
-  "title": "たり〜たりする",
+  "title": "〜たり〜たりする",
   "romaji": "tari tari suru",
-  "meaning": "\"do things like ~ and ~\" (a non-exhaustive list of actions).",
-  "simpleExplanation": "た-form + り, た-form + り + する means \"do things like A and B\": 本を読んだり、音楽を聞いたりします \"I do things like reading books and listening to music\". It gives examples of activities without saying they are all you do, and without any particular order. The final する carries the tense (します／しました).",
-  "whenUsed": "Describing weekends, holidays, parties, free time: any list of example activities. Also with adjectives for \"sometimes hot, sometimes cold\".",
+  "meaning": "\"do things like ~ and ~\" — a representative, non-exhaustive list of actions; with adjectives, \"sometimes ~, sometimes ~\".",
+  "simpleExplanation": "Take the た-form and add り. You are giving examples, not a complete list, so the order does not matter. する at the end carries the tense.",
+  "whenUsed": "Describing what you do on a day off, listing activities, or describing states that alternate.",
   "formation": [
-    "V-た + り、V-た + り + します"
+    "V-た + り、V-た + り + する／します",
+    "い-adj: 〜かったり (暑かったり)",
+    "な-adj・N: 〜だったり (静かだったり)",
+    "A single 〜たりする is also possible, often in a soft prohibition"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -33,33 +36,28 @@
   "examples": [
     {
       "ja": "週末は本を読んだり、音楽を聞いたりします。",
-      "reading": "しゅうまつは ほんを よんだり、おんがくを きいたり します。",
-      "en": "At weekends I do things like reading books and listening to music.",
-      "note": "読んだり、聞いたり + します."
+      "reading": "しゅうまつはほんをよんだり、おんがくをきいたりします。",
+      "en": "On weekends I do things like read books and listen to music."
     },
     {
       "ja": "昨日は掃除をしたり、洗濯をしたりしました。",
-      "reading": "きのうは そうじを したり、せんたくを したり しました。",
-      "en": "Yesterday I did cleaning, laundry and so on.",
-      "note": "Past: したり、したり + しました."
+      "reading": "きのうはそうじをしたり、せんたくをしたりしました。",
+      "en": "Yesterday I did things like cleaning and laundry."
     },
     {
       "ja": "パーティーで歌ったり、踊ったりしました。",
-      "reading": "パーティーで うたったり、おどったり しました。",
-      "en": "At the party we sang, danced and so on.",
-      "note": "歌ったり、踊ったり + しました."
+      "reading": "パーティーでうたったり、おどったりしました。",
+      "en": "At the party we sang and danced and so on."
     },
     {
-      "ja": "休みの日は友達と買い物をしたり、映画を見たりします。",
-      "reading": "やすみの ひは ともだちと かいものを したり、えいがを みたり します。",
-      "en": "On days off I do things like shopping and watching films with friends.",
-      "note": "Two examples, tense on します."
+      "ja": "教室で走ったりしないでください。",
+      "reading": "きょうしつではしったりしないでください。",
+      "en": "Please don't do things like running in the classroom."
     },
     {
-      "ja": "日本で寺を見たり、寿司を食べたりしたいです。",
-      "reading": "にほんで てらを みたり、すしを たべたり したいです。",
-      "en": "In Japan I want to see temples, eat sushi and things like that.",
-      "note": "The final する can take たい: したいです."
+      "ja": "最近は暑かったり寒かったりします。",
+      "reading": "さいきんはあつかったりさむかったりします。",
+      "en": "Lately it's hot one day and cold the next."
     }
   ],
   "similarGrammar": [

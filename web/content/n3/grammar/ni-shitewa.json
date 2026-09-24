@@ -5,13 +5,12 @@
   "order": 66,
   "title": "〜にしては",
   "romaji": "ni shitewa",
-  "meaning": "For… / considering… (contrary to expectation)",
-  "simpleExplanation": "〜にしては compares reality with what you would expect from a label: 子供にしては難しい言葉を知っている = for a child, he knows difficult words. The noun sets an expectation; the main clause breaks it. It works for both pleasant and unpleasant surprises.",
-  "whenUsed": "Everyday speech and writing. Takes nouns and plain clauses (来たばかりにしては). Not used when the expectation is met.",
+  "meaning": "\"for ~\", \"considering ~\" — reality does not match the expectation the first part sets up.",
+  "simpleExplanation": "State a standard, then note that things don't fit it. Unlike 〜のわりに, the standard must be concrete and known.",
+  "whenUsed": "Mild surprise, praise or criticism about someone or something not matching its category.",
   "formation": [
-    "Noun + にしては",
-    "Plain form + にしては",
-    "Main clause: something that contradicts the expectation"
+    "N + にしては",
+    "Plain form + にしては (な-adj stem and N take no だ)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -46,34 +45,24 @@
   },
   "examples": [
     {
-      "ja": "彼は日本に来たばかりにしては、日本語が上手だ。",
-      "reading": "かれはにほんにきたばかりにしては、にほんごがじょうずだ。",
-      "en": "For someone who just came to Japan, his Japanese is good.",
-      "note": "Clause + にしては: just arrived, yet good Japanese."
+      "ja": "十二月にしては暖かい。",
+      "reading": "じゅうにがつにしてはあたたかい。",
+      "en": "It's warm for December."
+    },
+    {
+      "ja": "初めてにしては、上手にできましたね。",
+      "reading": "はじめてにしては、じょうずにできましたね。",
+      "en": "For a first attempt, you did well."
     },
     {
       "ja": "子供にしては、難しい言葉を知っている。",
       "reading": "こどもにしては、むずかしいことばをしっている。",
-      "en": "For a child, he knows difficult words.",
-      "note": "Noun + にしては: for a child."
+      "en": "For a child, she knows some difficult words."
     },
     {
-      "ja": "十二月にしては暖かい。",
-      "reading": "じゅうにがつにしてはあたたかい。",
-      "en": "It's warm for December.",
-      "note": "Time noun + にしては: warm for December."
-    },
-    {
-      "ja": "初めて作ったにしては、なかなかおいしくできたね。",
-      "reading": "はじめてつくったにしては、なかなかおいしくできたね。",
-      "en": "For a first attempt, it turned out pretty tasty.",
-      "note": "Past clause + にしては + praise."
-    },
-    {
-      "ja": "この店はレストランにしては、値段が安い。",
-      "reading": "このみせはレストランにしては、ねだんがやすい。",
-      "en": "For a restaurant, this place is cheap.",
-      "note": "Category noun + にしては."
+      "ja": "彼は日本に来たばかりにしては、日本語が上手だ。",
+      "reading": "かれはにほんにきたばかりにしては、にほんごがじょうずだ。",
+      "en": "Considering he only just arrived in Japan, his Japanese is good."
     }
   ],
   "similarGrammar": [

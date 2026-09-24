@@ -5,13 +5,12 @@
   "order": 9,
   "title": "〜ことはない",
   "romaji": "koto wa nai",
-  "meaning": "There's no need to… / no reason to…",
-  "simpleExplanation": "〜ことはない tells someone that an action is unnecessary, often to reassure them: 心配することはない = there's no need to worry. It feels warmer than 必要がない because it is usually said to comfort or calm the listener.",
-  "whenUsed": "Conversation, advice, comforting a friend. Polite: 〜ことはありません. Also in essays to say something is unnecessary.",
+  "meaning": "(1) \"there is no need to ~\", \"no reason to ~\"; (2) \"never ~ (does not happen)\".",
+  "simpleExplanation": "Sense (1) reassures someone that an action is unnecessary. Sense (2), with a third-person subject, simply states that something never occurs.",
+  "whenUsed": "Reassuring or calming someone; or stating that something never happens.",
   "formation": [
-    "Verb (dictionary form) + ことはない",
-    "Polite: 〜ことはありません",
-    "Emphatic: 何も〜ことはない / わざわざ〜ことはない"
+    "V-dict + ことはない / ことはありません",
+    "Often with そんなに or ぜんぜん for emphasis"
   ],
   "diagram": {
     "kind": "comparison",
@@ -53,34 +52,24 @@
   },
   "examples": [
     {
-      "ja": "小さなミスだから、そんなに心配することはない。",
-      "reading": "ちいさなミスだから、そんなにしんぱいすることはない。",
-      "en": "It's a small mistake, so there's no need to worry so much.",
-      "note": "Reassurance after a small mistake."
+      "ja": "そんなに心配することはないよ。",
+      "reading": "そんなにしんぱいすることはないよ。",
+      "en": "There's no need to worry so much."
     },
     {
       "ja": "時間はまだあるよ。急ぐことはない。",
       "reading": "じかんはまだあるよ。いそぐことはない。",
-      "en": "We still have time. No need to hurry.",
-      "note": "急ぐことはない: no need to hurry, we have time."
+      "en": "There's still time. No need to hurry."
     },
     {
       "ja": "君が謝ることはないよ。",
       "reading": "きみがあやまることはないよ。",
-      "en": "You have no reason to apologize.",
-      "note": "君が謝ることはない: you (of all people) have no reason to apologize."
+      "en": "You have no reason to apologise."
     },
     {
-      "ja": "わざわざ来ることはありませんよ。電話で十分です。",
-      "reading": "わざわざくることはありませんよ。でんわでじゅうぶんです。",
-      "en": "There's no need to come all the way here. A phone call is enough.",
-      "note": "わざわざ + ことはない is a natural pairing."
-    },
-    {
-      "ja": "一度失敗したくらいで、そんなに落ち込むことはない。",
-      "reading": "いちどしっぱいしたくらいで、そんなにおちこむことはない。",
-      "en": "There's no reason to get so down over failing just once.",
-      "note": "〜くらいで sets up the small cause; ことはない says the reaction is unnecessary."
+      "ja": "彼が約束を破ることはない。",
+      "reading": "かれがやくそくをやぶることはない。",
+      "en": "He never breaks a promise."
     }
   ],
   "similarGrammar": [

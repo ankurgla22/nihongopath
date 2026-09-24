@@ -5,13 +5,12 @@
   "order": 31,
   "title": "〜に比べて / 〜に比べ",
   "romaji": "ni kurabete",
-  "meaning": "Compared to…",
-  "simpleExplanation": "〜に比べて sets up a comparison openly: 去年に比べて今年は暑い = compared to last year, this year is hot. The noun before に比べて is the standard you compare against; the main clause says how the other thing differs. It is more explicit than the plain particle より.",
-  "whenUsed": "Essays, reports, presentations with data, everyday comparisons. Variants: 〜に比べると, 〜と比べて, written 〜に比べ.",
+  "meaning": "\"compared to ~\", \"in comparison with ~\".",
+  "simpleExplanation": "The thing after に比べて is the baseline; what follows is the comparison. に比べ is more written, に比べると slightly softer.",
+  "whenUsed": "Comparing years, places, people or prices.",
   "formation": [
-    "Noun + に比べて / に比べると / に比べ",
-    "Clause (plain) + の + に比べて",
-    "Variant: Noun + と比べて"
+    "N + に比べて / に比べ / に比べると",
+    "Plain form + の + に比べて"
   ],
   "diagram": {
     "kind": "comparison",
@@ -48,32 +47,22 @@
     {
       "ja": "去年に比べて、今年は暑い。",
       "reading": "きょねんにくらべて、ことしはあつい。",
-      "en": "Compared to last year, this year is hot.",
-      "note": "Standard (last year) + the difference (this year is hot)."
+      "en": "Compared to last year, this year is hot."
     },
     {
       "ja": "東京に比べると、大阪は物価が安い。",
       "reading": "とうきょうにくらべると、おおさかはぶっかがやすい。",
-      "en": "Compared with Tokyo, prices in Osaka are cheaper.",
-      "note": "に比べると: the same meaning with a conditional feel."
+      "en": "Compared to Tokyo, prices in Osaka are cheap."
+    },
+    {
+      "ja": "都会に比べ、田舎は物価が安い。",
+      "reading": "とかいにくらべ、いなかはぶっかがやすい。",
+      "en": "Compared with the city, the countryside is cheap."
     },
     {
       "ja": "兄は弟に比べて、ずっとおとなしい。",
       "reading": "あにはおとうとにくらべて、ずっとおとなしい。",
-      "en": "Compared to his younger brother, the older one is much quieter.",
-      "note": "Comparing two people."
-    },
-    {
-      "ja": "田舎は都会に比べて、家賃がずっと安い。",
-      "reading": "いなかはとかいにくらべて、やちんがずっとやすい。",
-      "en": "Compared to the city, rent in the countryside is much cheaper.",
-      "note": "ずっと strengthens the difference."
-    },
-    {
-      "ja": "以前に比べ、この製品の性能は大幅に向上した。",
-      "reading": "いぜんにくらべ、このせいひんのせいのうはおおはばにこうじょうした。",
-      "en": "Compared with before, this product's performance has improved greatly.",
-      "note": "Written form に比べ in a report."
+      "en": "Compared to his younger brother, the older one is far quieter."
     }
   ],
   "similarGrammar": [

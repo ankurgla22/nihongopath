@@ -5,14 +5,14 @@
   "order": 59,
   "title": "〜げ",
   "romaji": "ge",
-  "meaning": "Looking… / seeming… (from the outside)",
-  "simpleExplanation": "〜げ turns a feeling into what it looks like from outside: 楽しげ = looking happy, 不安げ = looking anxious, 言いたげ = looking like they want to say something. It makes a な-adjective (げな, げに). You use it about other people, whose feelings you can only see, not feel.",
-  "whenUsed": "Literary and descriptive writing, narration. In conversation そうだ is more common. Fixed exception: 大人げない (childish, immature).",
+  "meaning": "\"looking ~\", \"seeming ~\" — the outward appearance of an emotion or state.",
+  "simpleExplanation": "You are judging from the outside how someone looks, so it is used mainly for other people. The result behaves as a な-adjective: 不安げな顔, 楽しげに遊ぶ.",
+  "whenUsed": "Descriptive, somewhat literary writing about how a person seems.",
   "formation": [
-    "い-adjective stem + げ (嬉しげ, 寂しげ, 楽しげ)",
-    "な-adjective stem + げ (不安げ, 得意げ, 満足げ)",
-    "Verb (ます stem) + げ, limited (言いたげ, 自信ありげ, 意味ありげ)",
-    "Works as a な-adjective: げな + Noun / げに + Verb"
+    "い-adj stem + げ (嬉しげ, 楽しげ, 寂しげ)",
+    "な-adj stem + げ (不安げ, 得意げ)",
+    "V-ます stem + げ (limited: 言いたげ, 自信ありげ)",
+    "Behaves as a な-adjective (〜げな N, 〜げに)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -49,32 +49,22 @@
     {
       "ja": "子供たちは楽しげに遊んでいる。",
       "reading": "こどもたちはたのしげにあそんでいる。",
-      "en": "The children are playing happily.",
-      "note": "げに + verb: playing happily (adverb)."
+      "en": "The children are playing happily."
+    },
+    {
+      "ja": "彼女は寂しげに窓の外を見ていた。",
+      "reading": "かのじょはさびしげにまどのそとをみていた。",
+      "en": "She was gazing out of the window, looking lonely."
     },
     {
       "ja": "彼女は不安げな顔で、こちらを見た。",
       "reading": "かのじょはふあんげなかおで、こちらをみた。",
-      "en": "She looked at me with an anxious expression.",
-      "note": "げな + noun: an anxious face."
+      "en": "She looked over at me with an anxious face."
     },
     {
       "ja": "彼は何か言いたげだった。",
       "reading": "かれはなにかいいたげだった。",
-      "en": "He looked like he wanted to say something.",
-      "note": "言いたげ: looked like he wanted to say something."
-    },
-    {
-      "ja": "彼は自信ありげに、プレゼンを始めた。",
-      "reading": "かれはじしんありげに、プレゼンをはじめた。",
-      "en": "He started the presentation looking confident.",
-      "note": "自信ありげ is a fixed expression."
-    },
-    {
-      "ja": "子供たちは得意げに、自分の絵を見せてくれた。",
-      "reading": "こどもたちはとくいげに、じぶんのえをみせてくれた。",
-      "en": "The children proudly showed me their drawings.",
-      "note": "得意げ: with a look of pride."
+      "en": "He looked as if he wanted to say something."
     }
   ],
   "similarGrammar": [

@@ -5,15 +5,13 @@
   "order": 3,
   "title": "〜わけだ",
   "romaji": "wake da",
-  "meaning": "So that's why… / that means… / no wonder…",
-  "simpleExplanation": "〜わけだ is the sound of things clicking into place. You learn a fact, and a conclusion follows naturally: \"Oh, so that's why…\" or \"That means…\". It is not a guess; it is a logical result of what you now know. 三年も住んでいた → 上手なわけだ (lived there three years → no wonder he's good).",
-  "whenUsed": "Conversation and writing. Three typical jobs: (1) sudden understanding, often with なるほど / どうりで; (2) restating in other words, often with つまり; (3) drawing the result of a calculation or chain of facts.",
+  "meaning": "\"no wonder ~\", \"that means ~\", \"so that's why ~\" — a conclusion that follows naturally from known facts.",
+  "simpleExplanation": "Use it when the pieces suddenly fit: given what you just learned, this result is only logical. 〜というわけだ restates someone else's point (\"in other words\").",
+  "whenUsed": "Reacting to new information, doing arithmetic out loud, or summarising what someone means.",
   "formation": [
-    "Verb (plain form) + わけだ",
-    "い-adjective + わけだ",
-    "な-adjective + な + わけだ",
-    "Noun + の / という + わけだ",
-    "Polite: 〜わけです / Explaining: 〜というわけだ"
+    "Plain form + わけだ",
+    "な-adj + な + わけだ; N + の／という + わけだ",
+    "Often with 道理で or つまり"
   ],
   "diagram": {
     "kind": "comparison",
@@ -57,32 +55,22 @@
     {
       "ja": "三年も住んでいたのか。日本語が上手なわけだ。",
       "reading": "さんねんもすんでいたのか。にほんごがじょうずなわけだ。",
-      "en": "You lived there for three years? No wonder your Japanese is good.",
-      "note": "Sudden understanding: a fact (three years) explains what was puzzling (his skill)."
+      "en": "You lived there three years? No wonder your Japanese is good."
     },
     {
       "ja": "一つ五百円で三つ買ったから、千五百円払ったわけだ。",
       "reading": "ひとつごひゃくえんでみっつかったから、せんごひゃくえんはらったわけだ。",
-      "en": "They were 500 yen each and I bought three, so that means I paid 1,500 yen.",
-      "note": "Calculation: the facts add up to a numeric conclusion."
+      "en": "They were 500 yen each and I bought three, so that means I paid 1,500 yen."
     },
     {
-      "ja": "電気が消えている。誰もいないわけだ。",
-      "reading": "でんきがきえている。だれもいないわけだ。",
-      "en": "The lights are off. So nobody is here.",
-      "note": "Inference from evidence: the lights are off, so the conclusion follows."
+      "ja": "三割引だから、一万円が七千円になるわけだ。",
+      "reading": "さんわりびきだから、いちまんえんがななせんえんになるわけだ。",
+      "en": "It's 30% off, so 10,000 yen comes to 7,000 yen."
     },
     {
-      "ja": "なるほど、彼は昔歌手だったのか。どうりで歌がうまいわけだ。",
-      "reading": "なるほど、かれはむかしかしゅだったのか。どうりでうたがうまいわけだ。",
-      "en": "I see, he used to be a singer. No wonder he sings so well.",
-      "note": "なるほど and どうりで are the classic partners of わけだ."
-    },
-    {
-      "ja": "つまり、来週の金曜日までに提出すればいいというわけですね。",
-      "reading": "つまり、らいしゅうのきんようびまでにていしゅつすればいいというわけですね。",
-      "en": "So in other words, it's fine as long as I submit it by next Friday, right?",
-      "note": "つまり…というわけですね restates what someone explained."
+      "ja": "つまり、彼女は来ないというわけですね。",
+      "reading": "つまり、かのじょはこないというわけですね。",
+      "en": "So in other words, she isn't coming."
     }
   ],
   "similarGrammar": [

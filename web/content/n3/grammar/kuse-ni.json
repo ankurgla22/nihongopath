@@ -5,15 +5,14 @@
   "order": 109,
   "title": "〜くせに",
   "romaji": "kuse ni",
-  "meaning": "even though… / despite… (with criticism or contempt)",
-  "simpleExplanation": "〜くせに means \"even though\", but with a sneer: the speaker blames or looks down on the subject. 知っているくせに教えてくれない \"he knows, yet he won't tell me\". Both clauses have the same subject, and that subject is never the speaker (you do not sneer at yourself). For neutral \"even though\" use 〜のに.",
-  "whenUsed": "Casual speech, arguments, complaints, fiction dialogue. Never in polite writing or toward superiors. Sentence-final 〜くせに。 leaves the accusation hanging: 知っているくせに。",
+  "meaning": "\"even though ~\", \"despite ~\" — with criticism, blame or contempt.",
+  "simpleExplanation": "Grammatically like のに, but always carries a negative attitude towards the subject, so never use it about yourself or a superior.",
+  "whenUsed": "Casual complaints and rebukes.",
   "formation": [
-    "Verb (plain form) + くせに",
-    "い-adjective + くせに",
-    "な-adjective + な + くせに",
-    "Noun + の + くせに",
-    "Sentence-final: 〜くせに。"
+    "V-plain + くせに",
+    "い-adj + くせに",
+    "な-adj + な + くせに",
+    "N + の + くせに"
   ],
   "diagram": {
     "kind": "comparison",
@@ -44,34 +43,24 @@
   },
   "examples": [
     {
-      "ja": "彼は知っているくせに、教えてくれない。",
-      "reading": "かれはしっているくせに、おしえてくれない。",
-      "en": "Even though he knows, he won't tell me.",
-      "note": "Blame: he knows but won't tell."
+      "ja": "知っているくせに、教えてくれない。",
+      "reading": "しっているくせに、おしえてくれない。",
+      "en": "He knows, but he won't tell me."
     },
     {
       "ja": "子供のくせに、生意気なことを言うな。",
       "reading": "こどものくせに、なまいきなことをいうな。",
-      "en": "Don't be cheeky when you're just a kid.",
-      "note": "Noun + の + くせに; scolding a child."
+      "en": "Don't talk back like that when you're only a child."
+    },
+    {
+      "ja": "下手なくせに、人に教えたがる。",
+      "reading": "へたなくせに、ひとにおしえたがる。",
+      "en": "He's bad at it, yet he's always trying to teach others."
     },
     {
       "ja": "下手なくせに、自分では上手だと思っている。",
       "reading": "へたなくせに、じぶんではじょうずだとおもっている。",
-      "en": "Even though he's bad at it, he thinks he's good.",
-      "note": "な-adjective + な + くせに; contempt for overconfidence."
-    },
-    {
-      "ja": "自分は何もしないくせに、人のやり方に文句ばかり言う。",
-      "reading": "じぶんはなにもしないくせに、ひとのやりかたにもんくばかりいう。",
-      "en": "He does nothing himself, yet he keeps complaining about how others do things.",
-      "note": "Negative verb + くせに."
-    },
-    {
-      "ja": "「本当は知ってるくせに。」",
-      "reading": "「ほんとうはしってるくせに。」",
-      "en": "\"You actually know, don't you (and you're pretending not to).\"",
-      "note": "Sentence-final use: the accusation is left unfinished."
+      "en": "He's terrible at it, but he thinks he's good."
     }
   ],
   "similarGrammar": [

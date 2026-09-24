@@ -5,14 +5,12 @@
   "order": 134,
   "title": "〜とは",
   "romaji": "towa",
-  "meaning": "(1) what is… / … means (definition, topic); (2) to think that…! (surprise)",
-  "simpleExplanation": "〜とは has two jobs. (1) It introduces a definition or asks what something is: 「和食」とは、日本の伝統的な料理のことだ \"washoku means traditional Japanese cuisine\"; 幸せとは何だろうか \"what is happiness?\". (2) After a clause it expresses surprise: 彼が合格するとは思わなかった \"I never thought he would pass\". The comment after とは can even be left unsaid.",
-  "whenUsed": "Sense 1: dictionaries, essays, explanations (the formal cousin of 〜というのは). Sense 2: exclamations in speech and writing, often with 思わなかった / 驚いた / 信じられない, or trailing off: まさか彼が来るとは….",
+  "meaning": "(1) \"~ means ~\", \"what is ~\" (definition / topic); (2) \"to think that ~!\" (surprise or shock).",
+  "simpleExplanation": "After a noun it introduces a definition, common in dictionaries and explanations. After a clause it expresses astonishment, often trailing off or followed by 思わなかった / 驚きだ.",
+  "whenUsed": "Sense (1) in formal writing and explanations; sense (2) for genuine surprise, and it is rather literary.",
   "formation": [
-    "Sense 1: Noun + とは + definition / 何か",
-    "Sense 2: Verb / clause (plain form) + とは + 思わなかった / 驚いた",
-    "Sense 2 trailing: 〜とは。/ 〜とは…",
-    "Emphatic variant: 〜とはね"
+    "N + とは (definition)",
+    "Plain form + とは (surprise), at sentence end or + 思わなかった / 驚きだ"
   ],
   "diagram": {
     "kind": "comparison",
@@ -45,32 +43,27 @@
     {
       "ja": "「和食」とは、日本の伝統的な料理のことだ。",
       "reading": "「わしょく」とは、にほんのでんとうてきなりょうりのことだ。",
-      "en": "\"Washoku\" means traditional Japanese cuisine.",
-      "note": "Definition."
+      "en": "\"Washoku\" means traditional Japanese cuisine."
     },
     {
       "ja": "幸せとは何だろうか。",
       "reading": "しあわせとはなんだろうか。",
-      "en": "What is happiness?",
-      "note": "Philosophical question: とは何か."
+      "en": "What is happiness?"
     },
     {
       "ja": "彼が試験に合格するとは、思わなかった。",
       "reading": "かれがしけんにごうかくするとは、おもわなかった。",
-      "en": "I never thought he would pass the exam.",
-      "note": "Surprise: とは思わなかった."
+      "en": "I never thought he'd pass the exam."
     },
     {
-      "ja": "「過労死」とは、働きすぎが原因で死亡することを指す。",
-      "reading": "「かろうし」とは、はたらきすぎがげんいんでしぼうすることをさす。",
-      "en": "'Karoshi' refers to death caused by overwork.",
-      "note": "Formal definition style."
+      "ja": "彼が犯人だったとは。",
+      "reading": "かれがはんにんだったとは。",
+      "en": "To think that he was the culprit!"
     },
     {
-      "ja": "まさか、あの店がなくなっていたとは…。",
-      "reading": "まさか、あのみせがなくなっていたとは…。",
-      "en": "I can't believe that shop is gone…",
-      "note": "Trailing off after とは; the surprise is implied."
+      "ja": "まさかこんなに早く再会できるとは思わなかった。",
+      "reading": "まさかこんなにはやくさいかいできるとはおもわなかった。",
+      "en": "I never imagined we'd meet again so soon."
     }
   ],
   "similarGrammar": [
@@ -87,7 +80,7 @@
     {
       "pattern": "〜って",
       "difference": "Casual topic marker for definitions (和食って何？).",
-      "id": "n3-grammar-61"
+      "id": "n4-grammar-86"
     }
   ],
   "commonMistakes": [

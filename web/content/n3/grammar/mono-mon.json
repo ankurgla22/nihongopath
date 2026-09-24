@@ -5,14 +5,14 @@
   "order": 16,
   "title": "〜もの / 〜もん (reason)",
   "romaji": "mono mon",
-  "meaning": "Because… (emotional excuse)",
-  "simpleExplanation": "Sentence-final 〜もの / 〜もん gives a reason with feeling, like a child or a close friend justifying themselves: だって、嫌いなんだもん = \"Because I don't like it!\" It sounds a little sulky or cute, and it expects the listener to accept the reason.",
-  "whenUsed": "Casual conversation only, often after だって. Traditionally associated with children and women, but widely used among friends. Never in formal writing.",
+  "meaning": "\"because ~\" — a sentence-final, emotional justification or excuse, often childish or feminine in tone.",
+  "simpleExplanation": "Used to defend yourself after being questioned, frequently after だって. もん is the more casual of the two; 〜んだもの is very common.",
+  "whenUsed": "Casual conversation between close friends or family; not for polite or written Japanese.",
   "formation": [
     "Plain form + もの / もん",
-    "Noun / な-adjective + (な)んだ + もの / もん",
-    "Very often: 〜んだもの / 〜んだもん",
-    "Usually preceded by だって"
+    "な-adj・N + だ + もの / もん",
+    "Often 〜んだもの / 〜んだもん",
+    "Frequently preceded by だって"
   ],
   "diagram": {
     "kind": "scale",
@@ -38,34 +38,24 @@
   },
   "examples": [
     {
-      "ja": "「どうして食べないの？」「だって、嫌いなんだもん。」",
-      "reading": "「どうしてたべないの？」「だって、きらいなんだもん。」",
-      "en": "\"Why aren't you eating?\" \"Because I don't like it!\"",
-      "note": "だって + 〜んだもん: a child's excuse."
+      "ja": "だって、行きたくないんだもん。",
+      "reading": "だって、いきたくないんだもん。",
+      "en": "But I just don't want to go!"
     },
     {
-      "ja": "行きたくない。疲れているんだもの。",
-      "reading": "いきたくない。つかれているんだもの。",
-      "en": "I don't want to go. I'm tired, you know.",
-      "note": "〜んだもの: adult but intimate, slightly pleading."
+      "ja": "食べられないよ。嫌いなんだもの。",
+      "reading": "たべられないよ。きらいなんだもの。",
+      "en": "I can't eat it — I don't like it."
+    },
+    {
+      "ja": "仕方ないよ。まだ子供だもの。",
+      "reading": "しかたないよ。まだこどもだもの。",
+      "en": "It can't be helped — he's still a child."
     },
     {
       "ja": "知らなかったんだもん、仕方ないでしょう。",
       "reading": "しらなかったんだもん、しかたないでしょう。",
-      "en": "I didn't know, so it can't be helped, right?",
-      "note": "Excuse first, then the conclusion (仕方ない)."
-    },
-    {
-      "ja": "「どうして遅刻したの？」「だって、電車が止まっちゃったんだもん。」",
-      "reading": "「どうしてちこくしたの？」「だって、でんしゃがとまっちゃったんだもん。」",
-      "en": "\"Why were you late?\" \"Because the train stopped!\"",
-      "note": "だって + past + んだもん: a classic excuse."
-    },
-    {
-      "ja": "行きたくないよ。あの人、苦手なんだもの。",
-      "reading": "いきたくないよ。あのひと、にがてなんだもの。",
-      "en": "I don't want to go. I just can't deal with that person.",
-      "note": "な-adjective + なんだもの."
+      "en": "I didn't know, so what could I do?"
     }
   ],
   "similarGrammar": [

@@ -5,14 +5,14 @@
   "order": 2,
   "title": "〜ば〜ほど",
   "romaji": "ba hodo",
-  "meaning": "The more…, the more…",
-  "simpleExplanation": "〜ば〜ほど links two things that grow together: \"the more you do X, the more Y happens\". The same word is repeated twice, first in the ば-form, then in the dictionary form, followed by ほど. 練習すればするほど = \"the more you practice…\".",
-  "whenUsed": "Both speech and writing. Very common in advice (安ければ安いほどいい), in describing skills (使えば使うほど慣れる), and in complaints (考えれば考えるほどわからない).",
+  "meaning": "\"the more ~, the more ~\" — two things increase together.",
+  "simpleExplanation": "Repeat the same word twice: once in the ば-form, once in the dictionary/plain form, then ほど. 練習すれば練習するほど is usually shortened to 練習すればするほど.",
+  "whenUsed": "Stating a proportional relationship, in speech and writing alike.",
   "formation": [
-    "Verb: V-ば + V-dictionary + ほど (読めば読むほど)",
-    "い-adjective: 〜ければ + 〜い + ほど (安ければ安いほど)",
-    "な-adjective: 〜なら(ば) + 〜な + ほど (静かなら静かなほど)",
-    "Noun: N + なら + N + ほど (ベテランならベテランほど)"
+    "V-ば + V-dict + ほど",
+    "い-adj-ければ + い-adj + ほど",
+    "な-adj + なら(ば) + な-adj + な + ほど",
+    "N + であれば + N + である + ほど"
   ],
   "diagram": {
     "kind": "transformation",
@@ -37,34 +37,24 @@
   },
   "examples": [
     {
-      "ja": "練習すればするほど上手になる。",
-      "reading": "れんしゅうすればするほどじょうずになる。",
-      "en": "The more you practice, the better you get.",
-      "note": "Verb pattern: すれば + する + ほど. The result clause shows the growing change."
-    },
-    {
       "ja": "安ければ安いほどいい。",
       "reading": "やすければやすいほどいい。",
-      "en": "The cheaper, the better.",
-      "note": "い-adjective: 安ければ + 安い + ほど. いい at the end is the most common ending."
+      "en": "The cheaper, the better."
+    },
+    {
+      "ja": "練習すればするほど上手になる。",
+      "reading": "れんしゅうすればするほどじょうずになる。",
+      "en": "The more you practise, the better you get."
+    },
+    {
+      "ja": "説明は簡単なら簡単なほどいい。",
+      "reading": "せつめいはかんたんならかんたんなほどいい。",
+      "en": "The simpler the explanation, the better."
     },
     {
       "ja": "日本語は勉強すればするほど難しく感じる。",
       "reading": "にほんごはべんきょうすればするほどむずかしくかんじる。",
-      "en": "The more I study Japanese, the harder it feels.",
-      "note": "The result can be a feeling: 難しく感じる (feels harder)."
-    },
-    {
-      "ja": "この町は知れば知るほど好きになる。",
-      "reading": "このまちはしればしるほどすきになる。",
-      "en": "The more I get to know this town, the more I like it.",
-      "note": "知れば知るほど is a fixed, very natural combination."
-    },
-    {
-      "ja": "説明が簡単なら簡単なほど、みんなに伝わりやすい。",
-      "reading": "せつめいがかんたんならかんたんなほど、みんなにつたわりやすい。",
-      "en": "The simpler the explanation, the easier it is for everyone to understand.",
-      "note": "な-adjective: 簡単なら + 簡単な + ほど."
+      "en": "The more I study Japanese, the harder it feels."
     }
   ],
   "similarGrammar": [

@@ -5,14 +5,13 @@
   "order": 67,
   "title": "〜にしても",
   "romaji": "ni shitemo",
-  "meaning": "Even if… / even though… / whether… or…",
-  "simpleExplanation": "〜にしても admits something and then objects: 忙しいにしても、電話ぐらいはできるはずだ = even if you're busy, you should at least be able to call. Doubled, 〜にしても〜にしても means \"whether A or B\": 行くにしても行かないにしても、早く決めてください.",
-  "whenUsed": "Speech and writing. Written and more formal: にせよ / にしろ (N2). Also それにしても = \"even so / still\".",
+  "meaning": "(1) \"even if ~\", \"even though ~\"; (2) 〜にしても〜にしても: \"whether ~ or ~\".",
+  "simpleExplanation": "Grants the point and then pushes back: even granting that, the speaker still objects. Doubled, it covers both alternatives.",
+  "whenUsed": "Mild complaint or criticism, and in presenting either-way conditions.",
   "formation": [
     "Plain form + にしても",
-    "Noun + にしても",
-    "A にしても B にしても (whether A or B)",
-    "Sentence-initial: それにしても"
+    "N + にしても",
+    "〜にしても〜にしても (whether ~ or ~)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,24 @@
   },
   "examples": [
     {
+      "ja": "冗談にしても、言いすぎだ。",
+      "reading": "じょうだんにしても、いいすぎだ。",
+      "en": "Even as a joke, that goes too far."
+    },
+    {
+      "ja": "行くにしても、来週以降になるだろう。",
+      "reading": "いくにしても、らいしゅういこうになるだろう。",
+      "en": "Even if I go, it won't be before next week."
+    },
+    {
       "ja": "忙しいにしても、電話ぐらいはできるはずだ。",
       "reading": "いそがしいにしても、でんわぐらいはできるはずだ。",
-      "en": "Even if you're busy, you should at least be able to call.",
-      "note": "Admit (busy) then object (could at least call)."
+      "en": "Even if you're busy, you could at least call."
     },
     {
       "ja": "行くにしても行かないにしても、早く決めてください。",
       "reading": "いくにしてもいかないにしても、はやくきめてください。",
-      "en": "Whether you go or not, please decide soon.",
-      "note": "Doubled: whether you go or not."
-    },
-    {
-      "ja": "冗談にしても、言いすぎだ。",
-      "reading": "じょうだんにしても、いいすぎだ。",
-      "en": "Even as a joke, that's going too far.",
-      "note": "Noun + にしても: even as a joke."
-    },
-    {
-      "ja": "値段が高いのはわかる。それにしても、高すぎる。",
-      "reading": "ねだんがたかいのはわかる。それにしても、たかすぎる。",
-      "en": "I understand it's expensive. Even so, it's too expensive.",
-      "note": "Sentence-initial それにしても."
-    },
-    {
-      "ja": "電車にしてもバスにしても、朝は込んでいる。",
-      "reading": "でんしゃにしてもバスにしても、あさはこんでいる。",
-      "en": "Whether it's the train or the bus, mornings are crowded.",
-      "note": "Noun にしても Noun にしても."
+      "en": "Whether you go or not, please decide soon."
     }
   ],
   "similarGrammar": [

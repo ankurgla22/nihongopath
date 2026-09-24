@@ -5,15 +5,13 @@
   "order": 80,
   "title": "〜に決まっている",
   "romaji": "ni kimatte iru",
-  "meaning": "definitely / obviously / it's certain that…",
-  "simpleExplanation": "〜に決まっている means \"it's obvious that…\" or \"of course it's…\". The speaker feels no doubt at all, often with some emotion: \"A story like that is obviously a lie.\" It is the colloquial, forceful cousin of 〜に違いない.",
-  "whenUsed": "Casual and semi-polite conversation; used to insist, reassure or scold (嘘に決まっている, 迷惑に決まっている). Rare in formal writing. The polite form 〜に決まっています is fine in conversation but still sounds assertive.",
+  "meaning": "\"definitely ~\", \"of course ~\", \"it's bound to be ~\" — strong personal conviction.",
+  "simpleExplanation": "Stronger and more emotional than 〜に違いない, and casual. It says \"obviously\", even though it is still just the speaker's opinion.",
+  "whenUsed": "Casual conversation, often with a hint of irritation or certainty.",
   "formation": [
-    "Verb (plain form) + に決まっている",
-    "い-adjective + に決まっている",
-    "な-adjective (no な) + に決まっている",
-    "Noun (no の) + に決まっている",
-    "Polite: 〜に決まっています / Casual: 〜に決まってる"
+    "V-plain + に決まっている",
+    "い-adj + に決まっている",
+    "な-adj (no な) / N (no だ) + に決まっている"
   ],
   "diagram": {
     "kind": "comparison",
@@ -46,32 +44,22 @@
     {
       "ja": "そんな話、嘘に決まっている。",
       "reading": "そんなはなし、うそにきまっている。",
-      "en": "A story like that is definitely a lie.",
-      "note": "Noun attaches directly; strong disbelief."
+      "en": "A story like that has to be a lie."
     },
     {
       "ja": "毎日練習すれば、上手になるに決まっている。",
       "reading": "まいにちれんしゅうすれば、じょうずになるにきまっている。",
-      "en": "If you practice daily, you'll definitely get better.",
-      "note": "Reassurance: 'you'll definitely improve'."
+      "en": "If you practise every day, of course you'll get good."
+    },
+    {
+      "ja": "あんなに高い店、おいしいに決まっているよ。",
+      "reading": "あんなにたかいみせ、おいしいにきまっているよ。",
+      "en": "A place that pricey is bound to be delicious."
     },
     {
       "ja": "こんな時間に電話したら、迷惑に決まっているだろう。",
       "reading": "こんなじかんにでんわしたら、めいわくにきまっているだろう。",
-      "en": "Calling at this hour would obviously be a nuisance.",
-      "note": "な-adjective 迷惑 + に決まっている; a mild scolding."
-    },
-    {
-      "ja": "そんなに食べたら、太るに決まっているでしょう。",
-      "reading": "そんなにたべたら、ふとるにきまっているでしょう。",
-      "en": "If you eat that much, of course you'll put on weight.",
-      "note": "Verb + に決まっている; a common scolding tone."
-    },
-    {
-      "ja": "「試合、勝てるかな。」「勝てるに決まってるよ。」",
-      "reading": "「しあい、かてるかな。」「かてるにきまってるよ。」",
-      "en": "\"Can we win the match?\" \"Of course we can.\"",
-      "note": "Casual に決まってる used to reassure."
+      "en": "Calling at this hour is obviously a nuisance."
     }
   ],
   "similarGrammar": [

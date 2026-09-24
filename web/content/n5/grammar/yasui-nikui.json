@@ -3,13 +3,14 @@
   "slug": "yasui-nikui",
   "level": "n5",
   "order": 60,
-  "title": "やすい ／ にくい",
+  "title": "〜やすい ／ 〜にくい",
   "romaji": "yasui nikui",
-  "meaning": "\"easy to ~\" / \"hard to ~\".",
-  "simpleExplanation": "ます-stem + やすい means \"easy to ...\" and ます-stem + にくい means \"hard to ...\": 読みやすい \"easy to read\", 書きにくい \"hard to write with\". Both become い-adjectives, so they conjugate like 高い: 読みやすかった, 読みにくくない. This やすい has nothing to do with 安い (cheap).",
-  "whenUsed": "Judging how usable or understandable something is: books, pens, explanations, roads, foods. Also tendencies: 壊れやすい \"breaks easily\".",
+  "meaning": "\"easy to ~\" / \"hard to ~\"; also \"tends to ~\" / \"does not readily ~\".",
+  "simpleExplanation": "Add やすい or にくい to the ます-stem. The result behaves like an い-adjective, so it conjugates: 読みやすかった, 書きにくくない.",
+  "whenUsed": "Describing how easy or hard something is to use, read, eat, or how easily something happens.",
   "formation": [
-    "V-ます + やすい　／　V-ます + にくい"
+    "V-ます stem + やすい ／ V-ます stem + にくい",
+    "Conjugates as an い-adjective (やすかった, やすくない, やすくて)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -45,33 +46,23 @@
   "examples": [
     {
       "ja": "この本は字が大きくて読みやすいです。",
-      "reading": "この ほんは じが おおきくて よみやすいです。",
-      "en": "This book has big print and is easy to read.",
-      "note": "読み + やすい."
+      "reading": "このほんはじがおおきくてよみやすいです。",
+      "en": "This book is easy to read because the print is large."
+    },
+    {
+      "ja": "先生の説明は分かりやすいです。",
+      "reading": "せんせいのせつめいはわかりやすいです。",
+      "en": "The teacher's explanations are easy to understand."
     },
     {
       "ja": "このペンは書きにくいです。",
-      "reading": "この ペンは かきにくいです。",
-      "en": "This pen is hard to write with.",
-      "note": "書き + にくい."
+      "reading": "このペンはかきにくいです。",
+      "en": "This pen is hard to write with."
     },
     {
-      "ja": "先生の説明は分かりやすかったです。",
-      "reading": "せんせいの せつめいは わかりやすかったです。",
-      "en": "The teacher's explanation was easy to understand.",
-      "note": "分かり + やすかった (past, like an い-adjective)."
-    },
-    {
-      "ja": "この道は広くて、歩きやすいです。",
-      "reading": "この みちは ひろくて、あるきやすいです。",
-      "en": "This road is wide and easy to walk on.",
-      "note": "歩き + やすい."
-    },
-    {
-      "ja": "この薬は大きくて、飲みにくいです。",
-      "reading": "この くすりは おおきくて、のみにくいです。",
-      "en": "This medicine is big and hard to swallow.",
-      "note": "飲み + にくい."
+      "ja": "冬は風邪をひきやすいです。",
+      "reading": "ふゆはかぜをひきやすいです。",
+      "en": "You catch colds easily in winter."
     }
   ],
   "similarGrammar": [

@@ -5,14 +5,13 @@
   "order": 46,
   "title": "〜からこそ",
   "romaji": "kara koso",
-  "meaning": "Precisely because… / it is exactly because…",
-  "simpleExplanation": "〜からこそ shines a spotlight on the reason: 君のことを思っているからこそ、厳しく言うんだ = it's precisely because I care about you that I'm strict. The reason is often one the listener would not expect. The sentence frequently ends with のだ / んだ.",
-  "whenUsed": "Speech and writing, explanations of surprising reasons, persuasive essays. Sentence-initial だからこそ = \"that is exactly why\".",
+  "meaning": "\"precisely because ~\", \"it is exactly because ~\" — strong emphasis on the reason.",
+  "simpleExplanation": "こそ singles out this reason and no other. The sentence often ends with 〜のだ / 〜んだ to complete the emphatic tone.",
+  "whenUsed": "Explaining a motive that might be misread — strictness out of love, joy earned through hardship.",
   "formation": [
     "Plain form + からこそ",
-    "Noun / な-adjective + だ + からこそ",
-    "Main clause often ends with 〜のだ / 〜んだ",
-    "Sentence-initial: だからこそ"
+    "N / な-adj + だ + からこそ",
+    "Often ends with 〜のだ / 〜んだ"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,24 @@
   },
   "examples": [
     {
+      "ja": "親だからこそ、心配するのだ。",
+      "reading": "おやだからこそ、しんぱいするのだ。",
+      "en": "It's precisely because I'm your parent that I worry."
+    },
+    {
       "ja": "君のことを思っているからこそ、厳しく言うんだ。",
       "reading": "きみのことをおもっているからこそ、きびしくいうんだ。",
-      "en": "It's precisely because I care about you that I'm strict.",
-      "note": "An unexpected reason for strictness, ending in んだ."
+      "en": "I'm being hard on you precisely because I care about you."
     },
     {
       "ja": "苦労したからこそ、成功の喜びが大きい。",
       "reading": "くろうしたからこそ、せいこうのよろこびがおおきい。",
-      "en": "Precisely because I struggled, the joy of success is greater.",
-      "note": "Hardship as the exact reason for greater joy."
+      "en": "It's because I struggled that success feels so sweet."
     },
     {
-      "ja": "親だからこそ、心配するのだ。",
-      "reading": "おやだからこそ、しんぱいするのだ。",
-      "en": "It is exactly because I'm a parent that I worry.",
-      "note": "Noun + だからこそ + のだ."
-    },
-    {
-      "ja": "失敗したからこそ、次はうまくいくと思う。",
-      "reading": "しっぱいしたからこそ、つぎはうまくいくとおもう。",
-      "en": "Precisely because I failed, I think it'll go well next time.",
-      "note": "Turning a negative into a positive reason."
-    },
-    {
-      "ja": "大変な仕事だ。だからこそ、やりがいがあるんだ。",
-      "reading": "たいへんなしごとだ。だからこそ、やりがいがあるんだ。",
-      "en": "It's a hard job. That's exactly why it's rewarding.",
-      "note": "Sentence-initial だからこそ."
+      "ja": "大切な人だからこそ、本当のことを言いたい。",
+      "reading": "たいせつなひとだからこそ、ほんとうのことをいいたい。",
+      "en": "It's exactly because you matter to me that I want to tell you the truth."
     }
   ],
   "similarGrammar": [

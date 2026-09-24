@@ -5,13 +5,12 @@
   "order": 41,
   "title": "〜て以来",
   "romaji": "te irai",
-  "meaning": "Ever since…",
-  "simpleExplanation": "〜て以来 marks a past event as the starting point of a state that has continued until now: 卒業して以来、彼に会っていない = I haven't seen him since graduation. Two conditions: the event is some time ago, and the main clause is a continuing state (ずっと〜ている, 〜ていない, 〜なくなった).",
-  "whenUsed": "Speech and writing, slightly formal. Nouns of events attach directly: あの事故以来, 入社以来. Not for events that happened just now.",
+  "meaning": "\"ever since ~\" — a state that has continued without interruption since a past event.",
+  "simpleExplanation": "The event is a one-off in the past, and the situation has held ever since. Don't use it for recent or repeated events.",
+  "whenUsed": "Talking about long-running situations since graduation, marriage, moving, an accident.",
   "formation": [
-    "Verb (て form) + 以来",
-    "Noun (event) + 以来",
-    "Main clause: a continuing state, often with ずっと"
+    "V-て + 以来",
+    "N + 以来 (あの事故以来, 卒業以来)"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -41,32 +40,22 @@
     {
       "ja": "卒業して以来、彼に会っていない。",
       "reading": "そつぎょうしていらい、かれにあっていない。",
-      "en": "I haven't seen him since graduation.",
-      "note": "Continuing negative state: haven't met since."
+      "en": "I haven't seen him since we graduated."
     },
     {
       "ja": "日本に来て以来、ずっとこの町に住んでいる。",
       "reading": "にほんにきていらい、ずっとこのまちにすんでいる。",
-      "en": "Ever since I came to Japan, I've lived in this town.",
-      "note": "ずっと + 〜ている: continuing positive state."
+      "en": "Ever since I came to Japan, I've lived in this town."
+    },
+    {
+      "ja": "結婚して以来、彼はすっかり変わった。",
+      "reading": "けっこんしていらい、かれはすっかりかわった。",
+      "en": "He has completely changed since he got married."
     },
     {
       "ja": "あの事故以来、彼は車を運転しなくなった。",
       "reading": "あのじこいらい、かれはくるまをうんてんしなくなった。",
-      "en": "Since that accident, he has stopped driving.",
-      "note": "Noun + 以来 + a changed habit (〜なくなった)."
-    },
-    {
-      "ja": "この会社に入って以来、一度も遅刻したことがない。",
-      "reading": "このかいしゃにはいっていらい、いちどもちこくしたことがない。",
-      "en": "Since joining this company, I've never once been late.",
-      "note": "一度も〜ない emphasizes the whole period."
-    },
-    {
-      "ja": "去年の夏以来、彼女からは何の連絡もない。",
-      "reading": "きょねんのなついらい、かのじょからはなんのれんらくもない。",
-      "en": "Since last summer, there's been no word from her at all.",
-      "note": "Time noun + 以来."
+      "en": "Ever since that accident, he has stopped driving."
     }
   ],
   "similarGrammar": [

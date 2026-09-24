@@ -5,11 +5,13 @@
   "order": 66,
   "title": "〜たところで",
   "romaji": "ta tokoro de",
-  "meaning": "even if (one does), it's no use",
-  "simpleExplanation": "〜たところで means \"even if (one does)…, it's no use / it won't change much\". The speaker is pessimistic: even if we hurry now, we won't make it; however much I explain, they won't understand.",
-  "whenUsed": "Both registers. It follows Vた and the main clause is negative, futile, or minimal (無駄だ・間に合わない・変わらない・せいぜい〜だろう). Often introduced by 今さら, いくら, どんなに, たとえ. It is not used for positive outcomes.",
+  "meaning": "\"even if one does ~, it's no use\" — the action would not change the outcome.",
+  "simpleExplanation": "Always the た-form plus ところで, and the second clause is negative or hopeless. Often with いくら or 今さら. Unlike 〜ても, the speaker is sure it is pointless.",
+  "whenUsed": "Dismissing an action as futile; speech and writing alike.",
   "formation": [
-    "Vた + ところで (+ negative / useless result)"
+    "V-た + ところで + negative or futile result",
+    "Often with いくら / 今さら / 今から",
+    "The second clause never expresses a completed fact"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -34,32 +36,22 @@
     {
       "ja": "今さら急いだところで、間に合わない。",
       "reading": "いまさらいそいだところで、まにあわない。",
-      "en": "Even if we hurry now, we won't make it.",
-      "note": "今さら + Vた + ところで + negative."
+      "en": "Even if we hurry now, we won't make it."
     },
     {
       "ja": "彼に頼んだところで、無駄だろう。",
       "reading": "かれにたのんだところで、むだだろう。",
-      "en": "Even if you ask him, it'll be no use.",
-      "note": "ところで + 無駄だろう."
+      "en": "Even if you ask him, it'll be pointless."
     },
     {
       "ja": "いくら説明したところで、分かってもらえない。",
       "reading": "いくらせつめいしたところで、わかってもらえない。",
-      "en": "However much I explain, they won't understand.",
-      "note": "いくら + Vた + ところで."
+      "en": "No matter how much I explain, they won't understand."
     },
     {
-      "ja": "今から勉強したところで、明日の試験には間に合わないだろう。",
-      "reading": "いまからべんきょうしたところで、あしたのしけんにはまにあわないだろう。",
-      "en": "Even if I start studying now, it won't be in time for tomorrow's exam.",
-      "note": "Pessimistic conclusion with だろう."
-    },
-    {
-      "ja": "文句を言ったところで、せいぜい謝られるだけだ。",
-      "reading": "もんくをいったところで、せいぜいあやまられるだけだ。",
-      "en": "Even if I complain, at most I'll just get an apology.",
-      "note": "せいぜい〜だけだ: a minimal result."
+      "ja": "いくら謝ったところで、失った信頼は戻らない。",
+      "reading": "いくらあやまったところで、うしなったしんらいはもどらない。",
+      "en": "However much you apologise, lost trust doesn't come back."
     }
   ],
   "similarGrammar": [

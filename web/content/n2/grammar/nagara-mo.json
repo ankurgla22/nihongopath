@@ -5,11 +5,13 @@
   "order": 96,
   "title": "〜ながら(も)",
   "romaji": "nagara (mo)",
-  "meaning": "although, despite (being)",
-  "simpleExplanation": "〜ながら(も) here means \"although, despite (being)…\", not \"while doing\". Two facts that seem contradictory are joined: although young, he is reliable; small though it is, it's our happy home; even though he knew, he didn't tell me.",
-  "whenUsed": "書き言葉寄り. It follows Vます stems (知りながら), Vていながら, い-adjectives (若いながら), な-adjectives and nouns directly (残念ながら, 子供ながら). も strengthens the concession. Set phrases: 残念ながら, 我ながら, 生まれながら, 及ばずながら.",
+  "meaning": "\"although ~\", \"despite being ~\" — a concession, not simultaneous action.",
+  "simpleExplanation": "This is the concessive ながら, distinct from the N5 \"while doing\" ながら: here it attaches to adjectives and nouns as well, and the two clauses contrast.",
+  "whenUsed": "Somewhat literary; common in set phrases such as 狭いながらも and 残念ながら.",
   "formation": [
-    "Vます + ながら(も) / Aい + ながら(も) / Aな + ながら(も) / N + ながら(も) / Vて いながら"
+    "V-ます stem + ながら(も)",
+    "い-adj / な-adj stem / N + ながら(も)",
+    "V-ている → 〜ていながら"
   ],
   "diagram": {
     "kind": "comparison",
@@ -37,34 +39,24 @@
   },
   "examples": [
     {
-      "ja": "彼は若いながらも、しっかりしている。",
-      "reading": "かれはわかいながらも、しっかりしている。",
-      "en": "Although young, he is reliable.",
-      "note": "Aい + ながらも."
-    },
-    {
       "ja": "狭いながらも、楽しい我が家だ。",
       "reading": "せまいながらも、たのしいわがやだ。",
-      "en": "Small though it is, it's our happy home.",
-      "note": "Set-like 狭いながらも."
+      "en": "Small though it is, it's a happy home."
+    },
+    {
+      "ja": "彼は若いながらも、しっかりしている。",
+      "reading": "かれはわかいながらも、しっかりしている。",
+      "en": "Young as he is, he is very reliable."
     },
     {
       "ja": "知っていながら、教えてくれなかった。",
       "reading": "しっていながら、おしえてくれなかった。",
-      "en": "Even though he knew, he didn't tell me.",
-      "note": "Vていながら, concessive."
+      "en": "Although he knew, he didn't tell me."
     },
     {
-      "ja": "残念ながら、今回は採用を見送らせていただきます。",
-      "reading": "ざんねんながら、こんかいはさいようをみおくらせていただきます。",
-      "en": "Regrettably, we will not be able to offer you the position this time.",
-      "note": "残念ながら is a fixed phrase."
-    },
-    {
-      "ja": "彼は初心者ながら、大会で入賞した。",
-      "reading": "かれはしょしんしゃながら、たいかいでにゅうしょうした。",
-      "en": "Though a beginner, he placed in the tournament.",
-      "note": "N + ながら."
+      "ja": "彼は貧しいながらも、幸せに暮らしていた。",
+      "reading": "かれはまずしいながらも、しあわせにくらしていた。",
+      "en": "Poor though he was, he lived happily."
     }
   ],
   "similarGrammar": [
@@ -80,7 +72,7 @@
     {
       "pattern": "〜くせに",
       "difference": "Concession with contempt.",
-      "id": "n2-grammar-38"
+      "id": "n3-grammar-109"
     }
   ],
   "commonMistakes": [

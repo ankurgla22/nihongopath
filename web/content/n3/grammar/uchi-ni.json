@@ -5,15 +5,14 @@
   "order": 1,
   "title": "〜うちに",
   "romaji": "uchi ni",
-  "meaning": "While… (still) / before… changes",
-  "simpleExplanation": "〜うちに means \"do it while X is still true\". The feeling is: X will not last forever, so act now, before the window closes. 温かいうちに = \"while it's still warm\" (it will get cold soon). With a negative verb, 〜ないうちに means \"before X happens\": 忘れないうちに = \"before I forget\".",
-  "whenUsed": "Everyday speech and writing. Typical uses: advice to act before a chance disappears (若いうちに、明るいうちに), and 〜ているうちに to describe a change that happened during an activity (話しているうちに眠くなった = while talking I got sleepy).",
+  "meaning": "\"while ~ (still)\", \"before the situation changes\" — do something during the window in which a condition holds.",
+  "simpleExplanation": "Use it when the state will not last: do it now, while it is still true. With a negative verb (〜ないうちに) it means \"before ~ happens\".",
+  "whenUsed": "Urging or planning an action that must happen inside a limited window; also for changes noticed over time (〜ているうちに).",
   "formation": [
-    "Verb (dictionary / ている / ない) + うちに",
-    "い-adjective + うちに",
-    "な-adjective + な + うちに",
-    "Noun + の + うちに",
-    "Set phrases: 今のうちに (now, while we can), そのうちに (before long)"
+    "V-dict / V-ている / V-ない + うちに",
+    "い-adj + うちに",
+    "な-adj + な + うちに",
+    "N + の + うちに"
   ],
   "diagram": {
     "kind": "comparison",
@@ -50,32 +49,22 @@
     {
       "ja": "温かいうちに食べてください。",
       "reading": "あたたかいうちにたべてください。",
-      "en": "Please eat it while it is still warm.",
-      "note": "い-adjective attaches directly. The unspoken second half: \"…because it will get cold.\""
-    },
-    {
-      "ja": "日本にいるうちに、富士山に登りたい。",
-      "reading": "にほんにいるうちに、ふじさんにのぼりたい。",
-      "en": "While I am in Japan, I want to climb Mt. Fuji.",
-      "note": "〜ているうちに: while a state continues. Being in Japan is a limited chance."
+      "en": "Please eat it while it's still warm."
     },
     {
       "ja": "忘れないうちにメモしておこう。",
       "reading": "わすれないうちにメモしておこう。",
-      "en": "Let me write it down before I forget.",
-      "note": "〜ないうちに = before X happens. 忘れる is the change the speaker wants to beat."
+      "en": "Let me write it down before I forget."
     },
     {
-      "ja": "若いうちに、いろいろな国を旅行したほうがいい。",
-      "reading": "わかいうちに、いろいろなくにをりょこうしたほうがいい。",
-      "en": "You should travel to many countries while you're still young.",
-      "note": "A very common piece of advice: youth is the window."
+      "ja": "日本にいるうちに、富士山に登りたい。",
+      "reading": "にほんにいるうちに、ふじさんにのぼりたい。",
+      "en": "I want to climb Mt. Fuji while I'm in Japan."
     },
     {
-      "ja": "本を読んでいるうちに、いつの間にか寝てしまった。",
-      "reading": "ほんをよんでいるうちに、いつのまにかねてしまった。",
-      "en": "While I was reading, I fell asleep without noticing.",
-      "note": "〜ているうちに + an unintended change (寝てしまった)."
+      "ja": "音楽を聴いているうちに、眠ってしまった。",
+      "reading": "おんがくをきいているうちに、ねむってしまった。",
+      "en": "While listening to music, I fell asleep."
     }
   ],
   "similarGrammar": [

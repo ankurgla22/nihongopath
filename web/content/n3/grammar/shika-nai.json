@@ -3,15 +3,13 @@
   "slug": "shika-nai",
   "level": "n3",
   "order": 53,
-  "title": "〜しかない",
+  "title": "〜しかない (have no choice but to)",
   "romaji": "shika nai",
-  "meaning": "Have no choice but to… / only…",
-  "simpleExplanation": "V-dictionary + しかない means there is only one option left: 歩いて帰るしかない = I have no choice but to walk home. With a noun, N + しか + negative means \"only\": 百円しかない = I have only 100 yen. In both cases しか + ない says \"nothing except this\".",
-  "whenUsed": "Everyday speech and writing. Formal equivalents for verbs: 〜ほかない, 〜よりほかない, 〜ざるを得ない (N2).",
+  "meaning": "\"there is nothing for it but to ~\", \"we have no choice but to ~\". Added to a dictionary-form verb to say that one option is all that is left.",
+  "simpleExplanation": "After a dictionary-form verb, しかない says the speaker sees no other option. The particle しか + negative meaning \"only\" is the separate N5 point 〜しか〜ない.",
+  "whenUsed": "Sense (1) when circumstances leave one option; sense (2) when stressing how little there is.",
   "formation": [
-    "Verb (dictionary form) + しかない",
-    "Noun + しか + negative verb",
-    "Noun + しかない (only, and nothing else)"
+    "V-dict + しかない"
   ],
   "diagram": {
     "kind": "comparison",
@@ -53,34 +51,24 @@
   },
   "examples": [
     {
-      "ja": "終電がなくなったので、歩いて帰るしかない。",
-      "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
-      "en": "The last train is gone, so I have no choice but to walk home.",
-      "note": "Only option: the last train is gone."
-    },
-    {
-      "ja": "財布には百円しかない。",
-      "reading": "さいふにはひゃくえんしかない。",
-      "en": "I have only 100 yen in my wallet.",
-      "note": "N + しか + negative: only 100 yen."
-    },
-    {
       "ja": "こうなったら、やるしかない。",
       "reading": "こうなったら、やるしかない。",
-      "en": "Now that it's come to this, we just have to do it.",
-      "note": "Resolute: nothing to do but do it."
+      "en": "Now that it has come to this, we have no choice but to do it."
     },
     {
-      "ja": "誰も手伝ってくれないなら、自分でやるしかない。",
-      "reading": "だれもてつだってくれないなら、じぶんでやるしかない。",
-      "en": "If nobody will help, I have no choice but to do it myself.",
-      "note": "V-dict + しかない after a condition."
+      "ja": "終電がなくなったので、歩いて帰るしかない。",
+      "reading": "しゅうでんがなくなったので、あるいてかえるしかない。",
+      "en": "The last train has gone, so I have no choice but to walk home."
     },
     {
-      "ja": "この店は現金しか使えません。",
-      "reading": "このみせはげんきんしかつかえません。",
-      "en": "This shop only accepts cash.",
-      "note": "N + しか + potential negative."
+      "ja": "直せないなら、新しいのを買うしかないですね。",
+      "reading": "なおせないなら、あたらしいのをかうしかないですね。",
+      "en": "If it cannot be repaired, we will just have to buy a new one."
+    },
+    {
+      "ja": "みんなが反対でも、自分を信じて進むしかない。",
+      "reading": "みんながはんたいでも、じぶんをしんじてすすむしかない。",
+      "en": "Even if everyone is against it, I can only believe in myself and press on."
     }
   ],
   "similarGrammar": [

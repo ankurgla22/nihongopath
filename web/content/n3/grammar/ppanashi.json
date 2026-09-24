@@ -5,13 +5,13 @@
   "order": 83,
   "title": "〜っぱなし",
   "romaji": "ppanashi",
-  "meaning": "leave… as it is / keep on…ing (something left undone or continuing, usually unwelcome)",
-  "simpleExplanation": "〜っぱなし comes from 放す (\"let go\"). It means you did something and then left it like that: 開けっぱなし \"left open\", 出しっぱなし \"left running\". It can also mean an action or state that keeps going without a break: 立ちっぱなし \"standing the whole time\". The feeling is usually negative: careless, tiring, or annoying.",
-  "whenUsed": "Everyday conversation, complaints, reminders (電気をつけっぱなしにしないで). Rare in formal writing. It is followed by だ, で, にする, or の + noun.",
+  "meaning": "\"leave ~ as it is\" (neglect), \"keep on ~ing\" — usually with a negative or tiring nuance.",
+  "simpleExplanation": "From 放す. Either something was left in a state it shouldn't be (水を出しっぱなし), or an action continued without a break (立ちっぱなし).",
+  "whenUsed": "Complaining about carelessness, or about something exhausting that went on and on.",
   "formation": [
-    "Verb ます-stem + っぱなし + だ / で / の Noun",
-    "〜っぱなしにする (leave something that way)",
-    "〜っぱなしになっている (has been left that way)"
+    "V-ます stem + っぱなし",
+    "+ だ / で / の + N",
+    "〜っぱなしにする (leave it that way)"
   ],
   "diagram": {
     "kind": "transformation",
@@ -32,34 +32,24 @@
   },
   "examples": [
     {
+      "ja": "水を出しっぱなしにしないでください。",
+      "reading": "みずをだしっぱなしにしないでください。",
+      "en": "Please don't leave the water running."
+    },
+    {
       "ja": "窓を開けっぱなしで出かけてしまった。",
       "reading": "まどをあけっぱなしででかけてしまった。",
-      "en": "I went out leaving the window open.",
-      "note": "Something left undone: the window stayed open."
+      "en": "I went out and left the window wide open."
     },
     {
       "ja": "一日中立ちっぱなしで足が痛い。",
       "reading": "いちにちじゅうたちっぱなしであしがいたい。",
-      "en": "My legs hurt from standing all day.",
-      "note": "Continuous state: standing all day without a break."
+      "en": "My feet hurt from standing all day."
     },
     {
-      "ja": "水を出しっぱなしにしないでください。",
-      "reading": "みずをだしっぱなしにしないでください。",
-      "en": "Please don't leave the water running.",
-      "note": "っぱなしにする = leave it that way; a typical request."
-    },
-    {
-      "ja": "テレビをつけっぱなしで寝てしまった。",
-      "reading": "テレビをつけっぱなしでねてしまった。",
-      "en": "I fell asleep with the TV left on.",
-      "note": "っぱなしで connects to the next action."
-    },
-    {
-      "ja": "昨日の試合は負けっぱなしで、悔しかった。",
-      "reading": "きのうのしあいはまけっぱなしで、くやしかった。",
-      "en": "We kept losing in yesterday's games, and it was frustrating.",
-      "note": "Continuous sense: losing again and again."
+      "ja": "今年のチームは負けっぱなしだ。",
+      "reading": "ことしのチームはまけっぱなしだ。",
+      "en": "This year's team just keeps losing."
     }
   ],
   "similarGrammar": [

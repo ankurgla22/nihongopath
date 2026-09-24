@@ -5,13 +5,12 @@
   "order": 30,
   "title": "〜につれて / 〜につれ",
   "romaji": "ni tsurete",
-  "meaning": "As… (changes), … (also gradually changes)",
-  "simpleExplanation": "〜につれて links two gradual changes: 時間がたつにつれて、痛みが消えていった = as time passed, the pain gradually went away. Both halves must be changes; the second one follows naturally, without anyone's intention.",
-  "whenUsed": "Essays, narration, describing trends. Slightly more common in speech than にしたがって. Written: 〜につれ.",
+  "meaning": "\"as ~ (changes), ~ also changes\" — two gradual changes moving together.",
+  "simpleExplanation": "Both sides must be gradual changes, not one-off events, and the second half cannot be a command or request. につれ is the more written form.",
+  "whenUsed": "Describing long-term trends: ageing, urbanisation, the passing of time.",
   "formation": [
-    "Verb (dictionary form) + につれて",
-    "Noun (expressing change) + につれて",
-    "Main clause: a change (〜なる / 〜てくる / 〜ていく)"
+    "V-dict + につれて / につれ",
+    "N (change noun) + につれて / につれ"
   ],
   "diagram": {
     "kind": "transformation",
@@ -34,32 +33,22 @@
     {
       "ja": "時間がたつにつれて、痛みが消えていった。",
       "reading": "じかんがたつにつれて、いたみがきえていった。",
-      "en": "As time passed, the pain gradually went away.",
-      "note": "Time passing + pain fading: two gradual changes."
-    },
-    {
-      "ja": "都市化が進むにつれて、緑が減っている。",
-      "reading": "としかがすすむにつれて、みどりがへっている。",
-      "en": "As urbanization advances, greenery is decreasing.",
-      "note": "Urbanization + decrease of greenery."
+      "en": "As time passed, the pain faded away."
     },
     {
       "ja": "大人になるにつれて、考え方が変わった。",
       "reading": "おとなになるにつれて、かんがえかたがかわった。",
-      "en": "As I became an adult, my way of thinking changed.",
-      "note": "Becoming an adult + change in thinking."
+      "en": "As I grew up, my way of thinking changed."
     },
     {
-      "ja": "日本語が上達するにつれて、日本人の友達が増えてきた。",
-      "reading": "にほんごがじょうたつするにつれて、にほんじんのともだちがふえてきた。",
-      "en": "As my Japanese improved, my Japanese friends gradually increased.",
-      "note": "The main clause uses 〜てきた, a natural change."
+      "ja": "年齢が上がるにつれ、体力が落ちる。",
+      "reading": "ねんれいがあがるにつれ、たいりょくがおちる。",
+      "en": "As you get older, your stamina declines."
     },
     {
-      "ja": "試験の日が近づくにつれて、不安になってきた。",
-      "reading": "しけんのひがちかづくにつれて、ふあんになってきた。",
-      "en": "As the exam day approached, I became anxious.",
-      "note": "近づくにつれて is a very common pairing."
+      "ja": "都市化が進むにつれて、緑が減っている。",
+      "reading": "としかがすすむにつれて、みどりがへっている。",
+      "en": "As urbanisation advances, green space is shrinking."
     }
   ],
   "similarGrammar": [

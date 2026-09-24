@@ -5,14 +5,13 @@
   "order": 42,
   "title": "〜以上(は)",
   "romaji": "ijou wa",
-  "meaning": "Since… / now that… (naturally one must)",
-  "simpleExplanation": "〜以上(は) means \"given that X is the case, Y naturally follows\": 約束した以上、守らなければならない = now that I've promised, I must keep it. The first half is a fact or decision; the second half is a duty, resolve, or advice. Note: the same 以上 after numbers means \"or more\" (十人以上).",
-  "whenUsed": "Formal to neutral speech and writing. The main clause typically has べきだ, なければならない, つもりだ, or a strong intention.",
+  "meaning": "\"since ~\", \"now that ~\" — given this fact, the natural consequence must follow.",
+  "simpleExplanation": "The second clause expresses determination, obligation or advice: 〜なければならない, 〜べきだ, 〜つもりだ. This is the conjunction 以上, not the \"or more\" counter.",
+  "whenUsed": "Committing to something you have accepted or decided; formal-leaning speech and writing.",
   "formation": [
-    "Verb (dictionary / た form) + 以上(は)",
-    "Noun + である + 以上(は)",
-    "な-adjective + である + 以上",
-    "Main clause: duty, resolve, or advice"
+    "V-dict / V-た + 以上(は)",
+    "N + である + 以上(は)",
+    "Second clause: obligation, determination or advice"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -38,32 +37,22 @@
     {
       "ja": "約束した以上、守らなければならない。",
       "reading": "やくそくしたいじょう、まもらなければならない。",
-      "en": "Now that I've promised, I must keep it.",
-      "note": "A promise leads to obligation."
-    },
-    {
-      "ja": "学生である以上、勉強が第一だ。",
-      "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
-      "en": "As long as you are a student, studying comes first.",
-      "note": "Noun + である以上: status leads to priority."
+      "en": "Now that I've promised, I have to keep it."
     },
     {
       "ja": "やると決めた以上は、最後までやる。",
       "reading": "やるときめたいじょうは、さいごまでやる。",
-      "en": "Since I've decided to do it, I'll see it through.",
-      "note": "Decision leads to resolve (最後までやる)."
+      "en": "Now that I've decided to do it, I'll see it through."
     },
     {
-      "ja": "日本で働く以上、日本の習慣を理解する必要がある。",
-      "reading": "にほんではたらくいじょう、にほんのしゅうかんをりかいするひつようがある。",
-      "en": "Since you're going to work in Japan, you need to understand Japanese customs.",
-      "note": "Dictionary form + 以上: a present or future situation."
+      "ja": "学生である以上、勉強が第一だ。",
+      "reading": "がくせいであるいじょう、べんきょうがだいいちだ。",
+      "en": "Since you're a student, studying comes first."
     },
     {
-      "ja": "お金を受け取った以上は、責任を持って仕事をします。",
-      "reading": "おかねをうけとったいじょうは、せきにんをもってしごとをします。",
-      "en": "Now that I've accepted payment, I'll do the job responsibly.",
-      "note": "以上は with は adds emphasis."
+      "ja": "引き受けた以上は、最後までやり抜くべきだ。",
+      "reading": "ひきうけたいじょうは、さいごまでやりぬくべきだ。",
+      "en": "Now that you've taken it on, you should see it through to the end."
     }
   ],
   "similarGrammar": [

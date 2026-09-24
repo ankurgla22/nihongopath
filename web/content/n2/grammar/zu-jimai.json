@@ -5,14 +5,13 @@
   "order": 182,
   "title": "〜ずじまい",
   "romaji": "zu jimai",
-  "meaning": "ended up not doing (something intended), regretfully",
-  "simpleExplanation": "〜ずじまい means \"ended up never doing X\": there was an intention or chance, but in the end X did not happen, and the speaker regrets it. 京都に行ったのにお寺を見ずじまいだった. It comes from ず (negative) + しまい (end). It is always about a missed opportunity.",
-  "whenUsed": "Both speech and writing; common in reflections and stories. It usually ends with だ / だった or で. In neutral statements use 結局〜なかった.",
+  "meaning": "\"ended up never doing ~\" — a regret that something intended was never done.",
+  "simpleExplanation": "Uses the ない-stem plus ずじまい (する becomes せずじまい). It always carries regret about an opportunity that has now passed for good.",
+  "whenUsed": "Looking back on missed chances; written and spoken alike, slightly literary.",
   "formation": [
-    "Verb (ない-stem) + ずじまい (する → せずじまい)",
-    "〜ずじまいだ / 〜ずじまいだった / 〜ずじまいで",
-    "Often with 結局 / とうとう / 〜のに",
-    "Typical verbs: 会わずじまい / 言えずじまい / 読まずじまい / 行かずじまい"
+    "V-ない stem + ずじまい",
+    "する → せずじまい",
+    "Often 〜ずじまいだ / 〜ずじまいで / 〜ずじまいになる"
   ],
   "diagram": {
     "kind": "transformation",
@@ -33,34 +32,19 @@
   },
   "examples": [
     {
-      "ja": "忙しくて、京都に行ったのにお寺を見ずじまいだった。",
-      "reading": "いそがしくて、きょうとにいったのにおてらをみずじまいだった。",
-      "en": "I was so busy that although I went to Kyoto I ended up not seeing any temples.",
-      "note": "A missed chance while in Kyoto."
+      "ja": "結局、その本は読まずじまいになった。",
+      "reading": "けっきょく、そのほんはよまずじまいになった。",
+      "en": "In the end I never did read that book."
+    },
+    {
+      "ja": "せっかく京都に行ったのに、金閣寺は見ずじまいだった。",
+      "reading": "せっかくきょうとにいったのに、きんかくじはみずじまいだった。",
+      "en": "I went all the way to Kyoto and still never saw Kinkaku-ji."
     },
     {
       "ja": "彼に本当の気持ちを言えずじまいで、卒業してしまった。",
       "reading": "かれにほんとうのきもちをいえずじまいで、そつぎょうしてしまった。",
-      "en": "I graduated without ever being able to tell him my true feelings.",
-      "note": "言えずじまい: never managed to say it; で links to the result."
-    },
-    {
-      "ja": "結局、その本は読まずじまいになった。",
-      "reading": "けっきょく、そのほんはよまずじまいになった。",
-      "en": "In the end, I never got around to reading that book.",
-      "note": "結局 + ずじまい: never got around to it."
-    },
-    {
-      "ja": "せっかく買ったのに、そのカメラは一度も使わずじまいだった。",
-      "reading": "せっかくかったのに、そのカメラはいちどもつかわずじまいだった。",
-      "en": "Even though I bought it specially, I ended up never using that camera.",
-      "note": "せっかく〜のに strengthens the regret."
-    },
-    {
-      "ja": "彼女とは連絡が取れず、お礼も言えずじまいになった。",
-      "reading": "かのじょとはれんらくがとれず、おれいもいえずじまいになった。",
-      "en": "I could not reach her, so I ended up never even thanking her.",
-      "note": "ずじまいになる: another common ending."
+      "en": "I graduated without ever telling him how I really felt."
     }
   ],
   "similarGrammar": [

@@ -5,13 +5,13 @@
   "order": 35,
   "title": "〜ついでに",
   "romaji": "tsuide ni",
-  "meaning": "While (doing)…, also… / taking the opportunity",
-  "simpleExplanation": "〜ついでに means you do a second, smaller thing because you are already doing the first: 買い物のついでに郵便局に寄った = while I was out shopping, I stopped by the post office. The main action comes first; the ついでに action is a convenient add-on.",
-  "whenUsed": "Everyday speech and casual writing. Sentence-initial ついでに = \"while you're at it\". Polite requests: 〜ついでに〜ていただけますか.",
+  "meaning": "\"while (doing) ~, also ~\" — taking the opportunity of one action to do a second, minor one.",
+  "simpleExplanation": "The first action is the real purpose; the second is a bonus done along the way. Use the dictionary form for \"on the way to\" and the た-form for \"having just done\".",
+  "whenUsed": "Errands and small favours done while you are already out or already busy.",
   "formation": [
-    "Verb (dictionary / た) + ついでに",
-    "Noun (action) + の + ついでに",
-    "Sentence-initial: ついでに、〜"
+    "V-dict + ついでに",
+    "V-た + ついでに",
+    "N + の + ついでに"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -36,32 +36,22 @@
     {
       "ja": "買い物のついでに、郵便局に寄った。",
       "reading": "かいもののついでに、ゆうびんきょくによった。",
-      "en": "While out shopping, I also stopped by the post office.",
-      "note": "Noun + のついでに: shopping is the main errand."
+      "en": "While out shopping, I stopped by the post office."
     },
     {
       "ja": "東京へ行くついでに、友達に会ってきます。",
       "reading": "とうきょうへいくついでに、ともだちにあってきます。",
-      "en": "While I'm going to Tokyo, I'll see a friend too.",
-      "note": "V-dict + ついでに: the trip is planned; meeting a friend is added."
+      "en": "While I'm in Tokyo, I'll see a friend too."
     },
     {
       "ja": "車を洗ったついでに、庭も掃除した。",
       "reading": "くるまをあらったついでに、にわもそうじした。",
-      "en": "Since I was washing the car, I also cleaned the garden.",
-      "note": "V-た + ついでに: after washing the car, the garden too."
+      "en": "Since I was washing the car anyway, I cleaned the garden too."
     },
     {
-      "ja": "コンビニに行くついでに、この手紙を出してきてくれない？",
-      "reading": "コンビニにいくついでに、このてがみをだしてきてくれない？",
-      "en": "Since you're going to the convenience store, could you mail this letter?",
-      "note": "A request that piggybacks on someone's errand."
-    },
-    {
-      "ja": "ついでに、ゴミも出しておいてね。",
-      "reading": "ついでに、ゴミもだしておいてね。",
-      "en": "While you're at it, take the trash out too.",
-      "note": "Sentence-initial ついでに."
+      "ja": "洗濯したついでに、カーテンも洗った。",
+      "reading": "せんたくしたついでに、カーテンもあらった。",
+      "en": "While doing the laundry, I washed the curtains as well."
     }
   ],
   "similarGrammar": [

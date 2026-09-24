@@ -1677,27 +1677,34 @@
     "slug": "42-nagara",
     "level": "n5",
     "order": 42,
-    "title": "ながら",
+    "title": "〜ながら",
     "romaji": "nagara",
-    "meaning": "\"while doing ~\" — two actions performed at the same time by the same person.",
-    "simpleExplanation": "\"while doing ~\" — two actions performed at the same time by the same person.",
+    "meaning": "\"while doing ~\" — two actions performed at the same time by the same person; the second clause is the main action.",
+    "simpleExplanation": "Attach ながら to the ます-stem of the background action. The important action comes last: 音楽を聞きながら勉強する = you are studying, with music on.",
     "formation": [
-      "V-ます + ながら + main verb"
+      "V-ます stem + ながら + main clause",
+      "Both actions must have the same subject",
+      "The main (more important) action goes in the second clause"
     ],
     "examples": [
       {
         "ja": "音楽を聞きながら勉強します。",
-        "reading": "おんがくを ききながら べんきょうします。",
+        "reading": "おんがくをききながらべんきょうします。",
         "en": "I study while listening to music."
       },
       {
+        "ja": "歩きながら電話をしないでください。",
+        "reading": "あるきながらでんわをしないでください。",
+        "en": "Please don't use the phone while walking."
+      },
+      {
         "ja": "テレビを見ながらご飯を食べないでください。",
-        "reading": "テレビを みながら ごはんを たべないでください。",
+        "reading": "テレビをみながらごはんをたべないでください。",
         "en": "Please don't eat while watching TV."
       },
       {
         "ja": "父は新聞を読みながらコーヒーを飲んでいます。",
-        "reading": "ちちは しんぶんを よみながら コーヒーを のんでいます。",
+        "reading": "ちちはしんぶんをよみながらコーヒーをのんでいます。",
         "en": "My father is drinking coffee while reading the newspaper."
       }
     ],
@@ -1710,7 +1717,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Everyday speech and writing, whenever one person does two things at once."
   },
   {
     "id": "n5-grammar-43",
@@ -2197,28 +2205,41 @@
     "slug": "55-taritarisuru",
     "level": "n5",
     "order": 55,
-    "title": "たり〜たりする",
+    "title": "〜たり〜たりする",
     "romaji": "taritarisuru",
-    "meaning": "\"do things like ~ and ~\" (a non-exhaustive list of actions).",
-    "simpleExplanation": "\"do things like ~ and ~\" (a non-exhaustive list of actions).",
+    "meaning": "\"do things like ~ and ~\" — a representative, non-exhaustive list of actions; with adjectives, \"sometimes ~, sometimes ~\".",
+    "simpleExplanation": "Take the た-form and add り. You are giving examples, not a complete list, so the order does not matter. する at the end carries the tense.",
     "formation": [
-      "V-た + り、V-た + り + します"
+      "V-た + り、V-た + り + する／します",
+      "い-adj: 〜かったり (暑かったり)",
+      "な-adj・N: 〜だったり (静かだったり)",
+      "A single 〜たりする is also possible, often in a soft prohibition"
     ],
     "examples": [
       {
         "ja": "週末は本を読んだり、音楽を聞いたりします。",
-        "reading": "しゅうまつは ほんを よんだり、おんがくを きいたり します。",
-        "en": "At weekends I do things like reading books and listening to music."
+        "reading": "しゅうまつはほんをよんだり、おんがくをきいたりします。",
+        "en": "On weekends I do things like read books and listen to music."
       },
       {
         "ja": "昨日は掃除をしたり、洗濯をしたりしました。",
-        "reading": "きのうは そうじを したり、せんたくを したり しました。",
-        "en": "Yesterday I did cleaning, laundry and so on."
+        "reading": "きのうはそうじをしたり、せんたくをしたりしました。",
+        "en": "Yesterday I did things like cleaning and laundry."
       },
       {
         "ja": "パーティーで歌ったり、踊ったりしました。",
-        "reading": "パーティーで うたったり、おどったり しました。",
-        "en": "At the party we sang, danced and so on."
+        "reading": "パーティーでうたったり、おどったりしました。",
+        "en": "At the party we sang and danced and so on."
+      },
+      {
+        "ja": "教室で走ったりしないでください。",
+        "reading": "きょうしつではしったりしないでください。",
+        "en": "Please don't do things like running in the classroom."
+      },
+      {
+        "ja": "最近は暑かったり寒かったりします。",
+        "reading": "さいきんはあつかったりさむかったりします。",
+        "en": "Lately it's hot one day and cold the next."
       }
     ],
     "similarGrammar": [],
@@ -2230,7 +2251,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Describing what you do on a day off, listing activities, or describing states that alternate."
   },
   {
     "id": "n5-grammar-56",
@@ -2392,28 +2414,34 @@
     "slug": "60-yasui-nikui",
     "level": "n5",
     "order": 60,
-    "title": "やすい ／ にくい",
+    "title": "〜やすい ／ 〜にくい",
     "romaji": "yasui-nikui",
-    "meaning": "\"easy to ~\" / \"hard to ~\".",
-    "simpleExplanation": "\"easy to ~\" / \"hard to ~\".",
+    "meaning": "\"easy to ~\" / \"hard to ~\"; also \"tends to ~\" / \"does not readily ~\".",
+    "simpleExplanation": "Add やすい or にくい to the ます-stem. The result behaves like an い-adjective, so it conjugates: 読みやすかった, 書きにくくない.",
     "formation": [
-      "V-ます + やすい　／　V-ます + にくい"
+      "V-ます stem + やすい ／ V-ます stem + にくい",
+      "Conjugates as an い-adjective (やすかった, やすくない, やすくて)"
     ],
     "examples": [
       {
         "ja": "この本は字が大きくて読みやすいです。",
-        "reading": "この ほんは じが おおきくて よみやすいです。",
-        "en": "This book has big print and is easy to read."
+        "reading": "このほんはじがおおきくてよみやすいです。",
+        "en": "This book is easy to read because the print is large."
+      },
+      {
+        "ja": "先生の説明は分かりやすいです。",
+        "reading": "せんせいのせつめいはわかりやすいです。",
+        "en": "The teacher's explanations are easy to understand."
       },
       {
         "ja": "このペンは書きにくいです。",
-        "reading": "この ペンは かきにくいです。",
+        "reading": "このペンはかきにくいです。",
         "en": "This pen is hard to write with."
       },
       {
-        "ja": "先生の説明は分かりやすかったです。",
-        "reading": "せんせいの せつめいは わかりやすかったです。",
-        "en": "The teacher's explanation was easy to understand."
+        "ja": "冬は風邪をひきやすいです。",
+        "reading": "ふゆはかぜをひきやすいです。",
+        "en": "You catch colds easily in winter."
       }
     ],
     "similarGrammar": [],
@@ -2425,7 +2453,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Describing how easy or hard something is to use, read, eat, or how easily something happens."
   },
   {
     "id": "n5-grammar-61",
@@ -2892,7 +2921,7 @@
     "slug": "73-shikanai",
     "level": "n5",
     "order": 73,
-    "title": "しか〜ない",
+    "title": "〜しか〜ない (only)",
     "romaji": "shikanai",
     "meaning": "\"only ~ (and nothing more)\" — emphasises that the amount is small or insufficient.",
     "simpleExplanation": "\"only ~ (and nothing more)\" — emphasises that the amount is small or insufficient.",

@@ -966,28 +966,35 @@
     "slug": "25-tearu-has-been-done",
     "level": "n4",
     "order": 25,
-    "title": "〜てある \"has been done (and remains so)\"",
+    "title": "〜てある",
     "romaji": "tearu-has-been-done",
-    "meaning": "A resulting state from someone's deliberate action; the agent is not mentioned.",
-    "simpleExplanation": "A resulting state from someone's deliberate action; the agent is not mentioned.",
+    "meaning": "\"has been done (and the state remains)\" — a resulting state from someone's deliberate action; the agent is not mentioned.",
+    "simpleExplanation": "Only transitive verbs. Somebody did it on purpose, and the result is still there now. The object takes が (or は), not を.",
     "formation": [
-      "Transitive V-て + ある. Object takes が (or は)."
+      "Transitive V-て + ある",
+      "Object marked with が or は",
+      "Past: 〜てあった"
     ],
     "examples": [
       {
+        "ja": "ドアに名前が書いてある。",
+        "reading": "ドアになまえがかいてある。",
+        "en": "There's a name written on the door."
+      },
+      {
         "ja": "壁に絵がかけてあります。",
-        "reading": "かべに えが かけてあります。",
+        "reading": "かべにえがかけてあります。",
         "en": "A picture has been hung on the wall."
       },
       {
-        "ja": "ドアに名前が書いてある。",
-        "reading": "ドアに なまえが かいてある。",
-        "en": "A name is written on the door."
+        "ja": "晩ご飯はもう作ってあります。",
+        "reading": "ばんごはんはもうつくってあります。",
+        "en": "Dinner has already been made."
       },
       {
-        "ja": "晩ご飯はもう作ってあります。",
-        "reading": "ばんごはんは もう つくってあります。",
-        "en": "Dinner has already been made."
+        "ja": "ホテルはもう予約してあります。",
+        "reading": "ホテルはもうよやくしてあります。",
+        "en": "The hotel has already been booked."
       }
     ],
     "similarGrammar": [],
@@ -999,7 +1006,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Describing preparations already made, or things arranged and left in place."
   },
   {
     "id": "n4-grammar-26",
@@ -1074,46 +1082,6 @@
     "commonMistakes": [],
     "usageNotes": [
       "Dictionary form = \"sometimes\"; た-form = \"have experienced\" (#26). Often co-occurs with 時々 / たまに. Not for frequent events (×毎日〜ことがある)."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
-    "id": "n4-grammar-28",
-    "slug": "28-nagara-while-doing",
-    "level": "n4",
-    "order": 28,
-    "title": "〜ながら \"while doing\"",
-    "romaji": "nagara-while-doing",
-    "meaning": "Two actions by the same subject at the same time; the main action is the second clause.",
-    "simpleExplanation": "Two actions by the same subject at the same time; the main action is the second clause.",
-    "formation": [
-      "V-ます + ながら + main clause"
-    ],
-    "examples": [
-      {
-        "ja": "音楽を聞きながら勉強します。",
-        "reading": "おんがくを ききながら べんきょうします。",
-        "en": "I study while listening to music."
-      },
-      {
-        "ja": "歩きながら電話をしないでください。",
-        "reading": "あるきながら でんわを しないでください。",
-        "en": "Please don't talk on the phone while walking."
-      },
-      {
-        "ja": "彼はテレビを見ながらご飯を食べた。",
-        "reading": "かれは テレビを みながら ごはんを たべた。",
-        "en": "He ate while watching TV."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "Both actions must have the same subject. The secondary action goes with ながら, the main one at the end. Not used for states (×高いながら)."
     ],
     "jlptTips": [],
     "practiceQuestionIds": [],
@@ -2981,28 +2949,40 @@
     "slug": "75-tehoshii-i-want-to-do",
     "level": "n4",
     "order": 75,
-    "title": "〜てほしい \"I want (someone) to do\"",
+    "title": "〜てほしい",
     "romaji": "tehoshii-i-want-to-do",
-    "meaning": "The speaker wants another person to do something.",
-    "simpleExplanation": "The speaker wants another person to do something.",
+    "meaning": "\"I want (someone) to ~\" — the speaker wants another person to do something.",
+    "simpleExplanation": "The person you want to act is marked with に. For the opposite, use 〜ないでほしい (\"I want you not to ~\"). ほしい conjugates like an い-adjective.",
     "formation": [
-      "Person に + V-て + ほしい ／ V-ない + でほしい (want someone not to). ほしい conjugates as an い-adj (ほしかった, ほしくない)."
+      "(Person に) + V-て + ほしい",
+      "Negative: V-ない + でほしい",
+      "Conjugates as an い-adj (ほしかった, ほしくない)"
     ],
     "examples": [
       {
         "ja": "友達に手伝ってほしいです。",
-        "reading": "ともだちに てつだって ほしいです。",
+        "reading": "ともだちにてつだってほしいです。",
         "en": "I want my friend to help me."
       },
       {
         "ja": "私の話を聞いてほしい。",
-        "reading": "わたしの はなしを きいて ほしい。",
+        "reading": "わたしのはなしをきいてほしい。",
         "en": "I want you to listen to me."
       },
       {
+        "ja": "母に早く元気になってほしい。",
+        "reading": "ははにはやくげんきになってほしい。",
+        "en": "I want my mother to get well soon."
+      },
+      {
+        "ja": "この話は誰にも言わないでほしい。",
+        "reading": "このはなしはだれにもいわないでほしい。",
+        "en": "I don't want you to tell anyone about this."
+      },
+      {
         "ja": "電話しないでほしかった。",
-        "reading": "でんわしないで ほしかった。",
-        "en": "I wished you hadn't called."
+        "reading": "でんわしないでほしかった。",
+        "en": "I wish you hadn't called."
       }
     ],
     "similarGrammar": [],
@@ -3014,7 +2994,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Expressing wishes about other people's actions; softer than a direct request."
   },
   {
     "id": "n4-grammar-76",
@@ -3337,46 +3318,6 @@
     "enriched": false
   },
   {
-    "id": "n4-grammar-84",
-    "slug": "84-yasui-easy-to",
-    "level": "n4",
-    "order": 84,
-    "title": "〜やすい \"easy to\"",
-    "romaji": "yasui-easy-to",
-    "meaning": "Something is easy to do, or tends to happen easily.",
-    "simpleExplanation": "Something is easy to do, or tends to happen easily.",
-    "formation": [
-      "V-ます + やすい. Conjugates as an い-adj (やすかった, やすくない, やすくて)."
-    ],
-    "examples": [
-      {
-        "ja": "この本は字が大きくて読みやすい。",
-        "reading": "この ほんは じが おおきくて よみやすい。",
-        "en": "This book has big print and is easy to read."
-      },
-      {
-        "ja": "先生の説明は分かりやすいです。",
-        "reading": "せんせいの せつめいは わかりやすいです。",
-        "en": "The teacher's explanations are easy to understand."
-      },
-      {
-        "ja": "冬は風邪をひきやすい。",
-        "reading": "ふゆは かぜを ひきやすい。",
-        "en": "In winter you catch colds easily."
-      }
-    ],
-    "similarGrammar": [],
-    "commonMistakes": [],
-    "usageNotes": [
-      "やすい here is written in kana and is unrelated to 安い (cheap). The object usually takes が or は when the phrase is predicative (この字は読みやすい)."
-    ],
-    "jlptTips": [],
-    "practiceQuestionIds": [],
-    "jlptQuestionIds": [],
-    "reviewAfterDays": 3,
-    "enriched": false
-  },
-  {
     "id": "n4-grammar-85",
     "slug": "85-nikui-hard-to-difficult-to",
     "level": "n4",
@@ -3423,26 +3364,39 @@
     "order": 86,
     "title": "〜って (casual quotation / topic)",
     "romaji": "tte",
-    "meaning": "Casual equivalent of と (quotation), という (called), and は (topic). Also sentence-final hearsay (\"they say\").",
-    "simpleExplanation": "Casual equivalent of と (quotation), という (called), and は (topic). Also sentence-final hearsay (\"they say\").",
+    "meaning": "Casual particle covering と (quotation), という (called), は (topic/definition), and sentence-final hearsay (\"they say\").",
+    "simpleExplanation": "って is the spoken shortcut. Mid-sentence it replaces と or という; at the head it replaces は as a topic; at the very end it means you heard it from somewhere.",
     "formation": [
-      "Plain sentence + って + 言う／思う ／ N + って + (いう) N ／ N + って (topic) ／ sentence + って (hearsay, final)"
+      "Plain sentence + って + 言う／思う (quotation)",
+      "N + って + (いう) + N (called ~)",
+      "N + って (topic / definition = 〜というのは)",
+      "Sentence + って (sentence-final hearsay)"
     ],
     "examples": [
       {
-        "ja": "田中さんは明日来るって言ってたよ。",
-        "reading": "たなかさんは あした くるって いってたよ。",
-        "en": "Tanaka said he's coming tomorrow."
+        "ja": "漢字って難しいね。",
+        "reading": "かんじってむずかしいね。",
+        "en": "Kanji are hard, aren't they."
       },
       {
         "ja": "「さくら」って店、知ってる？",
-        "reading": "「さくら」って みせ、しってる？",
+        "reading": "「さくら」ってみせ、しってる？",
         "en": "Do you know a shop called \"Sakura\"?"
       },
       {
-        "ja": "漢字って難しいね。",
-        "reading": "かんじって むずかしいね。",
-        "en": "Kanji are hard, aren't they?"
+        "ja": "田中さんは明日来るって言ってたよ。",
+        "reading": "たなかさんはあしたくるっていってたよ。",
+        "en": "Tanaka said he's coming tomorrow."
+      },
+      {
+        "ja": "「侘び寂び」って、どういう意味？",
+        "reading": "「わびさび」って、どういういみ？",
+        "en": "What does \"wabi-sabi\" mean?"
+      },
+      {
+        "ja": "彼女、結婚したんだって。",
+        "reading": "かのじょ、けっこんしたんだって。",
+        "en": "Apparently she got married."
       }
     ],
     "similarGrammar": [],
@@ -3454,7 +3408,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual conversation only — avoid it in writing or polite speech."
   },
   {
     "id": "n4-grammar-87",
@@ -3463,26 +3418,39 @@
     "order": 87,
     "title": "〜ちゃう / 〜じゃう (contraction of 〜てしまう)",
     "romaji": "chau-jau",
-    "meaning": "Spoken form of 〜てしまう (#22): completion or regret.",
-    "simpleExplanation": "Spoken form of 〜てしまう (#22): completion or regret.",
+    "meaning": "Spoken form of 〜てしまう: \"end up ~ing\" (regret) or \"do ~ completely\".",
+    "simpleExplanation": "て becomes ちゃう and で becomes じゃう. It then conjugates like an ordinary Group 1 verb: ちゃった, ちゃいます, ちゃおう.",
     "formation": [
-      "V-て with て → ちゃう (食べちゃう, 忘れちゃう, しちゃう); with で → じゃう (飲んじゃう, 読んじゃう, 死んじゃう). Conjugates as Group 1 (ちゃった, ちゃいます, ちゃおう). 〜ておく → 〜とく; 〜ている → 〜てる; 〜なくては → 〜なくちゃ; 〜なければ → 〜なきゃ."
+      "V-て → ちゃう (食べちゃう, 忘れちゃう, しちゃう)",
+      "V-で → じゃう (飲んじゃう, 読んじゃう)",
+      "Past: 〜ちゃった / 〜じゃった",
+      "Related contractions: 〜ておく → 〜とく; 〜ている → 〜てる; 〜なくては → 〜なくちゃ; 〜なければ → 〜なきゃ"
     ],
     "examples": [
       {
         "ja": "宿題、忘れちゃった。",
         "reading": "しゅくだい、わすれちゃった。",
-        "en": "I forgot my homework."
+        "en": "Oops, I forgot my homework."
+      },
+      {
+        "ja": "ケーキ、全部食べちゃったの？",
+        "reading": "ケーキ、ぜんぶたべちゃったの？",
+        "en": "Did you eat the whole cake?"
       },
       {
         "ja": "全部飲んじゃったの？",
-        "reading": "ぜんぶ のんじゃったの？",
-        "en": "Did you drink it all?"
+        "reading": "ぜんぶのんじゃったの？",
+        "en": "You drank it all?"
+      },
+      {
+        "ja": "財布をなくしちゃったんだ。",
+        "reading": "さいふをなくしちゃったんだ。",
+        "en": "I've gone and lost my wallet."
       },
       {
         "ja": "早くしないと遅れちゃうよ。",
-        "reading": "はやく しないと おくれちゃうよ。",
-        "en": "If you don't hurry, you'll be late."
+        "reading": "はやくしないとおくれちゃうよ。",
+        "en": "Hurry up or we'll end up late."
       }
     ],
     "similarGrammar": [],
@@ -3494,7 +3462,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Casual spoken Japanese, especially when admitting a mistake."
   },
   {
     "id": "n4-grammar-88",
@@ -4051,28 +4020,30 @@
     "slug": "102-sasetekudasai-please-let-me",
     "level": "n4",
     "order": 102,
-    "title": "〜させてください \"please let me\"",
+    "title": "〜させてください",
     "romaji": "sasetekudasai-please-let-me",
-    "meaning": "Asking permission to do something, framed as \"make/let me do it\".",
-    "simpleExplanation": "Asking permission to do something, framed as \"make/let me do it\".",
+    "meaning": "\"Please let me ~\", \"please allow me to ~\" — asking permission, framed as \"make me do it\".",
+    "simpleExplanation": "Make the causative て-form, then add ください. Politer versions: 〜させてくださいませんか, 〜させていただけませんか.",
     "formation": [
-      "V-causative て-form + ください ／ くださいませんか ／ もらえませんか ／ いただけませんか (#73)"
+      "V-causative て-form + ください",
+      "Group 1: -aせて / Group 2: -させて / する → させて / 来る → 来させて",
+      "Politer: 〜させてくださいませんか ／ 〜させていただけませんか"
     ],
     "examples": [
       {
-        "ja": "今日は早く帰らせてください。",
-        "reading": "きょうは はやく かえらせてください。",
-        "en": "Please let me go home early today."
+        "ja": "少し考えさせてください。",
+        "reading": "すこしかんがえさせてください。",
+        "en": "Please let me think about it a little."
       },
       {
         "ja": "その仕事は私にやらせてください。",
-        "reading": "その しごとは わたしに やらせてください。",
+        "reading": "そのしごとはわたしにやらせてください。",
         "en": "Please let me do that job."
       },
       {
-        "ja": "ちょっと考えさせてください。",
-        "reading": "ちょっと かんがえさせてください。",
-        "en": "Please let me think about it a moment."
+        "ja": "今日は早く帰らせてください。",
+        "reading": "きょうははやくかえらせてください。",
+        "en": "Please let me go home early today."
       }
     ],
     "similarGrammar": [],
@@ -4084,7 +4055,8 @@
     "practiceQuestionIds": [],
     "jlptQuestionIds": [],
     "reviewAfterDays": 3,
-    "enriched": false
+    "enriched": false,
+    "whenUsed": "Politely asking to be allowed to do something, especially at work or school."
   },
   {
     "id": "n4-grammar-103",

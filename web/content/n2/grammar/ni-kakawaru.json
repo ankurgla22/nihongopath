@@ -5,14 +5,13 @@
   "order": 103,
   "title": "〜にかかわる",
   "romaji": "ni kakawaru",
-  "meaning": "related to, affecting, at stake (something important)",
-  "simpleExplanation": "〜にかかわる means \"to affect / to be tied to X\", where X is something weighty such as life, honor, reputation, or the future. It signals that the matter is serious because X is at stake. It also has a plainer meaning, \"to be involved in (a field)\", as in 教育にかかわる仕事.",
-  "whenUsed": "Mostly written or careful spoken Japanese: news, business, warnings (命にかかわる / 信用にかかわる). The \"involved in a field\" sense (医療にかかわる人) is common in job talk and self-introductions. In casual speech people often say 〜に関係する.",
+  "meaning": "\"relates to ~\", \"affects ~\" — where what follows is something vital (life, reputation, honour).",
+  "simpleExplanation": "The noun before it must be something important enough to be at stake. It also has the neutral sense \"be involved in (work on) ~\" as in 教育にかかわる仕事.",
+  "whenUsed": "Formal speech and writing about serious matters.",
   "formation": [
-    "Noun + にかかわる + Noun (命にかかわる問題)",
-    "Noun + にかかわる (as a predicate: 名誉にかかわる)",
-    "Noun + にかかわって / にかかわっている (be involved in)",
-    "Typical nouns: 命・生死・名誉・信用・将来・評判・安全"
+    "N + にかかわる + N",
+    "N + にかかわる (sentence-final)",
+    "Common nouns: 命, 信用, 名誉, 生死"
   ],
   "diagram": {
     "kind": "scale",
@@ -40,39 +39,29 @@
     {
       "ja": "これは命にかかわる問題だ。",
       "reading": "これはいのちにかかわるもんだいだ。",
-      "en": "This is a matter of life and death.",
-      "note": "命 is the strongest noun here; 命にかかわる = life-threatening."
-    },
-    {
-      "ja": "会社の信用にかかわることなので、慎重に対応する。",
-      "reading": "かいしゃのしんようにかかわることなので、しんちょうにたいおうする。",
-      "en": "Since it affects the company's credibility, we'll handle it carefully.",
-      "note": "信用にかかわる shows why the matter must be handled with care."
+      "en": "This is a matter of life and death."
     },
     {
       "ja": "教育にかかわる仕事がしたい。",
       "reading": "きょういくにかかわるしごとがしたい。",
-      "en": "I want a job related to education.",
-      "note": "The milder sense: to be involved in the field of education."
+      "en": "I want a job connected with education."
     },
     {
-      "ja": "これは会社の将来にかかわる重要な決定だ。",
-      "reading": "これはかいしゃのしょうらいにかかわるじゅうようなけっていだ。",
-      "en": "This is an important decision that affects the company's future.",
-      "note": "将来 is a typical stake noun; にかかわる modifies 決定."
+      "ja": "会社の信用にかかわることなので、慎重に対応する。",
+      "reading": "かいしゃのしんようにかかわることなので、しんちょうにたいおうする。",
+      "en": "It affects the company's reputation, so we'll handle it carefully."
     },
     {
-      "ja": "彼は長年、地域の医療にかかわってきた。",
-      "reading": "かれはながねん、ちいきのいりょうにかかわってきた。",
-      "en": "He has been involved in local medical care for many years.",
-      "note": "The verb form にかかわる = to be engaged in; here in the て-form + きた."
+      "ja": "彼は長年、環境問題にかかわる仕事をしてきた。",
+      "reading": "かれはながねん、かんきょうもんだいにかかわるしごとをしてきた。",
+      "en": "He has worked on environmental issues for many years."
     }
   ],
   "similarGrammar": [
     {
       "pattern": "〜に関する / 〜に関して",
       "difference": "Neutral \"about / concerning\"; no sense of seriousness. 教育に関する本 is just a book about education.",
-      "id": "n2-grammar-106"
+      "id": "n3-grammar-25"
     },
     {
       "pattern": "〜にかかわらず",

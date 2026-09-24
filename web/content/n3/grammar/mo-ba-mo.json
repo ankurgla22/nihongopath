@@ -5,14 +5,13 @@
   "order": 111,
   "title": "〜も〜ば〜も / 〜も〜なら〜も",
   "romaji": "mo … ba … mo / mo … nara … mo",
-  "meaning": "both… and… / not only… but… (listing two similar things)",
-  "simpleExplanation": "〜も〜ば〜も lists two things that point the same way: 英語も話せれば、中国語も話せる \"he can speak English, and Chinese too\". Both items are good, or both are bad; you do not mix. The first item takes も + ば-form (or なら for nouns and な-adjectives), the second takes も.",
-  "whenUsed": "Descriptions of people, places and situations in speech and writing. The set 〜もあれば〜もある means \"there are some…, and there are others…\" (いい時もあれば、悪い時もある).",
+  "meaning": "\"both ~ and ~\", \"not only ~ but also ~\" — listing two items of the same kind.",
+  "simpleExplanation": "Two parallel clauses, each marked with も, joined by a ば- or なら-form. The two items must point the same way — both good or both bad.",
+  "whenUsed": "Praising or criticising something on two counts at once.",
   "formation": [
-    "Noun + も + Verb-ば + Noun + も + Verb (話せれば〜も話せる)",
-    "Noun + も + い-adjective -ければ + Noun + も (安ければ〜もいい)",
-    "Noun + も + な-adjective / Noun + なら + Noun + も (親切なら〜も)",
-    "〜もあれば〜もある (some…, others…)"
+    "N + も + V-ば + N + も + V",
+    "N + も + い-adj-ければ + N + も + adj",
+    "N + も + な-adj / N + なら + N + も"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -40,34 +39,24 @@
   },
   "examples": [
     {
-      "ja": "彼は英語も話せれば、中国語も話せる。",
-      "reading": "かれはえいごもはなせれば、ちゅうごくごもはなせる。",
-      "en": "He can speak English, and Chinese too.",
-      "note": "Two abilities, both positive."
-    },
-    {
       "ja": "この店は値段も安ければ、味もいい。",
       "reading": "このみせはねだんもやすければ、あじもいい。",
-      "en": "This place is cheap, and the food is good too.",
-      "note": "Two merits of the same shop."
+      "en": "This place is cheap and the food is good too."
+    },
+    {
+      "ja": "彼は英語も話せれば、中国語も話せる。",
+      "reading": "かれはえいごもはなせれば、ちゅうごくごもはなせる。",
+      "en": "He speaks both English and Chinese."
+    },
+    {
+      "ja": "彼女は歌も上手なら、ダンスも上手だ。",
+      "reading": "かのじょはうたもじょうずなら、ダンスもじょうずだ。",
+      "en": "She's good at singing and at dancing too."
     },
     {
       "ja": "人生にはいい時もあれば、悪い時もある。",
       "reading": "じんせいにはいいときもあれば、わるいときもある。",
-      "en": "In life there are good times and there are bad times.",
-      "note": "〜もあれば〜もある: some good times, some bad."
-    },
-    {
-      "ja": "彼は頭もよければ、性格もいい。",
-      "reading": "かれはあたまもよければ、せいかくもいい。",
-      "en": "He is smart, and he has a good personality too.",
-      "note": "い-adjective: よい → よければ."
-    },
-    {
-      "ja": "この仕事は給料も安ければ、休みも少ない。",
-      "reading": "このしごとはきゅうりょうもやすければ、やすみもすくない。",
-      "en": "This job pays little, and there are few days off as well.",
-      "note": "Both items negative: the pattern also works for complaints."
+      "en": "In life there are good times and bad times alike."
     }
   ],
   "similarGrammar": [

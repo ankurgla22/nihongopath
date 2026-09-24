@@ -5,11 +5,13 @@
   "order": 63,
   "title": "〜だけましだ",
   "romaji": "dake mashi da",
-  "meaning": "at least ... (it could be worse)",
-  "simpleExplanation": "〜だけましだ means \"at least…, it could be worse\". It finds a small consolation in a bad situation: the pay is low, but at least I have a job; I broke a bone, but at least I survived.",
-  "whenUsed": "話し言葉寄り, also in informal writing. It follows plain forms (Aな + な). The first clause states the bad situation, usually with が / けど, and the second names the one thing that makes it bearable. まし itself means \"better than the alternative\" rather than \"good\".",
+  "meaning": "\"at least ~\", \"it could have been worse\" — the situation is bad, but one good point saves it.",
+  "simpleExplanation": "まし means \"less bad\", not \"good\". You admit the situation is poor, then name the one thing that keeps it bearable.",
+  "whenUsed": "Consoling yourself or someone else about a bad but not disastrous situation.",
   "formation": [
-    "V普通形 + だけましだ / Aい + だけましだ / Aな + な + だけましだ"
+    "V-plain + だけましだ",
+    "い-adj + だけましだ",
+    "な-adj + な + だけましだ; N + な + だけましだ"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -34,32 +36,22 @@
     {
       "ja": "給料は安いが、仕事があるだけましだ。",
       "reading": "きゅうりょうはやすいが、しごとがあるだけましだ。",
-      "en": "The pay is low, but at least I have a job.",
-      "note": "Bad situation + が + saving grace + だけましだ."
+      "en": "The pay is low, but at least I have a job."
     },
     {
-      "ja": "骨折したが、命が助かっただけましだ。",
-      "reading": "こっせつしたが、いのちがたすかっただけましだ。",
-      "en": "I broke a bone, but at least I survived.",
-      "note": "A serious case: at least survived."
+      "ja": "家は狭いが、駅に近いだけましだ。",
+      "reading": "いえはせまいが、えきにちかいだけましだ。",
+      "en": "The house is small, but at least it's near the station."
     },
     {
       "ja": "遅れたけど、来てくれただけましだよ。",
       "reading": "おくれたけど、きてくれただけましだよ。",
-      "en": "You were late, but at least you came.",
-      "note": "Casual speech with よ."
+      "en": "He was late, but at least he came."
     },
     {
-      "ja": "点数は低かったが、合格できただけましだと思おう。",
-      "reading": "てんすうはひくかったが、ごうかくできただけましだとおもおう。",
-      "en": "The score was low, but let's be glad I at least passed.",
-      "note": "Self-consolation."
-    },
-    {
-      "ja": "雨は降っているが、風がないだけましだ。",
-      "reading": "あめはふっているが、かぜがないだけましだ。",
-      "en": "It's raining, but at least there's no wind.",
-      "note": "Vない + だけましだ."
+      "ja": "骨折したが、命が助かっただけましだ。",
+      "reading": "こっせつしたが、いのちがたすかっただけましだ。",
+      "en": "I broke a bone, but at least I survived."
     }
   ],
   "similarGrammar": [

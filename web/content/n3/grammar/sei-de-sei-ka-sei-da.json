@@ -5,14 +5,13 @@
   "order": 17,
   "title": "〜せいで / 〜せいか / 〜せいだ",
   "romaji": "sei de sei ka sei da",
-  "meaning": "Because of… (bad result) / it's …'s fault",
-  "simpleExplanation": "〜せいで names the cause of a bad result and puts the blame on it: 寝坊したせいで、電車に乗り遅れた = because I overslept, I missed the train. 〜せいだ ends a sentence: 失敗したのは私のせいだ = the failure is my fault. 〜せいか adds uncertainty: 年のせいか = maybe because of my age.",
-  "whenUsed": "Complaints, apologies, explaining misfortune. Casual and formal alike. Use おかげで for good results and ために for neutral, formal causes.",
+  "meaning": "\"because of ~ (with a bad result)\", \"it's ~'s fault\"; 〜せいか = \"perhaps because of ~\".",
+  "simpleExplanation": "せい always blames. Use おかげで for a good result instead. せいか softens it to a guess, and せいだ at the end of a sentence points the finger.",
+  "whenUsed": "Explaining a negative outcome and who or what caused it.",
   "formation": [
-    "Verb / い-adjective (plain form) + せいで / せいか / せいだ",
-    "な-adjective + な + せいで",
-    "Noun + の + せいで",
-    "〜せいにする = to blame it on…"
+    "Plain form + せいで",
+    "い-adj + せいで; な-adj + な + せいで; N + の + せいで",
+    "〜せいか (perhaps because); 〜せいだ (sentence-final)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -56,32 +55,22 @@
     {
       "ja": "寝坊したせいで、電車に乗り遅れた。",
       "reading": "ねぼうしたせいで、でんしゃにのりおくれた。",
-      "en": "Because I overslept, I missed the train.",
-      "note": "Past verb + せいで: the cause of missing the train."
+      "en": "Because I overslept, I missed the train."
+    },
+    {
+      "ja": "寝不足のせいで、頭が痛い。",
+      "reading": "ねぶそくのせいで、あたまがいたい。",
+      "en": "My head hurts from lack of sleep."
     },
     {
       "ja": "年のせいか、最近疲れやすい。",
       "reading": "としのせいか、さいきんつかれやすい。",
-      "en": "Maybe because of my age, I get tired easily these days.",
-      "note": "Noun + のせいか: an uncertain cause."
+      "en": "Maybe it's my age, but I tire easily lately."
     },
     {
       "ja": "失敗したのは私のせいだ。",
       "reading": "しっぱいしたのはわたしのせいだ。",
-      "en": "The failure is my fault.",
-      "note": "〜のは〜のせいだ: sentence-final blame."
-    },
-    {
-      "ja": "台風のせいで、楽しみにしていた旅行が中止になった。",
-      "reading": "たいふうのせいで、たのしみにしていたりょこうがちゅうしになった。",
-      "en": "Because of the typhoon, the trip I was looking forward to was canceled.",
-      "note": "Noun + のせいで, with the disappointment clearly stated."
-    },
-    {
-      "ja": "自分の失敗を人のせいにするな。",
-      "reading": "じぶんのしっぱいをひとのせいにするな。",
-      "en": "Don't blame your own mistakes on other people.",
-      "note": "〜のせいにする = to blame on."
+      "en": "It's my fault that it failed."
     }
   ],
   "similarGrammar": [

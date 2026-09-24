@@ -5,14 +5,12 @@
   "order": 45,
   "title": "〜からといって",
   "romaji": "kara to itte",
-  "meaning": "Just because… (doesn't mean…)",
-  "simpleExplanation": "〜からといって says a reason is not enough to justify a conclusion: 日本人だからといって、誰でも敬語が使えるわけではない = just because someone is Japanese doesn't mean everyone can use keigo. The second half is negative or critical: とは限らない, わけではない, 〜てはいけない.",
-  "whenUsed": "Arguments, warnings, essays. Casual: 〜からって. Sentence-initial だからといって = \"but that doesn't mean…\".",
+  "meaning": "\"just because ~ doesn't mean ~\" — rejects a hasty conclusion.",
+  "simpleExplanation": "The second clause is always negative: 〜とは限らない, 〜わけではない, 〜てはいけない. You accept the first fact but deny what people assume follows from it.",
+  "whenUsed": "Correcting a stereotype or an over-generalisation.",
   "formation": [
-    "Plain form + からといって + negative (とは限らない / わけではない / 〜ない)",
-    "Noun / な-adjective + だ + からといって",
-    "Casual: 〜からって",
-    "Sentence-initial: だからといって"
+    "Plain form + からといって",
+    "Second clause: 〜とは限らない / 〜わけではない / 〜てはいけない / plain negative"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -40,34 +38,24 @@
   },
   "examples": [
     {
-      "ja": "日本人だからといって、誰でも敬語が使えるわけではない。",
-      "reading": "にほんじんだからといって、だれでもけいごがつかえるわけではない。",
-      "en": "Just because someone is Japanese doesn't mean everyone can use keigo.",
-      "note": "Noun + だからといって + わけではない."
-    },
-    {
       "ja": "安いからといって、たくさん買うのはよくない。",
       "reading": "やすいからといって、たくさんかうのはよくない。",
-      "en": "Just because it's cheap, buying lots isn't good.",
-      "note": "い-adjective + からといって + a criticism."
+      "en": "Just because it's cheap doesn't mean you should buy a lot."
     },
     {
       "ja": "疲れたからといって、練習を休んではいけない。",
       "reading": "つかれたからといって、れんしゅうをやすんではいけない。",
-      "en": "You mustn't skip practice just because you're tired.",
-      "note": "Past verb + からといって + a prohibition."
+      "en": "You can't skip practice just because you're tired."
     },
     {
-      "ja": "有名だからといって、その人の言うことが全部正しいとは限らない。",
-      "reading": "ゆうめいだからといって、そのひとのいうことがぜんぶただしいとはかぎらない。",
-      "en": "Just because someone is famous doesn't mean everything they say is right.",
-      "note": "な-adjective + だからといって + とは限らない."
+      "ja": "日本人だからといって、誰でも敬語が使えるわけではない。",
+      "reading": "にほんじんだからといって、だれでもけいごがつかえるわけではない。",
+      "en": "Just because someone is Japanese doesn't mean they can all use keigo."
     },
     {
-      "ja": "「頭が痛いんだ。」「だからといって、会議をサボっていいわけじゃないよ。」",
-      "reading": "「あたまがいたいんだ。」「だからといって、かいぎをサボっていいわけじゃないよ。」",
-      "en": "\"I have a headache.\" \"That doesn't mean you can skip the meeting.\"",
-      "note": "Sentence-initial だからといって in dialogue."
+      "ja": "日本に住んでいるからといって、日本語が上手だとは限らない。",
+      "reading": "にほんにすんでいるからといって、にほんごがじょうずだとはかぎらない。",
+      "en": "Living in Japan doesn't necessarily mean your Japanese is good."
     }
   ],
   "similarGrammar": [

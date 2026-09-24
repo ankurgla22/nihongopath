@@ -3,16 +3,15 @@
   "slug": "te-aru",
   "level": "n4",
   "order": 25,
-  "title": "〜てある \"has been done (and remains so)\"",
+  "title": "〜てある",
   "romaji": "te aru",
-  "meaning": "A resulting state from someone's deliberate action; the agent is not mentioned.",
-  "simpleExplanation": "〜てある describes a state that exists because someone did something on purpose: ドアに名前が書いてある = a name is written on the door (someone wrote it and it is still there). It uses a transitive verb (a verb that takes an object) in the て-form + ある, and the thing takes が instead of を. Who did it is not important; what matters is the result you can see now, and the feeling that it was done deliberately.",
-  "whenUsed": "Describing what you see in a room or on a page (壁に絵がかけてある), confirming that preparation is complete (晩ご飯は作ってあります, ホテルは予約してあります), and giving reassurance (もう連絡してあるから大丈夫).",
+  "meaning": "\"has been done (and the state remains)\" — a resulting state from someone's deliberate action; the agent is not mentioned.",
+  "simpleExplanation": "Only transitive verbs. Somebody did it on purpose, and the result is still there now. The object takes が (or は), not を.",
+  "whenUsed": "Describing preparations already made, or things arranged and left in place.",
   "formation": [
-    "Transitive V-て + ある: 書いてある, 開けてある, 作ってある",
-    "The object takes が (or は as topic): 名前が書いてある, 晩ご飯は作ってある",
-    "Negative: 〜てない / 〜てありません",
-    "Past: 〜てあった (a state that existed then)"
+    "Transitive V-て + ある",
+    "Object marked with が or は",
+    "Past: 〜てあった"
   ],
   "diagram": {
     "kind": "comparison",
@@ -55,34 +54,24 @@
   },
   "examples": [
     {
-      "ja": "壁に絵がかけてあります。",
-      "reading": "かべに えが かけてあります。",
-      "en": "A picture has been hung on the wall.",
-      "note": "Transitive かける + てある: someone hung the picture; it is still there."
+      "ja": "ドアに名前が書いてある。",
+      "reading": "ドアになまえがかいてある。",
+      "en": "There's a name written on the door."
     },
     {
-      "ja": "ドアに名前が書いてある。",
-      "reading": "ドアに なまえが かいてある。",
-      "en": "A name is written on the door.",
-      "note": "書いてある: the standard way to say 'it says / is written'."
+      "ja": "壁に絵がかけてあります。",
+      "reading": "かべにえがかけてあります。",
+      "en": "A picture has been hung on the wall."
     },
     {
       "ja": "晩ご飯はもう作ってあります。",
-      "reading": "ばんごはんは もう つくってあります。",
-      "en": "Dinner has already been made.",
-      "note": "Preparation is complete: the dinner has already been made."
+      "reading": "ばんごはんはもうつくってあります。",
+      "en": "Dinner has already been made."
     },
     {
-      "ja": "会議室にはもう椅子が並べてあります。",
-      "reading": "かいぎしつには もう いすが ならべてあります。",
-      "en": "The chairs have already been set out in the meeting room.",
-      "note": "Transitive 並べる + てある: the room is ready because someone arranged it."
-    },
-    {
-      "ja": "冷蔵庫にケーキが入れてあるから、食べていいよ。",
-      "reading": "れいぞうこに ケーキが いれてあるから、たべて いいよ。",
-      "en": "There's cake in the fridge (I put it there), so you can have some.",
-      "note": "入れてある: the speaker deliberately put it there for someone."
+      "ja": "ホテルはもう予約してあります。",
+      "reading": "ホテルはもうよやくしてあります。",
+      "en": "The hotel has already been booked."
     }
   ],
   "similarGrammar": [

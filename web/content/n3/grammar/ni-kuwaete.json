@@ -5,13 +5,13 @@
   "order": 32,
   "title": "〜に加えて / 〜に加え",
   "romaji": "ni kuwaete",
-  "meaning": "In addition to… / on top of…",
-  "simpleExplanation": "〜に加えて adds a second item to a first: 雨に加えて、風も強くなってきた = in addition to the rain, the wind has picked up. The main clause almost always contains も. It is a neutral \"plus\", often for things of the same kind (skills, costs, weather).",
-  "whenUsed": "Formal to neutral speech and writing: reports, job descriptions, news. Written: 〜に加え.",
+  "meaning": "\"in addition to ~\", \"on top of ~\".",
+  "simpleExplanation": "Adds a second item of the same kind to the first. The second clause usually carries も. に加え is the more written form.",
+  "whenUsed": "Listing accumulating factors, costs or conditions, usually in formal speech or writing.",
   "formation": [
-    "Noun + に加えて / に加え",
-    "Clause (plain) + の + に加えて",
-    "Main clause usually has も"
+    "N + に加えて / に加え",
+    "Plain form + の + に加えて",
+    "The second clause commonly takes も"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -45,32 +45,22 @@
     {
       "ja": "雨に加えて、風も強くなってきた。",
       "reading": "あめにくわえて、かぜもつよくなってきた。",
-      "en": "In addition to the rain, the wind has also picked up.",
-      "note": "Two weather elements added together."
+      "en": "On top of the rain, the wind has picked up too."
     },
     {
       "ja": "英語に加えて、中国語も勉強している。",
       "reading": "えいごにくわえて、ちゅうごくごもべんきょうしている。",
-      "en": "In addition to English, I am also studying Chinese.",
-      "note": "Two languages: same-category items."
+      "en": "In addition to English, I'm studying Chinese."
     },
     {
       "ja": "学費に加え、生活費も必要だ。",
       "reading": "がくひにくわえ、せいかつひもひつようだ。",
-      "en": "On top of tuition, living expenses are also necessary.",
-      "note": "Written に加え with costs."
+      "en": "On top of tuition, you also need living expenses."
     },
     {
-      "ja": "この仕事には、専門知識に加えて、高いコミュニケーション能力も求められる。",
-      "reading": "このしごとには、せんもんちしきにくわえて、たかいコミュニケーションのうりょくももとめられる。",
-      "en": "This job requires, in addition to specialist knowledge, strong communication skills.",
-      "note": "Typical of job advertisements."
-    },
-    {
-      "ja": "最近は物価が上がっているのに加えて、給料も上がらないので生活が苦しい。",
-      "reading": "さいきんはぶっかがあがっているのにくわえて、きゅうりょうもあがらないのでせいかつがくるしい。",
-      "en": "On top of prices rising lately, salaries aren't going up either, so life is hard.",
-      "note": "Clause + のに加えて."
+      "ja": "強風に加えて、大雨も降り出した。",
+      "reading": "きょうふうにくわえて、おおあめもふりだした。",
+      "en": "In addition to the strong wind, heavy rain began to fall."
     }
   ],
   "similarGrammar": [

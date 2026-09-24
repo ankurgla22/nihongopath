@@ -5,15 +5,14 @@
   "order": 48,
   "title": "〜ほど",
   "romaji": "hodo",
-  "meaning": "To the extent of… / so… that… / nothing as… as…",
-  "simpleExplanation": "〜ほど measures degree: 死ぬほど疲れた = so tired I could die. It also gives approximate quantities in formal style (三日ほど) and forms the superlative 〜ほど〜はない: 母の料理ほどおいしいものはない = nothing is as delicious as my mother's cooking. Unlike くらい, ほど cannot mean \"at least / something as small as\".",
-  "whenUsed": "Speech and writing; the quantity use is formal (三日ほどお待ちください). The superlative is common in praise.",
+  "meaning": "(1) \"to the extent of ~\", \"so ~ that ~\"; (2) approximate quantity (more formal than くらい); (3) 〜ほど〜はない = \"nothing is as ~ as ~\".",
+  "simpleExplanation": "ほど measures degree by comparison. In the negative, Aは Bほど〜ない means A is less ~ than B, and 〜ほど〜はない makes a superlative.",
+  "whenUsed": "Sense (2) is a little more formal/written than くらい; sense (3) is a common way to say \"the best\".",
   "formation": [
-    "Verb (dictionary / ない) + ほど",
-    "い-adjective + ほど",
-    "な-adjective + な + ほど",
-    "Noun + ほど",
-    "Noun + ほど + 〜はない / いない (superlative)"
+    "V-dict / V-ない + ほど",
+    "い-adj + ほど; な-adj + な + ほど",
+    "N / quantity + ほど",
+    "N + ほど + N + はない (superlative)"
   ],
   "diagram": {
     "kind": "comparison",
@@ -55,34 +54,29 @@
   },
   "examples": [
     {
-      "ja": "死ぬほど疲れた。",
-      "reading": "しぬほどつかれた。",
-      "en": "I'm dead tired.",
-      "note": "Extreme degree: 死ぬほど."
+      "ja": "一週間ほど休みを取りたい。",
+      "reading": "いっしゅうかんほどやすみをとりたい。",
+      "en": "I'd like to take about a week off."
+    },
+    {
+      "ja": "今日は死ぬほど疲れた。",
+      "reading": "きょうはしぬほどつかれた。",
+      "en": "I'm dead tired today."
+    },
+    {
+      "ja": "涙が出るほど嬉しかった。",
+      "reading": "なみだがでるほどうれしかった。",
+      "en": "I was so happy I could have cried."
     },
     {
       "ja": "今日は昨日ほど寒くない。",
       "reading": "きょうはきのうほどさむくない。",
-      "en": "Today is not as cold as yesterday.",
-      "note": "Comparison of inferiority: not as cold as yesterday."
+      "en": "Today isn't as cold as yesterday."
     },
     {
       "ja": "母の料理ほどおいしいものはない。",
       "reading": "ははのりょうりほどおいしいものはない。",
-      "en": "Nothing is as delicious as my mother's cooking.",
-      "note": "Superlative: nothing as delicious as."
-    },
-    {
-      "ja": "彼女は、数えきれないほどたくさんの本を持っている。",
-      "reading": "かのじょは、かぞえきれないほどたくさんのほんをもっている。",
-      "en": "She has so many books that you couldn't count them.",
-      "note": "V-ない + ほど: degree beyond ability."
-    },
-    {
-      "ja": "お手数ですが、三日ほどお待ちいただけますか。",
-      "reading": "おてすうですが、みっかほどおまちいただけますか。",
-      "en": "Sorry for the trouble, but could you wait about three days?",
-      "note": "Formal approximate quantity."
+      "en": "Nothing tastes as good as my mother's cooking."
     }
   ],
   "similarGrammar": [

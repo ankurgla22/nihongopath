@@ -3,17 +3,15 @@
   "slug": "te-hoshii",
   "level": "n4",
   "order": 75,
-  "title": "〜てほしい \"I want (someone) to do\"",
+  "title": "〜てほしい",
   "romaji": "te hoshii",
-  "meaning": "The speaker wants another person to do something.",
-  "simpleExplanation": "〜てほしい says that you want someone else to do something: 手伝ってほしい = \"I want (you) to help\". Compare 〜たい, which is your wish to do something yourself. The person you want to act takes に: 友達に手伝ってほしい. To say you want someone NOT to do something, use 〜ないでほしい: 電話しないでほしい. ほしい conjugates like an い-adjective, so past is ほしかった and negative is ほしくない.",
-  "whenUsed": "Expressing wishes and requests to family, friends and colleagues, and in complaints about what other people did (〜ないでほしかった = I wish you hadn't). Very common in casual conversation. To a superior, use the humble version 〜ていただきたいのですが, or a request form like 〜ていただけませんか.",
+  "meaning": "\"I want (someone) to ~\" — the speaker wants another person to do something.",
+  "simpleExplanation": "The person you want to act is marked with に. For the opposite, use 〜ないでほしい (\"I want you not to ~\"). ほしい conjugates like an い-adjective.",
+  "whenUsed": "Expressing wishes about other people's actions; softer than a direct request.",
   "formation": [
-    "Person に + V-て + ほしい: 友達に手伝ってほしい",
-    "Negative wish: V-ない + でほしい: 来ないでほしい",
-    "Past: 〜てほしかった (I wished you had); negative: 〜てほしくない",
-    "Polite/humble: 〜ていただきたい (んですが)",
-    "With ものだ / なあ for sighing wishes: 早く春になってほしいなあ"
+    "(Person に) + V-て + ほしい",
+    "Negative: V-ない + でほしい",
+    "Conjugates as an い-adj (ほしかった, ほしくない)"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -43,33 +41,28 @@
   "examples": [
     {
       "ja": "友達に手伝ってほしいです。",
-      "reading": "ともだちに てつだって ほしいです。",
-      "en": "I want my friend to help me.",
-      "note": "友達に marks the person who should act; 手伝って + ほしい."
+      "reading": "ともだちにてつだってほしいです。",
+      "en": "I want my friend to help me."
     },
     {
       "ja": "私の話を聞いてほしい。",
-      "reading": "わたしの はなしを きいて ほしい。",
-      "en": "I want you to listen to me.",
-      "note": "The listener is the implied doer; に is often dropped when it is \"you\"."
+      "reading": "わたしのはなしをきいてほしい。",
+      "en": "I want you to listen to me."
+    },
+    {
+      "ja": "母に早く元気になってほしい。",
+      "reading": "ははにはやくげんきになってほしい。",
+      "en": "I want my mother to get well soon."
+    },
+    {
+      "ja": "この話は誰にも言わないでほしい。",
+      "reading": "このはなしはだれにもいわないでほしい。",
+      "en": "I don't want you to tell anyone about this."
     },
     {
       "ja": "電話しないでほしかった。",
-      "reading": "でんわしないで ほしかった。",
-      "en": "I wished you hadn't called.",
-      "note": "Negative + past: ないでほしかった = \"I wish you hadn't\"."
-    },
-    {
-      "ja": "子供には、いろいろな国の人と友達になってほしい。",
-      "reading": "こどもには、いろいろな くにの ひとと ともだちに なってほしい。",
-      "en": "I want my children to make friends with people from many countries.",
-      "note": "A parent's wish for someone else: 子供に + なってほしい."
-    },
-    {
-      "ja": "大事な話だから、最後まで聞いてほしいんだ。",
-      "reading": "だいじな はなしだから、さいごまで きいてほしいんだ。",
-      "en": "It's important, so I want you to listen to the end.",
-      "note": "〜てほしいんだ makes a heartfelt request to the listener."
+      "reading": "でんわしないでほしかった。",
+      "en": "I wish you hadn't called."
     }
   ],
   "similarGrammar": [

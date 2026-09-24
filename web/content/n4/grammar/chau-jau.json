@@ -5,15 +5,14 @@
   "order": 87,
   "title": "〜ちゃう / 〜じゃう (contraction of 〜てしまう)",
   "romaji": "chau / jau (te shimau)",
-  "meaning": "Spoken form of 〜てしまう (#22): completion or regret.",
-  "simpleExplanation": "〜ちゃう is the spoken shortcut for 〜てしまう: 忘れてしまった → 忘れちゃった (I forgot, oops). When the て-form ends in で, it becomes じゃう: 飲んでしまった → 飲んじゃった. The meaning is the same as てしまう: finishing something completely, or regret about something that happened. ちゃう conjugates like a Group 1 verb: ちゃった, ちゃいます, ちゃおう, ちゃって. Several other contractions belong to the same family: 〜ておく → 〜とく, 〜ている → 〜てる, 〜なければ → 〜なきゃ, 〜なくては → 〜なくちゃ.",
-  "whenUsed": "Casual conversation among friends, family and classmates, and in anime, dramas and text messages. It is not used in essays or polite business speech, where you say 〜てしまいました. You must recognise it in the listening section even if you rarely say it.",
+  "meaning": "Spoken form of 〜てしまう: \"end up ~ing\" (regret) or \"do ~ completely\".",
+  "simpleExplanation": "て becomes ちゃう and で becomes じゃう. It then conjugates like an ordinary Group 1 verb: ちゃった, ちゃいます, ちゃおう.",
+  "whenUsed": "Casual spoken Japanese, especially when admitting a mistake.",
   "formation": [
-    "て-form ending in て: て → ちゃう: 食べちゃう, 忘れちゃう, しちゃう, 行っちゃう",
-    "て-form ending in で: で → じゃう: 飲んじゃう, 読んじゃう, 死んじゃう, 遊んじゃう",
-    "Conjugates as Group 1: ちゃった / ちゃいます / ちゃおう / ちゃって",
-    "Related contractions: ておく → とく, ている → てる, なければ → なきゃ, なくては → なくちゃ",
-    "Polite equivalent: 〜てしまいました"
+    "V-て → ちゃう (食べちゃう, 忘れちゃう, しちゃう)",
+    "V-で → じゃう (飲んじゃう, 読んじゃう)",
+    "Past: 〜ちゃった / 〜じゃった",
+    "Related contractions: 〜ておく → 〜とく; 〜ている → 〜てる; 〜なくては → 〜なくちゃ; 〜なければ → 〜なきゃ"
   ],
   "diagram": {
     "kind": "transformation",
@@ -44,32 +43,27 @@
     {
       "ja": "宿題、忘れちゃった。",
       "reading": "しゅくだい、わすれちゃった。",
-      "en": "I forgot my homework.",
-      "note": "忘れてしまった → 忘れちゃった: regret."
+      "en": "Oops, I forgot my homework."
+    },
+    {
+      "ja": "ケーキ、全部食べちゃったの？",
+      "reading": "ケーキ、ぜんぶたべちゃったの？",
+      "en": "Did you eat the whole cake?"
     },
     {
       "ja": "全部飲んじゃったの？",
-      "reading": "ぜんぶ のんじゃったの？",
-      "en": "Did you drink it all?",
-      "note": "飲んでしまった → 飲んじゃった: で becomes じゃ."
+      "reading": "ぜんぶのんじゃったの？",
+      "en": "You drank it all?"
+    },
+    {
+      "ja": "財布をなくしちゃったんだ。",
+      "reading": "さいふをなくしちゃったんだ。",
+      "en": "I've gone and lost my wallet."
     },
     {
       "ja": "早くしないと遅れちゃうよ。",
-      "reading": "はやく しないと おくれちゃうよ。",
-      "en": "If you don't hurry, you'll be late.",
-      "note": "遅れてしまう → 遅れちゃう: a warning about an unwanted result."
-    },
-    {
-      "ja": "ケーキ、全部食べちゃった。ごめん。",
-      "reading": "ケーキ、ぜんぶ たべちゃった。ごめん。",
-      "en": "I ate all the cake. Sorry.",
-      "note": "Completion plus a small apology; the classic ちゃった."
-    },
-    {
-      "ja": "明日までにレポート、書かなくちゃ。",
-      "reading": "あしたまでに レポート、かかなくちゃ。",
-      "en": "I've got to write the report by tomorrow.",
-      "note": "〜なくては(いけない) → 〜なくちゃ, a related contraction."
+      "reading": "はやくしないとおくれちゃうよ。",
+      "en": "Hurry up or we'll end up late."
     }
   ],
   "similarGrammar": [

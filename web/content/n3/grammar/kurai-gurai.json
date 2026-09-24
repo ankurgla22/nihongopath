@@ -5,14 +5,13 @@
   "order": 47,
   "title": "〜くらい / 〜ぐらい",
   "romaji": "kurai gurai",
-  "meaning": "To the extent that… / at least… / about…",
-  "simpleExplanation": "〜くらい has three common jobs. (1) Degree: so X that Y: 一歩も歩けないくらい疲れた = so tired I can't take a step. (2) Minimal: at least / something as small as: 自分の部屋くらい自分で掃除しなさい. (3) Approximate amount: 十分くらい = about ten minutes. くらい and ぐらい are interchangeable.",
-  "whenUsed": "Everyday speech and writing. The degree use often ends a sentence: 〜くらいだ. The superlative 〜くらい〜はない = \"nothing is as… as\".",
+  "meaning": "(1) \"to the extent that ~\", \"so ~ that ~\"; (2) \"at least ~\", \"something as trivial as ~\"; (3) an approximate amount.",
+  "simpleExplanation": "Sense (1) measures degree by giving a vivid comparison. Sense (2) belittles something to say it's the least you could do. Sense (3) is simple approximation, like 十分くらい.",
+  "whenUsed": "Sense (2) often carries a scolding tone, so use it carefully.",
   "formation": [
-    "Plain form + くらい / ぐらい (degree)",
-    "Noun + くらい (at least / as small as; approximate)",
-    "な-adjective + な + くらい",
-    "〜くらい〜はない (nothing as … as)"
+    "Plain form + くらい / ぐらい",
+    "い-adj + くらい; な-adj + な + くらい",
+    "N / quantity + くらい"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,29 @@
   },
   "examples": [
     {
-      "ja": "疲れて、一歩も歩けないくらいだ。",
-      "reading": "つかれて、いっぽもあるけないくらいだ。",
-      "en": "I'm so tired I can't walk another step.",
-      "note": "Degree at sentence end: 〜くらいだ."
+      "ja": "駅まで歩いて十分くらいかかる。",
+      "reading": "えきまであるいてじゅっぷんくらいかかる。",
+      "en": "It takes about ten minutes to walk to the station."
     },
     {
       "ja": "自分の部屋くらい、自分で掃除しなさい。",
       "reading": "じぶんのへやくらい、じぶんでそうじしなさい。",
-      "en": "At least clean your own room yourself.",
-      "note": "Minimal: something as small as your own room."
+      "en": "At the very least, clean your own room yourself."
     },
     {
-      "ja": "駅まで歩いて十分くらいかかる。",
-      "reading": "えきまであるいてじゅっぷんくらいかかる。",
-      "en": "It takes about ten minutes to walk to the station.",
-      "note": "Approximate quantity."
+      "ja": "泣きたいくらい嬉しかった。",
+      "reading": "なきたいくらいうれしかった。",
+      "en": "I was so happy I could have cried."
     },
     {
-      "ja": "彼の話は、聞いていて眠くなるくらい退屈だった。",
-      "reading": "かれのはなしは、きいていてねむくなるくらいたいくつだった。",
-      "en": "His talk was so boring that it made me sleepy listening to it.",
-      "note": "Degree: くらい before the adjective."
+      "ja": "疲れて、一歩も歩けないくらいだ。",
+      "reading": "つかれて、いっぽもあるけないくらいだ。",
+      "en": "I'm so tired I can't walk another step."
     },
     {
-      "ja": "今日くらい、ゆっくり休んでもいいでしょう。",
-      "reading": "きょうくらい、ゆっくりやすんでもいいでしょう。",
-      "en": "At least today, it should be fine to take it easy.",
-      "note": "Minimal: today of all days."
+      "ja": "立っていられないくらい疲れた。",
+      "reading": "たっていられないくらいつかれた。",
+      "en": "I got so tired I could barely stay on my feet."
     }
   ],
   "similarGrammar": [

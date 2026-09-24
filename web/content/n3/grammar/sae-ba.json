@@ -5,16 +5,15 @@
   "order": 51,
   "title": "〜さえ〜ば",
   "romaji": "sae ba",
-  "meaning": "If only… / as long as…",
-  "simpleExplanation": "〜さえ〜ば names one condition that is enough by itself: お金さえあれば、何でも買える = as long as you have money, you can buy anything. Nothing else matters. さえ marks the one thing; ば makes it a condition.",
-  "whenUsed": "Speech and writing, wishes and reassurances. Also negative: 〜さえ〜なければ (as long as X doesn't happen). Verb forms: V-ます stem + さえすれば, V-て + さえいれば.",
+  "meaning": "\"if only ~\", \"as long as ~\" — one condition is all that is needed.",
+  "simpleExplanation": "さえ isolates the one thing that matters, and the ば-clause makes it the condition. Everything else is irrelevant.",
+  "whenUsed": "Saying that a single thing would be enough, often with a touch of regret (〜のに).",
   "formation": [
-    "Noun + さえ + Verb (ば form)",
-    "Verb (ます stem) + さえすれば",
-    "Verb (て form) + さえいれば",
-    "い-adjective (く) + さえあれば",
-    "な-adjective / Noun + でさえあれば",
-    "Negative: 〜さえ〜なければ"
+    "N + さえ + V-ば",
+    "V-ます stem + さえ + すれば",
+    "V-て + さえ + いれば",
+    "い-adj stem + く + さえ + あれば",
+    "な-adj / N + で + さえ + あれば"
   ],
   "diagram": {
     "kind": "conjugation-tree",
@@ -52,32 +51,27 @@
     {
       "ja": "お金さえあれば、何でも買える。",
       "reading": "おかねさえあれば、なんでもかえる。",
-      "en": "As long as you have money, you can buy anything.",
-      "note": "Noun + さえあれば: money is the one condition."
+      "en": "As long as you have money, you can buy anything."
     },
     {
-      "ja": "薬を飲みさえすれば、治ります。",
-      "reading": "くすりをのみさえすれば、なおります。",
-      "en": "If you just take the medicine, you'll recover.",
-      "note": "V-ます stem + さえすれば: taking the medicine is enough."
+      "ja": "時間さえあれば、もっと勉強できるのに。",
+      "reading": "じかんさえあれば、もっとべんきょうできるのに。",
+      "en": "If only I had time, I could study more."
+    },
+    {
+      "ja": "この薬を飲みさえすれば、治ります。",
+      "reading": "このくすりをのみさえすれば、なおります。",
+      "en": "You'll get better just by taking this medicine."
+    },
+    {
+      "ja": "天気さえよければ、山に登りたい。",
+      "reading": "てんきさえよければ、やまにのぼりたい。",
+      "en": "As long as the weather is good, I want to climb the mountain."
     },
     {
       "ja": "静かでさえあれば、どんな部屋でもいい。",
       "reading": "しずかでさえあれば、どんなへやでもいい。",
-      "en": "As long as it's quiet, any room is fine.",
-      "note": "な-adjective + でさえあれば: quiet is the only requirement."
-    },
-    {
-      "ja": "君がそばにいてさえくれれば、ほかには何もいらない。",
-      "reading": "きみがそばにいてさえくれれば、ほかにはなにもいらない。",
-      "en": "As long as you're by my side, I don't need anything else.",
-      "note": "V-て + さえ + くれれば."
-    },
-    {
-      "ja": "あの事故さえなければ、彼は今も元気に働いていただろう。",
-      "reading": "あのじこさえなければ、かれはいまもげんきにはたらいていただろう。",
-      "en": "If only that accident hadn't happened, he'd still be working happily now.",
-      "note": "Negative: さえなければ = if only… not."
+      "en": "As long as it's quiet, any room will do."
     }
   ],
   "similarGrammar": [

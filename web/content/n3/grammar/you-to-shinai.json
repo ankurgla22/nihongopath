@@ -5,14 +5,13 @@
   "order": 117,
   "title": "〜ようとしない",
   "romaji": "you to shinai",
-  "meaning": "refuse to… / make no attempt to… (someone's unwillingness)",
-  "simpleExplanation": "Volitional form + としない means someone will not even try: 息子は勉強しようとしない \"my son won't try to study\". It describes the will of another person or an animal, seen from outside. The positive 〜ようとする means \"try to\" or \"be about to\".",
-  "whenUsed": "Complaints about others' stubbornness, descriptions of behaviour in narratives. Not used about oneself (you know your own reasons). Past: 〜ようとしなかった.",
+  "meaning": "\"refuse to ~\", \"make no attempt to ~\" — someone else's stubborn unwillingness.",
+  "simpleExplanation": "Volitional form + としない. Because it describes an attitude observed from outside, it is used about other people (or animals), not about yourself.",
+  "whenUsed": "Expressing frustration at someone who will not budge.",
   "formation": [
-    "Verb volitional form + としない (refuse to)",
-    "Past: 〜ようとしなかった",
-    "Positive: 〜ようとする (try to / be about to)",
-    "Subject: third person, animal, or thing personified"
+    "V-volitional + としない",
+    "Past: 〜としなかった",
+    "Third-person subject"
   ],
   "diagram": {
     "kind": "comparison",
@@ -47,34 +46,24 @@
   },
   "examples": [
     {
+      "ja": "犬は動こうとしない。",
+      "reading": "いぬはうごこうとしない。",
+      "en": "The dog won't move."
+    },
+    {
       "ja": "息子は何度言っても、勉強しようとしない。",
       "reading": "むすこはなんどいっても、べんきょうしようとしない。",
-      "en": "No matter how many times I tell him, my son won't try to study.",
-      "note": "Refusal despite repeated telling."
+      "en": "No matter how often I tell him, my son won't study."
     },
     {
       "ja": "彼女は私の話を聞こうとしなかった。",
       "reading": "かのじょはわたしのはなしをきこうとしなかった。",
-      "en": "She wouldn't listen to what I had to say.",
-      "note": "Past: しなかった."
-    },
-    {
-      "ja": "犬は動こうとしない。",
-      "reading": "いぬはうごこうとしない。",
-      "en": "The dog won't budge.",
-      "note": "An animal's unwillingness."
+      "en": "She refused to listen to me."
     },
     {
       "ja": "彼は自分の間違いを認めようとしない。",
       "reading": "かれはじぶんのまちがいをみとめようとしない。",
-      "en": "He refuses to admit his mistake.",
-      "note": "Group 2 volitional 認めよう + としない."
-    },
-    {
-      "ja": "電車を降りようとしたとき、忘れ物に気づいた。",
-      "reading": "でんしゃをおりようとしたとき、わすれものにきづいた。",
-      "en": "Just as I was about to get off the train, I noticed I had forgotten something.",
-      "note": "Positive ようとする = 'be about to'."
+      "en": "He won't admit his own mistake."
     }
   ],
   "similarGrammar": [

@@ -5,13 +5,12 @@
   "order": 21,
   "title": "〜によると / 〜によれば",
   "romaji": "ni yoru to ni yoreba",
-  "meaning": "According to…",
-  "simpleExplanation": "〜によると / 〜によれば names where your information comes from: 天気予報によると、明日は晴れるそうだ = according to the forecast, it will be sunny tomorrow. Because you are passing on someone else's information, the sentence must end with a hearsay form such as そうだ, らしい, ということだ, or とのことだ.",
-  "whenUsed": "Reporting news, forecasts, rumors, survey results. によれば is slightly more formal. Casual: 〜の話では / 〜では.",
+  "meaning": "\"according to ~\" — marks the source of information.",
+  "simpleExplanation": "The sentence must end in a hearsay form: 〜そうだ, 〜ということだ or 〜らしい. Leaving the ending off is a common exam trap.",
+  "whenUsed": "Reporting news, forecasts, rumours or what someone told you.",
   "formation": [
-    "Noun + によると / によれば + … + そうだ / らしい / ということだ",
-    "Casual: Noun + の話では / Noun + では",
-    "The end of the sentence must be a hearsay form"
+    "N + によると / によれば",
+    "... + そうだ / ということだ / らしい at the end of the sentence"
   ],
   "diagram": {
     "kind": "sentence-structure",
@@ -41,32 +40,22 @@
     {
       "ja": "天気予報によると、明日は晴れるそうだ。",
       "reading": "てんきよほうによると、あしたははれるそうだ。",
-      "en": "According to the weather forecast, it will be sunny tomorrow.",
-      "note": "Source + によると + そうだ: the standard frame."
+      "en": "According to the forecast, it will be sunny tomorrow."
     },
     {
       "ja": "新聞によれば、来年税金が上がるらしい。",
       "reading": "しんぶんによれば、らいねんぜいきんがあがるらしい。",
-      "en": "According to the newspaper, taxes will rise next year.",
-      "note": "によれば + らしい: a slightly more formal source (newspaper)."
+      "en": "According to the paper, taxes will apparently go up next year."
     },
     {
       "ja": "友達の話によると、あの店はおいしいということだ。",
       "reading": "ともだちのはなしによると、あのみせはおいしいということだ。",
-      "en": "According to my friend, that restaurant is good.",
-      "note": "〜の話によると + ということだ: a person as the source."
+      "en": "According to my friend, that restaurant is good."
     },
     {
-      "ja": "アンケートの結果によると、若者の半数以上が新聞を読まないそうだ。",
-      "reading": "アンケートのけっかによると、わかもののはんすういじょうがしんぶんをよまないそうだ。",
-      "en": "According to the survey results, more than half of young people don't read newspapers.",
-      "note": "Survey data is a typical source in essays."
-    },
-    {
-      "ja": "田中さんの話では、あの店は来月閉店するらしいよ。",
-      "reading": "たなかさんのはなしでは、あのみせはらいげつへいてんするらしいよ。",
-      "en": "From what Tanaka says, that shop is apparently closing next month.",
-      "note": "〜の話では is the casual version of によると."
+      "ja": "彼の話によると、店は来月閉まるらしい。",
+      "reading": "かれのはなしによると、みせはらいげつしまるらしい。",
+      "en": "From what he says, the shop closes next month."
     }
   ],
   "similarGrammar": [
