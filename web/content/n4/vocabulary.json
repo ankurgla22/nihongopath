@@ -13872,8 +13872,8 @@
     "slug": "579-kanemochi-okanemochi",
     "level": "n4",
     "order": 579,
-    "word": "お・金持ち",
-    "reading": "かねもち / おかねもち",
+    "word": "お金持ち",
+    "reading": "おかねもち",
     "pos": "n",
     "meaning": "rich man",
     "theme": "JLPT list",
@@ -15216,7 +15216,7 @@
     "slug": "635-chekku-suru",
     "level": "n4",
     "order": 635,
-    "word": "チェック・する",
+    "word": "チェックする",
     "reading": "チェックする",
     "pos": "n",
     "meaning": "to check",
@@ -15408,8 +15408,8 @@
     "slug": "643-konpy-ta-konpy-t",
     "level": "n4",
     "order": 643,
-    "word": "コンピュータ / コンピューター",
-    "reading": "コンピュータ / コンピューター",
+    "word": "コンピュータ",
+    "reading": "コンピュータ",
     "pos": "n",
     "meaning": "computer",
     "theme": "JLPT list",
@@ -15420,12 +15420,15 @@
       }
     ],
     "collocations": [],
-    "related": [],
+    "related": [
+      "コンピューター"
+    ],
     "synonyms": [],
     "antonyms": [],
     "difficulty": 2,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "listedAs": "コンピュータ / コンピューター"
   },
   {
     "id": "n4-vocab-644",
@@ -15768,8 +15771,8 @@
     "slug": "659-yahari-yappari",
     "level": "n4",
     "order": 658,
-    "word": "やはり / やっぱり",
-    "reading": "やはり / やっぱり",
+    "word": "やはり",
+    "reading": "やはり",
     "pos": "n",
     "meaning": "as I thought, absolutely",
     "theme": "JLPT list",
@@ -15780,12 +15783,15 @@
       }
     ],
     "collocations": [],
-    "related": [],
+    "related": [
+      "やっぱり"
+    ],
     "synonyms": [],
     "antonyms": [],
     "difficulty": 2,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "listedAs": "やはり / やっぱり"
   },
   {
     "id": "n4-vocab-660",
@@ -16488,7 +16494,7 @@
     "slug": "690-bikkuri-suru",
     "level": "n4",
     "order": 688,
-    "word": "びっくり・する",
+    "word": "びっくりする",
     "reading": "びっくりする",
     "pos": "n",
     "meaning": "to be surprised",
@@ -16896,8 +16902,8 @@
     "slug": "707-keredo-keredomo",
     "level": "n4",
     "order": 705,
-    "word": "けれど / けれども",
-    "reading": "けれど / けれども",
+    "word": "けれど",
+    "reading": "けれど",
     "pos": "n",
     "meaning": "however",
     "theme": "JLPT list",
@@ -16908,19 +16914,22 @@
       }
     ],
     "collocations": [],
-    "related": [],
+    "related": [
+      "けれども"
+    ],
     "synonyms": [],
     "antonyms": [],
     "difficulty": 2,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "listedAs": "けれど / けれども"
   },
   {
     "id": "n4-vocab-708",
     "slug": "708-katai",
     "level": "n4",
     "order": 706,
-    "word": "堅 / 硬/固い",
+    "word": "固い",
     "reading": "かたい",
     "pos": "n",
     "meaning": "hard",
@@ -16932,12 +16941,16 @@
       }
     ],
     "collocations": [],
-    "related": [],
+    "related": [
+      "堅い",
+      "硬い"
+    ],
     "synonyms": [],
     "antonyms": [],
     "difficulty": 2,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "listedAs": "堅 / 硬/固い"
   },
   {
     "id": "n4-vocab-709",
@@ -17040,8 +17053,8 @@
     "slug": "713-rep-to-rip-to",
     "level": "n4",
     "order": 711,
-    "word": "レポート / リポート",
-    "reading": "レポート / リポート",
+    "word": "レポート",
+    "reading": "レポート",
     "pos": "n",
     "meaning": "report",
     "theme": "JLPT list",
@@ -17052,12 +17065,15 @@
       }
     ],
     "collocations": [],
-    "related": [],
+    "related": [
+      "リポート"
+    ],
     "synonyms": [],
     "antonyms": [],
     "difficulty": 2,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "listedAs": "レポート / リポート"
   },
   {
     "id": "n4-vocab-714",
@@ -17088,7 +17104,7 @@
     "slug": "715-kega-suru",
     "level": "n4",
     "order": 713,
-    "word": "けが・する",
+    "word": "けがする",
     "reading": "けがする",
     "pos": "n",
     "meaning": "to injure",
@@ -17280,7 +17296,7 @@
     "slug": "723-kenka-suru",
     "level": "n4",
     "order": 721,
-    "word": "けんか・する",
+    "word": "けんかする",
     "reading": "けんかする",
     "pos": "n",
     "meaning": "to quarrel",
@@ -17328,7 +17344,7 @@
     "slug": "725-aisatsu-suru",
     "level": "n4",
     "order": 723,
-    "word": "あいさつ・する",
+    "word": "あいさつする",
     "reading": "あいさつする",
     "pos": "n",
     "meaning": "to greet",

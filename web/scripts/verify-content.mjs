@@ -120,7 +120,11 @@ for (const l of LEVELS) for (const w of rd(path.join(REF, "vocab-" + l + ".json"
 let vLvlOk = 0, vLvlBad = 0, vLvlUnlisted = 0;
 for (const lv of LEVELS) {
   for (const v of content(lv + "/vocabulary.json")) {
-    const want = tanos.get(v.word);
+    // The lists write variant spellings as one row, "いい / よい". Those are split into a single
+    // headword so example sentences can contain it, and `listedAs` records the row they came
+    // from — check against that row, not a same-spelling row the list happens to carry at
+    // another level.
+    const want = tanos.get(v.listedAs ?? v.word) ?? tanos.get(v.word);
     if (!want) vLvlUnlisted++;
     else if (want === lv) vLvlOk++;
     else vLvlBad++;
