@@ -126,6 +126,20 @@ if (cmd === "install" || cmd === "validate") {
     process.exit(0);
   }
   fs.mkdirSync(enrichedDir, { recursive: true });
+  // A word may already be enriched in an older overlay file — usually because it changed level
+  // and its enrichment was carried across, and is now being written fresh for the level it
+  // landed in. Two copies means two entries with the same id, which fails validation. The
+  // incoming batch was written for this level, so the older copy gives way.
+  const incoming = new Set(arr.map((e) => e[key]));
+  for (const f of fs.readdirSync(enrichedDir).filter((f) => /^enriched-\d+\.json$/.test(f))) {
+    const prev = path.join(enrichedDir, f);
+    const had = JSON.parse(fs.readFileSync(prev, "utf8"));
+    const keep = had.filter((e) => !incoming.has(e[key]));
+    if (keep.length === had.length) continue;
+    console.log(`  superseding ${had.length - keep.length} older entr${had.length - keep.length === 1 ? "y" : "ies"} in ${f}`);
+    if (keep.length) fs.writeFileSync(prev, JSON.stringify(keep, null, 2) + "\n", "utf8");
+    else fs.rmSync(prev);
+  }
   const existing = fs.existsSync(enrichedDir) ? fs.readdirSync(enrichedDir).filter((f) => /^enriched-\d+\.json$/.test(f)) : [];
   const next = existing.length ? Math.max(...existing.map((f) => Number(f.match(/\d+/)[0]))) + 1 : 1;
   const out = path.join(enrichedDir, `enriched-${String(next).padStart(2, "0")}.json`);
