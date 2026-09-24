@@ -90,8 +90,14 @@ const report = [];
 function addKanji(lv) {
   const base = rd(cpath(lv, "kanji"));
   const have = new Set(base.map((k) => k.character));
+  // KANJIDIC tags 1,232 kanji as N1, but 247 of those are grade 9 — jinmeiyou, the characters
+  // permitted in personal names and essentially nowhere else. 祐, 槻, 彪, 凜 and the rest are real
+  // kanji a learner may meet on a business card, but they are not on the exam and teaching them
+  // as N1 material would pad the course with 20% noise. Grades 1-8 are the joyo set the JLPT
+  // actually draws from.
   const want = Object.entries(kref)
     .filter(([ch, d]) => d.jlpt_new != null && NUM[d.jlpt_new] === lv && !have.has(ch))
+    .filter(([, d]) => d.grade != null && d.grade <= 8)
     .sort((a, b) => (a[1].freq ?? 9e9) - (b[1].freq ?? 9e9));
   if (!want.length) return report.push(`${lv} kanji: already complete`);
 
