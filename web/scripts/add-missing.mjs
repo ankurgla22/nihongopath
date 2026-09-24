@@ -82,6 +82,36 @@ if (jmFile) {
   }
 }
 
+// ---- what the dictionary knows, used to vet the list and to fill gaps in it ----
+// The published lists are a community reconstruction and carry some damage: rows with no meaning
+// at all, rows that are a list of spellings rather than a word, an editorial "(=やる)" left in a
+// headword, a Greek Ͼ where 対 belongs, a bare ×. Adding those verbatim would put nonsense in
+// front of a learner, so a row has to survive this before it becomes a lesson entry.
+const dictGloss = new Map();
+if (jmFile) {
+  const jm2 = rd(path.join(REF, jmFile));
+  for (const w of jm2.words) {
+    const g = [];
+    for (const s of w.sense ?? []) for (const x of s.gloss ?? []) if (x.lang === "eng") g.push(x.text);
+    if (!g.length) continue;
+    for (const f of [...(w.kanji ?? []).map((k) => k.text), ...(w.kana ?? []).map((k) => k.text)])
+      if (!dictGloss.has(f)) dictGloss.set(f, g.slice(0, 3).join(", "));
+  }
+}
+
+/** Why this row cannot become an entry, or null if it can. */
+function rejectReason(w) {
+  const word = String(w.word ?? "");
+  if (!word.trim()) return "empty word";
+  if (/[\/／、，]|\s{2,}|・/.test(word)) return "a list of spellings, not a word";
+  if (/[(（=]/.test(word)) return "an editorial note left in the word";
+  if (/[Ͱ-ϿЀ-ӿÀ-ɏ]/.test(word)) return "a non-Japanese letter in the word";
+  if (/^[ -~×÷]+$/.test(word)) return "a symbol, not a word";
+  if (!dictGloss.has(word)) return "not in JMdict";
+  if (!String(w.meaning ?? "").trim() && !dictGloss.has(word)) return "no meaning and none in the dictionary";
+  return null;
+}
+
 const tanos = { };
 for (const l of LEVELS) tanos[l] = rd(path.join(REF, `vocab-${l}.json`));
 
@@ -148,8 +178,15 @@ const cleanReading = (r, word) => {
 
 function addVocab(lv) {
   const base = rd(cpath(lv, "vocabulary"));
-  const want = tanos[lv].filter((w) => !taughtAnywhere.has(w.word));
-  if (!want.length) return report.push(`${lv} vocabulary: already complete`);
+  const rejected = new Map();
+  const want = tanos[lv].filter((w) => {
+    if (taughtAnywhere.has(w.word)) return false;
+    const why = rejectReason(w);
+    if (why) { rejected.set(why, (rejected.get(why) ?? 0) + 1); return false; }
+    return true;
+  });
+  for (const [why, n] of rejected) report.push(`${lv} vocabulary: skipped ${n} — ${why}`);
+  if (!want.length) return report.push(`${lv} vocabulary: nothing left to add`);
 
   const merged = [...base];
   let n = base.length;
@@ -165,7 +202,9 @@ function addVocab(lv) {
       // an empty string, which left those entries with no reading at all.
       reading: cleanReading(w.furigana, w.word) || w.word,
       pos: "n",                                  // corrected during enrichment
-      meaning: w.meaning,
+      // 38 rows carry no meaning at all. The word itself is fine, so take the gloss from the
+      // dictionary rather than drop the entry or ship it blank.
+      meaning: String(w.meaning ?? "").trim() || dictGloss.get(w.word) || "",
       theme: "JLPT list",
       examples: [],
       collocations: [],
