@@ -15367,7 +15367,7 @@
     "level": "n1",
     "order": 651,
     "word": "早急",
-    "reading": "さっきゅう",
+    "reading": "そうきゅう",
     "pos": "Adverb/な-adj (formal)",
     "meaning": "urgently; as soon as possible",
     "difficulty": 4,
@@ -40081,7 +40081,7 @@
     "level": "n1",
     "order": 1684,
     "word": "行き渡る",
-    "reading": "ゆきわたる",
+    "reading": "いきわたる",
     "pos": "Verb (godan)",
     "meaning": "to spread throughout, to reach everyone",
     "theme": "Compound verbs",
@@ -55911,9 +55911,9 @@
     "level": "n1",
     "order": 12349,
     "word": "手数",
-    "reading": "てかず",
+    "reading": "てすう",
     "pos": "n",
-    "meaning": "number of moves; trouble",
+    "meaning": "trouble, bother; (as てかず) number of moves",
     "theme": "JLPT list",
     "examples": [
       {
@@ -55959,7 +55959,7 @@
     "level": "n1",
     "order": 12351,
     "word": "伝言",
-    "reading": "つてごと",
+    "reading": "でんごん",
     "pos": "n",
     "meaning": "verbal message; rumor; word",
     "theme": "JLPT list",
@@ -56635,7 +56635,7 @@
     "level": "n1",
     "order": 12380,
     "word": "執着",
-    "reading": "しゅうじゃく",
+    "reading": "しゅうちゃく",
     "pos": "n",
     "meaning": "attachment; adhesion; tenacity",
     "theme": "JLPT list",
@@ -56651,7 +56651,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "The modern standard reading is しゅうちゃく; the older Buddhist-flavoured しゅうじゃく survives in religious contexts."
   },
   {
     "id": "n1-vocab-12381",
@@ -57361,7 +57362,7 @@
     "word": "ヶ月",
     "reading": "かげつ",
     "pos": "n",
-    "meaning": "#NAME?",
+    "meaning": "counter for months",
     "theme": "JLPT list",
     "examples": [
       {
@@ -58846,7 +58847,7 @@
     "level": "n1",
     "order": 12474,
     "word": "連中",
-    "reading": "れんじゅう",
+    "reading": "れんちゅう",
     "pos": "n",
     "meaning": "colleagues; company; a lot",
     "theme": "JLPT list",
@@ -58862,7 +58863,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read れんちゅう in ordinary speech; れんじゅう is an older variant. Note the dismissive nuance — it is not a polite way to refer to people."
   },
   {
     "id": "n1-vocab-12475",
@@ -59436,7 +59438,7 @@
     "level": "n1",
     "order": 12499,
     "word": "共存",
-    "reading": "きょうそん",
+    "reading": "きょうぞん",
     "pos": "n",
     "meaning": "coexistence",
     "theme": "JLPT list",
@@ -59447,7 +59449,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read きょうぞん today (共存共栄); きょうそん is the older reading still listed in dictionaries."
   },
   {
     "id": "n1-vocab-12500",
@@ -59551,7 +59554,7 @@
     "level": "n1",
     "order": 12504,
     "word": "問屋",
-    "reading": "といや",
+    "reading": "とんや",
     "pos": "n",
     "meaning": "wholesale store",
     "theme": "JLPT list",
@@ -59567,7 +59570,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "The standard reading is とんや; といや is the older variant kept in legal wording and Kansai usage."
   },
   {
     "id": "n1-vocab-12505",
@@ -60927,7 +60931,7 @@
     "level": "n1",
     "order": 12563,
     "word": "海路",
-    "reading": "うみじ",
+    "reading": "かいろ",
     "pos": "n",
     "meaning": "sea route",
     "theme": "JLPT list",
@@ -60943,7 +60947,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "海路 (かいろ) pairs with 陸路 (りくろ) and 空路 (くうろ). The poetic reading うみじ appears only in literature."
   },
   {
     "id": "n1-vocab-12564",
@@ -61042,7 +61047,7 @@
     "level": "n1",
     "order": 12568,
     "word": "仲人",
-    "reading": "ちゅうにん",
+    "reading": "なこうど",
     "pos": "n",
     "meaning": "go-between; matchmaker",
     "theme": "JLPT list",
@@ -61053,7 +61058,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "An irregular 熟字訓 reading: 仲人 = なこうど, the go-between at a traditional wedding."
   },
   {
     "id": "n1-vocab-12569",
@@ -62634,9 +62640,9 @@
     "level": "n1",
     "order": 12636,
     "word": "水気",
-    "reading": "すいき",
+    "reading": "みずけ",
     "pos": "n",
-    "meaning": "1.  moisture; dampness; vapor; 2.  dropsy; edema",
+    "meaning": "moisture; dampness; juiciness",
     "theme": "JLPT list",
     "examples": [],
     "collocations": [],
@@ -62645,7 +62651,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read みずけ for moisture (水気を切る = to drain). The reading すいき belongs to the old medical sense \"dropsy\"."
   },
   {
     "id": "n1-vocab-12637",
@@ -64797,7 +64804,7 @@
     "level": "n1",
     "order": 12728,
     "word": "天地",
-    "reading": "あめつち",
+    "reading": "てんち",
     "pos": "n",
     "meaning": "heaven and earth; the universe; nature; top and bottom; realm; sphere; world",
     "theme": "JLPT list",
@@ -64813,7 +64820,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read てんち: heaven and earth, and also \"top and bottom\" when handling printed matter (天地無用). あめつち is the archaic poetic reading."
   },
   {
     "id": "n1-vocab-12729",
@@ -66452,7 +66460,7 @@
     "level": "n1",
     "order": 12798,
     "word": "鈍る",
-    "reading": "なまる",
+    "reading": "にぶる",
     "pos": "n",
     "meaning": "to become less capable; to grow dull; to become blunt; to weaken",
     "theme": "JLPT list",
@@ -66468,7 +66476,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "鈍る = にぶる, to grow dull or weaken (腕が鈍る, 勢いが鈍る). The same kanji read なまる means to speak with an accent — a different word."
   },
   {
     "id": "n1-vocab-12799",
@@ -66548,7 +66557,7 @@
     "level": "n1",
     "order": 12802,
     "word": "卯",
-    "reading": "ぼう",
+    "reading": "う",
     "pos": "n",
     "meaning": "fourth sign of Chinese zodiac (The Hare  5am-7am  east  February)",
     "theme": "JLPT list",
@@ -66564,7 +66573,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "卯 is the rabbit, fourth of the twelve zodiac signs; ぼう is the on-reading used only in compounds such as 卯月."
   },
   {
     "id": "n1-vocab-12803",
@@ -73704,7 +73714,7 @@
     "level": "n1",
     "order": 13106,
     "word": "墓地",
-    "reading": "はかち",
+    "reading": "ぼち",
     "pos": "n",
     "meaning": "cemetery; graveyard",
     "theme": "JLPT list",
@@ -73720,7 +73730,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read ぼち. 墓 alone is はか, but in this compound it takes the on-reading: ぼ + ち."
   },
   {
     "id": "n1-vocab-13107",
@@ -75085,9 +75096,9 @@
     "level": "n1",
     "order": 13165,
     "word": "重宝",
-    "reading": "じゅうほう",
+    "reading": "ちょうほう",
     "pos": "n",
-    "meaning": "priceless treasure; convenience; usefulness",
+    "meaning": "handy; useful; convenient; to find invaluable",
     "theme": "JLPT list",
     "examples": [
       {
@@ -75101,7 +75112,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "重宝 read ちょうほう means handy or useful (重宝する = to find something invaluable). Read じゅうほう it means a priceless treasure."
   },
   {
     "id": "n1-vocab-13166",
@@ -77214,7 +77226,7 @@
     "level": "n1",
     "order": 13256,
     "word": "真心",
-    "reading": "まこころ",
+    "reading": "まごころ",
     "pos": "n",
     "meaning": "sincerity; devotion",
     "theme": "JLPT list",
@@ -77230,7 +77242,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "心 voices to ごころ in this compound: まごころ, a true heart — sincerity. 真心を込める = to put your whole heart into something."
   },
   {
     "id": "n1-vocab-13257",
@@ -78255,7 +78268,7 @@
     "level": "n1",
     "order": 13300,
     "word": "桟橋",
-    "reading": "さんきょう",
+    "reading": "さんばし",
     "pos": "n",
     "meaning": "wharf; bridge; jetty; pier",
     "theme": "JLPT list",
@@ -78266,7 +78279,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "橋 voices to ばし: さんばし, the pier or jetty you walk out on to board a boat."
   },
   {
     "id": "n1-vocab-13301",
@@ -78581,7 +78595,7 @@
     "level": "n1",
     "order": 13314,
     "word": "贋物",
-    "reading": "がんぶつ",
+    "reading": "にせもの",
     "pos": "n",
     "meaning": "imitation; counterfeit; forgery; sham",
     "theme": "JLPT list",
@@ -78597,7 +78611,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "贋物 is read にせもの, the same word usually written 偽物. がんぶつ is a rare literary reading."
   },
   {
     "id": "n1-vocab-13315",
@@ -78701,7 +78716,7 @@
     "level": "n1",
     "order": 13319,
     "word": "昼飯",
-    "reading": "ちゅうはん",
+    "reading": "ひるめし",
     "pos": "n",
     "meaning": "lunch; midday meal",
     "theme": "JLPT list",
@@ -78717,7 +78732,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "昼飯 = ひるめし, the casual plain word for lunch; 昼ご飯 is the neutral version."
   },
   {
     "id": "n1-vocab-13320",
@@ -79329,7 +79345,7 @@
     "level": "n1",
     "order": 13346,
     "word": "地形",
-    "reading": "じぎょう",
+    "reading": "ちけい",
     "pos": "n",
     "meaning": "terrain; geographical features; topography",
     "theme": "JLPT list",
@@ -79345,7 +79361,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "地形 = ちけい, terrain. じぎょう is a construction-trade term for groundwork, not the everyday word."
   },
   {
     "id": "n1-vocab-13347",
@@ -82053,7 +82070,7 @@
     "level": "n1",
     "order": 13462,
     "word": "掌",
-    "reading": "たなごころ",
+    "reading": "てのひら",
     "pos": "n",
     "meaning": "the palm",
     "theme": "JLPT list",
@@ -82069,7 +82086,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "掌 is read てのひら, the palm of the hand; たなごころ is an archaic literary reading."
   },
   {
     "id": "n1-vocab-13463",
@@ -82125,7 +82143,7 @@
     "level": "n1",
     "order": 13465,
     "word": "歪む",
-    "reading": "いがむ",
+    "reading": "ゆがむ",
     "pos": "n",
     "meaning": "to warp; to swerve; to deflect; to be crooked; to be distorted; to be bent; to incline; to slant; to be perv",
     "theme": "JLPT list",
@@ -82141,7 +82159,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "歪む = ゆがむ, to be warped or distorted (顔が歪む, 事実が歪む). いがむ is dialectal."
   },
   {
     "id": "n1-vocab-13466",
@@ -84945,7 +84964,7 @@
     "level": "n1",
     "order": 13585,
     "word": "統治",
-    "reading": "とうじ",
+    "reading": "とうち",
     "pos": "n",
     "meaning": "rule; reign; government; governing",
     "theme": "JLPT list",
@@ -84961,7 +84980,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read とうち for rule or governance (統治者, 統治機構). とうじ is a rarer alternative reading; do not confuse it with 当時 or 湯治."
   },
   {
     "id": "n1-vocab-13586",
@@ -87141,7 +87161,7 @@
     "level": "n1",
     "order": 13679,
     "word": "三味線",
-    "reading": "さみせん",
+    "reading": "しゃみせん",
     "pos": "n",
     "meaning": "three-stringed Japanese guitar; shamisen",
     "theme": "JLPT list",
@@ -87157,7 +87177,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "三味線 is read しゃみせん (熟字訓); さみせん is a traditional performer’s reading."
   },
   {
     "id": "n1-vocab-13680",
@@ -87776,7 +87797,7 @@
     "word": "歳",
     "reading": "さい",
     "pos": "n",
-    "meaning": "#NAME?",
+    "meaning": "counter for years of age; years old",
     "theme": "JLPT list",
     "examples": [
       {
@@ -96547,7 +96568,7 @@
     "level": "n1",
     "order": 14078,
     "word": "施行",
-    "reading": "しぎょう",
+    "reading": "しこう",
     "pos": "n",
     "meaning": "1.  execution; enforcing; carrying out",
     "theme": "JLPT list",
@@ -96563,7 +96584,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "Read しこう for a law taking effect (法律が施行される). しぎょう is an older reading, and せこう is heard in the construction trade."
   },
   {
     "id": "n1-vocab-14079",
@@ -105069,7 +105091,7 @@
     "level": "n1",
     "order": 14441,
     "word": "人目",
-    "reading": "じんもく",
+    "reading": "ひとめ",
     "pos": "n",
     "meaning": "glimpse; public gaze",
     "theme": "JLPT list",
@@ -105085,7 +105107,8 @@
     "antonyms": [],
     "difficulty": 5,
     "kanjiIds": [],
-    "enriched": false
+    "enriched": false,
+    "memoryTip": "人目 = ひとめ, other people’s eyes (人目を引く, 人目につく). じんもく is rare and literary."
   },
   {
     "id": "n1-vocab-14442",
