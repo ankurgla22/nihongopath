@@ -1,0 +1,3321 @@
+[
+  {
+    "id": "n1-kanji-濁",
+    "slug": "802-濁",
+    "level": "n1",
+    "order": 802,
+    "day": 67,
+    "character": "濁",
+    "meanings": [
+      "voiced",
+      "uncleanness",
+      "wrong"
+    ],
+    "onyomi": [
+      "ダク"
+    ],
+    "kunyomi": [
+      "にご(る)",
+      "にご(す)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "濁点",
+        "reading": "だくてん",
+        "meaning": "voiced-sound mark (the two strokes in が, ざ, だ)"
+      },
+      {
+        "word": "濁る",
+        "reading": "にごる",
+        "meaning": "to become muddy; to become cloudy"
+      },
+      {
+        "word": "濁す",
+        "reading": "にごす",
+        "meaning": "to make cloudy; to be evasive (言葉を濁す)"
+      },
+      {
+        "word": "汚濁",
+        "reading": "おだく",
+        "meaning": "pollution (of water or air)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "雨で川の水が濁っている。",
+        "reading": "あめでかわのみずがにごっている。",
+        "en": "The river water is muddy from the rain."
+      },
+      {
+        "ja": "「か」に濁点を付けると「が」になる。",
+        "reading": "「か」にだくてんをつけると「が」になる。",
+        "en": "Adding the voiced mark to 'ka' makes it 'ga'."
+      },
+      {
+        "ja": "彼は言葉を濁して、はっきり答えなかった。",
+        "reading": "かれはことばをにごして、はっきりこたえなかった。",
+        "en": "He was evasive and never gave a clear answer."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "濯",
+        "note": "濯 (洗濯, laundry) also has 氵 but takes 翟 on the right; 濁 has 蜀."
+      }
+    ],
+    "commonMistakes": [
+      "言葉を濁す does not mean to slur your words — it means to be deliberately vague",
+      "Reading 汚濁 as おじょく — the current reading is おだく"
+    ],
+    "memoryAid": "Water 氵 beside 蜀: water with something crawling in it — cloudy and impure. The same kanji marks the muddied, voiced sounds of kana."
+  },
+  {
+    "id": "n1-kanji-肖",
+    "slug": "806-肖",
+    "level": "n1",
+    "order": 806,
+    "day": 68,
+    "character": "肖",
+    "meanings": [
+      "resemblance"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "あやか(る)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "肖像",
+        "reading": "しょうぞう",
+        "meaning": "portrait; likeness"
+      },
+      {
+        "word": "肖像画",
+        "reading": "しょうぞうが",
+        "meaning": "portrait (painting)"
+      },
+      {
+        "word": "肖像権",
+        "reading": "しょうぞうけん",
+        "meaning": "right to one's own image"
+      },
+      {
+        "word": "不肖",
+        "reading": "ふしょう",
+        "meaning": "unworthy; my humble self (formal self-reference)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この美術館には有名な人物の肖像画がある。",
+        "reading": "このびじゅつかんにはゆうめいなじんぶつのしょうぞうががある。",
+        "en": "This museum has portraits of famous figures."
+      },
+      {
+        "ja": "写真を勝手に使うと肖像権の侵害になる。",
+        "reading": "しゃしんをかってにつかうとしょうぞうけんのしんがいになる。",
+        "en": "Using someone's photo without permission infringes their image rights."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "消",
+        "note": "消 (to disappear) is 肖 with water 氵 added on the left."
+      },
+      {
+        "character": "削",
+        "note": "削 (to delete) is 肖 with the knife 刂 on the right."
+      }
+    ],
+    "commonMistakes": [
+      "不肖 is ふしょう, not ふしょく",
+      "肖像 is a likeness of a person; a landscape picture is 風景画, never 肖像画"
+    ],
+    "memoryAid": "Small 小 over flesh 月: a small version of a body — a likeness of someone."
+  },
+  {
+    "id": "n1-kanji-鉢",
+    "slug": "807-鉢",
+    "level": "n1",
+    "order": 807,
+    "day": 68,
+    "character": "鉢",
+    "meanings": [
+      "bowl",
+      "rice tub",
+      "pot"
+    ],
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "植木鉢",
+        "reading": "うえきばち",
+        "meaning": "flowerpot"
+      },
+      {
+        "word": "鉢",
+        "reading": "はち",
+        "meaning": "bowl; pot; basin"
+      },
+      {
+        "word": "鉢巻き",
+        "reading": "はちまき",
+        "meaning": "headband (twisted cloth tied round the head)"
+      },
+      {
+        "word": "火鉢",
+        "reading": "ひばち",
+        "meaning": "brazier (traditional charcoal heater)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "母は植木鉢に花を植えた。",
+        "reading": "はははうえきばちにはなをうえた。",
+        "en": "My mother planted flowers in a flowerpot."
+      },
+      {
+        "ja": "祭りの日、みんな鉢巻きをしていた。",
+        "reading": "まつりのひ、みんなはちまきをしていた。",
+        "en": "On the day of the festival everyone wore a headband."
+      },
+      {
+        "ja": "大きな鉢にサラダを盛った。",
+        "reading": "おおきなはちにサラダをもった。",
+        "en": "I served the salad in a big bowl."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "鈴",
+        "note": "鈴 (bell) also starts with 金, but its right side is 令, not 本."
+      }
+    ],
+    "commonMistakes": [
+      "In compounds 鉢 usually voices: 植木ばち, 火ばち",
+      "鉢 is a deep bowl or pot; the rice bowl you hold is 茶碗"
+    ],
+    "memoryAid": "Metal 金 plus 本: the basic metal vessel — a bowl or pot."
+  },
+  {
+    "id": "n1-kanji-沙",
+    "slug": "812-沙",
+    "level": "n1",
+    "order": 812,
+    "day": 68,
+    "character": "沙",
+    "meanings": [
+      "sand"
+    ],
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "ご無沙汰",
+        "reading": "ごぶさた",
+        "meaning": "not having been in touch for a long time"
+      },
+      {
+        "word": "沙汰",
+        "reading": "さた",
+        "meaning": "word; news; instructions; affair"
+      },
+      {
+        "word": "音沙汰",
+        "reading": "おとさた",
+        "meaning": "news or word from someone"
+      },
+      {
+        "word": "取り沙汰",
+        "reading": "とりざた",
+        "meaning": "rumour; public talk"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ご無沙汰しております。お元気ですか。",
+        "reading": "ごぶさたしております。おげんきですか。",
+        "en": "It has been a long time. How have you been?"
+      },
+      {
+        "ja": "あれから彼女は何の音沙汰もない。",
+        "reading": "あれからかのじょはなんのおとさたもない。",
+        "en": "There has been no word from her since then."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "砂",
+        "note": "砂 (すな, sand) is the everyday writing; 沙 has water 氵 instead of stone 石."
+      }
+    ],
+    "commonMistakes": [
+      "In modern Japanese sand is 砂 — 沙 survives mainly in 沙汰 and in names",
+      "沙汰 voices to ざた after another word: 取り沙汰 とりざた"
+    ],
+    "memoryAid": "Water 氵 beside 少 (few): where the water runs thin, the sand shows through."
+  },
+  {
+    "id": "n1-kanji-胴",
+    "slug": "817-胴",
+    "level": "n1",
+    "order": 817,
+    "day": 69,
+    "character": "胴",
+    "meanings": [
+      "trunk",
+      "torso",
+      "hull (ship)"
+    ],
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "胴体",
+        "reading": "どうたい",
+        "meaning": "torso; body; fuselage (of a plane)"
+      },
+      {
+        "word": "胴上げ",
+        "reading": "どうあげ",
+        "meaning": "tossing someone into the air in celebration"
+      },
+      {
+        "word": "胴回り",
+        "reading": "どうまわり",
+        "meaning": "waist measurement; girth"
+      },
+      {
+        "word": "胴",
+        "reading": "どう",
+        "meaning": "trunk of the body; body of an object (a drum, a ship)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "優勝した監督は選手に胴上げされた。",
+        "reading": "ゆうしょうしたかんとくはせんしゅにどうあげされた。",
+        "en": "The winning manager was tossed in the air by his players."
+      },
+      {
+        "ja": "飛行機の胴体に大きな傷が見つかった。",
+        "reading": "ひこうきのどうたいにおおきなきずがみつかった。",
+        "en": "A large scratch was found on the plane's fuselage."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "銅",
+        "note": "銅 (copper) shares 同 but has metal 金; 胴 has flesh 月."
+      },
+      {
+        "character": "洞",
+        "note": "洞 (cave) has water 氵 with the same 同."
+      }
+    ],
+    "commonMistakes": [
+      "胴体 is the trunk only, not the whole body (that is 体 or 身体)"
+    ],
+    "memoryAid": "Flesh 月 plus 同 (a tube shape): the barrel of flesh between neck and hips — the torso."
+  },
+  {
+    "id": "n1-kanji-迭",
+    "slug": "818-迭",
+    "level": "n1",
+    "order": 818,
+    "day": 69,
+    "character": "迭",
+    "meanings": [
+      "transfer",
+      "alternation"
+    ],
+    "onyomi": [
+      "テツ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "更迭",
+        "reading": "こうてつ",
+        "meaning": "dismissal and replacement (of an official)"
+      },
+      {
+        "word": "更迭する",
+        "reading": "こうてつする",
+        "meaning": "to remove someone from a post and replace them"
+      },
+      {
+        "word": "更迭される",
+        "reading": "こうてつされる",
+        "meaning": "to be removed from one's post"
+      },
+      {
+        "word": "更迭人事",
+        "reading": "こうてつじんじ",
+        "meaning": "a personnel reshuffle removing someone from a post"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "大臣は責任を取って更迭された。",
+        "reading": "だいじんはせきにんをとってこうてつされた。",
+        "en": "The minister was removed from office to take responsibility."
+      },
+      {
+        "ja": "社長は不祥事のあと、担当部長を更迭した。",
+        "reading": "しゃちょうはふしょうじのあと、たんとうぶちょうをこうてつした。",
+        "en": "After the scandal, the president replaced the manager in charge."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "鉄",
+        "note": "鉄 is also read テツ and also built on 失, but it takes metal 金, not the road 辶."
+      }
+    ],
+    "commonMistakes": [
+      "In practice 迭 appears only in 更迭 — learn the compound, not the character alone",
+      "更迭 is a forced removal, not an ordinary transfer (異動 or 転勤)"
+    ],
+    "memoryAid": "The road radical 辶 with 失 (to lose): someone is walked off the job and another steps into the place."
+  },
+  {
+    "id": "n1-kanji-挿",
+    "slug": "819-挿",
+    "level": "n1",
+    "order": 819,
+    "day": 69,
+    "character": "挿",
+    "meanings": [
+      "insert",
+      "put in",
+      "graft"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [
+      "さ(す)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "挿入",
+        "reading": "そうにゅう",
+        "meaning": "insertion"
+      },
+      {
+        "word": "挿絵",
+        "reading": "さしえ",
+        "meaning": "illustration (in a book)"
+      },
+      {
+        "word": "挿す",
+        "reading": "さす",
+        "meaning": "to put in; to stick in (a flower, a comb)"
+      },
+      {
+        "word": "挿し木",
+        "reading": "さしき",
+        "meaning": "planting a cutting"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "花瓶に庭の花を挿した。",
+        "reading": "かびんににわのはなをさした。",
+        "en": "I put flowers from the garden into the vase."
+      },
+      {
+        "ja": "この本には美しい挿絵が入っている。",
+        "reading": "このほんにはうつくしいさしえがはいっている。",
+        "en": "This book has beautiful illustrations."
+      },
+      {
+        "ja": "文章の途中に図を挿入する。",
+        "reading": "ぶんしょうのとちゅうにずをそうにゅうする。",
+        "en": "Insert a diagram in the middle of the text."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "差",
+        "note": "差す is also さす (傘を差す) but means to hold up or extend, not to insert."
+      }
+    ],
+    "commonMistakes": [
+      "挿す (to stick into something) vs 差す (to hold up an umbrella, to pour)",
+      "挿絵 is read さしえ, not そうえ"
+    ],
+    "memoryAid": "The hand radical 扌 pushing something down into a narrow opening — to insert."
+  },
+  {
+    "id": "n1-kanji-嵐",
+    "slug": "820-嵐",
+    "level": "n1",
+    "order": 820,
+    "day": 69,
+    "character": "嵐",
+    "meanings": [
+      "storm",
+      "tempest"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "あらし"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "嵐",
+        "reading": "あらし",
+        "meaning": "storm"
+      },
+      {
+        "word": "砂嵐",
+        "reading": "すなあらし",
+        "meaning": "sandstorm"
+      },
+      {
+        "word": "大嵐",
+        "reading": "おおあらし",
+        "meaning": "violent storm"
+      },
+      {
+        "word": "嵐山",
+        "reading": "あらしやま",
+        "meaning": "Arashiyama (district in Kyoto)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "昨夜の嵐で庭の木が倒れた。",
+        "reading": "さくやのあらしでにわのきがたおれた。",
+        "en": "A tree in the garden fell in last night's storm."
+      },
+      {
+        "ja": "嵐が来る前に家に帰ろう。",
+        "reading": "あらしがくるまえにいえにかえろう。",
+        "en": "Let's get home before the storm arrives."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "風",
+        "note": "風 (かぜ, wind) sits inside 嵐, underneath the mountain 山."
+      }
+    ],
+    "commonMistakes": [
+      "嵐 is read あらし; the on-reading ラン survives only in poetry and names",
+      "嵐の前の静けさ = the calm before the storm"
+    ],
+    "memoryAid": "Mountain 山 on top of wind 風: the wind that comes tearing down off the mountain — a storm."
+  },
+  {
+    "id": "n1-kanji-椎",
+    "slug": "821-椎",
+    "level": "n1",
+    "order": 821,
+    "day": 69,
+    "character": "椎",
+    "meanings": [
+      "chinquapin",
+      "mallet",
+      "spine"
+    ],
+    "onyomi": [
+      "ツイ"
+    ],
+    "kunyomi": [
+      "しい"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "椎茸",
+        "reading": "しいたけ",
+        "meaning": "shiitake mushroom"
+      },
+      {
+        "word": "脊椎",
+        "reading": "せきつい",
+        "meaning": "spine; vertebral column"
+      },
+      {
+        "word": "椎間板",
+        "reading": "ついかんばん",
+        "meaning": "intervertebral disc"
+      },
+      {
+        "word": "腰椎",
+        "reading": "ようつい",
+        "meaning": "lumbar vertebrae"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "味噌汁に椎茸を入れた。",
+        "reading": "みそしるにしいたけをいれた。",
+        "en": "I put shiitake mushrooms in the miso soup."
+      },
+      {
+        "ja": "椎間板を痛めて入院した。",
+        "reading": "ついかんばんをいためてにゅういんした。",
+        "en": "He injured a disc in his back and went into hospital."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "推",
+        "note": "推 (to infer) has the hand 扌 where 椎 has the tree 木."
+      },
+      {
+        "character": "唯",
+        "note": "唯 (ゆい) takes the mouth 口 with the same 隹."
+      }
+    ],
+    "commonMistakes": [
+      "椎茸 is しいたけ — the ツイ reading belongs to the anatomical words 脊椎 and 椎間板"
+    ],
+    "memoryAid": "Tree 木 with the short-tailed bird 隹: the chinquapin tree — and the vertebrae stacked like the rings of a trunk."
+  },
+  {
+    "id": "n1-kanji-陪",
+    "slug": "823-陪",
+    "level": "n1",
+    "order": 823,
+    "day": 69,
+    "character": "陪",
+    "meanings": [
+      "obeisance",
+      "follow",
+      "accompany"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "陪審",
+        "reading": "ばいしん",
+        "meaning": "jury"
+      },
+      {
+        "word": "陪審員",
+        "reading": "ばいしんいん",
+        "meaning": "juror"
+      },
+      {
+        "word": "陪審制",
+        "reading": "ばいしんせい",
+        "meaning": "jury system"
+      },
+      {
+        "word": "陪席",
+        "reading": "ばいせき",
+        "meaning": "sitting in attendance (on a senior person or judge)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "アメリカでは陪審員が有罪かどうかを決める。",
+        "reading": "アメリカではばいしんいんがゆうざいかどうかをきめる。",
+        "en": "In America, jurors decide whether a defendant is guilty."
+      },
+      {
+        "ja": "日本の裁判員制度は陪審制とは違う。",
+        "reading": "にほんのさいばんいんせいどはばいしんせいとはちがう。",
+        "en": "Japan's lay judge system is different from a jury system."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "倍",
+        "note": "倍 (double) has the person 亻; 陪 has the mound 阝."
+      },
+      {
+        "character": "培",
+        "note": "培 (栽培, to cultivate) has earth 土 on the left."
+      }
+    ],
+    "commonMistakes": [
+      "Japan uses 裁判員 (lay judges), not 陪審員 — do not use 陪審 for Japanese trials"
+    ],
+    "memoryAid": "The mound 阝 with 咅: standing at the side of the raised seat, in attendance — hence the jury seated beside the judge."
+  },
+  {
+    "id": "n1-kanji-譜",
+    "slug": "825-譜",
+    "level": "n1",
+    "order": 825,
+    "day": 69,
+    "character": "譜",
+    "meanings": [
+      "musical score",
+      "music",
+      "note"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "楽譜",
+        "reading": "がくふ",
+        "meaning": "musical score; sheet music"
+      },
+      {
+        "word": "譜面",
+        "reading": "ふめん",
+        "meaning": "sheet music"
+      },
+      {
+        "word": "系譜",
+        "reading": "けいふ",
+        "meaning": "genealogy; lineage"
+      },
+      {
+        "word": "年譜",
+        "reading": "ねんぷ",
+        "meaning": "chronological record of a life"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "楽譜が読めなくてもピアノは弾ける。",
+        "reading": "がくふがよめなくてもピアノはひける。",
+        "en": "You can play the piano even if you can't read music."
+      },
+      {
+        "ja": "彼はこの流派の系譜に連なる画家だ。",
+        "reading": "かれはこのりゅうはのけいふにつらなるがかだ。",
+        "en": "He is a painter in the lineage of this school."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "普",
+        "note": "普 (ふつう, ordinary) is the top half of 譜 standing alone."
+      }
+    ],
+    "commonMistakes": [
+      "楽譜 is がくふ, not がくぷ",
+      "年譜 voices to ねんぷ, while 楽譜 does not"
+    ],
+    "memoryAid": "Words 言 under 普 (universal): a universal way of writing things down — a score, or a register of a line."
+  },
+  {
+    "id": "n1-kanji-悠",
+    "slug": "826-悠",
+    "level": "n1",
+    "order": 826,
+    "day": 69,
+    "character": "悠",
+    "meanings": [
+      "permanence",
+      "distant",
+      "long time"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "悠々",
+        "reading": "ゆうゆう",
+        "meaning": "calmly; with plenty of time to spare"
+      },
+      {
+        "word": "悠長",
+        "reading": "ゆうちょう",
+        "meaning": "leisurely; too slow (usually critical)"
+      },
+      {
+        "word": "悠久",
+        "reading": "ゆうきゅう",
+        "meaning": "eternal; everlasting"
+      },
+      {
+        "word": "悠然",
+        "reading": "ゆうぜん",
+        "meaning": "composed; unhurried"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼は悠々と歩いて会場に入った。",
+        "reading": "かれはゆうゆうとあるいてかいじょうにはいった。",
+        "en": "He strolled calmly into the hall."
+      },
+      {
+        "ja": "そんな悠長なことを言っている場合ではない。",
+        "reading": "そんなゆうちょうなことをいっているばあいではない。",
+        "en": "This is no time to be so laid-back about it."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "修",
+        "note": "修 (to master, 修理) is nearly the same shape but ends in 彡, not the heart 心."
+      }
+    ],
+    "commonMistakes": [
+      "悠長 is usually a complaint — it says someone is too slow, not admirably relaxed"
+    ],
+    "memoryAid": "A heart 心 held under a long, drawn-out top: the mind stretched out over great time — unhurried, everlasting."
+  },
+  {
+    "id": "n1-kanji-暁",
+    "slug": "829-暁",
+    "level": "n1",
+    "order": 829,
+    "day": 70,
+    "character": "暁",
+    "meanings": [
+      "daybreak",
+      "dawn",
+      "in the event"
+    ],
+    "onyomi": [
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "あかつき"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "暁",
+        "reading": "あかつき",
+        "meaning": "daybreak; (〜した暁には) when something comes about"
+      },
+      {
+        "word": "早暁",
+        "reading": "そうぎょう",
+        "meaning": "early dawn"
+      },
+      {
+        "word": "暁天",
+        "reading": "ぎょうてん",
+        "meaning": "dawn sky"
+      },
+      {
+        "word": "通暁",
+        "reading": "つうぎょう",
+        "meaning": "being thoroughly versed in something"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "暁の空が赤く染まった。",
+        "reading": "あかつきのそらがあかくそまった。",
+        "en": "The dawn sky turned red."
+      },
+      {
+        "ja": "合格した暁には、みんなでお祝いしよう。",
+        "reading": "ごうかくしたあかつきには、みんなでおいわいしよう。",
+        "en": "When you pass, let's all celebrate."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "焼",
+        "note": "焼 (to burn) has fire 火 where 暁 has the sun 日."
+      }
+    ],
+    "commonMistakes": [
+      "〜した暁には means 'in the event that ...', nothing to do with morning",
+      "暁 alone is あかつき; the ギョウ reading appears only in written compounds"
+    ],
+    "memoryAid": "The sun 日 beside 尭 (high): the sun climbing just high enough to be seen — daybreak."
+  },
+  {
+    "id": "n1-kanji-拳",
+    "slug": "834-拳",
+    "level": "n1",
+    "order": 834,
+    "day": 70,
+    "character": "拳",
+    "meanings": [
+      "fist"
+    ],
+    "onyomi": [
+      "ケン",
+      "ゲン"
+    ],
+    "kunyomi": [
+      "こぶし"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "拳",
+        "reading": "こぶし",
+        "meaning": "fist"
+      },
+      {
+        "word": "拳銃",
+        "reading": "けんじゅう",
+        "meaning": "pistol; handgun"
+      },
+      {
+        "word": "拳骨",
+        "reading": "げんこつ",
+        "meaning": "clenched fist (as used to hit someone)"
+      },
+      {
+        "word": "太極拳",
+        "reading": "たいきょくけん",
+        "meaning": "tai chi"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼は悔しそうに拳を握りしめた。",
+        "reading": "かれはくやしそうにこぶしをにぎりしめた。",
+        "en": "He clenched his fists in frustration."
+      },
+      {
+        "ja": "犯人は拳銃を持っていた。",
+        "reading": "はんにんはけんじゅうをもっていた。",
+        "en": "The suspect was carrying a handgun."
+      },
+      {
+        "ja": "父は毎朝、公園で太極拳をしている。",
+        "reading": "ちちはまいあさ、こうえんでたいきょくけんをしている。",
+        "en": "My father does tai chi in the park every morning."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "挙",
+        "note": "挙 (to raise, 選挙) ends in the same 手 but its top is three horizontals under 𠆢."
+      }
+    ],
+    "commonMistakes": [
+      "拳骨 is げんこつ, not けんこつ",
+      "拳銃 is a handgun; a rifle is 銃 or ライフル"
+    ],
+    "memoryAid": "The hand 手 written at the bottom with the fingers folded over it above — a hand curled into a fist."
+  },
+  {
+    "id": "n1-kanji-侍",
+    "slug": "837-侍",
+    "level": "n1",
+    "order": 837,
+    "day": 70,
+    "character": "侍",
+    "meanings": [
+      "waiter",
+      "samurai",
+      "wait upon"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "さむらい"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "侍",
+        "reading": "さむらい",
+        "meaning": "samurai; warrior"
+      },
+      {
+        "word": "侍医",
+        "reading": "じい",
+        "meaning": "court physician; personal doctor to a monarch"
+      },
+      {
+        "word": "侍女",
+        "reading": "じじょ",
+        "meaning": "lady-in-waiting; maidservant"
+      },
+      {
+        "word": "侍従",
+        "reading": "じじゅう",
+        "meaning": "chamberlain (of the imperial household)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "侍は腰に刀を差していた。",
+        "reading": "さむらいはこしにかたなをさしていた。",
+        "en": "The samurai wore a sword at his waist."
+      },
+      {
+        "ja": "江戸時代の侍の生活について本を読んだ。",
+        "reading": "えどじだいのさむらいのせいかつについてほんをよんだ。",
+        "en": "I read a book about the life of samurai in the Edo period."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "待",
+        "note": "待 (to wait) has the three-stroke 彳 on the left; 侍 has the two-stroke person 亻."
+      },
+      {
+        "character": "持",
+        "note": "持 (to hold) has the hand 扌 with the same 寺."
+      }
+    ],
+    "commonMistakes": [
+      "Writing 待 for 侍 — 侍 needs the person radical",
+      "武士 is the broader historical term; 侍 originally meant one who attends a lord"
+    ],
+    "memoryAid": "A person 亻 at the temple 寺: someone standing in attendance — and the retainer who attends his lord is the samurai."
+  },
+  {
+    "id": "n1-kanji-尺",
+    "slug": "838-尺",
+    "level": "n1",
+    "order": 838,
+    "day": 70,
+    "character": "尺",
+    "meanings": [
+      "shaku",
+      "japanese foot",
+      "measure"
+    ],
+    "onyomi": [
+      "シャク"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "尺",
+        "reading": "しゃく",
+        "meaning": "shaku (traditional unit, about 30.3 cm)"
+      },
+      {
+        "word": "尺度",
+        "reading": "しゃくど",
+        "meaning": "scale; yardstick; criterion"
+      },
+      {
+        "word": "尺八",
+        "reading": "しゃくはち",
+        "meaning": "shakuhachi (bamboo flute)"
+      },
+      {
+        "word": "巻き尺",
+        "reading": "まきじゃく",
+        "meaning": "tape measure"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "一尺は約三十センチだ。",
+        "reading": "いっしゃくはやくさんじゅっせんちだ。",
+        "en": "One shaku is about thirty centimetres."
+      },
+      {
+        "ja": "巻き尺で部屋の幅を測った。",
+        "reading": "まきじゃくでへやのはばをはかった。",
+        "en": "I measured the width of the room with a tape measure."
+      },
+      {
+        "ja": "尺度が違えば結果の見え方も変わる。",
+        "reading": "しゃくどがちがえばけっかのみえかたもかわる。",
+        "en": "Change the yardstick and the results look different."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "尽",
+        "note": "尽 (つきる) is 尺 with two extra dots inside."
+      },
+      {
+        "character": "訳",
+        "note": "訳 (translation) is 尺 with words 言 added on the left."
+      }
+    ],
+    "commonMistakes": [
+      "尺度 is a measuring standard or criterion, not a ruler (that is 定規)",
+      "巻き尺 voices to まきじゃく"
+    ],
+    "memoryAid": "A hand with the thumb stretched away from the fingers — the old way of spanning a length by hand."
+  },
+  {
+    "id": "n1-kanji-峠",
+    "slug": "839-峠",
+    "level": "n1",
+    "order": 839,
+    "day": 70,
+    "character": "峠",
+    "meanings": [
+      "mountain peak",
+      "mountain pass",
+      "climax"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "とうげ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "峠",
+        "reading": "とうげ",
+        "meaning": "mountain pass; the worst or peak of something"
+      },
+      {
+        "word": "峠道",
+        "reading": "とうげみち",
+        "meaning": "road over a mountain pass"
+      },
+      {
+        "word": "峠越え",
+        "reading": "とうげごえ",
+        "meaning": "crossing a pass"
+      },
+      {
+        "word": "峠を越す",
+        "reading": "とうげをこす",
+        "meaning": "to get over the worst (of an illness or crisis)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "病気はもう峠を越したそうだ。",
+        "reading": "びょうきはもうとうげをこしたそうだ。",
+        "en": "They say the illness has passed its worst."
+      },
+      {
+        "ja": "峠の茶屋で少し休憩した。",
+        "reading": "とうげのちゃやですこしきゅうけいした。",
+        "en": "We rested a while at the teahouse on the pass."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "峰",
+        "note": "峰 (みね, summit) also has 山, but means the peak itself, not the crossing point."
+      }
+    ],
+    "commonMistakes": [
+      "峠 is a kokuji — it has no on-reading, so never read it トウ in compounds",
+      "峠を越す is used far more often about a crisis than about an actual mountain"
+    ],
+    "memoryAid": "Mountain 山 with 上 over 下: the point on a mountain road where going up turns into going down."
+  },
+  {
+    "id": "n1-kanji-篤",
+    "slug": "840-篤",
+    "level": "n1",
+    "order": 840,
+    "day": 70,
+    "character": "篤",
+    "meanings": [
+      "fervent",
+      "kind",
+      "cordial"
+    ],
+    "onyomi": [
+      "トク"
+    ],
+    "kunyomi": [
+      "あつ(い)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "危篤",
+        "reading": "きとく",
+        "meaning": "critical condition; at death's door"
+      },
+      {
+        "word": "重篤",
+        "reading": "じゅうとく",
+        "meaning": "serious (of an illness or symptom)"
+      },
+      {
+        "word": "篤志家",
+        "reading": "とくしか",
+        "meaning": "benefactor; charitable person"
+      },
+      {
+        "word": "篤実",
+        "reading": "とくじつ",
+        "meaning": "sincere and warm-hearted"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "祖父が危篤だと連絡があった。",
+        "reading": "そふがきとくだとれんらくがあった。",
+        "en": "We got word that my grandfather is critically ill."
+      },
+      {
+        "ja": "重篤な症状の患者が運ばれてきた。",
+        "reading": "じゅうとくなしょうじょうのかんじゃがはこばれてきた。",
+        "en": "A patient with serious symptoms was brought in."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "馬",
+        "note": "馬 (horse) is the whole bottom half of 篤."
+      }
+    ],
+    "commonMistakes": [
+      "危篤 means the person may die at any moment — far stronger than 重病",
+      "篤い (sincere, devoted) is not 厚い (thick) or 熱い (hot)"
+    ],
+    "memoryAid": "Bamboo 竹 over horse 馬: a plodding packhorse that never lets you down — steady and sincere."
+  },
+  {
+    "id": "n1-kanji-堪",
+    "slug": "845-堪",
+    "level": "n1",
+    "order": 845,
+    "day": 71,
+    "character": "堪",
+    "meanings": [
+      "withstand",
+      "endure",
+      "support"
+    ],
+    "onyomi": [
+      "カン",
+      "タン"
+    ],
+    "kunyomi": [
+      "た(える)",
+      "こら(える)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "堪能",
+        "reading": "たんのう",
+        "meaning": "proficient (esp. at a language); having had one's fill"
+      },
+      {
+        "word": "堪える",
+        "reading": "こらえる",
+        "meaning": "to hold back; to bear (tears, anger)"
+      },
+      {
+        "word": "堪忍",
+        "reading": "かんにん",
+        "meaning": "forbearance; forgiving"
+      },
+      {
+        "word": "堪忍袋",
+        "reading": "かんにんぶくろ",
+        "meaning": "one's stock of patience"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼は英語に堪能だ。",
+        "reading": "かれはえいごにたんのうだ。",
+        "en": "He is fluent in English."
+      },
+      {
+        "ja": "彼女は涙を堪えて笑顔を見せた。",
+        "reading": "かのじょはなみだをこらえてえがおをみせた。",
+        "en": "She held back her tears and smiled."
+      },
+      {
+        "ja": "とうとう堪忍袋の緒が切れた。",
+        "reading": "とうとうかんにんぶくろのおがきれた。",
+        "en": "He finally ran out of patience."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "勘",
+        "note": "勘 (かん, intuition) shares 甚 but takes 力 on the right instead of 土 on the left."
+      }
+    ],
+    "commonMistakes": [
+      "堪能 is たんのう, not かんのう",
+      "堪える may be たえる (withstand) or こらえる (hold back) — context decides"
+    ],
+    "memoryAid": "Earth 土 beside 甚 (extreme): ground that carries an extreme load without giving way — to withstand."
+  },
+  {
+    "id": "n1-kanji-叙",
+    "slug": "846-叙",
+    "level": "n1",
+    "order": 846,
+    "day": 71,
+    "character": "叙",
+    "meanings": [
+      "confer",
+      "relate",
+      "narrate"
+    ],
+    "onyomi": [
+      "ジョ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "叙述",
+        "reading": "じょじゅつ",
+        "meaning": "description; narration"
+      },
+      {
+        "word": "叙情",
+        "reading": "じょじょう",
+        "meaning": "lyricism"
+      },
+      {
+        "word": "自叙伝",
+        "reading": "じじょでん",
+        "meaning": "autobiography"
+      },
+      {
+        "word": "叙勲",
+        "reading": "じょくん",
+        "meaning": "conferring of a decoration"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "事件の経過を時間の順に叙述する。",
+        "reading": "じけんのけいかをじかんのじゅんにじょじゅつする。",
+        "en": "The course of the incident is described in chronological order."
+      },
+      {
+        "ja": "彼の詩はとても叙情的だ。",
+        "reading": "かれのしはとてもじょじょうてきだ。",
+        "en": "His poetry is highly lyrical."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "除",
+        "note": "除 (to remove) has the mound 阝 with 余; 叙 has the hand 又."
+      },
+      {
+        "character": "徐",
+        "note": "徐 (徐々に, gradually) has the going radical 彳 with the same 余."
+      }
+    ],
+    "commonMistakes": [
+      "叙情 is lyric (feeling); 叙事 is epic (events)",
+      "自叙伝 is じじょでん, not じじょうでん"
+    ],
+    "memoryAid": "余 with the hand 又: setting things out one by one in order — narrating, or conferring ranks in order."
+  },
+  {
+    "id": "n1-kanji-逓",
+    "slug": "849-逓",
+    "level": "n1",
+    "order": 849,
+    "day": 71,
+    "character": "逓",
+    "meanings": [
+      "relay",
+      "in turn",
+      "sending"
+    ],
+    "onyomi": [
+      "テイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "逓減",
+        "reading": "ていげん",
+        "meaning": "gradual decrease"
+      },
+      {
+        "word": "逓増",
+        "reading": "ていぞう",
+        "meaning": "gradual increase"
+      },
+      {
+        "word": "逓送",
+        "reading": "ていそう",
+        "meaning": "forwarding; relaying (mail)"
+      },
+      {
+        "word": "逓信",
+        "reading": "ていしん",
+        "meaning": "communications (post and telegraph)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "生産量を増やしても利益は逓減していく。",
+        "reading": "せいさんりょうをふやしてもりえきはていげんしていく。",
+        "en": "Even as output rises, profit decreases step by step."
+      },
+      {
+        "ja": "電気料金は使用量に応じて逓増する。",
+        "reading": "でんきりょうきんはしようりょうにおうじてていぞうする。",
+        "en": "Electricity charges rise in stages according to usage."
+      }
+    ],
+    "similarKanji": [],
+    "commonMistakes": [
+      "逓 belongs to economics and legal writing — in speech say 徐々に減る rather than 逓減する",
+      "逓信省 is a pre-war ministry name, read ていしんしょう"
+    ],
+    "memoryAid": "The road radical 辶: something handed on from post to post along the road — passed along by stages."
+  },
+  {
+    "id": "n1-kanji-癖",
+    "slug": "857-癖",
+    "level": "n1",
+    "order": 857,
+    "day": 72,
+    "character": "癖",
+    "meanings": [
+      "mannerism",
+      "habit",
+      "vice"
+    ],
+    "onyomi": [
+      "ヘキ"
+    ],
+    "kunyomi": [
+      "くせ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "癖",
+        "reading": "くせ",
+        "meaning": "habit; quirk; mannerism"
+      },
+      {
+        "word": "口癖",
+        "reading": "くちぐせ",
+        "meaning": "pet phrase; something one always says"
+      },
+      {
+        "word": "寝癖",
+        "reading": "ねぐせ",
+        "meaning": "bed hair"
+      },
+      {
+        "word": "潔癖症",
+        "reading": "けっぺきしょう",
+        "meaning": "obsession with cleanliness"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "爪を噛む癖を直したい。",
+        "reading": "つめをかむくせをなおしたい。",
+        "en": "I want to break my habit of biting my nails."
+      },
+      {
+        "ja": "「まあいいか」が彼の口癖だ。",
+        "reading": "「まあいいか」がかれのくちぐせだ。",
+        "en": "'Oh well' is his catchphrase."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "壁",
+        "note": "壁 (かべ, wall) shares 辟 but stands on earth 土; 癖 sits inside the sickness radical 疒."
+      },
+      {
+        "character": "避",
+        "note": "避 (to avoid) puts the same 辟 with the road 辶."
+      }
+    ],
+    "commonMistakes": [
+      "癖 is a personal quirk; a regular routine or custom is 習慣",
+      "〜くせに meaning 'even though' is normally written in kana"
+    ],
+    "memoryAid": "The sickness roof 疒 over 辟: not an illness exactly, but something that clings to you all the same — a habit."
+  },
+  {
+    "id": "n1-kanji-愉",
+    "slug": "858-愉",
+    "level": "n1",
+    "order": 858,
+    "day": 72,
+    "character": "愉",
+    "meanings": [
+      "pleasure",
+      "happy",
+      "rejoice"
+    ],
+    "onyomi": [
+      "ユ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "愉快",
+        "reading": "ゆかい",
+        "meaning": "pleasant; cheerful; amusing"
+      },
+      {
+        "word": "不愉快",
+        "reading": "ふゆかい",
+        "meaning": "unpleasant; disagreeable"
+      },
+      {
+        "word": "愉快犯",
+        "reading": "ゆかいはん",
+        "meaning": "someone who commits a crime for the thrill of the reaction"
+      },
+      {
+        "word": "愉悦",
+        "reading": "ゆえつ",
+        "meaning": "delight; joy (literary)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "そんな言い方をされると不愉快だ。",
+        "reading": "そんないいかたをされるとふゆかいだ。",
+        "en": "Being spoken to like that is unpleasant."
+      },
+      {
+        "ja": "昨日の集まりはとても愉快だった。",
+        "reading": "きのうのあつまりはとてもゆかいだった。",
+        "en": "Yesterday's gathering was great fun."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "輸",
+        "note": "輸 (輸出, export) shares 兪 but has the vehicle 車."
+      },
+      {
+        "character": "癒",
+        "note": "癒 (to heal) puts the same 兪 under the sickness radical."
+      }
+    ],
+    "commonMistakes": [
+      "Everyday 'fun' is 楽しい — 愉しい is a non-standard variant spelling",
+      "不愉快 is stronger than 嫌: it says you were genuinely offended"
+    ],
+    "memoryAid": "The heart radical 忄 with 兪 (to pass through): the heart cleared out and lightened — pleasure."
+  },
+  {
+    "id": "n1-kanji-礁",
+    "slug": "859-礁",
+    "level": "n1",
+    "order": 859,
+    "day": 72,
+    "character": "礁",
+    "meanings": [
+      "reef",
+      "sunken rock"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "暗礁",
+        "reading": "あんしょう",
+        "meaning": "submerged rock; (figuratively) deadlock"
+      },
+      {
+        "word": "珊瑚礁",
+        "reading": "さんごしょう",
+        "meaning": "coral reef"
+      },
+      {
+        "word": "環礁",
+        "reading": "かんしょう",
+        "meaning": "atoll"
+      },
+      {
+        "word": "岩礁",
+        "reading": "がんしょう",
+        "meaning": "reef; rocky shoal"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "沖縄の海には珊瑚礁が広がっている。",
+        "reading": "おきなわのうみにはさんごしょうがひろがっている。",
+        "en": "Coral reefs spread out in the sea around Okinawa."
+      },
+      {
+        "ja": "交渉は暗礁に乗り上げた。",
+        "reading": "こうしょうはあんしょうにのりあげた。",
+        "en": "The negotiations ran aground."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "焦",
+        "note": "焦 (こげる, to burn) is the right half of 礁; 礁 adds stone 石."
+      }
+    ],
+    "commonMistakes": [
+      "暗礁に乗り上げる (to hit a deadlock) is used far more figuratively than literally"
+    ],
+    "memoryAid": "Stone 石 with 焦 (scorch): rock lying just under the surface that a ship runs onto and grinds itself out on."
+  },
+  {
+    "id": "n1-kanji-屯",
+    "slug": "860-屯",
+    "level": "n1",
+    "order": 860,
+    "day": 72,
+    "character": "屯",
+    "meanings": [
+      "barracks",
+      "police station",
+      "camp"
+    ],
+    "onyomi": [
+      "トン"
+    ],
+    "kunyomi": [
+      "たむろ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "駐屯",
+        "reading": "ちゅうとん",
+        "meaning": "stationing of troops"
+      },
+      {
+        "word": "駐屯地",
+        "reading": "ちゅうとんち",
+        "meaning": "garrison; military base"
+      },
+      {
+        "word": "屯する",
+        "reading": "たむろする",
+        "meaning": "to hang around in a group; to loiter"
+      },
+      {
+        "word": "屯田兵",
+        "reading": "とんでんへい",
+        "meaning": "soldier-settler (historical, Hokkaido)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "近くに自衛隊の駐屯地がある。",
+        "reading": "ちかくにじえいたいのちゅうとんちがある。",
+        "en": "There is a Self-Defence Force base nearby."
+      },
+      {
+        "ja": "夜になると若者が駅前に屯している。",
+        "reading": "よるになるとわかものがえきまえにたむろしている。",
+        "en": "At night young people hang around in front of the station."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "純",
+        "note": "純 (pure) contains 屯 on the right with the thread radical 糸."
+      },
+      {
+        "character": "鈍",
+        "note": "鈍 (にぶい, dull) is 屯 with metal 金."
+      }
+    ],
+    "commonMistakes": [
+      "屯する is usually written たむろする in kana",
+      "屯 as a tonnage unit is obsolete — modern Japanese writes トン"
+    ],
+    "memoryAid": "A sprout straining against hard ground, massed at one spot — troops dug in, or people clustered together."
+  },
+  {
+    "id": "n1-kanji-擬",
+    "slug": "862-擬",
+    "level": "n1",
+    "order": 862,
+    "day": 72,
+    "character": "擬",
+    "meanings": [
+      "mimic",
+      "aim (a gun) at",
+      "nominate"
+    ],
+    "onyomi": [
+      "ギ"
+    ],
+    "kunyomi": [
+      "もど(き)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "模擬",
+        "reading": "もぎ",
+        "meaning": "mock; simulated (模擬試験, a mock exam)"
+      },
+      {
+        "word": "擬態",
+        "reading": "ぎたい",
+        "meaning": "mimicry (of an animal)"
+      },
+      {
+        "word": "擬音語",
+        "reading": "ぎおんご",
+        "meaning": "onomatopoeic word"
+      },
+      {
+        "word": "擬人化",
+        "reading": "ぎじんか",
+        "meaning": "personification"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "来週、模擬試験がある。",
+        "reading": "らいしゅう、もぎしけんがある。",
+        "en": "There is a mock exam next week."
+      },
+      {
+        "ja": "この虫は葉に擬態して身を守る。",
+        "reading": "このむしははにぎたいしてみをまもる。",
+        "en": "This insect protects itself by mimicking a leaf."
+      },
+      {
+        "ja": "「ざあざあ」のような擬音語が日本語には多い。",
+        "reading": "「ざあざあ」のようなぎおんごがにほんごにはおおい。",
+        "en": "Japanese has many onomatopoeic words like 'zaazaa'."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "疑",
+        "note": "疑 (うたがう, to doubt) is 擬 without the hand radical 扌."
+      }
+    ],
+    "commonMistakes": [
+      "模擬 is もぎ, not ぼぎ",
+      "擬音語 imitates sounds; 擬態語 imitates states or manner"
+    ],
+    "memoryAid": "The hand 扌 beside 疑 (doubt): made by hand so well that you doubt which one is real — an imitation."
+  },
+  {
+    "id": "n1-kanji-塀",
+    "slug": "863-塀",
+    "level": "n1",
+    "order": 863,
+    "day": 72,
+    "character": "塀",
+    "meanings": [
+      "fence",
+      "wall",
+      "(kokuji)"
+    ],
+    "onyomi": [
+      "ヘイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "塀",
+        "reading": "へい",
+        "meaning": "wall; fence (around a property)"
+      },
+      {
+        "word": "石塀",
+        "reading": "いしべい",
+        "meaning": "stone wall"
+      },
+      {
+        "word": "土塀",
+        "reading": "どべい",
+        "meaning": "mud wall"
+      },
+      {
+        "word": "板塀",
+        "reading": "いたべい",
+        "meaning": "wooden fence"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "家の周りに高い塀を作った。",
+        "reading": "いえのまわりにたかいへいをつくった。",
+        "en": "They built a high wall around the house."
+      },
+      {
+        "ja": "泥棒は塀を乗り越えて逃げた。",
+        "reading": "どろぼうはへいをのりこえてにげた。",
+        "en": "The thief climbed over the wall and escaped."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "堀",
+        "note": "堀 (ほり, moat) also has earth 土 on the left, but 屈 on the right."
+      }
+    ],
+    "commonMistakes": [
+      "塀 is an outdoor boundary wall; a room's wall is 壁 (かべ)",
+      "After another word it voices: 石塀 いしべい, 土塀 どべい"
+    ],
+    "memoryAid": "Earth 土 next to 屏 (a folding screen): an earthen screen standing round the house — a boundary wall."
+  },
+  {
+    "id": "n1-kanji-睦",
+    "slug": "865-睦",
+    "level": "n1",
+    "order": 865,
+    "day": 73,
+    "character": "睦",
+    "meanings": [
+      "intimate",
+      "friendly",
+      "harmonious"
+    ],
+    "onyomi": [
+      "ボク"
+    ],
+    "kunyomi": [
+      "むつ(まじい)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "親睦",
+        "reading": "しんぼく",
+        "meaning": "friendship; fellowship"
+      },
+      {
+        "word": "親睦会",
+        "reading": "しんぼくかい",
+        "meaning": "informal social gathering"
+      },
+      {
+        "word": "睦まじい",
+        "reading": "むつまじい",
+        "meaning": "close and affectionate (of a couple or family)"
+      },
+      {
+        "word": "和睦",
+        "reading": "わぼく",
+        "meaning": "reconciliation; making peace"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "来月、部署の親睦会がある。",
+        "reading": "らいげつ、ぶしょのしんぼくかいがある。",
+        "en": "There is a departmental social gathering next month."
+      },
+      {
+        "ja": "あの夫婦はいつも仲睦まじい。",
+        "reading": "あのふうふはいつもなかむつまじい。",
+        "en": "That couple is always so close."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "陸",
+        "note": "陸 (land) has the same 坴 on the right but the mound 阝 on the left; 睦 has the eye 目."
+      }
+    ],
+    "commonMistakes": [
+      "親睦 is しんぼく, not しんもく",
+      "仲睦まじい describes couples and families, not colleagues"
+    ],
+    "memoryAid": "The eye 目 turned toward 坴: eyes meeting warmly across the ground between you — close and friendly."
+  },
+  {
+    "id": "n1-kanji-曹",
+    "slug": "868-曹",
+    "level": "n1",
+    "order": 868,
+    "day": 73,
+    "character": "曹",
+    "meanings": [
+      "office",
+      "official",
+      "comrade"
+    ],
+    "onyomi": [
+      "ソウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "重曹",
+        "reading": "じゅうそう",
+        "meaning": "baking soda; sodium bicarbonate"
+      },
+      {
+        "word": "法曹",
+        "reading": "ほうそう",
+        "meaning": "the legal profession"
+      },
+      {
+        "word": "法曹界",
+        "reading": "ほうそうかい",
+        "meaning": "legal circles"
+      },
+      {
+        "word": "軍曹",
+        "reading": "ぐんそう",
+        "meaning": "sergeant"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "掃除に重曹を使うと汚れがよく落ちる。",
+        "reading": "そうじにじゅうそうをつかうとよごれがよくおちる。",
+        "en": "Dirt comes off well if you use baking soda for cleaning."
+      },
+      {
+        "ja": "彼は長く法曹界で働いてきた。",
+        "reading": "かれはながくほうそうかいではたらいてきた。",
+        "en": "He has worked in legal circles for a long time."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "遭",
+        "note": "遭 (遭う, to encounter) is 曹 with the road radical 辶."
+      },
+      {
+        "character": "槽",
+        "note": "槽 (水槽, tank) is 曹 with the tree 木."
+      }
+    ],
+    "commonMistakes": [
+      "重曹 is じゅうそう — the everyday word printed on cleaning products",
+      "法曹 covers judges, prosecutors and lawyers together"
+    ],
+    "memoryAid": "Two bundles side by side above 曰 (to speak): ranks of officials lined up, each in their own office."
+  },
+  {
+    "id": "n1-kanji-詠",
+    "slug": "869-詠",
+    "level": "n1",
+    "order": 869,
+    "day": 73,
+    "character": "詠",
+    "meanings": [
+      "recitation",
+      "poem",
+      "song"
+    ],
+    "onyomi": [
+      "エイ"
+    ],
+    "kunyomi": [
+      "よ(む)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "詠む",
+        "reading": "よむ",
+        "meaning": "to compose (a poem, tanka, haiku)"
+      },
+      {
+        "word": "詠嘆",
+        "reading": "えいたん",
+        "meaning": "exclamation; expression of deep feeling"
+      },
+      {
+        "word": "朗詠",
+        "reading": "ろうえい",
+        "meaning": "reciting a poem aloud"
+      },
+      {
+        "word": "詠み人",
+        "reading": "よみびと",
+        "meaning": "the composer of a poem"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "祖父は俳句を詠むのが趣味だ。",
+        "reading": "そふははいくをよむのがしゅみだ。",
+        "en": "My grandfather's hobby is composing haiku."
+      },
+      {
+        "ja": "百人一首には恋を詠んだ歌が多い。",
+        "reading": "ひゃくにんいっしゅにはこいをよんだうたがおおい。",
+        "en": "Many poems in the Hyakunin Isshu are about love."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "泳",
+        "note": "泳 (to swim) shares 永 but takes water 氵; 詠 takes words 言."
+      }
+    ],
+    "commonMistakes": [
+      "詠む (compose a poem) and 読む (read) are both よむ — only 詠む is used for composing",
+      "Reading a poem aloud is 朗読 or 朗詠, not 詠む"
+    ],
+    "memoryAid": "Words 言 with 永 (long): words drawn out and sung long — composing and chanting a poem."
+  },
+  {
+    "id": "n1-kanji-抹",
+    "slug": "873-抹",
+    "level": "n1",
+    "order": 873,
+    "day": 73,
+    "character": "抹",
+    "meanings": [
+      "rub",
+      "paint",
+      "erase"
+    ],
+    "onyomi": [
+      "マツ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "抹茶",
+        "reading": "まっちゃ",
+        "meaning": "matcha; powdered green tea"
+      },
+      {
+        "word": "抹消",
+        "reading": "まっしょう",
+        "meaning": "deletion; striking off a register"
+      },
+      {
+        "word": "抹殺",
+        "reading": "まっさつ",
+        "meaning": "erasing; obliterating (a person or a fact)"
+      },
+      {
+        "word": "一抹",
+        "reading": "いちまつ",
+        "meaning": "a trace; a touch (of anxiety, sadness)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "抹茶のアイスが一番好きだ。",
+        "reading": "まっちゃのアイスがいちばんすきだ。",
+        "en": "Matcha ice cream is my favourite."
+      },
+      {
+        "ja": "名簿から彼の名前が抹消された。",
+        "reading": "めいぼからかれのなまえがまっしょうされた。",
+        "en": "His name was struck from the register."
+      },
+      {
+        "ja": "彼の説明には一抹の不安が残る。",
+        "reading": "かれのせつめいにはいちまつのふあんがのこる。",
+        "en": "His explanation leaves a trace of unease."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "末",
+        "note": "末 (end) is the right half of 抹; 抹 adds the hand 扌."
+      },
+      {
+        "character": "未",
+        "note": "未 (not yet) looks like 末, but its upper horizontal is the shorter one."
+      }
+    ],
+    "commonMistakes": [
+      "抹茶 is まっちゃ with a small tsu, not まつちゃ",
+      "一抹 is always followed by something negative: 一抹の不安, 一抹の寂しさ"
+    ],
+    "memoryAid": "The hand 扌 with 末 (tip, end): rubbing something away to nothing — and grinding leaves to powder for 抹茶."
+  },
+  {
+    "id": "n1-kanji-尉",
+    "slug": "874-尉",
+    "level": "n1",
+    "order": 874,
+    "day": 73,
+    "character": "尉",
+    "meanings": [
+      "military officer",
+      "jailer",
+      "old man"
+    ],
+    "onyomi": [
+      "イ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "少尉",
+        "reading": "しょうい",
+        "meaning": "second lieutenant"
+      },
+      {
+        "word": "中尉",
+        "reading": "ちゅうい",
+        "meaning": "first lieutenant"
+      },
+      {
+        "word": "大尉",
+        "reading": "たいい",
+        "meaning": "captain (army rank)"
+      },
+      {
+        "word": "尉官",
+        "reading": "いかん",
+        "meaning": "company-grade officer"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼は二十五歳で中尉になった。",
+        "reading": "かれはにじゅうごさいでちゅういになった。",
+        "en": "He became a first lieutenant at twenty-five."
+      },
+      {
+        "ja": "大尉が部隊を率いて出発した。",
+        "reading": "たいいがぶたいをひきいてしゅっぱつした。",
+        "en": "The captain set out leading his unit."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "慰",
+        "note": "慰 (なぐさめる, to comfort) is 尉 with the heart 心 underneath."
+      }
+    ],
+    "commonMistakes": [
+      "大尉 is たいい, not だいい",
+      "尉 marks the junior officer ranks; 佐 (大佐 etc.) is the field grade above it"
+    ],
+    "memoryAid": "A hand 寸 holding a seal of office beside 尸 and 示: the officer who carries the authority of his rank."
+  },
+  {
+    "id": "n1-kanji-禍",
+    "slug": "876-禍",
+    "level": "n1",
+    "order": 876,
+    "day": 73,
+    "character": "禍",
+    "meanings": [
+      "calamity",
+      "misfortune",
+      "evil"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "わざわい"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "コロナ禍",
+        "reading": "コロナか",
+        "meaning": "the COVID-19 crisis"
+      },
+      {
+        "word": "禍根",
+        "reading": "かこん",
+        "meaning": "root of future trouble"
+      },
+      {
+        "word": "戦禍",
+        "reading": "せんか",
+        "meaning": "the ravages of war"
+      },
+      {
+        "word": "災禍",
+        "reading": "さいか",
+        "meaning": "disaster; calamity"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "コロナ禍で多くの店が閉まった。",
+        "reading": "コロナかでおおくのみせがしまった。",
+        "en": "Many shops closed during the coronavirus crisis."
+      },
+      {
+        "ja": "将来に禍根を残さないようにしたい。",
+        "reading": "しょうらいにかこんをのこさないようにしたい。",
+        "en": "I want to avoid leaving trouble for the future."
+      },
+      {
+        "ja": "戦禍を逃れて多くの人が国を出た。",
+        "reading": "せんかをのがれておおくのひとがくにをでた。",
+        "en": "Many people left the country to escape the ravages of war."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "渦",
+        "note": "渦 (うず, whirlpool) shares 咼 but has water 氵; 禍 has the altar 礻."
+      },
+      {
+        "character": "福",
+        "note": "福 (good fortune) has the same 礻 with the opposite meaning."
+      }
+    ],
+    "commonMistakes": [
+      "Everyday 'misfortune' is written 災い; 禍 lives in compounds like 戦禍, 災禍, コロナ禍",
+      "As a suffix, 〜禍 is read か and means 'the crisis caused by ~'"
+    ],
+    "memoryAid": "The altar radical 礻 — the same one as in 福 (fortune) — but paired with 咼: what comes down from above here is calamity, not blessing."
+  },
+  {
+    "id": "n1-kanji-帥",
+    "slug": "879-帥",
+    "level": "n1",
+    "order": 879,
+    "day": 74,
+    "character": "帥",
+    "meanings": [
+      "commander",
+      "leading troops",
+      "governor"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "元帥",
+        "reading": "げんすい",
+        "meaning": "field marshal; fleet admiral"
+      },
+      {
+        "word": "総帥",
+        "reading": "そうすい",
+        "meaning": "supreme commander; head of a business group"
+      },
+      {
+        "word": "統帥",
+        "reading": "とうすい",
+        "meaning": "supreme command (of the armed forces)"
+      },
+      {
+        "word": "統帥権",
+        "reading": "とうすいけん",
+        "meaning": "the right of supreme command"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "元帥は全軍を指揮した。",
+        "reading": "げんすいはぜんぐんをしきした。",
+        "en": "The field marshal commanded the whole army."
+      },
+      {
+        "ja": "彼はグループの総帥として知られている。",
+        "reading": "かれはグループのそうすいとしてしられている。",
+        "en": "He is known as the head of the group."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "師",
+        "note": "師 (teacher, 医師) is nearly identical — 師 has an extra short stroke in the left element that 帥 lacks."
+      }
+    ],
+    "commonMistakes": [
+      "Writing 師 where 帥 is meant: 元帥 (marshal) vs 教師 (teacher)",
+      "元帥 is げんすい, not げんし"
+    ],
+    "memoryAid": "A banner 巾 carried beside the standard on the left: the one who holds the flag is the one who leads the troops."
+  },
+  {
+    "id": "n1-kanji-汽",
+    "slug": "881-汽",
+    "level": "n1",
+    "order": 881,
+    "day": 74,
+    "character": "汽",
+    "meanings": [
+      "vapor",
+      "steam"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "汽車",
+        "reading": "きしゃ",
+        "meaning": "steam train"
+      },
+      {
+        "word": "汽船",
+        "reading": "きせん",
+        "meaning": "steamship"
+      },
+      {
+        "word": "汽笛",
+        "reading": "きてき",
+        "meaning": "steam whistle; ship's horn"
+      },
+      {
+        "word": "汽水",
+        "reading": "きすい",
+        "meaning": "brackish water"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "遠くで汽笛が鳴った。",
+        "reading": "とおくできてきがなった。",
+        "en": "A ship's horn sounded in the distance."
+      },
+      {
+        "ja": "昔はこの町にも汽車が走っていた。",
+        "reading": "むかしはこのまちにもきしゃがはしっていた。",
+        "en": "Steam trains used to run through this town too."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "気",
+        "note": "気 (き, spirit) is 汽 without the water radical — same reading, very different use."
+      }
+    ],
+    "commonMistakes": [
+      "汽車 is specifically a steam train; today's trains are 電車",
+      "Do not write 汽 for 気 in 気持ち or 天気"
+    ],
+    "memoryAid": "Water 氵 plus 气 (rising vapour): water turned into steam."
+  },
+  {
+    "id": "n1-kanji-痢",
+    "slug": "888-痢",
+    "level": "n1",
+    "order": 888,
+    "day": 74,
+    "character": "痢",
+    "meanings": [
+      "diarrhea"
+    ],
+    "onyomi": [
+      "リ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "下痢",
+        "reading": "げり",
+        "meaning": "diarrhoea"
+      },
+      {
+        "word": "下痢止め",
+        "reading": "げりどめ",
+        "meaning": "anti-diarrhoeal medicine"
+      },
+      {
+        "word": "下痢気味",
+        "reading": "げりぎみ",
+        "meaning": "having a touch of diarrhoea"
+      },
+      {
+        "word": "赤痢",
+        "reading": "せきり",
+        "meaning": "dysentery"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "昨日から下痢が続いている。",
+        "reading": "きのうからげりがつづいている。",
+        "en": "I have had diarrhoea since yesterday."
+      },
+      {
+        "ja": "薬局で下痢止めを買ってきた。",
+        "reading": "やっきょくでげりどめをかってきた。",
+        "en": "I bought some anti-diarrhoeal medicine at the pharmacy."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "利",
+        "note": "利 (benefit) is the right half of 痢; 痢 wraps it in the sickness radical 疒."
+      }
+    ],
+    "commonMistakes": [
+      "下痢 is げり, not かり",
+      "痢 appears only in medical words — learn it through 下痢"
+    ],
+    "memoryAid": "The sickness roof 疒 over 利 (smooth, sharp): an illness where everything passes through far too smoothly."
+  },
+  {
+    "id": "n1-kanji-庸",
+    "slug": "889-庸",
+    "level": "n1",
+    "order": 889,
+    "day": 75,
+    "character": "庸",
+    "meanings": [
+      "commonplace",
+      "ordinary",
+      "employment"
+    ],
+    "onyomi": [
+      "ヨウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "凡庸",
+        "reading": "ぼんよう",
+        "meaning": "mediocre; commonplace"
+      },
+      {
+        "word": "中庸",
+        "reading": "ちゅうよう",
+        "meaning": "the middle way; moderation"
+      },
+      {
+        "word": "庸才",
+        "reading": "ようさい",
+        "meaning": "mediocre ability"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼の作品は凡庸で印象に残らない。",
+        "reading": "かれのさくひんはぼんようでいんしょうにのこらない。",
+        "en": "His work is mediocre and leaves no impression."
+      },
+      {
+        "ja": "何事も中庸が大切だ。",
+        "reading": "なにごともちゅうようがたいせつだ。",
+        "en": "Moderation matters in everything."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "傭",
+        "note": "傭 (傭兵, mercenary) is 庸 with the person radical 亻."
+      },
+      {
+        "character": "唐",
+        "note": "唐 (から, Tang) has a similar 广 top but 口 below."
+      }
+    ],
+    "commonMistakes": [
+      "凡庸 is a criticism — dull and unremarkable, not simply 'average'",
+      "庸 is rare outside 凡庸 and 中庸"
+    ],
+    "memoryAid": "Shelter 广 over 用 (use): something kept merely because it is serviceable — ordinary."
+  },
+  {
+    "id": "n1-kanji-坑",
+    "slug": "890-坑",
+    "level": "n1",
+    "order": 890,
+    "day": 75,
+    "character": "坑",
+    "meanings": [
+      "pit",
+      "hole"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "炭坑",
+        "reading": "たんこう",
+        "meaning": "coal mine"
+      },
+      {
+        "word": "坑道",
+        "reading": "こうどう",
+        "meaning": "mine shaft; tunnel"
+      },
+      {
+        "word": "坑内",
+        "reading": "こうない",
+        "meaning": "inside a mine"
+      },
+      {
+        "word": "廃坑",
+        "reading": "はいこう",
+        "meaning": "abandoned mine"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "昔この山には炭坑があった。",
+        "reading": "むかしこのやまにはたんこうがあった。",
+        "en": "There used to be a coal mine in this mountain."
+      },
+      {
+        "ja": "坑道の奥は真っ暗だった。",
+        "reading": "こうどうのおくはまっくらだった。",
+        "en": "It was pitch dark deep in the mine shaft."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "抗",
+        "note": "抗 (抵抗, resistance) shares 亢 but has the hand 扌; 坑 has earth 土."
+      },
+      {
+        "character": "航",
+        "note": "航 (航空, aviation) puts the same 亢 with the boat 舟."
+      }
+    ],
+    "commonMistakes": [
+      "炭坑 (the pit itself) and 炭鉱 (the mine as an enterprise) are both たんこう — check which is meant"
+    ],
+    "memoryAid": "Earth 土 with 亢 (stretched high): a shaft driven down through the ground — a pit."
+  },
+  {
+    "id": "n1-kanji-藍",
+    "slug": "891-藍",
+    "level": "n1",
+    "order": 891,
+    "day": 75,
+    "character": "藍",
+    "meanings": [
+      "indigo"
+    ],
+    "onyomi": [
+      "ラン"
+    ],
+    "kunyomi": [
+      "あい"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "藍色",
+        "reading": "あいいろ",
+        "meaning": "indigo blue"
+      },
+      {
+        "word": "藍染め",
+        "reading": "あいぞめ",
+        "meaning": "indigo dyeing"
+      },
+      {
+        "word": "藍",
+        "reading": "あい",
+        "meaning": "indigo (the plant and the dye)"
+      },
+      {
+        "word": "藍藻",
+        "reading": "らんそう",
+        "meaning": "blue-green algae; cyanobacteria"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "彼女は藍色の着物を着ていた。",
+        "reading": "かのじょはあいいろのきものをきていた。",
+        "en": "She was wearing an indigo kimono."
+      },
+      {
+        "ja": "この町は昔から藍染めで有名だ。",
+        "reading": "このまちはむかしからあいぞめでゆうめいだ。",
+        "en": "This town has long been famous for indigo dyeing."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "監",
+        "note": "監 (監督, to supervise) is the bottom of 藍; 藍 adds the grass radical 艹."
+      },
+      {
+        "character": "覧",
+        "note": "覧 (ご覧) shares the same 臣-and-dish structure."
+      }
+    ],
+    "commonMistakes": [
+      "藍 is a deep indigo, darker than 青 — 藍色 is not simply 'blue'",
+      "出藍の誉れ (しゅつらんのほまれ) means a student surpassing the teacher"
+    ],
+    "memoryAid": "The grass radical 艹 over 監 (watching over a basin): the plant steeped and watched in the dye vat — indigo."
+  },
+  {
+    "id": "n1-kanji-唄",
+    "slug": "895-唄",
+    "level": "n1",
+    "order": 895,
+    "day": 75,
+    "character": "唄",
+    "meanings": [
+      "song",
+      "ballad"
+    ],
+    "onyomi": [],
+    "kunyomi": [
+      "うた"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "子守唄",
+        "reading": "こもりうた",
+        "meaning": "lullaby"
+      },
+      {
+        "word": "唄",
+        "reading": "うた",
+        "meaning": "song (esp. traditional, sung to shamisen)"
+      },
+      {
+        "word": "長唄",
+        "reading": "ながうた",
+        "meaning": "nagauta (long shamisen song of the kabuki stage)"
+      },
+      {
+        "word": "小唄",
+        "reading": "こうた",
+        "meaning": "kouta (short traditional song)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "母は毎晩、子守唄を歌ってくれた。",
+        "reading": "はははまいばん、こもりうたをうたってくれた。",
+        "en": "My mother sang me a lullaby every night."
+      },
+      {
+        "ja": "祖母は長唄を習っている。",
+        "reading": "そぼはながうたをならっている。",
+        "en": "My grandmother is learning nagauta."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "歌",
+        "note": "歌 is the ordinary word for a song; 唄 is reserved for traditional and folk singing."
+      },
+      {
+        "character": "貝",
+        "note": "貝 (shell) is the right half of 唄."
+      }
+    ],
+    "commonMistakes": [
+      "Write 歌 for songs in general — 唄 is for traditional genres and set words like 子守唄",
+      "子守唄 is こもりうた, not こもりばい"
+    ],
+    "memoryAid": "Mouth 口 beside shell 貝: a voice keeping time with the old instruments — traditional song."
+  },
+  {
+    "id": "n1-kanji-孔",
+    "slug": "896-孔",
+    "level": "n1",
+    "order": 896,
+    "day": 75,
+    "character": "孔",
+    "meanings": [
+      "cavity",
+      "hole",
+      "slit"
+    ],
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "孔雀",
+        "reading": "くじゃく",
+        "meaning": "peacock"
+      },
+      {
+        "word": "瞳孔",
+        "reading": "どうこう",
+        "meaning": "pupil (of the eye)"
+      },
+      {
+        "word": "気孔",
+        "reading": "きこう",
+        "meaning": "stoma (of a plant); pore"
+      },
+      {
+        "word": "孔子",
+        "reading": "こうし",
+        "meaning": "Confucius"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "動物園で孔雀が羽を広げた。",
+        "reading": "どうぶつえんでくじゃくがはねをひろげた。",
+        "en": "A peacock spread its feathers at the zoo."
+      },
+      {
+        "ja": "医者が瞳孔の様子を調べた。",
+        "reading": "いしゃがどうこうのようすをしらべた。",
+        "en": "The doctor examined the pupils of his eyes."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "乳",
+        "note": "乳 (milk) ends in the same hook 乚 on the right."
+      },
+      {
+        "character": "穴",
+        "note": "穴 (あな) is the everyday word for a hole; 孔 is technical."
+      }
+    ],
+    "commonMistakes": [
+      "孔雀 is くじゃく — an irregular reading worth memorising whole",
+      "For an ordinary hole write 穴; 孔 is for small technical openings (気孔, 瞳孔)"
+    ],
+    "memoryAid": "A child 子 beside a hook 乚: the tiny opening a baby feeds through — a small aperture."
+  },
+  {
+    "id": "n1-kanji-呂",
+    "slug": "897-呂",
+    "level": "n1",
+    "order": 897,
+    "day": 75,
+    "character": "呂",
+    "meanings": [
+      "spine",
+      "backbone"
+    ],
+    "onyomi": [
+      "ロ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "風呂",
+        "reading": "ふろ",
+        "meaning": "bath"
+      },
+      {
+        "word": "お風呂",
+        "reading": "おふろ",
+        "meaning": "bath (polite)"
+      },
+      {
+        "word": "風呂敷",
+        "reading": "ふろしき",
+        "meaning": "furoshiki; wrapping cloth"
+      },
+      {
+        "word": "語呂合わせ",
+        "reading": "ごろあわせ",
+        "meaning": "wordplay based on how numbers or words sound"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎晩、寝る前に風呂に入る。",
+        "reading": "まいばん、ねるまえにふろにはいる。",
+        "en": "I take a bath every night before bed."
+      },
+      {
+        "ja": "風呂敷でお弁当を包んだ。",
+        "reading": "ふろしきでおべんとうをつつんだ。",
+        "en": "I wrapped the lunchbox in a furoshiki."
+      },
+      {
+        "ja": "この電話番号は語呂合わせで覚えやすい。",
+        "reading": "このでんわばんごうはごろあわせでおぼえやすい。",
+        "en": "This phone number is easy to remember thanks to the wordplay."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "品",
+        "note": "品 has three 口; 呂 has two, joined by a short connecting stroke."
+      },
+      {
+        "character": "宮",
+        "note": "宮 (palace) is 呂 under a roof."
+      }
+    ],
+    "commonMistakes": [
+      "風呂に入る — the particle is に, not を",
+      "The dictionary sense 'backbone' is historical; today you meet 呂 in 風呂 and 語呂"
+    ],
+    "memoryAid": "Two boxes linked by a short stroke — originally stacked vertebrae. In modern Japanese you meet it almost only in 風呂."
+  },
+  {
+    "id": "n1-kanji-拷",
+    "slug": "898-拷",
+    "level": "n1",
+    "order": 898,
+    "day": 75,
+    "character": "拷",
+    "meanings": [
+      "torture",
+      "beat"
+    ],
+    "onyomi": [
+      "ゴウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "拷問",
+        "reading": "ごうもん",
+        "meaning": "torture"
+      },
+      {
+        "word": "拷問する",
+        "reading": "ごうもんする",
+        "meaning": "to torture"
+      },
+      {
+        "word": "拷問器具",
+        "reading": "ごうもんきぐ",
+        "meaning": "instrument of torture"
+      },
+      {
+        "word": "拷問にかける",
+        "reading": "ごうもんにかける",
+        "meaning": "to put someone to torture"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "捕虜は厳しい拷問を受けたという。",
+        "reading": "ほりょはきびしいごうもんをうけたという。",
+        "en": "The prisoners are said to have been severely tortured."
+      },
+      {
+        "ja": "この暑さの中で待つのはまるで拷問だ。",
+        "reading": "このあつさのなかでまつのはまるでごうもんだ。",
+        "en": "Waiting in this heat is sheer torture."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "考",
+        "note": "考 (to think) is the right half of 拷; 拷 adds the hand 扌."
+      }
+    ],
+    "commonMistakes": [
+      "拷 occurs only in 拷問 and its derivatives",
+      "拷問 is ごうもん, not こうもん"
+    ],
+    "memoryAid": "The hand 扌 beside 考 (to think): forcing someone to 'think again' by hand — torture."
+  },
+  {
+    "id": "n1-kanji-翁",
+    "slug": "901-翁",
+    "level": "n1",
+    "order": 901,
+    "day": 76,
+    "character": "翁",
+    "meanings": [
+      "venerable old man"
+    ],
+    "onyomi": [
+      "オウ"
+    ],
+    "kunyomi": [
+      "おきな"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "翁",
+        "reading": "おきな",
+        "meaning": "venerable old man; the old man of Noh"
+      },
+      {
+        "word": "老翁",
+        "reading": "ろうおう",
+        "meaning": "old man"
+      },
+      {
+        "word": "塞翁が馬",
+        "reading": "さいおうがうま",
+        "meaning": "good and bad luck are unpredictable (proverb)"
+      },
+      {
+        "word": "翁面",
+        "reading": "おきなめん",
+        "meaning": "the Okina mask (Noh)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "昔話に出てくる翁は山に住んでいた。",
+        "reading": "むかしばなしにでてくるおきなはやまにすんでいた。",
+        "en": "The old man in the folk tale lived in the mountains."
+      },
+      {
+        "ja": "人間万事塞翁が馬というではないか。",
+        "reading": "にんげんばんじさいおうがうまというではないか。",
+        "en": "As they say, you never know what fortune will bring."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "翌",
+        "note": "翌 (翌日, the next day) shares the feather element 羽."
+      },
+      {
+        "character": "公",
+        "note": "公 (public) is the top half of 翁."
+      }
+    ],
+    "commonMistakes": [
+      "翁 is respectful and literary — in everyday speech say おじいさん",
+      "〜翁 after a name honours a distinguished elderly man in writing"
+    ],
+    "memoryAid": "公 over feathers 羽: hair grown feather-white on a man everyone honours."
+  },
+  {
+    "id": "n1-kanji-褒",
+    "slug": "907-褒",
+    "level": "n1",
+    "order": 907,
+    "day": 76,
+    "character": "褒",
+    "meanings": [
+      "praise",
+      "extol"
+    ],
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "ほ(める)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "褒める",
+        "reading": "ほめる",
+        "meaning": "to praise"
+      },
+      {
+        "word": "褒美",
+        "reading": "ほうび",
+        "meaning": "reward"
+      },
+      {
+        "word": "ご褒美",
+        "reading": "ごほうび",
+        "meaning": "a treat; a reward"
+      },
+      {
+        "word": "褒賞",
+        "reading": "ほうしょう",
+        "meaning": "prize; commendation"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "先生が作文を褒めてくれた。",
+        "reading": "せんせいがさくぶんをほめてくれた。",
+        "en": "My teacher praised my essay."
+      },
+      {
+        "ja": "頑張ったご褒美にケーキを買った。",
+        "reading": "がんばったごほうびにケーキをかった。",
+        "en": "I bought a cake as a reward for working hard."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "保",
+        "note": "保 (to preserve) sits inside 褒, wrapped by the clothing element."
+      },
+      {
+        "character": "裏",
+        "note": "裏 (reverse side) likewise splits 衣 around a middle element."
+      }
+    ],
+    "commonMistakes": [
+      "褒める is ほめる — the older spelling 誉める is now non-standard",
+      "ご褒美 is ごほうび, not ごほうみ"
+    ],
+    "memoryAid": "The clothing element 衣 wrapped around 保: praise laid over someone like a robe of honour."
+  },
+  {
+    "id": "n1-kanji-醜",
+    "slug": "908-醜",
+    "level": "n1",
+    "order": 908,
+    "day": 76,
+    "character": "醜",
+    "meanings": [
+      "ugly",
+      "unclean",
+      "shame"
+    ],
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [
+      "みにく(い)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "醜い",
+        "reading": "みにくい",
+        "meaning": "ugly; unseemly"
+      },
+      {
+        "word": "醜悪",
+        "reading": "しゅうあく",
+        "meaning": "hideous; repellent"
+      },
+      {
+        "word": "醜聞",
+        "reading": "しゅうぶん",
+        "meaning": "scandal"
+      },
+      {
+        "word": "醜態",
+        "reading": "しゅうたい",
+        "meaning": "disgraceful behaviour"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "遺産をめぐって醜い争いが起きた。",
+        "reading": "いさんをめぐってみにくいあらそいがおきた。",
+        "en": "An ugly dispute broke out over the inheritance."
+      },
+      {
+        "ja": "酔って醜態をさらしてしまった。",
+        "reading": "よってしゅうたいをさらしてしまった。",
+        "en": "He drank too much and made a disgraceful spectacle of himself."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "鬼",
+        "note": "鬼 (おに, demon) is the right half of 醜."
+      },
+      {
+        "character": "魂",
+        "note": "魂 (soul) pairs the same 鬼 with 云."
+      }
+    ],
+    "commonMistakes": [
+      "醜い is often about behaviour (醜い争い), not only looks",
+      "醜い (みにくい, ugly) sounds exactly like 見にくい (hard to see)"
+    ],
+    "memoryAid": "The wine jar 酉 next to the demon 鬼: drink turns a person into something ugly."
+  },
+  {
+    "id": "n1-kanji-升",
+    "slug": "909-升",
+    "level": "n1",
+    "order": 909,
+    "day": 76,
+    "character": "升",
+    "meanings": [
+      "measuring box",
+      "1.8 liter"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ます"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "一升",
+        "reading": "いっしょう",
+        "meaning": "one shō (about 1.8 litres)"
+      },
+      {
+        "word": "一升瓶",
+        "reading": "いっしょうびん",
+        "meaning": "1.8-litre sake bottle"
+      },
+      {
+        "word": "升",
+        "reading": "ます",
+        "meaning": "square wooden measuring box (also used for drinking sake)"
+      },
+      {
+        "word": "升目",
+        "reading": "ますめ",
+        "meaning": "square on a grid; squared paper"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "日本酒を升で飲んだ。",
+        "reading": "にほんしゅをますでのんだ。",
+        "en": "We drank sake from a wooden measuring box."
+      },
+      {
+        "ja": "父は一升瓶を抱えて帰ってきた。",
+        "reading": "ちちはいっしょうびんをかかえてかえってきた。",
+        "en": "My father came home carrying a 1.8-litre bottle."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "昇",
+        "note": "昇 (のぼる, to rise) is 升 with the sun 日 on top."
+      },
+      {
+        "character": "斗",
+        "note": "斗 (と) is another old measure with a similar ladle shape — ten 升 make one 斗."
+      }
+    ],
+    "commonMistakes": [
+      "一升 is いっしょう",
+      "Do not write 升 for 昇 in 上昇 or 昇進"
+    ],
+    "memoryAid": "A ladle drawn with its handle sticking out — the scoop that measures a fixed amount of rice."
+  },
+  {
+    "id": "n1-kanji-殉",
+    "slug": "910-殉",
+    "level": "n1",
+    "order": 910,
+    "day": 76,
+    "character": "殉",
+    "meanings": [
+      "martyrdom",
+      "follow by resigning"
+    ],
+    "onyomi": [
+      "ジュン"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "殉職",
+        "reading": "じゅんしょく",
+        "meaning": "dying in the line of duty"
+      },
+      {
+        "word": "殉教",
+        "reading": "じゅんきょう",
+        "meaning": "martyrdom (for one's faith)"
+      },
+      {
+        "word": "殉難",
+        "reading": "じゅんなん",
+        "meaning": "dying for one's country or cause"
+      },
+      {
+        "word": "殉死",
+        "reading": "じゅんし",
+        "meaning": "following one's lord in death"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "消防士が火災現場で殉職した。",
+        "reading": "しょうぼうしがかさいげんばでじゅんしょくした。",
+        "en": "A firefighter died in the line of duty at the scene of the fire."
+      },
+      {
+        "ja": "殉教者の名が記念碑に刻まれている。",
+        "reading": "じゅんきょうしゃのながきねんひにきざまれている。",
+        "en": "The names of the martyrs are carved on the monument."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "旬",
+        "note": "旬 (しゅん, season) is the right half of 殉."
+      },
+      {
+        "character": "殊",
+        "note": "殊 (特殊, special) shares the death radical 歹."
+      }
+    ],
+    "commonMistakes": [
+      "殉職 is used of police, firefighters and soldiers who die on duty — not of any death at work",
+      "殉職 is じゅんしょく, not じゅんそく"
+    ],
+    "memoryAid": "The death radical 歹 with 旬 (a fixed period): giving up one's life inside the duty one has taken on."
+  },
+  {
+    "id": "n1-kanji-煩",
+    "slug": "911-煩",
+    "level": "n1",
+    "order": 911,
+    "day": 76,
+    "character": "煩",
+    "meanings": [
+      "anxiety",
+      "trouble",
+      "worry"
+    ],
+    "onyomi": [
+      "ハン",
+      "ボン"
+    ],
+    "kunyomi": [
+      "わずら(う)",
+      "わずら(わしい)"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "煩悩",
+        "reading": "ぼんのう",
+        "meaning": "worldly desires; earthly passions (Buddhism)"
+      },
+      {
+        "word": "煩雑",
+        "reading": "はんざつ",
+        "meaning": "complicated and troublesome"
+      },
+      {
+        "word": "煩わしい",
+        "reading": "わずらわしい",
+        "meaning": "troublesome; bothersome"
+      },
+      {
+        "word": "煩わす",
+        "reading": "わずらわす",
+        "meaning": "to trouble someone (手を煩わす)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "手続きが煩雑で時間がかかった。",
+        "reading": "てつづきがはんざつでじかんがかかった。",
+        "en": "The procedure was complicated and took a long time."
+      },
+      {
+        "ja": "除夜の鐘は百八の煩悩を払うといわれる。",
+        "reading": "じょやのかねはひゃくはちのぼんのうをはらうといわれる。",
+        "en": "The New Year's bell is said to drive away the 108 earthly desires."
+      },
+      {
+        "ja": "人間関係が煩わしく感じることもある。",
+        "reading": "にんげんかんけいがわずらわしくかんじることもある。",
+        "en": "Sometimes relationships feel like a burden."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "頃",
+        "note": "頃 (ころ, about) shares the head element 頁."
+      },
+      {
+        "character": "預",
+        "note": "預 (預ける, to deposit) also ends in 頁."
+      }
+    ],
+    "commonMistakes": [
+      "煩悩 is ぼんのう, not はんのう (that is 反応)",
+      "煩う (to fret) and 患う (to be ill) are both わずらう, but illness takes 患"
+    ],
+    "memoryAid": "Fire 火 beside the head 頁: a head on fire with worries — vexation, and desires that will not leave you alone."
+  },
+  {
+    "id": "n1-kanji-劾",
+    "slug": "913-劾",
+    "level": "n1",
+    "order": 913,
+    "day": 77,
+    "character": "劾",
+    "meanings": [
+      "censure",
+      "criminal investigation"
+    ],
+    "onyomi": [
+      "ガイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "弾劾",
+        "reading": "だんがい",
+        "meaning": "impeachment; denunciation"
+      },
+      {
+        "word": "弾劾する",
+        "reading": "だんがいする",
+        "meaning": "to impeach; to denounce"
+      },
+      {
+        "word": "弾劾裁判",
+        "reading": "だんがいさいばん",
+        "meaning": "impeachment trial"
+      },
+      {
+        "word": "弾劾決議",
+        "reading": "だんがいけつぎ",
+        "meaning": "resolution of impeachment"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "大統領の弾劾が議会で可決された。",
+        "reading": "だいとうりょうのだんがいがぎかいでかけつされた。",
+        "en": "The president's impeachment was passed by the legislature."
+      },
+      {
+        "ja": "裁判官を弾劾する制度がある。",
+        "reading": "さいばんかんをだんがいするせいどがある。",
+        "en": "There is a system for impeaching judges."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "核",
+        "note": "核 (核心, core) shares 亥 but has the tree 木."
+      },
+      {
+        "character": "刻",
+        "note": "刻 (時刻, time) pairs the same 亥 with the knife 刂."
+      }
+    ],
+    "commonMistakes": [
+      "劾 occurs only in 弾劾 — learn the compound",
+      "弾劾 is だんがい, not だんかく"
+    ],
+    "memoryAid": "亥 with power 力: force brought to bear on someone in order to expose their wrongdoing."
+  }
+]
