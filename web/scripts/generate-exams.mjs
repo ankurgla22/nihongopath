@@ -58,14 +58,26 @@ const taughtAtOrBelow = (q, lv) => {
   return refs.every((r) => { const l = levelOfItem.get(r); return l != null && ORD[l] <= ORD[lv]; });
 };
 
+// A reading or listening question counts as course material only when a passage or recording in
+// the course owns it. The bank also holds standalone exam questions that carry their own passage;
+// those test text the learner never studied, which is the thing being fixed here.
+const ownedBy = { reading: new Set(), listening: new Set() };
+for (const lv of LEVELS) for (const kind of ["reading", "listening"]) {
+  const dir = path.join(CONTENT, lv, kind);
+  if (!fs.existsSync(dir)) continue;
+  for (const f of fs.readdirSync(dir))
+    for (const p of [].concat(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"))))
+      for (const qid of p.questionIds ?? []) ownedBy[kind].add(qid);
+}
+
 const pools = {};
 for (const lv of LEVELS) {
   const mine = all.filter((q) => q.level === lv && taughtAtOrBelow(q, lv));
   pools[lv] = {
     language: mine.filter((q) => ["kanji", "vocabulary"].includes(q.skill)),
     grammar: mine.filter((q) => q.skill === "grammar"),
-    reading: all.filter((q) => q.level === lv && q.skill === "reading"),
-    listening: all.filter((q) => q.level === lv && q.skill === "listening"),
+    reading: all.filter((q) => q.level === lv && q.skill === "reading" && ownedBy.reading.has(q.id)),
+    listening: all.filter((q) => q.level === lv && q.skill === "listening" && ownedBy.listening.has(q.id)),
   };
 }
 

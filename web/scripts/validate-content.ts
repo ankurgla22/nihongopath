@@ -92,10 +92,16 @@ for (const e of exams) {
   let n = 0;
   for (const s of e.sections) {
     for (const qid of s.questionIds) {
-      const prev = examOfQuestion.get(qid);
-      if (prev && prev !== e.id) errors.push(`${e.id}: question ${qid} is also used by ${prev}`);
-      examOfQuestion.set(qid, e.id);
       const q = questionById.get(qid);
+      const prev = examOfQuestion.get(qid);
+      // Papers must not share questions, with one documented exception. Every exam question now
+      // comes from the course itself, and the course has 30 listening recordings per level where
+      // three papers need up to 19 each. Until there are more recordings, listening is allowed to
+      // repeat across papers of the same level — never twice inside one paper, which is checked
+      // separately. Everything else sharing a question is still an error.
+      const sharedListening = q?.skill === "listening" && prev?.slice(0, 2) === e.id.slice(0, 2);
+      if (prev && prev !== e.id && !sharedListening) errors.push(`${e.id}: question ${qid} is also used by ${prev}`);
+      examOfQuestion.set(qid, e.id);
       if (!q) continue;
       n++;
       counts[q.answerIndex]++;
