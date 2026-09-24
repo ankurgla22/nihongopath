@@ -189,7 +189,9 @@ function addVocab(lv) {
   if (!want.length) return report.push(`${lv} vocabulary: nothing left to add`);
 
   const merged = [...base];
-  let n = base.length;
+  // Start after the highest id already in use, not after the count. Entries removed earlier left
+  // the array shorter than its highest id, so counting produced ids that already existed.
+  let n = base.reduce((max, v) => Math.max(max, Number(String(v.id).replace(/\D+/g, "")) || 0), 0);
   for (const w of want) {
     n++;
     merged.push({
