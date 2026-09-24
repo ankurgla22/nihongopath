@@ -1,9 +1,43 @@
 [
   {
-    "id": "n4-kanji-同",
-    "slug": "1-同",
+    "id": "n4-kanji-会",
+    "slug": "1-会",
     "level": "n4",
     "order": 1,
+    "day": 1,
+    "character": "会",
+    "meanings": [
+      "meet",
+      "society"
+    ],
+    "onyomi": [
+      "カイ"
+    ],
+    "kunyomi": [
+      "あ.う"
+    ],
+    "words": [
+      {
+        "word": "会う",
+        "reading": "あう",
+        "meaning": "to meet"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-同",
+    "slug": "2-同",
+    "level": "n4",
+    "order": 2,
     "day": 1,
     "character": "同",
     "meanings": [
@@ -34,9 +68,9 @@
   },
   {
     "id": "n4-kanji-事",
-    "slug": "2-事",
+    "slug": "3-事",
     "level": "n4",
-    "order": 2,
+    "order": 3,
     "day": 1,
     "character": "事",
     "meanings": [
@@ -69,9 +103,9 @@
   },
   {
     "id": "n4-kanji-自",
-    "slug": "3-自",
+    "slug": "4-自",
     "level": "n4",
-    "order": 3,
+    "order": 4,
     "day": 1,
     "character": "自",
     "meanings": [
@@ -102,10 +136,44 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-発",
-    "slug": "4-発",
+    "id": "n4-kanji-社",
+    "slug": "5-社",
     "level": "n4",
-    "order": 4,
+    "order": 5,
+    "day": 1,
+    "character": "社",
+    "meanings": [
+      "company",
+      "shrine"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "words": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "president"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-発",
+    "slug": "6-発",
+    "level": "n4",
+    "order": 6,
     "day": 1,
     "character": "発",
     "meanings": [
@@ -136,9 +204,9 @@
   },
   {
     "id": "n4-kanji-者",
-    "slug": "5-者",
+    "slug": "7-者",
     "level": "n4",
-    "order": 5,
+    "order": 7,
     "day": 1,
     "character": "者",
     "meanings": [
@@ -169,9 +237,9 @@
   },
   {
     "id": "n4-kanji-地",
-    "slug": "6-地",
+    "slug": "8-地",
     "level": "n4",
-    "order": 6,
+    "order": 8,
     "day": 1,
     "character": "地",
     "meanings": [
@@ -202,9 +270,9 @@
   },
   {
     "id": "n4-kanji-業",
-    "slug": "7-業",
+    "slug": "9-業",
     "level": "n4",
-    "order": 7,
+    "order": 9,
     "day": 1,
     "character": "業",
     "meanings": [
@@ -237,9 +305,9 @@
   },
   {
     "id": "n4-kanji-方",
-    "slug": "8-方",
+    "slug": "10-方",
     "level": "n4",
-    "order": 8,
+    "order": 10,
     "day": 1,
     "character": "方",
     "meanings": [
@@ -271,10 +339,44 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-場",
-    "slug": "9-場",
+    "id": "n4-kanji-新",
+    "slug": "11-新",
     "level": "n4",
-    "order": 9,
+    "order": 11,
+    "day": 1,
+    "character": "新",
+    "meanings": [
+      "new"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたら.しい",
+      "あら.た"
+    ],
+    "words": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning": "new"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-場",
+    "slug": "12-場",
+    "level": "n4",
+    "order": 12,
     "day": 1,
     "character": "場",
     "meanings": [
@@ -305,10 +407,10 @@
   },
   {
     "id": "n4-kanji-員",
-    "slug": "10-員",
+    "slug": "13-員",
     "level": "n4",
-    "order": 10,
-    "day": 1,
+    "order": 13,
+    "day": 2,
     "character": "員",
     "meanings": [
       "member",
@@ -336,10 +438,44 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-開",
-    "slug": "11-開",
+    "id": "n4-kanji-立",
+    "slug": "14-立",
     "level": "n4",
-    "order": 11,
+    "order": 14,
+    "day": 2,
+    "character": "立",
+    "meanings": [
+      "stand"
+    ],
+    "onyomi": [
+      "リツ"
+    ],
+    "kunyomi": [
+      "た.つ",
+      "た.てる"
+    ],
+    "words": [
+      {
+        "word": "立つ",
+        "reading": "たつ",
+        "meaning": "to stand"
+      },
+      {
+        "word": "国立",
+        "reading": "こくりつ",
+        "meaning": "national (institution)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-開",
+    "slug": "15-開",
+    "level": "n4",
+    "order": 15,
     "day": 2,
     "character": "開",
     "meanings": [
@@ -360,9 +496,42 @@
         "meaning": "to open (intr.)"
       },
       {
-        "word": "開始",
-        "reading": "かいし",
-        "meaning": "start"
+        "word": "開ける",
+        "reading": "あける",
+        "meaning": "to open (tr.)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-手",
+    "slug": "16-手",
+    "level": "n4",
+    "order": 16,
+    "day": 2,
+    "character": "手",
+    "meanings": [
+      "hand"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "words": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning": "hand"
+      },
+      {
+        "word": "手紙",
+        "reading": "てがみ",
+        "meaning": "letter"
       }
     ],
     "examples": [],
@@ -372,9 +541,9 @@
   },
   {
     "id": "n4-kanji-力",
-    "slug": "12-力",
+    "slug": "17-力",
     "level": "n4",
-    "order": 12,
+    "order": 17,
     "day": 2,
     "character": "力",
     "meanings": [
@@ -407,9 +576,9 @@
   },
   {
     "id": "n4-kanji-問",
-    "slug": "13-問",
+    "slug": "18-問",
     "level": "n4",
-    "order": 13,
+    "order": 18,
     "day": 2,
     "character": "問",
     "meanings": [
@@ -440,9 +609,9 @@
   },
   {
     "id": "n4-kanji-代",
-    "slug": "14-代",
+    "slug": "19-代",
     "level": "n4",
-    "order": 14,
+    "order": 19,
     "day": 2,
     "character": "代",
     "meanings": [
@@ -463,7 +632,7 @@
       {
         "word": "時代",
         "reading": "じだい",
-        "meaning": "era"
+        "meaning": "era, period"
       },
       {
         "word": "代わりに",
@@ -478,9 +647,9 @@
   },
   {
     "id": "n4-kanji-明",
-    "slug": "15-明",
+    "slug": "20-明",
     "level": "n4",
-    "order": 15,
+    "order": 20,
     "day": 2,
     "character": "明",
     "meanings": [
@@ -514,9 +683,9 @@
   },
   {
     "id": "n4-kanji-動",
-    "slug": "16-動",
+    "slug": "21-動",
     "level": "n4",
-    "order": 16,
+    "order": 21,
     "day": 2,
     "character": "動",
     "meanings": [
@@ -548,9 +717,9 @@
   },
   {
     "id": "n4-kanji-京",
-    "slug": "17-京",
+    "slug": "22-京",
     "level": "n4",
-    "order": 17,
+    "order": 22,
     "day": 2,
     "character": "京",
     "meanings": [
@@ -579,10 +748,44 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-通",
-    "slug": "18-通",
+    "id": "n4-kanji-目",
+    "slug": "23-目",
     "level": "n4",
-    "order": 18,
+    "order": 23,
+    "day": 2,
+    "character": "目",
+    "meanings": [
+      "eye",
+      "item"
+    ],
+    "onyomi": [
+      "モク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "words": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning": "eye"
+      },
+      {
+        "word": "一つ目",
+        "reading": "ひとつめ",
+        "meaning": "the first one"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-通",
+    "slug": "24-通",
+    "level": "n4",
+    "order": 24,
     "day": 2,
     "character": "通",
     "meanings": [
@@ -600,12 +803,47 @@
       {
         "word": "通う",
         "reading": "かよう",
-        "meaning": "to commute"
+        "meaning": "to commute, to attend regularly"
       },
       {
-        "word": "交通",
-        "reading": "こうつう",
-        "meaning": "traffic"
+        "word": "通る",
+        "reading": "とおる",
+        "meaning": "to pass through"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-言",
+    "slug": "25-言",
+    "level": "n4",
+    "order": 25,
+    "day": 3,
+    "character": "言",
+    "meanings": [
+      "say"
+    ],
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "い.う",
+      "こと"
+    ],
+    "words": [
+      {
+        "word": "言う",
+        "reading": "いう",
+        "meaning": "to say"
+      },
+      {
+        "word": "言葉",
+        "reading": "ことば",
+        "meaning": "word, language"
       }
     ],
     "examples": [],
@@ -615,10 +853,10 @@
   },
   {
     "id": "n4-kanji-理",
-    "slug": "19-理",
+    "slug": "26-理",
     "level": "n4",
-    "order": 19,
-    "day": 2,
+    "order": 26,
+    "day": 3,
     "character": "理",
     "meanings": [
       "reason",
@@ -632,7 +870,7 @@
       {
         "word": "料理",
         "reading": "りょうり",
-        "meaning": "cooking"
+        "meaning": "cooking, dish"
       },
       {
         "word": "理由",
@@ -647,10 +885,10 @@
   },
   {
     "id": "n4-kanji-体",
-    "slug": "20-体",
+    "slug": "27-体",
     "level": "n4",
-    "order": 20,
-    "day": 2,
+    "order": 27,
+    "day": 3,
     "character": "体",
     "meanings": [
       "body"
@@ -681,9 +919,9 @@
   },
   {
     "id": "n4-kanji-田",
-    "slug": "21-田",
+    "slug": "28-田",
     "level": "n4",
-    "order": 21,
+    "order": 28,
     "day": 3,
     "character": "田",
     "meanings": [
@@ -714,9 +952,9 @@
   },
   {
     "id": "n4-kanji-主",
-    "slug": "22-主",
+    "slug": "29-主",
     "level": "n4",
-    "order": 22,
+    "order": 29,
     "day": 3,
     "character": "主",
     "meanings": [
@@ -749,9 +987,9 @@
   },
   {
     "id": "n4-kanji-題",
-    "slug": "23-題",
+    "slug": "30-題",
     "level": "n4",
-    "order": 23,
+    "order": 30,
     "day": 3,
     "character": "題",
     "meanings": [
@@ -781,9 +1019,9 @@
   },
   {
     "id": "n4-kanji-意",
-    "slug": "24-意",
+    "slug": "31-意",
     "level": "n4",
-    "order": 24,
+    "order": 31,
     "day": 3,
     "character": "意",
     "meanings": [
@@ -813,9 +1051,9 @@
   },
   {
     "id": "n4-kanji-不",
-    "slug": "25-不",
+    "slug": "32-不",
     "level": "n4",
-    "order": 25,
+    "order": 32,
     "day": 3,
     "character": "不",
     "meanings": [
@@ -836,7 +1074,7 @@
       {
         "word": "不安",
         "reading": "ふあん",
-        "meaning": "uneasy"
+        "meaning": "uneasy, anxious"
       }
     ],
     "examples": [],
@@ -846,9 +1084,9 @@
   },
   {
     "id": "n4-kanji-作",
-    "slug": "26-作",
+    "slug": "33-作",
     "level": "n4",
-    "order": 26,
+    "order": 33,
     "day": 3,
     "character": "作",
     "meanings": [
@@ -870,7 +1108,7 @@
       {
         "word": "作文",
         "reading": "さくぶん",
-        "meaning": "composition"
+        "meaning": "composition, essay"
       }
     ],
     "examples": [],
@@ -880,9 +1118,9 @@
   },
   {
     "id": "n4-kanji-用",
-    "slug": "27-用",
+    "slug": "34-用",
     "level": "n4",
-    "order": 27,
+    "order": 34,
     "day": 3,
     "character": "用",
     "meanings": [
@@ -899,7 +1137,7 @@
       {
         "word": "用事",
         "reading": "ようじ",
-        "meaning": "errand"
+        "meaning": "errand, things to do"
       },
       {
         "word": "使用",
@@ -914,9 +1152,9 @@
   },
   {
     "id": "n4-kanji-度",
-    "slug": "28-度",
+    "slug": "35-度",
     "level": "n4",
-    "order": 28,
+    "order": 35,
     "day": 3,
     "character": "度",
     "meanings": [
@@ -939,7 +1177,7 @@
       {
         "word": "今度",
         "reading": "こんど",
-        "meaning": "next time"
+        "meaning": "next time, this time"
       }
     ],
     "examples": [],
@@ -949,9 +1187,9 @@
   },
   {
     "id": "n4-kanji-強",
-    "slug": "29-強",
+    "slug": "36-強",
     "level": "n4",
-    "order": 29,
+    "order": 36,
     "day": 3,
     "character": "強",
     "meanings": [
@@ -984,10 +1222,10 @@
   },
   {
     "id": "n4-kanji-公",
-    "slug": "30-公",
+    "slug": "37-公",
     "level": "n4",
-    "order": 30,
-    "day": 3,
+    "order": 37,
+    "day": 4,
     "character": "公",
     "meanings": [
       "public"
@@ -1017,9 +1255,9 @@
   },
   {
     "id": "n4-kanji-持",
-    "slug": "31-持",
+    "slug": "38-持",
     "level": "n4",
-    "order": 31,
+    "order": 38,
     "day": 4,
     "character": "持",
     "meanings": [
@@ -1036,7 +1274,7 @@
       {
         "word": "持つ",
         "reading": "もつ",
-        "meaning": "to hold"
+        "meaning": "to hold, to carry"
       },
       {
         "word": "気持ち",
@@ -1051,9 +1289,9 @@
   },
   {
     "id": "n4-kanji-野",
-    "slug": "32-野",
+    "slug": "39-野",
     "level": "n4",
-    "order": 32,
+    "order": 39,
     "day": 4,
     "character": "野",
     "meanings": [
@@ -1085,9 +1323,9 @@
   },
   {
     "id": "n4-kanji-以",
-    "slug": "33-以",
+    "slug": "40-以",
     "level": "n4",
-    "order": 33,
+    "order": 40,
     "day": 4,
     "character": "以",
     "meanings": [
@@ -1117,9 +1355,9 @@
   },
   {
     "id": "n4-kanji-思",
-    "slug": "34-思",
+    "slug": "41-思",
     "level": "n4",
-    "order": 34,
+    "order": 41,
     "day": 4,
     "character": "思",
     "meanings": [
@@ -1150,9 +1388,9 @@
   },
   {
     "id": "n4-kanji-家",
-    "slug": "35-家",
+    "slug": "42-家",
     "level": "n4",
-    "order": 35,
+    "order": 42,
     "day": 4,
     "character": "家",
     "meanings": [
@@ -1186,9 +1424,9 @@
   },
   {
     "id": "n4-kanji-世",
-    "slug": "36-世",
+    "slug": "43-世",
     "level": "n4",
-    "order": 36,
+    "order": 43,
     "day": 4,
     "character": "世",
     "meanings": [
@@ -1220,10 +1458,43 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-正",
-    "slug": "37-正",
+    "id": "n4-kanji-多",
+    "slug": "44-多",
     "level": "n4",
-    "order": 37,
+    "order": 44,
+    "day": 4,
+    "character": "多",
+    "meanings": [
+      "many"
+    ],
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おお.い"
+    ],
+    "words": [
+      {
+        "word": "多い",
+        "reading": "おおい",
+        "meaning": "many"
+      },
+      {
+        "word": "多分",
+        "reading": "たぶん",
+        "meaning": "probably"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-正",
+    "slug": "45-正",
+    "level": "n4",
+    "order": 45,
     "day": 4,
     "character": "正",
     "meanings": [
@@ -1255,10 +1526,44 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-院",
-    "slug": "38-院",
+    "id": "n4-kanji-安",
+    "slug": "46-安",
     "level": "n4",
-    "order": 38,
+    "order": 46,
+    "day": 4,
+    "character": "安",
+    "meanings": [
+      "cheap",
+      "safe"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やす.い"
+    ],
+    "words": [
+      {
+        "word": "安い",
+        "reading": "やすい",
+        "meaning": "cheap"
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "relief, peace of mind"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-院",
+    "slug": "47-院",
+    "level": "n4",
+    "order": 47,
     "day": 4,
     "character": "院",
     "meanings": [
@@ -1287,9 +1592,9 @@
   },
   {
     "id": "n4-kanji-心",
-    "slug": "39-心",
+    "slug": "48-心",
     "level": "n4",
-    "order": 39,
+    "order": 48,
     "day": 4,
     "character": "心",
     "meanings": [
@@ -1306,7 +1611,7 @@
       {
         "word": "心",
         "reading": "こころ",
-        "meaning": "heart"
+        "meaning": "heart, mind"
       },
       {
         "word": "心配",
@@ -1321,10 +1626,10 @@
   },
   {
     "id": "n4-kanji-界",
-    "slug": "40-界",
+    "slug": "49-界",
     "level": "n4",
-    "order": 40,
-    "day": 4,
+    "order": 49,
+    "day": 5,
     "character": "界",
     "meanings": [
       "world",
@@ -1343,7 +1648,7 @@
       {
         "word": "業界",
         "reading": "ぎょうかい",
-        "meaning": "industry (sector)"
+        "meaning": "industry, the trade"
       }
     ],
     "examples": [],
@@ -1353,9 +1658,9 @@
   },
   {
     "id": "n4-kanji-教",
-    "slug": "41-教",
+    "slug": "50-教",
     "level": "n4",
-    "order": 41,
+    "order": 50,
     "day": 5,
     "character": "教",
     "meanings": [
@@ -1372,7 +1677,7 @@
       {
         "word": "教える",
         "reading": "おしえる",
-        "meaning": "to teach"
+        "meaning": "to teach, to tell"
       },
       {
         "word": "教室",
@@ -1386,10 +1691,45 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-元",
-    "slug": "42-元",
+    "id": "n4-kanji-文",
+    "slug": "51-文",
     "level": "n4",
-    "order": 42,
+    "order": 51,
+    "day": 5,
+    "character": "文",
+    "meanings": [
+      "writing",
+      "sentence"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "ふみ"
+    ],
+    "words": [
+      {
+        "word": "文",
+        "reading": "ぶん",
+        "meaning": "sentence"
+      },
+      {
+        "word": "作文",
+        "reading": "さくぶん",
+        "meaning": "composition, essay"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-元",
+    "slug": "52-元",
+    "level": "n4",
+    "order": 52,
     "day": 5,
     "character": "元",
     "meanings": [
@@ -1422,9 +1762,9 @@
   },
   {
     "id": "n4-kanji-重",
-    "slug": "43-重",
+    "slug": "53-重",
     "level": "n4",
-    "order": 43,
+    "order": 53,
     "day": 5,
     "character": "重",
     "meanings": [
@@ -1458,9 +1798,9 @@
   },
   {
     "id": "n4-kanji-近",
-    "slug": "44-近",
+    "slug": "54-近",
     "level": "n4",
-    "order": 44,
+    "order": 54,
     "day": 5,
     "character": "近",
     "meanings": [
@@ -1481,7 +1821,7 @@
       {
         "word": "近所",
         "reading": "きんじょ",
-        "meaning": "neighborhood"
+        "meaning": "neighbourhood"
       }
     ],
     "examples": [],
@@ -1491,9 +1831,9 @@
   },
   {
     "id": "n4-kanji-考",
-    "slug": "45-考",
+    "slug": "55-考",
     "level": "n4",
-    "order": 45,
+    "order": 55,
     "day": 5,
     "character": "考",
     "meanings": [
@@ -1510,12 +1850,12 @@
       {
         "word": "考える",
         "reading": "かんがえる",
-        "meaning": "to think"
+        "meaning": "to think, to consider"
       },
       {
         "word": "考え",
         "reading": "かんがえ",
-        "meaning": "idea"
+        "meaning": "idea, thought"
       }
     ],
     "examples": [],
@@ -1525,9 +1865,9 @@
   },
   {
     "id": "n4-kanji-画",
-    "slug": "46-画",
+    "slug": "56-画",
     "level": "n4",
-    "order": 46,
+    "order": 56,
     "day": 5,
     "character": "画",
     "meanings": [
@@ -1558,9 +1898,9 @@
   },
   {
     "id": "n4-kanji-海",
-    "slug": "47-海",
+    "slug": "57-海",
     "level": "n4",
-    "order": 47,
+    "order": 57,
     "day": 5,
     "character": "海",
     "meanings": [
@@ -1591,9 +1931,9 @@
   },
   {
     "id": "n4-kanji-売",
-    "slug": "48-売",
+    "slug": "58-売",
     "level": "n4",
-    "order": 48,
+    "order": 58,
     "day": 5,
     "character": "売",
     "meanings": [
@@ -1613,9 +1953,9 @@
         "meaning": "to sell"
       },
       {
-        "word": "売店",
-        "reading": "ばいてん",
-        "meaning": "kiosk, stand"
+        "word": "売れる",
+        "reading": "うれる",
+        "meaning": "to sell well, to be sold"
       }
     ],
     "examples": [],
@@ -1625,9 +1965,9 @@
   },
   {
     "id": "n4-kanji-知",
-    "slug": "49-知",
+    "slug": "59-知",
     "level": "n4",
-    "order": 49,
+    "order": 59,
     "day": 5,
     "character": "知",
     "meanings": [
@@ -1643,7 +1983,7 @@
       {
         "word": "知る",
         "reading": "しる",
-        "meaning": "to know"
+        "meaning": "to know, to find out"
       },
       {
         "word": "知らせ",
@@ -1657,11 +1997,45 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-集",
-    "slug": "50-集",
+    "id": "n4-kanji-道",
+    "slug": "60-道",
     "level": "n4",
-    "order": 50,
+    "order": 60,
     "day": 5,
+    "character": "道",
+    "meanings": [
+      "road",
+      "way"
+    ],
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "words": [
+      {
+        "word": "道",
+        "reading": "みち",
+        "meaning": "road"
+      },
+      {
+        "word": "北海道",
+        "reading": "ほっかいどう",
+        "meaning": "Hokkaido"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-集",
+    "slug": "61-集",
+    "level": "n4",
+    "order": 61,
+    "day": 6,
     "character": "集",
     "meanings": [
       "gather"
@@ -1677,12 +2051,12 @@
       {
         "word": "集める",
         "reading": "あつめる",
-        "meaning": "to collect"
+        "meaning": "to collect (tr.)"
       },
       {
-        "word": "集合",
-        "reading": "しゅうごう",
-        "meaning": "assembly, meeting up"
+        "word": "集まる",
+        "reading": "あつまる",
+        "meaning": "to gather (intr.)"
       }
     ],
     "examples": [],
@@ -1692,9 +2066,9 @@
   },
   {
     "id": "n4-kanji-別",
-    "slug": "51-別",
+    "slug": "62-別",
     "level": "n4",
-    "order": 51,
+    "order": 62,
     "day": 6,
     "character": "別",
     "meanings": [
@@ -1726,9 +2100,9 @@
   },
   {
     "id": "n4-kanji-物",
-    "slug": "52-物",
+    "slug": "63-物",
     "level": "n4",
-    "order": 52,
+    "order": 63,
     "day": 6,
     "character": "物",
     "meanings": [
@@ -1760,9 +2134,9 @@
   },
   {
     "id": "n4-kanji-使",
-    "slug": "53-使",
+    "slug": "64-使",
     "level": "n4",
-    "order": 53,
+    "order": 64,
     "day": 6,
     "character": "使",
     "meanings": [
@@ -1793,9 +2167,9 @@
   },
   {
     "id": "n4-kanji-品",
-    "slug": "54-品",
+    "slug": "65-品",
     "level": "n4",
-    "order": 54,
+    "order": 65,
     "day": 6,
     "character": "品",
     "meanings": [
@@ -1827,9 +2201,9 @@
   },
   {
     "id": "n4-kanji-計",
-    "slug": "55-計",
+    "slug": "66-計",
     "level": "n4",
-    "order": 55,
+    "order": 66,
     "day": 6,
     "character": "計",
     "meanings": [
@@ -1846,7 +2220,7 @@
       {
         "word": "時計",
         "reading": "とけい",
-        "meaning": "clock"
+        "meaning": "clock, watch"
       },
       {
         "word": "計画",
@@ -1861,9 +2235,9 @@
   },
   {
     "id": "n4-kanji-死",
-    "slug": "56-死",
+    "slug": "67-死",
     "level": "n4",
-    "order": 56,
+    "order": 67,
     "day": 6,
     "character": "死",
     "meanings": [
@@ -1884,7 +2258,7 @@
       {
         "word": "死者",
         "reading": "ししゃ",
-        "meaning": "the dead"
+        "meaning": "the dead, casualties"
       }
     ],
     "examples": [],
@@ -1894,9 +2268,9 @@
   },
   {
     "id": "n4-kanji-特",
-    "slug": "57-特",
+    "slug": "68-特",
     "level": "n4",
-    "order": 57,
+    "order": 68,
     "day": 6,
     "character": "特",
     "meanings": [
@@ -1925,9 +2299,9 @@
   },
   {
     "id": "n4-kanji-私",
-    "slug": "58-私",
+    "slug": "69-私",
     "level": "n4",
-    "order": 58,
+    "order": 69,
     "day": 6,
     "character": "私",
     "meanings": [
@@ -1960,9 +2334,9 @@
   },
   {
     "id": "n4-kanji-始",
-    "slug": "59-始",
+    "slug": "70-始",
     "level": "n4",
-    "order": 59,
+    "order": 70,
     "day": 6,
     "character": "始",
     "meanings": [
@@ -1979,7 +2353,7 @@
       {
         "word": "始める",
         "reading": "はじめる",
-        "meaning": "to begin (tr.)"
+        "meaning": "to begin (transitive)"
       },
       {
         "word": "始発",
@@ -1994,9 +2368,9 @@
   },
   {
     "id": "n4-kanji-朝",
-    "slug": "60-朝",
+    "slug": "71-朝",
     "level": "n4",
-    "order": 60,
+    "order": 71,
     "day": 6,
     "character": "朝",
     "meanings": [
@@ -2027,10 +2401,10 @@
   },
   {
     "id": "n4-kanji-運",
-    "slug": "61-運",
+    "slug": "72-運",
     "level": "n4",
-    "order": 61,
-    "day": 7,
+    "order": 72,
+    "day": 6,
     "character": "運",
     "meanings": [
       "carry",
@@ -2061,9 +2435,9 @@
   },
   {
     "id": "n4-kanji-終",
-    "slug": "62-終",
+    "slug": "73-終",
     "level": "n4",
-    "order": 62,
+    "order": 73,
     "day": 7,
     "character": "終",
     "meanings": [
@@ -2080,7 +2454,7 @@
       {
         "word": "終わる",
         "reading": "おわる",
-        "meaning": "to end"
+        "meaning": "to end (intransitive)"
       },
       {
         "word": "終電",
@@ -2095,9 +2469,9 @@
   },
   {
     "id": "n4-kanji-台",
-    "slug": "63-台",
+    "slug": "74-台",
     "level": "n4",
-    "order": 63,
+    "order": 74,
     "day": 7,
     "character": "台",
     "meanings": [
@@ -2118,7 +2492,7 @@
       {
         "word": "一台",
         "reading": "いちだい",
-        "meaning": "one (machine/vehicle)"
+        "meaning": "one (machine or vehicle)"
       }
     ],
     "examples": [],
@@ -2128,9 +2502,9 @@
   },
   {
     "id": "n4-kanji-広",
-    "slug": "64-広",
+    "slug": "75-広",
     "level": "n4",
-    "order": 64,
+    "order": 75,
     "day": 7,
     "character": "広",
     "meanings": [
@@ -2147,12 +2521,12 @@
       {
         "word": "広い",
         "reading": "ひろい",
-        "meaning": "wide"
+        "meaning": "wide, spacious"
       },
       {
         "word": "広場",
         "reading": "ひろば",
-        "meaning": "plaza"
+        "meaning": "plaza, square"
       }
     ],
     "examples": [],
@@ -2162,9 +2536,9 @@
   },
   {
     "id": "n4-kanji-住",
-    "slug": "65-住",
+    "slug": "76-住",
     "level": "n4",
-    "order": 65,
+    "order": 76,
     "day": 7,
     "character": "住",
     "meanings": [
@@ -2181,7 +2555,7 @@
       {
         "word": "住む",
         "reading": "すむ",
-        "meaning": "to live"
+        "meaning": "to live, to reside"
       },
       {
         "word": "住所",
@@ -2196,9 +2570,9 @@
   },
   {
     "id": "n4-kanji-真",
-    "slug": "66-真",
+    "slug": "77-真",
     "level": "n4",
-    "order": 66,
+    "order": 77,
     "day": 7,
     "character": "真",
     "meanings": [
@@ -2219,7 +2593,7 @@
       {
         "word": "真ん中",
         "reading": "まんなか",
-        "meaning": "center"
+        "meaning": "the centre"
       }
     ],
     "examples": [],
@@ -2229,9 +2603,9 @@
   },
   {
     "id": "n4-kanji-有",
-    "slug": "67-有",
+    "slug": "78-有",
     "level": "n4",
-    "order": 67,
+    "order": 78,
     "day": 7,
     "character": "有",
     "meanings": [
@@ -2254,7 +2628,76 @@
       {
         "word": "有料",
         "reading": "ゆうりょう",
-        "meaning": "paid, fee-charging"
+        "meaning": "fee-charging, paid"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-口",
+    "slug": "79-口",
+    "level": "n4",
+    "order": 79,
+    "day": 7,
+    "character": "口",
+    "meanings": [
+      "mouth",
+      "opening"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "words": [
+      {
+        "word": "口",
+        "reading": "くち",
+        "meaning": "mouth"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-少",
+    "slug": "80-少",
+    "level": "n4",
+    "order": 80,
+    "day": 7,
+    "character": "少",
+    "meanings": [
+      "few",
+      "a little"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すく.ない",
+      "すこ.し"
+    ],
+    "words": [
+      {
+        "word": "少ない",
+        "reading": "すくない",
+        "meaning": "few"
+      },
+      {
+        "word": "少し",
+        "reading": "すこし",
+        "meaning": "a little"
       }
     ],
     "examples": [],
@@ -2264,9 +2707,9 @@
   },
   {
     "id": "n4-kanji-町",
-    "slug": "68-町",
+    "slug": "81-町",
     "level": "n4",
-    "order": 68,
+    "order": 81,
     "day": 7,
     "character": "町",
     "meanings": [
@@ -2297,9 +2740,9 @@
   },
   {
     "id": "n4-kanji-料",
-    "slug": "69-料",
+    "slug": "82-料",
     "level": "n4",
-    "order": 69,
+    "order": 82,
     "day": 7,
     "character": "料",
     "meanings": [
@@ -2314,7 +2757,7 @@
       {
         "word": "料理",
         "reading": "りょうり",
-        "meaning": "cooking"
+        "meaning": "cooking, a dish"
       },
       {
         "word": "料金",
@@ -2329,9 +2772,9 @@
   },
   {
     "id": "n4-kanji-工",
-    "slug": "70-工",
+    "slug": "83-工",
     "level": "n4",
-    "order": 70,
+    "order": 83,
     "day": 7,
     "character": "工",
     "meanings": [
@@ -2362,10 +2805,10 @@
   },
   {
     "id": "n4-kanji-建",
-    "slug": "71-建",
+    "slug": "84-建",
     "level": "n4",
-    "order": 71,
-    "day": 8,
+    "order": 84,
+    "day": 7,
     "character": "建",
     "meanings": [
       "build"
@@ -2397,9 +2840,9 @@
   },
   {
     "id": "n4-kanji-空",
-    "slug": "72-空",
+    "slug": "85-空",
     "level": "n4",
-    "order": 72,
+    "order": 85,
     "day": 8,
     "character": "空",
     "meanings": [
@@ -2433,9 +2876,9 @@
   },
   {
     "id": "n4-kanji-急",
-    "slug": "73-急",
+    "slug": "86-急",
     "level": "n4",
-    "order": 73,
+    "order": 86,
     "day": 8,
     "character": "急",
     "meanings": [
@@ -2467,9 +2910,9 @@
   },
   {
     "id": "n4-kanji-止",
-    "slug": "74-止",
+    "slug": "87-止",
     "level": "n4",
-    "order": 74,
+    "order": 87,
     "day": 8,
     "character": "止",
     "meanings": [
@@ -2486,7 +2929,7 @@
       {
         "word": "止まる",
         "reading": "とまる",
-        "meaning": "to stop (intr.)"
+        "meaning": "to stop (intransitive)"
       },
       {
         "word": "中止",
@@ -2501,9 +2944,9 @@
   },
   {
     "id": "n4-kanji-送",
-    "slug": "75-送",
+    "slug": "88-送",
     "level": "n4",
-    "order": 75,
+    "order": 88,
     "day": 8,
     "character": "送",
     "meanings": [
@@ -2534,9 +2977,9 @@
   },
   {
     "id": "n4-kanji-切",
-    "slug": "76-切",
+    "slug": "89-切",
     "level": "n4",
-    "order": 76,
+    "order": 89,
     "day": 8,
     "character": "切",
     "meanings": [
@@ -2559,7 +3002,7 @@
       {
         "word": "大切",
         "reading": "たいせつ",
-        "meaning": "important"
+        "meaning": "important, precious"
       }
     ],
     "examples": [],
@@ -2569,9 +3012,9 @@
   },
   {
     "id": "n4-kanji-転",
-    "slug": "77-転",
+    "slug": "90-転",
     "level": "n4",
-    "order": 77,
+    "order": 90,
     "day": 8,
     "character": "転",
     "meanings": [
@@ -2604,9 +3047,9 @@
   },
   {
     "id": "n4-kanji-研",
-    "slug": "78-研",
+    "slug": "91-研",
     "level": "n4",
-    "order": 78,
+    "order": 91,
     "day": 8,
     "character": "研",
     "meanings": [
@@ -2637,10 +3080,46 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-究",
-    "slug": "79-究",
+    "id": "n4-kanji-足",
+    "slug": "92-足",
     "level": "n4",
-    "order": 79,
+    "order": 92,
+    "day": 8,
+    "character": "足",
+    "meanings": [
+      "foot",
+      "leg"
+    ],
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た.りる",
+      "た.す"
+    ],
+    "words": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning": "foot, leg"
+      },
+      {
+        "word": "一足",
+        "reading": "いっそく",
+        "meaning": "one pair (of shoes)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-究",
+    "slug": "93-究",
+    "level": "n4",
+    "order": 93,
     "day": 8,
     "character": "究",
     "meanings": [
@@ -2672,9 +3151,9 @@
   },
   {
     "id": "n4-kanji-楽",
-    "slug": "80-楽",
+    "slug": "94-楽",
     "level": "n4",
-    "order": 80,
+    "order": 94,
     "day": 8,
     "character": "楽",
     "meanings": [
@@ -2694,7 +3173,7 @@
       {
         "word": "楽しい",
         "reading": "たのしい",
-        "meaning": "fun"
+        "meaning": "fun, enjoyable"
       },
       {
         "word": "音楽",
@@ -2709,10 +3188,10 @@
   },
   {
     "id": "n4-kanji-起",
-    "slug": "81-起",
+    "slug": "95-起",
     "level": "n4",
-    "order": 81,
-    "day": 9,
+    "order": 95,
+    "day": 8,
     "character": "起",
     "meanings": [
       "get up",
@@ -2734,7 +3213,7 @@
       {
         "word": "起こす",
         "reading": "おこす",
-        "meaning": "to wake (someone)"
+        "meaning": "to wake someone"
       }
     ],
     "examples": [],
@@ -2744,10 +3223,10 @@
   },
   {
     "id": "n4-kanji-着",
-    "slug": "82-着",
+    "slug": "96-着",
     "level": "n4",
-    "order": 82,
-    "day": 9,
+    "order": 96,
+    "day": 8,
     "character": "着",
     "meanings": [
       "wear",
@@ -2764,7 +3243,7 @@
       {
         "word": "着る",
         "reading": "きる",
-        "meaning": "to wear"
+        "meaning": "to wear, to put on"
       },
       {
         "word": "着く",
@@ -2778,10 +3257,43 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-病",
-    "slug": "83-病",
+    "id": "n4-kanji-店",
+    "slug": "97-店",
     "level": "n4",
-    "order": 83,
+    "order": 97,
+    "day": 9,
+    "character": "店",
+    "meanings": [
+      "shop"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ"
+    ],
+    "words": [
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "shop"
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "shop clerk"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-病",
+    "slug": "98-病",
+    "level": "n4",
+    "order": 98,
     "day": 9,
     "character": "病",
     "meanings": [
@@ -2813,9 +3325,9 @@
   },
   {
     "id": "n4-kanji-質",
-    "slug": "84-質",
+    "slug": "99-質",
     "level": "n4",
-    "order": 84,
+    "order": 99,
     "day": 9,
     "character": "質",
     "meanings": [
@@ -2845,9 +3357,9 @@
   },
   {
     "id": "n4-kanji-待",
-    "slug": "85-待",
+    "slug": "100-待",
     "level": "n4",
-    "order": 85,
+    "order": 100,
     "day": 9,
     "character": "待",
     "meanings": [
@@ -2878,9 +3390,9 @@
   },
   {
     "id": "n4-kanji-試",
-    "slug": "86-試",
+    "slug": "101-試",
     "level": "n4",
-    "order": 86,
+    "order": 101,
     "day": 9,
     "character": "試",
     "meanings": [
@@ -2913,9 +3425,9 @@
   },
   {
     "id": "n4-kanji-族",
-    "slug": "87-族",
+    "slug": "102-族",
     "level": "n4",
-    "order": 87,
+    "order": 102,
     "day": 9,
     "character": "族",
     "meanings": [
@@ -2945,9 +3457,9 @@
   },
   {
     "id": "n4-kanji-銀",
-    "slug": "88-銀",
+    "slug": "103-銀",
     "level": "n4",
-    "order": 88,
+    "order": 103,
     "day": 9,
     "character": "銀",
     "meanings": [
@@ -2976,9 +3488,9 @@
   },
   {
     "id": "n4-kanji-早",
-    "slug": "89-早",
+    "slug": "104-早",
     "level": "n4",
-    "order": 89,
+    "order": 104,
     "day": 9,
     "character": "早",
     "meanings": [
@@ -3009,9 +3521,9 @@
   },
   {
     "id": "n4-kanji-映",
-    "slug": "90-映",
+    "slug": "105-映",
     "level": "n4",
-    "order": 90,
+    "order": 105,
     "day": 9,
     "character": "映",
     "meanings": [
@@ -3029,12 +3541,12 @@
       {
         "word": "映画",
         "reading": "えいが",
-        "meaning": "movie"
+        "meaning": "film, movie"
       },
       {
         "word": "映る",
         "reading": "うつる",
-        "meaning": "to be reflected"
+        "meaning": "to be reflected, to show up"
       }
     ],
     "examples": [],
@@ -3044,10 +3556,10 @@
   },
   {
     "id": "n4-kanji-親",
-    "slug": "91-親",
+    "slug": "106-親",
     "level": "n4",
-    "order": 91,
-    "day": 10,
+    "order": 106,
+    "day": 9,
     "character": "親",
     "meanings": [
       "parent",
@@ -3079,10 +3591,10 @@
   },
   {
     "id": "n4-kanji-験",
-    "slug": "92-験",
+    "slug": "107-験",
     "level": "n4",
-    "order": 92,
-    "day": 10,
+    "order": 107,
+    "day": 9,
     "character": "験",
     "meanings": [
       "test",
@@ -3112,10 +3624,10 @@
   },
   {
     "id": "n4-kanji-英",
-    "slug": "93-英",
+    "slug": "108-英",
     "level": "n4",
-    "order": 93,
-    "day": 10,
+    "order": 108,
+    "day": 9,
     "character": "英",
     "meanings": [
       "England",
@@ -3129,7 +3641,7 @@
       {
         "word": "英語",
         "reading": "えいご",
-        "meaning": "English"
+        "meaning": "English (language)"
       },
       {
         "word": "英会話",
@@ -3144,9 +3656,9 @@
   },
   {
     "id": "n4-kanji-医",
-    "slug": "94-医",
+    "slug": "109-医",
     "level": "n4",
-    "order": 94,
+    "order": 109,
     "day": 10,
     "character": "医",
     "meanings": [
@@ -3176,9 +3688,9 @@
   },
   {
     "id": "n4-kanji-仕",
-    "slug": "95-仕",
+    "slug": "110-仕",
     "level": "n4",
-    "order": 95,
+    "order": 110,
     "day": 10,
     "character": "仕",
     "meanings": [
@@ -3196,7 +3708,7 @@
       {
         "word": "仕事",
         "reading": "しごと",
-        "meaning": "work"
+        "meaning": "work, job"
       },
       {
         "word": "仕方",
@@ -3211,9 +3723,9 @@
   },
   {
     "id": "n4-kanji-去",
-    "slug": "96-去",
+    "slug": "111-去",
     "level": "n4",
-    "order": 96,
+    "order": 111,
     "day": 10,
     "character": "去",
     "meanings": [
@@ -3236,7 +3748,7 @@
       {
         "word": "去る",
         "reading": "さる",
-        "meaning": "to leave"
+        "meaning": "to leave, to go away"
       }
     ],
     "examples": [],
@@ -3246,9 +3758,9 @@
   },
   {
     "id": "n4-kanji-味",
-    "slug": "97-味",
+    "slug": "112-味",
     "level": "n4",
-    "order": 97,
+    "order": 112,
     "day": 10,
     "character": "味",
     "meanings": [
@@ -3266,7 +3778,7 @@
       {
         "word": "味",
         "reading": "あじ",
-        "meaning": "taste"
+        "meaning": "taste, flavour"
       },
       {
         "word": "意味",
@@ -3281,9 +3793,9 @@
   },
   {
     "id": "n4-kanji-写",
-    "slug": "98-写",
+    "slug": "113-写",
     "level": "n4",
-    "order": 98,
+    "order": 113,
     "day": 10,
     "character": "写",
     "meanings": [
@@ -3306,7 +3818,39 @@
       {
         "word": "写す",
         "reading": "うつす",
-        "meaning": "to copy"
+        "meaning": "to copy, to photograph"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-字",
+    "slug": "114-字",
+    "level": "n4",
+    "order": 114,
+    "day": 10,
+    "character": "字",
+    "meanings": [
+      "character",
+      "letter"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "漢字",
+        "reading": "かんじ",
+        "meaning": "kanji"
+      },
+      {
+        "word": "字",
+        "reading": "じ",
+        "meaning": "character, handwriting"
       }
     ],
     "examples": [],
@@ -3316,9 +3860,9 @@
   },
   {
     "id": "n4-kanji-答",
-    "slug": "99-答",
+    "slug": "115-答",
     "level": "n4",
-    "order": 99,
+    "order": 115,
     "day": 10,
     "character": "答",
     "meanings": [
@@ -3339,7 +3883,7 @@
       {
         "word": "答え",
         "reading": "こたえ",
-        "meaning": "answer"
+        "meaning": "an answer"
       }
     ],
     "examples": [],
@@ -3349,9 +3893,9 @@
   },
   {
     "id": "n4-kanji-夜",
-    "slug": "100-夜",
+    "slug": "116-夜",
     "level": "n4",
-    "order": 100,
+    "order": 116,
     "day": 10,
     "character": "夜",
     "meanings": [
@@ -3383,13 +3927,14 @@
   },
   {
     "id": "n4-kanji-音",
-    "slug": "101-音",
+    "slug": "117-音",
     "level": "n4",
-    "order": 101,
-    "day": 11,
+    "order": 117,
+    "day": 10,
     "character": "音",
     "meanings": [
-      "sound"
+      "sound",
+      "noise"
     ],
     "onyomi": [
       "オン",
@@ -3403,7 +3948,7 @@
       {
         "word": "音",
         "reading": "おと",
-        "meaning": "sound"
+        "meaning": "sound, noise"
       },
       {
         "word": "音楽",
@@ -3418,14 +3963,15 @@
   },
   {
     "id": "n4-kanji-注",
-    "slug": "102-注",
+    "slug": "118-注",
     "level": "n4",
-    "order": 102,
-    "day": 11,
+    "order": 118,
+    "day": 10,
     "character": "注",
     "meanings": [
       "pour",
-      "note"
+      "note",
+      "focus on"
     ],
     "onyomi": [
       "チュウ"
@@ -3437,12 +3983,79 @@
       {
         "word": "注意",
         "reading": "ちゅうい",
-        "meaning": "attention"
+        "meaning": "attention, caution"
       },
       {
         "word": "注文",
         "reading": "ちゅうもん",
-        "meaning": "order"
+        "meaning": "an order (in a shop or restaurant)"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-帰",
+    "slug": "119-帰",
+    "level": "n4",
+    "order": 119,
+    "day": 10,
+    "character": "帰",
+    "meanings": [
+      "return",
+      "go home"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "かえ.る"
+    ],
+    "words": [
+      {
+        "word": "帰る",
+        "reading": "かえる",
+        "meaning": "to go home, to return"
+      },
+      {
+        "word": "帰国",
+        "reading": "きこく",
+        "meaning": "returning to one's country"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-古",
+    "slug": "120-古",
+    "level": "n4",
+    "order": 120,
+    "day": 10,
+    "character": "古",
+    "meanings": [
+      "old (things)"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふる.い"
+    ],
+    "words": [
+      {
+        "word": "古い",
+        "reading": "ふるい",
+        "meaning": "old"
+      },
+      {
+        "word": "中古",
+        "reading": "ちゅうこ",
+        "meaning": "second-hand"
       }
     ],
     "examples": [],
@@ -3452,9 +4065,9 @@
   },
   {
     "id": "n4-kanji-歌",
-    "slug": "103-歌",
+    "slug": "121-歌",
     "level": "n4",
-    "order": 103,
+    "order": 121,
     "day": 11,
     "character": "歌",
     "meanings": [
@@ -3475,9 +4088,42 @@
         "meaning": "song"
       },
       {
-        "word": "歌手",
-        "reading": "かしゅ",
-        "meaning": "singer"
+        "word": "歌う",
+        "reading": "うたう",
+        "meaning": "to sing"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-買",
+    "slug": "122-買",
+    "level": "n4",
+    "order": 122,
+    "day": 11,
+    "character": "買",
+    "meanings": [
+      "buy"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "か.う"
+    ],
+    "words": [
+      {
+        "word": "買う",
+        "reading": "かう",
+        "meaning": "to buy"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "meaning": "shopping"
       }
     ],
     "examples": [],
@@ -3487,13 +4133,14 @@
   },
   {
     "id": "n4-kanji-悪",
-    "slug": "104-悪",
+    "slug": "123-悪",
     "level": "n4",
-    "order": 104,
+    "order": 123,
     "day": 11,
     "character": "悪",
     "meanings": [
-      "bad"
+      "bad",
+      "evil"
     ],
     "onyomi": [
       "アク",
@@ -3511,7 +4158,7 @@
       {
         "word": "悪口",
         "reading": "わるぐち",
-        "meaning": "bad-mouthing"
+        "meaning": "bad-mouthing, insults"
       }
     ],
     "examples": [],
@@ -3521,14 +4168,15 @@
   },
   {
     "id": "n4-kanji-図",
-    "slug": "105-図",
+    "slug": "124-図",
     "level": "n4",
-    "order": 105,
+    "order": 124,
     "day": 11,
     "character": "図",
     "meanings": [
       "diagram",
-      "drawing"
+      "drawing",
+      "plan"
     ],
     "onyomi": [
       "ズ",
@@ -3555,10 +4203,41 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-室",
-    "slug": "106-室",
+    "id": "n4-kanji-週",
+    "slug": "125-週",
     "level": "n4",
-    "order": 106,
+    "order": 125,
+    "day": 11,
+    "character": "週",
+    "meanings": [
+      "week"
+    ],
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "this week"
+      },
+      {
+        "word": "週末",
+        "reading": "しゅうまつ",
+        "meaning": "weekend"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-室",
+    "slug": "126-室",
+    "level": "n4",
+    "order": 126,
     "day": 11,
     "character": "室",
     "meanings": [
@@ -3579,7 +4258,7 @@
       {
         "word": "室内",
         "reading": "しつない",
-        "meaning": "indoors"
+        "meaning": "indoors, inside a room"
       }
     ],
     "examples": [],
@@ -3589,13 +4268,14 @@
   },
   {
     "id": "n4-kanji-歩",
-    "slug": "107-歩",
+    "slug": "127-歩",
     "level": "n4",
-    "order": 107,
+    "order": 127,
     "day": 11,
     "character": "歩",
     "meanings": [
-      "walk"
+      "walk",
+      "step"
     ],
     "onyomi": [
       "ホ",
@@ -3614,7 +4294,7 @@
       {
         "word": "散歩",
         "reading": "さんぽ",
-        "meaning": "a walk, stroll"
+        "meaning": "a walk, a stroll"
       }
     ],
     "examples": [],
@@ -3624,14 +4304,15 @@
   },
   {
     "id": "n4-kanji-風",
-    "slug": "108-風",
+    "slug": "128-風",
     "level": "n4",
-    "order": 108,
+    "order": 128,
     "day": 11,
     "character": "風",
     "meanings": [
       "wind",
-      "style"
+      "style",
+      "manner"
     ],
     "onyomi": [
       "フウ",
@@ -3659,9 +4340,9 @@
   },
   {
     "id": "n4-kanji-紙",
-    "slug": "109-紙",
+    "slug": "129-紙",
     "level": "n4",
-    "order": 109,
+    "order": 129,
     "day": 11,
     "character": "紙",
     "meanings": [
@@ -3692,9 +4373,9 @@
   },
   {
     "id": "n4-kanji-黒",
-    "slug": "110-黒",
+    "slug": "130-黒",
     "level": "n4",
-    "order": 110,
+    "order": 130,
     "day": 11,
     "character": "黒",
     "meanings": [
@@ -3714,9 +4395,9 @@
         "meaning": "black"
       },
       {
-        "word": "黒板",
-        "reading": "こくばん",
-        "meaning": "blackboard"
+        "word": "黒",
+        "reading": "くろ",
+        "meaning": "the color black"
       }
     ],
     "examples": [],
@@ -3726,10 +4407,10 @@
   },
   {
     "id": "n4-kanji-花",
-    "slug": "111-花",
+    "slug": "131-花",
     "level": "n4",
-    "order": 111,
-    "day": 12,
+    "order": 131,
+    "day": 11,
     "character": "花",
     "meanings": [
       "flower"
@@ -3759,10 +4440,10 @@
   },
   {
     "id": "n4-kanji-春",
-    "slug": "112-春",
+    "slug": "132-春",
     "level": "n4",
-    "order": 112,
-    "day": 12,
+    "order": 132,
+    "day": 11,
     "character": "春",
     "meanings": [
       "spring"
@@ -3792,9 +4473,9 @@
   },
   {
     "id": "n4-kanji-赤",
-    "slug": "113-赤",
+    "slug": "133-赤",
     "level": "n4",
-    "order": 113,
+    "order": 133,
     "day": 12,
     "character": "赤",
     "meanings": [
@@ -3815,9 +4496,9 @@
         "meaning": "red"
       },
       {
-        "word": "赤ちゃん",
-        "reading": "あかちゃん",
-        "meaning": "baby"
+        "word": "赤",
+        "reading": "あか",
+        "meaning": "the color red"
       }
     ],
     "examples": [],
@@ -3827,9 +4508,9 @@
   },
   {
     "id": "n4-kanji-青",
-    "slug": "114-青",
+    "slug": "134-青",
     "level": "n4",
-    "order": 114,
+    "order": 134,
     "day": 12,
     "character": "青",
     "meanings": [
@@ -3851,9 +4532,9 @@
         "meaning": "blue"
       },
       {
-        "word": "青年",
-        "reading": "せいねん",
-        "meaning": "youth, young man"
+        "word": "青",
+        "reading": "あお",
+        "meaning": "the color blue"
       }
     ],
     "examples": [],
@@ -3863,14 +4544,14 @@
   },
   {
     "id": "n4-kanji-館",
-    "slug": "115-館",
+    "slug": "135-館",
     "level": "n4",
-    "order": 115,
+    "order": 135,
     "day": 12,
     "character": "館",
     "meanings": [
       "hall",
-      "building"
+      "large building"
     ],
     "onyomi": [
       "カン"
@@ -3887,7 +4568,7 @@
       {
         "word": "映画館",
         "reading": "えいがかん",
-        "meaning": "cinema"
+        "meaning": "cinema, movie theater"
       }
     ],
     "examples": [],
@@ -3897,14 +4578,15 @@
   },
   {
     "id": "n4-kanji-屋",
-    "slug": "116-屋",
+    "slug": "136-屋",
     "level": "n4",
-    "order": 116,
+    "order": 136,
     "day": 12,
     "character": "屋",
     "meanings": [
       "shop",
-      "roof"
+      "roof",
+      "dealer"
     ],
     "onyomi": [
       "オク"
@@ -3931,9 +4613,9 @@
   },
   {
     "id": "n4-kanji-色",
-    "slug": "117-色",
+    "slug": "137-色",
     "level": "n4",
-    "order": 117,
+    "order": 137,
     "day": 12,
     "character": "色",
     "meanings": [
@@ -3955,7 +4637,7 @@
       {
         "word": "景色",
         "reading": "けしき",
-        "meaning": "scenery"
+        "meaning": "scenery, view"
       }
     ],
     "examples": [],
@@ -3965,9 +4647,9 @@
   },
   {
     "id": "n4-kanji-走",
-    "slug": "118-走",
+    "slug": "138-走",
     "level": "n4",
-    "order": 118,
+    "order": 138,
     "day": 12,
     "character": "走",
     "meanings": [
@@ -3998,13 +4680,14 @@
   },
   {
     "id": "n4-kanji-秋",
-    "slug": "119-秋",
+    "slug": "139-秋",
     "level": "n4",
-    "order": 119,
+    "order": 139,
     "day": 12,
     "character": "秋",
     "meanings": [
-      "autumn"
+      "autumn",
+      "fall"
     ],
     "onyomi": [
       "シュウ"
@@ -4031,9 +4714,9 @@
   },
   {
     "id": "n4-kanji-夏",
-    "slug": "120-夏",
+    "slug": "140-夏",
     "level": "n4",
-    "order": 120,
+    "order": 140,
     "day": 12,
     "character": "夏",
     "meanings": [
@@ -4065,13 +4748,14 @@
   },
   {
     "id": "n4-kanji-習",
-    "slug": "121-習",
+    "slug": "141-習",
     "level": "n4",
-    "order": 121,
-    "day": 13,
+    "order": 141,
+    "day": 12,
     "character": "習",
     "meanings": [
-      "learn"
+      "learn",
+      "practice"
     ],
     "onyomi": [
       "シュウ"
@@ -4083,7 +4767,7 @@
       {
         "word": "習う",
         "reading": "ならう",
-        "meaning": "to learn"
+        "meaning": "to learn (from a teacher)"
       },
       {
         "word": "練習",
@@ -4097,11 +4781,42 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-洋",
-    "slug": "122-洋",
+    "id": "n4-kanji-駅",
+    "slug": "142-駅",
     "level": "n4",
-    "order": 122,
-    "day": 13,
+    "order": 142,
+    "day": 12,
+    "character": "駅",
+    "meanings": [
+      "station"
+    ],
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [],
+    "words": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "station"
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "in front of the station"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-洋",
+    "slug": "143-洋",
+    "level": "n4",
+    "order": 143,
+    "day": 12,
     "character": "洋",
     "meanings": [
       "ocean",
@@ -4130,13 +4845,14 @@
   },
   {
     "id": "n4-kanji-旅",
-    "slug": "123-旅",
+    "slug": "144-旅",
     "level": "n4",
-    "order": 123,
-    "day": 13,
+    "order": 144,
+    "day": 12,
     "character": "旅",
     "meanings": [
-      "travel"
+      "travel",
+      "journey"
     ],
     "onyomi": [
       "リョ"
@@ -4148,7 +4864,7 @@
       {
         "word": "旅行",
         "reading": "りょこう",
-        "meaning": "trip"
+        "meaning": "trip, travel"
       },
       {
         "word": "旅",
@@ -4163,9 +4879,9 @@
   },
   {
     "id": "n4-kanji-服",
-    "slug": "124-服",
+    "slug": "145-服",
     "level": "n4",
-    "order": 124,
+    "order": 145,
     "day": 13,
     "character": "服",
     "meanings": [
@@ -4182,9 +4898,9 @@
         "meaning": "clothes"
       },
       {
-        "word": "制服",
-        "reading": "せいふく",
-        "meaning": "uniform"
+        "word": "洋服",
+        "reading": "ようふく",
+        "meaning": "Western clothes"
       }
     ],
     "examples": [],
@@ -4194,9 +4910,9 @@
   },
   {
     "id": "n4-kanji-夕",
-    "slug": "125-夕",
+    "slug": "146-夕",
     "level": "n4",
-    "order": 125,
+    "order": 146,
     "day": 13,
     "character": "夕",
     "meanings": [
@@ -4212,7 +4928,7 @@
       {
         "word": "夕方",
         "reading": "ゆうがた",
-        "meaning": "evening"
+        "meaning": "evening, late afternoon"
       },
       {
         "word": "夕飯",
@@ -4227,9 +4943,9 @@
   },
   {
     "id": "n4-kanji-借",
-    "slug": "126-借",
+    "slug": "147-借",
     "level": "n4",
-    "order": 126,
+    "order": 147,
     "day": 13,
     "character": "借",
     "meanings": [
@@ -4260,9 +4976,9 @@
   },
   {
     "id": "n4-kanji-曜",
-    "slug": "127-曜",
+    "slug": "148-曜",
     "level": "n4",
-    "order": 127,
+    "order": 148,
     "day": 13,
     "character": "曜",
     "meanings": [
@@ -4290,14 +5006,48 @@
     "enriched": false
   },
   {
-    "id": "n4-kanji-肉",
-    "slug": "128-肉",
+    "id": "n4-kanji-飲",
+    "slug": "149-飲",
     "level": "n4",
-    "order": 128,
+    "order": 149,
+    "day": 13,
+    "character": "飲",
+    "meanings": [
+      "drink"
+    ],
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の.む"
+    ],
+    "words": [
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "to drink"
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning": "drinks, beverage"
+      }
+    ],
+    "examples": [],
+    "similarKanji": [],
+    "commonMistakes": [],
+    "enriched": false
+  },
+  {
+    "id": "n4-kanji-肉",
+    "slug": "150-肉",
+    "level": "n4",
+    "order": 150,
     "day": 13,
     "character": "肉",
     "meanings": [
-      "meat"
+      "meat",
+      "flesh"
     ],
     "onyomi": [
       "ニク"
@@ -4322,9 +5072,9 @@
   },
   {
     "id": "n4-kanji-貸",
-    "slug": "129-貸",
+    "slug": "151-貸",
     "level": "n4",
-    "order": 129,
+    "order": 151,
     "day": 13,
     "character": "貸",
     "meanings": [
@@ -4345,7 +5095,7 @@
       {
         "word": "貸し出し",
         "reading": "かしだし",
-        "meaning": "lending, loan"
+        "meaning": "lending, loan (of books etc.)"
       }
     ],
     "examples": [],
@@ -4355,13 +5105,14 @@
   },
   {
     "id": "n4-kanji-堂",
-    "slug": "130-堂",
+    "slug": "152-堂",
     "level": "n4",
-    "order": 130,
+    "order": 152,
     "day": 13,
     "character": "堂",
     "meanings": [
-      "hall"
+      "hall",
+      "public chamber"
     ],
     "onyomi": [
       "ドウ"
@@ -4371,7 +5122,7 @@
       {
         "word": "食堂",
         "reading": "しょくどう",
-        "meaning": "dining hall"
+        "meaning": "dining hall, canteen"
       },
       {
         "word": "本堂",
@@ -4386,10 +5137,10 @@
   },
   {
     "id": "n4-kanji-鳥",
-    "slug": "131-鳥",
+    "slug": "153-鳥",
     "level": "n4",
-    "order": 131,
-    "day": 14,
+    "order": 153,
+    "day": 13,
     "character": "鳥",
     "meanings": [
       "bird"
@@ -4419,10 +5170,10 @@
   },
   {
     "id": "n4-kanji-飯",
-    "slug": "132-飯",
+    "slug": "154-飯",
     "level": "n4",
-    "order": 132,
-    "day": 14,
+    "order": 154,
+    "day": 13,
     "character": "飯",
     "meanings": [
       "cooked rice",
@@ -4438,7 +5189,7 @@
       {
         "word": "ご飯",
         "reading": "ごはん",
-        "meaning": "rice, meal"
+        "meaning": "cooked rice, a meal"
       },
       {
         "word": "朝ご飯",
@@ -4453,10 +5204,10 @@
   },
   {
     "id": "n4-kanji-勉",
-    "slug": "133-勉",
+    "slug": "155-勉",
     "level": "n4",
-    "order": 133,
-    "day": 14,
+    "order": 155,
+    "day": 13,
     "character": "勉",
     "meanings": [
       "effort",
@@ -4475,7 +5226,7 @@
       {
         "word": "勉強家",
         "reading": "べんきょうか",
-        "meaning": "hard worker (studious person)"
+        "meaning": "a studious person"
       }
     ],
     "examples": [],
@@ -4485,10 +5236,10 @@
   },
   {
     "id": "n4-kanji-冬",
-    "slug": "134-冬",
+    "slug": "156-冬",
     "level": "n4",
-    "order": 134,
-    "day": 14,
+    "order": 156,
+    "day": 13,
     "character": "冬",
     "meanings": [
       "winter"
@@ -4518,9 +5269,9 @@
   },
   {
     "id": "n4-kanji-昼",
-    "slug": "135-昼",
+    "slug": "157-昼",
     "level": "n4",
-    "order": 135,
+    "order": 157,
     "day": 14,
     "character": "昼",
     "meanings": [
@@ -4537,7 +5288,7 @@
       {
         "word": "昼",
         "reading": "ひる",
-        "meaning": "noon"
+        "meaning": "noon, daytime"
       },
       {
         "word": "昼ご飯",
@@ -4552,9 +5303,9 @@
   },
   {
     "id": "n4-kanji-茶",
-    "slug": "136-茶",
+    "slug": "158-茶",
     "level": "n4",
-    "order": 136,
+    "order": 158,
     "day": 14,
     "character": "茶",
     "meanings": [
@@ -4574,7 +5325,7 @@
       {
         "word": "喫茶店",
         "reading": "きっさてん",
-        "meaning": "coffee shop"
+        "meaning": "coffee shop, tearoom"
       }
     ],
     "examples": [],
@@ -4584,9 +5335,9 @@
   },
   {
     "id": "n4-kanji-弟",
-    "slug": "137-弟",
+    "slug": "159-弟",
     "level": "n4",
-    "order": 137,
+    "order": 159,
     "day": 14,
     "character": "弟",
     "meanings": [
@@ -4608,7 +5359,7 @@
       {
         "word": "兄弟",
         "reading": "きょうだい",
-        "meaning": "siblings"
+        "meaning": "siblings, brothers"
       }
     ],
     "examples": [],
@@ -4618,13 +5369,14 @@
   },
   {
     "id": "n4-kanji-牛",
-    "slug": "138-牛",
+    "slug": "160-牛",
     "level": "n4",
-    "order": 138,
+    "order": 160,
     "day": 14,
     "character": "牛",
     "meanings": [
-      "cow"
+      "cow",
+      "cattle"
     ],
     "onyomi": [
       "ギュウ"
@@ -4636,7 +5388,7 @@
       {
         "word": "牛",
         "reading": "うし",
-        "meaning": "cow"
+        "meaning": "cow, cattle"
       },
       {
         "word": "牛乳",
@@ -4651,9 +5403,9 @@
   },
   {
     "id": "n4-kanji-魚",
-    "slug": "139-魚",
+    "slug": "161-魚",
     "level": "n4",
-    "order": 139,
+    "order": 161,
     "day": 14,
     "character": "魚",
     "meanings": [
@@ -4675,7 +5427,7 @@
       {
         "word": "魚屋",
         "reading": "さかなや",
-        "meaning": "fish shop"
+        "meaning": "fish shop, fishmonger"
       }
     ],
     "examples": [],
@@ -4685,9 +5437,9 @@
   },
   {
     "id": "n4-kanji-兄",
-    "slug": "140-兄",
+    "slug": "162-兄",
     "level": "n4",
-    "order": 140,
+    "order": 162,
     "day": 14,
     "character": "兄",
     "meanings": [
@@ -4704,7 +5456,7 @@
       {
         "word": "兄",
         "reading": "あに",
-        "meaning": "older brother"
+        "meaning": "older brother (one's own)"
       },
       {
         "word": "お兄さん",
@@ -4719,10 +5471,10 @@
   },
   {
     "id": "n4-kanji-犬",
-    "slug": "141-犬",
+    "slug": "163-犬",
     "level": "n4",
-    "order": 141,
-    "day": 15,
+    "order": 163,
+    "day": 14,
     "character": "犬",
     "meanings": [
       "dog"
@@ -4752,10 +5504,10 @@
   },
   {
     "id": "n4-kanji-妹",
-    "slug": "142-妹",
+    "slug": "164-妹",
     "level": "n4",
-    "order": 142,
-    "day": 15,
+    "order": 164,
+    "day": 14,
     "character": "妹",
     "meanings": [
       "younger sister"
@@ -4770,7 +5522,7 @@
       {
         "word": "妹",
         "reading": "いもうと",
-        "meaning": "younger sister"
+        "meaning": "younger sister (one's own)"
       },
       {
         "word": "姉妹",
@@ -4785,10 +5537,10 @@
   },
   {
     "id": "n4-kanji-姉",
-    "slug": "143-姉",
+    "slug": "165-姉",
     "level": "n4",
-    "order": 143,
-    "day": 15,
+    "order": 165,
+    "day": 14,
     "character": "姉",
     "meanings": [
       "older sister"
@@ -4803,7 +5555,7 @@
       {
         "word": "姉",
         "reading": "あね",
-        "meaning": "older sister"
+        "meaning": "older sister (one's own)"
       },
       {
         "word": "お姉さん",
@@ -4818,10 +5570,10 @@
   },
   {
     "id": "n4-kanji-漢",
-    "slug": "144-漢",
+    "slug": "166-漢",
     "level": "n4",
-    "order": 144,
-    "day": 15,
+    "order": 166,
+    "day": 14,
     "character": "漢",
     "meanings": [
       "China",
@@ -4835,148 +5587,12 @@
       {
         "word": "漢字",
         "reading": "かんじ",
-        "meaning": "kanji"
+        "meaning": "kanji, Chinese characters"
       },
       {
         "word": "漢方",
         "reading": "かんぽう",
         "meaning": "Chinese herbal medicine"
-      }
-    ],
-    "examples": [],
-    "similarKanji": [],
-    "commonMistakes": [],
-    "enriched": false
-  },
-  {
-    "id": "n4-kanji-引",
-    "slug": "145-引",
-    "level": "n4",
-    "order": 145,
-    "day": 15,
-    "character": "引",
-    "meanings": [
-      "pull"
-    ],
-    "onyomi": [
-      "イン"
-    ],
-    "kunyomi": [
-      "ひ(く)",
-      "ひ(ける)"
-    ],
-    "words": [
-      {
-        "word": "引く",
-        "reading": "ひく",
-        "meaning": "to pull"
-      },
-      {
-        "word": "引っ越す",
-        "reading": "ひっこす",
-        "meaning": "to move house"
-      }
-    ],
-    "examples": [],
-    "similarKanji": [],
-    "commonMistakes": [],
-    "enriched": false
-  },
-  {
-    "id": "n4-kanji-弱",
-    "slug": "146-弱",
-    "level": "n4",
-    "order": 146,
-    "day": 15,
-    "character": "弱",
-    "meanings": [
-      "weak"
-    ],
-    "onyomi": [
-      "ジャク"
-    ],
-    "kunyomi": [
-      "よわ(い)"
-    ],
-    "words": [
-      {
-        "word": "弱い",
-        "reading": "よわい",
-        "meaning": "weak"
-      },
-      {
-        "word": "弱点",
-        "reading": "じゃくてん",
-        "meaning": "weak point"
-      }
-    ],
-    "examples": [],
-    "similarKanji": [],
-    "commonMistakes": [],
-    "enriched": false
-  },
-  {
-    "id": "n4-kanji-光",
-    "slug": "147-光",
-    "level": "n4",
-    "order": 147,
-    "day": 15,
-    "character": "光",
-    "meanings": [
-      "light",
-      "shine"
-    ],
-    "onyomi": [
-      "コウ"
-    ],
-    "kunyomi": [
-      "ひかり",
-      "ひか(る)"
-    ],
-    "words": [
-      {
-        "word": "光",
-        "reading": "ひかり",
-        "meaning": "light"
-      },
-      {
-        "word": "光る",
-        "reading": "ひかる",
-        "meaning": "to shine"
-      }
-    ],
-    "examples": [],
-    "similarKanji": [],
-    "commonMistakes": [],
-    "enriched": false
-  },
-  {
-    "id": "n4-kanji-声",
-    "slug": "148-声",
-    "level": "n4",
-    "order": 148,
-    "day": 15,
-    "character": "声",
-    "meanings": [
-      "voice"
-    ],
-    "onyomi": [
-      "セイ",
-      "ショウ"
-    ],
-    "kunyomi": [
-      "こえ"
-    ],
-    "words": [
-      {
-        "word": "声",
-        "reading": "こえ",
-        "meaning": "voice"
-      },
-      {
-        "word": "大声",
-        "reading": "おおごえ",
-        "meaning": "loud voice"
       }
     ],
     "examples": [],

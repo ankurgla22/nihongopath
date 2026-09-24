@@ -1,1921 +1,153 @@
 [
   {
-    "id": "n5-kanji-新",
-    "slug": "36-新",
+    "id": "n5-kanji-日",
+    "slug": "1-日",
     "level": "n5",
-    "order": 36,
-    "day": 4,
-    "character": "新",
+    "order": 1,
+    "day": 1,
+    "character": "日",
     "meanings": [
-      "new"
+      "day",
+      "sun"
     ],
     "onyomi": [
-      "シン"
+      "ニチ",
+      "ジツ"
     ],
     "kunyomi": [
-      "あたら.しい",
-      "あら.た"
+      "ひ",
+      "か"
     ],
+    "enriched": true,
     "words": [
       {
-        "word": "新しい",
-        "reading": "あたらしい",
-        "meaning": "new"
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Sunday"
       },
       {
-        "word": "新聞",
-        "reading": "しんぶん",
-        "meaning": "newspaper"
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "every day"
       },
       {
-        "word": "新年",
-        "reading": "しんねん",
-        "meaning": "new year"
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
       },
       {
-        "word": "新入生",
-        "reading": "しんにゅうせい",
-        "meaning": "new student"
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
       },
       {
-        "word": "最新",
-        "reading": "さいしん",
-        "meaning": "newest, latest"
+        "word": "日",
+        "reading": "ひ",
+        "meaning": "sun, day"
       }
     ],
     "examples": [
       {
-        "ja": "新しいかばんを買いました。",
-        "reading": "あたらしいかばんをかいました。",
-        "en": "I bought a new bag."
+        "ja": "日曜日に 買い物を します。",
+        "reading": "にちようびにかいものをします。",
+        "en": "I go shopping on Sunday."
       },
       {
-        "ja": "毎朝、新聞を読みます。",
-        "reading": "まいあさ、しんぶんをよみます。",
-        "en": "I read the newspaper every morning."
+        "ja": "毎日 日本語を 勉強します。",
+        "reading": "まいにちにほんごをべんきょうします。",
+        "en": "I study Japanese every day."
       }
     ],
     "similarKanji": [
       {
-        "character": "親",
-        "note": "親 (parent) ends with 見 on the right; 新 has 斤 (axe) on the right"
+        "character": "目",
+        "note": "目 (eye) has two lines inside; 日 has only one"
+      },
+      {
+        "character": "月",
+        "note": "月 is tall with two legs; 日 is a closed box"
       }
     ],
     "commonMistakes": [
-      "Reading 新しい as *しんしい instead of あたらしい"
+      "Reading 今日 as *いまひ instead of きょう"
     ],
-    "memoryAid": "A tree (木) being cut with an axe (斤) gives you fresh, new wood.",
-    "enriched": true
+    "memoryAid": "A window with one bar across it, with the sun shining through."
   },
   {
-    "id": "n5-kanji-古",
-    "slug": "37-古",
+    "id": "n5-kanji-一",
+    "slug": "2-一",
     "level": "n5",
-    "order": 37,
-    "day": 4,
-    "character": "古",
+    "order": 2,
+    "day": 1,
+    "character": "一",
     "meanings": [
-      "old (things)"
+      "one"
     ],
     "onyomi": [
-      "コ"
+      "イチ",
+      "イツ"
     ],
     "kunyomi": [
-      "ふる.い"
+      "ひと.つ",
+      "ひと"
     ],
+    "enriched": true,
     "words": [
       {
-        "word": "古い",
-        "reading": "ふるい",
-        "meaning": "old"
+        "word": "一つ",
+        "reading": "ひとつ",
+        "meaning": "one thing"
       },
       {
-        "word": "中古",
-        "reading": "ちゅうこ",
-        "meaning": "second-hand"
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": "January"
       },
       {
-        "word": "古本",
-        "reading": "ふるほん",
-        "meaning": "used book"
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "one person, alone"
       },
       {
-        "word": "古着",
-        "reading": "ふるぎ",
-        "meaning": "used clothes"
+        "word": "一年",
+        "reading": "いちねん",
+        "meaning": "one year"
+      },
+      {
+        "word": "一日",
+        "reading": "ついたち",
+        "meaning": "first day of the month"
       }
     ],
     "examples": [
       {
-        "ja": "この家はとても古いです。",
-        "reading": "このいえはとてもふるいです。",
-        "en": "This house is very old."
+        "ja": "りんごを一つください。",
+        "reading": "りんごをひとつください。",
+        "en": "One apple, please."
       },
       {
-        "ja": "古い車を売りました。",
-        "reading": "ふるいくるまをうりました。",
-        "en": "I sold my old car."
+        "ja": "一月は とても 寒いです。",
+        "reading": "いちがつはとてもさむいです。",
+        "en": "January is very cold."
       }
     ],
     "similarKanji": [
       {
-        "character": "苦",
-        "note": "苦 (bitter) is 古 with a grass top (艹); 古 has nothing above it"
+        "character": "二",
+        "note": "一 is a single line; 二 has two lines"
       }
     ],
     "commonMistakes": [
-      "Using 古い for people; for people say 年をとった"
+      "Reading 一日 (ついたち, the 1st) as *いちにち when it means the date"
     ],
-    "memoryAid": "Ten (十) mouths (口) have told this story: it is old.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-長",
-    "slug": "38-長",
-    "level": "n5",
-    "order": 38,
-    "day": 4,
-    "character": "長",
-    "meanings": [
-      "long",
-      "chief"
-    ],
-    "onyomi": [
-      "チョウ"
-    ],
-    "kunyomi": [
-      "なが.い"
-    ],
-    "words": [
-      {
-        "word": "長い",
-        "reading": "ながい",
-        "meaning": "long"
-      },
-      {
-        "word": "社長",
-        "reading": "しゃちょう",
-        "meaning": "company president"
-      },
-      {
-        "word": "校長",
-        "reading": "こうちょう",
-        "meaning": "school principal"
-      },
-      {
-        "word": "課長",
-        "reading": "かちょう",
-        "meaning": "section chief"
-      },
-      {
-        "word": "長さ",
-        "reading": "ながさ",
-        "meaning": "length"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "この川はとても長いです。",
-        "reading": "このかわはとてもながいです。",
-        "en": "This river is very long."
-      },
-      {
-        "ja": "社長は今、会社にいます。",
-        "reading": "しゃちょうはいま、かいしゃにいます。",
-        "en": "The president is at the company now."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "髪",
-        "note": "髪 (hair) contains 長 at the top left plus 彡; 長 stands alone"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 社長 as *しゃなが instead of しゃちょう"
-    ],
-    "memoryAid": "Picture an old person with long flowing hair down their back.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-多",
-    "slug": "39-多",
-    "level": "n5",
-    "order": 39,
-    "day": 4,
-    "character": "多",
-    "meanings": [
-      "many"
-    ],
-    "onyomi": [
-      "タ"
-    ],
-    "kunyomi": [
-      "おお.い"
-    ],
-    "words": [
-      {
-        "word": "多い",
-        "reading": "おおい",
-        "meaning": "many"
-      },
-      {
-        "word": "多分",
-        "reading": "たぶん",
-        "meaning": "probably"
-      },
-      {
-        "word": "多く",
-        "reading": "おおく",
-        "meaning": "a lot, many"
-      },
-      {
-        "word": "多数",
-        "reading": "たすう",
-        "meaning": "large number"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "東京は人が多いです。",
-        "reading": "とうきょうはひとがおおいです。",
-        "en": "There are many people in Tokyo."
-      },
-      {
-        "ja": "多分、明日は雨です。",
-        "reading": "たぶん、あしたはあめです。",
-        "en": "It will probably rain tomorrow."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "夕",
-        "note": "夕 (evening) is one element; 多 is that same shape stacked twice"
-      }
-    ],
-    "commonMistakes": [
-      "Writing 多い as a noun modifier: say 人が多い, not *多い人"
-    ],
-    "memoryAid": "Two evenings (夕夕) stacked up: many, many nights.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-少",
-    "slug": "40-少",
-    "level": "n5",
-    "order": 40,
-    "day": 4,
-    "character": "少",
-    "meanings": [
-      "few",
-      "a little"
-    ],
-    "onyomi": [
-      "ショウ"
-    ],
-    "kunyomi": [
-      "すく.ない",
-      "すこ.し"
-    ],
-    "words": [
-      {
-        "word": "少ない",
-        "reading": "すくない",
-        "meaning": "few"
-      },
-      {
-        "word": "少し",
-        "reading": "すこし",
-        "meaning": "a little"
-      },
-      {
-        "word": "少女",
-        "reading": "しょうじょ",
-        "meaning": "young girl"
-      },
-      {
-        "word": "少年",
-        "reading": "しょうねん",
-        "meaning": "boy"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "今日は学生が少ないです。",
-        "reading": "きょうはがくせいがすくないです。",
-        "en": "There are few students today."
-      },
-      {
-        "ja": "水を少し飲みます。",
-        "reading": "みずをすこしのみます。",
-        "en": "I drink a little water."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "小",
-        "note": "小 (small) has no diagonal stroke; 少 adds a slanting stroke at the bottom right"
-      }
-    ],
-    "commonMistakes": [
-      "Mixing up 少し (a little) and 少ない (few, an adjective)"
-    ],
-    "memoryAid": "小 (small) with one more stroke sliced off the corner: even fewer.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-上",
-    "slug": "41-上",
-    "level": "n5",
-    "order": 41,
-    "day": 5,
-    "character": "上",
-    "meanings": [
-      "above",
-      "up"
-    ],
-    "onyomi": [
-      "ジョウ"
-    ],
-    "kunyomi": [
-      "うえ",
-      "あ.がる",
-      "のぼ.る"
-    ],
-    "words": [
-      {
-        "word": "上",
-        "reading": "うえ",
-        "meaning": "above"
-      },
-      {
-        "word": "上手",
-        "reading": "じょうず",
-        "meaning": "skilful"
-      },
-      {
-        "word": "上げる",
-        "reading": "あげる",
-        "meaning": "to raise"
-      },
-      {
-        "word": "屋上",
-        "reading": "おくじょう",
-        "meaning": "rooftop"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "本はつくえの上にあります。",
-        "reading": "ほんはつくえのうえにあります。",
-        "en": "The book is on the desk."
-      },
-      {
-        "ja": "田中さんは歌が上手です。",
-        "reading": "たなかさんはうたがじょうずです。",
-        "en": "Mr. Tanaka is good at singing."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "下",
-        "note": "上 points up from the line; 下 hangs down from the line"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 上手 as *うわて when it means skilful (じょうず)"
-    ],
-    "memoryAid": "A mark standing up above the ground line: up.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-下",
-    "slug": "42-下",
-    "level": "n5",
-    "order": 42,
-    "day": 5,
-    "character": "下",
-    "meanings": [
-      "below",
-      "down"
-    ],
-    "onyomi": [
-      "カ",
-      "ゲ"
-    ],
-    "kunyomi": [
-      "した",
-      "さ.がる",
-      "くだ.さい"
-    ],
-    "words": [
-      {
-        "word": "下",
-        "reading": "した",
-        "meaning": "below"
-      },
-      {
-        "word": "下手",
-        "reading": "へた",
-        "meaning": "unskilful"
-      },
-      {
-        "word": "地下鉄",
-        "reading": "ちかてつ",
-        "meaning": "subway"
-      },
-      {
-        "word": "下りる",
-        "reading": "おりる",
-        "meaning": "to go down, get off"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "ねこはいすの下にいます。",
-        "reading": "ねこはいすのしたにいます。",
-        "en": "The cat is under the chair."
-      },
-      {
-        "ja": "わたしは絵が下手です。",
-        "reading": "わたしはえがへたです。",
-        "en": "I am bad at drawing."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "上",
-        "note": "下 hangs below the line; 上 stands above it"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 下手 as *したて instead of へた"
-    ],
-    "memoryAid": "A mark hanging down under the ground line: down.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-左",
-    "slug": "43-左",
-    "level": "n5",
-    "order": 43,
-    "day": 5,
-    "character": "左",
-    "meanings": [
-      "left"
-    ],
-    "onyomi": [
-      "サ"
-    ],
-    "kunyomi": [
-      "ひだり"
-    ],
-    "words": [
-      {
-        "word": "左",
-        "reading": "ひだり",
-        "meaning": "left"
-      },
-      {
-        "word": "左手",
-        "reading": "ひだりて",
-        "meaning": "left hand"
-      },
-      {
-        "word": "左側",
-        "reading": "ひだりがわ",
-        "meaning": "left side"
-      },
-      {
-        "word": "左足",
-        "reading": "ひだりあし",
-        "meaning": "left foot"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "つぎのかどを左にまがってください。",
-        "reading": "つぎのかどをひだりにまがってください。",
-        "en": "Please turn left at the next corner."
-      },
-      {
-        "ja": "銀行は駅の左にあります。",
-        "reading": "ぎんこうはえきのひだりにあります。",
-        "en": "The bank is to the left of the station."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "右",
-        "note": "左 has 工 underneath; 右 has 口 underneath"
-      }
-    ],
-    "commonMistakes": [
-      "Mixing up 左 and 右 because the tops look alike"
-    ],
-    "memoryAid": "A hand holding a carpenter's tool (工): the left hand steadies the work.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-右",
-    "slug": "44-右",
-    "level": "n5",
-    "order": 44,
-    "day": 5,
-    "character": "右",
-    "meanings": [
-      "right"
-    ],
-    "onyomi": [
-      "ウ",
-      "ユウ"
-    ],
-    "kunyomi": [
-      "みぎ"
-    ],
-    "words": [
-      {
-        "word": "右",
-        "reading": "みぎ",
-        "meaning": "right"
-      },
-      {
-        "word": "右手",
-        "reading": "みぎて",
-        "meaning": "right hand"
-      },
-      {
-        "word": "右側",
-        "reading": "みぎがわ",
-        "meaning": "right side"
-      },
-      {
-        "word": "左右",
-        "reading": "さゆう",
-        "meaning": "left and right"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "トイレは右にあります。",
-        "reading": "といれはみぎにあります。",
-        "en": "The toilet is on the right."
-      },
-      {
-        "ja": "右手でペンを持ちます。",
-        "reading": "みぎてでぺんをもちます。",
-        "en": "I hold the pen with my right hand."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "左",
-        "note": "右 has 口 (mouth) underneath; 左 has 工 underneath"
-      },
-      {
-        "character": "石",
-        "note": "石 (stone) starts with a flat top stroke; 右 starts with a short slanting stroke"
-      }
-    ],
-    "commonMistakes": [
-      "Mixing up 右 and 左"
-    ],
-    "memoryAid": "A hand near a mouth (口): the right hand is the one you eat with.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-東",
-    "slug": "45-東",
-    "level": "n5",
-    "order": 45,
-    "day": 5,
-    "character": "東",
-    "meanings": [
-      "east"
-    ],
-    "onyomi": [
-      "トウ"
-    ],
-    "kunyomi": [
-      "ひがし"
-    ],
-    "words": [
-      {
-        "word": "東",
-        "reading": "ひがし",
-        "meaning": "east"
-      },
-      {
-        "word": "東京",
-        "reading": "とうきょう",
-        "meaning": "Tokyo"
-      },
-      {
-        "word": "東口",
-        "reading": "ひがしぐち",
-        "meaning": "east exit"
-      },
-      {
-        "word": "東北",
-        "reading": "とうほく",
-        "meaning": "northeast (Tohoku)"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "来月、東京へ行きます。",
-        "reading": "らいげつ、とうきょうへいきます。",
-        "en": "I am going to Tokyo next month."
-      },
-      {
-        "ja": "東の空が明るいです。",
-        "reading": "ひがしのそらがあかるいです。",
-        "en": "The eastern sky is bright."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "車",
-        "note": "東 has 木 running through 日; 車 has a single vertical line through the boxes"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 東口 as *とうぐち instead of ひがしぐち"
-    ],
-    "memoryAid": "The sun (日) rising behind a tree (木): that direction is east.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-西",
-    "slug": "46-西",
-    "level": "n5",
-    "order": 46,
-    "day": 5,
-    "character": "西",
-    "meanings": [
-      "west"
-    ],
-    "onyomi": [
-      "セイ",
-      "サイ"
-    ],
-    "kunyomi": [
-      "にし"
-    ],
-    "words": [
-      {
-        "word": "西",
-        "reading": "にし",
-        "meaning": "west"
-      },
-      {
-        "word": "西口",
-        "reading": "にしぐち",
-        "meaning": "west exit"
-      },
-      {
-        "word": "西洋",
-        "reading": "せいよう",
-        "meaning": "the West"
-      },
-      {
-        "word": "関西",
-        "reading": "かんさい",
-        "meaning": "Kansai region"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "駅の西口で会いましょう。",
-        "reading": "えきのにしぐちであいましょう。",
-        "en": "Let's meet at the west exit of the station."
-      },
-      {
-        "ja": "太陽は西にしずみます。",
-        "reading": "たいようはにしにしずみます。",
-        "en": "The sun sets in the west."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "四",
-        "note": "四 (four) has two short legs inside the box; 西 has a flat line across the top"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 関西 as *かんせい instead of かんさい"
-    ],
-    "memoryAid": "A bird settling into its nest at sundown: the sun goes down in the west.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-南",
-    "slug": "47-南",
-    "level": "n5",
-    "order": 47,
-    "day": 5,
-    "character": "南",
-    "meanings": [
-      "south"
-    ],
-    "onyomi": [
-      "ナン"
-    ],
-    "kunyomi": [
-      "みなみ"
-    ],
-    "words": [
-      {
-        "word": "南",
-        "reading": "みなみ",
-        "meaning": "south"
-      },
-      {
-        "word": "南口",
-        "reading": "みなみぐち",
-        "meaning": "south exit"
-      },
-      {
-        "word": "南米",
-        "reading": "なんべい",
-        "meaning": "South America"
-      },
-      {
-        "word": "東南",
-        "reading": "とうなん",
-        "meaning": "southeast"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "わたしの部屋は南にあります。",
-        "reading": "わたしのへやはみなみにあります。",
-        "en": "My room faces south."
-      },
-      {
-        "ja": "南の国は暑いです。",
-        "reading": "みなみのくにはあついです。",
-        "en": "Southern countries are hot."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "商",
-        "note": "商 (commerce) has 口 inside the lower box; 南 has a 十 shape inside"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 南口 as *なんぐち instead of みなみぐち"
-    ],
-    "memoryAid": "Ten (十) plants growing inside a warm greenhouse: the sunny south side.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-北",
-    "slug": "48-北",
-    "level": "n5",
-    "order": 48,
-    "day": 5,
-    "character": "北",
-    "meanings": [
-      "north"
-    ],
-    "onyomi": [
-      "ホク"
-    ],
-    "kunyomi": [
-      "きた"
-    ],
-    "words": [
-      {
-        "word": "北",
-        "reading": "きた",
-        "meaning": "north"
-      },
-      {
-        "word": "北海道",
-        "reading": "ほっかいどう",
-        "meaning": "Hokkaido"
-      },
-      {
-        "word": "北口",
-        "reading": "きたぐち",
-        "meaning": "north exit"
-      },
-      {
-        "word": "東北",
-        "reading": "とうほく",
-        "meaning": "northeast (Tohoku)"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "北海道は冬がとても寒いです。",
-        "reading": "ほっかいどうはふゆがとてもさむいです。",
-        "en": "Winter in Hokkaido is very cold."
-      },
-      {
-        "ja": "駅の北にコンビニがあります。",
-        "reading": "えきのきたにこんびにがあります。",
-        "en": "There is a convenience store north of the station."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "比",
-        "note": "比 (compare) has both halves facing the same way; 北 has two people back to back"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 北海道 as *きたかいどう instead of ほっかいどう"
-    ],
-    "memoryAid": "Two people sitting back to back to keep warm: the cold north.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-前",
-    "slug": "49-前",
-    "level": "n5",
-    "order": 49,
-    "day": 5,
-    "character": "前",
-    "meanings": [
-      "front",
-      "before"
-    ],
-    "onyomi": [
-      "ゼン"
-    ],
-    "kunyomi": [
-      "まえ"
-    ],
-    "words": [
-      {
-        "word": "前",
-        "reading": "まえ",
-        "meaning": "front, before"
-      },
-      {
-        "word": "午前",
-        "reading": "ごぜん",
-        "meaning": "a.m."
-      },
-      {
-        "word": "名前",
-        "reading": "なまえ",
-        "meaning": "name"
-      },
-      {
-        "word": "駅前",
-        "reading": "えきまえ",
-        "meaning": "in front of the station"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "駅の前で待っています。",
-        "reading": "えきのまえでまっています。",
-        "en": "I am waiting in front of the station."
-      },
-      {
-        "ja": "午前九時に始まります。",
-        "reading": "ごぜんくじにはじまります。",
-        "en": "It starts at 9 a.m."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "後",
-        "note": "前 (before) and 後 (after) are opposites; 後 starts with the 彳 radical on the left"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 名前 as *めいぜん instead of なまえ"
-    ],
-    "memoryAid": "A moon (月) and a knife (刂) under a lid: put them in front of you on the table.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-後",
-    "slug": "50-後",
-    "level": "n5",
-    "order": 50,
-    "day": 5,
-    "character": "後",
-    "meanings": [
-      "after",
-      "behind"
-    ],
-    "onyomi": [
-      "ゴ",
-      "コウ"
-    ],
-    "kunyomi": [
-      "あと",
-      "うし.ろ",
-      "のち"
-    ],
-    "words": [
-      {
-        "word": "後ろ",
-        "reading": "うしろ",
-        "meaning": "behind"
-      },
-      {
-        "word": "午後",
-        "reading": "ごご",
-        "meaning": "p.m."
-      },
-      {
-        "word": "後で",
-        "reading": "あとで",
-        "meaning": "later"
-      },
-      {
-        "word": "最後",
-        "reading": "さいご",
-        "meaning": "the last"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "後でメールを送ります。",
-        "reading": "あとでめーるをおくります。",
-        "en": "I will send an email later."
-      },
-      {
-        "ja": "わたしの後ろに座ってください。",
-        "reading": "わたしのうしろにすわってください。",
-        "en": "Please sit behind me."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "役",
-        "note": "役 (role) has 殳 on the right; 後 has 幺 and 夂 stacked on the right"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 午後 as *ごあと instead of ごご"
-    ],
-    "memoryAid": "A person walking (彳) with tiny steps, dragging a foot: always coming behind.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-外",
-    "slug": "51-外",
-    "level": "n5",
-    "order": 51,
-    "day": 6,
-    "character": "外",
-    "meanings": [
-      "outside"
-    ],
-    "onyomi": [
-      "ガイ"
-    ],
-    "kunyomi": [
-      "そと",
-      "ほか"
-    ],
-    "words": [
-      {
-        "word": "外",
-        "reading": "そと",
-        "meaning": "outside"
-      },
-      {
-        "word": "外国",
-        "reading": "がいこく",
-        "meaning": "foreign country"
-      },
-      {
-        "word": "外国人",
-        "reading": "がいこくじん",
-        "meaning": "foreigner"
-      },
-      {
-        "word": "海外",
-        "reading": "かいがい",
-        "meaning": "overseas"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "外はとても寒いです。",
-        "reading": "そとはとてもさむいです。",
-        "en": "It is very cold outside."
-      },
-      {
-        "ja": "外国の音楽が好きです。",
-        "reading": "がいこくのおんがくがすきです。",
-        "en": "I like foreign music."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "多",
-        "note": "多 is 夕 twice; 外 is 夕 plus 卜 on the right"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 外国 as *そとくに instead of がいこく"
-    ],
-    "memoryAid": "In the evening (夕) a fortune stick (卜) is read outdoors: outside.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-間",
-    "slug": "52-間",
-    "level": "n5",
-    "order": 52,
-    "day": 6,
-    "character": "間",
-    "meanings": [
-      "interval",
-      "between"
-    ],
-    "onyomi": [
-      "カン",
-      "ケン"
-    ],
-    "kunyomi": [
-      "あいだ",
-      "ま"
-    ],
-    "words": [
-      {
-        "word": "時間",
-        "reading": "じかん",
-        "meaning": "time"
-      },
-      {
-        "word": "間",
-        "reading": "あいだ",
-        "meaning": "between"
-      },
-      {
-        "word": "人間",
-        "reading": "にんげん",
-        "meaning": "human being"
-      },
-      {
-        "word": "一週間",
-        "reading": "いっしゅうかん",
-        "meaning": "one week"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "銀行は駅と学校の間にあります。",
-        "reading": "ぎんこうはえきとがっこうのあいだにあります。",
-        "en": "The bank is between the station and the school."
-      },
-      {
-        "ja": "時間がありませんでした。",
-        "reading": "じかんがありませんでした。",
-        "en": "I did not have time."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "聞",
-        "note": "間 has 日 (sun) inside the gate; 聞 has 耳 (ear) inside"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 人間 as *にんかん instead of にんげん"
-    ],
-    "memoryAid": "Sunlight (日) shining through the gap in a gate (門): the space in between.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-山",
-    "slug": "53-山",
-    "level": "n5",
-    "order": 53,
-    "day": 6,
-    "character": "山",
-    "meanings": [
-      "mountain"
-    ],
-    "onyomi": [
-      "サン"
-    ],
-    "kunyomi": [
-      "やま"
-    ],
-    "words": [
-      {
-        "word": "山",
-        "reading": "やま",
-        "meaning": "mountain"
-      },
-      {
-        "word": "富士山",
-        "reading": "ふじさん",
-        "meaning": "Mt. Fuji"
-      },
-      {
-        "word": "火山",
-        "reading": "かざん",
-        "meaning": "volcano"
-      },
-      {
-        "word": "山田",
-        "reading": "やまだ",
-        "meaning": "Yamada (surname)"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "日曜日に山へ行きます。",
-        "reading": "にちようびにやまへいきます。",
-        "en": "I am going to the mountains on Sunday."
-      },
-      {
-        "ja": "富士山はとても高いです。",
-        "reading": "ふじさんはとてもたかいです。",
-        "en": "Mt. Fuji is very tall."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "出",
-        "note": "出 (exit) looks like two 山 stacked; 山 is a single row of three peaks"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 富士山 as *ふじやま instead of ふじさん"
-    ],
-    "memoryAid": "Three peaks rising from a flat base: a mountain range.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-川",
-    "slug": "54-川",
-    "level": "n5",
-    "order": 54,
-    "day": 6,
-    "character": "川",
-    "meanings": [
-      "river"
-    ],
-    "onyomi": [
-      "セン"
-    ],
-    "kunyomi": [
-      "かわ"
-    ],
-    "words": [
-      {
-        "word": "川",
-        "reading": "かわ",
-        "meaning": "river"
-      },
-      {
-        "word": "小川",
-        "reading": "おがわ",
-        "meaning": "stream"
-      },
-      {
-        "word": "川上",
-        "reading": "かわかみ",
-        "meaning": "upstream"
-      },
-      {
-        "word": "河川",
-        "reading": "かせん",
-        "meaning": "rivers"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "この川で魚をとりました。",
-        "reading": "このかわでさかなをとりました。",
-        "en": "I caught a fish in this river."
-      },
-      {
-        "ja": "家の前に小さい川があります。",
-        "reading": "いえのまえにちいさいかわがあります。",
-        "en": "There is a small river in front of my house."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "三",
-        "note": "川 has three vertical lines; 三 (three) has three horizontal lines"
-      }
-    ],
-    "commonMistakes": [
-      "Writing 川 with horizontal strokes like 三"
-    ],
-    "memoryAid": "Three lines of water flowing downward between two banks: a river.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-天",
-    "slug": "55-天",
-    "level": "n5",
-    "order": 55,
-    "day": 6,
-    "character": "天",
-    "meanings": [
-      "heaven",
-      "sky"
-    ],
-    "onyomi": [
-      "テン"
-    ],
-    "kunyomi": [
-      "あま"
-    ],
-    "words": [
-      {
-        "word": "天気",
-        "reading": "てんき",
-        "meaning": "weather"
-      },
-      {
-        "word": "天国",
-        "reading": "てんごく",
-        "meaning": "heaven"
-      },
-      {
-        "word": "晴天",
-        "reading": "せいてん",
-        "meaning": "clear sky"
-      },
-      {
-        "word": "天才",
-        "reading": "てんさい",
-        "meaning": "genius"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "今日はいい天気ですね。",
-        "reading": "きょうはいいてんきですね。",
-        "en": "The weather is nice today, isn't it?"
-      },
-      {
-        "ja": "明日の天気を調べます。",
-        "reading": "あしたのてんきをしらべます。",
-        "en": "I will check tomorrow's weather."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "大",
-        "note": "天 has an extra line on top; 大 (big) is just the person with arms out"
-      },
-      {
-        "character": "夫",
-        "note": "夫 (husband) has the vertical stroke poking through the top line; 天 does not"
-      }
-    ],
-    "commonMistakes": [
-      "Confusing 天 with 大 when writing"
-    ],
-    "memoryAid": "A big person (大) with a line drawn above their head: the sky overhead.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-気",
-    "slug": "56-気",
-    "level": "n5",
-    "order": 56,
-    "day": 6,
-    "character": "気",
-    "meanings": [
-      "spirit",
-      "air"
-    ],
-    "onyomi": [
-      "キ",
-      "ケ"
-    ],
-    "kunyomi": [],
-    "words": [
-      {
-        "word": "元気",
-        "reading": "げんき",
-        "meaning": "healthy, energetic"
-      },
-      {
-        "word": "天気",
-        "reading": "てんき",
-        "meaning": "weather"
-      },
-      {
-        "word": "病気",
-        "reading": "びょうき",
-        "meaning": "illness"
-      },
-      {
-        "word": "電気",
-        "reading": "でんき",
-        "meaning": "electricity, light"
-      },
-      {
-        "word": "気持ち",
-        "reading": "きもち",
-        "meaning": "feeling"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "母はとても元気です。",
-        "reading": "はははとてもげんきです。",
-        "en": "My mother is very well."
-      },
-      {
-        "ja": "部屋の電気を消してください。",
-        "reading": "へやのでんきをけしてください。",
-        "en": "Please turn off the light in the room."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "汽",
-        "note": "汽 (steam) has the water radical on the left; 気 does not"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 病気 as *びょうけ instead of びょうき"
-    ],
-    "memoryAid": "Steam curling up out of a pot lid: air and energy rising.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-雨",
-    "slug": "57-雨",
-    "level": "n5",
-    "order": 57,
-    "day": 6,
-    "character": "雨",
-    "meanings": [
-      "rain"
-    ],
-    "onyomi": [
-      "ウ"
-    ],
-    "kunyomi": [
-      "あめ"
-    ],
-    "words": [
-      {
-        "word": "雨",
-        "reading": "あめ",
-        "meaning": "rain"
-      },
-      {
-        "word": "大雨",
-        "reading": "おおあめ",
-        "meaning": "heavy rain"
-      },
-      {
-        "word": "小雨",
-        "reading": "こさめ",
-        "meaning": "light rain"
-      },
-      {
-        "word": "雨天",
-        "reading": "うてん",
-        "meaning": "rainy weather"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "明日は雨がふります。",
-        "reading": "あしたはあめがふります。",
-        "en": "It will rain tomorrow."
-      },
-      {
-        "ja": "雨の日は家にいます。",
-        "reading": "あめのひはいえにいます。",
-        "en": "On rainy days I stay at home."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "両",
-        "note": "両 (both) has no dots inside; 雨 has four raindrops inside"
-      }
-    ],
-    "commonMistakes": [
-      "Forgetting the four dots inside 雨"
-    ],
-    "memoryAid": "A window frame with four drops falling behind it: rain.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-白",
-    "slug": "58-白",
-    "level": "n5",
-    "order": 58,
-    "day": 6,
-    "character": "白",
-    "meanings": [
-      "white"
-    ],
-    "onyomi": [
-      "ハク"
-    ],
-    "kunyomi": [
-      "しろ",
-      "しろ.い"
-    ],
-    "words": [
-      {
-        "word": "白い",
-        "reading": "しろい",
-        "meaning": "white"
-      },
-      {
-        "word": "白",
-        "reading": "しろ",
-        "meaning": "white (noun)"
-      },
-      {
-        "word": "面白い",
-        "reading": "おもしろい",
-        "meaning": "interesting, funny"
-      },
-      {
-        "word": "白紙",
-        "reading": "はくし",
-        "meaning": "blank paper"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "白いシャツを着ています。",
-        "reading": "しろいしゃつをきています。",
-        "en": "I am wearing a white shirt."
-      },
-      {
-        "ja": "この本はとても面白いです。",
-        "reading": "このほんはとてもおもしろいです。",
-        "en": "This book is very interesting."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "日",
-        "note": "白 has a small stroke on top of the box; 日 (sun) does not"
-      },
-      {
-        "character": "百",
-        "note": "百 (hundred) has a full horizontal line on top; 白 has a short slanted mark"
-      }
-    ],
-    "commonMistakes": [
-      "Confusing 白 with 百 (hundred) when reading quickly"
-    ],
-    "memoryAid": "The sun (日) with a ray on top, so bright it bleaches everything white.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-電",
-    "slug": "59-電",
-    "level": "n5",
-    "order": 59,
-    "day": 6,
-    "character": "電",
-    "meanings": [
-      "electricity"
-    ],
-    "onyomi": [
-      "デン"
-    ],
-    "kunyomi": [],
-    "words": [
-      {
-        "word": "電車",
-        "reading": "でんしゃ",
-        "meaning": "train"
-      },
-      {
-        "word": "電話",
-        "reading": "でんわ",
-        "meaning": "telephone"
-      },
-      {
-        "word": "電気",
-        "reading": "でんき",
-        "meaning": "electricity, light"
-      },
-      {
-        "word": "電池",
-        "reading": "でんち",
-        "meaning": "battery"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "毎日、電車で会社へ行きます。",
-        "reading": "まいにち、でんしゃでかいしゃへいきます。",
-        "en": "I go to the office by train every day."
-      },
-      {
-        "ja": "友だちに電話をかけました。",
-        "reading": "ともだちにでんわをかけました。",
-        "en": "I called my friend."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "雪",
-        "note": "雪 (snow) has ヨ under the rain top; 電 has 田 with a hook underneath"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 電話 as *でんはなし instead of でんわ"
-    ],
-    "memoryAid": "Rain (雨) over a field (田) with a hook of lightning: electricity from the storm.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-車",
-    "slug": "60-車",
-    "level": "n5",
-    "order": 60,
-    "day": 6,
-    "character": "車",
-    "meanings": [
-      "car",
-      "vehicle"
-    ],
-    "onyomi": [
-      "シャ"
-    ],
-    "kunyomi": [
-      "くるま"
-    ],
-    "words": [
-      {
-        "word": "車",
-        "reading": "くるま",
-        "meaning": "car"
-      },
-      {
-        "word": "自転車",
-        "reading": "じてんしゃ",
-        "meaning": "bicycle"
-      },
-      {
-        "word": "電車",
-        "reading": "でんしゃ",
-        "meaning": "train"
-      },
-      {
-        "word": "自動車",
-        "reading": "じどうしゃ",
-        "meaning": "automobile"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "父は新しい車を買いました。",
-        "reading": "ちちはあたらしいくるまをかいました。",
-        "en": "My father bought a new car."
-      },
-      {
-        "ja": "自転車で駅まで行きます。",
-        "reading": "じてんしゃでえきまでいきます。",
-        "en": "I go to the station by bicycle."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "東",
-        "note": "東 (east) has 木 crossing 日; 車 is a single stem through stacked boxes"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 電車 as *でんくるま instead of でんしゃ"
-    ],
-    "memoryAid": "Look down at a cart from above: an axle through the middle of the wheels.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-駅",
-    "slug": "61-駅",
-    "level": "n5",
-    "order": 61,
-    "day": 7,
-    "character": "駅",
-    "meanings": [
-      "station"
-    ],
-    "onyomi": [
-      "エキ"
-    ],
-    "kunyomi": [],
-    "words": [
-      {
-        "word": "駅",
-        "reading": "えき",
-        "meaning": "station"
-      },
-      {
-        "word": "駅前",
-        "reading": "えきまえ",
-        "meaning": "in front of the station"
-      },
-      {
-        "word": "駅員",
-        "reading": "えきいん",
-        "meaning": "station attendant"
-      },
-      {
-        "word": "東京駅",
-        "reading": "とうきょうえき",
-        "meaning": "Tokyo Station"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "駅まで歩いて十分です。",
-        "reading": "えきまであるいてじゅっぷんです。",
-        "en": "It is ten minutes on foot to the station."
-      },
-      {
-        "ja": "駅前に大きい店があります。",
-        "reading": "えきまえにおおきいみせがあります。",
-        "en": "There is a big shop in front of the station."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "馬",
-        "note": "馬 (horse) is the left half of 駅 standing alone"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 駅 as *ば by mistaking it for 馬"
-    ],
-    "memoryAid": "A horse (馬) stopping at a post: the old relay station.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-道",
-    "slug": "62-道",
-    "level": "n5",
-    "order": 62,
-    "day": 7,
-    "character": "道",
-    "meanings": [
-      "road",
-      "way"
-    ],
-    "onyomi": [
-      "ドウ"
-    ],
-    "kunyomi": [
-      "みち"
-    ],
-    "words": [
-      {
-        "word": "道",
-        "reading": "みち",
-        "meaning": "road"
-      },
-      {
-        "word": "北海道",
-        "reading": "ほっかいどう",
-        "meaning": "Hokkaido"
-      },
-      {
-        "word": "書道",
-        "reading": "しょどう",
-        "meaning": "calligraphy"
-      },
-      {
-        "word": "柔道",
-        "reading": "じゅうどう",
-        "meaning": "judo"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "この道をまっすぐ行ってください。",
-        "reading": "このみちをまっすぐいってください。",
-        "en": "Please go straight along this road."
-      },
-      {
-        "ja": "道が分かりませんでした。",
-        "reading": "みちがわかりませんでした。",
-        "en": "I did not know the way."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "首",
-        "note": "首 (neck) is 道 without the road radical 辶 underneath"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 北海道 as *ほっかいみち instead of ほっかいどう"
-    ],
-    "memoryAid": "A neck-and-head (首) moving along the walking radical (辶): heading down the road.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-店",
-    "slug": "63-店",
-    "level": "n5",
-    "order": 63,
-    "day": 7,
-    "character": "店",
-    "meanings": [
-      "shop"
-    ],
-    "onyomi": [
-      "テン"
-    ],
-    "kunyomi": [
-      "みせ"
-    ],
-    "words": [
-      {
-        "word": "店",
-        "reading": "みせ",
-        "meaning": "shop"
-      },
-      {
-        "word": "店員",
-        "reading": "てんいん",
-        "meaning": "shop clerk"
-      },
-      {
-        "word": "喫茶店",
-        "reading": "きっさてん",
-        "meaning": "coffee shop"
-      },
-      {
-        "word": "書店",
-        "reading": "しょてん",
-        "meaning": "bookstore"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "この店は九時に開きます。",
-        "reading": "このみせはくじにひらきます。",
-        "en": "This shop opens at nine."
-      },
-      {
-        "ja": "店員さんに道を聞きました。",
-        "reading": "てんいんさんにみちをききました。",
-        "en": "I asked the shop clerk for directions."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "古",
-        "note": "古 (old) is inside 店; 店 adds the 广 roof over it"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 店員 as *みせいん instead of てんいん"
-    ],
-    "memoryAid": "An old sign (占/古) under a roof (广): a shopfront on the street.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-社",
-    "slug": "64-社",
-    "level": "n5",
-    "order": 64,
-    "day": 7,
-    "character": "社",
-    "meanings": [
-      "company",
-      "shrine"
-    ],
-    "onyomi": [
-      "シャ"
-    ],
-    "kunyomi": [
-      "やしろ"
-    ],
-    "words": [
-      {
-        "word": "会社",
-        "reading": "かいしゃ",
-        "meaning": "company"
-      },
-      {
-        "word": "社長",
-        "reading": "しゃちょう",
-        "meaning": "president"
-      },
-      {
-        "word": "神社",
-        "reading": "じんじゃ",
-        "meaning": "Shinto shrine"
-      },
-      {
-        "word": "社会",
-        "reading": "しゃかい",
-        "meaning": "society"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "父は会社で働いています。",
-        "reading": "ちちはかいしゃではたらいています。",
-        "en": "My father works at a company."
-      },
-      {
-        "ja": "お正月に神社へ行きます。",
-        "reading": "おしょうがつにじんじゃへいきます。",
-        "en": "I go to a shrine at New Year."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "礼",
-        "note": "礼 (courtesy) has a hook on the right; 社 has 土 (earth) on the right"
-      }
-    ],
-    "commonMistakes": [
-      "Reading 神社 as *しんしゃ instead of じんじゃ"
-    ],
-    "memoryAid": "An altar radical (ネ) next to earth (土): the shrine ground where a group gathers.",
-    "enriched": true
-  },
-  {
-    "id": "n5-kanji-会",
-    "slug": "65-会",
-    "level": "n5",
-    "order": 65,
-    "day": 7,
-    "character": "会",
-    "meanings": [
-      "meet",
-      "society"
-    ],
-    "onyomi": [
-      "カイ"
-    ],
-    "kunyomi": [
-      "あ.う"
-    ],
-    "words": [
-      {
-        "word": "会う",
-        "reading": "あう",
-        "meaning": "to meet"
-      },
-      {
-        "word": "会社",
-        "reading": "かいしゃ",
-        "meaning": "company"
-      },
-      {
-        "word": "会話",
-        "reading": "かいわ",
-        "meaning": "conversation"
-      },
-      {
-        "word": "会議",
-        "reading": "かいぎ",
-        "meaning": "meeting"
-      }
-    ],
-    "examples": [
-      {
-        "ja": "明日、友だちに会います。",
-        "reading": "あした、ともだちにあいます。",
-        "en": "I will meet my friend tomorrow."
-      },
-      {
-        "ja": "英語の会話をれんしゅうします。",
-        "reading": "えいごのかいわをれんしゅうします。",
-        "en": "I practice English conversation."
-      }
-    ],
-    "similarKanji": [
-      {
-        "character": "合",
-        "note": "合 (fit together) has 口 at the bottom; 会 has 云 at the bottom"
-      }
-    ],
-    "commonMistakes": [
-      "Using を with 会う; the correct particle is に (友だちに会う)"
-    ],
-    "memoryAid": "A big roof over people gathered underneath: everyone meets inside.",
-    "enriched": true
+    "memoryAid": "One single horizontal stroke: hold up one finger sideways."
   },
   {
     "id": "n5-kanji-国",
-    "slug": "66-国",
+    "slug": "3-国",
     "level": "n5",
-    "order": 66,
-    "day": 7,
+    "order": 3,
+    "day": 1,
     "character": "国",
     "meanings": [
       "country"
@@ -1926,6 +158,7 @@
     "kunyomi": [
       "くに"
     ],
+    "enriched": true,
     "words": [
       {
         "word": "国",
@@ -1974,78 +207,2669 @@
     "commonMistakes": [
       "Reading 中国 as *ちゅうこく instead of ちゅうごく"
     ],
-    "memoryAid": "A jewel (玉) locked inside a border (囗): a country's treasure behind its walls.",
-    "enriched": true
+    "memoryAid": "A jewel (玉) locked inside a border (囗): a country's treasure behind its walls."
   },
   {
-    "id": "n5-kanji-語",
-    "slug": "67-語",
+    "id": "n5-kanji-人",
+    "slug": "4-人",
     "level": "n5",
-    "order": 67,
-    "day": 7,
-    "character": "語",
+    "order": 4,
+    "day": 1,
+    "character": "人",
     "meanings": [
-      "language",
-      "word"
+      "person"
+    ],
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "meaning": "person"
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": "Japanese person"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "one person, alone"
+      },
+      {
+        "word": "二人",
+        "reading": "ふたり",
+        "meaning": "two people"
+      },
+      {
+        "word": "大人",
+        "reading": "おとな",
+        "meaning": "adult"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "公園に人がたくさんいます。",
+        "reading": "こうえんにひとがたくさんいます。",
+        "en": "There are many people in the park."
+      },
+      {
+        "ja": "私は日本人ではありません。",
+        "reading": "わたしはにほんじんではありません。",
+        "en": "I am not Japanese."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "入",
+        "note": "入 (enter) has its short stroke starting from inside the top; 人 starts from the very top point"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 一人 as *いちにん instead of ひとり",
+      "Mixing up 人 and 入 on signs"
+    ],
+    "memoryAid": "Two legs walking: a person."
+  },
+  {
+    "id": "n5-kanji-年",
+    "slug": "5-年",
+    "level": "n5",
+    "order": 5,
+    "day": 1,
+    "character": "年",
+    "meanings": [
+      "year"
+    ],
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "this year"
+      },
+      {
+        "word": "一年",
+        "reading": "いちねん",
+        "meaning": "one year"
+      },
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "meaning": "last year"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "meaning": "every year"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今年 日本へ 行きます。",
+        "reading": "ことしにほんへいきます。",
+        "en": "I am going to Japan this year."
+      },
+      {
+        "ja": "来年 大学に 入ります。",
+        "reading": "らいねんだいがくにはいります。",
+        "en": "I will enter university next year."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "午",
+        "note": "午 is short and stops at two lines; 年 is taller with an extra horizontal stroke"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 今年 as *こんねん instead of ことし"
+    ],
+    "memoryAid": "A tall post with the seasons marked across it: the bars of one full year."
+  },
+  {
+    "id": "n5-kanji-大",
+    "slug": "6-大",
+    "level": "n5",
+    "order": 6,
+    "day": 1,
+    "character": "大",
+    "meanings": [
+      "big"
+    ],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお.きい",
+      "おお"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "big"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      },
+      {
+        "word": "大人",
+        "reading": "おとな",
+        "meaning": "adult"
+      },
+      {
+        "word": "大丈夫",
+        "reading": "だいじょうぶ",
+        "meaning": "all right, okay"
+      },
+      {
+        "word": "大好き",
+        "reading": "だいすき",
+        "meaning": "to love, like very much"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "大きい かばんを 買いました。",
+        "reading": "おおきいかばんをかいました。",
+        "en": "I bought a big bag."
+      },
+      {
+        "ja": "兄は 大学の 学生です。",
+        "reading": "あにはだいがくのがくせいです。",
+        "en": "My older brother is a university student."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "犬",
+        "note": "犬 (dog) is 大 with an extra dot on the upper right"
+      },
+      {
+        "character": "太",
+        "note": "太 (fat) is 大 with a dot underneath"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 大人 as *だいじん instead of おとな"
+    ],
+    "memoryAid": "A person standing with arms stretched as wide as possible: this big!"
+  },
+  {
+    "id": "n5-kanji-十",
+    "slug": "7-十",
+    "level": "n5",
+    "order": 7,
+    "day": 1,
+    "character": "十",
+    "meanings": [
+      "ten"
+    ],
+    "onyomi": [
+      "ジュウ",
+      "ジッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "十日",
+        "reading": "とおか",
+        "meaning": "tenth day, ten days"
+      },
+      {
+        "word": "十分",
+        "reading": "じゅっぷん",
+        "meaning": "ten minutes"
+      },
+      {
+        "word": "十月",
+        "reading": "じゅうがつ",
+        "meaning": "October"
+      },
+      {
+        "word": "十時",
+        "reading": "じゅうじ",
+        "meaning": "ten o'clock"
+      },
+      {
+        "word": "十人",
+        "reading": "じゅうにん",
+        "meaning": "ten people"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "十日に 友だちが 来ます。",
+        "reading": "とおかにともだちがきます。",
+        "en": "My friend is coming on the 10th."
+      },
+      {
+        "ja": "あと 十分 待ってください。",
+        "reading": "あとじゅっぷんまってください。",
+        "en": "Please wait ten more minutes."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "千",
+        "note": "千 (thousand) adds a slanted stroke on top of 十"
+      },
+      {
+        "character": "七",
+        "note": "七 has a hooked bottom stroke; 十 is a plain cross"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 十分 as じゅうぶん (enough) when it means ten minutes"
+    ],
+    "memoryAid": "A plus sign: ten fingers crossed over each other."
+  },
+  {
+    "id": "n5-kanji-二",
+    "slug": "8-二",
+    "level": "n5",
+    "order": 8,
+    "day": 1,
+    "character": "二",
+    "meanings": [
+      "two"
+    ],
+    "onyomi": [
+      "ニ"
+    ],
+    "kunyomi": [
+      "ふた.つ",
+      "ふた"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "meaning": "two things"
+      },
+      {
+        "word": "二人",
+        "reading": "ふたり",
+        "meaning": "two people"
+      },
+      {
+        "word": "二月",
+        "reading": "にがつ",
+        "meaning": "February"
+      },
+      {
+        "word": "二日",
+        "reading": "ふつか",
+        "meaning": "second day, two days"
+      },
+      {
+        "word": "二時",
+        "reading": "にじ",
+        "meaning": "two o'clock"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "たまごを二つ 買います。",
+        "reading": "たまごをふたつかいます。",
+        "en": "I will buy two eggs."
+      },
+      {
+        "ja": "二人で 映画を 見ました。",
+        "reading": "ふたりでえいがをみました。",
+        "en": "The two of us watched a movie."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "三",
+        "note": "二 has two strokes, 三 has three"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 二人 as *ににん instead of ふたり"
+    ],
+    "memoryAid": "Two horizontal lines stacked: two fingers lying down."
+  },
+  {
+    "id": "n5-kanji-本",
+    "slug": "9-本",
+    "level": "n5",
+    "order": 9,
+    "day": 1,
+    "character": "本",
+    "meanings": [
+      "book",
+      "origin",
+      "counter for long objects"
+    ],
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "meaning": "book"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      },
+      {
+        "word": "一本",
+        "reading": "いっぽん",
+        "meaning": "one (long object)"
+      },
+      {
+        "word": "本当",
+        "reading": "ほんとう",
+        "meaning": "true, really"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "図書館で本を読みます。",
+        "reading": "としょかんでほんをよみます。",
+        "en": "I read books at the library."
+      },
+      {
+        "ja": "それは本当ですか。",
+        "reading": "それはほんとうですか。",
+        "en": "Is that true?"
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "木",
+        "note": "木 (tree) has no extra line; 本 adds a short line across the bottom of the trunk"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 一本 as *いちほん instead of いっぽん"
+    ],
+    "memoryAid": "A tree 木 with a mark at its root: the origin, and the paper books made from it."
+  },
+  {
+    "id": "n5-kanji-中",
+    "slug": "10-中",
+    "level": "n5",
+    "order": 10,
+    "day": 1,
+    "character": "中",
+    "meanings": [
+      "middle",
+      "inside"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "中",
+        "reading": "なか",
+        "meaning": "inside"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "China"
+      },
+      {
+        "word": "中学校",
+        "reading": "ちゅうがっこう",
+        "meaning": "junior high school"
+      },
+      {
+        "word": "中学生",
+        "reading": "ちゅうがくせい",
+        "meaning": "junior high student"
+      },
+      {
+        "word": "午前中",
+        "reading": "ごぜんちゅう",
+        "meaning": "during the morning"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "かばんの 中に 本が あります。",
+        "reading": "かばんのなかにほんがあります。",
+        "en": "There is a book inside the bag."
+      },
+      {
+        "ja": "妹は 中学生です。",
+        "reading": "いもうとはちゅうがくせいです。",
+        "en": "My younger sister is a junior high student."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "申",
+        "note": "申 has the vertical line crossing two horizontal lines; 中 has just one box"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 中 as ちゅう when it stands alone meaning inside (なか)"
+    ],
+    "memoryAid": "An arrow going straight through the centre of a box: right in the middle."
+  },
+  {
+    "id": "n5-kanji-長",
+    "slug": "11-長",
+    "level": "n5",
+    "order": 11,
+    "day": 1,
+    "character": "長",
+    "meanings": [
+      "long",
+      "chief"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが.い"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "long"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "company president"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "school principal"
+      },
+      {
+        "word": "課長",
+        "reading": "かちょう",
+        "meaning": "section chief"
+      },
+      {
+        "word": "長さ",
+        "reading": "ながさ",
+        "meaning": "length"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この川はとても長いです。",
+        "reading": "このかわはとてもながいです。",
+        "en": "This river is very long."
+      },
+      {
+        "ja": "社長は今、会社にいます。",
+        "reading": "しゃちょうはいま、かいしゃにいます。",
+        "en": "The president is at the company now."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "髪",
+        "note": "髪 (hair) contains 長 at the top left plus 彡; 長 stands alone"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 社長 as *しゃなが instead of しゃちょう"
+    ],
+    "memoryAid": "Picture an old person with long flowing hair down their back."
+  },
+  {
+    "id": "n5-kanji-出",
+    "slug": "12-出",
+    "level": "n5",
+    "order": 12,
+    "day": 1,
+    "character": "出",
+    "meanings": [
+      "exit",
+      "put out"
+    ],
+    "onyomi": [
+      "シュツ"
+    ],
+    "kunyomi": [
+      "で.る",
+      "だ.す"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning": "to go out, to leave"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning": "exit"
+      },
+      {
+        "word": "出す",
+        "reading": "だす",
+        "meaning": "to take out, to send (a letter)"
+      },
+      {
+        "word": "出かける",
+        "reading": "でかける",
+        "meaning": "to go out"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "郵便局で手紙を出します。",
+        "reading": "ゆうびんきょくでてがみをだします。",
+        "en": "I will send a letter at the post office."
+      },
+      {
+        "ja": "出口はあちらです。",
+        "reading": "でぐちはあちらです。",
+        "en": "The exit is over there."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "山",
+        "note": "山 is one mountain; 出 looks like two 山 stacked, so something is coming out"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 出口 as *でくち instead of でぐち"
+    ],
+    "memoryAid": "Two mountains stacked up: something pushes up and comes out."
+  },
+  {
+    "id": "n5-kanji-三",
+    "slug": "13-三",
+    "level": "n5",
+    "order": 13,
+    "day": 2,
+    "character": "三",
+    "meanings": [
+      "three"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "みっ.つ",
+      "み"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "三つ",
+        "reading": "みっつ",
+        "meaning": "three things"
+      },
+      {
+        "word": "三月",
+        "reading": "さんがつ",
+        "meaning": "March"
+      },
+      {
+        "word": "三人",
+        "reading": "さんにん",
+        "meaning": "three people"
+      },
+      {
+        "word": "三日",
+        "reading": "みっか",
+        "meaning": "third day, three days"
+      },
+      {
+        "word": "三時",
+        "reading": "さんじ",
+        "meaning": "three o'clock"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "三つ 目の 駅で 降ります。",
+        "reading": "みっつめのえきでおります。",
+        "en": "I get off at the third station."
+      },
+      {
+        "ja": "三月に 学校が 終わります。",
+        "reading": "さんがつにがっこうがおわります。",
+        "en": "School finishes in March."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "二",
+        "note": "count the lines: 三 has three, 二 has two"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 三日 as *さんにち when it means the 3rd of the month"
+    ],
+    "memoryAid": "Three lines stacked up: three fingers lying flat."
+  },
+  {
+    "id": "n5-kanji-時",
+    "slug": "14-時",
+    "level": "n5",
+    "order": 14,
+    "day": 2,
+    "character": "時",
+    "meanings": [
+      "time",
+      "hour"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time, hours"
+      },
+      {
+        "word": "三時",
+        "reading": "さんじ",
+        "meaning": "three o'clock"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "what time"
+      },
+      {
+        "word": "時計",
+        "reading": "とけい",
+        "meaning": "clock, watch"
+      },
+      {
+        "word": "時々",
+        "reading": "ときどき",
+        "meaning": "sometimes"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今 何時ですか。",
+        "reading": "いまなんじですか。",
+        "en": "What time is it now?"
+      },
+      {
+        "ja": "時間が ありません。",
+        "reading": "じかんがありません。",
+        "en": "There is no time."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "持",
+        "note": "持 (to hold) has the hand radical on the left; 時 has 日 (sun)"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 時計 as *じけい instead of とけい"
+    ],
+    "memoryAid": "The sun (日) beside a temple (寺): temple bells marking the hour by the sun."
+  },
+  {
+    "id": "n5-kanji-行",
+    "slug": "15-行",
+    "level": "n5",
+    "order": 15,
+    "day": 2,
+    "character": "行",
+    "meanings": [
+      "go"
+    ],
+    "onyomi": [
+      "コウ",
+      "ギョウ"
+    ],
+    "kunyomi": [
+      "い.く",
+      "おこな.う"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "to go"
+      },
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "bank"
+      },
+      {
+        "word": "旅行",
+        "reading": "りょこう",
+        "meaning": "trip, travel"
+      },
+      {
+        "word": "行う",
+        "reading": "おこなう",
+        "meaning": "to carry out, to hold (an event)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "明日学校へ行きます。",
+        "reading": "あしたがっこうへいきます。",
+        "en": "I will go to school tomorrow."
+      },
+      {
+        "ja": "来週家族と旅行に行きます。",
+        "reading": "らいしゅうかぞくとりょこうにいきます。",
+        "en": "Next week I will go on a trip with my family."
+      }
+    ],
+    "similarKanji": [],
+    "commonMistakes": [
+      "Reading 銀行 as *ぎんぎょう instead of ぎんこう"
+    ],
+    "memoryAid": "Two halves of a crossroads standing side by side: you go down the road."
+  },
+  {
+    "id": "n5-kanji-見",
+    "slug": "16-見",
+    "level": "n5",
+    "order": 16,
+    "day": 2,
+    "character": "見",
+    "meanings": [
+      "see",
+      "look"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み.る",
+      "み.せる"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "to see, to watch"
+      },
+      {
+        "word": "見せる",
+        "reading": "みせる",
+        "meaning": "to show"
+      },
+      {
+        "word": "見つける",
+        "reading": "みつける",
+        "meaning": "to find"
+      },
+      {
+        "word": "花見",
+        "reading": "はなみ",
+        "meaning": "flower viewing"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎晩テレビを見ます。",
+        "reading": "まいばんてれびをみます。",
+        "en": "I watch TV every night."
+      },
+      {
+        "ja": "その写真を見せてください。",
+        "reading": "そのしゃしんをみせてください。",
+        "en": "Please show me that photo."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "貝",
+        "note": "貝 (shellfish) ends with two short legs; 見 has 儿 (long legs) so the eye can walk and look"
+      },
+      {
+        "character": "目",
+        "note": "目 is just the eye; 見 is 目 with legs under it"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 見 and 貝 when writing"
+    ],
+    "memoryAid": "An eye 目 on two legs 儿: it walks around and looks at things."
+  },
+  {
+    "id": "n5-kanji-月",
+    "slug": "17-月",
+    "level": "n5",
+    "order": 17,
+    "day": 2,
+    "character": "月",
+    "meanings": [
+      "month",
+      "moon"
+    ],
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Monday"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": "January"
+      },
+      {
+        "word": "月",
+        "reading": "つき",
+        "meaning": "moon"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "this month"
+      },
+      {
+        "word": "毎月",
+        "reading": "まいつき",
+        "meaning": "every month"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "月曜日に 会いましょう。",
+        "reading": "げつようびにあいましょう。",
+        "en": "Let's meet on Monday."
+      },
+      {
+        "ja": "今夜の 月は きれいです。",
+        "reading": "こんやのつきはきれいです。",
+        "en": "Tonight's moon is beautiful."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "日",
+        "note": "月 is tall with a hook and two inner lines; 日 is a plain box with one line"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up ゲツ (曜日 names) and ガツ (month names): 月曜日 vs 一月"
+    ],
+    "memoryAid": "A tall window with a crescent hook: the moon seen through it."
+  },
+  {
+    "id": "n5-kanji-分",
+    "slug": "18-分",
+    "level": "n5",
+    "order": 18,
+    "day": 2,
+    "character": "分",
+    "meanings": [
+      "minute",
+      "part",
+      "understand"
+    ],
+    "onyomi": [
+      "フン",
+      "ブン",
+      "プン"
+    ],
+    "kunyomi": [
+      "わ.かる",
+      "わ.ける"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "五分",
+        "reading": "ごふん",
+        "meaning": "five minutes"
+      },
+      {
+        "word": "分かる",
+        "reading": "わかる",
+        "meaning": "to understand"
+      },
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "half"
+      },
+      {
+        "word": "十分",
+        "reading": "じゅっぷん",
+        "meaning": "ten minutes"
+      },
+      {
+        "word": "自分",
+        "reading": "じぶん",
+        "meaning": "oneself"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この 言葉が 分かりません。",
+        "reading": "このことばがわかりません。",
+        "en": "I don't understand this word."
+      },
+      {
+        "ja": "ケーキを 半分 食べました。",
+        "reading": "けーきをはんぶんたべました。",
+        "en": "I ate half of the cake."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "今",
+        "note": "今 has a flat line under the roof; 分 has 刀 (sword) under it"
+      }
+    ],
+    "commonMistakes": [
+      "Getting the counter sound wrong: 一分 is いっぷん, 三分 さんぷん, 四分 よんぷん"
+    ],
+    "memoryAid": "A sword (刀) under a splitting roof: cutting something into parts and minutes."
+  },
+  {
+    "id": "n5-kanji-後",
+    "slug": "19-後",
+    "level": "n5",
+    "order": 19,
+    "day": 2,
+    "character": "後",
+    "meanings": [
+      "after",
+      "behind"
+    ],
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "あと",
+      "うし.ろ",
+      "のち"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "後ろ",
+        "reading": "うしろ",
+        "meaning": "behind"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "p.m."
+      },
+      {
+        "word": "後で",
+        "reading": "あとで",
+        "meaning": "later"
+      },
+      {
+        "word": "最後",
+        "reading": "さいご",
+        "meaning": "the last"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "後でメールを送ります。",
+        "reading": "あとでめーるをおくります。",
+        "en": "I will send an email later."
+      },
+      {
+        "ja": "わたしの後ろに座ってください。",
+        "reading": "わたしのうしろにすわってください。",
+        "en": "Please sit behind me."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "役",
+        "note": "役 (role) has 殳 on the right; 後 has 幺 and 夂 stacked on the right"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 午後 as *ごあと instead of ごご"
+    ],
+    "memoryAid": "A person walking (彳) with tiny steps, dragging a foot: always coming behind."
+  },
+  {
+    "id": "n5-kanji-前",
+    "slug": "20-前",
+    "level": "n5",
+    "order": 20,
+    "day": 2,
+    "character": "前",
+    "meanings": [
+      "front",
+      "before"
+    ],
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "front, before"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": "a.m."
+      },
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "name"
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "in front of the station"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "駅の前で待っています。",
+        "reading": "えきのまえでまっています。",
+        "en": "I am waiting in front of the station."
+      },
+      {
+        "ja": "午前九時に始まります。",
+        "reading": "ごぜんくじにはじまります。",
+        "en": "It starts at 9 a.m."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "後",
+        "note": "前 (before) and 後 (after) are opposites; 後 starts with the 彳 radical on the left"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 名前 as *めいぜん instead of なまえ"
+    ],
+    "memoryAid": "A moon (月) and a knife (刂) under a lid: put them in front of you on the table."
+  },
+  {
+    "id": "n5-kanji-生",
+    "slug": "21-生",
+    "level": "n5",
+    "order": 21,
+    "day": 2,
+    "character": "生",
+    "meanings": [
+      "life",
+      "birth",
+      "raw"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "う.まれる",
+      "なま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "生まれる",
+        "reading": "うまれる",
+        "meaning": "to be born"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "elementary school pupil"
+      },
+      {
+        "word": "生ビール",
+        "reading": "なまびーる",
+        "meaning": "draft beer"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は東京で生まれました。",
+        "reading": "わたしはとうきょうでうまれました。",
+        "en": "I was born in Tokyo."
+      },
+      {
+        "ja": "弟は小学生です。",
+        "reading": "おとうとはしょうがくせいです。",
+        "en": "My little brother is an elementary school pupil."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "先",
+        "note": "先 has legs 儿 at the bottom; 生 ends in a flat horizontal line like the ground"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 生ビール as *せいびーる instead of なまびーる"
+    ],
+    "memoryAid": "A young plant pushing up out of the ground line: new life."
+  },
+  {
+    "id": "n5-kanji-五",
+    "slug": "22-五",
+    "level": "n5",
+    "order": 22,
+    "day": 2,
+    "character": "五",
+    "meanings": [
+      "five"
     ],
     "onyomi": [
       "ゴ"
     ],
     "kunyomi": [
-      "かた.る"
+      "いつ.つ",
+      "いつ"
     ],
+    "enriched": true,
     "words": [
       {
-        "word": "日本語",
-        "reading": "にほんご",
-        "meaning": "Japanese"
+        "word": "五つ",
+        "reading": "いつつ",
+        "meaning": "five things"
       },
       {
-        "word": "英語",
-        "reading": "えいご",
-        "meaning": "English"
+        "word": "五分",
+        "reading": "ごふん",
+        "meaning": "five minutes"
       },
       {
-        "word": "外国語",
-        "reading": "がいこくご",
-        "meaning": "foreign language"
+        "word": "五月",
+        "reading": "ごがつ",
+        "meaning": "May"
       },
       {
-        "word": "単語",
-        "reading": "たんご",
-        "meaning": "vocabulary word"
+        "word": "五日",
+        "reading": "いつか",
+        "meaning": "fifth day, five days"
+      },
+      {
+        "word": "五人",
+        "reading": "ごにん",
+        "meaning": "five people"
       }
     ],
     "examples": [
       {
-        "ja": "毎日、日本語を勉強します。",
-        "reading": "まいにち、にほんごをべんきょうします。",
-        "en": "I study Japanese every day."
+        "ja": "みかんを 五つ 食べました。",
+        "reading": "みかんをいつつたべました。",
+        "en": "I ate five mandarins."
       },
       {
-        "ja": "兄は英語が上手です。",
-        "reading": "あにはえいごがじょうずです。",
-        "en": "My older brother is good at English."
+        "ja": "駅まで 五分 かかります。",
+        "reading": "えきまでごふんかかります。",
+        "en": "It takes five minutes to the station."
+      }
+    ],
+    "similarKanji": [],
+    "commonMistakes": [
+      "Reading 五日 as *ごにち instead of いつか"
+    ],
+    "memoryAid": "Two lines with a zigzag between them: a hand of five fingers folded up."
+  },
+  {
+    "id": "n5-kanji-間",
+    "slug": "23-間",
+    "level": "n5",
+    "order": 23,
+    "day": 2,
+    "character": "間",
+    "meanings": [
+      "interval",
+      "between"
+    ],
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time"
+      },
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "between"
+      },
+      {
+        "word": "人間",
+        "reading": "にんげん",
+        "meaning": "human being"
+      },
+      {
+        "word": "一週間",
+        "reading": "いっしゅうかん",
+        "meaning": "one week"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "銀行は駅と学校の間にあります。",
+        "reading": "ぎんこうはえきとがっこうのあいだにあります。",
+        "en": "The bank is between the station and the school."
+      },
+      {
+        "ja": "時間がありませんでした。",
+        "reading": "じかんがありませんでした。",
+        "en": "I did not have time."
       }
     ],
     "similarKanji": [
       {
-        "character": "話",
-        "note": "語 has 五 and 口 on the right; 話 has 舌 (tongue) on the right"
+        "character": "聞",
+        "note": "間 has 日 (sun) inside the gate; 聞 has 耳 (ear) inside"
       }
     ],
     "commonMistakes": [
-      "Reading 日本語 as *にほんかた instead of にほんご"
+      "Reading 人間 as *にんかん instead of にんげん"
     ],
-    "memoryAid": "Words (言) plus five (五) mouths (口): five people all speaking one language.",
-    "enriched": true
+    "memoryAid": "Sunlight (日) shining through the gap in a gate (門): the space in between."
+  },
+  {
+    "id": "n5-kanji-上",
+    "slug": "24-上",
+    "level": "n5",
+    "order": 24,
+    "day": 2,
+    "character": "上",
+    "meanings": [
+      "above",
+      "up"
+    ],
+    "onyomi": [
+      "ジョウ"
+    ],
+    "kunyomi": [
+      "うえ",
+      "あ.がる",
+      "のぼ.る"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "meaning": "above"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skilful"
+      },
+      {
+        "word": "上げる",
+        "reading": "あげる",
+        "meaning": "to raise"
+      },
+      {
+        "word": "屋上",
+        "reading": "おくじょう",
+        "meaning": "rooftop"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "本はつくえの上にあります。",
+        "reading": "ほんはつくえのうえにあります。",
+        "en": "The book is on the desk."
+      },
+      {
+        "ja": "田中さんは歌が上手です。",
+        "reading": "たなかさんはうたがじょうずです。",
+        "en": "Mr. Tanaka is good at singing."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "下",
+        "note": "上 points up from the line; 下 hangs down from the line"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 上手 as *うわて when it means skilful (じょうず)"
+    ],
+    "memoryAid": "A mark standing up above the ground line: up."
+  },
+  {
+    "id": "n5-kanji-東",
+    "slug": "25-東",
+    "level": "n5",
+    "order": 25,
+    "day": 3,
+    "character": "東",
+    "meanings": [
+      "east"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "east"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "東口",
+        "reading": "ひがしぐち",
+        "meaning": "east exit"
+      },
+      {
+        "word": "東北",
+        "reading": "とうほく",
+        "meaning": "northeast (Tohoku)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "来月、東京へ行きます。",
+        "reading": "らいげつ、とうきょうへいきます。",
+        "en": "I am going to Tokyo next month."
+      },
+      {
+        "ja": "東の空が明るいです。",
+        "reading": "ひがしのそらがあかるいです。",
+        "en": "The eastern sky is bright."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "車",
+        "note": "東 has 木 running through 日; 車 has a single vertical line through the boxes"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 東口 as *とうぐち instead of ひがしぐち"
+    ],
+    "memoryAid": "The sun (日) rising behind a tree (木): that direction is east."
+  },
+  {
+    "id": "n5-kanji-四",
+    "slug": "26-四",
+    "level": "n5",
+    "order": 26,
+    "day": 3,
+    "character": "四",
+    "meanings": [
+      "four"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よっ.つ",
+      "よん"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "四つ",
+        "reading": "よっつ",
+        "meaning": "four things"
+      },
+      {
+        "word": "四月",
+        "reading": "しがつ",
+        "meaning": "April"
+      },
+      {
+        "word": "四人",
+        "reading": "よにん",
+        "meaning": "four people"
+      },
+      {
+        "word": "四日",
+        "reading": "よっか",
+        "meaning": "fourth day, four days"
+      },
+      {
+        "word": "四時",
+        "reading": "よじ",
+        "meaning": "four o'clock"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "いすが 四つ あります。",
+        "reading": "いすがよっつあります。",
+        "en": "There are four chairs."
+      },
+      {
+        "ja": "四月から 日本語を 習います。",
+        "reading": "しがつからにほんごをならいます。",
+        "en": "I will learn Japanese from April."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "西",
+        "note": "西 (west) has a line on top of the box; 四 is just the box with legs"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 四時 as *しじ instead of よじ"
+    ],
+    "memoryAid": "A box with two legs inside: four walls holding a number four."
+  },
+  {
+    "id": "n5-kanji-今",
+    "slug": "27-今",
+    "level": "n5",
+    "order": 27,
+    "day": 3,
+    "character": "今",
+    "meanings": [
+      "now"
+    ],
+    "onyomi": [
+      "コン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "今",
+        "reading": "いま",
+        "meaning": "now"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
+      },
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "this week"
+      },
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "this year"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "this month"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今 うちに います。",
+        "reading": "いまうちにいます。",
+        "en": "I am at home now."
+      },
+      {
+        "ja": "今日は いい 天気ですね。",
+        "reading": "きょうはいいてんきですね。",
+        "en": "The weather is nice today, isn't it?"
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "分",
+        "note": "分 has 刀 under the roof; 今 has a small hook and a line"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 今日 as *こんにち in everyday speech instead of きょう"
+    ],
+    "memoryAid": "A roof with a clock hand under it: the present moment, right here."
+  },
+  {
+    "id": "n5-kanji-金",
+    "slug": "28-金",
+    "level": "n5",
+    "order": 28,
+    "day": 3,
+    "character": "金",
+    "meanings": [
+      "gold",
+      "money"
+    ],
+    "onyomi": [
+      "キン"
+    ],
+    "kunyomi": [
+      "かね"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Friday"
+      },
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning": "money"
+      },
+      {
+        "word": "金",
+        "reading": "きん",
+        "meaning": "gold"
+      },
+      {
+        "word": "金曜",
+        "reading": "きんよう",
+        "meaning": "Friday"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "お金が ありません。",
+        "reading": "おかねがありません。",
+        "en": "I have no money."
+      },
+      {
+        "ja": "金曜日に パーティーを します。",
+        "reading": "きんようびにぱーてぃーをします。",
+        "en": "We will have a party on Friday."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "全",
+        "note": "全 has a plain 王 under the roof; 金 adds two dots beside it"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 金曜日 as *かねようび instead of きんようび"
+    ],
+    "memoryAid": "A roof over a king's treasure, with two gold nuggets showing at the sides."
+  },
+  {
+    "id": "n5-kanji-九",
+    "slug": "29-九",
+    "level": "n5",
+    "order": 29,
+    "day": 3,
+    "character": "九",
+    "meanings": [
+      "nine"
+    ],
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの.つ",
+      "ここの"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "九つ",
+        "reading": "ここのつ",
+        "meaning": "nine things"
+      },
+      {
+        "word": "九時",
+        "reading": "くじ",
+        "meaning": "nine o'clock"
+      },
+      {
+        "word": "九月",
+        "reading": "くがつ",
+        "meaning": "September"
+      },
+      {
+        "word": "九日",
+        "reading": "ここのか",
+        "meaning": "ninth day, nine days"
+      },
+      {
+        "word": "九人",
+        "reading": "きゅうにん",
+        "meaning": "nine people"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "九時に 店が 開きます。",
+        "reading": "くじにみせがあきます。",
+        "en": "The shop opens at nine o'clock."
+      },
+      {
+        "ja": "九月に 旅行します。",
+        "reading": "くがつにりょこうします。",
+        "en": "I will travel in September."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "力",
+        "note": "力 (power) has a straight left stroke; 九 has a short top stroke crossing it"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 九時 as *きゅうじ instead of くじ"
+    ],
+    "memoryAid": "A hook that curls round like the tail of a 9."
+  },
+  {
+    "id": "n5-kanji-入",
+    "slug": "30-入",
+    "level": "n5",
+    "order": 30,
+    "day": 3,
+    "character": "入",
+    "meanings": [
+      "enter",
+      "put in"
+    ],
+    "onyomi": [
+      "ニュウ"
+    ],
+    "kunyomi": [
+      "はい.る",
+      "い.れる"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "to enter"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      },
+      {
+        "word": "入れる",
+        "reading": "いれる",
+        "meaning": "to put in"
+      },
+      {
+        "word": "入学",
+        "reading": "にゅうがく",
+        "meaning": "entering a school"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "どうぞ中に入ってください。",
+        "reading": "どうぞなかにはいってください。",
+        "en": "Please come inside."
+      },
+      {
+        "ja": "妹は四月に大学に入学します。",
+        "reading": "いもうとはしがつにだいがくににゅうがくします。",
+        "en": "My little sister enters university in April."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "人",
+        "note": "人 (person) starts from the top left; 入 has the short stroke on top hanging to the left, like a door flap you go under"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 入 and 人 when reading signs like 入口"
+    ],
+    "memoryAid": "A door flap tipped to the left: you duck under it to enter."
+  },
+  {
+    "id": "n5-kanji-学",
+    "slug": "31-学",
+    "level": "n5",
+    "order": 31,
+    "day": 3,
+    "character": "学",
+    "meanings": [
+      "study",
+      "learning"
+    ],
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      },
+      {
+        "word": "学ぶ",
+        "reading": "まなぶ",
+        "meaning": "to learn"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は大学の学生です。",
+        "reading": "わたしはだいがくのがくせいです。",
+        "en": "I am a university student."
+      },
+      {
+        "ja": "毎日日本語を学びます。",
+        "reading": "まいにちにほんごをまなびます。",
+        "en": "I study Japanese every day."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "字",
+        "note": "字 (character) has a roof 宀 over 子; 学 has three little strokes over a lid, then 子"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 学校 as *がくこう instead of がっこう"
+    ],
+    "memoryAid": "A child 子 under a roof with sparks of ideas on top: a child learning."
+  },
+  {
+    "id": "n5-kanji-高",
+    "slug": "32-高",
+    "level": "n5",
+    "order": 32,
+    "day": 3,
+    "character": "高",
+    "meanings": [
+      "tall",
+      "expensive"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか.い"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "meaning": "tall, expensive"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "high school"
+      },
+      {
+        "word": "高校生",
+        "reading": "こうこうせい",
+        "meaning": "high school student"
+      },
+      {
+        "word": "最高",
+        "reading": "さいこう",
+        "meaning": "the best, highest"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この 時計は 高いです。",
+        "reading": "このとけいはたかいです。",
+        "en": "This watch is expensive."
+      },
+      {
+        "ja": "姉は 高校の 先生です。",
+        "reading": "あねはこうこうのせんせいです。",
+        "en": "My older sister is a high school teacher."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "京",
+        "note": "京 (capital) has a flat top part; 高 has an extra box in the middle"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 高校 as *たかこう instead of こうこう"
+    ],
+    "memoryAid": "A tall tower stacked storey on storey, with a lid right at the top."
+  },
+  {
+    "id": "n5-kanji-円",
+    "slug": "33-円",
+    "level": "n5",
+    "order": 33,
+    "day": 3,
+    "character": "円",
+    "meanings": [
+      "yen",
+      "circle"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる.い"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "円",
+        "reading": "えん",
+        "meaning": "yen"
+      },
+      {
+        "word": "五百円",
+        "reading": "ごひゃくえん",
+        "meaning": "500 yen"
+      },
+      {
+        "word": "千円",
+        "reading": "せんえん",
+        "meaning": "1,000 yen"
+      },
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "meaning": "100 yen"
+      },
+      {
+        "word": "円い",
+        "reading": "まるい",
+        "meaning": "round"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この 切手は 五百円です。",
+        "reading": "このきってはごひゃくえんです。",
+        "en": "This stamp is 500 yen."
+      },
+      {
+        "ja": "円い テーブルが 好きです。",
+        "reading": "まるいてーぶるがすきです。",
+        "en": "I like round tables."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "内",
+        "note": "内 has a 人 shape inside; 円 has a vertical stroke and a short line"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 円 as *まる when it means the currency (えん)"
+    ],
+    "memoryAid": "A coin-shaped box: a round frame holding the money inside."
+  },
+  {
+    "id": "n5-kanji-子",
+    "slug": "34-子",
+    "level": "n5",
+    "order": 34,
+    "day": 3,
+    "character": "子",
+    "meanings": [
+      "child"
+    ],
+    "onyomi": [
+      "シ",
+      "ス"
+    ],
+    "kunyomi": [
+      "こ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "子ども",
+        "reading": "こども",
+        "meaning": "child"
+      },
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "meaning": "girl"
+      },
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "meaning": "boy"
+      },
+      {
+        "word": "椅子",
+        "reading": "いす",
+        "meaning": "chair"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "子どもが公園で遊んでいます。",
+        "reading": "こどもがこうえんであそんでいます。",
+        "en": "The children are playing in the park."
+      },
+      {
+        "ja": "椅子に座ってください。",
+        "reading": "いすにすわってください。",
+        "en": "Please sit on the chair."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "字",
+        "note": "字 (character) is 子 with a roof 宀 on top"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 椅子 as *いこ instead of いす"
+    ],
+    "memoryAid": "A baby with its arms out and a blanket wrapped around: a child."
+  },
+  {
+    "id": "n5-kanji-外",
+    "slug": "35-外",
+    "level": "n5",
+    "order": 35,
+    "day": 3,
+    "character": "外",
+    "meanings": [
+      "outside"
+    ],
+    "onyomi": [
+      "ガイ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning": "outside"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "foreign country"
+      },
+      {
+        "word": "外国人",
+        "reading": "がいこくじん",
+        "meaning": "foreigner"
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning": "overseas"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "外はとても寒いです。",
+        "reading": "そとはとてもさむいです。",
+        "en": "It is very cold outside."
+      },
+      {
+        "ja": "外国の音楽が好きです。",
+        "reading": "がいこくのおんがくがすきです。",
+        "en": "I like foreign music."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "多",
+        "note": "多 is 夕 twice; 外 is 夕 plus 卜 on the right"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 外国 as *そとくに instead of がいこく"
+    ],
+    "memoryAid": "In the evening (夕) a fortune stick (卜) is read outdoors: outside."
+  },
+  {
+    "id": "n5-kanji-八",
+    "slug": "36-八",
+    "level": "n5",
+    "order": 36,
+    "day": 3,
+    "character": "八",
+    "meanings": [
+      "eight"
+    ],
+    "onyomi": [
+      "ハチ"
+    ],
+    "kunyomi": [
+      "やっ.つ",
+      "よう",
+      "や"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "八つ",
+        "reading": "やっつ",
+        "meaning": "eight things"
+      },
+      {
+        "word": "八日",
+        "reading": "ようか",
+        "meaning": "eighth day, eight days"
+      },
+      {
+        "word": "八月",
+        "reading": "はちがつ",
+        "meaning": "August"
+      },
+      {
+        "word": "八時",
+        "reading": "はちじ",
+        "meaning": "eight o'clock"
+      },
+      {
+        "word": "八百屋",
+        "reading": "やおや",
+        "meaning": "greengrocer"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "八時から 会議が あります。",
+        "reading": "はちじからかいぎがあります。",
+        "en": "There is a meeting from eight o'clock."
+      },
+      {
+        "ja": "八百屋で 野菜を 買います。",
+        "reading": "やおやでやさいをかいます。",
+        "en": "I buy vegetables at the greengrocer."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "入",
+        "note": "入 has the two strokes joined at the top; 八 keeps them apart"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 八日 as *はちにち instead of ようか",
+      "Mixing up 八 with 入 (enter)"
+    ],
+    "memoryAid": "Two strokes spreading apart: eight split cleanly into two fours."
+  },
+  {
+    "id": "n5-kanji-六",
+    "slug": "37-六",
+    "level": "n5",
+    "order": 37,
+    "day": 4,
+    "character": "六",
+    "meanings": [
+      "six"
+    ],
+    "onyomi": [
+      "ロク"
+    ],
+    "kunyomi": [
+      "むっ.つ",
+      "むい",
+      "む"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "六つ",
+        "reading": "むっつ",
+        "meaning": "six things"
+      },
+      {
+        "word": "六日",
+        "reading": "むいか",
+        "meaning": "sixth day, six days"
+      },
+      {
+        "word": "六月",
+        "reading": "ろくがつ",
+        "meaning": "June"
+      },
+      {
+        "word": "六時",
+        "reading": "ろくじ",
+        "meaning": "six o'clock"
+      },
+      {
+        "word": "六百",
+        "reading": "ろっぴゃく",
+        "meaning": "600"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ケーキを 六つ 作りました。",
+        "reading": "けーきをむっつつくりました。",
+        "en": "I made six cakes."
+      },
+      {
+        "ja": "毎朝 六時に 起きます。",
+        "reading": "まいあさろくじにおきます。",
+        "en": "I get up at six every morning."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "大",
+        "note": "大 has a person with arms out; 六 has a small lid on top and two short legs"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 六日 as *ろくにち instead of むいか"
+    ],
+    "memoryAid": "A little roof standing on two legs: a six-sided hut."
+  },
+  {
+    "id": "n5-kanji-下",
+    "slug": "38-下",
+    "level": "n5",
+    "order": 38,
+    "day": 4,
+    "character": "下",
+    "meanings": [
+      "below",
+      "down"
+    ],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "さ.がる",
+      "くだ.さい"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "下",
+        "reading": "した",
+        "meaning": "below"
+      },
+      {
+        "word": "下手",
+        "reading": "へた",
+        "meaning": "unskilful"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "meaning": "subway"
+      },
+      {
+        "word": "下りる",
+        "reading": "おりる",
+        "meaning": "to go down, get off"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ねこはいすの下にいます。",
+        "reading": "ねこはいすのしたにいます。",
+        "en": "The cat is under the chair."
+      },
+      {
+        "ja": "わたしは絵が下手です。",
+        "reading": "わたしはえがへたです。",
+        "en": "I am bad at drawing."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "上",
+        "note": "下 hangs below the line; 上 stands above it"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 下手 as *したて instead of へた"
+    ],
+    "memoryAid": "A mark hanging down under the ground line: down."
+  },
+  {
+    "id": "n5-kanji-来",
+    "slug": "39-来",
+    "level": "n5",
+    "order": 39,
+    "day": 4,
+    "character": "来",
+    "meanings": [
+      "come"
+    ],
+    "onyomi": [
+      "ライ"
+    ],
+    "kunyomi": [
+      "く.る"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "to come"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "next week"
+      },
+      {
+        "word": "来月",
+        "reading": "らいげつ",
+        "meaning": "next month"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "友達が家に来ます。",
+        "reading": "ともだちがいえにきます。",
+        "en": "A friend is coming to my house."
+      },
+      {
+        "ja": "来年日本へ行きたいです。",
+        "reading": "らいねんにほんへいきたいです。",
+        "en": "I want to go to Japan next year."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "未",
+        "note": "未 (not yet) has no little side strokes in the middle; 来 has two people coming along the tree"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 来週 as *くるしゅう instead of らいしゅう"
+    ],
+    "memoryAid": "A tree 木 with two small people beside it: they come to stand under it."
+  },
+  {
+    "id": "n5-kanji-気",
+    "slug": "40-気",
+    "level": "n5",
+    "order": 40,
+    "day": 4,
+    "character": "気",
+    "meanings": [
+      "spirit",
+      "air"
+    ],
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning": "healthy, energetic"
+      },
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      },
+      {
+        "word": "病気",
+        "reading": "びょうき",
+        "meaning": "illness"
+      },
+      {
+        "word": "電気",
+        "reading": "でんき",
+        "meaning": "electricity, light"
+      },
+      {
+        "word": "気持ち",
+        "reading": "きもち",
+        "meaning": "feeling"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "母はとても元気です。",
+        "reading": "はははとてもげんきです。",
+        "en": "My mother is very well."
+      },
+      {
+        "ja": "部屋の電気を消してください。",
+        "reading": "へやのでんきをけしてください。",
+        "en": "Please turn off the light in the room."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "汽",
+        "note": "汽 (steam) has the water radical on the left; 気 does not"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 病気 as *びょうけ instead of びょうき"
+    ],
+    "memoryAid": "Steam curling up out of a pot lid: air and energy rising."
+  },
+  {
+    "id": "n5-kanji-小",
+    "slug": "41-小",
+    "level": "n5",
+    "order": 41,
+    "day": 4,
+    "character": "小",
+    "meanings": [
+      "small"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい.さい",
+      "こ",
+      "お"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "small"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "elementary school"
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "elementary school pupil"
+      },
+      {
+        "word": "小さな",
+        "reading": "ちいさな",
+        "meaning": "small, little"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "小さい 犬が 好きです。",
+        "reading": "ちいさいいぬがすきです。",
+        "en": "I like small dogs."
+      },
+      {
+        "ja": "弟は 小学生です。",
+        "reading": "おとうとはしょうがくせいです。",
+        "en": "My younger brother is an elementary school pupil."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "少",
+        "note": "少 (few) is 小 with an extra slanting stroke on top"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 小さい (small) and 少ない (few)"
+    ],
+    "memoryAid": "One short line with two tiny drops beside it: something very small."
+  },
+  {
+    "id": "n5-kanji-七",
+    "slug": "42-七",
+    "level": "n5",
+    "order": 42,
+    "day": 4,
+    "character": "七",
+    "meanings": [
+      "seven"
+    ],
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな.つ",
+      "なな",
+      "なの"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "七つ",
+        "reading": "ななつ",
+        "meaning": "seven things"
+      },
+      {
+        "word": "七月",
+        "reading": "しちがつ",
+        "meaning": "July"
+      },
+      {
+        "word": "七日",
+        "reading": "なのか",
+        "meaning": "seventh day, seven days"
+      },
+      {
+        "word": "七時",
+        "reading": "しちじ",
+        "meaning": "seven o'clock"
+      },
+      {
+        "word": "七人",
+        "reading": "しちにん",
+        "meaning": "seven people"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "七時に 家を 出ます。",
+        "reading": "しちじにいえをでます。",
+        "en": "I leave home at seven o'clock."
+      },
+      {
+        "ja": "七月は とても 暑いです。",
+        "reading": "しちがつはとてもあついです。",
+        "en": "July is very hot."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "十",
+        "note": "十 is a clean cross; 七 has a hooked stroke bending to the right"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 七日 as *しちにち instead of なのか"
+    ],
+    "memoryAid": "A number 7 turned over, with a hook at the bottom right."
+  },
+  {
+    "id": "n5-kanji-山",
+    "slug": "43-山",
+    "level": "n5",
+    "order": 43,
+    "day": 4,
+    "character": "山",
+    "meanings": [
+      "mountain"
+    ],
+    "onyomi": [
+      "サン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "山",
+        "reading": "やま",
+        "meaning": "mountain"
+      },
+      {
+        "word": "富士山",
+        "reading": "ふじさん",
+        "meaning": "Mt. Fuji"
+      },
+      {
+        "word": "火山",
+        "reading": "かざん",
+        "meaning": "volcano"
+      },
+      {
+        "word": "山田",
+        "reading": "やまだ",
+        "meaning": "Yamada (surname)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "日曜日に山へ行きます。",
+        "reading": "にちようびにやまへいきます。",
+        "en": "I am going to the mountains on Sunday."
+      },
+      {
+        "ja": "富士山はとても高いです。",
+        "reading": "ふじさんはとてもたかいです。",
+        "en": "Mt. Fuji is very tall."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "出",
+        "note": "出 (exit) looks like two 山 stacked; 山 is a single row of three peaks"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 富士山 as *ふじやま instead of ふじさん"
+    ],
+    "memoryAid": "Three peaks rising from a flat base: a mountain range."
   },
   {
     "id": "n5-kanji-話",
-    "slug": "68-話",
+    "slug": "44-話",
     "level": "n5",
-    "order": 68,
-    "day": 7,
+    "order": 44,
+    "day": 4,
     "character": "話",
     "meanings": [
       "speak",
@@ -2058,6 +2882,7 @@
       "はな.す",
       "はなし"
     ],
+    "enriched": true,
     "words": [
       {
         "word": "話す",
@@ -2101,79 +2926,1155 @@
     "commonMistakes": [
       "Reading 電話 as *でんはな instead of でんわ"
     ],
-    "memoryAid": "Words (言) coming off a tongue (舌): speaking.",
-    "enriched": true
+    "memoryAid": "Words (言) coming off a tongue (舌): speaking."
   },
   {
-    "id": "n5-kanji-言",
-    "slug": "69-言",
+    "id": "n5-kanji-女",
+    "slug": "45-女",
     "level": "n5",
-    "order": 69,
-    "day": 7,
-    "character": "言",
+    "order": 45,
+    "day": 4,
+    "character": "女",
     "meanings": [
-      "say"
+      "woman",
+      "female"
     ],
     "onyomi": [
-      "ゲン",
-      "ゴン"
+      "ジョ"
     ],
     "kunyomi": [
-      "い.う",
-      "こと"
+      "おんな"
     ],
+    "enriched": true,
     "words": [
       {
-        "word": "言う",
-        "reading": "いう",
-        "meaning": "to say"
+        "word": "女",
+        "reading": "おんな",
+        "meaning": "woman"
       },
       {
-        "word": "言葉",
-        "reading": "ことば",
-        "meaning": "word, language"
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "meaning": "girl"
       },
       {
-        "word": "方言",
-        "reading": "ほうげん",
-        "meaning": "dialect"
+        "word": "女性",
+        "reading": "じょせい",
+        "meaning": "female, woman (polite)"
       },
       {
-        "word": "言語",
-        "reading": "げんご",
-        "meaning": "language"
+        "word": "彼女",
+        "reading": "かのじょ",
+        "meaning": "she, girlfriend"
       }
     ],
     "examples": [
       {
-        "ja": "先生は何も言いませんでした。",
-        "reading": "せんせいはなにもいいませんでした。",
-        "en": "The teacher did not say anything."
+        "ja": "女の人が歌を歌っています。",
+        "reading": "おんなのひとがうたをうたっています。",
+        "en": "A woman is singing a song."
       },
       {
-        "ja": "この言葉の意味を教えてください。",
-        "reading": "このことばのいみをおしえてください。",
-        "en": "Please tell me the meaning of this word."
+        "ja": "彼女は私の友達です。",
+        "reading": "かのじょはわたしのともだちです。",
+        "en": "She is my friend."
       }
     ],
     "similarKanji": [
       {
-        "character": "音",
-        "note": "音 (sound) has 日 at the bottom; 言 has 口 at the bottom"
+        "character": "安",
+        "note": "安 (cheap, safe) is 女 with a roof 宀 on top"
       }
     ],
     "commonMistakes": [
-      "Reading 言う as *げんう; it is いう (often pronounced ゆう)"
+      "Reading 女性 as *おんなせい instead of じょせい"
     ],
-    "memoryAid": "Lines of sound rising out of a mouth (口): words being said.",
-    "enriched": true
+    "memoryAid": "A figure sitting with crossed arms and legs: a calm woman."
+  },
+  {
+    "id": "n5-kanji-北",
+    "slug": "46-北",
+    "level": "n5",
+    "order": 46,
+    "day": 4,
+    "character": "北",
+    "meanings": [
+      "north"
+    ],
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "meaning": "north"
+      },
+      {
+        "word": "北海道",
+        "reading": "ほっかいどう",
+        "meaning": "Hokkaido"
+      },
+      {
+        "word": "北口",
+        "reading": "きたぐち",
+        "meaning": "north exit"
+      },
+      {
+        "word": "東北",
+        "reading": "とうほく",
+        "meaning": "northeast (Tohoku)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "北海道は冬がとても寒いです。",
+        "reading": "ほっかいどうはふゆがとてもさむいです。",
+        "en": "Winter in Hokkaido is very cold."
+      },
+      {
+        "ja": "駅の北にコンビニがあります。",
+        "reading": "えきのきたにこんびにがあります。",
+        "en": "There is a convenience store north of the station."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "比",
+        "note": "比 (compare) has both halves facing the same way; 北 has two people back to back"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 北海道 as *きたかいどう instead of ほっかいどう"
+    ],
+    "memoryAid": "Two people sitting back to back to keep warm: the cold north."
+  },
+  {
+    "id": "n5-kanji-午",
+    "slug": "47-午",
+    "level": "n5",
+    "order": 47,
+    "day": 4,
+    "character": "午",
+    "meanings": [
+      "noon"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": "a.m., morning"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "p.m., afternoon"
+      },
+      {
+        "word": "正午",
+        "reading": "しょうご",
+        "meaning": "noon"
+      },
+      {
+        "word": "午前中",
+        "reading": "ごぜんちゅう",
+        "meaning": "during the morning"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "午後 三時に 会いましょう。",
+        "reading": "ごごさんじにあいましょう。",
+        "en": "Let's meet at three in the afternoon."
+      },
+      {
+        "ja": "午前中は 授業が あります。",
+        "reading": "ごぜんちゅうはじゅぎょうがあります。",
+        "en": "I have class during the morning."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "牛",
+        "note": "牛 (cow) has a horn sticking up on the left; 午 does not"
+      },
+      {
+        "character": "年",
+        "note": "年 is taller and has one more horizontal stroke than 午"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 午前 (a.m.) and 午後 (p.m.)"
+    ],
+    "memoryAid": "A 牛 (cow) with its horn cut off, resting at midday."
+  },
+  {
+    "id": "n5-kanji-百",
+    "slug": "48-百",
+    "level": "n5",
+    "order": 48,
+    "day": 4,
+    "character": "百",
+    "meanings": [
+      "hundred"
+    ],
+    "onyomi": [
+      "ヒャク"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "百",
+        "reading": "ひゃく",
+        "meaning": "100"
+      },
+      {
+        "word": "三百",
+        "reading": "さんびゃく",
+        "meaning": "300"
+      },
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "meaning": "100 yen"
+      },
+      {
+        "word": "二百",
+        "reading": "にひゃく",
+        "meaning": "200"
+      },
+      {
+        "word": "八百屋",
+        "reading": "やおや",
+        "meaning": "greengrocer"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "このペンは 百円です。",
+        "reading": "このぺんはひゃくえんです。",
+        "en": "This pen is 100 yen."
+      },
+      {
+        "ja": "教室に 学生が 三百人 います。",
+        "reading": "きょうしつにがくせいがさんびゃくにんいます。",
+        "en": "There are 300 students in the classroom."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "白",
+        "note": "白 (white) is 百 without the top horizontal line"
+      }
+    ],
+    "commonMistakes": [
+      "Forgetting the sound changes: 三百 is さんびゃく, 六百 is ろっぴゃく"
+    ],
+    "memoryAid": "One line (一) sitting on 白 (white): one hundred white sheets in a stack."
+  },
+  {
+    "id": "n5-kanji-書",
+    "slug": "49-書",
+    "level": "n5",
+    "order": 49,
+    "day": 5,
+    "character": "書",
+    "meanings": [
+      "write"
+    ],
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か.く"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "書く",
+        "reading": "かく",
+        "meaning": "to write"
+      },
+      {
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning": "dictionary"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "library"
+      },
+      {
+        "word": "書き方",
+        "reading": "かきかた",
+        "meaning": "how to write"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "ここに名前を書いてください。",
+        "reading": "ここになまえをかいてください。",
+        "en": "Please write your name here."
+      },
+      {
+        "ja": "図書館で辞書を借ります。",
+        "reading": "としょかんでじしょをかります。",
+        "en": "I will borrow a dictionary at the library."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "昼",
+        "note": "昼 (noon) is shorter and sits on one long bottom stroke; 書 has many horizontal lines above 日"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 図書館 as *ずしょかん instead of としょかん"
+    ],
+    "memoryAid": "A brush drawing line after line above a 日 (sun): writing all day long."
+  },
+  {
+    "id": "n5-kanji-先",
+    "slug": "50-先",
+    "level": "n5",
+    "order": 50,
+    "day": 5,
+    "character": "先",
+    "meanings": [
+      "previous",
+      "ahead"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "last week"
+      },
+      {
+        "word": "先月",
+        "reading": "せんげつ",
+        "meaning": "last month"
+      },
+      {
+        "word": "先",
+        "reading": "さき",
+        "meaning": "ahead, the tip"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "田中さんは日本語の先生です。",
+        "reading": "たなかさんはにほんごのせんせいです。",
+        "en": "Mr. Tanaka is a Japanese teacher."
+      },
+      {
+        "ja": "先週映画を見ました。",
+        "reading": "せんしゅうえいがをみました。",
+        "en": "I watched a movie last week."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "生",
+        "note": "生 (life) has a long bottom line and no legs; 先 stands on 儿 (legs) walking ahead"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 先 and 生 inside the word 先生"
+    ],
+    "memoryAid": "Legs 儿 stepping out in front: someone who goes ahead of you."
+  },
+  {
+    "id": "n5-kanji-名",
+    "slug": "51-名",
+    "level": "n5",
+    "order": 51,
+    "day": 5,
+    "character": "名",
+    "meanings": [
+      "name"
+    ],
+    "onyomi": [
+      "メイ"
+    ],
+    "kunyomi": [
+      "な"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "name"
+      },
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "meaning": "famous"
+      },
+      {
+        "word": "名字",
+        "reading": "みょうじ",
+        "meaning": "family name"
+      },
+      {
+        "word": "名刺",
+        "reading": "めいし",
+        "meaning": "business card"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "お名前は何ですか。",
+        "reading": "おなまえはなんですか。",
+        "en": "What is your name?"
+      },
+      {
+        "ja": "この店はとても有名です。",
+        "reading": "このみせはとてもゆうめいです。",
+        "en": "This shop is very famous."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "多",
+        "note": "多 (many) is 夕 twice; 名 is 夕 over 口 (mouth)"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 名前 as *めいまえ instead of なまえ"
+    ],
+    "memoryAid": "In the evening 夕 it is dark, so you use your mouth 口 to say your name."
+  },
+  {
+    "id": "n5-kanji-川",
+    "slug": "52-川",
+    "level": "n5",
+    "order": 52,
+    "day": 5,
+    "character": "川",
+    "meanings": [
+      "river"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning": "river"
+      },
+      {
+        "word": "小川",
+        "reading": "おがわ",
+        "meaning": "stream"
+      },
+      {
+        "word": "川上",
+        "reading": "かわかみ",
+        "meaning": "upstream"
+      },
+      {
+        "word": "河川",
+        "reading": "かせん",
+        "meaning": "rivers"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この川で魚をとりました。",
+        "reading": "このかわでさかなをとりました。",
+        "en": "I caught a fish in this river."
+      },
+      {
+        "ja": "家の前に小さい川があります。",
+        "reading": "いえのまえにちいさいかわがあります。",
+        "en": "There is a small river in front of my house."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "三",
+        "note": "川 has three vertical lines; 三 (three) has three horizontal lines"
+      }
+    ],
+    "commonMistakes": [
+      "Writing 川 with horizontal strokes like 三"
+    ],
+    "memoryAid": "Three lines of water flowing downward between two banks: a river."
+  },
+  {
+    "id": "n5-kanji-千",
+    "slug": "53-千",
+    "level": "n5",
+    "order": 53,
+    "day": 5,
+    "character": "千",
+    "meanings": [
+      "thousand"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "千円",
+        "reading": "せんえん",
+        "meaning": "1,000 yen"
+      },
+      {
+        "word": "三千",
+        "reading": "さんぜん",
+        "meaning": "3,000"
+      },
+      {
+        "word": "千",
+        "reading": "せん",
+        "meaning": "1,000"
+      },
+      {
+        "word": "二千",
+        "reading": "にせん",
+        "meaning": "2,000"
+      },
+      {
+        "word": "千人",
+        "reading": "せんにん",
+        "meaning": "1,000 people"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "この本は 千円です。",
+        "reading": "このほんはせんえんです。",
+        "en": "This book is 1,000 yen."
+      },
+      {
+        "ja": "三千円 払いました。",
+        "reading": "さんぜんえんはらいました。",
+        "en": "I paid 3,000 yen."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "十",
+        "note": "千 is 十 with an extra slanted stroke on top"
+      },
+      {
+        "character": "干",
+        "note": "干 starts with a flat line; 千 starts with a short slanting stroke"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 三千 as *さんせん instead of さんぜん"
+    ],
+    "memoryAid": "A person (the slanted top) standing on 十 (ten): ten times ten times over."
+  },
+  {
+    "id": "n5-kanji-水",
+    "slug": "54-水",
+    "level": "n5",
+    "order": 54,
+    "day": 5,
+    "character": "水",
+    "meanings": [
+      "water"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Wednesday"
+      },
+      {
+        "word": "水",
+        "reading": "みず",
+        "meaning": "water"
+      },
+      {
+        "word": "お水",
+        "reading": "おみず",
+        "meaning": "water (polite)"
+      },
+      {
+        "word": "水道",
+        "reading": "すいどう",
+        "meaning": "tap water, water supply"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "お水を ください。",
+        "reading": "おみずをください。",
+        "en": "Water, please."
+      },
+      {
+        "ja": "水曜日は 忙しいです。",
+        "reading": "すいようびはいそがしいです。",
+        "en": "Wednesday is busy."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "木",
+        "note": "木 has a straight horizontal top; 水 has splashing strokes on both sides"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 水曜日 as *みずようび instead of すいようび"
+    ],
+    "memoryAid": "A central stream with drops splashing off to the left and right."
+  },
+  {
+    "id": "n5-kanji-半",
+    "slug": "55-半",
+    "level": "n5",
+    "order": 55,
+    "day": 5,
+    "character": "半",
+    "meanings": [
+      "half"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "half"
+      },
+      {
+        "word": "二時半",
+        "reading": "にじはん",
+        "meaning": "2:30"
+      },
+      {
+        "word": "半年",
+        "reading": "はんとし",
+        "meaning": "half a year"
+      },
+      {
+        "word": "半日",
+        "reading": "はんにち",
+        "meaning": "half a day"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "二時半に 出かけます。",
+        "reading": "にじはんにでかけます。",
+        "en": "I will go out at 2:30."
+      },
+      {
+        "ja": "半年 日本に いました。",
+        "reading": "はんとしにほんにいました。",
+        "en": "I was in Japan for half a year."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "羊",
+        "note": "羊 (sheep) has three horizontal lines; 半 has two, with a long vertical through the middle"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 半分 as *はんふん instead of はんぶん"
+    ],
+    "memoryAid": "A line cut straight down the middle with a mark on each side: split in half."
+  },
+  {
+    "id": "n5-kanji-男",
+    "slug": "56-男",
+    "level": "n5",
+    "order": 56,
+    "day": 5,
+    "character": "男",
+    "meanings": [
+      "man",
+      "male"
+    ],
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "男",
+        "reading": "おとこ",
+        "meaning": "man"
+      },
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "meaning": "boy"
+      },
+      {
+        "word": "男性",
+        "reading": "だんせい",
+        "meaning": "male, man (polite)"
+      },
+      {
+        "word": "男の人",
+        "reading": "おとこのひと",
+        "meaning": "man"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "あの男の人は私の先生です。",
+        "reading": "あのおとこのひとはわたしのせんせいです。",
+        "en": "That man is my teacher."
+      },
+      {
+        "ja": "公園に男の子が三人います。",
+        "reading": "こうえんにおとこのこがさんにんいます。",
+        "en": "There are three boys in the park."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "田",
+        "note": "田 (rice field) is only the top box; 男 adds 力 (power) underneath"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 男性 as *おとこせい instead of だんせい"
+    ],
+    "memoryAid": "Power 力 under a rice field 田: the one working the field."
+  },
+  {
+    "id": "n5-kanji-西",
+    "slug": "57-西",
+    "level": "n5",
+    "order": 57,
+    "day": 5,
+    "character": "西",
+    "meanings": [
+      "west"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "meaning": "west"
+      },
+      {
+        "word": "西口",
+        "reading": "にしぐち",
+        "meaning": "west exit"
+      },
+      {
+        "word": "西洋",
+        "reading": "せいよう",
+        "meaning": "the West"
+      },
+      {
+        "word": "関西",
+        "reading": "かんさい",
+        "meaning": "Kansai region"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "駅の西口で会いましょう。",
+        "reading": "えきのにしぐちであいましょう。",
+        "en": "Let's meet at the west exit of the station."
+      },
+      {
+        "ja": "太陽は西にしずみます。",
+        "reading": "たいようはにしにしずみます。",
+        "en": "The sun sets in the west."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "四",
+        "note": "四 (four) has two short legs inside the box; 西 has a flat line across the top"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 関西 as *かんせい instead of かんさい"
+    ],
+    "memoryAid": "A bird settling into its nest at sundown: the sun goes down in the west."
+  },
+  {
+    "id": "n5-kanji-電",
+    "slug": "58-電",
+    "level": "n5",
+    "order": 58,
+    "day": 5,
+    "character": "電",
+    "meanings": [
+      "electricity"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "telephone"
+      },
+      {
+        "word": "電気",
+        "reading": "でんき",
+        "meaning": "electricity, light"
+      },
+      {
+        "word": "電池",
+        "reading": "でんち",
+        "meaning": "battery"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎日、電車で会社へ行きます。",
+        "reading": "まいにち、でんしゃでかいしゃへいきます。",
+        "en": "I go to the office by train every day."
+      },
+      {
+        "ja": "友だちに電話をかけました。",
+        "reading": "ともだちにでんわをかけました。",
+        "en": "I called my friend."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "雪",
+        "note": "雪 (snow) has ヨ under the rain top; 電 has 田 with a hook underneath"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 電話 as *でんはなし instead of でんわ"
+    ],
+    "memoryAid": "Rain (雨) over a field (田) with a hook of lightning: electricity from the storm."
+  },
+  {
+    "id": "n5-kanji-校",
+    "slug": "59-校",
+    "level": "n5",
+    "order": 59,
+    "day": 5,
+    "character": "校",
+    "meanings": [
+      "school"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "high school"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "elementary school"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "principal"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "学校は駅の近くにあります。",
+        "reading": "がっこうはえきのちかくにあります。",
+        "en": "The school is near the station."
+      },
+      {
+        "ja": "兄は高校の先生です。",
+        "reading": "あにはこうこうのせんせいです。",
+        "en": "My older brother is a high school teacher."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "交",
+        "note": "交 (mix, cross) is the right half of 校; 校 adds 木 (tree) on the left"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 小学校 as *しょうがくこう instead of しょうがっこう"
+    ],
+    "memoryAid": "Wooden 木 buildings where people cross paths 交: a school."
+  },
+  {
+    "id": "n5-kanji-語",
+    "slug": "60-語",
+    "level": "n5",
+    "order": 60,
+    "day": 5,
+    "character": "語",
+    "meanings": [
+      "language",
+      "word"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた.る"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": "English"
+      },
+      {
+        "word": "外国語",
+        "reading": "がいこくご",
+        "meaning": "foreign language"
+      },
+      {
+        "word": "単語",
+        "reading": "たんご",
+        "meaning": "vocabulary word"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎日、日本語を勉強します。",
+        "reading": "まいにち、にほんごをべんきょうします。",
+        "en": "I study Japanese every day."
+      },
+      {
+        "ja": "兄は英語が上手です。",
+        "reading": "あにはえいごがじょうずです。",
+        "en": "My older brother is good at English."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "話",
+        "note": "語 has 五 and 口 on the right; 話 has 舌 (tongue) on the right"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 日本語 as *にほんかた instead of にほんご"
+    ],
+    "memoryAid": "Words (言) plus five (五) mouths (口): five people all speaking one language."
+  },
+  {
+    "id": "n5-kanji-土",
+    "slug": "61-土",
+    "level": "n5",
+    "order": 61,
+    "day": 6,
+    "character": "土",
+    "meanings": [
+      "earth",
+      "soil"
+    ],
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Saturday"
+      },
+      {
+        "word": "土",
+        "reading": "つち",
+        "meaning": "soil, earth"
+      },
+      {
+        "word": "土曜",
+        "reading": "どよう",
+        "meaning": "Saturday"
+      },
+      {
+        "word": "お土産",
+        "reading": "おみやげ",
+        "meaning": "souvenir"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "土曜日に 山へ 行きます。",
+        "reading": "どようびにやまへいきます。",
+        "en": "I am going to the mountains on Saturday."
+      },
+      {
+        "ja": "友だちに お土産を あげました。",
+        "reading": "ともだちにおみやげをあげました。",
+        "en": "I gave my friend a souvenir."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "士",
+        "note": "土 has a longer bottom line; 士 has a longer top line"
+      }
+    ],
+    "commonMistakes": [
+      "Reading お土産 as *おどさん instead of おみやげ"
+    ],
+    "memoryAid": "A plant pushing up out of the ground line: soil."
+  },
+  {
+    "id": "n5-kanji-木",
+    "slug": "62-木",
+    "level": "n5",
+    "order": 62,
+    "day": 6,
+    "character": "木",
+    "meanings": [
+      "tree",
+      "wood"
+    ],
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "Thursday"
+      },
+      {
+        "word": "木",
+        "reading": "き",
+        "meaning": "tree, wood"
+      },
+      {
+        "word": "木曜",
+        "reading": "もくよう",
+        "meaning": "Thursday"
+      },
+      {
+        "word": "植木",
+        "reading": "うえき",
+        "meaning": "potted plant, garden tree"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "公園に 大きい 木が あります。",
+        "reading": "こうえんにおおきいきがあります。",
+        "en": "There is a big tree in the park."
+      },
+      {
+        "ja": "木曜日に テストが あります。",
+        "reading": "もくようびにてすとがあります。",
+        "en": "There is a test on Thursday."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "本",
+        "note": "本 (book) is 木 with an extra short line near the bottom"
+      },
+      {
+        "character": "水",
+        "note": "木 has a straight top line; 水 has a hooked centre and splashes"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 木曜日 as *きようび instead of もくようび"
+    ],
+    "memoryAid": "A trunk with branches spreading up and roots spreading down: a tree."
   },
   {
     "id": "n5-kanji-聞",
-    "slug": "70-聞",
+    "slug": "63-聞",
     "level": "n5",
-    "order": 70,
-    "day": 7,
+    "order": 63,
+    "day": 6,
     "character": "聞",
     "meanings": [
       "hear",
@@ -2186,6 +4087,7 @@
     "kunyomi": [
       "き.く"
     ],
+    "enriched": true,
     "words": [
       {
         "word": "聞く",
@@ -2233,7 +4135,1099 @@
     "commonMistakes": [
       "Reading 新聞 as *しんきく instead of しんぶん"
     ],
-    "memoryAid": "An ear (耳) pressed to the gate (門): listening to what is outside.",
-    "enriched": true
+    "memoryAid": "An ear (耳) pressed to the gate (門): listening to what is outside."
+  },
+  {
+    "id": "n5-kanji-食",
+    "slug": "64-食",
+    "level": "n5",
+    "order": 64,
+    "day": 6,
+    "character": "食",
+    "meanings": [
+      "eat",
+      "food"
+    ],
+    "onyomi": [
+      "ショク"
+    ],
+    "kunyomi": [
+      "た.べる"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "to eat"
+      },
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning": "cafeteria, dining hall"
+      },
+      {
+        "word": "食べ物",
+        "reading": "たべもの",
+        "meaning": "food"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "meal"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎朝パンを食べます。",
+        "reading": "まいあさぱんをたべます。",
+        "en": "I eat bread every morning."
+      },
+      {
+        "ja": "食堂で昼ご飯を食べました。",
+        "reading": "しょくどうでひるごはんをたべました。",
+        "en": "I ate lunch in the cafeteria."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "飲",
+        "note": "飲 (drink) is 食's radical plus 欠 on the right; 食 stands alone"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 食事 as *たべじ instead of しょくじ"
+    ],
+    "memoryAid": "A roof over a pot of rice: the place where you eat."
+  },
+  {
+    "id": "n5-kanji-車",
+    "slug": "65-車",
+    "level": "n5",
+    "order": 65,
+    "day": 6,
+    "character": "車",
+    "meanings": [
+      "car",
+      "vehicle"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "car"
+      },
+      {
+        "word": "自転車",
+        "reading": "じてんしゃ",
+        "meaning": "bicycle"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      },
+      {
+        "word": "自動車",
+        "reading": "じどうしゃ",
+        "meaning": "automobile"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "父は新しい車を買いました。",
+        "reading": "ちちはあたらしいくるまをかいました。",
+        "en": "My father bought a new car."
+      },
+      {
+        "ja": "自転車で駅まで行きます。",
+        "reading": "じてんしゃでえきまでいきます。",
+        "en": "I go to the station by bicycle."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "東",
+        "note": "東 (east) has 木 crossing 日; 車 is a single stem through stacked boxes"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 電車 as *でんくるま instead of でんしゃ"
+    ],
+    "memoryAid": "Look down at a cart from above: an axle through the middle of the wheels."
+  },
+  {
+    "id": "n5-kanji-何",
+    "slug": "66-何",
+    "level": "n5",
+    "order": 66,
+    "day": 6,
+    "character": "何",
+    "meanings": [
+      "what"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "何",
+        "reading": "なに",
+        "meaning": "what"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "meaning": "what time"
+      },
+      {
+        "word": "何人",
+        "reading": "なんにん",
+        "meaning": "how many people"
+      },
+      {
+        "word": "何曜日",
+        "reading": "なんようび",
+        "meaning": "what day of the week"
+      },
+      {
+        "word": "何か",
+        "reading": "なにか",
+        "meaning": "something"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "これは 何ですか。",
+        "reading": "これはなんですか。",
+        "en": "What is this?"
+      },
+      {
+        "ja": "今日は 何曜日ですか。",
+        "reading": "きょうはなんようびですか。",
+        "en": "What day of the week is it today?"
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "可",
+        "note": "何 is 可 with the person radical 亻 added on the left"
+      }
+    ],
+    "commonMistakes": [
+      "Saying *なにですか instead of なんですか"
+    ],
+    "memoryAid": "A person (亻) beside 可: someone standing there asking \"what?\""
+  },
+  {
+    "id": "n5-kanji-南",
+    "slug": "67-南",
+    "level": "n5",
+    "order": 67,
+    "day": 6,
+    "character": "南",
+    "meanings": [
+      "south"
+    ],
+    "onyomi": [
+      "ナン"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "南",
+        "reading": "みなみ",
+        "meaning": "south"
+      },
+      {
+        "word": "南口",
+        "reading": "みなみぐち",
+        "meaning": "south exit"
+      },
+      {
+        "word": "南米",
+        "reading": "なんべい",
+        "meaning": "South America"
+      },
+      {
+        "word": "東南",
+        "reading": "とうなん",
+        "meaning": "southeast"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "わたしの部屋は南にあります。",
+        "reading": "わたしのへやはみなみにあります。",
+        "en": "My room faces south."
+      },
+      {
+        "ja": "南の国は暑いです。",
+        "reading": "みなみのくにはあついです。",
+        "en": "Southern countries are hot."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "商",
+        "note": "商 (commerce) has 口 inside the lower box; 南 has a 十 shape inside"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 南口 as *なんぐち instead of みなみぐち"
+    ],
+    "memoryAid": "Ten (十) plants growing inside a warm greenhouse: the sunny south side."
+  },
+  {
+    "id": "n5-kanji-万",
+    "slug": "68-万",
+    "level": "n5",
+    "order": 68,
+    "day": 6,
+    "character": "万",
+    "meanings": [
+      "ten thousand"
+    ],
+    "onyomi": [
+      "マン"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "meaning": "10,000"
+      },
+      {
+        "word": "百万",
+        "reading": "ひゃくまん",
+        "meaning": "one million"
+      },
+      {
+        "word": "十万",
+        "reading": "じゅうまん",
+        "meaning": "100,000"
+      },
+      {
+        "word": "三万",
+        "reading": "さんまん",
+        "meaning": "30,000"
+      },
+      {
+        "word": "万年筆",
+        "reading": "まんねんひつ",
+        "meaning": "fountain pen"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "かばんは 一万円でした。",
+        "reading": "かばんはいちまんえんでした。",
+        "en": "The bag was 10,000 yen."
+      },
+      {
+        "ja": "この町には 百万人 住んでいます。",
+        "reading": "このまちにはひゃくまんにんすんでいます。",
+        "en": "A million people live in this town."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "方",
+        "note": "方 has a short stroke on top; 万 begins straight with a flat line"
+      }
+    ],
+    "commonMistakes": [
+      "Saying *まん alone for 10,000 instead of いちまん"
+    ],
+    "memoryAid": "A flat line with a big swooping tail: one sweep that carries ten thousand."
+  },
+  {
+    "id": "n5-kanji-毎",
+    "slug": "69-毎",
+    "level": "n5",
+    "order": 69,
+    "day": 6,
+    "character": "毎",
+    "meanings": [
+      "every"
+    ],
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [],
+    "enriched": true,
+    "words": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "every day"
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": "every week"
+      },
+      {
+        "word": "毎朝",
+        "reading": "まいあさ",
+        "meaning": "every morning"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "meaning": "every year"
+      },
+      {
+        "word": "毎月",
+        "reading": "まいつき",
+        "meaning": "every month"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "毎朝 コーヒーを 飲みます。",
+        "reading": "まいあさこーひーをのみます。",
+        "en": "I drink coffee every morning."
+      },
+      {
+        "ja": "毎週 プールへ 行きます。",
+        "reading": "まいしゅうぷーるへいきます。",
+        "en": "I go to the pool every week."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "母",
+        "note": "母 (mother) has no lid on top; 毎 adds a short slanting stroke above it"
+      },
+      {
+        "character": "海",
+        "note": "海 (sea) is 毎 with three water drops on the left"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 毎年 as *まいねん in everyday speech instead of まいとし"
+    ],
+    "memoryAid": "母 (mother) wearing a little hat: mother does the same thing every single day."
+  },
+  {
+    "id": "n5-kanji-白",
+    "slug": "70-白",
+    "level": "n5",
+    "order": 70,
+    "day": 6,
+    "character": "白",
+    "meanings": [
+      "white"
+    ],
+    "onyomi": [
+      "ハク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しろ.い"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "meaning": "white"
+      },
+      {
+        "word": "白",
+        "reading": "しろ",
+        "meaning": "white (noun)"
+      },
+      {
+        "word": "面白い",
+        "reading": "おもしろい",
+        "meaning": "interesting, funny"
+      },
+      {
+        "word": "白紙",
+        "reading": "はくし",
+        "meaning": "blank paper"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "白いシャツを着ています。",
+        "reading": "しろいしゃつをきています。",
+        "en": "I am wearing a white shirt."
+      },
+      {
+        "ja": "この本はとても面白いです。",
+        "reading": "このほんはとてもおもしろいです。",
+        "en": "This book is very interesting."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "日",
+        "note": "白 has a small stroke on top of the box; 日 (sun) does not"
+      },
+      {
+        "character": "百",
+        "note": "百 (hundred) has a full horizontal line on top; 白 has a short slanted mark"
+      }
+    ],
+    "commonMistakes": [
+      "Confusing 白 with 百 (hundred) when reading quickly"
+    ],
+    "memoryAid": "The sun (日) with a ray on top, so bright it bleaches everything white."
+  },
+  {
+    "id": "n5-kanji-天",
+    "slug": "71-天",
+    "level": "n5",
+    "order": 71,
+    "day": 6,
+    "character": "天",
+    "meanings": [
+      "heaven",
+      "sky"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あま"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      },
+      {
+        "word": "天国",
+        "reading": "てんごく",
+        "meaning": "heaven"
+      },
+      {
+        "word": "晴天",
+        "reading": "せいてん",
+        "meaning": "clear sky"
+      },
+      {
+        "word": "天才",
+        "reading": "てんさい",
+        "meaning": "genius"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今日はいい天気ですね。",
+        "reading": "きょうはいいてんきですね。",
+        "en": "The weather is nice today, isn't it?"
+      },
+      {
+        "ja": "明日の天気を調べます。",
+        "reading": "あしたのてんきをしらべます。",
+        "en": "I will check tomorrow's weather."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "大",
+        "note": "天 has an extra line on top; 大 (big) is just the person with arms out"
+      },
+      {
+        "character": "夫",
+        "note": "夫 (husband) has the vertical stroke poking through the top line; 天 does not"
+      }
+    ],
+    "commonMistakes": [
+      "Confusing 天 with 大 when writing"
+    ],
+    "memoryAid": "A big person (大) with a line drawn above their head: the sky overhead."
+  },
+  {
+    "id": "n5-kanji-母",
+    "slug": "72-母",
+    "level": "n5",
+    "order": 72,
+    "day": 6,
+    "character": "母",
+    "meanings": [
+      "mother"
+    ],
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "my mother"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning": "mother (polite)"
+      },
+      {
+        "word": "母親",
+        "reading": "ははおや",
+        "meaning": "mother"
+      },
+      {
+        "word": "祖母",
+        "reading": "そぼ",
+        "meaning": "grandmother"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "母は料理が上手です。",
+        "reading": "はははりょうりがじょうずです。",
+        "en": "My mother is good at cooking."
+      },
+      {
+        "ja": "お母さんに手紙を書きました。",
+        "reading": "おかあさんにてがみをかきました。",
+        "en": "I wrote a letter to my mother."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "毎",
+        "note": "毎 (every) has a small lid on top of the 母 shape"
+      }
+    ],
+    "commonMistakes": [
+      "Using 母 for someone else's mother instead of お母さん"
+    ],
+    "memoryAid": "The woman shape with two dots added, like a mother holding her baby close."
+  },
+  {
+    "id": "n5-kanji-火",
+    "slug": "73-火",
+    "level": "n5",
+    "order": 73,
+    "day": 7,
+    "character": "火",
+    "meanings": [
+      "fire"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Tuesday"
+      },
+      {
+        "word": "火",
+        "reading": "ひ",
+        "meaning": "fire"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "meaning": "fireworks"
+      },
+      {
+        "word": "火事",
+        "reading": "かじ",
+        "meaning": "a fire (blaze)"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "火曜日に 病院へ 行きます。",
+        "reading": "かようびにびょういんへいきます。",
+        "en": "I go to the hospital on Tuesday."
+      },
+      {
+        "ja": "夏に 花火を 見ました。",
+        "reading": "なつにはなびをみました。",
+        "en": "I watched fireworks in summer."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "大",
+        "note": "大 is one person with open arms; 火 has two extra sparks flying off the sides"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 火曜日 as *ひようび instead of かようび"
+    ],
+    "memoryAid": "A person with sparks flying off both shoulders: standing too close to the fire."
+  },
+  {
+    "id": "n5-kanji-右",
+    "slug": "74-右",
+    "level": "n5",
+    "order": 74,
+    "day": 7,
+    "character": "右",
+    "meanings": [
+      "right"
+    ],
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "right"
+      },
+      {
+        "word": "右手",
+        "reading": "みぎて",
+        "meaning": "right hand"
+      },
+      {
+        "word": "右側",
+        "reading": "みぎがわ",
+        "meaning": "right side"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning": "left and right"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "トイレは右にあります。",
+        "reading": "といれはみぎにあります。",
+        "en": "The toilet is on the right."
+      },
+      {
+        "ja": "右手でペンを持ちます。",
+        "reading": "みぎてでぺんをもちます。",
+        "en": "I hold the pen with my right hand."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "左",
+        "note": "右 has 口 (mouth) underneath; 左 has 工 underneath"
+      },
+      {
+        "character": "石",
+        "note": "石 (stone) starts with a flat top stroke; 右 starts with a short slanting stroke"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 右 and 左"
+    ],
+    "memoryAid": "A hand near a mouth (口): the right hand is the one you eat with."
+  },
+  {
+    "id": "n5-kanji-読",
+    "slug": "75-読",
+    "level": "n5",
+    "order": 75,
+    "day": 7,
+    "character": "読",
+    "meanings": [
+      "read"
+    ],
+    "onyomi": [
+      "ドク"
+    ],
+    "kunyomi": [
+      "よ.む"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "to read"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning": "reading (books)"
+      },
+      {
+        "word": "読み方",
+        "reading": "よみかた",
+        "meaning": "how to read, reading"
+      },
+      {
+        "word": "読者",
+        "reading": "どくしゃ",
+        "meaning": "reader"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "私は毎日本を読みます。",
+        "reading": "わたしはまいにちほんをよみます。",
+        "en": "I read books every day."
+      },
+      {
+        "ja": "この漢字の読み方を教えてください。",
+        "reading": "このかんじのよみかたをおしえてください。",
+        "en": "Please tell me how to read this kanji."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "語",
+        "note": "Both have 言 on the left; 読 has 売 on the right, 語 has 五 and 口"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 読書 as *よみしょ instead of どくしょ"
+    ],
+    "memoryAid": "言 (words) beside 売 (sell): a shop selling words is where you go to read."
+  },
+  {
+    "id": "n5-kanji-友",
+    "slug": "76-友",
+    "level": "n5",
+    "order": 76,
+    "day": 7,
+    "character": "友",
+    "meanings": [
+      "friend"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "friend"
+      },
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "meaning": "friend (formal)"
+      },
+      {
+        "word": "親友",
+        "reading": "しんゆう",
+        "meaning": "close friend"
+      },
+      {
+        "word": "友情",
+        "reading": "ゆうじょう",
+        "meaning": "friendship"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "友達と映画を見ました。",
+        "reading": "ともだちとえいがをみました。",
+        "en": "I watched a movie with a friend."
+      },
+      {
+        "ja": "彼は私の親友です。",
+        "reading": "かれはわたしのしんゆうです。",
+        "en": "He is my close friend."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "右",
+        "note": "右 (right) has 口 under the top strokes; 友 has 又 (a hand) instead"
+      }
+    ],
+    "commonMistakes": [
+      "Reading 友達 as *ゆうたち instead of ともだち"
+    ],
+    "memoryAid": "Two hands reaching toward each other: friends helping each other."
+  },
+  {
+    "id": "n5-kanji-左",
+    "slug": "77-左",
+    "level": "n5",
+    "order": 77,
+    "day": 7,
+    "character": "左",
+    "meanings": [
+      "left"
+    ],
+    "onyomi": [
+      "サ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "left"
+      },
+      {
+        "word": "左手",
+        "reading": "ひだりて",
+        "meaning": "left hand"
+      },
+      {
+        "word": "左側",
+        "reading": "ひだりがわ",
+        "meaning": "left side"
+      },
+      {
+        "word": "左足",
+        "reading": "ひだりあし",
+        "meaning": "left foot"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "つぎのかどを左にまがってください。",
+        "reading": "つぎのかどをひだりにまがってください。",
+        "en": "Please turn left at the next corner."
+      },
+      {
+        "ja": "銀行は駅の左にあります。",
+        "reading": "ぎんこうはえきのひだりにあります。",
+        "en": "The bank is to the left of the station."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "右",
+        "note": "左 has 工 underneath; 右 has 口 underneath"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 左 and 右 because the tops look alike"
+    ],
+    "memoryAid": "A hand holding a carpenter's tool (工): the left hand steadies the work."
+  },
+  {
+    "id": "n5-kanji-休",
+    "slug": "78-休",
+    "level": "n5",
+    "order": 78,
+    "day": 7,
+    "character": "休",
+    "meanings": [
+      "rest",
+      "holiday"
+    ],
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む",
+      "やす.み"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning": "to rest, to take a day off"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "holiday, day off"
+      },
+      {
+        "word": "夏休み",
+        "reading": "なつやすみ",
+        "meaning": "summer vacation"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "holiday"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "今日は学校を休みます。",
+        "reading": "きょうはがっこうをやすみます。",
+        "en": "I am taking the day off school today."
+      },
+      {
+        "ja": "夏休みは八月です。",
+        "reading": "なつやすみははちがつです。",
+        "en": "The summer vacation is in August."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "体",
+        "note": "体 (body) has 本 on the right; 休 has 木 (tree) on the right"
+      }
+    ],
+    "commonMistakes": [
+      "Mixing up 休 (rest) and 体 (body)"
+    ],
+    "memoryAid": "A person 亻 leaning against a tree 木: taking a rest."
+  },
+  {
+    "id": "n5-kanji-父",
+    "slug": "79-父",
+    "level": "n5",
+    "order": 79,
+    "day": 7,
+    "character": "父",
+    "meanings": [
+      "father"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "my father"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning": "father (polite)"
+      },
+      {
+        "word": "父親",
+        "reading": "ちちおや",
+        "meaning": "father"
+      },
+      {
+        "word": "祖父",
+        "reading": "そふ",
+        "meaning": "grandfather"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "父は会社員です。",
+        "reading": "ちちはかいしゃいんです。",
+        "en": "My father is a company employee."
+      },
+      {
+        "ja": "お父さんはお元気ですか。",
+        "reading": "おとうさんはおげんきですか。",
+        "en": "How is your father?"
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "交",
+        "note": "交 (cross, mix) has a lid on top; 父 is only the four crossing strokes"
+      },
+      {
+        "character": "文",
+        "note": "文 (writing) has a straight line across the top; 父 starts with two small slanting strokes"
+      }
+    ],
+    "commonMistakes": [
+      "Using 父 for someone else's father instead of お父さん"
+    ],
+    "memoryAid": "Two crossed arms holding tools: the father at work."
+  },
+  {
+    "id": "n5-kanji-雨",
+    "slug": "80-雨",
+    "level": "n5",
+    "order": 80,
+    "day": 7,
+    "character": "雨",
+    "meanings": [
+      "rain"
+    ],
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ"
+    ],
+    "enriched": true,
+    "words": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "meaning": "rain"
+      },
+      {
+        "word": "大雨",
+        "reading": "おおあめ",
+        "meaning": "heavy rain"
+      },
+      {
+        "word": "小雨",
+        "reading": "こさめ",
+        "meaning": "light rain"
+      },
+      {
+        "word": "雨天",
+        "reading": "うてん",
+        "meaning": "rainy weather"
+      }
+    ],
+    "examples": [
+      {
+        "ja": "明日は雨がふります。",
+        "reading": "あしたはあめがふります。",
+        "en": "It will rain tomorrow."
+      },
+      {
+        "ja": "雨の日は家にいます。",
+        "reading": "あめのひはいえにいます。",
+        "en": "On rainy days I stay at home."
+      }
+    ],
+    "similarKanji": [
+      {
+        "character": "両",
+        "note": "両 (both) has no dots inside; 雨 has four raindrops inside"
+      }
+    ],
+    "commonMistakes": [
+      "Forgetting the four dots inside 雨"
+    ],
+    "memoryAid": "A window frame with four drops falling behind it: rain."
   }
 ]

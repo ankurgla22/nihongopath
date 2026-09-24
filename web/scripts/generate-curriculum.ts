@@ -77,13 +77,13 @@ type PhaseCfg = Curriculum["phases"][number] & {
   mocks: Record<number, string>;
 };
 const PHASES: PhaseCfg[] = [
-  { id: 1, name: "Foundation", description: "Kana, N5 grammar, 700 N5 words and the 103 N5 kanji. Build daily study habits.", startDay: 1, endDay: 30, level: "n5", pass: "first", reading: idsIn("n5", "reading"), listeningOffset: 0, mocks: {} },
-  { id: 2, name: "Intermediate", description: "All N4 grammar including keigo basics, 900 N4 words, 148 N4 kanji, first graded reading passages.", startDay: 31, endDay: 60, level: "n4", pass: "first", reading: idsIn("n4", "reading"), listeningOffset: 0, mocks: {} },
-  { id: 3, name: "N3 → N2 Transition", description: "N3 grammar, 1,500 N3 words and 369 N3 kanji. Start exam-style reading and listening.", startDay: 61, endDay: 90, level: "n3", pass: "first", reading: idsIn("n3", "reading"), listeningOffset: 0, mocks: {} },
-  { id: 4, name: "N2 Core", description: "All 200 N2 grammar points, 1,800 N2 words and 387 N2 kanji with short-passage reading and listening drills.", startDay: 91, endDay: 135, level: "n2", pass: "first", reading: idsIn("n2", "reading", (x) => x.kind === "short"), listeningOffset: 0, mocks: {} },
+  { id: 1, name: "Foundation", description: "Kana, N5 grammar, {V} N5 words and the {K} N5 kanji. Build daily study habits.", startDay: 1, endDay: 30, level: "n5", pass: "first", reading: idsIn("n5", "reading"), listeningOffset: 0, mocks: {} },
+  { id: 2, name: "Intermediate", description: "All N4 grammar including keigo basics, {V} N4 words, {K} N4 kanji, first graded reading passages.", startDay: 31, endDay: 60, level: "n4", pass: "first", reading: idsIn("n4", "reading"), listeningOffset: 0, mocks: {} },
+  { id: 3, name: "N3 → N2 Transition", description: "N3 grammar, {V} N3 words and {K} N3 kanji. Start exam-style reading and listening.", startDay: 61, endDay: 90, level: "n3", pass: "first", reading: idsIn("n3", "reading"), listeningOffset: 0, mocks: {} },
+  { id: 4, name: "N2 Core", description: "All 200 N2 grammar points, {V} N2 words and {K} N2 kanji with short-passage reading and listening drills.", startDay: 91, endDay: 135, level: "n2", pass: "first", reading: idsIn("n2", "reading", (x) => x.kind === "short"), listeningOffset: 0, mocks: {} },
   { id: 5, name: "N2 Intensive", description: "Second pass over N2 grammar and vocabulary, medium/long/integrated reading, full listening rotation, first mock exam.", startDay: 136, endDay: 165, level: "n2", pass: "second", reading: idsIn("n2", "reading", (x) => x.kind !== "short"), listeningOffset: 45, mocks: { 150: "n2-mock-a" } },
   { id: 6, name: "N2 Exam Preparation", description: "Weak-point review, timed passages, confusable pairs, contractions, two mock exams and the N2 phase test.", startDay: 166, endDay: 180, level: "n2", pass: "exam", reading: idsIn("n2", "reading"), listeningOffset: 75, mocks: { 170: "n2-mock-b", 178: "n2-mock-c" } },
-  { id: 7, name: "N1 Core", description: "All 180 N1 grammar points, 1,500 N1 words and 600 N1 kanji, with short and mid-length editorial reading and natural-speed listening.", startDay: 181, endDay: 225, level: "n1", pass: "first", reading: idsIn("n1", "reading", (x) => x.kind === "short" || x.kind === "medium"), listeningOffset: 0, mocks: {} },
+  { id: 7, name: "N1 Core", description: "All 180 N1 grammar points, {V} N1 words and {K} N1 kanji, with short and mid-length editorial reading and natural-speed listening.", startDay: 181, endDay: 225, level: "n1", pass: "first", reading: idsIn("n1", "reading", (x) => x.kind === "short" || x.kind === "medium"), listeningOffset: 0, mocks: {} },
   { id: 8, name: "N1 Intensive", description: "Second pass over N1 grammar and vocabulary, long, integrated and information-retrieval reading, full listening rotation, first N1 mock exam.", startDay: 226, endDay: 255, level: "n1", pass: "second", reading: idsIn("n1", "reading", (x) => x.kind !== "short"), listeningOffset: 45, mocks: { 240: "n1-mock-a" } },
   { id: 9, name: "N1 Exam Preparation", description: "Weak-point review, timed long passages, register and nuance drills, two mock exams and the N1 phase test.", startDay: 256, endDay: 270, level: "n1", pass: "exam", reading: idsIn("n1", "reading"), listeningOffset: 75, mocks: { 260: "n1-mock-b", 268: "n1-mock-c" } },
 ];
@@ -351,7 +351,18 @@ function buildPhase(phase: PhaseCfg): CurriculumDay[] {
   return days;
 }
 
-const phasesOut: Curriculum["phases"] = PHASES.map(({ id, name, description, startDay, endDay }) => ({ id, name, description, startDay, endDay }));
+// Phase descriptions quote how much material the phase covers. Fill those counts from the
+// actual level membership rather than hard-coding them, so the plan can never promise a number
+// the content does not contain — re-bucketing a word to another level updates the prose too.
+const phasesOut: Curriculum["phases"] = PHASES.map(({ id, name, description, startDay, endDay, level }) => ({
+  id,
+  name,
+  description: description
+    .replace("{V}", vocab[level].length.toLocaleString("en-US"))
+    .replace("{K}", String(kanji[level].length)),
+  startDay,
+  endDay,
+}));
 const allDays = PHASES.flatMap(buildPhase);
 
 // Post-pass: any reading passage or listening exercise the rotations never reached is added to
