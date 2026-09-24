@@ -24,9 +24,11 @@ export function PageTitle({ eyebrow, title, description, actions }: { eyebrow?: 
   );
 }
 
-export function Section({ id, title, children, intro, eyebrow, actions }: { id?: string; title: string; children: ReactNode; intro?: string; eyebrow?: string; actions?: ReactNode }) {
+export function Section({ id, title, children, intro, eyebrow, actions, className = "scroll-mt-24" }: { id?: string; title: string; children: ReactNode; intro?: string; eyebrow?: string; actions?: ReactNode; className?: string }) {
+  // `className` exists for the scroll offset. A page that stacks its own sticky bar under the
+  // site header needs a bigger one, or jumping to a section leaves its heading hidden behind it.
   return (
-    <section id={id} className="mt-12 scroll-mt-24">
+    <section id={id} className={`mt-12 ${className}`}>
       <div className="flex items-end justify-between gap-4 mb-4">
         <div>
           {eyebrow && <p className="text-[11px] uppercase tracking-[0.14em] text-muted mb-1">{eyebrow}</p>}

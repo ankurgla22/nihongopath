@@ -42,7 +42,7 @@ export function PartBar({ parts, quickCheckId }: { parts: { id: string; label: s
   return (
     <div
       aria-hidden={!visible}
-      className={`sticky top-[4.5rem] sm:top-20 z-30 -mx-4 px-4 sm:mx-0 sm:px-0 transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
+      className={`sticky top-[calc(var(--header-h,4rem)+0.5rem)] z-30 -mx-4 px-4 sm:mx-0 sm:px-0 transition-opacity duration-200 ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}`}
     >
       <div className="glass border border-line rounded-full shadow-md px-3.5 py-2 flex items-center gap-3 text-sm">
         <span className="inline-flex h-6 min-w-[1.5rem] px-1.5 items-center justify-center rounded-full accent-gradient text-white text-[11px] font-semibold tabular-nums" aria-hidden>

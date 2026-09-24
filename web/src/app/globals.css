@@ -7,6 +7,11 @@
   /* Noto Sans JP is loaded asynchronously (components/layout/JapaneseFont.tsx), not via next/font,
      so the variable is declared here. Every .ja rule falls back to the device's CJK fonts until it lands. */
   --font-jp: "Noto Sans JP";
+  /* The site header's measured height, kept current by components/layout/HeaderHeight.tsx. The
+     mobile header grows and shrinks as its nav row collapses on scroll, so anything pinned below
+     it or scrolled into place under it reads this rather than assuming 4rem. This value is the
+     fallback for first paint and for no-JS. */
+  --header-h: 4rem;
   --bg: #f7f6f2;
   --bg-elev: #fdfcfa;
   --surface: #ffffff;

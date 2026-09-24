@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { JapaneseFont } from "@/components/layout/JapaneseFont";
+import { HeaderHeight } from "@/components/layout/HeaderHeight";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { AuthProvider } from "@/components/auth/AuthProvider";
@@ -46,7 +47,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AuthProvider>
           <UserDocProvider>
             <SiteHeader />
-            <main id="main" className="flex-1">
+            <HeaderHeight />
+            {/* "Skip to content" jumps here, so it needs to clear the sticky header. */}
+            <main id="main" className="flex-1 scroll-mt-[calc(var(--header-h,4rem)+0.5rem)]">
               {children}
             </main>
             <SiteFooter />

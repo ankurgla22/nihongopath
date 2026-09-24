@@ -400,7 +400,7 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
       )}
 
       {/* Sticky summary bar */}
-      <div className={`sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5 ${runningTask ? "mt-6" : ""}`}>
+      <div className={`sticky top-[var(--header-h,4rem)] z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5 ${runningTask ? "mt-6" : ""}`}>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
           <span className="font-semibold">Day {day.day}</span>
           <span className="text-muted tabular-nums">

@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, type ReactNode } from "react";
+import { useState, type ReactNode, useEffect, useRef} from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import type { Question } from "@/lib/content/schemas";
 import { AudioPlayer, type ScriptLine } from "@/components/audio/AudioPlayer";
 import { QuestionSet } from "@/components/practice/QuestionSet";
@@ -49,6 +50,16 @@ export function ListeningPractice({
     setStepIdx(clamped);
     setMaxReached((m) => Math.max(m, clamped));
   }
+
+  // Each step reveals a block further down the page — the transcript, then the vocabulary list —
+  // while the step rail stays at the top. Without this, pressing "Review vocabulary" only changes
+  // a heading and the list it refers to is a screen or more below, so the button looks dead.
+  const stepRef = useRef<HTMLElement>(null);
+  const painted = useRef(false);
+  useEffect(() => {
+    if (!painted.current) { painted.current = true; return; }
+    scrollUnderHeader(stepRef.current);
+  }, [stepIdx]);
   const next = () => go(stepIdx + 1);
 
   const transcriptIdx = STEPS.indexOf("Transcript");
@@ -108,7 +119,7 @@ export function ListeningPractice({
         </ol>
       </nav>
 
-      <section aria-labelledby="step-heading" className="space-y-4">
+      <section ref={stepRef} aria-labelledby="step-heading" className="space-y-4">
         <div>
           <h3 id="step-heading" className="text-h2">
             {step}

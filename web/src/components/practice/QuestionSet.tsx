@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import type { Question } from "@/lib/content/schemas";
 import { Button, Callout, Speakable } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
@@ -47,6 +48,7 @@ export function QuestionSet({
 }) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [checked, setChecked] = useState(false);
+  const scoreRef = useRef<HTMLDivElement>(null);
 
   if (questions.length === 0) {
     return <p className="text-muted text-sm">No questions are attached to this exercise yet.</p>;
@@ -59,6 +61,10 @@ export function QuestionSet({
   function check() {
     setChecked(true);
     onSubmit?.({ correct, total: questions.length });
+    // Checking expands an explanation under every question above this button, inserting several
+    // hundred pixels of content above the scroll position, so the score lands off screen and the
+    // page looks like it ignored the click. Follow the score down to it.
+    requestAnimationFrame(() => scrollUnderHeader(scoreRef.current));
   }
 
   return (
@@ -187,7 +193,7 @@ export function QuestionSet({
           )}
         </div>
       ) : (
-        <div aria-live="polite">
+        <div ref={scoreRef} aria-live="polite">
           <Callout tone={correct === questions.length ? "ok" : "neutral"} title={`Score: ${correct} / ${questions.length}`}>
             {correct === questions.length ? "Every answer correct. Re-read once more for speed." : "Read the explanations for the ones you missed, then re-read those parts of the text."}
           </Callout>

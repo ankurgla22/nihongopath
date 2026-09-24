@@ -59,7 +59,11 @@ export function CollapsingRow({ children, className = "" }: { children: React.Re
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
-    <div className={`${className} overflow-hidden transition-[max-height,opacity] duration-200 ${hidden ? "max-h-0 opacity-0 border-t-0" : "max-h-16 opacity-100"}`} aria-hidden={hidden || undefined}>
+    // `invisible` matters as much as the height: max-h-0 plus opacity-0 hides the row visually but
+    // leaves every link in the tab order, so tabbing from the logo on a phone dropped focus into
+    // five controls nobody could see. visibility:hidden removes them from it. StickyCta and
+    // PartBar already guard this; this row was missed.
+    <div className={`${className} overflow-hidden transition-[max-height,opacity] duration-200 ${hidden ? "max-h-0 opacity-0 invisible border-t-0" : "max-h-16 opacity-100"}`} aria-hidden={hidden || undefined}>
       {children}
     </div>
   );

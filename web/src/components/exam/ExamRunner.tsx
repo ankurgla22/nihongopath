@@ -11,6 +11,7 @@
  * network loss never loses progress.
  */
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import { useRouter } from "next/navigation";
 import type { ExamBlueprint, Question } from "@/lib/content/schemas";
 import { scoreExam, type SubmittedAnswer } from "@/lib/engine/scoring";
@@ -376,6 +377,17 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
   };
 
   /* ---------- answering / navigation ---------- */
+  // Moving between questions, sections, or from the start screen into the paper leaves the scroll
+  // untouched, so the question can render under the header and the timer bar. Under exam timing a
+  // candidate answering a question they cannot see is worse than untidy.
+  const examBarRef = useRef<HTMLDivElement>(null);
+  const questionRef = useRef<HTMLDivElement>(null);
+  const firstPaint = useRef(true);
+  useEffect(() => {
+    if (firstPaint.current) { firstPaint.current = false; return; }
+    scrollUnderHeader(questionRef.current, examBarRef.current);
+  }, [questionIndex, sectionIndex, screen]);
+
   const goTo = useCallback(
     (idx: number) => {
       if (idx < 0 || idx >= sectionQuestions.length || idx === questionIndex) return;
@@ -732,7 +744,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
       <div className="py-4 sm:py-6 pb-16">
         {liveRegion}
         {/* Exam bar */}
-        <div className="sticky top-16 z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-b border-line">
+        <div ref={examBarRef} className="sticky top-[var(--header-h,4rem)] z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-b border-line">
           <div className="flex items-center justify-between gap-3">
             <div className="min-w-0">
               <p className="text-[11px] uppercase tracking-wider text-muted truncate">
@@ -780,7 +792,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
           </div>
         </div>
 
-        <div className="mt-5 grid gap-4 lg:grid-cols-[minmax(0,1fr)_280px]">
+        <div ref={questionRef} className="mt-5 grid gap-4 lg:grid-cols-[minmax(0,1fr)_280px]">
           <Card className="order-1 min-w-0 animate-rise" padding="p-4 sm:p-6">
             <div className="flex flex-wrap items-center gap-2">
               <Badge>{typeLabel(currentQuestion)}</Badge>
@@ -870,7 +882,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
         </div>
 
         {navOpen && (
-          <div role="dialog" aria-modal="true" aria-label="Question navigator" className="fixed inset-0 z-20 flex items-end justify-center bg-black/40 p-0 sm:p-4 lg:hidden">
+          <div role="dialog" aria-modal="true" aria-label="Question navigator" className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-0 sm:p-4 lg:hidden">
             <button type="button" className="absolute inset-0 cursor-default" aria-label="Close navigator" onClick={() => setNavOpen(false)} />
             <Card className="relative w-full sm:max-w-md rounded-b-none sm:rounded-b-2xl max-h-[80vh] overflow-y-auto animate-rise" padding="p-5">
               <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line-strong sm:hidden" aria-hidden />
@@ -885,7 +897,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
         )}
 
         {screen === "confirm-submit" && (
-          <div role="dialog" aria-modal="true" aria-labelledby="submit-title" className="fixed inset-0 z-30 flex items-end sm:items-center justify-center bg-black/40 p-4">
+          <div role="dialog" aria-modal="true" aria-labelledby="submit-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 p-4">
             <Card className="w-full max-w-md shadow-lg animate-rise">
               <h2 id="submit-title" className="text-lg font-semibold">
                 {lastSection ? "Submit the exam?" : "Submit this section?"}

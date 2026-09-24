@@ -80,13 +80,13 @@ export default function FoundationLessonPage({ params }: { params: Params }) {
         <PartBar parts={lesson.sections.map((s, i) => ({ id: `s${i + 1}`, label: s.heading }))} quickCheckId={practice.length > 0 ? "practice" : undefined} />
 
         {lesson.sections.map((s, i) => (
-          <Section key={i} id={`s${i + 1}`} title={s.heading}>
+          <Section key={i} id={`s${i + 1}`} title={s.heading} className="scroll-mt-36">
             <FoundationBlocks blocks={s.blocks} />
           </Section>
         ))}
 
         {practice.length > 0 && (
-          <Section id="practice" title="Quick check">
+          <Section id="practice" title="Quick check" className="scroll-mt-36">
             <LessonQuiz questions={practice} title="Quick check" />
           </Section>
         )}

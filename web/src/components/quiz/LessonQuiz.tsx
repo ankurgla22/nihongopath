@@ -4,7 +4,8 @@
  * gives immediate feedback with explanations, and a final score.
  */
 import Link from "next/link";
-import { useState } from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
+import { useEffect, useRef, useState } from "react";
 import type { Question } from "@/lib/content/schemas";
 import { SpeakButton } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
@@ -31,6 +32,16 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   const [i, setI] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [answers, setAnswers] = useState<boolean[]>([]);
+
+  // Declared above the early return: hooks must run in the same order on every render.
+  // The Next button sits below the options, so the viewport is always parked low when it fires
+  // and the new question would render above the fold. Bring it back under the header.
+  const cardRef = useRef<HTMLDivElement>(null);
+  const painted = useRef(false);
+  useEffect(() => {
+    if (!painted.current) { painted.current = true; return; }
+    scrollUnderHeader(cardRef.current);
+  }, [i]);
 
   if (questions.length === 0) return null;
 
@@ -96,7 +107,7 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   const wrongNotes = wrongOptionNotes(q.distractorExplanations, q.answerIndex, q.options.length);
 
   return (
-    <div className="surface rounded-2xl overflow-hidden">
+    <div ref={cardRef} className="surface rounded-2xl overflow-hidden">
       {/* progress strip */}
       <div className="h-1 bg-surface-2" aria-hidden>
         <div className="h-full accent-gradient transition-[width] duration-500" style={{ width: `${(i / questions.length) * 100}%` }} />

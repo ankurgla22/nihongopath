@@ -175,7 +175,7 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
 
           {result.groups.map((g) => (
             <div key={g.type} className="mt-8">
-              <h2 className="sticky top-16 z-10 glass -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 border-y border-line text-sm font-semibold flex items-center gap-2">
+              <h2 className="sticky top-[var(--header-h,4rem)] z-10 glass -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 border-y border-line text-sm font-semibold flex items-center gap-2">
                 <Badge tone={TYPE_TONE[g.type]}>{g.type}</Badge>
                 <span className="text-muted font-normal tabular-nums">{g.hits.length}</span>
               </h2>

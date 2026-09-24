@@ -18,6 +18,7 @@
  */
 import Link from "next/link";
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type ReactNode } from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import type { Question } from "@/lib/content/schemas";
 import { questionContentIds, scoreQuiz, type SubmittedAnswer } from "@/lib/engine/scoring";
 import { fetchContentLinks } from "@/lib/questions/client";
@@ -243,6 +244,17 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   }, [mode, revealed, selected, commit]);
 
   // Keyboard shortcuts: 1–6 choose, Enter advances, arrows move selection (test mode).
+  // Advancing leaves the page scroll where it was, so the next question renders above the fold
+  // or under the sticky bars: four options on screen with nothing saying what they answer.
+  const progressRef = useRef<HTMLDivElement>(null);
+  const bodyRef = useRef<HTMLDivElement>(null);
+  const settled = useRef(false);
+  useEffect(() => {
+    if (finished) return;
+    if (!settled.current) { settled.current = true; return; } // don't yank the page on first paint
+    scrollUnderHeader(bodyRef.current, progressRef.current);
+  }, [index, finished]);
+
   useEffect(() => {
     if (finished || !q) return;
     const onKey = (e: KeyboardEvent) => {
@@ -414,7 +426,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   return (
     <div className="surface rounded-2xl overflow-hidden">
       {/* Sticky progress */}
-      <div className="sticky top-16 z-[5] border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
+      <div ref={progressRef} className="sticky top-[var(--header-h,4rem)] z-[5] border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between gap-x-4">
           <span className="sr-only">{title}</span>
           <span className="text-sm font-semibold tabular-nums" aria-live="polite">
@@ -435,7 +447,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
         </div>
       </div>
 
-      <div className="p-4 sm:p-6">
+      <div ref={bodyRef} className="p-4 sm:p-6">
         {restored && index > 0 && (
           <p className="rounded-lg border border-line bg-surface-2 px-3 py-2 text-xs text-muted" role="status">
             Resumed from question {index + 1} — your earlier answers were kept.
