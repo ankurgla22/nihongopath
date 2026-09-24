@@ -128,7 +128,11 @@ export const VocabItemSchema = z.object({
   pos: z.string(),
   meaning: z.string(),
   theme: z.string().optional(),
-  examples: z.array(ExampleSchema).min(1),
+  // An entry straight from the published list may genuinely have no sentence yet: the corpus has
+  // none for 平仮名, 部首, 半径 or おじゃまします, and inventing one to satisfy a schema is worse
+  // than leaving it for enrichment, which requires three. `enriched` says which state an entry is
+  // in, and scripts/enrich-batches.mjs enforces the real bar before anything is installed.
+  examples: z.array(ExampleSchema).default([]),
   collocations: z.array(z.object({ ja: z.string(), en: z.string() })).default([]),
   related: z.array(z.string()).default([]),
   synonyms: z.array(z.string()).default([]),
