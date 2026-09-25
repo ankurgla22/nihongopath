@@ -24,8 +24,16 @@ npm run deploy
 npm run deploy -- -SkipChecks -SkipLocalBuild     # quick redeploy of a tree you just verified
 ```
 
-The backend is **not** connected to GitHub: pushes do not trigger rollouts, only `npm run deploy` does.
+The backend **is** connected to GitHub: a push to `main` triggers a Cloud Build rollout on its own
+(build `3fb5c00c` fetched commit `b2c7e72` this way on 2026-09-25). `npm run deploy` is the second route
+— it uploads the local working tree, so it also deploys uncommitted changes.
 The live URL is <https://web--opusify-japanese.us-central1.hosted.app>.
+
+Cloud Build applies a deadline to the whole rollout, and this site is large enough to hit it: a build that
+prerendered all 15,401 pages died at roughly 6,500 with `context deadline exceeded`. Keep an eye on how many
+pages `generateStaticParams` asks for. The vocabulary and kanji detail routes deliberately prerender only N5
+and N4 and leave the rest to render on first request; see the comment in
+`src/app/japanese/[level]/vocabulary/[slug]/page.tsx` before widening that.
 
 ## 0. One-time prerequisites (owner)
 
@@ -41,8 +49,9 @@ The live URL is <https://web--opusify-japanese.us-central1.hosted.app>.
 firebase apphosting:backends:create --project opusify-japanese --backend web   --primary-region us-central1 --root-dir . --app <FIREBASE_WEB_APP_ID> --non-interactive
 ```
 
-To switch to GitHub-triggered rollouts instead, run `firebase init apphosting` and connect the repo with
-root directory `web`; then set `alwaysDeployFromSource: false` in `firebase.json`.
+GitHub-triggered rollouts are already set up (repo `ankurgla22-nihongopath`, root directory `web`), so a push
+to `main` is the normal way to ship. `npm run deploy` stays useful for deploying a working tree that has not
+been committed, and for the Firestore rules step.
 
 ## 2. Environment variables
 

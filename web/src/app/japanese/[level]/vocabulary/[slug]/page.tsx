@@ -18,9 +18,23 @@ import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
 
+/**
+ * Prerendering every word no longer fits inside the App Hosting build deadline.
+ *
+ * This used to prerender whatever was `enriched`, which was a useful filter while a third of the
+ * course was still bare. Now that every entry is enriched the filter selects everything: this one
+ * route asked for 11,078 pages, the build as a whole for 15,401, and Cloud Build timed out at
+ * around 6,500 with "context deadline exceeded".
+ *
+ * So the bound is the level instead. N5 and N4 are what most people land on and what search sends
+ * traffic to, and they are small enough to stay prerendered. N3 upward render on first request and
+ * are then cached at the edge — which is what the sitemap and the CDN already assumed for the
+ * un-enriched tail this filter used to exclude.
+ */
+const PRERENDERED: readonly Level[] = ["n5", "n4"];
+
 export function generateStaticParams() {
-  // Pre-render enriched entries; the remaining ~4,700 words render on first request and are cached.
-  return LEVELS.flatMap((level) => getVocabulary(level).filter((v) => v.enriched).map((v) => ({ level, slug: v.slug })));
+  return PRERENDERED.flatMap((level) => getVocabulary(level).map((v) => ({ level, slug: v.slug })));
 }
 
 export function generateMetadata({ params }: { params: Params }) {

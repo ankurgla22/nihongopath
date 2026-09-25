@@ -18,9 +18,12 @@ import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
 
+// Bounded by level for the same reason as the vocabulary route: once every kanji was enriched the
+// `enriched` filter stopped excluding anything, and the build no longer fit in its deadline.
+const PRERENDERED: readonly Level[] = ["n5", "n4"];
+
 export function generateStaticParams() {
-  // Pre-render enriched kanji; the rest render on first request and are cached.
-  return LEVELS.flatMap((level) => getKanji(level).filter((k) => k.enriched).map((k) => ({ level, slug: k.slug })));
+  return PRERENDERED.flatMap((level) => getKanji(level).map((k) => ({ level, slug: k.slug })));
 }
 
 export function generateMetadata({ params }: { params: Params }) {
