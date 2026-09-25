@@ -5,6 +5,7 @@ import { absUrl } from "@/lib/seo/site";
 import { contentLastMod } from "@/lib/content/lastmod";
 import { SITEMAP_SECTIONS } from "@/lib/seo/sitemaps";
 import { pairPath, pairsForLevel } from "@/lib/content/compare";
+import { vocabComparePath, vocabComparisons } from "@/lib/content/vocabCompare";
 import { vocabPageCount, vocabPagePath } from "@/components/content/VocabularyIndex";
 
 /** One sitemap part per section (see src/lib/seo/sitemaps.ts); each is served at /sitemap/<id>.xml. */
@@ -49,6 +50,9 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
       break;
     case "vocabulary":
       for (const v of getVocabulary(section.level)) entries.push(url(`${base}/vocabulary/${v.slug}`, v.enriched ? 0.6 : 0.4, "monthly", v.id));
+      // "会う vs 合う" pages sit under the level of the earlier word. They answer a question
+      // learners search directly, so they rank above an ordinary entry rather than below it.
+      for (const c of vocabComparisons()) if (c.level === section.level) entries.push(url(vocabComparePath(c), 0.7, "monthly"));
       break;
     case "kanji":
       for (const k of getKanji(section.level)) entries.push(url(`${base}/kanji/${k.slug}`, k.enriched ? 0.6 : 0.4, "monthly", k.id));

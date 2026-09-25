@@ -1,11 +1,12 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { notFound, permanentRedirect } from "next/navigation";
-import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
+import { Arrow, Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findVocab, getKanji, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type KanjiItem, type Level } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
 import { movedTo } from "@/lib/content/redirects";
+import { comparisonsForWord, vocabComparePath } from "@/lib/content/vocabCompare";
 import { articleJsonLd, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
@@ -98,6 +99,7 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
   const kanji = kanjiInWord(v.word, level);
   // Two generated questions (meaning + reading where possible); the seed is the item id so the page is stable.
   const quickCheck = generateVocabDrill([v], items, { seed: v.id }).slice(0, 2);
+  const comparisons = comparisonsForWord(v.word);
 
   const crumbs = [
     { name: "Home", path: "/" },
@@ -199,6 +201,28 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
               {v.antonyms.length > 0 && <WordList label="Antonyms" words={v.antonyms} render={wordLink} />}
               {v.related.length > 0 && <WordList label="Related" words={v.related} render={wordLink} />}
             </dl>
+          </Section>
+        )}
+
+        {/* The "X vs Y" page for this word, if one is written. It answers the question a learner
+            arrives with more directly than the entry itself does, so it is worth surfacing here. */}
+        {comparisons.length > 0 && (
+          <Section id="compare" title={comparisons.length === 1 ? "Often confused with" : "Often confused"}>
+            <ul className="surface rounded-2xl divide-y divide-line">
+              {comparisons.map((c) => (
+                <li key={c.id}>
+                  <Link href={vocabComparePath(c)} className="focus-inset group flex items-center gap-4 px-5 py-4 hover:bg-surface-2 transition">
+                    <span className="min-w-0 flex-1">
+                      <span lang="ja" className="ja block font-semibold text-ink break-words">
+                        {c.title}
+                      </span>
+                      <span className="mt-0.5 block text-sm text-muted">{c.summary}</span>
+                    </span>
+                    <Arrow className="shrink-0 text-muted transition group-hover:translate-x-0.5 group-hover:text-accent" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </Section>
         )}
 
