@@ -1,10 +1,11 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findVocab, getKanji, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type KanjiItem, type Level } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
+import { movedTo } from "@/lib/content/redirects";
 import { articleJsonLd, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
@@ -82,7 +83,12 @@ export default function VocabularyDetailPage({ params }: { params: Params }) {
   const level = params.level;
   const items = getVocabulary(level);
   const idx = items.findIndex((v) => v.slug === decodeSlug(params.slug));
-  if (idx < 0) notFound();
+  // A slug that no longer resolves may be a URL the page used to have; send it on rather than 404.
+  if (idx < 0) {
+    const to = movedTo(level, "vocabulary", decodeSlug(params.slug));
+    if (to) permanentRedirect(to);
+    notFound();
+  }
   const v = items[idx];
   const prev = items[idx - 1];
   const next = items[idx + 1];

@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findKanji, getKanji, getVocabulary } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL, type Level, type VocabItem } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
+import { movedTo } from "@/lib/content/redirects";
 import { articleJsonLd, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { LessonNavBottom, LessonNavTop } from "@/components/content/LessonNav";
@@ -71,7 +72,12 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
   const level = params.level;
   const items = getKanji(level);
   const idx = items.findIndex((k) => k.slug === decodeSlug(params.slug));
-  if (idx < 0) notFound();
+  // A slug that no longer resolves may be a URL the page used to have; send it on rather than 404.
+  if (idx < 0) {
+    const to = movedTo(level, "kanji", decodeSlug(params.slug));
+    if (to) permanentRedirect(to);
+    notFound();
+  }
   const k = items[idx];
   const prev = items[idx - 1];
   const next = items[idx + 1];

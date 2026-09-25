@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Callout, Container, JaText, Section, SpeakButton, Speakable } from "@/components/ui";
 import { findGrammar, getGrammar, getQuestionMap, resolveContentId } from "@/lib/content";
 import { LEVELS as ALL_LEVELS } from "@/lib/content/schemas";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
 import { decodeSlug, isLevel } from "@/components/content/levels";
+import { movedTo } from "@/lib/content/redirects";
 import { articleJsonLd, asSentence, breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { pairFor, pairPath } from "@/lib/content/compare";
 import { FaqSection } from "@/components/content/FaqSection";
@@ -67,7 +68,12 @@ export default function GrammarLessonPage({ params }: { params: Params }) {
   const level = params.level;
   const lessons = getGrammar(level);
   const idx = lessons.findIndex((g) => g.slug === decodeSlug(params.slug));
-  if (idx < 0) notFound();
+  // A slug that no longer resolves may be a URL the page used to have; send it on rather than 404.
+  if (idx < 0) {
+    const to = movedTo(level, "grammar", decodeSlug(params.slug));
+    if (to) permanentRedirect(to);
+    notFound();
+  }
   const g = lessons[idx];
   const prev = lessons[idx - 1];
   const next = lessons[idx + 1];

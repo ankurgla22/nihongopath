@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo/site";
-import { sitemapUrls } from "@/lib/seo/sitemaps";
 
 // Private (session-only) routes; the public /japanese/[level]/tests and /mock-exams pages are not affected.
 const PRIVATE = ["/dashboard", "/daily-study", "/progress", "/history", "/tests", "/mock-exams", "/review", "/saved", "/profile", "/api"];
@@ -32,7 +31,9 @@ export default function robots(): MetadataRoute.Robots {
       ...CRAWLERS.map((userAgent) => ({ userAgent, allow: "/", disallow: PRIVATE })),
       { userAgent: "*", allow: "/", disallow: PRIVATE },
     ],
-    sitemap: [`${SITE_URL}/sitemap.xml`, ...sitemapUrls()],
-    host: SITE_URL,
+    // Only the index. It already points at every child sitemap, so listing the children here as
+    // well just repeats 26 lines a crawler would fetch anyway.
+    sitemap: `${SITE_URL}/sitemap.xml`,
+    // No `host:`. Google ignores it, and the canonical tags say the same thing more reliably.
   };
 }
