@@ -3,6 +3,7 @@ import type { Level } from "@/lib/content/schemas";
 import {
   ABOUT_ENTITIES,
   DESCRIPTION_MAX,
+  TITLE_MAX,
   LAST_MODIFIED,
   SITE_DESCRIPTION,
   SITE_NAME,
@@ -62,7 +63,9 @@ export function pageMetadata(opts: {
   const url = `${SITE_URL}${opts.path}`;
   const description = clampDescription(opts.description);
   return {
-    title: opts.title,
+    // `absolute` opts out of the root layout's "%s | Nihongo Path" template. Titles that still fit
+    // with the suffix keep it; the rest drop the brand rather than have their own words cut off.
+    title: `${opts.title} | ${SITE_NAME}`.length <= TITLE_MAX ? opts.title : { absolute: opts.title },
     description,
     alternates: { canonical: url },
     // Explicit on public pages so nothing relies on crawler defaults; private/search pages opt out.

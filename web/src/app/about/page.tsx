@@ -9,7 +9,7 @@ import { LAST_MODIFIED, SITE_NAME, SITE_OPERATOR, SITE_URL } from "@/lib/seo/sit
 import { JLPT_SOURCES, JLPT_SOURCES_CHECKED } from "@/lib/seo/sources";
 
 export const metadata = pageMetadata({
-  title: "About Nihongo Path: who builds it, how lessons are made, how facts are sourced",
+  title: "About: who builds Nihongo Path and how it is sourced",
   description:
     "Nihongo Path is a free Japanese course from kana to JLPT N1, built and run by Opusify IT Solutions. How the lessons are structured, where the exam facts come from and how content is kept current.",
   path: "/about",

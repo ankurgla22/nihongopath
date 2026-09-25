@@ -10,7 +10,7 @@ import { breadcrumbJsonLd, courseId, pageMetadata } from "@/lib/seo/metadata";
 import { LAST_MODIFIED, SITE_URL } from "@/lib/seo/site";
 
 export const metadata = pageMetadata({
-  title: "Curriculum overview: Foundation to JLPT N1, what you study at each level",
+  title: "Curriculum: what you study at each level, kana to N1",
   description:
     "The whole Nihongo Path curriculum on one page: the six levels in order, what each one teaches, what every level contains, how the 270-day plan is built and how spaced review works.",
   path: "/japanese/curriculum",

@@ -45,6 +45,16 @@ export const SITE_PUBLISHED = "2026-09-17T00:00:00.000Z";
 export const DESCRIPTION_MAX = 170;
 
 /**
+ * The longest title a result still shows in full. Google renders roughly 580px, which is about
+ * sixty characters of English, and rewrites or truncates anything past it.
+ *
+ * The root layout appends " | Nihongo Path" to every page, which costs fifteen of those sixty. A
+ * page whose own title already fills the budget keeps its words and loses the suffix instead —
+ * the brand is worth less in a result than the words someone searched for.
+ */
+export const TITLE_MAX = 60;
+
+/**
  * Official profiles of the organisation behind the site (Organization.sameAs). Fill in when
  * social or directory profiles exist; an empty list omits the property rather than lying.
  */

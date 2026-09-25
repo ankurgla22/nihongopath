@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getStrategy } from "@/lib/content";
 import { pageMetadata, breadcrumbJsonLd, articleJsonLd } from "@/lib/seo/metadata";
+import { TITLE_MAX } from "@/lib/seo/site";
 import { Arrow, Badge, Breadcrumbs, Button, Container } from "@/components/ui";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
 import { contentLastMod } from "@/lib/content/lastmod";
@@ -15,7 +16,14 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const a = getStrategy().find((x) => x.slug === params.slug);
   if (!a) return {};
-  return pageMetadata({ title: `${a.title} – JLPT Strategy`, description: a.summary, path: `/jlpt/strategy/${a.slug}` });
+  // The article titles are already descriptive, so " – JLPT Strategy" is only worth the
+  // characters when the result still fits in a search listing.
+  const withSection = `${a.title} – JLPT Strategy`;
+  return pageMetadata({
+    title: withSection.length <= TITLE_MAX ? withSection : a.title,
+    description: a.summary,
+    path: `/jlpt/strategy/${a.slug}`,
+  });
 }
 
 function slugify(s: string, i: number) {
