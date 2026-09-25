@@ -14,7 +14,9 @@ export const LEVEL_INFO: Record<Level, LevelInfo> = {
   n5: {
     level: "n5",
     label: "N5",
-    name: "Foundations",
+    // Not "Foundations": the kana course at /japanese/foundation is already called Foundation, and
+    // two different things called the same thing in the same nav is a coin toss for the reader.
+    name: "Starting out",
     tagline: "Your first sentences in Japanese.",
     description:
       "Hiragana, katakana, the most common kanji, basic particles and verb forms. After N5 you can introduce yourself, talk about daily life and read simple signs and notes.",

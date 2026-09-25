@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Arrow, Button, Container } from "@/components/ui";
-import { getGrammar } from "@/lib/content";
+import { contentStats, getGrammar } from "@/lib/content";
 import { LEVELS } from "@/lib/content/schemas";
 import { LEVEL_INFO } from "@/components/content/levels";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
@@ -16,8 +16,12 @@ export const metadata: Metadata = {
   openGraph: { title: SITE_NAME, description: SITE_TAGLINE, url: SITE_URL, siteName: SITE_NAME, type: "website" },
 };
 
+const fmt = (n: number) => n.toLocaleString("en-US");
+
 export default function HomePage() {
   // Sample lesson: a beginner-level (N5) full lesson, so first-time visitors see something they can read.
+  const stats = contentStats();
+  const total = (key: "grammar" | "vocabulary" | "kanji") => stats.per.reduce((n, p) => n + p[key], 0);
   const n5Grammar = getGrammar("n5");
   const teaser = n5Grammar.find((g) => g.enriched && g.diagram) ?? n5Grammar.find((g) => g.enriched) ?? n5Grammar[0];
 
@@ -39,7 +43,28 @@ export default function HomePage() {
           </h1>
           <p className="animate-rise-2 mt-6 text-lg sm:text-xl text-ink-2 leading-relaxed max-w-xl">
             A complete course from your first kana to N1: learn, practise, test, review — one day at a time.
+            <strong className="block mt-2 font-medium text-ink">Free, no paywall, and readable without an account.</strong>
           </p>
+
+          {/* What the course actually contains. These were only on the About page, which meant the
+              homepage asked for a sign-up without ever saying what was behind it. */}
+          <dl className="animate-rise-2 mt-7 flex flex-wrap gap-x-8 gap-y-3">
+            {[
+              [fmt(total("vocabulary")), "words"],
+              [fmt(total("kanji")), "kanji"],
+              [fmt(total("grammar")), "grammar lessons"],
+              ["5", "JLPT levels"],
+            ].map(([n, label]) => (
+              <div key={label}>
+                <dt className="sr-only">{label}</dt>
+                <dd>
+                  <span className="text-2xl sm:text-3xl font-semibold tracking-tight text-ink tabular-nums">{n}</span>{" "}
+                  <span className="text-sm text-muted">{label}</span>
+                </dd>
+              </div>
+            ))}
+          </dl>
+
           <div className="animate-rise-3 mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Button href="/signup" size="lg">
               Start the daily plan
@@ -48,6 +73,14 @@ export default function HomePage() {
             <Link href="/japanese" className="inline-flex items-center gap-1.5 text-base font-medium text-accent hover:underline">
               Explore the levels <Arrow />
             </Link>
+            {teaser && (
+              <Link
+                href={`/japanese/${teaser.level}/grammar/${teaser.slug}`}
+                className="inline-flex items-center gap-1.5 text-base font-medium text-accent hover:underline"
+              >
+                Read a real lesson <Arrow />
+              </Link>
+            )}
           </div>
         </Container>
       </section>
