@@ -27,7 +27,7 @@ function readEnv(name) {
   return undefined;
 }
 
-const site = (readEnv("NEXT_PUBLIC_SITE_URL") ?? "https://nihongopath.opusify.co.in").replace(/\/$/, "");
+const site = (readEnv("NEXT_PUBLIC_SITE_URL") ?? "https://nihongopath.app").replace(/\/$/, "");
 const host = new URL(site).host;
 const keySrc = fs.readFileSync(path.join(root, "src/lib/seo/indexnow.ts"), "utf8");
 const key = keySrc.match(/INDEXNOW_KEY = "([0-9a-f]{32})"/)?.[1];

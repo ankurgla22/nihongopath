@@ -108,22 +108,36 @@ not use IndexNow; submit the sitemap in Search Console instead.
 
 ## 6. Custom domain
 
-`nihongopath.opusify.co.in` is registered on the backend (2026-09-23) and both it and the `*.hosted.app` host are
-in Auth **Authorized domains**. What remains is DNS at the registrar (GoDaddy, `ns07/ns08.domaincontrol.com`).
-The host currently CNAMEs to the old classic-Hosting site `opusify-japanese.web.app`; that record must go.
+The site is published at the apex domain `nihongopath.app`. `NEXT_PUBLIC_SITE_URL` in `apphosting.yaml`
+already points at it, so canonical links, the sitemap and the Secure cookie flag are correct the moment DNS
+resolves.
 
-| Action | Host | Type | Value |
-|---|---|---|---|
-| Remove | `nihongopath` | CNAME | `opusify-japanese.web.app` |
-| Add | `nihongopath` | A | `35.219.200.2` |
-| Add | `nihongopath` | TXT | `fah-claim=002-02-2fd0db07-554b-4572-922a-537f5ab27058` |
-| Add | `_acme-challenge_ug4slayg43ua4yap.nihongopath` | CNAME | `f6e304b5-7b44-4eb5-9f6c-a4bbd3be8b92.2.authorize.certificatemanager.goog.` |
+**The DNS values are issued per domain — take them from the console, never from this file.** Add the domain
+in Console > App Hosting > backend `web` > Domains, and it prints the exact records to create. They are a
+different A address, ownership token and ACME name from the ones the previous host used.
 
-Check progress in Console > App Hosting > web > Domains (host, ownership and certificate states must all turn
-green; the certificate can take up to an hour after DNS propagates). The build already uses this domain for
-`NEXT_PUBLIC_SITE_URL`, so canonical links and the sitemap are correct as soon as DNS is live.
+The shape of what it asks for, so the registrar work is predictable:
 
-If the values above ever change, the console Domains tab shows the current ones.
+| Host | Type | Purpose |
+|---|---|---|
+| `@` | A | Points the apex at App Hosting. An apex cannot be a CNAME, so this is an address record; the console gives the address (and an AAAA if IPv6 is offered). |
+| `@` | TXT | `fah-claim=…` ownership token, proving the domain is yours. |
+| `_acme-challenge_…` | CNAME | Certificate issuance, pointing at `…authorize.certificatemanager.goog.` |
+
+Optionally add `www` as a CNAME to the apex if you want `www.nihongopath.app` to work; App Hosting will
+redirect it once the domain is attached.
+
+Two things must happen alongside DNS or sign-in breaks:
+
+- Add `nihongopath.app` (and `www.` if used) to Firebase Console > Authentication > Settings > **Authorized
+  domains**. Without it Google sign-in and email links fail on the new host.
+- Keep the `*.hosted.app` backend host authorized too, so a rollout can always be checked directly.
+
+`.app` is on the HSTS preload list, so browsers will refuse plain HTTP to it outright. That is fine — App
+Hosting serves HTTPS only — but it means the domain cannot be tested over http during propagation.
+
+Check progress in Console > App Hosting > web > Domains: host, ownership and certificate states must all turn
+green, and the certificate can take up to an hour after DNS propagates.
 
 ## 7. Rollback
 

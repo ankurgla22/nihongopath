@@ -131,4 +131,4 @@ Run "npm run seo:indexnow"
 Step "Backend status"
 firebase apphosting:backends:get $Backend --project $Project
 Write-Host "`nDone. If this was the first rollout, add the *.hosted.app URL (and the custom domain) under" -ForegroundColor Green
-Write-Host "Authentication > Settings > Authorized domains, and point nihongopath.opusify.co.in at the backend (Domains tab)." -ForegroundColor Green
+Write-Host "Authentication > Settings > Authorized domains, and point nihongopath.app at the backend (Domains tab)." -ForegroundColor Green

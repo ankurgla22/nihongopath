@@ -21,7 +21,7 @@ env:
   # Public URL of the deployed site (canonical links, sitemap, Secure cookie flag).
   # Set to the *.hosted.app URL after the first rollout, or to the custom domain.
   - variable: NEXT_PUBLIC_SITE_URL
-    value: https://nihongopath.opusify.co.in
+    value: https://nihongopath.app
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCJoIkLkG1eLQsPZSXGchk0XSyMGunEYJI
