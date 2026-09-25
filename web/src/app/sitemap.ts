@@ -6,6 +6,7 @@ import { contentLastMod } from "@/lib/content/lastmod";
 import { SITEMAP_SECTIONS } from "@/lib/seo/sitemaps";
 import { pairPath, pairsForLevel } from "@/lib/content/compare";
 import { vocabComparePath, vocabComparisons } from "@/lib/content/vocabCompare";
+import { quizCombos, quizPath } from "@/lib/quiz/quickQuiz";
 import { vocabPageCount, vocabPagePath } from "@/components/content/VocabularyIndex";
 
 /** One sitemap part per section (see src/lib/seo/sitemaps.ts); each is served at /sitemap/<id>.xml. */
@@ -32,6 +33,9 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
   if (section.kind === "core") {
     entries.push(url("/", 1, "daily"), url("/japanese", 0.9), url("/japanese/curriculum", 0.8, "monthly"), url("/about", 0.6, "monthly"), url("/privacy", 0.3, "yearly"), url("/terms", 0.3, "yearly"), url("/jlpt", 0.8, "monthly"), url("/jlpt/strategy", 0.8, "monthly"), url("/search", 0.3, "monthly"));
     for (const a of getStrategy()) entries.push(url(`/jlpt/strategy/${a.slug}`, 0.7, "monthly", a.id));
+    // The public quiz: no account, and the pages people arrive on from "jlpt n5 kanji quiz".
+    entries.push(url("/quiz", 0.8, "monthly"));
+    for (const c of quizCombos()) entries.push(url(quizPath(c.level, c.skill), 0.7, "monthly"));
     entries.push(url("/japanese/foundation", 0.9));
     for (const f of getFoundation()) entries.push(url(`/japanese/foundation/${f.slug}`, 0.7, "weekly", f.id));
     for (const level of LEVELS) {

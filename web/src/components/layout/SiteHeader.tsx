@@ -8,6 +8,8 @@ import { CollapsingRow, NavLinks, type NavItem } from "./NavLinks";
 export const NAV: NavItem[] = [
   { href: "/japanese", label: "Learn" },
   { href: "/japanese/foundation", label: "Start here" },
+  // Public, no account, and usually someone's first page from a search — worth a top-level slot.
+  { href: "/quiz", label: "Quiz" },
   { href: "/jlpt", label: "JLPT" },
   { href: "/jlpt/strategy", label: "Strategy" },
 ];
@@ -17,6 +19,7 @@ export const NAV_SIGNED_IN: NavItem[] = [
   { href: "/daily-study", label: "Today" },
   { href: "/japanese", label: "Learn" },
   { href: "/review", label: "Review" },
+  { href: "/quiz", label: "Quiz" },
   { href: "/tests", label: "Tests" },
   { href: "/progress", label: "Progress" },
 ];

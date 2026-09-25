@@ -3266,5 +3266,2059 @@
       }
     ],
     "level": "n5"
+  },
+  {
+    "id": "vcmp-035",
+    "slug": "hairu-vs-ireru",
+    "title": "入る vs 入れる",
+    "quickAnswer": "入る (はいる) means someone or something goes in by itself — the thing that enters takes が: 水が入る. 入れる (いれる) means you put something in, and that thing takes を: 水を入れる. This is the standard Japanese intransitive/transitive pair: the intransitive verb describes the event with no doer, the transitive verb adds a doer and marks the affected thing with を.",
+    "summary": "入る is to go in by itself (が); 入れる is to put something in (を). The same が/を rule as 開く/開ける.",
+    "members": [
+      {
+        "word": "入る",
+        "when": "Use 入る when the subject itself moves into a place, or when something ends up inside with nobody named as doing it. The place takes に, and the thing entering takes が (or は as topic) — never を.",
+        "examples": [
+          {
+            "ja": "子どもが部屋に入りました。",
+            "reading": "こどもがへやにはいりました。",
+            "en": "The child went into the room."
+          },
+          {
+            "ja": "かばんに水が入っています。",
+            "reading": "かばんにみずがはいっています。",
+            "en": "Water has gotten into my bag."
+          }
+        ]
+      },
+      {
+        "word": "入れる",
+        "when": "Use 入れる when a person puts something into somewhere. The thing put in takes を and the destination takes に. If you can say \"put X in\" in English, it is 入れる.",
+        "examples": [
+          {
+            "ja": "かばんに本を入れました。",
+            "reading": "かばんにほんをいれました。",
+            "en": "I put the book in my bag."
+          },
+          {
+            "ja": "コーヒーに砂糖を入れますか。",
+            "reading": "コーヒーにさとうをいれますか。",
+            "en": "Do you take sugar in your coffee?"
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "かばんに水が入りました。",
+        "reading": "かばんにみずがはいりました。",
+        "en": "Water got into my bag.",
+        "note": "水 takes が, so this is an accident — nobody put it there. 入る is the only choice."
+      },
+      {
+        "ja": "かばんに水を入れました。",
+        "reading": "かばんにみずをいれました。",
+        "en": "I put water in the bag.",
+        "note": "Same bag, same water, but 水 takes を, so there is a doer. Swapping が for を is what forces 入れる."
+      },
+      {
+        "ja": "お風呂に入ります。",
+        "reading": "おふろにはいります。",
+        "en": "I take a bath.",
+        "note": "You go into the bath yourself, so it is 入る. お風呂を入れる would mean running a bath for someone else."
+      },
+      {
+        "ja": "先生が教室に入ってきました。",
+        "reading": "せんせいがきょうしつにはいってきました。",
+        "en": "The teacher came into the classroom.",
+        "note": "The teacher moves herself, so even with a person as subject it is 入る, not 入れる."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "部屋を入ります。",
+        "right": "部屋に入ります。",
+        "why": "入る takes に for the place you enter, not を. を here sounds like you are inserting the room somewhere."
+      },
+      {
+        "wrong": "かばんに本が入りました。 (meaning \"I put the book in my bag\")",
+        "right": "かばんに本を入れました。",
+        "why": "With が the sentence says the book got in by itself. If you did it, the book must take を and the verb must be 入れる."
+      },
+      {
+        "wrong": "お茶を入りました。",
+        "right": "お茶を入れました。",
+        "why": "お茶を入れる (to make tea) has a doer and an を object, so only the transitive 入れる works."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I remember which one is which?",
+        "a": "Look at the particle in front of the verb, not the English. が before the verb means the intransitive one (入る); を means the transitive one (入れる). The same test works for 開く/開ける, 閉まる/閉める and every other pair like this."
+      },
+      {
+        "q": "Why is はいる written with the same kanji as いれる?",
+        "a": "入 just means \"in\". Japanese builds a pair on one kanji: 入る for something going in and 入れる for someone putting it in. You have to learn the two readings separately — はいる and いれる."
+      },
+      {
+        "q": "Is お茶を入れる really the same verb?",
+        "a": "Yes. Making tea is literally putting tea into a pot or cup, so it uses 入れる with を, like every other transitive use."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-036",
+    "slug": "deru-vs-dasu",
+    "title": "出る vs 出す",
+    "quickAnswer": "出る (でる) means something goes out or appears by itself, with no doer named: 月が出る, 学生が出る. 出す (だす) means a person takes something out or sends it out, and that thing takes を: 手紙を出す. It is the usual intransitive/transitive pair — 出る describes the event, 出す adds the person doing it.",
+    "summary": "出る is something coming out on its own; 出す is taking or sending something out. Watch the particle, not the English.",
+    "members": [
+      {
+        "word": "出る",
+        "when": "Use 出る when the subject itself goes out, comes out or appears. Nothing separate is being moved. It also covers attending or appearing in something: 会議に出る, テレビに出る.",
+        "examples": [
+          {
+            "ja": "七時にうちを出ました。",
+            "reading": "しちじにうちをでました。",
+            "en": "I left home at seven."
+          },
+          {
+            "ja": "空に月が出ています。",
+            "reading": "そらにつきがでています。",
+            "en": "The moon is out in the sky."
+          }
+        ]
+      },
+      {
+        "word": "出す",
+        "when": "Use 出す when someone moves something out of somewhere, or sends it off — mailing, handing in, serving, taking out. The thing moved takes を and the source takes から.",
+        "examples": [
+          {
+            "ja": "かばんから本を出しました。",
+            "reading": "かばんからほんをだしました。",
+            "en": "I took a book out of my bag."
+          },
+          {
+            "ja": "明日までに宿題を出してください。",
+            "reading": "あしたまでにしゅくだいをだしてください。",
+            "en": "Please hand in your homework by tomorrow."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "かばんから本が出ました。",
+        "reading": "かばんからほんがでました。",
+        "en": "A book came out of the bag.",
+        "note": "本 takes が — it just came out. No one is said to have taken it."
+      },
+      {
+        "ja": "かばんから本を出しました。",
+        "reading": "かばんからほんをだしました。",
+        "en": "I took the book out of the bag.",
+        "note": "Same book, but を means a doer is acting on it, so the verb must be 出す."
+      },
+      {
+        "ja": "このお店はおいしい料理を出します。",
+        "reading": "このおみせはおいしいりょうりをだします。",
+        "en": "This restaurant serves delicious food.",
+        "note": "The shop sends the food out to customers, so 料理 takes を and only 出す works."
+      },
+      {
+        "ja": "会議に出ます。",
+        "reading": "かいぎにでます。",
+        "en": "I will attend the meeting.",
+        "note": "You yourself appear at the meeting, so 出る with に. 会議を出す is not Japanese."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "手紙を出ました。",
+        "right": "手紙を出しました。",
+        "why": "手紙 takes を, so the verb has to be the transitive 出す. 出る cannot take an object like this."
+      },
+      {
+        "wrong": "ゴミが出してください。",
+        "right": "ゴミを出してください。",
+        "why": "Asking someone to put the rubbish out is a transitive action, so it is ゴミを出す. が would mean the rubbish comes out by itself."
+      },
+      {
+        "wrong": "電車から出します。 (meaning \"I get off the train\")",
+        "right": "電車から出ます。",
+        "why": "You are the one leaving and nothing is being taken out, so it is 出る. More natural still is 電車を降ります。"
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why is it 家を出る with を if 出る is intransitive?",
+        "a": "This を marks the place you move away from, not an object — the same を as 公園を歩く or 電車を降りる. 出る still has no object; nothing is being acted on. It is the one を you will meet with an intransitive verb, so learn it as a set pattern."
+      },
+      {
+        "q": "How is this the same rule as 入る/入れる?",
+        "a": "Exactly the same shape: 出る and 入る describe something going out or in by itself and take が, while 出す and 入れる have a person doing it and take を. Once you see the が/を flip, the whole family works the same way."
+      },
+      {
+        "q": "Does 出す mean \"to submit\"?",
+        "a": "Yes — handing in homework, mailing a letter and putting in an application are all 出す, because you are sending something out to somewhere. They all take を."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-037",
+    "slug": "aku-vs-akeru",
+    "title": "開く vs 開ける",
+    "quickAnswer": "開く (あく) means something opens by itself and takes が: ドアが開きます. 開ける (あける) means a person opens something, and that thing takes を: ドアを開けます. Both are \"open\" in English, so let the particle decide — が goes with the intransitive 開く, を with the transitive 開ける.",
+    "summary": "ドアが開く is the door opening; ドアを開ける is you opening it. が means 開く, を means 開ける.",
+    "members": [
+      {
+        "word": "開く",
+        "when": "Use 開く when the thing simply opens — an automatic door, a shop opening for business, a window that stands open. The thing that opens takes が, and no person is mentioned.",
+        "examples": [
+          {
+            "ja": "ドアが開きました。",
+            "reading": "ドアがあきました。",
+            "en": "The door opened."
+          },
+          {
+            "ja": "この店は九時に開きます。",
+            "reading": "このみせはくじにあきます。",
+            "en": "This shop opens at nine."
+          }
+        ]
+      },
+      {
+        "word": "開ける",
+        "when": "Use 開ける when someone opens something on purpose. The thing opened takes を. Requests such as \"please open the window\" are always 開ける.",
+        "examples": [
+          {
+            "ja": "窓を開けてください。",
+            "reading": "まどをあけてください。",
+            "en": "Please open the window."
+          },
+          {
+            "ja": "暑いですから、ドアを開けました。",
+            "reading": "あついですから、ドアをあけました。",
+            "en": "It was hot, so I opened the door."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "ドアが開きます。",
+        "reading": "ドアがあきます。",
+        "en": "The door opens.",
+        "note": "The door is the が subject and opens on its own — an automatic door, or the wind."
+      },
+      {
+        "ja": "ドアを開けます。",
+        "reading": "ドアをあけます。",
+        "en": "I open the door.",
+        "note": "Identical event, but を means someone is doing it, which forces 開ける."
+      },
+      {
+        "ja": "窓が開いています。",
+        "reading": "まどがあいています。",
+        "en": "The window is open.",
+        "note": "〜が開いている describes the resulting state. Use this when you just mean the window is open now."
+      },
+      {
+        "ja": "窓を開けてあります。",
+        "reading": "まどをあけてあります。",
+        "en": "The window has been left open on purpose.",
+        "note": "Transitive 開ける plus てある says someone opened it and left it that way, which 開いています does not imply."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "窓を開きます。 (meaning \"I open the window\")",
+        "right": "窓を開けます。",
+        "why": "あく never takes an を object, so with を you must use 開ける. The same kanji read ひらく is a different verb that can take an object, as in 本を開く."
+      },
+      {
+        "wrong": "ドアが開けました。",
+        "right": "ドアが開きました。",
+        "why": "With が the door opened by itself, so the verb must be 開く. If you opened it, change the particle too: ドアを開けました。"
+      },
+      {
+        "wrong": "店は九時に開けます。 (meaning \"the shop opens at nine\")",
+        "right": "店は九時に開きます。",
+        "why": "Opening hours describe the shop opening, with no doer — that is 開く. 店を開ける means the owner unlocks the shop."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I say 窓が開けています?",
+        "a": "No. Mixing が with the transitive 開ける is ungrammatical. Say 窓が開いています for \"the window is open\", or 窓を開けています for \"I am opening the window\"."
+      },
+      {
+        "q": "Isn't 開く sometimes read ひらく?",
+        "a": "Yes, and that is a separate verb which can be transitive: 本を開く, 会を開く. At N5 level, learn あく as the intransitive partner of 開ける and treat ひらく as its own word."
+      },
+      {
+        "q": "Does the same rule cover 閉まる and 閉める?",
+        "a": "Yes, and 入る/入れる and 集まる/集める too. The intransitive one takes が, the transitive one takes を. Learning one pair properly teaches you all of them."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-038",
+    "slug": "shimaru-vs-shimeru",
+    "title": "閉まる vs 閉める",
+    "quickAnswer": "閉まる (しまる) means something closes by itself and takes が: ドアが閉まります. 閉める (しめる) means a person closes something, and that thing takes を: ドアを閉めます. Choose by the particle rather than the English — が goes with 閉まる, を goes with 閉める.",
+    "summary": "ドアが閉まる is the door closing; ドアを閉める is you closing it. The が/を test decides it every time.",
+    "members": [
+      {
+        "word": "閉まる",
+        "when": "Use 閉まる when the thing closes on its own or is simply closed — train doors, a shop shutting for the day, a window that is already shut. The thing takes が.",
+        "examples": [
+          {
+            "ja": "ドアが閉まります。ご注意ください。",
+            "reading": "ドアがしまります。ごちゅういください。",
+            "en": "The doors are closing. Please be careful."
+          },
+          {
+            "ja": "その店は九時に閉まります。",
+            "reading": "そのみせはくじにしまります。",
+            "en": "That shop closes at nine."
+          }
+        ]
+      },
+      {
+        "word": "閉める",
+        "when": "Use 閉める when someone closes something. The thing closed takes を. Any request or report of a person shutting a door, window or lid uses 閉める.",
+        "examples": [
+          {
+            "ja": "寒いので窓を閉めてください。",
+            "reading": "さむいのでまどをしめてください。",
+            "en": "It's cold, so please close the window."
+          },
+          {
+            "ja": "私が最後にドアを閉めました。",
+            "reading": "わたしがさいごにドアをしめました。",
+            "en": "I was the one who closed the door last."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "ドアが閉まりました。",
+        "reading": "ドアがしまりました。",
+        "en": "The door closed.",
+        "note": "が — the door closed by itself, perhaps automatically or in the wind."
+      },
+      {
+        "ja": "ドアを閉めました。",
+        "reading": "ドアをしめました。",
+        "en": "I closed the door.",
+        "note": "Same door, but を puts a person behind the action, so the verb becomes 閉める."
+      },
+      {
+        "ja": "窓が閉まっています。",
+        "reading": "まどがしまっています。",
+        "en": "The window is closed.",
+        "note": "The plain state of the window now, saying nothing about who shut it."
+      },
+      {
+        "ja": "窓を閉めてあります。",
+        "reading": "まどをしめてあります。",
+        "en": "The window has been closed deliberately.",
+        "note": "The transitive 閉める with てある says someone closed it on purpose and left it so."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "ドアを閉まってください。",
+        "right": "ドアを閉めてください。",
+        "why": "A request to a person is transitive and ドア takes を, so it must be 閉める. 閉まる cannot take an を object."
+      },
+      {
+        "wrong": "店が八時に閉めます。",
+        "right": "店は八時に閉まります。",
+        "why": "Opening hours describe the shop closing, with no doer, so 閉まる. 店を閉める means the owner shuts up shop."
+      },
+      {
+        "wrong": "窓が閉めています。",
+        "right": "窓が閉まっています。",
+        "why": "To say a window is currently closed, use the intransitive 閉まっている. が with 閉める is ungrammatical."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is the difference between 閉まる and 閉じる?",
+        "a": "閉まる is the everyday word for doors, windows and shops closing. 閉じる is a little more formal or written and is often transitive (本を閉じる, 目を閉じる). For N5 sentences, stick with 閉まる and 閉める."
+      },
+      {
+        "q": "How is this the same as 開く/開ける?",
+        "a": "It is the mirror image: 閉まる and 開く take が and describe the event, 閉める and 開ける take を and add a person doing it. 入る/入れる and 集まる/集める follow the same rule."
+      },
+      {
+        "q": "Can I use 閉める for a shop going out of business?",
+        "a": "Yes — 店を閉める is closing a shop down, since the owner is doing it. For the shop simply being shut for the night, use 閉まる."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-039",
+    "slug": "atsumaru-vs-atsumeru",
+    "title": "集まる vs 集める",
+    "quickAnswer": "集まる (あつまる) means people or things come together by themselves and takes が: 人が集まる. 集める (あつめる) means someone brings them together or collects them, and they take を: 切手を集める. It is the standard intransitive/transitive pair — が for the event on its own, を when there is a doer.",
+    "summary": "人が集まる is a crowd forming; 人を集める is someone gathering them. が for 集まる, を for 集める.",
+    "members": [
+      {
+        "word": "集まる",
+        "when": "Use 集まる when people or things come together on their own — a crowd forming, donations coming in, friends meeting up. The ones gathering take が and the place takes に.",
+        "examples": [
+          {
+            "ja": "駅前に人がたくさん集まっています。",
+            "reading": "えきまえにひとがたくさんあつまっています。",
+            "en": "A lot of people are gathered in front of the station."
+          },
+          {
+            "ja": "土曜日の十時に公園に集まりましょう。",
+            "reading": "どようびのじゅうじにこうえんにあつまりましょう。",
+            "en": "Let's meet up at the park at ten on Saturday."
+          }
+        ]
+      },
+      {
+        "word": "集める",
+        "when": "Use 集める when a person gathers or collects things or people. What is collected takes を. This is the verb for hobbies like collecting stamps and for calling people together.",
+        "examples": [
+          {
+            "ja": "子どものときから切手を集めています。",
+            "reading": "こどものときからきってをあつめています。",
+            "en": "I have collected stamps since I was a child."
+          },
+          {
+            "ja": "先生が学生を教室に集めました。",
+            "reading": "せんせいががくせいをきょうしつにあつめました。",
+            "en": "The teacher gathered the students in the classroom."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "教室に学生が集まりました。",
+        "reading": "きょうしつにがくせいがあつまりました。",
+        "en": "The students gathered in the classroom.",
+        "note": "学生 takes が — they came of their own accord."
+      },
+      {
+        "ja": "先生が学生を教室に集めました。",
+        "reading": "せんせいががくせいをきょうしつにあつめました。",
+        "en": "The teacher gathered the students in the classroom.",
+        "note": "Same event from the teacher's side: 学生 now takes を and 先生 is the が subject, so the verb is 集める."
+      },
+      {
+        "ja": "お金がたくさん集まりました。",
+        "reading": "おかねがたくさんあつまりました。",
+        "en": "A lot of money came in.",
+        "note": "Reporting the result without naming who ran the collection — が forces 集まる."
+      },
+      {
+        "ja": "みんなでお金を集めましょう。",
+        "reading": "みんなでおかねをあつめましょう。",
+        "en": "Let's collect money together.",
+        "note": "Here we are the collectors, so お金 takes を and only 集める works."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "切手を集まっています。",
+        "right": "切手を集めています。",
+        "why": "切手 takes を, so the verb must be the transitive 集める. Collecting is something you do to the stamps."
+      },
+      {
+        "wrong": "人を集まりました。",
+        "right": "人が集まりました。 / 人を集めました。",
+        "why": "集まる cannot take を. Decide whether the people came on their own (が集まる) or you called them together (を集める)."
+      },
+      {
+        "wrong": "三時に集めましょう。 (meaning \"let's meet at three\")",
+        "right": "三時に集まりましょう。",
+        "why": "When you and your friends come together, nobody is being collected, so it is 集まる. 集めましょう would mean \"let's gather some things up\"."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which one do I use to tell friends where to meet?",
+        "a": "集まる: 駅に集まりましょう。You are all coming together yourselves, so nobody takes を. Only an organiser gathering other people would say 集める."
+      },
+      {
+        "q": "How do I say \"my collection\"?",
+        "a": "Use 集めている plus the thing: 集めている切手 for the stamps you collect, or 切手集め for stamp collecting. The noun 集まり, from 集まる, means a get-together."
+      },
+      {
+        "q": "Is this the same pattern as 決まる/決める?",
+        "a": "Yes. 集まる, 決まる and 閉まる all take が and describe things happening; 集める, 決める and 閉める all take を and have a doer. The 〜まる / 〜める shape is a very common pairing."
+      }
+    ],
+    "level": "n4"
+  },
+  {
+    "id": "vcmp-040",
+    "slug": "kimaru-vs-kimeru",
+    "title": "決まる vs 決める",
+    "quickAnswer": "Both translate as \"decide\", so ignore the English and look at the particle: 決まる (きまる) means something gets settled with no decider named and takes が — 日が決まりました, the date has been decided. 決める (きめる) means a person decides something, and that takes を — 私が日を決めます, I'll decide the date. This が/を split is the general rule for every Japanese intransitive/transitive pair.",
+    "summary": "決まる is something being settled (が); 決める is a person deciding it (を). Same English word, different particle.",
+    "members": [
+      {
+        "word": "決まる",
+        "when": "Use 決まる to report that something is now fixed, without saying who fixed it. The thing settled takes が. English renders it as \"has been decided\" or \"is set\", which is why it feels passive.",
+        "examples": [
+          {
+            "ja": "旅行の日が決まりました。",
+            "reading": "りょこうのひがきまりました。",
+            "en": "The date of the trip has been decided."
+          },
+          {
+            "ja": "会議は三時に決まりましたよ。",
+            "reading": "かいぎはさんじにきまりましたよ。",
+            "en": "The meeting has been set for three."
+          }
+        ]
+      },
+      {
+        "word": "決める",
+        "when": "Use 決める when a person makes the decision. What is decided takes を, and the decider is the が subject. Asking someone to choose is always 決める.",
+        "examples": [
+          {
+            "ja": "何を食べるか決めてください。",
+            "reading": "なにをたべるかきめてください。",
+            "en": "Please decide what you want to eat."
+          },
+          {
+            "ja": "出発の日は私が決めます。",
+            "reading": "しゅっぱつのひはわたしがきめます。",
+            "en": "I'll be the one to decide the departure date."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "予定が決まりました。",
+        "reading": "よていがきまりました。",
+        "en": "The schedule has been decided.",
+        "note": "予定 takes が, so you are reporting the outcome. Nobody is credited or blamed."
+      },
+      {
+        "ja": "予定を決めました。",
+        "reading": "よていをきめました。",
+        "en": "I decided the schedule.",
+        "note": "Same schedule, but を means you did it. The particle alone changes who is responsible."
+      },
+      {
+        "ja": "新しい社長が決まりました。",
+        "reading": "あたらしいしゃちょうがきまりました。",
+        "en": "The new president has been chosen.",
+        "note": "Announcing a result. 決めました here would sound like you personally appointed them."
+      },
+      {
+        "ja": "毎週月曜日に掃除をすることに決まっています。",
+        "reading": "まいしゅうげつようびにそうじをすることにきまっています。",
+        "en": "It's the rule that we clean every Monday.",
+        "note": "〜ことに決まっている is the standing-rule use of the intransitive verb: the rule stands, nobody is deciding it now."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "私は明日の予定が決まります。",
+        "right": "私は明日の予定を決めます。",
+        "why": "If you are the one deciding, the thing decided takes を and the verb is 決める. With が you are only saying the schedule is getting settled."
+      },
+      {
+        "wrong": "日にちを決まりました。",
+        "right": "日にちが決まりました。 / 日にちを決めました。",
+        "why": "決まる cannot take an を object. Use が決まる to report the result, or を決める to say you decided it."
+      },
+      {
+        "wrong": "もう決めましたか。 (asked about a schedule someone else controls)",
+        "right": "もう決まりましたか。",
+        "why": "Asking whether something has been settled — not whether the listener personally chose — takes 決まる. 決めましたか puts the decision on them and can sound pushy."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Both mean \"decide\", so how do I pick?",
+        "a": "Ask whether a person is doing the deciding in your sentence. If yes, the thing decided takes を and you use 決める. If you are only reporting that it is now fixed, it takes が and you use 決まる. The particle test is far more reliable than the English."
+      },
+      {
+        "q": "Why does 決まりました sound passive in English?",
+        "a": "Because English has no plain intransitive \"decide\". 決まる is not a passive form — it is its own verb, like 開く beside 開ける. You meet the same mismatch with 続く/続ける."
+      },
+      {
+        "q": "What does 決まっている mean?",
+        "a": "It means something is already settled or is the standing rule: 会議は三時に決まっています, the meeting is set for three. It describes the state that 決まる leaves behind."
+      }
+    ],
+    "level": "n4"
+  },
+  {
+    "id": "vcmp-041",
+    "slug": "tsuzuku-vs-tsuzukeru",
+    "title": "続く vs 続ける",
+    "quickAnswer": "English uses \"continue\" for both, so go by the particle: 続く (つづく) means something goes on by itself and takes が — 雨が続いています, the rain keeps on. 続ける (つづける) means a person keeps something going and it takes を — 勉強を続けます, I keep studying. That が/を split is the general rule for Japanese intransitive/transitive pairs.",
+    "summary": "続く is something going on by itself (が); 続ける is a person keeping it up (を). Use the particle, not the English.",
+    "members": [
+      {
+        "word": "続く",
+        "when": "Use 続く when a situation, a spell of weather, a road or a story goes on without anyone driving it. The thing continuing takes が, and durations are often marked with も for emphasis.",
+        "examples": [
+          {
+            "ja": "暑い日が続いています。",
+            "reading": "あついひがつづいています。",
+            "en": "Hot days have been going on."
+          },
+          {
+            "ja": "会議は三時間も続きました。",
+            "reading": "かいぎはさんじかんもつづきました。",
+            "en": "The meeting went on for three whole hours."
+          }
+        ]
+      },
+      {
+        "word": "続ける",
+        "when": "Use 続ける when a person keeps an activity up. The activity takes を. It also attaches to a verb stem — 走り続ける, 話し続ける — to mean \"keep on doing\".",
+        "examples": [
+          {
+            "ja": "毎日日本語の勉強を続けています。",
+            "reading": "まいにちにほんごのべんきょうをつづけています。",
+            "en": "I keep studying Japanese every day."
+          },
+          {
+            "ja": "疲れても最後まで続けたいです。",
+            "reading": "つかれてもさいごまでつづけたいです。",
+            "en": "Even if I get tired, I want to keep going to the end."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "雨が続いています。",
+        "reading": "あめがつづいています。",
+        "en": "The rain has been going on.",
+        "note": "Nobody makes rain continue, so it can only be 続く with が."
+      },
+      {
+        "ja": "練習を続けています。",
+        "reading": "れんしゅうをつづけています。",
+        "en": "I'm keeping up my practice.",
+        "note": "練習 takes を because you are the one keeping it going, which forces 続ける."
+      },
+      {
+        "ja": "話が続きませんでした。",
+        "reading": "はなしがつづきませんでした。",
+        "en": "The conversation didn't keep going.",
+        "note": "The conversation died on its own, so が続く. Compare 話を続けました, \"I carried on talking\"."
+      },
+      {
+        "ja": "この道はずっと海まで続いています。",
+        "reading": "このみちはずっとうみまでつづいています。",
+        "en": "This road goes all the way to the sea.",
+        "note": "続く also covers things extending in space. There is no doer, so 続ける is impossible here."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "勉強が続けます。",
+        "right": "勉強を続けます。",
+        "why": "If you are keeping the studying up, it takes を. が with 続ける is ungrammatical; 勉強が続く would mean the studying carries on by itself."
+      },
+      {
+        "wrong": "雨を続けています。",
+        "right": "雨が続いています。",
+        "why": "Nobody can act on the rain, so it takes が with 続く."
+      },
+      {
+        "wrong": "仕事を続いています。",
+        "right": "仕事を続けています。 / 仕事が続いています。",
+        "why": "続く never takes an を object. Use を続ける if you are staying in the job, が続く if the work simply keeps coming."
+      }
+    ],
+    "faq": [
+      {
+        "q": "They both mean \"continue\" — how do I choose?",
+        "a": "Check whether a person keeps it going. If someone is doing it, the activity takes を and you use 続ける. If it just carries on, it takes が and you use 続く. The English cannot tell you; the particle can."
+      },
+      {
+        "q": "What is the difference between 走り続ける and 走っている?",
+        "a": "走り続ける stresses that you keep going without stopping, often against some difficulty. 走っている just says you are running now. Verb stem plus 続ける is very common: 食べ続ける, 待ち続ける."
+      },
+      {
+        "q": "Which one goes at the end of a story instalment?",
+        "a": "続く. You see 続く on a screen or page for \"to be continued\" — the story goes on by itself, with no doer involved."
+      }
+    ],
+    "level": "n4"
+  },
+  {
+    "id": "vcmp-042",
+    "slug": "ochiru-vs-otosu",
+    "title": "落ちる vs 落とす",
+    "quickAnswer": "落ちる (おちる) means something falls by itself and takes が: 鍵が落ちました, the key fell. 落とす (おとす) means a person drops it — and in everyday speech, loses it — and it takes を: 財布を落としました, I lost my wallet. Same intransitive/transitive rule as 開く/開ける: が for the event, を when there is a doer.",
+    "summary": "落ちる is something falling (が); 落とす is you dropping or losing it (を) — 財布を落とした means you lost your wallet.",
+    "members": [
+      {
+        "word": "落ちる",
+        "when": "Use 落ちる when something falls, comes off or drops on its own. The thing falling takes が. It also covers failing an exam (試験に落ちる) and a stain coming out (汚れが落ちる).",
+        "examples": [
+          {
+            "ja": "木から葉が落ちました。",
+            "reading": "きからはがおちました。",
+            "en": "A leaf fell from the tree."
+          },
+          {
+            "ja": "かばんから鍵が落ちましたよ。",
+            "reading": "かばんからかぎがおちましたよ。",
+            "en": "Your key just fell out of your bag."
+          }
+        ]
+      },
+      {
+        "word": "落とす",
+        "when": "Use 落とす when a person lets something fall — and, just as commonly, when they lose it. 財布を落とした normally means \"I lost my wallet\", not that you watched it hit the floor. The thing takes を.",
+        "examples": [
+          {
+            "ja": "財布を落としてしまいました。",
+            "reading": "さいふをおとしてしまいました。",
+            "en": "I lost my wallet."
+          },
+          {
+            "ja": "スマホを落として、画面が割れました。",
+            "reading": "スマホをおとして、がめんがわれました。",
+            "en": "I dropped my phone and the screen cracked."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "鍵が落ちました。",
+        "reading": "かぎがおちました。",
+        "en": "The key fell.",
+        "note": "が — you are describing the key falling, perhaps pointing it out on the ground."
+      },
+      {
+        "ja": "鍵を落としました。",
+        "reading": "かぎをおとしました。",
+        "en": "I dropped my key.",
+        "note": "Same key, but を makes you the one who let it go — and in everyday speech this is how you say you lost it."
+      },
+      {
+        "ja": "シャツの汚れが落ちません。",
+        "reading": "シャツのよごれがおちません。",
+        "en": "The stain on the shirt won't come out.",
+        "note": "The stain behaves on its own, so が落ちる. Compare 汚れを落とす, to get the stain out."
+      },
+      {
+        "ja": "車のスピードを落としてください。",
+        "reading": "くるまのスピードをおとしてください。",
+        "en": "Please slow the car down.",
+        "note": "スピード takes を and the driver acts, so only 落とす works. 落ちる would merely say the speed dropped."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "財布が落としました。",
+        "right": "財布を落としました。",
+        "why": "With 落とす the thing lost takes を. 財布が落ちました is also good Japanese, but it means the wallet fell, not that you lost it."
+      },
+      {
+        "wrong": "試験を落ちました。",
+        "right": "試験に落ちました。",
+        "why": "落ちる is intransitive and takes に for the exam you failed. 試験を落とす exists but means an examiner failing a candidate."
+      },
+      {
+        "wrong": "スマホが落として、画面が割れました。",
+        "right": "スマホを落として、画面が割れました。",
+        "why": "You dropped it, so it takes を with 落とす. Note the second half correctly uses が割れる — the screen cracked by itself."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How do I say \"I lost my wallet\"?",
+        "a": "財布を落としました is the usual way. 落とす covers losing something by dropping it somewhere, which is how most things get lost. なくす is the broader word for losing something, including mislaying it at home."
+      },
+      {
+        "q": "Why is 汚れが落ちる \"the stain comes out\"?",
+        "a": "落ちる means something comes off or away, not only downward. The stain leaves the fabric by itself, so it takes が. When you scrub it out yourself it is 汚れを落とす."
+      },
+      {
+        "q": "Is this the same pattern as 届く/届ける?",
+        "a": "Yes, though the endings differ. 落ちる and 届く take が and describe what happens; 落とす and 届ける take を and add a doer. The 〜る/〜す shape, as in 落ちる/落とす and 出る/出す, is one of several pairings that follow the same rule."
+      }
+    ],
+    "level": "n1"
+  },
+  {
+    "id": "vcmp-043",
+    "slug": "todoku-vs-todokeru",
+    "title": "届く vs 届ける",
+    "quickAnswer": "届く (とどく) means something arrives at its destination by itself and takes が: 荷物が届きました, the package arrived. 届ける (とどける) means a person takes something to someone, and it takes を: 荷物を届けます, I'll deliver the package. The English \"be delivered\" sounds passive, but 届く is simply the intransitive partner — が for the arrival, を when someone carries it.",
+    "summary": "届く is mail arriving (が); 届ける is delivering or taking something to someone (を). 届く is not a passive form.",
+    "members": [
+      {
+        "word": "届く",
+        "when": "Use 届く when a letter, parcel or message arrives. The thing arriving takes が and the recipient takes に. It also means \"to reach\" physically, as in 手が届く.",
+        "examples": [
+          {
+            "ja": "昨日、手紙が届きました。",
+            "reading": "きのう、てがみがとどきました。",
+            "en": "A letter arrived yesterday."
+          },
+          {
+            "ja": "注文した本がまだ届いていません。",
+            "reading": "ちゅうもんしたほんがまだとどいていません。",
+            "en": "The book I ordered hasn't arrived yet."
+          }
+        ]
+      },
+      {
+        "word": "届ける",
+        "when": "Use 届ける when a person takes something to where it should go — a courier delivering, you dropping something round to a friend, or handing in something you found. The thing takes を and the destination takes に or まで.",
+        "examples": [
+          {
+            "ja": "この荷物を家まで届けてください。",
+            "reading": "このにもつをいえまでとどけてください。",
+            "en": "Please deliver this package to the house."
+          },
+          {
+            "ja": "駅で拾った財布を交番に届けました。",
+            "reading": "えきでひろったさいふをこうばんにとどけました。",
+            "en": "I turned in the wallet I found at the station to the police box."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "荷物が届きました。",
+        "reading": "にもつがとどきました。",
+        "en": "The package arrived.",
+        "note": "が — you are reporting that it got here. Who carried it is not part of the sentence."
+      },
+      {
+        "ja": "荷物を届けました。",
+        "reading": "にもつをとどけました。",
+        "en": "I delivered the package.",
+        "note": "Same package, but を means you took it there, so the verb becomes 届ける."
+      },
+      {
+        "ja": "友だちにケーキを届けます。",
+        "reading": "ともだちにケーキをとどけます。",
+        "en": "I'll take the cake round to my friend.",
+        "note": "ケーキ takes を and you do the carrying, so 届ける. 届きます would mean the cake arrives on its own."
+      },
+      {
+        "ja": "上の棚に手が届きません。",
+        "reading": "うえのたなにてがとどきません。",
+        "en": "I can't reach the top shelf.",
+        "note": "手が届く, \"one's hand reaches\", is a common idiom built on the intransitive verb. 手を届ける is not said."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "手紙を届きました。 (meaning \"a letter arrived\")",
+        "right": "手紙が届きました。",
+        "why": "届く cannot take an を object. The letter is the subject that arrived, so it takes が."
+      },
+      {
+        "wrong": "荷物が届けました。 (meaning \"I delivered the package\")",
+        "right": "荷物を届けました。",
+        "why": "With a doer, the package takes を and the verb is 届ける. が with 届ける is ungrammatical."
+      },
+      {
+        "wrong": "メールを届けました。 (meaning \"I sent you an email\")",
+        "right": "メールを送りました。",
+        "why": "届ける is about taking something to a place. For sending mail or email use 送る, though メールが届く is fine for the mail arriving."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Why does 届く translate as \"be delivered\" if it isn't passive?",
+        "a": "Japanese simply has a separate verb for the arriving event. 届く is intransitive, like 開く or 落ちる, and takes が. The passive 届けられる exists, but you rarely need it — 届きました is the natural way to say something arrived."
+      },
+      {
+        "q": "Which one do I use for a parcel I'm waiting on?",
+        "a": "届く: 荷物はいつ届きますか, when will the package arrive? You would only use 届ける if you were asking about someone delivering it, as in いつ届けてくれますか."
+      },
+      {
+        "q": "What does 交番に届ける mean?",
+        "a": "It means handing something you found in to a police box. 届ける covers taking a lost item to where it belongs, not just courier deliveries."
+      }
+    ],
+    "level": "n4"
+  },
+  {
+    "id": "vcmp-044",
+    "slug": "mou-vs-mada",
+    "title": "もう vs まだ",
+    "quickAnswer": "These are not synonyms — they mark aspect, and each one flips meaning with negation. もう means \"already\" in a positive sentence and \"no longer\" in a negative one; まだ means \"still\" in a positive sentence and \"not yet\" in a negative one. So もう食べました is \"I already ate\", まだ食べていません is \"I haven't eaten yet\", まだあります is \"there's still some\", もうありません is \"there's none left\".",
+    "summary": "もう = already / no longer, まだ = still / not yet. The meaning flips with negation — the four-way table is the whole answer.",
+    "members": [
+      {
+        "word": "もう",
+        "when": "Use もう when a change has already happened: positive means \"already\", negative means \"no longer\". It always points at a state that has arrived or run out.",
+        "examples": [
+          {
+            "ja": "もう昼ご飯を食べました。",
+            "reading": "もうひるごはんをたべました。",
+            "en": "I've already eaten lunch."
+          },
+          {
+            "ja": "お金はもうありません。",
+            "reading": "おかねはもうありません。",
+            "en": "I don't have any money left."
+          }
+        ]
+      },
+      {
+        "word": "まだ",
+        "when": "Use まだ when the change has not happened yet: positive means \"still\", negative means \"not yet\". The negative almost always takes 〜ていません, not 〜ませんでした.",
+        "examples": [
+          {
+            "ja": "雨はまだ降っています。",
+            "reading": "あめはまだふっています。",
+            "en": "It's still raining."
+          },
+          {
+            "ja": "その映画はまだ見ていません。",
+            "reading": "そのえいがはまだみていません。",
+            "en": "I haven't seen that movie yet."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "もう宿題をしましたか。いいえ、まだしていません。",
+        "reading": "もうしゅくだいをしましたか。いいえ、まだしていません。",
+        "en": "Have you done your homework yet? No, not yet.",
+        "note": "The question asks with もう (already?) and the \"not yet\" answer must use まだ plus 〜ていません. Swapping the two words is impossible here."
+      },
+      {
+        "ja": "ビールはまだありますか。いいえ、もうありません。",
+        "reading": "ビールはまだありますか。いいえ、もうありません。",
+        "en": "Is there still beer? No, it's all gone.",
+        "note": "まだあります means some is left; the negative of that idea is もうありません, not まだありません."
+      },
+      {
+        "ja": "もう子どもじゃありません。",
+        "reading": "もうこどもじゃありません。",
+        "en": "I'm not a child any more.",
+        "note": "With a negative, もう means \"no longer\" — a change that has happened. まだ子どもじゃありません would mean \"not a child yet\", which makes no sense for someone growing up."
+      },
+      {
+        "ja": "彼はまだ来ていません。",
+        "reading": "かれはまだきていません。",
+        "en": "He hasn't arrived yet.",
+        "note": "まだ implies he is still expected. もう来ていません would mean he no longer comes at all — a completely different statement."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "まだ食べませんでした。",
+        "right": "まだ食べていません。",
+        "why": "This is the single most common まだ error. 〜ませんでした is a closed past — \"I didn't eat, and that is the end of it\". \"Not yet\" is an open present state, so Japanese uses まだ plus 〜ていません. To a native speaker まだ食べませんでした sounds self-contradictory."
+      },
+      {
+        "wrong": "まだお金がありません。 (said when your wallet has run empty)",
+        "right": "もうお金がありません。",
+        "why": "If the money has run out, the state has changed, so you need もう meaning \"no longer\". まだありません would mean the money has not arrived yet, for example while you are waiting to be paid."
+      },
+      {
+        "wrong": "もう終わっていません。",
+        "right": "まだ終わっていません。",
+        "why": "Learners reach for もう because the question used もう. But \"not finished\" is an unrealised change, which is always まだ. Answer a もう question with まだ whenever the answer is no."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is まだ just the negative form of もう?",
+        "a": "No. Both work in positive and negative sentences; it is the meaning that flips. もう plus positive is already, もう plus negative is no longer, まだ plus positive is still, まだ plus negative is not yet. Learn the four boxes together and the pair stops being confusing."
+      },
+      {
+        "q": "Why can't I say まだ食べませんでした for \"I haven't eaten yet\"?",
+        "a": "Because 〜ませんでした reports a finished past event, while \"not yet\" describes your situation right now. Japanese expresses that with まだ〜ていません. The same goes for まだ来ていません, まだ読んでいません and まだ決めていません."
+      },
+      {
+        "q": "Can I just answer a question with まだです?",
+        "a": "Yes. まだです is a complete, natural answer meaning \"not yet\", and it is the usual reply to もう食べましたか. The matching positive answer is もう食べました, or simply はい. Note that もう has a second sense of \"more\" in the fixed patterns もう少し, もう一度 and もう一つ, where まだ never works."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-045",
+    "slug": "taisetsu-vs-daiji",
+    "title": "大切 vs 大事",
+    "quickAnswer": "These two genuinely overlap, and in most sentences about people or possessions either one is fine — 家族は大切です and 家族は大事です are both natural. The tendency is that 大切 leans toward what you cherish and want to protect, while 大事 leans toward what matters practically or is serious: 大事な話 (an important talk), 大事な試験 (a crucial exam), お大事に (take care of yourself).",
+    "summary": "大切 and 大事 really do overlap. 大切 leans toward what you cherish; 大事 toward what matters practically or is serious, as in 大事な話.",
+    "members": [
+      {
+        "word": "大切",
+        "when": "Use 大切 for things and people you value and want to look after — family, friends, a keepsake, your health, your time. It carries a warmer feeling and is the safer choice in careful writing.",
+        "examples": [
+          {
+            "ja": "家族は私にとって大切です。",
+            "reading": "かぞくはわたしにとってたいせつです。",
+            "en": "My family is precious to me."
+          },
+          {
+            "ja": "この指輪を大切にしています。",
+            "reading": "このゆびわをたいせつにしています。",
+            "en": "I take good care of this ring."
+          }
+        ]
+      },
+      {
+        "word": "大事",
+        "when": "Use 大事 when something matters, is serious, or must not go wrong — 大事な話, 大事な会議, 大事な試験. It is also the word in the set phrases 体を大事にする and お大事に.",
+        "examples": [
+          {
+            "ja": "大事な話があるので、少し時間をください。",
+            "reading": "だいじなはなしがあるので、すこしじかんをください。",
+            "en": "I have something important to discuss, so please give me a moment."
+          },
+          {
+            "ja": "体を大事にしてください。",
+            "reading": "からだをだいじにしてください。",
+            "en": "Please take care of your health."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "お大事に。",
+        "reading": "おだいじに。",
+        "en": "Take care. (to someone who is unwell)",
+        "note": "A fixed phrase. お大切に does not exist, so 大切 can never be substituted here."
+      },
+      {
+        "ja": "明日は大事な試験があります。",
+        "reading": "あしたはだいじなしけんがあります。",
+        "en": "I have a crucial exam tomorrow.",
+        "note": "The exam matters; it is not something you cherish, so 大事 is the natural choice. 大切な試験 is not wrong but sounds slightly off."
+      },
+      {
+        "ja": "友だちを大切にしてください。",
+        "reading": "ともだちをたいせつにしてください。",
+        "en": "Treasure your friends.",
+        "note": "Cherishing a person is 大切's home ground. 大事にする also works here, but 大切 sounds warmer."
+      },
+      {
+        "ja": "水は生活にとって大切です。",
+        "reading": "みずはせいかつにとってたいせつです。",
+        "en": "Water is vital to daily life.",
+        "note": "A general, slightly formal statement of value — 大切 is the default in this kind of written sentence, while 大事 would sound more conversational."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "お大切に。",
+        "right": "お大事に。",
+        "why": "The parting phrase for someone who is ill is fixed as お大事に. Learners generalise from 大切にする and produce a phrase nobody says."
+      },
+      {
+        "wrong": "大切な話があります。 (when you mean an urgent, serious talk)",
+        "right": "大事な話があります。",
+        "why": "Not ungrammatical — 大切な話 does exist — but when you mean \"we need to talk, this is serious\", native speakers reach for 大事な話. 大切な話 sounds more like a treasured story."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there a rule that tells me which one to use?",
+        "a": "Not a reliable one, and you should be suspicious of any page that gives you a clean rule. For people and possessions both words are used constantly and either is fine. What does hold: お大事に and 大事な話 are fixed with 大事, and 大切 is a little more common in careful writing."
+      },
+      {
+        "q": "Which one is more polite?",
+        "a": "Neither is more polite. 大切 sounds a touch softer and more formal in writing, while 大事 is very common in everyday speech. Politeness comes from です and ます, not from the choice between these two."
+      },
+      {
+        "q": "Are 大切にする and 大事にする the same thing?",
+        "a": "Almost. Both mean to treasure something or take good care of it. 大切にする is preferred for people and precious objects; 大事にする is the usual one for looking after your body or health, as in 体を大事にする."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-046",
+    "slug": "ureshii-vs-tanoshii",
+    "title": "うれしい vs 楽しい",
+    "quickAnswer": "うれしい is how you feel at a moment because something good happened; 楽しい is how an activity or stretch of time feels while you are enjoying it. A present makes you うれしい, but a party is 楽しい. 楽しい describes the thing you are doing; うれしい describes you.",
+    "summary": "うれしい is a momentary reaction to something good; 楽しい is enjoyment over a period. Presents are うれしい, parties are 楽しい.",
+    "members": [
+      {
+        "word": "うれしい",
+        "when": "Use うれしい for your own glad reaction to an event: passing a test, getting a gift, hearing good news. It is a feeling at a point in time, and it usually has its cause attached with 〜て or 〜ので.",
+        "examples": [
+          {
+            "ja": "合格したので、とてもうれしいです。",
+            "reading": "ごうかくしたので、とてもうれしいです。",
+            "en": "I'm really glad because I passed."
+          },
+          {
+            "ja": "手紙をもらって、うれしかったです。",
+            "reading": "てがみをもらって、うれしかったです。",
+            "en": "I was happy to get your letter."
+          }
+        ]
+      },
+      {
+        "word": "楽しい",
+        "when": "Use 楽しい to describe an activity, event or period that is enjoyable — a party, a trip, a class, everyday life. The subject is typically the thing, not you.",
+        "examples": [
+          {
+            "ja": "昨日のパーティーは楽しかったです。",
+            "reading": "きのうのパーティーはたのしかったです。",
+            "en": "Yesterday's party was fun."
+          },
+          {
+            "ja": "友だちと話すのは楽しいです。",
+            "reading": "ともだちとはなすのはたのしいです。",
+            "en": "Talking with friends is enjoyable."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "旅行は楽しかったです。",
+        "reading": "りょこうはたのしかったです。",
+        "en": "The trip was fun.",
+        "note": "A trip is a stretch of time you enjoy, so 楽しい. 旅行はうれしかった would sound as if the trip itself were a piece of good news."
+      },
+      {
+        "ja": "そう言ってもらえて、うれしいです。",
+        "reading": "そういってもらえて、うれしいです。",
+        "en": "I'm glad you said that.",
+        "note": "A reaction at one moment to something someone did, so only うれしい works. 楽しい would suggest their words were entertaining."
+      },
+      {
+        "ja": "日本語の勉強は楽しいです。",
+        "reading": "にほんごのべんきょうはたのしいです。",
+        "en": "Studying Japanese is fun.",
+        "note": "An ongoing activity takes 楽しい. Use うれしい here and it sounds as if studying had just delivered you a surprise."
+      },
+      {
+        "ja": "誕生日にプレゼントをもらって、うれしかったです。",
+        "reading": "たんじょうびにプレゼントをもらって、うれしかったです。",
+        "en": "I was happy to get a present for my birthday.",
+        "note": "Receiving something is a moment, so うれしい. The party around it, though, would be 楽しかった."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "パーティーはうれしかったです。",
+        "right": "パーティーは楽しかったです。",
+        "why": "An event you spent time enjoying is 楽しい. うれしい makes the party sound like good news you received rather than something you were at."
+      },
+      {
+        "wrong": "合格して楽しいです。",
+        "right": "合格してうれしいです。",
+        "why": "Passing an exam is a single piece of good fortune, not an enjoyable activity. 楽しい makes it sound as if the act of passing were entertaining."
+      },
+      {
+        "wrong": "田中さんはうれしいです。",
+        "right": "田中さんはうれしそうです。",
+        "why": "Plain emotion adjectives describe your own feelings. To say how someone else feels, use 〜そうです or a quoted statement. The same applies to 楽しい: 楽しそうですね."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I say 楽しい about a person?",
+        "a": "Not to mean that the person is happy. 楽しい人 means someone who is fun to be around. To say a person looks happy, use うれしそうです or 楽しそうです, depending on whether you mean a moment or an activity."
+      },
+      {
+        "q": "How do I say \"I had a good time, thank you\"?",
+        "a": "楽しかったです、ありがとうございました. This is the standard thing to say when leaving a party or a dinner. うれしかったです fits better when someone did something kind specifically for you."
+      },
+      {
+        "q": "Is 楽しみ related to 楽しい?",
+        "a": "Yes. 楽しみです means you are looking forward to something, as in 明日が楽しみです. It is used about the future and cannot be replaced by うれしい."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-047",
+    "slug": "jouzu-vs-tokui",
+    "title": "上手 vs 得意",
+    "quickAnswer": "The real difference is who you may say it about. 上手 praises someone else's skill and sounds boastful about yourself, so 私は日本語が上手です is best avoided. 得意 means \"this is one of my strengths\" and is completely normal in the first person: 料理が得意です.",
+    "summary": "上手 praises other people and is odd about yourself; 得意 is what you are good at and is natural in the first person.",
+    "members": [
+      {
+        "word": "上手",
+        "when": "Use 上手 to praise another person's skill, judged from the outside, as in 日本語がお上手ですね. Avoid it about yourself; about your own family it is fine, because you are describing them rather than you.",
+        "examples": [
+          {
+            "ja": "日本語がお上手ですね。",
+            "reading": "にほんごがおじょうずですね。",
+            "en": "Your Japanese is really good."
+          },
+          {
+            "ja": "母は料理が上手です。",
+            "reading": "はははりょうりがじょうずです。",
+            "en": "My mother is a good cook."
+          }
+        ]
+      },
+      {
+        "word": "得意",
+        "when": "Use 得意 for something that is one of your strong points — a subject, a skill, a signature dish. It is the natural word for your own abilities, and it works about other people too.",
+        "examples": [
+          {
+            "ja": "私は料理が得意です。",
+            "reading": "わたしはりょうりがとくいです。",
+            "en": "Cooking is one of my strengths."
+          },
+          {
+            "ja": "数学は得意ですが、英語は苦手です。",
+            "reading": "すうがくはとくいですが、えいごはにがてです。",
+            "en": "I'm good at maths, but weak at English."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "田中さんは歌が上手ですね。",
+        "reading": "たなかさんはうたがじょうずですね。",
+        "en": "You're a good singer, Tanaka.",
+        "note": "Praising the person in front of you is exactly what 上手 is for. 得意ですね would sound like a comment on their own self-assessment."
+      },
+      {
+        "ja": "スポーツが得意です。",
+        "reading": "スポーツがとくいです。",
+        "en": "Sports are one of my strong points.",
+        "note": "About yourself, 得意 is the safe word. スポーツが上手です strikes listeners as self-praise."
+      },
+      {
+        "ja": "得意な料理はカレーです。",
+        "reading": "とくいなりょうりはカレーです。",
+        "en": "My signature dish is curry.",
+        "note": "得意な plus a noun means the thing you are good at. 上手な料理 would describe a dish that is skilfully made, not your specialty."
+      },
+      {
+        "ja": "字が上手ですね。",
+        "reading": "じがじょうずですね。",
+        "en": "You have lovely handwriting.",
+        "note": "A compliment on a visible result, which is 上手's core use and one of the first compliments learners hear."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "私は日本語が上手です。",
+        "right": "私は日本語が得意です。",
+        "why": "上手 is an outside judgement, so applying it to yourself sounds boastful. Say 得意です instead, or deflect a compliment with まだまだです."
+      },
+      {
+        "wrong": "日本語がお上手ですね。 はい、上手です。",
+        "right": "日本語がお上手ですね。 いいえ、まだまだです。",
+        "why": "Agreeing with a compliment about your own skill is socially awkward in Japanese. The expected replies are いいえ、まだまだです or ありがとうございます."
+      },
+      {
+        "wrong": "私は料理を上手です。",
+        "right": "私は料理が上手です。",
+        "why": "Both 上手 and 得意 take が for the skill, not を, because they are adjectives rather than verbs. The pattern is 〜が上手だ and 〜が得意だ."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I ever use 上手 about myself?",
+        "a": "In practice, treat it as off limits in the first person. The exception is the negative, as in まだ上手じゃありません, where there is no boasting. About your own mother or child, 上手 is perfectly fine."
+      },
+      {
+        "q": "Is 得意 modest enough for a job interview?",
+        "a": "Yes. 得意 is the standard way to state a strength in Japanese, and 得意なことは〜です is expected in interviews and self-introductions. It states a fact rather than claiming praise."
+      },
+      {
+        "q": "What is the opposite of each one?",
+        "a": "上手's opposite is 下手, and 得意's is 苦手. They follow the same social pattern: 下手 is blunt about ability, while 苦手 is the gentler word most people use about themselves."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-048",
+    "slug": "heta-vs-nigate",
+    "title": "下手 vs 苦手",
+    "quickAnswer": "下手 means your skill is poor, and that is all it means. 苦手 covers both being weak at something and simply not liking or not coping with it, which is why 私は虫が苦手です (I can't deal with insects) and ピーマンが苦手です (I don't like green peppers) work — 下手 could never be used for either. 苦手 is also softer, so it is the normal choice about yourself.",
+    "summary": "下手 is purely poor skill; 苦手 covers dislike and discomfort too, and is the softer word to use about yourself.",
+    "members": [
+      {
+        "word": "下手",
+        "when": "Use 下手 only for a genuine lack of skill at something you do — cooking, singing, handwriting, a sport. It is blunt, so it is fine about yourself but rude about the person you are speaking to.",
+        "examples": [
+          {
+            "ja": "私は絵が下手です。",
+            "reading": "わたしはえがへたです。",
+            "en": "I'm bad at drawing."
+          },
+          {
+            "ja": "歌は下手ですが、大好きです。",
+            "reading": "うたはへたですが、だいすきです。",
+            "en": "I'm a terrible singer, but I love it."
+          }
+        ]
+      },
+      {
+        "word": "苦手",
+        "when": "Use 苦手 for anything you are weak at, uncomfortable with, or would rather avoid — a school subject, a food, insects, a certain person. It says nothing about skill on its own and is far gentler than 下手.",
+        "examples": [
+          {
+            "ja": "私は虫が苦手です。",
+            "reading": "わたしはむしがにがてです。",
+            "en": "I really can't deal with insects."
+          },
+          {
+            "ja": "ピーマンが苦手なので、残してもいいですか。",
+            "reading": "ピーマンがにがてなので、のこしてもいいですか。",
+            "en": "I'm not keen on green peppers, so may I leave them?"
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "納豆が苦手です。",
+        "reading": "なっとうがにがてです。",
+        "en": "I'm not a fan of natto.",
+        "note": "Food is about taste, not skill, so only 苦手 is possible. 納豆が下手です is meaningless."
+      },
+      {
+        "ja": "字が下手ですみません。",
+        "reading": "じがへたですみません。",
+        "en": "Sorry about my bad handwriting.",
+        "note": "A concrete skill you perform badly, which is 下手's home ground. 字が苦手 would suggest you avoid writing rather than that the result looks bad."
+      },
+      {
+        "ja": "あの人はちょっと苦手です。",
+        "reading": "あのひとはちょっとにがてです。",
+        "en": "I find that person a bit hard to get on with.",
+        "note": "苦手 is the polite way to say you dislike someone. 下手 cannot describe a relationship at all."
+      },
+      {
+        "ja": "英語は苦手ですが、少しずつ勉強しています。",
+        "reading": "えいごはにがてですが、すこしずつべんきょうしています。",
+        "en": "English is a weak point for me, but I'm studying bit by bit.",
+        "note": "For a subject you struggle with, 苦手 is the natural and modest choice; 下手 sounds harshly self-critical and is odd with school subjects."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "ピーマンが下手です。",
+        "right": "ピーマンが苦手です。",
+        "why": "下手 only describes how well you do something. Disliking a food has nothing to do with skill, so 下手 produces a sentence that makes no sense to a native speaker."
+      },
+      {
+        "wrong": "日本語が下手ですね。",
+        "right": "日本語はまだ難しいですよね。",
+        "why": "Telling someone their Japanese is 下手 is genuinely rude. Keep 下手 for yourself; about another person, avoid it entirely."
+      },
+      {
+        "wrong": "私は数学が下手です。",
+        "right": "私は数学が苦手です。",
+        "why": "Not ungrammatical, but school subjects normally take 苦手. 下手 fits physical or performed skills such as playing, drawing and cooking rather than academic ones."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use 苦手 about a person I dislike?",
+        "a": "Yes, and it is the standard polite way to do it. あの人は苦手です means you find them hard to deal with, without the harshness of 嫌いです. This use is impossible with 下手."
+      },
+      {
+        "q": "Which should I use about myself?",
+        "a": "苦手 in most cases, because it is softer and covers more ground. Keep 下手 for when you specifically mean your skill is poor, where it is a normal, modest thing to say about your own cooking or singing."
+      },
+      {
+        "q": "Does 苦手 mean I'm actually bad at it?",
+        "a": "Not necessarily. 苦手 says you find something hard or unpleasant; you may still be perfectly competent. That gap is exactly why people say 苦手 about subjects, foods and people alike."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-049",
+    "slug": "chotto-vs-sukoshi",
+    "title": "ちょっと vs 少し",
+    "quickAnswer": "For quantity they mean the same thing — ちょっと待って and 少し待って are both \"wait a bit\" — with ちょっと the casual spoken form and 少し the neutral or written one. The difference that matters is that ちょっと also softens and refuses: 今日はちょっと… is a complete, polite no, and 少し has no such use.",
+    "summary": "Same meaning for quantity; ちょっと is casual and 少し neutral. Only ちょっと works as a softener and as a polite refusal.",
+    "members": [
+      {
+        "word": "ちょっと",
+        "when": "Everyday spoken Japanese, and the only choice when softening a request, getting someone's attention, or declining. Trailing off with ちょっと… is understood as a polite refusal.",
+        "examples": [
+          {
+            "ja": "ちょっとすみません、駅はどこですか。",
+            "reading": "ちょっとすみません、えきはどこですか。",
+            "en": "Excuse me, where is the station?"
+          },
+          {
+            "ja": "今日はちょっと…。また今度お願いします。",
+            "reading": "きょうはちょっと…。またこんどおねがいします。",
+            "en": "Today is a bit... Could we do it another time?"
+          }
+        ]
+      },
+      {
+        "word": "少し",
+        "when": "Neutral register: writing, polite or formal speech, and anywhere you are simply stating a small amount. It is the safer word in business email and on tests.",
+        "examples": [
+          {
+            "ja": "少し疲れましたので、休みましょう。",
+            "reading": "すこしつかれましたので、やすみましょう。",
+            "en": "I'm a little tired, so let's take a break."
+          },
+          {
+            "ja": "日本語が少し分かります。",
+            "reading": "にほんごがすこしわかります。",
+            "en": "I understand a little Japanese."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "今晩、飲みに行きませんか。 今日はちょっと…。",
+        "reading": "こんばん、のみにいきませんか。 きょうはちょっと…。",
+        "en": "Want to go for a drink tonight? Tonight is a bit...",
+        "note": "This is ちょっと's most important use and it has no 少し equivalent. 今日は少し… is not a refusal and merely sounds unfinished."
+      },
+      {
+        "ja": "少しお待ちください。",
+        "reading": "すこしおまちください。",
+        "en": "Please wait a moment.",
+        "note": "In an announcement or to a customer, 少し fits the register. ちょっとお待ちください is possible but noticeably more casual."
+      },
+      {
+        "ja": "ちょっと、聞いてる？",
+        "reading": "ちょっと、きいてる？",
+        "en": "Hey, are you even listening?",
+        "note": "Used on its own, ちょっと calls someone out or gets their attention. 少し cannot be used this way at all."
+      },
+      {
+        "ja": "この問題は少し難しいです。",
+        "reading": "このもんだいはすこしむずかしいです。",
+        "en": "This question is a little difficult.",
+        "note": "A plain statement of degree, where both work: 少し is the neutral pick for writing and ちょっと for conversation."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "手伝ってくれませんか。 はい、少しです。",
+        "right": "手伝ってくれませんか。 すみません、今日はちょっと…。",
+        "why": "Learners look for a word meaning no and miss that ちょっと… is the refusal itself. 少し in that slot does not communicate a decline, and a flat いいえ sounds abrupt."
+      },
+      {
+        "wrong": "レポートをちょっと直しました。 (in an email to your boss)",
+        "right": "レポートを少し直しました。",
+        "why": "ちょっと belongs to casual speech. In a business email or a written report, 少し or 少々 is the appropriate register; ちょっと reads as too chatty."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are they interchangeable for amounts?",
+        "a": "Essentially yes. ちょっと高い and 少し高い both mean \"a bit expensive\". Choose by register: ちょっと when speaking casually, 少し in writing or polite speech."
+      },
+      {
+        "q": "Why does ちょっと mean no?",
+        "a": "Because trailing off is how Japanese declines politely. The full sentence is something like ちょっと都合が悪いです, and speakers cut it short at ちょっと…. Everyone understands it as a refusal, so you do not need to finish it."
+      },
+      {
+        "q": "What about 少々?",
+        "a": "少々 is the formal version of 少し, used in service and business language, as in 少々お待ちください. Recognise it when you hear it, and use 少し in your own sentences at first."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-050",
+    "slug": "demo-vs-shikashi",
+    "title": "でも vs しかし",
+    "quickAnswer": "Both mean \"but\" at the start of a sentence, and the difference is register: でも is what you say out loud and write to friends, しかし belongs to essays, news and formal speeches. If you want \"but\" in the middle of one sentence, neither is right — use が or けど.",
+    "summary": "でも is the spoken, casual \"but\"; しかし is the written, formal one. Mid-sentence, use が or けど instead.",
+    "members": [
+      {
+        "word": "でも",
+        "when": "Use でも to start a new sentence in conversation, chat messages and casual writing. It is the default \"but\" in speech, and it sounds friendly rather than argumentative.",
+        "examples": [
+          {
+            "ja": "高いです。でも、買います。",
+            "reading": "たかいです。でも、かいます。",
+            "en": "It is expensive. But I am going to buy it."
+          },
+          {
+            "ja": "雨ですね。でも、行きましょう。",
+            "reading": "あめですね。でも、いきましょう。",
+            "en": "It is raining. But let us go anyway."
+          }
+        ]
+      },
+      {
+        "word": "しかし",
+        "when": "Use しかし at the start of a sentence in writing — reports, essays, news — or in formal speech. It marks a deliberate turn in the argument, so in ordinary chat it sounds stiff or theatrical.",
+        "examples": [
+          {
+            "ja": "値段は安いです。しかし、品質はよくありません。",
+            "reading": "ねだんはやすいです。しかし、ひんしつはよくありません。",
+            "en": "The price is low. However, the quality is not good."
+          },
+          {
+            "ja": "努力した。しかし、結果は出なかった。",
+            "reading": "どりょくした。しかし、けっかはでなかった。",
+            "en": "I made the effort. However, no results came of it."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "おいしいね。でも、ちょっと高いね。",
+        "reading": "おいしいね。でも、ちょっとたかいね。",
+        "en": "Tasty, isn't it. But a bit expensive.",
+        "note": "Two friends eating together. しかし here would sound like the opening of a news report."
+      },
+      {
+        "ja": "この方法は安い。しかし、時間がかかる。",
+        "reading": "このほうほうはやすい。しかし、じかんがかかる。",
+        "en": "This method is cheap. However, it takes time.",
+        "note": "A written comparison of options; しかし is the normal choice, and でも would read as too chatty for a report."
+      },
+      {
+        "ja": "高いですが、買います。",
+        "reading": "たかいですが、かいます。",
+        "en": "It is expensive, but I will buy it.",
+        "note": "One sentence, so the \"but\" is が. Neither でも nor しかし can join two clauses like this."
+      },
+      {
+        "ja": "高いけど、買うよ。",
+        "reading": "たかいけど、かうよ。",
+        "en": "It is pricey, but I will buy it.",
+        "note": "The casual version of the same join. けど is the spoken partner of が, not of でも."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "高いです、でも買います。",
+        "right": "高いですが、買います。",
+        "why": "でも starts a fresh sentence; it cannot sit inside one after a comma the way English \"but\" does. Use が or けど to join two clauses."
+      },
+      {
+        "wrong": "友だちに「しかし、疲れたね」と言った。",
+        "right": "友だちに「でも、疲れたね」と言った。",
+        "why": "しかし in casual conversation sounds like a newsreader. Between friends, でも is the natural word."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Are でも and しかし ever interchangeable?",
+        "a": "Yes. In neutral writing such as a blog post either can begin the sentence and the meaning is identical; only how formal you sound changes."
+      },
+      {
+        "q": "Which one should I use in an email to my teacher?",
+        "a": "しかし is safe in the body of a formal email. でも is fine in a friendly message, but for anything you would write politely, しかし or ですが reads better."
+      },
+      {
+        "q": "What about だけど and ですが?",
+        "a": "だけど is でも with the copula attached and works the same way at the start of a casual sentence. ですが is the polite mid-sentence join, roughly the formal version of けど."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-051",
+    "slug": "mata-vs-mada",
+    "title": "また vs まだ",
+    "quickAnswer": "These two are not related in meaning at all — they are confused only because they look and sound nearly identical. また (no dakuten) means \"again, also\"; まだ (with dakuten on だ) means \"still\" or, with a negative, \"not yet\". Listen for the voiced だ: if it is there, nothing has happened yet.",
+    "summary": "また means \"again\"; まだ means \"still\" or \"not yet\". Only the dakuten on だ tells them apart.",
+    "members": [
+      {
+        "word": "また",
+        "when": "また means a repeat: something happened before and happens once more. It also means \"also, furthermore\" when adding a second item. It says nothing about time being unfinished.",
+        "examples": [
+          {
+            "ja": "また明日会いましょう。",
+            "reading": "またあしたあいましょう。",
+            "en": "Let us meet again tomorrow."
+          },
+          {
+            "ja": "また失敗しました。",
+            "reading": "またしっぱいしました。",
+            "en": "I failed again."
+          }
+        ]
+      },
+      {
+        "word": "まだ",
+        "when": "まだ means a state has not changed yet. With a positive verb or adjective it is \"still\"; with a negative it is \"not yet\". It always looks at something unfinished or unchanged.",
+        "examples": [
+          {
+            "ja": "まだ食べていません。",
+            "reading": "まだたべていません。",
+            "en": "I have not eaten yet."
+          },
+          {
+            "ja": "父はまだ働いています。",
+            "reading": "ちちはまだはたらいています。",
+            "en": "My father is still working."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "また来てください。",
+        "reading": "またきてください。",
+        "en": "Please come again.",
+        "note": "Said to a guest who has already visited. Swap in まだ and you get \"please come, not yet\", which means nothing."
+      },
+      {
+        "ja": "バスはまだ来ません。",
+        "reading": "バスはまだきません。",
+        "en": "The bus still has not come.",
+        "note": "You are waiting and nothing has arrived. またバスは来ません would instead mean the bus is failing to come yet again — a different complaint."
+      },
+      {
+        "ja": "宿題はまだ終わっていません。",
+        "reading": "しゅくだいはまだおわっていません。",
+        "en": "My homework is not finished yet.",
+        "note": "An unfinished state, so まだ. また終わっていません would say you once more have not finished, as if it were a habit."
+      },
+      {
+        "ja": "また同じ間違いをした。",
+        "reading": "またおなじまちがいをした。",
+        "en": "I made the same mistake again.",
+        "note": "A repeat of a completed event — only また works. まだ would claim the mistake is somehow still ongoing."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "また食べていません。",
+        "right": "まだ食べていません。",
+        "why": "The learner means \"I have not eaten yet\", but また…ていません says \"once again I am not eating\", which sounds bizarre. The dakuten is the whole difference."
+      },
+      {
+        "wrong": "まだ明日会いましょう。",
+        "right": "また明日会いましょう。",
+        "why": "Parting words are \"see you again\", so また. まだ明日 would be something like \"tomorrow is still not here\", not a farewell."
+      },
+      {
+        "wrong": "「もう終わりましたか。」「また。」",
+        "right": "「もう終わりましたか。」「まだです。」",
+        "why": "The short answer to a もう question is まだです, \"not yet\". Answering また sounds like you said \"again\" for no reason."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is there any meaning they share?",
+        "a": "No. They overlap in nothing; the confusion is purely visual and auditory. Treat them as two unrelated words that happen to be one dakuten apart."
+      },
+      {
+        "q": "How do I hear the difference in fast speech?",
+        "a": "まだ has a voiced だ, so it sounds heavier than the crisp た in また. Context helps too: まだ almost always comes with ていません, ない, or a state word like 早い."
+      },
+      {
+        "q": "Does まだ always mean a negative?",
+        "a": "No. With a positive verb it means \"still\": まだあります is \"there is still some\", まだ早いです is \"it is still early\". The \"not yet\" reading comes from the negative that follows."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-052",
+    "slug": "tsumori-vs-yotei",
+    "title": "つもり vs 予定",
+    "quickAnswer": "つもり is an intention someone is holding in their head; 予定 is an arrangement that already exists in the world — a booking, a timetable, a fixed schedule. If you have merely decided to do something, say つもりです; if it is on the calendar, say 予定です.",
+    "summary": "つもり is a personal intention; 予定 is a scheduled arrangement that exists outside your head.",
+    "members": [
+      {
+        "word": "つもり",
+        "when": "Use つもり for what you, or another person, have decided to do. It always belongs to somebody's mind, so objects and timetables cannot have a つもり. Nothing needs to be booked yet.",
+        "examples": [
+          {
+            "ja": "明日は早く起きるつもりです。",
+            "reading": "あしたははやくおきるつもりです。",
+            "en": "I intend to get up early tomorrow."
+          },
+          {
+            "ja": "今年はたばこをやめるつもりです。",
+            "reading": "ことしはたばこをやめるつもりです。",
+            "en": "I intend to quit smoking this year."
+          }
+        ]
+      },
+      {
+        "word": "予定",
+        "when": "Use 予定 for something already arranged: a time fixed, a ticket bought, a meeting on the calendar. It is a noun, so it can belong to a person, an event or even a train, and it states another person's plan neutrally.",
+        "examples": [
+          {
+            "ja": "明日は朝から出かける予定です。",
+            "reading": "あしたはあさからでかけるよていです。",
+            "en": "I am scheduled to go out from the morning tomorrow."
+          },
+          {
+            "ja": "会議は三時に始まる予定です。",
+            "reading": "かいぎはさんじにはじまるよていです。",
+            "en": "The meeting is scheduled to start at three."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "電車は十時に着く予定です。",
+        "reading": "でんしゃはじゅうじにつくよていです。",
+        "en": "The train is scheduled to arrive at ten.",
+        "note": "A train has a timetable but no mind, so 予定 only. 着くつもりです would give the train an intention."
+      },
+      {
+        "ja": "いつか日本に住むつもりです。",
+        "reading": "いつかにほんにすむつもりです。",
+        "en": "I intend to live in Japan some day.",
+        "note": "Nothing is arranged — no date, no visa. That is an intention, so つもり."
+      },
+      {
+        "ja": "来週、社長がアメリカへ行く予定です。",
+        "reading": "らいしゅう、しゃちょうがアメリカへいくよていです。",
+        "en": "The president is scheduled to go to America next week.",
+        "note": "You are reporting someone else's fixed schedule. 行くつもりです would claim to know what is in his head, which sounds presumptuous."
+      },
+      {
+        "ja": "行くつもりでしたが、行けませんでした。",
+        "reading": "いくつもりでしたが、いけませんでした。",
+        "en": "I had intended to go, but I could not.",
+        "note": "つもりだった is the natural way to say that a plan you held did not happen."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "バスは五時に出るつもりです。",
+        "right": "バスは五時に出る予定です。",
+        "why": "つもり requires a person with an intention. A bus, a train or a meeting takes 予定."
+      },
+      {
+        "wrong": "田中さんは来月結婚するつもりです。",
+        "right": "田中さんは来月結婚する予定です。",
+        "why": "Stating a third person's intention with つもり sounds like you are reading their mind. For someone else's arranged plan, 予定 is the safe form."
+      },
+      {
+        "wrong": "私はつもりです。",
+        "right": "私は行くつもりです。",
+        "why": "つもり needs a plain-form verb in front of it. It cannot stand alone as a noun the way 予定 can in 予定があります."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I use either one for my own weekend plan?",
+        "a": "Often yes. If you have simply decided to go hiking, 行くつもりです; if you have booked the bus, 行く予定です. Both are natural, and the difference is how settled it is."
+      },
+      {
+        "q": "How do I say \"I have plans on Saturday\" when turning down an invitation?",
+        "a": "土曜日は予定があります. 予定 is a noun you can own, so it works as a polite reason. つもりがあります is not used this way."
+      },
+      {
+        "q": "What does つもりだった mean?",
+        "a": "It marks an intention that did not come true: 早く寝るつもりだった, \"I had meant to go to bed early\" — implying you did not."
+      }
+    ],
+    "level": "n4"
+  },
+  {
+    "id": "vcmp-053",
+    "slug": "kirei-vs-utsukushii",
+    "title": "きれい vs 美しい",
+    "quickAnswer": "きれい covers both \"pretty\" and \"clean, tidy\", and is the everyday word; 美しい means only \"beautiful\", never \"clean\", and it sounds literary. A tidy room is きれい and never 美しい.",
+    "summary": "きれい means pretty and also clean; 美しい means only beautiful and sounds more literary.",
+    "members": [
+      {
+        "word": "きれい",
+        "when": "The everyday word for anything nice to look at, and also the normal word for clean or tidy. It is a な-adjective written in kana, so use きれいな before a noun and きれいです at the end.",
+        "examples": [
+          {
+            "ja": "きれいな花ですね。",
+            "reading": "きれいなはなですね。",
+            "en": "What a pretty flower."
+          },
+          {
+            "ja": "部屋をきれいにしました。",
+            "reading": "へやをきれいにしました。",
+            "en": "I tidied up the room."
+          }
+        ]
+      },
+      {
+        "word": "美しい",
+        "when": "Beauty only — scenery, music, a voice, a way of living. It carries admiration and sounds written or formal, so in daily conversation it can come across as poetic. It never describes cleanliness.",
+        "examples": [
+          {
+            "ja": "山の景色がとても美しい。",
+            "reading": "やまのけしきがとてもうつくしい。",
+            "en": "The mountain scenery is very beautiful."
+          },
+          {
+            "ja": "彼女の声は美しいです。",
+            "reading": "かのじょのこえはうつくしいです。",
+            "en": "Her voice is beautiful."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "机の上がきれいになりました。",
+        "reading": "つくえのうえがきれいになりました。",
+        "en": "The desk has been tidied up.",
+        "note": "Cleanliness, so only きれい. 美しくなりました would suggest the desk turned into a work of art."
+      },
+      {
+        "ja": "手をきれいに洗ってください。",
+        "reading": "てをきれいにあらってください。",
+        "en": "Please wash your hands properly.",
+        "note": "Here きれいに means thoroughly, cleanly. 美しく cannot be used for washing."
+      },
+      {
+        "ja": "この絵は本当に美しい。",
+        "reading": "このえはほんとうにうつくしい。",
+        "en": "This painting is truly beautiful.",
+        "note": "Admiring art. きれい is also correct here, but sounds lighter, closer to \"pretty\"."
+      },
+      {
+        "ja": "彼の生き方は美しいと思う。",
+        "reading": "かれのいきかたはうつくしいとおもう。",
+        "en": "I think the way he lives is beautiful.",
+        "note": "Abstract, moral beauty. きれい does not reach this sense."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "トイレが美しいです。",
+        "right": "トイレがきれいです。",
+        "why": "The learner means the toilet is clean. 美しい never carries the clean sense, so this sounds like praising the toilet as a work of beauty."
+      },
+      {
+        "wrong": "きれい花",
+        "right": "きれいな花",
+        "why": "Although it ends in い, きれい is a な-adjective. It needs な before a noun, and its negative is きれいじゃない, not きれくない."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can I call a person 美しい?",
+        "a": "Yes, but it is strong and literary, the sort of thing written rather than said. To pay someone an ordinary compliment, きれいですね is far more natural."
+      },
+      {
+        "q": "Is 美しい more polite than きれい?",
+        "a": "Not more polite — more literary. Politeness comes from です and ます, not from the choice of adjective."
+      },
+      {
+        "q": "Which do I use for scenery?",
+        "a": "Either. 美しい景色 is the set literary phrase, and きれいな景色 is what people actually say when looking at a view."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-054",
+    "slug": "yuumei-vs-ninki",
+    "title": "有名 vs 人気",
+    "quickAnswer": "有名 means many people know about it; 人気 means many people like it. Something can be 有名 for a terrible reason, but 人気 is always positive. Note also that 人気 is a noun, so you say 人気があります, not 人気な.",
+    "summary": "有名 means widely known; 人気 means widely liked. 人気 is a noun, so use 人気がある.",
+    "members": [
+      {
+        "word": "有名",
+        "when": "Use 有名 when the name is known — a mountain, a shop, a person. It says nothing about whether people approve, so it attaches to scandals as easily as to achievements. It is a な-adjective: 有名な店.",
+        "examples": [
+          {
+            "ja": "この町はお寺で有名です。",
+            "reading": "このまちはおてらでゆうめいです。",
+            "en": "This town is famous for its temples."
+          },
+          {
+            "ja": "有名な店なので、いつも人が多いです。",
+            "reading": "ゆうめいなみせなので、いつもひとがおおいです。",
+            "en": "It is a famous shop, so there are always a lot of people."
+          }
+        ]
+      },
+      {
+        "word": "人気",
+        "when": "Use 人気 when people actively like or favour something. It is a noun, not a な-adjective: 人気があります to state it, 人気のある before a noun, 人気が出る for becoming popular.",
+        "examples": [
+          {
+            "ja": "この歌手は若者に人気があります。",
+            "reading": "このかしゅはわかものににんきがあります。",
+            "en": "This singer is popular with young people."
+          },
+          {
+            "ja": "人気のあるゲームを買いました。",
+            "reading": "にんきのあるゲームをかいました。",
+            "en": "I bought a popular game."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "その事件で有名になった人です。",
+        "reading": "そのじけんでゆうめいになったひとです。",
+        "en": "He is the man who became famous because of that incident.",
+        "note": "Known for something bad. 人気になった would say people came to like him, which is the opposite point."
+      },
+      {
+        "ja": "この店は有名ですが、あまり人気がありません。",
+        "reading": "このみせはゆうめいですが、あまりにんきがありません。",
+        "en": "This shop is well known, but it is not very popular.",
+        "note": "The clearest proof they are different: everyone has heard of it, few actually like it."
+      },
+      {
+        "ja": "子どもに人気のあるアニメです。",
+        "reading": "こどもににんきのあるアニメです。",
+        "en": "It is an anime that is popular with children.",
+        "note": "Who likes it is marked with に. 有名 would only say children have heard of it."
+      },
+      {
+        "ja": "富士山は世界中で有名です。",
+        "reading": "ふじさんはせかいじゅうでゆうめいです。",
+        "en": "Mount Fuji is famous all over the world.",
+        "note": "Recognition rather than affection, so 有名 is the normal word for a landmark."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "人気な歌手です。",
+        "right": "人気のある歌手です。",
+        "why": "人気 is a noun, so it does not take な. Use 人気のある or 人気がある before the noun. 人気な does turn up in casual internet writing, but it is not accepted in exams or careful writing."
+      },
+      {
+        "wrong": "この歌手は人気です。",
+        "right": "この歌手は人気があります。",
+        "why": "Stating popularity needs the verb: 人気があります. 人気です alone is heard in advertising copy, but the full form is what to write."
+      },
+      {
+        "wrong": "彼は悪いことをして人気になった。",
+        "right": "彼は悪いことをして有名になった。",
+        "why": "Becoming known through wrongdoing is 有名になる. 人気になる would claim people came to like him for it."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can something be both 有名 and 人気?",
+        "a": "Very often, and then either word is fine. 有名なラーメン屋 and 人気のラーメン屋 both make sense; the first stresses that people have heard of it, the second that people love it."
+      },
+      {
+        "q": "Why is 人気な wrong when it sounds like a な-adjective?",
+        "a": "Because 人気 is a plain noun meaning \"popularity\". Grammatically it behaves like 元気 in 元気がある, not like 有名 in 有名な人."
+      },
+      {
+        "q": "How do I say something became popular?",
+        "a": "人気が出る or 人気になる. For fame rather than affection, 有名になる."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-055",
+    "slug": "benri-vs-raku",
+    "title": "便利 vs 楽",
+    "quickAnswer": "便利 describes a thing that is useful and saves trouble — a tool, a station, an app. 楽 describes how light the burden feels on a person: less effort, more comfort. Ask whether you are praising the object (便利) or describing how someone feels (楽).",
+    "summary": "便利 is a useful thing; 楽 is how little effort or strain a person has to bear.",
+    "members": [
+      {
+        "word": "便利",
+        "when": "Use 便利 for things, places and services that make tasks easier: a convenient location, a handy app, a useful gadget. It is a property of the object, not a feeling.",
+        "examples": [
+          {
+            "ja": "駅が近いので便利です。",
+            "reading": "えきがちかいのでべんりです。",
+            "en": "The station is close, so it is convenient."
+          },
+          {
+            "ja": "このアプリはとても便利ですよ。",
+            "reading": "このアプリはとてもべんりですよ。",
+            "en": "This app is really handy."
+          }
+        ]
+      },
+      {
+        "word": "楽",
+        "when": "Use 楽 for how little effort or strain something costs a person — an easy job, a comfortable chair, feeling relieved. It describes the person's burden, so it often appears with になる and with 気.",
+        "examples": [
+          {
+            "ja": "この椅子は楽です。",
+            "reading": "このいすはらくです。",
+            "en": "This chair is comfortable."
+          },
+          {
+            "ja": "薬を飲んだら楽になりました。",
+            "reading": "くすりをのんだららくになりました。",
+            "en": "I felt better after taking the medicine."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "電車で行くほうが楽ですよ。",
+        "reading": "でんしゃでいくほうがらくですよ。",
+        "en": "Going by train is easier on you.",
+        "note": "You are saying it costs the traveller less effort. 便利です would instead praise the train service itself."
+      },
+      {
+        "ja": "この辞書は便利です。",
+        "reading": "このじしょはべんりです。",
+        "en": "This dictionary is handy.",
+        "note": "A tool that does its job well. 楽です about a dictionary would oddly suggest the dictionary is the one at ease."
+      },
+      {
+        "ja": "仕事が減って楽になりました。",
+        "reading": "しごとがへってらくになりました。",
+        "en": "Work has eased off and things got easier for me.",
+        "note": "The burden on a person dropped, so 楽. 便利になりました would mean some facility improved."
+      },
+      {
+        "ja": "この町は買い物に便利です。",
+        "reading": "このまちはかいものにべんりです。",
+        "en": "This town is convenient for shopping.",
+        "note": "A place with useful amenities takes 便利."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "この椅子は便利です。",
+        "right": "この椅子は楽です。",
+        "why": "A chair you sit in comfortably is 楽. 便利 would suggest the chair is some clever multi-purpose device."
+      },
+      {
+        "wrong": "楽い仕事がいいです。",
+        "right": "楽な仕事がいいです。",
+        "why": "楽 here is a な-adjective read らく, so it takes な before a noun. Writing 楽い also risks confusion with 楽しい, which is read たのしい and means \"fun\"."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can one thing be both 便利 and 楽?",
+        "a": "Yes. 洗濯機は便利だから、家事が楽になった — the machine is convenient, and because of it the housework became easier on you. The object is 便利, the effect on the person is 楽."
+      },
+      {
+        "q": "Is 楽 the same word as 楽しい?",
+        "a": "Same kanji, different words. 楽 read らく means easy or comfortable; 楽しい read たのしい means enjoyable. 楽な仕事 is an undemanding job, 楽しい仕事 is a fun one."
+      },
+      {
+        "q": "Does 楽 ever sound negative?",
+        "a": "It can. 楽をする means to take the easy way out, and calling someone's job 楽 may sound like you are saying they do not work hard."
+      }
+    ],
+    "level": "n5"
   }
 ]

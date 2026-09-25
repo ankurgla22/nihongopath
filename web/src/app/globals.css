@@ -118,6 +118,25 @@ rt {
   outline-offset: -2px;
 }
 
+
+/* One short fall for a perfect quiz round (components/quiz/QuickQuiz). Decorative: the component
+   does not render it at all when prefers-reduced-motion is set, and the reduced-motion block below
+   would stop it regardless. */
+.confetti-bit {
+  position: absolute;
+  top: -1.5rem;
+  width: 0.5rem;
+  height: 0.75rem;
+  border-radius: 1px;
+  opacity: 0;
+  animation: confetti-fall 2.4s cubic-bezier(0.25, 0.6, 0.35, 1) forwards;
+}
+@keyframes confetti-fall {
+  0% { opacity: 0; transform: translateY(0) rotate(0deg); }
+  10% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(70vh) rotate(540deg); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
