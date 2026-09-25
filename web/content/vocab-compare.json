@@ -3068,5 +3068,203 @@
       }
     ],
     "level": "n5"
+  },
+  {
+    "id": "vcmp-033",
+    "slug": "miru-vs-miru",
+    "title": "見る vs 観る",
+    "quickAnswer": "見る and 観る are the same word, みる — only the kanji differs. 見る is the default for seeing or looking at anything, while 観る is an optional spelling used when you are watching something you chose and are giving your attention to, such as a film, a play or a match. Writing 見る everywhere is still correct.",
+    "summary": "見る and 観る are both みる: 見る is the default for seeing, 観る an optional spelling for watching a film, play or match you chose.",
+    "members": [
+      {
+        "word": "見る",
+        "when": "The default spelling for anything your eyes do: noticing, looking at, checking, and watching too. If you are unsure, 見る is safe — it is never wrong, and it is the spelling used in textbooks and newspapers.",
+        "examples": [
+          {
+            "ja": "毎晩テレビでニュースを見ます。",
+            "reading": "まいばんテレビでニュースをみます。",
+            "en": "I watch the news on TV every evening."
+          },
+          {
+            "ja": "この漢字をよく見てください。",
+            "reading": "このかんじをよくみてください。",
+            "en": "Please look carefully at this kanji."
+          }
+        ]
+      },
+      {
+        "word": "観る",
+        "when": "Chosen when the watching is deliberate and the thing is something put on to be watched — a film, a play, a match, a concert. 観 carries the sense of viewing and observing, as in 観察 and 観光. It is a writer's choice, not a grammar rule.",
+        "examples": [
+          {
+            "ja": "週末に映画館で映画を観ました。",
+            "reading": "しゅうまつにえいがかんでえいがをみました。",
+            "en": "I watched a film at the cinema at the weekend."
+          },
+          {
+            "ja": "日曜日にサッカーの試合を観に行きます。",
+            "reading": "にちようびにサッカーのしあいをみにいきます。",
+            "en": "I'm going to watch a football match on Sunday."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "空を見てください。星がきれいです。",
+        "reading": "そらをみてください。ほしがきれいです。",
+        "en": "Look at the sky. The stars are beautiful.",
+        "note": "Nothing was staged for you and nothing was chosen — this is plain looking, so 観る would read as a mistake."
+      },
+      {
+        "ja": "道で友だちの顔を見ました。",
+        "reading": "みちでともだちのかおをみました。",
+        "en": "I saw my friend's face in the street.",
+        "note": "Seeing something by chance is always 見る; 観る is never used for noticing."
+      },
+      {
+        "ja": "昨日、歌舞伎を観ました。",
+        "reading": "きのう、かぶきをみました。",
+        "en": "I watched kabuki yesterday.",
+        "note": "A performance you bought a ticket for and sat through — the classic place for 観る, though 見ました here is equally correct."
+      },
+      {
+        "ja": "説明書をよく見て組み立てます。",
+        "reading": "せつめいしょをよくみてくみたてます。",
+        "en": "I read the instructions carefully and assemble it.",
+        "note": "Careful, attentive looking is not enough for 観る: it wants a performance or an event, not a document."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "きれいな空を観ました。",
+        "right": "きれいな空を見ました。",
+        "why": "Learners take 観る to mean \"look at properly\" and use it for scenery. 観る needs something presented to an audience; for the sky it sounds as if the sky were a show you attended."
+      },
+      {
+        "wrong": "食べて観る",
+        "right": "食べてみる",
+        "why": "The auxiliary ～てみる (\"try doing\") is written in kana, never with 見 or 観. It has nothing to do with watching."
+      },
+      {
+        "wrong": "目が悪いので、よく観ることができません。",
+        "right": "目が悪いので、よく見ることができません。",
+        "why": "Being able to see at all is 見る / 見える. 観る never covers eyesight."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is 観る a different word from 見る?",
+        "a": "No. Both are read みる and they are the same verb, conjugated the same way. The writer just picks a kanji that suits what the verb is doing in that sentence."
+      },
+      {
+        "q": "Do I have to write 映画を観る?",
+        "a": "No. 観 is not among the everyday jōyō readings the way 見 is, so newspapers, textbooks and plenty of ordinary writers use 見る for films too. 映画を見る is completely normal Japanese."
+      },
+      {
+        "q": "Which one do I need for the JLPT?",
+        "a": "見る. It is the N5 word you have to read and write; 観る appears in the wild but you are never required to produce it."
+      }
+    ],
+    "level": "n5"
+  },
+  {
+    "id": "vcmp-034",
+    "slug": "kiku-vs-kiku",
+    "title": "聞く vs 聴く",
+    "quickAnswer": "聞く and 聴く are the same word, きく — only the kanji differs. 聞く is the default: it covers hearing, listening, and also \"to ask\". 聴く is an optional spelling for listening attentively and on purpose — music, a lecture, someone's story taken seriously — and it can never mean \"to ask\". Writing 聞く everywhere is still correct.",
+    "summary": "聞く and 聴く are both きく: 聞く is the default and the only spelling for \"to ask\", 聴く an optional one for deliberate, attentive listening.",
+    "members": [
+      {
+        "word": "聞く",
+        "when": "The default spelling for every sense of きく: sound reaching your ears, listening in general, and asking a question. If you are unsure, use 聞く — it is the textbook spelling and is never wrong.",
+        "examples": [
+          {
+            "ja": "毎朝ラジオを聞きながら朝ごはんを食べます。",
+            "reading": "まいあさラジオをききながらあさごはんをたべます。",
+            "en": "Every morning I eat breakfast while listening to the radio."
+          },
+          {
+            "ja": "すみません、駅への道を聞いてもいいですか。",
+            "reading": "すみません、えきへのみちをきいてもいいですか。",
+            "en": "Excuse me, may I ask you the way to the station?"
+          }
+        ]
+      },
+      {
+        "word": "聴く",
+        "when": "Chosen when the listening is deliberate and focused — putting on music to listen to it, sitting through a lecture, hearing someone out. 聴 is the kanji of 聴講 and 傾聴; it is never used for sound that simply reaches you, and never for asking.",
+        "examples": [
+          {
+            "ja": "家で静かにクラシックを聴きます。",
+            "reading": "いえでしずかにクラシックをききます。",
+            "en": "I listen to classical music quietly at home."
+          },
+          {
+            "ja": "先生の講義を最後まで聴きました。",
+            "reading": "せんせいのこうぎをさいごまでききました。",
+            "en": "I listened to the professor's lecture right to the end."
+          }
+        ]
+      }
+    ],
+    "contrast": [
+      {
+        "ja": "交番で道を聞きました。",
+        "reading": "こうばんでみちをききました。",
+        "en": "I asked the way at the police box.",
+        "note": "\"To ask\" is only ever 聞く. This is the one clean rule here: 聴く can never replace it."
+      },
+      {
+        "ja": "隣の部屋から音が聞こえます。",
+        "reading": "となりのへやからおとがきこえます。",
+        "en": "I can hear a sound from the next room.",
+        "note": "Sound arriving on its own, with no intention behind it — 聞こえる is always written with 聞."
+      },
+      {
+        "ja": "ヘッドホンでゆっくり音楽を聴きます。",
+        "reading": "ヘッドホンでゆっくりおんがくをききます。",
+        "en": "I listen to music slowly on headphones.",
+        "note": "Sitting down to listen on purpose is where 聴く fits best, though 聞きます would also be fine."
+      },
+      {
+        "ja": "彼女の悩みを最後まで聴きました。",
+        "reading": "かのじょのなやみをさいごまでききました。",
+        "en": "I heard out her worries to the end.",
+        "note": "Taking someone's story seriously; the 聴 spelling signals the attention. 聞きました is still correct and more common."
+      }
+    ],
+    "mistakes": [
+      {
+        "wrong": "先生に宿題について聴きました。",
+        "right": "先生に宿題について聞きました。",
+        "why": "This sentence means \"I asked the teacher\", and asking is never 聴く. Learners who have decided 聴く is the polite or serious spelling put it here too — it simply does not exist in that meaning."
+      },
+      {
+        "wrong": "外で大きな音が聴こえました。",
+        "right": "外で大きな音が聞こえました。",
+        "why": "聞こえる is sound reaching you without your choosing it, which is the opposite of what 聴 means. It is always written 聞こえる."
+      },
+      {
+        "wrong": "音楽を聞くのは間違いだ。",
+        "right": "音楽を聞くのも聴くのも正しい。",
+        "why": "Learners are often told 聴く is \"the correct one for music\" and start treating 聞く as an error. 聴 is not among the everyday jōyō readings, so many writers use 聞く for everything, including music."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is 聴く a different word from 聞く?",
+        "a": "No. Both are read きく and conjugate identically (聞きます / 聴きます). It is one word with two kanji a writer can choose between."
+      },
+      {
+        "q": "Can 聴く mean \"to ask\"?",
+        "a": "Never. 道を聞く, 先生に聞く, 名前を聞く — all of these take 聞く only. If the sentence means asking, the spelling is decided for you."
+      },
+      {
+        "q": "Should I write 音楽を聴く or 音楽を聞く?",
+        "a": "Either. 聴く suits listening you sat down to do, but 聞く is standard everywhere and is what textbooks and the JLPT use. You never have to write 聴く."
+      }
+    ],
+    "level": "n5"
   }
 ]

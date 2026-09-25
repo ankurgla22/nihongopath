@@ -38,6 +38,7 @@ const ALLOWED = /[\u3000-\u303F\u3040-\u30FF\u31F0-\u31FF\u3400-\u4DBF\u4E00-\u9
 const foreign = (t) => { for (const ch of t || "") { if (/[A-Z]/.test(ch)) continue; if (!ALLOWED.test(ch)) return true; } return false; };
 
 const errors = [];
+const notes = [];
 const seenId = new Set();
 const seenSlug = new Set();
 const out = [];
@@ -59,7 +60,11 @@ for (const f of files) {
 
     if (!Array.isArray(c.members) || c.members.length < 2) errors.push(`${at}: needs >= 2 members`);
     else for (const m of c.members) {
-      if (!words.has(m.word)) errors.push(`${at}: "${m.word}" is not a word in the vocabulary content`);
+      // A member need not be a vocabulary entry of its own. 観る and 聴く are spelling variants of
+      // 見る and 聞く rather than separate words to teach, and inventing entries for them so a
+      // comparison could exist would put a wrong item in the course to satisfy a check. The page
+      // simply renders them without a "full entry" link.
+      if (!words.has(m.word)) notes.push(`${at}: "${m.word}" has no vocabulary entry — the page will not link to one`);
       if (!m.when) errors.push(`${at}: ${m.word} has no "when" rule`);
       if (!Array.isArray(m.examples) || m.examples.length < 1) errors.push(`${at}: ${m.word} needs an example`);
       for (const e of m.examples ?? []) checkExample(at, `${m.word} example`, e);
@@ -78,6 +83,8 @@ function checkExample(at, label, e) {
   if (/[\u4E00-\u9FFF]/.test(e.reading)) errors.push(`${at}: ${label} reading has kanji in it`);
   if (foreign(e.ja)) errors.push(`${at}: ${label} ja has stray non-Japanese text`);
 }
+
+for (const n of notes) console.log(`  note: ${n}`);
 
 if (errors.length) {
   console.error(`${errors.length} problem(s):\n  ` + errors.slice(0, 40).join("\n  "));
