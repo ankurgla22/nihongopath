@@ -26,6 +26,16 @@ export const SITE_DESCRIPTION =
 export const SITE_OPERATOR = { name: "Opusify IT Solutions", url: "https://opusify.co.in/" };
 
 /**
+ * Where data requests and privacy grievances go. On this hostname rather than the operator's
+ * generic contact page, because a privacy policy that offers only a company-wide contact form makes
+ * a data request indistinguishable from a sales enquiry — and the DPDP Act expects a grievance to
+ * have somewhere specific to land.
+ *
+ * This address must keep receiving mail for as long as the policy names it.
+ */
+export const PRIVACY_EMAIL = "privacy@nihongopath.app";
+
+/**
  * Date the site first published content (schema datePublished).
  * Content is continuously revised, so dateModified tracks the build instead.
  */

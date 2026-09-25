@@ -47,7 +47,7 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
 
   if (!user) {
     return (
-      <Link href={`/login?next=${encodeURIComponent(href)}`} className={`${base} ${outline}`}>
+      <Link rel="nofollow" href={`/login?next=${encodeURIComponent(href)}`} className={`${base} ${outline}`}>
         <CheckCircle filled={false} /> Sign in to track
       </Link>
     );

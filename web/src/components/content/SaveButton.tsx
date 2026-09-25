@@ -49,7 +49,7 @@ export function SaveButton({ contentId, type, title, href }: Props) {
 
   if (!user) {
     return (
-      <Link href={`/login?next=${encodeURIComponent(href)}`} className={`${base} ${idle}`} title="Sign in to save">
+      <Link rel="nofollow" href={`/login?next=${encodeURIComponent(href)}`} className={`${base} ${idle}`} title="Sign in to save">
         <BookmarkIcon filled={false} /> Save
       </Link>
     );

@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/content/JsonLd";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
 import { SESSION_DAYS } from "@/lib/firebase/session";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo/metadata";
-import { LAST_MODIFIED, SITE_NAME, SITE_OPERATOR, SITE_URL } from "@/lib/seo/site";
+import { LAST_MODIFIED, PRIVACY_EMAIL, SITE_NAME, SITE_OPERATOR, SITE_URL } from "@/lib/seo/site";
 
 export const metadata = pageMetadata({
   title: "Privacy policy",
@@ -51,8 +51,12 @@ export default function PrivacyPage() {
             <a href={SITE_OPERATOR.url} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
               {SITE_OPERATOR.name}
             </a>
-            , which is the data controller for everything described below &mdash; and, under Indian law, the Data Fiduciary. Questions, data requests and grievances all go
-            through the{" "}
+            , which is the data controller for everything described below &mdash; and, under Indian law, the Data Fiduciary. Questions about your data, requests to see or
+            remove it, and grievances go to{" "}
+            <a href={`mailto:${PRIVACY_EMAIL}`} className="font-medium text-accent hover:underline">
+              {PRIVACY_EMAIL}
+            </a>
+            . Anything else about the site can go through the{" "}
             <a href={`${SITE_OPERATOR.url}contact`} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
               {SITE_OPERATOR.name} contact page
             </a>
@@ -123,8 +127,7 @@ export default function PrivacyPage() {
             Your profile page has a <strong className="text-ink">Your data</strong> section with three controls. <em>Download my data</em> gives you everything listed
             above as a JSON file. <em>Reset my progress</em> clears what you have studied, either entirely or for one level, and keeps your account. <em>Delete my
             account</em> removes your sign-in and every record permanently. Each asks you to confirm your identity first, and deletion cannot be undone, so download your
-            data first if you want a copy. If you cannot reach the page for any reason, contact {SITE_OPERATOR.name} through the link at the top of this page from the
-            email address on the account.
+            data first if you want a copy. If you cannot reach the page for any reason, write to {PRIVACY_EMAIL} from the email address on the account.
           </p>
         </Section>
 
@@ -138,12 +141,12 @@ export default function PrivacyPage() {
           <p className="mt-4 leading-relaxed text-ink-2">
             The three controls described above answer the common requests immediately and without asking anyone: <strong className="text-ink">Download my data</strong> for
             access, <strong className="text-ink">Reset my progress</strong> for partial erasure and <strong className="text-ink">Delete my account</strong> for full erasure.
-            For anything those do not cover &mdash; a correction, a nomination, or a grievance &mdash; write to {SITE_OPERATOR.name} through its{" "}
-            <a href={`${SITE_OPERATOR.url}contact`} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
-              contact page
+            For anything those do not cover &mdash; a correction, a nomination, or a grievance &mdash; write to{" "}
+            <a href={`mailto:${PRIVACY_EMAIL}`} className="font-medium text-accent hover:underline">
+              {PRIVACY_EMAIL}
             </a>{" "}
-            from the email address on your account, saying that the request concerns {SITE_NAME}. That is the route for grievance redressal; if you are not satisfied with the
-            response you may complain to the Data Protection Board of India.
+            from the email address on your account. That is the route for grievance redressal; if you are not satisfied with the response you may complain to the Data
+            Protection Board of India.
           </p>
         </Section>
 
