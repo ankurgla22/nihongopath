@@ -17,6 +17,7 @@ import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { CURRICULUM_DAYS } from "@/lib/engine/progress";
 import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { unpackQuestionIndex } from "@/lib/questions/pack";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
 import { Arrow, Badge, Button, Callout, Card, PageTitle, ProgressBar } from "@/components/ui";
@@ -130,6 +131,11 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
   const [runIsDrill, setRunIsDrill] = useState(false);
   const runToken = useRef(0);
   const [advancing, setAdvancing] = useState(false);
+  /** The running task's card and the sticky day bar, so a starting quiz can be scrolled clear of both. */
+  const runningCardRef = useRef<HTMLLIElement>(null);
+  const dayBarRef = useRef<HTMLDivElement>(null);
+  /** Set when a task is opened programmatically (after "Mark done"), so we can scroll to it once rendered. */
+  const [scrollToId, setScrollToId] = useState<string | null>(null);
   /**
    * Tasks whose lesson link was opened this session; "Mark done" unlocks only after the lesson was visited.
    * Mirrored in sessionStorage because opening a lesson navigates away and the component remounts on return.
@@ -244,7 +250,23 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
     const idx = tasks.findIndex((t) => t.id === taskId);
     const next = tasks.slice(idx + 1).find((t) => !completedIds.has(t.id) && t.id !== taskId);
     setOpenId(next?.id ?? null);
+    // The finished card collapses and the next one opens further down, so bring it into view rather
+    // than letting the panel expand out from under the pointer.
+    setScrollToId(next?.id ?? null);
   };
+
+  useEffect(() => {
+    if (!scrollToId) return;
+    scrollUnderHeader(document.getElementById(`task-${scrollToId}`), dayBarRef.current);
+    setScrollToId(null);
+  }, [scrollToId]);
+
+  // Starting a quiz collapses the list to one task and drops the page title, so the document shrinks
+  // and the browser clamps the scroll past the runner. QuizRunner's own scroll skips first paint.
+  useEffect(() => {
+    if (!runningId || runState !== "ready") return;
+    scrollUnderHeader(runningCardRef.current, dayBarRef.current);
+  }, [runningId, runState]);
 
   const markDone = async (task: ClientTask) => {
     if (!user) return;
@@ -399,19 +421,22 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
         />
       )}
 
-      {/* Sticky summary bar */}
-      <div className={`sticky top-[var(--header-h,4rem)] z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5 ${runningTask ? "mt-6" : ""}`}>
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          <span className="font-semibold">Day {day.day}</span>
-          <span className="text-muted tabular-nums">
-            {doneCount} / {tasks.length} tasks
-          </span>
-          {allDone && <Badge tone="ok">Complete</Badge>}
-          <div className="min-w-[8rem] flex-1 basis-32">
-            <ProgressBar value={overall} size="sm" tone={allDone ? "ok" : "accent"} />
+      {/* Sticky summary bar. Hidden while a quiz runs: it sticks at the same offset as the runner's own
+          progress bar but above it, which would hide the "3 / 10" counter. */}
+      {!runningTask && (
+        <div ref={dayBarRef} className="sticky top-[var(--header-h,4rem)] z-10 -mx-4 sm:-mx-6 px-4 sm:px-6 py-2.5 glass border-y border-line mb-5">
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+            <span className="font-semibold">Day {day.day}</span>
+            <span className="text-muted tabular-nums">
+              {doneCount} / {tasks.length} tasks
+            </span>
+            {allDone && <Badge tone="ok">Complete</Badge>}
+            <div className="min-w-[8rem] flex-1 basis-32">
+              <ProgressBar value={overall} size="sm" tone={allDone ? "ok" : "accent"} />
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {userError && (
         <div className="mb-4">
@@ -424,7 +449,7 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
         </div>
       )}
 
-      <div className="space-y-5 min-w-0">
+      <div className={`space-y-5 min-w-0 ${runningTask ? "mt-6" : ""}`}>
         {loading ? (
           <div role="status" aria-live="polite">
             <span className="sr-only">Building today&apos;s plan, {name}…</span>
@@ -445,8 +470,16 @@ export function DailyStudyClient({ day, questionIndex: packedIndex, contentLinks
               const canMarkDone = linkedIds.length === 0 || visitedTaskIds.has(task.id);
               const lessonsPending = task.type === "quiz" && tasks.some((t) => isSkillTask(t.type) && !completedIds.has(t.id));
               return (
-                <li key={task.id} id={`task-${task.id}`} className="relative">
-                  <Card padding="p-0" className={`overflow-hidden transition ${done ? "border-ok/40" : open ? "border-accent/50 shadow-md" : ""}`}>
+                // scroll-mt clears the sticky header plus the day bar, so a /daily-study#task-<id> link
+                // from the dashboard does not land the heading behind them.
+                <li
+                  key={task.id}
+                  id={`task-${task.id}`}
+                  ref={running ? runningCardRef : undefined}
+                  className="relative scroll-mt-[calc(var(--header-h,4rem)+3.5rem)]"
+                >
+                  {/* overflow-hidden would stop the runner's sticky progress bar from sticking. */}
+                  <Card padding="p-0" className={`transition ${running ? "" : "overflow-hidden"} ${done ? "border-ok/40" : open ? "border-accent/50 shadow-md" : ""}`}>
                     <button
                       type="button"
                       onClick={() => setOpenId(open ? null : task.id)}

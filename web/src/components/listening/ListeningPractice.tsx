@@ -54,11 +54,17 @@ export function ListeningPractice({
   // Each step reveals a block further down the page — the transcript, then the vocabulary list —
   // while the step rail stays at the top. Without this, pressing "Review vocabulary" only changes
   // a heading and the list it refers to is a screen or more below, so the button looks dead.
+  // The transcript sits between the step heading and the vocabulary list, so scrolling to the heading
+  // for "Review vocabulary" would park the learner on the transcript: aim at the block the step reveals.
   const stepRef = useRef<HTMLElement>(null);
+  const transcriptRef = useRef<HTMLDivElement>(null);
+  const vocabRef = useRef<HTMLDivElement>(null);
   const painted = useRef(false);
   useEffect(() => {
     if (!painted.current) { painted.current = true; return; }
-    scrollUnderHeader(stepRef.current);
+    const current = STEPS[stepIdx];
+    const target = current === "Vocabulary" ? vocabRef.current : current === "Transcript" ? transcriptRef.current : stepRef.current;
+    scrollUnderHeader(target ?? stepRef.current);
   }, [stepIdx]);
   const next = () => go(stepIdx + 1);
 
@@ -178,10 +184,10 @@ export function ListeningPractice({
         )}
       </section>
 
-      <div hidden={!transcriptUnlocked} aria-hidden={!transcriptUnlocked}>
+      <div ref={transcriptRef} hidden={!transcriptUnlocked} aria-hidden={!transcriptUnlocked}>
         {transcript}
       </div>
-      <div hidden={!vocabUnlocked} aria-hidden={!vocabUnlocked}>
+      <div ref={vocabRef} hidden={!vocabUnlocked} aria-hidden={!vocabUnlocked}>
         {vocabulary}
       </div>
 

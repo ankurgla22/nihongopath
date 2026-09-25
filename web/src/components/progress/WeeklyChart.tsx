@@ -50,8 +50,11 @@ export function WeeklyChart({ series }: { series: WeekPoint[] }) {
           Quiz accuracy
         </span>
       </figcaption>
-      {/* The chart scrolls inside this box on narrow screens; the page itself never widens. */}
-      <div className="w-full max-w-full overflow-x-auto overflow-y-hidden no-scrollbar">
+      {/* The chart scrolls inside this box on narrow screens; the page itself never widens.
+          The scrollbar is left visible and the box is focusable, because the SVG inside is
+          aria-hidden: without either, a narrow screen hides the right-hand weeks with no
+          way to reach them by pointer or keyboard. */}
+      <div className="w-full max-w-full overflow-x-auto overflow-y-hidden" tabIndex={0} role="group" aria-label="Weekly study chart, scrollable">
         <svg viewBox={`0 0 ${W} ${H}`} className="block h-auto w-full" style={{ minWidth: `${Math.max(280, Math.min(W, n * 72))}px` }} aria-hidden="true" focusable="false" role="presentation">
           <defs>
             <linearGradient id={gradId} x1="0" y1="0" x2="0" y2="1">

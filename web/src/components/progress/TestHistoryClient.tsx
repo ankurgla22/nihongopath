@@ -114,7 +114,7 @@ export function TestHistoryClient() {
                       <span className="text-xs font-semibold tabular-nums">{q.score}/{q.total}</span>
                     </Ring>
                     <div className="min-w-0 flex-1">
-                      <h3 className="font-medium truncate">{q.title}</h3>
+                      <h3 className="font-medium break-words">{q.title}</h3>
                       <p className="text-sm text-muted mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-1">
                         <Badge tone={accuracyTone(q.accuracy)}>{kindLabel(q.kind)}</Badge>
                         <time dateTime={q.createdAt}>{formatDate(q.date)}</time>
@@ -139,7 +139,7 @@ export function TestHistoryClient() {
                       <span className="text-sm font-semibold tabular-nums">{Math.round(e.totalScaled)}</span>
                     </Ring>
                     <div className="min-w-0 flex-1">
-                      <h3 className="font-medium truncate" lang="ja">
+                      <h3 className="font-medium break-words" lang="ja">
                         {e.title}
                       </h3>
                       <p className="text-sm text-muted mt-0.5">

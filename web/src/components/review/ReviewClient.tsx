@@ -15,6 +15,7 @@ import type { SubmittedAnswer } from "@/lib/engine/scoring";
 import { curriculumDayFor } from "@/lib/engine/progress";
 import { fetchDrill, fetchQuestionsByIds } from "@/lib/questions/client";
 import { unpackQuestionIndex } from "@/lib/questions/pack";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import { isDrillable } from "@/lib/drill/generate";
 import { useAuth } from "@/components/auth/AuthProvider";
 import { useUserDoc } from "@/components/auth/useUserDoc";
@@ -144,9 +145,19 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
     void loadSession({ ids: picked.map((q) => q.id), drillIds, seed });
   };
 
+  // Leaving the session swaps the runner for the queue without moving the page, so the learner
+  // was left looking at blank space with the notice and the queue above the viewport.
+  const queueTopRef = useRef<HTMLDivElement>(null);
+  const [returns, setReturns] = useState(0);
+  useEffect(() => {
+    if (returns === 0) return;
+    scrollUnderHeader(queueTopRef.current);
+  }, [returns]);
+
   const closeSession = () => {
     sessionToken.current++;
     setSession(null);
+    setReturns((n) => n + 1);
   };
 
   const onComplete = async (answers: SubmittedAnswer[], seconds: number) => {
@@ -174,6 +185,7 @@ export function ReviewClient({ questionIndex: packedIndex, contentLinks }: Props
   return (
     <div className="pb-16">
       <PageTitle title="Review queue" />
+      <div ref={queueTopRef} aria-hidden />
 
       {error && (
         <div className="mb-4">

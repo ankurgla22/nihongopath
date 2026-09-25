@@ -66,9 +66,14 @@ export function SavedClient() {
 
   return (
     <div className="pb-12">
-      <p role="status" aria-live="polite" className={`text-sm text-muted ${notice ? "mb-4 rounded-xl border border-line bg-surface-2 px-4 py-2.5 animate-rise" : "sr-only"}`}>
-        {notice ?? ""}
-      </p>
+      {/* The slot keeps its height whether or not there is a notice: growing from nothing to a
+          bordered box after a Remove would push the list down and slide the next Remove button
+          under the finger that just tapped. */}
+      <div className="mb-4 min-h-[2.75rem]">
+        <p role="status" aria-live="polite" className={`text-sm text-muted ${notice ? "rounded-xl border border-line bg-surface-2 px-4 py-2.5 animate-rise" : "sr-only"}`}>
+          {notice ?? ""}
+        </p>
+      </div>
       {items.length === 0 ? (
         <EmptyState
           title="Nothing saved yet"

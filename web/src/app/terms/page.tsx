@@ -42,8 +42,9 @@ export default function TermsPage() {
       id: "content",
       title: "Content",
       body: [
-        `The lessons, exercises, questions, audio scripts and site design belong to ${SITE_OPERATOR.name}. You may read them, quote short passages with a link to the source lesson, and use them for your own study. You may not republish the content as a whole or sell it.`,
-        "Example sentences are original. The JLPT name and test format belong to the Japan Foundation and Japan Educational Exchanges and Services; this site is not affiliated with them, and mock exams here are practice material, not official tests.",
+        `Except for the third-party material described next, the lessons, exercises, questions, audio scripts and site design belong to ${SITE_OPERATOR.name}. You may read them, quote short passages with a link to the source lesson, and use them for your own study. You may not republish the content as a whole or sell it.`,
+        "The course is built on freely licensed Japanese language data. Word readings and meanings are taken from and checked against JMdict and KANJIDIC2, published by the Electronic Dictionary Research and Development Group, and a minority of the example sentences derive from the Tatoeba corpus; both are used under their Creative Commons licences and remain the work of their contributors. The lesson text, explanations and the remaining sentences are written for this site.",
+        "The JLPT name and test format belong to the Japan Foundation and Japan Educational Exchanges and Services, and this site is not affiliated with or endorsed by them. The mock exams here are original practice material written for this site: they follow the published format, but they are not official tests and are not reproductions of past papers.",
       ],
     },
     {

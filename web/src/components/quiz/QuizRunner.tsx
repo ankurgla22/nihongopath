@@ -248,12 +248,22 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   // or under the sticky bars: four options on screen with nothing saying what they answer.
   const progressRef = useRef<HTMLDivElement>(null);
   const bodyRef = useRef<HTMLDivElement>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
+  const revealRef = useRef<HTMLDivElement>(null);
   const settled = useRef(false);
   useEffect(() => {
-    if (finished) return;
     if (!settled.current) { settled.current = true; return; } // don't yank the page on first paint
-    scrollUnderHeader(bodyRef.current, progressRef.current);
+    // Finishing swaps the whole card for the result screen, which is shorter than the question it
+    // replaces, so without this the score can render above the learner's scroll position.
+    if (finished) scrollUnderHeader(resultRef.current);
+    else scrollUnderHeader(bodyRef.current, progressRef.current);
   }, [index, finished]);
+
+  // Practice mode disables every option once answered, so focus falls to <body> and a screen
+  // reader never hears the explanation that just appeared. Park focus on it instead.
+  useEffect(() => {
+    if (revealed) revealRef.current?.focus();
+  }, [revealed]);
 
   useEffect(() => {
     if (finished || !q) return;
@@ -339,7 +349,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
       g.items.push({ a, wq, n: i + 1 });
     });
     return (
-      <div className="surface rounded-2xl p-5 sm:p-7 animate-rise" role="status" aria-live="polite">
+      <div ref={resultRef} className="surface rounded-2xl p-5 sm:p-7 animate-rise" role="status" aria-live="polite">
         <div className="flex flex-col items-center gap-5 sm:flex-row sm:items-center">
           <Ring value={accuracy} size={132} stroke={11} tone={tone} label="Score">
             <div>
@@ -424,9 +434,11 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   const dense = total > 20;
 
   return (
-    <div className="surface rounded-2xl overflow-hidden">
+    // No overflow-hidden: it makes this card a scroll container, so the progress bar below sticks
+    // to the card instead of the viewport and never pins. The corners are rounded per child.
+    <div className="surface rounded-2xl">
       {/* Sticky progress */}
-      <div ref={progressRef} className="sticky top-[var(--header-h,4rem)] z-[5] border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
+      <div ref={progressRef} className="sticky top-[var(--header-h,4rem)] z-[5] rounded-t-2xl border-b border-line bg-bg-elev px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between gap-x-4">
           <span className="sr-only">{title}</span>
           <span className="text-sm font-semibold tabular-nums" aria-live="polite">
@@ -447,7 +459,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
         </div>
       </div>
 
-      <div ref={bodyRef} className="p-4 sm:p-6">
+      <div ref={bodyRef} className="rounded-b-2xl p-4 sm:p-6">
         {restored && index > 0 && (
           <p className="rounded-lg border border-line bg-surface-2 px-3 py-2 text-xs text-muted" role="status">
             Resumed from question {index + 1} — your earlier answers were kept.
@@ -523,7 +535,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
         )}
 
         {revealed && (
-          <div className="mt-4 animate-rise">
+          <div ref={revealRef} tabIndex={-1} role="status" className="mt-4 animate-rise focus:outline-none">
             <Callout tone={isCorrect ? "ok" : "warn"} icon={isCorrect ? <CheckIcon className="text-ok" /> : <CrossIcon className="text-warn" />} title={isCorrect ? "Correct" : "Not quite"}>
               <p>{q.explanation}</p>
               {!perOption && wrongNotes.length > 0 && (

@@ -110,6 +110,14 @@ rt {
   border-radius: 6px;
 }
 
+/* A focus ring drawn 3px outside the element is clipped away by any ancestor with
+   `overflow: hidden`, which every rounded list card here has — so tabbing through search results
+   or saved items showed a sliced ring, or none at all on the first and last row. Rows that fill
+   such a card draw the ring just inside themselves instead, where nothing can cut it off. */
+.focus-inset:focus-visible {
+  outline-offset: -2px;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -262,12 +270,22 @@ rt {
     padding: 0.75rem 1rem;
     border-radius: var(--radius-lg);
   }
+  /* The headword and its reading stay on one line — they are short, and a wrapped headword reads
+     as two words. The meaning does not: these cards sit 3-4 across inside a 46rem container, so
+     ellipsising it showed "to be de…" and the index stopped being readable as a list. */
   .vcard b,
-  .vcard i,
-  .vcard span {
+  .vcard i {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .vcard span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    overflow-wrap: anywhere;
   }
   .vcard b {
     grid-area: 1 / 1;
@@ -292,23 +310,9 @@ rt {
     font-size: 0.875rem;
     color: var(--ink-2);
   }
-  /* The word itself is the play target (tap to hear it); the rest of the card opens the entry. */
-  .vcard b[data-speak] {
-    cursor: pointer;
-    border-radius: 0.375rem;
-    text-decoration: underline dotted color-mix(in srgb, var(--muted) 60%, transparent);
-    text-underline-offset: 0.2em;
-  }
-  .vcard b[data-speak]:hover {
-    text-decoration-color: var(--accent);
-  }
-  .vcard b[data-speak]:focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-  .vcard b[data-speak][aria-pressed="true"] {
-    color: var(--accent);
-  }
+  /* The play control used to be the headword itself, a role="button" inside the card's link —
+     invalid nesting that gave keyboard users two stops per card. It is now a real button in the
+     card's top-right corner, styled where it is declared, so no rules for it live here. */
 
   /* Grammar */
   .ggrid {
@@ -440,9 +444,14 @@ rt {
     line-height: 1.25;
     text-align: center;
     color: var(--muted);
-    white-space: nowrap;
+    /* Four columns at 360px leaves each tile about 76px, and a single ellipsised line rendered
+       most meanings as two or three characters. Two lines fit inside the square tile. */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
     overflow: hidden;
-    text-overflow: ellipsis;
+    overflow-wrap: anywhere;
   }
 
   @media (min-width: 640px) {

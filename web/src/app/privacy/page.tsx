@@ -51,7 +51,8 @@ export default function PrivacyPage() {
             <a href={SITE_OPERATOR.url} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
               {SITE_OPERATOR.name}
             </a>
-            , which is the data controller for everything described below. Questions and requests go through the{" "}
+            , which is the data controller for everything described below &mdash; and, under Indian law, the Data Fiduciary. Questions, data requests and grievances all go
+            through the{" "}
             <a href={`${SITE_OPERATOR.url}contact`} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
               {SITE_OPERATOR.name} contact page
             </a>
@@ -110,6 +111,11 @@ export default function PrivacyPage() {
             account data above. These services are provided by Google LLC and the data is stored in Google&rsquo;s us-central1 region in the United States. If you sign in with
             Google, Google shares your name, email address and profile photo with the site under Google&rsquo;s own privacy policy.
           </p>
+          <p className="mt-4 leading-relaxed text-ink-2">
+            That means your account data is processed outside the country you are reading from, including outside India. Google LLC processes it on {SITE_OPERATOR.name}&rsquo;s
+            instructions to run the service, under Google&rsquo;s Cloud data processing terms; it is not transferred to anyone else. If you would rather your data were not
+            stored in the United States, read the lessons without an account &mdash; nothing on this site requires one.
+          </p>
         </Section>
 
         <Section id="rights" title="Downloading, resetting and deleting your data">
@@ -119,6 +125,25 @@ export default function PrivacyPage() {
             account</em> removes your sign-in and every record permanently. Each asks you to confirm your identity first, and deletion cannot be undone, so download your
             data first if you want a copy. If you cannot reach the page for any reason, contact {SITE_OPERATOR.name} through the link at the top of this page from the
             email address on the account.
+          </p>
+        </Section>
+
+        <Section id="india" title="If you are in India">
+          <p className="leading-relaxed text-ink-2">
+            {SITE_OPERATOR.name} is registered in India, so the Digital Personal Data Protection Act, 2023 applies to the account data described above. Under it{" "}
+            {SITE_OPERATOR.name} is the Data Fiduciary and you are the Data Principal. You may ask what personal data is held about you and who it has been shared with, ask
+            for it to be corrected or completed, ask for it to be erased, nominate someone to exercise these rights on your behalf if you die or become incapacitated, and
+            raise a grievance about any of it.
+          </p>
+          <p className="mt-4 leading-relaxed text-ink-2">
+            The three controls described above answer the common requests immediately and without asking anyone: <strong className="text-ink">Download my data</strong> for
+            access, <strong className="text-ink">Reset my progress</strong> for partial erasure and <strong className="text-ink">Delete my account</strong> for full erasure.
+            For anything those do not cover &mdash; a correction, a nomination, or a grievance &mdash; write to {SITE_OPERATOR.name} through its{" "}
+            <a href={`${SITE_OPERATOR.url}contact`} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
+              contact page
+            </a>{" "}
+            from the email address on your account, saying that the request concerns {SITE_NAME}. That is the route for grievance redressal; if you are not satisfied with the
+            response you may complain to the Data Protection Board of India.
           </p>
         </Section>
 

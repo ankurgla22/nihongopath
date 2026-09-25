@@ -93,23 +93,35 @@ export function AudioPlayer({
   const [rate, setRate] = useState<Rate>(1);
   const [shadowToggle, setShadowToggle] = useState(false);
   const shadowing = minimal ? false : (shadowingProp ?? shadowToggle);
+  /** A missing or broken recording otherwise left a silent player with nothing to explain it. */
+  const [srcFailed, setSrcFailed] = useState(false);
+  useEffect(() => {
+    setSrcFailed(false);
+  }, [audioSrc]);
 
   // A recording is used for listening; shadowing still goes line by line through speech
   // synthesis, because it needs to pause after each line, which a single file cannot do.
-  if (audioSrc && !shadowing) {
-    return <FileAudio src={audioSrc} rate={rate} setRate={setRate} label={label} minimal={minimal} />;
+  if (audioSrc && !shadowing && !srcFailed) {
+    return <FileAudio src={audioSrc} rate={rate} setRate={setRate} label={label} minimal={minimal} onFail={() => setSrcFailed(true)} />;
   }
   return (
-    <TtsAudio
-      lines={lines}
-      rate={rate}
-      setRate={setRate}
-      shadowing={shadowing}
-      setShadowing={!minimal && shadowingProp === undefined ? setShadowToggle : undefined}
-      showLines={showLines}
-      label={label}
-      minimal={minimal}
-    />
+    <>
+      {srcFailed && (
+        <p className="mb-3 rounded-xl border border-warn/30 bg-warn-soft px-4 py-3 text-sm leading-relaxed text-ink-2">
+          The recording could not be loaded. Your browser reads the script aloud instead.
+        </p>
+      )}
+      <TtsAudio
+        lines={lines}
+        rate={rate}
+        setRate={setRate}
+        shadowing={shadowing}
+        setShadowing={!minimal && shadowingProp === undefined ? setShadowToggle : undefined}
+        showLines={showLines}
+        label={label}
+        minimal={minimal}
+      />
+    </>
   );
 }
 
@@ -150,14 +162,14 @@ function LineProgress({ total, current, status }: { total: number; current: numb
   );
 }
 
-function FileAudio({ src, rate, setRate, label, minimal }: { src: string; rate: Rate; setRate: (r: Rate) => void; label: string; minimal: boolean }) {
+function FileAudio({ src, rate, setRate, label, minimal, onFail }: { src: string; rate: Rate; setRate: (r: Rate) => void; label: string; minimal: boolean; onFail: () => void }) {
   const ref = useRef<HTMLAudioElement>(null);
   useEffect(() => {
     if (ref.current) ref.current.playbackRate = rate;
   }, [rate]);
   return (
     <div className="glass border border-line rounded-2xl shadow-sm p-4 sm:p-5 space-y-3">
-      <audio ref={ref} controls preload="metadata" src={src} className="w-full" aria-label={label}>
+      <audio ref={ref} controls preload="metadata" src={src} className="w-full" aria-label={label} onError={onFail}>
         Your browser does not support audio playback.
       </audio>
       <div className="flex flex-wrap items-center gap-2">
@@ -363,12 +375,11 @@ function TtsAudio({
             Replay
           </button>
         )}
-        {busy && (
-          <button type="button" className={ctlSecondary} onClick={stop}>
-            <IconStop />
-            Stop
-          </button>
-        )}
+        {/* Always rendered, disabled when idle: appearing on play shifted the controls beside it. */}
+        <button type="button" className={ctlSecondary} onClick={stop} disabled={!busy}>
+          <IconStop />
+          Stop
+        </button>
         {setShadowing && (
           <button
             type="button"
@@ -395,17 +406,23 @@ function TtsAudio({
         </p>
       )}
 
-      {showLines && current >= 0 && (
-        <div className="border-t border-line pt-4 flex items-start gap-3">
-          <span aria-hidden className="ja shrink-0 h-8 w-8 rounded-full bg-accent-soft text-accent-ink grid place-items-center text-xs font-semibold">
-            {lines[current].speaker.trim().charAt(0)}
-          </span>
-          <div className="min-w-0">
-            <p lang="ja" className="ja text-[11px] text-muted">{lines[current].speaker}</p>
-            <p lang="ja" className="ja text-lg sm:text-xl leading-relaxed text-ink">
-              {lines[current].line}
-            </p>
-          </div>
+      {/* The block keeps its height between lines: without it every line start and end moved the
+          controls and the whole page below them. */}
+      {showLines && (
+        <div className="border-t border-line pt-4 flex items-start gap-3 min-h-[4.5rem]">
+          {current >= 0 && (
+            <>
+              <span aria-hidden className="ja shrink-0 h-8 w-8 rounded-full bg-accent-soft text-accent-ink grid place-items-center text-xs font-semibold">
+                {lines[current].speaker.trim().charAt(0)}
+              </span>
+              <div className="min-w-0">
+                <p lang="ja" className="ja text-[11px] text-muted">{lines[current].speaker}</p>
+                <p lang="ja" className="ja text-lg sm:text-xl leading-relaxed text-ink">
+                  {lines[current].line}
+                </p>
+              </div>
+            </>
+          )}
         </div>
       )}
     </div>

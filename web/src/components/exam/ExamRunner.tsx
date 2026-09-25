@@ -49,6 +49,35 @@ type Screen = "start" | "running" | "break" | "confirm-submit" | "saving" | "err
 
 const WARN_AT = [300, 60] as const;
 
+/**
+ * Focus handling for the two modal overlays (question navigator, submit confirmation): the panel
+ * takes focus when it opens, Escape closes it, and focus returns to whatever opened it.
+ * Returns the ref to put on the panel element (which needs tabIndex={-1}).
+ */
+function useModalPanel(open: boolean, onClose: () => void) {
+  const panelRef = useRef<HTMLDivElement>(null);
+  const openerRef = useRef<HTMLElement | null>(null);
+  // Held in a ref so a new closure on every render does not re-run the effect and steal focus back.
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
+  useEffect(() => {
+    if (!open) return;
+    openerRef.current = document.activeElement as HTMLElement | null;
+    panelRef.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      e.preventDefault();
+      closeRef.current();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      openerRef.current?.focus();
+    };
+  }, [open]);
+  return panelRef;
+}
+
 function readSaved(key: string, examId: string): SavedState | null {
   try {
     const raw = localStorage.getItem(key);
@@ -385,8 +414,14 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
   const firstPaint = useRef(true);
   useEffect(() => {
     if (firstPaint.current) { firstPaint.current = false; return; }
+    // The submit confirmation is an overlay: the paper underneath it does not move, so scrolling
+    // it would only animate the page behind the scrim.
+    if (screen === "confirm-submit") return;
     scrollUnderHeader(questionRef.current, examBarRef.current);
   }, [questionIndex, sectionIndex, screen]);
+
+  const navPanelRef = useModalPanel(navOpen, () => setNavOpen(false));
+  const confirmPanelRef = useModalPanel(screen === "confirm-submit", () => setScreen("running"));
 
   const goTo = useCallback(
     (idx: number) => {
@@ -875,14 +910,15 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
           </Card>
 
           <nav aria-label="Question navigator" className="order-2 hidden lg:block">
-            <Card padding="p-4" className="sticky top-[7.5rem]">
+            {/* Clears the site header plus the exam bar below it, both of which are pinned. */}
+            <Card padding="p-4" className="sticky top-[calc(var(--header-h,4rem)+4.5rem)]">
               {navigator}
             </Card>
           </nav>
         </div>
 
         {navOpen && (
-          <div role="dialog" aria-modal="true" aria-label="Question navigator" className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-0 sm:p-4 lg:hidden">
+          <div ref={navPanelRef} tabIndex={-1} role="dialog" aria-modal="true" aria-label="Question navigator" className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-0 sm:p-4 lg:hidden focus:outline-none">
             <button type="button" className="absolute inset-0 cursor-default" aria-label="Close navigator" onClick={() => setNavOpen(false)} />
             <Card className="relative w-full sm:max-w-md rounded-b-none sm:rounded-b-2xl max-h-[80vh] overflow-y-auto animate-rise" padding="p-5">
               <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-line-strong sm:hidden" aria-hidden />
@@ -897,7 +933,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
         )}
 
         {screen === "confirm-submit" && (
-          <div role="dialog" aria-modal="true" aria-labelledby="submit-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 p-4">
+          <div ref={confirmPanelRef} tabIndex={-1} role="dialog" aria-modal="true" aria-labelledby="submit-title" className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 p-4 focus:outline-none">
             <Card className="w-full max-w-md shadow-lg animate-rise">
               <h2 id="submit-title" className="text-lg font-semibold">
                 {lastSection ? "Submit the exam?" : "Submit this section?"}

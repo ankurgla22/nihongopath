@@ -11,7 +11,7 @@
  * Vocabulary items keep `data-filter-text` so a filter can hide them in place.
  */
 import Link from "next/link";
-import { useEffect, useState, type KeyboardEvent, type MouseEvent, type SyntheticEvent } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import { speakJapanese, speechSupported, stopSpeaking } from "@/lib/speech";
 
 /** [slug, order, word, reading, meaning, pos] */
@@ -23,16 +23,17 @@ export type KanjiCard = [slug: string, character: string, meaning: string, enric
 
 /**
  * One delegated handler for every tap-to-play word in the list (no per-card React state).
- * The word sits inside the card link, so playing it must not also navigate.
+ * The play control is a button beside the card link, not inside it, so a card is one tab stop
+ * and the browser's own Enter/Space handling on the button is enough — no key handler here.
  */
-function playFromEvent(e: SyntheticEvent<HTMLUListElement>) {
+function onSpeakClick(e: MouseEvent<HTMLUListElement>) {
   const el = (e.target as HTMLElement).closest<HTMLElement>("[data-speak]");
-  if (!el) return false;
+  if (!el) return;
   e.preventDefault();
   if (el.getAttribute("aria-pressed") === "true") {
     stopSpeaking();
     el.setAttribute("aria-pressed", "false");
-    return true;
+    return;
   }
   // Starting a new utterance cancels the previous one, whose onEnd is token-guarded and never fires:
   // reset any other pressed word in this list so its state does not go stale.
@@ -41,16 +42,15 @@ function playFromEvent(e: SyntheticEvent<HTMLUListElement>) {
     onStart: () => el.setAttribute("aria-pressed", "true"),
     onEnd: () => el.setAttribute("aria-pressed", "false"),
   });
-  return true;
 }
 
-function onSpeakClick(e: MouseEvent<HTMLUListElement>) {
-  playFromEvent(e);
-}
-
-function onSpeakKey(e: KeyboardEvent<HTMLUListElement>) {
-  if (e.key !== "Enter" && e.key !== " ") return;
-  playFromEvent(e);
+function SpeakerIcon() {
+  return (
+    <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M11 5 6 9H3v6h3l5 4z" />
+      <path d="M15.5 8.5a5 5 0 0 1 0 7" />
+    </svg>
+  );
 }
 
 export function VocabCards({ base, items }: { base: string; items: VocabCard[] }) {
@@ -60,20 +60,26 @@ export function VocabCards({ base, items }: { base: string; items: VocabCard[] }
   // would otherwise keep reading it over the next page.
   useEffect(() => () => stopSpeaking(), []);
   return (
-    <ul className="vgrid" onClick={onSpeakClick} onKeyDown={onSpeakKey} data-nospeech={speech ? undefined : ""}>
+    <ul className="vgrid" onClick={onSpeakClick} data-nospeech={speech ? undefined : ""}>
       {items.map(([slug, , word, reading, meaning, pos]) => (
         <li key={slug} data-filter-text={`${word} ${reading} ${meaning} ${pos}`.toLowerCase()}>
-          <Link href={`${base}/${slug}`} prefetch={false} className="vcard">
-            {speech ? (
-              <b lang="ja" data-speak={word} role="button" tabIndex={0} aria-label={`Play ${word}`} aria-pressed="false">
-                {word}
-              </b>
-            ) : (
-              <b lang="ja">{word}</b>
-            )}
+          {/* `pr-9` reserves the corner the play button sits in; `.vgrid > li` is already positioned. */}
+          <Link href={`${base}/${slug}`} prefetch={false} className={speech ? "vcard pr-9" : "vcard"}>
+            <b lang="ja">{word}</b>
             {reading !== word && <i lang="ja">{reading}</i>}
             <span>{meaning}</span>
           </Link>
+          {speech && (
+            <button
+              type="button"
+              data-speak={word}
+              aria-label={`Play ${word}`}
+              aria-pressed="false"
+              className="absolute right-1.5 top-1.5 z-[1] grid h-7 w-7 place-items-center rounded-md text-muted transition hover:text-accent focus:outline-none focus-visible:shadow-ring aria-[pressed=true]:text-accent"
+            >
+              <SpeakerIcon />
+            </button>
+          )}
         </li>
       ))}
     </ul>

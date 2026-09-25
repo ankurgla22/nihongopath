@@ -36,6 +36,8 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   // Declared above the early return: hooks must run in the same order on every render.
   // The Next button sits below the options, so the viewport is always parked low when it fires
   // and the new question would render above the fold. Bring it back under the header.
+  // The ref is on both the question card and the result card, which are different elements: with it
+  // on the question card alone the final "See result" step scrolled nothing.
   const cardRef = useRef<HTMLDivElement>(null);
   const painted = useRef(false);
   useEffect(() => {
@@ -72,7 +74,7 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   if (finished) {
     const pct = Math.round((correctCount / questions.length) * 100);
     return (
-      <div className="surface rounded-2xl p-5 sm:p-6 animate-rise" role="status">
+      <div ref={cardRef} className="surface rounded-2xl p-5 sm:p-6 animate-rise" role="status">
         <div className="flex flex-col sm:flex-row sm:items-center gap-5">
           <ScoreRing pct={pct} />
           <div className="min-w-0">

@@ -209,7 +209,7 @@ export function TestResultClient({ id }: { id: string }) {
               <p className="text-xs text-muted mt-1">of {result.total}</p>
             </div>
           </Ring>
-          <div className="grid flex-1 grid-cols-3 gap-2 sm:gap-3">
+          <div className="grid flex-1 grid-cols-1 gap-2 sm:grid-cols-3 sm:gap-3">
             <Stat label="Accuracy" value={pct(result.accuracy)} tone={result.accuracy >= 0.8 ? "ok" : "neutral"} />
             <Stat label="Time" value={formatSeconds(result.seconds)} />
             <Stat label="Mistakes" value={wrongCount} tone={wrongCount === 0 ? "ok" : "neutral"} />

@@ -182,12 +182,13 @@ export default function SearchPage({ searchParams }: { searchParams: Record<stri
               <ul className="mt-3 surface rounded-2xl divide-y divide-line overflow-hidden">
                 {g.hits.map((h) => (
                   <li key={h.href}>
-                    <Link href={h.href} className="group flex items-center gap-4 px-4 sm:px-5 py-3.5 hover:bg-surface-2 transition">
+                    <Link href={h.href} className="focus-inset group flex items-center gap-4 px-4 sm:px-5 py-3.5 hover:bg-surface-2 transition">
                       <span className="min-w-0 flex-1">
                         <span lang="ja" className="ja font-medium text-lg block leading-snug">
                           {h.title}
                         </span>
-                        {h.subtitle && <span className="text-sm text-muted block truncate mt-0.5">{h.subtitle}</span>}
+                        {/* The subtitle is the text the query matched, so it is the one thing on the row worth a second line. */}
+                        {h.subtitle && <span className="text-sm text-muted block line-clamp-2 mt-0.5">{h.subtitle}</span>}
                       </span>
                       {h.level && <Badge tone="accent">{LEVEL_LABEL[h.level]}</Badge>}
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="h-4 w-4 text-muted shrink-0 transition-transform group-hover:translate-x-0.5">

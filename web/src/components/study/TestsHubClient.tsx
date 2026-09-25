@@ -4,7 +4,8 @@
  * Each launches the QuizRunner and saves through completeQuiz with the right kind.
  */
 import Link from "next/link";
-import { useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import type { Level, PackedQuestionIndex, Question } from "@/lib/content/schemas";
 import { SKILLS, todayISO, type QuizKind, type Skill } from "@/lib/firestore/types";
 import { completeQuiz } from "@/lib/study/service";
@@ -49,6 +50,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
   const today = todayISO();
   const [launch, setLaunch] = useState<Launch | null>(null);
   const launchToken = useRef(0);
+  const rootRef = useRef<HTMLDivElement>(null);
 
   const currentDay = userDoc ? curriculumDayFor(userDoc) : 1;
   const phase = phaseForDay(currentDay, phases);
@@ -101,6 +103,18 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
     setLaunch(null);
   };
 
+  // A quiz started from the bottom of the hub replaces the whole page with the runner, and closing it
+  // puts the hub back: in both directions the scroll position belongs to the content that just went.
+  const launchPhase = launch ? launch.status : "closed";
+  const painted = useRef(false);
+  useEffect(() => {
+    if (!painted.current) {
+      painted.current = true;
+      return;
+    }
+    if (launchPhase === "ready" || launchPhase === "closed") scrollUnderHeader(rootRef.current);
+  }, [launchPhase]);
+
   const onComplete = async (answers: SubmittedAnswer[], seconds: number) => {
     if (!user || !launch) return;
     await completeQuiz({
@@ -148,7 +162,7 @@ export function TestsHubClient({ questionIndex: packedIndex, contentLinks, phase
   ];
 
   return (
-    <div className="pb-16">
+    <div ref={rootRef} className="pb-16">
       <PageTitle title="Take a test" />
       {error && (
         <div className="mb-4">

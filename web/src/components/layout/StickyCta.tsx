@@ -22,15 +22,22 @@ export function StickyCta({ watchId, href = "/signup", label = "Start the daily 
   if (user) return null;
 
   return (
-    <div
-      // `invisible` (visibility:hidden) removes the bar and its button from the tab order and the
-      // accessibility tree while hidden; aria-hidden alone left a focusable link inside a hidden element.
-      className={`md:hidden fixed inset-x-0 bottom-0 z-30 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 glass border-t border-line/80 transition-transform duration-200 ${show ? "translate-y-0" : "translate-y-full invisible"}`}
-    >
-      <Button href={href} className="w-full" size="lg">
-        {label}
-        <Arrow />
-      </Button>
-    </div>
+    <>
+      {/* The bar is fixed, so it sits over whatever ends the page — on the home page that is the
+          last wrapped row of footer links. This spacer is in flow at the end of the document and
+          reserves exactly the bar's height while it is showing, and nothing on desktop or while
+          the bar is off screen. */}
+      <div aria-hidden className={`md:hidden transition-[height] duration-200 ${show ? "h-[calc(3rem+0.75rem+max(0.75rem,env(safe-area-inset-bottom)))]" : "h-0"}`} />
+      <div
+        // `invisible` (visibility:hidden) removes the bar and its button from the tab order and the
+        // accessibility tree while hidden; aria-hidden alone left a focusable link inside a hidden element.
+        className={`md:hidden fixed inset-x-0 bottom-0 z-30 px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-3 glass border-t border-line/80 transition-transform duration-200 ${show ? "translate-y-0" : "translate-y-full invisible"}`}
+      >
+        <Button href={href} className="w-full" size="lg">
+          {label}
+          <Arrow />
+        </Button>
+      </div>
+    </>
   );
 }

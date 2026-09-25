@@ -16,7 +16,8 @@ export function formatClock(totalSeconds: number): string {
   const h = Math.floor(s / 3600);
   const m = Math.floor((s % 3600) / 60);
   const sec = s % 60;
-  const mm = h > 0 ? String(m).padStart(2, "0") : String(m);
+  // Always two digits: a one-digit minute narrows the timer pill and shifts the buttons beside it.
+  const mm = String(m).padStart(2, "0");
   return `${h > 0 ? `${h}:` : ""}${mm}:${String(sec).padStart(2, "0")}`;
 }
 

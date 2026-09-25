@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useId, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { Button, Callout, Card } from "@/components/ui";
 import { changeEmail, changePassword, reauthNeeds, sendVerification } from "./accountActions";
 import { friendlyAuthError } from "./authErrors";
@@ -42,6 +42,18 @@ export function SecuritySection() {
   const confirmId = useId();
   const emailId = useId();
   const emailPwId = useId();
+  const msgRef = useRef<HTMLDivElement>(null);
+  const verifyMsgRef = useRef<HTMLDivElement>(null);
+  // Set only where a successful submit collapses its panel. That unmounts the button that had
+  // focus, so focus would fall back to the document and the next Tab would start at the top of
+  // the page, while the answer to "did that work?" sits where the panel used to be.
+  const [focusTarget, setFocusTarget] = useState<"msg" | "verify" | null>(null);
+
+  useEffect(() => {
+    if (!focusTarget) return;
+    (focusTarget === "msg" ? msgRef : verifyMsgRef).current?.focus();
+    setFocusTarget(null);
+  }, [focusTarget]);
 
   useEffect(() => {
     if (!user) return;
@@ -85,6 +97,7 @@ export function SecuritySection() {
       await changeEmail(user, emailPw || undefined, target);
       setVerifyMsg({ tone: "ok", text: `Check ${target} for a confirmation link. Your address changes only after you open it, and you sign in with the new address from then on.` });
       setEmailOpen(false);
+      setFocusTarget("verify");
       setNewEmail("");
       setEmailPw("");
     } catch (err) {
@@ -110,6 +123,7 @@ export function SecuritySection() {
       setNext("");
       setConfirm("");
       setOpen(false);
+      setFocusTarget("msg");
     } catch (err) {
       setMsg({ tone: "warn", text: friendlyAuthError(err) });
     } finally {
@@ -176,8 +190,10 @@ export function SecuritySection() {
               </div>
             </div>
           )}
+          {/* Errors are announced assertively: a polite live region can be held back until the
+              user stops interacting, and "that address is already yours" needs to land now. */}
           {verifyMsg && (
-            <div role="status" className="mt-3">
+            <div ref={verifyMsgRef} tabIndex={-1} role={verifyMsg.tone === "warn" ? "alert" : "status"} className="mt-3 outline-none">
               <Callout tone={verifyMsg.tone}>{verifyMsg.text}</Callout>
             </div>
           )}
@@ -236,7 +252,7 @@ export function SecuritySection() {
           )}
 
           {msg && (
-            <div role="status" className="mt-3">
+            <div ref={msgRef} tabIndex={-1} role={msg.tone === "warn" ? "alert" : "status"} className="mt-3 outline-none">
               <Callout tone={msg.tone}>{msg.text}</Callout>
             </div>
           )}

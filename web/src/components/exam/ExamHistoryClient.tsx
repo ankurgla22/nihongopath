@@ -88,7 +88,7 @@ export function ExamHistoryClient() {
                         <p className="text-[11px] uppercase tracking-[0.14em] text-muted">Mock exam #{n}</p>
                         <PassBadge result={r} />
                       </div>
-                      <h2 className="mt-0.5 text-lg font-semibold ja truncate" lang="ja">
+                      <h2 className="mt-0.5 text-lg font-semibold ja line-clamp-2" lang="ja">
                         <Link href={`/mock-exams/history/${r.id}`} className="hover:text-accent transition">
                           {r.title}
                         </Link>

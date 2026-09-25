@@ -68,10 +68,10 @@ function NavCard({ link, direction, fallback }: { link?: NavLink; direction: "pr
         {isNext ? "Next" : "Previous"}
         {isNext && <Arrow className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" />}
       </span>
-      <span lang="ja" className="ja block text-xl sm:text-2xl font-semibold tracking-tight text-ink group-hover:text-accent transition truncate w-full">
+      <span lang="ja" className="ja block text-xl sm:text-2xl font-semibold tracking-tight text-ink group-hover:text-accent transition w-full break-words">
         {link.title}
       </span>
-      {link.subtitle && <span className="block text-sm text-muted truncate w-full">{link.subtitle}</span>}
+      {link.subtitle && <span className="block text-sm text-muted w-full break-words">{link.subtitle}</span>}
     </Link>
   );
 }

@@ -143,11 +143,14 @@ export function ProgressClient({ totals, totalsByLevel }: Props) {
               return (
                 <li key={s} className="flex items-center gap-3 px-4 sm:px-5 py-3">
                   <SkillGlyph type={s} size="sm" tone={b.learned > 0 ? "accent" : "neutral"} />
-                  <span className="w-28 shrink-0 font-medium">{skillLabel(s)}</span>
+                  {/* Below sm the progress bar is hidden, so the label takes the slack and truncates;
+                      from sm it goes back to a fixed column and the bar takes it. Either way the
+                      count on the right keeps its width, which it cannot wrap to find. */}
+                  <span className="min-w-0 flex-1 truncate font-medium sm:w-28 sm:flex-none sm:shrink-0">{skillLabel(s)}</span>
                   <div className="min-w-0 flex-1 hidden sm:block">
                     <ProgressBar value={b.percent} size="sm" />
                   </div>
-                  <span className="ml-auto text-sm tabular-nums whitespace-nowrap">
+                  <span className="ml-auto shrink-0 text-sm tabular-nums whitespace-nowrap">
                     {b.learned} / {b.total}
                     {b.mastered > 0 && <span className="text-ok"> · {b.mastered} mastered</span>}
                   </span>
@@ -184,7 +187,7 @@ export function ProgressClient({ totals, totalsByLevel }: Props) {
                         <p className="text-[11px] uppercase tracking-[0.14em] text-muted">{label}</p>
                         <Badge tone={r.passedEstimate ? "ok" : "warn"}>{r.passedEstimate ? "Pass estimate" : "Below pass line"}</Badge>
                       </div>
-                      <p className="mt-1 font-semibold truncate" lang="ja">
+                      <p className="mt-1 font-semibold break-words" lang="ja">
                         {r.title}
                       </p>
                       <p className="text-xs text-muted">{formatDate(r.date)}</p>
@@ -194,7 +197,7 @@ export function ProgressClient({ totals, totalsByLevel }: Props) {
                     {r.sections.map((sec) => (
                       <li key={sec.id}>
                         <div className="flex justify-between gap-2 mb-1">
-                          <span lang="ja" className="truncate">
+                          <span lang="ja" className="break-words">
                             {sec.name}
                           </span>
                           <span className="tabular-nums text-muted shrink-0">
