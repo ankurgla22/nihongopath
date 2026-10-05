@@ -100,9 +100,11 @@ export default function VocabularyComparePage({ params }: { params: Params }) {
                   <h3 lang="ja" className="ja text-2xl font-semibold tracking-tight break-words">
                     {m.word}
                   </h3>
-                  {m.item && (
+                  {/* An authored reading wins: the join is by headword, so a word written the same
+                      way as a different word would otherwise show that other word's reading. */}
+                  {(m.reading ?? m.item?.reading) && (
                     <p lang="ja" className="ja text-sm text-muted">
-                      {m.item.reading}
+                      {m.reading ?? m.item?.reading}
                     </p>
                   )}
                   <p className="mt-3 leading-relaxed text-ink-2">{m.when}</p>

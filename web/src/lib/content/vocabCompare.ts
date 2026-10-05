@@ -24,6 +24,13 @@ export type VocabCompareMember = {
   /** The rule for this word, written by the author. */
   when: string;
   examples: CompareExample[];
+  /**
+   * Set only when the vocabulary entry teaches a different reading of the same spelling. The join
+   * below is by headword, which cannot tell 辛い/つらい from 辛い/からい — the vocabulary holds just
+   * the からい entry, so the card would have read "辛い からい" above a rule about emotional
+   * hardship. Where that happens the author states the reading the page is actually teaching.
+   */
+  reading?: string;
   /** Resolved from the vocabulary content; absent if the word was later removed. */
   item?: VocabItem;
   level?: Level;
@@ -45,7 +52,7 @@ export type VocabCompare = {
 
 type RawCompare = Omit<VocabCompare, "members" | "level"> & {
   level: string;
-  members: { word: string; when: string; examples: CompareExample[] }[];
+  members: { word: string; when: string; examples: CompareExample[]; reading?: string }[];
 };
 
 /** Where a word lives, searched from the lowest level up so the first hit is where it is taught. */
@@ -84,6 +91,10 @@ export const comparisonsForWord = cache((word: string): VocabCompare[] =>
 /** Kept for the vocabulary detail page, which links to the word's own entry. */
 export function memberHref(m: VocabCompareMember): string | undefined {
   if (!m.item || !m.level) return undefined;
+  // An authored reading means the entry found by headword teaches a *different* word that happens
+  // to share the spelling, so "full entry for 辛い" would send the reader to からい from a card
+  // about つらい. Better no link than a wrong one.
+  if (m.reading && m.reading !== m.item.reading) return undefined;
   return `/japanese/${m.level}/vocabulary/${m.item.slug}`;
 }
 

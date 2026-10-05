@@ -66,6 +66,13 @@ for (const f of files) {
       // simply renders them without a "full entry" link.
       if (!words.has(m.word)) notes.push(`${at}: "${m.word}" has no vocabulary entry — the page will not link to one`);
       if (!m.when) errors.push(`${at}: ${m.word} has no "when" rule`);
+      // An optional override for a spelling the vocabulary files under a different reading
+      // (辛い is held as からい, but one page teaches つらい). Same rule as example readings: kana.
+      if (m.reading !== undefined) {
+        if (typeof m.reading !== "string" || !m.reading) errors.push(`${at}: ${m.word} reading is empty`);
+        else if (/[一-鿿]/.test(m.reading)) errors.push(`${at}: ${m.word} reading "${m.reading}" has kanji in it`);
+        else if (foreign(m.reading)) errors.push(`${at}: ${m.word} reading "${m.reading}" is not Japanese`);
+      }
       if (!Array.isArray(m.examples) || m.examples.length < 1) errors.push(`${at}: ${m.word} needs an example`);
       for (const e of m.examples ?? []) checkExample(at, `${m.word} example`, e);
     }
