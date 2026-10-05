@@ -27,7 +27,7 @@ env:
   # nothing when it is unset, so previews and local builds stay cookie-free. Needed at BUILD because
   # NEXT_PUBLIC_* values are inlined into the client bundle at compile time.
   - variable: NEXT_PUBLIC_GA_ID
-    value: ""
+    value: "G-0XMMEPH4F7"
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCJoIkLkG1eLQsPZSXGchk0XSyMGunEYJI
