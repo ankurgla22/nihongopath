@@ -39,13 +39,18 @@ const isHttps = (process.env.NEXT_PUBLIC_SITE_URL ?? "").startsWith("https://");
  * Firebase Auth popups need apis.google.com, the auth domain, and accounts.google.com in frame-src.
  * No Cross-Origin-Opener-Policy header: it would break signInWithPopup.
  */
+// GA4 needs three directives, not just script-src: the tag loads from googletagmanager.com, beacons
+// to *.google-analytics.com, and falls back to a tracking pixel on google-analytics.com when
+// sendBeacon is unavailable. Allowing only the script would leave analytics silently reporting
+// nothing. These stay in the policy whether or not NEXT_PUBLIC_GA_ID is set — they permit a
+// connection, they do not open one.
 const csp = [
   "default-src 'self'",
-  `script-src 'self' 'unsafe-inline'${isProd ? "" : " 'unsafe-eval'"} https://apis.google.com https://www.gstatic.com`,
+  `script-src 'self' 'unsafe-inline'${isProd ? "" : " 'unsafe-eval'"} https://apis.google.com https://www.gstatic.com https://www.googletagmanager.com`,
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com data:",
-  "img-src 'self' data: blob: https://*.googleusercontent.com https://www.gstatic.com",
-  `connect-src 'self' https://*.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com wss://*.firebaseio.com https://*.firebaseio.com https://apis.google.com${authDomain ? ` https://${authDomain}` : ""} https://www.google.com`,
+  "img-src 'self' data: blob: https://*.googleusercontent.com https://www.gstatic.com https://www.google-analytics.com https://www.googletagmanager.com",
+  `connect-src 'self' https://*.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com wss://*.firebaseio.com https://*.firebaseio.com https://apis.google.com${authDomain ? ` https://${authDomain}` : ""} https://www.google.com https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com`,
   `frame-src 'self' https://accounts.google.com https://*.firebaseapp.com https://apis.google.com${authDomain ? ` https://${authDomain}` : ""}`,
   "worker-src 'self' blob:",
   "object-src 'none'",

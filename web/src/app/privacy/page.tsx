@@ -9,7 +9,7 @@ import { LAST_MODIFIED, PRIVACY_EMAIL, SITE_NAME, SITE_OPERATOR, SITE_URL } from
 export const metadata = pageMetadata({
   title: "Privacy policy",
   description:
-    "What Nihongo Path stores when you create an account, which cookie it sets, which Google services it relies on, and how to have your data deleted. No advertising, no analytics.",
+    "What Nihongo Path stores when you create an account, which cookies it sets, which Google services it relies on, how Google Analytics is used, and how to have your data deleted. No advertising.",
   path: "/privacy",
 });
 
@@ -66,9 +66,10 @@ export default function PrivacyPage() {
 
         <Section id="without-account" title="Reading lessons without an account">
           <p className="leading-relaxed text-ink-2">
-            Every lesson, guide and index page can be read without signing in. On those pages the site sets no cookies, runs no analytics and shows no advertising. Two
-            things still reach third parties: the page itself is served from Google&rsquo;s infrastructure (see &ldquo;Where data is kept&rdquo;), and the Japanese web
-            font is fetched from Google Fonts, so Google receives your IP address and browser details as part of serving the font file.
+            Every lesson, guide and index page can be read without signing in, and no page on this site shows advertising. Three things reach third parties even when you
+            are not signed in: the page itself is served from Google&rsquo;s infrastructure (see &ldquo;Where data is kept&rdquo;), the Japanese web font is fetched from
+            Google Fonts, so Google receives your IP address and browser details as part of serving the font file, and the site measures page views with Google Analytics
+            (see &ldquo;Measuring page views&rdquo;).
           </p>
           <p className="mt-4 leading-relaxed text-ink-2">
             Your theme choice (light or dark) is stored in your browser&rsquo;s local storage. It never leaves your device.
@@ -97,11 +98,16 @@ export default function PrivacyPage() {
           </p>
         </Section>
 
-        <Section id="cookie" title="The one cookie">
+        <Section id="cookie" title="Cookies">
           <p className="leading-relaxed text-ink-2">
             Signing in sets a single cookie, <code className="rounded bg-surface-2 px-1.5 py-0.5 text-[13px]">__session</code>, which keeps you signed in for up to{" "}
-            {SESSION_DAYS} days. It is marked HttpOnly and Secure, is sent only to this site, and holds nothing but a signed session token. Signing out deletes it. There are
-            no analytics, advertising or tracking cookies.
+            {SESSION_DAYS} days. It is marked HttpOnly and Secure, is sent only to this site, and holds nothing but a signed session token. Signing out deletes it.
+          </p>
+          <p className="mt-4 leading-relaxed text-ink-2">
+            Google Analytics sets two more, <code className="rounded bg-surface-2 px-1.5 py-0.5 text-[13px]">_ga</code> and{" "}
+            <code className="rounded bg-surface-2 px-1.5 py-0.5 text-[13px]">_ga_&hellip;</code>, which hold a random identifier so that several page views in a row can be
+            counted as one visit rather than several. They last up to two years and are described in the next section. There are no advertising cookies, and nothing on this
+            site is used to build an advertising profile of you.
           </p>
           <p className="mt-4 leading-relaxed text-ink-2">
             When you are signed in, the site also keeps an offline copy of your progress in your browser&rsquo;s IndexedDB so quizzes survive a dropped connection. Clearing site
@@ -109,10 +115,32 @@ export default function PrivacyPage() {
           </p>
         </Section>
 
+        <Section id="analytics" title="Measuring page views">
+          <p className="leading-relaxed text-ink-2">
+            The site uses Google Analytics 4, provided by Google LLC, to count how many people read each page and which pages they arrive on. It records the page address,
+            the referring page, your approximate location from your IP address, and your device, browser and language. It does not record your name or email address, and
+            the study data listed above is never sent to it. Google Analytics is loaded on every page, whether or not you are signed in.
+          </p>
+          <p className="mt-4 leading-relaxed text-ink-2">
+            This is used only to decide which lessons to write next and which pages need fixing. The figures are not sold, and Google Signals, advertising features and
+            data sharing with Google&rsquo;s advertising products are left off.
+          </p>
+          <p className="mt-4 leading-relaxed text-ink-2">
+            You can opt out for every site you visit with Google&rsquo;s{" "}
+            <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener nofollow" target="_blank" className="font-medium text-accent hover:underline">
+              Analytics opt-out add-on
+            </a>
+            , with your browser&rsquo;s tracking protection or an ad blocker, or by blocking cookies for this site. Google Analytics does not act on the
+            &ldquo;Do&nbsp;Not&nbsp;Track&rdquo; browser setting, so that setting alone will not stop it. Nothing on the site stops working if
+            you do; none of the lessons, quizzes or exams depend on analytics.
+          </p>
+        </Section>
+
         <Section id="providers" title="Where data is kept">
           <p className="leading-relaxed text-ink-2">
             The site runs on Google Cloud through Firebase: Firebase App Hosting serves the pages, Firebase Authentication handles sign-in, and Cloud Firestore stores the
-            account data above. These services are provided by Google LLC and the data is stored in Google&rsquo;s us-central1 region in the United States. If you sign in with
+            account data above. Google Analytics, described in the previous section, is the fourth Google service involved, and its figures are held on Google&rsquo;s
+            servers rather than this site&rsquo;s. These services are provided by Google LLC and the data is stored in Google&rsquo;s us-central1 region in the United States. If you sign in with
             Google, Google shares your name, email address and profile photo with the site under Google&rsquo;s own privacy policy.
           </p>
           <p className="mt-4 leading-relaxed text-ink-2">

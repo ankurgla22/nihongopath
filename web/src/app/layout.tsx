@@ -11,6 +11,12 @@ import { ThemeScript } from "@/components/layout/ThemeToggle";
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/seo/site";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
+import { GoogleAnalytics } from "@next/third-parties/google";
+
+// Set NEXT_PUBLIC_GA_ID to a GA4 measurement id ("G-…") to turn analytics on. Left unset — in
+// development, in previews, and in anyone's local checkout — nothing is injected and no cookie is
+// set, so the site behaves exactly as the privacy page describes for a build without it.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 // Noto Sans JP is loaded asynchronously by <JapaneseFont /> (see that file for why); --font-jp is set in globals.css.
@@ -55,6 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <SiteFooter />
           </UserDocProvider>
         </AuthProvider>
+        {GA_ID ? <GoogleAnalytics gaId={GA_ID} /> : null}
       </body>
     </html>
   );

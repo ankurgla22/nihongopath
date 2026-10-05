@@ -23,6 +23,12 @@ env:
   - variable: NEXT_PUBLIC_SITE_URL
     value: https://nihongopath.app
     availability: [BUILD, RUNTIME]
+  # GA4 measurement id. Analytics is off until this holds a real "G-…" value: layout.tsx injects
+  # nothing when it is unset, so previews and local builds stay cookie-free. Needed at BUILD because
+  # NEXT_PUBLIC_* values are inlined into the client bundle at compile time.
+  - variable: NEXT_PUBLIC_GA_ID
+    value: ""
+    availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCJoIkLkG1eLQsPZSXGchk0XSyMGunEYJI
     availability: [BUILD, RUNTIME]
