@@ -30,7 +30,14 @@ const inputLevel = new Map();
 }
 
 const words = new Set();
-for (const lv of LEVELS) for (const v of rd(path.join(web, "content", lv, "vocabulary.json"))) words.add(v.word);
+/** word -> every reading the course teaches it at, to spot an ambiguous headword join. */
+const readingsOf = new Map();
+for (const lv of LEVELS)
+  for (const v of rd(path.join(web, "content", lv, "vocabulary.json"))) {
+    words.add(v.word);
+    if (!readingsOf.has(v.word)) readingsOf.set(v.word, new Set());
+    if (v.reading) readingsOf.get(v.word).add(v.reading);
+  }
 
 // Latin letters are allowed only in upper case: CD and JR are ordinary Japanese, lower-case prose
 // is drift. Same rule the vocabulary enrichment settled on.
@@ -66,6 +73,14 @@ for (const f of files) {
       // simply renders them without a "full entry" link.
       if (!words.has(m.word)) notes.push(`${at}: "${m.word}" has no vocabulary entry — the page will not link to one`);
       if (!m.when) errors.push(`${at}: ${m.word} has no "when" rule`);
+      // The page joins a member to the vocabulary by headword. If the course ever teaches the same
+      // spelling at two readings, that join picks whichever level is searched first — silently, and
+      // possibly the wrong word. An authored `reading` settles it; without one, say so.
+      if (!m.reading) {
+        const rs = readingsOf.get(m.word);
+        if (rs && rs.size > 1)
+          notes.push(`${at}: "${m.word}" is taught at ${[...rs].join(" and ")} — set a reading on the member to say which this page means`);
+      }
       // An optional override for a spelling the vocabulary files under a different reading
       // (辛い is held as からい, but one page teaches つらい). Same rule as example readings: kana.
       if (m.reading !== undefined) {
