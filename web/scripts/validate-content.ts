@@ -8,6 +8,7 @@ import path from "node:path";
 import { z } from "zod";
 import { shuffleQuestionBank } from "../src/lib/questions/shuffle";
 import {
+  BookSchema,
   CurriculumSchema,
   ExamBlueprintSchema,
   FoundationLessonSchema,
@@ -149,6 +150,17 @@ for (const e of exams) {
 }
 
 loadDir("strategy", StrategyArticleSchema, ids);
+
+// Recommended books. The schema covers shape; this covers what a wrong record would do on the page.
+{
+  const books = load("books.json", BookSchema, ids);
+  for (const b of books) {
+    // amazon.com is the fallback for every visitor whose store has no entry, so it must exist.
+    if (!b.stores.us) errors.push(`books: ${b.id} has no amazon.com entry (the fallback store)`);
+    for (const [store, e] of Object.entries(b.stores as Record<string, { query?: string } | undefined>))
+      if (e?.query && /\btag=/.test(e.query)) errors.push(`books: ${b.id}/${store} query contains a tag — tags come from the environment`);
+  }
+}
 const curriculumFile = path.join(CONTENT, "curriculum", "curriculum.json");
 if (fs.existsSync(curriculumFile)) {
   const r = CurriculumSchema.safeParse(JSON.parse(fs.readFileSync(curriculumFile, "utf8")));

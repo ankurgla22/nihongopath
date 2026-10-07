@@ -82,7 +82,7 @@ export default function AboutPage() {
             <a href={SITE_OPERATOR.url} rel="noopener" target="_blank" className="font-medium text-accent hover:underline">
               {SITE_OPERATOR.name}
             </a>{" "}
-            as an in-house project. Lessons are published under the {SITE_NAME} name rather than individual bylines. The site carries no advertising.
+            as an in-house project. Lessons are published under the {SITE_NAME} name rather than individual bylines. The site carries no display advertising; the level pages recommend a few textbooks with Amazon links, which may earn a commission and are chosen on merit, not by who pays.
           </p>
         </Section>
 

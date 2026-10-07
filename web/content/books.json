@@ -1,0 +1,279 @@
+[
+  {
+    "id": "genki-1",
+    "title": "Genki I: An Integrated Course in Elementary Japanese (3rd edition)",
+    "author": "Eri Banno et al.",
+    "levels": [
+      "n5"
+    ],
+    "forWhom": "The standard first textbook in English-speaking classrooms. Pairs well with the N5 grammar here, which follows a similar order.",
+    "stores": {
+      "us": {
+        "query": "Genki I An Integrated Course in Elementary Japanese 3rd edition textbook"
+      },
+      "jp": {
+        "query": "GENKI 初級日本語 げんき I 第3版 テキスト",
+        "title": "初級日本語 げんき I（第3版）"
+      },
+      "in": {
+        "query": "Genki I An Integrated Course in Elementary Japanese 3rd edition"
+      }
+    }
+  },
+  {
+    "id": "genki-2",
+    "title": "Genki II: An Integrated Course in Elementary Japanese (3rd edition)",
+    "author": "Eri Banno et al.",
+    "levels": [
+      "n4"
+    ],
+    "forWhom": "Continues straight from Genki I and covers most of what N4 tests in grammar.",
+    "stores": {
+      "us": {
+        "query": "Genki II An Integrated Course in Elementary Japanese 3rd edition textbook"
+      },
+      "jp": {
+        "query": "GENKI 初級日本語 げんき II 第3版 テキスト",
+        "title": "初級日本語 げんき II（第3版）"
+      },
+      "in": {
+        "query": "Genki II An Integrated Course in Elementary Japanese 3rd edition"
+      }
+    }
+  },
+  {
+    "id": "minna-1",
+    "title": "Minna no Nihongo Shokyu I (2nd edition), main textbook",
+    "author": "3A Corporation",
+    "levels": [
+      "n5"
+    ],
+    "forWhom": "The textbook most language schools in Japan use. All Japanese, so get the separate translation and grammar notes in your language too.",
+    "stores": {
+      "us": {
+        "query": "Minna no Nihongo Shokyu I 2nd edition Honsatsu main textbook"
+      },
+      "jp": {
+        "query": "みんなの日本語 初級I 第2版 本冊",
+        "title": "みんなの日本語 初級I 第2版 本冊"
+      },
+      "in": {
+        "query": "Minna no Nihongo Shokyu 1 main textbook Goyal",
+        "title": "Minna no Nihongo Shokyu I (Indian edition, Goyal)"
+      }
+    }
+  },
+  {
+    "id": "minna-2",
+    "title": "Minna no Nihongo Shokyu II (2nd edition), main textbook",
+    "author": "3A Corporation",
+    "levels": [
+      "n4"
+    ],
+    "forWhom": "The second volume, finishing the beginner grammar that N4 covers.",
+    "stores": {
+      "us": {
+        "query": "Minna no Nihongo Shokyu II 2nd edition Honsatsu main textbook"
+      },
+      "jp": {
+        "query": "みんなの日本語 初級II 第2版 本冊",
+        "title": "みんなの日本語 初級II 第2版 本冊"
+      },
+      "in": {
+        "query": "Minna no Nihongo Shokyu 2 main textbook Goyal",
+        "title": "Minna no Nihongo Shokyu II (Indian edition, Goyal)"
+      }
+    }
+  },
+  {
+    "id": "dictionary-basic-grammar",
+    "title": "A Dictionary of Basic Japanese Grammar",
+    "author": "Seiichi Makino and Michio Tsutsui",
+    "levels": [
+      "n5",
+      "n4"
+    ],
+    "forWhom": "A reference, not a course: look up any beginner pattern and get a precise explanation with the related patterns compared. Worth owning from N5 to N3.",
+    "stores": {
+      "us": {
+        "query": "A Dictionary of Basic Japanese Grammar Makino Tsutsui"
+      },
+      "jp": {
+        "query": "日本語基本文法辞典 A Dictionary of Basic Japanese Grammar",
+        "title": "日本語基本文法辞典"
+      },
+      "in": {
+        "query": "A Dictionary of Basic Japanese Grammar Makino Tsutsui"
+      }
+    }
+  },
+  {
+    "id": "tobira",
+    "title": "Tobira: Gateway to Advanced Japanese",
+    "author": "Mayumi Oka et al.",
+    "levels": [
+      "n3"
+    ],
+    "forWhom": "The usual bridge after Genki II: real reading texts with grammar notes, at the point where N3 starts to feel like actual Japanese.",
+    "stores": {
+      "us": {
+        "query": "Tobira Gateway to Advanced Japanese Learning Through Content and Multimedia"
+      },
+      "jp": {
+        "query": "上級へのとびら コンテンツとマルチメディアで学ぶ日本語",
+        "title": "上級へのとびら"
+      },
+      "in": {
+        "query": "Tobira Gateway to Advanced Japanese"
+      }
+    }
+  },
+  {
+    "id": "skm-n3-grammar",
+    "title": "Shin Kanzen Master N3 Grammar",
+    "author": "3A Corporation",
+    "levels": [
+      "n3"
+    ],
+    "forWhom": "The most thorough exam-prep series. Dense and all in Japanese; best once you are already comfortable at N4.",
+    "stores": {
+      "us": {
+        "query": "Shin Kanzen Master N3 Bunpou Grammar JLPT"
+      },
+      "jp": {
+        "query": "新完全マスター文法 日本語能力試験N3",
+        "title": "新完全マスター文法 日本語能力試験N3"
+      },
+      "in": {
+        "query": "Shin Kanzen Master N3 Grammar JLPT"
+      }
+    }
+  },
+  {
+    "id": "dictionary-intermediate-grammar",
+    "title": "A Dictionary of Intermediate Japanese Grammar",
+    "author": "Seiichi Makino and Michio Tsutsui",
+    "levels": [
+      "n3",
+      "n2"
+    ],
+    "forWhom": "The same reference one volume up: the patterns N3 and N2 test, with the near-synonyms set side by side.",
+    "stores": {
+      "us": {
+        "query": "A Dictionary of Intermediate Japanese Grammar Makino Tsutsui"
+      },
+      "jp": {
+        "query": "日本語文法辞典 中級編 A Dictionary of Intermediate Japanese Grammar",
+        "title": "日本語文法辞典 中級編"
+      },
+      "in": {
+        "query": "A Dictionary of Intermediate Japanese Grammar Makino Tsutsui"
+      }
+    }
+  },
+  {
+    "id": "skm-n2-grammar",
+    "title": "Shin Kanzen Master N2 Grammar",
+    "author": "3A Corporation",
+    "levels": [
+      "n2"
+    ],
+    "forWhom": "Covers the N2 grammar list with the fine distinctions the test actually asks about. Use it alongside the comparisons on this site.",
+    "stores": {
+      "us": {
+        "query": "Shin Kanzen Master N2 Bunpou Grammar JLPT"
+      },
+      "jp": {
+        "query": "新完全マスター文法 日本語能力試験N2",
+        "title": "新完全マスター文法 日本語能力試験N2"
+      },
+      "in": {
+        "query": "Shin Kanzen Master N2 Grammar JLPT"
+      }
+    }
+  },
+  {
+    "id": "skm-n2-reading",
+    "title": "Shin Kanzen Master N2 Reading",
+    "author": "3A Corporation",
+    "levels": [
+      "n2"
+    ],
+    "forWhom": "Reading is where N2 candidates lose the most points. This drills the question types one by one, with time limits.",
+    "stores": {
+      "us": {
+        "query": "Shin Kanzen Master N2 Dokkai Reading JLPT"
+      },
+      "jp": {
+        "query": "新完全マスター読解 日本語能力試験N2",
+        "title": "新完全マスター読解 日本語能力試験N2"
+      },
+      "in": {
+        "query": "Shin Kanzen Master N2 Reading JLPT"
+      }
+    }
+  },
+  {
+    "id": "soumatome-n2-grammar",
+    "title": "Nihongo Sou Matome N2 Grammar",
+    "author": "Ask Publishing",
+    "levels": [
+      "n2"
+    ],
+    "forWhom": "The lighter alternative to Shin Kanzen Master: one page a day for six weeks, with English notes. Easier to finish, less depth.",
+    "stores": {
+      "us": {
+        "query": "Nihongo Sou Matome N2 Grammar JLPT"
+      },
+      "jp": {
+        "query": "日本語総まとめ N2 文法",
+        "title": "日本語総まとめ N2 文法"
+      },
+      "in": {
+        "query": "Nihongo Sou Matome N2 Grammar JLPT"
+      }
+    }
+  },
+  {
+    "id": "skm-n1-grammar",
+    "title": "Shin Kanzen Master N1 Grammar",
+    "author": "3A Corporation",
+    "levels": [
+      "n1"
+    ],
+    "forWhom": "The N1 grammar list, including the written and formal patterns that rarely appear in speech. Expect to need a second pass.",
+    "stores": {
+      "us": {
+        "query": "Shin Kanzen Master N1 Bunpou Grammar JLPT"
+      },
+      "jp": {
+        "query": "新完全マスター文法 日本語能力試験N1",
+        "title": "新完全マスター文法 日本語能力試験N1"
+      },
+      "in": {
+        "query": "Shin Kanzen Master N1 Grammar JLPT"
+      }
+    }
+  },
+  {
+    "id": "skm-n1-reading",
+    "title": "Shin Kanzen Master N1 Reading",
+    "author": "3A Corporation",
+    "levels": [
+      "n1"
+    ],
+    "forWhom": "Editorial-length texts under exam timing, which is the part of N1 that most people fail on the first attempt.",
+    "stores": {
+      "us": {
+        "query": "Shin Kanzen Master N1 Dokkai Reading JLPT"
+      },
+      "jp": {
+        "query": "新完全マスター読解 日本語能力試験N1",
+        "title": "新完全マスター読解 日本語能力試験N1"
+      },
+      "in": {
+        "query": "Shin Kanzen Master N1 Reading JLPT"
+      }
+    }
+  }
+]

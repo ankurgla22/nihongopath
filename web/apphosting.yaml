@@ -29,6 +29,18 @@ env:
   - variable: NEXT_PUBLIC_GA_ID
     value: "G-0XMMEPH4F7"
     availability: [BUILD, RUNTIME]
+  # Amazon Associates tags, one per store (the programme is per marketplace). Empty means the
+  # book links still work but carry no tag and the site shows no Associates disclosure. Fill
+  # each in when that store's application is approved.
+  - variable: NEXT_PUBLIC_AMZ_TAG_US
+    value: ""
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_AMZ_TAG_IN
+    value: ""
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_AMZ_TAG_JP
+    value: ""
+    availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCJoIkLkG1eLQsPZSXGchk0XSyMGunEYJI
     availability: [BUILD, RUNTIME]

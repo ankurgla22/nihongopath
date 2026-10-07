@@ -272,6 +272,31 @@ export const StrategyArticleSchema = z.object({
 });
 export type StrategyArticle = z.infer<typeof StrategyArticleSchema>;
 
+/**
+ * A recommended textbook (content/books.json). Each store entry is either a verified ASIN (a
+ * product page) or a search query for the exact edition; see lib/affiliate/stores for why a
+ * search is the safer default. `title` overrides the display title for that store, for editions
+ * sold under another name (Indian printings, Japanese titles).
+ */
+export const BookStoreEntrySchema = z
+  .object({
+    asin: z.string().regex(/^[A-Z0-9]{10}$/, "an ASIN is 10 upper-case letters or digits").optional(),
+    query: z.string().min(1).optional(),
+    title: z.string().min(1).optional(),
+  })
+  .refine((e) => e.asin || e.query, { message: "a store entry needs an asin or a query" });
+export const BookSchema = z.object({
+  id: z.string().regex(/^[a-z0-9-]+$/),
+  title: z.string().min(1),
+  author: z.string().min(1),
+  levels: z.array(LevelSchema).min(1),
+  forWhom: z.string().min(20),
+  stores: z
+    .object({ us: BookStoreEntrySchema, in: BookStoreEntrySchema.optional(), jp: BookStoreEntrySchema.optional() })
+    .strict(),
+});
+export type Book = z.infer<typeof BookSchema>;
+
 /** Foundation lessons: kana, pronunciation, numbers, counters, greetings. Level "foundation" sits before N5. */
 export const FoundationBlockSchema = z.discriminatedUnion("kind", [
   z.object({ kind: z.literal("text"), paragraphs: z.array(z.string()) }),

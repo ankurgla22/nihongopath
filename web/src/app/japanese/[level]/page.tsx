@@ -7,6 +7,7 @@ import { LEVEL_INFO, isLevel } from "@/components/content/levels";
 import { breadcrumbJsonLd, courseJsonLd, pageMetadata } from "@/lib/seo/metadata";
 import { JsonLd } from "@/components/content/JsonLd";
 import { FaqSection } from "@/components/content/FaqSection";
+import { BookShelf } from "@/components/affiliate/BookShelf";
 import { faqJsonLd, levelFaq } from "@/lib/seo/faq";
 
 type Params = { level: string };
@@ -104,6 +105,8 @@ export default function LevelHubPage({ params }: { params: Params }) {
           </li>
         ))}
       </ul>
+
+      <BookShelf level={level} />
 
       <FaqSection items={faq} intro={`Official facts about the ${label} test and what this course covers. Figures come from the JLPT site; see the JLPT guide for sources.`} />
       <div className="h-12" />

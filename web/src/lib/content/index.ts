@@ -4,6 +4,7 @@ import path from "node:path";
 import { cache } from "react";
 import { shuffleQuestionBank } from "@/lib/questions/shuffle";
 import {
+  BookSchema,
   CurriculumSchema,
   ExamBlueprintSchema,
   FoundationLessonSchema,
@@ -15,6 +16,7 @@ import {
   ReadingPassageSchema,
   StrategyArticleSchema,
   VocabItemSchema,
+  type Book,
   type Curriculum,
   type ExamBlueprint,
   type FoundationLesson,
@@ -124,6 +126,12 @@ export const getQuestionMap = cache((): Map<string, Question> => {
 export const getExams = cache((): ExamBlueprint[] => readDirJson("exams", ExamBlueprintSchema));
 
 export const getStrategy = cache((): StrategyArticle[] => readDirJson("strategy", StrategyArticleSchema));
+
+export const getBooks = cache((): Book[] => {
+  const file = path.join(CONTENT_DIR, "books.json");
+  if (!fs.existsSync(file)) return [];
+  return z.array(BookSchema).parse(JSON.parse(fs.readFileSync(file, "utf8")));
+});
 
 export const getCurriculum = cache((): Curriculum => {
   const file = path.join(CONTENT_DIR, "curriculum", "curriculum.json");

@@ -6,6 +6,7 @@ import { LAST_MODIFIED, SITE_URL } from "@/lib/seo/site";
 import { JLPT_SOURCES, JLPT_SOURCES_CHECKED } from "@/lib/seo/sources";
 import { faqJsonLd, jlptFaq } from "@/lib/seo/faq";
 import { FaqSection } from "@/components/content/FaqSection";
+import { BookShelf } from "@/components/affiliate/BookShelf";
 import { Arrow, Badge, Breadcrumbs, Container, PageTitle, Section, Stat } from "@/components/ui";
 
 const FAQ = jlptFaq();
@@ -206,6 +207,12 @@ export default function JlptPage() {
               .
             </p>
           </Section>
+
+          <BookShelf
+            ids={["genki-1", "minna-1", "dictionary-basic-grammar", "skm-n2-grammar"]}
+            title="Books learners pair with this course"
+            intro="The course on this site is complete on its own. If you want a book beside it, these are the ones JLPT candidates most often use, from the first textbook to the N2 exam series."
+          />
 
           <FaqSection items={FAQ} intro="Short factual answers, taken from the official JLPT pages listed under Sources." />
 

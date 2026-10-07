@@ -66,8 +66,10 @@ export default function PrivacyPage() {
 
         <Section id="without-account" title="Reading lessons without an account">
           <p className="leading-relaxed text-ink-2">
-            Every lesson, guide and index page can be read without signing in, and no page on this site shows advertising. Three things reach third parties even when you
-            are not signed in: the page itself is served from Google&rsquo;s infrastructure (see &ldquo;Where data is kept&rdquo;), the Japanese web font is fetched from
+            Every lesson, guide and index page can be read without signing in, and no page on this site shows display advertising. A few pages recommend textbooks
+            with links to Amazon; where those carry an affiliate tag, Amazon pays a commission on purchases, and a link you click is recorded in Google Analytics as a
+            click on that book. Nothing about you is sent to Amazon until you are on Amazon&rsquo;s own site. Three things reach third parties even when you are not
+            signed in: the page itself is served from Google&rsquo;s infrastructure (see &ldquo;Where data is kept&rdquo;), the Japanese web font is fetched from
             Google Fonts, so Google receives your IP address and browser details as part of serving the font file, and the site measures page views with Google Analytics
             (see &ldquo;Measuring page views&rdquo;).
           </p>
