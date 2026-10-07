@@ -14,7 +14,7 @@ import { LessonQuiz } from "@/components/quiz/LessonQuiz";
 import { QuickCheckNote } from "@/components/content/QuickCheckNote";
 import { generateKanjiDrill } from "@/lib/drill/generate";
 import { UpdatedOn } from "@/components/content/UpdatedOn";
-import { StrokeOrder } from "@/components/content/StrokeOrder";
+import { StrokeOrder, strokeOrderSvg } from "@/components/content/StrokeOrder";
 import { contentLastMod } from "@/lib/content/lastmod";
 
 type Params = { level: string; slug: string };
@@ -173,9 +173,13 @@ export default function KanjiDetailPage({ params }: { params: Params }) {
           <UpdatedOn className="mt-4" date={updated} />
         </header>
 
-        <Section id="stroke-order" title="Stroke order" intro="Write it in this order; the numbers mark where each stroke starts.">
-          <StrokeOrder character={k.character} />
-        </Section>
+        {/* Only when there is a diagram. The component returns null without one, which left 426
+            pages showing this heading and "write it in this order" above nothing at all. */}
+        {strokeOrderSvg(k.character) && (
+          <Section id="stroke-order" title="Stroke order" intro="Write it in this order; the numbers mark where each stroke starts.">
+            <StrokeOrder character={k.character} />
+          </Section>
+        )}
 
         <Section id="words" title="Common words">
           <div className="surface rounded-2xl overflow-hidden">
