@@ -4,9 +4,10 @@ import { SITE_URL } from "@/lib/seo/site";
 // Private (session-only) routes; the public /japanese/[level]/tests and /mock-exams pages are not affected.
 //
 // /login is in here for a different reason: every lesson page shows Save and Mark-complete to
-// signed-out visitors as `/login?next=<that page>`, so a crawler following links finds one unique
-// login URL per lesson — about 14,000 of them, all rendering the same form. The request logs showed
-// exactly that happening. Nothing under /login should be crawled, and the links carry nofollow too.
+// signed-out visitors as a link to the login page. Those links once carried `?next=<that page>`,
+// so a crawler found one unique login URL per lesson — Search Console reported 2,352 of them,
+// all blocked, all the same form. The return path now travels in the fragment (`/login#next=…`),
+// which crawlers drop, so there is one login URL. It stays blocked, and the links carry nofollow.
 const PRIVATE = ["/dashboard", "/daily-study", "/progress", "/history", "/tests", "/mock-exams", "/review", "/saved", "/profile", "/api", "/login", "/signup", "/forgot-password"];
 
 /**

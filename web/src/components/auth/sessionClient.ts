@@ -12,6 +12,25 @@ let logoutEpoch = 0;
 let inFlight: Promise<void> | null = null;
 
 /** Sanitises a ?next= value so we only ever redirect within the site. */
+/**
+ * The return path a lesson page puts in the sign-in link's fragment: /login#next=%2Fjapanese%2F….
+ * A fragment rather than a query string because every lesson links to the login page, and with
+ * `?next=` each lesson produced its own URL — Search Console counted 2,352 distinct /login URLs,
+ * all blocked, all the same form. A crawler drops the fragment, so there is now one. Browser-only:
+ * the fragment never reaches the server, which is also why /login?next= still works for server
+ * redirects (requireUser).
+ */
+export function nextFromHash(): string | null {
+  if (typeof window === "undefined") return null;
+  const m = /^#next=(.+)$/.exec(window.location.hash);
+  if (!m) return null;
+  try {
+    return decodeURIComponent(m[1]);
+  } catch {
+    return null;
+  }
+}
+
 export function safeNext(next: string | null | undefined, fallback = "/dashboard"): string {
   if (!next || next.length > 2048) return fallback;
   // Reject control/whitespace chars: the URL parser strips tab/newline, so "/\t/evil.com" would become "//evil.com".

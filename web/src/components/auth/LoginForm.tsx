@@ -8,13 +8,18 @@ import { useAuth } from "./AuthProvider";
 import { AuthField, GoogleButton, OrDivider } from "./AuthField";
 import { NotConfigured } from "./NotConfigured";
 import { friendlyAuthError } from "./authErrors";
-import { establishSession, safeNext } from "./sessionClient";
+import { establishSession, nextFromHash, safeNext } from "./sessionClient";
 
 export function LoginForm() {
   const { user, loading, configured } = useAuth();
   const router = useRouter();
   const params = useSearchParams();
-  const next = safeNext(params.get("next"));
+  // Where to go afterwards: the query string (server redirects) or the fragment (lesson-page
+  // links; see nextFromHash). Resolved at the moment of use, not at render, because the fragment
+  // exists only in the browser and the server render must not disagree with the first client one.
+  const resolveNext = () => safeNext(params.get("next") ?? nextFromHash());
+  const [next, setNext] = useState(() => safeNext(params.get("next")));
+  useEffect(() => setNext(resolveNext()), []); // eslint-disable-line react-hooks/exhaustive-deps
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
@@ -24,7 +29,7 @@ export function LoginForm() {
   useEffect(() => {
     if (!loading && user && !busy) {
       establishSession(user)
-        .then(() => router.replace(next))
+        .then(() => router.replace(resolveNext()))
         .catch((e) => setError(friendlyAuthError(e)));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -34,7 +39,7 @@ export function LoginForm() {
 
   async function finish(u: import("firebase/auth").User) {
     await establishSession(u, { force: true });
-    router.replace(next);
+    router.replace(resolveNext());
     router.refresh();
   }
 
@@ -102,7 +107,7 @@ export function LoginForm() {
       </form>
       <p className="text-sm text-muted text-center">
         New here?{" "}
-        <Link href={`/signup?next=${encodeURIComponent(next)}`} className="text-accent font-medium underline underline-offset-2">
+        <Link href={`/signup#next=${encodeURIComponent(next)}`} className="text-accent font-medium underline underline-offset-2">
           Create an account
         </Link>
       </p>

@@ -1,20 +1,23 @@
 "use client";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { Button, Callout } from "@/components/ui";
 import { getClientAuth } from "@/lib/firebase/client";
 import { useAuth } from "./AuthProvider";
 import { AuthField, GoogleButton, OrDivider } from "./AuthField";
 import { NotConfigured } from "./NotConfigured";
 import { friendlyAuthError } from "./authErrors";
-import { establishSession, safeNext } from "./sessionClient";
+import { establishSession, nextFromHash, safeNext } from "./sessionClient";
 
 export function SignupForm() {
   const { configured } = useAuth();
   const router = useRouter();
   const params = useSearchParams();
-  const next = safeNext(params.get("next"));
+  // Query string or fragment, resolved when used (see LoginForm for why not at render).
+  const resolveNext = () => safeNext(params.get("next") ?? nextFromHash());
+  const [next, setNext] = useState(() => safeNext(params.get("next")));
+  useEffect(() => setNext(resolveNext()), []); // eslint-disable-line react-hooks/exhaustive-deps
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -25,7 +28,7 @@ export function SignupForm() {
 
   async function finish(u: import("firebase/auth").User) {
     await establishSession(u, { force: true });
-    router.replace(next);
+    router.replace(resolveNext());
     router.refresh();
   }
 
@@ -93,7 +96,7 @@ export function SignupForm() {
       </form>
       <p className="text-sm text-muted text-center">
         Already have an account?{" "}
-        <Link href={`/login?next=${encodeURIComponent(next)}`} className="text-accent font-medium underline underline-offset-2">
+        <Link href={`/login#next=${encodeURIComponent(next)}`} className="text-accent font-medium underline underline-offset-2">
           Log in
         </Link>
       </p>
