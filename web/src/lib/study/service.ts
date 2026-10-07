@@ -377,6 +377,13 @@ export async function completeLesson(uid: string, contentId: string, type: Skill
   };
   await setProgressBatch(uid, [doc]);
 
+  // The button promises "review tomorrow", but the Review page and the dashboard's due count read
+  // the reviewItems queue, not progress.nextReview — and until now only a wrong quiz answer ever
+  // put anything in that queue. So a lesson marked learned was never reviewed. Queue it; keep an
+  // earlier date if a missed answer already has it due sooner.
+  const queued = (await listReviewItems(uid).catch(() => [] as ReviewItemDoc[])).find((i) => i.contentId === contentId);
+  if (!queued || queued.due > doc.nextReview) await setReviewItems(uid, [toReviewItem(doc, "srs", queued?.questionIds ?? [], today)]);
+
   const user = await getUser(uid);
   if (!user) return { minutes: 0, alreadyDone: false };
 

@@ -9,13 +9,14 @@
  * The repo is replaced with an in-memory one; the SRS, streak and daily-log logic is real.
  */
 import { beforeEach, describe, expect, it, vi } from "vitest";
-import type { DailyProgressDoc, ProgressDoc, StudySessionDoc, UserDoc } from "@/lib/firestore/types";
+import type { DailyProgressDoc, ProgressDoc, ReviewItemDoc, StudySessionDoc, UserDoc } from "@/lib/firestore/types";
 
 const db = {
   user: null as UserDoc | null,
   progress: new Map<string, ProgressDoc>(),
   daily: new Map<string, DailyProgressDoc>(),
   sessions: [] as StudySessionDoc[],
+  reviews: new Map<string, ReviewItemDoc>(),
 };
 
 vi.mock("@/lib/firestore/repo", () => ({
@@ -34,16 +35,25 @@ vi.mock("@/lib/firestore/repo", () => ({
   addSession: async (_uid: string, s: StudySessionDoc) => {
     db.sessions.push(s);
   },
+  listReviewItems: async () => [...db.reviews.values()],
+  setReviewItems: async (_uid: string, items: ReviewItemDoc[]) => {
+    // Same semantics as the real repo: keyed by contentId, merged.
+    for (const it of items) db.reviews.set(it.contentId, { ...(db.reviews.get(it.contentId) ?? {}), ...it });
+  },
   // Unused by completeLesson; present so the module's imports resolve.
   addExamResult: async () => {},
   addQuizResult: async () => {},
-  listReviewItems: async () => [],
   removeReviewItems: async () => {},
-  setReviewItems: async () => {},
 }));
 
 import { completeLesson } from "@/lib/study/service";
 import { todayISO } from "@/lib/firestore/types";
+
+const tomorrow = () => {
+  const d = new Date();
+  d.setDate(d.getDate() + 1);
+  return todayISO(d);
+};
 
 const freshUser = (): UserDoc =>
   ({
@@ -63,6 +73,7 @@ beforeEach(() => {
   db.progress.clear();
   db.daily.clear();
   db.sessions.length = 0;
+  db.reviews.clear();
 });
 
 describe("completeLesson", () => {
@@ -85,6 +96,36 @@ describe("completeLesson", () => {
     expect(db.sessions).toHaveLength(1);
     expect(db.sessions[0].contentIds).toEqual(["foundation-1"]);
     expect(db.daily.get(todayISO())?.minutes).toBe(r.minutes);
+  });
+
+  it("puts the lesson in the review queue for tomorrow — the thing the button promises", async () => {
+    await completeLesson("u1", "n5-grammar-1", "grammar", "n5");
+
+    // The Review page and the dashboard's due count read this queue, not progress.nextReview.
+    const item = db.reviews.get("n5-grammar-1");
+    expect(item).toBeDefined();
+    expect(item?.due).toBe(tomorrow());
+    expect(item?.source).toBe("srs");
+    expect(item?.type).toBe("grammar");
+  });
+
+  it("does not push back an item a missed answer already has due sooner", async () => {
+    db.reviews.set("n5-grammar-1", {
+      contentId: "n5-grammar-1",
+      type: "grammar",
+      due: todayISO(),
+      priority: 2,
+      source: "wrong-answer",
+      addedAt: todayISO(),
+      questionIds: ["q-1"],
+    });
+
+    await completeLesson("u1", "n5-grammar-1", "grammar", "n5");
+
+    const item = db.reviews.get("n5-grammar-1");
+    expect(item?.due).toBe(todayISO());
+    expect(item?.source).toBe("wrong-answer");
+    expect(item?.questionIds).toEqual(["q-1"]);
   });
 
   it("is idempotent: marking the same lesson again logs nothing more", async () => {
