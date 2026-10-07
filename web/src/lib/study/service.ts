@@ -332,6 +332,83 @@ export async function completeTask(uid: string, curriculumDay: number, taskId: s
   await touchUserForStudy(uid, minutes, {}, contentIds.length);
 }
 
+/**
+ * Time credited when a lesson is marked learned from its own page, where nothing times the
+ * learner. Estimates, deliberately modest: the figure feeds total minutes and the day's log,
+ * and crediting too much would let a few clicks "complete" a study day. A lesson that sits in
+ * today's plan uses the plan's minutes instead (see completeLesson).
+ */
+const LESSON_MINUTES: Record<Skill, number> = {
+  kana: 15,
+  grammar: 10,
+  kanji: 3,
+  vocabulary: 2,
+  reading: 10,
+  listening: 10,
+};
+
+export type CompleteLessonResult = { minutes: number; taskId?: string; alreadyDone: boolean };
+
+/**
+ * "Mark as learned" on a lesson page. Writes the same progress record the daily plan would,
+ * then everything completeTask also writes — session, daily log, totals and streak — so a
+ * lesson learned outside the plan still counts. Before this, the button wrote only the
+ * progress document: the SRS review was scheduled, but the dashboard stayed at zero lessons,
+ * zero minutes, no streak, however much a learner did.
+ *
+ * If the lesson is one of today's planned tasks, that task is ticked once every content id in
+ * it is complete, and credited with the plan's minutes rather than the flat estimate.
+ */
+export async function completeLesson(uid: string, contentId: string, type: Skill, level: ProgressDoc["level"]): Promise<CompleteLessonResult> {
+  const today = todayISO();
+  const prev = await getProgress(uid, contentId).catch(() => null);
+  // Idempotent: a second click (or a replay) must not log the time and the lesson twice.
+  if (prev?.completed) return { minutes: 0, alreadyDone: true };
+
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const doc: ProgressDoc = {
+    ...(prev ?? initialProgress(contentId, type, level, today)),
+    status: prev?.status && prev.status !== "new" ? prev.status : "learning",
+    firstLearned: prev?.firstLearned ?? today,
+    lastReviewed: today,
+    nextReview: prev?.nextReview && prev.nextReview > today ? prev.nextReview : todayISO(tomorrow),
+    completed: true,
+  };
+  await setProgressBatch(uid, [doc]);
+
+  const user = await getUser(uid);
+  if (!user) return { minutes: 0, alreadyDone: false };
+
+  // Does today's plan include this lesson? Tick the task only when all of its content is done,
+  // so a task covering several lessons is not marked complete by the first one.
+  let minutes = LESSON_MINUTES[type] ?? 5;
+  let taskId: string | undefined;
+  const daily = await getDaily(uid, today).catch(() => null);
+  const task = daily?.plannedTasks.find((t) => t.contentIds.includes(contentId) && !daily.completedTaskIds.includes(t.id));
+  if (task) {
+    const others = task.contentIds.filter((id) => id !== contentId);
+    const states = await Promise.all(others.map((id) => getProgress(uid, id).catch(() => null)));
+    if (states.every((p) => p?.completed)) {
+      taskId = task.id;
+      minutes = task.minutes;
+    }
+  }
+
+  await addSession(uid, {
+    id: newId(),
+    startedAt: new Date(Date.now() - minutes * 60000).toISOString(),
+    endedAt: new Date().toISOString(),
+    minutes,
+    skill: type,
+    contentIds: [contentId],
+    date: today,
+  });
+  await logDaily(uid, user.currentDay, minutes, {}, taskId);
+  await touchUserForStudy(uid, minutes, {}, 1);
+  return { minutes, taskId, alreadyDone: false };
+}
+
 /** Advance the learner to the next curriculum day once today's plan is complete. */
 export async function advanceDay(uid: string, fromDay: number) {
   await updateUser(uid, { currentDay: Math.min(CURRICULUM_DAYS, fromDay + 1), currentPhase: phaseOf(fromDay + 1) });
