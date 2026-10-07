@@ -33,10 +33,10 @@ env:
   # book links still work but carry no tag and the site shows no Associates disclosure. Fill
   # each in when that store's application is approved.
   - variable: NEXT_PUBLIC_AMZ_TAG_US
-    value: ""
+    value: "nihongopath-20"
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_AMZ_TAG_IN
-    value: ""
+    value: "nihongopath-21"
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_AMZ_TAG_JP
     value: ""
