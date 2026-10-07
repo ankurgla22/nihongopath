@@ -39,7 +39,7 @@ env:
     value: "nihongopath-21"
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_AMZ_TAG_JP
-    value: ""
+    value: "nihongopath-22"
     availability: [BUILD, RUNTIME]
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
     value: AIzaSyCJoIkLkG1eLQsPZSXGchk0XSyMGunEYJI
