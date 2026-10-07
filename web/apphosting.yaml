@@ -23,15 +23,18 @@ env:
   - variable: NEXT_PUBLIC_SITE_URL
     value: https://nihongopath.app
     availability: [BUILD, RUNTIME]
-  # GA4 measurement id. Analytics is off until this holds a real "G-…" value: layout.tsx injects
-  # nothing when it is unset, so previews and local builds stay cookie-free. Needed at BUILD because
-  # NEXT_PUBLIC_* values are inlined into the client bundle at compile time.
+  # GA4 measurement id. Analytics is off when this is absent: layout.tsx injects nothing when it
+  # is unset, so previews and local builds stay cookie-free. Needed at BUILD because NEXT_PUBLIC_*
+  # values are inlined into the client bundle at compile time. (To turn analytics off, remove the
+  # variable — see the note on empty values below.)
   - variable: NEXT_PUBLIC_GA_ID
     value: "G-0XMMEPH4F7"
     availability: [BUILD, RUNTIME]
-  # Amazon Associates tags, one per store (the programme is per marketplace). Empty means the
-  # book links still work but carry no tag and the site shows no Associates disclosure. Fill
-  # each in when that store's application is approved.
+  # Amazon Associates tags, one per store (the programme is per marketplace). To leave a store
+  # untagged, REMOVE its variable rather than setting value: "" — App Hosting rejects an empty
+  # value ("either 'value' or 'secret' field is required") and the rollout fails before any
+  # code runs; it cost one deploy already. An absent variable means the links still work but
+  # carry no tag and the site shows no Associates disclosure. tests/apphosting.test.ts checks.
   - variable: NEXT_PUBLIC_AMZ_TAG_US
     value: "nihongopath-20"
     availability: [BUILD, RUNTIME]
