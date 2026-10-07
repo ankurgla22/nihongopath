@@ -2,6 +2,7 @@
  * Validates every content file against its Zod schema and checks cross-references.
  * Run: npm run validate:content   (exit code 1 on any error)
  */
+import { execFileSync } from "node:child_process";
 import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
@@ -183,6 +184,45 @@ if (fs.existsSync(curriculumFile)) {
             if (!contentIds.has(id)) errors.push(`curriculum day ${d.day}: ${t.type} task references missing content ${id}`);
   }
 }
+/**
+ * Freshness manifest. The sitemap's lastmod, the schema's dateModified and the visible "Updated"
+ * date all come from content/lastmod.json, generated from git by scripts/content-lastmod.mjs.
+ * It had not been regenerated since 25 September while thousands of items changed after that:
+ * 13,383 pages told search engines they were older than they were, and the 140 comparison pages,
+ * absent from the file, reported the build time — a date that moved on every deploy, which is
+ * exactly what makes search engines stop trusting lastmod. Two checks: every published id must be
+ * in the manifest, and no content commit may be newer than the manifest's own commit.
+ */
+{
+  const manifestFile = path.join(CONTENT, "lastmod.json");
+  if (!fs.existsSync(manifestFile)) errors.push("content/lastmod.json is missing — run npm run content:lastmod");
+  else {
+    const manifest = JSON.parse(fs.readFileSync(manifestFile, "utf8")) as Record<string, string>;
+    const published = new Set(ids);
+    for (const level of ["n5", "n4", "n3", "n2", "n1"])
+      for (const file of ["grammar-base.json", "vocabulary.json", "kanji.json"]) {
+        const p = path.join(CONTENT, level, file);
+        if (fs.existsSync(p)) for (const item of JSON.parse(fs.readFileSync(p, "utf8"))) if (item?.id) published.add(item.id);
+      }
+    const compare = path.join(CONTENT, "vocab-compare.json");
+    if (fs.existsSync(compare)) for (const item of JSON.parse(fs.readFileSync(compare, "utf8"))) if (item?.id) published.add(item.id);
+    const missing = [...published].filter((id) => !(id in manifest));
+    if (missing.length) errors.push(`${missing.length} published item(s) have no lastmod entry (e.g. ${missing.slice(0, 3).join(", ")}) — run npm run content:lastmod`);
+
+    // Stale dates: content committed after the manifest was. Skipped where git is unavailable
+    // (the hosted build has no history); it runs in npm run check, which is where it matters.
+    try {
+      const git = (...args: string[]) => execFileSync("git", args, { cwd: CONTENT, encoding: "utf8" }).trim();
+      const manifestAt = git("log", "-1", "--format=%cI", "--", "lastmod.json");
+      const contentAt = git("log", "-1", "--format=%cI", "--", ".", ":(exclude)lastmod.json");
+      if (manifestAt && contentAt && contentAt > manifestAt)
+        errors.push(`content changed at ${contentAt} but lastmod.json was last generated at ${manifestAt} — run npm run content:lastmod and commit it with the content`);
+    } catch {
+      warnings.push("lastmod staleness check skipped (git unavailable)");
+    }
+  }
+}
+
 for (const { from, qid } of refs) if (!questionIds.has(qid)) errors.push(`${from} references missing question ${qid}`);
 for (const q of questions) {
   if (q.answerIndex >= q.options.length) errors.push(`${q.id}: answerIndex out of range`);
