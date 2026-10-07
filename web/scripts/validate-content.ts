@@ -164,6 +164,23 @@ if (fs.existsSync(curriculumFile)) {
         if (t.type === "kana")
           for (const id of t.contentIds)
             if (!foundationIds.has(id)) (fs.existsSync(foundationDir) ? errors : warnings).push(`curriculum day ${d.day}: kana task references missing foundation lesson ${id}`);
+    // Every other task's content must exist too. Re-bucketing renames ids — 固い became
+    // n4-vocab-708 when the kata-i spellings were split — and the curriculum kept the old one,
+    // so two days pointed at a word with no page. `ids` holds only the overlay directories (the
+    // base files are not collected there, to keep the duplicate-id check honest), so the base
+    // entries are read directly here.
+    const contentIds = new Set(ids);
+    for (const level of ["n5", "n4", "n3", "n2", "n1"])
+      for (const file of ["grammar-base.json", "vocabulary.json", "kanji.json"]) {
+        const p = path.join(CONTENT, level, file);
+        if (!fs.existsSync(p)) continue;
+        for (const item of JSON.parse(fs.readFileSync(p, "utf8"))) if (item?.id) contentIds.add(item.id);
+      }
+    for (const d of r.data.days)
+      for (const t of d.tasks)
+        if (t.type !== "kana")
+          for (const id of t.contentIds)
+            if (!contentIds.has(id)) errors.push(`curriculum day ${d.day}: ${t.type} task references missing content ${id}`);
   }
 }
 for (const { from, qid } of refs) if (!questionIds.has(qid)) errors.push(`${from} references missing question ${qid}`);
