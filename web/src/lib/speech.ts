@@ -29,6 +29,28 @@ if (typeof window !== "undefined" && "speechSynthesis" in window) {
   });
 }
 
+/**
+ * Whether this browser can actually say Japanese. Speech synthesis being present is not enough:
+ * without a Japanese voice installed (Windows without the language pack, most Linux desktops)
+ * the browser reads kanji and kana with an English voice — silence or gibberish — while every
+ * control looks like it is working. "unknown" means the voice list has not loaded yet, which
+ * happens on first use in Chrome; callers should treat it as available and re-check on
+ * `voiceschanged` (see onVoicesChanged).
+ */
+export function japaneseVoiceStatus(): "unknown" | "available" | "missing" {
+  if (!speechSupported()) return "missing";
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices.length) return "unknown";
+  return voices.some((v) => v.lang.toLowerCase().startsWith("ja")) ? "available" : "missing";
+}
+
+/** Run `cb` when the voice list changes (it loads asynchronously). Returns an unsubscribe. */
+export function onVoicesChanged(cb: () => void): () => void {
+  if (!speechSupported() || !window.speechSynthesis.addEventListener) return () => {};
+  window.speechSynthesis.addEventListener("voiceschanged", cb);
+  return () => window.speechSynthesis.removeEventListener("voiceschanged", cb);
+}
+
 export type SpeakOptions = { rate?: number; onStart?: () => void; onEnd?: () => void };
 
 /** Speak Japanese text. Returns a stop function. */

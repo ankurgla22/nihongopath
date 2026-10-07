@@ -214,6 +214,9 @@ function TtsAudio({
   minimal: boolean;
 }) {
   const [supported, setSupported] = useState<boolean | null>(null);
+  // Set when the API exists but no Japanese voice does: the player would otherwise "play" the
+  // script in an English voice, which is silence or gibberish, with every control looking fine.
+  const [noJapaneseVoice, setNoJapaneseVoice] = useState(false);
   const [status, setStatus] = useState<"idle" | "playing" | "waiting" | "paused" | "done">("idle");
   const [current, setCurrent] = useState(-1);
   const voiceRef = useRef<SpeechSynthesisVoice | undefined>(undefined);
@@ -234,6 +237,9 @@ function TtsAudio({
     if (!ok) return;
     const load = () => {
       voiceRef.current = pickJaVoice();
+      // An empty list means the voices have not loaded yet (Chrome, first use); only a loaded
+      // list with no Japanese voice is the real failure.
+      setNoJapaneseVoice(window.speechSynthesis.getVoices().length > 0 && !voiceRef.current);
     };
     load();
     window.speechSynthesis.addEventListener("voiceschanged", load);
@@ -300,10 +306,12 @@ function TtsAudio({
     [lines, rate, shadowing]
   );
 
-  if (supported === false) {
+  if (supported === false || noJapaneseVoice) {
     return (
       <div className="bg-warn-soft border border-warn/30 rounded-2xl px-4 py-3.5 text-sm text-ink-2 leading-relaxed">
-        Your browser does not support speech synthesis, so this exercise cannot be played aloud here. You can still read the transcript and answer the questions.
+        {noJapaneseVoice
+          ? "This browser has no Japanese voice installed, so the lines cannot be read aloud here. Add Japanese in your system's speech or language settings, or try another browser. You can still read the transcript and answer the questions."
+          : "Your browser does not support speech synthesis, so this exercise cannot be played aloud here. You can still read the transcript and answer the questions."}
       </div>
     );
   }

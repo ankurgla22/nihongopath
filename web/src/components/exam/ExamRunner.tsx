@@ -94,16 +94,27 @@ function isAnswered(a: ExamAnswerState | undefined): boolean {
   return a !== undefined && a.selectedIndex !== null;
 }
 
-function speakScript(text: string, onEnd: () => void): boolean {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return false;
+/**
+ * Why the script cannot be read aloud. "no-voice" is the case the old boolean hid: the API
+ * exists but no Japanese voice is installed, so the browser read the script in an English voice
+ * — silent or gibberish — while "Play script" showed as playing. A listening section the
+ * learner cannot hear, with no explanation, is the worst of both.
+ */
+type TtsProblem = "unsupported" | "no-voice";
+
+function speakScript(text: string, onEnd: () => void): TtsProblem | "ok" {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) return "unsupported";
   window.speechSynthesis.cancel();
   const lines = text
     .split("\n")
     .map((l) => l.replace(/^(男の人|女の人|男|女|先生|学生|店員|客|A|B)[：:]\s*/u, "").trim())
     .filter(Boolean);
-  if (lines.length === 0) return false;
+  if (lines.length === 0) return "unsupported";
   const voices = window.speechSynthesis.getVoices();
   const voice = voices.find((v) => v.lang === "ja-JP") ?? voices.find((v) => v.lang.toLowerCase().startsWith("ja"));
+  // An empty list means the voices have not loaded yet (Chrome, first use): speak anyway and
+  // let the browser pick. A loaded list with no Japanese voice is the real failure.
+  if (voices.length > 0 && !voice) return "no-voice";
   lines.forEach((line, i) => {
     const u = new SpeechSynthesisUtterance(line);
     u.lang = "ja-JP";
@@ -113,7 +124,7 @@ function speakScript(text: string, onEnd: () => void): boolean {
     u.onerror = onEnd;
     window.speechSynthesis.speak(u);
   });
-  return true;
+  return "ok";
 }
 
 function FlagIcon({ className = "", filled = false }: { className?: string; filled?: boolean }) {
@@ -166,7 +177,7 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
   const [startedAt, setStartedAt] = useState("");
   const [showScript, setShowScript] = useState(false);
   const [speaking, setSpeaking] = useState(false);
-  const [ttsUnavailable, setTtsUnavailable] = useState(false);
+  const [ttsProblem, setTtsProblem] = useState<TtsProblem | null>(null);
   /** Presentation only: question navigator drawer on small screens. */
   const [navOpen, setNavOpen] = useState(false);
 
@@ -483,9 +494,12 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
       setSpeaking(false);
       return;
     }
-    const ok = speakScript(currentQuestion.context, () => setSpeaking(false));
-    if (!ok) setTtsUnavailable(true);
-    else setSpeaking(true);
+    const result = speakScript(currentQuestion.context, () => setSpeaking(false));
+    if (result !== "ok") setTtsProblem(result);
+    else {
+      setTtsProblem(null);
+      setSpeaking(true);
+    }
   };
 
   /* ======================= render ======================= */
@@ -851,7 +865,13 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
                     {showScript ? "Hide script" : "Show script"}
                   </Button>
                   {!answered && <span className="text-xs text-muted">Script unlocks after you answer.</span>}
-                  {ttsUnavailable && <span className="text-xs text-warn">Text-to-speech is not available in this browser.</span>}
+                  {ttsProblem === "unsupported" && <span className="text-xs text-warn">Text-to-speech is not available in this browser.</span>}
+                  {ttsProblem === "no-voice" && (
+                    <span className="text-xs text-warn">
+                      This browser has no Japanese voice installed, so the script cannot be read aloud. Add Japanese in your system&rsquo;s speech or language
+                      settings, or try another browser; you can still answer from the script after this question.
+                    </span>
+                  )}
                 </div>
                 {showScript && answered && (
                   <div lang="ja" className="ja mt-3 text-base leading-relaxed whitespace-pre-line border-t border-line pt-3">

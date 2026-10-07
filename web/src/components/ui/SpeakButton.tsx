@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { speakJapanese, speechSupported, stopSpeaking } from "@/lib/speech";
+import { japaneseVoiceStatus, onVoicesChanged, speakJapanese, speechSupported, stopSpeaking } from "@/lib/speech";
 
 type Props = {
   /** Japanese text to read aloud. */
@@ -25,7 +25,14 @@ export function SpeakButton({ text, size = "sm", label = false, rate, className 
   const [playing, setPlaying] = useState(false);
   const [supported, setSupported] = useState(true);
   const playingRef = useRef(false);
-  useEffect(() => setSupported(speechSupported()), []);
+  // "Supported" means it can say Japanese, not just that the API exists: a button that plays an
+  // English voice over kanji is worse than no button. The voice list loads late in Chrome, so
+  // re-check when it arrives rather than hiding the button on first paint.
+  useEffect(() => {
+    const check = () => setSupported(speechSupported() && japaneseVoiceStatus() !== "missing");
+    check();
+    return onVoicesChanged(check);
+  }, []);
   // Speech outlives the DOM: without this, tapping a word and then moving on (Next question,
   // or a link to another page) leaves the old sentence being read over the new screen, with no
   // visible control to stop it, because the button that owned the state is gone.

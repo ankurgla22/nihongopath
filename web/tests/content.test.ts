@@ -130,11 +130,21 @@ describe("content: curriculum", () => {
     expect(days).toEqual(Array.from({ length: 270 }, (_, i) => i + 1));
   });
 
-  it("each day has between 90 and 240 minutes of tasks", () => {
+  // Days 1–7 are the kana week. They used to reach 90 minutes only by carrying a reading and a
+  // listening task with nothing in them, for a learner who could not yet read kana; those are
+  // gone, and a lighter first week is the honest shape, not a shortfall to pad back.
+  it("each day has between 90 and 240 minutes of tasks (60 in the kana week)", () => {
     const bad = curriculum.days
       .map((d) => ({ day: d.day, minutes: d.tasks.reduce((sum, t) => sum + t.minutes, 0) }))
-      .filter((d) => d.minutes < 90 || d.minutes > 240);
+      .filter((d) => d.minutes < (d.day <= 7 ? 60 : 90) || d.minutes > 240);
     expect(bad).toEqual([]);
+  });
+
+  it("the kana week carries no empty reading or listening task", () => {
+    const empty = curriculum.days
+      .filter((d) => d.day <= 7)
+      .flatMap((d) => d.tasks.filter((t) => (t.type === "reading" || t.type === "listening") && t.contentIds.length === 0).map((t) => `${d.day}:${t.type}`));
+    expect(empty).toEqual([]);
   });
 
   it("every day belongs to a declared phase whose range contains it", () => {

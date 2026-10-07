@@ -310,9 +310,12 @@ function buildPhase(phase: PhaseCfg): CurriculumDay[] {
       if (catchUp && !ids.includes(catchUp)) ids.push(catchUp);
       tasks.push({ type: "reading", minutes: MIN.reading + (ids.length - 1) * 10, contentIds: ids });
       objectives.push(`Reading passage${ids.length > 1 ? "s" : ""} ${ids.map((rid) => rid.replace(/^n\d-reading-/, (m) => m.slice(0, 2).toUpperCase() + " #")).join(", ")}`);
-    } else {
+    } else if (!(isN5 && day <= firstPassageDay)) {
+      // Days 1–7 are kana-only: a 20-minute reading task with nothing in it, for someone who
+      // cannot yet read kana, made Day 1 a 115-minute plan of which 40 minutes pointed at
+      // nothing. The kana lessons and quiz are the reading practice that week.
       tasks.push({ type: "reading", minutes: M.reading, contentIds: [] });
-      objectives.push(day <= 7 ? "Free reading: kana words and short kana passages" : "Free reading: graded reader / kana-and-kanji passages");
+      objectives.push("Free reading: graded reader / kana-and-kanji passages");
     }
 
     // Listening
@@ -322,9 +325,9 @@ function buildPhase(phase: PhaseCfg): CurriculumDay[] {
       if (catchUp && !ids.includes(catchUp)) ids.push(catchUp);
       tasks.push({ type: "listening", minutes: MIN.listening + (ids.length - 1) * 10, contentIds: ids });
       objectives.push(`Listening exercise${ids.length > 1 ? "s" : ""} ${ids.map((lid) => lid.replace(/^n(\d)-listening-/, (_m: string, d: string) => "N" + d + " #")).join(", ")}: listen, check, read transcript, shadow`);
-    } else {
+    } else if (!(isN5 && day <= firstPassageDay)) {
       tasks.push({ type: "listening", minutes: M.listening, contentIds: [] });
-      objectives.push(day <= 7 ? "Listening block: kana sounds, greetings and numbers (listen and repeat)" : "Listening block: NHK Easy / beginner audio (30 min, read then listen)");
+      objectives.push("Listening block: NHK Easy / beginner audio (30 min, read then listen)");
     }
 
     // Review + assessment
