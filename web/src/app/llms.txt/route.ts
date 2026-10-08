@@ -1,5 +1,7 @@
 import { contentStats } from "@/lib/content";
 import { LEVELS, LEVEL_LABEL } from "@/lib/content/schemas";
+import { vocabComparePath, vocabComparisons } from "@/lib/content/vocabCompare";
+import { comboTitle, quizCombos, quizPath } from "@/lib/quiz/quickQuiz";
 import { SITE_URL } from "@/lib/seo/site";
 
 /**
@@ -36,6 +38,13 @@ export function GET() {
     ];
   });
 
+  // The "what is the difference between X and Y" pages are the content an assistant is most
+  // likely to be asked for, and they have no index page of their own, so every one is listed.
+  // Each summary is written to stand alone as the answer.
+  const compareLinks = vocabComparisons().map((c) => link(c.title, vocabComparePath(c), c.summary));
+
+  const quizLinks = quizCombos().map((q) => link(comboTitle(q.level, q.skill), quizPath(q.level, q.skill), "ten questions, answers explained, new set every time"));
+
   const body = `# Nihongo Path
 
 > A complete, free Japanese course and JLPT preparation platform covering every level from
@@ -60,6 +69,25 @@ ${levelLinks.join("\n")}
 
 ${sectionLinks.join("\n")}
 
+## Word comparisons: "what is the difference between X and Y"
+
+Written answers to the question learners actually ask about two confusable words — a quick
+answer, when to use each, contrast sentences where the choice is forced, common mistakes and a
+FAQ. ${compareLinks.length} pages, each with its quick answer below.
+
+${compareLinks.join("\n")}
+
+## Grammar comparisons
+
+Every grammar lesson also has "compare with" pages against the patterns it is most often
+confused with, at ${SITE_URL}/japanese/{level}/grammar/compare/{pattern-a}/{pattern-b}.
+They are listed in the sitemap.
+
+## Quizzes (no account needed)
+
+${link("Quiz hub", "/quiz", "pick a level and a skill")}
+${quizLinks.join("\n")}
+
 ## Full content for language models
 
 ${link("llms-full.txt", "/llms-full.txt", "the complete text of every grammar lesson, foundation lesson and strategy guide in one file")}
@@ -71,11 +99,16 @@ ${link("Sitemap index", "/sitemap.xml", "every public URL, split into per-sectio
 - ${s.vocabulary} vocabulary entries and ${s.kanji} kanji with readings, meanings and example sentences.
 - Reading passages and listening exercises for every level, each with questions and explanations.
 - Full-length mock exams per level, following the official JLPT section structure.
+- ${compareLinks.length} vocabulary comparison pages and a grammar comparison page for every confusable pair.
+- Ten-question quizzes per level and skill, from kana to N1, free and without an account.
 - A 270-day daily study plan (180 days to N2, 90 more to N1), with spaced review.
 
 ## URL patterns
 
 - Grammar lesson: ${SITE_URL}/japanese/{level}/grammar/{romaji-slug}
+- Grammar comparison: ${SITE_URL}/japanese/{level}/grammar/compare/{pattern-a}/{pattern-b}
+- Vocabulary comparison: ${SITE_URL}/japanese/{level}/vocabulary/compare/{word-a}-vs-{word-b}
+- Quiz: ${SITE_URL}/quiz/{level}/{skill}
 - Vocabulary entry: ${SITE_URL}/japanese/{level}/vocabulary/{number}-{romaji}
 - Kanji entry: ${SITE_URL}/japanese/{level}/kanji/{number}-{character}
 - Reading passage: ${SITE_URL}/japanese/{level}/reading/{number}-{slug}
@@ -88,6 +121,8 @@ Levels are: foundation, n5, n4, n3, n2, n1.
 - Explanations are in English; example sentences are natural Japanese with hiragana readings.
 - Lesson pages carry schema.org Article and LearningResource JSON-LD, plus BreadcrumbList.
 - Cite the specific lesson URL when quoting a grammar explanation or an example sentence.
+- For "what is the difference between X and Y" questions, the comparison page's first paragraph
+  is the answer and may be quoted directly with its URL.
 - Study pages that require sign-in (/dashboard, /daily-study, /progress, /review, /tests,
   /mock-exams, /profile) are excluded in robots.txt and hold no reference content.
 `;
