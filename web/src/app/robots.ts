@@ -11,6 +11,21 @@ import { SITE_URL } from "@/lib/seo/site";
 const PRIVATE = ["/dashboard", "/daily-study", "/progress", "/history", "/tests", "/mock-exams", "/review", "/saved", "/profile", "/api", "/login", "/signup", "/forgot-password"];
 
 /**
+ * Next.js prefetches pages as `<url>?_rsc=<hash>`. A browser needs those; a crawler does not, and
+ * the ones that run JavaScript (OpenAI's search bot, Meta's) were recording the prefetches as
+ * URLs and fetching them as pages — 10% of all requests in the logs, every one a duplicate of a
+ * page they already had. Both forms, since the token can follow another parameter.
+ */
+const PREFETCH = ["/*?_rsc=", "/*&_rsc="];
+
+/**
+ * Crawlers that take and give nothing back: they scrape the site to sell backlink data. Together
+ * they were a fifth of all requests. Both document that they honour a robots.txt disallow.
+ * (Semrush and Ahrefs are deliberately not here — their data is useful to the site's owner.)
+ */
+const SCRAPERS = ["MJ12bot", "SERankingBacklinksBot"];
+
+/**
  * Search and AI crawlers that fetch pages to answer questions or build indexes. Listed
  * explicitly (each with the same allow/disallow) so that a future blanket rule for some
  * other agent can never accidentally exclude them.
@@ -34,8 +49,9 @@ const CRAWLERS = [
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      ...CRAWLERS.map((userAgent) => ({ userAgent, allow: "/", disallow: PRIVATE })),
-      { userAgent: "*", allow: "/", disallow: PRIVATE },
+      ...SCRAPERS.map((userAgent) => ({ userAgent, disallow: "/" })),
+      ...CRAWLERS.map((userAgent) => ({ userAgent, allow: "/", disallow: [...PRIVATE, ...PREFETCH] })),
+      { userAgent: "*", allow: "/", disallow: [...PRIVATE, ...PREFETCH] },
     ],
     // Only the index. It already points at every child sitemap, so listing the children here as
     // well just repeats 26 lines a crawler would fetch anyway.
