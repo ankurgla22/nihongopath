@@ -98,6 +98,29 @@ const nextConfig = {
       { source: "/:path*", missing: [local], headers: securityHeaders },
     ];
   },
+  async redirects() {
+    // Next.js prefetches pages as `<url>?_rsc=<hash>`, and the browser sends an `RSC: 1` header
+    // with each one. Crawlers that run JavaScript see those URLs and fetch them *without* the
+    // header, getting a full HTML render of a page they already hold — and since the hash varies,
+    // there is no end to them. Meta's crawler did that on 8 October: 68,952 requests in a day,
+    // 93% of all traffic, 63,000 distinct URLs. robots.txt disallows ?_rsc= too, but that storm
+    // began five hours after the rule went live.
+    //
+    // This has to be a config redirect, not middleware: Next strips `_rsc` from the URL before
+    // middleware ever sees it (stripInternalSearchParams in the middleware adapter), so a
+    // middleware check can never fire. The config router does see it, and prepareDestination drops
+    // `_rsc` from the destination query while keeping every other parameter — so no loop, and
+    // `?page=2&_rsc=x` lands on `?page=2`. A browser's own prefetch carries the header and is
+    // untouched.
+    // Two rules, not one `/:path*`: with zero segments that pattern compiles to an empty
+    // destination and the homepage answered with a blank Location header — a broken redirect on
+    // the one page that matters most. Seen on a dev server before shipping.
+    const prefetchFromACrawler = { has: [{ type: "query", key: "_rsc" }], missing: [{ type: "header", key: "rsc" }], permanent: true };
+    return [
+      { source: "/", destination: "/", ...prefetchFromACrawler },
+      { source: "/:path+", destination: "/:path+", ...prefetchFromACrawler },
+    ];
+  },
   async rewrites() {
     // The conventional sitemap URL. Next's generateSitemaps() owns "/sitemap.xml[[...id]]" for the
     // per-section parts, so the index lives at /sitemap-index.xml and is rewritten here.
