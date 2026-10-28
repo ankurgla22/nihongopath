@@ -121,7 +121,8 @@ export function QuickQuiz({
   }, [finished, bestKey, score, best, questions]);
 
   // Once per round each: the first answer, and reaching the result screen.
-  useEffect(() => { if (answers.length === 1) track("quiz_start", { quiz: "quick" }); }, [answers.length]);
+  const started = answers.length > 0;
+  useEffect(() => { if (started) track("quiz_start", { quiz: "quick" }); }, [started]);
   useEffect(() => { if (finished && questions.length > 0) track("quiz_complete", { quiz: "quick" }); }, [finished, questions.length]);
 
   // Only reposition when a round starts. Doing it on every question re-ran the settle loop and
