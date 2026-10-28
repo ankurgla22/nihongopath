@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Arrow, Button } from "@/components/ui";
 import { scrollUnderHeader } from "@/lib/ui/scrollUnderHeader";
 import { QUIZ_LENGTH, type QuizQuestion } from "@/lib/quiz/shared";
+import { track } from "@/lib/analytics";
 
 /**
  * The public ten-question quiz: pick, answer, see why, go again.
@@ -118,6 +119,10 @@ export function QuickQuiz({
       try { window.localStorage.setItem(bestKey, String(score)); } catch { /* ignore */ }
     }
   }, [finished, bestKey, score, best, questions]);
+
+  // Once per round each: the first answer, and reaching the result screen.
+  useEffect(() => { if (answers.length === 1) track("quiz_start", { quiz: "quick" }); }, [answers.length]);
+  useEffect(() => { if (finished && questions.length > 0) track("quiz_complete", { quiz: "quick" }); }, [finished, questions.length]);
 
   // Only reposition when a round starts. Doing it on every question re-ran the settle loop and
   // produced a visible second jump on mobile, where the body has barely moved anyway.

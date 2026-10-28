@@ -120,8 +120,9 @@ export default function PrivacyPage() {
         <Section id="analytics" title="Measuring page views">
           <p className="leading-relaxed text-ink-2">
             The site uses Google Analytics 4, provided by Google LLC, to count how many people read each page and which pages they arrive on. It records the page address,
-            the referring page, your approximate location from your IP address, and your device, browser and language. It does not record your name or email address, and
-            the study data listed above is never sent to it. Google Analytics is loaded on every page, whether or not you are signed in.
+            the referring page, your approximate location from your IP address, and your device, browser and language. It also records that you started or finished a
+            quiz or exercise, finished a mock exam, marked a lesson as learned, created an account or logged in, but never your answers or scores. It does not record your
+            name or email address, and the study data listed above is never sent to it. Google Analytics is loaded on every page, whether or not you are signed in.
           </p>
           <p className="mt-4 leading-relaxed text-ink-2">
             This is used only to decide which lessons to write next and which pages need fixing. The figures are not sold, and Google Signals, advertising features and

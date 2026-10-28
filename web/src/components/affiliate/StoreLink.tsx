@@ -6,8 +6,8 @@
  * the question an admin console would not have answered.
  */
 import { useEffect, useState } from "react";
-import { sendGAEvent } from "@next/third-parties/google";
 import { usePathname } from "next/navigation";
+import { track } from "@/lib/analytics";
 import { bookUrl, DEFAULT_STORE, inferStore, isStoreId, STORE_IDS, STORE_STORAGE_KEY, STORES, type BookStoreEntry, type StoreId } from "@/lib/affiliate/stores";
 
 type Props = { bookId: string; stores: Partial<Record<StoreId, BookStoreEntry>>; title: string };
@@ -50,7 +50,7 @@ export function StoreLink({ bookId, stores, title }: Props) {
         href={href}
         rel="sponsored nofollow noopener"
         target="_blank"
-        onClick={() => sendGAEvent("event", "affiliate_click", { book: bookId, store: active, page: pathname })}
+        onClick={() => track("affiliate_click", { book: bookId, store: active, page: pathname })}
         className="inline-flex h-9 items-center gap-1.5 rounded-full bg-accent px-4 text-sm font-medium text-white transition hover:opacity-90 active:scale-[0.98]"
       >
         Buy on {s.name}

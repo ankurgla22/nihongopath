@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useAuth } from "@/components/auth/AuthProvider";
 import type { ProgressDoc, Skill } from "@/lib/firestore/types";
+import { track } from "@/lib/analytics";
 
 // Firestore is loaded on demand so public lesson pages do not ship the SDK for signed-out visitors.
 // The study service pulls Firestore in with it, so it is loaded the same way.
@@ -61,6 +62,7 @@ export function MarkComplete({ contentId, type, level, href }: Props) {
       const { completeLesson } = await service();
       const result = await completeLesson(user.uid, contentId, type, level);
       setLogged(result.alreadyDone ? null : result.minutes);
+      if (!result.alreadyDone) track("lesson_complete", { type, level });
       setDone(true);
     } finally {
       setBusy(false);

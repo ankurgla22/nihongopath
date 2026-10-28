@@ -10,6 +10,7 @@ import type { Question } from "@/lib/content/schemas";
 import { SpeakButton } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
 import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
+import { track } from "@/lib/analytics";
 
 function ScoreRing({ pct }: { pct: number }) {
   const r = 34;
@@ -53,11 +54,13 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
 
   const choose = (idx: number) => {
     if (selected !== null) return;
+    if (answers.length === 0) track("quiz_start", { quiz: "lesson" });
     setSelected(idx);
     setAnswers((a) => [...a, idx === q.answerIndex]);
   };
 
   const next = () => {
+    if (i + 1 >= questions.length) track("quiz_complete", { quiz: "lesson" });
     setSelected(null);
     setI((n) => n + 1);
   };

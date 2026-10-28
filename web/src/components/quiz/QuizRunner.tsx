@@ -26,6 +26,7 @@ import { JA_RE, isQueuedError, type ContentLinks } from "@/components/study/help
 import { Arrow, Button, Callout, Kbd, SpeakButton } from "@/components/ui";
 import { Ring } from "@/components/progress/shared";
 import { cleanNote, wrongOptionNotes } from "@/lib/questions/notes";
+import { track } from "@/lib/analytics";
 import { clearAttempt } from "./attempt";
 
 export type QuizRunnerProps = {
@@ -188,6 +189,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
     async (all: SubmittedAnswer[]) => {
       setFinished(true);
       clearSaved(storageKey);
+      track("quiz_complete", { quiz: mode });
       const totalSeconds = all.reduce((n, a) => n + a.seconds, 0);
       setSaveState({ status: "saving" });
       try {
@@ -198,7 +200,7 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
         else setSaveState({ status: "error", message: err instanceof Error ? err.message : "Could not save this result." });
       }
     },
-    [onComplete, storageKey]
+    [onComplete, storageKey, mode]
   );
 
   const commit = useCallback(

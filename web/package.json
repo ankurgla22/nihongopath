@@ -24,6 +24,8 @@
     "test:seo": "node tests/seo-audit.mjs",
     "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy.ps1",
     "seo:indexnow": "node scripts/indexnow.mjs",
+    "ga:config": "node scripts/ga-config.mjs",
+    "ga:report": "node scripts/ga-config.mjs --report",
     "content:lastmod": "node scripts/content-lastmod.mjs"
   },
   "dependencies": {

@@ -4,6 +4,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState, type FormEvent } from "react";
 import { Button, Callout } from "@/components/ui";
 import { getClientAuth } from "@/lib/firebase/client";
+import { track } from "@/lib/analytics";
 import { useAuth } from "./AuthProvider";
 import { AuthField, GoogleButton, OrDivider } from "./AuthField";
 import { NotConfigured } from "./NotConfigured";
@@ -36,9 +37,11 @@ export function SignupForm() {
     setBusy(true);
     setError(null);
     try {
-      const { GoogleAuthProvider, browserPopupRedirectResolver, signInWithPopup } = await import("firebase/auth");
+      const { GoogleAuthProvider, browserPopupRedirectResolver, getAdditionalUserInfo, signInWithPopup } = await import("firebase/auth");
       // The resolver is passed here, not registered globally, so only this click loads the popup machinery.
       const cred = await signInWithPopup((await getClientAuth()), new GoogleAuthProvider(), browserPopupRedirectResolver);
+      // An existing Google account signing up again is really a log-in.
+      track(getAdditionalUserInfo(cred)?.isNewUser ? "sign_up" : "login", { method: "google" });
       await finish(cred.user);
     } catch (e) {
       setError(friendlyAuthError(e));
@@ -55,6 +58,7 @@ export function SignupForm() {
     try {
       const { createUserWithEmailAndPassword, updateProfile } = await import("firebase/auth");
       const cred = await createUserWithEmailAndPassword((await getClientAuth()), email.trim(), password);
+      track("sign_up", { method: "email" });
       await updateProfile(cred.user, { displayName: name.trim() });
       await cred.user.reload();
       await finish((await getClientAuth()).currentUser ?? cred.user);

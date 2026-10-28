@@ -6,6 +6,7 @@ import type { Question } from "@/lib/content/schemas";
 import { Button, Callout, Speakable } from "@/components/ui";
 import { JA_RE } from "@/components/study/helpers";
 import { wrongOptionNotes } from "@/lib/questions/notes";
+import { track } from "@/lib/analytics";
 
 const TYPE_LABEL: Record<Question["type"], string> = {
   mc: "Choose the best answer",
@@ -60,6 +61,7 @@ export function QuestionSet({
 
   function check() {
     setChecked(true);
+    track("exercise_complete", {});
     onSubmit?.({ correct, total: questions.length });
     // Checking expands an explanation under every question above this button, inserting several
     // hundred pixels of content above the scroll position, so the score lands off screen and the

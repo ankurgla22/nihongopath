@@ -21,6 +21,7 @@ import { useAuth } from "@/components/auth/AuthProvider";
 import { Arrow, Badge, Button, Card, Callout, Kbd, SpeakButton, Stat } from "@/components/ui";
 
 import { JA_RE } from "@/components/study/helpers";
+import { track } from "@/lib/analytics";
 import { examTitle, sectionGloss } from "./examLabels";
 import { examStateKey, formatClock, PromptText, saveSessionResult, typeLabel, type ExamAnswerState, type StoredExamResult } from "./shared";
 
@@ -296,12 +297,14 @@ export function ExamRunner({ exam, questions }: { exam: ExamBlueprint; questions
       }
       try {
         const result = await completeExam({ uid, result: score, curriculumDay });
+        track("exam_complete", { mode: chosenMode });
         saveSessionResult(result);
         clearSavedState();
         router.push(`/mock-exams/history/${result.id}`);
       } catch (err) {
         const queued = err as { queued?: boolean; result?: StoredExamResult };
         if (queued?.queued && queued.result) {
+          track("exam_complete", { mode: chosenMode });
           saveSessionResult({ ...queued.result, offline: true });
           clearSavedState();
           router.push(`/mock-exams/history/${queued.result.id}?offline=1`);
