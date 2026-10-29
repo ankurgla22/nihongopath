@@ -197,7 +197,7 @@ function section(p) {
 }
 
 async function pages(property) {
-  const [views, scrolls] = await Promise.all([
+  const [views, depths] = await Promise.all([
     runReport(property, {
       dateRanges: [CURRENT],
       dimensions: [{ name: "pagePath" }],
@@ -206,31 +206,39 @@ async function pages(property) {
       orderBys: [{ metric: { metricName: "screenPageViews" }, desc: true }],
       limit: 500,
     }),
-    // Enhanced measurement sends `scroll` once per page when the visitor reaches 90% depth.
+    // read_depth (components/layout/ReadDepth): one event per mark reached, per page view.
     runReport(property, {
       dateRanges: [CURRENT],
-      dimensions: [{ name: "pagePath" }],
+      dimensions: [{ name: "pagePath" }, { name: "customEvent:depth" }],
       metrics: [{ name: "eventCount" }],
-      dimensionFilter: and(notBot, eventIs("scroll")),
-      limit: 500,
-    }),
+      dimensionFilter: and(notBot, eventIs("read_depth")),
+      limit: 2000,
+    }).catch(() => []), // the dimension is unknown to the Data API until ga-config has registered it
   ]);
-  const scrolled = new Map(scrolls.map((r) => [r.pagePath, r.eventCount]));
-  // GA has recorded no scroll event at all so far; a column of 0% would read as "nobody finishes".
-  const hasDepth = scrolls.length > 0;
+  const reached = (path, mark) => depths.find((d) => d.pagePath === path && d["customEvent:depth"] === String(mark))?.eventCount ?? 0;
+  // Before read_depth has data, a column of 0% would read as "nobody finishes".
+  const hasDepth = depths.length > 0;
   const top = views.slice(0, 20);
-  out("## Pages — time spent" + (hasDepth ? " and how many readers reach the end" : "") + "\n");
+  out("## Pages — time spent" + (hasDepth ? " and how far readers get" : "") + "\n");
   table(
-    ["Page", "Views", "Users", "Time/view", ...(hasDepth ? ["Read to 90%"] : [])],
-    top.map((r) => [short(r.pagePath), r.screenPageViews, r.activeUsers, secs(r.userEngagementDuration / r.screenPageViews), ...(hasDepth ? [pct((scrolled.get(r.pagePath) ?? 0) / r.screenPageViews)] : [])])
+    ["Page", "Views", "Users", "Time/view", ...(hasDepth ? ["Reach 50%", "Reach end"] : [])],
+    top.map((r) => [
+      short(r.pagePath),
+      r.screenPageViews,
+      r.activeUsers,
+      secs(r.userEngagementDuration / r.screenPageViews),
+      ...(hasDepth ? [pct(reached(r.pagePath, 50) / r.screenPageViews), pct(reached(r.pagePath, 100) / r.screenPageViews)] : []),
+    ])
   );
   for (const r of views) {
     if (r.screenPageViews < 5) continue;
     const t = r.userEngagementDuration / r.screenPageViews;
-    const depth = (scrolled.get(r.pagePath) ?? 0) / r.screenPageViews;
+    const half = reached(r.pagePath, 50) / r.screenPageViews;
+    const end = reached(r.pagePath, 100) / r.screenPageViews;
     const isLesson = /^\/japanese\/.+\/.+/.test(r.pagePath);
     if (isLesson && t < 15) find(2, "Page", `${r.pagePath}: ${r.screenPageViews} views but ${secs(t)} per view, too short to study a lesson. The page may not match what brought people in, or loads slowly on mobile.`);
-    if (hasDepth && isLesson && depth < 0.15 && t >= 15) find(1, "Page", `${r.pagePath}: readers stay ${secs(t)} but only ${pct(depth)} reach the end. Move the quiz or "next lesson" link higher, or split the page.`);
+    if (hasDepth && isLesson && t >= 15 && half < 0.3) find(2, "Page", `${r.pagePath}: readers stay ${secs(t)} but only ${pct(half)} get halfway. Something near the top stops them: check the first screen, and move the quiz or "next lesson" link higher.`);
+    else if (hasDepth && isLesson && t >= 15 && end < 0.15) find(1, "Page", `${r.pagePath}: ${pct(half)} get halfway but only ${pct(end)} reach the end. Consider splitting the page or moving the end-of-page quiz up.`);
     // Repeat views only mean something when they are read; zero-second repeats are automation.
     if (t >= 15 && r.screenPageViews / Math.max(1, r.activeUsers) >= 4) find(1, "Page", `${r.pagePath}: ${(r.screenPageViews / r.activeUsers).toFixed(1)} views per user. People come back to it repeatedly; make it easy to reach (header link, dashboard shortcut) and consider a printable or offline version.`);
   }

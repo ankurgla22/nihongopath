@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { JapaneseFont } from "@/components/layout/JapaneseFont";
 import { HeaderHeight } from "@/components/layout/HeaderHeight";
+import { ReadDepth } from "@/components/layout/ReadDepth";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { AuthProvider } from "@/components/auth/AuthProvider";
@@ -61,7 +62,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <SiteFooter />
           </UserDocProvider>
         </AuthProvider>
-        {GA_ID ? <GoogleAnalytics gaId={GA_ID} /> : null}
+        {GA_ID ? (
+          <>
+            <GoogleAnalytics gaId={GA_ID} />
+            <ReadDepth />
+          </>
+        ) : null}
       </body>
     </html>
   );

@@ -252,9 +252,12 @@ export function QuizRunner({ questions, title, onComplete, mode = "practice", st
   const bodyRef = useRef<HTMLDivElement>(null);
   const resultRef = useRef<HTMLDivElement>(null);
   const revealRef = useRef<HTMLDivElement>(null);
-  const settled = useRef(false);
+  // Don't yank the page on first paint. Compared with the last step shown, not a first-run flag,
+  // which StrictMode's double-run of mount effects defeats in dev.
+  const shownStep = useRef(`${index}:${finished}`);
   useEffect(() => {
-    if (!settled.current) { settled.current = true; return; } // don't yank the page on first paint
+    if (shownStep.current === `${index}:${finished}`) return;
+    shownStep.current = `${index}:${finished}`;
     // Finishing swaps the whole card for the result screen, which is shorter than the question it
     // replaces, so without this the score can render above the learner's scroll position.
     if (finished) scrollUnderHeader(resultRef.current);

@@ -23,6 +23,7 @@ const CUSTOM_DIMENSIONS = [
   { parameterName: "mode", displayName: "Exam mode", description: "full or single section (exam_complete)" },
   { parameterName: "book", displayName: "Affiliate book", description: "book id (affiliate_click)" },
   { parameterName: "store", displayName: "Affiliate store", description: "Amazon store id (affiliate_click)" },
+  { parameterName: "depth", displayName: "Read depth", description: "25, 50, 75 or 100 percent of the page (read_depth)" },
 ];
 
 // The default is two months, which makes every exploration older than that empty.

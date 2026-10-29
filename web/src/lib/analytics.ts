@@ -19,6 +19,8 @@ type Events = {
   lesson_complete: { type: string; level: string };
   exam_complete: { mode: "full" | "single" };
   affiliate_click: { book: string; store: string; page: string };
+  /** How far down the page the visitor scrolled; each mark once per page view (see ReadDepth). */
+  read_depth: { depth: 25 | 50 | 75 | 100 };
 };
 
 // Without a measurement id GoogleAnalytics is never mounted (see app/layout), and sendGAEvent

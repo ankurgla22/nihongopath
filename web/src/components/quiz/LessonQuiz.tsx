@@ -40,9 +40,12 @@ export function LessonQuiz({ questions, title = "Test yourself" }: { questions: 
   // The ref is on both the question card and the result card, which are different elements: with it
   // on the question card alone the final "See result" step scrolled nothing.
   const cardRef = useRef<HTMLDivElement>(null);
-  const painted = useRef(false);
+  // Compared with the last index shown, not a first-run flag: StrictMode runs mount effects twice
+  // in dev, and the second run scrolled the page down to the quiz as soon as a lesson loaded.
+  const shownI = useRef(i);
   useEffect(() => {
-    if (!painted.current) { painted.current = true; return; }
+    if (shownI.current === i) return;
+    shownI.current = i;
     scrollUnderHeader(cardRef.current);
   }, [i]);
 
