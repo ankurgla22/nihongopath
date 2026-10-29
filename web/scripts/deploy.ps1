@@ -47,6 +47,28 @@ function Run([string]$cmd) {
   if ($LASTEXITCODE -ne 0) { throw "Command failed (exit $LASTEXITCODE): $cmd" }
 }
 
+function Wait-Rollout([datetime]$Since, [int]$Minutes = 40) {
+  # Uses gcloud only for an access token; the Firebase CLI has no command that reads a rollout.
+  if (-not (Get-Command gcloud -ErrorAction SilentlyContinue)) {
+    throw "Rollout still running when the CLI gave up, and gcloud is not on PATH to follow it. Check https://console.firebase.google.com/project/$Project/apphosting"
+  }
+  $url = "https://firebaseapphosting.googleapis.com/v1beta/projects/$Project/locations/$Region/backends/$Backend/rollouts?pageSize=50"
+  $deadline = (Get-Date).AddMinutes($Minutes)
+  Write-Host "    The CLI stopped waiting; following the rollout (up to $Minutes min)..."
+  while ((Get-Date) -lt $deadline) {
+    $token = (cmd /c "gcloud auth print-access-token 2>nul" | Out-String).Trim()
+    $rollouts = (Invoke-RestMethod -Uri $url -Headers @{ Authorization = "Bearer $token" }).rollouts
+    $r = $rollouts | Where-Object { ([datetime]$_.createTime).ToUniversalTime() -ge $Since.AddMinutes(-1) } | Sort-Object createTime -Descending | Select-Object -First 1
+    if ($r) {
+      Write-Host "    rollout $($r.name.Split('/')[-1]): $($r.state)"
+      if ($r.state -eq "SUCCEEDED") { return }
+      if ($r.state -in @("FAILED", "CANCELLED")) { throw "App Hosting rollout $($r.state): $($r.error.message)" }
+    }
+    Start-Sleep -Seconds 30
+  }
+  throw "Rollout did not finish within $Minutes more minutes. Check https://console.firebase.google.com/project/$Project/apphosting"
+}
+
 # ---------------------------------------------------------------- 1. preflight
 Step "Preflight"
 foreach ($tool in @("node", "npm", "firebase")) {
@@ -118,10 +140,18 @@ if ($LASTEXITCODE -ne 0 -or $getOut -match 'not found') {
 
 # ---------------------------------------------------------------- 6. deploy
 Step "Deploy source to App Hosting (Cloud Build does a fresh build)"
+$deployStart = (Get-Date).ToUniversalTime()
 $deployOut = cmd /c "firebase deploy --only apphosting --project $Project --non-interactive --force 2>&1" | Out-String
+$deployExit = $LASTEXITCODE
 Write-Host $deployOut
-if ($LASTEXITCODE -ne 0) { throw "App Hosting deploy failed (exit $LASTEXITCODE)." }
-if ($deployOut -match 'Skipping deployments|Rollout for backend .* failed') { throw "App Hosting deploy did not roll out; see output above." }
+if ($deployOut -match 'timed out after') {
+  # The CLI stops waiting after 25 minutes, but a full Cloud Build of this site takes ~35, so a
+  # timeout is not a failure. Follow the rollout through the App Hosting API instead.
+  Wait-Rollout -Since $deployStart
+} else {
+  if ($deployExit -ne 0) { throw "App Hosting deploy failed (exit $deployExit)." }
+  if ($deployOut -match 'Skipping deployments|Rollout for backend .* failed') { throw "App Hosting deploy did not roll out; see output above." }
+}
 
 # ---------------------------------------------------------------- 7. notify search engines
 Step "IndexNow: tell Bing and friends which URLs changed"
