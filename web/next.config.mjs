@@ -84,6 +84,14 @@ const nextConfig = {
   env: derivedEnv,
   experimental: {
     serverComponentsExternalPackages: ["firebase-admin"],
+    // StrokeOrder reads public/kanjivg with fs, so file tracing copied just that folder into
+    // .next/standalone/public. App Hosting's adapter copies public/ into the standalone build only
+    // when no public/ is there yet, so it then skipped the rest: from 23 September to 29 October
+    // production served the kanji SVGs and 404'd every listening MP3 and the IndexNow key. Keep
+    // public/ out of the trace and let the adapter copy all of it; the fs reads still find it.
+    // Only effective on a POSIX build (App Hosting's): Next matches excludes against
+    // backslashed paths on Windows, so a local standalone build still traces kanjivg.
+    outputFileTracingExcludes: { "*": ["public/**/*"] },
   },
   async headers() {
     // On localhost never send HSTS or upgrade-insecure-requests, whatever NEXT_PUBLIC_SITE_URL says:
