@@ -26,6 +26,7 @@
     "seo:indexnow": "node scripts/indexnow.mjs",
     "ga:config": "node scripts/ga-config.mjs",
     "ga:report": "node scripts/ga-insights.mjs",
+    "logs:visitors": "node scripts/log-visitors.mjs",
     "content:lastmod": "node scripts/content-lastmod.mjs"
   },
   "dependencies": {
