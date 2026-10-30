@@ -34,7 +34,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     entries.push(url("/", 1, "daily"), url("/japanese", 0.9), url("/japanese/curriculum", 0.8, "monthly"), url("/about", 0.6, "monthly"), url("/privacy", 0.3, "yearly"), url("/terms", 0.3, "yearly"), url("/jlpt", 0.8, "monthly"), url("/jlpt/strategy", 0.8, "monthly"), url("/search", 0.3, "monthly"));
     for (const a of getStrategy()) entries.push(url(`/jlpt/strategy/${a.slug}`, 0.7, "monthly", a.id));
     // The public quiz: no account, and the pages people arrive on from "jlpt n5 kanji quiz".
-    entries.push(url("/quiz", 0.8, "monthly"));
+    entries.push(url("/quiz", 0.8, "monthly"), url("/quiz/verbs", 0.7, "monthly"));
     for (const c of quizCombos()) entries.push(url(quizPath(c.level, c.skill), 0.7, "monthly"));
     entries.push(url("/japanese/foundation", 0.9), url("/japanese/verbs", 0.8));
     for (const f of getFoundation()) entries.push(url(`/japanese/foundation/${f.slug}`, 0.7, "weekly", f.id));

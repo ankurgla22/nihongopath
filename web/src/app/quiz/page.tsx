@@ -45,6 +45,20 @@ export default function QuizIndexPage() {
       />
 
       <div className="max-w-content pb-10">
+        <section className="mt-6">
+          <h2 className="text-sm uppercase tracking-[0.14em] text-muted">Verbs</h2>
+          <ul className="mt-3 grid gap-2.5 sm:grid-cols-2">
+            <li>
+              <Link href="/quiz/verbs" className="focus-inset group flex items-center gap-4 surface surface-hover rounded-2xl px-5 py-4">
+                <span className="min-w-0 flex-1">
+                  <span className="block font-semibold text-ink">N5 and N4 verbs</span>
+                  <span className="mt-0.5 block text-sm text-muted">Verb → English, English → verb, or a mix</span>
+                </span>
+                <Arrow className="shrink-0 text-muted transition group-hover:translate-x-0.5 group-hover:text-accent" />
+              </Link>
+            </li>
+          </ul>
+        </section>
         {levels.map((level) => {
           const forLevel = combos.filter((c) => c.level === level);
           return (

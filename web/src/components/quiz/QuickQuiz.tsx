@@ -132,15 +132,15 @@ export function QuickQuiz({
     scrollUnderHeader(bodyRef.current, barRef.current);
   }, [round, index]);
 
+  // Not from inside a setChosen updater: StrictMode runs updaters twice in development, which
+  // recorded every answer twice (two progress dots per question). A second click cannot slip in
+  // before `chosen` updates: React re-renders between discrete events.
   const choose = useCallback((i: number) => {
-    setChosen((already) => {
-      if (already !== null) return already;
-      const cur = questions[index];
-      if (!cur || i >= cur.options.length) return already;
-      setAnswers((prev) => [...prev, { q: cur, chosen: i, correct: i === cur.answerIndex }]);
-      return i;
-    });
-  }, [questions, index]);
+    const cur = questions[index];
+    if (chosen !== null || !cur || i >= cur.options.length) return;
+    setChosen(i);
+    setAnswers((prev) => [...prev, { q: cur, chosen: i, correct: i === cur.answerIndex }]);
+  }, [questions, index, chosen]);
 
   const next = useCallback(() => {
     setChosen(null);

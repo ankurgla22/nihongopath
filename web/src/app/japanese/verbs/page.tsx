@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type React from "react";
-import { Breadcrumbs, Container, PageTitle, Section } from "@/components/ui";
+import { Arrow, Breadcrumbs, Button, Container, PageTitle, Section } from "@/components/ui";
 import { JsonLd } from "@/components/content/JsonLd";
 import { FaqSection } from "@/components/content/FaqSection";
 import { VerbFilters } from "@/components/verbs/VerbFilters";
@@ -193,6 +193,11 @@ export default function VerbsPage() {
           <>
             Japanese verbs <span className="text-muted font-normal tabular-nums">· {verbs.length}</span>
           </>
+        }
+        actions={
+          <Button href="/quiz/verbs">
+            Quiz yourself <Arrow />
+          </Button>
         }
         description={
           <>
