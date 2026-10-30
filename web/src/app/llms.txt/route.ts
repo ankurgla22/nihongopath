@@ -58,6 +58,7 @@ ${link("About Nihongo Path", "/about", "who builds the site, how lessons are mad
 ${link("Learning path", "/japanese", "all six levels in order, with what each one requires")}
 ${link("Curriculum overview", "/japanese/curriculum", "what each level teaches, what every level contains, the 270-day plan and how review works")}
 ${link("Foundation", "/japanese/foundation", "hiragana, katakana, pronunciation, numbers, dates and greetings")}
+${link("Japanese verbs", "/japanese/verbs", "every N5 and N4 verb with its group and its ます, て, ない and た forms, the conjugation rules and a full chart")}
 ${link("About the JLPT", "/jlpt", "levels, section structure, scoring and exam dates")}
 ${link("Exam strategy guides", "/jlpt/strategy", "how to prepare for and sit each section")}
 

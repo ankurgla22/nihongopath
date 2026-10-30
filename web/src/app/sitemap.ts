@@ -36,7 +36,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
     // The public quiz: no account, and the pages people arrive on from "jlpt n5 kanji quiz".
     entries.push(url("/quiz", 0.8, "monthly"));
     for (const c of quizCombos()) entries.push(url(quizPath(c.level, c.skill), 0.7, "monthly"));
-    entries.push(url("/japanese/foundation", 0.9));
+    entries.push(url("/japanese/foundation", 0.9), url("/japanese/verbs", 0.8));
     for (const f of getFoundation()) entries.push(url(`/japanese/foundation/${f.slug}`, 0.7, "weekly", f.id));
     for (const level of LEVELS) {
       const base = `/japanese/${level}`;

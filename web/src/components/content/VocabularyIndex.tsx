@@ -162,6 +162,14 @@ export function VocabularyIndex({ level, page }: { level: Level; page: number })
         }
       />
 
+      {(level === "n5" || level === "n4") && (
+        <p className="-mt-2 mb-6 text-sm">
+          <Link href="/japanese/verbs" className="font-medium text-accent hover:underline">
+            All {label} verbs with their ます, て, ない and た forms <Arrow className="inline h-3.5 w-3.5" />
+          </Link>
+        </p>
+      )}
+
       <nav aria-label="Groups on this page" className="mb-8 flex flex-wrap gap-1.5 text-sm">
         {groups.map(([name, list]) => (
           <a key={name} href={`#${slugify(name)}`} className="inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 h-8 text-ink-2 hover:border-accent/50 hover:text-accent hover:bg-accent-soft/40 transition">

@@ -37,6 +37,11 @@ export default function JapaneseIndexPage() {
             How the whole curriculum fits together <Arrow className="inline h-3.5 w-3.5" />
           </Link>
         </p>
+        <p className="mt-1 text-sm">
+          <Link href="/japanese/verbs" className="font-medium text-accent hover:underline">
+            Japanese verbs: every N5 and N4 verb with its forms <Arrow className="inline h-3.5 w-3.5" />
+          </Link>
+        </p>
       </header>
 
       <ol className="divide-y divide-line">
