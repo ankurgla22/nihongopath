@@ -74,7 +74,17 @@ export function QuickQuiz({
     setBeatenBest(false);
   }, [pool]);
 
-  // Round 0 is the server's; only redraw when the player asks for more.
+  // The server's round is the same for every visitor and every reload, so it is only what the HTML
+  // shows (a crawler, or the moment before the page is interactive). Once mounted, the browser draws
+  // its own random round; the ref keeps that to once, even when StrictMode runs effects twice.
+  const shuffledOnMount = useRef(false);
+  useEffect(() => {
+    if (shuffledOnMount.current) return;
+    shuffledOnMount.current = true;
+    draw();
+  }, [draw]);
+
+  // Later rounds: only when the player asks for more.
   useEffect(() => { if (round > 0) draw(); }, [draw, round]);
 
   // The best score lives in this browser only. Wrapped because storage throws in private windows.

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { QuickQuiz, type QuizLink } from "./QuickQuiz";
 import { QUIZ_LENGTH, type QuizQuestion } from "@/lib/quiz/shared";
 import { buildVerbQuestions, filterLevel, type VerbCard, type VerbQuizLevel, type VerbQuizMode } from "@/lib/quiz/verbQuiz";
@@ -30,13 +30,10 @@ const on = `${pill} border-accent bg-accent-soft text-accent-ink font-medium`;
 export function VerbQuiz({ cards, initial, studyHref, nextUp }: { cards: VerbCard[]; initial: QuizQuestion[]; studyHref: string; nextUp?: QuizLink[] }) {
   const [mode, setMode] = useState<VerbQuizMode>("mix");
   const [level, setLevel] = useState<VerbQuizLevel>("all");
-  const [round, setRound] = useState({ key: 0, pool: initial, first: initial });
-
-  // The default setting's full pool, for "Play again". Built after mount: Math.random during render
-  // would differ between server and browser.
-  useEffect(() => {
-    setRound((r) => (r.key === 0 ? { ...r, pool: buildVerbQuestions(cards, "mix") } : r));
-  }, [cards]);
+  // The full pool from the start, so QuickQuiz's opening shuffle draws from every verb rather than
+  // the server's ten. Building it with Math.random here is safe: the pool is never rendered (only
+  // `first` is), so the server's and the browser's pools may differ without a hydration mismatch.
+  const [round, setRound] = useState(() => ({ key: 0, pool: buildVerbQuestions(cards, "mix"), first: initial }));
 
   const change = (m: VerbQuizMode, l: VerbQuizLevel) => {
     setMode(m);
