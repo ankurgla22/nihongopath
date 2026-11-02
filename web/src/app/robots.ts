@@ -22,8 +22,13 @@ const PREFETCH = ["/*?_rsc=", "/*&_rsc="];
  * Crawlers that take and give nothing back: they scrape the site to sell backlink data. Together
  * they were a fifth of all requests. Both document that they honour a robots.txt disallow.
  * (Semrush and Ahrefs are deliberately not here — their data is useful to the site's owner.)
+ *
+ * Added after the October Cloud Run bill: on 28 October DotBot (Moz) and Reflectionbot (an AI lab
+ * that sends no visitors) made ~2,200 of the 13,000 requests that reached the server, mostly on
+ * the N3–N1 pages rendered on demand. Bytespider (ByteDance) takes training data and sends nobody.
+ * Amazonbot is left allowed: it feeds Alexa and Rufus answers, a possible source of visitors.
  */
-const SCRAPERS = ["MJ12bot", "SERankingBacklinksBot"];
+const SCRAPERS = ["MJ12bot", "SERankingBacklinksBot", "DotBot", "Reflectionbot", "Bytespider"];
 
 /**
  * Search and AI crawlers that fetch pages to answer questions or build indexes. Listed
