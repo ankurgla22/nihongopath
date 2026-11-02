@@ -1,5 +1,5 @@
 import "server-only";
-import { cache } from "react";
+import { once } from "@/lib/content/once";
 import { getVocabulary } from "@/lib/content";
 import { classify, conjugate, GROUP, type Forms, type VerbClass } from "./conjugate";
 import { toRomaji } from "./romaji";
@@ -30,7 +30,7 @@ export type Verb = {
 const IS_VERB = /(^|[^a-z])v\b|^v\s*\(|\bv[ti]\b|\bvs\b|\bv5|verb|suru|する/i;
 const IS_SURU_NOUN = /v-suru|\bvs\b|\(suru\)/i;
 
-export const getVerbs = cache((): Verb[] => {
+export const getVerbs = once((): Verb[] => {
   const seen = new Set<string>();
   const out: Verb[] = [];
   for (const level of VERB_LEVELS) {

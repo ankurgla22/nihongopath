@@ -1,7 +1,7 @@
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
-import { cache } from "react";
+import { once } from "@/lib/content/once";
 import { shuffleQuestionBank } from "@/lib/questions/shuffle";
 import {
   BookSchema,
@@ -58,7 +58,7 @@ function readDirJson<T>(relDir: string, schema: z.ZodType<T>): T[] {
 }
 
 /** Enriched lessons in content/<level>/grammar/*.json override base entries with the same order. */
-export const getGrammar = cache((level: Level): GrammarLesson[] => {
+export const getGrammar = once((level: Level): GrammarLesson[] => {
   const base = readJson(`${level}/grammar-base.json`, GrammarLessonSchema);
   const enriched = readDirJson(`${level}/grammar`, GrammarLessonSchema);
   const byOrder = new Map<number, GrammarLesson>();
@@ -67,7 +67,7 @@ export const getGrammar = cache((level: Level): GrammarLesson[] => {
   return [...byOrder.values()].sort((a, b) => a.order - b.order);
 });
 
-export const getVocabulary = cache((level: Level): VocabItem[] => {
+export const getVocabulary = once((level: Level): VocabItem[] => {
   const base = readJson(`${level}/vocabulary.json`, VocabItemSchema);
   const enriched = readDirJson(`${level}/vocabulary`, VocabItemSchema);
   const byWord = new Map<string, VocabItem>();
@@ -79,7 +79,7 @@ export const getVocabulary = cache((level: Level): VocabItem[] => {
   return [...byWord.values()].sort((a, b) => a.order - b.order);
 });
 
-export const getKanji = cache((level: Level): KanjiItem[] => {
+export const getKanji = once((level: Level): KanjiItem[] => {
   const base = readJson(`${level}/kanji.json`, KanjiItemSchema);
   const enriched = readDirJson(`${level}/kanji`, KanjiItemSchema);
   const byChar = new Map<string, KanjiItem>();
@@ -91,15 +91,15 @@ export const getKanji = cache((level: Level): KanjiItem[] => {
   return [...byChar.values()].sort((a, b) => a.order - b.order);
 });
 
-export const getReading = cache((level: Level): ReadingPassage[] =>
+export const getReading = once((level: Level): ReadingPassage[] =>
   readDirJson(`${level}/reading`, ReadingPassageSchema).sort((a, b) => a.order - b.order)
 );
 
-export const getListening = cache((level: Level): ListeningExercise[] =>
+export const getListening = once((level: Level): ListeningExercise[] =>
   readDirJson(`${level}/listening`, ListeningExerciseSchema).sort((a, b) => a.order - b.order)
 );
 
-export const getFoundation = cache((): FoundationLesson[] => readDirJson("foundation", FoundationLessonSchema).sort((a, b) => a.order - b.order));
+export const getFoundation = once((): FoundationLesson[] => readDirJson("foundation", FoundationLessonSchema).sort((a, b) => a.order - b.order));
 export function findFoundation(slug: string) {
   return getFoundation().find((f) => f.slug === slug);
 }
@@ -110,30 +110,30 @@ export function findFoundation(slug: string) {
  * shuffle happens once here rather than at each of the six render sites, which keeps
  * `answerIndex`, the per-option notes and every consumer consistent.
  */
-export const getQuestions = cache((): Question[] => shuffleQuestionBank(readDirJson("questions", QuestionSchema)));
+export const getQuestions = once((): Question[] => shuffleQuestionBank(readDirJson("questions", QuestionSchema)));
 
 /** Slim index of the whole bank (id/level/skill/difficulty/tags) — a fraction of the size of the full records. */
-export const getQuestionIndex = cache((): QuestionIndexEntry[] =>
+export const getQuestionIndex = once((): QuestionIndexEntry[] =>
   getQuestions().map(({ id, level, skill, difficulty, tags }) => ({ id, level, skill, difficulty, tags }))
 );
 
-export const getQuestionMap = cache((): Map<string, Question> => {
+export const getQuestionMap = once((): Map<string, Question> => {
   const m = new Map<string, Question>();
   for (const q of getQuestions()) m.set(q.id, q);
   return m;
 });
 
-export const getExams = cache((): ExamBlueprint[] => readDirJson("exams", ExamBlueprintSchema));
+export const getExams = once((): ExamBlueprint[] => readDirJson("exams", ExamBlueprintSchema));
 
-export const getStrategy = cache((): StrategyArticle[] => readDirJson("strategy", StrategyArticleSchema));
+export const getStrategy = once((): StrategyArticle[] => readDirJson("strategy", StrategyArticleSchema));
 
-export const getBooks = cache((): Book[] => {
+export const getBooks = once((): Book[] => {
   const file = path.join(CONTENT_DIR, "books.json");
   if (!fs.existsSync(file)) return [];
   return z.array(BookSchema).parse(JSON.parse(fs.readFileSync(file, "utf8")));
 });
 
-export const getCurriculum = cache((): Curriculum => {
+export const getCurriculum = once((): Curriculum => {
   const file = path.join(CONTENT_DIR, "curriculum", "curriculum.json");
   if (!fs.existsSync(file)) return { phases: [], days: [] };
   return CurriculumSchema.parse(JSON.parse(fs.readFileSync(file, "utf8")));
@@ -161,7 +161,7 @@ export function findExam(id: string) {
 }
 
 /** Resolve any content id to a public URL and title. */
-export const resolveContentId = cache((id: string): { href: string; title: string; type: string } | null => {
+export const resolveContentId = once((id: string): { href: string; title: string; type: string } | null => {
   if (id.startsWith("foundation-")) {
     const f = getFoundation().find((x) => x.id === id);
     return f ? { href: `/japanese/foundation/${f.slug}`, title: f.title, type: "kana" } : null;
@@ -191,7 +191,7 @@ export const resolveContentId = cache((id: string): { href: string; title: strin
   return null;
 });
 
-export const contentStats = cache(() => {
+export const contentStats = once(() => {
   const per = LEVELS.map((level) => ({
     level,
     grammar: getGrammar(level).length,

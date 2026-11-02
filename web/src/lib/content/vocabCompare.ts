@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { once } from "@/lib/content/once";
 import raw from "../../../content/vocab-compare.json";
 import { findVocab, getVocabulary } from "@/lib/content";
 import { LEVELS, type Level, type VocabItem } from "@/lib/content/schemas";
@@ -64,7 +64,7 @@ function locate(word: string): { item: VocabItem; level: Level } | undefined {
   return undefined;
 }
 
-export const vocabComparisons = cache((): VocabCompare[] =>
+export const vocabComparisons = once((): VocabCompare[] =>
   (raw as RawCompare[]).map((c) => ({
     ...c,
     level: c.level as Level,
@@ -75,7 +75,7 @@ export const vocabComparisons = cache((): VocabCompare[] =>
   }))
 );
 
-export const findVocabCompare = cache((level: string, slug: string): VocabCompare | undefined =>
+export const findVocabCompare = once((level: string, slug: string): VocabCompare | undefined =>
   vocabComparisons().find((c) => c.level === level && c.slug === slug)
 );
 
@@ -84,7 +84,7 @@ export function vocabComparePath(c: VocabCompare): string {
 }
 
 /** Comparisons that mention a word, for cross-linking from its own page. */
-export const comparisonsForWord = cache((word: string): VocabCompare[] =>
+export const comparisonsForWord = once((word: string): VocabCompare[] =>
   vocabComparisons().filter((c) => c.members.some((m) => m.word === word))
 );
 

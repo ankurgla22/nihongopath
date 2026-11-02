@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { once } from "@/lib/content/once";
 import { getQuestions } from "@/lib/content";
 import { LEVEL_LABEL, type Question } from "@/lib/content/schemas";
 import { QUIZ_LENGTH, QUIZ_SKILLS, type QuizLevel, type QuizQuestion, type QuizSkill } from "./shared";
@@ -56,10 +56,10 @@ function selfContained(q: Question): boolean {
   return q.options.length >= 2 && q.prompt.length <= 160;
 }
 
-const bank = cache((): Question[] => getQuestions().filter(selfContained));
+const bank = once((): Question[] => getQuestions().filter(selfContained));
 
 /** Every combination with enough questions to be worth a page. */
-export const quizCombos = cache((): QuizCombo[] => {
+export const quizCombos = once((): QuizCombo[] => {
   const out: QuizCombo[] = [];
   for (const level of ["foundation", "n5", "n4", "n3", "n2", "n1"] as QuizLevel[])
     for (const skill of QUIZ_SKILLS) {
@@ -77,7 +77,7 @@ export const quizCombos = cache((): QuizCombo[] => {
  * from it. That keeps the page cacheable — a server-side random draw would make every request
  * dynamic — while still giving a different quiz on each reset.
  */
-export const quizPool = cache((level: QuizLevel, skill: QuizSkill): QuizQuestion[] => {
+export const quizPool = once((level: QuizLevel, skill: QuizSkill): QuizQuestion[] => {
   const all = bank().filter((q) => q.level === level && q.skill === skill);
   // Take an even stride through the level rather than the first 60. The bank is in authoring
   // order, so the head of it is clustered by lesson — slicing meant a level's later questions

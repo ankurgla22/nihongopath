@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { once } from "@/lib/content/once";
 import { getGrammar } from "@/lib/content";
 import { LEVELS, type GrammarLesson, type Level } from "@/lib/content/schemas";
 
@@ -22,7 +22,7 @@ export type ComparePair = {
   baDiff?: string;
 };
 
-const grammarById = cache((): Map<string, GrammarLesson> => {
+const grammarById = once((): Map<string, GrammarLesson> => {
   const m = new Map<string, GrammarLesson>();
   for (const level of LEVELS) for (const g of getGrammar(level)) m.set(g.id, g);
   return m;
@@ -33,7 +33,7 @@ function rank(g: GrammarLesson) {
 }
 
 /** Every unique pair on the site. */
-export const comparePairs = cache((): ComparePair[] => {
+export const comparePairs = once((): ComparePair[] => {
   const byId = grammarById();
   const seen = new Map<string, ComparePair>();
   for (const level of LEVELS) {
@@ -55,7 +55,7 @@ export const comparePairs = cache((): ComparePair[] => {
   return [...seen.values()];
 });
 
-export const pairsForLevel = cache((level: Level): ComparePair[] => comparePairs().filter((p) => p.level === level));
+export const pairsForLevel = once((level: Level): ComparePair[] => comparePairs().filter((p) => p.level === level));
 
 /**
  * Second URL segment. Slugs are only unique within a level, and five cross-level pairs
